@@ -1,6 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
   "updateSequence": 2,
   "lastUpdated": "2026-04-07",
+  "lastSyncedAt": "2026-04-08T17:30:00.000Z",
   "warDay": 38,
   "summary": "Amidst a US deadline for Iran, US-Israeli forces have conducted strikes on Iranian infrastructure, while Iran, supported by regional proxies, continues to reject threats and engage in hostilities.",
   "lastNarrativeUpdate": "2026-04-07",

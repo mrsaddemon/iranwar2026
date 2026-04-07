@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import NuclearIndex from './NuclearIndex.jsx';
 
 const speeds = [1, 5, 20];
@@ -11,10 +11,52 @@ function getSimDate(dayCount, simStart) {
 
 export default function TopBar({
   dayCount, warDay, speed, running, nuclearIndex,
-  lastUpdated, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
+  lastUpdated, lastSyncedAt, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
 }) {
+  const [relativeNow, setRelativeNow] = useState(() => Date.now());
+  const updateCadenceMs = 15 * 60 * 1000;
   const totalWarDay = (warDay || 38) + dayCount;
   const currentDate = getSimDate(dayCount, simStart);
+  const relativeSyncText = useMemo(() => {
+    if (!lastSyncedAt) return null;
+
+    const syncedAt = new Date(lastSyncedAt);
+    const syncedMs = syncedAt.getTime();
+    if (!Number.isFinite(syncedMs)) return null;
+
+    const diffMs = Math.max(0, relativeNow - syncedMs);
+    const diffMinutes = Math.floor(diffMs / 60000);
+
+    if (diffMinutes < 1) return 'just now';
+    if (diffMinutes < 60) return `${diffMinutes}m ago`;
+
+    const diffHours = Math.floor(diffMinutes / 60);
+    if (diffHours < 24) {
+      const remMinutes = diffMinutes % 60;
+      return remMinutes === 0 ? `${diffHours}h ago` : `${diffHours}h ${remMinutes}m ago`;
+    }
+
+    const diffDays = Math.floor(diffHours / 24);
+    return diffDays === 1 ? '1d ago' : `${diffDays}d ago`;
+  }, [lastSyncedAt, relativeNow]);
+
+  const nextUpdateText = useMemo(() => {
+    const nextUpdateMs = (Math.floor(relativeNow / updateCadenceMs) + 1) * updateCadenceMs;
+    const remainingMs = Math.max(0, nextUpdateMs - relativeNow);
+    const totalSeconds = Math.floor(remainingMs / 1000);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+
+    return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+  }, [relativeNow, updateCadenceMs]);
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setRelativeNow(Date.now());
+    }, 1000);
+
+    return () => window.clearInterval(intervalId);
+  }, []);
 
   return (
     <div className="top-bar">
@@ -36,7 +78,14 @@ export default function TopBar({
         </div>
         <div className="sim-day sim-day-sync" style={{ opacity: 0.55 }}>
           <span className="day-label">LAST SYNC</span>
-          <span className="day-value" style={{ fontSize: 12 }}>{lastUpdated || 'N/A'}</span>
+          <span className="day-value" style={{ fontSize: 12 }}>
+            {lastUpdated || 'N/A'}
+            {relativeSyncText ? ` • ${relativeSyncText}` : ''}
+          </span>
+        </div>
+        <div className="sim-day sim-day-next-update" style={{ opacity: 0.55 }}>
+          <span className="day-label">NEXT UPDATE</span>
+          <span className="day-value" style={{ fontSize: 12 }}>{nextUpdateText}</span>
         </div>
       </div>
 

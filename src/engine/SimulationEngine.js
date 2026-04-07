@@ -61,6 +61,7 @@ export function createSimulationState() {
     allianceSupport: createAllianceSupport(LATEST_SNAPSHOT.alliance),
     updateSequence: LATEST_SNAPSHOT.updateSequence || 0,
     lastUpdated: LATEST_SNAPSHOT.lastUpdated,
+    lastSyncedAt: LATEST_SNAPSHOT.lastSyncedAt || null,
     snapshotSummary: LATEST_SNAPSHOT.summary,
     sourceStatuses: LATEST_SNAPSHOT.sourceStatuses || [],
     narratives: LATEST_SNAPSHOT.narratives || [],

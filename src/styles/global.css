@@ -1916,6 +1916,11 @@ html, body, #root {
     order: 10;
   }
 
+  .sim-day-next-update {
+    width: 100%;
+    order: 11;
+  }
+
   .sim-date {
     padding: 4px 10px;
   }

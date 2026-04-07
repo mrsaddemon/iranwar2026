@@ -635,9 +635,11 @@ function decorateUpdatedItems(previousItems = [], nextItems = [], currentSequenc
 
 function normalizeParams(rawParams, previousSnapshot, today, warDay) {
   const fallbackSnapshot = previousSnapshot || {};
+  const syncTimestamp = new Date().toISOString();
 
   return {
     lastUpdated: rawParams?.lastUpdated || today,
+    lastSyncedAt: rawParams?.lastSyncedAt || syncTimestamp,
     warDay: Number.isFinite(Number(rawParams?.warDay)) ? Number(rawParams.warDay) : warDay,
     summary: rawParams?.summary || fallbackSnapshot.summary || 'Regional fighting remains active across the conflict zone.',
     recentEvents: Array.isArray(rawParams?.recentEvents) ? rawParams.recentEvents : (fallbackSnapshot.recentEvents || []),
@@ -694,6 +696,7 @@ OUTPUT REQUIREMENT: Return ONLY a valid JSON object. No preamble, no explanation
 JSON Structure:
 {
   "lastUpdated": "${today}",
+  "lastSyncedAt": "${new Date().toISOString()}",
   "warDay": ${warDay},
   "summary": "1-sentence neutral factual summary",
   "recentEvents": [{"date": "MMM DD", "text": "description", "severity": "info|warning|critical"}],
@@ -829,6 +832,7 @@ function buildSnapshotModule(params, sourceBundle) {
   const snapshot = {
     updateSequence: params.updateSequence || 1,
     lastUpdated: params.lastUpdated,
+    lastSyncedAt: params.lastSyncedAt || new Date().toISOString(),
     warDay: params.warDay,
     summary: params.summary,
     lastNarrativeUpdate: params.lastNarrativeUpdate || null,

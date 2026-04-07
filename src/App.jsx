@@ -111,6 +111,7 @@ export default function App() {
         running={running}
         nuclearIndex={state.nuclearIndex}
         lastUpdated={state.lastUpdated}
+        lastSyncedAt={state.lastSyncedAt}
         simStart={state.lastUpdated}
         onSpeedChange={handleSpeedChange}
         onToggleRunning={handleToggleRunning}
