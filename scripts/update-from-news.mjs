@@ -23,6 +23,20 @@ const LIVEUAMAP_FEED_URL = process.env.LIVEUAMAP_FEED_URL;
 const IEA_API_KEY = process.env.IEA_API_KEY;
 const IEA_DATA_URL = process.env.IEA_DATA_URL;
 const OWID_ENERGY_DATA_URL = process.env.OWID_ENERGY_DATA_URL || 'https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv';
+const WAR_START_DATE = '2026-02-28';
+
+function getUtcDateKey(date = new Date()) {
+  return date.toISOString().split('T')[0];
+}
+
+function calculateWarDay(dateInput) {
+  const targetDate = typeof dateInput === 'string'
+    ? new Date(`${dateInput}T00:00:00.000Z`)
+    : new Date(dateInput);
+  const warStartDate = new Date(`${WAR_START_DATE}T00:00:00.000Z`);
+  const diffDays = Math.floor((targetDate.getTime() - warStartDate.getTime()) / (1000 * 60 * 60 * 24));
+  return Math.max(1, diffDays + 1);
+}
 
 // ==================== NEWS FETCHING ====================
 
@@ -675,9 +689,8 @@ function normalizeParams(rawParams, previousSnapshot, today, warDay) {
 }
 
 async function interpretNews(sourceBundle, oilPrice, { includeNarratives = true } = {}) {
-  const today = new Date().toISOString().split('T')[0];
-  const warStartDate = new Date('2026-02-28');
-  const warDay = Math.floor((new Date() - warStartDate) / (1000 * 60 * 60 * 24));
+  const today = getUtcDateKey();
+  const warDay = calculateWarDay(today);
 
   const prompt = `You are a simulation data engine. Based on the following data, generate simulation parameters.
   
@@ -881,9 +894,8 @@ async function main() {
   console.log(`- Oil market: ${oilPrice ? `ok ($${oilPrice})` : 'unavailable'}`);
   
   console.log('Interpreting with Gemini...');
-  const today = new Date().toISOString().split('T')[0];
-  const warStartDate = new Date('2026-02-28');
-  const warDay = Math.floor((new Date() - warStartDate) / (1000 * 60 * 60 * 24));
+  const today = getUtcDateKey();
+  const warDay = calculateWarDay(today);
   let rawParams;
 
   try {

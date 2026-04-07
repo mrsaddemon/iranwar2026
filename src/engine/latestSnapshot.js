@@ -2,7 +2,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "updateSequence": 3,
   "lastUpdated": "2026-04-07",
   "lastSyncedAt": "2026-04-07T21:28:12.272Z",
-  "warDay": 38,
+  "warDay": 39,
   "summary": "The conflict involving Iran, Israel, and the US has intensified with direct US-Israeli strikes on Iranian infrastructure, Iran's rejection of a US ultimatum, and joint retaliatory actions by Iran, Hezbollah, and Houthis against Israel, amidst rising tensions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {

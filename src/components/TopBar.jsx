@@ -2,6 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import NuclearIndex from './NuclearIndex.jsx';
 
 const speeds = [1, 5, 20];
+const UPDATE_CADENCE_MS = 15 * 60 * 1000;
+
 function getSimDate(dayCount, simStart) {
   const d = new Date(simStart || '2026-04-07');
   d.setDate(d.getDate() + dayCount);
@@ -9,14 +11,26 @@ function getSimDate(dayCount, simStart) {
   return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
+function formatUtcSyncLabel(lastUpdated, lastSyncedAt) {
+  if (!lastUpdated && !lastSyncedAt) return 'N/A';
+
+  const source = lastSyncedAt ? new Date(lastSyncedAt) : new Date(`${lastUpdated}T00:00:00.000Z`);
+  const sourceMs = source.getTime();
+  if (!Number.isFinite(sourceMs)) return lastUpdated || 'N/A';
+
+  const dateText = lastUpdated || source.toISOString().split('T')[0];
+  const timeText = source.toISOString().slice(11, 16);
+  return `${dateText} ${timeText} UTC`;
+}
+
 export default function TopBar({
   dayCount, warDay, speed, running, nuclearIndex,
   lastUpdated, lastSyncedAt, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
 }) {
   const [relativeNow, setRelativeNow] = useState(() => Date.now());
-  const updateCadenceMs = 15 * 60 * 1000;
-  const totalWarDay = (warDay || 38) + dayCount;
+  const totalWarDay = (warDay || 39) + dayCount;
   const currentDate = getSimDate(dayCount, simStart);
+  const syncLabel = useMemo(() => formatUtcSyncLabel(lastUpdated, lastSyncedAt), [lastUpdated, lastSyncedAt]);
   const relativeSyncText = useMemo(() => {
     if (!lastSyncedAt) return null;
 
@@ -41,14 +55,14 @@ export default function TopBar({
   }, [lastSyncedAt, relativeNow]);
 
   const nextUpdateText = useMemo(() => {
-    const nextUpdateMs = (Math.floor(relativeNow / updateCadenceMs) + 1) * updateCadenceMs;
+    const nextUpdateMs = (Math.floor(relativeNow / UPDATE_CADENCE_MS) + 1) * UPDATE_CADENCE_MS;
     const remainingMs = Math.max(0, nextUpdateMs - relativeNow);
     const totalSeconds = Math.floor(remainingMs / 1000);
     const minutes = Math.floor(totalSeconds / 60);
     const seconds = totalSeconds % 60;
 
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-  }, [relativeNow, updateCadenceMs]);
+  }, [relativeNow]);
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
@@ -77,14 +91,14 @@ export default function TopBar({
           <span className="day-value" style={{ fontSize: 14 }}>{dayCount}</span>
         </div>
         <div className="sim-day sim-day-sync" style={{ opacity: 0.55 }}>
-          <span className="day-label">LAST SYNC</span>
+          <span className="day-label">LAST SYNC UTC</span>
           <span className="day-value" style={{ fontSize: 12 }}>
-            {lastUpdated || 'N/A'}
+            {syncLabel}
             {relativeSyncText ? ` • ${relativeSyncText}` : ''}
           </span>
         </div>
         <div className="sim-day sim-day-next-update" style={{ opacity: 0.55 }}>
-          <span className="day-label">NEXT UPDATE</span>
+          <span className="day-label">NEXT UPDATE UTC</span>
           <span className="day-value" style={{ fontSize: 12 }}>{nextUpdateText}</span>
         </div>
       </div>
