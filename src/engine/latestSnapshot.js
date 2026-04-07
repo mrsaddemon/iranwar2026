@@ -1,41 +1,41 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1,
+  "updateSequence": 2,
   "lastUpdated": "2026-04-07",
   "warDay": 38,
-  "summary": "The US and Israel have conducted strikes on Iranian infrastructure, prompting Iran to warn of retaliation, while Trump has issued an ultimatum amidst escalating regional conflict involving proxies and concerns over the Strait of Hormuz.",
+  "summary": "Amidst a US deadline for Iran, US-Israeli forces have conducted strikes on Iranian infrastructure, while Iran, supported by regional proxies, continues to reject threats and engage in hostilities.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.95
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 93,
+    "nuclearIndex": 75,
+    "escalationLevel": 90,
     "oilDisruption": 85
   },
   "alliance": {
@@ -48,45 +48,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "Trump threatens 'a whole civilization will die tonight' ahead of Iran deadline.",
+      "text": "Trump's deadline for Iran approaches, with threats of severe consequences if unmet.",
       "severity": "critical",
-      "latestSinceUpdate": 1
+      "latestSinceUpdate": 2
     },
     {
       "date": "Apr 07",
-      "text": "US and Israeli forces strike Iranian infrastructure, including Kharg Island and AI learning facilities.",
-      "severity": "critical",
-      "latestSinceUpdate": 1
-    },
-    {
-      "date": "Apr 07",
-      "text": "Iran warns of 'devastating' retaliation after Trump's threats and US-Israeli strikes.",
-      "severity": "critical",
-      "latestSinceUpdate": 1
-    },
-    {
-      "date": "Apr 07",
-      "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strikes on Israel.",
+      "text": "US-Israeli forces conducted strikes on Iranian infrastructure, including Kharg Island.",
       "severity": "warning",
-      "latestSinceUpdate": 1
+      "latestSinceUpdate": 2
     },
     {
       "date": "Apr 07",
-      "text": "Brent Oil slides as concerns rise over the Strait of Hormuz, with Pakistan urging its opening.",
+      "text": "Hezbollah and Houthis joined Iran in strikes against Israel.",
       "severity": "warning",
-      "latestSinceUpdate": 1
+      "latestSinceUpdate": 2
     },
     {
       "date": "Apr 07",
-      "text": "IDF admits overestimating damage to Hezbollah, believes Iran can sustain missile fire.",
+      "text": "Brent oil slides as Pakistan urges Iran to open the Strait of Hormuz.",
       "severity": "info",
-      "latestSinceUpdate": 1
+      "latestSinceUpdate": 2
+    },
+    {
+      "date": "Apr 07",
+      "text": "An Israeli strike killed a Christian party official in Lebanon, exacerbating internal divides.",
+      "severity": "warning",
+      "latestSinceUpdate": 2
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
