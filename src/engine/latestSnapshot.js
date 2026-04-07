@@ -1,17 +1,17 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2,
+  "updateSequence": 3,
   "lastUpdated": "2026-04-07",
-  "lastSyncedAt": "2026-04-08T17:30:00.000Z",
+  "lastSyncedAt": "2026-04-07T21:28:12.272Z",
   "warDay": 38,
-  "summary": "Amidst a US deadline for Iran, US-Israeli forces have conducted strikes on Iranian infrastructure, while Iran, supported by regional proxies, continues to reject threats and engage in hostilities.",
+  "summary": "The conflict involving Iran, Israel, and the US has intensified with direct US-Israeli strikes on Iranian infrastructure, Iran's rejection of a US ultimatum, and joint retaliatory actions by Iran, Hezbollah, and Houthis against Israel, amidst rising tensions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.9
       }
     },
@@ -20,28 +20,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 90,
-    "oilDisruption": 85
+    "nuclearIndex": 65,
+    "escalationLevel": 85,
+    "oilDisruption": 80
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -49,33 +49,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "Trump's deadline for Iran approaches, with threats of severe consequences if unmet.",
+      "text": "US President issues an ultimatum to Iran, threatening severe consequences if demands are not met.",
       "severity": "critical",
-      "latestSinceUpdate": 2
+      "latestSinceUpdate": 3
     },
     {
       "date": "Apr 07",
-      "text": "US-Israeli forces conducted strikes on Iranian infrastructure, including Kharg Island.",
+      "text": "US-Israeli forces conduct strikes on Iranian infrastructure, including Kharg Island and AI learning facilities.",
+      "severity": "critical",
+      "latestSinceUpdate": 3
+    },
+    {
+      "date": "Apr 07",
+      "text": "Iran, Hezbollah, and Yemen's Houthis launch joint strikes against Israel.",
+      "severity": "critical",
+      "latestSinceUpdate": 3
+    },
+    {
+      "date": "Apr 07",
+      "text": "Iran rejects a temporary ceasefire proposal amidst escalating tensions.",
       "severity": "warning",
-      "latestSinceUpdate": 2
+      "latestSinceUpdate": 3
     },
     {
       "date": "Apr 07",
-      "text": "Hezbollah and Houthis joined Iran in strikes against Israel.",
-      "severity": "warning",
-      "latestSinceUpdate": 2
-    },
-    {
-      "date": "Apr 07",
-      "text": "Brent oil slides as Pakistan urges Iran to open the Strait of Hormuz.",
+      "text": "Russia and China block a UN resolution concerning the Strait of Hormuz.",
       "severity": "info",
-      "latestSinceUpdate": 2
+      "latestSinceUpdate": 3
     },
     {
       "date": "Apr 07",
-      "text": "An Israeli strike killed a Christian party official in Lebanon, exacerbating internal divides.",
+      "text": "An Israeli strike kills a Christian party official in Lebanon, further escalating regional divides.",
       "severity": "warning",
-      "latestSinceUpdate": 2
+      "latestSinceUpdate": 3
     }
   ],
   "sourceStatuses": [
