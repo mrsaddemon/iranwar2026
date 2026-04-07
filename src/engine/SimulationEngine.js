@@ -7,8 +7,44 @@ import { calculateNuclearDelta, generateNuclearEvent, calculateNuclearPrediction
 import { generateActionEvent, generateSecondaryEvents } from './events.js';
 
 // Date helper
-const SIM_START = new Date('2026-04-06');
+const SIM_START = new Date('2026-04-07');
+const INITIAL_WAR_DAY = 38;
+const INITIAL_GLOBALS = {
+  nuclearIndex: 75,
+  escalationLevel: 95,
+  oilDisruption: 90,
+};
+// AUTO-UPDATED RECENT EVENTS START
+const AUTO_UPDATED_RECENT_EVENTS = [
+  {
+    "date": "Apr 07",
+    "text": "US strikes military targets on Iran's Kharg Island, a major oil terminal.",
+    "severity": "critical"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Trump issues ultimatum to Iran, threatening 'a whole civilization will die' if demands are not met by deadline.",
+    "severity": "critical"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Iran rejects 45-day ceasefire proposal amidst ongoing conflict.",
+    "severity": "warning"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strikes on Israel.",
+    "severity": "warning"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Iranian missile strike damages cars and street in Israel.",
+    "severity": "warning"
+  }
+];
+// AUTO-UPDATED RECENT EVENTS END
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
 function getDateForDay(simDay) {
   const d = new Date(SIM_START);
   d.setDate(d.getDate() + simDay);
@@ -22,14 +58,14 @@ function makeTimestamp(dayCount, warDay) {
 export function createSimulationState() {
   return {
     dayCount: 0,
-    warDay: 38,
+    warDay: INITIAL_WAR_DAY,
     running: false,
     speed: 1,
     actors: createInitialActors(),
     proxyForces: { ...PROXY_FORCES },
-    nuclearIndex: 75,
-    escalationLevel: 95,
-    oilDisruption: 85,
+    nuclearIndex: INITIAL_GLOBALS.nuclearIndex,
+    escalationLevel: INITIAL_GLOBALS.escalationLevel,
+    oilDisruption: INITIAL_GLOBALS.oilDisruption,
     tradeImpact: 75,
     sanctionsPressure: 90,
     globalPressure: 80,
@@ -45,7 +81,7 @@ export function createSimulationState() {
     },
     warDurationRange: { min: 60, max: 240 },
     escalationProbability: 0.82,
-    nuclearPredictions: calculateNuclearPredictions(62),
+    nuclearPredictions: calculateNuclearPredictions(INITIAL_GLOBALS.nuclearIndex),
     // Alliance support (Russia/China backing Iran)
     allianceSupport: { ...ALLIANCE_SUPPORT },
     // Player control
@@ -59,15 +95,34 @@ export function createSimulationState() {
 }
 
 function generateInitialEvents() {
+  const severityIconMap = {
+    critical: '\u2694',
+    warning: '\u26A0',
+    stable: '\u{1F54A}',
+    info: '\u{1F4F0}',
+  };
+
   return [
-    { id: 'init-1', day: 0, timestamp: 'Day 37 of War', text: 'SITUATION: Active multi-front war \u2014 US-Israel vs Iran (since Feb 28)', severity: 'critical', icon: '\u2694', action: 'context', actor: 'System' },
-    { id: 'init-2', day: 0, timestamp: 'Apr 5', text: 'IRGC declares Strait of Hormuz "will never return to previous status"', severity: 'critical', icon: '\u2693', action: 'context', actor: 'Iran' },
-    { id: 'init-3', day: 0, timestamp: 'Mar 27', text: 'USS Tripoli ARG arrives in theater; USS Boxer en route', severity: 'info', icon: '\u{1F6A2}', action: 'context', actor: 'United States' },
-    { id: 'init-4', day: 0, timestamp: 'Mar 11', text: 'US forces sink 16 Iranian minelayers in Hormuz demining ops', severity: 'warning', icon: '\u{1F4A5}', action: 'context', actor: 'United States' },
-    { id: 'init-5', day: 0, timestamp: 'Mar 8', text: 'Mojtaba Khamenei named new Supreme Leader after father assassinated', severity: 'critical', icon: '\u{1F3DB}', action: 'context', actor: 'Iran' },
-    { id: 'init-6', day: 0, timestamp: 'Mar 8', text: 'Oil surpasses $100/bbl \u2014 largest energy disruption since 1970s', severity: 'warning', icon: '\u{1F4C8}', action: 'context', actor: 'Global' },
-    { id: 'init-7', day: 0, timestamp: 'Mar 2', text: 'Hezbollah re-enters war against Israel; 500+ Israeli strikes on Lebanon', severity: 'critical', icon: '\u{1F525}', action: 'context', actor: 'System' },
-    { id: 'init-8', day: 0, timestamp: 'Feb 28', text: 'WAR BEGINS: US-Israel joint strikes on Iran; Supreme Leader Khamenei killed', severity: 'critical', icon: '\u{1F480}', action: 'context', actor: 'System' },
+    {
+      id: 'init-summary',
+      day: 0,
+      timestamp: `Day ${INITIAL_WAR_DAY} of War`,
+      text: 'SITUATION: Active multi-front war \u2014 US-Israel vs Iran (since Feb 28)',
+      severity: 'critical',
+      icon: '\u2694',
+      action: 'context',
+      actor: 'System',
+    },
+    ...AUTO_UPDATED_RECENT_EVENTS.map((event, index) => ({
+      id: `init-news-${index + 1}`,
+      day: 0,
+      timestamp: event.date,
+      text: event.text,
+      severity: event.severity,
+      icon: severityIconMap[event.severity] || severityIconMap.info,
+      action: 'context',
+      actor: 'System',
+    })),
   ];
 }
 

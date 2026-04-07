@@ -27,8 +27,8 @@ export function createInitialActors() {
         morale: 70, // Military confidence high, public opinion divided
       },
       behavior: {
-        aggression: 1, // Actively at war, escalation-prone posture
-        precision: 0.9,
+        aggression: 0.95, // Actively at war, escalation-prone posture
+        precision: 0.8,
         diplomacyWeight: 0.25, // Diplomatic track collapsed Feb 28
         escalationThreshold: 0.65,
         asymmetricFactor: 0.1,
@@ -53,7 +53,7 @@ export function createInitialActors() {
       accentColor: '#c084fc',
       flag: '\u{1F1EE}\u{1F1F1}',
       metrics: {
-        militaryPower: 85,
+        militaryPower: 80,
         airSuperiority: 90, // Strong, 200+ jets used in June 2025 strikes
         missileCapacity: 80, // Depleted from sustained ops since June 2025
         droneCapability: 80,
@@ -63,7 +63,7 @@ export function createInitialActors() {
         morale: 60, // Military success but civilian stress from missile attacks
       },
       behavior: {
-        aggression: 0.9, // Very aggressive posture — multi-front ops
+        aggression: 0.85, // Very aggressive posture — multi-front ops
         precision: 0.8,
         diplomacyWeight: 0.15, // Minimal diplomacy
         escalationThreshold: 0.45, // Lower threshold — already escalated
@@ -92,7 +92,7 @@ export function createInitialActors() {
         // Rebalanced: ~50% IRGC + missile launchers intact (Apr 2 US intel assessment)
         // Russia provides S-400, satellite intel; China buys 90% of oil exports
         // "Mosaic Defense" decentralized C2 provides resilience
-        militaryPower: 55, // ~50% IRGC capability intact per US assessment
+        militaryPower: 75, // ~50% IRGC capability intact per US assessment
         airSuperiority: 15, // S-400 from Russia active near Isfahan; Su-35 deliveries
         missileCapacity: 70, // ~50% launchers intact; tunnel networks protected reserves
         droneCapability: 60, // Thousands of Shahed drones remain; production ongoing
@@ -126,13 +126,13 @@ export function createInitialActors() {
 // Russia/China alliance support for Iran — based on confirmed intelligence
 export const ALLIANCE_SUPPORT = {
   russiaIntelSupport: {
-    active: true,
+    active: false,
     label: 'Russian Satellite Intelligence',
     effect: 'Iran strike precision +10%',
     detail: 'Moscow providing real-time satellite imagery of US warships, aircraft, bases (CNN Mar 6)',
   },
   chinaEconomicSupport: {
-    active: true,
+    active: false,
     label: 'Chinese Economic Lifeline',
     effect: 'Iran economy degrades 50% slower',
     detail: 'China buys 90% of Iran oil (1.38M bbl/day), 1.2B barrel strategic reserve, construction-for-oil barter',

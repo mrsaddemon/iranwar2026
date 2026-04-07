@@ -77,7 +77,7 @@ export default function App() {
       {/* Announcement Banner */}
       <div className="announce-bar">
         <span className="announce-pulse" />
-        <span>DATA UPDATES EVERY 4 HOURS FROM LIVE NEWS SOURCES</span>
+        <span>DATA UPDATES EVERY 15 MINUTES FROM LIVE NEWS SOURCES</span>
         <span className="announce-dot">|</span>
         <span>Probabilistic model for educational purposes only</span>
       </div>

@@ -4,7 +4,7 @@ A real-time, probabilistic conflict simulation dashboard modeling the ongoing US
 
 **[Live Demo](https://iranuswarsim.mrsaddemon.workers.dev/)** | **[war.limboidtech.com](https://war.limboidtech.com)**
 
-![Simulation Dashboard](https://img.shields.io/badge/Status-LIVE-brightgreen) ![Auto Updates](https://img.shields.io/badge/News_Updates-Every_4hrs-blue) ![License](https://img.shields.io/badge/License-Educational-orange)
+![Simulation Dashboard](https://img.shields.io/badge/Status-LIVE-brightgreen) ![Auto Updates](https://img.shields.io/badge/News_Updates-Every_15min-blue) ![License](https://img.shields.io/badge/License-Educational-orange)
 
 ---
 
@@ -26,7 +26,7 @@ This is **NOT** a game for destruction. It is a strategic, educational scenario-
 - **7 war conclusion types** - ceasefire, regime collapse, military capitulation, coalition withdrawal, nuclear exchange, frozen conflict, regional conflagration
 - **Nuclear strike system** with detailed 4-page chain reaction outcomes (retaliation chains, world response, post-nuclear Earth timeline)
 - **Russia/China alliance modifiers** - satellite intelligence, S-400 air defense, Chinese economic lifeline, UNSC veto shield
-- **News-calibrated parameters** - auto-updates every 4 hours from live sources via Gemini AI
+- **News-calibrated parameters** - auto-updates every 15 minutes from live sources via Gemini AI
 - **Accurate Middle East map** with 15 countries/regions and animated military operations
 
 ---
@@ -97,7 +97,7 @@ Starting parameters are calibrated from:
 
 ### Auto-Update System
 
-Every 4 hours, a GitHub Actions workflow:
+Every 15 minutes, a GitHub Actions workflow:
 1. Fetches latest war headlines from Google News RSS (free)
 2. Fetches oil prices from Yahoo Finance (free)
 3. Sends to **Gemini Flash AI** (free tier) for interpretation
@@ -202,4 +202,4 @@ Built by [lmbdTech](https://www.youtube.com/@lmbdTech)
 
 ---
 
-*Data updates every 4 hours from live news sources. Last calibrated from CNN, Al Jazeera, CNBC, Soufan Center, CSIS, and US intelligence assessments.*
+*Data updates every 15 minutes from live news sources. Last calibrated from CNN, Al Jazeera, CNBC, Soufan Center, CSIS, and US intelligence assessments.*

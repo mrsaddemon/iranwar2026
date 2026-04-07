@@ -13,9 +13,9 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-// Change v1beta to v1
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-1.5-flash-latest';
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_API_VERSION = process.env.GEMINI_API_VERSION || 'v1beta';
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_URL = `https://generativelanguage.googleapis.com/${GEMINI_API_VERSION}/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
 // ==================== NEWS FETCHING ====================
 
@@ -123,7 +123,7 @@ async function askGemini(prompt) {
 
   if (!resp.ok) {
     const err = await resp.text();
-    throw new Error(`Gemini API error ${resp.status}: ${err}`);
+    throw new Error(`Gemini API error ${resp.status} using ${GEMINI_API_VERSION}/${GEMINI_MODEL}: ${err}`);
   }
 
   const data = await resp.json();
@@ -177,6 +177,11 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const ACTORS_PATH = join(ROOT, 'src', 'engine', 'actors.js');
 const ENGINE_PATH = join(ROOT, 'src', 'engine', 'SimulationEngine.js');
+const TOPBAR_PATH = join(ROOT, 'src', 'components', 'TopBar.jsx');
+
+function escapeRegExp(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
 function updateActorsFile(params) {
   let content = readFileSync(ACTORS_PATH, 'utf-8');
@@ -198,22 +203,67 @@ function updateActorsFile(params) {
     }
   });
 
+  if (params.alliance) {
+    for (const [key, val] of Object.entries(params.alliance)) {
+      const regex = new RegExp(`(${escapeRegExp(key)}:\\s*{[\\s\\S]*?active:\\s*)(true|false)`);
+      content = content.replace(regex, `$1${val}`);
+    }
+  }
+
   writeFileSync(ACTORS_PATH, content);
   console.log('Updated actors.js');
 }
 
 function updateEngineFile(params) {
   let content = readFileSync(ENGINE_PATH, 'utf-8');
-  
-  // Update global metrics
+
+  content = content.replace(/(const SIM_START = new Date\(')([^']+)('\);)/, `$1${params.lastUpdated}$3`);
+  content = content.replace(/(const INITIAL_WAR_DAY = )\d+;/, `$1${params.warDay};`);
+
   for (const [key, val] of Object.entries(params.global)) {
     const regex = new RegExp(`(${key}:\\s*)(\\d+)`);
     content = content.replace(regex, `$1${val}`);
   }
-  
-  content = content.replace(/(warDay:\s*)\d+/, `$1${params.warDay}`);
+
+  content = content.replace(
+    /(nuclearPredictions:\s*calculateNuclearPredictions\()\d+(\))/,
+    `$1${params.global.nuclearIndex}$2`,
+  );
+
+  const recentEvents = (params.recentEvents || [])
+    .slice(0, 6)
+    .map((event) => ({
+      date: event.date || params.lastUpdated,
+      text: event.text || params.summary,
+      severity: ['info', 'warning', 'critical', 'stable'].includes(event.severity) ? event.severity : 'info',
+    }));
+
+  if (recentEvents.length === 0) {
+    recentEvents.push({
+      date: params.lastUpdated,
+      text: params.summary,
+      severity: 'info',
+    });
+  }
+
+  const eventsBlock = `// AUTO-UPDATED RECENT EVENTS START\nconst AUTO_UPDATED_RECENT_EVENTS = ${JSON.stringify(recentEvents, null, 2)};\n// AUTO-UPDATED RECENT EVENTS END`;
+  content = content.replace(
+    /\/\/ AUTO-UPDATED RECENT EVENTS START[\s\S]*?\/\/ AUTO-UPDATED RECENT EVENTS END/,
+    eventsBlock,
+  );
+
   writeFileSync(ENGINE_PATH, content);
   console.log('Updated SimulationEngine.js');
+}
+
+function updateTopBarFile(params) {
+  let content = readFileSync(TOPBAR_PATH, 'utf-8');
+
+  content = content.replace(/(const SIM_START = new Date\(')([^']+)('\);)/, `$1${params.lastUpdated}$3`);
+  content = content.replace(/(\(warDay \|\| )\d+(\) \+ dayCount)/, `$1${params.warDay}$2`);
+
+  writeFileSync(TOPBAR_PATH, content);
+  console.log('Updated TopBar.jsx');
 }
 
 // ==================== MAIN ====================
@@ -230,6 +280,7 @@ async function main() {
   console.log(`Summary: ${params.summary}`);
   updateActorsFile(params);
   updateEngineFile(params);
+  updateTopBarFile(params);
   
   console.log('\n✅ Successfully updated simulation files!');
 }

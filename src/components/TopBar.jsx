@@ -4,8 +4,7 @@ import NuclearIndex from './NuclearIndex.jsx';
 const speeds = [1, 5, 20];
 
 // War started Feb 28, 2026. Simulation Day 0 = April 6, 2026 (War Day 37).
-const WAR_START = new Date('2026-02-28');
-const SIM_START = new Date('2026-04-06');
+const SIM_START = new Date('2026-04-07');
 
 function getSimDate(dayCount) {
   const d = new Date(SIM_START);
@@ -18,7 +17,7 @@ export default function TopBar({
   dayCount, warDay, speed, running, nuclearIndex,
   onSpeedChange, onToggleRunning, onReset, onFullscreen,
 }) {
-  const totalWarDay = (warDay || 37) + dayCount;
+  const totalWarDay = (warDay || 38) + dayCount;
   const currentDate = getSimDate(dayCount);
 
   return (
