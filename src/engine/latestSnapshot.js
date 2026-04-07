@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 5,
+  "updateSequence": 6,
   "lastUpdated": "2026-04-07",
-  "lastSyncedAt": "2026-04-07T22:24:48.686Z",
+  "lastSyncedAt": "2026-04-07T23:09:20.260Z",
   "warDay": 39,
-  "summary": "A direct conflict between the US and Iran is escalating, with US-Israeli strikes on Iranian infrastructure, threats regarding the Strait of Hormuz, and regional allies like Hezbollah and Houthis joining Iran in strikes against Israel.",
+  "summary": "A two-week ceasefire has been agreed upon between the US and Iran, contingent on Iran opening the Strait of Hormuz, following US-Israeli strikes and threats amidst ongoing regional conflict involving proxies.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {
     "usa": {
@@ -12,7 +12,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.95
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -20,24 +20,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 90,
-    "oilDisruption": 95
+    "nuclearIndex": 60,
+    "escalationLevel": 80,
+    "oilDisruption": 75
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -49,33 +49,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US President Trump threatens 'a whole civilization will die tonight' ahead of his Iran deadline.",
+      "text": "Trump issues threat to 'wipe out a whole civilization' against Iran.",
       "severity": "critical",
-      "latestSinceUpdate": 5
+      "latestSinceUpdate": 6
     },
     {
       "date": "Apr 07",
-      "text": "US-Israeli forces conduct strikes targeting Iranian infrastructure, including facilities related to AI learning.",
-      "severity": "critical",
-      "latestSinceUpdate": 5
+      "text": "Trump agrees to a two-week ceasefire with Iran to negotiate a 10-point peace deal.",
+      "severity": "info",
+      "latestSinceUpdate": 6
     },
     {
       "date": "Apr 07",
-      "text": "Iran maintains its stance on controlling the Strait of Hormuz amidst US demands for its reopening.",
+      "text": "US-Israeli forces conduct strikes on Iranian infrastructure, including Kharg Island.",
       "severity": "warning",
-      "latestSinceUpdate": 5
+      "latestSinceUpdate": 6
     },
     {
       "date": "Apr 07",
-      "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in launching strikes against Israel.",
-      "severity": "critical",
-      "latestSinceUpdate": 4
+      "text": "Hezbollah and Houthi forces join Iran in strikes against Israel.",
+      "severity": "warning",
+      "latestSinceUpdate": 6
     },
     {
       "date": "Apr 07",
-      "text": "US military strikes targets on Iran's Kharg Island.",
-      "severity": "critical",
-      "latestSinceUpdate": 5
+      "text": "Ceasefire agreement is made conditional on Iran opening the Strait of Hormuz.",
+      "severity": "info",
+      "latestSinceUpdate": 6
+    },
+    {
+      "date": "Apr 07",
+      "text": "UN chief decries 'incendiary rhetoric' amid escalating threats.",
+      "severity": "info",
+      "latestSinceUpdate": 6
     }
   ],
   "sourceStatuses": [
