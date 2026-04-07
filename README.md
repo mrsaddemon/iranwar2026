@@ -8,6 +8,10 @@ A real-time, probabilistic conflict simulation dashboard modeling the ongoing US
 
 ---
 
+![Dashboard Screenshot](screenshot.png)
+
+---
+
 ## What Is This?
 
 A next-generation strategic simulation dashboard that helps users understand **how conflicts escalate** through probabilistic modeling. It is calibrated to real-world conditions using live news data and models escalation dynamics, diplomatic channels, economic impacts, and nuclear risk.
@@ -29,9 +33,7 @@ This is **NOT** a game for destruction. It is a strategic, educational scenario-
 
 ## Screenshot
 
-<img width="1915" height="907" alt="image" src="https://github.com/user-attachments/assets/fd497453-4691-4e34-a203-286be37fb984" />
-
-
+<img width="1915" height="907" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/fd497453-4691-4e34-a203-286be37fb984" />
 ---
 
 ## Simulation Engine
