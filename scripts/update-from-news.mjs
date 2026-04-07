@@ -22,55 +22,109 @@ const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemi
 
 // ==================== NEWS FETCHING ====================
 
-async function fetchGoogleNews() {
-  // Google News RSS — free, no key needed
-  const topics = [
-    'Iran+war+2026',
-    'Iran+Israel+strikes+2026',
-    'Strait+of+Hormuz+blockade',
-    'Iran+nuclear+program',
-    'Hezbollah+Israel+war',
-    'oil+prices+Iran+war',
-    'US+military+Iran+Middle+East',
-  ];
-
+async function fetchNews() {
   const allHeadlines = [];
 
+  // Source 1: Google News RSS
+  const topics = ['Iran+war+2026', 'Iran+Israel+strikes', 'Strait+of+Hormuz', 'Hezbollah+Israel', 'US+military+Iran'];
   for (const topic of topics) {
     try {
       const url = `https://news.google.com/rss/search?q=${topic}&hl=en&gl=US&ceid=US:en`;
-      const resp = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+      const resp = await fetch(url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!resp.ok) continue;
       const text = await resp.text();
-
-      // Extract titles from RSS XML
       const titles = [...text.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>/g)].map(m => m[1]);
       const plainTitles = [...text.matchAll(/<title>(.*?)<\/title>/g)]
         .map(m => m[1])
-        .filter(t => t !== 'Google News' && !t.includes('search'));
-
-      allHeadlines.push(...titles.slice(0, 5), ...plainTitles.slice(0, 5));
+        .filter(t => t !== 'Google News' && !t.includes('search') && t.length > 10);
+      allHeadlines.push(...titles.slice(0, 4), ...plainTitles.slice(0, 4));
     } catch (e) {
-      console.warn(`Failed to fetch topic ${topic}:`, e.message);
+      console.warn(`RSS fetch failed for ${topic}: ${e.message}`);
     }
   }
 
-  return [...new Set(allHeadlines)].slice(0, 40);
+  // Source 2: Al Jazeera RSS (reliable, no bot blocking)
+  try {
+    const resp = await fetch('https://www.aljazeera.com/xml/rss/all.xml', {
+      signal: AbortSignal.timeout(8000),
+    });
+    if (resp.ok) {
+      const text = await resp.text();
+      const titles = [...text.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>/g)].map(m => m[1]);
+      const iranRelated = titles.filter(t =>
+        /iran|israel|hezbollah|hormuz|tehran|gaza|lebanon|houthi|middle.east|nuclear/i.test(t)
+      );
+      allHeadlines.push(...iranRelated.slice(0, 10));
+    }
+  } catch (e) {
+    console.warn('Al Jazeera RSS failed:', e.message);
+  }
+
+  // Source 3: Reuters RSS
+  try {
+    const resp = await fetch('https://www.reutersagency.com/feed/?best-topics=war-conflict', {
+      signal: AbortSignal.timeout(8000),
+    });
+    if (resp.ok) {
+      const text = await resp.text();
+      const titles = [...text.matchAll(/<title>(.*?)<\/title>/g)].map(m => m[1]);
+      const relevant = titles.filter(t =>
+        /iran|israel|hezbollah|hormuz|gulf|military|strike|nuclear/i.test(t)
+      );
+      allHeadlines.push(...relevant.slice(0, 8));
+    }
+  } catch (e) {
+    console.warn('Reuters RSS failed:', e.message);
+  }
+
+  const unique = [...new Set(allHeadlines)].slice(0, 40);
+  console.log(`Fetched ${unique.length} unique headlines`);
+
+  // If all sources failed, provide fallback context so Gemini can still generate params
+  if (unique.length === 0) {
+    console.warn('All news sources failed. Using fallback context.');
+    return [
+      'Ongoing US-Israel-Iran war since February 28, 2026',
+      'Strait of Hormuz remains blockaded by Iran',
+      'Oil prices elevated above $100/bbl due to conflict',
+      'Hezbollah engaged against Israel from Lebanon',
+      'Iranian protests continue amid economic collapse',
+      'US has 2 carrier strike groups deployed in region',
+      'Russia providing satellite intelligence to Iran',
+      'China continues economic support for Iran',
+    ];
+  }
+
+  return unique;
 }
 
 async function fetchOilPrice() {
-  try {
-    // Use a free finance endpoint
-    const resp = await fetch(
-      'https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=1d&interval=1d',
-      { headers: { 'User-Agent': 'Mozilla/5.0' } }
-    );
-    const data = await resp.json();
-    const price = data?.chart?.result?.[0]?.meta?.regularMarketPrice;
-    return price || null;
-  } catch (e) {
-    console.warn('Failed to fetch oil price:', e.message);
-    return null;
+  // Try multiple free endpoints
+  const endpoints = [
+    { url: 'https://query1.finance.yahoo.com/v8/finance/chart/BZ=F?range=1d&interval=1d', parse: (d) => d?.chart?.result?.[0]?.meta?.regularMarketPrice },
+    { url: 'https://query1.finance.yahoo.com/v8/finance/chart/CL=F?range=1d&interval=1d', parse: (d) => d?.chart?.result?.[0]?.meta?.regularMarketPrice },
+  ];
+
+  for (const ep of endpoints) {
+    try {
+      const resp = await fetch(ep.url, {
+        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!resp.ok) continue;
+      const data = await resp.json();
+      const price = ep.parse(data);
+      if (price) return price;
+    } catch (e) {
+      console.warn(`Oil price fetch failed: ${e.message}`);
+    }
   }
+
+  console.warn('All oil price sources failed. Using estimate.');
+  return null;
 }
 
 // ==================== GEMINI INTERPRETATION ====================
@@ -300,7 +354,7 @@ async function main() {
 
   // Step 1: Fetch news
   console.log('Fetching latest news headlines...');
-  const headlines = await fetchGoogleNews();
+  const headlines = await fetchNews();
   console.log(`Got ${headlines.length} headlines`);
 
   // Step 2: Fetch oil price
