@@ -1,3 +1,5 @@
+// Last auto-updated: 2026-04-07 (War Day 38)
+// Summary: The conflict has escalated significantly with the US striking Kharg Island and Trump issuing extreme threats. Iran has rejected a ceasefire, and its proxies have joined strikes against Israel, further regionalizing the war.
 // Actor behavior profiles — calibrated to real-world conditions as of April 6, 2026
 // Active war: US-Israel vs Iran (began Feb 28, 2026)
 // Strait of Hormuz blockaded, Hezbollah re-engaged, Khamenei assassinated
@@ -15,18 +17,18 @@ export function createInitialActors() {
       flag: '\u{1F1FA}\u{1F1F8}',
       metrics: {
         // Largest ME deployment since 2003: 2 carriers, 16 warships, 120+ aircraft
-        militaryPower: 97,
-        airSuperiority: 98, // F-35s, F-22s, F-15s, B-2 bombers deployed
-        missileCapacity: 92, // Tomahawk stocks depleted from June 2025 + Feb 2026 strikes
+        militaryPower: 90,
+        airSuperiority: 95, // F-35s, F-22s, F-15s, B-2 bombers deployed
+        missileCapacity: 90, // Tomahawk stocks depleted from June 2025 + Feb 2026 strikes
         droneCapability: 90,
-        navalControl: 85, // Strong but Hormuz mining is a challenge; sank 16 minelayers
-        economy: 78, // Oil shock causing stagflationary drag, but moderate impact
-        internalStability: 62, // War fatigue, domestic debate on intervention scope
-        morale: 72, // Military confidence high, public opinion divided
+        navalControl: 90, // Strong but Hormuz mining is a challenge; sank 16 minelayers
+        economy: 75, // Oil shock causing stagflationary drag, but moderate impact
+        internalStability: 70, // War fatigue, domestic debate on intervention scope
+        morale: 70, // Military confidence high, public opinion divided
       },
       behavior: {
-        aggression: 0.55, // Actively at war, escalation-prone posture
-        precision: 0.95,
+        aggression: 1, // Actively at war, escalation-prone posture
+        precision: 0.9,
         diplomacyWeight: 0.25, // Diplomatic track collapsed Feb 28
         escalationThreshold: 0.65,
         asymmetricFactor: 0.1,
@@ -53,16 +55,16 @@ export function createInitialActors() {
       metrics: {
         militaryPower: 85,
         airSuperiority: 90, // Strong, 200+ jets used in June 2025 strikes
-        missileCapacity: 70, // Depleted from sustained ops since June 2025
-        droneCapability: 86,
-        navalControl: 55, // Limited naval role
-        economy: 58, // War economy strain, prolonged multi-front conflict
-        internalStability: 52, // Multi-front war fatigue — Gaza, Lebanon, Iran
-        morale: 75, // Military success but civilian stress from missile attacks
+        missileCapacity: 80, // Depleted from sustained ops since June 2025
+        droneCapability: 80,
+        navalControl: 70, // Limited naval role
+        economy: 65, // War economy strain, prolonged multi-front conflict
+        internalStability: 60, // Multi-front war fatigue — Gaza, Lebanon, Iran
+        morale: 60, // Military success but civilian stress from missile attacks
       },
       behavior: {
-        aggression: 0.65, // Very aggressive posture — multi-front ops
-        precision: 0.92,
+        aggression: 0.9, // Very aggressive posture — multi-front ops
+        precision: 0.8,
         diplomacyWeight: 0.15, // Minimal diplomacy
         escalationThreshold: 0.45, // Lower threshold — already escalated
         asymmetricFactor: 0.15,
@@ -91,17 +93,17 @@ export function createInitialActors() {
         // Russia provides S-400, satellite intel; China buys 90% of oil exports
         // "Mosaic Defense" decentralized C2 provides resilience
         militaryPower: 55, // ~50% IRGC capability intact per US assessment
-        airSuperiority: 25, // S-400 from Russia active near Isfahan; Su-35 deliveries
-        missileCapacity: 65, // ~50% launchers intact; tunnel networks protected reserves
-        droneCapability: 68, // Thousands of Shahed drones remain; production ongoing
-        navalControl: 40, // Navy largely destroyed BUT Hormuz mines + fast boats remain
-        economy: 22, // China lifeline: 90% of oil exports, construction-for-oil barter
-        internalStability: 28, // Protests ongoing but Mosaic Defense keeps regime functional
-        morale: 52, // Defiant under attack; "rally around the flag" effect
+        airSuperiority: 15, // S-400 from Russia active near Isfahan; Su-35 deliveries
+        missileCapacity: 70, // ~50% launchers intact; tunnel networks protected reserves
+        droneCapability: 60, // Thousands of Shahed drones remain; production ongoing
+        navalControl: 25, // Navy largely destroyed BUT Hormuz mines + fast boats remain
+        economy: 25, // China lifeline: 90% of oil exports, construction-for-oil barter
+        internalStability: 35, // Protests ongoing but Mosaic Defense keeps regime functional
+        morale: 40, // Defiant under attack; "rally around the flag" effect
       },
       behavior: {
-        aggression: 0.70, // Fighting for regime survival
-        precision: 0.55, // Improved: Russian satellite intel enables better targeting
+        aggression: 0.9, // Fighting for regime survival
+        precision: 0.6, // Improved: Russian satellite intel enables better targeting
         diplomacyWeight: 0.10, // Diplomacy dead after Khamenei assassination
         escalationThreshold: 0.30, // Very low — already in total war mode
         asymmetricFactor: 0.90, // Primary strategy: asymmetric warfare
@@ -136,13 +138,13 @@ export const ALLIANCE_SUPPORT = {
     detail: 'China buys 90% of Iran oil (1.38M bbl/day), 1.2B barrel strategic reserve, construction-for-oil barter',
   },
   s400Active: {
-    active: true,
+    active: false,
     label: 'S-400 Air Defense (Russian)',
     effect: 'Airstrikes against Iran 20% less effective',
     detail: 'At least one S-400 division deployed near Isfahan; tested July 2025',
   },
   mosaicDefense: {
-    active: true,
+    active: false,
     label: 'Mosaic Defense Doctrine',
     effect: 'Iran stability degrades 40% slower',
     detail: 'Decentralized C2 structure; tunnel/cave networks protect launchers from targeting',
