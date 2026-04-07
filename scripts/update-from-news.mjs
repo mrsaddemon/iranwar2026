@@ -18,7 +18,7 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key=${GEMINI_API_KEY}`;
 
 // ==================== NEWS FETCHING ====================
 
