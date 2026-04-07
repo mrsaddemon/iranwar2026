@@ -566,7 +566,7 @@ async function askGemini(prompt) {
       contents: [{ parts: [{ text: prompt }] }],
       generationConfig: {
         temperature: 0.1, // Lower temperature for more consistent JSON
-        maxOutputTokens: 2048,
+        maxOutputTokens: 4096,
       },
     }),
   });
@@ -580,7 +580,80 @@ async function askGemini(prompt) {
   return data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 }
 
-async function interpretNews(sourceBundle, oilPrice) {
+function buildFallbackNarratives(params) {
+  const escalation = params.global?.escalationLevel ?? 50;
+  const oilDisruption = params.global?.oilDisruption ?? 50;
+  const nuclearIndex = params.global?.nuclearIndex ?? 50;
+  const summary = params.summary || 'Regional fighting continues under elevated geopolitical strain.';
+
+  return [
+    {
+      perspective: 'Western Coalition',
+      headline: escalation >= 80 ? 'Containment under severe strain' : 'Pressure with no clean finish',
+      summary: `${summary} In Western policy circles, the conflict is framed as a coercive campaign whose costs and spillover are rising faster than its strategic clarity.`,
+      tone: escalation >= 80 ? 'strained' : 'neutral',
+    },
+    {
+      perspective: 'Iran and Aligned Networks',
+      headline: escalation >= 80 ? 'Endurance as strategic leverage' : 'Survival through persistence',
+      summary: 'Iranian and aligned narratives emphasize resilience, deterrence through endurance, and the claim that regional pressure can outlast superior conventional firepower.',
+      tone: 'defiant',
+    },
+    {
+      perspective: 'Regional States',
+      headline: oilDisruption >= 75 ? 'Trade routes and state stability under pressure' : 'Contain the conflict, preserve the corridor',
+      summary: 'Across neighboring states, the dominant lens is practical: prevent wider collapse, protect shipping and energy flows, and avoid being dragged into an open-ended regional war.',
+      tone: oilDisruption >= 75 ? 'anxious' : 'neutral',
+    },
+    {
+      perspective: 'Global South / Non-Aligned View',
+      headline: nuclearIndex >= 70 ? 'Escalation seen as a system-level warning' : 'Conflict reframed as a test of global order',
+      summary: 'Many non-aligned audiences read the war through geopolitics rather than alliance loyalty, focusing on economic shock, uneven enforcement of norms, and the possibility of a more fragmented world order.',
+      tone: 'skeptical',
+    },
+  ];
+}
+
+function normalizeParams(rawParams, previousSnapshot, today, warDay) {
+  const fallbackSnapshot = previousSnapshot || {};
+
+  return {
+    lastUpdated: rawParams?.lastUpdated || today,
+    warDay: Number.isFinite(Number(rawParams?.warDay)) ? Number(rawParams.warDay) : warDay,
+    summary: rawParams?.summary || fallbackSnapshot.summary || 'Regional fighting remains active across the conflict zone.',
+    recentEvents: Array.isArray(rawParams?.recentEvents) ? rawParams.recentEvents : (fallbackSnapshot.recentEvents || []),
+    narratives: Array.isArray(rawParams?.narratives) ? rawParams.narratives : (fallbackSnapshot.narratives || []),
+    usa: {
+      militaryPower: rawParams?.usa?.militaryPower ?? fallbackSnapshot.actorOverrides?.usa?.metrics?.militaryPower ?? 90,
+      precision: rawParams?.usa?.precision ?? fallbackSnapshot.actorOverrides?.usa?.behavior?.precision ?? 0.8,
+      aggression: rawParams?.usa?.aggression ?? fallbackSnapshot.actorOverrides?.usa?.behavior?.aggression ?? 0.9,
+    },
+    israel: {
+      militaryPower: rawParams?.israel?.militaryPower ?? fallbackSnapshot.actorOverrides?.israel?.metrics?.militaryPower ?? 80,
+      precision: rawParams?.israel?.precision ?? fallbackSnapshot.actorOverrides?.israel?.behavior?.precision ?? 0.7,
+      aggression: rawParams?.israel?.aggression ?? fallbackSnapshot.actorOverrides?.israel?.behavior?.aggression ?? 0.8,
+    },
+    iran: {
+      militaryPower: rawParams?.iran?.militaryPower ?? fallbackSnapshot.actorOverrides?.iran?.metrics?.militaryPower ?? 75,
+      precision: rawParams?.iran?.precision ?? fallbackSnapshot.actorOverrides?.iran?.behavior?.precision ?? 0.6,
+      aggression: rawParams?.iran?.aggression ?? fallbackSnapshot.actorOverrides?.iran?.behavior?.aggression ?? 0.9,
+    },
+    global: {
+      nuclearIndex: rawParams?.global?.nuclearIndex ?? fallbackSnapshot.global?.nuclearIndex ?? 65,
+      escalationLevel: rawParams?.global?.escalationLevel ?? fallbackSnapshot.global?.escalationLevel ?? 95,
+      oilDisruption: rawParams?.global?.oilDisruption ?? fallbackSnapshot.global?.oilDisruption ?? 90,
+    },
+    alliance: {
+      russiaIntelSupport: rawParams?.alliance?.russiaIntelSupport ?? fallbackSnapshot.alliance?.russiaIntelSupport ?? false,
+      chinaEconomicSupport: rawParams?.alliance?.chinaEconomicSupport ?? fallbackSnapshot.alliance?.chinaEconomicSupport ?? false,
+      s400Active: rawParams?.alliance?.s400Active ?? fallbackSnapshot.alliance?.s400Active ?? false,
+      mosaicDefense: rawParams?.alliance?.mosaicDefense ?? fallbackSnapshot.alliance?.mosaicDefense ?? false,
+      unscShield: rawParams?.alliance?.unscShield ?? fallbackSnapshot.alliance?.unscShield ?? true,
+    },
+  };
+}
+
+async function interpretNews(sourceBundle, oilPrice, { includeNarratives = true } = {}) {
   const today = new Date().toISOString().split('T')[0];
   const warStartDate = new Date('2026-02-28');
   const warDay = Math.floor((new Date() - warStartDate) / (1000 * 60 * 60 * 24));
@@ -605,7 +678,7 @@ JSON Structure:
   "warDay": ${warDay},
   "summary": "1-sentence neutral factual summary",
   "recentEvents": [{"date": "MMM DD", "text": "description", "severity": "info|warning|critical"}],
-  "narratives": [{"perspective": "label", "headline": "short headline", "summary": "2-sentence narrative", "tone": "neutral|anxious|defiant|skeptical|strained"}],
+  ${includeNarratives ? '"narratives": [{"perspective": "label", "headline": "short headline", "summary": "2-sentence narrative", "tone": "neutral|anxious|defiant|skeptical|strained"}],' : ''}
   "usa": {"militaryPower": 0-100, "precision": 0.0-1.0, "aggression": 0.0-1.0},
   "israel": {"militaryPower": 0-100, "precision": 0.0-1.0, "aggression": 0.0-1.0},
   "iran": {"militaryPower": 0-100, "precision": 0.0-1.0, "aggression": 0.0-1.0},
@@ -620,7 +693,8 @@ Bias guardrails:
 - Keep wording neutral, factual, and source-grounded.
 - Avoid emotionally loaded phrases, propaganda framing, or moral judgments.
 - Do not infer motives or declare collapse, victory, or defeat unless the inputs strongly support it.
-- If evidence is mixed or thin, prefer smaller metric moves and cautious wording.`;
+- If evidence is mixed or thin, prefer smaller metric moves and cautious wording.
+${includeNarratives ? '- Narrative items should summarize distinct geopolitical perspectives without endorsing them.' : ''}`;
 
   const response = await askGemini(prompt);
   
@@ -783,15 +857,29 @@ async function main() {
   console.log(`- Oil market: ${oilPrice ? `ok ($${oilPrice})` : 'unavailable'}`);
   
   console.log('Interpreting with Gemini...');
-  const params = await interpretNews(sourceBundle, oilPrice);
-
   const today = new Date().toISOString().split('T')[0];
+  const warStartDate = new Date('2026-02-28');
+  const warDay = Math.floor((new Date() - warStartDate) / (1000 * 60 * 60 * 24));
+  let rawParams;
+
+  try {
+    rawParams = await interpretNews(sourceBundle, oilPrice, { includeNarratives: true });
+  } catch (error) {
+    console.warn(`Primary interpretation failed: ${error.message}`);
+    console.warn('Retrying with a smaller response shape...');
+    rawParams = await interpretNews(sourceBundle, oilPrice, { includeNarratives: false });
+  }
+
+  const params = normalizeParams(rawParams, previousSnapshot, today, warDay);
+
   if (previousSnapshot?.lastNarrativeUpdate === today && Array.isArray(previousSnapshot.narratives)) {
     params.narratives = previousSnapshot.narratives;
     params.lastNarrativeUpdate = previousSnapshot.lastNarrativeUpdate;
     console.log('Narratives reused from existing daily snapshot.');
   } else {
-    params.narratives = Array.isArray(params.narratives) ? params.narratives.slice(0, 4) : [];
+    params.narratives = Array.isArray(params.narratives) && params.narratives.length > 0
+      ? params.narratives.slice(0, 4)
+      : buildFallbackNarratives(params);
     params.lastNarrativeUpdate = today;
     console.log('Narratives refreshed for the current day.');
   }
