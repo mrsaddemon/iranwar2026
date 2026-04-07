@@ -1,17 +1,17 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 4,
+  "updateSequence": 5,
   "lastUpdated": "2026-04-07",
-  "lastSyncedAt": "2026-04-07T21:57:49.144Z",
+  "lastSyncedAt": "2026-04-07T22:24:48.686Z",
   "warDay": 39,
-  "summary": "The Middle East conflict intensifies on Day 39 with US-Israeli strikes on Iranian infrastructure, Iran's rejection of a ceasefire, and a looming deadline from President Trump.",
+  "summary": "A direct conflict between the US and Iran is escalating, with US-Israeli strikes on Iranian infrastructure, threats regarding the Strait of Hormuz, and regional allies like Hezbollah and Houthis joining Iran in strikes against Israel.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.95
       }
     },
@@ -20,24 +20,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.88
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
+        "precision": 0.7,
         "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 93,
-    "oilDisruption": 90
+    "nuclearIndex": 70,
+    "escalationLevel": 90,
+    "oilDisruption": 95
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -49,21 +49,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "President Trump issues an ultimatum to Iran, threatening severe consequences if demands are not met by tonight's deadline.",
+      "text": "US President Trump threatens 'a whole civilization will die tonight' ahead of his Iran deadline.",
       "severity": "critical",
-      "latestSinceUpdate": 4
+      "latestSinceUpdate": 5
     },
     {
       "date": "Apr 07",
-      "text": "US and Israeli forces conduct strikes on Iranian infrastructure, including military targets on Kharg Island.",
+      "text": "US-Israeli forces conduct strikes targeting Iranian infrastructure, including facilities related to AI learning.",
       "severity": "critical",
-      "latestSinceUpdate": 4
+      "latestSinceUpdate": 5
     },
     {
       "date": "Apr 07",
-      "text": "Iran rejects a 45-day ceasefire proposal amidst escalating conflict.",
+      "text": "Iran maintains its stance on controlling the Strait of Hormuz amidst US demands for its reopening.",
       "severity": "warning",
-      "latestSinceUpdate": 4
+      "latestSinceUpdate": 5
     },
     {
       "date": "Apr 07",
@@ -72,10 +72,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 4
     },
     {
-      "date": "Apr 06",
-      "text": "Russia and China block a UN resolution concerning the Strait of Hormuz.",
-      "severity": "info",
-      "latestSinceUpdate": 4
+      "date": "Apr 07",
+      "text": "US military strikes targets on Iran's Kharg Island.",
+      "severity": "critical",
+      "latestSinceUpdate": 5
     }
   ],
   "sourceStatuses": [
