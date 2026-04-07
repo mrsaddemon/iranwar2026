@@ -1,5 +1,5 @@
 // Last auto-updated: 2026-04-07
-// Summary: On War Day 38, President Trump issues extreme ultimatums to Iran, threatening a 'whole civilization' if a deal isn't met by a looming Strait of Hormuz deadline, as the US strikes Iran's Kharg Island and regional proxies like Hezbollah and Houthis join Iran in retaliatory attacks on Israel, while Russia and China veto a UN resolution to reopen the Strait.
+// Summary: The Middle East conflict has escalated dramatically on Day 38, with the US striking Iran's Kharg Island and President Trump issuing extreme threats of 'massive attacks' and 'killing a whole civilization' if Iran fails to meet a Strait of Hormuz deadline, while Iran rejects a ceasefire and continues strikes on Israel with its proxies.
 // Actor behavior profiles — calibrated to real-world conditions as of April 6, 2026
 // Active war: US-Israel vs Iran (began Feb 28, 2026)
 // Strait of Hormuz blockaded, Hezbollah re-engaged, Khamenei assassinated
@@ -28,7 +28,7 @@ export function createInitialActors() {
       },
       behavior: {
         aggression: 0.95, // Actively at war, escalation-prone posture
-        precision: 0.9,
+        precision: 0.7,
         diplomacyWeight: 0.25, // Diplomatic track collapsed Feb 28
         escalationThreshold: 0.65,
         asymmetricFactor: 0.1,
@@ -53,7 +53,7 @@ export function createInitialActors() {
       accentColor: '#c084fc',
       flag: '\u{1F1EE}\u{1F1F1}',
       metrics: {
-        militaryPower: 80,
+        militaryPower: 85,
         airSuperiority: 90, // Strong, 200+ jets used in June 2025 strikes
         missileCapacity: 80, // Depleted from sustained ops since June 2025
         droneCapability: 80,
@@ -63,8 +63,8 @@ export function createInitialActors() {
         morale: 60, // Military success but civilian stress from missile attacks
       },
       behavior: {
-        aggression: 0.9, // Very aggressive posture — multi-front ops
-        precision: 0.85,
+        aggression: 0.85, // Very aggressive posture — multi-front ops
+        precision: 0.8,
         diplomacyWeight: 0.15, // Minimal diplomacy
         escalationThreshold: 0.45, // Lower threshold — already escalated
         asymmetricFactor: 0.15,
@@ -92,7 +92,7 @@ export function createInitialActors() {
         // Rebalanced: ~50% IRGC + missile launchers intact (Apr 2 US intel assessment)
         // Russia provides S-400, satellite intel; China buys 90% of oil exports
         // "Mosaic Defense" decentralized C2 provides resilience
-        militaryPower: 70, // ~50% IRGC capability intact per US assessment
+        militaryPower: 75, // ~50% IRGC capability intact per US assessment
         airSuperiority: 15, // S-400 from Russia active near Isfahan; Su-35 deliveries
         missileCapacity: 70, // ~50% launchers intact; tunnel networks protected reserves
         droneCapability: 60, // Thousands of Shahed drones remain; production ongoing
@@ -103,7 +103,7 @@ export function createInitialActors() {
       },
       behavior: {
         aggression: 0.9, // Fighting for regime survival
-        precision: 0.65, // Improved: Russian satellite intel enables better targeting
+        precision: 0.5, // Improved: Russian satellite intel enables better targeting
         diplomacyWeight: 0.10, // Diplomacy dead after Khamenei assassination
         escalationThreshold: 0.30, // Very low — already in total war mode
         asymmetricFactor: 0.90, // Primary strategy: asymmetric warfare

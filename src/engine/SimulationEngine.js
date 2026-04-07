@@ -11,34 +11,39 @@ const SIM_START = new Date('2026-04-07');
 const INITIAL_WAR_DAY = 38;
 const INITIAL_GLOBALS = {
   nuclearIndex: 75,
-  escalationLevel: 95,
-  oilDisruption: 90,
+  escalationLevel: 90,
+  oilDisruption: 85,
 };
 // AUTO-UPDATED RECENT EVENTS START
 const AUTO_UPDATED_RECENT_EVENTS = [
   {
     "date": "Apr 07",
-    "text": "President Trump issues extreme threats and ultimatums to Iran, including a deadline for a deal, warning of 'a whole civilization' dying.",
+    "text": "Trump issues ultimatum, threatening 'a whole civilization' if Iran doesn't make a deal by deadline.",
     "severity": "critical"
   },
   {
     "date": "Apr 07",
-    "text": "Iran rejects a 45-day ceasefire proposal amidst escalating conflict.",
+    "text": "US strikes military targets on Iran's Kharg Island.",
+    "severity": "critical"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Russia and China veto UN resolution aimed at reopening Strait of Hormuz.",
     "severity": "warning"
   },
   {
     "date": "Apr 07",
-    "text": "US conducts strikes on military targets on Iran's Kharg Island, a major oil terminal.",
-    "severity": "critical"
+    "text": "Iran rejects 45-day ceasefire proposal.",
+    "severity": "warning"
   },
   {
     "date": "Apr 07",
-    "text": "Russia and China veto a UN resolution aimed at reopening the Strait of Hormuz, hours before Trump's deadline.",
-    "severity": "critical"
+    "text": "Iranian missile strike damages cars and street in Israel.",
+    "severity": "warning"
   },
   {
     "date": "Apr 07",
-    "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in missile strikes against Israel.",
+    "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strike on Israel.",
     "severity": "warning"
   }
 ];
