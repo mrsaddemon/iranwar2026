@@ -505,8 +505,16 @@ export function checkWarConclusion(state) {
 // ==================== MAP ANIMATION ====================
 
 function generateMapAnimation(actorId, action, day, options = {}) {
-  const origins = { usa: { x: 0.18, y: 0.36 }, israel: { x: 0.35, y: 0.31 }, iran: { x: 0.73, y: 0.30 } };
-  const targets = { usa: { x: 0.18, y: 0.36 }, israel: { x: 0.35, y: 0.31 }, iran: { x: 0.73, y: 0.30 } };
+  const origins = {
+    usa: { lon: 51.32, lat: 25.12 },
+    israel: { lon: 34.78, lat: 32.08 },
+    iran: { lon: 51.39, lat: 35.68 },
+  };
+  const targets = {
+    usa: { lon: 50.58, lat: 26.22 },
+    israel: { lon: 34.78, lat: 32.08 },
+    iran: { lon: 51.39, lat: 35.68 },
+  };
 
   const origin = origins[actorId];
   const resolvedTargetActorId = options.targetActorId || (
@@ -516,7 +524,10 @@ function generateMapAnimation(actorId, action, day, options = {}) {
   );
   let target = targets[resolvedTargetActorId] || targets.iran;
 
-  target = { x: target.x + (Math.random() - 0.5) * 0.08, y: target.y + (Math.random() - 0.5) * 0.08 };
+  target = {
+    lon: target.lon + ((Math.random() - 0.5) * 2.2),
+    lat: target.lat + ((Math.random() - 0.5) * 1.8),
+  };
 
   const typeMap = {
     missileStrike: 'missile', droneOperation: 'drone', airstrike: 'airstrike',
