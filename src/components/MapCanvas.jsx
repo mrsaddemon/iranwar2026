@@ -28,8 +28,8 @@ const REGIONS = {
     ],
   },
   lebanon: {
-    color: 'rgba(239, 68, 68, 0.14)',
-    borderColor: 'rgba(239, 68, 68, 0.6)',
+    color: 'rgba(249, 115, 22, 0.12)',
+    borderColor: 'rgba(249, 115, 22, 0.55)',
     label: 'LEB',
     labelPos: { x: 0.34, y: 0.22 },
     activeConflict: true,
@@ -292,7 +292,7 @@ const CONFLICT_ZONES = [
 const CITY_CORES = [
   { x: 0.73, y: 0.22, color: [34, 197, 94], label: 'Tehran', detail: 'Political center of gravity and strategic command node for Iran.' },
   { x: 0.35, y: 0.31, color: [59, 130, 246], label: 'Tel Aviv', detail: 'Israeli economic and military command hub with dense air-defense coverage.' },
-  { x: 0.33, y: 0.22, color: [239, 100, 100], label: 'Beirut', detail: 'Lebanese capital and a key reference point for the northern escalation front.' },
+  { x: 0.33, y: 0.22, color: [249, 115, 22], label: 'Beirut', detail: 'Lebanese capital and a key reference point for the northern escalation front.' },
   { x: 0.52, y: 0.20, color: [100, 100, 140], label: 'Baghdad', detail: 'Iraqi political center exposed to regional spillover and proxy pressure.' },
   { x: 0.66, y: 0.30, color: [200, 120, 80], label: 'Isfahan', detail: 'Strategic Iranian interior hub tied to military industry and logistics depth.' },
 ];
