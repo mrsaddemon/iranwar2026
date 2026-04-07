@@ -26,15 +26,15 @@ export default function TopBar({
         <div className="sim-date">
           <span className="date-value">{currentDate}</span>
         </div>
-        <div className="sim-day">
+        <div className="sim-day sim-day-primary">
           <span className="day-label">WAR DAY</span>
           <span className="day-value">{totalWarDay}</span>
         </div>
-        <div className="sim-day" style={{ opacity: 0.5 }}>
+        <div className="sim-day sim-day-secondary" style={{ opacity: 0.5 }}>
           <span className="day-label">SIM +</span>
           <span className="day-value" style={{ fontSize: 14 }}>{dayCount}</span>
         </div>
-        <div className="sim-day" style={{ opacity: 0.55 }}>
+        <div className="sim-day sim-day-sync" style={{ opacity: 0.55 }}>
           <span className="day-label">LAST SYNC</span>
           <span className="day-value" style={{ fontSize: 12 }}>{lastUpdated || 'N/A'}</span>
         </div>

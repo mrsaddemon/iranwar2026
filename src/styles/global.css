@@ -123,6 +123,60 @@ html, body, #root {
   display: flex; align-items: center; gap: 8px;
 }
 
+.nuclear-index {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 14px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 8px;
+  transition: all 0.8s ease;
+  min-width: 0;
+}
+
+.nuclear-index-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'JetBrains Mono', monospace;
+  white-space: nowrap;
+}
+
+.nuclear-index-bar {
+  width: 100px;
+  height: 6px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.nuclear-index-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s ease;
+}
+
+.nuclear-index-value {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  min-width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.nuclear-index-state {
+  font-size: 9px;
+  opacity: 0.8;
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
 .speed-controls {
   display: flex; gap: 2px;
   background: rgba(255,255,255,0.03);
@@ -1704,3 +1758,332 @@ html, body, #root {
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+
+/* ======== RESPONSIVE ======== */
+
+@media (max-width: 1180px) {
+  html, body, #root {
+    height: auto;
+    min-height: 100%;
+    overflow: auto;
+  }
+
+  .app-shell {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .announce-bar {
+    height: auto;
+    min-height: 24px;
+    padding: 6px 12px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.45;
+  }
+
+  .top-bar {
+    height: auto;
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    gap: 10px 12px;
+  }
+
+  .top-bar-left {
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+  }
+
+  .top-bar-center {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-bar-right {
+    margin-left: auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .main-content {
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .center-panel {
+    order: 1;
+    min-height: 42vh;
+    height: 42vh;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: auto;
+    min-height: 220px;
+    max-height: 280px;
+    border-left: none;
+    border-right: none;
+  }
+
+  .left-panel {
+    order: 2;
+    border-top: 1px solid var(--border-panel);
+    border-bottom: 1px solid var(--border-panel);
+  }
+
+  .right-panel {
+    order: 3;
+    border-top: 1px solid var(--border-panel);
+  }
+
+  .bottom-panel {
+    height: auto;
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+
+  .bottom-section {
+    flex: 1 1 320px;
+    min-height: 180px;
+  }
+
+  .narratives-section {
+    min-width: 0;
+    flex: 1 1 100%;
+  }
+
+  .player-controls {
+    height: auto;
+    min-height: 240px;
+  }
+
+  .social-footer {
+    height: auto;
+    min-height: 28px;
+    padding: 6px 12px;
+    flex-wrap: wrap;
+  }
+
+  .war-conclusion-panel {
+    padding: 28px 30px;
+    max-height: 88vh;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 760px) {
+  html, body, #root {
+    font-size: 12px;
+  }
+
+  .announce-bar {
+    font-size: 8px;
+    gap: 6px;
+  }
+
+  .announce-dot {
+    display: none;
+  }
+
+  .logo-text {
+    font-size: 10px;
+    letter-spacing: 1.2px;
+  }
+
+  .top-bar-left {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, max-content));
+    gap: 8px 10px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .top-bar-left .logo {
+    grid-column: 1 / -1;
+  }
+
+  .sim-day-secondary {
+    display: none;
+  }
+
+  .sim-day-sync {
+    width: 100%;
+    order: 10;
+  }
+
+  .sim-date {
+    padding: 4px 10px;
+  }
+
+  .date-value {
+    font-size: 11px;
+  }
+
+  .day-label {
+    font-size: 8px;
+  }
+
+  .day-value {
+    font-size: 15px;
+  }
+
+  .top-bar-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .speed-controls {
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .speed-btn {
+    flex: 1;
+    min-height: 36px;
+    padding: 6px 8px;
+  }
+
+  .ctrl-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 17px;
+  }
+
+  .nuclear-index {
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 6px 10px;
+  }
+
+  .nuclear-index-bar {
+    flex: 1 1 auto;
+    width: auto;
+    min-width: 64px;
+  }
+
+  .nuclear-index-label,
+  .nuclear-index-state {
+    font-size: 8px;
+  }
+
+  .panel-header {
+    padding: 10px 12px 8px;
+  }
+
+  .actor-list,
+  .event-list {
+    padding: 6px;
+  }
+
+  .metric-label {
+    width: 92px;
+    font-size: 9px;
+  }
+
+  .event-item {
+    padding: 8px 9px;
+  }
+
+  .bottom-tabs {
+    position: sticky;
+    bottom: 0;
+    z-index: 6;
+  }
+
+  .bottom-tab-btn {
+    padding: 9px 12px;
+    font-size: 9px;
+  }
+
+  .bottom-section {
+    padding: 10px 12px;
+    flex-basis: 100%;
+    min-height: 0;
+  }
+
+  .prob-bar-row {
+    gap: 6px;
+  }
+
+  .prob-label {
+    width: 112px;
+    font-size: 9px;
+  }
+
+  .gauges-grid {
+    gap: 10px;
+  }
+
+  .narratives-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .player-controls {
+    padding: 10px 12px;
+  }
+
+  .pc-actor-selector {
+    flex-wrap: wrap;
+  }
+
+  .pc-actions-grid {
+    gap: 6px;
+  }
+
+  .pc-action-btn {
+    flex: 1 1 calc(50% - 6px);
+    min-height: 38px;
+    white-space: normal;
+    align-items: flex-start;
+  }
+
+  .pc-toggle-label {
+    flex-wrap: wrap;
+    gap: 4px 6px;
+  }
+
+  .pc-toggle-hint {
+    width: 100%;
+    margin-left: 18px;
+  }
+
+  .target-picker {
+    min-width: 0;
+    width: min(92vw, 420px);
+    padding: 16px 18px;
+  }
+
+  .tp-countries {
+    flex-direction: column;
+  }
+
+  .nuke-modal {
+    width: min(92vw, 420px);
+    padding: 24px 18px;
+  }
+
+  .nuke-modal-buttons {
+    flex-direction: column;
+  }
+
+  .war-conclusion-panel {
+    width: 94%;
+    padding: 22px 18px;
+  }
+
+  .wc-stats,
+  .nuc-final-stats {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .social-footer {
+    gap: 10px;
+  }
+}

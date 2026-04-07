@@ -451,7 +451,19 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
   const offsetRef = useRef({ x: 0, y: 0 });
   const scaleRef = useRef(1);
   const dragRef = useRef({ dragging: false, lastX: 0, lastY: 0 });
+  const touchRef = useRef({ mode: null, lastX: 0, lastY: 0, lastDistance: 0, lastMidpoint: null });
   const timeRef = useRef(0);
+
+  const scaleAroundPoint = useCallback((pointX, pointY, nextScale) => {
+    const currentScale = scaleRef.current;
+    const clampedScale = Math.max(0.5, Math.min(3, nextScale));
+    if (clampedScale === currentScale) return;
+
+    const ratio = clampedScale / currentScale;
+    offsetRef.current.x = pointX - ((pointX - offsetRef.current.x) * ratio);
+    offsetRef.current.y = pointY - ((pointY - offsetRef.current.y) * ratio);
+    scaleRef.current = clampedScale;
+  }, []);
 
   const draw = useCallback((ctx, width, height, time) => {
     timeRef.current = time;
@@ -732,12 +744,8 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
 
     const centerX = rect.width / 2;
     const centerY = rect.height / 2;
-    const ratio = nextScale / currentScale;
-
-    offsetRef.current.x = centerX - ((centerX - offsetRef.current.x) * ratio);
-    offsetRef.current.y = centerY - ((centerY - offsetRef.current.y) * ratio);
-    scaleRef.current = nextScale;
-  }, []);
+    scaleAroundPoint(centerX, centerY, nextScale);
+  }, [scaleAroundPoint]);
 
   const handleMouseDown = useCallback((e) => {
     setHoveredItem(null);
@@ -793,6 +801,96 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
     setHoveredItem(null);
   }, []);
 
+  const handleTouchStart = useCallback((e) => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    setHoveredItem(null);
+    const rect = canvas.getBoundingClientRect();
+
+    if (e.touches.length === 1) {
+      touchRef.current = {
+        mode: 'pan',
+        lastX: e.touches[0].clientX,
+        lastY: e.touches[0].clientY,
+        lastDistance: 0,
+        lastMidpoint: null,
+      };
+      return;
+    }
+
+    if (e.touches.length >= 2) {
+      const [a, b] = e.touches;
+      touchRef.current = {
+        mode: 'pinch',
+        lastX: 0,
+        lastY: 0,
+        lastDistance: Math.hypot(b.clientX - a.clientX, b.clientY - a.clientY),
+        lastMidpoint: {
+          x: ((a.clientX + b.clientX) / 2) - rect.left,
+          y: ((a.clientY + b.clientY) / 2) - rect.top,
+        },
+      };
+    }
+  }, []);
+
+  const handleTouchMove = useCallback((e) => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect();
+
+    if (touchRef.current.mode === 'pan' && e.touches.length === 1) {
+      const touch = e.touches[0];
+      const dx = touch.clientX - touchRef.current.lastX;
+      const dy = touch.clientY - touchRef.current.lastY;
+      offsetRef.current.x += dx;
+      offsetRef.current.y += dy;
+      touchRef.current.lastX = touch.clientX;
+      touchRef.current.lastY = touch.clientY;
+      return;
+    }
+
+    if (e.touches.length >= 2) {
+      const [a, b] = e.touches;
+      const distance = Math.hypot(b.clientX - a.clientX, b.clientY - a.clientY);
+      const midpoint = {
+        x: ((a.clientX + b.clientX) / 2) - rect.left,
+        y: ((a.clientY + b.clientY) / 2) - rect.top,
+      };
+
+      if (touchRef.current.lastDistance > 0) {
+        const nextScale = scaleRef.current * (distance / touchRef.current.lastDistance);
+        scaleAroundPoint(midpoint.x, midpoint.y, nextScale);
+      }
+
+      if (touchRef.current.lastMidpoint) {
+        offsetRef.current.x += midpoint.x - touchRef.current.lastMidpoint.x;
+        offsetRef.current.y += midpoint.y - touchRef.current.lastMidpoint.y;
+      }
+
+      touchRef.current.mode = 'pinch';
+      touchRef.current.lastDistance = distance;
+      touchRef.current.lastMidpoint = midpoint;
+    }
+  }, [scaleAroundPoint]);
+
+  const handleTouchEnd = useCallback((e) => {
+    if (e.touches.length === 1) {
+      touchRef.current = {
+        mode: 'pan',
+        lastX: e.touches[0].clientX,
+        lastY: e.touches[0].clientY,
+        lastDistance: 0,
+        lastMidpoint: null,
+      };
+      return;
+    }
+
+    touchRef.current = { mode: null, lastX: 0, lastY: 0, lastDistance: 0, lastMidpoint: null };
+  }, []);
+
   return (
     <div style={{ width: '100%', height: '100%', position: 'relative', cursor: 'grab' }}>
       <canvas
@@ -802,7 +900,11 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseLeave}
-        style={{ width: '100%', height: '100%', display: 'block' }}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchEnd}
+        style={{ width: '100%', height: '100%', display: 'block', touchAction: 'none' }}
       />
       {hoveredItem && (
         <div
