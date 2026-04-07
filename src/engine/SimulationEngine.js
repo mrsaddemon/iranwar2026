@@ -10,31 +10,26 @@ import { generateActionEvent, generateSecondaryEvents } from './events.js';
 const SIM_START = new Date('2026-04-07');
 const INITIAL_WAR_DAY = 38;
 const INITIAL_GLOBALS = {
-  nuclearIndex: 75,
-  escalationLevel: 90,
-  oilDisruption: 85,
+  nuclearIndex: 65,
+  escalationLevel: 95,
+  oilDisruption: 90,
 };
 // AUTO-UPDATED RECENT EVENTS START
 const AUTO_UPDATED_RECENT_EVENTS = [
   {
     "date": "Apr 07",
-    "text": "Trump issues ultimatum, threatening 'a whole civilization' if Iran doesn't make a deal by deadline.",
+    "text": "Trump calls for killing a ‘whole civilization’ and repeats threats of infrastructure attacks against Iran.",
     "severity": "critical"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Iran rejects a 45-day ceasefire proposal amidst looming Strait of Hormuz deadline.",
+    "severity": "warning"
   },
   {
     "date": "Apr 07",
     "text": "US strikes military targets on Iran's Kharg Island.",
     "severity": "critical"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Russia and China veto UN resolution aimed at reopening Strait of Hormuz.",
-    "severity": "warning"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Iran rejects 45-day ceasefire proposal.",
-    "severity": "warning"
   },
   {
     "date": "Apr 07",
@@ -44,6 +39,11 @@ const AUTO_UPDATED_RECENT_EVENTS = [
   {
     "date": "Apr 07",
     "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strike on Israel.",
+    "severity": "warning"
+  },
+  {
+    "date": "Apr 07",
+    "text": "Israeli strike kills Christian party official in Lebanon.",
     "severity": "warning"
   }
 ];
