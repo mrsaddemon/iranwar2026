@@ -29,25 +29,8 @@ This is **NOT** a game for destruction. It is a strategic, educational scenario-
 
 ## Screenshot
 
-```
-+------------------------------------------------------------------+
-|  2026 IRAN WAR SIMULATION  |  APR 6, 2026  |  NUCLEAR 62 BRINK  |
-+----------+---------------------------+---------------------------+
-|          |                           |                           |
-|  FORCE   |    INTERACTIVE MAP        |   LIVE EVENT FEED         |
-|  STATUS  |                           |                           |
-|          |  Turkey  Syria  Iran      |   Apr 6 - Day 37          |
-|  US  97  |  Lebanon  Iraq            |   [PLAYER] Iran: Missile  |
-|  ISR 85  |  Israel Jordan  Pakistan  |   Strike -> USA: Carrier  |
-|  IRN 55  |  Saudi   UAE   Oman      |   Strike Groups           |
-|          |  Yemen (Houthis)          |                           |
-+----------+---------------------------+---------------------------+
-|  PREDICTIONS  |  COMMAND (IRAN)                                  |
-|  De-esc   8%  |  PLAY AS: [USA] [Israel] [*Iran*] [AUTO]        |
-|  Prolong 35%  |  Airstrike | Missile | Drone | Naval | Cyber    |
-|  Region  28%  |  Hormuz Mine Surge | Activate Proxies | NUKE    |
-+------------------------------------------------------------------+
-```
+<img width="1915" height="907" alt="image" src="https://github.com/user-attachments/assets/fd497453-4691-4e34-a203-286be37fb984" />
+
 
 ---
 
