@@ -1,14 +1,15 @@
 name: Update Simulation from News & Deploy
 
 on:
-  # Run every 4 hours
   schedule:
     - cron: '17 */4 * * *'
-  # Also allow manual trigger
   workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update-and-deploy:
@@ -22,6 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -29,7 +31,9 @@ jobs:
       - name: Fetch news and update simulation parameters
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node scripts/update-from-news.mjs
+        run: |
+          echo "GEMINI_API_KEY is set: $([ -n "$GEMINI_API_KEY" ] && echo YES || echo NO)"
+          node scripts/update-from-news.mjs
 
       - name: Build static site
         run: npx vite build
