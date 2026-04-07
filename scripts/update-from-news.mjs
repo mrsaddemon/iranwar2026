@@ -13,7 +13,7 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash-001'; // Updated to 2.0 Flash
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-1.5-flash'; // Updated to 2.0 Flash
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
 // ==================== NEWS FETCHING ====================
