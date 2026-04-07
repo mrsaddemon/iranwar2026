@@ -61,7 +61,7 @@ function MiniGauge({ label, value, maxVal, color, unit }) {
 
 export default function BottomPanel({
   predictions, escalationProbability, warDurationRange,
-  nuclearPredictions, oilDisruption, escalationLevel,
+  nuclearPredictions, oilDisruption, escalationLevel, narratives, lastNarrativeUpdate,
 }) {
   const explanation = useMemo(() => {
     if (escalationLevel > 85) return 'ACTIVE WAR: Multi-front conflict intensifying. Hormuz blockaded, Hezbollah engaged, GCC states under fire. Regime collapse and regional expansion both possible.';
@@ -139,6 +139,43 @@ export default function BottomPanel({
         <div className="explain-text">{explanation}</div>
         <div className="disclaimer">
           Probabilistic model — not a prediction of real-world outcomes.
+        </div>
+      </div>
+
+      <div className="bottom-section explain-section">
+        <div className="section-title">
+          <span className="section-icon">🧭</span>
+          CURRENT NARRATIVES
+        </div>
+        <div className="disclaimer" style={{ marginBottom: 10 }}>
+          Updated daily from source-driven sentiment and geopolitical framing.
+          {lastNarrativeUpdate ? ` Last refresh: ${lastNarrativeUpdate}.` : ''}
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 10 }}>
+          {(narratives || []).map((item) => (
+            <div
+              key={item.perspective}
+              style={{
+                border: '1px solid rgba(148, 163, 184, 0.12)',
+                background: 'rgba(255,255,255,0.02)',
+                borderRadius: 10,
+                padding: '10px 12px',
+              }}
+            >
+              <div style={{ fontSize: 10, letterSpacing: '0.08em', color: '#94a3b8', marginBottom: 6 }}>
+                {item.perspective}
+              </div>
+              <div style={{ fontSize: 12, color: '#e2e8f0', fontWeight: 700, marginBottom: 6 }}>
+                {item.headline}
+              </div>
+              <div style={{ fontSize: 11, lineHeight: 1.5, color: 'rgba(226, 232, 240, 0.78)' }}>
+                {item.summary}
+              </div>
+            </div>
+          ))}
+          {(!narratives || narratives.length === 0) && (
+            <div className="disclaimer">Narrative update pending.</div>
+          )}
         </div>
       </div>
     </div>

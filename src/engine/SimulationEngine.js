@@ -2,51 +2,21 @@
 // Calibrated to real-world conditions: 2026 Iran War (began Feb 28, 2026)
 // Simulation Day 0 = April 6, 2026 (Day 37 of the active war)
 
-import { createInitialActors, ACTION_TYPES, PROXY_FORCES, SPECIAL_ACTIONS, ALLIANCE_SUPPORT, TARGET_OPTIONS } from './actors.js';
-import { calculateNuclearDelta, generateNuclearEvent, calculateNuclearPredictions, calculateNuclearStrikeOutcome } from './nuclear.js';
+import { createInitialActors, createAllianceSupport, ACTION_TYPES, PROXY_FORCES, SPECIAL_ACTIONS, TARGET_OPTIONS } from './actors.js';
+import { calculateNuclearDelta, generateNuclearEvent, calculateNuclearPredictions, calculateNuclearStrikeOutcome, getNuclearWarheadById } from './nuclear.js';
 import { generateActionEvent, generateSecondaryEvents } from './events.js';
+import { LATEST_SNAPSHOT } from './latestSnapshot.js';
 
 // Date helper
-const SIM_START = new Date('2026-04-07');
-const INITIAL_WAR_DAY = 38;
+const SIM_START = new Date(LATEST_SNAPSHOT.lastUpdated || '2026-04-07');
+const INITIAL_WAR_DAY = LATEST_SNAPSHOT.warDay || 38;
 const INITIAL_GLOBALS = {
-  nuclearIndex: 65,
-  escalationLevel: 95,
-  oilDisruption: 90,
+  nuclearIndex: LATEST_SNAPSHOT.global?.nuclearIndex ?? 75,
+  escalationLevel: LATEST_SNAPSHOT.global?.escalationLevel ?? 90,
+  oilDisruption: LATEST_SNAPSHOT.global?.oilDisruption ?? 85,
 };
 // AUTO-UPDATED RECENT EVENTS START
-const AUTO_UPDATED_RECENT_EVENTS = [
-  {
-    "date": "Apr 07",
-    "text": "Trump calls for killing a ‘whole civilization’ and repeats threats of infrastructure attacks against Iran.",
-    "severity": "critical"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Iran rejects a 45-day ceasefire proposal amidst looming Strait of Hormuz deadline.",
-    "severity": "warning"
-  },
-  {
-    "date": "Apr 07",
-    "text": "US strikes military targets on Iran's Kharg Island.",
-    "severity": "critical"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Iranian missile strike damages cars and street in Israel.",
-    "severity": "warning"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strike on Israel.",
-    "severity": "warning"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Israeli strike kills Christian party official in Lebanon.",
-    "severity": "warning"
-  }
-];
+const AUTO_UPDATED_RECENT_EVENTS = LATEST_SNAPSHOT.recentEvents || [];
 // AUTO-UPDATED RECENT EVENTS END
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
@@ -66,7 +36,7 @@ export function createSimulationState() {
     warDay: INITIAL_WAR_DAY,
     running: false,
     speed: 1,
-    actors: createInitialActors(),
+    actors: createInitialActors(LATEST_SNAPSHOT.actorOverrides),
     proxyForces: { ...PROXY_FORCES },
     nuclearIndex: INITIAL_GLOBALS.nuclearIndex,
     escalationLevel: INITIAL_GLOBALS.escalationLevel,
@@ -88,7 +58,12 @@ export function createSimulationState() {
     escalationProbability: 0.82,
     nuclearPredictions: calculateNuclearPredictions(INITIAL_GLOBALS.nuclearIndex),
     // Alliance support (Russia/China backing Iran)
-    allianceSupport: { ...ALLIANCE_SUPPORT },
+    allianceSupport: createAllianceSupport(LATEST_SNAPSHOT.alliance),
+    lastUpdated: LATEST_SNAPSHOT.lastUpdated,
+    snapshotSummary: LATEST_SNAPSHOT.summary,
+    sourceStatuses: LATEST_SNAPSHOT.sourceStatuses || [],
+    narratives: LATEST_SNAPSHOT.narratives || [],
+    lastNarrativeUpdate: LATEST_SNAPSHOT.lastNarrativeUpdate || null,
     // Player control
     playerControlledActor: null, // null = auto, 'usa'/'israel'/'iran'
     pendingPlayerAction: null,
@@ -96,6 +71,7 @@ export function createSimulationState() {
     ceasefireProposals: {}, // { actorId: dayProposed }
     // War conclusion
     warConclusion: null, // null = ongoing, object = concluded
+    pendingNuclearStrike: null,
   };
 }
 
@@ -112,7 +88,7 @@ function generateInitialEvents() {
       id: 'init-summary',
       day: 0,
       timestamp: `Day ${INITIAL_WAR_DAY} of War`,
-      text: 'SITUATION: Active multi-front war \u2014 US-Israel vs Iran (since Feb 28)',
+      text: `SITUATION: ${LATEST_SNAPSHOT.summary}`,
       severity: 'critical',
       icon: '\u2694',
       action: 'context',
@@ -320,6 +296,9 @@ export function checkWarConclusion(state) {
   const iran = state.actors.iran.metrics;
   const usa = state.actors.usa.metrics;
   const israel = state.actors.israel.metrics;
+  const coalitionMilitary = (usa.militaryPower + israel.militaryPower) / 2;
+  const coalitionMorale = (usa.morale + israel.morale) / 2;
+  const coalitionStability = (usa.internalStability + israel.internalStability) / 2;
 
   // Nuclear exchange — set externally via nuclearStrike action
   if (state._nuclearStrikeOutcome) {
@@ -374,6 +353,106 @@ export function checkWarConclusion(state) {
     };
   }
 
+  // Coalition degrades Iran without total state collapse
+  if (iran.militaryPower <= 22 && iran.missileCapacity <= 15 && iran.internalStability <= 25 && coalitionMilitary >= 45) {
+    return {
+      type: 'coalitionStrategicVictory',
+      title: 'COALITION STRATEGIC VICTORY',
+      color: '#60a5fa',
+      icon: '\u2696',
+      summary: 'US-Israeli pressure breaks Iran’s warfighting capacity and forces a coercive settlement without full regime collapse.',
+      casualties: Math.floor(45000 + Math.random() * 125000),
+      detail: 'Iran retains a state structure, but its strike networks, missile forces, and command resilience are too degraded to continue. External powers impose inspections, maritime guarantees, and a forced de-escalation framework.',
+    };
+  }
+
+  // Israel overextends under prolonged multi-front pressure
+  if (israel.internalStability <= 18 && israel.economy <= 20 && usa.internalStability < 45) {
+    return {
+      type: 'israeliOverextension',
+      title: 'ISRAELI OVEREXTENSION',
+      color: '#a855f7',
+      icon: '\u26A0',
+      summary: 'Israel’s economy, reserves, and internal cohesion are stretched to the breaking point, forcing an abrupt strategic pause.',
+      casualties: Math.floor(30000 + Math.random() * 90000),
+      detail: 'Multi-front mobilization, missile pressure, and economic attrition leave Israel unable to sustain offensive tempo. Washington pushes for de-escalation as domestic resilience in Israel deteriorates.',
+    };
+  }
+
+  // Great-power pressure forces a negotiated stop before total collapse
+  if (state.globalPressure >= 88 && state.allianceInfluence >= 82 && state.escalationLevel <= 58 && state.dayCount > 20) {
+    return {
+      type: 'greatPowerSettlement',
+      title: 'GREAT-POWER IMPOSED SETTLEMENT',
+      color: '#22c55e',
+      icon: '\u{1F30D}',
+      summary: 'International pressure becomes overwhelming. External powers force both sides into a monitored settlement.',
+      casualties: Math.floor(25000 + Math.random() * 85000),
+      detail: 'A mix of UN pressure, Gulf panic, Russian-Chinese leverage, and Western diplomatic exhaustion produces a settlement neither side fully wants, but neither can refuse.',
+    };
+  }
+
+  // Energy shock becomes the main driver of de-escalation
+  if (state.oilDisruption >= 90 && state.tradeImpact >= 82 && state.globalPressure >= 84 && state.escalationLevel <= 72) {
+    return {
+      type: 'hormuzArmistice',
+      title: 'HORMUZ CRISIS ARMISTICE',
+      color: '#f59e0b',
+      icon: '\u26F5',
+      summary: 'Global energy shock forces a maritime armistice centered on the Strait of Hormuz and Gulf shipping lanes.',
+      casualties: Math.floor(20000 + Math.random() * 70000),
+      detail: 'Oil markets, shipping insurers, and Gulf states force emergency diplomacy. The war does not truly end politically, but a maritime ceasefire is imposed to prevent a global economic spiral.',
+    };
+  }
+
+  // Iran survives because coalition cohesion erodes while allied support persists
+  if (state.allianceInfluence >= 88 && coalitionStability <= 30 && coalitionMorale <= 28 && iran.internalStability >= 22) {
+    return {
+      type: 'iranianSurvival',
+      title: 'IRANIAN SURVIVAL UNDER ALLIED SHIELD',
+      color: '#ef4444',
+      icon: '\u{1F6E1}',
+      summary: 'Iran weathers the campaign long enough for coalition resolve to fracture and allied backing to lock in a contested end-state.',
+      casualties: Math.floor(40000 + Math.random() * 120000),
+      detail: 'Iran does not win decisively, but it survives. External backing, sanctions evasion, and coalition fatigue deny Washington and Jerusalem the clean outcome they sought.',
+    };
+  }
+
+  // Iran emerges as the main regional strategic beneficiary
+  if (
+    iran.militaryPower >= 38 &&
+    iran.missileCapacity >= 28 &&
+    iran.internalStability >= 30 &&
+    state.allianceInfluence >= 90 &&
+    state.oilDisruption >= 88 &&
+    state.tradeImpact >= 86 &&
+    usa.internalStability <= 24 &&
+    israel.internalStability <= 20
+  ) {
+    return {
+      type: 'iranianRegionalAscendancy',
+      title: 'IRANIAN REGIONAL ASCENDANCY',
+      color: '#ef4444',
+      icon: '\u{1F451}',
+      summary: 'The coalition fails to break Iran. The petro-dollar system fractures, global power shifts, and Tehran emerges as the dominant strategic force across the region.',
+      casualties: Math.floor(90000 + Math.random() * 180000),
+      detail: 'Iran does not literally occupy the Middle East, but it wins the political map. Washington and Jerusalem emerge weakened, Gulf states hedge toward Tehran, proxy networks gain prestige, the petro-dollar era effectively ends under sustained energy shock, and a new fragmented world order takes shape around rival currency blocs and regional power centers.',
+    };
+  }
+
+  // Everyone is too exhausted to keep pushing
+  if (state.dayCount > 90 && usa.morale <= 35 && israel.morale <= 35 && iran.morale <= 35 && state.escalationLevel < 70) {
+    return {
+      type: 'mutualExhaustion',
+      title: 'MUTUAL EXHAUSTION',
+      color: '#94a3b8',
+      icon: '\u{1FAAB}',
+      summary: 'None of the core actors can convert pain into victory. The war burns out into exhaustion and partial disengagement.',
+      casualties: Math.floor(60000 + Math.random() * 140000),
+      detail: 'Military fatigue, public strain, reserve burnout, and economic damage leave all sides with enough capacity to hurt each other but not enough legitimacy to continue at the same intensity.',
+    };
+  }
+
   // Ceasefire achieved
   const proposals = state.ceasefireProposals || {};
   const proposers = Object.keys(proposals);
@@ -422,14 +501,17 @@ export function checkWarConclusion(state) {
 
 // ==================== MAP ANIMATION ====================
 
-function generateMapAnimation(actorId, action, day) {
+function generateMapAnimation(actorId, action, day, options = {}) {
   const origins = { usa: { x: 0.18, y: 0.36 }, israel: { x: 0.35, y: 0.31 }, iran: { x: 0.73, y: 0.30 } };
   const targets = { usa: { x: 0.18, y: 0.36 }, israel: { x: 0.35, y: 0.31 }, iran: { x: 0.73, y: 0.30 } };
 
   const origin = origins[actorId];
-  let target = actorId === 'iran'
-    ? (Math.random() < 0.6 ? targets.israel : targets.usa)
-    : targets.iran;
+  const resolvedTargetActorId = options.targetActorId || (
+    actorId === 'iran'
+      ? (Math.random() < 0.6 ? 'israel' : 'usa')
+      : 'iran'
+  );
+  let target = targets[resolvedTargetActorId] || targets.iran;
 
   target = { x: target.x + (Math.random() - 0.5) * 0.08, y: target.y + (Math.random() - 0.5) * 0.08 };
 
@@ -440,7 +522,7 @@ function generateMapAnimation(actorId, action, day) {
     deployMOAB: 'airstrike', carrierStrike: 'missile', fullNavalBlockade: 'naval',
     ironDomeSurge: 'shield', nuclearAmbiguity: 'signal', massEvacuation: 'shield',
     hormuzMineSurge: 'naval', activateAllProxies: 'drone', nuclearBreakout: 'signal',
-    proposeCeasefire: 'diplomacy', acceptCeasefire: 'diplomacy', nuclearStrike: 'missile',
+    proposeCeasefire: 'diplomacy', acceptCeasefire: 'diplomacy', nuclearStrike: 'nuclearStrike',
   };
 
   return {
@@ -448,8 +530,10 @@ function generateMapAnimation(actorId, action, day) {
     type: typeMap[action] || 'pulse',
     origin, target, actorId,
     startTime: Date.now(),
-    duration: action === 'nuclearStrike' ? 5000 : 2500,
+    duration: action === 'nuclearStrike' ? 6000 : 2500,
     day,
+    intercepted: options.intercepted ?? false,
+    targetActorId: resolvedTargetActorId,
   };
 }
 
@@ -492,7 +576,9 @@ function updatePredictions(state) {
 // ==================== PLAYER ACTION ====================
 
 // target = { countryId, subTargetId } or null for non-offensive actions
-export function applyPlayerAction(state, actionId, target) {
+export function applyPlayerAction(state, actionId, target, options = {}) {
+  if (state.pendingNuclearStrike || state.warConclusion) return state;
+
   const newState = JSON.parse(JSON.stringify(state));
   const actorId = newState.playerControlledActor;
   if (!actorId) return newState;
@@ -513,20 +599,31 @@ export function applyPlayerAction(state, actionId, target) {
 
   // Handle nuclear strike
   if (actionId === 'nuclearStrike') {
-    const outcome = calculateNuclearStrikeOutcome(actorId, newState);
-    newState._nuclearStrikeOutcome = outcome;
+    const selectedWarhead = getNuclearWarheadById(actorId, options.warheadId, true);
+    const targetActorId = target?.countryId || (actorId === 'iran' ? 'israel' : 'iran');
+    const targetName = newState.actors[targetActorId]?.name || targetActorId;
+    const outcome = calculateNuclearStrikeOutcome(actorId, newState, options.warheadId, target);
     newState.nuclearIndex = 100;
     newState.escalationLevel = 100;
 
     newState.events = [{
       id: `nuke-${Date.now()}`, day: newState.dayCount, timestamp: ts,
-      text: `\u2622 NUCLEAR STRIKE: ${actor.name} has launched nuclear weapons`,
+      text: `\u2622 NUCLEAR STRIKE: ${actor.name} has launched ${selectedWarhead?.shortLabel || 'nuclear weapons'} at ${targetName}`,
       severity: 'critical', icon: '\u2622', action: 'nuclearStrike', actor: actor.name,
     }, ...newState.events].slice(0, 100);
 
-    newState.mapAnimations.push(generateMapAnimation(actorId, 'nuclearStrike', newState.dayCount));
-    const conclusion = checkWarConclusion(newState);
-    if (conclusion) newState.warConclusion = conclusion;
+    newState.pendingNuclearStrike = {
+      actorId,
+      warheadId: options.warheadId || selectedWarhead?.id || null,
+      target,
+      createdAt: Date.now(),
+      resolveAt: Date.now() + 6000,
+      outcome,
+    };
+    newState.mapAnimations.push(generateMapAnimation(actorId, 'nuclearStrike', newState.dayCount, {
+      intercepted: outcome.intercepted ?? false,
+      targetActorId,
+    }));
     return newState;
   }
 
@@ -626,7 +723,7 @@ export function applyPlayerAction(state, actionId, target) {
 // ==================== MAIN TICK ====================
 
 export function simulateTick(state) {
-  if (state.warConclusion) return state; // War is over
+  if (state.warConclusion || state.pendingNuclearStrike) return state; // War is over or nuclear resolution pending
 
   const newState = JSON.parse(JSON.stringify(state));
   newState.dayCount += 1;
@@ -744,6 +841,37 @@ export function simulateTick(state) {
   ];
 
   // Check war conclusion
+  const conclusion = checkWarConclusion(newState);
+  if (conclusion) newState.warConclusion = conclusion;
+
+  return newState;
+}
+
+export function resolvePendingNuclearStrike(state) {
+  if (!state.pendingNuclearStrike || state.warConclusion) return state;
+
+  const newState = JSON.parse(JSON.stringify(state));
+  const pending = newState.pendingNuclearStrike;
+  const warDay = newState.warDay || 37;
+  const ts = makeTimestamp(newState.dayCount, warDay);
+  const outcome = pending.outcome;
+  const outcomeTarget = outcome.initialTargets?.[0]?.city || newState.actors[pending.target?.countryId]?.name || 'target';
+
+  newState._nuclearStrikeOutcome = outcome;
+  newState.pendingNuclearStrike = null;
+  newState.events = [{
+    id: `nuke-resolution-${Date.now()}`,
+    day: newState.dayCount,
+    timestamp: ts,
+    text: outcome.intercepted
+      ? `\u26E8 INTERCEPTION: ${outcome.selectedWarhead?.shortLabel || 'Launch'} aimed at ${outcomeTarget} was intercepted, but retaliation sequence has begun`
+      : `\u2622 DETONATION: ${outcome.selectedWarhead?.shortLabel || 'Nuclear strike'} detonated at ${outcomeTarget}, triggering full retaliation`,
+    severity: 'critical',
+    icon: outcome.intercepted ? '\u26E8' : '\u2622',
+    action: 'nuclearStrikeOutcome',
+    actor: 'System',
+  }, ...newState.events].slice(0, 100);
+
   const conclusion = checkWarConclusion(newState);
   if (conclusion) newState.warConclusion = conclusion;
 

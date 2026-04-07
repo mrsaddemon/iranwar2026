@@ -13,6 +13,73 @@ function fmt(n) {
   return n.toString();
 }
 
+function ImpactRadiusMap({ target }) {
+  if (!target?.impactRadius) return null;
+
+  const impact = target.impactRadius;
+  const isIntercepted = !!impact.intercepted;
+  const rings = isIntercepted
+    ? [
+      { label: 'Debris Scatter', value: impact.debrisScatterKm, color: 'rgba(96, 165, 250, 0.65)' },
+      { label: 'Contamination Watch', value: impact.contaminationWatchKm, color: 'rgba(191, 219, 254, 0.28)' },
+    ]
+    : [
+      { label: 'Fallout Zone', value: impact.falloutZoneKm, color: 'rgba(239, 68, 68, 0.16)' },
+      { label: 'Thermal Burns', value: impact.thermalRadiationKm, color: 'rgba(249, 115, 22, 0.20)' },
+      { label: 'Severe Blast', value: impact.severeBlastKm, color: 'rgba(250, 204, 21, 0.28)' },
+      { label: 'Fireball', value: impact.fireballKm, color: 'rgba(255, 255, 255, 0.70)' },
+    ].filter((ring) => ring.value);
+
+  const maxRadius = Math.max(...rings.map((ring) => ring.value || 1), 1);
+  const center = 110;
+  const maxPixelRadius = 84;
+
+  return (
+    <div style={{ marginTop: 10 }}>
+      <div className="nuc-section-label">IMPACT RADIUS MAP</div>
+      <div style={{ display: 'grid', gridTemplateColumns: '220px 1fr', gap: 16, alignItems: 'center' }}>
+        <svg width="220" height="220" viewBox="0 0 220 220" style={{ borderRadius: 12, background: 'rgba(2, 6, 23, 0.72)', border: '1px solid rgba(148, 163, 184, 0.12)' }}>
+          <rect x="0" y="0" width="220" height="220" fill="rgba(2, 6, 23, 0.72)" />
+          <path d="M0 110H220M110 0V220" stroke="rgba(148, 163, 184, 0.08)" strokeWidth="1" />
+          {rings.map((ring) => (
+            <circle
+              key={ring.label}
+              cx={center}
+              cy={center}
+              r={(ring.value / maxRadius) * maxPixelRadius}
+              fill={ring.color}
+              stroke={ring.color.replace(/0\.\d+\)$/u, '0.85)')}
+              strokeWidth="1.5"
+            />
+          ))}
+          <circle cx={center} cy={center} r="4" fill={isIntercepted ? '#93c5fd' : '#f8fafc'} />
+          <text x={center} y="106" textAnchor="middle" fill="rgba(226, 232, 240, 0.96)" fontSize="13" fontWeight="700">
+            {target.city}
+          </text>
+          <text x={center} y="123" textAnchor="middle" fill="rgba(148, 163, 184, 0.82)" fontSize="10">
+            {isIntercepted ? 'Intercept point / debris watch' : 'Estimated strike footprint'}
+          </text>
+        </svg>
+
+        <div>
+          <div style={{ fontSize: 12, color: '#e2e8f0', marginBottom: 8 }}>
+            {isIntercepted ? 'High-altitude interception profile' : 'Estimated ground effects around the target center'}
+          </div>
+          <div style={{ display: 'grid', gap: 8 }}>
+            {rings.map((ring) => (
+              <div key={ring.label} style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 12, color: 'rgba(148, 163, 184, 0.9)' }}>
+                <span style={{ width: 10, height: 10, borderRadius: 999, background: ring.color, border: '1px solid rgba(255,255,255,0.15)' }} />
+                <span style={{ minWidth: 110, color: 'rgba(226, 232, 240, 0.92)' }}>{ring.label}</span>
+                <span>{ring.value} km radius</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // Standard (non-nuclear) conclusion
 function StandardConclusion({ conclusion, dayCount, warDay, oilDisruption, nuclearIndex, onReset }) {
   const totalWarDays = (warDay || 37) + dayCount;
@@ -40,11 +107,13 @@ function StandardConclusion({ conclusion, dayCount, warDay, oilDisruption, nucle
 // Multi-page nuclear conclusion
 function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
   const [page, setPage] = useState(0);
+  const [impactIndex, setImpactIndex] = useState(0);
   const nuc = conclusion._nuclearOutcome;
   if (!nuc) return <StandardConclusion conclusion={conclusion} dayCount={dayCount} warDay={warDay} oilDisruption={100} nuclearIndex={100} onReset={onReset} />;
 
   const totalWarDays = (warDay || 37) + dayCount;
   const totalPages = 4;
+  const impactTarget = nuc.initialTargets[Math.min(impactIndex, Math.max(0, nuc.initialTargets.length - 1))];
 
   const pages = [
     // Page 0: The Strike
@@ -54,6 +123,16 @@ function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
         <div className="nuc-page-title" style={{ color: '#dc2626' }}>{nuc.attackerName} LAUNCHES NUCLEAR WEAPONS</div>
         <div className="nuc-page-subtitle">War Day {totalWarDays} — {getDateForDay(dayCount)}</div>
         <div className="nuc-page-desc">{nuc.description}</div>
+        {nuc.selectedWarhead && (
+          <div className="nuc-target-card" style={{ marginBottom: 12 }}>
+            <div className="nuc-target-header">
+              <span className="nuc-target-city">WARHEAD USED</span>
+              <span className="nuc-target-yield">{nuc.selectedWarhead.shortLabel}</span>
+            </div>
+            <div className="nuc-target-desc">{nuc.selectedWarhead.delivery}</div>
+            <div className="nuc-target-cas" style={{ color: '#fca5a5' }}>{nuc.selectedWarhead.summary}</div>
+          </div>
+        )}
 
         <div className="nuc-section-label">INITIAL TARGETS</div>
         {nuc.initialTargets.map((t, i) => (
@@ -68,6 +147,27 @@ function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
             </div>
           </div>
         ))}
+
+        {nuc.initialTargets.length > 1 && (
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 8 }}>
+            {nuc.initialTargets.map((target, index) => (
+              <button
+                key={`${target.city}-${index}`}
+                className="nuc-nav-btn"
+                onClick={() => setImpactIndex(index)}
+                style={{
+                  padding: '6px 10px',
+                  background: index === impactIndex ? 'rgba(220, 38, 38, 0.18)' : undefined,
+                  borderColor: index === impactIndex ? 'rgba(220, 38, 38, 0.55)' : undefined,
+                }}
+              >
+                {target.city}
+              </button>
+            ))}
+          </div>
+        )}
+
+        <ImpactRadiusMap target={impactTarget} />
 
         <div className="nuc-immediate-box">
           <span>Immediate death toll:</span>

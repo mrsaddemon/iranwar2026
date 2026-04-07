@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ACTION_TYPES, ACTION_LABELS, ACTION_ICONS, SPECIAL_ACTIONS, TARGET_OPTIONS } from '../engine/actors.js';
+import { getAvailableNuclearWarheads } from '../engine/nuclear.js';
 
 const ACTOR_NAMES = { usa: 'United States', israel: 'Israel', iran: 'Iran' };
 const ACTOR_SHORT = { usa: 'USA', israel: 'Israel', iran: 'Iran' };
@@ -12,8 +13,10 @@ function isOffensive(actionId) {
   return OFFENSIVE_ACTIONS.includes(actionId);
 }
 
-function NukeConfirmModal({ onConfirm, onCancel }) {
+function NukeConfirmModal({ warheads, selectedWarheadId, onSelectWarhead, onConfirm, onCancel }) {
   const [step, setStep] = useState(0);
+  const selectedWarhead = warheads.find((warhead) => warhead.id === selectedWarheadId) || warheads[0] || null;
+
   return (
     <div className="nuke-modal-overlay">
       <div className="nuke-modal">
@@ -31,13 +34,52 @@ function NukeConfirmModal({ onConfirm, onCancel }) {
               <button className="nuke-confirm-btn" onClick={() => setStep(1)}>I UNDERSTAND</button>
             </div>
           </>
+        ) : step === 1 ? (
+          <>
+            <div className="nuke-modal-title">SELECT WARHEAD</div>
+            <div className="nuke-modal-text">
+              Choose the nuclear package available to this actor.
+            </div>
+            <div style={{ display: 'grid', gap: 8, marginTop: 10 }}>
+              {warheads.map((warhead) => (
+                <button
+                  key={warhead.id}
+                  className="tp-subtarget-btn"
+                  onClick={() => onSelectWarhead(warhead.id)}
+                  style={{
+                    borderColor: selectedWarheadId === warhead.id ? '#dc2626' : 'rgba(148, 163, 184, 0.18)',
+                    background: selectedWarheadId === warhead.id ? 'rgba(220, 38, 38, 0.14)' : undefined,
+                    textAlign: 'left',
+                  }}
+                >
+                  <span className="tp-sub-label">{warhead.shortLabel}</span>
+                  <span className="tp-sub-dmg">{warhead.delivery}</span>
+                  <span className="tp-sub-dmg" style={{ color: '#94a3b8' }}>{warhead.summary}</span>
+                </button>
+              ))}
+            </div>
+            <div className="nuke-modal-buttons">
+              <button className="nuke-cancel-btn" onClick={() => setStep(0)}>BACK</button>
+              <button
+                className="nuke-confirm-btn"
+                onClick={() => setStep(2)}
+                disabled={!selectedWarhead}
+              >
+                CONTINUE
+              </button>
+            </div>
+          </>
         ) : (
           <>
             <div className="nuke-modal-title" style={{ color: '#dc2626' }}>FINAL CONFIRMATION</div>
-            <div className="nuke-modal-text">Are you absolutely certain? There is no going back.</div>
+            <div className="nuke-modal-text">
+              {selectedWarhead ? `Warhead: ${selectedWarhead.shortLabel} — ${selectedWarhead.delivery}` : 'No warhead selected.'}
+              <br /><br />
+              Are you absolutely certain? There is no going back.
+            </div>
             <div className="nuke-modal-buttons">
-              <button className="nuke-cancel-btn" onClick={onCancel}>ABORT LAUNCH</button>
-              <button className="nuke-launch-btn" onClick={onConfirm}>LAUNCH</button>
+              <button className="nuke-cancel-btn" onClick={() => setStep(1)}>BACK</button>
+              <button className="nuke-launch-btn" onClick={onConfirm} disabled={!selectedWarhead}>LAUNCH</button>
             </div>
           </>
         )}
@@ -46,7 +88,7 @@ function NukeConfirmModal({ onConfirm, onCancel }) {
   );
 }
 
-function TargetPicker({ actorId, actionId, onSelect, onCancel }) {
+function TargetPicker({ actorId, actionId, warheadLabel, onSelect, onCancel }) {
   const [selectedCountry, setSelectedCountry] = useState(null);
   const opponents = ['usa', 'israel', 'iran'].filter(id => id !== actorId);
 
@@ -55,6 +97,11 @@ function TargetPicker({ actorId, actionId, onSelect, onCancel }) {
       <div className="target-picker" onClick={e => e.stopPropagation()}>
         <div className="tp-header">SELECT TARGET</div>
         <div className="tp-action-label">{ACTION_LABELS[actionId] || actionId}</div>
+        {warheadLabel && (
+          <div className="tp-action-label" style={{ fontSize: 10, color: '#fca5a5' }}>
+            WARHEAD: {warheadLabel}
+          </div>
+        )}
 
         {!selectedCountry ? (
           <>
@@ -108,14 +155,21 @@ export default function PlayerControls({
   const [showNukeConfirm, setShowNukeConfirm] = useState(false);
   const [targetPicker, setTargetPicker] = useState(null); // { actionId } or null
   const [hoveredAction, setHoveredAction] = useState(null);
+  const [selectedWarheadId, setSelectedWarheadId] = useState(null);
 
   const actorId = playerControlledActor;
   const actorColor = actorId ? ACTOR_COLORS[actorId] : '#64748b';
   const specialActions = actorId ? [...(SPECIAL_ACTIONS[actorId] || []), ...SPECIAL_ACTIONS.shared] : [];
   const opponentProposed = ceasefireProposals && Object.keys(ceasefireProposals).some(k => k !== actorId);
+  const availableWarheads = actorId ? getAvailableNuclearWarheads(actorId, !!iranHasNuke) : [];
+  const selectedWarhead = availableWarheads.find((warhead) => warhead.id === selectedWarheadId) || availableWarheads[0] || null;
 
   const handleAction = (actionId) => {
     if (actionId === 'nuclearStrike') {
+      const defaultWarhead = selectedWarheadId && availableWarheads.some((warhead) => warhead.id === selectedWarheadId)
+        ? selectedWarheadId
+        : (availableWarheads[0]?.id || null);
+      setSelectedWarheadId(defaultWarhead);
       setShowNukeConfirm(true);
       return;
     }
@@ -129,20 +183,24 @@ export default function PlayerControls({
 
   const handleTargetSelected = (target) => {
     const actionId = targetPicker.actionId;
+    const warheadId = targetPicker.warheadId;
     setTargetPicker(null);
-    onPlayerAction(actionId, target);
+    onPlayerAction(actionId, target, warheadId ? { warheadId } : undefined);
   };
 
   const handleNukeConfirm = () => {
     setShowNukeConfirm(false);
     // Nuclear strike still needs a target
-    setTargetPicker({ actionId: 'nuclearStrike' });
+    setTargetPicker({ actionId: 'nuclearStrike', warheadId: selectedWarheadId });
   };
 
   return (
     <div className="player-controls">
       {showNukeConfirm && (
         <NukeConfirmModal
+          warheads={availableWarheads}
+          selectedWarheadId={selectedWarheadId}
+          onSelectWarhead={setSelectedWarheadId}
           onConfirm={handleNukeConfirm}
           onCancel={() => setShowNukeConfirm(false)}
         />
@@ -152,6 +210,7 @@ export default function PlayerControls({
         <TargetPicker
           actorId={actorId}
           actionId={targetPicker.actionId}
+          warheadLabel={targetPicker.warheadId ? selectedWarhead?.shortLabel : null}
           onSelect={handleTargetSelected}
           onCancel={() => setTargetPicker(null)}
         />

@@ -33,6 +33,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_VERSION: v1beta
           GEMINI_MODEL: gemini-2.5-flash
+          ACLED_USERNAME: ${{ secrets.ACLED_USERNAME }}
+          ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
+          LIVEUAMAP_FEED_URL: ${{ vars.LIVEUAMAP_FEED_URL }}
+          IEA_API_KEY: ${{ secrets.IEA_API_KEY }}
+          IEA_DATA_URL: ${{ vars.IEA_DATA_URL }}
+          OWID_ENERGY_DATA_URL: ${{ vars.OWID_ENERGY_DATA_URL }}
         run: |
           echo "GEMINI_API_KEY is set: $([ -n "$GEMINI_API_KEY" ] && echo YES || echo NO)"
           node scripts/update-from-news.mjs
@@ -44,7 +50,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Simulation Auto-Updater"
-          git add src/engine/actors.js src/engine/SimulationEngine.js src/components/TopBar.jsx
+          git add src/engine/latestSnapshot.js
           git diff --staged --quiet || git commit -m "auto: update simulation from latest news $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 

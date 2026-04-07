@@ -6,7 +6,7 @@ import BottomPanel from './components/BottomPanel.jsx';
 import MapCanvas from './components/MapCanvas.jsx';
 import PlayerControls from './components/PlayerControls.jsx';
 import WarConclusion from './components/WarConclusion.jsx';
-import { createSimulationState, simulateTick, applyPlayerAction } from './engine/SimulationEngine.js';
+import { createSimulationState, simulateTick, applyPlayerAction, resolvePendingNuclearStrike } from './engine/SimulationEngine.js';
 
 const TICK_INTERVALS = { 1: 1000, 5: 200, 20: 50 };
 
@@ -17,6 +17,7 @@ export default function App() {
   const [bottomTab, setBottomTab] = useState('predictions'); // 'predictions' | 'command'
   const [iranHasNuke, setIranHasNuke] = useState(false);
   const intervalRef = useRef(null);
+  const nuclearResolutionTimeoutRef = useRef(null);
 
   const tick = useCallback(() => {
     setState(prev => {
@@ -41,12 +42,33 @@ export default function App() {
     }
   }, [state.warConclusion, running]);
 
+  useEffect(() => {
+    if (!state.pendingNuclearStrike) return undefined;
+
+    setRunning(false);
+    const delay = Math.max(0, state.pendingNuclearStrike.resolveAt - Date.now());
+    nuclearResolutionTimeoutRef.current = setTimeout(() => {
+      setState(prev => resolvePendingNuclearStrike(prev));
+    }, delay);
+
+    return () => {
+      if (nuclearResolutionTimeoutRef.current) {
+        clearTimeout(nuclearResolutionTimeoutRef.current);
+        nuclearResolutionTimeoutRef.current = null;
+      }
+    };
+  }, [state.pendingNuclearStrike]);
+
   const handleToggleRunning = useCallback(() => {
     setRunning(prev => !prev);
   }, []);
 
   const handleReset = useCallback(() => {
     setRunning(false);
+    if (nuclearResolutionTimeoutRef.current) {
+      clearTimeout(nuclearResolutionTimeoutRef.current);
+      nuclearResolutionTimeoutRef.current = null;
+    }
     setState(createSimulationState());
     setBottomTab('predictions');
   }, []);
@@ -68,8 +90,8 @@ export default function App() {
     if (actorId) setBottomTab('command');
   }, []);
 
-  const handlePlayerAction = useCallback((actionId, target) => {
-    setState(prev => applyPlayerAction(prev, actionId, target));
+  const handlePlayerAction = useCallback((actionId, target, options) => {
+    setState(prev => applyPlayerAction(prev, actionId, target, options));
   }, []);
 
   return (
@@ -77,7 +99,7 @@ export default function App() {
       {/* Announcement Banner */}
       <div className="announce-bar">
         <span className="announce-pulse" />
-        <span>DATA UPDATES EVERY 15 MINUTES FROM LIVE NEWS SOURCES</span>
+        <span>SIMULATION SEEDED FROM THE LATEST SOURCE SNAPSHOT, UPDATED EVERY 15 MINUTES</span>
         <span className="announce-dot">|</span>
         <span>Probabilistic model for educational purposes only</span>
       </div>
@@ -88,6 +110,8 @@ export default function App() {
         speed={speed}
         running={running}
         nuclearIndex={state.nuclearIndex}
+        lastUpdated={state.lastUpdated}
+        simStart={state.lastUpdated}
         onSpeedChange={handleSpeedChange}
         onToggleRunning={handleToggleRunning}
         onReset={handleReset}
@@ -133,6 +157,8 @@ export default function App() {
           nuclearPredictions={state.nuclearPredictions}
           oilDisruption={state.oilDisruption}
           escalationLevel={state.escalationLevel}
+          narratives={state.narratives}
+          lastNarrativeUpdate={state.lastNarrativeUpdate}
         />
       ) : (
         <PlayerControls

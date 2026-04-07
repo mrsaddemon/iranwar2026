@@ -134,19 +134,299 @@ export function calculateNuclearPredictions(nuclearIndex) {
   };
 }
 
-// Detailed nuclear strike chain-reaction model
-export function calculateNuclearStrikeOutcome(attackerId, state) {
-  const attacker = state.actors[attackerId];
+export const NUCLEAR_WARHEAD_OPTIONS = {
+  usa: [
+    {
+      id: 'b61-12-50',
+      label: 'B61-12 Tactical',
+      shortLabel: 'B61-12 50kt',
+      yieldKt: 50,
+      delivery: 'Variable-yield gravity bomb',
+      summary: 'Lower-yield US option aimed at hardened facilities with reduced fallout compared to maximum yield.',
+    },
+    {
+      id: 'b61-12-150',
+      label: 'B61-12 Maximum Yield',
+      shortLabel: 'B61-12 150kt',
+      yieldKt: 150,
+      delivery: 'Maximum-yield gravity bomb',
+      summary: 'Highest-yield US option represented in this simulation, maximizing urban blast and fallout.',
+    },
+  ],
+  israel: [
+    {
+      id: 'jericho-iii-20',
+      label: 'Jericho III Baseline',
+      shortLabel: 'Jericho III 20kt',
+      yieldKt: 20,
+      delivery: 'Jericho III ballistic missile',
+      summary: 'Baseline Israeli strategic strike used by the current scenario assumptions.',
+    },
+    {
+      id: 'jericho-iii-80',
+      label: 'Jericho III Heavy Yield',
+      shortLabel: 'Jericho III 80kt',
+      yieldKt: 80,
+      delivery: 'Jericho III heavier-yield package',
+      summary: 'Higher-yield Israeli strike option with much wider destruction and fallout.',
+    },
+  ],
+  iran: [
+    {
+      id: 'crude-15',
+      label: 'Crude Breakout Device',
+      shortLabel: 'Crude 15kt',
+      yieldKt: 15,
+      delivery: 'Shahab-3 delivery',
+      summary: 'Least sophisticated Iranian breakout device reflected in the current sim assumptions.',
+    },
+    {
+      id: 'crude-20',
+      label: 'Enhanced Crude Device',
+      shortLabel: 'Crude 20kt',
+      yieldKt: 20,
+      delivery: 'Emad-variant delivery',
+      summary: 'A slightly more destructive improvised Iranian device, still crude and interception-prone.',
+    },
+  ],
+};
 
-  if (attackerId === 'usa') return usaStrikesScenario(state);
-  if (attackerId === 'israel') return israelStrikesScenario(state);
-  if (attackerId === 'iran') return iranStrikesScenario(state);
-
-  // Fallback
-  return usaStrikesScenario(state);
+export function getAvailableNuclearWarheads(actorId, iranHasNuke = false) {
+  if (actorId === 'iran' && !iranHasNuke) return [];
+  return NUCLEAR_WARHEAD_OPTIONS[actorId] || [];
 }
 
-function usaStrikesScenario(state) {
+export function getNuclearWarheadById(actorId, warheadId, iranHasNuke = true) {
+  const warheads = getAvailableNuclearWarheads(actorId, iranHasNuke);
+  return warheads.find((warhead) => warhead.id === warheadId) || warheads[0] || null;
+}
+
+function casualtyScaleForWarhead(yieldKt, baselineYieldKt) {
+  return Math.pow(yieldKt / baselineYieldKt, 0.72);
+}
+
+function roundToOneDecimal(value) {
+  return Math.round(value * 10) / 10;
+}
+
+function buildImpactRadius(yieldKt, intercepted = false) {
+  const scale = Math.cbrt(yieldKt / 15);
+
+  if (intercepted) {
+    return {
+      intercepted: true,
+      debrisScatterKm: roundToOneDecimal(12 * scale),
+      contaminationWatchKm: roundToOneDecimal(28 * scale),
+    };
+  }
+
+  return {
+    intercepted: false,
+    fireballKm: roundToOneDecimal(0.6 * scale),
+    severeBlastKm: roundToOneDecimal(2.2 * scale),
+    thermalRadiationKm: roundToOneDecimal(5.8 * scale),
+    falloutZoneKm: roundToOneDecimal(38 * scale),
+  };
+}
+
+function applyWarheadToTargets(targets, warhead, { intercepted = false } = {}) {
+  return targets.map((target) => {
+    const baselineYieldKt = target.baseYieldKt || warhead.yieldKt;
+    const casualtyScale = target.casualties > 0
+      ? casualtyScaleForWarhead(warhead.yieldKt, baselineYieldKt)
+      : 1;
+
+    return {
+      ...target,
+      casualties: target.casualties > 0 ? Math.round(target.casualties * casualtyScale) : 0,
+      yield: `${warhead.yieldKt}kt (${warhead.shortLabel})`,
+      impactRadius: buildImpactRadius(warhead.yieldKt, intercepted && target.casualties === 0),
+    };
+  });
+}
+
+const GENERIC_TARGET_PROFILES = {
+  iran: {
+    default: [
+      { city: 'Tehran', country: 'Iran', baseYieldKt: 50, casualties: 650000, description: 'Capital and central command districts devastated.' },
+      { city: 'Isfahan', country: 'Iran', baseYieldKt: 50, casualties: 280000, description: 'Interior industrial and military infrastructure struck.' },
+    ],
+    bySubTarget: {
+      military_bases: [
+        { city: 'Kermanshah Military Belt', country: 'Iran', baseYieldKt: 50, casualties: 170000, description: 'Western bases and staging areas destroyed.' },
+        { city: 'Tehran Command Belt', country: 'Iran', baseYieldKt: 50, casualties: 240000, description: 'Strategic headquarters and barracks shattered.' },
+      ],
+      nuclear_sites: [
+        { city: 'Isfahan Nuclear Complex', country: 'Iran', baseYieldKt: 50, casualties: 220000, description: 'Nuclear research and fuel-cycle infrastructure obliterated.' },
+        { city: 'Bushehr', country: 'Iran', baseYieldKt: 50, casualties: 160000, description: 'Reactor-adjacent infrastructure struck with radiological fallout risk.' },
+      ],
+      oil_infra: [
+        { city: 'Kharg Island', country: 'Iran', baseYieldKt: 50, casualties: 95000, description: 'Export terminals, storage farms, and port systems destroyed.' },
+        { city: 'Bushehr Energy Corridor', country: 'Iran', baseYieldKt: 50, casualties: 145000, description: 'Energy logistics and coastal refining network devastated.' },
+      ],
+      irgc_positions: [
+        { city: 'Tehran / IRGC Command', country: 'Iran', baseYieldKt: 50, casualties: 210000, description: 'IRGC leadership and command nodes targeted directly.' },
+      ],
+      air_defenses: [
+        { city: 'Isfahan Air Defense Belt', country: 'Iran', baseYieldKt: 50, casualties: 80000, description: 'Air-defense batteries and nearby garrisons destroyed.' },
+      ],
+      leadership: [
+        { city: 'Tehran Government District', country: 'Iran', baseYieldKt: 50, casualties: 520000, description: 'Leadership compounds and command bunkers struck.' },
+      ],
+    },
+  },
+  israel: {
+    default: [
+      { city: 'Tel Aviv', country: 'Israel', baseYieldKt: 20, casualties: 380000, description: 'Dense urban and command center footprint devastated.' },
+      { city: 'Haifa', country: 'Israel', baseYieldKt: 20, casualties: 185000, description: 'Northern industrial port and strategic infrastructure damaged.' },
+    ],
+    bySubTarget: {
+      military_bases: [
+        { city: 'Tel Nof Air Base', country: 'Israel', baseYieldKt: 20, casualties: 48000, description: 'Major air base and support facilities destroyed.' },
+        { city: 'Kirya / Tel Aviv Command', country: 'Israel', baseYieldKt: 20, casualties: 120000, description: 'Central command district and nearby urban core shattered.' },
+      ],
+      civilian_areas: [
+        { city: 'Tel Aviv Metro', country: 'Israel', baseYieldKt: 20, casualties: 420000, description: 'Urban civilian core suffers catastrophic losses.' },
+      ],
+      air_bases: [
+        { city: 'Nevatim Air Base', country: 'Israel', baseYieldKt: 20, casualties: 32000, description: 'Runways, shelters, and nearby support zones destroyed.' },
+        { city: 'Ramat David Air Base', country: 'Israel', baseYieldKt: 20, casualties: 22000, description: 'Northern airpower hub disabled.' },
+      ],
+      naval_positions: [
+        { city: 'Haifa Naval Base', country: 'Israel', baseYieldKt: 20, casualties: 65000, description: 'Naval facilities and port-adjacent districts struck.' },
+      ],
+    },
+  },
+  usa: {
+    default: [
+      { city: 'Al Udeid Regional Hub', country: 'United States', baseYieldKt: 50, casualties: 60000, description: 'Forward US air and command infrastructure in the Gulf devastated.' },
+      { city: 'US 5th Fleet / Bahrain', country: 'United States', baseYieldKt: 50, casualties: 26000, description: 'Fleet headquarters, logistics piers, and docked vessels struck.' },
+    ],
+    bySubTarget: {
+      gulf_bases: [
+        { city: 'Al Udeid Regional Hub', country: 'United States', baseYieldKt: 50, casualties: 60000, description: 'Forward US air and command infrastructure in the Gulf devastated.' },
+        { city: 'US 5th Fleet / Bahrain', country: 'United States', baseYieldKt: 50, casualties: 26000, description: 'Fleet headquarters, logistics piers, and docked vessels struck.' },
+      ],
+      carrier_groups: [
+        { city: 'Carrier Strike Group at Sea', country: 'United States', baseYieldKt: 50, casualties: 14000, description: 'A regional carrier battle group absorbs a direct nuclear hit.' },
+      ],
+      air_bases: [
+        { city: 'Al Udeid Air Base', country: 'United States', baseYieldKt: 50, casualties: 42000, description: 'Aircraft shelters, runways, and command systems are devastated.' },
+      ],
+      troops: [
+        { city: 'Kuwait-Iraq Ground Corridor', country: 'United States', baseYieldKt: 50, casualties: 24000, description: 'Forward troop concentrations and logistics nodes are destroyed.' },
+      ],
+    },
+  },
+};
+
+function getDefaultNuclearTarget(attackerId) {
+  return attackerId === 'iran' ? 'israel' : 'iran';
+}
+
+function getGenericTargets(targetActorId, targetInfo) {
+  const profile = GENERIC_TARGET_PROFILES[targetActorId] || GENERIC_TARGET_PROFILES.iran;
+  const keyedTargets = targetInfo?.subTargetId && profile.bySubTarget?.[targetInfo.subTargetId];
+  const selectedTargets = keyedTargets || profile.default;
+  return selectedTargets.map((target) => ({ ...target }));
+}
+
+function calculateTargetScale(baseTargets, scaledTargets) {
+  return scaledTargets.reduce((sum, target, index) => {
+    const base = baseTargets[index]?.casualties || 1;
+    return sum + ((target.casualties || 0) / base);
+  }, 0) / Math.max(scaledTargets.length, 1);
+}
+
+function buildGenericStrikeScenario(attackerId, targetActorId, state, warhead, targetInfo) {
+  const attackerName = state.actors[attackerId]?.name || attackerId;
+  const targetName = state.actors[targetActorId]?.name || targetActorId;
+  const thirdActorId = ['usa', 'israel', 'iran'].find((id) => id !== attackerId && id !== targetActorId);
+  const thirdActorName = thirdActorId ? (state.actors[thirdActorId]?.name || thirdActorId) : 'Regional forces';
+  const initialTargets = getGenericTargets(targetActorId, targetInfo);
+  const scaledTargets = applyWarheadToTargets(initialTargets, warhead);
+  const targetScale = calculateTargetScale(initialTargets, scaledTargets);
+  const directImmediate = scaledTargets.reduce((sum, target) => sum + (target.casualties || 0), 0);
+  const immediate = Math.max(120000, Math.round(directImmediate + (targetScale * 90000)));
+  const withinYear = Math.round(immediate * 2.6);
+  const longTerm = Math.round(withinYear * 2.15);
+  const primaryLabel = scaledTargets.map((target) => target.city).join(' and ');
+  const regionalFallout = targetActorId === 'iran'
+    ? 'Central Asia, the Gulf littoral, and shipping corridors around Hormuz'
+    : targetActorId === 'israel'
+      ? 'the Levant, eastern Mediterranean airspace, and neighboring Jordanian corridors'
+      : 'the Gulf basing network, Bahrain-Qatar approaches, and nearby shipping lanes';
+
+  return {
+    type: 'nuclearExchange',
+    attackerId,
+    attackerName,
+    selectedWarhead: warhead,
+    initialTargets: scaledTargets,
+    retaliationChain: [
+      {
+        actor: targetName,
+        action: 'Surviving command launches immediate retaliatory conventional strikes',
+        targets: [
+          {
+            city: `${attackerName} regional assets`,
+            casualties: targetActorId === 'usa' ? 18000 : 9000,
+          },
+        ],
+        reason: `Even after the detonation, surviving ${targetName} command elements attempt to punish ${attackerName} with whatever missiles, aircraft, or proxy forces remain available.`,
+      },
+      {
+        actor: thirdActorName,
+        action: 'Emergency mobilization and missile-defense surge',
+        reason: `${thirdActorName} treats the strike as proof the conflict can no longer be contained. Forces disperse, air defenses activate, and leadership prepares for rapid regional spillover.`,
+      },
+    ],
+    otherCountries: [
+      { country: 'United Nations', action: 'Emergency Security Council session and global condemnation.', reason: 'Nuclear use immediately eclipses every other diplomatic track. Demand for inspections, ceasefire, and accountability becomes overwhelming.', icon: '\u{1F30D}' },
+      { country: 'Global Markets', action: 'Severe shock across energy, shipping, and insurance markets.', reason: `Trade routes around ${regionalFallout} become partially nonviable. Insurance, freight, and energy prices spike within hours.`, icon: '\u{1F4C9}' },
+      { country: 'Regional States', action: 'Borders harden, airspace closes, and civil defense plans activate.', reason: `Neighboring states assume fallout, refugee flows, and miscalculation risk will spread well beyond ${targetName}.`, icon: '\u{1F6A8}' },
+      { country: thirdActorName, action: 'Raises readiness and begins crisis diplomacy.', reason: `${thirdActorName} was not the direct target, but assumes the conflict could widen rapidly after a nuclear detonation of this scale.`, icon: '\u26A0' },
+    ],
+    globalEffects: {
+      nuclearWinter: `${attackerName}'s strike on ${targetName} does not guarantee civilization-ending nuclear winter, but it injects enough soot and industrial smoke to cause serious regional cooling and agricultural disruption.`,
+      falloutZones: `Radioactive contamination threatens ${regionalFallout}. Emergency monitoring and evacuation zones expand for days after the strike.`,
+      economicCollapse: `Global GDP contracts sharply as energy traders, shipping firms, and insurers price in the first regional nuclear use of the war. ${targetName}'s economy is functionally broken overnight.`,
+      refugeeCrisis: `Civilian flight from ${targetName} accelerates immediately. Border systems and emergency shelters across the wider region are overwhelmed within days.`,
+      famine: 'Supply chain rupture, agricultural contamination, and market panic drive a severe food-security crisis across import-dependent states.',
+    },
+    postWarEarth: {
+      description: `${attackerName}'s nuclear strike on ${targetName} shatters every remaining assumption that the war can be contained through conventional escalation alone. The world enters a new era of crisis management centered on fallout, deterrence collapse, and mass displacement.`,
+      timelineEvents: [
+        { time: 'Hour 0', event: `${warhead.shortLabel} detonates over ${primaryLabel}. Regional air-defense and civil-defense systems immediately fail into crisis mode.` },
+        { time: 'Hour 2', event: `${targetName} begins emergency retaliation planning while allied and rival capitals assume follow-on strikes are possible.` },
+        { time: 'Day 1', event: 'Commercial aviation and shipping corridors across the region are rerouted or suspended as fallout models spread.' },
+        { time: 'Week 1', event: `Refugee flows and medical demand outpace local capacity. ${targetName}'s remaining infrastructure faces cascading failure.` },
+        { time: 'Year 1', event: 'The strike becomes a case study in deterrence failure. Multiple states accelerate missile defense and nuclear decision-making reforms.' },
+      ],
+    },
+    totalCasualties: {
+      immediate,
+      withinYear,
+      longTerm,
+    },
+    economicDamage: targetActorId === 'usa' ? 90 : targetActorId === 'israel' ? 86 : 88,
+    description: `${attackerName} used ${warhead.shortLabel} against ${targetName}, with the initial strike centered on ${primaryLabel}. Immediate retaliation and global panic follow.`,
+  };
+}
+
+// Detailed nuclear strike chain-reaction model
+export function calculateNuclearStrikeOutcome(attackerId, state, warheadId = null, targetInfo = null) {
+  const warhead = getNuclearWarheadById(attackerId, warheadId, true);
+  const targetActorId = targetInfo?.countryId || getDefaultNuclearTarget(attackerId);
+
+  if (attackerId === 'usa' && targetActorId === 'iran') return usaStrikesScenario(state, warhead);
+  if (attackerId === 'israel' && targetActorId === 'iran') return israelStrikesScenario(state, warhead);
+  if (attackerId === 'iran' && targetActorId === 'israel') return iranStrikesScenario(state, warhead);
+
+  return buildGenericStrikeScenario(attackerId, targetActorId, state, warhead, targetInfo);
+}
+
+function usaStrikesScenario(state, warhead) {
   // USA fires nuclear weapons at Iran
   // Iran has NO nuclear weapons to retaliate with
   // Israel likely joins with conventional follow-up
@@ -154,10 +434,12 @@ function usaStrikesScenario(state) {
   // Massive regional fallout, global economic crisis
 
   const initialTargets = [
-    { city: 'Tehran', country: 'Iran', yield: '150kt (B61-12)', casualties: 850000, description: 'Capital and government center obliterated' },
-    { city: 'Isfahan', country: 'Iran', yield: '150kt (B61-12)', casualties: 420000, description: 'Nuclear facility and industrial hub destroyed' },
-    { city: 'Bushehr', country: 'Iran', yield: '50kt (tactical)', casualties: 180000, description: 'Nuclear reactor complex targeted — radiological contamination' },
+    { city: 'Tehran', country: 'Iran', baseYieldKt: 150, casualties: 850000, description: 'Capital and government center obliterated' },
+    { city: 'Isfahan', country: 'Iran', baseYieldKt: 150, casualties: 420000, description: 'Nuclear facility and industrial hub destroyed' },
+    { city: 'Bushehr', country: 'Iran', baseYieldKt: 50, casualties: 180000, description: 'Nuclear reactor complex targeted — radiological contamination' },
   ];
+  const scaledTargets = applyWarheadToTargets(initialTargets, warhead);
+  const targetScale = calculateTargetScale(initialTargets, scaledTargets);
 
   const retaliationChain = [
     {
@@ -251,18 +533,23 @@ function usaStrikesScenario(state) {
     type: 'nuclearExchange',
     attackerId: 'usa',
     attackerName: 'United States',
-    initialTargets,
+    selectedWarhead: warhead,
+    initialTargets: scaledTargets,
     retaliationChain,
     otherCountries,
     globalEffects,
     postWarEarth,
-    totalCasualties: { immediate, withinYear, longTerm },
+    totalCasualties: {
+      immediate: Math.round(immediate * targetScale),
+      withinYear: Math.round(withinYear * targetScale),
+      longTerm: Math.round(longTerm * targetScale),
+    },
     economicDamage: 92,
-    description: 'The United States launched nuclear strikes on Iran. No nuclear retaliation occurred — Iran possesses no nuclear weapons. But the consequences are catastrophic and permanent.',
+    description: `The United States launched ${warhead.shortLabel} strikes on Iran. No nuclear retaliation occurred — Iran possesses no nuclear weapons. But the consequences are catastrophic and permanent.`,
   };
 }
 
-function israelStrikesScenario(state) {
+function israelStrikesScenario(state, warhead) {
   // Israel breaks nuclear ambiguity — first confirmed use
   // Iran cannot retaliate with nukes
   // USA distances itself — was not consulted
@@ -270,9 +557,11 @@ function israelStrikesScenario(state) {
   // Pakistan faces extreme domestic pressure — small probability of involvement
 
   const initialTargets = [
-    { city: 'Tehran', country: 'Iran', yield: '20kt (Jericho III)', casualties: 520000, description: 'Strike on government district — regime decapitation attempt' },
-    { city: 'Isfahan', country: 'Iran', yield: '20kt (Jericho III)', casualties: 310000, description: 'Military-industrial complex destroyed' },
+    { city: 'Tehran', country: 'Iran', baseYieldKt: 20, casualties: 520000, description: 'Strike on government district — regime decapitation attempt' },
+    { city: 'Isfahan', country: 'Iran', baseYieldKt: 20, casualties: 310000, description: 'Military-industrial complex destroyed' },
   ];
+  const scaledTargets = applyWarheadToTargets(initialTargets, warhead);
+  const targetScale = calculateTargetScale(initialTargets, scaledTargets);
 
   const pakistanRetaliates = Math.random() < 0.12; // 12% chance
 
@@ -343,20 +632,25 @@ function israelStrikesScenario(state) {
     attackerId: 'israel',
     attackerName: 'Israel',
     pakistanEscalation: pakistanRetaliates,
-    initialTargets,
+    selectedWarhead: warhead,
+    initialTargets: scaledTargets,
     retaliationChain,
     otherCountries,
     globalEffects,
     postWarEarth,
-    totalCasualties: { immediate, withinYear, longTerm },
+    totalCasualties: {
+      immediate: Math.round(immediate * targetScale),
+      withinYear: Math.round(withinYear * targetScale),
+      longTerm: Math.round(longTerm * targetScale),
+    },
     economicDamage: pakistanRetaliates ? 97 : 88,
     description: pakistanRetaliates
-      ? 'Israel broke nuclear ambiguity. Pakistan retaliated. India intervened. South Asia burns. The world enters nuclear winter.'
-      : 'Israel broke nuclear ambiguity by striking Iran. No nuclear retaliation, but Israel is now a global pariah. The nuclear taboo is shattered.',
+      ? `Israel used ${warhead.shortLabel}. Pakistan retaliated. India intervened. South Asia burns. The world enters nuclear winter.`
+      : `Israel used ${warhead.shortLabel} against Iran. No nuclear retaliation, but Israel is now a global pariah. The nuclear taboo is shattered.`,
   };
 }
 
-function iranStrikesScenario(state) {
+function iranStrikesScenario(state, warhead) {
   // Iran achieved breakout — crude single device (~15-20kt)
   // Likely delivered by missile (Shahab-3 or Emad) — not a sophisticated warhead
   // Interception probability is HIGH (~60-70% with Arrow-3 + David's Sling)
@@ -369,13 +663,17 @@ function iranStrikesScenario(state) {
     {
       city: intercepted ? 'Tel Aviv (INTERCEPTED by Arrow-3)' : 'Tel Aviv',
       country: 'Israel',
-      yield: '15kt (crude device, Shahab-3 delivery)',
+      baseYieldKt: 15,
       casualties: intercepted ? 0 : 380000,
       description: intercepted
         ? 'Arrow-3 exo-atmospheric interception at 100km altitude. Warhead destroyed. Nuclear material scattered in upper atmosphere. Minimal ground contamination.'
         : 'Crude nuclear device detonates over metropolitan Tel Aviv. 380,000 immediate casualties. 3.5 million in fallout zone.',
     },
   ];
+  const scaledTargets = applyWarheadToTargets(initialTargets, warhead, { intercepted });
+  const targetScale = intercepted
+    ? casualtyScaleForWarhead(warhead.yieldKt, 15)
+    : ((scaledTargets[0].casualties || 0) / 380000);
 
   const retaliationChain = [
     {
@@ -449,15 +747,20 @@ function iranStrikesScenario(state) {
     attackerId: 'iran',
     attackerName: 'Iran',
     intercepted,
-    initialTargets,
+    selectedWarhead: warhead,
+    initialTargets: scaledTargets,
     retaliationChain,
     otherCountries,
     globalEffects,
     postWarEarth,
-    totalCasualties: { immediate, withinYear, longTerm },
+    totalCasualties: {
+      immediate: Math.round(immediate * targetScale),
+      withinYear: Math.round(withinYear * targetScale),
+      longTerm: Math.round(longTerm * targetScale),
+    },
     economicDamage: 96,
     description: intercepted
-      ? 'Iran launched a nuclear weapon at Israel — intercepted by Arrow-3. But the attempt triggered massive US-Israeli nuclear retaliation. Iran destroyed as a state.'
-      : 'Iran detonated a nuclear weapon over Tel Aviv. US and Israeli retaliation annihilated Iran. The world enters nuclear winter.',
+      ? `Iran launched ${warhead.shortLabel} at Israel — intercepted by Arrow-3. But the attempt triggered massive US-Israeli nuclear retaliation. Iran destroyed as a state.`
+      : `Iran detonated ${warhead.shortLabel} over Tel Aviv. US and Israeli retaliation annihilated Iran. The world enters nuclear winter.`,
   };
 }

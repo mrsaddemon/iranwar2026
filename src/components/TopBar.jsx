@@ -2,12 +2,8 @@ import React from 'react';
 import NuclearIndex from './NuclearIndex.jsx';
 
 const speeds = [1, 5, 20];
-
-// War started Feb 28, 2026. Simulation Day 0 = April 6, 2026 (War Day 37).
-const SIM_START = new Date('2026-04-07');
-
-function getSimDate(dayCount) {
-  const d = new Date(SIM_START);
+function getSimDate(dayCount, simStart) {
+  const d = new Date(simStart || '2026-04-07');
   d.setDate(d.getDate() + dayCount);
   const months = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
   return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
@@ -15,10 +11,10 @@ function getSimDate(dayCount) {
 
 export default function TopBar({
   dayCount, warDay, speed, running, nuclearIndex,
-  onSpeedChange, onToggleRunning, onReset, onFullscreen,
+  lastUpdated, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
 }) {
   const totalWarDay = (warDay || 38) + dayCount;
-  const currentDate = getSimDate(dayCount);
+  const currentDate = getSimDate(dayCount, simStart);
 
   return (
     <div className="top-bar">
@@ -37,6 +33,10 @@ export default function TopBar({
         <div className="sim-day" style={{ opacity: 0.5 }}>
           <span className="day-label">SIM +</span>
           <span className="day-value" style={{ fontSize: 14 }}>{dayCount}</span>
+        </div>
+        <div className="sim-day" style={{ opacity: 0.55 }}>
+          <span className="day-label">LAST SYNC</span>
+          <span className="day-value" style={{ fontSize: 12 }}>{lastUpdated || 'N/A'}</span>
         </div>
       </div>
 

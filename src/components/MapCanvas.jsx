@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useCallback } from 'react';
+import React, { useRef, useEffect, useCallback, useState } from 'react';
 
 // Accurate Middle East map — detailed borders calibrated to 2026 Iran War
 // Coordinate space: x=longitude mapped ~0.08(Egypt/Sinai)..0.95(Pakistan), y=latitude mapped ~0.05(Turkey)..0.92(Yemen)
@@ -252,27 +252,194 @@ const STRAIT_OF_HORMUZ = {
   end: { x: 0.72, y: 0.50 },
   label: 'STRAIT OF HORMUZ [BLOCKADED]',
   blockaded: true,
+  detail: 'Iranian mining and interdiction activity continues to threaten commercial and naval transit.',
 };
 
 // US regional presence — largest deployment since 2003
 const US_BASES = [
-  { x: 0.60, y: 0.52, label: 'US 5th Fleet' },
-  { x: 0.55, y: 0.44, label: 'Al Udeid AB' },
-  { x: 0.16, y: 0.32, label: 'USS Lincoln CSG' },
-  { x: 0.20, y: 0.38, label: 'USS Ford CSG' },
-  { x: 0.24, y: 0.44, label: 'USS Tripoli ARG' },
+  { x: 0.60, y: 0.52, label: 'US 5th Fleet', detail: 'Primary US naval command presence supporting Gulf escort, strike, and missile-defense operations.' },
+  { x: 0.55, y: 0.44, label: 'Al Udeid AB', detail: 'Regional air hub for ISR, refueling, command-and-control, and strike coordination.' },
+  { x: 0.16, y: 0.32, label: 'USS Lincoln CSG', detail: 'Carrier strike group positioned to project airpower from the Eastern Mediterranean.' },
+  { x: 0.20, y: 0.38, label: 'USS Ford CSG', detail: 'Second carrier group reinforcing deterrence and surge strike capacity.' },
+  { x: 0.24, y: 0.44, label: 'USS Tripoli ARG', detail: 'Amphibious ready group supporting rapid response, Marines, and littoral operations.' },
 ];
 
 // Active conflict zone markers
 const CONFLICT_ZONES = [
-  { x: 0.35, y: 0.23, label: 'HEZBOLLAH FRONT', color: [239, 68, 68] },
-  { x: 0.71, y: 0.49, label: 'HORMUZ MINEFIELD', color: [249, 115, 22] },
-  { x: 0.25, y: 0.75, label: 'RED SEA OPS', color: [234, 179, 8] },
+  {
+    x: 0.35,
+    y: 0.23,
+    label: 'HEZBOLLAH FRONT',
+    color: [239, 68, 68],
+    detail: 'Northern Israel and southern Lebanon remain the most active rocket, drone, and artillery exchange corridor.',
+  },
+  {
+    x: 0.71,
+    y: 0.49,
+    label: 'HORMUZ MINEFIELD',
+    color: [249, 115, 22],
+    detail: 'Blockade pressure, naval maneuvering, and mine threats make this the most economically sensitive maritime flashpoint.',
+  },
+  {
+    x: 0.25,
+    y: 0.75,
+    label: 'RED SEA OPS',
+    color: [234, 179, 8],
+    detail: 'Missile launches, drone activity, and escort operations continue to stress shipping lanes through the Red Sea corridor.',
+  },
 ];
 
+const CITY_CORES = [
+  { x: 0.73, y: 0.22, color: [239, 68, 68], label: 'Tehran', detail: 'Political center of gravity and strategic command node for Iran.' },
+  { x: 0.35, y: 0.31, color: [168, 85, 247], label: 'Tel Aviv', detail: 'Israeli economic and military command hub with dense air-defense coverage.' },
+  { x: 0.33, y: 0.22, color: [239, 100, 100], label: 'Beirut', detail: 'Lebanese capital and a key reference point for the northern escalation front.' },
+  { x: 0.52, y: 0.20, color: [100, 100, 140], label: 'Baghdad', detail: 'Iraqi political center exposed to regional spillover and proxy pressure.' },
+  { x: 0.66, y: 0.30, color: [200, 120, 80], label: 'Isfahan', detail: 'Strategic Iranian interior hub tied to military industry and logistics depth.' },
+];
+
+const REGION_HOVER_COPY = {
+  iran: 'Primary Iranian theater and the core territory driving escalation, mobilization, and retaliation decisions.',
+  israel: 'Primary Israeli theater where missile defense, mobilization, and strike decisions concentrate.',
+  lebanon: 'Northern front shaped by Hezbollah launches, Israeli responses, and cross-border escalation risk.',
+  persian_gulf: 'Most economically sensitive maritime corridor in the simulation, tied directly to oil flow and naval risk.',
+  gulf_of_oman: 'Approach waterway to Hormuz where naval shadowing and interdiction risk remain elevated.',
+  red_sea: 'Shipping corridor under persistent disruption pressure from missiles, drones, and escort operations.',
+  mediterranean: 'Carrier operating area and long-range air/missile launch approach for western actors.',
+  yemen: 'Proxy escalation theater affecting Red Sea shipping and regional missile/drone pressure.',
+};
+
 const GRID_SPACING = 40;
+const TOOLTIP_STYLE = {
+  position: 'absolute',
+  width: 220,
+  padding: '10px 12px',
+  borderRadius: 10,
+  border: '1px solid rgba(59, 130, 246, 0.18)',
+  background: 'rgba(5, 8, 16, 0.94)',
+  boxShadow: '0 16px 36px rgba(0, 0, 0, 0.38)',
+  backdropFilter: 'blur(6px)',
+  pointerEvents: 'none',
+  zIndex: 4,
+};
+
+function pointInPolygon(point, polygon) {
+  const [x, y] = point;
+  let inside = false;
+
+  for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+    const xi = polygon[i][0];
+    const yi = polygon[i][1];
+    const xj = polygon[j][0];
+    const yj = polygon[j][1];
+
+    const intersects = ((yi > y) !== (yj > y))
+      && (x < ((xj - xi) * (y - yi)) / ((yj - yi) || 1e-6) + xi);
+
+    if (intersects) inside = !inside;
+  }
+
+  return inside;
+}
+
+function distanceToSegment(px, py, x1, y1, x2, y2) {
+  const dx = x2 - x1;
+  const dy = y2 - y1;
+  const lengthSq = (dx * dx) + (dy * dy);
+
+  if (lengthSq === 0) {
+    return Math.hypot(px - x1, py - y1);
+  }
+
+  const t = Math.max(0, Math.min(1, (((px - x1) * dx) + ((py - y1) * dy)) / lengthSq));
+  const closestX = x1 + (t * dx);
+  const closestY = y1 + (t * dy);
+
+  return Math.hypot(px - closestX, py - closestY);
+}
+
+function findMapHoverTarget(mouseX, mouseY, width, height, scale, offset) {
+  const toScreenX = (x) => (x * width * scale) + offset.x;
+  const toScreenY = (y) => (y * height * scale) + offset.y;
+  const normalizedX = (mouseX - offset.x) / (width * scale);
+  const normalizedY = (mouseY - offset.y) / (height * scale);
+
+  for (const zone of CONFLICT_ZONES) {
+    const sx = toScreenX(zone.x);
+    const sy = toScreenY(zone.y);
+    if (Math.hypot(mouseX - sx, mouseY - sy) <= Math.max(18, 24 * scale)) {
+      return {
+        id: `zone-${zone.label}`,
+        title: zone.label,
+        subtitle: 'Conflict Zone',
+        detail: zone.detail,
+        accent: `rgba(${zone.color.join(',')}, 0.88)`,
+      };
+    }
+  }
+
+  for (const base of US_BASES) {
+    const sx = toScreenX(base.x);
+    const sy = toScreenY(base.y);
+    if (Math.hypot(mouseX - sx, mouseY - sy) <= Math.max(12, 14 * scale)) {
+      return {
+        id: `base-${base.label}`,
+        title: base.label,
+        subtitle: 'US Position',
+        detail: base.detail,
+        accent: 'rgba(59, 130, 246, 0.88)',
+      };
+    }
+  }
+
+  for (const core of CITY_CORES) {
+    const sx = toScreenX(core.x);
+    const sy = toScreenY(core.y);
+    if (Math.hypot(mouseX - sx, mouseY - sy) <= Math.max(10, 12 * scale)) {
+      return {
+        id: `core-${core.label}`,
+        title: core.label,
+        subtitle: 'Strategic Center',
+        detail: core.detail,
+        accent: `rgba(${core.color.join(',')}, 0.88)`,
+      };
+    }
+  }
+
+  const straitDistance = distanceToSegment(
+    mouseX,
+    mouseY,
+    toScreenX(STRAIT_OF_HORMUZ.start.x),
+    toScreenY(STRAIT_OF_HORMUZ.start.y),
+    toScreenX(STRAIT_OF_HORMUZ.end.x),
+    toScreenY(STRAIT_OF_HORMUZ.end.y),
+  );
+  if (straitDistance <= Math.max(8, 10 * scale)) {
+    return {
+      id: 'strait-of-hormuz',
+      title: 'Strait of Hormuz',
+      subtitle: STRAIT_OF_HORMUZ.blockaded ? 'Blockaded Chokepoint' : 'Strategic Chokepoint',
+      detail: STRAIT_OF_HORMUZ.detail,
+      accent: 'rgba(249, 115, 22, 0.88)',
+    };
+  }
+
+  for (const [key, region] of Object.entries(REGIONS)) {
+    if (pointInPolygon([normalizedX, normalizedY], region.path)) {
+      return {
+        id: `region-${key}`,
+        title: region.label,
+        subtitle: region.isWater ? 'Maritime Theater' : (region.activeConflict ? 'Active Theater' : 'Regional State'),
+        detail: REGION_HOVER_COPY[key] || `Current map context for ${region.label}.`,
+        accent: region.borderColor.replace(/[\d.]+\)$/u, '0.88)'),
+      };
+    }
+  }
+
+  return null;
+}
 
 export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex }) {
+  const [hoveredItem, setHoveredItem] = useState(null);
   const canvasRef = useRef(null);
   const animFrameRef = useRef(null);
   const offsetRef = useRef({ x: 0, y: 0 });
@@ -428,14 +595,7 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
     }
 
     // Country core markers (pulsing dots)
-    const cores = [
-      { x: 0.73, y: 0.22, color: [239, 68, 68], label: 'Tehran' },
-      { x: 0.35, y: 0.31, color: [168, 85, 247], label: 'Tel Aviv' },
-      { x: 0.33, y: 0.22, color: [239, 100, 100], label: 'Beirut' },
-      { x: 0.52, y: 0.20, color: [100, 100, 140], label: 'Baghdad' },
-      { x: 0.66, y: 0.30, color: [200, 120, 80], label: 'Isfahan' },
-    ];
-    for (const core of cores) {
+    for (const core of CITY_CORES) {
       const cx = tx(core.x);
       const cy = ty(core.y);
       const p = 0.5 + Math.sin(time * 0.004 + core.x * 5) * 0.5;
@@ -475,6 +635,8 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
 
       if (anim.type === 'missile') {
         drawMissileTrajectory(ctx, fromX, fromY, toX, toY, eased, time, scale);
+      } else if (anim.type === 'nuclearStrike') {
+        drawNuclearStrikeSequence(ctx, fromX, fromY, toX, toY, progress, time, scale, anim);
       } else if (anim.type === 'drone') {
         drawDroneSwarm(ctx, fromX, fromY, toX, toY, eased, time, scale);
       } else if (anim.type === 'airstrike') {
@@ -528,7 +690,7 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
       canvas.height = rect.height * devicePixelRatio;
       canvas.style.width = rect.width + 'px';
       canvas.style.height = rect.height + 'px';
-      ctx.scale(devicePixelRatio, devicePixelRatio);
+      ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
     };
 
     resize();
@@ -553,26 +715,76 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
   // Mouse handlers for pan/zoom
   const handleWheel = useCallback((e) => {
     e.preventDefault();
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const currentScale = scaleRef.current;
     const delta = e.deltaY > 0 ? 0.9 : 1.1;
-    scaleRef.current = Math.max(0.5, Math.min(3, scaleRef.current * delta));
+    const nextScale = Math.max(0.5, Math.min(3, currentScale * delta));
+    if (nextScale === currentScale) return;
+
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const ratio = nextScale / currentScale;
+
+    offsetRef.current.x = centerX - ((centerX - offsetRef.current.x) * ratio);
+    offsetRef.current.y = centerY - ((centerY - offsetRef.current.y) * ratio);
+    scaleRef.current = nextScale;
   }, []);
 
   const handleMouseDown = useCallback((e) => {
+    setHoveredItem(null);
     dragRef.current = { dragging: true, lastX: e.clientX, lastY: e.clientY };
   }, []);
 
   const handleMouseMove = useCallback((e) => {
-    if (!dragRef.current.dragging) return;
-    const dx = e.clientX - dragRef.current.lastX;
-    const dy = e.clientY - dragRef.current.lastY;
-    offsetRef.current.x += dx;
-    offsetRef.current.y += dy;
-    dragRef.current.lastX = e.clientX;
-    dragRef.current.lastY = e.clientY;
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+
+    if (dragRef.current.dragging) {
+      const dx = e.clientX - dragRef.current.lastX;
+      const dy = e.clientY - dragRef.current.lastY;
+      offsetRef.current.x += dx;
+      offsetRef.current.y += dy;
+      dragRef.current.lastX = e.clientX;
+      dragRef.current.lastY = e.clientY;
+      setHoveredItem(null);
+      return;
+    }
+
+    const target = findMapHoverTarget(
+      mouseX,
+      mouseY,
+      rect.width,
+      rect.height,
+      scaleRef.current,
+      offsetRef.current,
+    );
+
+    if (!target) {
+      setHoveredItem(null);
+      return;
+    }
+
+    setHoveredItem({
+      ...target,
+      x: Math.min(mouseX + 16, Math.max(16, rect.width - 236)),
+      y: Math.min(mouseY + 16, Math.max(16, rect.height - 128)),
+    });
   }, []);
 
   const handleMouseUp = useCallback(() => {
     dragRef.current.dragging = false;
+  }, []);
+
+  const handleMouseLeave = useCallback(() => {
+    dragRef.current.dragging = false;
+    setHoveredItem(null);
   }, []);
 
   return (
@@ -583,9 +795,50 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
+        onMouseLeave={handleMouseLeave}
         style={{ width: '100%', height: '100%', display: 'block' }}
       />
+      {hoveredItem && (
+        <div
+          style={{
+            ...TOOLTIP_STYLE,
+            left: hoveredItem.x,
+            top: hoveredItem.y,
+          }}
+        >
+          <div
+            style={{
+              fontSize: 10,
+              letterSpacing: 1,
+              textTransform: 'uppercase',
+              color: hoveredItem.accent,
+              fontFamily: "'JetBrains Mono', monospace",
+              marginBottom: 6,
+            }}
+          >
+            {hoveredItem.subtitle}
+          </div>
+          <div
+            style={{
+              fontSize: 13,
+              fontWeight: 700,
+              color: 'rgba(226, 232, 240, 0.96)',
+              marginBottom: 6,
+            }}
+          >
+            {hoveredItem.title}
+          </div>
+          <div
+            style={{
+              fontSize: 12,
+              lineHeight: 1.45,
+              color: 'rgba(148, 163, 184, 0.88)',
+            }}
+          >
+            {hoveredItem.detail}
+          </div>
+        </div>
+      )}
       <div style={{
         position: 'absolute', bottom: 8, right: 8,
         fontSize: 9, color: 'rgba(100,120,160,0.4)',
@@ -641,6 +894,120 @@ function drawMissileTrajectory(ctx, x1, y1, x2, y2, progress, time, scale) {
     ctx.fillStyle = `rgba(255, 200, 50, ${1 - imp})`;
     ctx.fill();
   }
+}
+
+function drawNuclearStrikeSequence(ctx, x1, y1, x2, y2, progress, time, scale, anim) {
+  const arcHeight = Math.max(90, Math.abs(x2 - x1) * 0.24);
+  const cx = (x1 + x2) / 2;
+  const cy = Math.min(y1, y2) - arcHeight;
+  const missilePhase = Math.min(1, progress / 0.62);
+  const interceptionPoint = pointOnQuadraticBezier(x1, y1, cx, cy, x2, y2, anim.intercepted ? 0.76 : 0.88);
+  const missilePoint = pointOnQuadraticBezier(x1, y1, cx, cy, x2, y2, missilePhase);
+
+  ctx.beginPath();
+  ctx.moveTo(x1, y1);
+  const steps = Math.max(8, Math.floor(missilePhase * 34));
+  for (let i = 0; i <= steps; i++) {
+    const t = (i / steps) * missilePhase;
+    const point = pointOnQuadraticBezier(x1, y1, cx, cy, x2, y2, t);
+    ctx.lineTo(point.x, point.y);
+  }
+  ctx.strokeStyle = 'rgba(239, 68, 68, 0.92)';
+  ctx.lineWidth = 2.8 * scale;
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.arc(missilePoint.x, missilePoint.y, 5 * scale, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(255, 230, 160, 0.98)';
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(missilePoint.x, missilePoint.y, 12 * scale, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(239, 68, 68, 0.20)';
+  ctx.fill();
+
+  ctx.font = `bold ${9 * scale}px 'JetBrains Mono', monospace`;
+  ctx.textAlign = 'center';
+
+  if (anim.intercepted) {
+    const interceptProgress = Math.max(0, Math.min(1, (progress - 0.45) / 0.25));
+    const interceptorStartX = x2;
+    const interceptorStartY = y2 + 30 * scale;
+    const interceptorPoint = {
+      x: interceptorStartX + ((interceptionPoint.x - interceptorStartX) * interceptProgress),
+      y: interceptorStartY + ((interceptionPoint.y - interceptorStartY) * interceptProgress),
+    };
+
+    if (interceptProgress > 0) {
+      ctx.beginPath();
+      ctx.moveTo(interceptorStartX, interceptorStartY);
+      ctx.lineTo(interceptorPoint.x, interceptorPoint.y);
+      ctx.strokeStyle = 'rgba(96, 165, 250, 0.9)';
+      ctx.lineWidth = 2.2 * scale;
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.arc(interceptorPoint.x, interceptorPoint.y, 4 * scale, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(191, 219, 254, 0.98)';
+      ctx.fill();
+    }
+
+    if (progress > 0.58) {
+      const burst = Math.min(1, (progress - 0.58) / 0.22);
+      for (let ring = 0; ring < 3; ring++) {
+        ctx.beginPath();
+        ctx.arc(
+          interceptionPoint.x,
+          interceptionPoint.y,
+          (18 + (ring * 14) + (burst * 20)) * scale,
+          0,
+          Math.PI * 2,
+        );
+        ctx.strokeStyle = `rgba(147, 197, 253, ${0.55 - (ring * 0.12) - (burst * 0.22)})`;
+        ctx.lineWidth = 2 * scale;
+        ctx.stroke();
+      }
+
+      ctx.beginPath();
+      ctx.arc(interceptionPoint.x, interceptionPoint.y, (10 + (burst * 10)) * scale, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(255, 255, 255, ${0.8 - (burst * 0.45)})`;
+      ctx.fill();
+
+      ctx.fillStyle = 'rgba(191, 219, 254, 0.92)';
+      ctx.fillText('INTERCEPT', interceptionPoint.x, interceptionPoint.y - (28 * scale));
+    }
+  } else if (progress > 0.72) {
+    const detonation = Math.min(1, (progress - 0.72) / 0.24);
+    for (let ring = 0; ring < 4; ring++) {
+      ctx.beginPath();
+      ctx.arc(
+        x2,
+        y2,
+        (18 + (ring * 16) + (detonation * 34)) * scale,
+        0,
+        Math.PI * 2,
+      );
+      ctx.strokeStyle = `rgba(249, 115, 22, ${0.65 - (ring * 0.12) - (detonation * 0.2)})`;
+      ctx.lineWidth = 2.4 * scale;
+      ctx.stroke();
+    }
+
+    ctx.beginPath();
+    ctx.arc(x2, y2, (18 + (detonation * 24)) * scale, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(255, 215, 96, ${0.75 - (detonation * 0.3)})`;
+    ctx.fill();
+
+    ctx.fillStyle = 'rgba(255, 196, 64, 0.95)';
+    ctx.fillText('DETONATION', x2, y2 - (34 * scale));
+  }
+}
+
+function pointOnQuadraticBezier(x1, y1, cx, cy, x2, y2, t) {
+  const mt = 1 - t;
+  return {
+    x: (mt * mt * x1) + (2 * mt * t * cx) + (t * t * x2),
+    y: (mt * mt * y1) + (2 * mt * t * cy) + (t * t * y2),
+  };
 }
 
 function drawDroneSwarm(ctx, x1, y1, x2, y2, progress, time, scale) {

@@ -1,126 +1,145 @@
-// Last auto-updated: 2026-04-07
-// Summary: The Middle East conflict intensifies on Day 38 with direct US military strikes on Iran's Kharg Island, escalating rhetoric from Trump, Iranian missile attacks on Israel, and regional involvement from Hezbollah and Houthis, all while Iran rejects a ceasefire proposal and a Strait of Hormuz deadline looms.
+// Baseline actor profiles for the simulation.
+// The latest source-grounded starting state is loaded at runtime from latestSnapshot.js.
 // Actor behavior profiles — calibrated to real-world conditions as of April 6, 2026
 // Active war: US-Israel vs Iran (began Feb 28, 2026)
 // Strait of Hormuz blockaded, Hezbollah re-engaged, Khamenei assassinated
 
 export const ACTOR_IDS = { USA: 'usa', ISRAEL: 'israel', IRAN: 'iran' };
 
-export function createInitialActors() {
-  return {
-    usa: {
-      id: 'usa',
-      name: 'United States',
-      shortName: 'USA',
-      color: '#3b82f6',
-      accentColor: '#60a5fa',
-      flag: '\u{1F1FA}\u{1F1F8}',
-      metrics: {
-        // Largest ME deployment since 2003: 2 carriers, 16 warships, 120+ aircraft
-        militaryPower: 90,
-        airSuperiority: 95, // F-35s, F-22s, F-15s, B-2 bombers deployed
-        missileCapacity: 90, // Tomahawk stocks depleted from June 2025 + Feb 2026 strikes
-        droneCapability: 90,
-        navalControl: 90, // Strong but Hormuz mining is a challenge; sank 16 minelayers
-        economy: 75, // Oil shock causing stagflationary drag, but moderate impact
-        internalStability: 70, // War fatigue, domestic debate on intervention scope
-        morale: 70, // Military confidence high, public opinion divided
-      },
-      behavior: {
-        aggression: 0.9, // Actively at war, escalation-prone posture
-        precision: 0.8,
-        diplomacyWeight: 0.25, // Diplomatic track collapsed Feb 28
-        escalationThreshold: 0.65,
-        asymmetricFactor: 0.1,
-        nuclearThreshold: 0.95,
-      },
-      actionWeights: {
-        airstrike: 0.22, // Primary action — airstrikes on Iranian targets
-        missileStrike: 0.12, // Tomahawk/cruise missile strikes
-        droneOperation: 0.12,
-        navalManeuver: 0.20, // Hormuz demining, carrier ops critical
-        cyberDisruption: 0.08,
-        defensivePosture: 0.10, // Base defense vs Iranian retaliation
-        diplomaticOutreach: 0.06, // Minimal — diplomacy collapsed
-        strategicSignaling: 0.10,
-      },
+const BASE_ACTORS = {
+  usa: {
+    id: 'usa',
+    name: 'United States',
+    shortName: 'USA',
+    color: '#3b82f6',
+    accentColor: '#60a5fa',
+    flag: '\u{1F1FA}\u{1F1F8}',
+    metrics: {
+      // Largest ME deployment since 2003: 2 carriers, 16 warships, 120+ aircraft
+      militaryPower: 95,
+      airSuperiority: 95, // F-35s, F-22s, F-15s, B-2 bombers deployed
+      missileCapacity: 90, // Tomahawk stocks depleted from June 2025 + Feb 2026 strikes
+      droneCapability: 90,
+      navalControl: 90, // Strong but Hormuz mining is a challenge; sank 16 minelayers
+      economy: 75, // Oil shock causing stagflationary drag, but moderate impact
+      internalStability: 70, // War fatigue, domestic debate on intervention scope
+      morale: 70, // Military confidence high, public opinion divided
     },
-    israel: {
-      id: 'israel',
-      name: 'Israel',
-      shortName: 'ISR',
-      color: '#a855f7',
-      accentColor: '#c084fc',
-      flag: '\u{1F1EE}\u{1F1F1}',
-      metrics: {
-        militaryPower: 80,
-        airSuperiority: 90, // Strong, 200+ jets used in June 2025 strikes
-        missileCapacity: 80, // Depleted from sustained ops since June 2025
-        droneCapability: 80,
-        navalControl: 70, // Limited naval role
-        economy: 65, // War economy strain, prolonged multi-front conflict
-        internalStability: 60, // Multi-front war fatigue — Gaza, Lebanon, Iran
-        morale: 60, // Military success but civilian stress from missile attacks
-      },
-      behavior: {
-        aggression: 0.8, // Very aggressive posture — multi-front ops
-        precision: 0.7,
-        diplomacyWeight: 0.15, // Minimal diplomacy
-        escalationThreshold: 0.45, // Lower threshold — already escalated
-        asymmetricFactor: 0.15,
-        nuclearThreshold: 0.88,
-      },
-      actionWeights: {
-        airstrike: 0.25, // Primary tool — strikes on Iran + Lebanon
-        missileStrike: 0.15,
-        droneOperation: 0.18,
-        navalManeuver: 0.04,
-        cyberDisruption: 0.10,
-        defensivePosture: 0.12, // Iron Dome active vs 90+ Iranian strikes
-        diplomaticOutreach: 0.04,
-        strategicSignaling: 0.12,
-      },
+    behavior: {
+      aggression: 0.95, // Actively at war, escalation-prone posture
+      precision: 0.7,
+      diplomacyWeight: 0.25, // Diplomatic track collapsed Feb 28
+      escalationThreshold: 0.65,
+      asymmetricFactor: 0.1,
+      nuclearThreshold: 0.95,
     },
-    iran: {
-      id: 'iran',
-      name: 'Iran',
-      shortName: 'IRN',
-      color: '#ef4444',
-      accentColor: '#f87171',
-      flag: '\u{1F1EE}\u{1F1F7}',
-      metrics: {
-        // Rebalanced: ~50% IRGC + missile launchers intact (Apr 2 US intel assessment)
-        // Russia provides S-400, satellite intel; China buys 90% of oil exports
-        // "Mosaic Defense" decentralized C2 provides resilience
-        militaryPower: 75, // ~50% IRGC capability intact per US assessment
-        airSuperiority: 15, // S-400 from Russia active near Isfahan; Su-35 deliveries
-        missileCapacity: 70, // ~50% launchers intact; tunnel networks protected reserves
-        droneCapability: 60, // Thousands of Shahed drones remain; production ongoing
-        navalControl: 25, // Navy largely destroyed BUT Hormuz mines + fast boats remain
-        economy: 25, // China lifeline: 90% of oil exports, construction-for-oil barter
-        internalStability: 35, // Protests ongoing but Mosaic Defense keeps regime functional
-        morale: 40, // Defiant under attack; "rally around the flag" effect
-      },
-      behavior: {
-        aggression: 0.9, // Fighting for regime survival
-        precision: 0.6, // Improved: Russian satellite intel enables better targeting
-        diplomacyWeight: 0.10, // Diplomacy dead after Khamenei assassination
-        escalationThreshold: 0.30, // Very low — already in total war mode
-        asymmetricFactor: 0.90, // Primary strategy: asymmetric warfare
-        nuclearThreshold: 0.80, // Facilities destroyed but desperation factor
-      },
-      actionWeights: {
-        airstrike: 0.02, // Air force nearly destroyed
-        missileStrike: 0.28, // Primary weapon — ballistic missiles
-        droneOperation: 0.25, // Suicide drone swarms
-        navalManeuver: 0.18, // Hormuz mining, boat attacks, IRGC navy
-        cyberDisruption: 0.08,
-        defensivePosture: 0.05, // Limited defensive capability
-        diplomaticOutreach: 0.04, // Minimal
-        strategicSignaling: 0.10, // Proxy activation, Hezbollah coordination
-      },
+    actionWeights: {
+      airstrike: 0.22, // Primary action — airstrikes on Iranian targets
+      missileStrike: 0.12, // Tomahawk/cruise missile strikes
+      droneOperation: 0.12,
+      navalManeuver: 0.20, // Hormuz demining, carrier ops critical
+      cyberDisruption: 0.08,
+      defensivePosture: 0.10, // Base defense vs Iranian retaliation
+      diplomaticOutreach: 0.06, // Minimal — diplomacy collapsed
+      strategicSignaling: 0.10,
     },
-  };
+  },
+  israel: {
+    id: 'israel',
+    name: 'Israel',
+    shortName: 'ISR',
+    color: '#a855f7',
+    accentColor: '#c084fc',
+    flag: '\u{1F1EE}\u{1F1F1}',
+    metrics: {
+      militaryPower: 85,
+      airSuperiority: 90, // Strong, 200+ jets used in June 2025 strikes
+      missileCapacity: 80, // Depleted from sustained ops since June 2025
+      droneCapability: 80,
+      navalControl: 70, // Limited naval role
+      economy: 65, // War economy strain, prolonged multi-front conflict
+      internalStability: 60, // Multi-front war fatigue — Gaza, Lebanon, Iran
+      morale: 60, // Military success but civilian stress from missile attacks
+    },
+    behavior: {
+      aggression: 0.85, // Very aggressive posture — multi-front ops
+      precision: 0.8,
+      diplomacyWeight: 0.15, // Minimal diplomacy
+      escalationThreshold: 0.45, // Lower threshold — already escalated
+      asymmetricFactor: 0.15,
+      nuclearThreshold: 0.88,
+    },
+    actionWeights: {
+      airstrike: 0.25, // Primary tool — strikes on Iran + Lebanon
+      missileStrike: 0.15,
+      droneOperation: 0.18,
+      navalManeuver: 0.04,
+      cyberDisruption: 0.10,
+      defensivePosture: 0.12, // Iron Dome active vs 90+ Iranian strikes
+      diplomaticOutreach: 0.04,
+      strategicSignaling: 0.12,
+    },
+  },
+  iran: {
+    id: 'iran',
+    name: 'Iran',
+    shortName: 'IRN',
+    color: '#ef4444',
+    accentColor: '#f87171',
+    flag: '\u{1F1EE}\u{1F1F7}',
+    metrics: {
+      // Rebalanced: ~50% IRGC + missile launchers intact (Apr 2 US intel assessment)
+      // Russia provides S-400, satellite intel; China buys 90% of oil exports
+      // "Mosaic Defense" decentralized C2 provides resilience
+      militaryPower: 75, // ~50% IRGC capability intact per US assessment
+      airSuperiority: 15, // S-400 from Russia active near Isfahan; Su-35 deliveries
+      missileCapacity: 70, // ~50% launchers intact; tunnel networks protected reserves
+      droneCapability: 60, // Thousands of Shahed drones remain; production ongoing
+      navalControl: 25, // Navy largely destroyed BUT Hormuz mines + fast boats remain
+      economy: 25, // China lifeline: 90% of oil exports, construction-for-oil barter
+      internalStability: 35, // Protests ongoing but Mosaic Defense keeps regime functional
+      morale: 40, // Defiant under attack; "rally around the flag" effect
+    },
+    behavior: {
+      aggression: 0.9, // Fighting for regime survival
+      precision: 0.5, // Improved: Russian satellite intel enables better targeting
+      diplomacyWeight: 0.10, // Diplomacy dead after Khamenei assassination
+      escalationThreshold: 0.30, // Very low — already in total war mode
+      asymmetricFactor: 0.90, // Primary strategy: asymmetric warfare
+      nuclearThreshold: 0.80, // Facilities destroyed but desperation factor
+    },
+    actionWeights: {
+      airstrike: 0.02, // Air force nearly destroyed
+      missileStrike: 0.28, // Primary weapon — ballistic missiles
+      droneOperation: 0.25, // Suicide drone swarms
+      navalManeuver: 0.18, // Hormuz mining, boat attacks, IRGC navy
+      cyberDisruption: 0.08,
+      defensivePosture: 0.05, // Limited defensive capability
+      diplomaticOutreach: 0.04, // Minimal
+      strategicSignaling: 0.10, // Proxy activation, Hezbollah coordination
+    },
+  },
+};
+
+export function createInitialActors(overrides = {}) {
+  const actors = JSON.parse(JSON.stringify(BASE_ACTORS));
+
+  for (const actorId of Object.keys(actors)) {
+    const override = overrides[actorId];
+    if (!override) continue;
+
+    if (override.metrics) {
+      actors[actorId].metrics = { ...actors[actorId].metrics, ...override.metrics };
+    }
+    if (override.behavior) {
+      actors[actorId].behavior = { ...actors[actorId].behavior, ...override.behavior };
+    }
+    if (override.actionWeights) {
+      actors[actorId].actionWeights = { ...actors[actorId].actionWeights, ...override.actionWeights };
+    }
+  }
+
+  return actors;
 }
 
 // Russia/China alliance support for Iran — based on confirmed intelligence
@@ -156,6 +175,17 @@ export const ALLIANCE_SUPPORT = {
     detail: 'Russia + China + France vetoed Hormuz force resolution (Apr 2-3)',
   },
 };
+
+export function createAllianceSupport(overrides = {}) {
+  const alliance = JSON.parse(JSON.stringify(ALLIANCE_SUPPORT));
+
+  for (const [key, value] of Object.entries(overrides)) {
+    if (!alliance[key]) continue;
+    alliance[key].active = !!value;
+  }
+
+  return alliance;
+}
 
 // Hezbollah + Houthi proxy forces
 export const PROXY_FORCES = {
