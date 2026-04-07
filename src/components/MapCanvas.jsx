@@ -30,14 +30,23 @@ import {
   drawSignal,
 } from './mapAnimationDraw.js';
 
+function getOverlayVisualScale(zoomScale) {
+  return Math.max(0.72, Math.min(1.28, 1 / Math.sqrt(zoomScale || 1)));
+}
+
+function getScaledLabelFontSize(baseSize, zoomScale) {
+  return Math.max(7, baseSize * getOverlayVisualScale(zoomScale));
+}
+
 function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewTransform) {
   const markers = [];
+  const visualScale = getOverlayVisualScale(viewTransform.scale);
 
   for (const zone of CONFLICT_ZONES) {
     const point = projectWithView(projection, zone.coordinates, viewTransform);
     if (point) {
       markers.push({
-        hitRadius: Math.max(18, 24 * viewTransform.scale),
+        hitRadius: Math.max(12, 18 * visualScale),
         point,
         tooltip: {
           id: `zone-${zone.label}`,
@@ -54,7 +63,7 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
     const point = projectWithView(projection, base.coordinates, viewTransform);
     if (point) {
       markers.push({
-        hitRadius: Math.max(12, 14 * viewTransform.scale),
+        hitRadius: Math.max(9, 12 * visualScale),
         point,
         tooltip: {
           id: `base-${base.label}`,
@@ -71,7 +80,7 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
     const point = projectWithView(projection, core.coordinates, viewTransform);
     if (point) {
       markers.push({
-        hitRadius: Math.max(10, 12 * viewTransform.scale),
+        hitRadius: Math.max(8, 10 * visualScale),
         point,
         tooltip: {
           id: `core-${core.label}`,
@@ -97,7 +106,7 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
   const end = projectWithView(projection, STRAIT_OF_HORMUZ.end, viewTransform);
   if (start && end) {
     const straitDistance = distanceToSegment(mouseX, mouseY, start.x, start.y, end.x, end.y);
-    if (straitDistance <= Math.max(8, 10 * viewTransform.scale)) {
+    if (straitDistance <= Math.max(6, 8 * visualScale)) {
       return {
         id: 'strait-of-hormuz',
         title: 'Strait of Hormuz',
@@ -198,6 +207,7 @@ export default function MapCanvas({ mapAnimations, escalationLevel }) {
     const loop = (time) => {
       if (!running) return;
       const { x, y, scale } = viewTransformRef.current;
+      const visualScale = getOverlayVisualScale(scale);
 
       bgCtx.clearRect(0, 0, size.width, size.height);
       const gradient = bgCtx.createRadialGradient(size.width / 2, size.height / 2, 0, size.width / 2, size.height / 2, size.width * 0.8);
@@ -239,13 +249,13 @@ export default function MapCanvas({ mapAnimations, escalationLevel }) {
         overlayCtx.moveTo(start.x, start.y);
         overlayCtx.lineTo(end.x, end.y);
         overlayCtx.strokeStyle = `rgba(249, 115, 22, ${pulse})`;
-        overlayCtx.lineWidth = 3 * scale;
+        overlayCtx.lineWidth = Math.max(1.5, 2.4 * visualScale);
         overlayCtx.stroke();
 
-        overlayCtx.font = `bold ${Math.max(8, 8 * scale)}px 'JetBrains Mono', monospace`;
+        overlayCtx.font = `bold ${getScaledLabelFontSize(9, scale)}px 'JetBrains Mono', monospace`;
         overlayCtx.fillStyle = `rgba(249, 115, 22, ${pulse + 0.2})`;
         overlayCtx.textAlign = 'center';
-        overlayCtx.fillText(STRAIT_OF_HORMUZ.label, (start.x + end.x) / 2, start.y - (12 * scale));
+        overlayCtx.fillText(STRAIT_OF_HORMUZ.label, (start.x + end.x) / 2, start.y - (12 * visualScale));
       }
 
       for (const base of US_BASES) {
@@ -253,18 +263,18 @@ export default function MapCanvas({ mapAnimations, escalationLevel }) {
         if (!point) continue;
         const pulse = 0.4 + (Math.sin(time * 0.002 + point.x * 0.01) * 0.3);
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, 12 * scale, 0, Math.PI * 2);
+        overlayCtx.arc(point.x, point.y, 11 * visualScale, 0, Math.PI * 2);
         overlayCtx.fillStyle = `rgba(${ACTOR_RGB.usa}, ${pulse * 0.3})`;
         overlayCtx.fill();
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, 4 * scale, 0, Math.PI * 2);
+        overlayCtx.arc(point.x, point.y, 4 * visualScale, 0, Math.PI * 2);
         overlayCtx.fillStyle = `rgba(${ACTOR_RGB.usa}, ${0.72 + (pulse * 0.28)})`;
         overlayCtx.fill();
 
-        overlayCtx.font = `${Math.max(7, 7 * scale)}px 'JetBrains Mono', monospace`;
+        overlayCtx.font = `${getScaledLabelFontSize(8, scale)}px 'JetBrains Mono', monospace`;
         overlayCtx.fillStyle = `rgba(${ACTOR_RGB.usa}, 0.7)`;
         overlayCtx.textAlign = 'center';
-        overlayCtx.fillText(base.label, point.x, point.y + (18 * scale));
+        overlayCtx.fillText(base.label, point.x, point.y + (16 * visualScale));
       }
 
       for (const zone of CONFLICT_ZONES) {
@@ -272,15 +282,15 @@ export default function MapCanvas({ mapAnimations, escalationLevel }) {
         if (!point) continue;
         const pulse = 0.3 + (Math.sin(time * 0.005 + point.x * 0.01) * 0.4);
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, (18 + (pulse * 10)) * scale, 0, Math.PI * 2);
+        overlayCtx.arc(point.x, point.y, (16 + (pulse * 8)) * visualScale, 0, Math.PI * 2);
         overlayCtx.strokeStyle = `rgba(${zone.color.join(',')}, 0.25)`;
         overlayCtx.lineWidth = 1;
         overlayCtx.stroke();
 
-        overlayCtx.font = `bold ${Math.max(7, 7 * scale)}px 'JetBrains Mono', monospace`;
+        overlayCtx.font = `bold ${getScaledLabelFontSize(8, scale)}px 'JetBrains Mono', monospace`;
         overlayCtx.fillStyle = `rgba(${zone.color.join(',')}, ${pulse + 0.3})`;
         overlayCtx.textAlign = 'center';
-        overlayCtx.fillText(zone.label, point.x, point.y - (8 * scale));
+        overlayCtx.fillText(zone.label, point.x, point.y - (8 * visualScale));
       }
 
       for (const core of CITY_CORES) {
@@ -288,19 +298,19 @@ export default function MapCanvas({ mapAnimations, escalationLevel }) {
         if (!point) continue;
         const pulse = 0.5 + (Math.sin(time * 0.004 + point.x * 0.01) * 0.5);
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, 16 * scale * (0.8 + (pulse * 0.4)), 0, Math.PI * 2);
+        overlayCtx.arc(point.x, point.y, 14 * visualScale * (0.8 + (pulse * 0.4)), 0, Math.PI * 2);
         overlayCtx.strokeStyle = `rgba(${core.color.join(',')}, ${pulse * 0.3})`;
         overlayCtx.lineWidth = 1.5;
         overlayCtx.stroke();
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, 5 * scale, 0, Math.PI * 2);
+        overlayCtx.arc(point.x, point.y, 5 * visualScale, 0, Math.PI * 2);
         overlayCtx.fillStyle = `rgba(${core.color.join(',')}, 0.9)`;
         overlayCtx.fill();
 
-        overlayCtx.font = `${Math.max(8, 8 * scale)}px 'JetBrains Mono', monospace`;
+        overlayCtx.font = `${getScaledLabelFontSize(9, scale)}px 'JetBrains Mono', monospace`;
         overlayCtx.fillStyle = `rgba(${core.color.join(',')}, 0.72)`;
         overlayCtx.textAlign = 'center';
-        overlayCtx.fillText(core.label, point.x, point.y - (14 * scale));
+        overlayCtx.fillText(core.label, point.x, point.y - (13 * visualScale));
       }
 
       const now = Date.now();
@@ -481,17 +491,45 @@ export default function MapCanvas({ mapAnimations, escalationLevel }) {
                 />
               );
             })}
-            {MAP_LABELS.map((label) => {
-              const point = projection(label.coordinates);
-              if (!point) return null;
-              return <text key={label.text} x={point[0]} y={point[1]} fill={label.color} fontSize="10" fontFamily="'JetBrains Mono', monospace" textAnchor="middle" letterSpacing="1px" style={{ pointerEvents: 'none', userSelect: 'none' }}>{label.text}</text>;
-            })}
-            {SEA_LABELS.map((label) => {
-              const point = projection(label.coordinates);
-              if (!point) return null;
-              return <text key={label.text} x={point[0]} y={point[1]} fill={label.color} fontSize="9" fontFamily="'JetBrains Mono', monospace" textAnchor="middle" letterSpacing="1px" style={{ pointerEvents: 'none', userSelect: 'none' }}>{label.text}</text>;
-            })}
           </g>
+          {MAP_LABELS.map((label) => {
+            const point = projectWithView(projection, { lon: label.coordinates[0], lat: label.coordinates[1] }, viewTransform);
+            if (!point) return null;
+            return (
+              <text
+                key={label.text}
+                x={point.x}
+                y={point.y}
+                fill={label.color}
+                fontSize={getScaledLabelFontSize(10, viewTransform.scale)}
+                fontFamily="'JetBrains Mono', monospace"
+                textAnchor="middle"
+                letterSpacing={`${Math.max(0.6, getOverlayVisualScale(viewTransform.scale))}px`}
+                style={{ pointerEvents: 'none', userSelect: 'none' }}
+              >
+                {label.text}
+              </text>
+            );
+          })}
+          {SEA_LABELS.map((label) => {
+            const point = projectWithView(projection, { lon: label.coordinates[0], lat: label.coordinates[1] }, viewTransform);
+            if (!point) return null;
+            return (
+              <text
+                key={label.text}
+                x={point.x}
+                y={point.y}
+                fill={label.color}
+                fontSize={getScaledLabelFontSize(9, viewTransform.scale)}
+                fontFamily="'JetBrains Mono', monospace"
+                textAnchor="middle"
+                letterSpacing={`${Math.max(0.5, getOverlayVisualScale(viewTransform.scale) * 0.9)}px`}
+                style={{ pointerEvents: 'none', userSelect: 'none' }}
+              >
+                {label.text}
+              </text>
+            );
+          })}
         </svg>
       )}
       <canvas ref={overlayCanvasRef} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', display: 'block', pointerEvents: 'none' }} />
