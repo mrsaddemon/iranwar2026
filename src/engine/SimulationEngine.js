@@ -347,7 +347,7 @@ export function checkWarConclusion(state) {
     return {
       type: 'coalitionWithdrawal',
       title: 'US COALITION WITHDRAWAL',
-      color: '#3b82f6',
+      color: '#ef4444',
       icon: '\u{1F1FA}\u{1F1F8}',
       summary: 'Domestic political pressure forces US withdrawal from the conflict. Israel left to manage alone.',
       casualties: Math.floor(10000 + Math.random() * 50000),
@@ -360,7 +360,7 @@ export function checkWarConclusion(state) {
     return {
       type: 'coalitionStrategicVictory',
       title: 'COALITION STRATEGIC VICTORY',
-      color: '#60a5fa',
+      color: '#ef4444',
       icon: '\u2696',
       summary: 'US-Israeli pressure breaks Iran’s warfighting capacity and forces a coercive settlement without full regime collapse.',
       casualties: Math.floor(45000 + Math.random() * 125000),
@@ -373,7 +373,7 @@ export function checkWarConclusion(state) {
     return {
       type: 'israeliOverextension',
       title: 'ISRAELI OVEREXTENSION',
-      color: '#a855f7',
+      color: '#3b82f6',
       icon: '\u26A0',
       summary: 'Israel’s economy, reserves, and internal cohesion are stretched to the breaking point, forcing an abrupt strategic pause.',
       casualties: Math.floor(30000 + Math.random() * 90000),
@@ -412,7 +412,7 @@ export function checkWarConclusion(state) {
     return {
       type: 'iranianSurvival',
       title: 'IRANIAN SURVIVAL UNDER ALLIED SHIELD',
-      color: '#ef4444',
+      color: '#22c55e',
       icon: '\u{1F6E1}',
       summary: 'Iran weathers the campaign long enough for coalition resolve to fracture and allied backing to lock in a contested end-state.',
       casualties: Math.floor(40000 + Math.random() * 120000),
@@ -434,7 +434,7 @@ export function checkWarConclusion(state) {
     return {
       type: 'iranianRegionalAscendancy',
       title: 'IRANIAN REGIONAL ASCENDANCY',
-      color: '#ef4444',
+      color: '#22c55e',
       icon: '\u{1F451}',
       summary: 'The coalition fails to break Iran. The petro-dollar system fractures, global power shifts, and Tehran emerges as the dominant strategic force across the region.',
       casualties: Math.floor(90000 + Math.random() * 180000),

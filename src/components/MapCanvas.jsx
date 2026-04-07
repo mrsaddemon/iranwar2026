@@ -39,8 +39,8 @@ const REGIONS = {
     ],
   },
   israel: {
-    color: 'rgba(168, 85, 247, 0.22)',
-    borderColor: 'rgba(168, 85, 247, 0.7)',
+    color: 'rgba(59, 130, 246, 0.22)',
+    borderColor: 'rgba(59, 130, 246, 0.7)',
     label: 'ISRAEL',
     labelPos: { x: 0.33, y: 0.30 },
     activeConflict: true,
@@ -87,8 +87,8 @@ const REGIONS = {
     ],
   },
   iran: {
-    color: 'rgba(239, 68, 68, 0.16)',
-    borderColor: 'rgba(239, 68, 68, 0.65)',
+    color: 'rgba(34, 197, 94, 0.16)',
+    borderColor: 'rgba(34, 197, 94, 0.65)',
     label: 'IRAN',
     labelPos: { x: 0.73, y: 0.30 },
     activeConflict: true,
@@ -259,9 +259,9 @@ const STRAIT_OF_HORMUZ = {
 const US_BASES = [
   { x: 0.60, y: 0.52, label: 'US 5th Fleet', detail: 'Primary US naval command presence supporting Gulf escort, strike, and missile-defense operations.' },
   { x: 0.55, y: 0.44, label: 'Al Udeid AB', detail: 'Regional air hub for ISR, refueling, command-and-control, and strike coordination.' },
-  { x: 0.16, y: 0.32, label: 'USS Lincoln CSG', detail: 'Carrier strike group positioned to project airpower from the Eastern Mediterranean.' },
-  { x: 0.20, y: 0.38, label: 'USS Ford CSG', detail: 'Second carrier group reinforcing deterrence and surge strike capacity.' },
-  { x: 0.24, y: 0.44, label: 'USS Tripoli ARG', detail: 'Amphibious ready group supporting rapid response, Marines, and littoral operations.' },
+  { x: 0.17, y: 0.12, label: 'USS Lincoln CSG', detail: 'Carrier strike group positioned to project airpower from the Eastern Mediterranean.' },
+  { x: 0.23, y: 0.17, label: 'USS Ford CSG', detail: 'Second carrier group reinforcing deterrence and surge strike capacity.' },
+  { x: 0.23, y: 0.66, label: 'USS Tripoli ARG', detail: 'Amphibious ready group supporting rapid response, Marines, and littoral operations.' },
 ];
 
 // Active conflict zone markers
@@ -290,8 +290,8 @@ const CONFLICT_ZONES = [
 ];
 
 const CITY_CORES = [
-  { x: 0.73, y: 0.22, color: [239, 68, 68], label: 'Tehran', detail: 'Political center of gravity and strategic command node for Iran.' },
-  { x: 0.35, y: 0.31, color: [168, 85, 247], label: 'Tel Aviv', detail: 'Israeli economic and military command hub with dense air-defense coverage.' },
+  { x: 0.73, y: 0.22, color: [34, 197, 94], label: 'Tehran', detail: 'Political center of gravity and strategic command node for Iran.' },
+  { x: 0.35, y: 0.31, color: [59, 130, 246], label: 'Tel Aviv', detail: 'Israeli economic and military command hub with dense air-defense coverage.' },
   { x: 0.33, y: 0.22, color: [239, 100, 100], label: 'Beirut', detail: 'Lebanese capital and a key reference point for the northern escalation front.' },
   { x: 0.52, y: 0.20, color: [100, 100, 140], label: 'Baghdad', detail: 'Iraqi political center exposed to regional spillover and proxy pressure.' },
   { x: 0.66, y: 0.30, color: [200, 120, 80], label: 'Isfahan', detail: 'Strategic Iranian interior hub tied to military industry and logistics depth.' },
@@ -320,6 +320,12 @@ const TOOLTIP_STYLE = {
   backdropFilter: 'blur(6px)',
   pointerEvents: 'none',
   zIndex: 4,
+};
+
+const ACTOR_RGB = {
+  usa: '239, 68, 68',
+  israel: '59, 130, 246',
+  iran: '34, 197, 94',
 };
 
 function pointInPolygon(point, polygon) {
@@ -386,7 +392,7 @@ function findMapHoverTarget(mouseX, mouseY, width, height, scale, offset) {
         title: base.label,
         subtitle: 'US Position',
         detail: base.detail,
-        accent: 'rgba(59, 130, 246, 0.88)',
+        accent: `rgba(${ACTOR_RGB.usa}, 0.88)`,
       };
     }
   }
@@ -539,18 +545,18 @@ export default function MapCanvas({ mapAnimations, escalationLevel, nuclearIndex
       // Glow
       ctx.beginPath();
       ctx.arc(bx, by, 12 * scale, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(59, 130, 246, ${pulse * 0.3})`;
+      ctx.fillStyle = `rgba(${ACTOR_RGB.usa}, ${pulse * 0.3})`;
       ctx.fill();
 
       // Dot
       ctx.beginPath();
       ctx.arc(bx, by, 4 * scale, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(59, 130, 246, ${0.7 + pulse * 0.3})`;
+      ctx.fillStyle = `rgba(${ACTOR_RGB.usa}, ${0.7 + pulse * 0.3})`;
       ctx.fill();
 
       // Label
       ctx.font = `${7 * scale}px 'JetBrains Mono', monospace`;
-      ctx.fillStyle = `rgba(59, 130, 246, 0.7)`;
+      ctx.fillStyle = `rgba(${ACTOR_RGB.usa}, 0.7)`;
       ctx.textAlign = 'center';
       ctx.fillText(base.label, bx, by + 18 * scale);
     }

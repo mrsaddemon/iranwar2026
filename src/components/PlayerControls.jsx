@@ -4,7 +4,7 @@ import { getAvailableNuclearWarheads } from '../engine/nuclear.js';
 
 const ACTOR_NAMES = { usa: 'United States', israel: 'Israel', iran: 'Iran' };
 const ACTOR_SHORT = { usa: 'USA', israel: 'Israel', iran: 'Iran' };
-const ACTOR_COLORS = { usa: '#3b82f6', israel: '#a855f7', iran: '#ef4444' };
+const ACTOR_COLORS = { usa: '#ef4444', israel: '#3b82f6', iran: '#22c55e' };
 
 const OFFENSIVE_ACTIONS = ['airstrike', 'missileStrike', 'droneOperation', 'cyberDisruption',
   'deployMOAB', 'carrierStrike', 'fullNavalBlockade', 'hormuzMineSurge', 'activateAllProxies', 'nuclearBreakout', 'nuclearStrike'];
@@ -250,7 +250,7 @@ export default function PlayerControls({
             checked={!!iranHasNuke}
             onChange={() => onToggleIranNuke?.()}
           />
-          <span className="pc-toggle-text" style={{ color: iranHasNuke ? '#ef4444' : '#64748b' }}>
+          <span className="pc-toggle-text" style={{ color: iranHasNuke ? '#22c55e' : '#64748b' }}>
             {'\u2622'} Iran Nuclear Breakout
           </span>
           <span className="pc-toggle-hint">

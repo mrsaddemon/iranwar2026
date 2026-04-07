@@ -11,8 +11,8 @@ const BASE_ACTORS = {
     id: 'usa',
     name: 'United States',
     shortName: 'USA',
-    color: '#3b82f6',
-    accentColor: '#60a5fa',
+    color: '#ef4444',
+    accentColor: '#f87171',
     flag: '\u{1F1FA}\u{1F1F8}',
     metrics: {
       // Largest ME deployment since 2003: 2 carriers, 16 warships, 120+ aircraft
@@ -48,8 +48,8 @@ const BASE_ACTORS = {
     id: 'israel',
     name: 'Israel',
     shortName: 'ISR',
-    color: '#a855f7',
-    accentColor: '#c084fc',
+    color: '#3b82f6',
+    accentColor: '#60a5fa',
     flag: '\u{1F1EE}\u{1F1F1}',
     metrics: {
       militaryPower: 85,
@@ -84,8 +84,8 @@ const BASE_ACTORS = {
     id: 'iran',
     name: 'Iran',
     shortName: 'IRN',
-    color: '#ef4444',
-    accentColor: '#f87171',
+    color: '#22c55e',
+    accentColor: '#4ade80',
     flag: '\u{1F1EE}\u{1F1F7}',
     metrics: {
       // Rebalanced: ~50% IRGC + missile launchers intact (Apr 2 US intel assessment)
