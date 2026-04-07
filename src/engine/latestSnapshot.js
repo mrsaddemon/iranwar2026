@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 6,
+  "updateSequence": 7,
   "lastUpdated": "2026-04-07",
-  "lastSyncedAt": "2026-04-07T23:09:20.260Z",
+  "lastSyncedAt": "2026-04-07T23:55:42.778Z",
   "warDay": 39,
-  "summary": "A two-week ceasefire has been agreed upon between the US and Iran, contingent on Iran opening the Strait of Hormuz, following US-Israeli strikes and threats amidst ongoing regional conflict involving proxies.",
+  "summary": "Trump has agreed to a two-week ceasefire with Iran, contingent on the reopening of the Strait of Hormuz, amidst ongoing US-Israeli strikes on Iranian infrastructure and regional involvement by Hezbollah and Houthis.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.88,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 80,
-    "oilDisruption": 75
+    "nuclearIndex": 35,
+    "escalationLevel": 75,
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -49,15 +49,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "Trump issues threat to 'wipe out a whole civilization' against Iran.",
-      "severity": "critical",
-      "latestSinceUpdate": 6
-    },
-    {
-      "date": "Apr 07",
-      "text": "Trump agrees to a two-week ceasefire with Iran to negotiate a 10-point peace deal.",
+      "text": "Trump agrees to two-week ceasefire with Iran, subject to Strait of Hormuz reopening.",
       "severity": "info",
-      "latestSinceUpdate": 6
+      "latestSinceUpdate": 7
     },
     {
       "date": "Apr 07",
@@ -67,27 +61,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 07",
-      "text": "Hezbollah and Houthi forces join Iran in strikes against Israel.",
+      "text": "Hezbollah and Houthis join Iran in strikes against Israel.",
+      "severity": "critical",
+      "latestSinceUpdate": 7
+    },
+    {
+      "date": "Apr 07",
+      "text": "Israeli strike kills Christian party official in Lebanon, deepening regional divides.",
       "severity": "warning",
-      "latestSinceUpdate": 6
+      "latestSinceUpdate": 7
     },
     {
       "date": "Apr 07",
-      "text": "Ceasefire agreement is made conditional on Iran opening the Strait of Hormuz.",
+      "text": "UN chief expresses concern over 'incendiary rhetoric' as deal deadline approaches.",
       "severity": "info",
-      "latestSinceUpdate": 6
-    },
-    {
-      "date": "Apr 07",
-      "text": "UN chief decries 'incendiary rhetoric' amid escalating threats.",
-      "severity": "info",
-      "latestSinceUpdate": 6
+      "latestSinceUpdate": 7
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
