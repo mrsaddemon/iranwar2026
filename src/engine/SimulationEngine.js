@@ -18,27 +18,27 @@ const INITIAL_GLOBALS = {
 const AUTO_UPDATED_RECENT_EVENTS = [
   {
     "date": "Apr 07",
-    "text": "US strikes military targets on Iran's Kharg Island, a major oil terminal.",
+    "text": "President Trump issues extreme threats and ultimatums to Iran, including a deadline for a deal, warning of 'a whole civilization' dying.",
     "severity": "critical"
   },
   {
     "date": "Apr 07",
-    "text": "Trump issues ultimatum to Iran, threatening 'a whole civilization will die' if demands are not met by deadline.",
+    "text": "Iran rejects a 45-day ceasefire proposal amidst escalating conflict.",
+    "severity": "warning"
+  },
+  {
+    "date": "Apr 07",
+    "text": "US conducts strikes on military targets on Iran's Kharg Island, a major oil terminal.",
     "severity": "critical"
   },
   {
     "date": "Apr 07",
-    "text": "Iran rejects 45-day ceasefire proposal amidst ongoing conflict.",
-    "severity": "warning"
+    "text": "Russia and China veto a UN resolution aimed at reopening the Strait of Hormuz, hours before Trump's deadline.",
+    "severity": "critical"
   },
   {
     "date": "Apr 07",
-    "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strikes on Israel.",
-    "severity": "warning"
-  },
-  {
-    "date": "Apr 07",
-    "text": "Iranian missile strike damages cars and street in Israel.",
+    "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in missile strikes against Israel.",
     "severity": "warning"
   }
 ];

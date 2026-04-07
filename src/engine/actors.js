@@ -1,5 +1,5 @@
-// Last auto-updated: 2026-04-07 (War Day 38)
-// Summary: The conflict has escalated significantly with the US striking Kharg Island and Trump issuing extreme threats. Iran has rejected a ceasefire, and its proxies have joined strikes against Israel, further regionalizing the war.
+// Last auto-updated: 2026-04-07
+// Summary: On War Day 38, President Trump issues extreme ultimatums to Iran, threatening a 'whole civilization' if a deal isn't met by a looming Strait of Hormuz deadline, as the US strikes Iran's Kharg Island and regional proxies like Hezbollah and Houthis join Iran in retaliatory attacks on Israel, while Russia and China veto a UN resolution to reopen the Strait.
 // Actor behavior profiles — calibrated to real-world conditions as of April 6, 2026
 // Active war: US-Israel vs Iran (began Feb 28, 2026)
 // Strait of Hormuz blockaded, Hezbollah re-engaged, Khamenei assassinated
@@ -17,7 +17,7 @@ export function createInitialActors() {
       flag: '\u{1F1FA}\u{1F1F8}',
       metrics: {
         // Largest ME deployment since 2003: 2 carriers, 16 warships, 120+ aircraft
-        militaryPower: 90,
+        militaryPower: 95,
         airSuperiority: 95, // F-35s, F-22s, F-15s, B-2 bombers deployed
         missileCapacity: 90, // Tomahawk stocks depleted from June 2025 + Feb 2026 strikes
         droneCapability: 90,
@@ -28,7 +28,7 @@ export function createInitialActors() {
       },
       behavior: {
         aggression: 0.95, // Actively at war, escalation-prone posture
-        precision: 0.8,
+        precision: 0.9,
         diplomacyWeight: 0.25, // Diplomatic track collapsed Feb 28
         escalationThreshold: 0.65,
         asymmetricFactor: 0.1,
@@ -63,8 +63,8 @@ export function createInitialActors() {
         morale: 60, // Military success but civilian stress from missile attacks
       },
       behavior: {
-        aggression: 0.85, // Very aggressive posture — multi-front ops
-        precision: 0.8,
+        aggression: 0.9, // Very aggressive posture — multi-front ops
+        precision: 0.85,
         diplomacyWeight: 0.15, // Minimal diplomacy
         escalationThreshold: 0.45, // Lower threshold — already escalated
         asymmetricFactor: 0.15,
@@ -92,7 +92,7 @@ export function createInitialActors() {
         // Rebalanced: ~50% IRGC + missile launchers intact (Apr 2 US intel assessment)
         // Russia provides S-400, satellite intel; China buys 90% of oil exports
         // "Mosaic Defense" decentralized C2 provides resilience
-        militaryPower: 75, // ~50% IRGC capability intact per US assessment
+        militaryPower: 70, // ~50% IRGC capability intact per US assessment
         airSuperiority: 15, // S-400 from Russia active near Isfahan; Su-35 deliveries
         missileCapacity: 70, // ~50% launchers intact; tunnel networks protected reserves
         droneCapability: 60, // Thousands of Shahed drones remain; production ongoing
@@ -103,7 +103,7 @@ export function createInitialActors() {
       },
       behavior: {
         aggression: 0.9, // Fighting for regime survival
-        precision: 0.6, // Improved: Russian satellite intel enables better targeting
+        precision: 0.65, // Improved: Russian satellite intel enables better targeting
         diplomacyWeight: 0.10, // Diplomacy dead after Khamenei assassination
         escalationThreshold: 0.30, // Very low — already in total war mode
         asymmetricFactor: 0.90, // Primary strategy: asymmetric warfare
@@ -126,13 +126,13 @@ export function createInitialActors() {
 // Russia/China alliance support for Iran — based on confirmed intelligence
 export const ALLIANCE_SUPPORT = {
   russiaIntelSupport: {
-    active: false,
+    active: true,
     label: 'Russian Satellite Intelligence',
     effect: 'Iran strike precision +10%',
     detail: 'Moscow providing real-time satellite imagery of US warships, aircraft, bases (CNN Mar 6)',
   },
   chinaEconomicSupport: {
-    active: false,
+    active: true,
     label: 'Chinese Economic Lifeline',
     effect: 'Iran economy degrades 50% slower',
     detail: 'China buys 90% of Iran oil (1.38M bbl/day), 1.2B barrel strategic reserve, construction-for-oil barter',
