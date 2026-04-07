@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * News-based simulation updater — uses free APIs + Gemini Flash (free tier)
+ * News-based simulation updater — uses free APIs + Gemini Flash
  *
  * Flow:
  * 1. Fetch latest Iran war news from free RSS/news APIs
@@ -9,7 +9,9 @@
  * 4. Write updated values to actors.js and SimulationEngine.js
  *
  * Environment variables needed:
- *   GEMINI_API_KEY — free from aistudio.google.com/apikey
+ *   GEMINI_API_KEY — Gemini API key
+ * Optional:
+ *   GEMINI_MODEL — defaults to gemini-2.5-flash
  */
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -18,7 +20,8 @@ if (!GEMINI_API_KEY) {
   process.exit(1);
 }
 
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
 // ==================== NEWS FETCHING ====================
 
@@ -36,7 +39,7 @@ async function fetchNews() {
       });
       if (!resp.ok) continue;
       const text = await resp.text();
-      const titles = [...text.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>/g)].map(m => m[1]);
+      const titles = [...text.matchAll(/<title><!CDATA\[(.*?)\]><\/title>/g)].map(m => m[1]);
       const plainTitles = [...text.matchAll(/<title>(.*?)<\/title>/g)]
         .map(m => m[1])
         .filter(t => t !== 'Google News' && !t.includes('search') && t.length > 10);
@@ -53,7 +56,7 @@ async function fetchNews() {
     });
     if (resp.ok) {
       const text = await resp.text();
-      const titles = [...text.matchAll(/<title><!\[CDATA\[(.*?)\]\]><\/title>/g)].map(m => m[1]);
+      const titles = [...text.matchAll(/<title><!CDATA\[(.*?)\]><\/title>/g)].map(m => m[1]);
       const iranRelated = titles.filter(t =>
         /iran|israel|hezbollah|hormuz|tehran|gaza|lebanon|houthi|middle.east|nuclear/i.test(t)
       );
@@ -245,142 +248,4 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
-const ACTORS_PATH = join(ROOT, 'src', 'engine', 'actors.js');
-const ENGINE_PATH = join(ROOT, 'src', 'engine', 'SimulationEngine.js');
-
-function updateActorsFile(params) {
-  let content = readFileSync(ACTORS_PATH, 'utf-8');
-
-  // Update the auto-update timestamp comment
-  const header = `// Last auto-updated: ${params.lastUpdated} (War Day ${params.warDay})\n// Summary: ${params.summary}\n`;
-  if (content.startsWith('// Last auto-updated:')) {
-    content = content.replace(/^\/\/ Last auto-updated:.*\n\/\/ Summary:.*\n/, header);
-  } else {
-    content = header + content;
-  }
-
-  // Update USA metrics
-  for (const [key, val] of Object.entries(params.usa)) {
-    if (['precision', 'aggression'].includes(key)) {
-      const regex = new RegExp(`(usa:[\\s\\S]*?behavior:[\\s\\S]*?${key}:\\s*)([\\d.]+)`);
-      content = content.replace(regex, `$1${val}`);
-    } else {
-      const regex = new RegExp(`(usa:[\\s\\S]*?metrics:[\\s\\S]*?${key}:\\s*)([\\d.]+)`);
-      content = content.replace(regex, `$1${val}`);
-    }
-  }
-
-  // Update Israel metrics
-  for (const [key, val] of Object.entries(params.israel)) {
-    if (['precision', 'aggression'].includes(key)) {
-      const regex = new RegExp(`(israel:[\\s\\S]*?behavior:[\\s\\S]*?${key}:\\s*)([\\d.]+)`);
-      content = content.replace(regex, `$1${val}`);
-    } else {
-      const regex = new RegExp(`(israel:[\\s\\S]*?metrics:[\\s\\S]*?${key}:\\s*)([\\d.]+)`);
-      content = content.replace(regex, `$1${val}`);
-    }
-  }
-
-  // Update Iran metrics
-  for (const [key, val] of Object.entries(params.iran)) {
-    if (['precision', 'aggression'].includes(key)) {
-      const regex = new RegExp(`(iran:[\\s\\S]*?behavior:[\\s\\S]*?${key}:\\s*)([\\d.]+)`);
-      content = content.replace(regex, `$1${val}`);
-    } else {
-      const regex = new RegExp(`(iran:[\\s\\S]*?metrics:[\\s\\S]*?${key}:\\s*)([\\d.]+)`);
-      content = content.replace(regex, `$1${val}`);
-    }
-  }
-
-  // Update alliance support flags
-  if (params.alliance) {
-    for (const [key, val] of Object.entries(params.alliance)) {
-      const regex = new RegExp(`(${key}:[\\s\\S]*?active:\\s*)(true|false)`);
-      content = content.replace(regex, `$1${val}`);
-    }
-  }
-
-  writeFileSync(ACTORS_PATH, content);
-  console.log('Updated actors.js');
-}
-
-function updateEngineFile(params) {
-  let content = readFileSync(ENGINE_PATH, 'utf-8');
-
-  // Update global state values
-  const globalMap = {
-    nuclearIndex: params.global.nuclearIndex,
-    escalationLevel: params.global.escalationLevel,
-    oilDisruption: params.global.oilDisruption,
-    tradeImpact: params.global.tradeImpact,
-    sanctionsPressure: params.global.sanctionsPressure,
-    globalPressure: params.global.globalPressure,
-    allianceInfluence: params.global.allianceInfluence,
-  };
-
-  for (const [key, val] of Object.entries(globalMap)) {
-    // Match pattern: key: NUMBER, in createSimulationState
-    const regex = new RegExp(`(${key}:\\s*)(\\d+)(,\\s*\\/\\/.*)?`);
-    content = content.replace(regex, `$1${val}$3`);
-  }
-
-  // Update warDay
-  content = content.replace(/(warDay:\s*)\d+/, `$1${params.warDay}`);
-
-  // Update initial events with latest real-world events
-  if (params.recentEvents && params.recentEvents.length > 0) {
-    const eventsArray = params.recentEvents.slice(0, 8).map((evt, i) => {
-      const icon = evt.severity === 'critical' ? '\u26A0' : evt.severity === 'warning' ? '\u{1F4E2}' : '\u{2139}';
-      return `    { id: 'init-${i + 1}', day: 0, timestamp: '${evt.date}', text: '${evt.text.replace(/'/g, "\\'")}', severity: '${evt.severity}', icon: '${icon}', action: 'context', actor: 'System' }`;
-    });
-
-    const eventsBlock = `function generateInitialEvents() {\n  return [\n${eventsArray.join(',\n')},\n  ];\n}`;
-    content = content.replace(
-      /function generateInitialEvents\(\) \{[\s\S]*?\n\}/,
-      eventsBlock
-    );
-  }
-
-  writeFileSync(ENGINE_PATH, content);
-  console.log('Updated SimulationEngine.js');
-}
-
-// ==================== MAIN ====================
-
-async function main() {
-  console.log(`\n${'='.repeat(60)}`);
-  console.log(`SIMULATION NEWS UPDATER — ${new Date().toISOString()}`);
-  console.log(`${'='.repeat(60)}\n`);
-
-  // Step 1: Fetch news
-  console.log('Fetching latest news headlines...');
-  const headlines = await fetchNews();
-  console.log(`Got ${headlines.length} headlines`);
-
-  // Step 2: Fetch oil price
-  console.log('Fetching oil price...');
-  const oilPrice = await fetchOilPrice();
-  console.log(`Oil price: ${oilPrice ? '$' + oilPrice : 'unavailable'}`);
-
-  // Step 3: Interpret with Gemini
-  console.log('Sending to Gemini for interpretation...');
-  const params = await interpretNews(headlines, oilPrice);
-  console.log(`Summary: ${params.summary}`);
-  console.log(`War Day: ${params.warDay}`);
-
-  // Step 4: Update files
-  console.log('\nUpdating simulation files...');
-  updateActorsFile(params);
-  updateEngineFile(params);
-
-  console.log('\n✅ Simulation parameters updated successfully!');
-  console.log(`Next step: run 'npm run build' to rebuild\n`);
-
-  // Output params for CI logging
-  console.log(JSON.stringify(params, null, 2));
-}
-
-main().catch(err => {
-  console.error('ERROR:', err.message);
-  process.exit(1);
-});
+const ACTORS_PATH = join(ROOT, 'src', 'engine', 'actors
