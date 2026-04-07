@@ -59,6 +59,7 @@ export function createSimulationState() {
     nuclearPredictions: calculateNuclearPredictions(INITIAL_GLOBALS.nuclearIndex),
     // Alliance support (Russia/China backing Iran)
     allianceSupport: createAllianceSupport(LATEST_SNAPSHOT.alliance),
+    updateSequence: LATEST_SNAPSHOT.updateSequence || 0,
     lastUpdated: LATEST_SNAPSHOT.lastUpdated,
     snapshotSummary: LATEST_SNAPSHOT.summary,
     sourceStatuses: LATEST_SNAPSHOT.sourceStatuses || [],
@@ -100,6 +101,7 @@ function generateInitialEvents() {
       timestamp: event.date,
       text: event.text,
       severity: event.severity,
+      latestSinceUpdate: event.latestSinceUpdate,
       icon: severityIconMap[event.severity] || severityIconMap.info,
       action: 'context',
       actor: 'System',

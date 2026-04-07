@@ -129,7 +129,7 @@ export default function App() {
           />
         </div>
 
-        <RightPanel events={state.events} />
+        <RightPanel events={state.events} updateSequence={state.updateSequence} />
       </div>
 
       {/* Tabbed Bottom Panel */}
@@ -159,6 +159,7 @@ export default function App() {
           escalationLevel={state.escalationLevel}
           narratives={state.narratives}
           lastNarrativeUpdate={state.lastNarrativeUpdate}
+          updateSequence={state.updateSequence}
         />
       ) : (
         <PlayerControls

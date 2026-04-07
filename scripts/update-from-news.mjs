@@ -614,6 +614,25 @@ function buildFallbackNarratives(params) {
   ];
 }
 
+function decorateUpdatedItems(previousItems = [], nextItems = [], currentSequence, getKey) {
+  const previousMap = new Map(previousItems.map((item) => [getKey(item), item]));
+
+  return nextItems.map((item) => {
+    const key = getKey(item);
+    const previous = previousMap.get(key);
+
+    if (previous?.latestSinceUpdate !== undefined && currentSequence - previous.latestSinceUpdate < 4) {
+      return { ...item, latestSinceUpdate: previous.latestSinceUpdate };
+    }
+
+    if (!previous) {
+      return { ...item, latestSinceUpdate: currentSequence };
+    }
+
+    return item;
+  });
+}
+
 function normalizeParams(rawParams, previousSnapshot, today, warDay) {
   const fallbackSnapshot = previousSnapshot || {};
 
@@ -808,6 +827,7 @@ function updateTopBarFile(params) {
 
 function buildSnapshotModule(params, sourceBundle) {
   const snapshot = {
+    updateSequence: params.updateSequence || 1,
     lastUpdated: params.lastUpdated,
     warDay: params.warDay,
     summary: params.summary,
@@ -871,6 +891,7 @@ async function main() {
   }
 
   const params = normalizeParams(rawParams, previousSnapshot, today, warDay);
+  const updateSequence = Number(previousSnapshot?.updateSequence || 0) + 1;
 
   if (previousSnapshot?.lastNarrativeUpdate === today && Array.isArray(previousSnapshot.narratives)) {
     params.narratives = previousSnapshot.narratives;
@@ -883,6 +904,22 @@ async function main() {
     params.lastNarrativeUpdate = today;
     console.log('Narratives refreshed for the current day.');
   }
+
+  params.recentEvents = decorateUpdatedItems(
+    previousSnapshot?.recentEvents || [],
+    (params.recentEvents || []).slice(0, 6),
+    updateSequence,
+    (item) => `${item.date || ''}::${item.text || ''}`,
+  );
+
+  params.narratives = decorateUpdatedItems(
+    previousSnapshot?.narratives || [],
+    (params.narratives || []).slice(0, 4),
+    updateSequence,
+    (item) => `${item.perspective || ''}::${item.headline || ''}::${item.summary || ''}`,
+  );
+
+  params.updateSequence = updateSequence;
   
   console.log(`Summary: ${params.summary}`);
   writeSnapshotFile(params, sourceBundle);

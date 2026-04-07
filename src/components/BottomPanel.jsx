@@ -61,7 +61,7 @@ function MiniGauge({ label, value, maxVal, color, unit }) {
 
 export default function BottomPanel({
   predictions, escalationProbability, warDurationRange,
-  nuclearPredictions, oilDisruption, escalationLevel, narratives, lastNarrativeUpdate,
+  nuclearPredictions, oilDisruption, escalationLevel, narratives, lastNarrativeUpdate, updateSequence,
 }) {
   const explanation = useMemo(() => {
     if (escalationLevel > 85) return 'ACTIVE WAR: Multi-front conflict intensifying. Hormuz blockaded, Hezbollah engaged, GCC states under fire. Regime collapse and regional expansion both possible.';
@@ -157,8 +157,13 @@ export default function BottomPanel({
               key={item.perspective}
               className="narrative-card"
             >
-              <div className="narrative-perspective">
-                {item.perspective}
+              <div className="narrative-card-top">
+                <div className="narrative-perspective">
+                  {item.perspective}
+                </div>
+                {item.latestSinceUpdate !== undefined && ((updateSequence || 0) - item.latestSinceUpdate) < 4 && (
+                  <span className="latest-badge">🔥 Latest</span>
+                )}
               </div>
               <div className="narrative-headline">
                 {item.headline}

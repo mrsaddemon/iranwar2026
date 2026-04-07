@@ -15,6 +15,7 @@ function EventItem({ event }) {
       <div className="event-top-row">
         <span className="event-icon">{event.icon}</span>
         <span className="event-time" style={{ color: `${color}99` }}>{event.timestamp}</span>
+        {event.isLatest && <span className="latest-badge">🔥 Latest</span>}
         <span className="event-severity-dot" style={{ background: color }} />
       </div>
       <div className="event-text">{event.text}</div>
@@ -25,7 +26,7 @@ function EventItem({ event }) {
   );
 }
 
-export default function RightPanel({ events }) {
+export default function RightPanel({ events, updateSequence }) {
   const scrollRef = useRef(null);
 
   useEffect(() => {
@@ -43,7 +44,13 @@ export default function RightPanel({ events }) {
       <div className="event-count">{events.length} events</div>
       <div className="event-list" ref={scrollRef}>
         {events.map(evt => (
-          <EventItem key={evt.id} event={evt} />
+          <EventItem
+            key={evt.id}
+            event={{
+              ...evt,
+              isLatest: evt.latestSinceUpdate !== undefined && ((updateSequence || 0) - evt.latestSinceUpdate) < 4,
+            }}
+          />
         ))}
         {events.length === 0 && (
           <div className="event-empty">Awaiting simulation start...</div>
