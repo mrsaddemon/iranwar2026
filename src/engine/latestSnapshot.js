@@ -1,47 +1,47 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 3,
+  "updateSequence": 4,
   "lastUpdated": "2026-04-07",
-  "lastSyncedAt": "2026-04-07T21:28:12.272Z",
+  "lastSyncedAt": "2026-04-07T21:57:49.144Z",
   "warDay": 39,
-  "summary": "The conflict involving Iran, Israel, and the US has intensified with direct US-Israeli strikes on Iranian infrastructure, Iran's rejection of a US ultimatum, and joint retaliatory actions by Iran, Hezbollah, and Houthis against Israel, amidst rising tensions in the Strait of Hormuz.",
+  "summary": "The Middle East conflict intensifies on Day 39 with US-Israeli strikes on Iranian infrastructure, Iran's rejection of a ceasefire, and a looming deadline from President Trump.",
   "lastNarrativeUpdate": "2026-04-07",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.95
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.85
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
-    "escalationLevel": 85,
-    "oilDisruption": 80
+    "escalationLevel": 93,
+    "oilDisruption": 90
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -49,45 +49,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US President issues an ultimatum to Iran, threatening severe consequences if demands are not met.",
+      "text": "President Trump issues an ultimatum to Iran, threatening severe consequences if demands are not met by tonight's deadline.",
       "severity": "critical",
-      "latestSinceUpdate": 3
+      "latestSinceUpdate": 4
     },
     {
       "date": "Apr 07",
-      "text": "US-Israeli forces conduct strikes on Iranian infrastructure, including Kharg Island and AI learning facilities.",
+      "text": "US and Israeli forces conduct strikes on Iranian infrastructure, including military targets on Kharg Island.",
       "severity": "critical",
-      "latestSinceUpdate": 3
+      "latestSinceUpdate": 4
     },
     {
       "date": "Apr 07",
-      "text": "Iran, Hezbollah, and Yemen's Houthis launch joint strikes against Israel.",
-      "severity": "critical",
-      "latestSinceUpdate": 3
-    },
-    {
-      "date": "Apr 07",
-      "text": "Iran rejects a temporary ceasefire proposal amidst escalating tensions.",
+      "text": "Iran rejects a 45-day ceasefire proposal amidst escalating conflict.",
       "severity": "warning",
-      "latestSinceUpdate": 3
+      "latestSinceUpdate": 4
     },
     {
       "date": "Apr 07",
+      "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in launching strikes against Israel.",
+      "severity": "critical",
+      "latestSinceUpdate": 4
+    },
+    {
+      "date": "Apr 06",
       "text": "Russia and China block a UN resolution concerning the Strait of Hormuz.",
       "severity": "info",
-      "latestSinceUpdate": 3
-    },
-    {
-      "date": "Apr 07",
-      "text": "An Israeli strike kills a Christian party official in Lebanon, further escalating regional divides.",
-      "severity": "warning",
-      "latestSinceUpdate": 3
+      "latestSinceUpdate": 4
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
