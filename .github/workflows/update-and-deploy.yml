@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -47,17 +49,47 @@ jobs:
         run: npm run build
 
       - name: Commit updated parameters
+        id: commit_updates
+        continue-on-error: true
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Simulation Auto-Updater"
           git add src/engine/latestSnapshot.js
-          git diff --staged --quiet || git commit -m "auto: update simulation from latest news $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --staged --quiet; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+
+          git commit -m "auto: update simulation from latest news $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Auto-update commit pushed successfully."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+
+            echo "Retrying auto-update push after remote changes (attempt ${attempt}/3)..."
+            sleep 5
+          done
+
+          echo "Unable to push the auto-update commit after multiple retries."
+          exit 1
 
       - name: Deploy to Cloudflare
+        if: ${{ success() || steps.commit_updates.outcome == 'failure' }}
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           wranglerVersion: "4.68.0"
           command: deploy --config wrangler.jsonc
+
+      - name: Note snapshot push failure
+        if: ${{ steps.commit_updates.outcome == 'failure' }}
+        run: echo "::warning::Snapshot deploy succeeded, but the auto-update commit could not be pushed back to main."
