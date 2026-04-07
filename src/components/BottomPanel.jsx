@@ -142,7 +142,7 @@ export default function BottomPanel({
         </div>
       </div>
 
-      <div className="bottom-section explain-section">
+      <div className="bottom-section narratives-section">
         <div className="section-title">
           <span className="section-icon">🧭</span>
           CURRENT NARRATIVES
@@ -151,24 +151,19 @@ export default function BottomPanel({
           Updated daily from source-driven sentiment and geopolitical framing.
           {lastNarrativeUpdate ? ` Last refresh: ${lastNarrativeUpdate}.` : ''}
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 10 }}>
+        <div className="narratives-grid">
           {(narratives || []).map((item) => (
             <div
               key={item.perspective}
-              style={{
-                border: '1px solid rgba(148, 163, 184, 0.12)',
-                background: 'rgba(255,255,255,0.02)',
-                borderRadius: 10,
-                padding: '10px 12px',
-              }}
+              className="narrative-card"
             >
-              <div style={{ fontSize: 10, letterSpacing: '0.08em', color: '#94a3b8', marginBottom: 6 }}>
+              <div className="narrative-perspective">
                 {item.perspective}
               </div>
-              <div style={{ fontSize: 12, color: '#e2e8f0', fontWeight: 700, marginBottom: 6 }}>
+              <div className="narrative-headline">
                 {item.headline}
               </div>
-              <div style={{ fontSize: 11, lineHeight: 1.5, color: 'rgba(226, 232, 240, 0.78)' }}>
+              <div className="narrative-summary">
                 {item.summary}
               </div>
             </div>

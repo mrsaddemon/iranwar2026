@@ -396,19 +396,21 @@ html, body, #root {
 /* ======== BOTTOM PANEL ======== */
 
 .bottom-panel {
-  height: 180px;
+  height: 250px;
   flex-shrink: 0;
   display: flex;
   gap: 1px;
   background: var(--border-panel);
   border-top: 1px solid var(--border-panel);
+  overflow-x: auto;
 }
 
 .bottom-section {
   background: var(--bg-panel);
   backdrop-filter: blur(12px);
   padding: 12px 16px;
-  overflow: hidden;
+  overflow-y: auto;
+  min-width: 0;
 }
 
 .scenario-section {
@@ -421,6 +423,13 @@ html, body, #root {
 
 .explain-section {
   flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.narratives-section {
+  flex: 1.35;
+  min-width: 360px;
   display: flex;
   flex-direction: column;
 }
@@ -553,6 +562,40 @@ html, body, #root {
   border-top: 1px solid var(--border-subtle);
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.narratives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+
+.narrative-card {
+  border: 1px solid rgba(148, 163, 184, 0.12);
+  background: rgba(255,255,255,0.02);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+.narrative-perspective {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+
+.narrative-headline {
+  font-size: 12px;
+  color: #e2e8f0;
+  font-weight: 700;
+  margin-bottom: 6px;
+  line-height: 1.35;
+}
+
+.narrative-summary {
+  font-size: 11px;
+  line-height: 1.5;
+  color: rgba(226, 232, 240, 0.78);
 }
 
 /* ======== BOTTOM TABS ======== */
