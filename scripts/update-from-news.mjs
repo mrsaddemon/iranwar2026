@@ -178,6 +178,31 @@ async function askGemini(prompt) {
   return data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 }
 
+function safeParseJSON(text) {
+  try {
+    return JSON.parse(text);
+  } catch {
+    let fixed = text
+      .replace(/^\s*```json\s*/i, '')
+      .replace(/^\s*```\s*/i, '')
+      .replace(/\s*```\s*$/i, '')
+      .replace(/,\s*}/g, '}')
+      .replace(/,\s*]/g, ']')
+      .replace(/[\u2018\u2019]/g, "'")
+      .replace(/[\u201C\u201D]/g, '"')
+      .replace(/[^\x09\x0A\x0D\x20-\x7E]/g, ' ')
+      .replace(/\r/g, '');
+
+    try {
+      return JSON.parse(fixed);
+    } catch {
+      const lines = fixed.split('\n').map((line) => line.trimEnd());
+      fixed = lines.join('\n');
+      return JSON.parse(fixed);
+    }
+  }
+}
+
 async function interpretNews(headlines, oilPrice) {
   const today = new Date().toISOString().split('T')[0];
   const warStartDate = new Date('2026-02-28');
@@ -259,10 +284,11 @@ Be realistic and conservative. If headlines don't indicate a change, keep values
   const jsonMatch = response.match(/\{[\s\S]*\}/);
 
   if (!jsonMatch) {
+    console.log('Gemini raw response:', response);
     throw new Error('Gemini did not return valid JSON');
   }
 
-  return JSON.parse(jsonMatch[0]);
+  return safeParseJSON(jsonMatch[0]);
 }
 
 // ==================== FILE UPDATING ====================
@@ -358,7 +384,7 @@ function updateEngineFile(params) {
 
     const eventsBlock = `function generateInitialEvents() {\n  return [\n${eventsArray.join(',\n')},\n  ];\n}`;
 
-    content = content.replace(/function generateInitialEvents\(\) \{[\s\S]*?\n\}/, eventsBlock);
+    content = content.replace(/function generateInitialEvents \{[\s\S]*?\n\}/, eventsBlock);
   }
 
   writeFileSync(ENGINE_PATH, content);
