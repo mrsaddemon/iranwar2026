@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 19,
+  "updateSequence": 20,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T19:37:32.466Z",
+  "lastSyncedAt": "2026-04-08T20:01:56.708Z",
   "warDay": 40,
-  "summary": "A fragile ceasefire between the US, Israel, and Iran is in jeopardy on War Day 40, as Israel conducts extensive strikes in Lebanon and Iran threatens to halt Strait of Hormuz traffic.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-08",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A ceasefire agreed between the US, Israel, and Iran is highly fragile, with immediate violations by Israel and accusations of framework breaches by Iran, alongside a dispute over the agreed terms."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,8 +43,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90
+    "escalationLevel": 38,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,34 +55,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 07",
-      "text": "US, Israel, and Iran reportedly agree to a ceasefire before Trump’s deadline.",
+      "date": "Apr 08",
+      "text": "\"Iran war 2026\"",
       "severity": "info",
-      "latestSinceUpdate": 19
+      "latestSinceUpdate": 20
     },
     {
       "date": "Apr 08",
-      "text": "Iran accuses the US of violating parts of the ceasefire deal framework and calls the ceasefire 'unreasonable'.",
-      "severity": "warning",
-      "latestSinceUpdate": 19
+      "text": "How Trump Took the U.S. to War With Iran",
+      "severity": "info",
+      "latestSinceUpdate": 20
     },
     {
       "date": "Apr 08",
-      "text": "Israel launches sprawling attacks on Lebanon, killing at least 254 people, after the ceasefire was declared.",
-      "severity": "critical",
-      "latestSinceUpdate": 19
+      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
+      "severity": "info",
+      "latestSinceUpdate": 20
     },
     {
       "date": "Apr 08",
-      "text": "Iran announces it is halting Strait of Hormuz traffic, making it a major flash point.",
-      "severity": "critical",
-      "latestSinceUpdate": 19
+      "text": "Live updates: Iran accuses US of violating parts of deal framework, says ceasefire 'unreasonable'",
+      "severity": "info",
+      "latestSinceUpdate": 20
     },
     {
       "date": "Apr 08",
-      "text": "The White House states that the ceasefire plan published by Iran is not the one approved by the US.",
-      "severity": "warning",
-      "latestSinceUpdate": 19
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 20
+    },
+    {
+      "date": "Apr 08",
+      "text": "Iran War Live Updates: U.S.-Iran Cease-Fire Shaky as Israel Strikes Lebanon and Confusion Grows Over Strait",
+      "severity": "info",
+      "latestSinceUpdate": 20
     }
   ],
   "sourceStatuses": [
