@@ -8,7 +8,8 @@ A live, source-informed dashboard for exploring escalation, ceasefire stability,
 
 ---
 
-![Dashboard Screenshot](dashboard-panel.png)
+<img width="3823" height="1979" alt="image" src="https://github.com/user-attachments/assets/6cbf0679-180d-4108-a1f6-a5725af55268" />
+
 
 ---
 
