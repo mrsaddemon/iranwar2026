@@ -23,8 +23,53 @@ function formatUtcSyncLabel(lastUpdated, lastSyncedAt) {
   return `${dateText} ${timeText} UTC`;
 }
 
+function buildNuclearExplanation({ nuclearIndex, escalationLevel, summary, ceasefireStatus, recentEvents }) {
+  const reasons = [];
+  const roundedIndex = Math.round(nuclearIndex || 0);
+  const roundedEscalation = Math.round(escalationLevel || 0);
+  const ceasefireState = ceasefireStatus?.status || 'none';
+
+  if (ceasefireState === 'active') {
+    reasons.push('A monitored ceasefire is holding across the main fronts, which is helping keep nuclear risk below crisis peaks.');
+  } else if (ceasefireState === 'fragile') {
+    reasons.push('A fragile ceasefire is moderating the threat level, but the pause is still reversible under renewed violations or proxy activity.');
+  } else if (ceasefireState === 'collapsed') {
+    reasons.push('The ceasefire picture has deteriorated, removing one of the main brakes on escalation and nuclear signaling risk.');
+  }
+
+  if (roundedEscalation >= 75) {
+    reasons.push('Conventional escalation is still high enough to keep deterrence signaling and miscalculation risk elevated.');
+  } else if (roundedEscalation >= 50) {
+    reasons.push('Regional escalation remains meaningfully elevated, so nuclear signaling risk stays active even without immediate use scenarios.');
+  } else if (roundedEscalation <= 35) {
+    reasons.push('Broader military pressure is lower than recent peaks, which is helping suppress immediate nuclear danger.');
+  }
+
+  const eventDrivers = (recentEvents || [])
+    .filter((event) => ['warning', 'critical'].includes(event.severity))
+    .slice(0, 2)
+    .map((event) => event.text);
+
+  if (eventDrivers.length > 0) {
+    reasons.push(`Recent pressure points include ${eventDrivers.join(' and ').toLowerCase()}`);
+  } else if (summary) {
+    reasons.push(summary);
+  }
+
+  if (roundedIndex >= 61) {
+    reasons.push('At this level, the main concern is brinkmanship, miscalculation, or strikes near strategic infrastructure rather than immediate large-scale nuclear exchange.');
+  } else if (roundedIndex >= 41) {
+    reasons.push('This level points to crisis conditions: real deterrence pressure exists, but the model still sees room for de-escalation.');
+  } else {
+    reasons.push('The current reading reflects persistent strategic tension, but not the kind of immediate trigger pattern associated with brinkmanship or extreme risk.');
+  }
+
+  return reasons.join(' ');
+}
+
 export default function TopBar({
   dayCount, warDay, speed, running, nuclearIndex,
+  escalationLevel, summary, recentEvents, ceasefireStatus,
   lastUpdated, lastSyncedAt, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
 }) {
   const [relativeNow, setRelativeNow] = useState(() => Date.now());
@@ -63,6 +108,13 @@ export default function TopBar({
 
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
   }, [relativeNow]);
+  const nuclearExplanation = useMemo(() => buildNuclearExplanation({
+    nuclearIndex,
+    escalationLevel,
+    summary,
+    recentEvents,
+    ceasefireStatus,
+  }), [nuclearIndex, escalationLevel, summary, recentEvents, ceasefireStatus]);
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
@@ -104,7 +156,7 @@ export default function TopBar({
       </div>
 
       <div className="top-bar-center">
-        <NuclearIndex value={nuclearIndex} />
+        <NuclearIndex value={nuclearIndex} explanation={nuclearExplanation} />
       </div>
 
       <div className="top-bar-right">

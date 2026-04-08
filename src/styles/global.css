@@ -132,6 +132,8 @@ html, body, #root {
   border-radius: 8px;
   transition: all 0.8s ease;
   min-width: 0;
+  position: relative;
+  cursor: help;
 }
 
 .nuclear-index-label {
@@ -175,6 +177,45 @@ html, body, #root {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   white-space: nowrap;
+}
+
+.nuclear-index-tooltip {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(340px, calc(100vw - 24px));
+  padding: 10px 12px;
+  background: rgba(6, 10, 18, 0.96);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.45);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease;
+  z-index: 40;
+}
+
+.nuclear-index:hover .nuclear-index-tooltip,
+.nuclear-index:focus-visible .nuclear-index-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nuclear-index-tooltip-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.nuclear-index-tooltip-text {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-secondary);
 }
 
 .speed-controls {

@@ -150,6 +150,10 @@ export default function App() {
         speed={speed}
         running={running}
         nuclearIndex={state.nuclearIndex}
+        escalationLevel={state.escalationLevel}
+        summary={state.summary}
+        recentEvents={state.recentEvents}
+        ceasefireStatus={state.ceasefireStatus}
         lastUpdated={state.lastUpdated}
         lastSyncedAt={state.lastSyncedAt}
         simStart={state.lastUpdated}
