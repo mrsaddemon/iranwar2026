@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 20,
+  "updateSequence": 21,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T20:01:56.708Z",
+  "lastSyncedAt": "2026-04-08T20:56:54.369Z",
   "warDay": 40,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-08",
@@ -62,13 +62,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 08",
-      "text": "How Trump Took the U.S. to War With Iran",
+      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
       "severity": "info",
       "latestSinceUpdate": 20
     },
     {
       "date": "Apr 08",
-      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
+      "text": "How Trump Took the U.S. to War With Iran",
       "severity": "info",
       "latestSinceUpdate": 20
     },
@@ -94,7 +94,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
