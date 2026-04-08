@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 10,
+  "updateSequence": 11,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T05:28:37.538Z",
+  "lastSyncedAt": "2026-04-08T06:57:27.162Z",
   "warDay": 40,
-  "summary": "A two-week ceasefire has been agreed upon between the US, Israel, and Iran following 39 days of conflict, though Israel continues to conduct strikes in Iran and Lebanon.",
+  "summary": "The United States, Israel, and Iran have agreed to a two-week ceasefire following significant US strikes on Iranian infrastructure and escalating threats, while regional tensions persist in Lebanon.",
   "lastNarrativeUpdate": "2026-04-08",
   "actorOverrides": {
     "usa": {
@@ -12,32 +12,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.5
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 70,
-    "oilDisruption": 40
+    "nuclearIndex": 65,
+    "escalationLevel": 75,
+    "oilDisruption": 70
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -49,39 +49,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US, Israel, and Iran agree to a two-week ceasefire before Trump’s deadline.",
+      "text": "US, Israel, and Iran agree to a two-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
-      "latestSinceUpdate": 10
+      "latestSinceUpdate": 11
     },
     {
       "date": "Apr 07",
-      "text": "Trump suspends US attacks on Iran, and Tehran agrees to the two-week ceasefire.",
+      "text": "President Trump suspends US attacks on Iran as part of the ceasefire agreement.",
       "severity": "info",
-      "latestSinceUpdate": 10
+      "latestSinceUpdate": 11
+    },
+    {
+      "date": "Apr 06",
+      "text": "US forces conducted strikes on Iranian infrastructure, including Kharg Island, prior to the ceasefire agreement.",
+      "severity": "warning",
+      "latestSinceUpdate": 11
     },
     {
       "date": "Apr 07",
-      "text": "Oil prices plunge after the US-Iran ceasefire deal to reopen the Strait of Hormuz.",
-      "severity": "info",
-      "latestSinceUpdate": 10
+      "text": "An Israeli strike killed a Christian party official in Lebanon, exacerbating internal divides over Hezbollah.",
+      "severity": "warning",
+      "latestSinceUpdate": 11
     },
     {
-      "date": "Apr 08",
-      "text": "Israel continues to strike Iranian infrastructure despite the ceasefire announcement.",
-      "severity": "warning",
-      "latestSinceUpdate": 10
-    },
-    {
-      "date": "Apr 08",
-      "text": "An Israeli strike kills a Christian party official in Lebanon, sharpening divides over Hezbollah.",
-      "severity": "warning",
-      "latestSinceUpdate": 10
-    },
-    {
-      "date": "Recent",
-      "text": "U.S. conducted strikes on Kharg Island amidst heightened threats against Iran.",
-      "severity": "warning",
-      "latestSinceUpdate": 10
+      "date": "Apr 06",
+      "text": "Lebanon’s Hezbollah and Yemen’s Houthis reportedly joined Iran in strikes on Israel.",
+      "severity": "critical",
+      "latestSinceUpdate": 11
     }
   ],
   "sourceStatuses": [
