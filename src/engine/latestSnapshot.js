@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 7,
-  "lastUpdated": "2026-04-07",
-  "lastSyncedAt": "2026-04-07T23:55:42.778Z",
-  "warDay": 39,
-  "summary": "Trump has agreed to a two-week ceasefire with Iran, contingent on the reopening of the Strait of Hormuz, amidst ongoing US-Israeli strikes on Iranian infrastructure and regional involvement by Hezbollah and Houthis.",
-  "lastNarrativeUpdate": "2026-04-07",
+  "updateSequence": 8,
+  "lastUpdated": "2026-04-08",
+  "lastSyncedAt": "2026-04-08T01:48:38.921Z",
+  "warDay": 40,
+  "summary": "A two-week ceasefire has been announced between the US and Iran, contingent on the reopening of the Strait of Hormuz, while Israel continues strikes against Iranian infrastructure and regional allies engage in conflict.",
+  "lastNarrativeUpdate": "2026-04-08",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.9,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.75
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.78
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 75,
-    "oilDisruption": 80
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -48,40 +48,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 07",
-      "text": "Trump agrees to two-week ceasefire with Iran, subject to Strait of Hormuz reopening.",
+      "date": "Apr 08",
+      "text": "Trump announces a two-week ceasefire with Iran, with talks to begin.",
       "severity": "info",
-      "latestSinceUpdate": 7
+      "latestSinceUpdate": 8
     },
     {
-      "date": "Apr 07",
-      "text": "US-Israeli forces conduct strikes on Iranian infrastructure, including Kharg Island.",
-      "severity": "warning",
-      "latestSinceUpdate": 6
-    },
-    {
-      "date": "Apr 07",
-      "text": "Hezbollah and Houthis join Iran in strikes against Israel.",
-      "severity": "critical",
-      "latestSinceUpdate": 7
-    },
-    {
-      "date": "Apr 07",
-      "text": "Israeli strike kills Christian party official in Lebanon, deepening regional divides.",
-      "severity": "warning",
-      "latestSinceUpdate": 7
-    },
-    {
-      "date": "Apr 07",
-      "text": "UN chief expresses concern over 'incendiary rhetoric' as deal deadline approaches.",
+      "date": "Apr 08",
+      "text": "Iran agrees to ceasefire talks, conditional on the reopening of the Strait of Hormuz.",
       "severity": "info",
-      "latestSinceUpdate": 7
+      "latestSinceUpdate": 8
+    },
+    {
+      "date": "Apr 08",
+      "text": "Israel continues strikes on Iranian infrastructure despite the US-Iran ceasefire announcement.",
+      "severity": "warning",
+      "latestSinceUpdate": 8
+    },
+    {
+      "date": "Apr 08",
+      "text": "Lebanon’s Hezbollah and Yemen’s Houthis join Iran in strikes against Israel.",
+      "severity": "warning",
+      "latestSinceUpdate": 8
+    },
+    {
+      "date": "Apr 08",
+      "text": "An Israeli strike kills a Christian party official in Lebanon, deepening regional divides.",
+      "severity": "warning",
+      "latestSinceUpdate": 8
+    },
+    {
+      "date": "Apr 08",
+      "text": "The American military has halted all offensive operations against Iran following the ceasefire announcement.",
+      "severity": "info",
+      "latestSinceUpdate": 8
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -110,25 +116,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Stance",
-      "headline": "Trump's Ultimatum and Strikes on Iran",
-      "summary": "The US, backed by Israel, has issued a severe ultimatum to Iran, conducting strikes on key infrastructure including Kharg Island. This aggressive posture aims to counter Iran's progress and military capabilities, with threats of widespread destruction if demands are not met.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1
+      "perspective": "US Perspective",
+      "headline": "Trump Secures Ceasefire, Seeks Peace Deal",
+      "summary": "Trump's administration has secured a two-week ceasefire with Iran, aiming to negotiate a comprehensive peace deal and de-escalate tensions, while maintaining an ultimatum regarding Iranian actions.",
+      "tone": "neutral",
+      "latestSinceUpdate": 8
     },
     {
-      "perspective": "Iranian/Allies Response",
-      "headline": "Iran Vows Retaliation Amidst Proxy Support",
-      "summary": "Iran has rejected a temporary ceasefire and warned of 'devastating' retaliation following US-Israeli attacks. Regional allies like Hezbollah and the Houthis have joined in strikes against Israel, signaling a unified front against perceived aggression.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1
+      "perspective": "Iranian Perspective",
+      "headline": "Iran Agrees to Talks, Demands Strait Reopening",
+      "summary": "Iran has agreed to a temporary ceasefire and talks, contingent on the reopening of the Strait of Hormuz, following significant US military actions and threats.",
+      "tone": "strained",
+      "latestSinceUpdate": 8
     },
     {
-      "perspective": "Global/Economic Impact",
-      "headline": "Strait of Hormuz Tensions Escalate Oil Concerns",
-      "summary": "The escalating conflict, particularly around the Strait of Hormuz, is causing significant global concern, impacting oil prices. International calls for de-escalation highlight the potential for broader economic disruption and regional instability.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1
+      "perspective": "Israeli Perspective",
+      "headline": "Israel Continues Strikes Despite Ceasefire",
+      "summary": "Israel continues its strikes against Iranian infrastructure and related targets, asserting its security interests despite the broader US-Iran ceasefire announcement.",
+      "tone": "defiant",
+      "latestSinceUpdate": 8
+    },
+    {
+      "perspective": "Regional Allies Perspective",
+      "headline": "Hezbollah, Houthis Join Iran in Strikes",
+      "summary": "Hezbollah and Houthi forces have joined Iran in striking Israel, indicating a unified front against Israeli actions and continued regional involvement.",
+      "tone": "defiant",
+      "latestSinceUpdate": 8
     }
   ]
 });
