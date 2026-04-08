@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 15,
+  "updateSequence": 16,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T12:45:49.221Z",
+  "lastSyncedAt": "2026-04-08T17:47:09.224Z",
   "warDay": 40,
-  "summary": "A two-week ceasefire is in effect between the main parties, but it remains fragile as strikes in Lebanon, maritime pressure, and renewed ultimatums continue to test whether the pause can hold.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-08",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.79,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A monitored two-week ceasefire is currently active, but ongoing Lebanon strikes, proxy friction, and coercive signaling keep the pause unstable."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,7 +43,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 35,
-    "escalationLevel": 52,
+    "escalationLevel": 38,
     "oilDisruption": 62
   },
   "alliance": {
@@ -55,46 +55,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 07",
-      "text": "US, Israel, and Iran have moved into a two-week ceasefire window, reducing the pace of direct high-intensity exchanges.",
+      "date": "Apr 08",
+      "text": "\"Iran war 2026\"",
       "severity": "info",
-      "latestSinceUpdate": 15
-    },
-    {
-      "date": "Apr 07",
-      "text": "Israel continued strikes in southern Lebanon, underscoring that the broader pause remains geographically and politically fragile.",
-      "severity": "warning",
-      "latestSinceUpdate": 15
-    },
-    {
-      "date": "Apr 07",
-      "text": "Israeli strikes in Beirut signaled that proxy fronts could still destabilize the ceasefire even if direct US-Iran exchanges stay lower.",
-      "severity": "warning",
-      "latestSinceUpdate": 15
-    },
-    {
-      "date": "Apr 07",
-      "text": "Hezbollah activity appears reduced for now, but regional actors continue warning that the pause could collapse quickly after a major violation.",
-      "severity": "info",
-      "latestSinceUpdate": 15
-    },
-    {
-      "date": "Apr 07",
-      "text": "US pressure around Kharg Island and continuing ultimatum rhetoric have kept energy and shipping risk elevated despite the ceasefire.",
-      "severity": "warning",
-      "latestSinceUpdate": 15
+      "latestSinceUpdate": 16
     },
     {
       "date": "Apr 08",
-      "text": "Officials have described the ceasefire as fragile, with diplomats trying to turn the pause into a more enforceable monitored framework.",
+      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
       "severity": "info",
-      "latestSinceUpdate": 15
+      "latestSinceUpdate": 16
+    },
+    {
+      "date": "Apr 08",
+      "text": "How Trump Took the U.S. to War With Iran",
+      "severity": "info",
+      "latestSinceUpdate": 16
+    },
+    {
+      "date": "Apr 08",
+      "text": "Live updates: Iran closes the Strait of Hormuz in response to Israeli attacks on Lebanon, per Iranian state media",
+      "severity": "info",
+      "latestSinceUpdate": 16
+    },
+    {
+      "date": "Apr 08",
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 16
+    },
+    {
+      "date": "Apr 08",
+      "text": "Live updates: Iran war ceasefire begins though some new attacks hit Gulf; Israel says Lebanon not included",
+      "severity": "info",
+      "latestSinceUpdate": 16
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -106,7 +106,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
