@@ -731,6 +731,131 @@ function buildFallbackNarratives(params) {
   ];
 }
 
+function normalizeHeadlineText(text) {
+  return String(text || '')
+    .replace(/\s+-\s+[^-]+$/, '')
+    .replace(/\s+\|\s+[^|]+$/, '')
+    .trim();
+}
+
+function inferEventSeverity(text) {
+  const normalized = String(text || '').toLowerCase();
+  if (/\bnuclear\b|\bmissile\b|\bstrike\b|\bairstrike\b|\bexplosion\b|\bultimatum\b|\bblockade\b/.test(normalized)) {
+    return 'critical';
+  }
+  if (/\bceasefire\b|\btruce\b|\bpause\b|\btalks\b|\bmediat(?:e|ion)\b|\bdiplomatic\b/.test(normalized)) {
+    return 'info';
+  }
+  if (/\bwarn(?:ing)?\b|\bproxy\b|\bshipping\b|\bfriction\b|\bthreat\b|\bpressure\b/.test(normalized)) {
+    return 'warning';
+  }
+  return 'info';
+}
+
+function formatEventDateLabel(dateKey) {
+  const date = new Date(`${dateKey}T00:00:00.000Z`);
+  return date.toLocaleDateString('en-US', { month: 'short', day: '2-digit', timeZone: 'UTC' });
+}
+
+function buildFallbackRecentEvents(sourceBundle, today, summary) {
+  const date = formatEventDateLabel(today);
+  const headlines = uniqueNonEmpty((sourceBundle.headlines || []).map(normalizeHeadlineText), 6);
+  const events = headlines.map((headline) => ({
+    date,
+    text: headline,
+    severity: inferEventSeverity(headline),
+  }));
+
+  if (events.length > 0) return events;
+
+  return [{
+    date,
+    text: summary,
+    severity: 'info',
+  }];
+}
+
+function buildHeuristicFallbackParams(previousSnapshot, sourceBundle, oilPrice, today, warDay, heuristicCeasefire) {
+  const fallbackSnapshot = previousSnapshot || {};
+  const previousGlobal = fallbackSnapshot.global || {};
+  const baseEscalation = Number(previousGlobal.escalationLevel ?? 55);
+  const baseNuclear = Number(previousGlobal.nuclearIndex ?? 55);
+  const baseOil = Number(previousGlobal.oilDisruption ?? 50);
+
+  let escalationLevel = baseEscalation;
+  let nuclearIndex = baseNuclear;
+  let oilDisruption = baseOil;
+
+  if (heuristicCeasefire.status === 'active') {
+    escalationLevel = Math.min(baseEscalation, 38);
+    nuclearIndex = Math.min(baseNuclear, 55);
+    oilDisruption = Math.min(Math.max(baseOil, oilPrice >= 95 ? 55 : baseOil), 62);
+  } else if (heuristicCeasefire.status === 'fragile') {
+    escalationLevel = Math.min(baseEscalation, 48);
+    nuclearIndex = Math.min(baseNuclear, 62);
+    oilDisruption = Math.min(Math.max(baseOil, oilPrice >= 95 ? 58 : baseOil), 70);
+  } else if (heuristicCeasefire.status === 'collapsed') {
+    escalationLevel = Math.max(baseEscalation, 62);
+    nuclearIndex = Math.max(baseNuclear, 68);
+    oilDisruption = Math.max(baseOil, oilPrice >= 95 ? 72 : 65);
+  } else {
+    oilDisruption = Math.max(baseOil, oilPrice >= 95 ? 60 : oilPrice >= 85 ? 52 : baseOil);
+  }
+
+  const summary = heuristicCeasefire.status === 'active'
+    ? 'A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.'
+    : heuristicCeasefire.status === 'fragile'
+      ? 'A ceasefire or operational pause appears to be in effect, but ongoing pressure and proxy activity leave the regional picture unstable.'
+      : heuristicCeasefire.status === 'collapsed'
+        ? 'Ceasefire signaling appears to have broken down, and the latest reporting points back toward renewed regional escalation.'
+        : (fallbackSnapshot.summary || 'Regional military and geopolitical pressure remain elevated across the conflict zone.');
+
+  const recentEvents = buildFallbackRecentEvents(sourceBundle, today, summary);
+
+  return {
+    lastUpdated: today,
+    lastSyncedAt: new Date().toISOString(),
+    warDay,
+    summary,
+    recentEvents,
+    narratives: fallbackSnapshot.narratives || [],
+    usa: {
+      militaryPower: fallbackSnapshot.actorOverrides?.usa?.metrics?.militaryPower ?? 90,
+      precision: fallbackSnapshot.actorOverrides?.usa?.behavior?.precision ?? 0.8,
+      aggression: fallbackSnapshot.actorOverrides?.usa?.behavior?.aggression ?? 0.8,
+    },
+    israel: {
+      militaryPower: fallbackSnapshot.actorOverrides?.israel?.metrics?.militaryPower ?? 80,
+      precision: fallbackSnapshot.actorOverrides?.israel?.behavior?.precision ?? 0.7,
+      aggression: fallbackSnapshot.actorOverrides?.israel?.behavior?.aggression ?? 0.8,
+    },
+    iran: {
+      militaryPower: fallbackSnapshot.actorOverrides?.iran?.metrics?.militaryPower ?? 70,
+      precision: fallbackSnapshot.actorOverrides?.iran?.behavior?.precision ?? 0.6,
+      aggression: fallbackSnapshot.actorOverrides?.iran?.behavior?.aggression ?? 0.8,
+    },
+    global: {
+      nuclearIndex: Math.round(clamp(nuclearIndex, 0, 100)),
+      escalationLevel: Math.round(clamp(escalationLevel, 0, 100)),
+      oilDisruption: Math.round(clamp(oilDisruption, 0, 100)),
+    },
+    ceasefire: {
+      active: heuristicCeasefire.active,
+      status: heuristicCeasefire.status,
+      confidence: heuristicCeasefire.confidence,
+      durationDays: heuristicCeasefire.durationDays,
+      summary: heuristicCeasefire.summary,
+    },
+    alliance: {
+      russiaIntelSupport: fallbackSnapshot.alliance?.russiaIntelSupport ?? false,
+      chinaEconomicSupport: fallbackSnapshot.alliance?.chinaEconomicSupport ?? false,
+      s400Active: fallbackSnapshot.alliance?.s400Active ?? false,
+      mosaicDefense: fallbackSnapshot.alliance?.mosaicDefense ?? false,
+      unscShield: fallbackSnapshot.alliance?.unscShield ?? true,
+    },
+  };
+}
+
 function decorateUpdatedItems(previousItems = [], nextItems = [], currentSequence, getKey) {
   const previousMap = new Map(previousItems.map((item) => [getKey(item), item]));
 
@@ -1075,13 +1200,21 @@ async function main() {
   const today = getUtcDateKey();
   const warDay = calculateWarDay(today);
   let rawParams;
+  let usedHeuristicFallback = false;
 
   try {
     rawParams = await interpretNews(sourceBundle, oilPrice, { includeNarratives: true });
   } catch (error) {
     console.warn(`Primary interpretation failed: ${error.message}`);
     console.warn('Retrying with a smaller response shape...');
-    rawParams = await interpretNews(sourceBundle, oilPrice, { includeNarratives: false });
+    try {
+      rawParams = await interpretNews(sourceBundle, oilPrice, { includeNarratives: false });
+    } catch (retryError) {
+      console.warn(`Secondary interpretation failed: ${retryError.message}`);
+      console.warn('Falling back to deterministic source-based snapshot generation...');
+      rawParams = buildHeuristicFallbackParams(previousSnapshot, sourceBundle, oilPrice, today, warDay, heuristicCeasefire);
+      usedHeuristicFallback = true;
+    }
   }
 
   const params = applyCeasefireGuardrails(
@@ -1103,6 +1236,11 @@ async function main() {
     console.log('Narratives refreshed for the current day.');
   }
 
+  if (usedHeuristicFallback && (!Array.isArray(params.narratives) || params.narratives.length === 0)) {
+    params.narratives = buildFallbackNarratives(params);
+    params.lastNarrativeUpdate = today;
+  }
+
   params.recentEvents = decorateUpdatedItems(
     previousSnapshot?.recentEvents || [],
     (params.recentEvents || []).slice(0, 6),
@@ -1120,6 +1258,9 @@ async function main() {
   params.updateSequence = updateSequence;
   
   console.log(`Summary: ${params.summary}`);
+  if (usedHeuristicFallback) {
+    console.log('Snapshot mode: heuristic fallback (Gemini unavailable)');
+  }
   writeSnapshotFile(params, sourceBundle);
   writeUpdateMetaFile(params);
   
