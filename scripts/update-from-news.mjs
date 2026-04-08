@@ -3,7 +3,7 @@
  * News-based simulation updater — uses free APIs + Gemini Flash
  */
 
-import { readFileSync, writeFileSync } from 'fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -24,6 +24,26 @@ const IEA_API_KEY = process.env.IEA_API_KEY;
 const IEA_DATA_URL = process.env.IEA_DATA_URL;
 const OWID_ENERGY_DATA_URL = process.env.OWID_ENERGY_DATA_URL || 'https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv';
 const WAR_START_DATE = '2026-02-28';
+const UPDATE_META_PUBLIC_PATH = ['public', 'update-meta.json'];
+const CEASEFIRE_POSITIVE_PATTERNS = [
+  /\bceasefire\b/gi,
+  /\btruce\b/gi,
+  /\barmistice\b/gi,
+  /\bcessation of hostilities\b/gi,
+  /\bpause in fighting\b/gi,
+  /\boperational pause\b/gi,
+  /\bde-escalation\b/gi,
+  /\bhalt(?:ed)? strikes\b/gi,
+  /\bmonitor(?:ed|ing)? ceasefire\b/gi,
+];
+const CEASEFIRE_NEGATIVE_PATTERNS = [
+  /\breject(?:ed|s)? ceasefire\b/gi,
+  /\bceasefire (?:collapsed|breakdown|failed|ended)\b/gi,
+  /\bviolat(?:ed|ion|ing) the ceasefire\b/gi,
+  /\brenewed strikes\b/gi,
+  /\bresumed strikes\b/gi,
+  /\bultimatum\b/gi,
+];
 
 function getUtcDateKey(date = new Date()) {
   return date.toISOString().split('T')[0];
@@ -36,6 +56,89 @@ function calculateWarDay(dateInput) {
   const warStartDate = new Date(`${WAR_START_DATE}T00:00:00.000Z`);
   const diffDays = Math.floor((targetDate.getTime() - warStartDate.getTime()) / (1000 * 60 * 60 * 24));
   return Math.max(1, diffDays + 1);
+}
+
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function countPatternHits(text, patterns) {
+  return patterns.reduce((count, pattern) => count + ((text.match(pattern) || []).length), 0);
+}
+
+function parseCeasefireDurationDays(text) {
+  const normalized = text.toLowerCase();
+  const numericMatch = normalized.match(/\b(\d+)[-\s]*(day|week)s?\b/);
+  if (numericMatch) {
+    const amount = Number(numericMatch[1]);
+    if (!Number.isFinite(amount)) return null;
+    return numericMatch[2].startsWith('week') ? amount * 7 : amount;
+  }
+
+  const wordToNumber = {
+    one: 1,
+    two: 2,
+    three: 3,
+    four: 4,
+    five: 5,
+    six: 6,
+    seven: 7,
+    eight: 8,
+    nine: 9,
+    ten: 10,
+    eleven: 11,
+    twelve: 12,
+    thirteen: 13,
+    fourteen: 14,
+  };
+  const wordMatch = normalized.match(/\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen)[-\s]*(day|week)s?\b/);
+  if (!wordMatch) return null;
+
+  const amount = wordToNumber[wordMatch[1]];
+  if (!amount) return null;
+  return wordMatch[2].startsWith('week') ? amount * 7 : amount;
+}
+
+function deriveCeasefireSignal(sourceBundle) {
+  const combinedText = [
+    ...(sourceBundle.headlines || []),
+    ...(sourceBundle.promptSections || []),
+  ].join('\n');
+
+  const positiveHits = countPatternHits(combinedText, CEASEFIRE_POSITIVE_PATTERNS);
+  const negativeHits = countPatternHits(combinedText, CEASEFIRE_NEGATIVE_PATTERNS);
+  const durationDays = parseCeasefireDurationDays(combinedText);
+
+  const netSignal = positiveHits - (negativeHits * 1.25);
+  const hasCeasefireLanguage = positiveHits > 0;
+  const active = netSignal >= 2 || (hasCeasefireLanguage && durationDays >= 7 && negativeHits === 0);
+  const fragile = !active && hasCeasefireLanguage && netSignal >= 0;
+  const confidence = clamp(
+    active
+      ? 0.45 + (positiveHits * 0.12) - (negativeHits * 0.08) + (durationDays ? 0.12 : 0)
+      : fragile
+        ? 0.35 + (positiveHits * 0.08) - (negativeHits * 0.06)
+        : 0.08 + (positiveHits * 0.03),
+    0.05,
+    0.98,
+  );
+
+  const status = active ? 'active' : (fragile ? 'fragile' : 'none');
+  const summary = active
+    ? `Ceasefire language is present across the source mix${durationDays ? ` with a reported duration around ${durationDays} days` : ''}, but the model should still treat it as reversible under renewed violations or proxy attacks.`
+    : fragile
+      ? 'De-escalation or ceasefire language is present, but it is mixed with warning signs that suggest the pause may be unstable.'
+      : 'No durable ceasefire signal was detected across the latest source mix.';
+
+  return {
+    active,
+    status,
+    confidence: Number(confidence.toFixed(2)),
+    durationDays: durationDays || null,
+    summary,
+    positiveHits,
+    negativeHits,
+  };
 }
 
 // ==================== NEWS FETCHING ====================
@@ -678,6 +781,19 @@ function normalizeParams(rawParams, previousSnapshot, today, warDay) {
       escalationLevel: rawParams?.global?.escalationLevel ?? fallbackSnapshot.global?.escalationLevel ?? 95,
       oilDisruption: rawParams?.global?.oilDisruption ?? fallbackSnapshot.global?.oilDisruption ?? 90,
     },
+    ceasefire: {
+      active: Boolean(rawParams?.ceasefire?.active ?? fallbackSnapshot.ceasefire?.active ?? false),
+      status: rawParams?.ceasefire?.status || fallbackSnapshot.ceasefire?.status || 'none',
+      confidence: clamp(
+        Number(rawParams?.ceasefire?.confidence ?? fallbackSnapshot.ceasefire?.confidence ?? 0),
+        0,
+        1,
+      ),
+      durationDays: Number.isFinite(Number(rawParams?.ceasefire?.durationDays))
+        ? Number(rawParams.ceasefire.durationDays)
+        : (Number.isFinite(Number(fallbackSnapshot.ceasefire?.durationDays)) ? Number(fallbackSnapshot.ceasefire.durationDays) : null),
+      summary: rawParams?.ceasefire?.summary || fallbackSnapshot.ceasefire?.summary || 'No sustained ceasefire is currently modeled.',
+    },
     alliance: {
       russiaIntelSupport: rawParams?.alliance?.russiaIntelSupport ?? fallbackSnapshot.alliance?.russiaIntelSupport ?? false,
       chinaEconomicSupport: rawParams?.alliance?.chinaEconomicSupport ?? fallbackSnapshot.alliance?.chinaEconomicSupport ?? false,
@@ -713,6 +829,7 @@ JSON Structure:
   "warDay": ${warDay},
   "summary": "1-sentence neutral factual summary",
   "recentEvents": [{"date": "MMM DD", "text": "description", "severity": "info|warning|critical"}],
+  "ceasefire": {"active": false, "status": "none|fragile|active|collapsed", "confidence": 0.0-1.0, "durationDays": 0-60, "summary": "1-sentence neutral ceasefire status"},
   ${includeNarratives ? '"narratives": [{"perspective": "label", "headline": "short headline", "summary": "2-sentence narrative", "tone": "neutral|anxious|defiant|skeptical|strained"}],' : ''}
   "usa": {"militaryPower": 0-100, "precision": 0.0-1.0, "aggression": 0.0-1.0},
   "israel": {"militaryPower": 0-100, "precision": 0.0-1.0, "aggression": 0.0-1.0},
@@ -729,6 +846,8 @@ Bias guardrails:
 - Avoid emotionally loaded phrases, propaganda framing, or moral judgments.
 - Do not infer motives or declare collapse, victory, or defeat unless the inputs strongly support it.
 - If evidence is mixed or thin, prefer smaller metric moves and cautious wording.
+- If a ceasefire, truce, operational pause, or monitored de-escalation is clearly in effect, return a lower escalationLevel and populate the ceasefire object explicitly.
+- If the ceasefire looks fragile or partially violated, prefer status "fragile" rather than "none".
 ${includeNarratives ? '- Narrative items should summarize distinct geopolitical perspectives without endorsing them.' : ''}`;
 
   const response = await askGemini(prompt);
@@ -849,6 +968,7 @@ function buildSnapshotModule(params, sourceBundle) {
     warDay: params.warDay,
     summary: params.summary,
     lastNarrativeUpdate: params.lastNarrativeUpdate || null,
+    ceasefire: params.ceasefire,
     actorOverrides: {
       usa: {
         metrics: { militaryPower: params.usa?.militaryPower },
@@ -878,6 +998,62 @@ function writeSnapshotFile(params, sourceBundle) {
   console.log('Updated latestSnapshot.js');
 }
 
+function buildUpdateMeta(params) {
+  return {
+    updateSequence: params.updateSequence || 1,
+    lastUpdated: params.lastUpdated,
+    lastSyncedAt: params.lastSyncedAt || new Date().toISOString(),
+    warDay: params.warDay,
+    ceasefire: params.ceasefire,
+  };
+}
+
+function writeUpdateMetaFile(params) {
+  const metaPath = join(ROOT, ...UPDATE_META_PUBLIC_PATH);
+  mkdirSync(dirname(metaPath), { recursive: true });
+  writeFileSync(metaPath, `${JSON.stringify(buildUpdateMeta(params), null, 2)}\n`);
+  console.log('Updated public/update-meta.json');
+}
+
+function applyCeasefireGuardrails(params, heuristicCeasefire, previousSnapshot) {
+  const previousCeasefire = previousSnapshot?.ceasefire || {};
+  const merged = {
+    ...params.ceasefire,
+    active: Boolean(params.ceasefire?.active || heuristicCeasefire.active),
+    status: params.ceasefire?.status && params.ceasefire.status !== 'none'
+      ? params.ceasefire.status
+      : (heuristicCeasefire.status || previousCeasefire.status || 'none'),
+    confidence: clamp(
+      Math.max(
+        Number(params.ceasefire?.confidence || 0),
+        Number(heuristicCeasefire.confidence || 0),
+      ),
+      0,
+      1,
+    ),
+    durationDays: params.ceasefire?.durationDays || heuristicCeasefire.durationDays || previousCeasefire.durationDays || null,
+    summary: params.ceasefire?.summary && params.ceasefire.summary !== 'No sustained ceasefire is currently modeled.'
+      ? params.ceasefire.summary
+      : (heuristicCeasefire.summary || previousCeasefire.summary || 'No sustained ceasefire is currently modeled.'),
+  };
+
+  if (merged.active) {
+    merged.status = merged.status === 'collapsed' ? 'fragile' : (merged.status || 'active');
+    const escalationCap = merged.status === 'active' ? 38 : 48;
+    const nuclearCap = merged.status === 'active' ? 58 : 68;
+    params.global.escalationLevel = Math.min(params.global.escalationLevel, escalationCap);
+    params.global.nuclearIndex = Math.min(params.global.nuclearIndex, nuclearCap);
+    if (!/ceasefire|truce|pause/i.test(params.summary)) {
+      params.summary = `A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.`;
+    }
+  } else if (merged.status === 'collapsed') {
+    params.global.escalationLevel = Math.max(params.global.escalationLevel, 60);
+  }
+
+  params.ceasefire = merged;
+  return params;
+}
+
 // ==================== MAIN ====================
 
 async function main() {
@@ -886,12 +1062,14 @@ async function main() {
   const previousSnapshot = readExistingSnapshot();
   const sourceBundle = await gatherSourceBundle();
   const oilPrice = await fetchOilPrice();
+  const heuristicCeasefire = deriveCeasefireSignal(sourceBundle);
 
   console.log('\nSource status summary:');
   for (const source of sourceBundle.sourceStatuses) {
     console.log(`- ${source.source}: ${source.status}`);
   }
   console.log(`- Oil market: ${oilPrice ? `ok ($${oilPrice})` : 'unavailable'}`);
+  console.log(`- Ceasefire heuristic: ${heuristicCeasefire.status} (${heuristicCeasefire.confidence})`);
   
   console.log('Interpreting with Gemini...');
   const today = getUtcDateKey();
@@ -906,7 +1084,11 @@ async function main() {
     rawParams = await interpretNews(sourceBundle, oilPrice, { includeNarratives: false });
   }
 
-  const params = normalizeParams(rawParams, previousSnapshot, today, warDay);
+  const params = applyCeasefireGuardrails(
+    normalizeParams(rawParams, previousSnapshot, today, warDay),
+    heuristicCeasefire,
+    previousSnapshot,
+  );
   const updateSequence = Number(previousSnapshot?.updateSequence || 0) + 1;
 
   if (previousSnapshot?.lastNarrativeUpdate === today && Array.isArray(previousSnapshot.narratives)) {
@@ -939,6 +1121,7 @@ async function main() {
   
   console.log(`Summary: ${params.summary}`);
   writeSnapshotFile(params, sourceBundle);
+  writeUpdateMetaFile(params);
   
   console.log('\n✅ Successfully updated simulation files!');
 }

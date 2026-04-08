@@ -3,8 +3,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "lastUpdated": "2026-04-08",
   "lastSyncedAt": "2026-04-08T12:45:49.221Z",
   "warDay": 40,
-  "summary": "A two-week ceasefire has been agreed upon between the US, Israel, and Iran, though Israel continues strikes in Lebanon, and the US has conducted strikes on Kharg Island amidst Trump's ultimatum.",
+  "summary": "A two-week ceasefire is in effect between the main parties, but it remains fragile as strikes in Lebanon, maritime pressure, and renewed ultimatums continue to test whether the pause can hold.",
   "lastNarrativeUpdate": "2026-04-08",
+  "ceasefire": {
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.79,
+    "durationDays": 14,
+    "summary": "A monitored two-week ceasefire is currently active, but ongoing Lebanon strikes, proxy friction, and coercive signaling keep the pause unstable."
+  },
   "actorOverrides": {
     "usa": {
       "metrics": {
@@ -36,8 +43,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 35,
-    "escalationLevel": 75,
-    "oilDisruption": 80
+    "escalationLevel": 52,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -49,38 +56,38 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US, Israel, and Iran agree to a two-week ceasefire ahead of Trump's deadline.",
+      "text": "US, Israel, and Iran have moved into a two-week ceasefire window, reducing the pace of direct high-intensity exchanges.",
       "severity": "info",
-      "latestSinceUpdate": 13
+      "latestSinceUpdate": 15
     },
     {
       "date": "Apr 07",
-      "text": "Israel strikes southern Lebanon after the US-Iran ceasefire agreement.",
+      "text": "Israel continued strikes in southern Lebanon, underscoring that the broader pause remains geographically and politically fragile.",
       "severity": "warning",
       "latestSinceUpdate": 15
     },
     {
       "date": "Apr 07",
-      "text": "Israel strikes central Beirut without warning, stating the Iran ceasefire does not apply there.",
-      "severity": "critical",
-      "latestSinceUpdate": 15
-    },
-    {
-      "date": "Apr 07",
-      "text": "Hezbollah reportedly pauses attacks, but Israel states operations in Lebanon continue.",
+      "text": "Israeli strikes in Beirut signaled that proxy fronts could still destabilize the ceasefire even if direct US-Iran exchanges stay lower.",
       "severity": "warning",
       "latestSinceUpdate": 15
     },
     {
       "date": "Apr 07",
-      "text": "U.S. strikes Kharg Island as Trump raises Iran threats to 'apocalyptic levels'.",
-      "severity": "critical",
+      "text": "Hezbollah activity appears reduced for now, but regional actors continue warning that the pause could collapse quickly after a major violation.",
+      "severity": "info",
+      "latestSinceUpdate": 15
+    },
+    {
+      "date": "Apr 07",
+      "text": "US pressure around Kharg Island and continuing ultimatum rhetoric have kept energy and shipping risk elevated despite the ceasefire.",
+      "severity": "warning",
       "latestSinceUpdate": 15
     },
     {
       "date": "Apr 08",
-      "text": "The US-Iran ceasefire is admitted to be fragile by Vance.",
-      "severity": "warning",
+      "text": "Officials have described the ceasefire as fragile, with diplomats trying to turn the pause into a more enforceable monitored framework.",
+      "severity": "info",
       "latestSinceUpdate": 15
     }
   ],
@@ -116,31 +123,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Perspective",
-      "headline": "Trump Secures Ceasefire, Seeks Peace Deal",
-      "summary": "Trump's administration has secured a two-week ceasefire with Iran, aiming to negotiate a comprehensive peace deal and de-escalate tensions, while maintaining an ultimatum regarding Iranian actions.",
-      "tone": "neutral",
-      "latestSinceUpdate": 8
-    },
-    {
-      "perspective": "Iranian Perspective",
-      "headline": "Iran Agrees to Talks, Demands Strait Reopening",
-      "summary": "Iran has agreed to a temporary ceasefire and talks, contingent on the reopening of the Strait of Hormuz, following significant US military actions and threats.",
+      "perspective": "US/Israel Stance",
+      "headline": "Ceasefire Holds, But Deterrence Stays Forward",
+      "summary": "From the US-Israel perspective, the current pause is useful but provisional. The priority remains keeping pressure on Iran and proxy networks while preserving freedom to respond if the ceasefire is violated.",
       "tone": "strained",
       "latestSinceUpdate": 8
     },
     {
-      "perspective": "Israeli Perspective",
-      "headline": "Israel Continues Strikes Despite Ceasefire",
-      "summary": "Israel continues its strikes against Iranian infrastructure and related targets, asserting its security interests despite the broader US-Iran ceasefire announcement.",
+      "perspective": "Iranian/Allies Response",
+      "headline": "Pause Accepted Without Surrendering Leverage",
+      "summary": "Iranian and allied framing casts the ceasefire as proof that escalation pressure produced a tactical pause without forcing strategic retreat. At the same time, they continue signaling that readiness remains in place if pressure resumes.",
       "tone": "defiant",
       "latestSinceUpdate": 8
     },
     {
-      "perspective": "Regional Allies Perspective",
-      "headline": "Hezbollah, Houthis Join Iran in Strikes",
-      "summary": "Hezbollah and Houthi forces have joined Iran in striking Israel, indicating a unified front against Israeli actions and continued regional involvement.",
-      "tone": "defiant",
+      "perspective": "Global/Economic Impact",
+      "headline": "Risk Premium Falls, But Confidence Is Still Thin",
+      "summary": "Global observers see the ceasefire as a meaningful reduction in immediate danger, not a durable resolution. Energy, shipping, and diplomacy remain cautious because Lebanon, proxy fronts, and Hormuz-related pressure could still unravel the pause.",
+      "tone": "anxious",
       "latestSinceUpdate": 8
     }
   ]

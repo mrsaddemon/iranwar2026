@@ -16,8 +16,11 @@ export default function App() {
   const [speed, setSpeed] = useState(1);
   const [bottomTab, setBottomTab] = useState('predictions'); // 'predictions' | 'command'
   const [iranHasNuke, setIranHasNuke] = useState(false);
+  const [refreshPending, setRefreshPending] = useState(false);
   const intervalRef = useRef(null);
   const nuclearResolutionTimeoutRef = useRef(null);
+  const refreshTimeoutRef = useRef(null);
+  const refreshSeenRef = useRef(null);
 
   const tick = useCallback(() => {
     setState(prev => {
@@ -58,6 +61,37 @@ export default function App() {
       }
     };
   }, [state.pendingNuclearStrike]);
+
+  useEffect(() => {
+    refreshSeenRef.current = state.lastSyncedAt;
+  }, [state.lastSyncedAt]);
+
+  useEffect(() => {
+    const pollForDeployment = async () => {
+      try {
+        const resp = await fetch(`/update-meta.json?ts=${Date.now()}`, { cache: 'no-store' });
+        if (!resp.ok) return;
+        const meta = await resp.json();
+        if (!meta?.lastSyncedAt || meta.lastSyncedAt === refreshSeenRef.current) return;
+
+        refreshSeenRef.current = meta.lastSyncedAt;
+        setRefreshPending(true);
+        if (refreshTimeoutRef.current) clearTimeout(refreshTimeoutRef.current);
+        refreshTimeoutRef.current = setTimeout(() => {
+          window.location.reload();
+        }, 3000);
+      } catch {
+        // Ignore transient polling failures; a later poll can still pick up the deployment.
+      }
+    };
+
+    pollForDeployment();
+    const pollId = setInterval(pollForDeployment, 60000);
+    return () => {
+      clearInterval(pollId);
+      if (refreshTimeoutRef.current) clearTimeout(refreshTimeoutRef.current);
+    };
+  }, []);
 
   const handleToggleRunning = useCallback(() => {
     setRunning(prev => !prev);
@@ -102,6 +136,12 @@ export default function App() {
         <span>SIMULATION SEEDED FROM THE LATEST SOURCE SNAPSHOT, UPDATED EVERY 15 MINUTES</span>
         <span className="announce-dot">|</span>
         <span>Probabilistic model for educational purposes only</span>
+        {refreshPending && (
+          <>
+            <span className="announce-dot">|</span>
+            <span>New scheduled update detected. Refreshing...</span>
+          </>
+        )}
       </div>
 
       <TopBar
@@ -158,6 +198,7 @@ export default function App() {
           nuclearPredictions={state.nuclearPredictions}
           oilDisruption={state.oilDisruption}
           escalationLevel={state.escalationLevel}
+          ceasefireStatus={state.ceasefireStatus}
           narratives={state.narratives}
           lastNarrativeUpdate={state.lastNarrativeUpdate}
           updateSequence={state.updateSequence}

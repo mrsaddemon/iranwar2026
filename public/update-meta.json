@@ -1,0 +1,13 @@
+{
+  "updateSequence": 15,
+  "lastUpdated": "2026-04-08",
+  "lastSyncedAt": "2026-04-08T12:45:49.221Z",
+  "warDay": 40,
+  "ceasefire": {
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.79,
+    "durationDays": 14,
+    "summary": "A monitored two-week ceasefire is currently active, but ongoing Lebanon strikes, proxy friction, and coercive signaling keep the pause unstable."
+  }
+}

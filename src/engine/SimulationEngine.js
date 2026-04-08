@@ -9,7 +9,7 @@ import { LATEST_SNAPSHOT } from './latestSnapshot.js';
 
 // Date helper
 const SIM_START = new Date(LATEST_SNAPSHOT.lastUpdated || '2026-04-07');
-const INITIAL_WAR_DAY = LATEST_SNAPSHOT.warDay || 38;
+const INITIAL_WAR_DAY = LATEST_SNAPSHOT.warDay || 39;
 const INITIAL_GLOBALS = {
   nuclearIndex: LATEST_SNAPSHOT.global?.nuclearIndex ?? 75,
   escalationLevel: LATEST_SNAPSHOT.global?.escalationLevel ?? 90,
@@ -28,6 +28,57 @@ function getDateForDay(simDay) {
 
 function makeTimestamp(dayCount, warDay) {
   return `${getDateForDay(dayCount)} \u2022 Day ${warDay + dayCount}`;
+}
+
+function normalizeCeasefireStatus(ceasefire) {
+  const status = ceasefire?.status || 'none';
+  const active = Boolean(ceasefire?.active || status === 'active' || status === 'fragile');
+  return {
+    active,
+    status: active ? (status === 'none' ? 'fragile' : status) : status,
+    confidence: Number(ceasefire?.confidence || 0),
+    durationDays: Number.isFinite(Number(ceasefire?.durationDays)) ? Number(ceasefire.durationDays) : null,
+    summary: ceasefire?.summary || 'No sustained ceasefire is currently modeled.',
+  };
+}
+
+function softenActionWeightsForCeasefire(weights, ceasefireStatus) {
+  if (!ceasefireStatus?.active) return;
+
+  const aggressiveFactor = ceasefireStatus.status === 'active' ? 0.24 : 0.42;
+  const diplomaticFactor = ceasefireStatus.status === 'active' ? 2.6 : 1.8;
+
+  weights.airstrike *= aggressiveFactor;
+  weights.missileStrike *= aggressiveFactor;
+  weights.droneOperation *= aggressiveFactor;
+  weights.navalManeuver *= aggressiveFactor * 1.2;
+  weights.cyberDisruption *= aggressiveFactor * 1.1;
+  weights.diplomaticOutreach *= diplomaticFactor;
+  weights.defensivePosture *= 1.5;
+  weights.strategicSignaling *= 0.7;
+}
+
+function registerCeasefireBreakdown(state, actorName) {
+  const current = normalizeCeasefireStatus(state.ceasefireStatus);
+  if (!current.active) return;
+
+  if (current.status === 'active') {
+    state.ceasefireStatus = {
+      ...current,
+      status: 'fragile',
+      summary: `${actorName} offensive activity has made the ceasefire fragile and raised the risk of renewed escalation.`,
+    };
+    state.escalationLevel = Math.max(state.escalationLevel, 42);
+    return;
+  }
+
+  state.ceasefireStatus = {
+    ...current,
+    active: false,
+    status: 'collapsed',
+    summary: `${actorName} offensive activity has effectively collapsed the ceasefire framework.`,
+  };
+  state.escalationLevel = Math.max(state.escalationLevel, 62);
 }
 
 export function createSimulationState() {
@@ -63,6 +114,7 @@ export function createSimulationState() {
     lastUpdated: LATEST_SNAPSHOT.lastUpdated,
     lastSyncedAt: LATEST_SNAPSHOT.lastSyncedAt || null,
     snapshotSummary: LATEST_SNAPSHOT.summary,
+    ceasefireStatus: normalizeCeasefireStatus(LATEST_SNAPSHOT.ceasefire),
     sourceStatuses: LATEST_SNAPSHOT.sourceStatuses || [],
     narratives: LATEST_SNAPSHOT.narratives || [],
     lastNarrativeUpdate: LATEST_SNAPSHOT.lastNarrativeUpdate || null,
@@ -115,6 +167,7 @@ function generateInitialEvents() {
 function selectAction(actor, globalState) {
   const weights = { ...actor.actionWeights };
   const { escalationLevel } = globalState;
+  softenActionWeightsForCeasefire(weights, globalState.ceasefireStatus);
 
   if (escalationLevel > 60) {
     weights.defensivePosture *= 1.5;
@@ -578,6 +631,15 @@ function updatePredictions(state) {
     internalInstability: outcomes.internal / runs,
   };
 
+  if (state.ceasefireStatus?.active) {
+    const ceasefireStrength = state.ceasefireStatus.status === 'active' ? 1.7 : 1.3;
+    predictions.deescalation *= ceasefireStrength;
+    predictions.prolongedConflict *= 0.85;
+    predictions.regionalExpansion *= 0.55;
+    predictions.strategicBrinkmanship *= 0.7;
+    predictions.internalInstability *= 0.85;
+  }
+
   const total = Object.values(predictions).reduce((a, b) => a + b, 0);
   for (const key of Object.keys(predictions)) predictions[key] = predictions[key] / total;
 
@@ -605,10 +667,24 @@ export function applyPlayerAction(state, actionId, target, options = {}) {
   if (actionId === 'proposeCeasefire') {
     if (!newState.ceasefireProposals) newState.ceasefireProposals = {};
     newState.ceasefireProposals[actorId] = newState.dayCount;
+    newState.ceasefireStatus = {
+      ...normalizeCeasefireStatus(newState.ceasefireStatus),
+      active: true,
+      status: 'fragile',
+      summary: `${actor.name} has proposed a ceasefire. Negotiations are active, but the pause is not yet fully stabilized.`,
+    };
+    newState.escalationLevel = Math.max(0, newState.escalationLevel - 8);
   }
   if (actionId === 'acceptCeasefire') {
     if (!newState.ceasefireProposals) newState.ceasefireProposals = {};
     newState.ceasefireProposals[actorId] = newState.dayCount;
+    newState.ceasefireStatus = {
+      ...normalizeCeasefireStatus(newState.ceasefireStatus),
+      active: true,
+      status: 'active',
+      summary: `${actor.name} has accepted ceasefire terms. A monitored pause is now the modeled base state unless renewed strikes break it.`,
+    };
+    newState.escalationLevel = Math.max(0, newState.escalationLevel - 14);
   }
 
   // Handle nuclear strike
@@ -639,6 +715,10 @@ export function applyPlayerAction(state, actionId, target, options = {}) {
       targetActorId,
     }));
     return newState;
+  }
+
+  if (['airstrike', 'missileStrike', 'droneOperation', 'navalManeuver', 'cyberDisruption', 'nuclearStrike'].includes(actionId)) {
+    registerCeasefireBreakdown(newState, actor.name);
   }
 
   // Special or standard action
@@ -750,7 +830,10 @@ export function simulateTick(state) {
     // Skip player-controlled actor (they act via applyPlayerAction)
     if (actorId === newState.playerControlledActor) continue;
 
-    const actProbability = 0.4 + newState.escalationLevel * 0.004;
+    const ceasefireActModifier = newState.ceasefireStatus?.active
+      ? (newState.ceasefireStatus.status === 'active' ? 0.12 : 0.2)
+      : 0.4;
+    const actProbability = ceasefireActModifier + newState.escalationLevel * (newState.ceasefireStatus?.active ? 0.002 : 0.004);
     if (Math.random() > actProbability) continue;
 
     const actor = newState.actors[actorId];
@@ -760,6 +843,12 @@ export function simulateTick(state) {
     if (action === 'proposeCeasefire') {
       if (!newState.ceasefireProposals) newState.ceasefireProposals = {};
       newState.ceasefireProposals[actorId] = newState.dayCount;
+      newState.ceasefireStatus = {
+        ...normalizeCeasefireStatus(newState.ceasefireStatus),
+        active: true,
+        status: 'fragile',
+        summary: `${actor.name} is pushing a ceasefire through mediators. The situation is calmer, but still reversible.`,
+      };
       newEvents.push({
         id: `cf-${newState.dayCount}-${Math.random().toString(36).slice(2, 7)}`,
         day: newState.dayCount,
@@ -768,12 +857,16 @@ export function simulateTick(state) {
         severity: 'stable', icon: '\u{1F54A}', action: 'proposeCeasefire', actor: actor.name,
       });
       // Also reduce escalation
-      newState.escalationLevel = Math.max(0, newState.escalationLevel - 5);
+      newState.escalationLevel = Math.max(0, newState.escalationLevel - 8);
       continue;
     }
 
     const outcome = calculateOutcome(actor, action, newState);
     applyEffects(newState, actorId, outcome.effects);
+
+    if (['airstrike', 'missileStrike', 'droneOperation', 'navalManeuver', 'cyberDisruption'].includes(action)) {
+      registerCeasefireBreakdown(newState, actor.name);
+    }
 
     const prevNuclear = newState.nuclearIndex;
     const nucDelta = calculateNuclearDelta(action, actorId, newState);
@@ -799,7 +892,10 @@ export function simulateTick(state) {
   newEvents.push(...generateSecondaryEvents(newState, newState.dayCount));
 
   // Natural decay
-  newState.escalationLevel = Math.max(0, Math.min(100, newState.escalationLevel + (Math.random() - 0.52) * 1.5));
+  const decayBias = newState.ceasefireStatus?.active
+    ? (newState.ceasefireStatus.status === 'active' ? -1.35 : -0.75)
+    : 0;
+  newState.escalationLevel = Math.max(0, Math.min(100, newState.escalationLevel + (Math.random() - 0.52) * 1.5 + decayBias));
   newState.oilDisruption = Math.max(0, Math.min(100, newState.oilDisruption + (Math.random() - 0.5) * 2));
 
   for (const actorId of actorIds) {

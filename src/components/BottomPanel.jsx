@@ -61,15 +61,18 @@ function MiniGauge({ label, value, maxVal, color, unit }) {
 
 export default function BottomPanel({
   predictions, escalationProbability, warDurationRange,
-  nuclearPredictions, oilDisruption, escalationLevel, narratives, lastNarrativeUpdate, updateSequence,
+  nuclearPredictions, oilDisruption, escalationLevel, ceasefireStatus, narratives, lastNarrativeUpdate, updateSequence,
 }) {
   const explanation = useMemo(() => {
+    if (ceasefireStatus?.active && ceasefireStatus?.status === 'active') return 'ACTIVE CEASEFIRE: Direct large-scale strikes are paused. The model still tracks proxy friction, mistrust, and Hormuz risk for signs of renewed breakdown.';
+    if (ceasefireStatus?.active && ceasefireStatus?.status === 'fragile') return 'FRAGILE CEASEFIRE: A ceasefire framework exists, but violations, proxy activity, or ultimatums could rapidly restore a high-escalation path.';
+    if (ceasefireStatus?.status === 'collapsed') return 'CEASEFIRE COLLAPSED: The previous pause has broken down and the model is now weighting renewed confrontation much more heavily.';
     if (escalationLevel > 85) return 'ACTIVE WAR: Multi-front conflict intensifying. Hormuz blockaded, Hezbollah engaged, GCC states under fire. Regime collapse and regional expansion both possible.';
     if (escalationLevel > 70) return 'War continues with high intensity. US-Israel coalition maintains air dominance but Iran\u2019s asymmetric strategy (missiles, drones, Hormuz mines) sustains pressure.';
     if (escalationLevel > 50) return 'Conflict persists but intensity declining. Diplomatic backchannels may be forming. Oil disruption remains critical concern.';
     if (escalationLevel > 30) return 'Significant de-escalation underway. Ceasefire discussions possible. Iranian internal instability may force regime concessions.';
     return 'Conflict winding down. Ceasefire framework emerging. Focus shifting to post-war stability and reconstruction.';
-  }, [escalationLevel]);
+  }, [ceasefireStatus, escalationLevel]);
 
   return (
     <div className="bottom-panel">
@@ -137,6 +140,17 @@ export default function BottomPanel({
           ANALYSIS
         </div>
         <div className="explain-text">{explanation}</div>
+        {ceasefireStatus && ceasefireStatus.status !== 'none' && (
+          <div className={`ceasefire-status ceasefire-${ceasefireStatus.status}`}>
+            <div className="ceasefire-status-top">
+              <span className="ceasefire-status-label">
+                {ceasefireStatus.status === 'active' ? 'ACTIVE CEASEFIRE' : ceasefireStatus.status.toUpperCase()}
+              </span>
+              <span className="ceasefire-status-confidence">{Math.round((ceasefireStatus.confidence || 0) * 100)}%</span>
+            </div>
+            <div className="ceasefire-status-text">{ceasefireStatus.summary}</div>
+          </div>
+        )}
         <div className="disclaimer">
           Probabilistic model — not a prediction of real-world outcomes.
         </div>
