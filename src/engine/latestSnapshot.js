@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 21,
+  "updateSequence": 22,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T20:56:54.369Z",
+  "lastSyncedAt": "2026-04-08T21:55:14.636Z",
   "warDay": 40,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-08",
@@ -62,21 +62,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 08",
+      "text": "Iran War Live Updates: U.S.-Iran Cease-Fire Shaky as Israel Strikes Lebanon and Confusion Grows Over Strait",
+      "severity": "info",
+      "latestSinceUpdate": 20
+    },
+    {
+      "date": "Apr 08",
       "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
       "severity": "info",
       "latestSinceUpdate": 20
     },
     {
       "date": "Apr 08",
-      "text": "How Trump Took the U.S. to War With Iran",
+      "text": "Live updates: Iran accuses US of violating parts of deal framework, says ceasefire is 'unreasonable'",
       "severity": "info",
-      "latestSinceUpdate": 20
-    },
-    {
-      "date": "Apr 08",
-      "text": "Live updates: Iran accuses US of violating parts of deal framework, says ceasefire 'unreasonable'",
-      "severity": "info",
-      "latestSinceUpdate": 20
+      "latestSinceUpdate": 22
     },
     {
       "date": "Apr 08",
@@ -86,9 +86,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 08",
-      "text": "Iran War Live Updates: U.S.-Iran Cease-Fire Shaky as Israel Strikes Lebanon and Confusion Grows Over Strait",
+      "text": "Live updates: Iran war ceasefire begins, though some new attacks hit Gulf; Trump and Netanyahu say Lebanon not included in ceasefire",
       "severity": "info",
-      "latestSinceUpdate": 20
+      "latestSinceUpdate": 22
     }
   ],
   "sourceStatuses": [
