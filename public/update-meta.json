@@ -1,13 +1,13 @@
 {
-  "updateSequence": 18,
+  "updateSequence": 19,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T18:56:11.756Z",
+  "lastSyncedAt": "2026-04-08T19:37:32.466Z",
   "warDay": 40,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A two-week ceasefire was reportedly agreed upon by the US and Iran, but its terms are disputed, and Israel has launched significant strikes in Lebanon, rendering it highly fragile."
+    "durationDays": 1,
+    "summary": "A ceasefire agreed between the US, Israel, and Iran is highly fragile, with immediate violations by Israel and accusations of framework breaches by Iran, alongside a dispute over the agreed terms."
   }
 }

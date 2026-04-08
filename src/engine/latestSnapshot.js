@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 18,
+  "updateSequence": 19,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T18:56:11.756Z",
+  "lastSyncedAt": "2026-04-08T19:37:32.466Z",
   "warDay": 40,
-  "summary": "A two-week ceasefire between the US and Iran is in effect but highly fragile, with Israel launching heavy airstrikes in Lebanon and conflicting reports emerging regarding the closure of the Strait of Hormuz.",
+  "summary": "A fragile ceasefire between the US, Israel, and Iran is in jeopardy on War Day 40, as Israel conducts extensive strikes in Lebanon and Iran threatens to halt Strait of Hormuz traffic.",
   "lastNarrativeUpdate": "2026-04-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A two-week ceasefire was reportedly agreed upon by the US and Iran, but its terms are disputed, and Israel has launched significant strikes in Lebanon, rendering it highly fragile."
+    "durationDays": 1,
+    "summary": "A ceasefire agreed between the US, Israel, and Iran is highly fragile, with immediate violations by Israel and accusations of framework breaches by Iran, alongside a dispute over the agreed terms."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.5
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.3,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90
   },
@@ -56,33 +56,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US, Israel, and Iran reportedly agree to a two-week ceasefire before Trump's deadline.",
+      "text": "US, Israel, and Iran reportedly agree to a ceasefire before Trump’s deadline.",
       "severity": "info",
-      "latestSinceUpdate": 18
+      "latestSinceUpdate": 19
     },
     {
       "date": "Apr 08",
-      "text": "Israel launches its heaviest airstrikes of the war in Lebanon, killing 254, following the ceasefire agreement.",
+      "text": "Iran accuses the US of violating parts of the ceasefire deal framework and calls the ceasefire 'unreasonable'.",
+      "severity": "warning",
+      "latestSinceUpdate": 19
+    },
+    {
+      "date": "Apr 08",
+      "text": "Israel launches sprawling attacks on Lebanon, killing at least 254 people, after the ceasefire was declared.",
       "severity": "critical",
-      "latestSinceUpdate": 18
+      "latestSinceUpdate": 19
     },
     {
       "date": "Apr 08",
-      "text": "Iran claims closure of the Strait of Hormuz in response to Israeli attacks; the White House denies these reports.",
+      "text": "Iran announces it is halting Strait of Hormuz traffic, making it a major flash point.",
+      "severity": "critical",
+      "latestSinceUpdate": 19
+    },
+    {
+      "date": "Apr 08",
+      "text": "The White House states that the ceasefire plan published by Iran is not the one approved by the US.",
       "severity": "warning",
-      "latestSinceUpdate": 18
-    },
-    {
-      "date": "Apr 08",
-      "text": "Confusion grows over the specific terms and validity of the US-Iran ceasefire agreement.",
-      "severity": "warning",
-      "latestSinceUpdate": 18
-    },
-    {
-      "date": "Apr 08",
-      "text": "Hezbollah reportedly pauses its attacks amidst the ongoing Israeli airstrikes in Lebanon.",
-      "severity": "info",
-      "latestSinceUpdate": 18
+      "latestSinceUpdate": 19
     }
   ],
   "sourceStatuses": [
@@ -100,7 +100,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
