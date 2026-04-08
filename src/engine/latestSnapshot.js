@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 23,
+  "updateSequence": 24,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T22:54:32.677Z",
+  "lastSyncedAt": "2026-04-08T23:49:53.979Z",
   "warDay": 40,
-  "summary": "A fragile ceasefire between the US, Israel, and Iran is being tested by ongoing Israeli airstrikes in Lebanon and Iranian accusations of violations.",
+  "summary": "A fragile ceasefire between the US, Israel, and Iran is being tested by ongoing Israeli strikes in Lebanon and Iranian actions in the Strait of Hormuz, leading to accusations of violations.",
   "lastNarrativeUpdate": "2026-04-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A ceasefire agreement between the US, Israel, and Iran is active but highly fragile, facing immediate tests from Israeli strikes and Iranian accusations."
+    "summary": "A ceasefire agreed between the US, Israel, and Iran is highly fragile and being tested by ongoing Israeli strikes in Lebanon and Iranian actions in the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,24 +27,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.8
+        "precision": 0.4,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 30
+    "oilDisruption": 85
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,21 +56,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US, Israel, and Iran agree to a ceasefire before Trump's deadline.",
+      "text": "US, Israel, Iran agree to ceasefire before Trump’s deadline.",
       "severity": "info",
-      "latestSinceUpdate": 23
+      "latestSinceUpdate": 24
     },
     {
       "date": "Apr 08",
-      "text": "Israel launches a large wave of airstrikes across Lebanon, killing at least 254.",
-      "severity": "critical",
-      "latestSinceUpdate": 23
-    },
-    {
-      "date": "Apr 08",
-      "text": "Iran accuses the US of violating parts of the ceasefire deal framework, calling it 'unreasonable'.",
+      "text": "Iran accuses US of violating ceasefire deal framework and calls it 'unreasonable'.",
       "severity": "warning",
-      "latestSinceUpdate": 23
+      "latestSinceUpdate": 24
+    },
+    {
+      "date": "Apr 08",
+      "text": "Israeli strikes kill 254 in Lebanon, testing the ceasefire.",
+      "severity": "critical",
+      "latestSinceUpdate": 24
+    },
+    {
+      "date": "Apr 08",
+      "text": "Iran tightens its grip on the Strait of Hormuz despite the ceasefire.",
+      "severity": "warning",
+      "latestSinceUpdate": 24
     },
     {
       "date": "Apr 08",
@@ -80,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 08",
-      "text": "Oil prices plunge and shares jump following news of the US-Iran ceasefire plan.",
+      "text": "Hungary offered help to Iran after pager attack on Hezbollah.",
       "severity": "info",
-      "latestSinceUpdate": 23
+      "latestSinceUpdate": 24
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

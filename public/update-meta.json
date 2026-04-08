@@ -1,13 +1,13 @@
 {
-  "updateSequence": 23,
+  "updateSequence": 24,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T22:54:32.677Z",
+  "lastSyncedAt": "2026-04-08T23:49:53.979Z",
   "warDay": 40,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A ceasefire agreement between the US, Israel, and Iran is active but highly fragile, facing immediate tests from Israeli strikes and Iranian accusations."
+    "summary": "A ceasefire agreed between the US, Israel, and Iran is highly fragile and being tested by ongoing Israeli strikes in Lebanon and Iranian actions in the Strait of Hormuz."
   }
 }
