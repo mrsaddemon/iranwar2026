@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 11,
+  "updateSequence": 12,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T06:57:27.162Z",
+  "lastSyncedAt": "2026-04-08T09:36:43.253Z",
   "warDay": 40,
-  "summary": "The United States, Israel, and Iran have agreed to a two-week ceasefire following significant US strikes on Iranian infrastructure and escalating threats, while regional tensions persist in Lebanon.",
+  "summary": "A provisional two-week ceasefire has been agreed between the US, Israel, and Iran, leading to the reopening of the Strait of Hormuz, though Israeli air strikes continue in Lebanon.",
   "lastNarrativeUpdate": "2026-04-08",
   "actorOverrides": {
     "usa": {
@@ -11,33 +11,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 75,
-    "oilDisruption": 70
+    "nuclearIndex": 40,
+    "escalationLevel": 65,
+    "oilDisruption": 35
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -49,39 +49,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US, Israel, and Iran agree to a two-week ceasefire ahead of Trump's deadline.",
+      "text": "US, Israel, Iran agree to provisional ceasefire before Trump’s deadline.",
       "severity": "info",
-      "latestSinceUpdate": 11
+      "latestSinceUpdate": 12
     },
     {
       "date": "Apr 07",
-      "text": "President Trump suspends US attacks on Iran as part of the ceasefire agreement.",
+      "text": "Tehran announces reopening of the Strait of Hormuz.",
       "severity": "info",
-      "latestSinceUpdate": 11
-    },
-    {
-      "date": "Apr 06",
-      "text": "US forces conducted strikes on Iranian infrastructure, including Kharg Island, prior to the ceasefire agreement.",
-      "severity": "warning",
-      "latestSinceUpdate": 11
+      "latestSinceUpdate": 12
     },
     {
       "date": "Apr 07",
-      "text": "An Israeli strike killed a Christian party official in Lebanon, exacerbating internal divides over Hezbollah.",
-      "severity": "warning",
-      "latestSinceUpdate": 11
+      "text": "Trump pauses Iran strikes for two weeks to negotiate a 10-point peace deal.",
+      "severity": "info",
+      "latestSinceUpdate": 12
     },
     {
-      "date": "Apr 06",
-      "text": "Lebanon’s Hezbollah and Yemen’s Houthis reportedly joined Iran in strikes on Israel.",
+      "date": "Apr 07",
+      "text": "Israel states ceasefire does not include Lebanon as air strikes continue.",
+      "severity": "warning",
+      "latestSinceUpdate": 12
+    },
+    {
+      "date": "Apr 07",
+      "text": "Israeli strike kills Christian party official in Lebanon, sharpening divides over Hezbollah.",
       "severity": "critical",
-      "latestSinceUpdate": 11
+      "latestSinceUpdate": 12
+    },
+    {
+      "date": "Apr 06",
+      "text": "U.S. conducts strikes on Kharg Island prior to ceasefire agreement.",
+      "severity": "warning",
+      "latestSinceUpdate": 12
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
