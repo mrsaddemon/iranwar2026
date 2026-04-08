@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 22,
+  "updateSequence": 23,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T21:55:14.636Z",
+  "lastSyncedAt": "2026-04-08T22:54:32.677Z",
   "warDay": 40,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A fragile ceasefire between the US, Israel, and Iran is being tested by ongoing Israeli airstrikes in Lebanon and Iranian accusations of violations.",
   "lastNarrativeUpdate": "2026-04-08",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire agreement between the US, Israel, and Iran is active but highly fragile, facing immediate tests from Israeli strikes and Iranian accusations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -28,23 +28,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.3,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 30
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,46 +55,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 08",
-      "text": "\"Iran war 2026\"",
+      "date": "Apr 07",
+      "text": "US, Israel, and Iran agree to a ceasefire before Trump's deadline.",
       "severity": "info",
-      "latestSinceUpdate": 20
+      "latestSinceUpdate": 23
     },
     {
       "date": "Apr 08",
-      "text": "Iran War Live Updates: U.S.-Iran Cease-Fire Shaky as Israel Strikes Lebanon and Confusion Grows Over Strait",
-      "severity": "info",
-      "latestSinceUpdate": 20
+      "text": "Israel launches a large wave of airstrikes across Lebanon, killing at least 254.",
+      "severity": "critical",
+      "latestSinceUpdate": 23
     },
     {
       "date": "Apr 08",
-      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
-      "severity": "info",
-      "latestSinceUpdate": 20
+      "text": "Iran accuses the US of violating parts of the ceasefire deal framework, calling it 'unreasonable'.",
+      "severity": "warning",
+      "latestSinceUpdate": 23
     },
     {
       "date": "Apr 08",
-      "text": "Live updates: Iran accuses US of violating parts of deal framework, says ceasefire is 'unreasonable'",
-      "severity": "info",
-      "latestSinceUpdate": 22
+      "text": "US military states readiness to resume Iran fighting if diplomacy fails.",
+      "severity": "warning",
+      "latestSinceUpdate": 23
     },
     {
       "date": "Apr 08",
-      "text": "\"Iran Israel strikes\"",
+      "text": "Oil prices plunge and shares jump following news of the US-Iran ceasefire plan.",
       "severity": "info",
-      "latestSinceUpdate": 20
-    },
-    {
-      "date": "Apr 08",
-      "text": "Live updates: Iran war ceasefire begins, though some new attacks hit Gulf; Trump and Netanyahu say Lebanon not included in ceasefire",
-      "severity": "info",
-      "latestSinceUpdate": 22
+      "latestSinceUpdate": 23
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

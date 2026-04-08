@@ -1,13 +1,13 @@
 {
-  "updateSequence": 22,
+  "updateSequence": 23,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T21:55:14.636Z",
+  "lastSyncedAt": "2026-04-08T22:54:32.677Z",
   "warDay": 40,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire agreement between the US, Israel, and Iran is active but highly fragile, facing immediate tests from Israeli strikes and Iranian accusations."
   }
 }
