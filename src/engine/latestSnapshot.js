@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 14,
+  "updateSequence": 15,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T12:00:00.000Z",
+  "lastSyncedAt": "2026-04-08T12:45:49.221Z",
   "warDay": 40,
-  "summary": "A two-week ceasefire has been agreed between the US, Israel, and Iran following a US ultimatum, though Israeli operations in Lebanon continue and US strikes on Iranian infrastructure have occurred.",
+  "summary": "A two-week ceasefire has been agreed upon between the US, Israel, and Iran, though Israel continues strikes in Lebanon, and the US has conducted strikes on Kharg Island amidst Trump's ultimatum.",
   "lastNarrativeUpdate": "2026-04-08",
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
-      },
-      "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.7
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
+        "aggression": 0.9
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 60
+      },
+      "behavior": {
+        "precision": 0.4,
         "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
+    "nuclearIndex": 35,
     "escalationLevel": 75,
-    "oilDisruption": 60
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,33 +55,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 07",
-      "text": "Trump warns of 'whole civilization will die' if no deal, US strikes Kharg Island.",
+      "text": "Israel strikes southern Lebanon after the US-Iran ceasefire agreement.",
+      "severity": "warning",
+      "latestSinceUpdate": 15
+    },
+    {
+      "date": "Apr 07",
+      "text": "Israel strikes central Beirut without warning, stating the Iran ceasefire does not apply there.",
       "severity": "critical",
-      "latestSinceUpdate": 14
+      "latestSinceUpdate": 15
     },
     {
       "date": "Apr 07",
-      "text": "Iran agrees to safe transit through the Strait of Hormuz.",
-      "severity": "info",
-      "latestSinceUpdate": 14
-    },
-    {
-      "date": "Apr 07",
-      "text": "Israel states ceasefire does not include Lebanon, operations continue.",
+      "text": "Hezbollah reportedly pauses attacks, but Israel states operations in Lebanon continue.",
       "severity": "warning",
-      "latestSinceUpdate": 14
+      "latestSinceUpdate": 15
     },
     {
       "date": "Apr 07",
-      "text": "Hezbollah pauses attacks, but also reportedly hits an Israeli warship.",
+      "text": "U.S. strikes Kharg Island as Trump raises Iran threats to 'apocalyptic levels'.",
+      "severity": "critical",
+      "latestSinceUpdate": 15
+    },
+    {
+      "date": "Apr 08",
+      "text": "The US-Iran ceasefire is admitted to be fragile by Vance.",
       "severity": "warning",
-      "latestSinceUpdate": 14
-    },
-    {
-      "date": "Apr 07",
-      "text": "Both US and Iran claim victory after the two-week ceasefire deal.",
-      "severity": "info",
-      "latestSinceUpdate": 14
+      "latestSinceUpdate": 15
     }
   ],
   "sourceStatuses": [
