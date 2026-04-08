@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 16,
+  "updateSequence": 17,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T17:47:09.224Z",
+  "lastSyncedAt": "2026-04-08T17:50:18.719Z",
   "warDay": 40,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-08",
@@ -86,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 08",
-      "text": "Live updates: Iran war ceasefire begins though some new attacks hit Gulf; Israel says Lebanon not included",
+      "text": "Middle East crisis live: Iran closes strait of Hormuz over Israel’s attacks on Lebanon, state media say",
       "severity": "info",
-      "latestSinceUpdate": 16
+      "latestSinceUpdate": 17
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
