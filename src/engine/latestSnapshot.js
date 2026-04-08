@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 17,
+  "updateSequence": 18,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T17:50:18.719Z",
+  "lastSyncedAt": "2026-04-08T18:56:11.756Z",
   "warDay": 40,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A two-week ceasefire between the US and Iran is in effect but highly fragile, with Israel launching heavy airstrikes in Lebanon and conflicting reports emerging regarding the closure of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-08",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A two-week ceasefire was reportedly agreed upon by the US and Iran, but its terms are disputed, and Israel has launched significant strikes in Lebanon, rendering it highly fragile."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,40 +55,34 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 08",
-      "text": "\"Iran war 2026\"",
+      "date": "Apr 07",
+      "text": "US, Israel, and Iran reportedly agree to a two-week ceasefire before Trump's deadline.",
       "severity": "info",
-      "latestSinceUpdate": 16
+      "latestSinceUpdate": 18
     },
     {
       "date": "Apr 08",
-      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
-      "severity": "info",
-      "latestSinceUpdate": 16
+      "text": "Israel launches its heaviest airstrikes of the war in Lebanon, killing 254, following the ceasefire agreement.",
+      "severity": "critical",
+      "latestSinceUpdate": 18
     },
     {
       "date": "Apr 08",
-      "text": "How Trump Took the U.S. to War With Iran",
-      "severity": "info",
-      "latestSinceUpdate": 16
+      "text": "Iran claims closure of the Strait of Hormuz in response to Israeli attacks; the White House denies these reports.",
+      "severity": "warning",
+      "latestSinceUpdate": 18
     },
     {
       "date": "Apr 08",
-      "text": "Live updates: Iran closes the Strait of Hormuz in response to Israeli attacks on Lebanon, per Iranian state media",
-      "severity": "info",
-      "latestSinceUpdate": 16
+      "text": "Confusion grows over the specific terms and validity of the US-Iran ceasefire agreement.",
+      "severity": "warning",
+      "latestSinceUpdate": 18
     },
     {
       "date": "Apr 08",
-      "text": "\"Iran Israel strikes\"",
+      "text": "Hezbollah reportedly pauses its attacks amidst the ongoing Israeli airstrikes in Lebanon.",
       "severity": "info",
-      "latestSinceUpdate": 16
-    },
-    {
-      "date": "Apr 08",
-      "text": "Middle East crisis live: Iran closes strait of Hormuz over Israel’s attacks on Lebanon, state media say",
-      "severity": "info",
-      "latestSinceUpdate": 17
+      "latestSinceUpdate": 18
     }
   ],
   "sourceStatuses": [
@@ -106,7 +100,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

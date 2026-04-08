@@ -1,13 +1,13 @@
 {
-  "updateSequence": 17,
+  "updateSequence": 18,
   "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T17:50:18.719Z",
+  "lastSyncedAt": "2026-04-08T18:56:11.756Z",
   "warDay": 40,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A two-week ceasefire was reportedly agreed upon by the US and Iran, but its terms are disputed, and Israel has launched significant strikes in Lebanon, rendering it highly fragile."
   }
 }
