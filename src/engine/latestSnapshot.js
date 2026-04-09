@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 29,
+  "updateSequence": 30,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T08:25:12.509Z",
+  "lastSyncedAt": "2026-04-09T09:53:04.802Z",
   "warDay": 41,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -68,9 +68,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "What we know about the two-week ceasefire between the US and Iran",
+      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
       "severity": "info",
-      "latestSinceUpdate": 29
+      "latestSinceUpdate": 30
     },
     {
       "date": "Apr 09",
@@ -86,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "Iran War Live Updates: Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon",
+      "text": "Middle East crisis live: Trump warns Iran to comply with ‘real agreement’ as ceasefire in doubt over Israeli attacks on Lebanon",
       "severity": "info",
-      "latestSinceUpdate": 29
+      "latestSinceUpdate": 30
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
