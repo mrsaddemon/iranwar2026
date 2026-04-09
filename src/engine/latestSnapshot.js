@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 40,
+  "updateSequence": 41,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T22:08:45.441Z",
+  "lastSyncedAt": "2026-04-09T23:02:55.162Z",
   "warDay": 41,
-  "summary": "The US-Iran conflict continues on War Day 41 with ongoing Israeli strikes in Lebanon, stalled Strait of Hormuz shipping, and complex ceasefire negotiations.",
+  "summary": "The conflict continues with high casualties in Lebanon, a standstill in Strait of Hormuz shipping, and ongoing US-led ceasefire talks complicated by Israeli rejections and Iranian accusations.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire talks are underway between the US and Iran, and Israel and Lebanon, but Iran deems the current framework unreasonable, and the Strait of Hormuz remains closed despite a declared ceasefire."
+    "summary": "Despite ongoing US-led talks, a broad ceasefire remains unconfirmed and actively violated by parties, with Israel rejecting one in Lebanon and Iran calling it unreasonable."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 95
   },
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Iran accuses US of violating deal framework and calls ceasefire 'unreasonable'.",
-      "severity": "warning",
-      "latestSinceUpdate": 40
-    },
-    {
-      "date": "Apr 09",
-      "text": "Israel agrees to direct negotiations with Lebanon amidst US preparations for Iran ceasefire talks.",
-      "severity": "info",
-      "latestSinceUpdate": 40
-    },
-    {
-      "date": "Apr 09",
-      "text": "Beirut attack death toll rises to at least 303 as Israel continues strikes.",
+      "text": "Israel agrees to talks with Lebanon amid rising Beirut death toll (303+).",
       "severity": "critical",
-      "latestSinceUpdate": 40
+      "latestSinceUpdate": 41
     },
     {
       "date": "Apr 09",
-      "text": "Strait of Hormuz shipping traffic is effectively at a standstill with Iran controlling access despite a ceasefire.",
+      "text": "Strait of Hormuz shipping traffic remains at a standstill, Iran demands tolls.",
       "severity": "critical",
-      "latestSinceUpdate": 40
+      "latestSinceUpdate": 41
     },
     {
       "date": "Apr 09",
-      "text": "Trump warns Iran against taxing tankers transiting the Strait of Hormuz.",
+      "text": "Iran accuses US of violating deal framework, calls ceasefire 'unreasonable'.",
       "severity": "warning",
-      "latestSinceUpdate": 40
+      "latestSinceUpdate": 41
     },
     {
       "date": "Apr 09",
-      "text": "Israeli military reports killing the nephew of Hezbollah chief Naim Qassem.",
+      "text": "Netanyahu rejects ceasefire in Lebanon as Israel attacks Hezbollah sites.",
+      "severity": "critical",
+      "latestSinceUpdate": 41
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iran warns of 'strong responses' to Israeli attacks on Lebanon.",
       "severity": "warning",
-      "latestSinceUpdate": 40
+      "latestSinceUpdate": 41
+    },
+    {
+      "date": "Apr 09",
+      "text": "US military draft pool expanded; Trump threatens action if Iran fails to comply.",
+      "severity": "warning",
+      "latestSinceUpdate": 41
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

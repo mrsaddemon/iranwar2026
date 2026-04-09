@@ -1,13 +1,13 @@
 {
-  "updateSequence": 40,
+  "updateSequence": 41,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T22:08:45.441Z",
+  "lastSyncedAt": "2026-04-09T23:02:55.162Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire talks are underway between the US and Iran, and Israel and Lebanon, but Iran deems the current framework unreasonable, and the Strait of Hormuz remains closed despite a declared ceasefire."
+    "summary": "Despite ongoing US-led talks, a broad ceasefire remains unconfirmed and actively violated by parties, with Israel rejecting one in Lebanon and Iran calling it unreasonable."
   }
 }
