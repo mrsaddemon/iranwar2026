@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 35,
+  "updateSequence": 36,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T17:17:46.649Z",
+  "lastSyncedAt": "2026-04-09T18:12:32.698Z",
   "warDay": 41,
-  "summary": "The US-Iran conflict continues with a fragile ceasefire under strain due to Israeli strikes in Lebanon and ongoing Strait of Hormuz restrictions.",
+  "summary": "The Middle East conflict continues on Day 41 with Israeli attacks on Lebanon threatening a shaky U.S.-Iran ceasefire, while Iran asserts control over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A fragile US-Iran ceasefire is under significant strain due to Israeli strikes in Lebanon and accusations of violations."
+    "durationDays": 5,
+    "summary": "A shaky U.S.-Iran ceasefire is in effect but is threatened by ongoing Israeli attacks on Lebanon and accusations of violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,59 +42,53 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 75
+    "oilDisruption": 90
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Apr 09",
-      "text": "US-Iran conflict ongoing, with US military presence maintained and threats of further action.",
+      "date": "Apr 08",
+      "text": "Israel launched attacks on Lebanon, resulting in a death toll of at least 303 in Beirut.",
       "severity": "critical",
-      "latestSinceUpdate": 35
+      "latestSinceUpdate": 36
     },
     {
-      "date": "Apr 09",
-      "text": "Iran accuses US of violating deal framework and states ceasefire is 'unreasonable'.",
-      "severity": "warning",
-      "latestSinceUpdate": 35
-    },
-    {
-      "date": "Apr 09",
-      "text": "US and Iran prepare for talks amidst continued restrictions in the Strait of Hormuz.",
-      "severity": "warning",
-      "latestSinceUpdate": 35
-    },
-    {
-      "date": "Apr 09",
-      "text": "Israel conducts strikes in Lebanon, prompting Iran's warning of 'strong responses' and threatening the US-Iran ceasefire.",
+      "date": "Apr 08",
+      "text": "Iran announced it has stopped shipping in the Strait of Hormuz, controlling access after a ceasefire.",
       "severity": "critical",
-      "latestSinceUpdate": 35
+      "latestSinceUpdate": 36
     },
     {
       "date": "Apr 09",
-      "text": "Israel and Hezbollah in Lebanon exchange strikes, further straining the fragile US-Iran ceasefire.",
-      "severity": "critical",
-      "latestSinceUpdate": 35
-    },
-    {
-      "date": "Apr 09",
-      "text": "Automatic U.S. military draft registration is planned by December.",
+      "text": "Israel expressed readiness to begin direct negotiations with Lebanon for a ceasefire.",
       "severity": "info",
-      "latestSinceUpdate": 35
+      "latestSinceUpdate": 36
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iran accused the U.S. of violating the ceasefire as Israeli attacks on Lebanon continued.",
+      "severity": "warning",
+      "latestSinceUpdate": 36
+    },
+    {
+      "date": "Apr 09",
+      "text": "A new rule change will automatically register eligible men for the U.S. military draft pool.",
+      "severity": "info",
+      "latestSinceUpdate": 36
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

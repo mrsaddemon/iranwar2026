@@ -1,13 +1,13 @@
 {
-  "updateSequence": 35,
+  "updateSequence": 36,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T17:17:46.649Z",
+  "lastSyncedAt": "2026-04-09T18:12:32.698Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A fragile US-Iran ceasefire is under significant strain due to Israeli strikes in Lebanon and accusations of violations."
+    "durationDays": 5,
+    "summary": "A shaky U.S.-Iran ceasefire is in effect but is threatened by ongoing Israeli attacks on Lebanon and accusations of violations."
   }
 }
