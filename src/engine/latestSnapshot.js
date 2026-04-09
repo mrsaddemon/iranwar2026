@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 28,
+  "updateSequence": 29,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T07:05:31.374Z",
+  "lastSyncedAt": "2026-04-09T08:25:12.509Z",
   "warDay": 41,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
@@ -9,8 +9,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": true,
     "status": "active",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 14,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -68,15 +68,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
+      "text": "What we know about the two-week ceasefire between the US and Iran",
       "severity": "info",
-      "latestSinceUpdate": 28
+      "latestSinceUpdate": 29
     },
     {
       "date": "Apr 09",
-      "text": "Trump threatens action if Iran fails to comply with ‘real’ ceasefire deal",
+      "text": "Iran war live: Trump threatens action if Tehran fails to comply with deal",
       "severity": "info",
-      "latestSinceUpdate": 28
+      "latestSinceUpdate": 29
     },
     {
       "date": "Apr 09",
@@ -86,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "Live updates: Iran war ceasefire begins, though some new attacks hit Gulf; Trump and Netanyahu say Lebanon not included in ceasefire",
+      "text": "Iran War Live Updates: Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon",
       "severity": "info",
-      "latestSinceUpdate": 28
+      "latestSinceUpdate": 29
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
