@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 34,
+  "updateSequence": 35,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T15:57:02.222Z",
+  "lastSyncedAt": "2026-04-09T17:17:46.649Z",
   "warDay": 41,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US-Iran conflict continues with a fragile ceasefire under strain due to Israeli strikes in Lebanon and ongoing Strait of Hormuz restrictions.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A fragile US-Iran ceasefire is under significant strain due to Israeli strikes in Lebanon and accusations of violations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,15 +36,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 75
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,42 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "\"Iran war 2026\"",
-      "severity": "info"
+      "text": "US-Iran conflict ongoing, with US military presence maintained and threats of further action.",
+      "severity": "critical",
+      "latestSinceUpdate": 35
     },
     {
       "date": "Apr 09",
-      "text": "How Trump Took the U.S. to War With Iran",
-      "severity": "info"
-    },
-    {
-      "date": "Apr 09",
-      "text": "Day 40 of Middle East conflict — Israel attacks Lebanon, Iran says shipping stopped in Strait of Hormuz",
+      "text": "Iran accuses US of violating deal framework and states ceasefire is 'unreasonable'.",
       "severity": "warning",
-      "latestSinceUpdate": 34
+      "latestSinceUpdate": 35
     },
     {
       "date": "Apr 09",
-      "text": "Iran war live: Israel’s Lebanon attacks threaten Tehran’s ceasefire with US",
+      "text": "US and Iran prepare for talks amidst continued restrictions in the Strait of Hormuz.",
+      "severity": "warning",
+      "latestSinceUpdate": 35
+    },
+    {
+      "date": "Apr 09",
+      "text": "Israel conducts strikes in Lebanon, prompting Iran's warning of 'strong responses' and threatening the US-Iran ceasefire.",
+      "severity": "critical",
+      "latestSinceUpdate": 35
+    },
+    {
+      "date": "Apr 09",
+      "text": "Israel and Hezbollah in Lebanon exchange strikes, further straining the fragile US-Iran ceasefire.",
+      "severity": "critical",
+      "latestSinceUpdate": 35
+    },
+    {
+      "date": "Apr 09",
+      "text": "Automatic U.S. military draft registration is planned by December.",
       "severity": "info",
-      "latestSinceUpdate": 32
-    },
-    {
-      "date": "Apr 09",
-      "text": "\"Iran Israel strikes\"",
-      "severity": "info"
-    },
-    {
-      "date": "Apr 09",
-      "text": "Live updates: US-Iran ceasefire appears to hold despite Lebanon strikes and restricted Strait of Hormuz",
-      "severity": "info",
-      "latestSinceUpdate": 33
+      "latestSinceUpdate": 35
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -103,7 +106,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
