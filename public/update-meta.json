@@ -1,13 +1,13 @@
 {
-  "updateSequence": 27,
+  "updateSequence": 28,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T05:42:35.828Z",
+  "lastSyncedAt": "2026-04-09T07:05:31.374Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A ceasefire has been declared, but its effectiveness is highly uncertain due to ongoing Israeli strikes in Lebanon, Iran's actions in the Strait of Hormuz, and accusations of violations."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

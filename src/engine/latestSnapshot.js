@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 27,
+  "updateSequence": 28,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T05:42:35.828Z",
+  "lastSyncedAt": "2026-04-09T07:05:31.374Z",
   "warDay": 41,
-  "summary": "A fragile ceasefire is in effect for the Iran war, though it is being tested by continued Israeli strikes on Lebanon, an ongoing impasse in the Strait of Hormuz, and accusations of violations from Iran, while the US maintains a military presence in the region.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A ceasefire has been declared, but its effectiveness is highly uncertain due to ongoing Israeli strikes in Lebanon, Iran's actions in the Strait of Hormuz, and accusations of violations."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,8 +43,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 48,
-    "oilDisruption": 90
+    "escalationLevel": 38,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
-      "severity": "warning",
-      "latestSinceUpdate": 27
+      "text": "\"Iran war 2026\"",
+      "severity": "info",
+      "latestSinceUpdate": 28
     },
     {
-      "date": "Apr 08",
-      "text": "Day 40 of Middle East conflict — Israel attacks Lebanon, Iran says shipping stopped in Strait of Hormuz",
-      "severity": "critical",
-      "latestSinceUpdate": 27
+      "date": "Apr 09",
+      "text": "How Trump Took the U.S. to War With Iran",
+      "severity": "info",
+      "latestSinceUpdate": 28
     },
     {
-      "date": "Apr 08",
+      "date": "Apr 09",
+      "text": "Day 39 of Middle East conflict — US, Israel, Iran agree to ceasefire before Trump’s deadline",
+      "severity": "info",
+      "latestSinceUpdate": 28
+    },
+    {
+      "date": "Apr 09",
+      "text": "Trump threatens action if Iran fails to comply with ‘real’ ceasefire deal",
+      "severity": "info",
+      "latestSinceUpdate": 28
+    },
+    {
+      "date": "Apr 09",
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 28
+    },
+    {
+      "date": "Apr 09",
       "text": "Live updates: Iran war ceasefire begins, though some new attacks hit Gulf; Trump and Netanyahu say Lebanon not included in ceasefire",
-      "severity": "warning",
-      "latestSinceUpdate": 27
-    },
-    {
-      "date": "Apr 08",
-      "text": "Iran War Live Updates: Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon",
-      "severity": "critical",
-      "latestSinceUpdate": 27
-    },
-    {
-      "date": "Apr 08",
-      "text": "Iran Tightens Its Grip on Hormuz Despite Cease-Fire",
-      "severity": "critical",
-      "latestSinceUpdate": 27
-    },
-    {
-      "date": "Apr 08",
-      "text": "Middle East crisis live: Red Cross ‘outraged’ as Israeli strikes on Lebanon kill at least 254; strait of Hormuz impasse continues",
-      "severity": "critical",
-      "latestSinceUpdate": 27
+      "severity": "info",
+      "latestSinceUpdate": 28
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
