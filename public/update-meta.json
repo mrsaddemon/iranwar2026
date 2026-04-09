@@ -1,13 +1,13 @@
 {
-  "updateSequence": 26,
+  "updateSequence": 27,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T03:52:24.053Z",
+  "lastSyncedAt": "2026-04-09T05:42:35.828Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A fragile ceasefire between the US and Iran is active but under strain due to alleged violations by both sides and ongoing regional conflicts."
+    "durationDays": 1,
+    "summary": "A ceasefire has been declared, but its effectiveness is highly uncertain due to ongoing Israeli strikes in Lebanon, Iran's actions in the Strait of Hormuz, and accusations of violations."
   }
 }

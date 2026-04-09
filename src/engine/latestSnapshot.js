@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 26,
+  "updateSequence": 27,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T03:52:24.053Z",
+  "lastSyncedAt": "2026-04-09T05:42:35.828Z",
   "warDay": 41,
-  "summary": "A fragile ceasefire between the US and Iran is being tested by alleged infractions and continued Israeli strikes on Lebanon, while the Strait of Hormuz remains an area of contention.",
+  "summary": "A fragile ceasefire is in effect for the Iran war, though it is being tested by continued Israeli strikes on Lebanon, an ongoing impasse in the Strait of Hormuz, and accusations of violations from Iran, while the US maintains a military presence in the region.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A fragile ceasefire between the US and Iran is active but under strain due to alleged violations by both sides and ongoing regional conflicts."
+    "durationDays": 1,
+    "summary": "A ceasefire has been declared, but its effectiveness is highly uncertain due to ongoing Israeli strikes in Lebanon, Iran's actions in the Strait of Hormuz, and accusations of violations."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.4
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     },
@@ -36,15 +36,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.4,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 85
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "US-Iran ceasefire tested by alleged Iranian infractions.",
+      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
       "severity": "warning",
-      "latestSinceUpdate": 26
+      "latestSinceUpdate": 27
     },
     {
-      "date": "Apr 09",
-      "text": "Iran accuses US of violating ceasefire deal framework, calls it 'unreasonable'.",
-      "severity": "warning",
-      "latestSinceUpdate": 26
-    },
-    {
-      "date": "Apr 09",
-      "text": "Israeli strikes kill at least 254 people in Lebanon.",
+      "date": "Apr 08",
+      "text": "Day 40 of Middle East conflict — Israel attacks Lebanon, Iran says shipping stopped in Strait of Hormuz",
       "severity": "critical",
-      "latestSinceUpdate": 26
+      "latestSinceUpdate": 27
     },
     {
-      "date": "Apr 09",
-      "text": "Strait of Hormuz impasse continues.",
+      "date": "Apr 08",
+      "text": "Live updates: Iran war ceasefire begins, though some new attacks hit Gulf; Trump and Netanyahu say Lebanon not included in ceasefire",
       "severity": "warning",
-      "latestSinceUpdate": 26
+      "latestSinceUpdate": 27
     },
     {
-      "date": "Apr 09",
-      "text": "Hungary offered help to Iran after pager attack on Hezbollah.",
-      "severity": "info",
-      "latestSinceUpdate": 26
+      "date": "Apr 08",
+      "text": "Iran War Live Updates: Cease-Fire Tested by Confusion Over Strait and Strikes on Lebanon",
+      "severity": "critical",
+      "latestSinceUpdate": 27
     },
     {
-      "date": "Apr 09",
-      "text": "Pentagon accused of undercounting U.S. casualties in Iran.",
-      "severity": "info",
-      "latestSinceUpdate": 26
+      "date": "Apr 08",
+      "text": "Iran Tightens Its Grip on Hormuz Despite Cease-Fire",
+      "severity": "critical",
+      "latestSinceUpdate": 27
+    },
+    {
+      "date": "Apr 08",
+      "text": "Middle East crisis live: Red Cross ‘outraged’ as Israeli strikes on Lebanon kill at least 254; strait of Hormuz impasse continues",
+      "severity": "critical",
+      "latestSinceUpdate": 27
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
