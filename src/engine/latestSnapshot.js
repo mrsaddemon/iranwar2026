@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 31,
+  "updateSequence": 32,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T11:10:55.671Z",
+  "lastSyncedAt": "2026-04-09T12:06:17.582Z",
   "warDay": 41,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -57,38 +57,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Apr 09",
       "text": "\"Iran war 2026\"",
-      "severity": "info",
-      "latestSinceUpdate": 28
+      "severity": "info"
     },
     {
       "date": "Apr 09",
       "text": "How Trump Took the U.S. to War With Iran",
-      "severity": "info",
-      "latestSinceUpdate": 28
+      "severity": "info"
     },
     {
       "date": "Apr 09",
-      "text": "What we know about the two-week ceasefire between the US and Iran",
+      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
       "severity": "info",
-      "latestSinceUpdate": 31
+      "latestSinceUpdate": 32
     },
     {
       "date": "Apr 09",
-      "text": "Iran war live: Trump threatens action if Tehran fails to comply with deal",
+      "text": "Iran war live: Israel’s Lebanon attacks threaten Tehran’s ceasefire with US",
       "severity": "info",
-      "latestSinceUpdate": 29
+      "latestSinceUpdate": 32
     },
     {
       "date": "Apr 09",
       "text": "\"Iran Israel strikes\"",
-      "severity": "info",
-      "latestSinceUpdate": 28
+      "severity": "info"
     },
     {
       "date": "Apr 09",
-      "text": "Middle East crisis live: Trump warns Iran to comply with ‘real agreement’ as ceasefire in doubt over Israeli attacks on Lebanon",
-      "severity": "info",
-      "latestSinceUpdate": 30
+      "text": "Live updates: Israel’s massive strike on Lebanon strains US and Iran’s uneasy ceasefire",
+      "severity": "critical",
+      "latestSinceUpdate": 32
     }
   ],
   "sourceStatuses": [
