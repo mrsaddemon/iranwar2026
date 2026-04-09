@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 25,
+  "updateSequence": 26,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T00:55:58.694Z",
+  "lastSyncedAt": "2026-04-09T03:52:24.053Z",
   "warDay": 41,
-  "summary": "A fragile ceasefire between the US, Israel, and Iran is being tested by ongoing Israeli strikes in Lebanon and Iran's accusations of violations and tightening control over the Strait of Hormuz.",
+  "summary": "A fragile ceasefire between the US and Iran is being tested by alleged infractions and continued Israeli strikes on Lebanon, while the Strait of Hormuz remains an area of contention.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A ceasefire agreed between the US, Israel, and Iran is active but immediately tested by alleged violations and continued Israeli military actions in Lebanon."
+    "durationDays": 15,
+    "summary": "A fragile ceasefire between the US and Iran is active but under strain due to alleged violations by both sides and ongoing regional conflicts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.4
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.2,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,15 +36,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80
+    "oilDisruption": 85
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,34 +55,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 07",
-      "text": "US, Israel, Iran agree to ceasefire before Trump’s deadline on Day 39 of Middle East conflict.",
-      "severity": "info",
-      "latestSinceUpdate": 25
-    },
-    {
       "date": "Apr 09",
-      "text": "Iran accuses US of violating parts of the ceasefire deal framework, calling the ceasefire 'unreasonable'.",
+      "text": "US-Iran ceasefire tested by alleged Iranian infractions.",
       "severity": "warning",
-      "latestSinceUpdate": 25
+      "latestSinceUpdate": 26
     },
     {
       "date": "Apr 09",
-      "text": "Israel kills 182-254 in Lebanon in a large wave of strikes, testing the ceasefire.",
+      "text": "Iran accuses US of violating ceasefire deal framework, calls it 'unreasonable'.",
+      "severity": "warning",
+      "latestSinceUpdate": 26
+    },
+    {
+      "date": "Apr 09",
+      "text": "Israeli strikes kill at least 254 people in Lebanon.",
       "severity": "critical",
-      "latestSinceUpdate": 25
+      "latestSinceUpdate": 26
     },
     {
       "date": "Apr 09",
-      "text": "Iran tightens its grip on the Strait of Hormuz despite the ceasefire agreement.",
+      "text": "Strait of Hormuz impasse continues.",
       "severity": "warning",
-      "latestSinceUpdate": 25
+      "latestSinceUpdate": 26
+    },
+    {
+      "date": "Apr 09",
+      "text": "Hungary offered help to Iran after pager attack on Hezbollah.",
+      "severity": "info",
+      "latestSinceUpdate": 26
+    },
+    {
+      "date": "Apr 09",
+      "text": "Pentagon accused of undercounting U.S. casualties in Iran.",
+      "severity": "info",
+      "latestSinceUpdate": 26
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 25,
+  "updateSequence": 26,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T00:55:58.694Z",
+  "lastSyncedAt": "2026-04-09T03:52:24.053Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A ceasefire agreed between the US, Israel, and Iran is active but immediately tested by alleged violations and continued Israeli military actions in Lebanon."
+    "durationDays": 15,
+    "summary": "A fragile ceasefire between the US and Iran is active but under strain due to alleged violations by both sides and ongoing regional conflicts."
   }
 }
