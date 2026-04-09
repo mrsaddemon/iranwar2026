@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 32,
+  "updateSequence": 33,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T12:06:17.582Z",
+  "lastSyncedAt": "2026-04-09T14:09:21.662Z",
   "warDay": 41,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
@@ -83,9 +83,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "Live updates: Israel’s massive strike on Lebanon strains US and Iran’s uneasy ceasefire",
-      "severity": "critical",
-      "latestSinceUpdate": 32
+      "text": "Live updates: US-Iran ceasefire appears to hold despite Lebanon strikes and restricted Strait of Hormuz",
+      "severity": "info",
+      "latestSinceUpdate": 33
     }
   ],
   "sourceStatuses": [
