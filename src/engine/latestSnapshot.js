@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 37,
+  "updateSequence": 38,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T19:40:54.773Z",
+  "lastSyncedAt": "2026-04-09T20:35:49.546Z",
   "warDay": 41,
-  "summary": "On War Day 41, Israel is conducting strikes in Lebanon, resulting in a high death toll, while Iran has stopped shipping in the Strait of Hormuz, threatening a shaky US-Iran ceasefire.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 20,
-    "summary": "A US-Iran ceasefire is in effect but is highly fragile, threatened by ongoing Israeli strikes in Lebanon and Iran's control over the Strait of Hormuz."
+    "status": "active",
+    "confidence": 0.98,
+    "durationDays": 14,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,8 +43,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 12,
-    "escalationLevel": 48,
-    "oilDisruption": 92
+    "escalationLevel": 38,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,40 +55,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 08",
-      "text": "Israel attacks Lebanon, with the Beirut attack death toll rising to at least 303.",
-      "severity": "critical",
-      "latestSinceUpdate": 37
-    },
-    {
-      "date": "Apr 08",
-      "text": "Iran announces shipping has stopped in the Strait of Hormuz and controls access.",
-      "severity": "critical",
-      "latestSinceUpdate": 37
-    },
-    {
-      "date": "Apr 08",
-      "text": "Israeli military reports killing the nephew of Hezbollah chief Naim Qassem.",
-      "severity": "warning",
-      "latestSinceUpdate": 37
-    },
-    {
-      "date": "Apr 08",
-      "text": "Eligible men will be automatically registered for the US military draft pool under a new rule change.",
+      "date": "Apr 09",
+      "text": "\"Iran war 2026\"",
       "severity": "info",
-      "latestSinceUpdate": 37
+      "latestSinceUpdate": 38
     },
     {
-      "date": "Apr 08",
-      "text": "Army survivors of a deadly attack in Kuwait dispute the Pentagon's account, citing unit unpreparedness.",
-      "severity": "warning",
-      "latestSinceUpdate": 37
+      "date": "Apr 09",
+      "text": "What we know about the two-week ceasefire between the US and Iran",
+      "severity": "info",
+      "latestSinceUpdate": 38
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iran Update Special Report, April 8, 2026",
+      "severity": "info",
+      "latestSinceUpdate": 38
+    },
+    {
+      "date": "Apr 09",
+      "text": "Live updates: Israel says it will begin direct negotiations with Lebanon as US prepares for Iran ceasefire talks",
+      "severity": "info",
+      "latestSinceUpdate": 38
+    },
+    {
+      "date": "Apr 09",
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 38
+    },
+    {
+      "date": "Apr 09",
+      "text": "Israel to hold talks with Lebanon as Beirut attack death toll rises to at least 303",
+      "severity": "info",
+      "latestSinceUpdate": 38
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 37,
+  "updateSequence": 38,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T19:40:54.773Z",
+  "lastSyncedAt": "2026-04-09T20:35:49.546Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 20,
-    "summary": "A US-Iran ceasefire is in effect but is highly fragile, threatened by ongoing Israeli strikes in Lebanon and Iran's control over the Strait of Hormuz."
+    "status": "active",
+    "confidence": 0.98,
+    "durationDays": 14,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
