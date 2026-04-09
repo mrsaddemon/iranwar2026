@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 36,
+  "updateSequence": 37,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T18:12:32.698Z",
+  "lastSyncedAt": "2026-04-09T19:40:54.773Z",
   "warDay": 41,
-  "summary": "The Middle East conflict continues on Day 41 with Israeli attacks on Lebanon threatening a shaky U.S.-Iran ceasefire, while Iran asserts control over the Strait of Hormuz.",
+  "summary": "On War Day 41, Israel is conducting strikes in Lebanon, resulting in a high death toll, while Iran has stopped shipping in the Strait of Hormuz, threatening a shaky US-Iran ceasefire.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "A shaky U.S.-Iran ceasefire is in effect but is threatened by ongoing Israeli attacks on Lebanon and accusations of violations."
+    "confidence": 0.93,
+    "durationDays": 20,
+    "summary": "A US-Iran ceasefire is in effect but is highly fragile, threatened by ongoing Israeli strikes in Lebanon and Iran's control over the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 12,
     "escalationLevel": 48,
-    "oilDisruption": 90
+    "oilDisruption": 92
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -56,33 +56,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 08",
-      "text": "Israel launched attacks on Lebanon, resulting in a death toll of at least 303 in Beirut.",
+      "text": "Israel attacks Lebanon, with the Beirut attack death toll rising to at least 303.",
       "severity": "critical",
-      "latestSinceUpdate": 36
+      "latestSinceUpdate": 37
     },
     {
       "date": "Apr 08",
-      "text": "Iran announced it has stopped shipping in the Strait of Hormuz, controlling access after a ceasefire.",
+      "text": "Iran announces shipping has stopped in the Strait of Hormuz and controls access.",
       "severity": "critical",
-      "latestSinceUpdate": 36
+      "latestSinceUpdate": 37
     },
     {
-      "date": "Apr 09",
-      "text": "Israel expressed readiness to begin direct negotiations with Lebanon for a ceasefire.",
-      "severity": "info",
-      "latestSinceUpdate": 36
-    },
-    {
-      "date": "Apr 09",
-      "text": "Iran accused the U.S. of violating the ceasefire as Israeli attacks on Lebanon continued.",
+      "date": "Apr 08",
+      "text": "Israeli military reports killing the nephew of Hezbollah chief Naim Qassem.",
       "severity": "warning",
-      "latestSinceUpdate": 36
+      "latestSinceUpdate": 37
     },
     {
-      "date": "Apr 09",
-      "text": "A new rule change will automatically register eligible men for the U.S. military draft pool.",
+      "date": "Apr 08",
+      "text": "Eligible men will be automatically registered for the US military draft pool under a new rule change.",
       "severity": "info",
-      "latestSinceUpdate": 36
+      "latestSinceUpdate": 37
+    },
+    {
+      "date": "Apr 08",
+      "text": "Army survivors of a deadly attack in Kuwait dispute the Pentagon's account, citing unit unpreparedness.",
+      "severity": "warning",
+      "latestSinceUpdate": 37
     }
   ],
   "sourceStatuses": [
