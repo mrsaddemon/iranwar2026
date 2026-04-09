@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 39,
+  "updateSequence": 40,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T21:26:19.360Z",
+  "lastSyncedAt": "2026-04-09T22:08:45.441Z",
   "warDay": 41,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US-Iran conflict continues on War Day 41 with ongoing Israeli strikes in Lebanon, stalled Strait of Hormuz shipping, and complex ceasefire negotiations.",
   "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire talks are underway between the US and Iran, and Israel and Lebanon, but Iran deems the current framework unreasonable, and the Strait of Hormuz remains closed despite a declared ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 60,
+    "escalationLevel": 48,
+    "oilDisruption": 95
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "\"Iran war 2026\"",
-      "severity": "info",
-      "latestSinceUpdate": 38
+      "text": "Iran accuses US of violating deal framework and calls ceasefire 'unreasonable'.",
+      "severity": "warning",
+      "latestSinceUpdate": 40
     },
     {
       "date": "Apr 09",
-      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
+      "text": "Israel agrees to direct negotiations with Lebanon amidst US preparations for Iran ceasefire talks.",
       "severity": "info",
-      "latestSinceUpdate": 39
+      "latestSinceUpdate": 40
     },
     {
       "date": "Apr 09",
-      "text": "Iran Update Special Report, April 8, 2026",
-      "severity": "info",
-      "latestSinceUpdate": 38
+      "text": "Beirut attack death toll rises to at least 303 as Israel continues strikes.",
+      "severity": "critical",
+      "latestSinceUpdate": 40
     },
     {
       "date": "Apr 09",
-      "text": "Live updates: Israel says it will begin direct negotiations with Lebanon as US prepares for Iran ceasefire talks",
-      "severity": "info",
-      "latestSinceUpdate": 38
+      "text": "Strait of Hormuz shipping traffic is effectively at a standstill with Iran controlling access despite a ceasefire.",
+      "severity": "critical",
+      "latestSinceUpdate": 40
     },
     {
       "date": "Apr 09",
-      "text": "\"Iran Israel strikes\"",
-      "severity": "info",
-      "latestSinceUpdate": 38
+      "text": "Trump warns Iran against taxing tankers transiting the Strait of Hormuz.",
+      "severity": "warning",
+      "latestSinceUpdate": 40
     },
     {
       "date": "Apr 09",
-      "text": "Israel to hold talks with Lebanon as Beirut attack death toll rises to at least 303",
-      "severity": "info",
-      "latestSinceUpdate": 38
+      "text": "Israeli military reports killing the nephew of Hezbollah chief Naim Qassem.",
+      "severity": "warning",
+      "latestSinceUpdate": 40
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

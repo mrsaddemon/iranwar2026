@@ -1,13 +1,13 @@
 {
-  "updateSequence": 39,
+  "updateSequence": 40,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T21:26:19.360Z",
+  "lastSyncedAt": "2026-04-09T22:08:45.441Z",
   "warDay": 41,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire talks are underway between the US and Iran, and Israel and Lebanon, but Iran deems the current framework unreasonable, and the Strait of Hormuz remains closed despite a declared ceasefire."
   }
 }
