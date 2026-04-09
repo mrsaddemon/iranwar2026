@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 33,
+  "updateSequence": 34,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T14:09:21.662Z",
+  "lastSyncedAt": "2026-04-09T15:57:02.222Z",
   "warDay": 41,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
@@ -66,9 +66,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
-      "severity": "info",
-      "latestSinceUpdate": 32
+      "text": "Day 40 of Middle East conflict — Israel attacks Lebanon, Iran says shipping stopped in Strait of Hormuz",
+      "severity": "warning",
+      "latestSinceUpdate": 34
     },
     {
       "date": "Apr 09",
@@ -91,7 +91,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -103,7 +103,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
