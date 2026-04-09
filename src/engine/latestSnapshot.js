@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 38,
+  "updateSequence": 39,
   "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T20:35:49.546Z",
+  "lastSyncedAt": "2026-04-09T21:26:19.360Z",
   "warDay": 41,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-09",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -62,9 +62,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 09",
-      "text": "What we know about the two-week ceasefire between the US and Iran",
+      "text": "Iran accuses US of violating parts of deal framework, says ceasefire is ‘unreasonable’",
       "severity": "info",
-      "latestSinceUpdate": 38
+      "latestSinceUpdate": 39
     },
     {
       "date": "Apr 09",
@@ -94,7 +94,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
