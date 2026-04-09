@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 24,
-  "lastUpdated": "2026-04-08",
-  "lastSyncedAt": "2026-04-08T23:49:53.979Z",
-  "warDay": 40,
-  "summary": "A fragile ceasefire between the US, Israel, and Iran is being tested by ongoing Israeli strikes in Lebanon and Iranian actions in the Strait of Hormuz, leading to accusations of violations.",
-  "lastNarrativeUpdate": "2026-04-08",
+  "updateSequence": 25,
+  "lastUpdated": "2026-04-09",
+  "lastSyncedAt": "2026-04-09T00:55:58.694Z",
+  "warDay": 41,
+  "summary": "A fragile ceasefire between the US, Israel, and Iran is being tested by ongoing Israeli strikes in Lebanon and Iran's accusations of violations and tightening control over the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-04-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A ceasefire agreed between the US, Israel, and Iran is highly fragile and being tested by ongoing Israeli strikes in Lebanon and Iranian actions in the Strait of Hormuz."
+    "durationDays": 2,
+    "summary": "A ceasefire agreed between the US, Israel, and Iran is active but immediately tested by alleged violations and continued Israeli military actions in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,16 +27,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.2,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.3,
         "aggression": 0.7
       }
     }
@@ -44,7 +44,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,39 +56,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 07",
-      "text": "US, Israel, Iran agree to ceasefire before Trump’s deadline.",
+      "text": "US, Israel, Iran agree to ceasefire before Trump’s deadline on Day 39 of Middle East conflict.",
       "severity": "info",
-      "latestSinceUpdate": 24
+      "latestSinceUpdate": 25
     },
     {
-      "date": "Apr 08",
-      "text": "Iran accuses US of violating ceasefire deal framework and calls it 'unreasonable'.",
+      "date": "Apr 09",
+      "text": "Iran accuses US of violating parts of the ceasefire deal framework, calling the ceasefire 'unreasonable'.",
       "severity": "warning",
-      "latestSinceUpdate": 24
+      "latestSinceUpdate": 25
     },
     {
-      "date": "Apr 08",
-      "text": "Israeli strikes kill 254 in Lebanon, testing the ceasefire.",
+      "date": "Apr 09",
+      "text": "Israel kills 182-254 in Lebanon in a large wave of strikes, testing the ceasefire.",
       "severity": "critical",
-      "latestSinceUpdate": 24
+      "latestSinceUpdate": 25
     },
     {
-      "date": "Apr 08",
-      "text": "Iran tightens its grip on the Strait of Hormuz despite the ceasefire.",
+      "date": "Apr 09",
+      "text": "Iran tightens its grip on the Strait of Hormuz despite the ceasefire agreement.",
       "severity": "warning",
-      "latestSinceUpdate": 24
-    },
-    {
-      "date": "Apr 08",
-      "text": "US military states readiness to resume Iran fighting if diplomacy fails.",
-      "severity": "warning",
-      "latestSinceUpdate": 23
-    },
-    {
-      "date": "Apr 08",
-      "text": "Hungary offered help to Iran after pager attack on Hezbollah.",
-      "severity": "info",
-      "latestSinceUpdate": 24
+      "latestSinceUpdate": 25
     }
   ],
   "sourceStatuses": [
@@ -106,7 +94,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
@@ -123,25 +111,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Stance",
-      "headline": "Ceasefire Holds, But Deterrence Stays Forward",
-      "summary": "From the US-Israel perspective, the current pause is useful but provisional. The priority remains keeping pressure on Iran and proxy networks while preserving freedom to respond if the ceasefire is violated.",
+      "perspective": "US/Israel",
+      "headline": "Ceasefire agreed, but tested",
+      "summary": "The US and Israel agreed to a ceasefire with Iran, aiming to de-escalate the Middle East conflict. However, the agreement is immediately being tested by ongoing regional actions.",
       "tone": "strained",
-      "latestSinceUpdate": 8
+      "latestSinceUpdate": 25
     },
     {
-      "perspective": "Iranian/Allies Response",
-      "headline": "Pause Accepted Without Surrendering Leverage",
-      "summary": "Iranian and allied framing casts the ceasefire as proof that escalation pressure produced a tactical pause without forcing strategic retreat. At the same time, they continue signaling that readiness remains in place if pressure resumes.",
+      "perspective": "Iran",
+      "headline": "US violating ceasefire, Hormuz control asserted",
+      "summary": "Iran accuses the US of violating the ceasefire framework, deeming the agreement 'unreasonable' given the circumstances. Iran is also asserting its control over the Strait of Hormuz despite the ceasefire.",
       "tone": "defiant",
-      "latestSinceUpdate": 8
+      "latestSinceUpdate": 25
     },
     {
-      "perspective": "Global/Economic Impact",
-      "headline": "Risk Premium Falls, But Confidence Is Still Thin",
-      "summary": "Global observers see the ceasefire as a meaningful reduction in immediate danger, not a durable resolution. Energy, shipping, and diplomacy remain cautious because Lebanon, proxy fronts, and Hormuz-related pressure could still unravel the pause.",
+      "perspective": "Lebanon/Hezbollah",
+      "headline": "Heavy Israeli strikes despite ceasefire",
+      "summary": "Lebanon has suffered significant casualties from large-scale Israeli strikes, with reports of 182-254 killed. This comes despite a recently agreed ceasefire, raising questions about its effectiveness.",
       "tone": "anxious",
-      "latestSinceUpdate": 8
+      "latestSinceUpdate": 25
     }
   ]
 });
