@@ -33,7 +33,7 @@ export default function RightPanel({ events, updateSequence }) {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = 0;
     }
-  }, [events.length]);
+  }, [events]);
 
   return (
     <div className="right-panel">

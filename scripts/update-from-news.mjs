@@ -147,6 +147,70 @@ function uniqueNonEmpty(items, limit = items.length) {
   return [...new Set(items.map((item) => String(item || '').trim()).filter(Boolean))].slice(0, limit);
 }
 
+function decodeHtmlEntities(text) {
+  return String(text || '')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&apos;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>');
+}
+
+function normalizeSourceHeadline(text) {
+  return decodeHtmlEntities(text)
+    .replace(/\s+/g, ' ')
+    .replace(/^[\s"'`]+|[\s"'`]+$/g, '')
+    .replace(/\s+-\s+[^-]+$/, '')
+    .replace(/\s+\|\s+[^|]+$/, '')
+    .replace(/\s+\[[^\]]+\]$/, '')
+    .trim();
+}
+
+function isUsefulHeadline(text) {
+  const normalized = normalizeSourceHeadline(text);
+  if (!normalized || normalized.length < 18) return false;
+
+  const lower = normalized.toLowerCase();
+  if (
+    lower === 'google news'
+    || lower === 'iran war 2026'
+    || lower === 'iran israel strikes'
+    || lower === 'strait of hormuz'
+    || lower === 'hezbollah israel'
+    || lower === 'us military iran'
+    || lower === 'iran war'
+    || lower === 'iran israel strikes'
+    || lower === 'iran israel war'
+  ) {
+    return false;
+  }
+
+  if (/^[A-Z][a-z]{2}\s+\d{1,2},?\s+\d{4}$/.test(normalized)) return false;
+  if (/^(latest|live|video|photos?)$/i.test(lower)) return false;
+
+  return /[A-Za-z]/.test(normalized);
+}
+
+function prepareHeadlines(items, limit) {
+  const prepared = [];
+  const seen = new Set();
+
+  for (const item of items || []) {
+    const normalized = normalizeSourceHeadline(item);
+    if (!isUsefulHeadline(normalized)) continue;
+
+    const key = normalized.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    prepared.push(normalized);
+
+    if (prepared.length >= limit) break;
+  }
+
+  return prepared;
+}
+
 function formatCompactNumber(value) {
   if (value === null || value === undefined || value === '') return 'n/a';
 
@@ -255,14 +319,15 @@ async function fetchGoogleNewsHeadlines() {
       const text = await fetchText(url);
       const titles = [...text.matchAll(/<title>(.*?)<\/title>/g)]
         .map((m) => m[1])
-        .filter((title) => title !== 'Google News' && title.length > 10);
+        .map(normalizeSourceHeadline)
+        .filter(isUsefulHeadline);
       headlines.push(...titles.slice(0, 4));
     } catch (error) {
       console.warn(`Google News RSS fetch failed for ${topic}: ${error.message}`);
     }
   }
 
-  const unique = uniqueNonEmpty(headlines, 20);
+  const unique = prepareHeadlines(headlines, 20);
   console.log(`Google News RSS: ${unique.length} headlines`);
   return {
     source: 'Google News RSS',
@@ -277,7 +342,7 @@ async function fetchGdeltNews() {
     const data = await fetchJson(url);
     const articles = Array.isArray(data?.articles) ? data.articles : [];
 
-    const headlines = uniqueNonEmpty(
+    const headlines = prepareHeadlines(
       articles.map((article) => article.title || article.seendate || article.url),
       12,
     );
@@ -732,10 +797,7 @@ function buildFallbackNarratives(params) {
 }
 
 function normalizeHeadlineText(text) {
-  return String(text || '')
-    .replace(/\s+-\s+[^-]+$/, '')
-    .replace(/\s+\|\s+[^|]+$/, '')
-    .trim();
+  return normalizeSourceHeadline(text);
 }
 
 function inferEventSeverity(text) {
@@ -759,7 +821,7 @@ function formatEventDateLabel(dateKey) {
 
 function buildFallbackRecentEvents(sourceBundle, today, summary) {
   const date = formatEventDateLabel(today);
-  const headlines = uniqueNonEmpty((sourceBundle.headlines || []).map(normalizeHeadlineText), 6);
+  const headlines = prepareHeadlines((sourceBundle.headlines || []).map(normalizeHeadlineText), 6);
   const events = headlines.map((headline) => ({
     date,
     text: headline,

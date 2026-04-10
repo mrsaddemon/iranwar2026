@@ -30,6 +30,29 @@ function makeTimestamp(dayCount, warDay) {
   return `${getDateForDay(dayCount)} \u2022 Day ${warDay + dayCount}`;
 }
 
+function normalizeSnapshotEventText(text) {
+  return String(text || '')
+    .replace(/^[\s"'`]+|[\s"'`]+$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function isDisplayWorthySnapshotEvent(text) {
+  const normalized = normalizeSnapshotEventText(text);
+  if (!normalized || normalized.length < 18) return false;
+
+  const lower = normalized.toLowerCase();
+  return ![
+    'iran war 2026',
+    'iran war',
+    'iran israel strikes',
+    'iran israel war',
+    'strait of hormuz',
+    'hezbollah israel',
+    'us military iran',
+  ].includes(lower);
+}
+
 function normalizeCeasefireStatus(ceasefire) {
   const status = ceasefire?.status || 'none';
   const active = Boolean(ceasefire?.active || status === 'active' || status === 'fragile');
@@ -137,29 +160,34 @@ function generateInitialEvents() {
     info: '\u{1F4F0}',
   };
 
-  return [
-    {
-      id: 'init-summary',
-      day: 0,
-      timestamp: `Day ${INITIAL_WAR_DAY} of War`,
-      text: `SITUATION: ${LATEST_SNAPSHOT.summary}`,
-      severity: 'critical',
-      icon: '\u2694',
-      action: 'context',
-      actor: 'System',
-    },
-    ...AUTO_UPDATED_RECENT_EVENTS.map((event, index) => ({
+  const recentEvents = AUTO_UPDATED_RECENT_EVENTS
+    .filter((event) => isDisplayWorthySnapshotEvent(event.text))
+    .map((event, index) => ({
       id: `init-news-${index + 1}`,
       day: 0,
       timestamp: event.date,
-      text: event.text,
+      text: normalizeSnapshotEventText(event.text),
       severity: event.severity,
       latestSinceUpdate: event.latestSinceUpdate,
       icon: severityIconMap[event.severity] || severityIconMap.info,
       action: 'context',
       actor: 'System',
-    })),
-  ];
+    }));
+
+  if (recentEvents.length > 0) {
+    return recentEvents;
+  }
+
+  return [{
+    id: 'init-summary',
+    day: 0,
+    timestamp: getDateForDay(0),
+    text: LATEST_SNAPSHOT.summary,
+    severity: LATEST_SNAPSHOT.ceasefire?.active ? 'warning' : 'info',
+    icon: LATEST_SNAPSHOT.ceasefire?.active ? '\u26A0' : '\u{1F4F0}',
+    action: 'context',
+    actor: 'System',
+  }];
 }
 
 // ==================== ACTION SELECTION ====================
