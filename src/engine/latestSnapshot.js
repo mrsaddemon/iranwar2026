@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 49,
+  "updateSequence": 50,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T11:27:39.656Z",
+  "lastSyncedAt": "2026-04-10T12:08:51.371Z",
   "warDay": 42,
-  "summary": "The Iran war continues with ongoing strikes between Israel and Hezbollah in Lebanon, while US-Iran truce talks and Israel-Lebanon ceasefire discussions are underway.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "No active, broad ceasefire is in effect, though US-Iran truce talks and Israel-Lebanon ceasefire discussions are ongoing amidst continued strikes."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,8 +43,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 75
+    "escalationLevel": 38,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 10",
-      "text": "Israel and Hezbollah continue strikes in Lebanon amid ongoing conflict.",
-      "severity": "critical",
-      "latestSinceUpdate": 49
-    },
-    {
-      "date": "Apr 10",
-      "text": "US-Iran truce talks and Israel-Lebanon ceasefire discussions are being held.",
+      "text": "\"Iran war 2026\"",
       "severity": "info",
-      "latestSinceUpdate": 49
+      "latestSinceUpdate": 50
     },
     {
       "date": "Apr 10",
-      "text": "Lebanon states it will only participate in talks with Israel if a ceasefire is already in place.",
-      "severity": "warning",
-      "latestSinceUpdate": 49
-    },
-    {
-      "date": "Apr 10",
-      "text": "Strait of Hormuz traffic is reported to be slow despite ceasefire discussions.",
-      "severity": "warning",
-      "latestSinceUpdate": 49
-    },
-    {
-      "date": "Apr 10",
-      "text": "US military personnel dispute Pentagon's account of a deadly attack in Kuwait, citing unpreparedness.",
-      "severity": "warning",
-      "latestSinceUpdate": 49
-    },
-    {
-      "date": "Apr 10",
-      "text": "Automatic US military draft registration is planned by December.",
+      "text": "Trump says U.S. ready for 'next conquest,' warns military will remain near Iran until 'real agreement' is honored",
       "severity": "info",
-      "latestSinceUpdate": 49
+      "latestSinceUpdate": 50
+    },
+    {
+      "date": "Apr 10",
+      "text": "2026 Iran war",
+      "severity": "info",
+      "latestSinceUpdate": 50
+    },
+    {
+      "date": "Apr 10",
+      "text": "Inside Trump's Search for a Way Out of the Iran War",
+      "severity": "info",
+      "latestSinceUpdate": 50
+    },
+    {
+      "date": "Apr 10",
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 50
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran war live: Israel attacks Lebanon again on eve of US-Iran truce talks",
+      "severity": "info",
+      "latestSinceUpdate": 50
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
