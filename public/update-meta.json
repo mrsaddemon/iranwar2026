@@ -1,12 +1,12 @@
 {
-  "updateSequence": 57,
+  "updateSequence": 58,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T19:14:22.755Z",
+  "lastSyncedAt": "2026-04-10T19:57:01.311Z",
   "warDay": 42,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }

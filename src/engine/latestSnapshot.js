@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 57,
+  "updateSequence": 58,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T19:14:22.755Z",
+  "lastSyncedAt": "2026-04-10T19:57:01.311Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -57,8 +57,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Apr 10",
       "text": "\"Iran war 2026\"",
+      "severity": "info"
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran war live: Pakistan talks ‘make or break’, as Israel bombs Lebanon",
       "severity": "info",
-      "latestSinceUpdate": 54
+      "latestSinceUpdate": 57
     },
     {
       "date": "Apr 10",
@@ -68,33 +73,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Iran Update Special Report, April 9, 2026",
+      "text": "Oil whiplash: Iran war shock to flip market to deficit in 2026, analysts say",
       "severity": "info",
-      "latestSinceUpdate": 57
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran War Live Updates: Vance Heads to Peace Talks as Lebanon Impasse Threatens Cease-Fire",
-      "severity": "info",
-      "latestSinceUpdate": 57
+      "latestSinceUpdate": 58
     },
     {
       "date": "Apr 10",
       "text": "\"Iran Israel strikes\"",
-      "severity": "info",
-      "latestSinceUpdate": 54
+      "severity": "info"
     },
     {
       "date": "Apr 10",
-      "text": "Iran war live: Pakistan talks ‘make or break’, as Israel bombs Lebanon",
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
       "severity": "info",
-      "latestSinceUpdate": 57
+      "latestSinceUpdate": 58
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
