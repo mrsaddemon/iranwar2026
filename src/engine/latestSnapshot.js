@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 60,
+  "updateSequence": 61,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T21:23:56.039Z",
+  "lastSyncedAt": "2026-04-10T22:06:07.927Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -56,8 +56,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 10",
-      "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
-      "severity": "info"
+      "text": "How Trump Took the U.S. to War With Iran",
+      "severity": "info",
+      "latestSinceUpdate": 61
     },
     {
       "date": "Apr 10",
@@ -67,9 +68,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Iran War Live Updates: Vance Heads to Peace Talks as Lebanon Impasse Threatens Cease-Fire",
-      "severity": "info",
-      "latestSinceUpdate": 59
+      "text": "Live updates: Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan",
+      "severity": "warning",
+      "latestSinceUpdate": 60
     },
     {
       "date": "Apr 10",
@@ -85,9 +86,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Live updates: Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan",
-      "severity": "warning",
-      "latestSinceUpdate": 60
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
+      "severity": "info",
+      "latestSinceUpdate": 61
     }
   ],
   "sourceStatuses": [
