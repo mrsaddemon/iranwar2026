@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 51,
+  "updateSequence": 52,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T13:52:08.865Z",
+  "lastSyncedAt": "2026-04-10T14:40:58.162Z",
   "warDay": 42,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A ceasefire is threatened by ongoing Israeli attacks on Lebanon and Hezbollah rocket fire, indicating it is not active or has collapsed."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.75,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.95
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.4
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 60,
+    "escalationLevel": 48,
+    "oilDisruption": 85
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,46 +55,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 10",
-      "text": "\"Iran war 2026\"",
+      "date": "Apr 09",
+      "text": "Institute for the Study of War publishes an 'Iran Update Special Report'.",
       "severity": "info",
-      "latestSinceUpdate": 50
+      "latestSinceUpdate": 52
     },
     {
-      "date": "Apr 10",
-      "text": "How Trump Took the U.S. to War With Iran",
+      "date": "Recent",
+      "text": "U.S. Senator Vance departs for talks in Pakistan amidst the Iran war.",
       "severity": "info",
-      "latestSinceUpdate": 51
+      "latestSinceUpdate": 52
     },
     {
-      "date": "Apr 10",
-      "text": "Iran Update Special Report, April 9, 2026",
-      "severity": "info",
-      "latestSinceUpdate": 51
+      "date": "Recent",
+      "text": "Israel conducts bombing operations in Lebanon.",
+      "severity": "critical",
+      "latestSinceUpdate": 52
     },
     {
-      "date": "Apr 10",
-      "text": "Iran war live: Vance departs for talks in Pakistan, as Israel bombs Lebanon",
-      "severity": "info",
-      "latestSinceUpdate": 51
+      "date": "Recent",
+      "text": "Hezbollah launches rocket barrages at northern Israel, including Karmiel.",
+      "severity": "critical",
+      "latestSinceUpdate": 52
     },
     {
-      "date": "Apr 10",
-      "text": "\"Iran Israel strikes\"",
-      "severity": "info",
-      "latestSinceUpdate": 50
+      "date": "Recent",
+      "text": "Iran warns of 'strong responses' as Israeli attacks on Lebanon threaten a ceasefire.",
+      "severity": "warning",
+      "latestSinceUpdate": 52
     },
     {
-      "date": "Apr 10",
-      "text": "Hezbollah launches rockets at Israel – as it happened",
-      "severity": "info",
-      "latestSinceUpdate": 51
+      "date": "Recent",
+      "text": "A U.S. drone disappears over the Strait of Hormuz.",
+      "severity": "warning",
+      "latestSinceUpdate": 52
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
