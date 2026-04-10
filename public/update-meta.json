@@ -1,13 +1,13 @@
 {
-  "updateSequence": 42,
-  "lastUpdated": "2026-04-09",
-  "lastSyncedAt": "2026-04-09T23:49:40.011Z",
-  "warDay": 41,
+  "updateSequence": 43,
+  "lastUpdated": "2026-04-10",
+  "lastSyncedAt": "2026-04-10T01:05:38.689Z",
+  "warDay": 42,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Despite US efforts for Iran ceasefire talks and Israel agreeing to talks with Lebanon, active conflict continues, and key parties express unwillingness or deem a ceasefire unreasonable."
+    "summary": "Ceasefire talks are underway between the US and Iran, but active conflict in Lebanon and Iran's rejection of terms indicate a highly fragile situation with no active ceasefire."
   }
 }
