@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 58,
+  "updateSequence": 59,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T19:57:01.311Z",
+  "lastSyncedAt": "2026-04-10T20:50:43.348Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
@@ -56,43 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 10",
-      "text": "\"Iran war 2026\"",
-      "severity": "info"
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran war live: Pakistan talks ‘make or break’, as Israel bombs Lebanon",
-      "severity": "info",
-      "latestSinceUpdate": 57
-    },
-    {
-      "date": "Apr 10",
       "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
       "severity": "info",
       "latestSinceUpdate": 56
     },
     {
       "date": "Apr 10",
-      "text": "Oil whiplash: Iran war shock to flip market to deficit in 2026, analysts say",
+      "text": "Iran Update Special Report, April 9, 2026",
       "severity": "info",
-      "latestSinceUpdate": 58
+      "latestSinceUpdate": 59
     },
     {
       "date": "Apr 10",
-      "text": "\"Iran Israel strikes\"",
-      "severity": "info"
+      "text": "Iran War Live Updates: Vance Heads to Peace Talks as Lebanon Impasse Threatens Cease-Fire",
+      "severity": "info",
+      "latestSinceUpdate": 59
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran war live: Iranian delegation arrives in Pakistan for talks with US",
+      "severity": "info",
+      "latestSinceUpdate": 59
     },
     {
       "date": "Apr 10",
       "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
       "severity": "info",
       "latestSinceUpdate": 58
+    },
+    {
+      "date": "Apr 10",
+      "text": "Live updates: Trump warns Iran that US assault will resume if deal is not reached",
+      "severity": "info",
+      "latestSinceUpdate": 59
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
