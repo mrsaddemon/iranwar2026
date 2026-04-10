@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 43,
+  "updateSequence": 44,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T01:05:38.689Z",
+  "lastSyncedAt": "2026-04-10T04:14:27.854Z",
   "warDay": 42,
-  "summary": "The US and Iran are engaged in conflict, with ongoing ceasefire talks complicated by Iran's accusations and Israel's continued military actions against Hezbollah in Lebanon, while tensions persist over the Strait of Hormuz.",
+  "summary": "The Middle East conflict continues with Israel attacking Lebanon and Hezbollah launching rockets, while Iran reports stopping shipping in the Strait of Hormuz amidst ongoing ceasefire talks and US warnings.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "Ceasefire talks are underway between the US and Iran, but active conflict in Lebanon and Iran's rejection of terms indicate a highly fragile situation with no active ceasefire."
+    "summary": "Ceasefire talks between Israel and Lebanon are underway, but ongoing Israeli strikes against Hezbollah threaten their progress and no active ceasefire is in effect."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
@@ -27,24 +27,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 85
+    "nuclearIndex": 40,
+    "escalationLevel": 38,
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,46 +55,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 10",
-      "text": "The US and Iran are at war, with ongoing ceasefire talks being prepared by the US.",
+      "date": "Apr 08",
+      "text": "Israel attacks Lebanon on Day 40 of the Middle East conflict.",
       "severity": "critical",
-      "latestSinceUpdate": 43
+      "latestSinceUpdate": 44
     },
     {
-      "date": "Apr 10",
-      "text": "Iran accuses the US of violating parts of a deal framework and states a ceasefire is 'unreasonable'.",
+      "date": "Apr 08",
+      "text": "Iran states shipping has been stopped in the Strait of Hormuz.",
+      "severity": "critical",
+      "latestSinceUpdate": 44
+    },
+    {
+      "date": "Apr 09",
+      "text": "Hezbollah launches rockets at Israel.",
+      "severity": "critical",
+      "latestSinceUpdate": 44
+    },
+    {
+      "date": "Apr 09",
+      "text": "Israel agrees to hold ceasefire talks with Lebanon despite ongoing strikes.",
       "severity": "warning",
-      "latestSinceUpdate": 43
+      "latestSinceUpdate": 44
     },
     {
-      "date": "Apr 10",
-      "text": "Israel announces it will begin direct negotiations with Lebanon but will not halt attacks on Hezbollah.",
+      "date": "Apr 09",
+      "text": "Trump warns Iran against collecting tolls in the Strait of Hormuz.",
+      "severity": "warning",
+      "latestSinceUpdate": 44
+    },
+    {
+      "date": "Apr 09",
+      "text": "Automatic U.S. military draft registration is planned by December.",
       "severity": "info",
-      "latestSinceUpdate": 43
-    },
-    {
-      "date": "Apr 10",
-      "text": "Netanyahu rejects a ceasefire in Lebanon as Hezbollah launches rockets, triggering air raid sirens across Israel.",
-      "severity": "critical",
-      "latestSinceUpdate": 43
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran warns of 'strong responses' as Israeli attacks on Lebanon threaten US-Iran ceasefire talks.",
-      "severity": "warning",
-      "latestSinceUpdate": 43
-    },
-    {
-      "date": "Apr 10",
-      "text": "Trump warns Iran regarding its handling of ships and potential fees for passage through the Strait of Hormuz.",
-      "severity": "warning",
-      "latestSinceUpdate": 43
+      "latestSinceUpdate": 44
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
