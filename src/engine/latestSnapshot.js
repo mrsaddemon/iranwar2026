@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 53,
+  "updateSequence": 54,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T15:37:07.216Z",
+  "lastSyncedAt": "2026-04-10T16:32:11.677Z",
   "warDay": 42,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, with ongoing strikes threatening any potential or fragile agreements."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,8 +43,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 90
+    "escalationLevel": 38,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,40 +55,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 09",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "warning",
-      "latestSinceUpdate": 53
+      "date": "Apr 10",
+      "text": "\"Iran war 2026\"",
+      "severity": "info",
+      "latestSinceUpdate": 54
     },
     {
-      "date": "Apr 09",
-      "text": "Israel conducts bombing operations in Lebanon.",
-      "severity": "critical",
-      "latestSinceUpdate": 53
+      "date": "Apr 10",
+      "text": "How Trump Took the U.S. to War With Iran",
+      "severity": "info",
+      "latestSinceUpdate": 54
     },
     {
-      "date": "Apr 09",
-      "text": "Iran warns of 'strong responses' as Israeli attacks on Lebanon continue.",
-      "severity": "critical",
-      "latestSinceUpdate": 53
+      "date": "Apr 10",
+      "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
+      "severity": "info",
+      "latestSinceUpdate": 54
     },
     {
-      "date": "Apr 09",
-      "text": "Israel and Hezbollah engage in mutual strikes.",
-      "severity": "critical",
-      "latestSinceUpdate": 53
+      "date": "Apr 10",
+      "text": "Iran Update Special Report, April 9, 2026",
+      "severity": "info",
+      "latestSinceUpdate": 54
     },
     {
-      "date": "Apr 09",
-      "text": "Hezbollah launches rockets towards Israel.",
-      "severity": "critical",
-      "latestSinceUpdate": 53
+      "date": "Apr 10",
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 54
     },
     {
-      "date": "Apr 09",
-      "text": "The Strait of Hormuz remains closed.",
-      "severity": "critical",
-      "latestSinceUpdate": 53
+      "date": "Apr 10",
+      "text": "Iran war live: Vance departs for talks in Pakistan, as Israel bombs Lebanon",
+      "severity": "info",
+      "latestSinceUpdate": 54
     }
   ],
   "sourceStatuses": [
