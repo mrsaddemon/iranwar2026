@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 47,
+  "updateSequence": 48,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T09:20:23.024Z",
+  "lastSyncedAt": "2026-04-10T10:31:05.814Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -74,9 +74,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
+      "text": "President Trump’s ceasefire with Iran draws praise from world leaders",
       "severity": "info",
-      "latestSinceUpdate": 46
+      "latestSinceUpdate": 48
     },
     {
       "date": "Apr 10",
@@ -86,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Hezbollah launches rockets at Israel – as it happened",
+      "text": "Iran war live: Israel attacks Lebanon again on eve of US-Iran truce talks",
       "severity": "info",
-      "latestSinceUpdate": 47
+      "latestSinceUpdate": 48
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
