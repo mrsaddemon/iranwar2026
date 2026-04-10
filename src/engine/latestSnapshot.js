@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 54,
+  "updateSequence": 55,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T16:32:11.677Z",
+  "lastSyncedAt": "2026-04-10T17:28:07.591Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
@@ -62,24 +62,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "How Trump Took the U.S. to War With Iran",
-      "severity": "info",
-      "latestSinceUpdate": 54
-    },
-    {
-      "date": "Apr 10",
-      "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
-      "severity": "info",
-      "latestSinceUpdate": 54
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran Update Special Report, April 9, 2026",
-      "severity": "info",
-      "latestSinceUpdate": 54
-    },
-    {
-      "date": "Apr 10",
       "text": "\"Iran Israel strikes\"",
       "severity": "info",
       "latestSinceUpdate": 54
@@ -89,12 +71,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war live: Vance departs for talks in Pakistan, as Israel bombs Lebanon",
       "severity": "info",
       "latestSinceUpdate": 54
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
+      "severity": "info",
+      "latestSinceUpdate": 55
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran War Live Updates: Vance Heads to Peace Talks as Lebanon Impasse Threatens Cease-Fire",
+      "severity": "info",
+      "latestSinceUpdate": 55
+    },
+    {
+      "date": "Apr 10",
+      "text": "\"Strait of Hormuz\"",
+      "severity": "info",
+      "latestSinceUpdate": 55
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
