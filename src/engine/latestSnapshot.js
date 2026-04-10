@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 50,
+  "updateSequence": 51,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T12:08:51.371Z",
+  "lastSyncedAt": "2026-04-10T13:52:08.865Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -62,21 +62,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Trump says U.S. ready for 'next conquest,' warns military will remain near Iran until 'real agreement' is honored",
+      "text": "How Trump Took the U.S. to War With Iran",
       "severity": "info",
-      "latestSinceUpdate": 50
+      "latestSinceUpdate": 51
     },
     {
       "date": "Apr 10",
-      "text": "2026 Iran war",
+      "text": "Iran Update Special Report, April 9, 2026",
       "severity": "info",
-      "latestSinceUpdate": 50
+      "latestSinceUpdate": 51
     },
     {
       "date": "Apr 10",
-      "text": "Inside Trump's Search for a Way Out of the Iran War",
+      "text": "Iran war live: Vance departs for talks in Pakistan, as Israel bombs Lebanon",
       "severity": "info",
-      "latestSinceUpdate": 50
+      "latestSinceUpdate": 51
     },
     {
       "date": "Apr 10",
@@ -86,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Iran war live: Israel attacks Lebanon again on eve of US-Iran truce talks",
+      "text": "Hezbollah launches rockets at Israel – as it happened",
       "severity": "info",
-      "latestSinceUpdate": 50
+      "latestSinceUpdate": 51
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
