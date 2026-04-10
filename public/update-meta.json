@@ -1,13 +1,13 @@
 {
-  "updateSequence": 45,
+  "updateSequence": 46,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T06:10:26.169Z",
+  "lastSyncedAt": "2026-04-10T08:01:52.275Z",
   "warDay": 42,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Ceasefire talks between the US and Iran are ongoing but severely threatened by Israeli actions in Lebanon and Iran's control over the Strait of Hormuz."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

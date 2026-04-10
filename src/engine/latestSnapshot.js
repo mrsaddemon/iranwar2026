@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 45,
+  "updateSequence": 46,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T06:10:26.169Z",
+  "lastSyncedAt": "2026-04-10T08:01:52.275Z",
   "warDay": 42,
-  "summary": "The US-Iran war continues with ongoing Israeli strikes on Lebanon, Hezbollah rocket attacks, and US concerns over Iran's handling of the Strait of Hormuz, threatening ceasefire talks.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Ceasefire talks between the US and Iran are ongoing but severely threatened by Israeli actions in Lebanon and Iran's control over the Strait of Hormuz."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,9 +42,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 90
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,46 +55,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 08",
-      "text": "Institute for the Study of War releases a special report on the Iran war.",
+      "date": "Apr 10",
+      "text": "\"Iran war 2026\"",
       "severity": "info",
-      "latestSinceUpdate": 45
+      "latestSinceUpdate": 46
     },
     {
       "date": "Apr 10",
-      "text": "Hezbollah launches rockets at Israel, prompting Israeli vows to continue fighting.",
-      "severity": "critical",
-      "latestSinceUpdate": 45
+      "text": "How Trump Took the U.S. to War With Iran",
+      "severity": "info",
+      "latestSinceUpdate": 46
     },
     {
       "date": "Apr 10",
-      "text": "Israeli attacks on Lebanon threaten ongoing US-Iran ceasefire talks.",
-      "severity": "warning",
-      "latestSinceUpdate": 45
+      "text": "Iran Update Special Report, April 9, 2026",
+      "severity": "info",
+      "latestSinceUpdate": 46
     },
     {
       "date": "Apr 10",
-      "text": "Trump questions Iran's handling of the Strait of Hormuz, casting doubt on ceasefire viability.",
-      "severity": "critical",
-      "latestSinceUpdate": 45
+      "text": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
+      "severity": "info",
+      "latestSinceUpdate": 46
     },
     {
       "date": "Apr 10",
-      "text": "Iran warns of 'strong responses' amidst regional tensions.",
-      "severity": "warning",
-      "latestSinceUpdate": 45
+      "text": "\"Iran Israel strikes\"",
+      "severity": "info",
+      "latestSinceUpdate": 46
     },
     {
       "date": "Apr 10",
-      "text": "US military to remain near Iran, with Trump threatening action if Tehran fails to comply with a deal.",
-      "severity": "warning",
-      "latestSinceUpdate": 45
+      "text": "Israel and Hezbollah exchange strikes as Trump criticises Iran's handling of Hormuz strait - follow live",
+      "severity": "info",
+      "latestSinceUpdate": 46
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
