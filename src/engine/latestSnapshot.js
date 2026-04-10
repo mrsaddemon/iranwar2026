@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 48,
+  "updateSequence": 49,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T10:31:05.814Z",
+  "lastSyncedAt": "2026-04-10T11:27:39.656Z",
   "warDay": 42,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The Iran war continues with ongoing strikes between Israel and Hezbollah in Lebanon, while US-Iran truce talks and Israel-Lebanon ceasefire discussions are underway.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active, broad ceasefire is in effect, though US-Iran truce talks and Israel-Lebanon ceasefire discussions are ongoing amidst continued strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.5
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.9
       }
     },
-    "israel": {
-      "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
-      }
-    },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 75
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 10",
-      "text": "\"Iran war 2026\"",
-      "severity": "info",
-      "latestSinceUpdate": 46
+      "text": "Israel and Hezbollah continue strikes in Lebanon amid ongoing conflict.",
+      "severity": "critical",
+      "latestSinceUpdate": 49
     },
     {
       "date": "Apr 10",
-      "text": "How Trump Took the U.S. to War With Iran",
+      "text": "US-Iran truce talks and Israel-Lebanon ceasefire discussions are being held.",
       "severity": "info",
-      "latestSinceUpdate": 46
+      "latestSinceUpdate": 49
     },
     {
       "date": "Apr 10",
-      "text": "Iran Update Special Report, April 9, 2026",
-      "severity": "info",
-      "latestSinceUpdate": 46
+      "text": "Lebanon states it will only participate in talks with Israel if a ceasefire is already in place.",
+      "severity": "warning",
+      "latestSinceUpdate": 49
     },
     {
       "date": "Apr 10",
-      "text": "President Trump’s ceasefire with Iran draws praise from world leaders",
-      "severity": "info",
-      "latestSinceUpdate": 48
+      "text": "Strait of Hormuz traffic is reported to be slow despite ceasefire discussions.",
+      "severity": "warning",
+      "latestSinceUpdate": 49
     },
     {
       "date": "Apr 10",
-      "text": "\"Iran Israel strikes\"",
-      "severity": "info",
-      "latestSinceUpdate": 46
+      "text": "US military personnel dispute Pentagon's account of a deadly attack in Kuwait, citing unpreparedness.",
+      "severity": "warning",
+      "latestSinceUpdate": 49
     },
     {
       "date": "Apr 10",
-      "text": "Iran war live: Israel attacks Lebanon again on eve of US-Iran truce talks",
+      "text": "Automatic US military draft registration is planned by December.",
       "severity": "info",
-      "latestSinceUpdate": 48
+      "latestSinceUpdate": 49
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
