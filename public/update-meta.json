@@ -1,13 +1,13 @@
 {
-  "updateSequence": 52,
+  "updateSequence": 53,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T14:40:58.162Z",
+  "lastSyncedAt": "2026-04-10T15:37:07.216Z",
   "warDay": 42,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A ceasefire is threatened by ongoing Israeli attacks on Lebanon and Hezbollah rocket fire, indicating it is not active or has collapsed."
+    "summary": "No active ceasefire is in effect, with ongoing strikes threatening any potential or fragile agreements."
   }
 }
