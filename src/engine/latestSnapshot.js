@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 56,
+  "updateSequence": 57,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T18:11:11.322Z",
+  "lastSyncedAt": "2026-04-10T19:14:22.755Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
@@ -62,21 +62,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "How Trump Took the U.S. to War With Iran",
-      "severity": "info",
-      "latestSinceUpdate": 56
-    },
-    {
-      "date": "Apr 10",
       "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
       "severity": "info",
       "latestSinceUpdate": 56
     },
     {
       "date": "Apr 10",
-      "text": "Iran war live: Vance departs for talks in Pakistan, as Israel bombs Lebanon",
+      "text": "Iran Update Special Report, April 9, 2026",
       "severity": "info",
-      "latestSinceUpdate": 54
+      "latestSinceUpdate": 57
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran War Live Updates: Vance Heads to Peace Talks as Lebanon Impasse Threatens Cease-Fire",
+      "severity": "info",
+      "latestSinceUpdate": 57
     },
     {
       "date": "Apr 10",
@@ -86,15 +86,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Did Israel attack Lebanon to spoil Iran war ceasefire?",
+      "text": "Iran war live: Pakistan talks ‘make or break’, as Israel bombs Lebanon",
       "severity": "info",
-      "latestSinceUpdate": 56
+      "latestSinceUpdate": 57
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
