@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 61,
+  "updateSequence": 62,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T22:06:07.927Z",
+  "lastSyncedAt": "2026-04-10T22:52:22.683Z",
   "warDay": 42,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "Peace talks involving the US and Iran are underway in Pakistan amidst a fragile ceasefire, while Israel continues military operations in Lebanon, leading to significant casualties and Hezbollah rocket fire.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A shaky, partial ceasefire is reported to be holding in some areas, but active conflict continues in Lebanon, with Israel stating the truce does not apply there."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -24,27 +24,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
-      }
-    },
-    "iran": {
-      "metrics": {
         "militaryPower": 80
       },
       "behavior": {
         "precision": 0.6,
         "aggression": 0.8
       }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 65
+      },
+      "behavior": {
+        "precision": 0.5,
+        "aggression": 0.8
+      }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 62
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,40 +55,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 10",
-      "text": "How Trump Took the U.S. to War With Iran",
-      "severity": "info",
-      "latestSinceUpdate": 61
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran Update Special Report, April 9, 2026",
-      "severity": "info",
-      "latestSinceUpdate": 59
-    },
-    {
-      "date": "Apr 10",
-      "text": "Live updates: Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan",
+      "date": "Apr 09",
+      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
       "severity": "warning",
-      "latestSinceUpdate": 60
+      "latestSinceUpdate": 62
     },
     {
-      "date": "Apr 10",
-      "text": "Iran war live: Iranian delegation arrives in Pakistan for talks with US",
+      "date": "Apr 09",
+      "text": "US envoy Vance heads to peace talks, and an Iranian delegation arrives in Pakistan for discussions with the US.",
       "severity": "info",
-      "latestSinceUpdate": 59
+      "latestSinceUpdate": 62
     },
     {
-      "date": "Apr 10",
-      "text": "Hezbollah launches rockets at Israel – as it happened",
-      "severity": "info",
-      "latestSinceUpdate": 60
+      "date": "Apr 09",
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten the ceasefire.",
+      "severity": "warning",
+      "latestSinceUpdate": 62
     },
     {
-      "date": "Apr 10",
-      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
-      "severity": "info",
-      "latestSinceUpdate": 61
+      "date": "Apr 09",
+      "text": "Hezbollah launches rockets at Israel.",
+      "severity": "critical",
+      "latestSinceUpdate": 62
+    },
+    {
+      "date": "Apr 09",
+      "text": "Trump criticizes Iran for restricting oil flow through the Strait of Hormuz; tankers are urged not to pay tolls.",
+      "severity": "warning",
+      "latestSinceUpdate": 62
+    },
+    {
+      "date": "Apr 09",
+      "text": "The Strait of Hormuz remains closed or experiences low traffic.",
+      "severity": "warning",
+      "latestSinceUpdate": 62
     }
   ],
   "sourceStatuses": [
