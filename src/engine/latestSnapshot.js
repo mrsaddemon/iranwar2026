@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 44,
+  "updateSequence": 45,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T04:14:27.854Z",
+  "lastSyncedAt": "2026-04-10T06:10:26.169Z",
   "warDay": 42,
-  "summary": "The Middle East conflict continues with Israel attacking Lebanon and Hezbollah launching rockets, while Iran reports stopping shipping in the Strait of Hormuz amidst ongoing ceasefire talks and US warnings.",
+  "summary": "The US-Iran war continues with ongoing Israeli strikes on Lebanon, Hezbollah rocket attacks, and US concerns over Iran's handling of the Strait of Hormuz, threatening ceasefire talks.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire talks between Israel and Lebanon are underway, but ongoing Israeli strikes against Hezbollah threaten their progress and no active ceasefire is in effect."
+    "summary": "Ceasefire talks between the US and Iran are ongoing but severely threatened by Israeli actions in Lebanon and Iran's control over the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -33,17 +33,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 38,
+    "nuclearIndex": 60,
+    "escalationLevel": 48,
     "oilDisruption": 90
   },
   "alliance": {
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 08",
-      "text": "Israel attacks Lebanon on Day 40 of the Middle East conflict.",
-      "severity": "critical",
-      "latestSinceUpdate": 44
-    },
-    {
-      "date": "Apr 08",
-      "text": "Iran states shipping has been stopped in the Strait of Hormuz.",
-      "severity": "critical",
-      "latestSinceUpdate": 44
-    },
-    {
-      "date": "Apr 09",
-      "text": "Hezbollah launches rockets at Israel.",
-      "severity": "critical",
-      "latestSinceUpdate": 44
-    },
-    {
-      "date": "Apr 09",
-      "text": "Israel agrees to hold ceasefire talks with Lebanon despite ongoing strikes.",
-      "severity": "warning",
-      "latestSinceUpdate": 44
-    },
-    {
-      "date": "Apr 09",
-      "text": "Trump warns Iran against collecting tolls in the Strait of Hormuz.",
-      "severity": "warning",
-      "latestSinceUpdate": 44
-    },
-    {
-      "date": "Apr 09",
-      "text": "Automatic U.S. military draft registration is planned by December.",
+      "text": "Institute for the Study of War releases a special report on the Iran war.",
       "severity": "info",
-      "latestSinceUpdate": 44
+      "latestSinceUpdate": 45
+    },
+    {
+      "date": "Apr 10",
+      "text": "Hezbollah launches rockets at Israel, prompting Israeli vows to continue fighting.",
+      "severity": "critical",
+      "latestSinceUpdate": 45
+    },
+    {
+      "date": "Apr 10",
+      "text": "Israeli attacks on Lebanon threaten ongoing US-Iran ceasefire talks.",
+      "severity": "warning",
+      "latestSinceUpdate": 45
+    },
+    {
+      "date": "Apr 10",
+      "text": "Trump questions Iran's handling of the Strait of Hormuz, casting doubt on ceasefire viability.",
+      "severity": "critical",
+      "latestSinceUpdate": 45
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran warns of 'strong responses' amidst regional tensions.",
+      "severity": "warning",
+      "latestSinceUpdate": 45
+    },
+    {
+      "date": "Apr 10",
+      "text": "US military to remain near Iran, with Trump threatening action if Tehran fails to comply with a deal.",
+      "severity": "warning",
+      "latestSinceUpdate": 45
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 44,
+  "updateSequence": 45,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T04:14:27.854Z",
+  "lastSyncedAt": "2026-04-10T06:10:26.169Z",
   "warDay": 42,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire talks between Israel and Lebanon are underway, but ongoing Israeli strikes against Hezbollah threaten their progress and no active ceasefire is in effect."
+    "summary": "Ceasefire talks between the US and Iran are ongoing but severely threatened by Israeli actions in Lebanon and Iran's control over the Strait of Hormuz."
   }
 }
