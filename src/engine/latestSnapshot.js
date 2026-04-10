@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 55,
+  "updateSequence": 56,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T17:28:07.591Z",
+  "lastSyncedAt": "2026-04-10T18:11:11.322Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
@@ -62,9 +62,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "\"Iran Israel strikes\"",
+      "text": "How Trump Took the U.S. to War With Iran",
       "severity": "info",
-      "latestSinceUpdate": 54
+      "latestSinceUpdate": 56
+    },
+    {
+      "date": "Apr 10",
+      "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
+      "severity": "info",
+      "latestSinceUpdate": 56
     },
     {
       "date": "Apr 10",
@@ -74,27 +80,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
+      "text": "\"Iran Israel strikes\"",
       "severity": "info",
-      "latestSinceUpdate": 55
+      "latestSinceUpdate": 54
     },
     {
       "date": "Apr 10",
-      "text": "Iran War Live Updates: Vance Heads to Peace Talks as Lebanon Impasse Threatens Cease-Fire",
+      "text": "Did Israel attack Lebanon to spoil Iran war ceasefire?",
       "severity": "info",
-      "latestSinceUpdate": 55
-    },
-    {
-      "date": "Apr 10",
-      "text": "\"Strait of Hormuz\"",
-      "severity": "info",
-      "latestSinceUpdate": 55
+      "latestSinceUpdate": 56
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
