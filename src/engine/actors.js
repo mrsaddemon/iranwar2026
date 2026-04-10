@@ -6,7 +6,7 @@
 
 export const ACTOR_IDS = { USA: 'usa', ISRAEL: 'israel', IRAN: 'iran' };
 
-const BASE_ACTORS = {
+export const BASE_ACTORS = {
   usa: {
     id: 'usa',
     name: 'United States',

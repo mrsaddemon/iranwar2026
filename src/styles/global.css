@@ -363,6 +363,7 @@ html, body, #root {
   align-items: center;
   gap: 8px;
   padding: 3px 0;
+  position: relative;
 }
 
 .metric-label {
@@ -395,6 +396,65 @@ html, body, #root {
   font-weight: 600;
   width: 32px;
   text-align: right;
+}
+
+.metric-row-with-tooltip,
+.actor-power-with-tooltip {
+  cursor: help;
+}
+
+.metric-tooltip {
+  position: absolute;
+  left: calc(100% - 8px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 220px;
+  padding: 9px 10px;
+  background: rgba(6, 10, 18, 0.96);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  box-shadow: 0 14px 30px rgba(0,0,0,0.45);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.16s ease;
+  z-index: 30;
+}
+
+.metric-row-with-tooltip:hover .metric-tooltip,
+.metric-row-with-tooltip:focus-visible .metric-tooltip,
+.actor-power-with-tooltip:hover .metric-tooltip,
+.actor-power-with-tooltip:focus-visible .metric-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.metric-tooltip-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 6px;
+}
+
+.metric-tooltip-text {
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.actor-power-with-tooltip {
+  position: relative;
+  outline: none;
+}
+
+.actor-score-tooltip {
+  left: auto;
+  right: -6px;
+  top: calc(100% + 10px);
+  transform: none;
+  width: 240px;
 }
 
 /* ======== CENTER PANEL ======== */
