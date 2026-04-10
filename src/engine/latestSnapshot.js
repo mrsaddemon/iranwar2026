@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 59,
+  "updateSequence": 60,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T20:50:43.348Z",
+  "lastSyncedAt": "2026-04-10T21:23:56.039Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
@@ -57,8 +57,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Apr 10",
       "text": "Day 41 of Middle East conflict — Netanyahu says there’s no ceasefire in Lebanon as Israel pursues talks",
-      "severity": "info",
-      "latestSinceUpdate": 56
+      "severity": "info"
     },
     {
       "date": "Apr 10",
@@ -80,15 +79,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
+      "text": "Hezbollah launches rockets at Israel – as it happened",
       "severity": "info",
-      "latestSinceUpdate": 58
+      "latestSinceUpdate": 60
     },
     {
       "date": "Apr 10",
-      "text": "Live updates: Trump warns Iran that US assault will resume if deal is not reached",
-      "severity": "info",
-      "latestSinceUpdate": 59
+      "text": "Live updates: Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan",
+      "severity": "warning",
+      "latestSinceUpdate": 60
     }
   ],
   "sourceStatuses": [
