@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 46,
+  "updateSequence": 47,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T08:01:52.275Z",
+  "lastSyncedAt": "2026-04-10T09:20:23.024Z",
   "warDay": 42,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-10",
@@ -86,9 +86,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 10",
-      "text": "Israel and Hezbollah exchange strikes as Trump criticises Iran's handling of Hormuz strait - follow live",
+      "text": "Hezbollah launches rockets at Israel – as it happened",
       "severity": "info",
-      "latestSinceUpdate": 46
+      "latestSinceUpdate": 47
     }
   ],
   "sourceStatuses": [
