@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 62,
+  "updateSequence": 63,
   "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T22:52:22.683Z",
+  "lastSyncedAt": "2026-04-10T23:47:30.914Z",
   "warDay": 42,
-  "summary": "Peace talks involving the US and Iran are underway in Pakistan amidst a fragile ceasefire, while Israel continues military operations in Lebanon, leading to significant casualties and Hezbollah rocket fire.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A shaky, partial ceasefire is reported to be holding in some areas, but active conflict continues in Lebanon, with Israel stating the truce does not apply there."
+    "summary": "Ongoing negotiations between the US and Iran are complicated by continued hostilities between Israel and Hezbollah, threatening any broader de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
@@ -27,22 +27,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.88,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 90
   },
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
+      "text": "Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan.",
       "severity": "warning",
-      "latestSinceUpdate": 62
+      "latestSinceUpdate": 63
     },
     {
       "date": "Apr 09",
-      "text": "US envoy Vance heads to peace talks, and an Iranian delegation arrives in Pakistan for discussions with the US.",
+      "text": "Iranian delegation arrives in Pakistan for talks with the US.",
       "severity": "info",
-      "latestSinceUpdate": 62
+      "latestSinceUpdate": 63
     },
     {
       "date": "Apr 09",
-      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten the ceasefire.",
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire.",
       "severity": "warning",
-      "latestSinceUpdate": 62
+      "latestSinceUpdate": 63
     },
     {
       "date": "Apr 09",
-      "text": "Hezbollah launches rockets at Israel.",
+      "text": "Vance heads to peace talks as Lebanon impasse threatens cease-fire.",
+      "severity": "info",
+      "latestSinceUpdate": 63
+    },
+    {
+      "date": "Apr 09",
+      "text": "Trump warns of fresh Iran strikes if talks fail; Lebanon and Israel agree to meet in US.",
       "severity": "critical",
-      "latestSinceUpdate": 62
+      "latestSinceUpdate": 63
     },
     {
-      "date": "Apr 09",
-      "text": "Trump criticizes Iran for restricting oil flow through the Strait of Hormuz; tankers are urged not to pay tolls.",
+      "date": "Apr 10",
+      "text": "Trump criticizes Iran for not allowing more oil through Strait of Hormuz, stating it's 'Not the agreement we have'.",
       "severity": "warning",
-      "latestSinceUpdate": 62
-    },
-    {
-      "date": "Apr 09",
-      "text": "The Strait of Hormuz remains closed or experiences low traffic.",
-      "severity": "warning",
-      "latestSinceUpdate": 62
+      "latestSinceUpdate": 63
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
