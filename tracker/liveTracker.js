@@ -7,12 +7,12 @@ const TRACKER_REGION = Object.freeze({
 });
 
 const SHIP_BOUNDING_BOXES = Object.freeze([
-  [[29, 18], [41, 40]], // Eastern Mediterranean / Aegean approaches
-  [[12, 31], [31, 45]], // Red Sea / Suez / Gulf of Aden
-  [[20, 47], [31, 58]], // Persian Gulf
-  [[18, 55], [29, 68]], // Gulf of Oman / Arabian Sea approach
-  [[5, 58], [26, 90]], // Arabian Sea / northern Indian Ocean
-  [[22, 72], [32, 90]], // Pakistan / western India sea approaches
+  [[30, 29], [37.5, 37.8]], // Eastern Mediterranean / Cyprus / Levant
+  [[11, 31], [30, 45]], // Red Sea / Suez / Gulf of Aden
+  [[23.5, 47], [31, 57.5]], // Persian Gulf
+  [[21, 55.5], [28.5, 66]], // Gulf of Oman / Arabian Sea approach
+  [[12, 57], [24, 72]], // Arabian Sea / northern Indian Ocean
+  [[17, 66], [25, 73]], // Pakistan / western India sea approaches
 ]);
 
 const STRATEGIC_SHIP_PRIORITY_BOXES = Object.freeze([
@@ -21,7 +21,7 @@ const STRATEGIC_SHIP_PRIORITY_BOXES = Object.freeze([
   [[5, 60], [24, 90]], // Arabian / northern Indian Ocean
   [[20, 47], [31, 58]], // Persian Gulf
   [[10, 32], [30, 45]], // Red Sea / Suez
-  [[29, 24], [38, 37]], // Eastern Mediterranean
+  [[31, 29], [37.5, 37.8]], // Eastern Mediterranean / Cyprus / Levant
 ]);
 
 const OPENSKY_TOKEN_URL = 'https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token';
@@ -62,8 +62,8 @@ const SHIP_CACHE_TTL_MS = 5 * 60 * 1000;
 const FLIGHT_CACHE_TTL_MS = 90 * 60 * 1000;
 const TRACKER_SNAPSHOT_TTL_MS = 5 * 60 * 1000;
 const MAX_GLOBAL_FLIGHTS = 180;
-const MAX_GLOBAL_SHIPS = 120;
-const MAX_PRIORITY_SHIPS = 36;
+const MAX_GLOBAL_SHIPS = 72;
+const MAX_PRIORITY_SHIPS = 28;
 const MILITARY_FLIGHT_PREFIXES = [
   'RCH', 'REACH', 'CFC', 'CNV', 'PAT', 'DUKE', 'RRR', 'MC', 'VM', 'HAF', 'IAF', 'IAM', 'QID', 'ASY', 'NAF', 'HKY',
 ];
