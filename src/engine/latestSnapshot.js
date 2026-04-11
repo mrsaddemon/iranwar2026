@@ -99,7 +99,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Israel strikes central Beirut, killing at least 182, after stating the Iran truce does not apply there.",
       "severity": "critical",
       "sourceUrl": "https://apnews.com/article/9402965418687c634d4a157c966ec6ea",
-      "sourceName": "AP News"
+      "sourceName": "AP News",
       "latestSinceUpdate": 69
     }
   ],
