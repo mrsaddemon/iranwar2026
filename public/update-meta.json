@@ -1,13 +1,13 @@
 {
-  "updateSequence": 69,
+  "updateSequence": 70,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T07:29:51.868Z",
+  "lastSyncedAt": "2026-04-11T08:05:21.261Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "A fragile ceasefire between Iran and the US is being tested amidst ongoing conflict in Lebanon and the closure of the Strait of Hormuz."
+    "summary": "Ceasefire talks are underway between Iran and the US, and Israel and Lebanon, but Israel has rejected a ceasefire with Hezbollah and continues strikes in Beirut, while Iran tests the ceasefire."
   }
 }
