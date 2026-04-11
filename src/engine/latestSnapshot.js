@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 78,
+  "updateSequence": 79,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T12:25:04.525Z",
+  "lastSyncedAt": "2026-04-11T13:39:21.514Z",
   "warDay": 43,
-  "summary": "Peace talks between Iranian and US delegations are underway in Pakistan amidst a fragile regional ceasefire, ongoing hostilities involving Hezbollah, and continued closure of the Strait of Hormuz.",
+  "summary": "US and Iranian delegations are holding direct ceasefire talks in Pakistan amidst ongoing conflict in the Middle East, while the Strait of Hormuz remains a flashpoint with US efforts to clear it.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A shaky ceasefire is reported to be holding in some areas, though violations by Hezbollah and rejections by Israel complicate peace efforts."
+    "summary": "Direct ceasefire talks are underway between the US and Iran, but active conflict persists in Lebanon and the Strait of Hormuz remains a contested area."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 90
   },
@@ -55,58 +55,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 09",
-      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "date": "Apr 11",
+      "text": "US and Iranian delegations are holding historic direct ceasefire talks in Pakistan.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 78
-    },
-    {
-      "date": "Apr 09",
-      "text": "Trump warns Iran ahead of high-stakes talks in Pakistan.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 78
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran's speaker states negotiations with U.S. require Lebanon ceasefire and asset release.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 78
-    },
-    {
-      "date": "Apr 10",
-      "text": "Hezbollah launches rockets at Israel.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 78
+      "latestSinceUpdate": 79
     },
     {
       "date": "Apr 11",
-      "text": "Strait of Hormuz remains closed; U.S. says Iran unable to find mines it planted.",
+      "text": "The Strait of Hormuz remains closed, with the US reporting it has begun clearing the strait and Iranian minelaying ships have sunk.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 78
+      "latestSinceUpdate": 79
     },
     {
       "date": "Apr 11",
-      "text": "U.S. official states no agreements have been made in Iran peace talks yet as shaky ceasefire holds.",
+      "text": "Israel conducted strikes in central Beirut, killing at least 182, and rejected a ceasefire with Hezbollah before Lebanon talks next week.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 79
+    },
+    {
+      "date": "Apr 11",
+      "text": "Trump warned Iran of fresh strikes if peace talks fail, while also stating the US has begun clearing Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 79
+    },
+    {
+      "date": "Apr 11",
+      "text": "Survivors of a deadly Iranian attack on a U.S. military outpost disputed the Pentagon's account, claiming the unit was unprepared.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 79
+    },
+    {
+      "date": "Apr 11",
+      "text": "Palantir's Maven software was reportedly used by the US military in strikes on Iran.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 78
+      "latestSinceUpdate": 79
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
