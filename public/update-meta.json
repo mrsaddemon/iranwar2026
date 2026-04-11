@@ -1,13 +1,13 @@
 {
-  "updateSequence": 65,
+  "updateSequence": 66,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T03:42:36.812Z",
+  "lastSyncedAt": "2026-04-11T05:17:52.215Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A broader ceasefire is being tested by Iran, while Israel explicitly states no ceasefire applies to Lebanon, where significant strikes have occurred."
+    "durationDays": 2026,
+    "summary": "A previous ceasefire has largely collapsed due to escalating strikes between Israel and Hezbollah, with Israel stating a truce with Iran does not apply to its actions in Lebanon."
   }
 }

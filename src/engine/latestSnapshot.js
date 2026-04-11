@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 65,
+  "updateSequence": 66,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T03:42:36.812Z",
+  "lastSyncedAt": "2026-04-11T05:17:52.215Z",
   "warDay": 43,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Peace talks between the US and Iran are underway in Pakistan amidst continued Iranian control of the Strait of Hormuz and escalating conflict between Israel and Hezbollah, threatening existing ceasefires.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A broader ceasefire is being tested by Iran, while Israel explicitly states no ceasefire applies to Lebanon, where significant strikes have occurred."
+    "durationDays": 2026,
+    "summary": "A previous ceasefire has largely collapsed due to escalating strikes between Israel and Hezbollah, with Israel stating a truce with Iran does not apply to its actions in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -24,27 +24,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 95
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "info",
-      "latestSinceUpdate": 64
-    },
-    {
-      "date": "Apr 09",
-      "text": "US envoy Vance heads to Pakistan for peace talks with Iran.",
-      "severity": "info",
-      "latestSinceUpdate": 65
-    },
-    {
-      "date": "Apr 09",
-      "text": "Iran's speaker links US negotiations to a Lebanon ceasefire and asset release.",
-      "severity": "info",
-      "latestSinceUpdate": 65
-    },
-    {
-      "date": "Apr 10",
-      "text": "Trump warns of fresh strikes if Iran talks fail.",
-      "severity": "warning",
-      "latestSinceUpdate": 65
-    },
-    {
-      "date": "Apr 10",
-      "text": "Strait of Hormuz remains closed; US reports Iran is unable to find mines it planted.",
+      "text": "Iran retains choke hold on Strait of Hormuz ahead of peace talks.",
       "severity": "critical",
-      "latestSinceUpdate": 65
+      "latestSinceUpdate": 66
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "severity": "info",
+      "latestSinceUpdate": 66
     },
     {
       "date": "Apr 10",
-      "text": "Trump asserts the Strait of Hormuz will reopen 'soon,' with or without Iran.",
+      "text": "Trump warns Iran ahead of high-stakes talks and of fresh strikes if talks fail.",
       "severity": "warning",
-      "latestSinceUpdate": 65
+      "latestSinceUpdate": 66
+    },
+    {
+      "date": "Apr 10",
+      "text": "Vance warns Iran not to play the U.S. in peace talks as Strait of Hormuz remains closed.",
+      "severity": "warning",
+      "latestSinceUpdate": 66
+    },
+    {
+      "date": "Apr 10",
+      "text": "Israel strikes central Beirut, killing at least 182, stating Iran truce doesn't apply there.",
+      "severity": "critical",
+      "latestSinceUpdate": 66
+    },
+    {
+      "date": "Apr 10",
+      "text": "Israel and Hezbollah trade strikes, further threatening ceasefire.",
+      "severity": "critical",
+      "latestSinceUpdate": 66
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
