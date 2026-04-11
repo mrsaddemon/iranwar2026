@@ -58,40 +58,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Apr 09",
       "text": "Iranian delegation arrived in Pakistan for high-stakes peace talks with the US, with Vance en route.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
       "latestSinceUpdate": 71
     },
     {
       "date": "Apr 09",
       "text": "Trump warned Iran ahead of talks, stating fresh strikes would occur if negotiations fail and criticizing the continued closure of the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
       "latestSinceUpdate": 71
     },
     {
       "date": "Apr 10",
       "text": "Israel announced it would hold ceasefire talks with Lebanon next week but rejected a ceasefire with Hezbollah, subsequently striking central Beirut, killing at least 182.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNWS1NZzlDT3Q3Qzk2azVVekRXcG5SLUl1OGVCMUo0S0dPQldxMVBUVU1IN1BHWTBERDZGcUdOTl9FaVM2OHA4OW1XbkQtV3NXQkthYnRLQTFzQm5mdUllOGdpNUVlM0dFVVc1dGllNTRLem92LTFnRndNTHN2ekc1WFNKdDlnMXNTcGE3cWlNMXBxXzVWTU9zMGR0VVFyVG5I?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
       "latestSinceUpdate": 71
     },
     {
       "date": "Apr 10",
       "text": "The Strait of Hormuz remains closed, with the US stating Iran is unable to find mines it planted, while Iran considers it a 'trump card' in talks.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdEZpSXNBOEVfaXZQcEJ5cktET19Ga1EtaG5NVXU1YjBpV1duSWJOd05ZTjliOW9tQldDYjMyVmV2U1N1RkdfLWlyRlNsQXZmem9lVHNZMVFXeU9SM2Y4ZXRMekRZMWlFZ0gzS2tTX1dVejdrclFzbjVyaEdpV3B2OWI3RlhGeVVKdHlBVGRZRUlUQVR3S2l0azBvZk5RbmZrTEh4VnA3bC1LY0ZVQ2hoYm1fd3BnLUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "USA Today",
       "latestSinceUpdate": 71
     },
     {
       "date": "Apr 11",
       "text": "US military is 'loading up and resting' as Iran tests a ceasefire, amidst growing disquiet within the military.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOaGxmV2ZBUEtNZE9iS3dDOHExTW9TcnlSUnJybmhzZllWaVNKd3pQbjlGTlVlX0J1b2xyNWNVbHlHYWhoYXQ0ZXUwcnV3b0VFZ21vU1pjUWhQLUtCLVhEdXFSTHhXZW05XzRpSWU1ZHU2RDY4TTlJTlROV1BxMTdiNnZvV1pRU0NkbEVabHhxUWNIbDJndXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
       "latestSinceUpdate": 71
     }
   ],

@@ -161,6 +161,17 @@ function isGoogleRssArticleUrl(url) {
   return /^https?:\/\/news\.google\.com\/rss\/articles\//i.test(String(url || '').trim());
 }
 
+function extractGoogleArticleId(url) {
+  const normalizedUrl = String(url || '').trim();
+  const match = normalizedUrl.match(/news\.google\.com\/rss\/articles\/([^?/#]+)/i);
+  return match?.[1] || null;
+}
+
+function buildGoogleArticlePageUrl(articleId) {
+  if (!articleId) return null;
+  return `https://news.google.com/articles/${articleId}?hl=en-US&gl=US&ceid=US:en`;
+}
+
 function isValuableSourceUrl(url) {
   const normalizedUrl = String(url || '').trim();
   if (!/^https?:\/\//i.test(normalizedUrl) || isGoogleRssArticleUrl(normalizedUrl)) {
@@ -182,9 +193,14 @@ function isValuableSourceUrl(url) {
 
 function chooseEventSourceUrl({ primaryUrl, sourceSiteUrl }) {
   const normalizedPrimary = String(primaryUrl || '').trim();
+  const googleArticleId = extractGoogleArticleId(normalizedPrimary);
 
   if (isValuableSourceUrl(normalizedPrimary)) {
     return normalizedPrimary;
+  }
+
+  if (googleArticleId) {
+    return buildGoogleArticlePageUrl(googleArticleId);
   }
 
   return null;
@@ -1132,10 +1148,12 @@ function attachEventSources(events = [], sourceBundle) {
     if (isValuableSourceUrl(event?.sourceUrl)) return event;
     const matchedArticle = findSourceArticleForText(event?.text, sourceArticleIndex, { usedUrls });
     if (matchedArticle?.url) usedUrls.add(matchedArticle.url);
+    const currentSourceName = String(event?.sourceName || '').trim();
+    const shouldReplaceGenericSource = !currentSourceName || /^google news rss$/i.test(currentSourceName);
     return {
       ...event,
       sourceUrl: matchedArticle?.url || null,
-      sourceName: event?.sourceName || matchedArticle?.sourceName || null,
+      sourceName: shouldReplaceGenericSource ? (matchedArticle?.sourceName || currentSourceName || null) : currentSourceName,
     };
   });
 }
