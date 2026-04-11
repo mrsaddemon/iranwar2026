@@ -1,13 +1,13 @@
 {
-  "updateSequence": 81,
+  "updateSequence": 82,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T15:05:22.292Z",
+  "lastSyncedAt": "2026-04-11T15:45:26.145Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "Peace talks involving Iran and the US are underway, but active conflict persists in Lebanon, and the Strait of Hormuz remains a point of tension, indicating a highly fragile and partial de-escalation."
+    "summary": "Direct peace talks between the US and Iran are underway, but active conflict between Israel and Hezbollah continues, and threats of further strikes persist, indicating a highly fragile and partial de-escalation effort."
   }
 }

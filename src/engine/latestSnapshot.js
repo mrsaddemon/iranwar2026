@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 81,
+  "updateSequence": 82,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T15:05:22.292Z",
+  "lastSyncedAt": "2026-04-11T15:45:26.145Z",
   "warDay": 43,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-11",
@@ -10,45 +10,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "Peace talks involving Iran and the US are underway, but active conflict persists in Lebanon, and the Strait of Hormuz remains a point of tension, indicating a highly fragile and partial de-escalation."
+    "summary": "Direct peace talks between the US and Iran are underway, but active conflict between Israel and Hezbollah continues, and threats of further strikes persist, indicating a highly fragile and partial de-escalation effort."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 90
+    "oilDisruption": 70
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -56,27 +56,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 11",
-      "text": "Iranian delegation arrives in Pakistan for talks with US officials.",
+      "text": "Iranian delegation arrives in Pakistan for talks with US.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 81
+      "latestSinceUpdate": 82
     },
     {
       "date": "Apr 11",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 81
-    },
-    {
-      "date": "Apr 11",
-      "text": "Iran's speaker links negotiations with the U.S. to a Lebanon ceasefire and asset release.",
+      "text": "US and Iran hold direct peace talks in Pakistan.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 81
+      "latestSinceUpdate": 82
     },
     {
       "date": "Apr 11",
@@ -88,25 +80,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 11",
-      "text": "U.S. warships cross the Strait of Hormuz for the first time since the Iran war began.",
-      "severity": "critical",
+      "text": "Trump claims US has begun clearing mines in the Strait of Hormuz.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 81
+      "latestSinceUpdate": 82
     },
     {
       "date": "Apr 11",
-      "text": "Strait of Hormuz remains closed, with Trump claiming US forces have begun clearing mines.",
-      "severity": "critical",
+      "text": "U.S. warships cross Strait of Hormuz for first time since Iran war began.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 81
+      "latestSinceUpdate": 82
+    },
+    {
+      "date": "Apr 11",
+      "text": "Three oil supertankers appear to make move through Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 82
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
