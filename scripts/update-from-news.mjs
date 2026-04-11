@@ -188,6 +188,10 @@ function buildGoogleArticlePageUrl(articleId) {
   return `https://news.google.com/articles/${articleId}?hl=en-US&gl=US&ceid=US:en`;
 }
 
+function isGoogleArticlePageUrl(url) {
+  return /^https?:\/\/news\.google\.com\/articles\//i.test(String(url || '').trim());
+}
+
 function isValuableSourceUrl(url) {
   const normalizedUrl = String(url || '').trim();
   if (!/^https?:\/\//i.test(normalizedUrl) || isGoogleRssArticleUrl(normalizedUrl) || isGoogleOwnedUrl(normalizedUrl)) {
@@ -205,6 +209,10 @@ function isValuableSourceUrl(url) {
   } catch {
     return false;
   }
+}
+
+function isUsableEventSourceUrl(url) {
+  return isValuableSourceUrl(url) || isGoogleArticlePageUrl(url);
 }
 
 function extractCandidateUrlsFromHtml(html) {
@@ -242,11 +250,20 @@ function choosePublisherArticleUrl({ primaryUrl, sourceSiteUrl, candidateUrls = 
 
 function chooseEventSourceUrl({ primaryUrl, sourceSiteUrl, candidateUrls = [] }) {
   const normalizedPrimary = String(primaryUrl || '').trim();
-  return choosePublisherArticleUrl({
+  const directPublisherUrl = choosePublisherArticleUrl({
     primaryUrl: normalizedPrimary,
     sourceSiteUrl,
     candidateUrls,
   });
+
+  if (directPublisherUrl) return directPublisherUrl;
+
+  const googleArticleId = extractGoogleArticleId(normalizedPrimary);
+  if (googleArticleId) {
+    return buildGoogleArticlePageUrl(googleArticleId);
+  }
+
+  return null;
 }
 
 function normalizeSourceHeadline(text) {
@@ -999,7 +1016,7 @@ function buildSourceArticleIndex(sourceBundle) {
 
   for (const article of articles) {
     const normalizedHeadline = normalizeHeadlineText(article.headline);
-    const normalizedUrl = isValuableSourceUrl(article.url) ? article.url : null;
+    const normalizedUrl = isUsableEventSourceUrl(article.url) ? article.url : null;
     if (!normalizedHeadline || !normalizedUrl) continue;
 
     const indexedArticle = {
@@ -1066,7 +1083,7 @@ function buildFallbackRecentEvents(sourceBundle, today, summary) {
       date,
       text: headline,
       severity: inferEventSeverity(headline),
-      sourceUrl: matchedArticle?.url || null,
+      sourceUrl: isUsableEventSourceUrl(matchedArticle?.url) ? matchedArticle.url : null,
       sourceName: matchedArticle?.sourceName || null,
     };
   });
@@ -1186,19 +1203,19 @@ function attachEventSources(events = [], sourceBundle) {
   const sourceArticleIndex = buildSourceArticleIndex(sourceBundle);
   const usedUrls = new Set(
     events
-      .map((event) => (isValuableSourceUrl(event?.sourceUrl) ? event.sourceUrl : null))
+      .map((event) => (isUsableEventSourceUrl(event?.sourceUrl) ? event.sourceUrl : null))
       .filter(Boolean),
   );
 
   return events.map((event) => {
-    if (isValuableSourceUrl(event?.sourceUrl)) return event;
+    if (isUsableEventSourceUrl(event?.sourceUrl)) return event;
     const matchedArticle = findSourceArticleForText(event?.text, sourceArticleIndex, { usedUrls });
     if (matchedArticle?.url) usedUrls.add(matchedArticle.url);
     const currentSourceName = String(event?.sourceName || '').trim();
     const shouldReplaceGenericSource = !currentSourceName || /^google news rss$/i.test(currentSourceName);
     return {
       ...event,
-      sourceUrl: matchedArticle?.url || null,
+      sourceUrl: isUsableEventSourceUrl(matchedArticle?.url) ? matchedArticle.url : null,
       sourceName: shouldReplaceGenericSource ? (matchedArticle?.sourceName || currentSourceName || null) : currentSourceName,
     };
   });
@@ -1218,7 +1235,7 @@ function normalizeParams(rawParams, previousSnapshot, today, warDay) {
           date: event?.date || formatEventDateLabel(today),
           text: event?.text || '',
           severity: ['info', 'warning', 'critical', 'stable'].includes(event?.severity) ? event.severity : inferEventSeverity(event?.text || ''),
-          sourceUrl: isValuableSourceUrl(event?.sourceUrl) ? event.sourceUrl : null,
+          sourceUrl: isUsableEventSourceUrl(event?.sourceUrl) ? event.sourceUrl : null,
           sourceName: event?.sourceName || null,
         }))
       : (fallbackSnapshot.recentEvents || []),

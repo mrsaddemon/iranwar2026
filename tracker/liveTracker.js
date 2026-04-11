@@ -59,8 +59,8 @@ let trackerSnapshotCache = {
 };
 
 const SHIP_CACHE_TTL_MS = 5 * 60 * 1000;
-const FLIGHT_CACHE_TTL_MS = 5 * 60 * 1000;
-const TRACKER_SNAPSHOT_TTL_MS = 30000;
+const FLIGHT_CACHE_TTL_MS = 30 * 60 * 1000;
+const TRACKER_SNAPSHOT_TTL_MS = 5 * 60 * 1000;
 const MAX_GLOBAL_FLIGHTS = 180;
 const MAX_GLOBAL_SHIPS = 120;
 const MAX_PRIORITY_SHIPS = 36;
@@ -236,7 +236,7 @@ async function fetchFlightSnapshot(config) {
   if (!response.ok) {
     if (response.status === 429) {
       openskyRateLimitCache = {
-        limitedUntil: Date.now() + (2 * 60 * 1000),
+        limitedUntil: Date.now() + (10 * 60 * 1000),
       };
       if (flightSnapshotCache.flights.length > 0 && (Date.now() - flightSnapshotCache.generatedAt) <= FLIGHT_CACHE_TTL_MS) {
         flightFetchMeta = {

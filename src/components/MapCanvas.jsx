@@ -224,7 +224,9 @@ function getTrackerStatusText(trackerSnapshot, visibleFlights, visibleShips, tra
   const normalizeStatus = (value, hiddenLabel) => {
     const text = String(value || '').toLowerCase();
     if (text === 'hidden') return hiddenLabel;
+    if (text.includes('connecting') || text.includes('loading')) return 'CONNECTING';
     if (text.includes('throttled') || text.includes('429') || text.includes('too many requests') || text.includes('rate limit')) return 'THROTTLED';
+    if (text.includes('522')) return 'UPSTREAM';
     if (text.includes('stale cache')) return 'CACHED';
     if (text.includes('ok')) return 'LIVE';
     if (text.includes('failed')) return 'UNAVAILABLE';

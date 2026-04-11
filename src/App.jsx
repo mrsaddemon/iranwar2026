@@ -399,6 +399,13 @@ export default function App() {
     setTrackerVisibility((previous) => {
       const next = { ...previous, [layer]: !previous[layer] };
       storeTrackerVisibility(next);
+      setTrackerSnapshot((current) => ({
+        ...(current || {}),
+        sourceStatus: {
+          ...(current?.sourceStatus || {}),
+          [layer === 'flights' ? 'flights' : 'ships']: next[layer] ? 'connecting' : 'hidden',
+        },
+      }));
       return next;
     });
   }, []);
