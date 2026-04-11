@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 75,
+  "updateSequence": 76,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T10:48:52.093Z",
+  "lastSyncedAt": "2026-04-11T11:17:48.641Z",
   "warDay": 43,
-  "summary": "The Middle East conflict continues, drawing significant international attention.",
+  "summary": "Middle East conflict continues with Israel rejecting a ceasefire in Lebanon while Iran engages in peace talks with the US, complicated by demands for a Lebanon ceasefire and the ongoing closure of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "A 'Trump ceasefire' is mentioned but is not holding in the Strait of Hormuz and is explicitly rejected by Israel in Lebanon, with ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -18,33 +18,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.3
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 70,
-    "oilDisruption": 75
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -53,11 +53,60 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "mosaicDefense": false,
     "unscShield": true
   },
-  "recentEvents": [],
+  "recentEvents": [
+    {
+      "date": "Apr 09",
+      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 76
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iranian delegation arrives in Pakistan for talks with the US, with Vance en route.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 76
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iran's speaker says negotiations with the U.S. cannot start without a Lebanon ceasefire and asset release.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 76
+    },
+    {
+      "date": "Apr 09",
+      "text": "Hezbollah launches rockets at Israel.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 76
+    },
+    {
+      "date": "Apr 11",
+      "text": "Strait of Hormuz choke point persists as Iran halts oil traffic despite a reported ceasefire.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 76
+    },
+    {
+      "date": "Apr 11",
+      "text": "Three oil supertankers appear to make a move through the Hormuz Strait.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 76
+    }
+  ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "no recent items"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

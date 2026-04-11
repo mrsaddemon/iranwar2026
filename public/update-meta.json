@@ -1,13 +1,13 @@
 {
-  "updateSequence": 75,
+  "updateSequence": 76,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T10:48:52.093Z",
+  "lastSyncedAt": "2026-04-11T11:17:48.641Z",
   "warDay": 43,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "A 'Trump ceasefire' is mentioned but is not holding in the Strait of Hormuz and is explicitly rejected by Israel in Lebanon, with ongoing hostilities."
   }
 }
