@@ -1,13 +1,13 @@
 {
-  "updateSequence": 95,
+  "updateSequence": 96,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T19:57:43.427Z",
+  "lastSyncedAt": "2026-04-11T20:16:55.102Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, though peace talks between the US and Iran, and potential talks between Israel and Lebanon, are underway."
+    "summary": "Ceasefire talks are underway between the US and Iran, and Israel and Lebanon, amidst continued military actions and threats."
   }
 }

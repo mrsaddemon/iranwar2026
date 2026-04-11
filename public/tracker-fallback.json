@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-11T19:57:43.425Z",
+  "generatedAt": "2026-04-11T20:16:55.100Z",
   "flights": [],
-  "status": "failed (states 429)"
+  "status": "failed (The operation was aborted due to timeout)"
 }
