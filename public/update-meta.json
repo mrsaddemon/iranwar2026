@@ -1,13 +1,13 @@
 {
-  "updateSequence": 83,
+  "updateSequence": 84,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T16:17:45.293Z",
+  "lastSyncedAt": "2026-04-11T16:39:43.229Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A broader Iran ceasefire is in effect but is highly fragile due to ongoing Israel-Lebanon conflict and threats of renewed strikes."
+    "summary": "Diplomatic efforts are underway with peace talks in Pakistan and planned talks between Israel and Lebanon, but active military engagements and threats continue."
   }
 }
