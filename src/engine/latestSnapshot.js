@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 66,
+  "updateSequence": 67,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T05:17:52.215Z",
+  "lastSyncedAt": "2026-04-11T06:15:53.799Z",
   "warDay": 43,
-  "summary": "Peace talks between the US and Iran are underway in Pakistan amidst continued Iranian control of the Strait of Hormuz and escalating conflict between Israel and Hezbollah, threatening existing ceasefires.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "A previous ceasefire has largely collapsed due to escalating strikes between Israel and Hezbollah, with Israel stating a truce with Iran does not apply to its actions in Lebanon."
+    "summary": "Despite ongoing peace talks, a formal ceasefire is not active in Lebanon, and existing de-escalation efforts are fragile and being tested by continued military actions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,16 +27,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
@@ -56,45 +56,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Iran retains choke hold on Strait of Hormuz ahead of peace talks.",
-      "severity": "critical",
-      "latestSinceUpdate": 66
+      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
+      "severity": "info",
+      "latestSinceUpdate": 67
     },
     {
       "date": "Apr 09",
-      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "text": "Iran Update Special Report released.",
       "severity": "info",
-      "latestSinceUpdate": 66
+      "latestSinceUpdate": 67
     },
     {
       "date": "Apr 10",
-      "text": "Trump warns Iran ahead of high-stakes talks and of fresh strikes if talks fail.",
+      "text": "Trump criticizes Iran for restricting oil flow through the Strait of Hormuz.",
       "severity": "warning",
-      "latestSinceUpdate": 66
+      "latestSinceUpdate": 67
     },
     {
       "date": "Apr 10",
-      "text": "Vance warns Iran not to play the U.S. in peace talks as Strait of Hormuz remains closed.",
+      "text": "Iranian delegation arrives in Pakistan for talks with the US.",
+      "severity": "info",
+      "latestSinceUpdate": 67
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran warns of strong responses as Israeli attacks on Lebanon threaten a ceasefire.",
       "severity": "warning",
-      "latestSinceUpdate": 66
+      "latestSinceUpdate": 67
     },
     {
       "date": "Apr 10",
-      "text": "Israel strikes central Beirut, killing at least 182, stating Iran truce doesn't apply there.",
+      "text": "Vance warns Iran against playing games in peace talks as the Strait of Hormuz remains closed.",
       "severity": "critical",
-      "latestSinceUpdate": 66
-    },
-    {
-      "date": "Apr 10",
-      "text": "Israel and Hezbollah trade strikes, further threatening ceasefire.",
-      "severity": "critical",
-      "latestSinceUpdate": 66
+      "latestSinceUpdate": 67
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

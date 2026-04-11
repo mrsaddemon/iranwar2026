@@ -1,13 +1,13 @@
 {
-  "updateSequence": 66,
+  "updateSequence": 67,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T05:17:52.215Z",
+  "lastSyncedAt": "2026-04-11T06:15:53.799Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "A previous ceasefire has largely collapsed due to escalating strikes between Israel and Hezbollah, with Israel stating a truce with Iran does not apply to its actions in Lebanon."
+    "summary": "Despite ongoing peace talks, a formal ceasefire is not active in Lebanon, and existing de-escalation efforts are fragile and being tested by continued military actions."
   }
 }
