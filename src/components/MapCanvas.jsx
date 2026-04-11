@@ -442,7 +442,7 @@ export default function MapCanvas({
 
   const scaleAroundPoint = useCallback((pointX, pointY, nextScale) => {
     const current = viewTransformRef.current;
-    const clampedScale = Math.max(0.5, Math.min(3, nextScale));
+    const clampedScale = Math.max(0.5, Math.min(5.5, nextScale));
     if (clampedScale === current.scale) return;
 
     const ratio = clampedScale / current.scale;
