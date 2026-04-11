@@ -161,6 +161,22 @@ function isGoogleRssArticleUrl(url) {
   return /^https?:\/\/news\.google\.com\/rss\/articles\//i.test(String(url || '').trim());
 }
 
+function isGoogleOwnedUrl(url) {
+  const normalizedUrl = String(url || '').trim();
+  if (!/^https?:\/\//i.test(normalizedUrl)) return false;
+
+  try {
+    const parsedUrl = new URL(normalizedUrl);
+    const hostname = parsedUrl.hostname.toLowerCase();
+    return hostname === 'news.google.com'
+      || hostname === 'google.com'
+      || hostname.endsWith('.google.com')
+      || hostname.endsWith('.googleusercontent.com');
+  } catch {
+    return false;
+  }
+}
+
 function extractGoogleArticleId(url) {
   const normalizedUrl = String(url || '').trim();
   const match = normalizedUrl.match(/news\.google\.com\/rss\/articles\/([^?/#]+)/i);
@@ -174,7 +190,7 @@ function buildGoogleArticlePageUrl(articleId) {
 
 function isValuableSourceUrl(url) {
   const normalizedUrl = String(url || '').trim();
-  if (!/^https?:\/\//i.test(normalizedUrl) || isGoogleRssArticleUrl(normalizedUrl)) {
+  if (!/^https?:\/\//i.test(normalizedUrl) || isGoogleRssArticleUrl(normalizedUrl) || isGoogleOwnedUrl(normalizedUrl)) {
     return false;
   }
 
@@ -191,19 +207,46 @@ function isValuableSourceUrl(url) {
   }
 }
 
-function chooseEventSourceUrl({ primaryUrl, sourceSiteUrl }) {
+function extractCandidateUrlsFromHtml(html) {
+  return [...String(html || '').matchAll(/href="(.*?)"/gi)]
+    .map((match) => decodeHtmlEntities(match[1] || '').trim())
+    .filter(Boolean);
+}
+
+function getHost(url) {
+  try {
+    return new URL(url).hostname.toLowerCase();
+  } catch {
+    return '';
+  }
+}
+
+function choosePublisherArticleUrl({ primaryUrl, sourceSiteUrl, candidateUrls = [] }) {
   const normalizedPrimary = String(primaryUrl || '').trim();
-  const googleArticleId = extractGoogleArticleId(normalizedPrimary);
+  const sourceHost = getHost(sourceSiteUrl);
+  const directCandidates = uniqueNonEmpty([
+    normalizedPrimary,
+    ...candidateUrls,
+  ]).filter((url) => isValuableSourceUrl(url));
 
-  if (isValuableSourceUrl(normalizedPrimary)) {
-    return normalizedPrimary;
+  if (sourceHost) {
+    const sameHost = directCandidates.find((url) => {
+      const candidateHost = getHost(url);
+      return candidateHost === sourceHost || candidateHost.endsWith(`.${sourceHost}`) || sourceHost.endsWith(`.${candidateHost}`);
+    });
+    if (sameHost) return sameHost;
   }
 
-  if (googleArticleId) {
-    return buildGoogleArticlePageUrl(googleArticleId);
-  }
+  return directCandidates[0] || null;
+}
 
-  return null;
+function chooseEventSourceUrl({ primaryUrl, sourceSiteUrl, candidateUrls = [] }) {
+  const normalizedPrimary = String(primaryUrl || '').trim();
+  return choosePublisherArticleUrl({
+    primaryUrl: normalizedPrimary,
+    sourceSiteUrl,
+    candidateUrls,
+  });
 }
 
 function normalizeSourceHeadline(text) {
@@ -372,9 +415,11 @@ async function fetchGoogleNewsHeadlines() {
         .map((itemText) => {
           const titleMatch = itemText.match(/<title>(.*?)<\/title>/i);
           const linkMatch = itemText.match(/<link>(.*?)<\/link>/i);
+          const descriptionMatch = itemText.match(/<description>([\s\S]*?)<\/description>/i);
           const sourceTagMatch = itemText.match(/<source[^>]*url="(.*?)"[^>]*>(.*?)<\/source>/i);
           const title = normalizeSourceHeadline(titleMatch?.[1] || '');
           const link = decodeHtmlEntities(linkMatch?.[1] || '').trim();
+          const descriptionHtml = decodeHtmlEntities(descriptionMatch?.[1] || '');
           const sourceSiteUrl = decodeHtmlEntities(sourceTagMatch?.[1] || '').trim();
           const sourceName = decodeHtmlEntities(sourceTagMatch?.[2] || '').trim() || 'Google News RSS';
           if (!isUsefulHeadline(title)) return null;
@@ -383,6 +428,7 @@ async function fetchGoogleNewsHeadlines() {
             url: chooseEventSourceUrl({
               primaryUrl: /^https?:\/\//i.test(link) ? link : null,
               sourceSiteUrl,
+              candidateUrls: extractCandidateUrlsFromHtml(descriptionHtml),
             }),
             sourceName,
           };

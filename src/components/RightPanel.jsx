@@ -7,8 +7,91 @@ const SEVERITY_COLORS = {
   info: '#3b82f6',
 };
 
+function extractGoogleArticleId(url) {
+  const normalizedUrl = String(url || '').trim();
+  const match = normalizedUrl.match(/news\.google\.com\/rss\/articles\/([^?/#]+)/i);
+  return match?.[1] || null;
+}
+
+function buildGoogleArticlePageUrl(articleId) {
+  if (!articleId) return null;
+  return `https://news.google.com/articles/${articleId}?hl=en-US&gl=US&ceid=US:en`;
+}
+
+function isGoogleOwnedUrl(url) {
+  const normalizedUrl = String(url || '').trim();
+  if (!/^https?:\/\//i.test(normalizedUrl)) return false;
+
+  try {
+    const parsedUrl = new URL(normalizedUrl);
+    const hostname = parsedUrl.hostname.toLowerCase();
+    return hostname === 'news.google.com'
+      || hostname === 'google.com'
+      || hostname.endsWith('.google.com')
+      || hostname.endsWith('.googleusercontent.com');
+  } catch {
+    return false;
+  }
+}
+
+function getEventHref(event) {
+  const sourceUrl = String(event?.sourceUrl || '').trim();
+  if (!sourceUrl) return null;
+
+  const googleArticleId = extractGoogleArticleId(sourceUrl);
+  if (googleArticleId) {
+    return buildGoogleArticlePageUrl(googleArticleId);
+  }
+
+  if (/^https?:\/\//i.test(sourceUrl)) {
+    return sourceUrl;
+  }
+
+  return null;
+}
+
+function formatHostAsSourceLabel(url) {
+  try {
+    const hostname = new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+    const sourceMap = {
+      'apnews.com': 'AP News',
+      'theguardian.com': 'The Guardian',
+      'nytimes.com': 'The New York Times',
+      'npr.org': 'NPR',
+      'usatoday.com': 'USA Today',
+      'reuters.com': 'Reuters',
+      'aljazeera.com': 'Al Jazeera',
+      'bbc.com': 'BBC',
+      'bbc.co.uk': 'BBC',
+      'cnn.com': 'CNN',
+    };
+    return sourceMap[hostname] || hostname;
+  } catch {
+    return null;
+  }
+}
+
+function getEventSourceLabel(event, href) {
+  const currentSourceName = String(event?.sourceName || '').trim();
+  if (currentSourceName && !/^google news rss$/i.test(currentSourceName)) {
+    return currentSourceName;
+  }
+
+  if (href && !isGoogleOwnedUrl(href)) {
+    return formatHostAsSourceLabel(href) || currentSourceName || null;
+  }
+
+  if (/^google news rss$/i.test(currentSourceName)) {
+    return 'Google News';
+  }
+
+  return currentSourceName || null;
+}
+
 function EventItem({ event }) {
   const color = SEVERITY_COLORS[event.severity] || SEVERITY_COLORS.info;
+  const href = getEventHref(event);
+  const sourceLabel = getEventSourceLabel(event, href);
   const content = (
     <>
       <div className="event-top-row">
@@ -21,21 +104,21 @@ function EventItem({ event }) {
       {event.actor !== 'Global' && event.actor !== 'System' && (
         <div className="event-actor" style={{ color: `${color}80` }}>{event.actor}</div>
       )}
-      {event.sourceName && (
-        <div className="event-source-label">{event.sourceName}</div>
+      {sourceLabel && (
+        <div className="event-source-label">{sourceLabel}</div>
       )}
     </>
   );
 
-  if (event.sourceUrl) {
+  if (href) {
     return (
       <a
         className="event-item event-item-link"
         style={{ borderLeftColor: color }}
-        href={event.sourceUrl}
+        href={href}
         target="_blank"
         rel="noreferrer"
-        title={`Open source${event.sourceName ? `: ${event.sourceName}` : ''}`}
+        title={`Open source${sourceLabel ? `: ${sourceLabel}` : ''}`}
       >
         {content}
       </a>
