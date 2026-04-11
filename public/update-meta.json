@@ -1,13 +1,13 @@
 {
-  "updateSequence": 73,
+  "updateSequence": 74,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T09:08:51.422Z",
+  "lastSyncedAt": "2026-04-11T09:53:20.623Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2026,
-    "summary": "Ceasefire talks are underway between the US and Iran in Pakistan, but Israel has rejected a ceasefire with Hezbollah, and strikes continue in Lebanon, indicating a highly fragile and partial truce."
+    "durationDays": 5,
+    "summary": "A shaky ceasefire between the U.S. and Iran is holding amidst ongoing conflict between Israel and Hezbollah in Lebanon, which Israel states is not covered by the truce."
   }
 }
