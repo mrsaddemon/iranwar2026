@@ -1,13 +1,13 @@
 {
-  "updateSequence": 82,
+  "updateSequence": 83,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T15:45:26.145Z",
+  "lastSyncedAt": "2026-04-11T16:17:45.293Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 3,
-    "summary": "Direct peace talks between the US and Iran are underway, but active conflict between Israel and Hezbollah continues, and threats of further strikes persist, indicating a highly fragile and partial de-escalation effort."
+    "durationDays": 10,
+    "summary": "A broader Iran ceasefire is in effect but is highly fragile due to ongoing Israel-Lebanon conflict and threats of renewed strikes."
   }
 }

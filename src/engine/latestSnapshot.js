@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 82,
+  "updateSequence": 83,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T15:45:26.145Z",
+  "lastSyncedAt": "2026-04-11T16:17:45.293Z",
   "warDay": 43,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Direct peace talks between the US and Iran are underway in Pakistan amidst rising tensions in the Strait of Hormuz and ongoing conflict between Israel and Hezbollah in Lebanon, threatening a broader Iran ceasefire.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 3,
-    "summary": "Direct peace talks between the US and Iran are underway, but active conflict between Israel and Hezbollah continues, and threats of further strikes persist, indicating a highly fragile and partial de-escalation effort."
+    "durationDays": 10,
+    "summary": "A broader Iran ceasefire is in effect but is highly fragile due to ongoing Israel-Lebanon conflict and threats of renewed strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.55,
+        "aggression": 0.58
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 12,
     "escalationLevel": 48,
-    "oilDisruption": 70
+    "oilDisruption": 78
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -64,6 +64,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 11",
+      "text": "Israel to hold ceasefire talks with Lebanon next week.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 83
+    },
+    {
+      "date": "Apr 11",
       "text": "US and Iran hold direct peace talks in Pakistan.",
       "severity": "info",
       "sourceUrl": null,
@@ -80,27 +88,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 11",
-      "text": "Trump claims US has begun clearing mines in the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 82
-    },
-    {
-      "date": "Apr 11",
-      "text": "U.S. warships cross Strait of Hormuz for first time since Iran war began.",
+      "text": "Ongoing Israel-Lebanon conflict could shatter the Iran ceasefire.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 82
+      "latestSinceUpdate": 83
     },
     {
       "date": "Apr 11",
-      "text": "Three oil supertankers appear to make move through Hormuz.",
+      "text": "Iran unable to find mines it planted in Strait of Hormuz, according to U.S. sources.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 82
+      "latestSinceUpdate": 83
     }
   ],
   "sourceStatuses": [
