@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 101,
+  "updateSequence": 102,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T23:18:55.156Z",
+  "lastSyncedAt": "2026-04-11T23:52:56.703Z",
   "warDay": 43,
-  "summary": "US and Iranian delegations are engaged in peace talks in Pakistan amidst rising tensions in the Strait of Hormuz, while Israel continues its conflict with Hezbollah and authorizes talks with Lebanon.",
+  "summary": "High-level peace talks between the U.S. and Iran are underway in Pakistan amidst rising tensions in the Strait of Hormuz, where U.S. Navy ships are clearing mines, while Israel continues its conflict with Hezbollah and Hamas.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.55,
+    "status": "none",
+    "confidence": 0.14,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, though US-Iran peace talks are underway and Israel has authorized talks with Lebanon."
+    "summary": "No active ceasefire is in effect, with Israel rejecting a truce with Hezbollah and U.S.-Iran peace talks ongoing amidst military tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 80,
-    "oilDisruption": 85
+    "escalationLevel": 70,
+    "oilDisruption": 75
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,51 +56,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 11",
-      "text": "US and Iranian delegations are holding peace talks in Pakistan, with discussions lasting into the morning hours.",
+      "text": "Iranian delegation arrives in Pakistan for high-level peace talks with the US.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 101
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 102
     },
     {
       "date": "Apr 11",
-      "text": "Two U.S. warships transited the Strait of Hormuz, marking the first such passage since the war began.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 101
-    },
-    {
-      "date": "Apr 11",
-      "text": "The U.S. military is reportedly 'setting conditions' to clear mines from the Strait of Hormuz.",
+      "text": "US Navy warships cross the Strait of Hormuz to clear mines, with the US military 'setting conditions'.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 101
+      "latestSinceUpdate": 102
     },
     {
       "date": "Apr 11",
-      "text": "Netanyahu authorized direct talks with Lebanon, but Israel rejected a ceasefire with Hezbollah before next week's talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 101
+      "text": "Israel rejects a ceasefire with Hezbollah, citing plans to invade Galilee, and insists on dealing with Hamas.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 102
     },
     {
       "date": "Apr 11",
-      "text": "Trump warned of fresh strikes if Iran talks fail and claimed the US has begun clearing mines in the Strait of Hormuz.",
-      "severity": "critical",
+      "text": "Trump warns of fresh strikes if Iran talks fail and claims U.S. 'victory' in the Iran war.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 101
+      "latestSinceUpdate": 102
     },
     {
       "date": "Apr 11",
-      "text": "An expert suggests the U.S. military is preparing for 'round 2' against Iran, with the Navy testing a Hormuz blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQNTVRX2pESDU2MThjSVpwWHdDNkdfX1c1MFhYZHBiT3lUUkFPTE9WNTc1Vkx2MTdaaGRYdHhTZ3M3cF9ESUktc195bWJfUmNYSmk4WGFRaGtxN1YwaWNMcjNkZF9iU0dZWng2ZlV0Q3FTcEdQdVNpSjFDb2p2aE1nemVBN215cTNodkd6X2xLYnVHcGVfd01mZFlvdHdCUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 101
+      "text": "Automatic U.S. military draft registration is planned by December.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOSkVJdkxDZWh5Mk5pQTItWEoyVThuZk1MbzhKQ080Zld5Qjc5VFl1QjRDZ0owVDFRazBCZ3BrbzY5QnlXVXUxNHRHb1JrMVZacU52TGxWZGtGT21ObThNSTNNTVEtRTh4blhEd1dtTTZNYzM0T2tvdzVwelk5bWFsV2RncWxxamd3Y25B0gGQAUFVX3lxTE9BRzRiVHJZdUZFaUswbEtQVUE1Qzd0VWs0amZHMmZCSkhuY01QRE10YUh6MklySDZJY3VZamgtNlEwaHZ3U3JhOERyMmZWeVJBWFUwb0NnZGVuZ2dTdDNRejNBal80RU1mY0t2aW5iWUFvQkpIVThCLWFtYXNEVnBuWk9sbUlETW9FcVN5a1RHSA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 102
     }
   ],
   "sourceStatuses": [
