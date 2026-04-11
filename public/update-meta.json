@@ -1,13 +1,13 @@
 {
-  "updateSequence": 77,
+  "updateSequence": 78,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T11:47:48.851Z",
+  "lastSyncedAt": "2026-04-11T12:25:04.525Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "Despite ongoing talks between US and Iranian officials in Pakistan, Israel has explicitly rejected a ceasefire with Hezbollah and continues strikes in Lebanon, indicating no active de-escalation."
+    "durationDays": 3,
+    "summary": "A shaky ceasefire is reported to be holding in some areas, though violations by Hezbollah and rejections by Israel complicate peace efforts."
   }
 }

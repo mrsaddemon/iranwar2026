@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 77,
+  "updateSequence": 78,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T11:47:48.851Z",
+  "lastSyncedAt": "2026-04-11T12:25:04.525Z",
   "warDay": 43,
-  "summary": "The Middle East conflict continues with active Israeli strikes in Lebanon and Hezbollah rocket launches, while US and Iranian officials engage in ceasefire talks in Pakistan amidst the ongoing closure of the Strait of Hormuz.",
+  "summary": "Peace talks between Iranian and US delegations are underway in Pakistan amidst a fragile regional ceasefire, ongoing hostilities involving Hezbollah, and continued closure of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "Despite ongoing talks between US and Iranian officials in Pakistan, Israel has explicitly rejected a ceasefire with Hezbollah and continues strikes in Lebanon, indicating no active de-escalation."
+    "durationDays": 3,
+    "summary": "A shaky ceasefire is reported to be holding in some areas, though violations by Hezbollah and rejections by Israel complicate peace efforts."
   },
   "actorOverrides": {
     "usa": {
@@ -24,26 +24,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 38,
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
     "oilDisruption": 90
   },
   "alliance": {
@@ -56,57 +56,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "warning",
+      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 76
+      "latestSinceUpdate": 78
     },
     {
       "date": "Apr 09",
-      "text": "An Iran Update Special Report is issued.",
+      "text": "Trump warns Iran ahead of high-stakes talks in Pakistan.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 77
+      "latestSinceUpdate": 78
     },
     {
-      "date": "Apr 11",
-      "text": "US and Iranian officials arrive in Pakistan to hold ceasefire talks.",
+      "date": "Apr 10",
+      "text": "Iran's speaker states negotiations with U.S. require Lebanon ceasefire and asset release.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 77
+      "latestSinceUpdate": 78
     },
     {
-      "date": "Apr 11",
-      "text": "Trump criticizes Iran for not allowing more oil through the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 77
-    },
-    {
-      "date": "Apr 11",
+      "date": "Apr 10",
       "text": "Hezbollah launches rockets at Israel.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 77
+      "latestSinceUpdate": 78
     },
     {
       "date": "Apr 11",
-      "text": "The Strait of Hormuz remains closed, with the U.S. reporting Iran is unable to find mines it planted.",
+      "text": "Strait of Hormuz remains closed; U.S. says Iran unable to find mines it planted.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 77
+      "latestSinceUpdate": 78
+    },
+    {
+      "date": "Apr 11",
+      "text": "U.S. official states no agreements have been made in Iran peace talks yet as shaky ceasefire holds.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 78
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
