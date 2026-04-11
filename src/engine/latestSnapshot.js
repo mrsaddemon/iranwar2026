@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 88,
+  "updateSequence": 89,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T18:21:47.335Z",
+  "lastSyncedAt": "2026-04-11T19:07:47.214Z",
   "warDay": 43,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "High-level peace talks are underway between the US and Iran in Pakistan, and Israel and Lebanon are preparing for ceasefire talks, amidst ongoing military actions including US mine clearing operations in the Strait of Hormuz and exchanges of fire between the IDF and Hezbollah.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "No comprehensive ceasefire is currently active, though diplomatic talks are underway between Iran and the US, and Israel and Lebanon, while conflict persists between Israel and Hezbollah."
+    "summary": "Peace talks are underway between the US and Iran, and Israel and Lebanon, but no formal ceasefire has been established for either conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,15 +36,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.5
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 38,
-    "oilDisruption": 70
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,51 +56,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 11",
-      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "text": "US and Iran hold direct peace talks in Pakistan, with Vance participating in high-stakes discussions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 88
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5wTDVrcXZzejVCLUZGT2c2Z2M1SE9XYzJTWjlmbFNJa09mX2pJRndkTVU5cE84TmxQM3ZQTmpvQXBIcFBtYkNIcVg4SVJNTzZhRUdudEw3TDZ4TTZTYWljZDFCeUdnV3Q5bWtfcGsyUWs1dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 89
     },
     {
       "date": "Apr 11",
-      "text": "Israel to hold ceasefire talks with Lebanon next week.",
+      "text": "Israel to hold ceasefire talks with Lebanon next week, despite rejecting an immediate ceasefire with Hezbollah.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 88
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 89
     },
     {
       "date": "Apr 11",
-      "text": "Trump warns Iran of fresh strikes if peace talks fail.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 88
-    },
-    {
-      "date": "Apr 11",
-      "text": "US military begins clearing mines from the Strait of Hormuz.",
+      "text": "US military begins removing mines from the Strait of Hormuz, with Iran denying planting them.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNeDI5dFhBU01HTjBGYmNCYTRmQmY4RHRwbDRCTWdGVVgxTnpxU09tVTkzY2xJOXYzLVc2VWlwYk5ZWG12QVVvQnRzeWY1WUxzMXBSYkdNSG1HSzgwZXZMQVFkODNtZTRxZG84M1FlOUxzOGVmeFRRMjRWOENDR0xKTEplVVfSAYoBQVVfeXFMT2dCOEctSmQxcXctV2laNS1VVTZFNTNWanFUWTlSQndoYU9sdThUeXBTRjc2OC12RzJKbzBNa21BaUxYSHZLQkprNDVhanV5ZXVXcjRoOU9taF9EZTFrakNKYnVMOTQ5R3ZBM28ycllPVVBMdnFHLXlWejNJcWZhdEJiNjFlazhTVHZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 88
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 89
     },
     {
       "date": "Apr 11",
-      "text": "IDF and Hezbollah trade strikes and rockets as talks approach.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQT09xZWprYlJOYndNUnQ4YzJwOGI5bUlaT2ZHOVl2WHlkbnZabHZkOEVYbEVQNWVRUHR3U0s3eTAxS1M3Mll0Nk1NcjZjVEhDVWNtYVVVdGgxOHJiNWliYjJVTV9CRThLbFlzR2xsTjA3dWtON3FZcGdXT2I5YVVQLU8wMF9oRXlwSEJDNUxqT0MxYVg2Qk5WNmdwQmkzTmttZ2FPa1NNd292MEY2YlA4ZXhNbXk2ZXVh0gG-AUFVX3lxTE0xTTdMTm5HaENwWWFPRmtwbElOWmtrelR6Qm5wY3NjUjl1VHBvRFZOMU5LUmtsNzZmVS01TlZnYnVXWTRsQ3B3MmMzNVphTm1McEdhUFMyMDBVRWw2NkxzSFB6SkhvWXZOazdEaFJFbGdiR3l4ZDgtZXdBSmhGb0U4LXRLaFhmMXNxQU5CQ3V6cjZKajdkS3QxWE1WaGlDaHdKU0FaMVV4QUdGWUp6a003S2NKTXhEWndvT19abWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 88
-    },
-    {
-      "date": "Apr 11",
-      "text": "Israel rejects ceasefire with Hezbollah before Lebanon talks.",
+      "text": "IDF and Hezbollah trade strikes and rockets as tensions remain high ahead of Lebanon talks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOam1YbU1iLThPVG9qTWd3RXFNWTRqakFLLXlKcUwxUjFEenh2anAyVE44MGVjTnZzX0pZSkU2SnhCbFh5ZnE5QzdGMEUyeGpkMjVHOXl2SjJ1ZE9zRWdVUnNfUVRjMEVqbkJjWmNrNDg3SHdZQnhKRExCVE5lQVVUenlnOXMyVkxjelg2MkE0Q25kQmdoZjRLMm5kczZaZlUwWVh4R3FnQ29uMHlkT1JzLWlMeDhucnFpeGRtZFJ30gHDAUFVX3lxTE5IeDV5MHhDWHBwd3pHcjZpN1BsMEZBUm93SnBqcFZ4eGF1X3FiVTg0T2I0UGNlNTlwdjhNS253R2U1NXpqSlpydlpieVdNNGl6X2Z0TUJNckQ1LXlzUVFKR090cjFGZmtOQlZvS1p0cHYxa0xMUGx2NzBKS0RCaFNZd2NNbldpWERtWHVueTBDcWNoc0EzTkY2Q2FxbXc4QTdiZHQ1dUg0cFFuSmpxeHBuMXFJYWNlb2VYYklwSmlJb2dxVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 88
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQT09xZWprYlJOYndNUnQ4YzJwOGI5bUlaT2ZHOVl2WHlkbnZabHZkOEVYbEVQNWVRUHR3U0s3eTAxS1M3Mll0Nk1NcjZjVEhDVWNtYVVVdGgxOHJiNWliYjJVTV9CRThLbFlzR2xsTjA3dWtON3FZcGdXT2I5YVVQLU8wMF9oRXlwSEJDNUxqT0MxYVg2Qk5WNmdwQmkzTmttZ2FPa1NNd292MEY2YlA4ZXhNbXk2ZXVh0gG-AUFVX3lxTE0xTTdMTm5HaENwWWFPRmtwbElOWmtrelR6Qm5wY3NjUjl1VHBvRFZOMU5LUmtsNzZmVS01TlZnYnVXWTRsQ3B3MmMzNVphTm1McEdhUFMyMDBVRWw2NkxzSFB6SkhvWXZOazdEaFJFbGdiR3l4ZDgtZXdBSmhGb0U4LXRLaFhmMXNxQU5CQ3V6cjZKajdkS3QxWE1WaGlDaHdKU0FaMVV4QUdGWUp6a003S2NKTXhEWndvT19abWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 89
+    },
+    {
+      "date": "Apr 11",
+      "text": "Army survivors dispute Pentagon's account of a deadly attack in Kuwait, claiming the unit was unprepared.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPYllLWFlHNVFiMV85S0RPUE5SQkE4cGRvcmtEalVBb3NnRXVuZTZ6UWc3MzIwbHlsMWVycXhKMFdQRGVhUnNEYUlnMEtpaEF5YjE0OVltOWRmMHNYdjEtZW9RWFVmaC1WcXFPem9STVN6cUVhejlYYVhtQl92MU9DSERn0gGHAUFVX3lxTE41MEIwdGxrMjNCWllMY2pjSmc2Y0ZVUFRPOGZHZ2k5LVU1Q2RRa09DSXc2TzRSQ0pHYkVMc0d5bGtjXzRBc040YnJlZTdsVE1hbkY3UTJfNUhsX2VMMnVpRGdSMW5BRTd4RGhrVEkweVBiRGtsSG5sSUo1eUZwMkdJY0VmUmNQdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 89
     }
   ],
   "sourceStatuses": [
