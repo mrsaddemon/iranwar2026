@@ -175,6 +175,68 @@ function getInterpolatedCoordinates(entity, now) {
   return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
 }
 
+const SHIP_DECLUTTER_THRESHOLD = 18;
+const SHIP_DECLUTTER_MAX_RADIUS = 18;
+
+function getShipIdentity(ship) {
+  return String(ship?.id || ship?.mmsi || ship?.name || '');
+}
+
+function buildDeclutteredShipLayout(ships, projection, viewTransform, now) {
+  const positionedShips = (ships || [])
+    .map((ship) => {
+      const geoPoint = getInterpolatedCoordinates(ship, now);
+      const point = geoPoint ? projectWithView(projection, geoPoint, viewTransform) : null;
+      if (!geoPoint || !point) return null;
+      return {
+        ship,
+        geoPoint,
+        point,
+        displayPoint: point,
+      };
+    })
+    .filter(Boolean);
+
+  const clusters = [];
+  for (const entry of positionedShips) {
+    const cluster = clusters.find((candidate) => Math.hypot(entry.point.x - candidate.x, entry.point.y - candidate.y) < SHIP_DECLUTTER_THRESHOLD);
+    if (!cluster) {
+      clusters.push({
+        x: entry.point.x,
+        y: entry.point.y,
+        entries: [entry],
+      });
+      continue;
+    }
+
+    cluster.entries.push(entry);
+    const count = cluster.entries.length;
+    cluster.x = ((cluster.x * (count - 1)) + entry.point.x) / count;
+    cluster.y = ((cluster.y * (count - 1)) + entry.point.y) / count;
+  }
+
+  for (const cluster of clusters) {
+    if (cluster.entries.length <= 1) continue;
+
+    const radius = Math.min(
+      SHIP_DECLUTTER_MAX_RADIUS,
+      7 + ((cluster.entries.length - 1) * 2.1),
+    );
+    const sortedEntries = [...cluster.entries].sort((left, right) => getShipIdentity(left.ship).localeCompare(getShipIdentity(right.ship)));
+    const angleStep = (Math.PI * 2) / sortedEntries.length;
+
+    sortedEntries.forEach((entry, index) => {
+      const angle = (-Math.PI / 2) + (index * angleStep);
+      entry.displayPoint = {
+        x: cluster.x + (Math.cos(angle) * radius),
+        y: cluster.y + (Math.sin(angle) * radius),
+      };
+    });
+  }
+
+  return positionedShips;
+}
+
 function formatAgeLabel(seconds) {
   if (!Number.isFinite(seconds)) return 'recent';
   if (seconds < 60) return `${seconds}s ago`;
@@ -331,14 +393,14 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
     }
   }
 
-  for (const ship of trackerSnapshot?.ships || []) {
-    const geoPoint = getInterpolatedCoordinates(ship, now);
-    const point = geoPoint ? projectWithView(projection, geoPoint, viewTransform) : null;
-    if (point) {
+  const declutteredShips = buildDeclutteredShipLayout(trackerSnapshot?.ships || [], projection, viewTransform, now);
+  for (const shipEntry of declutteredShips) {
+    const { ship, displayPoint } = shipEntry;
+    if (displayPoint) {
       const colors = getTrackerColors(ship, 'ship', highVisibility);
       markers.push({
         hitRadius: highVisibility ? 13 : 12,
-        point,
+        point: displayPoint,
         tooltip: {
           id: `ship-${ship.id}`,
           title: ship.name || `Ship ${ship.mmsi || ''}`.trim(),
@@ -606,12 +668,12 @@ export default function MapCanvas({
         overlayCtx.fillText(core.label, point.x, point.y - (13 * visualScale));
       }
 
-      for (const ship of visibleShips) {
-        const geoPoint = getInterpolatedCoordinates(ship, now);
-        const point = geoPoint ? projectWithView(projection, geoPoint, viewTransformRef.current) : null;
-        if (!point) continue;
+      const declutteredShips = buildDeclutteredShipLayout(visibleShips, projection, viewTransformRef.current, now);
+      for (const shipEntry of declutteredShips) {
+        const { ship, geoPoint, point, displayPoint } = shipEntry;
+        if (!point || !displayPoint) continue;
         const colors = getTrackerColors(ship, 'ship', highVisibility);
-        const pulse = 0.45 + (Math.sin(time * 0.003 + point.y * 0.02) * 0.2);
+        const pulse = 0.45 + (Math.sin(time * 0.003 + displayPoint.y * 0.02) * 0.2);
         const hullLength = 7.5 * trackerMarkerSize;
         const hullWidth = 4.8 * trackerMarkerSize;
         const wakeRadius = 6.5 * trackerMarkerSize;
@@ -631,7 +693,7 @@ export default function MapCanvas({
         }
 
         overlayCtx.save();
-        overlayCtx.translate(point.x, point.y);
+        overlayCtx.translate(displayPoint.x, displayPoint.y);
         overlayCtx.rotate(((ship.heading || 0) * Math.PI) / 180);
         overlayCtx.beginPath();
         overlayCtx.moveTo(0, -hullLength);
@@ -652,7 +714,7 @@ export default function MapCanvas({
         overlayCtx.restore();
 
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, wakeRadius + (pulse * 2.5), 0, Math.PI * 2);
+        overlayCtx.arc(displayPoint.x, displayPoint.y, wakeRadius + (pulse * 2.5), 0, Math.PI * 2);
         overlayCtx.strokeStyle = colors.ring.replace(/[\d.]+\)$/u, `${0.26 + (pulse * 0.22)})`);
         overlayCtx.lineWidth = 1;
         overlayCtx.stroke();
