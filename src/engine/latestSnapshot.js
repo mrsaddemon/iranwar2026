@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 86,
+  "updateSequence": 87,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T17:02:11.196Z",
+  "lastSyncedAt": "2026-04-11T17:41:31.224Z",
   "warDay": 43,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Iranian and US delegations are holding direct peace talks in Pakistan, while Israel and Lebanon prepare for ceasefire discussions amidst ongoing IDF and Hezbollah strikes and rising tensions in the Strait of Hormuz, where the US is reportedly clearing mines.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "Peace talks are underway between Iran and the US, and Israel and Lebanon, but active hostilities continue in some areas and no formal ceasefire is in effect."
+    "summary": "A broader Iran ceasefire is in place but is fragile and threatened by ongoing conflict between Israel and Hezbollah and rising tensions in the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
@@ -19,31 +19,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.3,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
     "oilDisruption": 80
   },
   "alliance": {
@@ -56,51 +56,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 11",
-      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "text": "Iranian and US delegations hold direct peace talks in Pakistan.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 85
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5wTDVrcXZzejVCLUZGT2c2Z2M1SE9XYzJTWjlmbFNJa09mX2pJRndkTVU5cE84TmxQM3ZQTmpvQXBIcFBtYkNIcVg4SVJNTzZhRUdudEw3TDZ4TTZTYWljZDFCeUdnV3Q5bWtfcGsyUWs1dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 87
     },
     {
       "date": "Apr 11",
-      "text": "Israel to hold ceasefire talks with Lebanon next week.",
+      "text": "Israel and Lebanon prepare for ceasefire talks next week.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 85
+      "latestSinceUpdate": 87
     },
     {
       "date": "Apr 11",
-      "text": "Trump warns Iran ahead of high-stakes talks in Pakistan, threatening fresh strikes if talks fail.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 86
-    },
-    {
-      "date": "Apr 11",
-      "text": "U.S. warships cross Strait of Hormuz for the first time since the Iran war began.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE9Gb3g0MW9SWE9LQ3d4eW9OWVMxeXMtVkRPeTRROUxMRmhhRy1xenhhZ0hUV09hcjdtdVNfVWFwYTNCYlNvV2YwWXJmQy1aejBMYldPWW00UkpDZlhkSVB5d0pLYVpSTUFvREVXZUNCMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 86
-    },
-    {
-      "date": "Apr 11",
-      "text": "Trump claims the US has begun clearing mines in the Strait of Hormuz, while Iran is reportedly unable to find mines it planted.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAJBVV95cUxQZlltMzVXRGo5RTA5SXBrbEFZZUxjQ3lmTHNOVDFBRnFqWVJyV3FvWlItbktmcmhLSVJ3czBpRm1NVkxjTnQ0ZUtlUnFZTzVWdXQyUDhwV2hoS3FmQzFJLUNvOFZwVDNKWDZLRVlPTHlyb0gxTWhjRmEtaWVxRElTUmR0b3c4RWRnaVY1M0ZIOWt6dER6bEpNT2xLWXVhSWJDQ19CUTJwTlVGbjltYVpNbkMtbGlBdUczaDVfd2ZHRnR0dDJ6OTFobWxnc0Nyd0dTRlNuY2hGa04wYTJmcUhzcjRGT0lrYmVqVi1qZFY0SmliTGtuUnM5WFNkTVhfYzVSRVM2NjBiZ1daY1RlX25JN2IxQnRxcGlzRGM5ZzFONXlqRU0wYjlnSV9sVWtpSmtGVE9CZlZLeVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 86
-    },
-    {
-      "date": "Apr 11",
-      "text": "IDF and Hezbollah trade strikes and rockets as Israel and Lebanon prepare for direct talks.",
+      "text": "IDF and Hezbollah trade strikes and rockets.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQT09xZWprYlJOYndNUnQ4YzJwOGI5bUlaT2ZHOVl2WHlkbnZabHZkOEVYbEVQNWVRUHR3U0s3eTAxS1M3Mll0Nk1NcjZjVEhDVWNtYVVVdGgxOHJiNWliYjJVTV9CRThLbFlzR2xsTjA3dWtON3FZcGdXT2I5YVVQLU8wMF9oRXlwSEJDNUxqT0MxYVg2Qk5WNmdwQmkzTmttZ2FPa1NNd292MEY2YlA4ZXhNbXk2ZXVh0gG-AUFVX3lxTE0xTTdMTm5HaENwWWFPRmtwbElOWmtrelR6Qm5wY3NjUjl1VHBvRFZOMU5LUmtsNzZmVS01TlZnYnVXWTRsQ3B3MmMzNVphTm1McEdhUFMyMDBVRWw2NkxzSFB6SkhvWXZOazdEaFJFbGdiR3l4ZDgtZXdBSmhGb0U4LXRLaFhmMXNxQU5CQ3V6cjZKajdkS3QxWE1WaGlDaHdKU0FaMVV4QUdGWUp6a003S2NKTXhEWndvT19abWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 86
+      "latestSinceUpdate": 87
+    },
+    {
+      "date": "Apr 11",
+      "text": "Oil market projected to face deficit in 2026 due to Iran war shock, analysts say.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQU19Ed2lZbkZ0QTktZDNoSjVMSWZoV0k2aWR5MTBCV0M0dFI3YTRQT21oMFlpdXM0YmxGVzJVNW5UTGhNZEhOUnpuMkpRdW9Md0hzdWhyWW1WRVFJR1U4cUU2N2dVZEY1bnpGakJtYlJfX21EX1AtS0RqUmkxeVBxcEVDTUNxV1MxQVktRjRxTUlzYl9NVDF2OVIzNFF5ZnFmeHMtTVlXRDA4TWcxREVHUGVlU3JndTZs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 87
+    },
+    {
+      "date": "Apr 11",
+      "text": "Trump warns of fresh strikes if Iran peace talks fail.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 87
+    },
+    {
+      "date": "Apr 11",
+      "text": "US warships cross Strait of Hormuz; US claims to be clearing Iranian mines.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 87
     }
   ],
   "sourceStatuses": [
