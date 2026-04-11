@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 94,
+  "updateSequence": 95,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T19:51:34.780Z",
+  "lastSyncedAt": "2026-04-11T19:57:43.427Z",
   "warDay": 43,
-  "summary": "US and Iran are engaged in high-level peace talks in Pakistan, while Israel and Lebanon prepare for ceasefire discussions amidst ongoing conflict and rising tensions in the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "US and Iran are engaged in high-level peace talks, while Israel and Lebanon are preparing for ceasefire discussions amidst ongoing conflict."
+    "summary": "No active ceasefire is in effect, though peace talks between the US and Iran, and potential talks between Israel and Lebanon, are underway."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -36,7 +36,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.3,
+        "precision": 0.4,
         "aggression": 0.5
       }
     }
@@ -44,7 +44,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 38,
-    "oilDisruption": 75
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -64,19 +64,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 11",
-      "text": "US and Iran hold direct peace talks in Pakistan.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5wTDVrcXZzejVCLUZGT2c2Z2M1SE9XYzJTWjlmbFNJa09mX2pJRndkTVU5cE84TmxQM3ZQTmpvQXBIcFBtYkNIcVg4SVJNTzZhRUdudEw3TDZ4TTZTYWljZDFCeUdnV3Q5bWtfcGsyUWs1dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 94
+      "text": "Trump warns of fresh strikes if Iran talks fail and states military will remain near Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 95
     },
     {
       "date": "Apr 11",
-      "text": "Israel to hold ceasefire talks with Lebanon next week.",
+      "text": "Netanyahu authorizes direct talks with Lebanon in potential boost to ceasefire efforts.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 94
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNd1JTaHlCdC0wVzJHcnMwZUFucTdzZHVORExKSlpwcTJQbjVZTEluMkllQW0zeE9FZ0ppYnl3SlNmSFRDQm1DVVB6enREdjF6SjBoRS13dXNNbkZCaGNPUExxVTJTSW5CdHlBNTFZVldPMjdCdEt2YmxOcnZwb2lINmZIN01ld2MwcXVIQzVLbzhzQi1XTkd3WFZDNjdwZE9pNWJV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 95
+    },
+    {
+      "date": "Apr 11",
+      "text": "US Navy ships cross the Strait of Hormuz as Vance participates in high-stakes talks with Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNM3BjbS0wbVNsakpHdDNKSDU3aGFWUFg4akhreGM0RVR4MHlneFlhM3kyWllUeWtnZXA2aERjRGZQZlluQlJBMHQ1ZnZGNE9BMER2Wmo2OV9tZW5NNHhHVmk0bHNoZTc5UWhLQlJnMGFxRlptQ0lQd2FEckV3SWhuYjlRZEJHWlQxWTczYnFkSjhGQnZlckMw0gGcAUFVX3lxTE9DVHRIbV92d1JUV1RLRU80S0hRYjREMkhnWkVmYUFub3BXRGwxb3lMdjhJdWxDZ0V6cHVrYnRENHpKWlAxYzdxMDVNZzN0Mk4tZUs3cFVfRW5LMC1OT0ktcE94T3RwaEszSGR0VHB0MlB4bW4yYk5kUk1pTUF5R2tiODFkX0I1cTRMYVc2UXZQQTUtRGhyWmpHTDdNeQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 95
+    },
+    {
+      "date": "Apr 11",
+      "text": "US military starts removing mines from Strait of Hormuz, claiming Iran is unable to find mines it planted.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNeDI5dFhBU01HTjBGYmNCYTRmQmY4RHRwbDRCTWdGVVgxTnpxU09tVTkzY2xJOXYzLVc2VWlwYk5ZWG12QVVvQnRzeWY1WUxzMXBSYkdNSG1HSzgwZXZMQVFkODNtZTRxZG84M1FlOUxzOGVmeFRRMjRWOENDR0xKTEplVVfSAYoBQVVfeXFMT2dCOEctSmQxcXctV2laNS1VVTZFNTNWanFUWTlSQndoYU9sdThUeXBTRjc2OC12RzJKbzBNa21BaUxYSHZLQkprNDVhanV5ZXVXcjRoOU9taF9EZTFrakNKYnVMOTQ5R3ZBM28ycllPVVBMdnFHLXlWejNJcWZhdEJiNjFlazhTVHZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 95
     },
     {
       "date": "Apr 11",
@@ -84,22 +100,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOaHpGYklsUkhfU0xZTTBqTmdVVzlBTUh0OHBiWHc1aDNwSlN0Q1EtMmdUVUNybklUOUNGenhUQWdUTEk4eFFjYjlSbGxKam1pX0xJa0dFRjBpSWxwVE1xcGN0S09McGVOaXJFQWdpOS1LOGltbGU3NzZXNGFoVWZrdXZyMHJKWHgwYzFCbDRYMmZXWWxuMkFNYkZxYmE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 94
-    },
-    {
-      "date": "Apr 11",
-      "text": "US military starts removing mines from Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNeDI5dFhBU01HTjBGYmNCYTRmQmY4RHRwbDRCTWdGVVgxTnpxU09tVTkzY2xJOXYzLVc2VWlwYk5ZWG12QVVvQnRzeWY1WUxzMXBSYkdNSG1HSzgwZXZMQVFkODNtZTRxZG84M1FlOUxzOGVmeFRRMjRWOENDR0xKTEplVVfSAYoBQVVfeXFMT2dCOEctSmQxcXctV2laNS1VVTZFNTNWanFUWTlSQndoYU9sdThUeXBTRjc2OC12RzJKbzBNa21BaUxYSHZLQkprNDVhanV5ZXVXcjRoOU9taF9EZTFrakNKYnVMOTQ5R3ZBM28ycllPVVBMdnFHLXlWejNJcWZhdEJiNjFlazhTVHZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 94
-    },
-    {
-      "date": "Apr 11",
-      "text": "Iran Unable to Find Mines It Planted in Strait of Hormuz, U.S. Says.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE11bW5tS3RCVFluZXhCQlFyQmNpLWVYSFJ4T28tS201N0Rvbkd4MnR4UVZrNzdWOVNxeTkwYldSbjJQTjlVc3NDY3hCSGl6U0lueHJjT1hkQzQxSXY4c0VkVWRVR3lkOWN4RDlPWVlna29Lbk1ZUVpucA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
       "latestSinceUpdate": 94
     }
   ],
