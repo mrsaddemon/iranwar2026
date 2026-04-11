@@ -1,13 +1,13 @@
 {
-  "updateSequence": 96,
+  "updateSequence": 97,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T20:16:55.102Z",
+  "lastSyncedAt": "2026-04-11T20:52:59.210Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "Ceasefire talks are underway between the US and Iran, and Israel and Lebanon, amidst continued military actions and threats."
+    "summary": "Peace talks are underway between the US and Iran, and Israel plans ceasefire talks with Lebanon, but Israel has rejected a ceasefire with Hezbollah."
   }
 }
