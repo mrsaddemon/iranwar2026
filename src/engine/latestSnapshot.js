@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 74,
+  "updateSequence": 75,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T09:53:20.623Z",
+  "lastSyncedAt": "2026-04-11T10:48:52.093Z",
   "warDay": 43,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Middle East conflict continues, drawing significant international attention.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "A shaky ceasefire between the U.S. and Iran is holding amidst ongoing conflict between Israel and Hezbollah in Lebanon, which Israel states is not covered by the truce."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   },
   "actorOverrides": {
     "usa": {
@@ -18,33 +18,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.9,
+        "aggression": 0.3
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 48,
-    "oilDisruption": 85
+    "nuclearIndex": 20,
+    "escalationLevel": 70,
+    "oilDisruption": 75
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -53,60 +53,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "mosaicDefense": false,
     "unscShield": true
   },
-  "recentEvents": [
-    {
-      "date": "Apr 10",
-      "text": "U.S. President Trump warns Iran ahead of high-stakes talks in Pakistan.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 74
-    },
-    {
-      "date": "Apr 10",
-      "text": "An Iranian delegation arrives in Pakistan for peace talks with the U.S., with U.S. envoy Vance en route.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 74
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran's speaker states negotiations with the U.S. cannot begin without a Lebanon ceasefire and asset release.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 74
-    },
-    {
-      "date": "Apr 10",
-      "text": "Hezbollah launches rockets at Israel, defying notions that it was crippled.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 74
-    },
-    {
-      "date": "Apr 10",
-      "text": "Israel strikes central Beirut, killing at least 182, stating that the Iran truce does not apply to its actions against Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 74
-    },
-    {
-      "date": "Apr 10",
-      "text": "The Strait of Hormuz remains closed with low traffic, and the U.S. reports Iran is unable to find mines it planted.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 74
-    }
-  ],
+  "recentEvents": [],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "no recent items"
     },
     {
       "source": "GDELT",

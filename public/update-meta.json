@@ -1,13 +1,13 @@
 {
-  "updateSequence": 74,
+  "updateSequence": 75,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T09:53:20.623Z",
+  "lastSyncedAt": "2026-04-11T10:48:52.093Z",
   "warDay": 43,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "A shaky ceasefire between the U.S. and Iran is holding amidst ongoing conflict between Israel and Hezbollah in Lebanon, which Israel states is not covered by the truce."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   }
 }
