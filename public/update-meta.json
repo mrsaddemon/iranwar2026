@@ -1,13 +1,13 @@
 {
-  "updateSequence": 72,
+  "updateSequence": 73,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T08:57:51.537Z",
+  "lastSyncedAt": "2026-04-11T09:08:51.422Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "Peace talks are underway between the US and Iran, but Israel's continued strikes in Lebanon and rejection of a ceasefire with Hezbollah indicate a highly fragile and partial de-escalation."
+    "summary": "Ceasefire talks are underway between the US and Iran in Pakistan, but Israel has rejected a ceasefire with Hezbollah, and strikes continue in Lebanon, indicating a highly fragile and partial truce."
   }
 }
