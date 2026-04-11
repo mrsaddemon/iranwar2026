@@ -1,9 +1,9 @@
 const TRACKER_REGION = Object.freeze({
   name: 'Regional Theater',
-  lamin: 4,
-  lamax: 62,
-  lomin: 16,
-  lomax: 110,
+  lamin: 8,
+  lamax: 43,
+  lomin: 24,
+  lomax: 72,
 });
 
 const SHIP_BOUNDING_BOXES = Object.freeze([
@@ -59,7 +59,7 @@ let trackerSnapshotCache = {
 };
 
 const SHIP_CACHE_TTL_MS = 5 * 60 * 1000;
-const FLIGHT_CACHE_TTL_MS = 30 * 60 * 1000;
+const FLIGHT_CACHE_TTL_MS = 90 * 60 * 1000;
 const TRACKER_SNAPSHOT_TTL_MS = 5 * 60 * 1000;
 const MAX_GLOBAL_FLIGHTS = 180;
 const MAX_GLOBAL_SHIPS = 120;
@@ -227,11 +227,76 @@ async function fetchFlightSnapshot(config) {
     lomax: String(TRACKER_REGION.lomax),
   });
 
-  const response = await fetch(`${OPENSKY_STATES_URL}?${params.toString()}`, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
+  const requestUrl = `${OPENSKY_STATES_URL}?${params.toString()}`;
+  let response = null;
+  let lastError = null;
+
+  for (const waitMs of [0, 900, 1800]) {
+    if (waitMs > 0) {
+      await delay(waitMs);
+    }
+
+    try {
+      response = await fetch(requestUrl, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+    } catch (error) {
+      lastError = error;
+      continue;
+    }
+
+    if (response.ok) {
+      break;
+    }
+
+    if (response.status === 429) {
+      openskyRateLimitCache = {
+        limitedUntil: Date.now() + (10 * 60 * 1000),
+      };
+      break;
+    }
+
+    if (response.status === 401 && waitMs === 0) {
+      openskyTokenCache = {
+        accessToken: null,
+        expiresAt: 0,
+      };
+      const refreshedToken = await getOpenSkyAccessToken(config.openskyClientId, config.openskyClientSecret);
+      response = await fetch(requestUrl, {
+        headers: {
+          Authorization: `Bearer ${refreshedToken}`,
+        },
+      });
+      if (response.ok || response.status === 429) {
+        if (response.status === 429) {
+          openskyRateLimitCache = {
+            limitedUntil: Date.now() + (10 * 60 * 1000),
+          };
+        }
+        break;
+      }
+    }
+
+    if (response.status >= 500 || response.status === 522) {
+      lastError = new Error(`OpenSky upstream temporarily unavailable (${response.status}).`);
+      continue;
+    }
+
+    break;
+  }
+
+  if (!response) {
+    if (flightSnapshotCache.flights.length > 0 && (Date.now() - flightSnapshotCache.generatedAt) <= FLIGHT_CACHE_TTL_MS) {
+      flightFetchMeta = {
+        status: 'stale cache',
+        usedCache: true,
+      };
+      return flightSnapshotCache.flights;
+    }
+    throw lastError || new Error('OpenSky request failed.');
+  }
 
   if (!response.ok) {
     if (response.status === 429) {
@@ -249,6 +314,13 @@ async function fetchFlightSnapshot(config) {
         status: 'throttled',
         usedCache: false,
       };
+    }
+    if ((response.status >= 500 || response.status === 522) && flightSnapshotCache.flights.length > 0 && (Date.now() - flightSnapshotCache.generatedAt) <= FLIGHT_CACHE_TTL_MS) {
+      flightFetchMeta = {
+        status: 'stale cache',
+        usedCache: true,
+      };
+      return flightSnapshotCache.flights;
     }
     const text = await response.text();
     throw new Error(`OpenSky states failed (${response.status}): ${text.slice(0, 180)}`);
@@ -599,7 +671,7 @@ export async function getTrackerSnapshot(env = {}, options = {}) {
         ? 'hidden'
         : flightsResult.status === 'fulfilled'
         ? `${flightFetchMeta.status || 'ok'} (${flightPayload.flights.length})`
-        : `${flightPayload.usedCache ? 'stale cache' : (flightsResult.reason?.message || 'failed')} ${flightPayload.flights.length ? `(${flightPayload.flights.length})` : ''}`.trim(),
+        : `${flightPayload.usedCache ? 'stale cache' : 'temporarily unavailable'} ${flightPayload.flights.length ? `(${flightPayload.flights.length})` : ''}`.trim(),
       ships: !fetchShips
         ? 'hidden'
         : shipsResult.status === 'fulfilled'
