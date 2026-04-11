@@ -58,7 +58,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Apr 09",
       "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
       "severity": "info",
-      "latestSinceUpdate": 67
+      "latestSinceUpdate": 67,
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52blNYeUJqVzdkNlptS29IMmplcFQtbGIwOEhnTWF5MldwY1Z4WTVxSFJUbVJZMnhyWEpyeWgwMFdyMlVQU3FoRTBoNExxMXM4REJqSEpZZzNKaWZxd0Q3bURsVVpoaEZtRF9JcWVaRHJiT25JU1QybTNpQnpVN0E?oc=5",
+      "sourceName": "CNN"
     },
     {
       "date": "Apr 09",
@@ -76,7 +78,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Apr 10",
       "text": "Iranian delegation arrives in Pakistan for talks with the US.",
       "severity": "info",
-      "latestSinceUpdate": 67
+      "latestSinceUpdate": 67,
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU19Ed2lZbkZ0QTktZDNoSjVMSWZoV0k2aWR5MTBCV0M0dFI3YTRQT21oMFlpdXM0YmxGVzJVNW5UTGhNZEhOUnpuMkpRdW9Md0hzdWhyWW1WRVFJR1U4cUU2N2dVZEY1bnpGakJtYlJfX21EX1AtS0RqUmkxeVBxcEVDTUNxV1MxQVktRjRxTUlzYl9NVDF2OVIzNFF5ZnFmeHMtTVlXRDA4TWcxREVHUGVlU3JndTZs?oc=5",
+      "sourceName": "Reuters"
     },
     {
       "date": "Apr 10",
@@ -89,6 +93,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Vance warns Iran against playing games in peace talks as the Strait of Hormuz remains closed.",
       "severity": "critical",
       "latestSinceUpdate": 67
+    },
+    {
+      "date": "Apr 10",
+      "text": "Iran warns of strong responses as Israeli attacks on Lebanon threaten a ceasefire.",
+      "severity": "warning",
+      "latestSinceUpdate": 67,
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVkl4Nm0tcVZ2RDhia1d6R21jOENwUlhaZWNLU2lINWlTYmxYbmcwN1M3cVFLbWJHTXRLWkhBYUxOOFEwZFBsTnRkUzBDUXV1clVZS1FiSnpGdExMeVQ0OThXTENtczNtWVpJRmhmMlNGVzdYQXlCUmhMUk90QzVZZFc3OUw4R29XaXVtZmtLOWxJZUtXQlZIazlnNEVhZUQ0RjhBZ2JMUkp0S1JSRjkyTDAyT2hNdGM0SEliUlFNMkw5MXBZSTJYdDhhb3piMmZEVWRkUDQ1bmJMSUlyLXhfWGFFM2F4QWR0NkFZ?oc=5",
+      "sourceName": "Anadolu Ajansı"
     }
   ],
   "sourceStatuses": [

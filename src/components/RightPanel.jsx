@@ -9,9 +9,8 @@ const SEVERITY_COLORS = {
 
 function EventItem({ event }) {
   const color = SEVERITY_COLORS[event.severity] || SEVERITY_COLORS.info;
-
-  return (
-    <div className="event-item" style={{ borderLeftColor: color }}>
+  const content = (
+    <>
       <div className="event-top-row">
         <span className="event-icon">{event.icon}</span>
         <span className="event-time" style={{ color: `${color}99` }}>{event.timestamp}</span>
@@ -22,6 +21,30 @@ function EventItem({ event }) {
       {event.actor !== 'Global' && event.actor !== 'System' && (
         <div className="event-actor" style={{ color: `${color}80` }}>{event.actor}</div>
       )}
+      {event.sourceName && (
+        <div className="event-source-label">{event.sourceName}</div>
+      )}
+    </>
+  );
+
+  if (event.sourceUrl) {
+    return (
+      <a
+        className="event-item event-item-link"
+        style={{ borderLeftColor: color }}
+        href={event.sourceUrl}
+        target="_blank"
+        rel="noreferrer"
+        title={`Open source${event.sourceName ? `: ${event.sourceName}` : ''}`}
+      >
+        {content}
+      </a>
+    );
+  }
+
+  return (
+    <div className="event-item" style={{ borderLeftColor: color }}>
+      {content}
     </div>
   );
 }

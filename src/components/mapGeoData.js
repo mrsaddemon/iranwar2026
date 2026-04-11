@@ -1,12 +1,12 @@
 import { geoBounds } from 'd3-geo';
 import { feature } from 'topojson-client';
-import countriesAtlas from 'world-atlas/countries-110m.json';
+import countriesAtlas from 'world-atlas/countries-50m.json';
 
 export const VIEWPORT_BOUNDS = {
-  minLon: 20,
-  maxLon: 68,
-  minLat: 8,
-  maxLat: 43,
+  minLon: 16,
+  maxLon: 110,
+  minLat: 4,
+  maxLat: 62,
 };
 
 export const DEFAULT_VIEW = { x: 0, y: 0, scale: 1 };
@@ -153,12 +153,12 @@ export const COUNTRY_STYLES = {
     detail: 'Northern regional power watching spillover, refugees, and alliance pressure.',
   },
   Pakistan: {
-    fill: 'rgba(100, 100, 100, 0.04)',
-    stroke: 'rgba(100, 100, 100, 0.22)',
-    labelColor: 'rgba(148, 163, 184, 0.42)',
+    fill: 'rgba(56, 189, 248, 0.08)',
+    stroke: 'rgba(56, 189, 248, 0.36)',
+    labelColor: 'rgba(125, 211, 252, 0.72)',
     label: 'PAKISTAN',
-    subtitle: 'Regional State',
-    detail: 'Eastern neighbor watching escalation through nuclear, border, and regional-security lenses.',
+    subtitle: 'Ceasefire Mediator',
+    detail: 'Pakistan is acting as a ceasefire mediator while also weighing nuclear-risk signaling, border security, Gulf linkages, and wider regional stability.',
   },
   Afghanistan: {
     fill: 'rgba(100, 100, 100, 0.03)',
@@ -168,6 +168,30 @@ export const COUNTRY_STYLES = {
     subtitle: 'Regional State',
     detail: 'Peripheral regional state bordering the eastern edge of the war theater.',
   },
+  Bangladesh: {
+    fill: 'rgba(56, 189, 248, 0.16)',
+    stroke: 'rgba(56, 189, 248, 0.46)',
+    labelColor: 'rgba(125, 211, 252, 0.72)',
+    label: 'BANGLADESH',
+    subtitle: 'Regional Stakeholder',
+    detail: 'Bangladesh sits on the eastern edge of the wider regional picture through shipping routes, labor-market exposure, and energy-price sensitivity.',
+  },
+  Nepal: {
+    fill: 'rgba(56, 189, 248, 0.16)',
+    stroke: 'rgba(56, 189, 248, 0.46)',
+    labelColor: 'rgba(125, 211, 252, 0.72)',
+    label: 'NEPAL',
+    subtitle: 'Regional Stakeholder',
+    detail: 'Nepal is indirectly affected through remittances, fuel-market spillover, and broader South Asian geopolitical balancing.',
+  },
+  Bhutan: {
+    fill: 'rgba(56, 189, 248, 0.16)',
+    stroke: 'rgba(56, 189, 248, 0.46)',
+    labelColor: 'rgba(125, 211, 252, 0.72)',
+    label: 'BHUTAN',
+    subtitle: 'Regional Stakeholder',
+    detail: 'Bhutan is a peripheral regional stakeholder affected mainly through energy pricing, South Asian diplomacy, and wider stability concerns.',
+  },
   Palestine: {
     fill: 'rgba(59, 130, 246, 0.14)',
     stroke: 'rgba(59, 130, 246, 0.42)',
@@ -175,6 +199,206 @@ export const COUNTRY_STYLES = {
     label: 'PALESTINE',
     subtitle: 'Contested Area',
     detail: 'Contested territory whose political and security dynamics continue to shape the wider conflict frame.',
+  },
+  'United States of America': {
+    fill: 'rgba(239, 68, 68, 0.08)',
+    stroke: 'rgba(239, 68, 68, 0.34)',
+    labelColor: 'rgba(248, 113, 113, 0.62)',
+    label: 'USA',
+    subtitle: 'Primary External Actor',
+    detail: 'The United States shapes deterrence, naval posture, military aid, sanctions, and diplomatic signaling across the conflict.',
+  },
+  'United Kingdom': {
+    fill: 'rgba(96, 165, 250, 0.06)',
+    stroke: 'rgba(96, 165, 250, 0.28)',
+    labelColor: 'rgba(147, 197, 253, 0.54)',
+    label: 'UNITED KINGDOM',
+    subtitle: 'Allied Stakeholder',
+    detail: 'Britain is tied in through alliance coordination, maritime security, intelligence sharing, and diplomatic pressure.',
+  },
+  France: {
+    fill: 'rgba(96, 165, 250, 0.05)',
+    stroke: 'rgba(96, 165, 250, 0.24)',
+    labelColor: 'rgba(147, 197, 253, 0.48)',
+    label: 'FRANCE',
+    subtitle: 'Allied Stakeholder',
+    detail: 'France is connected through Mediterranean deployments, diplomacy, and European security coordination.',
+  },
+  Germany: {
+    fill: 'rgba(96, 165, 250, 0.04)',
+    stroke: 'rgba(96, 165, 250, 0.2)',
+    labelColor: 'rgba(147, 197, 253, 0.42)',
+    label: 'GERMANY',
+    subtitle: 'Economic Stakeholder',
+    detail: 'Germany is linked through sanctions policy, alliance politics, refugee pressure, and energy-market exposure.',
+  },
+  Italy: {
+    fill: 'rgba(96, 165, 250, 0.04)',
+    stroke: 'rgba(96, 165, 250, 0.2)',
+    labelColor: 'rgba(147, 197, 253, 0.42)',
+    label: 'ITALY',
+    subtitle: 'Mediterranean Stakeholder',
+    detail: 'Italy is connected through Mediterranean logistics, NATO alignment, and energy-route sensitivity.',
+  },
+  Greece: {
+    fill: 'rgba(96, 165, 250, 0.04)',
+    stroke: 'rgba(96, 165, 250, 0.22)',
+    labelColor: 'rgba(147, 197, 253, 0.44)',
+    label: 'GREECE',
+    subtitle: 'Transit Stakeholder',
+    detail: 'Greece is exposed through Eastern Mediterranean air and sea traffic, alliance posture, and logistics spillover.',
+  },
+  Cyprus: {
+    fill: 'rgba(96, 165, 250, 0.05)',
+    stroke: 'rgba(96, 165, 250, 0.24)',
+    labelColor: 'rgba(147, 197, 253, 0.46)',
+    label: 'CYPRUS',
+    subtitle: 'Forward Transit Hub',
+    detail: 'Cyprus sits near military air corridors, evacuation planning, ISR flows, and Eastern Mediterranean naval traffic.',
+  },
+  Russia: {
+    fill: 'rgba(168, 85, 247, 0.05)',
+    stroke: 'rgba(168, 85, 247, 0.26)',
+    labelColor: 'rgba(196, 181, 253, 0.48)',
+    label: 'RUSSIA',
+    subtitle: 'Great-Power Stakeholder',
+    detail: 'Russia is linked through Syria, arms balances, energy markets, and broader great-power maneuvering.',
+  },
+  'Russian Federation': {
+    fill: 'rgba(168, 85, 247, 0.05)',
+    stroke: 'rgba(168, 85, 247, 0.26)',
+    labelColor: 'rgba(196, 181, 253, 0.48)',
+    label: 'RUSSIA',
+    subtitle: 'Great-Power Stakeholder',
+    detail: 'Russia is linked through Syria, arms balances, energy markets, and broader great-power maneuvering.',
+  },
+  China: {
+    fill: 'rgba(250, 204, 21, 0.05)',
+    stroke: 'rgba(250, 204, 21, 0.24)',
+    labelColor: 'rgba(253, 224, 71, 0.44)',
+    label: 'CHINA',
+    subtitle: 'Global Economic Stakeholder',
+    detail: 'China is connected through energy imports, global shipping exposure, sanctions politics, and diplomatic balancing.',
+  },
+  India: {
+    fill: 'rgba(250, 204, 21, 0.05)',
+    stroke: 'rgba(250, 204, 21, 0.22)',
+    labelColor: 'rgba(253, 224, 71, 0.4)',
+    label: 'INDIA',
+    subtitle: 'Energy-Market Stakeholder',
+    detail: 'India is linked through imported energy, Gulf labor ties, shipping exposure, and regional-security calculations.',
+  },
+  Azerbaijan: {
+    fill: 'rgba(148, 163, 184, 0.05)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.42)',
+    label: 'AZERBAIJAN',
+    subtitle: 'Border Stakeholder',
+    detail: 'Azerbaijan is adjacent to Iranian territory and connected through borders, energy routes, and regional alignment.',
+  },
+  Armenia: {
+    fill: 'rgba(148, 163, 184, 0.05)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.42)',
+    label: 'ARMENIA',
+    subtitle: 'Border Stakeholder',
+    detail: 'Armenia is indirectly linked through Caucasus instability, corridor politics, and neighboring escalation sensitivity.',
+  },
+  Georgia: {
+    fill: 'rgba(148, 163, 184, 0.05)',
+    stroke: 'rgba(148, 163, 184, 0.2)',
+    labelColor: 'rgba(148, 163, 184, 0.4)',
+    label: 'GEORGIA',
+    subtitle: 'Transit Stakeholder',
+    detail: 'Georgia connects to the wider picture through regional transit routes, Russia dynamics, and Black Sea exposure.',
+  },
+  Turkmenistan: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.2)',
+    labelColor: 'rgba(148, 163, 184, 0.38)',
+    label: 'TURKMENISTAN',
+    subtitle: 'Border Stakeholder',
+    detail: 'Turkmenistan borders Iran and sits near Caspian trade and energy routes affected by regional instability.',
+  },
+  Kazakhstan: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.4)',
+    label: 'KAZAKHSTAN',
+    subtitle: 'Central Asian Stakeholder',
+    detail: 'Kazakhstan is connected through Caspian energy routes, Eurasian trade links, and wider strategic balancing around Russia, China, and Iran.',
+  },
+  Uzbekistan: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.4)',
+    label: 'UZBEKISTAN',
+    subtitle: 'Central Asian Stakeholder',
+    detail: 'Uzbekistan sits in the middle of Central Asian transit and security networks that can feel second-order effects from regional instability.',
+  },
+  Kyrgyzstan: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.4)',
+    label: 'KYRGYZSTAN',
+    subtitle: 'Central Asian Stakeholder',
+    detail: 'Kyrgyzstan is indirectly connected through Central Asian security dynamics, economic spillover, and broader Eurasian balancing.',
+  },
+  Tajikistan: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.4)',
+    label: 'TAJIKISTAN',
+    subtitle: 'Central Asian Stakeholder',
+    detail: 'Tajikistan links into the wider picture through security corridors, Afghan adjacency, and regional stability concerns.',
+  },
+  Mongolia: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.2)',
+    labelColor: 'rgba(148, 163, 184, 0.36)',
+    label: 'MONGOLIA',
+    subtitle: 'Peripheral Stakeholder',
+    detail: 'Mongolia is a peripheral Eurasian stakeholder shaped more by great-power alignment and trade exposure than direct conflict spillover.',
+  },
+  Libya: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.2)',
+    labelColor: 'rgba(148, 163, 184, 0.36)',
+    label: 'LIBYA',
+    subtitle: 'Mediterranean Stakeholder',
+    detail: 'Libya is indirectly linked through Mediterranean shipping lanes, energy markets, and regional spillover concerns.',
+  },
+  Sudan: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.2)',
+    labelColor: 'rgba(148, 163, 184, 0.36)',
+    label: 'SUDAN',
+    subtitle: 'Red Sea Stakeholder',
+    detail: 'Sudan matters through Red Sea maritime corridors, regional instability, and nearby logistics routes.',
+  },
+  Eritrea: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.2)',
+    labelColor: 'rgba(148, 163, 184, 0.36)',
+    label: 'ERITREA',
+    subtitle: 'Red Sea Stakeholder',
+    detail: 'Eritrea sits along the Red Sea corridor and is strategically relevant to shipping and regional posture.',
+  },
+  Djibouti: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.22)',
+    labelColor: 'rgba(148, 163, 184, 0.4)',
+    label: 'DJIBOUTI',
+    subtitle: 'Maritime Chokepoint Stakeholder',
+    detail: 'Djibouti anchors one of the world’s most important maritime chokepoints and hosts multiple foreign military presences.',
+  },
+  Somalia: {
+    fill: 'rgba(148, 163, 184, 0.04)',
+    stroke: 'rgba(148, 163, 184, 0.18)',
+    labelColor: 'rgba(148, 163, 184, 0.34)',
+    label: 'SOMALIA',
+    subtitle: 'Shipping-Lane Stakeholder',
+    detail: 'Somalia sits beside the maritime approaches that tie Red Sea instability to wider global shipping flows.',
   },
 };
 
@@ -187,20 +411,30 @@ export const DEFAULT_COUNTRY_STYLE = {
 };
 
 export const MAP_LABELS = [
-  { text: 'TURKEY', coordinates: [35.0, 39.0], color: 'rgba(148, 163, 184, 0.46)' },
+  { text: 'TURKEY', coordinates: [35.0, 39.0], color: 'rgba(148, 163, 184, 0.44)' },
   { text: 'SYRIA', coordinates: [38.5, 35.0], color: 'rgba(148, 163, 184, 0.48)' },
-  { text: 'LEBANON', coordinates: [35.7, 33.9], color: 'rgba(249, 115, 22, 0.74)' },
+  { text: 'LEBANON', coordinates: [35.7, 33.9], color: 'rgba(249, 115, 22, 0.72)' },
   { text: 'ISRAEL', coordinates: [35.0, 31.7], color: 'rgba(59, 130, 246, 0.9)' },
   { text: 'JORDAN', coordinates: [36.4, 31.2], color: 'rgba(148, 163, 184, 0.5)' },
   { text: 'IRAQ', coordinates: [43.7, 33.6], color: 'rgba(148, 163, 184, 0.5)' },
+  { text: 'EGYPT', coordinates: [30.4, 27.4], color: 'rgba(148, 163, 184, 0.42)' },
+  { text: 'SAUDI ARABIA', coordinates: [44.6, 23.6], color: 'rgba(249, 115, 22, 0.56)' },
   { text: 'IRAN', coordinates: [53.6, 31.5], color: 'rgba(34, 197, 94, 0.82)' },
-  { text: 'SAUDI ARABIA', coordinates: [44.6, 23.6], color: 'rgba(249, 115, 22, 0.62)' },
   { text: 'YEMEN', coordinates: [47.4, 15.7], color: 'rgba(239, 68, 68, 0.6)' },
   { text: 'UAE', coordinates: [54.7, 24.2], color: 'rgba(249, 115, 22, 0.62)' },
   { text: 'OMAN', coordinates: [57.2, 21.2], color: 'rgba(148, 163, 184, 0.48)' },
-  { text: 'EGYPT', coordinates: [30.4, 27.4], color: 'rgba(148, 163, 184, 0.42)' },
-  { text: 'PAKISTAN', coordinates: [67.0, 29.2], color: 'rgba(148, 163, 184, 0.42)' },
+  { text: 'PAKISTAN', coordinates: [67.0, 29.2], color: 'rgba(125, 211, 252, 0.66)' },
   { text: 'AFGHANISTAN', coordinates: [66.0, 35.2], color: 'rgba(148, 163, 184, 0.38)' },
+  { text: 'KAZAKHSTAN', coordinates: [67.5, 48.2], color: 'rgba(148, 163, 184, 0.34)' },
+  { text: 'UZBEKISTAN', coordinates: [63.5, 41.4], color: 'rgba(148, 163, 184, 0.34)' },
+  { text: 'KYRGYZSTAN', coordinates: [74.6, 41.3], color: 'rgba(148, 163, 184, 0.32)' },
+  { text: 'TAJIKISTAN', coordinates: [71.1, 38.8], color: 'rgba(148, 163, 184, 0.32)' },
+  { text: 'BANGLADESH', coordinates: [90.1, 23.9], color: 'rgba(148, 163, 184, 0.4)' },
+  { text: 'NEPAL', coordinates: [84.3, 28.2], color: 'rgba(148, 163, 184, 0.4)' },
+  { text: 'BHUTAN', coordinates: [90.4, 27.4], color: 'rgba(148, 163, 184, 0.38)' },
+  { text: 'RUSSIA', coordinates: [89.0, 57.0], color: 'rgba(196, 181, 253, 0.38)' },
+  { text: 'CHINA', coordinates: [103.0, 34.0], color: 'rgba(253, 224, 71, 0.34)' },
+  { text: 'MONGOLIA', coordinates: [103.0, 46.7], color: 'rgba(148, 163, 184, 0.3)' },
 ];
 
 export const SEA_LABELS = [
@@ -209,6 +443,12 @@ export const SEA_LABELS = [
   { text: 'PERSIAN GULF', coordinates: [52.4, 27.0], color: 'rgba(59, 130, 246, 0.28)' },
   { text: 'GULF OF OMAN', coordinates: [59.2, 24.7], color: 'rgba(59, 130, 246, 0.22)' },
   { text: 'CASPIAN SEA', coordinates: [52.3, 40.6], color: 'rgba(59, 130, 246, 0.18)' },
+];
+
+export const SMALL_COUNTRY_HOTSPOTS = [
+  { name: 'Bangladesh', coordinates: { lon: 90.2, lat: 23.8 }, hitRadius: 18 },
+  { name: 'Nepal', coordinates: { lon: 84.1, lat: 28.3 }, hitRadius: 20 },
+  { name: 'Bhutan', coordinates: { lon: 90.5, lat: 27.4 }, hitRadius: 18 },
 ];
 
 export const STRAIT_OF_HORMUZ = {
@@ -241,14 +481,68 @@ export const CITY_CORES = [
   { coordinates: { lon: 51.678, lat: 32.654 }, color: [200, 120, 80], label: 'Isfahan', detail: 'Strategic Iranian interior hub tied to military industry and logistics depth.' },
 ];
 
+const REGIONAL_COUNTRY_NAMES = new Set([
+  'Turkey',
+  'Greece',
+  'Cyprus',
+  'Syria',
+  'Lebanon',
+  'Israel',
+  'Palestine',
+  'Jordan',
+  'Iraq',
+  'Iran',
+  'Saudi Arabia',
+  'Yemen',
+  'Oman',
+  'Qatar',
+  'Bahrain',
+  'Kuwait',
+  'United Arab Emirates',
+  'Egypt',
+  'Libya',
+  'Sudan',
+  'Eritrea',
+  'Djibouti',
+  'Armenia',
+  'Azerbaijan',
+  'Georgia',
+  'Turkmenistan',
+  'Kazakhstan',
+  'Uzbekistan',
+  'Kyrgyzstan',
+  'Tajikistan',
+  'Afghanistan',
+  'Pakistan',
+  'India',
+  'Bangladesh',
+  'Nepal',
+  'Bhutan',
+  'Mongolia',
+  'Russia',
+  'Russian Federation',
+  'China',
+]);
+
 export function getRegionFeatures() {
   const allFeatures = feature(countriesAtlas, countriesAtlas.objects.countries).features;
   return allFeatures.filter((mapFeature) => {
+    const name = mapFeature.properties?.name;
+    if (!REGIONAL_COUNTRY_NAMES.has(name)) return false;
     const bounds = geoBounds(mapFeature);
     const [[minLon, minLat], [maxLon, maxLat]] = bounds;
+    const crossesAntimeridian = maxLon < minLon;
+    const lonIntersects = crossesAntimeridian
+      ? (
+        VIEWPORT_BOUNDS.maxLon >= minLon
+        || VIEWPORT_BOUNDS.minLon <= maxLon
+      )
+      : (
+        maxLon >= VIEWPORT_BOUNDS.minLon
+        && minLon <= VIEWPORT_BOUNDS.maxLon
+      );
     return (
-      maxLon >= VIEWPORT_BOUNDS.minLon
-      && minLon <= VIEWPORT_BOUNDS.maxLon
+      lonIntersects
       && maxLat >= VIEWPORT_BOUNDS.minLat
       && minLat <= VIEWPORT_BOUNDS.maxLat
     );
@@ -259,9 +553,26 @@ export function getCountryStyle(name) {
   return COUNTRY_STYLES[name] || DEFAULT_COUNTRY_STYLE;
 }
 
+export function isPointInViewportBounds(point) {
+  if (!point) return false;
+  const lon = Array.isArray(point) ? point[0] : point.lon;
+  const lat = Array.isArray(point) ? point[1] : point.lat;
+  if (!Number.isFinite(lon) || !Number.isFinite(lat)) return false;
+  return (
+    lon >= VIEWPORT_BOUNDS.minLon
+    && lon <= VIEWPORT_BOUNDS.maxLon
+    && lat >= VIEWPORT_BOUNDS.minLat
+    && lat <= VIEWPORT_BOUNDS.maxLat
+  );
+}
+
 export function projectWithView(projection, point, viewTransform) {
-  const projected = projection([point.lon, point.lat]);
-  if (!projected) return null;
+  if (!projection || !point) return null;
+  const lon = Array.isArray(point) ? point[0] : point.lon;
+  const lat = Array.isArray(point) ? point[1] : point.lat;
+  if (!Number.isFinite(lon) || !Number.isFinite(lat)) return null;
+  const projected = projection([lon, lat]);
+  if (!projected || !Number.isFinite(projected[0]) || !Number.isFinite(projected[1])) return null;
   return {
     x: (projected[0] * viewTransform.scale) + viewTransform.x,
     y: (projected[1] * viewTransform.scale) + viewTransform.y,

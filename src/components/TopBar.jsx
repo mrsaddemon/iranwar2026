@@ -71,6 +71,7 @@ export default function TopBar({
   dayCount, warDay, speed, running, nuclearIndex,
   escalationLevel, summary, recentEvents, ceasefireStatus,
   lastUpdated, lastSyncedAt, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
+  highVisibility, onToggleHighVisibility,
 }) {
   const [relativeNow, setRelativeNow] = useState(() => Date.now());
   const totalWarDay = (warDay || 39) + dayCount;
@@ -182,6 +183,15 @@ export default function TopBar({
 
         <button className="ctrl-btn" onClick={onFullscreen} title="Fullscreen">
           ⛶
+        </button>
+
+        <button
+          className={`ctrl-btn visibility-btn ${highVisibility ? 'active' : ''}`}
+          onClick={onToggleHighVisibility}
+          title={highVisibility ? 'Disable sunlight mode' : 'Enable sunlight mode'}
+          aria-pressed={highVisibility}
+        >
+          ☀
         </button>
       </div>
     </div>

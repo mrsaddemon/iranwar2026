@@ -25,6 +25,19 @@
   --glass: rgba(255, 255, 255, 0.03);
 }
 
+.app-shell.sunlight-mode {
+  --bg-primary: #0b1220;
+  --bg-secondary: #121c30;
+  --bg-panel: rgba(16, 24, 40, 0.96);
+  --bg-card: rgba(22, 31, 52, 0.94);
+  --border-subtle: rgba(226, 232, 240, 0.18);
+  --border-panel: rgba(148, 163, 184, 0.26);
+  --text-primary: #f8fafc;
+  --text-secondary: #dbe7f6;
+  --text-dim: #b2c1d8;
+  --glass: rgba(255, 255, 255, 0.08);
+}
+
 html, body, #root {
   width: 100%; height: 100%;
   overflow: hidden;
@@ -266,6 +279,69 @@ html, body, #root {
   color: var(--blue);
 }
 
+.visibility-btn.active {
+  color: #fde68a;
+  border-color: rgba(251, 191, 36, 0.45);
+  background: rgba(250, 204, 21, 0.12);
+  box-shadow: 0 0 14px rgba(250, 204, 21, 0.16);
+}
+
+.app-shell.sunlight-mode .announce-bar,
+.app-shell.sunlight-mode .top-bar,
+.app-shell.sunlight-mode .left-panel,
+.app-shell.sunlight-mode .right-panel,
+.app-shell.sunlight-mode .bottom-panel,
+.app-shell.sunlight-mode .bottom-tabs,
+.app-shell.sunlight-mode .social-footer {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.app-shell.sunlight-mode .logo-text,
+.app-shell.sunlight-mode .day-label,
+.app-shell.sunlight-mode .panel-header,
+.app-shell.sunlight-mode .event-count,
+.app-shell.sunlight-mode .disclaimer {
+  color: var(--text-dim);
+}
+
+.app-shell.sunlight-mode .event-item,
+.app-shell.sunlight-mode .actor-card,
+.app-shell.sunlight-mode .bottom-section,
+.app-shell.sunlight-mode .command-section,
+.app-shell.sunlight-mode .narrative-card,
+.app-shell.sunlight-mode .control-card,
+.app-shell.sunlight-mode .modal-content {
+  background: var(--bg-card);
+  border-color: rgba(226, 232, 240, 0.12);
+}
+
+.app-shell.sunlight-mode .metric-bar-track,
+.app-shell.sunlight-mode .probability-track,
+.app-shell.sunlight-mode .gauge-track,
+.app-shell.sunlight-mode .nuclear-index-bar {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.app-shell.sunlight-mode .ctrl-btn,
+.app-shell.sunlight-mode .speed-btn,
+.app-shell.sunlight-mode .bottom-tab-btn {
+  color: var(--text-secondary);
+  border-color: rgba(226, 232, 240, 0.16);
+}
+
+.app-shell.sunlight-mode .ctrl-btn:hover,
+.app-shell.sunlight-mode .speed-btn:hover,
+.app-shell.sunlight-mode .bottom-tab-btn:hover {
+  color: var(--text-primary);
+}
+
+.app-shell.sunlight-mode .sim-day[style],
+.app-shell.sunlight-mode .sim-day-secondary,
+.app-shell.sunlight-mode .sim-day-sync,
+.app-shell.sunlight-mode .sim-day-next-update {
+  opacity: 0.82 !important;
+}
+
 /* ======== MAIN CONTENT ======== */
 
 .main-content {
@@ -318,12 +394,15 @@ html, body, #root {
   border-radius: 8px;
   margin-bottom: 8px;
   border-left: 3px solid;
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
+  z-index: 1;
   transition: background 0.2s;
 }
 
 .actor-card:hover {
   background: rgba(20, 26, 45, 0.8);
+  z-index: 8;
 }
 
 .actor-header {
@@ -356,6 +435,7 @@ html, body, #root {
 
 .actor-metrics {
   padding: 4px 12px 10px;
+  overflow: visible;
 }
 
 .metric-row {
@@ -401,14 +481,20 @@ html, body, #root {
 .metric-row-with-tooltip,
 .actor-power-with-tooltip {
   cursor: help;
+  position: relative;
+  z-index: 2;
 }
 
 .metric-tooltip {
   position: absolute;
-  left: calc(100% - 8px);
+  left: auto;
+  right: 0;
   top: 50%;
   transform: translateY(-50%);
-  width: 220px;
+  width: min(240px, calc(100vw - 36px));
+  max-width: calc(100vw - 36px);
+  max-height: 220px;
+  overflow-y: auto;
   padding: 9px 10px;
   background: rgba(6, 10, 18, 0.96);
   border: 1px solid rgba(255,255,255,0.1);
@@ -419,6 +505,9 @@ html, body, #root {
   pointer-events: none;
   transition: opacity 0.16s ease;
   z-index: 30;
+  box-sizing: border-box;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .metric-row-with-tooltip:hover .metric-tooltip,
@@ -451,10 +540,10 @@ html, body, #root {
 
 .actor-score-tooltip {
   left: auto;
-  right: -6px;
+  right: 0;
   top: calc(100% + 10px);
   transform: none;
-  width: 240px;
+  width: min(248px, calc(100vw - 36px));
 }
 
 /* ======== CENTER PANEL ======== */
@@ -505,6 +594,18 @@ html, body, #root {
   animation: eventSlideIn 0.3s ease-out;
 }
 
+.event-item-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.event-item-link:hover {
+  background: rgba(20, 26, 45, 0.84);
+}
+
 @keyframes eventSlideIn {
   from { opacity: 0; transform: translateX(10px); }
   to { opacity: 1; transform: translateX(0); }
@@ -540,6 +641,15 @@ html, body, #root {
   font-size: 9px;
   margin-top: 2px;
   font-family: 'JetBrains Mono', monospace;
+}
+
+.event-source-label {
+  margin-top: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  color: var(--text-dim);
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
 
 .event-empty {
@@ -834,7 +944,7 @@ html, body, #root {
 
 .bottom-tab-btn {
   flex: 1;
-  padding: 6px 16px;
+  padding: 9px 16px 8px;
   font-family: 'JetBrains Mono', monospace;
   font-size: 10px;
   font-weight: 600;
@@ -858,10 +968,22 @@ html, body, #root {
   background: rgba(59, 130, 246, 0.05);
 }
 
+.bottom-tab-hint {
+  display: inline-flex;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.28);
+  background: rgba(34, 197, 94, 0.12);
+  color: #86efac;
+  font-size: 8px;
+  letter-spacing: 0.08em;
+}
+
 /* ======== PLAYER CONTROLS ======== */
 
 .player-controls {
-  height: 180px;
+  min-height: 220px;
   flex-shrink: 0;
   background: var(--bg-panel);
   border-top: 1px solid var(--border-panel);
@@ -940,6 +1062,52 @@ html, body, #root {
   color: var(--text-dim);
   text-align: center;
   padding: 20px;
+}
+
+.pc-inactive-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(59, 130, 246, 0.18);
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.08), rgba(15, 23, 42, 0.28));
+}
+
+.pc-inactive-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #bfdbfe;
+}
+
+.pc-inactive-text {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.pc-inactive-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pc-quick-actor-btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+}
+
+.pc-quick-actor-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.28);
 }
 
 .pc-section-label {

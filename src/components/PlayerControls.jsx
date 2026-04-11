@@ -260,8 +260,27 @@ export default function PlayerControls({
       </div>
 
       {!actorId && (
-        <div className="pc-inactive">
-          Select a country to issue commands. All actors run on autopilot.
+        <div className="pc-inactive-card">
+          <div className="pc-inactive-title">Select a side to open command mode</div>
+          <div className="pc-inactive-text">
+            Issue strikes, diplomacy, proxy actions, and special operations manually. Until you choose a side, every actor stays on autopilot.
+          </div>
+          <div className="pc-inactive-actions">
+            {['usa', 'israel', 'iran'].map(id => (
+              <button
+                key={`quick-${id}`}
+                className="pc-quick-actor-btn"
+                style={{
+                  borderColor: ACTOR_COLORS[id],
+                  color: ACTOR_COLORS[id],
+                  background: `${ACTOR_COLORS[id]}14`,
+                }}
+                onClick={() => onSelectActor(id)}
+              >
+                {ACTOR_NAMES[id]}
+              </button>
+            ))}
+          </div>
         </div>
       )}
 

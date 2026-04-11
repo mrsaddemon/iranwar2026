@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BASE_ACTORS } from '../engine/actors.js';
+import { BASE_ACTORS, createInitialActors } from '../engine/actors.js';
 import { LATEST_SNAPSHOT } from '../engine/latestSnapshot.js';
 
 const METRIC_ICONS = {
@@ -44,20 +44,45 @@ function describeValueBand(value) {
   return 'It is near breakdown level.';
 }
 
-function describeDelta(value, baseline) {
-  if (!Number.isFinite(baseline)) return '';
-  const delta = Math.round(value - baseline);
-  if (delta >= 12) return `It is up ${delta} points versus the baseline snapshot.`;
-  if (delta >= 5) return `It is modestly above baseline by ${delta} points.`;
-  if (delta <= -12) return `It is down ${Math.abs(delta)} points from baseline conditions.`;
-  if (delta <= -5) return `It is somewhat below baseline by ${Math.abs(delta)} points.`;
-  return 'It is still close to its baseline range.';
+const SNAPSHOT_ACTORS = createInitialActors(LATEST_SNAPSHOT.actorOverrides);
+
+function buildNumericComparison(value, previousValue, defaultValue) {
+  const parts = [`Current: ${value}.`];
+  if (Number.isFinite(previousValue)) parts.push(`Last sync: ${Math.round(previousValue)}.`);
+  if (Number.isFinite(defaultValue)) parts.push(`Default baseline: ${Math.round(defaultValue)}.`);
+  return parts.join(' ');
 }
 
-function describeSnapshotPressure(metricKey) {
-  const summary = LATEST_SNAPSHOT.summary || '';
-  const ceasefire = LATEST_SNAPSHOT.ceasefire;
-  const recentEvents = LATEST_SNAPSHOT.recentEvents || [];
+function describeMovement(value, previousValue, label = 'last synced snapshot') {
+  if (!Number.isFinite(previousValue)) return 'No prior synced value is available for comparison.';
+  const delta = Math.round(value - previousValue);
+  if (delta >= 12) return `It is up ${delta} points versus the ${label}.`;
+  if (delta >= 5) return `It is up ${delta} points versus the ${label}, but not by a dramatic margin.`;
+  if (delta <= -12) return `It is down ${Math.abs(delta)} points from the ${label}.`;
+  if (delta <= -5) return `It is down ${Math.abs(delta)} points from the ${label}, but not by a dramatic margin.`;
+  return `It is essentially unchanged from the ${label}.`;
+}
+
+function describeModelShift(actorId, metricKey, snapshotBaseline) {
+  const modelBaseline = BASE_ACTORS[actorId]?.metrics?.[metricKey];
+  if (!Number.isFinite(modelBaseline) || !Number.isFinite(snapshotBaseline)) return '';
+
+  const delta = Math.round(snapshotBaseline - modelBaseline);
+  if (delta >= 8) {
+    return `The latest source sync seeded this metric ${delta} points higher than the model's default baseline.`;
+  }
+  if (delta <= -8) {
+    return `The latest source sync seeded this metric ${Math.abs(delta)} points lower than the model's default baseline.`;
+  }
+  return '';
+}
+
+function describeSnapshotPressure(metricKey, context) {
+  const summary = context.summary || '';
+  const ceasefire = context.ceasefireStatus;
+  const recentEvents = context.recentEvents || [];
+  const escalationLevel = context.escalationLevel || 0;
+  const oilDisruption = context.oilDisruption || 0;
 
   if (metricKey === 'economy' && /hormuz|shipping|oil/i.test(summary)) {
     return 'Shipping, oil, and corridor pressure are still feeding into this score.';
@@ -73,12 +98,24 @@ function describeSnapshotPressure(metricKey) {
     return 'Recent ceasefire signaling is providing some relief, but the broader war picture is still unsettled.';
   }
 
+  if (metricKey === 'militaryPower' && escalationLevel <= 45 && ceasefire?.active) {
+    return 'Because the ceasefire is still holding, the model is not rapidly degrading combat strength right now.';
+  }
+
+  if (metricKey === 'militaryPower' && escalationLevel >= 65) {
+    return 'Sustained high-intensity operations are still a direct drag on this score.';
+  }
+
   if ((metricKey === 'missileCapacity' || metricKey === 'droneCapability') && recentEvents.some((event) => /strike|airstrike|missile/i.test(event.text))) {
     return 'Ongoing strike activity is one of the main reasons this score still matters operationally.';
   }
 
   if (metricKey === 'navalControl' && /hormuz|shipping|maritime/i.test(summary)) {
     return 'Maritime pressure around regional routes is a direct driver of this rating.';
+  }
+
+  if (metricKey === 'economy' && oilDisruption >= 55) {
+    return 'Elevated oil and trade disruption are still suppressing recovery in this score.';
   }
 
   if (metricKey === 'airSuperiority' && recentEvents.some((event) => /airstrike|airstrikes/i.test(event.text))) {
@@ -88,21 +125,24 @@ function describeSnapshotPressure(metricKey) {
   return '';
 }
 
-function buildMetricExplanation(actor, metricKey, value) {
-  const baseline = BASE_ACTORS[actor.id]?.metrics?.[metricKey];
+function buildMetricExplanation(actor, metricKey, value, context) {
+  const snapshotBaseline = SNAPSHOT_ACTORS[actor.id]?.metrics?.[metricKey];
+  const defaultBaseline = BASE_ACTORS[actor.id]?.metrics?.[metricKey];
   return [
+    buildNumericComparison(value, snapshotBaseline, defaultBaseline),
     METRIC_REASON_PREFIX[metricKey],
+    describeMovement(value, snapshotBaseline),
+    describeModelShift(actor.id, metricKey, snapshotBaseline),
     describeValueBand(value),
-    describeDelta(value, baseline),
-    describeSnapshotPressure(metricKey),
+    describeSnapshotPressure(metricKey, context),
   ].filter(Boolean).join(' ');
 }
 
-function buildHeaderExplanation(actor) {
+function buildHeaderExplanation(actor, context) {
   const value = Math.round(actor.metrics.militaryPower);
   return [
     'This header number is the Military Power score, not an average of all metrics.',
-    buildMetricExplanation(actor, 'militaryPower', value),
+    buildMetricExplanation(actor, 'militaryPower', value, context),
   ].join(' ');
 }
 
@@ -113,10 +153,10 @@ function getBarColor(value) {
   return '#ef4444';
 }
 
-function MetricBar({ actor, metricKey, label, value, icon }) {
+function MetricBar({ actor, metricKey, label, value, icon, context }) {
   const color = getBarColor(value);
   const v = Math.round(value);
-  const explanation = buildMetricExplanation(actor, metricKey, v);
+  const explanation = buildMetricExplanation(actor, metricKey, v, context);
 
   return (
     <div className="metric-row metric-row-with-tooltip" tabIndex={0}>
@@ -143,8 +183,8 @@ function MetricBar({ actor, metricKey, label, value, icon }) {
   );
 }
 
-function ActorCard({ actor, isExpanded, onToggle }) {
-  const headerExplanation = buildHeaderExplanation(actor);
+function ActorCard({ actor, isExpanded, onToggle, context }) {
+  const headerExplanation = buildHeaderExplanation(actor, context);
 
   return (
     <div
@@ -176,6 +216,7 @@ function ActorCard({ actor, isExpanded, onToggle }) {
               label={METRIC_LABELS[key]}
               value={val}
               icon={METRIC_ICONS[key]}
+              context={context}
             />
           ))}
         </div>
@@ -184,10 +225,17 @@ function ActorCard({ actor, isExpanded, onToggle }) {
   );
 }
 
-export default function LeftPanel({ actors }) {
+export default function LeftPanel({ actors, escalationLevel, oilDisruption, ceasefireStatus, recentEvents, summary }) {
   const [expanded, setExpanded] = useState({ usa: true, israel: true, iran: true });
 
   const toggle = (id) => setExpanded(prev => ({ ...prev, [id]: !prev[id] }));
+  const context = {
+    escalationLevel,
+    oilDisruption,
+    ceasefireStatus,
+    recentEvents,
+    summary,
+  };
 
   return (
     <div className="left-panel">
@@ -202,6 +250,7 @@ export default function LeftPanel({ actors }) {
             actor={actors[id]}
             isExpanded={expanded[id]}
             onToggle={() => toggle(id)}
+            context={context}
           />
         ))}
       </div>

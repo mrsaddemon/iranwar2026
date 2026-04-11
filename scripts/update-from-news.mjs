@@ -305,6 +305,7 @@ async function fetchText(url, options = {}) {
 
 async function fetchGoogleNewsHeadlines() {
   const headlines = [];
+  const articles = [];
   const topics = [
     'Iran+war+2026',
     'Iran+Israel+strikes',
@@ -317,21 +318,43 @@ async function fetchGoogleNewsHeadlines() {
     try {
       const url = `https://news.google.com/rss/search?q=${topic}&hl=en&gl=US&ceid=US:en`;
       const text = await fetchText(url);
-      const titles = [...text.matchAll(/<title>(.*?)<\/title>/g)]
-        .map((m) => m[1])
-        .map(normalizeSourceHeadline)
-        .filter(isUsefulHeadline);
-      headlines.push(...titles.slice(0, 4));
+      const items = [...text.matchAll(/<item>([\s\S]*?)<\/item>/g)]
+        .map((match) => match[1])
+        .map((itemText) => {
+          const titleMatch = itemText.match(/<title>(.*?)<\/title>/i);
+          const linkMatch = itemText.match(/<link>(.*?)<\/link>/i);
+          const title = normalizeSourceHeadline(titleMatch?.[1] || '');
+          const link = decodeHtmlEntities(linkMatch?.[1] || '').trim();
+          if (!isUsefulHeadline(title)) return null;
+          return {
+            headline: title,
+            url: /^https?:\/\//i.test(link) ? link : null,
+            sourceName: 'Google News RSS',
+          };
+        })
+        .filter(Boolean);
+      headlines.push(...items.map((item) => item.headline).slice(0, 4));
+      articles.push(...items.slice(0, 8));
     } catch (error) {
       console.warn(`Google News RSS fetch failed for ${topic}: ${error.message}`);
     }
   }
 
   const unique = prepareHeadlines(headlines, 20);
+  const dedupedArticles = [];
+  const seenArticles = new Set();
+  for (const article of articles) {
+    const key = `${article.headline.toLowerCase()}::${article.url || ''}`;
+    if (seenArticles.has(key)) continue;
+    seenArticles.add(key);
+    if (!unique.includes(article.headline)) continue;
+    dedupedArticles.push(article);
+  }
   console.log(`Google News RSS: ${unique.length} headlines`);
   return {
     source: 'Google News RSS',
     headlines: unique,
+    articles: dedupedArticles,
   };
 }
 
@@ -356,10 +379,18 @@ async function fetchGdeltNews() {
     );
 
     console.log(`GDELT: ${headlines.length} articles`);
+    const headlineSet = new Set(headlines.map((headline) => headline.toLowerCase()));
     return {
       source: 'GDELT',
       headlines,
       signals,
+      articles: articles
+        .map((article) => ({
+          headline: normalizeSourceHeadline(article.title || article.url || ''),
+          url: article.url || null,
+          sourceName: article.domain || 'GDELT',
+        }))
+        .filter((article) => article.headline && headlineSet.has(article.headline.toLowerCase())),
     };
   } catch (error) {
     console.warn(`GDELT fetch failed: ${error.message}`);
@@ -367,6 +398,7 @@ async function fetchGdeltNews() {
       source: 'GDELT',
       headlines: [],
       signals: [],
+      articles: [],
     };
   }
 }
@@ -663,6 +695,10 @@ async function gatherSourceBundle() {
 
   return {
     headlines,
+    articles: [
+      ...(googleNews.articles || []),
+      ...(gdelt.articles || []),
+    ],
     promptSections,
     sourceStatuses,
     sourcesUsed: [
@@ -819,14 +855,50 @@ function formatEventDateLabel(dateKey) {
   return date.toLocaleDateString('en-US', { month: 'short', day: '2-digit', timeZone: 'UTC' });
 }
 
+function buildSourceArticleIndex(sourceBundle) {
+  const articles = Array.isArray(sourceBundle?.articles) ? sourceBundle.articles : [];
+  const byHeadline = new Map();
+
+  for (const article of articles) {
+    const normalizedHeadline = normalizeHeadlineText(article.headline);
+    if (!normalizedHeadline || byHeadline.has(normalizedHeadline)) continue;
+    byHeadline.set(normalizedHeadline, article);
+  }
+
+  return byHeadline;
+}
+
+function findSourceArticleForText(text, sourceArticleIndex) {
+  const normalizedText = normalizeHeadlineText(text);
+  if (!normalizedText) return null;
+
+  if (sourceArticleIndex.has(normalizedText)) {
+    return sourceArticleIndex.get(normalizedText);
+  }
+
+  for (const [headline, article] of sourceArticleIndex.entries()) {
+    if (normalizedText.includes(headline) || headline.includes(normalizedText)) {
+      return article;
+    }
+  }
+
+  return null;
+}
+
 function buildFallbackRecentEvents(sourceBundle, today, summary) {
   const date = formatEventDateLabel(today);
+  const sourceArticleIndex = buildSourceArticleIndex(sourceBundle);
   const headlines = prepareHeadlines((sourceBundle.headlines || []).map(normalizeHeadlineText), 6);
-  const events = headlines.map((headline) => ({
-    date,
-    text: headline,
-    severity: inferEventSeverity(headline),
-  }));
+  const events = headlines.map((headline) => {
+    const matchedArticle = findSourceArticleForText(headline, sourceArticleIndex);
+    return {
+      date,
+      text: headline,
+      severity: inferEventSeverity(headline),
+      sourceUrl: matchedArticle?.url || null,
+      sourceName: matchedArticle?.sourceName || null,
+    };
+  });
 
   if (events.length > 0) return events;
 
@@ -834,6 +906,8 @@ function buildFallbackRecentEvents(sourceBundle, today, summary) {
     date,
     text: summary,
     severity: 'info',
+    sourceUrl: null,
+    sourceName: null,
   }];
 }
 
@@ -937,6 +1011,20 @@ function decorateUpdatedItems(previousItems = [], nextItems = [], currentSequenc
   });
 }
 
+function attachEventSources(events = [], sourceBundle) {
+  const sourceArticleIndex = buildSourceArticleIndex(sourceBundle);
+
+  return events.map((event) => {
+    if (event?.sourceUrl) return event;
+    const matchedArticle = findSourceArticleForText(event?.text, sourceArticleIndex);
+    return {
+      ...event,
+      sourceUrl: matchedArticle?.url || null,
+      sourceName: event?.sourceName || matchedArticle?.sourceName || null,
+    };
+  });
+}
+
 function normalizeParams(rawParams, previousSnapshot, today, warDay) {
   const fallbackSnapshot = previousSnapshot || {};
   const syncTimestamp = new Date().toISOString();
@@ -946,7 +1034,15 @@ function normalizeParams(rawParams, previousSnapshot, today, warDay) {
     lastSyncedAt: rawParams?.lastSyncedAt || syncTimestamp,
     warDay: Number.isFinite(Number(rawParams?.warDay)) ? Number(rawParams.warDay) : warDay,
     summary: rawParams?.summary || fallbackSnapshot.summary || 'Regional fighting remains active across the conflict zone.',
-    recentEvents: Array.isArray(rawParams?.recentEvents) ? rawParams.recentEvents : (fallbackSnapshot.recentEvents || []),
+    recentEvents: Array.isArray(rawParams?.recentEvents)
+      ? rawParams.recentEvents.map((event) => ({
+          date: event?.date || formatEventDateLabel(today),
+          text: event?.text || '',
+          severity: ['info', 'warning', 'critical', 'stable'].includes(event?.severity) ? event.severity : inferEventSeverity(event?.text || ''),
+          sourceUrl: event?.sourceUrl || null,
+          sourceName: event?.sourceName || null,
+        }))
+      : (fallbackSnapshot.recentEvents || []),
     narratives: Array.isArray(rawParams?.narratives) ? rawParams.narratives : (fallbackSnapshot.narratives || []),
     usa: {
       militaryPower: rawParams?.usa?.militaryPower ?? fallbackSnapshot.actorOverrides?.usa?.metrics?.militaryPower ?? 90,
@@ -995,7 +1091,7 @@ async function interpretNews(sourceBundle, oilPrice, { includeNarratives = true 
   const today = getUtcDateKey();
   const warDay = calculateWarDay(today);
 
-  const prompt = `You are a simulation data engine. Based on the following data, generate simulation parameters.
+const prompt = `You are a simulation data engine. Based on the following data, generate simulation parameters.
   
 Today: ${today} (War Day ${warDay})
 Oil Price: ${oilPrice ? '$' + oilPrice : 'unavailable'}
@@ -1015,7 +1111,7 @@ JSON Structure:
   "lastSyncedAt": "${new Date().toISOString()}",
   "warDay": ${warDay},
   "summary": "1-sentence neutral factual summary",
-  "recentEvents": [{"date": "MMM DD", "text": "description", "severity": "info|warning|critical"}],
+  "recentEvents": [{"date": "MMM DD", "text": "description", "severity": "info|warning|critical", "sourceUrl": "https://...", "sourceName": "outlet"}],
   "ceasefire": {"active": false, "status": "none|fragile|active|collapsed", "confidence": 0.0-1.0, "durationDays": 0-60, "summary": "1-sentence neutral ceasefire status"},
   ${includeNarratives ? '"narratives": [{"perspective": "label", "headline": "short headline", "summary": "2-sentence narrative", "tone": "neutral|anxious|defiant|skeptical|strained"}],' : ''}
   "usa": {"militaryPower": 0-100, "precision": 0.0-1.0, "aggression": 0.0-1.0},
@@ -1035,6 +1131,7 @@ Bias guardrails:
 - If evidence is mixed or thin, prefer smaller metric moves and cautious wording.
 - If a ceasefire, truce, operational pause, or monitored de-escalation is clearly in effect, return a lower escalationLevel and populate the ceasefire object explicitly.
 - If the ceasefire looks fragile or partially violated, prefer status "fragile" rather than "none".
+- When a recent event clearly maps to a cited article, include sourceUrl and sourceName.
 ${includeNarratives ? '- Narrative items should summarize distinct geopolitical perspectives without endorsing them.' : ''}`;
 
   const response = await askGemini(prompt);
@@ -1302,6 +1399,8 @@ async function main() {
     params.narratives = buildFallbackNarratives(params);
     params.lastNarrativeUpdate = today;
   }
+
+  params.recentEvents = attachEventSources(params.recentEvents || [], sourceBundle);
 
   params.recentEvents = decorateUpdatedItems(
     previousSnapshot?.recentEvents || [],

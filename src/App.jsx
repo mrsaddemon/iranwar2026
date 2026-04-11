@@ -9,6 +9,188 @@ import WarConclusion from './components/WarConclusion.jsx';
 import { createSimulationState, simulateTick, applyPlayerAction, resolvePendingNuclearStrike } from './engine/SimulationEngine.js';
 
 const TICK_INTERVALS = { 1: 1000, 5: 200, 20: 50 };
+const TRACKER_POLL_INTERVAL_MS = 5000;
+const TRACKER_TRAIL_LIMIT = 6;
+const TRACKER_STORAGE_KEY = 'war-sim-tracker-cache-v1';
+const TRACKER_ENTITY_GRACE_MS = 3 * 60 * 1000;
+const TRACKER_VISIBILITY_STORAGE_KEY = 'war-sim-tracker-visibility-v2';
+
+function isLocalRuntime() {
+  if (typeof window === 'undefined') return false;
+  return (
+    window.location.hostname === '127.0.0.1'
+    || window.location.hostname === 'localhost'
+  );
+}
+
+function shouldPreserveEntities(nextItems, sourceStatusValue) {
+  const statusText = String(sourceStatusValue || '').toLowerCase();
+  return (!Array.isArray(nextItems) || nextItems.length === 0)
+    && (
+      statusText.includes('failed')
+      || statusText.includes('connection failed')
+      || statusText.includes('stale cache')
+      || statusText.includes('throttled')
+      || statusText.includes('too many requests')
+      || statusText.includes('429')
+      || statusText.includes('rate limit')
+    );
+}
+
+function readStoredTrackerSnapshot() {
+  if (typeof window === 'undefined') return null;
+  try {
+    const raw = window.localStorage.getItem(TRACKER_STORAGE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object') return null;
+    return {
+      generatedAt: parsed.generatedAt || null,
+      fetchedAt: parsed.fetchedAt || null,
+      flights: Array.isArray(parsed.flights) ? parsed.flights : [],
+      ships: Array.isArray(parsed.ships) ? parsed.ships : [],
+      sourceStatus: parsed.sourceStatus || {},
+    };
+  } catch {
+    return null;
+  }
+}
+
+function storeTrackerSnapshot(snapshot) {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(TRACKER_STORAGE_KEY, JSON.stringify(snapshot));
+  } catch {
+    // Ignore storage failures; live state still works for the current session.
+  }
+}
+
+function readTrackerVisibility() {
+  if (typeof window === 'undefined') {
+    return { flights: false, ships: false };
+  }
+  try {
+    const raw = window.localStorage.getItem(TRACKER_VISIBILITY_STORAGE_KEY);
+    if (!raw) return { flights: false, ships: false };
+    const parsed = JSON.parse(raw);
+    return {
+      flights: parsed?.flights === true,
+      ships: parsed?.ships === true,
+    };
+  } catch {
+    return { flights: false, ships: false };
+  }
+}
+
+function storeTrackerVisibility(visibility) {
+  if (typeof window === 'undefined') return;
+  try {
+    window.localStorage.setItem(TRACKER_VISIBILITY_STORAGE_KEY, JSON.stringify(visibility));
+  } catch {
+    // Ignore storage failures; toggles still work for the current session.
+  }
+}
+
+function advanceCoordinates(lat, lon, headingDeg, speedKnots, seconds) {
+  if (!Number.isFinite(lat) || !Number.isFinite(lon) || !Number.isFinite(headingDeg) || !Number.isFinite(speedKnots) || speedKnots <= 0 || seconds <= 0) {
+    return { lat, lon };
+  }
+
+  const earthRadiusKm = 6371;
+  const distanceKm = (speedKnots * 1.852 * seconds) / 3600;
+  const angularDistance = distanceKm / earthRadiusKm;
+  const bearing = (headingDeg * Math.PI) / 180;
+  const lat1 = (lat * Math.PI) / 180;
+  const lon1 = (lon * Math.PI) / 180;
+
+  const sinLat1 = Math.sin(lat1);
+  const cosLat1 = Math.cos(lat1);
+  const sinAd = Math.sin(angularDistance);
+  const cosAd = Math.cos(angularDistance);
+
+  const lat2 = Math.asin((sinLat1 * cosAd) + (cosLat1 * sinAd * Math.cos(bearing)));
+  const lon2 = lon1 + Math.atan2(
+    Math.sin(bearing) * sinAd * cosLat1,
+    cosAd - (sinLat1 * Math.sin(lat2)),
+  );
+
+  let normalizedLon = ((lon2 * 180) / Math.PI + 540) % 360 - 180;
+  if (!Number.isFinite(normalizedLon)) normalizedLon = lon;
+
+  return {
+    lat: (lat2 * 180) / Math.PI,
+    lon: normalizedLon,
+  };
+}
+
+function getRenderedTrackerPosition(entity, now) {
+  if (!entity) return null;
+  const lat = Number.isFinite(entity.lat) ? entity.lat : null;
+  const lon = Number.isFinite(entity.lon) ? entity.lon : null;
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+
+  const previousLat = Number.isFinite(entity.previousLat) ? entity.previousLat : lat;
+  const previousLon = Number.isFinite(entity.previousLon) ? entity.previousLon : lon;
+  const observedAt = Number.isFinite(entity.observedAt) ? entity.observedAt : now;
+  const interpolationWindowMs = TRACKER_POLL_INTERVAL_MS;
+  const elapsedMs = Math.max(0, now - observedAt);
+  const progress = Math.max(0, Math.min(1, elapsedMs / interpolationWindowMs));
+
+  const basePoint = (previousLat === lat && previousLon === lon)
+    ? { lat, lon }
+    : {
+        lat: previousLat + ((lat - previousLat) * progress),
+        lon: previousLon + ((lon - previousLon) * progress),
+      };
+
+  const extrapolatedSeconds = Math.min(30, Math.max(0, elapsedMs - interpolationWindowMs) / 1000);
+  return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
+}
+
+function mergeTrackerEntities(previousEntities, nextEntities, fetchedAt) {
+  const previousById = new Map((previousEntities || []).map((entity) => [entity.id, entity]));
+  const merged = (nextEntities || []).map((entity) => {
+    const previous = previousById.get(entity.id);
+    const renderedPrevious = getRenderedTrackerPosition(previous, fetchedAt);
+    const previousLat = renderedPrevious?.lat ?? previous?.lat ?? entity.lat;
+    const previousLon = renderedPrevious?.lon ?? previous?.lon ?? entity.lon;
+    const positionChanged = previous && Number.isFinite(previous.lat) && Number.isFinite(previous.lon)
+      && (previous.lat !== entity.lat || previous.lon !== entity.lon);
+
+    const history = positionChanged
+      ? [
+          ...(previous?.history || []),
+          {
+            lat: renderedPrevious?.lat ?? previous.lat,
+            lon: renderedPrevious?.lon ?? previous.lon,
+            observedAt: previous.observedAt || fetchedAt,
+          },
+        ].slice(-TRACKER_TRAIL_LIMIT)
+      : (previous?.history || []).slice(-TRACKER_TRAIL_LIMIT);
+
+    return {
+      ...entity,
+      previousLat,
+      previousLon,
+      previousObservedAt: previous?.observedAt || fetchedAt,
+      observedAt: fetchedAt,
+      history,
+      stale: false,
+    };
+  });
+
+  const nextIds = new Set((nextEntities || []).map((entity) => entity.id));
+  const preserved = (previousEntities || [])
+    .filter((entity) => !nextIds.has(entity.id))
+    .filter((entity) => (fetchedAt - (entity.observedAt || fetchedAt)) <= TRACKER_ENTITY_GRACE_MS)
+    .map((entity) => ({
+      ...entity,
+      stale: true,
+      history: (entity.history || []).slice(-TRACKER_TRAIL_LIMIT),
+    }));
+
+  return [...merged, ...preserved];
+}
 
 export default function App() {
   const [state, setState] = useState(createSimulationState);
@@ -17,6 +199,21 @@ export default function App() {
   const [bottomTab, setBottomTab] = useState('predictions'); // 'predictions' | 'command'
   const [iranHasNuke, setIranHasNuke] = useState(false);
   const [refreshPending, setRefreshPending] = useState(false);
+  const [trackerSnapshot, setTrackerSnapshot] = useState(() => {
+    const stored = readStoredTrackerSnapshot();
+    return stored || {
+      generatedAt: null,
+      fetchedAt: null,
+      flights: [],
+      ships: [],
+      sourceStatus: {},
+    };
+  });
+  const [highVisibility, setHighVisibility] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    return window.localStorage.getItem('sunlight-mode') === '1';
+  });
+  const [trackerVisibility, setTrackerVisibility] = useState(readTrackerVisibility);
   const intervalRef = useRef(null);
   const nuclearResolutionTimeoutRef = useRef(null);
   const refreshTimeoutRef = useRef(null);
@@ -67,6 +264,8 @@ export default function App() {
   }, [state.lastSyncedAt]);
 
   useEffect(() => {
+    if (isLocalRuntime()) return undefined;
+
     const pollForDeployment = async () => {
       try {
         const resp = await fetch(`/update-meta.json?ts=${Date.now()}`, { cache: 'no-store' });
@@ -119,6 +318,76 @@ export default function App() {
     }
   }, []);
 
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadTrackerSnapshot = async () => {
+      try {
+        const params = new URLSearchParams({
+          ts: String(Date.now()),
+          air: trackerVisibility?.flights ? '1' : '0',
+          sea: trackerVisibility?.ships ? '1' : '0',
+        });
+        const response = await fetch(`/api/tracker/snapshot?${params.toString()}`, { cache: 'no-store' });
+        if (!response.ok) return;
+        const data = await response.json();
+        if (cancelled) return;
+        const fetchedAt = Date.now();
+        setTrackerSnapshot((previous) => {
+          const nextFlights = Array.isArray(data.flights) ? data.flights : [];
+          const nextShips = Array.isArray(data.ships) ? data.ships : [];
+          const resolvedFlights = shouldPreserveEntities(nextFlights, data?.sourceStatus?.flights)
+            ? (previous?.flights || [])
+            : nextFlights;
+          const resolvedShips = shouldPreserveEntities(nextShips, data?.sourceStatus?.ships)
+            ? (previous?.ships || [])
+            : nextShips;
+
+          const nextSnapshot = {
+            generatedAt: data.generatedAt || null,
+            fetchedAt,
+            flights: mergeTrackerEntities(previous?.flights, resolvedFlights, fetchedAt),
+            ships: mergeTrackerEntities(previous?.ships, resolvedShips, fetchedAt),
+            sourceStatus: data.sourceStatus || {},
+          };
+          if (nextSnapshot.flights.length > 0 || nextSnapshot.ships.length > 0) {
+            storeTrackerSnapshot(nextSnapshot);
+          }
+          return nextSnapshot;
+        });
+      } catch {
+        // Ignore transient tracker failures; the next poll can recover.
+      }
+    };
+
+    loadTrackerSnapshot();
+    const intervalId = window.setInterval(loadTrackerSnapshot, TRACKER_POLL_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
+    };
+  }, [trackerVisibility]);
+
+  const handleToggleHighVisibility = useCallback(() => {
+    setHighVisibility(prev => {
+      const next = !prev;
+      try {
+        window.localStorage.setItem('sunlight-mode', next ? '1' : '0');
+      } catch {
+        // Ignore storage failures; the mode still works for this session.
+      }
+      return next;
+    });
+  }, []);
+
+  const handleToggleTrackerLayer = useCallback((layer) => {
+    setTrackerVisibility((previous) => {
+      const next = { ...previous, [layer]: !previous[layer] };
+      storeTrackerVisibility(next);
+      return next;
+    });
+  }, []);
+
   const handleSelectActor = useCallback((actorId) => {
     setState(prev => ({ ...prev, playerControlledActor: actorId }));
     if (actorId) setBottomTab('command');
@@ -129,7 +398,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${highVisibility ? 'sunlight-mode' : ''}`}>
       {/* Announcement Banner */}
       <div className="announce-bar">
         <span className="announce-pulse" />
@@ -161,16 +430,29 @@ export default function App() {
         onToggleRunning={handleToggleRunning}
         onReset={handleReset}
         onFullscreen={handleFullscreen}
+        highVisibility={highVisibility}
+        onToggleHighVisibility={handleToggleHighVisibility}
       />
 
       <div className="main-content">
-        <LeftPanel actors={state.actors} />
+        <LeftPanel
+          actors={state.actors}
+          escalationLevel={state.escalationLevel}
+          oilDisruption={state.oilDisruption}
+          ceasefireStatus={state.ceasefireStatus}
+          recentEvents={state.events}
+          summary={state.snapshotSummary}
+        />
 
         <div className="center-panel">
           <MapCanvas
             mapAnimations={state.mapAnimations}
             escalationLevel={state.escalationLevel}
             nuclearIndex={state.nuclearIndex}
+            highVisibility={highVisibility}
+            trackerSnapshot={trackerSnapshot}
+            trackerVisibility={trackerVisibility}
+            onToggleTrackerLayer={handleToggleTrackerLayer}
           />
         </div>
 
@@ -190,7 +472,8 @@ export default function App() {
           onClick={() => setBottomTab('command')}
           style={state.playerControlledActor ? { color: '#22c55e' } : {}}
         >
-          COMMAND {state.playerControlledActor ? `(${state.playerControlledActor.toUpperCase()})` : ''}
+          COMMAND CENTER {state.playerControlledActor ? `(${state.playerControlledActor.toUpperCase()})` : ''}
+          {!state.playerControlledActor && <span className="bottom-tab-hint">SELECT SIDE</span>}
         </button>
       </div>
 

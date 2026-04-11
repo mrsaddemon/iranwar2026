@@ -30,6 +30,19 @@ function makeTimestamp(dayCount, warDay) {
   return `${getDateForDay(dayCount)} \u2022 Day ${warDay + dayCount}`;
 }
 
+function clamp(value, min = 0, max = 100) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function clamp01(value) {
+  return clamp(value, 0, 1);
+}
+
+function average(values) {
+  if (!values.length) return 0;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
 function normalizeSnapshotEventText(text) {
   return String(text || '')
     .replace(/^[\s"'`]+|[\s"'`]+$/g, '')
@@ -105,7 +118,7 @@ function registerCeasefireBreakdown(state, actorName) {
 }
 
 export function createSimulationState() {
-  return {
+  const initialState = {
     dayCount: 0,
     warDay: INITIAL_WAR_DAY,
     running: false,
@@ -150,6 +163,9 @@ export function createSimulationState() {
     warConclusion: null, // null = ongoing, object = concluded
     pendingNuclearStrike: null,
   };
+
+  updatePredictions(initialState);
+  return initialState;
 }
 
 function generateInitialEvents() {
@@ -169,6 +185,8 @@ function generateInitialEvents() {
       text: normalizeSnapshotEventText(event.text),
       severity: event.severity,
       latestSinceUpdate: event.latestSinceUpdate,
+      sourceUrl: event.sourceUrl || null,
+      sourceName: event.sourceName || null,
       icon: severityIconMap[event.severity] || severityIconMap.info,
       action: 'context',
       actor: 'System',
@@ -187,6 +205,8 @@ function generateInitialEvents() {
     icon: LATEST_SNAPSHOT.ceasefire?.active ? '\u26A0' : '\u{1F4F0}',
     action: 'context',
     actor: 'System',
+    sourceUrl: null,
+    sourceName: null,
   }];
 }
 
@@ -635,45 +655,157 @@ function generateMapAnimation(actorId, action, day, options = {}) {
 // ==================== PREDICTIONS ====================
 
 function updatePredictions(state) {
-  const { escalationLevel, nuclearIndex, oilDisruption } = state;
+  const {
+    escalationLevel,
+    nuclearIndex,
+    oilDisruption,
+    tradeImpact = 0,
+    globalPressure = 0,
+    allianceInfluence = 0,
+  } = state;
+  const usa = state.actors?.usa?.metrics || {};
+  const israel = state.actors?.israel?.metrics || {};
+  const iran = state.actors?.iran?.metrics || {};
   const norm = escalationLevel / 100;
   const nucNorm = nuclearIndex / 100;
-
-  const runs = 200;
-  const outcomes = { deesc: 0, prolonged: 0, regional: 0, brink: 0, internal: 0 };
-
-  for (let i = 0; i < runs; i++) {
-    const escFuture = norm + (Math.random() - 0.45) * 0.3;
-    if (escFuture < 0.25) outcomes.deesc++;
-    else if (escFuture < 0.50) outcomes.prolonged++;
-    else if (escFuture < 0.70) outcomes.brink++;
-    else if (escFuture < 0.85) outcomes.regional++;
-    else outcomes.internal++;
-  }
+  const oilNorm = clamp01(oilDisruption / 100);
+  const tradeNorm = clamp01(tradeImpact / 100);
+  const pressureNorm = clamp01(globalPressure / 100);
+  const allianceNorm = clamp01(allianceInfluence / 100);
+  const ceasefire = normalizeCeasefireStatus(state.ceasefireStatus);
+  const ceasefireConfidence = clamp01(ceasefire.confidence || 0);
+  const activeCeasefireBoost = ceasefire.status === 'active' ? 0.95 : ceasefire.active ? 0.5 : 0;
+  const coalitionReadiness = clamp01(average([
+    usa.militaryPower || 0,
+    usa.airSuperiority || 0,
+    usa.navalControl || 0,
+    israel.militaryPower || 0,
+    israel.airSuperiority || 0,
+    israel.missileCapacity || 0,
+  ]) / 100);
+  const coalitionStability = clamp01(average([
+    usa.internalStability || 0,
+    usa.morale || 0,
+    usa.economy || 0,
+    israel.internalStability || 0,
+    israel.morale || 0,
+    israel.economy || 0,
+  ]) / 100);
+  const iranResilience = clamp01(average([
+    iran.militaryPower || 0,
+    iran.missileCapacity || 0,
+    iran.droneCapability || 0,
+    iran.internalStability || 0,
+    iran.morale || 0,
+  ]) / 100);
+  const internalFragility = clamp01(average([
+    100 - (usa.internalStability || 0),
+    100 - (usa.morale || 0),
+    100 - (israel.internalStability || 0),
+    100 - (israel.morale || 0),
+    100 - (iran.internalStability || 0),
+    100 - (iran.morale || 0),
+    100 - (iran.economy || 0),
+  ]) / 100);
+  const multiFrontPressure = clamp01(average([
+    iran.missileCapacity || 0,
+    iran.droneCapability || 0,
+    oilDisruption,
+    tradeImpact,
+    globalPressure,
+  ]) / 100);
+  const contestedBalance = clamp01(1 - Math.abs(coalitionReadiness - iranResilience));
 
   let predictions = {
-    deescalation: outcomes.deesc / runs,
-    prolongedConflict: outcomes.prolonged / runs,
-    regionalExpansion: outcomes.regional / runs,
-    strategicBrinkmanship: outcomes.brink / runs,
-    internalInstability: outcomes.internal / runs,
+    deescalation:
+      0.14 +
+      (1 - norm) * 1.25 +
+      (1 - nucNorm) * 0.45 +
+      pressureNorm * 0.35 +
+      activeCeasefireBoost +
+      ceasefireConfidence * 0.45 -
+      oilNorm * 0.25,
+    prolongedConflict:
+      0.22 +
+      (1 - Math.abs(norm - 0.52) * 1.65) * 0.85 +
+      contestedBalance * 0.8 +
+      coalitionReadiness * 0.35 +
+      iranResilience * 0.35 -
+      activeCeasefireBoost * 0.2,
+    regionalExpansion:
+      0.12 +
+      norm * 0.8 +
+      oilNorm * 0.95 +
+      tradeNorm * 0.55 +
+      allianceNorm * 0.45 +
+      multiFrontPressure * 0.45 -
+      activeCeasefireBoost * 0.55,
+    strategicBrinkmanship:
+      0.1 +
+      nucNorm * 1.35 +
+      norm * 0.65 +
+      pressureNorm * 0.2 +
+      multiFrontPressure * 0.2 -
+      activeCeasefireBoost * 0.6,
+    internalInstability:
+      0.14 +
+      internalFragility * 1.2 +
+      tradeNorm * 0.3 +
+      oilNorm * 0.25 +
+      (1 - coalitionStability) * 0.25 +
+      (1 - iranResilience) * 0.3,
   };
 
-  if (state.ceasefireStatus?.active) {
-    const ceasefireStrength = state.ceasefireStatus.status === 'active' ? 1.7 : 1.3;
-    predictions.deescalation *= ceasefireStrength;
-    predictions.prolongedConflict *= 0.85;
-    predictions.regionalExpansion *= 0.55;
-    predictions.strategicBrinkmanship *= 0.7;
-    predictions.internalInstability *= 0.85;
+  if (ceasefire.active) {
+    const ceasefireStrength = ceasefire.status === 'active' ? 1.35 : 1.15;
+    predictions.deescalation *= ceasefireStrength + ceasefireConfidence * 0.2;
+    predictions.prolongedConflict *= ceasefire.status === 'active' ? 0.82 : 0.96;
+    predictions.regionalExpansion *= ceasefire.status === 'active' ? 0.62 : 0.86;
+    predictions.strategicBrinkmanship *= ceasefire.status === 'active' ? 0.52 : 0.78;
+    predictions.internalInstability *= ceasefire.status === 'active' ? 0.86 : 0.94;
+
+    if ((ceasefire.durationDays || 0) >= 7) {
+      predictions.deescalation += 0.25;
+      predictions.prolongedConflict -= 0.05;
+    }
+  }
+
+  if (ceasefire.status === 'collapsed') {
+    predictions.deescalation *= 0.55;
+    predictions.regionalExpansion *= 1.18;
+    predictions.strategicBrinkmanship *= 1.22;
+    predictions.internalInstability *= 1.12;
+  }
+
+  for (const key of Object.keys(predictions)) {
+    predictions[key] = Math.max(0.02, predictions[key]);
   }
 
   const total = Object.values(predictions).reduce((a, b) => a + b, 0);
   for (const key of Object.keys(predictions)) predictions[key] = predictions[key] / total;
 
   state.predictions = predictions;
-  state.warDurationRange = { min: 14 + Math.floor(escalationLevel * 0.5), max: Math.min(365, 60 + Math.floor(escalationLevel * 1.2)) };
-  state.escalationProbability = Math.min(0.95, 0.1 + norm * 0.7 + nucNorm * 0.15);
+  const deescDays = predictions.deescalation * 30;
+  const prolongedDays = predictions.prolongedConflict * 150;
+  const regionalDays = predictions.regionalExpansion * 110;
+  const brinkDays = predictions.strategicBrinkmanship * 75;
+  const instabilityDays = predictions.internalInstability * 90;
+  const durationCenter = 10 + deescDays + prolongedDays + regionalDays + brinkDays + instabilityDays;
+  state.warDurationRange = {
+    min: Math.max(7, Math.round(durationCenter * 0.45)),
+    max: Math.min(365, Math.round(durationCenter * 1.35)),
+  };
+  state.escalationProbability = clamp01(
+    0.08 +
+    norm * 0.45 +
+    nucNorm * 0.2 +
+    oilNorm * 0.08 +
+    tradeNorm * 0.06 +
+    pressureNorm * 0.05 +
+    predictions.regionalExpansion * 0.12 +
+    predictions.strategicBrinkmanship * 0.1 -
+    predictions.deescalation * 0.18
+  );
   state.nuclearPredictions = calculateNuclearPredictions(nuclearIndex);
 }
 
