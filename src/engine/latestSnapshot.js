@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 70,
+  "updateSequence": 71,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T08:05:21.261Z",
+  "lastSyncedAt": "2026-04-11T08:23:06.765Z",
   "warDay": 43,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-11",
@@ -10,41 +10,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "Ceasefire talks are underway between Iran and the US, and Israel and Lebanon, but Israel has rejected a ceasefire with Hezbollah and continues strikes in Beirut, while Iran tests the ceasefire."
+    "summary": "An overall ceasefire is not active, with ongoing conflict and rejections, though talks are underway and a partial 'Iran truce' is being tested."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 55,
     "escalationLevel": 48,
-    "oilDisruption": 95
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,52 +55,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 11",
-      "text": "Iranian delegation arrives in Pakistan for talks with US, with Vance en route.",
+      "date": "Apr 09",
+      "text": "Iranian delegation arrived in Pakistan for high-stakes peace talks with the US, with Vance en route.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 70
+      "latestSinceUpdate": 71
     },
     {
-      "date": "Apr 11",
-      "text": "Israel to hold ceasefire talks with Lebanon next week, but rejects a ceasefire with Hezbollah.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/rss",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 70
-    },
-    {
-      "date": "Apr 11",
-      "text": "Israel strikes central Beirut, killing at least 182, stating an Iran truce does not apply there.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/rss",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 70
-    },
-    {
-      "date": "Apr 11",
-      "text": "Iran warns of 'strong responses' as Israeli attacks on Lebanon threaten ceasefire.",
+      "date": "Apr 09",
+      "text": "Trump warned Iran ahead of talks, stating fresh strikes would occur if negotiations fail and criticizing the continued closure of the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 70
+      "latestSinceUpdate": 71
     },
     {
-      "date": "Apr 11",
-      "text": "Strait of Hormuz remains closed, with Iran reportedly unable to reopen it due to lost track of planted mines.",
+      "date": "Apr 10",
+      "text": "Israel announced it would hold ceasefire talks with Lebanon next week but rejected a ceasefire with Hezbollah, subsequently striking central Beirut, killing at least 182.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 70
+      "latestSinceUpdate": 71
+    },
+    {
+      "date": "Apr 10",
+      "text": "The Strait of Hormuz remains closed, with the US stating Iran is unable to find mines it planted, while Iran considers it a 'trump card' in talks.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 71
     },
     {
       "date": "Apr 11",
-      "text": "US military expresses disquiet and concerns over preparedness following a deadly Iranian attack in Kuwait.",
+      "text": "US military is 'loading up and resting' as Iran tests a ceasefire, amidst growing disquiet within the military.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 70
+      "latestSinceUpdate": 71
     }
   ],
   "sourceStatuses": [

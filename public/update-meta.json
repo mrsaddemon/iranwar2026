@@ -1,13 +1,13 @@
 {
-  "updateSequence": 70,
+  "updateSequence": 71,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T08:05:21.261Z",
+  "lastSyncedAt": "2026-04-11T08:23:06.765Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "Ceasefire talks are underway between Iran and the US, and Israel and Lebanon, but Israel has rejected a ceasefire with Hezbollah and continues strikes in Beirut, while Iran tests the ceasefire."
+    "summary": "An overall ceasefire is not active, with ongoing conflict and rejections, though talks are underway and a partial 'Iran truce' is being tested."
   }
 }
