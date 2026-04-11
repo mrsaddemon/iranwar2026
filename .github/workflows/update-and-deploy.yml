@@ -32,6 +32,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_API_VERSION: v1beta
           GEMINI_MODEL: gemini-2.5-flash
+          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID || secrets.OPENSKY_CLIENTID || secrets.OPENSKY_ID }}
+          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET || secrets.OPENSKY_CLIENTSECRET || secrets.OPENSKY_SECRET }}
           ACLED_USERNAME: ${{ secrets.ACLED_USERNAME }}
           ACLED_PASSWORD: ${{ secrets.ACLED_PASSWORD }}
           LIVEUAMAP_FEED_URL: ${{ vars.LIVEUAMAP_FEED_URL }}
@@ -51,7 +53,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "Simulation Auto-Updater"
-          git add src/engine/latestSnapshot.js public/update-meta.json
+          git add src/engine/latestSnapshot.js public/update-meta.json public/tracker-fallback.json
           if git diff --staged --quiet; then
             echo "No snapshot changes to commit."
             exit 0

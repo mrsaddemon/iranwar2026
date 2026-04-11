@@ -23,8 +23,19 @@ const LIVEUAMAP_FEED_URL = process.env.LIVEUAMAP_FEED_URL;
 const IEA_API_KEY = process.env.IEA_API_KEY;
 const IEA_DATA_URL = process.env.IEA_DATA_URL;
 const OWID_ENERGY_DATA_URL = process.env.OWID_ENERGY_DATA_URL || 'https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv';
+const OPENSKY_CLIENT_ID = process.env.OPENSKY_CLIENT_ID || process.env.OPENSKY_CLIENTID || process.env.OPENSKY_ID;
+const OPENSKY_CLIENT_SECRET = process.env.OPENSKY_CLIENT_SECRET || process.env.OPENSKY_CLIENTSECRET || process.env.OPENSKY_SECRET;
 const WAR_START_DATE = '2026-02-28';
 const UPDATE_META_PUBLIC_PATH = ['public', 'update-meta.json'];
+const TRACKER_FALLBACK_PUBLIC_PATH = ['public', 'tracker-fallback.json'];
+const OPENSKY_TOKEN_URL = 'https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token';
+const OPENSKY_STATES_URL = 'https://opensky-network.org/api/states/all';
+const FLIGHT_FALLBACK_REGION = Object.freeze({
+  lamin: 8,
+  lamax: 43,
+  lomin: 24,
+  lomax: 72,
+});
 const CEASEFIRE_POSITIVE_PATTERNS = [
   /\bceasefire\b/gi,
   /\btruce\b/gi,
@@ -410,6 +421,129 @@ async function fetchText(url, options = {}) {
   }
 
   return resp.text();
+}
+
+function roundFlightValue(value, digits = 2) {
+  if (!Number.isFinite(value)) return null;
+  const factor = 10 ** digits;
+  return Math.round(value * factor) / factor;
+}
+
+function knotsFromMetersPerSecond(value) {
+  if (!Number.isFinite(value)) return null;
+  return Math.round(value * 1.94384);
+}
+
+function feetFromMeters(value) {
+  if (!Number.isFinite(value)) return null;
+  return Math.round(value * 3.28084);
+}
+
+async function fetchOpenSkyFlightFallback() {
+  if (!OPENSKY_CLIENT_ID || !OPENSKY_CLIENT_SECRET) {
+    return {
+      generatedAt: new Date().toISOString(),
+      flights: [],
+      status: 'skipped (credentials not configured)',
+    };
+  }
+
+  try {
+    const authBody = new URLSearchParams({
+      grant_type: 'client_credentials',
+      client_id: OPENSKY_CLIENT_ID,
+      client_secret: OPENSKY_CLIENT_SECRET,
+    });
+
+    const authResp = await fetch(OPENSKY_TOKEN_URL, {
+      method: 'POST',
+      signal: AbortSignal.timeout(SOURCE_TIMEOUT_MS),
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: authBody,
+    });
+
+    if (!authResp.ok) {
+      throw new Error(`auth ${authResp.status}`);
+    }
+
+    const authJson = await authResp.json();
+    const token = authJson.access_token;
+    if (!token) throw new Error('auth token missing');
+
+    const params = new URLSearchParams({
+      lamin: String(FLIGHT_FALLBACK_REGION.lamin),
+      lomin: String(FLIGHT_FALLBACK_REGION.lomin),
+      lamax: String(FLIGHT_FALLBACK_REGION.lamax),
+      lomax: String(FLIGHT_FALLBACK_REGION.lomax),
+    });
+
+    const statesResp = await fetch(`${OPENSKY_STATES_URL}?${params.toString()}`, {
+      signal: AbortSignal.timeout(SOURCE_TIMEOUT_MS),
+      headers: { Authorization: `Bearer ${token}` },
+    });
+
+    if (!statesResp.ok) {
+      throw new Error(`states ${statesResp.status}`);
+    }
+
+    const statesJson = await statesResp.json();
+    const nowSeconds = Math.floor(Date.now() / 1000);
+    const flights = (statesJson.states || [])
+      .map((state) => {
+        const [
+          icao24,
+          callsign,
+          originCountry,
+          timePosition,
+          lastContact,
+          longitude,
+          latitude,
+          baroAltitude,
+          onGround,
+          velocity,
+          trueTrack,
+          verticalRate,
+          ,
+          geoAltitude,
+          squawk,
+        ] = state;
+
+        if (!Number.isFinite(longitude) || !Number.isFinite(latitude)) return null;
+
+        return {
+          id: String(icao24 || callsign || `${latitude}-${longitude}`),
+          callsign: String(callsign || '').trim() || String(icao24 || 'UNKNOWN').toUpperCase(),
+          originCountry: originCountry || 'Unknown',
+          lat: roundFlightValue(latitude, 4),
+          lon: roundFlightValue(longitude, 4),
+          altitudeFeet: feetFromMeters(geoAltitude ?? baroAltitude),
+          speedKnots: knotsFromMetersPerSecond(velocity),
+          heading: roundFlightValue(trueTrack, 0),
+          verticalRateMps: roundFlightValue(verticalRate, 1),
+          onGround: Boolean(onGround),
+          squawk: squawk || null,
+          lastContactAgeSec: Number.isFinite(lastContact) ? Math.max(0, nowSeconds - lastContact) : null,
+          timePositionAgeSec: Number.isFinite(timePosition) ? Math.max(0, nowSeconds - timePosition) : null,
+        };
+      })
+      .filter(Boolean)
+      .sort((a, b) => (a.onGround === b.onGround ? ((a.lastContactAgeSec ?? 999999) - (b.lastContactAgeSec ?? 999999)) : (a.onGround ? 1 : -1)))
+      .slice(0, 120);
+
+    console.log(`OpenSky fallback snapshot: ${flights.length} flights`);
+    return {
+      generatedAt: new Date().toISOString(),
+      flights,
+      status: `ok (${flights.length})`,
+    };
+  } catch (error) {
+    console.warn(`OpenSky fallback snapshot failed: ${error.message}`);
+    return {
+      generatedAt: new Date().toISOString(),
+      flights: [],
+      status: `failed (${error.message})`,
+    };
+  }
 }
 
 async function fetchGoogleNewsHeadlines() {
@@ -1495,6 +1629,13 @@ function writeUpdateMetaFile(params) {
   console.log('Updated public/update-meta.json');
 }
 
+function writeTrackerFallbackFile(fallback) {
+  const fallbackPath = join(ROOT, ...TRACKER_FALLBACK_PUBLIC_PATH);
+  mkdirSync(dirname(fallbackPath), { recursive: true });
+  writeFileSync(fallbackPath, `${JSON.stringify(fallback, null, 2)}\n`);
+  console.log('Updated public/tracker-fallback.json');
+}
+
 function applyCeasefireGuardrails(params, heuristicCeasefire, previousSnapshot) {
   const previousCeasefire = previousSnapshot?.ceasefire || {};
   const merged = {
@@ -1542,6 +1683,7 @@ async function main() {
   const previousSnapshot = readExistingSnapshot();
   const sourceBundle = await gatherSourceBundle();
   const oilPrice = await fetchOilPrice();
+  const trackerFallback = await fetchOpenSkyFlightFallback();
   const heuristicCeasefire = deriveCeasefireSignal(sourceBundle);
 
   console.log('\nSource status summary:');
@@ -1549,6 +1691,7 @@ async function main() {
     console.log(`- ${source.source}: ${source.status}`);
   }
   console.log(`- Oil market: ${oilPrice ? `ok ($${oilPrice})` : 'unavailable'}`);
+  console.log(`- OpenSky fallback: ${trackerFallback.status}`);
   console.log(`- Ceasefire heuristic: ${heuristicCeasefire.status} (${heuristicCeasefire.confidence})`);
   
   console.log('Interpreting with Gemini...');
@@ -1620,6 +1763,7 @@ async function main() {
   }
   writeSnapshotFile(params, sourceBundle);
   writeUpdateMetaFile(params);
+  writeTrackerFallbackFile(trackerFallback);
   
   console.log('\n✅ Successfully updated simulation files!');
 }
