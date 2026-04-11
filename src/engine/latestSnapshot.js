@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 93,
+  "updateSequence": 94,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T19:43:13.846Z",
+  "lastSyncedAt": "2026-04-11T19:51:34.780Z",
   "warDay": 43,
-  "summary": "High-level peace talks between the US and Iran are underway in Pakistan, while Israel and Lebanon prepare for ceasefire discussions amidst ongoing Israeli attacks in Beirut and US military operations to clear mines from the Strait of Hormuz.",
+  "summary": "US and Iran are engaged in high-level peace talks in Pakistan, while Israel and Lebanon prepare for ceasefire discussions amidst ongoing conflict and rising tensions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, though peace talks are underway between the US and Iran, and ceasefire talks are planned between Israel and Lebanon."
+    "summary": "US and Iran are engaged in high-level peace talks, while Israel and Lebanon are preparing for ceasefire discussions amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     },
@@ -36,7 +36,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.3,
         "aggression": 0.5
       }
     }
@@ -64,49 +64,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 11",
-      "text": "US and Iran hold direct peace talks in Pakistan, with Vance participating.",
+      "text": "US and Iran hold direct peace talks in Pakistan.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5wTDVrcXZzejVCLUZGT2c2Z2M1SE9XYzJTWjlmbFNJa09mX2pJRndkTVU5cE84TmxQM3ZQTmpvQXBIcFBtYkNIcVg4SVJNTzZhRUdudEw3TDZ4TTZTYWljZDFCeUdnV3Q5bWtfcGsyUWs1dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 92
+      "latestSinceUpdate": 94
     },
     {
       "date": "Apr 11",
-      "text": "Israel to hold ceasefire talks with Lebanon next week, despite rejecting immediate ceasefire with Hezbollah.",
+      "text": "Israel to hold ceasefire talks with Lebanon next week.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 93
+      "latestSinceUpdate": 94
     },
     {
       "date": "Apr 11",
-      "text": "Israel's attacks devastate Beirut, threatening US-Iran ceasefire efforts.",
-      "severity": "warning",
+      "text": "Israel's attacks devastate Beirut and threaten U.S.-Iran ceasefire efforts.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOaHpGYklsUkhfU0xZTTBqTmdVVzlBTUh0OHBiWHc1aDNwSlN0Q1EtMmdUVUNybklUOUNGenhUQWdUTEk4eFFjYjlSbGxKam1pX0xJa0dFRjBpSWxwVE1xcGN0S09McGVOaXJFQWdpOS1LOGltbGU3NzZXNGFoVWZrdXZyMHJKWHgwYzFCbDRYMmZXWWxuMkFNYkZxYmE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 92
+      "latestSinceUpdate": 94
     },
     {
       "date": "Apr 11",
-      "text": "US military begins clearing mines from the Strait of Hormuz, with Trump claiming operations have started.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3FnZ29MSnlaRGJjTDhXbmNlaWlWQXk1NFZrVUk1T1l6d3ktTzlOMnU2YWNXUGN3VHF4UXQwaTQta3B5MDgtNUZWZjYwWmp3RUtiVVZ4VlRoSVhSbXVwTDVPX2dqZWJ4RFBmajhGT3k4LWliQVF2eUdIUmQtdWdpUWs5akFHQll2Z2pkMmR2V1lEd0lLc1VDcHVSRU9Zb3Q0ekx3YjdXUzBmN1AwRlVFd0o1Y21NeDlzSDFEUA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military Times",
-      "latestSinceUpdate": 93
+      "text": "US military starts removing mines from Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNeDI5dFhBU01HTjBGYmNCYTRmQmY4RHRwbDRCTWdGVVgxTnpxU09tVTkzY2xJOXYzLVc2VWlwYk5ZWG12QVVvQnRzeWY1WUxzMXBSYkdNSG1HSzgwZXZMQVFkODNtZTRxZG84M1FlOUxzOGVmeFRRMjRWOENDR0xKTEplVVfSAYoBQVVfeXFMT2dCOEctSmQxcXctV2laNS1VVTZFNTNWanFUWTlSQndoYU9sdThUeXBTRjc2OC12RzJKbzBNa21BaUxYSHZLQkprNDVhanV5ZXVXcjRoOU9taF9EZTFrakNKYnVMOTQ5R3ZBM28ycllPVVBMdnFHLXlWejNJcWZhdEJiNjFlazhTVHZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 94
     },
     {
       "date": "Apr 11",
-      "text": "Iran reportedly unable to find mines it planted in the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 93
+      "text": "Iran Unable to Find Mines It Planted in Strait of Hormuz, U.S. Says.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE11bW5tS3RCVFluZXhCQlFyQmNpLWVYSFJ4T28tS201N0Rvbkd4MnR4UVZrNzdWOVNxeTkwYldSbjJQTjlVc3NDY3hCSGl6U0lueHJjT1hkQzQxSXY4c0VkVWRVR3lkOWN4RDlPWVlna29Lbk1ZUVpucA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 94
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
