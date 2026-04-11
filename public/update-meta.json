@@ -1,13 +1,13 @@
 {
-  "updateSequence": 98,
+  "updateSequence": 99,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T21:43:12.294Z",
+  "lastSyncedAt": "2026-04-11T22:03:41.681Z",
   "warDay": 43,
   "ceasefire": {
     "active": false,
     "status": "fragile",
     "confidence": 0.55,
     "durationDays": 10,
-    "summary": "Direct talks between US and Iran are underway in Pakistan, and Israel plans talks with Lebanon, but no formal ceasefire is active across the region."
+    "summary": "No active ceasefire is in effect, though talks between Israel and Lebanon are authorized, and US-Iran peace talks are underway."
   }
 }
