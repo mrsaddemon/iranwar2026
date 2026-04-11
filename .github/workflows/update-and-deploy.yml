@@ -83,10 +83,11 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID }}
-          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET }}
-          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID || secrets.OPENSKY_CLIENTID || secrets.OPENSKY_ID }}
+          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET || secrets.OPENSKY_CLIENTSECRET || secrets.OPENSKY_SECRET }}
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY || secrets.AISSTREAM_KEY || secrets.AISS }}
         run: |
+          echo "Tracker secrets present: OPENSKY_CLIENT_ID=$([ -n "$OPENSKY_CLIENT_ID" ] && echo YES || echo NO), OPENSKY_CLIENT_SECRET=$([ -n "$OPENSKY_CLIENT_SECRET" ] && echo YES || echo NO), AISSTREAM_API_KEY=$([ -n "$AISSTREAM_API_KEY" ] && echo YES || echo NO)"
           if [ -n "$OPENSKY_CLIENT_ID" ]; then
             printf '%s' "$OPENSKY_CLIENT_ID" | npx wrangler@4.68.0 secret put OPENSKY_CLIENT_ID --config wrangler.jsonc
           fi
