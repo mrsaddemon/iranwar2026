@@ -175,8 +175,8 @@ function getInterpolatedCoordinates(entity, now) {
   return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
 }
 
-const SHIP_DECLUTTER_THRESHOLD = 18;
-const SHIP_DECLUTTER_MAX_RADIUS = 18;
+const SHIP_DECLUTTER_THRESHOLD = 24;
+const SHIP_DECLUTTER_MAX_RADIUS = 28;
 
 function getShipIdentity(ship) {
   return String(ship?.id || ship?.mmsi || ship?.name || '');
@@ -220,7 +220,7 @@ function buildDeclutteredShipLayout(ships, projection, viewTransform, now) {
 
     const radius = Math.min(
       SHIP_DECLUTTER_MAX_RADIUS,
-      7 + ((cluster.entries.length - 1) * 2.1),
+      9 + ((cluster.entries.length - 1) * 2.9),
     );
     const sortedEntries = [...cluster.entries].sort((left, right) => getShipIdentity(left.ship).localeCompare(getShipIdentity(right.ship)));
     const angleStep = (Math.PI * 2) / sortedEntries.length;
@@ -504,7 +504,7 @@ export default function MapCanvas({
 
   const scaleAroundPoint = useCallback((pointX, pointY, nextScale) => {
     const current = viewTransformRef.current;
-    const clampedScale = Math.max(0.5, Math.min(5.5, nextScale));
+    const clampedScale = Math.max(0.5, Math.min(8.5, nextScale));
     if (clampedScale === current.scale) return;
 
     const ratio = clampedScale / current.scale;
@@ -689,6 +689,16 @@ export default function MapCanvas({
           }
           overlayCtx.strokeStyle = colors.trail;
           overlayCtx.lineWidth = 1.1;
+          overlayCtx.stroke();
+        }
+
+        const offsetDistance = Math.hypot(displayPoint.x - point.x, displayPoint.y - point.y);
+        if (offsetDistance > 2) {
+          overlayCtx.beginPath();
+          overlayCtx.moveTo(point.x, point.y);
+          overlayCtx.lineTo(displayPoint.x, displayPoint.y);
+          overlayCtx.strokeStyle = colors.trail.replace(/[\d.]+\)$/u, `${highVisibility ? 0.5 : 0.34})`);
+          overlayCtx.lineWidth = 0.9;
           overlayCtx.stroke();
         }
 
