@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 85,
+  "updateSequence": 86,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T16:57:10.125Z",
+  "lastSyncedAt": "2026-04-11T17:02:11.196Z",
   "warDay": 43,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "Peace talks are underway between US and Iran, and Israel and Lebanon, but no active ceasefire is in effect, and regional conflicts continue."
+    "summary": "Peace talks are underway between Iran and the US, and Israel and Lebanon, but active hostilities continue in some areas and no formal ceasefire is in effect."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,24 +27,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 85
+    "escalationLevel": 38,
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -72,35 +72,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 11",
-      "text": "Trump warns Iran ahead of high-stakes talks in Pakistan.",
+      "text": "Trump warns Iran ahead of high-stakes talks in Pakistan, threatening fresh strikes if talks fail.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBVY3hUTVc5ZERwak9ZR2U0b01wd3J3allsT0podnFuMGFkcjd5MFo4VlZmbGhudUxldEJYcWJ0b1hpNlF0YjVWVEpJWUp6UWFmWVdhS0ZwRURGZW1jcEkzR1lRYXBlOUlOcVlkQU9xQVdHTjZneTgtYTZtRVQ3WWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 85
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 86
     },
     {
       "date": "Apr 11",
-      "text": "US warships cross Strait of Hormuz for first time since Iran war began.",
+      "text": "U.S. warships cross Strait of Hormuz for the first time since the Iran war began.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE9Gb3g0MW9SWE9LQ3d4eW9OWVMxeXMtVkRPeTRROUxMRmhhRy1xenhhZ0hUV09hcjdtdVNfVWFwYTNCYlNvV2YwWXJmQy1aejBMYldPWW00UkpDZlhkSVB5d0pLYVpSTUFvREVXZUNCMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 85
+      "latestSinceUpdate": 86
     },
     {
       "date": "Apr 11",
-      "text": "Trump claims US has begun clearing mines in Strait of Hormuz.",
+      "text": "Trump claims the US has begun clearing mines in the Strait of Hormuz, while Iran is reportedly unable to find mines it planted.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuAJBVV95cUxQZlltMzVXRGo5RTA5SXBrbEFZZUxjQ3lmTHNOVDFBRnFqWVJyV3FvWlItbktmcmhLSVJ3czBpRm1NVkxjTnQ0ZUtlUnFZTzVWdXQyUDhwV2hoS3FmQzFJLUNvOFZwVDNKWDZLRVlPTHlyb0gxTWhjRmEtaWVxRElTUmR0b3c4RWRnaVY1M0ZIOWt6dER6bEpNT2xLWXVhSWJDQ19CUTJwTlVGbjltYVpNbkMtbGlBdUczaDVfd2ZHRnR0dDJ6OTFobWxnc0Nyd0dTRlNuY2hGa04wYTJmcUhzcjRGT0lrYmVqVi1qZFY0SmliTGtuUnM5WFNkTVhfYzVSRVM2NjBiZ1daY1RlX25JN2IxQnRxcGlzRGM5ZzFONXlqRU0wYjlnSV9sVWtpSmtGVE9CZlZLeVg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 85
+      "latestSinceUpdate": 86
     },
     {
       "date": "Apr 11",
-      "text": "IDF and Hezbollah trade strikes and rockets.",
+      "text": "IDF and Hezbollah trade strikes and rockets as Israel and Lebanon prepare for direct talks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQT09xZWprYlJOYndNUnQ4YzJwOGI5bUlaT2ZHOVl2WHlkbnZabHZkOEVYbEVQNWVRUHR3U0s3eTAxS1M3Mll0Nk1NcjZjVEhDVWNtYVVVdGgxOHJiNWliYjJVTV9CRThLbFlzR2xsTjA3dWtON3FZcGdXT2I5YVVQLU8wMF9oRXlwSEJDNUxqT0MxYVg2Qk5WNmdwQmkzTmttZ2FPa1NNd292MEY2YlA4ZXhNbXk2ZXVh0gG-AUFVX3lxTE0xTTdMTm5HaENwWWFPRmtwbElOWmtrelR6Qm5wY3NjUjl1VHBvRFZOMU5LUmtsNzZmVS01TlZnYnVXWTRsQ3B3MmMzNVphTm1McEdhUFMyMDBVRWw2NkxzSFB6SkhvWXZOazdEaFJFbGdiR3l4ZDgtZXdBSmhGb0U4LXRLaFhmMXNxQU5CQ3V6cjZKajdkS3QxWE1WaGlDaHdKU0FaMVV4QUdGWUp6a003S2NKTXhEWndvT19abWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 85
+      "latestSinceUpdate": 86
     }
   ],
   "sourceStatuses": [
