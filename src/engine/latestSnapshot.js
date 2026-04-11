@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 63,
-  "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T23:47:30.914Z",
-  "warDay": 42,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-04-10",
+  "updateSequence": 64,
+  "lastUpdated": "2026-04-11",
+  "lastSyncedAt": "2026-04-11T01:00:50.859Z",
+  "warDay": 43,
+  "summary": "Peace talks involving the US, Iran, Israel, and Lebanon are underway, but a shaky ceasefire is threatened by continued strikes and the closure of the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ongoing negotiations between the US and Iran are complicated by continued hostilities between Israel and Hezbollah, threatening any broader de-escalation."
+    "summary": "A fragile ceasefire is in place for some aspects of the conflict, but is actively threatened by ongoing strikes between Israel and Hezbollah, and explicitly denied by Israel for Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.78
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,45 +56,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Trump issues warning to Iran ahead of high-stakes negotiations in Pakistan.",
+      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
       "severity": "warning",
-      "latestSinceUpdate": 63
+      "latestSinceUpdate": 64
     },
     {
       "date": "Apr 09",
-      "text": "Iranian delegation arrives in Pakistan for talks with the US.",
+      "text": "US envoy Vance heads to Pakistan for peace talks with an Iranian delegation.",
       "severity": "info",
-      "latestSinceUpdate": 63
-    },
-    {
-      "date": "Apr 09",
-      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire.",
-      "severity": "warning",
-      "latestSinceUpdate": 63
-    },
-    {
-      "date": "Apr 09",
-      "text": "Vance heads to peace talks as Lebanon impasse threatens cease-fire.",
-      "severity": "info",
-      "latestSinceUpdate": 63
-    },
-    {
-      "date": "Apr 09",
-      "text": "Trump warns of fresh Iran strikes if talks fail; Lebanon and Israel agree to meet in US.",
-      "severity": "critical",
-      "latestSinceUpdate": 63
+      "latestSinceUpdate": 64
     },
     {
       "date": "Apr 10",
-      "text": "Trump criticizes Iran for not allowing more oil through Strait of Hormuz, stating it's 'Not the agreement we have'.",
+      "text": "Israel and Hezbollah trade strikes, further threatening the ceasefire.",
+      "severity": "critical",
+      "latestSinceUpdate": 64
+    },
+    {
+      "date": "Apr 10",
+      "text": "Strait of Hormuz traffic remains low or closed, impacting oil flow.",
       "severity": "warning",
-      "latestSinceUpdate": 63
+      "latestSinceUpdate": 64
+    },
+    {
+      "date": "Apr 11",
+      "text": "Survivors of a deadly Iranian attack on a U.S. military outpost dispute the Pentagon's account.",
+      "severity": "info",
+      "latestSinceUpdate": 64
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -123,25 +117,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Perspective",
-      "headline": "US Pushes Ceasefire Amid Iran War, Strait of Hormuz Warnings",
-      "summary": "The US is engaged in conflict with Iran, seeking a ceasefire while maintaining a military presence and warning Iran against actions in the Strait of Hormuz. Domestic military readiness is being enhanced.",
+      "perspective": "US Diplomacy & Pressure",
+      "headline": "US pushes for negotiation while maintaining military readiness.",
+      "summary": "The US, through envoy Vance, is actively engaged in peace talks with Iran, while President Trump warns Iran against failing negotiations and highlights US military readiness. Trump also criticizes Iran's actions regarding the Strait of Hormuz.",
       "tone": "strained",
-      "latestSinceUpdate": 43
+      "latestSinceUpdate": 64
     },
     {
-      "perspective": "Iranian Perspective",
-      "headline": "Iran Rejects Ceasefire Terms, Warns of 'Strong Responses'",
-      "summary": "Iran accuses the US of violations, finds ceasefire terms unreasonable, and warns of strong responses to Israeli actions. Tensions are high regarding potential fees for passage through the Strait of Hormuz.",
+      "perspective": "Iranian Stance",
+      "headline": "Iran engages in talks amidst Strait of Hormuz closure and ceasefire tests.",
+      "summary": "An Iranian delegation is participating in peace talks, but the Strait of Hormuz remains closed or has low traffic, and Iran is reported to be testing the ceasefire. Iran is also reportedly unable to find mines it planted in the Strait.",
       "tone": "defiant",
-      "latestSinceUpdate": 43
+      "latestSinceUpdate": 64
     },
     {
-      "perspective": "Israeli Perspective",
-      "headline": "Israel Continues Hezbollah Attacks, Open to Lebanon Talks",
-      "summary": "Israel continues military operations against Hezbollah in Lebanon, rejecting a ceasefire in that theater, but is open to direct negotiations with the Lebanese government.",
-      "tone": "defiant",
-      "latestSinceUpdate": 43
+      "perspective": "Israeli-Lebanese Front",
+      "headline": "Continued conflict in Lebanon despite ongoing talks.",
+      "summary": "Israel and Lebanon have agreed to meet for talks, but Israel states there is no ceasefire in Lebanon, and both sides continue to trade strikes, further threatening any broader de-escalation.",
+      "tone": "anxious",
+      "latestSinceUpdate": 64
+    },
+    {
+      "perspective": "US Military Internal",
+      "headline": "Disquiet and unpreparedness claims within US military.",
+      "summary": "Survivors of a deadly attack on a US military outpost in Kuwait dispute the Pentagon's account, claiming the unit was unprepared, contributing to growing disquiet within the military.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 64
     }
   ]
 });

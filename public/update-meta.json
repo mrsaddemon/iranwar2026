@@ -1,13 +1,13 @@
 {
-  "updateSequence": 63,
-  "lastUpdated": "2026-04-10",
-  "lastSyncedAt": "2026-04-10T23:47:30.914Z",
-  "warDay": 42,
+  "updateSequence": 64,
+  "lastUpdated": "2026-04-11",
+  "lastSyncedAt": "2026-04-11T01:00:50.859Z",
+  "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ongoing negotiations between the US and Iran are complicated by continued hostilities between Israel and Hezbollah, threatening any broader de-escalation."
+    "summary": "A fragile ceasefire is in place for some aspects of the conflict, but is actively threatened by ongoing strikes between Israel and Hezbollah, and explicitly denied by Israel for Lebanon."
   }
 }
