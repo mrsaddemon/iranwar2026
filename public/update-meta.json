@@ -1,13 +1,13 @@
 {
-  "updateSequence": 80,
+  "updateSequence": 81,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T14:24:06.834Z",
+  "lastSyncedAt": "2026-04-11T15:05:22.292Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A broader Iran ceasefire is mentioned but appears fragile, with Israel rejecting a ceasefire with Hezbollah and conducting strikes in Beirut."
+    "summary": "Peace talks involving Iran and the US are underway, but active conflict persists in Lebanon, and the Strait of Hormuz remains a point of tension, indicating a highly fragile and partial de-escalation."
   }
 }
