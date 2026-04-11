@@ -1,13 +1,13 @@
 {
-  "updateSequence": 79,
+  "updateSequence": 80,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T13:39:21.514Z",
+  "lastSyncedAt": "2026-04-11T14:24:06.834Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "Direct ceasefire talks are underway between the US and Iran, but active conflict persists in Lebanon and the Strait of Hormuz remains a contested area."
+    "summary": "A broader Iran ceasefire is mentioned but appears fragile, with Israel rejecting a ceasefire with Hezbollah and conducting strikes in Beirut."
   }
 }
