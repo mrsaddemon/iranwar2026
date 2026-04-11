@@ -1,13 +1,13 @@
 {
-  "updateSequence": 64,
+  "updateSequence": 65,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T01:00:50.859Z",
+  "lastSyncedAt": "2026-04-11T03:42:36.812Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A fragile ceasefire is in place for some aspects of the conflict, but is actively threatened by ongoing strikes between Israel and Hezbollah, and explicitly denied by Israel for Lebanon."
+    "summary": "A broader ceasefire is being tested by Iran, while Israel explicitly states no ceasefire applies to Lebanon, where significant strikes have occurred."
   }
 }

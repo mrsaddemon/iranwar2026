@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 64,
+  "updateSequence": 65,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T01:00:50.859Z",
+  "lastSyncedAt": "2026-04-11T03:42:36.812Z",
   "warDay": 43,
-  "summary": "Peace talks involving the US, Iran, Israel, and Lebanon are underway, but a shaky ceasefire is threatened by continued strikes and the closure of the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A fragile ceasefire is in place for some aspects of the conflict, but is actively threatened by ongoing strikes between Israel and Hezbollah, and explicitly denied by Israel for Lebanon."
+    "summary": "A broader ceasefire is being tested by Iran, while Israel explicitly states no ceasefire applies to Lebanon, where significant strikes have occurred."
   },
   "actorOverrides": {
     "usa": {
@@ -18,25 +18,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.6
       }
     }
@@ -44,7 +44,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 80
+    "oilDisruption": 95
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -57,32 +57,38 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Apr 09",
       "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "warning",
+      "severity": "info",
       "latestSinceUpdate": 64
     },
     {
       "date": "Apr 09",
-      "text": "US envoy Vance heads to Pakistan for peace talks with an Iranian delegation.",
+      "text": "US envoy Vance heads to Pakistan for peace talks with Iran.",
       "severity": "info",
-      "latestSinceUpdate": 64
+      "latestSinceUpdate": 65
+    },
+    {
+      "date": "Apr 09",
+      "text": "Iran's speaker links US negotiations to a Lebanon ceasefire and asset release.",
+      "severity": "info",
+      "latestSinceUpdate": 65
     },
     {
       "date": "Apr 10",
-      "text": "Israel and Hezbollah trade strikes, further threatening the ceasefire.",
-      "severity": "critical",
-      "latestSinceUpdate": 64
-    },
-    {
-      "date": "Apr 10",
-      "text": "Strait of Hormuz traffic remains low or closed, impacting oil flow.",
+      "text": "Trump warns of fresh strikes if Iran talks fail.",
       "severity": "warning",
-      "latestSinceUpdate": 64
+      "latestSinceUpdate": 65
     },
     {
-      "date": "Apr 11",
-      "text": "Survivors of a deadly Iranian attack on a U.S. military outpost dispute the Pentagon's account.",
-      "severity": "info",
-      "latestSinceUpdate": 64
+      "date": "Apr 10",
+      "text": "Strait of Hormuz remains closed; US reports Iran is unable to find mines it planted.",
+      "severity": "critical",
+      "latestSinceUpdate": 65
+    },
+    {
+      "date": "Apr 10",
+      "text": "Trump asserts the Strait of Hormuz will reopen 'soon,' with or without Iran.",
+      "severity": "warning",
+      "latestSinceUpdate": 65
     }
   ],
   "sourceStatuses": [
