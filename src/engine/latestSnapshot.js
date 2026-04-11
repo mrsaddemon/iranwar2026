@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 68,
+  "updateSequence": 69,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T07:26:46.395Z",
+  "lastSyncedAt": "2026-04-11T07:29:51.868Z",
   "warDay": 43,
-  "summary": "The Middle East conflict continues with Israel striking Beirut and rejecting a ceasefire in Lebanon, while Iran tests a separate truce and peace talks involving the US and Iran are underway in Pakistan amidst the closure of the Strait of Hormuz.",
+  "summary": "Ongoing conflict in the Middle East continues with Israel striking Beirut and rejecting a ceasefire in Lebanon, while Iran engages in peace talks with the US amidst the closure of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "A partial ceasefire with Iran is in place but is being tested and does not apply to Israel's conflict in Lebanon, where fighting continues."
+    "summary": "A fragile ceasefire between Iran and the US is being tested amidst ongoing conflict in Lebanon and the closure of the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.5,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.3,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 90
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -56,51 +56,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel continues talks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/rss",
+      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 68
+      "latestSinceUpdate": 69
     },
     {
-      "date": "Apr 11",
+      "date": "Apr 09",
       "text": "Iranian delegation arrives in Pakistan for peace talks with the US, with Vance en route.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": "https://news.google.com/",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 68
+      "latestSinceUpdate": 69
     },
     {
-      "date": "Apr 11",
-      "text": "Trump warns of fresh strikes if Iran peace talks fail.",
+      "date": "Apr 10",
+      "text": "Trump warns of fresh strikes if Iran talks fail.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": "https://news.google.com/",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 68
+      "latestSinceUpdate": 69
     },
     {
-      "date": "Apr 11",
-      "text": "The Strait of Hormuz remains closed, with reports that Iran is unable to find mines it planted.",
+      "date": "Apr 10",
+      "text": "Strait of Hormuz remains closed, with the US reporting Iran is unable to find mines it planted.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": "https://news.google.com/",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 68
+      "latestSinceUpdate": 69
     },
     {
-      "date": "Apr 11",
-      "text": "Israel strikes central Beirut, killing at least 182, stating an Iran truce does not apply there.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/rss",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 68
-    },
-    {
-      "date": "Apr 11",
-      "text": "Trump states the US military is 'loading up and resting' as Iran tests a ceasefire.",
+      "date": "Apr 10",
+      "text": "Hezbollah rocket attack damages a 1,500-year-old Israeli church.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/rss",
+      "sourceUrl": "https://news.google.com/",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 68
+      "latestSinceUpdate": 69
+    },
+    {
+      "date": "Apr 10",
+      "text": "Israel strikes central Beirut, killing at least 182, after stating the Iran truce does not apply there.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 69
     }
   ],
   "sourceStatuses": [

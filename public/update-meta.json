@@ -1,13 +1,13 @@
 {
-  "updateSequence": 68,
+  "updateSequence": 69,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T07:26:46.395Z",
+  "lastSyncedAt": "2026-04-11T07:29:51.868Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "A partial ceasefire with Iran is in place but is being tested and does not apply to Israel's conflict in Lebanon, where fighting continues."
+    "summary": "A fragile ceasefire between Iran and the US is being tested amidst ongoing conflict in Lebanon and the closure of the Strait of Hormuz."
   }
 }
