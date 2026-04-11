@@ -154,7 +154,6 @@ export default function PlayerControls({
 }) {
   const [showNukeConfirm, setShowNukeConfirm] = useState(false);
   const [targetPicker, setTargetPicker] = useState(null); // { actionId } or null
-  const [hoveredAction, setHoveredAction] = useState(null);
   const [selectedWarheadId, setSelectedWarheadId] = useState(null);
 
   const actorId = playerControlledActor;
@@ -192,6 +191,13 @@ export default function PlayerControls({
     setShowNukeConfirm(false);
     // Nuclear strike still needs a target
     setTargetPicker({ actionId: 'nuclearStrike', warheadId: selectedWarheadId });
+  };
+
+  const getActionDescription = (actionId, fallbackDescription = '') => {
+    const specialAction = specialActions.find((action) => action.id === actionId);
+    if (specialAction?.desc) return specialAction.desc;
+    if (isOffensive(actionId)) return `${ACTION_LABELS[actionId]} — select a target country and location.`;
+    return fallbackDescription || ACTION_LABELS[actionId] || '';
   };
 
   return (
@@ -289,17 +295,19 @@ export default function PlayerControls({
           <div className="pc-section-label">STANDARD OPERATIONS</div>
           <div className="pc-actions-grid">
             {ACTION_TYPES.map(action => (
-              <button
-                key={action}
-                className="pc-action-btn"
-                onClick={() => handleAction(action)}
-                onMouseEnter={() => setHoveredAction(action)}
-                onMouseLeave={() => setHoveredAction(null)}
-                style={{ borderLeftColor: actorColor }}
-              >
-                <span className="pc-action-icon">{ACTION_ICONS[action]}</span>
-                <span className="pc-action-label">{ACTION_LABELS[action]}</span>
-              </button>
+              <div key={action} className="pc-action-wrap">
+                <button
+                  className="pc-action-btn"
+                  onClick={() => handleAction(action)}
+                  style={{ borderLeftColor: actorColor }}
+                >
+                  <span className="pc-action-icon">{ACTION_ICONS[action]}</span>
+                  <span className="pc-action-label">{ACTION_LABELS[action]}</span>
+                </button>
+                <div className="pc-action-hover-note">
+                  {getActionDescription(action)}
+                </div>
+              </div>
             ))}
           </div>
 
@@ -314,34 +322,27 @@ export default function PlayerControls({
               );
               const isCeasefireAccept = sa.id === 'acceptCeasefire';
               const disabled = nukeLocked || (isCeasefireAccept && !opponentProposed);
+              const actionDescription = disabled
+                ? (nukeLocked ? `Requires Nuclear Index > ${sa.requiresNuclearIndex || 80}` : 'Opponent must propose ceasefire first.')
+                : getActionDescription(sa.id, sa.desc);
 
               return (
-                <button
-                  key={sa.id}
-                  className={`pc-action-btn pc-special ${isNuke ? 'pc-nuke' : ''} ${disabled ? 'pc-disabled' : ''}`}
-                  onClick={() => !disabled && handleAction(sa.id)}
-                  onMouseEnter={() => setHoveredAction(sa.id)}
-                  onMouseLeave={() => setHoveredAction(null)}
-                  disabled={disabled}
-                  title={disabled ? (nukeLocked ? `Requires Nuclear Index > ${sa.requiresNuclearIndex || 80}` : 'Opponent must propose ceasefire first') : sa.desc}
-                >
-                  <span className="pc-action-icon">{sa.icon}</span>
-                  <span className="pc-action-label">{sa.label}</span>
-                </button>
+                <div key={sa.id} className="pc-action-wrap">
+                  <button
+                    className={`pc-action-btn pc-special ${isNuke ? 'pc-nuke' : ''} ${disabled ? 'pc-disabled' : ''}`}
+                    onClick={() => !disabled && handleAction(sa.id)}
+                    disabled={disabled}
+                  >
+                    <span className="pc-action-icon">{sa.icon}</span>
+                    <span className="pc-action-label">{sa.label}</span>
+                  </button>
+                  <div className="pc-action-hover-note">
+                    {actionDescription}
+                  </div>
+                </div>
               );
             })}
           </div>
-
-          {hoveredAction && (
-            <div className="pc-tooltip">
-              {(() => {
-                const sa = specialActions.find(s => s.id === hoveredAction);
-                if (sa) return sa.desc;
-                if (isOffensive(hoveredAction)) return `${ACTION_LABELS[hoveredAction]} — select a target country and location`;
-                return ACTION_LABELS[hoveredAction] || '';
-              })()}
-            </div>
-          )}
         </>
       )}
     </div>

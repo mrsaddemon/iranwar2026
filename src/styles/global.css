@@ -1121,6 +1121,12 @@ html, body, #root {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
+  overflow: visible;
+}
+
+.pc-action-wrap {
+  position: relative;
+  overflow: visible;
 }
 
 .pc-action-btn {
@@ -1138,6 +1144,31 @@ html, body, #root {
   cursor: pointer;
   transition: all 0.15s;
   white-space: nowrap;
+}
+
+.pc-action-hover-note {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  width: min(240px, calc(100vw - 36px));
+  padding: 8px 10px;
+  background: rgba(6, 10, 18, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+  color: var(--text-secondary);
+  font-size: 11px;
+  line-height: 1.45;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 40;
+}
+
+.pc-action-wrap:hover .pc-action-hover-note,
+.pc-action-wrap:focus-within .pc-action-hover-note {
+  opacity: 1;
+  visibility: visible;
 }
 
 .pc-action-btn:hover {
@@ -1208,15 +1239,6 @@ html, body, #root {
   font-size: 8px;
   color: var(--text-dim);
   margin-left: auto;
-}
-
-.pc-tooltip {
-  font-size: 10px;
-  color: var(--text-secondary);
-  padding: 4px 8px;
-  background: rgba(0,0,0,0.4);
-  border-radius: 4px;
-  line-height: 1.4;
 }
 
 /* ======== TARGET PICKER ======== */
@@ -2355,11 +2377,19 @@ html, body, #root {
     gap: 6px;
   }
 
-  .pc-action-btn {
+  .pc-action-wrap {
     flex: 1 1 calc(50% - 6px);
+  }
+
+  .pc-action-btn {
+    width: 100%;
     min-height: 38px;
     white-space: normal;
     align-items: flex-start;
+  }
+
+  .pc-action-hover-note {
+    width: min(220px, calc(100vw - 28px));
   }
 
   .pc-toggle-label {

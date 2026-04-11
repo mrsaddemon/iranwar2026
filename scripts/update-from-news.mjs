@@ -157,6 +157,39 @@ function decodeHtmlEntities(text) {
     .replace(/&gt;/gi, '>');
 }
 
+function isGoogleRssArticleUrl(url) {
+  return /^https?:\/\/news\.google\.com\/rss\/articles\//i.test(String(url || '').trim());
+}
+
+function isValuableSourceUrl(url) {
+  const normalizedUrl = String(url || '').trim();
+  if (!/^https?:\/\//i.test(normalizedUrl) || isGoogleRssArticleUrl(normalizedUrl)) {
+    return false;
+  }
+
+  try {
+    const parsedUrl = new URL(normalizedUrl);
+    const pathSegments = parsedUrl.pathname.split('/').filter(Boolean);
+    if (pathSegments.length === 0) return false;
+    if (pathSegments.length === 1 && ['en', 'news', 'world', 'international', 'amp', 'live'].includes(pathSegments[0].toLowerCase())) {
+      return false;
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function chooseEventSourceUrl({ primaryUrl, sourceSiteUrl }) {
+  const normalizedPrimary = String(primaryUrl || '').trim();
+
+  if (isValuableSourceUrl(normalizedPrimary)) {
+    return normalizedPrimary;
+  }
+
+  return null;
+}
+
 function normalizeSourceHeadline(text) {
   return decodeHtmlEntities(text)
     .replace(/\s+/g, ' ')
@@ -323,13 +356,19 @@ async function fetchGoogleNewsHeadlines() {
         .map((itemText) => {
           const titleMatch = itemText.match(/<title>(.*?)<\/title>/i);
           const linkMatch = itemText.match(/<link>(.*?)<\/link>/i);
+          const sourceTagMatch = itemText.match(/<source[^>]*url="(.*?)"[^>]*>(.*?)<\/source>/i);
           const title = normalizeSourceHeadline(titleMatch?.[1] || '');
           const link = decodeHtmlEntities(linkMatch?.[1] || '').trim();
+          const sourceSiteUrl = decodeHtmlEntities(sourceTagMatch?.[1] || '').trim();
+          const sourceName = decodeHtmlEntities(sourceTagMatch?.[2] || '').trim() || 'Google News RSS';
           if (!isUsefulHeadline(title)) return null;
           return {
             headline: title,
-            url: /^https?:\/\//i.test(link) ? link : null,
-            sourceName: 'Google News RSS',
+            url: chooseEventSourceUrl({
+              primaryUrl: /^https?:\/\//i.test(link) ? link : null,
+              sourceSiteUrl,
+            }),
+            sourceName,
           };
         })
         .filter(Boolean);
@@ -836,6 +875,42 @@ function normalizeHeadlineText(text) {
   return normalizeSourceHeadline(text);
 }
 
+const MATCH_STOPWORDS = new Set([
+  'the', 'a', 'an', 'and', 'or', 'of', 'to', 'for', 'in', 'on', 'at', 'with', 'from',
+  'amid', 'after', 'before', 'over', 'under', 'into', 'as', 'by', 'up', 'off', 'says',
+  'say', 'said', 'live', 'latest', 'update', 'updates', 'war', 'iran', 'israel',
+]);
+
+function tokenizeHeadlineText(text) {
+  return normalizeHeadlineText(text)
+    .split(/\s+/)
+    .map((token) => token.replace(/[^a-z0-9]/g, ''))
+    .filter((token) => token.length > 2 && !MATCH_STOPWORDS.has(token));
+}
+
+function computeHeadlineSimilarity(normalizedText, normalizedHeadline, textTokens, headlineTokens) {
+  if (!normalizedText || !normalizedHeadline) return 0;
+  if (normalizedText === normalizedHeadline) return 1;
+
+  if (normalizedText.includes(normalizedHeadline) || normalizedHeadline.includes(normalizedText)) {
+    return 0.9;
+  }
+
+  if (textTokens.length === 0 || headlineTokens.length === 0) {
+    return 0;
+  }
+
+  const headlineTokenSet = new Set(headlineTokens);
+  const textTokenSet = new Set(textTokens);
+  const overlapCount = textTokens.filter((token) => headlineTokenSet.has(token)).length;
+  if (overlapCount === 0) return 0;
+
+  const unionSize = new Set([...textTokenSet, ...headlineTokenSet]).size || 1;
+  const overlapRatio = overlapCount / Math.min(textTokenSet.size || 1, headlineTokenSet.size || 1);
+  const jaccard = overlapCount / unionSize;
+  return Math.max(jaccard, (overlapRatio * 0.7) + (jaccard * 0.3));
+}
+
 function inferEventSeverity(text) {
   const normalized = String(text || '').toLowerCase();
   if (/\bnuclear\b|\bmissile\b|\bstrike\b|\bairstrike\b|\bexplosion\b|\bultimatum\b|\bblockade\b/.test(normalized)) {
@@ -857,40 +932,74 @@ function formatEventDateLabel(dateKey) {
 
 function buildSourceArticleIndex(sourceBundle) {
   const articles = Array.isArray(sourceBundle?.articles) ? sourceBundle.articles : [];
-  const byHeadline = new Map();
+  const exactByHeadline = new Map();
+  const candidates = [];
 
   for (const article of articles) {
     const normalizedHeadline = normalizeHeadlineText(article.headline);
-    if (!normalizedHeadline || byHeadline.has(normalizedHeadline)) continue;
-    byHeadline.set(normalizedHeadline, article);
+    const normalizedUrl = isValuableSourceUrl(article.url) ? article.url : null;
+    if (!normalizedHeadline || !normalizedUrl) continue;
+
+    const indexedArticle = {
+      ...article,
+      url: normalizedUrl,
+      normalizedHeadline,
+      tokens: tokenizeHeadlineText(normalizedHeadline),
+    };
+
+    if (!exactByHeadline.has(normalizedHeadline)) {
+      exactByHeadline.set(normalizedHeadline, indexedArticle);
+    }
+
+    candidates.push(indexedArticle);
   }
 
-  return byHeadline;
+  return {
+    exactByHeadline,
+    candidates,
+  };
 }
 
-function findSourceArticleForText(text, sourceArticleIndex) {
+function findSourceArticleForText(text, sourceArticleIndex, options = {}) {
   const normalizedText = normalizeHeadlineText(text);
   if (!normalizedText) return null;
+  const usedUrls = options.usedUrls || new Set();
 
-  if (sourceArticleIndex.has(normalizedText)) {
-    return sourceArticleIndex.get(normalizedText);
+  if (sourceArticleIndex.exactByHeadline.has(normalizedText)) {
+    return sourceArticleIndex.exactByHeadline.get(normalizedText);
   }
 
-  for (const [headline, article] of sourceArticleIndex.entries()) {
-    if (normalizedText.includes(headline) || headline.includes(normalizedText)) {
-      return article;
+  const textTokens = tokenizeHeadlineText(normalizedText);
+  let bestMatch = null;
+  let bestScore = 0;
+
+  for (const article of sourceArticleIndex.candidates) {
+    if (article.url && usedUrls.has(article.url)) continue;
+
+    const score = computeHeadlineSimilarity(
+      normalizedText,
+      article.normalizedHeadline,
+      textTokens,
+      article.tokens,
+    );
+
+    if (score > bestScore) {
+      bestScore = score;
+      bestMatch = article;
     }
   }
 
-  return null;
+  return bestScore >= 0.52 ? bestMatch : null;
 }
 
 function buildFallbackRecentEvents(sourceBundle, today, summary) {
   const date = formatEventDateLabel(today);
   const sourceArticleIndex = buildSourceArticleIndex(sourceBundle);
+  const usedUrls = new Set();
   const headlines = prepareHeadlines((sourceBundle.headlines || []).map(normalizeHeadlineText), 6);
   const events = headlines.map((headline) => {
-    const matchedArticle = findSourceArticleForText(headline, sourceArticleIndex);
+    const matchedArticle = findSourceArticleForText(headline, sourceArticleIndex, { usedUrls });
+    if (matchedArticle?.url) usedUrls.add(matchedArticle.url);
     return {
       date,
       text: headline,
@@ -1013,10 +1122,16 @@ function decorateUpdatedItems(previousItems = [], nextItems = [], currentSequenc
 
 function attachEventSources(events = [], sourceBundle) {
   const sourceArticleIndex = buildSourceArticleIndex(sourceBundle);
+  const usedUrls = new Set(
+    events
+      .map((event) => (isValuableSourceUrl(event?.sourceUrl) ? event.sourceUrl : null))
+      .filter(Boolean),
+  );
 
   return events.map((event) => {
-    if (event?.sourceUrl) return event;
-    const matchedArticle = findSourceArticleForText(event?.text, sourceArticleIndex);
+    if (isValuableSourceUrl(event?.sourceUrl)) return event;
+    const matchedArticle = findSourceArticleForText(event?.text, sourceArticleIndex, { usedUrls });
+    if (matchedArticle?.url) usedUrls.add(matchedArticle.url);
     return {
       ...event,
       sourceUrl: matchedArticle?.url || null,
@@ -1039,7 +1154,7 @@ function normalizeParams(rawParams, previousSnapshot, today, warDay) {
           date: event?.date || formatEventDateLabel(today),
           text: event?.text || '',
           severity: ['info', 'warning', 'critical', 'stable'].includes(event?.severity) ? event.severity : inferEventSeverity(event?.text || ''),
-          sourceUrl: event?.sourceUrl || null,
+          sourceUrl: isValuableSourceUrl(event?.sourceUrl) ? event.sourceUrl : null,
           sourceName: event?.sourceName || null,
         }))
       : (fallbackSnapshot.recentEvents || []),

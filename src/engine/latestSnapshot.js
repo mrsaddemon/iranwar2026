@@ -57,49 +57,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Apr 09",
       "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 69
+      "severity": "info",
+      "latestSinceUpdate": 69,
+      "sourceUrl": "https://www.theguardian.com/world/2026/apr/09/israel-bombing-lebanon-us-iran-ceasefire-condemnation",
+      "sourceName": "The Guardian"
     },
     {
       "date": "Apr 09",
       "text": "Iranian delegation arrives in Pakistan for peace talks with the US, with Vance en route.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/",
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://apnews.com/article/86493db40bdf08ff15224c39a97b7854",
+      "sourceName": "AP News",
       "latestSinceUpdate": 69
     },
     {
       "date": "Apr 10",
       "text": "Trump warns of fresh strikes if Iran talks fail.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/",
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://www.theguardian.com/world/live/2026/apr/10/iran-war-live-updates-trump-ceasefire-strait-hormuz-israel-lebanon-hezbollah",
+      "sourceName": "The Guardian",
       "latestSinceUpdate": 69
     },
     {
       "date": "Apr 10",
       "text": "Strait of Hormuz remains closed, with the US reporting Iran is unable to find mines it planted.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/",
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://www.tribuneindia.com/topic/mineclearance",
+      "sourceName": "The Tribune",
       "latestSinceUpdate": 69
     },
     {
       "date": "Apr 10",
       "text": "Hezbollah rocket attack damages a 1,500-year-old Israeli church.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/",
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://www.aljazeera.com/amp/video/newsfeed/2026/4/10/hezbollah-rocket-attack-damages-1500-year-old-israeli-church",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 69
     },
     {
       "date": "Apr 10",
       "text": "Israel strikes central Beirut, killing at least 182, after stating the Iran truce does not apply there.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/",
-      "sourceName": "Google News RSS",
+      "sourceUrl": "https://apnews.com/article/9402965418687c634d4a157c966ec6ea",
+      "sourceName": "AP News"
       "latestSinceUpdate": 69
     }
   ],
