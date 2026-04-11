@@ -1,13 +1,13 @@
 {
-  "updateSequence": 67,
+  "updateSequence": 68,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T06:15:53.799Z",
+  "lastSyncedAt": "2026-04-11T07:26:46.395Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "Despite ongoing peace talks, a formal ceasefire is not active in Lebanon, and existing de-escalation efforts are fragile and being tested by continued military actions."
+    "summary": "A partial ceasefire with Iran is in place but is being tested and does not apply to Israel's conflict in Lebanon, where fighting continues."
   }
 }

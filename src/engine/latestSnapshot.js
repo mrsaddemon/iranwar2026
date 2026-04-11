@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 67,
+  "updateSequence": 68,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T06:15:53.799Z",
+  "lastSyncedAt": "2026-04-11T07:26:46.395Z",
   "warDay": 43,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Middle East conflict continues with Israel striking Beirut and rejecting a ceasefire in Lebanon, while Iran tests a separate truce and peace talks involving the US and Iran are underway in Pakistan amidst the closure of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2026,
-    "summary": "Despite ongoing peace talks, a formal ceasefire is not active in Lebanon, and existing de-escalation efforts are fragile and being tested by continued military actions."
+    "summary": "A partial ceasefire with Iran is in place but is being tested and does not apply to Israel's conflict in Lebanon, where fighting continues."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -28,27 +28,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 90
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -56,57 +56,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 09",
-      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "info",
-      "latestSinceUpdate": 67,
-      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52blNYeUJqVzdkNlptS29IMmplcFQtbGIwOEhnTWF5MldwY1Z4WTVxSFJUbVJZMnhyWEpyeWgwMFdyMlVQU3FoRTBoNExxMXM4REJqSEpZZzNKaWZxd0Q3bURsVVpoaEZtRF9JcWVaRHJiT25JU1QybTNpQnpVN0E?oc=5",
-      "sourceName": "CNN"
-    },
-    {
-      "date": "Apr 09",
-      "text": "Iran Update Special Report released.",
-      "severity": "info",
-      "latestSinceUpdate": 67
-    },
-    {
-      "date": "Apr 10",
-      "text": "Trump criticizes Iran for restricting oil flow through the Strait of Hormuz.",
-      "severity": "warning",
-      "latestSinceUpdate": 67
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iranian delegation arrives in Pakistan for talks with the US.",
-      "severity": "info",
-      "latestSinceUpdate": 67,
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU19Ed2lZbkZ0QTktZDNoSjVMSWZoV0k2aWR5MTBCV0M0dFI3YTRQT21oMFlpdXM0YmxGVzJVNW5UTGhNZEhOUnpuMkpRdW9Md0hzdWhyWW1WRVFJR1U4cUU2N2dVZEY1bnpGakJtYlJfX21EX1AtS0RqUmkxeVBxcEVDTUNxV1MxQVktRjRxTUlzYl9NVDF2OVIzNFF5ZnFmeHMtTVlXRDA4TWcxREVHUGVlU3JndTZs?oc=5",
-      "sourceName": "Reuters"
-    },
-    {
-      "date": "Apr 10",
-      "text": "Iran warns of strong responses as Israeli attacks on Lebanon threaten a ceasefire.",
-      "severity": "warning",
-      "latestSinceUpdate": 67
-    },
-    {
-      "date": "Apr 10",
-      "text": "Vance warns Iran against playing games in peace talks as the Strait of Hormuz remains closed.",
+      "text": "Netanyahu states there is no ceasefire in Lebanon as Israel continues talks.",
       "severity": "critical",
-      "latestSinceUpdate": 67
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 68
     },
     {
-      "date": "Apr 10",
-      "text": "Iran warns of strong responses as Israeli attacks on Lebanon threaten a ceasefire.",
+      "date": "Apr 11",
+      "text": "Iranian delegation arrives in Pakistan for peace talks with the US, with Vance en route.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 68
+    },
+    {
+      "date": "Apr 11",
+      "text": "Trump warns of fresh strikes if Iran peace talks fail.",
       "severity": "warning",
-      "latestSinceUpdate": 67,
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNVkl4Nm0tcVZ2RDhia1d6R21jOENwUlhaZWNLU2lINWlTYmxYbmcwN1M3cVFLbWJHTXRLWkhBYUxOOFEwZFBsTnRkUzBDUXV1clVZS1FiSnpGdExMeVQ0OThXTENtczNtWVpJRmhmMlNGVzdYQXlCUmhMUk90QzVZZFc3OUw4R29XaXVtZmtLOWxJZUtXQlZIazlnNEVhZUQ0RjhBZ2JMUkp0S1JSRjkyTDAyT2hNdGM0SEliUlFNMkw5MXBZSTJYdDhhb3piMmZEVWRkUDQ1bmJMSUlyLXhfWGFFM2F4QWR0NkFZ?oc=5",
-      "sourceName": "Anadolu Ajansı"
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 68
+    },
+    {
+      "date": "Apr 11",
+      "text": "The Strait of Hormuz remains closed, with reports that Iran is unable to find mines it planted.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 68
+    },
+    {
+      "date": "Apr 11",
+      "text": "Israel strikes central Beirut, killing at least 182, stating an Iran truce does not apply there.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 68
+    },
+    {
+      "date": "Apr 11",
+      "text": "Trump states the US military is 'loading up and resting' as Iran tests a ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 68
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
