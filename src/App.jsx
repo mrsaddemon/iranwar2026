@@ -13,7 +13,7 @@ const TRACKER_POLL_INTERVAL_MS = 5000;
 const TRACKER_TRAIL_LIMIT = 6;
 const TRACKER_STORAGE_KEY = 'war-sim-tracker-cache-v1';
 const TRACKER_ENTITY_GRACE_MS = 3 * 60 * 1000;
-const TRACKER_VISIBILITY_STORAGE_KEY = 'war-sim-tracker-visibility-v2';
+const TRACKER_VISIBILITY_STORAGE_KEY = 'war-sim-tracker-visibility-v3';
 
 function isLocalRuntime() {
   if (typeof window === 'undefined') return false;
@@ -322,6 +322,21 @@ export default function App() {
     let cancelled = false;
 
     const loadTrackerSnapshot = async () => {
+      if (!trackerVisibility?.flights && !trackerVisibility?.ships) {
+        if (cancelled) return;
+        setTrackerSnapshot((previous) => ({
+          generatedAt: previous?.generatedAt || null,
+          fetchedAt: Date.now(),
+          flights: [],
+          ships: [],
+          sourceStatus: {
+            flights: 'hidden',
+            ships: 'hidden',
+          },
+        }));
+        return;
+      }
+
       try {
         const params = new URLSearchParams({
           ts: String(Date.now()),
