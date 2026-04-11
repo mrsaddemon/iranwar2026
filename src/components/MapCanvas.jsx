@@ -177,9 +177,20 @@ function getInterpolatedCoordinates(entity, now) {
 
 const SHIP_DECLUTTER_THRESHOLD = 24;
 const SHIP_DECLUTTER_MAX_RADIUS = 28;
+const SHIP_DECLUTTER_MIN_SPACING = 11;
 
 function getShipIdentity(ship) {
   return String(ship?.id || ship?.mmsi || ship?.name || '');
+}
+
+function getDeterministicAngle(seed) {
+  let hash = 0;
+  const text = String(seed || 'ship');
+  for (let index = 0; index < text.length; index += 1) {
+    hash = ((hash << 5) - hash) + text.charCodeAt(index);
+    hash |= 0;
+  }
+  return ((Math.abs(hash) % 360) * Math.PI) / 180;
 }
 
 function buildDeclutteredShipLayout(ships, projection, viewTransform, now) {
@@ -218,20 +229,53 @@ function buildDeclutteredShipLayout(ships, projection, viewTransform, now) {
   for (const cluster of clusters) {
     if (cluster.entries.length <= 1) continue;
 
-    const radius = Math.min(
+    const maxOffsetRadius = Math.min(
       SHIP_DECLUTTER_MAX_RADIUS,
-      9 + ((cluster.entries.length - 1) * 2.9),
+      8 + ((cluster.entries.length - 1) * 2.6),
     );
-    const sortedEntries = [...cluster.entries].sort((left, right) => getShipIdentity(left.ship).localeCompare(getShipIdentity(right.ship)));
-    const angleStep = (Math.PI * 2) / sortedEntries.length;
 
-    sortedEntries.forEach((entry, index) => {
-      const angle = (-Math.PI / 2) + (index * angleStep);
-      entry.displayPoint = {
-        x: cluster.x + (Math.cos(angle) * radius),
-        y: cluster.y + (Math.sin(angle) * radius),
-      };
+    cluster.entries.forEach((entry) => {
+      entry.displayPoint = { ...entry.point };
     });
+
+    const sortedEntries = [...cluster.entries].sort((left, right) => getShipIdentity(left.ship).localeCompare(getShipIdentity(right.ship)));
+
+    for (let iteration = 0; iteration < 8; iteration += 1) {
+      for (let leftIndex = 0; leftIndex < sortedEntries.length; leftIndex += 1) {
+        for (let rightIndex = leftIndex + 1; rightIndex < sortedEntries.length; rightIndex += 1) {
+          const left = sortedEntries[leftIndex];
+          const right = sortedEntries[rightIndex];
+          const dx = right.displayPoint.x - left.displayPoint.x;
+          const dy = right.displayPoint.y - left.displayPoint.y;
+          const distance = Math.hypot(dx, dy);
+
+          if (distance >= SHIP_DECLUTTER_MIN_SPACING) continue;
+
+          const push = (SHIP_DECLUTTER_MIN_SPACING - distance) / 2;
+          const angle = distance > 0.001
+            ? Math.atan2(dy, dx)
+            : getDeterministicAngle(`${getShipIdentity(left.ship)}:${getShipIdentity(right.ship)}:${iteration}`);
+          const offsetX = Math.cos(angle) * push;
+          const offsetY = Math.sin(angle) * push;
+
+          left.displayPoint.x -= offsetX;
+          left.displayPoint.y -= offsetY;
+          right.displayPoint.x += offsetX;
+          right.displayPoint.y += offsetY;
+        }
+      }
+
+      for (const entry of sortedEntries) {
+        const originDx = entry.displayPoint.x - entry.point.x;
+        const originDy = entry.displayPoint.y - entry.point.y;
+        const originDistance = Math.hypot(originDx, originDy);
+        if (originDistance > maxOffsetRadius) {
+          const ratio = maxOffsetRadius / originDistance;
+          entry.displayPoint.x = entry.point.x + (originDx * ratio);
+          entry.displayPoint.y = entry.point.y + (originDy * ratio);
+        }
+      }
+    }
   }
 
   return positionedShips;
