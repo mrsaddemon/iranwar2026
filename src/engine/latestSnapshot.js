@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 76,
+  "updateSequence": 77,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T11:17:48.641Z",
+  "lastSyncedAt": "2026-04-11T11:47:48.851Z",
   "warDay": 43,
-  "summary": "Middle East conflict continues with Israel rejecting a ceasefire in Lebanon while Iran engages in peace talks with the US, complicated by demands for a Lebanon ceasefire and the ongoing closure of the Strait of Hormuz.",
+  "summary": "The Middle East conflict continues with active Israeli strikes in Lebanon and Hezbollah rocket launches, while US and Iranian officials engage in ceasefire talks in Pakistan amidst the ongoing closure of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-11",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A 'Trump ceasefire' is mentioned but is not holding in the Strait of Hormuz and is explicitly rejected by Israel in Lebanon, with ongoing hostilities."
+    "summary": "Despite ongoing talks between US and Iranian officials in Pakistan, Israel has explicitly rejected a ceasefire with Hezbollah and continues strikes in Lebanon, indicating no active de-escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,14 +36,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.4,
         "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 48,
+    "escalationLevel": 38,
     "oilDisruption": 90
   },
   "alliance": {
@@ -57,56 +57,56 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Apr 09",
       "text": "Netanyahu states there is no ceasefire in Lebanon as Israel pursues talks.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 76
-    },
-    {
-      "date": "Apr 09",
-      "text": "Iranian delegation arrives in Pakistan for talks with the US, with Vance en route.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 76
-    },
-    {
-      "date": "Apr 09",
-      "text": "Iran's speaker says negotiations with the U.S. cannot start without a Lebanon ceasefire and asset release.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 76
-    },
-    {
-      "date": "Apr 09",
-      "text": "Hezbollah launches rockets at Israel.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
       "latestSinceUpdate": 76
     },
     {
-      "date": "Apr 11",
-      "text": "Strait of Hormuz choke point persists as Iran halts oil traffic despite a reported ceasefire.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 76
-    },
-    {
-      "date": "Apr 11",
-      "text": "Three oil supertankers appear to make a move through the Hormuz Strait.",
+      "date": "Apr 09",
+      "text": "An Iran Update Special Report is issued.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 76
+      "latestSinceUpdate": 77
+    },
+    {
+      "date": "Apr 11",
+      "text": "US and Iranian officials arrive in Pakistan to hold ceasefire talks.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 77
+    },
+    {
+      "date": "Apr 11",
+      "text": "Trump criticizes Iran for not allowing more oil through the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 77
+    },
+    {
+      "date": "Apr 11",
+      "text": "Hezbollah launches rockets at Israel.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 77
+    },
+    {
+      "date": "Apr 11",
+      "text": "The Strait of Hormuz remains closed, with the U.S. reporting Iran is unable to find mines it planted.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 77
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

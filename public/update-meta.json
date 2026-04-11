@@ -1,13 +1,13 @@
 {
-  "updateSequence": 76,
+  "updateSequence": 77,
   "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T11:17:48.641Z",
+  "lastSyncedAt": "2026-04-11T11:47:48.851Z",
   "warDay": 43,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A 'Trump ceasefire' is mentioned but is not holding in the Strait of Hormuz and is explicitly rejected by Israel in Lebanon, with ongoing hostilities."
+    "summary": "Despite ongoing talks between US and Iranian officials in Pakistan, Israel has explicitly rejected a ceasefire with Hezbollah and continues strikes in Lebanon, indicating no active de-escalation."
   }
 }
