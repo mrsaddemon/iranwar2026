@@ -175,112 +175,6 @@ function getInterpolatedCoordinates(entity, now) {
   return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
 }
 
-const SHIP_DECLUTTER_THRESHOLD = 24;
-const SHIP_DECLUTTER_MAX_RADIUS = 28;
-const SHIP_DECLUTTER_MIN_SPACING = 11;
-
-function getShipIdentity(ship) {
-  return String(ship?.id || ship?.mmsi || ship?.name || '');
-}
-
-function getDeterministicAngle(seed) {
-  let hash = 0;
-  const text = String(seed || 'ship');
-  for (let index = 0; index < text.length; index += 1) {
-    hash = ((hash << 5) - hash) + text.charCodeAt(index);
-    hash |= 0;
-  }
-  return ((Math.abs(hash) % 360) * Math.PI) / 180;
-}
-
-function buildDeclutteredShipLayout(ships, projection, viewTransform, now) {
-  const positionedShips = (ships || [])
-    .map((ship) => {
-      const geoPoint = getInterpolatedCoordinates(ship, now);
-      const point = geoPoint ? projectWithView(projection, geoPoint, viewTransform) : null;
-      if (!geoPoint || !point) return null;
-      return {
-        ship,
-        geoPoint,
-        point,
-        displayPoint: point,
-      };
-    })
-    .filter(Boolean);
-
-  const clusters = [];
-  for (const entry of positionedShips) {
-    const cluster = clusters.find((candidate) => Math.hypot(entry.point.x - candidate.x, entry.point.y - candidate.y) < SHIP_DECLUTTER_THRESHOLD);
-    if (!cluster) {
-      clusters.push({
-        x: entry.point.x,
-        y: entry.point.y,
-        entries: [entry],
-      });
-      continue;
-    }
-
-    cluster.entries.push(entry);
-    const count = cluster.entries.length;
-    cluster.x = ((cluster.x * (count - 1)) + entry.point.x) / count;
-    cluster.y = ((cluster.y * (count - 1)) + entry.point.y) / count;
-  }
-
-  for (const cluster of clusters) {
-    if (cluster.entries.length <= 1) continue;
-
-    const maxOffsetRadius = Math.min(
-      SHIP_DECLUTTER_MAX_RADIUS,
-      8 + ((cluster.entries.length - 1) * 2.6),
-    );
-
-    cluster.entries.forEach((entry) => {
-      entry.displayPoint = { ...entry.point };
-    });
-
-    const sortedEntries = [...cluster.entries].sort((left, right) => getShipIdentity(left.ship).localeCompare(getShipIdentity(right.ship)));
-
-    for (let iteration = 0; iteration < 8; iteration += 1) {
-      for (let leftIndex = 0; leftIndex < sortedEntries.length; leftIndex += 1) {
-        for (let rightIndex = leftIndex + 1; rightIndex < sortedEntries.length; rightIndex += 1) {
-          const left = sortedEntries[leftIndex];
-          const right = sortedEntries[rightIndex];
-          const dx = right.displayPoint.x - left.displayPoint.x;
-          const dy = right.displayPoint.y - left.displayPoint.y;
-          const distance = Math.hypot(dx, dy);
-
-          if (distance >= SHIP_DECLUTTER_MIN_SPACING) continue;
-
-          const push = (SHIP_DECLUTTER_MIN_SPACING - distance) / 2;
-          const angle = distance > 0.001
-            ? Math.atan2(dy, dx)
-            : getDeterministicAngle(`${getShipIdentity(left.ship)}:${getShipIdentity(right.ship)}:${iteration}`);
-          const offsetX = Math.cos(angle) * push;
-          const offsetY = Math.sin(angle) * push;
-
-          left.displayPoint.x -= offsetX;
-          left.displayPoint.y -= offsetY;
-          right.displayPoint.x += offsetX;
-          right.displayPoint.y += offsetY;
-        }
-      }
-
-      for (const entry of sortedEntries) {
-        const originDx = entry.displayPoint.x - entry.point.x;
-        const originDy = entry.displayPoint.y - entry.point.y;
-        const originDistance = Math.hypot(originDx, originDy);
-        if (originDistance > maxOffsetRadius) {
-          const ratio = maxOffsetRadius / originDistance;
-          entry.displayPoint.x = entry.point.x + (originDx * ratio);
-          entry.displayPoint.y = entry.point.y + (originDy * ratio);
-        }
-      }
-    }
-  }
-
-  return positionedShips;
-}
-
 function formatAgeLabel(seconds) {
   if (!Number.isFinite(seconds)) return 'recent';
   if (seconds < 60) return `${seconds}s ago`;
@@ -437,14 +331,14 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
     }
   }
 
-  const declutteredShips = buildDeclutteredShipLayout(trackerSnapshot?.ships || [], projection, viewTransform, now);
-  for (const shipEntry of declutteredShips) {
-    const { ship, displayPoint } = shipEntry;
-    if (displayPoint) {
+  for (const ship of trackerSnapshot?.ships || []) {
+    const geoPoint = getInterpolatedCoordinates(ship, now);
+    const point = geoPoint ? projectWithView(projection, geoPoint, viewTransform) : null;
+    if (point) {
       const colors = getTrackerColors(ship, 'ship', highVisibility);
       markers.push({
         hitRadius: highVisibility ? 13 : 12,
-        point: displayPoint,
+        point,
         tooltip: {
           id: `ship-${ship.id}`,
           title: ship.name || `Ship ${ship.mmsi || ''}`.trim(),
@@ -712,12 +606,12 @@ export default function MapCanvas({
         overlayCtx.fillText(core.label, point.x, point.y - (13 * visualScale));
       }
 
-      const declutteredShips = buildDeclutteredShipLayout(visibleShips, projection, viewTransformRef.current, now);
-      for (const shipEntry of declutteredShips) {
-        const { ship, geoPoint, point, displayPoint } = shipEntry;
-        if (!point || !displayPoint) continue;
+      for (const ship of visibleShips) {
+        const geoPoint = getInterpolatedCoordinates(ship, now);
+        const point = geoPoint ? projectWithView(projection, geoPoint, viewTransformRef.current) : null;
+        if (!point) continue;
         const colors = getTrackerColors(ship, 'ship', highVisibility);
-        const pulse = 0.45 + (Math.sin(time * 0.003 + displayPoint.y * 0.02) * 0.2);
+        const pulse = 0.45 + (Math.sin(time * 0.003 + point.y * 0.02) * 0.2);
         const hullLength = 7.5 * trackerMarkerSize;
         const hullWidth = 4.8 * trackerMarkerSize;
         const wakeRadius = 6.5 * trackerMarkerSize;
@@ -736,18 +630,8 @@ export default function MapCanvas({
           overlayCtx.stroke();
         }
 
-        const offsetDistance = Math.hypot(displayPoint.x - point.x, displayPoint.y - point.y);
-        if (offsetDistance > 2) {
-          overlayCtx.beginPath();
-          overlayCtx.moveTo(point.x, point.y);
-          overlayCtx.lineTo(displayPoint.x, displayPoint.y);
-          overlayCtx.strokeStyle = colors.trail.replace(/[\d.]+\)$/u, `${highVisibility ? 0.5 : 0.34})`);
-          overlayCtx.lineWidth = 0.9;
-          overlayCtx.stroke();
-        }
-
         overlayCtx.save();
-        overlayCtx.translate(displayPoint.x, displayPoint.y);
+        overlayCtx.translate(point.x, point.y);
         overlayCtx.rotate(((ship.heading || 0) * Math.PI) / 180);
         overlayCtx.beginPath();
         overlayCtx.moveTo(0, -hullLength);
@@ -768,7 +652,7 @@ export default function MapCanvas({
         overlayCtx.restore();
 
         overlayCtx.beginPath();
-        overlayCtx.arc(displayPoint.x, displayPoint.y, wakeRadius + (pulse * 2.5), 0, Math.PI * 2);
+        overlayCtx.arc(point.x, point.y, wakeRadius + (pulse * 2.5), 0, Math.PI * 2);
         overlayCtx.strokeStyle = colors.ring.replace(/[\d.]+\)$/u, `${0.26 + (pulse * 0.22)})`);
         overlayCtx.lineWidth = 1;
         overlayCtx.stroke();
