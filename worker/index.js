@@ -27,6 +27,22 @@ export default {
       }
     }
 
-    return env.ASSETS.fetch(request);
+    const assetResponse = await env.ASSETS.fetch(request);
+    const contentType = assetResponse.headers.get('content-type') || '';
+
+    if (contentType.includes('text/html')) {
+      const headers = new Headers(assetResponse.headers);
+      headers.set('cache-control', 'no-store, no-cache, must-revalidate, max-age=0');
+      headers.set('pragma', 'no-cache');
+      headers.set('expires', '0');
+
+      return new Response(assetResponse.body, {
+        status: assetResponse.status,
+        statusText: assetResponse.statusText,
+        headers,
+      });
+    }
+
+    return assetResponse;
   },
 };
