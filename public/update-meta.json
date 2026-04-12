@@ -1,13 +1,13 @@
 {
-  "updateSequence": 123,
+  "updateSequence": 124,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T18:26:15.581Z",
+  "lastSyncedAt": "2026-04-12T19:25:05.213Z",
   "warDay": 44,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, leading to renewed threats and no active ceasefire."
+    "summary": "No active ceasefire is in effect; peace talks have failed and tensions are escalating."
   }
 }
