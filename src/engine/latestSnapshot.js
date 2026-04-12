@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 114,
+  "updateSequence": 115,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T10:52:37.890Z",
+  "lastSyncedAt": "2026-04-12T11:41:59.534Z",
   "warDay": 44,
-  "summary": "US-Iran peace talks in Pakistan have failed amidst heightened military tensions in the Strait of Hormuz and ongoing conflict between Israel and Hezbollah in Lebanon.",
+  "summary": "Peace talks between the US and Iran in Pakistan have concluded without a deal, while tensions escalate in the Strait of Hormuz with US naval operations and Iranian threats, and Israel rejects a ceasefire with Hezbollah amidst ongoing conflict in Lebanon.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
-    "active": false,
-    "status": "fragile",
-    "confidence": 0.55,
+    "active": true,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 1,
-    "summary": "US-Iran peace talks have failed, and Israel has rejected a ceasefire with Hezbollah, indicating no active de-escalation efforts."
+    "summary": "Peace talks between the US and Iran have failed, and Israel has rejected a ceasefire with Hezbollah, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -18,33 +18,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 90
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
+    "oilDisruption": 80
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,51 +56,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "US and Iran fail to reach a deal after marathon peace talks in Pakistan.",
+      "text": "Vance announced that peace talks between the US and Iran in Pakistan ended after 21 hours without a deal.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxQaTQxazV6MlNqWXFpenozdGFVTzV1ZGdleHctcGJGNVp5Mk5xVmRZdnJqUlAwUUtiQnVfV1lOSDhOODJrU0VkeldCWk5hdVR4ZlhHemplZlJQclhVQkYteW9UVUpCbDZ6TzJMY0FSaGR2UXFuNDFtYzRkSzN6UHZkdnk2LWp4Wmk3Yi1HTDhGWGtiNHRzSXRuYWRPbGNueGdPWDh6WU9uSEFLNS1HM2g5Mk40WE5MQzZfWnM1eDhrT0M3d3lEbWgzczJRRlRLQjBmak9hM1RncFFocUI0aGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 114
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 115
     },
     {
       "date": "Apr 12",
-      "text": "U.S. naval destroyers have crossed the Strait of Hormuz, CENTCOM says.",
+      "text": "Control of the Strait of Hormuz and Iran’s Uranium Stockpiles were identified as key sticking points in the failed peace talks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxQckk5TlROc0hKRHM2SjRlNnhCTnFTMzRDUVJrazNscmVuQzZKNndzbHNNN0xjN0JWZWRpeGJMcFpNVGktbmlfaC1wME54NWduV1hUeHBLNElFYVdNZjB6ejA3eGttMTlOSlFmMEtmZGFyX0hlLWNra0VmODQyQkZ3TUxCU3JhazRrcEppOFlCanh0QdIBlwFBVV95cUxNVjhSTFE5SGU1aERuZU1zZkdxQmpONGk5cGNVR0ctVnFyNlI2S1Y3Umxic1Zhc1A1ZllhejVWZG03WlZYek5teTV3dC1GZ3JYMVJBUGZSWHRnMUdDM29nZVduMV9tN3FOLURkRXQ2ZFM3NFBRcHY3NE1MYnQ0dHd3eFRiSUo2MWM3TDNtRjlrMlRHdjE0eFVv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 114
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQWFBFR0RDUVE5ZjF3b2lNY1BLbkF1X1ZFYjk2bktLVE5UZzJ1bHBRNEJNT3FJcndrMFBaR0hRX1FZYkFrY0Q2TzZsZmVHcjFOTE9SS09UWXlhSEVxaVk5Y21YNmx3czRpNWNyZy0yQmlhY2x3TFBFOWw3SkVUd0hVcC1wRVFjcFlvYlZBc243bWhrNl9tR1Nuc2tJcEs5VWo0RVRWZ2RfX3JKTzRDakt0cl9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 115
     },
     {
       "date": "Apr 12",
-      "text": "Iran threatens U.S. warships after they throw down the gauntlet for winner-take-all Strait of Hormuz.",
+      "text": "The US Navy began critical mine hunting operations in the Strait of Hormuz amid rising tensions with Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFA1NFVucjRDOGxEVjlaYm1lNUdCOTJOblZRTzZ5UVBHVFlCZDNMZkZacWVEUVFHQl9Fd09UTl9ndmFhM2xUVEYwMjFCRmJ5UlFTMWJoYUdn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 115
+    },
+    {
+      "date": "Apr 12",
+      "text": "Iran issued a 'last warning' threatening U.S. warships in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNNkdJVnpXa1phTS1YU25xS3RmVFowU2lCaDVwcmhlTlY0akNRUE1mOG1INU5UbFpPWFB3NXNqdUZUeEw2bGptaGZzcFNOWlZ1UWQyUGRjMzA1Rm9lZjB0LVd6bXQ2dG93YmFtMXU4NXV3OXJxbWh1YnZiMzVwUi03cXlEdUtzMWRQVzdjNjZuczVFaFVYajFacFpaaThNZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fortune",
-      "latestSinceUpdate": 114
+      "latestSinceUpdate": 115
     },
     {
       "date": "Apr 12",
-      "text": "US military 'setting conditions' to clear mines from Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 114
+      "text": "Israel rejected a ceasefire with Hezbollah ahead of planned Lebanon talks next week.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 115
     },
     {
       "date": "Apr 12",
-      "text": "Iran Unable to Find Mines It Planted in Strait of Hormuz, U.S. Says.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE11bW5tS3RCVFluZXhCQlFyQmNpLWVYSFJ4T28tS201N0Rvbkd4MnR4UVZrNzdWOVNxeTkwYldSbjJQTjlVc3NDY3hCSGl6U0lueHJjT1hkQzQxSXY4c0VkVWRVR3lkOWN4RDlPWVlna29Lbk1ZUVpucA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 114
-    },
-    {
-      "date": "Apr 12",
-      "text": "Still in shock, Beirut tries to heal after deadly Israeli attacks.",
+      "text": "Beirut is attempting to recover after deadly Israeli attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE9fZW1BbDZIUjBLVU9nWUMwS24wRkZvbG91UHJ3N2JKOE1lVEZwTERxdC1aUWpqZ3FwTldzZWVoU1NXekViazJzUVBNaDdjWHRTX3g0djJmRQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 114
+      "latestSinceUpdate": 115
     }
   ],
   "sourceStatuses": [
