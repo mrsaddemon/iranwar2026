@@ -1,6 +1,8 @@
 // Event generation system — calibrated to 2026 Iran War context
 
 import { ACTION_LABELS, ACTION_SEVERITY, ACTION_ICONS } from './actors.js';
+import { LATEST_SNAPSHOT } from './latestSnapshot.js';
+import { formatSimulationDate, formatSimulationTimestamp } from './time.js';
 
 const EVENT_TEMPLATES = {
   airstrike: {
@@ -175,20 +177,6 @@ function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-// Simulation Day 0 = April 6, 2026
-const SIM_START = new Date('2026-04-06');
-const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-function getDateForDay(simDay) {
-  const d = new Date(SIM_START);
-  d.setDate(d.getDate() + simDay);
-  return `${MONTHS[d.getMonth()]} ${d.getDate()}`;
-}
-
-function formatTimestamp(simDay, warDay) {
-  return `${getDateForDay(simDay)} \u2022 Day ${warDay}`;
-}
-
 export function generateActionEvent(actorName, actorId, action, day, warDay) {
   const actionTemplates = EVENT_TEMPLATES[action];
   let templates;
@@ -207,7 +195,7 @@ export function generateActionEvent(actorName, actorId, action, day, warDay) {
   return {
     id: `evt-${day}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
     day,
-    timestamp: formatTimestamp(day, totalWarDay),
+    timestamp: formatSimulationTimestamp(day, warDay, LATEST_SNAPSHOT.lastUpdated),
     text,
     severity: ACTION_SEVERITY[action] || 'info',
     icon: ACTION_ICONS[action] || '\u{2139}',
@@ -226,7 +214,7 @@ export function generateSecondaryEvents(globalState, day) {
       events.push({
         id: `sec-${day}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
         day,
-        timestamp: formatTimestamp(day, warDay),
+        timestamp: formatSimulationTimestamp(day, globalState.warDay || 37, LATEST_SNAPSHOT.lastUpdated),
         text: evt.text.replace('{value}', value),
         severity: evt.severity,
         icon: evt.icon,
@@ -283,4 +271,8 @@ export function generateEffectDescription(action, outcome) {
   };
 
   return pickRandom(effects[action] || ['Action completed']);
+}
+
+export function getEventDateLabel(simDay) {
+  return formatSimulationDate(simDay, LATEST_SNAPSHOT.lastUpdated);
 }

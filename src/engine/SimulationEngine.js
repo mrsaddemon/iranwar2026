@@ -6,28 +6,15 @@ import { createInitialActors, createAllianceSupport, ACTION_TYPES, PROXY_FORCES,
 import { calculateNuclearDelta, generateNuclearEvent, calculateNuclearPredictions, calculateNuclearStrikeOutcome, getNuclearWarheadById } from './nuclear.js';
 import { generateActionEvent, generateSecondaryEvents } from './events.js';
 import { LATEST_SNAPSHOT } from './latestSnapshot.js';
+import { formatSimulationDate, formatSimulationTimestamp } from './time.js';
 
-// Date helper
-const SIM_START = new Date(LATEST_SNAPSHOT.lastUpdated || '2026-04-07');
 const INITIAL_WAR_DAY = LATEST_SNAPSHOT.warDay || 39;
-const INITIAL_GLOBALS = {
-  nuclearIndex: LATEST_SNAPSHOT.global?.nuclearIndex ?? 75,
-  escalationLevel: LATEST_SNAPSHOT.global?.escalationLevel ?? 90,
-  oilDisruption: LATEST_SNAPSHOT.global?.oilDisruption ?? 85,
-};
 // AUTO-UPDATED RECENT EVENTS START
 const AUTO_UPDATED_RECENT_EVENTS = LATEST_SNAPSHOT.recentEvents || [];
 // AUTO-UPDATED RECENT EVENTS END
-const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
-function getDateForDay(simDay) {
-  const d = new Date(SIM_START);
-  d.setDate(d.getDate() + simDay);
-  return `${MONTHS[d.getMonth()]} ${d.getDate()}`;
-}
 
 function makeTimestamp(dayCount, warDay) {
-  return `${getDateForDay(dayCount)} \u2022 Day ${warDay + dayCount}`;
+  return formatSimulationTimestamp(dayCount, warDay, LATEST_SNAPSHOT.lastUpdated);
 }
 
 function clamp(value, min = 0, max = 100) {
@@ -41,6 +28,62 @@ function clamp01(value) {
 function average(values) {
   if (!values.length) return 0;
   return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function getActorExhaustionScore(actor) {
+  const metrics = actor?.metrics || {};
+  return clamp01(average([
+    100 - (metrics.economy ?? 50),
+    100 - (metrics.internalStability ?? 50),
+    100 - (metrics.morale ?? 50),
+    100 - (metrics.militaryPower ?? 50),
+  ]) / 100);
+}
+
+function getCoalitionExhaustion(state) {
+  return average([
+    getActorExhaustionScore(state?.actors?.usa),
+    getActorExhaustionScore(state?.actors?.israel),
+    getActorExhaustionScore(state?.actors?.iran),
+  ]);
+}
+
+function countActiveAllianceNodes(allianceSupport) {
+  return Object.values(allianceSupport || {}).filter((node) => node?.active).length;
+}
+
+function deriveInitialGlobals(snapshot, allianceSupport, ceasefireStatus) {
+  const snapshotGlobal = snapshot.global || {};
+  const nuclearIndex = clamp(snapshotGlobal.nuclearIndex ?? 75);
+  const escalationLevel = clamp(snapshotGlobal.escalationLevel ?? 75);
+  const oilDisruption = clamp(snapshotGlobal.oilDisruption ?? 80);
+  const actorOverrides = snapshot.actorOverrides || {};
+  const iranEconomy = actorOverrides.iran?.metrics?.economy ?? 25;
+  const iranMilitary = actorOverrides.iran?.metrics?.militaryPower ?? 65;
+  const activeAllianceNodes = countActiveAllianceNodes(allianceSupport);
+  const ceasefireCooling = ceasefireStatus.active ? (ceasefireStatus.status === 'active' ? 16 : 8) : 0;
+
+  return {
+    nuclearIndex,
+    escalationLevel,
+    oilDisruption,
+    tradeImpact: clamp(
+      snapshotGlobal.tradeImpact ??
+      Math.round(oilDisruption * 0.72 + escalationLevel * 0.18 - ceasefireCooling)
+    ),
+    sanctionsPressure: clamp(
+      snapshotGlobal.sanctionsPressure ??
+      Math.round(48 + escalationLevel * 0.16 + (iranEconomy < 35 ? 12 : 4) + activeAllianceNodes * 2 - ceasefireCooling * 0.45)
+    ),
+    globalPressure: clamp(
+      snapshotGlobal.globalPressure ??
+      Math.round(36 + escalationLevel * 0.34 + oilDisruption * 0.18 + activeAllianceNodes * 3 - ceasefireCooling * 0.7)
+    ),
+    allianceInfluence: clamp(
+      snapshotGlobal.allianceInfluence ??
+      Math.round(24 + activeAllianceNodes * 11 + (iranMilitary >= 65 ? 8 : 3) + (allianceSupport.unscShield?.active ? 8 : 0))
+    ),
+  };
 }
 
 function normalizeSnapshotEventText(text) {
@@ -118,6 +161,9 @@ function registerCeasefireBreakdown(state, actorName) {
 }
 
 export function createSimulationState() {
+  const allianceSupport = createAllianceSupport(LATEST_SNAPSHOT.alliance);
+  const ceasefireStatus = normalizeCeasefireStatus(LATEST_SNAPSHOT.ceasefire);
+  const initialGlobals = deriveInitialGlobals(LATEST_SNAPSHOT, allianceSupport, ceasefireStatus);
   const initialState = {
     dayCount: 0,
     warDay: INITIAL_WAR_DAY,
@@ -125,13 +171,13 @@ export function createSimulationState() {
     speed: 1,
     actors: createInitialActors(LATEST_SNAPSHOT.actorOverrides),
     proxyForces: { ...PROXY_FORCES },
-    nuclearIndex: INITIAL_GLOBALS.nuclearIndex,
-    escalationLevel: INITIAL_GLOBALS.escalationLevel,
-    oilDisruption: INITIAL_GLOBALS.oilDisruption,
-    tradeImpact: 75,
-    sanctionsPressure: 90,
-    globalPressure: 80,
-    allianceInfluence: 75,
+    nuclearIndex: initialGlobals.nuclearIndex,
+    escalationLevel: initialGlobals.escalationLevel,
+    oilDisruption: initialGlobals.oilDisruption,
+    tradeImpact: initialGlobals.tradeImpact,
+    sanctionsPressure: initialGlobals.sanctionsPressure,
+    globalPressure: initialGlobals.globalPressure,
+    allianceInfluence: initialGlobals.allianceInfluence,
     events: generateInitialEvents(),
     mapAnimations: [],
     predictions: {
@@ -143,14 +189,14 @@ export function createSimulationState() {
     },
     warDurationRange: { min: 60, max: 240 },
     escalationProbability: 0.82,
-    nuclearPredictions: calculateNuclearPredictions(INITIAL_GLOBALS.nuclearIndex),
+    nuclearPredictions: calculateNuclearPredictions(initialGlobals.nuclearIndex),
     // Alliance support (Russia/China backing Iran)
-    allianceSupport: createAllianceSupport(LATEST_SNAPSHOT.alliance),
+    allianceSupport,
     updateSequence: LATEST_SNAPSHOT.updateSequence || 0,
     lastUpdated: LATEST_SNAPSHOT.lastUpdated,
     lastSyncedAt: LATEST_SNAPSHOT.lastSyncedAt || null,
     snapshotSummary: LATEST_SNAPSHOT.summary,
-    ceasefireStatus: normalizeCeasefireStatus(LATEST_SNAPSHOT.ceasefire),
+    ceasefireStatus,
     sourceStatuses: LATEST_SNAPSHOT.sourceStatuses || [],
     narratives: LATEST_SNAPSHOT.narratives || [],
     lastNarrativeUpdate: LATEST_SNAPSHOT.lastNarrativeUpdate || null,
@@ -181,7 +227,7 @@ function generateInitialEvents() {
     .map((event, index) => ({
       id: `init-news-${index + 1}`,
       day: 0,
-      timestamp: event.date,
+    timestamp: event.date,
       text: normalizeSnapshotEventText(event.text),
       severity: event.severity,
       latestSinceUpdate: event.latestSinceUpdate,
@@ -199,7 +245,7 @@ function generateInitialEvents() {
   return [{
     id: 'init-summary',
     day: 0,
-    timestamp: getDateForDay(0),
+    timestamp: formatSimulationDate(0, LATEST_SNAPSHOT.lastUpdated),
     text: LATEST_SNAPSHOT.summary,
     severity: LATEST_SNAPSHOT.ceasefire?.active ? 'warning' : 'info',
     icon: LATEST_SNAPSHOT.ceasefire?.active ? '\u26A0' : '\u{1F4F0}',
@@ -272,9 +318,9 @@ function calculateOutcome(actor, action, globalState) {
     const intensity = success ? 0.5 + Math.random() * 0.5 : 0.1 + Math.random() * 0.3;
     effects.metricDeltas.missileCapacity = -intensity * 2;
     effects.metricDeltas.morale = success ? 3 : -2;
-    effects.globalDeltas.escalationLevel = 2 + Math.random() * 4;
-    effects.globalDeltas.oilDisruption = Math.random() * 3;
-    effects.globalDeltas.globalPressure = 1 + Math.random() * 2;
+    effects.globalDeltas.escalationLevel = 1.2 + Math.random() * 2.2;
+    effects.globalDeltas.oilDisruption = Math.random() * 2.2;
+    effects.globalDeltas.globalPressure = 0.8 + Math.random() * 1.4;
     effects.actorDeltas = {
       missileCapacity: action === 'missileStrike' ? -1.5 : 0,
       droneCapability: action === 'droneOperation' ? -1 : 0,
@@ -282,27 +328,27 @@ function calculateOutcome(actor, action, globalState) {
   } else if (action === 'navalManeuver') {
     effects.metricDeltas.navalControl = success ? 3 : -1;
     effects.globalDeltas.oilDisruption = actor.id === 'iran' ? 3 + Math.random() * 5 : -1;
-    effects.globalDeltas.escalationLevel = 1 + Math.random() * 2;
+    effects.globalDeltas.escalationLevel = 0.6 + Math.random() * 1.4;
   } else if (action === 'cyberDisruption') {
-    effects.globalDeltas.escalationLevel = 1.5 + Math.random() * 2;
+    effects.globalDeltas.escalationLevel = 0.8 + Math.random() * 1.2;
     effects.metricDeltas.internalStability = success ? 0 : -2;
-    effects.globalDeltas.tradeImpact = Math.random() * 3;
+    effects.globalDeltas.tradeImpact = Math.random() * 2.2;
   } else if (action === 'defensivePosture') {
     effects.metricDeltas.militaryPower = 1;
     effects.metricDeltas.morale = 2;
-    effects.globalDeltas.escalationLevel = -1 - Math.random() * 2;
+    effects.globalDeltas.escalationLevel = -1.4 - Math.random() * 1.8;
   } else if (action === 'diplomaticOutreach') {
     if (success) {
-      effects.globalDeltas.escalationLevel = -3 - Math.random() * 5;
-      effects.globalDeltas.globalPressure = -2;
+      effects.globalDeltas.escalationLevel = -5 - Math.random() * 5;
+      effects.globalDeltas.globalPressure = -2.5;
       effects.globalDeltas.allianceInfluence = 2;
       effects.metricDeltas.internalStability = 2;
     } else {
-      effects.globalDeltas.escalationLevel = 1;
+      effects.globalDeltas.escalationLevel = 0.35;
     }
   } else if (action === 'strategicSignaling') {
-    effects.globalDeltas.escalationLevel = Math.random() < 0.5 ? -1 : 2;
-    effects.globalDeltas.globalPressure = 1;
+    effects.globalDeltas.escalationLevel = Math.random() < 0.55 ? -0.8 : 1.4;
+    effects.globalDeltas.globalPressure = 0.8;
     effects.metricDeltas.morale = 1;
   }
 
@@ -386,9 +432,27 @@ function applyEffects(state, actorId, effects) {
   if (effects.globalDeltas) {
     for (const [key, delta] of Object.entries(effects.globalDeltas)) {
       if (key === 'nuclearIndex') {
-        state.nuclearIndex = Math.max(0, Math.min(100, state.nuclearIndex + delta));
+        let dampedDelta = delta;
+        if (delta > 0) {
+          const saturationDamp = Math.max(0.22, 1 - clamp01((state.nuclearIndex - 35) / 65) * 0.7);
+          const ceasefireDamp = state.ceasefireStatus?.active
+            ? (state.ceasefireStatus.status === 'active' ? 0.3 : 0.55)
+            : 1;
+          dampedDelta = delta * saturationDamp * ceasefireDamp;
+        }
+        state.nuclearIndex = Math.max(0, Math.min(100, state.nuclearIndex + dampedDelta));
       } else if (state[key] !== undefined) {
-        state[key] = Math.max(0, Math.min(100, state[key] + delta));
+        let adjustedDelta = delta;
+        if (key === 'escalationLevel' && delta > 0) {
+          const saturationDamp = Math.max(0.35, 1 - clamp01((state.escalationLevel - 45) / 55) * 0.55);
+          const ceasefireDamp = state.ceasefireStatus?.active ? (state.ceasefireStatus.status === 'active' ? 0.38 : 0.62) : 1;
+          adjustedDelta = delta * saturationDamp * ceasefireDamp;
+        }
+        if (key === 'escalationLevel' && delta < 0) {
+          const pressureAmplifier = state.globalPressure > 70 ? 1.12 : 1;
+          adjustedDelta = delta * pressureAmplifier;
+        }
+        state[key] = Math.max(0, Math.min(100, state[key] + adjustedDelta));
       }
     }
   }
@@ -990,13 +1054,20 @@ export function simulateTick(state) {
     // Skip player-controlled actor (they act via applyPlayerAction)
     if (actorId === newState.playerControlledActor) continue;
 
+    const actor = newState.actors[actorId];
+    const exhaustion = getActorExhaustionScore(actor);
+    const fatigueBrake = Math.min(0.14, newState.dayCount * 0.0018) + exhaustion * 0.15;
     const ceasefireActModifier = newState.ceasefireStatus?.active
-      ? (newState.ceasefireStatus.status === 'active' ? 0.12 : 0.2)
-      : 0.4;
-    const actProbability = ceasefireActModifier + newState.escalationLevel * (newState.ceasefireStatus?.active ? 0.002 : 0.004);
+      ? (newState.ceasefireStatus.status === 'active' ? 0.08 : 0.16)
+      : 0.22;
+    const actProbability = clamp01(
+      ceasefireActModifier +
+      newState.escalationLevel * (newState.ceasefireStatus?.active ? 0.0012 : 0.00235) +
+      actor.behavior.aggression * 0.04 -
+      fatigueBrake
+    );
     if (Math.random() > actProbability) continue;
 
-    const actor = newState.actors[actorId];
     const action = selectAction(actor, newState);
 
     // Handle AI ceasefire proposals
@@ -1052,10 +1123,25 @@ export function simulateTick(state) {
   newEvents.push(...generateSecondaryEvents(newState, newState.dayCount));
 
   // Natural decay
+  const activeExhaustion = average(actorIds.map((actorId) => getActorExhaustionScore(newState.actors[actorId])));
+  const fatigueCooling = Math.min(1.35, Math.max(0, newState.dayCount - 8) * 0.03) + activeExhaustion * 0.58;
   const decayBias = newState.ceasefireStatus?.active
-    ? (newState.ceasefireStatus.status === 'active' ? -1.35 : -0.75)
-    : 0;
-  newState.escalationLevel = Math.max(0, Math.min(100, newState.escalationLevel + (Math.random() - 0.52) * 1.5 + decayBias));
+    ? (newState.ceasefireStatus.status === 'active' ? -2 : -1.15)
+    : -0.35;
+  newState.escalationLevel = Math.max(
+    0,
+    Math.min(100, newState.escalationLevel + (Math.random() - 0.56) * 1.15 + decayBias - fatigueCooling)
+  );
+  const nuclearDecay = (
+    0.42
+    + getCoalitionExhaustion(newState) * 0.72
+    + (newState.ceasefireStatus?.active ? (newState.ceasefireStatus.status === 'active' ? 0.9 : 0.45) : 0)
+    + (newState.globalPressure > 72 ? 0.22 : 0)
+  );
+  newState.nuclearIndex = Math.max(
+    0,
+    Math.min(100, newState.nuclearIndex - nuclearDecay + (newState.escalationLevel > 82 ? 0.08 : 0))
+  );
   newState.oilDisruption = Math.max(0, Math.min(100, newState.oilDisruption + (Math.random() - 0.5) * 2));
 
   for (const actorId of actorIds) {

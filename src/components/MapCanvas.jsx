@@ -194,6 +194,9 @@ function formatFlightDetail(flight) {
   const parts = [
     flight.militaryLikely ? `Type: Probable military (${flight.militaryReason || 'heuristic'})` : 'Type: Civil / unconfirmed',
     flight.id ? `ICAO: ${flight.id.toUpperCase()}` : null,
+    flight.operatorName ? `Operator: ${flight.operatorName}` : null,
+    flight.aircraftType ? `Aircraft: ${flight.aircraftType}` : null,
+    flight.registration ? `Registration: ${flight.registration}` : null,
     flight.originCountry ? `Origin: ${flight.originCountry}` : null,
     (Number.isFinite(flight.lat) && Number.isFinite(flight.lon)) ? `Position: ${flight.lat.toFixed(2)}, ${flight.lon.toFixed(2)}` : null,
     Number.isFinite(flight.altitudeFeet) ? `Altitude: ${flight.altitudeFeet.toLocaleString()} ft` : null,
@@ -230,12 +233,12 @@ function getTrackerStatusText(trackerSnapshot, visibleFlights, visibleShips, tra
   const normalizeStatus = (value, hiddenLabel) => {
     const text = String(value || '').toLowerCase();
     if (text === 'hidden') return hiddenLabel;
-    if (text.includes('connecting') || text.includes('loading')) return 'CONNECTING';
-    if (text.includes('throttled') || text.includes('429') || text.includes('too many requests') || text.includes('rate limit')) return 'THROTTLED';
-    if (text.includes('522') || text.includes('upstream') || text.includes('temporarily unavailable')) return 'RETRYING';
-    if (text.includes('stale cache')) return 'CACHED';
-    if (text.includes('ok')) return 'LIVE';
-    if (text.includes('failed') || text.includes('unavailable')) return 'UNAVAILABLE';
+    if (text.includes('loading') || text.includes('connecting')) return 'LOADING';
+    if (text.includes('live')) return 'LIVE';
+    if (text.includes('delayed') || text.includes('cache') || text.includes('stale')) return 'DELAYED';
+    if (text.includes('limited') || text.includes('throttled') || text.includes('429')) return 'LIMITED';
+    if (text.includes('recovering') || text.includes('retrying') || text.includes('temporarily unavailable') || text.includes('upstream')) return 'RECOVERING';
+    if (text.includes('failed') || text.includes('unavailable')) return 'RECOVERING';
     return String(value || hiddenLabel).toUpperCase();
   };
   const airState = trackerVisibility?.flights === false ? 'OFF' : normalizeStatus(flightStatus, 'OFF');

@@ -78,6 +78,60 @@ const MILITARY_SHIP_KEYWORDS = [
   'USS', 'USNS', 'HMS', 'RFA', 'FS ', 'INS ', 'PNS ', 'JS ', 'ROKS', 'IRIS', 'IRIN', 'NAVY', 'COAST GUARD',
   'COASTGUARD', 'WARSHIP', 'DESTROYER', 'FRIGATE', 'CORVETTE', 'PATROL',
 ];
+const FLIGHT_COUNTRY_PREFIXES = Object.freeze([
+  ['AIC', 'India'],
+  ['IGO', 'India'],
+  ['SEJ', 'India'],
+  ['ETD', 'United Arab Emirates'],
+  ['UAE', 'United Arab Emirates'],
+  ['QTR', 'Qatar'],
+  ['SVA', 'Saudi Arabia'],
+  ['THY', 'Turkey'],
+  ['PGT', 'Turkey'],
+  ['MEA', 'Lebanon'],
+  ['MSR', 'Egypt'],
+  ['AFL', 'Russia'],
+  ['KZR', 'Kazakhstan'],
+  ['IRA', 'Iran'],
+  ['IRM', 'Iran'],
+  ['IAW', 'Iran'],
+  ['ISR', 'Israel'],
+  ['ELY', 'Israel'],
+  ['ELA', 'Israel'],
+  ['RCH', 'United States'],
+  ['CMB', 'United States'],
+  ['CNV', 'United States'],
+  ['VM', 'United States'],
+  ['MC', 'United States'],
+  ['RRR', 'United Kingdom'],
+]);
+const FLIGHT_OPERATOR_PREFIXES = Object.freeze([
+  ['AIC', 'Air India'],
+  ['IGO', 'IndiGo'],
+  ['SEJ', 'SpiceJet'],
+  ['ETD', 'Etihad Airways'],
+  ['UAE', 'Emirates / UAE Government'],
+  ['QTR', 'Qatar Airways'],
+  ['SVA', 'Saudia'],
+  ['THY', 'Turkish Airlines'],
+  ['PGT', 'Pegasus Airlines'],
+  ['MEA', 'Middle East Airlines'],
+  ['MSR', 'EgyptAir'],
+  ['AFL', 'Aeroflot'],
+  ['KZR', 'Air Astana / Kazakhstan'],
+  ['IRA', 'Iran Air'],
+  ['IRM', 'Iran Air / Mahan-linked'],
+  ['IAW', 'Iranian military / state-linked'],
+  ['ELY', 'El Al'],
+  ['ELA', 'El Al / Israeli state-linked'],
+  ['ISR', 'Israir / Israeli state-linked'],
+  ['RCH', 'US Air Mobility Command'],
+  ['CMB', 'US military transport'],
+  ['CNV', 'US Navy logistics'],
+  ['MC', 'US Marine Corps'],
+  ['VM', 'US military airlift'],
+  ['RRR', 'Royal Air Force'],
+]);
 
 function clampCount(items, max) {
   return items.slice(0, max);
@@ -157,6 +211,46 @@ function classifyMilitaryFlight(callsign, originCountry) {
   };
 }
 
+function inferOriginCountry(record, callsign) {
+  const registration = normalizeToken(record?.r);
+  const normalizedCallsign = normalizeToken(callsign);
+
+  if (registration.startsWith('EP')) return 'Iran';
+  if (registration.startsWith('4X')) return 'Israel';
+  if (registration.startsWith('N')) return 'United States';
+  if (registration.startsWith('TC')) return 'Turkey';
+  if (registration.startsWith('A6')) return 'United Arab Emirates';
+  if (registration.startsWith('A7')) return 'Qatar';
+  if (registration.startsWith('HZ')) return 'Saudi Arabia';
+  if (registration.startsWith('SU')) return 'Egypt';
+  if (registration.startsWith('OD')) return 'Lebanon';
+  if (registration.startsWith('RA')) return 'Russia';
+  if (registration.startsWith('UP')) return 'Kazakhstan';
+
+  const matchedPrefix = FLIGHT_COUNTRY_PREFIXES.find(([prefix]) => normalizedCallsign.startsWith(prefix));
+  return matchedPrefix?.[1] || null;
+}
+
+function inferOperatorName(record, callsign) {
+  const normalizedCallsign = normalizeToken(callsign);
+  const matchedPrefix = FLIGHT_OPERATOR_PREFIXES.find(([prefix]) => normalizedCallsign.startsWith(prefix));
+  if (matchedPrefix) return matchedPrefix[1];
+
+  const registration = normalizeToken(record?.r);
+  if (registration.startsWith('EP')) return 'Iran-registered aircraft';
+  if (registration.startsWith('4X')) return 'Israel-registered aircraft';
+  if (registration.startsWith('N')) return 'US-registered aircraft';
+  if (registration.startsWith('TC')) return 'Turkey-registered aircraft';
+  if (registration.startsWith('A6')) return 'UAE-registered aircraft';
+  if (registration.startsWith('A7')) return 'Qatar-registered aircraft';
+  if (registration.startsWith('HZ')) return 'Saudi-registered aircraft';
+  if (registration.startsWith('SU')) return 'Egypt-registered aircraft';
+  if (registration.startsWith('OD')) return 'Lebanon-registered aircraft';
+  if (registration.startsWith('RA')) return 'Russia-registered aircraft';
+  if (registration.startsWith('UP')) return 'Kazakhstan-registered aircraft';
+  return null;
+}
+
 function classifyMilitaryShip(name, callSign) {
   const combined = `${String(name || '').toUpperCase()} ${String(callSign || '').toUpperCase()}`;
   const matchedKeyword = MILITARY_SHIP_KEYWORDS.find((keyword) => combined.includes(keyword));
@@ -179,6 +273,52 @@ function getTrackerConfig(env = {}) {
     openskyClientSecret: getEnvValue(env, 'OPENSKY_CLIENT_SECRET'),
     aisstreamApiKey: getEnvValue(env, 'AISSTREAM_API_KEY'),
   };
+}
+
+function formatTrackerSourceStatus({
+  enabled,
+  statusText,
+  itemCount,
+  usedCache,
+}) {
+  if (!enabled) return 'hidden';
+
+  const text = String(statusText || '').toLowerCase();
+  const countLabel = Number.isFinite(itemCount) ? ` (${itemCount})` : '';
+
+  if (text.includes('loading') || text.includes('connecting')) {
+    return `loading${countLabel}`;
+  }
+
+  if (
+    text.includes('throttled')
+    || text.includes('429')
+    || text.includes('too many requests')
+    || text.includes('rate limit')
+  ) {
+    return `${usedCache ? 'delayed' : 'limited'}${countLabel}`;
+  }
+
+  if (
+    text.includes('temporarily unavailable')
+    || text.includes('upstream')
+    || text.includes('recover')
+    || text.includes('522')
+    || text.includes('failed')
+    || text.includes('unavailable')
+  ) {
+    return `${usedCache ? 'delayed' : 'recovering'}${countLabel}`;
+  }
+
+  if (usedCache || text.includes('cache') || text.includes('stale')) {
+    return `delayed${countLabel}`;
+  }
+
+  if (text.includes('live') || text.includes('ok')) {
+    return `live${countLabel}`;
+  }
+
+  return `${usedCache ? 'delayed' : 'recovering'}${countLabel}`;
 }
 
 async function getOpenSkyAccessToken(clientId, clientSecret) {
@@ -224,14 +364,17 @@ function buildAdsbFlightRecord(record) {
   }
 
   const callsign = String(record?.flight || '').trim() || String(record?.hex || 'UNKNOWN').toUpperCase();
-  const military = classifyMilitaryFlight(callsign, '');
+  const originCountry = inferOriginCountry(record, callsign);
+  const operatorName = inferOperatorName(record, callsign);
+  const military = classifyMilitaryFlight(callsign, originCountry);
 
   return {
     id: String(record?.hex || callsign || `${lat}-${lon}`),
     callsign,
     registration: record?.r || null,
     aircraftType: record?.t || null,
-    originCountry: null,
+    operatorName,
+    originCountry,
     lat: round(lat, 4),
     lon: round(lon, 4),
     altitudeFeet: Number.isFinite(record?.alt_geom) ? Math.round(record.alt_geom) : (Number.isFinite(record?.alt_baro) ? Math.round(record.alt_baro) : null),
@@ -459,10 +602,12 @@ async function fetchOpenSkyFlightSnapshot(config) {
       if (!Number.isFinite(longitude) || !Number.isFinite(latitude)) return null;
 
       const military = classifyMilitaryFlight(callsign, originCountry);
+      const operatorName = inferOperatorName({ r: null }, callsign);
 
       return {
         id: String(icao24 || callsign || `${latitude}-${longitude}`),
         callsign: String(callsign || '').trim() || String(icao24 || 'UNKNOWN').toUpperCase(),
+        operatorName,
         originCountry: originCountry || 'Unknown',
         lat: round(latitude, 4),
         lon: round(longitude, 4),
@@ -781,8 +926,8 @@ export async function getTrackerSnapshot(env = {}, options = {}) {
   const flightStatusText = String(currentSnapshot?.sourceStatus?.flights || '').toLowerCase();
   const shipStatusText = String(currentSnapshot?.sourceStatus?.ships || '').toLowerCase();
   const hasTrackerFailure = (
-    (fetchFlights && currentSnapshot && (!currentSnapshot.flights?.length) && (flightStatusText.includes('unavailable') || flightStatusText.includes('throttled') || flightStatusText.includes('retrying')))
-    || (fetchShips && currentSnapshot && (!currentSnapshot.ships?.length) && shipStatusText.includes('failed'))
+    (fetchFlights && currentSnapshot && (!currentSnapshot.flights?.length) && (flightStatusText.includes('recovering') || flightStatusText.includes('limited')))
+    || (fetchShips && currentSnapshot && (!currentSnapshot.ships?.length) && shipStatusText.includes('recovering'))
   );
   const snapshotTtl = hasTrackerFailure ? TRACKER_ERROR_SNAPSHOT_TTL_MS : TRACKER_SNAPSHOT_TTL_MS;
 
@@ -822,16 +967,22 @@ export async function getTrackerSnapshot(env = {}, options = {}) {
     flights: flightPayload.flights,
     ships: shipPayload.ships,
     sourceStatus: {
-      flights: !fetchFlights
-        ? 'hidden'
-        : flightsResult.status === 'fulfilled'
-        ? `${flightFetchMeta.status || 'ok'} (${flightPayload.flights.length})`
-        : `${flightPayload.usedCache ? 'stale cache' : 'temporarily unavailable'} ${flightPayload.flights.length ? `(${flightPayload.flights.length})` : ''}`.trim(),
-      ships: !fetchShips
-        ? 'hidden'
-        : shipsResult.status === 'fulfilled'
-        ? `${shipPayload.usedCache ? 'stale cache' : 'ok'} (${shipPayload.ships.length})`
-        : `${shipPayload.usedCache ? 'stale cache' : (shipsResult.reason?.message || 'failed')} ${shipPayload.ships.length ? `(${shipPayload.ships.length})` : ''}`.trim(),
+      flights: formatTrackerSourceStatus({
+        enabled: fetchFlights,
+        statusText: flightsResult.status === 'fulfilled'
+          ? (flightFetchMeta.status || 'ok')
+          : (flightPayload.usedCache ? 'stale cache' : 'temporarily unavailable'),
+        itemCount: flightPayload.flights.length,
+        usedCache: Boolean(flightPayload.usedCache || flightFetchMeta.usedCache),
+      }),
+      ships: formatTrackerSourceStatus({
+        enabled: fetchShips,
+        statusText: shipsResult.status === 'fulfilled'
+          ? (shipPayload.usedCache ? 'stale cache' : 'ok')
+          : (shipPayload.usedCache ? 'stale cache' : 'failed'),
+        itemCount: shipPayload.ships.length,
+        usedCache: Boolean(shipPayload.usedCache),
+      }),
     },
   };
 

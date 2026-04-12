@@ -1540,6 +1540,52 @@ function normalizeParams(rawParams, previousSnapshot, today, warDay) {
   };
 }
 
+function enrichGlobalSnapshotParams(params) {
+  const global = params.global || {};
+  const alliance = params.alliance || {};
+  const ceasefire = params.ceasefire || {};
+  const activeAllianceNodes = [
+    alliance.russiaIntelSupport,
+    alliance.chinaEconomicSupport,
+    alliance.s400Active,
+    alliance.mosaicDefense,
+    alliance.unscShield,
+  ].filter(Boolean).length;
+  const ceasefireCooling = ceasefire.active ? (ceasefire.status === 'active' ? 16 : 8) : 0;
+  const iranMilitary = Number(params.iran?.militaryPower ?? 65);
+  const oilDisruption = Number(global.oilDisruption ?? 75);
+  const escalationLevel = Number(global.escalationLevel ?? 75);
+
+  return {
+    ...params,
+    global: {
+      nuclearIndex: Math.round(clamp(global.nuclearIndex ?? 65, 0, 100)),
+      escalationLevel: Math.round(clamp(escalationLevel, 0, 100)),
+      oilDisruption: Math.round(clamp(oilDisruption, 0, 100)),
+      tradeImpact: Math.round(clamp(
+        global.tradeImpact ?? (oilDisruption * 0.72 + escalationLevel * 0.18 - ceasefireCooling),
+        0,
+        100,
+      )),
+      sanctionsPressure: Math.round(clamp(
+        global.sanctionsPressure ?? (48 + escalationLevel * 0.16 + activeAllianceNodes * 2 - ceasefireCooling * 0.45),
+        0,
+        100,
+      )),
+      globalPressure: Math.round(clamp(
+        global.globalPressure ?? (36 + escalationLevel * 0.34 + oilDisruption * 0.18 + activeAllianceNodes * 3 - ceasefireCooling * 0.7),
+        0,
+        100,
+      )),
+      allianceInfluence: Math.round(clamp(
+        global.allianceInfluence ?? (24 + activeAllianceNodes * 11 + (iranMilitary >= 65 ? 8 : 3) + (alliance.unscShield ? 8 : 0)),
+        0,
+        100,
+      )),
+    },
+  };
+}
+
 async function interpretNews(sourceBundle, oilPrice, { includeNarratives = true } = {}) {
   const today = getUtcDateKey();
   const warDay = calculateWarDay(today);
@@ -1838,11 +1884,11 @@ async function main() {
     }
   }
 
-  const params = applyCeasefireGuardrails(
+  const params = enrichGlobalSnapshotParams(applyCeasefireGuardrails(
     normalizeParams(rawParams, previousSnapshot, today, warDay),
     heuristicCeasefire,
     previousSnapshot,
-  );
+  ));
   const updateSequence = Number(previousSnapshot?.updateSequence || 0) + 1;
 
   if (previousSnapshot?.lastNarrativeUpdate === today && Array.isArray(previousSnapshot.narratives)) {

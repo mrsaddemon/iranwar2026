@@ -43,23 +43,25 @@ export const NUCLEAR_EVENT_TYPES = [
 
 export function calculateNuclearDelta(action, actorId, globalState) {
   let delta = 0;
-  const { escalationLevel, dayCount } = globalState;
+  const { escalationLevel, dayCount, ceasefireStatus, globalPressure = 0 } = globalState;
+  const ceasefireActive = Boolean(ceasefireStatus?.active);
+  const activeCeasefire = ceasefireStatus?.status === 'active';
 
   // Offensive actions near high escalation increase risk
   if (['airstrike', 'missileStrike'].includes(action)) {
-    delta += 1.5 + Math.random() * 2;
+    delta += 0.55 + Math.random() * 0.95;
     // Proximity to nuclear facilities (probabilistic)
-    if (Math.random() < 0.08 + escalationLevel * 0.001) {
+    if (Math.random() < 0.035 + escalationLevel * 0.00045) {
       delta += ESCALATION_DRIVERS.facilityProximityStrike.weight * (0.3 + Math.random() * 0.7);
     }
     // Missile saturation at high strike rates
-    if (Math.random() < 0.12) {
-      delta += ESCALATION_DRIVERS.missileSaturation.weight * 0.4;
+    if (Math.random() < 0.055) {
+      delta += ESCALATION_DRIVERS.missileSaturation.weight * 0.2;
     }
   }
 
   if (action === 'droneOperation') {
-    delta += 0.5 + Math.random() * 1.0;
+    delta += 0.12 + Math.random() * 0.35;
   }
 
   if (action === 'strategicSignaling') {
@@ -73,24 +75,33 @@ export function calculateNuclearDelta(action, actorId, globalState) {
 
   // Diplomatic actions reduce risk
   if (action === 'diplomaticOutreach') {
-    delta += DEESCALATION_DRIVERS.diplomacySuccess.weight * (0.3 + Math.random() * 0.5);
+    delta += DEESCALATION_DRIVERS.diplomacySuccess.weight * (0.5 + Math.random() * 0.45);
   }
 
   if (action === 'defensivePosture') {
-    delta += DEESCALATION_DRIVERS.deescalationAction.weight * 0.3;
+    delta += DEESCALATION_DRIVERS.deescalationAction.weight * 0.45;
   }
 
   // Intelligence errors (rare but impactful)
-  if (Math.random() < 0.02 + escalationLevel * 0.0005) {
+  if (Math.random() < 0.008 + escalationLevel * 0.00016) {
     delta += ESCALATION_DRIVERS.intelligenceError.weight * (0.2 + Math.random() * 0.5);
   }
 
   // Time-based natural tension decay
-  delta -= 0.15;
+  delta -= 0.45 + Math.min(0.35, Math.max(0, dayCount - 10) * 0.006);
+
+  if (globalPressure > 70) {
+    delta -= 0.28;
+  }
+
+  if (ceasefireActive) {
+    delta *= activeCeasefire ? 0.28 : 0.52;
+    delta -= activeCeasefire ? 0.75 : 0.35;
+  }
 
   // Higher levels have more volatility
   if (escalationLevel > 60) {
-    delta *= 1.2;
+    delta *= 1.04;
   }
 
   return delta;
