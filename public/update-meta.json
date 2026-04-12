@@ -1,13 +1,13 @@
 {
-  "updateSequence": 110,
+  "updateSequence": 111,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T08:29:35.082Z",
+  "lastSyncedAt": "2026-04-12T09:02:10.369Z",
   "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect between the US and Iran, nor between Israel and Hezbollah."
+    "summary": "No ceasefire is currently active between the US and Iran, nor between Israel and Hezbollah, despite ongoing diplomatic efforts."
   }
 }
