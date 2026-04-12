@@ -1,13 +1,13 @@
 {
-  "updateSequence": 102,
-  "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T23:52:56.703Z",
-  "warDay": 43,
+  "updateSequence": 103,
+  "lastUpdated": "2026-04-12",
+  "lastSyncedAt": "2026-04-12T03:38:47.560Z",
+  "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with Israel rejecting a truce with Hezbollah and U.S.-Iran peace talks ongoing amidst military tensions."
+    "summary": "No active ceasefire is in effect between the primary belligerents, with talks failing and hostilities continuing."
   }
 }

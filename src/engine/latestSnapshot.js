@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 102,
-  "lastUpdated": "2026-04-11",
-  "lastSyncedAt": "2026-04-11T23:52:56.703Z",
-  "warDay": 43,
-  "summary": "High-level peace talks between the U.S. and Iran are underway in Pakistan amidst rising tensions in the Strait of Hormuz, where U.S. Navy ships are clearing mines, while Israel continues its conflict with Hezbollah and Hamas.",
-  "lastNarrativeUpdate": "2026-04-11",
+  "updateSequence": 103,
+  "lastUpdated": "2026-04-12",
+  "lastSyncedAt": "2026-04-12T03:38:47.560Z",
+  "warDay": 44,
+  "summary": "US-Iran talks in Pakistan concluded without a deal, while Israel continues strikes against Hezbollah amidst ongoing tensions in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with Israel rejecting a truce with Hezbollah and U.S.-Iran peace talks ongoing amidst military tensions."
+    "summary": "No active ceasefire is in effect between the primary belligerents, with talks failing and hostilities continuing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.5
+        "precision": 0.4,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 70,
-    "oilDisruption": 75
+    "nuclearIndex": 30,
+    "escalationLevel": 80,
+    "oilDisruption": 85
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -55,50 +55,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 11",
-      "text": "Iranian delegation arrives in Pakistan for high-level peace talks with the US.",
+      "date": "Apr 12",
+      "text": "Iranian Delegation Arrives at Peace Talks, With Vance en Route to Pakistan for discussions with the US.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 102
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 103
     },
     {
-      "date": "Apr 11",
-      "text": "US Navy warships cross the Strait of Hormuz to clear mines, with the US military 'setting conditions'.",
+      "date": "Apr 12",
+      "text": "Vance states no deal was reached after 21 hours of direct talks between U.S. and Iranian officials in Pakistan.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 102
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNM3BjbS0wbVNsakpHdDNKSDU3aGFWUFg4akhreGM0RVR4MHlneFlhM3kyWllUeWtnZXA2aERjRGZQZlluQlJBMHQ1ZnZGNE9BMER2Wmo2OV9tZW5NNHhHVmk0bHNoZTc5UWhLQlJnMGFxRlptQ0lQd2FEckV3SWhuYjlRZEJHWlQxWTczYnFkSjhGQnZlckMw0gGcAUFVX3lxTE9DVHRIbV92d1JUV1RLRU80S0hRYjREMkhnWkVmYUFub3BXRGwxb3lMdjhJdWxDZ0V6cHVrYnRENHpKWlAxYzdxMDVNZzN0Mk4tZUs3cFVfRW5LMC1OT0ktcE94T3RwaEszSGR0VHB0MlB4bW4yYk5kUk1pTUF5R2tiODFkX0I1cTRMYVc2UXZQQTUtRGhyWmpHTDdNeQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 103
     },
     {
-      "date": "Apr 11",
-      "text": "Israel rejects a ceasefire with Hezbollah, citing plans to invade Galilee, and insists on dealing with Hamas.",
+      "date": "Apr 12",
+      "text": "Israel agrees to talks with Lebanon but continues striking Hezbollah, with Beirut trying to heal after deadly attacks.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 102
+      "latestSinceUpdate": 103
     },
     {
-      "date": "Apr 11",
-      "text": "Trump warns of fresh strikes if Iran talks fail and claims U.S. 'victory' in the Iran war.",
+      "date": "Apr 12",
+      "text": "U.S. Navy warships cross the Strait of Hormuz to clear mines, amidst heightened tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQRHpKdTgxUlVlakFwSXFXN2dPVkZ2dkJtS3JJQWwxT1VGcmJOVTNJeVBWUUNxcFEwTV9jX05SRFZGemJwV1lPS1QwZ0RMYzN6Sms0Z01CeXpYSHpGejdwRDNVcjJ4d1Y5UUlIeVVLdVJkUV94dy14R3hRQ1V5cExBeUd3SDB6NGVNX1BnNk9fU2MwY2lCaV83T0pPWkt2R1c3Zk1lWUZMbXZrYWhqQnhvOGxPemxaa2Q0eHo5blhfcERFUG9JMVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 102
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 103
     },
     {
-      "date": "Apr 11",
-      "text": "Automatic U.S. military draft registration is planned by December.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOSkVJdkxDZWh5Mk5pQTItWEoyVThuZk1MbzhKQ080Zld5Qjc5VFl1QjRDZ0owVDFRazBCZ3BrbzY5QnlXVXUxNHRHb1JrMVZacU52TGxWZGtGT21ObThNSTNNTVEtRTh4blhEd1dtTTZNYzM0T2tvdzVwelk5bWFsV2RncWxxamd3Y25B0gGQAUFVX3lxTE9BRzRiVHJZdUZFaUswbEtQVUE1Qzd0VWs0amZHMmZCSkhuY01QRE10YUh6MklySDZJY3VZamgtNlEwaHZ3U3JhOERyMmZWeVJBWFUwb0NnZGVuZ2dTdDNRejNBal80RU1mY0t2aW5iWUFvQkpIVThCLWFtYXNEVnBuWk9sbUlETW9FcVN5a1RHSA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 102
+      "date": "Apr 12",
+      "text": "Iran threatens U.S. warships in the Strait of Hormuz, calling it 'the last warning' after they 'throw down the gauntlet'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNNkdJVnpXa1phTS1YU25xS3RmVFowU2lCaDVwcmhlTlY0akNRUE1mOG1INU5UbFpPWFB3NXNqdUZUeEw2bGptaGZzcFNOWlZ1UWQyUGRjMzA1Rm9lZjB0LVd6bXQ2dG93YmFtMXU4NXV3OXJxbWh1YnZiMzVwUi03cXlEdUtzMWRQVzdjNjZuczVFaFVYajFacFpaaThNZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 103
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -127,32 +127,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Diplomacy & Pressure",
-      "headline": "US pushes for negotiation while maintaining military readiness.",
-      "summary": "The US, through envoy Vance, is actively engaged in peace talks with Iran, while President Trump warns Iran against failing negotiations and highlights US military readiness. Trump also criticizes Iran's actions regarding the Strait of Hormuz.",
-      "tone": "strained",
-      "latestSinceUpdate": 64
-    },
-    {
-      "perspective": "Iranian Stance",
-      "headline": "Iran engages in talks amidst Strait of Hormuz closure and ceasefire tests.",
-      "summary": "An Iranian delegation is participating in peace talks, but the Strait of Hormuz remains closed or has low traffic, and Iran is reported to be testing the ceasefire. Iran is also reportedly unable to find mines it planted in the Strait.",
+      "perspective": "United States",
+      "headline": "Trump's Firm Stance on Iran Negotiations",
+      "summary": "President Trump maintains a strong military presence near Iran, warning of further strikes if negotiations fail and asserting readiness for future conquests. He emphasizes that the military will remain until a 'real agreement' is honored.",
       "tone": "defiant",
-      "latestSinceUpdate": 64
+      "latestSinceUpdate": 103
     },
     {
-      "perspective": "Israeli-Lebanese Front",
-      "headline": "Continued conflict in Lebanon despite ongoing talks.",
-      "summary": "Israel and Lebanon have agreed to meet for talks, but Israel states there is no ceasefire in Lebanon, and both sides continue to trade strikes, further threatening any broader de-escalation.",
-      "tone": "anxious",
-      "latestSinceUpdate": 64
+      "perspective": "Iran",
+      "headline": "Diplomacy Amidst Strait of Hormuz Threats",
+      "summary": "Iran engaged in direct talks with the U.S. in Pakistan but also issued stern warnings to American warships in the Strait of Hormuz, signaling a dual approach of negotiation and deterrence. The delegation arrived for talks, but no agreement was reached.",
+      "tone": "strained",
+      "latestSinceUpdate": 103
     },
     {
-      "perspective": "US Military Internal",
-      "headline": "Disquiet and unpreparedness claims within US military.",
-      "summary": "Survivors of a deadly attack on a US military outpost in Kuwait dispute the Pentagon's account, claiming the unit was unprepared, contributing to growing disquiet within the military.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 64
+      "perspective": "Israel",
+      "headline": "Continued Offensive Against Hezbollah",
+      "summary": "Israel continues its military operations against Hezbollah, rejecting ceasefire calls and asserting its intent to counter perceived threats from the group and Hamas. Netanyahu insists Israel 'will deal with' Hamas and Hezbollah's plans to invade Galilee.",
+      "tone": "defiant",
+      "latestSinceUpdate": 103
     }
   ]
 });
