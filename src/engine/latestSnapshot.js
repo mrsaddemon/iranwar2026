@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 130,
+  "updateSequence": 131,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T23:20:19.345Z",
+  "lastSyncedAt": "2026-04-12T23:55:22.384Z",
   "warDay": 44,
-  "summary": "Peace talks between the US and Iran have collapsed, leading to a US order for a naval blockade of Iranian ports and the Strait of Hormuz, while Israel and Hezbollah continue conflict ahead of separate talks.",
+  "summary": "US-Iran peace talks have failed, leading to a US threat to blockade the Strait of Hormuz, while Israel continues its conflict in Lebanon and rejects a ceasefire with Hezbollah.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.55,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have collapsed, leading to an immediate escalation, while no ceasefire is in effect between Israel and Hezbollah."
+    "summary": "Peace talks between the US and Iran have failed, leading to a US threat of a naval blockade, while Israel continues its conflict in Lebanon and rejects a ceasefire with Hezbollah."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 40,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "US and Iran fail to agree on a peace deal after 21 hours of talks in Pakistan.",
+      "text": "US and Iran fail to agree on a peace deal after 21 hours of talks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNUlo0OU1tNnQ3ZWFaRi1BVUh1Tk5oU1VydlFONUNaN2tnYjl5OGIzODRQT2syck1JajJsZEpkcXNmUUhJN1BYRm9XMEdGeVVLNldmWlBSOU4weUVVdmZSb0RUVlpMX2VEZHRWaFdtWmhVMnZ2U1J5RmVMQkkzUFZGN0VxWDlIYjhPamtYMEdrUHVFMHBNbFd4X1NRbDNjQVIyZTJhRG1HeUIxNDM0elIxMTZLdW9vajhTcmdNalh3S1FVbHlJeXBZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 130
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 131
     },
     {
       "date": "Apr 12",
-      "text": "President Trump announces the US will blockade the Strait of Hormuz and Iranian ports following the collapse of peace talks.",
+      "text": "Trump says US will blockade Strait of Hormuz after Iran talks end without deal.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNS2hsNmdISmJxSGk4RjVtb0ZoTE4zT2lrcmh0NEpQbEVOSW1rNGRCMlk3X3hOVko0bHk0d2lIaVduLWNWRWtFZGItZGFaN0YyRE1tVWNuTFFBUTJzQWVMT0tWRTY1aGxnUXJid1lUbTVaTGdjN3NEQ19CbExPMGFfeVlxU243VEFWS0lucm5wX04xUGl4enRaVzBmRXUyLWZQNkNOVERLUEljWWhvTy1GS2pKdGgxd00yWHNldWtn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 130
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 131
     },
     {
       "date": "Apr 12",
-      "text": "The U.S. military confirms a naval blockade around Iran will begin tomorrow, Monday.",
+      "text": "US military says blockade of Iran's ports to begin Monday.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxOZWEyVHFmdUR6cDAxWjVJMTNlYmVfQ1NIUURtbkpjNGFWZlJCWDh6T1NBZzhiTF9SUzFvT3RmMFNEQWhHRWhrQm9KZlRBVmJ2YUZCOGZ5UFFKVGRNVDgtdlU3dXRhOFRIWFdvM1dqS3Vyc0NhejBnYmw2THY1UUpfTXcyMF94VmxVUlp0SkFaWWRIV3ppVkdSNFJ5ZjhpSFctX19MNTA1QlU0ZHBfWDJQX3FSejhsOExDVWNJY2RhSDN5cVg2?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 130
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 131
     },
     {
       "date": "Apr 12",
-      "text": "Israel rejects a ceasefire with Hezbollah before Lebanon talks scheduled for next week.",
+      "text": "Iran insists Strait of Hormuz remains open and states it will not 'surrender'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 131
+    },
+    {
+      "date": "Apr 12",
+      "text": "UK states it 'won't be involved' in US blockade of Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 131
+    },
+    {
+      "date": "Apr 12",
+      "text": "Israel rejects ceasefire with Hezbollah before Lebanon talks next week.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 130
-    },
-    {
-      "date": "Apr 12",
-      "text": "Arab pressure reportedly reins in Hezbollah protests ahead of Israel-Lebanon talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQOUd2S1FKZVpObXVnQ3RfdlB4TXhzNHh4bmVwQXozRG80V0FTMzdKUU5wVnRzNkR0ODZiTGE1Nk1YM3h3S2ZxSGp4SFdHelFVQ0paWVdVNEVGV2RyMW5idTdxaWZ5dnU4cFgwZ0FlclJ3Q0tyUjROb2Zqck5mYTZiUkZzU2JvSHNHX3NKeE10VUtuNjZxX0xnWEJDNzJUTnBSRnl4bdIBqgFBVV95cUxOT2FmcEcwNVhWZ2dSYXp1WV8tU0F3M2hzanphYzVNY1dYVHl3QVM3YmZNeFhJbHRTTm96UzZtS3BTaVNFR25SM1ZUd295YjRmNjJaWjhMSzFfRG82Z0x2TUMyTmFVTjVKaktnMnZSVDlTT3lTSUpfaGlZX0FNeC1qaVF5LXhiRzRSNl90QW11aGt0U0ZoX0tUSkRlczBjNS1QamY5MWdUaXVIUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 130
+      "latestSinceUpdate": 131
     }
   ],
   "sourceStatuses": [

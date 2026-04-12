@@ -1,13 +1,13 @@
 {
-  "updateSequence": 130,
+  "updateSequence": 131,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T23:20:19.345Z",
+  "lastSyncedAt": "2026-04-12T23:55:22.384Z",
   "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.55,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have collapsed, leading to an immediate escalation, while no ceasefire is in effect between Israel and Hezbollah."
+    "summary": "Peace talks between the US and Iran have failed, leading to a US threat of a naval blockade, while Israel continues its conflict in Lebanon and rejects a ceasefire with Hezbollah."
   }
 }
