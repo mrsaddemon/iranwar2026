@@ -1,13 +1,13 @@
 {
-  "updateSequence": 104,
+  "updateSequence": 105,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T05:47:47.033Z",
+  "lastSyncedAt": "2026-04-12T06:03:09.522Z",
   "warDay": 44,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.55,
     "durationDays": 1,
-    "summary": "A fragile US-Iran ceasefire was reported for oil tankers in Hormuz, but peace talks failed, and military tensions remain high."
+    "summary": "A fragile US-Iran ceasefire appears to have collapsed following the failure of peace talks, and Israel continues to reject a ceasefire with Hezbollah."
   }
 }
