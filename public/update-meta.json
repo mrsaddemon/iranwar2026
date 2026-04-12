@@ -1,13 +1,13 @@
 {
-  "updateSequence": 112,
+  "updateSequence": 113,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T10:15:30.123Z",
+  "lastSyncedAt": "2026-04-12T09:53:57.991Z",
   "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran concluded without a deal, and Israel rejected a ceasefire with Hezbollah."
+    "summary": "No active ceasefire is in effect, as US-Iran talks concluded without a deal and Israel rejected a ceasefire with Hezbollah."
   }
 }
