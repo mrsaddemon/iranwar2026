@@ -36,6 +36,7 @@ const FLIGHT_FALLBACK_REGION = Object.freeze({
   lomin: 24,
   lomax: 72,
 });
+const MAX_FALLBACK_FLIGHTS = 72;
 const CEASEFIRE_POSITIVE_PATTERNS = [
   /\bceasefire\b/gi,
   /\btruce\b/gi,
@@ -528,7 +529,7 @@ async function fetchOpenSkyFlightFallback() {
       })
       .filter(Boolean)
       .sort((a, b) => (a.onGround === b.onGround ? ((a.lastContactAgeSec ?? 999999) - (b.lastContactAgeSec ?? 999999)) : (a.onGround ? 1 : -1)))
-      .slice(0, 120);
+      .slice(0, MAX_FALLBACK_FLIGHTS);
 
     console.log(`OpenSky fallback snapshot: ${flights.length} flights`);
     return {

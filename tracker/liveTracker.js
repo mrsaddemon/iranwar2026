@@ -475,7 +475,7 @@ async function fetchShipSnapshot(config) {
     let settled = false;
     const timeoutId = setTimeout(() => {
       finalize();
-    }, 10000);
+    }, 14000);
 
     function cleanup() {
       clearTimeout(timeoutId);
