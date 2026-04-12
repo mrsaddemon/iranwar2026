@@ -9,7 +9,7 @@ import WarConclusion from './components/WarConclusion.jsx';
 import { createSimulationState, simulateTick, applyPlayerAction, resolvePendingNuclearStrike } from './engine/SimulationEngine.js';
 
 const TICK_INTERVALS = { 1: 1000, 5: 200, 20: 50 };
-const TRACKER_POLL_INTERVAL_MS = 5000;
+const TRACKER_POLL_INTERVAL_MS = 2500;
 const TRACKER_TRAIL_LIMIT = 6;
 const TRACKER_STORAGE_KEY = 'war-sim-tracker-cache-v1';
 const TRACKER_ENTITY_GRACE_MS = 3 * 60 * 1000;

@@ -85,7 +85,7 @@ function createViewportProjection(width, height, padding = { x: 24, y: 14 }) {
 
 function getTrackerInterpolationWindowMs(entity) {
   const stale = Boolean(entity?.stale);
-  return stale ? 12000 : 5000;
+  return stale ? 8000 : 2500;
 }
 
 function advanceCoordinates(lat, lon, headingDeg, speedKnots, seconds) {
@@ -171,7 +171,7 @@ function getInterpolatedCoordinates(entity, now) {
         lon: previousLon + ((lon - previousLon) * progress),
       };
 
-  const extrapolatedSeconds = Math.min(entity?.stale ? 45 : 30, Math.max(0, elapsedMs - interpolationWindowMs) / 1000);
+  const extrapolatedSeconds = Math.min(entity?.stale ? 20 : 10, Math.max(0, elapsedMs - interpolationWindowMs) / 1000);
   return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
 }
 
