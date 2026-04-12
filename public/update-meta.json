@@ -1,13 +1,13 @@
 {
-  "updateSequence": 119,
+  "updateSequence": 120,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T15:08:36.835Z",
+  "lastSyncedAt": "2026-04-12T15:54:13.338Z",
   "warDay": 44,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.98,
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.55,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Peace talks between the US and Iran have failed, and Israel has rejected a ceasefire with Hezbollah, indicating no active ceasefire."
   }
 }
