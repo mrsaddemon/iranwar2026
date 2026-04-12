@@ -1,49 +1,49 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 108,
+  "updateSequence": 109,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T08:16:51.523Z",
+  "lastSyncedAt": "2026-04-12T08:20:30.592Z",
   "warDay": 44,
-  "summary": "US-Iran talks in Pakistan concluded without a deal, while military tensions escalate in the Strait of Hormuz and Israel continues strikes against Hezbollah in Lebanon.",
+  "summary": "Marathon US-Iran peace talks in Pakistan concluded without a deal, while military tensions persist in the Strait of Hormuz and Israel continues strikes against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Despite ongoing US-Iran talks, no ceasefire agreement has been reached, and Israel has explicitly rejected a ceasefire with Hezbollah."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
+    "nuclearIndex": 30,
+    "escalationLevel": 85,
     "oilDisruption": 90
   },
   "alliance": {
@@ -56,51 +56,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "Iran war live: Vance says no deal reached after US made ‘best, final offer’",
-      "severity": "info",
+      "text": "Vance says no deal reached after US made ‘best, final offer’ in talks with Iranian and Pakistani officials.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 108
+      "latestSinceUpdate": 109
     },
     {
       "date": "Apr 12",
-      "text": "Iran war updates: Trump says US in ‘very deep’ negotiations with Tehran",
+      "text": "Trump states the US is in ‘very deep’ negotiations with Tehran, despite Vance's announcement of no deal.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQMDd0YXBWUGstdXpJX29WOTlwdktJMjMyNE4zSDRpc0dmN2c0ZS1ySlpFSENCRVRtUjJFazlXQkNpTnYwVlU1YXA5ZUs4d2VvM2ZtTjZrZXpybXUzWHl4SjNFdk1iOC11SUpzOXQ1cE5sdDRIOHM2Y1RpMVNSQVlfeTFrdDAwMllGNWYzakdYYjFPSmJZUXRGRmZQdE1IYTE1NjNqR0Q2R1Z1Tm9CWWY0S0lKVldYMGlCT2V1YWp6QnMxQdIBxwFBVV95cUxOc1NOZS1PdDVNU3MxaU03MkgydnNYRmhSNE9Qd1Vxc3ZHakR3eUNFZG53MHl1dGNCb0dGQkltR1N0RFFZejUyc1o4cng1OTBaNmRjX1RwbUhrQWhZOEdiZ2MyRmRWclh1THdOMkw2WU9aaUM4WWREV2ZkOUt0endTc0wtdlBWaU9uRm9sWmN5SFlJWjliU2wycmtDMkFZbnY1dmZ6YjF3NFh0aEoxU0pKZTNleVdidVpZYzE2eE5jTl9WWnVpREJ3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 108
+      "latestSinceUpdate": 109
     },
     {
       "date": "Apr 12",
-      "text": "Day 43 of Middle East conflict — Marathon US-Iran talks in Pakistan",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5wTDVrcXZzejVCLUZGT2c2Z2M1SE9XYzJTWjlmbFNJa09mX2pJRndkTVU5cE84TmxQM3ZQTmpvQXBIcFBtYkNIcVg4SVJNTzZhRUdudEw3TDZ4TTZTYWljZDFCeUdnV3Q5bWtfcGsyUWs1dw?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran threatens U.S. warships with a 'last warning' regarding the Strait of Hormuz, asserting control.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNNkdJVnpXa1phTS1YU25xS3RmVFowU2lCaDVwcmhlTlY0akNRUE1mOG1INU5UbFpPWFB3NXNqdUZUeEw2bGptaGZzcFNOWlZ1UWQyUGRjMzA1Rm9lZjB0LVd6bXQ2dG93YmFtMXU4NXV3OXJxbWh1YnZiMzVwUi03cXlEdUtzMWRQVzdjNjZuczVFaFVYajFacFpaaThNZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 109
+    },
+    {
+      "date": "Apr 12",
+      "text": "Reports indicate Africans are feeling economic strain from the closure of the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxNWTNoVDBLUzZrb3dTeWV0WW1oVFFYMjVwc1RCbEh4R3dTQzQ0TkFURlZDVHNLVnNaZnFJT3dOV2hiS0dNemN1dVNsVVJnaHpWTmUtaXJUUmtMbHBYMU4yZmFZVGxORnBRV3pRdnVqM2JZdHZXelRKc2dFd1VHcmc0Q3pUQU9uTkxpZEk0RHY4WnEwNk1PNmgyUEg4bk43NDFzX2tqZTJIcjhMY1JWMXMySWJZbzUwLXJLdk4zZHpnUlZTWjhtdmJuN1h6TjFHTWNlU0c5OTNn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 108
+      "latestSinceUpdate": 109
     },
     {
       "date": "Apr 12",
-      "text": "Pope Leo says 'delusion of omnipotence' is fueling U.S.-Israeli war in Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxORlJ1enM1MG1MTDlHY1cxdkhJZnlJMkJVUXNpUUlDUWttQ0hEaHF4QWVxVEc0Y1Y2TjlkSUtYRWIwLWNfMFFwcWNQb0VxY1BqQU01SWVZdTRQaFVoQVdDZDN4TzlNVkhheHJkaHdYYnJYV1otWFFjU3RsYU1TVGxIRmplM0pQZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 108
+      "text": "US military is 'setting conditions' to clear mines from the Strait of Hormuz amid ongoing tensions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 109
     },
     {
       "date": "Apr 12",
-      "text": "Iranian Delegation Arrives at Peace Talks, With Vance en Route",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 108
-    },
-    {
-      "date": "Apr 12",
-      "text": "Iran war updates: Iranian delegation arrives in Pakistan for talks with US",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
+      "text": "Israel rejects a ceasefire with Hezbollah, stating it will not agree before Lebanon talks next week.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 108
+      "latestSinceUpdate": 109
     }
   ],
   "sourceStatuses": [
