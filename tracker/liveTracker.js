@@ -61,9 +61,10 @@ let trackerSnapshotCache = {
 const SHIP_CACHE_TTL_MS = 5 * 60 * 1000;
 const FLIGHT_CACHE_TTL_MS = 90 * 60 * 1000;
 const TRACKER_SNAPSHOT_TTL_MS = 5 * 60 * 1000;
+const TRACKER_ERROR_SNAPSHOT_TTL_MS = 30 * 1000;
 const MAX_GLOBAL_FLIGHTS = 180;
-const MAX_GLOBAL_SHIPS = 72;
-const MAX_PRIORITY_SHIPS = 28;
+const MAX_GLOBAL_SHIPS = 96;
+const MAX_PRIORITY_SHIPS = 36;
 const MILITARY_FLIGHT_PREFIXES = [
   'RCH', 'REACH', 'CFC', 'CNV', 'PAT', 'DUKE', 'RRR', 'MC', 'VM', 'HAF', 'IAF', 'IAM', 'QID', 'ASY', 'NAF', 'HKY',
 ];
@@ -630,13 +631,22 @@ export async function getTrackerSnapshot(env = {}, options = {}) {
   const fetchFlights = options.fetchFlights !== false;
   const fetchShips = options.fetchShips !== false;
   const cacheKey = `air:${fetchFlights ? 1 : 0}|sea:${fetchShips ? 1 : 0}`;
+  const currentSnapshot = trackerSnapshotCache.snapshot;
+  const currentAge = Date.now() - trackerSnapshotCache.generatedAt;
+  const flightStatusText = String(currentSnapshot?.sourceStatus?.flights || '').toLowerCase();
+  const shipStatusText = String(currentSnapshot?.sourceStatus?.ships || '').toLowerCase();
+  const hasTrackerFailure = (
+    (fetchFlights && currentSnapshot && (!currentSnapshot.flights?.length) && (flightStatusText.includes('unavailable') || flightStatusText.includes('throttled') || flightStatusText.includes('retrying')))
+    || (fetchShips && currentSnapshot && (!currentSnapshot.ships?.length) && shipStatusText.includes('failed'))
+  );
+  const snapshotTtl = hasTrackerFailure ? TRACKER_ERROR_SNAPSHOT_TTL_MS : TRACKER_SNAPSHOT_TTL_MS;
 
   if (
-    trackerSnapshotCache.snapshot
+    currentSnapshot
     && trackerSnapshotCache.key === cacheKey
-    && (Date.now() - trackerSnapshotCache.generatedAt) <= TRACKER_SNAPSHOT_TTL_MS
+    && currentAge <= snapshotTtl
   ) {
-    return trackerSnapshotCache.snapshot;
+    return currentSnapshot;
   }
 
   const config = getTrackerConfig(env);
