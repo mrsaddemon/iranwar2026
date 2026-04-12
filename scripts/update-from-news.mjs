@@ -36,7 +36,7 @@ const FLIGHT_FALLBACK_REGION = Object.freeze({
   lomin: 24,
   lomax: 72,
 });
-const MAX_FALLBACK_FLIGHTS = 72;
+const MAX_FALLBACK_FLIGHTS = 56;
 const CEASEFIRE_POSITIVE_PATTERNS = [
   /\bceasefire\b/gi,
   /\btruce\b/gi,

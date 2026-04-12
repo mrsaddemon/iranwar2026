@@ -85,7 +85,9 @@ function createViewportProjection(width, height, padding = { x: 24, y: 14 }) {
 
 function getTrackerInterpolationWindowMs(entity) {
   const stale = Boolean(entity?.stale);
-  return stale ? 8000 : 2500;
+  const isFlight = entity?.trackerKind === 'flight';
+  if (stale) return isFlight ? 5000 : 8000;
+  return isFlight ? 1600 : 2200;
 }
 
 function advanceCoordinates(lat, lon, headingDeg, speedKnots, seconds) {
@@ -171,7 +173,11 @@ function getInterpolatedCoordinates(entity, now) {
         lon: previousLon + ((lon - previousLon) * progress),
       };
 
-  const extrapolatedSeconds = Math.min(entity?.stale ? 20 : 10, Math.max(0, elapsedMs - interpolationWindowMs) / 1000);
+  const isFlight = entity?.trackerKind === 'flight';
+  const extrapolatedSeconds = Math.min(
+    entity?.stale ? (isFlight ? 12 : 20) : (isFlight ? 6 : 10),
+    Math.max(0, elapsedMs - interpolationWindowMs) / 1000,
+  );
   return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
 }
 

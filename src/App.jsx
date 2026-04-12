@@ -9,7 +9,7 @@ import WarConclusion from './components/WarConclusion.jsx';
 import { createSimulationState, simulateTick, applyPlayerAction, resolvePendingNuclearStrike } from './engine/SimulationEngine.js';
 
 const TICK_INTERVALS = { 1: 1000, 5: 200, 20: 50 };
-const TRACKER_POLL_INTERVAL_MS = 2500;
+const TRACKER_POLL_INTERVAL_MS = 2000;
 const TRACKER_TRAIL_LIMIT = 6;
 const TRACKER_STORAGE_KEY = 'war-sim-tracker-cache-v1';
 const TRACKER_ENTITY_GRACE_MS = 3 * 60 * 1000;
@@ -147,15 +147,43 @@ function getRenderedTrackerPosition(entity, now) {
   return advanceCoordinates(basePoint.lat, basePoint.lon, entity.heading, entity.speedKnots, extrapolatedSeconds);
 }
 
-function mergeTrackerEntities(previousEntities, nextEntities, fetchedAt) {
+function headingToLatLonVector(headingDeg) {
+  if (!Number.isFinite(headingDeg)) return null;
+  const radians = (headingDeg * Math.PI) / 180;
+  return {
+    lat: Math.cos(radians),
+    lon: Math.sin(radians),
+  };
+}
+
+function shouldHoldForwardMotion(previousRendered, nextEntity, kind) {
+  if (kind !== 'flight' || !previousRendered) return false;
+  if (!Number.isFinite(nextEntity?.lat) || !Number.isFinite(nextEntity?.lon)) return false;
+
+  const headingVector = headingToLatLonVector(nextEntity?.heading);
+  if (!headingVector) return false;
+
+  const deltaLat = nextEntity.lat - previousRendered.lat;
+  const deltaLon = nextEntity.lon - previousRendered.lon;
+  const distance = Math.hypot(deltaLat, deltaLon);
+  if (distance < 0.002) return false;
+
+  const dot = (deltaLat * headingVector.lat) + (deltaLon * headingVector.lon);
+  return dot < -0.0015;
+}
+
+function mergeTrackerEntities(previousEntities, nextEntities, fetchedAt, kind = 'generic') {
   const previousById = new Map((previousEntities || []).map((entity) => [entity.id, entity]));
   const merged = (nextEntities || []).map((entity) => {
     const previous = previousById.get(entity.id);
     const renderedPrevious = getRenderedTrackerPosition(previous, fetchedAt);
-    const previousLat = renderedPrevious?.lat ?? previous?.lat ?? entity.lat;
-    const previousLon = renderedPrevious?.lon ?? previous?.lon ?? entity.lon;
+    const holdForwardMotion = shouldHoldForwardMotion(renderedPrevious, entity, kind);
+    const effectiveLat = holdForwardMotion ? renderedPrevious?.lat ?? entity.lat : entity.lat;
+    const effectiveLon = holdForwardMotion ? renderedPrevious?.lon ?? entity.lon : entity.lon;
+    const previousLat = renderedPrevious?.lat ?? previous?.lat ?? effectiveLat;
+    const previousLon = renderedPrevious?.lon ?? previous?.lon ?? effectiveLon;
     const positionChanged = previous && Number.isFinite(previous.lat) && Number.isFinite(previous.lon)
-      && (previous.lat !== entity.lat || previous.lon !== entity.lon);
+      && (previous.lat !== effectiveLat || previous.lon !== effectiveLon);
 
     const history = positionChanged
       ? [
@@ -170,6 +198,9 @@ function mergeTrackerEntities(previousEntities, nextEntities, fetchedAt) {
 
     return {
       ...entity,
+      trackerKind: kind,
+      lat: effectiveLat,
+      lon: effectiveLon,
       previousLat,
       previousLon,
       previousObservedAt: previous?.observedAt || fetchedAt,
@@ -361,8 +392,8 @@ export default function App() {
           const nextSnapshot = {
             generatedAt: data.generatedAt || null,
             fetchedAt,
-            flights: mergeTrackerEntities(previous?.flights, resolvedFlights, fetchedAt),
-            ships: mergeTrackerEntities(previous?.ships, resolvedShips, fetchedAt),
+            flights: mergeTrackerEntities(previous?.flights, resolvedFlights, fetchedAt, 'flight'),
+            ships: mergeTrackerEntities(previous?.ships, resolvedShips, fetchedAt, 'ship'),
             sourceStatus: data.sourceStatus || {},
           };
           if (nextSnapshot.flights.length > 0 || nextSnapshot.ships.length > 0) {

@@ -60,9 +60,9 @@ let trackerSnapshotCache = {
 
 const SHIP_CACHE_TTL_MS = 5 * 60 * 1000;
 const FLIGHT_CACHE_TTL_MS = 90 * 60 * 1000;
-const TRACKER_SNAPSHOT_TTL_MS = 12 * 1000;
-const TRACKER_ERROR_SNAPSHOT_TTL_MS = 8 * 1000;
-const MAX_GLOBAL_FLIGHTS = 72;
+const TRACKER_SNAPSHOT_TTL_MS = 4 * 1000;
+const TRACKER_ERROR_SNAPSHOT_TTL_MS = 4 * 1000;
+const MAX_GLOBAL_FLIGHTS = 56;
 const MAX_GLOBAL_SHIPS = 120;
 const MAX_PRIORITY_SHIPS = 42;
 const MILITARY_FLIGHT_PREFIXES = [
@@ -475,7 +475,7 @@ async function fetchShipSnapshot(config) {
     let settled = false;
     const timeoutId = setTimeout(() => {
       finalize();
-    }, 14000);
+    }, 18000);
 
     function cleanup() {
       clearTimeout(timeoutId);
