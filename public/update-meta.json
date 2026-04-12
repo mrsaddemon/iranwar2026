@@ -1,13 +1,13 @@
 {
-  "updateSequence": 125,
+  "updateSequence": 126,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T20:02:25.782Z",
+  "lastSyncedAt": "2026-04-12T20:48:38.579Z",
   "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.14,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Peace talks between the US and Iran have failed, and Israel has rejected a ceasefire with Hezbollah before upcoming talks with Lebanon."
   }
 }
