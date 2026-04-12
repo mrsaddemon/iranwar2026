@@ -28,6 +28,12 @@ const OPENSKY_CLIENT_SECRET = process.env.OPENSKY_CLIENT_SECRET || process.env.O
 const WAR_START_DATE = '2026-02-28';
 const UPDATE_META_PUBLIC_PATH = ['public', 'update-meta.json'];
 const TRACKER_FALLBACK_PUBLIC_PATH = ['public', 'tracker-fallback.json'];
+const ADSB_LOL_POINT_URL = 'https://api.adsb.lol/v2/point';
+const AIR_TRACKER_QUERY_POINTS = Object.freeze([
+  { name: 'Levant', lat: 33.5, lon: 35.5, dist: 260 },
+  { name: 'Persian Gulf', lat: 26, lon: 53.5, dist: 240 },
+  { name: 'Gulf of Oman', lat: 22, lon: 60.5, dist: 300 },
+]);
 const OPENSKY_TOKEN_URL = 'https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token';
 const OPENSKY_STATES_URL = 'https://opensky-network.org/api/states/all';
 const FLIGHT_FALLBACK_REGION = Object.freeze({
@@ -72,6 +78,13 @@ function calculateWarDay(dateInput) {
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
+}
+
+function isPointInFlightFallbackRegion(lat, lon) {
+  return lat >= FLIGHT_FALLBACK_REGION.lamin
+    && lat <= FLIGHT_FALLBACK_REGION.lamax
+    && lon >= FLIGHT_FALLBACK_REGION.lomin
+    && lon <= FLIGHT_FALLBACK_REGION.lomax;
 }
 
 function countPatternHits(text, patterns) {
@@ -440,6 +453,96 @@ function feetFromMeters(value) {
   return Math.round(value * 3.28084);
 }
 
+function buildAdsbFallbackFlight(record) {
+  const lat = Number(record?.lat);
+  const lon = Number(record?.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon) || !isPointInFlightFallbackRegion(lat, lon)) {
+    return null;
+  }
+
+  const callsign = String(record?.flight || '').trim() || String(record?.hex || 'UNKNOWN').toUpperCase();
+  return {
+    id: String(record?.hex || callsign || `${lat}-${lon}`),
+    callsign,
+    registration: record?.r || null,
+    aircraftType: record?.t || null,
+    originCountry: null,
+    lat: Math.round(lat * 10000) / 10000,
+    lon: Math.round(lon * 10000) / 10000,
+    altitudeFeet: Number.isFinite(record?.alt_geom) ? Math.round(record.alt_geom) : (Number.isFinite(record?.alt_baro) ? Math.round(record.alt_baro) : null),
+    speedKnots: Number.isFinite(record?.gs) ? Math.round(record.gs) : null,
+    heading: Number.isFinite(record?.track) ? Math.round(record.track) : (Number.isFinite(record?.true_heading) ? Math.round(record.true_heading) : null),
+    verticalRateMps: Number.isFinite(record?.geom_rate) ? Math.round(record.geom_rate * 10) / 10 : (Number.isFinite(record?.baro_rate) ? Math.round(record.baro_rate * 10) / 10 : null),
+    onGround: record?.alt_baro === 'ground' || Boolean(record?.gnd),
+    squawk: record?.squawk || null,
+    lastContactAgeSec: Number.isFinite(record?.seen) ? Math.max(0, Math.round(record.seen)) : null,
+    timePositionAgeSec: Number.isFinite(record?.seen_pos) ? Math.max(0, Math.round(record.seen_pos)) : null,
+  };
+}
+
+async function fetchAdsbLolFlightFallback() {
+  try {
+    const responses = await Promise.all(
+      AIR_TRACKER_QUERY_POINTS.map(async (point) => {
+        const response = await fetch(`${ADSB_LOL_POINT_URL}/${point.lat}/${point.lon}/${point.dist}`, {
+          signal: AbortSignal.timeout(SOURCE_TIMEOUT_MS),
+          headers: {
+            'user-agent': 'iran-war-sim-updater/1.0',
+            accept: 'application/json',
+          },
+        });
+        if (!response.ok) {
+          throw new Error(`adsb.lol ${point.name} ${response.status}`);
+        }
+        return response.json();
+      }),
+    );
+
+    const deduped = new Map();
+    for (const payload of responses) {
+      for (const record of payload?.ac || []) {
+        const flight = buildAdsbFallbackFlight(record);
+        if (!flight) continue;
+
+        const existing = deduped.get(flight.id);
+        if (!existing) {
+          deduped.set(flight.id, flight);
+          continue;
+        }
+
+        const existingAge = Math.min(existing.lastContactAgeSec ?? Number.POSITIVE_INFINITY, existing.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+        const nextAge = Math.min(flight.lastContactAgeSec ?? Number.POSITIVE_INFINITY, flight.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+        if (nextAge < existingAge) {
+          deduped.set(flight.id, flight);
+        }
+      }
+    }
+
+    const flights = Array.from(deduped.values())
+      .sort((a, b) => {
+        if (a.onGround !== b.onGround) return a.onGround ? 1 : -1;
+        const aAge = Math.min(a.lastContactAgeSec ?? Number.POSITIVE_INFINITY, a.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+        const bAge = Math.min(b.lastContactAgeSec ?? Number.POSITIVE_INFINITY, b.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+        return aAge - bAge;
+      })
+      .slice(0, MAX_FALLBACK_FLIGHTS);
+
+    console.log(`adsb.lol fallback snapshot: ${flights.length} flights`);
+    return {
+      generatedAt: new Date().toISOString(),
+      flights,
+      status: `adsb.lol ok (${flights.length})`,
+    };
+  } catch (error) {
+    console.warn(`adsb.lol fallback snapshot failed: ${error.message}`);
+    return {
+      generatedAt: new Date().toISOString(),
+      flights: [],
+      status: `failed (${error.message})`,
+    };
+  }
+}
+
 async function fetchOpenSkyFlightFallback() {
   if (!OPENSKY_CLIENT_ID || !OPENSKY_CLIENT_SECRET) {
     return {
@@ -545,6 +648,25 @@ async function fetchOpenSkyFlightFallback() {
       status: `failed (${error.message})`,
     };
   }
+}
+
+async function fetchAirTrackerFallback() {
+  const adsbFallback = await fetchAdsbLolFlightFallback();
+  if (Array.isArray(adsbFallback.flights) && adsbFallback.flights.length > 0) {
+    return adsbFallback;
+  }
+
+  const openskyFallback = await fetchOpenSkyFlightFallback();
+  if (Array.isArray(openskyFallback.flights) && openskyFallback.flights.length > 0) {
+    return {
+      ...openskyFallback,
+      status: `opensky fallback (${openskyFallback.flights.length})`,
+    };
+  }
+
+  return adsbFallback.status.startsWith('failed')
+    ? adsbFallback
+    : openskyFallback;
 }
 
 async function fetchGoogleNewsHeadlines() {
@@ -1684,7 +1806,7 @@ async function main() {
   const previousSnapshot = readExistingSnapshot();
   const sourceBundle = await gatherSourceBundle();
   const oilPrice = await fetchOilPrice();
-  const trackerFallback = await fetchOpenSkyFlightFallback();
+  const trackerFallback = await fetchAirTrackerFallback();
   const heuristicCeasefire = deriveCeasefireSignal(sourceBundle);
 
   console.log('\nSource status summary:');
@@ -1692,7 +1814,7 @@ async function main() {
     console.log(`- ${source.source}: ${source.status}`);
   }
   console.log(`- Oil market: ${oilPrice ? `ok ($${oilPrice})` : 'unavailable'}`);
-  console.log(`- OpenSky fallback: ${trackerFallback.status}`);
+  console.log(`- Air tracker fallback: ${trackerFallback.status}`);
   console.log(`- Ceasefire heuristic: ${heuristicCeasefire.status} (${heuristicCeasefire.confidence})`);
   
   console.log('Interpreting with Gemini...');

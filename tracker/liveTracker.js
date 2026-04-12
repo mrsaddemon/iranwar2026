@@ -24,6 +24,12 @@ const STRATEGIC_SHIP_PRIORITY_BOXES = Object.freeze([
   [[31, 29], [37.5, 37.8]], // Eastern Mediterranean / Cyprus / Levant
 ]);
 
+const ADSB_LOL_POINT_URL = 'https://api.adsb.lol/v2/point';
+const AIR_TRACKER_QUERY_POINTS = Object.freeze([
+  { name: 'Levant', lat: 33.5, lon: 35.5, dist: 260 },
+  { name: 'Persian Gulf', lat: 26, lon: 53.5, dist: 240 },
+  { name: 'Gulf of Oman', lat: 22, lon: 60.5, dist: 300 },
+]);
 const OPENSKY_TOKEN_URL = 'https://auth.opensky-network.org/auth/realms/opensky-network/protocol/openid-connect/token';
 const OPENSKY_STATES_URL = 'https://opensky-network.org/api/states/all';
 const AISSTREAM_WS_URL = 'wss://stream.aisstream.io/v0/stream';
@@ -59,7 +65,7 @@ let trackerSnapshotCache = {
 };
 
 const SHIP_CACHE_TTL_MS = 5 * 60 * 1000;
-const FLIGHT_CACHE_TTL_MS = 90 * 60 * 1000;
+const FLIGHT_CACHE_TTL_MS = 20 * 60 * 1000;
 const TRACKER_SNAPSHOT_TTL_MS = 4 * 1000;
 const TRACKER_ERROR_SNAPSHOT_TTL_MS = 4 * 1000;
 const MAX_GLOBAL_FLIGHTS = 56;
@@ -110,6 +116,13 @@ function normalizeToken(value) {
 function isPointInBox(lat, lon, box) {
   const [[minLat, minLon], [maxLat, maxLon]] = box;
   return lat >= minLat && lat <= maxLat && lon >= minLon && lon <= maxLon;
+}
+
+function isPointInTrackerRegion(lat, lon) {
+  return lat >= TRACKER_REGION.lamin
+    && lat <= TRACKER_REGION.lamax
+    && lon >= TRACKER_REGION.lomin
+    && lon <= TRACKER_REGION.lomax;
 }
 
 function isStrategicShip(item) {
@@ -203,7 +216,101 @@ async function getOpenSkyAccessToken(clientId, clientSecret) {
   return openskyTokenCache.accessToken;
 }
 
-async function fetchFlightSnapshot(config) {
+function buildAdsbFlightRecord(record) {
+  const lat = Number(record?.lat);
+  const lon = Number(record?.lon);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon) || !isPointInTrackerRegion(lat, lon)) {
+    return null;
+  }
+
+  const callsign = String(record?.flight || '').trim() || String(record?.hex || 'UNKNOWN').toUpperCase();
+  const military = classifyMilitaryFlight(callsign, '');
+
+  return {
+    id: String(record?.hex || callsign || `${lat}-${lon}`),
+    callsign,
+    registration: record?.r || null,
+    aircraftType: record?.t || null,
+    originCountry: null,
+    lat: round(lat, 4),
+    lon: round(lon, 4),
+    altitudeFeet: Number.isFinite(record?.alt_geom) ? Math.round(record.alt_geom) : (Number.isFinite(record?.alt_baro) ? Math.round(record.alt_baro) : null),
+    speedKnots: Number.isFinite(record?.gs) ? Math.round(record.gs) : null,
+    heading: round(record?.track ?? record?.true_heading ?? record?.nav_heading, 0),
+    verticalRateMps: round(record?.geom_rate ?? record?.baro_rate, 1),
+    onGround: record?.alt_baro === 'ground' || Boolean(record?.gnd),
+    squawk: record?.squawk || null,
+    lastContactAgeSec: Number.isFinite(record?.seen) ? Math.max(0, Math.round(record.seen)) : null,
+    timePositionAgeSec: Number.isFinite(record?.seen_pos) ? Math.max(0, Math.round(record.seen_pos)) : null,
+    militaryLikely: military.militaryLikely,
+    militaryReason: military.militaryReason,
+  };
+}
+
+async function fetchAdsbLolFlightSnapshot() {
+  const responses = await Promise.all(
+    AIR_TRACKER_QUERY_POINTS.map(async (point) => {
+      const url = `${ADSB_LOL_POINT_URL}/${point.lat}/${point.lon}/${point.dist}`;
+      const response = await fetch(url, {
+        headers: {
+          'user-agent': 'iran-war-sim-tracker/1.0',
+          accept: 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`adsb.lol ${point.name} failed (${response.status}).`);
+      }
+
+      return response.json();
+    }),
+  );
+
+  const deduped = new Map();
+  for (const payload of responses) {
+    for (const record of payload?.ac || []) {
+      const flight = buildAdsbFlightRecord(record);
+      if (!flight) continue;
+
+      const key = flight.id;
+      const existing = deduped.get(key);
+      if (!existing) {
+        deduped.set(key, flight);
+        continue;
+      }
+
+      const existingAge = Math.min(existing.lastContactAgeSec ?? Number.POSITIVE_INFINITY, existing.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+      const nextAge = Math.min(flight.lastContactAgeSec ?? Number.POSITIVE_INFINITY, flight.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+      if (nextAge < existingAge) {
+        deduped.set(key, flight);
+      }
+    }
+  }
+
+  const flights = Array.from(deduped.values())
+    .sort((a, b) => {
+      if (a.onGround !== b.onGround) return a.onGround ? 1 : -1;
+      const aAge = Math.min(a.lastContactAgeSec ?? Number.POSITIVE_INFINITY, a.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+      const bAge = Math.min(b.lastContactAgeSec ?? Number.POSITIVE_INFINITY, b.timePositionAgeSec ?? Number.POSITIVE_INFINITY);
+      return aAge - bAge;
+    });
+
+  const result = clampCount(flights, MAX_GLOBAL_FLIGHTS);
+  if (result.length > 0) {
+    flightSnapshotCache = {
+      flights: result,
+      generatedAt: Date.now(),
+    };
+    flightFetchMeta = {
+      status: 'adsb.lol live',
+      usedCache: false,
+    };
+  }
+
+  return result;
+}
+
+async function fetchOpenSkyFlightSnapshot(config) {
   const now = Date.now();
   if (openskyRateLimitCache.limitedUntil > now) {
     if (flightSnapshotCache.flights.length > 0 && (now - flightSnapshotCache.generatedAt) <= FLIGHT_CACHE_TTL_MS) {
@@ -392,6 +499,44 @@ async function fetchFlightSnapshot(config) {
     usedCache: false,
   };
   return result;
+}
+
+async function fetchFlightSnapshot(config) {
+  let primaryError = null;
+  try {
+    const flights = await fetchAdsbLolFlightSnapshot();
+    if (flights.length > 0) {
+      return flights;
+    }
+    primaryError = new Error('adsb.lol returned no flights in theater.');
+  } catch (error) {
+    primaryError = error;
+  }
+
+  if (config.openskyClientId && config.openskyClientSecret) {
+    try {
+      const flights = await fetchOpenSkyFlightSnapshot(config);
+      if (flights.length > 0) {
+        return flights;
+      }
+    } catch (error) {
+      primaryError = error;
+    }
+  }
+
+  if (flightSnapshotCache.flights.length > 0 && (Date.now() - flightSnapshotCache.generatedAt) <= FLIGHT_CACHE_TTL_MS) {
+    flightFetchMeta = {
+      status: 'stale cache',
+      usedCache: true,
+    };
+    return flightSnapshotCache.flights;
+  }
+
+  flightFetchMeta = {
+    status: 'temporarily unavailable',
+    usedCache: false,
+  };
+  throw primaryError || new Error('Air tracker temporarily unavailable.');
 }
 
 function getAisSocketFactory() {
