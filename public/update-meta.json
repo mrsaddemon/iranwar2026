@@ -1,13 +1,13 @@
 {
-  "updateSequence": 103,
+  "updateSequence": 104,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T03:38:47.560Z",
+  "lastSyncedAt": "2026-04-12T05:47:47.033Z",
   "warDay": 44,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.14,
-    "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, with talks failing and hostilities continuing."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 1,
+    "summary": "A fragile US-Iran ceasefire was reported for oil tankers in Hormuz, but peace talks failed, and military tensions remain high."
   }
 }

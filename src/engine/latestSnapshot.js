@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 103,
+  "updateSequence": 104,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T03:38:47.560Z",
+  "lastSyncedAt": "2026-04-12T05:47:47.033Z",
   "warDay": 44,
-  "summary": "US-Iran talks in Pakistan concluded without a deal, while Israel continues strikes against Hezbollah amidst ongoing tensions in the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.14,
-    "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, with talks failing and hostilities continuing."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 1,
+    "summary": "A fragile US-Iran ceasefire was reported for oil tankers in Hormuz, but peace talks failed, and military tensions remain high."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
@@ -36,15 +36,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 80,
-    "oilDisruption": 85
+    "nuclearIndex": 68,
+    "escalationLevel": 48,
+    "oilDisruption": 90
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,49 +56,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "Iranian Delegation Arrives at Peace Talks, With Vance en Route to Pakistan for discussions with the US.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 103
+      "text": "US-Iran peace talks ended after 21 hours without a deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 104
     },
     {
       "date": "Apr 12",
-      "text": "Vance states no deal was reached after 21 hours of direct talks between U.S. and Iranian officials in Pakistan.",
+      "text": "US naval destroyers crossed the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNM3BjbS0wbVNsakpHdDNKSDU3aGFWUFg4akhreGM0RVR4MHlneFlhM3kyWllUeWtnZXA2aERjRGZQZlluQlJBMHQ1ZnZGNE9BMER2Wmo2OV9tZW5NNHhHVmk0bHNoZTc5UWhLQlJnMGFxRlptQ0lQd2FEckV3SWhuYjlRZEJHWlQxWTczYnFkSjhGQnZlckMw0gGcAUFVX3lxTE9DVHRIbV92d1JUV1RLRU80S0hRYjREMkhnWkVmYUFub3BXRGwxb3lMdjhJdWxDZ0V6cHVrYnRENHpKWlAxYzdxMDVNZzN0Mk4tZUs3cFVfRW5LMC1OT0ktcE94T3RwaEszSGR0VHB0MlB4bW4yYk5kUk1pTUF5R2tiODFkX0I1cTRMYVc2UXZQQTUtRGhyWmpHTDdNeQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxQckk5TlROc0hKRHM2SjRlNnhCTnFTMzRDUVJrazNscmVuQzZKNndzbHNNN0xjN0JWZWRpeGJMcFpNVGktbmlfaC1wME54NWduV1hUeHBLNElFYVdNZjB6ejA3eGttMTlOSlFmMEtmZGFyX0hlLWNra0VmODQyQkZ3TUxCU3JhazRrcEppOFlCanh0QdIBlwFBVV95cUxNVjhSTFE5SGU1aERuZU1zZkdxQmpONGk5cGNVR0ctVnFyNlI2S1Y3Umxic1Zhc1A1ZllhejVWZG03WlZYek5teTV3dC1GZ3JYMVJBUGZSWHRnMUdDM29nZVduMV9tN3FOLURkRXQ2ZFM3NFBRcHY3NE1MYnQ0dHd3eFRiSUo2MWM3TDNtRjlrMlRHdjE0eFVv?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 103
+      "latestSinceUpdate": 104
     },
     {
       "date": "Apr 12",
-      "text": "Israel agrees to talks with Lebanon but continues striking Hezbollah, with Beirut trying to heal after deadly attacks.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 103
-    },
-    {
-      "date": "Apr 12",
-      "text": "U.S. Navy warships cross the Strait of Hormuz to clear mines, amidst heightened tensions.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 103
-    },
-    {
-      "date": "Apr 12",
-      "text": "Iran threatens U.S. warships in the Strait of Hormuz, calling it 'the last warning' after they 'throw down the gauntlet'.",
+      "text": "Iran threatened US warships in the Strait of Hormuz, issuing a 'last warning'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNNkdJVnpXa1phTS1YU25xS3RmVFowU2lCaDVwcmhlTlY0akNRUE1mOG1INU5UbFpPWFB3NXNqdUZUeEw2bGptaGZzcFNOWlZ1UWQyUGRjMzA1Rm9lZjB0LVd6bXQ2dG93YmFtMXU4NXV3OXJxbWh1YnZiMzVwUi03cXlEdUtzMWRQVzdjNjZuczVFaFVYajFacFpaaThNZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fortune",
-      "latestSinceUpdate": 103
+      "latestSinceUpdate": 104
+    },
+    {
+      "date": "Apr 12",
+      "text": "Oil tankers exited the Strait of Hormuz amid reports of a fragile US-Iran ceasefire.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQWXk1M1JtR28yZ2RhWlVoQ3dvQW1RcHozYUVUdHBsVVBHYmRNaFNaVFdLNlZOekJNejVkMWx6RUNRRHdpdlkwcHp6Wngtb0swRFFtS3ljdTI0RWYzblNiTDBSZWdQV1gzSmo3ZFFKQ08yX1p5RGtyQkNTNEROVWZoT0t1RVBZN2J0cERWczdmNUZZVjJEV0RfUlV3MU02Q1U0cS1EcEktWWQ4aXRK0gGyAUFVX3lxTE9HVmMzbzh5SlYtdDIyUDliT0U3bDBPRDBJM25ad2ZpSmFkV0ZLZ0RHQjZmR1VYS0pFa3FxOFZFMUc5QXVDVXhlZnhaNG9HSjdFdDExaUtJSzRtaHJhZU5TMnFkYldpNlpVT0Y3bnMySktYQWUzNWFJR253a3Rmd21lYXNGNWtvTFdOMkl0UVJqV0FmV1pvV0U3UHp5ZGw5eWZWendoN01UWEs5dHZUQ3k0dEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 104
+    },
+    {
+      "date": "Apr 12",
+      "text": "Beirut continues to recover from deadly Israeli attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE9fZW1BbDZIUjBLVU9nWUMwS24wRkZvbG91UHJ3N2JKOE1lVEZwTERxdC1aUWpqZ3FwTldzZWVoU1NXekViazJzUVBNaDdjWHRTX3g0djJmRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 104
+    },
+    {
+      "date": "Apr 12",
+      "text": "Israeli military struck Hezbollah targets in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE1WWXNJZ0ZQbzhLRDVCeWJLZEhaWGlVaDBmaUlLT3hUN3l0TWVTemZYZlpHQ1VGdmt2UTZEM3AwMmxkTTNaeG1RVk5ZWm1kcVlidTB4WTVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 104
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
