@@ -1,13 +1,13 @@
 {
-  "updateSequence": 117,
+  "updateSequence": 118,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T13:42:51.941Z",
+  "lastSyncedAt": "2026-04-12T14:27:58.497Z",
   "warDay": 44,
   "ceasefire": {
-    "active": false,
-    "status": "fragile",
-    "confidence": 0.55,
+    "active": true,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, and Israel has rejected a ceasefire with Hezbollah, indicating no active de-escalation."
+    "summary": "Peace talks between the U.S. and Iran failed, and Israel rejected a ceasefire with Hezbollah, indicating no active de-escalation."
   }
 }
