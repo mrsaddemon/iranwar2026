@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 126,
+  "updateSequence": 127,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T20:48:38.579Z",
+  "lastSyncedAt": "2026-04-12T21:20:17.449Z",
   "warDay": 44,
-  "summary": "US-Iran peace talks have failed, leading to President Trump's threat to blockade the Strait of Hormuz, while Iran insists the strait will remain open and threatens US warships, amidst ongoing clashes between Israel and Hezbollah in Lebanon.",
+  "summary": "Peace talks between the US and Iran have failed, leading to a US announcement of a naval blockade of the Strait of Hormuz, while Iran vows not to surrender, and conflict continues between Israel and Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.14,
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, and Israel has rejected a ceasefire with Hezbollah before upcoming talks with Lebanon."
+    "summary": "Peace talks between the US and Iran have failed, leading to an escalation of threats."
   },
   "actorOverrides": {
     "usa": {
@@ -18,13 +18,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 50,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "globalPressure": 87,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "US-Iran peace talks fail after 21 hours, leading to President Trump's announcement that the US will blockade the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNS2hsNmdISmJxSGk4RjVtb0ZoTE4zT2lrcmh0NEpQbEVOSW1rNGRCMlk3X3hOVko0bHk0d2lIaVduLWNWRWtFZGItZGFaN0YyRE1tVWNuTFFBUTJzQWVMT0tWRTY1aGxnUXJid1lUbTVaTGdjN3NEQ19CbExPMGFfeVlxU243VEFWS0lucm5wX04xUGl4enRaVzBmRXUyLWZQNkNOVERLUEljWWhvTy1GS2pKdGgxd00yWHNldWtn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 126
-    },
-    {
-      "date": "Apr 12",
-      "text": "Iran's IRGC insists the Strait of Hormuz will remain open and issues a 'last warning' to US warships, threatening retaliation.",
+      "text": "US and Iran fail to agree on a peace deal after 21 hours of talks.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 126
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 127
     },
     {
       "date": "Apr 12",
-      "text": "The US military is reportedly 'setting conditions' to clear mines from the Strait of Hormuz.",
+      "text": "Trump says US will blockade Strait of Hormuz after Iran talks end without deal.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 127
+    },
+    {
+      "date": "Apr 12",
+      "text": "Iran insists Strait of Hormuz remains open and states it will not 'surrender' to threats.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFAyV09tbUFGak5zQjF6RUxFU2JDZVpFTmMzc1owZ1ZhLWRYYVp6enpjTGozSUtFb0dtM0NGRTNReEVNdkNreTlZQ2k0T3NjVVZET1NjcQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 127
+    },
+    {
+      "date": "Apr 12",
+      "text": "US military 'setting conditions' to clear mines from Strait of Hormuz; naval blockade to begin tomorrow.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 126
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 127
     },
     {
       "date": "Apr 12",
-      "text": "Israel agrees to talks with Lebanon next week but continues striking Hezbollah targets and rejects an immediate ceasefire.",
+      "text": "Israel's war in Lebanon against Hezbollah has not stopped; IDF raided a hospital used by Hezbollah.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 126
-    },
-    {
-      "date": "Apr 12",
-      "text": "The IDF raided a hospital in Hezbollah's Bint Jbeil stronghold, while a Hezbollah commander described ongoing battles with Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQWUxnWXBWMG9kdTBGRWpvWWk4Qk5wUXhuR0EtQVhVT0tvMUlWWUJYN3pWTTlmdnhSeG00NGZLd2VnT2UxRXdBb2FQWUhtNVg3VmxaOWI2SmJKUkhiOEZNNmFxTUtRSFBDUXBEUF9oRHE0Tm90QUJKUGpjQ1ZOZFdEZGtjZXlTX1hLMDd1cHBzazVHaDRybTlTWWpWanFOdjRwWFZJXzFBdXRublpI0gGyAUFVX3lxTE9HMTVRWmdsUEdxTndyeU9YY0lMYnZScWdhb0I2R0FaLU9aU0FFVzhRd2RBb0FnRFJIWkhaRXhVbzM5ZDZDRm1ZVm1yRFRXVFZ0MHd1M1pzb2pOVkwtSXY1aXNMWmdUOWdIQ3Fzd2dmelRzTVB1UU1yXzRLRHQ0OUZ6UDhFcGNXU1BsbzA4bjUyWEdXMFNCSU5oSjMtX2pMOHJCb2pKQ1RuV2VzWlU3T1ZHT3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 126
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNa1FheGp5UzlVUy00eWMwUk5yaEZzXy1LSWhkUWtGLTV1UEdCanhUT0xQNGpHbDlaalJ2OHJLRGZ5dnFjVkQwWWRQMndzeG1FNmNFVDFQNlN0QXE4NTRkaFF3b0tVblZ4NV9qVnJ2NnA3UnFTZExTbUNSNXhOUTh0QlUwUHVHNXQySUltSHZzQnlaV0ZKZWlkTktZNHlLUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 127
     }
   ],
   "sourceStatuses": [
