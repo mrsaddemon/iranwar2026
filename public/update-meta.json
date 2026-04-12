@@ -1,13 +1,13 @@
 {
-  "updateSequence": 105,
+  "updateSequence": 106,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T06:03:09.522Z",
+  "lastSyncedAt": "2026-04-12T06:59:08.241Z",
   "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.55,
     "durationDays": 1,
-    "summary": "A fragile US-Iran ceasefire appears to have collapsed following the failure of peace talks, and Israel continues to reject a ceasefire with Hezbollah."
+    "summary": "Peace talks between the US and Iran have ended without a deal, and Israel has rejected a ceasefire with Hezbollah."
   }
 }

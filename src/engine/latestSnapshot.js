@@ -1,50 +1,50 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 105,
+  "updateSequence": 106,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T06:03:09.522Z",
+  "lastSyncedAt": "2026-04-12T06:59:08.241Z",
   "warDay": 44,
-  "summary": "US-Iran peace talks have concluded without a deal, leading to increased military activity and threats in the Strait of Hormuz, while Israel continues strikes against Hezbollah in Lebanon.",
+  "summary": "US-Iran peace talks have broken down amidst escalating tensions in the Strait of Hormuz and ongoing conflict between Israel and Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.55,
     "durationDays": 1,
-    "summary": "A fragile US-Iran ceasefire appears to have collapsed following the failure of peace talks, and Israel continues to reject a ceasefire with Hezbollah."
+    "summary": "Peace talks between the US and Iran have ended without a deal, and Israel has rejected a ceasefire with Hezbollah."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.82,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.87
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 88,
-    "oilDisruption": 80
+    "nuclearIndex": 30,
+    "escalationLevel": 90,
+    "oilDisruption": 85
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -56,35 +56,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "US and Iran fail to agree on a peace deal after 21 hours of talks, according to Vance.",
+      "text": "US-Iran peace talks in Pakistan ended without a deal after 21 hours of direct talks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 105
+      "latestSinceUpdate": 106
     },
     {
       "date": "Apr 12",
-      "text": "Iranian delegation arrived in Pakistan for talks with US officials.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 105
+      "text": "Iran issued a 'last warning' to U.S. warships, threatening them in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNNkdJVnpXa1phTS1YU25xS3RmVFowU2lCaDVwcmhlTlY0akNRUE1mOG1INU5UbFpPWFB3NXNqdUZUeEw2bGptaGZzcFNOWlZ1UWQyUGRjMzA1Rm9lZjB0LVd6bXQ2dG93YmFtMXU4NXV3OXJxbWh1YnZiMzVwUi03cXlEdUtzMWRQVzdjNjZuczVFaFVYajFacFpaaThNZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 106
     },
     {
       "date": "Apr 12",
-      "text": "US Navy warships crossed the Strait of Hormuz to clear mines.",
+      "text": "Pak-flagged, Iraq-bound supertankers made a U-turn in the Strait of Hormuz as US-Iran talks broke down.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 106
+    },
+    {
+      "date": "Apr 12",
+      "text": "The U.S. military is 'setting conditions' to clear mines from the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 105
+      "latestSinceUpdate": 106
     },
     {
       "date": "Apr 12",
-      "text": "Two supertankers made a U-turn in Hormuz as US-Iran talks broke down.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 105
+      "text": "US warships passed through the Strait of Hormuz amid ongoing talks with Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQMWtaVmNGeGR3cjBmUVNEUjNpblI3NWI0QVFoTmVYb1B3cHh2T3NYUXRnM0kwUmcwWkZqUmVrS2dNamVfZEZFOGV5WG1BVWhMT3JfR0N4Qk10NXhoV0xqeWhZbEp2TDFtZ0c5ZWF5Y2lJdmVDYWxTS01sR2FRSDRIWEVxSVJvUy1UU0E3SXAxYjBHLU5jNVFfdk9rSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 106
     },
     {
       "date": "Apr 12",
@@ -93,20 +101,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE1WWXNJZ0ZQbzhLRDVCeWJLZEhaWGlVaDBmaUlLT3hUN3l0TWVTemZYZlpHQ1VGdmt2UTZEM3AwMmxkTTNaeG1RVk5ZWm1kcVlidTB4WTVB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
       "latestSinceUpdate": 104
-    },
-    {
-      "date": "Apr 12",
-      "text": "Iran threatened US warships, stating 'This is the last warning.'",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNNkdJVnpXa1phTS1YU25xS3RmVFowU2lCaDVwcmhlTlY0akNRUE1mOG1INU5UbFpPWFB3NXNqdUZUeEw2bGptaGZzcFNOWlZ1UWQyUGRjMzA1Rm9lZjB0LVd6bXQ2dG93YmFtMXU4NXV3OXJxbWh1YnZiMzVwUi03cXlEdUtzMWRQVzdjNjZuczVFaFVYajFacFpaaThNZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 105
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
