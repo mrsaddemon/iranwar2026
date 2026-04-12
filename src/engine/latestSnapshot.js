@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 127,
+  "updateSequence": 128,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T21:20:17.449Z",
+  "lastSyncedAt": "2026-04-12T21:53:49.228Z",
   "warDay": 44,
-  "summary": "Peace talks between the US and Iran have failed, leading to a US announcement of a naval blockade of the Strait of Hormuz, while Iran vows not to surrender, and conflict continues between Israel and Hezbollah in Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, leading to an escalation of threats."
+    "summary": "Peace talks between the US and Iran have failed, leading to a direct escalation, and the Israel-Hezbollah conflict continues without a truce."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 50,
-    "escalationLevel": 90,
+    "escalationLevel": 48,
     "oilDisruption": 95,
-    "tradeImpact": 85,
-    "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -63,46 +63,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "US and Iran fail to agree on a peace deal after 21 hours of talks.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Fox News",
+      "sourceName": "Google News RSS",
       "latestSinceUpdate": 127
     },
     {
       "date": "Apr 12",
-      "text": "Trump says US will blockade Strait of Hormuz after Iran talks end without deal.",
+      "text": "Trump announces the US will blockade the Strait of Hormuz following the failure of peace talks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 127
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNS2hsNmdISmJxSGk4RjVtb0ZoTE4zT2lrcmh0NEpQbEVOSW1rNGRCMlk3X3hOVko0bHk0d2lIaVduLWNWRWtFZGItZGFaN0YyRE1tVWNuTFFBUTJzQWVMT0tWRTY1aGxnUXJid1lUbTVaTGdjN3NEQ19CbExPMGFfeVlxU243VEFWS0lucm5wX04xUGl4enRaVzBmRXUyLWZQNkNOVERLUEljWWhvTy1GS2pKdGgxd00yWHNldWtn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 128
     },
     {
       "date": "Apr 12",
-      "text": "Iran insists Strait of Hormuz remains open and states it will not 'surrender' to threats.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFAyV09tbUFGak5zQjF6RUxFU2JDZVpFTmMzc1owZ1ZhLWRYYVp6enpjTGozSUtFb0dtM0NGRTNReEVNdkNreTlZQ2k0T3NjVVZET1NjcQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 127
-    },
-    {
-      "date": "Apr 12",
-      "text": "US military 'setting conditions' to clear mines from Strait of Hormuz; naval blockade to begin tomorrow.",
+      "text": "US military states naval blockade around Iran will begin Monday on Trump’s orders.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQN3hnbUZSX2gtVDBXNFhtRndieXlMUDhHd2tTQVZ4NnU0Z01fZnloY3R1bWZGeHZuRGVQUGlFRzZmcUkxVEx5OW83SDVyN2prOXRtb0RRRl9nbFZrWWNKWWs0dGU0TnZQSVBHTHNtNDlaWmVTckdNekJJekZiUWtnUFVoYTJudlUzZnZaNnVhdmotQnJwTEdTQWY1UDdMbUJIUWU0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 127
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxOZWEyVHFmdUR6cDAxWjVJMTNlYmVfQ1NIUURtbkpjNGFWZlJCWDh6T1NBZzhiTF9SUzFvT3RmMFNEQWhHRWhrQm9KZlRBVmJ2YUZCOGZ5UFFKVGRNVDgtdlU3dXRhOFRIWFdvM1dqS3Vyc0NhejBnYmw2THY1UUpfTXcyMF94VmxVUlp0SkFaWWRIV3ppVkdSNFJ5ZjhpSFctX19MNTA1QlU0ZHBfWDJQX3FSejhsOExDVWNJY2RhSDN5cVg2?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 128
     },
     {
       "date": "Apr 12",
-      "text": "Israel's war in Lebanon against Hezbollah has not stopped; IDF raided a hospital used by Hezbollah.",
+      "text": "Iran's IRGC insists the Strait of Hormuz will remain open, with negotiators stating they will not bow to threats.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNa1FheGp5UzlVUy00eWMwUk5yaEZzXy1LSWhkUWtGLTV1UEdCanhUT0xQNGpHbDlaalJ2OHJLRGZ5dnFjVkQwWWRQMndzeG1FNmNFVDFQNlN0QXE4NTRkaFF3b0tVblZ4NV9qVnJ2NnA3UnFTZExTbUNSNXhOUTh0QlUwUHVHNXQySUltSHZzQnlaV0ZKZWlkTktZNHlLUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 127
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 128
+    },
+    {
+      "date": "Apr 12",
+      "text": "Israel's war in Lebanon against Hezbollah has not stopped, with a commander describing ongoing battles.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 128
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
