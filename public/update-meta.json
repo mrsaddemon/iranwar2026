@@ -1,13 +1,13 @@
 {
-  "updateSequence": 107,
+  "updateSequence": 108,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T08:06:51.141Z",
+  "lastSyncedAt": "2026-04-12T08:16:51.523Z",
   "warDay": 44,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 1,
-    "summary": "Diplomatic efforts between the US and Iran concluded without a deal, and Israel has rejected a ceasefire with Hezbollah."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
