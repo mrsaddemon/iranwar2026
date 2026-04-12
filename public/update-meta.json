@@ -1,13 +1,13 @@
 {
-  "updateSequence": 122,
+  "updateSequence": 123,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T17:45:47.133Z",
+  "lastSyncedAt": "2026-04-12T18:26:15.581Z",
   "warDay": 44,
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.55,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, with U.S.-Iran peace talks failing and Israel rejecting a ceasefire with Hezbollah."
+    "summary": "Peace talks between the US and Iran have failed, leading to renewed threats and no active ceasefire."
   }
 }

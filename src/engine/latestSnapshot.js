@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 122,
+  "updateSequence": 123,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T17:45:47.133Z",
+  "lastSyncedAt": "2026-04-12T18:26:15.581Z",
   "warDay": 44,
-  "summary": "Peace talks between the U.S. and Iran have failed, leading to a U.S. declaration of a blockade of the Strait of Hormuz, while conflict continues between Israel and Hezbollah in Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.55,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, with U.S.-Iran peace talks failing and Israel rejecting a ceasefire with Hezbollah."
+    "summary": "Peace talks between the US and Iran have failed, leading to renewed threats and no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
-    "sanctionsPressure": 66,
-    "globalPressure": 90,
-    "allianceInfluence": 62
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "U.S. and Iran fail to agree on a peace deal after 21 hours of talks.",
+      "text": "Trump says US will blockade Strait of Hormuz after Iran talks end without deal",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 121
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 123
     },
     {
       "date": "Apr 12",
-      "text": "President Trump announces the U.S. will blockade the Strait of Hormuz following the failure of peace talks.",
+      "text": "U.S. And Iran Fail to Agree on Peace Deal After 21 Hours of Talks",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNS2hsNmdISmJxSGk4RjVtb0ZoTE4zT2lrcmh0NEpQbEVOSW1rNGRCMlk3X3hOVko0bHk0d2lIaVduLWNWRWtFZGItZGFaN0YyRE1tVWNuTFFBUTJzQWVMT0tWRTY1aGxnUXJid1lUbTVaTGdjN3NEQ19CbExPMGFfeVlxU243VEFWS0lucm5wX04xUGl4enRaVzBmRXUyLWZQNkNOVERLUEljWWhvTy1GS2pKdGgxd00yWHNldWtn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 122
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNMW1lcTdTd0t4UXdWc1NqQ09Rb3VQRjUxejRkN1FMNV9Eb0JXbGxjaVpMRmJGOE4wUWZQQW4xR1RUZ1JOOWVPdmNNOTJqaWdfYUZZZWtYSjRqU2JsaWhjb3ZJbDJOSG9samNsa3JZV2M2dHJMSWR1U005a2Jmam5seQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 123
     },
     {
       "date": "Apr 12",
-      "text": "Iran's IRGC insists the Strait of Hormuz remains open despite U.S. blockade threats.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 122
-    },
-    {
-      "date": "Apr 12",
-      "text": "Israel rejects a ceasefire with Hezbollah before Lebanon talks scheduled for next week, as conflict continues.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUhHalQzTUJIZW5FOEd6NjQ1Zy1zX3pkWlRuMlV2UmhLWnRnVWE1aEctUE44cldJWXlHZ09seUZXWGNyY2Z4a293WkdZX0ZvVmdIQnVRN2hSb1REclFtZUxUMmJSVTYxVUhCZk5xMHk4LVpOY2JFSkZ2bXMxYk1WSXd0YXM3QS02ck9KRDdTbGh3U1ZxdVgzWGxYTXo1aTMwUEoxUVVZaS0wUXc4S2U3ZUVGNNIBuAFBVV95cUxQNXNjb3RtWElmZUFXY0c1Ym0xbVdpb3ZHUnpHTWV2dzVjQkw5VkM4bE56VktyUmRKdkt2Mmg5SG50Zi1RMGhJV3F5Mk9Ld1VzN09sM2taRExMbHZXVTZncHE4R2xPT0hQVlV5OHFITU9vWUI1S2pkcjEwRmV6R1cxTmJSXzdtakNqT19PUXlvdE1fS1pXdmpBMmRxTU13RFdqNjMwVXJtNEczZXNnRzlLOHhPNklKMzNh?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 122
-    },
-    {
-      "date": "Apr 12",
-      "text": "U.S. intelligence indicates China is taking a more active role in the Iran war.",
+      "text": "Iranian Delegation Arrives at Peace Talks, With Vance en Route",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 122
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 123
+    },
+    {
+      "date": "Apr 12",
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten ceasefire",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPb0psUE5qdkY0ekNxN1NNcjJyRFl2VjhROXhwWkRHVWZxek5jYVRsNjdEMnpaTGtObnJWQ0FhdXhBRHZtTlY1V0ZVbGNJNG5lS2d6anJEdEdmTzIwTE9ISVVKbzFLbm9qUm5tZ29zTHpvTEE4N2RidVRNeUtqT1FZc043NDhmZDQ4N2x4eVZ6ZFhlSnp1Qk4zZ2Q4emdiY2hxbnRTOS1Ia01sOUcwVnNMMW1NNGFTUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 123
+    },
+    {
+      "date": "Apr 12",
+      "text": "IDF says it raided hospital used by Hezbollah in group’s Bint Jbeil stronghold",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQWUxnWXBWMG9kdTBGRWpvWWk4Qk5wUXhuR0EtQVhVT0tvMUlWWUJYN3pWTTlmdnhSeG00NGZLd2VnT2UxRXdBb2FQWUhtNVg3VmxaOWI2SmJKUkhiOEZNNmFxTUtRSFBDUXBEUF9oRHE0Tm90QUJKUGpjQ1ZOZFdEZGtjZXlTX1hLMDd1cHBzazVHaDRybTlTWWpWanFOdjRwWFZJXzFBdXRublpI0gGyAUFVX3lxTE9HMTVRWmdsUEdxTndyeU9YY0lMYnZScWdhb0I2R0FaLU9aU0FFVzhRd2RBb0FnRFJIWkhaRXhVbzM5ZDZDRm1ZVm1yRFRXVFZ0MHd1M1pzb2pOVkwtSXY1aXNMWmdUOWdIQ3Fzd2dmelRzTVB1UU1yXzRLRHQ0OUZ6UDhFcGNXU1BsbzA4bjUyWEdXMFNCSU5oSjMtX2pMOHJCb2pKQ1RuV2VzWlU3T1ZHT3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 123
+    },
+    {
+      "date": "Apr 12",
+      "text": "Navy tests Hormuz blockade as expert says U.S. military prepares for round 2 against Iran",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQNTVRX2pESDU2MThjSVpwWHdDNkdfX1c1MFhYZHBiT3lUUkFPTE9WNTc1Vkx2MTdaaGRYdHhTZ3M3cF9ESUktc195bWJfUmNYSmk4WGFRaGtxN1YwaWNMcjNkZF9iU0dZWng2ZlV0Q3FTcEdQdVNpSjFDb2p2aE1nemVBN215cTNodkd6X2xLYnVHcGVfd01mZFlvdHdCUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 123
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
