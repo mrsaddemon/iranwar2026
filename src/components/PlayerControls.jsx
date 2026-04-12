@@ -226,6 +226,9 @@ export default function PlayerControls({
         <span className="pc-header-icon">{'\u{1F3AE}'}</span>
         COMMAND CENTER
       </div>
+      <div className="pc-header-tip">
+        Select a side, then hover any action to preview intent, limits, and likely consequences before issuing it.
+      </div>
 
       <div className="pc-actor-selector">
         <span className="pc-label">PLAY AS:</span>

@@ -25,6 +25,10 @@ function clamp01(value) {
   return clamp(value, 0, 1);
 }
 
+function cloneSerializable(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+
 function average(values) {
   if (!values.length) return 0;
   return values.reduce((sum, value) => sum + value, 0) / values.length;
@@ -121,6 +125,24 @@ function normalizeCeasefireStatus(ceasefire) {
   };
 }
 
+function captureSyncedBaseline(state) {
+  return cloneSerializable({
+    actors: state.actors,
+    nuclearIndex: state.nuclearIndex,
+    escalationLevel: state.escalationLevel,
+    oilDisruption: state.oilDisruption,
+    tradeImpact: state.tradeImpact,
+    sanctionsPressure: state.sanctionsPressure,
+    globalPressure: state.globalPressure,
+    allianceInfluence: state.allianceInfluence,
+    ceasefireStatus: state.ceasefireStatus,
+    predictions: state.predictions,
+    nuclearPredictions: state.nuclearPredictions,
+    lastUpdated: state.lastUpdated,
+    lastSyncedAt: state.lastSyncedAt,
+  });
+}
+
 function softenActionWeightsForCeasefire(weights, ceasefireStatus) {
   if (!ceasefireStatus?.active) return;
 
@@ -211,6 +233,7 @@ export function createSimulationState() {
   };
 
   updatePredictions(initialState);
+  initialState.syncedBaseline = captureSyncedBaseline(initialState);
   return initialState;
 }
 

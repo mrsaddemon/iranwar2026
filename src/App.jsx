@@ -1,12 +1,20 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
+import React, { Suspense, lazy, useState, useCallback, useEffect, useRef } from 'react';
 import TopBar from './components/TopBar.jsx';
-import LeftPanel from './components/LeftPanel.jsx';
-import RightPanel from './components/RightPanel.jsx';
-import BottomPanel from './components/BottomPanel.jsx';
-import MapCanvas from './components/MapCanvas.jsx';
-import PlayerControls from './components/PlayerControls.jsx';
-import WarConclusion from './components/WarConclusion.jsx';
 import { createSimulationState, simulateTick, applyPlayerAction, resolvePendingNuclearStrike } from './engine/SimulationEngine.js';
+
+const loadLeftPanel = () => import('./components/LeftPanel.jsx');
+const loadRightPanel = () => import('./components/RightPanel.jsx');
+const loadMapCanvas = () => import('./components/MapCanvas.jsx');
+const loadBottomPanel = () => import('./components/BottomPanel.jsx');
+const loadPlayerControls = () => import('./components/PlayerControls.jsx');
+const loadWarConclusion = () => import('./components/WarConclusion.jsx');
+
+const LeftPanel = lazy(loadLeftPanel);
+const RightPanel = lazy(loadRightPanel);
+const MapCanvas = lazy(loadMapCanvas);
+const BottomPanel = lazy(loadBottomPanel);
+const PlayerControls = lazy(loadPlayerControls);
+const WarConclusion = lazy(loadWarConclusion);
 
 const TICK_INTERVALS = { 1: 1000, 5: 200, 20: 50 };
 const TRACKER_POLL_INTERVAL_MS = 2000;
@@ -14,6 +22,7 @@ const TRACKER_TRAIL_LIMIT = 6;
 const TRACKER_STORAGE_KEY = 'war-sim-tracker-cache-v1';
 const TRACKER_ENTITY_GRACE_MS = 3 * 60 * 1000;
 const TRACKER_VISIBILITY_STORAGE_KEY = 'war-sim-tracker-visibility-v3';
+const ONBOARDING_STORAGE_KEY = 'war-sim-onboarding-dismissed-v1';
 
 function isLocalRuntime() {
   if (typeof window === 'undefined') return false;
@@ -223,6 +232,56 @@ function mergeTrackerEntities(previousEntities, nextEntities, fetchedAt, kind = 
   return [...merged, ...preserved];
 }
 
+function BottomPanelFallback() {
+  return (
+    <div className="bottom-panel">
+      <div className="bottom-section">
+        <div className="section-title">
+          <span className="section-icon">⏳</span>
+          LOADING PANEL
+        </div>
+        <div className="disclaimer">Preparing the analysis layer...</div>
+      </div>
+    </div>
+  );
+}
+
+function CommandPanelFallback() {
+  return (
+    <div className="player-controls">
+      <div className="pc-header">
+        <span className="pc-header-icon">🎮</span>
+        COMMAND CENTER
+      </div>
+      <div className="pc-inactive">Loading command interface...</div>
+    </div>
+  );
+}
+
+function SidePanelFallback({ title, icon }) {
+  return (
+    <div className="side-panel-fallback">
+      <div className="panel-header">
+        <span className="panel-header-icon">{icon}</span>
+        {title}
+      </div>
+      <div className="event-empty">Loading panel...</div>
+    </div>
+  );
+}
+
+function MapPanelFallback() {
+  return (
+    <div className="map-fallback">
+      <div className="map-fallback-grid" />
+      <div className="map-fallback-card">
+        <div className="map-fallback-title">Loading theater map</div>
+        <div className="map-fallback-text">Preparing live geography, trackers, and overlays...</div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [state, setState] = useState(createSimulationState);
   const [running, setRunning] = useState(false);
@@ -243,6 +302,10 @@ export default function App() {
   const [highVisibility, setHighVisibility] = useState(() => {
     if (typeof window === 'undefined') return false;
     return window.localStorage.getItem('sunlight-mode') === '1';
+  });
+  const [showOnboarding, setShowOnboarding] = useState(() => {
+    if (typeof window === 'undefined') return true;
+    return window.localStorage.getItem(ONBOARDING_STORAGE_KEY) !== '1';
   });
   const [trackerVisibility, setTrackerVisibility] = useState(readTrackerVisibility);
   const intervalRef = useRef(null);
@@ -293,6 +356,25 @@ export default function App() {
   useEffect(() => {
     refreshSeenRef.current = state.lastSyncedAt;
   }, [state.lastSyncedAt]);
+
+  useEffect(() => {
+    const preloadPanels = () => {
+      loadLeftPanel();
+      loadRightPanel();
+      loadMapCanvas();
+      loadBottomPanel();
+    };
+
+    if (typeof window === 'undefined') return undefined;
+
+    if ('requestIdleCallback' in window) {
+      const idleId = window.requestIdleCallback(preloadPanels, { timeout: 1200 });
+      return () => window.cancelIdleCallback?.(idleId);
+    }
+
+    const timeoutId = window.setTimeout(preloadPanels, 120);
+    return () => window.clearTimeout(timeoutId);
+  }, []);
 
   useEffect(() => {
     if (isLocalRuntime()) return undefined;
@@ -441,6 +523,15 @@ export default function App() {
     });
   }, []);
 
+  const handleDismissOnboarding = useCallback(() => {
+    setShowOnboarding(false);
+    try {
+      window.localStorage.setItem(ONBOARDING_STORAGE_KEY, '1');
+    } catch {
+      // Ignore storage failures; dismissal still works for this session.
+    }
+  }, []);
+
   const handleSelectActor = useCallback((actorId) => {
     setState(prev => ({ ...prev, playerControlledActor: actorId }));
     if (actorId) setBottomTab('command');
@@ -487,29 +578,58 @@ export default function App() {
         onToggleHighVisibility={handleToggleHighVisibility}
       />
 
+      {showOnboarding && (
+        <div className="quickstart-banner">
+          <div className="quickstart-title">Quick start</div>
+          <div className="quickstart-items">
+            <div className="quickstart-item">
+              <span className="quickstart-item-icon">🎯</span>
+              Hover force scores and scenario bars to see why they changed.
+            </div>
+            <div className="quickstart-item">
+              <span className="quickstart-item-icon">📡</span>
+              Click any source-backed event to open the underlying article.
+            </div>
+            <div className="quickstart-item">
+              <span className="quickstart-item-icon">🎮</span>
+              Use Command Center to take over a side and test your own strategy.
+            </div>
+          </div>
+          <button className="quickstart-dismiss" onClick={handleDismissOnboarding}>
+            Dismiss
+          </button>
+        </div>
+      )}
+
       <div className="main-content">
-        <LeftPanel
-          actors={state.actors}
-          escalationLevel={state.escalationLevel}
-          oilDisruption={state.oilDisruption}
-          ceasefireStatus={state.ceasefireStatus}
-          recentEvents={state.events}
-          summary={state.snapshotSummary}
-        />
+        <Suspense fallback={<SidePanelFallback title="FORCE STATUS" icon="🎯" />}>
+          <LeftPanel
+            actors={state.actors}
+            escalationLevel={state.escalationLevel}
+            oilDisruption={state.oilDisruption}
+            ceasefireStatus={state.ceasefireStatus}
+            recentEvents={state.events}
+            summary={state.snapshotSummary}
+          />
+        </Suspense>
 
         <div className="center-panel">
-          <MapCanvas
-            mapAnimations={state.mapAnimations}
-            escalationLevel={state.escalationLevel}
-            nuclearIndex={state.nuclearIndex}
-            highVisibility={highVisibility}
-            trackerSnapshot={trackerSnapshot}
-            trackerVisibility={trackerVisibility}
-            onToggleTrackerLayer={handleToggleTrackerLayer}
-          />
+          <Suspense fallback={<MapPanelFallback />}>
+            <MapCanvas
+              mapAnimations={state.mapAnimations}
+              escalationLevel={state.escalationLevel}
+              nuclearIndex={state.nuclearIndex}
+              highVisibility={highVisibility}
+              trackerSnapshot={trackerSnapshot}
+              trackerVisibility={trackerVisibility}
+              onToggleTrackerLayer={handleToggleTrackerLayer}
+            />
+          </Suspense>
         </div>
 
-        <RightPanel events={state.events} updateSequence={state.updateSequence} />
+        <Suspense fallback={<SidePanelFallback title="LIVE EVENT FEED" icon="📡" />}>
+          <RightPanel events={state.events} updateSequence={state.updateSequence} />
+        </Suspense>
       </div>
 
       {/* Tabbed Bottom Panel */}
@@ -517,12 +637,16 @@ export default function App() {
         <button
           className={`bottom-tab-btn ${bottomTab === 'predictions' ? 'active' : ''}`}
           onClick={() => setBottomTab('predictions')}
+          onMouseEnter={loadBottomPanel}
+          onFocus={loadBottomPanel}
         >
           PREDICTIONS
         </button>
         <button
           className={`bottom-tab-btn ${bottomTab === 'command' ? 'active' : ''}`}
           onClick={() => setBottomTab('command')}
+          onMouseEnter={loadPlayerControls}
+          onFocus={loadPlayerControls}
           style={state.playerControlledActor ? { color: '#22c55e' } : {}}
         >
           COMMAND CENTER {state.playerControlledActor ? `(${state.playerControlledActor.toUpperCase()})` : ''}
@@ -531,29 +655,38 @@ export default function App() {
       </div>
 
       {bottomTab === 'predictions' ? (
-        <BottomPanel
-          predictions={state.predictions}
-          escalationProbability={state.escalationProbability}
-          warDurationRange={state.warDurationRange}
-          nuclearPredictions={state.nuclearPredictions}
-          oilDisruption={state.oilDisruption}
-          escalationLevel={state.escalationLevel}
-          ceasefireStatus={state.ceasefireStatus}
-          narratives={state.narratives}
-          lastNarrativeUpdate={state.lastNarrativeUpdate}
-          updateSequence={state.updateSequence}
-        />
+        <Suspense fallback={<BottomPanelFallback />}>
+          <BottomPanel
+            predictions={state.predictions}
+            escalationProbability={state.escalationProbability}
+            warDurationRange={state.warDurationRange}
+            nuclearPredictions={state.nuclearPredictions}
+            oilDisruption={state.oilDisruption}
+            escalationLevel={state.escalationLevel}
+            actors={state.actors}
+            globalPressure={state.globalPressure}
+            tradeImpact={state.tradeImpact}
+            allianceInfluence={state.allianceInfluence}
+            ceasefireStatus={state.ceasefireStatus}
+            narratives={state.narratives}
+            lastNarrativeUpdate={state.lastNarrativeUpdate}
+            updateSequence={state.updateSequence}
+            syncedBaseline={state.syncedBaseline}
+          />
+        </Suspense>
       ) : (
-        <PlayerControls
-          playerControlledActor={state.playerControlledActor}
-          onSelectActor={handleSelectActor}
-          onPlayerAction={handlePlayerAction}
-          nuclearIndex={state.nuclearIndex}
-          ceasefireProposals={state.ceasefireProposals}
-          escalationLevel={state.escalationLevel}
-          iranHasNuke={iranHasNuke}
-          onToggleIranNuke={() => setIranHasNuke(prev => !prev)}
-        />
+        <Suspense fallback={<CommandPanelFallback />}>
+          <PlayerControls
+            playerControlledActor={state.playerControlledActor}
+            onSelectActor={handleSelectActor}
+            onPlayerAction={handlePlayerAction}
+            nuclearIndex={state.nuclearIndex}
+            ceasefireProposals={state.ceasefireProposals}
+            escalationLevel={state.escalationLevel}
+            iranHasNuke={iranHasNuke}
+            onToggleIranNuke={() => setIranHasNuke(prev => !prev)}
+          />
+        </Suspense>
       )}
 
       {/* Social Footer */}
@@ -570,14 +703,16 @@ export default function App() {
       </div>
 
       {/* War Conclusion Overlay */}
-      <WarConclusion
-        conclusion={state.warConclusion}
-        dayCount={state.dayCount}
-        warDay={state.warDay}
-        oilDisruption={state.oilDisruption}
-        nuclearIndex={state.nuclearIndex}
-        onReset={handleReset}
-      />
+      <Suspense fallback={null}>
+        <WarConclusion
+          conclusion={state.warConclusion}
+          dayCount={state.dayCount}
+          warDay={state.warDay}
+          oilDisruption={state.oilDisruption}
+          nuclearIndex={state.nuclearIndex}
+          onReset={handleReset}
+        />
+      </Suspense>
     </div>
   );
 }

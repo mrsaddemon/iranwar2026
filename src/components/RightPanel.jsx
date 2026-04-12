@@ -71,6 +71,14 @@ function formatHostAsSourceLabel(url) {
   }
 }
 
+function getDisplayHost(url) {
+  try {
+    return new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+  } catch {
+    return null;
+  }
+}
+
 function getEventSourceLabel(event, href) {
   const currentSourceName = String(event?.sourceName || '').trim();
   if (currentSourceName && !/^google news rss$/i.test(currentSourceName)) {
@@ -92,6 +100,7 @@ function EventItem({ event }) {
   const color = SEVERITY_COLORS[event.severity] || SEVERITY_COLORS.info;
   const href = getEventHref(event);
   const sourceLabel = getEventSourceLabel(event, href);
+  const displayHost = href ? getDisplayHost(href) : null;
   const content = (
     <>
       <div className="event-top-row">
@@ -105,7 +114,13 @@ function EventItem({ event }) {
         <div className="event-actor" style={{ color: `${color}80` }}>{event.actor}</div>
       )}
       {sourceLabel && (
-        <div className="event-source-label">{sourceLabel}</div>
+        <div className="event-source-row">
+          <div className="event-source-label">{sourceLabel}</div>
+          {displayHost && !/^google news$/i.test(sourceLabel) && (
+            <div className="event-source-host">{displayHost}</div>
+          )}
+          {href && <div className="event-source-open">OPEN SOURCE ↗</div>}
+        </div>
       )}
     </>
   );
@@ -148,6 +163,7 @@ export default function RightPanel({ events, updateSequence }) {
         LIVE EVENT FEED
       </div>
       <div className="event-count">{events.length} events</div>
+      <div className="event-feed-tip">Click any source-backed event to open the underlying article.</div>
       <div className="event-list" ref={scrollRef}>
         {events.map(evt => (
           <EventItem
