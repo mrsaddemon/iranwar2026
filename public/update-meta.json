@@ -1,13 +1,13 @@
 {
-  "updateSequence": 128,
+  "updateSequence": 129,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T21:53:49.228Z",
+  "lastSyncedAt": "2026-04-12T22:47:54.126Z",
   "warDay": 44,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, leading to a direct escalation, and the Israel-Hezbollah conflict continues without a truce."
+    "summary": "Peace talks between the US and Iran have failed to reach an agreement, indicating no active ceasefire."
   }
 }

@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 128,
+  "updateSequence": 129,
   "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T21:53:49.228Z",
+  "lastSyncedAt": "2026-04-12T22:47:54.126Z",
   "warDay": 44,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-12",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, leading to a direct escalation, and the Israel-Hezbollah conflict continues without a truce."
+    "summary": "Peace talks between the US and Iran have failed to reach an agreement, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
-    "allianceInfluence": 46
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 90,
+    "tradeImpact": 56,
+    "sanctionsPressure": 49,
+    "globalPressure": 57,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 12",
-      "text": "US and Iran fail to agree on a peace deal after 21 hours of talks.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 127
-    },
-    {
-      "date": "Apr 12",
-      "text": "Trump announces the US will blockade the Strait of Hormuz following the failure of peace talks.",
+      "text": "US President Trump announces a naval blockade of the Strait of Hormuz after peace talks with Iran fail.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNS2hsNmdISmJxSGk4RjVtb0ZoTE4zT2lrcmh0NEpQbEVOSW1rNGRCMlk3X3hOVko0bHk0d2lIaVduLWNWRWtFZGItZGFaN0YyRE1tVWNuTFFBUTJzQWVMT0tWRTY1aGxnUXJid1lUbTVaTGdjN3NEQ19CbExPMGFfeVlxU243VEFWS0lucm5wX04xUGl4enRaVzBmRXUyLWZQNkNOVERLUEljWWhvTy1GS2pKdGgxd00yWHNldWtn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 128
+      "latestSinceUpdate": 129
     },
     {
       "date": "Apr 12",
-      "text": "US military states naval blockade around Iran will begin Monday on Trump’s orders.",
+      "text": "US military confirms the naval blockade around Iran will begin Monday morning.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxOZWEyVHFmdUR6cDAxWjVJMTNlYmVfQ1NIUURtbkpjNGFWZlJCWDh6T1NBZzhiTF9SUzFvT3RmMFNEQWhHRWhrQm9KZlRBVmJ2YUZCOGZ5UFFKVGRNVDgtdlU3dXRhOFRIWFdvM1dqS3Vyc0NhejBnYmw2THY1UUpfTXcyMF94VmxVUlp0SkFaWWRIV3ppVkdSNFJ5ZjhpSFctX19MNTA1QlU0ZHBfWDJQX3FSejhsOExDVWNJY2RhSDN5cVg2?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 128
+      "latestSinceUpdate": 129
     },
     {
       "date": "Apr 12",
-      "text": "Iran's IRGC insists the Strait of Hormuz will remain open, with negotiators stating they will not bow to threats.",
+      "text": "Iran's IRGC insists the Strait of Hormuz remains open and states Iran will not 'surrender'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 128
+      "latestSinceUpdate": 129
     },
     {
       "date": "Apr 12",
-      "text": "Israel's war in Lebanon against Hezbollah has not stopped, with a commander describing ongoing battles.",
+      "text": "Israel's conflict with Hezbollah in Lebanon continues, with a Hezbollah commander describing ongoing battles.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 128
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNa1FheGp5UzlVUy00eWMwUk5yaEZzXy1LSWhkUWtGLTV1UEdCanhUT0xQNGpHbDlaalJ2OHJLRGZ5dnFjVkQwWWRQMndzeG1FNmNFVDFQNlN0QXE4NTRkaFF3b0tVblZ4NV9qVnJ2NnA3UnFTZExTbUNSNXhOUTh0QlUwUHVHNXQySUltSHZzQnlaV0ZKZWlkTktZNHlLUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 129
     }
   ],
   "sourceStatuses": [
