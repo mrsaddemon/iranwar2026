@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 143,
+  "updateSequence": 144,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T20:38:59.821Z",
+  "lastSyncedAt": "2026-04-13T21:35:08.584Z",
   "warDay": 45,
-  "summary": "The United States has initiated a naval blockade of Iranian ports in the Strait of Hormuz, while diplomatic signals from both sides remain mixed regarding potential negotiations.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-13",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 55,
-    "escalationLevel": 85,
-    "oilDisruption": 95,
-    "tradeImpact": 84,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -76,14 +76,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "Iran War Live Updates: Deadline Passes for U.S. Blockade in Strait of Hormuz",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE9lTGVSaGRfSFNsX1ByeERMLWoxdWREdGtBVXNaQy1EeUdZeU9RSVZYY1UxcVh6NzRadndia294eTlGbUtLOVl3N2wySTZ6aVZlMWtjRmlWNF9rVG81NDltb2ZJTU9QWVRGS1JaUUlPaHNZdjA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 143
-    },
-    {
-      "date": "Apr 13",
       "text": "Middle East crisis live: Donald Trump claims Iran ‘wants to work a deal’ and confirms blockade of strait of Hormuz",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?hl=en-US&gl=US&ceid=US:en",
@@ -100,11 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "Iran war live: US blockade of Hormuz begins, Hezbollah rejects Israel talks",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran war updates: Iranian delegation arrives in Pakistan for talks with US",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 143
+      "latestSinceUpdate": 144
+    },
+    {
+      "date": "Apr 13",
+      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 144
     }
   ],
   "sourceStatuses": [
