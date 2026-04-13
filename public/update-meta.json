@@ -1,13 +1,13 @@
 {
-  "updateSequence": 135,
+  "updateSequence": 136,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T10:08:21.749Z",
+  "lastSyncedAt": "2026-04-13T11:44:22.755Z",
   "warDay": 45,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Despite some claims of a ceasefire holding, the announced US blockade and failed peace talks indicate a collapse of any prior de-escalation efforts."
   }
 }

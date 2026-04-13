@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 135,
+  "updateSequence": 136,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T10:08:21.749Z",
+  "lastSyncedAt": "2026-04-13T11:44:22.755Z",
   "warDay": 45,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-13",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Despite some claims of a ceasefire holding, the announced US blockade and failed peace talks indicate a collapse of any prior de-escalation efforts."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.9,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.78
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 58
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 35,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 51,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 13",
-      "text": "Day 44 of Middle East conflict — Trump says US will blockade the Strait of Hormuz",
+      "text": "US military states it will blockade all Iranian ports and the Strait of Hormuz starting today/Monday morning.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 133
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war updates: Trump says US to block Hormuz, IRGC insists strait open",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPQnBIVmsyTlNIa0FSQzlST1hkX0lBVlcwNlVQTU51ejdGX3E2OTdvRmJXT3FhYlQyRDVhaFU5bm9PeVVtV2tsZFBYVVJZN29SVkJabGJvc2lfd3NTeWJGV2xHWnBIcDYxRkdlN2M5aXhwTmV4aUQ1Wm1DTlJiNHc1NUF1Ym9zbFlYcFVDVXVuY0F4RFViVHJHekZHVXFpU2YzUHlmNzhLaWYxRUUwclN6ZtIBtgFBVV95cUxNZjQ3dlBWRlJjVU40WkJrVUl3aDdyeTBkelNOelJDcnB2M1lmYWNHWEYtTDByam5yaHFhWTJYS1ZYNzRsX0tKa3ZtNHJmdmhhQm5QTWFEWndLTDRtV3FzT2s5aXptWmF1VWlaVnlVazBNQlVMTjdramhhUHFSZkxycWhlS0l3bEFhT1gwM1E3cHBhaWwtN3JvN25hYUswMEl3UkZCcHBydWRJTk85Q1l0X1MybTFtZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 134
+      "latestSinceUpdate": 136
     },
     {
       "date": "Apr 13",
-      "text": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9PbTY2UnlVRmhDNk1JLXJBYTlzUFBPVXZ0VDR5b3htTnpwTGM2bklzdjJZTkNBTGNHUHQ5RE5YNjl6NF9mWl83WVlOU0VqU1Y1SlJBMksxTU12ZFhkR2M2MTRJcVd2cDVVSGxBU196NU82YnVMLUpr0gF8QVVfeXFMT3lmemY2VlRadjc0WlRlemNuQ3pHNWlPMzFyMWZDMEtqUE5odEtNYWxTaWNRNUZQNXZKVXdMVU13Yk53WDZySUZOb1laVkhiVUlmeGtrTDJGeWd3c0o4ZWtJOE1oZFlzbGRMVDFmYjdab0xpMENXaVpWT29zZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 135
-    },
-    {
-      "date": "Apr 13",
-      "text": "After talks fail, IDF planning for return to war, Trump mulls strikes on Iran — reports",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaEpDUHJybmdpTDJ0cmZFd0pJd2pGRmF3UGpUT3FxV1pBalowbnBUWlhRYnNFRUdjOXA1MU12T2lVVFVkR18xblJseU5WU0pNUlZzVFVPUDhEbTg4UUIyY28xOHE1bUpkel9UOFRPY1dhNmtJbWg1UmY5VGtyTzN6VmZDRE5RYzYwa1RDQUF0cjd0dTlmUGRFdGFMVnBnbkdrV3o1VnVhd3E5a1hhVGlPN3Iya2vSAboBQVVfeXFMTzlzcEIweDJDVm5PZ18zQXo3RUE0a2F6ZldDa21ZTkFNR0F4cHVEVTlIY3c1U3hxMjRoRWdoS1NFN0h6NUpHNjlrazhxRUtpajNFaEVNdXhncGJWWXhjYU93aTMydllnSjBmZHY5WHlXVTFXaEwzbE50bk5VdmJkZjlLNjVUazNsZGxndnBhYmJnMnBfU25tNWVCLWRaOUxuU1ItSXNuelRRSDl6a050eFllWW5ESFZDNFhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 134
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war latest: Trump launches extraordinary attack on Pope",
-      "severity": "info",
+      "text": "Peace talks between Iranian delegation and US envoy Vance reportedly failed, with an Iranian minister stating no intention of negotiating.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 135
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 136
     },
     {
       "date": "Apr 13",
-      "text": "Iran war updates: Iranian delegation arrives in Pakistan for talks with US",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 135
+      "text": "IDF is reportedly planning for a return to war following the failure of peace talks.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 136
+    },
+    {
+      "date": "Apr 13",
+      "text": "Conflict between Israel and Hezbollah in Lebanon is described as ongoing and not stopped.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 136
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
