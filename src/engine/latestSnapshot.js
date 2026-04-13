@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 138,
+  "updateSequence": 139,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T14:23:12.422Z",
+  "lastSyncedAt": "2026-04-13T15:59:03.438Z",
   "warDay": 45,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-13",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 35,
     "escalationLevel": 38,
     "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "tradeImpact": 51,
+    "sanctionsPressure": 56,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -68,27 +68,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9PbTY2UnlVRmhDNk1JLXJBYTlzUFBPVXZ0VDR5b3htTnpwTGM2bklzdjJZTkNBTGNHUHQ5RE5YNjl6NF9mWl83WVlOU0VqU1Y1SlJBMksxTU12ZFhkR2M2MTRJcVd2cDVVSGxBU196NU82YnVMLUpr0gF8QVVfeXFMT3lmemY2VlRadjc0WlRlemNuQ3pHNWlPMzFyMWZDMEtqUE5odEtNYWxTaWNRNUZQNXZKVXdMVU13Yk53WDZySUZOb1laVkhiVUlmeGtrTDJGeWd3c0o4ZWtJOE1oZFlzbGRMVDFmYjdab0xpMENXaVpWT29zZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 137
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war live: US military says it will block Iranian traffic in Hormuz",
+      "text": "Iran war updates: Trump says US to block Hormuz, IRGC insists strait open",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 138
+      "latestSinceUpdate": 139
     },
     {
       "date": "Apr 13",
-      "text": "The War With Iran Offers a Snapshot of Trump World. It’s Not a Pretty Picture.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNd0NLS3IzcnAwdkR2TWxIU0h5X2pXUUdOaVlub0U4bjF1OEQyazVBX0pyOE10eVljLXNvU05VcmtMWEJGYnZvLV9GRW1OaDVDUDlJdU82ZzRUVUNmSnppaERQYlhlanpHanJWOTBOYkJnY0p0aEtTYjZLZWxESW5LSmRxaFpENS13TE1wQ25VQmYwOE0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 137
+      "text": "Middle East crisis live: Trump vows that ships approaching US blockade of Iran’s ports will be ‘eliminated’, after sparring with pope",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 139
+    },
+    {
+      "date": "Apr 13",
+      "text": "Iran war live updates: Trump vows to 'kill' Iranian warships that get near US blockade",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9ZWVliOTc5bUlabmp4VW1PTW42TzlMUjltTGlZOTFFamdobnZDdVNHdHh2NE5TMW5IME5tX2JXQkt0YnhQUGx2c0x3LThOODQ3MU5VYjZ0U0VBVm0yN3FpVVJNVC1KUUU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 139
     },
     {
       "date": "Apr 13",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
