@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 139,
+  "updateSequence": 140,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T15:59:03.438Z",
+  "lastSyncedAt": "2026-04-13T17:15:49.811Z",
   "warDay": 45,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-13",
@@ -76,14 +76,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "Middle East crisis live: Trump vows that ships approaching US blockade of Iran’s ports will be ‘eliminated’, after sparring with pope",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 139
-    },
-    {
-      "date": "Apr 13",
       "text": "Iran war live updates: Trump vows to 'kill' Iranian warships that get near US blockade",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9ZWVliOTc5bUlabmp4VW1PTW42TzlMUjltTGlZOTFFamdobnZDdVNHdHh2NE5TMW5IME5tX2JXQkt0YnhQUGx2c0x3LThOODQ3MU5VYjZ0U0VBVm0yN3FpVVJNVC1KUUU?hl=en-US&gl=US&ceid=US:en",
@@ -92,11 +84,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "Iran war latest: US military issues 'capture' warning to ships as it sets out Iran blockade terms",
+      "text": "‘This is not serious leadership’: Donald Trump and Marco Rubio watch UFC in Miami as Iran talks fail",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPa05vSG9yYnZ5SWpwUDh6UGl1TldaSzNtRnJfT29mUlFQRUlmRGREZE83cGdpa2FnSzFDMDllbFVieFdnUjhoNmkwQnpvTUNDdWk5VEZvZ05sSGpjbkNaU0tkaVh0SmpWQVAtc2xmRUU5RWVHbmdPLUwtT2U1OEFPOGMtdzlwY051aDdz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 140
+    },
+    {
+      "date": "Apr 13",
+      "text": "Iran war latest: Trump makes new warning as Strait of Hormuz blockade begins",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 138
+      "latestSinceUpdate": 140
     },
     {
       "date": "Apr 13",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
