@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 133,
+  "updateSequence": 134,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T06:05:31.162Z",
+  "lastSyncedAt": "2026-04-13T08:19:47.931Z",
   "warDay": 45,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-13",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 35,
     "escalationLevel": 38,
     "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "tradeImpact": 51,
+    "sanctionsPressure": 56,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,19 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "We spoke to the man making viral Lego-style AI videos for Iran. Experts say it's powerful propaganda",
+      "text": "Iran war updates: Trump says US to block Hormuz, IRGC insists strait open",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1mN1NWTEZDOVFKYXBUR1NoTVpVMFVoT0ZtZUR2Vm9BT29ZR3QxcUd0aS1aRDVsQ29xOWQ2SElKRHp6b3B0RHBTMjhqWTNMUDN1RXpiN3FZNVN2QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 133
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war live: US military says it will block Iranian traffic in Hormuz",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 133
+      "latestSinceUpdate": 134
     },
     {
       "date": "Apr 13",
@@ -92,10 +84,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
+      "text": "After talks fail, IDF planning for return to war, Trump mulls strikes on Iran — reports",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaEpDUHJybmdpTDJ0cmZFd0pJd2pGRmF3UGpUT3FxV1pBalowbnBUWlhRYnNFRUdjOXA1MU12T2lVVFVkR18xblJseU5WU0pNUlZzVFVPUDhEbTg4UUIyY28xOHE1bUpkel9UOFRPY1dhNmtJbWg1UmY5VGtyTzN6VmZDRE5RYzYwa1RDQUF0cjd0dTlmUGRFdGFMVnBnbkdrV3o1VnVhd3E5a1hhVGlPN3Iya2vSAboBQVVfeXFMTzlzcEIweDJDVm5PZ18zQXo3RUE0a2F6ZldDa21ZTkFNR0F4cHVEVTlIY3c1U3hxMjRoRWdoS1NFN0h6NUpHNjlrazhxRUtpajNFaEVNdXhncGJWWXhjYU93aTMydllnSjBmZHY5WHlXVTFXaEwzbE50bk5VdmJkZjlLNjVUazNsZGxndnBhYmJnMnBfU25tNWVCLWRaOUxuU1ItSXNuelRRSDl6a050eFllWW5ESFZDNFhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 134
+    },
+    {
+      "date": "Apr 13",
       "text": "Iran war latest: Trump 'doesn't care' if Iran returns to peace talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
+      "sourceUrl": null,
+      "sourceName": null,
       "latestSinceUpdate": 133
     },
     {
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
