@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 137,
+  "updateSequence": 138,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T12:48:54.112Z",
+  "lastSyncedAt": "2026-04-13T14:23:12.422Z",
   "warDay": 45,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-13",
@@ -62,24 +62,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Apr 13",
       "text": "Day 44 of Middle East conflict — Trump says US will blockade the Strait of Hormuz",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE5ianZrQW1mSTBYa2w0eThFWTZJNmZ3WDl6OEJUdGdqOFFjSi1Ya0tUVnpLQ1VpdGlxcExwWUNab1hVX1RTaDM1dmNxVkdIQmhVM3lab3p3UVllNVdWdExqRmFQQksxQ1RteXhwdTIwOXN1eVZGZENtTjE4WUxQY2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 137
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war updates: Trump says US to block Hormuz, IRGC insists strait open",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 137
-    },
-    {
-      "date": "Apr 13",
-      "text": "The War With Iran Offers a Snapshot of Trump World. It’s Not a Pretty Picture.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNd0NLS3IzcnAwdkR2TWxIU0h5X2pXUUdOaVlub0U4bjF1OEQyazVBX0pyOE10eVljLXNvU05VcmtMWEJGYnZvLV9GRW1OaDVDUDlJdU82ZzRUVUNmSnppaERQYlhlanpHanJWOTBOYkJnY0p0aEtTYjZLZWxESW5LSmRxaFpENS13TE1wQ25VQmYwOE0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
       "latestSinceUpdate": 137
     },
     {
@@ -92,11 +76,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 13",
-      "text": "Iran’s Schools and Hospitals in Ruins, Times Analysis Shows",
+      "text": "Iran war live: US military says it will block Iranian traffic in Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNbURkVU1ObjFOb2psUGJ2dWtENFROSWd6QnFSMjd2YXotaDBNMGFNV2M5Ylpkai1YRk8xSVA2WVB4MVJFejllT0xuNEFHZnA5cGQ5NlhOTlpuYjA0YmdtMXNpVXNlNWlIY0lvZW5LVlNwLV9KNWxfWXVqOVBJdkNCN1duUk1jczVjODRoVlpZcjd2ZHRnRjEtWHppSFlTYmVsbkJyQnpnX3FRNHkySkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 138
+    },
+    {
+      "date": "Apr 13",
+      "text": "The War With Iran Offers a Snapshot of Trump World. It’s Not a Pretty Picture.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNd0NLS3IzcnAwdkR2TWxIU0h5X2pXUUdOaVlub0U4bjF1OEQyazVBX0pyOE10eVljLXNvU05VcmtMWEJGYnZvLV9GRW1OaDVDUDlJdU82ZzRUVUNmSnppaERQYlhlanpHanJWOTBOYkJnY0p0aEtTYjZLZWxESW5LSmRxaFpENS13TE1wQ25VQmYwOE0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
       "latestSinceUpdate": 137
+    },
+    {
+      "date": "Apr 13",
+      "text": "Iran war latest: US military issues 'capture' warning to ships as it sets out Iran blockade terms",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 138
     },
     {
       "date": "Apr 13",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
