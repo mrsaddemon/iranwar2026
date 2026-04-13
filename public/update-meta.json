@@ -1,13 +1,13 @@
 {
-  "updateSequence": 145,
+  "updateSequence": 146,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T22:26:04.493Z",
+  "lastSyncedAt": "2026-04-13T23:26:21.701Z",
   "warDay": 45,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Peace talks have collapsed, and military actions are escalating with a US blockade and threats from Iran."
+    "summary": "No ceasefire is active, with peace talks failing and military actions escalating in the region."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 145,
+  "updateSequence": 146,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T22:26:04.493Z",
+  "lastSyncedAt": "2026-04-13T23:26:21.701Z",
   "warDay": 45,
-  "summary": "The United States has initiated a military blockade of Iranian ports in the Strait of Hormuz following the collapse of peace talks, while Iran issues threats and Israel plans for renewed conflict.",
+  "summary": "The US has imposed a military blockade on Iranian ports in the Strait of Hormuz, leading to heightened tensions and threats from Iran amidst ongoing regional conflicts and failed peace talks.",
   "lastNarrativeUpdate": "2026-04-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Peace talks have collapsed, and military actions are escalating with a US blockade and threats from Iran."
+    "summary": "No ceasefire is active, with peace talks failing and military actions escalating in the region."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 13",
-      "text": "US military blockade on Iranian ports in the Strait of Hormuz takes effect.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 145
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran peace talks collapse, with US insisting war goals almost met and Iran stating no intention to negotiate.",
+      "date": "Apr 12",
+      "text": "The U.S. military has imposed a blockade on Iranian ports in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 145
+      "latestSinceUpdate": 146
     },
     {
-      "date": "Apr 13",
-      "text": "Iran makes 'bottom of the sea' threat in response to US actions.",
+      "date": "Apr 12",
+      "text": "Donald Trump claims Iran 'wants to work a deal' while confirming the blockade of the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 146
+    },
+    {
+      "date": "Apr 12",
+      "text": "Iran's IRGC insists the Strait of Hormuz remains open and Tehran makes a 'bottom of the sea' threat in response to the blockade.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 145
+      "latestSinceUpdate": 146
     },
     {
-      "date": "Apr 13",
-      "text": "IDF reportedly planning for a return to war after talks fail.",
+      "date": "Apr 12",
+      "text": "An Iranian minister states 'no intention of negotiating for now,' despite an Iranian delegation arriving for peace talks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaEpDUHJybmdpTDJ0cmZFd0pJd2pGRmF3UGpUT3FxV1pBalowbnBUWlhRYnNFRUdjOXA1MU12T2lVVFVkR18xblJseU5WU0pNUlZzVFVPUDhEbTg4UUIyY28xOHE1bUpkel9UOFRPY1dhNmtJbWg1UmY5VGtyTzN6VmZDRE5RYzYwa1RDQUF0cjd0dTlmUGRFdGFMVnBnbkdrV3o1VnVhd3E5a1hhVGlPN3Iya2vSAboBQVVfeXFMTzlzcEIweDJDVm5PZ18zQXo3RUE0a2F6ZldDa21ZTkFNR0F4cHVEVTlIY3c1U3hxMjRoRWdoS1NFN0h6NUpHNjlrazhxRUtpajNFaEVNdXhncGJWWXhjYU93aTMydllnSjBmZHY5WHlXVTFXaEwzbE50bk5VdmJkZjlLNjVUazNsZGxndnBhYmJnMnBfU25tNWVCLWRaOUxuU1ItSXNuelRRSDl6a050eFllWW5ESFZDNFhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 145
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 146
     },
     {
-      "date": "Apr 13",
-      "text": "Hezbollah rejects Israel talks amidst ongoing conflict in Lebanon.",
-      "severity": "warning",
+      "date": "Apr 12",
+      "text": "Peace talks involving an Iranian delegation and Vance fail, leading to reports of the IDF planning for a return to war.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 145
+      "latestSinceUpdate": 146
+    },
+    {
+      "date": "Apr 12",
+      "text": "Hezbollah leader urges Lebanon's government to cancel Israel talks as battle continues in a strategic town.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxORnFsUWIyNzNJYTQ2Zm5LWEVOTE1JeFFmdU1SZjhZWlJJYUJ3WXhwa0E3ZFdFLURTd2Vtajd6dnEtemh2ZTlsY2QwOUowRUZPc3RBcE0tZjZySnBmQmVPa2hESlpfVm1obEI3WVlsUWpfZElDVnluOTF1OF9TcXcyWGxIcDhtUFl0VkRDSWMxN3R5TU5tLTgzbmU1OHZhM2FuUUl3a29NQTB0WDY0d1VETTdua2pTOG1PUkxzei0tMk52NHVRV2M0WlU3Z3lBd2tDYnNsYVZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 146
     }
   ],
   "sourceStatuses": [
