@@ -1,13 +1,13 @@
 {
-  "updateSequence": 131,
-  "lastUpdated": "2026-04-12",
-  "lastSyncedAt": "2026-04-12T23:55:22.384Z",
-  "warDay": 44,
+  "updateSequence": 132,
+  "lastUpdated": "2026-04-13",
+  "lastSyncedAt": "2026-04-13T03:47:02.966Z",
+  "warDay": 45,
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.55,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "Peace talks between the US and Iran have failed, leading to a US threat of a naval blockade, while Israel continues its conflict in Lebanon and rejects a ceasefire with Hezbollah."
+    "summary": "Despite earlier claims of a ceasefire holding, peace talks between the US and Iran have collapsed, leading to a US announcement of a blockade of the Strait of Hormuz starting Monday."
   }
 }
