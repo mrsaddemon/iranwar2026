@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 140,
+  "updateSequence": 141,
   "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T17:15:49.811Z",
+  "lastSyncedAt": "2026-04-13T18:18:51.626Z",
   "warDay": 45,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The United States has initiated a naval blockade of the Strait of Hormuz, leading to heightened tensions and threats against Iranian vessels, while regional conflicts persist.",
   "lastNarrativeUpdate": "2026-04-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are currently in effect amidst escalating regional tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.9,
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 58
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 51,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 13",
-      "text": "Day 44 of Middle East conflict — Trump says US will blockade the Strait of Hormuz",
+      "date": "Apr 12",
+      "text": "US President Trump announces intention to blockade the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 137
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 141
     },
     {
       "date": "Apr 13",
-      "text": "Iran war updates: Trump says US to block Hormuz, IRGC insists strait open",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 139
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war live updates: Trump vows to 'kill' Iranian warships that get near US blockade",
+      "text": "US naval blockade of Iranian ports in the Strait of Hormuz officially takes effect.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9ZWVliOTc5bUlabmp4VW1PTW42TzlMUjltTGlZOTFFamdobnZDdVNHdHh2NE5TMW5IME5tX2JXQkt0YnhQUGx2c0x3LThOODQ3MU5VYjZ0U0VBVm0yN3FpVVJNVC1KUUU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 139
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 141
     },
     {
       "date": "Apr 13",
-      "text": "‘This is not serious leadership’: Donald Trump and Marco Rubio watch UFC in Miami as Iran talks fail",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPa05vSG9yYnZ5SWpwUDh6UGl1TldaSzNtRnJfT29mUlFQRUlmRGREZE83cGdpa2FnSzFDMDllbFVieFdnUjhoNmkwQnpvTUNDdWk5VEZvZ05sSGpjbkNaU0tkaVh0SmpWQVAtc2xmRUU5RWVHbmdPLUwtT2U1OEFPOGMtdzlwY051aDdz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 140
-    },
-    {
-      "date": "Apr 13",
-      "text": "Iran war latest: Trump makes new warning as Strait of Hormuz blockade begins",
+      "text": "Trump warns Iranian ships challenging the Hormuz blockade will be 'eliminated'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 140
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQYUd5aGlUTV8yNEw1cVJkV0pFTGN3bXhOcW5lVDJ3cHBLcExFOXVzcU5adVpLMEZpTzRnT2k2bGV0X0syOU0zQWRnOVRSeUl2UndocDh0YmNYTVRnTGR1QUZXMjV0S1NwSl9PcG5qd1Q1bUxFQTJhNlk1ZjNSNmJaSmk5Z2swTFVxeEFwZWJVeU1zWjd4V0s3VjNGZ3p1cFB2aTd2XzNxQzA0VklyaVN1eFVqZmEtd3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 141
     },
     {
       "date": "Apr 13",
-      "text": "After talks fail, IDF planning for return to war, Trump mulls strikes on Iran — reports",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaEpDUHJybmdpTDJ0cmZFd0pJd2pGRmF3UGpUT3FxV1pBalowbnBUWlhRYnNFRUdjOXA1MU12T2lVVFVkR18xblJseU5WU0pNUlZzVFVPUDhEbTg4UUIyY28xOHE1bUpkel9UOFRPY1dhNmtJbWg1UmY5VGtyTzN6VmZDRE5RYzYwa1RDQUF0cjd0dTlmUGRFdGFMVnBnbkdrV3o1VnVhd3E5a1hhVGlPN3Iya2vSAboBQVVfeXFMTzlzcEIweDJDVm5PZ18zQXo3RUE0a2F6ZldDa21ZTkFNR0F4cHVEVTlIY3c1U3hxMjRoRWdoS1NFN0h6NUpHNjlrazhxRUtpajNFaEVNdXhncGJWWXhjYU93aTMydllnSjBmZHY5WHlXVTFXaEwzbE50bk5VdmJkZjlLNjVUazNsZGxndnBhYmJnMnBfU25tNWVCLWRaOUxuU1ItSXNuelRRSDl6a050eFllWW5ESFZDNFhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 137
+      "text": "Iran's IRGC insists the Strait of Hormuz remains open despite US blockade.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 141
+    },
+    {
+      "date": "Apr 13",
+      "text": "Reports indicate Israel's war in Lebanon against Hezbollah has not stopped.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOSmFSSXN4Zk1HYWtoTEVIX3o4YjB5dkhvVFd6R1hsVEdobXN4RVdOenlEcnJwQTBJX0lBYm83eXh5S3RZNFd4WXB2MUhWMFUySTRWRHFQTlRrbl9TZEVfV0p3SGZycTRaNXAtS0JSZGZmc0RxU25Ib2tCaVJ0TnU4dmh5Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 141
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +114,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
