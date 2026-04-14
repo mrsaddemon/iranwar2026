@@ -1,13 +1,13 @@
 {
-  "updateSequence": 147,
+  "updateSequence": 148,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T00:09:32.024Z",
+  "lastSyncedAt": "2026-04-14T03:44:49.744Z",
   "warDay": 46,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "Previous attempts at de-escalation have failed, with active conflict continuing and peace talks collapsing."
+    "summary": "A broader truce related to Iran appears to have collapsed with the US blockade, and the ceasefire in Lebanon is not holding amidst ongoing Israeli attacks."
   }
 }
