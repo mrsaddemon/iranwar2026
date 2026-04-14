@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 146,
-  "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T23:26:21.701Z",
-  "warDay": 45,
-  "summary": "The US has imposed a military blockade on Iranian ports in the Strait of Hormuz, leading to heightened tensions and threats from Iran amidst ongoing regional conflicts and failed peace talks.",
-  "lastNarrativeUpdate": "2026-04-13",
+  "updateSequence": 147,
+  "lastUpdated": "2026-04-14",
+  "lastSyncedAt": "2026-04-14T00:09:32.024Z",
+  "warDay": 46,
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No ceasefire is active, with peace talks failing and military actions escalating in the region."
+    "summary": "Previous attempts at de-escalation have failed, with active conflict continuing and peace talks collapsing."
   },
   "actorOverrides": {
     "usa": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
+    "nuclearIndex": 25,
+    "escalationLevel": 48,
     "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 12",
-      "text": "The U.S. military has imposed a blockade on Iranian ports in the Strait of Hormuz.",
+      "date": "Apr 14",
+      "text": "US military blockade on Iranian ports takes effect, impacting the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 147
+    },
+    {
+      "date": "Apr 14",
+      "text": "Hezbollah rejects US-led peace talks with Israel and urges Lebanon's government to withdraw.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPd2Z3R0licDQ4OG1VSmJwRlBlY2swY2d3Zl84VUpqMDJGQWN3cVVWeVAwUy1uS0ZrSUxfVDRhc1FtYlYtdms4eGtjOEthYnBpako2ZmtRLVJYUzB4bGRKeDVTTEJkaDFnZVZibmc2S1N0cU9Yd2Zhc0FmTTN0ZnV3bzBuVU11SWxSd2V4Y3I0QV85OEk5WHZ0TTEzN3kwdHgwZkNrNGNzQ1B5ZktxT1dz0gG0AUFVX3lxTFA1RXI0V3M0RzdKQjhjT2k3OEtqQm0yX3lRel9SZEZtOURldlRDS21EVVVwNG9aS0ctX0VfbUhkeUp2dDRvOXJKRFV0X2dUdDFxeGZsaWxIZmZfdmNUdlpxckRpRlcxOWlZazg5ZVlDV2JkaUR0V2c3WVhLV1YzYV9Yc19fSEg1VmpWVEJyRlNmQlAyd0lSbkFsbjloRVRKNDVfZ21lZ3ltdnlaZ0JyQTl4OGlwUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 147
+    },
+    {
+      "date": "Apr 14",
+      "text": "President Trump and Iran trade threats on the first day of the Strait of Hormuz blockade.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 146
+      "latestSinceUpdate": 147
     },
     {
-      "date": "Apr 12",
-      "text": "Donald Trump claims Iran 'wants to work a deal' while confirming the blockade of the Strait of Hormuz.",
+      "date": "Apr 13",
+      "text": "Following failed talks, the IDF is reportedly planning for a return to war.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 147
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iran warns of 'strong responses' as Israel's attacks on Lebanon threaten a ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPb0psUE5qdkY0ekNxN1NNcjJyRFl2VjhROXhwWkRHVWZxek5jYVRsNjdEMnpaTGtObnJWQ0FhdXhBRHZtTlY1V0ZVbGNJNG5lS2d6anJEdEdmTzIwTE9ISVVKbzFLbm9qUm5tZ29zTHpvTEE4N2RidVRNeUtqT1FZc043NDhmZDQ4N2x4eVZ6ZFhlSnp1Qk4zZ2Q4emdiY2hxbnRTOS1Ia01sOUcwVnNMMW1NNGFTUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 147
+    },
+    {
+      "date": "Apr 14",
+      "text": "An Iranian delegation arrives in Pakistan for talks with the US, though Iran states no intention of negotiating for now.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 146
-    },
-    {
-      "date": "Apr 12",
-      "text": "Iran's IRGC insists the Strait of Hormuz remains open and Tehran makes a 'bottom of the sea' threat in response to the blockade.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 146
-    },
-    {
-      "date": "Apr 12",
-      "text": "An Iranian minister states 'no intention of negotiating for now,' despite an Iranian delegation arriving for peace talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 146
-    },
-    {
-      "date": "Apr 12",
-      "text": "Peace talks involving an Iranian delegation and Vance fail, leading to reports of the IDF planning for a return to war.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 146
-    },
-    {
-      "date": "Apr 12",
-      "text": "Hezbollah leader urges Lebanon's government to cancel Israel talks as battle continues in a strategic town.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxORnFsUWIyNzNJYTQ2Zm5LWEVOTE1JeFFmdU1SZjhZWlJJYUJ3WXhwa0E3ZFdFLURTd2Vtajd6dnEtemh2ZTlsY2QwOUowRUZPc3RBcE0tZjZySnBmQmVPa2hESlpfVm1obEI3WVlsUWpfZElDVnluOTF1OF9TcXcyWGxIcDhtUFl0VkRDSWMxN3R5TU5tLTgzbmU1OHZhM2FuUUl3a29NQTB0WDY0d1VETTdua2pTOG1PUkxzei0tMk52NHVRV2M0WlU3Z3lBd2tDYnNsYVZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 146
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 147
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "United States",
-      "headline": "Trump's Firm Stance on Iran Negotiations",
-      "summary": "President Trump maintains a strong military presence near Iran, warning of further strikes if negotiations fail and asserting readiness for future conquests. He emphasizes that the military will remain until a 'real agreement' is honored.",
+      "perspective": "US/Trump Administration",
+      "headline": "US asserts dominance with Hormuz blockade, seeks deal with Iran.",
+      "summary": "The US has initiated a blockade of the Strait of Hormuz, with President Trump claiming Iran is open to a deal despite public statements to the contrary. The US views the blockade as a necessary measure against 'economic terrorism'.",
       "tone": "defiant",
-      "latestSinceUpdate": 103
+      "latestSinceUpdate": 147
     },
     {
-      "perspective": "Iran",
-      "headline": "Diplomacy Amidst Strait of Hormuz Threats",
-      "summary": "Iran engaged in direct talks with the U.S. in Pakistan but also issued stern warnings to American warships in the Strait of Hormuz, signaling a dual approach of negotiation and deterrence. The delegation arrived for talks, but no agreement was reached.",
-      "tone": "strained",
-      "latestSinceUpdate": 103
+      "perspective": "Iranian Government",
+      "headline": "Iran warns of strong responses to US blockade, rejects negotiations.",
+      "summary": "Iran has warned of strong responses to the US blockade of the Strait of Hormuz, with its minister stating no intention of negotiating for now. Iranian officials are trading threats with the US following the blockade's implementation.",
+      "tone": "defiant",
+      "latestSinceUpdate": 147
     },
     {
-      "perspective": "Israel",
-      "headline": "Continued Offensive Against Hezbollah",
-      "summary": "Israel continues its military operations against Hezbollah, rejecting ceasefire calls and asserting its intent to counter perceived threats from the group and Hamas. Netanyahu insists Israel 'will deal with' Hamas and Hezbollah's plans to invade Galilee.",
+      "perspective": "Hezbollah/Lebanon",
+      "headline": "Hezbollah rejects US-led peace talks, urges Lebanon to withdraw.",
+      "summary": "Hezbollah has publicly rejected US-led peace talks with Israel and called on the Lebanese government to pull out of negotiations. This stance comes as Israel's war in Lebanon continues and IDF plans for further conflict.",
       "tone": "defiant",
-      "latestSinceUpdate": 103
+      "latestSinceUpdate": 147
+    },
+    {
+      "perspective": "International Experts",
+      "headline": "Hormuz blockade seen as major military undertaking with high stakes.",
+      "summary": "Experts view the US blockade of the Strait of Hormuz as a significant military endeavor with potential for further escalation. The move is expected to have major geopolitical and economic implications.",
+      "tone": "anxious",
+      "latestSinceUpdate": 147
     }
   ]
 });

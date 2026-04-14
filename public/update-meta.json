@@ -1,13 +1,13 @@
 {
-  "updateSequence": 146,
-  "lastUpdated": "2026-04-13",
-  "lastSyncedAt": "2026-04-13T23:26:21.701Z",
-  "warDay": 45,
+  "updateSequence": 147,
+  "lastUpdated": "2026-04-14",
+  "lastSyncedAt": "2026-04-14T00:09:32.024Z",
+  "warDay": 46,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No ceasefire is active, with peace talks failing and military actions escalating in the region."
+    "summary": "Previous attempts at de-escalation have failed, with active conflict continuing and peace talks collapsing."
   }
 }
