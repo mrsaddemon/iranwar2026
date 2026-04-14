@@ -1,13 +1,13 @@
 {
-  "updateSequence": 151,
+  "updateSequence": 152,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T08:57:18.085Z",
+  "lastSyncedAt": "2026-04-14T10:23:53.704Z",
   "warDay": 46,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.55,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "De-escalation or ceasefire language is present, but it is mixed with warning signs that suggest the pause may be unstable."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military actions and threats."
   }
 }
