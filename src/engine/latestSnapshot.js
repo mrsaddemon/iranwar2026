@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 153,
+  "updateSequence": 154,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T11:40:22.508Z",
+  "lastSyncedAt": "2026-04-14T12:49:19.482Z",
   "warDay": 46,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US has initiated a military blockade of Iranian ports in the Strait of Hormuz, leading to threats exchanged between the US and Iran, while diplomatic efforts are underway for Israel-Lebanon talks and US-Iran nuclear proposals.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, though Lebanon seeks peace and envoys are set to meet amid ongoing Israeli operations against Hezbollah."
+    "summary": "No active ceasefire is in effect; diplomatic talks are ongoing amidst military blockade."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.68
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.45,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 49,
-    "globalPressure": 57,
-    "allianceInfluence": 46
+    "nuclearIndex": 65,
+    "escalationLevel": 88,
+    "oilDisruption": 92,
+    "tradeImpact": 82,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 13",
+      "date": "Apr 14",
       "text": "US military blockade on Iranian ports in the Strait of Hormuz takes effect.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 152
+      "latestSinceUpdate": 154
     },
     {
-      "date": "Apr 13",
-      "text": "Iran warns the US blockade of the strait will have 'widespread consequences' and threatens 'strong responses'.",
+      "date": "Apr 14",
+      "text": "Trump and Iran trade threats on the first day of the Strait of Hormuz blockade.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 154
+    },
+    {
+      "date": "Apr 14",
+      "text": "US-sanctioned ships pass through the Strait of Hormuz as the Trump blockade begins.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 153
+      "latestSinceUpdate": 154
     },
     {
-      "date": "Apr 13",
-      "text": "US-sanctioned ships reportedly pass through the Strait of Hormuz despite the blockade.",
+      "date": "Apr 14",
+      "text": "Iran accuses Gulf states of involvement in US-Israeli strikes and demands compensation.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxQNlh6Z2hsSW5kVzh5QlFlckg1dE5WZlFZTUJlNVl4cGNOVXBvWG5TUVBNa3ZoUGNNczZwc1dTc2c3MjdvZkhxNnYyNWxadUNQSVJ0Z0M5VFVrcm5BbERMRlV5cC14cnNmbHFsc0ZvRExqbHZMUlB0SmFZRFV6cVNDb3RCTzVTS0hFUFVYYm56NjJ1WUE3dFdudC1MZ2MtMTRsMjlGakRPbGdLV056dTRJZFJMa29VUGV3WkZGdEplWVd3dm83X2lrcGtOR2VmMEVuVDN1WHJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The National",
+      "latestSinceUpdate": 154
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iranian minister states 'No intention of negotiating for now,' despite US claims of war goals almost met.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 154
+    },
+    {
+      "date": "Apr 14",
+      "text": "Israel and Lebanon are set to meet for first direct talks in more than 30 years.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 153
-    },
-    {
-      "date": "Apr 13",
-      "text": "China calls the US blockade of the Strait of Hormuz 'dangerous'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 153
-    },
-    {
-      "date": "Apr 13",
-      "text": "Israel continues its war on Hezbollah as Lebanese and Israeli envoys prepare to meet for talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOOVJIXy1WTDBQbHBhM3FlYXJKY01SaGRZSnRmdXYzeGxGYzB1TEVzbjNud1lYUG5PMjJiNHoxS2tfTDhfNzk5TnF2bGhpTU1lejRPUHVfUklvUnFfX1BuYXpxakg4eHVBdWpTM25xZkl0WW9leGREaGU3S1V5ZGVIc0pUMXJqX2pqdGtGRDNCV3R3b3BQbUdkSVVvVmpIblpwY0RLdU45T0hhcHV0LUlfNw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 153
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE14d1poQ0V6VVIyVy1KRzlRemY4ZS1PUmRkODNRU2xpZ21jclNMQnFGb0l5NU0wOWFZWkE0Z0xzVmdYMWMwVmRRNTExRTBpVEpWb05MVWVQLUlUSm5lblFqQU90YkpuSzR6S0c3Wjh1Ti1INlk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 154
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

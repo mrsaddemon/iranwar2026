@@ -1,13 +1,13 @@
 {
-  "updateSequence": 153,
+  "updateSequence": 154,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T11:40:22.508Z",
+  "lastSyncedAt": "2026-04-14T12:49:19.482Z",
   "warDay": 46,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, though Lebanon seeks peace and envoys are set to meet amid ongoing Israeli operations against Hezbollah."
+    "summary": "No active ceasefire is in effect; diplomatic talks are ongoing amidst military blockade."
   }
 }
