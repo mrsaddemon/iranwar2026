@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 149,
+  "updateSequence": 150,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T05:52:35.473Z",
+  "lastSyncedAt": "2026-04-14T07:13:18.580Z",
   "warDay": 46,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -60,26 +60,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "Iran war updates: US block of Hormuz begins, Hezbollah rejects Israel talks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 149
-    },
-    {
-      "date": "Apr 14",
-      "text": "Iran Update Special Report, April 13, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQWTF5Y0FaQkdmS3YycDFGTVJ3dFk0YzY4WG5GTjJRNC16VWE0cjQ1QnppZTJ1LVo4QjIxUlVyakVvMmpDYklGWkVsZkdRRUxlLVQ5MGprZWtBeUpJUzdITGJLUUpoY0V1YzUtZW1iMkdqZXBMLUcwS1BHOVVrX25vTENOOGdoNUpfc0taMk5pdGVJN0lrd1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 149
-    },
-    {
-      "date": "Apr 14",
       "text": "Iran War Live Updates: Trump and Iran Trade Threats on 1st Day of Strait of Hormuz Blockade",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE9lTGVSaGRfSFNsX1ByeERMLWoxdWREdGtBVXNaQy1EeUdZeU9RSVZYY1UxcVh6NzRadndia294eTlGbUtLOVl3N2wySTZ6aVZlMWtjRmlWNF9rVG81NDltb2ZJTU9QWVRGS1JaUUlPaHNZdjA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
+      "latestSinceUpdate": 149
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iran war updates: US block of Hormuz begins, Hezbollah rejects Israel talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 149
     },
     {
@@ -92,25 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 14",
-      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
+      "text": "Iran Update Special Report, April 13, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQWTF5Y0FaQkdmS3YycDFGTVJ3dFk0YzY4WG5GTjJRNC16VWE0cjQ1QnppZTJ1LVo4QjIxUlVyakVvMmpDYklGWkVsZkdRRUxlLVQ5MGprZWtBeUpJUzdITGJLUUpoY0V1YzUtZW1iMkdqZXBMLUcwS1BHOVVrX25vTENOOGdoNUpfc0taMk5pdGVJN0lrd1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
       "latestSinceUpdate": 149
     },
     {
       "date": "Apr 14",
-      "text": "Iranian Delegation Arrives at Peace Talks, With Vance en Route",
+      "text": "Iran war latest: US blockade of strait will have 'widespread consequences', Tehran warns",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 150
+    },
+    {
+      "date": "Apr 14",
+      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
       "latestSinceUpdate": 149
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
