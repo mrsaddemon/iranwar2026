@@ -1,13 +1,13 @@
 {
-  "updateSequence": 159,
+  "updateSequence": 160,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T19:54:15.718Z",
+  "lastSyncedAt": "2026-04-14T21:03:25.519Z",
   "warDay": 46,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in place, though discussions for peace deals and direct negotiations are ongoing."
+    "summary": "No active ceasefire is reported between the primary belligerents, though diplomatic talks are underway."
   }
 }

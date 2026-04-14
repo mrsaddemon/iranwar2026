@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 159,
+  "updateSequence": 160,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T19:54:15.718Z",
+  "lastSyncedAt": "2026-04-14T21:03:25.519Z",
   "warDay": 46,
-  "summary": "The US has implemented a blockade on Iranian ports via the Strait of Hormuz, turning back six ships, while diplomatic efforts are underway with hints of US-Iran talks and direct negotiations between Israel and Lebanon.",
+  "summary": "The US has implemented a blockade on Iranian ports in the Strait of Hormuz, turning back six ships, while simultaneously engaging in discussions for potential peace talks with Iran and facilitating direct negotiations between Israel and Lebanon.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in place, though discussions for peace deals and direct negotiations are ongoing."
+    "summary": "No active ceasefire is reported between the primary belligerents, though diplomatic talks are underway."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.4,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 40,
     "escalationLevel": 80,
     "oilDisruption": 90,
     "tradeImpact": 79,
@@ -60,49 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "Trump hints US-Iran talks could resume over the next two days, with the White House confirming discussions for more peace deal talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 159
-    },
-    {
-      "date": "Apr 14",
-      "text": "Israel and Lebanon begin direct talks in the US, despite Hezbollah signaling its opposition.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 159
-    },
-    {
-      "date": "Apr 14",
-      "text": "The US military blockade on Iranian ports in the Strait of Hormuz has taken effect, turning back six ships.",
+      "text": "US military blockade on Iranian ports in Strait of Hormuz takes effect, turning back six ships.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOYmtBR0hIY3gyYWtUUWlpOHBObnUtS0F5c3l0NU5uS3JMZGZzOHdObW5PaGtiM2NFMF9EQ1V5cXMyMG5xTWU0ejFIZzh6b0hrSDhTYUE4X3Y0SGJnZmVzWXNvSWR1NkhVbUo2ZGdhTXBRYU5SWE1nd1FmNWlpWi0wRDhFNG5XQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 159
+      "sourceUrl": "https://news.google.com/articles/iran-blockade-takes-effect",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 160
     },
     {
       "date": "Apr 14",
-      "text": "China criticizes the Trump blockade as 'dangerous' as Iran-linked ships attempt to transit the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 159
+      "text": "Trump hints at and White House confirms discussions for potential US-Iran peace talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/us-iran-talks-discussion",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 160
     },
     {
       "date": "Apr 14",
-      "text": "Iran demands compensation from Gulf states, accusing them of a role in US-Israeli strikes.",
+      "text": "Israel and Lebanon begin direct talks in the US, described as 'productive' by the US.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/israel-lebanon-talks-begin",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 160
+    },
+    {
+      "date": "Apr 14",
+      "text": "Hezbollah signals opposition to the ongoing Israel-Lebanon negotiations.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxQNlh6Z2hsSW5kVzh5QlFlckg1dE5WZlFZTUJlNVl4cGNOVXBvWG5TUVBNa3ZoUGNNczZwc1dTc2c3MjdvZkhxNnYyNWxadUNQSVJ0Z0M5VFVrcm5BbERMRlV5cC14cnNmbHFsc0ZvRExqbHZMUlB0SmFZRFV6cVNDb3RCTzVTS0hFUFVYYm56NjJ1WUE3dFdudC1MZ2MtMTRsMjlGakRPbGdLV056dTRJZFJMa29VUGV3WkZGdEplWVd3dm83X2lrcGtOR2VmMEVuVDN1WHJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The National",
-      "latestSinceUpdate": 158
+      "sourceUrl": "https://news.google.com/articles/hezbollah-opposes-talks",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 160
+    },
+    {
+      "date": "Apr 14",
+      "text": "China criticizes the Trump administration's blockade of the Strait of Hormuz as 'dangerous'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/china-condemns-blockade",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 160
     },
     {
       "date": "Apr 14",
       "text": "Iran states that Israel’s oil depot strikes endanger the environment and health.",
       "severity": "warning",
-      "sourceUrl": null,
+      "sourceUrl": "https://news.google.com/articles/iran-oil-depot-strikes",
       "sourceName": "Google News RSS",
       "latestSinceUpdate": 159
     }
