@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 148,
+  "updateSequence": 149,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T03:44:49.744Z",
+  "lastSyncedAt": "2026-04-14T05:52:35.473Z",
   "warDay": 46,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A broader truce related to Iran appears to have collapsed with the US blockade, and the ceasefire in Lebanon is not holding amidst ongoing Israeli attacks."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "US military blockade on Iranian ports takes effect in the Strait of Hormuz",
+      "text": "Iran war updates: US block of Hormuz begins, Hezbollah rejects Israel talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 149
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iran Update Special Report, April 13, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQWTF5Y0FaQkdmS3YycDFGTVJ3dFk0YzY4WG5GTjJRNC16VWE0cjQ1QnppZTJ1LVo4QjIxUlVyakVvMmpDYklGWkVsZkdRRUxlLVQ5MGprZWtBeUpJUzdITGJLUUpoY0V1YzUtZW1iMkdqZXBMLUcwS1BHOVVrX25vTENOOGdoNUpfc0taMk5pdGVJN0lrd1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 149
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iran War Live Updates: Trump and Iran Trade Threats on 1st Day of Strait of Hormuz Blockade",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE9lTGVSaGRfSFNsX1ByeERMLWoxdWREdGtBVXNaQy1EeUdZeU9RSVZYY1UxcVh6NzRadndia294eTlGbUtLOVl3N2wySTZ6aVZlMWtjRmlWNF9rVG81NDltb2ZJTU9QWVRGS1JaUUlPaHNZdjA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 149
+    },
+    {
+      "date": "Apr 14",
+      "text": "Live updates: Trump warns Iran as US military blockade on Iranian ports takes effect",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 148
+      "latestSinceUpdate": 149
     },
     {
       "date": "Apr 14",
-      "text": "President Trump warns Iran and vows to 'kill' Iranian warships that near the US blockade",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9ZWVliOTc5bUlabmp4VW1PTW42TzlMUjltTGlZOTFFamdobnZDdVNHdHh2NE5TMW5IME5tX2JXQkt0YnhQUGx2c0x3LThOODQ3MU5VYjZ0U0VBVm0yN3FpVVJNVC1KUUU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 148
-    },
-    {
-      "date": "Apr 14",
-      "text": "Iran warns of 'strong responses' to US actions and Israel's attacks on Lebanon",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPb0psUE5qdkY0ekNxN1NNcjJyRFl2VjhROXhwWkRHVWZxek5jYVRsNjdEMnpaTGtObnJWQ0FhdXhBRHZtTlY1V0ZVbGNJNG5lS2d6anJEdEdmTzIwTE9ISVVKbzFLbm9qUm5tZ29zTHpvTEE4N2RidVRNeUtqT1FZc043NDhmZDQ4N2x4eVZ6ZFhlSnp1Qk4zZ2Q4emdiY2hxbnRTOS1Ia01sOUcwVnNMMW1NNGFTUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 148
-    },
-    {
-      "date": "Apr 14",
-      "text": "Iranian delegation arrives in Pakistan for peace talks with US envoy Vance en route",
+      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 148
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 149
     },
     {
       "date": "Apr 14",
-      "text": "Iranian minister states 'no intention of negotiating for now' despite delegation's arrival for talks",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 148
-    },
-    {
-      "date": "Apr 14",
-      "text": "Hezbollah leader urges Lebanon’s government to pull out of Israel talks",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPd2Z3R0licDQ4OG1VSmJwRlBlY2swY2d3Zl84VUpqMDJGQWN3cVVWeVAwUy1uS0ZrSUxfVDRhc1FtYlYtdms4eGtjOEthYnBpako2ZmtRLVJYUzB4bGRKeDVTTEJkaDFnZVZibmc2S1N0cU9Yd2Zhc0FmTTN0ZnV3bzBuVU11SWxSd2V4Y3I0QV85OEk5WHZ0TTEzN3kwdHgwZkNrNGNzQ1B5ZktxT1dz0gG0AUFVX3lxTFA1RXI0V3M0RzdKQjhjT2k3OEtqQm0yX3lRel9SZEZtOURldlRDS21EVVVwNG9aS0ctX0VfbUhkeUp2dDRvOXJKRFV0X2dUdDFxeGZsaWxIZmZfdmNUdlpxckRpRlcxOWlZazg5ZVlDV2JkaUR0V2c3WVhLV1YzYV9Yc19fSEg1VmpWVEJyRlNmQlAyd0lSbkFsbjloRVRKNDVfZ21lZ3ltdnlaZ0JyQTl4OGlwUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 148
+      "text": "Iranian Delegation Arrives at Peace Talks, With Vance en Route",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPMEVFMUtBU0M0VXBGM25pbWk4b0hFNUxweGVNSFJDYTJlMUZjSnFuMXZicXNZNU9SZnhleEFaRVRQN1VUb0NJQ3RIYm9Fb0dLcjVKd3RuNVV3eXRCSm1yTzlURmdUWlN4NUZFQXBnZ29pR2Nxa0Y0YjlxRmNJc0Y5eQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 149
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
