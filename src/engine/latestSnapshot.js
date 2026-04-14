@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 150,
+  "updateSequence": 151,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T07:13:18.580Z",
+  "lastSyncedAt": "2026-04-14T08:57:18.085Z",
   "warDay": 46,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire or operational pause appears to be in effect, but ongoing pressure and proxy activity leave the regional picture unstable.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.55,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "De-escalation or ceasefire language is present, but it is mixed with warning signs that suggest the pause may be unstable."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 30,
     "escalationLevel": 38,
     "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "tradeImpact": 51,
+    "sanctionsPressure": 56,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 14",
-      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
+      "text": "Israelis war-weary but most oppose Iran ceasefire, poll suggests",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1HanJBcWdCZkV2TmRxd0JYUjRuc0xWYTZxZ0dkUkZ5bVBqTHl2Tnl3SG9ycm9HVGtvUnJaNzkwdzlrMW1Fb2tfZUVnZWV5YjJ1LXc4dDZWalU3UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 149
+      "latestSinceUpdate": 151
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
