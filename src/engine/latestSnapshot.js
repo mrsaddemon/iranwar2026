@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 152,
+  "updateSequence": 153,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T10:23:53.704Z",
+  "lastSyncedAt": "2026-04-14T11:40:22.508Z",
   "warDay": 46,
-  "summary": "The United States has imposed a military blockade on Iranian ports in the Strait of Hormuz, drawing warnings from Tehran about widespread consequences and calls from China to cease the 'dangerous' action, while Israel's conflict in Lebanon continues.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military actions and threats."
+    "summary": "No active ceasefire is in effect, though Lebanon seeks peace and envoys are set to meet amid ongoing Israeli operations against Hezbollah."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 92,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
-    "sanctionsPressure": 65,
-    "globalPressure": 87,
-    "allianceInfluence": 51
+    "nuclearIndex": 45,
+    "escalationLevel": 38,
+    "oilDisruption": 90,
+    "tradeImpact": 56,
+    "sanctionsPressure": 49,
+    "globalPressure": 57,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -67,42 +67,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 152
     },
     {
-      "date": "Apr 14",
-      "text": "Iran warns the US blockade of the Strait of Hormuz will have 'widespread consequences'.",
+      "date": "Apr 13",
+      "text": "Iran warns the US blockade of the strait will have 'widespread consequences' and threatens 'strong responses'.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 152
+      "latestSinceUpdate": 153
     },
     {
-      "date": "Apr 14",
-      "text": "Hezbollah leader urges Lebanon’s government to pull out of talks with Israel.",
+      "date": "Apr 13",
+      "text": "US-sanctioned ships reportedly pass through the Strait of Hormuz despite the blockade.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPd2Z3R0licDQ4OG1VSmJwRlBlY2swY2d3Zl84VUpqMDJGQWN3cVVWeVAwUy1uS0ZrSUxfVDRhc1FtYlYtdms4eGtjOEthYnBpako2ZmtRLVJYUzB4bGRKeDVTTEJkaDFnZVZibmc2S1N0cU9Yd2Zhc0FmTTN0ZnV3bzBuVU11SWxSd2V4Y3I0QV85OEk5WHZ0TTEzN3kwdHgwZkNrNGNzQ1B5ZktxT1dz0gG0AUFVX3lxTFA1RXI0V3M0RzdKQjhjT2k3OEtqQm0yX3lRel9SZEZtOURldlRDS21EVVVwNG9aS0ctX0VfbUhkeUp2dDRvOXJKRFV0X2dUdDFxeGZsaWxIZmZfdmNUdlpxckRpRlcxOWlZazg5ZVlDV2JkaUR0V2c3WVhLV1YzYV9Yc19fSEg1VmpWVEJyRlNmQlAyd0lSbkFsbjloRVRKNDVfZ21lZ3ltdnlaZ0JyQTl4OGlwUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 152
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 153
     },
     {
-      "date": "Apr 14",
-      "text": "Reports indicate Israel’s War in Lebanon has not stopped.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOSmFSSXN4Zk1HYWtoTEVIX3o4YjB5dkhvVFd6R1hsVEdobXN4RVdOenlEcnJwQTBJX0lBYm83eXh5S3RZNFd4WXB2MUhWMFUySTRWRHFQTlRrbl9TZEVfV0p3SGZycTRaNXAtS0JSZGZmc0RxU25Ib2tCaVJ0TnU4dmh5Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New Yorker",
-      "latestSinceUpdate": 152
+      "date": "Apr 13",
+      "text": "China calls the US blockade of the Strait of Hormuz 'dangerous'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 153
     },
     {
-      "date": "Apr 14",
-      "text": "Iran demands compensation from Gulf states, accusing them of a role in US-Israeli strikes.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxQNlh6Z2hsSW5kVzh5QlFlckg1dE5WZlFZTUJlNVl4cGNOVXBvWG5TUVBNa3ZoUGNNczZwc1dTc2c3MjdvZkhxNnYyNWxadUNQSVJ0Z0M5VFVrcm5BbERMRlV5cC14cnNmbHFsc0ZvRExqbHZMUlB0SmFZRFV6cVNDb3RCTzVTS0hFUFVYYm56NjJ1WUE3dFdudC1MZ2MtMTRsMjlGakRPbGdLV056dTRJZFJMa29VUGV3WkZGdEplWVd3dm83X2lrcGtOR2VmMEVuVDN1WHJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The National",
-      "latestSinceUpdate": 152
+      "date": "Apr 13",
+      "text": "Israel continues its war on Hezbollah as Lebanese and Israeli envoys prepare to meet for talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOOVJIXy1WTDBQbHBhM3FlYXJKY01SaGRZSnRmdXYzeGxGYzB1TEVzbjNud1lYUG5PMjJiNHoxS2tfTDhfNzk5TnF2bGhpTU1lejRPUHVfUklvUnFfX1BuYXpxakg4eHVBdWpTM25xZkl0WW9leGREaGU3S1V5ZGVIc0pUMXJqX2pqdGtGRDNCV3R3b3BQbUdkSVVvVmpIblpwY0RLdU45T0hhcHV0LUlfNw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 153
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
