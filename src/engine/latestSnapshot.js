@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 160,
+  "updateSequence": 161,
   "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T21:03:25.519Z",
+  "lastSyncedAt": "2026-04-14T22:00:21.821Z",
   "warDay": 46,
-  "summary": "The US has implemented a blockade on Iranian ports in the Strait of Hormuz, turning back six ships, while simultaneously engaging in discussions for potential peace talks with Iran and facilitating direct negotiations between Israel and Lebanon.",
+  "summary": "The US and Iran are engaged in discussions regarding a potential peace deal, even as Iran implements a Strait of Hormuz blockade, prompting US military action and international concern, while Israel and Lebanon also begin direct talks.",
   "lastNarrativeUpdate": "2026-04-14",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported between the primary belligerents, though diplomatic talks are underway."
+    "summary": "No active ceasefire is reported, though peace deal talks between the US and Iran, and direct negotiations between Israel and Lebanon, are underway."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 60,
+    "escalationLevel": 75,
+    "oilDisruption": 85,
+    "tradeImpact": 75,
+    "sanctionsPressure": 62,
+    "globalPressure": 80,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "US military blockade on Iranian ports in Strait of Hormuz takes effect, turning back six ships.",
+      "text": "Trump hints US-Iran talks could resume over the next two days, with the White House confirming peace deal discussions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 161
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iran implements a Strait of Hormuz blockade, leading to Trump and Iran trading threats.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/iran-blockade-takes-effect",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 160
+      "latestSinceUpdate": 161
     },
     {
       "date": "Apr 14",
-      "text": "Trump hints at and White House confirms discussions for potential US-Iran peace talks.",
+      "text": "The US military reports turning back six ships in the first 24 hours of the Iranian port blockade, with US Navy mine-clearing ships moving into position.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNSnBndnllRFhHS0RYXzZvTXBVWVhhNW12bE0wV294VFB6dzdDQnY3b2VScWM4SnBlSXlTNEZHd0xUcHZhcXhYTnpsc3dVTmNpY1hoNUVDeElYLXJxMkNNX0YyWnVqVVlxdDd4ZkxsUWFsZkZFYXc4MDRSOU41QzJtZWdPeXgzUDRtcGx1eVlMbnhWSGNFdl9iSFJfVGlQdlRORVNvYkw0WDRLVU5ISE42WjBSdHhLM2hKdXg0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 161
+    },
+    {
+      "date": "Apr 14",
+      "text": "Israel and Lebanon begin direct talks hosted by the US, despite Hezbollah signaling its opposition.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/us-iran-talks-discussion",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 160
+      "latestSinceUpdate": 161
     },
     {
       "date": "Apr 14",
-      "text": "Israel and Lebanon begin direct talks in the US, described as 'productive' by the US.",
+      "text": "China states that the Trump blockade is 'dangerous' as Iran-linked ships transit the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 161
+    },
+    {
+      "date": "Apr 14",
+      "text": "NATO allies are reportedly sitting out the US Iran blockade amid rising tensions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/israel-lebanon-talks-begin",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 160
-    },
-    {
-      "date": "Apr 14",
-      "text": "Hezbollah signals opposition to the ongoing Israel-Lebanon negotiations.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/hezbollah-opposes-talks",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 160
-    },
-    {
-      "date": "Apr 14",
-      "text": "China criticizes the Trump administration's blockade of the Strait of Hormuz as 'dangerous'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/china-condemns-blockade",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 160
-    },
-    {
-      "date": "Apr 14",
-      "text": "Iran states that Israel’s oil depot strikes endanger the environment and health.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/iran-oil-depot-strikes",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 159
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxQVDRBSzM1TkRVU1dsbHp5OHVJcU9UcGlHQU5ZcjBQZXM4WWc4cnh6UkJFaVVqV1BFRTBHbWQ5UWtfaEh2YVlPTzhoNF9nRWptNmF1VkZ2RlNCVE9RNUU0TzN2LXVYX3phT2FRZG1TV01oTDltVDdxamhfQzd0WklGOGVSNGVBU3B2UTRka0VaTVd3SEhkWHlV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "KATU",
+      "latestSinceUpdate": 161
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
