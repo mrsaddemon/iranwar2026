@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 167,
+  "updateSequence": 168,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T08:57:21.586Z",
+  "lastSyncedAt": "2026-04-15T10:24:09.705Z",
   "warDay": 47,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US has enforced a blockade on Iranian ports in the Strait of Hormuz, while President Trump suggests the war is nearing its end and hints at renewed talks, even as an Iranian minister states no intention to negotiate for now, and Israel and Lebanon hold direct talks.",
   "lastNarrativeUpdate": "2026-04-15",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and conflicting statements on negotiations."
+    "summary": "No active ceasefire is reported, with ongoing military actions and mixed signals on negotiations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.6
       }
     },
@@ -37,22 +37,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 51,
-    "globalPressure": 60,
-    "allianceInfluence": 57
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "US military blockade on Iranian ports takes effect, turning back six ships in the first 24 hours.",
+      "text": "U.S. Enforces Blockade, Sends Tankers Back to Iran",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE55eTVFeWpJMGI5a2t2NTlXbzRNVkpyb1VWbktZUVdHTGZhdWx2aUY1akV4ZmhaZ3o0dXVhQ2haZGVHVXhoNTFNTVpJQXEzX2hTZktYSFZIUjBMcFFxcmtPd3IydWxJMUdPdS1Pb2xiTzhfenVvMWt2V1R3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 168
+    },
+    {
+      "date": "Apr 14",
+      "text": "U.S. military turned back six ships in first 24 hours of Iranian port blockade",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNSnBndnllRFhHS0RYXzZvTXBVWVhhNW12bE0wV294VFB6dzdDQnY3b2VScWM4SnBlSXlTNEZHd0xUcHZhcXhYTnpsc3dVTmNpY1hoNUVDeElYLXJxMkNNX0YyWnVqVVlxdDd4ZkxsUWFsZkZFYXc4MDRSOU41QzJtZWdPeXgzUDRtcGx1eVlMbnhWSGNFdl9iSFJfVGlQdlRORVNvYkw0WDRLVU5ISE42WjBSdHhLM2hKdXg0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 167
+      "latestSinceUpdate": 168
     },
     {
-      "date": "Apr 15",
-      "text": "US military states the blockade of Iran ports 'completely' halts economic trade.",
+      "date": "Apr 14",
+      "text": "US military says blockade of Iran ports 'completely' halts economic trade",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOQjYwZVJnOXl1M211V1ZJMGVUSlN2cHZDenJxa1dVZ2FJMnk4b3JJQW10eFlEdUZtcW5yZ1pNNG5ZU2JxNWMxenZMaXNzSGFGcEpFbkdIRWJ1N0d0b2JqWnVNYmp6U3U1UWhORWJCbV9PN0JYN2FURlUybnhtVkxaTmhGWUlLQlo3bkRTS3cxTXZ0ZUU4dW9ualNtWG13dk92QWU2WnNOS0g5RG1GbHZjRTd6b2V5QdIBuwFBVV95cUxPU1pvRGd2X2t3V0dyNUdsZFV0RmZXVkhPZE9rMmRMY0szOVhWU2xETjRhWDZzM0J0ZXRabk1uVllrNUxocVpOalBTV3J0eWVQTFpiVEhqVnQ2Z0xUWElJT19wM2tCY29lMUlpX2VJYmpuOHpEVHZCbHBUT2E2U1U1RW8wRFdvNnRPeVpOZDlZVlRkOWZtai1xSzdnZDYwTDlNMEthNkl4c2hoOXBUWXk4OVUxWWZHMnJVNlR3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 167
+      "latestSinceUpdate": 168
     },
     {
-      "date": "Apr 15",
-      "text": "President Trump teases more talks and suggests a deal with Tehran is 'very possible' by end of month.",
+      "date": "Apr 14",
+      "text": "Trump hints US-Iran talks could resume over next two days",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 167
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 168
     },
     {
-      "date": "Apr 15",
-      "text": "Iranian minister states 'No intention of negotiating for now' despite US claims of war goals almost met.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 167
-    },
-    {
-      "date": "Apr 15",
-      "text": "Hezbollah launches rockets at Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 166
-    },
-    {
-      "date": "Apr 15",
-      "text": "Israel and Lebanon hold first direct talks since 1993 in the US.",
+      "date": "Apr 14",
+      "text": "As war rages, Israel and Lebanon hold first direct talks since 1993",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9aZGxOSU1uN2FqLTJmb3k1cjhmSHM0M0djdjlIdm5mMm1CWkViNHVjQXRQMFZzTll4YkFkUmsxdGFzWFV4NF84bG0tT3ZBaThnbHh2ZXgtQVBLdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 167
+      "sourceName": "bbc.com",
+      "latestSinceUpdate": 168
+    },
+    {
+      "date": "Apr 14",
+      "text": "'No intention of negotiating for now,' says Iranian minister",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "bbc.com",
+      "latestSinceUpdate": 168
     }
   ],
   "sourceStatuses": [
