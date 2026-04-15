@@ -1,13 +1,13 @@
 {
-  "updateSequence": 171,
+  "updateSequence": 172,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T14:18:19.064Z",
+  "lastSyncedAt": "2026-04-15T15:44:06.834Z",
   "warDay": 47,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with ongoing hostilities between Israel and Hezbollah despite diplomatic talks between Israel and Lebanon."
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is being discussed by the Israeli security cabinet, but conflicting reports exist, and Israel and Hezbollah continue attacks."
   }
 }
