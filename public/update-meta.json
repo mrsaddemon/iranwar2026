@@ -1,13 +1,13 @@
 {
-  "updateSequence": 174,
+  "updateSequence": 175,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T17:51:04.838Z",
+  "lastSyncedAt": "2026-04-15T18:55:08.720Z",
   "warDay": 47,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Discussions for a Lebanon ceasefire are reported but remain unconfirmed and are rejected by Hezbollah, while the broader conflict continues."
+    "summary": "No active ceasefire is in effect, with hostilities and threats ongoing."
   }
 }

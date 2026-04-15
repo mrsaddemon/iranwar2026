@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 174,
+  "updateSequence": 175,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T17:51:04.838Z",
+  "lastSyncedAt": "2026-04-15T18:55:08.720Z",
   "warDay": 47,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The U.S. is enforcing a blockade on Iran, leading Iran to threaten Red Sea shipping, while diplomatic efforts include Pakistani mediation for US-Iran talks and direct discussions between Israel and Lebanon amidst ongoing Hezbollah rocket fire.",
   "lastNarrativeUpdate": "2026-04-15",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Discussions for a Lebanon ceasefire are reported but remain unconfirmed and are rejected by Hezbollah, while the broader conflict continues."
+    "summary": "No active ceasefire is in effect, with hostilities and threats ongoing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "nuclearIndex": 60,
+    "escalationLevel": 85,
+    "oilDisruption": 95,
+    "tradeImpact": 84,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 15",
-      "text": "US military blockade on Iranian ports takes effect, completely halting economic trade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOQjYwZVJnOXl1M211V1ZJMGVUSlN2cHZDenJxa1dVZ2FJMnk4b3JJQW10eFlEdUZtcW5yZ1pNNG5ZU2JxNWMxenZMaXNzSGFGcEpFbkdIRWJ1N0d0b2JqWnVNYmp6U3U1UWhORWJCbV9PN0JYN2FURlUybnhtVkxaTmhGWUlLQlo3bkRTS3cxTXZ0ZUU4dW9ualNtWG13dk92QWU2WnNOS0g5RG1GbHZjRTd6b2V5QdIBuwFBVV95cUxPU1pvRGd2X2t3V0dyNUdsZFV0RmZXVkhPZE9rMmRMY0szOVhWU2xETjRhWDZzM0J0ZXRabk1uVllrNUxocVpOalBTV3J0eWVQTFpiVEhqVnQ2Z0xUWElJT19wM2tCY29lMUlpX2VJYmpuOHpEVHZCbHBUT2E2U1U1RW8wRFdvNnRPeVpOZDlZVlRkOWZtai1xSzdnZDYwTDlNMEthNkl4c2hoOXBUWXk4OVUxWWZHMnJVNlR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 174
-    },
-    {
-      "date": "Apr 15",
-      "text": "Iran threatens retaliation over U.S. blockade of Strait of Hormuz and warns of halting Red Sea traffic.",
+      "date": "Apr 14",
+      "text": "U.S. enforces blockade on Iran, turning back tankers.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 174
+      "latestSinceUpdate": 175
     },
     {
-      "date": "Apr 15",
-      "text": "CENTCOM details Strait of Hormuz minesweeping operation as US blockade continues.",
+      "date": "Apr 14",
+      "text": "Iran threatens Red Sea and Gulf shipping if US blockade continues.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE45c09ySjZnb2p0NmdXamVkdkxRWHNkTzh2U3RGdF9uLU50WThZZHFoSWEyb0RyWndTeWlDTHBsQ0lqRHB5YzJWSEVPS3YzbFJDclk1NVNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 174
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 175
     },
     {
-      "date": "Apr 15",
-      "text": "Hezbollah launches rockets at Israel.",
+      "date": "Apr 14",
+      "text": "Hezbollah launches rockets towards Israel.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 174
+      "latestSinceUpdate": 175
     },
     {
-      "date": "Apr 15",
-      "text": "Israel Air Force aircraft take off to strike Hezbollah targets in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE4yVnloY0VhQXR6a2NvNmxrcHJPTzN6bmdMbnhkb1lTYndzenFjWkI2ZHBHQTlzM1dyYTh6WEpzMG1KajhFYm05b3EwbG1iVzhvX0tWNFBB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 174
-    },
-    {
-      "date": "Apr 15",
-      "text": "Pakistani army chief visits Tehran amid bid to restart US talks.",
+      "date": "Apr 14",
+      "text": "Pakistani army chief visits Tehran amid efforts to restart US-Iran talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 174
+      "latestSinceUpdate": 175
+    },
+    {
+      "date": "Apr 14",
+      "text": "Israel and Lebanon hold first direct talks since 1993.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9aZGxOSU1uN2FqLTJmb3k1cjhmSHM0M0djdjlIdm5mMm1CWkViNHVjQXRQMFZzTll4YkFkUmsxdGFzWFV4NF84bG0tT3ZBaThnbHh2ZXgtQVBLdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 175
+    },
+    {
+      "date": "Apr 15",
+      "text": "World Bank president warns of months of disruption even if Hormuz Strait reopens.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPek9NSHZYa24tRllzTi1RUXJDT0NBQVYyY3NpaE5VZV8tOWp1NWg0M3hOcGFHM3J0NWhaQ2hKSWltQTlVVWw2SmpWQk5WSy1Hb2MxUnpPRzN1M1lkNUR2ekRCYlhfaFFpMmV4TlRfcHJKVmFmUXFpaWdUVnNySHpQanVqTlliTGYw0gGOAUFVX3lxTE9uUGstX2IyVXB5ZzZGaWxLUUxjLW52THFPZkw0X2s0ZFVlV05KWU4xQ1RsZWY3dFVVSlh2OC1pNE5CWWpFTXdhWkNqWE9IMHVQcFU2SV9fZi1DNkZ5RWFQdTVmTzcwelk2WlQ5WW1Hck53N1F5alZ5OWQySTljZ0JhUUlTY2pHaG9HUC1rWWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 175
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
