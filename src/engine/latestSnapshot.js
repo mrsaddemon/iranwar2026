@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 177,
+  "updateSequence": 178,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T21:09:06.774Z",
+  "lastSyncedAt": "2026-04-15T22:06:22.100Z",
   "warDay": 47,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-15",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 2,
-    "summary": "Despite ongoing talks, no ceasefire is active, and a poll indicates Israeli opposition to one with Iran."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and public opposition to a ceasefire in Israel."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
     "sanctionsPressure": 49,
-    "globalPressure": 55,
-    "allianceInfluence": 51
+    "globalPressure": 56,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 15",
-      "text": "White House expresses optimism about a potential Iran deal.",
+      "text": "US President Trump floats new US-Iran talks within days, while the White House expresses optimism about a potential Iran deal.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 177
-    },
-    {
-      "date": "Apr 15",
-      "text": "US enforces a blockade on the Strait of Hormuz, turning back nine ships in 48 hours.",
-      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 177
+      "latestSinceUpdate": 178
     },
     {
       "date": "Apr 15",
-      "text": "Iran threatens shipping in the Gulf and Red Sea.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 177
-    },
-    {
-      "date": "Apr 15",
-      "text": "Israel steps up strikes on Lebanon as Hezbollah attacks continue.",
+      "text": "Israel steps up strikes on Lebanon as Hezbollah attacks continue, with polls suggesting Israelis are war-weary but oppose a ceasefire.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5zbEVmX3Y4UmlkNXJyNFY4bjd5VDRUdm9WYkZ3NU5KT3V5NUlPZW1fWWoxX2JFQWdKSkJrdlRNZ05yNjRld2o2QTJpdTBHWXNmWl9QQ2ptaHB3dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 177
+      "latestSinceUpdate": 178
     },
     {
       "date": "Apr 15",
-      "text": "Israelis are war-weary but a poll suggests most oppose an Iran ceasefire.",
+      "text": "Iran threatens shipping in the Gulf and Red Sea, while the US military states a blockade has halted Iranian shipping, though some vessels are reportedly still passing through the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 178
+    },
+    {
+      "date": "Apr 15",
+      "text": "The US military turned back nine ships in the first 48 hours of an Iranian port blockade.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNSnBndnllRFhHS0RYXzZvTXBVWVhhNW12bE0wV294VFB6dzdDQnY3b2VScWM4SnBlSXlTNEZHd0xUcHZhcXhYTnpsc3dVTmNpY1hoNUVDeElYLXJxMkNNX0YyWnVqVVlxdDd4ZkxsUWFsZkZFYXc4MDRSOU41QzJtZWdPeXgzUDRtcGx1eVlMbnhWSGNFdl9iSFJfVGlQdlRORVNvYkw0WDRLVU5ISE42WjBSdHhLM2hKdXg0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 178
+    },
+    {
+      "date": "Apr 15",
+      "text": "Israel and Lebanon hold their first direct talks since 1993 in the US, though a Lebanese official states these are 'not negotiations'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1HanJBcWdCZkV2TmRxd0JYUjRuc0xWYTZxZ0dkUkZ5bVBqTHl2Tnl3SG9ycm9HVGtvUnJaNzkwdzlrMW1Fb2tfZUVnZWV5YjJ1LXc4dDZWalU3UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9aZGxOSU1uN2FqLTJmb3k1cjhmSHM0M0djdjlIdm5mMm1CWkViNHVjQXRQMFZzTll4YkFkUmsxdGFzWFV4NF84bG0tT3ZBaThnbHh2ZXgtQVBLdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 177
+      "latestSinceUpdate": 178
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
