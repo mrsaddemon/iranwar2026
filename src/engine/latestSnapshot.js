@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 169,
+  "updateSequence": 170,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T11:36:26.533Z",
+  "lastSyncedAt": "2026-04-15T12:41:55.536Z",
   "warDay": 47,
-  "summary": "The US is enforcing a blockade of Iranian ports while President Trump claims the war is nearing its end and hints at resuming peace talks, even as an Iranian minister states no intention to negotiate.",
+  "summary": "On War Day 47, the Strait of Hormuz blockade continues with US military intervention, while President Trump signals the war is 'close to over' and hints at US-Iran talks, even as an Iranian minister denies negotiation intentions and Hezbollah launches rockets at Israel, which is holding direct talks with Lebanon.",
   "lastNarrativeUpdate": "2026-04-15",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "Despite hints of peace talks, no formal ceasefire is in effect as military actions and blockades continue."
+    "summary": "No formal ceasefire is in effect, though President Trump has hinted at potential US-Iran talks."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -28,27 +28,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.4
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.3
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 70,
-    "oilDisruption": 85,
-    "tradeImpact": 74,
+    "oilDisruption": 90,
+    "tradeImpact": 77,
     "sanctionsPressure": 61,
-    "globalPressure": 78,
-    "allianceInfluence": 46
+    "globalPressure": 79,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "Trump says war ‘close to over’ and hints at US-Iran talks resuming this week.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 169
-    },
-    {
-      "date": "Apr 14",
-      "text": "U.S. military enforces blockade of Iranian ports, turning back ships and halting economic trade.",
+      "text": "Strait of Hormuz blockade continues with US military turning back six ships and completely halting trade from Iranian ports.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOQjYwZVJnOXl1M211V1ZJMGVUSlN2cHZDenJxa1dVZ2FJMnk4b3JJQW10eFlEdUZtcW5yZ1pNNG5ZU2JxNWMxenZMaXNzSGFGcEpFbkdIRWJ1N0d0b2JqWnVNYmp6U3U1UWhORWJCbV9PN0JYN2FURlUybnhtVkxaTmhGWUlLQlo3bkRTS3cxTXZ0ZUU4dW9ualNtWG13dk92QWU2WnNOS0g5RG1GbHZjRTd6b2V5QdIBuwFBVV95cUxPU1pvRGd2X2t3V0dyNUdsZFV0RmZXVkhPZE9rMmRMY0szOVhWU2xETjRhWDZzM0J0ZXRabk1uVllrNUxocVpOalBTV3J0eWVQTFpiVEhqVnQ2Z0xUWElJT19wM2tCY29lMUlpX2VJYmpuOHpEVHZCbHBUT2E2U1U1RW8wRFdvNnRPeVpOZDlZVlRkOWZtai1xSzdnZDYwTDlNMEthNkl4c2hoOXBUWXk4OVUxWWZHMnJVNlR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 169
+      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 170
     },
     {
       "date": "Apr 14",
-      "text": "Iranian minister states 'No intention of negotiating for now,' despite US claims of war goals almost met.",
+      "text": "President Trump states the war is 'close to over' and teases potential US-Iran talks, also mentioning opening Hormuz for China.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "bbc.com",
-      "latestSinceUpdate": 169
+      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 170
     },
     {
       "date": "Apr 14",
       "text": "Hezbollah launches rockets at Israel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
+      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceName": "Google News RSS",
       "latestSinceUpdate": 169
     },
     {
       "date": "Apr 14",
-      "text": "Israel and Lebanon hold first direct talks since 1993, hosted by the Trump administration.",
+      "text": "Israel and Lebanon hold first direct talks since 1993 in the US.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9aZGxOSU1uN2FqLTJmb3k1cjhmSHM0M0djdjlIdm5mMm1CWkViNHVjQXRQMFZzTll4YkFkUmsxdGFzWFV4NF84bG0tT3ZBaThnbHh2ZXgtQVBLdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "bbc.com",
-      "latestSinceUpdate": 169
+      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 170
+    },
+    {
+      "date": "Apr 14",
+      "text": "Iranian minister states 'No intention of negotiating for now' despite US claims of war goals almost met.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 170
     }
   ],
   "sourceStatuses": [

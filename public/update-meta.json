@@ -1,13 +1,13 @@
 {
-  "updateSequence": 169,
+  "updateSequence": 170,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T11:36:26.533Z",
+  "lastSyncedAt": "2026-04-15T12:41:55.536Z",
   "warDay": 47,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "Despite hints of peace talks, no formal ceasefire is in effect as military actions and blockades continue."
+    "summary": "No formal ceasefire is in effect, though President Trump has hinted at potential US-Iran talks."
   }
 }
