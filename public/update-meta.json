@@ -1,13 +1,13 @@
 {
-  "updateSequence": 163,
-  "lastUpdated": "2026-04-14",
-  "lastSyncedAt": "2026-04-14T23:53:51.809Z",
-  "warDay": 46,
+  "updateSequence": 164,
+  "lastUpdated": "2026-04-15",
+  "lastSyncedAt": "2026-04-15T03:33:33.701Z",
+  "warDay": 47,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect for the broader conflict, though direct talks between Israel and Lebanon are underway."
+    "summary": "No general ceasefire is active, with conflict ongoing in Lebanon and a US blockade on Iran in effect, despite diplomatic talks."
   }
 }
