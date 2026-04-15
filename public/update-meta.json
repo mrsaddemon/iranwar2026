@@ -1,13 +1,13 @@
 {
-  "updateSequence": 178,
+  "updateSequence": 179,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T22:06:22.100Z",
+  "lastSyncedAt": "2026-04-15T22:57:35.131Z",
   "warDay": 47,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.81,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and public opposition to a ceasefire in Israel."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and threats reported by multiple parties."
   }
 }
