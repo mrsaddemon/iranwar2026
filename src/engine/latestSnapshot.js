@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 170,
+  "updateSequence": 171,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T12:41:55.536Z",
+  "lastSyncedAt": "2026-04-15T14:18:19.064Z",
   "warDay": 47,
-  "summary": "On War Day 47, the Strait of Hormuz blockade continues with US military intervention, while President Trump signals the war is 'close to over' and hints at US-Iran talks, even as an Iranian minister denies negotiation intentions and Hezbollah launches rockets at Israel, which is holding direct talks with Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-15",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "No formal ceasefire is in effect, though President Trump has hinted at potential US-Iran talks."
+    "summary": "No active ceasefire is in effect, with ongoing hostilities between Israel and Hezbollah despite diplomatic talks between Israel and Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 50
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 70,
-    "oilDisruption": 90,
-    "tradeImpact": 77,
-    "sanctionsPressure": 61,
-    "globalPressure": 79,
-    "allianceInfluence": 51
+    "nuclearIndex": 20,
+    "escalationLevel": 38,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 14",
-      "text": "Strait of Hormuz blockade continues with US military turning back six ships and completely halting trade from Iranian ports.",
+      "text": "US military fully implements blockade of Iranian ports, halting economic trade.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/...",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 170
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOQjYwZVJnOXl1M211V1ZJMGVUSlN2cHZDenJxa1dVZ2FJMnk4b3JJQW10eFlEdUZtcW5yZ1pNNG5ZU2JxNWMxenZMaXNzSGFGcEpFbkdIRWJ1N0d0b2JqWnVNYmp6U3U1UWhORWJCbV9PN0JYN2FURlUybnhtVkxaTmhGWUlLQlo3bkRTS3cxTXZ0ZUU4dW9ualNtWG13dk92QWU2WnNOS0g5RG1GbHZjRTd6b2V5QdIBuwFBVV95cUxPU1pvRGd2X2t3V0dyNUdsZFV0RmZXVkhPZE9rMmRMY0szOVhWU2xETjRhWDZzM0J0ZXRabk1uVllrNUxocVpOalBTV3J0eWVQTFpiVEhqVnQ2Z0xUWElJT19wM2tCY29lMUlpX2VJYmpuOHpEVHZCbHBUT2E2U1U1RW8wRFdvNnRPeVpOZDlZVlRkOWZtai1xSzdnZDYwTDlNMEthNkl4c2hoOXBUWXk4OVUxWWZHMnJVNlR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 171
     },
     {
       "date": "Apr 14",
-      "text": "President Trump states the war is 'close to over' and teases potential US-Iran talks, also mentioning opening Hormuz for China.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/...",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 170
-    },
-    {
-      "date": "Apr 14",
-      "text": "Hezbollah launches rockets at Israel.",
+      "text": "President Trump offers conflicting signals on the war's end, hinting at peace talks while also sending more troops.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 169
+      "latestSinceUpdate": 171
     },
     {
       "date": "Apr 14",
-      "text": "Israel and Lebanon hold first direct talks since 1993 in the US.",
+      "text": "Pakistani army chief visits Tehran amid efforts to restart US talks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/...",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 170
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 171
     },
     {
       "date": "Apr 14",
-      "text": "Iranian minister states 'No intention of negotiating for now' despite US claims of war goals almost met.",
+      "text": "Israel and Lebanon hold first direct talks since 1993 in the US, hosted by Senator Rubio.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9aZGxOSU1uN2FqLTJmb3k1cjhmSHM0M0djdjlIdm5mMm1CWkViNHVjQXRQMFZzTll4YkFkUmsxdGFzWFV4NF84bG0tT3ZBaThnbHh2ZXgtQVBLdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 171
+    },
+    {
+      "date": "Apr 14",
+      "text": "Hezbollah launches rockets at Israel, followed by Israeli retaliatory strikes in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 171
+    },
+    {
+      "date": "Apr 14",
+      "text": "Trump states he will permanently open the Strait of Hormuz, including for China.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/...",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 170
+      "latestSinceUpdate": 171
     }
   ],
   "sourceStatuses": [

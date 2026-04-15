@@ -1,13 +1,13 @@
 {
-  "updateSequence": 170,
+  "updateSequence": 171,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T12:41:55.536Z",
+  "lastSyncedAt": "2026-04-15T14:18:19.064Z",
   "warDay": 47,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "No formal ceasefire is in effect, though President Trump has hinted at potential US-Iran talks."
+    "summary": "No active ceasefire is in effect, with ongoing hostilities between Israel and Hezbollah despite diplomatic talks between Israel and Lebanon."
   }
 }
