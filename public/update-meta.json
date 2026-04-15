@@ -1,13 +1,13 @@
 {
-  "updateSequence": 166,
+  "updateSequence": 167,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T07:12:31.434Z",
+  "lastSyncedAt": "2026-04-15T08:57:21.586Z",
   "warDay": 47,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and a lack of clear negotiation intent from Iran."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and conflicting statements on negotiations."
   }
 }
