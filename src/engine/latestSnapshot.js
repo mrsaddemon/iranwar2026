@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 164,
+  "updateSequence": 165,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T03:33:33.701Z",
+  "lastSyncedAt": "2026-04-15T05:38:08.125Z",
   "warDay": 47,
   "summary": "The US has implemented a military blockade on Iranian ports in the Strait of Hormuz, leading to an IMF warning of a major energy crisis, while President Trump hints at resuming talks with Iran and Israel and Lebanon hold direct talks amidst ongoing conflict.",
   "lastNarrativeUpdate": "2026-04-15",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No general ceasefire is active, with conflict ongoing in Lebanon and a US blockade on Iran in effect, despite diplomatic talks."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 15",
-      "text": "US military blockade on Iranian ports takes effect, turning back ships in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 164
+      "text": "Iran war updates: Trump teases more talks; Israel, Lebanon meet in US",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPRWVNNkZtNlY5cUc2SHoyQXhZbWp0VHNuekRaWHc4al9KNlJOTW1NMkxaMnZvbHNnQlNfYnpsYjJkeHN2YVhIcWNfSnRCT1hnTG9JbFRwTkhQVHU5Szl1Y1BjY21ZMHJYZHpudHZPVWJQb3I5SFJudXZoUk50SVdpUUo0bm9FMEd3dEZIcDlWcHZ6V1lHUmcyQXZjRmhlZU01VkVUSWh0TkNBWkpKcG9od0RpX2RGS1pmdmV6MWZVbF_SAcYBQVVfeXFMT3FwaXYwbEQ3TXVBSDViRV9PSV8tLTFmNHpieWFBaWxZV2dYNk1xMU9CMmJ5YmtDRzJVTmVHX2ZuZTQwZVp0N05ZZThnSHotdGtlSW1DS2lNdTZtcG1fN0tFRE14REdRWDlpNm41dllCZGhwSlRIdEJNRTVjOHNjREVHSmV2OGgzbFl5VC0tdEZ1TWxadlBSRTFkZnpBZEhWdlNIS1VWM1g4OHpfMUd2MWpzY25OY2VqZU1OckZYUzlYdVlHRE5n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 165
     },
     {
       "date": "Apr 15",
-      "text": "IMF warns that the Strait of Hormuz closure raises the prospect of a 'major energy crisis'.",
+      "text": "Iran war live: Trump says war ‘close to over’ as Hormuz blockade continues",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPazNKcDdXWTRRb3dqWFJnRl9KcEpTOFdDYXJGbmRpc2RQNXdGS3h2dXRkOThMQ09ZWXFBOXJIUjV5VGxrVDlzVHEtb3ctaDhSa0g3VmZZRGdNZ05oem5rQXZUMldUNXVnMFM0TEhheS1LNmVDemlNTjBWbExCTFM0Ni1OR21ndVludFJNRmFRTWtHeVBwSjJaRGNxLVhIS2ozc2FBVExpeTRseFUzbDN0ZlVmSE45azVYeWNuSWxLazVnXzRpNTRVaDJNRDZvQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 164
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 165
     },
     {
       "date": "Apr 15",
-      "text": "President Trump hints that US-Iran talks could resume over the next two days, seeking a 'grand bargain'.",
+      "text": "Iran War Live Updates: Trump and Iran Trade Threats on 1st Day of Strait of Hormuz Blockade",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE9lTGVSaGRfSFNsX1ByeERMLWoxdWREdGtBVXNaQy1EeUdZeU9RSVZYY1UxcVh6NzRadndia294eTlGbUtLOVl3N2wySTZ6aVZlMWtjRmlWNF9rVG81NDltb2ZJTU9QWVRGS1JaUUlPaHNZdjA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 165
+    },
+    {
+      "date": "Apr 15",
+      "text": "Live updates: Trump hints US-Iran talks could resume over next two days",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 164
+      "latestSinceUpdate": 165
     },
     {
       "date": "Apr 15",
-      "text": "China criticizes the Trump blockade as 'dangerous' as Iran-linked ships attempt to transit the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 164
-    },
-    {
-      "date": "Apr 15",
-      "text": "Israel and Lebanon hold first direct talks since 1993, despite ongoing conflict in Lebanon.",
+      "text": "Iran war latest: Trump wants 'grand bargain' with Tehran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9aZGxOSU1uN2FqLTJmb3k1cjhmSHM0M0djdjlIdm5mMm1CWkViNHVjQXRQMFZzTll4YkFkUmsxdGFzWFV4NF84bG0tT3ZBaThnbHh2ZXgtQVBLdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 164
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 165
     },
     {
       "date": "Apr 15",
-      "text": "Iranian minister states 'No intention of negotiating for now' as US insists war goals are almost met.",
-      "severity": "warning",
+      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 164
+      "latestSinceUpdate": 165
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
