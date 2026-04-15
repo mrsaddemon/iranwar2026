@@ -1,13 +1,13 @@
 {
-  "updateSequence": 176,
+  "updateSequence": 177,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T20:07:49.271Z",
+  "lastSyncedAt": "2026-04-15T21:09:06.774Z",
   "warDay": 47,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "No ceasefire is active, with ongoing military actions, blockades, and threats despite diplomatic talks."
+    "summary": "Despite ongoing talks, no ceasefire is active, and a poll indicates Israeli opposition to one with Iran."
   }
 }
