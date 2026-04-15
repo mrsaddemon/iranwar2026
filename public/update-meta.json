@@ -1,13 +1,13 @@
 {
-  "updateSequence": 173,
+  "updateSequence": 174,
   "lastUpdated": "2026-04-15",
-  "lastSyncedAt": "2026-04-15T16:45:46.800Z",
+  "lastSyncedAt": "2026-04-15T17:51:04.838Z",
   "warDay": 47,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, though diplomatic talks are ongoing between Israel and Lebanon, and efforts are being made to restart US-Iran talks."
+    "summary": "Discussions for a Lebanon ceasefire are reported but remain unconfirmed and are rejected by Hezbollah, while the broader conflict continues."
   }
 }
