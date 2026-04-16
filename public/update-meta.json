@@ -1,13 +1,13 @@
 {
-  "updateSequence": 185,
+  "updateSequence": 186,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T10:23:58.079Z",
+  "lastSyncedAt": "2026-04-16T11:40:07.649Z",
   "warDay": 48,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 2,
-    "summary": "A potential ceasefire between Israel and Lebanon is being tested by ongoing strikes and confusion over the Strait of Hormuz, despite diplomatic efforts."
+    "summary": "Diplomatic efforts are underway, with Israel considering a ceasefire with Lebanon, but no active agreement is in place amidst ongoing hostilities."
   }
 }

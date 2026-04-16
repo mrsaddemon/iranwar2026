@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 185,
+  "updateSequence": 186,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T10:23:58.079Z",
+  "lastSyncedAt": "2026-04-16T11:40:07.649Z",
   "warDay": 48,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Intense diplomatic efforts, led by Pakistan, are underway to de-escalate the US-Iran conflict and secure a ceasefire between Israel and Lebanon, despite ongoing Israeli strikes and Iranian threats to shipping.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 2,
-    "summary": "A potential ceasefire between Israel and Lebanon is being tested by ongoing strikes and confusion over the Strait of Hormuz, despite diplomatic efforts."
+    "summary": "Diplomatic efforts are underway, with Israel considering a ceasefire with Lebanon, but no active agreement is in place amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.55
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.45,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.35,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "nuclearIndex": 45,
+    "escalationLevel": 38,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 15",
-      "text": "Pakistan initiates a new round of US-Iran peace negotiations, with its army chief visiting Tehran and the White House expressing optimism.",
+      "text": "White House expresses optimism about an Iran deal as a key Pakistani negotiator visits Tehran to push for new US-Iran peace negotiations.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 185
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 186
     },
     {
       "date": "Apr 16",
-      "text": "Israel conducts strikes in Lebanon, killing four medics and launching a 'more devastating' attack on Hezbollah.",
+      "text": "Trump hints that US-Iran talks could resume over the next two days, intensifying diplomatic efforts to end the war and reopen the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 186
+    },
+    {
+      "date": "Apr 16",
+      "text": "Israel strikes kill four Lebanese medics, prompting anger in Lebanon and a warning from Iran to respond if attacks on Lebanon do not stop immediately.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 185
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 186
     },
     {
       "date": "Apr 16",
-      "text": "The U.S. military begins patrols and enforces a complete naval blockade in the Strait of Hormuz, halting Iran's economic trade.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 185
+      "text": "Israel is reportedly considering a ceasefire with Lebanon, with Lebanon stating a ceasefire could open the door to direct talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi9gJBVV95cUxQUzFRVGF2UjFqMVhRMHN2YlZqMGRDNk1mTjRUeTZFbmJ4cVdjT25GRWFNZzE2RXF6OUN4al80ZU9oSDViazlwVUU4MmVNRlBCT1NzRHR4OE5Ed1FyaVIxSURrZWZac2tJSHlkbmVPbHFkRTkwU3pTMXFRcVg0VzdkUUIyQzYxWmdjR0M3MEJSX1IzZHZvUkVwY2x1UXNsNUh1MDZIU3ZHbVNuX1dQMU5GUldUY3BDZVkyOTJzb1JDQ0s1emhmcF9mVTV2YVkydmYwQWZsQTZxU3dTOWhWSnlMM1pkN1JKV25LQXNmZWctZVhxckVmQkJBc0w2dE05REM0TDhFVTlBenYycVZSOE0tbk9SZWN6SjdCX19UMjFKeC12aDFaNWJCRlRzRXNGd1pvbWEtU2Q2WU9FNkZHRUpiWXJscmRBSGpOOFgwWlJwRDdVSnpiSlRkYzhKMnRGbk8xZDVLeU5ibU1XOFhYZUU1Q1NMXzV2UdIB-wJBVV95cUxNaG5oVEhhR0c3T1hOMnJaTXEzWWZjUTVwa19zZnZMMXBqOE1Tb3ZtTXptazdubUs2QWJ2T3gyTHZ0TWtaN3VmTTlPcm9aTERtdmNtalJBMzZoV2FVcDlKc0xNc2c2ek4wTDlKaUw3R0FzRDlmd3RrY0ZPdGdIS0hqUVZoUXVGclI0VUtzX0VqVXJSLUFoc09RTU40Wk1uWVUydzdueDhKM3JDdmhGRkgyaHlaNzBRZ2c4ZFBtSVIxVWNVTEhiNjZIdTZZMzN6c2t0ckpUV21hRGc5VExCeFVRY0ViTVVBNGthODVkMGhGWE43SnI4ekgwTTRqTVRnZW5Vb044aFdLM013c0ZLSjMxVldwa1hjaHRDSlJ5a2JKNVBveTU2QlJPaU5BcUNzd2hQemF1WnFSMGl6d1NBekV3ZWs2a3N0SzhPN1RYT0tEdGdLOWZVS0wwbUhCUGdlTkdTOUtxZFo0alZNQ2xTOFBXZnBJQm1scjJkMnlJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 186
     },
     {
       "date": "Apr 16",
-      "text": "Iran threatens shipping in the Gulf and Red Sea in response to the U.S. blockade.",
+      "text": "Iran threatens shipping in the Gulf and Red Sea, raising concerns about mines in the Strait of Hormuz and potential US removal operations.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 185
+      "latestSinceUpdate": 186
     },
     {
       "date": "Apr 16",
-      "text": "The US Senate fails for the fourth time to pass a war powers resolution regarding the conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxQdGRJUUxZcnRKRkRFTlZWT1JzMHpNUWl3b242SEtoeXoxNzZiSE1mX0ROZDYwTkFHaHJhakpUdzJOQmRtemdRWFpYZTU2MzkwUU5jS29RMmM3X2hYZ1g5dnpFMFo4SXVqdnRzVWdZU0ZBNEJVcXYtTjZJQWJmZEFsY1UyemxlRFd6ZUFVWU9ZejZyTXhQQVZCNjI3cTVSQmJ6V2xpelFFb2YwSzBwZGFJam1qUUdUbS1YSVBqcFdDT3lOaG5QWHl2d1FUX1pDQ091YXhrQjhHUVNabUpqX0lqT2psdlcxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 185
-    },
-    {
-      "date": "Apr 16",
-      "text": "Rare direct talks between Israel and Lebanon focus on Hezbollah, amidst reports of a ceasefire being tested.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 185
+      "text": "The U.S. military turns back ships and maintains a blockade on Iranian ports as peace talks are set to begin, keeping thousands of U.S. forces on high alert.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPaFpwZHBraHZWNEU0dzg1NXRCakYtSjkzbzJRTkZhMjdpNzhRWHBBQTRhQWVOLWVPS3YtMGFWaVRuUEpwU0c0bUNTMlJ3b0o5TDFUbVRHMkNPYTV0alExcjA3dWlreTFYNkpwMHZMakFkeWc1YjdjN2txNkNCTWZ5atIBhgFBVV95cUxONW9vbGtnRHNRMTE1QS1EOG93RTlCU0NzZUlVWTNtTlZDUWxGV3BzNlU1cGpMdFQ3M1l3NnV5bjQ1UnVKSFc1Z05BSVU3Z3k3Nk1YU2FVb1k3bEFHUFJJdUw3NjJPYndobmhWTUY3V0V0R1Q0eDdXUWNzNk1HajRRbzJjS1Z6Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 186
     }
   ],
   "sourceStatuses": [
