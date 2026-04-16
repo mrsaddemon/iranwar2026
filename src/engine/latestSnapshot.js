@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 184,
+  "updateSequence": 185,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T08:58:20.411Z",
+  "lastSyncedAt": "2026-04-16T10:23:58.079Z",
   "warDay": 48,
-  "summary": "Diplomatic efforts are underway involving Pakistan, the US, Israel, and Lebanon, while active conflict persists in Lebanon, Iran threatens shipping, and the US maintains a blockade on Iranian ports.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A potential ceasefire between Israel and Lebanon is being tested by ongoing strikes and confusion over the Strait of Hormuz, despite diplomatic efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 80,
+    "escalationLevel": 48,
     "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 16",
-      "text": "White House optimistic about Iran deal as key Pakistani negotiator visits Tehran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 184
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran Update Special Report, April 15, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 184
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran war live: Pakistan in push for new round of US-Iran peace negotiations",
+      "date": "Apr 15",
+      "text": "Pakistan initiates a new round of US-Iran peace negotiations, with its army chief visiting Tehran and the White House expressing optimism.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 184
+      "latestSinceUpdate": 185
     },
     {
       "date": "Apr 16",
-      "text": "Iran War Live Updates: Trump Offers Mixed Messages on War's End as Pakistan Tries to Keep Peace Talks Alive",
+      "text": "Israel conducts strikes in Lebanon, killing four medics and launching a 'more devastating' attack on Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 185
+    },
+    {
+      "date": "Apr 16",
+      "text": "The U.S. military begins patrols and enforces a complete naval blockade in the Strait of Hormuz, halting Iran's economic trade.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 185
+    },
+    {
+      "date": "Apr 16",
+      "text": "Iran threatens shipping in the Gulf and Red Sea in response to the U.S. blockade.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 185
+    },
+    {
+      "date": "Apr 16",
+      "text": "The US Senate fails for the fourth time to pass a war powers resolution regarding the conflict.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE54WFFwUzdVekRzeHdhRE8zMEEzd3NCNExjY053TEdfd0VxUnpyM1BIYXg2Z19xNG90Uld6aFpaVzJ0V3BCdGJvdXZyZWM5T0R2dG0tWDdUaDhhQ2ktZi1NdUpQcktFcUl1LVNDUzBicGNUU2dtd1dWWU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 184
+      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxQdGRJUUxZcnRKRkRFTlZWT1JzMHpNUWl3b242SEtoeXoxNzZiSE1mX0ROZDYwTkFHaHJhakpUdzJOQmRtemdRWFpYZTU2MzkwUU5jS29RMmM3X2hYZ1g5dnpFMFo4SXVqdnRzVWdZU0ZBNEJVcXYtTjZJQWJmZEFsY1UyemxlRFd6ZUFVWU9ZejZyTXhQQVZCNjI3cTVSQmJ6V2xpelFFb2YwSzBwZGFJam1qUUdUbS1YSVBqcFdDT3lOaG5QWHl2d1FUX1pDQ091YXhrQjhHUVNabUpqX0lqT2psdlcxQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 185
     },
     {
       "date": "Apr 16",
-      "text": "Iran war latest: Israel and Lebanon's leaders to speak today, Trump says",
+      "text": "Rare direct talks between Israel and Lebanon focus on Hezbollah, amidst reports of a ceasefire being tested.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 184
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran war updates: Pakistani army chief in Tehran in bid to restart US talks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 184
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 185
     }
   ],
   "sourceStatuses": [

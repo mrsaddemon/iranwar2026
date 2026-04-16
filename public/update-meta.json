@@ -1,13 +1,13 @@
 {
-  "updateSequence": 184,
+  "updateSequence": 185,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T08:58:20.411Z",
+  "lastSyncedAt": "2026-04-16T10:23:58.079Z",
   "warDay": 48,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A potential ceasefire between Israel and Lebanon is being tested by ongoing strikes and confusion over the Strait of Hormuz, despite diplomatic efforts."
   }
 }
