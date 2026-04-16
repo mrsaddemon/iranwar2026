@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 187,
+  "updateSequence": 188,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T12:54:19.247Z",
+  "lastSyncedAt": "2026-04-16T15:03:42.873Z",
   "warDay": 48,
   "summary": "Intense diplomatic efforts, led by Pakistan, are underway to de-escalate the US-Iran conflict and secure a ceasefire between Israel and Lebanon, despite ongoing Israeli strikes and Iranian threats to shipping.",
   "lastNarrativeUpdate": "2026-04-16",
@@ -84,19 +84,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 16",
-      "text": "Iran War Live Updates: Trump Offers Mixed Messages on War's End as Pakistan Tries to Keep Peace Talks Alive",
+      "text": "Here are all the ways the Iran war has affected the U.S. economy so far",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE54WFFwUzdVekRzeHdhRE8zMEEzd3NCNExjY053TEdfd0VxUnpyM1BIYXg2Z19xNG90Uld6aFpaVzJ0V3BCdGJvdXZyZWM5T0R2dG0tWDdUaDhhQ2ktZi1NdUpQcktFcUl1LVNDUzBicGNUU2dtd1dWWU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 187
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOR2VhSnczVkNpanNqNTRhZFhVbE5tdE1BOHc5bTRsU2dJVkZMWXNXZmFoWnpQRVFSVlBLY2VrTkNQSzFQV0kycjlrZlp4TnM4aElCTWY3NERYMEhCRDEzeHduYWhIZ05ZVzQ2Q2JXODVmdTctREh1X0w2YkZ3R1ZuQUlLczQtQ1VoblJrcHhoM1lzZTNYWHZleS0xeVQzTmJaN1pjZkFuMEpkZ9IBrwFBVV95cUxOYTlZa0xmbENWTnpYbHRfa3RtZk5OT0hVT0otaEVraEplb3NUb1l5eVcwV3pGS3FCOVlIZ2w2Q3dobmQwMVRST3Y0MXhWNDZkZE9wSEdoc3NEMVZoNG1XX05GWmJoU0hhTXhNbTNtSjN1aWNkekR5d3BBTTZaVmpRSzNMcnlsLU9XOGppMVdjaV9NRmJBaVdHdHIwWFZtRWN4ZFc1NU9fTlVkbDVkWVlJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 188
     },
     {
       "date": "Apr 16",
-      "text": "Iran war latest: 'Highly disputed issues' remain between US and Iran - as Israel-Lebanon talks move closer",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNWHRIYzlOVTFXNjhXa1BEY092anhNZ1RPUGtUd1NZT0d6OW91d0pCVkpDTUUyNWstdmxlT2ZRMXZ2Q2FIQnhhM0tmWFlRZGZqUGFJcWRGMkNFZ3pMd3N2SFQzNmE3YUE5RXJEQVZzZW5JVy1WSVdOTFJKdzJ2X3RTQWxzdkJSbkkzZjJ1ZnZOQ0ZKT0NnUXZmLXNaSHMxbjRJendVcld5UGZZblhtNm9kakhXOWprTmtTaUxEajZ5M0pmNm5PTWcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 187
+      "text": "Iran war latest: US says it's 'locked and loaded' in new warning to Tehran",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 188
     },
     {
       "date": "Apr 16",
