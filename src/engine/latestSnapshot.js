@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 193,
+  "updateSequence": 194,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T21:23:35.585Z",
+  "lastSyncedAt": "2026-04-16T22:10:55.023Z",
   "warDay": 48,
-  "summary": "A 10-day ceasefire between Israel and Lebanon has been announced amidst ongoing tensions, including Iran's warnings and continued gridlock in the Strait of Hormuz, while diplomatic efforts to restart US-Iran talks are underway.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon/Hezbollah has been announced by the US, but its stability is uncertain given ongoing tensions and Israel's intent to hold positions."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 10 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 16",
-      "text": "Trump announces a 10-day ceasefire between Israel and Hezbollah in Lebanon, to take effect at midnight.",
+      "text": "Why the Iran war did not go according to US plans",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiY0FVX3lxTFBaRnNzQzlPbUFod2xHa09IUGNzVEhUcmhmZW5lcW5sWGt6emhfWFhXc3dmVTM4RHdlYzhyN2ZfTENZVTNDSjdFMFhDSXdJSzFPaGtadzYzMDhodFZ4MjhtNEpoQdIBaEFVX3lxTFA1YjRwNjVuNzA0Y0ZXQjl2MlpCdmJvbDhSM3Z3X0lGQmFMVkZEV0NrTGhLZVNaNHdEMW1obEMwVkNPc2xDVXJTM1puSlkwcVJUT29aanphZHNhS1BGcXEwYVpMSW9xc3lG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 193
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPcWdnNFNvaWdqcW9vanVsdEdUSkw1LVUwR2tJUzVtZFd4eGtOMHlqN094TjJGdTZhNGhManVVb0stM2RsMXU2ekdRUjAxMVlqR3NtRlNBeGVONHRoM1pTQThDMXVfdFZ2eVhaV3hwSG5BOFBvb081WUhqaFY4aGxUeHEwOVF4NHZSNUFQQ0R6bjJfVnZXZ1dqT0lR0gGfAUFVX3lxTFAzUjVNM2szaXdCRlJ2enc5ODFlOGxiRkJXU2dBZXZQOE9Edi1kbXZTaURCbGYtUWFkYUZDUE93NjRQbi1rVTVIWXh1V1pCY1FRMm1nall1OHBYXzZYVDdkMGpLbFg3LUlNNzhfUjhfNjRiRXRVak41cVpmZk40cGJ0M3lvSUhwdnBYeWlhOHNKcF9ZdHM0dFJ4eC1iUG1QUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 194
     },
     {
       "date": "Apr 16",
-      "text": "Israel states it will hold positions in Lebanon throughout the 10-day ceasefire period.",
+      "text": "Iran Update Special Report, April 15, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFB2T0l3STJWbjRqT3ZfSWF4ZDZ6TjJETFI5S0U2LWdjTU1JSGcwZFl0OVZ2QkM2WEhYdXJ2cEZHaHhpQVg3OE5YUnFDWDdQZ3VMWElKd3A0cHMyQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 193
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 194
     },
     {
       "date": "Apr 16",
-      "text": "Iran warns of a response if Israeli attacks on Lebanon do not cease immediately.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 193
+      "text": "Live updates: Ceasefire in Lebanon goes into effect as Trump voices confidence in Iran deal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE5kcF9vaktZLVViQ0d3Mm53QzdxTG5UaExOUTk3amx6SHN5WDFHZ0tLdFZibC1uNkpsa0wzM1dSOEJQZEhBSFJ2VVlKSURoc0hKT05ZeGlYUDdlM0M2eHJMU1daUDZybDVhWEhZd2RxdXpQdnZjUVRnU2ctRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 194
     },
     {
       "date": "Apr 16",
-      "text": "The Strait of Hormuz remains gridlocked, with international calls from France and China for Iran to restore free passage.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNelBDUGJzR05CN1JPZW5NMVpITkpPM05qU2RUTUZhNG5JYlBWOFIwZFlxM2FMaVNPcHJILU1xN3FkVGFyNTdPRUtIZEZnQlUtWkppUUM2eTJLOTJNVHZoTmptZmZURkpsbUxlUXZEaGlpbnh4VVpFRFZhbjUzT014c2oyaExHeW80QlBZUHRYSGVfUUc2ZGFiRGZCb04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Table.Briefings",
-      "latestSinceUpdate": 193
+      "text": "Iran War Live Updates: Trump Announces Lebanon-Israel Cease-Fire. Netanyahu Confirms Agreement.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE10Q0lhRXhMX2hjajFNX1BFeVFWcVhlY1FjelE0b2tnUHBmUmtwMHBHeEJGdWhVQWlKcXRrZl9HOHlQUWVFd1dHSDJCa3NldEQ2dm1HZU5oeVRKaTlyRmI2a3JVbXBta3N3VmZTQ0NRWlp4LVpVZ2tNUFRRTndDUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 194
     },
     {
       "date": "Apr 16",
-      "text": "Pakistani army chief visits Tehran in an effort to restart US-Iran talks.",
+      "text": "Iran war updates: Pakistani army chief in Tehran in bid to restart US talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 193
+      "latestSinceUpdate": 194
     },
     {
       "date": "Apr 16",
-      "text": "The US military declares itself 'locked and loaded' to strike Iran's power plants and energy industry if ordered.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOaEItbU9FVnJLN1l1RktWRkdtZGZiNGk1US1JTm0zRWN3MTNTNmpPVmJQYmV1bUxkRTV5WXBqVnVJWnhlM2tQbU54cXRMbF9IR0NyLW5STnV5WWl4MnM0bkJTdjhMejJwZHhuWXYwUVJaN0RZektTNHRTemtNbUdfSWpVV3dKZnFPMmdOeVVvR200c2swZFNVeHdEUnhGX0tHUGNtVDRxVHRBYTM2eG43bnJpMGlCQTAzLUVuaWwtbTc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 193
+      "text": "Iran War Live Updates: Israel to Hold Positions in Lebanon Through 10‑Day Ceasefire",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNdWQ1alR2aGhHc05yaEw3SUNEUWFfcHdkcGxZdVlVdzRRQjZ0d1U5enhSVlAzQWxaNWY5d1dsdWk3LXkteWE4VmQteWhtNGVxX1RZNlNOSzg2Q0pvWlk3c3VFYjZkMmpESlcxdGg2WFotd3MwUVdNYmlLT1R2ZEtxY2lacVlZcVAzUUVVT2FZRWpFQWZlT1VXZ1NhanFfR2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Newsweek",
+      "latestSinceUpdate": 194
     }
   ],
   "sourceStatuses": [
