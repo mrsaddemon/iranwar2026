@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 182,
+  "updateSequence": 183,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T05:52:16.867Z",
+  "lastSyncedAt": "2026-04-16T07:14:30.271Z",
   "warDay": 48,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Diplomatic efforts are underway involving Pakistan, the US, Israel, and Lebanon, while active conflict persists in Lebanon, Iran threatens shipping, and the US maintains a blockade on Iranian ports.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with Iran calling a ceasefire 'unreasonable' and conflicts continuing."
+    "summary": "Diplomatic efforts are underway involving Pakistan, the US, Israel, and Lebanon, but active conflict and shipping disruptions persist without a formal ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.4,
         "aggression": 0.9
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
-    "sanctionsPressure": 49,
-    "globalPressure": 55,
+    "nuclearIndex": 15,
+    "escalationLevel": 80,
+    "oilDisruption": 90,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 15",
-      "text": "Pakistani army chief visits Tehran in a bid to restart US-Iran talks.",
+      "text": "Pakistani army chief visits Tehran in an effort to restart US talks regarding Iran.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 182
+      "latestSinceUpdate": 183
     },
     {
       "date": "Apr 16",
-      "text": "White House expresses optimism about a potential Iran deal as Pakistani negotiator visits Tehran.",
+      "text": "White House expresses optimism about a potential Iran deal amidst ongoing negotiations.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 182
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 183
     },
     {
       "date": "Apr 16",
-      "text": "Israel steps up strikes on Lebanon while Hezbollah attacks continue.",
+      "text": "Israel and Lebanon's leaders are scheduled to speak or meet today to discuss regional tensions.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 183
+    },
+    {
+      "date": "Apr 16",
+      "text": "Israeli strikes result in the deaths of four Lebanese medics.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 183
+    },
+    {
+      "date": "Apr 16",
+      "text": "Sanctioned Iran-linked ships are observed crossing the Strait of Hormuz using new paths.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5zbEVmX3Y4UmlkNXJyNFY4bjd5VDRUdm9WYkZ3NU5KT3V5NUlPZW1fWWoxX2JFQWdKSkJrdlRNZ05yNjRld2o2QTJpdTBHWXNmWl9QQ2ptaHB3dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 182
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 183
     },
     {
       "date": "Apr 16",
-      "text": "Iran accuses the US of violating parts of a deal framework and states a ceasefire is 'unreasonable'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE41bHJfOElzdkx5T2ZEaEVoZHZMdW1BdkxnLTFlMUxOcGxCSXdWVS1lZm9kSFE5TEtPVFVtQ3Zubi1YcDdoMHJWbWo4QTIwVUw5bzdfS0VRU0pJN2pmd2VrYjJsM3FwR0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 182
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran threatens shipping in the Gulf and Red Sea.",
+      "text": "Iran issues threats regarding shipping in the Gulf and Red Sea.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 182
-    },
-    {
-      "date": "Apr 16",
-      "text": "US Senate fails for the fourth time to pass a war powers resolution.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxQdGRJUUxZcnRKRkRFTlZWT1JzMHpNUWl3b242SEtoeXoxNzZiSE1mX0ROZDYwTkFHaHJhakpUdzJOQmRtemdRWFpYZTU2MzkwUU5jS29RMmM3X2hYZ1g5dnpFMFo4SXVqdnRzVWdZU0ZBNEJVcXYtTjZJQWJmZEFsY1UyemxlRFd6ZUFVWU9ZejZyTXhQQVZCNjI3cTVSQmJ6V2xpelFFb2YwSzBwZGFJam1qUUdUbS1YSVBqcFdDT3lOaG5QWHl2d1FUX1pDQ091YXhrQjhHUVNabUpqX0lqT2psdlcxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 182
+      "latestSinceUpdate": 183
     }
   ],
   "sourceStatuses": [

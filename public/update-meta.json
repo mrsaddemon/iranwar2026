@@ -1,13 +1,13 @@
 {
-  "updateSequence": 182,
+  "updateSequence": 183,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T05:52:16.867Z",
+  "lastSyncedAt": "2026-04-16T07:14:30.271Z",
   "warDay": 48,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with Iran calling a ceasefire 'unreasonable' and conflicts continuing."
+    "summary": "Diplomatic efforts are underway involving Pakistan, the US, Israel, and Lebanon, but active conflict and shipping disruptions persist without a formal ceasefire."
   }
 }
