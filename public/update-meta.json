@@ -1,13 +1,13 @@
 {
-  "updateSequence": 186,
+  "updateSequence": 187,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T11:40:07.649Z",
+  "lastSyncedAt": "2026-04-16T12:54:19.247Z",
   "warDay": 48,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "Diplomatic efforts are underway, with Israel considering a ceasefire with Lebanon, but no active agreement is in place amidst ongoing hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }

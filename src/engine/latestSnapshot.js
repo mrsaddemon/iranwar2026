@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 186,
+  "updateSequence": 187,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T11:40:07.649Z",
+  "lastSyncedAt": "2026-04-16T12:54:19.247Z",
   "warDay": 48,
   "summary": "Intense diplomatic efforts, led by Pakistan, are underway to de-escalate the US-Iran conflict and secure a ceasefire between Israel and Lebanon, despite ongoing Israeli strikes and Iranian threats to shipping.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "Diplomatic efforts are underway, with Israel considering a ceasefire with Lebanon, but no active agreement is in place amidst ongoing hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 45,
     "escalationLevel": 38,
     "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "tradeImpact": 68,
+    "sanctionsPressure": 56,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 15",
-      "text": "White House expresses optimism about an Iran deal as a key Pakistani negotiator visits Tehran to push for new US-Iran peace negotiations.",
+      "date": "Apr 16",
+      "text": "White House optimistic about Iran deal as key Pakistani negotiator visits Tehran",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 186
+      "latestSinceUpdate": 187
     },
     {
       "date": "Apr 16",
-      "text": "Trump hints that US-Iran talks could resume over the next two days, intensifying diplomatic efforts to end the war and reopen the Strait of Hormuz.",
+      "text": "Iran Update Special Report, April 15, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 186
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 187
     },
     {
       "date": "Apr 16",
-      "text": "Israel strikes kill four Lebanese medics, prompting anger in Lebanon and a warning from Iran to respond if attacks on Lebanon do not stop immediately.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 186
-    },
-    {
-      "date": "Apr 16",
-      "text": "Israel is reportedly considering a ceasefire with Lebanon, with Lebanon stating a ceasefire could open the door to direct talks.",
+      "text": "Iran war live: US ‘to restart combat if Iran does not agree to a deal’",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi9gJBVV95cUxQUzFRVGF2UjFqMVhRMHN2YlZqMGRDNk1mTjRUeTZFbmJ4cVdjT25GRWFNZzE2RXF6OUN4al80ZU9oSDViazlwVUU4MmVNRlBCT1NzRHR4OE5Ed1FyaVIxSURrZWZac2tJSHlkbmVPbHFkRTkwU3pTMXFRcVg0VzdkUUIyQzYxWmdjR0M3MEJSX1IzZHZvUkVwY2x1UXNsNUh1MDZIU3ZHbVNuX1dQMU5GUldUY3BDZVkyOTJzb1JDQ0s1emhmcF9mVTV2YVkydmYwQWZsQTZxU3dTOWhWSnlMM1pkN1JKV25LQXNmZWctZVhxckVmQkJBc0w2dE05REM0TDhFVTlBenYycVZSOE0tbk9SZWN6SjdCX19UMjFKeC12aDFaNWJCRlRzRXNGd1pvbWEtU2Q2WU9FNkZHRUpiWXJscmRBSGpOOFgwWlJwRDdVSnpiSlRkYzhKMnRGbk8xZDVLeU5ibU1XOFhYZUU1Q1NMXzV2UdIB-wJBVV95cUxNaG5oVEhhR0c3T1hOMnJaTXEzWWZjUTVwa19zZnZMMXBqOE1Tb3ZtTXptazdubUs2QWJ2T3gyTHZ0TWtaN3VmTTlPcm9aTERtdmNtalJBMzZoV2FVcDlKc0xNc2c2ek4wTDlKaUw3R0FzRDlmd3RrY0ZPdGdIS0hqUVZoUXVGclI0VUtzX0VqVXJSLUFoc09RTU40Wk1uWVUydzdueDhKM3JDdmhGRkgyaHlaNzBRZ2c4ZFBtSVIxVWNVTEhiNjZIdTZZMzN6c2t0ckpUV21hRGc5VExCeFVRY0ViTVVBNGthODVkMGhGWE43SnI4ekgwTTRqTVRnZW5Vb044aFdLM013c0ZLSjMxVldwa1hjaHRDSlJ5a2JKNVBveTU2QlJPaU5BcUNzd2hQemF1WnFSMGl6d1NBekV3ZWs2a3N0SzhPN1RYT0tEdGdLOWZVS0wwbUhCUGdlTkdTOUtxZFo0alZNQ2xTOFBXZnBJQm1scjJkMnlJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 186
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 187
     },
     {
       "date": "Apr 16",
-      "text": "Iran threatens shipping in the Gulf and Red Sea, raising concerns about mines in the Strait of Hormuz and potential US removal operations.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdUhOeW1tSHg0WHdOU3lET25xT19BYTQ2QUpmb0x3aXZLSEIwVGt3aEtwaVZyMnEyX2JqOGgza3dxOFNDV3YxOUNzRWpCdEhfeXlhY2ZpdkdwekRMUU1LN2FSMm1UaEllbmtVbGVIN2x2VjNaNHlMN3pYUF9INkM5Mm1RYWxHQmRwczVfSEprWktzbkc4TDM3RmxvV2lMNFN2cEdLSVZJck5sR2NHYjJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 186
+      "text": "Iran War Live Updates: Trump Offers Mixed Messages on War's End as Pakistan Tries to Keep Peace Talks Alive",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE54WFFwUzdVekRzeHdhRE8zMEEzd3NCNExjY053TEdfd0VxUnpyM1BIYXg2Z19xNG90Uld6aFpaVzJ0V3BCdGJvdXZyZWM5T0R2dG0tWDdUaDhhQ2ktZi1NdUpQcktFcUl1LVNDUzBicGNUU2dtd1dWWU9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 187
     },
     {
       "date": "Apr 16",
-      "text": "The U.S. military turns back ships and maintains a blockade on Iranian ports as peace talks are set to begin, keeping thousands of U.S. forces on high alert.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPaFpwZHBraHZWNEU0dzg1NXRCakYtSjkzbzJRTkZhMjdpNzhRWHBBQTRhQWVOLWVPS3YtMGFWaVRuUEpwU0c0bUNTMlJ3b0o5TDFUbVRHMkNPYTV0alExcjA3dWlreTFYNkpwMHZMakFkeWc1YjdjN2txNkNCTWZ5atIBhgFBVV95cUxONW9vbGtnRHNRMTE1QS1EOG93RTlCU0NzZUlVWTNtTlZDUWxGV3BzNlU1cGpMdFQ3M1l3NnV5bjQ1UnVKSFc1Z05BSVU3Z3k3Nk1YU2FVb1k3bEFHUFJJdUw3NjJPYndobmhWTUY3V0V0R1Q0eDdXUWNzNk1HajRRbzJjS1Z6Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 186
+      "text": "Iran war latest: 'Highly disputed issues' remain between US and Iran - as Israel-Lebanon talks move closer",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNWHRIYzlOVTFXNjhXa1BEY092anhNZ1RPUGtUd1NZT0d6OW91d0pCVkpDTUUyNWstdmxlT2ZRMXZ2Q2FIQnhhM0tmWFlRZGZqUGFJcWRGMkNFZ3pMd3N2SFQzNmE3YUE5RXJEQVZzZW5JVy1WSVdOTFJKdzJ2X3RTQWxzdkJSbkkzZjJ1ZnZOQ0ZKT0NnUXZmLXNaSHMxbjRJendVcld5UGZZblhtNm9kakhXOWprTmtTaUxEajZ5M0pmNm5PTWcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 187
+    },
+    {
+      "date": "Apr 16",
+      "text": "Iran war updates: Pakistani army chief in Tehran in bid to restart US talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 187
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
