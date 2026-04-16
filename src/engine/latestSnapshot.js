@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 188,
+  "updateSequence": 189,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T15:03:42.873Z",
+  "lastSyncedAt": "2026-04-16T16:45:41.037Z",
   "warDay": 48,
-  "summary": "Intense diplomatic efforts, led by Pakistan, are underway to de-escalate the US-Iran conflict and secure a ceasefire between Israel and Lebanon, despite ongoing Israeli strikes and Iranian threats to shipping.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "active": true,
+    "status": "active",
+    "confidence": 0.98,
+    "durationDays": 10,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 10 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 45,
     "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 68,
-    "sanctionsPressure": 56,
-    "globalPressure": 67,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,6 +68,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 16",
+      "text": "Iran War Live Updates: Trump Offers Mixed Messages on War's End as Pakistan Tries to Keep Peace Talks Alive",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE54WFFwUzdVekRzeHdhRE8zMEEzd3NCNExjY053TEdfd0VxUnpyM1BIYXg2Z19xNG90Uld6aFpaVzJ0V3BCdGJvdXZyZWM5T0R2dG0tWDdUaDhhQ2ktZi1NdUpQcktFcUl1LVNDUzBicGNUU2dtd1dWWU9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 189
+    },
+    {
+      "date": "Apr 16",
+      "text": "Iran war live: Trump unveils Lebanon truce as US blockades Iran for deal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 189
+    },
+    {
+      "date": "Apr 16",
       "text": "Iran Update Special Report, April 15, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?hl=en-US&gl=US&ceid=US:en",
@@ -76,27 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 16",
-      "text": "Iran war live: US ‘to restart combat if Iran does not agree to a deal’",
+      "text": "Iran war latest: Israel and Lebanon have agreed 10-day ceasefire, Trump says",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 187
-    },
-    {
-      "date": "Apr 16",
-      "text": "Here are all the ways the Iran war has affected the U.S. economy so far",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOR2VhSnczVkNpanNqNTRhZFhVbE5tdE1BOHc5bTRsU2dJVkZMWXNXZmFoWnpQRVFSVlBLY2VrTkNQSzFQV0kycjlrZlp4TnM4aElCTWY3NERYMEhCRDEzeHduYWhIZ05ZVzQ2Q2JXODVmdTctREh1X0w2YkZ3R1ZuQUlLczQtQ1VoblJrcHhoM1lzZTNYWHZleS0xeVQzTmJaN1pjZkFuMEpkZ9IBrwFBVV95cUxOYTlZa0xmbENWTnpYbHRfa3RtZk5OT0hVT0otaEVraEplb3NUb1l5eVcwV3pGS3FCOVlIZ2w2Q3dobmQwMVRST3Y0MXhWNDZkZE9wSEdoc3NEMVZoNG1XX05GWmJoU0hhTXhNbTNtSjN1aWNkekR5d3BBTTZaVmpRSzNMcnlsLU9XOGppMVdjaV9NRmJBaVdHdHIwWFZtRWN4ZFc1NU9fTlVkbDVkWVlJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 188
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran war latest: US says it's 'locked and loaded' in new warning to Tehran",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 188
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNWHRIYzlOVTFXNjhXa1BEY092anhNZ1RPUGtUd1NZT0d6OW91d0pCVkpDTUUyNWstdmxlT2ZRMXZ2Q2FIQnhhM0tmWFlRZGZqUGFJcWRGMkNFZ3pMd3N2SFQzNmE3YUE5RXJEQVZzZW5JVy1WSVdOTFJKdzJ2X3RTQWxzdkJSbkkzZjJ1ZnZOQ0ZKT0NnUXZmLXNaSHMxbjRJendVcld5UGZZblhtNm9kakhXOWprTmtTaUxEajZ5M0pmNm5PTWcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 189
     },
     {
       "date": "Apr 16",
