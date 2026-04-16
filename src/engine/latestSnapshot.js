@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 189,
+  "updateSequence": 190,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T16:45:41.037Z",
+  "lastSyncedAt": "2026-04-16T17:58:42.469Z",
   "warDay": 48,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "Diplomatic efforts are underway to secure a ceasefire between Israel and Lebanon, while the US maintains a blockade on Iran, leading to a gridlocked Strait of Hormuz and international debate.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 10 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A 10-day ceasefire between Israel and Lebanon has been announced by the US, but its implementation is fragile due to ongoing Israeli strikes and Hezbollah's conditions regarding Israeli movement."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.55
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.35,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 16",
-      "text": "White House optimistic about Iran deal as key Pakistani negotiator visits Tehran",
+      "date": "Apr 15",
+      "text": "White House expresses optimism for an Iran deal as a key Pakistani negotiator visits Tehran.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5PRWlLT0Q4MnJ4OGlCMGk5R3JfbGlKVUo3RjE4Z3NPcWluZHdqZFVaaFB6cmJCUG9RSFhUZEx5TkdXNmdsaFVXb0RaR0I2b1N5R3VkY3pVQnBKYnY5TllVcGc4N1BzR1prTmI5UkIzQm83SFNqQWxPdUw3X2kxdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 187
+      "latestSinceUpdate": 190
     },
     {
-      "date": "Apr 16",
-      "text": "Iran War Live Updates: Trump Offers Mixed Messages on War's End as Pakistan Tries to Keep Peace Talks Alive",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE54WFFwUzdVekRzeHdhRE8zMEEzd3NCNExjY053TEdfd0VxUnpyM1BIYXg2Z19xNG90Uld6aFpaVzJ0V3BCdGJvdXZyZWM5T0R2dG0tWDdUaDhhQ2ktZi1NdUpQcktFcUl1LVNDUzBicGNUU2dtd1dWWU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 189
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran war live: Trump unveils Lebanon truce as US blockades Iran for deal",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOTFVwMUNnVWN0QWdEeUJCMWlEUnBUczFHOFFrZVYycUlzN1gyTEZWUkdXakNsM2ZPekhwSzRDUjZaRmJWd1BPd2ZxTlhFNUV5QzNqMUtPajIxSFRRZTdFSUR2eXFERUpXVE5qdDRrMFhTNGo2TFN3SHN2cUk4SUhjbGZhQXhxYTlQRHBwaS1SU3JJUm9pU3M0SUlNVWdMZVRVUXpLVktGb19YVE0wSmV4TzRpajhjZzFScFFIbnVsT3BtZ9IBxwFBVV95cUxPenc5THpMMi1tWDFxYThELWVlRzk3LXZmT0NSa1QxRDVPZFJzSmhzNUJZcm43aEJlYWpLa2NyTDNIYmxYbXJKZlR0UHM1ckFWVkl1dVJLMFh3NXdXN1hDMk1hdi1qRzlrcTJZblp5UjFZQ2g3TEV1TXhOd0d6a2xtZFphZ2s4VUpxaTNWZnV1NEUySEY1SXByS3lCTjRqbzJCVU1yX2JEWnZPdDdGZ1hRVXVubXlQVjBlYXdVSDhwbWlpS0x3bDE4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 189
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran Update Special Report, April 15, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 187
-    },
-    {
-      "date": "Apr 16",
-      "text": "Iran war latest: Israel and Lebanon have agreed 10-day ceasefire, Trump says",
+      "date": "Apr 15",
+      "text": "Trump announces a 10-day ceasefire agreement between Israel and Lebanon.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNWHRIYzlOVTFXNjhXa1BEY092anhNZ1RPUGtUd1NZT0d6OW91d0pCVkpDTUUyNWstdmxlT2ZRMXZ2Q2FIQnhhM0tmWFlRZGZqUGFJcWRGMkNFZ3pMd3N2SFQzNmE3YUE5RXJEQVZzZW5JVy1WSVdOTFJKdzJ2X3RTQWxzdkJSbkkzZjJ1ZnZOQ0ZKT0NnUXZmLXNaSHMxbjRJendVcld5UGZZblhtNm9kakhXOWprTmtTaUxEajZ5M0pmNm5PTWcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 189
+      "latestSinceUpdate": 190
     },
     {
       "date": "Apr 16",
-      "text": "Iran war updates: Pakistani army chief in Tehran in bid to restart US talks",
+      "text": "Iran maintains Strait of Hormuz gridlock amidst a US blockade.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 190
+    },
+    {
+      "date": "Apr 16",
+      "text": "UN General Assembly debates Strait of Hormuz closure after China and Russia veto a draft resolution.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 187
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxQOFFVekZkeUxuTEptZEJhM0pla1k4MklZV1NFNjUtaFg1NE04OWZjOExQTVFyUnFuV1ppcXMyYmF1d1M5WDJNMkJMNUtsUHcyYmtRLVNFMjdIY2N6ZzUzcmxxRTI0Zm9IbVJ4X3E4NmRJZkk1ek9kWjl2VE5qNkl3QjNDdDFzcmlTWFdTMXFndnljeFNSOUNoOGNpWDVUQThibjBvNk5NeG11SklYbjRCbjJnME01bGFheTJiVy1haUo1MGpsNWYwdnNoakY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 190
+    },
+    {
+      "date": "Apr 16",
+      "text": "Israeli strikes kill 4 Lebanese medics.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8AJBVV95cUxPZG4tS3g4YTJ2TnB2LU51V0JEZzJvYl9LTnhLS1FNRGlSRWRUUW9hOXhONFJ6WEk0S2ZteW40VUZ3UnotOHJQNldJM2IzWW1WRUgyRDVNd2hvU3FZN0RXamdER3ZqaEp3Y2V6NFZFUlZ5RHhlRS00blpybGVoSEJpTG5GX01UV1ZWV1F5Y3g0UWFpVkIxalEzdklWamhsT2Fxb3M1ZGVZNjBRWlFQeGlnRE5rZG9JMWJVMEhUanZSTVA1N1g1Q2NoMFdOOFZxa2NyRV9aRnpJZk5xaFlJVnpVYmJEdDdDSWFwSUZrRjYxbUVxa0dTRDNjYWs5VU5wVjBfOUI2ajBkeUt1Wm4wNVR6Vmp1TVNobkprSlFBWWY4T3hZemhPai05dFRiQ2NNS2dYRXUtYjgtaVhZMVBxN1NvYkhyUDZOQXEzQ3B2dGR2a1p3M3ZoTFZMVDhwMGhLVTcwMDdlZE1ja1Z5ZnBYMUJ6dg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Deccan Herald",
+      "latestSinceUpdate": 190
+    },
+    {
+      "date": "Apr 16",
+      "text": "Hezbollah states it will respect the ceasefire if Israel stops attacks and does not gain freedom of movement in Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgzcFBWMmdvQzNDYkgtODNNbG8wWXN5T1pURUNIaDBweVBjR1V5Tkhac01haTd3WGUzRzlqc1FaQjlfcEVFb2c5YUpJbERZbFJFT2loV3NZRENpMTkxWlRzMUNRdDZNekZNbmNYZzJNdzRxamJOeGd4N0dWTkdXUkZtZTJ3alQyZmdPWlloQzF4RGdlRHdtaDdCSlpnRDU1R2pESVZrNUM4QXVWaXpxTGtiVzlBTE0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 190
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
