@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 192,
+  "updateSequence": 193,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T20:25:33.501Z",
+  "lastSyncedAt": "2026-04-16T21:23:35.585Z",
   "warDay": 48,
-  "summary": "A 10-day ceasefire between Israel and Lebanon is set to begin amidst ongoing US-Iran war discussions, while the Strait of Hormuz remains blocked and oil prices near $100.",
+  "summary": "A 10-day ceasefire between Israel and Lebanon has been announced amidst ongoing tensions, including Iran's warnings and continued gridlock in the Strait of Hormuz, while diplomatic efforts to restart US-Iran talks are underway.",
   "lastNarrativeUpdate": "2026-04-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon has been agreed upon, though Hezbollah has stated conditions regarding Israeli movement."
+    "summary": "A 10-day ceasefire between Israel and Lebanon/Hezbollah has been announced by the US, but its stability is uncertain given ongoing tensions and Israel's intent to hold positions."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 64,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 16",
-      "text": "Israel and Lebanon agree to a 10-day ceasefire, with Israel to hold positions in Lebanon.",
+      "text": "Trump announces a 10-day ceasefire between Israel and Hezbollah in Lebanon, to take effect at midnight.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOX29OMU5NRzhVekNmcWN6ZWkxX3RYbUdpQnFxQ2F4RGg5WWM0RWRuMHNSS2VOUEZxV0VlUXJEUWZic1ctTDcyQ21lZjBtazlSS20zZlBtSURSQjJUZWJpaHFPX1J4eHhRc3cwdjBkLVlaWk5MLTNNekdFM3cySmJkeElZVkdkeTB6ZlpCMV9JblRsa3NW?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 192
+      "sourceUrl": "https://news.google.com/articles/CBMiY0FVX3lxTFBaRnNzQzlPbUFod2xHa09IUGNzVEhUcmhmZW5lcW5sWGt6emhfWFhXc3dmVTM4RHdlYzhyN2ZfTENZVTNDSjdFMFhDSXdJSzFPaGtadzYzMDhodFZ4MjhtNEpoQdIBaEFVX3lxTFA1YjRwNjVuNzA0Y0ZXQjl2MlpCdmJvbDhSM3Z3X0lGQmFMVkZEV0NrTGhLZVNaNHdEMW1obEMwVkNPc2xDVXJTM1puSlkwcVJUT29aanphZHNhS1BGcXEwYVpMSW9xc3lG?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 193
     },
     {
       "date": "Apr 16",
-      "text": "Hezbollah strikes northern Israel ahead of the Lebanon ceasefire announcement.",
+      "text": "Israel states it will hold positions in Lebanon throughout the 10-day ceasefire period.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFB2T0l3STJWbjRqT3ZfSWF4ZDZ6TjJETFI5S0U2LWdjTU1JSGcwZFl0OVZ2QkM2WEhYdXJ2cEZHaHhpQVg3OE5YUnFDWDdQZ3VMWElKd3A0cHMyQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 193
+    },
+    {
+      "date": "Apr 16",
+      "text": "Iran warns of a response if Israeli attacks on Lebanon do not cease immediately.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQaXZUbG9HM1RKYlp5X3VnazM2T0IwVTdCWWdSUUstR3hsRTB1VlJ2NnJlUHJ3UXZha3BUV1Z1Z0JTTTVFaFp2dnB3LU5GRS1wOU5MRi01MjI4c3ZDTVk5clM2aEVTRG5uXzhUcTZtaGhHTFg1SjNRRXZxbEx1NGpFUTUzTDJyb01mc0R1TUlwT0pJcWc5TjNJbl9JN3FvNmdMSXJfYzhxZFljcS1GMklsNXZEa1BMVThtT2FHNXhn0gHDAUFVX3lxTFA2YnZlM1FoYzJKTmJBc3JHR1hWbXhyNm90SXd4d1ZWS201TXdYRVR5b2dvVEpydU1fN01UNVl4V2duTDJwYUVvOElsT3oyT0RTbFR4NFNGenhKaTlnMGU0YnVOSloyOXlkYWZibTd2aHhERjhzMFk4WnM3elVodUtaLWhSY3ZJMG1XNzdjaEhMZ0FXVkExU0d4bE9ySjdFOFJWVXUxYzZyTFJQN3NVZkZRem1aRm9WQ240UjRHaXBKdktiOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 192
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 193
     },
     {
       "date": "Apr 16",
-      "text": "President Trump announces a ceasefire in Lebanon and expresses confidence in an Iran deal, despite Tehran denying any agreement.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE5kcF9vaktZLVViQ0d3Mm53QzdxTG5UaExOUTk3amx6SHN5WDFHZ0tLdFZibC1uNkpsa0wzM1dSOEJQZEhBSFJ2VVlKSURoc0hKT05ZeGlYUDdlM0M2eHJMU1daUDZybDVhWEhZd2RxdXpQdnZjUVRnU2ctRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 192
+      "text": "The Strait of Hormuz remains gridlocked, with international calls from France and China for Iran to restore free passage.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNelBDUGJzR05CN1JPZW5NMVpITkpPM05qU2RUTUZhNG5JYlBWOFIwZFlxM2FMaVNPcHJILU1xN3FkVGFyNTdPRUtIZEZnQlUtWkppUUM2eTJLOTJNVHZoTmptZmZURkpsbUxlUXZEaGlpbnh4VVpFRFZhbjUzT014c2oyaExHeW80QlBZUHRYSGVfUUc2ZGFiRGZCb04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Table.Briefings",
+      "latestSinceUpdate": 193
     },
     {
       "date": "Apr 16",
-      "text": "Pakistani army chief visits Tehran in an effort to restart US-Iran peace talks.",
+      "text": "Pakistani army chief visits Tehran in an effort to restart US-Iran talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 192
+      "latestSinceUpdate": 193
     },
     {
       "date": "Apr 16",
-      "text": "Brent oil price nears $100 due to uncertainty in US-Iran talks and continued blocking of the Strait of Hormuz.",
+      "text": "The US military declares itself 'locked and loaded' to strike Iran's power plants and energy industry if ordered.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE16anpYS0JscGkxN1VORDk1VzVkbkRnck01azJwRlp4RjdlS1BnXzFsSmZnam5XZzhXNVUtVU5DR25EbS1GYzFCVFZ4YTJtUl9uYUp5WWNGc1NUUWdyZzYwQVZ0LVRXOGc5RXVDYmxGVlNBQzRPdDJQY9IBfkFVX3lxTFBFeXktTkdIVmJDZ1REdEpZRTRaRl80aTc4aXZfUTYtUEFVcEhkTHJsa3A4T3NXT0tWbEpBbWJNRGFER2YxQ0ZGU1ZlZmljaXl5TEdRbUc4Vlk3OE15T01SMUJoRm1kYkZYSEtIUXc1Tjh1MG9FR0J0M3ZuVXFvQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 192
-    },
-    {
-      "date": "Apr 16",
-      "text": "US military states it is 'locked and loaded' to strike Iran's power plants and energy industry if ordered.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOaEItbU9FVnJLN1l1RktWRkdtZGZiNGk1US1JTm0zRWN3MTNTNmpPVmJQYmV1bUxkRTV5WXBqVnVJWnhlM2tQbU54cXRMbF9IR0NyLW5STnV5WWl4MnM0bkJTdjhMejJwZHhuWXYwUVJaN0RZektTNHRTemtNbUdfSWpVV3dKZnFPMmdOeVVvR200c2swZFNVeHdEUnhGX0tHUGNtVDRxVHRBYTM2eG43bnJpMGlCQTAzLUVuaWwtbTc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 191
+      "latestSinceUpdate": 193
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
