@@ -1,13 +1,13 @@
 {
-  "updateSequence": 191,
+  "updateSequence": 192,
   "lastUpdated": "2026-04-16",
-  "lastSyncedAt": "2026-04-16T19:34:56.927Z",
+  "lastSyncedAt": "2026-04-16T20:25:33.501Z",
   "warDay": 48,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon has been agreed, though Hezbollah has stated conditions regarding Israeli freedom of movement."
+    "summary": "A 10-day ceasefire between Israel and Lebanon has been agreed upon, though Hezbollah has stated conditions regarding Israeli movement."
   }
 }
