@@ -1,13 +1,13 @@
 {
-  "updateSequence": 197,
+  "updateSequence": 198,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T03:36:33.704Z",
+  "lastSyncedAt": "2026-04-17T05:51:02.419Z",
   "warDay": 49,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon/Hezbollah has come into effect, though Hezbollah warns against Israeli freedom of movement in Lebanon."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 10 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
