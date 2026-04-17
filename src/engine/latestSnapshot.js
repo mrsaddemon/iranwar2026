@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 210,
+  "updateSequence": 211,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T20:10:31.440Z",
+  "lastSyncedAt": "2026-04-17T21:05:55.936Z",
   "warDay": 49,
-  "summary": "The Iran war continues with a fragile 10-day ceasefire between Israel and Lebanon in effect, while the US maintains a naval blockade of the Strait of Hormuz despite Iran's declaration that it is open.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-17",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, but its fragility is evident with reports of Israeli strikes and Hezbollah rocket launches."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 10 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 17",
-      "text": "Israel and Lebanon agree to a 10-day ceasefire.",
+      "text": "Trump says war in Iran is going 'swimmingly' and 'should be ending pretty soon",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOczFQSjR1cG9GRUhvaXBtaWl6VGZZQjlEdGp6OXMydzVRR3NHUE9IVl9MYWZVNXdhQW83bjRaU2dUYThKMlJZWTZHcEpzQnNmUGdNSWYyUUJkT0JJRDJUcWJCSEJ6S1N1UzF4UVU1N2JITjMybU16Njg1UzNjcW93Y0JKODlRNU9DOWxTMUlSQ1pMRjM2UUJNZloweWdVRjl3UFR1MERB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 210
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 211
     },
     {
       "date": "Apr 17",
-      "text": "Lebanon-Israel Cease-Fire Goes Into Effect.",
+      "text": "Why the Iran war did not go according to US plans",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE10Q0lhRXhMX2hjajFNX1BFeVFWcVhlY1FjelE0b2tnUHBmUmtwMHBHeEJGdWhVQWlKcXRrZl9HOHlQUWVFd1dHSDJCa3NldEQ2dm1HZU5oeVRKaTlyRmI2a3JVbXBta3N3VmZTQ0NRWlp4LVpVZ2tNUFRRTndDUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 210
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPcWdnNFNvaWdqcW9vanVsdEdUSkw1LVUwR2tJUzVtZFd4eGtOMHlqN094TjJGdTZhNGhManVVb0stM2RsMXU2ekdRUjAxMVlqR3NtRlNBeGVONHRoM1pTQThDMXVfdFZ2eVhaV3hwSG5BOFBvb081WUhqaFY4aGxUeHEwOVF4NHZSNUFQQ0R6bjJfVnZXZ1dqT0lR0gGfAUFVX3lxTFAzUjVNM2szaXdCRlJ2enc5ODFlOGxiRkJXU2dBZXZQOE9Edi1kbXZTaURCbGYtUWFkYUZDUE93NjRQbi1rVTVIWXh1V1pCY1FRMm1nall1OHBYXzZYVDdkMGpLbFg3LUlNNzhfUjhfNjRiRXRVak41cVpmZk40cGJ0M3lvSUhwdnBYeWlhOHNKcF9ZdHM0dFJ4eC1iUG1QUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 211
     },
     {
       "date": "Apr 17",
-      "text": "Iran declares Strait of Hormuz ‘completely open’ as ceasefire holds in Lebanon.",
+      "text": "Live updates: Iran declares Strait of Hormuz ‘completely open’ as ceasefire holds in Lebanon",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQdnQxRnJlVUlxSHluWFNTeGo3UGJmbTZhYkR2ZjFWRVc2TVROYk14TVByeGNHc1pWdEJqN1FLMTBGVlV5N1Vqem10ejVZd3lWSHNBUEYxTkxrYzVlRGZINFFsSmNWLTNKbzR4eHRXbGVDYUl2YU42SXItTUdnVGc1M3RZYzVsbTdyUW9vR2pJcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 210
+      "latestSinceUpdate": 211
     },
     {
       "date": "Apr 17",
-      "text": "Trump says US blockade will continue until deal reached, contradicting Iran's declaration.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBTVmxOcHd0cWE2SEtkMFNaM2ZUZzdvLTVBNWY2RnkxMXhmZWFFVThlVzRrcDRpbDhXeGNGcnp3WFBnRWl1TkNCZGNjZFpkSEZ5cEZFTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 210
+      "text": "Iran War Live Updates: Lebanon-Israel Cease-Fire Goes Into Effect",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE10Q0lhRXhMX2hjajFNX1BFeVFWcVhlY1FjelE0b2tnUHBmUmtwMHBHeEJGdWhVQWlKcXRrZl9HOHlQUWVFd1dHSDJCa3NldEQ2dm1HZU5oeVRKaTlyRmI2a3JVbXBta3N3VmZTQ0NRWlp4LVpVZ2tNUFRRTndDUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 211
     },
     {
       "date": "Apr 17",
-      "text": "Israel strikes kill 4 Lebanese medics, threatening the ceasefire.",
-      "severity": "critical",
+      "text": "Iran war updates: Pakistani army chief in Tehran in bid to restart US talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 211
+    },
+    {
+      "date": "Apr 17",
+      "text": "Iran Israel war: Israel strikes kill 4 Lebanese medics; War brings US close to net crude exporter",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi8AJBVV95cUxPZG4tS3g4YTJ2TnB2LU51V0JEZzJvYl9LTnhLS1FNRGlSRWRUUW9hOXhONFJ6WEk0S2ZteW40VUZ3UnotOHJQNldJM2IzWW1WRUgyRDVNd2hvU3FZN0RXamdER3ZqaEp3Y2V6NFZFUlZ5RHhlRS00blpybGVoSEJpTG5GX01UV1ZWV1F5Y3g0UWFpVkIxalEzdklWamhsT2Fxb3M1ZGVZNjBRWlFQeGlnRE5rZG9JMWJVMEhUanZSTVA1N1g1Q2NoMFdOOFZxa2NyRV9aRnpJZk5xaFlJVnpVYmJEdDdDSWFwSUZrRjYxbUVxa0dTRDNjYWs5VU5wVjBfOUI2ajBkeUt1Wm4wNVR6Vmp1TVNobkprSlFBWWY4T3hZemhPai05dFRiQ2NNS2dYRXUtYjgtaVhZMVBxN1NvYkhyUDZOQXEzQ3B2dGR2a1p3M3ZoTFZMVDhwMGhLVTcwMDdlZE1ja1Z5ZnBYMUJ6dg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Deccan Herald",
-      "latestSinceUpdate": 210
-    },
-    {
-      "date": "Apr 17",
-      "text": "Hezbollah launches rockets at Israel, further threatening the ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 210
+      "latestSinceUpdate": 211
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
