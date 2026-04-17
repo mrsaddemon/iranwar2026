@@ -1,13 +1,13 @@
 {
-  "updateSequence": 213,
+  "updateSequence": 214,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T22:54:29.900Z",
+  "lastSyncedAt": "2026-04-17T23:51:10.101Z",
   "warDay": 49,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, but its stability is threatened by recent Israeli strikes and Hezbollah rocket launches."
+    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect but has seen violations from both sides."
   }
 }
