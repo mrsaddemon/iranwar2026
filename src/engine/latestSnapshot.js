@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 205,
+  "updateSequence": 206,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T15:06:01.484Z",
+  "lastSyncedAt": "2026-04-17T16:11:04.352Z",
   "warDay": 49,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-17",
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 17",
-      "text": "Iran Update Special Report, April 15, 2026",
+      "text": "Done and Dusted? Trump’s Portrayal of the War in Iran Collides With Reality.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQZlNLLTBubk55U1REd0M3RjRxT3FLeXF2QWRNaWhsOUhwcmJNWU9TaTRVVjNsa1hOMDNGNnhUbDlfc3JSR0VSQmplY20zSlI4NnRVdnBkTTFJVER3aWU2Y0xWUHZRc2Q3UFBmdXpmTVp3ei0xeXZGZV9ReG5OTUdJLWdSRnR4czA3cmg1VmVqZkdIeHRIV3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 204
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFBTLVFvR0JtUWlzMzNrY2R1cTFQU1JMd2dHOE5qMDlsYVRRd2dRTG4ySXhEVFNud3dfMjRabWZTTG9MZ2h5UjA0UWJQNHhPZDZvLUJMN0RvVHk0OWxiQnl5ZE4wMmVBMDktOWhCQmxQRm1iekFp?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 206
     },
     {
       "date": "Apr 17",
