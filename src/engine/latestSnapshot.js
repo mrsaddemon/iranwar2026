@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 212,
+  "updateSequence": 213,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T21:56:47.900Z",
+  "lastSyncedAt": "2026-04-17T22:54:29.900Z",
   "warDay": 49,
-  "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, while conflicting reports emerge regarding the status of the Strait of Hormuz amidst ongoing US blockade and global targeting of Iran-linked ships.",
+  "summary": "The US-Iran conflict continues with ongoing US blockade of Iranian shipping despite Iran declaring the Strait of Hormuz open, while diplomatic talks are scheduled and a fragile Israel-Lebanon ceasefire is in effect.",
   "lastNarrativeUpdate": "2026-04-17",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon has gone into effect, allowing thousands of Lebanese to begin returning home."
+    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, but its stability is threatened by recent Israeli strikes and Hezbollah rocket launches."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.55
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,27 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 17",
-      "text": "Israel and Lebanon agree to a 10-day ceasefire, which goes into effect.",
+      "text": "Trump states the war in Iran is going 'swimmingly' and 'should be ending pretty soon'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOczFQSjR1cG9GRUhvaXBtaWl6VGZZQjlEdGp6OXMydzVRR3NHUE9IVl9MYWZVNXdhQW83bjRaU2dUYThKMlJZWTZHcEpzQnNmUGdNSWYyUUJkT0JJRDJUcWJCSEJ6S1N1UzF4UVU1N2JITjMybU16Njg1UzNjcW93Y0JKODlRNU9DOWxTMUlSQ1pMRjM2UUJNZloweWdVRjl3UFR1MERB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 212
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 213
     },
     {
       "date": "Apr 17",
-      "text": "Iran declares the Strait of Hormuz 'completely open,' but tracking shows few ships moving and the US blockade continues.",
+      "text": "Next round of US-Iran talks are scheduled to take place in Pakistan on Monday.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQdnQxRnJlVUlxSHluWFNTeGo3UGJmbTZhYkR2ZjFWRVc2TVROYk14TVByeGNHc1pWdEJqN1FLMTBGVlV5N1Vqem10ejVZd3lWSHNBUEYxTkxrYzVlRGZINFFsSmNWLTNKbzR4eHRXbGVDYUl2YU42SXItTUdnVGc1M3RZYzVsbTdyUW9vR2pJcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 213
+    },
+    {
+      "date": "Apr 17",
+      "text": "Israel strikes kill 4 Lebanese medics, threatening the recently agreed ceasefire.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 213
+    },
+    {
+      "date": "Apr 17",
+      "text": "Hezbollah launches rockets at Israel, further jeopardizing the ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 213
+    },
+    {
+      "date": "Apr 17",
+      "text": "Iran declares the Strait of Hormuz 'open', but tracking shows few ships moving as the US blockade continues.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBTVmxOcHd0cWE2SEtkMFNaM2ZUZzdvLTVBNWY2RnkxMXhmZWFFVThlVzRrcDRpbDhXeGNGcnp3WFBnRWl1TkNCZGNjZFpkSEZ5cEZFTg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 212
-    },
-    {
-      "date": "Apr 17",
-      "text": "Pres. Trump announces the Strait of Hormuz is open, but also states the US blockade will continue.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPY3BPT3hGLVJ0bHVrVzY2T3dteF9WUGNhNWRnYmNCQUVBQlg1NUlTZDhEdk9fZDZwVkVhRFItcEFvSlcwVmV5bDFNZWs3djFLQlhxQTlNaEVCeHhNWmwtM1U3VWttTnp6UDNOY2xuU0xOZVE2V2F3SjI2aHBLczRJS1N4WWdKQdIBmgFBVV95cUxPeWdsNU02NzVOT3hWeFBGRGhPQWcteFIyNzVhTWZndnZNdXBxYXc5X0xIYXRhRGhtRk4tTTZDeWc5ZUp6WFBjZW9tbGh0cl9QemM0Wk5vVGJYUk1Ic3hiX3M1YW9UcVM2V1dvV2J2SXcwUGpaT2wyekI0TzAya1JOUzRvUF84bXFBdVJpaTlxbnF5c3pBRUhaVDBn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AZ Family",
-      "latestSinceUpdate": 212
+      "latestSinceUpdate": 213
     },
     {
       "date": "Apr 17",
@@ -89,28 +105,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOSGJ6d0VPLVh3QXMyeVVEdDhhT3BSQ1ZGc1l2VFpFN2dtVndYNlJTdDdvTHQ5Nko2aEdYRUtmcUlYXzdVTkNRQmJzZThEWVp2MmRYZm9XUG84QU5IQVZnZGtWbzVzazVCamZJZWxCNzhHRUhva00zckwxWEZuak9zQ0xHWS1mSXNtM29JZnh2WVBzRTZt?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
       "latestSinceUpdate": 212
-    },
-    {
-      "date": "Apr 17",
-      "text": "Pakistani army chief visits Tehran in an attempt to restart US talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 212
-    },
-    {
-      "date": "Apr 17",
-      "text": "A vote to stop the Iran war fails again in the US Senate.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wYVdsTDRnSDZOV0k0OEdyQS1NYktOdTFNdzF3Rzhsck9tR1BRcXU3eHo2OV8xU0pyZnNBLUhFbnZITEFUTHJJNGlhaVZ6T293anFxVkhseDVYdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 212
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
