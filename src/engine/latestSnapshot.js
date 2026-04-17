@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 199,
+  "updateSequence": 200,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T07:14:10.594Z",
+  "lastSyncedAt": "2026-04-17T08:57:06.355Z",
   "warDay": 49,
-  "summary": "A 10-day ceasefire between Israel and Hezbollah has begun in Lebanon, while Iran maintains a gridlock in the Strait of Hormuz, prompting international efforts to reopen the vital waterway and US threats of military action against Iran's energy infrastructure.",
+  "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, while Iran maintains a gridlock on the Strait of Hormuz, prompting a US-led coalition response and US threats of broader military action against Iran.",
   "lastNarrativeUpdate": "2026-04-17",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Hezbollah in Lebanon has begun and appears to be holding, though displaced Lebanese remain wary."
+    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, with Israel maintaining positions in Lebanon, while displaced Lebanese remain wary."
   },
   "actorOverrides": {
     "usa": {
@@ -19,15 +19,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
@@ -36,8 +36,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.4,
+        "aggression": 0.7
       }
     }
   },
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 16",
-      "text": "Lebanon-Israel Cease-Fire Goes Into Effect, with Israel to hold positions in Lebanon.",
+      "date": "Apr 15",
+      "text": "Pakistani army chief in Tehran in bid to restart US talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 200
+    },
+    {
+      "date": "Apr 15",
+      "text": "Lebanon-Israel Cease-Fire Goes Into Effect.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE10Q0lhRXhMX2hjajFNX1BFeVFWcVhlY1FjelE0b2tnUHBmUmtwMHBHeEJGdWhVQWlKcXRrZl9HOHlQUWVFd1dHSDJCa3NldEQ2dm1HZU5oeVRKaTlyRmI2a3JVbXBta3N3VmZTQ0NRWlp4LVpVZ2tNUFRRTndDUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 199
+      "latestSinceUpdate": 200
     },
     {
-      "date": "Apr 16",
-      "text": "Iran keeps Strait of Hormuz gridlocked, impacting global shipping and oil flow.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 199
-    },
-    {
-      "date": "Apr 16",
-      "text": "US military states it is 'locked and loaded' to strike Iran's power plants and energy industry if ordered.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOaEItbU9FVnJLN1l1RktWRkdtZGZiNGk1US1JTm0zRWN3MTNTNmpPVmJQYmV1bUxkRTV5WXBqVnVJWnhlM2tQbU54cXRMbF9IR0NyLW5STnV5WWl4MnM0bkJTdjhMejJwZHhuWXYwUVJaN0RZektTNHRTemtNbUdfSWpVV3dKZnFPMmdOeVVvR200c2swZFNVeHdEUnhGX0tHUGNtVDRxVHRBYTM2eG43bnJpMGlCQTAzLUVuaWwtbTc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 199
-    },
-    {
-      "date": "Apr 16",
-      "text": "Macron and Starmer hold an international summit on reopening the Strait of Hormuz.",
+      "date": "Apr 15",
+      "text": "Israel to Hold Positions in Lebanon Through 10‑Day Ceasefire.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNY2R0dzJUOFd0Y2hXYllxQXlpMThPMEJ0cFkzeTcteFlVSldKd3ZEdDdxZ0tybGFGZEJISTFLSUNYcklmNjRKSkd1V3gzOVcwQ0dpaEl6aUJfeFFvZW5Sdm9NQXh4TVIyMlRqSWV0RkNKOWtVbGJDZWUwN1NVeWhEeHJuYkNSWDJ5ejZUT1kybzFsZVFKaDlUSGdoa3lqcG5BTV8zNTdiNmpsd3Z6RFQ4SHI3aUUxVnRYd2RaRi1Caw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "KSAT",
-      "latestSinceUpdate": 199
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNdWQ1alR2aGhHc05yaEw3SUNEUWFfcHdkcGxZdVlVdzRRQjZ0d1U5enhSVlAzQWxaNWY5d1dsdWk3LXkteWE4VmQteWhtNGVxX1RZNlNOSzg2Q0pvWlk3c3VFYjZkMmpESlcxdGg2WFotd3MwUVdNYmlLT1R2ZEtxY2lacVlZcVAzUUVVT2FZRWpFQWZlT1VXZ1NhanFfR2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Newsweek",
+      "latestSinceUpdate": 200
     },
     {
       "date": "Apr 15",
-      "text": "Israel strikes killed 4 Lebanese medics prior to the ceasefire taking effect.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 199
+      "text": "Iran keeps Strait of Hormuz gridlocked as Israel-Lebanon ceasefire begins.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxQMHRMcmlCcHJaRmxTSTU3M2syUkZmZUNpWlhuNU5hMDFtV1FDbHZVaWJ6SnhVcnc2a0RxUDBaQWpBcTNQWmZHd0JEUzZnREZWYVlHdmxYWGRXWTBMRkJIby1jbXpIOVhvZFV0LTlDenNSMWZvdzdBWTZHX2Zvd180OHlCeWFyd0VDQVJKN2tkQklyM204ZFNj0gGcAUFVX3lxTFBlMkdFLUVmNXlCa3QwOVRyZHZCUWo0enpQV2RWYkxWWjd1a1A4QXdqQjFhOTJxZWJGaFNVMDgwQmdjZ21Ccy00UHhMMVluZTVtTEdHdzlZR09vdXA3OXNiNWd6ajVyUnQ1MjFQOW5WVkZGeW8ySzdFdlNhcGNXaXdlWjUxVS1qY2dFUnBqZXZ6UHpWU1BXbWtNaTNrVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 200
     },
     {
-      "date": "Apr 15",
-      "text": "Hezbollah launched rockets at Israel before the ceasefire began.",
+      "date": "Apr 17",
+      "text": "Europe-led coalition prepares mission to reopen Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 199
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQdi1vZzdOZmVadUJTZ0txME5WNnRMVTFYbEMtMDJlNHZNRE5IXzhHRktUVE9teFNvV1N1djlfYi1HQ2xxQUwzOGlHcUxjTUVsN0p3UldNMkdja2Z4ckxmYXdyMWRvVE1aWVlwckxYWGpVWmtDSGQ5cHdHWm43TFg0bGRtelJrb0xfN3pVSTM3SHlUN0pORFBBVDVVZnZ4WDJCODJGckVLR1BMZWNmd0FF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 200
+    },
+    {
+      "date": "Apr 17",
+      "text": "US enforces blockade of Iranian ports.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxPZDZFMlA3MXhpNnJrQi1vV2FYWGItbm5fQVRyQ1JUZW1HQ3VIaFRVOUtEb0RUVUhXQlFPSlI2anFTZHBXQUU3dlZwQ2hvamFpa3liRE5MUmRGUDNHTEtVc09jUzNnS0RocVZwUDZabEUxZUlGMWtRTldMRzBaQXlxdUVlMmhPRTIwQUJqTTVrdDY2VGRtWGp2RTk4S1hoNVpNUzJV0gGoAUFVX3lxTE5vY3VodTJmMk15ZHY0UnplTjVLZDlMaE1fNHZDdVFMandGQUtkWmtEbndyWFZnSU9pa3VOeTl5Tl9IeW1BU2ZpejZTdGlyYmQwQ1Vaelh0Sy1ZcDByNEFyTHNXamE5SDlMZVlpUmxka2tWNWt1OVpNRm9vMl8wRm8tYzNOT2QxaHlqamdDamhDb1JGVzFzT21xMWZjam8xOXZqbHI5X2xMUA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 200
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
