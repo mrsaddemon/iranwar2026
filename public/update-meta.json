@@ -1,13 +1,13 @@
 {
-  "updateSequence": 206,
+  "updateSequence": 207,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T16:11:04.352Z",
+  "lastSyncedAt": "2026-04-17T17:10:00.118Z",
   "warDay": 49,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 10,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 1,
+    "summary": "A ceasefire between Israel and Hezbollah in Lebanon has begun, though reports of violations and gunfire indicate its fragility."
   }
 }
