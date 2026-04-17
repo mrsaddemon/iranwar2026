@@ -1,13 +1,13 @@
 {
-  "updateSequence": 200,
+  "updateSequence": 201,
   "lastUpdated": "2026-04-17",
-  "lastSyncedAt": "2026-04-17T08:57:06.355Z",
+  "lastSyncedAt": "2026-04-17T10:21:44.305Z",
   "warDay": 49,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, with Israel maintaining positions in Lebanon, while displaced Lebanese remain wary."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
