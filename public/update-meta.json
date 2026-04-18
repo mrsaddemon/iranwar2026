@@ -1,13 +1,13 @@
 {
-  "updateSequence": 235,
+  "updateSequence": 236,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T20:49:19.489Z",
+  "lastSyncedAt": "2026-04-18T23:59:59.000Z",
   "warDay": 50,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "The Israel-Lebanon ceasefire has collapsed following confirmed Israeli strikes against Hezbollah and subsequent warnings from Iran."
+    "summary": "The Israel-Lebanon ceasefire has collapsed following Israeli strikes on Hezbollah and subsequent Hezbollah rocket launches."
   }
 }
