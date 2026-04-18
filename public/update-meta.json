@@ -1,13 +1,13 @@
 {
-  "updateSequence": 216,
+  "updateSequence": 217,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T03:53:41.172Z",
+  "lastSyncedAt": "2026-04-18T05:46:20.027Z",
   "warDay": 50,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 5,
-    "summary": "An existing Israel-Lebanon ceasefire is under severe strain following cross-border strikes and rocket launches."
+    "status": "active",
+    "confidence": 0.98,
+    "durationDays": 1,
+    "summary": "A ceasefire between Israel and Lebanon is reported to be active, allowing thousands of Lebanese to return home, though the broader US-Iran conflict remains without a truce."
   }
 }
