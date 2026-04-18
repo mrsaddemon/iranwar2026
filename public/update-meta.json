@@ -1,13 +1,13 @@
 {
-  "updateSequence": 226,
+  "updateSequence": 227,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T13:43:44.923Z",
+  "lastSyncedAt": "2026-04-18T14:28:09.671Z",
   "warDay": 50,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "The Israel-Lebanon ceasefire appears to have collapsed due to ongoing strikes and rocket fire, with talks deemed a failure by Hezbollah."
+    "durationDays": 10,
+    "summary": "A 10-day ceasefire has been agreed upon between Israel and Lebanon, but its stability is immediately threatened by reported strikes, rocket launches, and Hezbollah's skepticism."
   }
 }
