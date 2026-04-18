@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 219,
+  "updateSequence": 220,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T07:50:17.567Z",
+  "lastSyncedAt": "2026-04-18T08:32:36.506Z",
   "warDay": 50,
-  "summary": "Iran declares the Strait of Hormuz open while the US maintains its blockade, and a fragile 10-day ceasefire between Israel and Lebanon is in effect amidst ongoing regional tensions.",
+  "summary": "The US maintains a naval blockade on Iranian ports, prompting Iran to threaten closure of the Strait of Hormuz, while a fragile 10-day ceasefire between Israel and Lebanon is in effect.",
   "lastNarrativeUpdate": "2026-04-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon has been agreed upon, but its stability is threatened by recent Israeli strikes in Lebanon."
+    "summary": "A 10-day ceasefire between Israel and Lebanon is active but appears fragile due to recent military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.78
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 17",
-      "text": "Iran declares the Strait of Hormuz 'completely open' to shipping.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNS1ZLV3h4RlNUWXBhQm9sb2tSTWlCNXM1MVBtRDdhWUZfS2R4Y2dpU1M1dFZ2ZThRaWp3Q2NFN2NEZ2dVZ3lMTkZReURUMXBLcTAwUk5EYXRZR3VqSkhLbmpWSnZnTVMzVUhYZWhYbkw1WUd3eTJOeVpBMV9wVndaTlAzNVFDYkE4TUt2R9IBkgFBVV95cUxQU1dWcXpsbERPWjhGVUZsMExXNFJjWk1tYUdmMEs0Q244QVJWR25yMWlVd0tfZW9OdU1PNzZHdEwxS1prNFhNZ3lSeVI2R0N3c2twaFhWeGU1Q09CTC1fUGhmeVEwZk9ZeG1fbnRsRWFZX1c4cEdpalRIR3dBM1VmQXpSYVpDSjRFdFlVNGVBMFJ5dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 219
-    },
-    {
-      "date": "Apr 17",
-      "text": "US military states its blockade of Iranian economic trade by sea remains in full force.",
+      "date": "Apr 18",
+      "text": "Iran demands an end to the US blockade of its ports, stating the Strait of Hormuz is open.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 219
+      "latestSinceUpdate": 220
     },
     {
-      "date": "Apr 17",
-      "text": "Israel and Lebanon agree to a 10-day ceasefire.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOczFQSjR1cG9GRUhvaXBtaWl6VGZZQjlEdGp6OXMydzVRR3NHUE9IVl9MYWZVNXdhQW83bjRaU2dUYThKMlJZWTZHcEpzQnNmUGdNSWYyUUJkT0JJRDJUcWJCSEJ6S1N1UzF4UVU1N2JITjMybU16Njg1UzNjcW93Y0JKODlRNU9DOWxTMUlSQ1pMRjM2UUJNZloweWdVRjl3UFR1MERB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 219
+      "date": "Apr 18",
+      "text": "Iran threatens to shut down the Strait of Hormuz if the US blockade of its ports continues.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNUDBkOHFDLS1BVFR6bDZPbHdsdXFPZlNlM1MzejJObjRJSkRKa2hMdWVyamdpWXFmMUJ4QjN2YU45TVB1ZGs2VDJSTWkybUdrR1NsOVE0elltcHBWOHlRWGxaZnZQUV9TTWhrTDF1N0xwanQxOFo2dW1QNlF2TURULVQ5NXg1Smt0QWE1MTBEZ0xaUEZiTFM3dFRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The National",
+      "latestSinceUpdate": 220
     },
     {
-      "date": "Apr 17",
-      "text": "Israel strikes kill 4 Lebanese medics, threatening the newly agreed ceasefire.",
+      "date": "Apr 18",
+      "text": "The US military confirms it has halted economic trade with Iran by sea and is turning back ships.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 219
+      "latestSinceUpdate": 220
     },
     {
-      "date": "Apr 17",
-      "text": "US military warns it is 'locked and loaded' to strike Iran's power plants and energy industry if ordered.",
+      "date": "Apr 18",
+      "text": "The US military announces it will target Iran-linked ships worldwide, broadening its scope beyond the current blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOSGJ6d0VPLVh3QXMyeVVEdDhhT3BSQ1ZGc1l2VFpFN2dtVndYNlJTdDdvTHQ5Nko2aEdYRUtmcUlYXzdVTkNRQmJzZThEWVp2MmRYZm9XUG84QU5IQVZnZGtWbzVzazVCamZJZWxCNzhHRUhva00zckwxWEZuak9zQ0xHWS1mSXNtM29JZnh2WVBzRTZt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 220
+    },
+    {
+      "date": "Apr 18",
+      "text": "US military states it is 'locked and loaded' to strike Iran's power plants and energy industry if ordered.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOaEItbU9FVnJLN1l1RktWRkdtZGZiNGk1US1JTm0zRWN3MTNTNmpPVmJQYmV1bUxkRTV5WXBqVnVJWnhlM2tQbU54cXRMbF9IR0NyLW5STnV5WWl4MnM0bkJTdjhMejJwZHhuWXYwUVJaN0RZektTNHRTemtNbUdfSWpVV3dKZnFPMmdOeVVvR200c2swZFNVeHdEUnhGX0tHUGNtVDRxVHRBYTM2eG43bnJpMGlCQTAzLUVuaWwtbTc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 219
+      "latestSinceUpdate": 220
     },
     {
-      "date": "Apr 17",
-      "text": "Pakistani army chief visits Tehran in a bid to restart US talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWdIBxAFBVV95cUxPRlA0Q29kWHV0SE1rSXFLYXotUjVZZGZseWp1RFJpNXIxZlVnWG5ZeXJfVUFxcTJHRVVseWlSZXcxZlh3RmJoMmJySG5rc21USDluOHlRQnhxdGdBOUptLS1LXzhJYmtjRTk1ZnJ6S1lSaXJUMDA2eW5wSHczUnVsNklBNzU1b1FvcVUzZzhfTXZtQ0dGei1hTDUtSEstUzh1MVZoSnNRellhMEZJQXhSYVVfSEFwZHFiQ2tRUnBKTUVRVmxK?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 219
+      "date": "Apr 18",
+      "text": "Israel strikes kill 4 Lebanese medics, raising concerns about the stability of the ceasefire.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 220
     }
   ],
   "sourceStatuses": [
