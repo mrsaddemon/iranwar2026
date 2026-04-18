@@ -1,13 +1,13 @@
 {
-  "updateSequence": 237,
+  "updateSequence": 238,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T21:53:40.319Z",
+  "lastSyncedAt": "2026-04-18T22:47:38.712Z",
   "warDay": 50,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "The Israel-Lebanon ceasefire has collapsed following confirmed IDF strikes and Hezbollah rocket launches, indicating a breakdown of the truce."
+    "summary": "An Israel-Lebanon ceasefire is in effect but is threatened by recent Israeli strikes and Hezbollah's retaliatory actions, with peace talks at a critical juncture."
   }
 }
