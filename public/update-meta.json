@@ -1,13 +1,13 @@
 {
-  "updateSequence": 233,
+  "updateSequence": 234,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T19:25:39.853Z",
+  "lastSyncedAt": "2026-04-18T20:02:53.165Z",
   "warDay": 50,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A ceasefire between Israel and Lebanon is in effect but remains fragile, with recent strikes and rocket launches threatening its stability."
+    "summary": "The Israel-Lebanon ceasefire has collapsed following renewed Israeli strikes on Hezbollah and Hezbollah rocket launches, despite ongoing efforts for new peace talks."
   }
 }
