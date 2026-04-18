@@ -1,13 +1,13 @@
 {
-  "updateSequence": 227,
+  "updateSequence": 228,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T14:28:09.671Z",
+  "lastSyncedAt": "2026-04-18T15:10:14.301Z",
   "warDay": 50,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire has been agreed upon between Israel and Lebanon, but its stability is immediately threatened by reported strikes, rocket launches, and Hezbollah's skepticism."
+    "summary": "An existing Israel-Lebanon ceasefire is under severe threat following Israeli strikes and Hezbollah rocket launches."
   }
 }
