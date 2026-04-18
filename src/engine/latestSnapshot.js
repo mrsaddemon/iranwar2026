@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 229,
+  "updateSequence": 230,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T15:55:36.612Z",
+  "lastSyncedAt": "2026-04-18T16:53:57.748Z",
   "warDay": 50,
-  "summary": "The Strait of Hormuz has seen repeated closures and tanker incidents involving Iranian forces, while the US military prepares to broaden its scope against Iran-linked ships, amidst a fragile 10-day ceasefire between Israel and Lebanon that has seen violations.",
+  "summary": "Iranian forces have repeatedly closed and reopened the Strait of Hormuz, firing on tankers amidst a US blockade, while a fragile ceasefire between Israel and Lebanon is challenged by ongoing strikes and rocket fire.",
   "lastNarrativeUpdate": "2026-04-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon has been agreed upon, but recent strikes and rocket launches indicate its fragility and partial violation."
+    "summary": "A 10-day ceasefire between Israel and Lebanon has been announced by the US, but it remains fragile amidst continued cross-border attacks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.9,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 51
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 18",
-      "text": "Iranian gunboats fired on a tanker in the Strait of Hormuz.",
+      "text": "Iranian gunboats fire on tanker in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EQVl4S0hjYWFiVnBPOEJPNEJPVnRqeHlqNmd3dzN0aUp2czNlNHk4QlpxVnJGb1kxZ3JoX1luTUVfOFFFSTRIRVhiMU80M2gxNjZSdDBjeFM0bE1TX0RpQkRwUmVvZHM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 229
+      "latestSinceUpdate": 230
     },
     {
       "date": "Apr 18",
-      "text": "Iran's military reimposed 'strict control' and closed the Strait of Hormuz, citing US 'piracy' and blockade.",
+      "text": "Iran closes Strait of Hormuz again, citing US 'piracy' and blockade.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 229
+      "latestSinceUpdate": 230
     },
     {
       "date": "Apr 18",
-      "text": "Two Indian-flagged ships were attacked while crossing the Strait of Hormuz.",
+      "text": "Israeli strikes kill 4 Lebanese medics.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOODhmdWlGZjBFM3BhZXJMWExEb3ZzdnIwUzlqay1tVENHSm5LM0xGRWx3SnI3c3BZbjNCb3NfSHNaNWhER0tQckF5YWlWdWprU1FGQUQxVnJrcEdMeVowNm5zcDlRQ0tYLUp0ODBpV3ZjSS1RWnM1T3VUWHFQQlB3cEpLUkM3RGdWdjdTdTBwb0lmak1hQmhINHV3aDhiWm5wZkUxWlpRREtPTEN4bXItUXZCRUVUa2p6T3A5RlEzNTJydHRFNW00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 229
+      "sourceUrl": "https://news.google.com/articles/CBMi8AJBVV95cUxPZG4tS3g4YTJ2TnB2LU51V0JEZzJvYl9LTnhLS1FNRGlSRWRUUW9hOXhONFJ6WEk0S2ZteW40VUZ3UnotOHJQNldJM2IzWW1WRUgyRDVNd2hvU3FZN0RXamdER3ZqaEp3Y2V6NFZFUlZ5RHhlRS00blpybGVoSEJpTG5GX01UV1ZWV1F5Y3g0UWFpVkIxalEzdklWamhsT2Fxb3M1ZGVZNjBRWlFQeGlnRE5rZG9JMWJVMEhUanZSTVA1N1g1Q2NoMFdOOFZxa2NyRV9aRnpJZk5xaFlJVnpVYmJEdDdDSWFwSUZrRjYxbUVxa0dTRDNjYWs5VU5wVjBfOUI2ajBkeUt1Wm4wNVR6Vmp1TVNobkprSlFBWWY4T3hZemhPai05dFRiQ2NNS2dYRXUtYjgtaVhZMVBxN1NvYkhyUDZOQXEzQ3B2dGR2a1p3M3ZoTFZMVDhwMGhLVTcwMDdlZE1ja1Z5ZnBYMUJ6dg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Deccan Herald",
+      "latestSinceUpdate": 230
     },
     {
       "date": "Apr 18",
-      "text": "The U.S. military announced it will target Iran-linked ships worldwide and is preparing to board them in coming days.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOSGJ6d0VPLVh3QXMyeVVEdDhhT3BSQ1ZGc1l2VFpFN2dtVndYNlJTdDdvTHQ5Nko2aEdYRUtmcUlYXzdVTkNRQmJzZThEWVp2MmRYZm9XUG84QU5IQVZnZGtWbzVzazVCamZJZWxCNzhHRUhva00zckwxWEZuak9zQ0xHWS1mSXNtM29JZnh2WVBzRTZt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 229
-    },
-    {
-      "date": "Apr 18",
-      "text": "Israel strikes killed 4 Lebanese medics, threatening the ceasefire.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 229
-    },
-    {
-      "date": "Apr 18",
-      "text": "Hezbollah launched rockets at Israel.",
-      "severity": "warning",
+      "text": "Hezbollah launches rockets at Israel.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 229
+      "latestSinceUpdate": 230
+    },
+    {
+      "date": "Apr 18",
+      "text": "U.S. military turns back ships amid hope for new peace talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 230
+    },
+    {
+      "date": "Apr 18",
+      "text": "Trump announces Israel and Lebanon agree to a 10-day ceasefire.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxPZDZFMlA3MXhpNnJrQi1vV2FYWGItbm5fQVRyQ1JUZW1HQ3VIaFRVOUtEb0RUVUhXQlFPSlI2anFTZHBXQUU3dlZwQ2hvamFpa3liRE5MUmRGUDNHTEtVc09jUzNnS0RocVZwUDZabEUxZUlGMWtRTldMRzBaQXlxdUVlMmhPRTIwQUJqTTVrdDY2VGRtWGp2RTk4S1hoNVpNUzJV0gGoAUFVX3lxTE5vY3VodTJmMk15ZHY0UnplTjVLZDlMaE1fNHZDdVFMandGQUtkWmtEbndyWFZnSU9pa3VOeTl5Tl9IeW1BU2ZpejZTdGlyYmQwQ1Vaelh0Sy1ZcDByNEFyTHNXamE5SDlMZVlpUmxka2tWNWt1OVpNRm9vMl8wRm8tYzNOT2QxaHlqamdDamhDb1JGVzFzT21xMWZjam8xOXZqbHI5X2xMUA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 230
     }
   ],
   "sourceStatuses": [
