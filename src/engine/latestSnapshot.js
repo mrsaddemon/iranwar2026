@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 232,
+  "updateSequence": 233,
   "lastUpdated": "2026-04-18",
-  "lastSyncedAt": "2026-04-18T18:26:16.034Z",
+  "lastSyncedAt": "2026-04-18T19:25:39.853Z",
   "warDay": 50,
-  "summary": "Iran has again closed the Strait of Hormuz, firing on ships and blaming a U.S. naval blockade, while the Israel-Lebanon ceasefire appears to have collapsed amid renewed strikes and rocket fire.",
+  "summary": "Iran has closed the Strait of Hormuz and fired upon ships, citing a US blockade, while tensions persist between Israel and Hezbollah despite a fragile ceasefire.",
   "lastNarrativeUpdate": "2026-04-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
-    "durationDays": 7,
-    "summary": "The Israel-Lebanon ceasefire has collapsed following renewed Israeli strikes and Hezbollah rocket attacks, with both sides engaging in hostilities."
+    "durationDays": 5,
+    "summary": "A ceasefire between Israel and Lebanon is in effect but remains fragile, with recent strikes and rocket launches threatening its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,67 +42,67 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 58,
-    "globalPressure": 73,
-    "allianceInfluence": 73
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Apr 17",
-      "text": "Iran closes Strait of Hormuz again, citing U.S. blockade, and fires on ships.",
+      "date": "Apr 18",
+      "text": "Iranian gunboats fired on a tanker after the Strait of Hormuz was closed again.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOaWhWNHdua3F2cEE3RVNzZFNHV1o5N0RsOFFybkxtOThyWm5BZ2MzNXRsYTFuVnJHREp1LVotYWJidXc1T2NqM0RzM2NMQmtNdXlyQ1ViZ0RhaEJRckJIVDY2bURJZXpfMW5hZTlWT0F4VGlsdUVRYnlOYlVXNERxWG9IeUN4S2ZZUmJGUkJkUzAwY1FsQ1c3NVFRQWo5N0Rq?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 232
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE84TkNEZEdiUVlZcWZMaHlwM3VacEQyX0duUmFPdG00T0ZqS3hFWDluRkVRQ0NTQjZjcmNEU3dwMkR4d0ZQVHRyZUU5VXFFRVBaU01kLXM3clRLT0xaak9ES3I1bWFBM0VSYldZeldlc0RhSlVUbFBJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 233
     },
     {
-      "date": "Apr 17",
-      "text": "U.S. military prepares to board Iran-linked ships in international waters and turns back other vessels.",
+      "date": "Apr 18",
+      "text": "Iran's military fully closed the Strait of Hormuz, citing a U.S. blockade, and fired on ships.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 233
+    },
+    {
+      "date": "Apr 18",
+      "text": "Israeli strikes killed 4 Lebanese medics, threatening an existing ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1NRENLdV8zRXlFR2x2d0hsSU5VVXh1YkhWR3RDLVZKOExHbzg3TlQtc0lPZ2ZuRmdub1dkQWduY25DWEFRZ1cwa3ctZTNUT3MyTld6M1doY19WdGdYSExfTHRaNVE4b2UzRVJvc3o4VWk4aW91VnZ4Q3hDNHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Xinhua",
-      "latestSinceUpdate": 232
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 233
     },
     {
-      "date": "Apr 17",
-      "text": "Israel strikes in Lebanon kill 4 Lebanese medics, with one strike described as more devastating than a 2024 pager attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQT2VLaDdVQ0FQSTdrX1JsSHAwMnNuRDlaelZFclIzTzNiX09ja09nck9OTF9fNWFVRVJ2bkNsVmdvRnNVS25hS3NDd3V0Z205NlZrLUlZckFscnM3ZWI2NGtNeG80XzJBdlMzNW44SUpBS0JGQjk0UWluMUVtNExJN29aZTJ1X3oxY1JRUENvbHZCV2szbTktUGVCRk80aU50QlBrSmNR0gGrAUFVX3lxTE5HUjE2OTM4T3otWHFyUl9XVy1GNkl6SE0wU1c3X1lfMkJCTWp6dXhkUXl6Q2ZwU3BWcjJvSHpTbG1RWHpseHVwXzhFUmVWZzhIV0I4eEh0bzl1UzlMc0QtQkt4Um9fN0Y4V1F4SWl4Rl96ck1JRWM0SWoyVFJ6bHNINjFNZnZ5QzY3Q20wWEtXc0JuTTlqREpZRWVTY2FXRE14dDA5aWx3V0dfbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 232
-    },
-    {
-      "date": "Apr 17",
-      "text": "Hezbollah launches rockets at Israel following Israeli strikes in Lebanon.",
-      "severity": "critical",
+      "date": "Apr 18",
+      "text": "Hezbollah launched rockets at Israel.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 232
+      "latestSinceUpdate": 233
     },
     {
-      "date": "Apr 17",
-      "text": "Former President Trump convenes an Iran situation room meeting amid the renewed Hormuz crisis.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTFBJSmx1NDdBNWRsNFU4LUNrWlBkTGZuWEtMMzI5OHhBczRoUlM2MnRXMGQ4ZGFuNHY3ZWN6bmFYTjZRWEo1SjRJOVJMb216MDRrMjhPcXBDd0tDazJBTkY4UFBFQ2g4SXpuRkE4UmpTNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 232
+      "date": "Apr 18",
+      "text": "The U.S. military prepared to board Iran-linked vessels and turned back other ships.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxOMm1KQWpKYnk0cjlWbkJNVm93ZWZocWxROTNoTlV5WWZKM29sOXREWW1sNl9Fd19XbzhkdjZSZ3d3ZHRGbjg5MldIb1RieUo1SEh5WlVOUkRZS0hPcy03dUUwTUg3a2xDVnFuRkR0c0xqNzVtbGtILUFEbGNONkZZS1plZzFibS1SMEdaUGtXT3VYZnpHYWhtUGswUWJBbjjSAaQBQVVfeXFMTVVDbGhwS1Zpel9sS2F0TUZCSldCeUFMVTl3M1VBT3ZrZlpQNzFrbk85ZW4yV21KWnR1cTNaTUdTeUt0ZHlfaWNoRjRJN3JrUUJ1Y2RSU3VJbU1sWTdnT3B2aGVsTlFjM1FFRDNmODhadGtNV09oZjNaNDZmQ19zRU1BdmdacDBIODMydHZQem9aYklIenY5QlUtVG9IT2tUbjlSTng?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 233
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
