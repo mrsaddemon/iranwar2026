@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 245,
+  "updateSequence": 246,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T09:09:05.747Z",
+  "lastSyncedAt": "2026-04-19T10:04:10.870Z",
   "warDay": 51,
-  "summary": "Iran has reportedly closed the Strait of Hormuz and fired on ships, while a two-week ceasefire between the US and Iran, which saw violations by Hezbollah, is nearing expiration and appears to have collapsed.",
+  "summary": "The Middle East conflict escalates as Iran closes the Strait of Hormuz and fires on ships, while a fragile ceasefire between Israel and Hezbollah faces violations.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the US and Iran has collapsed due to violations by Hezbollah and Iran's actions in the Strait of Hormuz, as it nears expiration."
+    "summary": "A ceasefire between Israel and Hezbollah is reported as fragile, with recent violations including an IDF reservist and a French UNIFIL soldier killed."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
-    "allianceInfluence": 51
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,36 +59,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 18",
-      "text": "Iran fully closes the Strait of Hormuz, citing a US blockade, and fires on ships.",
+      "date": "Apr 19",
+      "text": "Iran closes the Strait of Hormuz and fires on ships, imposing new restrictions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOaWhWNHdua3F2cEE3RVNzZFNHV1o5N0RsOFFybkxtOThyWm5BZ2MzNXRsYTFuVnJHREp1LVotYWJidXc1T2NqM0RzM2NMQmtNdXlyQ1ViZ0RhaEJRckJIVDY2bURJZXpfMW5hZTlWT0F4VGlsdUVRYnlOYlVXNERxWG9IeUN4S2ZZUmJGUkJkUzAwY1FsQ1c3NVFRQWo5N0Rq?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 245
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 246
     },
     {
-      "date": "Apr 18",
-      "text": "An IDF reservist and a French UNIFIL soldier were killed in Lebanon amid a truce, with Israel accusing Hezbollah of ceasefire violations.",
+      "date": "Apr 19",
+      "text": "US military turns back ships amid a blockade on Iran, insisting war goals are almost met.",
       "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 246
+    },
+    {
+      "date": "Apr 19",
+      "text": "An IDF reservist and a French UNIFIL soldier were killed in Lebanon, with Israel accusing Hezbollah of ceasefire violations.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNVTZ0dllXUXlSMlBJQ3h4VXhiTEhubW9WOEJOajY2Y0hoc2prX00zOWxTVHFjTGJWNF9Pdi1XN3V5NTVGRTVqS0FrUVNaRXVfSXdrUW11TVo2QXItWndrZFdwb1QwMHY4TDEzcW8tV2FEZnVUZTVFa1EyaU1SNGtDbTlJWDlBSlZLaHpfeVk0N1dlNF9veEZSNEhFU1FRQTlrS0ZDaGh0RjFZZHllXzVVRTBieTJBd1lzdFlhQVEzcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 245
+      "latestSinceUpdate": 246
     },
     {
-      "date": "Apr 18",
-      "text": "The US military is reportedly preparing to seize Iran-linked ships in the coming days, with Marines practicing maritime raids.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 245
-    },
-    {
-      "date": "Apr 18",
-      "text": "The two-week ceasefire between the US and Iran is reported to be nearing expiration and far from a final agreement.",
+      "date": "Apr 19",
+      "text": "Iran states no intention of negotiating with the US for now, urging Middle East countries to expel US military.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 245
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPMjIwNGoyVUNRaFpyWllDU3VIdjkxcjdhR3dsbmdELUplaHQ2TmxfdWpMb0ZDZjR3a1VoUGNtcmhxUTVIVVdFNFNobmZDNDJmQXVKc2xMQkNBVFZkZkR2d0JKdGZFSDh2S2ZnbTlwaUFZYnNxWDg1YVZreVVGSGpBTEM0Tm15NUM4UDVtaWRQaDl4TkRNa1F1SFRnQWJQNXNzbTZwQjAxUXFYVnNmSTUtMGhuYTB5a3lJVjlrVjZ1c9IBxAFBVV95cUxPTVJNZjBDXzJSZlVnWjZJY2VEbUdPMmlISVFRR3o0NWlEaWlOLVVyaXA3bzBjVVpJSFNfYjg1bnl0cTZtckZxX0VpdU96TkpoUWFsSEdsRkZyWnBzMlJYWmRmUUtraHBoQW5ob3JQZFR2SVU1UG1QbXowZzE0MjFubkhyZFBmUlpMcFRaTklQQjJSUVhPQm1vZmx0c0JIRmtZNXBUVWVwNjZmcDRBTGVaV0pOb0NUdFh0ZWd6Um90ekFTR2FU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 246
     }
   ],
   "sourceStatuses": [
