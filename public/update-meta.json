@@ -1,13 +1,13 @@
 {
-  "updateSequence": 252,
+  "updateSequence": 253,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T15:09:54.751Z",
+  "lastSyncedAt": "2026-04-19T15:56:04.604Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is active but fragile, with recent violations by both sides threatening its stability."
+    "summary": "Hezbollah has expressed willingness to cooperate with a ceasefire with Israel, but broader conflict activities and threats continue."
   }
 }

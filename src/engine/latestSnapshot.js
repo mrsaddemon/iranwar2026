@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 252,
+  "updateSequence": 253,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T15:09:54.751Z",
+  "lastSyncedAt": "2026-04-19T15:56:04.604Z",
   "warDay": 51,
-  "summary": "Iran has announced the closure of the Strait of Hormuz and fired on ships, while a fragile ceasefire between Israel and Hezbollah in Lebanon is threatened by ongoing attacks, and the US and Iran prepare for new peace talks.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is active but fragile, with recent violations by both sides threatening its stability."
+    "summary": "Hezbollah has expressed willingness to cooperate with a ceasefire with Israel, but broader conflict activities and threats continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.4,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 18",
-      "text": "Iran says it’s closing Strait of Hormuz again and fires on ships, imposing restrictions.",
+      "date": "Apr 19",
+      "text": "Iran announced it is closing the Strait of Hormuz again and fired on two ships.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EQVl4S0hjYWFiVnBPOEJPNEJPVnRqeHlqNmd3dzN0aUp2czNlNHk4QlpxVnJGb1kxZ3JoX1luTUVfOFFFSTRIRVhiMU80M2gxNjZSdDBjeFM0bE1TX0RpQkRwUmVvZHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 252
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 253
     },
     {
-      "date": "Apr 18",
-      "text": "Trump threatens to ‘blow up whole country’ and 'knock out' Iranian power plants if deal fails.",
-      "severity": "warning",
+      "date": "Apr 19",
+      "text": "US President Trump threatened to 'blow up whole country' or 'knock out every power plant' if Iran does not accept a deal.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQYnR1QVRoREV1UFFLd2RMMGp4S0EzTV9XYVJTMDdlV1lsZTdvOUVmd3RQWWQwOXNFT0FxcTIwMVFtbU92TnBuU05DSzBtU2lIWWdVQzVpdWVVSWVIOXhlZ3dmS1hDa252NnhMN1lHZWk3OVFkSG1nNjlfcGtHdFJRS19rc090THpQR3ZBWHZkME5ibE1FZU5Xa3hNZGRVaGVvdmRHdjcxcnFKejdsU19fcVJISmlldWRPSUNaMXpR0gHDAUFVX3lxTE1nUkZmaTJhYVVqNEExUklsazNjR1VVQUI5eFZfVUd4Q1p4Vi1RdkRlcjlVMDRuWkJtRDc5b0Y0UGYwOHRFTmpJbWlzSFNSeEtoUEF0bmdNclpuTld4UlJJZ1A3SXBfTlZqV05uYXRNeHdxSm56VnQ4WUVJNzAwYUJtdUh1T0JIYnpWTTIwcHo3TmdaX04xaHZwTTNwaDRTekpWbzNJa05JODdval8wZzFKVzY3eVJIbFNuS2NfdlRXc0IzVQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 252
+      "latestSinceUpdate": 253
     },
     {
-      "date": "Apr 18",
-      "text": "Israel strikes kill 4 Lebanese medics; a French soldier is killed and 3 others wounded in an attack on peacekeepers in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPWl9XRGwzTm96b1N4RkFOekl1UUNteF9HeWo0RHNQcUhGU0t4OFh1YWlFQi1mb2E5aUJocWdKdVVUMWZFS3FSek1IRGhHSUFqWTdpSUlLR2lvd0hKckRwaHEtU1JubkZMMWk1Rmw1OW9jOTY4WmliNDlMSW9oNVRJcXhKVkQwUUdVM3hMdm9IaDl6cXRLLVBWanl3?hl=en-US&gl=US&ceid=US:en",
+      "date": "Apr 19",
+      "text": "Trump stated US negotiators would head to Pakistan on Monday for talks with Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPaUVLVi16MVVUcm1kWTZNd1ItcDJMQlJ6YUVYdHN1aWIxM1BmMXJ3VWVSSng3VTV1aHdRSE1NSFNGcEg4MHd4YUNjX1JBdmFGVDItVTZnQjV4WjFNaDVveVlieE44Q3FIbmRxUThuakc0V3h2ZlNKNTYxWUhQMnp4ZU8zSVd4d0NmOHlncVE3WjltamlwUkdlQkhQU0lIVFlD?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 252
+      "latestSinceUpdate": 253
     },
     {
-      "date": "Apr 18",
-      "text": "An IDF reservist is killed by a Hezbollah explosive in Lebanon amid the truce, with 3 troops injured.",
+      "date": "Apr 19",
+      "text": "Israel strikes killed 4 Lebanese medics, prompting Iran to warn of 'strong responses' if attacks on Lebanon threaten a ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOOEtMWEV6NldvajRfWmNDMVY5OVVtTU9JQTlPdmtNLU9IQ0ZpNVNkLXdiWUt1b3gyRlZKTUFPVl80a2o5TWdSSEVUSDU5S1huWElHeHRsRFY5NGJtUDBsSHF4QmdwTEwzOXlNakpaeGU5RXliNkNxOGVPQ1luV3ZZQVNIOEYtYjVzRjBQNm5aaFRJdUFTT2ZTRGdXQzJJa21Ibkw1MnAxQXB3aWxqM0lz0gG0AUFVX3lxTE9fZVJhcUhfQmtoNFdpeTFRR1ppdGJfdDY4TUtRalVwcjhrNzZOWmpoUFoyZHR4c3NKaHJ1OEc0YnBWcV9WOHJ1QkNtb0h3cGV6N2xvV2hFZ0tBaFJfMHREZVliUjBKVnhPWnhfZ19qanVjUzJuN2JBcG5kOVZUTVZjUHlIOW1xc0dmWnhHZW03TEtWQU1UOXJKbGtjS19kaFFMUlN1MVptcWVMN19VWElxRVllOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 252
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPb0psUE5qdkY0ekNxN1NNcjJyRFl2VjhROXhwWkRHVWZxek5jYVRsNjdEMnpaTGtObnJWQ0FhdXhBRHZtTlY1V0ZVbGNJNG5lS2d6anJEdEdmTzIwTE9ISVVKbzFLbm9qUm5tZ29zTHpvTEE4N2RidVRNeUtqT1FZc043NDhmZDQ4N2x4eVZ6ZFhlSnp1Qk4zZ2Q4emdiY2hxbnRTOS1Ia01sOUcwVnNMMW1NNGFTUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 253
     },
     {
-      "date": "Apr 18",
-      "text": "US officials and Iran are set to resume talks in Pakistan on Monday.",
+      "date": "Apr 19",
+      "text": "Hezbollah expressed willingness to cooperate with a ceasefire with Israel, for now.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNdjVYRnJmbnJTTlhwYkxZcml5cDZRT1JNWjlGcHlJN2RFNDVxQlYyNHo5QUsxbG9sZnEyYjhFT0RHWDlSSVhTQ1JlenRXUl9WM1pnLXlHaTZuYWdlNEQxOXFYZlphdzNXSHNHZlN3NXhPTmJZVFJjem13VElCX19rYVFPWVItdV8xbTdqT0xLbHN0ckxiWjJsLTB1SUw5NFBOY19CNHU5TExFYmvSAbABQVVfeXFMTmZjOGxVU2dUbUx3SEFVdlNBeHEzd19odWFGb0JiSUNQb0hNdWx4ZFByQ1hyRmFYZmxHendUaUVNTXl0Q2NSV0JWNmV6SGg4T2lPMG02Q2w4M2JXVU0tQ1djd3hvRmx4YUhaY1NYX2VQOVpVdjZhOHZsX2hXWEh4aURuN0FVZUFhUXd2a2J0Z28tdnRpZGpwX1NIb1Y0X3ZMLVNfR3NBOGpZMTY5bjNMeDk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 252
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 253
+    },
+    {
+      "date": "Apr 19",
+      "text": "The U.S. military turned back ships amid a blockade on Iran and is preparing to board Iran-linked ships in international waters.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxPNEctMk9laHlpcWxvcm1JYkVtSkxNY2lkbHlrLXVfQW53RlZYdzQxb2NjcUVuZFNaTFptem1JdURyWERBQjRpTWdxQ0lDVXJBaGNaaDVfMFNQcEQxcFVPdFVCU1REejdndl9FSTJkSHgwd05JMUxMd1hLX3FRTXU4NWo3YlNzeDVuZTV2bXhuenFEUkVpYnp6MTQ3Y1BzcFVxcWU4UWMzVy1uT0ZTMG1hTG9kblpfaEo3VUR5VW01VjVIQnFyQlJEUGJfVUtMVjhZRzNVRlQxeEhUYU1waFBGenZNUXNtV0d4WDk1cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "MS NOW",
+      "latestSinceUpdate": 253
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
