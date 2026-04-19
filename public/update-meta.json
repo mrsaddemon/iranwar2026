@@ -1,13 +1,13 @@
 {
-  "updateSequence": 247,
+  "updateSequence": 248,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T10:54:20.522Z",
+  "lastSyncedAt": "2026-04-19T11:44:49.631Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire between Israel and Lebanon, reportedly agreed for 10 days, is fragile and has been violated by Hezbollah, resulting in casualties."
+    "summary": "The Israel-Lebanon ceasefire is fragile with reported violations, and the U.S.-Iran ceasefire is expiring without renewal."
   }
 }
