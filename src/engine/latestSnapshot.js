@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 246,
+  "updateSequence": 247,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T10:04:10.870Z",
+  "lastSyncedAt": "2026-04-19T10:54:20.522Z",
   "warDay": 51,
-  "summary": "The Middle East conflict escalates as Iran closes the Strait of Hormuz and fires on ships, while a fragile ceasefire between Israel and Hezbollah faces violations.",
+  "summary": "Iran has closed the Strait of Hormuz and fired on ships, leading to a US blockade of Iranian ports, while a fragile ceasefire between Israel and Hezbollah has seen violations and casualties.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A ceasefire between Israel and Hezbollah is reported as fragile, with recent violations including an IDF reservist and a French UNIFIL soldier killed."
+    "durationDays": 10,
+    "summary": "A ceasefire between Israel and Lebanon, reportedly agreed for 10 days, is fragile and has been violated by Hezbollah, resulting in casualties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,36 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 19",
-      "text": "Iran closes the Strait of Hormuz and fires on ships, imposing new restrictions.",
+      "date": "Apr 18",
+      "text": "Iran announces closure of the Strait of Hormuz and fires on ships.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 246
+      "latestSinceUpdate": 247
     },
     {
-      "date": "Apr 19",
-      "text": "US military turns back ships amid a blockade on Iran, insisting war goals are almost met.",
+      "date": "Apr 18",
+      "text": "US enforces a blockade of Iranian ports, turning back ships.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 246
+      "latestSinceUpdate": 247
     },
     {
-      "date": "Apr 19",
-      "text": "An IDF reservist and a French UNIFIL soldier were killed in Lebanon, with Israel accusing Hezbollah of ceasefire violations.",
+      "date": "Apr 18",
+      "text": "IDF reservist killed by Hezbollah explosive in Lebanon amid truce, 3 troops hurt.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOOEtMWEV6NldvajRfWmNDMVY5OVVtTU9JQTlPdmtNLU9IQ0ZpNVNkLXdiWUt1b3gyRlZKTUFPVl80a2o5TWdSSEVUSDU5S1huWElHeHRsRFY5NGJtUDBsSHF4QmdwTEwzOXlNakpaeGU5RXliNkNxOGVPQ1luV3ZZQVNIOEYtYjVzRjBQNm5aaFRJdUFTT2ZTRGdXQzJJa21Ibkw1MnAxQXB3aWxqM0lz0gG0AUFVX3lxTE9fZVJhcUhfQmtoNFdpeTFRR1ppdGJfdDY4TUtRalVwcjhrNzZOWmpoUFoyZHR4c3NKaHJ1OEc0YnBWcV9WOHJ1QkNtb0h3cGV6N2xvV2hFZ0tBaFJfMHREZVliUjBKVnhPWnhfZ19qanVjUzJuN2JBcG5kOVZUTVZjUHlIOW1xc0dmWnhHZW03TEtWQU1UOXJKbGtjS19kaFFMUlN1MVptcWVMN19VWElxRVllOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 247
+    },
+    {
+      "date": "Apr 18",
+      "text": "French UNIFIL soldier killed in Lebanon, Hezbollah responsible.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNVTZ0dllXUXlSMlBJQ3h4VXhiTEhubW9WOEJOajY2Y0hoc2prX00zOWxTVHFjTGJWNF9Pdi1XN3V5NTVGRTVqS0FrUVNaRXVfSXdrUW11TVo2QXItWndrZFdwb1QwMHY4TDEzcW8tV2FEZnVUZTVFa1EyaU1SNGtDbTlJWDlBSlZLaHpfeVk0N1dlNF9veEZSNEhFU1FRQTlrS0ZDaGh0RjFZZHllXzVVRTBieTJBd1lzdFlhQVEzcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 246
+      "latestSinceUpdate": 247
     },
     {
-      "date": "Apr 19",
-      "text": "Iran states no intention of negotiating with the US for now, urging Middle East countries to expel US military.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPMjIwNGoyVUNRaFpyWllDU3VIdjkxcjdhR3dsbmdELUplaHQ2TmxfdWpMb0ZDZjR3a1VoUGNtcmhxUTVIVVdFNFNobmZDNDJmQXVKc2xMQkNBVFZkZkR2d0JKdGZFSDh2S2ZnbTlwaUFZYnNxWDg1YVZreVVGSGpBTEM0Tm15NUM4UDVtaWRQaDl4TkRNa1F1SFRnQWJQNXNzbTZwQjAxUXFYVnNmSTUtMGhuYTB5a3lJVjlrVjZ1c9IBxAFBVV95cUxPTVJNZjBDXzJSZlVnWjZJY2VEbUdPMmlISVFRR3o0NWlEaWlOLVVyaXA3bzBjVVpJSFNfYjg1bnl0cTZtckZxX0VpdU96TkpoUWFsSEdsRkZyWnBzMlJYWmRmUUtraHBoQW5ob3JQZFR2SVU1UG1QbXowZzE0MjFubkhyZFBmUlpMcFRaTklQQjJSUVhPQm1vZmx0c0JIRmtZNXBUVWVwNjZmcDRBTGVaV0pOb0NUdFh0ZWd6Um90ekFTR2FU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 246
+      "date": "Apr 18",
+      "text": "Israel accuses Hezbollah militants of violating ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQei1TU1lvSFZETVpCdzZSSW5wRkFPeHhBRE1JWS0weWM0QTZGQl83RG51bWRUX2tfdVFuaWVoekhKcGg2QTZJbWdHUmxsSGw0LVhSNTgyWTBDeHJPdTRvSVFicUhuSWJ5NzBraHlwVkpIdGpvQ21OTXBLYU5EVWNTYVp5eEhuaXVibmxYR0xVLTduZnd3Y0N1NU9md3A4QjF1aDNsRHp0TFN4Qk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 247
+    },
+    {
+      "date": "Apr 18",
+      "text": "Iran states no intention of negotiating for now and warns US to reverse 'stupid decision' in peace talks.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 247
     }
   ],
   "sourceStatuses": [
