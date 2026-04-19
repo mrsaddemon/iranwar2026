@@ -1,13 +1,13 @@
 {
-  "updateSequence": 256,
+  "updateSequence": 257,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T18:26:52.311Z",
+  "lastSyncedAt": "2026-04-19T19:26:55.634Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "An Israel-Lebanon ceasefire, though mentioned, appears to have collapsed following the killing of a French UNIFIL soldier and ongoing Israeli strikes."
+    "summary": "The Israel-Lebanon truce has collapsed following multiple fatalities, including an IDF reservist and a French UNIFIL soldier, and accusations of violations."
   }
 }
