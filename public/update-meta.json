@@ -1,13 +1,13 @@
 {
-  "updateSequence": 261,
+  "updateSequence": 262,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T21:55:04.447Z",
+  "lastSyncedAt": "2026-04-19T22:49:12.510Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 1,
+    "summary": "A fragile ceasefire is in effect between Israel and Hezbollah, though its stability is questioned by potential violations and Hezbollah's conditional cooperation."
   }
 }
