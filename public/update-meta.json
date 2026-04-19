@@ -1,13 +1,13 @@
 {
-  "updateSequence": 249,
+  "updateSequence": 250,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T12:26:28.079Z",
+  "lastSyncedAt": "2026-04-19T13:42:15.786Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 10,
-    "summary": "No broad ceasefire is in effect for the main Middle East conflict, though a fragile truce between Israel and Hezbollah in Lebanon has been reported amidst recent violations."
+    "summary": "The US-Iran ceasefire has expired without a new deal, while the Israel-Lebanon truce is highly fragile with reported violations and casualties."
   }
 }
