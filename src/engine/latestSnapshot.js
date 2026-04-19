@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 250,
+  "updateSequence": 251,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T13:42:15.786Z",
+  "lastSyncedAt": "2026-04-19T14:28:00.592Z",
   "warDay": 51,
-  "summary": "The Middle East conflict is marked by Iran's re-closure of the Strait of Hormuz and firing on ships, alongside ongoing ceasefire negotiations and violations in Lebanon, while the US prepares for potential maritime action.",
+  "summary": "Iran has again closed the Strait of Hormuz and fired on ships, escalating tensions amidst Day 50 of the Middle East conflict, while US President Trump issues severe threats even as fragile peace talks are scheduled and a ceasefire in Lebanon faces violations.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 10,
-    "summary": "The US-Iran ceasefire has expired without a new deal, while the Israel-Lebanon truce is highly fragile with reported violations and casualties."
+    "durationDays": 7,
+    "summary": "A ceasefire between Israel and Lebanon is in effect but remains fragile, marked by recent violations including Israeli strikes and Hezbollah explosives."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 18",
-      "text": "Iran announces re-closure of the Strait of Hormuz and fires on ships, halting traffic.",
+      "date": "Apr 19",
+      "text": "Iran announces closure of the Strait of Hormuz again, citing ongoing conflict.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 250
+      "latestSinceUpdate": 251
     },
     {
-      "date": "Apr 18",
-      "text": "Two Indian ships come under fire in the Strait of Hormuz after Iran reasserts control.",
+      "date": "Apr 19",
+      "text": "Iran fires on ships in the Strait of Hormuz, imposing new restrictions on maritime traffic.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQWWhVSDQ2NGtTMTYtRE9aTjR3N0JTN2pLWEdGS3k5Q2huOGtQVm5OTVYzMGxwemhHMlh0anhzVHgtNFFrR1FlcFBkeFRESGkwMklQTk52TlBnaGFEbFlPbHFibGs3MkRWbXIyekpPU3pvU2tjR2NjRWUzTkxzS2ducExzSUNYeHhwLVZkUi1sd242MWxrQzkwWjQ0Nm9wdTU2Q1hVVGZNWE5sck10TDBqX2thUDhBR0ZVQ1h2cjFmdHlvb0do?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 250
-    },
-    {
-      "date": "Apr 18",
-      "text": "The U.S.-Iran ceasefire expires this week with no deal in sight, though talks are set to resume in Pakistan.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQbk5mXzgxTWJva2VURFpWRDhSRDZ0YTBZdE93cFRpeTBxMFNKam9qaTAwczc2UXNManRaNEhmMEx0U2Q2d2xLc3JEbW1WcEVZYl9xS2dKQ2lYaFI5ZVVBeHlvV3U1Y3QyTU5HY21yREVmUDlab0VaYWlpQmFESnhCZ2NOUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 250
-    },
-    {
-      "date": "Apr 18",
-      "text": "An IDF reservist is killed by a Hezbollah explosive and four Lebanese medics are killed by Israeli strikes amid the Israel-Lebanon truce.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOOEtMWEV6NldvajRfWmNDMVY5OVVtTU9JQTlPdmtNLU9IQ0ZpNVNkLXdiWUt1b3gyRlZKTUFPVl80a2o5TWdSSEVUSDU5S1huWElHeHRsRFY5NGJtUDBsSHF4QmdwTEwzOXlNakpaeGU5RXliNkNxOGVPQ1luV3ZZQVNIOEYtYjVzRjBQNm5aaFRJdUFTT2ZTRGdXQzJJa21Ibkw1MnAxQXB3aWxqM0lz0gG0AUFVX3lxTE9fZVJhcUhfQmtoNFdpeTFRR1ppdGJfdDY4TUtRalVwcjhrNzZOWmpoUFoyZHR4c3NKaHJ1OEc0YnBWcV9WOHJ1QkNtb0h3cGV6N2xvV2hFZ0tBaFJfMHREZVliUjBKVnhPWnhfZ19qanVjUzJuN2JBcG5kOVZUTVZjUHlIOW1xc0dmWnhHZW03TEtWQU1UOXJKbGtjS19kaFFMUlN1MVptcWVMN19VWElxRVllOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 250
-    },
-    {
-      "date": "Apr 18",
-      "text": "A French soldier is killed and three others wounded in an attack on peacekeepers in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPWl9XRGwzTm96b1N4RkFOekl1UUNteF9HeWo0RHNQcUhGU0t4OFh1YWlFQi1mb2E5aUJocWdKdVVUMWZFS3FSek1IRGhHSUFqWTdpSUlLR2lvd0hKckRwaHEtU1JubkZMMWk1Rmw1OW9jOTY4WmliNDlMSW9oNVRJcXhKVkQwUUdVM3hMdm9IaDl6cXRLLVBWanl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EQVl4S0hjYWFiVnBPOEJPNEJPVnRqeHlqNmd3dzN0aUp2czNlNHk4QlpxVnJGb1kxZ3JoX1luTUVfOFFFSTRIRVhiMU80M2gxNjZSdDBjeFM0bE1TX0RpQkRwUmVvZHM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 250
+      "latestSinceUpdate": 251
     },
     {
-      "date": "Apr 18",
-      "text": "President Trump threatens to 'blow up whole country' if a deal with Iran fails.",
-      "severity": "warning",
+      "date": "Apr 19",
+      "text": "US President Trump threatens to 'blow up whole country' and 'knock out' Iranian power plants if a deal fails.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQYnR1QVRoREV1UFFLd2RMMGp4S0EzTV9XYVJTMDdlV1lsZTdvOUVmd3RQWWQwOXNFT0FxcTIwMVFtbU92TnBuU05DSzBtU2lIWWdVQzVpdWVVSWVIOXhlZ3dmS1hDa252NnhMN1lHZWk3OVFkSG1nNjlfcGtHdFJRS19rc090THpQR3ZBWHZkME5ibE1FZU5Xa3hNZGRVaGVvdmRHdjcxcnFKejdsU19fcVJISmlldWRPSUNaMXpR0gHDAUFVX3lxTE1nUkZmaTJhYVVqNEExUklsazNjR1VVQUI5eFZfVUd4Q1p4Vi1RdkRlcjlVMDRuWkJtRDc5b0Y0UGYwOHRFTmpJbWlzSFNSeEtoUEF0bmdNclpuTld4UlJJZ1A3SXBfTlZqV05uYXRNeHdxSm56VnQ4WUVJNzAwYUJtdUh1T0JIYnpWTTIwcHo3TmdaX04xaHZwTTNwaDRTekpWbzNJa05JODdval8wZzFKVzY3eVJIbFNuS2NfdlRXc0IzVQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 250
+      "latestSinceUpdate": 251
+    },
+    {
+      "date": "Apr 19",
+      "text": "Vessels are reported stuck in the Strait of Hormuz following Iran's closure of the key waterway.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPMzZuR3JxUmVJWTFpUm9JR1RhcnAwNHJzdnZUY3FrczdDTnVFeDhfUEVHbExYd0FzbFdVbFdJUGpqRWFIVE1yVW1kYjI1TFllclZpaXN3Y18wQVBvdl91bGozVGZwSG51UmZTMlRkMF9kZ2N5RFZROTNCLTlsb3FxMnBjTEtuMDNvRjVBdjBseTFuand2aFdEcy1yZmFUcFBLMU5HTjNoel9EZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 251
+    },
+    {
+      "date": "Apr 19",
+      "text": "Israel strikes kill 4 Lebanese medics, threatening the existing ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi8AJBVV95cUxPZG4tS3g4YTJ2TnB2LU51V0JEZzJvYl9LTnhLS1FNRGlSRWRUUW9hOXhONFJ6WEk0S2ZteW40VUZ3UnotOHJQNldJM2IzWW1WRUgyRDVNd2hvU3FZN0RXamdER3ZqaEp3Y2V6NFZFUlZ5RHhlRS00blpybGVoSEJpTG5GX01UV1ZWV1F5Y3g0UWFpVkIxalEzdklWamhsT2Fxb3M1ZGVZNjBRWlFQeGlnRE5rZG9JMWJVMEhUanZSTVA1N1g1Q2NoMFdOOFZxa2NyRV9aRnpJZk5xaFlJVnpVYmJEdDdDSWFwSUZrRjYxbUVxa0dTRDNjYWs5VU5wVjBfOUI2ajBkeUt1Wm4wNVR6Vmp1TVNobkprSlFBWWY4T3hZemhPai05dFRiQ2NNS2dYRXUtYjgtaVhZMVBxN1NvYkhyUDZOQXEzQ3B2dGR2a1p3M3ZoTFZMVDhwMGhLVTcwMDdlZE1ja1Z5ZnBYMUJ6dg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Deccan Herald",
+      "latestSinceUpdate": 251
+    },
+    {
+      "date": "Apr 19",
+      "text": "A French soldier is killed and 3 others wounded in an attack on peacekeepers in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPWl9XRGwzTm96b1N4RkFOekl1UUNteF9HeWo0RHNQcUhGU0t4OFh1YWlFQi1mb2E5aUJocWdKdVVUMWZFS3FSek1IRGhHSUFqWTdpSUlLR2lvd0hKckRwaHEtU1JubkZMMWk1Rmw1OW9jOTY4WmliNDlMSW9oNVRJcXhKVkQwUUdVM3hMdm9IaDl6cXRLLVBWanl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 251
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

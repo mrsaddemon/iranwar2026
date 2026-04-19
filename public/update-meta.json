@@ -1,13 +1,13 @@
 {
-  "updateSequence": 250,
+  "updateSequence": 251,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T13:42:15.786Z",
+  "lastSyncedAt": "2026-04-19T14:28:00.592Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 10,
-    "summary": "The US-Iran ceasefire has expired without a new deal, while the Israel-Lebanon truce is highly fragile with reported violations and casualties."
+    "durationDays": 7,
+    "summary": "A ceasefire between Israel and Lebanon is in effect but remains fragile, marked by recent violations including Israeli strikes and Hezbollah explosives."
   }
 }
