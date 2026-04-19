@@ -1,13 +1,13 @@
 {
-  "updateSequence": 255,
+  "updateSequence": 256,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T17:46:36.256Z",
+  "lastSyncedAt": "2026-04-19T18:26:52.311Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "An Israel-Lebanon truce is reported, allowing some Lebanese to return home, but the broader US-Iran conflict shows no signs of a general ceasefire."
+    "summary": "An Israel-Lebanon ceasefire, though mentioned, appears to have collapsed following the killing of a French UNIFIL soldier and ongoing Israeli strikes."
   }
 }
