@@ -1,13 +1,13 @@
 {
-  "updateSequence": 241,
+  "updateSequence": 242,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T03:44:24.607Z",
+  "lastSyncedAt": "2026-04-19T05:50:23.921Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A reported 10-day ceasefire between Israel and Lebanon is active but highly fragile, marked by ongoing violations and hostilities, including a reservist fatality."
+    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, but has been marred by reported violations and casualties on both sides."
   }
 }
