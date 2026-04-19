@@ -1,13 +1,13 @@
 {
-  "updateSequence": 244,
+  "updateSequence": 245,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T08:12:01.790Z",
+  "lastSyncedAt": "2026-04-19T09:09:05.747Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "A fragile ceasefire between Israel and Hezbollah is in effect, but has been repeatedly violated by both sides, including fatal incidents."
+    "durationDays": 14,
+    "summary": "A two-week ceasefire between the US and Iran has collapsed due to violations by Hezbollah and Iran's actions in the Strait of Hormuz, as it nears expiration."
   }
 }
