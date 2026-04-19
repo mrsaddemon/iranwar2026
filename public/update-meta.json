@@ -1,13 +1,13 @@
 {
-  "updateSequence": 262,
+  "updateSequence": 263,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T22:49:12.510Z",
+  "lastSyncedAt": "2026-04-19T23:23:13.903Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A fragile ceasefire is in effect between Israel and Hezbollah, though its stability is questioned by potential violations and Hezbollah's conditional cooperation."
+    "summary": "A truce between Israel and Lebanon is active but appears fragile, with reports of potential violations along the 'Yellow Line'."
   }
 }
