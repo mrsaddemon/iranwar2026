@@ -1,13 +1,13 @@
 {
-  "updateSequence": 257,
+  "updateSequence": 258,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T19:26:55.634Z",
+  "lastSyncedAt": "2026-04-19T20:03:23.170Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "The Israel-Lebanon truce has collapsed following multiple fatalities, including an IDF reservist and a French UNIFIL soldier, and accusations of violations."
+    "durationDays": 2,
+    "summary": "A truce between Israel and Lebanon is in effect, but has been partially violated by a Hezbollah explosive attack resulting in an IDF casualty."
   }
 }
