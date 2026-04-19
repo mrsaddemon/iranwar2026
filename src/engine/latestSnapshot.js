@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 259,
+  "updateSequence": 260,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T20:50:26.817Z",
+  "lastSyncedAt": "2026-04-19T21:22:04.432Z",
   "warDay": 51,
-  "summary": "A significant escalation has occurred in the Strait of Hormuz involving US and Iranian forces, while a ceasefire between Israel and Lebanon remains highly fragile following recent violations.",
+  "summary": "Tensions escalate in the Middle East with direct US-Iran confrontation over the Strait of Hormuz, while a fragile ceasefire holds between Israel and Hezbollah despite reported violations.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A ceasefire between Israel and Lebanon is in effect but is highly fragile, marked by recent violations including an IDF casualty and questions over territorial lines."
+    "durationDays": 7,
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but remains fragile, with reported violations including an IDF reservist killed."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,43 +68,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 19",
-      "text": "Trump states US Navy forcibly seized an Iranian-flagged cargo ship in the Strait of Hormuz.",
+      "text": "US military seized an Iranian-flagged container ship after 'blowing hole' in vessel, Trump says.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxObUY2VjVYd1lUSkdpVk9SaGpHNERDdDFWX2pTMXhpLTU2QnBSR3ZINFJVcUZhckVvYWVDOTJhanlZSm9abUhGUDgzQ2lXTndfeVdTTVZQT1ExZ0ZGODBJcktwLTk2bjJsVldrRTFMd3pvWGEwN281Qnh3UTBRbVJOUGxCMjJIeUM1MlJyMXVPQVBxQ3kx0gGaAUFVX3lxTE90VVBtNldLVG5uRXpzYUNISUhLLUNDTVpMaWFzMUkwU0pZUWVhU1dLdE9JaVptYmJlaEg4VmNtX2twT3lwcTlmWV84U0NXVUFwZm56Mncwd0hVV0RrYTZEaTVrRzdHYUw1cE1PY3ZZMklOUDJhNDNLY3V5TWU1UHpJengteTM0ZnVOYl8teTlqU0tHUEJxYThyRlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 259
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQMmVWdTMtLTMtSWhSUFJpUExHYURyU0laMFdDaHp4UUFCZ0NtZFo1TU5aRjZ0dDJ3RU5aOGN1YU94RHQ0ZVFTb1R3OTlhaUdLVEs0STFEMnN5NmpFaTJocnQ1TlkyeGdySlFVVm1MaXpRWVdkUzU5NW1lakFmb0c2Z2Z4TEowQ0VMRnhvMUxxZE4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 260
     },
     {
-      "date": "Apr 19",
-      "text": "Iran reverses course on opening Strait of Hormuz as hardliners take front seat in Tehran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPempHWldhcDhhckR0VEtoM0pTaUhxOGxsb1ZQemNvWk8wczJuTWhrdkJVakJvVFUyY3o4bXJMY1M5QktoSEl5SzByQXJKZjAxQVBaT0x5Wk4teUtpdVppWVE4SXAxODlfOFRDZV8zd2hyNTdoaExLNE9kMFJfSTI3VNIBhgFBVV95cUxQRldrSVphWjVxUGFrSjNqWFFHQlQ4aG1tVHpwNXlRb1V0SUhySkF0amk4Zm41Mnh5ZDhncVhLNjBIeEp0WTBRZUktUm05cDN0eGVPeXlZVnJMWFVFZ2I2cDJOaFc1RUlYZlpHQ0FNVGc0N0xsdGhWMloyUkVxM05wTzl0dWdqdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 259
-    },
-    {
-      "date": "Apr 19",
-      "text": "US military prepares to board Iran-linked ships in coming days.",
+      "date": "Apr 18",
+      "text": "Reports indicate Khamenei and top security officials killed in US, Israel attack on Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPSnlDT0RuaDRMaTA1STVRSDU3NzJOWnQxUmJFVzl4czJFZUpJclJzNGVIclc5YThaY0xpQ0YxM1BNaHRjRVRXQnp6MEV6YlBJZ0xpOTFSSzJkdjlTTV9Ha1dwRHBsV1lZc3cyVFUyYjFMMzhDZUxPcnRWTXZoSmthdUdpYVpEWDJ3UHowNXFZRjJGZ01tN3pHMGZFVUVOZFowQWRQZlZYdVhwbG5DWDdvZXlwT19wSlN1MWg4NWtEaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 259
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkVCTnhodk1jUmFmOWVwMlJ5dlN2RFFEd3ByUFQtS3lvLVJ6Z0FFZHpmb2szTERvOW5xV0pIVUxIazU4LUs4ci0wcVdJNU9PY3hNNl9Va0xveHh4T292SkdqdmF4akFxdHpFNS1yZTcyNHFKaGpoMHFQQWZ0Vkd3T1ZwMV9CaGFkaHY1anMtd1Q2bzVVcFFXUGJiWHdTZi1CbkVTSEdEOWRaYWZHaVVESGtuX1ZqcmYwREExaEZMb9IBxAFBVV95cUxPZzBGclI4NmZ2Zm1uWWkwNlJVRjdqNUg4X1RtaU1sbVl4MC1nd2h6QkVCckRIbDdVbXVqVUx5Njl5NWc4S2dLUHBYcnZON3VVZDZXNW9jdkJqUGoyTlpkdlR1N2JFRHRETjVUQmZOaGZwdEUzeURZY21MVnBkb1dxYUdSNzlzOGNsekljVXQzaHVWek5sT2JiUldFWV8yUF9Ba3Z2RGtabGc5NG5rNGVTMnZiWENQTnE5QVN0bENvUFhjU1JI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 260
     },
     {
       "date": "Apr 18",
       "text": "IDF reservist killed by Hezbollah explosive in Lebanon amid truce, 3 troops hurt.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOOEtMWEV6NldvajRfWmNDMVY5OVVtTU9JQTlPdmtNLU9IQ0ZpNVNkLXdiWUt1b3gyRlZKTUFPVl80a2o5TWdSSEVUSDU5S1huWElHeHRsRFY5NGJtUDBsSHF4QmdwTEwzOXlNakpaeGU5RXliNkNxOGVPQ1luV3ZZQVNIOEYtYjVzRjBQNm5aaFRJdUFTT2ZTRGdXQzJJa21Ibkw1MnAxQXB3aWxqM0lz0gG0AUFVX3lxTE9fZVJhcUhfQmtoNFdpeTFRR1ppdGJfdDY4TUtRalVwcjhrNzZOWmpoUFoyZHR4c3NKaHJ1OEc0YnBWcV9WOHJ1QkNtb0h3cGV6N2xvV2hFZ0tBaFJfMHREZVliUjBKVnhPWnhfZ19qanVjUzJuN2JBcG5kOVZUTVZjUHlIOW1xc0dmWnhHZW03TEtWQU1UOXJKbGtjS19kaFFMUlN1MVptcWVMN19VWElxRVllOA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
       "latestSinceUpdate": 259
     },
     {
-      "date": "Apr 18",
-      "text": "Iranian delegation arrives in Pakistan for talks with US.",
+      "date": "Apr 19",
+      "text": "Iranian minister states 'No intention of negotiating for now' as US insists war goals almost met.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 259
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 260
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 259,
+  "updateSequence": 260,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T20:50:26.817Z",
+  "lastSyncedAt": "2026-04-19T21:22:04.432Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A ceasefire between Israel and Lebanon is in effect but is highly fragile, marked by recent violations including an IDF casualty and questions over territorial lines."
+    "durationDays": 7,
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but remains fragile, with reported violations including an IDF reservist killed."
   }
 }
