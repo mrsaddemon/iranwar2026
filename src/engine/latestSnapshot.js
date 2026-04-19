@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 258,
+  "updateSequence": 259,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T20:03:23.170Z",
+  "lastSyncedAt": "2026-04-19T20:50:26.817Z",
   "warDay": 51,
-  "summary": "The Middle East conflict continues with a critical standoff in the Strait of Hormuz involving US and Iranian forces, while diplomatic efforts for talks remain uncertain and a truce between Israel and Lebanon shows signs of fragility.",
+  "summary": "A significant escalation has occurred in the Strait of Hormuz involving US and Iranian forces, while a ceasefire between Israel and Lebanon remains highly fragile following recent violations.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A truce between Israel and Lebanon is in effect, but has been partially violated by a Hezbollah explosive attack resulting in an IDF casualty."
+    "summary": "A ceasefire between Israel and Lebanon is in effect but is highly fragile, marked by recent violations including an IDF casualty and questions over territorial lines."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 66,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 19",
-      "text": "Trump states talks will resume as standoff escalates over Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE93WEJXNmNtdG90Rm9RRm1VT1dmb3JUZ3V3OWw4ZGZEZmVOazhfX0ZkeDRkM3V5ckluMkxmM0FMSU5UR3c5eFdGOEZLRmNPNC1sYkcwNWxOc1dKY3JKelQzQnFtMjZaaWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 258
-    },
-    {
-      "date": "Apr 19",
-      "text": "Iran announces it is closing the Strait of Hormuz again, following a US blockade.",
+      "text": "Iran closes Strait of Hormuz over U.S. blockade and fires on ships.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE84TkNEZEdiUVlZcWZMaHlwM3VacEQyX0duUmFPdG00T0ZqS3hFWDluRkVRQ0NTQjZjcmNEU3dwMkR4d0ZQVHRyZUU5VXFFRVBaU01kLXM3clRLT0xaak9ES3I1bWFBM0VSYldZeldlc0RhSlVUbFBJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 258
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 259
     },
     {
       "date": "Apr 19",
-      "text": "US military prepares to board Iran-linked ships in international waters and turns back other vessels.",
+      "text": "Trump states US Navy forcibly seized an Iranian-flagged cargo ship in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxObUY2VjVYd1lUSkdpVk9SaGpHNERDdDFWX2pTMXhpLTU2QnBSR3ZINFJVcUZhckVvYWVDOTJhanlZSm9abUhGUDgzQ2lXTndfeVdTTVZQT1ExZ0ZGODBJcktwLTk2bjJsVldrRTFMd3pvWGEwN281Qnh3UTBRbVJOUGxCMjJIeUM1MlJyMXVPQVBxQ3kx0gGaAUFVX3lxTE90VVBtNldLVG5uRXpzYUNISUhLLUNDTVpMaWFzMUkwU0pZUWVhU1dLdE9JaVptYmJlaEg4VmNtX2twT3lwcTlmWV84U0NXVUFwZm56Mncwd0hVV0RrYTZEaTVrRzdHYUw1cE1PY3ZZMklOUDJhNDNLY3V5TWU1UHpJengteTM0ZnVOYl8teTlqU0tHUEJxYThyRlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 259
+    },
+    {
+      "date": "Apr 19",
+      "text": "Iran reverses course on opening Strait of Hormuz as hardliners take front seat in Tehran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPempHWldhcDhhckR0VEtoM0pTaUhxOGxsb1ZQemNvWk8wczJuTWhrdkJVakJvVFUyY3o4bXJMY1M5QktoSEl5SzByQXJKZjAxQVBaT0x5Wk4teUtpdVppWVE4SXAxODlfOFRDZV8zd2hyNTdoaExLNE9kMFJfSTI3VNIBhgFBVV95cUxQRldrSVphWjVxUGFrSjNqWFFHQlQ4aG1tVHpwNXlRb1V0SUhySkF0amk4Zm41Mnh5ZDhncVhLNjBIeEp0WTBRZUktUm05cDN0eGVPeXlZVnJMWFVFZ2I2cDJOaFc1RUlYZlpHQ0FNVGc0N0xsdGhWMloyUkVxM05wTzl0dWdqdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 259
+    },
+    {
+      "date": "Apr 19",
+      "text": "US military prepares to board Iran-linked ships in coming days.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxPNEctMk9laHlpcWxvcm1JYkVtSkxNY2lkbHlrLXVfQW53RlZYdzQxb2NjcUVuZFNaTFptem1JdURyWERBQjRpTWdxQ0lDVXJBaGNaaDVfMFNQcEQxcFVPdFVCU1REejdndl9FSTJkSHgwd05JMUxMd1hLX3FRTXU4NWo3YlNzeDVuZTV2bXhuenFEUkVpYnp6MTQ3Y1BzcFVxcWU4UWMzVy1uT0ZTMG1hTG9kblpfaEo3VUR5VW01VjVIQnFyQlJEUGJfVUtMVjhZRzNVRlQxeEhUYU1waFBGenZNUXNtV0d4WDk1cg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Wall Street Journal",
-      "latestSinceUpdate": 258
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPSnlDT0RuaDRMaTA1STVRSDU3NzJOWnQxUmJFVzl4czJFZUpJclJzNGVIclc5YThaY0xpQ0YxM1BNaHRjRVRXQnp6MEV6YlBJZ0xpOTFSSzJkdjlTTV9Ha1dwRHBsV1lZc3cyVFUyYjFMMzhDZUxPcnRWTXZoSmthdUdpYVpEWDJ3UHowNXFZRjJGZ01tN3pHMGZFVUVOZFowQWRQZlZYdVhwbG5DWDdvZXlwT19wSlN1MWg4NWtEaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 259
     },
     {
-      "date": "Apr 19",
-      "text": "Iranian minister states 'No intention of negotiating for now,' despite US claims of war goals almost met and delegation heading to Pakistan.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 258
-    },
-    {
-      "date": "Apr 19",
-      "text": "An IDF reservist was killed by a Hezbollah explosive in Lebanon amid an ongoing truce, with three other troops injured.",
-      "severity": "warning",
+      "date": "Apr 18",
+      "text": "IDF reservist killed by Hezbollah explosive in Lebanon amid truce, 3 troops hurt.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOOEtMWEV6NldvajRfWmNDMVY5OVVtTU9JQTlPdmtNLU9IQ0ZpNVNkLXdiWUt1b3gyRlZKTUFPVl80a2o5TWdSSEVUSDU5S1huWElHeHRsRFY5NGJtUDBsSHF4QmdwTEwzOXlNakpaeGU5RXliNkNxOGVPQ1luV3ZZQVNIOEYtYjVzRjBQNm5aaFRJdUFTT2ZTRGdXQzJJa21Ibkw1MnAxQXB3aWxqM0lz0gG0AUFVX3lxTE9fZVJhcUhfQmtoNFdpeTFRR1ppdGJfdDY4TUtRalVwcjhrNzZOWmpoUFoyZHR4c3NKaHJ1OEc0YnBWcV9WOHJ1QkNtb0h3cGV6N2xvV2hFZ0tBaFJfMHREZVliUjBKVnhPWnhfZ19qanVjUzJuN2JBcG5kOVZUTVZjUHlIOW1xc0dmWnhHZW03TEtWQU1UOXJKbGtjS19kaFFMUlN1MVptcWVMN19VWElxRVllOA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 258
+      "latestSinceUpdate": 259
     },
     {
-      "date": "Apr 19",
-      "text": "Traders reportedly placed over $1 billion in perfectly timed bets on the Iran war.",
+      "date": "Apr 18",
+      "text": "Iranian delegation arrives in Pakistan for talks with US.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOR3VkQUJsRElvQ1U0X2VmTFJHM3dSb2lCVkNmZERWeF9CS0hwUHkzY21vSmVBZERqNjdTTmQ3QXc4Mm5EODNfZTI3RVFQbjVlX0I3QjA2VEYwVURTT1lZZW5ZWkVYandEc0ZrWm5qR0UtWW1XdzdWZGFQalhhX0Jtbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 258
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUkJlNWk5X0x6X25UNC0xdHR1UnhQcWxwM2dqYW5uRVlSYXVEUFZzV29za0diTk1EaUtFMUFGaC14cmpjcTlmVU0tRDh1YzZvRXktNUpVVHpXZzFEOUtGcWhTa3JvalgzYnhLRUdWN1NLaTJkdk5PYmd5UkV6OUNHS3hUVmpnaXhMMEMxRXpvazlod2l0T1FXRmUzeE9wV0JoOVdaaVVrVEU2Wjk4ajFwYnlWNzZ2OHdUSjlTZm1hUWfSAcYBQVVfeXFMTzdFS2dXNW1zRS0zQU1IWm1uTjNQV0RCblc0Y3ZrLUhaNWlENjFoNXlUQ1I4YWtpREgzRWdvaXgwMjVUUzZZMElyeFEydC03U0t1YXEtQzNPTWgtMW55NHdkQjVrODFsb25zaWtVWDhhTXRLTlI5TmZKZUNiNEZFd0hQdldkbkM3bUg1T29zcG4tVXJnTVJPSkNZWmtaRzJRS0dORlpjeEdQamdocUpxWGpxNUZJTERNMlJSSHJmVkNuMlhiekZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 259
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

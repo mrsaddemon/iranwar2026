@@ -1,13 +1,13 @@
 {
-  "updateSequence": 258,
+  "updateSequence": 259,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T20:03:23.170Z",
+  "lastSyncedAt": "2026-04-19T20:50:26.817Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A truce between Israel and Lebanon is in effect, but has been partially violated by a Hezbollah explosive attack resulting in an IDF casualty."
+    "summary": "A ceasefire between Israel and Lebanon is in effect but is highly fragile, marked by recent violations including an IDF casualty and questions over territorial lines."
   }
 }
