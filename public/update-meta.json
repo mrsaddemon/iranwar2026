@@ -1,13 +1,13 @@
 {
-  "updateSequence": 253,
+  "updateSequence": 254,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T15:56:04.604Z",
+  "lastSyncedAt": "2026-04-19T16:54:19.688Z",
   "warDay": 51,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "Hezbollah has expressed willingness to cooperate with a ceasefire with Israel, but broader conflict activities and threats continue."
+    "summary": "Hezbollah has expressed willingness to cooperate with a ceasefire, but ongoing Israeli attacks in Lebanon and Iranian warnings threaten its establishment."
   }
 }
