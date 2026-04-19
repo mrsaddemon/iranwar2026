@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 242,
+  "updateSequence": 243,
   "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T05:50:23.921Z",
+  "lastSyncedAt": "2026-04-19T07:02:56.885Z",
   "warDay": 51,
-  "summary": "Iran has closed the Strait of Hormuz and fired on ships in response to a US blockade of its ports, while a fragile 10-day ceasefire between Israel and Lebanon is experiencing violations.",
+  "summary": "The Middle East conflict has escalated with Iran closing the Strait of Hormuz and firing on ships, while a fragile Israel-Lebanon ceasefire faces violations amid ongoing US blockade enforcement.",
   "lastNarrativeUpdate": "2026-04-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 10,
-    "summary": "A 10-day ceasefire between Israel and Lebanon is in effect, but has been marred by reported violations and casualties on both sides."
+    "durationDays": 1,
+    "summary": "The Israel-Lebanon ceasefire appears to have collapsed following multiple violations, including rocket fire, strikes, and fatalities on both sides."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 19",
-      "text": "Iran announces the closure of the Strait of Hormuz and fires on ships, citing a US blockade.",
+      "date": "Apr 18",
+      "text": "Iran announces closure of the Strait of Hormuz and fires on ships, citing a US blockade.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 242
+      "latestSinceUpdate": 243
     },
     {
-      "date": "Apr 19",
-      "text": "The US military turns back ships as it enforces a blockade of Iranian ports, while expressing hope for new peace talks.",
+      "date": "Apr 18",
+      "text": "US military turns back ships as it enforces a blockade of Iranian ports.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 242
-    },
-    {
-      "date": "Apr 19",
-      "text": "An IDF reservist is killed by a Hezbollah explosive in Lebanon amid the truce, with 3 other troops injured.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOOEtMWEV6NldvajRfWmNDMVY5OVVtTU9JQTlPdmtNLU9IQ0ZpNVNkLXdiWUt1b3gyRlZKTUFPVl80a2o5TWdSSEVUSDU5S1huWElHeHRsRFY5NGJtUDBsSHF4QmdwTEwzOXlNakpaeGU5RXliNkNxOGVPQ1luV3ZZQVNIOEYtYjVzRjBQNm5aaFRJdUFTT2ZTRGdXQzJJa21Ibkw1MnAxQXB3aWxqM0lz0gG0AUFVX3lxTE9fZVJhcUhfQmtoNFdpeTFRR1ppdGJfdDY4TUtRalVwcjhrNzZOWmpoUFoyZHR4c3NKaHJ1OEc0YnBWcV9WOHJ1QkNtb0h3cGV6N2xvV2hFZ0tBaFJfMHREZVliUjBKVnhPWnhfZ19qanVjUzJuN2JBcG5kOVZUTVZjUHlIOW1xc0dmWnhHZW03TEtWQU1UOXJKbGtjS19kaFFMUlN1MVptcWVMN19VWElxRVllOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 242
-    },
-    {
-      "date": "Apr 19",
-      "text": "Israel accuses Hezbollah militants of violating the ceasefire following an attack in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQei1TU1lvSFZETVpCdzZSSW5wRkFPeHhBRE1JWS0weWM0QTZGQl83RG51bWRUX2tfdVFuaWVoekhKcGg2QTZJbWdHUmxsSGw0LVhSNTgyWTBDeHJPdTRvSVFicUhuSWJ5NzBraHlwVkpIdGpvQ21OTXBLYU5EVWNTYVp5eEhuaXVibmxYR0xVLTduZnd3Y0N1NU9md3A4QjF1aDNsRHp0TFN4Qk0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews",
-      "latestSinceUpdate": 242
-    },
-    {
-      "date": "Apr 19",
-      "text": "Iran's top negotiator states that talks have progressed but a significant distance remains in negotiations.",
-      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 242
+      "latestSinceUpdate": 243
     },
     {
-      "date": "Apr 19",
-      "text": "Traders reportedly placed over $1 billion in perfectly timed bets on the Iran war, raising questions about market activity.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOR3VkQUJsRElvQ1U0X2VmTFJHM3dSb2lCVkNmZERWeF9CS0hwUHkzY21vSmVBZERqNjdTTmQ3QXc4Mm5EODNfZTI3RVFQbjVlX0I3QjA2VEYwVURTT1lZZW5ZWkVYandEc0ZrWm5qR0UtWW1XdzdWZGFQalhhX0Jtbw?hl=en-US&gl=US&ceid=US:en",
+      "date": "Apr 18",
+      "text": "Hezbollah launches rockets at Israel, and an IDF reservist is killed in Lebanon amid a truce.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPc3Ztakk5YnFMcXozdEdSaXRxU1RQYnZNTm5rMm1mWktkNzctVzRqQ0tNekRvb2VtTkJjYmdVTHJKeDFxRWZfQ1pSV1BiYThkaDI2cEc5d2cyek9wbVU4NEl0bGpNQUMxb2c3SEROUHAzZFhTaHBZR0REcjBQMTlpTUYyMXdRSW9KOXY5VFVRWFJfQ1o4V09ITGdyV3Q0U05nYk9qWTdNeTBwYkdCR0lycEFmekNWVUlCdFZ0dlFaY3RtMmQ2ZnFtcU5XVTRiamRIbEFr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 242
+      "latestSinceUpdate": 243
+    },
+    {
+      "date": "Apr 18",
+      "text": "Israel conducts strikes in Lebanon, killing 4 Lebanese medics.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 243
+    },
+    {
+      "date": "Apr 18",
+      "text": "A French UNIFIL soldier is killed in Lebanon, with Hezbollah blamed by Macron.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNVTZ0dllXUXlSMlBJQ3h4VXhiTEhubW9WOEJOajY2Y0hoc2prX00zOWxTVHFjTGJWNF9Pdi1XN3V5NTVGRTVqS0FrUVNaRXVfSXdrUW11TVo2QXItWndrZFdwb1QwMHY4TDEzcW8tV2FEZnVUZTVFa1EyaU1SNGtDbTlJWDlBSlZLaHpfeVk0N1dlNF9veEZSNEhFU1FRQTlrS0ZDaGh0RjFZZHllXzVVRTBieTJBd1lzdFlhQVEzcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 243
+    },
+    {
+      "date": "Apr 18",
+      "text": "Israel accuses Hezbollah militants of violating the ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQei1TU1lvSFZETVpCdzZSSW5wRkFPeHhBRE1JWS0weWM0QTZGQl83RG51bWRUX2tfdVFuaWVoekhKcGg2QTZJbWdHUmxsSGw0LVhSNTgyWTBDeHJPdTRvSVFicUhuSWJ5NzBraHlwVkpIdGpvQ21OTXBLYU5EVWNTYVp5eEhuaXVibmxYR0xVLTduZnd3Y0N1NU9md3A4QjF1aDNsRHp0TFN4Qk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 243
     }
   ],
   "sourceStatuses": [
