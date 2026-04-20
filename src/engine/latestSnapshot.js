@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 275,
+  "updateSequence": 276,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T19:41:56.633Z",
+  "lastSyncedAt": "2026-04-20T20:30:42.681Z",
   "warDay": 52,
-  "summary": "US-Iran talks remain uncertain amidst a US seizure of an Iran-flagged vessel in the Strait of Hormuz, prompting Iranian vows of retaliation and a jump in oil prices, while a fragile Israel-Lebanon ceasefire holds.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is currently in effect, though its stability is uncertain due to underlying gaps."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 20",
-      "text": "US military seizes an Iran-flagged ship attempting to pass through the Strait of Hormuz blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQMmVWdTMtLTMtSWhSUFJpUExHYURyU0laMFdDaHp4UUFCZ0NtZFo1TU5aRjZ0dDJ3RU5aOGN1YU94RHQ0ZVFTb1R3OTlhaUdLVEs0STFEMnN5NmpFaTJocnQ1TlkyeGdySlFVVm1MaXpRWVdkUzU5NW1lakFmb0c2Z2Z4TEowQ0VMRnhvMUxxZE4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 275
-    },
-    {
-      "date": "Apr 20",
-      "text": "Tehran vows retaliation following the US seizure of an Iran-flagged vessel defying the blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 275
-    },
-    {
-      "date": "Apr 20",
-      "text": "Oil prices jump after the U.S. seizes an Iranian vessel, raising concerns about the stability of a ceasefire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOanFJd19CUnZMSkRITFo3bmh0OGdPN2hKM2x0V1ZDcGpvSU0tck56YU9nZlY3aWJJdFRsNzVEeDBnLXEyV21BWnI0MUFKTjYtel96T3N1ZzczRGEydWJrWDVoZWprS09qMDJacVVqVVlZX2E4dU9ocmNyd1V6OFdEUkY5X29ORU1UZHRkZjY1aU1CRHlS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 275
-    },
-    {
-      "date": "Apr 20",
-      "text": "U.S.-Iran talks are uncertain as a cease-fire deadline looms, with mixed messages from both sides.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 275
-    },
-    {
-      "date": "Apr 20",
-      "text": "Trump threatens Iran with military action if peace talks fail, as the US prepares for negotiations.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE93MUw2NkdVczZia3R2czBIVjFHN2hxeDhFLTFWN1ZrN1VFQ2dpLS1BS0dwa0RwUnlUSEd3YUw1N1R5N0YtRWN0c3V4TkRNQ195TWVxOEtR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 275
-    },
-    {
-      "date": "Apr 20",
-      "text": "A ceasefire between Israel and Hezbollah in Lebanon is in effect, with Hezbollah expressing willingness to cooperate.",
+      "text": "Iran war live: Uncertainty over talks, Trump insists deal to come ‘quickly’",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE5Md3IwaEVnZTZpVlRhVVVtSm80MmJ1TGIzWW1RaDNsbFdoSzFDRTlpZ2k1SFRjbHJiWXFpVF9hbmNGaHFUN3VrQ2E3blRPeGg1VnJuRElWQ1pLWVgtLV9BSjJ6SzBvc3ZOZlNZeHU5QUJIUlR3Umw3cDBXWFo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 275
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 276
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran Update Special Report, April 19, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPanFHSTdoTnI3LWNOTm14S2xOR2c1OFg1RlRjRnM4eDhySzNPLU9FcVZ5b2tTdU5PY012UlUwWkxJUXBYYXR3Ykk5UUJlMlRVUW90akpFcDloYkVBbWdsU0l1N0EwV0lrVjI5NVdmTTA5REZ1ekZWRDloZ09GZTB0Sm5BVlFsTnNIeEhhSHo2VzNrVTBIVmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 276
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 276
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran War News Live Updates: U.S.-Iran Talks Uncertain as Cease-Fire Deadline Looms",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE50ekRfbXRYTF9wRXBMbU1nM0QySFg1ZTNDUXlKc2RHNnkwUGdQSWFXaTBhdWhyLUxONWRxYndVUE5MX3gwSkZFU0FRRjc5YlBxaXRDV0RLZEpQZkp2VGtIWGtiUTRuaDN1NHpwMy0tYl9kMUEtOU9Kdkh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 276
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran war latest: Tehran launches drone strikes on US military vessels after ship seizure, report says",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPclI5dnpSdTM4ajFZRFl5THdQejNtTmd5d2pncmo4LW9ReDV2MlBLa1BYeWhnLWpUeTJHTFdlWGtLcHFkVE5QSFgyTlNnckNTc0JRNFZnVmZJb0V5cVphR1lJdXUwQk9xYXZUdHBDVDlBRUFhdzFHVTRIT2ZhQ2Q0QVU0Q01yTWczWnl6TGt5azhXaVpkbm5YdWdTcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The National",
+      "latestSinceUpdate": 276
+    },
+    {
+      "date": "Apr 20",
+      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 276
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
