@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 276,
+  "updateSequence": 277,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T20:30:42.681Z",
+  "lastSyncedAt": "2026-04-20T21:26:55.922Z",
   "warDay": 52,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -84,19 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "Iran War News Live Updates: U.S.-Iran Talks Uncertain as Cease-Fire Deadline Looms",
+      "text": "Iran War Live News Updates: Trump Unlikely to Extend Ceasefire as Deadline Looms",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE50ekRfbXRYTF9wRXBMbU1nM0QySFg1ZTNDUXlKc2RHNnkwUGdQSWFXaTBhdWhyLUxONWRxYndVUE5MX3gwSkZFU0FRRjc5YlBxaXRDV0RLZEpQZkp2VGtIWGtiUTRuaDN1NHpwMy0tYl9kMUEtOU9Kdkh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "WSJ",
-      "latestSinceUpdate": 276
-    },
-    {
-      "date": "Apr 20",
-      "text": "Iran war latest: Tehran launches drone strikes on US military vessels after ship seizure, report says",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPclI5dnpSdTM4ajFZRFl5THdQejNtTmd5d2pncmo4LW9ReDV2MlBLa1BYeWhnLWpUeTJHTFdlWGtLcHFkVE5QSFgyTlNnckNTc0JRNFZnVmZJb0V5cVphR1lJdXUwQk9xYXZUdHBDVDlBRUFhdzFHVTRIT2ZhQ2Q0QVU0Q01yTWczWnl6TGt5azhXaVpkbm5YdWdTcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The National",
-      "latestSinceUpdate": 276
+      "latestSinceUpdate": 277
     },
     {
       "date": "Apr 20",
@@ -105,6 +97,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 276
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran war latest: Tehran changes tone on peace talks",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 277
     }
   ],
   "sourceStatuses": [
