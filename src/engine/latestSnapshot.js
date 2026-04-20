@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 277,
+  "updateSequence": 278,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T21:26:55.922Z",
+  "lastSyncedAt": "2026-04-20T22:25:02.169Z",
   "warDay": 52,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
@@ -76,19 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 276
-    },
-    {
-      "date": "Apr 20",
       "text": "Iran War Live News Updates: Trump Unlikely to Extend Ceasefire as Deadline Looms",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE50ekRfbXRYTF9wRXBMbU1nM0QySFg1ZTNDUXlKc2RHNnkwUGdQSWFXaTBhdWhyLUxONWRxYndVUE5MX3gwSkZFU0FRRjc5YlBxaXRDV0RLZEpQZkp2VGtIWGtiUTRuaDN1NHpwMy0tYl9kMUEtOU9Kdkh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "WSJ",
       "latestSinceUpdate": 277
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 276
     },
     {
       "date": "Apr 20",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
