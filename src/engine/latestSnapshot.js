@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 263,
-  "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T23:23:13.903Z",
-  "warDay": 51,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-04-19",
+  "updateSequence": 264,
+  "lastUpdated": "2026-04-20",
+  "lastSyncedAt": "2026-04-20T00:04:38.792Z",
+  "warDay": 52,
+  "summary": "Tensions between the US and Iran escalate following the US seizure of an Iranian-flagged vessel and Iran's vow of response, while a fragile truce holds in Lebanon.",
+  "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A truce between Israel and Lebanon is active but appears fragile, with reports of potential violations along the 'Yellow Line'."
+    "summary": "An Israel-Lebanon truce is in effect, allowing some civilians to return, but its stability is questioned by actions near the 'Yellow Line'."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 19",
-      "text": "US military seized an Iranian vessel near the Strait of Hormuz.",
+      "date": "Apr 20",
+      "text": "US Navy fired on and seized an Iranian-flagged vessel near the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 263
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 264
     },
     {
-      "date": "Apr 19",
-      "text": "Iran vows swift response after US seizes vessel and announces closure of Strait of Hormuz.",
+      "date": "Apr 20",
+      "text": "Iran vows swift response after the US seizes a vessel near the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE93WEJXNmNtdG90Rm9RRm1VT1dmb3JUZ3V3OWw4ZGZEZmVOazhfX0ZkeDRkM3V5ckluMkxmM0FMSU5UR3c5eFdGOEZLRmNPNC1sYkcwNWxOc1dKY3JKelQzQnFtMjZaaWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 263
+      "latestSinceUpdate": 264
     },
     {
-      "date": "Apr 19",
-      "text": "Oil prices jump following setbacks related to the Strait of Hormuz.",
+      "date": "Apr 20",
+      "text": "Iran reverses course on opening the Strait of Hormuz as hardliners take front seat in Tehran, with the US blockade continuing.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPempHWldhcDhhckR0VEtoM0pTaUhxOGxsb1ZQemNvWk8wczJuTWhrdkJVakJvVFUyY3o4bXJMY1M5QktoSEl5SzByQXJKZjAxQVBaT0x5Wk4teUtpdVppWVE4SXAxODlfOFRDZV8zd2hyNTdoaExLNE9kMFJfSTI3VNIBhgFBVV95cUxQRldrSVphWjVxUGFrSjNqWFFHQlQ4aG1tVHpwNXlRb1V0SUhySkF0amk4Zm41Mnh5ZDhncVhLNjBIeEp0WTBRZUktUm05cDN0eGVPeXlZVnJMWFVFZ2I2cDJOaFc1RUlYZlpHQ0FNVGc0N0xsdGhWMloyUkVxM05wTzl0dWdqdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 264
+    },
+    {
+      "date": "Apr 20",
+      "text": "Oil prices jump after Strait of Hormuz setbacks and increased regional tensions.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPanF4a3BkUkhIQ0I0cDE4MkJqaEk0YXAtUW1oX0pPcGlZUEZnWDAzMll3UVR2eUZ5ZTBCUHI2VC13N3J4dnNrdFdiT2poUjREZnlYSmFpclZkZDB3ZlM4YkEzWXlVT0JkN2E5cU1IYzVMYzdWd1QwdFVWbE1TcEZvOWtVdGs1ZGtL?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 263
+      "latestSinceUpdate": 264
     },
     {
-      "date": "Apr 19",
-      "text": "Iran rejects peace talks as the US military prepares to enforce maritime order.",
+      "date": "Apr 20",
+      "text": "Israel is reportedly preparing to strike energy facilities if an Iran truce collapses.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE1mUF9QTTFITDFGZThPNmdOSkZTWlNFTkxVSXNOdmFwZngxeWZWS2taeEdMSlYxZTVqaFlwR00yNWhZejNzTFFQTjJuZjU2NlJhZ1VkWTlB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 263
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPalNBN3IycGJDQldYV0F6LWc4dGtBQjRNbC1FTVR5ZlpkYTVmeFp6QTY3a1BvNWxOelFNS3YyRVEzTE9WV0tzREdyYWwyZ1B2S0xkTE13T2F2elIzM2o3LWJGbnMybHMxUUxtNnE0LVZNODZMeU1PWjE5NVJDX29zZFJOamV5WmZvaTcwUXdnVDVQbHBqZWJfQ0ZjSXVOUlVUcklRNDI1MnppVDVDbEFqdXU0TDhmekRtTllyWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 264
     },
     {
-      "date": "Apr 19",
-      "text": "Reports indicate Khamenei and top security officials killed in US/Israel attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkVCTnhodk1jUmFmOWVwMlJ5dlN2RFFEd3ByUFQtS3lvLVJ6Z0FFZHpmb2szTERvOW5xV0pIVUxIazU4LUs4ci0wcVdJNU9PY3hNNl9Va0xveHh4T292SkdqdmF4akFxdHpFNS1yZTcyNHFKaGpoMHFQQWZ0Vkd3T1ZwMV9CaGFkaHY1anMtd1Q2bzVVcFFXUGJiWHdTZi1CbkVTSEdEOWRaYWZHaVVESGtuX1ZqcmYwREExaEZMb9IBxAFBVV95cUxPZzBGclI4NmZ2Zm1uWWkwNlJVRjdqNUg4X1RtaU1sbVl4MC1nd2h6QkVCckRIbDdVbXVqVUx5Njl5NWc4S2dLUHBYcnZON3VVZDZXNW9jdkJqUGoyTlpkdlR1N2JFRHRETjVUQmZOaGZwdEUzeURZY21MVnBkb1dxYUdSNzlzOGNsekljVXQzaHVWek5sT2JiUldFWV8yUF9Ba3Z2RGtabGc5NG5rNGVTMnZiWENQTnE5QVN0bENvUFhjU1JI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 263
-    },
-    {
-      "date": "Apr 19",
-      "text": "Thousands of Lebanese attempt to return home following an Israel-Lebanon truce, with reports of potential 'Yellow Line' violations.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 263
+      "date": "Apr 20",
+      "text": "Iran rejects peace talks, stating no intention of negotiating for now, as the US insists war goals are almost met.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 264
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Stance",
-      "headline": "Strait of Hormuz Closed Amid US Blockade",
-      "summary": "Iran asserts its right to close the Strait of Hormuz due to a U.S. blockade, while also indicating progress in talks with the US despite significant remaining differences.",
+      "perspective": "US/Israel Stance",
+      "headline": "US Enforces Maritime Order, Israel Prepares for Escalation",
+      "summary": "The US asserts its right to enforce maritime order, seizing an Iranian vessel and claiming war goals are nearly met. Israel is reportedly ready to strike Iranian energy facilities if broader regional truces fail, indicating a readiness for further military action.",
       "tone": "defiant",
-      "latestSinceUpdate": 241
+      "latestSinceUpdate": 264
     },
     {
-      "perspective": "Israel-Lebanon Conflict",
-      "headline": "Truce Violations and Escalating Strikes",
-      "summary": "Despite reports of a truce, Israel and Hezbollah continue to exchange fire, with both sides accusing the other of violations and significant casualties reported.",
-      "tone": "strained",
-      "latestSinceUpdate": 241
+      "perspective": "Iranian Stance",
+      "headline": "Iran Vows Response, Rejects Talks Amid Hardliner Shift",
+      "summary": "Iran has vowed a swift response to the US vessel seizure and has rejected peace talks, with hardliners reportedly gaining influence in Tehran. The Strait of Hormuz has seen reversals on opening, signaling a hardened stance against US actions.",
+      "tone": "defiant",
+      "latestSinceUpdate": 264
     },
     {
-      "perspective": "Global Economic Impact",
-      "headline": "Traders Bet on War, Oil Market Volatility",
-      "summary": "Traders have made significant bets on the Iran war, highlighting market sensitivity to the conflict and potential for major economic shifts, particularly concerning oil.",
+      "perspective": "Regional Stability",
+      "headline": "Strait of Hormuz Disruptions Fuel Oil Price Jumps",
+      "summary": "The ongoing US blockade and Iranian actions in the Strait of Hormuz are causing significant disruptions to commercial shipping and have led to a jump in global oil prices. While a fragile truce holds in Lebanon, the broader region remains highly volatile.",
       "tone": "anxious",
-      "latestSinceUpdate": 241
-    },
-    {
-      "perspective": "US Role",
-      "headline": "US Enforces Blockade, Seeks Peace Talks",
-      "summary": "The U.S. is actively enforcing a blockade of Iranian ports and turning back ships, signaling a direct intervention in the conflict while also engaging in diplomatic efforts for peace talks.",
-      "tone": "neutral",
-      "latestSinceUpdate": 241
+      "latestSinceUpdate": 264
     }
   ]
 });

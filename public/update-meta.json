@@ -1,13 +1,13 @@
 {
-  "updateSequence": 263,
-  "lastUpdated": "2026-04-19",
-  "lastSyncedAt": "2026-04-19T23:23:13.903Z",
-  "warDay": 51,
+  "updateSequence": 264,
+  "lastUpdated": "2026-04-20",
+  "lastSyncedAt": "2026-04-20T00:04:38.792Z",
+  "warDay": 52,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A truce between Israel and Lebanon is active but appears fragile, with reports of potential violations along the 'Yellow Line'."
+    "summary": "An Israel-Lebanon truce is in effect, allowing some civilians to return, but its stability is questioned by actions near the 'Yellow Line'."
   }
 }
