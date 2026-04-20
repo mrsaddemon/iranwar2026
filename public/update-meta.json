@@ -1,13 +1,13 @@
 {
-  "updateSequence": 265,
+  "updateSequence": 266,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T03:47:46.790Z",
+  "lastSyncedAt": "2026-04-20T06:06:06.894Z",
   "warDay": 52,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "An Israel-Lebanon ceasefire is reported, but overall regional peace talks are under severe pressure following recent US-Iran confrontations."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
