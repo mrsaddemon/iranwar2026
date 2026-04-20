@@ -1,13 +1,13 @@
 {
-  "updateSequence": 269,
+  "updateSequence": 270,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T11:45:38.597Z",
+  "lastSyncedAt": "2026-04-20T12:53:32.893Z",
   "warDay": 52,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire is in effect for the US-Iran conflict, though a fragile ceasefire between Israel and Hezbollah is reported."
   }
 }
