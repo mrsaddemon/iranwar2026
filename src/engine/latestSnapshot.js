@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 273,
+  "updateSequence": 274,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T17:32:08.360Z",
+  "lastSyncedAt": "2026-04-20T18:37:16.153Z",
   "warDay": 52,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
@@ -76,11 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "Iran War Live Updates: Tehran and D.C. Plan for New Talks in Pakistan After U.S. Seizes Ship",
+      "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 272
+      "latestSinceUpdate": 274
     },
     {
       "date": "Apr 20",
