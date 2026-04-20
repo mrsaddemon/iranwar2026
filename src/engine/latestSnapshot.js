@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 271,
+  "updateSequence": 272,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T14:56:04.988Z",
+  "lastSyncedAt": "2026-04-20T16:19:09.351Z",
   "warDay": 52,
-  "summary": "Tensions between the US and Iran have escalated following the US seizure of an Iran-flagged vessel, leading to reported Iranian drone strikes and mixed signals regarding peace talks, alongside reports of high-level Iranian casualties and an ongoing Israel-Lebanon ceasefire.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.81,
+    "confidence": 0.93,
     "durationDays": 100,
-    "summary": "No ceasefire is in effect for the primary US-Iran conflict."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 38,
-    "oilDisruption": 95,
-    "tradeImpact": 59,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
     "sanctionsPressure": 49,
-    "globalPressure": 58,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 20",
-      "text": "US military seizes Iran-flagged vessel defying blockade in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 271
+      "text": "Iran war live: Tehran will skip talks as tensions rise over US ship seizure",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 272
     },
     {
       "date": "Apr 20",
-      "text": "Iran vows retaliation and reportedly launches drone strikes on US military vessels after ship seizure.",
-      "severity": "critical",
+      "text": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOanFJd19CUnZMSkRITFo3bmh0OGdPN2hKM2x0V1ZDcGpvSU0tck56YU9nZlY3aWJJdFRsNzVEeDBnLXEyV21BWnI0MUFKTjYtel96T3N1ZzczRGEydWJrWDVoZWprS09qMDJacVVqVVlZX2E4dU9ocmNyd1V6OFdEUkY5X29ORU1UZHRkZjY1aU1CRHlS?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 272
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran War Live Updates: Tehran and D.C. Plan for New Talks in Pakistan After U.S. Seizes Ship",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 272
+    },
+    {
+      "date": "Apr 20",
+      "text": "US seizes Iranian ship after opening fire; Pakistan talks in doubt",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPMERmWmdnNXBWQi1CenpHQjY0MFp3MFYycUxwUlh6WVB1QmdWVVNtYTZBaGRZUFBMOGNrT1lEbDFRTFFxU0Znc3Q4MlhYa2J2NmFXNlhOazhnbHhCanRQUTltWmVRTFhlaWdmQkc4aVVPZHR2c1hCSVM4aVV3aW15ZEFPRjdpUdIBiwFBVV95cUxNZUZSOWFFLVF1RmJ3VzFzMGY0STlObTJSNmJ2S2NxWnNnMVdhZGxHbXU5T0s0c3EwWXQta3FLSDM5WGNUT2puSG9rSThKZVNMb1ZTRGhkZ0tVQjJDclVaSjJEVU44cURjdmFqcVU4cnFFVmtyTlVheVFCTlJqQnlmQW5jdjFMNWY5MUg4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 272
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran war latest: Tehran launches drone strikes on US military vessels after ship seizure, report says",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPclI5dnpSdTM4ajFZRFl5THdQejNtTmd5d2pncmo4LW9ReDV2MlBLa1BYeWhnLWpUeTJHTFdlWGtLcHFkVE5QSFgyTlNnckNTc0JRNFZnVmZJb0V5cVphR1lJdXUwQk9xYXZUdHBDVDlBRUFhdzFHVTRIT2ZhQ2Q0QVU0Q01yTWczWnl6TGt5azhXaVpkbm5YdWdTcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The National",
-      "latestSinceUpdate": 271
+      "latestSinceUpdate": 272
     },
     {
       "date": "Apr 20",
-      "text": "Iran sends mixed signals on peace talks, with a minister stating 'no intention of negotiating for now' despite US claims of preparing for talks.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 271
-    },
-    {
-      "date": "Apr 20",
-      "text": "Reports indicate that Iran's Supreme Leader Khamenei and top security officials were killed in a US/Israel attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkVCTnhodk1jUmFmOWVwMlJ5dlN2RFFEd3ByUFQtS3lvLVJ6Z0FFZHpmb2szTERvOW5xV0pIVUxIazU4LUs4ci0wcVdJNU9PY3hNNl9Va0xveHh4T292SkdqdmF4akFxdHpFNS1yZTcyNHFKaGpoMHFQQWZ0Vkd3T1ZwMV9CaGFkaHY1anMtd1Q2bzVVcFFXUGJiWHdTZi1CbkVTSEdEOWRaYWZHaVVESGtuX1ZqcmYwREExaEZMb9IBxAFBVV95cUxPZzBGclI4NmZ2Zm1uWWkwNlJVRjdqNUg4X1RtaU1sbVl4MC1nd2h6QkVCckRIbDdVbXVqVUx5Njl5NWc4S2dLUHBYcnZON3VVZDZXNW9jdkJqUGoyTlpkdlR1N2JFRHRETjVUQmZOaGZwdEUzeURZY21MVnBkb1dxYUdSNzlzOGNsekljVXQzaHVWek5sT2JiUldFWV8yUF9Ba3Z2RGtabGc5NG5rNGVTMnZiWENQTnE5QVN0bENvUFhjU1JI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 271
-    },
-    {
-      "date": "Apr 20",
-      "text": "President Trump states the Navy struck and seized an Iranian ship, while his approval rating declines amidst public dissatisfaction with the Iran war.",
+      "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 271
-    },
-    {
-      "date": "Apr 20",
-      "text": "An Israel-Lebanon ceasefire is in effect, though witnesses detail deadly Israeli strikes on medics in Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNOUNaNkhhanJCVTNKQnRFbm5sX2dObEhNdEQ1ZU94SmdMYVdOclY5bk9KUlhjYTFPUFJKMEo1cXotQjViLVpqeTF3U0tocFNTNHFMX2VIcXhQMDRaWjhJRVJUeDZjUjlFa1pJZk1mcVZ6b1lwSXFKeGgtRmtCMzd1aDg0WE1XWHA0eVhyQ0UyY21tMV9JeURaTk5xNNIBoAFBVV95cUxPcldQM29ybjE3UExHTjVfVlE4WE0yWkp2QzRINDd2cE9vaVZrVEhNWnlzWDJhbzY5cU9jYnVyWUpWSnlqeXdJcVVTSW1fM0hONnR2QzVIWk8yZ2lOY1VLenlsV1hIYlpqTFBPbU9xWHBRYmtxZlRIdUEtWWhybnVXaUU5VndUTVdLMDBYZy1Scjc2dHVBNnRyVzlBcGZkdm9I?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 271
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 272
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
