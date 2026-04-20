@@ -1,4 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
+import ConclusionShareModal from './ConclusionShareModal.jsx';
+import { buildPersonalOutcomeReport } from '../engine/outcomeReport.js';
+import { buildEndingArtDirection } from '../engine/endingArtPrompts.js';
+import { getEndingArtAssetCandidates } from '../engine/endingArtAssets.js';
 
 const SIM_START = new Date('2026-04-06');
 const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -11,6 +15,36 @@ function fmt(n) {
   if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
   if (n >= 1000) return `${(n / 1000).toFixed(0)}K`;
   return n.toString();
+}
+
+function splitSvgLabel(value, maxLength = 18, maxLines = 2) {
+  const words = String(value || '').split(/\s+/).filter(Boolean);
+  const lines = [];
+  let current = '';
+  let usedWords = 0;
+
+  for (const word of words) {
+    const next = current ? `${current} ${word}` : word;
+    if (next.length > maxLength && current) {
+      lines.push(current);
+      usedWords += current.split(/\s+/).filter(Boolean).length;
+      current = word;
+      if (lines.length === maxLines - 1) break;
+    } else {
+      current = next;
+    }
+  }
+
+  if (current && lines.length < maxLines) {
+    lines.push(current);
+    usedWords += current.split(/\s+/).filter(Boolean).length;
+  }
+
+  if (usedWords < words.length && lines.length) {
+    lines[lines.length - 1] = `${lines[lines.length - 1].replace(/[. ]+$/u, '')}...`;
+  }
+
+  return lines.slice(0, maxLines);
 }
 
 function ImpactRadiusMap({ target }) {
@@ -33,6 +67,9 @@ function ImpactRadiusMap({ target }) {
   const maxRadius = Math.max(...rings.map((ring) => ring.value || 1), 1);
   const center = 110;
   const maxPixelRadius = 84;
+  const targetLabelLines = splitSvgLabel(target.city, 20, 2);
+  const targetLabelStartY = targetLabelLines.length > 1 ? 102 : 106;
+  const targetSubtitleY = targetLabelLines.length > 1 ? 127 : 123;
 
   return (
     <div style={{ marginTop: 10 }}>
@@ -53,10 +90,14 @@ function ImpactRadiusMap({ target }) {
             />
           ))}
           <circle cx={center} cy={center} r="4" fill={isIntercepted ? '#93c5fd' : '#f8fafc'} />
-          <text x={center} y="106" textAnchor="middle" fill="rgba(226, 232, 240, 0.96)" fontSize="13" fontWeight="700">
-            {target.city}
+          <text x={center} y={targetLabelStartY} textAnchor="middle" fill="rgba(226, 232, 240, 0.96)" fontSize="12" fontWeight="700">
+            {targetLabelLines.map((line, index) => (
+              <tspan key={`${line}-${index}`} x={center} dy={index === 0 ? 0 : 14}>
+                {line}
+              </tspan>
+            ))}
           </text>
-          <text x={center} y="123" textAnchor="middle" fill="rgba(148, 163, 184, 0.82)" fontSize="10">
+          <text x={center} y={targetSubtitleY} textAnchor="middle" fill="rgba(148, 163, 184, 0.82)" fontSize="10">
             {isIntercepted ? 'Intercept point / debris watch' : 'Estimated strike footprint'}
           </text>
         </svg>
@@ -80,12 +121,134 @@ function ImpactRadiusMap({ target }) {
   );
 }
 
+function getInitialStrikeCasualties(nuclearOutcome) {
+  return (nuclearOutcome?.initialTargets || []).reduce((sum, target) => sum + (target?.casualties || 0), 0);
+}
+
+function OutcomeArtPreview({ artDirection, report, compact = false }) {
+  if (!artDirection) return null;
+  const [primary, secondary, accent] = artDirection.colors;
+  const [imageSrc, setImageSrc] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    setImageSrc(null);
+
+    if (!report?.factionKey || !report?.outcomeKey) return undefined;
+
+    const candidates = getEndingArtAssetCandidates(report.factionKey, report.outcomeKey);
+    if (candidates.length === 0) return undefined;
+
+    const tryLoad = async () => {
+      for (const candidate of candidates) {
+        try {
+          const response = await fetch(candidate, { method: 'HEAD' });
+          if (!cancelled && response.ok) {
+            setImageSrc(candidate);
+            return;
+          }
+        } catch {
+          // Ignore missing assets and keep trying the next candidate.
+        }
+      }
+    };
+
+    tryLoad();
+    return () => {
+      cancelled = true;
+    };
+  }, [report?.factionKey, report?.outcomeKey]);
+
+  return (
+    <div
+      className={`wc-art-preview ${compact ? 'wc-art-preview-compact' : ''} ${imageSrc ? 'wc-art-preview-asset' : ''}`}
+      style={{
+        '--wc-art-primary': primary,
+        '--wc-art-secondary': secondary,
+        '--wc-art-accent': accent,
+      }}
+    >
+      {imageSrc ? (
+        <>
+          <img src={imageSrc} alt={artDirection.title} className="wc-art-image" />
+          <div className="wc-art-image-overlay" />
+        </>
+      ) : (
+        <>
+          <div className="wc-art-backdrop" />
+          <div className="wc-art-grid" />
+          <div className="wc-art-glow" />
+          <div className="wc-art-orbit wc-art-orbit-lg" />
+          <div className="wc-art-orbit wc-art-orbit-md" />
+          <div className="wc-art-core" />
+          <div className="wc-art-route wc-art-route-main" />
+          <div className="wc-art-route wc-art-route-alt" />
+          <div className="wc-art-hotspots">
+            {artDirection.locations.slice(0, compact ? 2 : 3).map((location) => (
+              <span key={location} className="wc-art-hotspot">{location}</span>
+            ))}
+          </div>
+          <div className="wc-art-copy">
+            <div className="wc-art-kicker">ENDING VISUAL</div>
+            <div className="wc-art-title">{artDirection.title}</div>
+            <div className="wc-art-tone">{artDirection.framing}</div>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+function PersonalOutcomePanel({ report, artDirection, onOpenShare }) {
+  if (!report) {
+    return (
+      <div className="wc-personal-card wc-personal-card-muted">
+        <div className="wc-personal-label">PERSONAL ENDING LOCKED</div>
+        <div className="wc-personal-title">Take command in the next run to unlock a personal after-action report.</div>
+        <div className="wc-personal-text">
+          Enter a commander name, choose a side, and issue at least one manual order before the war ends.
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="wc-personal-card">
+      <div className="wc-personal-head">
+        <div className="wc-personal-copy">
+          <div className="wc-personal-label">COMMANDER REPORT</div>
+          <div className="wc-personal-title">{report.title}</div>
+        </div>
+        <div className="wc-personal-verdict" style={{ color: report.verdict.color }}>
+          <span>{report.verdict.icon}</span>
+          <span>{report.verdict.label}</span>
+        </div>
+      </div>
+      <div className="wc-personal-subtitle">{report.subtitle}</div>
+      <div className="wc-personal-text">{report.debrief}</div>
+      <OutcomeArtPreview artDirection={artDirection} report={report} />
+      <div className="wc-personal-stats">
+        {report.reportStats.map((item) => (
+          <div key={item.label} className="wc-personal-stat">
+            <div className="wc-personal-stat-label">{item.label}</div>
+            <div className="wc-personal-stat-value">{item.value}</div>
+          </div>
+        ))}
+      </div>
+      <div className="wc-personal-actions">
+        <button className="wc-share-btn" onClick={onOpenShare}>SHARE MY OUTCOME</button>
+      </div>
+    </div>
+  );
+}
+
 // Standard (non-nuclear) conclusion
-function StandardConclusion({ conclusion, dayCount, warDay, oilDisruption, nuclearIndex, onReset }) {
+function StandardConclusion({ conclusion, dayCount, warDay, oilDisruption, nuclearIndex, onReset, onDismiss, personalReport, artDirection, onOpenShare }) {
   const totalWarDays = (warDay || 37) + dayCount;
   return (
     <div className="war-conclusion-overlay">
       <div className="war-conclusion-panel" style={{ borderColor: conclusion.color }}>
+        <button className="wc-close-btn" onClick={onDismiss} aria-label="Close conclusion overlay">×</button>
         <div className="wc-icon" style={{ color: conclusion.color }}>{conclusion.icon}</div>
         <div className="wc-title" style={{ color: conclusion.color }}>{conclusion.title}</div>
         <div className="wc-subtitle">War concluded on {getDateForDay(dayCount)} — Day {totalWarDays}</div>
@@ -97,6 +260,7 @@ function StandardConclusion({ conclusion, dayCount, warDay, oilDisruption, nucle
           <div className="wc-stat"><div className="wc-stat-value" style={{ color: nuclearIndex > 60 ? '#dc2626' : '#eab308' }}>{Math.round(nuclearIndex)}</div><div className="wc-stat-label">Nuclear Index</div></div>
         </div>
         <div className="wc-detail">{conclusion.detail}</div>
+        <PersonalOutcomePanel report={personalReport} artDirection={artDirection} onOpenShare={onOpenShare} />
         <div className="wc-disclaimer">This is a probabilistic simulation for educational purposes. Not a prediction of real-world outcomes.</div>
         <button className="wc-restart-btn" onClick={onReset}>RUN SIMULATION AGAIN</button>
       </div>
@@ -105,15 +269,23 @@ function StandardConclusion({ conclusion, dayCount, warDay, oilDisruption, nucle
 }
 
 // Multi-page nuclear conclusion
-function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
+function NuclearConclusion({ conclusion, dayCount, warDay, onReset, onDismiss, personalReport, artDirection, onOpenShare }) {
   const [page, setPage] = useState(0);
   const [impactIndex, setImpactIndex] = useState(0);
+  const pageContentRef = useRef(null);
   const nuc = conclusion._nuclearOutcome;
-  if (!nuc) return <StandardConclusion conclusion={conclusion} dayCount={dayCount} warDay={warDay} oilDisruption={100} nuclearIndex={100} onReset={onReset} />;
+  if (!nuc) return <StandardConclusion conclusion={conclusion} dayCount={dayCount} warDay={warDay} oilDisruption={100} nuclearIndex={100} onReset={onReset} personalReport={personalReport} onOpenShare={onOpenShare} />;
 
   const totalWarDays = (warDay || 37) + dayCount;
-  const totalPages = 4;
+  const totalPages = 5;
   const impactTarget = nuc.initialTargets[Math.min(impactIndex, Math.max(0, nuc.initialTargets.length - 1))];
+  const initialStrikeCasualties = getInitialStrikeCasualties(nuc);
+
+  useEffect(() => {
+    if (pageContentRef.current) {
+      pageContentRef.current.scrollTop = 0;
+    }
+  }, [page]);
 
   const pages = [
     // Page 0: The Strike
@@ -170,9 +342,16 @@ function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
         <ImpactRadiusMap target={impactTarget} />
 
         <div className="nuc-immediate-box">
-          <span>Immediate death toll:</span>
-          <span className="nuc-big-number" style={{ color: '#dc2626' }}>~{fmt(nuc.totalCasualties.immediate)}</span>
+          <span>{nuc.intercepted ? 'Immediate deaths at target:' : 'Immediate deaths from initial strike:'}</span>
+          <span className="nuc-big-number" style={{ color: initialStrikeCasualties > 0 ? '#dc2626' : '#22c55e' }}>
+            {initialStrikeCasualties > 0 ? `~${fmt(initialStrikeCasualties)}` : '0'}
+          </span>
         </div>
+        {nuc.intercepted && (
+          <div className="nuc-page-desc" style={{ marginTop: 10 }}>
+            The launch was intercepted before ground detonation. The larger death toll in later pages comes from the retaliation chain and wider regional escalation, not from the intercepted warhead itself.
+          </div>
+        )}
       </div>
     ),
 
@@ -202,8 +381,13 @@ function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
         )}
 
         <div className="nuc-immediate-box">
+          <span>Immediate deaths after retaliation cycle:</span>
+          <span className="nuc-big-number" style={{ color: '#ef4444' }}>~{fmt(nuc.totalCasualties.immediate)}</span>
+        </div>
+
+        <div className="nuc-immediate-box">
           <span>Casualties within first year:</span>
-          <span className="nuc-big-number" style={{ color: '#ef4444' }}>~{fmt(nuc.totalCasualties.withinYear)}</span>
+          <span className="nuc-big-number" style={{ color: '#f97316' }}>~{fmt(nuc.totalCasualties.withinYear)}</span>
         </div>
       </div>
     ),
@@ -279,18 +463,30 @@ function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
         </div>
       </div>
     ),
+
+    () => (
+      <div className="nuc-page">
+        <div className="nuc-page-tag">5 / {totalPages} — COMMANDER REPORT</div>
+        <div className="nuc-page-title" style={{ color: personalReport?.verdict?.color || '#93c5fd' }}>
+          YOUR FINAL RESULT
+        </div>
+        <div className="nuc-page-subtitle">Personalized from your side, name, and issued commands</div>
+        <PersonalOutcomePanel report={personalReport} artDirection={artDirection} onOpenShare={onOpenShare} />
+      </div>
+    ),
   ];
 
   return (
     <div className="war-conclusion-overlay nuc-overlay">
       <div className="war-conclusion-panel nuc-panel" style={{ borderColor: '#dc2626', maxWidth: 680 }}>
+        <button className="wc-close-btn nuc-close-btn" onClick={onDismiss} aria-label="Close conclusion overlay">×</button>
         <div className="nuc-header-bar">
           <span className="nuc-header-icon">{'\u2622'}</span>
           <span className="nuc-header-text">NUCLEAR EXCHANGE</span>
           <span className="nuc-header-icon">{'\u2622'}</span>
         </div>
 
-        <div className="nuc-page-content">
+        <div className="nuc-page-content" ref={pageContentRef}>
           {pages[page]()}
         </div>
 
@@ -318,12 +514,75 @@ function NuclearConclusion({ conclusion, dayCount, warDay, onReset }) {
   );
 }
 
-export default function WarConclusion({ conclusion, dayCount, warDay, oilDisruption, nuclearIndex, onReset }) {
+export default function WarConclusion({
+  conclusion,
+  dayCount,
+  warDay,
+  oilDisruption,
+  nuclearIndex,
+  onReset,
+  playerName,
+  playerControlledActor,
+  commandIssuedCount,
+}) {
+  const [shareOpen, setShareOpen] = useState(false);
+  const [dismissed, setDismissed] = useState(false);
+  const personalReport = useMemo(() => buildPersonalOutcomeReport({
+    conclusion,
+    actorId: playerControlledActor,
+    playerName,
+    commandIssuedCount,
+    dayCount,
+    warDay,
+    oilDisruption,
+    nuclearIndex,
+  }), [conclusion, playerControlledActor, playerName, commandIssuedCount, dayCount, warDay, oilDisruption, nuclearIndex]);
+  const artDirection = useMemo(
+    () => buildEndingArtDirection(personalReport, conclusion),
+    [conclusion, personalReport],
+  );
+  useEffect(() => {
+    setDismissed(false);
+    setShareOpen(false);
+  }, [conclusion]);
   if (!conclusion) return null;
+  if (dismissed) return null;
 
-  if (conclusion.type === 'nuclearExchange') {
-    return <NuclearConclusion conclusion={conclusion} dayCount={dayCount} warDay={warDay} onReset={onReset} />;
-  }
+  return (
+    <>
+      {conclusion.type === 'nuclearExchange' ? (
+        <NuclearConclusion
+          conclusion={conclusion}
+          dayCount={dayCount}
+          warDay={warDay}
+          onReset={onReset}
+          onDismiss={() => setDismissed(true)}
+          personalReport={personalReport}
+          artDirection={artDirection}
+          onOpenShare={() => setShareOpen(true)}
+        />
+      ) : (
+        <StandardConclusion
+          conclusion={conclusion}
+          dayCount={dayCount}
+          warDay={warDay}
+          oilDisruption={oilDisruption}
+          nuclearIndex={nuclearIndex}
+          onReset={onReset}
+          onDismiss={() => setDismissed(true)}
+          personalReport={personalReport}
+          artDirection={artDirection}
+          onOpenShare={() => setShareOpen(true)}
+        />
+      )}
 
-  return <StandardConclusion conclusion={conclusion} dayCount={dayCount} warDay={warDay} oilDisruption={oilDisruption} nuclearIndex={nuclearIndex} onReset={onReset} />;
+      <ConclusionShareModal
+        open={shareOpen}
+        onClose={() => setShareOpen(false)}
+        report={personalReport}
+        conclusion={conclusion}
+        artDirection={artDirection}
+      />
+    </>
+  );
 }

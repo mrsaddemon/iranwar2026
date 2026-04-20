@@ -49,27 +49,27 @@ export function calculateNuclearDelta(action, actorId, globalState) {
 
   // Offensive actions near high escalation increase risk
   if (['airstrike', 'missileStrike'].includes(action)) {
-    delta += 0.55 + Math.random() * 0.95;
+    delta += 0.9 + Math.random() * 1.35;
     // Proximity to nuclear facilities (probabilistic)
     if (Math.random() < 0.035 + escalationLevel * 0.00045) {
-      delta += ESCALATION_DRIVERS.facilityProximityStrike.weight * (0.3 + Math.random() * 0.7);
+      delta += ESCALATION_DRIVERS.facilityProximityStrike.weight * (0.38 + Math.random() * 0.74);
     }
     // Missile saturation at high strike rates
     if (Math.random() < 0.055) {
-      delta += ESCALATION_DRIVERS.missileSaturation.weight * 0.2;
+      delta += ESCALATION_DRIVERS.missileSaturation.weight * 0.28;
     }
   }
 
   if (action === 'droneOperation') {
-    delta += 0.12 + Math.random() * 0.35;
+    delta += 0.24 + Math.random() * 0.55;
   }
 
   if (action === 'strategicSignaling') {
     // Can go either way
     if (escalationLevel > 50) {
-      delta += Math.random() < 0.4 ? -2 : 1.5;
+      delta += Math.random() < 0.35 ? -1.4 : 1.9;
     } else {
-      delta += Math.random() < 0.6 ? -1 : 0.5;
+      delta += Math.random() < 0.56 ? -0.85 : 0.72;
     }
   }
 
@@ -88,20 +88,24 @@ export function calculateNuclearDelta(action, actorId, globalState) {
   }
 
   // Time-based natural tension decay
-  delta -= 0.45 + Math.min(0.35, Math.max(0, dayCount - 10) * 0.006);
+  delta -= 0.08 + Math.min(0.14, Math.max(0, dayCount - 10) * 0.0035);
 
   if (globalPressure > 70) {
-    delta -= 0.28;
+    delta += 0.18;
   }
 
   if (ceasefireActive) {
-    delta *= activeCeasefire ? 0.28 : 0.52;
-    delta -= activeCeasefire ? 0.75 : 0.35;
+    if (delta > 0) {
+      delta *= activeCeasefire ? 0.62 : 0.78;
+    } else {
+      delta *= activeCeasefire ? 1.12 : 1.04;
+    }
+    delta -= activeCeasefire ? 0.14 : 0.06;
   }
 
   // Higher levels have more volatility
   if (escalationLevel > 60) {
-    delta *= 1.04;
+    delta *= 1.08;
   }
 
   return delta;

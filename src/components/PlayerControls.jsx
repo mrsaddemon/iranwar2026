@@ -151,6 +151,7 @@ export default function PlayerControls({
   playerControlledActor, onSelectActor, onPlayerAction,
   nuclearIndex, ceasefireProposals, escalationLevel,
   iranHasNuke, onToggleIranNuke,
+  playerName, onPlayerNameChange, commandIssuedCount,
 }) {
   const [showNukeConfirm, setShowNukeConfirm] = useState(false);
   const [targetPicker, setTargetPicker] = useState(null); // { actionId } or null
@@ -162,8 +163,11 @@ export default function PlayerControls({
   const opponentProposed = ceasefireProposals && Object.keys(ceasefireProposals).some(k => k !== actorId);
   const availableWarheads = actorId ? getAvailableNuclearWarheads(actorId, !!iranHasNuke) : [];
   const selectedWarhead = availableWarheads.find((warhead) => warhead.id === selectedWarheadId) || availableWarheads[0] || null;
+  const hasCommanderProfile = !!String(playerName || '').trim();
+  const sideLocked = commandIssuedCount > 0;
 
   const handleAction = (actionId) => {
+    if (!hasCommanderProfile) return;
     if (actionId === 'nuclearStrike') {
       const defaultWarhead = selectedWarheadId && availableWarheads.some((warhead) => warhead.id === selectedWarheadId)
         ? selectedWarheadId
@@ -194,6 +198,9 @@ export default function PlayerControls({
   };
 
   const getActionDescription = (actionId, fallbackDescription = '') => {
+    if (!hasCommanderProfile) {
+      return 'Add your commander name first. Manual actions and the personalized final outcome card unlock once your profile is ready.';
+    }
     const specialAction = specialActions.find((action) => action.id === actionId);
     if (specialAction?.desc) return specialAction.desc;
     if (isOffensive(actionId)) return `${ACTION_LABELS[actionId]} — select a target country and location.`;
@@ -227,7 +234,24 @@ export default function PlayerControls({
         COMMAND CENTER
       </div>
       <div className="pc-header-tip">
-        Select a side, then hover any action to preview intent, limits, and likely consequences before issuing it.
+        Build your commander profile, pick a side, then issue orders. If your war reaches an ending, we will generate a personal result report and share card.
+      </div>
+
+      <div className="pc-profile-card">
+        <div className="pc-section-label">COMMANDER PROFILE</div>
+        <label className="pc-profile-label" htmlFor="commander-name-input">Commander name</label>
+        <input
+          id="commander-name-input"
+          className="pc-profile-input"
+          value={playerName}
+          maxLength={28}
+          placeholder="Enter your name or callsign"
+          onChange={(event) => onPlayerNameChange?.(event.target.value)}
+        />
+        <div className="pc-profile-meta">
+          <span>{hasCommanderProfile ? 'Profile ready for manual command.' : 'Required before manual actions start.'}</span>
+          <span>{commandIssuedCount > 0 ? `${commandIssuedCount} manual orders logged` : 'No manual orders logged yet'}</span>
+        </div>
       </div>
 
       <div className="pc-actor-selector">
@@ -241,13 +265,14 @@ export default function PlayerControls({
               color: actorId === id ? ACTOR_COLORS[id] : '#64748b',
               background: actorId === id ? `${ACTOR_COLORS[id]}15` : 'transparent',
             }}
+            disabled={sideLocked}
             onClick={() => onSelectActor(actorId === id ? null : id)}
           >
             {ACTOR_SHORT[id]}
           </button>
         ))}
         {actorId && (
-          <button className="pc-auto-btn" onClick={() => onSelectActor(null)}>AUTO</button>
+          <button className="pc-auto-btn" onClick={() => onSelectActor(null)} disabled={sideLocked}>AUTO</button>
         )}
       </div>
 
@@ -289,12 +314,23 @@ export default function PlayerControls({
                 {ACTOR_NAMES[id]}
               </button>
             ))}
-          </div>
         </div>
+        {sideLocked && actorId && (
+          <div className="pc-profile-meta" style={{ marginTop: 8 }}>
+            <span>Side locked for this run.</span>
+            <span>{ACTOR_NAMES[actorId]} remains under your command until reset.</span>
+          </div>
+        )}
+      </div>
       )}
 
       {actorId && (
         <>
+          {!hasCommanderProfile && (
+            <div className="pc-profile-warning">
+              Add your commander name above to unlock these actions and the final personalized outcome card.
+            </div>
+          )}
           <div className="pc-section-label">STANDARD OPERATIONS</div>
           <div className="pc-actions-grid">
             {ACTION_TYPES.map(action => (
@@ -302,6 +338,7 @@ export default function PlayerControls({
                 <button
                   className="pc-action-btn"
                   onClick={() => handleAction(action)}
+                  disabled={!hasCommanderProfile}
                   style={{ borderLeftColor: actorColor }}
                 >
                   <span className="pc-action-icon">{ACTION_ICONS[action]}</span>
@@ -324,9 +361,11 @@ export default function PlayerControls({
                 nuclearIndex < (sa.requiresNuclearIndex || 80)
               );
               const isCeasefireAccept = sa.id === 'acceptCeasefire';
-              const disabled = nukeLocked || (isCeasefireAccept && !opponentProposed);
+              const disabled = !hasCommanderProfile || nukeLocked || (isCeasefireAccept && !opponentProposed);
               const actionDescription = disabled
-                ? (nukeLocked ? `Requires Nuclear Index > ${sa.requiresNuclearIndex || 80}` : 'Opponent must propose ceasefire first.')
+                ? (!hasCommanderProfile
+                    ? 'Add your commander name first to unlock manual actions and the final personalized report.'
+                    : (nukeLocked ? `Requires Nuclear Index > ${sa.requiresNuclearIndex || 80}` : 'Opponent must propose ceasefire first.'))
                 : getActionDescription(sa.id, sa.desc);
 
               return (

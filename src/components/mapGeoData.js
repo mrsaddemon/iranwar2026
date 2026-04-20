@@ -496,6 +496,71 @@ export const CITY_CORES = [
   { coordinates: { lon: 51.678, lat: 32.654 }, color: [200, 120, 80], label: 'Isfahan', detail: 'Strategic Iranian interior hub tied to military industry and logistics depth.' },
 ];
 
+const REACTIVE_ZONE_LIBRARY = [
+  {
+    id: 'hezbollah-front',
+    coordinates: { lon: 35.8, lat: 33.5 },
+    label: 'HEZBOLLAH FRONT',
+    color: [239, 68, 68],
+    detail: 'Northern Israel and southern Lebanon remain the most active rocket, drone, and artillery exchange corridor.',
+    statusLabel: 'Northern Front',
+    countries: ['Lebanon', 'Israel'],
+    keywords: ['lebanon', 'beirut', 'hezbollah', 'northern front', 'galilee', 'southern lebanon'],
+  },
+  {
+    id: 'hormuz-minefield',
+    coordinates: { lon: 56.35, lat: 26.35 },
+    label: 'HORMUZ MINEFIELD',
+    color: [249, 115, 22],
+    detail: 'Blockade pressure, naval maneuvering, and mine threats make this the most economically sensitive maritime flashpoint.',
+    statusLabel: 'Maritime Flashpoint',
+    countries: ['Iran', 'Oman', 'United Arab Emirates', 'Qatar', 'Bahrain', 'Saudi Arabia'],
+    keywords: ['hormuz', 'strait of hormuz', 'minefield', 'blockade', 'shipping', 'gulf of oman', 'persian gulf', 'gulf'],
+  },
+  {
+    id: 'red-sea-ops',
+    coordinates: { lon: 39.4, lat: 18.7 },
+    label: 'RED SEA OPS',
+    color: [234, 179, 8],
+    detail: 'Missile launches, drone activity, and escort operations continue to stress shipping lanes through the Red Sea corridor.',
+    statusLabel: 'Shipping Corridor',
+    countries: ['Yemen', 'Saudi Arabia', 'Egypt', 'Eritrea', 'Djibouti', 'Sudan'],
+    keywords: ['red sea', 'bab el-mandeb', 'houthi', 'yemen', 'shipping lane', 'escort operations'],
+  },
+  {
+    id: 'iraq-spillover',
+    coordinates: { lon: 44.366, lat: 33.315 },
+    label: 'IRAQ SPILLOVER',
+    color: [125, 211, 252],
+    detail: 'Militia pressure and transit routes through Iraq can turn regional escalation into a wider conflict corridor.',
+    statusLabel: 'Spillover Watch',
+    countries: ['Iraq', 'Syria', 'Jordan'],
+    keywords: ['iraq', 'baghdad', 'militia', 'spillover', 'proxy'],
+  },
+];
+
+function countKeywordHits(text, keywords) {
+  return keywords.reduce((count, keyword) => (text.includes(keyword) ? count + 1 : count), 0);
+}
+
+function clampUnit(value) {
+  return Math.max(0, Math.min(1, value));
+}
+
+function makeActiveCountryOverride(baseStyle, color, emphasis, detail) {
+  const [r, g, b] = color;
+  return {
+    fill: `rgba(${r}, ${g}, ${b}, ${0.08 + (emphasis * 0.16)})`,
+    stroke: `rgba(${r}, ${g}, ${b}, ${0.38 + (emphasis * 0.44)})`,
+    labelColor: `rgba(${r}, ${g}, ${b}, ${0.58 + (emphasis * 0.3)})`,
+    subtitle: 'Live Flashpoint',
+    detail,
+    emphasis,
+    active: true,
+    borderBoost: emphasis >= 0.72 ? 0.8 : 0.35,
+  };
+}
+
 const REGIONAL_COUNTRY_NAMES = new Set([
   'Turkey',
   'Greece',
@@ -566,6 +631,88 @@ export function getRegionFeatures() {
 
 export function getCountryStyle(name) {
   return COUNTRY_STYLES[name] || DEFAULT_COUNTRY_STYLE;
+}
+
+export function buildReactiveMapState({
+  summary = '',
+  recentEvents = [],
+  ceasefireStatus = null,
+  escalationLevel = 0,
+  oilDisruption = 0,
+} = {}) {
+  const summaryText = String(summary || '').toLowerCase();
+  const eventText = (recentEvents || [])
+    .map((event) => `${event?.text || ''} ${event?.sourceName || ''}`.toLowerCase())
+    .join(' || ');
+  const combinedText = `${summaryText} || ${eventText}`;
+
+  const zones = REACTIVE_ZONE_LIBRARY.map((zone) => {
+    let score = countKeywordHits(combinedText, zone.keywords);
+
+    if (zone.id === 'hormuz-minefield') {
+      score += oilDisruption >= 55 ? 2 : oilDisruption >= 40 ? 1 : 0;
+      score += escalationLevel >= 55 ? 0.75 : 0;
+    }
+
+    if (zone.id === 'hezbollah-front') {
+      score += escalationLevel >= 45 ? 0.5 : 0;
+      if (ceasefireStatus?.status === 'active') score -= 0.5;
+      if (ceasefireStatus?.status === 'collapsed') score += 1;
+    }
+
+    if (zone.id === 'red-sea-ops') {
+      score += oilDisruption >= 50 ? 0.8 : 0;
+    }
+
+    if (zone.id === 'iraq-spillover') {
+      score += escalationLevel >= 60 ? 0.6 : 0;
+    }
+
+    const intensity = clampUnit(score / 3.2);
+    const active = intensity >= 0.24;
+
+    return {
+      ...zone,
+      active,
+      intensity,
+      subtitle: active ? zone.statusLabel : 'Watch Sector',
+      detail: active
+        ? zone.detail
+        : `${zone.detail} The current update mix is watching this sector, but it is not the lead flashpoint right now.`,
+    };
+  });
+
+  const countryOverrides = {};
+  for (const zone of zones.filter((zone) => zone.active)) {
+    for (const country of zone.countries) {
+      const baseStyle = getCountryStyle(country);
+      const emphasis = Math.max(zone.intensity, countryOverrides[country]?.emphasis || 0);
+      countryOverrides[country] = makeActiveCountryOverride(
+        baseStyle,
+        zone.color,
+        emphasis,
+        `${baseStyle.detail} Current update signal: ${zone.label.toLowerCase()} is actively shaping the theater.`,
+      );
+    }
+  }
+
+  const straitActive = zones.find((zone) => zone.id === 'hormuz-minefield')?.active ?? STRAIT_OF_HORMUZ.blockaded;
+  const straitIntensity = zones.find((zone) => zone.id === 'hormuz-minefield')?.intensity ?? 0.5;
+
+  return {
+    zones,
+    activeZoneCount: zones.filter((zone) => zone.active).length,
+    countryOverrides,
+    strait: {
+      ...STRAIT_OF_HORMUZ,
+      blockaded: straitActive,
+      label: straitActive ? 'STRAIT OF HORMUZ [ACTIVE]' : 'STRAIT OF HORMUZ',
+      detail: straitActive
+        ? 'Current reporting indicates direct shipping and blockade pressure through Hormuz.'
+        : STRAIT_OF_HORMUZ.detail,
+      intensity: straitIntensity,
+    },
+  };
 }
 
 export function isPointInViewportBounds(point) {

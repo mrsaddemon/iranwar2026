@@ -15,6 +15,7 @@ import {
   VIEWPORT_BOUNDS,
   distanceToSegment,
   formatTooltipPosition,
+  buildReactiveMapState,
   getCountryStyle,
   getFeatureTooltip,
   getRegionFeatures,
@@ -47,6 +48,9 @@ function getTrackerMarkerSize(highVisibility) {
 
 const DEFAULT_CONFLICT_FOCUS = { lon: 43, lat: 31 };
 const DEFAULT_CONFLICT_SCALE = 1.42;
+const MAP_LABEL_COUNTRY_ALIASES = {
+  UAE: 'United Arab Emirates',
+};
 
 function createViewportProjection(width, height, padding = { x: 24, y: 14 }) {
   const baseProjection = geoMercator().scale(1).translate([0, 0]);
@@ -248,11 +252,11 @@ function getTrackerStatusText(trackerSnapshot, visibleFlights, visibleShips, tra
 
 const SMALL_COUNTRY_HIT_NAMES = new Set(['Bangladesh', 'Nepal', 'Bhutan']);
 
-function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewTransform, trackerSnapshot, highVisibility, now) {
+function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewTransform, trackerSnapshot, highVisibility, now, reactiveZones = CONFLICT_ZONES, reactiveStrait = STRAIT_OF_HORMUZ) {
   const markers = [];
   const visualScale = getOverlayVisualScale(viewTransform.scale);
 
-  for (const zone of CONFLICT_ZONES) {
+  for (const zone of reactiveZones) {
     const point = projectWithView(projection, zone.coordinates, viewTransform);
     if (point) {
       markers.push({
@@ -261,9 +265,9 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
         tooltip: {
           id: `zone-${zone.label}`,
           title: zone.label,
-          subtitle: 'Conflict Zone',
+          subtitle: zone.subtitle || 'Conflict Zone',
           detail: zone.detail,
-          accent: `rgba(${zone.color.join(',')}, 0.88)`,
+          accent: `rgba(${zone.color.join(',')}, ${zone.active ? 0.92 : 0.68})`,
         },
       });
     }
@@ -368,16 +372,16 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
     }
   }
 
-  const start = projectWithView(projection, STRAIT_OF_HORMUZ.start, viewTransform);
-  const end = projectWithView(projection, STRAIT_OF_HORMUZ.end, viewTransform);
+  const start = projectWithView(projection, reactiveStrait.start, viewTransform);
+  const end = projectWithView(projection, reactiveStrait.end, viewTransform);
   if (start && end) {
     const straitDistance = distanceToSegment(mouseX, mouseY, start.x, start.y, end.x, end.y);
     if (straitDistance <= Math.max(6, 8 * visualScale)) {
       return {
         id: 'strait-of-hormuz',
         title: 'Strait of Hormuz',
-        subtitle: STRAIT_OF_HORMUZ.blockaded ? 'Blockaded Chokepoint' : 'Strategic Chokepoint',
-        detail: STRAIT_OF_HORMUZ.detail,
+        subtitle: reactiveStrait.blockaded ? 'Blockaded Chokepoint' : 'Strategic Chokepoint',
+        detail: reactiveStrait.detail,
         accent: 'rgba(249, 115, 22, 0.88)',
         ...formatTooltipPosition(mouseX, mouseY, width, height),
       };
@@ -390,6 +394,10 @@ function findOverlayHoverTarget(mouseX, mouseY, width, height, projection, viewT
 export default function MapCanvas({
   mapAnimations,
   escalationLevel,
+  oilDisruption = 0,
+  snapshotSummary = '',
+  recentEvents = [],
+  ceasefireStatus = null,
   highVisibility = false,
   trackerSnapshot = { flights: [], ships: [] },
   trackerVisibility = { flights: false, ships: false },
@@ -402,7 +410,7 @@ export default function MapCanvas({
   const dragRef = useRef({ dragging: false, lastX: 0, lastY: 0 });
   const touchRef = useRef({ mode: null, lastX: 0, lastY: 0, lastDistance: 0, lastMidpoint: null });
   const viewTransformRef = useRef(DEFAULT_VIEW);
-  const initialViewAppliedRef = useRef(false);
+  const userAdjustedViewRef = useRef(false);
 
   const [size, setSize] = useState({ width: 0, height: 0 });
   const [viewTransform, setViewTransform] = useState(DEFAULT_VIEW);
@@ -410,6 +418,19 @@ export default function MapCanvas({
 
   const regionFeatures = useMemo(() => getRegionFeatures(), []);
   const featureCollection = useMemo(() => ({ type: 'FeatureCollection', features: regionFeatures }), [regionFeatures]);
+  const reactiveMapState = useMemo(
+    () => buildReactiveMapState({
+      summary: snapshotSummary,
+      recentEvents,
+      ceasefireStatus,
+      escalationLevel,
+      oilDisruption,
+    }),
+    [ceasefireStatus, escalationLevel, oilDisruption, recentEvents, snapshotSummary],
+  );
+  const reactiveZones = reactiveMapState.zones;
+  const reactiveCountryOverrides = reactiveMapState.countryOverrides;
+  const reactiveStrait = reactiveMapState.strait;
   const visibleFlights = useMemo(
     () => (trackerVisibility?.flights === false
       ? []
@@ -436,7 +457,7 @@ export default function MapCanvas({
   }, []);
 
   useEffect(() => {
-    if (!projection || !size.width || !size.height || initialViewAppliedRef.current) return;
+    if (!projection || !size.width || !size.height || userAdjustedViewRef.current) return;
     const projectedFocus = projection([DEFAULT_CONFLICT_FOCUS.lon, DEFAULT_CONFLICT_FOCUS.lat]);
     if (!projectedFocus) return;
 
@@ -446,7 +467,6 @@ export default function MapCanvas({
       x: (size.width / 2) - (projectedFocus[0] * scale),
       y: (size.height / 2) - (projectedFocus[1] * scale),
     });
-    initialViewAppliedRef.current = true;
   }, [commitViewTransform, projection, size.height, size.width]);
 
   const scaleAroundPoint = useCallback((pointX, pointY, nextScale) => {
@@ -466,13 +486,20 @@ export default function MapCanvas({
     const container = containerRef.current;
     if (!container) return undefined;
 
+    const updateSize = (width, height) => {
+      setSize({
+        width: Math.max(0, Math.round(width)),
+        height: Math.max(0, Math.round(height)),
+      });
+    };
+
+    const rect = container.getBoundingClientRect();
+    updateSize(rect.width, rect.height);
+
     const observer = new ResizeObserver((entries) => {
       const entry = entries[0];
       if (!entry) return;
-      setSize({
-        width: Math.round(entry.contentRect.width),
-        height: Math.round(entry.contentRect.height),
-      });
+      updateSize(entry.contentRect.width, entry.contentRect.height);
     });
 
     observer.observe(container);
@@ -543,21 +570,21 @@ export default function MapCanvas({
       overlayCtx.clearRect(0, 0, size.width, size.height);
       const trackerMarkerSize = getTrackerMarkerSize(highVisibility);
       const now = Date.now();
-      const start = projectWithView(projection, STRAIT_OF_HORMUZ.start, viewTransformRef.current);
-      const end = projectWithView(projection, STRAIT_OF_HORMUZ.end, viewTransformRef.current);
+      const start = projectWithView(projection, reactiveStrait.start, viewTransformRef.current);
+      const end = projectWithView(projection, reactiveStrait.end, viewTransformRef.current);
       if (start && end) {
-        const pulse = 0.5 + (Math.sin(time * 0.003) * 0.3);
+        const pulse = 0.32 + (Math.sin(time * 0.003) * 0.22) + (reactiveStrait.intensity * 0.32);
         overlayCtx.beginPath();
         overlayCtx.moveTo(start.x, start.y);
         overlayCtx.lineTo(end.x, end.y);
-        overlayCtx.strokeStyle = `rgba(249, 115, 22, ${pulse})`;
-        overlayCtx.lineWidth = Math.max(1.5, 2.4 * visualScale);
+        overlayCtx.strokeStyle = `rgba(249, 115, 22, ${reactiveStrait.blockaded ? pulse : 0.34})`;
+        overlayCtx.lineWidth = Math.max(1.3, (reactiveStrait.blockaded ? 2.6 : 1.8) * visualScale);
         overlayCtx.stroke();
 
         overlayCtx.font = `bold ${getScaledLabelFontSize(9, scale)}px 'JetBrains Mono', monospace`;
-        overlayCtx.fillStyle = `rgba(249, 115, 22, ${highVisibility ? Math.min(1, pulse + 0.35) : pulse + 0.2})`;
+        overlayCtx.fillStyle = `rgba(249, 115, 22, ${reactiveStrait.blockaded ? (highVisibility ? Math.min(1, pulse + 0.35) : pulse + 0.2) : 0.44})`;
         overlayCtx.textAlign = 'center';
-        overlayCtx.fillText(STRAIT_OF_HORMUZ.label, (start.x + end.x) / 2, start.y - (12 * visualScale));
+        overlayCtx.fillText(reactiveStrait.label, (start.x + end.x) / 2, start.y - (12 * visualScale));
       }
 
       for (const base of US_BASES) {
@@ -579,18 +606,18 @@ export default function MapCanvas({
         overlayCtx.fillText(base.label, point.x, point.y + (16 * visualScale));
       }
 
-      for (const zone of CONFLICT_ZONES) {
+      for (const zone of reactiveZones) {
         const point = projectWithView(projection, zone.coordinates, viewTransformRef.current);
         if (!point) continue;
-        const pulse = 0.3 + (Math.sin(time * 0.005 + point.x * 0.01) * 0.4);
+        const pulse = 0.22 + (Math.sin(time * 0.005 + point.x * 0.01) * 0.22) + (zone.intensity * 0.4);
         overlayCtx.beginPath();
-        overlayCtx.arc(point.x, point.y, (16 + (pulse * 8)) * visualScale, 0, Math.PI * 2);
-        overlayCtx.strokeStyle = `rgba(${zone.color.join(',')}, 0.25)`;
-        overlayCtx.lineWidth = 1;
+        overlayCtx.arc(point.x, point.y, (14 + (pulse * 10)) * visualScale, 0, Math.PI * 2);
+        overlayCtx.strokeStyle = `rgba(${zone.color.join(',')}, ${zone.active ? 0.34 + (zone.intensity * 0.18) : 0.14})`;
+        overlayCtx.lineWidth = zone.active ? 1.35 : 0.9;
         overlayCtx.stroke();
 
         overlayCtx.font = `bold ${getScaledLabelFontSize(8, scale)}px 'JetBrains Mono', monospace`;
-        overlayCtx.fillStyle = `rgba(${zone.color.join(',')}, ${highVisibility ? Math.min(1, pulse + 0.48) : pulse + 0.3})`;
+        overlayCtx.fillStyle = `rgba(${zone.color.join(',')}, ${zone.active ? (highVisibility ? Math.min(1, pulse + 0.46) : pulse + 0.26) : 0.42})`;
         overlayCtx.textAlign = 'center';
         overlayCtx.fillText(zone.label, point.x, point.y - (8 * visualScale));
       }
@@ -759,18 +786,20 @@ export default function MapCanvas({
       running = false;
       cancelAnimationFrame(animFrameRef.current);
     };
-  }, [escalationLevel, highVisibility, mapAnimations, projection, size, trackerSnapshot, visibleFlights, visibleShips]);
+  }, [escalationLevel, highVisibility, mapAnimations, projection, reactiveStrait, reactiveZones, size, trackerSnapshot, visibleFlights, visibleShips]);
 
   const handleWheel = useCallback((event) => {
     event.preventDefault();
     const rect = containerRef.current?.getBoundingClientRect();
     if (!rect) return;
+    userAdjustedViewRef.current = true;
     const delta = event.deltaY > 0 ? 0.9 : 1.1;
     scaleAroundPoint(rect.width / 2, rect.height / 2, viewTransformRef.current.scale * delta);
   }, [scaleAroundPoint]);
 
   const handleMouseDown = useCallback((event) => {
     setHoveredItem(null);
+    userAdjustedViewRef.current = true;
     dragRef.current = { dragging: true, lastX: event.clientX, lastY: event.clientY };
   }, []);
 
@@ -804,6 +833,8 @@ export default function MapCanvas({
       { ...trackerSnapshot, flights: visibleFlights, ships: visibleShips },
       highVisibility,
       Date.now(),
+      reactiveZones,
+      reactiveStrait,
     );
     if (overlayTarget) {
       setHoveredItem(overlayTarget);
@@ -813,7 +844,7 @@ export default function MapCanvas({
     if (!event.target?.getAttribute?.('data-map-country')) {
       setHoveredItem(null);
     }
-  }, [commitViewTransform, highVisibility, projection, trackerSnapshot, visibleFlights, visibleShips]);
+  }, [commitViewTransform, highVisibility, projection, reactiveStrait, reactiveZones, trackerSnapshot, visibleFlights, visibleShips]);
 
   const handleMouseUp = useCallback(() => {
     dragRef.current.dragging = false;
@@ -821,6 +852,7 @@ export default function MapCanvas({
 
   const handleTouchStart = useCallback((event) => {
     setHoveredItem(null);
+    userAdjustedViewRef.current = true;
     if (event.touches.length === 1) {
       touchRef.current = { mode: 'pan', lastX: event.touches[0].clientX, lastY: event.touches[0].clientY, lastDistance: 0, lastMidpoint: null };
       return;
@@ -873,8 +905,16 @@ export default function MapCanvas({
   const handleCountryMove = useCallback((mapFeature, event) => {
     if (dragRef.current.dragging || !containerRef.current) return;
     const rect = containerRef.current.getBoundingClientRect();
-    setHoveredItem(getFeatureTooltip(mapFeature, event.clientX - rect.left, event.clientY - rect.top, rect.width, rect.height));
-  }, []);
+    const tooltip = getFeatureTooltip(mapFeature, event.clientX - rect.left, event.clientY - rect.top, rect.width, rect.height);
+    const name = mapFeature.properties?.name || 'Region';
+    const overrideStyle = reactiveCountryOverrides[name];
+    if (overrideStyle) {
+      tooltip.subtitle = overrideStyle.subtitle || tooltip.subtitle;
+      tooltip.detail = overrideStyle.detail || tooltip.detail;
+      tooltip.accent = (overrideStyle.stroke || tooltip.accent).replace(/[\d.]+\)$/u, '0.88)');
+    }
+    setHoveredItem(tooltip);
+  }, [reactiveCountryOverrides]);
 
   return (
     <div
@@ -896,7 +936,10 @@ export default function MapCanvas({
           <g transform={`translate(${viewTransform.x} ${viewTransform.y}) scale(${viewTransform.scale})`}>
             {regionFeatures.map((mapFeature) => {
               const name = mapFeature.properties?.name || 'Region';
-              const style = getCountryStyle(name);
+              const style = {
+                ...getCountryStyle(name),
+                ...(reactiveCountryOverrides[name] || {}),
+              };
               const pathData = pathGenerator(mapFeature);
               if (!pathData) return null;
               return (
@@ -906,7 +949,7 @@ export default function MapCanvas({
                   data-map-country={name}
                   fill={style.fill}
                   stroke={style.stroke}
-                  strokeWidth={name === 'Iran' || name === 'Israel' || name === 'Lebanon' ? 1.6 : 1}
+                  strokeWidth={(name === 'Iran' || name === 'Israel' || name === 'Lebanon' ? 1.6 : 1) + (style.borderBoost || 0)}
                   vectorEffect="non-scaling-stroke"
                   onMouseEnter={(event) => handleCountryMove(mapFeature, event)}
                   onMouseMove={(event) => handleCountryMove(mapFeature, event)}
@@ -936,17 +979,19 @@ export default function MapCanvas({
           {MAP_LABELS.map((label) => {
             const point = projectWithView(projection, { lon: label.coordinates[0], lat: label.coordinates[1] }, viewTransform);
             if (!point) return null;
+            const labelCountry = MAP_LABEL_COUNTRY_ALIASES[label.text] || label.text;
+            const labelOverride = reactiveCountryOverrides[labelCountry];
             return (
               <text
                 key={label.text}
                 x={point.x}
                 y={point.y}
-                fill={label.color}
+                fill={labelOverride?.labelColor || label.color}
                 fontSize={getScaledLabelFontSize(10, viewTransform.scale)}
                 fontFamily="'JetBrains Mono', monospace"
                 textAnchor="middle"
                 letterSpacing={`${Math.max(0.6, getOverlayVisualScale(viewTransform.scale))}px`}
-                opacity={highVisibility ? 0.9 : 0.72}
+                opacity={labelOverride ? 0.94 : (highVisibility ? 0.9 : 0.72)}
                 style={{ pointerEvents: 'none', userSelect: 'none' }}
               >
                 {label.text}

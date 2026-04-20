@@ -8,6 +8,8 @@ const loadMapCanvas = () => import('./components/MapCanvas.jsx');
 const loadBottomPanel = () => import('./components/BottomPanel.jsx');
 const loadPlayerControls = () => import('./components/PlayerControls.jsx');
 const loadWarConclusion = () => import('./components/WarConclusion.jsx');
+const loadBreakingShiftModal = () => import('./components/BreakingShiftModal.jsx');
+const loadShiftReplayModal = () => import('./components/ShiftReplayModal.jsx');
 
 const LeftPanel = lazy(loadLeftPanel);
 const RightPanel = lazy(loadRightPanel);
@@ -15,6 +17,8 @@ const MapCanvas = lazy(loadMapCanvas);
 const BottomPanel = lazy(loadBottomPanel);
 const PlayerControls = lazy(loadPlayerControls);
 const WarConclusion = lazy(loadWarConclusion);
+const BreakingShiftModal = lazy(loadBreakingShiftModal);
+const ShiftReplayModal = lazy(loadShiftReplayModal);
 
 const TICK_INTERVALS = { 1: 1000, 5: 200, 20: 50 };
 const TRACKER_POLL_INTERVAL_MS = 2000;
@@ -23,6 +27,38 @@ const TRACKER_STORAGE_KEY = 'war-sim-tracker-cache-v1';
 const TRACKER_ENTITY_GRACE_MS = 3 * 60 * 1000;
 const TRACKER_VISIBILITY_STORAGE_KEY = 'war-sim-tracker-visibility-v3';
 const ONBOARDING_STORAGE_KEY = 'war-sim-onboarding-dismissed-v1';
+
+function getDisplayDate(dayCount, simStart) {
+  const date = new Date(simStart || '2026-04-07');
+  date.setDate(date.getDate() + dayCount);
+  const months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+  return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
+}
+
+function hasMaterialShift(state) {
+  const baseline = state?.syncedBaseline || {};
+  const scenarioKeys = ['deescalation', 'prolongedConflict', 'regionalExpansion', 'strategicBrinkmanship', 'internalInstability'];
+  for (const key of scenarioKeys) {
+    const current = state?.predictions?.[key];
+    const previous = baseline?.predictions?.[key];
+    if (Number.isFinite(current) && Number.isFinite(previous) && Math.abs((current - previous) * 100) >= 6) {
+      return true;
+    }
+  }
+
+  const scalarPairs = [
+    [state?.escalationLevel, baseline?.escalationLevel],
+    [state?.nuclearIndex, baseline?.nuclearIndex],
+    [state?.oilDisruption, baseline?.oilDisruption],
+    [state?.globalPressure, baseline?.globalPressure],
+  ];
+
+  if (scalarPairs.some(([current, previous]) => Number.isFinite(current) && Number.isFinite(previous) && Math.abs(current - previous) >= 7)) {
+    return true;
+  }
+
+  return (state?.ceasefireStatus?.status || 'none') !== (baseline?.ceasefireStatus?.status || 'none');
+}
 
 function isLocalRuntime() {
   if (typeof window === 'undefined') return false;
@@ -307,6 +343,10 @@ export default function App() {
     if (typeof window === 'undefined') return true;
     return window.localStorage.getItem(ONBOARDING_STORAGE_KEY) !== '1';
   });
+  const [showBreakingShiftModal, setShowBreakingShiftModal] = useState(false);
+  const [showShiftReplayModal, setShowShiftReplayModal] = useState(false);
+  const [playerName, setPlayerName] = useState('');
+  const [commandIssuedCount, setCommandIssuedCount] = useState(0);
   const [trackerVisibility, setTrackerVisibility] = useState(readTrackerVisibility);
   const intervalRef = useRef(null);
   const nuclearResolutionTimeoutRef = useRef(null);
@@ -417,6 +457,7 @@ export default function App() {
     }
     setState(createSimulationState());
     setBottomTab('predictions');
+    setCommandIssuedCount(0);
   }, []);
 
   const handleSpeedChange = useCallback((s) => {
@@ -532,12 +573,38 @@ export default function App() {
     }
   }, []);
 
+  const handleOpenBreakingShift = useCallback(() => {
+    setShowBreakingShiftModal(true);
+  }, []);
+
+  const handleCloseBreakingShift = useCallback(() => {
+    setShowBreakingShiftModal(false);
+  }, []);
+
+  const handleOpenReplay = useCallback(() => {
+    setShowShiftReplayModal(true);
+  }, []);
+
+  const handleCloseReplay = useCallback(() => {
+    setShowShiftReplayModal(false);
+  }, []);
+
   const handleSelectActor = useCallback((actorId) => {
-    setState(prev => ({ ...prev, playerControlledActor: actorId }));
+    setState(prev => {
+      if (commandIssuedCount > 0 && prev.playerControlledActor && actorId && actorId !== prev.playerControlledActor) {
+        return prev;
+      }
+      return { ...prev, playerControlledActor: actorId };
+    });
     if (actorId) setBottomTab('command');
+  }, [commandIssuedCount]);
+
+  const handlePlayerNameChange = useCallback((value) => {
+    setPlayerName(value.slice(0, 28));
   }, []);
 
   const handlePlayerAction = useCallback((actionId, target, options) => {
+    setCommandIssuedCount((count) => count + 1);
     setState(prev => applyPlayerAction(prev, actionId, target, options));
   }, []);
 
@@ -576,6 +643,9 @@ export default function App() {
         onFullscreen={handleFullscreen}
         highVisibility={highVisibility}
         onToggleHighVisibility={handleToggleHighVisibility}
+        onOpenBreakingShift={handleOpenBreakingShift}
+        onOpenReplay={handleOpenReplay}
+        hasBreakingShift={hasMaterialShift(state)}
       />
 
       {showOnboarding && (
@@ -619,6 +689,10 @@ export default function App() {
               mapAnimations={state.mapAnimations}
               escalationLevel={state.escalationLevel}
               nuclearIndex={state.nuclearIndex}
+              oilDisruption={state.oilDisruption}
+              snapshotSummary={state.snapshotSummary}
+              recentEvents={state.events}
+              ceasefireStatus={state.ceasefireStatus}
               highVisibility={highVisibility}
               trackerSnapshot={trackerSnapshot}
               trackerVisibility={trackerVisibility}
@@ -685,6 +759,9 @@ export default function App() {
             escalationLevel={state.escalationLevel}
             iranHasNuke={iranHasNuke}
             onToggleIranNuke={() => setIranHasNuke(prev => !prev)}
+            playerName={playerName}
+            onPlayerNameChange={handlePlayerNameChange}
+            commandIssuedCount={commandIssuedCount}
           />
         </Suspense>
       )}
@@ -711,6 +788,25 @@ export default function App() {
           oilDisruption={state.oilDisruption}
           nuclearIndex={state.nuclearIndex}
           onReset={handleReset}
+          playerName={playerName}
+          playerControlledActor={state.playerControlledActor}
+          commandIssuedCount={commandIssuedCount}
+        />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <BreakingShiftModal
+          open={showBreakingShiftModal}
+          onClose={handleCloseBreakingShift}
+          state={state}
+        />
+      </Suspense>
+
+      <Suspense fallback={null}>
+        <ShiftReplayModal
+          open={showShiftReplayModal}
+          onClose={handleCloseReplay}
+          state={state}
         />
       </Suspense>
     </div>

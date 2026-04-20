@@ -72,6 +72,9 @@ export default function TopBar({
   escalationLevel, summary, recentEvents, ceasefireStatus,
   lastUpdated, lastSyncedAt, simStart, onSpeedChange, onToggleRunning, onReset, onFullscreen,
   highVisibility, onToggleHighVisibility,
+  onOpenBreakingShift,
+  onOpenReplay,
+  hasBreakingShift,
 }) {
   const [relativeNow, setRelativeNow] = useState(() => Date.now());
   const totalWarDay = (warDay || 39) + dayCount;
@@ -183,6 +186,16 @@ export default function TopBar({
 
         <button className="ctrl-btn" onClick={onFullscreen} title="Fullscreen">
           ⛶
+        </button>
+
+        {hasBreakingShift && (
+          <button className="ctrl-btn breaking-shift-btn" onClick={onOpenBreakingShift} title="Open breaking shift">
+            !
+          </button>
+        )}
+
+        <button className="ctrl-btn" onClick={onOpenReplay} title="Replay recent shift story">
+          ◷
         </button>
 
         <button

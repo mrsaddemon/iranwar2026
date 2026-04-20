@@ -90,6 +90,21 @@ function deriveInitialGlobals(snapshot, allianceSupport, ceasefireStatus) {
   };
 }
 
+function calculateStructuralNuclearFloor(state) {
+  const snapshotFloor = clamp((LATEST_SNAPSHOT.global?.nuclearIndex ?? 0) - (state.dayCount * 0.22));
+  const ceasefireModifier = state.ceasefireStatus?.active
+    ? (state.ceasefireStatus.status === 'active' ? -8 : -4)
+    : 6;
+  const conditionFloor = clamp(
+    state.escalationLevel * 0.55
+    + state.globalPressure * 0.28
+    + state.oilDisruption * 0.16
+    + ceasefireModifier
+  );
+
+  return Math.max(snapshotFloor, conditionFloor);
+}
+
 function normalizeSnapshotEventText(text) {
   return String(text || '')
     .replace(/^[\s"'`]+|[\s"'`]+$/g, '')
@@ -459,7 +474,7 @@ function applyEffects(state, actorId, effects) {
         if (delta > 0) {
           const saturationDamp = Math.max(0.22, 1 - clamp01((state.nuclearIndex - 35) / 65) * 0.7);
           const ceasefireDamp = state.ceasefireStatus?.active
-            ? (state.ceasefireStatus.status === 'active' ? 0.3 : 0.55)
+            ? (state.ceasefireStatus.status === 'active' ? 0.7 : 0.86)
             : 1;
           dampedDelta = delta * saturationDamp * ceasefireDamp;
         }
@@ -1156,14 +1171,15 @@ export function simulateTick(state) {
     Math.min(100, newState.escalationLevel + (Math.random() - 0.56) * 1.15 + decayBias - fatigueCooling)
   );
   const nuclearDecay = (
-    0.42
-    + getCoalitionExhaustion(newState) * 0.72
-    + (newState.ceasefireStatus?.active ? (newState.ceasefireStatus.status === 'active' ? 0.9 : 0.45) : 0)
-    + (newState.globalPressure > 72 ? 0.22 : 0)
+    0.08
+    + getCoalitionExhaustion(newState) * 0.18
+    + (newState.ceasefireStatus?.active ? (newState.ceasefireStatus.status === 'active' ? 0.2 : 0.08) : 0)
+    - (newState.globalPressure > 72 ? 0.08 : 0)
   );
+  const nuclearFloor = calculateStructuralNuclearFloor(newState);
   newState.nuclearIndex = Math.max(
-    0,
-    Math.min(100, newState.nuclearIndex - nuclearDecay + (newState.escalationLevel > 82 ? 0.08 : 0))
+    nuclearFloor,
+    Math.min(100, newState.nuclearIndex - nuclearDecay + (newState.escalationLevel > 82 ? 0.35 : 0))
   );
   newState.oilDisruption = Math.max(0, Math.min(100, newState.oilDisruption + (Math.random() - 0.5) * 2));
 
