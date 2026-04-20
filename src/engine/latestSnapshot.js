@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 272,
+  "updateSequence": 273,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T16:19:09.351Z",
+  "lastSyncedAt": "2026-04-20T17:32:08.360Z",
   "warDay": 52,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 100,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -68,11 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "Oil prices jump after U.S. seizes Iranian vessel, imperiling ceasefire",
+      "text": "Iran Update Special Report, April 19, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOanFJd19CUnZMSkRITFo3bmh0OGdPN2hKM2x0V1ZDcGpvSU0tck56YU9nZlY3aWJJdFRsNzVEeDBnLXEyV21BWnI0MUFKTjYtel96T3N1ZzczRGEydWJrWDVoZWprS09qMDJacVVqVVlZX2E4dU9ocmNyd1V6OFdEUkY5X29ORU1UZHRkZjY1aU1CRHlS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 272
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPanFHSTdoTnI3LWNOTm14S2xOR2c1OFg1RlRjRnM4eDhySzNPLU9FcVZ5b2tTdU5PY012UlUwWkxJUXBYYXR3Ykk5UUJlMlRVUW90akpFcDloYkVBbWdsU0l1N0EwV0lrVjI5NVdmTTA5REZ1ekZWRDloZ09GZTB0Sm5BVlFsTnNIeEhhSHo2VzNrVTBIVmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 273
     },
     {
       "date": "Apr 20",
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "US seizes Iranian ship after opening fire; Pakistan talks in doubt",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPMERmWmdnNXBWQi1CenpHQjY0MFp3MFYycUxwUlh6WVB1QmdWVVNtYTZBaGRZUFBMOGNrT1lEbDFRTFFxU0Znc3Q4MlhYa2J2NmFXNlhOazhnbHhCanRQUTltWmVRTFhlaWdmQkc4aVVPZHR2c1hCSVM4aVV3aW15ZEFPRjdpUdIBiwFBVV95cUxNZUZSOWFFLVF1RmJ3VzFzMGY0STlObTJSNmJ2S2NxWnNnMVdhZGxHbXU5T0s0c3EwWXQta3FLSDM5WGNUT2puSG9rSThKZVNMb1ZTRGhkZ0tVQjJDclVaSjJEVU44cURjdmFqcVU4cnFFVmtyTlVheVFCTlJqQnlmQW5jdjFMNWY5MUg4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 272
+      "text": "Live updates: Tehran vows retaliation after US seizes Iran-flagged vessel defying blockade",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 273
     },
     {
       "date": "Apr 20",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
