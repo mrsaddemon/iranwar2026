@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 278,
+  "updateSequence": 279,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T22:25:02.169Z",
+  "lastSyncedAt": "2026-04-20T23:24:03.325Z",
   "warDay": 52,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
@@ -60,18 +60,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 20",
-      "text": "Iran war live: Uncertainty over talks, Trump insists deal to come ‘quickly’",
+      "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
       "latestSinceUpdate": 276
     },
     {
       "date": "Apr 20",
-      "text": "Iran Update Special Report, April 19, 2026",
+      "text": "Iran war live: Uncertainty over talks, Trump insists deal to come ‘quickly’",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPanFHSTdoTnI3LWNOTm14S2xOR2c1OFg1RlRjRnM4eDhySzNPLU9FcVZ5b2tTdU5PY012UlUwWkxJUXBYYXR3Ykk5UUJlMlRVUW90akpFcDloYkVBbWdsU0l1N0EwV0lrVjI5NVdmTTA5REZ1ekZWRDloZ09GZTB0Sm5BVlFsTnNIeEhhSHo2VzNrVTBIVmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 276
     },
     {
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
+      "text": "Trump offers mixed messages about path ahead for US war against Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 276
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPa0hwZGtMTDA1S3FRLTNqMkRhazZtdE5xZE1yY1Y1V2lVaE9QTWVIU2R3NG9hTjJ1dnI5TmpDYXFuVk9oVXJ2NUxHX0Ezd0tBXzlxWVYtcGl5TXBDOXhfWGo0aVJtNVRQMVdHaTZhQURsMEVpY2FzWGVhdGpsLTZ1d1o0aDF1bHZjTDNwR0J5TDNCZXB6MU9QZ2xsNDI2QnFL?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 279
     },
     {
       "date": "Apr 20",
@@ -100,17 +100,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 20",
-      "text": "Iran war latest: Tehran changes tone on peace talks",
+      "text": "Iran war latest: Tehran hits out at at Trump's threats",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": null,
-      "latestSinceUpdate": 277
+      "latestSinceUpdate": 279
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
