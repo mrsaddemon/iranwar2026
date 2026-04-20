@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 268,
+  "updateSequence": 269,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T10:18:42.435Z",
+  "lastSyncedAt": "2026-04-20T11:45:38.597Z",
   "warDay": 52,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "No ceasefire is in effect for the primary US-Iran conflict, which is actively escalating."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
     "sanctionsPressure": 49,
-    "globalPressure": 57,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 19",
-      "text": "US military seizes an Iran-flagged vessel near the Strait of Hormuz.",
-      "severity": "critical",
+      "date": "Apr 20",
+      "text": "Iran war live: Tehran will skip talks as tensions rise over US ship seizure",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 269
+    },
+    {
+      "date": "Apr 20",
+      "text": "Live updates: Iran vows swift response after US seizes vessel near Strait of Hormuz",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE93WEJXNmNtdG90Rm9RRm1VT1dmb3JUZ3V3OWw4ZGZEZmVOazhfX0ZkeDRkM3V5ckluMkxmM0FMSU5UR3c5eFdGOEZLRmNPNC1sYkcwNWxOc1dKY3JKelQzQnFtMjZaaWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 268
+      "latestSinceUpdate": 269
     },
     {
-      "date": "Apr 19",
-      "text": "Iran vows swift response and retaliation after the US vessel seizure.",
+      "date": "Apr 20",
+      "text": "Live updates: Tehran vows retaliation after US seizes Iran-flagged vessel defying blockade",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 268
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 269
     },
     {
-      "date": "Apr 19",
-      "text": "Iran reportedly launches drone strikes on US military vessels.",
+      "date": "Apr 20",
+      "text": "Iran Update Special Report, April 19, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPanFHSTdoTnI3LWNOTm14S2xOR2c1OFg1RlRjRnM4eDhySzNPLU9FcVZ5b2tTdU5PY012UlUwWkxJUXBYYXR3Ykk5UUJlMlRVUW90akpFcDloYkVBbWdsU0l1N0EwV0lrVjI5NVdmTTA5REZ1ekZWRDloZ09GZTB0Sm5BVlFsTnNIeEhhSHo2VzNrVTBIVmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 269
+    },
+    {
+      "date": "Apr 20",
+      "text": "Israel preparing to strike energy facilities if Iran truce collapses: Report",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPalNBN3IycGJDQldYV0F6LWc4dGtBQjRNbC1FTVR5ZlpkYTVmeFp6QTY3a1BvNWxOelFNS3YyRVEzTE9WV0tzREdyYWwyZ1B2S0xkTE13T2F2elIzM2o3LWJGbnMybHMxUUxtNnE0LVZNODZMeU1PWjE5NVJDX29zZFJOamV5WmZvaTcwUXdnVDVQbHBqZWJfQ0ZjSXVOUlVUcklRNDI1MnppVDVDbEFqdXU0TDhmekRtTllyWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 269
+    },
+    {
+      "date": "Apr 20",
+      "text": "Iran war latest: Tehran launches drone strikes on US military vessels after ship seizure, report says",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPclI5dnpSdTM4ajFZRFl5THdQejNtTmd5d2pncmo4LW9ReDV2MlBLa1BYeWhnLWpUeTJHTFdlWGtLcHFkVE5QSFgyTlNnckNTc0JRNFZnVmZJb0V5cVphR1lJdXUwQk9xYXZUdHBDVDlBRUFhdzFHVTRIT2ZhQ2Q0QVU0Q01yTWczWnl6TGt5azhXaVpkbm5YdWdTcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The National",
-      "latestSinceUpdate": 268
-    },
-    {
-      "date": "Apr 19",
-      "text": "Iran closes the Strait of Hormuz until the US blockade lifts and reports ships being fired upon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZm9WRHN1VHF4X2lmVmQ3OFRLTzlUN3ZWLWtMbWhwMWV5T2JSLU9FbV8zMGE2UkFiZ2xBMEt4UG9yQWNsMHVKUnVBM1B2bGRVUU9IWnJ1TU5aYTEyTjFfMXJkMkVXRERmMEFmcC04VzU4Tk55REtrR3ZOR1h6aDhBMDhyZHp3NW1FbXZLMWNYbXNmN3JwemJ4MzN6amZGcjQy?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 268
-    },
-    {
-      "date": "Apr 20",
-      "text": "Oil prices rise as Iran vows retaliation for the U.S. attack on a cargo ship.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 268
-    },
-    {
-      "date": "Apr 20",
-      "text": "Iranian minister states no intention of negotiating for now, as US insists war goals almost met.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 268
+      "latestSinceUpdate": 269
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
