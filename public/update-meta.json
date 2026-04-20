@@ -1,13 +1,13 @@
 {
-  "updateSequence": 270,
+  "updateSequence": 271,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T12:53:32.893Z",
+  "lastSyncedAt": "2026-04-20T14:56:04.988Z",
   "warDay": 52,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "No active ceasefire is in effect for the US-Iran conflict, though a fragile ceasefire between Israel and Hezbollah is reported."
+    "confidence": 0.81,
+    "durationDays": 100,
+    "summary": "No ceasefire is in effect for the primary US-Iran conflict."
   }
 }

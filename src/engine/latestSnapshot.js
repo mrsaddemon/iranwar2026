@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 270,
+  "updateSequence": 271,
   "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T12:53:32.893Z",
+  "lastSyncedAt": "2026-04-20T14:56:04.988Z",
   "warDay": 52,
-  "summary": "Tensions escalate between the US and Iran following the US seizure of an Iran-flagged vessel in the Strait of Hormuz, leading to Iranian threats of retaliation and reported drone strikes, while peace talks remain stalled and a fragile Israel-Lebanon ceasefire faces challenges.",
+  "summary": "Tensions between the US and Iran have escalated following the US seizure of an Iran-flagged vessel, leading to reported Iranian drone strikes and mixed signals regarding peace talks, alongside reports of high-level Iranian casualties and an ongoing Israel-Lebanon ceasefire.",
   "lastNarrativeUpdate": "2026-04-20",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "No active ceasefire is in effect for the US-Iran conflict, though a fragile ceasefire between Israel and Hezbollah is reported."
+    "confidence": 0.81,
+    "durationDays": 100,
+    "summary": "No ceasefire is in effect for the primary US-Iran conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 53,
-    "globalPressure": 63,
-    "allianceInfluence": 73
+    "oilDisruption": 95,
+    "tradeImpact": 59,
+    "sanctionsPressure": 49,
+    "globalPressure": 58,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 20",
-      "text": "US military seizes Iran-flagged ship trying to pass Strait of Hormuz blockade",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQMmVWdTMtLTMtSWhSUFJpUExHYURyU0laMFdDaHp4UUFCZ0NtZFo1TU5aRjZ0dDJ3RU5aOGN1YU94RHQ0ZVFTb1R3OTlhaUdLVEs0STFEMnN5NmpFaTJocnQ1TlkyeGdySlFVVm1MaXpRWVdkUzU5NW1lakFmb0c2Z2Z4TEowQ0VMRnhvMUxxZE4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 270
-    },
-    {
-      "date": "Apr 20",
-      "text": "Tehran vows retaliation after US seizes Iran-flagged vessel defying blockade",
+      "text": "US military seizes Iran-flagged vessel defying blockade in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1YUS1EelZ3bVFnZGZwMERkRnhybVpPUk1JcVNwR3FOUEREclc4bzVDQkNZdXdseVhCY2QtSWE3TlVCUGJUUUU5Y0doOTJkZHJvaHUwTmNkOG1Zay1xeXdkcFp0R3A4dE1NWEIzQ0xHNnU3cWJhaklDdkU3MA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 270
+      "latestSinceUpdate": 271
     },
     {
       "date": "Apr 20",
-      "text": "Iran launches drone strikes on US military vessels after ship seizure, report says",
+      "text": "Iran vows retaliation and reportedly launches drone strikes on US military vessels after ship seizure.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPclI5dnpSdTM4ajFZRFl5THdQejNtTmd5d2pncmo4LW9ReDV2MlBLa1BYeWhnLWpUeTJHTFdlWGtLcHFkVE5QSFgyTlNnckNTc0JRNFZnVmZJb0V5cVphR1lJdXUwQk9xYXZUdHBDVDlBRUFhdzFHVTRIT2ZhQ2Q0QVU0Q01yTWczWnl6TGt5azhXaVpkbm5YdWdTcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The National",
-      "latestSinceUpdate": 270
+      "latestSinceUpdate": 271
     },
     {
       "date": "Apr 20",
-      "text": "Reports indicate deaths of Khamenei and top security officials following US/Israel attack",
+      "text": "Iran sends mixed signals on peace talks, with a minister stating 'no intention of negotiating for now' despite US claims of preparing for talks.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 271
+    },
+    {
+      "date": "Apr 20",
+      "text": "Reports indicate that Iran's Supreme Leader Khamenei and top security officials were killed in a US/Israel attack.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkVCTnhodk1jUmFmOWVwMlJ5dlN2RFFEd3ByUFQtS3lvLVJ6Z0FFZHpmb2szTERvOW5xV0pIVUxIazU4LUs4ci0wcVdJNU9PY3hNNl9Va0xveHh4T292SkdqdmF4akFxdHpFNS1yZTcyNHFKaGpoMHFQQWZ0Vkd3T1ZwMV9CaGFkaHY1anMtd1Q2bzVVcFFXUGJiWHdTZi1CbkVTSEdEOWRaYWZHaVVESGtuX1ZqcmYwREExaEZMb9IBxAFBVV95cUxPZzBGclI4NmZ2Zm1uWWkwNlJVRjdqNUg4X1RtaU1sbVl4MC1nd2h6QkVCckRIbDdVbXVqVUx5Njl5NWc4S2dLUHBYcnZON3VVZDZXNW9jdkJqUGoyTlpkdlR1N2JFRHRETjVUQmZOaGZwdEUzeURZY21MVnBkb1dxYUdSNzlzOGNsekljVXQzaHVWek5sT2JiUldFWV8yUF9Ba3Z2RGtabGc5NG5rNGVTMnZiWENQTnE5QVN0bENvUFhjU1JI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 270
+      "latestSinceUpdate": 271
     },
     {
       "date": "Apr 20",
-      "text": "Iranian minister states 'No intention of negotiating for now' as US insists war goals almost met",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 270
-    },
-    {
-      "date": "Apr 20",
-      "text": "Hezbollah expresses willingness to cooperate with a ceasefire with Israel, for now",
+      "text": "President Trump states the Navy struck and seized an Iranian ship, while his approval rating declines amidst public dissatisfaction with the Iran war.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 270
+      "latestSinceUpdate": 271
+    },
+    {
+      "date": "Apr 20",
+      "text": "An Israel-Lebanon ceasefire is in effect, though witnesses detail deadly Israeli strikes on medics in Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNOUNaNkhhanJCVTNKQnRFbm5sX2dObEhNdEQ1ZU94SmdMYVdOclY5bk9KUlhjYTFPUFJKMEo1cXotQjViLVpqeTF3U0tocFNTNHFMX2VIcXhQMDRaWjhJRVJUeDZjUjlFa1pJZk1mcVZ6b1lwSXFKeGgtRmtCMzd1aDg0WE1XWHA0eVhyQ0UyY21tMV9JeURaTk5xNNIBoAFBVV95cUxPcldQM29ybjE3UExHTjVfVlE4WE0yWkp2QzRINDd2cE9vaVZrVEhNWnlzWDJhbzY5cU9jYnVyWUpWSnlqeXdJcVVTSW1fM0hONnR2QzVIWk8yZ2lOY1VLenlsV1hIYlpqTFBPbU9xWHBRYmtxZlRIdUEtWWhybnVXaUU5VndUTVdLMDBYZy1Scjc2dHVBNnRyVzlBcGZkdm9I?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 271
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
