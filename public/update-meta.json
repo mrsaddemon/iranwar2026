@@ -1,13 +1,13 @@
 {
-  "updateSequence": 291,
+  "updateSequence": 292,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T18:47:30.862Z",
+  "lastSyncedAt": "2026-04-21T19:53:59.942Z",
   "warDay": 53,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, with peace talks stalled and regional conflicts ongoing."
+    "summary": "A two-week ceasefire between the US and Iran was reached, but its continuation is uncertain as the deadline approaches and both sides issue warnings."
   }
 }

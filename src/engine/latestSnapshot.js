@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 291,
+  "updateSequence": 292,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T18:47:30.862Z",
+  "lastSyncedAt": "2026-04-21T19:53:59.942Z",
   "warDay": 53,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US and Iran are navigating a fragile two-week ceasefire amidst mixed signals regarding potential talks, while Israel continues its conflict with Hezbollah in Lebanon and concerns rise over Strait of Hormuz disruptions.",
   "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, with peace talks stalled and regional conflicts ongoing."
+    "summary": "A two-week ceasefire between the US and Iran was reached, but its continuation is uncertain as the deadline approaches and both sides issue warnings."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 58
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
-    "sanctionsPressure": 49,
-    "globalPressure": 55,
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,35 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 21",
-      "text": "Reported US-Israel attack on Iran claims lives of Khamenei and top security officials.",
+      "text": "The US and Iran reached a two-week ceasefire agreement.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 292
+    },
+    {
+      "date": "Apr 21",
+      "text": "Reports indicate Khamenei and top security officials were killed in US-Israel attacks on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkVCTnhodk1jUmFmOWVwMlJ5dlN2RFFEd3ByUFQtS3lvLVJ6Z0FFZHpmb2szTERvOW5xV0pIVUxIazU4LUs4ci0wcVdJNU9PY3hNNl9Va0xveHh4T292SkdqdmF4akFxdHpFNS1yZTcyNHFKaGpoMHFQQWZ0Vkd3T1ZwMV9CaGFkaHY1anMtd1Q2bzVVcFFXUGJiWHdTZi1CbkVTSEdEOWRaYWZHaVVESGtuX1ZqcmYwREExaEZMb9IBxAFBVV95cUxPZzBGclI4NmZ2Zm1uWWkwNlJVRjdqNUg4X1RtaU1sbVl4MC1nd2h6QkVCckRIbDdVbXVqVUx5Njl5NWc4S2dLUHBYcnZON3VVZDZXNW9jdkJqUGoyTlpkdlR1N2JFRHRETjVUQmZOaGZwdEUzeURZY21MVnBkb1dxYUdSNzlzOGNsekljVXQzaHVWek5sT2JiUldFWV8yUF9Ba3Z2RGtabGc5NG5rNGVTMnZiWENQTnE5QVN0bENvUFhjU1JI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 291
+      "latestSinceUpdate": 292
     },
     {
       "date": "Apr 21",
-      "text": "US forces seize Iranian-flagged oil tanker M/T Tifani in INDOPACOM, linked to Iranian smuggling.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 291
-    },
-    {
-      "date": "Apr 21",
-      "text": "US delegation led by Vance delays Islamabad trip for Iran peace talks, as Iran states 'no plans' to attend.",
+      "text": "Iran demands the immediate release of a seized vessel and warns the US against ceasefire breaches.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizAJBVV95cUxOYnRZUEs0b096THRZNXZjNmtrMWlvWHRRcUlLUG9MZlpReThmcnVhV3Z0eVE2SzFIa3A5eUQzWHBtaF9hYjhwWUcwNURtVTc0cVFjemVSQTdHRWJTOW8zNjhCYm5pRzFtX2lVbDJWZGRxTW9ubHNQcTJzYjBsaERWbUsxSkJpcDlwR3FsREJhQ3d6WlNoM0xWZkY5cmxxYmFIb3FOcWtpQzhfTk1xSExXTHNWWDZ5THVSU05LRmxuNVZGUE5ac3dPYWdPVWs5XzdsWGozY0JIX0pRcXlnQ1BiYkdmNzFoZzdPM0dpVlppX21QOXJRc0pKbUYwR0h4alJwbXJBZVhsTlVnX1Utc2tnWWc5VGVJQUsyU19ra3I3OW42d3NjNXFnMFVFM2UwVkpKWno0cFJ2THcwYVUwQlQ2MmVVQjgyWmFmVDNEZdIB0gJBVV95cUxNWFQ4Vk9zZllfYjRhbTdjdXJ0aTBCcjFualh1dEI3OUY4czVpdGx1SHgxSlFaR0lObVRRLTdRckdWdWJBd0hrWEsyXzFzX3h6QkRqdktmaUtjcW5xNDdzSGZWcC05NlAyNF9xRzY2Xy03R01PYVVxMXk4UVhxZm5JTS1lbkZaX29PcllIajd1WFVnR3RYVEtpaGQwZFVVTnpBQ0N2ZGNDZ2VFbzROam9YN3VZVWl2czlKZHBGaHZMdUpjLTF4UnNOX3RpNS04bnFmd005TkhPTEVUUDJUR0NaRUxwNG5TYlQ0VTdyRnZrRWxQM0hGZmhLUHdvdThxN0NMUHRSNjlVbWdmTVItTFFVRGRxWTZuOHRic3ZwQWEzZk94clpDVTJBMG5DVGxjVGE2ODVBdVNZS0ZMVXhpcWlNQjhjQUxGRjQzWGhyb21JbFhXQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 291
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE95ZnBiaFI0cUlMMDFKblpMdWYzMUNFUi1ONzNtZG9wSTFVUW53b3h1UDY1LXdsMml3YXI4UENwWG5kLUZnazF3ZVdxYlctaVZfRlZTZGRGalFIbnZodDNQaUQ2dlVpWW16cUZHeEFzUGdqeWNyM180THo1bw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 292
     },
     {
       "date": "Apr 21",
-      "text": "Israel reports Hezbollah fired rockets in south Lebanon, confirming the war in Lebanon has not stopped.",
+      "text": "US officials state that Vance's trip to Pakistan for talks with Iran is on hold.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 292
+    },
+    {
+      "date": "Apr 21",
+      "text": "Trump warns of potential bombing amidst uncertainty over US-Iran talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 292
+    },
+    {
+      "date": "Apr 21",
+      "text": "Israel reports Hezbollah rocket fire in south Lebanon, indicating ongoing conflict.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 291
+      "latestSinceUpdate": 292
     }
   ],
   "sourceStatuses": [
