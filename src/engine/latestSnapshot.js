@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 288,
+  "updateSequence": 289,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T15:23:56.934Z",
+  "lastSyncedAt": "2026-04-21T16:38:52.852Z",
   "warDay": 53,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 5,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -92,11 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 21",
-      "text": "Iran war latest: Trump says Iranians have 'violated ceasefire numerous times",
+      "text": "Iran war latest: Trump gives update on talks",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": null,
-      "latestSinceUpdate": 288
+      "latestSinceUpdate": 289
     },
     {
       "date": "Apr 21",
