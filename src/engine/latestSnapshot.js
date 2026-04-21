@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 281,
+  "updateSequence": 282,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T03:47:34.562Z",
+  "lastSyncedAt": "2026-04-21T05:54:28.103Z",
   "warDay": 53,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran war continues with mixed messages from US officials regarding peace talks, while a 10-day ceasefire has been agreed upon between Israel and Lebanon, amidst a US seizure of an Iranian vessel in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 100,
-    "summary": "The broader Iran-US ceasefire is at risk of collapse as its deadline looms and Trump indicates he is unlikely to extend it, while a separate Israel-Lebanon ceasefire holds conditionally."
+    "confidence": 0.98,
+    "durationDays": 10,
+    "summary": "A 10-day ceasefire between Israel and Lebanon is active, with Hezbollah indicating cooperation, but underlying tensions persist."
   },
   "actorOverrides": {
     "usa": {
+      "metrics": {
+        "militaryPower": 90
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.7
+      }
+    },
+    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 64,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 21",
-      "text": "Trump officials and Iran plan new talks despite mixed messages regarding a potential deal.",
+      "text": "Trump officials and Iran plan new talks despite mixed messages from the US President.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 281
+      "latestSinceUpdate": 282
     },
     {
       "date": "Apr 21",
-      "text": "Trump states a deal to end the Iran war will come 'quickly' but his social media posts have complicated negotiations.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 281
-    },
-    {
-      "date": "Apr 21",
-      "text": "Trump is reportedly unlikely to extend the current ceasefire as its deadline approaches.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 281
-    },
-    {
-      "date": "Apr 21",
-      "text": "An Iranian minister states 'no intention of negotiating for now,' contradicting US claims that war goals are almost met.",
+      "text": "Iranian minister states 'no intention of negotiating for now' as US insists war goals are almost met.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 281
+      "latestSinceUpdate": 282
     },
     {
       "date": "Apr 21",
-      "text": "Tehran criticizes Trump's threats amidst ongoing tensions.",
+      "text": "Iran warns it has prepared 'new cards on the battlefield' amidst ongoing conflict.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 281
+      "latestSinceUpdate": 282
     },
     {
       "date": "Apr 21",
-      "text": "Over 100 international law experts warn that US strikes on Iran may violate the UN Charter and constitute war crimes.",
+      "text": "Reports of death toll and injuries from US-Israel attacks on Iran are being tracked.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNejktU2hOR25jX3gya0NiZFFRWFFIU1pRTzZkbGJDazRlUTR5RXJfN3cwZnJyV25HX1g5bGZkWmN0YmpILXV1TXZaRUl6cXpSY2ZJNkNGZFYxcUFLdDRsSGw4UlVZTnUxdUdvdkNwTDlaRUlBVjg2OXlzZEZoQnpCVFpqNnhVcmI1ejQ4V2M5U1VxdlZ5bFdsYmdIY2dIQUprMUFZY9IBqgFBVV95cUxQa3JzejVyemNBVFJUWmI0SHJMbGF1azJaWmJVVzVtWUF4SWRlaFNXeWhVZkVnZ05nU0pmQXZIbkxYemdDeEpxLWItTHZRWUJsa3JCRkhPTFRjMHIwUWltTTlnNzJVZmRhZmNwTVFQcDR1Nnl5LWtFSGk0QkpvQWo1U25GbmJpZWE4RVhKZWpNYmRQWjBONkItN21rd3packdHbFVXWVpnZlRZdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 282
+    },
+    {
+      "date": "Apr 21",
+      "text": "Over 100 international law experts warn that U.S. strikes on Iran violate the UN Charter and may be war crimes.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 281
+      "latestSinceUpdate": 282
+    },
+    {
+      "date": "Apr 21",
+      "text": "Trump states US will not lift Hormuz blockade until a deal is made with Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Vcl9oZkVjY3ZUS0dyam40SjA5T3Z1UzdSeW9pLW9hdUF1ai1IeDJwelk0S1JLazB3RlowT3NZYTc1dHFUMkxWMjJBQkNrT0V1Y2VWd2R5X3F5QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 282
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

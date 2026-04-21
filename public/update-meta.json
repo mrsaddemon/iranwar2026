@@ -1,13 +1,13 @@
 {
-  "updateSequence": 281,
+  "updateSequence": 282,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T03:47:34.562Z",
+  "lastSyncedAt": "2026-04-21T05:54:28.103Z",
   "warDay": 53,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 100,
-    "summary": "The broader Iran-US ceasefire is at risk of collapse as its deadline looms and Trump indicates he is unlikely to extend it, while a separate Israel-Lebanon ceasefire holds conditionally."
+    "confidence": 0.98,
+    "durationDays": 10,
+    "summary": "A 10-day ceasefire between Israel and Lebanon is active, with Hezbollah indicating cooperation, but underlying tensions persist."
   }
 }
