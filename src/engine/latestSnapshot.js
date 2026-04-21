@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 287,
+  "updateSequence": 288,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T14:05:40.778Z",
+  "lastSyncedAt": "2026-04-21T15:23:56.934Z",
   "warDay": 53,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-21",
@@ -92,11 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 21",
-      "text": "Iran war latest: Energy chief warns of 'biggest crisis in history",
+      "text": "Iran war latest: Trump says Iranians have 'violated ceasefire numerous times",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": null,
-      "latestSinceUpdate": 286
+      "latestSinceUpdate": 288
     },
     {
       "date": "Apr 21",
