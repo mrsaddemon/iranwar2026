@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 279,
-  "lastUpdated": "2026-04-20",
-  "lastSyncedAt": "2026-04-20T23:24:03.325Z",
-  "warDay": 52,
+  "updateSequence": 280,
+  "lastUpdated": "2026-04-21",
+  "lastSyncedAt": "2026-04-21T00:09:07.518Z",
+  "warDay": 53,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
-  "lastNarrativeUpdate": "2026-04-20",
+  "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 100,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 100 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 20",
+      "date": "Apr 21",
       "text": "Iran War Live Updates: Trump Officials and Iran Plan New Talks Despite Mixed Messages",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 276
+      "latestSinceUpdate": 280
     },
     {
-      "date": "Apr 20",
+      "date": "Apr 21",
       "text": "Iran war live: Uncertainty over talks, Trump insists deal to come ‘quickly’",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 276
+      "latestSinceUpdate": 280
     },
     {
-      "date": "Apr 20",
+      "date": "Apr 21",
+      "text": "Live updates: Trump says ceasefire ends Wednesday evening and a further extension is ‘highly unlikely’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE95ZnBiaFI0cUlMMDFKblpMdWYzMUNFUi1ONzNtZG9wSTFVUW53b3h1UDY1LXdsMml3YXI4UENwWG5kLUZnazF3ZVdxYlctaVZfRlZTZGRGalFIbnZodDNQaUQ2dlVpWW16cUZHeEFzUGdqeWNyM180THo1bw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 280
+    },
+    {
+      "date": "Apr 21",
       "text": "Iran War Live News Updates: Trump Unlikely to Extend Ceasefire as Deadline Looms",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE50ekRfbXRYTF9wRXBMbU1nM0QySFg1ZTNDUXlKc2RHNnkwUGdQSWFXaTBhdWhyLUxONWRxYndVUE5MX3gwSkZFU0FRRjc5YlBxaXRDV0RLZEpQZkp2VGtIWGtiUTRuaDN1NHpwMy0tYl9kMUEtOU9Kdkh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "WSJ",
-      "latestSinceUpdate": 277
+      "latestSinceUpdate": 280
     },
     {
-      "date": "Apr 20",
-      "text": "Trump offers mixed messages about path ahead for US war against Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPa0hwZGtMTDA1S3FRLTNqMkRhazZtdE5xZE1yY1Y1V2lVaE9QTWVIU2R3NG9hTjJ1dnI5TmpDYXFuVk9oVXJ2NUxHX0Ezd0tBXzlxWVYtcGl5TXBDOXhfWGo0aVJtNVRQMVdHaTZhQURsMEVpY2FzWGVhdGpsLTZ1d1o0aDF1bHZjTDNwR0J5TDNCZXB6MU9QZ2xsNDI2QnFL?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 279
-    },
-    {
-      "date": "Apr 20",
+      "date": "Apr 21",
       "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 276
+      "latestSinceUpdate": 280
     },
     {
-      "date": "Apr 20",
+      "date": "Apr 21",
       "text": "Iran war latest: Tehran hits out at at Trump's threats",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": null,
-      "latestSinceUpdate": 279
+      "latestSinceUpdate": 280
     }
   ],
   "sourceStatuses": [
