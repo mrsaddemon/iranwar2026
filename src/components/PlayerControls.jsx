@@ -236,6 +236,9 @@ export default function PlayerControls({
       <div className="pc-header-tip">
         Build your commander profile, pick a side, then issue orders. If your war reaches an ending, we will generate a personal result report and share card.
       </div>
+      <div className="pc-header-tip" style={{ marginTop: -4, color: '#7dd3fc' }}>
+        Selecting a side does not alter the simulation by itself. The timeline only diverges once you issue your first manual order.
+      </div>
 
       <div className="pc-profile-card">
         <div className="pc-section-label">COMMANDER PROFILE</div>

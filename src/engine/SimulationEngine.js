@@ -91,18 +91,21 @@ function deriveInitialGlobals(snapshot, allianceSupport, ceasefireStatus) {
 }
 
 function calculateStructuralNuclearFloor(state) {
-  const snapshotFloor = clamp((LATEST_SNAPSHOT.global?.nuclearIndex ?? 0) - (state.dayCount * 0.22));
+  const snapshotFloor = clamp((LATEST_SNAPSHOT.global?.nuclearIndex ?? 0) - (state.dayCount * 0.42));
   const ceasefireModifier = state.ceasefireStatus?.active
-    ? (state.ceasefireStatus.status === 'active' ? -8 : -4)
-    : 6;
+    ? (state.ceasefireStatus.status === 'active' ? -14 : -7)
+    : 8;
   const conditionFloor = clamp(
-    state.escalationLevel * 0.55
-    + state.globalPressure * 0.28
-    + state.oilDisruption * 0.16
+    state.escalationLevel * 0.46
+    + state.globalPressure * 0.15
+    + state.oilDisruption * 0.08
     + ceasefireModifier
   );
+  const lowEscalationCeiling = state.ceasefireStatus?.active && state.escalationLevel < 20
+    ? clamp(22 + (state.globalPressure * 0.12) + (state.oilDisruption * 0.08), 0, 42)
+    : 100;
 
-  return Math.max(snapshotFloor, conditionFloor);
+  return Math.max(8, Math.min(lowEscalationCeiling, Math.max(snapshotFloor, conditionFloor)));
 }
 
 function normalizeSnapshotEventText(text) {
@@ -156,6 +159,41 @@ function captureSyncedBaseline(state) {
     lastUpdated: state.lastUpdated,
     lastSyncedAt: state.lastSyncedAt,
   });
+}
+
+function hasPlayerIntervened(state) {
+  return Boolean(state?.playerHasIntervened || (state?.manualCommandCount || 0) > 0);
+}
+
+function getBaselineAdherenceFactor(state) {
+  if (hasPlayerIntervened(state)) return 0;
+
+  const currentCeasefire = normalizeCeasefireStatus(state?.ceasefireStatus);
+  const earlyRunWeight = Math.max(0, 1 - ((state?.dayCount || 0) / 45));
+  const ceasefireBonus = currentCeasefire.active ? 0.16 : 0.05;
+
+  return clamp01(0.28 + (earlyRunWeight * 0.36) + ceasefireBonus);
+}
+
+function pullStateTowardBaseline(state, strength = 0) {
+  const baseline = state?.syncedBaseline || {};
+  if (!baseline || strength <= 0) return;
+
+  for (const key of ['escalationLevel', 'oilDisruption', 'tradeImpact', 'sanctionsPressure', 'globalPressure', 'allianceInfluence']) {
+    const current = state[key];
+    const target = baseline[key];
+    if (!Number.isFinite(current) || !Number.isFinite(target)) continue;
+    state[key] = clamp(current + ((target - current) * strength));
+  }
+
+  const baselineCeasefire = normalizeCeasefireStatus(baseline.ceasefireStatus);
+  const currentCeasefire = normalizeCeasefireStatus(state.ceasefireStatus);
+  if (baselineCeasefire.active && !currentCeasefire.active && strength >= 0.2) {
+    state.ceasefireStatus = {
+      ...baselineCeasefire,
+      summary: baselineCeasefire.summary,
+    };
+  }
 }
 
 function softenActionWeightsForCeasefire(weights, ceasefireStatus) {
@@ -239,6 +277,8 @@ export function createSimulationState() {
     lastNarrativeUpdate: LATEST_SNAPSHOT.lastNarrativeUpdate || null,
     // Player control
     playerControlledActor: null, // null = auto, 'usa'/'israel'/'iran'
+    playerHasIntervened: false,
+    manualCommandCount: 0,
     pendingPlayerAction: null,
     // Ceasefire tracking
     ceasefireProposals: {}, // { actorId: dayProposed }
@@ -299,6 +339,7 @@ function generateInitialEvents() {
 function selectAction(actor, globalState) {
   const weights = { ...actor.actionWeights };
   const { escalationLevel } = globalState;
+  const baselineAdherence = getBaselineAdherenceFactor(globalState);
   softenActionWeightsForCeasefire(weights, globalState.ceasefireStatus);
 
   if (escalationLevel > 60) {
@@ -324,6 +365,18 @@ function selectAction(actor, globalState) {
     weights.missileStrike *= 1.3;
     weights.cyberDisruption *= 1.3;
     weights.navalManeuver *= 1.2;
+  }
+
+  if (baselineAdherence > 0) {
+    const offensiveDamp = 1 - (baselineAdherence * 0.58);
+    weights.airstrike *= offensiveDamp;
+    weights.missileStrike *= offensiveDamp;
+    weights.droneOperation *= 1 - (baselineAdherence * 0.46);
+    weights.navalManeuver *= 1 - (baselineAdherence * 0.28);
+    weights.cyberDisruption *= 1 - (baselineAdherence * 0.22);
+    weights.diplomaticOutreach *= 1 + (baselineAdherence * 0.95);
+    weights.defensivePosture *= 1 + (baselineAdherence * 0.45);
+    weights.strategicSignaling *= 1 + (baselineAdherence * 0.18);
   }
 
   // AI actors may also propose ceasefire when losing badly
@@ -676,8 +729,26 @@ export function checkWarConclusion(state) {
     };
   }
 
+  if (
+    state.ceasefireStatus?.status === 'active'
+    && state.dayCount > 75
+    && state.escalationLevel <= 18
+    && state.nuclearIndex <= 48
+    && state.oilDisruption <= 70
+  ) {
+    return {
+      type: 'ceasefire',
+      title: 'MONITORED CEASEFIRE',
+      color: '#22c55e',
+      icon: '\u{1F54A}',
+      summary: 'The front has cooled into an enforced ceasefire. Tension remains, but large-scale combat has largely stopped.',
+      casualties: Math.floor(18000 + Math.random() * 65000),
+      detail: 'External pressure, exhaustion, and battlefield attrition have pushed the conflict into a monitored ceasefire. The war is not politically solved, but the main military tempo has broken.',
+    };
+  }
+
   // Stalemate / frozen conflict
-  if (state.dayCount > 365 && state.escalationLevel >= 25 && state.escalationLevel <= 55) {
+  if (state.dayCount > 140 && state.escalationLevel <= 22 && (state.ceasefireStatus?.active || getCoalitionExhaustion(state) >= 0.42 || state.oilDisruption >= 45)) {
     return {
       type: 'stalemate',
       title: 'FROZEN CONFLICT',
@@ -920,6 +991,8 @@ export function applyPlayerAction(state, actionId, target, options = {}) {
   const newState = JSON.parse(JSON.stringify(state));
   const actorId = newState.playerControlledActor;
   if (!actorId) return newState;
+  newState.playerHasIntervened = true;
+  newState.manualCommandCount = (newState.manualCommandCount || 0) + 1;
 
   const actor = newState.actors[actorId];
   const warDay = newState.warDay || 37;
@@ -1087,10 +1160,11 @@ export function simulateTick(state) {
   const newEvents = [];
   const newAnimations = [];
   const actorIds = ['usa', 'israel', 'iran'];
+  const baselineAdherence = getBaselineAdherenceFactor(newState);
 
   for (const actorId of actorIds) {
     // Skip player-controlled actor (they act via applyPlayerAction)
-    if (actorId === newState.playerControlledActor) continue;
+    if (actorId === newState.playerControlledActor && hasPlayerIntervened(newState)) continue;
 
     const actor = newState.actors[actorId];
     const exhaustion = getActorExhaustionScore(actor);
@@ -1102,7 +1176,8 @@ export function simulateTick(state) {
       ceasefireActModifier +
       newState.escalationLevel * (newState.ceasefireStatus?.active ? 0.0012 : 0.00235) +
       actor.behavior.aggression * 0.04 -
-      fatigueBrake
+      fatigueBrake -
+      (baselineAdherence * (newState.ceasefireStatus?.active ? 0.11 : 0.06))
     );
     if (Math.random() > actProbability) continue;
 
@@ -1168,12 +1243,17 @@ export function simulateTick(state) {
     : -0.35;
   newState.escalationLevel = Math.max(
     0,
-    Math.min(100, newState.escalationLevel + (Math.random() - 0.56) * 1.15 + decayBias - fatigueCooling)
+    Math.min(
+      100,
+      newState.escalationLevel + ((Math.random() - 0.56) * 1.15 * (1 - (baselineAdherence * 0.58))) + decayBias - fatigueCooling
+    )
   );
   const nuclearDecay = (
     0.08
     + getCoalitionExhaustion(newState) * 0.18
     + (newState.ceasefireStatus?.active ? (newState.ceasefireStatus.status === 'active' ? 0.2 : 0.08) : 0)
+    + (newState.escalationLevel < 20 ? 0.16 : 0)
+    + (newState.escalationLevel < 10 ? 0.1 : 0)
     - (newState.globalPressure > 72 ? 0.08 : 0)
   );
   const nuclearFloor = calculateStructuralNuclearFloor(newState);
@@ -1181,7 +1261,11 @@ export function simulateTick(state) {
     nuclearFloor,
     Math.min(100, newState.nuclearIndex - nuclearDecay + (newState.escalationLevel > 82 ? 0.35 : 0))
   );
-  newState.oilDisruption = Math.max(0, Math.min(100, newState.oilDisruption + (Math.random() - 0.5) * 2));
+  newState.oilDisruption = Math.max(
+    0,
+    Math.min(100, newState.oilDisruption + ((Math.random() - 0.5) * 2 * (1 - (baselineAdherence * 0.6))))
+  );
+  pullStateTowardBaseline(newState, baselineAdherence * 0.22);
 
   for (const actorId of actorIds) {
     const actor = newState.actors[actorId];
