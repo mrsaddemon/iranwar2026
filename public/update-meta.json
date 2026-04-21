@@ -1,13 +1,13 @@
 {
-  "updateSequence": 293,
+  "updateSequence": 294,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T21:01:36.765Z",
+  "lastSyncedAt": "2026-04-21T21:54:54.761Z",
   "warDay": 53,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 20,
+    "summary": "A ceasefire, recently extended by President Trump, remains in effect but is highly fragile amidst accusations of violations from both sides and ongoing regional conflicts."
   }
 }
