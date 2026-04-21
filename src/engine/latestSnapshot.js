@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 284,
+  "updateSequence": 285,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T09:48:49.644Z",
+  "lastSyncedAt": "2026-04-21T10:54:41.624Z",
   "warDay": 53,
-  "summary": "Amid ongoing conflict and mixed signals regarding potential talks, the US has seized an Iranian-flagged vessel, while a fragile ceasefire holds between Israel and Hezbollah.",
+  "summary": "The US and Iran send mixed signals regarding potential talks amidst an ongoing Strait of Hormuz blockade and the seizure of an Iranian vessel, while an Israel-Lebanon ceasefire remains fragile.",
   "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A ceasefire between Israel and Hezbollah is in effect in Lebanon, though its stability is questioned due to underlying gaps."
+    "durationDays": 5,
+    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is in effect but faces challenges that could lead to its collapse."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
     "sanctionsPressure": 54,
     "globalPressure": 65,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 21",
-      "text": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
+      "text": "Tehran and Trump send mixed signals ahead of potential talks, with Trump suggesting a deal could come 'quickly' while an Iranian minister states 'no intention of negotiating for now'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 283
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 285
     },
     {
       "date": "Apr 21",
-      "text": "Iran demands immediate release of seized vessel as ceasefire deadline looms",
-      "severity": "critical",
+      "text": "Iran demands the immediate release of a seized vessel as a ceasefire deadline looms.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE95ZnBiaFI0cUlMMDFKblpMdWYzMUNFUi1ONzNtZG9wSTFVUW53b3h1UDY1LXdsMml3YXI4UENwWG5kLUZnazF3ZVdxYlctaVZfRlZTZGRGalFIbnZodDNQaUQ2dlVpWW16cUZHeEFzUGdqeWNyM180THo1bw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 284
+      "latestSinceUpdate": 285
     },
     {
       "date": "Apr 21",
-      "text": "Iran claims it has ‘new cards for battlefield’ and weighs talks in Pakistan",
+      "text": "Donald Trump states the US will not lift the Hormuz blockade until a deal is made with Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQZktnZk1UOFFHX2VXNHB0TUY0eTczOEZhdHZWX0JEa2RaUTZaZzRqTWowUk5qQnFVUHVJY0hLdlpJLUd5WmJMLVBaOFAwQXZsTUx4eGFyQ1U2aGI2enFLLS1lMFNDcXJJaHJnbW40WUt2UE9xQXhWTk9tai1FTjBLVk9mYUNZR3F0Y2lZU1ZfS3RvM3p0QXNEclJmbWhtOWwtSUZ2U0NRNDlWWUxzeUNIQWxSV1luZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 284
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Vcl9oZkVjY3ZUS0dyam40SjA5T3Z1UzdSeW9pLW9hdUF1ai1IeDJwelk0S1JLazB3RlowT3NZYTc1dHFUMkxWMjJBQkNrT0V1Y2VWd2R5X3F5QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 285
     },
     {
       "date": "Apr 21",
-      "text": "US-Israel attacks on Iran: Death toll and injuries live tracker",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNejktU2hOR25jX3gya0NiZFFRWFFIU1pRTzZkbGJDazRlUTR5RXJfN3cwZnJyV25HX1g5bGZkWmN0YmpILXV1TXZaRUl6cXpSY2ZJNkNGZFYxcUFLdDRsSGw4UlVZTnUxdUdvdkNwTDlaRUlBVjg2OXlzZEZoQnpCVFpqNnhVcmI1ejQ4V2M5U1VxdlZ5bFdsYmdIY2dIQUprMUFZY9IBqgFBVV95cUxQa3JzejVyemNBVFJUWmI0SHJMbGF1azJaWmJVVzVtWUF4SWRlaFNXeWhVZkVnZ05nU0pmQXZIbkxYemdDeEpxLWItTHZRWUJsa3JCRkhPTFRjMHIwUWltTTlnNzJVZmRhZmNwTVFQcDR1Nnl5LWtFSGk0QkpvQWo1U25GbmJpZWE4RVhKZWpNYmRQWjBONkItN21rd3packdHbFVXWVpnZlRZdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 284
-    },
-    {
-      "date": "Apr 21",
-      "text": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes",
+      "text": "US military releases video of marines seizing the Iranian-flagged ship 'The Touska', which was under sanctions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Just Security",
-      "latestSinceUpdate": 284
-    },
-    {
-      "date": "Apr 21",
-      "text": "US military releases video of marines seizing Iranian ship 'The Touska'",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPRlNMbVFFLVV6RkJMMDRGU1ZpWERFZFZhVzg2M0ttTzlILXBrOHVvLTlNdWdMS0tLNWNKU2JjYkcwLUsxYzE0eDVpeWJxa0JvYkpGenFmY0I0WmYwdXlBQWNoZTJRM1ptY1prVTJ5MWkwQ0lCOWY4cVUzOXRSMTZjeEJyX2ZaY1hNQkc3ZGRrcTlaSVNvUjFiQUZVVDQtVV9WeWFlaWE0bnUybWg5VkHSAbMBQVVfeXFMUDV2OUpvSTBTSE9ZOVZVc3JlRFpnOXhQc21tSGFZWXVhdlhKT0l4V1dFMzZjdjhsQ01tS0ZRYklzbmsxaVpNQ2NzbGlrd1U2bTRTdjBxRy0zQkM4WTJxNWxHTnJqZEh6aXlGekcwVWtUVEs4U3I0LXF1R09ManNWNjV1OWYzSVp6eFBJZGZXa1RSOVpxQ3plOVRUTEVzVWlBYTF0WFpJbXJ4YV9HbzlQTlJ6Mk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 284
+      "latestSinceUpdate": 285
+    },
+    {
+      "date": "Apr 21",
+      "text": "Over 100 international law experts warn that US strikes on Iran violate the UN Charter and may constitute war crimes.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 285
+    },
+    {
+      "date": "Apr 21",
+      "text": "China's Xi calls for the Strait of Hormuz to reopen as China balances its Gulf interests.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 285
     }
   ],
   "sourceStatuses": [

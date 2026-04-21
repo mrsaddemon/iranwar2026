@@ -1,13 +1,13 @@
 {
-  "updateSequence": 284,
+  "updateSequence": 285,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T09:48:49.644Z",
+  "lastSyncedAt": "2026-04-21T10:54:41.624Z",
   "warDay": 53,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A ceasefire between Israel and Hezbollah is in effect in Lebanon, though its stability is questioned due to underlying gaps."
+    "durationDays": 5,
+    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is in effect but faces challenges that could lead to its collapse."
   }
 }
