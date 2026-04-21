@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 289,
+  "updateSequence": 290,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T16:38:52.852Z",
+  "lastSyncedAt": "2026-04-21T17:45:02.738Z",
   "warDay": 53,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
-    "durationDays": 5,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "confidence": 0.98,
+    "durationDays": 14,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -63,48 +63,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 286
+      "sourceName": "The New York Times"
     },
     {
       "date": "Apr 21",
-      "text": "Iran war updates: Uncertainty over talks, Trump says deal to come ‘quickly’",
+      "text": "Live updates: Iran demands immediate release of seized vessel as ceasefire deadline looms",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOVkNadmNhVzZkY0xlbkRJc2xsSzRkOTZhbURYY3RlYkxleDhGaG9JY2s3VWs2RmVncTlvR1NEVk8wOWlIRHlMTEdGenNDa0R1c2lwcloyNUxIcW00V0haXzN0SVhaMllyOFpONlg0VjhSdnNKdjFiOUhEd0p6dzBTTG5sOXBmaHJ3dWlJNEsyWVd1NFFxeFdNUlpPWDJGUFJLQ2lkSUl2NW92eEh6V0g2aUt4QWtMd0NCSFlGQ9IBwgFBVV95cUxPWWdSVUh0NG50dld4R05nMXllRUpXQU53dFhWbVBaZ0RiRUxzYW42N2U1TjI2ai1VU3N5WW11VGNKWTE1a2gxZmJadm1ZVzRoNVl5SnpLVTUzd1hGaGYzTW5KT3NQMGJpRFYtM2hUR0RoRS05SGhOd1I1ajVHbzA1cG0xaUtaT2t3Rlctam9hUDRSVzlWRVV2dUhoQkIzLXY5S3pwbUFmMFRTLU8yVlZXWTJaZmRJOE16ZE9PVWhEdXJ3QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 287
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE95ZnBiaFI0cUlMMDFKblpMdWYzMUNFUi1ONzNtZG9wSTFVUW53b3h1UDY1LXdsMml3YXI4UENwWG5kLUZnazF3ZVdxYlctaVZfRlZTZGRGalFIbnZodDNQaUQ2dlVpWW16cUZHeEFzUGdqeWNyM180THo1bw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 290
     },
     {
       "date": "Apr 21",
-      "text": "Live updates: US and Iran signal they will return to Pakistan for ceasefire talks, officials say",
+      "text": "Iran war live: Trump says ‘ready to go’ back to war as ceasefire end looms",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxORlVVUnU5bW1tbi1lZUpPeHRVTTlCM0FJX3AtUGhHOXB3Z0llb3ZiUlB3RTM5bEJRMWtWRXNBMU1SSmx0MmtFczh5Z0RqbVE2dWRoQ1RsUUlKWlNtQU1YaVVRUkUxNGFwcGc2WDZGLTZneGNDa3FyQzlCNklMdFlZa0F5R3RJM0pKcmpJdGliU19GN1FkM3RWYVI0ZVBRbVlhNWFyb0VEdUNLcmdENGZVS3UxM0xHd9IBuwFBVV95cUxPWXVzRDJXdnRpbnNRV0VyTzJOMlJySHRnT2ZGQnpWdjRkUmRwaVRwN0tPSk1hVnNWMmNlczRtS2kwaFpDaWtRSUlPaG9LLUxqYUlScEhCUWdRR3pZYjE4WVpFdHdRLXJORWE4bDBtUnpYYk5HSW5leUQzb0Z3TEw1R2l3WUZLZ0Yxd0xlRFF6dnJiNnVfMU03Si1KVElWeVVKdzVCbU9tTmFCVm92aHBXa09QLVpnZGtRYWVn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 290
+    },
+    {
+      "date": "Apr 21",
+      "text": "Live updates: US-Iran talks are in doubt as ceasefire nears an end",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 287
-    },
-    {
-      "date": "Apr 21",
-      "text": "Iran War Live News Updates: U.S. Forces Board Tanker Amid Uncertainty Over Talks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE50ekRfbXRYTF9wRXBMbU1nM0QySFg1ZTNDUXlKc2RHNnkwUGdQSWFXaTBhdWhyLUxONWRxYndVUE5MX3gwSkZFU0FRRjc5YlBxaXRDV0RLZEpQZkp2VGtIWGtiUTRuaDN1NHpwMy0tYl9kMUEtOU9Kdkh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 287
-    },
-    {
-      "date": "Apr 21",
-      "text": "Iran war latest: Trump gives update on talks",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 289
+      "latestSinceUpdate": 290
     },
     {
       "date": "Apr 21",
       "text": "No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 286
+      "sourceName": "BBC"
+    },
+    {
+      "date": "Apr 21",
+      "text": "Iran war latest: Trump gives update on Iran talks and warns US is 'loaded up",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAJBVV95cUxOYnRZUEs0b096THRZNXZjNmtrMWlvWHRRcUlLUG9MZlpReThmcnVhV3Z0eVE2SzFIa3A5eUQzWHBtaF9hYjhwWUcwNURtVTc0cVFjemVSQTdHRWJTOW8zNjhCYm5pRzFtX2lVbDJWZGRxTW9ubHNQcTJzYjBsaERWbUsxSkJpcDlwR3FsREJhQ3d6WlNoM0xWZkY5cmxxYmFIb3FOcWtpQzhfTk1xSExXTHNWWDZ5THVSU05LRmxuNVZGUE5ac3dPYWdPVWs5XzdsWGozY0JIX0pRcXlnQ1BiYkdmNzFoZzdPM0dpVlppX21QOXJRc0pKbUYwR0h4alJwbXJBZVhsTlVnX1Utc2tnWWc5VGVJQUsyU19ra3I3OW42d3NjNXFnMFVFM2UwVkpKWno0cFJ2THcwYVUwQlQ2MmVVQjgyWmFmVDNEZdIB0gJBVV95cUxNWFQ4Vk9zZllfYjRhbTdjdXJ0aTBCcjFualh1dEI3OUY4czVpdGx1SHgxSlFaR0lObVRRLTdRckdWdWJBd0hrWEsyXzFzX3h6QkRqdktmaUtjcW5xNDdzSGZWcC05NlAyNF9xRzY2Xy03R01PYVVxMXk4UVhxZm5JTS1lbkZaX29PcllIajd1WFVnR3RYVEtpaGQwZFVVTnpBQ0N2ZGNDZ2VFbzROam9YN3VZVWl2czlKZHBGaHZMdUpjLTF4UnNOX3RpNS04bnFmd005TkhPTEVUUDJUR0NaRUxwNG5TYlQ0VTdyRnZrRWxQM0hGZmhLUHdvdThxN0NMUHRSNjlVbWdmTVItTFFVRGRxWTZuOHRic3ZwQWEzZk94clpDVTJBMG5DVGxjVGE2ODVBdVNZS0ZMVXhpcWlNQjhjQUxGRjQzWGhyb21JbFhXQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 290
     }
   ],
   "sourceStatuses": [
