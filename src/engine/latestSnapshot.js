@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 294,
+  "updateSequence": 295,
   "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T21:54:54.761Z",
+  "lastSyncedAt": "2026-04-21T22:52:01.689Z",
   "warDay": 53,
-  "summary": "A fragile ceasefire in the Iran war, recently extended by President Trump, faces uncertainty and accusations of violations from both sides as regional conflicts persist.",
+  "summary": "A fragile ceasefire between the U.S. and Iran has been extended indefinitely amidst ongoing peace talks, while regional conflicts persist and concerns rise over U.S. military resource depletion.",
   "lastNarrativeUpdate": "2026-04-21",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 20,
-    "summary": "A ceasefire, recently extended by President Trump, remains in effect but is highly fragile amidst accusations of violations from both sides and ongoing regional conflicts."
+    "durationDays": 14,
+    "summary": "The ceasefire between the U.S. and Iran has been extended indefinitely by President Trump, though peace talks remain in limbo and regional breaches by Hezbollah threaten its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 62,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 21",
-      "text": "Uncertainty surrounds U.S.-Iran talks as a cease-fire nears its end, despite President Trump's extension.",
-      "severity": "warning",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline, later extended indefinitely.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 295
+    },
+    {
+      "date": "Apr 21",
+      "text": "Trump extends ceasefire indefinitely with peace talks in limbo, following earlier uncertainty.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 294
+      "latestSinceUpdate": 295
     },
     {
       "date": "Apr 21",
-      "text": "President Trump extended the ceasefire, citing a 'seriously fractured' Iranian government and ongoing Pakistan talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 294
-    },
-    {
-      "date": "Apr 21",
-      "text": "Iran is experiencing mass redundancies due to the ongoing war with the US and Israel.",
+      "text": "Hezbollah fires at Israel, citing truce breaches, indicating ongoing conflict in Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0zSHZ5XzJ3d0Z4R1A4MUE0aktIR0pSUE5QbFQ2a2lTa1laTFlVT1VRdzJjZ3JYVDBFTW5RSUZkSk53QkF4czBYR2VtQ0ppQTc4T3BveEk5VVVkQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 294
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 295
     },
     {
       "date": "Apr 21",
-      "text": "Israeli soldiers were punished following vandalism of a Jesus statue in Lebanon.",
+      "text": "Iran reverses course on reopening Strait of Hormuz, signaling a warning to the US.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQLW5wSUNMeVlUeWpocWZhMXZmOVdkd2Q0VnU5QkFPeGNZZG1kZHRlSF9CODZGSkpraTlIU0l0c19TNzU0TXFWcVJreWJ6OTZtWXFJNExfcDcwb1NoeG5RYWJGQ0FJZTdfUHV2T1RnQ21EOVVLOXJfUWFQemh4VUNwY0JFbi14TFlIcEhKdWtHa245WUtHUTY3ZVE5anI4S3M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 295
+    },
+    {
+      "date": "Apr 21",
+      "text": "Two cruise ships exit Strait of Hormuz after being stranded for weeks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBPVDZrMlZmMHdzMlVReS1CYjBHR2ZiN0FXSFBHT1Nybi1UU0dqYWVVRmZ6YzQ4TkZIVTBzeHNLYV9kUTVuQS1ZckVSQjNHcmJSRkJiUExCLVE2Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 294
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 295
     },
     {
       "date": "Apr 21",
-      "text": "Tehran accuses the US of violating the ceasefire in a defiant message as the deadline approaches.",
+      "text": "Analysis suggests US military used up nearly half of Patriot missiles during Iran war operations.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPMHktWWNfVGpzRU93cFZXVWdfVkEweldpVW5yOG9nZlQ0aGxZb2JFNDN6eGNUa0VwRTF4Y1lRZkhZQ1JlS0V1c0J2c01sY2hVVmNRUFlJaHlUUGtfRUxLakhBZU1QcWFDVHE0ZzZVamdoaG9wbFhPX2lfSUo1M1dxZTFUSTdMcGw5aVNKWDRZeVdfVV80eDMwUHRHTUtVMjlLcUtyWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 294
-    },
-    {
-      "date": "Apr 21",
-      "text": "Two cruise ships exited the Strait of Hormuz after being stranded for several weeks.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 294
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQZEJWbWVsNGdsMHRuRnBPM2RzdGUzTnpiZzF3T0VxeDlDdDJ0N1hiTFYyTi1VdzdQVGVmSDJSbjJuOC14QlVwU3dteUhfSkp3RE9uUXZLS0tQOXhNXzJpWHVPYUp0VVZBRFh1WU5tRWRfUVdhcHNaWGRIbGlJdGJKMkxKamlLd9IBiwFBVV95cUxOdC1GV0x3SHhyc0NYQmpzOVJ0YUQ2R05XYjhmMENtOWhuakxmUjlZanNQSFp4Q1BORG5EU3ItUWhlQW8taWxoaUdqOTdmUVQ3MUl3Z2dpcGFyVFVTcm5jRDJQVDRjdzUwVGtJMTBBTlNnaEw3WGFHYjdVdG9yclRwSlE5akdDRDcyVHdv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 295
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
