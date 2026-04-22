@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 298,
+  "updateSequence": 299,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T03:36:37.043Z",
+  "lastSyncedAt": "2026-04-22T05:50:58.376Z",
   "warDay": 54,
-  "summary": "A fragile ceasefire has been extended by the US amid ongoing talks with Iran, while tensions remain high due to claims of a Strait of Hormuz blockade and continued skirmishes involving Hezbollah.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-22",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire has been extended by the US, but it remains fragile with reported breaches and ongoing talks in limbo."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 22",
-      "text": "US-Iran talks face uncertainty as a ceasefire nears its original end.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 298
+      "text": "Live updates: Trump says he will extend ceasefire with Iran until negotiations conclude",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE0ydnNDeWV0MjE0RUFOUk9UTDhFMVBZNDFNNTlqTjBSYlRhZkQ5czEwQVFib0duSFpReVRBTnVQQURrUGQ1dWRYX3dhSG85U2c5c1RaY3NxRkljamJPWW9MSm1Za25lMnIwU1dheDg0MHc5U2RVTXlpckkyWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 299
     },
     {
       "date": "Apr 22",
-      "text": "Iran is experiencing mass redundancies due to the ongoing conflict with the US and Israel.",
+      "text": "Iran War Live Updates: Uncertainty Surrounds U.S.-Iran Talks as Cease-Fire Nears End",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9XcGd5TXRPYXNZYU5GVURhaS1fVmVaQVcybS1HSzlsVVRqbE9hbFVWTHBERVNvUG1NR0h1TE9LaUpnOG5HSEM5dzYyVTFXZlZlOXViV01EYnpTUlBSVE4xU3hESGtRQ1FER1BhdkFqbXBwdkJTcFg4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 299
+    },
+    {
+      "date": "Apr 22",
+      "text": "Iran war live: Trump says ceasefire extended as talks with Tehran in limbo",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 299
+    },
+    {
+      "date": "Apr 22",
+      "text": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 299
+    },
+    {
+      "date": "Apr 22",
+      "text": "Iran sees mass redundancies from war with US and Israel",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0zSHZ5XzJ3d0Z4R1A4MUE0aktIR0pSUE5QbFQ2a2lTa1laTFlVT1VRdzJjZ3JYVDBFTW5RSUZkSk53QkF4czBYR2VtQ0ppQTc4T3BveEk5VVVkQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 298
+      "latestSinceUpdate": 299
     },
     {
       "date": "Apr 22",
-      "text": "President Trump announced an extension of the ceasefire with Iran to allow negotiations to conclude.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 298
-    },
-    {
-      "date": "Apr 22",
-      "text": "Four scenarios are being discussed for the Iran-US conflict as peace talks stumble.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNY0NSOXJGM25oWlBxa3ppcTlNbnNNRHRXWGpmNW83S2FwMG1Hd1B3SUQ1NldmRUJjRldmdGhBOGpBa19HdXBHTklzVXBpaXF2UkthNk1xYmVXcTE2cWRnZWI1MVN4dU5icXU1VUs3d1FibGFmWkxnYTFqTFdQbHJCamVwWFRHQ1NnV29rUElfLWNlWWJBZEF3bUpaU3Rja0xz0gGmAUFVX3lxTE9aWE9kVDRsUUJHRDB1V1NiVF9ycGhPaDdsUk5LNmJIbzZRTnJqeWF1TDJNODZDWXoyWXNjRFlmeUV3WXFXRTltZmh3ZC0tYkpLUTFrZkZIMXFuY3QtbjFZV2NJYWRoc2ctTDNZbndPVjVtZEl2Y1lISDVvWkN2dVhQd0tIZ09TOTZLS2drcXo1WllrbjNtWXBDS3NOQnI3elo1NkdIa0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 298
-    },
-    {
-      "date": "Apr 22",
-      "text": "Israeli soldiers were punished for vandalism of a Jesus statue in Lebanon.",
+      "text": "Israeli soldiers punished over vandalism of Jesus statue in Lebanon",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBPVDZrMlZmMHdzMlVReS1CYjBHR2ZiN0FXSFBHT1Nybi1UU0dqYWVVRmZ6YzQ4TkZIVTBzeHNLYV9kUTVuQS1ZckVSQjNHcmJSRkJiUExCLVE2Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 298
-    },
-    {
-      "date": "Apr 22",
-      "text": "President Trump claims the Strait of Hormuz is 'totally' blockaded amidst the extended ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 298
+      "latestSinceUpdate": 299
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
