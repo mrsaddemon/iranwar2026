@@ -1,13 +1,13 @@
 {
-  "updateSequence": 296,
-  "lastUpdated": "2026-04-21",
-  "lastSyncedAt": "2026-04-21T23:24:13.729Z",
-  "warDay": 53,
+  "updateSequence": 297,
+  "lastUpdated": "2026-04-22",
+  "lastSyncedAt": "2026-04-22T00:04:07.098Z",
+  "warDay": 54,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "An indefinitely extended ceasefire between the US and Iran is active but frequently tested by accusations of violations and ongoing regional skirmishes."
+    "summary": "President Trump has unilaterally extended the ceasefire indefinitely, but its stability is undermined by ongoing regional hostilities and stalled peace talks."
   }
 }
