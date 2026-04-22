@@ -1,13 +1,13 @@
 {
-  "updateSequence": 300,
+  "updateSequence": 301,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T07:15:07.300Z",
+  "lastSyncedAt": "2026-04-22T08:59:32.223Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 8,
-    "summary": "A ceasefire has been extended by the US, but its stability is undermined by ongoing talks, regional breaches, and maritime incidents."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

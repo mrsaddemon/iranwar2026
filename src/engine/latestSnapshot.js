@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 300,
+  "updateSequence": 301,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T07:15:07.300Z",
+  "lastSyncedAt": "2026-04-22T08:59:32.223Z",
   "warDay": 54,
-  "summary": "A fragile ceasefire between the US and Iran has been extended amidst ongoing talks, regional breaches, and maritime incidents in the Strait of Hormuz, while economic impacts and military resource concerns persist.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-22",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 8,
-    "summary": "A ceasefire has been extended by the US, but its stability is undermined by ongoing talks, regional breaches, and maritime incidents."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 22",
-      "text": "US extends ceasefire with Iran, awaiting a proposal amidst stumbling talks.",
+      "text": "Iran-US war: Four scenarios for what’s next as talks stumble",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 300
-    },
-    {
-      "date": "Apr 22",
-      "text": "Iran fires on a container ship in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 300
-    },
-    {
-      "date": "Apr 22",
-      "text": "US forces detain Iran-linked tanker Tifani, impacting ceasefire talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOaHRKV3pQakRGaFNwcFdnNzBYRGhaa1hkOWs3Qld3MXUtUFB5UXdDa2NhX2MyZmtUZVlRTUtETzg5Nms2Nl91Z1hBNjFRSFp0YUxOV1FWckU3WW1CRy1YNU92MTRnemE2Zlc1Z1R2T1VxUEptcXpTejNkTkozb3I5NWE2U0dXRUhaSkx0bmliVnUycDFYSWlVZV85a1g5LW1MRlVmRkhTcktKSGhtSnM5NzJR0gG3AUFVX3lxTE1SRkdZczgtd3B2MDJGSFJOUWtER1drNV9wOE14MklzMGx6eE1Hb25QYkpQXy1yVUNUczhURENLdzM4aXN0dHU2ZDZ3dTluMTlIZkpRV2FfcW83NWRMVDNTR3dzNXgweDZLUGFIc1dLNHAxLVdjbE1tcE5yNmd4bDVwX2Y1dWVXSmN5T3NPYkhZSFlUNWlDWnhzNjJkSW9fUXdycXlrMEZGSEJ2UldDTXZTMWxoaWkyWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNY0NSOXJGM25oWlBxa3ppcTlNbnNNRHRXWGpmNW83S2FwMG1Hd1B3SUQ1NldmRUJjRldmdGhBOGpBa19HdXBHTklzVXBpaXF2UkthNk1xYmVXcTE2cWRnZWI1MVN4dU5icXU1VUs3d1FibGFmWkxnYTFqTFdQbHJCamVwWFRHQ1NnV29rUElfLWNlWWJBZEF3bUpaU3Rja0xz0gGmAUFVX3lxTE9aWE9kVDRsUUJHRDB1V1NiVF9ycGhPaDdsUk5LNmJIbzZRTnJqeWF1TDJNODZDWXoyWXNjRFlmeUV3WXFXRTltZmh3ZC0tYkpLUTFrZkZIMXFuY3QtbjFZV2NJYWRoc2ctTDNZbndPVjVtZEl2Y1lISDVvWkN2dVhQd0tIZ09TOTZLS2drcXo1WllrbjNtWXBDS3NOQnI3elo1NkdIa0E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 300
+      "latestSinceUpdate": 301
     },
     {
       "date": "Apr 22",
-      "text": "Hezbollah fires at Israel, citing truce breaches.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 300
+      "text": "2 ships attacked in Strait of Hormuz, Britain says, tangling efforts to end US-Iran war",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 301
     },
     {
       "date": "Apr 22",
-      "text": "Concerns raised over US military's missile depletion from Iran operations.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 300
+      "text": "Live updates: Trump says he will extend ceasefire with Iran until negotiations conclude",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE0ydnNDeWV0MjE0RUFOUk9UTDhFMVBZNDFNNTlqTjBSYlRhZkQ5czEwQVFib0duSFpReVRBTnVQQURrUGQ1dWRYX3dhSG85U2c5c1RaY3NxRkljamJPWW9MSm1Za25lMnIwU1dheDg0MHc5U2RVTXlpckkyWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 301
     },
     {
       "date": "Apr 22",
-      "text": "Iran faces mass redundancies due to the ongoing war with US and Israel.",
+      "text": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 301
+    },
+    {
+      "date": "Apr 22",
+      "text": "Iran sees mass redundancies from war with US and Israel",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0zSHZ5XzJ3d0Z4R1A4MUE0aktIR0pSUE5QbFQ2a2lTa1laTFlVT1VRdzJjZ3JYVDBFTW5RSUZkSk53QkF4czBYR2VtQ0ppQTc4T3BveEk5VVVkQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 300
+      "latestSinceUpdate": 301
+    },
+    {
+      "date": "Apr 22",
+      "text": "Israeli soldiers punished over vandalism of Jesus statue in Lebanon",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBPVDZrMlZmMHdzMlVReS1CYjBHR2ZiN0FXSFBHT1Nybi1UU0dqYWVVRmZ6YzQ4TkZIVTBzeHNLYV9kUTVuQS1ZckVSQjNHcmJSRkJiUExCLVE2Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 301
     }
   ],
   "sourceStatuses": [
