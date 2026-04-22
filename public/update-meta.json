@@ -1,13 +1,13 @@
 {
-  "updateSequence": 309,
+  "updateSequence": 310,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T19:41:34.986Z",
+  "lastSyncedAt": "2026-04-22T20:38:04.341Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 8,
-    "summary": "A ceasefire extended by the US was immediately undermined by Iran's seizure of ships and rejection of negotiations, alongside continued Israel-Hezbollah conflict."
+    "durationDays": 7,
+    "summary": "The US has extended a ceasefire with Iran, but Iran expresses reluctance to negotiate, and Hezbollah has violated truce terms with Israel."
   }
 }
