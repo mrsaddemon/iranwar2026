@@ -1,13 +1,13 @@
 {
-  "updateSequence": 310,
+  "updateSequence": 311,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T20:38:04.341Z",
+  "lastSyncedAt": "2026-04-22T21:39:06.371Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "The US has extended a ceasefire with Iran, but Iran expresses reluctance to negotiate, and Hezbollah has violated truce terms with Israel."
+    "summary": "The US has extended a ceasefire with Iran, but Iran has stated no immediate intention to negotiate and has seized ships in the Strait of Hormuz."
   }
 }

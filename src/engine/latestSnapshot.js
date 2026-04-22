@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 310,
+  "updateSequence": 311,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T20:38:04.341Z",
+  "lastSyncedAt": "2026-04-22T21:39:06.371Z",
   "warDay": 54,
-  "summary": "A fragile ceasefire between the US and Iran is in effect amid ongoing Strait of Hormuz incidents and intensified Israeli attacks on Lebanon, while Iran expresses reluctance to negotiate.",
+  "summary": "The US has extended a ceasefire with Iran, but Iran has seized ships in the Strait of Hormuz while Israel's conflict with Hezbollah in Lebanon continues to intensify.",
   "lastNarrativeUpdate": "2026-04-22",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "The US has extended a ceasefire with Iran, but Iran expresses reluctance to negotiate, and Hezbollah has violated truce terms with Israel."
+    "summary": "The US has extended a ceasefire with Iran, but Iran has stated no immediate intention to negotiate and has seized ships in the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
@@ -18,13 +18,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 80,
     "tradeImpact": 58,
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 22",
-      "text": "Trump announces extension of ceasefire with Iran, awaiting a proposal.",
+      "text": "US extends ceasefire with Iran while awaiting a proposal.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 310
+      "latestSinceUpdate": 311
     },
     {
       "date": "Apr 22",
-      "text": "Iranian minister states no intention of negotiating with the US for now, citing obstacles.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 310
-    },
-    {
-      "date": "Apr 22",
-      "text": "Iran claims seizure of two ships in the Strait of Hormuz after attacks.",
+      "text": "Iranian forces claim to seize two ships near the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPUTdJWGw0MnB0amZkdDE2aXVJckZnRlFYd0xfa3RYc2dmTHNFWXVLLWdRb0Nld2otX2tFc0dTclBJdFpYMEtPbnltRXREUV9jdVhTa01lMXl3Rzl2MFV5T29xOWR4b0l0SGpvTzROcWRzZFhpdjNVS0xNMDZjbGI4WXpGZW1USEdKQU9rSG80OWo1bjV0UnJLckh0ZlZPVTVLa2FNcjZmNmtzUEpydmFN0gG0AUFVX3lxTE1tc3Qxd1ZDQnhhcXU0TEs3aFB2aGZMVmhZRzQ2aGU4MkpTTG04YnU5QUpEbG9rTjhFOVBOTm5IMDFWaURnMHhWVXR1R1NSc2xEbktZRXpycUlOcVV1eEVkVEZSdVhneFNSdWF1dWZzWV9mTzlZQnEwa0tmX3hBUFZCWm5zb0dzMTZVbHkzQ09rVGM5dm5ocWc3ZEhtMFlHMTY2RXBuMVJNOXBmbWI1OXk5bFNnSw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 310
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 311
     },
     {
       "date": "Apr 22",
-      "text": "Hezbollah fires at Israel, citing breaches of the truce.",
+      "text": "Israel's attacks intensify on Lebanon, and Hezbollah fires at Israel citing truce breaches.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 310
+      "latestSinceUpdate": 311
     },
     {
       "date": "Apr 22",
-      "text": "Israel's attacks intensify on Lebanon, with the war reportedly not stopped.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOSmFSSXN4Zk1HYWtoTEVIX3o4YjB5dkhvVFd6R1hsVEdobXN4RVdOenlEcnJwQTBJX0lBYm83eXh5S3RZNFd4WXB2MUhWMFUySTRWRHFQTlRrbl9TZEVfV0p3SGZycTRaNXAtS0JSZGZmc0RxU25Ib2tCaVJ0TnU4dmh5Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New Yorker",
-      "latestSinceUpdate": 310
-    },
-    {
-      "date": "Apr 22",
-      "text": "U.S. Military stops and boards M/T Tifani, a tanker carrying Iranian oil.",
+      "text": "Pentagon accused of erasing wounded US troops from Iran War casualty list.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 310
+      "latestSinceUpdate": 311
+    },
+    {
+      "date": "Apr 22",
+      "text": "US military faces risk of running out of missiles after depleting stockpiles in Iran operations.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9iZFQ5Rmh6S1VUWE5VbTUyXzNLSUgzMmJQT2Q1QmNQMzZrUmRuczBLSS1fUjV4SnZvY3hNT1pvQXJEUzhHT01BRVBBcFA5bC1nNWJtbGlXWlUycnRIakZQX1VzRldSemlkaGJYWWVtTW5HSlV5UklNVg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 311
     }
   ],
   "sourceStatuses": [
