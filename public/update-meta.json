@@ -1,13 +1,13 @@
 {
-  "updateSequence": 297,
+  "updateSequence": 298,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T00:04:07.098Z",
+  "lastSyncedAt": "2026-04-22T03:36:37.043Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "President Trump has unilaterally extended the ceasefire indefinitely, but its stability is undermined by ongoing regional hostilities and stalled peace talks."
+    "durationDays": 10,
+    "summary": "A ceasefire has been extended by the US, but it remains fragile with reported breaches and ongoing talks in limbo."
   }
 }
