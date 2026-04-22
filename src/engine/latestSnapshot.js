@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 301,
+  "updateSequence": 302,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T08:59:32.223Z",
+  "lastSyncedAt": "2026-04-22T10:25:39.740Z",
   "warDay": 54,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-22",
@@ -68,11 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 22",
-      "text": "2 ships attacked in Strait of Hormuz, Britain says, tangling efforts to end US-Iran war",
+      "text": "Trump says US is extending ceasefire while awaiting proposal from Iran",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 301
+      "latestSinceUpdate": 302
     },
     {
       "date": "Apr 22",
