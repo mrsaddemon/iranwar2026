@@ -1,13 +1,13 @@
 {
-  "updateSequence": 311,
+  "updateSequence": 312,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T21:39:06.371Z",
+  "lastSyncedAt": "2026-04-22T22:34:16.166Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "The US has extended a ceasefire with Iran, but Iran has stated no immediate intention to negotiate and has seized ships in the Strait of Hormuz."
+    "summary": "A US-Iran ceasefire has been indefinitely extended by the US, but its fragility is evident with Iranian ship seizures and continued Israel-Hezbollah clashes."
   }
 }

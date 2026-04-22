@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 311,
+  "updateSequence": 312,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T21:39:06.371Z",
+  "lastSyncedAt": "2026-04-22T22:34:16.166Z",
   "warDay": 54,
-  "summary": "The US has extended a ceasefire with Iran, but Iran has seized ships in the Strait of Hormuz while Israel's conflict with Hezbollah in Lebanon continues to intensify.",
+  "summary": "The US has extended a ceasefire with Iran, which has been seizing ships in the Strait of Hormuz, while Israel and Hezbollah continue to exchange fire in Lebanon.",
   "lastNarrativeUpdate": "2026-04-22",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "The US has extended a ceasefire with Iran, but Iran has stated no immediate intention to negotiate and has seized ships in the Strait of Hormuz."
+    "summary": "A US-Iran ceasefire has been indefinitely extended by the US, but its fragility is evident with Iranian ship seizures and continued Israel-Hezbollah clashes."
   },
   "actorOverrides": {
     "usa": {
@@ -19,12 +19,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.5
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 80,
     "tradeImpact": 58,
@@ -68,41 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 22",
-      "text": "Iranian forces claim to seize two ships near the Strait of Hormuz.",
+      "text": "Iran attacks and seizes multiple ships in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 311
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE4yUGdXbE8zSkVySHV4NTlFTFVQVU1JSHNXaU9KTmlSX2w0Qnd6cGV0eXI2dU9PUXdJZ245M3ItUl9vbGdUYm5UZG9pZTE5bXJHSGwxWkpxaVFYTGJfS3dBSkxjaG12bjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 312
     },
     {
       "date": "Apr 22",
-      "text": "Israel's attacks intensify on Lebanon, and Hezbollah fires at Israel citing truce breaches.",
+      "text": "White House downplays Iranian strikes near the Strait of Hormuz, not viewing ship seizures as ceasefire violation.",
       "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 312
+    },
+    {
+      "date": "Apr 22",
+      "text": "Pentagon accused of erasing wounded U.S. troops from Iran War casualty list.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 312
+    },
+    {
+      "date": "Apr 22",
+      "text": "Israel intensifies attacks on Lebanon, while Hezbollah fires at Israel citing truce breaches.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 311
+      "latestSinceUpdate": 312
     },
     {
       "date": "Apr 22",
-      "text": "Pentagon accused of erasing wounded US troops from Iran War casualty list.",
+      "text": "Thousands more U.S. forces head for the Middle East.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 311
-    },
-    {
-      "date": "Apr 22",
-      "text": "US military faces risk of running out of missiles after depleting stockpiles in Iran operations.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9iZFQ5Rmh6S1VUWE5VbTUyXzNLSUgzMmJQT2Q1QmNQMzZrUmRuczBLSS1fUjV4SnZvY3hNT1pvQXJEUzhHT01BRVBBcFA5bC1nNWJtbGlXWlUycnRIakZQX1VzRldSemlkaGJYWWVtTW5HSlV5UklNVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 311
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPUTdJWGw0MnB0amZkdDE2aXVJckZnRlFYd0xfa3RYc2dmTHNFWXVLLWdRb0Nld2otX2tFc0dTclBJdFpYMEtPbnltRXREUV9jdVhTa01lMXl3Rzl2MFV5T29xOWR4b0l0SGpvTzROcWRzZFhpdjNVS0xNMDZjbGI4WXpGZW1USEdKQU9rSG80OWo1bjV0UnJLckh0ZlZPVTVLa2FNcjZmNmtzUEpydmFN0gG0AUFVX3lxTE1tc3Qxd1ZDQnhhcXU0TEs3aFB2aGZMVmhZRzQ2aGU4MkpTTG04YnU5QUpEbG9rTjhFOVBOTm5IMDFWaURnMHhWVXR1R1NSc2xEbktZRXpycUlOcVV1eEVkVEZSdVhneFNSdWF1dWZzWV9mTzlZQnEwa0tmX3hBUFZCWm5zb0dzMTZVbHkzQ09rVGM5dm5ocWc3ZEhtMFlHMTY2RXBuMVJNOXBmbWI1OXk5bFNnSw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 312
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
