@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 306,
+  "updateSequence": 307,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T15:53:04.580Z",
+  "lastSyncedAt": "2026-04-22T17:12:23.116Z",
   "warDay": 54,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-22",
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 22",
-      "text": "Iran-US war: Four scenarios for what’s next as talks stumble",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNY0NSOXJGM25oWlBxa3ppcTlNbnNNRHRXWGpmNW83S2FwMG1Hd1B3SUQ1NldmRUJjRldmdGhBOGpBa19HdXBHTklzVXBpaXF2UkthNk1xYmVXcTE2cWRnZWI1MVN4dU5icXU1VUs3d1FibGFmWkxnYTFqTFdQbHJCamVwWFRHQ1NnV29rUElfLWNlWWJBZEF3bUpaU3Rja0xz0gGmAUFVX3lxTE9aWE9kVDRsUUJHRDB1V1NiVF9ycGhPaDdsUk5LNmJIbzZRTnJqeWF1TDJNODZDWXoyWXNjRFlmeUV3WXFXRTltZmh3ZC0tYkpLUTFrZkZIMXFuY3QtbjFZV2NJYWRoc2ctTDNZbndPVjVtZEl2Y1lISDVvWkN2dVhQd0tIZ09TOTZLS2drcXo1WllrbjNtWXBDS3NOQnI3elo1NkdIa0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 305
-    },
-    {
-      "date": "Apr 22",
       "text": "Trump says US is extending ceasefire while awaiting proposal from Iran",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?hl=en-US&gl=US&ceid=US:en",
@@ -76,19 +68,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 22",
-      "text": "The Iran War Sent Shock Waves Through Asia That Are Likely to Spread",
+      "text": "Iran-US war: Four scenarios for what’s next as talks stumble",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPbDJDd2RDVWdIMUpoeUFHaGxxcXdBWWJCc2ZIR29WMWhXUUZURUVEM2dtWUN0R0xYYTNpUC1IRUlSSG43bFVSUFRUZnk5SDBwTFNIVlRacURCSUFWQzJRQzV3dWVOSGZJMjNoaW5NWXlPYUFSdmNmVlczeDM3OC1vM2V3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 306
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNY0NSOXJGM25oWlBxa3ppcTlNbnNNRHRXWGpmNW83S2FwMG1Hd1B3SUQ1NldmRUJjRldmdGhBOGpBa19HdXBHTklzVXBpaXF2UkthNk1xYmVXcTE2cWRnZWI1MVN4dU5icXU1VUs3d1FibGFmWkxnYTFqTFdQbHJCamVwWFRHQ1NnV29rUElfLWNlWWJBZEF3bUpaU3Rja0xz0gGmAUFVX3lxTE9aWE9kVDRsUUJHRDB1V1NiVF9ycGhPaDdsUk5LNmJIbzZRTnJqeWF1TDJNODZDWXoyWXNjRFlmeUV3WXFXRTltZmh3ZC0tYkpLUTFrZkZIMXFuY3QtbjFZV2NJYWRoc2ctTDNZbndPVjVtZEl2Y1lISDVvWkN2dVhQd0tIZ09TOTZLS2drcXo1WllrbjNtWXBDS3NOQnI3elo1NkdIa0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 305
     },
     {
       "date": "Apr 22",
-      "text": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government",
+      "text": "Live updates: Trump says he will extend ceasefire with Iran until negotiations conclude",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 306
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE0ydnNDeWV0MjE0RUFOUk9UTDhFMVBZNDFNNTlqTjBSYlRhZkQ5czEwQVFib0duSFpReVRBTnVQQURrUGQ1dWRYX3dhSG85U2c5c1RaY3NxRkljamJPWW9MSm1Za25lMnIwU1dheDg0MHc5U2RVTXlpckkyWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 307
+    },
+    {
+      "date": "Apr 22",
+      "text": "Iran War Live Updates: Uncertainty Surrounds U.S.-Iran Talks as Cease-Fire Nears End",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9XcGd5TXRPYXNZYU5GVURhaS1fVmVaQVcybS1HSzlsVVRqbE9hbFVWTHBERVNvUG1NR0h1TE9LaUpnOG5HSEM5dzYyVTFXZlZlOXViV01EYnpTUlBSVE4xU3hESGtRQ1FER1BhdkFqbXBwdkJTcFg4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 307
     },
     {
       "date": "Apr 22",
