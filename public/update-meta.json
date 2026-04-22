@@ -1,13 +1,13 @@
 {
-  "updateSequence": 308,
+  "updateSequence": 309,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T18:15:00.684Z",
+  "lastSyncedAt": "2026-04-22T19:41:34.986Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 8,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire extended by the US was immediately undermined by Iran's seizure of ships and rejection of negotiations, alongside continued Israel-Hezbollah conflict."
   }
 }
