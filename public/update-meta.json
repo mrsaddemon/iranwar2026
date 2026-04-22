@@ -1,13 +1,13 @@
 {
-  "updateSequence": 303,
+  "updateSequence": 304,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T11:41:14.231Z",
+  "lastSyncedAt": "2026-04-22T12:48:13.225Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 8,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The US has extended a ceasefire with Iran, but Iran's seizure of ships and Hezbollah's actions indicate significant fragility and breaches."
   }
 }
