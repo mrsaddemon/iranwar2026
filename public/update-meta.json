@@ -1,13 +1,13 @@
 {
-  "updateSequence": 312,
+  "updateSequence": 313,
   "lastUpdated": "2026-04-22",
-  "lastSyncedAt": "2026-04-22T22:34:16.166Z",
+  "lastSyncedAt": "2026-04-22T23:29:30.688Z",
   "warDay": 54,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A US-Iran ceasefire has been indefinitely extended by the US, but its fragility is evident with Iranian ship seizures and continued Israel-Hezbollah clashes."
+    "summary": "A US-extended ceasefire faces uncertainty and is undermined by Iran's rejection of negotiations and military actions, alongside Hezbollah's continued engagement."
   }
 }
