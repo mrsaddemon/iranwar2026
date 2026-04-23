@@ -1,13 +1,13 @@
 {
-  "updateSequence": 315,
+  "updateSequence": 316,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T04:24:58.187Z",
+  "lastSyncedAt": "2026-04-23T06:26:33.368Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in effect, extended by Trump, but is frequently violated by actions in the Strait of Hormuz and Lebanon."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
