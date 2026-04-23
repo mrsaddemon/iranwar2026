@@ -1,13 +1,13 @@
 {
-  "updateSequence": 322,
+  "updateSequence": 323,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T16:11:59.042Z",
+  "lastSyncedAt": "2026-04-23T17:49:10.040Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is undermined by ongoing U.S. threats in the Strait of Hormuz and continued conflict between Israel and Hezbollah."
+    "confidence": 0.93,
+    "durationDays": 10,
+    "summary": "A ceasefire between Israel and Hezbollah is under strain due to recent breaches, with talks scheduled to discuss its extension."
   }
 }

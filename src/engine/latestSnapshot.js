@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 322,
+  "updateSequence": 323,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T16:11:59.042Z",
+  "lastSyncedAt": "2026-04-23T17:49:10.040Z",
   "warDay": 55,
-  "summary": "Tensions remain critically high in the Middle East with U.S. and Israeli military actions against Iran and Hezbollah, despite a fragile 2-week ceasefire between the U.S. and Iran.",
+  "summary": "The US President has issued a 'shoot and kill' order against Iranian boats in the Strait of Hormuz amidst ship seizures and increased Israeli attacks in Lebanon, while a ceasefire between Israel and Hezbollah remains fragile.",
   "lastNarrativeUpdate": "2026-04-23",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is undermined by ongoing U.S. threats in the Strait of Hormuz and continued conflict between Israel and Hezbollah."
+    "confidence": 0.93,
+    "durationDays": 10,
+    "summary": "A ceasefire between Israel and Hezbollah is under strain due to recent breaches, with talks scheduled to discuss its extension."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 22",
-      "text": "Israel's attacks in Lebanon increase, while ships are seized in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 322
-    },
-    {
-      "date": "Apr 22",
-      "text": "U.S. President Trump orders the military to 'shoot and kill' Iranian small boats in the Strait of Hormuz if they are choking the strait or laying mines.",
+      "date": "Apr 23",
+      "text": "Trump orders US military to 'shoot and kill' Iranian small boats choking Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXBlLTVXMlZ6UndIRnVWSmxRVWl5WVFCbXZFVndYeEh1eFcwUGFod2p6M3pFMnNBUlhfM0hPNG9sNHRSbzVaYkdqdEF3M000VmQ1bW1aQjYxYWVTYUpxdDY1TGhsTUU3clJvMWVIeV9GTXgwWHVjQWNKdzVQN081YjVuSnZ3VkVLbWxETVNieGpfZlZqM0hCVDVpUWlMeXZUc05hVnFlUFg4TWIyOVdaZ3h2c0dMSlVScGhYSzZPeGPSAcYBQVVfeXFMUEJ2NWdVcWJlclgtZGdkR0ktY0ZTWDhPb0NZN0ZfdzA1TnlUWWI5UjVWZGJTY0RyWUhXWlNLb2FXeGZNVVNxSTM2RHZiVFBJYloyWkJxTU1NRldaUUVoMDNDOVNualVXTDB6M1NfWThmMmxWeVd0SDNoQm9NdW1kMDdkQlNOSy1wTk9SYXVjWGZEVE1ocm1WZlRrU29ORk1fd2M0b2IzTVJlbWFSN3pKamlwRENGa2pDX3NxYmxhSmF6S05SaDdR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 322
+      "latestSinceUpdate": 323
     },
     {
-      "date": "Apr 22",
-      "text": "The U.S. and Iran reach a 2-week ceasefire agreement.",
+      "date": "Apr 23",
+      "text": "Iran touts video of Strait of Hormuz cargo ship seizures.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNTVRZSHpJQzN6WkV5Y25XdXcxMXR0Q3NMYk1zSFExT08xbkpTTTVGTzkwU08zdXF5ZTlfS3NENTRDejVRbVRNQ3pQeW5Qa0pwZWNjTE9qNlptMFpNdTNPMnlJS2l3WFVmT3NYLS1FVV9DaFNlMmIxMHJGMm42NlN2d3pmMnJkYlUyOUNKUFlEQ1BkRFZvMHFzZ1ZHWFY4aUFSdWd3QnNDRWnSAa4BQVVfeXFMT2pXc0ZJU0M0Y0VTVlRRNDVtTFhwNlpVbE53ZHVaa3VteVpBRm5RZmhZR19BNU5na2kzenkzYmN4N3BjcXRMMDBQNE5ocEJ3SWEtZTRfTjRrTGRQRW9wN2d1RzFuSXFiUmw3cmFONkdKemY1bDZsbmV6QnNrZVpqZEZNWWtVeDRfcWllLUFVQXZuM2tndnFGQm51V1EtQjRDNDdoNkFBVGVnMi1LVHdR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 323
+    },
+    {
+      "date": "Apr 23",
+      "text": "US military intercepts 3 Iranian oil tankers.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOdWJHNHpJSXlQVTNLdnVVbE1WV2Y2TGNQSWF2S2NobnZvM2ZiVHQ5bzJDOEotcXRpZkxlRlRLdHZ3dGFuT2NFSFpDcVRZellac21IM1Jwc2pNTnpLTkxwUlBHR0NZUHc2X2ROUVMtWERITzBueFVPRVNqQktqSlcwbUtvNVp6bjBuQkhiWmEtcl9OcHfSAZgBQVVfeXFMUFRnWGZ5ZXRXazMzT0dqS0VIeUtZcHdMOGptTUdaZEl0UHFlaGlxRmNaVk9FQTRiUjI5UFV6czZQY0pDZE1mRWw1V29TM0ZhbXBHQzFwR0hnNFpocGlPYndLWDBKWUo5TXV0eUtvVHFEb0ZQZExVQnI4MF9PZ281TE5EU3BmSkFFUEpOWmhlbXRCZW15ak54bk8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 323
+    },
+    {
+      "date": "Apr 23",
+      "text": "Israel attacks increase in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 323
+    },
+    {
+      "date": "Apr 23",
+      "text": "Hezbollah fires at Israel, citing truce breaches.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 323
+    },
+    {
+      "date": "Apr 23",
+      "text": "Lebanon and Israel to resume direct talks in Washington to extend Israel-Hezbollah ceasefire.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 322
-    },
-    {
-      "date": "Apr 22",
-      "text": "U.S. forces board another Iran-linked vessel in a series of interdictions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxObGdfTm1RQ2x0YXgza3llZmJqQTNJZ3VVS3NwX3Q2SnNhc1E1aDlQNEdnY3NyeWhROVdEcTVUVExHR25zS1o2N3VCQjJKYWpEdlhwa2NqVl90cHhBQTVscGdvcUNidVgtczAxaW13ZlE3eUotdkVCYTJ0YlozbkdNa2xhVnVXblN4dzFDNVlRLXNWRHfSAZgBQVVfeXFMUF9Ld2dEQ2xINEVlU3phZXdTWXBYQUZZazAydnczR2JQSnJtcWNEdEJWaXU0X2NDUUFxb0pDMzJaWHdvVUFmekFjelEtSHRkYzNkUUxiNm9oTWZ6eWo0SW01aDltT0dFV2RYdHIzdlZZZm4zbEVvSXI2amFtYXdSMlhjT20tZ2pkeG0teXlpSk4wYjNId2UzYnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 322
-    },
-    {
-      "date": "Apr 22",
-      "text": "Israel reveals hundreds of Hezbollah terrorists killed in 24 hours before a ceasefire and unveils new 'game-changing' artillery.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTFBYTHI0V3V2dVMyRV85OXVwbU9tb0d5VVVoUXczT3B0aGFYdXRDeWR1V2ZyYmdoNFlPQ2M0Ujhoa2x1YjYtdXhLd1R6ZldyRkJhcWFlN0o3YkRNbnN3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 322
-    },
-    {
-      "date": "Apr 22",
-      "text": "A top Hezbollah leader rejects disarmament and calls for Israeli withdrawal in a rare interview.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNdHhaNW1PdVJMVjh5S2N1eUJaUHh5aU05elpsb2ZJTVFHa0JMUTJFcUxLTWZnSThETll6RU1EMXYxWGthclFmeWowZjVvRHdzVTJnYy1NT09wYzJybWF6RjZLamRFRnR3YTVjM284N0NrQXQzejlwUlRjWklzNlREZFZhbUstcUFGNEI1YlVoc3VicnlBY0FIczZZSXZBZWhhdVl0eWZWTVdPWDFOSDF2TWpQdkRIZWw1dFB6cmR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 322
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFB1NExRV0RyMjQtTndaemFWRlMwUFpkaUFKZVJZNmthZlB1cjlBMlRXSThpWWtEVF9TdlZBVWE2aHNJQVdtb2w1Q0FCLXRvZGhUdnJfOGk0eXhzTnZqNjFwTEQ5SVY3WnJxU1pJV1B5dVozcUdoQlVn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Boston Herald",
+      "latestSinceUpdate": 323
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
