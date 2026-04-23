@@ -1,13 +1,13 @@
 {
-  "updateSequence": 321,
+  "updateSequence": 322,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T14:15:06.698Z",
+  "lastSyncedAt": "2026-04-23T16:11:59.042Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is undermined by ongoing U.S. threats in the Strait of Hormuz and continued conflict between Israel and Hezbollah."
   }
 }
