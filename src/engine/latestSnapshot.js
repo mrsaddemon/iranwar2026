@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 325,
+  "updateSequence": 326,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T19:57:05.023Z",
+  "lastSyncedAt": "2026-04-23T21:02:08.047Z",
   "warDay": 55,
-  "summary": "Tensions in the Strait of Hormuz have escalated significantly with US orders to engage Iranian boats, Iranian mine deployment and ship seizures, while Israel increases attacks in Lebanon and US-brokered talks aim to extend an Israel-Hezbollah ceasefire.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-23",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A fragile ceasefire between Israel and Hezbollah is active, with US-brokered talks scheduled to discuss its extension amidst ongoing regional tensions."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 45,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 22",
-      "text": "Trump orders US military to 'shoot and kill' Iranian small boats choking Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXBlLTVXMlZ6UndIRnVWSmxRVWl5WVFCbXZFVndYeEh1eFcwUGFod2p6M3pFMnNBUlhfM0hPNG9sNHRSbzVaYkdqdEF3M000VmQ1bW1aQjYxYWVTYUpxdDY1TGhsTUU3clJvMWVIeV9GTXgwWHVjQWNKdzVQN081YjVuSnZ3VkVLbWxETVNieGpfZlZqM0hCVDVpUWlMeXZUc05hVnFlUFg4TWIyOVdaZ3h2c0dMSlVScGhYSzZPeGPSAcYBQVVfeXFMUEJ2NWdVcWJlclgtZGdkR0ktY0ZTWDhPb0NZN0ZfdzA1TnlUWWI5UjVWZGJTY0RyWUhXWlNLb2FXeGZNVVNxSTM2RHZiVFBJYloyWkJxTU1NRldaUUVoMDNDOVNualVXTDB6M1NfWThmMmxWeVd0SDNoQm9NdW1kMDdkQlNOSy1wTk9SYXVjWGZEVE1ocm1WZlRrU29ORk1fd2M0b2IzTVJlbWFSN3pKamlwRENGa2pDX3NxYmxhSmF6S05SaDdR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 325
-    },
-    {
-      "date": "Apr 22",
-      "text": "Iran deploys more mines in the Strait of Hormuz, sources say.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE9WLXBOWTBNaDFNV1ZPMTZwRC1YUTFCY3B2a2NMMkl5WGxGRVlYUjlwOFc3dTJpVHlnNUZ5NXlZeEZ1enlpYThYZWwxNzdCTU1zLXVfUWNtSVlXN1YxR2E4Vi1IQzM4S3Z3ZFZuNV9hdGI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 325
-    },
-    {
-      "date": "Apr 22",
-      "text": "Iran touts video of Strait of Hormuz cargo ship seizures.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNTVRZSHpJQzN6WkV5Y25XdXcxMXR0Q3NMYk1zSFExT08xbkpTTTVGTzkwU08zdXF5ZTlfS3NENTRDejVRbVRNQ3pQeW5Qa0pwZWNjTE9qNlptMFpNdTNPMnlJS2l3WFVmT3NYLS1FVV9DaFNlMmIxMHJGMm42NlN2d3pmMnJkYlUyOUNKUFlEQ1BkRFZvMHFzZ1ZHWFY4aUFSdWd3QnNDRWnSAa4BQVVfeXFMT2pXc0ZJU0M0Y0VTVlRRNDVtTFhwNlpVbE53ZHVaa3VteVpBRm5RZmhZR19BNU5na2kzenkzYmN4N3BjcXRMMDBQNE5ocEJ3SWEtZTRfTjRrTGRQRW9wN2d1RzFuSXFiUmw3cmFONkdKemY1bDZsbmV6QnNrZVpqZEZNWWtVeDRfcWllLUFVQXZuM2tndnFGQm51V1EtQjRDNDdoNkFBVGVnMi1LVHdR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 325
-    },
-    {
-      "date": "Apr 22",
-      "text": "Israel attacks increase in Lebanon.",
-      "severity": "warning",
+      "date": "Apr 23",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 325
+      "latestSinceUpdate": 326
     },
     {
-      "date": "Apr 22",
-      "text": "U.S. forces board another Iran-linked vessel in tit-for-tat series of ship interdictions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxObGdfTm1RQ2x0YXgza3llZmJqQTNJZ3VVS3NwX3Q2SnNhc1E1aDlQNEdnY3NyeWhROVdEcTVUVExHR25zS1o2N3VCQjJKYWpEdlhwa2NqVl90cHhBQTVscGdvcUNidVgtczAxaW13ZlE3eUotdkVCYTJ0YlozbkdNa2xhVnVXblN4dzFDNVlRLXNWRHfSAZgBQVVfeXFMUF9Ld2dEQ2xINEVlU3phZXdTWXBYQUZZazAydnczR2JQSnJtcWNEdEJWaXU0X2NDUUFxb0pDMzJaWHdvVUFmekFjelEtSHRkYzNkUUxiNm9oTWZ6eWo0SW01aDltT0dFV2RYdHIzdlZZZm4zbEVvSXI2amFtYXdSMlhjT20tZ2pkeG0teXlpSk4wYjNId2UzYnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 324
-    },
-    {
-      "date": "Apr 22",
-      "text": "Lebanon and Israel to resume rare direct talks in Washington to extend Israel-Hezbollah ceasefire.",
+      "date": "Apr 23",
+      "text": "Iran Update Special Report, April 22, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPcElwMFBLRWN4TXBSY0g5OUtucl9zUTNXcEhVZ0FESC1sd3c2blJySVU4SXEtWWRkX3Nad2dBNWNJRENDUENDT0ZGNldpVkVqRXBqX3hmV0lDVzM0QWcxRFBsYXZTcnBRMi0zZ0ZOY09rM1VBc29DN3lpZVA1RU0zanpSMFNUN0c2Vm41LVJaVWoyQ0ljYlBKSjJnYW1oaTBUNjdpX0VWTGF3OGpmVFp6S2pxRkVGQUc1VFRsYURRNDZ2VlRyY0p5eEtB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Pittsburgh Post-Gazette",
-      "latestSinceUpdate": 325
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPRVh4ZVdVcU1FVUluVHVlZkdkT1pRWWhmM1U2bDcwN0p6b09Pb2V1UXhTRy1hSXhwdDlneVFYdktzUHY3T3lZX3ZrTEdyOWN1Ynk2dFh5blF4MW0ySFc1Z01tSmdsUlFNMTlkRTJhakV2dEFkZFE2aUY1NXkwb2RsdXU3RkREbVFxdDNEOHBqWFd4YURsU2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 326
+    },
+    {
+      "date": "Apr 23",
+      "text": "Iran War Live Updates: Trump to Host Israel and Lebanon Officials for Talks; Strait of Hormuz Standoff Intensifies",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1VX3dLODlDY3RiRk94UExOYUd6YVVSZU9ibGJkNzBUSmRKUXFLY1NYeG5Ic3pCZHJXdmwxb0ZabkNXQWdkMF9kV2NGYTduRkNleXQ4TkMyRl9YeHhZby14ODhjZEpJZ2UxQ2hSc0hiQTF3bHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 326
+    },
+    {
+      "date": "Apr 23",
+      "text": "Live updates: Trump orders US military to 'shoot and kill' Iranian small boats choking Strait of Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE0tNzNHeS0wUWZqdFM1TGUtQ0x0MkhMakpPMWFJOGtFSjdhSkVIbFNZbVFxZVhyZWUzVFA5aVlPVTRLQnN2TGdMM1FyU2Q1cmZFZUcwYlB2Yk5JVlFKMlB4SHFCRmFmR1U?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 326
+    },
+    {
+      "date": "Apr 23",
+      "text": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 326
+    },
+    {
+      "date": "Apr 23",
+      "text": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Just Security",
+      "latestSinceUpdate": 326
     }
   ],
   "sourceStatuses": [

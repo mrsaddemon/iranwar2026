@@ -1,13 +1,13 @@
 {
-  "updateSequence": 325,
+  "updateSequence": 326,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T19:57:05.023Z",
+  "lastSyncedAt": "2026-04-23T21:02:08.047Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A fragile ceasefire between Israel and Hezbollah is active, with US-brokered talks scheduled to discuss its extension amidst ongoing regional tensions."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
