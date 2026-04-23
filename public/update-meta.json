@@ -1,13 +1,13 @@
 {
-  "updateSequence": 324,
+  "updateSequence": 325,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T18:47:44.812Z",
+  "lastSyncedAt": "2026-04-23T19:57:05.023Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 10,
-    "summary": "A potential ceasefire appears to have collapsed amidst ongoing hostilities and increased military threats."
+    "confidence": 0.93,
+    "durationDays": 7,
+    "summary": "A fragile ceasefire between Israel and Hezbollah is active, with US-brokered talks scheduled to discuss its extension amidst ongoing regional tensions."
   }
 }
