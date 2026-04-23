@@ -1,13 +1,13 @@
 {
-  "updateSequence": 314,
+  "updateSequence": 315,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T01:10:23.182Z",
+  "lastSyncedAt": "2026-04-23T04:24:58.187Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 20,
-    "summary": "A fragile ceasefire, recently extended, is in effect but faces significant challenges from increased attacks and reported breaches by multiple parties."
+    "durationDays": 14,
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect, extended by Trump, but is frequently violated by actions in the Strait of Hormuz and Lebanon."
   }
 }

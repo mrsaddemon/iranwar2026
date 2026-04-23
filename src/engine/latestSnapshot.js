@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 314,
+  "updateSequence": 315,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T01:10:23.182Z",
+  "lastSyncedAt": "2026-04-23T04:24:58.187Z",
   "warDay": 55,
-  "summary": "Amid a fragile ceasefire, Israel has increased attacks in Lebanon, while Iran has seized multiple ships in the Strait of Hormuz, leading to increased US military presence and concerns over missile stockpiles.",
+  "summary": "A fragile two-week ceasefire between the U.S. and Iran is in effect, extended by Trump, despite Iran seizing and attacking ships in the Strait of Hormuz and increased Israeli-Hezbollah clashes in Lebanon.",
   "lastNarrativeUpdate": "2026-04-23",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 20,
-    "summary": "A fragile ceasefire, recently extended, is in effect but faces significant challenges from increased attacks and reported breaches by multiple parties."
+    "durationDays": 14,
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect, extended by Trump, but is frequently violated by actions in the Strait of Hormuz and Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
-      }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 60
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
         "aggression": 0.8
       }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 65
+      },
+      "behavior": {
+        "precision": 0.6,
+        "aggression": 0.8
+      }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 23",
-      "text": "Israel increases attacks in Lebanon against Iran-backed Hezbollah.",
+      "text": "Israel attacks increase in Lebanon amid ongoing conflict with Iran-backed Hezbollah.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 314
+      "latestSinceUpdate": 315
     },
     {
       "date": "Apr 23",
-      "text": "Iranian forces claim to seize two ships near the Strait of Hormuz, with reports of three ships attacked.",
+      "text": "Iran seizes and fires on multiple ships in the Strait of Hormuz, escorting two to its coast.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 314
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5HdTg0YW9GY1M2Tzk5c3F4YV9fWlBiZklFXzJVX1J2ejlJWTBNeHlJYzg4ZjZGV0tFVkNhbUtSbmpnaUM1NURfZnh5YnFTRGZXb1BfSU1aODJ0OUthVjcxRF9uX1pfZV95ejBuS1pWOFJwMzA5eDNlUHpB0gF_QVVfeXFMTzl4Wk5ZLVJWTjE3SEpwelBmLWRFNFdTdTUwSi1SSUUwMWVSQkxwdHdlazFjUTRtRmRFR1JrUWJnQzJGWFFZYWlKcy1sSnltTE1zQlRyOEtHS2hMdFF3M21sVllJUUtvY0JCcDNEODlHU3gtNzNmR2RsYWF2MUI4Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 315
     },
     {
       "date": "Apr 23",
-      "text": "Hezbollah fires at Israel, citing breaches of the existing truce.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOXM2T0JBYzk1V1E0d3VnOEIzYWwxV2hxaURxNVNUVDBIM1Z4OFZDOXlRTDRqdUpNNlloTzFKUkNxd25xR1prblVZTzR0dFAzZzRaakhNRG5laHBBaVg0QjRwUlRkYXJpVEEzUW42cDI0bDl6X2M2aVBoMGlleUo3V29UYmJlNmFtaHZlZ0lpMzA5Ynp2cHh5UUZDYkMwYkNicEc0T0NjemkxaXVOMGlib2NlNUxqS29NRDl4andjU2trdkNx?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 314
-    },
-    {
-      "date": "Apr 23",
-      "text": "Uncertainty surrounds U.S.-Iran talks as a cease-fire nears its end, despite a recent extension by Trump.",
+      "text": "President Trump extends the ceasefire with Iran, citing a 'seriously fractured' Iranian government.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 314
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxcUI4ZEx0Q1VjMXpqOVFjeFdobW43R3hIOXh1dmNwRC1HSENCTG5qTHF1WDNwcHFVTHVxa0Qwa1NTM0ExTGlUMmtXQXZOOTc2Q3ViWnh0ZHZ6VVRrMG5EcjJza2QwaEZkTWxNdFR30gFzQVVfeXFMTlduWS1aVzVjNzYxNm1jUFdFYnFmUkV5bDF4SFJEVi1lQmVCX1E3YTJfYUtxcnlhZVBpQzdqMkpDNHVKbVI0QU1HckN3SHA2NUJfajRpa0VSLWpMQ1dTUGpBaHZNS0hpSHB6dDNZeDZvazhpQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 315
     },
     {
       "date": "Apr 23",
-      "text": "Thousands more U.S. forces are heading for the Middle East.",
+      "text": "The U.S. and Iran remain in a blockade stalemate, with thousands more U.S. forces heading to the Middle East.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 314
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPUTdJWGw0MnB0amZkdDE2aXVJckZnRlFYd0xfa3RYc2dmTHNFWXVLLWdRb0Nld2otX2tFc0dTclBJdFpYMEtPbnltRXREUV9jdVhTa01lMXl3Rzl2MFV5T29xOWR4b0l0SGpvTzROcWRzZFhpdjNVS0xNMDZjbGI4WXpGZW1USEdKQU9rSG80OWo1bjV0UnJLckh0ZlZPVTVLa2FNcjZmNmtzUEpydmFN0gG0AUFVX3lxTE1tc3Qxd1ZDQnhhcXU0TEs3aFB2aGZMVmhZRzQ2aGU4MkpTTG04YnU5QUpEbG9rTjhFOVBOTm5IMDFWaURnMHhWVXR1R1NSc2xEbktZRXpycUlOcVV1eEVkVEZSdVhneFNSdWF1dWZzWV9mTzlZQnEwa0tmX3hBUFZCWm5zb0dzMTZVbHkzQ09rVGM5dm5ocWc3ZEhtMFlHMTY2RXBuMVJNOXBmbWI1OXk5bFNnSw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 315
     },
     {
       "date": "Apr 23",
-      "text": "Concerns rise that the US military is at risk of running out of missiles after depleting stockpiles in Iran operations.",
+      "text": "Hezbollah's top leader rejects disarmament and calls for Israeli withdrawal, later firing at Israel citing truce breaches.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9iZFQ5Rmh6S1VUWE5VbTUyXzNLSUgzMmJQT2Q1QmNQMzZrUmRuczBLSS1fUjV4SnZvY3hNT1pvQXJEUzhHT01BRVBBcFA5bC1nNWJtbGlXWlUycnRIakZQX1VzRldSemlkaGJYWWVtTW5HSlV5UklNVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 314
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNdHhaNW1PdVJMVjh5S2N1eUJaUHh5aU05elpsb2ZJTVFHa0JMUTJFcUxLTWZnSThETll6RU1EMXYxWGthclFmeWowZjVvRHdzVTJnYy1NT09wYzJybWF6RjZLamRFRnR3YTVjM284N0NrQXQzejlwUlRjWklzNlREZFZhbUstcUFGNEI1YlVoc3VicnlBY0FIczZZSXZBZWhhdVl0eWZWTVdPWDFOSDF2TWpQdkRIZWw1dFB6cmR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 315
+    },
+    {
+      "date": "Apr 23",
+      "text": "Israel unveils new 'game-changing' artillery against Iran-backed Hezbollah.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQUWxXYXVJbkVhUW9fS1A1OU96OHVpY3A1WGhzcVYwOHFJZmhnUjVhVzdBazczdldONzFZVDV4SHdLcGpDd0FodGFNX1d4V1hHTmI1N29UMU00V0EwVkRQNkF1UzM3b3NPYzdyTEt5WHVFQ01LektXMmxqMnNybE1mTkhoRllPTlhsbE1sS2RKelltdHdqRjdQcWkzcGIwLVhDd2lLZnp2TmEySktfTW44SGlkYTFzZDBkbGRFZlR30gHDAUFVX3lxTE5aeVdVTXZHNVR3cEJKeTh2VmxpMjhMYU94NF9qakZSZTRULVRGQml6MDVQX0lTMkJJSTJ1NDNUVjN1ZC1xY2NmbUtqblIxNThmWk1rUjFFMHNGZUs0QVJ2X19qdVRCNlAzWmJnUUZZaHF0SlVCQy1zYVFxUmNsYmQxLWlaMGVKOEkwQmVMeE13cU9RM3NBSWtZNWR0Nk1seUZiaGNpQ0hYX2piUDQxbHNjTDE1TkVSV3NoVVIycWhVaE5QOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 315
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
