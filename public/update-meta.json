@@ -1,13 +1,13 @@
 {
-  "updateSequence": 323,
+  "updateSequence": 324,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T17:49:10.040Z",
+  "lastSyncedAt": "2026-04-23T18:47:44.812Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah is under strain due to recent breaches, with talks scheduled to discuss its extension."
+    "summary": "A potential ceasefire appears to have collapsed amidst ongoing hostilities and increased military threats."
   }
 }
