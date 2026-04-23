@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 318,
+  "updateSequence": 319,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T10:00:43.640Z",
+  "lastSyncedAt": "2026-04-23T11:18:01.665Z",
   "warDay": 55,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-23",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -68,27 +68,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 23",
-      "text": "What Was the 2015 Iran Nuclear Deal?",
+      "text": "Iran fires on 3 ships in the Strait of Hormuz as US maintains blockade and diplomacy stalls",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1NTXdFVFk4VUEzOFhfc0J3QUgzeUZrRHRFUzRNemVMSXphQ2l4RF9kaDl5MmRMNnNZMWlOZ0FfRXBXT3NFN2tRdlhjYkVVNS1Jd3k1dkRNVWYwaU5BejZOMnlZc1N1dXlBQzh3M3pTTkhEczdBY1M4TTltMk1OS2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 318
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 319
     },
     {
       "date": "Apr 23",
-      "text": "Live updates: Trump says ‘no time frame’ on Iran war as blockade standoff stalls talks",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQbVZTdm1ObVZ3amJXVUVxazVqbWdNVkJRX2pIanpqQXp5MHFlTU96Zk9IZWVhVy1leGZ1QUtqVTdnUDZLd3pmMkM2Mm40RmlNN0dsdFdnR0xLMlhrUmlrUlZtSWFwakhZd19iQWgtcWJ5Tll3QVBYRGUyZ0djaEhrRlBVNi1PR1NvUHcwNjFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 318
-    },
-    {
-      "date": "Apr 23",
-      "text": "Live updates: Iran seizes ships in Strait of Hormuz after Trump extends ceasefire",
+      "text": "Live updates: Iran war news, Trump says there is ‘no time frame’ on Iran war and denies midterms driving decisions",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPS3FMYTF2dmpHa3hTRkZkVVY2eTZxSEhBWUM1SHhrMHFNRy1rbGg4QjFzVE9rdFN1NWN2dEg3VU9OZUhMbzlxMGZVTmdlNXNtWmc5aDRreHU1TE12TEZNRW1WR092Z2xleFZ1MFZPVUUxY24tQ0JFMHRNVWVzbTNETkREZDJ1Zm9sczZSYnZZYy1fa3FUV3pMX2x0V215X1ZIRWlXaF9aZy1BV0t5SERGR3lxaHU0NUV2WFdPdUc4UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 318
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOZ1pUcWVOb1k4dUZudVI4ZllXLXlkNDZZOXA4LVpVZVZCQmVSek9KZTFmQnhMQTBvSjE2dGFKZDlKeGVKaktWUEVidnF6MHl6SGNfQ1NjMW9MVzgzaW9hMEx6WTRmQ1dsVHFqZ2JlNkJhTG1uSnlUMHZQdDdubk56MGwzZXoybHozaTRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 319
+    },
+    {
+      "date": "Apr 23",
+      "text": "Pentagon Erases Wounded U.S. Troops From Iran War Casualty List: “Definition of a Cover-up”",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFB6V1dVWnZIS2YzNEpGRTFfYWlpUU9fSEFuaEEweWZKSzhYbHFsb29qTG5LV1N2R19yTWdBUndEQ2ZWeHZyM3Z5R2d2VHFZYXVtVUVLbU9KSmRmczhRcXhGaV9iMUY1bFFzZmcybVQ5LV94SnE5enJHbDlVLU01QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Intercept",
+      "latestSinceUpdate": 319
     },
     {
       "date": "Apr 23",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
