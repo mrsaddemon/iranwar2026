@@ -1,13 +1,13 @@
 {
-  "updateSequence": 328,
+  "updateSequence": 329,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T22:58:17.898Z",
+  "lastSyncedAt": "2026-04-23T23:56:06.874Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The Israel-Lebanon ceasefire was extended by three weeks, but is fraying due to Hezbollah firing on Israeli forces and rejecting disarmament."
+    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, though reports indicate increased Israeli attacks in Lebanon."
   }
 }
