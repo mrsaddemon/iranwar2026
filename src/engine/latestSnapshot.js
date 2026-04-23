@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 319,
+  "updateSequence": 320,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T11:18:01.665Z",
+  "lastSyncedAt": "2026-04-23T12:11:10.101Z",
   "warDay": 55,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-23",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -68,10 +68,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 23",
-      "text": "Iran fires on 3 ships in the Strait of Hormuz as US maintains blockade and diplomacy stalls",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
+      "text": "Pentagon Erases Wounded U.S. Troops From Iran War Casualty List: “Definition of a Cover-up”",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFB6V1dVWnZIS2YzNEpGRTFfYWlpUU9fSEFuaEEweWZKSzhYbHFsb29qTG5LV1N2R19yTWdBUndEQ2ZWeHZyM3Z5R2d2VHFZYXVtVUVLbU9KSmRmczhRcXhGaV9iMUY1bFFzZmcybVQ5LV94SnE5enJHbDlVLU01QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Intercept",
       "latestSinceUpdate": 319
     },
     {
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 23",
-      "text": "Pentagon Erases Wounded U.S. Troops From Iran War Casualty List: “Definition of a Cover-up”",
+      "text": "US military says it seizes another oil tanker associated with Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFB6V1dVWnZIS2YzNEpGRTFfYWlpUU9fSEFuaEEweWZKSzhYbHFsb29qTG5LV1N2R19yTWdBUndEQ2ZWeHZyM3Z5R2d2VHFZYXVtVUVLbU9KSmRmczhRcXhGaV9iMUY1bFFzZmcybVQ5LV94SnE5enJHbDlVLU01QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Intercept",
-      "latestSinceUpdate": 319
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 320
     },
     {
       "date": "Apr 23",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
