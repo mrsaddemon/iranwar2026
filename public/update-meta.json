@@ -1,13 +1,13 @@
 {
-  "updateSequence": 316,
+  "updateSequence": 317,
   "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T06:26:33.368Z",
+  "lastSyncedAt": "2026-04-23T08:22:36.202Z",
   "warDay": 55,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 60,
+    "summary": "An indefinitely extended ceasefire is in effect, but it remains fragile with multiple reported breaches by both Iranian forces and Hezbollah."
   }
 }
