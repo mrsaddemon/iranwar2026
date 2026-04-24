@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 332,
+  "updateSequence": 333,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T08:18:09.386Z",
+  "lastSyncedAt": "2026-04-24T09:56:59.564Z",
   "warDay": 56,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-24",
@@ -60,6 +60,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
+      "text": "Who will blink first as the Iran war hits the world economy?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE8xMFpEVE1UeU5HUWxHOFlnbW9qbDNqWFdvTjJqNDlWSjdYX2RVQzF0OW9ZbmFpdXlleWpaTEpxWE1ZYXRXTmtMLXFZX3ZOUm5DdWw4bEs0a1Z0d2xialg5aHlnQWswRWpRREo0cWZ1aVNtRDM0QXE4UFh4YlhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 332
+    },
+    {
+      "date": "Apr 24",
+      "text": "Iran war: What’s happening on day 56 after Trump extended ceasefire?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOdzhxa1lSUVgwQmJlMWVRbEJUblNYMjlFSFlGNF9uMkRTZEJVek5BUW4xcUxELWpwaTNKbTEwYTlCTVc2S1BvXzd6NXlHUG5ibG12Q0xUcWJMamY3ZEQtMDdDcHp3MTJLcFBmcG1fZm8zakJCVG5rQ0d1VkVYcFdtQmFYUmZ0YkVsNEtBaG01MU5pVGFYS3ZXZXJKNl96TnE1RjJZNVRfX2tBZ9IBrwFBVV95cUxOUko1T2YyMUJFMlZ5OXZWTXMtcExfUWZkRFZ6VE43VW9mS1VRSjVqX1VRSUNQRHhnSGx5YjVLY0NTSjhzY3NMcjZQa2tWcU9wdjMyN2ptTV93SFVtcW9pQU8zXzZKX1RxTzdELVBxNXZVSWVxU09qM09wY2gya3prYklLRElQNi14OTJOWk00dEhTOUhVZVNSSFptSzRhS1NEU290Rm9JZ1hxM25nemI0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 333
+    },
+    {
+      "date": "Apr 24",
+      "text": "These charts show how Iran's economy is in freefall",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOalNfSXQxeWtPOV9CYmxBMG9sVi1Kb0FIbmNaTTMxWFFpUExBUzN6ZmxkYVpyLWQ2VER1WU92bVRJOTliVDQ5dWItVTBCQWhBcVNnSFUxa0VBU1h6ZTItWGZxNUYwcmhYaHZXWnlLb3loNS1jY1U5dXNCSXdYelQzSlhkMkNWcVNzOXJ2VnJ0ZzBYNGhGRzJF0gGcAUFVX3lxTE1vZ0lSWnUxOWs3SjRnY1lzOFBuOTFoNUZ5SkFNb1UxTUwtNER2bnhQR0ZVZjlVQ1piMDB4RXZNbTlvcEhiLWpXZi1QZ2FibG5MTXVZMFhESFo4YUhQMk9fUFZBVW9FTVNrU0N4YlZiNXFsb2tCeVhRV0hyMVhXdkp1eFpSdzBQVENjc19EMWxsbGhMN3FMZXVlVFMxaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 333
+    },
+    {
+      "date": "Apr 24",
       "text": "Iran Update Special Report, April 22, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPRVh4ZVdVcU1FVUluVHVlZkdkT1pRWWhmM1U2bDcwN0p6b09Pb2V1UXhTRy1hSXhwdDlneVFYdktzUHY3T3lZX3ZrTEdyOWN1Ynk2dFh5blF4MW0ySFc1Z01tSmdsUlFNMTlkRTJhakV2dEFkZFE2aUY1NXkwb2RsdXU3RkREbVFxdDNEOHBqWFd4YURsU2c?hl=en-US&gl=US&ceid=US:en",
@@ -76,41 +100,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 24",
-      "text": "Who will blink first as the Iran war hits the world economy?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE8xMFpEVE1UeU5HUWxHOFlnbW9qbDNqWFdvTjJqNDlWSjdYX2RVQzF0OW9ZbmFpdXlleWpaTEpxWE1ZYXRXTmtMLXFZX3ZOUm5DdWw4bEs0a1Z0d2xialg5aHlnQWswRWpRREo0cWZ1aVNtRDM0QXE4UFh4YlhTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 332
-    },
-    {
-      "date": "Apr 24",
-      "text": "Iran War Live Updates: Trump Says Israel and Lebanon Agree to Extend Cease-Fire; Latest Strait of Hormuz News",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1VX3dLODlDY3RiRk94UExOYUd6YVVSZU9ibGJkNzBUSmRKUXFLY1NYeG5Ic3pCZHJXdmwxb0ZabkNXQWdkMF9kV2NGYTduRkNleXQ4TkMyRl9YeHhZby14ODhjZEpJZ2UxQ2hSc0hiQTF3bHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 332
-    },
-    {
-      "date": "Apr 24",
       "text": "Satellite Data Reveal Scope and Scale of US-Israeli Strikes on Iran",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQWDhqTHBrY2Z2dTJDY0VVdFROLTJfczhCcmdZT3d2YW5TUk1ndDFpUDVPbE1VYk1JTkRXaFU5aUlneWlqU1RtaGhDRW1OalVXQlhqM0RmM2d4Vl9QWTEtbjhoNVdkLTFvZ1hNRk5PUE5Ram42MEliSXNaZ1kzclk4UWJRQ1ZYVF9WRGZV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bloomberg.com",
-      "latestSinceUpdate": 332
-    },
-    {
-      "date": "Apr 24",
-      "text": "Iran War Live Updates: Israel strikes Hezbollah again soon after ceasefire with Lebanon",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAJBVV95cUxOWWFzYnFYeDk2VDZCb1RUOU41d0ZySGFFN2pEVEMtZnlQSUItVnBISGJSa1kyT0ZQQ1dJT2ZNaVNZdTUwX0VqdllHbGZCZHVDenYxVFVWX3VBRFg4LVRpVlBWWEYxem1qcEhrOXFDdjJyejUtZk5TYnN6OGZ5ZGp4bFVTbGU0SmdVSkF6ZU1TRGwzSVF2VzREUjl2eXpYRHdFeDctQ01pNXhWNGxkYUVSODNJTFVMdmEwc0VwbEtXZnJaNXBrN1JQSVItNlU1ZV9kMGVFS2Nra0UwU1dhdlRZYmNJRWdjMHhiQlRNa00yV2U3emdLX2ZHYkx6VHVGWnNjMDBWcW8tMGtvUE5U0gGSAkFVX3lxTE12N0NleklHb0Z5V0Q2c3ZKNzdNZDZjbFl6R2F4UXRtRFA2ZTQ2dmZTWGNsVktmTFI5T3VEejUzTDF0UzJZVnU1SEJtMDdJWE9yQU4wcDBDS1ltaFRRSXVtQ1dfZWN4Z2l1WDRsS0xRMF8xclQ4VkNsQzFvNmcxMEE2a0VCMElRTzZCVmZ5ZjZKdHZRa0lGSXVWZDhZUFlMTmZhS2tSbWZONEZTOGxSdWpwQmxfMHFaRnJLTXA5SzNrbkNpQXpLOWtNanEzT2pKcTNkTnIxUlR3MXFTNXQ5eGxLNDB5NFlfdXRkWkp6N1NQQk41SUhyR3dGekpDR005eXlfMkhUN3RtbFNmbTBpSDFCR1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Economic Times",
+      "sourceName": "Bloomberg",
       "latestSinceUpdate": 332
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
