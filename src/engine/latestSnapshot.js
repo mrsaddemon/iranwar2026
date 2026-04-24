@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 343,
+  "updateSequence": 344,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T21:09:03.613Z",
+  "lastSyncedAt": "2026-04-24T22:05:22.838Z",
   "warDay": 56,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-24",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 21 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -68,11 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 24",
-      "text": "Iran Update Special Report, April 22, 2026",
+      "text": "Iran war: What’s happening on day 55 after Trump extended ceasefire?",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPRVh4ZVdVcU1FVUluVHVlZkdkT1pRWWhmM1U2bDcwN0p6b09Pb2V1UXhTRy1hSXhwdDlneVFYdktzUHY3T3lZX3ZrTEdyOWN1Ynk2dFh5blF4MW0ySFc1Z01tSmdsUlFNMTlkRTJhakV2dEFkZFE2aUY1NXkwb2RsdXU3RkREbVFxdDNEOHBqWFd4YURsU2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 343
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPeGlMRFoweE9lM0dxbE9SbVpiYmxGeUZ6c2xKSkZZc3lmS1hVblQ1WlpfT2M1dmV1c0FlTFA4dnpUd1FaNld2ODlUdWZqeGNWbmFfTTdJall3QjQwcEp0SG8tWEMyYmIyQXhXM3A3dUU1OHVVb2VGb280UmxpVFF4YXRIWldJcVN6cTB4Y09sd0h5LWhNV0lBVDEtcUVJX01iU2FEVjBqUk1NUdIBrwFBVV95cUxNNUJPMVE3WTNNMk5CMW81RHRha0ZGWkk4LWhrN1FEQTZJZFBmallBOTJwSzdKVmNlUVV6SkRGcjFIMDVvUVdtd1YzaW5QZzMySXZlQTg4YWU5QW1RSFh3Y0dKdzJ3Tm1xMzdtTlBEVzRxRXVxVllhWFBFcG5LVjVKdXZjSF9pdXY2OUNyWkpiSS1iZDVHVWxFX1BBUF9feHBVbVhWQ2ZCaHJnMVpuZElN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 344
     },
     {
       "date": "Apr 24",
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 24",
-      "text": "Iran war updates: Trump announces three-week Lebanon ceasefire extension",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOeVR0dmZBcEtyclJkbWlmT3hTUUlHandkWS1tQXZKX0ZUNC1PMWVGWjRFUW5fb3lEQVNMSmhFRnNSQWo0RVp0b3dZUjZHM3ZVSGN3ZThsZUM4bGxUVUZYdzV6T3lHQk1jemc0blVUVl90eHZnZkRYNmYxUWVncVB3cktRS1VidDV2aTluVHZ5UGcwdTN3RDBvSGl5dmVMbzdudHFENXVobDNkaHlXQ3R6Wk05bEVvTWxGRTZWRtIBwgFBVV95cUxPZXRoSDAyRVUyLVNmSDN4Yi11X1pUQ2plZHJmTE1mQ3QxZEpNQ1Z6QlB2d2VSaV9LeGhuYXZHU2VhNkhLcTM1dGV0R3QxRzc3ZnYwUlByQ2ZRVEtXTjdod05nVDVyZVRROWtET1Q4YUxFeVdCUkRzc3hBYWZibVVFUVdVSGJ5UkJRNC00RS1zX3lzc0JhN1VlWjdsRmFJdmtDeVhlUlVHWWhCYkFrOXVhZlVVUURuYUNPUnN6dElQSGk1dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 343
+      "text": "How the War Powers Act Could Pressure Trump to End the Iran War",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPNGw3LWRuRldhbGhjQnQ0cmxVbnllVnhBejdSU2cyS3N2el9DUWRMMVJoS3RtQXpJRWhmQXN4ZWYzcFVtSF9VVk1Dc2FNSnhOR2NwWGVoVFpaR01JT3hDclduRWNxa0E2VFhCRnRTdjB3d0RtaENkcG9JWTNkS0d2TkZMQW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 344
     },
     {
       "date": "Apr 24",
