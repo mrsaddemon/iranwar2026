@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 330,
+  "updateSequence": 331,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T03:41:14.230Z",
+  "lastSyncedAt": "2026-04-24T05:58:29.840Z",
   "warDay": 56,
-  "summary": "US and Israeli forces have conducted strikes on Iran, while tensions escalate in the Strait of Hormuz with US military orders, even as an Israel-Lebanon ceasefire is extended for three weeks.",
+  "summary": "A three-week ceasefire between Israel and Lebanon has been extended amidst continued US-Israeli strikes on Iran and US orders to engage Iranian boats mining the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-24",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The ceasefire between Israel and Lebanon has been extended by three weeks following White House peace talks."
+    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, but reports indicate Israel struck Hezbollah again shortly after the extension."
   },
   "actorOverrides": {
     "usa": {
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.3,
         "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 38,
+    "escalationLevel": 48,
     "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 49,
-    "globalPressure": 57,
-    "allianceInfluence": 51
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 22",
-      "text": "US-Israeli strikes on Iran revealed by satellite data, indicating scope and scale.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 330
-    },
-    {
-      "date": "Apr 23",
-      "text": "Israel attacks increase in Lebanon, coinciding with broader regional tensions.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 330
-    },
-    {
-      "date": "Apr 23",
-      "text": "Ships taken in the Strait of Hormuz, contributing to maritime security concerns.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 330
-    },
-    {
-      "date": "Apr 23",
-      "text": "President Trump orders U.S. military to 'shoot and kill' Iranian boats mining Strait of Hormuz.",
+      "date": "Apr 24",
+      "text": "Trump orders US military to 'shoot and kill' Iranian boats mining Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNd0RrbHZHZkFPZTQ2VF9WQkh6MUxjVVkyaHZzSm55WVRuM0FROEwzRnNkQV94dWk5U0RGYlM3eE92akUzaDBiZG9pdUdlUFZfcXZpWmgzMDU3YjA1c1REdlNYWXhZT2t0UDRFLW1wZzNRMEVtblprVkF0UVIzaHJXaUFPekRSYkZCZHd6QUFGYzlXTFowVXo1UWVrdDBERHgyNjNmc0dhNkp2a0RWTHNXaHl6bGtmbDdFZV82UTRqSmttRlhJ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 330
-    },
-    {
-      "date": "Apr 23",
-      "text": "Israel and Lebanon agree to extend their ceasefire by three weeks following White House peace talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOa01LcXoyNnZpdTNlcXVmT1EycVlIOUt0b213ZGE3RW9xSjMwMldEYnJVel9uQU03UjFsaVF5S28wMkxHeVdOZ3MzYmJwNUxBQVZYVkJkN0FsTWdNbEl4NWpSZUNvQU45bXJpLWtYRnoxSmQ5WHgzR3BIX1g0cm96VE9RZWQwazFyS0RSY29lWDlsTzZUUW03V0hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 330
+      "latestSinceUpdate": 331
     },
     {
       "date": "Apr 24",
-      "text": "Oil prices rise above $106 per barrel as US and Iran remain deadlocked in the Strait of Hormuz.",
+      "text": "Israel and Lebanon agree to extend ceasefire by three weeks following White House peace talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOa01LcXoyNnZpdTNlcXVmT1EycVlIOUt0b213ZGE3RW9xSjMwMldEYnJVel9uQU03UjFsaVF5S28wMkxHeVdOZ3MzYmJwNUxBQVZYVkJkN0FsTWdNbEl4NWpSZUNvQU45bXJpLWtYRnoxSmQ5WHgzR3BIX1g0cm96VE9RZWQwazFyS0RSY29lWDlsTzZUUW03V0hn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 331
+    },
+    {
+      "date": "Apr 24",
+      "text": "Israel strikes Hezbollah again soon after ceasefire with Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQeXluQXBPWkV5SnAzQmxhaWNmRFpqMUhFdExSSG5Eb0QtSko0VmlRTUg5NTNlYm42RXJKVFVYYVRaNkhzNmF5TXFNMkNXTzVRRlk4TlM1V3BvNjB4bGxoTVBXUFZhLVNuR2lYeTZNdHB0QXZDZTh5QnJaZ3g3ZUxQWFlyY2F3UUpPMXpxNlFRVTJpclNUSzhrU205cHUtVnNEa2VLbDNaVGhzSU5EZ2dsUDVsRGl5ZlXSAbwBQVVfeXFMTUlHak5mdG5WZ2NoT3dvZHppdVpyVFdURUd1SEFKaTBBcFNKZlhIeU5SN2xwdllOQW1KeGtTVkVia3JjamMyTHFEMmxVSlRvN1hEbXlib2xsUUZVRzRubFY3NW9KM3RYckFnM0U4d2hZcVc4SVV0b1pKT05UbnBlMnFfTTI0QkhESkFnU3J1dGt2bGtqOGpLb2s5V3l3V1UxX2ZieHVPLUZkdTMwOHNld1llc05KM1pmRnEzdnE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 330
+      "sourceUrl": "https://news.google.com/articles/CBMijAJBVV95cUxOWWFzYnFYeDk2VDZCb1RUOU41d0ZySGFFN2pEVEMtZnlQSUItVnBISGJSa1kyT0ZQQ1dJT2ZNaVNZdTUwX0VqdllHbGZCZHVDenYxVFVWX3VBRFg4LVRpVlBWWEYxem1qcEhrOXFDdjJyejUtZk5TYnN6OGZ5ZGp4bFVTbGU0SmdVSkF6ZU1TRGwzSVF2VzREUjl2eXpYRHdFeDctQ01pNXhWNGxkYUVSODNJTFVMdmEwc0VwbEtXZnJaNXBrN1JQSVItNlU1ZV9kMGVFS2Nra0UwU1dhdlRZYmNJRWdjMHhiQlRNa00yV2U3emdLX2ZHYkx6VHVGWnNjMDBWcW8tMGtvUE5U0gGSAkFVX3lxTE12N0NleklHb0Z5V0Q2c3ZKNzdNZDZjbFl6R2F4UXRtRFA2ZTQ2dmZTWGNsVktmTFI5T3VEejUzTDF0UzJZVnU1SEJtMDdJWE9yQU4wcDBDS1ltaFRRSXVtQ1dfZWN4Z2l1WDRsS0xRMF8xclQ4VkNsQzFvNmcxMEE2a0VCMElRTzZCVmZ5ZjZKdHZRa0lGSXVWZDhZUFlMTmZhS2tSbWZONEZTOGxSdWpwQmxfMHFaRnJLTXA5SzNrbkNpQXpLOWtNanEzT2pKcTNkTnIxUlR3MXFTNXQ5eGxLNDB5NFlfdXRkWkp6N1NQQk41SUhyR3dGekpDR005eXlfMkhUN3RtbFNmbTBpSDFCR1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Economic Times",
+      "latestSinceUpdate": 331
+    },
+    {
+      "date": "Apr 24",
+      "text": "Satellite data reveal scope and scale of US-Israeli strikes on Iran.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 331
+    },
+    {
+      "date": "Apr 24",
+      "text": "Businesses paying up to $4 million to cross Panama Canal due to Strait of Hormuz chokehold.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxOV3BWQ19WZE5LOVBQY0xLVUVXN1QtVkd1Q2NPNDRXallnSjRjeHQteno0cU9WbWw5S2FFTFNRbi13Mm5lVE9hdWZITnRlZ1FNQVg2N2J4dTB1TVZETUR5VTk2TUlsUkhfNzNqYzlXMEE0c1djdjAtSjEtUnBhSHBjOFhfbDVyMmtWNVNkb3MzM3k3Y19PUlROa1k1bnVHLWdvS1I1VmpzUWdLaVhvZGRvUHNNSXFsenZPOW8wbVp6TWltbkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 331
+    },
+    {
+      "date": "Apr 24",
+      "text": "Reports indicate Iran's economy is in freefall.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOalNfSXQxeWtPOV9CYmxBMG9sVi1Kb0FIbmNaTTMxWFFpUExBUzN6ZmxkYVpyLWQ2VER1WU92bVRJOTliVDQ5dWItVTBCQWhBcVNnSFUxa0VBU1h6ZTItWGZxNUYwcmhYaHZXWnlLb3loNS1jY1U5dXNCSXdYelQzSlhkMkNWcVNzOXJ2VnJ0ZzBYNGhGRzJF0gGcAUFVX3lxTE1vZ0lSWnUxOWs3SjRnY1lzOFBuOTFoNUZ5SkFNb1UxTUwtNER2bnhQR0ZVZjlVQ1piMDB4RXZNbTlvcEhiLWpXZi1QZ2FibG5MTXVZMFhESFo4YUhQMk9fUFZBVW9FTVNrU0N4YlZiNXFsb2tCeVhRV0hyMVhXdkp1eFpSdzBQVENjc19EMWxsbGhMN3FMZXVlVFMxaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 331
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
