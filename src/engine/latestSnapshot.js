@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 338,
+  "updateSequence": 339,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T16:41:22.595Z",
+  "lastSyncedAt": "2026-04-24T17:39:51.049Z",
   "warDay": 56,
-  "summary": "The Iran War continues with a fragile three-week ceasefire extended between Israel and Lebanon, while a critical standoff persists in the Strait of Hormuz involving the U.S. and Iran.",
+  "summary": "The Iran war continues on Day 56 with a fragile three-week ceasefire extension between Israel and Lebanon, while tensions escalate in the Strait of Hormuz due to Iranian mining and US military responses.",
   "lastNarrativeUpdate": "2026-04-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The Israel-Lebanon ceasefire has been extended for three weeks but is fragile, with reports of increased Israeli attacks and casualties in Lebanon."
+    "summary": "A three-week ceasefire between Israel and Lebanon has been extended, but its stability is undermined by increased Israeli attacks and Hezbollah's defiant stance."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 23",
-      "text": "Ceasefire between Israel and Lebanon extended by three weeks, as announced by Trump.",
+      "text": "Cease-Fire Between Israel and Lebanon Extended by Three Weeks, Trump Says.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOa01LcXoyNnZpdTNlcXVmT1EycVlIOUt0b213ZGE3RW9xSjMwMldEYnJVel9uQU03UjFsaVF5S28wMkxHeVdOZ3MzYmJwNUxBQVZYVkJkN0FsTWdNbEl4NWpSZUNvQU45bXJpLWtYRnoxSmQ5WHgzR3BIX1g0cm96VE9RZWQwazFyS0RSY29lWDlsTzZUUW03V0hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 338
-    },
-    {
-      "date": "Apr 23",
-      "text": "U.S. blockade around the Strait of Hormuz is declared to last 'as long as it takes' amid ongoing standoff with Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 338
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB4UkN3UnZ4bXVpSDJtX0JaOUl5OV9PRF82MnlxNXdxYzJyNEFGWWljTlNuSmxkT1pKcWJmMGxIMTFIYjNzd3NERU5VQ3ozMUZJRDI4TjNnVXpRZzZHd0g3cC1JRHJ2WHFsVEpF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 339
     },
     {
       "date": "Apr 24",
-      "text": "Israel attacks increase in Lebanon, and ships are reported taken in the Strait of Hormuz.",
-      "severity": "critical",
+      "text": "Israel attacks increase in Lebanon; ships taken in Strait of Hormuz.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 338
+      "latestSinceUpdate": 339
     },
     {
       "date": "Apr 24",
-      "text": "Six people were killed in Lebanon despite the extended ceasefire.",
-      "severity": "warning",
+      "text": "Satellite data reveal scope and scale of US-Israeli strikes on Iran.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 338
+      "latestSinceUpdate": 339
     },
     {
       "date": "Apr 24",
-      "text": "Trump orders the U.S. military to 'shoot and kill' Iranian boats mining the Strait of Hormuz.",
+      "text": "Iran’s Schools and Hospitals reported in ruins from conflict.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 339
+    },
+    {
+      "date": "Apr 24",
+      "text": "White House announces Witkoff, Kushner to head to Pakistan for new Iran peace talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 339
+    },
+    {
+      "date": "Apr 24",
+      "text": "Trump orders U.S. military to 'shoot and kill' Iranian boats mining Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQcDFZcmxxRVMxZmJiVDh2SmNiT2NkMWlSTDRmN2lpUzYzNmRrclpJR0JHZGR2UEhXVEdyYXhnM2c4Y0dYWC1saEZLSDc2TVA4dzlxY05MbVJsZnBuQllMWm1LLVQ2YzlPNWR4Y3FIQ05TeFMtakVkczhKQmxxbEJqNlloM1Y1alJIM0FBbkVLR1JXU3pka3k2ZWpCODR0X2M0NFRqMUlZR1JyOGFPQ1hSSEJBTDZNaXUydW9wb2hR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 338
-    },
-    {
-      "date": "Apr 24",
-      "text": "Concerns emerge about drained U.S. supplies of critical and costly weapons due to the Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 338
+      "latestSinceUpdate": 339
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
