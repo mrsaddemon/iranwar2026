@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 342,
+  "updateSequence": 343,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T20:10:46.504Z",
+  "lastSyncedAt": "2026-04-24T21:09:03.613Z",
   "warDay": 56,
-  "summary": "The Iran war continues on day 56 with an ongoing US blockade of the Strait of Hormuz, extended Israel-Lebanon ceasefire talks, and reports of US-Israeli strikes on Iran.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "An Israel-Lebanon ceasefire has been extended by three weeks, but its fragility is highlighted by ongoing military preparations and defiance from Hezbollah."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 21 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 12,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "US blockade around the Strait of Hormuz declared to last 'as long as it takes'.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 342
+      "text": "Who will blink first as the Iran war hits the world economy?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE8xMFpEVE1UeU5HUWxHOFlnbW9qbDNqWFdvTjJqNDlWSjdYX2RVQzF0OW9ZbmFpdXlleWpaTEpxWE1ZYXRXTmtMLXFZX3ZOUm5DdWw4bEs0a1Z0d2xialg5aHlnQWswRWpRREo0cWZ1aVNtRDM0QXE4UFh4YlhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 343
     },
     {
       "date": "Apr 24",
-      "text": "Satellite data reveals the scope and scale of US-Israeli strikes on Iran.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 342
+      "text": "Iran Update Special Report, April 22, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPRVh4ZVdVcU1FVUluVHVlZkdkT1pRWWhmM1U2bDcwN0p6b09Pb2V1UXhTRy1hSXhwdDlneVFYdktzUHY3T3lZX3ZrTEdyOWN1Ynk2dFh5blF4MW0ySFc1Z01tSmdsUlFNMTlkRTJhakV2dEFkZFE2aUY1NXkwb2RsdXU3RkREbVFxdDNEOHBqWFd4YURsU2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 343
     },
     {
       "date": "Apr 24",
-      "text": "Israel attacks increase in Lebanon, and ships are reportedly taken in Hormuz.",
-      "severity": "critical",
+      "text": "Hegseth declares victory while preparing for more war with Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNU2FlNHhJRXlmblk5WUFRNUZzTnl1UXFfcEsyTmFUcV9lR0hLM0JrRXltOWVqTXQtNE9qTmRCSUxhUEgtaGpwV2hYNTJ3Tm9CUFU3SHV3cUE0LU9KTXF4Ul9JYWJtbXhCd2lpZjlYWUk3V2Z4M1E3cWtKWERqZzhtZDZycVlqMjRRLVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 343
+    },
+    {
+      "date": "Apr 24",
+      "text": "Iran war updates: Trump announces three-week Lebanon ceasefire extension",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOeVR0dmZBcEtyclJkbWlmT3hTUUlHandkWS1tQXZKX0ZUNC1PMWVGWjRFUW5fb3lEQVNMSmhFRnNSQWo0RVp0b3dZUjZHM3ZVSGN3ZThsZUM4bGxUVUZYdzV6T3lHQk1jemc0blVUVl90eHZnZkRYNmYxUWVncVB3cktRS1VidDV2aTluVHZ5UGcwdTN3RDBvSGl5dmVMbzdudHFENXVobDNkaHlXQ3R6Wk05bEVvTWxGRTZWRtIBwgFBVV95cUxPZXRoSDAyRVUyLVNmSDN4Yi11X1pUQ2plZHJmTE1mQ3QxZEpNQ1Z6QlB2d2VSaV9LeGhuYXZHU2VhNkhLcTM1dGV0R3QxRzc3ZnYwUlByQ2ZRVEtXTjdod05nVDVyZVRROWtET1Q4YUxFeVdCUkRzc3hBYWZibVVFUVdVSGJ5UkJRNC00RS1zX3lzc0JhN1VlWjdsRmFJdmtDeVhlUlVHWWhCYkFrOXVhZlVVUURuYUNPUnN6dElQSGk1dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 343
+    },
+    {
+      "date": "Apr 24",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 342
+      "latestSinceUpdate": 343
     },
     {
       "date": "Apr 24",
-      "text": "Israel and Lebanon agree to extend their ceasefire by 3 weeks.",
+      "text": "Satellite Data Reveal Scope and Scale of US-Israeli Strikes on Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNelNwSEpkem45T2p4ckNYOTRySUZ1Y2dXdm1mUlF4cHZMSmFqTHpYcnJLVk8zdHoyTHY0NWNERTdSUDlQdDF3N2Rtem1uT1NtOGNITS02YW9zcGFUTmtnaGtSYWRyRXVLaGVka1pQMWlkb3NRS2U0SHJ4UmRoWFlWN21aaW1VWFVhTlY2bWpRNUdhNzRJeXJyNmYzZlg0c2pvY1NhUlBsRElWSXY4QW5DVFdPeWg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 342
-    },
-    {
-      "date": "Apr 24",
-      "text": "US military developing plans to target Iran’s Strait of Hormuz defenses if ceasefire fails.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQaVk4eWR6LXRSekNDOHFWS1paVDlIS2tIa1BNQkt6WUhPTVZjUlc4M2NVWFdyY1Rhd1hmMXhZd0pOaXZ1dmxCZ085elczZWRXTlY5SDFvcl9DR3pWVTQwNkxlekQ3N05HTnFGSmJoNVZlUHJxVzZ3ZHY1VndVekVEaTVKNVlMdDRETHZTa0FUNlM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 342
-    },
-    {
-      "date": "Apr 24",
-      "text": "US re-arms during Iran ceasefire, raising long-term concerns about advanced munitions supplies.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPOHZVWU4wVUMxMGNRRGZuaE1HbWFzaXIxc296YXYySEJCbTNXLUg4UmRSSHhjSW5qa2I2a2NkVUZkck9Cd1haam5YMU0talpKM3NVMmlQV0lXZGJfT2JzMndIbjk1SU1FbkdNX29kQjFrZzVxdlJYV1lCT0MtVUVtQmdlcm41RnZXSEHSAY8BQVVfeXFMTU94R2RSMVpna0wzT3hGQnRMTzdKbzhiXzN5NnNZT2JNWTlLcVF5a2tWUU5Hc2htNlF5YVEyUXR4N0lKOEY1cGNGdG5tSkg5cTY3cXp3ZjBQX1lpazFOdWhIaXB5eThjMU9WLW9paGxXMnZlOXJ6Z3AwRDRXZWppRmZid3QxY01sWkZTTS0ybWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 342
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQWDhqTHBrY2Z2dTJDY0VVdFROLTJfczhCcmdZT3d2YW5TUk1ndDFpUDVPbE1VYk1JTkRXaFU5aUlneWlqU1RtaGhDRW1OalVXQlhqM0RmM2d4Vl9QWTEtbjhoNVdkLTFvZ1hNRk5PUE5Ram42MEliSXNaZ1kzclk4UWJRQ1ZYVF9WRGZV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 343
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

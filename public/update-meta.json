@@ -1,13 +1,13 @@
 {
-  "updateSequence": 342,
+  "updateSequence": 343,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T20:10:46.504Z",
+  "lastSyncedAt": "2026-04-24T21:09:03.613Z",
   "warDay": 56,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "An Israel-Lebanon ceasefire has been extended by three weeks, but its fragility is highlighted by ongoing military preparations and defiance from Hezbollah."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 21 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
