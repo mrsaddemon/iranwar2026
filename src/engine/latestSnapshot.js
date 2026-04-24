@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 334,
+  "updateSequence": 335,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T11:16:21.500Z",
+  "lastSyncedAt": "2026-04-24T12:08:21.191Z",
   "warDay": 56,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-24",
@@ -76,11 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 24",
-      "text": "Iran war live: Lebanon truce extended; Trump says time not on Tehran’s side",
+      "text": "Iran War Live Updates: Trump Says Israel and Lebanon Agree to Extend Cease-Fire; Latest Strait of Hormuz News",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNWVhYNlB1LVo1aXFQdVVVcHBYYlE3VzJFdlZKTmRJbGtMOXZtd0FHZ09QSjR0RUdyR2NUenlyczhaMnVmYVliVVVnYXhQNFF2cnFCWUVvTE9Mb1dRRmZxU2ZvSWR2b2JTVmNGTERpSWRpUU1Pa1BaVm5HaVduZURRUm9RNThCSmJlRUZuWVUxLUpYZ0o3c2E3SXZfMUpQdm5PYUo3MjdjNGM2MEZOT2NMZjd5RDBBak5LRk1aM2I3Y9IBxAFBVV95cUxPaExtZ29MWlNGcTNGZkxnMjNpZGNxZHNod0xtTDFnQllsZmYxbTl5N0duT0dvLUtuU0d2NzM1MkEteE9nazlNUjFBcTQ0STlORG1fOVlqOHFtZE5yTWF6ak9zaEdmRG1qX1ZCbEoyQVlTR0s1UmFLd09tMWJ1QmNKdUtJQlY0ZlVnS3d1YmJmT18tWlQtWnBfLWZ6akM0dGhrWjNTb3ZNXzNlYi1pU2I0cjFIU1NCbEMwU0JqUUpCWHJmVUxN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 334
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1VX3dLODlDY3RiRk94UExOYUd6YVVSZU9ibGJkNzBUSmRKUXFLY1NYeG5Ic3pCZHJXdmwxb0ZabkNXQWdkMF9kV2NGYTduRkNleXQ4TkMyRl9YeHhZby14ODhjZEpJZ2UxQ2hSc0hiQTF3bHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 335
     },
     {
       "date": "Apr 24",
