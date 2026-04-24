@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 341,
+  "updateSequence": 342,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T19:32:52.755Z",
+  "lastSyncedAt": "2026-04-24T20:10:46.504Z",
   "warDay": 56,
-  "summary": "The Iran War continues on Day 56 with a US blockade of the Strait of Hormuz, an extended but fragile Israel-Lebanon ceasefire, and ongoing US-Israeli strikes on Iran amid peace talks.",
+  "summary": "The Iran war continues on day 56 with an ongoing US blockade of the Strait of Hormuz, extended Israel-Lebanon ceasefire talks, and reports of US-Israeli strikes on Iran.",
   "lastNarrativeUpdate": "2026-04-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, but Hezbollah has declared it 'meaningless' amid reports of continued fighting in the south."
+    "summary": "An Israel-Lebanon ceasefire has been extended by three weeks, but its fragility is highlighted by ongoing military preparations and defiance from Hezbollah."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.55,
+        "precision": 0.5,
         "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 12,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 23",
-      "text": "Cease-Fire Between Israel and Lebanon Extended by Three Weeks, Trump Says",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB4UkN3UnZ4bXVpSDJtX0JaOUl5OV9PRF82MnlxNXdxYzJyNEFGWWljTlNuSmxkT1pKcWJmMGxIMTFIYjNzd3NERU5VQ3ozMUZJRDI4TjNnVXpRZzZHd0g3cC1JRHJ2WHFsVEpF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 340
-    },
-    {
       "date": "Apr 24",
-      "text": "U.S. Blockade Around Strait of Hormuz Will Last ‘as Long as It Takes,’ Hegseth Says",
+      "text": "US blockade around the Strait of Hormuz declared to last 'as long as it takes'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE5XRU5GRThDaG03aFJWMURDYmN2dklmYjJwQThkdnRFTkVkMlBjUS1JcXlKNVgzcF9TZ3FQZUl5Y2VoM2hQeVN5alFBRjAzY3YweE1BWTVjTUZWUmV1U1NnQjl2MHJaT3pLTGRvRm9MSlY4emhEYkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 341
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 342
     },
     {
       "date": "Apr 24",
-      "text": "Satellite Data Reveal Scope and Scale of US-Israeli Strikes on Iran",
+      "text": "Satellite data reveals the scope and scale of US-Israeli strikes on Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQWDhqTHBrY2Z2dTJDY0VVdFROLTJfczhCcmdZT3d2YW5TUk1ndDFpUDVPbE1VYk1JTkRXaFU5aUlneWlqU1RtaGhDRW1OalVXQlhqM0RmM2d4Vl9QWTEtbjhoNVdkLTFvZ1hNRk5PUE5Ram42MEliSXNaZ1kzclk4UWJRQ1ZYVF9WRGZV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bloomberg.com",
-      "latestSinceUpdate": 340
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 342
     },
     {
       "date": "Apr 24",
-      "text": "Iran’s Schools and Hospitals in Ruins, Times Analysis Shows",
+      "text": "Israel attacks increase in Lebanon, and ships are reportedly taken in Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNbURkVU1ObjFOb2psUGJ2dWtENFROSWd6QnFSMjd2YXotaDBNMGFNV2M5Ylpkai1YRk8xSVA2WVB4MVJFejllT0xuNEFHZnA5cGQ5NlhOTlpuYjA0YmdtMXNpVXNlNWlIY0lvZW5LVlNwLV9KNWxfWXVqOVBJdkNCN1duUk1jczVjODRoVlpZcjd2ZHRnRjEtWHppSFlTYmVsbkJyQnpnX3FRNHkySkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 341
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 342
     },
     {
       "date": "Apr 24",
-      "text": "Witkoff, Kushner to head to new Iran peace talks in Pakistan, White House says",
+      "text": "Israel and Lebanon agree to extend their ceasefire by 3 weeks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 341
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNelNwSEpkem45T2p4ckNYOTRySUZ1Y2dXdm1mUlF4cHZMSmFqTHpYcnJLVk8zdHoyTHY0NWNERTdSUDlQdDF3N2Rtem1uT1NtOGNITS02YW9zcGFUTmtnaGtSYWRyRXVLaGVka1pQMWlkb3NRS2U0SHJ4UmRoWFlWN21aaW1VWFVhTlY2bWpRNUdhNzRJeXJyNmYzZlg0c2pvY1NhUlBsRElWSXY4QW5DVFdPeWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 342
     },
     {
       "date": "Apr 24",
-      "text": "Strait of Hormuz will not fully open until second half of 2026, Baker Hughes says",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYlNYYVRkbkhyeUIzU1lTVFUtNUpzMTV2dnRHX0syRWhadmpGQUszd1daMm1DY1VOWDVaNVBFejRod1FMOW44TTdrVDFSelp3akM2STdzT0tHemszZ2F0MkxQTHlka1N1UVVaWDZIS285eV9IZlBkem0tQTdueVRHWlNHdVFURzDSAYwBQVVfeXFMT2FKaHozTUQ0b3lfdnRJd0ZOQThhNlpJV3M1cEFOaGFNdFNIckZINF9teGxiQUpCV1FEVmdLWFV5NGJwdTFsUWhVdXlOZk1QVko1Z1hHc29GQlFwR2czeGhpaS13UGNFRHpSQ25PYzd1eWd2OHRROTZyRmR5TUxGVi1HVEFLaWJiRkFrSEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 341
+      "text": "US military developing plans to target Iran’s Strait of Hormuz defenses if ceasefire fails.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQaVk4eWR6LXRSekNDOHFWS1paVDlIS2tIa1BNQkt6WUhPTVZjUlc4M2NVWFdyY1Rhd1hmMXhZd0pOaXZ1dmxCZ085elczZWRXTlY5SDFvcl9DR3pWVTQwNkxlekQ3N05HTnFGSmJoNVZlUHJxVzZ3ZHY1VndVekVEaTVKNVlMdDRETHZTa0FUNlM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 342
+    },
+    {
+      "date": "Apr 24",
+      "text": "US re-arms during Iran ceasefire, raising long-term concerns about advanced munitions supplies.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPOHZVWU4wVUMxMGNRRGZuaE1HbWFzaXIxc296YXYySEJCbTNXLUg4UmRSSHhjSW5qa2I2a2NkVUZkck9Cd1haam5YMU0talpKM3NVMmlQV0lXZGJfT2JzMndIbjk1SU1FbkdNX29kQjFrZzVxdlJYV1lCT0MtVUVtQmdlcm41RnZXSEHSAY8BQVVfeXFMTU94R2RSMVpna0wzT3hGQnRMTzdKbzhiXzN5NnNZT2JNWTlLcVF5a2tWUU5Hc2htNlF5YVEyUXR4N0lKOEY1cGNGdG5tSkg5cTY3cXp3ZjBQX1lpazFOdWhIaXB5eThjMU9WLW9paGxXMnZlOXJ6Z3AwRDRXZWppRmZid3QxY01sWkZTTS0ybWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 342
     }
   ],
   "sourceStatuses": [
