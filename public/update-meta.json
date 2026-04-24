@@ -1,13 +1,13 @@
 {
-  "updateSequence": 329,
-  "lastUpdated": "2026-04-23",
-  "lastSyncedAt": "2026-04-23T23:56:06.874Z",
-  "warDay": 55,
+  "updateSequence": 330,
+  "lastUpdated": "2026-04-24",
+  "lastSyncedAt": "2026-04-24T03:41:14.230Z",
+  "warDay": 56,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, though reports indicate increased Israeli attacks in Lebanon."
+    "summary": "The ceasefire between Israel and Lebanon has been extended by three weeks following White House peace talks."
   }
 }
