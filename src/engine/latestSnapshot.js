@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 331,
+  "updateSequence": 332,
   "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T05:58:29.840Z",
+  "lastSyncedAt": "2026-04-24T08:18:09.386Z",
   "warDay": 56,
-  "summary": "A three-week ceasefire between Israel and Lebanon has been extended amidst continued US-Israeli strikes on Iran and US orders to engage Iranian boats mining the Strait of Hormuz.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, but reports indicate Israel struck Hezbollah again shortly after the extension."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 21 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Trump orders US military to 'shoot and kill' Iranian boats mining Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNd0RrbHZHZkFPZTQ2VF9WQkh6MUxjVVkyaHZzSm55WVRuM0FROEwzRnNkQV94dWk5U0RGYlM3eE92akUzaDBiZG9pdUdlUFZfcXZpWmgzMDU3YjA1c1REdlNYWXhZT2t0UDRFLW1wZzNRMEVtblprVkF0UVIzaHJXaUFPekRSYkZCZHd6QUFGYzlXTFowVXo1UWVrdDBERHgyNjNmc0dhNkp2a0RWTHNXaHl6bGtmbDdFZV82UTRqSmttRlhJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 331
-    },
-    {
-      "date": "Apr 24",
-      "text": "Israel and Lebanon agree to extend ceasefire by three weeks following White House peace talks.",
+      "text": "Iran Update Special Report, April 22, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOa01LcXoyNnZpdTNlcXVmT1EycVlIOUt0b213ZGE3RW9xSjMwMldEYnJVel9uQU03UjFsaVF5S28wMkxHeVdOZ3MzYmJwNUxBQVZYVkJkN0FsTWdNbEl4NWpSZUNvQU45bXJpLWtYRnoxSmQ5WHgzR3BIX1g0cm96VE9RZWQwazFyS0RSY29lWDlsTzZUUW03V0hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 331
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPRVh4ZVdVcU1FVUluVHVlZkdkT1pRWWhmM1U2bDcwN0p6b09Pb2V1UXhTRy1hSXhwdDlneVFYdktzUHY3T3lZX3ZrTEdyOWN1Ynk2dFh5blF4MW0ySFc1Z01tSmdsUlFNMTlkRTJhakV2dEFkZFE2aUY1NXkwb2RsdXU3RkREbVFxdDNEOHBqWFd4YURsU2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 332
     },
     {
       "date": "Apr 24",
-      "text": "Israel strikes Hezbollah again soon after ceasefire with Lebanon.",
-      "severity": "warning",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 332
+    },
+    {
+      "date": "Apr 24",
+      "text": "Who will blink first as the Iran war hits the world economy?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE8xMFpEVE1UeU5HUWxHOFlnbW9qbDNqWFdvTjJqNDlWSjdYX2RVQzF0OW9ZbmFpdXlleWpaTEpxWE1ZYXRXTmtMLXFZX3ZOUm5DdWw4bEs0a1Z0d2xialg5aHlnQWswRWpRREo0cWZ1aVNtRDM0QXE4UFh4YlhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 332
+    },
+    {
+      "date": "Apr 24",
+      "text": "Iran War Live Updates: Trump Says Israel and Lebanon Agree to Extend Cease-Fire; Latest Strait of Hormuz News",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1VX3dLODlDY3RiRk94UExOYUd6YVVSZU9ibGJkNzBUSmRKUXFLY1NYeG5Ic3pCZHJXdmwxb0ZabkNXQWdkMF9kV2NGYTduRkNleXQ4TkMyRl9YeHhZby14ODhjZEpJZ2UxQ2hSc0hiQTF3bHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 332
+    },
+    {
+      "date": "Apr 24",
+      "text": "Satellite Data Reveal Scope and Scale of US-Israeli Strikes on Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQWDhqTHBrY2Z2dTJDY0VVdFROLTJfczhCcmdZT3d2YW5TUk1ndDFpUDVPbE1VYk1JTkRXaFU5aUlneWlqU1RtaGhDRW1OalVXQlhqM0RmM2d4Vl9QWTEtbjhoNVdkLTFvZ1hNRk5PUE5Ram42MEliSXNaZ1kzclk4UWJRQ1ZYVF9WRGZV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 332
+    },
+    {
+      "date": "Apr 24",
+      "text": "Iran War Live Updates: Israel strikes Hezbollah again soon after ceasefire with Lebanon",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijAJBVV95cUxOWWFzYnFYeDk2VDZCb1RUOU41d0ZySGFFN2pEVEMtZnlQSUItVnBISGJSa1kyT0ZQQ1dJT2ZNaVNZdTUwX0VqdllHbGZCZHVDenYxVFVWX3VBRFg4LVRpVlBWWEYxem1qcEhrOXFDdjJyejUtZk5TYnN6OGZ5ZGp4bFVTbGU0SmdVSkF6ZU1TRGwzSVF2VzREUjl2eXpYRHdFeDctQ01pNXhWNGxkYUVSODNJTFVMdmEwc0VwbEtXZnJaNXBrN1JQSVItNlU1ZV9kMGVFS2Nra0UwU1dhdlRZYmNJRWdjMHhiQlRNa00yV2U3emdLX2ZHYkx6VHVGWnNjMDBWcW8tMGtvUE5U0gGSAkFVX3lxTE12N0NleklHb0Z5V0Q2c3ZKNzdNZDZjbFl6R2F4UXRtRFA2ZTQ2dmZTWGNsVktmTFI5T3VEejUzTDF0UzJZVnU1SEJtMDdJWE9yQU4wcDBDS1ltaFRRSXVtQ1dfZWN4Z2l1WDRsS0xRMF8xclQ4VkNsQzFvNmcxMEE2a0VCMElRTzZCVmZ5ZjZKdHZRa0lGSXVWZDhZUFlMTmZhS2tSbWZONEZTOGxSdWpwQmxfMHFaRnJLTXA5SzNrbkNpQXpLOWtNanEzT2pKcTNkTnIxUlR3MXFTNXQ5eGxLNDB5NFlfdXRkWkp6N1NQQk41SUhyR3dGekpDR005eXlfMkhUN3RtbFNmbTBpSDFCR1E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Economic Times",
-      "latestSinceUpdate": 331
-    },
-    {
-      "date": "Apr 24",
-      "text": "Satellite data reveal scope and scale of US-Israeli strikes on Iran.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 331
-    },
-    {
-      "date": "Apr 24",
-      "text": "Businesses paying up to $4 million to cross Panama Canal due to Strait of Hormuz chokehold.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxOV3BWQ19WZE5LOVBQY0xLVUVXN1QtVkd1Q2NPNDRXallnSjRjeHQteno0cU9WbWw5S2FFTFNRbi13Mm5lVE9hdWZITnRlZ1FNQVg2N2J4dTB1TVZETUR5VTk2TUlsUkhfNzNqYzlXMEE0c1djdjAtSjEtUnBhSHBjOFhfbDVyMmtWNVNkb3MzM3k3Y19PUlROa1k1bnVHLWdvS1I1VmpzUWdLaVhvZGRvUHNNSXFsenZPOW8wbVp6TWltbkU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 331
-    },
-    {
-      "date": "Apr 24",
-      "text": "Reports indicate Iran's economy is in freefall.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOalNfSXQxeWtPOV9CYmxBMG9sVi1Kb0FIbmNaTTMxWFFpUExBUzN6ZmxkYVpyLWQ2VER1WU92bVRJOTliVDQ5dWItVTBCQWhBcVNnSFUxa0VBU1h6ZTItWGZxNUYwcmhYaHZXWnlLb3loNS1jY1U5dXNCSXdYelQzSlhkMkNWcVNzOXJ2VnJ0ZzBYNGhGRzJF0gGcAUFVX3lxTE1vZ0lSWnUxOWs3SjRnY1lzOFBuOTFoNUZ5SkFNb1UxTUwtNER2bnhQR0ZVZjlVQ1piMDB4RXZNbTlvcEhiLWpXZi1QZ2FibG5MTXVZMFhESFo4YUhQMk9fUFZBVW9FTVNrU0N4YlZiNXFsb2tCeVhRV0hyMVhXdkp1eFpSdzBQVENjc19EMWxsbGhMN3FMZXVlVFMxaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 331
+      "latestSinceUpdate": 332
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
