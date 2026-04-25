@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 367,
+  "updateSequence": 368,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T22:19:51.214Z",
+  "lastSyncedAt": "2026-04-25T22:59:09.562Z",
   "warDay": 57,
-  "summary": "Uncertainty persists in US-Iran peace talks amidst ongoing conflict in the Strait of Hormuz and continued fighting between Israel and Hezbollah despite ceasefire claims.",
+  "summary": "Peace talks between the US and Iran remain uncertain as Trump cancels envoy dispatches, while fighting continues between Israel and Hezbollah despite a nominal ceasefire, and reports emerge of significant Iranian damage to US military bases.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Despite an announced extension, the Israel-Hezbollah ceasefire is widely reported as ineffective with fighting continuing."
+    "summary": "A nominal ceasefire between Israel and Hezbollah is widely reported as meaningless due to ongoing fighting and violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     },
@@ -37,7 +37,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Special report issued on the ongoing Iran conflict.",
+      "text": "Trump called off dispatching envoys for Iran talks, citing 'we have all the cards'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EZkM3NURlaHh0ZGtEdDZxSGNDQjcwRUlQc0JkUG1WNDFGMzFrX1M0Z0JmR21kS25NU3JqSWJseEszMllWelMxc09lNV9oZ3k5R2VqOFBndlRHWmZ1ZVJlclJuUG9lQ0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 368
+    },
+    {
+      "date": "Apr 24",
+      "text": "Uncertainty remains in US-Iran peace talks on Day 56 of the Middle East conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 368
+    },
+    {
+      "date": "Apr 24",
+      "text": "Reports indicate the Iran War has drained U.S. supplies of critical, costly weapons.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 368
+    },
+    {
+      "date": "Apr 24",
+      "text": "Israel and Iran reportedly conducted unlawful March attacks on energy infrastructure.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 368
+    },
+    {
+      "date": "Apr 24",
+      "text": "Israel's attacks increased in Lebanon, and ships were reportedly taken in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 368
+    },
+    {
+      "date": "Apr 24",
+      "text": "Satellite data revealed the scope and scale of US-Israeli strikes on Iran.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 367
-    },
-    {
-      "date": "Apr 24",
-      "text": "US President Trump cancels sending envoys, adding uncertainty to Iran peace talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EZkM3NURlaHh0ZGtEdDZxSGNDQjcwRUlQc0JkUG1WNDFGMzFrX1M0Z0JmR21kS25NU3JqSWJseEszMllWelMxc09lNV9oZ3k5R2VqOFBndlRHWmZ1ZVJlclJuUG9lQ0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 367
-    },
-    {
-      "date": "Apr 24",
-      "text": "Concerns emerge regarding the depletion of US advanced munitions supplies due to the Iran conflict.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 367
-    },
-    {
-      "date": "Apr 24",
-      "text": "Reports indicate unlawful attacks on energy infrastructure attributed to both Israel and Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 367
-    },
-    {
-      "date": "Apr 24",
-      "text": "Increased Israeli military activity reported in Lebanon, alongside reports of ships being seized in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 367
-    },
-    {
-      "date": "Apr 24",
-      "text": "The US announces an indefinite blockade of the Strait of Hormuz, with warnings issued against mine-laying.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 367
+      "latestSinceUpdate": 368
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 367,
+  "updateSequence": 368,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T22:19:51.214Z",
+  "lastSyncedAt": "2026-04-25T22:59:09.562Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Despite an announced extension, the Israel-Hezbollah ceasefire is widely reported as ineffective with fighting continuing."
+    "summary": "A nominal ceasefire between Israel and Hezbollah is widely reported as meaningless due to ongoing fighting and violations."
   }
 }
