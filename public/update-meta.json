@@ -1,13 +1,13 @@
 {
-  "updateSequence": 354,
+  "updateSequence": 355,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T11:23:50.183Z",
+  "lastSyncedAt": "2026-04-25T12:04:51.360Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, but it remains fragile with continued fighting and violations reported by both sides."
+    "summary": "A three-week Lebanon ceasefire extension is in effect but is described as shaky, with Hezbollah deeming it meaningless and Israel continuing attacks."
   }
 }
