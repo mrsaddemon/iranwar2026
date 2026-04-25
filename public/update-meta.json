@@ -1,13 +1,13 @@
 {
-  "updateSequence": 365,
+  "updateSequence": 366,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T20:53:42.873Z",
+  "lastSyncedAt": "2026-04-25T21:48:18.464Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "An extended ceasefire is in effect but is highly fragile, with Hezbollah declaring it 'meaningless' and Israel continuing strikes in Lebanon."
+    "summary": "The ceasefire between Israel and Hezbollah has effectively collapsed, with both sides continuing attacks in southern Lebanon."
   }
 }
