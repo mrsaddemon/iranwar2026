@@ -1,13 +1,13 @@
 {
-  "updateSequence": 348,
+  "updateSequence": 349,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T04:10:05.539Z",
+  "lastSyncedAt": "2026-04-25T06:00:15.844Z",
   "warDay": 57,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 21,
-    "summary": "No active ceasefire is reported amidst ongoing conflict."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 14,
+    "summary": "Multiple ceasefires are in effect, including a two-week agreement between the U.S. and Iran, and an extended three-week ceasefire between Israel and Lebanon, though fighting continues and threats persist."
   }
 }
