@@ -1,13 +1,13 @@
 {
-  "updateSequence": 368,
+  "updateSequence": 369,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T22:59:09.562Z",
+  "lastSyncedAt": "2026-04-25T23:49:57.321Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A nominal ceasefire between Israel and Hezbollah is widely reported as meaningless due to ongoing fighting and violations."
+    "summary": "The Israel-Lebanon ceasefire has collapsed, with Hezbollah declaring it meaningless amidst ongoing violence in the south."
   }
 }
