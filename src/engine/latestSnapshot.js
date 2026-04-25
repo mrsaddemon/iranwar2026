@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 349,
+  "updateSequence": 350,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T06:00:15.844Z",
+  "lastSyncedAt": "2026-04-25T07:42:16.706Z",
   "warDay": 57,
-  "summary": "The Iran war continues on day 57 with ongoing tensions in the Strait of Hormuz, despite multiple ceasefire agreements and peace talks, as fighting persists in Lebanon and the U.S. issues stern warnings.",
+  "summary": "A fragile ceasefire between the US and Iran has been extended, but fighting continues in Lebanon, and tensions remain critically high in the Strait of Hormuz with explicit US threats and Iranian actions.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "Multiple ceasefires are in effect, including a two-week agreement between the U.S. and Iran, and an extended three-week ceasefire between Israel and Lebanon, though fighting continues and threats persist."
+    "durationDays": 21,
+    "summary": "A two-week ceasefire was extended by three weeks, but its effectiveness is undermined by continued fighting in Lebanon and heightened tensions in the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,6 +59,38 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
+      "date": "Apr 22",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 350
+    },
+    {
+      "date": "Apr 25",
+      "text": "Trump says Israel-Lebanon ceasefire to be extended by three weeks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE16ZjZROTdEeDNwRVhBRkNJdmp0Ync1ZjNUNjhYaS14TGNNRDJkNWxnTjBhVm9ZLTNaUU1YM1BKOXNMWndMN2hERVhuWWpYSWV4bGxZZUgtMElZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 350
+    },
+    {
+      "date": "Apr 25",
+      "text": "Israel continues attacks on Lebanon despite extension of ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOWjZpMGNDbGstRjhUalZDMGFaa2VXZWFyZDF3ajVwSUh3QUNhbHptUDh2ZlVBeElTU0hiR3Y5MWtZNndTYnp6bTZrQmF5WjJBQ21VMmRYWUNGWlJrQWc1SGVucGdyQjlXSm5QOEpvREluLTBXY2NIeDRLajZWc19xbkwxdFMwSnl4Vll5NldIV3FUcWk4cDMtSF9uSTFOUV9qMlMwNEhVUndkd1XSAbABQVVfeXFMUEFoNUNWaFhJazY5OXJhU3pfMGN1WjlrTEY1dklTdUNuaHlHMjRlRWk5cUc4Q1FEbHBvc3ljNWhUdGZxWmozeGplWVhrQjcxSk5uakJwNUwxUFQ1RUNhMkFvMVJuQnJ6aEUwLVhTTUpsQzVHNkVvOFJGVmxMcE4tbGp3SVdqakZmdnFFaVRqUkFZeENPZnJiczJvLTVyLXYzb3dvVGpidVZjV3I2ZUJBVDk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 350
+    },
+    {
+      "date": "Apr 25",
+      "text": "Ships taken in Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQNmt1cUpVcUhlajNjYUFhMHFKYlNTZmllVW5TenRYM0tzeGIzeHVIQ25ZNzhkUmcyVUdicHU3dHg1V0dqa2dQM3FDbmJ5WFY5aXBOOFBaZEhZckRZQkVOVUpkSTJpNGxJOHBTR2pXbFFOcXZ5NnhDOXBBSllPWjVPanVFN1ItUV9kM1pIU3RpUzZPVkFrZnhaT29n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "dw.com",
+      "latestSinceUpdate": 350
+    },
+    {
       "date": "Apr 25",
       "text": "U.S. Blockade Around Strait of Hormuz Will Last ‘as Long as It Takes,’ Hegseth Says.",
       "severity": "critical",
@@ -68,43 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 25",
-      "text": "Israel attacks increase in Lebanon; ships taken in Hormuz.",
+      "text": "Trump orders U.S. military to 'shoot and kill' Iranian boats mining Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 349
-    },
-    {
-      "date": "Apr 24",
-      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 349
-    },
-    {
-      "date": "Apr 24",
-      "text": "Witkoff, Kushner to take part in second round of Iran peace talks in Pakistan.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 349
-    },
-    {
-      "date": "Apr 24",
-      "text": "Hegseth warns Iran that US forces will ‘shoot to destroy’ any ships laying mines in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQOGxhSF96S0IyUU80Y3Q3Y0xIcUdKVDZBVnlLUmRReXljRmNFRW1oR21LYVdFSXBGWlJjbkRnY2FsMkFHZHZvYUFpLTZBZXBJUG81bFRCWXFEQzZHVXMxZEVFV1pZM0hlVVF1bVpJcU1pcmlHbG5jM0lpSU13X1lWUnNReGk2N0VmSWw3Q2FmMnplakVFWTFWaG5TbHhtRWhNZHlhX2Jvd9IBrAFBVV95cUxOdDk0SWc1VGpYYzZzdzRyZXE0OHlXQTV6clczSkp1MXFreWdMRjNXS1QtN1VhLXpqU2dYb1BYQnhONVNNX1RvWjh0Zm1LRVZQeDQtdncxQkxBVGIyZlVKUWxYN19nSGJ0Y0czc1VIekY2N0xwemhnblN1bVo1Sk53VXlHa0FOZDgxVldaMlJ6aDhoUUlnck1DdHUwcG94akNtc1REMzlaRm9rLTkt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 349
-    },
-    {
-      "date": "Apr 24",
-      "text": "Israel and Lebanon extend ceasefire amid Hormuz uncertainty.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQb1pGMk5hUnNwNkFyUldUZUJ2S0dUOVd0YWlDYlpxbThON290b1VQZk9FVloxM2FoYkM4Y19vSVNzdU9jekVoY3oySGl1YWdjeFd3YzdaSWFLMlBlUUstcmM0VWdmN3N6RExoakxYN3FzbzNiamhRWnFuVmJib3RwZ182cks2VGVSRG8xVnNPalpuSjRKZG84clJXRVRkdFgtd3oxN1IxNmdXRkxGTWg1SmQwb2M5aVg4bHV0UUdCWTJfWmZm?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNd0RrbHZHZkFPZTQ2VF9WQkh6MUxjVVkyaHZzSm55WVRuM0FROEwzRnNkQV94dWk5U0RGYlM3eE92akUzaDBiZG9pdUdlUFZfcXZpWmgzMDU3YjA1c1REdlNYWXhZT2t0UDRFLW1wZzNRMEVtblprVkF0UVIzaHJXaUFPekRSYkZCZHd6QUFGYzlXTFowVXo1UWVrdDBERHgyNjNmc0dhNkp2a0RWTHNXaHl6bGtmbDdFZV82UTRqSmttRlhJ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 349
+      "latestSinceUpdate": 350
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 349,
+  "updateSequence": 350,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T06:00:15.844Z",
+  "lastSyncedAt": "2026-04-25T07:42:16.706Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "Multiple ceasefires are in effect, including a two-week agreement between the U.S. and Iran, and an extended three-week ceasefire between Israel and Lebanon, though fighting continues and threats persist."
+    "durationDays": 21,
+    "summary": "A two-week ceasefire was extended by three weeks, but its effectiveness is undermined by continued fighting in Lebanon and heightened tensions in the Strait of Hormuz."
   }
 }
