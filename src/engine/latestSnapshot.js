@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 347,
+  "updateSequence": 348,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T01:07:44.793Z",
+  "lastSyncedAt": "2026-04-25T04:10:05.539Z",
   "warDay": 57,
-  "summary": "The Iran war continues on day 57 with a fragile Israel-Lebanon ceasefire extension, ongoing US blockade of the Strait of Hormuz, and diplomatic efforts for peace talks.",
+  "summary": "The ongoing conflict in the Middle East remains the primary focus of international observers.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 21,
-    "summary": "An Israel-Lebanon ceasefire has been extended by three weeks, though fighting continues in the south and uncertainty persists regarding the Strait of Hormuz."
+    "summary": "No active ceasefire is reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "nuclearIndex": 20,
+    "escalationLevel": 70,
+    "oilDisruption": 60,
+    "tradeImpact": 56,
+    "sanctionsPressure": 61,
+    "globalPressure": 74,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -57,60 +57,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "mosaicDefense": false,
     "unscShield": true
   },
-  "recentEvents": [
-    {
-      "date": "Apr 25",
-      "text": "Pentagon chief Hegseth states the U.S. blockade around the Strait of Hormuz will last 'as long as it takes' and is 'going global'.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 347
-    },
-    {
-      "date": "Apr 25",
-      "text": "Israel attacks reportedly increase in Lebanon, and ships are taken in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 347
-    },
-    {
-      "date": "Apr 25",
-      "text": "U.S. military is developing plans to target Iran’s Strait of Hormuz defenses if the ceasefire fails.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQaVk4eWR6LXRSekNDOHFWS1paVDlIS2tIa1BNQkt6WUhPTVZjUlc4M2NVWFdyY1Rhd1hmMXhZd0pOaXZ1dmxCZ085elczZWRXTlY5SDFvcl9DR3pWVTQwNkxlekQ3N05HTnFGSmJoNVZlUHJxVzZ3ZHY1VndVekVEaTVKNVlMdDRETHZTa0FUNlM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 347
-    },
-    {
-      "date": "Apr 25",
-      "text": "Hezbollah declares the ceasefire 'meaningless' as fighting continues in southern regions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 347
-    },
-    {
-      "date": "Apr 25",
-      "text": "Trump announces the Israel-Lebanon ceasefire will be extended by three weeks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE16ZjZROTdEeDNwRVhBRkNJdmp0Ync1ZjNUNjhYaS14TGNNRDJkNWxnTjBhVm9ZLTNaUU1YM1BKOXNMWndMN2hERVhuWWpYSWV4bGxZZUgtMElZQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 347
-    },
-    {
-      "date": "Apr 25",
-      "text": "White House announces Witkoff and Kushner will head to new Iran peace talks in Pakistan.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 347
-    }
-  ],
+  "recentEvents": [],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "no recent items"
     },
     {
       "source": "GDELT",
