@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 356,
+  "updateSequence": 357,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T13:36:20.804Z",
+  "lastSyncedAt": "2026-04-25T14:26:29.536Z",
   "warDay": 57,
-  "summary": "The Middle East conflict continues on Day 57 with ongoing US-Iran tensions, a US blockade of the Strait of Hormuz, and persistent Israeli attacks in Lebanon despite a declared ceasefire extension.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "An Israel-Lebanon ceasefire extension was declared, but fighting continues and Hezbollah deems it meaningless."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 24",
-      "text": "Uncertainty remains in US-Iran peace talks.",
+      "date": "Apr 25",
+      "text": "Iran Update Special Report, April 24, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPeXlOS0xsUTBPTVozZ3h3SWx4VHhSZk5ZVnRycnUwZzNaQzlGSC0wRG4zQy1DZXNSUnhySG5yazRJUUg3ZWFYTTg5amR4MXdGb0JGUHNPRFlGZE1ESGNHMjg5RHgxLXdNOHNyeVYyX1Nja3ZaVmpFMkEtTW1JX2V5ZDVHdmtFYWFGaVV5STA3bkJHS1h6ZFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 357
+    },
+    {
+      "date": "Apr 25",
+      "text": "Iran war: What’s happening on day 56 after Trump extended ceasefire?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOdzhxa1lSUVgwQmJlMWVRbEJUblNYMjlFSFlGNF9uMkRTZEJVek5BUW4xcUxELWpwaTNKbTEwYTlCTVc2S1BvXzd6NXlHUG5ibG12Q0xUcWJMamY3ZEQtMDdDcHp3MTJLcFBmcG1fZm8zakJCVG5rQ0d1VkVYcFdtQmFYUmZ0YkVsNEtBaG01MU5pVGFYS3ZXZXJKNl96TnE1RjJZNVRfX2tBZ9IBrwFBVV95cUxOUko1T2YyMUJFMlZ5OXZWTXMtcExfUWZkRFZ6VE43VW9mS1VRSjVqX1VRSUNQRHhnSGx5YjVLY0NTSjhzY3NMcjZQa2tWcU9wdjMyN2ptTV93SFVtcW9pQU8zXzZKX1RxTzdELVBxNXZVSWVxU09qM09wY2gya3prYklLRElQNi14OTJOWk00dEhTOUhVZVNSSFptSzRhS1NEU290Rm9JZ1hxM25nemI0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 357
+    },
+    {
+      "date": "Apr 25",
+      "text": "Day 56 of Middle East conflict - Uncertainty remains in US-Iran peace talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 355
+      "latestSinceUpdate": 357
     },
     {
-      "date": "Apr 24",
-      "text": "Hegseth declares victory while preparing for more war with Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNU2FlNHhJRXlmblk5WUFRNUZzTnl1UXFfcEsyTmFUcV9lR0hLM0JrRXltOWVqTXQtNE9qTmRCSUxhUEgtaGpwV2hYNTJ3Tm9CUFU3SHV3cUE0LU9KTXF4Ul9JYWJtbXhCd2lpZjlYWUk3V2Z4M1E3cWtKWERqZzhtZDZycVlqMjRRLVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 355
+      "date": "Apr 25",
+      "text": "Iran War Has Drained U.S. Supplies of Critical, Costly Weapons",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9LNlk4MTlOQm1MSkJzLXZpQXdzNXY2YWMzaEE5Qi1zdDlTbnR5VGlmSEt6VURoakREcF95cjBmTU1MZjJaR3FfYUtwNVhXSlZsNHo1elhCSmpXemhadWJCZzRtRi01ZlFlbjd2ZHBHMjM5Y1NlbFhEVFRndERhcVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 357
     },
     {
-      "date": "Apr 24",
-      "text": "U.S. blockade around Strait of Hormuz will last ‘as long as it takes,’ Hegseth says.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 356
+      "date": "Apr 25",
+      "text": "Israel, Iran: Unlawful March Attacks on Energy Infrastructure",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxObl94d0JQeUlhb19qd21mLWxHbnBza09pYzlncGVmV0VHRU1iWk1ncVVqLVhreUZsZi1yc3laUWMwdXM5bzZQcGVpNVNIRHFfaHNlSFNKaHdjeTdRaGRJNGxkV0VILUtncW9LQm00VE9MMU13cE1XcEd3ZTMzanZ3Q3dGcVpkb3NvQzBQRks3aEVsWUU4ZElTMkV3aw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Human Rights Watch",
+      "latestSinceUpdate": 357
     },
     {
-      "date": "Apr 24",
-      "text": "Israel and Iran conducted unlawful attacks on energy infrastructure.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 356
-    },
-    {
-      "date": "Apr 24",
-      "text": "Israel attacks increase in Lebanon; ships taken in Hormuz.",
-      "severity": "critical",
+      "date": "Apr 25",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 355
-    },
-    {
-      "date": "Apr 24",
-      "text": "Tehran sets out demands to mediators in Pakistan.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 355
+      "latestSinceUpdate": 357
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
