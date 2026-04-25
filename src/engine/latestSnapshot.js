@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 363,
+  "updateSequence": 364,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T19:29:23.980Z",
+  "lastSyncedAt": "2026-04-25T20:04:47.014Z",
   "warDay": 57,
-  "summary": "Despite an extended ceasefire, diplomatic efforts between the US and Iran have collapsed, with continued military actions in the region and US focus on securing the Strait of Hormuz.",
+  "summary": "The Middle East conflict continues on Day 57 with a fragile ceasefire in effect, marked by ongoing hostilities in Lebanon, US-Israeli strikes on Iran, and heightened tensions around the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "An extended ceasefire has effectively collapsed due to continued fighting, Hezbollah's defiance, and the cancellation of US-Iran peace talks."
+    "durationDays": 2,
+    "summary": "A ceasefire was extended by President Trump, but it is widely perceived as fragile and is being tested by ongoing fighting in Lebanon and threats from multiple parties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
@@ -33,16 +33,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Uncertainty remains in US-Iran peace talks despite an extended ceasefire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 363
-    },
-    {
-      "date": "Apr 24",
-      "text": "Reports indicate the Iran War has drained U.S. supplies of critical, costly weapons.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 363
-    },
-    {
-      "date": "Apr 24",
-      "text": "Israel and Iran are accused of unlawful March attacks on energy infrastructure.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 363
-    },
-    {
-      "date": "Apr 24",
-      "text": "Israel attacks have increased in Lebanon, and ships have been taken in the Strait of Hormuz.",
+      "text": "Israel attacks increased in Lebanon, and ships were reportedly taken in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 362
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 364
     },
     {
-      "date": "Apr 25",
-      "text": "President Trump canceled sending envoys for Iran talks, stating the US holds 'all the cards'.",
-      "severity": "critical",
+      "date": "Apr 24",
+      "text": "President Trump canceled sending envoys for Iran peace talks, stating the US holds 'all the cards'.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 363
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 364
     },
     {
-      "date": "Apr 25",
-      "text": "The U.S. blockade around the Strait of Hormuz will last 'as long as it takes,' according to Hegseth.",
+      "date": "Apr 24",
+      "text": "Satellite data revealed the scope and scale of US-Israeli strikes on Iran.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 363
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 364
+    },
+    {
+      "date": "Apr 24",
+      "text": "Hegseth warned Iran that US forces would 'shoot to destroy' any ships laying mines in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQOGxhSF96S0IyUU80Y3Q3Y0xIcUdKVDZBVnlLUmRReXljRmNFRW1oR21LYVdFSXBGWlJjbkRnY2FsMkFHZHZvYUFpLTZBZXBJUG81bFRCWXFEQzZHVXMxZEVFV1pZM0hlVVF1bVpJcU1pcmlHbG5jM0lpSU13X1lWUnNReGk2N0VmSWw3Q2FmMnplakVFWTFWaG5TbHhtRWhNZHlhX2Jvd9IBrAFBVV95cUxOdDk0SWc1VGpYYzZzdzRyZXE0OHlXQTV6clczSkp1MXFreWdMRjNXS1QtN1VhLXpqU2dYb1BYQnhONVNNX1RvWjh0Zm1LRVZQeDQtdncxQkxBVGIyZlVKUWxYN19nSGJ0Y0czc1VIekY2N0xwemhnblN1bVo1Sk53VXlHa0FOZDgxVldaMlJ6aDhoUUlnck1DdHUwcG94akNtc1REMzlaRm9rLTkt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 364
+    },
+    {
+      "date": "Apr 24",
+      "text": "Hezbollah declared the ceasefire 'meaningless' as fighting continued in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 364
+    },
+    {
+      "date": "Apr 24",
+      "text": "Iran’s Armed Forces Command threatened a response if the U.S. blockade of Hormuz continues.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 364
     }
   ],
   "sourceStatuses": [
