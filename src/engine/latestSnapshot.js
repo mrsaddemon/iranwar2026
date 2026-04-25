@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 361,
+  "updateSequence": 362,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T17:51:06.036Z",
+  "lastSyncedAt": "2026-04-25T18:30:38.287Z",
   "warDay": 57,
-  "summary": "The Middle East conflict continues on Day 57 with uncertainty in US-Iran peace talks, an ongoing US blockade of the Strait of Hormuz, and renewed fighting between Israel and Hezbollah despite a fragile ceasefire agreement.",
+  "summary": "The Middle East conflict continues on Day 57 with US-Iran peace talks uncertain, increased military activity in the Strait of Hormuz, and ongoing violence in Lebanon despite a proposed ceasefire.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A ceasefire agreement between Israel and Hezbollah was reportedly extended by 3 weeks, but active fighting continues in southern Lebanon, rendering it fragile."
+    "summary": "A proposed Israel-Lebanon ceasefire extension is met with skepticism and continued violence in southern Lebanon, indicating a fragile status."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 63
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 92,
+    "tradeImpact": 67,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Uncertainty remains in US-Iran peace talks as Trump cancels envoys' trip after Iran officials leave Pakistan.",
+      "text": "Uncertainty remains in US-Iran peace talks on Day 56 of the Middle East conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQdFFmNlVHWmJfbE9IR21icVdKc1pmLUlId3cwWTY2S0RQc3RZVldCa1JQLUhqN2luNVczS2FDWUlOWkFsRU5GWVB0MTAxZXhrQjRITGViQWlILTNXWDFRNndGaU9XVWJ6X0xsclpxallkbThvZmEtTy1FMTZpRVRIZDhoYTZJT3JvcjVkU0JLWHdaVU1DTm5uRElTSlRxY0xnOElhYWFUTjhVemxvajl5aXdGcUl0enhDZGJ2ZTJvSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 361
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 362
     },
     {
-      "date": "Apr 25",
-      "text": "The U.S. military has reportedly used up half of its most expensive missiles, with rebuilding potentially taking up to 4 years.",
+      "date": "Apr 24",
+      "text": "Reports indicate the Iran War has significantly drained U.S. supplies of critical and costly weapons.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxOemRRb2I3NGdaeWRVaUhRQWhpbWk1UWVhMmNxMTRDQTBHWGI4SDRiNWhfRV9Vd0puaW1aODN0QlRPNVRiX01rZWRMblVXRHNTQzVWa3pFYmFOc09acm9TMUU1dmoyT3FfOGxSakVkNXFZTlNtUklxVjI4Yy1Ubms0dmN1NkJOVFFNV3gtTHktbGFzQ1oyVmpfSGZadjBCcEk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 361
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 362
     },
     {
       "date": "Apr 25",
-      "text": "Israel attacks have increased in Lebanon, and ships have been taken in the Strait of Hormuz, with Israel also striking Lebanon despite a ceasefire.",
+      "text": "President Trump cancels sending envoys, including Kushner and Witkoff, for Iran talks in Pakistan, stating 'we have all the cards'.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 362
+    },
+    {
+      "date": "Apr 24",
+      "text": "Israel attacks have increased in Lebanon, and ships have been taken in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 361
+      "latestSinceUpdate": 362
     },
     {
       "date": "Apr 25",
-      "text": "The U.S. has imposed a blockade around the Strait of Hormuz, which Baker Hughes suggests may not fully reopen until the second half of 2026.",
+      "text": "The U.S. has imposed a blockade around the Strait of Hormuz, stating it will last 'as long as it takes,' and is hunting for explosive mines to open the strait.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYlNYYVRkbkhyeUIzU1lTVFUtNUpzMTV2dnRHX0syRWhadmpGQUszd1daMm1DY1VOWDVaNVBFejRod1FMOW44TTdrVDFSelp3akM2STdzT0tHemszZ2F0MkxQTHlka1N1UVVaWDZIS285eV9IZlBkem0tQTdueVRHWlNHdVFURzDSAYwBQVVfeXFMT2FKaHozTUQ0b3lfdnRJd0ZOQThhNlpJV3M1cEFOaGFNdFNIckZINF9teGxiQUpCV1FEVmdLWFV5NGJwdTFsUWhVdXlOZk1QVko1Z1hHc29GQlFwR2czeGhpaS13UGNFRHpSQ25PYzd1eWd2OHRROTZyRmR5TUxGVi1HVEFLaWJiRkFrSEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 361
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxOdUNnZDNzRmRlMXlzMl9jV1FmM0NxdHRIVWFkZ0dUZjNIOXNnRTJIRFlHSUFsVFZqc05Od2ZDWDNyYlpkQUVrbXpOWS1PbElqLXVETHlqNnFEbllUeTlLZ05uTU1ic0E0R0RBRURPRjljeWZHUGZCVEc5S3UwZkt2Yjg2aDZNVzdHNzVoWS1aVnBHaWd2alVudlZvSkprWnRBOG03ZDZtTVEtd0FmS25zNEh0aTg5a3lKanM5bWhfcjRYNWxXY0ZNQndCY1c5UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Seattle Times",
+      "latestSinceUpdate": 362
     },
     {
       "date": "Apr 25",
-      "text": "Hezbollah states the ceasefire is 'meaningless' as fighting continues in southern Lebanon, despite Trump announcing an agreement to extend it by 3 weeks.",
-      "severity": "critical",
+      "text": "Hezbollah declares a ceasefire 'meaningless' as fighting continues in southern Lebanon, despite Trump's announcement of a three-week extension.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 361
-    },
-    {
-      "date": "Apr 25",
-      "text": "Iran caused more extensive damage to U.S. military bases than publicly known, and the Senate Armed Services chair urges Trump to resume strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQY3A3aFAtRXVVbHhmSW9xT2RVbFBVdFJLbkktNWZUSVpPMG5IclJyYTQtYVRjTnU3QVQwYXFNNE5QbGJmNndaWER2Nk1mWXFSOFdmS1U3V2ZrLTJ2LUdpY0FzZ2Zia0Y3ZnBFUVdxOFdydEgzR3pTWkl3UkRuNjlDUmlxd1ZCalFrWUU2a09ocVhnYmFCMldYMExQTVVQLXBHYm5DYlhDRGZfcG8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 361
+      "latestSinceUpdate": 362
     }
   ],
   "sourceStatuses": [

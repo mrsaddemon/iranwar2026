@@ -1,13 +1,13 @@
 {
-  "updateSequence": 361,
+  "updateSequence": 362,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T17:51:06.036Z",
+  "lastSyncedAt": "2026-04-25T18:30:38.287Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A ceasefire agreement between Israel and Hezbollah was reportedly extended by 3 weeks, but active fighting continues in southern Lebanon, rendering it fragile."
+    "summary": "A proposed Israel-Lebanon ceasefire extension is met with skepticism and continued violence in southern Lebanon, indicating a fragile status."
   }
 }
