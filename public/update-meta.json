@@ -1,13 +1,13 @@
 {
-  "updateSequence": 357,
+  "updateSequence": 358,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T14:26:29.536Z",
+  "lastSyncedAt": "2026-04-25T15:22:31.209Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 21,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 2,
+    "summary": "A ceasefire extended by Trump is in effect but remains highly fragile with reported violations by both Israel and Hezbollah, and ongoing fighting."
   }
 }

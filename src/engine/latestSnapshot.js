@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 357,
+  "updateSequence": 358,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T14:26:29.536Z",
+  "lastSyncedAt": "2026-04-25T15:22:31.209Z",
   "warDay": 57,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The Middle East conflict continues on Day 57 with a fragile ceasefire between Israel and Lebanon, while the US maintains a blockade of the Strait of Hormuz against Iran amidst ongoing peace talks.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 21,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 2,
+    "summary": "A ceasefire extended by Trump is in effect but remains highly fragile with reported violations by both Israel and Hezbollah, and ongoing fighting."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.78,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.68
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 12,
+    "escalationLevel": 48,
+    "oilDisruption": 83,
+    "tradeImpact": 60,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 25",
-      "text": "Iran Update Special Report, April 24, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPeXlOS0xsUTBPTVozZ3h3SWx4VHhSZk5ZVnRycnUwZzNaQzlGSC0wRG4zQy1DZXNSUnhySG5yazRJUUg3ZWFYTTg5amR4MXdGb0JGUHNPRFlGZE1ESGNHMjg5RHgxLXdNOHNyeVYyX1Nja3ZaVmpFMkEtTW1JX2V5ZDVHdmtFYWFGaVV5STA3bkJHS1h6ZFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 357
-    },
-    {
-      "date": "Apr 25",
-      "text": "Iran war: What’s happening on day 56 after Trump extended ceasefire?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOdzhxa1lSUVgwQmJlMWVRbEJUblNYMjlFSFlGNF9uMkRTZEJVek5BUW4xcUxELWpwaTNKbTEwYTlCTVc2S1BvXzd6NXlHUG5ibG12Q0xUcWJMamY3ZEQtMDdDcHp3MTJLcFBmcG1fZm8zakJCVG5rQ0d1VkVYcFdtQmFYUmZ0YkVsNEtBaG01MU5pVGFYS3ZXZXJKNl96TnE1RjJZNVRfX2tBZ9IBrwFBVV95cUxOUko1T2YyMUJFMlZ5OXZWTXMtcExfUWZkRFZ6VE43VW9mS1VRSjVqX1VRSUNQRHhnSGx5YjVLY0NTSjhzY3NMcjZQa2tWcU9wdjMyN2ptTV93SFVtcW9pQU8zXzZKX1RxTzdELVBxNXZVSWVxU09qM09wY2gya3prYklLRElQNi14OTJOWk00dEhTOUhVZVNSSFptSzRhS1NEU290Rm9JZ1hxM25nemI0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 357
-    },
-    {
-      "date": "Apr 25",
-      "text": "Day 56 of Middle East conflict - Uncertainty remains in US-Iran peace talks",
+      "date": "Apr 24",
+      "text": "Uncertainty remains in US-Iran peace talks despite a ceasefire extension.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 357
+      "latestSinceUpdate": 358
     },
     {
-      "date": "Apr 25",
-      "text": "Iran War Has Drained U.S. Supplies of Critical, Costly Weapons",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9LNlk4MTlOQm1MSkJzLXZpQXdzNXY2YWMzaEE5Qi1zdDlTbnR5VGlmSEt6VURoakREcF95cjBmTU1MZjJaR3FfYUtwNVhXSlZsNHo1elhCSmpXemhadWJCZzRtRi01ZlFlbjd2ZHBHMjM5Y1NlbFhEVFRndERhcVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 357
+      "date": "Apr 24",
+      "text": "Reports indicate the Iran War has significantly drained U.S. supplies of critical and costly weapons.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 358
     },
     {
-      "date": "Apr 25",
-      "text": "Israel, Iran: Unlawful March Attacks on Energy Infrastructure",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxObl94d0JQeUlhb19qd21mLWxHbnBza09pYzlncGVmV0VHRU1iWk1ncVVqLVhreUZsZi1yc3laUWMwdXM5bzZQcGVpNVNIRHFfaHNlSFNKaHdjeTdRaGRJNGxkV0VILUtncW9LQm00VE9MMU13cE1XcEd3ZTMzanZ3Q3dGcVpkb3NvQzBQRks3aEVsWUU4ZElTMkV3aw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Human Rights Watch",
-      "latestSinceUpdate": 357
-    },
-    {
-      "date": "Apr 25",
-      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
-      "severity": "info",
+      "date": "Apr 24",
+      "text": "Israel has increased attacks in Lebanon, and ships have been taken in the Strait of Hormuz.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 357
+      "latestSinceUpdate": 358
+    },
+    {
+      "date": "Apr 24",
+      "text": "Tehran has set out demands to mediators in Pakistan regarding the conflict.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 358
+    },
+    {
+      "date": "Apr 24",
+      "text": "The U.S. blockade around the Strait of Hormuz is stated to last 'as long as it takes'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 358
+    },
+    {
+      "date": "Apr 24",
+      "text": "Hezbollah has declared the ceasefire 'meaningless' as fighting persists in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 358
     }
   ],
   "sourceStatuses": [
