@@ -1,13 +1,13 @@
 {
-  "updateSequence": 366,
+  "updateSequence": 367,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T21:48:18.464Z",
+  "lastSyncedAt": "2026-04-25T22:19:51.214Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "The ceasefire between Israel and Hezbollah has effectively collapsed, with both sides continuing attacks in southern Lebanon."
+    "summary": "Despite an announced extension, the Israel-Hezbollah ceasefire is widely reported as ineffective with fighting continuing."
   }
 }
