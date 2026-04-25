@@ -1,13 +1,13 @@
 {
-  "updateSequence": 353,
+  "updateSequence": 354,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T10:25:27.778Z",
+  "lastSyncedAt": "2026-04-25T11:23:50.183Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A three-week Israel-Lebanon ceasefire has been extended by President Trump, but fighting continues in the south and Hezbollah deems it meaningless."
+    "summary": "The Israel-Lebanon ceasefire has been extended by three weeks, but it remains fragile with continued fighting and violations reported by both sides."
   }
 }
