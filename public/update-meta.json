@@ -1,13 +1,13 @@
 {
-  "updateSequence": 362,
+  "updateSequence": 363,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T18:30:38.287Z",
+  "lastSyncedAt": "2026-04-25T19:29:23.980Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 21,
-    "summary": "A proposed Israel-Lebanon ceasefire extension is met with skepticism and continued violence in southern Lebanon, indicating a fragile status."
+    "durationDays": 7,
+    "summary": "An extended ceasefire has effectively collapsed due to continued fighting, Hezbollah's defiance, and the cancellation of US-Iran peace talks."
   }
 }

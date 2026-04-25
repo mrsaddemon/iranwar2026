@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 362,
+  "updateSequence": 363,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T18:30:38.287Z",
+  "lastSyncedAt": "2026-04-25T19:29:23.980Z",
   "warDay": 57,
-  "summary": "The Middle East conflict continues on Day 57 with US-Iran peace talks uncertain, increased military activity in the Strait of Hormuz, and ongoing violence in Lebanon despite a proposed ceasefire.",
+  "summary": "Despite an extended ceasefire, diplomatic efforts between the US and Iran have collapsed, with continued military actions in the region and US focus on securing the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 21,
-    "summary": "A proposed Israel-Lebanon ceasefire extension is met with skepticism and continued violence in southern Lebanon, indicating a fragile status."
+    "durationDays": 7,
+    "summary": "An extended ceasefire has effectively collapsed due to continued fighting, Hezbollah's defiance, and the cancellation of US-Iran peace talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.75
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 92,
-    "tradeImpact": 67,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Uncertainty remains in US-Iran peace talks on Day 56 of the Middle East conflict.",
+      "text": "Uncertainty remains in US-Iran peace talks despite an extended ceasefire.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 362
+      "sourceName": "Google News",
+      "latestSinceUpdate": 363
     },
     {
       "date": "Apr 24",
-      "text": "Reports indicate the Iran War has significantly drained U.S. supplies of critical and costly weapons.",
-      "severity": "critical",
+      "text": "Reports indicate the Iran War has drained U.S. supplies of critical, costly weapons.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 362
+      "sourceName": "Google News",
+      "latestSinceUpdate": 363
     },
     {
-      "date": "Apr 25",
-      "text": "President Trump cancels sending envoys, including Kushner and Witkoff, for Iran talks in Pakistan, stating 'we have all the cards'.",
+      "date": "Apr 24",
+      "text": "Israel and Iran are accused of unlawful March attacks on energy infrastructure.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 362
+      "sourceName": "Google News",
+      "latestSinceUpdate": 363
     },
     {
       "date": "Apr 24",
       "text": "Israel attacks have increased in Lebanon, and ships have been taken in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceName": "Google News",
       "latestSinceUpdate": 362
     },
     {
       "date": "Apr 25",
-      "text": "The U.S. has imposed a blockade around the Strait of Hormuz, stating it will last 'as long as it takes,' and is hunting for explosive mines to open the strait.",
+      "text": "President Trump canceled sending envoys for Iran talks, stating the US holds 'all the cards'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxOdUNnZDNzRmRlMXlzMl9jV1FmM0NxdHRIVWFkZ0dUZjNIOXNnRTJIRFlHSUFsVFZqc05Od2ZDWDNyYlpkQUVrbXpOWS1PbElqLXVETHlqNnFEbllUeTlLZ05uTU1ic0E0R0RBRURPRjljeWZHUGZCVEc5S3UwZkt2Yjg2aDZNVzdHNzVoWS1aVnBHaWd2alVudlZvSkprWnRBOG03ZDZtTVEtd0FmS25zNEh0aTg5a3lKanM5bWhfcjRYNWxXY0ZNQndCY1c5UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Seattle Times",
-      "latestSinceUpdate": 362
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 363
     },
     {
       "date": "Apr 25",
-      "text": "Hezbollah declares a ceasefire 'meaningless' as fighting continues in southern Lebanon, despite Trump's announcement of a three-week extension.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 362
+      "text": "The U.S. blockade around the Strait of Hormuz will last 'as long as it takes,' according to Hegseth.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 363
     }
   ],
   "sourceStatuses": [
