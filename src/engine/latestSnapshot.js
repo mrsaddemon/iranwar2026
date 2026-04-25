@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 359,
+  "updateSequence": 360,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T16:07:21.418Z",
+  "lastSyncedAt": "2026-04-25T16:59:56.114Z",
   "warDay": 57,
-  "summary": "The US-Iran conflict continues on Day 57 with a US blockade of the Strait of Hormuz, ongoing military actions in the region, and concerns over US weapon stockpiles, despite a fragile Israel-Lebanon ceasefire extension.",
+  "summary": "The Middle East conflict continues on Day 57 with ongoing US-Israeli strikes on Iran, a US blockade of the Strait of Hormuz, and persistent fighting in Lebanon despite a fragile ceasefire extension.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A three-week ceasefire between Israel and Lebanon has been extended by Trump, but Hezbollah considers it meaningless as fighting persists in the south."
+    "summary": "A three-week ceasefire extension between Israel and Lebanon is in effect, but fighting continues in the south, and Hezbollah has declared it meaningless, while US-Iran peace talks remain uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 72
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 92,
+    "tradeImpact": 67,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Uncertainty remains in US-Iran peace talks as the conflict continues on day 56.",
+      "text": "Iran Update Special Report released.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPeXlOS0xsUTBPTVozZ3h3SWx4VHhSZk5ZVnRycnUwZzNaQzlGSC0wRG4zQy1DZXNSUnhySG5yazRJUUg3ZWFYTTg5amR4MXdGb0JGUHNPRFlGZE1ESGNHMjg5RHgxLXdNOHNyeVYyX1Nja3ZaVmpFMkEtTW1JX2V5ZDVHdmtFYWFGaVV5STA3bkJHS1h6ZFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 360
+    },
+    {
+      "date": "Apr 25",
+      "text": "Uncertainty remains in US-Iran peace talks on Day 56 of the Middle East conflict.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 359
+      "latestSinceUpdate": 360
     },
     {
-      "date": "Apr 24",
-      "text": "The Iran War has significantly drained U.S. supplies of critical, costly weapons, with rebuilding potentially taking up to 4 years.",
+      "date": "Apr 25",
+      "text": "Reports indicate the Iran War has drained U.S. supplies of critical, costly weapons.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 359
+      "latestSinceUpdate": 360
     },
     {
-      "date": "Apr 24",
-      "text": "Israel and Iran conducted unlawful attacks on energy infrastructure in March.",
-      "severity": "critical",
+      "date": "Apr 25",
+      "text": "Israel and Iran reportedly conducted unlawful March attacks on energy infrastructure.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 359
+      "latestSinceUpdate": 360
     },
     {
-      "date": "Apr 24",
-      "text": "Israel's attacks are increasing in Lebanon, and ships have been taken in the Strait of Hormuz.",
+      "date": "Apr 25",
+      "text": "Israel's attacks increased in Lebanon, and ships were taken in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 359
+      "latestSinceUpdate": 360
     },
     {
-      "date": "Apr 24",
-      "text": "Tehran has set out its demands to mediators in Pakistan for peace talks.",
-      "severity": "info",
+      "date": "Apr 25",
+      "text": "Trump canceled sending envoys for Iran talks, stating 'we have all the cards'.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 359
-    },
-    {
-      "date": "Apr 24",
-      "text": "Satellite data reveals the scope and scale of US-Israeli strikes on Iran.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 359
+      "latestSinceUpdate": 360
     }
   ],
   "sourceStatuses": [

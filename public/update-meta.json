@@ -1,13 +1,13 @@
 {
-  "updateSequence": 359,
+  "updateSequence": 360,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T16:07:21.418Z",
+  "lastSyncedAt": "2026-04-25T16:59:56.114Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A three-week ceasefire between Israel and Lebanon has been extended by Trump, but Hezbollah considers it meaningless as fighting persists in the south."
+    "summary": "A three-week ceasefire extension between Israel and Lebanon is in effect, but fighting continues in the south, and Hezbollah has declared it meaningless, while US-Iran peace talks remain uncertain."
   }
 }
