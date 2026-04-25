@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 346,
-  "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T23:51:11.126Z",
-  "warDay": 56,
-  "summary": "The Iran war continues on day 56 with a US blockade of the Strait of Hormuz, increased Israeli attacks in Lebanon, and an extended but fragile ceasefire between Israel and Lebanon.",
-  "lastNarrativeUpdate": "2026-04-24",
+  "updateSequence": 347,
+  "lastUpdated": "2026-04-25",
+  "lastSyncedAt": "2026-04-25T01:07:44.793Z",
+  "warDay": 57,
+  "summary": "The Iran war continues on day 57 with a fragile Israel-Lebanon ceasefire extension, ongoing US blockade of the Strait of Hormuz, and diplomatic efforts for peace talks.",
+  "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A three-week ceasefire between Israel and Lebanon has been extended, but Hezbollah claims it is 'meaningless' amid continued fighting, and US-Iran tensions in Hormuz remain high."
+    "summary": "An Israel-Lebanon ceasefire has been extended by three weeks, though fighting continues in the south and uncertainty persists regarding the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.4,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 24",
-      "text": "U.S. blockade around Strait of Hormuz declared to last 'as long as it takes'.",
+      "date": "Apr 25",
+      "text": "Pentagon chief Hegseth states the U.S. blockade around the Strait of Hormuz will last 'as long as it takes' and is 'going global'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/some-url-hegseth-blockade",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 346
+      "latestSinceUpdate": 347
     },
     {
-      "date": "Apr 24",
-      "text": "Hegseth declares victory while preparing for more war with Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/some-url-hegseth-victory",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 346
-    },
-    {
-      "date": "Apr 24",
-      "text": "Israel attacks increase in Lebanon; ships taken in Hormuz.",
+      "date": "Apr 25",
+      "text": "Israel attacks reportedly increase in Lebanon, and ships are taken in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/some-url-israel-lebanon-hormuz",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 345
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 347
     },
     {
-      "date": "Apr 24",
-      "text": "Satellite data reveal scope and scale of US-Israeli strikes on Iran.",
+      "date": "Apr 25",
+      "text": "U.S. military is developing plans to target Iran’s Strait of Hormuz defenses if the ceasefire fails.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/some-url-satellite-strikes",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 345
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQaVk4eWR6LXRSekNDOHFWS1paVDlIS2tIa1BNQkt6WUhPTVZjUlc4M2NVWFdyY1Rhd1hmMXhZd0pOaXZ1dmxCZ085elczZWRXTlY5SDFvcl9DR3pWVTQwNkxlekQ3N05HTnFGSmJoNVZlUHJxVzZ3ZHY1VndVekVEaTVKNVlMdDRETHZTa0FUNlM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 347
     },
     {
-      "date": "Apr 24",
-      "text": "Over 100 international law experts warn U.S. strikes on Iran violate UN Charter and may be war crimes.",
+      "date": "Apr 25",
+      "text": "Hezbollah declares the ceasefire 'meaningless' as fighting continues in southern regions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/some-url-un-charter",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 346
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 347
     },
     {
-      "date": "Apr 24",
-      "text": "US military developing plans to target Iran’s Strait of Hormuz defenses if ceasefire fails.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/some-url-hormuz-defenses",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 346
+      "date": "Apr 25",
+      "text": "Trump announces the Israel-Lebanon ceasefire will be extended by three weeks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE16ZjZROTdEeDNwRVhBRkNJdmp0Ync1ZjNUNjhYaS14TGNNRDJkNWxnTjBhVm9ZLTNaUU1YM1BKOXNMWndMN2hERVhuWWpYSWV4bGxZZUgtMElZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 347
+    },
+    {
+      "date": "Apr 25",
+      "text": "White House announces Witkoff and Kushner will head to new Iran peace talks in Pakistan.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 347
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "Defensive Strikes and Maritime Enforcement",
-      "summary": "The US and Israel are conducting strikes on Iran and taking measures to secure the Strait of Hormuz, responding to perceived threats and maintaining regional stability. The extension of the Israel-Lebanon ceasefire is seen as a diplomatic success.",
+      "perspective": "US Military/Administration",
+      "headline": "US Blockade on Hormuz to Persist, Hegseth Declares Victory While Preparing for More War",
+      "summary": "The US maintains a firm stance on its blockade of the Strait of Hormuz, with Pentagon chief Hegseth declaring victory while simultaneously preparing for potential further conflict. Concerns are noted regarding the depletion of US advanced munitions supplies.",
       "tone": "defiant",
-      "latestSinceUpdate": 330
+      "latestSinceUpdate": 347
     },
     {
-      "perspective": "Iran",
-      "headline": "Facing Aggression and Blockade Threats",
-      "summary": "Iran is under attack from US and Israeli forces and faces direct military threats regarding its activities in the Strait of Hormuz. The 'shoot and kill' order and naval blockade are viewed as significant escalations against Iranian sovereignty.",
+      "perspective": "Iran/Hezbollah",
+      "headline": "Hezbollah Defiant as Fighting Continues Despite Ceasefire Extension",
+      "summary": "Hezbollah dismisses the ceasefire extension as 'meaningless' and continues fighting in southern regions. Iran faces a US blockade in the Strait of Hormuz, with reports of ships being taken.",
+      "tone": "defiant",
+      "latestSinceUpdate": 347
+    },
+    {
+      "perspective": "International Law",
+      "headline": "Experts Warn US Strikes on Iran May Constitute War Crimes",
+      "summary": "Over 100 international law experts have issued a warning that US strikes on Iran violate the UN Charter and could be considered war crimes, raising questions about the legality of the ongoing campaign.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 347
+    },
+    {
+      "perspective": "Diplomatic/Economic",
+      "headline": "Ceasefire Extended Amid Peace Talks and Global Economic Strain",
+      "summary": "An Israel-Lebanon ceasefire has been extended for three weeks, with new peace talks involving Witkoff and Kushner heading to Pakistan. The ongoing conflict is noted to be impacting the world economy, and US re-arming efforts highlight long-term supply concerns.",
       "tone": "strained",
-      "latestSinceUpdate": 330
-    },
-    {
-      "perspective": "Global Economy",
-      "headline": "Oil Market Volatility Amid Strait Tensions",
-      "summary": "Escalating tensions in the Strait of Hormuz, a critical oil transit choke point, are directly impacting global oil prices. The risk of supply disruption remains high, despite a localized ceasefire in the Levant.",
-      "tone": "anxious",
-      "latestSinceUpdate": 330
+      "latestSinceUpdate": 347
     }
   ]
 });

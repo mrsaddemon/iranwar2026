@@ -1,13 +1,13 @@
 {
-  "updateSequence": 346,
-  "lastUpdated": "2026-04-24",
-  "lastSyncedAt": "2026-04-24T23:51:11.126Z",
-  "warDay": 56,
+  "updateSequence": 347,
+  "lastUpdated": "2026-04-25",
+  "lastSyncedAt": "2026-04-25T01:07:44.793Z",
+  "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "A three-week ceasefire between Israel and Lebanon has been extended, but Hezbollah claims it is 'meaningless' amid continued fighting, and US-Iran tensions in Hormuz remain high."
+    "summary": "An Israel-Lebanon ceasefire has been extended by three weeks, though fighting continues in the south and uncertainty persists regarding the Strait of Hormuz."
   }
 }
