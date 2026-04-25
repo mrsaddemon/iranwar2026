@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 358,
+  "updateSequence": 359,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T15:22:31.209Z",
+  "lastSyncedAt": "2026-04-25T16:07:21.418Z",
   "warDay": 57,
-  "summary": "The Middle East conflict continues on Day 57 with a fragile ceasefire between Israel and Lebanon, while the US maintains a blockade of the Strait of Hormuz against Iran amidst ongoing peace talks.",
+  "summary": "The US-Iran conflict continues on Day 57 with a US blockade of the Strait of Hormuz, ongoing military actions in the region, and concerns over US weapon stockpiles, despite a fragile Israel-Lebanon ceasefire extension.",
   "lastNarrativeUpdate": "2026-04-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A ceasefire extended by Trump is in effect but remains highly fragile with reported violations by both Israel and Hezbollah, and ongoing fighting."
+    "durationDays": 21,
+    "summary": "A three-week ceasefire between Israel and Lebanon has been extended by Trump, but Hezbollah considers it meaningless as fighting persists in the south."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.68
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 83,
-    "tradeImpact": 60,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 67,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Uncertainty remains in US-Iran peace talks despite a ceasefire extension.",
+      "text": "Uncertainty remains in US-Iran peace talks as the conflict continues on day 56.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQeTN5a2dGaXEzWTRJQmc5T0pPbzlpbXVZWkpXOU9hUGJ2QzZMMjU4ZFp5TVl6bTB3VUY0dkJBTnloR2lPTmU0blAyT2FsYTc2WDZHU1p2R0JwN0hpUXVLcGNDSzNMR3M4NVlSdU5TQlRVUm5PNkREWGJDemFxbHptU3dR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 358
+      "latestSinceUpdate": 359
     },
     {
       "date": "Apr 24",
-      "text": "Reports indicate the Iran War has significantly drained U.S. supplies of critical and costly weapons.",
+      "text": "The Iran War has significantly drained U.S. supplies of critical, costly weapons, with rebuilding potentially taking up to 4 years.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 358
+      "latestSinceUpdate": 359
     },
     {
       "date": "Apr 24",
-      "text": "Israel has increased attacks in Lebanon, and ships have been taken in the Strait of Hormuz.",
+      "text": "Israel and Iran conducted unlawful attacks on energy infrastructure in March.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 359
+    },
+    {
+      "date": "Apr 24",
+      "text": "Israel's attacks are increasing in Lebanon, and ships have been taken in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 358
+      "latestSinceUpdate": 359
     },
     {
       "date": "Apr 24",
-      "text": "Tehran has set out demands to mediators in Pakistan regarding the conflict.",
+      "text": "Tehran has set out its demands to mediators in Pakistan for peace talks.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 358
+      "latestSinceUpdate": 359
     },
     {
       "date": "Apr 24",
-      "text": "The U.S. blockade around the Strait of Hormuz is stated to last 'as long as it takes'.",
-      "severity": "warning",
+      "text": "Satellite data reveals the scope and scale of US-Israeli strikes on Iran.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 358
-    },
-    {
-      "date": "Apr 24",
-      "text": "Hezbollah has declared the ceasefire 'meaningless' as fighting persists in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPMjIzX3ZxYjhjTURMWjlQUFlBSXhqSUJpZ280eG5VdnJxWEp5SjNKRFhzczh3VnR2RG1pQVVJQTJzUFZ0V0ZOZUNIQjV0eUNxZlAxS1BKNWRCSUpuU01WeDdLS3NmZkRmcFAtT2lIZzg2cmxXZ25Gb285a1BOTTBkNU9melFDbzd1T1ZRUURJb1pBWG1aQzhfaExLM3hKYkZHOHBsaTcySjZEU3VDX1Rr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 358
+      "latestSinceUpdate": 359
     }
   ],
   "sourceStatuses": [
