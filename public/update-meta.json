@@ -1,13 +1,13 @@
 {
-  "updateSequence": 350,
+  "updateSequence": 351,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T07:42:16.706Z",
+  "lastSyncedAt": "2026-04-25T08:37:02.774Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 21,
-    "summary": "A two-week ceasefire was extended by three weeks, but its effectiveness is undermined by continued fighting in Lebanon and heightened tensions in the Strait of Hormuz."
+    "durationDays": 2026,
+    "summary": "An Israel-Lebanon ceasefire, reportedly extended by three weeks, is deemed 'meaningless' by Hezbollah and violated by continued Israeli attacks, indicating its collapse."
   }
 }
