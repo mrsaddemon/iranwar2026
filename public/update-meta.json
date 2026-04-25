@@ -1,13 +1,13 @@
 {
-  "updateSequence": 364,
+  "updateSequence": 365,
   "lastUpdated": "2026-04-25",
-  "lastSyncedAt": "2026-04-25T20:04:47.014Z",
+  "lastSyncedAt": "2026-04-25T20:53:42.873Z",
   "warDay": 57,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A ceasefire was extended by President Trump, but it is widely perceived as fragile and is being tested by ongoing fighting in Lebanon and threats from multiple parties."
+    "durationDays": 5,
+    "summary": "An extended ceasefire is in effect but is highly fragile, with Hezbollah declaring it 'meaningless' and Israel continuing strikes in Lebanon."
   }
 }
