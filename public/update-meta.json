@@ -1,13 +1,13 @@
 {
-  "updateSequence": 381,
+  "updateSequence": 382,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T15:23:47.783Z",
+  "lastSyncedAt": "2026-04-26T16:09:39.889Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 21,
-    "summary": "The ceasefire in Lebanon is under severe strain and threatened by expanding Israeli strikes and Hezbollah defiance."
+    "durationDays": 14,
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but is severely threatened by ongoing Israeli strikes in Lebanon and Iran's actions in the Strait of Hormuz, leading to questions about its validity."
   }
 }
