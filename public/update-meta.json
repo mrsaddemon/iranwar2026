@@ -1,13 +1,13 @@
 {
-  "updateSequence": 370,
+  "updateSequence": 371,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T01:15:31.652Z",
+  "lastSyncedAt": "2026-04-26T04:33:36.172Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A nominal ceasefire between Israel and Hezbollah in Lebanon is being actively breached and questioned by both sides, indicating extreme fragility."
+    "summary": "A ceasefire extension in Lebanon appears to have collapsed amid continued Israeli and Hezbollah attacks, while US-Iran peace talks remain stalled."
   }
 }
