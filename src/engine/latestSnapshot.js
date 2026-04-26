@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 380,
+  "updateSequence": 381,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T14:33:23.334Z",
+  "lastSyncedAt": "2026-04-26T15:23:47.783Z",
   "warDay": 58,
-  "summary": "The Iran-Israel conflict continues with escalating tensions around the Strait of Hormuz, a threatened ceasefire in Lebanon, and concerns over US military supplies.",
+  "summary": "The ongoing conflict involving Iran, the US, and Israel continues with heightened tensions around the Strait of Hormuz, a fragile ceasefire in Lebanon, and diplomatic efforts amidst reports of strained US weapon supplies.",
   "lastNarrativeUpdate": "2026-04-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The ceasefire in Lebanon is under severe strain and threatened by expanded Israeli strikes and Hezbollah's defiance."
+    "summary": "The ceasefire in Lebanon is under severe strain and threatened by expanding Israeli strikes and Hezbollah defiance."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 90
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.95
+        "aggression": 0.7
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 70
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 24",
-      "text": "Iran Update Special Report released; Iran's FM returns to Pakistan; Israel attacks Lebanon.",
+      "date": "Apr 26",
+      "text": "Iranian foreign minister travels to Islamabad for key consultative meetings with Pakistani officials.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 380
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 381
     },
     {
       "date": "Apr 26",
-      "text": "Reports indicate the Iran War has drained U.S. supplies of critical, costly weapons.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 380
-    },
-    {
-      "date": "Apr 26",
-      "text": "Ceasefire is threatened as Israel expands Lebanon strikes and Iran closes the Strait of Hormuz again.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQM0M4QVNLMzRVZGI1YTVINHdJUWZFYU5DbEs5NjBxNVNkXzU2YUw0VDNlMXE3NTg2ZTRucjRaLXVBc19aaTF5RTA5Q1ZFOTlpZ2NYVUpqUFhMMERzRW5SdVV5dzUyajZLaVowRFR6WTM0Sks5MFFsb3NlYnRyR1lsTUdLaVBsejlaamtFcEUtODZHcjk4cjBIa2tnekhrZWpFTDlj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 380
-    },
-    {
-      "date": "Apr 26",
-      "text": "Over 100 International Law Experts warn U.S. strikes on Iran may violate UN Charter and be war crimes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Just Security",
-      "latestSinceUpdate": 380
-    },
-    {
-      "date": "Apr 26",
-      "text": "U.S. turns to drones after retiring minesweepers to reopen the Strait of Hormuz amid the Iran crisis.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQaVJUdEV6aEdEZ01Ta2k5VFRxclJMbTZUS0tNYVVsZnBsUWtLZGFvZGkzYVYySXhWdlRIcEZKbVFQSVhubWJLdmdoRXBoUDFjVVZyZTBEYWtJTEZSenpYcTFrQ1Mta3ZKcl94UGFkd2NSQVVycUU4YmZDNjh1SERmaHh2UTN3T00zZDIwYWJWNGVIa1kzQ3hIUnhyU0hwVzZpVG9hS1p4blBIYUJORHRpN0tDNE3SAboBQVVfeXFMTzdBSmpLdVFmRTEySnRYRDJfUkl0d2ExOThFM0NkMzN6UUY2VXFVc3plTXZaYlcxZFE4Y05TWlY1OGdRLU84emdIWWYwVkhzYXBEWjJuNjRucGNZWVhvRzRhelhBa0hoUGhCeUUyT0otTFFySS1wV0I1UzRvQXI0UlJPV3R4ZnNielQ3dmNfdmFVZnlDZVNHMGpQV0FveHJDUmpnRURseHN1aDVSSkhDZEUydjJvSDNTQUN3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "foxnews.com",
-      "latestSinceUpdate": 380
-    },
-    {
-      "date": "Apr 26",
-      "text": "U.S. blockade around the Strait of Hormuz will last 'as long as it takes,' according to Hegseth.",
+      "text": "Israel expands strikes in Lebanon, killing four and threatening the ceasefire with Hezbollah.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 380
+      "latestSinceUpdate": 381
+    },
+    {
+      "date": "Apr 26",
+      "text": "Iran closes the Strait of Hormuz again, leading to a US blockade and concerns of a major oil shock.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 381
+    },
+    {
+      "date": "Apr 26",
+      "text": "Former President Trump cancels dispatching envoys for Iran talks, stating 'We have all the cards'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 381
+    },
+    {
+      "date": "Apr 26",
+      "text": "Reports indicate Iran caused billions in damage to US military bases in the Gulf region.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNZ3ExaFZxWnVYc1h6OTNLVE5HOXhGTUpuN1FQRW9xSjhMaUFldEUxc1JnTVY5OFpweGtjRm9oUGpOZ1kyTkV3Z0pIZV9ZN0d3ZEVkWDJPYlpSbjB2VkFGVW02blFuMHJBUmF0dXExZUJIbDd2aVNkZmVJb2pHQ29yQUtkSnZld9IBiwFBVV95cUxNajFNTG5USWN1cnFaZnV1bld3X0NXb210MjJDVXVzdUU0WmxnYlBJWGszaGwyTjRNcjdQaGJUSDlpZlU1Ty1RNkpUa2pkZWxvOE1aTFRoT09BMDlxYWZTbFVUMjRfT3RTZ2U4c21XZHdCamQwclY4alEwN3ViRlFuWnJzYnpHOGdIV25Z?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 381
+    },
+    {
+      "date": "Apr 26",
+      "text": "US military is re-arming and developing plans to target Iran’s Strait of Hormuz defenses if the ceasefire fails.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQRlFxaDZ4TXFXaTNSbGhWQXZjR0M3MDltLWtVYW5vUDBzTkc5eXVyNlI2ek9Ga1BBUEduUlZwMzhITnlMcnBTQUFLVlYzTHFPVTZHbGFYb2ZrNWJrR0hKNzZRQS1qOFVjWVFkSDAxMW9kVFpOZWVaa2FLYWlONWJQbzU2ZVh3cjVXMDVwUTBOdlRmUUpQZWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 381
     }
   ],
   "sourceStatuses": [

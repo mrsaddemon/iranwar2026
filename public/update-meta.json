@@ -1,13 +1,13 @@
 {
-  "updateSequence": 380,
+  "updateSequence": 381,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T14:33:23.334Z",
+  "lastSyncedAt": "2026-04-26T15:23:47.783Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The ceasefire in Lebanon is under severe strain and threatened by expanded Israeli strikes and Hezbollah's defiance."
+    "summary": "The ceasefire in Lebanon is under severe strain and threatened by expanding Israeli strikes and Hezbollah defiance."
   }
 }
