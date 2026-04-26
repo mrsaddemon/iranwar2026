@@ -1,13 +1,13 @@
 {
-  "updateSequence": 375,
+  "updateSequence": 376,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T10:09:49.832Z",
+  "lastSyncedAt": "2026-04-26T11:07:05.488Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in effect, but its stability is undermined by the ongoing U.S. blockade and continued clashes between Israel and Hezbollah."
+    "durationDays": 21,
+    "summary": "A 2-week US-Iran ceasefire is in effect, but the Israel-Hezbollah ceasefire, though extended, is experiencing significant breaches and renewed attacks."
   }
 }
