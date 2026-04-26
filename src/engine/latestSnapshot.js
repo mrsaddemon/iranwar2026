@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 383,
+  "updateSequence": 384,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T17:05:00.774Z",
+  "lastSyncedAt": "2026-04-26T17:53:32.021Z",
   "warDay": 58,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran-Israel conflict continues with ongoing clashes between Israel and Hezbollah in Lebanon, a fragile 2-week ceasefire between the U.S. and Iran, and a significant, prolonged disruption to oil transit through the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A ceasefire extension between Israel and Hezbollah is reportedly defied and breached, with Israel escalating strikes and Iran closing the Strait of Hormuz."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is active, but ongoing Israel-Hezbollah clashes suggest its fragility and limited scope."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.7
       }
     },
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Iran's Foreign Minister returns to Pakistan for key consultative meetings.",
+      "text": "An Iran Update Special Report was released, detailing ongoing developments in the conflict.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 383
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPeXlOS0xsUTBPTVozZ3h3SWx4VHhSZk5ZVnRycnUwZzNaQzlGSC0wRG4zQy1DZXNSUnhySG5yazRJUUg3ZWFYTTg5amR4MXdGb0JGUHNPRFlGZE1ESGNHMjg5RHgxLXdNOHNyeVYyX1Nja3ZaVmpFMkEtTW1JX2V5ZDVHdmtFYWFGaVV5STA3bkJHS1h6ZFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 384
     },
     {
-      "date": "Apr 26",
-      "text": "Israel expands strikes in Lebanon, killing four and escalating ceasefire breaches.",
+      "date": "Recent",
+      "text": "The U.S. and Iran reached a 2-week ceasefire agreement ahead of a Trump deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 384
+    },
+    {
+      "date": "Recent",
+      "text": "President Trump called off dispatching envoys for Iran talks, stating the U.S. holds a strong negotiating position.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EZkM3NURlaHh0ZGtEdDZxSGNDQjcwRUlQc0JkUG1WNDFGMzFrX1M0Z0JmR21kS25NU3JqSWJseEszMllWelMxc09lNV9oZ3k5R2VqOFBndlRHWmZ1ZVJlclJuUG9lQ0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 384
+    },
+    {
+      "date": "Recent",
+      "text": "The Strait of Hormuz crisis continues, with reports suggesting it may not fully reopen until the second half of 2026, leading to a potential 'billion-barrel oil shock'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQdzNwb1FGUDJFT25pX283ZU1NN2NSRlpTakVjSDF0VmFfbC1waENMWno2U1RDSGlxc0dDOVR3cktQZC1LMmVsRzIyYm44QXhYNThpejFLRjdHblVicnNNVzNIRlpod2MwWTRGV1otbWl5Um9xeEZMaDdsVjI1cHhSd3lmQ3Q2MjREa0MxNmlrQdIBlAFBVV95cUxQY2t5Q3ZfNHNFUlVkY2VPYURydHdqZVBxT0Q2d0VwaE9vOHBUT092VTExLU9TQl9zVGZKdVpNMG9odUtJejZOTmxyNndDOTdxRVNlOXZwZ3F4dkdiamp6a0lIWWI1Z1JSUXdHdmplUHd5TUlXVi1zZ3ZLTHBjRXpCNjAxUG45MEZFdHdaVHVVekJLZ0lW?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 383
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYlNYYVRkbkhyeUIzU1lTVFUtNUpzMTV2dnRHX0syRWhadmpGQUszd1daMm1DY1VOWDVaNVBFejRod1FMOW44TTdrVDFSelp3akM2STdzT0tHemszZ2F0MkxQTHlka1N1UVVaWDZIS285eV9IZlBkem0tQTdueVRHWlNHdVFURzDSAYwBQVVfeXFMT2FKaHozTUQ0b3lfdnRJd0ZOQThhNlpJV3M1cEFOaGFNdFNIckZINF9teGxiQUpCV1FEVmdLWFV5NGJwdTFsUWhVdXlOZk1QVko1Z1hHc29GQlFwR2czeGhpaS13UGNFRHpSQ25PYzd1eWd2OHRROTZyRmR5TUxGVi1HVEFLaWJiRkFrSEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 384
     },
     {
-      "date": "Apr 26",
-      "text": "Iran closes the Strait of Hormuz again, threatening a major oil shock.",
+      "date": "Recent",
+      "text": "An IDF soldier was killed and six wounded in a Hezbollah drone attack in southern Lebanon.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 383
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWmVRZWJKYnBnaXNJam90SlVhZnRSSDgzWVNDT0t4UGhqUjRVcDF0dWJuZVNXdjZDQ0FjbGpHV01NVTlHV0x1S0hGSDBqNmhBUkV6dUYwU3pqRjc0MDAxbF9YMHVSWGFzTmZ2VDRWU1ZpMHNQc0lhZ0hvZkloWlNhcDBrckFhSWdtQllyaU9aYkRKaV9JZlUybEstU19YOHZkcVJ2M284ZzEwU3hDemlBY0FpRUZ5R3hRVDUxVA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 384
     },
     {
-      "date": "Apr 26",
-      "text": "Reports indicate Iran caused billions in damage to US military bases in the Gulf region.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNZ3ExaFZxWnVYc1h6OTNLVE5HOXhGTUpuN1FQRW9xSjhMaUFldEUxc1JnTVY5OFpweGtjRm9oUGpOZ1kyTkV3Z0pIZV9ZN0d3ZEVkWDJPYlpSbjB2VkFGVW02blFuMHJBUmF0dXExZUJIbDd2aVNkZmVJb2pHQ29yQUtkSnZld9IBiwFBVV95cUxNajFNTG5USWN1cnFaZnV1bld3X0NXb210MjJDVXVzdUU0WmxnYlBJWGszaGwyTjRNcjdQaGJUSDlpZlU1Ty1RNkpUa2pkZWxvOE1aTFRoT09BMDlxYWZTbFVUMjRfT3RTZ2U4c21XZHdCamQwclY4alEwN3ViRlFuWnJzYnpHOGdIV25Z?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 383
-    },
-    {
-      "date": "Apr 26",
-      "text": "Over 100 international law experts warn US strikes on Iran may violate UN Charter and constitute war crimes.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 383
-    },
-    {
-      "date": "Apr 26",
-      "text": "Concerns emerge about US advanced munitions supplies being drained and the need to re-arm.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 383
+      "date": "Recent",
+      "text": "Netanyahu ordered the army to 'vigorously attack' Hezbollah in Lebanon, following increased Israeli attacks and trade of strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 384
     }
   ],
   "sourceStatuses": [
