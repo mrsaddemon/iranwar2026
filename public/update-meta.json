@@ -1,13 +1,13 @@
 {
-  "updateSequence": 390,
+  "updateSequence": 391,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T23:09:57.916Z",
+  "lastSyncedAt": "2026-04-26T23:58:03.793Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is active, but regional tensions remain high with escalating Israel-Hezbollah conflict and stalled broader peace talks."
+    "summary": "A two-week ceasefire has been reached between the U.S. and Iran, though regional conflicts and talks remain stalled."
   }
 }
