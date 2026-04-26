@@ -1,13 +1,13 @@
 {
-  "updateSequence": 379,
+  "updateSequence": 380,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T13:49:29.921Z",
+  "lastSyncedAt": "2026-04-26T14:33:23.334Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 21,
-    "summary": "The existing ceasefire between Israel and Hezbollah appears to have collapsed amidst expanded Israeli strikes and Hezbollah's defiance, with peace talks between the US and Iran also uncertain."
+    "summary": "The ceasefire in Lebanon is under severe strain and threatened by expanded Israeli strikes and Hezbollah's defiance."
   }
 }
