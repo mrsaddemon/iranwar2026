@@ -1,13 +1,13 @@
 {
-  "updateSequence": 378,
+  "updateSequence": 379,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T12:34:13.659Z",
+  "lastSyncedAt": "2026-04-26T13:49:29.921Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 21,
-    "summary": "A 2-week US-Iran ceasefire was reached, and an Israel-Hezbollah ceasefire was extended by 3 weeks, but significant breaches and ongoing attacks in Lebanon indicate fragility."
+    "summary": "The existing ceasefire between Israel and Hezbollah appears to have collapsed amidst expanded Israeli strikes and Hezbollah's defiance, with peace talks between the US and Iran also uncertain."
   }
 }
