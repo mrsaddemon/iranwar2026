@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 384,
+  "updateSequence": 385,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T17:53:32.021Z",
+  "lastSyncedAt": "2026-04-26T19:08:54.964Z",
   "warDay": 58,
-  "summary": "The Iran-Israel conflict continues with ongoing clashes between Israel and Hezbollah in Lebanon, a fragile 2-week ceasefire between the U.S. and Iran, and a significant, prolonged disruption to oil transit through the Strait of Hormuz.",
+  "summary": "A fragile two-week ceasefire between the U.S. and Iran is strained by diplomatic setbacks and ongoing regional tensions, including a Hormuz standoff and increased Israel-Hezbollah fighting.",
   "lastNarrativeUpdate": "2026-04-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is active, but ongoing Israel-Hezbollah clashes suggest its fragility and limited scope."
+    "durationDays": 10,
+    "summary": "A two-week U.S.-Iran ceasefire is active but diplomatically strained by cancelled talks and ongoing military tensions in the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 24",
-      "text": "An Iran Update Special Report was released, detailing ongoing developments in the conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPeXlOS0xsUTBPTVozZ3h3SWx4VHhSZk5ZVnRycnUwZzNaQzlGSC0wRG4zQy1DZXNSUnhySG5yazRJUUg3ZWFYTTg5amR4MXdGb0JGUHNPRFlGZE1ESGNHMjg5RHgxLXdNOHNyeVYyX1Nja3ZaVmpFMkEtTW1JX2V5ZDVHdmtFYWFGaVV5STA3bkJHS1h6ZFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 384
+      "date": "Apr 26",
+      "text": "US Navy begins de-mining operations in the Strait of Hormuz following reports of ships being taken.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 385
     },
     {
-      "date": "Recent",
-      "text": "The U.S. and Iran reached a 2-week ceasefire agreement ahead of a Trump deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 384
-    },
-    {
-      "date": "Recent",
-      "text": "President Trump called off dispatching envoys for Iran talks, stating the U.S. holds a strong negotiating position.",
+      "date": "Apr 26",
+      "text": "Trump cancels peace mission to Islamabad and envoys for Iran talks, stating 'We have all the cards'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EZkM3NURlaHh0ZGtEdDZxSGNDQjcwRUlQc0JkUG1WNDFGMzFrX1M0Z0JmR21kS25NU3JqSWJseEszMllWelMxc09lNV9oZ3k5R2VqOFBndlRHWmZ1ZVJlclJuUG9lQ0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 384
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 385
     },
     {
-      "date": "Recent",
-      "text": "The Strait of Hormuz crisis continues, with reports suggesting it may not fully reopen until the second half of 2026, leading to a potential 'billion-barrel oil shock'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYlNYYVRkbkhyeUIzU1lTVFUtNUpzMTV2dnRHX0syRWhadmpGQUszd1daMm1DY1VOWDVaNVBFejRod1FMOW44TTdrVDFSelp3akM2STdzT0tHemszZ2F0MkxQTHlka1N1UVVaWDZIS285eV9IZlBkem0tQTdueVRHWlNHdVFURzDSAYwBQVVfeXFMT2FKaHozTUQ0b3lfdnRJd0ZOQThhNlpJV3M1cEFOaGFNdFNIckZINF9teGxiQUpCV1FEVmdLWFV5NGJwdTFsUWhVdXlOZk1QVko1Z1hHc29GQlFwR2czeGhpaS13UGNFRHpSQ25PYzd1eWd2OHRROTZyRmR5TUxGVi1HVEFLaWJiRkFrSEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 384
-    },
-    {
-      "date": "Recent",
-      "text": "An IDF soldier was killed and six wounded in a Hezbollah drone attack in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWmVRZWJKYnBnaXNJam90SlVhZnRSSDgzWVNDT0t4UGhqUjRVcDF0dWJuZVNXdjZDQ0FjbGpHV01NVTlHV0x1S0hGSDBqNmhBUkV6dUYwU3pqRjc0MDAxbF9YMHVSWGFzTmZ2VDRWU1ZpMHNQc0lhZ0hvZkloWlNhcDBrckFhSWdtQllyaU9aYkRKaV9JZlUybEstU19YOHZkcVJ2M284ZzEwU3hDemlBY0FpRUZ5R3hRVDUxVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 384
-    },
-    {
-      "date": "Recent",
-      "text": "Netanyahu ordered the army to 'vigorously attack' Hezbollah in Lebanon, following increased Israeli attacks and trade of strikes.",
+      "date": "Apr 26",
+      "text": "Netanyahu orders the army to 'vigorously attack' Hezbollah in Lebanon after an IDF soldier was killed in a drone attack.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 384
+      "latestSinceUpdate": 385
+    },
+    {
+      "date": "Apr 26",
+      "text": "Reports indicate Iran caused billions in damage to U.S. military bases in the Gulf region, more extensive than publicly known.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQY3A3aFAtRXVVbHhmSW9xT2RVbFBVdFJLbkktNWZUSVpPMG5IclJyYTQtYVRjTnU3QVQwYXFNNE5QbGJmNndaWER2Nk1mWXFSOFdmS1U3V2ZrLTJ2LUdpY0FzZ2Zia0Y3ZnBFUVdxOFdydEgzR3pTWkl3UkRuNjlDUmlxd1ZCalFrWUU2a09ocVhnYmFCMldYMExQTVVQLXBHYm5DYlhDRGZfcG8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 385
+    },
+    {
+      "date": "Apr 26",
+      "text": "Concerns emerge about U.S. supplies of critical, costly advanced munitions as re-arming efforts continue during the ceasefire.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPOHZVWU4wVUMxMGNRRGZuaE1HbWFzaXIxc296YXYySEJCbTNXLUg4UmRSSHhjSW5qa2I2a2NkVUZkck9Cd1haam5YMU0talpKM3NVMmlQV0lXZGJfT2JzMndIbjk1SU1FbkdNX29kQjFrZzVxdlJYV1lCT0MtVUVtQmdlcm41RnZXSEHSAY8BQVVfeXFMTU94R2RSMVpna0wzT3hGQnRMTzdKbzhiXzN5NnNZT2JNWTlLcVF5a2tWUU5Hc2htNlF5YVEyUXR4N0lKOEY1cGNGdG5tSkg5cTY3cXp3ZjBQX1lpazFOdWhIaXB5eThjMU9WLW9paGxXMnZlOXJ6Z3AwRDRXZWppRmZid3QxY01sWkZTTS0ybWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 385
     }
   ],
   "sourceStatuses": [

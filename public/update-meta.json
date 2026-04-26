@@ -1,13 +1,13 @@
 {
-  "updateSequence": 384,
+  "updateSequence": 385,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T17:53:32.021Z",
+  "lastSyncedAt": "2026-04-26T19:08:54.964Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is active, but ongoing Israel-Hezbollah clashes suggest its fragility and limited scope."
+    "durationDays": 10,
+    "summary": "A two-week U.S.-Iran ceasefire is active but diplomatically strained by cancelled talks and ongoing military tensions in the Strait of Hormuz."
   }
 }
