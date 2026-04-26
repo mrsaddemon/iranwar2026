@@ -1,13 +1,13 @@
 {
-  "updateSequence": 386,
+  "updateSequence": 387,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T19:58:39.577Z",
+  "lastSyncedAt": "2026-04-26T20:52:49.250Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in effect, though diplomatic talks have been canceled and violations are reported between Israel and Hezbollah."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is threatened by ongoing clashes and accusations of violations between Israel and Hezbollah."
   }
 }
