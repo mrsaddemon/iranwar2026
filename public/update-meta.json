@@ -1,13 +1,13 @@
 {
-  "updateSequence": 372,
+  "updateSequence": 373,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T06:26:50.880Z",
+  "lastSyncedAt": "2026-04-26T08:06:08.551Z",
   "warDay": 58,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire has been reached between the U.S. and Iran, but its regional stability is undermined by ongoing Israeli and Hezbollah attacks in Lebanon."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, but regional stability is undermined by escalating clashes between Israel and Hezbollah in Lebanon."
   }
 }

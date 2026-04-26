@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 372,
+  "updateSequence": 373,
   "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T06:26:50.880Z",
+  "lastSyncedAt": "2026-04-26T08:06:08.551Z",
   "warDay": 58,
-  "summary": "US-Iran peace talks face uncertainty with Trump canceling envoys, while a two-week ceasefire is in effect, though regional conflicts persist in Lebanon and the Strait of Hormuz remains partially blocked.",
+  "summary": "The Middle East conflict continues on Day 58 with ongoing US-Iran tensions, a fragile US-Iran ceasefire, and escalating clashes between Israel and Hezbollah in Lebanon, while the Strait of Hormuz remains under a US blockade.",
   "lastNarrativeUpdate": "2026-04-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire has been reached between the U.S. and Iran, but its regional stability is undermined by ongoing Israeli and Hezbollah attacks in Lebanon."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, but regional stability is undermined by escalating clashes between Israel and Hezbollah in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 24",
-      "text": "Iran Update Special Report released.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPeXlOS0xsUTBPTVozZ3h3SWx4VHhSZk5ZVnRycnUwZzNaQzlGSC0wRG4zQy1DZXNSUnhySG5yazRJUUg3ZWFYTTg5amR4MXdGb0JGUHNPRFlGZE1ESGNHMjg5RHgxLXdNOHNyeVYyX1Nja3ZaVmpFMkEtTW1JX2V5ZDVHdmtFYWFGaVV5STA3bkJHS1h6ZFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 372
-    },
-    {
-      "date": "Apr 26",
-      "text": "Trump cancels dispatching envoys for Iran talks, stating 'we have all the cards'.",
+      "text": "Trump cancels US envoy trip to Pakistan for Iran war negotiations, stating Iran must initiate contact.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9EZkM3NURlaHh0ZGtEdDZxSGNDQjcwRUlQc0JkUG1WNDFGMzFrX1M0Z0JmR21kS25NU3JqSWJseEszMllWelMxc09lNV9oZ3k5R2VqOFBndlRHWmZ1ZVJlclJuUG9lQ0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 372
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQdFFmNlVHWmJfbE9IR21icVdKc1pmLUlId3cwWTY2S0RQc3RZVldCa1JQLUhqN2luNVczS2FDWUlOWkFsRU5GWVB0MTAxZXhrQjRITGViQWlILTNXWDFRNndGaU9XVWJ6X0xsclpxallkbThvZmEtTy1FMTZpRVRIZDhoYTZJT3JvcjVkU0JLWHdaVU1DTm5uRElTSlRxY0xnOElhYWFUTjhVemxvajl5aXdGcUl0enhDZGJ2ZTJvSdIBxAFBVV95cUxOU28wRkpoelFsTEpJcXE0ZUVHVVM3WjViZDBJYmJIRnl2d0tDSS1VenpQV3BvbXI2cW1IRXpaVWF6Zk5iOXdVWk12VTFYYlJTNlhEUnFNUkNYSkVqc2lfczlmZGhRZjNPV0gwdWRhNDF5SWI2aUtaVjA0c0ZQUEJQQ3daTmJtTXNsVlFzQm1SQW1HTUs0ajdYc2Y1bWNBREFjbUpnWHJWREJXNndudjRiMERCUmNpSm9RMXFnM3JvX3J6N2th?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 373
     },
     {
-      "date": "Apr 26",
-      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
+      "date": "Apr 24",
+      "text": "The U.S. and Iran reportedly reach a 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 372
+      "latestSinceUpdate": 373
     },
     {
-      "date": "Apr 26",
-      "text": "Israel attacks increase in Lebanon, killing four, despite ceasefire extension.",
+      "date": "Apr 24",
+      "text": "Israel attacks increase in Lebanon, and ships are reportedly taken in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 372
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 373
     },
     {
-      "date": "Apr 26",
-      "text": "Ships taken in the Strait of Hormuz amid ongoing crisis.",
+      "date": "Apr 24",
+      "text": "The U.S. blockade around the Strait of Hormuz is in effect and may last until the second half of 2026.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 372
-    },
-    {
-      "date": "Apr 26",
-      "text": "Strait of Hormuz may not fully reopen until second half of 2026, according to Baker Hughes.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYlNYYVRkbkhyeUIzU1lTVFUtNUpzMTV2dnRHX0syRWhadmpGQUszd1daMm1DY1VOWDVaNVBFejRod1FMOW44TTdrVDFSelp3akM2STdzT0tHemszZ2F0MkxQTHlka1N1UVVaWDZIS285eV9IZlBkem0tQTdueVRHWlNHdVFURzDSAYwBQVVfeXFMT2FKaHozTUQ0b3lfdnRJd0ZOQThhNlpJV3M1cEFOaGFNdFNIckZINF9teGxiQUpCV1FEVmdLWFV5NGJwdTFsUWhVdXlOZk1QVko1Z1hHc29GQlFwR2czeGhpaS13UGNFRHpSQ25PYzd1eWd2OHRROTZyRmR5TUxGVi1HVEFLaWJiRkFrSEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 372
+      "latestSinceUpdate": 373
+    },
+    {
+      "date": "Apr 24",
+      "text": "Israel kills four in southern Lebanon, escalating ceasefire breaches with Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQdzNwb1FGUDJFT25pX283ZU1NN2NSRlpTakVjSDF0VmFfbC1waENMWno2U1RDSGlxc0dDOVR3cktQZC1LMmVsRzIyYm44QXhYNThpejFLRjdHblVicnNNVzNIRlpod2MwWTRGV1otbWl5Um9xeEZMaDdsVjI1cHhSd3lmQ3Q2MjREa0MxNmlrQdIBlAFBVV95cUxQY2t5Q3ZfNHNFUlVkY2VPYURydHdqZVBxT0Q2d0VwaE9vOHBUT092VTExLU9TQl9zVGZKdVpNMG9odUtJejZOTmxyNndDOTdxRVNlOXZwZ3F4dkdiamp6a0lIWWI1Z1JSUXdHdmplUHd5TUlXVi1zZ3ZLTHBjRXpCNjAxUG45MEZFdHdaVHVVekJLZ0lW?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 373
+    },
+    {
+      "date": "Apr 24",
+      "text": "Reports reveal Iran inflicted more extensive damage to U.S. military bases than previously disclosed.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPZjFHTHh6M3BTOGFlWVMxMUktYWVwMVJ6dzN3RFlWY3JIcnIwb0VXUmhDYU9reFpPV21jZWVtTlJJTVhVRlQ5bk5ITlFYS3pNaVFCZkM1UWVSYUQ5X0FyX0gwWDIxdE9SMFNuY2tVV1lWTXVLVWJzbXJQaTJsNjU3OEJ6Q0p2d3hFSkQtMC1neEQ5Y25ySFBOSkRKYmVtWUtwR2tNU29pUmNySjNXUVFhWDE4bWMycUdBVFZCR9IBwgFBVV95cUxPekZTZVp6MEFnNWV2OVNLMTlMOFFRS3hwQkVYZEdXR1JIWmVhOFJkc1k0UGd0Mi1xT3l5dHY3cngtNXY3WlhJRmhGUHlzT2NqQjdqb2RaR2NoY0ltQm8tcU85STF0d0JBOEdrdVJBTU5OWTlySWJPT3g1WjZGa2JyVE9DM0pnODBOb0FONVd1elBRTkh5dUlzUjdkcndvamRDa1l0MEJvN3Nla0g2NkFEcUFzQ1FqbzdreVRxeG9wYUx0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Monitor",
+      "latestSinceUpdate": 373
     }
   ],
   "sourceStatuses": [
