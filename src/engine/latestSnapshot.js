@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 395,
+  "updateSequence": 396,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T11:20:13.400Z",
+  "lastSyncedAt": "2026-04-27T12:55:22.329Z",
   "warDay": 59,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The conflict continues with a standoff in the Strait of Hormuz, ongoing battles between Israel and Hezbollah, and diplomatic efforts between the US and Iran stalled despite new proposals from Tehran.",
   "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire or truce is reported; conflict remains ongoing with diplomatic proposals for de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.78
       }
     }
   },
   "global": {
     "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 27",
-      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
-      "severity": "info",
+      "text": "Standoff in Hormuz continues.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 393
+      "latestSinceUpdate": 396
     },
     {
       "date": "Apr 27",
-      "text": "Iran foreign minister presses on with regional tour despite Trump canceling envoys’ visit",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 393
+      "text": "Israel and Hezbollah battle.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 396
+    },
+    {
+      "date": "Apr 26",
+      "text": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 396
     },
     {
       "date": "Apr 27",
-      "text": "April 26, 2026: Iran War Maritime Intelligence Daily",
+      "text": "Iran offers U.S. a new deal to reopen the Strait of Hormuz but postpone nuclear talks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE1FSzg1WDYwQnFPODBOcDNiY1EzUXJ3V0M1RGc5QXROMmhjVXV0ZlV1TEx5bFJsbDNwYkt6aVpEZFZONXlIU0NmTXVIMnJULXk3LW9ZVGk4eFZMWW14Yzd3OGllVDJGOTBYNEpzNmVWRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Windward",
-      "latestSinceUpdate": 395
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQdnIzS1dyaEJoSzlXV1daRUpLcEZGSHFlY1owQ3N1WDJOUjZtbkxITm1OLUV1YVlPWHZLckNTTlhTb05tR3pWTHA5ZGtPZDN0SDFVdUV4aUl0ZlBlbFhnaTZ3ZVl3bERpeEZpeVVVQV9Td28yWGxTYTVDOUJpamRVQTNVeURWNllGMENmLTdscw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 396
     },
     {
       "date": "Apr 27",
-      "text": "Iran War, April 26, 2026: Trump Says U.S. Isn’t Sending Envoys to Pakistan for Talks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiZkFVX3lxTE9pbjRwVkRVM3diMXllSlpfZ1RXZ3FQVHh0ZTc2YzdOb3JGdEhFTVQxZUNlV0FPTWtzLThDYzIzQXVmSkNCbGM2RnJSM3lBVkJydUxTSWpJdGg0RUhuR1doZDVpeDR2QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 394
+      "text": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 396
     },
     {
       "date": "Apr 27",
-      "text": "Iran’s Schools and Hospitals in Ruins, Times Analysis Shows",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNbURkVU1ObjFOb2psUGJ2dWtENFROSWd6QnFSMjd2YXotaDBNMGFNV2M5Ylpkai1YRk8xSVA2WVB4MVJFejllT0xuNEFHZnA5cGQ5NlhOTlpuYjA0YmdtMXNpVXNlNWlIY0lvZW5LVlNwLV9KNWxfWXVqOVBJdkNCN1duUk1jczVjODRoVlpZcjd2ZHRnRjEtWHppSFlTYmVsbkJyQnpnX3FRNHkySkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 393
-    },
-    {
-      "date": "Apr 27",
-      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 394
+      "text": "Report indicates Iran has caused billions in damage to U.S. military bases in the Gulf region.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNZ3ExaFZxWnVYc1h6OTNLVE5HOXhGTUpuN1FQRW9xSjhMaUFldEUxc1JnTVY5OFpweGtjRm9oUGpOZ1kyTkV3Z0pIZV9ZN0d3ZEVkWDJPYlpSbjB2VkFGVW02blFuMHJBUmF0dXExZUJIbDd2aVNkZmVJb2pHQ29yQUtkSnZld9IBiwFBVV95cUxNajFNTG5USWN1cnFaZnV1bld3X0NXb210MjJDVXVzdUU0WmxnYlBJWGszaGwyTjRNcjdQaGJUSDlpZlU1Ty1RNkpUa2pkZWxvOE1aTFRoT09BMDlxYWZTbFVUMjRfT3RTZ2U4c21XZHdCamQwclY4alEwN3ViRlFuWnJzYnpHOGdIV25Z?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 396
     }
   ],
   "sourceStatuses": [
