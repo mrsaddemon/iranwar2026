@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 393,
+  "updateSequence": 394,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T06:38:21.093Z",
+  "lastSyncedAt": "2026-04-27T09:10:35.183Z",
   "warDay": 59,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-27",
@@ -84,19 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 27",
-      "text": "April 26, 2026: Iran War Maritime Intelligence Daily",
+      "text": "Iran War, April 26, 2026: Trump Says U.S. Isn’t Sending Envoys to Pakistan for Talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE1FSzg1WDYwQnFPODBOcDNiY1EzUXJ3V0M1RGc5QXROMmhjVXV0ZlV1TEx5bFJsbDNwYkt6aVpEZFZONXlIU0NmTXVIMnJULXk3LW9ZVGk4eFZMWW14Yzd3OGllVDJGOTBYNEpzNmVWRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Windward",
-      "latestSinceUpdate": 393
-    },
-    {
-      "date": "Apr 27",
-      "text": "We have all the cards': Trump cancels sending envoys for Iran talks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 393
+      "sourceUrl": "https://news.google.com/articles/CBMiZkFVX3lxTE9pbjRwVkRVM3diMXllSlpfZ1RXZ3FQVHh0ZTc2YzdOb3JGdEhFTVQxZUNlV0FPTWtzLThDYzIzQXVmSkNCbGM2RnJSM3lBVkJydUxTSWpJdGg0RUhuR1doZDVpeDR2QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 394
     },
     {
       "date": "Apr 27",
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNbURkVU1ObjFOb2psUGJ2dWtENFROSWd6QnFSMjd2YXotaDBNMGFNV2M5Ylpkai1YRk8xSVA2WVB4MVJFejllT0xuNEFHZnA5cGQ5NlhOTlpuYjA0YmdtMXNpVXNlNWlIY0lvZW5LVlNwLV9KNWxfWXVqOVBJdkNCN1duUk1jczVjODRoVlpZcjd2ZHRnRjEtWHppSFlTYmVsbkJyQnpnX3FRNHkySkE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
       "latestSinceUpdate": 393
+    },
+    {
+      "date": "Apr 27",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 394
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
