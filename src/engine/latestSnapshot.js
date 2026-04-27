@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 391,
-  "lastUpdated": "2026-04-26",
-  "lastSyncedAt": "2026-04-26T23:58:03.793Z",
-  "warDay": 58,
-  "summary": "The Iran-Israel/Hezbollah conflict continues with increased attacks, while a fragile two-week ceasefire between the U.S. and Iran is in effect amidst ongoing Strait of Hormuz disruptions and U.S. weapon supply concerns.",
-  "lastNarrativeUpdate": "2026-04-26",
+  "updateSequence": 392,
+  "lastUpdated": "2026-04-27",
+  "lastSyncedAt": "2026-04-27T03:54:06.552Z",
+  "warDay": 59,
+  "summary": "A fragile two-week ceasefire between the U.S. and Iran is in effect, yet tensions remain high with Iran maintaining the Strait of Hormuz closure, ongoing clashes between Israel and Hezbollah, and reports of significant damage to U.S. military bases.",
+  "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire has been reached between the U.S. and Iran, though regional conflicts and talks remain stalled."
+    "summary": "A two-week ceasefire has been reached between the U.S. and Iran, but its stability is uncertain amidst ongoing regional tensions and military posturing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 26",
-      "text": "The Strait of Hormuz crisis continues with ships reportedly taken, and a U.S. blockade is in effect.",
+      "date": "Apr 27",
+      "text": "Standoff in Hormuz continues amidst ongoing battles between Israel and Hezbollah.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 391
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 392
     },
     {
-      "date": "Apr 26",
-      "text": "Israel and Hezbollah are engaged in active battles, with Israel increasing attacks in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 391
-    },
-    {
-      "date": "Apr 26",
-      "text": "U.S. supplies of critical weapons have been drained, raising long-term concerns about advanced munitions.",
+      "date": "Apr 27",
+      "text": "Reports indicate the Iran War has significantly drained U.S. supplies of critical and costly weapons.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 391
+      "latestSinceUpdate": 392
     },
     {
-      "date": "Apr 26",
-      "text": "A two-week ceasefire has been reached between the U.S. and Iran, though talks remain stalled.",
+      "date": "Apr 27",
+      "text": "Iran's foreign minister continues a regional tour despite Trump canceling envoys’ visit for talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 392
+    },
+    {
+      "date": "Apr 24",
+      "text": "A special report on the Iran war was issued, detailing ongoing developments.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 391
+      "latestSinceUpdate": 392
     },
     {
-      "date": "Apr 26",
-      "text": "Iran has caused billions in damage to U.S. military bases in the Gulf region, more extensive than publicly known.",
+      "date": "Apr 27",
+      "text": "Israel's attacks in Lebanon have increased, and ships have been taken in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQY3A3aFAtRXVVbHhmSW9xT2RVbFBVdFJLbkktNWZUSVpPMG5IclJyYTQtYVRjTnU3QVQwYXFNNE5QbGJmNndaWER2Nk1mWXFSOFdmS1U3V2ZrLTJ2LUdpY0FzZ2Zia0Y3ZnBFUVdxOFdydEgzR3pTWkl3UkRuNjlDUmlxd1ZCalFrWUU2a09ocVhnYmFCMldYMExQTVVQLXBHYm5DYlhDRGZfcG8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 391
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 392
+    },
+    {
+      "date": "Apr 27",
+      "text": "Trump cancels sending envoys for Iran talks, stating the U.S. holds 'all the cards'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 392
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -131,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Diplomatic Stance",
-      "headline": "Trump Halts Iran Talks, Citing Strong US Position",
-      "summary": "President Trump has canceled plans to send envoys for peace talks with Iran, stating the U.S. holds a strong negotiating position. This move follows Tehran's refusal of direct talks, contributing to ongoing uncertainty in the Middle East conflict.",
+      "perspective": "Iran",
+      "headline": "Iran Accuses US, Doubles Down on Hormuz Closure Amidst Ceasefire Offer",
+      "summary": "Iran maintains its closure of the Strait of Hormuz, accusing the U.S. of undermining trust, even while offering a deal to reopen the strait in exchange for postponing nuclear talks. The foreign minister continues regional engagements despite U.S. diplomatic cancellations.",
       "tone": "defiant",
-      "latestSinceUpdate": 370
+      "latestSinceUpdate": 392
     },
     {
-      "perspective": "Iranian Resistance",
-      "headline": "Iran Rejects Direct Talks, Threatens Retaliation Amid Blockade",
-      "summary": "Iran has refused direct talks with the U.S., maintaining a firm stance amidst the ongoing conflict and a U.S. blockade. The Iranian Armed Forces Command has threatened a strong response if the blockade persists, following reports of significant damage to U.S. bases.",
-      "tone": "defiant",
-      "latestSinceUpdate": 370
-    },
-    {
-      "perspective": "Lebanon Front Escalation",
-      "headline": "Israel Escalates Attacks in Lebanon, Hezbollah Remains Defiant",
-      "summary": "Israel has intensified its strikes in southern Lebanon, killing four and escalating breaches of a nominal ceasefire. Hezbollah has expressed defiance, questioning the effectiveness of any ceasefire amidst continued cross-border attacks.",
+      "perspective": "United States",
+      "headline": "US Ceasefire with Iran Fragile as Trump Cancels Talks, Military Plans Hormuz Action",
+      "summary": "The U.S. has entered a two-week ceasefire with Iran, but President Trump canceled envoy visits, asserting U.S. leverage. Concurrently, the U.S. military is developing plans to target Iran’s Strait of Hormuz defenses should the ceasefire collapse, and reports highlight drained U.S. weapon supplies.",
       "tone": "strained",
-      "latestSinceUpdate": 370
+      "latestSinceUpdate": 392
     },
     {
-      "perspective": "Global Oil Market",
-      "headline": "Hormuz Standoff Threatens Global Oil Supply and Demand",
-      "summary": "The ongoing standoff in the Strait of Hormuz, marked by ship seizures, continues to pose a significant threat to global oil supplies. Analysts warn of a potential 'Billion-Barrel Hormuz Oil Shock' that could severely impact demand and market stability.",
+      "perspective": "Israel/Hezbollah",
+      "headline": "Israel Vows Forceful Response as Hezbollah Rejects Disarmament Amidst Escalating Clashes",
+      "summary": "Israel has vowed to attack Hezbollah 'forcefully' following increased strikes in southern Lebanon and casualties. A top Hezbollah leader has rejected disarmament demands, calling for Israeli withdrawal, indicating a continued state of conflict.",
       "tone": "anxious",
-      "latestSinceUpdate": 370
+      "latestSinceUpdate": 392
     }
   ]
 });
