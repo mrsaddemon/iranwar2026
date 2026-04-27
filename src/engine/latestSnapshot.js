@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 394,
+  "updateSequence": 395,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T09:10:35.183Z",
+  "lastSyncedAt": "2026-04-27T11:20:13.400Z",
   "warDay": 59,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -68,19 +68,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 27",
-      "text": "Iran War Has Drained U.S. Supplies of Critical, Costly Weapons",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9LNlk4MTlOQm1MSkJzLXZpQXdzNXY2YWMzaEE5Qi1zdDlTbnR5VGlmSEt6VURoakREcF95cjBmTU1MZjJaR3FfYUtwNVhXSlZsNHo1elhCSmpXemhadWJCZzRtRi01ZlFlbjd2ZHBHMjM5Y1NlbFhEVFRndERhcVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 393
-    },
-    {
-      "date": "Apr 27",
       "text": "Iran foreign minister presses on with regional tour despite Trump canceling envoys’ visit",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 393
+    },
+    {
+      "date": "Apr 27",
+      "text": "April 26, 2026: Iran War Maritime Intelligence Daily",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE1FSzg1WDYwQnFPODBOcDNiY1EzUXJ3V0M1RGc5QXROMmhjVXV0ZlV1TEx5bFJsbDNwYkt6aVpEZFZONXlIU0NmTXVIMnJULXk3LW9ZVGk4eFZMWW14Yzd3OGllVDJGOTBYNEpzNmVWRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Windward",
+      "latestSinceUpdate": 395
     },
     {
       "date": "Apr 27",
