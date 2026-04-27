@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 399,
+  "updateSequence": 400,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T18:14:01.683Z",
+  "lastSyncedAt": "2026-04-27T19:50:21.470Z",
   "warDay": 59,
-  "summary": "A 2-week ceasefire between the U.S. and Iran is active, though negotiations for a broader deal, including the Strait of Hormuz, remain in flux amidst ongoing regional conflict between Israel and Hezbollah.",
+  "summary": "A fragile two-week ceasefire between the U.S. and Iran is in effect, though negotiations are in flux amidst an ongoing standoff in Hormuz and active conflict between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is active, but its long-term stability is uncertain as broader negotiations are in flux and key proposals are rejected."
+    "summary": "A two-week ceasefire between the U.S. and Iran is active but fragile, with negotiations ongoing and regional conflicts persisting."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.55
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 27",
-      "text": "Standoff in the Strait of Hormuz continues between Iran and the U.S.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 399
-    },
-    {
-      "date": "Apr 27",
-      "text": "U.S. and Iran are in an 'awkward limbo of no war, no peace' despite ongoing tensions.",
+      "text": "Standoff in Hormuz continues, impacting shipping and trade.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 399
+      "latestSinceUpdate": 400
     },
     {
       "date": "Apr 27",
-      "text": "Iran's foreign minister continues regional tour despite Trump canceling envoys' visit, indicating diplomatic efforts.",
+      "text": "Israel and Hezbollah engage in active battles in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 400
+    },
+    {
+      "date": "Apr 27",
+      "text": "U.S. and Iran reached a 2-week ceasefire, which Trump has extended.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 399
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 400
     },
     {
       "date": "Apr 27",
-      "text": "Talks stumble as Iran's top diplomat leaves Pakistan and Trump states he told envoys not to go.",
+      "text": "Iran offers a new deal to open the Strait of Hormuz and end the US blockade, proposing to delay nuclear talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxOSzdESkNVeVVLWmJPemJPSDh3V19aOHJOQW1kXzFiMjV2aHBZMjVIU0g3d1NpZkpfZk9pUFpnU2d0NDN1dlBYLXY4Qk1vUWRMcnpQYm9tY2dxbFpnQUpFXzJLRUZWWVBCRVhUS3AyV1Nyb19LcWRObGU1b3V5WGlGZmQxZldxZ09G0gGOAUFVX3lxTE1naHVobktkbXoyWVF4QVZMYzBEdTNQd0hGd0VGbGJtZVRNWU04MW5nbnVzUmpXVUp4eWZjRE52M0JfaUhZcGJtWnBsX2J6bFlLNmY2VWlUMTNDaEpoZTczai1Db3NhakJJb0Z2dFU4MzBZU2RHTW1jMTJIQ1FRSnlzTHU2a25jbXJHQ0xSWlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "foxnews.com",
+      "latestSinceUpdate": 400
+    },
+    {
+      "date": "Apr 27",
+      "text": "Netanyahu orders the army to 'vigorously attack' Hezbollah in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 400
+    },
+    {
+      "date": "Apr 27",
+      "text": "Hezbollah leader rejects disarmament and calls for Israeli withdrawal in a rare interview.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNVGFHVTN3QXlKR0tYYVdRVi01R2RKZi1USXpmSVRORVdRX2xyQXlnclhQRDhGbDBySTRIZUZIV1Z4TnJUTldZaTJod1dVNF9aWWRHVm1ETm9YZ3RyQnlkTTU2NFZoaHZtUXJuWk1jWUR1NE05M3M3bFF2b2RlSnJBYkdMeG1HT1VCZno1VXBzMXk0aXNlNDZEeFBhRFRITzhJYjZIcDcyNm5rbFRTRkxmVWx4Umt4MHRHdGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 399
-    },
-    {
-      "date": "Apr 27",
-      "text": "Iran offers the U.S. a new deal, including reopening the Strait of Hormuz tied to ending the war and postponing nuclear talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTFA0T2s3WkVpZHZRbFRRVmhQeEVpQTdkOTh6S3ZEZ2hXRTk1R2VDUElra3FybE9wYlVWSUdkaXVkUUR3MkdCNndNeVBsTTlhZkJoWE9HeF9YbTVBWGZxNG1mcGNJMXlLNUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 399
-    },
-    {
-      "date": "Apr 27",
-      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 399
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNdHhaNW1PdVJMVjh5S2N1eUJaUHh5aU05elpsb2ZJTVFHa0JMUTJFcUxLTWZnSThETll6RU1EMXYxWGthclFmeWowZjVvRHdzVTJnYy1NT09wYzJybWF6RjZLamRFRnR3YTVjM284N0NrQXQzejlwUlRjWklzNlREZFZhbUstcUFGNEI1YlVoc3VicnlBY0FIczZZSXZBZWhhdVl0eWZWTVdPWDFOSDF2TWpQdkRIZWw1dFB6cmR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 400
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
