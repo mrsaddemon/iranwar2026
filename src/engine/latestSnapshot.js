@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 403,
+  "updateSequence": 404,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T22:36:18.915Z",
+  "lastSyncedAt": "2026-04-27T23:32:44.377Z",
   "warDay": 59,
-  "summary": "A two-week ceasefire has been reached between the U.S. and Iran amidst a continuing standoff in the Strait of Hormuz, while Israel and Hezbollah engage in ongoing cross-border strikes.",
+  "summary": "The Iran war continues with a standoff in the Strait of Hormuz, while a 2-week ceasefire between the U.S. and Iran is in effect amidst ongoing Israel-Hezbollah clashes and reports of U.S. military resource depletion.",
   "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 14,
-    "summary": "The U.S. and Iran have agreed to a two-week ceasefire, though broader diplomatic talks remain on hold."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though broader talks remain on hold and Trump expresses dissatisfaction with Iran's Hormuz proposal."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.65,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
+    "nuclearIndex": 45,
     "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
     "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "globalPressure": 55,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 27",
-      "text": "Standoff in the Strait of Hormuz continues, impacting global oil markets.",
+      "text": "Standoff in the Strait of Hormuz continues amidst ongoing conflict.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 403
+      "latestSinceUpdate": 404
     },
     {
       "date": "Apr 27",
@@ -76,35 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 27",
-      "text": "U.S. and Iran reach a 2-week ceasefire ahead of a Trump deadline, with broader talks remaining on hold.",
+      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 403
+      "latestSinceUpdate": 404
     },
     {
       "date": "Apr 27",
-      "text": "Israel and Hezbollah continue to trade strikes across the Lebanon border.",
+      "text": "Israel and Hezbollah trade strikes in Lebanon, with Israel ordering vigorous attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOWHpxS1hXM2hNR0dUUHdra0h3TlRacHRLVExWRHZSeXR3eXBaYzlkX2djbEhlREgyQjZRNWRlazF1bERBYTFQaVM5N1l1RkpGa2tNOTFKQU1ZVVUyYUZiMTcwWENLTzQ1LXpWSEd6VlJSQzFseC1oRGVPLVhDd0hCT2swZFA4dGt5b2tqR3o4dXJuczZqRkUya2Nsd3U0WnlLZzgyTUtTQ1FrV2NwZFHSAbMBQVVfeXFMTkEzcnpuVkVmN09xUzg5TnJ3Vksyd1hwNlBZRDB5TDVxR1BRbTlKdWtrZkNyV3N2TGtIellCc1B5WkI5V3c3dUFBdVl6blU1MTBqZklEc2lWblNRZEZtbXhOYTlMcEhBOG0yUF9WNzBfQmpYLTJTQ1ZzT08tTHFoTVNYOVpfal9LQUZUMUFsU045enFnNU9qaHFjN0JnSTlPTXk0QTNiWUo1ZXN5Y1lOQmRQbUU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 403
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 404
     },
     {
       "date": "Apr 27",
-      "text": "Netanyahu orders the Israeli army to 'vigorously attack' Hezbollah in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 403
-    },
-    {
-      "date": "Apr 27",
-      "text": "A fatal Hezbollah attack exposes gaps in IDF preparedness for first-person view drones.",
+      "text": "Reports indicate the U.S. military has depleted half its stockpiles of most expensive munitions in the Iran war.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNenhkbnlZS251MlJ0UjMtTXJtMXhZcWgwbU5NTjN6V3EwREhEc3FHVzFIZE1CaGNzQzZFNHlYci00bEVNVXhjUndTTlRab0RsLXQ0S0FkTXl6b19EcTRQMkNVcHFTbTlCRnJFM1RCcHphcVhmZFdHUzVWMkpQcE9XelgxamdoRm5fdGs1ekVqeUJyWHQ4cThSWnJHa1ZmdmNqTl8xdTFRa29Uc1RGYTFqU2FXZXh3UdIBuwFBVV95cUxNaktPOGg0OVpxdzRnOEVsazZoSGdnc1drbk54V2VIWTFkVTd2NkgtRFpnQWhjRG1EMGl2UkVBdXk3UDlndVVYcTRDeV9qS1pLbDZTM1IzaDZ1U1BhUG1PaTlYcE82Q0VKdUhtdFU1UHJlM1ZpYmtBN01sdjE4LU5XQkRobWhvbm9yR1ByRTBnQk9YRTk1SWZ3ZEdWamExR0dEdjc3NmpQakJ5dGZTcmZWRmpTLW1DQ0JmajZr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 403
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxOemRRb2I3NGdaeWRVaUhRQWhpbWk1UWVhMmNxMTRDQTBHWGI4SDRiNWhfRV9Vd0puaW1aODN0QlRPNVRiX01rZWRMblVXRHNTQzVWa3pFYmFOc09acm9TMUU1dmoyT3FfOGxSakVkNXFZTlNtUklxVjI4Yy1Ubms0dmN1NkJOVFFNV3gtTHktbGFzQ1oyVmpfSGZadjBCcEk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 404
+    },
+    {
+      "date": "Apr 27",
+      "text": "Iran reportedly caused more extensive damage to U.S. military bases than publicly known.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQY3A3aFAtRXVVbHhmSW9xT2RVbFBVdFJLbkktNWZUSVpPMG5IclJyYTQtYVRjTnU3QVQwYXFNNE5QbGJmNndaWER2Nk1mWXFSOFdmS1U3V2ZrLTJ2LUdpY0FzZ2Zia0Y3ZnBFUVdxOFdydEgzR3pTWkl3UkRuNjlDUmlxd1ZCalFrWUU2a09ocVhnYmFCMldYMExQTVVQLXBHYm5DYlhDRGZfcG8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 404
     }
   ],
   "sourceStatuses": [

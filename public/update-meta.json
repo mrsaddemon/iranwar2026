@@ -1,13 +1,13 @@
 {
-  "updateSequence": 403,
+  "updateSequence": 404,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T22:36:18.915Z",
+  "lastSyncedAt": "2026-04-27T23:32:44.377Z",
   "warDay": 59,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 14,
-    "summary": "The U.S. and Iran have agreed to a two-week ceasefire, though broader diplomatic talks remain on hold."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though broader talks remain on hold and Trump expresses dissatisfaction with Iran's Hormuz proposal."
   }
 }
