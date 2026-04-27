@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 401,
+  "updateSequence": 402,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T20:45:31.013Z",
+  "lastSyncedAt": "2026-04-27T21:41:11.057Z",
   "warDay": 59,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, while regional conflicts persist and Iran offers to reopen the Strait of Hormuz in exchange for an end to the war and lifted blockades.",
   "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.98,
+    "status": "fragile",
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A temporary 2-week ceasefire is active between the U.S. and Iran, though regional hostilities and diplomatic impasses continue to strain its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 45,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 27",
-      "text": "Iran foreign minister presses on with regional tour despite Trump canceling envoys’ visit",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 401
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 402
     },
     {
       "date": "Apr 27",
-      "text": "Divergent Agendas - The Quagmire in the 2026 Iran-Israel-U.S. War",
+      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOTzJNNE13YWI5UlY5eG0ycFJHM2JOMUE2OUxpM3FhZ1dmM2V0OGRTTndRTHJSRkRJV3BIRjBXNFVFZ2QxWnNNcGZHTkFTU1FUMmtIdG1DUUFGOTdXOE9OMVpaeHN0UkJaQVVSVE5PcW5oMXZTcnFnUFNjMTd0Mlcxdm43RWdsUmxVS05rTk82TVM2Rl8wZ0tWNzhnbS15T3NudnpoU3VXcHJlV245bFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Vivekananda International Foundation (VIF)",
-      "latestSinceUpdate": 401
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 402
     },
     {
       "date": "Apr 27",
-      "text": "Iran war live: US mulls over Tehran proposal to end war; open Hormuz",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQMEkzVk1SOVBIR0VyS1ZKNHNkeDR3MlJhazd4djI3bTNfcDBsQXFvb1BubDVjMDJsV0RoNE9VN3hKb1c2cmJhS1pWYngxVFF2U2Vsdmh1Q1NwQ0FpZUxEUGZvN1RsMVNTRmlka3N1TU9aSGgwT2xucnE4dEN3RUdaSVp6eWlqNHU2WHQ3T0tHTGF1ZmJIWW84UnRHTmpjd3FPSy1HdWZteF9Rb2NsMnlXT3dvZ0IzTE51ZXRkWTl0N3bSAcYBQVVfeXFMUE5fdWNVcFJ0aTVjaUQ0UGxkbC1VVmRHbmtIMjJ4MnpUX1hzTDRRVFFEc19nSTBQdzZubDJOM2Jwc3ZMRENyZWRJdkZZbURVTU9Vb0o4bW9lOXplSlJCMXZRQ1JBSjQ5aUVsaC1hQ0RXNG5Hb3FfbkZSbmtIdG5hRTd3NHd0Ny1wS0JzVVhsWEgzN0wxVk1KZDh0X0hFcFJISHg3eW9mTVhjeEUzQk9paUNxaWdrRndjSUxVQ1o3T2NuR0VUS09n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 401
+      "text": "Iran’s foreign ministry condemns US seizure of Iranian-linked tankers as ‘piracy and armed robbery’.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxNLUdlN25ha0VwclVQVjlwYmNVdWFPV09lQTZQeEZKZ19lRkNQWnMtbnhvTDRHdjFYVDl6SnVkY1M2aEoyR3BDcTdhR2ZySkJMUlJaS0xLTmhyWXJYMlpPUmkxUk1xemhoLU9hTTdac2VXTm81dGlRLS1DcHUzRGVIb3RLMWdrOS1MZGVwWXRDdnNqSk1sT2NKeGl1aFhyeHlsNGFHWTQ3U091S3BoQndYcDdEUWhJdGJfd1ZsX3FEa1JTZXNBWjQ0ZC0xNjJOOHU5US1oVC1aRWppTnoy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 402
     },
     {
       "date": "Apr 27",
-      "text": "Iran war: What’s happening on day 59 amid diplomatic push to end conflict?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNS0I2T2huOWVESVlHY3lVV09xWGtDQ3JUMnlsTmtONFZESkNLeDJBaTFNaXlSTWUxazZkckVGamNuN29oMk5hWl9ONW1ZamxBVVFMcklXbmhNeWFSa2ZVZ2xmQll5UWQ4NjBENmxXc1J4bVhwMWRzZUFrcGVTM1YtV2JzWlZxTy1TaWhVYmdxS2dqRy1fcFVZV2dJckgzak1fN2VwUWN3d2NwZTQ2NXc3YkJR0gG3AUFVX3lxTE0wVjU5QXZnR2t5eEdId0hpWWgwUVNuZUZaUGNjQnltZHlOTUFGdER1N2EzR3BRYktIQTN1LWgyRGhpTHczQkhiSVgtb1JVRUhxcnZzazBXRDJaZUF0YUVSRExRSk5zZjRQSGhuWG9wZEp3dDRuZ2ZJa3dJRUY5Rk1Pc09kWEQyMTVGaVkxcE5zZld5Wk4xbzNBbHJWWjlHQzBob1hhY3A4dmE5MGRNRGNNWHRNWHFJQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 401
+      "text": "Hezbollah and Israel swap threats and strikes across Lebanon’s border.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOWHpxS1hXM2hNR0dUUHdra0h3TlRacHRLVExWRHZSeXR3eXBaYzlkX2djbEhlREgyQjZRNWRlazF1bERBYTFQaVM5N1l1RkpGa2tNOTFKQU1ZVVUyYUZiMTcwWENLTzQ1LXpWSEd6VlJSQzFseC1oRGVPLVhDd0hCT2swZFA4dGt5b2tqR3o4dXJuczZqRkUya2Nsd3U0WnlLZzgyTUtTQ1FrV2NwZFHSAbMBQVVfeXFMTkEzcnpuVkVmN09xUzg5TnJ3Vksyd1hwNlBZRDB5TDVxR1BRbTlKdWtrZkNyV3N2TGtIellCc1B5WkI5V3c3dUFBdVl6blU1MTBqZklEc2lWblNRZEZtbXhOYTlMcEhBOG0yUF9WNzBfQmpYLTJTQ1ZzT08tTHFoTVNYOVpfal9LQUZUMUFsU045enFnNU9qaHFjN0JnSTlPTXk0QTNiWUo1ZXN5Y1lOQmRQbUU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 402
     },
     {
       "date": "Apr 27",
-      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 401
+      "text": "Fatal Hezbollah attack exposes gaps in IDF preparedness for first-person view drones.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNenhkbnlZS251MlJ0UjMtTXJtMXhZcWgwbU5NTjN6V3EwREhEc3FHVzFIZE1CaGNzQzZFNHlYci00bEVNVXhjUndTTlRab0RsLXQ0S0FkTXl6b19EcTRQMkNVcHFTbTlCRnJFM1RCcHphcVhmZFdHUzVWMkpQcE9XelgxamdoRm5fdGs1ekVqeUJyWHQ4cThSWnJHa1ZmdmNqTl8xdTFRa29Uc1RGYTFqU2FXZXh3UdIBuwFBVV95cUxNaktPOGg0OVpxdzRnOEVsazZoSGdnc1drbk54V2VIWTFkVTd2NkgtRFpnQWhjRG1EMGl2UkVBdXk3UDlndVVYcTRDeV9qS1pLbDZTM1IzaDZ1U1BhUG1PaTlYcE82Q0VKdUhtdFU1UHJlM1ZpYmtBN01sdjE4LU5XQkRobWhvbm9yR1ByRTBnQk9YRTk1SWZ3ZEdWamExR0dEdjc3NmpQakJ5dGZTcmZWRmpTLW1DQ0JmajZr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 402
     },
     {
       "date": "Apr 27",
-      "text": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNdk1WRGZBbXdrSjVVa18tZVNXeExBdlBTdTJWOEh1aEVtSHNtRnBjOUtJdnpaU21nVmFTVGw2dFBFbzFrS0lUZXBRMy1oNlVZS3NTbjhDekthNEZHMGdGVTBDVmduUkphekRwMVRNbWV6UGJpbUlnVjN0el9CeUt1ellBdUFQLU4xampaOHZRd0x5cmlseFNsQkN4ckFDUmhUZU1SUGZRVTA2eXdNYWdfdG9heWtBRDJfOEMxT2FseG1qSFdEa0FSMjEtWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 401
+      "text": "Iran caused more extensive damage to U.S. military bases than publicly known.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQY3A3aFAtRXVVbHhmSW9xT2RVbFBVdFJLbkktNWZUSVpPMG5IclJyYTQtYVRjTnU3QVQwYXFNNE5QbGJmNndaWER2Nk1mWXFSOFdmS1U3V2ZrLTJ2LUdpY0FzZ2Zia0Y3ZnBFUVdxOFdydEgzR3pTWkl3UkRuNjlDUmlxd1ZCalFrWUU2a09ocVhnYmFCMldYMExQTVVQLXBHYm5DYlhDRGZfcG8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 402
     }
   ],
   "sourceStatuses": [
