@@ -1,13 +1,13 @@
 {
-  "updateSequence": 402,
+  "updateSequence": 403,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T21:41:11.057Z",
+  "lastSyncedAt": "2026-04-27T22:36:18.915Z",
   "warDay": 59,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 14,
-    "summary": "A temporary 2-week ceasefire is active between the U.S. and Iran, though regional hostilities and diplomatic impasses continue to strain its stability."
+    "summary": "The U.S. and Iran have agreed to a two-week ceasefire, though broader diplomatic talks remain on hold."
   }
 }
