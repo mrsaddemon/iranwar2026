@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 400,
+  "updateSequence": 401,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T19:50:21.470Z",
+  "lastSyncedAt": "2026-04-27T20:45:31.013Z",
   "warDay": 59,
-  "summary": "A fragile two-week ceasefire between the U.S. and Iran is in effect, though negotiations are in flux amidst an ongoing standoff in Hormuz and active conflict between Israel and Hezbollah.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-27",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is active but fragile, with negotiations ongoing and regional conflicts persisting."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 27",
-      "text": "Standoff in Hormuz continues, impacting shipping and trade.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 400
-    },
-    {
-      "date": "Apr 27",
-      "text": "Israel and Hezbollah engage in active battles in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 400
-    },
-    {
-      "date": "Apr 27",
-      "text": "U.S. and Iran reached a 2-week ceasefire, which Trump has extended.",
+      "text": "Iran foreign minister presses on with regional tour despite Trump canceling envoys’ visit",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 400
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 401
     },
     {
       "date": "Apr 27",
-      "text": "Iran offers a new deal to open the Strait of Hormuz and end the US blockade, proposing to delay nuclear talks.",
+      "text": "Divergent Agendas - The Quagmire in the 2026 Iran-Israel-U.S. War",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxOSzdESkNVeVVLWmJPemJPSDh3V19aOHJOQW1kXzFiMjV2aHBZMjVIU0g3d1NpZkpfZk9pUFpnU2d0NDN1dlBYLXY4Qk1vUWRMcnpQYm9tY2dxbFpnQUpFXzJLRUZWWVBCRVhUS3AyV1Nyb19LcWRObGU1b3V5WGlGZmQxZldxZ09G0gGOAUFVX3lxTE1naHVobktkbXoyWVF4QVZMYzBEdTNQd0hGd0VGbGJtZVRNWU04MW5nbnVzUmpXVUp4eWZjRE52M0JfaUhZcGJtWnBsX2J6bFlLNmY2VWlUMTNDaEpoZTczai1Db3NhakJJb0Z2dFU4MzBZU2RHTW1jMTJIQ1FRSnlzTHU2a25jbXJHQ0xSWlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "foxnews.com",
-      "latestSinceUpdate": 400
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOTzJNNE13YWI5UlY5eG0ycFJHM2JOMUE2OUxpM3FhZ1dmM2V0OGRTTndRTHJSRkRJV3BIRjBXNFVFZ2QxWnNNcGZHTkFTU1FUMmtIdG1DUUFGOTdXOE9OMVpaeHN0UkJaQVVSVE5PcW5oMXZTcnFnUFNjMTd0Mlcxdm43RWdsUmxVS05rTk82TVM2Rl8wZ0tWNzhnbS15T3NudnpoU3VXcHJlV245bFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Vivekananda International Foundation (VIF)",
+      "latestSinceUpdate": 401
     },
     {
       "date": "Apr 27",
-      "text": "Netanyahu orders the army to 'vigorously attack' Hezbollah in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 400
+      "text": "Iran war live: US mulls over Tehran proposal to end war; open Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQMEkzVk1SOVBIR0VyS1ZKNHNkeDR3MlJhazd4djI3bTNfcDBsQXFvb1BubDVjMDJsV0RoNE9VN3hKb1c2cmJhS1pWYngxVFF2U2Vsdmh1Q1NwQ0FpZUxEUGZvN1RsMVNTRmlka3N1TU9aSGgwT2xucnE4dEN3RUdaSVp6eWlqNHU2WHQ3T0tHTGF1ZmJIWW84UnRHTmpjd3FPSy1HdWZteF9Rb2NsMnlXT3dvZ0IzTE51ZXRkWTl0N3bSAcYBQVVfeXFMUE5fdWNVcFJ0aTVjaUQ0UGxkbC1VVmRHbmtIMjJ4MnpUX1hzTDRRVFFEc19nSTBQdzZubDJOM2Jwc3ZMRENyZWRJdkZZbURVTU9Vb0o4bW9lOXplSlJCMXZRQ1JBSjQ5aUVsaC1hQ0RXNG5Hb3FfbkZSbmtIdG5hRTd3NHd0Ny1wS0JzVVhsWEgzN0wxVk1KZDh0X0hFcFJISHg3eW9mTVhjeEUzQk9paUNxaWdrRndjSUxVQ1o3T2NuR0VUS09n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 401
     },
     {
       "date": "Apr 27",
-      "text": "Hezbollah leader rejects disarmament and calls for Israeli withdrawal in a rare interview.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNdHhaNW1PdVJMVjh5S2N1eUJaUHh5aU05elpsb2ZJTVFHa0JMUTJFcUxLTWZnSThETll6RU1EMXYxWGthclFmeWowZjVvRHdzVTJnYy1NT09wYzJybWF6RjZLamRFRnR3YTVjM284N0NrQXQzejlwUlRjWklzNlREZFZhbUstcUFGNEI1YlVoc3VicnlBY0FIczZZSXZBZWhhdVl0eWZWTVdPWDFOSDF2TWpQdkRIZWw1dFB6cmR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 400
+      "text": "Iran war: What’s happening on day 59 amid diplomatic push to end conflict?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNS0I2T2huOWVESVlHY3lVV09xWGtDQ3JUMnlsTmtONFZESkNLeDJBaTFNaXlSTWUxazZkckVGamNuN29oMk5hWl9ONW1ZamxBVVFMcklXbmhNeWFSa2ZVZ2xmQll5UWQ4NjBENmxXc1J4bVhwMWRzZUFrcGVTM1YtV2JzWlZxTy1TaWhVYmdxS2dqRy1fcFVZV2dJckgzak1fN2VwUWN3d2NwZTQ2NXc3YkJR0gG3AUFVX3lxTE0wVjU5QXZnR2t5eEdId0hpWWgwUVNuZUZaUGNjQnltZHlOTUFGdER1N2EzR3BRYktIQTN1LWgyRGhpTHczQkhiSVgtb1JVRUhxcnZzazBXRDJaZUF0YUVSRExRSk5zZjRQSGhuWG9wZEp3dDRuZ2ZJa3dJRUY5Rk1Pc09kWEQyMTVGaVkxcE5zZld5Wk4xbzNBbHJWWjlHQzBob1hhY3A4dmE5MGRNRGNNWHRNWHFJQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 401
+    },
+    {
+      "date": "Apr 27",
+      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 401
+    },
+    {
+      "date": "Apr 27",
+      "text": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNdk1WRGZBbXdrSjVVa18tZVNXeExBdlBTdTJWOEh1aEVtSHNtRnBjOUtJdnpaU21nVmFTVGw2dFBFbzFrS0lUZXBRMy1oNlVZS3NTbjhDekthNEZHMGdGVTBDVmduUkphekRwMVRNbWV6UGJpbUlnVjN0el9CeUt1ellBdUFQLU4xampaOHZRd0x5cmlseFNsQkN4ckFDUmhUZU1SUGZRVTA2eXdNYWdfdG9heWtBRDJfOEMxT2FseG1qSFdEa0FSMjEtWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 401
     }
   ],
   "sourceStatuses": [

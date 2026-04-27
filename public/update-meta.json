@@ -1,13 +1,13 @@
 {
-  "updateSequence": 400,
+  "updateSequence": 401,
   "lastUpdated": "2026-04-27",
-  "lastSyncedAt": "2026-04-27T19:50:21.470Z",
+  "lastSyncedAt": "2026-04-27T20:45:31.013Z",
   "warDay": 59,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is active but fragile, with negotiations ongoing and regional conflicts persisting."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
