@@ -1,13 +1,13 @@
 {
-  "updateSequence": 412,
+  "updateSequence": 413,
   "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T17:25:12.731Z",
+  "lastSyncedAt": "2026-04-28T19:10:29.028Z",
   "warDay": 60,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is active but highly fragile, with talks uncertain as its expiration approaches."
+    "confidence": 0.81,
+    "durationDays": 3,
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but is described as wavering, with skepticism from the U.S. and ongoing regional conflicts."
   }
 }
