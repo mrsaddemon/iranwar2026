@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 407,
+  "updateSequence": 408,
   "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T07:18:57.624Z",
+  "lastSyncedAt": "2026-04-28T09:36:22.130Z",
   "warDay": 60,
-  "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though Trump remains skeptical of Iran's proposal to reopen the Strait of Hormuz, while Israel and Hezbollah continue to trade strikes in Lebanon.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-28",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, but its stability is undermined by Trump's skepticism and ongoing regional conflicts."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 25,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 28",
-      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends, officials say.",
+      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 408
+    },
+    {
+      "date": "Apr 28",
+      "text": "Iran war: What’s happening on day 59 amid diplomatic push to end conflict?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNS0I2T2huOWVESVlHY3lVV09xWGtDQ3JUMnlsTmtONFZESkNLeDJBaTFNaXlSTWUxazZkckVGamNuN29oMk5hWl9ONW1ZamxBVVFMcklXbmhNeWFSa2ZVZ2xmQll5UWQ4NjBENmxXc1J4bVhwMWRzZUFrcGVTM1YtV2JzWlZxTy1TaWhVYmdxS2dqRy1fcFVZV2dJckgzak1fN2VwUWN3d2NwZTQ2NXc3YkJR0gG3AUFVX3lxTE0wVjU5QXZnR2t5eEdId0hpWWgwUVNuZUZaUGNjQnltZHlOTUFGdER1N2EzR3BRYktIQTN1LWgyRGhpTHczQkhiSVgtb1JVRUhxcnZzazBXRDJaZUF0YUVSRExRSk5zZjRQSGhuWG9wZEp3dDRuZ2ZJa3dJRUY5Rk1Pc09kWEQyMTVGaVkxcE5zZld5Wk4xbzNBbHJWWjlHQzBob1hhY3A4dmE5MGRNRGNNWHRNWHFJQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 408
+    },
+    {
+      "date": "Apr 28",
+      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends, officials say",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 407
+      "latestSinceUpdate": 408
     },
     {
       "date": "Apr 28",
-      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
+      "text": "Trump’s War in Iran is Causing a Modern Crisis of Confidence",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 407
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPUDhTTVVsNVFqQ002N09MZTV4RnNabHZjRDAzblJuM2NsVjBBWS1EQnp3VzNzOElEV1czZTlQVi1LdHdzUXhSQ2VCNV9tT1hnVjJnRkdWSU1DcmZteExwTUJwRzFUdEd6YVE0S1VpYndkcnYxM1hxdjVuTGRoWGt4RWFwQUlJOWc5SkZYMUU3LTJMOUI2bDVkVDNEZUgwUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Time Magazine",
+      "latestSinceUpdate": 408
     },
     {
       "date": "Apr 28",
-      "text": "Trump Skeptical of Iran’s Strait of Hormuz Proposal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPMVJCc1ZXTHBzVlRZLXdxZVZRY29SZno4Um1ySGczWk5Vb1RKblF6aF9uTGNzejNHc2NwRkpjMDNwc1ZuV3BaS1JETGlqcVRtelRyYmlPbDlPWlFhckhhMXdvTll5azF5ZG1kQ1RuZXV6VzlpaExleUsyTmpES1lPS3cxNjBWT2daWG5Ocl9JcTIxNzdKcVF0cFFOMkN1OGVzbzNqY0FSNjFjajV4TVpITmRsTDhrcWpjeUd4bmZicXl1WWRMbHp3UVgwbWtvUjlGMjNtNXdqX20?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 407
-    },
-    {
-      "date": "Apr 28",
-      "text": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold.",
-      "severity": "critical",
+      "text": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNdk1WRGZBbXdrSjVVa18tZVNXeExBdlBTdTJWOEh1aEVtSHNtRnBjOUtJdnpaU21nVmFTVGw2dFBFbzFrS0lUZXBRMy1oNlVZS3NTbjhDekthNEZHMGdGVTBDVmduUkphekRwMVRNbWV6UGJpbUlnVjN0el9CeUt1ellBdUFQLU4xampaOHZRd0x5cmlseFNsQkN4ckFDUmhUZU1SUGZRVTA2eXdNYWdfdG9heWtBRDJfOEMxT2FseG1qSFdEa0FSMjEtWQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 407
+      "latestSinceUpdate": 408
     },
     {
       "date": "Apr 28",
-      "text": "Israel says it will attack Hezbollah 'forcefully' as four killed in strikes on southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOUHFYOUgyaGRzV0Z3eWVYQkNoR3Zfd1NxdjJyR000bDhDYk12dUs4RnNRSThKbHF0d2I4STM2NXNyNU5SRTZncGNlcmxDblZrOVV5WUt1VmIxZG5TdTV2YUR2N3RvZ2pYeWxIUW5rUndJd1EzTXJvRE54bHMxNTVkanUwZWFZdHRqanhhalVpZ1NWRi03UDhCLVRseHlQRF9rTVExa2lfN2U4d3MwVEEtMi1HMm4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 407
-    },
-    {
-      "date": "Apr 28",
-      "text": "Hezbollah Vows to Keep Its Weapons as Lebanon Says Israeli Strikes Killed 14.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRDNjZjlYdnktcUhtdkx0eW9yOFlJRlVteEE4cGlPbjQteURfSzd3V0NWWC01Ty01ek5iTl90OWo0RXF1emlPQ1ppOWxEWk9kaVV6Q21md05OQ1JLcF80RU41R2lpS3NfRTRnV1JraXB2OE01Y1pmVC1pV24xZG5WNXVnaUtnbVNUTGlhUnNucEpKUzg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 407
+      "text": "Iran war latest: Trump verdict on new Iran deal revealed",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 408
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
