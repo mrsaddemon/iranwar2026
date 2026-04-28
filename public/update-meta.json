@@ -1,13 +1,13 @@
 {
-  "updateSequence": 410,
+  "updateSequence": 411,
   "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T13:17:11.353Z",
+  "lastSyncedAt": "2026-04-28T15:40:03.124Z",
   "warDay": 60,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is active but uncertain as it approaches its May 1 expiration deadline."
   }
 }

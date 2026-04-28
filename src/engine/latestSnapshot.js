@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 410,
+  "updateSequence": 411,
   "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T13:17:11.353Z",
+  "lastSyncedAt": "2026-04-28T15:40:03.124Z",
   "warDay": 60,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US and Iran remain in a 'no war, no peace' standoff, with a fragile 2-week ceasefire nearing its May 1 expiration, while Israel and Hezbollah engage in active strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-04-28",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is active but uncertain as it approaches its May 1 expiration deadline."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.78
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.68
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 35,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 28",
-      "text": "Iran war updates: Standoff in Hormuz continues; Israel and Hezbollah battle",
+      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 410
-    },
-    {
-      "date": "Apr 28",
-      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends, officials say",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 410
+      "latestSinceUpdate": 411
     },
     {
       "date": "Apr 28",
-      "text": "Trump’s War in Iran is Causing a Modern Crisis of Confidence",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPUDhTTVVsNVFqQ002N09MZTV4RnNabHZjRDAzblJuM2NsVjBBWS1EQnp3VzNzOElEV1czZTlQVi1LdHdzUXhSQ2VCNV9tT1hnVjJnRkdWSU1DcmZteExwTUJwRzFUdEd6YVE0S1VpYndkcnYxM1hxdjVuTGRoWGt4RWFwQUlJOWc5SkZYMUU3LTJMOUI2bDVkVDNEZUgwUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Time Magazine",
-      "latestSinceUpdate": 410
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline, but talks are uncertain as it's set to expire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 411
     },
     {
       "date": "Apr 28",
-      "text": "Iran and U.S. Sink Into Awkward Limbo of ‘No War, No Peace’",
+      "text": "Trump expresses skepticism regarding Iran’s Strait of Hormuz proposal.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxQNXZReTlUSXF2dTRNTjFoVkNYMU93b2Q5YkhWcFhVd2JuYXhKeVdrc1dRN1NhczhHRW5FaW9uVlRPd01iWGRrajVGeDc1V1kzMGJ5V3BmMVlJLXZHYWRWdDhtYUR6bEZyT2lvNzQ2ZmczQnBGc3JBTjBMQWR0Q2hseGJsODJEM0pwemVPUlZGQzlRRUluczJv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 410
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPMVJCc1ZXTHBzVlRZLXdxZVZRY29SZno4Um1ySGczWk5Vb1RKblF6aF9uTGNzejNHc2NwRkpjMDNwc1ZuV3BaS1JETGlqcVRtelRyYmlPbDlPWlFhckhhMXdvTll5azF5ZG1kQ1RuZXV6VzlpaExleUsyTmpES1lPS3cxNjBWT2daWG5Ocl9JcTIxNzdKcVF0cFFOMkN1OGVzbzNqY0FSNjFjajV4TVpITmRsTDhrcWpjeUd4bmZicXl1WWRMbHp3UVgwbWtvUjlGMjNtNXdqX20?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 411
     },
     {
       "date": "Apr 28",
-      "text": "Iran’s economy has been battered. Its leaders still think Trump will blink first",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 410
+      "text": "Netanyahu orders the army to 'vigorously attack' Hezbollah in Lebanon, following trade of strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1UMjAxb3NrUFhMU0s0d3VzaGkyZjZ1NzV3aDR2OHM0bWlUVTIzNjNKOE4yMEZQSjhMdFlsOEJobXRzc1pibGE5dm5ybzFaR1lKWENWWGhJVDdSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 411
     },
     {
       "date": "Apr 28",
-      "text": "Israel and Hezbollah Trade Strikes in Lebanon, as Iran Talks Remain on Hold",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNdk1WRGZBbXdrSjVVa18tZVNXeExBdlBTdTJWOEh1aEVtSHNtRnBjOUtJdnpaU21nVmFTVGw2dFBFbzFrS0lUZXBRMy1oNlVZS3NTbjhDekthNEZHMGdGVTBDVmduUkphekRwMVRNbWV6UGJpbUlnVjN0el9CeUt1ellBdUFQLU4xampaOHZRd0x5cmlseFNsQkN4ckFDUmhUZU1SUGZRVTA2eXdNYWdfdG9heWtBRDJfOEMxT2FseG1qSFdEa0FSMjEtWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 410
+      "text": "Report indicates Iran has caused billions in damage to US military bases in the Gulf region.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNZ3ExaFZxWnVYc1h6OTNLVE5HOXhGTUpuN1FQRW9xSjhMaUFldEUxc1JnTVY5OFpweGtjRm9oUGpOZ1kyTkV3Z0pIZV9ZN0d3ZEVkWDJPYlpSbjB2VkFGVW02blFuMHJBUmF0dXExZUJIbDd2aVNkZmVJb2pHQ29yQUtkSnZld9IBiwFBVV95cUxNajFNTG5USWN1cnFaZnV1bld3X0NXb210MjJDVXVzdUU0WmxnYlBJWGszaGwyTjRNcjdQaGJUSDlpZlU1Ty1RNkpUa2pkZWxvOE1aTFRoT09BMDlxYWZTbFVUMjRfT3RTZ2U4c21XZHdCamQwclY4alEwN3ViRlFuWnJzYnpHOGdIV25Z?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 411
+    },
+    {
+      "date": "Apr 28",
+      "text": "US troops receive threatening messages from an Iran-linked hacker group.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPWjZmR3N4RWtpRHlSbXd4TmlERDJLWE40RGJuQ3o1a01MQi0tWWFLTXNEUkN0em9SV2ZZVUdDenNIWHpGeUw1LVJaYzdoLUxfSlg0YlRTb1UyTW1zTXItWGVUaUttSVJXMFVrU1hoQXoydXNZZkVyc0t3UFFPOTI5T2IzYkZwNkVaV0N6N0c5MFNJV1NnQlg1SUNHN1RXOXBUSmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Stars and Stripes",
+      "latestSinceUpdate": 411
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
