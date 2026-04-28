@@ -1,13 +1,13 @@
 {
-  "updateSequence": 413,
+  "updateSequence": 414,
   "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T19:10:29.028Z",
+  "lastSyncedAt": "2026-04-28T20:44:10.154Z",
   "warDay": 60,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 3,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but is described as wavering, with skepticism from the U.S. and ongoing regional conflicts."
+    "durationDays": 14,
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but is reported to be wavering amidst ongoing regional tensions and skepticism from the U.S. leadership."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 413,
+  "updateSequence": 414,
   "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T19:10:29.028Z",
+  "lastSyncedAt": "2026-04-28T20:44:10.154Z",
   "warDay": 60,
-  "summary": "A two-week ceasefire between the U.S. and Iran is wavering amidst ongoing conflict between Israel and Hezbollah, a standoff over the Strait of Hormuz, and an approaching May 1 deadline.",
+  "summary": "The Iran-Israel-U.S. war continues on Day 60 with a fragile two-week ceasefire between the U.S. and Iran wavering amidst ongoing standoff in the Strait of Hormuz and active clashes between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-04-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 3,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but is described as wavering, with skepticism from the U.S. and ongoing regional conflicts."
+    "durationDays": 14,
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but is reported to be wavering amidst ongoing regional tensions and skepticism from the U.S. leadership."
   },
   "actorOverrides": {
     "usa": {
@@ -18,40 +18,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 56,
+    "globalPressure": 69,
+    "allianceInfluence": 62
   },
   "alliance": {
-    "russiaIntelSupport": false,
+    "russiaIntelSupport": true,
     "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 28",
-      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 413
-    },
-    {
-      "date": "Apr 28",
-      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
+      "text": "U.S. and Iran reached a two-week ceasefire ahead of Trump's deadline, though its stability is uncertain.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 413
+      "latestSinceUpdate": 414
     },
     {
       "date": "Apr 28",
-      "text": "Israel and Hezbollah trade strikes in Lebanon.",
+      "text": "The ceasefire with Iran is wavering as the U.S. expands its military footprint in the region.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 413
+      "latestSinceUpdate": 414
     },
     {
       "date": "Apr 28",
-      "text": "IDF blows up 2 vast Hezbollah attack tunnels built with ‘direct guidance’ from Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQdmJ3UVphdk1lYzlDQ056NmJ1WTBKYzlYYnpBakRqdHUteGhMMlhqTXBXOVBKQ0ZkcFlqMFJvaUdCeTZRbkpJNjdLVWYtYmxiYjJ1NE50Z3hOS2Uya3VtaHJydXlERkpIeWpxNU9JXzlFRnJmNkgzYmsxYko4Uk5SRzYwVmFvcm5rcmFKLUdYT0lZQ1ZGT3dmMnVWRzJZSC1naVU0eTFXb3U0M1ByUnZZM0hn0gG3AUFVX3lxTE5PZXVaNHhMWWJZclFOOTk3N3NKVm40WFNpTV96NXloZmVDaklLUTZqOHB0VmQwUTRpWWRSTUc1OE9PdndWazZuUkpiYnBibDc3YVIybXJ2XzFwMjV1YUpxMktGeGZ6NTNjQzdDemxMZ1YzUFJxTDZoaGt6eWg2VUQxdFhXcVRJVlFtSEVuX3M3WEVEU1RpVFBOVnFOZzlYV2dSMDJRLXd2WF83a3p4ai11SW5LQVpGaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 413
+      "text": "Standoff in the Strait of Hormuz continues, with Trump skeptical of Iran's offer to lift the blockade.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 414
     },
     {
       "date": "Apr 28",
-      "text": "Iran caused billions in damage to U.S. military bases in Gulf region.",
+      "text": "Israel and Hezbollah continue to trade strikes in Lebanon, with Hezbollah drone attacks targeting Israeli soldiers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPX1N3TE51bS1NSk03MTZWajI1R1lnUU4yMl9XcEc2T3FhMjBiWXM2S3hDRzEteElsQXFER1NlRm1MVi03TThQVzg3MVp6alhobXJrMTJqQ2dDTkJkWVliY2dpamZKY2pDdnZ3a21FX3N0LVVPRXN5MDhsZ3FiOTQtbWJhTkpjWVBydGdjZDUxS0RmMlhFeXM0MVduWTAtYk5JdXhRbTQyMGZoSnBXVnZGNkg1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 414
+    },
+    {
+      "date": "Apr 28",
+      "text": "Reports indicate Iran has caused billions in damage to U.S. military bases in the Gulf region.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNZ3ExaFZxWnVYc1h6OTNLVE5HOXhGTUpuN1FQRW9xSjhMaUFldEUxc1JnTVY5OFpweGtjRm9oUGpOZ1kyTkV3Z0pIZV9ZN0d3ZEVkWDJPYlpSbjB2VkFGVW02blFuMHJBUmF0dXExZUJIbDd2aVNkZmVJb2pHQ29yQUtkSnZld9IBiwFBVV95cUxNajFNTG5USWN1cnFaZnV1bld3X0NXb210MjJDVXVzdUU0WmxnYlBJWGszaGwyTjRNcjdQaGJUSDlpZlU1Ty1RNkpUa2pkZWxvOE1aTFRoT09BMDlxYWZTbFVUMjRfT3RTZ2U4c21XZHdCamQwclY4alEwN3ViRlFuWnJzYnpHOGdIV25Z?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 413
+      "latestSinceUpdate": 414
     },
     {
       "date": "Apr 28",
-      "text": "As Cease-Fire With Iran Wavers, US Expands Its Military Footprint.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE9PekttOWd1MUFEWFZ4NWRfQlBtOXhfZUJMY0dfSllER2FSVlNNblBteTRfUHVORHNHVkR0Q0t3V3Nna3JXUWFTWk9fRnpBODd2cEppWFVTV1dVMW50Ml9XSzFwQlMyLUtNdFVWNk9VMWM2MzFwbXAzZ3hLQdIBfkFVX3lxTFBTdWxCMFRDWGp6S2l4NXJTMlZwTVh4V2ZFaWVZcDlvU1NocVpvOEx0V2llUkMtR0V4Q1Z1RmJyMkowUWxyc2NXRjRobjd4WjJ1TGdCMXN6cWhaN3dPQmtjcjM2VU15Q2RqLW1CNDA2R2lKWGhQV2FIWlJHWFlNQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Radio Free Europe/Radio Liberty",
-      "latestSinceUpdate": 413
+      "text": "The Iran War heads toward a legal showdown as a May 1 deadline approaches.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 414
     }
   ],
   "sourceStatuses": [
