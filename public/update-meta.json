@@ -1,13 +1,13 @@
 {
-  "updateSequence": 418,
+  "updateSequence": 419,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T01:26:03.231Z",
+  "lastSyncedAt": "2026-04-29T04:59:13.117Z",
   "warDay": 61,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 11,
-    "summary": "A ceasefire is in place but is actively being violated by both Israeli and Hezbollah forces, leading to casualties and a wavering status."
+    "confidence": 0.81,
+    "durationDays": 14,
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is uncertain amidst ongoing regional actions."
   }
 }

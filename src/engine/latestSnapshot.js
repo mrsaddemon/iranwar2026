@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 418,
+  "updateSequence": 419,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T01:26:03.231Z",
+  "lastSyncedAt": "2026-04-29T04:59:13.117Z",
   "warDay": 61,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran-Israel-U.S. war continues on Day 61, marked by ongoing military actions, economic strain on Iran, a recently agreed 2-week ceasefire, and disputes over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 11,
-    "summary": "A ceasefire is in place but is actively being violated by both Israeli and Hezbollah forces, leading to casualties and a wavering status."
+    "confidence": 0.81,
+    "durationDays": 14,
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is uncertain amidst ongoing regional actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 29",
-      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
+      "text": "Iranian army declares it is 'still in war situation'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 418
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxQRTI1VDUtQzgtZ3dvTzhkZnhpQ05LZGZzcHpqWi03aFZ2UHJWWXpYbGRHU2tCMmdrWFhpc01BMUNQdDFUaVFMLWI3Wjg4WE84Q3BRTWY0Q1lTZHhBN3pBcGs1X3czamRTZ29YcnF5ZmZDU0NPVGh1T2E0UnpmVVhfZFZ5STJuSGRjbUlYZ2N0Q2lJY3BfR09uRnp1Y0ZrbHdmYUdnY0xJLVExYUcwemFEZDA5RVI2VFh5V3fSAb8BQVVfeXFMTjdpWWFVWEJTczd2Y1pvV3cxajdHTENIbC11c2g0MS1ZbDFmUmNxMmFKSDNUVVBMbjhxSG5MemRUTGl5ejZFczhGeHo4VlFSVmRKWWJUU3JveXkzOVhwMm9LV3ZtTU9FdDJGYUE5QmxLTG5kOTlpa3ZocVZiOHh4Zi1GQU1LakhpSmtudnNZMDRDVlVBazZtOHdTOElOYlVzYUszbEdJRlFjaE83RllTMjBWLV9CZE1YZ3dvc3ZZczg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 419
     },
     {
       "date": "Apr 29",
-      "text": "Standoff in the Strait of Hormuz continues amidst ongoing regional tensions.",
+      "text": "United Arab Emirates announces its intention to exit OPEC.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 418
+      "latestSinceUpdate": 419
     },
     {
       "date": "Apr 29",
-      "text": "Israel and Hezbollah trade strikes in southern Lebanon, with reports of 14 killed.",
+      "text": "US-Iran negotiations have stalled.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 419
+    },
+    {
+      "date": "Apr 29",
+      "text": "Israel's attacks have increased in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 419
+    },
+    {
+      "date": "Apr 29",
+      "text": "Ships have been taken in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 418
+      "latestSinceUpdate": 419
     },
     {
       "date": "Apr 29",
-      "text": "Eight killed as Israel attacks south Lebanon despite an existing ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwJBVV95cUxNeW1QWU1ickJwTk81enlZMkFFTElyZW9EREJxOUlaR2VnNjl6REwwTkdNQ1loZTdVN2NRdUFxazJCSnlVTmc1NWo3ak5HUG9ieGtYUzZPREdIakk3QVlqRF9oLVFMRFI3WGpERFNRQUM2Ykx3YWVpYnVNcDlIMFd0M0YzVHB5MkdybnlnSVZNUzRZdTNSR1U4NjZJeWlXbTdCbFNTV1A3SUpNQ3huRkgzWjFVQTN0RUc1ZGFlQU9tWFlkdGdMRmIxSHdjMzMyY3h4ZDRUMVBrOHdoYXptNnZWV2VURmN2Z0ZZU05LVV9OUWVJQmVZNlVQaGRsYmJxMlFHUEpvakVINWVVNmRLTXUybGFLVVBiN0JxRmJ1U1ZZVXNZcFA1RjByMVJfM0tHRU51UlJGMWtuRUl5TEFJNGRRbktxc3dramvSAcwCQVVfeXFMT0tzUGtOcGFuV0VDWGt5U3dSSkJSQ1dkb1NVZEdHNzF6Y25vZU1GZ0kzdHYwOTBjWHN2cUw5cWxleTVzZVhsc3R5RGR2cDg4R0FaUl9xTGhhTGphLXdRUjdJS3Z0akExR0EzUkhYa0RFMTQ3MkFsUVJSTmFzRXFqZFBoUlB1OXBvcEVnQ2hMQVFiLVlTV09sbVUtekVEX2ZEbk9ZWi10TlRiSTk0Si1vR0h4MGdzQldDZ1RPWFhwbVl3c2VGb1hCdld4UWxOdktlNkRFdUJYakVEOXY1YjU0ZXVaZEthNV9USFpHckNieFU0UVdHOE85Y0RjMVNkX0NOSW90eGFIQVJkaEtkeWVxWVhmaUJRZ3RHTnNyX2FZa3h0aTJOekVJdDN0RTRWSkREeEJsSG9GbHdQc1pzaWtOUkJkVVplZG1Kc1VRcHQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 418
-    },
-    {
-      "date": "Apr 29",
-      "text": "Hezbollah drone strikes target Israeli soldiers in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPX1N3TE51bS1NSk03MTZWajI1R1lnUU4yMl9XcEc2T3FhMjBiWXM2S3hDRzEteElsQXFER1NlRm1MVi03TThQVzg3MVp6alhobXJrMTJqQ2dDTkJkWVliY2dpamZKY2pDdnZ3a21FX3N0LVVPRXN5MDhsZ3FiOTQtbWJhTkpjWVBydGdjZDUxS0RmMlhFeXM0MVduWTAtYk5JdXhRbTQyMGZoSnBXVnZGNkg1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 418
-    },
-    {
-      "date": "Apr 29",
-      "text": "The US expands its military footprint in the region as the ceasefire wavers.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 418
+      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 419
     }
   ],
   "sourceStatuses": [
