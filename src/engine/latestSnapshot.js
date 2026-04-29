@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 428,
+  "updateSequence": 429,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T21:16:41.077Z",
+  "lastSyncedAt": "2026-04-29T22:12:53.065Z",
   "warDay": 61,
-  "summary": "US-Iran negotiations are stalled amidst a fragile and expiring ceasefire, with ongoing military threats, increased Israeli attacks in Lebanon, and significant disruption to Strait of Hormuz traffic.",
+  "summary": "A 2-week ceasefire between the U.S. and Iran is set to expire amid ongoing tensions over the Strait of Hormuz, where ships have been taken, and an estimated $25 billion war cost.",
   "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect but is set to expire soon amidst uncertain talks."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is currently active but is set to expire soon, with talks regarding its extension uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 28",
-      "text": "Iran Update Special Report published.",
+      "text": "Iran Update Special Report published, noting the Iranian army is 'still in war situation'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOTDFVSGl6aEFKSUhhdVZsYlg4bmxENDZFeWRkNE1ZdVNBZWlOd1ZNZXd0ak9QWXpxR1BlLWZOSDgtMFk0MktoUWFRQWh3NlZySS1GZFBMWmlwNldUUUVNbklIYUZ3ckEzTmZPZXpSU3QtR2RubTNkN1d5a2NpSFdaVXRLd0xfZFFxckZKRVN5Zi02V2Uxdmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 428
+      "latestSinceUpdate": 429
     },
     {
-      "date": "Apr 29",
-      "text": "United Arab Emirates announces intent to exit OPEC.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTFBYdGFWQTUyN193ZzhtMEJRMTI3NG9PNDNxTFJwVEVCbkg3bjlDZVVDdGozdmlBRS1nWVZTenRBc25xNGxfVkQtb1FNdU1TYjc0NTRST0JBU3dBbDlHVlBhSkdGOWctdGM?hl=en-US&gl=US&ceid=US:en",
+      "date": "Apr 28",
+      "text": "Iran offers to reopen the Strait of Hormuz if the US lifts its blockade and the war ends.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 428
+      "latestSinceUpdate": 429
     },
     {
-      "date": "Apr 29",
-      "text": "US-Iran negotiations stall, leading to an 'awkward limbo of no war, no peace'.",
+      "date": "Apr 28",
+      "text": "U.S. and Iran are described as being in an 'Awkward Limbo of ‘No War, No Peace’'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxQNXZReTlUSXF2dTRNTjFoVkNYMU93b2Q5YkhWcFhVd2JuYXhKeVdrc1dRN1NhczhHRW5FaW9uVlRPd01iWGRrajVGeDc1V1kzMGJ5V3BmMVlJLXZHYWRWdDhtYUR6bEZyT2lvNzQ2ZmczQnBGc3JBTjBMQWR0Q2hseGJsODJEM0pwemVPUlZGQzlRRUluczJv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 429
+    },
+    {
+      "date": "Apr 28",
+      "text": "Israel attacks increase in Lebanon, and ships are reported taken in the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 428
-    },
-    {
-      "date": "Apr 29",
-      "text": "Trump threatens Iran to 'get smart soon' amid stalled talks and weighs military options.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNazRKUUN0NHBUOU1xb2NOUmdsOW1LXy1pak80Z0VHallZb2MwV2g5UHVWcU1kRU9uTlpfVmJseDR4bUxjcWQza0t5LTVwNWJRNElob3N6d3ktWk5TSHZrQWZEbE9VMWRiUGtSbWJpdmZLVzRPNXE4MXQ5WlFneGs1ZmVWZlpZU2x4MVY4Rml1QlZOY1dSUGxZRWlPY196YlpUYzhOek1yT2ltLVYyeGluSElBaW1xWFdLS2FTTkJ1STfSAcYBQVVfeXFMUGJtN3Nka2dBOTR2ZjVFblhodXdlcmtVSHFKWElaSDQteDJLYUJoTkQ0UnVfY3RiTkpKVjNOeU92Q3NuN1hycmtrd0RmWFV4WW1sZ1JsQkV2TnhyV0k3MFJmRmFnZ0oxUm1nZGkyUWFLSndia0F0OTFkQ3ZTYnJCWmZfSHZVTHY0ZEMyWW1DdWFsYnZrcG9vMVphMTJZWGswdjU1SzVyak92NWdRNGpPSEQzS1lzWERmbDFOZE5BXzBFTmhFa2NR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 428
-    },
-    {
-      "date": "Apr 29",
-      "text": "Israel increases attacks in Lebanon; ships are taken in the Strait of Hormuz.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 428
+      "latestSinceUpdate": 429
     },
     {
-      "date": "Apr 29",
-      "text": "A 2-week US-Iran ceasefire is set to expire, with talks uncertain.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 428
+      "date": "Apr 28",
+      "text": "U.S. and Iran reached a 2-week ceasefire ahead of Trump's deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 429
+    },
+    {
+      "date": "Apr 28",
+      "text": "U.S. aircraft carrier in the Iran war is expected to leave the Middle East, with conflict's estimated cost at $25 billion.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQTWdKUkZnNkxNSGtMMTh1eTZPN3IzaXlvRnlFejVEZkRBdEhMbHZDT0Exd3dLZWZNVHljbnliTmlKald6RHlDczA3UXQ4andVbno3dFFsdXRoZzNhaV9NQVJJU1lUdVR2R0pEcFBwcjIwYkxFMHQtQXctUmlBLVZyeU16d2JiSDNMWFUwYTRWZmNDakw4QXduLUszQjAtclJFRnEwWFg1M3VnYy1KVXfSAbMBQVVfeXFMUGJxLXFqY05XSlBFVWpRSTQxcjB2cjNOVUU4WWR0eUJCdjB2ZXAtOXlNSFZfZTBvbTNJd1gwLVRyZkNmTHhDSGFrUWlpbHFXalY1QXhGR3FXa0RNaHJhY0lEek5UMjkxS0lkaW9jU2h1RnZUY3ZOS0ZBbHowUzB3LW5zRVpFSGp6QVJ5MjVTQ1hFdXp4Nkl6UkVLRS01VHFNeXJsMzBHdzVGVEw0T3IwczBhSXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 429
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
