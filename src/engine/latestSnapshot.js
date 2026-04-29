@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 421,
+  "updateSequence": 422,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T09:35:59.698Z",
+  "lastSyncedAt": "2026-04-29T11:17:09.407Z",
   "warDay": 61,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -76,19 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 29",
-      "text": "Iran War Shakes Global Economy, but the U.S. Has Mostly Been Spared",
+      "text": "The U.S. Started the War. The Rest of the World Is Feeling the Effects.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOcHlFaVlQZ1R1cnJ4NWJkclNsNmJVZ293eW50UEQ3bC1xTFZVU19sRjhLdlNiOV9aUER3cDZCamhpRGlTMEN4WVA5UnU3X0l3WnpncWttMmxGS0FWQ3VhYzEzejZmdkdPQk14aG1RYU5pR1daYmZfSXFFYy1NMkxCcnJxdW54UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 420
+      "latestSinceUpdate": 422
     },
     {
       "date": "Apr 29",
-      "text": "Here's what to know about ceasefire negotiations between the U.S. and Iran",
+      "text": "Trump’s War in Iran is Causing a Modern Crisis of Confidence",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNRkpnNkpRckUwYWtYRzJnbDVFd3hqNEthUVVUOHBJVlZPR0JnVzZuaDFVVWdscGxDNkR6WTJjS0x5c1JXVi00VUVTUFZERk1pbTZsT0J5MDJtYkgyUmcyanF0d0luN2piV1lydmtpeXhaZFN2NUQ2eUhPclpQdzBwS3RGODdUaVJjZVFRRE5WQnB3SDdzdVlCYU82WXBsM0U4REticUYzbkVSMDDSAbABQVVfeXFMUFkwanJuSG1BSmNwTGhZUjRhTzNQUEhucUU1R3FFWmpZMjF6X3ZxZVNVMW43UVMzV0w4U1hzYmtWczhhcFpJV2YzVk5qV1FZcHZUUXhrNXVpanlrdjZYWnRCT0wzWW9mYkpjNG1IcVNYcEpxVzRLWUhlaXRiYkZLR19fWVdGOHVaWUZHRlE1bmp0SmhqZWZ2TUFad3NvTkdtV2t5YTNfbG1mb0txZ2JmUjc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 421
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPUDhTTVVsNVFqQ002N09MZTV4RnNabHZjRDAzblJuM2NsVjBBWS1EQnp3VzNzOElEV1czZTlQVi1LdHdzUXhSQ2VCNV9tT1hnVjJnRkdWSU1DcmZteExwTUJwRzFUdEd6YVE0S1VpYndkcnYxM1hxdjVuTGRoWGt4RWFwQUlJOWc5SkZYMUU3LTJMOUI2bDVkVDNEZUgwUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Time Magazine",
+      "latestSinceUpdate": 422
     },
     {
       "date": "Apr 29",
