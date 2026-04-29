@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 417,
-  "lastUpdated": "2026-04-28",
-  "lastSyncedAt": "2026-04-28T23:40:51.573Z",
-  "warDay": 60,
-  "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, but the region remains in a 'no war, no peace' limbo with ongoing skirmishes and diplomatic negotiations over the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-04-28",
+  "updateSequence": 418,
+  "lastUpdated": "2026-04-29",
+  "lastSyncedAt": "2026-04-29T01:26:03.231Z",
+  "warDay": 61,
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 11,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect but remains fragile amidst ongoing regional skirmishes and diplomatic uncertainty."
+    "summary": "A ceasefire is in place but is actively being violated by both Israeli and Hezbollah forces, leading to casualties and a wavering status."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 28",
-      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's May 1 deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 417
-    },
-    {
-      "date": "Apr 28",
-      "text": "An Israeli engineering contractor was killed and his son injured in a Hezbollah drone attack in south Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiY0FVX3lxTE8xVGEzWjctQ2huNWhjdE90eTRXMjc0ZU0wWkFKcExLbVJUMEdqSXMzcWt3X2tRNnU4OWwwYmlqMG04WXpBLVpwNVhITl9md2RJQXhtOEJmSG8xZVRtYmFmYUpnWdIBaEFVX3lxTE9WQkNNU09PMFdLT09PUkQySG11Tm9YU2VHMW41NEtRZ29rODJfdmRPX3hNa0NMdDl3RE5KUXpzUGpPUGxWTExUWnNFUEFRMk4yUUt0TjZDYzNnZXd5WGtoZVhFa1MzSzJE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 417
-    },
-    {
-      "date": "Apr 28",
-      "text": "Iran offers to reopen the Strait of Hormuz if the US lifts its blockade and the war ends.",
+      "date": "Apr 29",
+      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 417
+      "latestSinceUpdate": 418
     },
     {
-      "date": "Apr 28",
-      "text": "Report indicates Iran has caused billions in damage to US military bases in the Gulf region.",
+      "date": "Apr 29",
+      "text": "Standoff in the Strait of Hormuz continues amidst ongoing regional tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNZ3ExaFZxWnVYc1h6OTNLVE5HOXhGTUpuN1FQRW9xSjhMaUFldEUxc1JnTVY5OFpweGtjRm9oUGpOZ1kyTkV3Z0pIZV9ZN0d3ZEVkWDJPYlpSbjB2VkFGVW02blFuMHJBUmF0dXExZUJIbDd2aVNkZmVJb2pHQ29yQUtkSnZld9IBiwFBVV95cUxNajFNTG5USWN1cnFaZnV1bld3X0NXb210MjJDVXVzdUU0WmxnYlBJWGszaGwyTjRNcjdQaGJUSDlpZlU1Ty1RNkpUa2pkZWxvOE1aTFRoT09BMDlxYWZTbFVUMjRfT3RTZ2U4c21XZHdCamQwclY4alEwN3ViRlFuWnJzYnpHOGdIV25Z?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 417
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 418
     },
     {
-      "date": "Apr 28",
-      "text": "US military boarded a cargo ship suspected of heading to Iran during the blockade but released it.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPSlpjaVFWZ3d1WUNacmFEVEVUT3FvY0FnYW1YakFwcmFNMS1uZ2JmcHJFcHZCb1M1NDJhNlpFTjIxLVdnU0tBSHBabjg5T0Y3a3NCa083czJ0bXp2SF9uX0NuaGxtNmFuNWY0dk1WV0lQTzdaWkJkMkIxZW1wZ1RxRXhGazN2T1dtRFU0Nm5nSW5lWHYzaXMxdEVGMTNNUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 417
+      "date": "Apr 29",
+      "text": "Israel and Hezbollah trade strikes in southern Lebanon, with reports of 14 killed.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 418
+    },
+    {
+      "date": "Apr 29",
+      "text": "Eight killed as Israel attacks south Lebanon despite an existing ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixwJBVV95cUxNeW1QWU1ickJwTk81enlZMkFFTElyZW9EREJxOUlaR2VnNjl6REwwTkdNQ1loZTdVN2NRdUFxazJCSnlVTmc1NWo3ak5HUG9ieGtYUzZPREdIakk3QVlqRF9oLVFMRFI3WGpERFNRQUM2Ykx3YWVpYnVNcDlIMFd0M0YzVHB5MkdybnlnSVZNUzRZdTNSR1U4NjZJeWlXbTdCbFNTV1A3SUpNQ3huRkgzWjFVQTN0RUc1ZGFlQU9tWFlkdGdMRmIxSHdjMzMyY3h4ZDRUMVBrOHdoYXptNnZWV2VURmN2Z0ZZU05LVV9OUWVJQmVZNlVQaGRsYmJxMlFHUEpvakVINWVVNmRLTXUybGFLVVBiN0JxRmJ1U1ZZVXNZcFA1RjByMVJfM0tHRU51UlJGMWtuRUl5TEFJNGRRbktxc3dramvSAcwCQVVfeXFMT0tzUGtOcGFuV0VDWGt5U3dSSkJSQ1dkb1NVZEdHNzF6Y25vZU1GZ0kzdHYwOTBjWHN2cUw5cWxleTVzZVhsc3R5RGR2cDg4R0FaUl9xTGhhTGphLXdRUjdJS3Z0akExR0EzUkhYa0RFMTQ3MkFsUVJSTmFzRXFqZFBoUlB1OXBvcEVnQ2hMQVFiLVlTV09sbVUtekVEX2ZEbk9ZWi10TlRiSTk0Si1vR0h4MGdzQldDZ1RPWFhwbVl3c2VGb1hCdld4UWxOdktlNkRFdUJYakVEOXY1YjU0ZXVaZEthNV9USFpHckNieFU0UVdHOE85Y0RjMVNkX0NOSW90eGFIQVJkaEtkeWVxWVhmaUJRZ3RHTnNyX2FZa3h0aTJOekVJdDN0RTRWSkREeEJsSG9GbHdQc1pzaWtOUkJkVVplZG1Kc1VRcHQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 418
+    },
+    {
+      "date": "Apr 29",
+      "text": "Hezbollah drone strikes target Israeli soldiers in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPX1N3TE51bS1NSk03MTZWajI1R1lnUU4yMl9XcEc2T3FhMjBiWXM2S3hDRzEteElsQXFER1NlRm1MVi03TThQVzg3MVp6alhobXJrMTJqQ2dDTkJkWVliY2dpamZKY2pDdnZ3a21FX3N0LVVPRXN5MDhsZ3FiOTQtbWJhTkpjWVBydGdjZDUxS0RmMlhFeXM0MVduWTAtYk5JdXhRbTQyMGZoSnBXVnZGNkg1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 418
+    },
+    {
+      "date": "Apr 29",
+      "text": "The US expands its military footprint in the region as the ceasefire wavers.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 418
     }
   ],
   "sourceStatuses": [
@@ -131,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Diplomatic Stance",
-      "headline": "Iran Links Hormuz Reopening to War End and Sanction Lift",
-      "summary": "Iran is actively pursuing a diplomatic resolution, offering to reopen the Strait of Hormuz in exchange for the US lifting its blockade and ending the conflict. This strategy aims to leverage a critical global chokepoint for broader concessions.",
+      "perspective": "Iran's Stance",
+      "headline": "Iran Offers Hormuz Reopening Amidst Economic Strain",
+      "summary": "Iran, facing economic pressure, proposes reopening the Strait of Hormuz if the US lifts its blockade and the war concludes, while maintaining its military readiness and 'war situation' status.",
       "tone": "strained",
-      "latestSinceUpdate": 405
+      "latestSinceUpdate": 418
     },
     {
-      "perspective": "US/Israel Regional Security",
-      "headline": "US Considers Iran Deal Amidst Israel-Hezbollah Escalation",
-      "summary": "The U.S. is evaluating Iran's proposals while maintaining a firm stance against normalizing tolls on Hormuz passage. Concurrently, Israel is intensifying its military actions against Hezbollah in Lebanon, indicating continued regional conflict despite US-Iran ceasefire talks.",
-      "tone": "anxious",
-      "latestSinceUpdate": 405
-    },
-    {
-      "perspective": "US Military Readiness Concerns",
-      "headline": "Pentagon Underreporting War Damage, Munitions Depleted",
-      "summary": "Concerns are emerging regarding the transparency of war reporting from the Pentagon, with suggestions that the full extent of damage to US bases by Iran is not publicly known. This comes as reports indicate significant depletion of expensive US military munitions.",
+      "perspective": "US Skepticism",
+      "headline": "Trump Skeptical of Iran's Proposal, Cites Collapse",
+      "summary": "The US, through President Trump, expresses skepticism regarding Iran's proposal for the Strait of Hormuz and asserts that Tehran is in a state of collapse.",
       "tone": "skeptical",
-      "latestSinceUpdate": 405
+      "latestSinceUpdate": 418
+    },
+    {
+      "perspective": "Israel's Security",
+      "headline": "Israel Continues Hezbollah Engagement, Emphasizes Strength",
+      "summary": "Israel continues to engage Hezbollah in Lebanon, with its UN ambassador emphasizing the IDF's morality and the necessity of a strong Israel to achieve peace.",
+      "tone": "defiant",
+      "latestSinceUpdate": 418
+    },
+    {
+      "perspective": "Hezbollah's Resolve",
+      "headline": "Hezbollah Vows to Keep Weapons Amidst Strikes",
+      "summary": "Hezbollah continues its military actions against Israel, including drone strikes, and vows to retain its weapons despite ongoing conflict and Israeli attacks.",
+      "tone": "defiant",
+      "latestSinceUpdate": 418
     }
   ]
 });
