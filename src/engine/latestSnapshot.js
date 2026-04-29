@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 419,
+  "updateSequence": 420,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T04:59:13.117Z",
+  "lastSyncedAt": "2026-04-29T07:29:59.145Z",
   "warDay": 61,
-  "summary": "The Iran-Israel-U.S. war continues on Day 61, marked by ongoing military actions, economic strain on Iran, a recently agreed 2-week ceasefire, and disputes over the Strait of Hormuz.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though its stability is uncertain amidst ongoing regional actions."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 29",
-      "text": "Iranian army declares it is 'still in war situation'.",
+      "text": "Iran war updates: Iranian army ‘still in war situation’; Gulf leaders meet",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxQRTI1VDUtQzgtZ3dvTzhkZnhpQ05LZGZzcHpqWi03aFZ2UHJWWXpYbGRHU2tCMmdrWFhpc01BMUNQdDFUaVFMLWI3Wjg4WE84Q3BRTWY0Q1lTZHhBN3pBcGs1X3czamRTZ29YcnF5ZmZDU0NPVGh1T2E0UnpmVVhfZFZ5STJuSGRjbUlYZ2N0Q2lJY3BfR09uRnp1Y0ZrbHdmYUdnY0xJLVExYUcwemFEZDA5RVI2VFh5V3fSAb8BQVVfeXFMTjdpWWFVWEJTczd2Y1pvV3cxajdHTENIbC11c2g0MS1ZbDFmUmNxMmFKSDNUVVBMbjhxSG5MemRUTGl5ejZFczhGeHo4VlFSVmRKWWJUU3JveXkzOVhwMm9LV3ZtTU9FdDJGYUE5QmxLTG5kOTlpa3ZocVZiOHh4Zi1GQU1LakhpSmtudnNZMDRDVlVBazZtOHdTOElOYlVzYUszbEdJRlFjaE83RllTMjBWLV9CZE1YZ3dvc3ZZczg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 419
+      "latestSinceUpdate": 420
     },
     {
       "date": "Apr 29",
-      "text": "United Arab Emirates announces its intention to exit OPEC.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 419
-    },
-    {
-      "date": "Apr 29",
-      "text": "US-Iran negotiations have stalled.",
+      "text": "United Arab Emirates says it will exit OPEC, while US-Iran negotiations stall",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 419
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTFBYdGFWQTUyN193ZzhtMEJRMTI3NG9PNDNxTFJwVEVCbkg3bjlDZVVDdGozdmlBRS1nWVZTenRBc25xNGxfVkQtb1FNdU1TYjc0NTRST0JBU3dBbDlHVlBhSkdGOWctdGM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 420
     },
     {
       "date": "Apr 29",
-      "text": "Israel's attacks have increased in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 419
-    },
-    {
-      "date": "Apr 29",
-      "text": "Ships have been taken in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 419
-    },
-    {
-      "date": "Apr 29",
-      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
+      "text": "Iran War Shakes Global Economy, but the U.S. Has Mostly Been Spared",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 419
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOcHlFaVlQZ1R1cnJ4NWJkclNsNmJVZ293eW50UEQ3bC1xTFZVU19sRjhLdlNiOV9aUER3cDZCamhpRGlTMEN4WVA5UnU3X0l3WnpncWttMmxGS0FWQ3VhYzEzejZmdkdPQk14aG1RYU5pR1daYmZfSXFFYy1NMkxCcnJxdW54UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 420
+    },
+    {
+      "date": "Apr 29",
+      "text": "Divergent Agendas - The Quagmire in the 2026 Iran-Israel-U.S. War",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOTzJNNE13YWI5UlY5eG0ycFJHM2JOMUE2OUxpM3FhZ1dmM2V0OGRTTndRTHJSRkRJV3BIRjBXNFVFZ2QxWnNNcGZHTkFTU1FUMmtIdG1DUUFGOTdXOE9OMVpaeHN0UkJaQVVSVE5PcW5oMXZTcnFnUFNjMTd0Mlcxdm43RWdsUmxVS05rTk82TVM2Rl8wZ0tWNzhnbS15T3NudnpoU3VXcHJlV245bFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Vivekananda International Foundation (VIF)",
+      "latestSinceUpdate": 420
+    },
+    {
+      "date": "Apr 29",
+      "text": "Iran’s economy has been battered. Its leaders still think Trump will blink first",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 420
+    },
+    {
+      "date": "Apr 29",
+      "text": "Iran-Israel War LIVE Updates: Israel Strikes South Lebanon Despite Ceasefire; Hezbollah Continues Drone Strikes",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwJBVV95cUxNaDhES0VMY2hNcXZSeExLUnRmRk1VMDVYMk93NW4ySU5sQnAyTEtDZnFjQzAwUFVwNXdoTnVwVk1oTjBzaldXTlc0ZlFaMGNzbGdsMkxVeEpIS3VxU2Q4d3doTnlMTDRUNXJtWW1NTV9aSlYyWXpQZjZfaVVtbjgwMTJLYkxZWmtNblY5TWZoS0tTTnNMaDdsbzlocGcyWjk0SFF1bzNJbUNadHpmUGY4Y1ZCS1hIRTlqUjZoVE5PVTF3TXdNdkU2MTZkcVhSdmJKS1BIZXFDV3VsQy0yNFhkbXNISXV6UHlncklqWXJKb0lydk1LZTJOLWo2NnJKZEtEeGQ5VlVPTzdRSzdqOEU00gGUAkFVX3lxTE5IRTdjcEExbS1UOGZ3akhEMWU0dktubGJMWDcxbUdvVktoNTVyclNHUEdXdUZJelV1RVZfVzNqSXJjLUgzWXFXRk5WQ1MtcW5wUWh3V3NCdnBITkdHclUydHlpQUN5RXdKLWZOd3NZRWNUSW9GY2NZdnVoNWVJV29tLXhSYlZ4c0Nrd0d6dUFRQ0otV3BPV2Fvc2tXVmg3MmhrLWZYSVdYY2ppYzVJaGVSVW9rb1VmNUtzT0JTVG9seVJqbGlhOGlMZkowbWQ3VWhxWS11QTBMT3dZeFlUQUhvUDBQVUotU1Z0SHNXeUpGalRscmZyWHFWN3haVDVvcF9jR0dZU3VPZVdfa2wyRmQ1R0ZFYg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Times Now",
+      "latestSinceUpdate": 420
     }
   ],
   "sourceStatuses": [
