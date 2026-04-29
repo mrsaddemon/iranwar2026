@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 424,
+  "updateSequence": 425,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T15:23:33.911Z",
+  "lastSyncedAt": "2026-04-29T17:08:02.301Z",
   "warDay": 61,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 10,
     "escalationLevel": 38,
     "oilDisruption": 62,
-    "tradeImpact": 51,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -102,8 +102,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 421
+      "sourceName": "Al Jazeera"
     }
   ],
   "sourceStatuses": [
