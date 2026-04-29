@@ -1,13 +1,13 @@
 {
-  "updateSequence": 425,
+  "updateSequence": 426,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T17:08:02.301Z",
+  "lastSyncedAt": "2026-04-29T18:51:21.862Z",
   "warDay": 61,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.98,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A temporary ceasefire is uncertain as it approaches expiration, with ongoing talks failing to secure an extension amidst continued hostilities."
   }
 }
