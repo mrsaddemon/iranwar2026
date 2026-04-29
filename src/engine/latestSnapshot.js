@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 420,
+  "updateSequence": 421,
   "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T07:29:59.145Z",
+  "lastSyncedAt": "2026-04-29T09:35:59.698Z",
   "warDay": 61,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-29",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 29",
-      "text": "Divergent Agendas - The Quagmire in the 2026 Iran-Israel-U.S. War",
+      "text": "Here's what to know about ceasefire negotiations between the U.S. and Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOTzJNNE13YWI5UlY5eG0ycFJHM2JOMUE2OUxpM3FhZ1dmM2V0OGRTTndRTHJSRkRJV3BIRjBXNFVFZ2QxWnNNcGZHTkFTU1FUMmtIdG1DUUFGOTdXOE9OMVpaeHN0UkJaQVVSVE5PcW5oMXZTcnFnUFNjMTd0Mlcxdm43RWdsUmxVS05rTk82TVM2Rl8wZ0tWNzhnbS15T3NudnpoU3VXcHJlV245bFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Vivekananda International Foundation (VIF)",
-      "latestSinceUpdate": 420
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNRkpnNkpRckUwYWtYRzJnbDVFd3hqNEthUVVUOHBJVlZPR0JnVzZuaDFVVWdscGxDNkR6WTJjS0x5c1JXVi00VUVTUFZERk1pbTZsT0J5MDJtYkgyUmcyanF0d0luN2piV1lydmtpeXhaZFN2NUQ2eUhPclpQdzBwS3RGODdUaVJjZVFRRE5WQnB3SDdzdVlCYU82WXBsM0U4REticUYzbkVSMDDSAbABQVVfeXFMUFkwanJuSG1BSmNwTGhZUjRhTzNQUEhucUU1R3FFWmpZMjF6X3ZxZVNVMW43UVMzV0w4U1hzYmtWczhhcFpJV2YzVk5qV1FZcHZUUXhrNXVpanlrdjZYWnRCT0wzWW9mYkpjNG1IcVNYcEpxVzRLWUhlaXRiYkZLR19fWVdGOHVaWUZHRlE1bmp0SmhqZWZ2TUFad3NvTkdtV2t5YTNfbG1mb0txZ2JmUjc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 421
     },
     {
       "date": "Apr 29",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Apr 29",
-      "text": "Iran-Israel War LIVE Updates: Israel Strikes South Lebanon Despite Ceasefire; Hezbollah Continues Drone Strikes",
+      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwJBVV95cUxNaDhES0VMY2hNcXZSeExLUnRmRk1VMDVYMk93NW4ySU5sQnAyTEtDZnFjQzAwUFVwNXdoTnVwVk1oTjBzaldXTlc0ZlFaMGNzbGdsMkxVeEpIS3VxU2Q4d3doTnlMTDRUNXJtWW1NTV9aSlYyWXpQZjZfaVVtbjgwMTJLYkxZWmtNblY5TWZoS0tTTnNMaDdsbzlocGcyWjk0SFF1bzNJbUNadHpmUGY4Y1ZCS1hIRTlqUjZoVE5PVTF3TXdNdkU2MTZkcVhSdmJKS1BIZXFDV3VsQy0yNFhkbXNISXV6UHlncklqWXJKb0lydk1LZTJOLWo2NnJKZEtEeGQ5VlVPTzdRSzdqOEU00gGUAkFVX3lxTE5IRTdjcEExbS1UOGZ3akhEMWU0dktubGJMWDcxbUdvVktoNTVyclNHUEdXdUZJelV1RVZfVzNqSXJjLUgzWXFXRk5WQ1MtcW5wUWh3V3NCdnBITkdHclUydHlpQUN5RXdKLWZOd3NZRWNUSW9GY2NZdnVoNWVJV29tLXhSYlZ4c0Nrd0d6dUFRQ0otV3BPV2Fvc2tXVmg3MmhrLWZYSVdYY2ppYzVJaGVSVW9rb1VmNUtzT0JTVG9seVJqbGlhOGlMZkowbWQ3VWhxWS11QTBMT3dZeFlUQUhvUDBQVUotU1Z0SHNXeUpGalRscmZyWHFWN3haVDVvcF9jR0dZU3VPZVdfa2wyRmQ1R0ZFYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Times Now",
-      "latestSinceUpdate": 420
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 421
     }
   ],
   "sourceStatuses": [
