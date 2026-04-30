@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 430,
-  "lastUpdated": "2026-04-29",
-  "lastSyncedAt": "2026-04-29T23:13:03.984Z",
-  "warDay": 61,
-  "summary": "A two-week ceasefire between the U.S. and Iran is nearing expiration amidst ongoing tensions over the Strait of Hormuz, where Iran has taken ships and threatened further action, while the U.S. considers military options.",
-  "lastNarrativeUpdate": "2026-04-29",
+  "updateSequence": 431,
+  "lastUpdated": "2026-04-30",
+  "lastSyncedAt": "2026-04-30T00:10:07.753Z",
+  "warDay": 62,
+  "summary": "A two-week ceasefire between the U.S. and Iran is set to expire amidst stalled talks, continued Iranian blockade of the Strait of Hormuz, and increased Israeli attacks in Lebanon.",
+  "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is active but faces uncertainty as its expiration approaches and talks remain unresolved."
+    "summary": "A two-week ceasefire between the U.S. and Iran was reached but is now uncertain as it approaches expiration, with talks stalled."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 28",
-      "text": "Iran's army remains in a 'war situation' as Gulf leaders meet to discuss regional developments.",
+      "text": "Iran Update Special Report released.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxQRTI1VDUtQzgtZ3dvTzhkZnhpQ05LZGZzcHpqWi03aFZ2UHJWWXpYbGRHU2tCMmdrWFhpc01BMUNQdDFUaVFMLWI3Wjg4WE84Q3BRTWY0Q1lTZHhBN3pBcGs1X3czamRTZ29YcnF5ZmZDU0NPVGh1T2E0UnpmVVhfZFZ5STJuSGRjbUlYZ2N0Q2lJY3BfR09uRnp1Y0ZrbHdmYUdnY0xJLVExYUcwemFEZDA5RVI2VFh5V3fSAb8BQVVfeXFMTjdpWWFVWEJTczd2Y1pvV3cxajdHTENIbC11c2g0MS1ZbDFmUmNxMmFKSDNUVVBMbjhxSG5MemRUTGl5ejZFczhGeHo4VlFSVmRKWWJUU3JveXkzOVhwMm9LV3ZtTU9FdDJGYUE5QmxLTG5kOTlpa3ZocVZiOHh4Zi1GQU1LakhpSmtudnNZMDRDVlVBazZtOHdTOElOYlVzYUszbEdJRlFjaE83RllTMjBWLV9CZE1YZ3dvc3ZZczg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 430
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOTDFVSGl6aEFKSUhhdVZsYlg4bmxENDZFeWRkNE1ZdVNBZWlOd1ZNZXd0ak9QWXpxR1BlLWZOSDgtMFk0MktoUWFRQWh3NlZySS1GZFBMWmlwNldUUUVNbklIYUZ3ckEzTmZPZXpSU3QtR2RubTNkN1d5a2NpSFdaVXRLd0xfZFFxckZKRVN5Zi02V2Uxdmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 431
     },
     {
-      "date": "Apr 28",
-      "text": "Iran offers to reopen the Strait of Hormuz if the U.S. lifts its blockade and the conflict ends.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 430
-    },
-    {
-      "date": "Apr 28",
-      "text": "The U.S. and Iran are described as being in an 'awkward limbo of no war, no peace'.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 430
-    },
-    {
-      "date": "Apr 28",
-      "text": "Israel has increased attacks in Lebanon, and ships have been taken in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 430
-    },
-    {
-      "date": "Apr 28",
-      "text": "The U.S. and Iran reached a two-week ceasefire ahead of a Trump deadline.",
+      "date": "Apr 30",
+      "text": "U.S. and Iran reached a 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 430
+      "latestSinceUpdate": 431
     },
     {
-      "date": "Apr 28",
-      "text": "A U.S. aircraft carrier involved in the Iran conflict is expected to leave the Middle East, with the conflict's estimated cost at $25 billion.",
+      "date": "Apr 30",
+      "text": "U.S.-Iran talks are uncertain as the ceasefire is set to expire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 431
+    },
+    {
+      "date": "Apr 30",
+      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQTWdKUkZnNkxNSGtMMTh1eTZPN3IzaXlvRnlFejVEZkRBdEhMbHZDT0Exd3dLZWZNVHljbnliTmlKald6RHlDczA3UXQ4andVbno3dFFsdXRoZzNhaV9NQVJJU1lUdVR2R0pEcFBwcjIwYkxFMHQtQXctUmlBLVZyeU16d2JiSDNMWFUwYTRWZmNDakw4QXduLUszQjAtclJFRnEwWFg1M3VnYy1KVXfSAbMBQVVfeXFMUGJxLXFqY05XSlBFVWpRSTQxcjB2cjNOVUU4WWR0eUJCdjB2ZXAtOXlNSFZfZTBvbTNJd1gwLVRyZkNmTHhDSGFrUWlpbHFXalY1QXhGR3FXa0RNaHJhY0lEek5UMjkxS0lkaW9jU2h1RnZUY3ZOS0ZBbHowUzB3LW5zRVpFSGp6QVJ5MjVTQ1hFdXp4Nkl6UkVLRS01VHFNeXJsMzBHdzVGVEw0T3IwczBhSXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 430
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 431
+    },
+    {
+      "date": "Apr 30",
+      "text": "Ships taken in Hormuz; traffic stalls due to blockade.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 431
+    },
+    {
+      "date": "Apr 30",
+      "text": "Israel attacks increase in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 431
     }
   ],
   "sourceStatuses": [
@@ -140,31 +140,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "narratives": [
     {
       "perspective": "Iran's Stance",
-      "headline": "Iran Offers Hormuz Reopening Amidst Economic Strain",
-      "summary": "Iran, facing economic pressure, proposes reopening the Strait of Hormuz if the US lifts its blockade and the war concludes, while maintaining its military readiness and 'war situation' status.",
+      "headline": "Iran offers Hormuz reopening amid battered economy",
+      "summary": "Iran maintains its military posture and offers to reopen the Strait of Hormuz if the U.S. lifts its blockade and the war ends, despite its economy being battered. Iranian leaders believe the U.S. will eventually concede.",
+      "tone": "defiant",
+      "latestSinceUpdate": 431
+    },
+    {
+      "perspective": "U.S. Pressure",
+      "headline": "Trump warns Iran, weighs military options",
+      "summary": "President Trump threatens Iran to 'get smart soon' and is weighing military options over the Strait of Hormuz. This comes as a U.S. aircraft carrier prepares to leave the region, potentially reducing immediate military might.",
+      "tone": "anxious",
+      "latestSinceUpdate": 431
+    },
+    {
+      "perspective": "Hormuz Blockade Effectiveness",
+      "headline": "Hormuz blockade 'working' as traffic stalls",
+      "summary": "A former Navy EOD officer asserts the Hormuz blockade is an effective display of classic naval power, causing traffic stalls. The U.S. is pitching a new coalition to get ships moving again.",
       "tone": "strained",
-      "latestSinceUpdate": 418
+      "latestSinceUpdate": 431
     },
     {
-      "perspective": "US Skepticism",
-      "headline": "Trump Skeptical of Iran's Proposal, Cites Collapse",
-      "summary": "The US, through President Trump, expresses skepticism regarding Iran's proposal for the Strait of Hormuz and asserts that Tehran is in a state of collapse.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 418
-    },
-    {
-      "perspective": "Israel's Security",
-      "headline": "Israel Continues Hezbollah Engagement, Emphasizes Strength",
-      "summary": "Israel continues to engage Hezbollah in Lebanon, with its UN ambassador emphasizing the IDF's morality and the necessity of a strong Israel to achieve peace.",
-      "tone": "defiant",
-      "latestSinceUpdate": 418
-    },
-    {
-      "perspective": "Hezbollah's Resolve",
-      "headline": "Hezbollah Vows to Keep Weapons Amidst Strikes",
-      "summary": "Hezbollah continues its military actions against Israel, including drone strikes, and vows to retain its weapons despite ongoing conflict and Israeli attacks.",
-      "tone": "defiant",
-      "latestSinceUpdate": 418
+      "perspective": "Israel's Actions",
+      "headline": "Israel increases Lebanon attacks, asserts military strength",
+      "summary": "Israel continues attacks in Lebanon and asserts its military's morality and strength as essential for peace. Hezbollah's fibre optic drones are testing Israel’s sophisticated radar system.",
+      "tone": "strained",
+      "latestSinceUpdate": 431
     }
   ]
 });
