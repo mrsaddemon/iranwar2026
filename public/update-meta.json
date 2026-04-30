@@ -1,13 +1,13 @@
 {
-  "updateSequence": 442,
+  "updateSequence": 443,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T21:17:24.600Z",
+  "lastSyncedAt": "2026-04-30T22:12:23.884Z",
   "warDay": 62,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, but its fragility is highlighted by continued fighting between Israel and Hezbollah in Lebanon and defiant Iranian rhetoric."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is currently active but faces uncertainty as talks continue and its expiration approaches."
   }
 }

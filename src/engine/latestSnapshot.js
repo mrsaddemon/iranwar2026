@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 442,
+  "updateSequence": 443,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T21:17:24.600Z",
+  "lastSyncedAt": "2026-04-30T22:12:23.884Z",
   "warDay": 62,
-  "summary": "The war in Iran is on Day 62, with a 2-week ceasefire between the U.S. and Iran in effect, though Israel and Hezbollah continue fighting in Lebanon, while oil prices have reached a four-year high.",
+  "summary": "The war between the U.S. and Iran continues on day 62, marked by a fragile 2-week ceasefire nearing its expiration, while both sides assess military options and Iran's economy faces severe strain amidst rising oil prices.",
   "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, but its fragility is highlighted by continued fighting between Israel and Hezbollah in Lebanon and defiant Iranian rhetoric."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is currently active but faces uncertainty as talks continue and its expiration approaches."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.95
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 30",
-      "text": "U.S. economy grew 2 percent in early 2026 despite war's impact on energy prices.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 442
-    },
-    {
-      "date": "Apr 30",
-      "text": "Billions of dollars worth of U.S. military equipment reportedly destroyed in Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 442
-    },
-    {
-      "date": "Apr 30",
-      "text": "Israel kills 28 in Lebanon amid ongoing conflict with Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 442
-    },
-    {
-      "date": "Apr 30",
-      "text": "U.S. and Iran reach a 2-week ceasefire agreement.",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 442
+      "latestSinceUpdate": 443
     },
     {
       "date": "Apr 30",
-      "text": "Iran's Supreme Leader states plans for ongoing control of the Strait of Hormuz and issues aggressive rhetoric towards the U.S.",
+      "text": "U.S.-Iran talks are uncertain as the ceasefire is set to expire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 443
+    },
+    {
+      "date": "Apr 30",
+      "text": "US military equipment worth billions of dollars destroyed in Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 443
+    },
+    {
+      "date": "Apr 30",
+      "text": "Iran’s Schools and Hospitals in Ruins, Times Analysis Shows.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 442
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNbURkVU1ObjFOb2psUGJ2dWtENFROSWd6QnFSMjd2YXotaDBNMGFNV2M5Ylpkai1YRk8xSVA2WVB4MVJFejllT0xuNEFHZnA5cGQ5NlhOTlpuYjA0YmdtMXNpVXNlNWlIY0lvZW5LVlNwLV9KNWxfWXVqOVBJdkNCN1duUk1jczVjODRoVlpZcjd2ZHRnRjEtWHppSFlTYmVsbkJyQnpnX3FRNHkySkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 443
     },
     {
       "date": "Apr 30",
-      "text": "Trump administration seeks coalition to reopen Strait of Hormuz.",
+      "text": "Iran war pushes oil prices to 4-year high.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQRWhqclFEeG5kR0ItQUMwTWtCNGNkbVhXRkU4bVF2ZVhJY001NloyQldzajRMWGNaSEx5bFZGNlB0UmJfNnBvSmlvUG9Wbk1HTk00M0IzOXVUbGNNUXpPWUdxVDNqMERiTTRybWNFaWJ5dlV2V3pqM3k5c2RYRmc1Qm9LcHd6NTBXelFSdzJxYm9yc0FjZmtpcUJB0gGfAUFVX3lxTE90SXBBZVhwUFFfZFZqdmdIODIxb2podDJXVG42VUdLZ3VaT056ZWRselk2S3lIRWJHdTdpR2tqZ1JlcERBZVRNdGNaamtjclJraVJxMjdmclJpQVVFbFpxaVF6WXF5RWxIeXVxYlEzdFJhbHZHZy1QNUJVY3pISGJ1aWFveUN4Z2ROV2tSSUJTN21wUTNmRzludG0wZ1ZPVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 443
+    },
+    {
+      "date": "Apr 30",
+      "text": "Iran's Supreme Leader states Iran is planning for ongoing control of the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 442
+      "latestSinceUpdate": 443
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
