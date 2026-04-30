@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 434,
+  "updateSequence": 435,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T09:04:56.310Z",
+  "lastSyncedAt": "2026-04-30T11:02:37.765Z",
   "warDay": 62,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
     "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -86,7 +86,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Apr 30",
       "text": "Iran war updates: Trump tells Iran to ‘get smart soon’ amid stalled talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNazRKUUN0NHBUOU1xb2NOUmdsOW1LXy1pak80Z0VHallZb2MwV2g5UHVWcU1kRU9uTlpfVmJseDR4bUxjcWQza0t5LTVwNWJRNElob3N6d3ktWk5TSHZrQWZEbE9VMWRiUGtSbWJpdmZLVzRPNXE4MXQ5WlFneGs1ZmVWZlpZU2x4MVY4Rml1QlZOY1dSUGxZRWlPY196YlpUYzhOek1yT2ltLVYyeGluSElBaW1xWFdLS2FTTkJ1STc?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNazRKUUN0NHBUOU1xb2NOUmdsOW1LXy1pak80Z0VHallZb2MwV2g5UHVWcU1kRU9uTlpfVmJseDR4bUxjcWQza0t5LTVwNWJRNElob3N6d3ktWk5TSHZrQWZEbE9VMWRiUGtSbWJpdmZLVzRPNXE4MXQ5WlFneGs1ZmVWZlpZU2x4MVY4Rml1QlZOY1dSUGxZRWlPY196YlpUYzhOek1yT2ltLVYyeGluSElBaW1xWFdLS2FTTkJ1STfSAcYBQVVfeXFMUGJtN3Nka2dBOTR2ZjVFblhodXdlcmtVSHFKWElaSDQteDJLYUJoTkQ0UnVfY3RiTkpKVjNOeU92Q3NuN1hycmtrd0RmWFV4WW1sZ1JsQkV2TnhyV0k3MFJmRmFnZ0oxUm1nZGkyUWFLSndia0F0OTFkQ3ZTYnJCWmZfSHZVTHY0ZEMyWW1DdWFsYnZrcG9vMVphMTJZWGswdjU1SzVyak92NWdRNGpPSEQzS1lzWERmbDFOZE5BXzBFTmhFa2NR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 434
     },
@@ -102,7 +102,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Apr 30",
       "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU4?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 434
     }
