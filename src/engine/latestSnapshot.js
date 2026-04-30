@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 436,
+  "updateSequence": 437,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T12:19:58.135Z",
+  "lastSyncedAt": "2026-04-30T14:26:57.691Z",
   "warDay": 62,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "On War Day 62, a 2-week ceasefire has been reached between the U.S. and Iran, while Israel and Hezbollah continue fighting in Lebanon, and the Strait of Hormuz blockade continues to impact global oil prices.",
   "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though fighting persists between Israel and Hezbollah in Lebanon despite a separate ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 30",
-      "text": "Iran war updates: Trump tells Iran to ‘get smart soon’ amid stalled talks",
+      "date": "Apr 28",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNazRKUUN0NHBUOU1xb2NOUmdsOW1LXy1pak80Z0VHallZb2MwV2g5UHVWcU1kRU9uTlpfVmJseDR4bUxjcWQza0t5LTVwNWJRNElob3N6d3ktWk5TSHZrQWZEbE9VMWRiUGtSbWJpdmZLVzRPNXE4MXQ5WlFneGs1ZmVWZlpZU2x4MVY4Rml1QlZOY1dSUGxZRWlPY196YlpUYzhOek1yT2ltLVYyeGluSElBaW1xWFdLS2FTTkJ1STfSAcYBQVVfeXFMUGJtN3Nka2dBOTR2ZjVFblhodXdlcmtVSHFKWElaSDQteDJLYUJoTkQ0UnVfY3RiTkpKVjNOeU92Q3NuN1hycmtrd0RmWFV4WW1sZ1JsQkV2TnhyV0k3MFJmRmFnZ0oxUm1nZGkyUWFLSndia0F0OTFkQ3ZTYnJCWmZfSHZVTHY0ZEMyWW1DdWFsYnZrcG9vMVphMTJZWGswdjU1SzVyak92NWdRNGpPSEQzS1lzWERmbDFOZE5BXzBFTmhFa2NR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 434
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 437
     },
     {
-      "date": "Apr 30",
-      "text": "Iran Update Special Report, April 28, 2026",
+      "date": "Apr 29",
+      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends, officials say.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOTDFVSGl6aEFKSUhhdVZsYlg4bmxENDZFeWRkNE1ZdVNBZWlOd1ZNZXd0ak9QWXpxR1BlLWZOSDgtMFk0MktoUWFRQWh3NlZySS1GZFBMWmlwNldUUUVNbklIYUZ3ckEzTmZPZXpSU3QtR2RubTNkN1d5a2NpSFdaVXRLd0xfZFFxckZKRVN5Zi02V2Uxdmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 434
-    },
-    {
-      "date": "Apr 30",
-      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends, officials say",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 434
+      "latestSinceUpdate": 437
     },
     {
-      "date": "Apr 30",
-      "text": "Iran war: What’s happening on day 62 as Trump asks Iran to ‘give up’?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNdGFWWkpEb3UtWm9hZHMyOVlnQXVRcXFWQVRLMXI0Y2NsLWdBNTJnVk1IVjlRZTdfUWlsbFpjNGRJeVpYaWJHS3BtZUwwVWZVS2JMdWk1UV9WT19XVGk5YUx2V2h4MUg5ZEp3NzJYX3FveldXX3BWRWRXY3BMTE5HaXpYc1huS0U5dDVveFZzMU9NWjVESXdLdm03OV9KVERBVlR2YXZkclbSAa4BQVVfeXFMTXZoMTFiVG9SUUtfbUNDX25qWm04SGFtLUthOXJ6aWt6RTRoT3RxUjlxWngxZlBwZkZfckVLNi1pVlBEN1JHbnFPRm10OWlUSTB4WGY5YVlYUU0wSS1IUUk2MlpiMnY0QURDcFZBX0pCQk9tenV0MzZsT1hjTnhhbGc1WnRSYUV5Qm96U3IxU2hHakJFOFRyQzd4Smc0QmtMVUNaSl8ycGxBQ015MTFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 436
-    },
-    {
-      "date": "Apr 30",
-      "text": "Iran’s economy has been battered. Its leaders still think Trump will blink first",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 434
-    },
-    {
-      "date": "Apr 30",
-      "text": "Iran war updates: Israel attacks increase in Lebanon; ships taken in Hormuz",
-      "severity": "info",
+      "date": "Apr 29",
+      "text": "Israel attacks increase in Lebanon; ships taken in Hormuz.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 434
+      "latestSinceUpdate": 437
+    },
+    {
+      "date": "Apr 29",
+      "text": "Israel and Hezbollah keep fighting despite Lebanon ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTFAwVHNEUW5DaVBNYkZKU19QV2pkSlFjaUlMTXdvREZYRjR2Sk10YWgwcU9lb3FnQkFhVHVWMlNaeTA5dEtidGx6aGZ6WFBaRFVCeUFQeTNHWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 437
+    },
+    {
+      "date": "Apr 29",
+      "text": "US military equipment worth billions of dollars destroyed in Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 437
+    },
+    {
+      "date": "Apr 30",
+      "text": "U.S. military commanders to brief Trump on military options against Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi4gFBVV95cUxQbC1EV3ZfWEhuMmhGZVgxUWJsVVNOOEJsYzBFanR4bWRuai1KeUN3cUVoNEdtaTJxN2hYaUtabWt0M2l5SVlBQ01ael96WldybGxnUnZmTl93Y0hvaDMzYVRVTlcwUENvWnl1bXRQV3FXTGNIdFVvWmtXdzFvS1FqcFUxN19OcDBrN1N1OGJiVTA3dUZDVjA5ZTFTSGhtdk9rZ3gxNy03R1VsS3ZiQkVkX1NkSDU0V0tfbWFGX01meU5rV2psMGR2VHZyQTNsNlhRYjJsMkdON1RsQWl6RzlOeXlR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Detroit News",
+      "latestSinceUpdate": 437
     }
   ],
   "sourceStatuses": [
