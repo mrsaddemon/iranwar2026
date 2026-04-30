@@ -1,13 +1,13 @@
 {
-  "updateSequence": 443,
+  "updateSequence": 444,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T22:12:23.884Z",
+  "lastSyncedAt": "2026-04-30T23:13:19.207Z",
   "warDay": 62,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is currently active but faces uncertainty as talks continue and its expiration approaches."
+    "summary": "A 2-week ceasefire is in effect but is set to expire soon, with talks described as uncertain."
   }
 }

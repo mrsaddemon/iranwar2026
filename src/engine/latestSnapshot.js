@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 443,
+  "updateSequence": 444,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T22:12:23.884Z",
+  "lastSyncedAt": "2026-04-30T23:13:19.207Z",
   "warDay": 62,
-  "summary": "The war between the U.S. and Iran continues on day 62, marked by a fragile 2-week ceasefire nearing its expiration, while both sides assess military options and Iran's economy faces severe strain amidst rising oil prices.",
+  "summary": "A 2-week ceasefire between the U.S. and Iran is set to expire amidst ongoing war, high oil prices, and discussions of renewed military options.",
   "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is currently active but faces uncertainty as talks continue and its expiration approaches."
+    "summary": "A 2-week ceasefire is in effect but is set to expire soon, with talks described as uncertain."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.4
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 66,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 30",
-      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
+      "text": "U.S. and Iran reached a 2-week ceasefire, but talks are uncertain as it nears expiration.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 443
-    },
-    {
-      "date": "Apr 30",
-      "text": "U.S.-Iran talks are uncertain as the ceasefire is set to expire.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 443
+      "latestSinceUpdate": 444
     },
     {
       "date": "Apr 30",
-      "text": "US military equipment worth billions of dollars destroyed in Iran war.",
+      "text": "Trump is to be briefed on new military options as part of efforts to pressure Iran into a deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 443
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFAtZm9xZk8wQ0tTZmlGUkViYk5zZkJWbVVrTVRjQlVnb0dwQnhLdDdBdmNVb21YeVgtdHRfRFdBYUpuNGs5RlZLNVp1TDJic0ZESkFNSGhGZ290MS1NYXNNM2RhNVRDMFlsYlJidg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 444
     },
     {
       "date": "Apr 30",
-      "text": "Iran’s Schools and Hospitals in Ruins, Times Analysis Shows.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNbURkVU1ObjFOb2psUGJ2dWtENFROSWd6QnFSMjd2YXotaDBNMGFNV2M5Ylpkai1YRk8xSVA2WVB4MVJFejllT0xuNEFHZnA5cGQ5NlhOTlpuYjA0YmdtMXNpVXNlNWlIY0lvZW5LVlNwLV9KNWxfWXVqOVBJdkNCN1duUk1jczVjODRoVlpZcjd2ZHRnRjEtWHppSFlTYmVsbkJyQnpnX3FRNHkySkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 443
-    },
-    {
-      "date": "Apr 30",
-      "text": "Iran war pushes oil prices to 4-year high.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQRWhqclFEeG5kR0ItQUMwTWtCNGNkbVhXRkU4bVF2ZVhJY001NloyQldzajRMWGNaSEx5bFZGNlB0UmJfNnBvSmlvUG9Wbk1HTk00M0IzOXVUbGNNUXpPWUdxVDNqMERiTTRybWNFaWJ5dlV2V3pqM3k5c2RYRmc1Qm9LcHd6NTBXelFSdzJxYm9yc0FjZmtpcUJB0gGfAUFVX3lxTE90SXBBZVhwUFFfZFZqdmdIODIxb2podDJXVG42VUdLZ3VaT056ZWRselk2S3lIRWJHdTdpR2tqZ1JlcERBZVRNdGNaamtjclJraVJxMjdmclJpQVVFbFpxaVF6WXF5RWxIeXVxYlEzdFJhbHZHZy1QNUJVY3pISGJ1aWFveUN4Z2ROV2tSSUJTN21wUTNmRzludG0wZ1ZPVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 443
-    },
-    {
-      "date": "Apr 30",
-      "text": "Iran's Supreme Leader states Iran is planning for ongoing control of the Strait of Hormuz.",
+      "text": "Oil prices have been pushed to a 4-year high due to the war, impacting energy costs.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 443
+      "latestSinceUpdate": 444
+    },
+    {
+      "date": "Apr 29",
+      "text": "Iran's Supreme Leader stated plans for ongoing control of the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 444
+    },
+    {
+      "date": "Apr 29",
+      "text": "The UN chief warned of severe consequences if the Strait of Hormuz closure is prolonged.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1maWdhM1E1ZjJjMlhKencwdGdmMklWamtyZWdHaHdBampSLUtMUWJ0aGlRTzFZVEdma01hNUhJc2Q4UFlwSGZwcGJ6a0dTemotU2tCdGRsaTdXTVZTN0lKc29acjRsXzVFQVcyZGJ5M2cyYzFCOGhGRW1NNkI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Xinhua",
+      "latestSinceUpdate": 444
+    },
+    {
+      "date": "Apr 29",
+      "text": "Reports indicate billions of dollars worth of US military equipment have been destroyed in the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 444
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
