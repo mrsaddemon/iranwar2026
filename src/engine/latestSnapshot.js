@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 431,
+  "updateSequence": 432,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T00:10:07.753Z",
+  "lastSyncedAt": "2026-04-30T04:07:05.889Z",
   "warDay": 62,
-  "summary": "A two-week ceasefire between the U.S. and Iran is set to expire amidst stalled talks, continued Iranian blockade of the Strait of Hormuz, and increased Israeli attacks in Lebanon.",
+  "summary": "The Middle East conflict continues into its 62nd day with increased Israeli attacks in Lebanon and Iranian actions in the Strait of Hormuz, as a two-week U.S.-Iran ceasefire has expired with uncertain renewal talks.",
   "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran was reached but is now uncertain as it approaches expiration, with talks stalled."
+    "summary": "A 2-week ceasefire between the U.S. and Iran has expired, with talks for renewal uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 70,
+        "aggression": 55
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 60,
+        "aggression": 65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 58
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 50,
+        "aggression": 70
       }
     }
   },
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Apr 28",
-      "text": "Iran Update Special Report released.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOTDFVSGl6aEFKSUhhdVZsYlg4bmxENDZFeWRkNE1ZdVNBZWlOd1ZNZXd0ak9QWXpxR1BlLWZOSDgtMFk0MktoUWFRQWh3NlZySS1GZFBMWmlwNldUUUVNbklIYUZ3ckEzTmZPZXpSU3QtR2RubTNkN1d5a2NpSFdaVXRLd0xfZFFxckZKRVN5Zi02V2Uxdmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 431
-    },
-    {
-      "date": "Apr 30",
-      "text": "U.S. and Iran reached a 2-week ceasefire ahead of Trump's deadline.",
+      "date": "Apr 15",
+      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 431
+      "latestSinceUpdate": 432
     },
     {
-      "date": "Apr 30",
-      "text": "U.S.-Iran talks are uncertain as the ceasefire is set to expire.",
+      "date": "Apr 28",
+      "text": "Iran Update Special Report released, noting the Iranian army is 'still in war situation' on Day 60 of the conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOTDFVSGl6aEFKSUhhdVZsYlg4bmxENDZFeWRkNE1ZdVNBZWlOd1ZNZXd0ak9QWXpxR1BlLWZOSDgtMFk0MktoUWFRQWh3NlZySS1GZFBMWmlwNldUUUVNbklIYUZ3ckEzTmZPZXpSU3QtR2RubTNkN1d5a2NpSFdaVXRLd0xfZFFxckZKRVN5Zi02V2Uxdmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 432
+    },
+    {
+      "date": "Apr 29",
+      "text": "Oil price soars to highest level since 2022, with Brent crude hitting over $123, amid US-Iran impasse.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 431
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOdW5OMHhKMTZRcWVCZ2NNQWJmWWl6d2VvSkhoOEZWeXFNQTRFSkN5MHNaV3BXV0ZEempTdW9LUEtSWE5PVm5PNVIwbWw3V2JqSjJiUG9fMXB5NmRRellNcXZYdFpKblMtNWxfUlU2My1ZcmtkNEdodV8wdmdNdGtpak5EU2JOSlJoTzFPd3l2cTg1ZTBmTkRYQkpscmpsOUdWNmNOZ2dnQUZoM2VDREpxak1QY0k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 432
     },
     {
-      "date": "Apr 30",
-      "text": "Iran offers to reopen Strait of Hormuz if US lifts its blockade and the war ends.",
+      "date": "Apr 29",
+      "text": "Israel attacks increase in Lebanon, and ships are reportedly taken in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 432
+    },
+    {
+      "date": "Apr 29",
+      "text": "Iran offers to reopen the Strait of Hormuz if the US lifts its blockade and the war ends.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPNUwwbkhOQXFtOVZOTFVReWo2bzNMWnhieUlSQllyaE5EUmtqVU5FX0N5QkVfaXBYY2wtRVNCMGgxTGdaR3IwOEZ3RFRqSTBmZ1NVTkppTWh6QkxtWVdEb0hxcTM4QWxZYzRwZjJiRnlWYnhvby1iRjhOZ1VfOXRydHRBVlRuQ1pUMVpYdjdld2g2ZS02S1hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 431
+      "latestSinceUpdate": 432
     },
     {
-      "date": "Apr 30",
-      "text": "Ships taken in Hormuz; traffic stalls due to blockade.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 431
-    },
-    {
-      "date": "Apr 30",
-      "text": "Israel attacks increase in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNX1ZsemdHcVMzM0pUbWpWQ3A1WUFwZzlKbG1YWGYwXzdESmNlUnl5MWRBdTN3YlpVQ3l1OHlkWVFVbDhkaFIyY2FkeWc5QmpkMldONXhGZ2IwRGVicVU3VFZhUTV1VXFmYVR2Z1NhOXJsMW9vS2VBd1hrSFRENHpoMlpuMEhXcmRLNUJoaS1IeU9GYjdFbnNPeHByeElWWDJsdE1LejkxWF81SG12TnJvVlNtRHlTNm1ONnM2VnUwTU7SAcYBQVVfeXFMT3llQkREbDlFMVpDaDRsdjVJYjhpdGpWeEdBX3N5ZUgtMWZxSExBMzZZbERlbFREcTQwZWl6V3FRRlAxdXk4OVlrQVBZTlM1X2ZVZXlLTzZKbjNiOUV5M0RqMkgtS0U0VDFjbmQtdTBpYXlid0Z1alY0clVVUWwtZHhIMTJPMFUxaGhvRkhUdGZWcy1XSG5IN2xGbGdQWllBUEdzVUhvd0tzZUM3bjdtSmQwTDVSSWpsbnJBcGlmaGFSeE5ybnh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 431
+      "date": "Apr 29",
+      "text": "U.S. aircraft carrier in the Iran war is expected to leave the Middle East, reducing military presence.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOaElOTGxsUTN2TXl0WTByUkdLSTVEVnQ0YWs4WmZjeGV2aEt6UHNkSFRqTmZlX2VkdHlIc3dJdkZnSU16ZXZUUU9paHJHTFBLRG9BYVVfNVR1aTMtMkJUNWFUbU0tMkc0RUF3QTZ2TVE4RWV3MGp4RHc5MFdJMUdnZzhNUUxveUZNS0pEWUFHejdXOEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 432
     }
   ],
   "sourceStatuses": [
