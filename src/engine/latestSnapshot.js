@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 441,
+  "updateSequence": 442,
   "lastUpdated": "2026-04-30",
-  "lastSyncedAt": "2026-04-30T20:15:39.050Z",
+  "lastSyncedAt": "2026-04-30T21:17:24.600Z",
   "warDay": 62,
-  "summary": "The Iran war continues into its 62nd day, marked by a fragile 2-week ceasefire between the US and Iran, escalating oil prices due to Strait of Hormuz disruptions, and ongoing intense fighting between Israel and Hezbollah in Lebanon.",
+  "summary": "The war in Iran is on Day 62, with a 2-week ceasefire between the U.S. and Iran in effect, though Israel and Hezbollah continue fighting in Lebanon, while oil prices have reached a four-year high.",
   "lastNarrativeUpdate": "2026-04-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire has been reached between the US and Iran, but its stability is uncertain given ongoing rhetoric and continued fighting in other conflict zones."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, but its fragility is highlighted by continued fighting between Israel and Hezbollah in Lebanon and defiant Iranian rhetoric."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.85
+        "precision": 0.65,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.75
+        "precision": 0.55,
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 12,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Apr 30",
-      "text": "Oil prices surge to a four-year high as fresh US military options on Iran raise risk of renewed combat.",
-      "severity": "critical",
+      "text": "U.S. economy grew 2 percent in early 2026 despite war's impact on energy prices.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 441
+      "latestSinceUpdate": 442
     },
     {
       "date": "Apr 30",
-      "text": "Strait of Hormuz remains closed, impacting global oil supply.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 441
+      "text": "Billions of dollars worth of U.S. military equipment reportedly destroyed in Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 442
     },
     {
       "date": "Apr 30",
-      "text": "US and Iran reach a 2-week ceasefire ahead of Trump's deadline, though tensions remain high.",
+      "text": "Israel kills 28 in Lebanon amid ongoing conflict with Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 442
+    },
+    {
+      "date": "Apr 30",
+      "text": "U.S. and Iran reach a 2-week ceasefire agreement.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 441
+      "latestSinceUpdate": 442
     },
     {
       "date": "Apr 30",
-      "text": "IDF chief states there is 'no ceasefire' in south Lebanon amid continued fighting with Hezbollah, despite a broader ceasefire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNSUM1bHhLNFdybU92cTJodnpMNUp2MjZXLVR2LWNPQktRVVlRNkRwNHlyMFEzNjZwV0pEV3NPUW8tSldsQlRlU0ZxaDZ4YlRDM1I2ekV3aDQwM2t1M2pCRDhHSFBaUFpTNzh5NGVFUHBPWmw5SnVoQnVGUlRJd0NnUmpkUkM4VFkwNy1DTmE1dEZ0X0F1NEh0Tm14SVd0UlRsLThJUm1HaE1lZHM1MnBxTUFrSGhVSjZ3MEd0Mkxn0gHDAUFVX3lxTFBSOW5pX0M4N1gyWE55MjVfaEt2V0N0OGhMV1pFWnRHZjdBaFZJSU1kYUFSb01XWTJSRHY1eHlqUGVmWV9wTzJnX0tmcE1yM2Rra1Fya2c3eFF0S1BDbDBpdkludzZrdnRtQWhHaXpWQmZrT2ROczJsTmdvQzM2UVNzdDZlSVJBQ2lxTThLbGRobEFtOGpsX3FHcWVoTC1PdElsVTBIV0E3ZHZrTWlVbmxNTTRCYnpoMTR6R1pvX2tWeDZlNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 441
-    },
-    {
-      "date": "Apr 30",
-      "text": "Israel kills 28 in Lebanon, raising questions about civilian casualties on 'Black Wednesday'.",
+      "text": "Iran's Supreme Leader states plans for ongoing control of the Strait of Hormuz and issues aggressive rhetoric towards the U.S.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 441
+      "latestSinceUpdate": 442
     },
     {
-      "date": "Apr 29",
-      "text": "Iran’s Supreme Leader signals a plan to maintain control over the Strait of Hormuz.",
+      "date": "Apr 30",
+      "text": "Trump administration seeks coalition to reopen Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 441
+      "latestSinceUpdate": 442
     }
   ],
   "sourceStatuses": [
