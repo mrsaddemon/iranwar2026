@@ -1,13 +1,13 @@
 {
-  "updateSequence": 454,
+  "updateSequence": 455,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T16:14:21.689Z",
+  "lastSyncedAt": "2026-05-01T17:17:09.402Z",
   "warDay": 63,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the US and Iran is active, with Iran offering new proposals for talks, though regional tensions and threats persist."
+    "summary": "A two-week ceasefire between the U.S. and Iran is set to expire, with talks uncertain and Trump expressing dissatisfaction with new Iranian proposals."
   }
 }
