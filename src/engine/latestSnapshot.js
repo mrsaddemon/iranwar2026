@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 445,
+  "updateSequence": 446,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T00:09:37.097Z",
+  "lastSyncedAt": "2026-05-01T04:32:11.475Z",
   "warDay": 63,
-  "summary": "A two-week ceasefire between the U.S. and Iran is set to expire amid ongoing uncertainty, with both sides considering future actions and the war continuing to impact energy prices and Iranian infrastructure.",
+  "summary": "The war in Iran continues on Day 63 with a fragile 2-week ceasefire nearing expiration, while oil prices have reached a 4-year high amid economic strain and geopolitical tensions over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-01",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire is set to expire, with U.S.-Iran talks uncertain and no clear extension in place."
+    "summary": "A 2-week ceasefire between the U.S. and Iran was reached but is now uncertain as it approaches expiration."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 01",
-      "text": "U.S. and Iran reached a 2-week ceasefire, now set to expire, with talks uncertain.",
-      "severity": "info",
+      "text": "U.S. and Iran reached a 2-week ceasefire, but talks are uncertain as it is set to expire.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 445
+      "latestSinceUpdate": 446
     },
     {
       "date": "May 01",
-      "text": "U.S. economy grew 2 percent in early 2026, but the war in Iran began to affect energy prices.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 445
-    },
-    {
-      "date": "May 01",
-      "text": "Reports indicate billions of dollars worth of US military equipment has been destroyed in the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 445
-    },
-    {
-      "date": "May 01",
-      "text": "Iran's schools and hospitals are reported to be in ruins due to the conflict.",
+      "text": "Iran's Supreme Leader signals plans to maintain control over the Strait of Hormuz, while a blockade rattles oil markets.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 445
+      "latestSinceUpdate": 446
     },
     {
       "date": "May 01",
-      "text": "Oil prices have reached a 4-year high, and gas prices are spiking amid uncertainty regarding the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPVGNuNm5RQllCNTBzay1JTVNSNlZ1WXpyVF96Zk1ISWhVbW5jcE1fOGt3NWNhUUZITy1zSk5Yc2VJeWxieFZyRlZrZUpoN0JFWGRnWXMyOElSYm9lRHVYZ1BKNVdZZWVXZUNsYnVwcXpxbEo3NXRRZEtveU5hMGhsLXFn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "KOAT",
-      "latestSinceUpdate": 445
-    },
-    {
-      "date": "May 01",
-      "text": "Iran's Supreme Leader states Iran is planning for ongoing control of the Strait of Hormuz.",
+      "text": "Iran war pushes oil prices to a 4-year high, impacting the U.S. economy which grew 2 percent in early 2026.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 445
+      "latestSinceUpdate": 446
+    },
+    {
+      "date": "May 01",
+      "text": "US military equipment worth billions of dollars has been destroyed in the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 446
+    },
+    {
+      "date": "May 01",
+      "text": "Iran's economy is battered and its schools and hospitals are in ruins, according to analysis.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 446
+    },
+    {
+      "date": "May 01",
+      "text": "Trump mulls action and doesn't rule out resuming attacks, with commanders set to brief him on new military options.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOZ3VJSDBsM2FwclJ6Q0dRMXNMUE5ZMHhJRXNHREpqaS1XMDBGelJWSGpUcHBPSTBwdDJ6SlpuVXlOOTdqcHdOdWI0RU5ZakwxaEVLVG9CWllqbzVLTmxJQTA4YzVRZi1IUU5MSXlJbjBsUWx3SHZHcU5LM1YySWVtS2xBV29lRHN1ZktzaTZUWFBnbWwwX0RiNXdrSFYySjNTUGtOTV9ESEc5MnMtVUFoRHBpd25CYlAzRkHSAb8BQVVfeXFMUDFyMWl1dXZXdjBWc0JuZ1VUR3pTMVl0WThiY1dUSDNsdGlaTVQ2MWZwNVNKdWNaekI4N0QwZDBqQWFrYk9IeXRMWU1hY0w3WklEeFY5WDFaZXJJdGlXU2RqX0R5V2VKYjFfbGZkYThhZXVGcFF2M29WbTBQVnBub2ljZlVIZnU1dTA5c3JWeWpJbzZpN29kWnZVM3Z6TWRxWkVsNXlPLUs1VzdXMktrem0tNVBMZTRPWEtTRE1YT3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 446
     }
   ],
   "sourceStatuses": [
