@@ -1,13 +1,13 @@
 {
-  "updateSequence": 459,
+  "updateSequence": 460,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T21:31:16.082Z",
+  "lastSyncedAt": "2026-05-01T22:28:07.673Z",
   "warDay": 63,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is set to expire, with talks stalled and Trump expressing dissatisfaction with Iran's latest proposal."
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but faces uncertainty as it nears expiration and U.S. leadership expresses dissatisfaction."
   }
 }

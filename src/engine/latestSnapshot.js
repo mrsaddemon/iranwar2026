@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 459,
+  "updateSequence": 460,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T21:31:16.082Z",
+  "lastSyncedAt": "2026-05-01T22:28:07.673Z",
   "warDay": 63,
-  "summary": "The US-Iran conflict continues with an expiring two-week ceasefire, stalled peace talks, and ongoing military tensions, including Iran's blockade of the Strait of Hormuz and damage to US military sites.",
+  "summary": "A two-week ceasefire between the U.S. and Iran is set to expire amidst ongoing regional strikes, Trump's dissatisfaction with peace proposals, and significant oil market disruption.",
   "lastNarrativeUpdate": "2026-05-01",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is set to expire, with talks stalled and Trump expressing dissatisfaction with Iran's latest proposal."
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but faces uncertainty as it nears expiration and U.S. leadership expresses dissatisfaction."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -24,25 +24,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
-      }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 65
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
         "aggression": 0.8
       }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 70
+      },
+      "behavior": {
+        "precision": 0.5,
+        "aggression": 0.7
+      }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 01",
-      "text": "Trump expresses dissatisfaction with Iran’s latest peace proposal, despite a recent two-week ceasefire.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 459
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 460
     },
     {
       "date": "May 01",
-      "text": "Trump tells Congress the Iran war has 'terminated' as a legal deadline hits, but doesn't rule out resuming attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNN09iLUVlb2dJWi1SR3djX2N6YWM5T2hybmI4UnZkWkVMUVluRDc5Rk9wU1Zvb3lkLUJSR1BpaVNxWnlnMG9vNzBILTJxc0lNbnJxS1N6YnBWeFliRDhhVWg5RWdoSF9GR2RPYzRVZHpDUUtHQ0VzeHd1VmY5MWhyMUVSa1FrZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 459
-    },
-    {
-      "date": "May 01",
-      "text": "Times Analysis shows Iran’s schools and hospitals are in ruins.",
+      "text": "At least 182 killed across Lebanon in large wave of Israeli strikes.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 459
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE13LWVXQzlWMFVKRUYxa1o0dElLbktVSkREQlN2SW5KUUw0dF9lWkdNTUV5b01DMGVyUDB4d1NBdTVnRGRURFhzallZT0tneEN1OG1xcUNoUTJSZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 460
     },
     {
       "date": "May 01",
-      "text": "U.S. and Iran reached a 2-week ceasefire, but talks are uncertain as it is set to expire.",
+      "text": "Trump expresses dissatisfaction with Iran's new peace deal proposal.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 460
+    },
+    {
+      "date": "May 01",
+      "text": "U.S.-Iran talks are uncertain as the two-week ceasefire is set to expire.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 459
+      "latestSinceUpdate": 460
     },
     {
       "date": "May 01",
-      "text": "Iran delivers a new talks proposal to the USA as the Strait of Hormuz remains shut.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 459
+      "text": "Majority of US military sites in Middle East damaged by Iran, CNN investigation reveals.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 460
     }
   ],
   "sourceStatuses": [
