@@ -1,13 +1,13 @@
 {
-  "updateSequence": 450,
+  "updateSequence": 451,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T11:46:09.971Z",
+  "lastSyncedAt": "2026-05-01T12:42:48.904Z",
   "warDay": 63,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire was announced, halting a 60-day war deadline, but its expiration is imminent and talks are uncertain."
   }
 }
