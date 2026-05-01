@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 456,
+  "updateSequence": 457,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T18:14:08.725Z",
+  "lastSyncedAt": "2026-05-01T19:42:30.580Z",
   "warDay": 63,
-  "summary": "A two-week ceasefire between the U.S. and Iran is set to expire amid Trump's dissatisfaction with new peace proposals, while oil prices surge and the Strait of Hormuz remains a point of contention.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-01",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "A two-week ceasefire is active but highly fragile, with U.S.-Iran talks uncertain and Trump expressing dissatisfaction with new peace proposals."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 01",
-      "text": "US economic growth rebounds 2% as consumer spending slows amid Iran war.",
+      "text": "US economic growth rebounds 2% as consumer spending slows amid Iran war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNSTdsRUQ4N1J1UEExZGNoQ1d2WFJscUhneTcxZWlrZ01KTDFTckZfOGE5OVdHWWlyZTZ4TzhSRDFGRHJIUjI3Wk04bTJNb1laOXJBMjdtRnYxWUdkM2ZYZzBlM0pZZEFvZi1tSkpLVjZIdXl6UTVqaEUxUUk0b1RLSUw5Y3FicW02eFdKcTFR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 456
+      "latestSinceUpdate": 457
     },
     {
       "date": "May 01",
-      "text": "Trump expresses dissatisfaction with Tehran’s new peace proposal as ceasefire talks are uncertain.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 456
+      "text": "Iran war live: Trump ‘not satisfied’ with Tehran’s new proposal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOM3REbXZpSEtJeXgxbk4tdW1KM25Pc0NhQzR6NEcxSS1LSmE4VlVyM1dCQ1BPNjFtRU5ZcUhZNjZ1WTl1SmQtU0tZV0djNDFiWlRlVldkTVYxb0Y0OW9BMng5R2pXZmNzdUUweTNsdUZtVEtMNXp6eFp6aU9WbVJic0cybDQ3RjNhaS1IWTNYeHphNDFHMHd1YkZOLTlmQV9ROWJzXzNIVVFYckRlVV9uWTJROHJKNHRCRXRsbdIBwgFBVV95cUxPR0dxVFdTRHJrTjlNMGYzV3J2N2QyYzc5OEo0b203NC1DRUh5VFBsYWgzRDBmYzYtd0p2c282bm1yenRxbllpZlZ5aldTWlRJbjFyWnFMWDVpT0JGclhlTEQtOUNqOWl2S0l2YVJ5UUpUbWxJZkJLcnV1VmZiYXhidk5DdERwTm8xRklFNmZXdDA4OW12TDZIVjliYVI0SzRXZVhZTng3eE9nT3hNakk2TGxRNGo2VDdab09wbzN6ZlYyZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 457
     },
     {
       "date": "May 01",
-      "text": "U.S. strikes against Iran could be 'imminent' as Trump doesn’t rule out resuming attacks.",
-      "severity": "critical",
+      "text": "Iran Update Special Report, April 28, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOTDFVSGl6aEFKSUhhdVZsYlg4bmxENDZFeWRkNE1ZdVNBZWlOd1ZNZXd0ak9QWXpxR1BlLWZOSDgtMFk0MktoUWFRQWh3NlZySS1GZFBMWmlwNldUUUVNbklIYUZ3ckEzTmZPZXpSU3QtR2RubTNkN1d5a2NpSFdaVXRLd0xfZFFxckZKRVN5Zi02V2Uxdmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 457
+    },
+    {
+      "date": "May 01",
+      "text": "US entered Iran war 'at the request of' Israel, State Department wrote",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBNbVNRRzAzZjhMZ1FLRXI1TjRubGdRRlByOTJxZVpKOHVYbU5hb1ZjcWdCNGg3dkh6eFowQUJpMmgwWW9fMHJlekxZdV9BaWxPaVc3aDhWMDhOd3FVdGlqeVRtQlFONkFfczRIUjl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Snopes",
+      "latestSinceUpdate": 457
+    },
+    {
+      "date": "May 01",
+      "text": "Iran war updates: Trump doesn’t rule out resuming attacks",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOZ3VJSDBsM2FwclJ6Q0dRMXNMUE5ZMHhJRXNHREpqaS1XMDBGelJWSGpUcHBPSTBwdDJ6SlpuVXlOOTdqcHdOdWI0RU5ZakwxaEVLVG9CWllqbzVLTmxJQTA4YzVRZi1IUU5MSXlJbjBsUWx3SHZHcU5LM1YySWVtS2xBV29lRHN1ZktzaTZUWFBnbWwwX0RiNXdrSFYySjNTUGtOTV9ESEc5MnMtVUFoRHBpd25CYlAzRkHSAb8BQVVfeXFMUDFyMWl1dXZXdjBWc0JuZ1VUR3pTMVl0WThiY1dUSDNsdGlaTVQ2MWZwNVNKdWNaekI4N0QwZDBqQWFrYk9IeXRMWU1hY0w3WklEeFY5WDFaZXJJdGlXU2RqX0R5V2VKYjFfbGZkYThhZXVGcFF2M29WbTBQVnBub2ljZlVIZnU1dTA5c3JWeWpJbzZpN29kWnZVM3Z6TWRxWkVsNXlPLUs1VzdXMktrem0tNVBMZTRPWEtTRE1YT3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 456
+      "latestSinceUpdate": 457
     },
     {
       "date": "May 01",
-      "text": "Iran’s Schools and Hospitals are reported to be in ruins due to the ongoing conflict.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 456
-    },
-    {
-      "date": "May 01",
-      "text": "U.S. asks for help with opening Strait of Hormuz and warns shippers against paying tolls.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOdkU2SjJpVUZkLV9nOHB3T3F1Y0k1cFhVOVZ0cG1kdUd2WFVKWGM5ZHJlTFBMdU5HampzbUdibGR2ck9pYzM4ZWJ4clZTd0M0TWZGZ0RCaWluVmZhYkVmTUJhbTdVdWNnMHBQcy1FT0lKWjdjcHVCbjdCNHpxY0lXNXZsVjdsZnRGRjdBaW1BLVVPMUttdTgxWDYwTml1b014T1VVbGljN0LSAa4BQVVfeXFMTUhVRnFrTVpydUpRcXJERXlhZGRuX0t4OHZ2VThUTWsxbnI3QVZFU2x3MXNoN3JQcVNxcXFXM2Z2VnhITEJhb1hndGZXa29ad08zMjNLbUM0WFZsUGRVclFta0ZDUnNULTlSQlRIQ3pYX2doeEpaYXA3dVlLSk83QXZKdGpLT2tnM2I2c3JicENoUG51YTdyTDhUSjgyQ2NNM2x3RnBuRXR6Wk95T3B3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 456
-    },
-    {
-      "date": "May 01",
-      "text": "Majority of US military sites in the Middle East reportedly damaged by Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 456
+      "text": "Iran’s economy has been battered. Its leaders still think Trump will blink first",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 457
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
