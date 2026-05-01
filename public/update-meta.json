@@ -1,13 +1,13 @@
 {
-  "updateSequence": 448,
+  "updateSequence": 449,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T09:12:58.210Z",
+  "lastSyncedAt": "2026-05-01T10:46:22.183Z",
   "warDay": 63,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "A ceasefire is in place but is highly fragile and set to expire, with talks uncertain and threats of renewed hostilities from both sides."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
