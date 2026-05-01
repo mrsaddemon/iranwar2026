@@ -1,13 +1,13 @@
 {
-  "updateSequence": 457,
+  "updateSequence": 458,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T19:42:30.580Z",
+  "lastSyncedAt": "2026-05-01T20:36:41.605Z",
   "warDay": 63,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A 2-week ceasefire is in effect between the U.S. and Iran, but its stability is uncertain as President Trump expresses dissatisfaction with peace proposals and does not rule out resuming attacks."
   }
 }
