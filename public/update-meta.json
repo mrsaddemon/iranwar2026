@@ -1,13 +1,13 @@
 {
-  "updateSequence": 449,
+  "updateSequence": 450,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T10:46:22.183Z",
+  "lastSyncedAt": "2026-05-01T11:46:09.971Z",
   "warDay": 63,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "active": true,
+    "status": "active",
+    "confidence": 0.98,
+    "durationDays": 60,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 449,
+  "updateSequence": 450,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T10:46:22.183Z",
+  "lastSyncedAt": "2026-05-01T11:46:09.971Z",
   "warDay": 63,
-  "summary": "The war in Iran continues on Day 63 with ongoing military actions, significant economic impact on oil prices and Iran's infrastructure, and an uncertain ceasefire set to expire amidst renewed threats.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-01",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "active": true,
+    "status": "active",
+    "confidence": 0.98,
+    "durationDays": 60,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 73,
-    "sanctionsPressure": 62,
-    "globalPressure": 78,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 53,
+    "globalPressure": 58,
     "allianceInfluence": 73
   },
   "alliance": {
@@ -60,19 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 01",
-      "text": "US military equipment worth billions of dollars destroyed in Iran war",
+      "text": "Iran says US siege of ports ‘intolerable’; more Israeli attacks on Lebanon",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPWWhGZ0hVRjM3SU1NeDQxbVJnTndIRVI3NHp4dHV5UjVYS2hOUXRzc3R2a3MwSXIyOFhKUURuRkNSX2NraVN1U2ZJcUp3enJoMzI2WV8zNjZoVmFCQ1hrOUJyVmhCM05KMThiRTdDdm5qUVFtSkhhQ290eGQ2a0pLS3J2alhfNmxMMlN4aFhYdXluYlZCanJkRkRRNW1hSFFzb2xZYTNqMHFPaXlrbnJr0gG0AUFVX3lxTE1DQlBGX00zWTRVTXRjTThoZWViWWxFNE9LSm9IUkV0T1hmUTVIVmVNX1JRb2owYWM0ckM2LUg0aGRtbkZ5cVJRazVQTjZLZ2N0T0FWUFpjRF9XZl85RXJ2TWJoME00MEx4REJOVVBCM3hJUXl1TGJQVnp2ZmF5SDRfWUJrb1NaVFdpZGs3N1FYaWtiS1NTZ05ybG9maEhEZGhLcENuaE1nT3cxYUFOVHByZjZoSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOM3REbXZpSEtJeXgxbk4tdW1KM25Pc0NhQzR6NEcxSS1LSmE4VlVyM1dCQ1BPNjFtRU5ZcUhZNjZ1WTl1SmQtU0tZV0djNDFiWlRlVldkTVYxb0Y0OW9BMng5R2pXZmNzdUUweTNsdUZtVEtMNXp6eFp6aU9WbVJic0cybDQ3RjNhaS1IWTNYeHphNDFHMHd1YkZOLTlmQV9ROWJzXzNIVVFYckRlVV9uWTJROHJKNHRCRXRsbQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 449
+      "latestSinceUpdate": 450
     },
     {
       "date": "May 01",
-      "text": "Iran war live: Tehran says US ports siege ‘intolerable’; Trump mulls action",
+      "text": "Oil rises as White House says Iran ceasefire halts 60-day war deadline",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOM3REbXZpSEtJeXgxbk4tdW1KM25Pc0NhQzR6NEcxSS1LSmE4VlVyM1dCQ1BPNjFtRU5ZcUhZNjZ1WTl1SmQtU0tZV0djNDFiWlRlVldkTVYxb0Y0OW9BMng5R2pXZmNzdUUweTNsdUZtVEtMNXp6eFp6aU9WbVJic0cybDQ3RjNhaS1IWTNYeHphNDFHMHd1YkZOLTlmQV9ROWJzXzNIVVFYckRlVV9uWTJROHJKNHRCRXRsbdIBwgFBVV95cUxPR0dxVFdTRHJrTjlNMGYzV3J2N2QyYzc5OEo0b203NC1DRUh5VFBsYWgzRDBmYzYtd0p2c282bm1yenRxbllpZlZ5aldTWlRJbjFyWnFMWDVpT0JGclhlTEQtOUNqOWl2S0l2YVJ5UUpUbWxJZkJLcnV1VmZiYXhidk5DdERwTm8xRklFNmZXdDA4OW12TDZIVjliYVI0SzRXZVhZTng3eE9nT3hNakk2TGxRNGo2VDdab09wbzN6ZlYyZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 449
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGNMSWt5YmhaS2J4cVlvX2VFMDdDQWJxV01SOGZKbFEwOXpyS2E3MHBlYVh4c3FyUWY2V3NhbjhJSlp2Z0RnYkVMOW90Ymo4b3pnTk45SkJmTzJVTmJEMXNGalloOTRkNVNpZkFZMHNieWtpdlVDd1hFLW84Z3d5dHlLN3RaRXRoeGcyNjdjWXBiTjJRYnZIU3pzdEw1VXRRM2V30gGoAUFVX3lxTFA0cWZUdDBSVzBSVFRjck9kb0wtVnlfWHgwQ3F5aFV3SXN4NDFGTE51NUpUSTJXOXZ0VzdWT25LTDZsWnI3cFJOdC04TWU4VzJtaDFsVHFnX1ppTkVGQnRxRWNNRlVETjd6RFctaUlVbnpJdFBqTVNVeld5Q3lrbW5ZQXJrZUtqVVhfbFR3RFV4bVZlc3N3RE5SMEF5cW9idHFSYWxpWFNTRw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 450
     },
     {
       "date": "May 01",
