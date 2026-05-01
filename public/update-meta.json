@@ -1,13 +1,13 @@
 {
-  "updateSequence": 458,
+  "updateSequence": 459,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T20:36:41.605Z",
+  "lastSyncedAt": "2026-05-01T21:31:16.082Z",
   "warDay": 63,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire is in effect between the U.S. and Iran, but its stability is uncertain as President Trump expresses dissatisfaction with peace proposals and does not rule out resuming attacks."
+    "summary": "A two-week ceasefire between the U.S. and Iran is set to expire, with talks stalled and Trump expressing dissatisfaction with Iran's latest proposal."
   }
 }
