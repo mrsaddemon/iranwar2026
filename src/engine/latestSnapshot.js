@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 460,
+  "updateSequence": 461,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T22:28:07.673Z",
+  "lastSyncedAt": "2026-05-01T23:30:56.549Z",
   "warDay": 63,
-  "summary": "A two-week ceasefire between the U.S. and Iran is set to expire amidst ongoing regional strikes, Trump's dissatisfaction with peace proposals, and significant oil market disruption.",
+  "summary": "The US-Iran conflict continues with a declared 2-week ceasefire, though President Trump expresses dissatisfaction with peace proposals and does not rule out resuming attacks, while regional tensions persist between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-05-01",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in effect but faces uncertainty as it nears expiration and U.S. leadership expresses dissatisfaction."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, but its stability is undermined by President Trump's dissatisfaction with peace proposals and ongoing regional conflicts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.55,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 68
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -63,48 +63,48 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "US economic growth rebounds 2% as consumer spending slows amid Iran war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNSTdsRUQ4N1J1UEExZGNoQ1d2WFJscUhneTcxZWlrZ01KTDFTckZfOGE5OVdHWWlyZTZ4TzhSRDFGRHJIUjI3Wk04bTJNb1laOXJBMjdtRnYxWUdkM2ZYZzBlM0pZZEFvZi1tSkpLVjZIdXl6UTVqaEUxUUk0b1RLSUw5Y3FicW02eFdKcTFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
+      "sourceName": "Google News",
       "latestSinceUpdate": 458
     },
     {
       "date": "May 01",
-      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 460
-    },
-    {
-      "date": "May 01",
-      "text": "At least 182 killed across Lebanon in large wave of Israeli strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE13LWVXQzlWMFVKRUYxa1o0dElLbktVSkREQlN2SW5KUUw0dF9lWkdNTUV5b01DMGVyUDB4d1NBdTVnRGRURFhzallZT0tneEN1OG1xcUNoUTJSZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 460
-    },
-    {
-      "date": "May 01",
-      "text": "Trump expresses dissatisfaction with Iran's new peace deal proposal.",
+      "text": "President Trump expresses dissatisfaction with Iran’s latest peace proposal.",
       "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 460
+      "sourceName": "Google News",
+      "latestSinceUpdate": 461
     },
     {
       "date": "May 01",
-      "text": "U.S.-Iran talks are uncertain as the two-week ceasefire is set to expire.",
+      "text": "President Trump tells Congress the Iran war has ‘terminated’ as legal deadline hits, but doesn’t rule out resuming attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 460
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNN09iLUVlb2dJWi1SR3djX2N6YWM5T2hybmI4UnZkWkVMUVluRDc5Rk9wU1Zvb3lkLUJSR1BpaVNxWnlnMG9vNzBILTJxc0lNbnJxS1N6YnBWeFliRDhhVWg5RWdoSF9GR2RPYzRVZHpDUUtHQ0VzeHd1VmY5MWhyMUVSa1FrZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 461
     },
     {
       "date": "May 01",
-      "text": "Majority of US military sites in Middle East damaged by Iran, CNN investigation reveals.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 460
+      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 461
+    },
+    {
+      "date": "May 01",
+      "text": "U.S. asks for help with opening Strait of Hormuz while Trump attacks allies.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQWmhvQXhuQzhSRHlaRmhUSUdrMzc5Z3VSZDZfNWhoU3Y3ODdZbG5nMnp2S3dxSGZaT0hfZmEyWXVLTS13UDF5ZF9YZnB0VVdaOS1tY0hsN0ljWW1NQ3N1Z1BUNzB6eXQ4UXJud19pOGxOSWZPWDF2Nm1WcUNrVkd0VXhTTUZyeWZfeFlHTkFJVGlkYTBBQlJPYzk5UE9LRFVIU3U3a2lEWDAyOXBQMk84X0JCakhmYUxi?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 461
+    },
+    {
+      "date": "May 01",
+      "text": "Gas prices are on the rise again, with Florida seeing a 31-cent hike in the last week.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi4wFBVV95cUxOTWRaQ2hXZjhrWjc2dEhjU1djVFp3ejFWOC1uX0dUZmFWNFotLUplenFPMDdaNmluV3FNLWx2TnNRN1NoU0VoTXVQaDQzZGFLQkFiR00zdUd3alNXWHpVdUdNdFVqMzFjclRWNVJ5OVlLa3VUckpUYUxaLVhYSVpVbG1pXzIydDctMUsxel9NOWVLaGVHckVGeHVfelg2MDVlY21rcEw0QV9melpSUDFtVmhEMVBWeXdPeE0tUXh2bDJDbWFXYW5heXRKVU5QQ2xXQWgxZkRyOU93V1VuR2dxU09GMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 461
     }
   ],
   "sourceStatuses": [
