@@ -1,13 +1,13 @@
 {
-  "updateSequence": 453,
+  "updateSequence": 454,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T15:18:29.495Z",
+  "lastSyncedAt": "2026-05-01T16:14:21.689Z",
   "warDay": 63,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
-    "durationDays": 60,
-    "summary": "Iran has submitted a new peace proposal for negotiations, but active conflict and threats persist."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 14,
+    "summary": "A 2-week ceasefire between the US and Iran is active, with Iran offering new proposals for talks, though regional tensions and threats persist."
   }
 }

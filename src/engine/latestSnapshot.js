@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 453,
+  "updateSequence": 454,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T15:18:29.495Z",
+  "lastSyncedAt": "2026-05-01T16:14:21.689Z",
   "warDay": 63,
-  "summary": "Iran has submitted a new peace proposal to mediators amidst ongoing conflict with Israel intensifying attacks in Lebanon, while the US economy shows mixed signals and public sentiment against military action grows.",
+  "summary": "A 2-week ceasefire between the US and Iran is active amidst ongoing negotiations, while Israel intensifies attacks in Lebanon, the Strait of Hormuz faces a critical standoff, and oil prices surge.",
   "lastNarrativeUpdate": "2026-05-01",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
-    "durationDays": 60,
-    "summary": "Iran has submitted a new peace proposal for negotiations, but active conflict and threats persist."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 14,
+    "summary": "A 2-week ceasefire between the US and Iran is active, with Iran offering new proposals for talks, though regional tensions and threats persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "nuclearIndex": 12,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 01",
-      "text": "Oil prices fall after Iran sends updated peace proposal to mediators in Pakistan.",
+      "text": "Iran offers new proposal for talks with U.S. to end war as standoff's costs multiply.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGNMSWt5YmhaS2J4cVlvX2VFMDdDQWJxV01SOGZKbFEwOXpyS2E3MHBlYVh4c3FyUWY2V3NhbjhJSlp2Z0RnYkVMOW90Ymo4b3pnTk45SkJmTzJVTmJEMXNGalloOTRkNVNpZkFZMHNieWtpdlVDd1hFLW84Z3d5dHlLN3RaRXRoeGcyNjdjWXBiTjJRYnZIU3pzdEw1VXRRM2V30gGoAUFVX3lxTFA0cWZUdDBSVzBSVFRjck9kb0wtVnlfWHgwQ3F5aFV3SXN4NDFGTE51NUpUSTJXOXZ0VzdWT25LTDZsWnI3cFJOdC04TWU4VzJtaDFsVHFnX1ppTkVGQnRxRWNNRlVETjd6RFctaUlVbnpJdFBqTVNVeld5Q3lrbW5ZQXJrZUtqVVhfbFR3RFV4bVZlc3N3RE5SMEF5cW9idHFSYWxpWFNTRw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 453
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 454
     },
     {
-      "date": "May 01",
-      "text": "Israel intensifies Lebanon attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOM3REbXZpSEtJeXgxbk4tdW1KM25Pc0NhQzR6NEcxSS1LSmE4VlVyM1dCQ1BPNjFtRU5ZcUhZNjZ1WTl1SmQtU0tZV0djNDFiWlRlVldkTVYxb0Y0OW9BMng5R2pXZmNzdUUweTNsdUZtVEtMNXp6eFp6aU9WbVJic0cybDQ3RjNhaS1IWTNYeHphNDFHMHd1YkZOLTlmQV9ROWJzXzNIVVFYckRlVV9uWTJROHJKNHRCRXRsbdIBwgFBVV95cUxPR0dxVFdTRHJrTjlNMGYzV3J2N2QyYzc5OEo0b203NC1DRUh5VFBsYWgzRDBmYzYtd0p2c282bm1yenRxbllpZlZ5aldTWlRJbjFyWnFMWDVpT0JGclhlTEQtOUNqOWl2S0l2YVJ5UUpUbWxJZkJLcnV1VmZiYXhidk5DdERwTm8xRklFNmZXdDA4OW12TDZIVjliYVI0SzRXZVhZTng3eE9nT3hNakk2TGxRNGo2VDdab09wbzN6ZlYyZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 453
-    },
-    {
-      "date": "May 01",
-      "text": "US economic growth rebounds 2% as consumer spending slows amid Iran war.",
+      "date": "Apr 28",
+      "text": "U.S. and Iran reach 2-week ceasefire ahead of Trump's deadline.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNSTdsRUQ4N1J1UEExZGNoQ1d2WFJscUhneTcxZWlrZ01KTDFTckZfOGE5OVdHWWlyZTZ4TzhSRDFGRHJIUjI3Wk04bTJNb1laOXJBMjdtRnYxWUdkM2ZYZzBlM0pZZEFvZi1tSkpLVjZIdXl6UTVqaEUxUUk0b1RLSUw5Y3FicW02eFdKcTFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 453
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 454
     },
     {
-      "date": "May 01",
-      "text": "New US strikes could be 'imminent' as Trump doesn’t rule out resuming attacks.",
+      "date": "Apr 28",
+      "text": "Israel strikes southern Lebanon, killing 4; Hezbollah drone wounds 2 Israeli soldiers.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOZ3VJSDBsM2FwclJ6Q0dRMXNMUE5ZMHhJRXNHREpqaS1XMDBGelJWSGpUcHBPSTBwdDJ6SlpuVXlOOTdqcHdOdWI0RU5ZakwxaEVLVG9CWllqbzVLTmxJQTA4YzVRZi1IUU5MSXlJbjBsUWx3SHZHcU5LM1YySWVtS2xBV29lRHN1ZktzaTZUWFBnbWwwX0RiNXdrSFYySjNTUGtOTV9ESEc5MnMtVUFoRHBpd25CYlAzRkHSAb8BQVVfeXFMUDFyMWl1dXZXdjBWc0JuZ1VUR3pTMVl0WThiY1dUSDNsdGlaTVQ2MWZwNVNKdWNaekI4N0QwZDBqQWFrYk9IeXRMWU1hY0w3WklEeFY5WDFaZXJJdGlXU2RqX0R5V2VKYjFfbGZkYThhZXVGcFF2M29WbTBQVnBub2ljZlVIZnU1dTA5c3JWeWpJbzZpN29kWnZVM3Z6TWRxWkVsNXlPLUs1VzdXMktrem0tNVBMZTRPWEtTRE1YT3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 453
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxNQ0N3RlIxTmFkOG5HQnlkZklLckpLd2NFc29LcUJRSDZ5UHIzSzB1WE5Jb0RJdUVxS3E2Ql9ObHhGdlktQ2RfN0lVdjUzcFNEaEd3ZHBCM1hXWlpISHlmSTBoTnlCZEVyeHgxNmR5RmFmaEpwT0k2R1pOY1NkLV9VWmx4bzV6RWwzZzdkMmNZakR4MlB4d0hwMDlvNjV2ajVkenlKWHk0N29UN0ZMNlZYaV9pd19sZFlTdUM2M20tZ1hJYUQ3MkxiRy1JOXRvbnFaRVZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Los Angeles Times",
+      "latestSinceUpdate": 454
     },
     {
-      "date": "May 01",
+      "date": "Apr 28",
       "text": "Strait of Hormuz standoff puts Iran at critical breaking point as oil gets stuck.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE8zd1dBQlhNNlNVdXlqWkZ2WmtKamRNY2JCSjBTeUZaSjV5T1ViLXY1UjZMYUVOeUVGWTRxNl9pbkFPd3ZUOXQ4WFJ1b2k2LWV2cVl2NjJUeGEtUVk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox Business",
-      "latestSinceUpdate": 453
+      "latestSinceUpdate": 454
     },
     {
-      "date": "May 01",
-      "text": "Hezbollah Using Fiber-Optic Drones Against Israeli Targets.",
+      "date": "Apr 28",
+      "text": "Majority of US military sites in Middle East damaged by Iran, CNN investigation reveals.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 454
+    },
+    {
+      "date": "Apr 28",
+      "text": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQeUdJODlnN3k0YnZQUUgzYTZwNVBLakxRU3lGTU5PUzViUUhFWWl1YTc2QUVDdnpmZzFpWjl6QkVPVDZIQV9uTWdIemRSNmdJYXNQcEJXSnhvaU01QXliSjI5czlUTEFWQklYd29oa1lhNkhiUURJOUpDTl94cXZ5WlktQ2pSdi1KQVRHZUJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 453
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsbzF3QzZBT2o2cXFBNG5fNGpwYlJwVnhndmg0ZE9DV1hSaTJvXzdsRjVNTEt4cmZqNVJDZjJQamVZYVZFWkc3bE9aS0R6S29VYVFqSy1FU3pUZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 454
     }
   ],
   "sourceStatuses": [
