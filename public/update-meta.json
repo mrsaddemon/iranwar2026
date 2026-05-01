@@ -1,13 +1,13 @@
 {
-  "updateSequence": 452,
+  "updateSequence": 453,
   "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T14:08:59.434Z",
+  "lastSyncedAt": "2026-05-01T15:18:29.495Z",
   "warDay": 63,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "A ceasefire is set to expire, with US-Iran talks uncertain and Iran sending a new peace proposal amidst a critical 60-day deadline."
+    "summary": "Iran has submitted a new peace proposal for negotiations, but active conflict and threats persist."
   }
 }
