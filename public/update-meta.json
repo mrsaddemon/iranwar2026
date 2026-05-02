@@ -1,13 +1,13 @@
 {
-  "updateSequence": 461,
-  "lastUpdated": "2026-05-01",
-  "lastSyncedAt": "2026-05-01T23:30:56.549Z",
-  "warDay": 63,
+  "updateSequence": 462,
+  "lastUpdated": "2026-05-02",
+  "lastSyncedAt": "2026-05-02T01:13:39.309Z",
+  "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, but its stability is undermined by President Trump's dissatisfaction with peace proposals and ongoing regional conflicts."
+    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, though President Trump has expressed dissatisfaction with the peace deal and has not ruled out resuming attacks."
   }
 }
