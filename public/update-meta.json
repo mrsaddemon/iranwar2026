@@ -1,13 +1,13 @@
 {
-  "updateSequence": 475,
+  "updateSequence": 476,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T18:31:05.271Z",
+  "lastSyncedAt": "2026-05-02T19:36:23.278Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
-    "durationDays": 14,
-    "summary": "A 2-week ceasefire is technically active, but its stability is severely undermined by Trump's rejection of proposals and consideration of renewed military action."
+    "confidence": 0.69,
+    "durationDays": 25,
+    "summary": "A ceasefire is currently active but highly fragile and set to expire, with talks uncertain and threats of renewed hostilities escalating."
   }
 }
