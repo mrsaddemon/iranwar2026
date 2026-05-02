@@ -1,13 +1,13 @@
 {
-  "updateSequence": 468,
+  "updateSequence": 469,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T11:25:12.979Z",
+  "lastSyncedAt": "2026-05-02T12:11:01.997Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in place, but it is undermined by continued Israeli strikes in Lebanon and threats of renewed conflict."
+    "summary": "A previously reported 2-week ceasefire between the U.S. and Iran appears to have collapsed following Trump's rejection of proposals and review of military options."
   }
 }

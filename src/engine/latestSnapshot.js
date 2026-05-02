@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 468,
+  "updateSequence": 469,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T11:25:12.979Z",
+  "lastSyncedAt": "2026-05-02T12:11:01.997Z",
   "warDay": 64,
-  "summary": "A fragile two-week ceasefire between the U.S. and Iran is in effect, yet ongoing Israeli strikes in Lebanon and Iranian threats of renewed conflict with the U.S. persist, alongside U.S. concerns over the Strait of Hormuz.",
+  "summary": "The US-Iran conflict remains highly volatile with President Trump rejecting peace proposals and reviewing military options to relaunch war, while a previously reported 2-week ceasefire appears to have collapsed amidst ongoing Israeli strikes in southern Lebanon and damage to US military sites.",
   "lastNarrativeUpdate": "2026-05-02",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A two-week ceasefire between the U.S. and Iran is in place, but it is undermined by continued Israeli strikes in Lebanon and threats of renewed conflict."
+    "summary": "A previously reported 2-week ceasefire between the U.S. and Iran appears to have collapsed following Trump's rejection of proposals and review of military options."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.65,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 01",
-      "text": "Iran's military states conflict with US 'likely' to restart.",
+      "date": "May 02",
+      "text": "Trump rejects Iran’s latest proposal as he reviews new military options to relaunch war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPcnFPUzd6XzVPeXdrLXg1Q2RtR3NreUJSWE82ZGc5YkRZYUxCOXlIVERFU2s1RDBlUzc4dkVONkU0WHV1RGRmc3QwV3hPeTBDRWRKblBJcDZlS2I0ZWJWbklPbkZQN1p3alE5dlBKX0xDR25lX1gtaFowYnRYeEJRV0U1VFhGRWwwbWhwRkJpTXpMTXA4NElybWxnWk5rTU9WdkNBdTBlRUF6RERnTWVBeFV6REhIeS1vNC1VdA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 469
+    },
+    {
+      "date": "May 02",
+      "text": "Military says conflict with US ‘likely’ to restart.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 468
+      "latestSinceUpdate": 469
     },
     {
-      "date": "Recent",
-      "text": "U.S. and Iran reach a 2-week ceasefire ahead of Trump's deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 468
-    },
-    {
-      "date": "Recent",
-      "text": "At least 182 killed across Lebanon in large wave of Israeli strikes.",
+      "date": "May 02",
+      "text": "Majority of US military sites in Middle East damaged by Iran, CNN investigation reveals.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE13LWVXQzlWMFVKRUYxa1o0dElLbktVSkREQlN2SW5KUUw0dF9lWkdNTUV5b01DMGVyUDB4d1NBdTVnRGRURFhzallZT0tneEN1OG1xcUNoUTJSZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 468
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 469
     },
     {
-      "date": "Recent",
-      "text": "Israel strikes in southern Lebanon kill 10 people as a Hezbollah drone wounds 2 Israeli soldiers despite ceasefire.",
+      "date": "May 02",
+      "text": "Israel strikes in southern Lebanon kill 10 people as a Hezbollah drone wounds 2 Israeli soldiers.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNbnd2a3p6WTZweThYTVY3RVlJX3dJS3RPMi1vNS0ycUN0VWJjVUZ5YlBOQkxMeEp0R2k1dWM2YTYxWnN5aEN4TlNtSU13cFZwd1hZdVVNaFgwSjVKWUJacjM1MlZDMl83UFN2RmRRM3dFS0lUUm1YckNnbk93YWswQ3JGZHdxVDh5NDIwSF9RRlE3dmIxZEEzUU5feDY1cHZSVkRkWWctSDRTUzFNTzdfZUFhc2RKMllUQVE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 468
+      "latestSinceUpdate": 469
     },
     {
-      "date": "Recent",
-      "text": "Trump rejects an Iranian proposal to open the Strait of Hormuz before nuclear talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOY3RkdWg1QTVlQmNRQkpSRFhLSmU3QTZsZmtHV016RHB2cG5FOW05bUdPN3N6ZExBVjdCR1RkdXlwLW0yZ1VGazdOVkJKNkEyWVN2V2NBUWJBX3JhREUwUUQwNlQ2RGhsaUhyb193bVRRbGVSejZZTm5QWUlBcThCRlJuajBlTXgwLXNGRmNYelNWRWFYczBDVTFDUkliRFVkQmd0UFRBZFdoOVM2YXp3eU9EZi1DNThYenRnVUE2UnY2bHNXU3FkWkVQRXg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 468
+      "date": "May 02",
+      "text": "Deadly Israeli strikes on southern Lebanon despite ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9oaEp1YmVYcmR0QUVaVUVZY0pGbE5hMkxxb0FxQzd2Ni1KTGxNUWhvaUZPZUM3R0kyUFZtV0l1NEM0Z3l0UVAzS3o4SHptbUl4MkpkNEZhMEhsdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 469
     },
     {
-      "date": "Recent",
-      "text": "U.S. warns shipping firms of sanctions over paying Iranian tolls in the Strait of Hormuz.",
+      "date": "May 02",
+      "text": "Live Updates: Trump 'not satisfied' with new peace deal offered by Iran as standoff's costs multiply.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQMndocEgwQWFILVhhZTlLcmpWel8yMlpHbkpjOXZGR2NOdHFoQXpiRTlCNDUzN0RFa2tUMkQ2dW9WakxDdG5uSFpwWnVfenYzakN5ZVd0TjBqN1VwcjZCZE5IcFhyQVdhcXdINDJIc2MyZlB1QjZ1STYtN01ITUZzOEdOZzhxMDh2Y1RsUFlYRFVyek44bTlmU3ZwX0VmX243eTFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 468
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 469
     }
   ],
   "sourceStatuses": [
