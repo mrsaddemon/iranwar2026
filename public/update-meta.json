@@ -1,13 +1,13 @@
 {
-  "updateSequence": 465,
+  "updateSequence": 466,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T08:11:34.517Z",
+  "lastSyncedAt": "2026-05-02T09:35:05.813Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2026,
-    "summary": "A 2-week US-Iran ceasefire was announced but is highly unstable due to Trump's statements and ongoing regional hostilities, while the Israel-Hezbollah ceasefire is tenuous and frequently violated."
+    "durationDays": 14,
+    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, though regional clashes in Lebanon indicate broader fragility."
   }
 }
