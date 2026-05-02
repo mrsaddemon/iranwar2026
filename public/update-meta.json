@@ -1,13 +1,13 @@
 {
-  "updateSequence": 463,
+  "updateSequence": 464,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T04:29:40.854Z",
+  "lastSyncedAt": "2026-05-02T06:27:23.382Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is set to expire, with ongoing talks described as uncertain."
+    "summary": "A two-week ceasefire between the U.S. and Iran is in effect, but its fragility is evident with ongoing Israeli strikes in Lebanon and Trump's expressed dissatisfaction and threats of renewed attacks."
   }
 }
