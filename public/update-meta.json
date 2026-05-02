@@ -1,13 +1,13 @@
 {
-  "updateSequence": 478,
+  "updateSequence": 479,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T21:02:27.014Z",
+  "lastSyncedAt": "2026-05-02T21:53:23.683Z",
   "warDay": 64,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "Despite claims of hostilities ending, President Trump's rejection of peace deals and review of military options indicate no active ceasefire."
+    "summary": "No active ceasefire is in effect, as President Trump has rejected Iran's latest peace proposals and is reviewing military options."
   }
 }
