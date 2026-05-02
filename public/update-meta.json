@@ -1,13 +1,13 @@
 {
-  "updateSequence": 480,
+  "updateSequence": 481,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T22:55:24.832Z",
+  "lastSyncedAt": "2026-05-02T23:55:46.654Z",
   "warDay": 64,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 14,
-    "summary": "The ceasefire is effectively collapsed as it is set to expire and the US has rejected Iran's latest peace proposals while reviewing military options."
+    "summary": "No active ceasefire is in effect, with peace proposals being rejected and military actions continuing."
   }
 }
