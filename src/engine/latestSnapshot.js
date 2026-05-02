@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 476,
+  "updateSequence": 477,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T19:36:23.278Z",
+  "lastSyncedAt": "2026-05-02T20:07:44.521Z",
   "warDay": 64,
-  "summary": "The Iran war continues into its 64th day with an expiring ceasefire, elevated threats of renewed hostilities, and ongoing disputes over the Strait of Hormuz.",
+  "summary": "The Iran war continues into its 64th day with a previously established two-week ceasefire expiring, as diplomacy is in danger and the US reviews options to relaunch attacks while Iran vows a strong response.",
   "lastNarrativeUpdate": "2026-05-02",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 25,
-    "summary": "A ceasefire is currently active but highly fragile and set to expire, with talks uncertain and threats of renewed hostilities escalating."
+    "confidence": 0.98,
+    "durationDays": 14,
+    "summary": "A previously established two-week ceasefire is set to expire or has expired, with US-Iran talks uncertain and President Trump reviewing options to relaunch the war."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,50 +60,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 02",
-      "text": "Diplomacy is in danger as the threat of resumed war elevates, despite Trump's claims of hostilities ending.",
+      "text": "Diplomacy is in danger as the threat of resumed war elevates between the US and Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 476
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 477
+    },
+    {
+      "date": "May 01",
+      "text": "An Iran Update Special Report notes that two months into the conflict, almost everybody is a loser.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFBPeDBkZFhmQzRVUEs1cDFQbUk5Y2dmbkRBNzJacUZQRTEtcEhkRklUZlhWVWRoWmR5QUR3NjhHOWtDemJvZnFmY0I0U1g5UHVpU0k5R0tQRHBxYlJtMnMwMjhIb21henRsakZOdlJBWUFhOE1X?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 477
     },
     {
       "date": "May 02",
-      "text": "Trump claims hostilities have ended in Iran in a letter to congressional leaders, but also doesn't rule out resuming attacks.",
+      "text": "President Trump claims hostilities have ended in Iran in a letter to congressional leaders, yet doesn’t rule out resuming attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPLVNURmVxb1BndlNRd1RDSXJ6MS1YN0xwY0NxQlZJSWJrUHNhR3hCbVlXbjlvVUZSWWJmeFFvZ1pWZzBIYTYzMXlGZUhHbGRVX1N2NEpJRVpxZjE1b2c1SW9neEQ1UXBxb2QtLVA1b2xQbE13TndGTGtFUnBfXzRJMC1rc05Qdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 476
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 477
     },
     {
       "date": "May 02",
-      "text": "Iran vows a 'long, painful' response if the US renews attacks.",
-      "severity": "critical",
+      "text": "Iran vows a ‘long, painful’ response if the US renews attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUkhFQUFYcXRXbmNQTVBoX0JSTWVFZUhuUEtQLWEzMXd0V3cwVHIyck9SdWV2c2drTk01bnMyQTZmMGdKa3lWWHBfcG5DTUZINEJZaEwyNV9Sa3BNZWZKNy1tSnNyRmtKUmFvcFZBVWxfZVBIdFBXX0JQTG1qSWRKR2djaGVGSS11WHp0SFo1OXZla2diSl9R0gGcAUFVX3lxTFA1R3pSank2OWROSzVkaTR5MkdSNTBZVW9TY2IteDZuNTBkZk1RTEQyMTRLQTVtS0J0c01sdnRTWV9sX20zWlYwcGtVUVk3R0pvdGtSWXFOTFl0bVRpVk5RTTlDYWRsZ1RJRTBNMWdFTG50NFZjREtIZklTZkhkdjN1VnBzNEtzV1pzWk82VEFhenZ4VHZPaU53YlZScQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 476
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 477
     },
     {
       "date": "May 02",
-      "text": "Satellite data reveals the scope and scale of US-Israeli strikes on Iran.",
-      "severity": "info",
+      "text": "Satellite data reveal the scope and scale of US-Israeli strikes on Iran.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 476
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 477
     },
     {
       "date": "May 02",
       "text": "The US threatens shipping firms with sanctions if they pay Iran tolls for passage through the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9nekV0UmtXWEVSSy1NVEtPSEN0dFBlazllcXc4RFpaVFFtbGxIbWlyc3JFS05hdjRnUFRNRFdUZFFtU2Vfems0eXRWdUZ6SGFQV0hQVXpYUEl2dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 476
-    },
-    {
-      "date": "May 02",
-      "text": "An Iranian proposal to open the Strait of Hormuz before nuclear talks is rejected by Trump.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOY3RkdWg1QTVlQmNRQkpSRFhLSmU3QTZsZmtHV016RHB2cG5FOW05bUdPN3N6ZExBVjdCR1RkdXlwLW0yZ1VGazdOVkJKNkEyWVN2V2NBUWJBX3JhREUwUUQwNlQ2RGhsaUhyb193bVRRbGVSejZZTm5QWUlBcThCRlJuajBlTXgwLXNGRmNYelNWRWFYczBDVTFDUkliRFVkQmd0UFRBZFdoOVM2YXp3eU9EZi1DNThYenRnVUE2UnY2bHNXU3FkWkVQRXg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "BBC",
       "latestSinceUpdate": 476
     }
   ],
