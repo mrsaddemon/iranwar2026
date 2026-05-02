@@ -1,13 +1,13 @@
 {
-  "updateSequence": 467,
+  "updateSequence": 468,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T10:29:59.378Z",
+  "lastSyncedAt": "2026-05-02T11:25:12.979Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran is in effect, but regional conflicts involving Israel and Hezbollah continue despite separate tenuous ceasefires."
+    "summary": "A two-week ceasefire between the U.S. and Iran is in place, but it is undermined by continued Israeli strikes in Lebanon and threats of renewed conflict."
   }
 }
