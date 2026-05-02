@@ -1,13 +1,13 @@
 {
-  "updateSequence": 477,
+  "updateSequence": 478,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T20:07:44.521Z",
+  "lastSyncedAt": "2026-05-02T21:02:27.014Z",
   "warDay": 64,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "A previously established two-week ceasefire is set to expire or has expired, with US-Iran talks uncertain and President Trump reviewing options to relaunch the war."
+    "summary": "Despite claims of hostilities ending, President Trump's rejection of peace deals and review of military options indicate no active ceasefire."
   }
 }
