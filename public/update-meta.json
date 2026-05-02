@@ -1,13 +1,13 @@
 {
-  "updateSequence": 479,
+  "updateSequence": 480,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T21:53:23.683Z",
+  "lastSyncedAt": "2026-05-02T22:55:24.832Z",
   "warDay": 64,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.9,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, as President Trump has rejected Iran's latest peace proposals and is reviewing military options."
+    "summary": "The ceasefire is effectively collapsed as it is set to expire and the US has rejected Iran's latest peace proposals while reviewing military options."
   }
 }
