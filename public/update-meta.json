@@ -1,13 +1,13 @@
 {
-  "updateSequence": 469,
+  "updateSequence": 470,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T12:11:01.997Z",
+  "lastSyncedAt": "2026-05-02T13:51:08.116Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "A previously reported 2-week ceasefire between the U.S. and Iran appears to have collapsed following Trump's rejection of proposals and review of military options."
+    "summary": "A 2-week ceasefire has been reached between the U.S. and Iran, though diplomatic tensions remain high and future attacks are not ruled out."
   }
 }
