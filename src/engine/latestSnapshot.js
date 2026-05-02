@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 471,
+  "updateSequence": 472,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T14:38:39.048Z",
+  "lastSyncedAt": "2026-05-02T15:33:58.311Z",
   "warDay": 64,
-  "summary": "The two-week ceasefire between the U.S. and Iran has expired or collapsed, with the U.S. rejecting Iran's latest peace proposal and reviewing options to relaunch military action, while Iran vows a strong response.",
+  "summary": "Diplomacy between the US and Iran is in danger with threats of resumed conflict, despite a recent ceasefire, as the US rejects peace proposals and reviews military options while tensions rise over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-02",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "The two-week ceasefire has expired or collapsed, with the U.S. rejecting Iran's peace proposal and considering renewed military action."
+    "summary": "A previously agreed 2-week ceasefire between the US and Iran has collapsed following renewed threats and rejected peace proposals."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -36,8 +36,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 02",
-      "text": "Diplomacy is in danger as the threat of resumed war elevates between the US and Iran.",
+      "text": "Trump rejects Iran’s latest proposal and reviews new military options to relaunch war.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPcnFPUzd6XzVPeXdrLXg1Q2RtR3NreUJSWE82ZGc5YkRZYUxCOXlIVERFU2s1RDBlUzc4dkVONkU0WHV1RGRmc3QwV3hPeTBDRWRKblBJcDZlS2I0ZWJWbklPbkZQN1p3alE5dlBKX0xDR25lX1gtaFowYnRYeEJRV0U1VFhGRWwwbWhwRkJpTXpMTXA4NElybWxnWk5rTU9WdkNBdTBlRUF6RERnTWVBeFV6REhIeS1vNC1VdA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 472
+    },
+    {
+      "date": "May 02",
+      "text": "Diplomacy is in danger as the threat of resumed war between the US and Iran elevates.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 471
+      "latestSinceUpdate": 472
     },
     {
-      "date": "May 02",
-      "text": "Trump claims hostilities have ended in Iran in a letter to congressional leaders, despite other signals.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPLVNURmVxb1BndlNRd1RDSXJ6MS1YN0xwY0NxQlZJSWJrUHNhR3hCbVlXbjlvVUZSWWJmeFFvZ1pWZzBIYTYzMXlGZUhHbGRVX1N2NEpJRVpxZjE1b2c1SW9neEQ1UXBxb2QtLVA1b2xQbE13TndGTGtFUnBfXzRJMC1rc05Qdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 471
-    },
-    {
-      "date": "May 02",
-      "text": "Germany states it 'anticipated' US troop withdrawal amid criticism of the Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 471
-    },
-    {
-      "date": "May 02",
-      "text": "Oil prices fell after Iran sent an updated peace proposal to mediators in Pakistan, though the proposal was later rejected.",
+      "date": "May 01",
+      "text": "Oil prices fall after Iran sends an updated peace proposal to mediators in Pakistan.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGNMSWt5YmhaS2J4cVlvX2VFMDdDQWJxV01SOGZKbFEwOXpyS2E3MHBlYVh4c3FyUWY2V3NhbjhJSlp2Z0RnYkVMOW90Ymo4b3pnTk45SkJmTzJVTmJEMXNGalloOTRkNVNpZkFZMHNieWtpdlVDd1hFLW84Z3d5dHlLN3RaRXRoeGcyNjdjWXBiTjJRYnZIU3pzdEw1VXRRM2V30gGoAUFVX3lxTFA0cWZUdDBSVzBSVFRjck9kb0wtVnlfWHgwQ3F5aFV3SXN4NDFGTE51NUpUSTJXOXZ0VzdWT25LTDZsWnI3cFJOdC04TWU4VzJtaDFsVHFnX1ppTkVGQnRxRWNNRlVETjd6RFctaUlVbnpJdFBqTVNVeld5Q3lrbW5ZQXJrZUtqVVhfbFR3RFV4bVZlc3N3RE5SMEF5cW9idHFSYWxpWFNTRw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 471
+      "latestSinceUpdate": 472
     },
     {
-      "date": "May 02",
-      "text": "Trump does not rule out resuming attacks on Iran.",
+      "date": "Apr 30",
+      "text": "U.S. warns shipping firms of sanctions if they pay Iranian tolls in the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOZ3VJSDBsM2FwclJ6Q0dRMXNMUE5ZMHhJRXNHREpqaS1XMDBGelJWSGpUcHBPSTBwdDJ6SlpuVXlOOTdqcHdOdWI0RU5ZakwxaEVLVG9CWllqbzVLTmxJQTA4YzVRZi1IUU5MSXlJbjBsUWx3SHZHcU5LM1YySWVtS2xBV29lRHN1ZktzaTZUWFBnbWwwX0RiNXdrSFYySjNTUGtOTV9ESEc5MnMtVUFoRHBpd25CYlAzRkHSAb8BQVVfeXFMUDFyMWl1dXZXdjBWc0JuZ1VUR3pTMVl0WThiY1dUSDNsdGlaTVQ2MWZwNVNKdWNaekI4N0QwZDBqQWFrYk9IeXRMWU1hY0w3WklEeFY5WDFaZXJJdGlXU2RqX0R5V2VKYjFfbGZkYThhZXVGcFF2M29WbTBQVnBub2ljZlVIZnU1dTA5c3JWeWpJbzZpN29kWnZVM3Z6TWRxWkVsNXlPLUs1VzdXMktrem0tNVBMZTRPWEtTRE1YT3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 471
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQYnE0UlBfdEhaLWd0V3VYY0V3WEJSSklBYnNhRjJZSXF4NHlBckprMmtVVUtUYm9xR3VKU3I5akxJRi1Lb2VGQkcwdUU4UEYxaWZYYnduZF9aWXlYU0NqaHdnMmVST1h5WUZUNkZjOFhrUzdZUTV4ZW1ieWZCbGt3bElWNDU1bzhYVEtXS1hJc1hzQU1iVFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Globe and Mail",
+      "latestSinceUpdate": 472
     },
     {
-      "date": "May 02",
-      "text": "Iran vows a 'long, painful' response if the US renews attacks.",
+      "date": "Apr 29",
+      "text": "Majority of US military sites in the Middle East were damaged by Iran, according to a CNN investigation.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUkhFQUFYcXRXbmNQTVBoX0JSTWVFZUhuUEtQLWEzMXd0V3cwVHIyck9SdWV2c2drTk01bnMyQTZmMGdKa3lWWHBfcG5DTUZINEJZaEwyNV9Sa3BNZWZKNy1tSnNyRmtKUmFvcFZBVWxfZVBIdFBXX0JQTG1qSWRKR2djaGVGSS11WHp0SFo1OXZla2diSl9R0gGcAUFVX3lxTFA1R3pSank2OWROSzVkaTR5MkdSNTBZVW9TY2IteDZuNTBkZk1RTEQyMTRLQTVtS0J0c01sdnRTWV9sX20zWlYwcGtVUVk3R0pvdGtSWXFOTFl0bVRpVk5RTTlDYWRsZ1RJRTBNMWdFTG50NFZjREtIZklTZkhkdjN1VnBzNEtzV1pzWk82VEFhenZ4VHZPaU53YlZScQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 471
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 472
+    },
+    {
+      "date": "Apr 28",
+      "text": "U.S. and Iran reached a 2-week ceasefire ahead of Trump's deadline.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 472
     }
   ],
   "sourceStatuses": [

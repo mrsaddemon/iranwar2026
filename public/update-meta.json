@@ -1,13 +1,13 @@
 {
-  "updateSequence": 471,
+  "updateSequence": 472,
   "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T14:38:39.048Z",
+  "lastSyncedAt": "2026-05-02T15:33:58.311Z",
   "warDay": 64,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "The two-week ceasefire has expired or collapsed, with the U.S. rejecting Iran's peace proposal and considering renewed military action."
+    "summary": "A previously agreed 2-week ceasefire between the US and Iran has collapsed following renewed threats and rejected peace proposals."
   }
 }
