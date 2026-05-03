@@ -1,13 +1,13 @@
 {
-  "updateSequence": 489,
+  "updateSequence": 490,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T13:50:49.269Z",
+  "lastSyncedAt": "2026-05-03T14:38:27.925Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A previous ceasefire has expired or collapsed, with the US rejecting Iran's latest peace proposal, though diplomatic talks remain uncertain."
+    "summary": "A previous ceasefire is reported to be expiring, with recent peace proposals rejected and military options being reviewed, indicating a collapse of de-escalation efforts."
   }
 }

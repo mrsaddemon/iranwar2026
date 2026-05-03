@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 489,
+  "updateSequence": 490,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T13:50:49.269Z",
+  "lastSyncedAt": "2026-05-03T14:38:27.925Z",
   "warDay": 65,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A previous ceasefire has expired or collapsed, with the US rejecting Iran's latest peace proposal, though diplomatic talks remain uncertain."
+    "summary": "A previous ceasefire is reported to be expiring, with recent peace proposals rejected and military options being reviewed, indicating a collapse of de-escalation efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,25 +24,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 2",
-      "text": "Iran submits 14-point response to U.S. proposal to end war.",
+      "date": "May 02",
+      "text": "Iran submits a 14-point response to the U.S. proposal to end the war.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/iran-response",
       "sourceName": "Google News",
-      "latestSinceUpdate": 489
+      "latestSinceUpdate": 490
     },
     {
-      "date": "May 2",
-      "text": "Iran Update Special Report published.",
+      "date": "May 02",
+      "text": "Trump states he is reviewing a new Iranian peace proposal to end the war.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNdWdhMHRsbVpncUw3ZmZsQWQ1VGdaaFBmUFdubUsxdlNXVVVoSTVyaW05NDl3anpqU09zS0tCbG8xeXkwUkVNWTJoYmhvV0ZnTUFDbmVQOWxqT0VJUGdsTmt1ak9DZlIwR213OW02TkpKczNpMnFWRjZiQkR1MU1mV1dsUjdFNUpmNWJqUE9CeXBxQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/trump-iran-proposal",
       "sourceName": "Google News",
-      "latestSinceUpdate": 489
+      "latestSinceUpdate": 490
     },
     {
-      "date": "May 3",
-      "text": "US President Trump reviews new Iran peace proposal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 489
-    },
-    {
-      "date": "May 3",
-      "text": "Israel continues strikes on southern Lebanon.",
+      "date": "May 02",
+      "text": "Iran vows a ‘long, painful’ response if the US renews attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/iran-vows-response",
       "sourceName": "Google News",
-      "latestSinceUpdate": 489
+      "latestSinceUpdate": 490
     },
     {
-      "date": "May 3",
-      "text": "Iran offers Trump one-month deadline to end conflict and open Strait of Hormuz.",
+      "date": "May 02",
+      "text": "Israel continues strikes on southern Lebanon amidst ongoing regional tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPZ0NITl9PNnN1OVFyWjl0UWl3ajU4RkVqTXAwazJzX2d0V0Z2eVZzeGQ1RDhjTFlWeW53NWprQWJ2STRtd2tpa0lOU0RnWFdZbExoYTBwVE9KXzk5V1RidlNTazJLcFhVYmVodXltMms0c0ZlZWtkY0RyNDgydXRkQjlpTWgydlJnRG1pT2dKX2pPa0RjV2NJTmREbVRHLWt6WDk4SGJudlRTelZGNHIyNTFUNzF2dms3aGpRb1pMaF95Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/israel-lebanon",
       "sourceName": "Google News",
-      "latestSinceUpdate": 489
+      "latestSinceUpdate": 490
     },
     {
-      "date": "Recent",
-      "text": "OPEC+ announces symbolic oil output rise during Strait of Hormuz closure.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQOURfSDlkd2ZxS3NIWFlrSVFqMXIyTDZTcWgzVTE1LTNmdVRMbWxWdzE2R3FnWlJwV05PN1J4WXpHemdleVUxeFJLczZNejNsVTBVdjFCak5md1Vmelk2clVtSzhDQ25CSjZibWcwUlpxZFVKdUt3V0l6aExJaThrQURTTVJsRkFVb1F4bjhTang0SzRRd2RzR3NwQVNyTV90RTY4UEtQMDV0d2R3RWpwcdIBtgFBVV95cUxOSkF2UEUzR0tESGpMZjV4bkQ1RkVEXzBYbElqbHJLVHVnWlBWY1ZQNzFDVVg1em1DNVdjeTlTMVVuaWtPY2JKRjFfX2dmVURMM1JCenJSVzZxaEJIOGRUWU8wV00wenltV01iZ2FOcVdtUkI0LWJuMUJmaEs1eUNaZVAzWlBDaklwM1AwSGN2R0NvemlZYkRQWUNHazdfaEtocnJCdVF4RG9EUDdLeHR4RTYzamVqZw?hl=en-US&gl=US&ceid=US:en",
+      "date": "May 02",
+      "text": "OPEC+ announces a symbolic oil output rise during the Strait of Hormuz closure.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/opec-hormuz",
       "sourceName": "Google News",
-      "latestSinceUpdate": 489
+      "latestSinceUpdate": 490
+    },
+    {
+      "date": "May 02",
+      "text": "The US is identified as the oil supplier of last resort as Hormuz disruptions worsen.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/us-oil-supplier",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 490
     }
   ],
   "sourceStatuses": [
