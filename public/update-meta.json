@@ -1,13 +1,13 @@
 {
-  "updateSequence": 495,
+  "updateSequence": 496,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T19:35:32.211Z",
+  "lastSyncedAt": "2026-05-03T20:08:51.521Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 20,
-    "summary": "A declared ceasefire is in effect but is fragile, with ongoing violations between Israel and Hezbollah and uncertainty surrounding its expiration in US-Iran talks."
+    "durationDays": 60,
+    "summary": "A declared ceasefire is failing as Israel and Hezbollah continue to exchange fire, and US-Iran talks are uncertain as the ceasefire is set to expire."
   }
 }
