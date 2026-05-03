@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 494,
+  "updateSequence": 495,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T18:31:57.197Z",
+  "lastSyncedAt": "2026-05-03T19:35:32.211Z",
   "warDay": 65,
-  "summary": "Conflict continues on Day 65 with ongoing hostilities between Israel and Hezbollah despite a declared ceasefire, an attack on a bulk carrier near the Strait of Hormuz, and uncertain US-Iran peace talks.",
+  "summary": "Iran is reviewing a US proposal for war's end and has submitted a 14-point response, while a declared ceasefire between Israel and Hezbollah remains fragile amidst ongoing hostilities and an attack on a bulk carrier near the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A declared ceasefire is largely unobserved, with continued hostilities between Israel and Hezbollah, and US-Iran talks facing uncertainty as the ceasefire is set to expire."
+    "durationDays": 20,
+    "summary": "A declared ceasefire is in effect but is fragile, with ongoing violations between Israel and Hezbollah and uncertainty surrounding its expiration in US-Iran talks."
   },
   "actorOverrides": {
     "usa": {
@@ -18,22 +18,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 02",
-      "text": "Iran submits a 14-point response to the U.S. proposal aimed at ending the war.",
+      "date": "May 03",
+      "text": "Iran says reviewing US response to proposal for war’s end.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv0gHAAUFVX3lxTE9KQVNaMHA0YURrNlFyN1VGMFMtZGI2Vjk4bFc2czh5a0VBbEZ3NE42QzhJV3JBX3poYmttNEozaFhVUHhyRzVqdjZiY2JwcUttbzdKS05LeTltRHZjTkUwb2FZT1lqZ0NsY2E1RHFOMFZwcDM5d1pFdDZGRGc1enRHdXVVQmJNNUZCQWJjWG41M1dpWHFQVzg2dFV1YVVLb0JwSWRDR1pObDJLZ2JPaGNUUnNWNVF2OGRQbGswczVhTw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 495
+    },
+    {
+      "date": "May 03",
+      "text": "Iran submits 14-point response to U.S. proposal to end war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 494
+      "latestSinceUpdate": 495
     },
     {
       "date": "May 02",
-      "text": "Israel and Hezbollah continue to exchange blows despite a declared ceasefire being in effect.",
+      "text": "Israel and Hezbollah continue to trade blows despite declared ceasefire.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 494
+      "latestSinceUpdate": 495
     },
     {
-      "date": "May 02",
-      "text": "A bulk carrier reports being attacked by multiple small craft off Iran, near the Strait of Hormuz.",
+      "date": "May 03",
+      "text": "Bulk carrier attacked near Strait of Hormuz, first attack in weeks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPeTZidHI2Wktpa0k3LWJNN3haekY5bWlIc2dXZ3NydGFyYnQ2MlNMYkd4RlBiZGUya1AyTlcxUV9Qcl94bkNSazhEQktGbHVtRmJSS3J1WWdsVzBkN3J1VThqMXUzOTh3TkMyMThpaldjNEZHV2RLQ28yYWZsMjBUWHBGZ2JjbHExT0Rtd0xGU0VuMU00c0VDTlRNem1hMlY1X3hJWE8xWFDSAa4BQVVfeXFMTWRyVEZpbmNUSVZXckVmQmJ0dmNhaDlNV0RabnFRbXc3UGh1c2FKWEtjVUphcWVaZGZ0b3l5YWxya3Y1eENqaW9mSm9Za0IyRExXNDZwT3AzNXlXSF9STURwTTBQNEVRYWFCd1ZFbDBERTFwdTN6aEY3Z0o4NlZzczd6QW95bVNKUXhNMDhSN3ZlVUl1N21BMGtGWmRzeFRJby1oTzd0MGt3eUtQLXJ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 494
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 495
     },
     {
-      "date": "May 02",
-      "text": "Hezbollah deploys a new potent weapon reportedly designed to evade Israeli detection.",
+      "date": "May 03",
+      "text": "Hezbollah demonstrates ability to pilot deadly drones into Israeli troops.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 494
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 495
     },
     {
-      "date": "May 02",
-      "text": "A CNN investigation reveals that a majority of US military sites in the Middle East have been damaged by Iran.",
+      "date": "May 03",
+      "text": "Majority of US military sites in Middle East damaged by Iran, CNN investigation reveals.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 494
-    },
-    {
-      "date": "May 02",
-      "text": "U.S.-Iran talks are uncertain as a ceasefire is set to expire, despite Trump declaring hostilities 'terminated'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 494
+      "latestSinceUpdate": 495
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
