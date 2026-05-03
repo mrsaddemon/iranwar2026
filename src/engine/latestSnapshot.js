@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 496,
+  "updateSequence": 497,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T20:08:51.521Z",
+  "lastSyncedAt": "2026-05-03T21:05:22.922Z",
   "warDay": 65,
-  "summary": "Ongoing conflict persists in the Middle East despite a declared ceasefire, with US-Iran talks uncertain and attacks reported near the Strait of Hormuz.",
+  "summary": "The Middle East conflict continues with ongoing hostilities between Israel and Hezbollah despite a declared ceasefire, while US-Iran talks are uncertain as a ceasefire is set to expire and Trump rejects Iran's latest peace proposal, considering new military options.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "A declared ceasefire is failing as Israel and Hezbollah continue to exchange fire, and US-Iran talks are uncertain as the ceasefire is set to expire."
+    "summary": "The declared ceasefire between Israel and Hezbollah is being violated, and US-Iran talks are uncertain as a ceasefire is set to expire, with Trump rejecting new proposals."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -76,11 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 03",
-      "text": "A bulk carrier reports the first attack in weeks near the Strait of Hormuz.",
+      "text": "A bulk carrier reports the first attack in weeks near the Strait of Hormuz, followed by another cargo ship reporting an attack.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 496
+      "latestSinceUpdate": 497
     },
     {
       "date": "May 03",
@@ -92,25 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 03",
-      "text": "CNN investigation reveals majority of US military sites in Middle East damaged by Iran, with billions in equipment destroyed.",
+      "text": "CNN investigation reveals a majority of US military sites in the Middle East have been damaged by Iran, with billions of dollars of equipment destroyed.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 496
+      "latestSinceUpdate": 497
     },
     {
       "date": "May 03",
-      "text": "Trump rejects Iran’s latest proposal and reviews new military options to relaunch war, citing no need for congressional authorization.",
+      "text": "Trump rejects Iran’s latest proposal as he reviews new military options to relaunch war.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPcnFPUzd6XzVPeXdrLXg1Q2RtR3NreUJSWE82ZGc5YkRZYUxCOXlIVERFU2s1RDBlUzc4dkVONkU0WHV1RGRmc3QwV3hPeTBDRWRKblBJcDZlS2I0ZWJWbklPbkZQN1p3alE5dlBKX0xDR25lX1gtaFowYnRYeEJRV0U1VFhGRWwwbWhwRkJpTXpMTXA4NElybWxnWk5rTU9WdkNBdTBlRUF6RERnTWVBeFV6REhIeS1vNC1VdA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 496
+      "latestSinceUpdate": 497
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

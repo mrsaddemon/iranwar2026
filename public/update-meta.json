@@ -1,13 +1,13 @@
 {
-  "updateSequence": 496,
+  "updateSequence": 497,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T20:08:51.521Z",
+  "lastSyncedAt": "2026-05-03T21:05:22.922Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "A declared ceasefire is failing as Israel and Hezbollah continue to exchange fire, and US-Iran talks are uncertain as the ceasefire is set to expire."
+    "summary": "The declared ceasefire between Israel and Hezbollah is being violated, and US-Iran talks are uncertain as a ceasefire is set to expire, with Trump rejecting new proposals."
   }
 }
