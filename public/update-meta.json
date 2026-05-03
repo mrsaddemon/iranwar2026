@@ -1,13 +1,13 @@
 {
-  "updateSequence": 482,
+  "updateSequence": 483,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T04:04:09.975Z",
+  "lastSyncedAt": "2026-05-03T06:34:12.957Z",
   "warDay": 65,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, with peace proposals being rejected and threats of renewed conflict."
+    "summary": "A previous ceasefire appears to have collapsed or is expiring, with the U.S. rejecting Iran's latest peace proposal and reviewing military options."
   }
 }
