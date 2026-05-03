@@ -1,13 +1,13 @@
 {
-  "updateSequence": 499,
+  "updateSequence": 500,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T22:56:05.764Z",
+  "lastSyncedAt": "2026-05-03T23:57:48.610Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "A declared ceasefire is in place, but it is frequently violated by ongoing clashes between Israel and Hezbollah, and Trump cites it for his own operations."
+    "summary": "Despite a declared ceasefire between Israel and Hezbollah, hostilities persist, and the broader US-Iran conflict shows no active ceasefire, with proposals rejected and military options reviewed."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 499,
+  "updateSequence": 500,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T22:56:05.764Z",
+  "lastSyncedAt": "2026-05-03T23:57:48.610Z",
   "warDay": 65,
-  "summary": "The Middle East conflict continues with Israel and Hezbollah trading blows despite a declared ceasefire, while the US announces plans to escort ships through the Strait of Hormuz following recent attacks and seizures.",
+  "summary": "On War Day 65, the Middle East conflict sees continued exchanges between Israel and Hezbollah despite a declared ceasefire, as the US announces plans to escort ships through the Strait of Hormuz and rejects Iran's peace proposal, reviewing options for renewed military action.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "A declared ceasefire is in place, but it is frequently violated by ongoing clashes between Israel and Hezbollah, and Trump cites it for his own operations."
+    "summary": "Despite a declared ceasefire between Israel and Hezbollah, hostilities persist, and the broader US-Iran conflict shows no active ceasefire, with proposals rejected and military options reviewed."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.5,
         "aggression": 0.9
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,7 +36,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,43 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 03",
-      "text": "Trump announces plan to escort ships stuck in Hormuz Strait and 'free' ships trapped in Persian Gulf.",
+      "text": "Trump announces plan to escort ships stuck in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv0gHAAUFVX3lxTE9KQVNaMHA0YURrNlFyN1VGMFMtZGI2Vjk4bFc2czh5a0VBbEZ3NE42QzhJV3JBX3poYmttNEozaFhVUHhyRzVqdjZiY2JwcUttbzdKS05LeTltRHZjTkUwb2FZT1lqZ0NsY2E1RHFOMFZwcDM5d1pFdDZGRGc1enRHdXVVQmJNNUZCQWJjWG41M1dpWHFQVzg2dFV1YVVLb0JwSWRDR1pObDJLZ2JPaGNUUnNWNVF2OGRQbGswczVhTw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 499
+      "latestSinceUpdate": 500
     },
     {
       "date": "May 03",
-      "text": "Iran submits a 14-point response to the U.S. proposal to end the war, which Trump subsequently rejects.",
+      "text": "Iran submits a 14-point response to the U.S. proposal to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 499
+      "latestSinceUpdate": 500
     },
     {
       "date": "May 03",
-      "text": "Israel and Hezbollah continue to trade blows despite a declared ceasefire, with Israel increasing attacks in Lebanon.",
+      "text": "Israel and Hezbollah continue to trade blows despite a declared ceasefire.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 499
+      "latestSinceUpdate": 500
     },
     {
       "date": "May 03",
-      "text": "A bulk carrier reports the first attack in weeks near the Strait of Hormuz, and ships are reportedly taken in Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 499
-    },
-    {
-      "date": "May 03",
-      "text": "Hezbollah deploys a potent new weapon designed to evade Israeli detection, while paying a steep price in battle.",
+      "text": "Hezbollah deploys a potent new weapon designed to evade Israeli detection.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 499
+      "latestSinceUpdate": 500
     },
     {
       "date": "May 03",
@@ -105,6 +97,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5lQTRpZWpNcDVjOEhubUI2VjJLQ1VucXRHMjNwNzdmRTFpTzd6cG1rSk1rZW9aOFNaX2pXOTNNYmhvZUdNcFMzNm5IMkhtZmc3X1A2TnRMVzNzUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 499
+    },
+    {
+      "date": "May 03",
+      "text": "CNN investigation reveals the majority of US military sites in the Middle East have been damaged by Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 500
     }
   ],
   "sourceStatuses": [
