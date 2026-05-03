@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 487,
+  "updateSequence": 488,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T12:00:00.000Z",
+  "lastSyncedAt": "2026-05-03T12:08:13.449Z",
   "warDay": 65,
-  "summary": "The Middle East conflict continues on Day 65 with ongoing hostilities between Israel and Hezbollah despite a declared ceasefire, while diplomatic efforts involving the US and Iran are underway amidst threats and a halt in Strait of Hormuz traffic.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A declared ceasefire between Israel and Hezbollah has collapsed, with both sides continuing to trade blows, and U.S.-Iran talks are uncertain as a broader ceasefire is set to expire."
+    "summary": "A ceasefire is currently in effect but is uncertain and set to expire, with ongoing regional strikes threatening its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 03",
-      "text": "Iran submits a 14-point response to the U.S. proposal aimed at ending the war.",
+      "date": "May 02",
+      "text": "Iran submits a 14-point response to the U.S. proposal to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 487
+      "latestSinceUpdate": 488
     },
     {
       "date": "May 03",
-      "text": "Israel and Hezbollah continue to exchange fire despite a previously declared ceasefire.",
+      "text": "President Trump is reviewing a new Iranian proposal to end the war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE1wNGJDSTlaZEgzS0FlZnJOcVJSaEFPR3lLajE5NlVYVkEyRC0yZ1Vod3FURUtzckJUVjM2VVNJYTQyNGZCanE3N2otNnM2TkdqZy1DVm1Qa0o0RkhqcVp2X1djWlhNeE1tOElPWk5GSVdTQdIBd0FVX3lxTE9kVXVsMDlDblJ1TW9udm5LdXE5cmhGc0xKSUZRVmdiZmktXzZmSkpqU0ZUelBRSmsyc1MtckdoVjVsQVR2UHBTR1B2cy1VMWU5NWRsSnBUaS16dVoyZEc2Z2FGWkRrUXh0dnhMZHJ4blZISFByTm5n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 488
+    },
+    {
+      "date": "May 03",
+      "text": "U.S.-Iran talks are uncertain as a ceasefire is set to expire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 487
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 488
     },
     {
       "date": "May 03",
-      "text": "Iran warns of a 'long, painful' response if the US renews attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUkhFQUFYcXRXbmNQTVBoX0JSTWVFZUhuUEtQLWEzMXd0V3cwVHIyck9SdWV2c2drTk01bnMyQTZmMGdKa3lWWHBfcG5DTUZINEJZaEwyNV9Sa3BNZWZKNy1tSnNyRmtKUmFvcFZBVWxfZVBIdFBXX0JQTG1qSWRKR2djaGVGSS11WHp0SFo1OXZla2diSl9R0gGcAUFVX3lxTFA1R3pSank2OWROSzVkaTR5MkdSNTBZVW9TY2IteDZuNTBkZk1RTEQyMTRLQTVtS0J0c01sdnRTWV9sX20zWlYwcGtVUVk3R0pvdGtSWXFOTFl0bVRpVk5RTTlDYWRsZ1RJRTBNMWdFTG50NFZjREtIZklTZkhkdjN1VnBzNEtzV1pzWk82VEFhenZ4VHZPaU53YlZScQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 487
-    },
-    {
-      "date": "May 03",
-      "text": "Satellite data reveals the extent of US-Israeli strikes on Iran.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 487
-    },
-    {
-      "date": "May 03",
-      "text": "President Trump is reviewing a new Iranian peace proposal as Israel continues strikes on southern Lebanon.",
-      "severity": "info",
+      "text": "Israel continues strikes on southern Lebanon.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 487
+      "latestSinceUpdate": 488
     },
     {
       "date": "May 03",
-      "text": "Traffic in the Strait of Hormuz has halted as Trump weighs Iran’s new offer.",
+      "text": "Iran warns it will respond if Israeli attacks on Lebanon do not stop immediately.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 488
+    },
+    {
+      "date": "May 03",
+      "text": "Traffic in the Strait of Hormuz halts as Trump weighs Iran’s new offer.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 487
+      "latestSinceUpdate": 488
     }
   ],
   "sourceStatuses": [
