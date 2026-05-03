@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 492,
+  "updateSequence": 493,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T16:26:17.860Z",
+  "lastSyncedAt": "2026-05-03T17:28:37.391Z",
   "warDay": 65,
-  "summary": "A fragile ceasefire between the U.S. and Iran is nearing expiration amidst ongoing peace proposal reviews, renewed threats of conflict resumption, and reports of attacks on shipping in the Strait of Hormuz.",
+  "summary": "The US-Iran conflict continues with diplomatic proposals failing and military options being reviewed, while Israel and Hezbollah trade blows despite a declared ceasefire and maritime attacks occur near the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 30,
-    "summary": "A ceasefire is in place but is set to expire, with talks uncertain and threats of renewed conflict."
+    "confidence": 0.98,
+    "durationDays": 2026,
+    "summary": "A declared ceasefire between Israel and Hezbollah is being violated, while a US-Iran ceasefire is uncertain and appears to be collapsing as diplomatic efforts fail and military options are considered."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.3
+        "precision": 0.78,
+        "aggression": 0.72
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 3",
-      "text": "Iran submits 14-point response to U.S. proposal to end war.",
+      "date": "May 02",
+      "text": "Iran submitted a 14-point response to the U.S. proposal aimed at ending the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 492
+      "latestSinceUpdate": 493
     },
     {
-      "date": "May 3",
-      "text": "IRGC warns conflict may resume, states it’s fully prepared.",
+      "date": "May 02",
+      "text": "Israel and Hezbollah continue to exchange fire despite a declared ceasefire, marking Day 64 of the conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 492
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 493
     },
     {
-      "date": "May 3",
-      "text": "U.S.-Iran talks are uncertain as ceasefire is set to expire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 492
-    },
-    {
-      "date": "May 3",
-      "text": "Cargo ship attacked by multiple small vessels near Hormuz Strait.",
+      "date": "May 02",
+      "text": "A cargo ship near the Strait of Hormuz reported being attacked by multiple small craft.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 492
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPd2plZWlfWWZRNHZINm9SUVZLZnNucE1mWERKX3FMSWVzeWNSMkg0WXRTdndGQUZsSHVJcW8tLWI3NWM5V1o5NGRsTWxLdDFNazU4T0xNcndKT09pVXZ3eEo5VDRQSEZ2TTVDMjNhMGE0Vld1cHMyWGZsYk93bzNwSmw4M2pQOXp5clhzRjNPWlM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 493
     },
     {
-      "date": "May 2",
-      "text": "Trump reviewing Iran peace proposal as deadline for congressional authorization passes.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 492
-    },
-    {
-      "date": "May 2",
-      "text": "Iran offers Trump one-month deadline to end conflict and open Strait of Hormuz.",
+      "date": "May 02",
+      "text": "Hezbollah has deployed a new weapon designed to evade Israeli detection.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPZ0NITl9PNnN1OVFyWjl0UWl3ajU4RkVqTXAwazJzX2d0V0Z2eVZzeGQ1RDhjTFlWeW53NWprQWJ2STRtd2tpa0lOU0RnWFdZbExoYTBwVE9KXzk5V1RidlNTazJLcFhVYmVodXltMms0c0ZlZWtkY0RyNDgydXRkQjlpTWgydlJnRG1pT2dKX2pPa0RjV2NJTmREbVRHLWt6WDk4SGJudlRTelZGNHIyNTFUNzF2dms3aGpRb1pMaF95Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 492
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 493
+    },
+    {
+      "date": "May 02",
+      "text": "A CNN investigation revealed that a majority of US military sites in the Middle East have been damaged by Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 493
+    },
+    {
+      "date": "May 02",
+      "text": "President Trump rejected Iran’s latest peace proposal and is reviewing new military options to relaunch the war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPcnFPUzd6XzVPeXdrLXg1Q2RtR3NreUJSWE82ZGc5YkRZYUxCOXlIVERFU2s1RDBlUzc4dkVONkU0WHV1RGRmc3QwV3hPeTBDRWRKblBJcDZlS2I0ZWJWbklPbkZQN1p3alE5dlBKX0xDR25lX1gtaFowYnRYeEJRV0U1VFhGRWwwbWhwRkJpTXpMTXA4NElybWxnWk5rTU9WdkNBdTBlRUF6RERnTWVBeFV6REhIeS1vNC1VdA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 493
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
