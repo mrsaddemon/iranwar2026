@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 488,
+  "updateSequence": 489,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T12:08:13.449Z",
+  "lastSyncedAt": "2026-05-03T13:50:49.269Z",
   "warDay": 65,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 5,
-    "summary": "A ceasefire is currently in effect but is uncertain and set to expire, with ongoing regional strikes threatening its stability."
+    "confidence": 0.81,
+    "durationDays": 30,
+    "summary": "A previous ceasefire has expired or collapsed, with the US rejecting Iran's latest peace proposal, though diplomatic talks remain uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 02",
-      "text": "Iran submits a 14-point response to the U.S. proposal to end the war.",
+      "date": "May 2",
+      "text": "Iran submits 14-point response to U.S. proposal to end war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 488
+      "sourceName": "Google News",
+      "latestSinceUpdate": 489
     },
     {
-      "date": "May 03",
-      "text": "President Trump is reviewing a new Iranian proposal to end the war.",
+      "date": "May 2",
+      "text": "Iran Update Special Report published.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE1wNGJDSTlaZEgzS0FlZnJOcVJSaEFPR3lLajE5NlVYVkEyRC0yZ1Vod3FURUtzckJUVjM2VVNJYTQyNGZCanE3N2otNnM2TkdqZy1DVm1Qa0o0RkhqcVp2X1djWlhNeE1tOElPWk5GSVdTQdIBd0FVX3lxTE9kVXVsMDlDblJ1TW9udm5LdXE5cmhGc0xKSUZRVmdiZmktXzZmSkpqU0ZUelBRSmsyc1MtckdoVjVsQVR2UHBTR1B2cy1VMWU5NWRsSnBUaS16dVoyZEc2Z2FGWkRrUXh0dnhMZHJ4blZISFByTm5n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 488
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNdWdhMHRsbVpncUw3ZmZsQWQ1VGdaaFBmUFdubUsxdlNXVVVoSTVyaW05NDl3anpqU09zS0tCbG8xeXkwUkVNWTJoYmhvV0ZnTUFDbmVQOWxqT0VJUGdsTmt1ak9DZlIwR213OW02TkpKczNpMnFWRjZiQkR1MU1mV1dsUjdFNUpmNWJqUE9CeXBxQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 489
     },
     {
-      "date": "May 03",
-      "text": "U.S.-Iran talks are uncertain as a ceasefire is set to expire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 488
+      "date": "May 3",
+      "text": "US President Trump reviews new Iran peace proposal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 489
     },
     {
-      "date": "May 03",
+      "date": "May 3",
       "text": "Israel continues strikes on southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 488
+      "sourceName": "Google News",
+      "latestSinceUpdate": 489
     },
     {
-      "date": "May 03",
-      "text": "Iran warns it will respond if Israeli attacks on Lebanon do not stop immediately.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 488
+      "date": "May 3",
+      "text": "Iran offers Trump one-month deadline to end conflict and open Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPZ0NITl9PNnN1OVFyWjl0UWl3ajU4RkVqTXAwazJzX2d0V0Z2eVZzeGQ1RDhjTFlWeW53NWprQWJ2STRtd2tpa0lOU0RnWFdZbExoYTBwVE9KXzk5V1RidlNTazJLcFhVYmVodXltMms0c0ZlZWtkY0RyNDgydXRkQjlpTWgydlJnRG1pT2dKX2pPa0RjV2NJTmREbVRHLWt6WDk4SGJudlRTelZGNHIyNTFUNzF2dms3aGpRb1pMaF95Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 489
     },
     {
-      "date": "May 03",
-      "text": "Traffic in the Strait of Hormuz halts as Trump weighs Iran’s new offer.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 488
+      "date": "Recent",
+      "text": "OPEC+ announces symbolic oil output rise during Strait of Hormuz closure.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQOURfSDlkd2ZxS3NIWFlrSVFqMXIyTDZTcWgzVTE1LTNmdVRMbWxWdzE2R3FnWlJwV05PN1J4WXpHemdleVUxeFJLczZNejNsVTBVdjFCak5md1Vmelk2clVtSzhDQ25CSjZibWcwUlpxZFVKdUt3V0l6aExJaThrQURTTVJsRkFVb1F4bjhTang0SzRRd2RzR3NwQVNyTV90RTY4UEtQMDV0d2R3RWpwcdIBtgFBVV95cUxOSkF2UEUzR0tESGpMZjV4bkQ1RkVEXzBYbElqbHJLVHVnWlBWY1ZQNzFDVVg1em1DNVdjeTlTMVVuaWtPY2JKRjFfX2dmVURMM1JCenJSVzZxaEJIOGRUWU8wV00wenltV01iZ2FOcVdtUkI0LWJuMUJmaEs1eUNaZVAzWlBDaklwM1AwSGN2R0NvemlZYkRQWUNHazdfaEtocnJCdVF4RG9EUDdLeHR4RTYzamVqZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 489
     }
   ],
   "sourceStatuses": [

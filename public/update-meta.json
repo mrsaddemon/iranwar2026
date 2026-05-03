@@ -1,13 +1,13 @@
 {
-  "updateSequence": 488,
+  "updateSequence": 489,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T12:08:13.449Z",
+  "lastSyncedAt": "2026-05-03T13:50:49.269Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 5,
-    "summary": "A ceasefire is currently in effect but is uncertain and set to expire, with ongoing regional strikes threatening its stability."
+    "confidence": 0.81,
+    "durationDays": 30,
+    "summary": "A previous ceasefire has expired or collapsed, with the US rejecting Iran's latest peace proposal, though diplomatic talks remain uncertain."
   }
 }
