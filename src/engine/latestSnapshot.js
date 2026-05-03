@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 481,
-  "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T23:55:46.654Z",
-  "warDay": 64,
-  "summary": "Diplomacy between the US and Iran is strained as peace proposals are rejected, while Israel continues strikes against Hezbollah and the threat of renewed conflict elevates.",
-  "lastNarrativeUpdate": "2026-05-02",
+  "updateSequence": 482,
+  "lastUpdated": "2026-05-03",
+  "lastSyncedAt": "2026-05-03T04:04:09.975Z",
+  "warDay": 65,
+  "summary": "Peace proposals are being exchanged between Iran and the U.S., though the U.S. has rejected the latest, while conflict continues with Israel striking Lebanon and Hezbollah employing drones.",
+  "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, with peace proposals being rejected and military actions continuing."
+    "summary": "No active ceasefire is in effect, with peace proposals being rejected and threats of renewed conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 01",
-      "text": "Diplomacy is in danger as the threat of resumed war elevates between the US and Iran.",
-      "severity": "critical",
+      "date": "May 03",
+      "text": "Iran submits a 14-point response to the U.S. proposal to end the war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 482
+    },
+    {
+      "date": "May 03",
+      "text": "IRGC warns that conflict may resume and states it is fully prepared.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 481
+      "latestSinceUpdate": 482
     },
     {
-      "date": "May 01",
-      "text": "Oil prices fell after Iran sent an updated peace proposal to mediators in Pakistan.",
+      "date": "May 03",
+      "text": "President Trump is reviewing a new Iranian peace proposal as Israel continues strikes on southern Lebanon.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGNMSWt5YmhaS2J4cVlvX2VFMDdDQWJxV01SOGZKbFEwOXpyS2E3MHBlYVh4c3FyUWY2V3NhbjhJSlp2Z0RnYkVMOW90Ymo4b3pnTk45SkJmTzJVTmJEMXNGalloOTRkNVNpZkFZMHNieWtpdlVDd1hFLW84Z3d5dHlLN3RaRXRoeGcyNjdjWXBiTjJRYnZIU3pzdEw1VXRRM2V30gGoAUFVX3lxTFA0cWZUdDBSVzBSVFRjck9kb0wtVnlfWHgwQ3F5aFV3SXN4NDFGTE51NUpUSTJXOXZ0VzdWT25LTDZsWnI3cFJOdC04TWU4VzJtaDFsVHFnX1ppTkVGQnRxRWNNRlVETjd6RFctaUlVbnpJdFBqTVNVeld5Q3lrbW5ZQXJrZUtqVVhfbFR3RFV4bVZlc3N3RE5SMEF5cW9idHFSYWxpWFNTRw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 481
-    },
-    {
-      "date": "May 02",
-      "text": "Donald Trump rejects Iran’s latest peace proposal and reviews new military options to relaunch war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPcnFPUzd6XzVPeXdrLXg1Q2RtR3NreUJSWE82ZGc5YkRZYUxCOXlIVERFU2s1RDBlUzc4dkVONkU0WHV1RGRmc3QwV3hPeTBDRWRKblBJcDZlS2I0ZWJWbklPbkZQN1p3alE5dlBKX0xDR25lX1gtaFowYnRYeEJRV0U1VFhGRWwwbWhwRkJpTXpMTXA4NElybWxnWk5rTU9WdkNBdTBlRUF6RERnTWVBeFV6REhIeS1vNC1VdA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 481
-    },
-    {
-      "date": "May 02",
-      "text": "Israel continues strikes on southern Lebanon, hitting over 70 Hezbollah targets.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 481
+      "latestSinceUpdate": 482
     },
     {
-      "date": "May 02",
-      "text": "Hezbollah has learned to pilot deadly drones into Israeli troops, testing sophisticated radar systems.",
-      "severity": "warning",
+      "date": "May 03",
+      "text": "Hezbollah has learned to pilot deadly drones into Israeli troops, testing Israel’s radar systems.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 481
+      "latestSinceUpdate": 482
     },
     {
-      "date": "May 02",
-      "text": "A CNN investigation reveals the majority of US military sites in the Middle East have been damaged by Iran.",
+      "date": "May 03",
+      "text": "A CNN investigation reveals that a majority of US military sites in the Middle East have been damaged by Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 481
+      "latestSinceUpdate": 482
+    },
+    {
+      "date": "May 03",
+      "text": "President Trump rejects Iran’s latest proposal and reviews new military options to relaunch the war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPcnFPUzd6XzVPeXdrLXg1Q2RtR3NreUJSWE82ZGc5YkRZYUxCOXlIVERFU2s1RDBlUzc4dkVONkU0WHV1RGRmc3QwV3hPeTBDRWRKblBJcDZlS2I0ZWJWbklPbkZQN1p3alE5dlBKX0xDR25lX1gtaFowYnRYeEJRV0U1VFhGRWwwbWhwRkJpTXpMTXA4NElybWxnWk5rTU9WdkNBdTBlRUF6RERnTWVBeFV6REhIeS1vNC1VdA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 482
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Administration",
-      "headline": "Trump Declares War 'Terminated' Amid Ceasefire Dissatisfaction",
-      "summary": "President Trump declares the Iran war 'terminated' but expresses dissatisfaction with the new peace deal and does not rule out resuming attacks, while also withdrawing troops from Germany and seeking help with the Strait of Hormuz.",
-      "tone": "strained",
-      "latestSinceUpdate": 462
-    },
-    {
       "perspective": "Iran",
-      "headline": "Battered Iran Remains Defiant, Believes US Will Yield",
-      "summary": "Despite a battered economy and damaged infrastructure, Iran's leaders remain defiant, presenting new proposals while believing the US will eventually yield, even as US military sites in the region have sustained damage.",
+      "headline": "Iran Proposes Peace While Maintaining Readiness",
+      "summary": "Iran has submitted a 14-point peace proposal to the U.S. to end the war, while simultaneously issuing warnings from the IRGC about its full preparedness for potential conflict resumption.",
+      "tone": "strained",
+      "latestSinceUpdate": 482
+    },
+    {
+      "perspective": "United States",
+      "headline": "Trump Rejects Peace, Threatens Relaunch",
+      "summary": "President Trump is reviewing and rejecting Iranian peace proposals, stating Iran hasn't 'paid a big enough price' and is considering new military options to relaunch the war, alongside threats to withdraw troops from Germany.",
       "tone": "defiant",
-      "latestSinceUpdate": 462
+      "latestSinceUpdate": 482
     },
     {
-      "perspective": "Regional Conflict",
-      "headline": "Israel-Hezbollah Escalation Continues in Lebanon",
-      "summary": "Tensions between Israel and Hezbollah escalate with deadly Israeli strikes in southern Lebanon and Hezbollah employing fiber-optic drones, leading to increased frustration with Hezbollah among some local populations.",
-      "tone": "anxious",
-      "latestSinceUpdate": 462
+      "perspective": "Israel",
+      "headline": "Israel Continues Strikes Amid Drone Threats",
+      "summary": "Israel continues strikes on southern Lebanon and faces new challenges from Hezbollah's advanced drone capabilities, while its UN ambassador defends the IDF's morality.",
+      "tone": "strained",
+      "latestSinceUpdate": 482
     },
     {
-      "perspective": "Global Economic Impact",
-      "headline": "Strait of Hormuz Standoff Threatens Global Shipping",
-      "summary": "The standoff in the Strait of Hormuz poses a significant threat to global shipping and luxury auto industries, with the US warning against tolls, even as US economic growth shows a rebound amid the conflict.",
+      "perspective": "Regional Impact",
+      "headline": "Two Months In, War's Toll Evident",
+      "summary": "Two months into the Iran war, the sentiment is that 'almost everybody is a loser,' with significant damage reported to US military sites in the Middle East.",
       "tone": "anxious",
-      "latestSinceUpdate": 462
+      "latestSinceUpdate": 482
     }
   ]
 });

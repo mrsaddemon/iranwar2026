@@ -1,13 +1,13 @@
 {
-  "updateSequence": 481,
-  "lastUpdated": "2026-05-02",
-  "lastSyncedAt": "2026-05-02T23:55:46.654Z",
-  "warDay": 64,
+  "updateSequence": 482,
+  "lastUpdated": "2026-05-03",
+  "lastSyncedAt": "2026-05-03T04:04:09.975Z",
+  "warDay": 65,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, with peace proposals being rejected and military actions continuing."
+    "summary": "No active ceasefire is in effect, with peace proposals being rejected and threats of renewed conflict."
   }
 }
