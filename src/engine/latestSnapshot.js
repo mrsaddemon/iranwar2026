@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 491,
+  "updateSequence": 492,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T15:34:12.778Z",
+  "lastSyncedAt": "2026-05-03T16:26:17.860Z",
   "warDay": 65,
-  "summary": "The US-Iran war continues on Day 65, with President Trump reviewing new military options after rejecting Iran's latest peace proposal, while both sides issue threats and conduct strikes.",
+  "summary": "A fragile ceasefire between the U.S. and Iran is nearing expiration amidst ongoing peace proposal reviews, renewed threats of conflict resumption, and reports of attacks on shipping in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "No active ceasefire is in effect, with peace proposals being rejected and military options reviewed."
+    "summary": "A ceasefire is in place but is set to expire, with talks uncertain and threats of renewed conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.3
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 51
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 02",
-      "text": "Iran Update Special Report, May 2, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNdWdhMHRsbVpncUw3ZmZsQWQ1VGdaaFBmUFdubUsxdlNXVVVoSTVyaW05NDl3anpqU09zS0tCbG8xeXkwUkVNWTJoYmhvV0ZnTUFDbmVQOWxqT0VJUGdsTmt1ak9DZlIwR213OW02TkpKczNpMnFWRjZiQkR1MU1mV1dsUjdFNUpmNWJqUE9CeXBxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 491
-    },
-    {
-      "date": "May 03",
-      "text": "Iran submits 14-point response to U.S. proposal to end war",
+      "date": "May 3",
+      "text": "Iran submits 14-point response to U.S. proposal to end war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 491
+      "latestSinceUpdate": 492
     },
     {
-      "date": "May 03",
-      "text": "Trump says he is reviewing a new Iranian proposal to end the war",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE1wNGJDSTlaZEgzS0FlZnJOcVJSaEFPR3lLajE5NlVYVkEyRC0yZ1Vod3FURUtzckJUVjM2VVNJYTQyNGZCanE3N2otNnM2TkdqZy1DVm1Qa0o0RkhqcVp2X1djWlhNeE1tOElPWk5GSVdTQdIBd0FVX3lxTE9kVXVsMDlDblJ1TW9udm5LdXE5cmhGc0xKSUZRVmdiZmktXzZmSkpqU0ZUelBRSmsyc1MtckdoVjVsQVR2UHBTR1B2cy1VMWU5NWRsSnBUaS16dVoyZEc2Z2FGWkRrUXh0dnhMZHJ4blZISFByTm5n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 491
-    },
-    {
-      "date": "May 03",
-      "text": "Iran vows ‘long, painful’ response if US renews attacks",
+      "date": "May 3",
+      "text": "IRGC warns conflict may resume, states it’s fully prepared.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUkhFQUFYcXRXbmNQTVBoX0JSTWVFZUhuUEtQLWEzMXd0V3cwVHIyck9SdWV2c2drTk01bnMyQTZmMGdKa3lWWHBfcG5DTUZINEJZaEwyNV9Sa3BNZWZKNy1tSnNyRmtKUmFvcFZBVWxfZVBIdFBXX0JQTG1qSWRKR2djaGVGSS11WHp0SFo1OXZla2diSl9R0gGcAUFVX3lxTFA1R3pSank2OWROSzVkaTR5MkdSNTBZVW9TY2IteDZuNTBkZk1RTEQyMTRLQTVtS0J0c01sdnRTWV9sX20zWlYwcGtVUVk3R0pvdGtSWXFOTFl0bVRpVk5RTTlDYWRsZ1RJRTBNMWdFTG50NFZjREtIZklTZkhkdjN1VnBzNEtzV1pzWk82VEFhenZ4VHZPaU53YlZScQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 491
+      "latestSinceUpdate": 492
     },
     {
-      "date": "May 03",
-      "text": "Satellite Data Reveal Scope and Scale of US-Israeli Strikes on Iran",
+      "date": "May 3",
+      "text": "U.S.-Iran talks are uncertain as ceasefire is set to expire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQWDhqTHBrY2Z2dTJDY0VVdFROLTJfczhCcmdZT3d2YW5TUk1ndDFpUDVPbE1VYk1JTkRXaFU5aUlneWlqU1RtaGhDRW1OalVXQlhqM0RmM2d4Vl9QWTEtbjhoNVdkLTFvZ1hNRk5PUE5Ram42MEliSXNaZ1kzclk4UWJRQ1ZYVF9WRGZV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bloomberg",
-      "latestSinceUpdate": 491
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 492
     },
     {
-      "date": "May 03",
-      "text": "Iran warns it will respond if Israeli attacks on Lebanon don't stop immediately",
+      "date": "May 3",
+      "text": "Cargo ship attacked by multiple small vessels near Hormuz Strait.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 492
+    },
+    {
+      "date": "May 2",
+      "text": "Trump reviewing Iran peace proposal as deadline for congressional authorization passes.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOV3lZNjd6NWVNUWlvbUVLNlFyakY5YnZBNmJlMHpaeWJDX1JvNG1YY05sSjJzWVl5TTFzc0cxRDgtX3ltWWFKSDYzTTVoZ1l2elFaZ1pRZ3hoRFJybXNoNWs0UVA0ZFJ3bW1hdWp1MTVmTExnTlFKT1Bidk84T3RIaDcwQkw4NlFMQlUxeVo4ME4wT3FmWFV0MGh30gGfAUFVX3lxTFAtaE5xX242SDlkeW4yVl9Qd1hqaXAxN1RHOTVuUDZ2VThEczlHOG5KWFFwNFdtSnUwdUMzWXhFSHZYenlmci04ZzF3a1hWd3NGel9UV25QRTI2ZzhVckxLWDRCc2steVhJYUZaaGlQanp6b19jbm5iRGpmNXMzV2RGbEJXRGprZExGck1LQXlybjEyNlFUNmk2cVJjWEpmMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 492
+    },
+    {
+      "date": "May 2",
+      "text": "Iran offers Trump one-month deadline to end conflict and open Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTFBqdkRTSFRQX3ltWlEwc2xQOFpJRlo4b2tNZnhiYkpBbmFPeDdLLVJWc3UxQjBTdjQ5NDdlcjN1U2QyZ0pGdWtsQ3d1T1FHYTNlckhZYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 491
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPZ0NITl9PNnN1OVFyWjl0UWl3ajU4RkVqTXAwazJzX2d0V0Z2eVZzeGQ1RDhjTFlWeW53NWprQWJ2STRtd2tpa0lOU0RnWFdZbExoYTBwVE9KXzk5V1RidlNTazJLcFhVYmVodXltMms0c0ZlZWtkY0RyNDgydXRkQjlpTWgydlJnRG1pT2dKX2pPa0RjV2NJTmREbVRHLWt6WDk4SGJudlRTelZGNHIyNTFUNzF2dms3aGpRb1pMaF95Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 492
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
