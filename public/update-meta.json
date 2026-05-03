@@ -1,13 +1,13 @@
 {
-  "updateSequence": 486,
+  "updateSequence": 487,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T10:39:13.380Z",
+  "lastSyncedAt": "2026-05-03T12:00:00.000Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "A declared ceasefire between Israel and Hezbollah is reportedly not holding, with continued exchanges of fire and significant casualties."
+    "confidence": 0.93,
+    "durationDays": 5,
+    "summary": "A declared ceasefire between Israel and Hezbollah has collapsed, with both sides continuing to trade blows, and U.S.-Iran talks are uncertain as a broader ceasefire is set to expire."
   }
 }
