@@ -1,13 +1,13 @@
 {
-  "updateSequence": 497,
+  "updateSequence": 498,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T21:05:22.922Z",
+  "lastSyncedAt": "2026-05-03T21:56:48.268Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "The declared ceasefire between Israel and Hezbollah is being violated, and US-Iran talks are uncertain as a ceasefire is set to expire, with Trump rejecting new proposals."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
