@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 484,
+  "updateSequence": 485,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T08:22:01.574Z",
+  "lastSyncedAt": "2026-05-03T09:42:12.717Z",
   "warDay": 65,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "As the Iran war enters its 65th day, U.S. President Trump reviews a new peace proposal while Israel continues strikes on southern Lebanon, and a ceasefire between the U.S. and Iran is set to expire amidst ongoing tensions and economic disruptions.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 7,
+    "summary": "A recent ceasefire is reportedly set to expire amidst ongoing U.S.-Iran talks and continued Israeli strikes in Lebanon, indicating a fragile and uncertain peace."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.88,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.65,
         "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 45,
+    "escalationLevel": 48,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 03",
-      "text": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
+      "text": "U.S. President Trump is reviewing a 14-point plan aimed at ending the war.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv0gHAAUFVX3lxTE9KQVNaMHA0YURrNlFyN1VGMFMtZGI2Vjk4bFc2czh5a0VBbEZ3NE42QzhJV3JBX3poYmttNEozaFhVUHhyRzVqdjZiY2JwcUttbzdKS05LeTltRHZjTkUwb2FZT1lqZ0NsY2E1RHFOMFZwcDM5d1pFdDZGRGc1enRHdXVVQmJNNUZCQWJjWG41M1dpWHFQVzg2dFV1YVVLb0JwSWRDR1pObDJLZ2JPaGNUUnNWNVF2OGRQbGswczVhTw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 484
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 485
     },
     {
       "date": "May 03",
-      "text": "Iran submits 14-point response to U.S. proposal to end war",
+      "text": "Israel continues to pound Lebanon, issuing evacuation orders for multiple southern towns.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwJBVV95cUxOLXB1dDdJNDRqT2U0aHpfcFZFaEtaa29YOVdZLU5QMUpkQU9KdHpMUHFIc2RUODRGbF9aNEFTb3hSVjV5cHpGT3lUTUtaTkpha3NoSUxnbDk4X3h0MlRyc2F6Sy1QYWFyb2kwSWFYUUZ1ZkVIa0lmT1B2MnlXQll4MklwV2R4WnJzY183eWx2SVExWkR0NkNWVmV0NWpjbm56OWZTeVhISFgzaW0zMVdsZ0ItX3hlWEVLQ2JtVC1ZTFZZMzVvRDZPSmpfZlRvNEJZU3BTeWJTSldJWl9MRUY4VHJ4WnlDM3ZTZnVmb09OeHFGa2RlV0RLNTFDNkQta3VMRE94enZ5OTl0V0VwbUhWVmhKd1ZzR3E1b0UweFRGSklMbEU4U0owRE96SGRvalnSAbQCQVVfeXFMUHcwSkJhdVBqT0VGSjZiZnBXUW5feGVPS1o2QnZQRENJYW1mNkFnaDZycEpMNVN2bXhvbmZwN09fYlFGb2tST3MzbEhoQWs3UFZpTHNIZjdIVUs2N2E3bm03RjM2WFJJb0xiT1c1NXdjeUVBLWlSNDlQWnotZnZiUnZjTDVqa2ZGU3pXa1gtenFBM2tfVkVVWVFKTFBwNUlka25tNGZYTHNicWdUeHUzZDlYQkRWdGdkUWw1TDZneXp3ZGdSNjdJSjA2bmRwQWdSWm9SVXkxZzJMYTdSclRfZFlHa3VCZ19FUlJVWDd2S2ljNmM2Z1RNTm5tQ2JlU25HOTRGWTkzTm9nWTFmU3lQVm03bXRWTHhQMWV1eFJwQzJ1N2tVM2NUeG5LY2xzRms2Z2FNcGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 485
+    },
+    {
+      "date": "May 03",
+      "text": "Iran has submitted a 14-point response to the U.S. proposal to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 484
+      "latestSinceUpdate": 485
     },
     {
       "date": "May 03",
-      "text": "Two months into the Iran war, almost everybody is a loser",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFBPeDBkZFhmQzRVUEs1cDFQbUk5Y2dmbkRBNzJacUZQRTEtcEhkRklUZlhWVWRoWmR5QUR3NjhHOWtDemJvZnFmY0I0U1g5UHVpU0k5R0tQRHBxYlJtMnMwMjhIb21henRsakZOdlJBWUFhOE1X?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 484
+      "text": "U.S.-Iran talks are uncertain as a ceasefire is reportedly set to expire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 485
     },
     {
       "date": "May 03",
-      "text": "Iran Update Special Report, May 2, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNdWdhMHRsbVpncUw3ZmZsQWQ1VGdaaFBmUFdubUsxdlNXVVVoSTVyaW05NDl3anpqU09zS0tCbG8xeXkwUkVNWTJoYmhvV0ZnTUFDbmVQOWxqT0VJUGdsTmt1ak9DZlIwR213OW02TkpKczNpMnFWRjZiQkR1MU1mV1dsUjdFNUpmNWJqUE9CeXBxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 484
+      "text": "The U.S. threatens shipping firms with sanctions if they pay Iran tolls for passage through the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9nekV0UmtXWEVSSy1NVEtPSEN0dFBlazllcXc4RFpaVFFtbGxIbWlyc3JFS05hdjRnUFRNRFdUZFFtU2Vfems0eXRWdUZ6SGFQV0hQVXpYUEl2dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 485
     },
     {
       "date": "May 03",
-      "text": "Iran war updates: Trump doesn’t rule out resuming attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOZ3VJSDBsM2FwclJ6Q0dRMXNMUE5ZMHhJRXNHREpqaS1XMDBGelJWSGpUcHBPSTBwdDJ6SlpuVXlOOTdqcHdOdWI0RU5ZakwxaEVLVG9CWllqbzVLTmxJQTA4YzVRZi1IUU5MSXlJbjBsUWx3SHZHcU5LM1YySWVtS2xBV29lRHN1ZktzaTZUWFBnbWwwX0RiNXdrSFYySjNTUGtOTV9ESEc5MnMtVUFoRHBpd25CYlAzRkHSAb8BQVVfeXFMUDFyMWl1dXZXdjBWc0JuZ1VUR3pTMVl0WThiY1dUSDNsdGlaTVQ2MWZwNVNKdWNaekI4N0QwZDBqQWFrYk9IeXRMWU1hY0w3WklEeFY5WDFaZXJJdGlXU2RqX0R5V2VKYjFfbGZkYThhZXVGcFF2M29WbTBQVnBub2ljZlVIZnU1dTA5c3JWeWpJbzZpN29kWnZVM3Z6TWRxWkVsNXlPLUs1VzdXMktrem0tNVBMZTRPWEtTRE1YT3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 484
-    },
-    {
-      "date": "May 03",
-      "text": "Iran vows ‘long, painful’ response if US renews attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUkhFQUFYcXRXbmNQTVBoX0JSTWVFZUhuUEtQLWEzMXd0V3cwVHIyck9SdWV2c2drTk01bnMyQTZmMGdKa3lWWHBfcG5DTUZINEJZaEwyNV9Sa3BNZWZKNy1tSnNyRmtKUmFvcFZBVWxfZVBIdFBXX0JQTG1qSWRKR2djaGVGSS11WHp0SFo1OXZla2diSl9R0gGcAUFVX3lxTFA1R3pSank2OWROSzVkaTR5MkdSNTBZVW9TY2IteDZuNTBkZk1RTEQyMTRLQTVtS0J0c01sdnRTWV9sX20zWlYwcGtVUVk3R0pvdGtSWXFOTFl0bVRpVk5RTTlDYWRsZ1RJRTBNMWdFTG50NFZjREtIZklTZkhkdjN1VnBzNEtzV1pzWk82VEFhenZ4VHZPaU53YlZScQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 484
+      "text": "Hezbollah's leader rejected disarmament and called for Israeli withdrawal in a rare interview.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNdHhaNW1PdVJMVjh5S2N1eUJaUHh5aU05elpsb2ZJTVFHa0JMUTJFcUxLTWZnSThETll6RU1EMXYxWGthclFmeWowZjVvRHdzVTJnYy1NT09wYzJybWF6RjZLamRFRnR3YTVjM284N0NrQXQzejlwUlRjWklzNlREZFZhbUstcUFGNEI1YlVoc3VicnlBY0FIczZZSXZBZWhhdVl0eWZWTVdPWDFOSDF2TWpQdkRIZWw1dFB6cmR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 485
     }
   ],
   "sourceStatuses": [
