@@ -1,13 +1,13 @@
 {
-  "updateSequence": 490,
+  "updateSequence": 491,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T14:38:27.925Z",
+  "lastSyncedAt": "2026-05-03T15:34:12.778Z",
   "warDay": 65,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 30,
-    "summary": "A previous ceasefire is reported to be expiring, with recent peace proposals rejected and military options being reviewed, indicating a collapse of de-escalation efforts."
+    "summary": "No active ceasefire is in effect, with peace proposals being rejected and military options reviewed."
   }
 }
