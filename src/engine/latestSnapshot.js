@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 485,
+  "updateSequence": 486,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T09:42:12.717Z",
+  "lastSyncedAt": "2026-05-03T10:39:13.380Z",
   "warDay": 65,
-  "summary": "As the Iran war enters its 65th day, U.S. President Trump reviews a new peace proposal while Israel continues strikes on southern Lebanon, and a ceasefire between the U.S. and Iran is set to expire amidst ongoing tensions and economic disruptions.",
+  "summary": "The Middle East conflict continues with Israel and Hezbollah trading blows despite a declared ceasefire, while diplomatic efforts involving Iran's peace proposals are underway but Trump is also reviewing military options.",
   "lastNarrativeUpdate": "2026-05-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A recent ceasefire is reportedly set to expire amidst ongoing U.S.-Iran talks and continued Israeli strikes in Lebanon, indicating a fragile and uncertain peace."
+    "summary": "A declared ceasefire between Israel and Hezbollah is reportedly not holding, with continued exchanges of fire and significant casualties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.88,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 03",
-      "text": "U.S. President Trump is reviewing a 14-point plan aimed at ending the war.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 485
-    },
-    {
-      "date": "May 03",
-      "text": "Israel continues to pound Lebanon, issuing evacuation orders for multiple southern towns.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwJBVV95cUxOLXB1dDdJNDRqT2U0aHpfcFZFaEtaa29YOVdZLU5QMUpkQU9KdHpMUHFIc2RUODRGbF9aNEFTb3hSVjV5cHpGT3lUTUtaTkpha3NoSUxnbDk4X3h0MlRyc2F6Sy1QYWFyb2kwSWFYUUZ1ZkVIa0lmT1B2MnlXQll4MklwV2R4WnJzY183eWx2SVExWkR0NkNWVmV0NWpjbm56OWZTeVhISFgzaW0zMVdsZ0ItX3hlWEVLQ2JtVC1ZTFZZMzVvRDZPSmpfZlRvNEJZU3BTeWJTSldJWl9MRUY4VHJ4WnlDM3ZTZnVmb09OeHFGa2RlV0RLNTFDNkQta3VMRE94enZ5OTl0V0VwbUhWVmhKd1ZzR3E1b0UweFRGSklMbEU4U0owRE96SGRvalnSAbQCQVVfeXFMUHcwSkJhdVBqT0VGSjZiZnBXUW5feGVPS1o2QnZQRENJYW1mNkFnaDZycEpMNVN2bXhvbmZwN09fYlFGb2tST3MzbEhoQWs3UFZpTHNIZjdIVUs2N2E3bm03RjM2WFJJb0xiT1c1NXdjeUVBLWlSNDlQWnotZnZiUnZjTDVqa2ZGU3pXa1gtenFBM2tfVkVVWVFKTFBwNUlka25tNGZYTHNicWdUeHUzZDlYQkRWdGdkUWw1TDZneXp3ZGdSNjdJSjA2bmRwQWdSWm9SVXkxZzJMYTdSclRfZFlHa3VCZ19FUlJVWDd2S2ljNmM2Z1RNTm5tQ2JlU25HOTRGWTkzTm9nWTFmU3lQVm03bXRWTHhQMWV1eFJwQzJ1N2tVM2NUeG5LY2xzRms2Z2FNcGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 485
-    },
-    {
-      "date": "May 03",
-      "text": "Iran has submitted a 14-point response to the U.S. proposal to end the war.",
+      "text": "Iran submits a 14-point response to the U.S. proposal to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 485
+      "latestSinceUpdate": 486
     },
     {
       "date": "May 03",
-      "text": "U.S.-Iran talks are uncertain as a ceasefire is reportedly set to expire.",
+      "text": "Israel and Hezbollah continue to exchange fire despite a declared ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNMHg1TVIyZGUxTVJpVkhrYmhrN3d6dlk5M0h4STJMdlRYRGJSbGJnZjVEVndmOHBWMFpEYmJxWUphSWJWc2F6MEJiVTBOazRwR1IycFYwaVhxblFsRGs3OFBrTi15eFp4NVdqcFpaQmFZSE9CX041WTIwRE5oT3VjdE9WeG5zZ1EtN0p6NWs5Y3E0S2gyWG1nMXlkQjZyZG55d0F0ZWZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 485
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE5VQldEVmg4NWhDNTFHeWRQQXNoWW5XWUg3WEFSeS1KSG9PQ3NVT1I5OUpnQjE2UVBYbmVzRy1vY0lUSGY1QVIxM05ic2RhbmlsUVZZeWEwdjdRZlJ1YmlDT2JEZHk4QTdyUVFhYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 486
     },
     {
       "date": "May 03",
-      "text": "The U.S. threatens shipping firms with sanctions if they pay Iran tolls for passage through the Strait of Hormuz.",
+      "text": "Trump states he is reviewing a new Iranian proposal to end the war but does not rule out resuming attacks.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE1wNGJDSTlaZEgzS0FlZnJOcVJSaEFPR3lLajE5NlVYVkEyRC0yZ1Vod3FURUtzckJUVjM2VVNJYTQyNGZCanE3N2otNnM2TkdqZy1DVm1Qa0o0RkhqcVp2X1djWlhNeE1tOElPWk5GSVdTQdIBd0FVX3lxTE9kVXVsMDlDblJ1TW9udm5LdXE5cmhGc0xKSUZRVmdiZmktXzZmSkpqU0ZUelBRSmsyc1MtckdoVjVsQVR2UHBTR1B2cy1VMWU5NWRsSnBUaS16dVoyZEc2Z2FGWkRrUXh0dnhMZHJ4blZISFByTm5n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 486
+    },
+    {
+      "date": "May 03",
+      "text": "Iran vows a 'long, painful' response if the US renews attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUkhFQUFYcXRXbmNQTVBoX0JSTWVFZUhuUEtQLWEzMXd0V3cwVHIyck9SdWV2c2drTk01bnMyQTZmMGdKa3lWWHBfcG5DTUZINEJZaEwyNV9Sa3BNZWZKNy1tSnNyRmtKUmFvcFZBVWxfZVBIdFBXX0JQTG1qSWRKR2djaGVGSS11WHp0SFo1OXZla2diSl9R0gGcAUFVX3lxTFA1R3pSank2OWROSzVkaTR5MkdSNTBZVW9TY2IteDZuNTBkZk1RTEQyMTRLQTVtS0J0c01sdnRTWV9sX20zWlYwcGtVUVk3R0pvdGtSWXFOTFl0bVRpVk5RTTlDYWRsZ1RJRTBNMWdFTG50NFZjREtIZklTZkhkdjN1VnBzNEtzV1pzWk82VEFhenZ4VHZPaU53YlZScQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 486
+    },
+    {
+      "date": "May 03",
+      "text": "Satellite data reveal the scope and scale of US-Israeli strikes on Iran.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 486
+    },
+    {
+      "date": "May 03",
+      "text": "The US threatens shipping firms with sanctions if they pay Iran tolls in the Strait of Hormuz, leading to halted traffic.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9nekV0UmtXWEVSSy1NVEtPSEN0dFBlazllcXc4RFpaVFFtbGxIbWlyc3JFS05hdjRnUFRNRFdUZFFtU2Vfems0eXRWdUZ6SGFQV0hQVXpYUEl2dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 485
-    },
-    {
-      "date": "May 03",
-      "text": "Hezbollah's leader rejected disarmament and called for Israeli withdrawal in a rare interview.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNdHhaNW1PdVJMVjh5S2N1eUJaUHh5aU05elpsb2ZJTVFHa0JMUTJFcUxLTWZnSThETll6RU1EMXYxWGthclFmeWowZjVvRHdzVTJnYy1NT09wYzJybWF6RjZLamRFRnR3YTVjM284N0NrQXQzejlwUlRjWklzNlREZFZhbUstcUFGNEI1YlVoc3VicnlBY0FIczZZSXZBZWhhdVl0eWZWTVdPWDFOSDF2TWpQdkRIZWw1dFB6cmR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 485
+      "latestSinceUpdate": 486
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

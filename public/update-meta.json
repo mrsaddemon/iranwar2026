@@ -1,13 +1,13 @@
 {
-  "updateSequence": 485,
+  "updateSequence": 486,
   "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T09:42:12.717Z",
+  "lastSyncedAt": "2026-05-03T10:39:13.380Z",
   "warDay": 65,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A recent ceasefire is reportedly set to expire amidst ongoing U.S.-Iran talks and continued Israeli strikes in Lebanon, indicating a fragile and uncertain peace."
+    "summary": "A declared ceasefire between Israel and Hezbollah is reportedly not holding, with continued exchanges of fire and significant casualties."
   }
 }
