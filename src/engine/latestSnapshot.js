@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 506,
+  "updateSequence": 507,
   "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T15:15:47.944Z",
+  "lastSyncedAt": "2026-05-04T17:03:18.680Z",
   "warDay": 66,
   "summary": "The Middle East conflict continues with heightened tensions in the Strait of Hormuz, where Iran claims to have struck a US warship, a claim denied by the US, while diplomatic exchanges regarding peace proposals are ongoing.",
   "lastNarrativeUpdate": "2026-05-04",
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 04",
-      "text": "Iran war live: US denies frigate hit by missiles in Hormuz Strait",
+      "text": "Iran war live: UAE says intercepted missiles, drone sparks fire at oil site",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 506
+      "latestSinceUpdate": 507
     },
     {
       "date": "May 04",
@@ -76,27 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 04",
-      "text": "Iran Update Special Report, May 2, 2026",
+      "text": "Middle East crisis live: US denies report that warship trying to pass through strait of Hormuz was hit by Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNdWdhMHRsbVpncUw3ZmZsQWQ1VGdaaFBmUFdubUsxdlNXVVVoSTVyaW05NDl3anpqU09zS0tCbG8xeXkwUkVNWTJoYmhvV0ZnTUFDbmVQOWxqT0VJUGdsTmt1ak9DZlIwR213OW02TkpKczNpMnFWRjZiQkR1MU1mV1dsUjdFNUpmNWJqUE9CeXBxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 506
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOeVFMN1ZfVVIzWWVLcVdUNW5MZW13aHJyc0pNa1AwMmJnTGlQVmRiSlNxMTQwOWY1bmNPOGt4eUhSWW9KSF9sNnBnWldyQ21ma24ydVR3NGZiM1RUYVk4eHBabjgzY0VRUHgyTFlvR2MxVTQ2M2tIU1oxY053dER5bmo3SUZqaDhHRGlSNFRkX0NoS2xHcWU5OFR4S2pVTnAxWWVkVnZMa0YtQl94WVM5OGxoaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 507
     },
     {
       "date": "May 04",
-      "text": "Two months into the Iran war, almost everybody is a loser",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFBPeDBkZFhmQzRVUEs1cDFQbUk5Y2dmbkRBNzJacUZQRTEtcEhkRklUZlhWVWRoWmR5QUR3NjhHOWtDemJvZnFmY0I0U1g5UHVpU0k5R0tQRHBxYlJtMnMwMjhIb21henRsakZOdlJBWUFhOE1X?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 506
-    },
-    {
-      "date": "May 04",
-      "text": "Middle East war latest: US denies report its warship was hit by Iran near Strait of Hormuz",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 506
+      "text": "Iran War Live Updates: Tehran Threatens U.S. Ships Over Trump Plan to Break Its Blockade in the Strait of Hormuz",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE83MmpZTm5iSHpxNF8zRDhXXy0waUxVQ3A3TDFkdlNsV2Q5SjgyaDZ3NUlnVTMwTHVMSmx5aW1sdVJUWGczWTAwb3ZrX1FESDRWcVB3UnA5M3d4b1Z0YWNhZUN2Qi1OTTNFcUF1WWhkQV94Z2tCQTFZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 507
     },
     {
       "date": "May 04",
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
       "latestSinceUpdate": 506
+    },
+    {
+      "date": "May 04",
+      "text": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 507
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
