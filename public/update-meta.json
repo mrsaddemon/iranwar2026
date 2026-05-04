@@ -1,13 +1,13 @@
 {
-  "updateSequence": 511,
+  "updateSequence": 512,
   "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T22:16:14.718Z",
+  "lastSyncedAt": "2026-05-04T23:12:49.393Z",
   "warDay": 66,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "A ceasefire between the US and Iran was reportedly agreed upon, but its effectiveness immediately collapsed following significant Israeli military action in Lebanon."
+    "summary": "No ceasefire is active; direct military engagements are ongoing."
   }
 }
