@@ -1,13 +1,13 @@
 {
-  "updateSequence": 500,
-  "lastUpdated": "2026-05-03",
-  "lastSyncedAt": "2026-05-03T23:57:48.610Z",
-  "warDay": 65,
+  "updateSequence": 501,
+  "lastUpdated": "2026-05-04",
+  "lastSyncedAt": "2026-05-04T04:01:11.808Z",
+  "warDay": 66,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Despite a declared ceasefire between Israel and Hezbollah, hostilities persist, and the broader US-Iran conflict shows no active ceasefire, with proposals rejected and military options reviewed."
+    "summary": "A ceasefire, if previously active or proposed, is now considered collapsed due to Trump's announced Hormuz mission and Iran's warning of violation, alongside ongoing regional conflict."
   }
 }
