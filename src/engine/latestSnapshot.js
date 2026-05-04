@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 507,
+  "updateSequence": 508,
   "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T17:03:18.680Z",
+  "lastSyncedAt": "2026-05-04T18:24:32.899Z",
   "warDay": 66,
-  "summary": "The Middle East conflict continues with heightened tensions in the Strait of Hormuz, where Iran claims to have struck a US warship, a claim denied by the US, while diplomatic exchanges regarding peace proposals are ongoing.",
+  "summary": "The conflict continues with direct naval confrontations between the US and Iran in the Strait of Hormuz, Iranian attacks on UAE oil infrastructure, and increased Israeli military operations in Lebanon.",
   "lastNarrativeUpdate": "2026-05-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation is reported; hostilities continue across multiple fronts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
-      },
-      "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.7
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,22 +37,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 20,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
-    "sanctionsPressure": 68,
-    "globalPressure": 90,
-    "allianceInfluence": 73
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 04",
-      "text": "Iran war live: UAE says intercepted missiles, drone sparks fire at oil site",
-      "severity": "info",
+      "text": "UAE reports intercepting missiles and a drone, with a subsequent fire at an oil site.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 507
+      "sourceName": "Google News",
+      "latestSinceUpdate": 508
     },
     {
       "date": "May 04",
-      "text": "Iran submits a 14-point response to a U.S. proposal to end the war",
+      "text": "Iran submits a 14-point response to a U.S. proposal aimed at ending the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 506
+      "sourceName": "Google News",
+      "latestSinceUpdate": 508
     },
     {
       "date": "May 04",
-      "text": "Middle East crisis live: US denies report that warship trying to pass through strait of Hormuz was hit by Iran",
+      "text": "Tehran threatens U.S. ships over a Trump plan to break its blockade in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 508
+    },
+    {
+      "date": "May 04",
+      "text": "Satellite data reveals the scope and scale of US-Israeli strikes on Iran.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 508
+    },
+    {
+      "date": "May 04",
+      "text": "US reports two American-flagged merchant vessels have successfully transited the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOeVFMN1ZfVVIzWWVLcVdUNW5MZW13aHJyc0pNa1AwMmJnTGlQVmRiSlNxMTQwOWY1bmNPOGt4eUhSWW9KSF9sNnBnWldyQ21ma24ydVR3NGZiM1RUYVk4eHBabjgzY0VRUHgyTFlvR2MxVTQ2M2tIU1oxY053dER5bmo3SUZqaDhHRGlSNFRkX0NoS2xHcWU5OFR4S2pVTnAxWWVkVnZMa0YtQl94WVM5OGxoaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 507
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 508
     },
     {
       "date": "May 04",
-      "text": "Iran War Live Updates: Tehran Threatens U.S. Ships Over Trump Plan to Break Its Blockade in the Strait of Hormuz",
+      "text": "U.S. forces sink 6 small Iranian boats after Iran launches attacks on UAE and a ship in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE83MmpZTm5iSHpxNF8zRDhXXy0waUxVQ3A3TDFkdlNsV2Q5SjgyaDZ3NUlnVTMwTHVMSmx5aW1sdVJUWGczWTAwb3ZrX1FESDRWcVB3UnA5M3d4b1Z0YWNhZUN2Qi1OTTNFcUF1WWhkQV94Z2tCQTFZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 507
-    },
-    {
-      "date": "May 04",
-      "text": "Iran’s economy has been battered. Its leaders still think Trump will blink first",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 506
-    },
-    {
-      "date": "May 04",
-      "text": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 507
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNLUNwMXh1VW50OTdEczR6ejZWbWJhbWY5YU9nYWdoSjFLLWdWREtNYU1NMHRWMUYyODZSSWNoZVluVF80S0dtWkJzQnFkS3JCV1JRNmsxN0paOThwTmphcWt4NXRoU09yZmd6OC1XMGdTOUxmNFU5b1dVdkhVVWxjTTFtZXhUZ0Jya1hBQkk5TnRobFBCb2dIcDhINmF6VllJR2sxTTN30gGrAUFVX3lxTFBlNFJyUjRmanpEYi00WFBBdUo4S19sSHVrTTQ1ZEQ4NlJFMDhMejRiekdsUm9tcGwtNlB0cnJKVUdQZlNRUnVTVG8zQVQyNHNZQjItRm8zWWs1WGFlQjJhU1N2UXNTWHhvTV9xbVl5QjNjVFlCSnFlM2hVbkx4cXFMcGN3YjF2cWlmTmd5QkltNzhOWGxQUmtVVUJMeW9kTm5HZXpEeVhuR2VlYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 508
     }
   ],
   "sourceStatuses": [
