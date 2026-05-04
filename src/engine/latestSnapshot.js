@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 501,
+  "updateSequence": 502,
   "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T04:01:11.808Z",
+  "lastSyncedAt": "2026-05-04T06:47:56.631Z",
   "warDay": 66,
-  "summary": "The US announced a plan to escort ships through the Strait of Hormuz, prompting Iran to warn of ceasefire violations, while regional conflict continues with Israeli strikes in Lebanon and Hezbollah deploying new weapons.",
+  "summary": "The U.S. has initiated an effort to escort ships through the Strait of Hormuz, prompting warnings from Iran of ceasefire violation, while both sides report significant military strikes and damage, and Israel continues operations in Lebanon.",
   "lastNarrativeUpdate": "2026-05-04",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A ceasefire, if previously active or proposed, is now considered collapsed due to Trump's announced Hormuz mission and Iran's warning of violation, alongside ongoing regional conflict."
+    "summary": "A ceasefire appears to be in place but is considered fragile, with Iran warning that U.S. actions in the Strait of Hormuz constitute a violation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,22 +18,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,17 +42,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 58,
-    "globalPressure": 72,
-    "allianceInfluence": 73
+    "oilDisruption": 95,
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 04",
-      "text": "Trump announces US Navy will escort ships out of the Strait of Hormuz starting Monday.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1zbjFVbkRaeEx5RTk2cllaTnlQMm1NcXJ2UEU0Ump3czB5T0lBVFAzclN4RUpJMGJtWDJ5QnpIb1VBZjZ6SWdRZDlJS0xDZW94enZERV9kTjAyMW1UT3NTblh1NklmM3FNSHBBSVFDUk5sY2lJR2tkNEFPUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 501
+      "text": "Trump announces plan for U.S. Navy to escort ships out of the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQRjdDY1pjZndhZUhKcFFXUmZjSUJpdDlRdk5ETE1sRVNrTVRMNVA0bXdpaHc0dHBfaF9nblRLWEE0RlRWemJUNGk0RU9CVWFRcnBqLVVoRHRPelRvVWtJUHhkOXhMaEwtV01mRTF1SGlzZGU2YU1fdEZwb1RWT1hFeVFrOFZsSHZJUktRVkFmX1ZOQ0FQY0JVZWxxdDQ1OHZudGtqSzlQVzdrZG5PMlF6dllrbklZRGVvalVv0gHAAUFVX3lxTE9KQVNaMHA0YURrNlFyN1VGMFMtZGI2Vjk4bFc2czh5a0VBbEZ3NE42QzhJV3JBX3poYmttNEozaFhVUHhyRzVqdjZiY2JwcUttbzdKS05LeTltRHZjTkUwb2FZT1lqZ0NsY2E1RHFOMFZwcDM5d1pFdDZGRGc1enRHdXVVQmJNNUZCQWJjWG41M1dpWHFQVzg2dFV1YVVLb0JwSWRDR1pObDJLZ2JPaGNUUnNWNVF2OGRQbGswczVhTw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 502
     },
     {
       "date": "May 04",
-      "text": "Iran warns Trump’s Hormuz mission will violate the ceasefire.",
+      "text": "U.S.-led task force tells ships to reroute on first day of new effort to reopen the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxPMXUxRXhtVUx6WExNYkQ1QmxKMlI0S1I4bElVWF9JQTFUUGNGU1B6M0VreHFUN2MwZDNId1NiS3NGRTdqMjNUd3IzLUtCbWV3bXBrRVhQS2c1RGxYN1gwT1dxbmpLS0tJTTc5S0lUbFg3WjJ2LUdBV0djXzNzYVpOSGRycU5OZVVFaTVWV09YcER0YmpTTHB6ems1ZVRuSll4cWw0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 502
+    },
+    {
+      "date": "May 04",
+      "text": "Tehran warns Trump’s Hormuz mission will violate ceasefire.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 501
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 502
     },
     {
       "date": "May 04",
-      "text": "Iran submits a 14-point response to a U.S. proposal to end the war.",
+      "text": "Iran submits a 14-point response to a U.S. proposal to end war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFBLMi1mWVVxa2c3MmhYY3lTYndRdDhoQWZVaGhXVE1JVnN3ZW1jWldnUnEtSDU3ODNPa3l4emNCb2RCQWlYSERJdjBwVGtFLUQ3TllZRmZuT3hSQzYtWS1LSHpFTWp6UUJTMm4wR0FhY19BNnRueE9qUTVhMFJ3Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 501
+      "sourceName": "NPR",
+      "latestSinceUpdate": 502
     },
     {
       "date": "May 04",
-      "text": "Hezbollah deploys a potent new weapon designed to evade Israeli detection.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 501
-    },
-    {
-      "date": "May 04",
-      "text": "Thirteen killed in Israeli strikes on southern Lebanon, according to the health ministry.",
+      "text": "Iran strikes damaged 16 US military sites in Middle East, according to a report.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5lQTRpZWpNcDVjOEhubUI2VjJLQ1VucXRHMjNwNzdmRTFpTzd6cG1rSk1rZW9aOFNaX2pXOTNNYmhvZUdNcFMzNm5IMkhtZmc3X1A2TnRMVzNzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 501
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPS1FlbTdzdW56M3FXdUtpY2NoTWx1LWRCbDJJSC0yMHY0NUtVUzZjRVJ1UWtkWnd5Z1Q5YmRLN0JhVmQxelQ1dHJySG56YzQ1MlZSYTVVQ2VNQWRUbE94X3dud1oxVEh6U3RoZEZ5dU5DSmtvZjNJWXJCUWFpSlA3b2o5TURqQlJ2RW5ZMHJ1MXJ6NzhPOU5rTWxFeHk0RVYzbmI5UUJEZ2F6MUp1Yl93YnlpTmxpZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 502
     },
     {
       "date": "May 04",
-      "text": "A CNN investigation reveals the majority of US military sites in the Middle East have been damaged by Iran.",
+      "text": "Israel strikes in southern Lebanon kill 10 people as a Hezbollah drone wounds 2 Israeli soldiers.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPZXgyczJfZ015aVNZWVpKYmZHc29IVVowSGpEM004YjE2X3JTV1ZVNzJldWVlbjA3Vk5WTmZLNENGd2R6M3QzdklvX0FUOVdMQ1F0M1otcmNZWUpNakZ3ZE5wSTRCWkc2WDc2bng5X2tvYWFReG5IM3Q0YjFCb3Z0T0k3YXQ3SC1BMzRQeHhnQ1UwX3l3RUFN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 501
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNbnd2a3p6WTZweThYTVY3RVlJX3dJS3RPMi1vNS0ycUN0VWJjVUZ5YlBOQkxMeEp0R2k1dWM2YTYxWnN5aEN4TlNtSU13cFZwd1hZdVVNaFgwSjVKWUJacjM1MlZDMl83UFN2RmRRM3dFS0lUUm1YckNnbk93YWswQ3JGZHdxVDh5NDIwSF9RRlE3dmIxZEEzUU5feDY1cHZSVkRkWWctSDRTUzFNTzdfZUFhc2RKMllUQVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 502
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

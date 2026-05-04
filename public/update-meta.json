@@ -1,13 +1,13 @@
 {
-  "updateSequence": 501,
+  "updateSequence": 502,
   "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T04:01:11.808Z",
+  "lastSyncedAt": "2026-05-04T06:47:56.631Z",
   "warDay": 66,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A ceasefire, if previously active or proposed, is now considered collapsed due to Trump's announced Hormuz mission and Iran's warning of violation, alongside ongoing regional conflict."
+    "summary": "A ceasefire appears to be in place but is considered fragile, with Iran warning that U.S. actions in the Strait of Hormuz constitute a violation."
   }
 }
