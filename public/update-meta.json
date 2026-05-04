@@ -1,13 +1,13 @@
 {
-  "updateSequence": 502,
+  "updateSequence": 503,
   "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T06:47:56.631Z",
+  "lastSyncedAt": "2026-05-04T09:07:31.543Z",
   "warDay": 66,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "A ceasefire appears to be in place but is considered fragile, with Iran warning that U.S. actions in the Strait of Hormuz constitute a violation."
+    "summary": "No active ceasefire is in effect, though peace proposals and responses are being exchanged between the U.S. and Iran."
   }
 }
