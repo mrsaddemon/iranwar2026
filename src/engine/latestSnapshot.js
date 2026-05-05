@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 512,
-  "lastUpdated": "2026-05-04",
-  "lastSyncedAt": "2026-05-04T23:12:49.393Z",
-  "warDay": 66,
-  "summary": "Direct military engagements between US and Iranian forces have escalated in the Strait of Hormuz, alongside Iranian missile and drone attacks on the UAE, while Israel continues its campaign in Lebanon.",
-  "lastNarrativeUpdate": "2026-05-04",
+  "updateSequence": 513,
+  "lastUpdated": "2026-05-05",
+  "lastSyncedAt": "2026-05-05T00:11:11.934Z",
+  "warDay": 67,
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "lastNarrativeUpdate": "2026-05-05",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No ceasefire is active; direct military engagements are ongoing."
+    "summary": "Ceasefire talks between Israel and Lebanon have been proposed but rejected by Lebanon's parliament speaker until the war ends."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "nuclearIndex": 10,
+    "escalationLevel": 38,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 03",
-      "text": "Iran fires missiles and drones at the United Arab Emirates, sparking a fire at an oil site.",
+      "date": "May 05",
+      "text": "UAE reports intercepting missiles and drone threats, with a drone sparking a fire at an oil site.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 512
+      "latestSinceUpdate": 513
     },
     {
-      "date": "May 03",
-      "text": "US and Iranian militaries trade shots as tensions escalate in the Strait of Hormuz.",
+      "date": "May 05",
+      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 512
+      "latestSinceUpdate": 513
     },
     {
-      "date": "May 03",
-      "text": "US forces sink 7 small Iranian boats in retaliation after Iran opened fire on US warships.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9odTcxemd2X0w1cEl5SGRMVllubzZqTmNweDVIQ2lqLTRCRnVORTYwQ2Jzd1JSZjBDdHpqRGh5NFZfLVZiUmV6V3F4Sm1xaTFHRzUyYzV2M29DYXVSaGxYRmxTX0hvWkZwSjE2eThsaTJtSExlTUMtcUpEYTjSAYIBQVVfeXFMTkVlbWF0dW1oTjNDR0x6eGhCM2Vtc3haNGp6SldOWC1pbWIyeU1WYVFpRGk1UlRYU19JeGZKUmExb05kQ0FQNWd4Z1ZieW4wc3lxLXVCemRMZGN1UkZ3T1VJaUlVQlF4MXJWaUhIbjdlNGQ4eTY3YkdhMXlXay1BNFdJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 512
-    },
-    {
-      "date": "May 03",
-      "text": "President Trump warns Iranian forces they will be 'blown off the face of the Earth' if they target US ships.",
+      "date": "May 05",
+      "text": "Trump warns Iranian forces they will be 'blown off the face of the Earth' if they target US ships.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOeVFMN1ZfVVIzWWVLcVdUNW5MZW13aHJyc0pNa1AwMmJnTGlQVmRiSlNxMTQwOWY1bmNPOGt4eUhSWW9KSF9sNnBnWldyQ21ma24ydVR3NGZiM1RUYVk4eHBabjgzY0VRUHgyTFlvR2MxVTQ2M2tIU1oxY053dER5bmo3SUZqaDhHRGlSNFRkX0NoS2xHcWU5OFR4S2pVTnAxWWVkVnZMa0YtQl94WVM5OGxoaw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 512
+      "latestSinceUpdate": 513
     },
     {
-      "date": "May 03",
-      "text": "Hezbollah deploys a new weapon designed to evade Israeli detection while facing significant losses in Lebanon.",
+      "date": "May 05",
+      "text": "Iran reportedly fires 15 missiles at the United Arab Emirates.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 513
+    },
+    {
+      "date": "May 05",
+      "text": "Iran opened fire on US warships, leading to Centcom reporting 6-7 small Iranian boats destroyed in retaliation.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9odTcxemd2X0w1cEl5SGRMVllubzZqTmNweDVIQ2lqLTRCRnVORTYwQ2Jzd1JSZjBDdHpqRGh5NFZfLVZiUmV6V3F4Sm1xaTFHRzUyYzV2M29DYXVSaGxYRmxTX0hvWkZwSjE2eThsaTJtSExlTUMtcUpEYTjSAYIBQVVfeXFMTkVlbWF0dW1oTjNDR0x6eGhCM2Vtc3haNGp6SldOWC1pbWIyeU1WYVFpRGk1UlRYU19JeGZKUmExb05kQ0FQNWd4Z1ZieW4wc3lxLXVCemRMZGN1UkZ3T1VJaUlVQlF4MXJWaUhIbjdlNGQ4eTY3YkdhMXlXay1BNFdJdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 513
+    },
+    {
+      "date": "May 05",
+      "text": "Hezbollah deploys a potent new weapon designed to evade Israeli detection.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 512
+      "latestSinceUpdate": 513
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
@@ -131,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Defiance",
-      "headline": "Tehran warns US on Hormuz, vows 'painful' response",
-      "summary": "Iran has submitted a response to a US peace proposal but simultaneously warns that Trump's plan to escort ships in the Strait of Hormuz will violate any existing ceasefire. Leaders reportedly believe Trump will eventually back down despite economic pressures.",
+      "perspective": "US/Trump",
+      "headline": "Trump Issues Stark Warning Amid Strait of Hormuz Escalation",
+      "summary": "The US, under Trump's directive, pledges to guide ships in the Strait of Hormuz and warns Iran of severe retaliation if US vessels are targeted, following direct military engagements.",
       "tone": "defiant",
-      "latestSinceUpdate": 501
+      "latestSinceUpdate": 513
     },
     {
-      "perspective": "US Assertiveness",
-      "headline": "Trump moves to secure Hormuz, proposes war end",
-      "summary": "President Trump has announced a new initiative for the US Navy to escort ships through the Strait of Hormuz, aiming to guide stranded vessels. This move comes amidst a US proposal to end the war, to which Iran has submitted a 14-point response.",
-      "tone": "strained",
-      "latestSinceUpdate": 501
+      "perspective": "Iran",
+      "headline": "Iran Defiant Despite Economic Strain, Engages US and UAE Forces",
+      "summary": "Despite a battered economy, Iran's leadership remains defiant, believing the US will eventually back down, while actively launching missile attacks on the UAE and engaging US warships.",
+      "tone": "defiant",
+      "latestSinceUpdate": 513
     },
     {
-      "perspective": "Regional Conflict Escalation",
-      "headline": "Hezbollah deploys new weapons as Israeli strikes continue",
-      "summary": "Hezbollah has introduced a new weapon designed to evade Israeli detection, indicating an escalation in tactical capabilities. This development coincides with Israeli strikes in southern Lebanon, which have resulted in casualties, highlighting the ongoing intensity of regional conflict.",
+      "perspective": "Hezbollah/Lebanon",
+      "headline": "Hezbollah Deploys New Weapons, Lebanon Rejects Ceasefire Talks",
+      "summary": "Hezbollah has deployed a new weapon to evade Israeli detection, and Lebanon's parliament speaker, allied with Hezbollah, has rejected any ceasefire talks with Israel until the war concludes.",
+      "tone": "defiant",
+      "latestSinceUpdate": 513
+    },
+    {
+      "perspective": "UAE",
+      "headline": "UAE Under Attack: Missiles Intercepted, Oil Site Hit",
+      "summary": "The UAE reports intercepting multiple missiles and drone threats, with one drone sparking a fire at an oil facility, indicating direct attacks on its territory.",
       "tone": "anxious",
-      "latestSinceUpdate": 501
-    },
-    {
-      "perspective": "Geopolitical Implications",
-      "headline": "China, Russia gain insight as US sites damaged",
-      "summary": "The ongoing conflict provides China and Russia with valuable real-time intelligence on US military operations and capabilities. This strategic advantage is underscored by reports indicating significant damage to US military sites in the Middle East from Iranian actions.",
-      "tone": "neutral",
-      "latestSinceUpdate": 501
+      "latestSinceUpdate": 513
     }
   ]
 });
