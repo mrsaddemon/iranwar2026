@@ -1,13 +1,13 @@
 {
-  "updateSequence": 513,
+  "updateSequence": 514,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T00:11:11.934Z",
+  "lastSyncedAt": "2026-05-05T03:52:40.500Z",
   "warDay": 67,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Ceasefire talks between Israel and Lebanon have been proposed but rejected by Lebanon's parliament speaker until the war ends."
+    "summary": "No ceasefire is active; direct military engagements and threats indicate ongoing conflict."
   }
 }
