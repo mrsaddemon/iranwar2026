@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 523,
+  "updateSequence": 524,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T21:15:30.617Z",
+  "lastSyncedAt": "2026-05-05T22:15:36.108Z",
   "warDay": 67,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-05",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 7,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 05",
-      "text": "Iran war live: Trump urges Iran to make deal; UAE says responding to attack",
+      "text": "Iran war live: US says offensive phase over, Tehran won’t control Hormuz",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 523
+      "latestSinceUpdate": 524
     },
     {
       "date": "May 05",
@@ -76,27 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 05",
-      "text": "Live updates: US affirms ceasefire with Iran is still in effect despite rising tensions in Strait of Hormuz",
+      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 523
+      "latestSinceUpdate": 524
     },
     {
       "date": "May 05",
-      "text": "Middle East crisis live: Donald Trump says Iran ‘know what not to do’ to avoid violating ceasefire with US",
+      "text": "UAE Reports Missiles and Drone Threats; Trump Says U.S. Will Guide Ships in Strait of Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOZVNNNFNuaGY3ekVlTlJra3NuT3ItcGJycnBFSF9YSHpqSzFxR3YtYjVJQjRQbl8zSTNOOWRHRkVvQ1o0ZWQ1bjMyUkk5bXRIOF94RkNTYms2cjZsNEpIc010TzJKUHF6WXVmU0FtaUs1eERwUGxJZWNESVRiOWlORVc4UUdnR2VGb3dacFVHS2NhQWhjcjl4TWpiSU4xZVpId01HVXJoeUJiVWtnZjF3V1ljUG9GX19ib3hSVzZ2bW9lZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 523
-    },
-    {
-      "date": "May 05",
-      "text": "Iran war updates: IRGC warns conflict may resume, says it’s fully prepared",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 523
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE83MmpZTm5iSHpxNF8zRDhXXy0waUxVQ3A3TDFkdlNsV2Q5SjgyaDZ3NUlnVTMwTHVMSmx5aW1sdVJUWGczWTAwb3ZrX1FESDRWcVB3UnA5M3d4b1Z0YWNhZUN2Qi1OTTNFcUF1WWhkQV94Z2tCQTFZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 524
     },
     {
       "date": "May 05",
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
       "latestSinceUpdate": 523
+    },
+    {
+      "date": "May 05",
+      "text": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 524
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
