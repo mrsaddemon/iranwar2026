@@ -1,13 +1,13 @@
 {
-  "updateSequence": 521,
+  "updateSequence": 522,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T18:19:42.718Z",
+  "lastSyncedAt": "2026-05-05T19:54:32.423Z",
   "warDay": 67,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire is nominally active but is severely strained by direct military exchanges in the Strait of Hormuz and ongoing Israeli-Hezbollah clashes in Lebanon."
+    "summary": "The US affirms a ceasefire is in effect, but direct military engagements and multiple Iranian attacks indicate a highly fragile status."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 521,
+  "updateSequence": 522,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T18:19:42.718Z",
+  "lastSyncedAt": "2026-05-05T19:54:32.423Z",
   "warDay": 67,
-  "summary": "Direct military exchanges between US and Iranian forces have escalated in the Strait of Hormuz, while a fragile ceasefire in Lebanon is challenged by ongoing Israeli attacks and Hezbollah's actions.",
+  "summary": "Tensions remain high between the US and Iran, with direct military engagements reported in the Strait of Hormuz despite US affirmations of a ceasefire, while Hezbollah continues clashes with Israel.",
   "lastNarrativeUpdate": "2026-05-05",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire is nominally active but is severely strained by direct military exchanges in the Strait of Hormuz and ongoing Israeli-Hezbollah clashes in Lebanon."
+    "summary": "The US affirms a ceasefire is in effect, but direct military engagements and multiple Iranian attacks indicate a highly fragile status."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 05",
-      "text": "UAE reports missile and drone threats amidst regional tensions.",
+      "date": "May 04",
+      "text": "UAE reports responding to an attack and missile/drone threats.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 521
+      "latestSinceUpdate": 522
     },
     {
       "date": "May 05",
-      "text": "US and Iranian militaries trade shots, escalating tensions in the Strait of Hormuz.",
+      "text": "US affirms ceasefire with Iran is still in effect despite rising tensions in Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 522
+    },
+    {
+      "date": "May 05",
+      "text": "Trump states the U.S. will guide ships in the Strait of Hormuz, launching 'Project Freedom' to reopen it for commerce.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQdXYxbC1NU092VHBCeUg1eFFNbGp0NTNnVHI2dVlrN3pXOHNOejBOYWVpTEJ6Y0pFNGpnY2RPdDFRbGh5amhWN1Q0MXRSS2hqZnNlNkZQS3VQWDctWm14Y0REZ0tjbmhiSlFocU5IQjVYbXRDVmgtcEZyczFfRm9NUXhHVVbSAYoBQVVfeXFMTlloUnV6cGtGYjBpMkNhMTNrLW1ENWJMWlRRaU1ZWDRsbEd1aDJETUY4bVBUN0lVMFpqUVVBeWJybnRRek9nMEpoZ3RWSjlMb2YwT3JxTGxTdGUxVUkyNmR0Y0JFMFJPWjBoMDFmMlNYc0U1dkc5Z2VKNjJTUGw2VUxzdnBJVzluQUlR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 522
+    },
+    {
+      "date": "May 05",
+      "text": "IRGC warns conflict may resume and states it is fully prepared.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 522
+    },
+    {
+      "date": "May 05",
+      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 521
+      "latestSinceUpdate": 522
     },
     {
       "date": "May 05",
       "text": "Iran claims US military killed five civilians in attacks on passenger boats.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPV3FudHBoUElTRzAtS2dDWl9rbHFIbm12dTN0VkE3R1lzRllNTmxHZ0swV2w2a180SVlGNUFEWXhEaHRnVy1KemdpRi1HcjdOV2FMd2htUTdnRS1Pbnh4cUVnbDdnU0Q4Mk9zdlBfcHJndjE3MHllVkp1OFJuZXZRSEpGSlJfelFPNnl6MC15ZHZJeVgyaEJsZnU4RUljV1JVMjViWWxkSVFfejB6WHlWY1hiSdIBuAFBVV95cUxPM0d3bWhoeWNia09ORlI1TmZoa3ZIV2h0VFYzLXd5Q2U0UTQ3YVJ5cXlkN0pPNUN1dFhMN2NhZkRGWTZ1RG42bFJMVFg3Nks0a2dxSWJPVWxZRWtzN2dIWUM5Vl9TYUY3Ny1hZVpLSTZvVVUzbGNoLVBjUjZvWUx2R0pyVXhHcVl1SjBGSmJmb0hMU3NOY1NSSHZ5LUFrVTdQbFJGS2p0WjRqWmdCdlVUTDhodGRkaVR5?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 521
-    },
-    {
-      "date": "May 05",
-      "text": "Iran opened fire on US warships, resulting in 6 small boats destroyed in retaliation by Centcom.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9odTcxemd2X0w1cEl5SGRMVllubzZqTmNweDVIQ2lqLTRCRnVORTYwQ2Jzd1JSZjBDdHpqRGh5NFZfLVZiUmV6V3F4Sm1xaTFHRzUyYzV2M29DYXVSaGxYRmxTX0hvWkZwSjE2eThsaTJtSExlTUMtcUpEYTjSAYIBQVVfeXFMTkVlbWF0dW1oTjNDR0x6eGhCM2Vtc3haNGp6SldOWC1pbWIyeU1WYVFpRGk1UlRYU19JeGZKUmExb05kQ0FQNWd4Z1ZieW4wc3lxLXVCemRMZGN1UkZ3T1VJaUlVQlF4MXJWaUhIbjdlNGQ4eTY3YkdhMXlXay1BNFdJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 521
-    },
-    {
-      "date": "May 05",
-      "text": "Maersk ship transits Strait of Hormuz under U.S. military protection.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE02N2x1VmJTa0xhcjVpeWZXQ0lpanhpLVBFc3pwZnR3XzZFYUVPYXlrVk9OX2Z6ZWlIU2VKOU1iREpDTUhWNWZ1ajFzcThpLVRJRzh6QlA3T29oT1dIdnJpQlgxelRwbE1vRmtySDJPbXFmbjRxUlFUSFdSQWFEeHfSAYQBQVVfeXFMTTRZS041MVB1REZsYzBuRkp1ZmxXNFNYTUZMcmlSbG9GSnl4WjdmV1V1S0NJY1pWb3FYZ1paUnFQMWNoR1dGQURfaU5tWWEyV3M5d0tOZFNNU2VxS3l0RmtNZnE5R1BfeE9tcTJtaHIwWDFmLVR4eWZNaWdhUHhnNGIzUmxS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 521
-    },
-    {
-      "date": "May 05",
-      "text": "Hezbollah deploys new weapon and vows to thwart Lebanon-Israel talks as clashes persist.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOM2Uzb2xIWWxsejBCQzJhZlYtOWN5bEs2Zi1zLWs1V1QxY3VLb1dtbjhzLUVZTkpLeUp0NUlRbGdZMGctUnczU2NmVnhQMGhSUjdUSDRyWUhHMEVENE5FQ2JWVGdOcmxCUGsyblZVZ2NKMk9YQXoycXpYOEdlQmNVVTBlUkExeTR6MDJHbDdxZlZ6T2VHY1dCYjFJa2RqY2pKUDFSZHpMVldvV3lsY05oU2VWQdIBuAFBVV95cUxNaE9hUHZTUm9sQVdSRF9TbjBCUDFNWjJBTkVOeERlOHMwUmJhampvMkprTUhOcDZhTUNnOVNxV0s0TWJGQ2Fpb1Rnb2tmcmxkX1Y2MG9qQlNTajdxZ2laU29DNHBDNXVvZVJjWi1uaHkzNVF2NFBlellNRkNKTGlkZnF0cHRhQ3ZvY0F0RG1UcW1WZ3ZxNjRPWVdNd3Rrbm0wbW45bGFPR2pYc2NwU1lFbG1XMG9CN0ox?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
       "latestSinceUpdate": 521
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
