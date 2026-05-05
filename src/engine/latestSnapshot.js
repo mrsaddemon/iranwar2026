@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 518,
+  "updateSequence": 519,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T11:49:18.535Z",
+  "lastSyncedAt": "2026-05-05T13:00:09.344Z",
   "warDay": 67,
-  "summary": "Tensions have escalated significantly in the Strait of Hormuz with direct military exchanges between US and Iranian forces, while a fragile ceasefire in Lebanon is being tested by ongoing Israeli attacks and Hezbollah's counter-actions.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-05",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 12,
-    "summary": "A fragile ceasefire is in effect, but has been severely tested by US-Iran military exchanges in the Strait of Hormuz and ongoing Israeli attacks in Lebanon."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 25,
-    "escalationLevel": 48,
-    "oilDisruption": 92,
-    "tradeImpact": 67,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 04",
-      "text": "US and Iranian militaries traded shots as Strait of Hormuz tensions escalated.",
-      "severity": "critical",
+      "date": "May 05",
+      "text": "Iran war live: ‘US military adventurism’ responsible for new attacks on UAE",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 519
+    },
+    {
+      "date": "May 05",
+      "text": "Iran war updates: UAE intercepts missiles, drone sparks fire at oil site",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNanlpT3FhcW9OTGp2ekUwdDBYWjlfNWpTSUxTRFZkSnl1TUFfWE5nYkxfZ3UzQ3d3T1NVQ1VaV0g1b29KNWNoNlVHcFloZzg5N2k0ZU1UcEx2ckhqYTgtVlVIOFhHYnVSQThObVBxVlZVbXhpNjEwTzU0cEEyTjBIcl9zUzE5Mm1DbkU4VXQwRUkwWGw2V2dmQXpHRUhCV1VpcHhabXQwWnloQlFUdFJqV0JOYXdMUdIBuwFBVV95cUxNWGlSRGJ0YUsyLWJuQUt1RmdWSFROY0k4Um5sdFJfMkFKbDBPSFBvUU1aWTBYSE5COUdXbk5pUUd3ODZoWmtzeXNTU2tnb3k1aVJQY0hhXy05U3dkZWNEYUV2ZW4tc2k0YWtFZFNaYnZTeVZOaDY0U3h4T0hzTGs0MlUydGt6U0lZQUJfUi01X0JNbHdwbDhQNnFLRUpfeV9zbngzQUluQ29hVFA3Z041dHU3SU9yZllDVWtz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 519
+    },
+    {
+      "date": "May 05",
+      "text": "Iran War Live Updates: Hegseth Calls Strait of Hormuz Efforts 'Temporary' After Iran Warns of Escalation",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 519
+    },
+    {
+      "date": "May 05",
+      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 518
+      "latestSinceUpdate": 519
     },
     {
-      "date": "May 04",
-      "text": "U.S. attempt to open Strait of Hormuz tested a fragile Iran war ceasefire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFByNXFLNkstYXBSUk1mczcxMWRSZHpFclRuYktzalFQVlh5dXpIMTFveXdJMzl2WFVFMm1uT0t3Z2Y5NnJhcTZtbThsTVY0d2FQVDJvVEhBS29GTlR1aHNvek9jQjNwTlNKeEF6T0hR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 518
-    },
-    {
-      "date": "May 04",
-      "text": "Iran warned the US that 'we are just getting started' after attacks in the Strait of Hormuz.",
+      "date": "May 05",
+      "text": "AS IT HAPPENED: Iranian drone strike causes fire at major oil refinery; Middle East war, fuel prices drive rise in spending; South Korean ship that caught fire in Strait of Hormuz will be towed and investigated; Emirates back to almost complete service",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE40WDVTWGQwU3NaNE1DNTBpWXprLW9Pa3FCUl9MOElLV1JhTU1jd1BQMTZ0MTZJZ3BsMkFsTE9jVVNGdDZoMmdJOEpPZlNpay1YbXE4dzdtWHVSS3RrTnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 518
+      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxQd1h1c2FEeWZPcGRkTU1TdHUzOVBpUC1yWUlyZm9HRUZwQTdRY2k5UnZSMy1wc3Q2YUdDczBjS1g0LWdMckszN1hnRFItTGFXb0dTX082TVZLSGxCazVtUmtnRVFIS3d2UGV4amgtTUkwbzNEc25YWllZd0IxZGdZanNRdGZ2R085YkNiNlktMFNpNlg3QzZvUk9ac1h2elZOb2k5RjkwSFJGN1Mya1RzLWg4VHJUVjNuZThLUjl5WU40MV9WUm9teGd3ei1DWjlDbUNyVTVNanVsX2ZCVmF30gF7QVVfeXFMTnlNbnk0THZwNmxNdFJLdzBIUGJNTi1MNjRhVThXY0VzU0d5ZkFwZUxGZTlwdm01OUFOQ3lTVmJXWW1aVF9mSGVtSGdHYkZZZm9RY0hNN2JSVVYzOGVXV0EzYm9YMVlyTGJRZ2E0YnlaMXVRQlZLbGRFNVFr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "9News",
+      "latestSinceUpdate": 519
     },
     {
-      "date": "May 04",
-      "text": "UAE reported missile and drone threats.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 518
-    },
-    {
-      "date": "May 04",
-      "text": "Iran claimed US military killed five civilians in attacks on passenger boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPV3FudHBoUElTRzAtS2dDWl9rbHFIbm12dTN0VkE3R1lzRllNTmxHZ0swV2w2a180SVlGNUFEWXhEaHRnVy1KemdpRi1HcjdOV2FMd2htUTdnRS1Pbnh4cUVnbDdnU0Q4Mk9zdlBfcHJndjE3MHllVkp1OFJuZXZRSEpGSlJfelFPNnl6MC15ZHZJeVgyaEJsZnU4RUljV1JVMjViWWxkSVFfejB6WHlWY1hiSdIBuAFBVV95cUxPM0d3bWhoeWNia09ORlI1TmZoa3ZIV2h0VFYzLXd5Q2U0UTQ3YVJ5cXlkN0pPNUN1dFhMN2NhZkRGWTZ1RG42bFJMVFg3Nks0a2dxSWJPVWxZRWtzN2dIWUM5Vl9TYUY3Ny1hZVpLSTZvVVUzbGNoLVBjUjZvWUx2R0pyVXhHcVl1SjBGSmJmb0hMU3NOY1NSSHZ5LUFrVTdQbFJGS2p0WjRqWmdCdlVUTDhodGRkaVR5?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 518
-    },
-    {
-      "date": "May 04",
-      "text": "Israeli attacks killed dozens within days in Lebanon despite a ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oX2lXbGN2TXhJM3FNU01wU1lPY09RQVF0X1M5SDBvQnR2T1RZdGc1NGVudURtNG5nSVNsZjFIZFEza0RUTXdTcUpLTkFmekJpQkJlRU5sQTVqdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 518
+      "date": "May 05",
+      "text": "Iran’s economy has been battered. Its leaders still think Trump will blink first",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM0ozZGk1UzNFZFlhdktCWnN3MnpWMVk0cC16OTYxR1pCWnA2NmFUb2JNNjVJV2JJazdWY1I1Z3IzX0Z6UHI4VVRpZGNBUE9jZ1d6RHJNbFdha2w4bjQyYklJdTlSOUczLTZDTFpoa3E4QTg0bzI1Vjljc0F1NXk0dkJ0YXhBamRBWDd1em9FMkJwYm9INXNBV3FfSkRkU2hMT1o5YWxOaUJiNzZ5QVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 519
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",

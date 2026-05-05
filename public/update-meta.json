@@ -1,13 +1,13 @@
 {
-  "updateSequence": 518,
+  "updateSequence": 519,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T11:49:18.535Z",
+  "lastSyncedAt": "2026-05-05T13:00:09.344Z",
   "warDay": 67,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 12,
-    "summary": "A fragile ceasefire is in effect, but has been severely tested by US-Iran military exchanges in the Strait of Hormuz and ongoing Israeli attacks in Lebanon."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
