@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 515,
+  "updateSequence": 516,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T06:25:37.005Z",
+  "lastSyncedAt": "2026-05-05T08:35:41.002Z",
   "warDay": 67,
-  "summary": "Direct military engagements between US and Iranian forces have escalated in the Strait of Hormuz, alongside Iranian attacks on UAE and shipping, and continued conflict between Israel and Hezbollah.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-05",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No ceasefire is active; direct military engagements and threats are ongoing."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 03",
-      "text": "US and Iranian militaries traded shots as Strait of Hormuz tensions escalated.",
-      "severity": "critical",
+      "date": "May 05",
+      "text": "US, Iran trade threats over Strait of Hormuz as attack on UAE condemned",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 516
+    },
+    {
+      "date": "May 05",
+      "text": "Iran Update Special Report May 4, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxPVGUxNVJwakZWRXlVS2lKTGt1bHVtYmN5dXd4bmxtaEpMTDhBTThVN3dQZ1FEamowLUxkMEZMRGY3SVZCVnhldGNxNEtmSU04Z1ZBZGE5WVpmc0VJYUFpenJlTlE0dF8zOHhXcTBvYmVYRWtKcVRaQjVURElJZ3Z6NHpwYm5NaEpiTEgxTkpBWUxRQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 516
+    },
+    {
+      "date": "May 05",
+      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 515
+      "latestSinceUpdate": 516
     },
     {
       "date": "May 05",
-      "text": "Iranian drone strike caused a fire at a major oil refinery.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxQd1h1c2FEeWZPcGRkTU1TdHUzOVBpUC1yWUlyZm9HRUZwQTdRY2k5UnZSMy1wc3Q2YUdDczBjS1g0LWdMckszN1hnRFItTGFXb0dTX082TVZLSGxCazVtUmtnRVFIS3d2UGV4amgtTUkwbzNEc25YWllZd0IxZGdZanNRdGZ2R085YkNiNlktMFNpNlg3QzZvUk9ac1h2elZOb2k5RjkwSFJGN1Mya1RzLWg4VHJUVjNuZThLUjl5WU40MV9WUm9teGd3ei1DWjlDbUNyVTVNanVsX2ZCVmF30gF7QVVfeXFMTnlNbnk0THZwNmxNdFJLdzBIUGJNTi1MNjRhVThXY0VzU0d5ZkFwZUxGZTlwdm01OUFOQ3lTVmJXWW1aVF9mSGVtSGdHYkZZZm9RY0hNN2JSVVYzOGVXV0EzYm9YMVlyTGJRZ2E0YnlaMXVRQlZLbGRFNVFr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "9News",
-      "latestSinceUpdate": 515
+      "text": "UAE Reports Missiles and Drone Threats; Trump Says U.S. Will Guide Ships in Strait of Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE83MmpZTm5iSHpxNF8zRDhXXy0waUxVQ3A3TDFkdlNsV2Q5SjgyaDZ3NUlnVTMwTHVMSmx5aW1sdVJUWGczWTAwb3ZrX1FESDRWcVB3UnA5M3d4b1Z0YWNhZUN2Qi1OTTNFcUF1WWhkQV94Z2tCQTFZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 516
     },
     {
       "date": "May 05",
-      "text": "UAE reported missile and drone threats, with Iran launching attacks on UAE and ships in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 515
-    },
-    {
-      "date": "May 05",
-      "text": "U.S. forces sank 7 small Iranian boats in retaliation after Iran opened fire on US warships.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9odTcxemd2X0w1cEl5SGRMVllubzZqTmNweDVIQ2lqLTRCRnVORTYwQ2Jzd1JSZjBDdHpqRGh5NFZfLVZiUmV6V3F4Sm1xaTFHRzUyYzV2M29DYXVSaGxYRmxTX0hvWkZwSjE2eThsaTJtSExlTUMtcUpEYTjSAYIBQVVfeXFMTkVlbWF0dW1oTjNDR0x6eGhCM2Vtc3haNGp6SldOWC1pbWIyeU1WYVFpRGk1UlRYU19JeGZKUmExb05kQ0FQNWd4Z1ZieW4wc3lxLXVCemRMZGN1UkZ3T1VJaUlVQlF4MXJWaUhIbjdlNGQ4eTY3YkdhMXlXay1BNFdJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 515
-    },
-    {
-      "date": "May 05",
-      "text": "Iran claimed the US military killed five civilians in attacks on passenger boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPV3FudHBoUElTRzAtS2dDWl9rbHFIbm12dTN0VkE3R1lzRllNTmxHZ0swV2w2a180SVlGNUFEWXhEaHRnVy1KemdpRi1HcjdOV2FMd2htUTdnRS1Pbnh4cUVnbDdnU0Q4Mk9zdlBfcHJndjE3MHllVkp1OFJuZXZRSEpGSlJfelFPNnl6MC15ZHZJeVgyaEJsZnU4RUljV1JVMjViWWxkSVFfejB6WHlWY1hiSdIBuAFBVV95cUxPM0d3bWhoeWNia09ORlI1TmZoa3ZIV2h0VFYzLXd5Q2U0UTQ3YVJ5cXlkN0pPNUN1dFhMN2NhZkRGWTZ1RG42bFJMVFg3Nks0a2dxSWJPVWxZRWtzN2dIWUM5Vl9TYUY3Ny1hZVpLSTZvVVUzbGNoLVBjUjZvWUx2R0pyVXhHcVl1SjBGSmJmb0hMU3NOY1NSSHZ5LUFrVTdQbFJGS2p0WjRqWmdCdlVUTDhodGRkaVR5?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran war updates: IRGC warns conflict may resume, says it’s fully prepared",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 515
+      "latestSinceUpdate": 516
     },
     {
       "date": "May 05",
-      "text": "A South Korean ship caught fire in the Strait of Hormuz and will be towed for investigation.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 515
+      "text": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 516
     }
   ],
   "sourceStatuses": [
