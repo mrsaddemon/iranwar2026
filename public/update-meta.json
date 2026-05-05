@@ -1,13 +1,13 @@
 {
-  "updateSequence": 519,
+  "updateSequence": 520,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T13:00:09.344Z",
+  "lastSyncedAt": "2026-05-05T16:56:58.879Z",
   "warDay": 67,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 12,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire between the US and Iran is officially affirmed by the US, but direct military engagements and escalating tensions in the Strait of Hormuz indicate significant violations and fragility."
   }
 }
