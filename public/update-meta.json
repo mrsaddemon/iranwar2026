@@ -1,13 +1,13 @@
 {
-  "updateSequence": 524,
+  "updateSequence": 525,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T22:15:36.108Z",
+  "lastSyncedAt": "2026-05-05T23:13:57.895Z",
   "warDay": 67,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire is reportedly in effect between Israel and Lebanon, and a US-Iran cease-fire is suggested to remain, but both are experiencing significant violations and escalations."
   }
 }
