@@ -1,13 +1,13 @@
 {
-  "updateSequence": 517,
+  "updateSequence": 518,
   "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T10:22:42.653Z",
+  "lastSyncedAt": "2026-05-05T11:49:18.535Z",
   "warDay": 67,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
+    "durationDays": 12,
+    "summary": "A fragile ceasefire is in effect, but has been severely tested by US-Iran military exchanges in the Strait of Hormuz and ongoing Israeli attacks in Lebanon."
   }
 }
