@@ -1,13 +1,13 @@
 {
-  "updateSequence": 532,
+  "updateSequence": 533,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T15:37:25.781Z",
+  "lastSyncedAt": "2026-05-06T17:09:40.548Z",
   "warDay": 68,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "Despite ongoing hostilities and threats, both the US and Iran are reportedly reviewing proposals and moving towards a potential memo to end the war."
+    "summary": "Negotiations are reportedly underway between the US and Iran, but no formal ceasefire or de-escalation agreement is in effect."
   }
 }
