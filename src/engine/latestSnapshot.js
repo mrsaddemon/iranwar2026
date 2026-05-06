@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 525,
-  "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T23:13:57.895Z",
-  "warDay": 67,
-  "summary": "The US declares the offensive phase of the Iran war over, yet significant military engagements persist in the Strait of Hormuz, while a fragile ceasefire in Lebanon is violated by Israeli attacks and Hezbollah deploys new weapons.",
-  "lastNarrativeUpdate": "2026-05-05",
+  "updateSequence": 526,
+  "lastUpdated": "2026-05-06",
+  "lastSyncedAt": "2026-05-06T00:07:12.465Z",
+  "warDay": 68,
+  "summary": "The US claims its offensive phase in the Iran war is over and a ceasefire holds, despite ongoing attacks in the Strait of Hormuz, missile and drone threats against the UAE, and persistent clashes involving Hezbollah in Lebanon.",
+  "lastNarrativeUpdate": "2026-05-06",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "A ceasefire is reportedly in effect between Israel and Lebanon, and a US-Iran cease-fire is suggested to remain, but both are experiencing significant violations and escalations."
+    "confidence": 0.93,
+    "durationDays": 15,
+    "summary": "A ceasefire is claimed to be in effect by the US, but is frequently violated by attacks in the Strait of Hormuz and ongoing clashes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 04",
-      "text": "US Secretary of State Marco Rubio states the offensive stage of the Iran war is 'over'.",
+      "date": "May 06",
+      "text": "US states the offensive phase of the war is over and Tehran will not control Hormuz.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 525
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 526
     },
     {
-      "date": "May 04",
-      "text": "A vessel is reportedly attacked in the Strait of Hormuz.",
+      "date": "May 06",
+      "text": "UAE reports missile and drone threats.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOZVNNNFNuaGY3ekVlTlJra3NuT3ItcGJycnBFSF9YSHpqSzFxR3YtYjVJQjRQbl8zSTNOOWRHRkVvQ1o0ZWQ1bjMyUkk5bXRIOF94RkNTYms2cjZsNEpIc010TzJKUHF6WXVmU0FtaUs1eERwUGxJZWNESVRiOWlORVc4UUdnR2VGb3dacFVHS2NhQWhjcjl4TWpiSU4xZVpId01HVXJoeUJiVWtnZjF3V1ljUG9GX19ib3hSVzZ2bW9lZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 525
-    },
-    {
-      "date": "May 05",
-      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 525
-    },
-    {
-      "date": "May 05",
-      "text": "Iran launches missiles and drones as US forces enact Trump's 'Project Freedom'.",
-      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 525
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 526
     },
     {
-      "date": "May 05",
-      "text": "Hezbollah pays steep price in battle and deploys a potent new weapon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPOW44VFRZOE1Sa2czY01kaFRUM3RHYnFnNEpHX3Q0S3NmcjZ2Z0ZMbzdVS0ZIUWg3bkhaNWlKdDktRGFrN2FCekNLOTlPejRubkVDRGJ2UEVEUzdCOEhPNjdXbVNsNllWcHVTSEE4MTVFOTVWem1JbjVVdHk3TFNnTXRzUzBkVFhnMy1ULXVhejZhbmgzREpXc2sySmhYbWZlZzh0YzJQMWpDWGh3S2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 525
-    },
-    {
-      "date": "May 05",
-      "text": "Israeli attacks kill dozens within days in Lebanon despite a ceasefire.",
+      "date": "May 06",
+      "text": "A vessel is reportedly attacked in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oX2lXbGN2TXhJM3FNU01wU1lPY09RQVF0X1M5SDBvQnR2T1RZdGc1NGVudURtNG5nSVNsZjFIZFEza0RUTXdTcUpLTkFmekJpQkJlRU5sQTVqdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 525
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOZVNNNFNuaGY3ekVlTlJra3NuT3ItcGJycnBFSF9YSHpqSzFxR3YtYjVJQjRQbl8zSTNOOWRHRkVvQ1o0ZWQ1bjMyUkk5bXRIOF94RkNTYms2cjZsNEpIc010TzJKUHF6WXVmU0FtaUs1eERwUGxJZWNESVRiOWlORVc4UUdnR2VGb3dacFVHS2NhQWhjcjl4TWpiSU4xZVpId01HVXJoeUJiVWtnZjF3V1ljUG9GX19ib3hSVzZ2bW9lZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 526
+    },
+    {
+      "date": "May 06",
+      "text": "US says the Iran ceasefire holds despite attacks in Strait of Hormuz and against UAE.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFByNXFLNkstYXBSUk1mczcxMWRSZHpFclRuYktzalFQVlh5dXpIMTFveXdJMzl2WFVFMm1uT0t3Z2Y5NnJhcTZtbThsTVY0d2FQVDJvVEhBS29GTlR1aHNvek9jQjNwTlNKeEF6T0hR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 526
+    },
+    {
+      "date": "May 06",
+      "text": "Trump suggests US-Iran ceasefire remains despite Strait of Hormuz escalations.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 526
+    },
+    {
+      "date": "May 06",
+      "text": "Trump to pause US effort to guide ships through Strait of Hormuz while blockade remains.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 526
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

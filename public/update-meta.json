@@ -1,13 +1,13 @@
 {
-  "updateSequence": 525,
-  "lastUpdated": "2026-05-05",
-  "lastSyncedAt": "2026-05-05T23:13:57.895Z",
-  "warDay": 67,
+  "updateSequence": 526,
+  "lastUpdated": "2026-05-06",
+  "lastSyncedAt": "2026-05-06T00:07:12.465Z",
+  "warDay": 68,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "A ceasefire is reportedly in effect between Israel and Lebanon, and a US-Iran cease-fire is suggested to remain, but both are experiencing significant violations and escalations."
+    "confidence": 0.93,
+    "durationDays": 15,
+    "summary": "A ceasefire is claimed to be in effect by the US, but is frequently violated by attacks in the Strait of Hormuz and ongoing clashes in Lebanon."
   }
 }
