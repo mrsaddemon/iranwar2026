@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 534,
+  "updateSequence": 535,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T19:02:50.453Z",
+  "lastSyncedAt": "2026-05-06T20:42:05.485Z",
   "warDay": 68,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "Ongoing military actions persist between the US and Iran, including US attacks on Iranian-flagged ships and Israeli strikes on Beirut, while diplomatic efforts for a ceasefire are under review amidst continued risks in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-06",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A US-Iran cease-fire is suggested to remain despite escalations, with Iran reviewing a US proposal, but its status is under strain due to recent military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 82
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 12,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 06",
-      "text": "Iran war live: Trump threatens ‘much higher level’ attacks if no deal",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
+      "text": "US warplane disables an Iranian-flagged tanker attempting to breach a naval blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQZTR1aVI5WkV2VFlBMUl2OC1JVkxvTXhzcVljWDNzdVctSk1rV3YtNjhsX1BhQXl1QlVLSUFtMTdSZjhQSkZHZDJrNDRLVWt6WVpfOXh5b0ZMUlQ0S2lDSE9oTmkwdjBEX2dKRnpWNlFLNWstcWlYLVRkZGdlRDlKd0FPWndiQdIBiwFBVV95cUxQUnl5Zmttc3NNTHdkWlIwQ3d0NWdRc1hvVVRpWEdEYWQ1TkhjZV9BZXVNbDdvbmNtQ3UxdzNHTnZVdkRQVEJXY291ZGZnTHc2bjBJTURib20tZGdhYVJwN3oyMzMzYVpyQVNoTXNhaGpWd1JpN1FOSVdNdW1EUnVUV1pnY3BsOTFOSnp3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 535
+    },
+    {
+      "date": "May 06",
+      "text": "Israel launches an air strike on Beirut, targeting a Hezbollah commander in the southern suburb.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQeUFPR3FzOFNtQVRKUm9WbVFNR000VmJlVllXcnRlZjYxT3JFQVBoTmRGZkxhZEgxU0o5MnBKOUJTMGtheHdvakd5N0FHVy1Zek1DZGUzMHUwYUt5Z1B1ZGhpQ1ZRNzZQR2hEZC16QXZLbzlxa3NZbGFJNWItY3ljX3p4WXd4X1JTaGY2SzJyYnpicTg0YjJvQXI4RUU4UWdWelVnN1BkUE5lbnZPMzJkMVVLRdIBuAFBVV95cUxONkdxT0hTdlMwdC12VmVvc2ZON0VKLUg2S1ZkQlF2eHo2RXhjdWlkRUF2WWdiRzYxbDZReWJYSGVTVV83cGNvdDJZa2l1cHhwX1B1dzhPNUE3MXRPbFNDV1dGbzY1NFg4U0lXRHZ2VUpka3VhbVgzbnA3MXZpVFMxTFdpaFVEdk5kSjUwckZ4UW1UY0FvY013X3MtVDVsZDdoTUdfY1BCaUJjcERFQ0kzTGNEZlBmQ0tO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 534
+      "latestSinceUpdate": 535
     },
     {
       "date": "May 06",
-      "text": "Iran war updates: US says offensive phase over, Tehran won’t control Hormuz",
+      "text": "Trump pauses 'Project Freedom' after less than 48 hours, citing progress on Iran negotiations.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 534
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNTVdVc3hhWGtUVmpIa3MxX3lURzlDY256allnb2FPV0dRcFdKVERRaXVCUndiaU1sTEJyME13QVh5aDUwX1lCc1ZRVVNsVGJPZW5iWmRwUTIwdzByS1IwWmJuTkJYUzh0OFhkM2RVM3RLUU9HTW13V29MLXNJYUxpVU5jcHlIMkhsT3hHcjRuOTZGZTl2N2R6alhZSW5KVDBHSkHSAacBQVVfeXFMTkdPLU9qSFl1WkJPd04tc1d0VnZCdVVZdzhRZjJMazZrUmlSTkNPNVM4WDFKZUQ2N01hOVhOYmJkRmI1YU10M3l6UURPWWJ1bFpUR2lMNGVYV2lzZlFvTEhuTE5QN3JOeXk2LWswT2QzTEdQaDhMWjRRQ3FPdDA2UzdMOVBza0dIZUk1R2J5WUpqYUl1dmhESXNkU2JPcGFyNzNKRGlabkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 535
     },
     {
       "date": "May 06",
-      "text": "Live updates: Iran reviewing US proposal as source says both sides moving toward memo to end war",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 534
+      "text": "An attack on a French Cargo Ship highlights continued risks in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 535
     },
     {
       "date": "May 06",
-      "text": "Iran War Live Updates: Trump Suggests U.S.-Iran Cease-Fire Remains Despite Strait of Hormuz Escalations",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 534
-    },
-    {
-      "date": "May 06",
-      "text": "How a huge wave of Israeli strikes brought chaos to Lebanon",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1vaWtqa0VwMXZWWVh3S09fbG12enE4enNodG1KT185SHg4c2NablBibEtkSHhvdmV3QURJUDQ4NjJ4eUR0R1d1SmdlLV8zRkJaaUdISUxGZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 534
-    },
-    {
-      "date": "May 06",
-      "text": "Iran Israel War Live Updates: Ceasefire under strain as US targets Iranian-flagged ship, Israel strikes Beirut",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxNZ3lYX204YTlXS2FDWnVGME1nX1R3Uk5BaThMMWg3WUdxQ0VSVUEwRFNQSWFmcGdUZnNkTXNVZzhKZk4tcFZCdDRKVW0wamtkYV9CaXpHRG9CeU5SQ2VUSVBNUzFwWXFzbzUtbzFBSjBYUHdBUUNWX0p6NWdQUGE5U3puRGdyZkdDVWN0WUVCTjY4MXJiMU9IeW9VVVNIb1drbDFRNkJpYXFxRi1pMWNheDVXY2k3dGhqNm51dmhBaXp5OEN6S1JCa1JmdjdUd3fSAdQBQVVfeXFMT3ZOUzN3RXJKaFFJR08wRGtCbUd6NTdJSWtnWDhBRE96LThsem91YlpTSDNfZkppSFZkTXNzUnlSSjAxQkNkT2I5RU1BRVEzVk5FYW14VERZZmdPdldkY1A4dXY3b0NtMVRPRWpuaGFtUlZvTWMwWThRdVNiTzBDOUQ3SlhvcEhPdm5MQlRZbWxLdkt2elVvejdWQmk1Y0xkTldRamV1S3M2N2M2bmo2ekNlNGl3M0plS2NjM1BQZ3ZXbkZMd1RkOUh2UjZPYi1kaVlnWGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 534
+      "text": "Satellite images suggest Iran has hit more U.S. military assets than previously reported.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNZWdLU3d1NG14Nk03RmtNUEs4NDlTdFA3ellOb3ViNUNpSWZOMUZEZ1N5bXRjbm5rRDVxeUJLeE9qRGVnTUdaUzU2VjJrbDRFUUhiZ3hZcnI0bXFHRjBrTUNqTEdMVjBsTXR1ZHM3UDdsU2ZTczRMSHNqNjBBUXgzZFhtUjJkNk5iQ2JTc1pmbjNQQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 535
     }
   ],
   "sourceStatuses": [
