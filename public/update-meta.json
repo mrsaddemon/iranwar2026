@@ -1,13 +1,13 @@
 {
-  "updateSequence": 537,
+  "updateSequence": 538,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T22:34:36.194Z",
+  "lastSyncedAt": "2026-05-06T23:31:07.826Z",
   "warDay": 68,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "The Hezbollah ceasefire has collapsed following Israeli air strikes on Beirut and continued fighting in southern Lebanon."
+    "summary": "A ceasefire between Israel and Hezbollah appears to be fraying with renewed Israeli strikes, while US-Iran ceasefire discussions continue amidst Strait of Hormuz escalations."
   }
 }
