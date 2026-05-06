@@ -1,13 +1,13 @@
 {
-  "updateSequence": 529,
+  "updateSequence": 530,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T09:12:20.735Z",
+  "lastSyncedAt": "2026-05-06T11:22:19.996Z",
   "warDay": 68,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 5,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.6,
+    "durationDays": 7,
+    "summary": "A U.S.-Iran cease-fire or operational pause is suggested by Trump amid talks, but recent military exchanges indicate its fragility."
   }
 }
