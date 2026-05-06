@@ -1,13 +1,13 @@
 {
-  "updateSequence": 531,
+  "updateSequence": 532,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T13:08:19.872Z",
+  "lastSyncedAt": "2026-05-06T15:37:25.781Z",
   "warDay": 68,
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.3,
     "durationDays": 10,
-    "summary": "A US-Iran ceasefire is reported to be holding despite Strait of Hormuz escalations, with President Trump seeking to finalize a broader deal."
+    "summary": "Despite ongoing hostilities and threats, both the US and Iran are reportedly reviewing proposals and moving towards a potential memo to end the war."
   }
 }

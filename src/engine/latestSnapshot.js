@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 531,
+  "updateSequence": 532,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T13:08:19.872Z",
+  "lastSyncedAt": "2026-05-06T15:37:25.781Z",
   "warDay": 68,
-  "summary": "Tensions persist in the Strait of Hormuz with US involvement and a fluctuating blockade, while a US-Iran ceasefire is reported to be holding amidst ongoing Israeli strikes and Hezbollah activity in Lebanon.",
+  "summary": "The US-Iran conflict continues with ongoing Strait of Hormuz blockade, US threats of escalation, and Israeli strikes in Lebanon, while both sides review proposals for a potential peace memo.",
   "lastNarrativeUpdate": "2026-05-06",
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.3,
     "durationDays": 10,
-    "summary": "A US-Iran ceasefire is reported to be holding despite Strait of Hormuz escalations, with President Trump seeking to finalize a broader deal."
+    "summary": "Despite ongoing hostilities and threats, both the US and Iran are reportedly reviewing proposals and moving towards a potential memo to end the war."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 55,
-    "tradeImpact": 40,
-    "sanctionsPressure": 54,
-    "globalPressure": 60,
-    "allianceInfluence": 51
+    "escalationLevel": 80,
+    "oilDisruption": 90,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 06",
-      "text": "US states offensive phase of Iran war is over, Tehran will not control Hormuz.",
+      "date": "May 05",
+      "text": "Trump threatens ‘much higher level’ attacks if no deal is reached with Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 532
+    },
+    {
+      "date": "May 05",
+      "text": "Trump pauses US effort to guide ships through the Strait of Hormuz while the blockade remains active.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 532
+    },
+    {
+      "date": "May 05",
+      "text": "US states the offensive phase of the war is over and Tehran will not control Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 531
+      "latestSinceUpdate": 532
     },
     {
-      "date": "May 06",
-      "text": "UAE reports missile and drone threats in the region.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 530
-    },
-    {
-      "date": "May 06",
-      "text": "President Trump announces US will guide ships in the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 531
-    },
-    {
-      "date": "May 06",
-      "text": "Trump pauses US effort to guide ships through Strait of Hormuz while blockade remains.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 531
-    },
-    {
-      "date": "May 06",
-      "text": "A wave of Israeli strikes causes chaos in Lebanon.",
-      "severity": "warning",
+      "date": "May 05",
+      "text": "Israel conducts a huge wave of strikes causing chaos in Lebanon, extending beyond the designated 'security zone'.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1vaWtqa0VwMXZWWVh3S09fbG12enE4enNodG1KT185SHg4c2NablBibEtkSHhvdmV3QURJUDQ4NjJ4eUR0R1d1SmdlLV8zRkJaaUdISUxGZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 531
+      "latestSinceUpdate": 532
     },
     {
-      "date": "May 06",
-      "text": "Iran's Revolutionary Guard states ships can now pass through the Strait of Hormuz.",
+      "date": "May 05",
+      "text": "Iranian officials warn that the US proposal to end the war is a ‘wishlist, not a reality’.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNdWx6YmV5aWdOb3NFd2ktOG4yeTBUZWk3M2dPb2R2VzRDcUN0aFZCSktGRkxOcElFNjY0WktXOWNsTVdqMjloNHpJeHYyMmtyaEdleFBJRjE3YUNETDBOcUtQUXA5M2pUSkxHYzNjdXBTbVRJRVA4clJ1aTJqVlBCVWFlUUpJc2tPMHlCdU5rSjM5Y0NUdzFMdVMzTlhyX1ZQczZYS0hLNWVGVXkwWjVPZG5EVGNoRUEyaEJZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 532
+    },
+    {
+      "date": "May 05",
+      "text": "Sources indicate the US and Iran are moving toward a memo aimed at ending the war, with Tehran reviewing the US proposal.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOVzdYWmlJamVCWHBRVXdyOHVQY2JCbHl2VEpYZER6Y3M3VHQwV0Rsc0V1Y1Y2S1Y5RFZmSFFLc1VNaVdyc1lqZ1J3UTNoTDA4MDJyWnVJdGxwX1dkVG9TMXlNUDh2bU5IZjBpVDhZekp2OUxFUHFEUVo1b0Q3TE0yQw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 531
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOWlRuZXJYYkJLeFFid2hEWWcwQXpaVmlYTGY4b1FKaXBmeklHc0Y4dmk3TWtaZDVJc1V0UmFJOFAxYXFsRHhmSkJzOE1HTE12RVZZS09UWkU5QXpTekxRN3ZRTFozamRSQVpDOUxPOGowTHJhWFlVNUxmY210LXJ5UHFPNzQtRV9SYkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 532
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
