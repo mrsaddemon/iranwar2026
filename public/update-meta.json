@@ -1,13 +1,13 @@
 {
-  "updateSequence": 536,
+  "updateSequence": 537,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T21:47:13.421Z",
+  "lastSyncedAt": "2026-05-06T22:34:36.194Z",
   "warDay": 68,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire is reportedly in effect but is described as fraying, with significant violations including Israeli strikes on Beirut and US-Iran naval engagements."
+    "summary": "The Hezbollah ceasefire has collapsed following Israeli air strikes on Beirut and continued fighting in southern Lebanon."
   }
 }
