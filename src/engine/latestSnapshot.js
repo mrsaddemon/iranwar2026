@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 533,
+  "updateSequence": 534,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T17:09:40.548Z",
+  "lastSyncedAt": "2026-05-06T19:02:50.453Z",
   "warDay": 68,
-  "summary": "Negotiations between the US and Iran are underway to end the conflict, while military tensions persist in the Strait of Hormuz and clashes continue between Israel and Hezbollah.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-06",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "Negotiations are reportedly underway between the US and Iran, but no formal ceasefire or de-escalation agreement is in effect."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 06",
-      "text": "US states offensive phase is over and Tehran will not control Hormuz, amidst UAE reports of missile and drone threats.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 533
+      "text": "Iran war live: Trump threatens ‘much higher level’ attacks if no deal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 534
     },
     {
       "date": "May 06",
-      "text": "US and Iran are reportedly moving toward a memo aimed at ending the war, leading Trump to pause 'Project Freedom'.",
+      "text": "Iran war updates: US says offensive phase over, Tehran won’t control Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 534
+    },
+    {
+      "date": "May 06",
+      "text": "Live updates: Iran reviewing US proposal as source says both sides moving toward memo to end war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 533
+      "sourceName": "CNN",
+      "latestSinceUpdate": 534
     },
     {
       "date": "May 06",
-      "text": "Trump threatens 'much higher level' attacks if no deal is reached, as Tehran reviews the US proposal.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 533
-    },
-    {
-      "date": "May 06",
-      "text": "A huge wave of Israeli strikes has brought chaos to Lebanon, while Hezbollah deploys a potent new weapon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1vaWtqa0VwMXZWWVh3S09fbG12enE4enNodG1KT185SHg4c2NablBibEtkSHhvdmV3QURJUDQ4NjJ4eUR0R1d1SmdlLV8zRkJaaUdISUxGZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 533
-    },
-    {
-      "date": "May 06",
-      "text": "Satellite images reveal heavy damage to US bases across the Mideast from Iran's retaliatory strikes, which hit more assets than acknowledged.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTFB5MENxS0lIRGNaNTFDR3E4NDRFdHYtV3ZxYmd4NUVtV3YydzJpVE5nYzdpNllZYXhEcy1OcU1Nc2tQNkJSWGZVeVlRSm5aMG5Mc3Zxc3l2aw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 533
-    },
-    {
-      "date": "May 06",
-      "text": "Maersk reports a ship passed through the Strait of Hormuz under U.S. military protection.",
+      "text": "Iran War Live Updates: Trump Suggests U.S.-Iran Cease-Fire Remains Despite Strait of Hormuz Escalations",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE02N2x1VmJTa0xhcjVpeWZXQ0lpanhpLVBFc3pwZnR3XzZFYUVPYXlrVk9OX2Z6ZWlIU2VKOU1iREpDTUhWNWZ1ajFzcThpLVRJRzh6QlA3T29oT1dIdnJpQlgxelRwbE1vRmtySDJPbXFmbjRxUlFUSFdSQWFEeHfSAYQBQVVfeXFMTTRZS041MVB1REZsYzBuRkp1ZmxXNFNYTUZMcmlSbG9GSnl4WjdmV1V1S0NJY1pWb3FYZ1paUnFQMWNoR1dGQURfaU5tWWEyV3M5d0tOZFNNU2VxS3l0RmtNZnE5R1BfeE9tcTJtaHIwWDFmLVR4eWZNaWdhUHhnNGIzUmxS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 533
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTFBsaDhvV2VlZnF4V2l5UTlPWE9qZzkyM3dPWndXSnd4NEVKSXlaVFdRczBlZDFsdFI5dndsQm9SSEx2ZHE5c0Foa1RHZmtfQk1WajhQdjB4VUxUX1dNXzBNd3JfVEMwYk1fMjNEdEtyRkhFS2lxU3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 534
+    },
+    {
+      "date": "May 06",
+      "text": "How a huge wave of Israeli strikes brought chaos to Lebanon",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1vaWtqa0VwMXZWWVh3S09fbG12enE4enNodG1KT185SHg4c2NablBibEtkSHhvdmV3QURJUDQ4NjJ4eUR0R1d1SmdlLV8zRkJaaUdISUxGZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 534
+    },
+    {
+      "date": "May 06",
+      "text": "Iran Israel War Live Updates: Ceasefire under strain as US targets Iranian-flagged ship, Israel strikes Beirut",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxNZ3lYX204YTlXS2FDWnVGME1nX1R3Uk5BaThMMWg3WUdxQ0VSVUEwRFNQSWFmcGdUZnNkTXNVZzhKZk4tcFZCdDRKVW0wamtkYV9CaXpHRG9CeU5SQ2VUSVBNUzFwWXFzbzUtbzFBSjBYUHdBUUNWX0p6NWdQUGE5U3puRGdyZkdDVWN0WUVCTjY4MXJiMU9IeW9VVVNIb1drbDFRNkJpYXFxRi1pMWNheDVXY2k3dGhqNm51dmhBaXp5OEN6S1JCa1JmdjdUd3fSAdQBQVVfeXFMT3ZOUzN3RXJKaFFJR08wRGtCbUd6NTdJSWtnWDhBRE96LThsem91YlpTSDNfZkppSFZkTXNzUnlSSjAxQkNkT2I5RU1BRVEzVk5FYW14VERZZmdPdldkY1A4dXY3b0NtMVRPRWpuaGFtUlZvTWMwWThRdVNiTzBDOUQ3SlhvcEhPdm5MQlRZbWxLdkt2elVvejdWQmk1Y0xkTldRamV1S3M2N2M2bmo2ekNlNGl3M0plS2NjM1BQZ3ZXbkZMd1RkOUh2UjZPYi1kaVlnWGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 534
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
