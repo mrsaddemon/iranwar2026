@@ -1,13 +1,13 @@
 {
-  "updateSequence": 530,
+  "updateSequence": 531,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T11:22:19.996Z",
+  "lastSyncedAt": "2026-05-06T13:08:19.872Z",
   "warDay": 68,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
-    "durationDays": 7,
-    "summary": "A U.S.-Iran cease-fire or operational pause is suggested by Trump amid talks, but recent military exchanges indicate its fragility."
+    "confidence": 0.69,
+    "durationDays": 10,
+    "summary": "A US-Iran ceasefire is reported to be holding despite Strait of Hormuz escalations, with President Trump seeking to finalize a broader deal."
   }
 }

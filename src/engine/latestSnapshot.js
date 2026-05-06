@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 530,
+  "updateSequence": 531,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T11:22:19.996Z",
+  "lastSyncedAt": "2026-05-06T13:08:19.872Z",
   "warDay": 68,
-  "summary": "Tensions remain high in the Strait of Hormuz with recent military exchanges, though U.S. operations have been paused amid ongoing talks with Iran, leading to a temporary drop in oil prices.",
+  "summary": "Tensions persist in the Strait of Hormuz with US involvement and a fluctuating blockade, while a US-Iran ceasefire is reported to be holding amidst ongoing Israeli strikes and Hezbollah activity in Lebanon.",
   "lastNarrativeUpdate": "2026-05-06",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
-    "durationDays": 7,
-    "summary": "A U.S.-Iran cease-fire or operational pause is suggested by Trump amid talks, but recent military exchanges indicate its fragility."
+    "confidence": 0.69,
+    "durationDays": 10,
+    "summary": "A US-Iran ceasefire is reported to be holding despite Strait of Hormuz escalations, with President Trump seeking to finalize a broader deal."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -36,8 +36,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.5
       }
     }
   },
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 06",
-      "text": "US states offensive phase is over and Tehran will not control Hormuz.",
+      "text": "US states offensive phase of Iran war is over, Tehran will not control Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 530
+      "latestSinceUpdate": 531
     },
     {
       "date": "May 06",
@@ -75,42 +75,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 530
     },
     {
-      "date": "May 05",
-      "text": "Trump announces a pause in U.S. efforts to guide stranded vessels out of the Strait of Hormuz.",
+      "date": "May 06",
+      "text": "President Trump announces US will guide ships in the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFByNXFLNkstYXBSUk1mczcxMWRSZHpFclRuYktzalFQVlh5dXpIMTFveXdJMzl2WFVFMm1uT0t3Z2Y5NnJhcTZtbThsTVY0d2FQVDJvVEhBS29GTlR1aHNvek9jQjNwTlNKeEF6T0hR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 530
-    },
-    {
-      "date": "May 05",
-      "text": "U.S. and Iranian militaries traded shots as Strait of Hormuz tensions escalated.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 530
+      "latestSinceUpdate": 531
     },
     {
-      "date": "May 05",
-      "text": "Oil prices dropped after Trump hailed 'great progress' in Iran talks, leading to a pause in 'Project Freedom'.",
+      "date": "May 06",
+      "text": "Trump pauses US effort to guide ships through Strait of Hormuz while blockade remains.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 530
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 531
     },
     {
-      "date": "May 04",
-      "text": "Hezbollah deploys a new weapon designed to evade Israeli detection, while an MP vows to thwart Lebanon-Israel talks.",
+      "date": "May 06",
+      "text": "A wave of Israeli strikes causes chaos in Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 530
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1vaWtqa0VwMXZWWVh3S09fbG12enE4enNodG1KT185SHg4c2NablBibEtkSHhvdmV3QURJUDQ4NjJ4eUR0R1d1SmdlLV8zRkJaaUdISUxGZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 531
+    },
+    {
+      "date": "May 06",
+      "text": "Iran's Revolutionary Guard states ships can now pass through the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOVzdYWmlJamVCWHBRVXdyOHVQY2JCbHl2VEpYZER6Y3M3VHQwV0Rsc0V1Y1Y2S1Y5RFZmSFFLc1VNaVdyc1lqZ1J3UTNoTDA4MDJyWnVJdGxwX1dkVG9TMXlNUDh2bU5IZjBpVDhZekp2OUxFUHFEUVo1b0Q3TE0yQw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 531
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
