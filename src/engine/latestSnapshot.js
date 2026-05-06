@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 527,
+  "updateSequence": 528,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T03:59:56.681Z",
+  "lastSyncedAt": "2026-05-06T06:39:04.236Z",
   "warDay": 68,
-  "summary": "Tensions between the US and Iran persist over the Strait of Hormuz, marked by military exchanges, though reports indicate a pause in US operations and ongoing ceasefire discussions.",
+  "summary": "A fragile ceasefire between the U.S. and Iran is reportedly holding amidst ongoing tensions in the Strait of Hormuz and continued Israeli military actions in Lebanon.",
   "lastNarrativeUpdate": "2026-05-06",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "A fragile ceasefire between the US and Iran is reported to be holding, with US operations in the Strait of Hormuz paused amid ongoing talks."
+    "confidence": 0.93,
+    "durationDays": 5,
+    "summary": "A fragile ceasefire between the U.S. and Iran is reportedly in effect, though regional tensions and Israeli-Lebanese conflict persist."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.65
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 06",
-      "text": "US and Iranian militaries trade shots as Strait of Hormuz tensions escalate.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9BRHBLbV80eVhCWEdzNzRVZndFU19MM3B2STl2ME9vdnNySUE4Z05pYVI3SVIzUEc5NXA2QW5NQzZSbFRQVXhJTDdoMUlQY3VfcjBvNXBhaE9XLXBjbzZ0bzNvb1hoUnRkVzA2VHNxNHMtUVkyUWtN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 527
+      "text": "U.S. states offensive phase is over and Tehran will not control the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 528
     },
     {
       "date": "May 06",
-      "text": "Trump says he's paused U.S. effort to guide stranded vessels out of Strait of Hormuz.",
+      "text": "UAE reports missile and drone threats in the region.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 528
+    },
+    {
+      "date": "May 06",
+      "text": "President Trump announces a pause in U.S. efforts to guide stranded vessels out of the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFByNXFLNkstYXBSUk1mczcxMWRSZHpFclRuYktzalFQVlh5dXpIMTFveXdJMzl2WFVFMm1uT0t3Z2Y5NnJhcTZtbThsTVY0d2FQVDJvVEhBS29GTlR1aHNvek9jQjNwTlNKeEF6T0hR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 527
+      "latestSinceUpdate": 528
     },
     {
       "date": "May 06",
-      "text": "US petrol prices hit highest level in years.",
+      "text": "U.S. petrol prices reach their highest level in years.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOZVNNNFNuaGY3ekVlTlJra3NuT3ItcGJycnBFSF9YSHpqSzFxR3YtYjVJQjRQbl8zSTNOOWRHRkVvQ1o0ZWQ1bjMyUkk5bXRIOF94RkNTYms2cjZsNEpIc010TzJKUHF6WXVmU0FtaUs1eERwUGxJZWNESVRiOWlORVc4UUdnR2VGb3dacFVHS2NhQWhjcjl4TWpiSU4xZVpId01HVXJoeUJiVWtnZjF3V1ljUG9GX19ib3hSVzZ2bW9lZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 527
+      "latestSinceUpdate": 528
     },
     {
       "date": "May 06",
-      "text": "Over 100 International Law Experts Warn: U.S. Strikes on Iran Violate UN Charter and May Be War Crimes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPRTU3RHlxMUZlOVliQUw1ZHlXUThYdllkTkRfQnRRWnhTRHNoeE00NTF2dXJVUGt4bzhIWGsyeGZ5UGpPYnJYdzU3MC1HdmdGbnhLbzBTRkc1cVFYY0l2VjRYdVExSGdyd0xxM01qM2NNc2ZJbHhvY0lvcF9DZS11cXZUSUVuQmJy?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Just Security",
-      "latestSinceUpdate": 527
-    },
-    {
-      "date": "May 06",
-      "text": "U.S. commercial ships had military security aboard during Hormuz transit.",
+      "text": "Over 100 international law experts warn U.S. strikes on Iran may violate the UN Charter and constitute war crimes.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQUzR5dWdKNms2NDFCWFhsTjVDczNlN0k1X1VJM0pfU2gtQmdMNUZ2LUhtYU1aNEpHVmhnTzFZMEVOVFRzZHo2eUhQdjBkak9VZzl5SmRIWG5lNzhUM2UyUG1EN25fdl96WGdMc2hIN1FnME5KUHZHMTlBMTIzUDAzcDJqRGxFeG5oZnBqZU94dlR3RHRJaURxaDFERVVtZTM3TWYxczIwdlpkV1JNcFI3dTM4NWlyUFZqRUFYLVRaQVYtMHVV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 527
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 528
     },
     {
       "date": "May 06",
-      "text": "Iran says US military killed five civilians in attacks on passenger boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPV3FudHBoUElTRzAtS2dDWl9rbHFIbm12dTN0VkE3R1lzRllNTmxHZ0swV2w2a180SVlGNUFEWXhEaHRnVy1KemdpRi1HcjdOV2FMd2htUTdnRS1Pbnh4cUVnbDdnU0Q4Mk9zdlBfcHJndjE3MHllVkp1OFJuZXZRSEpGSlJfelFPNnl6MC15ZHZJeVgyaEJsZnU4RUljV1JVMjViWWxkSVFfejB6WHlWY1hiSdIBuAFBVV95cUxPM0d3bWhoeWNia09ORlI1TmZoa3ZIV2h0VFYzLXd5Q2U0UTQ3YVJ5cXlkN0pPNUN1dFhMN2NhZkRGWTZ1RG42bFJMVFg3Nks0a2dxSWJPVWxZRWtzN2dIWUM5Vl9TYUY3Ny1hZVpLSTZvVVUzbGNoLVBjUjZvWUx2R0pyVXhHcVl1SjBGSmJmb0hMU3NOY1NSSHZ5LUFrVTdQbFJGS2p0WjRqWmdCdlVUTDhodGRkaVR5?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 527
+      "text": "Reports indicate the U.S.-Iran ceasefire is holding for now, with President Trump looking to finalize a deal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNRDc1NVB2ZFk3QmhuM1IwWkM3dFJsMmhlclk3WkNLeGN1bDFlMmVXdzZMZVNOWUh4TWFRV1lVNEVQajRDNHktRXJIMmdVcnhsam04WUpUNk81SHQtdENvRFdMdUxOQS1rTkdCbC1VbEFvUnZVblFRSm9UYUpvdVNlSnc2b1k0OGZHWGJnVTdQNXZrQdIBlwFBVV95cUxQcXRCUkZRMGwyNWxuZnVjRl9tREhma0JmS0VYSlFYdWlPMmFlRlk5MFc0ZktHYVU2Q2FVZzFsYW94enRuMmhRLXF0bi1xSHUzUGtHWnhUSU1naUtBUzRSdFloNjFnYnNoN21VQ2x2WEJRYXYwV2xXNWxDZE9KeG1ULTZydFhxaUdHYTkzYXdlLVhNbEZlTDBZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 528
     }
   ],
   "sourceStatuses": [

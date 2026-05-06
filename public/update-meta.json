@@ -1,13 +1,13 @@
 {
-  "updateSequence": 527,
+  "updateSequence": 528,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T03:59:56.681Z",
+  "lastSyncedAt": "2026-05-06T06:39:04.236Z",
   "warDay": 68,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "A fragile ceasefire between the US and Iran is reported to be holding, with US operations in the Strait of Hormuz paused amid ongoing talks."
+    "confidence": 0.93,
+    "durationDays": 5,
+    "summary": "A fragile ceasefire between the U.S. and Iran is reportedly in effect, though regional tensions and Israeli-Lebanese conflict persist."
   }
 }
