@@ -1,13 +1,13 @@
 {
-  "updateSequence": 535,
+  "updateSequence": 536,
   "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T20:42:05.485Z",
+  "lastSyncedAt": "2026-05-06T21:47:13.421Z",
   "warDay": 68,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A US-Iran cease-fire is suggested to remain despite escalations, with Iran reviewing a US proposal, but its status is under strain due to recent military actions."
+    "summary": "A ceasefire is reportedly in effect but is described as fraying, with significant violations including Israeli strikes on Beirut and US-Iran naval engagements."
   }
 }
