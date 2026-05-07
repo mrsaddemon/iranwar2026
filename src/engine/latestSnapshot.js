@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 549,
+  "updateSequence": 550,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T22:18:25.203Z",
+  "lastSyncedAt": "2026-05-07T23:14:27.056Z",
   "warDay": 69,
-  "summary": "Direct military exchanges between the US and Iran continue in the Strait of Hormuz despite ongoing ceasefire talks, while Israel and Hezbollah engage in renewed conflict in Lebanon.",
+  "summary": "US and Iranian forces have exchanged strikes in the Strait of Hormuz despite an ongoing ceasefire, while Iran reviews a US peace proposal and Israel conducts strikes in Lebanon, testing a truce with Hezbollah.",
   "lastNarrativeUpdate": "2026-05-07",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "Multiple ceasefires and truces are actively being violated by all parties, leading to direct military engagements in the Strait of Hormuz and renewed conflict in Lebanon."
+    "summary": "A ceasefire between the US and Iran is active but being violated by mutual exchanges of fire in the Strait of Hormuz, while a truce between Israel and Lebanon is also under strain due to Israeli strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.88,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 88,
+    "tradeImpact": 64,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 06",
-      "text": "US military intercepted Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 549
-    },
-    {
-      "date": "May 06",
-      "text": "US military strikes sites in Iran after responding to attacks on navy ships.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE95RHFJYjM2ZkFnRXRTMlVqSmFob0NKdld0Z0ZwMWVhU0FZYmN2VVZtNmZiaEJCTjAxRTg3X2pSMEJqT1VwTWhjam93eGFEdXktM1VJWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 549
-    },
-    {
-      "date": "May 06",
-      "text": "Iran says US violated ceasefire and targeted ships, despite ongoing peace deal review.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 549
-    },
-    {
-      "date": "May 06",
-      "text": "Iranian state media reports 'enemy units' around Strait of Hormuz came under missile fire after attack by US military on an Iranian oil tanker.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi4AFBVV95cUxNcUVWcjFBaWVUSzRtUlhkaGlDdmtiZ3UyQmxqU2NHZlZ2ZUFMSGduRlROMlJTYlhfdTJvTkpjV2x3dXRQSG5QMXdCZmJOSU9Jcm04aE0zdXdJQkR4UnYxeEdYOWdWclQ1eEJmcGlSTnNFMW1jclcxLVNmYkRVY25DX3pvVUluUmpodXUzc2l3OTNHNVZUSklObUtSajFFb3dmQ0NrUkxXdU5qTGlyVnRsejJSb3ZLdEU2YVB5Um02QWVDZnJnNDVENlNDTGY1NVd3aEtXTnFBbEdQQ0dIS2Zrbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 549
-    },
-    {
-      "date": "May 06",
-      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 549
-    },
-    {
-      "date": "May 06",
-      "text": "Israel says it killed a Hezbollah chief near Beirut, testing the truce.",
+      "date": "May 07",
+      "text": "U.S. and Iran trade fire in Strait of Hormuz despite a cease-fire.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 549
+      "sourceName": "Google News",
+      "latestSinceUpdate": 550
+    },
+    {
+      "date": "May 07",
+      "text": "US military intercepted Iranian attacks on 3 Navy ships in Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 550
+    },
+    {
+      "date": "May 07",
+      "text": "US strikes military targets in Iran after attacks on destroyers in Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPclR6Qy1hR1lEazM4dllZZ1lPMnhxNy1aRTFwUVVkZWlIdXpFM0xPY1ZXVnlaRmFZdHdpVFVfb1pCb3VJSWV3aER6Rk1zMnY0YmFTcHBsaXFnNGVlVGRTSEdDNm5oU2NKNmpOVDNaMDVha2syS21lZUNCSW9HejBpUGhRaEk4TmM2LXFobjlKc9IBlAFBVV95cUxNVHhVanBWb1NMb0VLV0hXa2dORXAyWEtwQ1N3YzZKUlVLZ0hKWVJvQ2kzTHNtT0RRWjFRZmJCVGRoVlBSSFRXbUowbzlwc3h2VWZRanZDUVNDc0pWNWV2MEFZMDdrTXdOckZpekJBSUV5MVp4Q0R4TF9DcUl3WFRsZUtKNzNLRnFXdHdzQnZDeThKb1VD?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 550
+    },
+    {
+      "date": "May 07",
+      "text": "Iran is reviewing a US peace proposal, with both sides reportedly moving toward a memo to end the war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 550
+    },
+    {
+      "date": "May 07",
+      "text": "Trump threatens ‘much higher level’ attacks if no deal is reached with Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 550
+    },
+    {
+      "date": "May 07",
+      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, killing a Hezbollah chief.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 550
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

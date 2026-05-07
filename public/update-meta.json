@@ -1,13 +1,13 @@
 {
-  "updateSequence": 549,
+  "updateSequence": 550,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T22:18:25.203Z",
+  "lastSyncedAt": "2026-05-07T23:14:27.056Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "Multiple ceasefires and truces are actively being violated by all parties, leading to direct military engagements in the Strait of Hormuz and renewed conflict in Lebanon."
+    "summary": "A ceasefire between the US and Iran is active but being violated by mutual exchanges of fire in the Strait of Hormuz, while a truce between Israel and Lebanon is also under strain due to Israeli strikes."
   }
 }
