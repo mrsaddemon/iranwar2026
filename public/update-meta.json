@@ -1,13 +1,13 @@
 {
-  "updateSequence": 545,
+  "updateSequence": 546,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T16:28:29.579Z",
+  "lastSyncedAt": "2026-05-07T18:10:44.529Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "A US peace proposal is under review by Tehran, but no formal ceasefire is currently active in the broader conflict, and a prior Lebanon ceasefire appears to have collapsed."
+    "summary": "A previous ceasefire in Lebanon appears to have been violated by recent Israeli strikes, while the US and Iran are reviewing a peace proposal that has not yet resulted in a formal agreement."
   }
 }
