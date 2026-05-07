@@ -1,13 +1,13 @@
 {
-  "updateSequence": 546,
+  "updateSequence": 547,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T18:10:44.529Z",
+  "lastSyncedAt": "2026-05-07T19:56:34.314Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 25,
-    "summary": "A previous ceasefire in Lebanon appears to have been violated by recent Israeli strikes, while the US and Iran are reviewing a peace proposal that has not yet resulted in a formal agreement."
+    "confidence": 0.93,
+    "durationDays": 15,
+    "summary": "A ceasefire between Israel and Lebanon is active but remains fragile, evidenced by recent Israeli strikes in Beirut."
   }
 }

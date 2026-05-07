@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 546,
+  "updateSequence": 547,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T18:10:44.529Z",
+  "lastSyncedAt": "2026-05-07T19:56:34.314Z",
   "warDay": 69,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Negotiations for a US-Iran peace deal continue amidst Iranian efforts to control the Strait of Hormuz and ongoing clashes between Israel and Hezbollah, testing a fragile truce.",
   "lastNarrativeUpdate": "2026-05-07",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 25,
-    "summary": "A previous ceasefire in Lebanon appears to have been violated by recent Israeli strikes, while the US and Iran are reviewing a peace proposal that has not yet resulted in a formal agreement."
+    "confidence": 0.93,
+    "durationDays": 15,
+    "summary": "A ceasefire between Israel and Lebanon is active but remains fragile, evidenced by recent Israeli strikes in Beirut."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 06",
-      "text": "US states the offensive phase of the Iran war is over and awaits Tehran’s response to a peace proposal.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 546
+      "text": "US President Trump threatens 'much higher level' attacks if a peace deal with Iran is not reached.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 547
     },
     {
       "date": "May 06",
-      "text": "Israel strikes Beirut for the first time since a Lebanon ceasefire, followed by bombing southern Lebanon after targeting a Hezbollah commander.",
-      "severity": "warning",
+      "text": "Iran creates a new agency to control shipping in the Strait of Hormuz while reviewing a US peace proposal.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 547
+    },
+    {
+      "date": "May 06",
+      "text": "Israel strikes Beirut for the first time since a Lebanon ceasefire, reportedly killing a Hezbollah chief.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "DW.com",
-      "latestSinceUpdate": 546
+      "latestSinceUpdate": 547
     },
     {
       "date": "May 06",
-      "text": "Iran creates a new agency to control shipping in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxObG1oSy1fNGNza3RnbnhPRVBkeERlVnVESWYzdlkwMDlEbGo2NmpOZWdwckFpd0xENEVMcGtoT2YwRDlpcWF5bjh4NFlZbDJ3d0d2eGlvcGtMQ2EyVHJXNTJ1bkRaMzhDNUVQRDhtazZ1b2lleUUxRENVY282RlVQc29SdWNyUFlEa1RtZEFLSXh0M2g2bGtTbVQzZWhMemFfWXNYMm1Kb2xKYWw2bGhwLTlpYmtjQUtY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Los Angeles Times",
-      "latestSinceUpdate": 546
+      "text": "Iran imposes new rules for the Strait of Hormuz in an effort to cement control of the key waterway.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLURIMERzeW8zZXZ2cHVTSHdLZkNVekZCOHdoYTlOTjVDX3VvbEM4SUJ4RGpXYnVJbzFERFRpMks3aDVPN3hRaTJGdjZaelFsV1I0ajRyMDdRUzNBQ2IxdER2RFpibVltXzVZWmc5TU1zMzJsYWUwanRmRWlxZXVIaFBlWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 547
     },
     {
       "date": "May 06",
-      "text": "Hezbollah fires a rocket barrage at IDF soldiers in retaliation for Israeli strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPTzdfUTQ0NVBQdzlDT1pjcEJvYWs2akJoaVYtM3JyYWZQZkMxWmZYV296MmJnVnRSUDhQNk9sVDNhd09SUS1Nd2lBSlZsZ3lOZ2FVc1dwc21iZHZPRmJscHNfMXc3TS1EZkFqU3l5NmtQOThFeGZkUnNYV09MOFFhUndBcjFMdm9pUDRB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "JNS.org",
-      "latestSinceUpdate": 546
-    },
-    {
-      "date": "May 06",
-      "text": "The U.S. military and Maersk successfully facilitated a ship's passage through the Strait of Hormuz.",
+      "text": "A Maersk ship successfully passed through the Strait of Hormuz with US military escort.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOYnpMYnFFSDYzNlhsX3p2amFwUUp2LTJpLUE2M1BTMjUzWV9fNlRFWDZOWFNtZEM3Qk1ialdoM1JMc2xSQXE3YkdBcVVJWDFVajlBbDB1cWtJWEs4VEc2UHdHSVFqYWZjdWQzNUZtV1gwaEZrajdGbmpSU3d3Y0hoY0Jqb1dCZ9IBiwFBVV95cUxQRGtZRXQ4VlpsN2lWeUtrRl9GblkyMzJNRjdXU0FIaEZYRDFYbGFFZENzUExmOWs4MnhQWWQxeW40cnFBZDRmanU1aTlESUFsU3FaZVpHVF9uWUg2eHR6bWNpS0FKNGxMaVRqcElxS2hyQ2wzdUx2aHMtY3ZIckRicndNeWpWWi1iUkRB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 546
-    },
-    {
-      "date": "May 06",
-      "text": "Satellite images indicate Iran has hit more U.S. military assets than previously reported.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNZWdLU3d1NG14Nk03RmtNUEs4NDlTdFA3ellOb3ViNUNpSWZOMUZEZ1N5bXRjbm5rRDVxeUJLeE9qRGVnTUdaUzU2VjJrbDRFUUhiZ3hZcnI0bXFHRjBrTUNqTEdMVjBsTXR1ZHM3UDdsU2ZTczRMSHNqNjBBUXgzZFhtUjJkNk5iQ2JTc1pmbjNQQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 546
+      "latestSinceUpdate": 547
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
