@@ -1,13 +1,13 @@
 {
-  "updateSequence": 538,
-  "lastUpdated": "2026-05-06",
-  "lastSyncedAt": "2026-05-06T23:31:07.826Z",
-  "warDay": 68,
+  "updateSequence": 539,
+  "lastUpdated": "2026-05-07",
+  "lastSyncedAt": "2026-05-07T01:18:21.916Z",
+  "warDay": 69,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah appears to be fraying with renewed Israeli strikes, while US-Iran ceasefire discussions continue amidst Strait of Hormuz escalations."
+    "confidence": 0.98,
+    "durationDays": 15,
+    "summary": "A ceasefire in southern Lebanon is fraying due to ongoing Israeli strikes and missile activity, despite diplomatic efforts for a broader peace deal."
   }
 }
