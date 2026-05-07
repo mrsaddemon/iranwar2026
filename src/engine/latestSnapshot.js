@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 539,
+  "updateSequence": 540,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T01:18:21.916Z",
+  "lastSyncedAt": "2026-05-07T04:45:39.300Z",
   "warDay": 69,
-  "summary": "A fragile ceasefire is in effect between parties, marked by ongoing Israeli strikes on Beirut and US attacks on Iranian-flagged vessels, while diplomatic efforts for a peace deal continue.",
+  "summary": "The US and Iran are reportedly moving towards a peace deal while military actions, including US attacks on Iranian tankers and Israeli strikes in Lebanon, continue amidst a fragile regional ceasefire.",
   "lastNarrativeUpdate": "2026-05-07",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A ceasefire in southern Lebanon is fraying due to ongoing Israeli strikes and missile activity, despite diplomatic efforts for a broader peace deal."
+    "durationDays": 30,
+    "summary": "A ceasefire in southern Lebanon is active but appears to be fraying following recent Israeli air strikes on Beirut and increased Hezbollah drone activity."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 05",
-      "text": "Trump threatens ‘much higher level’ attacks if no deal is reached with Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPQVJMYnBuUmwxaFpFSXhhNnRoTkQ4RGNIS29nbldTVHliSVlobjJnaWNlMmgzd1ViUVJlWHFDRmFkUmFYamVzSE9PMmRELUdncDVaVHpZZE03VDhiZkdHVWFnSGt2M051c3Z5bWdoZmhGQ2hwRThscEEtdjdWZk5nTHp5V2JseWNoSmhjdE5IVjN3cVNaTEZfTmx5ZkxkTWQ3NS1QZmJBVU8zQVpHSU9odU5JVWRMaUFwS2fSAb8BQVVfeXFMT2ljb0NuNjFFbUtjWFZmVks5RWNJZS0ydmRpVjhJY2d5dTBaM3FDUUg2Z0FqQ1d0bjNhOG9KSzR4bndQVGRILXRkVzhaWmdJQ1ZXb3dlZjB3eWFrSWNxR29Bd2Z6YmhKbEZXdVU3Umc2ejdSc002ZUZGV21HMVRUTUNTd2J4Z0RvRFZDbW5DMWJsVjg2SHpVRVUzZDk1YjNnMGVpa0JCMHhlTkRMcFludTBkRk9RWVFCZXlKR0hmd00?hl=en-US&gl=US&ceid=US:en",
+      "text": "US says offensive phase over, Tehran won’t control Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 539
+      "latestSinceUpdate": 540
     },
     {
       "date": "May 07",
-      "text": "Iran is reviewing a US proposal, with both sides reportedly moving toward a memo to end the war.",
+      "text": "US fires on Iranian oil tanker as Trump pressures Tehran for deal to end war",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQMXpOYTBfMDBEV2NQWUZwcmI1TEJJR21DNHVsTTNnQm41MC1MZ0ZSWUh2cFYwOTBkRmhrcUluQTRLWnMtYTdPWXFHUXZQWExIZFktRnZGVkZERTVTRTFtdDRCQnhTeVhFUzNnSWlxbzI3dHY1MG1hMUZmZDdHVjVwbXpJU0VpZVhzZUo1UzJMRV9HTDlQeEN3QVlhUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 540
+    },
+    {
+      "date": "May 07",
+      "text": "Trump pauses US effort to guide ships through Strait of Hormuz while blockade remains",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 540
+    },
+    {
+      "date": "May 07",
+      "text": "Israel launches air strike on Beirut as US says it has attacked Iranian-flagged ship",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 540
+    },
+    {
+      "date": "May 07",
+      "text": "Iran reviewing US proposal as source says both sides moving toward memo to end war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 539
+      "latestSinceUpdate": 540
     },
     {
       "date": "May 07",
-      "text": "Trump and Rubio insist the Iran War is over, despite reports of missiles flying during the cease-fire.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 539
-    },
-    {
-      "date": "May 07",
-      "text": "Israel launches an air strike on Beirut, marking the first such action since the Hezbollah ceasefire.",
+      "text": "Israel strikes Beirut for first time since Hezbollah ceasefire",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 539
-    },
-    {
-      "date": "May 07",
-      "text": "US military attacks an Iranian-flagged tanker attempting to breach a naval blockade in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQZTR1aVI5WkV2VFlBMUl2OC1JVkxvTXhzcVljWDNzdVctSk1rV3YtNjhsX1BhQXl1QlVLSUFtMTdSZjhQSkZHZDJrNDRLVWt6WVpfOXh5b0ZMUlQ0S2lDSE9oTmkwdjBEX2dKRnpWNlFLNWstcWlYLVRkZGdlRDlKd0FPWndiQdIBiwFBVV95cUxQUnl5Zmttc3NNTHdkWlIwQ3d0NWdRc1hvVVRpWEdEYWQ1TkhjZV9BZXVNbDdvbmNtQ3UxdzNHTnZVdkRQVEJXY291ZGZnTHc2bjBJTURib20tZGdhYVJwN3oyMzMzYVpyQVNoTXNhaGpWd1JpN1FOSVdNdW1EUnVUV1pnY3BsOTFOSnp3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 539
-    },
-    {
-      "date": "May 07",
-      "text": "France moves an aircraft carrier group toward the Strait of Hormuz for a possible defensive mission.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPa056TVJvdEI5ZWcxRnI4aTA0SjE0bjY3NnRZcHRVRFhFSXBRUXVaQThrSVE4OVQ4Y0xuQnNxNWREcFNxMFFBMEJEOUc2ODZ0MW44Y1VNcDdaZHJGcXBmdU5lanRuY3FmZzZXMlJDakJzYmJXR0hvdzJQUnVZVkVXdlAtZFlrY0FXYnZSRjVEbjF6akNtOHpVZzBLbG9BVVgwSGZ1TmhTdzhrMFVRNlc4eXRKc1BzNjdndmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 539
+      "latestSinceUpdate": 540
     }
   ],
   "sourceStatuses": [

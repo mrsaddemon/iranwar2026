@@ -1,13 +1,13 @@
 {
-  "updateSequence": 539,
+  "updateSequence": 540,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T01:18:21.916Z",
+  "lastSyncedAt": "2026-05-07T04:45:39.300Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A ceasefire in southern Lebanon is fraying due to ongoing Israeli strikes and missile activity, despite diplomatic efforts for a broader peace deal."
+    "durationDays": 30,
+    "summary": "A ceasefire in southern Lebanon is active but appears to be fraying following recent Israeli air strikes on Beirut and increased Hezbollah drone activity."
   }
 }
