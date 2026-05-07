@@ -1,13 +1,13 @@
 {
-  "updateSequence": 544,
+  "updateSequence": 545,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T14:41:23.466Z",
+  "lastSyncedAt": "2026-05-07T16:28:29.579Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 25,
-    "summary": "A ceasefire between Israel and Hezbollah is active but highly fragile, with recent Israeli strikes in Lebanon and Beirut threatening its stability."
+    "summary": "A US peace proposal is under review by Tehran, but no formal ceasefire is currently active in the broader conflict, and a prior Lebanon ceasefire appears to have collapsed."
   }
 }
