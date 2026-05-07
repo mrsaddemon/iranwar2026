@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 541,
+  "updateSequence": 542,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T07:34:09.004Z",
+  "lastSyncedAt": "2026-05-07T10:03:08.903Z",
   "warDay": 69,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-07",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 30,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -60,18 +60,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 07",
+      "text": "Iran Update Special Report, May 6, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxQTHNIb2ZYNDMzaEh6YUJfYTduY3E0SlQzYmdiOTA5WHE5bC1wM25lQ0xnWDVpbVJBUTJGdFlZdExGRnZpUkJoNVAyYXJ2UDRHNDlpSDdZUFpjeWhyNDluYlU5RHFxY0w1LXZlalBBU1A0dFhCNU83UW02YUlrM0psYkEySUk2QzZULXd0NC11WDJ5QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 542
+    },
+    {
+      "date": "May 07",
       "text": "Iran war updates: US says offensive phase over, Tehran won’t control Hormuz",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 541
-    },
-    {
-      "date": "May 07",
-      "text": "Iran Update Special Report, May 5, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNanJ4VmdyMUhZenVkalJsVW9NNEpYdl8yMnJvTWs3dXZGOXItZ1dJLUFjMG5Ydmwyd1U5RllpVmV6YzMwdHFNV2FqR2gxS1JzOUExS3JRNDhKZ2VjaF9PSWUyT0pnZEZMaURQWXNXdDNmNjZIYkFQaXY4TmFvWkNBSWEteWFQaDdEUGFXMmxwcWZNdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
       "latestSinceUpdate": 541
     },
     {
