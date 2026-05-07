@@ -1,13 +1,13 @@
 {
-  "updateSequence": 540,
+  "updateSequence": 541,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T04:45:39.300Z",
+  "lastSyncedAt": "2026-05-07T07:34:09.004Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A ceasefire in southern Lebanon is active but appears to be fraying following recent Israeli air strikes on Beirut and increased Hezbollah drone activity."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

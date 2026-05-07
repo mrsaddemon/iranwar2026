@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 540,
+  "updateSequence": 541,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T04:45:39.300Z",
+  "lastSyncedAt": "2026-05-07T07:34:09.004Z",
   "warDay": 69,
-  "summary": "The US and Iran are reportedly moving towards a peace deal while military actions, including US attacks on Iranian tankers and Israeli strikes in Lebanon, continue amidst a fragile regional ceasefire.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-07",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A ceasefire in southern Lebanon is active but appears to be fraying following recent Israeli air strikes on Beirut and increased Hezbollah drone activity."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 05",
-      "text": "US says offensive phase over, Tehran won’t control Hormuz",
+      "date": "May 07",
+      "text": "Iran war updates: US says offensive phase over, Tehran won’t control Hormuz",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 540
+      "latestSinceUpdate": 541
     },
     {
       "date": "May 07",
-      "text": "US fires on Iranian oil tanker as Trump pressures Tehran for deal to end war",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQMXpOYTBfMDBEV2NQWUZwcmI1TEJJR21DNHVsTTNnQm41MC1MZ0ZSWUh2cFYwOTBkRmhrcUluQTRLWnMtYTdPWXFHUXZQWExIZFktRnZGVkZERTVTRTFtdDRCQnhTeVhFUzNnSWlxbzI3dHY1MG1hMUZmZDdHVjVwbXpJU0VpZVhzZUo1UzJMRV9HTDlQeEN3QVlhUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 540
-    },
-    {
-      "date": "May 07",
-      "text": "Trump pauses US effort to guide ships through Strait of Hormuz while blockade remains",
+      "text": "Iran Update Special Report, May 5, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNanJ4VmdyMUhZenVkalJsVW9NNEpYdl8yMnJvTWs3dXZGOXItZ1dJLUFjMG5Ydmwyd1U5RllpVmV6YzMwdHFNV2FqR2gxS1JzOUExS3JRNDhKZ2VjaF9PSWUyT0pnZEZMaURQWXNXdDNmNjZIYkFQaXY4TmFvWkNBSWEteWFQaDdEUGFXMmxwcWZNdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 541
+    },
+    {
+      "date": "May 07",
+      "text": "Live updates: Iran reviewing US proposal as source says both sides moving toward memo to end war",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 540
+      "latestSinceUpdate": 541
+    },
+    {
+      "date": "May 07",
+      "text": "Iran War Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE0teG4taGFicEdTNkxPUGF0Vmd1LVJpejdZUmJwZ0hfZ2pSV2NFZ19kLXhOcDJKQXVyRk1qNi1id0E1LXZsS1Q0dENmRlB6RngzWVFfNDdia3RCajg3SFlIMHJRYTNCV3J3djBKTnlmVlVuZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 541
     },
     {
       "date": "May 07",
       "text": "Israel launches air strike on Beirut as US says it has attacked Iranian-flagged ship",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceName": null,
       "latestSinceUpdate": 540
     },
     {
       "date": "May 07",
-      "text": "Iran reviewing US proposal as source says both sides moving toward memo to end war",
+      "text": "How a huge wave of Israeli strikes brought chaos to Lebanon",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 540
-    },
-    {
-      "date": "May 07",
-      "text": "Israel strikes Beirut for first time since Hezbollah ceasefire",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1vaWtqa0VwMXZWWVh3S09fbG12enE4enNodG1KT185SHg4c2NablBibEtkSHhvdmV3QURJUDQ4NjJ4eUR0R1d1SmdlLV8zRkJaaUdISUxGZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 540
+      "latestSinceUpdate": 541
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
