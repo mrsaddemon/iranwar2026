@@ -1,13 +1,13 @@
 {
-  "updateSequence": 548,
+  "updateSequence": 549,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T21:12:02.865Z",
+  "lastSyncedAt": "2026-05-07T22:18:25.203Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire in Lebanon is under severe strain following Israeli strikes in Beirut and the killing of a Hezbollah chief, while broader US-Iran peace talks are ongoing amidst active hostilities."
+    "summary": "Multiple ceasefires and truces are actively being violated by all parties, leading to direct military engagements in the Strait of Hormuz and renewed conflict in Lebanon."
   }
 }
