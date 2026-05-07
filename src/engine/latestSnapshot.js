@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 543,
+  "updateSequence": 544,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T11:57:31.239Z",
+  "lastSyncedAt": "2026-05-07T14:41:23.466Z",
   "warDay": 69,
-  "summary": "Negotiations between the US and Iran are ongoing to end the war, while Israel has launched air strikes on Beirut, violating a previous ceasefire, and tensions remain high around the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-07",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 30,
-    "summary": "The Lebanon ceasefire has collapsed following Israeli air strikes on Beirut and Hezbollah rocket fire."
+    "confidence": 0.98,
+    "durationDays": 25,
+    "summary": "A ceasefire between Israel and Hezbollah is active but highly fragile, with recent Israeli strikes in Lebanon and Beirut threatening its stability."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 60,
+    "tradeImpact": 44,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 61,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 06",
-      "text": "US states the offensive phase of the Iran war is over and Tehran will not control Hormuz.",
+      "text": "US states offensive phase is over and rejects Iran's claim to control the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQdmRpRkhuTGluWFQ4endRY0lSaW1BVG1KTDdOLTZEQVc1QXlmaXd5Q2ZsMlJNa3cyMHEwR05HZFRRUFBDS0syaWRPdGdBel9fRkdqNzk1anNuN2JvdW9Id19KZURKVjkzb2V4bE9lczBwU3lHSjMzS2k2TXZDRlFxbFFLbUx3NDVhVVJ6T0E4cjBGTHJrOUtYS3JwVDNCRGhWNm04SnNwTmY4N0g1T1VTSzhTdXJvT2fSAbwBQVVfeXFMT1gzTVdUbGZIZE9vVU9PelBYSkNYQzdJcGJ5WUdqQlhTeGdEMkZOZmZQbVo2UDF6ZWpYNDJlb1JodlhId2dnVTdBNUhZSG9SQ09iMy1ES2VCRkJQNDVUbUFuNVNuNUtfRlc5SFVuMmlwWUUzdEp5UmtVZjRsVkZmLUdUVElLUTdnc0tScy04RmxjNlhsRXJvLUE2UlcyRHJ4UlV0WWZTdE1XWXlKcTZqdVltWmRvWlRsa0hvcW0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 543
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 544
     },
     {
       "date": "May 06",
-      "text": "Iran is reviewing a US proposal, with sources indicating movement toward a memo to end the war.",
+      "text": "Iran is reviewing a US peace proposal, with both sides reportedly moving towards a memo to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU0NNTnM1Vkp6QkQzNWF0dVZGUF9xNUZXYnp2Yms0TS1IZU5lLWVsem5MUmpZM2RTQlNSbVBmUWRLenNnSnZtRm10Q21GVjhYcHVMamt3ZEp3YWF4aWRnNkJYYVRGMVJCazZwbjNuY3BUNnJmaWJ0MzE3WHMtLWo1Q0p5UkI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 543
+      "latestSinceUpdate": 544
     },
     {
       "date": "May 06",
-      "text": "Israel launched an air strike on Beirut, marking the first such strike since the Lebanon ceasefire.",
-      "severity": "critical",
+      "text": "Israel conducted strikes in Beirut for the first time since the Lebanon ceasefire, threatening its stability.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "DW.com",
-      "latestSinceUpdate": 543
+      "latestSinceUpdate": 544
     },
     {
       "date": "May 06",
-      "text": "The US military attacked an Iranian-flagged tanker attempting to breach a naval blockade.",
-      "severity": "warning",
+      "text": "IDF confirmed the killing of a Hezbollah Radwan commander in Beirut.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFB2cTZwaGJ3U0F6UTFTTnJEMmh2Ql9FOER1bUxSUXpzbVB4b1lKYXhIQjkya3U0QlltNjIyeVVkbUxyNmJ6NnZUWTA0LU5lNVQ0UGxWVVk1c0JYdU9GUVZhOWpqRVpjZnpTUnJ5UnhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 544
+    },
+    {
+      "date": "May 06",
+      "text": "US military attacked an Iran-flagged tanker attempting to breach a naval blockade.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQZTR1aVI5WkV2VFlBMUl2OC1JVkxvTXhzcVljWDNzdVctSk1rV3YtNjhsX1BhQXl1QlVLSUFtMTdSZjhQSkZHZDJrNDRLVWt6WVpfOXh5b0ZMUlQ0S2lDSE9oTmkwdjBEX2dKRnpWNlFLNWstcWlYLVRkZGdlRDlKd0FPWndiQdIBiwFBVV95cUxQUnl5Zmttc3NNTHdkWlIwQ3d0NWdRc1hvVVRpWEdEYWQ1TkhjZV9BZXVNbDdvbmNtQ3UxdzNHTnZVdkRQVEJXY291ZGZnTHc2bjBJTURib20tZGdhYVJwN3oyMzMzYVpyQVNoTXNhaGpWd1JpN1FOSVdNdW1EUnVUV1pnY3BsOTFOSnp3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 543
+      "latestSinceUpdate": 544
     },
     {
       "date": "May 06",
-      "text": "Hezbollah fired a rocket barrage at IDF soldiers.",
+      "text": "Satellite images indicate Iran has hit more U.S. military assets than previously reported.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPTzdfUTQ0NVBQdzlDT1pjcEJvYWs2akJoaVYtM3JyYWZQZkMxWmZYV296MmJnVnRSUDhQNk9sVDNhd09SUS1Nd2lBSlZsZ3lOZ2FVc1dwc21iZHZPRmJscHNfMXc3TS1EZkFqU3l5NmtQOThFeGZkUnNYV09MOFFhUndBcjFMdm9pUDRB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "JNS.org",
-      "latestSinceUpdate": 543
-    },
-    {
-      "date": "May 06",
-      "text": "Israel carried out a strike targeting a commander of Hezbollah's elite force.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOU0NzNnBsd0NhQ1AtUndrbXQtNWRKdkRYV2lUb09XWWFRV0lXcVRVTjYzd3Q3VjFGcWxwelIzN3p4ekd3ZEF4OUJjM2N1Q19paWNiUnZKbFh0THpFbnB5T0JIdEEtRHBhQXg4dnY1Z0t0ZW1YWDZpRTltV0pBUEdoYzBqWTRsS2tmVlE3UnlJZ2JtZTlaQTVyc2tpcWhGR2lCZDF1eFh6Q3FWQldhdGtxbkl6UUlrNjQ5UDlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 543
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNZWdLU3d1NG14Nk03RmtNUEs4NDlTdFA3ellOb3ViNUNpSWZOMUZEZ1N5bXRjbm5rRDVxeUJLeE9qRGVnTUdaUzU2VjJrbDRFUUhiZ3hZcnI0bXFHRjBrTUNqTEdMVjBsTXR1ZHM3UDdsU2ZTczRMSHNqNjBBUXgzZFhtUjJkNk5iQ2JTc1pmbjNQQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 544
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

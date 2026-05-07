@@ -1,13 +1,13 @@
 {
-  "updateSequence": 543,
+  "updateSequence": 544,
   "lastUpdated": "2026-05-07",
-  "lastSyncedAt": "2026-05-07T11:57:31.239Z",
+  "lastSyncedAt": "2026-05-07T14:41:23.466Z",
   "warDay": 69,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 30,
-    "summary": "The Lebanon ceasefire has collapsed following Israeli air strikes on Beirut and Hezbollah rocket fire."
+    "confidence": 0.98,
+    "durationDays": 25,
+    "summary": "A ceasefire between Israel and Hezbollah is active but highly fragile, with recent Israeli strikes in Lebanon and Beirut threatening its stability."
   }
 }
