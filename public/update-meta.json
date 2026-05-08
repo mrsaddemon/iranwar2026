@@ -1,13 +1,13 @@
 {
-  "updateSequence": 561,
+  "updateSequence": 562,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T18:58:05.457Z",
+  "lastSyncedAt": "2026-05-08T20:12:33.307Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "Multiple declared ceasefires and truces have been violated by all parties, leading to renewed military engagements between the US and Iran, and Israel and Hezbollah."
+    "summary": "A ceasefire between the US and Iran appears to have collapsed amidst direct military engagements, while a truce between Israel and Hezbollah is being tested by ongoing hostilities."
   }
 }

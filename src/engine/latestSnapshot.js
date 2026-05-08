@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 561,
+  "updateSequence": 562,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T18:58:05.457Z",
+  "lastSyncedAt": "2026-05-08T20:12:33.307Z",
   "warDay": 70,
-  "summary": "Direct military engagements have escalated between the US and Iran, including strikes on tankers and sites, while Israel and Hezbollah have also exchanged fire despite declared ceasefires.",
+  "summary": "Direct military engagements between the US and Iran have escalated in the Strait of Hormuz, while Israel and Hezbollah continue to exchange fire despite reports of a truce being tested.",
   "lastNarrativeUpdate": "2026-05-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "Multiple declared ceasefires and truces have been violated by all parties, leading to renewed military engagements between the US and Iran, and Israel and Hezbollah."
+    "summary": "A ceasefire between the US and Iran appears to have collapsed amidst direct military engagements, while a truce between Israel and Hezbollah is being tested by ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
     "sanctionsPressure": 54,
     "globalPressure": 65,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 07",
-      "text": "US fires on and disables two Iranian tankers in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 561
-    },
-    {
-      "date": "May 07",
-      "text": "US military strikes sites within Iran as countries exchange fire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOWXUwRGdlNmJ0QlZ4YlNseHlhRFRoZlhxWG1jM0xMZnB0R1lyUVhBcjk2U0Y3U214Yzhib0o2RFF6dW5Hb0lZSkhCRXhBRU9XaTI5RWRMNXdER2RZdDBtT2ZMb01XZU9tRnhJLUNOd0dQTXRzdnNVTGhpcW9LSVF6c3hYSmU1MEN0aWo1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 561
-    },
-    {
-      "date": "Recent",
-      "text": "U.S. and Iran exchange fire amid a declared truce.",
+      "text": "US forces fired on and disabled two Iranian tankers in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 561
+      "latestSinceUpdate": 562
     },
     {
-      "date": "Recent",
-      "text": "Israel launches strike on Beirut for the first time since the Lebanon ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 561
-    },
-    {
-      "date": "Recent",
-      "text": "Hezbollah fires rockets deep into northern Israel, triggering sirens.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5nOFRnaHV6TVJFVVVFUXhrOWVwdzhXLW9qdlNPSlhrMFVUNVRnV3RVam1JYWowTUlvdy1uX0diN2Fza1NyLVdzQ1VvSUg3ZkU5UjVyYk5B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "ynetnews",
-      "latestSinceUpdate": 561
-    },
-    {
-      "date": "Recent",
-      "text": "Iran accuses the US of 'reckless military adventure' and violating ceasefire.",
+      "date": "May 07",
+      "text": "Iran accused the US of violating a ceasefire and targeting its ships.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 561
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 562
+    },
+    {
+      "date": "May 07",
+      "text": "US military struck sites in Iran, claiming response to attacks on navy ships.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 562
+    },
+    {
+      "date": "May 07",
+      "text": "Israel launched airstrikes in southern Lebanon, killing five and a Hezbollah chief near Beirut.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 562
+    },
+    {
+      "date": "May 07",
+      "text": "Hezbollah fired rockets at the Haifa area and drones wounded troops in northern Israel and Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNM1lwdnZBSHpZZDlwSVhEd2JLbkEzNzY4TVVuem5fNklRTWFFZWRxbnBhLU5MVTV0U2x2V3hWNUdseWJST1VLc3ZrT0o2dU13Q2lkUDNoYXVkWl9ncDNCYXpNbzNlQWhtdTdVa2tFNExiWDh0Nk03ZDdhMmVaRGtOclRxajg4emx4X202Q3VrNXBGSFNESzJBVEZtSkF3Vk9NYVBsSVM1REpiYU1nVkZiQlBZZzY3Z3FuVlpr0gHAAUFVX3lxTE5KTVFLZkRkckpEc3BIV2Yxd2RVR1hpSVJyNHpuTm11WlQzT1piRklnWWF3UHc2bllVOXd4Y2I1UkFKV3BKaXFlYmNDOFc0S2x3MXAzbml4enRyb1ctSmJSel9MM3BjVGZKekpfVTdHTDYxa09PQzJfTHQwVzc5T3RHbVUxYkpkOHBSeEVnQW5BcTc4dWE0SUZPOHdfSUpGNXpBMnJnQ0VKU0h2cFB5cUd0R3FWY2h5OU4yRzZURGd2cA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 562
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +114,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
