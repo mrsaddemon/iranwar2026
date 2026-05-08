@@ -1,13 +1,13 @@
 {
-  "updateSequence": 551,
+  "updateSequence": 552,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T00:09:59.825Z",
+  "lastSyncedAt": "2026-05-08T03:55:43.138Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "A ceasefire is reportedly in effect, but has been repeatedly violated by both US-Iran and Israel-Hezbollah actions, with direct strikes continuing."
+    "durationDays": 15,
+    "summary": "A ceasefire is officially declared but is being actively violated by both US-Iran and Israel-Hezbollah forces, leading to continued exchanges of fire."
   }
 }
