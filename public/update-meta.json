@@ -1,13 +1,13 @@
 {
-  "updateSequence": 563,
+  "updateSequence": 564,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T21:18:22.912Z",
+  "lastSyncedAt": "2026-05-08T22:14:16.478Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A previously attempted ceasefire appears to have collapsed amidst widespread violations and direct military engagements by multiple parties."
+    "summary": "A truce is in place but is being actively tested and violated by multiple parties, with Iran accusing the US of violations and Israel killing a Hezbollah chief."
   }
 }
