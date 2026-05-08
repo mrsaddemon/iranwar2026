@@ -1,13 +1,13 @@
 {
-  "updateSequence": 564,
+  "updateSequence": 565,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T22:14:16.478Z",
+  "lastSyncedAt": "2026-05-08T23:12:52.625Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A truce is in place but is being actively tested and violated by multiple parties, with Iran accusing the US of violations and Israel killing a Hezbollah chief."
+    "summary": "A previously established truce is under severe strain, with both US and Israeli forces conducting strikes that Iran claims violate the agreement."
   }
 }
