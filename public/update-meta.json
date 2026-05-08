@@ -1,13 +1,13 @@
 {
-  "updateSequence": 562,
+  "updateSequence": 563,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T20:12:33.307Z",
+  "lastSyncedAt": "2026-05-08T21:18:22.912Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire between the US and Iran appears to have collapsed amidst direct military engagements, while a truce between Israel and Hezbollah is being tested by ongoing hostilities."
+    "summary": "A previously attempted ceasefire appears to have collapsed amidst widespread violations and direct military engagements by multiple parties."
   }
 }
