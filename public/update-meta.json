@@ -1,13 +1,13 @@
 {
-  "updateSequence": 555,
+  "updateSequence": 556,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T09:48:16.482Z",
+  "lastSyncedAt": "2026-05-08T10:59:20.023Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 8,
-    "summary": "A ceasefire is nominally in effect, with leaders insisting it holds, but it is frequently violated by military actions from multiple parties."
+    "durationDays": 7,
+    "summary": "A declared ceasefire between the U.S. and Iran is active but highly fragile, marked by repeated exchanges of fire and targeted strikes from both sides."
   }
 }
