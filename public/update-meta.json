@@ -1,13 +1,13 @@
 {
-  "updateSequence": 553,
+  "updateSequence": 554,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T06:05:32.880Z",
+  "lastSyncedAt": "2026-05-08T07:55:30.107Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A ceasefire is nominally in effect but is frequently violated by both US and Iranian forces, with ongoing diplomatic efforts to formalize an end to the conflict."
+    "durationDays": 7,
+    "summary": "A declared truce between the US and Iran is being actively violated by both sides, while a separate Lebanon ceasefire is being tested by Israeli strikes."
   }
 }
