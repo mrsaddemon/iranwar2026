@@ -1,13 +1,13 @@
 {
-  "updateSequence": 559,
+  "updateSequence": 560,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T15:55:03.442Z",
+  "lastSyncedAt": "2026-05-08T17:40:01.867Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "Despite claims by some parties that a ceasefire is active, widespread violations and direct military engagements indicate it is highly fragile and largely ineffective."
+    "summary": "A declared truce between the US and Iran, and a ceasefire between Israel and Lebanon, are both experiencing significant violations, though peace talks are ongoing."
   }
 }
