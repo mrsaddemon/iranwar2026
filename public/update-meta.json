@@ -1,13 +1,13 @@
 {
-  "updateSequence": 557,
+  "updateSequence": 558,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T12:15:28.400Z",
+  "lastSyncedAt": "2026-05-08T14:18:57.821Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between the US and Iran is officially active, though it has been tested by recent exchanges of fire and mutual accusations of violations."
+    "summary": "A declared ceasefire between the US and Iran, and a separate truce involving Israel and Lebanon, are in effect but frequently violated by military actions and exchanges of fire."
   }
 }

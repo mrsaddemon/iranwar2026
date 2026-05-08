@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 557,
+  "updateSequence": 558,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T12:15:28.400Z",
+  "lastSyncedAt": "2026-05-08T14:18:57.821Z",
   "warDay": 70,
-  "summary": "A fragile ceasefire between the US and Iran is being tested by mutual exchanges of fire in the Strait of Hormuz, while Israel conducts strikes in Lebanon.",
+  "summary": "A declared ceasefire between the US and Iran, and a separate truce between Israel and Lebanon, are being tested by repeated exchanges of fire and military actions in the Strait of Hormuz and near Beirut.",
   "lastNarrativeUpdate": "2026-05-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between the US and Iran is officially active, though it has been tested by recent exchanges of fire and mutual accusations of violations."
+    "summary": "A declared ceasefire between the US and Iran, and a separate truce involving Israel and Lebanon, are in effect but frequently violated by military actions and exchanges of fire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.68
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 08",
-      "text": "US military launched 'self-defense strikes' on Iranian military facilities after responding to attacks on navy ships.",
+      "text": "US and Iran exchange fire amid a declared truce, with the US reporting intercepts of Iranian attacks on Navy ships.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE95RHFJYjM2ZkFnRXRTMlVqSmFob0NKdld0Z0ZwMWVhU0FZYmN2VVZtNmZiaEJCTjAxRTg3X2pSMEJqT1VwTWhjam93eGFEdXktM1VJWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 557
-    },
-    {
-      "date": "May 08",
-      "text": "U.S. military intercepted Iranian attacks on three Navy ships in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxObENkOFNhc08zdzBiZEpmMGQxVzZScm9tZ2NhcUpxd0FMRUU3YUpuTDl4eG9ER0JnaWNQUDBLcDd3b1Vhb0hBeV9rd0xiaTZVSG9rSTBvWmhLNjgxNTJYVmQzWnpUS3pVV3ZSaUM3MWUwMkRDajNUMHItdGowZHpHaWNPQUJnN09KMDdrWmN1Z2NVbHd2M2xsRGJSXzN1S1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 557
-    },
-    {
-      "date": "May 08",
-      "text": "Israel launched strikes on Beirut for the first time since the Lebanon ceasefire, killing a Hezbollah chief.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 557
-    },
-    {
-      "date": "May 08",
-      "text": "Tehran stated the US violated the ceasefire by targeting Iranian ships and military facilities.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 557
-    },
-    {
-      "date": "May 08",
-      "text": "Hezbollah's tunnel infrastructure indicates a continued intent to challenge Israel despite the truce.",
-      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 557
+      "latestSinceUpdate": 558
+    },
+    {
+      "date": "May 08",
+      "text": "US launches airstrikes against Iranian targets in the Strait of Hormuz, stating it targeted military facilities in response to attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE8tMDk4N05OejF1X2J1N0ttSWNzODhjYklGckluQ2NidEJ0emY2eU9GSWM5bmFDRjViODNqT0pKQm80YzdZWm1zeFl5a2Y4OGRhQThkakhn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 558
+    },
+    {
+      "date": "May 08",
+      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, reportedly killing a Hezbollah chief.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 558
+    },
+    {
+      "date": "May 08",
+      "text": "Hezbollah fires rockets deep into northern Israel, triggering sirens.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5nOFRnaHV6TVJFVVVFUXhrOWVwdzhXLW9qdlNPSlhrMFVUNVRnV3RVam1JYWowTUlvdy1uX0diN2Fza1NyLVdzQ1VvSUg3ZkU5UjVyYk5B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "ynetnews",
+      "latestSinceUpdate": 558
+    },
+    {
+      "date": "May 08",
+      "text": "Iran imposes new rules for the Strait of Hormuz in an effort to cement control of the key waterway.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLURIMERzeW8zZXZ2cHVTSHdLZkNVekZCOHdoYTlOTjVDX3VvbEM4SUJ4RGpXYnVJbzFERFRpMks3aDVPN3hRaTJGdjZaelFsV1I0ajRyMDdRUzNBQ2IxdER2RFpibVltXzVZWmc5TU1zMzJsYWUwanRmRWlxZXVIaFBlWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 558
+    },
+    {
+      "date": "May 08",
+      "text": "The US is expecting Tehran’s response to a peace proposal in hours.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 558
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
