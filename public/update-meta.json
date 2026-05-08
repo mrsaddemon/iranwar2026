@@ -1,13 +1,13 @@
 {
-  "updateSequence": 560,
+  "updateSequence": 561,
   "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T17:40:01.867Z",
+  "lastSyncedAt": "2026-05-08T18:58:05.457Z",
   "warDay": 70,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A declared truce between the US and Iran, and a ceasefire between Israel and Lebanon, are both experiencing significant violations, though peace talks are ongoing."
+    "summary": "Multiple declared ceasefires and truces have been violated by all parties, leading to renewed military engagements between the US and Iran, and Israel and Hezbollah."
   }
 }
