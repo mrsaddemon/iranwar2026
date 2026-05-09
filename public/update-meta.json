@@ -1,13 +1,13 @@
 {
-  "updateSequence": 569,
+  "updateSequence": 570,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T08:18:45.733Z",
+  "lastSyncedAt": "2026-05-09T09:46:19.536Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A truce between Israel and Hezbollah is under severe strain following recent strikes and rocket fire, with its future uncertain."
+    "summary": "A ceasefire between Israel and Hezbollah is under severe strain following Israeli strikes in Lebanon and Hezbollah rocket fire, despite ongoing diplomatic efforts."
   }
 }
