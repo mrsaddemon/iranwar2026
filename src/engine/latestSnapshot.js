@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 570,
+  "updateSequence": 571,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T09:46:19.536Z",
+  "lastSyncedAt": "2026-05-09T10:40:21.414Z",
   "warDay": 71,
-  "summary": "Direct clashes between US and Iranian forces have occurred in the Strait of Hormuz, while Israel has conducted airstrikes in Lebanon, testing a fragile truce as diplomatic efforts for a peace deal continue.",
+  "summary": "Direct clashes between US forces and Iranian tankers have occurred in the Strait of Hormuz, while Israel has conducted strikes in Beirut, testing a ceasefire with Hezbollah.",
   "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between Israel and Hezbollah is under severe strain following Israeli strikes in Lebanon and Hezbollah rocket fire, despite ongoing diplomatic efforts."
+    "summary": "A ceasefire between Israel and Lebanon/Hezbollah is active but severely tested by recent Israeli strikes and anticipated Hezbollah responses, indicating it is not holding effectively."
   },
   "actorOverrides": {
     "usa": {
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,35 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 09",
-      "text": "U.S. military fires on Iran-flagged tankers and strikes sites in Iran, leading to accusations of 'reckless military adventure' from Tehran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 570
-    },
-    {
-      "date": "May 09",
-      "text": "Israel conducts airstrikes in Beirut and southern Lebanon, killing five and a Hezbollah chief, testing the existing truce.",
+      "text": "U.S. forces fired on and disabled two Iranian tankers in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 570
+      "latestSinceUpdate": 571
     },
     {
       "date": "May 09",
-      "text": "Hezbollah rockets hit open areas in Israel, with the IDF preparing for further rocket fire in northern Israel.",
+      "text": "Tehran accused Washington of 'reckless military adventure' following the tanker incidents.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxONG5IOFNuUy1Vc0xwQTctYnN2ZkNDZ0ZSSldUVUdMbmJYaGRENGpkSnEzR0RPYUdjUHMwZHJnVW1ZV3N4aWJQS1ZGOEJyY0JjdEd4REtDMTdVelhabWctT3VIc3hoX2RKcXlNVG9nRUNUNTdndUE3cW94WWhBd25hckY0MUF1THBPbVRJZE5fQzAtcGJmeVhKSGVsSzlBUkFGSWNXVkFqYkhfUW1qUGRDQlE2dkNoTm9Bek9RbkJEQmRTRDJvU2VVc0tsOTgzSTJf?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 570
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 571
     },
     {
       "date": "May 09",
-      "text": "Iran is reviewing a US peace proposal, with the US awaiting Tehran's official response.",
+      "text": "Israel conducted airstrikes in Beirut for the first time since the Lebanon ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 571
+    },
+    {
+      "date": "May 09",
+      "text": "Israel announced it killed a Hezbollah chief near Beirut, explicitly testing the truce.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 571
+    },
+    {
+      "date": "May 09",
+      "text": "Hezbollah rockets hit open areas in Israel following Israeli airstrikes in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 571
+    },
+    {
+      "date": "May 09",
+      "text": "Iran is reviewing a US peace proposal amidst ongoing tensions.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 570
+      "latestSinceUpdate": 571
     }
   ],
   "sourceStatuses": [
