@@ -1,13 +1,13 @@
 {
-  "updateSequence": 581,
+  "updateSequence": 582,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T20:57:33.636Z",
+  "lastSyncedAt": "2026-05-09T21:55:44.455Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 30,
-    "summary": "A month-long ceasefire is in effect but has been tested by recent military actions and strikes, while diplomatic exchanges continue."
+    "durationDays": 7,
+    "summary": "A fragile ceasefire is under severe strain due to direct military engagements between the US and Iran, and ongoing Israeli strikes and Hezbollah responses, despite ongoing negotiations."
   }
 }
