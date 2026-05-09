@@ -1,13 +1,13 @@
 {
-  "updateSequence": 574,
+  "updateSequence": 575,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T14:09:07.288Z",
+  "lastSyncedAt": "2026-05-09T15:15:14.016Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A proposed ceasefire deal is under negotiation, but ongoing military actions by all parties are testing its fragility and preventing full implementation."
+    "durationDays": 30,
+    "summary": "A month-long ceasefire is in effect but remains fragile, with both sides reporting violations and ongoing attacks testing its stability."
   }
 }
