@@ -1,13 +1,13 @@
 {
-  "updateSequence": 571,
+  "updateSequence": 572,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T10:40:21.414Z",
+  "lastSyncedAt": "2026-05-09T11:37:09.539Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A ceasefire between Israel and Lebanon/Hezbollah is active but severely tested by recent Israeli strikes and anticipated Hezbollah responses, indicating it is not holding effectively."
+    "durationDays": 15,
+    "summary": "A ceasefire between Israel and Lebanon/Hezbollah is active but highly fragile, having been tested by recent Israeli strikes in Beirut and southern Lebanon, and Hezbollah rocket fire."
   }
 }
