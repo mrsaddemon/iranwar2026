@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 566,
+  "updateSequence": 567,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T00:12:12.427Z",
+  "lastSyncedAt": "2026-05-09T03:59:17.145Z",
   "warDay": 71,
-  "summary": "Direct military engagements between the US and Iran have occurred in the Strait of Hormuz and on Iranian sites, while Israel has conducted strikes in Lebanon, testing an existing truce.",
+  "summary": "Direct military engagements between the US and Iran in the Strait of Hormuz have escalated tensions, while Israel continues strikes in Lebanon against Hezbollah amidst a tested truce and ongoing diplomatic efforts for a peace deal.",
   "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire between Israel and Lebanon appears to be severely tested or partially violated by recent Israeli strikes and Hezbollah responses, though mediation efforts are underway."
+    "summary": "A US-Iran ceasefire is claimed to be in place despite exchanges of fire, while an Israel-Hezbollah truce is actively being tested by military actions."
   },
   "actorOverrides": {
     "usa": {
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 80,
     "tradeImpact": 58,
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 07",
-      "text": "US forces fired upon and disabled two Iranian-flagged oil tankers in the Strait of Hormuz, claiming they attempted to violate a blockade.",
+      "date": "May 09",
+      "text": "US fires on and disables 2 more Iranian tankers in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 566
-    },
-    {
-      "date": "May 07",
-      "text": "Iran accused the US of a 'reckless military adventure' and violating a ceasefire by targeting its ships.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 566
-    },
-    {
-      "date": "May 08",
-      "text": "Israel launched airstrikes on Beirut for the first time since a Lebanon ceasefire, killing five in southern Lebanon and a Hezbollah chief near Beirut.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 566
-    },
-    {
-      "date": "May 08",
-      "text": "Hezbollah responded with rocket fire into open areas in Israel.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 566
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 567
     },
     {
       "date": "May 09",
-      "text": "The US announced it would mediate talks between Israel and Lebanon to de-escalate tensions.",
-      "severity": "info",
+      "text": "Israel launches strike on Beirut, while the US confirms it attacked an Iranian ship.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 566
+      "latestSinceUpdate": 567
     },
     {
       "date": "May 09",
-      "text": "Iran stated it would respond to a peace plan proposed by former US President Trump, as urgent talks were held.",
+      "text": "Israeli airstrikes kill five in southern Lebanon as Hezbollah rockets hit open areas in Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 567
+    },
+    {
+      "date": "May 09",
+      "text": "Israel announces it killed a Hezbollah chief near Beirut, testing the existing truce.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 567
+    },
+    {
+      "date": "May 09",
+      "text": "Iran accuses the US of a 'reckless military adventure' following recent engagements.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOeWttc0VTU2FsWGFXby1EakdDNHFTMHVJT2ZwaVBucDNtQ1IwRHBXTmJRMGZNQ3pFdllwcENaWUJlUWdPLTJfWDh2R09sQ0xpS0F0bko2bFdxWjBxVU8xdzRBSFVieVNqbGp5bkxNZy16R2x6MnZ2aldHTUlucHlDakFMODBGalp3eVNRVWZGdUpMOWd0dFhYdVQtc3kzZEFSSmdwTkQ4dFRvUlpsdGlCRVVVUTI0dnpVMXAxZFB4NXlla2VXU3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 566
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 567
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

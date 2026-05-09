@@ -1,13 +1,13 @@
 {
-  "updateSequence": 566,
+  "updateSequence": 567,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T00:12:12.427Z",
+  "lastSyncedAt": "2026-05-09T03:59:17.145Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire between Israel and Lebanon appears to be severely tested or partially violated by recent Israeli strikes and Hezbollah responses, though mediation efforts are underway."
+    "summary": "A US-Iran ceasefire is claimed to be in place despite exchanges of fire, while an Israel-Hezbollah truce is actively being tested by military actions."
   }
 }
