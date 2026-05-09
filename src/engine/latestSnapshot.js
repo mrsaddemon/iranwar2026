@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 583,
+  "updateSequence": 584,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T22:57:41.710Z",
+  "lastSyncedAt": "2026-05-09T23:57:38.355Z",
   "warDay": 71,
-  "summary": "A fragile ceasefire is being tested by ongoing Israeli airstrikes in Lebanon and Hezbollah rocket attacks on Israel, while the US awaits Iran's response to negotiation proposals amidst military encounters in the Strait of Hormuz.",
+  "summary": "A fragile ceasefire is being tested by military engagements between the US and Iran in the Strait of Hormuz, and between Israel and Hezbollah in Lebanon, while international efforts for a peace deal continue.",
   "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A fragile ceasefire is being tested by ongoing military actions from both Israel and Hezbollah, while the US awaits Iran's response to negotiation proposals."
+    "durationDays": 30,
+    "summary": "A month-long ceasefire is active but highly fragile, with multiple reported violations and threats of retaliation from both US and Iranian sides, while Israel and Hezbollah continue engagements."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.55
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 58,
+    "globalPressure": 71,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 09",
-      "text": "US awaits response from Iran over proposals for a ceasefire deal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxQZVkwelMtbEU0cDlZQTdoZVBVRU5NSE5ta2JZejN3RlE1NU5IWE9fNTIwVXcxbWhSalJhRTlRMS1tMldva0xMRFF4SVZIMVJNamhaa2Zhd2o0WnhBZVJJc2I5bVhTeTVtR1MtUmpyZnhlX3NGbF9rWXBzblZ2YlFGSlFZZC1xMkNqY0VTRTBpOU9UMnVtdGcwLWVJcTE1NURt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 583
+      "text": "US military intercepted Iranian attacks on three Navy ships in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 584
     },
     {
       "date": "May 09",
-      "text": "Israeli airstrikes kill five in southern Lebanon.",
+      "text": "US fighter jet's attack on Iranian tankers was explained, following earlier US firing on tankers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNNEV5bG9EbmxQRHFwaG9VS1ZjZjdqcFFkUUlURzhYenFlUFlkenAzUE9hVS1mNlFxbzJWSXVnY2gwNElWZ3haVHlab3gybDBja25sOHpsSS1wZUdYWEx5T2ZiZVllTEZsZGtRSklSaW5vS2lpNUtaQ013bGVTR0FYT1lXcVpySnBDdTBYNmhaNVBBWk5qVkE3MzdCVEFUYjdRMF94RTFn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 584
+    },
+    {
+      "date": "May 09",
+      "text": "Tehran accused Washington of 'reckless' attacks and violating the ceasefire by targeting ships, vowing retaliation if further attacks occur.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 584
+    },
+    {
+      "date": "May 09",
+      "text": "Israel conducted airstrikes in southern Lebanon, killing five, and struck Beirut for the first time since the Hezbollah ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 584
+    },
+    {
+      "date": "May 09",
+      "text": "Hezbollah rockets hit open areas in Israel, and Israel reported killing a Hezbollah chief near Beirut, testing the truce.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 583
+      "latestSinceUpdate": 584
     },
     {
       "date": "May 09",
-      "text": "Hezbollah rockets hit open areas in Israel.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 583
-    },
-    {
-      "date": "May 09",
-      "text": "Israeli strikes across Lebanon kill at least 18 amid ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPSkhuSHhxdmpnSVdoRUZkWUYxU1FYMXpNbVZqSV9aa0wtMFowdmhFczlINWM4cm4tQzFNV3VHN1hXamRraDZhMHk1LUx5MnVJb3Btb3VDTHNjbHRfdWZ3bVBrZUxmS1lBQ3VxbUM2LTR1NUFiWndmRzVfRUppNnVmTkFwVlpBcldtSUVGcnpCN2R1dlVXbllHVEdNdWhSaG5qaWJaOHd0OTR4VmFfRC1pUHJCbXItUkdjN0HSAb8BQVVfeXFMT0puUGVHRDJlczNDRUQtNjBNejM5VE9iZkUtY3ZzSTVhOW5GbWc3cGFReXJieXA5ZlJPQXFaUktqRUVDU3BCeFpTelpNUHE4ZUFjOElfbVp1VHBxMHNETmpCaV95QmcyTUhOQ0dyVFRyTTlDN0thaFNsZlNwdXRPMC1WeWlZSXB0Z1JKUDluTV85OEhxRzA3QWFJSmF2Ty1XNndkeXVSZy1zMFQ2TElIa281allySHc4MFQyZG04SHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 583
-    },
-    {
-      "date": "May 09",
-      "text": "Israel kills 23 in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 583
-    },
-    {
-      "date": "May 09",
-      "text": "HMS Dragon heads to Middle East for potential Strait of Hormuz mission.",
+      "text": "The UK dispatched HMS Dragon to the Middle East for a potential Strait of Hormuz mission.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBQblVISmtYbzlfT1NTNG4zeTE4bUdobFhEVlVSMXdjd1F4ekl5VEJVRGNOdGJmZkpYQ2I4V0FycG11dDdwX0tIWEZzZWtRUW9ERlJnRDdSdWlldw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 583
+      "latestSinceUpdate": 584
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
