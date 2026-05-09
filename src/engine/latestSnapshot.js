@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 577,
+  "updateSequence": 578,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T17:15:13.905Z",
+  "lastSyncedAt": "2026-05-09T18:07:26.455Z",
   "warDay": 71,
-  "summary": "The US awaits Iran's response to a peace proposal amidst ongoing Israeli military actions in Lebanon and US naval activity in the region, testing a month-long truce.",
+  "summary": "The US and Iran are engaged in naval confrontations in the Strait of Hormuz while awaiting Iran's response to a peace deal, concurrently with ongoing Israeli airstrikes and Hezbollah rocket fire in Lebanon despite a fragile ceasefire.",
   "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly in effect, but recent Israeli actions in Lebanon are testing its stability as the US awaits Iran's response to a peace deal."
+    "summary": "A month-long ceasefire is reportedly holding, though it has been tested by Israeli strikes in Lebanon and the killing of a Hezbollah chief."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 09",
-      "text": "US awaits Iran’s response to a proposal to end the war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 577
+      "date": "May 07",
+      "text": "US fires on and disables 2 more Iranian tankers as tensions rise in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 578
     },
     {
       "date": "May 09",
-      "text": "Iran is reviewing the U.S. proposal at its 'own pace'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxOaWhMV3E1d0czUkkwLXhHZmVfUE5LaU1aVGtXa0EteDJ5bWRwVkhzcGpXMWl1b1JxSGpGVTVzODh0V2I0VTEyWUdCNkU5V1dRSWJXSEhBRWdKa001UlE3Ty0ycEx3eE9BRWVEdVE5d2NHLVNoeXUzcHhDUjZxaGtjLTBSaGFJS1lqNGtPS2xnT0xDY1R6bXhpMkpFR3VRY09Qd25vTXIzclVlTmpld3p5MkVEQk1ZS210YjFJWTFpd29nMl9UTlcwNTNQU2ZhTGNMYVpVQUdNaHp1dUdfM0HSAeQBQVVfeXFMT3FiRnN3WkNVdHFieUhTY05TcFVsUTFJQXprbUxfZ1N5bHZTLTBTcDAtVHpHVkR4cDZCcjJhWUh3dFNQdnhaVE0wNFMyci03WFllbkpkUU1RREtISURQUWZ2VHNpbHBkSTVhVDd2amxDZHFDdDZtS2xoZW84VDYtV3d4MUN6OVlXNUdiZUYtZU9pLUxqcWkyMGprSTBqZmRnZHcxakRscUtudmEtUXRYZWJ4ZF8tTk1la2IxMXctQXY4VnRCZWk0RzVhQ1Jad1lCN1lkRC1nUHNLc19vSGtsZGxMUVZO?hl=en-US&gl=US&ceid=US:en",
+      "text": "Israeli airstrikes kill five in southern Lebanon as Hezbollah rockets hit open areas in Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 577
+      "latestSinceUpdate": 578
     },
     {
       "date": "May 09",
-      "text": "Israel killed 19 individuals in Lebanon.",
+      "text": "Israel says it killed a Hezbollah chief near Beirut, testing the truce.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 577
+      "latestSinceUpdate": 578
     },
     {
       "date": "May 09",
-      "text": "The U.S. fired on tankers, leading Tehran to accuse Washington of ‘reckless’ attacks.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 577
-    },
-    {
-      "date": "May 09",
-      "text": "Israel announced it killed a Hezbollah chief near Beirut, testing the existing truce.",
+      "text": "US military says it intercepted Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 577
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 578
     },
     {
       "date": "May 09",
-      "text": "HMS Dragon is heading to the Middle East for a potential Strait of Hormuz mission.",
+      "text": "HMS Dragon heads to the Middle East for a potential Strait of Hormuz mission.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBQblVISmtYbzlfT1NTNG4zeTE4bUdobFhEVlVSMXdjd1F4ekl5VEJVRGNOdGJmZkpYQ2I4V0FycG11dDdwX0tIWEZzZWtRUW9ERlJnRDdSdWlldw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 577
+      "latestSinceUpdate": 578
+    },
+    {
+      "date": "May 09",
+      "text": "UK sends warship to the Middle East as Trump awaits Iran’s response to a peace plan.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQMXNPRGZ2WTh3dkR5S3RqQzc4WnBiazR2Ul9MZV9POXczaWJRMHJxaFQwUVp5MmROM19sNzZPSGtWaFJfMWc4a0pFZDFvbTNSZEFyYnRjMzlPai1tR3UzanM5dEcxSWFVLTRFdUF3N0R0SkdsNmlHVWJQZkVWTGdSS05KY3pFUjZfWGkzcXh2RWd3elg1NlpwRGdFZ0xJZmx5X2dOeXlJSGIxZjNIZ3hFWGlYNFA0WS0ya0dnUA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 578
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

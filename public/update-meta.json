@@ -1,13 +1,13 @@
 {
-  "updateSequence": 577,
+  "updateSequence": 578,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T17:15:13.905Z",
+  "lastSyncedAt": "2026-05-09T18:07:26.455Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly in effect, but recent Israeli actions in Lebanon are testing its stability as the US awaits Iran's response to a peace deal."
+    "summary": "A month-long ceasefire is reportedly holding, though it has been tested by Israeli strikes in Lebanon and the killing of a Hezbollah chief."
   }
 }
