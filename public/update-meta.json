@@ -1,13 +1,13 @@
 {
-  "updateSequence": 578,
+  "updateSequence": 579,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T18:07:26.455Z",
+  "lastSyncedAt": "2026-05-09T19:19:28.765Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly holding, though it has been tested by Israeli strikes in Lebanon and the killing of a Hezbollah chief."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
