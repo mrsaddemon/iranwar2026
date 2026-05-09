@@ -1,13 +1,13 @@
 {
-  "updateSequence": 582,
+  "updateSequence": 583,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T21:55:44.455Z",
+  "lastSyncedAt": "2026-05-09T22:57:41.710Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A fragile ceasefire is under severe strain due to direct military engagements between the US and Iran, and ongoing Israeli strikes and Hezbollah responses, despite ongoing negotiations."
+    "summary": "A fragile ceasefire is being tested by ongoing military actions from both Israel and Hezbollah, while the US awaits Iran's response to negotiation proposals."
   }
 }
