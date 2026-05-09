@@ -1,13 +1,13 @@
 {
-  "updateSequence": 575,
+  "updateSequence": 576,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T15:15:14.016Z",
+  "lastSyncedAt": "2026-05-09T16:11:01.768Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is in effect but remains fragile, with both sides reporting violations and ongoing attacks testing its stability."
+    "summary": "A month-long ceasefire between Israel and Lebanon/Hezbollah is in effect but is being tested by recent Israeli strikes and anticipated Hezbollah rocket fire."
   }
 }
