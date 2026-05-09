@@ -1,13 +1,13 @@
 {
-  "updateSequence": 568,
+  "updateSequence": 569,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T06:23:49.666Z",
+  "lastSyncedAt": "2026-05-09T08:18:45.733Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A proposed peace deal is under review by Iran, but ongoing military actions by the US in Hormuz and Israeli strikes in Lebanon indicate a highly fragile or collapsed truce."
+    "summary": "A truce between Israel and Hezbollah is under severe strain following recent strikes and rocket fire, with its future uncertain."
   }
 }

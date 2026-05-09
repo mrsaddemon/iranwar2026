@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 568,
+  "updateSequence": 569,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T06:23:49.666Z",
+  "lastSyncedAt": "2026-05-09T08:18:45.733Z",
   "warDay": 71,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A proposed peace deal is under review by Iran, but ongoing military actions by the US in Hormuz and Israeli strikes in Lebanon indicate a highly fragile or collapsed truce."
+    "summary": "A truce between Israel and Hezbollah is under severe strain following recent strikes and rocket fire, with its future uncertain."
   },
   "actorOverrides": {
     "usa": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 07",
-      "text": "US fires on and disables 2 more Iranian tankers in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 568
-    },
-    {
-      "date": "May 07",
-      "text": "Iran accuses the US of 'reckless military adventure' in Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 568
-    },
-    {
-      "date": "May 07",
-      "text": "US military intercepts Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxObENkOFNhc08zdzBiZEpmMGQxVzZScm9tZ2NhcUpxd0FMRUU3YUpuTDl4eG9ER0JnaWNQUDBLcDd3b1Vhb0hBeV9rd0xiaTZVSG9rSTBvWmhLNjgxNTJYVmQzWnpUS3pVV3ZSaUM3MWUwMkRDajNUMHItdGowZHpHaWNPQUJnN09KMDdrWmN1Z2NVbHd2M2xsRGJSXzN1S1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 568
-    },
-    {
-      "date": "May 07",
-      "text": "Israel strikes Beirut for the first time since a ceasefire, killing a Hezbollah chief.",
+      "date": "May 09",
+      "text": "US forces fire upon and disable two Iranian tankers in the Strait of Hormuz, escalating tensions.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 568
+      "sourceName": "Google News",
+      "latestSinceUpdate": 569
     },
     {
-      "date": "May 07",
-      "text": "Hezbollah rockets hit open areas in Israel following Israeli airstrikes in southern Lebanon.",
-      "severity": "warning",
+      "date": "May 09",
+      "text": "Israel conducts airstrikes in Beirut, marking the first such action since a recent ceasefire.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 569
+    },
+    {
+      "date": "May 09",
+      "text": "Israeli airstrikes kill five in southern Lebanon; Hezbollah responds with rocket fire into open areas in Israel.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 568
+      "sourceName": "Google News",
+      "latestSinceUpdate": 569
     },
     {
-      "date": "May 07",
-      "text": "Iran is reviewing a US peace proposal amid 'sporadic clashes' in the Hormuz Strait.",
+      "date": "May 09",
+      "text": "Israel announces the killing of a Hezbollah chief near Beirut, further testing the existing truce.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 569
+    },
+    {
+      "date": "May 09",
+      "text": "Satellite imagery suggests Iran has struck more U.S. military assets than publicly acknowledged.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 569
+    },
+    {
+      "date": "May 09",
+      "text": "The U.S. awaits Iran's response to a proposed peace deal amidst ongoing Israeli actions in Lebanon.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 568
+      "sourceName": "Google News",
+      "latestSinceUpdate": 569
     }
   ],
   "sourceStatuses": [
