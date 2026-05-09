@@ -1,13 +1,13 @@
 {
-  "updateSequence": 572,
+  "updateSequence": 573,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T11:37:09.539Z",
+  "lastSyncedAt": "2026-05-09T12:39:03.466Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A ceasefire between Israel and Lebanon/Hezbollah is active but highly fragile, having been tested by recent Israeli strikes in Beirut and southern Lebanon, and Hezbollah rocket fire."
+    "summary": "A previous ceasefire has been violated, and a new peace proposal is under review amidst ongoing military actions and exchanges of fire."
   }
 }
