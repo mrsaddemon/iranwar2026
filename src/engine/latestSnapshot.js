@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 573,
+  "updateSequence": 574,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T12:39:03.466Z",
+  "lastSyncedAt": "2026-05-09T14:09:07.288Z",
   "warDay": 71,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Direct military exchanges between the US and Iran continue, alongside Israeli strikes in Lebanon and Hezbollah rocket fire, as diplomatic efforts for a ceasefire remain ongoing but challenged.",
   "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previous ceasefire has been violated, and a new peace proposal is under review amidst ongoing military actions and exchanges of fire."
+    "summary": "A proposed ceasefire deal is under negotiation, but ongoing military actions by all parties are testing its fragility and preventing full implementation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 07",
-      "text": "US fires on and disables 2 Iranian tankers in the Strait of Hormuz.",
+      "date": "May 09",
+      "text": "US fires on and disables two more Iranian tankers in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcExZcVpZYU4yU3oxSEpmajVmMktveG8zd1V3anRxdHhneVR1LUFuSUtSZGJpZUEwVEZTNkNZRlBGSzRQSVRkZVprMkp5dzhVUFJPMkdmTFVQMF9tOF8xVng2Qy01ZDlWNW5oTEhjeVcxd0ltQ3h2LUVBNVg1THRtUFp5Y3Ezd1MwUkR6elNoWHNDY00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 573
+      "latestSinceUpdate": 574
     },
     {
-      "date": "May 07",
-      "text": "US military strikes sites in Iran.",
+      "date": "May 09",
+      "text": "US military strikes sites in Iran amidst ongoing exchanges of fire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOWXUwRGdlNmJ0QlZ4YlNseHlhRFRoZlhxWG1jM0xMZnB0R1lyUVhBcjk2U0Y3U214Yzhib0o2RFF6dW5Hb0lZSkhCRXhBRU9XaTI5RWRMNXdER2RZdDBtT2ZMb01XZU9tRnhJLUNOd0dQTXRzdnNVTGhpcW9LSVF6c3hYSmU1MEN0aWo1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 573
+      "latestSinceUpdate": 574
     },
     {
-      "date": "May 07",
-      "text": "Israel attacks Lebanon, striking Beirut for the first time since a previous ceasefire.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 573
-    },
-    {
-      "date": "May 07",
-      "text": "Israeli airstrikes kill five in southern Lebanon.",
-      "severity": "critical",
+      "date": "May 09",
+      "text": "Israel conducts airstrikes in southern Lebanon, killing five, while Hezbollah rockets hit open areas in Israel.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 573
+      "latestSinceUpdate": 574
     },
     {
-      "date": "May 07",
-      "text": "Hezbollah rockets hit open areas in Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNR2ozelJoYXFPV3dGOTFQaXNnX25YWW4zOTFwU3U5TG95V1NnV0pOOWdCQzFubE54cUJNaUI1c1hBZnFTdHoxVjdsdVc5RXR0WWhIM0F6c3FiQnFuWVdjMHVHTzA0SG1UNHdwaXF4SEYwalhuY1NjRmVhaDJvNGV6Z25TWVQteHlwUFJjMUFrR2d5Sk1NSERjY3lEanRobkY4d3BvZnVxS21mNlJNa201NWY4RzA2anF1YVE4NUxwbGNYRWpp0gHKAUFVX3lxTE1qa0RXVFQyT1dZb0Fwd2dQWWtleVhDdzk1dmVFMjZWSU8tUkwtdDBycS0xSUNZV0hMc25DWnl2X2dKN1k5cXFkMjhsX3Y0UmFxWEtBbTBpQ1VYQXp5ak91akhhejFuN3dUdkNua3VLTGY5NE1YbnJjZG9BbUtqdHVGVmoxX25rSjBaWGZlQURCYTFrZmtvcjE2cFRwVC1BM1RxWnpBdkVqYXhQemExcWNqdmp6YnF3RjBxYnRxWnFxY3FsTTRmLWQ0N2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 573
-    },
-    {
-      "date": "May 07",
-      "text": "Israel kills a Hezbollah Chief near Beirut, testing the truce.",
+      "date": "May 09",
+      "text": "Israel strikes Beirut for the first time since a previous Lebanon ceasefire.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 574
+    },
+    {
+      "date": "May 09",
+      "text": "Israel reports killing a Hezbollah chief near Beirut, testing the existing truce.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 573
+      "latestSinceUpdate": 574
+    },
+    {
+      "date": "May 09",
+      "text": "The UK dispatches a warship to the Middle East.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQMXNPRGZ2WTh3dkR5S3RqQzc4WnBiazR2Ul9MZV9POXczaWJRMHJxaFQwUVp5MmROM19sNzZPSGtWaFJfMWc4a0pFZDFvbTNSZEFyYnRjMzlPai1tR3UzanM5dEcxSWFVLTRFdUF3N0R0SkdsNmlHVWJQZkVWTGdSS05KY3pFUjZfWGkzcXh2RWd3elg1NlpwRGdFZ0xJZmx5X2dOeXlJSGIxZjNIZ3hFWGlYNFA0WS0ya0dnUA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 574
     }
   ],
   "sourceStatuses": [

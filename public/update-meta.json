@@ -1,13 +1,13 @@
 {
-  "updateSequence": 573,
+  "updateSequence": 574,
   "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T12:39:03.466Z",
+  "lastSyncedAt": "2026-05-09T14:09:07.288Z",
   "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previous ceasefire has been violated, and a new peace proposal is under review amidst ongoing military actions and exchanges of fire."
+    "summary": "A proposed ceasefire deal is under negotiation, but ongoing military actions by all parties are testing its fragility and preventing full implementation."
   }
 }
