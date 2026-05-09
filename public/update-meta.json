@@ -1,13 +1,13 @@
 {
-  "updateSequence": 565,
-  "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T23:12:52.625Z",
-  "warDay": 70,
+  "updateSequence": 566,
+  "lastUpdated": "2026-05-09",
+  "lastSyncedAt": "2026-05-09T00:12:12.427Z",
+  "warDay": 71,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A previously established truce is under severe strain, with both US and Israeli forces conducting strikes that Iran claims violate the agreement."
+    "summary": "A ceasefire between Israel and Lebanon appears to be severely tested or partially violated by recent Israeli strikes and Hezbollah responses, though mediation efforts are underway."
   }
 }

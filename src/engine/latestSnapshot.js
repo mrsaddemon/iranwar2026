@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 565,
-  "lastUpdated": "2026-05-08",
-  "lastSyncedAt": "2026-05-08T23:12:52.625Z",
-  "warDay": 70,
-  "summary": "Direct military engagements between the US and Iran have escalated in the Strait of Hormuz and within Iran, while Israel continues strikes in Lebanon amidst a fragile truce.",
-  "lastNarrativeUpdate": "2026-05-08",
+  "updateSequence": 566,
+  "lastUpdated": "2026-05-09",
+  "lastSyncedAt": "2026-05-09T00:12:12.427Z",
+  "warDay": 71,
+  "summary": "Direct military engagements between the US and Iran have occurred in the Strait of Hormuz and on Iranian sites, while Israel has conducted strikes in Lebanon, testing an existing truce.",
+  "lastNarrativeUpdate": "2026-05-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A previously established truce is under severe strain, with both US and Israeli forces conducting strikes that Iran claims violate the agreement."
+    "summary": "A ceasefire between Israel and Lebanon appears to be severely tested or partially violated by recent Israeli strikes and Hezbollah responses, though mediation efforts are underway."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.4,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
-    "allianceInfluence": 51
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 07",
-      "text": "US forces fired on and disabled two Iranian tankers in the Strait of Hormuz.",
+      "text": "US forces fired upon and disabled two Iranian-flagged oil tankers in the Strait of Hormuz, claiming they attempted to violate a blockade.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 565
+      "latestSinceUpdate": 566
     },
     {
       "date": "May 07",
-      "text": "Iran accused the US of a 'reckless military adventure' and violating a ceasefire by targeting ships.",
+      "text": "Iran accused the US of a 'reckless military adventure' and violating a ceasefire by targeting its ships.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 566
+    },
+    {
+      "date": "May 08",
+      "text": "Israel launched airstrikes on Beirut for the first time since a Lebanon ceasefire, killing five in southern Lebanon and a Hezbollah chief near Beirut.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 566
+    },
+    {
+      "date": "May 08",
+      "text": "Hezbollah responded with rocket fire into open areas in Israel.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 565
+      "latestSinceUpdate": 566
     },
     {
-      "date": "May 07",
-      "text": "Israel launched strikes on Beirut and killed five in southern Lebanon, while Hezbollah rockets hit open areas in Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 565
-    },
-    {
-      "date": "May 07",
-      "text": "The US military conducted strikes on sites within Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOWXUwRGdlNmJ0QlZ4YlNseHlhRFRoZlhxWG1jM0xMZnB0R1lyUVhBcjk2U0Y3U214Yzhib0o2RFF6dW5Hb0lZSkhCRXhBRU9XaTI5RWRMNXdER2RZdDBtT2ZMb01XZU9tRnhJLUNOd0dQTXRzdnNVTGhpcW9LSVF6c3hYSmU1MEN0aWo1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 565
-    },
-    {
-      "date": "May 07",
-      "text": "Israel announced it killed a Hezbollah chief near Beirut, testing the existing truce.",
-      "severity": "critical",
+      "date": "May 09",
+      "text": "The US announced it would mediate talks between Israel and Lebanon to de-escalate tensions.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 565
+      "latestSinceUpdate": 566
+    },
+    {
+      "date": "May 09",
+      "text": "Iran stated it would respond to a peace plan proposed by former US President Trump, as urgent talks were held.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOeWttc0VTU2FsWGFXby1EakdDNHFTMHVJT2ZwaVBucDNtQ1IwRHBXTmJRMGZNQ3pFdllwcENaWUJlUWdPLTJfWDh2R09sQ0xpS0F0bko2bFdxWjBxVU8xdzRBSFVieVNqbGp5bkxNZy16R2x6MnZ2aldHTUlucHlDakFMODBGalp3eVNRVWZGdUpMOWd0dFhYdVQtc3kzZEFSSmdwTkQ4dFRvUlpsdGlCRVVVUTI0dnpVMXAxZFB4NXlla2VXU3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 566
     }
   ],
   "sourceStatuses": [
@@ -131,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Government",
-      "headline": "US Responds to Attacks, Seeks De-escalation Amid Peace Talks",
-      "summary": "The US military has conducted 'self-defense strikes' against Iranian targets following attacks on its warships in the Strait of Hormuz, while simultaneously asserting it does not seek escalation. President Trump indicates a peace deal with Iran could be imminent, with Tehran reviewing the latest US offer.",
-      "tone": "strained",
-      "latestSinceUpdate": 551
-    },
-    {
-      "perspective": "Iranian Government",
-      "headline": "US Violates Ceasefire, Iran Responds to Aggression",
-      "summary": "Tehran accuses the US of violating the existing ceasefire by targeting Iranian sites and ships. Iran maintains its right to respond to 'unprovoked attacks' in the Strait of Hormuz, while also considering a US peace deal proposal.",
+      "perspective": "Iran",
+      "headline": "US actions in Hormuz are reckless and violate agreements",
+      "summary": "Iran condemns recent US military actions in the Strait of Hormuz as a 'reckless military adventure' and a violation of an existing ceasefire, asserting that the US targeted its ships. Tehran indicates it will respond to external peace proposals.",
       "tone": "defiant",
-      "latestSinceUpdate": 551
+      "latestSinceUpdate": 566
     },
     {
-      "perspective": "Israeli Government",
-      "headline": "Targeted Strikes in Lebanon Test Truce, Counter Hezbollah Threat",
-      "summary": "Israel has launched precision airstrikes in Beirut, targeting and killing a senior Hezbollah commander, marking the first such strike since the Lebanon ceasefire. These actions are framed as necessary to counter Hezbollah's continued operational capabilities amidst the broader regional conflict.",
+      "perspective": "United States",
+      "headline": "US acts to enforce blockade, mediate regional tensions",
+      "summary": "The US military engaged Iranian tankers for allegedly violating a blockade and conducted strikes on Iranian sites. Concurrently, the US is seeking to mediate talks between Israel and Lebanon to de-escalate regional tensions.",
       "tone": "strained",
-      "latestSinceUpdate": 551
+      "latestSinceUpdate": 566
+    },
+    {
+      "perspective": "Israel",
+      "headline": "Strikes target militants, no immunity for threats",
+      "summary": "Israel has conducted strikes in Lebanon, including Beirut, stating there is 'no immunity' for militants and confirming the killing of a Hezbollah chief. These actions are described as testing a truce and responding to ongoing threats.",
+      "tone": "defiant",
+      "latestSinceUpdate": 566
+    },
+    {
+      "perspective": "Regional Analysis",
+      "headline": "Escalation continues despite initial US military success",
+      "summary": "While the initial military engagements between the US and Iran may have favored the US, the broader conflict remains difficult to conclude. Israeli actions in Lebanon are seen as potentially sowing division within the country.",
+      "tone": "anxious",
+      "latestSinceUpdate": 566
     }
   ]
 });
