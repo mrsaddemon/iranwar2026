@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 594,
+  "updateSequence": 595,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T16:37:50.568Z",
+  "lastSyncedAt": "2026-05-10T17:38:50.458Z",
   "warDay": 72,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-10",
@@ -10,12 +10,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A previously established ceasefire between Israel and Hezbollah has collapsed following renewed Israeli airstrikes in Lebanon and Hezbollah's retaliatory actions."
+    "summary": "A previously established ceasefire between Israel and Hezbollah appears fragile, with both sides reporting violations and continued military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -36,7 +36,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 62,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 10",
-      "text": "Iran sends its response to the US proposal to end the war to Pakistan.",
+      "text": "Iran sends its response to the US proposal to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPenk2aFlwU0NEd0tIMm5QVG4wTnRNSVIwX3FuWTNHdFlfcm5WQ0d3ZlR2emNfQ1d5VEVsWldZU1lTUnc0dWZoVkExdW1mcWNGSGQyZFZDaWc3SlliY0tJNWREa2FMZ0VzeklrQk5KbjZDVkRBVF9WbzBMakZsaDNweE9DQmNybW1GaGZaZUZMcU80S0owMkEyRXBDOHNtYWVfbHpzUjVrd1NpVjdnOXFkcDk5OXlHa1JRSm9KSWptNHrSAcYBQVVfeXFMT3RMTDM5YW12QmRDcndKNDYxWnlFWlZDRUh6eF9iZ1ZObllWMnpyeFJoaDEwS0k5NUljTXRJRmFNdTRYYzRScXJ3cWctN1ZIWUFpTFFKWU1tMkQxVFYteGhTZDBMN2ZYOXExa0cyU0w0M3dqejZhSUNDYnZTWlV4Y1hKT3h6X2J1ajlOTG83WURDdS1Qa3JYbWlNMDlHcFhSS2hUc3lDRzhOUnlTcXZOXzZIVjVQTVBydVdiQ1lzYVdMTHF3eDh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 593
+      "latestSinceUpdate": 595
     },
     {
       "date": "May 10",
-      "text": "US fires on tankers, leading Tehran to accuse Washington of 'reckless' attacks.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 594
-    },
-    {
-      "date": "May 10",
-      "text": "Israel kills 24 in Lebanon and conducts airstrikes in southern Lebanon and Beirut.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 594
-    },
-    {
-      "date": "May 10",
-      "text": "Hezbollah claims to have targeted an Israeli military base with drones and launched rockets into open areas in Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNcWFuRS1IdHl1VmtJTjBhdmtLRjZkbU9GUlMtMTVCVnVPOW9LYlpuV0VjZTJKSk5GdlQyR0JFWVpMbkE0cGxLekdyLS1YWjdRbHdOeV8tT0xBNnl1ajFuLXVqMGxTU3BvMFJ0T09IY3kzTnBQWFUwQzZrNFdjZG9pRllwYXY3bE5taFdTR2dJUVpoMnVCM2htcmtJU3lwdVpFay1mMWY4eWlOM295MXpEcHhvWTlrczdNMnUzRnJfMVI3WGpqR1h3ZzVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 594
-    },
-    {
-      "date": "May 10",
-      "text": "The Strait of Hormuz remains effectively blocked following naval skirmishes.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 594
-    },
-    {
-      "date": "May 10",
-      "text": "US military intercepts Iranian attacks on three Navy ships and carries out retaliatory strikes.",
+      "text": "U.S. forces fire on tankers and carry out retaliatory strikes against Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 594
+      "latestSinceUpdate": 595
+    },
+    {
+      "date": "May 10",
+      "text": "Israel kills 24 in Lebanon and strikes Beirut for the first time since a ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 595
+    },
+    {
+      "date": "May 10",
+      "text": "Hezbollah rockets hit open areas in Israel and claims to target an Israeli military base with drones.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNcWFuRS1IdHl1VmtJTjBhdmtLRjZkbU9GUlMtMTVCVnVPOW9LYlpuV0VjZTJKSk5GdlQyR0JFWVpMbkE0cGxLekdyLS1YWjdRbHdOeV8tT0xBNnl1ajFuLXVqMGxTU3BvMFJ0T09IY3kzTnBQWFUwQzZrNFdjZG9pRllwYXY3bE5taFdTR2dJUVpoMnVCM2htcmtJU3lwdVpFay1mMWY4eWlOM295MXpEcHhvWTlrczdNMnUzRnJfMVI3WGpqR1h3ZzVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 595
+    },
+    {
+      "date": "May 10",
+      "text": "US military intercepts Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 595
+    },
+    {
+      "date": "May 10",
+      "text": "A South Korean ship in the Strait of Hormuz is damaged by unidentified objects.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUU9tUEYzYXY2MXNtbTJ3ZWtlRGJIanBJRVRUVW1zdURrNlJsM2pQV2dWS0UyWWREd3FTOG9UQ3c3NFlXdTlkRTZpZF9qQXBtRlZubnRUNEhpVmJnTWF6NWhReXd0NUNKZHkwYUFGWXJCOGx0aFVMV0FPekJhM1A3SURIeXpKWVdleG4zQ0tHLThBZWV3R3p1LTdjTmFlWl8xVm9aZzJNVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 595
     }
   ],
   "sourceStatuses": [
