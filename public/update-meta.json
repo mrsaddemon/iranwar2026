@@ -1,13 +1,13 @@
 {
-  "updateSequence": 597,
+  "updateSequence": 598,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T19:48:01.785Z",
+  "lastSyncedAt": "2026-05-10T20:31:55.852Z",
   "warDay": 72,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A previous ceasefire between Israel and Hezbollah is under severe strain following recent Israeli strikes on Lebanon despite a reported truce."
   }
 }
