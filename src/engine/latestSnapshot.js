@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 599,
+  "updateSequence": 600,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T21:27:01.623Z",
+  "lastSyncedAt": "2026-05-10T22:25:21.605Z",
   "warDay": 72,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-10",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "The US rejected Iran's peace proposal, and ongoing Israeli strikes in Lebanon have eroded a previous truce, indicating no active ceasefire."
+    "summary": "A ceasefire in Lebanon is actively eroding due to deadly Israeli strikes, despite reports of a truce."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.45,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 88,
+    "tradeImpact": 64,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 10",
-      "text": "Trump rejects Iran’s response to US peace plan as 'totally unacceptable'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPenk2aFlwU0NEd0tIMm5QVG4wTnRNSVIwX3FuWTNHdFlfcm5WQ0d3ZlR2emNfQ1d5VEVsWldZU1lTUnc0dWZoVkExdW1mcWNGSGQyZFZDaWc3SlliY0tJNWREa2FMZ0VzeklrQk5KbjZDVkRBVF9WbzBMakZsaDNweE9DQmNybW1GaGZaZUZMcU80S0owMkEyRXBDOHNtYWVfbHpzUjVrd1NpVjdnOXFkcDk5OXlHa1JRSm9KSWptNHrSAcYBQVVfeXFMT3RMTDM5YW12QmRDcndKNDYxWnlFWlZDRUh6eF9iZ1ZObllWMnpyeFJoaDEwS0k5NUljTXRJRmFNdTRYYzRScXJ3cWctN1ZIWUFpTFFKWU1tMkQxVFYteGhTZDBMN2ZYOXExa0cyU0w0M3dqejZhSUNDYnZTWlV4Y1hKT3h6X2J1ajlOTG83WURDdS1Qa3JYbWlNMDlHcFhSS2hUc3lDRzhOUnlTcXZOXzZIVjVQTVBydVdiQ1lzYVdMTHF3eDh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 599
+      "text": "US President Trump rejects Iran's peace proposal to end the war, calling it 'unacceptable'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 600
     },
     {
       "date": "May 10",
-      "text": "U.S. fires on tankers and carries out retaliatory strikes against Iran, accusing Tehran of 'reckless' attacks in the Strait of Hormuz.",
+      "text": "US military fires on Iranian tankers and carries out retaliatory strikes, with Tehran accusing Washington of 'reckless' attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 599
+      "latestSinceUpdate": 600
     },
     {
       "date": "May 10",
-      "text": "Israeli airstrikes kill 24, 5, 9, and 39 in southern Lebanon, eroding a previous cease-fire.",
+      "text": "Israeli airstrikes kill 24 people in Lebanon, with other reports citing 5, 9, and 39 fatalities, eroding an existing ceasefire.",
       "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 600
+    },
+    {
+      "date": "May 10",
+      "text": "Hezbollah rockets hit open areas in Israel following Israeli strikes in southern Lebanon.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 599
+      "latestSinceUpdate": 600
     },
     {
       "date": "May 10",
-      "text": "US military intercepts Iranian attacks in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxObFR5UnNDWUxiUV93amJyTEFXLVpJYVV1bVFXWDVVem9FQ1pzX0JHWnVSMHB4aEEtdUszd3g4LWgwdDBTWUQwdHFEb2t1QVRKM3JOQmJMQnppRk1kNDg2OUl3YTk5MGxidGhOVGZ0VC1BSVU1OUZiWUppazY4M3Fyd2FRdTA1bW1CMW5YQVh3c1hPVzBTTGd0aWZsZlNnaGlGUlE0UTJlLWtNeWlDNncxd3RtMjlXbHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 599
-    },
-    {
-      "date": "May 10",
-      "text": "The Strait of Hormuz crisis is highlighted as a critical energy security issue.",
+      "text": "Iran warns Britain that any warship deployment to the Strait of Hormuz 'will be met with decisive response'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNTUJwSmdOdnNmQkVIdHVSNTBzUTBZMHhNRFJVSDRDWGdCNTBoT0puZjM0NWhnVXBKTkswWkVlVXY1RmRRQUtuSTRMU2xGT243UWVka3ptYVpVUi1YWXJ4M1VUM2hqeUE3aVFJTks2VFRWSzAybTNMaGtYaVhGREgxRFZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 599
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 600
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 599,
+  "updateSequence": 600,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T21:27:01.623Z",
+  "lastSyncedAt": "2026-05-10T22:25:21.605Z",
   "warDay": 72,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "The US rejected Iran's peace proposal, and ongoing Israeli strikes in Lebanon have eroded a previous truce, indicating no active ceasefire."
+    "summary": "A ceasefire in Lebanon is actively eroding due to deadly Israeli strikes, despite reports of a truce."
   }
 }
