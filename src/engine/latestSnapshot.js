@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 590,
+  "updateSequence": 591,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T12:00:16.255Z",
+  "lastSyncedAt": "2026-05-10T13:48:37.566Z",
   "warDay": 72,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly in effect, with the US awaiting Iran's response to a peace proposal, though ongoing military actions by all parties indicate its fragility."
+    "summary": "A month-long ceasefire is in effect, but ongoing military actions in the Strait of Hormuz and Lebanon indicate its fragility."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,16 +27,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.7
       }
     }
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 07",
-      "text": "US awaits response from Iran on proposal to end war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 590
+      "date": "May 10",
+      "text": "U.S. Fires on Tankers as Tehran Accuses Washington of ‘Reckless’ Attacks",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxOWDN1U0Q2SXBtOGNaeHpVc1BWQy1SMkdoNjJuSHRsdWM1bFJ3S3dYVk8xRkpqemtmZ3RwQUkzYlQ1RE9IUzlnSk5WTk55ekU3dlZrT1hJNlVSR09qR0JYZjdELWVDMk1ocks4SGZaWDJsZXRPU1JDM3I0U0NqcmV2dzhNVGVnSlJD?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 591
     },
     {
       "date": "May 10",
-      "text": "Israeli airstrikes kill five in southern Lebanon as Hezbollah rockets hit open areas in Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 590
-    },
-    {
-      "date": "May 10",
-      "text": "Israel says it killed a Hezbollah chief near Beirut, testing the truce.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 590
-    },
-    {
-      "date": "May 10",
-      "text": "Hezbollah claims new attack targeting military base in Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTFAyOFZpck5WekhzeC13VUF3M29WSUZxay14YUVISUdsZUZ6VG5OcGpFeXpxOUVMdVVZNmFvQXFRODlBT3VYaEhibExlTi05UkJ6V1BUVTdUNFdKZGpuQ3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Arab News",
-      "latestSinceUpdate": 590
-    },
-    {
-      "date": "May 10",
-      "text": "US military says it intercepted Iranian attacks on 3 Navy ships in Strait of Hormuz.",
+      "text": "US military says it intercepted Iranian attacks on 3 Navy ships in Strait of Hormuz",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 590
+      "latestSinceUpdate": 591
     },
     {
       "date": "May 10",
-      "text": "US military says it carries out retaliatory strikes against Iran.",
+      "text": "US military says it carries out retaliatory strikes against Iran",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 590
+      "latestSinceUpdate": 591
+    },
+    {
+      "date": "May 10",
+      "text": "Israel kills 24 in Lebanon as US awaits Tehran’s reply",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 591
+    },
+    {
+      "date": "May 10",
+      "text": "Israel Says It Killed a Hezbollah Chief Near Beirut, Testing the Truce",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNR0xZeHZNdEhXTlJFZjg4SV8yVDh4UG82OEJhdFg2MXVRWURkbzZ6U1Byck16ZHRsZ0IzbW5PVm4za1F3VEZUem4yWGtkdldUVW9iZGRQblhGVWJDaVg0ZDB2b0dGbVJINGpLVGdPTm1HU2E1bTl1eUhzUWF5R2R1UXFFd0hhLUM1LWh2S3hQVUxaSjhqUnVvX3A1VmdFQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 591
+    },
+    {
+      "date": "May 10",
+      "text": "Iran sends response to US proposal to end war via mediator Pakistan",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPZ0ZHLUN6ZUhrVDRVRDNHbkRjMFRkQ0ZkRWd2RW5lenZoRDlCTDVNOWx5OUgySEowbjBwVzlma0Yzb2tVN1F6OGRaZEJWa0o2ODUtck9WekNaRUxZYjgtR2EwMU5fNXg1Q1JfVm1POGlmcXFxNkpYajhWS2Q5VEdqMW5YSnR4WjBRRFpOTUVNbkZQTFcxRTJkTkJ4S0RpOExOUjl4eHZGY2NDUC1W0gGyAUFVX3lxTFBsUl9QVWlBaHBCVG82YTMxYVZ1aDl2Wk9CenRmcjU1LVlENmZ0dGI4ZFJiMW1XQVBrelVkamVnZURKckdJT2cwUDQtcGo5b18wV1VUNk1Bb0dIZkpKZzJnZ3p2S0I2VkhrMzJ2Q0FSMUlzM1BDUUVfOTQtWFA2NmFOdlZYbFBpeTRVU3EycDRqREVkdU9pZ1VRdmdJQmxQRWpoQTFvX3FoR3lMb3Z2NHV1TWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 591
     }
   ],
   "sourceStatuses": [
