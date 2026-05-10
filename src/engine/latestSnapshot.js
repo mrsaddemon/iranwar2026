@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 598,
+  "updateSequence": 599,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T20:31:55.852Z",
+  "lastSyncedAt": "2026-05-10T21:27:01.623Z",
   "warDay": 72,
-  "summary": "The US and Iran are engaged in military actions and diplomatic exchanges regarding peace proposals, while Israel and Hezbollah continue to conduct strikes despite a reported truce.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A previous ceasefire between Israel and Hezbollah is under severe strain following recent Israeli strikes on Lebanon despite a reported truce."
+    "summary": "The US rejected Iran's peace proposal, and ongoing Israeli strikes in Lebanon have eroded a previous truce, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 09",
-      "text": "U.S. fires on tankers as Tehran accuses Washington of ‘Reckless’ Attacks.",
+      "date": "May 10",
+      "text": "Trump rejects Iran’s response to US peace plan as 'totally unacceptable'.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 598
-    },
-    {
-      "date": "May 09",
-      "text": "Israel kills 24 in Lebanon amid ongoing conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPenk2aFlwU0NEd0tIMm5QVG4wTnRNSVIwX3FuWTNHdFlfcm5WQ0d3ZlR2emNfQ1d5VEVsWldZU1lTUnc0dWZoVkExdW1mcWNGSGQyZFZDaWc3SlliY0tJNWREa2FMZ0VzeklrQk5KbjZDVkRBVF9WbzBMakZsaDNweE9DQmNybW1GaGZaZUZMcU80S0owMkEyRXBDOHNtYWVfbHpzUjVrd1NpVjdnOXFkcDk5OXlHa1JRSm9KSWptNHrSAcYBQVVfeXFMT3RMTDM5YW12QmRDcndKNDYxWnlFWlZDRUh6eF9iZ1ZObllWMnpyeFJoaDEwS0k5NUljTXRJRmFNdTRYYzRScXJ3cWctN1ZIWUFpTFFKWU1tMkQxVFYteGhTZDBMN2ZYOXExa0cyU0w0M3dqejZhSUNDYnZTWlV4Y1hKT3h6X2J1ajlOTG83WURDdS1Qa3JYbWlNMDlHcFhSS2hUc3lDRzhOUnlTcXZOXzZIVjVQTVBydVdiQ1lzYVdMTHF3eDh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 598
+      "latestSinceUpdate": 599
     },
     {
-      "date": "May 09",
-      "text": "Israeli airstrikes kill five in southern Lebanon as Hezbollah rockets hit open areas in Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 598
-    },
-    {
-      "date": "May 09",
-      "text": "Israel strikes Beirut for first time since Hezbollah ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 598
-    },
-    {
-      "date": "May 09",
-      "text": "Iran threatens warships in Strait of Hormuz after sending response to Trump peace plan.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPbkFzc2kwM08yeTZKS2xJYTkwYTByLWpaOFk5WGI1dEtEem5qOUY4WV9UNkRnSERpbDhrVm01R0FrZy1ST3MzNEFzNTFVQkhGTTZZQXdUTGhSRGRrVjZmdkpxdXBwWlBxMFFUdTZ2UDNSWXBVTXliX1pyeGlCRHVpSDQtLVhwMjRPdEttaWczX2ZWTkxHbjNyeGhUXzF0cjgwTGZ0UVRSaGo2dEhPMm52eFJYUVFLeUU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 598
-    },
-    {
-      "date": "May 09",
-      "text": "US military carries out retaliatory strikes against Iran and intercepts Iranian attacks in Strait of Hormuz.",
+      "date": "May 10",
+      "text": "U.S. fires on tankers and carries out retaliatory strikes against Iran, accusing Tehran of 'reckless' attacks in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 598
+      "latestSinceUpdate": 599
+    },
+    {
+      "date": "May 10",
+      "text": "Israeli airstrikes kill 24, 5, 9, and 39 in southern Lebanon, eroding a previous cease-fire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 599
+    },
+    {
+      "date": "May 10",
+      "text": "US military intercepts Iranian attacks in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxObFR5UnNDWUxiUV93amJyTEFXLVpJYVV1bVFXWDVVem9FQ1pzX0JHWnVSMHB4aEEtdUszd3g4LWgwdDBTWUQwdHFEb2t1QVRKM3JOQmJMQnppRk1kNDg2OUl3YTk5MGxidGhOVGZ0VC1BSVU1OUZiWUppazY4M3Fyd2FRdTA1bW1CMW5YQVh3c1hPVzBTTGd0aWZsZlNnaGlGUlE0UTJlLWtNeWlDNncxd3RtMjlXbHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 599
+    },
+    {
+      "date": "May 10",
+      "text": "The Strait of Hormuz crisis is highlighted as a critical energy security issue.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNTUJwSmdOdnNmQkVIdHVSNTBzUTBZMHhNRFJVSDRDWGdCNTBoT0puZjM0NWhnVXBKTkswWkVlVXY1RmRRQUtuSTRMU2xGT243UWVka3ptYVpVUi1YWXJ4M1VUM2hqeUE3aVFJTks2VFRWSzAybTNMaGtYaVhGREgxRFZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 599
     }
   ],
   "sourceStatuses": [

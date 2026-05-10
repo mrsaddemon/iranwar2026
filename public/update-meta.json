@@ -1,13 +1,13 @@
 {
-  "updateSequence": 598,
+  "updateSequence": 599,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T20:31:55.852Z",
+  "lastSyncedAt": "2026-05-10T21:27:01.623Z",
   "warDay": 72,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A previous ceasefire between Israel and Hezbollah is under severe strain following recent Israeli strikes on Lebanon despite a reported truce."
+    "summary": "The US rejected Iran's peace proposal, and ongoing Israeli strikes in Lebanon have eroded a previous truce, indicating no active ceasefire."
   }
 }
