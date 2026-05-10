@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 585,
+  "updateSequence": 586,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T04:05:22.585Z",
+  "lastSyncedAt": "2026-05-10T06:40:48.009Z",
   "warDay": 72,
-  "summary": "A month-long ceasefire between Israel and Iran remains fragile amidst continued retaliatory strikes, threats of escalation, and ongoing peace negotiations, with the US intercepting Iranian attacks and Russia offering nuclear support to Iran.",
+  "summary": "The US awaits Iran's response to a peace proposal amidst ongoing Israeli airstrikes in Lebanon, Hezbollah rocket attacks, and Iranian warnings regarding the Strait of Hormuz, while a month-long ceasefire appears fragile.",
   "lastNarrativeUpdate": "2026-05-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is in effect but remains shaky, with frequent violations and retaliatory actions from all parties."
+    "summary": "A month-long ceasefire is reportedly holding, but ongoing Israeli strikes and Hezbollah attacks, including a strike on Beirut, indicate its fragility and partial violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 56,
-    "globalPressure": 66,
-    "allianceInfluence": 62
+    "globalPressure": 67,
+    "allianceInfluence": 57
   },
   "alliance": {
     "russiaIntelSupport": true,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 10",
-      "text": "US military intercepted Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
+      "text": "US awaits response from Iran on proposal to end war, with a lasting truce proving elusive after a week of traded attacks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 586
+    },
+    {
+      "date": "May 10",
+      "text": "Israeli airstrikes killed 24 in Lebanon, including five in southern Lebanon, while Hezbollah rockets hit open areas in Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 586
+    },
+    {
+      "date": "May 10",
+      "text": "Iranian army warns states complying with US sanctions will face hardship in the Strait of Hormuz, as a Qatari tanker sails towards the strait.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxNazRPS2c4bTJiZlcwR3NaUnpzZ2dYMzl2NDFjVFVKeHJ5V1p0VmZobGlPNkk1UjdsQ3RMVmlwSjJTQ0t2RHB2czhnakFOWW1wRnI1eVRMelRyeDlNVkxBRGVOOGdCSVhfRVlSNVJyMHRFbGl0enFpVGVDb2dDemNaTUxkb2c1OGpYT1BoUmVyQnZfNVZqYVlNM2hIdEFmOUNNTHlxRUU3dThFM05FSFJfLS1xUGZhZ296ZnhpUFdYY3FVQUpKN21VMGFjSW1EZmsyTndZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 586
+    },
+    {
+      "date": "May 10",
+      "text": "US military intercepted Iranian attacks on three Navy ships in the Strait of Hormuz, with Iran slamming the US's 'reckless military adventure'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 585
+      "latestSinceUpdate": 586
     },
     {
       "date": "May 10",
-      "text": "US military carried out retaliatory strikes against Iran.",
+      "text": "Israel struck Beirut for the first time since a Hezbollah ceasefire, raising concerns about the stability of any truce.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 585
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 586
     },
     {
       "date": "May 10",
-      "text": "Israel struck Beirut for the first time since the Lebanon ceasefire.",
+      "text": "Reports indicate Israel struggles to counter Hezbollah's sophisticated fibre-optic drones, despite prior warnings from experts.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 585
-    },
-    {
-      "date": "May 10",
-      "text": "Israel killed a Hezbollah Chief near Beirut, testing the truce.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 585
-    },
-    {
-      "date": "May 10",
-      "text": "Iran vowed to retaliate against the US if its ships face further attacks during the ceasefire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 585
-    },
-    {
-      "date": "May 10",
-      "text": "Putin stated Russia is ready to move and store Iran’s enriched uranium stockpile.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiywJBVV95cUxPRWhqNDFEek53QUE2N3pJN09tWEtQaUp6Q1BlcmFjdHlfTVNHcDY4QTNDN1Nydk1GaUs3bTdWbU4tbXFVbFVvVW9VYVVrZkM3dTJYTVQ3WXlzZG11OXUwR196bVF3QVlBeTRLM2NFRlIwekFZNXBKOVNnYW85Zk81S3JBOVNLbDQ1aHZRSGZXZnBVdWxrZ3ppa0hmNzNVZGR6LWdHYW9FNGRMSXhjM1ZybGpjLXh1ZWlvUmFzOEppNi0wb1RnS1N1M1ptNUhvSXhveXUtR2ZKTWk4OE5QRzZXQnN5OHhGRlZGX0lxcFAtMzlrX2o1MXBiZXBndDlNaGM3aFhmY0ZIdzZERDhMVm1xRGZaSlhYQklmeTZwbFRZaDUzRnN0d2ZIUWplcjl0aDEtejhCYVV0TndfbWFJZkcyYmxnV1N2VUhLSVln0gHQAkFVX3lxTE9KNnFrS0Jua1dlbUdXSXVwMVlRV2tCOTdSNDROWWktMkkyTlprUDRSb2RiQ25GRVZzZ2F0LWd5cHRSWVlqV25MOS1QRnpfc2Y3ZGR4MmRCOWREX20tRjQ4YzNpNDBaV2FEX2hOVmRHeUNBTzdMeEJGaXl4RVYtU3lPeU02cUJUR0RqOEVNT2dYbktpc1VXZXNyZlJfT2RhUUEzSEZydDllWnZuRVBRcnptLXN4UWR2bVJSUVJoR2NxY3JBQVBGS3VqMmhIdnBnbG5uMmFqcFJ6VTQyemhuU1ZSOE5acmJXQkFBdzFTYWwyanNsYW91R2RScnFUWVpJYTJPM2RoYVp4WWhUZUN2VjhtZ3lmNWlHajV3eXNmaTV5a2FhTEJXc2txSHhVYVQxUDdIdklBd3FwRWtwZU5OcHhsRUNfN1VFYzBfdE1jbkJsZQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 585
+      "sourceUrl": "https://news.google.com/articles/CBMiWEFVX3lxTE5qTkdzdTBFNTk1QWw1a1k0RGJVOVBxUnZUTUlGYjJfdFlDRWx5NVlkTjRtQm4ySl80QkpPelJ5RDFZb01fWHk4MHp5eHhpSHFXdFF3RlhjQjQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "TRT World",
+      "latestSinceUpdate": 586
     }
   ],
   "sourceStatuses": [

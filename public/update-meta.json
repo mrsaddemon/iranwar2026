@@ -1,13 +1,13 @@
 {
-  "updateSequence": 585,
+  "updateSequence": 586,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T04:05:22.585Z",
+  "lastSyncedAt": "2026-05-10T06:40:48.009Z",
   "warDay": 72,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is in effect but remains shaky, with frequent violations and retaliatory actions from all parties."
+    "summary": "A month-long ceasefire is reportedly holding, but ongoing Israeli strikes and Hezbollah attacks, including a strike on Beirut, indicate its fragility and partial violations."
   }
 }
