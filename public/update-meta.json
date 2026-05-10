@@ -1,13 +1,13 @@
 {
-  "updateSequence": 587,
+  "updateSequence": 588,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T08:31:57.516Z",
+  "lastSyncedAt": "2026-05-10T09:57:06.094Z",
   "warDay": 72,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly in effect, but its fragility is evident through continued traded attacks and specific military actions by both sides."
+    "summary": "A lasting truce remains elusive, with ongoing military actions and a recent Israeli strike testing the viability of any existing de-escalation efforts."
   }
 }
