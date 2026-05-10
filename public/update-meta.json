@@ -1,13 +1,13 @@
 {
-  "updateSequence": 592,
+  "updateSequence": 593,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T14:41:14.926Z",
+  "lastSyncedAt": "2026-05-10T15:38:46.583Z",
   "warDay": 72,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly active but remains fragile, with both Israeli airstrikes and Hezbollah rocket attacks reported, alongside the killing of a Hezbollah chief."
+    "summary": "No active ceasefire is in effect, despite ongoing diplomatic efforts for a peace proposal."
   }
 }
