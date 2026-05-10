@@ -1,13 +1,13 @@
 {
-  "updateSequence": 584,
-  "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T23:57:38.355Z",
-  "warDay": 71,
+  "updateSequence": 585,
+  "lastUpdated": "2026-05-10",
+  "lastSyncedAt": "2026-05-10T04:05:22.585Z",
+  "warDay": 72,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is active but highly fragile, with multiple reported violations and threats of retaliation from both US and Iranian sides, while Israel and Hezbollah continue engagements."
+    "summary": "A month-long ceasefire is in effect but remains shaky, with frequent violations and retaliatory actions from all parties."
   }
 }

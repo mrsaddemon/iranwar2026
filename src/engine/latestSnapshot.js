@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 584,
-  "lastUpdated": "2026-05-09",
-  "lastSyncedAt": "2026-05-09T23:57:38.355Z",
-  "warDay": 71,
-  "summary": "A fragile ceasefire is being tested by military engagements between the US and Iran in the Strait of Hormuz, and between Israel and Hezbollah in Lebanon, while international efforts for a peace deal continue.",
-  "lastNarrativeUpdate": "2026-05-09",
+  "updateSequence": 585,
+  "lastUpdated": "2026-05-10",
+  "lastSyncedAt": "2026-05-10T04:05:22.585Z",
+  "warDay": 72,
+  "summary": "A month-long ceasefire between Israel and Iran remains fragile amidst continued retaliatory strikes, threats of escalation, and ongoing peace negotiations, with the US intercepting Iranian attacks and Russia offering nuclear support to Iran.",
+  "lastNarrativeUpdate": "2026-05-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is active but highly fragile, with multiple reported violations and threats of retaliation from both US and Iranian sides, while Israel and Hezbollah continue engagements."
+    "summary": "A month-long ceasefire is in effect but remains shaky, with frequent violations and retaliatory actions from all parties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,75 +36,75 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 58,
-    "globalPressure": 71,
-    "allianceInfluence": 73
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 56,
+    "globalPressure": 66,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "May 09",
-      "text": "US military intercepted Iranian attacks on three Navy ships in the Strait of Hormuz.",
+      "date": "May 10",
+      "text": "US military intercepted Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 584
+      "latestSinceUpdate": 585
     },
     {
-      "date": "May 09",
-      "text": "US fighter jet's attack on Iranian tankers was explained, following earlier US firing on tankers.",
+      "date": "May 10",
+      "text": "US military carried out retaliatory strikes against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNNEV5bG9EbmxQRHFwaG9VS1ZjZjdqcFFkUUlURzhYenFlUFlkenAzUE9hVS1mNlFxbzJWSXVnY2gwNElWZ3haVHlab3gybDBja25sOHpsSS1wZUdYWEx5T2ZiZVllTEZsZGtRSklSaW5vS2lpNUtaQ013bGVTR0FYT1lXcVpySnBDdTBYNmhaNVBBWk5qVkE3MzdCVEFUYjdRMF94RTFn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 584
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 585
     },
     {
-      "date": "May 09",
-      "text": "Tehran accused Washington of 'reckless' attacks and violating the ceasefire by targeting ships, vowing retaliation if further attacks occur.",
-      "severity": "critical",
+      "date": "May 10",
+      "text": "Israel struck Beirut for the first time since the Lebanon ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 585
+    },
+    {
+      "date": "May 10",
+      "text": "Israel killed a Hezbollah Chief near Beirut, testing the truce.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 584
+      "latestSinceUpdate": 585
     },
     {
-      "date": "May 09",
-      "text": "Israel conducted airstrikes in southern Lebanon, killing five, and struck Beirut for the first time since the Hezbollah ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 584
-    },
-    {
-      "date": "May 09",
-      "text": "Hezbollah rockets hit open areas in Israel, and Israel reported killing a Hezbollah chief near Beirut, testing the truce.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 584
-    },
-    {
-      "date": "May 09",
-      "text": "The UK dispatched HMS Dragon to the Middle East for a potential Strait of Hormuz mission.",
+      "date": "May 10",
+      "text": "Iran vowed to retaliate against the US if its ships face further attacks during the ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBQblVISmtYbzlfT1NTNG4zeTE4bUdobFhEVlVSMXdjd1F4ekl5VEJVRGNOdGJmZkpYQ2I4V0FycG11dDdwX0tIWEZzZWtRUW9ERlJnRDdSdWlldw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 584
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 585
+    },
+    {
+      "date": "May 10",
+      "text": "Putin stated Russia is ready to move and store Iran’s enriched uranium stockpile.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiywJBVV95cUxPRWhqNDFEek53QUE2N3pJN09tWEtQaUp6Q1BlcmFjdHlfTVNHcDY4QTNDN1Nydk1GaUs3bTdWbU4tbXFVbFVvVW9VYVVrZkM3dTJYTVQ3WXlzZG11OXUwR196bVF3QVlBeTRLM2NFRlIwekFZNXBKOVNnYW85Zk81S3JBOVNLbDQ1aHZRSGZXZnBVdWxrZ3ppa0hmNzNVZGR6LWdHYW9FNGRMSXhjM1ZybGpjLXh1ZWlvUmFzOEppNi0wb1RnS1N1M1ptNUhvSXhveXUtR2ZKTWk4OE5QRzZXQnN5OHhGRlZGX0lxcFAtMzlrX2o1MXBiZXBndDlNaGM3aFhmY0ZIdzZERDhMVm1xRGZaSlhYQklmeTZwbFRZaDUzRnN0d2ZIUWplcjl0aDEtejhCYVV0TndfbWFJZkcyYmxnV1N2VUhLSVln0gHQAkFVX3lxTE9KNnFrS0Jua1dlbUdXSXVwMVlRV2tCOTdSNDROWWktMkkyTlprUDRSb2RiQ25GRVZzZ2F0LWd5cHRSWVlqV25MOS1QRnpfc2Y3ZGR4MmRCOWREX20tRjQ4YzNpNDBaV2FEX2hOVmRHeUNBTzdMeEJGaXl4RVYtU3lPeU02cUJUR0RqOEVNT2dYbktpc1VXZXNyZlJfT2RhUUEzSEZydDllWnZuRVBRcnptLXN4UWR2bVJSUVJoR2NxY3JBQVBGS3VqMmhIdnBnbG5uMmFqcFJ6VTQyemhuU1ZSOE5acmJXQkFBdzFTYWwyanNsYW91R2RScnFUWVpJYTJPM2RoYVp4WWhUZUN2VjhtZ3lmNWlHajV3eXNmaTV5a2FhTEJXc2txSHhVYVQxUDdIdklBd3FwRWtwZU5OcHhsRUNfN1VFYzBfdE1jbkJsZQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 585
     }
   ],
   "sourceStatuses": [
@@ -140,31 +140,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "narratives": [
     {
       "perspective": "Iran",
-      "headline": "US actions in Hormuz are reckless and violate agreements",
-      "summary": "Iran condemns recent US military actions in the Strait of Hormuz as a 'reckless military adventure' and a violation of an existing ceasefire, asserting that the US targeted its ships. Tehran indicates it will respond to external peace proposals.",
+      "headline": "Iran warns of heavy assault, awaits peace deal response",
+      "summary": "Iran maintains a defiant stance, threatening severe retaliation if its ships are attacked, while also awaiting a US peace proposal response. The country continues to engage in military actions, which the US claims to have intercepted.",
       "tone": "defiant",
-      "latestSinceUpdate": 566
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 585
     },
     {
       "perspective": "United States",
-      "headline": "US acts to enforce blockade, mediate regional tensions",
-      "summary": "The US military engaged Iranian tankers for allegedly violating a blockade and conducted strikes on Iranian sites. Concurrently, the US is seeking to mediate talks between Israel and Lebanon to de-escalate regional tensions.",
+      "headline": "US intercepts attacks, conducts retaliatory strikes, awaits Iran's response",
+      "summary": "The US military has actively intercepted Iranian attacks on its Navy ships and carried out retaliatory strikes. Concurrently, the US is awaiting Iran's response to a peace proposal, indicating a dual approach of defense and diplomacy.",
       "tone": "strained",
-      "latestSinceUpdate": 566
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 585
     },
     {
       "perspective": "Israel",
-      "headline": "Strikes target militants, no immunity for threats",
-      "summary": "Israel has conducted strikes in Lebanon, including Beirut, stating there is 'no immunity' for militants and confirming the killing of a Hezbollah chief. These actions are described as testing a truce and responding to ongoing threats.",
+      "headline": "Israel continues strikes, tests truce with Hezbollah actions",
+      "summary": "Israel has continued its military operations, including airstrikes in Lebanon and Beirut, and claims to have killed a Hezbollah chief. These actions are seen as testing the existing ceasefire and indicate a focus on degrading Hezbollah's capabilities.",
       "tone": "defiant",
-      "latestSinceUpdate": 566
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 585
     },
     {
-      "perspective": "Regional Analysis",
-      "headline": "Escalation continues despite initial US military success",
-      "summary": "While the initial military engagements between the US and Iran may have favored the US, the broader conflict remains difficult to conclude. Israeli actions in Lebanon are seen as potentially sowing division within the country.",
-      "tone": "anxious",
-      "latestSinceUpdate": 566
+      "perspective": "International/Russia",
+      "headline": "Truce remains elusive as Russia offers nuclear support to Iran",
+      "summary": "The international community observes a fragile truce that is frequently violated, with some experts predicting an American retreat from the conflict. Russia has offered to store Iran's enriched uranium, signaling potential geopolitical shifts and support.",
+      "tone": "skeptical",
+      "sourceUrl": "https://news.google.com/rss",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 585
     }
   ]
 });
