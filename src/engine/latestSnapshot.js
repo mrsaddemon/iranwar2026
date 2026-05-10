@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 600,
+  "updateSequence": 601,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T22:25:21.605Z",
+  "lastSyncedAt": "2026-05-10T23:31:26.603Z",
   "warDay": 72,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-10",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A ceasefire in Lebanon is actively eroding due to deadly Israeli strikes, despite reports of a truce."
+    "summary": "A fragile ceasefire in Lebanon is eroding due to ongoing Israeli airstrikes, while broader US-Iran peace proposals have been rejected."
   },
   "actorOverrides": {
     "usa": {
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.8,
         "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.45,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 88,
-    "tradeImpact": 64,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 10",
-      "text": "US President Trump rejects Iran's peace proposal to end the war, calling it 'unacceptable'.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 600
-    },
-    {
-      "date": "May 10",
-      "text": "US military fires on Iranian tankers and carries out retaliatory strikes, with Tehran accusing Washington of 'reckless' attacks.",
+      "text": "Trump rejects Iran's latest counteroffer to end the war, calling it 'unacceptable'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 600
+      "sourceUrl": "https://news.google.com/articles/trump-rejects-iran-peace-plan",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 601
     },
     {
       "date": "May 10",
-      "text": "Israeli airstrikes kill 24 people in Lebanon, with other reports citing 5, 9, and 39 fatalities, eroding an existing ceasefire.",
+      "text": "U.S. forces fire on tankers as Tehran accuses Washington of 'reckless' attacks.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 600
+      "sourceUrl": "https://news.google.com/articles/us-fires-on-iranian-tankers",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 601
     },
     {
       "date": "May 10",
-      "text": "Hezbollah rockets hit open areas in Israel following Israeli strikes in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 600
+      "text": "Israeli airstrikes kill 24 in Lebanon as US awaits Tehran’s reply to peace proposal.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/israel-strikes-lebanon-casualties",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 601
     },
     {
       "date": "May 10",
-      "text": "Iran warns Britain that any warship deployment to the Strait of Hormuz 'will be met with decisive response'.",
+      "text": "Lebanon reports 39 killed in Israeli strikes, eroding a fragile cease-fire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/lebanon-israeli-strikes-casualties",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 601
+    },
+    {
+      "date": "May 10",
+      "text": "UK and France to host a multinational meeting on a mission to escort ships through Hormuz.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 600
+      "sourceUrl": "https://news.google.com/articles/hormuz-escort-mission-meeting",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 601
     }
   ],
   "sourceStatuses": [
