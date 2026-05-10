@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 593,
+  "updateSequence": 594,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T15:38:46.583Z",
+  "lastSyncedAt": "2026-05-10T16:37:50.568Z",
   "warDay": 72,
-  "summary": "Tensions remain high in the Middle East as the US awaits Iran's response to a peace proposal amidst ongoing military exchanges in the Strait of Hormuz and Israeli strikes in Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-10",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "No active ceasefire is in effect, despite ongoing diplomatic efforts for a peace proposal."
+    "summary": "A previously established ceasefire between Israel and Hezbollah has collapsed following renewed Israeli airstrikes in Lebanon and Hezbollah's retaliatory actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 10",
-      "text": "U.S. forces fire on tankers, leading Tehran to accuse Washington of ‘reckless’ attacks.",
-      "severity": "warning",
+      "text": "US fires on tankers, leading Tehran to accuse Washington of 'reckless' attacks.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 593
+      "latestSinceUpdate": 594
     },
     {
       "date": "May 10",
-      "text": "Israeli airstrikes kill 24 in Lebanon, with reports of 39 killed by Israeli strikes overall.",
+      "text": "Israel kills 24 in Lebanon and conducts airstrikes in southern Lebanon and Beirut.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBZUVl2cS1FMkQzemhqVWpFWmhySzkxUHUxTGNIWDA3OGh0ZmE0dXdqOTU4OVVtTkRjalZFUmtyVi15M0NFak5YQWJjUGJHTThGTTNHWTkyTDFPZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 593
-    },
-    {
-      "date": "May 10",
-      "text": "Hezbollah rockets hit open areas in Israel following Israeli airstrikes in southern Lebanon.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 593
+      "latestSinceUpdate": 594
     },
     {
       "date": "May 10",
-      "text": "US military intercepts Iranian attacks on three Navy ships in the Strait of Hormuz.",
+      "text": "Hezbollah claims to have targeted an Israeli military base with drones and launched rockets into open areas in Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNcWFuRS1IdHl1VmtJTjBhdmtLRjZkbU9GUlMtMTVCVnVPOW9LYlpuV0VjZTJKSk5GdlQyR0JFWVpMbkE0cGxLekdyLS1YWjdRbHdOeV8tT0xBNnl1ajFuLXVqMGxTU3BvMFJ0T09IY3kzTnBQWFUwQzZrNFdjZG9pRllwYXY3bE5taFdTR2dJUVpoMnVCM2htcmtJU3lwdVpFay1mMWY4eWlOM295MXpEcHhvWTlrczdNMnUzRnJfMVI3WGpqR1h3ZzVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 594
+    },
+    {
+      "date": "May 10",
+      "text": "The Strait of Hormuz remains effectively blocked following naval skirmishes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 592
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 594
     },
     {
       "date": "May 10",
-      "text": "US military carries out retaliatory strikes against Iran.",
+      "text": "US military intercepts Iranian attacks on three Navy ships and carries out retaliatory strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 592
+      "latestSinceUpdate": 594
     }
   ],
   "sourceStatuses": [
