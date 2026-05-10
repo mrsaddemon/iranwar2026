@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 586,
+  "updateSequence": 587,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T06:40:48.009Z",
+  "lastSyncedAt": "2026-05-10T08:31:57.516Z",
   "warDay": 72,
-  "summary": "The US awaits Iran's response to a peace proposal amidst ongoing Israeli airstrikes in Lebanon, Hezbollah rocket attacks, and Iranian warnings regarding the Strait of Hormuz, while a month-long ceasefire appears fragile.",
+  "summary": "The US awaits Iran's response to a peace proposal amidst a fragile month-long ceasefire, while hostilities persist between Israel and Hezbollah, and tensions remain high in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is reportedly holding, but ongoing Israeli strikes and Hezbollah attacks, including a strike on Beirut, indicate its fragility and partial violations."
+    "summary": "A month-long ceasefire is reportedly in effect, but its fragility is evident through continued traded attacks and specific military actions by both sides."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -36,22 +36,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 56,
-    "globalPressure": 67,
-    "allianceInfluence": 57
+    "oilDisruption": 65,
+    "tradeImpact": 47,
+    "sanctionsPressure": 54,
+    "globalPressure": 61,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
+    "russiaIntelSupport": false,
     "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 10",
-      "text": "US awaits response from Iran on proposal to end war, with a lasting truce proving elusive after a week of traded attacks.",
+      "date": "May 09",
+      "text": "US awaits response from Iran on proposal to end war, with a month-long ceasefire reportedly holding.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 586
+      "latestSinceUpdate": 587
     },
     {
-      "date": "May 10",
-      "text": "Israeli airstrikes killed 24 in Lebanon, including five in southern Lebanon, while Hezbollah rockets hit open areas in Israel.",
+      "date": "May 09",
+      "text": "Israeli airstrikes killed 24 in Lebanon, while Hezbollah rockets hit open areas in Israel.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 586
+      "latestSinceUpdate": 587
     },
     {
-      "date": "May 10",
-      "text": "Iranian army warns states complying with US sanctions will face hardship in the Strait of Hormuz, as a Qatari tanker sails towards the strait.",
+      "date": "May 09",
+      "text": "US military intercepted Iranian attacks on 3 Navy ships in the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxNazRPS2c4bTJiZlcwR3NaUnpzZ2dYMzl2NDFjVFVKeHJ5V1p0VmZobGlPNkk1UjdsQ3RMVmlwSjJTQ0t2RHB2czhnakFOWW1wRnI1eVRMelRyeDlNVkxBRGVOOGdCSVhfRVlSNVJyMHRFbGl0enFpVGVDb2dDemNaTUxkb2c1OGpYT1BoUmVyQnZfNVZqYVlNM2hIdEFmOUNNTHlxRUU3dThFM05FSFJfLS1xUGZhZ296ZnhpUFdYY3FVQUpKN21VMGFjSW1EZmsyTndZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 586
-    },
-    {
-      "date": "May 10",
-      "text": "US military intercepted Iranian attacks on three Navy ships in the Strait of Hormuz, with Iran slamming the US's 'reckless military adventure'.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 586
+      "latestSinceUpdate": 587
     },
     {
-      "date": "May 10",
-      "text": "Israel struck Beirut for the first time since a Hezbollah ceasefire, raising concerns about the stability of any truce.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 586
-    },
-    {
-      "date": "May 10",
-      "text": "Reports indicate Israel struggles to counter Hezbollah's sophisticated fibre-optic drones, despite prior warnings from experts.",
+      "date": "May 09",
+      "text": "Israel announced it killed a Hezbollah chief near Beirut, testing the existing truce.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWEFVX3lxTE5qTkdzdTBFNTk1QWw1a1k0RGJVOVBxUnZUTUlGYjJfdFlDRWx5NVlkTjRtQm4ySl80QkpPelJ5RDFZb01fWHk4MHp5eHhpSHFXdFF3RlhjQjQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "TRT World",
-      "latestSinceUpdate": 586
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 587
+    },
+    {
+      "date": "May 09",
+      "text": "Iran warned of a 'heavy assault' if its ships were attacked, following claims of a US fighter jet's attack on Iranian tankers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNNEV5bG9EbmxQRHFwaG9VS1ZjZjdqcFFkUUlURzhYenFlUFlkenAzUE9hVS1mNlFxbzJWSXVnY2gwNElWZ3haVHlab3gybDBja25sOHpsSS1wZUdYWEx5T2ZiZVllTEZsZGtRSklSaW5vS2lpNUtaQ013bGVTR0FYT1lXcVpySnBDdTBYNmhaNVBBWk5qVkE3MzdCVEFUYjdRMF94RTFn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 587
     }
   ],
   "sourceStatuses": [
