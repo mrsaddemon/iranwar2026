@@ -1,13 +1,13 @@
 {
-  "updateSequence": 591,
+  "updateSequence": 592,
   "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T13:48:37.566Z",
+  "lastSyncedAt": "2026-05-10T14:41:14.926Z",
   "warDay": 72,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A month-long ceasefire is in effect, but ongoing military actions in the Strait of Hormuz and Lebanon indicate its fragility."
+    "summary": "A month-long ceasefire is reportedly active but remains fragile, with both Israeli airstrikes and Hezbollah rocket attacks reported, alongside the killing of a Hezbollah chief."
   }
 }
