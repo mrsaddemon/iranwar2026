@@ -1,13 +1,13 @@
 {
-  "updateSequence": 606,
+  "updateSequence": 607,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T17:05:02.254Z",
+  "lastSyncedAt": "2026-05-11T19:06:05.188Z",
   "warDay": 73,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A previous Hezbollah ceasefire has been broken by Israeli strikes in Beirut, and broader peace talks between the US and Iran have failed."
+    "summary": "The proposed ceasefire has been rejected by the US, with President Trump stating it is on 'massive life support' amidst ongoing hostilities."
   }
 }
