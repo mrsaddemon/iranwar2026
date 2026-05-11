@@ -1,13 +1,13 @@
 {
-  "updateSequence": 602,
+  "updateSequence": 603,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T01:26:08.349Z",
+  "lastSyncedAt": "2026-05-11T05:40:22.156Z",
   "warDay": 73,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A proposed ceasefire was rejected by the US, and existing truces in Lebanon are eroding amidst ongoing strikes."
+    "summary": "A US-backed ceasefire proposal was rejected by the US, and ongoing strikes in Lebanon have eroded any prior truce efforts."
   }
 }

@@ -1,19 +1,28 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 602,
+  "updateSequence": 603,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T01:26:08.349Z",
+  "lastSyncedAt": "2026-05-11T05:40:22.156Z",
   "warDay": 73,
-  "summary": "The Middle East conflict continues with the US rejecting Iran's latest ceasefire proposal, while US forces conduct retaliatory strikes on tankers and Israel carries out deadly airstrikes in Lebanon amidst eroding truces.",
+  "summary": "A US-backed ceasefire proposal was rejected by the US, leading to continued Israeli strikes in Lebanon, US retaliatory actions against Iran, and heightened concerns over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A proposed ceasefire was rejected by the US, and existing truces in Lebanon are eroding amidst ongoing strikes."
+    "summary": "A US-backed ceasefire proposal was rejected by the US, and ongoing strikes in Lebanon have eroded any prior truce efforts."
   },
   "actorOverrides": {
     "usa": {
+      "metrics": {
+        "militaryPower": 90
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.7
+      }
+    },
+    "israel": {
       "metrics": {
         "militaryPower": 85
       },
@@ -22,32 +31,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "aggression": 0.8
       }
     },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
-      }
-    },
     "iran": {
       "metrics": {
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,41 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 11",
-      "text": "US President Trump rejects Iran's latest counteroffer to end the war, calling it 'unacceptable'.",
+      "text": "Trump rejects Iran's response to US ceasefire proposal as 'unacceptable'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQejcyNndvcnR3cEVKNS1tUHVaZWpyN0tmUTJNSXNjTm9Ia056WC1TV2ZaLVVlSm9wcURZZ2EwWWJTWlIyQjV3VkoxUWZoblRpZXRmeERjb240SlJ3MzBpa003Qm8wenAxd2ZUR01ocTNQUE82TXBaWnloQUxwUlBkcDd5aFpSVzkwdjk5eHk1V3p4bGhj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 603
+    },
+    {
+      "date": "May 10",
+      "text": "Israeli airstrikes kill 39 in Lebanon, eroding a prior truce.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 602
+      "latestSinceUpdate": 603
     },
     {
-      "date": "May 11",
-      "text": "US military carries out retaliatory strikes against Iranian tankers in the Strait of Hormuz.",
+      "date": "May 10",
+      "text": "US military carries out retaliatory strikes against Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 602
+      "latestSinceUpdate": 603
     },
     {
-      "date": "May 11",
-      "text": "Israeli airstrikes kill 39 in Lebanon, eroding an existing cease-fire.",
-      "severity": "critical",
+      "date": "May 10",
+      "text": "Hezbollah airs drone footage showing a strike on an Iron Dome battery in northern Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQLWU1QV9Sb1I3Q2V4MXEyUmpWWHRYY2RFZzVyS0Z6VmdOeEk0XzZ5bFNPRTFiVnhCSkxnU3NNemNkd0JxSXFxUlJlZk9kV3hjcHdwUGZPMlBYbFhCSHJkNm80YzhJT2tacXdZNVgyUGNPZnpsb2xtWTlCR0JuSThlbkV6b0dqRGdQUmJ3ZVp3UDdKUEQxTWNjYy1pZW5yV2NyNTItT2dscXNZd9IBrwFBVV95cUxQRVhqbDBCT250WDFNMUpRSzVuSUw0MDNaUU9qN2NIVlZEcXZZSTk5bHJHeXZSVlVVSWF5MUM2anhpcjFQa2xKQTBLY0JwRDJBaHVSTVZNQ0UwS0pZZ3BMbmpidmo2SGh5b040Y1otS3hIYUlkcmdyUVlwaE5OSHZ5aHlHd0pqNXJnc3NEdUNqQXhJTFpjN0RjMFpYSE1RWEhzZENrMDg4MUhjRW5uUWFJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 603
+    },
+    {
+      "date": "May 10",
+      "text": "Morgan Stanley warns the oil market is in a 'Race Against Time' on Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQWTNXalRJYWhic2tTcWI5aVRHMndlRzFfUlVxdTBnUHVtT24xOWVZSzZFWjR1S09WbURUWnY2d0M2aEZ3bGl1T2RIS1JuQnhOWVVTNkdOTUQydEFKLWRnNkNWeEdOSjlGQUJmQUwtUU12U3NxblRVUGYwTWxkWG1kNFNFM3lHckdrMVpObDY3S2RnaWJCZkkwM3lJSHVXRWNqbzhwS1pMbmhISUJ5NXVLdGNR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 603
+    },
+    {
+      "date": "May 10",
+      "text": "Iran formalizes a toll process for vessels transiting the Strait of Hormuz.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 602
-    },
-    {
-      "date": "May 11",
-      "text": "Two crude oil tankers exit the Strait of Hormuz with trackers switched off following a confirmed strike on a vessel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 602
+      "latestSinceUpdate": 603
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
