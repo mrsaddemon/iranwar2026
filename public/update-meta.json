@@ -1,13 +1,13 @@
 {
-  "updateSequence": 601,
-  "lastUpdated": "2026-05-10",
-  "lastSyncedAt": "2026-05-10T23:31:26.603Z",
-  "warDay": 72,
+  "updateSequence": 602,
+  "lastUpdated": "2026-05-11",
+  "lastSyncedAt": "2026-05-11T01:26:08.349Z",
+  "warDay": 73,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A fragile ceasefire in Lebanon is eroding due to ongoing Israeli airstrikes, while broader US-Iran peace proposals have been rejected."
+    "summary": "A proposed ceasefire was rejected by the US, and existing truces in Lebanon are eroding amidst ongoing strikes."
   }
 }
