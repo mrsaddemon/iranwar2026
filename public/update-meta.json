@@ -1,13 +1,13 @@
 {
-  "updateSequence": 603,
+  "updateSequence": 604,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T05:40:22.156Z",
+  "lastSyncedAt": "2026-05-11T08:49:29.763Z",
   "warDay": 73,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 30,
-    "summary": "A US-backed ceasefire proposal was rejected by the US, and ongoing strikes in Lebanon have eroded any prior truce efforts."
+    "summary": "Attempts at a broader peace deal have collapsed following the US rejection of Iran's proposal, and regional cease-fire efforts are eroding due to continued military engagements."
   }
 }
