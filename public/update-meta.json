@@ -1,13 +1,13 @@
 {
-  "updateSequence": 608,
+  "updateSequence": 609,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T20:52:15.490Z",
+  "lastSyncedAt": "2026-05-11T21:55:19.719Z",
   "warDay": 73,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "The proposed ceasefire between the US and Iran is considered to be on 'massive life support' or collapsed, with peace proposals rejected and ongoing hostilities."
+    "summary": "The proposed ceasefire is considered to be on 'massive life support' and eroding due to ongoing military actions and the rejection of peace proposals."
   }
 }
