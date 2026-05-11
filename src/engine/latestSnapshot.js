@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 604,
+  "updateSequence": 605,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T08:49:29.763Z",
+  "lastSyncedAt": "2026-05-11T11:50:41.900Z",
   "warDay": 73,
-  "summary": "The Middle East conflict continues as the US rejects Iran's peace counteroffer, leading to increased military actions in the region and rising oil prices.",
+  "summary": "The Iran War continues on Day 73 with diplomatic efforts stalled as the US rejects Iran's peace proposal, leading to continued military engagements in the Strait of Hormuz and escalating Israeli strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-05-11",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.1,
     "durationDays": 30,
-    "summary": "Attempts at a broader peace deal have collapsed following the US rejection of Iran's proposal, and regional cease-fire efforts are eroding due to continued military engagements."
+    "summary": "A previous cease-fire in Lebanon has been eroded by deadly Israeli strikes, and a broader peace proposal for the Iran War has been rejected by the US."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 11",
-      "text": "Trump rejects Iran's peace proposal as 'totally unacceptable', prolonging the conflict.",
+      "text": "Trump rejects Iran's counterproposal to end the war, calling it 'totally unacceptable' and prolonging the conflict.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 604
+      "latestSinceUpdate": 605
     },
     {
       "date": "May 11",
-      "text": "U.S. forces fire on tankers and carry out retaliatory strikes, while Iran accuses Washington of 'reckless' attacks.",
+      "text": "US forces fire on tankers, while Iran accuses Washington of 'reckless' attacks in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 604
+      "latestSinceUpdate": 605
     },
     {
       "date": "May 11",
-      "text": "Israeli airstrikes kill 24-39 in Lebanon, eroding a cease-fire, as Hezbollah rockets hit open areas in Israel.",
+      "text": "Israel conducts strikes in Lebanon, killing 39 and eroding a fragile cease-fire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNN19vV0hvR1lXbXI0WkhzTzlfbHhfVDZnbWRDOVZmaWpsS0RBUDd4ajBjWGhhOG9MNWlzVmFXRE9MUkxNaHV5eHlwcWtIYVA3T0ZTc01adjBpeHQwdkxSZlQ4aDV3dXN0VTlCRHRNaEc2OThWRGVZWHBpVmxjMkk2SGVyOVpMQjZJTWd2ME80c2RCcl9GVUZpN2FWZTdhWmpLWmEyMDZaQURnMnR0WFk2eDNuSzlmUTNQNWxIV1Bfdk1ieFZYbGNJV0N6eDVfakFCZGVkQkg0dEhEeHFTTHfSAeQBQVVfeXFMUDZzR0M5UzJWTHpfV1ByYVNLV3FidG5RX3pTOFhSekZUTmRpdVRDa2xsZzh0ZDFBSmV2R0U4U3kzd3pURXUzcGNZblo0RV9oQkxldkdYa2dFM1JhbXc5a2xFLWlxLTNZM2NqRW03VTlBeE9QOUhPUTFFRTJZMWcxLTI1ZjQwTkpRVkhtMklrSl8tV3NQX3VHdEpTTHBnV19YMF96TVpMeDBpcmVKQjB0b0V6eWNHTXN3RUEwd19xanhmMGdRTURZaTZmc1JzOU1DdHU0UTMzeTV6VlFmLTdYblVSODN1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 604
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 605
     },
     {
       "date": "May 11",
-      "text": "An IDF reservist is killed in a Hezbollah explosive drone attack in northern Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQeERONkRvQ1lYRnhWN29hSENRbC1ocUQ5VTFqQXd1WFhYc3NkZzZQU1pfZlRZcGdGMlBYbEdZQ1lfR1NZYm9aU0lEdm9CX2RlYzkxQk1zUElwVmdIdGw5dW1DQWdXbXg2VzBLQlVfMHJwcHJBMnlmUjF3aUJXTzRjSU9jYTMxQUdvWXl1aHlzMXQtRW9qcGRpRkNqLUtmbDNnNjRmUG5ZNDRxZ9IBrwFBVV95cUxQN0F5c28tbUhKVmMyY3ZyY1gxOEJSdjV6a0lSLU93ZlQtODNtWG9zcThxTzhnU0VvRWRpbmlVQmlkTGJyTkNXRG1EOUx6aW9FNkZRZTI0bnc4czViaG0xTUs3NEFCVW53NlVFbjl1QzZJVDhLdUZtQ2pPZXdwcHBKVkFBeTlkdkE5OUhRRW9NNjJfTEZ1Qkt5a011cXp2c2hxYlVGWVdHSlh6RTUzMnVJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 604
-    },
-    {
-      "date": "May 11",
-      "text": "South Korea condemns an attack on a cargo ship in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNa3NtcFJfQlR3R2g1TzluelJ1QVhCcUZ5Z2hlb2FzZjhUeUY3RHZOSjdndGdkMG9FZTQ3Um0ybDc2UVRBWWhqeWRKNUtDdjlaaklMYVVCQzhHWGxrWFNoMkVBYkZ5blRHWnRJUFFYal9lbTFQMnl4TE5XV0hrMjVBM0k1NTVkS0xqb0NXb205UnU3NEhKX2ZLc3JrU0UzSkNXdFVNc0xqVklNVmFPclVrTDN0cTgyMk9aLWozOHJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 604
-    },
-    {
-      "date": "May 11",
-      "text": "Britain is projected to lose 163,000 jobs in 2026 as the Iran war sparks an economic crisis.",
+      "text": "Hezbollah deploys a new weapon designed to evade Israeli detection.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPQjJLTWdldGRuSEJyNWZfWFVQcERmYUNkNUJLWXhqWF9yVThnYlhSS1d3dWVITzNxRFNwd1hpdUIwaWlQTzhjZ0thaW9jQjkxeG5aTURySDIzYzNaS2R2SG5HWUlPMWZ2MVRzQjk4TGx6dm5DdHBtUXR2cE1mUVpFZ29DdXhKTnpFczZ0ZExTYmdSV3Y4U1FWMkg1czZpU2xhM2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 604
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 605
+    },
+    {
+      "date": "May 11",
+      "text": "Crude oil prices spike as the Hormuz bottleneck persists following Trump's dismissal of Iran's peace reply.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 605
     }
   ],
   "sourceStatuses": [
