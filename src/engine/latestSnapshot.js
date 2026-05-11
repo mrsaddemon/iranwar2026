@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 605,
+  "updateSequence": 606,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T11:50:41.900Z",
+  "lastSyncedAt": "2026-05-11T17:05:02.254Z",
   "warDay": 73,
-  "summary": "The Iran War continues on Day 73 with diplomatic efforts stalled as the US rejects Iran's peace proposal, leading to continued military engagements in the Strait of Hormuz and escalating Israeli strikes in Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-11",
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A previous cease-fire in Lebanon has been eroded by deadly Israeli strikes, and a broader peace proposal for the Iran War has been rejected by the US."
+    "summary": "A previous Hezbollah ceasefire has been broken by Israeli strikes in Beirut, and broader peace talks between the US and Iran have failed."
   },
   "actorOverrides": {
     "usa": {
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 60,
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 11",
-      "text": "Trump rejects Iran's counterproposal to end the war, calling it 'totally unacceptable' and prolonging the conflict.",
+      "text": "Trump rejected Iran’s latest peace proposal, deeming it 'unacceptable' and prolonging the conflict.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 605
+      "latestSinceUpdate": 606
     },
     {
       "date": "May 11",
-      "text": "US forces fire on tankers, while Iran accuses Washington of 'reckless' attacks in the Strait of Hormuz.",
+      "text": "Iran condemned the US’s 'reckless military adventure' in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 606
+    },
+    {
+      "date": "May 11",
+      "text": "Israel conducted strikes in Lebanon, killing 24, and struck Beirut for the first time since a previous Hezbollah ceasefire.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 605
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1wYXVhZ1d1eFNsUkd4ZlRDbS1Qd3ZkUmVhaEFhZUJlLVdwTkotdi1keHdEQXJvNk9WOHNCb0FiZWlGNG5KTjNpRG9EX1l0OVRTaXc4Zy1BSkFJUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 606
     },
     {
       "date": "May 11",
-      "text": "Israel conducts strikes in Lebanon, killing 39 and eroding a fragile cease-fire.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 605
-    },
-    {
-      "date": "May 11",
-      "text": "Hezbollah deploys a new weapon designed to evade Israeli detection.",
+      "text": "Hezbollah deployed new FPV drones designed to evade Israeli detection.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNWm52RmRwa2xzRjZvNjF3eXpWdXdRVlJJejVqSXViVTN2aWVQSzF2Mm03VW1oQndfVzhkclo0TXFtZHBfNllrU01saW9QSi1scG1hMnZfRkNSM1kxOFcyOUZhUHFUaHE4T1ZWOWJrU2VyTktpVlhFeUtFQnJVaE0tcUFsQnVXS3Y0TjQwblM4VQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 605
+      "latestSinceUpdate": 606
     },
     {
       "date": "May 11",
-      "text": "Crude oil prices spike as the Hormuz bottleneck persists following Trump's dismissal of Iran's peace reply.",
+      "text": "Reports indicate Britain is projected to lose 163,000 jobs in 2026 due to the economic crisis sparked by the Iran war.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 605
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPQjJLTWdldGRuSEJyNWZfWFVQcERmYUNkNUJLWXhqWF9yVThnYlhSS1d3dWVITzNxRFNwd1hpdUIwaWlQTzhjZ0thaW9jQjkxeG5aTURySDIzYzNaS2R2SG5HWUlPMWZ2MVRzQjk4TGx6dm5DdHBtUXR2cE1mUVpFZ29DdXhKTnpFczZ0ZExTYmdSV3Y4U1FWMkg1czZpU2xhM2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 606
     }
   ],
   "sourceStatuses": [

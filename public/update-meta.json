@@ -1,13 +1,13 @@
 {
-  "updateSequence": 605,
+  "updateSequence": 606,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T11:50:41.900Z",
+  "lastSyncedAt": "2026-05-11T17:05:02.254Z",
   "warDay": 73,
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A previous cease-fire in Lebanon has been eroded by deadly Israeli strikes, and a broader peace proposal for the Iran War has been rejected by the US."
+    "summary": "A previous Hezbollah ceasefire has been broken by Israeli strikes in Beirut, and broader peace talks between the US and Iran have failed."
   }
 }
