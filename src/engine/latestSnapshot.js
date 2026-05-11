@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 609,
+  "updateSequence": 610,
   "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T21:55:19.719Z",
+  "lastSyncedAt": "2026-05-11T23:04:35.409Z",
   "warDay": 73,
-  "summary": "A proposed ceasefire between the US and Iran is on 'massive life support' following Trump's rejection of Iran's response, while Israeli strikes continue in Lebanon and Iran deploys mini-subs in the Strait of Hormuz.",
+  "summary": "The US has rejected Iran's latest ceasefire proposal, leading to continued conflict in the Middle East with ongoing Israeli strikes in Lebanon and threats of further US action.",
   "lastNarrativeUpdate": "2026-05-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "The proposed ceasefire is considered to be on 'massive life support' and eroding due to ongoing military actions and the rejection of peace proposals."
+    "summary": "A proposed ceasefire between the US and Iran is considered on 'life support' or collapsed after the US rejected Iran's counteroffer, leading to continued hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.45,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,49 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 11",
-      "text": "Trump rejects Iran’s response to latest US proposal to end the war, stating it is 'totally unacceptable'.",
+      "text": "US President Trump rejected Iran’s response to the latest US proposal to end the war, stating it was 'totally unacceptable'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQejcyNndvcnR3cEVKNS1tUHVaZWpyN0tmUTJNSXNjTm9Ia056WC1TV2ZaLVVlSm9wcURZZ2EwWWJTWlIyQjV3VkoxUWZoblRpZXRmeERjb240SlJ3MzBpa003Qm8wenAxd2ZUR01ocTNQUE82TXBaWnloQUxwUlBkcDd5aFpSVzkwdjk5eHk1V3p4bGhj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 609
+      "latestSinceUpdate": 610
     },
     {
       "date": "May 11",
-      "text": "Israeli strikes across Lebanon kill at least 18 amid ceasefire, with reports of 24 killed in other strikes.",
+      "text": "Israeli strikes across Lebanon killed at least 18 to 24 people amid the ongoing conflict.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPSkhuSHhxdmpnSVdoRUZkWUYxU1FYMXpNbVZqSV9aa0wtMFowdmhFczlINWM4cm4tQzFNV3VHN1hXamRraDZhMHk1LUx5MnVJb3Btb3VDTHNjbHRfdWZ3bVBrZUxmS1lBQ3VxbUM2LTR1NUFiWndmRzVfRUppNnVmTkFwVlpBcldtSUVGcnpCN2R1dlVXbllHVEdNdWhSaG5qaWJaOHd0OTR4VmFfRC1pUHJCbXItUkdjN0HSAb8BQVVfeXFMT0puUGVHRDJlczNDRUQtNjBNejM5VE9iZkUtY3ZzSTVhOW5GbWc3cGFReXJieXA5ZlJPQXFaUktqRUVDU3BCeFpTelpNUHE4ZUFjOElfbVp1VHBxMHNETmpCaV95QmcyTUhOQ0dyVFRyTTlDN0thaFNsZlNwdXRPMC1WeWlZSXB0Z1JKUDluTV85OEhxRzA3QWFJSmF2Ty1XNndkeXVSZy1zMFQ2TElIa281allySHc4MFQyZG04SHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 609
-    },
-    {
-      "date": "May 11",
-      "text": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, according to data.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 609
-    },
-    {
-      "date": "May 11",
-      "text": "Iran announces it has deployed mini-subs in the contest to control the Strait of Hormuz.",
-      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 609
+      "latestSinceUpdate": 610
     },
     {
       "date": "May 11",
-      "text": "An IDF reservist was killed in a Hezbollah explosive drone attack in northern Israel.",
+      "text": "Hezbollah reportedly used a drone to hit an Iron Dome battery in Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOeWZmN3ZQWVk5UlBhUVNvZGFvSE5vTkhFU0pmTHhVT1Z2NFRKc0NCZWZjRFZUUTZvdzJzcDMzZVhGSktnM1hleDZ5M2NyQmVwN00wRU9vZzZZdHJZQnZvM2xRcEFGeENTQ1NXdWJDeHhKeUR0V0xWUC1zWEVnNzlCOXFjamtsTUtETnF2UUItUlNmSWM1VnZTM1pBVmFTRld5YkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 610
+    },
+    {
+      "date": "May 11",
+      "text": "Lebanon requested the US to pressure Israel to halt its attacks and operations.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTFBzVERkYk5DNXF0cTh0dUJ5OG8zVU5Bb3VMb1dNNFdYaGRGU2NXM1pPSjNFSkxHMjYzNjVWbVhqbHlVckg5YjAzTHd1YTh2ZTJfc1RnMUNEUE91SUd0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 610
+    },
+    {
+      "date": "May 11",
+      "text": "Trump threatened more strikes against Iran if a deal is not signed 'fast'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQeERONkRvQ1lYRnhWN29hSENRbC1ocUQ5VTFqQXd1WFhYc3NkZzZQU1pfZlRZcGdGMlBYbEdZQ1lfR1NZYm9aU0lEdm9CX2RlYzkxQk1zUElwVmdIdGw5dW1DQWdXbXg2VzBLQlVfMHJwcHJBMnlmUjF3aUJXTzRjSU9jYTMxQUdvWXl1aHlzMXQtRW9qcGRpRkNqLUtmbDNnNjRmUG5ZNDRxZ9IBrwFBVV95cUxQN0F5c28tbUhKVmMyY3ZyY1gxOEJSdjV6a0lSLU93ZlQtODNtWG9zcThxTzhnU0VvRWRpbmlVQmlkTGJyTkNXRG1EOUx6aW9FNkZRZTI0bnc4czViaG0xTUs3NEFCVW53NlVFbjl1QzZJVDhLdUZtQ2pPZXdwcHBKVkFBeTlkdkE5OUhRRW9NNjJfTEZ1Qkt5a011cXp2c2hxYlVGWVdHSlh6RTUzMnVJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 609
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 610
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
