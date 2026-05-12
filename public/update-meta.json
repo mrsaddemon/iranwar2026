@@ -1,13 +1,13 @@
 {
-  "updateSequence": 616,
+  "updateSequence": 617,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T13:22:31.255Z",
+  "lastSyncedAt": "2026-05-12T16:03:54.264Z",
   "warDay": 74,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A previously established ceasefire is now considered fragile and 'on life support' following Israeli strikes and ongoing military threats."
+    "summary": "The ceasefire is described as being on 'life support' with ongoing violations and threats, indicating extreme fragility."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 616,
+  "updateSequence": 617,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T13:22:31.255Z",
+  "lastSyncedAt": "2026-05-12T16:03:54.264Z",
   "warDay": 74,
-  "summary": "A fragile ceasefire between Iran and Israel teeters on collapse amid ongoing military actions, threats of further strikes, and a blocked Strait of Hormuz.",
+  "summary": "A fragile ceasefire between Iran and Israel is reportedly on 'life support' amidst ongoing Israeli strikes in Lebanon, Iranian threats, and concerns over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A previously established ceasefire is now considered fragile and 'on life support' following Israeli strikes and ongoing military threats."
+    "summary": "The ceasefire is described as being on 'life support' with ongoing violations and threats, indicating extreme fragility."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 55,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 11",
-      "text": "Trump calls Iran's peace proposal 'Garbage' as ceasefire hangs in the balance.",
+      "text": "An Iran Update Special Report was issued, detailing ongoing developments in the conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOdmNKczZWM1I3ektweTVKUXU3SGVMWEZldzh0WFFEQUdZbWpUQlh1SnRrWjZnU1FTdFRBY1F6UF9NX2xCTklvWTJOaUV1T3FyMDdHNDdQS2l3QThiUzZRdm5nc0hIRG5Dekd4d05CUFpGTXJJclRORWlqaXQtQTNTTlhYeXpjN24xR1RWaW1HT2ljRVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 617
+    },
+    {
+      "date": "May 12",
+      "text": "US President Trump stated that the truce with Iran is on 'life support' after rejecting Tehran's latest proposal.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 617
+    },
+    {
+      "date": "May 12",
+      "text": "Iran declared its 'finger on the trigger' but also expressed a desire for enduring peace.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNRHV6TWptcDFha3dabVhLdUNSenVvRksyam5GYTlqSFptblBoUFJkM0hjX2x3V0h0YnFJU00yT2tFVnY3YmpGNU9JeGJtVm5xZk44RWt4VEZ2VVBBYWZBZHd3OExzX1FLZE8yZGRUeUVlRjVEVGZtWVE0MlhvZGtJdDU4V2lIakRrSUEtUXFtUUdCR2dLU1pvUjdxUmdRQ3VCVVgxSm1pTzVlRmRlSHFzUXRvYmdjWl9teWU0WnpMeW_SAcYBQVVfeXFMTXh0MUYzQ2dPUWdGSVdDcTZyaWNwb2NZTWhuNU1ySDl0SjJud2Q2VjVKRU1wcnhlMUVnMm9sY3E2WEF2TjYxQ25id3Atai1tbWsxcUVwbnJWYmJMMEJlYjBoNDY0OUl0TldNRXFtQWwwUHNDeU5zTldPZHE0QVFlTGpaS3ZSWE0yUEdaNGZuUVpMRkF2YnNVYXZkb3lzTWhEa1o2eElwZVNxbFRaU0lFQVk4SHVWUy1vb3N0RDFIQU92S1EtQlln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 617
+    },
+    {
+      "date": "May 12",
+      "text": "Israel conducted strikes in Lebanon, reportedly killing 24 individuals, while awaiting Tehran's reply to a proposal.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 616
+      "latestSinceUpdate": 617
     },
     {
-      "date": "May 11",
-      "text": "Iran accused of ‘weaponizing’ Hormuz Strait and ‘blackmailing’ Gulf states.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNRHV6TWptcDFha3dabVhLdUNSenVvRksyam5GYTlqSFptblBoUFJkM0hjX2x3V0h0YnFJU00yT2tFVnY3YmpGNU9JeGJtVm5xZk44RWt4VEZ2VVBBYWZBZHd3OExzX1FLZE8yZGRUeUVlRjVEVGZtWVE0MlhvZGtJdDU4V2lIakRrSUEtUXFtUUdCR2dLU1pvUjdxUmdRQ3VCVVgxSm1pTzVlRmRlSHFzUXRvYmdjWl9teWU0WnpMeW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 616
-    },
-    {
-      "date": "May 11",
-      "text": "Israel kills 24 in Lebanon as US awaits Tehran’s reply.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 616
-    },
-    {
-      "date": "May 11",
-      "text": "Israel strikes Beirut for first time since Lebanon ceasefire.",
+      "date": "May 12",
+      "text": "Israel struck Beirut for the first time since the Lebanon ceasefire was announced.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "DW.com",
-      "latestSinceUpdate": 616
+      "latestSinceUpdate": 617
     },
     {
-      "date": "May 11",
-      "text": "Trump threatens more Iran strikes if deal not signed 'fast'.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 616
-    },
-    {
-      "date": "May 11",
-      "text": "Strait of Hormuz remains blocked; 'mass starvation' warning issued.",
+      "date": "May 12",
+      "text": "A warning of 'mass starvation' was issued concerning the Strait of Hormuz due to potential disruptions.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 616
+      "latestSinceUpdate": 617
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
