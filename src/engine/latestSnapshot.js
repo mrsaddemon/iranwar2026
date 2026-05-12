@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 613,
+  "updateSequence": 614,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T06:43:58.540Z",
+  "lastSyncedAt": "2026-05-12T09:26:31.939Z",
   "warDay": 74,
-  "summary": "The ceasefire between warring parties is reported to be on 'massive life support' as the US rejects Iran's latest proposal and considers military action, while Israel intensifies strikes in Lebanon and concerns rise over the Strait of Hormuz.",
+  "summary": "The ceasefire between the US/Israel and Iran is on 'life support' after President Trump rejected Tehran's proposal, leading to renewed Israeli strikes in Lebanon and US consideration of military action.",
   "lastNarrativeUpdate": "2026-05-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "The proposed ceasefire is considered to be on 'life support' and has been rejected by the US, indicating a collapse of current peace efforts."
+    "summary": "The ceasefire is effectively collapsed after President Trump rejected Iran's proposal and is considering military action, with renewed hostilities in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,84 +27,84 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 58,
-    "globalPressure": 72,
-    "allianceInfluence": 68
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "May 12",
-      "text": "Trump states Iran ceasefire is on 'massive life support' and calls latest proposal 'garbage'.",
+      "date": "May 11",
+      "text": "President Trump rejects Iran's ceasefire proposal, stating the truce is on 'life support'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxON2RSNjhuM1Z2dzB2MmZKbTJybWI2aVFpMFJMdjBHZXk4OXc2UFdkUHdrWWM1enIyckUta1dDV0NiaEtiZnlPeW02UUlSRm5WckVVOUt0SWpHV3RkdHhRN2RVV1ZaMGw0bVdzbWc5OHM2NlhmT2NXOXd4Y1ZraUh5VEUtMGIydHZP?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 613
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 614
     },
     {
-      "date": "May 12",
-      "text": "Trump rejects latest Iran proposal amid shadow drone war and weighs military action against Iran.",
+      "date": "May 11",
+      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, and kills 24-39 in south Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPMHNFVXV6MzVqT2E5Z1diZUlXRmhrSGZXaVhfdl9TR1lHYmhPVHk1eWYxeWVIQzdhWHRSQlZiNzhRMGJ0ZHNSVmhYSjZkRXRxaDBvY2Z5ZlBVZHdvUTlWR3F3QVJ6NXRrZGJDeUhvTW9aUENRdWhGSmg4TTdkRnVKMGRqV1FGdTRnc0HSAY8BQVVfeXFMUExYVlN4cWFndnlFQTdoN25MeWk1S0I4ZUMyTDFPVkdKRWtNUVRfRjkzazgwZW9Ia0FVc0lMYmUtVVhneldDeHJWd0hNNFRCNGJ0NWR3VkZ1akU1ZVZvQVFkUXBfNGd4MzlTV2QwaEg0OTlPeXgwNHhvajRJS0hWazJpX0M3WVZWa3Q0bDZGclk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 613
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 614
     },
     {
-      "date": "May 12",
-      "text": "Israel kills 24 in Lebanon, with reports of 39 killed in total from intensified strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBZUVl2cS1FMkQzemhqVWpFWmhySzkxUHUxTGNIWDA3OGh0ZmE0dXdqOTU4OVVtTkRjalZFUmtyVi15M0NFak5YQWJjUGJHTThGTTNHWTkyTDFPZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 613
-    },
-    {
-      "date": "May 12",
-      "text": "Iran slams US's 'reckless military adventure' in Hormuz and issues warning to the US after Trump's threats.",
+      "date": "May 11",
+      "text": "Hezbollah drone hits an Iron Dome battery in Israel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 613
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOeWZmN3ZQWVk5UlBhUVNvZGFvSE5vTkhFU0pmTHhVT1Z2NFRKc0NCZWZjRFZUUTZvdzJzcDMzZVhGSktnM1hleDZ5M2NyQmVwN00wRU9vZzZZdHJZQnZvM2xRcEFGeENTQ1NXdWJDeHhKeUR0V0xWUC1zWEVnNzlCOXFjamtsTUtETnF2UUItUlNmSWM1VnZTM1pBVmFTRld5YkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 614
     },
     {
-      "date": "May 12",
-      "text": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, raising concerns about closure.",
-      "severity": "critical",
+      "date": "May 11",
+      "text": "Three crude oil tankers exit the Strait of Hormuz with trackers switched off.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 613
+      "latestSinceUpdate": 614
     },
     {
-      "date": "May 12",
-      "text": "Adnoc Gas expects Strait of Hormuz closure to hit full-year profit, highlighting economic impact.",
+      "date": "May 11",
+      "text": "President Trump is considering military action against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQSUtzS2lhSnYxX3ptRFh3dlNSbFZlX1FVNkt2STEwOWttdUJRN3ZrdGlkT1dydlhmd2ZlY2VCTkFNTlgzX3dGcEVkQ1BEdVdpQ3VWOGpxbGkybWRyV1BIMG9ELXQyU1Nab0R4bFJTaTJEakdxUm5qb3o0X0hPdUg5T2hnZk1RaVB1TTJ5M0tJaEhnZGYyN2c1Q1FPcGJsOVJMRzQ5ZS1PV3k3UTJaR2U2OGJ2S3VTSmdYU1pVbVJZZUVzRGdFb1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 614
+    },
+    {
+      "date": "May 11",
+      "text": "Location of a US Navy’s nuclear-armed submarine is revealed amid fragile Iran ceasefire.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 613
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxPQjJWcElkcmFkU2JhbWsxVXlGamNZNndKQXJDd2tZbjE0MVdrWnZDalFCRGN4QVEteGxvX3JGWGRMX3ZjZjV1WWV2SnMzZVJUR2pydmVhcklZRncxTGs0SzdzbFRYN3c0cVNyblh2WkZwS19YQlFoczNjSThXYVUzUWZldnJhYTQ4WU5Sbg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Interesting Engineering",
+      "latestSinceUpdate": 614
     }
   ],
   "sourceStatuses": [
