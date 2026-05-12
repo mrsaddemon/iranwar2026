@@ -1,13 +1,13 @@
 {
-  "updateSequence": 617,
+  "updateSequence": 618,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T16:03:54.264Z",
+  "lastSyncedAt": "2026-05-12T18:09:18.189Z",
   "warDay": 74,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "The ceasefire is described as being on 'life support' with ongoing violations and threats, indicating extreme fragility."
+    "summary": "A proposed ceasefire between the US and Iran is highly unstable, with President Trump rejecting Iran's peace proposal and ongoing military actions."
   }
 }

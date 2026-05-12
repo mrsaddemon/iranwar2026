@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 617,
+  "updateSequence": 618,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T16:03:54.264Z",
+  "lastSyncedAt": "2026-05-12T18:09:18.189Z",
   "warDay": 74,
-  "summary": "A fragile ceasefire between Iran and Israel is reportedly on 'life support' amidst ongoing Israeli strikes in Lebanon, Iranian threats, and concerns over the Strait of Hormuz.",
+  "summary": "A fragile ceasefire between the US and Iran is on 'life support' following President Trump's rejection of Tehran's peace proposal, while Israel conducts strikes in Lebanon and tensions rise over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "The ceasefire is described as being on 'life support' with ongoing violations and threats, indicating extreme fragility."
+    "summary": "A proposed ceasefire between the US and Iran is highly unstable, with President Trump rejecting Iran's peace proposal and ongoing military actions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,31 +18,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.3,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 11",
-      "text": "An Iran Update Special Report was issued, detailing ongoing developments in the conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOdmNKczZWM1I3ektweTVKUXU3SGVMWEZldzh0WFFEQUdZbWpUQlh1SnRrWjZnU1FTdFRBY1F6UF9NX2xCTklvWTJOaUV1T3FyMDdHNDdQS2l3QThiUzZRdm5nc0hIRG5Dekd4d05CUFpGTXJJclRORWlqaXQtQTNTTlhYeXpjN24xR1RWaW1HT2ljRVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 617
-    },
-    {
-      "date": "May 12",
-      "text": "US President Trump stated that the truce with Iran is on 'life support' after rejecting Tehran's latest proposal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 617
-    },
-    {
-      "date": "May 12",
-      "text": "Iran declared its 'finger on the trigger' but also expressed a desire for enduring peace.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNRHV6TWptcDFha3dabVhLdUNSenVvRksyam5GYTlqSFptblBoUFJkM0hjX2x3V0h0YnFJU00yT2tFVnY3YmpGNU9JeGJtVm5xZk44RWt4VEZ2VVBBYWZBZHd3OExzX1FLZE8yZGRUeUVlRjVEVGZtWVE0MlhvZGtJdDU4V2lIakRrSUEtUXFtUUdCR2dLU1pvUjdxUmdRQ3VCVVgxSm1pTzVlRmRlSHFzUXRvYmdjWl9teWU0WnpMeW_SAcYBQVVfeXFMTXh0MUYzQ2dPUWdGSVdDcTZyaWNwb2NZTWhuNU1ySDl0SjJud2Q2VjVKRU1wcnhlMUVnMm9sY3E2WEF2TjYxQ25id3Atai1tbWsxcUVwbnJWYmJMMEJlYjBoNDY0OUl0TldNRXFtQWwwUHNDeU5zTldPZHE0QVFlTGpaS3ZSWE0yUEdaNGZuUVpMRkF2YnNVYXZkb3lzTWhEa1o2eElwZVNxbFRaU0lFQVk4SHVWUy1vb3N0RDFIQU92S1EtQlln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 617
-    },
-    {
-      "date": "May 12",
-      "text": "Israel conducted strikes in Lebanon, reportedly killing 24 individuals, while awaiting Tehran's reply to a proposal.",
+      "text": "President Trump rejected Iran's peace proposal, stating the ceasefire is on 'life support' and calling the proposal 'garbage'.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 617
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNdl9NX19SZFZUZzlTLTA4MEtocURLY2M2T2FKUy1qbW5QVzkzY3NGMC0tQ2d3SjRxMlZpak5TNnVDOFY2S19LcENGdk96TGcyTFV0YlVsOEV1YjAzU0tNQmZPYXF6aFk3RzNmWGlxN1hUZnlFUy15TEhRSkRZbkRLelBZLUJ6aVBUcDNPUFNhX2QxOF90S3pBV3hJY3had1JjclI2WVR2RWk5SE0zVlFBZzlVY1d5MTN0YnVLQXdfd9IBxAFBVV95cUxNdDdFOUxQMG5lNDdDczhJSGxxTG15LXRMVUdQTFdHYmFOR0pYYXhYS0c3YmI5ZmVfNkJIM3hXeERmanpYUGN5VDFkTk9YNXVOc1FYczNwSTVoYnRRbnBOWWF5QzE1dVF1ejJ4X2lnTHlJVjZFd0RiejJrWUZhWGpMM05mek1UQWt4SXNGbzJSZm45THpvd0xNYUdDVllUZVVSdU82dnR2QzJoeW9sMVZ5TWtkU2Iwb2tsSlpYYjNON3NFVkt4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 618
     },
     {
-      "date": "May 12",
-      "text": "Israel struck Beirut for the first time since the Lebanon ceasefire was announced.",
+      "date": "May 11",
+      "text": "Israel killed 24 people in Lebanon and struck Beirut for the first time since the Lebanon ceasefire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "DW.com",
-      "latestSinceUpdate": 617
+      "latestSinceUpdate": 618
     },
     {
-      "date": "May 12",
-      "text": "A warning of 'mass starvation' was issued concerning the Strait of Hormuz due to potential disruptions.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 617
+      "date": "May 11",
+      "text": "The Pentagon revealed the cost of the Iran war has increased to $29 billion and is seeking additional funding.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxON0M4M3NfWWRIOFFuYjBDUi13bmFxODJpdXM2QjVLaEpINldLc1JiN3pDTW5FRDJ4WWkzYlNpU0FSQTRpUU1yYUtrWS04Q3VGYnVteng5TFdxZ0gzX09RdzV5ekRRRUgwWjdnSTFySEkyVU1BWk03Rjc0ckdGcE9EUzhHZ0VGZFZhSDlQT0FoN2U2Wi0xakg3Q3NLRDhTWG4tTGgyQXRVUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "USA Today",
+      "latestSinceUpdate": 618
+    },
+    {
+      "date": "May 11",
+      "text": "Iran defined the Strait of Hormuz as a far larger zone, leading to accusations of holding the world's economy hostage.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE1mb2FmV2Z1S1NyUGxCZlY3ZFVGT096LVZnd01XZHdrXzNMY1hYZmRiZ21pYWNpdnFEVzRFMmltSUs0bTgwU21KaVlOQ25zRTBZRU91eWNR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 618
+    },
+    {
+      "date": "May 11",
+      "text": "The UK pledged drone boats to help secure the Strait of Hormuz amid rising tensions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOZVhuZDNJWTVaUDZscndsa2dBTElUZVhmODVtT2tzQWx1ZW5saWFzaHJMNkRHYi15aFlJeDVNbkhEQ3JJR3ZocE5vZ2ZBMmZuRWZTNUk3NWxWbzRkYmVOaEVjcUcwbEdIWVJoRGFSQWM3OVZlOEFqWE5HNVU5a2JVNzNYVXhhS1VhMkgzT0t3QVY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "politico.eu",
+      "latestSinceUpdate": 618
+    },
+    {
+      "date": "May 11",
+      "text": "Hezbollah leader urged Lebanon to quit direct talks with Israel and stated the group's weapons are not a subject of talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNLWtFUjM1ZC03MExaZDBoZXBBOVhvV2NTbS01VmstcjdGYUlBNjQ3YUFOLVRBVDc4U2pYazlad1pfUDY1cEltTW1ja01XSzd1bnRfZVhNUEFkYmc4dFpVdmlLZU1kOGtRV1FjLVdsU2xYNlQ2cVJGc2FDSUNUaTZJeEt5MnpCN1VaY1lCZkd6bw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 618
     }
   ],
   "sourceStatuses": [
