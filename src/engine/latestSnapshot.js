@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 610,
-  "lastUpdated": "2026-05-11",
-  "lastSyncedAt": "2026-05-11T23:04:35.409Z",
-  "warDay": 73,
-  "summary": "The US has rejected Iran's latest ceasefire proposal, leading to continued conflict in the Middle East with ongoing Israeli strikes in Lebanon and threats of further US action.",
-  "lastNarrativeUpdate": "2026-05-11",
+  "updateSequence": 611,
+  "lastUpdated": "2026-05-12",
+  "lastSyncedAt": "2026-05-12T00:07:30.083Z",
+  "warDay": 74,
+  "summary": "The US has rejected Iran's latest ceasefire proposal, leading to continued conflict and Israeli strikes in Lebanon, while tensions remain high in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-05-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A proposed ceasefire between the US and Iran is considered on 'life support' or collapsed after the US rejected Iran's counteroffer, leading to continued hostilities."
+    "summary": "The US has rejected Iran's latest peace proposal, with President Trump declaring the ceasefire on 'massive life support' and effectively collapsed."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.88
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.78
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 62,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,44 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 11",
-      "text": "US President Trump rejected Iran’s response to the latest US proposal to end the war, stating it was 'totally unacceptable'.",
+      "date": "May 12",
+      "text": "US President Trump rejects Iran's latest ceasefire proposal, stating it is 'totally unacceptable' and putting the ceasefire on 'massive life support'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQejcyNndvcnR3cEVKNS1tUHVaZWpyN0tmUTJNSXNjTm9Ia056WC1TV2ZaLVVlSm9wcURZZ2EwWWJTWlIyQjV3VkoxUWZoblRpZXRmeERjb240SlJ3MzBpa003Qm8wenAxd2ZUR01ocTNQUE82TXBaWnloQUxwUlBkcDd5aFpSVzkwdjk5eHk1V3p4bGhj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 610
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 611
     },
     {
-      "date": "May 11",
-      "text": "Israeli strikes across Lebanon killed at least 18 to 24 people amid the ongoing conflict.",
+      "date": "May 12",
+      "text": "Israeli strikes across Lebanon kill at least 18-24 people amid ongoing conflict.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 610
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPSkhuSHhxdmpnSVdoRUZkWUYxU1FYMXpNbVZqSV9aa0wtMFowdmhFczlINWM4cm4tQzFNV3VHN1hXamRraDZhMHk1LUx5MnVJb3Btb3VDTHNjbHRfdWZ3bVBrZUxmS1lBQ3VxbUM2LTR1NUFiWndmRzVfRUppNnVmTkFwVlpBcldtSUVGcnpCN2R1dlVXbllHVEdNdWhSaG5qaWJaOHd0OTR4VmFfRC1pUHJCbXItUkdjN0HSAb8BQVVfeXFMT0puUGVHRDJlczNDRUQtNjBNejM5VE9iZkUtY3ZzSTVhOW5GbWc3cGFReXJieXA5ZlJPQXFaUktqRUVDU3BCeFpTelpNUHE4ZUFjOElfbVp1VHBxMHNETmpCaV95QmcyTUhOQ0dyVFRyTTlDN0thaFNsZlNwdXRPMC1WeWlZSXB0Z1JKUDluTV85OEhxRzA3QWFJSmF2Ty1XNndkeXVSZy1zMFQ2TElIa281allySHc4MFQyZG04SHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 611
     },
     {
-      "date": "May 11",
-      "text": "Hezbollah reportedly used a drone to hit an Iron Dome battery in Israel.",
+      "date": "May 12",
+      "text": "Hezbollah drone reportedly hits an Iron Dome battery in Israel.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOeWZmN3ZQWVk5UlBhUVNvZGFvSE5vTkhFU0pmTHhVT1Z2NFRKc0NCZWZjRFZUUTZvdzJzcDMzZVhGSktnM1hleDZ5M2NyQmVwN00wRU9vZzZZdHJZQnZvM2xRcEFGeENTQ1NXdWJDeHhKeUR0V0xWUC1zWEVnNzlCOXFjamtsTUtETnF2UUItUlNmSWM1VnZTM1pBVmFTRld5YkE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 610
+      "latestSinceUpdate": 611
     },
     {
-      "date": "May 11",
-      "text": "Lebanon requested the US to pressure Israel to halt its attacks and operations.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTFBzVERkYk5DNXF0cTh0dUJ5OG8zVU5Bb3VMb1dNNFdYaGRGU2NXM1pPSjNFSkxHMjYzNjVWbVhqbHlVckg5YjAzTHd1YTh2ZTJfc1RnMUNEUE91SUd0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 610
+      "date": "May 12",
+      "text": "Three crude oil tankers exit the Strait of Hormuz with their trackers switched off.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 611
     },
     {
-      "date": "May 11",
-      "text": "Trump threatened more strikes against Iran if a deal is not signed 'fast'.",
+      "date": "May 12",
+      "text": "Iran accuses the US of 'reckless military adventure' following reports of US fighter jet attacks on Iranian tankers.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 610
+      "latestSinceUpdate": 611
     }
   ],
   "sourceStatuses": [
@@ -131,25 +131,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Perspective",
-      "headline": "Trump Rejects Iran's 'Unacceptable' Proposal",
-      "summary": "US President Trump has rejected Iran's latest counteroffer to end the war, stating it is 'unacceptable' and does not meet US demands for a resolution.",
+      "perspective": "US/Trump Administration",
+      "headline": "Trump Rejects Iran's Offer, Threatens More Strikes",
+      "summary": "President Trump has rejected Iran's latest peace counteroffer as 'totally unacceptable', stating the ceasefire is on 'massive life support'. He threatens more strikes if a deal is not signed 'fast'.",
       "tone": "defiant",
-      "latestSinceUpdate": 602
+      "latestSinceUpdate": 611
     },
     {
-      "perspective": "Iran Perspective",
-      "headline": "Tehran Condemns US 'Reckless Military Adventure'",
-      "summary": "Iran accuses the US of 'reckless military adventure' in the Strait of Hormuz following US strikes on tankers, while maintaining its own peace proposal.",
+      "perspective": "Iran",
+      "headline": "Iran Vows Defiance Amid US 'Reckless Adventure'",
+      "summary": "Iran states it will 'never bow' to pressure after the US rejected its peace proposal, accusing the US of 'reckless military adventure' and highlighting its military playbook to cripple Iran.",
       "tone": "defiant",
-      "latestSinceUpdate": 602
+      "latestSinceUpdate": 611
     },
     {
-      "perspective": "Regional Conflict",
-      "headline": "Deadly Israeli Strikes Erode Lebanon Truce",
-      "summary": "Deadly Israeli strikes in southern Lebanon continue, killing dozens and eroding an existing cease-fire, as Hezbollah rockets hit open areas in Israel.",
-      "tone": "strained",
-      "latestSinceUpdate": 602
+      "perspective": "Lebanon",
+      "headline": "Lebanon Seeks External Pressure for Ceasefire",
+      "summary": "Amid rising Israeli killings, Lebanon is seeking US pressure on Israel to halt attacks and operations, also turning to Saudi Arabia in pursuit of a ceasefire.",
+      "tone": "anxious",
+      "latestSinceUpdate": 611
+    },
+    {
+      "perspective": "Analysts/Observers",
+      "headline": "Ceasefire Pretence Over, US Retreat Predicted",
+      "summary": "Observers suggest the 'pretence of a ceasefire' is over following increased Israeli strikes in Lebanon. Some predict the war on Iran will likely end in an American retreat.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 611
     }
   ]
 });
