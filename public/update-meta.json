@@ -1,13 +1,13 @@
 {
-  "updateSequence": 614,
+  "updateSequence": 615,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T09:26:31.939Z",
+  "lastSyncedAt": "2026-05-12T11:33:20.040Z",
   "warDay": 74,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "The ceasefire is effectively collapsed after President Trump rejected Iran's proposal and is considering military action, with renewed hostilities in Lebanon."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
