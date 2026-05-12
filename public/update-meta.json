@@ -1,13 +1,13 @@
 {
-  "updateSequence": 612,
+  "updateSequence": 613,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T04:02:19.453Z",
+  "lastSyncedAt": "2026-05-12T06:43:58.540Z",
   "warDay": 74,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire between parties is reported to be active but highly fragile, with ongoing violations and diplomatic setbacks."
+    "summary": "The proposed ceasefire is considered to be on 'life support' and has been rejected by the US, indicating a collapse of current peace efforts."
   }
 }

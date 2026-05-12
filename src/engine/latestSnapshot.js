@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 612,
+  "updateSequence": 613,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T04:02:19.453Z",
+  "lastSyncedAt": "2026-05-12T06:43:58.540Z",
   "warDay": 74,
-  "summary": "The conflict between the US, Israel, and Iran continues with ongoing military strikes, a highly fragile ceasefire, and heightened tensions in the Strait of Hormuz.",
+  "summary": "The ceasefire between warring parties is reported to be on 'massive life support' as the US rejects Iran's latest proposal and considers military action, while Israel intensifies strikes in Lebanon and concerns rise over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire between parties is reported to be active but highly fragile, with ongoing violations and diplomatic setbacks."
+    "summary": "The proposed ceasefire is considered to be on 'life support' and has been rejected by the US, indicating a collapse of current peace efforts."
   },
   "actorOverrides": {
     "usa": {
@@ -18,41 +18,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.65,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.45,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 51
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 58,
+    "globalPressure": 72,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 12",
-      "text": "Israeli strikes across Lebanon killed at least 39 people, following earlier reports of 24 and 18 casualties.",
+      "text": "Trump states Iran ceasefire is on 'massive life support' and calls latest proposal 'garbage'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxON2RSNjhuM1Z2dzB2MmZKbTJybWI2aVFpMFJMdjBHZXk4OXc2UFdkUHdrWWM1enIyckUta1dDV0NiaEtiZnlPeW02UUlSRm5WckVVOUt0SWpHV3RkdHhRN2RVV1ZaMGw0bVdzbWc5OHM2NlhmT2NXOXd4Y1ZraUh5VEUtMGIydHZP?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 613
+    },
+    {
+      "date": "May 12",
+      "text": "Trump rejects latest Iran proposal amid shadow drone war and weighs military action against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPMHNFVXV6MzVqT2E5Z1diZUlXRmhrSGZXaVhfdl9TR1lHYmhPVHk1eWYxeWVIQzdhWHRSQlZiNzhRMGJ0ZHNSVmhYSjZkRXRxaDBvY2Z5ZlBVZHdvUTlWR3F3QVJ6NXRrZGJDeUhvTW9aUENRdWhGSmg4TTdkRnVKMGRqV1FGdTRnc0HSAY8BQVVfeXFMUExYVlN4cWFndnlFQTdoN25MeWk1S0I4ZUMyTDFPVkdKRWtNUVRfRjkzazgwZW9Ia0FVc0lMYmUtVVhneldDeHJWd0hNNFRCNGJ0NWR3VkZ1akU1ZVZvQVFkUXBfNGd4MzlTV2QwaEg0OTlPeXgwNHhvajRJS0hWazJpX0M3WVZWa3Q0bDZGclk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 613
+    },
+    {
+      "date": "May 12",
+      "text": "Israel kills 24 in Lebanon, with reports of 39 killed in total from intensified strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBZUVl2cS1FMkQzemhqVWpFWmhySzkxUHUxTGNIWDA3OGh0ZmE0dXdqOTU4OVVtTkRjalZFUmtyVi15M0NFak5YQWJjUGJHTThGTTNHWTkyTDFPZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 612
+      "latestSinceUpdate": 613
     },
     {
       "date": "May 12",
-      "text": "An IDF reservist was killed in northern Israel by a Hezbollah explosive drone attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQeERONkRvQ1lYRnhWN29hSENRbC1ocUQ5VTFqQXd1WFhYc3NkZzZQU1pfZlRZcGdGMlBYbEdZQ1lfR1NZYm9aU0lEdm9CX2RlYzkxQk1zUElwVmdIdGw5dW1DQWdXbXg2VzBLQlVfMHJwcHJBMnlmUjF3aUJXTzRjSU9jYTMxQUdvWXl1aHlzMXQtRW9qcGRpRkNqLUtmbDNnNjRmUG5ZNDRxZ9IBrwFBVV95cUxQN0F5c28tbUhKVmMyY3ZyY1gxOEJSdjV6a0lSLU93ZlQtODNtWG9zcThxTzhnU0VvRWRpbmlVQmlkTGJyTkNXRG1EOUx6aW9FNkZRZTI0bnc4czViaG0xTUs3NEFCVW53NlVFbjl1QzZJVDhLdUZtQ2pPZXdwcHBKVkFBeTlkdkE5OUhRRW9NNjJfTEZ1Qkt5a011cXp2c2hxYlVGWVdHSlh6RTUzMnVJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 612
-    },
-    {
-      "date": "May 12",
-      "text": "Hezbollah aired drone footage reportedly showing a strike on an Iron Dome battery in northern Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQLWU1QV9Sb1I3Q2V4MXEyUmpWWHRYY2RFZzVyS0Z6VmdOeEk0XzZ5bFNPRTFiVnhCSkxnU3NNemNkd0JxSXFxUlJlZk9kV3hjcHdwUGZPMlBYbFhCSHJkNm80YzhJT2tacXdZNVgyUGNPZnpsb2xtWTlCR0JuSThlbkV6b0dqRGdQUmJ3ZVp3UDdKUEQxTWNjYy1pZW5yV2NyNTItT2dscXNZd9IBrwFBVV95cUxQRVhqbDBCT250WDFNMUpRSzVuSUw0MDNaUU9qN2NIVlZEcXZZSTk5bHJHeXZSVlVVSWF5MUM2anhpcjFQa2xKQTBLY0JwRDJBaHVSTVZNQ0UwS0pZZ3BMbmpidmo2SGh5b040Y1otS3hIYUlkcmdyUVlwaE5OSHZ5aHlHd0pqNXJnc3NEdUNqQXhJTFpjN0RjMFpYSE1RWEhzZENrMDg4MUhjRW5uUWFJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 612
-    },
-    {
-      "date": "May 12",
-      "text": "The U.S. fired on and disabled two more Iranian tankers amidst rising tensions in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNLVBMdW85VzItbE9Ba01rbE5Fd1FiME5fQU1kNnZtTWRySkhjNjN6SmxiSUw4cEtDdW1hYXU3UUFkcV9rTzI0ZERtc25waXUxREtXWnpFTHZSbHpqT25kVzYyZ3lvNVA0YmE2MGh5Nk1vM1ZJVm1QcWozRVJQMUZSNVJmUTlwRWc2T2ZhdWNtdnJHSHZSVXFXYldINGxMbmt6NDkyV0tYLUZKSkhIclVUQzN3QndsWkd3MW1PTVJYcTJvUdIBxwFBVV95cUxNdS1hOVVfal8zY2s2OEpaS1FhYWNVNUNJSlBaSXBTd21ObUlhMmNnSU41M1Jja1NJWWs3ZEtkYjJxeXJwZDBwcnE0MEJ5Z2lSTE0xUTh6VGZPQWN5T3EtZENQNkJERXU3Vllic0s1ckdwX0RwcG9KMGctSlh5cjUzTmUyZUFDMEo5dG11Zkc1czJ1endUbWhBQm9GRzVIYVFBR1RpNjNOZF8xeXhNTkk2QVl6TkhQZk5YWlQ3MnExNFhhdjR4LTVV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 612
-    },
-    {
-      "date": "May 12",
-      "text": "Three crude oil tankers exited the Strait of Hormuz with their trackers switched off, raising concerns.",
+      "text": "Iran slams US's 'reckless military adventure' in Hormuz and issues warning to the US after Trump's threats.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNNWZhUzVmUUNudHFiYzR6WFItRllzWEJ3ejdGOTVEQ0R3TzJrY3BEYUNtY3NHV0hRb2lVTXd5SGpXSHVVVmQ1V2dkSnVCNExRaGRrbWYxUHREdmx2dk1RVlkyNE5wYUFET1BLV2pSbTI2akVESndfWTRBeU5hc3lWUlRrMUp5OWd1YlRDRU1KaG5nQXdHZGhHd3lwNThLUE83a0t5dDl3ZWViRmp6b3dCcUJVeWNreE3SAbwBQVVfeXFMUGxycEpfd3RGUHo4NzBmUkREQ2RheTZmRjJreHZXRzJZbWJFbloyZjdVRzJOY0Y3X0RiNG5vN2dndVVTSWt0NXFyd28yZkdMWUttUXdRRENQbXc2c2RibnJoaXIwQjRqNEZUWHlsRjRFWnpwajBQX0Z1MV9sMm9ERl9MNFBRb3l2TDI4WExSQzZSSUE0TjJfSEdrai1DbVdScFhHdjZJMWhQMTllSTdBdUNKS3R5Y1ZrcDBoaXA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 613
+    },
+    {
+      "date": "May 12",
+      "text": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, raising concerns about closure.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 612
+      "latestSinceUpdate": 613
     },
     {
       "date": "May 12",
-      "text": "Former President Trump stated that Iran’s response to the latest U.S. proposal was 'totally unacceptable' and that the ceasefire was on 'life support'.",
+      "text": "Adnoc Gas expects Strait of Hormuz closure to hit full-year profit, highlighting economic impact.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNdl9NX19SZFZUZzlTLTA4MEtocURLY2M2T2FKUy1qbW5QVzkzY3NGMC0tQ2d3SjRxMlZpak5TNnVDOFY2S19LcENGdk96TGcyTFV0YlVsOEV1YjAzU0tNQmZPYXF6aFk3RzNmWGlxN1hUZnlFUy15TEhRSkRZbkRLelBZLUJ6aVBUcDNPUFNhX2QxOF90S3pBV3hJY3had1JjclI2WVR2RWk5SE0zVlFBZzlVY1d5MTN0YnVLQXdfd9IBxAFBVV95cUxNdDdFOUxQMG5lNDdDczhJSGxxTG15LXRMVUdQTFdHYmFOR0pYYXhYS0c3YmI5ZmVfNkJIM3hXeERmanpYUGN5VDFkTk9YNXVOc1FYczNwSTVoYnRRbnBOWWF5QzE1dVF1ejJ4X2lnTHlJVjZFd0RiejJrWUZhWGpMM05mek1UQWt4SXNGbzJSZm45THpvd0xNYUdDVllUZVVSdU82dnR2QzJoeW9sMVZ5TWtkU2Iwb2tsSlpYYjNON3NFVkt4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 612
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 613
     }
   ],
   "sourceStatuses": [
