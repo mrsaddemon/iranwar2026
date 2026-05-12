@@ -1,13 +1,13 @@
 {
-  "updateSequence": 619,
+  "updateSequence": 620,
   "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T20:11:27.136Z",
+  "lastSyncedAt": "2026-05-12T21:42:35.679Z",
   "warDay": 74,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A ceasefire between the US and Iran is described as being on 'life support' by President Trump, with ongoing hostilities in Lebanon and rejected peace proposals."
+    "summary": "Ceasefire talks between the US and Iran have stalled, with President Trump stating the agreement is on 'life support' after rejecting Tehran's proposal and threatening further action."
   }
 }
