@@ -1,13 +1,13 @@
 {
-  "updateSequence": 632,
+  "updateSequence": 633,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T22:20:53.543Z",
+  "lastSyncedAt": "2026-05-13T23:33:27.246Z",
   "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire in Lebanon has been violated by Israeli strikes and is described as 'on life support' amid threats of renewed US military action against Iran."
+    "summary": "The ceasefire is described as being on 'massive life support' after the US rejected Tehran's proposal, with renewed military action being weighed."
   }
 }
