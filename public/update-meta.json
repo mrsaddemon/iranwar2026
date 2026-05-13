@@ -1,13 +1,13 @@
 {
-  "updateSequence": 628,
+  "updateSequence": 629,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T15:28:59.343Z",
+  "lastSyncedAt": "2026-05-13T17:36:20.415Z",
   "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 1,
     "durationDays": 15,
-    "summary": "The ceasefire is described as 'on life support' and peace talks are in disarray, with the US rejecting Iran's response."
+    "summary": "Peace talks are in disarray and the ceasefire is reported to be on life support or collapsed, leading to renewed military actions."
   }
 }
