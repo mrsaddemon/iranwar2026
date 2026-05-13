@@ -1,13 +1,13 @@
 {
-  "updateSequence": 622,
-  "lastUpdated": "2026-05-12",
-  "lastSyncedAt": "2026-05-12T23:45:07.775Z",
-  "warDay": 74,
+  "updateSequence": 623,
+  "lastUpdated": "2026-05-13",
+  "lastSyncedAt": "2026-05-13T01:31:29.565Z",
+  "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire between the US/Israel and Iran is reported to be active but highly fragile, with threats of further strikes if a deal is not finalized."
+    "summary": "The ceasefire is described by President Trump as being on 'life support' and 'weak' after he rejected Tehran's proposal, with threats of renewed attacks."
   }
 }
