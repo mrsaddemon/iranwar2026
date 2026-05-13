@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 625,
+  "updateSequence": 626,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T08:17:24.822Z",
+  "lastSyncedAt": "2026-05-13T10:45:30.322Z",
   "warDay": 75,
-  "summary": "Ongoing conflict between Iran and Israel continues with renewed strikes in Lebanon, while a US-Iran ceasefire is reported to be on 'life support' amidst diplomatic efforts and heightened tensions in the Strait of Hormuz.",
+  "summary": "The ceasefire between the US and Iran is described as being 'on life support' by President Trump, who has rejected Tehran's proposals and threatens renewed attacks amidst ongoing regional conflict.",
   "lastNarrativeUpdate": "2026-05-13",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 20,
-    "summary": "The US-Iran ceasefire is reported to be on 'life support' following an 'unacceptable' peace proposal from Tehran and renewed Israeli strikes in Lebanon."
+    "durationDays": 45,
+    "summary": "The ceasefire between the US and Iran is described as being 'on life support' by President Trump, who has rejected Tehran's proposals and threatens renewed attacks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 12",
-      "text": "Trump and Xi to hold high-stakes talks amidst global tensions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNDNTVHIzQV9CZkVFNkxuZ2YxVGRUX3VsOFFMN2JFY0VCeVNob2o3YUdBbU5DUFFjTndDSmJIcnk3UVRMODFHNk15blgwSy1tX2xvUDh6NnN4ZXVVNXQxek91dExtTlJlMFh0Z0Z3ZDhDbEdtVmtFMTFUSnBNbW4xQURuR2hyTXJ0U0czaWFrVnhYSU1CQkY1S1lNVnJoN2tzaE51X3h0ZldiVjJUYmNlVDRPMnNKbWM2dTNKN3EySdIBxAFBVV95cUxPX1ZoMG9wT0owLWdmZjRCd3J4NEdydUtNS2M4OVpGYVZ6MDZOWDRnWmxZVmZXRDB2ZmVKaWVyTC0xM2d6Y3dKV09PU21HQ2Fya0Yyb052V3YwT0RmQUM2OEZDei1jQThPdjVUY3p2MGN3YWFyTTVIWWstTDVHVGFfdXNPTEYzTG5WQ2RiMWl1eFNTclNGaXhyRzdnQ1ZPOTlndWE3d2pubnNjUEN0WTFqUWwtZUo1Ymd0aHl4QUVHSk8ycHBs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 625
-    },
-    {
-      "date": "May 12",
-      "text": "Pentagon estimates Iran War cost at roughly $29 Billion.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 625
-    },
-    {
-      "date": "May 12",
-      "text": "Trump warns Iran to make a deal or face renewed attacks.",
+      "text": "President Trump states the ceasefire with Tehran is 'on life support' and threatens renewed attacks if a deal is not signed 'fast'.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 625
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNdl9NX19SZFZUZzlTLTA4MEtocURLY2M2T2FKUy1qbW5QVzkzY3NGMC0tQ2d3SjRxMlZpak5TNnVDOFY2S19LcENGdk96TGcyTFV0YlVsOEV1YjAzU0tNQmZPYXF6aFk3RzNmWGlxN1hUZnlFUy15TEhRSkRZbkRLelBZLUJ6aVBUcDNPUFNhX2QxOF90S3pBV3hJY3had1JjclI2WVR2RWk5SE0zVlFBZzlVY1d5MTN0YnVLQXdfd9IBxAFBVV95cUxNdDdFOUxQMG5lNDdDczhJSGxxTG15LXRMVUdQTFdHYmFOR0pYYXhYS0c3YmI5ZmVfNkJIM3hXeERmanpYUGN5VDFkTk9YNXVOc1FYczNwSTVoYnRRbnBOWWF5QzE1dVF1ejJ4X2lnTHlJVjZFd0RiejJrWUZhWGpMM05mek1UQWt4SXNGbzJSZm45THpvd0xNYUdDVllUZVVSdU82dnR2QzJoeW9sMVZ5TWtkU2Iwb2tsSlpYYjNON3NFVkt4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 626
     },
     {
       "date": "May 12",
-      "text": "Report reveals UAE secretly launched strikes on Iran, targeting an oil refinery.",
+      "text": "A report indicates the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 625
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 626
     },
     {
       "date": "May 12",
-      "text": "Israel kills 24 in Lebanon as US awaits Tehran’s reply to peace proposals.",
+      "text": "Israeli strikes in Lebanon killed 24 people, raising questions about the ceasefire's viability.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 625
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 626
     },
     {
       "date": "May 12",
-      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 625
+      "text": "Iran has restored its missile power in the Strait of Hormuz and is tightening its grip on the vital waterway.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPNjlQdkNycWVhbFVsblhibzZtLXk0dkZqUGM4MU0xdzFnVThNc3l3Z3lKMG9WSVdDRzRRcEZMb3pBRGxvS2dPZjVhSVZyVHNFWkxTM3UzWjRDZnNfeGRGRUNmMnpUaU4ydjFGUnZ4VE1hMm5sdTgzWlA5bjVCeFdXeUs1c2dMRGthb2otVVROTGpwUFZfTnpYWmVhTEFiMFlFdjkxaGpldm10LXhlRnBn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Telegraph",
+      "latestSinceUpdate": 626
+    },
+    {
+      "date": "May 12",
+      "text": "The Pentagon estimates the Iran War cost at $29 billion, with discussions about renaming the conflict 'Sledgehammer' if the ceasefire collapses.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOeXhhb0N2aGpZcW84Q0l6Wmg2QXk5RnVHLUstb1FteVFyQUZGeWtXeWdxbDRZbFhZY0xqVlVxckhhLUh3UFgydUxpQWZkY1VmazQ2aTJxRGgzb3F1SXc2ZjBoYnAyWjRXY1NuY2xYNXFDbGNCR1cyQlpzd3RPMms1aFFpZkRXV0VmUzdBamtWSkk3N3BsUnpBS1E3bm11R3dOR0FhN3hpOFNyOFN5NGhESGZacm1KSjdsWF9zNEI1RV9KZFVrODEtaEQ2N0k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 626
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 625,
+  "updateSequence": 626,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T08:17:24.822Z",
+  "lastSyncedAt": "2026-05-13T10:45:30.322Z",
   "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 20,
-    "summary": "The US-Iran ceasefire is reported to be on 'life support' following an 'unacceptable' peace proposal from Tehran and renewed Israeli strikes in Lebanon."
+    "durationDays": 45,
+    "summary": "The ceasefire between the US and Iran is described as being 'on life support' by President Trump, who has rejected Tehran's proposals and threatens renewed attacks."
   }
 }
