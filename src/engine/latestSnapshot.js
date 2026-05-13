@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 629,
+  "updateSequence": 630,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T17:36:20.415Z",
+  "lastSyncedAt": "2026-05-13T19:22:39.759Z",
   "warDay": 75,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-13",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 1,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "Peace talks are in disarray and the ceasefire is reported to be on life support or collapsed, leading to renewed military actions."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 12",
-      "text": "Israel killed a dozen individuals in Lebanon amidst disarray in peace talks.",
-      "severity": "warning",
+      "date": "May 13",
+      "text": "Iran Update Special Report, May 12, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPcFRzcWVvM0p0c3hJS1h2RlR3V1RvbGNwUS0zRThsZDhoN3E5cVZKREpEc1d2cHhlLVgyZXB1QlpJYXpUZ01ZMTZWNWFEd28yekM5N1N1MFExUERuQ3ZQaXQtaG9WdElicEpZOGFBZkNoUnpaTVU2TkdtMUpRWlJoME5XSFdyNFdCSTcwVlVPY25zSVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 630
+    },
+    {
+      "date": "May 13",
+      "text": "Iran war live: Tehran vows ‘no retreat’; Netanyahu says he met UAE leader",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNDNTVHIzQV9CZkVFNkxuZ2YxVGRUX3VsOFFMN2JFY0VCeVNob2o3YUdBbU5DUFFjTndDSmJIcnk3UVRMODFHNk15blgwSy1tX2xvUDh6NnN4ZXVVNXQxek91dExtTlJlMFh0Z0Z3ZDhDbEdtVmtFMTFUSnBNbW4xQURuR2hyTXJ0U0czaWFrVnhYSU1CQkY1S1lNVnJoN2tzaE51X3h0ZldiVjJUYmNlVDRPMnNKbWM2dTNKN3EySdIBxAFBVV95cUxPX1ZoMG9wT0owLWdmZjRCd3J4NEdydUtNS2M4OVpGYVZ6MDZOWDRnWmxZVmZXRDB2ZmVKaWVyTC0xM2d6Y3dKV09PU21HQ2Fya0Yyb052V3YwT0RmQUM2OEZDei1jQThPdjVUY3p2MGN3YWFyTTVIWWstTDVHVGFfdXNPTEYzTG5WQ2RiMWl1eFNTclNGaXhyRzdnQ1ZPOTlndWE3d2pubnNjUEN0WTFqUWwtZUo1Ymd0aHl4QUVHSk8ycHBs?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 629
+      "latestSinceUpdate": 630
     },
     {
-      "date": "May 12",
-      "text": "Israel killed 24 individuals in Lebanon as the US awaits Tehran’s reply.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 629
+      "date": "May 13",
+      "text": "Day 74 of Middle East conflict — Trump says ‘I don’t think about Americans’ financial situation’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE8wV2ZfWHRaOUFxYWlLbk5ZcE9wNVlvQzJRb20tNWxZeEpVSWM4MWhPb0wyWGctdXFRVzZmSElNQ3VpSEQ0Vmx0dE5STEZoWEJJTW5wZlh6NTBUVk81dEFSa1RtRndRNHpQcDJobGhtTDl1MW9M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 630
     },
     {
-      "date": "May 12",
-      "text": "A report indicates the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "critical",
+      "date": "May 13",
+      "text": "Iran War Updates: Trump Says Iran Must Make Deal or Face Renewed Attacks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPMXlNSERRU0xnN3FTTVppbW1ITWRjOXVROE1vNndNTXVocVdPVzljQ3Z6Y1pwRWFISm5QUVJocUtPYk5jNWRZdzBTU3pYcDVwdHBLcmV0Sm96MFo4Zm1Zd3ZQVHRiYVJWalg4TWk3a2ZUeUVMSmVfMDUyTUdLQW1GV3Zzaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 630
+    },
+    {
+      "date": "May 13",
+      "text": "UAE secretly launched strikes on Iran during war, attacked oil refinery — report",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 629
+      "latestSinceUpdate": 630
     },
     {
-      "date": "May 12",
-      "text": "Trump stated Iran must make a deal or face renewed attacks, and threatened more strikes if a deal is not signed 'fast'.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 629
-    },
-    {
-      "date": "May 12",
-      "text": "Iran expanded its Strait definition and flexed control over Hormuz, striking energy deals with Iraq and Pakistan.",
+      "date": "May 13",
+      "text": "Iran war latest: Chinese tanker crosses Strait of Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPeEV0N2V1QmJhSWFBeG9JZE5EV3I1RFpoY3hicVNfeG1BVWdwcDFXSUEwRzQ0SDJLVk5wQnhCSWc3MWJNcnFkNGRoTERUT0d4ZXJVU05iTHgtU3RwbW5SUHZRbXdUbERCclpXRDV6WHpnaERHM2cyX2ZmVlg1cDJTUHlNMmozVVVkeVcxdm5WSzNHQ0s3Nkx4dndEaUlfUHNzcVVYZDFtYWhZVWp4ajZuemQtdnMxWDVkNFRDSEo4ZHFHQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 629
-    },
-    {
-      "date": "May 12",
-      "text": "Hezbollah's unjammable drones are posing a new threat to Israel, with the IDF intercepting an apparent drone.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQU0NRRHljUFlnWTFlc3ppOThmbEtjWG5DNFFKNEhXMHViQ3hFVUdKQS1icTJtME8xTGZwX19WaEZMeVdwTXhtZmYyckgyT0ZkbzBidnlDZVZKRmRJMWN5dTE3Tjl0R2FmMlMzUWd1RjRjTWxlMHZ5Q1FhSzRmY3p4a2ZOQkJLZ29qaXpWQUlCZEFIWUwtcXp0ZXROQTZWbWVieXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 629
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 630
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
