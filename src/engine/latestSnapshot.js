@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 627,
+  "updateSequence": 628,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T12:34:24.816Z",
+  "lastSyncedAt": "2026-05-13T15:28:59.343Z",
   "warDay": 75,
-  "summary": "A ceasefire between the US and Iran is reported to be on 'life support' as President Trump rejects Tehran's proposals and threatens renewed military action amidst ongoing regional strikes and energy deals.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-13",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "The ceasefire is reported to be on 'massive life support' and collapsing, with President Trump rejecting proposals and threatening renewed military action."
+    "summary": "The ceasefire is described as 'on life support' and peace talks are in disarray, with the US rejecting Iran's response."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.9
+      }
+    },
+    "iran": {
       "metrics": {
         "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
-      }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 60
-      },
-      "behavior": {
-        "precision": 0.5,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "globalPressure": 64,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 12",
-      "text": "Trump states ceasefire with Tehran is on 'life support' and Iran must make a deal or face renewed attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNdl9NX19SZFZUZzlTLTA4MEtocURLY2M2T2FKUy1qbW5QVzkzY3NGMC0tQ2d3SjRxMlZpak5TNnVDOFY2S19LcENGdk96TGcyTFV0YlVsOEV1YjAzU0tNQmZPYXF6aFk3RzNmWGlxN1hUZnlFUy15TEhRSkRZbkRLelBZLUJ6aVBUcDNPUFNhX2QxOF90S3pBV3hJY3had1JjclI2WVR2RWk5SE0zVlFBZzlVY1d5MTN0YnVLQXdfd9IBxAFBVV95cUxNdDdFOUxQMG5lNDdDczhJSGxxTG15LXRMVUdQTFdHYmFOR0pYYXhYS0c3YmI5ZmVfNkJIM3hXeERmanpYUGN5VDFkTk9YNXVOc1FYczNwSTVoYnRRbnBOWWF5QzE1dVF1ejJ4X2lnTHlJVjZFd0RiejJrWUZhWGpMM05mek1UQWt4SXNGbzJSZm45THpvd0xNYUdDVllUZVVSdU82dnR2QzJoeW9sMVZ5TWtkU2Iwb2tsSlpYYjNON3NFVkt4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 627
+      "text": "Iran Update Special Report released.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPcFRzcWVvM0p0c3hJS1h2RlR3V1RvbGNwUS0zRThsZDhoN3E5cVZKREpEc1d2cHhlLVgyZXB1QlpJYXpUZ01ZMTZWNWFEd28yekM5N1N1MFExUERuQ3ZQaXQtaG9WdElicEpZOGFBZkNoUnpaTVU2TkdtMUpRWlJoME5XSFdyNFdCSTcwVlVPY25zSVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 628
     },
     {
-      "date": "May 12",
-      "text": "Report reveals UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "date": "May 13",
+      "text": "President Trump rejects Iran’s response to the latest US proposal to end the war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQejcyNndvcnR3cEVKNS1tUHVaZWpyN0tmUTJNSXNjTm9Ia056WC1TV2ZaLVVlSm9wcURZZ2EwWWJTWlIyQjV3VkoxUWZoblRpZXRmeERjb240SlJ3MzBpa003Qm8wenAxd2ZUR01ocTNQUE82TXBaWnloQUxwUlBkcDd5aFpSVzkwdjk5eHk1V3p4bGhj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 628
+    },
+    {
+      "date": "May 13",
+      "text": "Israel kills a dozen individuals in Lebanon as peace talks remain in disarray.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNDNTVHIzQV9CZkVFNkxuZ2YxVGRUX3VsOFFMN2JFY0VCeVNob2o3YUdBbU5DUFFjTndDSmJIcnk3UVRMODFHNk15blgwSy1tX2xvUDh6NnN4ZXVVNXQxek91dExtTlJlMFh0Z0Z3ZDhDbEdtVmtFMTFUSnBNbW4xQURuR2hyTXJ0U0czaWFrVnhYSU1CQkY1S1lNVnJoN2tzaE51X3h0ZldiVjJUYmNlVDRPMnNKbWM2dTNKN3EySdIBxAFBVV95cUxPX1ZoMG9wT0owLWdmZjRCd3J4NEdydUtNS2M4OVpGYVZ6MDZOWDRnWmxZVmZXRDB2ZmVKaWVyTC0xM2d6Y3dKV09PU21HQ2Fya0Yyb052V3YwT0RmQUM2OEZDei1jQThPdjVUY3p2MGN3YWFyTTVIWWstTDVHVGFfdXNPTEYzTG5WQ2RiMWl1eFNTclNGaXhyRzdnQ1ZPOTlndWE3d2pubnNjUEN0WTFqUWwtZUo1Ymd0aHl4QUVHSk8ycHBs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 628
+    },
+    {
+      "date": "May 13",
+      "text": "President Trump states Iran must make a deal or face renewed attacks.",
       "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 628
+    },
+    {
+      "date": "May 13",
+      "text": "Report indicates UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 627
+      "latestSinceUpdate": 628
     },
     {
-      "date": "May 12",
-      "text": "Israel kills 24 in Lebanon, including two children, in strikes targeting Hezbollah in Beirut.",
+      "date": "May 13",
+      "text": "Israel kills 24 individuals in Lebanon as the US awaits Tehran’s reply.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAJBVV95cUxNQWF0SnU1eEFqaUxkcWpIMmgzSDczRXRCQWJhZkVsRTlaZ0U0UE5DMWZWeVAyOEc0SzlLeG85dUR2djR1VWVFTDNucExsV0k0TXRnNTdfUDlJRUsxaFlELXdIbVc3cVhnd3BocnFTNmc3aEQwOUlPcGpXbWVCMHZlTzlFZkg3RmZIdGJYUkxWYmFaNjAzV1lraHZSM3FaU3lob1FPWlNBTEIzSW5RdnR6ZDN5WVRWVWlsX01NYzFRYUpQeUl3aGRDUDhsaE9HTUdheWtIVHd0eWVTdVFQUUxiZHpla0o1clFpZHhFbU9hWXpkY3o4eWMwaWM2V2dBTGdzSGRteTFoY0dNalRUSHlzWVNucU1XT0xsc2pPYWlkTWlvZXlRQzZfOHN5dXBjOGlHNmZxWWNlUHYxdlBzVV9NMjhBanJ6cG9P0gHOAkFVX3lxTFBEQ001SnhLWEVpTWJMMU9kQlFINEZreUliRHNxWkxHakZHbGowWllDMjZWeXROeks5TDAxM2g3Vy1YWm4tRjlkQ1R1YVo4Y2VQS3hYQ0ZKMElFenZJNTBXam5ZVUNhWjRyak5uaXJMUWs4dDZHR0luRjRfMmtEV0k3QkM5TFF5TVlEd2VZejVSRW5nS3k0OGczUko3TGFmRFRQcFA5MW92ejczQUk5N2p3X2ZmSXplOENhTGlITDFoZUlkVWVaZWFka0l2eDYxLXlodkdmaFBqRF91TkRGa2ctWjdNU0xSYUxzcUFuZ2V5TEYxd0VxZ3l5eEY2TFdlQldpbmlhN2ZJejBwMk5JQTNWaGp0XzJWNmRSM2hmY2ZlVXUzYkJXVElRVGJwazktUXlUYlNVa1pRMVVBUjloYnl1eUZUc283VkVHbHFfclE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 627
-    },
-    {
-      "date": "May 12",
-      "text": "Hezbollah drone successfully hits an Iron Dome battery in Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxPUDdWQnNyUmhIazZEbW1VMlFaZTdUbnhIUTJMUVFBZmxoWVg4OUU1REo0S3VKRW8wZHZxVEtOLWY4ZmFORUZPc0drbnhGbnhGNnNmbHViR0Q3b0hVZ2c4bmpSTC0ybnhJYmZQT2phcURaZFRoLUNCSXFPcVRuZTVBTHo5MTZNYWkyamxKR2Y0WTNmTFA5ZU5qMTBENUhvRF9VOVBXbjcybw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 627
-    },
-    {
-      "date": "May 12",
-      "text": "Iraq and Pakistan strike energy deals with Iran as Tehran asserts control over the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPeEV0N2V1QmJhSWFBeG9JZE5EV3I1RFpoY3hicVNfeG1BVWdwcDFXSUEwRzQ0SDJLVk5wQnhCSWc3MWJNcnFkNGRoTERUT0d4ZXJVU05iTHgtU3RwbW5SUHZRbXdUbERCclpXRDV6WHpnaERHM2cyX2ZmVlg1cDJTUHlNMmozVVVkeVcxdm5WSzNHQ0s3Nkx4dndEaUlfUHNzcVVYZDFtYWhZVWp4ajZuemQtdnMxWDVkNFRDSEo4ZHFHQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 627
-    },
-    {
-      "date": "May 12",
-      "text": "Pentagon estimates Iran war cost at $29 billion and considers renaming it 'Sledgehammer' if ceasefire collapses.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOeXhhb0N2aGpZcW84Q0l6Wmg2QXk5RnVHLUstb1FteVFyQUZGeWtXeWdxbDRZbFhZY0xqVlVxckhhLUh3UFgydUxpQWZkY1VmazQ2aTJxRGgzb3F1SXc2ZjBoYnAyWjRXY1NuY2xYNXFDbGNCR1cyQlpzd3RPMms1aFFpZkRXV0VmUzdBamtWSkk3N3BsUnpBS1E3bm11R3dOR0FhN3hpOFNyOFN5NGhESGZacm1KSjdsWF9zNEI1RV9KZFVrODEtaEQ2N0k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 627
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 628
     }
   ],
   "sourceStatuses": [

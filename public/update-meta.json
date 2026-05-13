@@ -1,13 +1,13 @@
 {
-  "updateSequence": 627,
+  "updateSequence": 628,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T12:34:24.816Z",
+  "lastSyncedAt": "2026-05-13T15:28:59.343Z",
   "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "The ceasefire is reported to be on 'massive life support' and collapsing, with President Trump rejecting proposals and threatening renewed military action."
+    "summary": "The ceasefire is described as 'on life support' and peace talks are in disarray, with the US rejecting Iran's response."
   }
 }
