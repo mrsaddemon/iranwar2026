@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 631,
+  "updateSequence": 632,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T21:00:20.968Z",
+  "lastSyncedAt": "2026-05-13T22:20:53.543Z",
   "warDay": 75,
-  "summary": "The Iran war continues on Day 75 with ongoing US involvement, escalating tensions in the Strait of Hormuz, and renewed Israeli strikes in Lebanon following a ceasefire collapse.",
+  "summary": "The Middle East conflict continues on Day 75 with ongoing military actions, threats of renewed strikes by the US against Iran, and concerns over the Strait of Hormuz, while a ceasefire in Lebanon appears fragile.",
   "lastNarrativeUpdate": "2026-05-13",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previous Lebanon ceasefire has collapsed following Israeli strikes on Beirut, while no active ceasefire is in place for the broader Iran conflict."
+    "summary": "A ceasefire in Lebanon has been violated by Israeli strikes and is described as 'on life support' amid threats of renewed US military action against Iran."
   },
   "actorOverrides": {
     "usa": {
@@ -18,31 +18,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 12",
-      "text": "Tehran vows ‘no retreat’ in the ongoing Iran war.",
+      "text": "Iran vows ‘no retreat’ amid ongoing conflict.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNDNTVHIzQV9CZkVFNkxuZ2YxVGRUX3VsOFFMN2JFY0VCeVNob2o3YUdBbU5DUFFjTndDSmJIcnk3UVRMODFHNk15blgwSy1tX2xvUDh6NnN4ZXVVNXQxek91dExtTlJlMFh0Z0Z3ZDhDbEdtVmtFMTFUSnBNbW4xQURuR2hyTXJ0U0czaWFrVnhYSU1CQkY1S1lNVnJoN2tzaE51X3h0ZldiVjJUYmNlVDRPMnNKbWM2dTNKN3EySdIBxAFBVV95cUxPX1ZoMG9wT0owLWdmZjRCd3J4NEdydUtNS2M4OVpGYVZ6MDZOWDRnWmxZVmZXRDB2ZmVKaWVyTC0xM2d6Y3dKV09PU21HQ2Fya0Yyb052V3YwT0RmQUM2OEZDei1jQThPdjVUY3p2MGN3YWFyTTVIWWstTDVHVGFfdXNPTEYzTG5WQ2RiMWl1eFNTclNGaXhyRzdnQ1ZPOTlndWE3d2pubnNjUEN0WTFqUWwtZUo1Ymd0aHl4QUVHSk8ycHBs?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 631
+      "latestSinceUpdate": 632
     },
     {
       "date": "May 12",
@@ -76,27 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 12",
-      "text": "Pentagon estimates Iran War cost at roughly $29 Billion.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 631
-    },
-    {
-      "date": "May 12",
-      "text": "UAE reportedly launched secret strikes on Iran during the war, attacking an oil refinery.",
+      "text": "Report indicates UAE secretly launched strikes on Iran, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 631
+      "latestSinceUpdate": 632
     },
     {
       "date": "May 12",
-      "text": "A Chinese tanker crosses the Strait of Hormuz amidst ongoing tensions.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 631
+      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 632
     },
     {
       "date": "May 12",
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": null,
       "sourceName": "Google News RSS",
       "latestSinceUpdate": 631
+    },
+    {
+      "date": "May 12",
+      "text": "Israeli strikes on cars in southern Lebanon kill 12.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE51bC1aOGVBVHVqanRkbDRuSXRZaGdGeHMwSzY5X3dVYUFoMi1xdWRBN0FUdlY3cUZZTER0b1F6S1pLcVBtdHVwMVhrS0xlU2lUZ0V6S3hPeVQtdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 632
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

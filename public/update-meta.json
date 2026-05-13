@@ -1,13 +1,13 @@
 {
-  "updateSequence": 631,
+  "updateSequence": 632,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T21:00:20.968Z",
+  "lastSyncedAt": "2026-05-13T22:20:53.543Z",
   "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previous Lebanon ceasefire has collapsed following Israeli strikes on Beirut, while no active ceasefire is in place for the broader Iran conflict."
+    "summary": "A ceasefire in Lebanon has been violated by Israeli strikes and is described as 'on life support' amid threats of renewed US military action against Iran."
   }
 }
