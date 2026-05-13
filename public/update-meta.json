@@ -1,13 +1,13 @@
 {
-  "updateSequence": 623,
+  "updateSequence": 624,
   "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T01:31:29.565Z",
+  "lastSyncedAt": "2026-05-13T05:30:35.983Z",
   "warDay": 75,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "The ceasefire is described by President Trump as being on 'life support' and 'weak' after he rejected Tehran's proposal, with threats of renewed attacks."
+    "durationDays": 20,
+    "summary": "The ceasefire between the US and Iran is described by President Trump as being on 'life support' after he rejected Tehran's latest proposal, threatening renewed attacks."
   }
 }
