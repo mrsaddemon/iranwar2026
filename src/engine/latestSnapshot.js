@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 643,
+  "updateSequence": 644,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T21:39:03.526Z",
+  "lastSyncedAt": "2026-05-14T22:43:52.878Z",
   "warDay": 76,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The Iran war continues with a collapsed ceasefire, ongoing military actions by all parties, and diplomatic efforts involving the US, China, and regional actors amidst concerns over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-14",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The ceasefire has collapsed, with multiple violations reported by all sides and ongoing military engagements in the region."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 51,
-    "globalPressure": 55,
-    "allianceInfluence": 57
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 56,
+    "globalPressure": 66,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 14",
-      "text": "Iran Update Special Report, May 13, 2026",
+      "date": "May 13",
+      "text": "Trump meets Xi, discussing the Iran war and agreeing the Strait of Hormuz must remain open.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 643
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNZ1ItX3FLN3lDa096ZDFBakJITXpTNFl0UjItVXlFajlBVGlTWVpUMDh1a016Wk9NUjFVRUJuTFZteVRrN285YWVlVU1QVnFqcS1OMlpCOGl2UWZWZ0UzeVhfSWgzSllOc2YyMTk5cUxyaFJQRFdacHctN0R3NDhFb2JzTldPRW1rU1hKeWFaSnRwNU1jNllnWGdvM3ZQWGQzTXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "USA Today",
+      "latestSinceUpdate": 644
     },
     {
-      "date": "May 14",
-      "text": "Iran war live: Chinese vessels allowed to sail Hormuz as Trump meets Xi",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 643
+      "date": "May 13",
+      "text": "Iran reportedly seizes a 'floating armoury' ship and takes it towards its territory.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9kcUExdmFKTVplWHRNQVRWTkxUcUJRdVdUeFpyckdOOURCdTFkZEdSTTBwLWFvdnI4R1o0Vk9HcVVmWC1QRl93NVF6aU1yWVJYMG1xaGo1Sng0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 644
     },
     {
-      "date": "May 14",
-      "text": "When will the Iran war end? The US can’t even decide when it began",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPeHRDRWgxeUFpS1JfNHE4LVAyNGNxMEpuVVBISE1kY1h3RThxblkteTBzd3FZdEplQ0R4b0xfRS13aDUtU3BpWFcwRkRGR1RYX3g5Y053T3Zyd2xKVHJhUG4xWmE1RjRfa2NJaGtrTjZJbDZyZzlkem9vWjhmdW1JYWxrb05vVndHcEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 643
-    },
-    {
-      "date": "May 14",
-      "text": "Iran War Updates: Trump Says Iran Must Make Deal or Face Renewed Attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPMXlNSERRU0xnN3FTTVppbW1ITWRjOXVROE1vNndNTXVocVdPVzljQ3Z6Y1pwRWFISm5QUVJocUtPYk5jNWRZdzBTU3pYcDVwdHBLcmV0Sm96MFo4Zm1Zd3ZQVHRiYVJWalg4TWk3a2ZUeUVMSmVfMDUyTUdLQW1GV3Zzaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 643
-    },
-    {
-      "date": "May 14",
-      "text": "Iran war updates: Tehran says US violated ceasefire, targeted ships",
-      "severity": "info",
+      "date": "May 13",
+      "text": "Iran claims the US violated the ceasefire by targeting ships, while Trump threatens renewed attacks if a deal is not signed.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 643
+      "latestSinceUpdate": 644
     },
     {
-      "date": "May 14",
-      "text": "Iran war latest: US has flipped drone war, military chief says",
+      "date": "May 13",
+      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, as fighting with Hezbollah continues.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "dw.com",
+      "latestSinceUpdate": 644
+    },
+    {
+      "date": "May 13",
+      "text": "Hezbollah's unjammable drones pose a new threat to Israel, with rockets also fired at Kiryat Shmona.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQU0NRRHljUFlnWTFlc3ppOThmbEtjWG5DNFFKNEhXMHViQ3hFVUdKQS1icTJtME8xTGZwX19WaEZMeVdwTXhtZmYyckgyT0ZkbzBidnlDZVZKRmRJMWN5dTE3Tjl0R2FmMlMzUWd1RjRjTWxlMHZ5Q1FhSzRmY3p4a2ZOQkJLZ29qaXpWQUlCZEFIWUwtcXp0ZXROQTZWbWVieXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 644
+    },
+    {
+      "date": "May 13",
+      "text": "New round of Lebanon-Israel talks begins despite ongoing fighting.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 643
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 644
     }
   ],
   "sourceStatuses": [
