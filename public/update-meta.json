@@ -1,13 +1,13 @@
 {
-  "updateSequence": 644,
+  "updateSequence": 645,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T22:43:52.878Z",
+  "lastSyncedAt": "2026-05-14T23:40:25.095Z",
   "warDay": 76,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "The ceasefire has collapsed, with multiple violations reported by all sides and ongoing military engagements in the region."
+    "summary": "Ceasefire attempts have largely failed, with Iran claiming US violations and fighting continuing between Israel and Hezbollah in Lebanon."
   }
 }
