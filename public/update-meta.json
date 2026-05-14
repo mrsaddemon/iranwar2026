@@ -1,13 +1,13 @@
 {
-  "updateSequence": 636,
+  "updateSequence": 637,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T08:11:01.369Z",
+  "lastSyncedAt": "2026-05-14T10:36:10.175Z",
   "warDay": 76,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "Ceasefire efforts between the US and Iran are on 'massive life support' after President Trump rejected Tehran's proposal, with peace talks stalled."
+    "summary": "A previously active ceasefire between Israel and Lebanon has collapsed following Israeli strikes on Beirut and continued Hezbollah activity."
   }
 }
