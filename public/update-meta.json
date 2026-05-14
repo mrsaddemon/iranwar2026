@@ -1,13 +1,13 @@
 {
-  "updateSequence": 633,
-  "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T23:33:27.246Z",
-  "warDay": 75,
+  "updateSequence": 634,
+  "lastUpdated": "2026-05-14",
+  "lastSyncedAt": "2026-05-14T01:28:24.605Z",
+  "warDay": 76,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "The ceasefire is described as being on 'massive life support' after the US rejected Tehran's proposal, with renewed military action being weighed."
+    "summary": "Peace talks have stalled, and the Pentagon is considering renaming the war if a ceasefire collapses, indicating no active ceasefire."
   }
 }

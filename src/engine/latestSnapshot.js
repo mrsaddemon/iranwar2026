@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 633,
-  "lastUpdated": "2026-05-13",
-  "lastSyncedAt": "2026-05-13T23:33:27.246Z",
-  "warDay": 75,
-  "summary": "Ceasefire talks between the US and Iran are stalled and described as being on 'massive life support' following a US rejection of Tehran's proposal, while military actions continue in the region.",
-  "lastNarrativeUpdate": "2026-05-13",
+  "updateSequence": 634,
+  "lastUpdated": "2026-05-14",
+  "lastSyncedAt": "2026-05-14T01:28:24.605Z",
+  "warDay": 76,
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "lastNarrativeUpdate": "2026-05-14",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "The ceasefire is described as being on 'massive life support' after the US rejected Tehran's proposal, with renewed military action being weighed."
+    "summary": "Peace talks have stalled, and the Pentagon is considering renaming the war if a ceasefire collapses, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -36,23 +36,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 56,
-    "globalPressure": 67,
-    "allianceInfluence": 62
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 12",
-      "text": "Trump rejects Tehran's proposal, stating the ceasefire is on 'massive life support'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 633
+      "text": "Iran vows 'no retreat' amidst ongoing conflict and prepares for renewed war with IRGC drills.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 634
     },
     {
       "date": "May 12",
-      "text": "UAE reportedly launched secret strikes on Iran during the war, attacking an oil refinery.",
+      "text": "US President Trump threatens Iran with renewed attacks if a deal is not signed quickly.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 634
+    },
+    {
+      "date": "May 12",
+      "text": "A report indicates the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 633
+      "latestSinceUpdate": 634
     },
     {
       "date": "May 12",
-      "text": "Israel kills 24 in Lebanon amidst ongoing regional conflict.",
+      "text": "Israeli strikes in southern Lebanon kill 22 people, as the US awaits Tehran’s reply.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 633
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE51bC1aOGVBVHVqanRkbDRuSXRZaGdGeHMwSzY5X3dVYUFoMi1xdWRBN0FUdlY3cUZZTER0b1F6S1pLcVBtdHVwMVhrS0xlU2lUZ0V6S3hPeVQtdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 634
     },
     {
       "date": "May 12",
-      "text": "A Chinese tanker crosses the Strait of Hormuz, indicating continued shipping activity.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 633
-    },
-    {
-      "date": "May 12",
-      "text": "Hezbollah introduces new unjammable drones, posing a new threat to Israel.",
+      "text": "Iran expands its definition of the Strait of Hormuz and deploys fast-boat swarms in the area.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQU0NRRHljUFlnWTFlc3ppOThmbEtjWG5DNFFKNEhXMHViQ3hFVUdKQS1icTJtME8xTGZwX19WaEZMeVdwTXhtZmYyckgyT0ZkbzBidnlDZVZKRmRJMWN5dTE3Tjl0R2FmMlMzUWd1RjRjTWxlMHZ5Q1FhSzRmY3p4a2ZOQkJLZ29qaXpWQUlCZEFIWUwtcXp0ZXROQTZWbWVieXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 633
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE40dEoxYkhVQjIydUhsRHJMWl9YRGxra2t4VmpILUZobGRySDZkYlhPYU80U0J6V3BSVDdlMnVITWwzcHFfb1E3elF2OFZTblE2MXZCbXlIc1NjQmhoX21nNVI4ZUhqN3gzOXVlU01fUjE4Wk1MME1ZeWs3b9IBgAFBVV95cUxQR2w3b1dfakVjNjdQS3YybEFLQzhFSHpZNC13SU12bGdVSHNnU0NIRFNlMlBlX01kbHJzWk9oZmJIdV8waDAtTERjZEVYenhKOHVTNUlCalNLM0ZuSFBiR3dLdGNna0ZQWVg0RHc3aTFQQ3dFbEU5REtWTHlpUVE2YQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 634
     },
     {
       "date": "May 12",
-      "text": "Hezbollah is reportedly planning to occupy Beirut and push out hopes of normalization with Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE93VUlkbVJOYVlXeWdESjdhVmMxWUdJUlBzaVJNTWFBN3k4ZjRaNTBTN0R1dHRuZXZDdUx0Qlh2VzVoOWFWd2pBNTlQb3NRYTVCS0M0SHM2ZElyUk83?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 633
+      "text": "Hezbollah leader urges Lebanon to withdraw from direct talks with Israel and is reportedly planning to occupy Beirut.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPc2J5TFNheFFWaVVMRXZHelJxTmJUZE56MHU2eHJPMzVBOEFuM0J2YWtqRzFYZ05TOUFzcnNMU0ZBMnVWOUMyejcySVpPX21wR1lqSjNvNVBOTlg1bDdjOVA0UmQzLTdRN1RVd29LdnQtbWNVRWtVdG85bWhTRWdaRmVpcVZuaDBnUnp6czJ3QzQ3VXRBNkoxYlo4UUFhb0ZoS3FfTmFoT3NCbVkzXy1KSGNBeEFNdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 634
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Trump Administration",
-      "headline": "Trump Rejects Iran's Offer, Threatens More Strikes",
-      "summary": "President Trump has rejected Iran's latest peace counteroffer as 'totally unacceptable', stating the ceasefire is on 'massive life support'. He threatens more strikes if a deal is not signed 'fast'.",
-      "tone": "defiant",
-      "latestSinceUpdate": 611
-    },
-    {
       "perspective": "Iran",
-      "headline": "Iran Vows Defiance Amid US 'Reckless Adventure'",
-      "summary": "Iran states it will 'never bow' to pressure after the US rejected its peace proposal, accusing the US of 'reckless military adventure' and highlighting its military playbook to cripple Iran.",
+      "headline": "Tehran Vows No Retreat, Prepares for Renewed Conflict",
+      "summary": "Iran maintains a defiant stance, vowing 'no retreat' and actively preparing for renewed war through IRGC drills. It has also expanded its definition of the Strait of Hormuz and deployed fast-boat swarms, signaling readiness to repel attacks.",
       "tone": "defiant",
-      "latestSinceUpdate": 611
+      "latestSinceUpdate": 634
     },
     {
-      "perspective": "Lebanon",
-      "headline": "Lebanon Seeks External Pressure for Ceasefire",
-      "summary": "Amid rising Israeli killings, Lebanon is seeking US pressure on Israel to halt attacks and operations, also turning to Saudi Arabia in pursuit of a ceasefire.",
+      "perspective": "United States",
+      "headline": "Trump Demands Deal, Threatens Renewed Strikes on Iran",
+      "summary": "US President Trump has issued strong warnings, stating Iran must make a deal or face renewed attacks. US officials indicate 'making progress' in negotiations, but the Pentagon is considering renaming the war if a ceasefire collapses.",
+      "tone": "strained",
+      "latestSinceUpdate": 634
+    },
+    {
+      "perspective": "Hezbollah/Lebanon",
+      "headline": "Hezbollah Escalates Tensions, Threatens Beirut Occupation",
+      "summary": "Hezbollah has introduced unjammable drones as a new threat to Israel and urged Lebanon to withdraw from direct talks. Reports suggest Hezbollah is planning to occupy Beirut, further complicating regional stability and normalization efforts.",
       "tone": "anxious",
-      "latestSinceUpdate": 611
+      "latestSinceUpdate": 634
     },
     {
-      "perspective": "Analysts/Observers",
-      "headline": "Ceasefire Pretence Over, US Retreat Predicted",
-      "summary": "Observers suggest the 'pretence of a ceasefire' is over following increased Israeli strikes in Lebanon. Some predict the war on Iran will likely end in an American retreat.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 611
+      "perspective": "Global Energy/Shipping",
+      "headline": "Strait of Hormuz Tensions Threaten Oil Flow",
+      "summary": "The world awaits the reopening of the Strait of Hormuz amidst Iran's expanded definition and deployment of fast-boat swarms. Despite an Eneos-linked tanker crossing, the attack on an Iranian oil refinery by the UAE highlights significant risks to global oil supply.",
+      "tone": "anxious",
+      "latestSinceUpdate": 634
     }
   ]
 });
