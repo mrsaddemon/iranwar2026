@@ -1,13 +1,13 @@
 {
-  "updateSequence": 635,
+  "updateSequence": 636,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T05:29:19.024Z",
+  "lastSyncedAt": "2026-05-14T08:11:01.369Z",
   "warDay": 76,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire efforts between the US and Iran are on 'massive life support' after President Trump rejected Tehran's proposal, with peace talks stalled."
   }
 }
