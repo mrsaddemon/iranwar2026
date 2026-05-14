@@ -1,13 +1,13 @@
 {
-  "updateSequence": 640,
+  "updateSequence": 641,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T16:53:28.263Z",
+  "lastSyncedAt": "2026-05-14T18:25:43.134Z",
   "warDay": 76,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The ceasefire in the Iran war appears to have collapsed, with accusations of US violations and threats of renewed attacks, while a separate Lebanon ceasefire has also been violated by Israeli strikes."
   }
 }
