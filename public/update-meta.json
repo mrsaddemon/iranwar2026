@@ -1,13 +1,13 @@
 {
-  "updateSequence": 641,
+  "updateSequence": 642,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T18:25:43.134Z",
+  "lastSyncedAt": "2026-05-14T20:17:11.218Z",
   "warDay": 76,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "The ceasefire in the Iran war appears to have collapsed, with accusations of US violations and threats of renewed attacks, while a separate Lebanon ceasefire has also been violated by Israeli strikes."
+    "summary": "A ceasefire related to the Iran war is active but has been reportedly violated by the US and is under threat of collapse, while a Lebanon ceasefire is also experiencing renewed fighting."
   }
 }

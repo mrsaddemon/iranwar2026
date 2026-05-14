@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 641,
+  "updateSequence": 642,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T18:25:43.134Z",
+  "lastSyncedAt": "2026-05-14T20:17:11.218Z",
   "warDay": 76,
-  "summary": "The Iran war continues on day 76 with ongoing diplomatic efforts involving the US and China, while military actions persist in the region, including ceasefire violations and threats to the Strait of Hormuz.",
+  "summary": "The Iran war continues on Day 76 with reports of ceasefire violations, a ship seizure near the Strait of Hormuz, and ongoing Israel-Lebanon conflict despite talks, while the US and China discuss regional stability.",
   "lastNarrativeUpdate": "2026-05-14",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "The ceasefire in the Iran war appears to have collapsed, with accusations of US violations and threats of renewed attacks, while a separate Lebanon ceasefire has also been violated by Israeli strikes."
+    "summary": "A ceasefire related to the Iran war is active but has been reportedly violated by the US and is under threat of collapse, while a Lebanon ceasefire is also experiencing renewed fighting."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 56,
-    "globalPressure": 68,
+    "globalPressure": 67,
     "allianceInfluence": 57
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 13",
-      "text": "A special report provided an update on the ongoing Iran war.",
+      "text": "Iran issues a special report on the ongoing conflict.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 641
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 642
     },
     {
-      "date": "May 14",
-      "text": "Chinese vessels were allowed to sail through the Strait of Hormuz as US President Trump met with Chinese President Xi, agreeing the strait must remain open.",
+      "date": "May 13",
+      "text": "Chinese vessels are allowed to sail through Hormuz as Trump meets Xi.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 641
+      "latestSinceUpdate": 642
     },
     {
-      "date": "May 14",
-      "text": "US President Trump stated Iran must make a deal or face renewed attacks, threatening more strikes if a deal is not signed fast.",
-      "severity": "critical",
+      "date": "May 13",
+      "text": "Trump states Iran must make a deal or face renewed attacks.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 641
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 642
     },
     {
-      "date": "May 14",
-      "text": "Iran vowed 'no retreat' and accused the US of violating a ceasefire by targeting ships, with a seized ship reportedly taken toward Iran.",
+      "date": "May 13",
+      "text": "Tehran claims the US violated a ceasefire and targeted ships.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 641
+      "latestSinceUpdate": 642
     },
     {
-      "date": "May 14",
-      "text": "A report indicated the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 641
+      "date": "May 13",
+      "text": "A ship, possibly a 'floating armory,' is seized off the coast of UAE near the Strait of Hormuz and taken toward Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOay1CeWV5bjZiQm50V29rMDJSQ0hoVEJCcGlqLUdwUjVCV0h4R2hzdFlZOTlSbEFWUEtvVE9ndHBhVy1GRGt5SGttMHozUWt6aXV0RVBpbE0zeXJVX3NBSHV2QU80VzgxOXhfem9WZmN3TDU5Y3NMbDd1OF85ZHhWejBYR1lDU1dsSUxDcXNkUHp0ZkRuYldGSXJTaGlsQdIBowFBVV95cUxNOElTVEhoS1pwWkwtZTJ2SDVDSzFuSGgzR2dYRXFGSnBwWmhkRzA1OXFRMUNJU3FCUnVIOHN3RUFMRW44NVZ5cFFRSTdOTVR6b28xR0RvYWoyaVZpMUlaWmlSQ21mekF1VzVHRUluMEdfSEQ4a2pKSlBqR1lqOTUzd0Y3WEtwLTlXX3ZTUlBWSjJmZ3duOGR4ZjByWFhGeXZSRGgw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 642
     },
     {
-      "date": "May 14",
-      "text": "Israel struck Beirut for the first time since a Lebanon ceasefire, while Hezbollah claimed attacks on the Israeli army in southern Lebanon.",
+      "date": "May 13",
+      "text": "Israel strikes Beirut for the first time since a Lebanon ceasefire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "dw.com",
-      "latestSinceUpdate": 641
+      "latestSinceUpdate": 642
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
