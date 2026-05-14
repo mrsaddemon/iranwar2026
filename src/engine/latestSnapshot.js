@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 638,
+  "updateSequence": 639,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T12:14:16.649Z",
+  "lastSyncedAt": "2026-05-14T14:45:54.276Z",
   "warDay": 76,
-  "summary": "Threats of renewed conflict between Iran and the US persist amid stalled peace talks, while a ceasefire between Israel and Lebanon appears to have collapsed, and major powers address Strait of Hormuz tensions.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-14",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "The Lebanon ceasefire has largely collapsed due to renewed Israeli strikes and increased hostilities, though peace talks are set to resume."
+    "summary": "The Lebanon-Israel ceasefire has collapsed following an Israeli strike on Beirut, though direct negotiations are set to resume."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.85,
         "aggression": 0.7
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -37,22 +37,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
-    "sanctionsPressure": 56,
-    "globalPressure": 68,
-    "allianceInfluence": 57
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 13",
-      "text": "Iran vows 'no retreat' and prepares for renewed war, with IRGC staging drills.",
+      "text": "Trump meets Xi in China, discussing the Iran war and agreeing the Strait of Hormuz must remain open.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 639
+    },
+    {
+      "date": "May 13",
+      "text": "UAE reportedly launched secret strikes on Iran during the war, targeting an oil refinery.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 638
-    },
-    {
-      "date": "May 13",
-      "text": "US President Trump threatens renewed attacks on Iran if a deal is not signed 'fast'.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 638
-    },
-    {
-      "date": "May 13",
-      "text": "Report indicates UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 638
+      "latestSinceUpdate": 639
     },
     {
       "date": "May 13",
-      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, while Israeli forces ramp up destruction and killings in southern Lebanon.",
+      "text": "Israel strikes Beirut for the first time since a Lebanon ceasefire, as Lebanon and Israel prepare to resume peace talks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "dw.com",
-      "latestSinceUpdate": 638
+      "sourceName": "DW.com",
+      "latestSinceUpdate": 639
     },
     {
       "date": "May 13",
-      "text": "Trump and Xi agree the Strait of Hormuz 'must remain open' and should not be 'militarized'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQcExPVUpZT28tb0NWLUpNeXQweWRlcDlHRkR6azNmSy02bTVfRTREcHZHSnBMS21xSDRBNTAwUlM3OXNfUExPSWFxWTdEUGIxb2NqNE1hcEFjbl9oYjdVMU1EUmdBYkVicXhPSUs5VVJrX1VrQ1hhbzkzOE11bGpfamV1Wl9DbEJqWndVMjRIZUhTb3dGRklpbnhMYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 638
-    },
-    {
-      "date": "May 13",
-      "text": "Iran deploys fast-boat swarms in the Strait of Hormuz and allows transit of Chinese vessels.",
+      "text": "Iran seizes a vessel, stating ships entering the Strait of Hormuz must cooperate.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE40dEoxYkhVQjIydUhsRHJMWl9YRGxra2t4VmpILUZobGRySDZkYlhPYU80U0J6V3BSVDdlMnVITWwzcHFfb1E3elF2OFZTblE2MXZCbXlIc1NjQmhoX21nNVI4ZUhqN3gzOXVlU01fUjE4Wk1MME1ZeWs3b9IBgAFBVV95cUxQR2w3b1dfakVjNjdQS3YybEFLQzhFSHpZNC13SU12bGdVSHNnU0NIRFNlMlBlX01kbHJzWk9oZmJIdV8waDAtTERjZEVYenhKOHVTNUlCalNLM0ZuSFBiR3dLdGNna0ZQWVg0RHc3aTFQQ3dFbEU5REtWTHlpUVE2YQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 638
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNWlVlTmo4ZDlTNXJFSVA1WERrVWZoNkpaMkpMQ01KQU5JQjJtc1hXN3BVLWxlbnZkdWpZckNWN252OWctMnNiSkpjWTd5bWVrZk9sSDEzd0VHQ0NsQnZLWnlwd3Iza1RxQ3AwT3BKQk1kYkZuSGhCdjd6ZjEzTDY4U2J3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 639
+    },
+    {
+      "date": "May 13",
+      "text": "US CENTCOM chief testifies before Senate, stating Hamas, Hezbollah, and Houthis are cut off from Iranian support.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxNYWZkS3NTaFFFeGJHSWpYRU5YM3g0UnU0azQ3N3BhTEw5dXcydklTNXlNT1FQd0ZvVHo4X2N6eXNTeUxfMmJTamdVeWtwRmJSZVhBYVcyQTVkZzlqaE9aeUpwb0ZJWVkzRll4eEZWTnhVa0ZoY0kxUTRZcVFFNlpOSnQtR3FXRlMxaW5jS0tJZjRQZlNkYm55MG14N3FTZmtkOEtFNjltNUh6bTJmbzBKYzBHVkl6cUNuWVNTVld5OHJYZ1p6X0VQYU9ad0V5aTFV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 639
+    },
+    {
+      "date": "May 13",
+      "text": "An intelligence report finds China gaining a major edge on the U.S. amid the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPNTJmUEpEYmVTN3V1RU5MMGxQX2NnQ0cyN1JoaDMyWjhnWUpadk9MWXhkLXYtVnVjaHpWR3IzQklQY0VjcTJrRzhaOXpZamJPNi03RVU1bGxuRmdkZ1dBY3liNUFPMkNuaUtZNWhsTDY1MjlWS25EODhkRGQ1RlZEUGpxNWI1UG9QR1dJSzllem9ROFpBVjdvT1UxS0R2eVVZbkJ2MnQ5TDlrM3JLczhNZTAwQ3NVX2VyWWtscnlDTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 639
     }
   ],
   "sourceStatuses": [
