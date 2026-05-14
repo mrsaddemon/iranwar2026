@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 637,
+  "updateSequence": 638,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T10:36:10.175Z",
+  "lastSyncedAt": "2026-05-14T12:14:16.649Z",
   "warDay": 76,
-  "summary": "The Iran-Israel conflict remains highly volatile with a Lebanon ceasefire having collapsed, renewed threats of military action, and heightened tensions around the Strait of Hormuz.",
+  "summary": "Threats of renewed conflict between Iran and the US persist amid stalled peace talks, while a ceasefire between Israel and Lebanon appears to have collapsed, and major powers address Strait of Hormuz tensions.",
   "lastNarrativeUpdate": "2026-05-14",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previously active ceasefire between Israel and Lebanon has collapsed following Israeli strikes on Beirut and continued Hezbollah activity."
+    "summary": "The Lebanon ceasefire has largely collapsed due to renewed Israeli strikes and increased hostilities, though peace talks are set to resume."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,69 +42,69 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 56,
+    "globalPressure": 68,
+    "allianceInfluence": 57
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "May 12",
-      "text": "Iran blasts US-Israel for ‘expansionism and warmongering’ in an update special report.",
+      "date": "May 13",
+      "text": "Iran vows 'no retreat' and prepares for renewed war, with IRGC staging drills.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 637
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 638
     },
     {
-      "date": "May 14",
-      "text": "Trump states Iran must make a deal or face renewed attacks, threatening more strikes if a deal is not signed fast.",
+      "date": "May 13",
+      "text": "US President Trump threatens renewed attacks on Iran if a deal is not signed 'fast'.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 637
+      "latestSinceUpdate": 638
     },
     {
-      "date": "May 14",
-      "text": "Reports indicate Iran is preparing for renewed war as the IRGC stages drills and warns conflict may resume.",
+      "date": "May 13",
+      "text": "Report indicates UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWFQ4amNBMVZxYWFmOGNWOVNwUEZkTVJnV1RHNkwwdkdZbnVkUHlYSUdyWUNmWld6MXlOdWZSNDFMM2cyN0EyR09jOVFueWg2eV9lcVFEUFpJOWk5aEJKS1F4YUZGZnJmNkxRRTZaVm1BT1gtM2pDZWNuV1c4NXZkWkJHZ05IdUo5Ujl0emxGNUoxNjlvcmwwbThxSkl3V1BWaGZ3bGhfSDZHRGphcmhwS3NNQUZqNkFtcS1SSA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
-      "latestSinceUpdate": 637
-    },
-    {
-      "date": "May 14",
-      "text": "A report claims UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 637
+      "latestSinceUpdate": 638
     },
     {
-      "date": "May 14",
-      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, indicating a collapse of the truce.",
+      "date": "May 13",
+      "text": "Israel strikes Beirut for the first time since the Lebanon ceasefire, while Israeli forces ramp up destruction and killings in southern Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "dw.com",
-      "latestSinceUpdate": 637
+      "latestSinceUpdate": 638
     },
     {
-      "date": "May 14",
-      "text": "Iran deploys fast-boat swarms in the Strait of Hormuz amidst 'sensitive' negotiations.",
+      "date": "May 13",
+      "text": "Trump and Xi agree the Strait of Hormuz 'must remain open' and should not be 'militarized'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQcExPVUpZT28tb0NWLUpNeXQweWRlcDlHRkR6azNmSy02bTVfRTREcHZHSnBMS21xSDRBNTAwUlM3OXNfUExPSWFxWTdEUGIxb2NqNE1hcEFjbl9oYjdVMU1EUmdBYkVicXhPSUs5VVJrX1VrQ1hhbzkzOE11bGpfamV1Wl9DbEJqWndVMjRIZUhTb3dGRklpbnhMYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 638
+    },
+    {
+      "date": "May 13",
+      "text": "Iran deploys fast-boat swarms in the Strait of Hormuz and allows transit of Chinese vessels.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE40dEoxYkhVQjIydUhsRHJMWl9YRGxra2t4VmpILUZobGRySDZkYlhPYU80U0J6V3BSVDdlMnVITWwzcHFfb1E3elF2OFZTblE2MXZCbXlIc1NjQmhoX21nNVI4ZUhqN3gzOXVlU01fUjE4Wk1MME1ZeWs3b9IBgAFBVV95cUxQR2w3b1dfakVjNjdQS3YybEFLQzhFSHpZNC13SU12bGdVSHNnU0NIRFNlMlBlX01kbHJzWk9oZmJIdV8waDAtTERjZEVYenhKOHVTNUlCalNLM0ZuSFBiR3dLdGNna0ZQWVg0RHc3aTFQQ3dFbEU5REtWTHlpUVE2YQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 637
+      "latestSinceUpdate": 638
     }
   ],
   "sourceStatuses": [

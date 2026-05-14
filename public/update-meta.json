@@ -1,13 +1,13 @@
 {
-  "updateSequence": 637,
+  "updateSequence": 638,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T10:36:10.175Z",
+  "lastSyncedAt": "2026-05-14T12:14:16.649Z",
   "warDay": 76,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previously active ceasefire between Israel and Lebanon has collapsed following Israeli strikes on Beirut and continued Hezbollah activity."
+    "summary": "The Lebanon ceasefire has largely collapsed due to renewed Israeli strikes and increased hostilities, though peace talks are set to resume."
   }
 }
