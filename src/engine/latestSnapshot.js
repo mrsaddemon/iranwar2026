@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 639,
+  "updateSequence": 640,
   "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T14:45:54.276Z",
+  "lastSyncedAt": "2026-05-14T16:53:28.263Z",
   "warDay": 76,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-14",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "The Lebanon-Israel ceasefire has collapsed following an Israeli strike on Beirut, though direct negotiations are set to resume."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 45,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 13",
-      "text": "Trump meets Xi in China, discussing the Iran war and agreeing the Strait of Hormuz must remain open.",
+      "date": "May 14",
+      "text": "Iran Update Special Report, May 13, 2026",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 639
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 640
     },
     {
-      "date": "May 13",
-      "text": "UAE reportedly launched secret strikes on Iran during the war, targeting an oil refinery.",
-      "severity": "warning",
+      "date": "May 14",
+      "text": "Iran war live: Chinese vessels allowed to sail Hormuz as Trump meets Xi",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 640
+    },
+    {
+      "date": "May 14",
+      "text": "Iran War Updates: Trump Says Iran Must Make Deal or Face Renewed Attacks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPMXlNSERRU0xnN3FTTVppbW1ITWRjOXVROE1vNndNTXVocVdPVzljQ3Z6Y1pwRWFISm5QUVJocUtPYk5jNWRZdzBTU3pYcDVwdHBLcmV0Sm96MFo4Zm1Zd3ZQVHRiYVJWalg4TWk3a2ZUeUVMSmVfMDUyTUdLQW1GV3Zzaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 640
+    },
+    {
+      "date": "May 14",
+      "text": "Iran war updates: Tehran vows ‘no retreat’; Vance says US ‘making progress’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNDNTVHIzQV9CZkVFNkxuZ2YxVGRUX3VsOFFMN2JFY0VCeVNob2o3YUdBbU5DUFFjTndDSmJIcnk3UVRMODFHNk15blgwSy1tX2xvUDh6NnN4ZXVVNXQxek91dExtTlJlMFh0Z0Z3ZDhDbEdtVmtFMTFUSnBNbW4xQURuR2hyTXJ0U0czaWFrVnhYSU1CQkY1S1lNVnJoN2tzaE51X3h0ZldiVjJUYmNlVDRPMnNKbWM2dTNKN3EySdIBxAFBVV95cUxPX1ZoMG9wT0owLWdmZjRCd3J4NEdydUtNS2M4OVpGYVZ6MDZOWDRnWmxZVmZXRDB2ZmVKaWVyTC0xM2d6Y3dKV09PU21HQ2Fya0Yyb052V3YwT0RmQUM2OEZDei1jQThPdjVUY3p2MGN3YWFyTTVIWWstTDVHVGFfdXNPTEYzTG5WQ2RiMWl1eFNTclNGaXhyRzdnQ1ZPOTlndWE3d2pubnNjUEN0WTFqUWwtZUo1Ymd0aHl4QUVHSk8ycHBs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 640
+    },
+    {
+      "date": "May 14",
+      "text": "UAE secretly launched strikes on Iran during war, attacked oil refinery — report",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 639
+      "latestSinceUpdate": 640
     },
     {
-      "date": "May 13",
-      "text": "Israel strikes Beirut for the first time since a Lebanon ceasefire, as Lebanon and Israel prepare to resume peace talks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 639
-    },
-    {
-      "date": "May 13",
-      "text": "Iran seizes a vessel, stating ships entering the Strait of Hormuz must cooperate.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNWlVlTmo4ZDlTNXJFSVA1WERrVWZoNkpaMkpMQ01KQU5JQjJtc1hXN3BVLWxlbnZkdWpZckNWN252OWctMnNiSkpjWTd5bWVrZk9sSDEzd0VHQ0NsQnZLWnlwd3Iza1RxQ3AwT3BKQk1kYkZuSGhCdjd6ZjEzTDY4U2J3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 639
-    },
-    {
-      "date": "May 13",
-      "text": "US CENTCOM chief testifies before Senate, stating Hamas, Hezbollah, and Houthis are cut off from Iranian support.",
+      "date": "May 14",
+      "text": "Iran war updates: IRGC warns conflict may resume, says it’s fully prepared",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxNYWZkS3NTaFFFeGJHSWpYRU5YM3g0UnU0azQ3N3BhTEw5dXcydklTNXlNT1FQd0ZvVHo4X2N6eXNTeUxfMmJTamdVeWtwRmJSZVhBYVcyQTVkZzlqaE9aeUpwb0ZJWVkzRll4eEZWTnhVa0ZoY0kxUTRZcVFFNlpOSnQtR3FXRlMxaW5jS0tJZjRQZlNkYm55MG14N3FTZmtkOEtFNjltNUh6bTJmbzBKYzBHVkl6cUNuWVNTVld5OHJYZ1p6X0VQYU9ad0V5aTFV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 639
-    },
-    {
-      "date": "May 13",
-      "text": "An intelligence report finds China gaining a major edge on the U.S. amid the Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPNTJmUEpEYmVTN3V1RU5MMGxQX2NnQ0cyN1JoaDMyWjhnWUpadk9MWXhkLXYtVnVjaHpWR3IzQklQY0VjcTJrRzhaOXpZamJPNi03RVU1bGxuRmdkZ1dBY3liNUFPMkNuaUtZNWhsTDY1MjlWS25EODhkRGQ1RlZEUGpxNWI1UG9QR1dJSzllem9ROFpBVjdvT1UxS0R2eVVZbkJ2MnQ5TDlrM3JLczhNZTAwQ3NVX2VyWWtscnlDTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 639
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxONHl6SE8tQW1PQldFa3E2YS1xVGluSkhhQy10eERhODBRazNrX292Tzdwdk9oUnlrQi02TXhKZjBBa2VnWDZpdGFQY19idU8wc1BKUkUzcHZfejI5ZmptaGZmSk12RHhXaEtEVXB6MjlmYm4yNEljVnpaOFdkQU8wRFlVdjVkSmtmN0pWWXBRbGo0XzZtbktKekFyVUJIelRTRnZwMHpEVFh2bEM3dTdYcnlYcERsUlUyQnY40gHAAUFVX3lxTE94aS01bGVkMXdRclRFUklxMVpqbzdienNVRTVNVEU0TDZ3RXQycVBESk9YanZGWDVZaktRT3NVYUE2SHVUeGN5RW9LUkhQY29TdTZBdnpNaW1ZdDgzekpUU0xabGJJQVd4d3d2VUI0ZTFRemtpMkVBZHZiUWNmZUFoZ3NGT2dHc2xlQlRxYlN2akN4eldQRE5mYTBRR2hvMTRuVDhFQ19kTmgtTGZkRVp1amhudTFLai12eWlXbTJFdQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 640
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
