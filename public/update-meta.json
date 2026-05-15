@@ -1,13 +1,13 @@
 {
-  "updateSequence": 645,
-  "lastUpdated": "2026-05-14",
-  "lastSyncedAt": "2026-05-14T23:40:25.095Z",
-  "warDay": 76,
+  "updateSequence": 646,
+  "lastUpdated": "2026-05-15",
+  "lastSyncedAt": "2026-05-15T01:32:31.084Z",
+  "warDay": 77,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "Ceasefire attempts have largely failed, with Iran claiming US violations and fighting continuing between Israel and Hezbollah in Lebanon."
+    "summary": "The ceasefire between Israel and Lebanon has largely failed, with fighting continuing and violations reported by multiple parties, despite ongoing talks."
   }
 }
