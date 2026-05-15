@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 656,
+  "updateSequence": 657,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T22:31:50.930Z",
+  "lastSyncedAt": "2026-05-15T23:30:59.071Z",
   "warDay": 77,
-  "summary": "The Iran conflict continues on Day 77 with ongoing hostilities, a fragile ceasefire between Israel and Lebanon, and rising tensions in the Strait of Hormuz involving international actors.",
+  "summary": "The Iran war continues on Day 77 with a fragile Israel-Lebanon ceasefire extension, ongoing strikes by multiple actors, and heightened tensions in the Strait of Hormuz, while the US military faces internal scrutiny.",
   "lastNarrativeUpdate": "2026-05-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 45,
-    "summary": "A porous 45-day ceasefire between Israel and Lebanon has been extended, but reports indicate ongoing fighting and violations by both sides."
+    "summary": "A ceasefire between Israel and Lebanon has been extended for 45 days, though fighting continues in other areas and Iran claims US violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,34 +18,34 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 68
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 12,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 88,
+    "tradeImpact": 64,
     "sanctionsPressure": 54,
     "globalPressure": 66,
     "allianceInfluence": 51
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 15",
-      "text": "Trump states China's Xi Jinping offered to mediate in the Iran conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOZ2tONFhJQVoyakZsTmd1VHo4OGRtZnFmeXZJTE5lV0NaQ0FOX3hkNGh4eUpGaERCUWl6UGpVV2RFQTlIaXZrcXA1MEdmWFpIRnJGTlRCc0NYcVI3WXVCSFhWOFZhLTh3ai1NTDNXd1psYVZZN1lMUlZRNlN6c0lXOVRVSmJHUi1uWnBzUWNwU0tULTQ4dXRYYndFaWRuS05fQXNoRNIBqgFBVV95cUxQaUVBbEh2R0hQWFkycDl1VERzdVJXYV9sZlhGZU5qVnNMYUQ2ZG1EV1ZRelluRGR3R2N4RmVYUl9JVmFPdmFDcnp2aWlEOWFNeFRGcDBZR0pYLXd2NEVEZGdCYnBzQm5rcUJGZFlRNGxsanJTUUxSZTRCQ3lFT2lfTDNHM3NzQnYycVlVdDcwV1pTY1lwSXB5c0ZiOUQxekVJOUozTU1OSmh2Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 656
-    },
-    {
-      "date": "May 15",
       "text": "Lebanon ceasefire extended, but Israel launches deadly attacks.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 656
     },
     {
       "date": "May 15",
-      "text": "Iranians are on edge due to the looming threat of war resumption.",
+      "text": "Trump states China's Xi Jinping offered to help end Iran conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOZ2tONFhJQVoyakZsTmd1VHo4OGRtZnFmeXZJTE5lV0NaQ0FOX3hkNGh4eUpGaERCUWl6UGpVV2RFQTlIaXZrcXA1MEdmWFpIRnJGTlRCc0NYcVI3WXVCSFhWOFZhLTh3ai1NTDNXd1psYVZZN1lMUlZRNlN6c0lXOVRVSmJHUi1uWnBzUWNwU0tULTQ4dXRYYndFaWRuS05fQXNoRNIBqgFBVV95cUxQaUVBbEh2R0hQWFkycDl1VERzdVJXYV9sZlhGZU5qVnNMYUQ2ZG1EV1ZRelluRGR3R2N4RmVYUl9JVmFPdmFDcnp2aWlEOWFNeFRGcDBZR0pYLXd2NEVEZGdCYnBzQm5rcUJGZFlRNGxsanJTUUxSZTRCQ3lFT2lfTDNHM3NzQnYycVlVdDcwV1pTY1lwSXB5c0ZiOUQxekVJOUozTU1OSmh2Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 657
+    },
+    {
+      "date": "May 15",
+      "text": "Iranians are on edge as the threat of war resumption looms.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdlN4VUNKQURBQUk2T1owMU5kdks5ZGptdmxtcTVjeGZQWGdBMmxEOERkQ2tuQ04yeXlOTnBCTTFxZHoyblZLZ1NqVFVIWUpJaTNfSm5TMEdIallUX0E0NDNxdHpETmp5RUd0Vnlra0dEOW94aE50c3R3b2hWbmh3cg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 656
+      "latestSinceUpdate": 657
     },
     {
       "date": "May 13",
-      "text": "An Iran Update Special Report was published.",
+      "text": "Special report on the Iran conflict released.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 656
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 657
     },
     {
       "date": "May 15",
-      "text": "Tehran claims the US violated the ceasefire and targeted ships.",
-      "severity": "critical",
+      "text": "Tehran claims the US violated ceasefire and targeted ships.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 656
+      "latestSinceUpdate": 657
     },
     {
       "date": "May 15",
-      "text": "Report reveals UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "text": "Report indicates UAE secretly launched strikes on Iran, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 656
+      "latestSinceUpdate": 657
     }
   ],
   "sourceStatuses": [
