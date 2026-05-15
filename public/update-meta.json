@@ -1,13 +1,13 @@
 {
-  "updateSequence": 646,
+  "updateSequence": 647,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T01:32:31.084Z",
+  "lastSyncedAt": "2026-05-15T05:35:56.739Z",
   "warDay": 77,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "The ceasefire between Israel and Lebanon has largely failed, with fighting continuing and violations reported by multiple parties, despite ongoing talks."
+    "summary": "The ceasefire has collapsed, with both sides accusing each other of violations and hostilities resuming, including direct military threats and actions."
   }
 }
