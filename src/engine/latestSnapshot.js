@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 650,
+  "updateSequence": 651,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T13:00:59.665Z",
+  "lastSyncedAt": "2026-05-15T15:23:26.816Z",
   "warDay": 77,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A ceasefire in south Lebanon has reportedly failed to halt fighting between Israel and Hezbollah, with new talks commencing amidst ongoing conflict."
+    "summary": "A potential ceasefire is under discussion, but active fighting and threats of further strikes indicate its fragility."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 56,
-    "globalPressure": 67,
+    "globalPressure": 69,
     "allianceInfluence": 62
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 15",
-      "text": "Iranians are reportedly on edge as the threat of war resumption looms.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdlN4VUNKQURBQUk2T1owMU5kdks5ZGptdmxtcTVjeGZQWGdBMmxEOERkQ2tuQ04yeXlOTnBCTTFxZHoyblZLZ1NqVFVIWUpJaTNfSm5TMEdIallUX0E0NDNxdHpETmp5RUd0Vnlra0dEOW94aE50c3R3b2hWbmh3cg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 650
+      "text": "Tensions flared near the Strait of Hormuz as a ship was seized and another was sunk.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 651
     },
     {
       "date": "May 15",
-      "text": "Chinese vessels have been allowed to sail through Hormuz as Trump meets Xi.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 650
-    },
-    {
-      "date": "May 13",
-      "text": "An Iran Update Special Report was issued.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 650
+      "text": "An Israeli Staff Sgt. Negev Dagan was killed by a Hezbollah shell in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOeTBlSHdZSnBxbmpCelJnejFnUUVHX2ozUnpNNkd5bFIyZ2JnMVJNSWwzZjdlb2FjSFJweXpJckpqbEVEVXYxaXNlVU13WGFQXzVnOGFmSUdtRURieUlaSnRIY05fZUh2V29TRWU1clpJYnd5MDFMaWE5ZDgwc0JLX2RGR2h1dHJJN2RwR3pWVkF2d1NYVDZSU1BYaFhSTFY0Y0Frci05TTBpMlRsNzFQNDh4Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 651
     },
     {
       "date": "May 15",
-      "text": "The UAE reportedly launched secret strikes on Iran during the war, attacking an oil refinery.",
+      "text": "A report indicates the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 650
+      "latestSinceUpdate": 651
     },
     {
       "date": "May 15",
-      "text": "Trump threatens more Iran strikes if a deal is not signed 'fast'.",
+      "text": "A new round of Lebanon-Israel talks commenced amidst continued fighting between Israel and Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUXR4ck44YUh6dUViaHVKYlBuNk54QTE3UkkyRGdZYi1JYXJKaS1XRGRha0FiTnpFTENFeFQ2VEM0TVRWQVplU2VIV1pIaGl1UVMzbGdTUFRXNGc5a3ZLTnRoWmNkY2UzQi1WOS1KeU14c1NhQVozdFhQM3dXdFFOcEFnZXd2ZjRqRUpncGctV3hyR21lcDUyVk5obHVQcUNjTmt0WFRpY0E5NXNpUmwtX19TeUpIYlBZcVNR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 651
+    },
+    {
+      "date": "May 15",
+      "text": "Trump threatened more strikes on Iran if a deal is not signed quickly.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 650
+      "latestSinceUpdate": 651
     },
     {
       "date": "May 15",
-      "text": "Strait of Hormuz closure causes Diet Coke shortage in India, with food brands bracing for wider impacts.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi6wFBVV95cUxNellTdmg0eDlMb3c2U25sUHVvUHJ1MGMtdjdtY2FiTGd0eFh1U2NrRnZ0WFdkNldLSlRHOGZvdFNhcy03dk4xU25JclZYUEwtZHNkOHJScGZVMjB2VmdkejJtTVJsbzZxV1VVRkNmN3NCV2V0QVRHdUY1a09ZQUZzMGxsSmUtcWx1ekFoelYwd19VT0gtMUJTejZGNEhXQnp4MWxLbXZEdElmdEJ3cGw5RTFaeF9FdzlqNjJOTGhkbFZ4YmV3Qmx3VlB6Snk4aEVJSWJTbkxBUVg0MmhnZ0RHUUhablZHX3J4SUhJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo Finance",
-      "latestSinceUpdate": 650
+      "text": "Chinese vessels were allowed to sail through Hormuz as Trump met with Xi.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 651
     }
   ],
   "sourceStatuses": [

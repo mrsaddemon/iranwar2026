@@ -1,13 +1,13 @@
 {
-  "updateSequence": 650,
+  "updateSequence": 651,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T13:00:59.665Z",
+  "lastSyncedAt": "2026-05-15T15:23:26.816Z",
   "warDay": 77,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A ceasefire in south Lebanon has reportedly failed to halt fighting between Israel and Hezbollah, with new talks commencing amidst ongoing conflict."
+    "summary": "A potential ceasefire is under discussion, but active fighting and threats of further strikes indicate its fragility."
   }
 }
