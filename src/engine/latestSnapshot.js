@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 648,
+  "updateSequence": 649,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T08:24:34.644Z",
+  "lastSyncedAt": "2026-05-15T11:01:12.231Z",
   "warDay": 77,
-  "summary": "A 2-week ceasefire between the U.S. and Iran is in effect but fragile, with peace talks stalled and Israel conducting strikes in Beirut, while tensions remain high in the Strait of Hormuz following ship seizures and sinkings.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-15",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran has been reached, but its stability is uncertain amidst continued regional hostilities and stalled peace talks."
+    "summary": "No active ceasefire is in place, with peace talks stalled and active combat reported in southern Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 48,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
     "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 56,
-    "globalPressure": 68,
+    "tradeImpact": 52,
+    "sanctionsPressure": 51,
+    "globalPressure": 59,
     "allianceInfluence": 62
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 13",
-      "text": "An Iran Update Special Report highlighted Iranians' anxiety over the potential resumption of war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 648
-    },
-    {
-      "date": "May 15",
-      "text": "Israel conducted strikes in Beirut for the first time since the Lebanon ceasefire, indicating a violation.",
+      "text": "Iran declares readiness for 'aggression' and to repel new U.S. attacks, with peace talks stalled.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTUU2emZXNHZiQ3V3dHVuMklCOHI3TzZRWTZRM2laZEZwZFdvcm14Qm1SaTJhbWhDcUdYZklQNnpBZ0laZmRZODhGbXF0NTNXUWV0aElZNVJDNG5EWmNQOHFFVjJTS0hnRTZLekhoUDhDUkxZX2dIUWVCa3pvcVJ6UFVwN29YQ2pxM1ZuTjJlRDBOOTRMYnoyY0VmZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "dw.com",
-      "latestSinceUpdate": 648
-    },
-    {
-      "date": "May 15",
-      "text": "The U.S. and Iran reached a 2-week ceasefire agreement ahead of a Trump deadline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOQWdMR2RQZEpSSnE3R1BPd1dPVVNvX21tYjhCbFZjcVJRMkozZVFxc3NKUFZid19fMTBZR2Zia3lhbmtLbDlXV21fSERfY3JNYkhEMktlNHZKVXdzaEk4UGlkcDBienpZWjl2OHpwQW9pRnBBaUh2aU5sQlBsVlNkM1FLLVowRXB4WFhWc2g3dmQxYjZzelJzNWhXRlROZjFmN2psUkJWbS1NcHF00gGyAUFVX3lxTE9YUXdxUGhSZ2lHV1p6cHJ1WExBTkFKRlgyQmZuaWRqMGFMTjUtamk2TnI3WGc0eWh5MkpNRTV3bEptbUhFMFdhTmlfZ1lMaFVBbEFseUxDLU9HdVNadkdBUHh1YUVuc1JKTzVJRTNLdXNGbGhYdnFMZlJmSlJfbUhoempHaVB2RjA3bVdFV1dvblpvUnVNRzFubFU0TTlNakk1R0xJTnIwNHFlcmc4VXhkZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNUjF1VXkyNE50MmtGb2V4TEVEd29UN084a2ZDcW9UQXhBT1p6R1JhZ2RMWWpGeUZBTXdNOXM5TXUydXhOMjZtMkVHTnNkZG51Rm5OTU5qMllQSTJ6c2pMZmhQQnNyd2FrR0tLZkNCLVJwTzl3RGk3ZFZIOEVOTGRVSm03TFZrVW8yTmhrcFA4X0tJT2tOamZ4S3pacW1JdU4wX3RV0gGoAUFVX3lxTE5hT1VlVGZwbDJQQ2NKaV8yNkpBZ2FfUUQtWUZldzBIcmZFaEM4a2NSOTU1aHlVWkpXYk5nbklEemFVYVFNNUNQZkVEVGhRWWdweS0yWVVmVmlyVmt4cDF6a0NTZlBKcnFMWTh2TmJScGJPc3V3aGJ5d1hYN3gwalViZnpYUktrZUxBVkRZbmRQclNzbXU2MDd2V0t5b2NwZDF3ZDBjWU04OQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 648
+      "latestSinceUpdate": 649
     },
     {
       "date": "May 15",
-      "text": "Tensions flared near the Strait of Hormuz with a ship seized and another sunk, leading Trump and Xi to agree the strait must remain open.",
+      "text": "Report indicates UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 649
+    },
+    {
+      "date": "May 15",
+      "text": "Trump claims progress with China on the conflict but threatens more Iran strikes if a deal is not signed quickly.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 649
+    },
+    {
+      "date": "May 15",
+      "text": "A ship was seized and taken toward Iran, while Trump and China's Xi agreed the Strait of Hormuz 'must remain open'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 648
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 649
     },
     {
       "date": "May 15",
-      "text": "Hezbollah's new unjammable drones were identified as posing a new threat to Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQU0NRRHljUFlnWTFlc3ppOThmbEtjWG5DNFFKNEhXMHViQ3hFVUdKQS1icTJtME8xTGZwX19WaEZMeVdwTXhtZmYyckgyT0ZkbzBidnlDZVZKRmRJMWN5dTE3Tjl0R2FmMlMzUWd1RjRjTWxlMHZ5Q1FhSzRmY3p4a2ZOQkJLZ29qaXpWQUlCZEFIWUwtcXp0ZXROQTZWbWVieXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 648
+      "text": "Tensions spike near the Strait of Hormuz following a ship seizure off the UAE and a cargo ship attack near Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQZXVYNXdEQVZpSnducWJzRlF2ajdubmhCQzZRWVpQMDdTcGE5bXBJRW4tMlc2bm1XZFJGZTdNT1lvcHd1YjZQTnpneHJsTnFqZFNkblZlVDNlRktqS2p2ZkU5NEJiVzRXdkloVTN0a041ZlkydE5uNDlsN09ENEFHYUxnTlJOS1hxN3RVSjdseks4b0lMTGttZWpR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WYFF",
+      "latestSinceUpdate": 649
     },
     {
       "date": "May 15",
-      "text": "Hezbollah support endures in south Lebanon as the ceasefire fails to stop the war with Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE90bndORFFvMndlVVdQd1BzRXdjaGVPSHI3RDZpMFhJdXBhcWxmdGdEWUtuc1MzMWZZbV9hc0FiQlJaUndTWlNpVVBPcUFrMDJyTThyR0JQcUhhQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 648
+      "text": "The UAE fast-tracks a second West-East oil pipeline to bypass the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxONVpIYUk2S1c3dEJrS2ZZUHh5MHhEVWptV1JMdzZBZjNtS0pQcGVMN3dkNzFKa004Z01QdTlpNXY4czNHYWJFMFlvSktpNGZmelQ4M1c1T3BEbGl5eUR4Sm1DN1RKcFBBY2xKMXo2OEVvVERDbXFYb3lEVHV1dXNxRnh4LW54SzhsSUtvWXdZY9IBlAFBVV95cUxQTm90WGR3RlB0TTdjbktNbm05SWJiM0ZrbGRWb05hYWRmUHlIRG9DUnhFdEQ5WHllNGFLSlZOcHBTeE1Oek9tX1F3bjVlVDJHOVpjeTQyUkNZWktXcm9HdnVwZWdZZU9LMWw0MEliYk4yQm4yUHRvc0JOSHR2bk80MDBRRzhOdk9xZzE5ZHo0bjB1dDRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 649
     }
   ],
   "sourceStatuses": [

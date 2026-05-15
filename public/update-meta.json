@@ -1,13 +1,13 @@
 {
-  "updateSequence": 648,
+  "updateSequence": 649,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T08:24:34.644Z",
+  "lastSyncedAt": "2026-05-15T11:01:12.231Z",
   "warDay": 77,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A 2-week ceasefire between the U.S. and Iran has been reached, but its stability is uncertain amidst continued regional hostilities and stalled peace talks."
+    "summary": "No active ceasefire is in place, with peace talks stalled and active combat reported in southern Lebanon."
   }
 }
