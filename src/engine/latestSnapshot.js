@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 649,
+  "updateSequence": 650,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T11:01:12.231Z",
+  "lastSyncedAt": "2026-05-15T13:00:59.665Z",
   "warDay": 77,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-15",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "No active ceasefire is in place, with peace talks stalled and active combat reported in southern Lebanon."
+    "summary": "A ceasefire in south Lebanon has reportedly failed to halt fighting between Israel and Hezbollah, with new talks commencing amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 51,
-    "globalPressure": 59,
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 56,
+    "globalPressure": 67,
     "allianceInfluence": 62
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 13",
-      "text": "Iran declares readiness for 'aggression' and to repel new U.S. attacks, with peace talks stalled.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNUjF1VXkyNE50MmtGb2V4TEVEd29UN084a2ZDcW9UQXhBT1p6R1JhZ2RMWWpGeUZBTXdNOXM5TXUydXhOMjZtMkVHTnNkZG51Rm5OTU5qMllQSTJ6c2pMZmhQQnNyd2FrR0tLZkNCLVJwTzl3RGk3ZFZIOEVOTGRVSm03TFZrVW8yTmhrcFA4X0tJT2tOamZ4S3pacW1JdU4wX3RV0gGoAUFVX3lxTE5hT1VlVGZwbDJQQ2NKaV8yNkpBZ2FfUUQtWUZldzBIcmZFaEM4a2NSOTU1aHlVWkpXYk5nbklEemFVYVFNNUNQZkVEVGhRWWdweS0yWVVmVmlyVmt4cDF6a0NTZlBKcnFMWTh2TmJScGJPc3V3aGJ5d1hYN3gwalViZnpYUktrZUxBVkRZbmRQclNzbXU2MDd2V0t5b2NwZDF3ZDBjWU04OQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 649
+      "date": "May 15",
+      "text": "Iranians are reportedly on edge as the threat of war resumption looms.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdlN4VUNKQURBQUk2T1owMU5kdks5ZGptdmxtcTVjeGZQWGdBMmxEOERkQ2tuQ04yeXlOTnBCTTFxZHoyblZLZ1NqVFVIWUpJaTNfSm5TMEdIallUX0E0NDNxdHpETmp5RUd0Vnlra0dEOW94aE50c3R3b2hWbmh3cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 650
     },
     {
       "date": "May 15",
-      "text": "Report indicates UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "warning",
+      "text": "Chinese vessels have been allowed to sail through Hormuz as Trump meets Xi.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 650
+    },
+    {
+      "date": "May 13",
+      "text": "An Iran Update Special Report was issued.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 650
+    },
+    {
+      "date": "May 15",
+      "text": "The UAE reportedly launched secret strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 649
+      "latestSinceUpdate": 650
     },
     {
       "date": "May 15",
-      "text": "Trump claims progress with China on the conflict but threatens more Iran strikes if a deal is not signed quickly.",
+      "text": "Trump threatens more Iran strikes if a deal is not signed 'fast'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 649
+      "latestSinceUpdate": 650
     },
     {
       "date": "May 15",
-      "text": "A ship was seized and taken toward Iran, while Trump and China's Xi agreed the Strait of Hormuz 'must remain open'.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 649
-    },
-    {
-      "date": "May 15",
-      "text": "Tensions spike near the Strait of Hormuz following a ship seizure off the UAE and a cargo ship attack near Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQZXVYNXdEQVZpSnducWJzRlF2ajdubmhCQzZRWVpQMDdTcGE5bXBJRW4tMlc2bm1XZFJGZTdNT1lvcHd1YjZQTnpneHJsTnFqZFNkblZlVDNlRktqS2p2ZkU5NEJiVzRXdkloVTN0a041ZlkydE5uNDlsN09ENEFHYUxnTlJOS1hxN3RVSjdseks4b0lMTGttZWpR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WYFF",
-      "latestSinceUpdate": 649
-    },
-    {
-      "date": "May 15",
-      "text": "The UAE fast-tracks a second West-East oil pipeline to bypass the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxONVpIYUk2S1c3dEJrS2ZZUHh5MHhEVWptV1JMdzZBZjNtS0pQcGVMN3dkNzFKa004Z01QdTlpNXY4czNHYWJFMFlvSktpNGZmelQ4M1c1T3BEbGl5eUR4Sm1DN1RKcFBBY2xKMXo2OEVvVERDbXFYb3lEVHV1dXNxRnh4LW54SzhsSUtvWXdZY9IBlAFBVV95cUxQTm90WGR3RlB0TTdjbktNbm05SWJiM0ZrbGRWb05hYWRmUHlIRG9DUnhFdEQ5WHllNGFLSlZOcHBTeE1Oek9tX1F3bjVlVDJHOVpjeTQyUkNZWktXcm9HdnVwZWdZZU9LMWw0MEliYk4yQm4yUHRvc0JOSHR2bk80MDBRRzhOdk9xZzE5ZHo0bjB1dDRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 649
+      "text": "Strait of Hormuz closure causes Diet Coke shortage in India, with food brands bracing for wider impacts.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi6wFBVV95cUxNellTdmg0eDlMb3c2U25sUHVvUHJ1MGMtdjdtY2FiTGd0eFh1U2NrRnZ0WFdkNldLSlRHOGZvdFNhcy03dk4xU25JclZYUEwtZHNkOHJScGZVMjB2VmdkejJtTVJsbzZxV1VVRkNmN3NCV2V0QVRHdUY1a09ZQUZzMGxsSmUtcWx1ekFoelYwd19VT0gtMUJTejZGNEhXQnp4MWxLbXZEdElmdEJ3cGw5RTFaeF9FdzlqNjJOTGhkbFZ4YmV3Qmx3VlB6Snk4aEVJSWJTbkxBUVg0MmhnZ0RHUUhablZHX3J4SUhJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo Finance",
+      "latestSinceUpdate": 650
     }
   ],
   "sourceStatuses": [
