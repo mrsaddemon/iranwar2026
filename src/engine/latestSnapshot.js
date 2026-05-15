@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 651,
+  "updateSequence": 652,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T15:23:26.816Z",
+  "lastSyncedAt": "2026-05-15T17:12:23.286Z",
   "warDay": 77,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran war continues on Day 77 with heightened tensions in the Strait of Hormuz, ongoing conflict between Israel and Hezbollah in Lebanon, and US threats of further strikes amid a failed ceasefire.",
   "lastNarrativeUpdate": "2026-05-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "A potential ceasefire is under discussion, but active fighting and threats of further strikes indicate its fragility."
+    "summary": "A ceasefire attempt has failed to halt the conflict between Israel and Hezbollah in south Lebanon, with ongoing hostilities reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.4,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 68,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 15",
-      "text": "Tensions flared near the Strait of Hormuz as a ship was seized and another was sunk.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 651
-    },
-    {
-      "date": "May 15",
-      "text": "An Israeli Staff Sgt. Negev Dagan was killed by a Hezbollah shell in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOeTBlSHdZSnBxbmpCelJnejFnUUVHX2ozUnpNNkd5bFIyZ2JnMVJNSWwzZjdlb2FjSFJweXpJckpqbEVEVXYxaXNlVU13WGFQXzVnOGFmSUdtRURieUlaSnRIY05fZUh2V29TRWU1clpJYnd5MDFMaWE5ZDgwc0JLX2RGR2h1dHJJN2RwR3pWVkF2d1NYVDZSU1BYaFhSTFY0Y0Frci05TTBpMlRsNzFQNDh4Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 651
-    },
-    {
-      "date": "May 15",
-      "text": "A report indicates the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 651
-    },
-    {
-      "date": "May 15",
-      "text": "A new round of Lebanon-Israel talks commenced amidst continued fighting between Israel and Hezbollah.",
+      "text": "Iranians are on edge as the threat of war resumption looms on the road to Tehran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUXR4ck44YUh6dUViaHVKYlBuNk54QTE3UkkyRGdZYi1JYXJKaS1XRGRha0FiTnpFTENFeFQ2VEM0TVRWQVplU2VIV1pIaGl1UVMzbGdTUFRXNGc5a3ZLTnRoWmNkY2UzQi1WOS1KeU14c1NhQVozdFhQM3dXdFFOcEFnZXd2ZjRqRUpncGctV3hyR21lcDUyVk5obHVQcUNjTmt0WFRpY0E5NXNpUmwtX19TeUpIYlBZcVNR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 651
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdlN4VUNKQURBQUk2T1owMU5kdks5ZGptdmxtcTVjeGZQWGdBMmxEOERkQ2tuQ04yeXlOTnBCTTFxZHoyblZLZ1NqVFVIWUpJaTNfSm5TMEdIallUX0E0NDNxdHpETmp5RUd0Vnlra0dEOW94aE50c3R3b2hWbmh3cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 652
     },
     {
       "date": "May 15",
-      "text": "Trump threatened more strikes on Iran if a deal is not signed quickly.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 651
-    },
-    {
-      "date": "May 15",
-      "text": "Chinese vessels were allowed to sail through Hormuz as Trump met with Xi.",
+      "text": "Chinese vessels have been allowed to sail through Hormuz as Trump meets Xi.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQclJTRkViZUdYdkdWMXBMRWd6MWxqb2R0dHFHakZIYWdlTUFvNzdXd1ZDdWhoa1p1aG9yQ2JNM3dOSjZjcXd4QnJVclpqV29IWnBvNXlIQzZUc1dIdUpqTlNJMUJCcjdna1BLWERTRm5qdFlCbnowM3JrV1FyeWtpNjJFNmllTndxbUc4UWQwbTNSTW92amNiMEUxR2VYbHNQeHFXTXRoVEdPLTNzczhKcmk1SnNFSlZoQVlz0gHAAUFVX3lxTE9KTENWQkhETTNfM3BMaHBOSzVneTJPenVhQmFwSDdxNm52UGxXaTFxNGo0LXdGaWJvaHkxSTFLdUczVWhHVkJtU1VIWkYwTkpidFJJYTFVSjVDVS1od0lMMEV5UXBQbDZFTll0UTFHd05MYy00SzJ1OGJKM3NhZC1vSVBIaTR0Wm1JLXhkZkI1RWh6VmNkSUN0aEtfZkxrUGw1d3RZQmljQ0hPTmtBMnpxbmZEZXdsQmhaX096UG1GMw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 651
+      "latestSinceUpdate": 652
+    },
+    {
+      "date": "May 15",
+      "text": "Trump states 'I want' buried uranium, indicating focus on Iran's nuclear material.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 652
+    },
+    {
+      "date": "May 15",
+      "text": "Report reveals UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 652
+    },
+    {
+      "date": "May 15",
+      "text": "Trump threatens more Iran strikes if a deal is not signed 'fast'.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 652
+    },
+    {
+      "date": "May 15",
+      "text": "Iran states it 'cannot trust the Americans at all' as Trump claims 'we control' the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQMWZnWl9iZjVMaE91ZFRYa3JNR2xSMk50eXVCTzZaYWh5TkhYSFUyd0FmbFZqRXg1V3JPOHE3QldoNm9XVlZGdVVqY1NoOEdMelRjZWM1eW84T3k2TkFrYml3cWJ6UklVczJsQ3RySnZ2T0JmNGEwY3NMUFBlSlZpcFVTMFRfLVB4QzRXSHhYdkQzYnF0QzJQSdIBngFBVV95cUxPTWVNNTBmUEtIbXdXMnlFX3E0aHo2U29ZN2xnZ0Rtc3pneV9oc1BhVVFzZEtNeVN1eG9vQTVMaXU1a2JkOXp5bHJXV3NmUHZMejByUTZkNTRtQVRfektVXzM4ZFp6VUdZUjFKeXZCd3RJWEdZNmZGdmFWMUV6bDdmVmRqSVJtSWE3OXJpc2hsNjA2aFVPT3BYYlRGQ1pVUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 652
     }
   ],
   "sourceStatuses": [
