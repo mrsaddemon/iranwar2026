@@ -1,13 +1,13 @@
 {
-  "updateSequence": 653,
+  "updateSequence": 654,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T18:58:30.262Z",
+  "lastSyncedAt": "2026-05-15T20:20:38.192Z",
   "warDay": 77,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A ceasefire between the US and Iran has been reported as violated by Tehran, while a separate ceasefire in the Lebanon-Israel conflict has failed to stop fighting."
+    "durationDays": 45,
+    "summary": "Israel and Lebanon agreed to a 45-day ceasefire extension, though fighting continues between Israel and Hezbollah, and Israel targeted a Hamas leader in Gaza."
   }
 }

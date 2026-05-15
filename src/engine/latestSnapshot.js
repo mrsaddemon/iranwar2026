@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 653,
+  "updateSequence": 654,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T18:58:30.262Z",
+  "lastSyncedAt": "2026-05-15T20:20:38.192Z",
   "warDay": 77,
-  "summary": "The Iran conflict continues with reports of ceasefire violations, regional strikes, and naval incidents, while international diplomatic efforts and concerns over nuclear materials emerge.",
+  "summary": "The Iran war continues on day 77 with heightened tensions in the Strait of Hormuz, US accusations of ceasefire violations, and a fragile Israel-Lebanon ceasefire extension amidst ongoing fighting.",
   "lastNarrativeUpdate": "2026-05-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 14,
-    "summary": "A ceasefire between the US and Iran has been reported as violated by Tehran, while a separate ceasefire in the Lebanon-Israel conflict has failed to stop fighting."
+    "durationDays": 45,
+    "summary": "Israel and Lebanon agreed to a 45-day ceasefire extension, though fighting continues between Israel and Hezbollah, and Israel targeted a Hamas leader in Gaza."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 56,
-    "globalPressure": 69,
-    "allianceInfluence": 57
+    "globalPressure": 66,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 15",
-      "text": "Trump says China's Xi Jinping offered to help end Iran conflict.",
+      "date": "May 13",
+      "text": "An Iran Update Special Report was released.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOZ2tONFhJQVoyakZsTmd1VHo4OGRtZnFmeXZJTE5lV0NaQ0FOX3hkNGh4eUpGaERCUWl6UGpVV2RFQTlIaXZrcXA1MEdmWFpIRnJGTlRCc0NYcVI3WXVCSFhWOFZhLTh3ai1NTDNXd1psYVZZN1lMUlZRNlN6c0lXOVRVSmJHUi1uWnBzUWNwU0tULTQ4dXRYYndFaWRuS05fQXNoRNIBqgFBVV95cUxQaUVBbEh2R0hQWFkycDl1VERzdVJXYV9sZlhGZU5qVnNMYUQ2ZG1EV1ZRelluRGR3R2N4RmVYUl9JVmFPdmFDcnp2aWlEOWFNeFRGcDBZR0pYLXd2NEVEZGdCYnBzQm5rcUJGZFlRNGxsanJTUUxSZTRCQ3lFT2lfTDNHM3NzQnYycVlVdDcwV1pTY1lwSXB5c0ZiOUQxekVJOUozTU1OSmh2Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 653
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNeVJDeDJxeXNhbFZYX0xEd0hsOWtNalRvbVBpRDlKNzlYS3Nmdl81Tnh3T1ZwX0Q5MzB0QWhOMGJIRndmODRDQWwtREFNYklFMXhqSEVEcS1OZjdDWlVna2NLUy1lVVJqSUZDalE3Q0FzeWFGaHM5WC0yS3hlREZOSENnVUlBX1pBa3docmFtczJmU00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 654
     },
     {
       "date": "May 15",
-      "text": "Tehran says US violated ceasefire and targeted ships.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 653
+      "text": "Israel and Lebanon agreed to a 45-day extension of their ceasefire, as announced by the US.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 654
     },
     {
       "date": "May 15",
-      "text": "UAE secretly launched strikes on Iran during war, attacking an oil refinery.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 653
-    },
-    {
-      "date": "May 15",
-      "text": "Tensions flare near Strait of Hormuz as a ship is seized and another is sunk.",
+      "text": "Tensions flared near the Strait of Hormuz after a ship was seized and another was sunk.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 653
+      "latestSinceUpdate": 654
     },
     {
       "date": "May 15",
-      "text": "Hezbollah support endures in south Lebanon as ceasefire fails to stop war with Israel.",
+      "text": "Tehran claimed the US violated the ceasefire and targeted Iranian ships.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE90bndORFFvMndlVVdQd1BzRXdjaGVPSHI3RDZpMFhJdXBhcWxmdGdEWUtuc1MzMWZZbV9hc0FiQlJaUndTWlNpVVBPcUFrMDJyTThyR0JQcUhhQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 653
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 654
     },
     {
       "date": "May 15",
-      "text": "IDF Staff Sgt. Negev Dagan killed by Hezbollah shell in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOeTBlSHdZSnBxbmpCelJnejFnUUVHX2ozUnpNNkd5bFIyZ2JnMVJNSWwzZjdlb2FjSFJweXpJckpqbEVEVXYxaXNlVU13WGFQXzVnOGFmSUdtRURieUlaSnRIY05fZUh2V29TRWU1clpJYnd5MDFMaWE5ZDgwc0JLX2RGR2h1dHJJN2RwR3pWVkF2d1NYVDZSU1BYaFhSTFY0Y0Frci05TTBpMlRsNzFQNDh4Zw?hl=en-US&gl=US&ceid=US:en",
+      "text": "A report indicated the UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 653
+      "latestSinceUpdate": 654
+    },
+    {
+      "date": "May 15",
+      "text": "Israel stated it targeted Hamas’s Gaza leader Izz al-Din Haddad in Gaza City, despite the ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiYEFVX3lxTE11RENmbEQwQTk3MXdmdWpXZzgxTUNHTTE0a3BLelN6UFJPVHRaNGNaaWZ2MS1xX0FmTXBrdGJoWWI5Y3Y5T1FxSEVzYnlUQUp6UXJFUlVXMjJ5QU5uQ2xQdNIBZkFVX3lxTFBwREs2dVE4YXEtQTVkSUZaMlhlUEx5SXR2YjN2aDhzclJXYkNQcjVIME1uY1cyY21oM2kwUWpXSUtROGM1SGh0dWJtZWdxdGxRVjlxY1FPWmVBZ2VHdEgzazhIRkh6UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 654
     }
   ],
   "sourceStatuses": [
