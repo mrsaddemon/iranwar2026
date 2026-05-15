@@ -1,13 +1,13 @@
 {
-  "updateSequence": 652,
+  "updateSequence": 653,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T17:12:23.286Z",
+  "lastSyncedAt": "2026-05-15T18:58:30.262Z",
   "warDay": 77,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A ceasefire attempt has failed to halt the conflict between Israel and Hezbollah in south Lebanon, with ongoing hostilities reported."
+    "summary": "A ceasefire between the US and Iran has been reported as violated by Tehran, while a separate ceasefire in the Lebanon-Israel conflict has failed to stop fighting."
   }
 }
