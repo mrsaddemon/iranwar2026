@@ -1,13 +1,13 @@
 {
-  "updateSequence": 647,
+  "updateSequence": 648,
   "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T05:35:56.739Z",
+  "lastSyncedAt": "2026-05-15T08:24:34.644Z",
   "warDay": 77,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "The ceasefire has collapsed, with both sides accusing each other of violations and hostilities resuming, including direct military threats and actions."
+    "durationDays": 14,
+    "summary": "A 2-week ceasefire between the U.S. and Iran has been reached, but its stability is uncertain amidst continued regional hostilities and stalled peace talks."
   }
 }
