@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 671,
+  "updateSequence": 672,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T20:32:42.319Z",
+  "lastSyncedAt": "2026-05-16T21:27:42.770Z",
   "warDay": 78,
-  "summary": "Reports indicate US and Israel are preparing for renewed strikes on Iran, while a fragile ceasefire holds in Lebanon amidst ongoing fighting and Iran's plans for a Hormuz Strait toll.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.5,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between Lebanon and Israel has been extended, but ongoing fighting and new Israeli attacks indicate its fragility."
+    "summary": "A ceasefire in Lebanon was extended, but immediately followed by Israeli strikes and Hezbollah drone attacks, indicating extreme fragility and partial violation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.95
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
     "sanctionsPressure": 54,
     "globalPressure": 65,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 16",
-      "text": "Reports indicate Israel and the US are preparing for renewed strikes on Iran as talks stall.",
+      "text": "Report indicates Israel and US are prepping to renew war as soon as next week.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBsOC1nY25mcWZIYUJlcWpmdFdBVUk1V09JNWVqZzFPZm9Xb2VFdnpLaHB0Z2J6YW1EZkJfVHB6T2dyR0R5MU9UNTh2REc3Q1JzLWkyX2J3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "ynetnews",
-      "latestSinceUpdate": 671
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaVhvbjZFQ2JoR0ViVlZKZTBFZ1Q5b0tkeS1CR3I4aEpqeUhJaVoyOVI1ZDc4T2laMWR4T09VbEdhUG9XVnZ6cHQwMTMyTjd6blZXTE85amdBSXVwdS13dzZ4NlVXRGNHSTgtMFFBdWNEd1VXcHc1cVM1Nm1MS3FfcjJ2ZjdHNURCcEhsSy1QUWxpQ0lDODZTRzVHTnpsTkxydlk3UnFQSGlhSEJ0dEk4bmx6NG_SAboBQVVfeXFMTlg4ZVdGZUZ4YWlTbVczdUd3clRSUnpOaEpYcjkzb1RXRV9NUTBNY0NvUWJYR2NWSDg0dFFGTng0ZnNFRFZYVEluVldhZDhEeVJGZGRMbTd5bXRKck9rWXJHSHBGcTgySV9nMVR2SXJaWDVXT0dkS3VGUUVNRk9lWWtvbGF0MzRxaXRVVXRQUHRLUUh0VzNvYU9faGUyaVpGc3dkV1JYODFsX1ZzUzM2QlkwQzJCYmNhQ2ZB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 672
     },
     {
       "date": "May 16",
-      "text": "A ceasefire in Lebanon has been extended, but Israel has launched new attacks.",
+      "text": "Lebanon ceasefire extended, but Israel launches new attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 671
+      "latestSinceUpdate": 672
     },
     {
       "date": "May 16",
-      "text": "The U.S. and Iran have exchanged new proposals aimed at ending the conflict.",
+      "text": "U.S. and Iran exchange new proposals to end war.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOTm9Rb2hHV2hwV2otQWw2QV84N2hIdzJUQ3lUYWdGT09oejk4clZNT0dnWEpjRXBBUGtSc0dheTIyb25HRVg4SzBfMTlpRnFPWFQ4NlY3WGFNY2dQMVBCN0tJc1FUd0N4ODF0LXltdVI1VjJFZkVwMFFsc1c1WUFtbXFUdVhwcDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 672
+    },
+    {
+      "date": "May 16",
+      "text": "Israel strikes Lebanon as Iran states it 'cannot trust the Americans at all'.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 671
+      "latestSinceUpdate": 672
     },
     {
       "date": "May 16",
-      "text": "Iran announced plans to implement a toll mechanism for passage through the Strait of Hormuz.",
+      "text": "Iran reveals plan to charge fees to use Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 671
+      "latestSinceUpdate": 672
     },
     {
       "date": "May 16",
-      "text": "An IDF infantry platoon commander was killed by a Hezbollah drone in southern Lebanon.",
+      "text": "IDF infantry platoon commander killed by Hezbollah drone in southern Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOMVd0LWtBUlJRWm56TUhmN2NpNGlrMUdYWkh4YVNDel9OcmV2bHlMQzVkZUgxRGpHM3lTLTczeWw4UXJjc3FJaW8tLWQ3bHV4NEM2RVNkeEx5UW9aNDFsNWVQaGRBTWtQRDRnZWRROUdGMkpZVlZLWG1CQUt5emtSdDJUb2dqRDVpbkRoVG1zY0ZYejYyOEpONDV1UHFmN1VTOGZxWmNtc3NXdWgxbUg4SnBlSTNuQkRIUVJZRjRvVUVWckNOWUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 671
-    },
-    {
-      "date": "May 16",
-      "text": "CENTCOM chief stated Iran's control over the Strait of Hormuz has weakened, though threats persist.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1KRF9EQ0ZIeklRczdGa2l6TmJiaVIxbU5GMnN1NDRYZlZ3ckpTekF2bWFOTm8xdmJKTVJORG5sWWJOUVNCN3U4TG9QOXVSbVFNRkxmSmFud3l3SUEwMURBYkFTSjhjN0RCYno1aHZlVmZTd29XN2xQemxzUdIBgAFBVV95cUxPbjJZWDZYYWJUeW9MaUt2bnJ5ZjJJT0ZIYzRmZFlNTHRWbjVkOFZmZ0tIc1B2X2RneDAyM055NU5OeGE5eTZrelJGbjRuVUE4TU5ySzhPX2hWR3lpVEplV1JTdkI2c3JfMWhLb0l1b29TZV9aaUFGZVdRRlk5c1M2Xw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 671
+      "latestSinceUpdate": 672
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

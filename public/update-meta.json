@@ -1,13 +1,13 @@
 {
-  "updateSequence": 671,
+  "updateSequence": 672,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T20:32:42.319Z",
+  "lastSyncedAt": "2026-05-16T21:27:42.770Z",
   "warDay": 78,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.5,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between Lebanon and Israel has been extended, but ongoing fighting and new Israeli attacks indicate its fragility."
+    "summary": "A ceasefire in Lebanon was extended, but immediately followed by Israeli strikes and Hezbollah drone attacks, indicating extreme fragility and partial violation."
   }
 }
