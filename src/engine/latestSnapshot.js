@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 666,
+  "updateSequence": 667,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T15:29:15.363Z",
+  "lastSyncedAt": "2026-05-16T16:31:08.585Z",
   "warDay": 78,
-  "summary": "The Iran war continues with regional strikes, a fragile ceasefire in Lebanon, and global concerns over the Strait of Hormuz and oil supply.",
+  "summary": "The Iran war continues with regional tensions high, a fragile ceasefire in Lebanon being tested by Israeli strikes, and global concerns over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 7,
-    "summary": "A ceasefire in Lebanon has been extended by the US, but ongoing Israeli strikes indicate its fragility."
+    "confidence": 0.98,
+    "durationDays": 14,
+    "summary": "A ceasefire between Israel and Lebanon has been extended, but it remains fragile amidst continued Israeli strikes on Hezbollah targets."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.4
+        "precision": 0.65,
+        "aggression": 0.55
       }
     },
     "israel": {
@@ -27,32 +27,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.55
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 56,
-    "globalPressure": 68,
-    "allianceInfluence": 62
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 16",
-      "text": "Tehran warns the US of more economic woes over its 'war of choice' in the region.",
+      "text": "Iran warns of more economic consequences for the US over its 'war of choice'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 666
+      "latestSinceUpdate": 667
     },
     {
       "date": "May 16",
-      "text": "Israel strikes Lebanon, prompting Iran to state it 'cannot trust the Americans at all'.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 666
+      "text": "Iranians are on edge as the threat of resumption of war looms.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdlN4VUNKQURBQUk2T1owMU5kdks5ZGptdmxtcTVjeGZQWGdBMmxEOERkQ2tuQ04yeXlOTnBCTTFxZHoyblZLZ1NqVFVIWUpJaTNfSm5TMEdIallUX0E0NDNxdHpETmp5RUd0Vnlra0dEOW94aE50c3R3b2hWbmh3cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 667
     },
     {
       "date": "May 16",
-      "text": "A Lebanon 'ceasefire' is extended, but Israel launches new attacks, killing six.",
+      "text": "Israel launches new attacks in Lebanon despite an extended ceasefire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 666
+      "latestSinceUpdate": 667
     },
     {
       "date": "May 16",
-      "text": "Report reveals UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "warning",
+      "text": "UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 666
+      "latestSinceUpdate": 667
     },
     {
       "date": "May 16",
-      "text": "The Strait of Hormuz crisis rattles the world, with warnings of record low oil stockpiles if it remains closed.",
+      "text": "Six people were reportedly killed in Israeli strikes on Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQNEJPWkhNeTJrWXZRbkdYNXY2S2FQN1ZPTmxZMzUybDd1WW1vX09VN2VYQ2JkTUttM0c0NFdqNVpMUTQ5bzhtRnZfeEhlT0djNjRua2w2OVBlR3lKZkxYbFVqNUd1Z28wRi1veng3WG9MR0tlTzZJMHBrS3MzY2xhT1FUakZ1TzJtaEpr0gGQAUFVX3lxTFAxRmtrUXFfRTNoLWU0Q0tvVVdISTJzazN5a1ZqYUV3NVplbTh1bVJhUzNVNTd3YnpSTWQxQUoyUUNyYjQwdnlrMWdJb0VwdEhhNk1qbEFyS2dKdk8xVEY4ZXZsN2R2MXE2bnc0Q1dYWkc3RjIwYWFBM2dYdW5OTmpiaDBRUENmWWNYd0tvallKMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 666
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 667
     },
     {
       "date": "May 16",
-      "text": "IDF claims to have killed two Hezbollah operatives at a rocket launch site in south Lebanon.",
+      "text": "The Hormuz crisis rattles the world, with eyes on another key waterway.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxPck10alFTZmF0ZFJMSTl5NGVoTlEwMFlWU0d2cmVwTlhSdWJOMnFRZG5oVjYtYk12YlFIWl9PYVBnYnB0WDU0Z0dFMHBpaGNLbFhEUlVISm9DZVRUenFvWmw5NEJ1Sk9pbDVmWG5HWW1DVjNsQkhwTFFRUWxPdGwzN3Q2X0RROHY0dkFJSmN4MnNYZ1Jfa0swWDdLSEk0XzQzd19sUG93LTBKUElVd1I2aHNVTDk3UmFYUTJULWdfQkJjTDdra1Z3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 666
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQeTNnTEVGQWZVOFByaTF3cU9xN18zcVNhazd3dWJ1ZGRsTEtJaXd4TTVZTHFHMzlmUkd6MDVuNkJrNkVpanE3X1c4UXlUc251aXNMMlc2N19jVkw2OXpHUGwyOUFRMmh0aWpqOHljbFZNdmUycWxSRVhjaG9qVU9ocUlYRy1QZC1BMENXLThpNVU5cW1COGpRNTZEZWhSU1RiUEFVLURB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 667
     }
   ],
   "sourceStatuses": [
