@@ -1,19 +1,37 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 662,
+  "updateSequence": 663,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T10:23:14.935Z",
+  "lastSyncedAt": "2026-05-16T11:32:40.003Z",
   "warDay": 78,
-  "summary": "The Iran-Israel conflict continues on day 78 with ongoing Israeli strikes in Lebanon despite a ceasefire extension, while the UAE is reported to have secretly attacked an Iranian oil refinery.",
+  "summary": "The Iran war continues on Day 78 with ongoing Israeli strikes in Lebanon despite a ceasefire extension, while Iran threatens Strait of Hormuz control and global powers assess the conflict's broader impact.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire in Lebanon has been extended, but ongoing Israeli strikes indicate its fragile nature."
+    "summary": "A ceasefire in Lebanon has been extended by the US, but new Israeli attacks and casualties indicate its fragile nature and partial violations."
   },
   "actorOverrides": {
     "usa": {
+      "metrics": {
+        "militaryPower": 70
+      },
+      "behavior": {
+        "precision": 0.6,
+        "aggression": 0.5
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.8
+      }
+    },
+    "iran": {
       "metrics": {
         "militaryPower": 75
       },
@@ -21,33 +39,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "precision": 0.6,
         "aggression": 0.7
       }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 88
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
-      }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 70
-      },
-      "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
-      }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 56,
-    "globalPressure": 65,
+    "globalPressure": 67,
     "allianceInfluence": 62
   },
   "alliance": {
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 16",
-      "text": "Israel strikes southern Lebanon amid escalation, as UAE rejects Iran’s 'direct involvement' claims.",
+      "text": "Six killed in Israeli strikes on Lebanon.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 662
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5RNEhNNzBzRkF4T2NFYUhVRWxzSk9FMzNiS1hiMHpFd2ZER21Gcm1WOTl6Y2xsUHEtaUZ1NGlvTlVpYWg1aHBEX1JnR2Q4QmVicURRT011MVNaZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 663
     },
     {
       "date": "May 16",
-      "text": "Report claims UAE secretly launched strikes on Iran during war, attacking an oil refinery.",
+      "text": "UAE secretly launched strikes on Iran during war, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 662
+      "latestSinceUpdate": 663
     },
     {
       "date": "May 16",
-      "text": "Former President Trump threatens more Iran strikes if a deal is not signed 'fast'.",
+      "text": "Iran to announce a mechanism for Strait of Hormuz control, including fees.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 662
-    },
-    {
-      "date": "May 16",
-      "text": "Six people reportedly killed in Israeli strikes on Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 662
-    },
-    {
-      "date": "May 16",
-      "text": "IDF announces a wave of strikes on Hezbollah targets in south Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPV3V0YlFtNEhaR1YwNEpvOFNyWDBlWktNSHhuZjhDV2V2T1ZmODhsbG9IV3E0RXhJcWxHNDZjYS0tVTFYdk42Um4tTVREWXRBRDFaWnVVUFhyVzBucWUzc0Y4NW03TWN2eGJ4c2locTJzNzhfMlNGMGxqT0FzdVpyY0ItQlhkeDBiNXRKVlhHLS0zUXVRLVhWYThPNkVtcnNSYUhkVF9SdHlpYUw3ZUpjMmk0VHE0WTM1Wnl1bQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNRmJrVGlrem9kYklVRngwLWV6VUpVYVpwaFhHb2lMZWpBa2tjT0x1cXd0S1c5em5UYWd5MGNiRXJxT29yZmQ5WFlPR1JhQ3B3OU5BcWlpVF9IVkE5YXYybzdCd0dfTWxOdERSZDhTU1FVdFVQRGlSQjlQRVFwN3JnMEgwZGxhOGJhUmczd1kwVkJkazJXN2hPbFB2SlFjNFkzLVVQQ2lGbkNLdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 662
+      "latestSinceUpdate": 663
+    },
+    {
+      "date": "May 16",
+      "text": "Pentagon quietly shut a legally required program to prevent civilian deaths by the military.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNbWFpNHM3YWVJVGxpZVFSOExzQzFGRlJZblh0bXQtc2RtYUJKX3l1M1YyRFpuTlRqeHU5S2pYTUNtU2VHZGwtckYyU084d0VMR1NjSFdYN0ZRaHNfWHJPTjRzT3Ztd0k0MktuSU1zazZXb25IWGROekgyVDdnNjI0V0xrbE1sUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 663
+    },
+    {
+      "date": "May 16",
+      "text": "China gains a major edge on the U.S. amid the Iran war, according to an intelligence report.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPNTJmUEpEYmVTN3V1RU5MMGxQX2NnQ0cyN1JoaDMyWjhnWUpadk9MWXhkLXYtVnVjaHpWR3IzQklQY0VjcTJrRzhaOXpZamJPNi03RVU1bGxuRmdkZ1dBY3liNUFPMkNuaUtZNWhsTDY1MjlWS25EODhkRGQ1RlZEUGpxNWI1UG9QR1dJSzllem9ROFpBVjdvT1UxS0R2eVVZbkJ2MnQ5TDlrM3JLczhNZTAwQ3NVX2VyWWtscnlDTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 663
     }
   ],
   "sourceStatuses": [
