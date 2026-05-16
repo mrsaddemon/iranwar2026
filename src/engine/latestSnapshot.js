@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 660,
+  "updateSequence": 661,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T07:07:26.920Z",
+  "lastSyncedAt": "2026-05-16T09:03:01.710Z",
   "warDay": 78,
-  "summary": "The Iran-Israel conflict continues with ongoing strikes in Lebanon and tensions near the Strait of Hormuz, despite a fragile ceasefire extension, while global powers assess the shifting geopolitical landscape.",
+  "summary": "The Iran war continues on Day 78 with ongoing Israeli attacks in Lebanon despite a fragile ceasefire, escalating regional tensions in the Strait of Hormuz, and reports of US military losses and internal issues.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire in Lebanon has been extended with US involvement, but ongoing Israeli strikes and Hezbollah actions indicate its fragility and partial violation."
+    "summary": "A ceasefire between Lebanon and Israel has been extended but remains fragile with ongoing Israeli attacks and fighting with Hezbollah."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.65
+        "precision": 0.4,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.68,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
@@ -42,69 +42,69 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 56,
-    "globalPressure": 66,
-    "allianceInfluence": 62
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "May 13",
-      "text": "Lebanon ceasefire extended, but Israel launched new attacks.",
+      "date": "May 16",
+      "text": "Lebanon 'ceasefire' extended, but Israel launches new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/iran-update-special-report-may-13",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 660
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 661
     },
     {
       "date": "May 16",
-      "text": "Israel conducted strikes in Southern Lebanon amid escalating tensions.",
+      "text": "UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 661
+    },
+    {
+      "date": "May 16",
+      "text": "Tensions flare near the Strait of Hormuz as a ship is seized and another is sunk.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 661
+    },
+    {
+      "date": "May 16",
+      "text": "New round of Lebanon-Israel talks kicks off as fighting between Israel and Hezbollah continues.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUXR4ck44YUh6dUViaHVKYlBuNk54QTE3UkkyRGdZYi1JYXJKaS1XRGRha0FiTnpFTENFeFQ2VEM0TVRWQVplU2VIV1pIaGl1UVMzbGdTUFRXNGc5a3ZLTnRoWmNkY2UzQi1WOS1KeU14c1NhQVozdFhQM3dXdFFOcEFnZXd2ZjRqRUpncGctV3hyR21lcDUyVk5obHVQcUNjTmt0WFRpY0E5NXNpUmwtX19TeUpIYlBZcVNR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 661
+    },
+    {
+      "date": "May 16",
+      "text": "IDF announces a wave of strikes on Hezbollah in south Lebanon after warnings.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/us-israel-iran-latest-news",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 660
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPV3V0YlFtNEhaR1YwNEpvOFNyWDBlWktNSHhuZjhDV2V2T1ZmODhsbG9IV3E0RXhJcWxHNDZjYS0tVTFYdk42Um4tTVREWXRBRDFaWnVVUFhyVzBucWUzc0Y4NW03TWN2eGJ4c2locTJzNzhfMlNGMGxqT0FzdVpyY0ItQlhkeDBiNXRKVlhHLS0zUXVRLVhWYThPNkVtcnNSYUhkVF9SdHlpYUw3ZUpjMmk0VHE0WTM1Wnl1bQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 661
     },
     {
       "date": "May 16",
-      "text": "Report reveals UAE secretly launched strikes on Iran, attacking an oil refinery during the war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/uae-secretly-launched-strikes-on-iran",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 660
-    },
-    {
-      "date": "May 16",
-      "text": "Tensions flared near the Strait of Hormuz with one ship seized and another sunk.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/tensions-flare-strait-of-hormuz",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 660
-    },
-    {
-      "date": "May 16",
-      "text": "Lebanon reported six killed in an Israeli strike.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/lebanon-six-killed-israeli-strike",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 660
-    },
-    {
-      "date": "May 16",
-      "text": "Hezbollah launched a drone at Mount Meron, resulting in no injuries.",
+      "text": "Pentagon quietly shut a legally required program to prevent civilian deaths by the military.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/hezbollah-drone-mount-meron",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 660
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNbWFpNHM3YWVJVGxpZVFSOExzQzFGRlJZblh0bXQtc2RtYUJKX3l1M1YyRFpuTlRqeHU5S2pYTUNtU2VHZGwtckYyU084d0VMR1NjSFdYN0ZRaHNfWHJPTjRzT3Ztd0k0MktuSU1zazZXb25IWGROekgyVDdnNjI0V0xrbE1sUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 661
     }
   ],
   "sourceStatuses": [
