@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 659,
+  "updateSequence": 660,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T04:42:02.264Z",
+  "lastSyncedAt": "2026-05-16T07:07:26.920Z",
   "warDay": 78,
-  "summary": "The Iran-Israel conflict continues with a fragile ceasefire extended between Israel and Lebanon, while regional tensions persist, particularly in the Strait of Hormuz, and concerns grow over the US military's involvement.",
+  "summary": "The Iran-Israel conflict continues with ongoing strikes in Lebanon and tensions near the Strait of Hormuz, despite a fragile ceasefire extension, while global powers assess the shifting geopolitical landscape.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 45,
-    "summary": "A ceasefire between Israel and Lebanon has been extended by 45 days, though new strikes and attacks from both sides indicate its fragility."
+    "confidence": 0.93,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon has been extended with US involvement, but ongoing Israeli strikes and Hezbollah actions indicate its fragility and partial violation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.6,
+        "aggression": 0.65
       }
     },
     "israel": {
@@ -27,84 +27,84 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.68,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 56,
+    "globalPressure": 66,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "May 16",
-      "text": "Israel launches new attacks despite an extended ceasefire with Lebanon.",
+      "date": "May 13",
+      "text": "Lebanon ceasefire extended, but Israel launched new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 659
+      "sourceUrl": "https://news.google.com/articles/iran-update-special-report-may-13",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 660
     },
     {
       "date": "May 16",
-      "text": "Israel and Lebanon agree to extend their ceasefire by 45 days.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxObGNzYXl2OThjOE1ORzZ4OHUzQ1RYS0lCZlMtYnF3dVg0UTItLXZBUkhxQUxOcDBKRGQyZXJXcXprcHVDVkdnUWl4ZUNXN2NRZDBaSjNIeExsdjVGMUtNM3lGSzJqUjF2NmJ1T01ZdnBpZTRLQUpyS3J0RDZKa1ZndA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "MS NOW",
-      "latestSinceUpdate": 659
-    },
-    {
-      "date": "May 16",
-      "text": "UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 659
-    },
-    {
-      "date": "May 16",
-      "text": "Tensions flare near the Strait of Hormuz as a ship is seized and another is sunk.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 659
-    },
-    {
-      "date": "May 16",
-      "text": "Lebanon reports six killed in an Israeli strike.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5RNEhNNzBzRkF4T2NFYUhVRWxzSk9FMzNiS1hiMHpFd2ZER21Gcm1WOTl6Y2xsUHEtaUZ1NGlvTlVpYWg1aHBEX1JnR2Q4QmVicURRT011MVNaZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 659
-    },
-    {
-      "date": "May 16",
-      "text": "Hezbollah claims responsibility for a drone strike targeting Israeli troops in northern Israel.",
+      "text": "Israel conducted strikes in Southern Lebanon amid escalating tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi1AFBVV95cUxNNGpNdmdqMlhEdGM5VnFCX0oxVnhYME9BcWRvV2VwT3pQX1RqbWJ5NWlQUDJmcVFoeHdmYlRpVzBmUGRHYmh5cVlvdGxCb2FrT2ZwSjEtWVZrbEhhSEtOUVY3WmFBZkwxQU1jUHIycHM4QVV3R1lkX1htVDFtZzZuMVdnSWhYTWhDUHFlZXBBemx2bldyMF9VX2FnNGktMTVaczdlbTdia0o5U0swMURJN3JTTlhFVEVJRDFnTjR6OW1vSTlua0tRVV8wZlNfb1FMLTgtOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 659
+      "sourceUrl": "https://news.google.com/articles/us-israel-iran-latest-news",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 660
+    },
+    {
+      "date": "May 16",
+      "text": "Report reveals UAE secretly launched strikes on Iran, attacking an oil refinery during the war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/uae-secretly-launched-strikes-on-iran",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 660
+    },
+    {
+      "date": "May 16",
+      "text": "Tensions flared near the Strait of Hormuz with one ship seized and another sunk.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/tensions-flare-strait-of-hormuz",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 660
+    },
+    {
+      "date": "May 16",
+      "text": "Lebanon reported six killed in an Israeli strike.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/lebanon-six-killed-israeli-strike",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 660
+    },
+    {
+      "date": "May 16",
+      "text": "Hezbollah launched a drone at Mount Meron, resulting in no injuries.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/hezbollah-drone-mount-meron",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 660
     }
   ],
   "sourceStatuses": [
