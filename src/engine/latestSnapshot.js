@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 663,
+  "updateSequence": 664,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T11:32:40.003Z",
+  "lastSyncedAt": "2026-05-16T12:41:09.571Z",
   "warDay": 78,
-  "summary": "The Iran war continues on Day 78 with ongoing Israeli strikes in Lebanon despite a ceasefire extension, while Iran threatens Strait of Hormuz control and global powers assess the conflict's broader impact.",
+  "summary": "The Iran-Israel war continues on day 78 with ongoing Israeli strikes in Lebanon, significant Hezbollah activity, and reports of UAE strikes on Iran, while a ceasefire in Lebanon has been extended amidst global concerns over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 7,
-    "summary": "A ceasefire in Lebanon has been extended by the US, but new Israeli attacks and casualties indicate its fragile nature and partial violations."
+    "confidence": 0.98,
+    "durationDays": 1,
+    "summary": "A ceasefire in Lebanon has been extended, but it remains fragile with ongoing Israeli strikes and Hezbollah attacks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 78
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.5
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.7,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 72
       },
       "behavior": {
         "precision": 0.6,
@@ -42,17 +42,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 56,
-    "globalPressure": 67,
-    "allianceInfluence": 62
+    "oilDisruption": 92,
+    "tradeImpact": 67,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 16",
-      "text": "Six killed in Israeli strikes on Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5RNEhNNzBzRkF4T2NFYUhVRWxzSk9FMzNiS1hiMHpFd2ZER21Gcm1WOTl6Y2xsUHEtaUZ1NGlvTlVpYWg1aHBEX1JnR2Q4QmVicURRT011MVNaZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 663
+      "text": "Iranians are on edge as the threat of war resumption looms.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdlN4VUNKQURBQUk2T1owMU5kdks5ZGptdmxtcTVjeGZQWGdBMmxEOERkQ2tuQ04yeXlOTnBCTTFxZHoyblZLZ1NqVFVIWUpJaTNfSm5TMEdIallUX0E0NDNxdHpETmp5RUd0Vnlra0dEOW94aE50c3R3b2hWbmh3cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 664
+    },
+    {
+      "date": "May 13",
+      "text": "Special report on the Iran war published.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 664
     },
     {
       "date": "May 16",
-      "text": "UAE secretly launched strikes on Iran during war, attacking an oil refinery.",
+      "text": "Tehran warns the US of more economic woes over 'war of choice'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 664
+    },
+    {
+      "date": "May 16",
+      "text": "Report indicates UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 663
+      "latestSinceUpdate": 664
     },
     {
       "date": "May 16",
-      "text": "Iran to announce a mechanism for Strait of Hormuz control, including fees.",
+      "text": "Trump threatens more Iran strikes if a deal is not signed 'fast'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNRmJrVGlrem9kYklVRngwLWV6VUpVYVpwaFhHb2lMZWpBa2tjT0x1cXd0S1c5em5UYWd5MGNiRXJxT29yZmQ5WFlPR1JhQ3B3OU5BcWlpVF9IVkE5YXYybzdCd0dfTWxOdERSZDhTU1FVdFVQRGlSQjlQRVFwN3JnMEgwZGxhOGJhUmczd1kwVkJkazJXN2hPbFB2SlFjNFkzLVVQQ2lGbkNLdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 663
-    },
-    {
-      "date": "May 16",
-      "text": "Pentagon quietly shut a legally required program to prevent civilian deaths by the military.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNbWFpNHM3YWVJVGxpZVFSOExzQzFGRlJZblh0bXQtc2RtYUJKX3l1M1YyRFpuTlRqeHU5S2pYTUNtU2VHZGwtckYyU084d0VMR1NjSFdYN0ZRaHNfWHJPTjRzT3Ztd0k0MktuSU1zazZXb25IWGROekgyVDdnNjI0V0xrbE1sUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 663
-    },
-    {
-      "date": "May 16",
-      "text": "China gains a major edge on the U.S. amid the Iran war, according to an intelligence report.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPNTJmUEpEYmVTN3V1RU5MMGxQX2NnQ0cyN1JoaDMyWjhnWUpadk9MWXhkLXYtVnVjaHpWR3IzQklQY0VjcTJrRzhaOXpZamJPNi03RVU1bGxuRmdkZ1dBY3liNUFPMkNuaUtZNWhsTDY1MjlWS25EODhkRGQ1RlZEUGpxNWI1UG9QR1dJSzllem9ROFpBVjdvT1UxS0R2eVVZbkJ2MnQ5TDlrM3JLczhNZTAwQ3NVX2VyWWtscnlDTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 663
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 664
     }
   ],
   "sourceStatuses": [
