@@ -1,13 +1,13 @@
 {
-  "updateSequence": 657,
-  "lastUpdated": "2026-05-15",
-  "lastSyncedAt": "2026-05-15T23:30:59.071Z",
-  "warDay": 77,
+  "updateSequence": 658,
+  "lastUpdated": "2026-05-16",
+  "lastSyncedAt": "2026-05-16T01:18:39.481Z",
+  "warDay": 78,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 45,
-    "summary": "A ceasefire between Israel and Lebanon has been extended for 45 days, though fighting continues in other areas and Iran claims US violations."
+    "confidence": 0.93,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon has been extended by the US, but new Israeli attacks and casualties indicate its fragility."
   }
 }
