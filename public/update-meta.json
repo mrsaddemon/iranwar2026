@@ -1,13 +1,13 @@
 {
-  "updateSequence": 668,
+  "updateSequence": 669,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T17:32:17.496Z",
+  "lastSyncedAt": "2026-05-16T18:33:18.386Z",
   "warDay": 78,
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.3,
     "durationDays": 3,
-    "summary": "A ceasefire extension in Lebanon is in effect, but ongoing Israeli strikes and continued fighting with Hezbollah indicate its fragility."
+    "summary": "A ceasefire in Lebanon has been extended, but ongoing fighting between Israel and Hezbollah indicates it is fragile and frequently violated."
   }
 }
