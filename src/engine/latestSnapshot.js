@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 664,
+  "updateSequence": 665,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T12:41:09.571Z",
+  "lastSyncedAt": "2026-05-16T14:12:01.839Z",
   "warDay": 78,
-  "summary": "The Iran-Israel war continues on day 78 with ongoing Israeli strikes in Lebanon, significant Hezbollah activity, and reports of UAE strikes on Iran, while a ceasefire in Lebanon has been extended amidst global concerns over the Strait of Hormuz.",
+  "summary": "Day 78 of the Iran war sees an extended Lebanon ceasefire challenged by renewed Israeli strikes, ongoing regional tensions, and global concerns over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A ceasefire in Lebanon has been extended, but it remains fragile with ongoing Israeli strikes and Hezbollah attacks."
+    "confidence": 0.93,
+    "durationDays": 14,
+    "summary": "A Lebanon ceasefire has been extended, but ongoing Israeli strikes and fighting with Hezbollah indicate its fragile status."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.4
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 92,
-    "tradeImpact": 67,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 16",
-      "text": "Lebanon ceasefire extended, but Israel launches new attacks.",
+      "text": "Lebanon ceasefire extended, but Israel launches new attacks in the region.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 662
+      "latestSinceUpdate": 665
     },
     {
       "date": "May 16",
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 16",
-      "text": "Tehran warns the US of more economic woes over 'war of choice'.",
+      "text": "Iran warns of more economic woes for the US over its 'war of choice' and states it cannot trust Americans.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 664
+      "latestSinceUpdate": 665
     },
     {
       "date": "May 16",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 16",
-      "text": "Trump threatens more Iran strikes if a deal is not signed 'fast'.",
-      "severity": "warning",
+      "text": "Six people reportedly killed in Israeli strikes on Lebanon.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 664
+      "latestSinceUpdate": 665
     }
   ],
   "sourceStatuses": [
