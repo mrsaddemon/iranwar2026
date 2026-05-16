@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 672,
+  "updateSequence": 673,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T21:27:42.770Z",
+  "lastSyncedAt": "2026-05-16T22:25:17.510Z",
   "warDay": 78,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Amid stalled talks, reports indicate the US and Israel are preparing for renewed strikes on Iran, while Iran threatens a Strait of Hormuz toll and regional hostilities persist despite a fragile Lebanon ceasefire.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A ceasefire in Lebanon was extended, but immediately followed by Israeli strikes and Hezbollah drone attacks, indicating extreme fragility and partial violation."
+    "durationDays": 14,
+    "summary": "A ceasefire in Lebanon has been extended, but its fragility is evident with recent Israeli strikes and Hezbollah drone activity."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.95
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 16",
-      "text": "Report indicates Israel and US are prepping to renew war as soon as next week.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaVhvbjZFQ2JoR0ViVlZKZTBFZ1Q5b0tkeS1CR3I4aEpqeUhJaVoyOVI1ZDc4T2laMWR4T09VbEdhUG9XVnZ6cHQwMTMyTjd6blZXTE85amdBSXVwdS13dzZ4NlVXRGNHSTgtMFFBdWNEd1VXcHc1cVM1Nm1MS3FfcjJ2ZjdHNURCcEhsSy1QUWxpQ0lDODZTRzVHTnpsTkxydlk3UnFQSGlhSEJ0dEk4bmx6NG_SAboBQVVfeXFMTlg4ZVdGZUZ4YWlTbVczdUd3clRSUnpOaEpYcjkzb1RXRV9NUTBNY0NvUWJYR2NWSDg0dFFGTng0ZnNFRFZYVEluVldhZDhEeVJGZGRMbTd5bXRKck9rWXJHSHBGcTgySV9nMVR2SXJaWDVXT0dkS3VGUUVNRk9lWWtvbGF0MzRxaXRVVXRQUHRLUUh0VzNvYU9faGUyaVpGc3dkV1JYODFsX1ZzUzM2QlkwQzJCYmNhQ2ZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 672
-    },
-    {
-      "date": "May 16",
-      "text": "Lebanon ceasefire extended, but Israel launches new attacks.",
+      "text": "Reports indicate the US and Israel are preparing for renewed strikes on Iran as early as next week.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 672
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBsOC1nY25mcWZIYUJlcWpmdFdBVUk1V09JNWVqZzFPZm9Xb2VFdnpLaHB0Z2J6YW1EZkJfVHB6T2dyR0R5MU9UNTh2REc3Q1JzLWkyX2J3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "ynetnews",
+      "latestSinceUpdate": 673
     },
     {
       "date": "May 16",
-      "text": "U.S. and Iran exchange new proposals to end war.",
+      "text": "Iran states it 'cannot trust the Americans at all' amidst ongoing war discussions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOTm9Rb2hHV2hwV2otQWw2QV84N2hIdzJUQ3lUYWdGT09oejk4clZNT0dnWEpjRXBBUGtSc0dheTIyb25HRVg4SzBfMTlpRnFPWFQ4NlY3WGFNY2dQMVBCN0tJc1FUd0N4ODF0LXltdVI1VjJFZkVwMFFsc1c1WUFtbXFUdVhwcDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 672
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 673
     },
     {
       "date": "May 16",
-      "text": "Israel strikes Lebanon as Iran states it 'cannot trust the Americans at all'.",
+      "text": "Iran announces plans to debut a toll mechanism for passage through the Strait of Hormuz soon.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 672
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 673
     },
     {
       "date": "May 16",
-      "text": "Iran reveals plan to charge fees to use Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 672
-    },
-    {
-      "date": "May 16",
-      "text": "IDF infantry platoon commander killed by Hezbollah drone in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOMVd0LWtBUlJRWm56TUhmN2NpNGlrMUdYWkh4YVNDel9OcmV2bHlMQzVkZUgxRGpHM3lTLTczeWw4UXJjc3FJaW8tLWQ3bHV4NEM2RVNkeEx5UW9aNDFsNWVQaGRBTWtQRDRnZWRROUdGMkpZVlZLWG1CQUt5emtSdDJUb2dqRDVpbkRoVG1zY0ZYejYyOEpONDV1UHFmN1VTOGZxWmNtc3NXdWgxbUg4SnBlSTNuQkRIUVJZRjRvVUVWckNOWUE?hl=en-US&gl=US&ceid=US:en",
+      "text": "Hezbollah claims to have launched a drone swarm targeting an IDF base in northern Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQV3RTT1l2RThhNTcwemRtN0lLNTN5ZVkyeFpKWmM0RHNNX1FCVlE3a1c3TVFiNXN0VlBrb2RscEw3UnZRSTZxdVhHY3ZJOTVGR01NcmdxdjZRMTZaMmN3RVJRSGpiUjdoRjZ2NENKbjJDWmJhX3EyeEZIeW55eEZiMC1QTUxWWktzUjZWU01aQ2Q1YXcwUGc2OVdMYnROYlc0RzBldlRCU3JLTTRFUDNqZTBR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 672
+      "latestSinceUpdate": 673
+    },
+    {
+      "date": "May 16",
+      "text": "The IDF launches strikes targeting Hezbollah, marking the first time since the Lebanon ceasefire was extended.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZHp0SzBIRnB0cDNqQ2dna05Mb1ZXX3JZZWhXUnp1ajRBLUxfR0ZrUFFlUGRRQ0h4OU9ITzFyVk94cjQxbkVZd1VVdGpaYWdvcFBSZXF4LXdwYzI2WFBNTkNNRmJ3TnpUd0lHU0VKQ2p2MjVNNnN3VEx5LU40bjhXQnVWOXpMNXE1enpkbUJDR3FKX1ZmcUo1aHJ0MVo4QlFidW93bGIzVS00SEswWG9jZ0kzV3lpd3Jf0gG-AUFVX3lxTE5KUFdIQm9TR2tnbUxkX2l2bXFyMVhHRE1RQXRnaXhfaXB1QmFVcmd3T3NoZl9YT2dTQkIzQWRlVWtldEZqYkZXbWU4Rk82WDBUQ2VxbUR6SEZ3dkk3SmRBVU5qRkZnSmo4QW1YSFoyTjdoSV9kNnljNmFFX0FfSFRoQUtfeGpKbGdTbjZMNEJlUHQ3bDRJNDVHNkNyOU5QY3hZRWhvMkV4eTF0LU55Rzd2RGhXN2gxMlBKZHE1dnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 673
+    },
+    {
+      "date": "May 16",
+      "text": "Lebanon reports six killed in an Israeli strike, coinciding with a US announcement of a ceasefire extension.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5RNEhNNzBzRkF4T2NFYUhVRWxzSk9FMzNiS1hiMHpFd2ZER21Gcm1WOTl6Y2xsUHEtaUZ1NGlvTlVpYWg1aHBEX1JnR2Q4QmVicURRT011MVNaZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 673
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
