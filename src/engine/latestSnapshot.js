@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 661,
+  "updateSequence": 662,
   "lastUpdated": "2026-05-16",
-  "lastSyncedAt": "2026-05-16T09:03:01.710Z",
+  "lastSyncedAt": "2026-05-16T10:23:14.935Z",
   "warDay": 78,
-  "summary": "The Iran war continues on Day 78 with ongoing Israeli attacks in Lebanon despite a fragile ceasefire, escalating regional tensions in the Strait of Hormuz, and reports of US military losses and internal issues.",
+  "summary": "The Iran-Israel conflict continues on day 78 with ongoing Israeli strikes in Lebanon despite a ceasefire extension, while the UAE is reported to have secretly attacked an Iranian oil refinery.",
   "lastNarrativeUpdate": "2026-05-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A ceasefire between Lebanon and Israel has been extended but remains fragile with ongoing Israeli attacks and fighting with Hezbollah."
+    "summary": "A ceasefire in Lebanon has been extended, but ongoing Israeli strikes indicate its fragile nature."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
@@ -42,17 +42,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 56,
+    "globalPressure": 65,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 16",
-      "text": "Lebanon 'ceasefire' extended, but Israel launches new attacks.",
+      "text": "Lebanon ceasefire extended, but Israel launches new attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 661
+      "latestSinceUpdate": 662
     },
     {
       "date": "May 16",
-      "text": "UAE secretly launched strikes on Iran during the war, attacking an oil refinery.",
+      "text": "Israel strikes southern Lebanon amid escalation, as UAE rejects Iran’s 'direct involvement' claims.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 662
+    },
+    {
+      "date": "May 16",
+      "text": "Report claims UAE secretly launched strikes on Iran during war, attacking an oil refinery.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 661
+      "latestSinceUpdate": 662
     },
     {
       "date": "May 16",
-      "text": "Tensions flare near the Strait of Hormuz as a ship is seized and another is sunk.",
+      "text": "Former President Trump threatens more Iran strikes if a deal is not signed 'fast'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 662
+    },
+    {
+      "date": "May 16",
+      "text": "Six people reportedly killed in Israeli strikes on Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVVhXNE8zMGQzQzVvNlhzSUhqNmdxcEFSVkt5a0xlR1JxV05iRzZYUXFEQVJQd0tTWVUwMDJIbDRsSVdjbU1oQ0JNRFNGX244LXc2VC15cXZvam9LRlZhaE1WNGFGRjFwZDhIZXI3UGZfR0FWMHRmUHQ1MnEzb21VanU0UjFTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 661
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 662
     },
     {
       "date": "May 16",
-      "text": "New round of Lebanon-Israel talks kicks off as fighting between Israel and Hezbollah continues.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUXR4ck44YUh6dUViaHVKYlBuNk54QTE3UkkyRGdZYi1JYXJKaS1XRGRha0FiTnpFTENFeFQ2VEM0TVRWQVplU2VIV1pIaGl1UVMzbGdTUFRXNGc5a3ZLTnRoWmNkY2UzQi1WOS1KeU14c1NhQVozdFhQM3dXdFFOcEFnZXd2ZjRqRUpncGctV3hyR21lcDUyVk5obHVQcUNjTmt0WFRpY0E5NXNpUmwtX19TeUpIYlBZcVNR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 661
-    },
-    {
-      "date": "May 16",
-      "text": "IDF announces a wave of strikes on Hezbollah in south Lebanon after warnings.",
+      "text": "IDF announces a wave of strikes on Hezbollah targets in south Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPV3V0YlFtNEhaR1YwNEpvOFNyWDBlWktNSHhuZjhDV2V2T1ZmODhsbG9IV3E0RXhJcWxHNDZjYS0tVTFYdk42Um4tTVREWXRBRDFaWnVVUFhyVzBucWUzc0Y4NW03TWN2eGJ4c2locTJzNzhfMlNGMGxqT0FzdVpyY0ItQlhkeDBiNXRKVlhHLS0zUXVRLVhWYThPNkVtcnNSYUhkVF9SdHlpYUw3ZUpjMmk0VHE0WTM1Wnl1bQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 661
-    },
-    {
-      "date": "May 16",
-      "text": "Pentagon quietly shut a legally required program to prevent civilian deaths by the military.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNbWFpNHM3YWVJVGxpZVFSOExzQzFGRlJZblh0bXQtc2RtYUJKX3l1M1YyRFpuTlRqeHU5S2pYTUNtU2VHZGwtckYyU084d0VMR1NjSFdYN0ZRaHNfWHJPTjRzT3Ztd0k0MktuSU1zazZXb25IWGROekgyVDdnNjI0V0xrbE1sUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 661
+      "latestSinceUpdate": 662
     }
   ],
   "sourceStatuses": [
