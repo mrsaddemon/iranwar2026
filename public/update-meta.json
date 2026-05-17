@@ -1,13 +1,13 @@
 {
-  "updateSequence": 682,
+  "updateSequence": 683,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T15:07:21.468Z",
+  "lastSyncedAt": "2026-05-17T16:08:06.152Z",
   "warDay": 79,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 45,
-    "summary": "No ceasefire is active; talks have stalled and preparations for renewed conflict are reported."
+    "summary": "A ceasefire in Lebanon was reportedly extended but immediately followed by new Israeli attacks, indicating a highly fragile or localized agreement."
   }
 }
