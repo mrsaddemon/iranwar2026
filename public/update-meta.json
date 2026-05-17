@@ -1,13 +1,13 @@
 {
-  "updateSequence": 677,
+  "updateSequence": 678,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T07:56:56.186Z",
+  "lastSyncedAt": "2026-05-17T09:56:30.148Z",
   "warDay": 79,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A recently extended ceasefire between Israel and Hezbollah appears fragile, with both sides engaging in strikes and retaliation."
+    "durationDays": 45,
+    "summary": "A 45-day ceasefire extension between Israel and Lebanon has been agreed upon, but immediate violations have occurred with Israeli strikes in south Lebanon."
   }
 }
