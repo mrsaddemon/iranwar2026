@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 678,
+  "updateSequence": 679,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T09:56:30.148Z",
+  "lastSyncedAt": "2026-05-17T12:00:00.000Z",
   "warDay": 79,
-  "summary": "Amid stalled talks with Iran, the US and Israel are reportedly preparing for renewed strikes, even as Israel and Lebanon extended a ceasefire which has seen immediate violations, raising concerns over regional escalation and potential oil disruptions.",
+  "summary": "As talks stall, the US and Israel are reportedly preparing to renew strikes against Iran, while Israel conducts strikes in Lebanon amid ongoing Hezbollah drone activity and Iran prepares a mechanism for Hormuz traffic.",
   "lastNarrativeUpdate": "2026-05-17",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 45,
-    "summary": "A 45-day ceasefire extension between Israel and Lebanon has been agreed upon, but immediate violations have occurred with Israeli strikes in south Lebanon."
+    "summary": "No active ceasefire is in effect, with reports indicating preparations for renewed conflict and ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.78,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "nuclearIndex": 12,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Israel and US reportedly preparing to renew war against Iran as soon as next week.",
-      "severity": "critical",
+      "text": "US and Israel are reportedly prepping to renew war as soon as next week.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaVhvbjZFQ2JoR0ViVlZKZTBFZ1Q5b0tkeS1CR3I4aEpqeUhJaVoyOVI1ZDc4T2laMWR4T09VbEdhUG9XVnZ6cHQwMTMyTjd6blZXTE85amdBSXVwdS13dzZ4NlVXRGNHSTgtMFFBdWNEd1VXcHc1cVM1Nm1MS3FfcjJ2ZjdHNURCcEhsSy1QUWxpQ0lDODZTRzVHTnpsTkxydlk3UnFQSGlhSEJ0dEk4bmx6NG_SAboBQVVfeXFMTlg4ZVdGZUZ4YWlTbVczdUd3clRSUnpOaEpYcjkzb1RXRV9NUTBNY0NvUWJYR2NWSDg0dFFGTng0ZnNFRFZYVEluVldhZDhEeVJGZGRMbTd5bXRKck9rWXJHSHBGcTgySV9nMVR2SXJaWDVXT0dkS3VGUUVNRk9lWWtvbGF0MzRxaXRVVXRQUHRLUUh0VzNvYU9faGUyaVpGc3dkV1JYODFsX1ZzUzM2QlkwQzJCYmNhQ2ZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 678
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 679
     },
     {
       "date": "May 17",
-      "text": "Iran announces plans to unveil a Hormuz toll mechanism soon.",
+      "text": "Iran states it will unveil a Hormuz toll mechanism soon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 678
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 679
     },
     {
       "date": "May 17",
-      "text": "Donald Trump is weighing whether to resume strikes on Iran after his visit to China.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi9wFBVV95cUxQcXR6TDFjT19qRjN5bHNiZkJ3VTkySXVZNEQtdnduNHVCbHJ0dkV1MXlXSTYzYnMzVHFsTlVKaXpNczJyT1JYbUF4T0t0eElIZFB2Nk9BY1Y4NEFGdTNqWUxlUTNxZUhCLUI0X0QwcjJ4VkJVclE3b00waTBjalJUejhaaXpXVnhFMlNWd2N6X0pPTEwzVjJ4RjlSU01MVG9CNTdnTjIzcWpYUFhPWHhWR1FaMklxbEpHaGV5VHpWcERHME0xRER6cUE3QVpTOUFSb3k4RmdXWkhUQndicE50Y1B6VlVFRjJCZHRBMWtHaHRnaUhwZllj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 678
-    },
-    {
-      "date": "May 17",
-      "text": "Israel strikes Lebanon, prompting Iran to state it 'cannot trust the Americans at all'.",
+      "text": "Israel attacks Lebanon, with reports of a drone hitting a UAE power plant.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 678
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 679
     },
     {
       "date": "May 17",
-      "text": "Israel strikes south Lebanon the day after a ceasefire extension was agreed.",
+      "text": "An IDF infantry platoon commander was killed by a Hezbollah drone in southern Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxQR19vMXdaZ2NHSjBjZmRPOEpoU0k3NmJwOXk1X0sxeU9zcnQ5SG9SY3k0OGRqTkU3RmhmSEhwNGtaOEVjUmp6ZUYwMGRFZEhEb09kUVZkSVRYeFZVUnJxN0o5Z2gtNGMxZEtqZW1yZ2Ewc3A3U2JCc1hSTzNKY3d3N0NoZ1dBd0pjaXVDZHlIZ3U1UkJHMTBDcDl0TnlQYWp2aEZMbmpXMEwyNmdUVGQxalBNOUFRVmZmV3FvNDZ0MVhRcTdhZTR2cFo3NlVsTVc4LTRndm5IN2NpNzBtZzl2QVFmd2dlZ9IB7AFBVV95cUxPdk5FVjl1LUFxTGp2bVFwTTFPcy1YVG4yak84NEEyYXI3Y2NFWm5pQXl2M09kdlhrbnRTU0d3bGVJSk04c1M3MVNqdmoxUU1kWTRCZFFHTGRxZVFJSE1xTmhUX084N0xVYU5EWml0OTEzd1dMT003SDZMR2hQVnZWMVFLdVhuTnZnS21sMkNsbFRraWVmcDFDTVlRTXYtczhpSDdmb2N0bDgxSFltRXBISEExZXNzUDd1T3hMOEpQcnQ3WWlRNUV3emo5WlpkQVNjVGhxblFRaUsxMnljVnd6VUZrQWNnZjF6YU8xag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 678
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOZ01NY2Fablk0c1YyOUw0c2dSd1BMOFB4M2ZaQUNES0Z3UUxDNE91M28wYWZlYWZHcDRBTi04c3ltMU1yU3ZjYVpIOGJtVngwSzlkSXVhWTcyanhGbWJfcC1UcG05by0tVnV6QW1fRDlhZVRoS1NLZlRXQmFUWm5tXzZaZ1ZfWFZrclJRSzRkWmlzUFZEVFVJX1hDVnNLQ2o1VE9BN0duSDdpbzjSAbABQVVfeXFMUE5oV0pOMG1DZmkzUHo5LVN5THB6ejV3S3JEQkFFLUhaZGRLQzhWYjVwTTlTQ0M1T1Jkd0FXZkplRGp6SEJaY3VwWTVoeGI1RDNVTm5JUWRVS0NZWFk3aUQwbi1CYlViLXAzT1k4VVZhak8zSUozbEtrdU15SGgzUUFwLVRrZFJoZl9jeFRpRTFLSUV1bmpWdm9MM1JFQVFRLTByZTRrbFRacjBIalNSYlU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 679
     },
     {
       "date": "May 17",
-      "text": "Hezbollah releases drone strike videos demonstrating evolving tactics against Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 678
+      "text": "The Pentagon quietly shut down a legally required program to prevent civilian deaths by the military.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNbWFpNHM3YWVJVGxpZVFSOExzQzFGRlJZblh0bXQtc2RtYUJKX3l1M1YyRFpuTlRqeHU5S2pYTUNtU2VHZGwtckYyU084d0VMR1NjSFdYN0ZRaHNfWHJPTjRzT3Ztd0k0MktuSU1zazZXb25IWGROekgyVDdnNjI0V0xrbE1sUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 679
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

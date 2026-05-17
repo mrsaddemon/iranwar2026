@@ -1,13 +1,13 @@
 {
-  "updateSequence": 678,
+  "updateSequence": 679,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T09:56:30.148Z",
+  "lastSyncedAt": "2026-05-17T12:00:00.000Z",
   "warDay": 79,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 45,
-    "summary": "A 45-day ceasefire extension between Israel and Lebanon has been agreed upon, but immediate violations have occurred with Israeli strikes in south Lebanon."
+    "summary": "No active ceasefire is in effect, with reports indicating preparations for renewed conflict and ongoing hostilities."
   }
 }
