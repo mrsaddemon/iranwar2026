@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 684,
+  "updateSequence": 685,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T17:18:33.445Z",
+  "lastSyncedAt": "2026-05-17T18:13:07.423Z",
   "warDay": 79,
-  "summary": "Tensions are high between the US and Iran, with President Trump issuing threats and Iran preparing a Hormuz mechanism, while a fragile 45-day ceasefire holds between Israel and Lebanon amidst ongoing strikes.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-17",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 45,
-    "summary": "A shaky 45-day truce between Israel and Lebanon has been extended, though Israeli strikes continue in the region."
+    "summary": "No broad ceasefire is in effect between the US/Israel and Iran, though an Israel-Lebanon ceasefire has been extended and restricts IDF operations."
   },
   "actorOverrides": {
     "usa": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 48,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
     "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "tradeImpact": 48,
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "President Trump issues 'clock is ticking' threat for Iran to make a deal with the US.",
+      "text": "Reports indicate Israel and the US are preparing to renew war against Iran as soon as next week.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 684
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaVhvbjZFQ2JoR0ViVlZKZTBFZ1Q5b0tkeS1CR3I4aEpqeUhJaVoyOVI1ZDc4T2laMWR4T09VbEdhUG9XVnZ6cHQwMTMyTjd6blZXTE85amdBSXVwdS13dzZ4NlVXRGNHSTgtMFFBdWNEd1VXcHc1cVM1Nm1MS3FfcjJ2ZjdHNURCcEhsSy1QUWxpQ0lDODZTRzVHTnpsTkxydlk3UnFQSGlhSEJ0dEk4bmx6NG_SAboBQVVfeXFMTlg4ZVdGZUZ4YWlTbVczdUd3clRSUnpOaEpYcjkzb1RXRV9NUTBNY0NvUWJYR2NWSDg0dFFGTng0ZnNFRFZYVEluVldhZDhEeVJGZGRMbTd5bXRKck9rWXJHSHBGcTgySV9nMVR2SXJaWDVXT0dkS3VGUUVNRk9lWWtvbGF0MzRxaXRVVXRQUHRLUUh0VzNvYU9faGUyaVpGc3dkV1JYODFsX1ZzUzM2QlkwQzJCYmNhQ2ZB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 685
     },
     {
       "date": "May 17",
-      "text": "Iran announces it will unveil a mechanism soon for traffic through the Strait of Hormuz.",
+      "text": "Iran warns of readiness for war and economic costs as talks with the US falter.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQdjBLdEpYeDlNN2lLT3pkMnBucDItRnJPWmJLYUxRbzlYNFZ2UXVocV9WRjdROXN5cHRQQlk5cHY4X09DSEtsVHRRX1hlME5LLVNZQWQ5M2dFWGJwM3Nqb0NrNG5xUmlQWUVzekRsTXNBM1YyMEdmX2p4ZzZ0aGFGU2FGR05PdFhJclo0NXktUUx0THVqM2lyY1FIZ2l2OGtmU1YwR1lXV3g4aXFRNmJN0gG0AUFVX3lxTE0wRnFDdTY5cFNWT0p1SDNrYzJXdHk0VmpNYjBFRUJJQVRvQW5LOGswWXNRY0JtbE1NWkpSOWt5LW9oTUlRdjN6TDlPMGhPa3lvQnZvM0taVDlwaFpyZmt4RWJTdzZaMEcyNkVfN3NqTUlad1RXU2FnU2t6MElndk8wVzlWUXhUR0NLbzU3UFJSbjE3TU9NQkpEVmJUZEVYS1NGZnVjdFptU2lQQmVtYVNvTDZkNg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 685
+    },
+    {
+      "date": "May 17",
+      "text": "Israel strikes Lebanon, leading Iran to state it cannot trust the Americans at all.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 685
+    },
+    {
+      "date": "May 17",
+      "text": "Lebanon reports six killed in an Israeli strike, despite a US announcement of a ceasefire extension.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5RNEhNNzBzRkF4T2NFYUhVRWxzSk9FMzNiS1hiMHpFd2ZER21Gcm1WOTl6Y2xsUHEtaUZ1NGlvTlVpYWg1aHBEX1JnR2Q4QmVicURRT011MVNaZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 685
+    },
+    {
+      "date": "May 17",
+      "text": "Tehran announces it will unveil a Strait of Hormuz toll mechanism soon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 684
+      "latestSinceUpdate": 685
     },
     {
       "date": "May 17",
-      "text": "Israel launches new attacks in Lebanon, with Lebanon reporting six killed in a strike.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 684
-    },
-    {
-      "date": "May 17",
-      "text": "A shaky truce between Israel and Lebanon is extended for 45 days, according to the US.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQZlJfNjR5ZVZSMHdpQU1Wb2RXYVl0MGpDcVVjUTczNFYyZFF6SUJYME52aHRpYnZpc0tNMVlYb25rLWJJWHVnbFRxdUZBeTV5elZKRFpBbHVmZWNIemk4RlgtMUEzU3ZCbEUyNXVrWmtTby1kRFVnWC03cmp5NUhZcjB4R19LUkJLQzNyTkl2aUJXSDlldHYybW9QX2c3MUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 684
-    },
-    {
-      "date": "May 17",
-      "text": "Reports indicate the US and Israel are preparing for resumptions of strikes against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOTHVYNHFHZ2tvdDBLVVplUmZMd210LUdmdVZoVklBR3ZtUVNqNWJ1dDJ6NEJ6bWRaWTNZRm1jZWZrQmg1ZkNwR0tjM21Ma3E1ZXQwby11ejhKN2RYOXUyalZxUERlVXJoWVVNUnFEa2VHa0t6NVBscGFVWmNuakQxdHNLdVlHcktNTTFoOFVnQzhCT1k5S3FybktkQ1otR05DbnFjZ05uejdvU3FITFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 683
-    },
-    {
-      "date": "May 17",
-      "text": "The Pentagon quietly shut down a legally required program to prevent civilian deaths by the military.",
+      "text": "Hezbollah releases drone strike videos showcasing evolving tactics against Israel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNbWFpNHM3YWVJVGxpZVFSOExzQzFGRlJZblh0bXQtc2RtYUJKX3l1M1YyRFpuTlRqeHU5S2pYTUNtU2VHZGwtckYyU084d0VMR1NjSFdYN0ZRaHNfWHJPTjRzT3Ztd0k0MktuSU1zazZXb25IWGROekgyVDdnNjI0V0xrbE1sUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 684
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 685
     }
   ],
   "sourceStatuses": [

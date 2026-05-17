@@ -1,13 +1,13 @@
 {
-  "updateSequence": 684,
+  "updateSequence": 685,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T17:18:33.445Z",
+  "lastSyncedAt": "2026-05-17T18:13:07.423Z",
   "warDay": 79,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 45,
-    "summary": "A shaky 45-day truce between Israel and Lebanon has been extended, though Israeli strikes continue in the region."
+    "summary": "No broad ceasefire is in effect between the US/Israel and Iran, though an Israel-Lebanon ceasefire has been extended and restricts IDF operations."
   }
 }
