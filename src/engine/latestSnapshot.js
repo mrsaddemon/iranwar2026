@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 689,
+  "updateSequence": 690,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T22:28:31.987Z",
+  "lastSyncedAt": "2026-05-17T23:32:39.940Z",
   "warDay": 79,
-  "summary": "Tensions remain high in the Middle East with ongoing Israel-Lebanon conflict despite a fragile ceasefire, while US President Trump issues warnings to Iran and addresses the Strait of Hormuz situation.",
+  "summary": "The conflict continues with a fragile ceasefire in Lebanon, while Trump issues an ultimatum to Iran amidst deepening BRICS divisions and threats to the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-17",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A ceasefire in Lebanon has been extended, but it remains fragile with reports of new Israeli attacks and casualties."
+    "durationDays": 1,
+    "summary": "A ceasefire in Lebanon has been extended but remains shaky, with continued Israeli attacks and Hezbollah activity reported."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -62,17 +62,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "May 17",
       "text": "Trump states 'clock is ticking' for Iran to make a deal with the US.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 689
     },
     {
       "date": "May 17",
-      "text": "Lebanon 'ceasefire' extended, but Israel launches new attacks and kills at least five in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQd1UwRnRjZURqLWFtbWNVS0hxaElkYV9nalpEQVVlSkVONG5VSTJDOWZzUnQtM0NCNmJNV1I4amFIbDczeFFMRnlNRnFPUXoxakpqX2lRX2c2dExQUjVGTnpvNVhrX1MtSGFycThZSVZ0b182c1Z1NElvc3BpNDhoTVRsX0xCbHdtd2lzNTc2Y0hpa2V6bUtCaW14QXdaWERMQnJaXzhGd0hiM1VmN0HSAbMBQVVfeXFMUENyVkM1cE5nNTg1bUZ6UE5KdWQ0VjQzcllBcGdwMDVrRk1kajBzX0x6S0hzWjEzRnliS1hDeUgtZGlsZXhIamJXRUxhaWplLWpsdXEyc0I5bnpsaDcwUGJldm1oYzVzdUk1TE50QVFNcmR4a1l1VlVPSTc2TERoWlVkeTBhRFBCd0lic1lLVjh2WGdWUkQxaFoxekZWZjcwM3JwbE9jTkRVUXRZbTZKWHhKVnM?hl=en-US&gl=US&ceid=US:en",
+      "text": "Lebanon 'ceasefire' extended, but Israel launches new attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 689
+      "latestSinceUpdate": 690
+    },
+    {
+      "date": "May 17",
+      "text": "BRICS talks conclude without a joint statement due to divisions over the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPRGZvdDM5cFVKbWRNVmJpQmQ3bEVTbmxaVXI0Rzczb0VXTzV0clZxMUwwRlBhTDZ5THl6WmJhOV9ILXNNRkV0TmZkVXQzWTFnMkUtYXlGTlZvV2NXRFZWZ3I4cXBES2ZWNllvMmt0QWNqUkNONm5rdzZUMXpqZVJ6OG5EajlnZmNnTW1BSlh0V3drOGltdVNjN3JZcHVpS3FlMUpmc3lhal9EZVFfTnlGOExBeVHSAboBQVVfeXFMT0pPb3BfYmhsUmlXSmd2WVhHMWxhZXpWSlpGMmJiMU5CcXdHMkJETkVaU0p0S00xVERZQ3NlVFlpNWlOUFZXTE5KenNHRHp2UmdqeUZTcWprRzZiWTRWMGtKQmtJR21Ud1VKUnNLVXV6T1llOU4yZ012cFUyM2pSb3llMVF5aGpHdk9hQ2hmTmozMTBVMTd3dGotSFBSb2I3UEYtdmpFTzA5R3F5aHYtWVlXZ1NLWHpLbVZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 690
     },
     {
       "date": "May 17",
@@ -84,33 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 17",
-      "text": "Trump to pause US effort to guide ships through Strait of Hormuz while blockade remains.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 689
-    },
-    {
-      "date": "May 17",
-      "text": "UAE reports a drone strike on a nuclear facility amidst regional tensions.",
+      "text": "UAE reports a drone strike on a nuclear facility.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 689
+      "latestSinceUpdate": 690
     },
     {
       "date": "May 17",
-      "text": "Hezbollah drone strike videos show evolving tactics against Israel.",
+      "text": "Hezbollah drone strike videos demonstrate evolving tactics against Israel.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 689
+      "latestSinceUpdate": 690
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
