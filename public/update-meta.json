@@ -1,13 +1,13 @@
 {
-  "updateSequence": 685,
+  "updateSequence": 686,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T18:13:07.423Z",
+  "lastSyncedAt": "2026-05-17T19:39:14.635Z",
   "warDay": 79,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
-    "durationDays": 45,
-    "summary": "No broad ceasefire is in effect between the US/Israel and Iran, though an Israel-Lebanon ceasefire has been extended and restricts IDF operations."
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon has been extended by the US, but it remains shaky with reports of Israeli attacks and casualties."
   }
 }

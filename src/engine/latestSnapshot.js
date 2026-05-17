@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 685,
+  "updateSequence": 686,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T18:13:07.423Z",
+  "lastSyncedAt": "2026-05-17T19:39:14.635Z",
   "warDay": 79,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Tensions between the US and Iran are escalating with warnings from Trump and Iranian moves regarding the Strait of Hormuz, while a fragile ceasefire in Lebanon sees continued Israeli attacks and Hezbollah activity.",
   "lastNarrativeUpdate": "2026-05-17",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
-    "durationDays": 45,
-    "summary": "No broad ceasefire is in effect between the US/Israel and Iran, though an Israel-Lebanon ceasefire has been extended and restricts IDF operations."
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon has been extended by the US, but it remains shaky with reports of Israeli attacks and casualties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
-    "sanctionsPressure": 49,
-    "globalPressure": 55,
+    "nuclearIndex": 68,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Reports indicate Israel and the US are preparing to renew war against Iran as soon as next week.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNaVhvbjZFQ2JoR0ViVlZKZTBFZ1Q5b0tkeS1CR3I4aEpqeUhJaVoyOVI1ZDc4T2laMWR4T09VbEdhUG9XVnZ6cHQwMTMyTjd6blZXTE85amdBSXVwdS13dzZ4NlVXRGNHSTgtMFFBdWNEd1VXcHc1cVM1Nm1MS3FfcjJ2ZjdHNURCcEhsSy1QUWxpQ0lDODZTRzVHTnpsTkxydlk3UnFQSGlhSEJ0dEk4bmx6NG_SAboBQVVfeXFMTlg4ZVdGZUZ4YWlTbVczdUd3clRSUnpOaEpYcjkzb1RXRV9NUTBNY0NvUWJYR2NWSDg0dFFGTng0ZnNFRFZYVEluVldhZDhEeVJGZGRMbTd5bXRKck9rWXJHSHBGcTgySV9nMVR2SXJaWDVXT0dkS3VGUUVNRk9lWWtvbGF0MzRxaXRVVXRQUHRLUUh0VzNvYU9faGUyaVpGc3dkV1JYODFsX1ZzUzM2QlkwQzJCYmNhQ2ZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 685
-    },
-    {
-      "date": "May 17",
-      "text": "Iran warns of readiness for war and economic costs as talks with the US falter.",
+      "text": "Trump warns Iran that 'clock is ticking' for a deal with the US amid Strait of Hormuz tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQdjBLdEpYeDlNN2lLT3pkMnBucDItRnJPWmJLYUxRbzlYNFZ2UXVocV9WRjdROXN5cHRQQlk5cHY4X09DSEtsVHRRX1hlME5LLVNZQWQ5M2dFWGJwM3Nqb0NrNG5xUmlQWUVzekRsTXNBM1YyMEdmX2p4ZzZ0aGFGU2FGR05PdFhJclo0NXktUUx0THVqM2lyY1FIZ2l2OGtmU1YwR1lXV3g4aXFRNmJN0gG0AUFVX3lxTE0wRnFDdTY5cFNWT0p1SDNrYzJXdHk0VmpNYjBFRUJJQVRvQW5LOGswWXNRY0JtbE1NWkpSOWt5LW9oTUlRdjN6TDlPMGhPa3lvQnZvM0taVDlwaFpyZmt4RWJTdzZaMEcyNkVfN3NqTUlad1RXU2FnU2t6MElndk8wVzlWUXhUR0NLbzU3UFJSbjE3TU9NQkpEVmJUZEVYS1NGZnVjdFptU2lQQmVtYVNvTDZkNg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 685
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBwUGxJTXNmZEpIaWlsMDgxTTFWMVZYVEd5eUIwendwSjBTOFpXekhhVFNPd2pXdDBoS3BoXzlNMHQyVEtPc2RULWpnTGtKaEMwRkc4ZWpR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 686
     },
     {
       "date": "May 17",
-      "text": "Israel strikes Lebanon, leading Iran to state it cannot trust the Americans at all.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 685
-    },
-    {
-      "date": "May 17",
-      "text": "Lebanon reports six killed in an Israeli strike, despite a US announcement of a ceasefire extension.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5RNEhNNzBzRkF4T2NFYUhVRWxzSk9FMzNiS1hiMHpFd2ZER21Gcm1WOTl6Y2xsUHEtaUZ1NGlvTlVpYWg1aHBEX1JnR2Q4QmVicURRT011MVNaZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 685
-    },
-    {
-      "date": "May 17",
-      "text": "Tehran announces it will unveil a Strait of Hormuz toll mechanism soon.",
+      "text": "Iran announces plans to unveil a mechanism for tolls in the Strait of Hormuz soon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 685
+      "latestSinceUpdate": 686
     },
     {
       "date": "May 17",
-      "text": "Hezbollah releases drone strike videos showcasing evolving tactics against Israel.",
+      "text": "A Lebanon 'ceasefire' is extended by the US, but Israel launches new attacks, with six killed in an Israeli strike.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 686
+    },
+    {
+      "date": "May 17",
+      "text": "Reports indicate the US and Israel are preparing for resumptions of strikes against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOTHVYNHFHZ2tvdDBLVVplUmZMd210LUdmdVZoVklBR3ZtUVNqNWJ1dDJ6NEJ6bWRaWTNZRm1jZWZrQmg1ZkNwR0tjM21Ma3E1ZXQwby11ejhKN2RYOXUyalZxUERlVXJoWVVNUnFEa2VHa0t6NVBscGFVWmNuakQxdHNLdVlHcktNTTFoOFVnQzhCT1k5S3FybktkQ1otR05DbnFjZ05uejdvU3FITFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "i24NEWS",
+      "latestSinceUpdate": 686
+    },
+    {
+      "date": "May 17",
+      "text": "UAE reports a drone strike on a nuclear facility, coinciding with Trump's call to Netanyahu.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 686
+    },
+    {
+      "date": "May 17",
+      "text": "Hezbollah drone strike videos show evolving tactics against Israel, with an apparent drone intercepted over southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 685
+      "latestSinceUpdate": 686
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
