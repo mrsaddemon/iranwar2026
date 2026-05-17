@@ -1,13 +1,13 @@
 {
-  "updateSequence": 683,
+  "updateSequence": 684,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T16:08:06.152Z",
+  "lastSyncedAt": "2026-05-17T17:18:33.445Z",
   "warDay": 79,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 45,
-    "summary": "A ceasefire in Lebanon was reportedly extended but immediately followed by new Israeli attacks, indicating a highly fragile or localized agreement."
+    "summary": "A shaky 45-day truce between Israel and Lebanon has been extended, though Israeli strikes continue in the region."
   }
 }
