@@ -1,13 +1,13 @@
 {
-  "updateSequence": 686,
+  "updateSequence": 687,
   "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T19:39:14.635Z",
+  "lastSyncedAt": "2026-05-17T20:34:44.944Z",
   "warDay": 79,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire in Lebanon has been extended by the US, but it remains shaky with reports of Israeli attacks and casualties."
+    "summary": "A ceasefire in Lebanon has been extended but remains shaky, with Israel launching new attacks against Hezbollah targets."
   }
 }
