@@ -1,13 +1,13 @@
 {
-  "updateSequence": 698,
+  "updateSequence": 699,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T21:21:37.788Z",
+  "lastSyncedAt": "2026-05-18T22:16:26.358Z",
   "warDay": 80,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Ceasefires in both the Iran-US and Israel-Hezbollah conflicts are active but highly fragile, with significant violations reported in Lebanon."
+    "summary": "The extended ceasefire between Israel and Hezbollah in Lebanon has effectively collapsed due to continued strikes and stalled talks."
   }
 }

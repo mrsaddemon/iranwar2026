@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 698,
+  "updateSequence": 699,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T21:21:37.788Z",
+  "lastSyncedAt": "2026-05-18T22:16:26.358Z",
   "warDay": 80,
-  "summary": "The Iran war continues with President Trump issuing warnings and halting strikes, while new fronts emerge and Iran introduces measures for the Strait of Hormuz; simultaneously, intense fighting persists between Israel and Hezbollah in Lebanon despite ceasefire extensions.",
+  "summary": "Tensions remain high between the US and Iran over the Strait of Hormuz, with US military action being considered and then cancelled, while Israel and Hezbollah continue to clash in Lebanon despite a ceasefire extension.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Ceasefires in both the Iran-US and Israel-Hezbollah conflicts are active but highly fragile, with significant violations reported in Lebanon."
+    "summary": "The extended ceasefire between Israel and Hezbollah in Lebanon has effectively collapsed due to continued strikes and stalled talks."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Iran war special report published.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 698
-    },
-    {
-      "date": "May 17",
-      "text": "US attack on Iran reportedly halted at Gulf states' request.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNNIBwgFBVV95cUxPcWRGdWhXT2FIMENnaGR6Q1JLeV9qc3NFY1hkcmNYNXBTLXl4eFQ0aUhsVEFrOVFSV2tUd2lFRDNGUFZTSlQxWXd1WFVnVFhnV0FRYjdXVTNtQVdpQk1fdl9FOHowYktWUXlsOXVYbkVxNFRDQ2hHUFZDblNqSnQtRmdlMmF6X1FfU19VcHowYzcwaThhUktzNnlieHljWTUtS3ZPMFRrRDNsa2dFQmtvMDdaeGEzOUFUcUg3enViZmJfdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 698
-    },
-    {
-      "date": "May 17",
-      "text": "Reports indicate strain on US-European alliance due to Iran war.",
+      "text": "Special report highlights strain on US-European strategic alliance due to Iran war.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNd0FBWUVpLTU3SUlxSkhWNDRjanUxNXgxVHNlMVZMN1pWcTRLNWxwWGZDTDJTRWYwX1QycmctN2R2ZjhIZjZRbU80UHJ5bWZPNTdYc3JPS3ZwNTRKMXE5ZTFSU3hNZzFTdGJwcE5wS19fT3lRclNmSTVvOVNtM2FDSEVHOXhMZWV5akF2NEVha3huUExGcWVLOG96QlRwYWs?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Conversation",
-      "latestSinceUpdate": 698
+      "latestSinceUpdate": 699
     },
     {
       "date": "May 17",
-      "text": "President Trump warns Iran that 'clock is ticking' for a deal.",
+      "text": "Trump states attack on Iran was held off upon Gulf states’ request.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOdEVHNTlkcFBDNFNkTzNkX2VNcmdpX05KTEgxTzlCUnM4Z3F6MHZFeThDTlpUMkZZNUs0YTcxdXd3STl6MmdNX3FsU0FXSWZrRVFuaW1zTXhrenVtSXB6S0E1Q3E0RGlpZjJBZ3pEOE1iRGRCNTNvVU16UnQ3alpWZEk4NlJpZnc0YS1MZ0ZnU1JYU19GRGdRZXdjOEtLNmFEM0s0SjExQk1kUDBTbEFrYTdPb1BPZ3VFN0hEclpabHhrNGVwLUZEelRLMWVsVzBI0gHCAUFVX3lxTE9xZEZ1aFdPYUgwQ2doZHpDUkt5X2pzc0VjWGRyY1g1cFMteXh4VDRpSGxUQWs5UVJXa1R3aUVEM0ZQVlNKVDFZd3VYVWdUWGdXQVFiN1dVM21BV2lCTV92X0U4ejBiS1ZReWw5dVhuRXE0VENDaEdQVkNuU2pKdC1GZ2UyYXpfUV9TX1VwejBjNzBpOGFSS3M2eWJ4eWNZNS1Ldk8wVGtEM2xrZ0VCa28wN1p4YTM5QVRxSDd6dWJmYl93?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 699
+    },
+    {
+      "date": "May 17",
+      "text": "Trump warns Tehran ‘clock is ticking’ for a deal with US.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 698
+      "latestSinceUpdate": 699
     },
     {
       "date": "May 17",
-      "text": "UAE launches retaliatory strikes, opening new front in conflict.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 698
-    },
-    {
-      "date": "May 17",
-      "text": "Iran announces upcoming unveiling of Hormuz toll mechanism.",
+      "text": "Iran announces new body to manage Strait of Hormuz as peace talks stall.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPSGtTaUFkNUEzRjVBSVVkbElFWnRqSGtDLWIxemNZd3doUXA1VEc4bXJ2aFdodkN0UWl6dzVfS3RRRTBsTWl3RGtPc2dCTVZtTFp2aHRRLUNhWlBQZlhDSFo3RzRsWV9XRmVyVTRNa2gtNVpGT3FpN3ItR3JyRGlwOVV6aXhsdWVQY2cxMVg1aHVvXzhiOU9raV9OVXJjMWxmNDAxVFB3SnJqOUYzWUhXb0FCTHAzamJndHVsaQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 699
+    },
+    {
+      "date": "May 17",
+      "text": "Iran starts Bitcoin-backed shipping insurance for Hormuz Strait.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 698
+      "latestSinceUpdate": 699
+    },
+    {
+      "date": "May 17",
+      "text": "Israel attacks Lebanon; drone hits UAE power plant.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOaFBYYi1xZGg2dUdYTWJVa2RFdjZqTFRqUUdjYW1TeVA1VHM0WGoxZUdmZV9IVExWUm80dlBkUTlCOTAwQlNVYUk0YV81ZW11RzRKVTF6TmlYM1FtZFR1ZFc3RUFYUlg4aUJXMDc0UDNibkZwXzNmdHZmcG1FTnNZRU1LalZ3UktOSGpPTnpYQWNoWC0zbVdTVkg0aXBEdkRKUFd4TWtndjZhMXQ1dmpLSHVsMlZJVTBObHgxZ1YxN2plNXREQUtMcFd0dERudUd60gHCAUFVX3lxTFBBN2FYZU9GMm44dm1FM0dNeTVSWWliSkFMVFZZR1BYZV9DdTdvYkJaNnk0NGhfWXUtWldZR2xnS0VqOGVCMEl6SWpKNTEwOGJYUFFrU3VTUlpKUkluT2xuNWgtWXRfMElvRXZNUE1oLTVrSEJpTVBZSkdPa29xZklBX1o4R2x5U0ZTVHl1YTNXLUJzWFZiLWRoOG1UZkhJNUozWjB6cG0ydGVfUEE1MUJXR1NjcVAtd0lGcWp6MkFnRVJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 699
     }
   ],
   "sourceStatuses": [
