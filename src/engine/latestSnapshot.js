@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 694,
+  "updateSequence": 695,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T12:42:42.133Z",
+  "lastSyncedAt": "2026-05-18T16:14:07.806Z",
   "warDay": 80,
-  "summary": "Tensions remain high on War Day 80 as a shaky ceasefire continues amidst US warnings to Iran, regional attacks involving Israel, Lebanon, and the UAE, and Iran's threats regarding the Strait of Hormuz.",
+  "summary": "The Iran-Israel conflict continues with a fragile ceasefire, ongoing diplomatic talks via Pakistan, and a rising death toll in Lebanon, while the US warns Iran and new fronts emerge.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "A shaky ceasefire continues, but reports indicate violations including Israeli strikes in Lebanon."
+    "summary": "A shaky ceasefire is reported to be in effect, but US warnings and ongoing hostilities suggest its fragility."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.7,
         "aggression": 0.8
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.85
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 68
+      },
+      "behavior": {
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Iran Update Special Report published.",
+      "text": "Iran Update Special Report published, detailing ongoing conflict dynamics.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOd25kUk9sdVF4cGNtVDlUWW9XQ0tFQU90cmJPSkJ1QWRMYmZtRWs4TW44a29PV3JkRWRfSG1XUVpJdm9wT2E1QlNPM1U1NlF6UENWVEJSVl90M3VUTDZWQ3B1N0xKdmw2Mkc2U2xBTjNVSDN3dG82SDlZQjhPMmFQOWtIbnBfa2J3Nlp3MktwdFJYNjA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 693
+      "latestSinceUpdate": 695
     },
     {
-      "date": "May 18",
-      "text": "Tehran states talks are ongoing through Pakistan.",
+      "date": "Recent",
+      "text": "Talks between Iran and other parties are ongoing via Pakistan.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNNIBwgFBVV95cUxPcWRGdWhXT2FIMENnaGR6Q1JLeV9qc3NFY1hkcmNYNXBTLXl4eFQ0aUhsVEFrOVFSV2tUd2lFRDNGUFZTSlQxWXd1WFVnVFhnV0FRYjdXVTNtQVdpQk1fdl9FOHowYktWUXlsOXVYbkVxNFRDQ2hHUFZDblNqSnQtRmdlMmF6X1FfU19VcHowYzcwaThhUktzNnlieHljWTUtS3ZPMFRrRDNsa2dFQmtvMDdaeGEzOUFUcUg3enViZmJfdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 694
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 695
     },
     {
-      "date": "May 18",
-      "text": "Trump warns Tehran that 'clock is ticking' for a deal with the US.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 694
+      "date": "Recent",
+      "text": "Lebanon death toll from Israeli strikes since early March tops 3,000, reaching 3,020.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi2gFBVV95cUxPVmVNcFk2TFhnTk9aSkdaRmY4UUlINEo2V0p6cnAzNzZwMEFWTElUNHdyZlI2em5iV0VvX1R0NnptUE1TX1U1ZGIxYmhuVzJqM0psYkZtQi1YLUptQWItalJFX29OQmp5Yk5qcWRfU2VCOGRMbktpY29LTjI4WnBiRU1YenpkeWJvVFBzRXdRZGlUNXNhTzVhZWZ5UURYMURILUg0Mk1fX2VLYmdJX2p6YVNtNHNGVDRUc0VFNHlXcll4SW1lTDZqVm1YNFo1RWw3RHhLdXV3aHhZUdIB3wFBVV95cUxNNno5V3gwenZQbGlNcUZ0MkpldVdjeG95YkVWemE5UjdlVUdFampuLVNpT1ZEUG01V3hSY19yUjFrUmczLVI4VEtqS21YdUhHTW9fM1QxS0NEVVZCT2JubXhPa0RjdFdsYnR0VVNORWNMeDZzYkhTVmFTZ1FuanFCTEpPeFNFRm1LdWwtNmkyenBfZUpEdUxTQklXVzkwUlJxLThCMVpCSGVkUmtPaW5Ja1N1b1AxOHZfM2JKbXNScFRtN0Z3SFg5bkcxWXF5XzBNN3M1UkNaSnpKdi1wTXIw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 695
     },
     {
-      "date": "May 18",
-      "text": "Tehran declares readiness to confront attacks.",
+      "date": "Recent",
+      "text": "A new front has emerged in the conflict as the UAE strikes back.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 694
+      "latestSinceUpdate": 695
     },
     {
-      "date": "May 18",
-      "text": "Tehran announces it will unveil a Hormuz toll mechanism soon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 694
+      "date": "Recent",
+      "text": "Iran has started offering Bitcoin-backed shipping insurance for vessels in the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 695
     },
     {
-      "date": "May 18",
-      "text": "UAE strikes back as a new front emerges in the conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNNy1heEVEenJUSktWWFE0R0xpRzJ1dVR3Nm8yRkVrenNsSWdGX1FlRGs2VGdaNlg2aXQ1Xy12aDVFUDRST3BWNnJVLUk0VllNZEFqRlBWV2wzRXZHMFNrdFBRanRTWWl1QzBsNDNXbVZKQ19pWnhXaElYdzJzMlpsckl6cGY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Australian Broadcasting Corporation",
-      "latestSinceUpdate": 694
+      "date": "Recent",
+      "text": "Hormuz tanker traffic has edged higher after a wartime low.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNSFduQ1BYZzhBSDlVVTFzYXdpMkdmaUVCemdzNXotdlg1MDVpZzdmcGM3SndRdlFwNWZzRmctS0xVZWRoMlZNMEtyQWE2SlczY0IwWnZ5OVFidzVtdjNRT1ExTWhiWERvbFVsOEJZYlJoUzdmclhBSThBU1h4VFBDaXdaMFNqSGlwVy1rd3Qxd3R4Q0dFaWh1LU12TXBKS0sy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 695
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
