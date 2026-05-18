@@ -1,13 +1,13 @@
 {
-  "updateSequence": 693,
+  "updateSequence": 694,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T09:01:10.776Z",
+  "lastSyncedAt": "2026-05-18T12:42:42.133Z",
   "warDay": 80,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A shaky ceasefire is reported to be active and extended, but has seen violations and renewed military actions."
+    "summary": "A shaky ceasefire continues, but reports indicate violations including Israeli strikes in Lebanon."
   }
 }

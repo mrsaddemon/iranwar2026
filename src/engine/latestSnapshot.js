@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 693,
+  "updateSequence": 694,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T09:01:10.776Z",
+  "lastSyncedAt": "2026-05-18T12:42:42.133Z",
   "warDay": 80,
-  "summary": "The Iran-Israel conflict continues with a fragile ceasefire, marked by ongoing military actions by Israel and Hezbollah, US warnings to Iran, and new fronts emerging with UAE involvement, raising concerns over regional stability and oil transit in the Strait of Hormuz.",
+  "summary": "Tensions remain high on War Day 80 as a shaky ceasefire continues amidst US warnings to Iran, regional attacks involving Israel, Lebanon, and the UAE, and Iran's threats regarding the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A shaky ceasefire is reported to be active and extended, but has seen violations and renewed military actions."
+    "summary": "A shaky ceasefire continues, but reports indicate violations including Israeli strikes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 65,
+    "tradeImpact": 47,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 61,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -67,44 +67,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 693
     },
     {
-      "date": "May 17",
+      "date": "May 18",
       "text": "Tehran states talks are ongoing through Pakistan.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNNIBwgFBVV95cUxPcWRGdWhXT2FIMENnaGR6Q1JLeV9qc3NFY1hkcmNYNXBTLXl4eFQ0aUhsVEFrOVFSV2tUd2lFRDNGUFZTSlQxWXd1WFVnVFhnV0FRYjdXVTNtQVdpQk1fdl9FOHowYktWUXlsOXVYbkVxNFRDQ2hHUFZDblNqSnQtRmdlMmF6X1FfU19VcHowYzcwaThhUktzNnlieHljWTUtS3ZPMFRrRDNsa2dFQmtvMDdaeGEzOUFUcUg3enViZmJfdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 693
+      "latestSinceUpdate": 694
     },
     {
-      "date": "May 17",
+      "date": "May 18",
       "text": "Trump warns Tehran that 'clock is ticking' for a deal with the US.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 693
+      "latestSinceUpdate": 694
     },
     {
-      "date": "May 17",
-      "text": "Iran warns of readiness for war and economic costs as US talks falter.",
+      "date": "May 18",
+      "text": "Tehran declares readiness to confront attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQdjBLdEpYeDlNN2lLT3pkMnBucDItRnJPWmJLYUxRbzlYNFZ2UXVocV9WRjdROXN5cHRQQlk5cHY4X09DSEtsVHRRX1hlME5LLVNZQWQ5M2dFWGJwM3Nqb0NrNG5xUmlQWUVzekRsTXNBM1YyMEdmX2p4ZzZ0aGFGU2FGR05PdFhJclo0NXktUUx0THVqM2lyY1FIZ2l2OGtmU1YwR1lXV3g4aXFRNmJN0gG0AUFVX3lxTE0wRnFDdTY5cFNWT0p1SDNrYzJXdHk0VmpNYjBFRUJJQVRvQW5LOGswWXNRY0JtbE1NWkpSOWt5LW9oTUlRdjN6TDlPMGhPa3lvQnZvM0taVDlwaFpyZmt4RWJTdzZaMEcyNkVfN3NqTUlad1RXU2FnU2t6MElndk8wVzlWUXhUR0NLbzU3UFJSbjE3TU9NQkpEVmJUZEVYS1NGZnVjdFptU2lQQmVtYVNvTDZkNg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 693
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 694
     },
     {
-      "date": "May 17",
-      "text": "Iran announces it will unveil a Hormuz toll mechanism soon.",
+      "date": "May 18",
+      "text": "Tehran announces it will unveil a Hormuz toll mechanism soon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 693
+      "latestSinceUpdate": 694
     },
     {
-      "date": "May 17",
-      "text": "A new front emerges as UAE strikes back.",
+      "date": "May 18",
+      "text": "UAE strikes back as a new front emerges in the conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNNy1heEVEenJUSktWWFE0R0xpRzJ1dVR3Nm8yRkVrenNsSWdGX1FlRGs2VGdaNlg2aXQ1Xy12aDVFUDRST3BWNnJVLUk0VllNZEFqRlBWV2wzRXZHMFNrdFBRanRTWWl1QzBsNDNXbVZKQ19pWnhXaElYdzJzMlpsckl6cGY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Australian Broadcasting Corporation",
-      "latestSinceUpdate": 693
+      "latestSinceUpdate": 694
     }
   ],
   "sourceStatuses": [
