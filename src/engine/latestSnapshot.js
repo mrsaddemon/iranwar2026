@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 699,
+  "updateSequence": 700,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T22:16:26.358Z",
+  "lastSyncedAt": "2026-05-18T23:31:49.434Z",
   "warDay": 80,
-  "summary": "Tensions remain high between the US and Iran over the Strait of Hormuz, with US military action being considered and then cancelled, while Israel and Hezbollah continue to clash in Lebanon despite a ceasefire extension.",
+  "summary": "Tensions remain high between the US and Iran, with President Trump warning of potential strikes while also engaging in negotiations, as a fragile ceasefire in the Israel-Lebanon conflict sees continued violations and Iran explores new mechanisms for Hormuz Strait shipping.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 5,
-    "summary": "The extended ceasefire between Israel and Hezbollah in Lebanon has effectively collapsed due to continued strikes and stalled talks."
+    "confidence": 0.93,
+    "durationDays": 10,
+    "summary": "A ceasefire between Israel and Hezbollah is active but remains fragile, with reports of continued violations and significant casualties in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Special report highlights strain on US-European strategic alliance due to Iran war.",
+      "text": "Trump states planned attack on Iran was held off upon Gulf states’ request and ongoing negotiations.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNd0FBWUVpLTU3SUlxSkhWNDRjanUxNXgxVHNlMVZMN1pWcTRLNWxwWGZDTDJTRWYwX1QycmctN2R2ZjhIZjZRbU80UHJ5bWZPNTdYc3JPS3ZwNTRKMXE5ZTFSU3hNZzFTdGJwcE5wS19fT3lRclNmSTVvOVNtM2FDSEVHOXhMZWV5akF2NEVha3huUExGcWVLOG96QlRwYWs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Conversation",
-      "latestSinceUpdate": 699
-    },
-    {
-      "date": "May 17",
-      "text": "Trump states attack on Iran was held off upon Gulf states’ request.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOdEVHNTlkcFBDNFNkTzNkX2VNcmdpX05KTEgxTzlCUnM4Z3F6MHZFeThDTlpUMkZZNUs0YTcxdXd3STl6MmdNX3FsU0FXSWZrRVFuaW1zTXhrenVtSXB6S0E1Q3E0RGlpZjJBZ3pEOE1iRGRCNTNvVU16UnQ3alpWZEk4NlJpZnc0YS1MZ0ZnU1JYU19GRGdRZXdjOEtLNmFEM0s0SjExQk1kUDBTbEFrYTdPb1BPZ3VFN0hEclpabHhrNGVwLUZEelRLMWVsVzBI0gHCAUFVX3lxTE9xZEZ1aFdPYUgwQ2doZHpDUkt5X2pzc0VjWGRyY1g1cFMteXh4VDRpSGxUQWs5UVJXa1R3aUVEM0ZQVlNKVDFZd3VYVWdUWGdXQVFiN1dVM21BV2lCTV92X0U4ejBiS1ZReWw5dVhuRXE0VENDaEdQVkNuU2pKdC1GZ2UyYXpfUV9TX1VwejBjNzBpOGFSS3M2eWJ4eWNZNS1Ldk8wVGtEM2xrZ0VCa28wN1p4YTM5QVRxSDd6dWJmYl93?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 699
+      "latestSinceUpdate": 700
     },
     {
-      "date": "May 17",
-      "text": "Trump warns Tehran ‘clock is ticking’ for a deal with US.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "May 18",
+      "text": "Lebanon death toll reaches 3,000 in fighting between Israel and Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOOU9GU2l6RElWa0RGUGNwZnk2SDZQRTM0bnFMZFVLS3FkakxxZ0ROZXVDYzRscEpPNEtwaGhJSUI3cko4LTZ1cTVseTZmbW90M1MtLTFRZXBNbFM1bHE3a3plcVVrZVNFYnpvX19hQU85U0RaRkZXTHRycDZfNUZxU1ZuRC1Ua2JGamQ0dVBmSkFMSTRBS1BEUmJ1cVZvcENJeVduc3J1NXVkUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 700
+    },
+    {
+      "date": "May 18",
+      "text": "Israel attacks Lebanon, killing at least five, despite an extended ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQd1UwRnRjZURqLWFtbWNVS0hxaElkYV9nalpEQVVlSkVONG5VSTJDOWZzUnQtM0NCNmJNV1I4amFIbDczeFFMRnlNRnFPUXoxakpqX2lRX2c2dExQUjVGTnpvNVhrX1MtSGFycThZSVZ0b182c1Z1NElvc3BpNDhoTVRsX0xCbHdtd2lzNTc2Y0hpa2V6bUtCaW14QXdaWERMQnJaXzhGd0hiM1VmN0HSAbMBQVVfeXFMUENyVkM1cE5nNTg1bUZ6UE5KdWQ0VjQzcllBcGdwMDVrRk1kajBzX0x6S0hzWjEzRnliS1hDeUgtZGlsZXhIamJXRUxhaWplLWpsdXEyc0I5bnpsaDcwUGJldm1oYzVzdUk1TE50QVFNcmR4a1l1VlVPSTc2TERoWlVkeTBhRFBCd0lic1lLVjh2WGdWUkQxaFoxekZWZjcwM3JwbE9jTkRVUXRZbTZKWHhKVnM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 699
+      "latestSinceUpdate": 700
     },
     {
-      "date": "May 17",
-      "text": "Iran announces new body to manage Strait of Hormuz as peace talks stall.",
+      "date": "May 18",
+      "text": "Hezbollah drone strike videos show evolving tactics against Israel, including an IDF platoon commander killed.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPSGtTaUFkNUEzRjVBSVVkbElFWnRqSGtDLWIxemNZd3doUXA1VEc4bXJ2aFdodkN0UWl6dzVfS3RRRTBsTWl3RGtPc2dCTVZtTFp2aHRRLUNhWlBQZlhDSFo3RzRsWV9XRmVyVTRNa2gtNVpGT3FpN3ItR3JyRGlwOVV6aXhsdWVQY2cxMVg1aHVvXzhiOU9raV9OVXJjMWxmNDAxVFB3SnJqOUYzWUhXb0FCTHAzamJndHVsaQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 699
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 700
     },
     {
-      "date": "May 17",
-      "text": "Iran starts Bitcoin-backed shipping insurance for Hormuz Strait.",
+      "date": "May 18",
+      "text": "Iran announces plans to unveil a Hormuz toll mechanism and launches Bitcoin-backed shipping insurance.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 699
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 700
     },
     {
-      "date": "May 17",
-      "text": "Israel attacks Lebanon; drone hits UAE power plant.",
+      "date": "May 18",
+      "text": "A drone hits a UAE power plant.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOaFBYYi1xZGg2dUdYTWJVa2RFdjZqTFRqUUdjYW1TeVA1VHM0WGoxZUdmZV9IVExWUm80dlBkUTlCOTAwQlNVYUk0YV81ZW11RzRKVTF6TmlYM1FtZFR1ZFc3RUFYUlg4aUJXMDc0UDNibkZwXzNmdHZmcG1FTnNZRU1LalZ3UktOSGpPTnpYQWNoWC0zbVdTVkg0aXBEdkRKUFd4TWtndjZhMXQ1dmpLSHVsMlZJVTBObHgxZ1YxN2plNXREQUtMcFd0dERudUd60gHCAUFVX3lxTFBBN2FYZU9GMm44dm1FM0dNeTVSWWliSkFMVFZZR1BYZV9DdTdvYkJaNnk0NGhfWXUtWldZR2xnS0VqOGVCMEl6SWpKNTEwOGJYUFFrU3VTUlpKUkluT2xuNWgtWXRfMElvRXZNUE1oLTVrSEJpTVBZSkdPa29xZklBX1o4R2x5U0ZTVHl1YTNXLUJzWFZiLWRoOG1UZkhJNUozWjB6cG0ydGVfUEE1MUJXR1NjcVAtd0lGcWp6MkFnRVJR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 699
+      "latestSinceUpdate": 700
     }
   ],
   "sourceStatuses": [
