@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 697,
+  "updateSequence": 698,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T20:04:36.000Z",
+  "lastSyncedAt": "2026-05-18T21:21:37.788Z",
   "warDay": 80,
-  "summary": "A fragile ceasefire holds between the US and Iran following Gulf intervention, while a new front emerges with UAE strikes and Iran implements a Hormuz toll mechanism, amidst ongoing deadly clashes between Israel and Hezbollah.",
+  "summary": "The Iran war continues with President Trump issuing warnings and halting strikes, while new fronts emerge and Iran introduces measures for the Strait of Hormuz; simultaneously, intense fighting persists between Israel and Hezbollah in Lebanon despite ceasefire extensions.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A shaky ceasefire between the US and Iran is active, with Trump warning Tehran that the 'clock is ticking' for a deal."
+    "summary": "Ceasefires in both the Iran-US and Israel-Hezbollah conflicts are active but highly fragile, with significant violations reported in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,35 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "US President Trump held off a planned attack on Iran following requests from Gulf states.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/iran-war-live-trump-says-attack-on-iran-held-off-upon-gulf-states-request",
+      "text": "Iran war special report published.",
+      "severity": "info",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 697
+      "latestSinceUpdate": 698
     },
     {
       "date": "May 17",
-      "text": "A new front in the conflict emerged as the UAE reportedly struck back against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/iran-weekly-briefing-new-front-emerges-as-uae-strikes-back",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 697
+      "text": "US attack on Iran reportedly halted at Gulf states' request.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNNIBwgFBVV95cUxPcWRGdWhXT2FIMENnaGR6Q1JLeV9qc3NFY1hkcmNYNXBTLXl4eFQ0aUhsVEFrOVFSV2tUd2lFRDNGUFZTSlQxWXd1WFVnVFhnV0FRYjdXVTNtQVdpQk1fdl9FOHowYktWUXlsOXVYbkVxNFRDQ2hHUFZDblNqSnQtRmdlMmF6X1FfU19VcHowYzcwaThhUktzNnlieHljWTUtS3ZPMFRrRDNsa2dFQmtvMDdaeGEzOUFUcUg3enViZmJfdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 698
     },
     {
-      "date": "May 18",
-      "text": "Iran announced plans to unveil a Hormuz toll mechanism and initiated Bitcoin-backed shipping insurance for the Strait.",
+      "date": "May 17",
+      "text": "Reports indicate strain on US-European alliance due to Iran war.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 697
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNd0FBWUVpLTU3SUlxSkhWNDRjanUxNXgxVHNlMVZMN1pWcTRLNWxwWGZDTDJTRWYwX1QycmctN2R2ZjhIZjZRbU80UHJ5bWZPNTdYc3JPS3ZwNTRKMXE5ZTFSU3hNZzFTdGJwcE5wS19fT3lRclNmSTVvOVNtM2FDSEVHOXhMZWV5akF2NEVha3huUExGcWVLOG96QlRwYWs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Conversation",
+      "latestSinceUpdate": 698
     },
     {
-      "date": "May 18",
-      "text": "Fighting between Israel and Hezbollah in Lebanon resulted in a death toll reaching 3,000, with Hezbollah employing evolving drone tactics.",
+      "date": "May 17",
+      "text": "President Trump warns Iran that 'clock is ticking' for a deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 698
+    },
+    {
+      "date": "May 17",
+      "text": "UAE launches retaliatory strikes, opening new front in conflict.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/lebanon-death-toll-reaches-3000-in-fighting-between-israel-and-hezbollah",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 697
+      "latestSinceUpdate": 698
+    },
+    {
+      "date": "May 17",
+      "text": "Iran announces upcoming unveiling of Hormuz toll mechanism.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 698
     }
   ],
   "sourceStatuses": [

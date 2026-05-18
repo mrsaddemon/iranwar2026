@@ -1,13 +1,13 @@
 {
-  "updateSequence": 697,
+  "updateSequence": 698,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T20:04:36.000Z",
+  "lastSyncedAt": "2026-05-18T21:21:37.788Z",
   "warDay": 80,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A shaky ceasefire between the US and Iran is active, with Trump warning Tehran that the 'clock is ticking' for a deal."
+    "summary": "Ceasefires in both the Iran-US and Israel-Hezbollah conflicts are active but highly fragile, with significant violations reported in Lebanon."
   }
 }
