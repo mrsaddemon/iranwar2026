@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 690,
-  "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T23:32:39.940Z",
-  "warDay": 79,
-  "summary": "The conflict continues with a fragile ceasefire in Lebanon, while Trump issues an ultimatum to Iran amidst deepening BRICS divisions and threats to the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-05-17",
+  "updateSequence": 691,
+  "lastUpdated": "2026-05-18",
+  "lastSyncedAt": "2026-05-18T01:30:29.270Z",
+  "warDay": 80,
+  "summary": "The US warns Iran as a fragile ceasefire in Lebanon is eroded by Israeli strikes and Hezbollah drone attacks, while tensions escalate around the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A ceasefire in Lebanon has been extended but remains shaky, with continued Israeli attacks and Hezbollah activity reported."
+    "confidence": 0.93,
+    "durationDays": 5,
+    "summary": "A ceasefire in Lebanon remains in effect but is severely undermined by ongoing Israeli strikes and Hezbollah drone attacks."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 90
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 17",
-      "text": "Trump states 'clock is ticking' for Iran to make a deal with the US.",
+      "date": "May 18",
+      "text": "Trump warns Tehran ‘clock is ticking’ for deal with US",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 689
+      "latestSinceUpdate": 691
     },
     {
-      "date": "May 17",
-      "text": "Lebanon 'ceasefire' extended, but Israel launches new attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 690
-    },
-    {
-      "date": "May 17",
-      "text": "BRICS talks conclude without a joint statement due to divisions over the Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPRGZvdDM5cFVKbWRNVmJpQmQ3bEVTbmxaVXI0Rzczb0VXTzV0clZxMUwwRlBhTDZ5THl6WmJhOV9ILXNNRkV0TmZkVXQzWTFnMkUtYXlGTlZvV2NXRFZWZ3I4cXBES2ZWNllvMmt0QWNqUkNONm5rdzZUMXpqZVJ6OG5EajlnZmNnTW1BSlh0V3drOGltdVNjN3JZcHVpS3FlMUpmc3lhal9EZVFfTnlGOExBeVHSAboBQVVfeXFMT0pPb3BfYmhsUmlXSmd2WVhHMWxhZXpWSlpGMmJiMU5CcXdHMkJETkVaU0p0S00xVERZQ3NlVFlpNWlOUFZXTE5KenNHRHp2UmdqeUZTcWprRzZiWTRWMGtKQmtJR21Ud1VKUnNLVXV6T1llOU4yZ012cFUyM2pSb3llMVF5aGpHdk9hQ2hmTmozMTBVMTd3dGotSFBSb2I3UEYtdmpFTzA5R3F5aHYtWVlXZ1NLWHpLbVZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 690
-    },
-    {
-      "date": "May 17",
-      "text": "Tehran announces plans to unveil a Hormuz toll mechanism soon.",
+      "date": "May 18",
+      "text": "Tehran says it will unveil Hormuz toll mechanism soon",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 689
+      "latestSinceUpdate": 691
     },
     {
-      "date": "May 17",
-      "text": "UAE reports a drone strike on a nuclear facility.",
+      "date": "May 18",
+      "text": "Lebanon ‘ceasefire’ extended, Israel launches new attacks",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 690
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 691
     },
     {
-      "date": "May 17",
-      "text": "Hezbollah drone strike videos demonstrate evolving tactics against Israel.",
+      "date": "May 18",
+      "text": "Deadly Israeli Strikes Erode Cease-Fire in Lebanon",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPa19fSFd6d0FtRXBYVG5yaGZlQTE3aFFFc2paZEJ2Q0w5Nm54OWJJYkRPNEE0RjdhX1VVdGpNZ2VYY0VTQ3RMclRCN3BzUTJ3cHpHdzhNbDJ2Uzk1NFFkRUEweEhQQnJKbEF6eE1kOHAxbTJacy11SC00RWU1b3dTOGVvcnNONXJTYjRjbkRDazVXaEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 691
+    },
+    {
+      "date": "May 18",
+      "text": "IDF says infantry platoon commander killed by Hezbollah drone in southern Lebanon",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOMVd0LWtBUlJRWm56TUhmN2NpNGlrMUdYWkh4YVNDel9OcmV2bHlMQzVkZUgxRGpHM3lTLTczeWw4UXJjc3FJaW8tLWQ3bHV4NEM2RVNkeEx5UW9aNDFsNWVQaGRBTWtQRDRnZWRROUdGMkpZVlZLWG1CQUt5emtSdDJUb2dqRDVpbkRoVG1zY0ZYejYyOEpONDV1UHFmN1VTOGZxWmNtc3NXdWgxbUg4SnBlSTNuQkRIUVJZRjRvVUVWckNOWUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 691
+    },
+    {
+      "date": "May 18",
+      "text": "Hezbollah drone strike videos show evolving tactics against Israel",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 690
+      "latestSinceUpdate": 691
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Defiance",
-      "headline": "Iran asserts Hormuz control amid US distrust",
-      "summary": "Iran plans to implement a toll mechanism for the Strait of Hormuz, asserting its sovereignty and signaling deep distrust towards the United States. This move is seen as a potential escalation of economic pressure in the region.",
+      "perspective": "US Stance",
+      "headline": "Trump Issues Ultimatum to Iran",
+      "summary": "The US President has publicly stated that time is running out for Iran to reach a deal with the United States. This rhetoric suggests an impending decision on further US actions against Tehran.",
       "tone": "defiant",
-      "latestSinceUpdate": 675
+      "latestSinceUpdate": 691
     },
     {
-      "perspective": "US/Israel Preparations",
-      "headline": "US, Israel prepare for renewed strikes on Iran",
-      "summary": "Reports indicate that the United States and Israel are preparing for renewed military strikes against Iran as diplomatic talks stall. This suggests a potential re-engagement in military action within days or the next week.",
+      "perspective": "Regional Security",
+      "headline": "Hormuz Strait Tensions Escalate",
+      "summary": "Iran is threatening to implement a new toll mechanism in the Strait of Hormuz, raising concerns about potential disruptions to global shipping. US officials view the current situation in the strait as detrimental to international interests.",
       "tone": "anxious",
-      "latestSinceUpdate": 675
+      "latestSinceUpdate": 691
     },
     {
       "perspective": "Lebanon Conflict",
-      "headline": "Lebanon conflict persists despite ceasefire extension",
-      "summary": "The conflict between Israel and Lebanon continues with Israeli strikes causing casualties and Hezbollah drones killing an IDF commander. This ongoing violence highlights the extreme fragility of the recently announced ceasefire extension.",
+      "headline": "Lebanon Ceasefire Under Strain",
+      "summary": "Despite an extended ceasefire, Israeli forces have launched new attacks in Lebanon, leading to casualties and eroding the fragile agreement. Hezbollah has also demonstrated evolving drone tactics, contributing to the instability.",
       "tone": "strained",
-      "latestSinceUpdate": 675
+      "latestSinceUpdate": 691
     },
     {
-      "perspective": "US Military Scrutiny",
-      "headline": "US military faces internal scrutiny and leadership questions",
-      "summary": "Internal reports question the state of the U.S. military under current leadership, with one watchdog finding the Pentagon quietly shut down a program to prevent civilian deaths. This raises concerns about military conduct and strategic effectiveness.",
+      "perspective": "US Military Critique",
+      "headline": "Concerns Over US Military Conduct",
+      "summary": "Critics argue that the current US administration's policies are negatively impacting the military's effectiveness and ethical standards. Reports indicate the Pentagon has ceased a program designed to prevent civilian casualties, raising questions about operational precision.",
       "tone": "skeptical",
-      "latestSinceUpdate": 675
+      "latestSinceUpdate": 691
     }
   ]
 });

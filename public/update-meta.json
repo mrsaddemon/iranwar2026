@@ -1,13 +1,13 @@
 {
-  "updateSequence": 690,
-  "lastUpdated": "2026-05-17",
-  "lastSyncedAt": "2026-05-17T23:32:39.940Z",
-  "warDay": 79,
+  "updateSequence": 691,
+  "lastUpdated": "2026-05-18",
+  "lastSyncedAt": "2026-05-18T01:30:29.270Z",
+  "warDay": 80,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A ceasefire in Lebanon has been extended but remains shaky, with continued Israeli attacks and Hezbollah activity reported."
+    "confidence": 0.93,
+    "durationDays": 5,
+    "summary": "A ceasefire in Lebanon remains in effect but is severely undermined by ongoing Israeli strikes and Hezbollah drone attacks."
   }
 }
