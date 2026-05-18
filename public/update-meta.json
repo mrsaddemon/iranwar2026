@@ -1,13 +1,13 @@
 {
-  "updateSequence": 695,
+  "updateSequence": 696,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T16:14:07.806Z",
+  "lastSyncedAt": "2026-05-18T18:13:12.882Z",
   "warDay": 80,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A shaky ceasefire is reported to be in effect, but US warnings and ongoing hostilities suggest its fragility."
+    "summary": "A shaky ceasefire continues between Israel and Hezbollah in Lebanon, while broader US-Iran talks are ongoing but stalled with warnings issued."
   }
 }

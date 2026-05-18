@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 695,
+  "updateSequence": 696,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T16:14:07.806Z",
+  "lastSyncedAt": "2026-05-18T18:13:12.882Z",
   "warDay": 80,
-  "summary": "The Iran-Israel conflict continues with a fragile ceasefire, ongoing diplomatic talks via Pakistan, and a rising death toll in Lebanon, while the US warns Iran and new fronts emerge.",
+  "summary": "Ongoing talks between the US and Iran via Pakistan continue amidst a broader regional conflict, including a fragile ceasefire between Israel and Hezbollah in Lebanon, and Iran's moves to control shipping in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A shaky ceasefire is reported to be in effect, but US warnings and ongoing hostilities suggest its fragility."
+    "summary": "A shaky ceasefire continues between Israel and Hezbollah in Lebanon, while broader US-Iran talks are ongoing but stalled with warnings issued."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 50,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Iran Update Special Report published, detailing ongoing conflict dynamics.",
+      "text": "Iran sends response to US proposal to end war via mediator Pakistan.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOd25kUk9sdVF4cGNtVDlUWW9XQ0tFQU90cmJPSkJ1QWRMYmZtRWs4TW44a29PV3JkRWRfSG1XUVpJdm9wT2E1QlNPM1U1NlF6UENWVEJSVl90M3VUTDZWQ3B1N0xKdmw2Mkc2U2xBTjNVSDN3dG82SDlZQjhPMmFQOWtIbnBfa2J3Nlp3MktwdFJYNjA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 695
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQd1c5Qk5GMjBHbUlqYXZNdDhQbXY3Z1FBWktZTjM5cEx1NjVEclREN0hGQ2dVOGJMZDNES0lnV2VpTF9CS2s4bXdlTVBVc1BvQ3kwdzNJeEpvNnRYV2xPMl9rY2JnVGxkTDR2QTZ6UUQtR1pWX3NHZFhKaEdMZS1sUVhkWWRJRHowSEFUMG5CeElrX1dDWkFyV3hvelgydEZBVXZNRTFWRE5BYnl5eHRJ0gG0AUFVX3lxTE5TS2IzaHN5eVVUazdQRzhFb2JsZGFpVVJ2ZXJhZTQyU2RlbkVLVTEzcmxsUlRUWFN6cFFtTDVqU2xHM0FzSGdCZ0xJeFYwWEsxZ0p1MENFbUJVWUI5SjhVWWEzZGhMUXdGYnkyZkQ3SVM3MnprRVhYQzVrTUJ4dDBLUFRkQkhzakpqOXdOSnVHc0I3Z1BhOW9xUlJKRF9pSF90TXJSbU81YVBWSEFwQkV2Z2k4Ng?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 696
     },
     {
-      "date": "Recent",
-      "text": "Talks between Iran and other parties are ongoing via Pakistan.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 695
-    },
-    {
-      "date": "Recent",
-      "text": "Lebanon death toll from Israeli strikes since early March tops 3,000, reaching 3,020.",
+      "date": "May 17",
+      "text": "Lebanon death toll tops 3,000 in latest fighting between Israel and Hezbollah.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi2gFBVV95cUxPVmVNcFk2TFhnTk9aSkdaRmY4UUlINEo2V0p6cnAzNzZwMEFWTElUNHdyZlI2em5iV0VvX1R0NnptUE1TX1U1ZGIxYmhuVzJqM0psYkZtQi1YLUptQWItalJFX29OQmp5Yk5qcWRfU2VCOGRMbktpY29LTjI4WnBiRU1YenpkeWJvVFBzRXdRZGlUNXNhTzVhZWZ5UURYMURILUg0Mk1fX2VLYmdJX2p6YVNtNHNGVDRUc0VFNHlXcll4SW1lTDZqVm1YNFo1RWw3RHhLdXV3aHhZUdIB3wFBVV95cUxNNno5V3gwenZQbGlNcUZ0MkpldVdjeG95YkVWemE5UjdlVUdFampuLVNpT1ZEUG01V3hSY19yUjFrUmczLVI4VEtqS21YdUhHTW9fM1QxS0NEVVZCT2JubXhPa0RjdFdsYnR0VVNORWNMeDZzYkhTVmFTZ1FuanFCTEpPeFNFRm1LdWwtNmkyenBfZUpEdUxTQklXVzkwUlJxLThCMVpCSGVkUmtPaW5Ja1N1b1AxOHZfM2JKbXNScFRtN0Z3SFg5bkcxWXF5XzBNN3M1UkNaSnpKdi1wTXIw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 695
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPTU5WaW8tWWhsc3VaU1lhTm1GeEJwY3lKTy1zRDNjelZQR0RLZmtpS2hUNC10c0dXazlpM1lyOEhrMEJwd1BhanZnOV95MzlvaVRvWU0yQXFOVm1BQTZPSnA2elNiOHRJWV9GVlRjU0ZLYlJrZU9Mc0o4QVJrdDV6LVRscmxGQmpmZ2tTMnhNd3RqbXlzUk1SaDgxalpVeTIwdXF2VUZDRnlEWHZHdTlOS9IBtgFBVV95cUxNME9nM0ZLMXEzYTRjNWZ3S3NNQzVCeFBNTmktX2tYdTRDdTZuZHZkOU1UWkppX0FWVWZLcnVhY2pTQzJScG5iOHNWb1F2ald6TU1pYjhaZ3lyZFZ5a0t2TDMxUVFUaVcyV29TcE9PSDU5eDdlYVlPWGpXUHI1bzJFOU5xWG9xNVczU19nalV0ai1lektCU2twaTZtc2FRb1haU19SWFk4NEJqZEtKdFJFRTA5SjJhUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 696
     },
     {
-      "date": "Recent",
-      "text": "A new front has emerged in the conflict as the UAE strikes back.",
+      "date": "May 17",
+      "text": "A new front emerges as UAE strikes back.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNNy1heEVEenJUSktWWFE0R0xpRzJ1dVR3Nm8yRkVrenNsSWdGX1FlRGs2VGdaNlg2aXQ1Xy12aDVFUDRST3BWNnJVLUk0VllNZEFqRlBWV2wzRXZHMFNrdFBRanRTWWl1QzBsNDNXbVZKQ19pWnhXaElYdzJzMlpsckl6cGY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Australian Broadcasting Corporation",
+      "latestSinceUpdate": 696
+    },
+    {
+      "date": "May 17",
+      "text": "Iran announces plans to unveil a formal Strait of Hormuz toll mechanism soon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 696
+    },
+    {
+      "date": "May 17",
+      "text": "Iran starts Bitcoin-backed shipping insurance for the Hormuz Strait.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 695
+      "latestSinceUpdate": 696
     },
     {
-      "date": "Recent",
-      "text": "Iran has started offering Bitcoin-backed shipping insurance for vessels in the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 695
-    },
-    {
-      "date": "Recent",
-      "text": "Hormuz tanker traffic has edged higher after a wartime low.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNSFduQ1BYZzhBSDlVVTFzYXdpMkdmaUVCemdzNXotdlg1MDVpZzdmcGM3SndRdlFwNWZzRmctS0xVZWRoMlZNMEtyQWE2SlczY0IwWnZ5OVFidzVtdjNRT1ExTWhiWERvbFVsOEJZYlJoUzdmclhBSThBU1h4VFBDaXdaMFNqSGlwVy1rd3Qxd3R4Q0dFaWh1LU12TXBKS0sy?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 695
+      "date": "May 17",
+      "text": "IDF infantry platoon commander killed by Hezbollah drone in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOZ01NY2Fablk0c1YyOUw0c2dSd1BMOFB4M2ZaQUNES0Z3UUxDNE91M28wYWZlYWZHcDRBTi04c3ltMU1yU3ZjYVpIOGJtVngwSzlkSXVhWTcyanhGbWJfcC1UcG05by0tVnV6QW1fRDlhZVRoS1NLZlRXQmFUWm5tXzZaZ1ZfWFZrclJRSzRkWmlzUFZEVFVJX1hDVnNLQ2o1VE9BN0duSDdpbzjSAbABQVVfeXFMUE5oV0pOMG1DZmkzUHo5LVN5THB6ejV3S3JEQkFFLUhaZGRLQzhWYjVwTTlTQ0M1T1Jkd0FXZkplRGp6SEJaY3VwWTVoeGI1RDNVTm5JUWRVS0NZWFk3aUQwbi1CYlViLXAzT1k4VVZhak8zSUozbEtrdU15SGgzUUFwLVRrZFJoZl9jeFRpRTFLSUV1bmpWdm9MM1JFQVFRLTByZTRrbFRacjBIalNSYlU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 696
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
