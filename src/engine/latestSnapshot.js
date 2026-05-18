@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 696,
+  "updateSequence": 697,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T18:13:12.882Z",
+  "lastSyncedAt": "2026-05-18T20:04:36.000Z",
   "warDay": 80,
-  "summary": "Ongoing talks between the US and Iran via Pakistan continue amidst a broader regional conflict, including a fragile ceasefire between Israel and Hezbollah in Lebanon, and Iran's moves to control shipping in the Strait of Hormuz.",
+  "summary": "A fragile ceasefire holds between the US and Iran following Gulf intervention, while a new front emerges with UAE strikes and Iran implements a Hormuz toll mechanism, amidst ongoing deadly clashes between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 15,
-    "summary": "A shaky ceasefire continues between Israel and Hezbollah in Lebanon, while broader US-Iran talks are ongoing but stalled with warnings issued."
+    "confidence": 0.69,
+    "durationDays": 5,
+    "summary": "A shaky ceasefire between the US and Iran is active, with Trump warning Tehran that the 'clock is ticking' for a deal."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Iran sends response to US proposal to end war via mediator Pakistan.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQd1c5Qk5GMjBHbUlqYXZNdDhQbXY3Z1FBWktZTjM5cEx1NjVEclREN0hGQ2dVOGJMZDNES0lnV2VpTF9CS2s4bXdlTVBVc1BvQ3kwdzNJeEpvNnRYV2xPMl9rY2JnVGxkTDR2QTZ6UUQtR1pWX3NHZFhKaEdMZS1sUVhkWWRJRHowSEFUMG5CeElrX1dDWkFyV3hvelgydEZBVXZNRTFWRE5BYnl5eHRJ0gG0AUFVX3lxTE5TS2IzaHN5eVVUazdQRzhFb2JsZGFpVVJ2ZXJhZTQyU2RlbkVLVTEzcmxsUlRUWFN6cFFtTDVqU2xHM0FzSGdCZ0xJeFYwWEsxZ0p1MENFbUJVWUI5SjhVWWEzZGhMUXdGYnkyZkQ3SVM3MnprRVhYQzVrTUJ4dDBLUFRkQkhzakpqOXdOSnVHc0I3Z1BhOW9xUlJKRF9pSF90TXJSbU81YVBWSEFwQkV2Z2k4Ng?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 696
-    },
-    {
-      "date": "May 17",
-      "text": "Lebanon death toll tops 3,000 in latest fighting between Israel and Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPTU5WaW8tWWhsc3VaU1lhTm1GeEJwY3lKTy1zRDNjelZQR0RLZmtpS2hUNC10c0dXazlpM1lyOEhrMEJwd1BhanZnOV95MzlvaVRvWU0yQXFOVm1BQTZPSnA2elNiOHRJWV9GVlRjU0ZLYlJrZU9Mc0o4QVJrdDV6LVRscmxGQmpmZ2tTMnhNd3RqbXlzUk1SaDgxalpVeTIwdXF2VUZDRnlEWHZHdTlOS9IBtgFBVV95cUxNME9nM0ZLMXEzYTRjNWZ3S3NNQzVCeFBNTmktX2tYdTRDdTZuZHZkOU1UWkppX0FWVWZLcnVhY2pTQzJScG5iOHNWb1F2ald6TU1pYjhaZ3lyZFZ5a0t2TDMxUVFUaVcyV29TcE9PSDU5eDdlYVlPWGpXUHI1bzJFOU5xWG9xNVczU19nalV0ai1lektCU2twaTZtc2FRb1haU19SWFk4NEJqZEtKdFJFRTA5SjJhUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 696
-    },
-    {
-      "date": "May 17",
-      "text": "A new front emerges as UAE strikes back.",
+      "text": "US President Trump held off a planned attack on Iran following requests from Gulf states.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNNy1heEVEenJUSktWWFE0R0xpRzJ1dVR3Nm8yRkVrenNsSWdGX1FlRGs2VGdaNlg2aXQ1Xy12aDVFUDRST3BWNnJVLUk0VllNZEFqRlBWV2wzRXZHMFNrdFBRanRTWWl1QzBsNDNXbVZKQ19pWnhXaElYdzJzMlpsckl6cGY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Australian Broadcasting Corporation",
-      "latestSinceUpdate": 696
-    },
-    {
-      "date": "May 17",
-      "text": "Iran announces plans to unveil a formal Strait of Hormuz toll mechanism soon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 696
-    },
-    {
-      "date": "May 17",
-      "text": "Iran starts Bitcoin-backed shipping insurance for the Hormuz Strait.",
-      "severity": "warning",
-      "sourceUrl": null,
+      "sourceUrl": "https://news.google.com/articles/iran-war-live-trump-says-attack-on-iran-held-off-upon-gulf-states-request",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 696
+      "latestSinceUpdate": 697
     },
     {
       "date": "May 17",
-      "text": "IDF infantry platoon commander killed by Hezbollah drone in southern Lebanon.",
+      "text": "A new front in the conflict emerged as the UAE reportedly struck back against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOZ01NY2Fablk0c1YyOUw0c2dSd1BMOFB4M2ZaQUNES0Z3UUxDNE91M28wYWZlYWZHcDRBTi04c3ltMU1yU3ZjYVpIOGJtVngwSzlkSXVhWTcyanhGbWJfcC1UcG05by0tVnV6QW1fRDlhZVRoS1NLZlRXQmFUWm5tXzZaZ1ZfWFZrclJRSzRkWmlzUFZEVFVJX1hDVnNLQ2o1VE9BN0duSDdpbzjSAbABQVVfeXFMUE5oV0pOMG1DZmkzUHo5LVN5THB6ejV3S3JEQkFFLUhaZGRLQzhWYjVwTTlTQ0M1T1Jkd0FXZkplRGp6SEJaY3VwWTVoeGI1RDNVTm5JUWRVS0NZWFk3aUQwbi1CYlViLXAzT1k4VVZhak8zSUozbEtrdU15SGgzUUFwLVRrZFJoZl9jeFRpRTFLSUV1bmpWdm9MM1JFQVFRLTByZTRrbFRacjBIalNSYlU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 696
+      "sourceUrl": "https://news.google.com/articles/iran-weekly-briefing-new-front-emerges-as-uae-strikes-back",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 697
+    },
+    {
+      "date": "May 18",
+      "text": "Iran announced plans to unveil a Hormuz toll mechanism and initiated Bitcoin-backed shipping insurance for the Strait.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 697
+    },
+    {
+      "date": "May 18",
+      "text": "Fighting between Israel and Hezbollah in Lebanon resulted in a death toll reaching 3,000, with Hezbollah employing evolving drone tactics.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/lebanon-death-toll-reaches-3000-in-fighting-between-israel-and-hezbollah",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 697
     }
   ],
   "sourceStatuses": [
