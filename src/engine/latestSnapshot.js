@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 692,
+  "updateSequence": 693,
   "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T05:50:36.137Z",
+  "lastSyncedAt": "2026-05-18T09:01:10.776Z",
   "warDay": 80,
-  "summary": "Tensions remain high in the Middle East with a fragile ceasefire between Israel and Lebanon, while Iran asserts control over the Strait of Hormuz amidst US warnings and reported drone activities.",
+  "summary": "The Iran-Israel conflict continues with a fragile ceasefire, marked by ongoing military actions by Israel and Hezbollah, US warnings to Iran, and new fronts emerging with UAE involvement, raising concerns over regional stability and oil transit in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A fragile ceasefire between Israel and Lebanon remains active but has seen violations, including Israeli strikes and Hezbollah drone attacks."
+    "summary": "A shaky ceasefire is reported to be active and extended, but has seen violations and renewed military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Iran announces plans to unveil a mechanism for collecting tolls in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 692
+      "text": "Iran Update Special Report published.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOd25kUk9sdVF4cGNtVDlUWW9XQ0tFQU90cmJPSkJ1QWRMYmZtRWs4TW44a29PV3JkRWRfSG1XUVpJdm9wT2E1QlNPM1U1NlF6UENWVEJSVl90M3VUTDZWQ3B1N0xKdmw2Mkc2U2xBTjNVSDN3dG82SDlZQjhPMmFQOWtIbnBfa2J3Nlp3MktwdFJYNjA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 693
     },
     {
       "date": "May 17",
-      "text": "US President Trump warns Tehran that 'the clock is ticking' for a deal with the US.",
+      "text": "Tehran states talks are ongoing through Pakistan.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNNIBwgFBVV95cUxPcWRGdWhXT2FIMENnaGR6Q1JLeV9qc3NFY1hkcmNYNXBTLXl4eFQ0aUhsVEFrOVFSV2tUd2lFRDNGUFZTSlQxWXd1WFVnVFhnV0FRYjdXVTNtQVdpQk1fdl9FOHowYktWUXlsOXVYbkVxNFRDQ2hHUFZDblNqSnQtRmdlMmF6X1FfU19VcHowYzcwaThhUktzNnlieHljWTUtS3ZPMFRrRDNsa2dFQmtvMDdaeGEzOUFUcUg3enViZmJfdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 693
+    },
+    {
+      "date": "May 17",
+      "text": "Trump warns Tehran that 'clock is ticking' for a deal with the US.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 692
+      "latestSinceUpdate": 693
     },
     {
       "date": "May 17",
-      "text": "Trump pauses US efforts to guide ships through the Strait of Hormuz while a blockade remains.",
+      "text": "Iran warns of readiness for war and economic costs as US talks falter.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBjQmlHemxOdXowdXdPY0hCMzZnTXhJdnhIYkZxLUhaTng2anQzWmdhV1hUbFZpUndvZ3FCVHNBRklLTzhib1ZQU1l0SGJZVTlpeWMweUtTS2xuMTE0UXNTbXp3bjJRYkZTRGJyNg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 692
-    },
-    {
-      "date": "May 17",
-      "text": "Israeli military placed on high alert amid fears of renewed conflict with Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2gFBVV95cUxPVmVNcFk2TFhnTk9aSkdaRmY4UUlINEo2V0p6cnAzNzZwMEFWTElUNHdyZlI2em5iV0VvX1R0NnptUE1TX1U1ZGIxYmhuVzJqM0psYkZtQi1YLUptQWItalJFX29OQmp5Yk5qcWRfU2VCOGRMbktpY29LTjI4WnBiRU1YenpkeWJvVFBzRXdRZGlUNXNhTzVhZWZ5UURYMURILUg0Mk1fX2VLYmdJX2p6YVNtNHNGVDRUc0VFNHlXcll4SW1lTDZqVm1YNFo1RWw3RHhLdXV3aHhZUdIB3wFBVV95cUxNNno5V3gwenZQbGlNcUZ0MkpldVdjeG95YkVWemE5UjdlVUdFampuLVNpT1ZEUG01V3hSY19yUjFrUmczLVI4VEtqS21YdUhHTW9fM1QxS0NEVVZCT2JubXhPa0RjdFdsYnR0VVNORWNMeDZzYkhTVmFTZ1FuanFCTEpPeFNFRm1LdWwtNmkyenBfZUpEdUxTQklXVzkwUlJxLThCMVpCSGVkUmtPaW5Ja1N1b1AxOHZfM2JKbXNScFRtN0Z3SFg5bkcxWXF5XzBNN3M1UkNaSnpKdi1wTXIw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 692
-    },
-    {
-      "date": "May 17",
-      "text": "Hezbollah drone strike kills an IDF infantry platoon commander in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOZ01NY2Fablk0c1YyOUw0c2dSd1BMOFB4M2ZaQUNES0Z3UUxDNE91M28wYWZlYWZHcDRBTi04c3ltMU1yU3ZjYVpIOGJtVngwSzlkSXVhWTcyanhGbWJfcC1UcG05by0tVnV6QW1fRDlhZVRoS1NLZlRXQmFUWm5tXzZaZ1ZfWFZrclJRSzRkWmlzUFZEVFVJX1hDVnNLQ2o1VE9BN0duSDdpbzjSAbABQVVfeXFMUE5oV0pOMG1DZmkzUHo5LVN5THB6ejV3S3JEQkFFLUhaZGRLQzhWYjVwTTlTQ0M1T1Jkd0FXZkplRGp6SEJaY3VwWTVoeGI1RDNVTm5JUWRVS0NZWFk3aUQwbi1CYlViLXAzT1k4VVZhak8zSUozbEtrdU15SGgzUUFwLVRrZFJoZl9jeFRpRTFLSUV1bmpWdm9MM1JFQVFRLTByZTRrbFRacjBIalNSYlU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 692
-    },
-    {
-      "date": "May 17",
-      "text": "Israel kills at least five individuals in Lebanon following an extension of the ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQd1UwRnRjZURqLWFtbWNVS0hxaElkYV9nalpEQVVlSkVONG5VSTJDOWZzUnQtM0NCNmJNV1I4amFIbDczeFFMRnlNRnFPUXoxakpqX2lRX2c2dExQUjVGTnpvNVhrX1MtSGFycThZSVZ0b182c1Z1NElvc3BpNDhoTVRsX0xCbHdtd2lzNTc2Y0hpa2V6bUtCaW14QXdaWERMQnJaXzhGd0hiM1VmN0HSAbMBQVVfeXFMUENyVkM1cE5nNTg1bUZ6UE5KdWQ0VjQzcllBcGdwMDVrRk1kajBzX0x6S0hzWjEzRnliS1hDeUgtZGlsZXhIamJXRUxhaWplLWpsdXEyc0I5bnpsaDcwUGJldm1oYzVzdUk1TE50QVFNcmR4a1l1VlVPSTc2TERoWlVkeTBhRFBCd0lic1lLVjh2WGdWUkQxaFoxekZWZjcwM3JwbE9jTkRVUXRZbTZKWHhKVnM?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQdjBLdEpYeDlNN2lLT3pkMnBucDItRnJPWmJLYUxRbzlYNFZ2UXVocV9WRjdROXN5cHRQQlk5cHY4X09DSEtsVHRRX1hlME5LLVNZQWQ5M2dFWGJwM3Nqb0NrNG5xUmlQWUVzekRsTXNBM1YyMEdmX2p4ZzZ0aGFGU2FGR05PdFhJclo0NXktUUx0THVqM2lyY1FIZ2l2OGtmU1YwR1lXV3g4aXFRNmJN0gG0AUFVX3lxTE0wRnFDdTY5cFNWT0p1SDNrYzJXdHk0VmpNYjBFRUJJQVRvQW5LOGswWXNRY0JtbE1NWkpSOWt5LW9oTUlRdjN6TDlPMGhPa3lvQnZvM0taVDlwaFpyZmt4RWJTdzZaMEcyNkVfN3NqTUlad1RXU2FnU2t6MElndk8wVzlWUXhUR0NLbzU3UFJSbjE3TU9NQkpEVmJUZEVYS1NGZnVjdFptU2lQQmVtYVNvTDZkNg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 692
+      "latestSinceUpdate": 693
+    },
+    {
+      "date": "May 17",
+      "text": "Iran announces it will unveil a Hormuz toll mechanism soon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 693
+    },
+    {
+      "date": "May 17",
+      "text": "A new front emerges as UAE strikes back.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNNy1heEVEenJUSktWWFE0R0xpRzJ1dVR3Nm8yRkVrenNsSWdGX1FlRGs2VGdaNlg2aXQ1Xy12aDVFUDRST3BWNnJVLUk0VllNZEFqRlBWV2wzRXZHMFNrdFBRanRTWWl1QzBsNDNXbVZKQ19pWnhXaElYdzJzMlpsckl6cGY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Australian Broadcasting Corporation",
+      "latestSinceUpdate": 693
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
