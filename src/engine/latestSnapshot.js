@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 709,
+  "updateSequence": 710,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T22:21:55.735Z",
+  "lastSyncedAt": "2026-05-19T23:35:51.967Z",
   "warDay": 81,
-  "summary": "Tensions remain high between the US and Iran with threats of military action and incidents in the Strait of Hormuz, while the Israel-Hezbollah conflict continues despite a truce extension.",
+  "summary": "Tensions remain high between the US and Iran with threats of military action and diplomatic efforts, while the Israel-Hezbollah conflict continues despite a truce extension, and concerns rise over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A truce between Israel and Hezbollah has been extended but fighting and casualties persist in Lebanon, indicating a fragile status."
+    "summary": "A truce extension between Israel and Hezbollah is in effect, but fighting and casualties persist, indicating a highly fragile situation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 19",
-      "text": "Trump says US to attack Iran in ‘two or three days’ if no deal is reached.",
+      "text": "Trump states an attack on Iran could occur in 'two or three days' if no deal is reached, but also indicates delays for diplomatic push.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 709
+      "latestSinceUpdate": 710
     },
     {
       "date": "May 19",
-      "text": "U.S. intel assessment says military identified at least 10 mines in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQN0xtaklJUS12cXZBR3BvdlRMVV9kcjRPaDZwdjljZ3JGVHJhZ0NDNW93a0pOUDJJREVFMmg1OS1Vak1za3QyU2h3NnFFcmcxUzNxSjZsampHOUJ6dFhKRThkNjdXODZpV1dVOTNmbl9LMHItVXRfNWN3c0tycHd5Nk1yZmZNLVZxRTVhMnF2WUczSDNwVHN4TXZkSk9rMldnRUY4M3VMQlplT21lUE15YlhKa9IBuAFBVV95cUxNWURTMHNRVlBtdlYxMlVVb2hYQlBhZE9GQkp4VUtxTEZiQktVeEp6MnFXcURkRmtYbXBMRlk2enZ5SE12T3g2eDBYeDRGUUNYZlNVUVpVUG5yRkNaeHFiYWVWc2NLSWFsMk9VQjRJZjFxeUFSZVVqWE90X3NFTXFrM3hDXzAtNndlRVNzLUJPb1FseWU0VjBhRVZYeUFkT0prZlhHbWNDQnhYWDRaVWlqRTlWTUVucDRv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 709
-    },
-    {
-      "date": "May 19",
-      "text": "A ship’s crew risked the Strait of Hormuz and met with a hail of bullets.",
+      "text": "A ship's crew reportedly encountered a hail of bullets in the Strait of Hormuz, raising maritime security concerns.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxOZG1KSmc0bldNT0RxMW51czNKR294V25tRDZ6VUVCb09vUWRzUExMa0UxcGF6c3puSXAxRjdqQ1A2NVBKbXlNNmRBWnhmNDRNdEZnTUNHUDRxem5yc1JycUpJRmU0WncyQVhZZ0UwNHN5OTNKT2ZRcFV2eXVScEFVYzQzY2pyXzRLQno5WGp3blhaeUtVeE9jaDBnbnNoLUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Washington Post",
-      "latestSinceUpdate": 709
+      "latestSinceUpdate": 710
     },
     {
       "date": "May 19",
-      "text": "Death toll from Israeli strikes on Lebanon passes 3,000, officials say.",
+      "text": "Israeli strikes on southern Lebanon killed 19 people, including children and women, with the death toll passing 3,000.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5IOFpTZ1ZRQlF1ZkM5VXdrdFc0T0FlRmd4WUFZOWZGR1dCZGJkLWQ1ZHZpWjRHZTg0MG8xc2V4S0dpdWxiQ3RMWVBKQ3dRbDNzOWVJTUE3d3ZFdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 709
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxOM3l4Z3JscklGTVV6UG9YaTBzZmI2ek0yaC11NHpOdURhdmd1Sy1TTlg2cUY3T2VrczFsS3FJS0hmZU80N3d6Nm55QmJIdEowYWxVdG1VU1VhMFg5VDItNWY4eEVyQnQzLXZKZTZpZ3JhVXZnQ0FUczdXX1VVZGtzT1pXM3FpWF91azB4QTMxQ28tRDFOZEVTaHBBSTE5RVlDNTYwd2ZONFRLRy15QVpsSW5HUjZqZHZ6WWNyZDlGOW9JZk9XcXJoOXM1S2ZLMEtsYkpVTWVvQUh3UUg2SGo1bkZRMDEwMjFTa2haQ2doYzJDQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 710
     },
     {
       "date": "May 19",
-      "text": "NATO is starting to consider Hormuz deployment to protect ships, though plans are not yet being drawn up.",
+      "text": "Iran warns it may fire hundreds of missiles daily at Israel if war resumes and speaks of 'new fronts'.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 709
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFA0S1RNSUhLbXVGV19EWHk3eGYxdjRfeGRIT2t2ZEtVWlppLVZ4aWV6b2pZNlpKb3R1TUl3WXRYNFh3bjBRUGdGNmt0cXpDZFltRzE4N3lEZnlTT1VudE1KaS1qNmJEclllT0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 710
     },
     {
       "date": "May 19",
-      "text": "Trump delays Iran attack as diplomatic push intensifies, stating military is ready at 'moment’s notice'.",
+      "text": "NATO is reportedly considering a deployment to the Strait of Hormuz to protect ships, though a top commander denies drawing up plans.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNeElKRVMtZ2lkbTFJX3F2TXMwSU82emtSZXNTejFLNXJkejI2Ml9vbkNlT1VGcWNqZHBWeGs0b1lXQUhkREdxODBBV28zWDlHZ2FSdXBvTlQ3dGZTSW5UYldJRGl6blFOaEZKUGNSZ1k2alRTQWNHRVN6MGJiZEZGRG8yOU5jcm9zUUHSAY8BQVVfeXFMTVdwWnhtc1ZYZVA5YTlmcXU3TFB0UFVaQktYRU9LYUs1WW1lX0NyWE5NeC03eDZrNG9pdjM0QV9FWkJnNjR6cDBoVmlhd0tTUWJoQ1d5Q3cxeU82ek1GdkxqcGg5QmZKNkNENFlsRmh0WDM5REt1bF9sNFhvX3FaNzZLbjdzVnNrMGdnWEZ3ZXM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 709
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOOTZNTVNNQ1l5elFEQzQ5empmSHp3d05DeTNlaDYtMGZnZHZjZThRS0ZPWjZoRl9OOGNabXd2VEVTNTQ2bktWcDRWMC0yaGh6Qjl6ek5hVEp1WEkyZFNUVlhlckRLTDV4c3BCZzBpYmxSVXlJTkhRTG9rbmNWX1c0dnJrODF4T1lmNkU2bnl2NlVjMlhyNGlsZi16YXBoTUd6dzdCU05mZlpkQUlvSzhNV2VQbHdEVjN1VkpSSE8yMmJheFktajNPZEwxMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 710
+    },
+    {
+      "date": "May 19",
+      "text": "Reports highlight shortcomings in the U.S. Military Industrial Base amidst the Iran War context.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUjJwRTNMbzdFTncyM0pQWC13Yk54YVZ6ZHVZNjZBU0VCSktDTmdBUElCTlFtUkdNcmNJVk0tX0w5S0xjY01KVnRETG1ic0NjWWRxYVhSa3R1NWlGT0kySmJ3M1lVM3ZCYUVQRkh1RVY3N3ZQT3dYY0tqdEs1d25saUtqbWtLVEl0QTZXc3FmTmxodGh2TlRz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 710
     }
   ],
   "sourceStatuses": [
