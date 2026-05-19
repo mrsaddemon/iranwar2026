@@ -1,13 +1,13 @@
 {
-  "updateSequence": 707,
+  "updateSequence": 708,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T19:20:36.823Z",
+  "lastSyncedAt": "2026-05-19T20:54:54.179Z",
   "warDay": 81,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
-    "durationDays": 25,
-    "summary": "No comprehensive ceasefire is active for the broader US-Iran tensions, though a truce extension for Israel-Hezbollah is mentioned but appears fragile."
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 3,
+    "summary": "A truce extension between Israel and Hezbollah has been reported, but conflict persists with ongoing casualties and military engagements."
   }
 }
