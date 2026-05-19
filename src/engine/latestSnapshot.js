@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 701,
+  "updateSequence": 702,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T01:31:47.747Z",
+  "lastSyncedAt": "2026-05-19T05:44:46.098Z",
   "warDay": 81,
-  "summary": "Tensions remain high between the US and Iran following a paused US strike, while the Israel-Hezbollah conflict persists despite a truce, and Iran threatens shipping in the Strait of Hormuz.",
+  "summary": "US President Trump paused a planned attack on Iran, signaling potential nuclear deal talks, while the Israel-Hezbollah conflict persists with evolving tactics and a high death toll in Lebanon, and Iran maintains its grip on the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-19",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah has been extended but fighting continues to intensify, leading to significant casualties in Lebanon."
+    "summary": "No comprehensive ceasefire is active, though a US strike on Iran was paused and a truce extension was reported for Israel-Hezbollah amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Trump says planned attack on Iran was held off upon Gulf states’ request, confirming a paused strike.",
+      "text": "US President Trump announced he paused a planned attack on Iran, signaling a nuclear deal may be possible.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 702
+    },
+    {
+      "date": "May 17",
+      "text": "Trump revealed a planned US strike on Iran, stating the US Army was ready, but then called it off at the request of Gulf allies who indicated a peace deal is close.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 701
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQS0w1ZTJRR0FaR0gyVlFzOU8yOGRZTkhLcXBSdE5Idk9nbDRyeFB0OUFncHBaT1E1c1FFeHNpTEhISDZ5VU5qdnpjR3ZIX3RzTng5TFFPZk1pQVplRXh4X21RZzFncnI2NW5CSHh6MlNSTkVwYkZlZFpyQ2k4YXZSRlRXNU5GSi1IUHJSTm5fRXhtWUxRQWRIY3VBOGtuMjJscVUwWkVMMl9UQWNSSXZyRlE4cXo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 702
     },
     {
       "date": "May 19",
-      "text": "Iran announces it will unveil a mechanism for charging tolls for passage through the Strait of Hormuz.",
+      "text": "Iran continues to grip the Strait of Hormuz, leading to new opportunities for Syria and Iran starting Bitcoin-backed shipping insurance for the strait.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 701
-    },
-    {
-      "date": "May 19",
-      "text": "Iran initiates Bitcoin-backed shipping insurance for vessels transiting the Strait of Hormuz.",
-      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 701
+      "latestSinceUpdate": 702
     },
     {
       "date": "May 19",
-      "text": "Israel attacks Lebanon, and a drone hits a UAE power plant amidst ongoing regional conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOaFBYYi1xZGg2dUdYTWJVa2RFdjZqTFRqUUdjYW1TeVA1VHM0WGoxZUdmZV9IVExWUm80dlBkUTlCOTAwQlNVYUk0YV81ZW11RzRKVTF6TmlYM1FtZFR1ZFc3RUFYUlg4aUJXMDc0UDNibkZwXzNmdHZmcG1FTnNZRU1LalZ3UktOSGpPTnpYQWNoWC0zbVdTVkg0aXBEdkRKUFd4TWtndjZhMXQ1dmpLSHVsMlZJVTBObHgxZ1YxN2plNXREQUtMcFd0dERudUd60gHCAUFVX3lxTFBBN2FYZU9GMm44dm1FM0dNeTVSWWliSkFMVFZZR1BYZV9DdTdvYkJaNnk0NGhfWXUtWldZR2xnS0VqOGVCMEl6SWpKNTEwOGJYUFFrU3VTUlpKUkluT2xuNWgtWXRfMElvRXZNUE1oLTVrSEJpTVBZSkdPa29xZklBX1o4R2x5U0ZTVHl1YTNXLUJzWFZiLWRoOG1UZkhJNUozWjB6cG0ydGVfUEE1MUJXR1NjcVAtd0lGcWp6MkFnRVJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 701
-    },
-    {
-      "date": "May 19",
-      "text": "The Israel-Hezbollah war persists despite a truce extension, with fighting intensifying and Lebanon's death toll passing 3,000.",
+      "text": "The Israel-Hezbollah war persists despite a truce extension, with Lebanon's death toll passing 3,000 and Hezbollah demonstrating evolving drone tactics.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNcHFmUWF1aGxtQjJHWWlHOHNDM0xSRVE5ZFRRWno5Skt4VUZ5VHBhanNfWklwbl9qdFo4dm9ZclVEa2tGWS1rY2dWNHNIUXNOMVJHX1RNR1ZfWjdELTlkdkRmZXNzSXZoSTFmbmk1WjR6czBmLU04THBiTDNuUlc3WjJyUi1IV29VTHVZWkYzRUdTQkVmVmR0WUJqc1I4UEFSdlh2YnBjeFhLMGNoTWhwc3UxRUpPUXZlUjA0eURxM0JGUGdNd3ZwaGhkejI4dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 701
+      "latestSinceUpdate": 702
     },
     {
       "date": "May 19",
-      "text": "Reports question the U.S. military's weapon reserves amidst ongoing global commitments.",
-      "severity": "info",
+      "text": "Hezbollah launched 14 rocket and drone strikes on IDF soldiers in South Lebanon, indicating an all-out engagement.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 701
+      "latestSinceUpdate": 702
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

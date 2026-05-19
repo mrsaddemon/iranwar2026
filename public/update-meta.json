@@ -1,13 +1,13 @@
 {
-  "updateSequence": 701,
+  "updateSequence": 702,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T01:31:47.747Z",
+  "lastSyncedAt": "2026-05-19T05:44:46.098Z",
   "warDay": 81,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah has been extended but fighting continues to intensify, leading to significant casualties in Lebanon."
+    "summary": "No comprehensive ceasefire is active, though a US strike on Iran was paused and a truce extension was reported for Israel-Hezbollah amidst ongoing conflict."
   }
 }
