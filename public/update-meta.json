@@ -1,13 +1,13 @@
 {
-  "updateSequence": 706,
+  "updateSequence": 707,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T17:19:36.071Z",
+  "lastSyncedAt": "2026-05-19T19:20:36.823Z",
   "warDay": 81,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "An extended truce between Israel and Hezbollah has collapsed, with conflict persisting and casualties rising in Lebanon."
+    "summary": "No comprehensive ceasefire is active for the broader US-Iran tensions, though a truce extension for Israel-Hezbollah is mentioned but appears fragile."
   }
 }
