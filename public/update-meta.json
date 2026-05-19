@@ -1,13 +1,13 @@
 {
-  "updateSequence": 703,
+  "updateSequence": 704,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T08:48:56.431Z",
+  "lastSyncedAt": "2026-05-19T11:47:35.208Z",
   "warDay": 81,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A truce extension between Israel and Hezbollah is in effect, but conflict persists despite it."
+    "summary": "A potential ceasefire between the US and Iran is reported to be on life support, with ongoing threats and negotiations."
   }
 }
