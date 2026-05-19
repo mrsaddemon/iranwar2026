@@ -1,51 +1,51 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 704,
+  "updateSequence": 705,
   "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T11:47:35.208Z",
+  "lastSyncedAt": "2026-05-19T14:18:56.885Z",
   "warDay": 81,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Tensions between the US and Iran escalate over the Strait of Hormuz, with international calls for its reopening, while the Israel-Hezbollah conflict persists despite a fragile truce extension.",
   "lastNarrativeUpdate": "2026-05-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 10,
-    "summary": "A potential ceasefire between the US and Iran is reported to be on life support, with ongoing threats and negotiations."
+    "confidence": 0.93,
+    "durationDays": 25,
+    "summary": "An extended ceasefire between Israel and Lebanon is in effect, but the conflict with Hezbollah persists, indicating a fragile adherence to the truce."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.75,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 78
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 88,
+    "tradeImpact": 64,
     "sanctionsPressure": 54,
     "globalPressure": 66,
     "allianceInfluence": 51
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Trump signals a nuclear deal with Iran may be possible after pausing an attack.",
+      "text": "Qatar indicates that negotiations regarding the Iran conflict require additional time.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 704
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 705
     },
     {
-      "date": "May 17",
-      "text": "Trump warns Iran 'clock is ticking' for a deal with the US.",
+      "date": "May 18",
+      "text": "Reports suggest the Iran conflict is straining the strategic alliance between the US and European nations.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNd0FBWUVpLTU3SUlxSkhWNDRjanUxNXgxVHNlMVZMN1pWcTRLNWxwWGZDTDJTRWYwX1QycmctN2R2ZjhIZjZRbU80UHJ5bWZPNTdYc3JPS3ZwNTRKMXE5ZTFSU3hNZzFTdGJwcE5wS19fT3lRclNmSTVvOVNtM2FDSEVHOXhMZWV5akF2NEVha3huUExGcWVLOG96QlRwYWs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Conversation",
+      "latestSinceUpdate": 705
+    },
+    {
+      "date": "May 18",
+      "text": "Trump states that a planned attack on Iran was held off following requests from Gulf states.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNNIBwgFBVV95cUxPcWRGdWhXT2FIMENnaGR6Q1JLeV9qc3NFY1hkcmNYNXBTLXl4eFQ0aUhsVEFrOVFSV2tUd2lFRDNGUFZTSlQxWXd1WFVnVFhnV0FRYjdXVTNtQVdpQk1fdl9FOHowYktWUXlsOXVYbkVxNFRDQ2hHUFZDblNqSnQtRmdlMmF6X1FfU19VcHowYzcwaThhUktzNnlieHljWTUtS3ZPMFRrRDNsa2dFQmtvMDdaeGEzOUFUcUg3enViZmJfdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 705
+    },
+    {
+      "date": "May 18",
+      "text": "A significant strike is reported to have altered the dynamics of the ongoing conflict.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 705
+    },
+    {
+      "date": "May 19",
+      "text": "Trump issues a warning to Tehran, stating that 'the clock is ticking' for a deal with the US.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPS1N6LWkyaW1VbTREcm5Pcy12eWlBWDRJOENBN25SdmxKeE40MHBROUlIamc5T0NXRDlsMnFscXVaUHdNbDBzLVk2RkFNYk9ham92LUxxMzZCSk9VVFdnVjdUSkNHNlNBUjNWWnhHVmZhNUZFNlI4VmstQ2JvS1JMMGZkU1BTNFRNSkRKbUNoVWdicmZLWjZ1U0Rfb1E3ZU9BanQ2OFFFMEhZZklqZ3NCU25iTkJ2UVJablBkMdIBwgFBVV95cUxQQTdhWGVPRjJuOHZtRTNHTXk1UllpYkpBTFRWWUdQWGVfQ3U3b2JCWjZ5NDRoX1l1LVpXWUdsZ0tFajhlQjBJeklqSjUxMDhiWFBRa1N1U1JaSlJJbk9sbjVoLVl0XzBJb0V2TVBNaC01a0hCaU1QWUpHT2tvcWZJQV9aOEdseVNGU1R5dWEzVy1Cc1hWYi1kaDhtVGZISTVKM1owenBtMnRlX1BBNTFCV0dTY3FQLXdJRnFqejJBZ0VSUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 704
+      "latestSinceUpdate": 705
     },
     {
-      "date": "May 17",
-      "text": "Iran threatens to 'teach a lesson' if the U.S. attacks.",
+      "date": "May 19",
+      "text": "Iran's military reportedly informs the US that it has only one option in the current standoff.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 704
-    },
-    {
-      "date": "May 17",
-      "text": "Trump cancels attack on Iran at the last minute, citing a pending deal.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 704
-    },
-    {
-      "date": "May 17",
-      "text": "Strait of Hormuz blocked, leading to cargo ships braving gunfire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxOZG1KSmc0bldNT0RxMW51czNKR294V25tRDZ6VUVCb09vUWRzUExMa0UxcGF6c3puSXAxRjdqQ1A2NVBKbXlNNmRBWnhmNDRNdEZnTUNHUDRxem5yc1JycUpJRmU0WncyQVhZZ0UwNHN5OTNKT2ZRcFV2eXVScEFVYzQzY2pyXzRLQno5WGp3blhaeUtVeE9jaDBnbnNoLUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 704
-    },
-    {
-      "date": "May 17",
-      "text": "IDF strikes more than 25 Hezbollah targets; death toll in Lebanon passes 3,000.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOQnJBNHR6bWUwOU9RLXc3Z0VwN1QydmZhaWZrcE8tYTVaNEVEaUJJbXQzQ2UtOVVLd0g3bzB6Y1k5SFdfVEtVLXV5TkdtbllrRzlqR2dwTGZhdmk2WDR4NHllUXQ1SjhWbVFwTy1TY0hlbmpIWHpZUldRcEJxeDNNeE1MTk5BdDJ0ZUw2alQwNkFYU190R3hnOGI3MHBSYTJ5alZ2TU11OUU4c1RhOXFvbC1WR0Y?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 704
+      "latestSinceUpdate": 705
     }
   ],
   "sourceStatuses": [
