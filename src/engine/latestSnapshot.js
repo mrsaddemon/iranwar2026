@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 700,
-  "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T23:31:49.434Z",
-  "warDay": 80,
-  "summary": "Tensions remain high between the US and Iran, with President Trump warning of potential strikes while also engaging in negotiations, as a fragile ceasefire in the Israel-Lebanon conflict sees continued violations and Iran explores new mechanisms for Hormuz Strait shipping.",
-  "lastNarrativeUpdate": "2026-05-18",
+  "updateSequence": 701,
+  "lastUpdated": "2026-05-19",
+  "lastSyncedAt": "2026-05-19T01:31:47.747Z",
+  "warDay": 81,
+  "summary": "Tensions remain high between the US and Iran following a paused US strike, while the Israel-Hezbollah conflict persists despite a truce, and Iran threatens shipping in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-05-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah is active but remains fragile, with reports of continued violations and significant casualties in Lebanon."
+    "summary": "A ceasefire between Israel and Hezbollah has been extended but fighting continues to intensify, leading to significant casualties in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 80,
     "tradeImpact": 58,
     "sanctionsPressure": 54,
     "globalPressure": 64,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 17",
-      "text": "Trump states planned attack on Iran was held off upon Gulf states’ request and ongoing negotiations.",
+      "text": "Trump says planned attack on Iran was held off upon Gulf states’ request, confirming a paused strike.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNQ3BDQ1VQdWtIeDFYbkN6aFNpdDdsdEszTkl3aEN6b2pma05MOFNnZHRSNzdFZmJrQzAzY0ZTTEZXVDhfWXQ0b1J4TW95V25KbFEtdXBlaUo3a1R3OGdmQWZIaFJ1N3FxOV9FRnhMZlNPUzBZbXNzZHZxUzRQaldBcDlKQURGVHlLaXV0YlB3ZEVvVEttTjRLd0NKc2E2Nk5zYS05eDE0MWNibldKX3Q5QUZFWWMtM2NrR2JfNA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 700
+      "latestSinceUpdate": 701
     },
     {
-      "date": "May 18",
-      "text": "Lebanon death toll reaches 3,000 in fighting between Israel and Hezbollah.",
+      "date": "May 19",
+      "text": "Iran announces it will unveil a mechanism for charging tolls for passage through the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOOU9GU2l6RElWa0RGUGNwZnk2SDZQRTM0bnFMZFVLS3FkakxxZ0ROZXVDYzRscEpPNEtwaGhJSUI3cko4LTZ1cTVseTZmbW90M1MtLTFRZXBNbFM1bHE3a3plcVVrZVNFYnpvX19hQU85U0RaRkZXTHRycDZfNUZxU1ZuRC1Ua2JGamQ0dVBmSkFMSTRBS1BEUmJ1cVZvcENJeVduc3J1NXVkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 700
-    },
-    {
-      "date": "May 18",
-      "text": "Israel attacks Lebanon, killing at least five, despite an extended ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQd1UwRnRjZURqLWFtbWNVS0hxaElkYV9nalpEQVVlSkVONG5VSTJDOWZzUnQtM0NCNmJNV1I4amFIbDczeFFMRnlNRnFPUXoxakpqX2lRX2c2dExQUjVGTnpvNVhrX1MtSGFycThZSVZ0b182c1Z1NElvc3BpNDhoTVRsX0xCbHdtd2lzNTc2Y0hpa2V6bUtCaW14QXdaWERMQnJaXzhGd0hiM1VmN0HSAbMBQVVfeXFMUENyVkM1cE5nNTg1bUZ6UE5KdWQ0VjQzcllBcGdwMDVrRk1kajBzX0x6S0hzWjEzRnliS1hDeUgtZGlsZXhIamJXRUxhaWplLWpsdXEyc0I5bnpsaDcwUGJldm1oYzVzdUk1TE50QVFNcmR4a1l1VlVPSTc2TERoWlVkeTBhRFBCd0lic1lLVjh2WGdWUkQxaFoxekZWZjcwM3JwbE9jTkRVUXRZbTZKWHhKVnM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 700
-    },
-    {
-      "date": "May 18",
-      "text": "Hezbollah drone strike videos show evolving tactics against Israel, including an IDF platoon commander killed.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 700
-    },
-    {
-      "date": "May 18",
-      "text": "Iran announces plans to unveil a Hormuz toll mechanism and launches Bitcoin-backed shipping insurance.",
-      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 700
+      "latestSinceUpdate": 701
     },
     {
-      "date": "May 18",
-      "text": "A drone hits a UAE power plant.",
+      "date": "May 19",
+      "text": "Iran initiates Bitcoin-backed shipping insurance for vessels transiting the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 701
+    },
+    {
+      "date": "May 19",
+      "text": "Israel attacks Lebanon, and a drone hits a UAE power plant amidst ongoing regional conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOaFBYYi1xZGg2dUdYTWJVa2RFdjZqTFRqUUdjYW1TeVA1VHM0WGoxZUdmZV9IVExWUm80dlBkUTlCOTAwQlNVYUk0YV81ZW11RzRKVTF6TmlYM1FtZFR1ZFc3RUFYUlg4aUJXMDc0UDNibkZwXzNmdHZmcG1FTnNZRU1LalZ3UktOSGpPTnpYQWNoWC0zbVdTVkg0aXBEdkRKUFd4TWtndjZhMXQ1dmpLSHVsMlZJVTBObHgxZ1YxN2plNXREQUtMcFd0dERudUd60gHCAUFVX3lxTFBBN2FYZU9GMm44dm1FM0dNeTVSWWliSkFMVFZZR1BYZV9DdTdvYkJaNnk0NGhfWXUtWldZR2xnS0VqOGVCMEl6SWpKNTEwOGJYUFFrU3VTUlpKUkluT2xuNWgtWXRfMElvRXZNUE1oLTVrSEJpTVBZSkdPa29xZklBX1o4R2x5U0ZTVHl1YTNXLUJzWFZiLWRoOG1UZkhJNUozWjB6cG0ydGVfUEE1MUJXR1NjcVAtd0lGcWp6MkFnRVJR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 700
+      "latestSinceUpdate": 701
+    },
+    {
+      "date": "May 19",
+      "text": "The Israel-Hezbollah war persists despite a truce extension, with fighting intensifying and Lebanon's death toll passing 3,000.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNcHFmUWF1aGxtQjJHWWlHOHNDM0xSRVE5ZFRRWno5Skt4VUZ5VHBhanNfWklwbl9qdFo4dm9ZclVEa2tGWS1rY2dWNHNIUXNOMVJHX1RNR1ZfWjdELTlkdkRmZXNzSXZoSTFmbmk1WjR6czBmLU04THBiTDNuUlc3WjJyUi1IV29VTHVZWkYzRUdTQkVmVmR0WUJqc1I4UEFSdlh2YnBjeFhLMGNoTWhwc3UxRUpPUXZlUjA0eURxM0JGUGdNd3ZwaGhkejI4dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 701
+    },
+    {
+      "date": "May 19",
+      "text": "Reports question the U.S. military's weapon reserves amidst ongoing global commitments.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 701
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Stance",
-      "headline": "Trump Issues Ultimatum to Iran",
-      "summary": "The US President has publicly stated that time is running out for Iran to reach a deal with the United States. This rhetoric suggests an impending decision on further US actions against Tehran.",
-      "tone": "defiant",
-      "latestSinceUpdate": 691
-    },
-    {
-      "perspective": "Regional Security",
-      "headline": "Hormuz Strait Tensions Escalate",
-      "summary": "Iran is threatening to implement a new toll mechanism in the Strait of Hormuz, raising concerns about potential disruptions to global shipping. US officials view the current situation in the strait as detrimental to international interests.",
-      "tone": "anxious",
-      "latestSinceUpdate": 691
-    },
-    {
-      "perspective": "Lebanon Conflict",
-      "headline": "Lebanon Ceasefire Under Strain",
-      "summary": "Despite an extended ceasefire, Israeli forces have launched new attacks in Lebanon, leading to casualties and eroding the fragile agreement. Hezbollah has also demonstrated evolving drone tactics, contributing to the instability.",
+      "perspective": "US-Iran Tensions",
+      "headline": "Trump's Mixed Signals on Iran Strike",
+      "summary": "President Trump publicly revealed a planned military strike on Iran but stated he called it off, citing requests from Gulf states and ongoing negotiations. He warns Tehran that 'the clock is ticking' for a deal.",
       "tone": "strained",
-      "latestSinceUpdate": 691
+      "latestSinceUpdate": 701
     },
     {
-      "perspective": "US Military Critique",
-      "headline": "Concerns Over US Military Conduct",
-      "summary": "Critics argue that the current US administration's policies are negatively impacting the military's effectiveness and ethical standards. Reports indicate the Pentagon has ceased a program designed to prevent civilian casualties, raising questions about operational precision.",
+      "perspective": "Strait of Hormuz Control",
+      "headline": "Iran's Economic Leverage Over Hormuz",
+      "summary": "Iran is moving to assert economic control over the Strait of Hormuz, announcing plans for a toll mechanism and launching Bitcoin-backed shipping insurance, potentially disrupting global shipping and internet cables.",
+      "tone": "defiant",
+      "latestSinceUpdate": 701
+    },
+    {
+      "perspective": "Israel-Hezbollah Conflict",
+      "headline": "Intensifying War Despite Truce",
+      "summary": "The conflict between Israel and Hezbollah continues to escalate despite a truce extension, with Israel attacking Lebanon and Hezbollah employing evolving drone tactics, resulting in a high death toll in Lebanon.",
+      "tone": "anxious",
+      "latestSinceUpdate": 701
+    },
+    {
+      "perspective": "US-European Alliance",
+      "headline": "Iran War Strains US-European Alliance",
+      "summary": "The ongoing situation with Iran is reportedly causing a significant strain on the strategic alliance between the United States and European nations, indicating diverging interests or approaches.",
       "tone": "skeptical",
-      "latestSinceUpdate": 691
+      "latestSinceUpdate": 701
     }
   ]
 });

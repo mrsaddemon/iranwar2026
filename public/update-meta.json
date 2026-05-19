@@ -1,13 +1,13 @@
 {
-  "updateSequence": 700,
-  "lastUpdated": "2026-05-18",
-  "lastSyncedAt": "2026-05-18T23:31:49.434Z",
-  "warDay": 80,
+  "updateSequence": 701,
+  "lastUpdated": "2026-05-19",
+  "lastSyncedAt": "2026-05-19T01:31:47.747Z",
+  "warDay": 81,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah is active but remains fragile, with reports of continued violations and significant casualties in Lebanon."
+    "summary": "A ceasefire between Israel and Hezbollah has been extended but fighting continues to intensify, leading to significant casualties in Lebanon."
   }
 }
