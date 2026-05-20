@@ -1,13 +1,13 @@
 {
-  "updateSequence": 710,
-  "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T23:35:51.967Z",
-  "warDay": 81,
+  "updateSequence": 711,
+  "lastUpdated": "2026-05-20",
+  "lastSyncedAt": "2026-05-20T01:33:03.403Z",
+  "warDay": 82,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 3,
-    "summary": "A truce extension between Israel and Hezbollah is in effect, but fighting and casualties persist, indicating a highly fragile situation."
+    "summary": "No ceasefire is currently in effect, with rhetoric indicating potential escalation of conflict."
   }
 }

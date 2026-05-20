@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 710,
-  "lastUpdated": "2026-05-19",
-  "lastSyncedAt": "2026-05-19T23:35:51.967Z",
-  "warDay": 81,
-  "summary": "Tensions remain high between the US and Iran with threats of military action and diplomatic efforts, while the Israel-Hezbollah conflict continues despite a truce extension, and concerns rise over the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-05-19",
+  "updateSequence": 711,
+  "lastUpdated": "2026-05-20",
+  "lastSyncedAt": "2026-05-20T01:33:03.403Z",
+  "warDay": 82,
+  "summary": "Tensions are extremely high with warnings of imminent attacks between the US and Iran, ongoing conflict between Israel and Hezbollah, and significant disruptions in the Strait of Hormuz impacting global oil supply.",
+  "lastNarrativeUpdate": "2026-05-20",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 3,
-    "summary": "A truce extension between Israel and Hezbollah is in effect, but fighting and casualties persist, indicating a highly fragile situation."
+    "summary": "No ceasefire is currently in effect, with rhetoric indicating potential escalation of conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "nuclearIndex": 60,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 19",
-      "text": "Trump states an attack on Iran could occur in 'two or three days' if no deal is reached, but also indicates delays for diplomatic push.",
+      "date": "May 20",
+      "text": "Trump warns of attacks in ‘two or three days’ if no deal with Iran is reached.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 710
+      "latestSinceUpdate": 711
     },
     {
-      "date": "May 19",
-      "text": "A ship's crew reportedly encountered a hail of bullets in the Strait of Hormuz, raising maritime security concerns.",
+      "date": "May 20",
+      "text": "JD Vance states the US remains ‘locked and loaded’ to restart military campaign as Iran warns of ‘new fronts’.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOS1hscWxkWjFhNndadUQ5LVByX0V0eG53bExSa21tM1J6dHYyNVFrTHpZVF81YWhTcXUyVVN3QVhsSWYxSFFxS1Z5eHMwRU5KSTJjT0VfZi0wbE5xZlkwWWluWDhoTU5YbnVDS0M2RnhsR3V4NTY0WEVpLVdJdWZsRTRDUkZpN3FxakFlYVhhaXkxbE5PQ3RoMWxLTGZwQmUwU1NlMklDQW9VaGxUemFmcVBXTV93NVhJNEFLOWJzU1ZzbUQ0am5idDVQaTYySkxlQ3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 711
+    },
+    {
+      "date": "May 20",
+      "text": "Israel is reportedly preparing for a renewal of the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 711
+    },
+    {
+      "date": "May 20",
+      "text": "Iran may fire hundreds of missiles daily at Israel if war resumes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFA0S1RNSUhLbXVGV19EWHk3eGYxdjRfeGRIT2t2ZEtVWlppLVZ4aWV6b2pZNlpKb3R1TUl3WXRYNFh3bjBRUGdGNmt0cXpDZFltRzE4N3lEZnlTT1VudE1KaS1qNmJEclllT0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 711
+    },
+    {
+      "date": "May 20",
+      "text": "A ship’s crew risked the Strait of Hormuz and met with a hail of bullets.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxOZG1KSmc0bldNT0RxMW51czNKR294V25tRDZ6VUVCb09vUWRzUExMa0UxcGF6c3puSXAxRjdqQ1A2NVBKbXlNNmRBWnhmNDRNdEZnTUNHUDRxem5yc1JycUpJRmU0WncyQVhZZ0UwNHN5OTNKT2ZRcFV2eXVScEFVYzQzY2pyXzRLQno5WGp3blhaeUtVeE9jaDBnbnNoLUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Washington Post",
-      "latestSinceUpdate": 710
+      "latestSinceUpdate": 711
     },
     {
-      "date": "May 19",
-      "text": "Israeli strikes on southern Lebanon killed 19 people, including children and women, with the death toll passing 3,000.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxOM3l4Z3JscklGTVV6UG9YaTBzZmI2ek0yaC11NHpOdURhdmd1Sy1TTlg2cUY3T2VrczFsS3FJS0hmZU80N3d6Nm55QmJIdEowYWxVdG1VU1VhMFg5VDItNWY4eEVyQnQzLXZKZTZpZ3JhVXZnQ0FUczdXX1VVZGtzT1pXM3FpWF91azB4QTMxQ28tRDFOZEVTaHBBSTE5RVlDNTYwd2ZONFRLRy15QVpsSW5HUjZqZHZ6WWNyZDlGOW9JZk9XcXJoOXM1S2ZLMEtsYkpVTWVvQUh3UUg2SGo1bkZRMDEwMjFTa2haQ2doYzJDQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 710
-    },
-    {
-      "date": "May 19",
-      "text": "Iran warns it may fire hundreds of missiles daily at Israel if war resumes and speaks of 'new fronts'.",
+      "date": "May 20",
+      "text": "Chinese tankers exit Strait of Hormuz with 4 million barrels of crude oil, indicating potential disruption.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFA0S1RNSUhLbXVGV19EWHk3eGYxdjRfeGRIT2t2ZEtVWlppLVZ4aWV6b2pZNlpKb3R1TUl3WXRYNFh3bjBRUGdGNmt0cXpDZFltRzE4N3lEZnlTT1VudE1KaS1qNmJEclllT0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 710
-    },
-    {
-      "date": "May 19",
-      "text": "NATO is reportedly considering a deployment to the Strait of Hormuz to protect ships, though a top commander denies drawing up plans.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOOTZNTVNNQ1l5elFEQzQ5empmSHp3d05DeTNlaDYtMGZnZHZjZThRS0ZPWjZoRl9OOGNabXd2VEVTNTQ2bktWcDRWMC0yaGh6Qjl6ek5hVEp1WEkyZFNUVlhlckRLTDV4c3BCZzBpYmxSVXlJTkhRTG9rbmNWX1c0dnJrODF4T1lmNkU2bnl2NlVjMlhyNGlsZi16YXBoTUd6dzdCU05mZlpkQUlvSzhNV2VQbHdEVjN1VkpSSE8yMmJheFktajNPZEwxMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPVXNrRTVhT0c5MGxfUmJneWZOYWpMblUyU2pHRFUzS1czM1ZWaTY5XzVCcHZKUzZnMnBpZ2wydzdSSS1uNExYd21adTY2QlkwODBIUmNpeHBtTG1rblN5dzJOUkxjLVFzYV9xQUctWmxXcWNJTTdNVGpCbnlqYkZTQW5RN084YTU2QklES3VuX21kTUJBR2Y5akFzOFBUd3BEVE5HdkYwdk5wSktsS2pvZHM5QUwtSUhONkNqQ0UweE1fNWN0emdQZTZR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 710
-    },
-    {
-      "date": "May 19",
-      "text": "Reports highlight shortcomings in the U.S. Military Industrial Base amidst the Iran War context.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPUjJwRTNMbzdFTncyM0pQWC13Yk54YVZ6ZHVZNjZBU0VCSktDTmdBUElCTlFtUkdNcmNJVk0tX0w5S0xjY01KVnRETG1ic0NjWWRxYVhSa3R1NWlGT0kySmJ3M1lVM3ZCYUVQRkh1RVY3N3ZQT3dYY0tqdEs1d25saUtqbWtLVEl0QTZXc3FmTmxodGh2TlRz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 710
+      "latestSinceUpdate": 711
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US-Iran Tensions",
-      "headline": "Trump's Mixed Signals on Iran Strike",
-      "summary": "President Trump publicly revealed a planned military strike on Iran but stated he called it off, citing requests from Gulf states and ongoing negotiations. He warns Tehran that 'the clock is ticking' for a deal.",
-      "tone": "strained",
-      "latestSinceUpdate": 701
-    },
-    {
-      "perspective": "Strait of Hormuz Control",
-      "headline": "Iran's Economic Leverage Over Hormuz",
-      "summary": "Iran is moving to assert economic control over the Strait of Hormuz, announcing plans for a toll mechanism and launching Bitcoin-backed shipping insurance, potentially disrupting global shipping and internet cables.",
+      "perspective": "US Policy",
+      "headline": "US warns Iran of imminent attacks, maintains readiness.",
+      "summary": "US officials, including former President Trump and Senator JD Vance, have issued strong warnings to Iran, indicating a readiness for military action if a deal is not reached or if conflict resumes. Trump stated attacks could occur in 'two or three days' if no agreement is made.",
       "tone": "defiant",
-      "latestSinceUpdate": 701
+      "latestSinceUpdate": 711
     },
     {
-      "perspective": "Israel-Hezbollah Conflict",
-      "headline": "Intensifying War Despite Truce",
-      "summary": "The conflict between Israel and Hezbollah continues to escalate despite a truce extension, with Israel attacking Lebanon and Hezbollah employing evolving drone tactics, resulting in a high death toll in Lebanon.",
+      "perspective": "Iranian Response",
+      "headline": "Iran threatens 'new fronts' and massive missile retaliation.",
+      "summary": "Iran has warned of opening 'new fronts' in response to potential conflict and threatened to fire hundreds of missiles daily at Israel if war resumes. This indicates a strong defensive and retaliatory posture from Tehran.",
+      "tone": "defiant",
+      "latestSinceUpdate": 711
+    },
+    {
+      "perspective": "Israeli Security",
+      "headline": "Israel prepares for Iran war, faces Hezbollah drone threat.",
+      "summary": "Israel is reportedly preparing for a renewal of war with Iran while simultaneously dealing with significant challenges from Hezbollah drones, which are restricting military operations in southern Lebanon. The death toll from Israeli strikes in Lebanon has surpassed 3,000.",
+      "tone": "strained",
+      "latestSinceUpdate": 711
+    },
+    {
+      "perspective": "Global Energy/Trade",
+      "headline": "Strait of Hormuz incidents raise oil disruption fears.",
+      "summary": "Incidents involving ships in the Strait of Hormuz, including a vessel meeting a 'hail of bullets,' and Chinese tankers exiting with crude oil, highlight the vulnerability of the critical waterway. This has led to blunt warnings from energy executives and concerns about global oil prices and supply disruptions.",
       "tone": "anxious",
-      "latestSinceUpdate": 701
-    },
-    {
-      "perspective": "US-European Alliance",
-      "headline": "Iran War Strains US-European Alliance",
-      "summary": "The ongoing situation with Iran is reportedly causing a significant strain on the strategic alliance between the United States and European nations, indicating diverging interests or approaches.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 701
+      "latestSinceUpdate": 711
     }
   ]
 });
