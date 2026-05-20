@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 715,
+  "updateSequence": 716,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T14:12:19.088Z",
+  "lastSyncedAt": "2026-05-20T17:33:05.662Z",
   "warDay": 82,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "US President Trump has indicated a pause in military action against Iran to pursue a potential nuclear deal, while Israeli forces continue strikes in Lebanon amidst ongoing clashes with Hezbollah despite a ceasefire.",
   "lastNarrativeUpdate": "2026-05-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is active but frequently violated by ongoing clashes and strikes."
+    "summary": "A ceasefire is nominally in effect between Israel and Hezbollah, but significant clashes and casualties have been reported in Lebanon, indicating severe violations."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
-    "allianceInfluence": 51
+    "globalPressure": 57,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 20",
-      "text": "Israel is reportedly preparing for a renewal of war with Iran.",
+      "text": "Trump says he paused attack on Iran, signals a nuclear deal may be possible.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 714
-    },
-    {
-      "date": "May 20",
-      "text": "Trump stated he paused an attack on Iran, signaling a nuclear deal may be possible.",
-      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 715
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 716
     },
     {
       "date": "May 20",
-      "text": "A senior U.S. official deemed Iran's new offer insufficient, risking war resumption.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNd0QwVGRhVEVNTVM2R0VTN0lHUTRxS0pZRmhBWlgzRzZ0T2luVTlNcTl4YTdWNFVJaGVqQ1huX2RKeTJKTnNNQVd0d0RzWVk3b3Fud2M3Qzhya0JFRlhIVUg5VDN4YkRURDVSMWZrRUNFaE1zOFlZRUVXVGp5Y1hYWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 715
-    },
-    {
-      "date": "May 20",
-      "text": "Iran threatened to fire hundreds of missiles daily at Israel if war resumes.",
+      "text": "Israeli strikes on Lebanon kill at least 19 as clashes with Hezbollah continue despite ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFA0S1RNSUhLbXVGV19EWHk3eGYxdjRfeGRIT2t2ZEtVWlppLVZ4aWV6b2pZNlpKb3R1TUl3WXRYNFh3bjBRUGdGNmt0cXpDZFltRzE4N3lEZnlTT1VudE1KaS1qNmJEclllT0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 715
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPWmJQWGtnRWdqTlUtM1hoa3BoM1VtalYxc3Bsa2ZnTHhCZFBQN2p6R2VGVjBIM1FaQVpfNzF0YUtrRHVLa1lvMnh2M0QzV2JZb2xCQTdEcVpXOWJEWWtsWC1OaEticEJfb2M5YXpva1VXV0NvdTc4ZkxwaVdpRlJnM2x3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 716
     },
     {
       "date": "May 20",
-      "text": "Tankers carrying 6 million barrels of crude oil exited the Strait of Hormuz, with Iran's Guards coordinating 26 ships.",
+      "text": "Iran claims it coordinated passage of 26 vessels out of Hormuz in 24 hours.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPVXNrRTVhT0c5MGxfUmJneWZOYWpMblUyU2pHRFUzS1czM1ZWaTY5XzVCcHZKUzZnMnBpZ2wydzdSSS1uNExYd21adTY2QlkwODBIUmNpeHBtTG1rblN5dzJOUkxjLVFzYV9xQUctWmxXcWNJTTdNVGpCbnlqYkZTQW5RN084YTU2QklES3VuX21kTUJBR2Y5akFzOFBUd3BEVE5HdkYwdk5wSktsS2pvZHM5QUwtSUhONkNqQ0UweE1fNWN0emdQZTZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 715
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPUnFmWjlicTVSMFR5dTE2UVlCNzFLNWtuVlpDU05zbE1Jc2hTWG5zNVA0d2o0WWUyeDVjRVdFdmlFc19MMUhudS1GdTVyVUlobUR6bzlONGxXZXpZakZoMWtxTXlybndaaC1kQzVJNU9PdDFDWEFkWmhOeUk5emtLSm5zN3hEaFFkN0N1NlRjVFNmMjFiMkFqeHloam1nNzJzd3dYa3VlUE1aS3EybThNZjVn0gG3AUFVX3lxTE1pbGRzYUxOZkRWUWozdFJJem9Qc25CV2pWV2ItUmpmYnZUY1hRNV9lZlFBX0JVWTV5ajV6bW40SENIbm42cUxjYTRLTDFNeHlkaEl0bDF2V19JX1RjQVEwbWIwamt3OHhjSDhEUFcxVGtEdU5GRW1fblMzRkxUdVB1UW93VVFMVEtRSkRzZklONHJSWWZpZnYyZ0pBcldYNWs3SV9TczdLQks4U1VOSTRRbHRxVERlbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 716
     },
     {
       "date": "May 20",
-      "text": "Tanker owners were warned to expect GPS blackouts in the Strait of Hormuz.",
+      "text": "US Senate advances measure to end military action in Iran in rebuke to Trump.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPelNYZEVHYTRsX0FQTUhVZXI1a1NvRzhHOXptdVctQUJPbFJtUkJ1TUJIU2RsQnEzMS01UC1Qa2JTbW02UGdqRV9VQnZBNmlwMXNtTnpRS3VtVjlxcmoxWkg0eXRHOXZjVTNkSWtqcU1oRHFSd3RVcnhuVk04UUtFcWhtdWFjbnFPU0VhZjUzUl9MZFFaY3NkT2swQUQ1LVVFNllXYUh1cENKNWhLUUxJ0gG0AUFVX3lxTE8yWWstMUl3NFRFaHRrOGhtUGczSzNrdmNYUHFmU2l0RTkwazRNWWMyc2Y1b3psbTVVVy1KNlFLQmFEQkVGbWlYQlNnc3pMZlhJaGdXZFFaWEdJdkdlT3cxUWJNSkxEcFEtb3VlcHhTT29pRkN1SVRtTUtCME91Z1N5ZHFWdXo4UzU0cUVjbG1USTlKTlFWM1ZTclFpWld0RzhLNGNuWWV1M1FSd2hBQ3pPemZIVw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 716
+    },
+    {
+      "date": "May 20",
+      "text": "JD Vance says US remains ‘locked and loaded’ to restart military campaign as Iran warns of ‘new fronts’.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 715
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOS1hscWxkWjFhNndadUQ5LVByX0V0eG53bExSa21tM1J6dHYyNVFrTHpZVF81YWhTcXUyVVN3QVhsSWYxSFFxS1Z5eHMwRU5KSTJjT0VfZi0wbE5xZlkwWWluWDhoTU5YbnVDS0M2RnhsR3V4NTY0WEVpLVdJdWZsRTRDUkZpN3FxakFlYVhhaXkxbE5PQ3RoMWxLTGZwQmUwU1NlMklDQW9VaGxUemFmcVBXTV93NVhJNEFLOWJzU1ZzbUQ0am5idDVQaTYySkxlQ3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 716
     }
   ],
   "sourceStatuses": [
