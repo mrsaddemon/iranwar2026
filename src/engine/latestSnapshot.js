@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 716,
+  "updateSequence": 717,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T17:33:05.662Z",
+  "lastSyncedAt": "2026-05-20T19:50:41.580Z",
   "warDay": 82,
-  "summary": "US President Trump has indicated a pause in military action against Iran to pursue a potential nuclear deal, while Israeli forces continue strikes in Lebanon amidst ongoing clashes with Hezbollah despite a ceasefire.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A ceasefire is nominally in effect between Israel and Hezbollah, but significant clashes and casualties have been reported in Lebanon, indicating severe violations."
+    "summary": "A truce between Israel and Hezbollah was extended, but fighting persists in Lebanon with mounting casualties, indicating a fragile and partially violated agreement."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 29,
     "sanctionsPressure": 54,
     "globalPressure": 57,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 20",
-      "text": "Trump says he paused attack on Iran, signals a nuclear deal may be possible.",
-      "severity": "warning",
+      "text": "Trump states he paused an attack on Iran, indicating a nuclear deal may be possible.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 716
+      "sourceName": "Google News",
+      "latestSinceUpdate": 717
     },
     {
       "date": "May 20",
-      "text": "Israeli strikes on Lebanon kill at least 19 as clashes with Hezbollah continue despite ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPWmJQWGtnRWdqTlUtM1hoa3BoM1VtalYxc3Bsa2ZnTHhCZFBQN2p6R2VGVjBIM1FaQVpfNzF0YUtrRHVLa1lvMnh2M0QzV2JZb2xCQTdEcVpXOWJEWWtsWC1OaEticEJfb2M5YXpva1VXV0NvdTc4ZkxwaVdpRlJnM2x3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 716
-    },
-    {
-      "date": "May 20",
-      "text": "Iran claims it coordinated passage of 26 vessels out of Hormuz in 24 hours.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPUnFmWjlicTVSMFR5dTE2UVlCNzFLNWtuVlpDU05zbE1Jc2hTWG5zNVA0d2o0WWUyeDVjRVdFdmlFc19MMUhudS1GdTVyVUlobUR6bzlONGxXZXpZakZoMWtxTXlybndaaC1kQzVJNU9PdDFDWEFkWmhOeUk5emtLSm5zN3hEaFFkN0N1NlRjVFNmMjFiMkFqeHloam1nNzJzd3dYa3VlUE1aS3EybThNZjVn0gG3AUFVX3lxTE1pbGRzYUxOZkRWUWozdFJJem9Qc25CV2pWV2ItUmpmYnZUY1hRNV9lZlFBX0JVWTV5ajV6bW40SENIbm42cUxjYTRLTDFNeHlkaEl0bDF2V19JX1RjQVEwbWIwamt3OHhjSDhEUFcxVGtEdU5GRW1fblMzRkxUdVB1UW93VVFMVEtRSkRzZklONHJSWWZpZnYyZ0pBcldYNWs3SV9TczdLQks4U1VOSTRRbHRxVERlbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 716
-    },
-    {
-      "date": "May 20",
-      "text": "US Senate advances measure to end military action in Iran in rebuke to Trump.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPelNYZEVHYTRsX0FQTUhVZXI1a1NvRzhHOXptdVctQUJPbFJtUkJ1TUJIU2RsQnEzMS01UC1Qa2JTbW02UGdqRV9VQnZBNmlwMXNtTnpRS3VtVjlxcmoxWkg0eXRHOXZjVTNkSWtqcU1oRHFSd3RVcnhuVk04UUtFcWhtdWFjbnFPU0VhZjUzUl9MZFFaY3NkT2swQUQ1LVVFNllXYUh1cENKNWhLUUxJ0gG0AUFVX3lxTE8yWWstMUl3NFRFaHRrOGhtUGczSzNrdmNYUHFmU2l0RTkwazRNWWMyc2Y1b3psbTVVVy1KNlFLQmFEQkVGbWlYQlNnc3pMZlhJaGdXZFFaWEdJdkdlT3cxUWJNSkxEcFEtb3VlcHhTT29pRkN1SVRtTUtCME91Z1N5ZHFWdXo4UzU0cUVjbG1USTlKTlFWM1ZTclFpWld0RzhLNGNuWWV1M1FSd2hBQ3pPemZIVw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 716
-    },
-    {
-      "date": "May 20",
-      "text": "JD Vance says US remains ‘locked and loaded’ to restart military campaign as Iran warns of ‘new fronts’.",
+      "text": "Israel is reportedly preparing for a renewal of war with Iran, with Tehran given days to make a deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOS1hscWxkWjFhNndadUQ5LVByX0V0eG53bExSa21tM1J6dHYyNVFrTHpZVF81YWhTcXUyVVN3QVhsSWYxSFFxS1Z5eHMwRU5KSTJjT0VfZi0wbE5xZlkwWWluWDhoTU5YbnVDS0M2RnhsR3V4NTY0WEVpLVdJdWZsRTRDUkZpN3FxakFlYVhhaXkxbE5PQ3RoMWxLTGZwQmUwU1NlMklDQW9VaGxUemFmcVBXTV93NVhJNEFLOWJzU1ZzbUQ0am5idDVQaTYySkxlQ3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 716
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 717
+    },
+    {
+      "date": "May 20",
+      "text": "Iran's chief negotiator states preparation for a 'forceful response' to potential attacks, threatening hundreds of missiles daily.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNcGU2eXZBbFEydDVJQlA3M09Md1NuVXBObjdNazNiUGZSMnc2eTUtSUlyUnh0T2tZT0hBMTg0dTNNUUVvbFU0RzJYRHNRVElqSTlaeThLY2N4aU9rX0lMRDVhdGYtQnA0NExKRFRWZUtOOUFoVzd2a2owOWpMQjFWQzFqdC0wY2RxQ0xaemVCM2syUXN4c010YXFmYlAtZjlxNDMxWU9iUWVmVkhnWElRTUhrVVpfMmV5N3VEQVRFYzhlVGhSMmxsRlowT0hBaU9zRWfSAdgBQVVfeXFMTkZuUnFPZDZRdWlMNzA5ZHhBV3A0TzJmbGswRDhoSHZ1Z1hETTY2ZHo3Q0E1c0s2STdMbFpDU1lET2ZjQU81SkZnaGZ5RjZqMFlaSnd6RksxSEtWZGlQQjR6THR3TXpsMXg2N1VKam50Z1UzeWkxS1lILW9vRmN3a2laYnNIN3pPSjJhcVhzNEh1ZGF2SHBUeGZPRnVCTF85c25HWEc5dzJMdVdZbHFuN3FiRHE2Umo5aTBoY05QSkF5UnFhWDVCM0VjM182SWVtUE5FYVZYLVZk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 717
+    },
+    {
+      "date": "May 20",
+      "text": "Lebanon's death toll reaches 3,000 in fighting between Israel and Hezbollah, with recent Israeli air strikes killing 21.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOOU9GU2l6RElWa0RGUGNwZnk2SDZQRTM0bnFMZFVLS3FkakxxZ0ROZXVDYzRscEpPNEtwaGhJSUI3cko4LTZ1cTVseTZmbW90M1MtLTFRZXBNbFM1bHE3a3plcVVrZVNFYnpvX19hQU85U0RaRkZXTHRycDZfNUZxU1ZuRC1Ua2JGamQ0dVBmSkFMSTRBS1BEUmJ1cVZvcENJeVduc3J1NXVkUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 717
+    },
+    {
+      "date": "May 20",
+      "text": "Oil prices plunged as Trump announced final stages of a deal with Iran, while tankers exited the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi7wFBVV95cUxON3Q3NG9JVFVqOHJvZWJ2Umwwem91RF9CV0FHZ1BGTVhlMnEyOU5nd2tydkN5NnFXNU5kNjQyTWVaWHpqRU9TRGc3WmFZVDgwdksyekJoSGhsMHY2MF9VWnNpeWtuOEd5NXhuRmZWYXBrRUdRbkx4SXk4cnM2ei15eHQ1dU03UzZHZ0ljUl94bGpHaFI0VU9XOFpOUmhyVnpKTUNJVTJ5Q1E4NlpvQTFWYTRkM0g2S3JPSXd2QVRVTDZnU0k4U3hLNzhWSm9aRXRwOF9KWC1VbW1qa2YwbTFxRm1sUGJaWlM3MVJySGZ5cw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 717
+    },
+    {
+      "date": "May 20",
+      "text": "The UAE reports its new pipeline bypassing the Strait of Hormuz is nearly 50% complete.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNc0ZTZVRzRmZkdVBYV0hJNFdKRzMtb2VXSFlSalo2VFdybDRRRjNNZFl0b3hZc1prSnFOMWNmV0h6Z2tLMmhjOVA2U3NGSjhISTZMdExlWTlmb1BSNWRHXzN0SF8yM0c1TDJ6Q1owVHNiVzZlU2lOZ0FmY3hrVHlIQlRn0gGHAUFVX3lxTE0xVWZqRjQyekdCX1NBZ3VOZlloU1JNQXFhY3VJZkc5RUZ0bEV1Y3AtSFZLMzRYRE5HY0ZOWVIzQWZWTS1kM3FwZEZndzVJTHdZcmlHekc2aEFsbFYzUktNc091ZElTTThxQzYzdHY0eHZETFY3anZUa295NE1vZ3QtVnEtZTBFVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 717
     }
   ],
   "sourceStatuses": [
