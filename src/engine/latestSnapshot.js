@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 712,
+  "updateSequence": 713,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T05:46:58.967Z",
+  "lastSyncedAt": "2026-05-20T08:45:17.384Z",
   "warDay": 82,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-20",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "No general ceasefire is active, with ongoing conflict in Lebanon and direct threats of renewed war between the US, Israel, and Iran, despite some diplomatic efforts and a local truce extension for Israel/Hezbollah."
+    "summary": "A ceasefire between Israel and Hezbollah is active but frequently violated by ongoing clashes and Israeli strikes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 20",
-      "text": "Trump warns of attacks in ‘two or three days’ if no deal with Iran",
-      "severity": "critical",
+      "text": "US Senate advances measure curbing presidential war powers concerning Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNQnlvb0RIYm4zX1hkNU1hQkFKbTFQdEpONE80cGdJaS1IUzUzSmJuTUxoaXN5dGpabEpTTWFybF9pVkQwUTA1VjJDSGYyc1VKUzgzajV0cEZ1SkJodmpCeGlRZ21SME9GUW10bFhtd2tIMVdXcGhoSUJINmpVdGpGbmVDS1EydF9lbjBrRFFrNFBOU0lnU1h2d2xyaTJRRmltaVc2UVlROXJwUzFVRElreA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 713
+    },
+    {
+      "date": "May 20",
+      "text": "Trump warns of potential attacks in 'two or three days' if no deal is reached with Iran, while also delaying an attack for diplomatic push.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 712
+      "latestSinceUpdate": 713
     },
     {
       "date": "May 20",
-      "text": "JD Vance says US remains ‘locked and loaded’ to restart military campaign against Iran",
+      "text": "Israel is reportedly preparing for a renewal of war with Iran, with warnings of potential missile barrages.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOS1hscWxkWjFhNndadUQ5LVByX0V0eG53bExSa21tM1J6dHYyNVFrTHpZVF81YWhTcXUyVVN3QVhsSWYxSFFxS1Z5eHMwRU5KSTJjT0VfZi0wbE5xZlkwWWluWDhoTU5YbnVDS0M2RnhsR3V4NTY0WEVpLVdJdWZsRTRDUkZpN3FxakFlYVhhaXkxbE5PQ3RoMWxLTGZwQmUwU1NlMklDQW9VaGxUemFmcVBXTV93NVhJNEFLOWJzU1ZzbUQ0am5idDVQaTYySkxlQ3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 712
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 713
     },
     {
       "date": "May 20",
-      "text": "Israel said preparing for renewal of Iran war",
+      "text": "A ship's crew encountered gunfire in the Strait of Hormuz, leading to tankers exiting the area.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 713
+    },
+    {
+      "date": "May 20",
+      "text": "An IDF reservist was killed in an exchange of fire with Hezbollah in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNRWoxeGpxMEFKeXRmS2NwcjZNR0tOWENzSmF6RHJDbUNIMFdVQTVoZVBrOXY4WjN4SVRVc0ROUkFqcjMxMnRhNWdzb1VzZEdDVHZTWmtEVUt6MHM2WE1VYlZhc0pXbDE5ZHBNVnVyZ3ZjWDVKZ21lZEdZUU1LWnlUMVF6UlR1dEkwNzdsNjlVTm1TUGpqQ3F1UW15RE5EZDd1SlRWTkZtSW5vZ9IBrwFBVV95cUxOWEJyVFBMd0pPSnE5d1BxYS05QUphQlZMN2k0bm9MZnpxcG9UMFhfTHhPQTJzYkVPb2VKLWJ4LXNuVlUyM0ZrWnFQN3VZeV9NdjNjN1JRWC1fQlFEampVMUYxTk5OdVlkdDg5NExTRXdDNzBic01jMGJMZVBnU0xIZG93dzJDMmdET1NlNmNEcWV3MTdsanhrVE00aWRTUmZpNmx1b3RncWxnNl94V2NN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 712
+      "latestSinceUpdate": 713
     },
     {
       "date": "May 20",
-      "text": "Iran warns it may fire hundreds of missiles daily at Israel if war resumes",
+      "text": "Israeli strikes on Lebanon killed at least 19 individuals, with clashes with Hezbollah continuing despite a ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFA0S1RNSUhLbXVGV19EWHk3eGYxdjRfeGRIT2t2ZEtVWlppLVZ4aWV6b2pZNlpKb3R1TUl3WXRYNFh3bjBRUGdGNmt0cXpDZFltRzE4N3lEZnlTT1VudE1KaS1qNmJEclllT0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 712
-    },
-    {
-      "date": "May 20",
-      "text": "Trump delays Iran attack as diplomatic push intensifies",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNeElKRVMtZ2lkbTFJX3F2TXMwSU82emtSZXNTejFLNXJkejI2Ml9vbkNlT1VGcWNqZHBWeGs0b1lXQUhkREdxODBBV28zWDlHZ2FSdXBvTlQ3dGZTSW5UYldJRGl6blFOaEZKUGNSZ1k2alRTQWNHRVN6MGJiZEZGRG8yOU5jcm9zUUHSAY8BQVVfeXFMTVdwWnhtc1ZYZVA5YTlmcXU3TFB0UFVaQktYRU9LYUs1WW1lX0NyWE5NeC03eDZrNG9pdjM0QV9FWkJnNjR6cDBoVmlhd0tTUWJoQ1d5Q3cxeU82ek1GdkxqcGg5QmZKNkNENFlsRmh0WDM5REt1bF9sNFhvX3FaNzZLbjdzVnNrMGdnWEZ3ZXM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 712
-    },
-    {
-      "date": "May 20",
-      "text": "U.S. intel assessment says military identified at least 10 mines in Strait of Hormuz",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQN0xtaklJUS12cXZBR3BvdlRMVV9kcjRPaDZwdjljZ3JGVHJhZ0NDNW93a0pOUDJJREVFMmg1OS1Vak1za3QyU2h3NnFFcmcxUzNxSjZsampHOUJ6dFhKRThkNjdXODZpV1dVOTNmbl9LMHItVXRfNWN3c0tycHd5Nk1yZmZNLVZxRTVhMnF2WUczSDNwVHN4TXZkSk9rMldnRUY4M3VMQlplT21lUE15YlhKa9IBuAFBVV95cUxNWURTMHNRVlBtdlYxMlVVb2hYQlBhZE9GQkp4VUtxTEZiQktVeEp6MnFXcURkRmtYbXBMRlk2enZ5SE12T3g2eDBYeDRGUUNYZlNVUVpVUG5yRkNaeHFiYWVWc2NLSWFsMk9VQjRJZjFxeUFSZVVqWE90X3NFTXFrM3hDXzAtNndlRVNzLUJPb1FseWU0VjBhRVZYeUFkT0prZlhHbWNDQnhYWDRaVWlqRTlWTUVucDRv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 712
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPWmJQWGtnRWdqTlUtM1hoa3BoM1VtalYxc3Bsa2ZnTHhCZFBQN2p6R2VGVjBIM1FaQVpfNzF0YUtrRHVLa1lvMnh2M0QzV2JZb2xCQTdEcVpXOWJEWWtsWC1OaEticEJfb2M5YXpva1VXV0NvdTc4ZkxwaVdpRlJnM2x3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 713
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
