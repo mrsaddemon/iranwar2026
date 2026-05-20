@@ -1,13 +1,13 @@
 {
-  "updateSequence": 711,
+  "updateSequence": 712,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T01:33:03.403Z",
+  "lastSyncedAt": "2026-05-20T05:46:58.967Z",
   "warDay": 82,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.81,
     "durationDays": 3,
-    "summary": "No ceasefire is currently in effect, with rhetoric indicating potential escalation of conflict."
+    "summary": "No general ceasefire is active, with ongoing conflict in Lebanon and direct threats of renewed war between the US, Israel, and Iran, despite some diplomatic efforts and a local truce extension for Israel/Hezbollah."
   }
 }
