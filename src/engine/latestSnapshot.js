@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 717,
+  "updateSequence": 718,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T19:50:41.580Z",
+  "lastSyncedAt": "2026-05-20T21:26:57.805Z",
   "warDay": 82,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A fragile ceasefire holds amidst ongoing US-Iran negotiations, with threats of renewed conflict and significant fighting between Israel and Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-05-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 3,
-    "summary": "A truce between Israel and Hezbollah was extended, but fighting persists in Lebanon with mounting casualties, indicating a fragile and partially violated agreement."
+    "durationDays": 7,
+    "summary": "A fragile ceasefire is currently in effect, marked by ongoing negotiations and threats of renewed conflict if a deal is not reached."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 40,
-    "tradeImpact": 29,
-    "sanctionsPressure": 54,
-    "globalPressure": 57,
-    "allianceInfluence": 51
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 58,
+    "globalPressure": 69,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 20",
-      "text": "Trump states he paused an attack on Iran, indicating a nuclear deal may be possible.",
+      "text": "Tehran accuses US of ‘overt and covert’ moves for new attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 718
+    },
+    {
+      "date": "May 20",
+      "text": "Trump says he paused attack on Iran, signals a nuclear deal may be possible.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 717
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 718
     },
     {
       "date": "May 20",
-      "text": "Israel is reportedly preparing for a renewal of war with Iran, with Tehran given days to make a deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 717
-    },
-    {
-      "date": "May 20",
-      "text": "Iran's chief negotiator states preparation for a 'forceful response' to potential attacks, threatening hundreds of missiles daily.",
-      "severity": "critical",
+      "text": "Iran is examining a U.S. proposal, as Trump states talks are in 'final stages'.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNcGU2eXZBbFEydDVJQlA3M09Md1NuVXBObjdNazNiUGZSMnc2eTUtSUlyUnh0T2tZT0hBMTg0dTNNUUVvbFU0RzJYRHNRVElqSTlaeThLY2N4aU9rX0lMRDVhdGYtQnA0NExKRFRWZUtOOUFoVzd2a2owOWpMQjFWQzFqdC0wY2RxQ0xaemVCM2syUXN4c010YXFmYlAtZjlxNDMxWU9iUWVmVkhnWElRTUhrVVpfMmV5N3VEQVRFYzhlVGhSMmxsRlowT0hBaU9zRWfSAdgBQVVfeXFMTkZuUnFPZDZRdWlMNzA5ZHhBV3A0TzJmbGswRDhoSHZ1Z1hETTY2ZHo3Q0E1c0s2STdMbFpDU1lET2ZjQU81SkZnaGZ5RjZqMFlaSnd6RksxSEtWZGlQQjR6THR3TXpsMXg2N1VKam50Z1UzeWkxS1lILW9vRmN3a2laYnNIN3pPSjJhcVhzNEh1ZGF2SHBUeGZPRnVCTF85c25HWEc5dzJMdVdZbHFuN3FiRHE2Umo5aTBoY05QSkF5UnFhWDVCM0VjM182SWVtUE5FYVZYLVZk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 717
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 718
     },
     {
       "date": "May 20",
-      "text": "Lebanon's death toll reaches 3,000 in fighting between Israel and Hezbollah, with recent Israeli air strikes killing 21.",
+      "text": "Tehran warns of ‘new fronts’ as Trump sets a deadline for a deal.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOOU9GU2l6RElWa0RGUGNwZnk2SDZQRTM0bnFMZFVLS3FkakxxZ0ROZXVDYzRscEpPNEtwaGhJSUI3cko4LTZ1cTVseTZmbW90M1MtLTFRZXBNbFM1bHE3a3plcVVrZVNFYnpvX19hQU85U0RaRkZXTHRycDZfNUZxU1ZuRC1Ua2JGamQ0dVBmSkFMSTRBS1BEUmJ1cVZvcENJeVduc3J1NXVkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 717
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQVEZNUzNabzBJS1RidnRPSEdaNmJzMDR2NlVKd2FmejZjX2h0N3BvT3oxNkF0R1g2YnNLcE4yQ3lSSHFjQ3ZCYUJQdlkzd1NrQzFQUGJVa3MxYUhxajJDYTBvc1JPa0V1dTZ5TkY0eW8ycXZzaVNid0dVRjZvWExOVkhBYlNNdGhMQnZOU3VCeUdobEFTZTd4bjZfbFVsR0Y3T3B1blFSY2xOUdIBrwFBVV95cUxPQlpsZGlZQjJMTzVuTWY5a3RzSE1XUTJ6VkJ6LWl0Wl81SDN4SjlxMVQ2LTdMNUtZNE45NXV0U0xlM0QxbjlaTVRkanZINUJHUVBDRVliUU9kc0dJdDBUZFZKakFaMHY5VzUwTWdaU044SldBUmpYeTRVeVdSMWpZSjd5a1FxeGF0Q0o3M1RWOGw3YTBWaGVURk56cUxvLXlzQUVNZjQ0c0p0bDRXMU00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 718
     },
     {
       "date": "May 20",
-      "text": "Oil prices plunged as Trump announced final stages of a deal with Iran, while tankers exited the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi7wFBVV95cUxON3Q3NG9JVFVqOHJvZWJ2Umwwem91RF9CV0FHZ1BGTVhlMnEyOU5nd2tydkN5NnFXNU5kNjQyTWVaWHpqRU9TRGc3WmFZVDgwdksyekJoSGhsMHY2MF9VWnNpeWtuOEd5NXhuRmZWYXBrRUdRbkx4SXk4cnM2ei15eHQ1dU03UzZHZ0ljUl94bGpHaFI0VU9XOFpOUmhyVnpKTUNJVTJ5Q1E4NlpvQTFWYTRkM0g2S3JPSXd2QVRVTDZnU0k4U3hLNzhWSm9aRXRwOF9KWC1VbW1qa2YwbTFxRm1sUGJaWlM3MVJySGZ5cw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 717
+      "text": "Trump warns of attacks in ‘two or three days’ if no deal is reached with Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 718
     },
     {
       "date": "May 20",
-      "text": "The UAE reports its new pipeline bypassing the Strait of Hormuz is nearly 50% complete.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNc0ZTZVRzRmZkdVBYV0hJNFdKRzMtb2VXSFlSalo2VFdybDRRRjNNZFl0b3hZc1prSnFOMWNmV0h6Z2tLMmhjOVA2U3NGSjhISTZMdExlWTlmb1BSNWRHXzN0SF8yM0c1TDJ6Q1owVHNiVzZlU2lOZ0FmY3hrVHlIQlRn0gGHAUFVX3lxTE0xVWZqRjQyekdCX1NBZ3VOZlloU1JNQXFhY3VJZkc5RUZ0bEV1Y3AtSFZLMzRYRE5HY0ZOWVIzQWZWTS1kM3FwZEZndzVJTHdZcmlHekc2aEFsbFYzUktNc091ZElTTThxQzYzdHY0eHZETFY3anZUa295NE1vZ3QtVnEtZTBFVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 717
+      "text": "Iran says it has created a ‘controlled maritime zone’ in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPNTJLV2NaMTBMZE9CZy1IVUMycy02dHRTcS03c2VIMmJTOEhvUUZuRGdLeWFwczBLWXBhV1NaUWJZazNuNjBNMFgycTJMRTJ3WHF6MHFrV2ZZa054YzVmTVpfa3EyR0dRM25ldEhxUGhhQjNUSWlfVDhUWmNMcEFpdTZfdFJJWkg2aGhLc1RNMFp4OUwydWJIdzFfd3VUTmZJTmNyS1FWUWlLb1g1bU9PS2JIQzRIbksyenNncGNR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 718
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

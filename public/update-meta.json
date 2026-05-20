@@ -1,13 +1,13 @@
 {
-  "updateSequence": 717,
+  "updateSequence": 718,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T19:50:41.580Z",
+  "lastSyncedAt": "2026-05-20T21:26:57.805Z",
   "warDay": 82,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 3,
-    "summary": "A truce between Israel and Hezbollah was extended, but fighting persists in Lebanon with mounting casualties, indicating a fragile and partially violated agreement."
+    "durationDays": 7,
+    "summary": "A fragile ceasefire is currently in effect, marked by ongoing negotiations and threats of renewed conflict if a deal is not reached."
   }
 }
