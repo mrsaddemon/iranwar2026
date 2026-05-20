@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 714,
+  "updateSequence": 715,
   "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T11:36:37.504Z",
+  "lastSyncedAt": "2026-05-20T14:12:19.088Z",
   "warDay": 82,
-  "summary": "Tensions are extremely high between Israel, Iran, and the United States, with threats of renewed war and ongoing clashes in Lebanon despite a reported ceasefire.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A ceasefire between Israel and Hezbollah is reported to be in effect but is being violated by ongoing clashes and strikes in Lebanon."
+    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is active but frequently violated by ongoing clashes and strikes."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 90
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.85
+        "aggression": 0.6
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 78
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 68,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -61,50 +61,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "May 20",
       "text": "Israel is reportedly preparing for a renewal of war with Iran.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
+      "sourceName": "Google News",
       "latestSinceUpdate": 714
     },
     {
       "date": "May 20",
-      "text": "Trump warns Iran has days to make a deal, threatening attacks in ‘two or three days’ if no agreement is reached.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 714
+      "text": "Trump stated he paused an attack on Iran, signaling a nuclear deal may be possible.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 715
     },
     {
       "date": "May 20",
-      "text": "Iran warns of ‘new fronts’ and threatens war 'beyond the region' if the US attacks, stating it may fire hundreds of missiles daily at Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQbGtCOC1FeFNhRG9yNTFpSUMzVVFkN2JFRXJSWGhTLUZ4SE1ueklHTzB2cEdSWGZOTy0ycE9pQkFKNDl0SHY5Y1p0UHIxdGxqZG0wX3FjS1VZZFFmcnZzU18xczQ1eUk4VGJWelp1blVYNjJMOFd6elZ2NWMxQlNqMlo1SUV0TkF0RlhFeWpyWTU0czUwM2JLLW1pUDFfQTZWUnRRNmUta1p5ckhBb2hmM2RCcDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 714
+      "text": "A senior U.S. official deemed Iran's new offer insufficient, risking war resumption.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNd0QwVGRhVEVNTVM2R0VTN0lHUTRxS0pZRmhBWlgzRzZ0T2luVTlNcTl4YTdWNFVJaGVqQ1huX2RKeTJKTnNNQVd0d0RzWVk3b3Fud2M3Qzhya0JFRlhIVUg5VDN4YkRURDVSMWZrRUNFaE1zOFlZRUVXVGp5Y1hYWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 715
     },
     {
       "date": "May 20",
-      "text": "Israeli strikes on Lebanon killed at least 19 people as clashes with Hezbollah continue despite a ceasefire.",
+      "text": "Iran threatened to fire hundreds of missiles daily at Israel if war resumes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPWmJQWGtnRWdqTlUtM1hoa3BoM1VtalYxc3Bsa2ZnTHhCZFBQN2p6R2VGVjBIM1FaQVpfNzF0YUtrRHVLa1lvMnh2M0QzV2JZb2xCQTdEcVpXOWJEWWtsWC1OaEticEJfb2M5YXpva1VXV0NvdTc4ZkxwaVdpRlJnM2x3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 714
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFA0S1RNSUhLbXVGV19EWHk3eGYxdjRfeGRIT2t2ZEtVWlppLVZ4aWV6b2pZNlpKb3R1TUl3WXRYNFh3bjBRUGdGNmt0cXpDZFltRzE4N3lEZnlTT1VudE1KaS1qNmJEclllT0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 715
     },
     {
       "date": "May 20",
-      "text": "An IDF reservist was killed in an exchange of fire with Hezbollah in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNRWoxeGpxMEFKeXRmS2NwcjZNR0tOWENzSmF6RHJDbUNIMFdVQTVoZVBrOXY4WjN4SVRVc0ROUkFqcjMxMnRhNWdzb1VzZEdDVHZTWmtEVUt6MHM2WE1VYlZhc0pXbDE5ZHBNVnVyZ3ZjWDVKZ21lZEdZUU1LWnlUMVF6UlR1dEkwNzdsNjlVTm1TUGpqQ3F1UW15RE5EZDd1SlRWTkZtSW5vZ9IBrwFBVV95cUxOWEJyVFBMd0pPSnE5d1BxYS05QUphQlZMN2k0bm9MZnpxcG9UMFhfTHhPQTJzYkVPb2VKLWJ4LXNuVlUyM0ZrWnFQN3VZeV9NdjNjN1JRWC1fQlFEampVMUYxTk5OdVlkdDg5NExTRXdDNzBic01jMGJMZVBnU0xIZG93dzJDMmdET1NlNmNEcWV3MTdsanhrVE00aWRTUmZpNmx1b3RncWxnNl94V2NN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 713
+      "text": "Tankers carrying 6 million barrels of crude oil exited the Strait of Hormuz, with Iran's Guards coordinating 26 ships.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPVXNrRTVhT0c5MGxfUmJneWZOYWpMblUyU2pHRFUzS1czM1ZWaTY5XzVCcHZKUzZnMnBpZ2wydzdSSS1uNExYd21adTY2QlkwODBIUmNpeHBtTG1rblN5dzJOUkxjLVFzYV9xQUctWmxXcWNJTTdNVGpCbnlqYkZTQW5RN084YTU2QklES3VuX21kTUJBR2Y5akFzOFBUd3BEVE5HdkYwdk5wSktsS2pvZHM5QUwtSUhONkNqQ0UweE1fNWN0emdQZTZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 715
     },
     {
       "date": "May 20",
-      "text": "Chinese supertankers are exiting the Strait of Hormuz amid US-Iran deal talks.",
+      "text": "Tanker owners were warned to expect GPS blackouts in the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 714
+      "sourceName": "Google News",
+      "latestSinceUpdate": 715
     }
   ],
   "sourceStatuses": [
