@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 728,
+  "updateSequence": 729,
   "lastUpdated": "2026-05-21",
-  "lastSyncedAt": "2026-05-21T22:25:05.753Z",
+  "lastSyncedAt": "2026-05-21T23:36:35.559Z",
   "warDay": 83,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-21",
@@ -10,49 +10,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A ceasefire between Israel and Hezbollah is nominally active but has been severely tested by ongoing clashes and Israeli strikes."
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but is being actively violated by continued clashes and Israeli strikes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 68,
     "escalationLevel": 48,
     "oilDisruption": 80,
     "tradeImpact": 58,
-    "sanctionsPressure": 56,
-    "globalPressure": 67,
-    "allianceInfluence": 62
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 20",
-      "text": "Iran accuses the US of ‘overt and covert’ moves for an attack.",
+      "text": "Trump signals a nuclear deal with Iran may be possible but warns of attacks in 'two or three days' if no deal is reached.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 728
-    },
-    {
-      "date": "May 20",
-      "text": "Iran warns of ‘new fronts’ as Trump sets a deadline for a deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQVEZNUzNabzBJS1RidnRPSEdaNmJzMDR2NlVKd2FmejZjX2h0N3BvT3oxNkF0R1g2YnNLcE4yQ3lSSHFjQ3ZCYUJQdlkzd1NrQzFQUGJVa3MxYUhxajJDYTBvc1JPa0V1dTZ5TkY0eW8ycXZzaVNid0dVRjZvWExOVkhBYlNNdGhMQnZOU3VCeUdobEFTZTd4bjZfbFVsR0Y3T3B1blFSY2xOUdIBrwFBVV95cUxPQlpsZGlZQjJMTzVuTWY5a3RzSE1XUTJ6VkJ6LWl0Wl81SDN4SjlxMVQ2LTdMNUtZNE45NXV0U0xlM0QxbjlaTVRkanZINUJHUVBDRVliUU9kc0dJdDBUZFZKakFaMHY5VzUwTWdaU044SldBUmpYeTRVeVdSMWpZSjd5a1FxeGF0Q0o3M1RWOGw3YTBWaGVURk56cUxvLXlzQUVNZjQ0c0p0bDRXMU00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 728
-    },
-    {
-      "date": "May 20",
-      "text": "Trump warns of attacks in ‘two or three days’ if no deal is reached with Iran.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnbw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 728
+      "latestSinceUpdate": 729
     },
     {
       "date": "May 20",
-      "text": "Israel is reportedly preparing for a renewal of the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 728
-    },
-    {
-      "date": "May 20",
-      "text": "Iran steps up its claim to control the Strait of Hormuz.",
+      "text": "Israel launches an air strike on Beirut as the US reports attacking an Iranian-flagged ship.",
       "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 729
+    },
+    {
+      "date": "May 20",
+      "text": "Iran steps up its claim to control the Strait of Hormuz and is in talks with Oman over a permanent toll system.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1BWFlRVzBGQnRxMk55Vzg1Ymw3LVkwZmlnaGhJN09nazFPb3plNE9hTGU0aHF1U3ZzSUMyX3YtRXRPWWV0U2t5ei1mbzJZbWN1NVZUTHpvcUtidw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 728
+      "latestSinceUpdate": 729
     },
     {
       "date": "May 20",
-      "text": "Tankers carrying 6 million barrels of crude oil exit the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPVXNrRTVhT0c5MGxfUmJneWZOYWpMblUyU2pHRFUzS1czM1ZWaTY5XzVCcHZKUzZnMnBpZ2wydzdSSS1uNExYd21adTY2QlkwODBIUmNpeHBtTG1rblN5dzJOUkxjLVFzYV9xQUctWmxXcWNJTTdNVGpCbnlqYkZTQW5RN084YTU2QklES3VuX21kTUJBR2Y5akFzOFBUd3BEVE5HdkYwdk5wSktsS2pvZHM5QUwtSUhONkNqQ0UweE1fNWN0emdQZTZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 728
+      "text": "US military boards an Iranian-flagged oil tanker in the Gulf of Oman suspected of trying to breach a blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQYk44NDJqQmZtaTZFYTNxdzNHdkVnbmJBQ29hWFRpVjFHbG9oalk0ZGNhX3o4RUFDbkFMb2c0dkxpR0ZfMWxwdmVROHM3QlVfTS14eExMWldjMW9lUGpwRERGWVRXYVI2NGkxSTdkZ2tnc1lneldYSDBPektTZGNIcGR3aTlGZWc3Tnk5c0dUVjZoQWd5NV96ZkZKMGs5M3JWemc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 729
+    },
+    {
+      "date": "May 20",
+      "text": "Israeli strikes on Lebanon kill at least 19 as clashes with Hezbollah continue despite an existing ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPWmJQWGtnRWdqTlUtM1hoa3BoM1VtalYxc3Bsa2ZnTHhCZFBQN2p6R2VGVjBIM1FaQVpfNzF0YUtrRHVLa1lvMnh2M0QzV2JZb2xCQTdEcVpXOWJEWWtsWC1OaEticEJfb2M5YXpva1VXV0NvdTc4ZkxwaVdpRlJnM2x3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 729
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

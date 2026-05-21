@@ -1,13 +1,13 @@
 {
-  "updateSequence": 728,
+  "updateSequence": 729,
   "lastUpdated": "2026-05-21",
-  "lastSyncedAt": "2026-05-21T22:25:05.753Z",
+  "lastSyncedAt": "2026-05-21T23:36:35.559Z",
   "warDay": 83,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A ceasefire between Israel and Hezbollah is nominally active but has been severely tested by ongoing clashes and Israeli strikes."
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but is being actively violated by continued clashes and Israeli strikes in Lebanon."
   }
 }
