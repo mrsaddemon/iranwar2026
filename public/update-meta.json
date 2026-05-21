@@ -1,13 +1,13 @@
 {
-  "updateSequence": 719,
-  "lastUpdated": "2026-05-20",
-  "lastSyncedAt": "2026-05-20T22:55:28.608Z",
-  "warDay": 82,
+  "updateSequence": 720,
+  "lastUpdated": "2026-05-21",
+  "lastSyncedAt": "2026-05-21T00:14:39.209Z",
+  "warDay": 83,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A fragile ceasefire is currently in effect between the US and Iran, but its continuation is uncertain amidst ongoing negotiations and threats of renewed conflict."
+    "summary": "A fragile ceasefire between Israel and Hezbollah is in effect, but fighting persists in Lebanon despite its extension, leading to continued casualties."
   }
 }
