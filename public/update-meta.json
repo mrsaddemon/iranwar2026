@@ -1,13 +1,13 @@
 {
-  "updateSequence": 721,
+  "updateSequence": 722,
   "lastUpdated": "2026-05-21",
-  "lastSyncedAt": "2026-05-21T04:47:58.929Z",
+  "lastSyncedAt": "2026-05-21T08:23:16.447Z",
   "warDay": 83,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
-    "durationDays": 3,
-    "summary": "No formal ceasefire is in effect, though high-level talks between the US and Iran are reportedly in their final stages."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 20,
+    "summary": "A fragile ceasefire is currently active between the US and Iran, with ongoing negotiations and threats of renewed conflict if a deal is not reached."
   }
 }
