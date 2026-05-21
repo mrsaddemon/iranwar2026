@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 726,
+  "updateSequence": 727,
   "lastUpdated": "2026-05-21",
-  "lastSyncedAt": "2026-05-21T19:20:03.485Z",
+  "lastSyncedAt": "2026-05-21T21:00:51.781Z",
   "warDay": 83,
-  "summary": "Tensions remain high as the US issues ultimatums to Iran regarding its nuclear program and control of the Strait of Hormuz, while clashes continue between Israel and Hezbollah despite an existing ceasefire.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-21",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 3,
-    "summary": "A ceasefire between Israel and Hezbollah is in effect but remains fragile, with significant clashes and casualties reported in Lebanon."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 3 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 68,
-    "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
-    "sanctionsPressure": 58,
-    "globalPressure": 67,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 53,
+    "globalPressure": 58,
     "allianceInfluence": 68
   },
   "alliance": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 20",
-      "text": "Trump says he paused attack on Iran, signals a nuclear deal may be possible.",
+      "date": "May 21",
+      "text": "Iran Update Special Report, May 20, 2026",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQS0h6NHVtb3RTRUFEVmFPM2ctZ25DVVNGYV9nRi1veWdNRF9LbzBDYlZpdHNaWUxHYlRWZWFRUnp0dVFDNzhia0J5c3FCQ2hhS2ZLc3FRZ1pCS09OR1FYZXpPdzVtRXZsaVd6NnRTWHF2MS05dEprMkNjazRuNkw0WUlRcDJsbzdpSHZEeDlqbF9qeXM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 727
+    },
+    {
+      "date": "May 21",
+      "text": "Trump says he paused attack on Iran, signals a nuclear deal may be possible",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 726
+      "latestSinceUpdate": 727
     },
     {
-      "date": "May 20",
-      "text": "Iran warns of ‘new fronts’ as Trump sets deadline for a deal.",
-      "severity": "warning",
+      "date": "May 21",
+      "text": "Iran war day 82: Tehran warns of ‘new fronts’ as Trump sets deadline",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQVEZNUzNabzBJS1RidnRPSEdaNmJzMDR2NlVKd2FmejZjX2h0N3BvT3oxNkF0R1g2YnNLcE4yQ3lSSHFjQ3ZCYUJQdlkzd1NrQzFQUGJVa3MxYUhxajJDYTBvc1JPa0V1dTZ5TkY0eW8ycXZzaVNid0dVRjZvWExOVkhBYlNNdGhMQnZOU3VCeUdobEFTZTd4bjZfbFVsR0Y3T3B1blFSY2xOUdIBrwFBVV95cUxPQlpsZGlZQjJMTzVuTWY5a3RzSE1XUTJ6VkJ6LWl0Wl81SDN4SjlxMVQ2LTdMNUtZNE45NXV0U0xlM0QxbjlaTVRkanZINUJHUVBDRVliUU9kc0dJdDBUZFZKakFaMHY5VzUwTWdaU044SldBUmpYeTRVeVdSMWpZSjd5a1FxeGF0Q0o3M1RWOGw3YTBWaGVURk56cUxvLXlzQUVNZjQ0c0p0bDRXMU00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 726
+      "latestSinceUpdate": 727
     },
     {
       "date": "May 21",
-      "text": "US military boards Iranian-flagged oil tanker suspected of trying to breach blockade in Gulf of Oman.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQYk44NDJqQmZtaTZFYTNxdzNHdkVnbmJBQ29hWFRpVjFHbG9oalk0ZGNhX3o4RUFDbkFMb2c0dkxpR0ZfMWxwdmVROHM3QlVfTS14eExMWldjMW9lUGpwRERGWVRXYVI2NGkxSTdkZ2tnc1lneldYSDBPektTZGNIcGR3aTlGZWc3Tnk5c0dUVjZoQWd5NV96ZkZKMGs5M3JWemc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 726
-    },
-    {
-      "date": "May 21",
-      "text": "Israeli strikes on Lebanon kill at least 19 as clashes with Hezbollah continue despite ceasefire.",
+      "text": "Trump says US may strike Iran again but that Tehran wants deal",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPWmJQWGtnRWdqTlUtM1hoa3BoM1VtalYxc3Bsa2ZnTHhCZFBQN2p6R2VGVjBIM1FaQVpfNzF0YUtrRHVLa1lvMnh2M0QzV2JZb2xCQTdEcVpXOWJEWWtsWC1OaEticEJfb2M5YXpva1VXV0NvdTc4ZkxwaVdpRlJnM2x3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 726
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPSF9rZVdjR0RKS2w2VnI2M2dWWXZQQ21vck5sX1BRSGs0UVc0YWpTbXEzUEdXVGN6dmRLaTRMQlBERENZQTlUZnl5ZFVxLUNmd0N6dzk0bWlmaDlmcFlER0FDeFhWRDBUV29ONXBVb0xZblZIWE5VcW04Y3FMdGZUY1dHY3NVa2lzLWRyVGhHSUwwMElGQUFJLTEzTGtaeGlheUlqMjQtNTVwOHBzTjNOX2RfcF9reVFuU2FiSmVLcFRGbGRRZmk5bDdWdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 727
     },
     {
       "date": "May 21",
-      "text": "UAE says new pipeline that will bypass Strait of Hormuz is nearly 50% complete.",
+      "text": "Iran war updates: Trump warns of attacks in ‘two or three days’ if no deal",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNc0ZTZVRzRmZkdVBYV0hJNFdKRzMtb2VXSFlSalo2VFdybDRRRjNNZFl0b3hZc1prSnFOMWNmV0h6Z2tLMmhjOVA2U3NGSjhISTZMdExlWTlmb1BSNWRHXzN0SF8yM0c1TDJ6Q1owVHNiVzZlU2lOZ0FmY3hrVHlIQlRn0gGHAUFVX3lxTE0xVWZqRjQyekdCX1NBZ3VOZlloU1JNQXFhY3VJZkc5RUZ0bEV1Y3AtSFZLMzRYRE5HY0ZOWVIzQWZWTS1kM3FwZEZndzVJTHdZcmlHekc2aEFsbFYzUktNc091ZElTTThxQzYzdHY0eHZETFY3anZUa295NE1vZ3QtVnEtZTBFVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 726
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbTlFd3h6a0dEY2xzZDhJR0pOcFBpSGU1VkZHM1dPbnJPNmZnbU95TG5LSm81MFZwZjY4NnM4QURoY2RFajltcE1OZlA4MVJhX1M4bHhpTGg5ZWJ6SFItUVN1bENBdF93dGxnUFFVYVk0ekZ1bGFEbnlLTUhlQnd1NkdhaW5JWVQtdWJjb1F1ZVhPRVR0WGVWalFsQ1BmUG5CdU5pQW9sY19mR2ZESUhwc2dqbGRVQ3NmZU53dkdnb9IBxAFBVV95cUxPSFZwME9HOGd5YnpZSHI3Zm5lX0FIMm1HV1hJeURJVWE4SUFjQjZ6V3I3WlBZTnEtS2JQSUw0OFNEQlN5TlBZdVhvZTVZOExkUDlyMGdFcVFYN09aSFFHRGJ5VWZpM2hXYW4yZ3lzOGFTMlJ0MHRRSUJkbFNacTYtaC1EYnV0Mi1KaXJlcTRsZ0ZZWld6eGxhVHp1dlk4OUluQmVIV0hYX3p1Q1lyN0EtbDNueDZ1YnVsVTNHOWdtOTMxRGVa?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 727
+    },
+    {
+      "date": "May 21",
+      "text": "Israel said preparing for renewal of Iran war; Trump says Tehran has days to make deal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 727
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
