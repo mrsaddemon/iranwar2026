@@ -1,13 +1,13 @@
 {
-  "updateSequence": 724,
+  "updateSequence": 725,
   "lastUpdated": "2026-05-21",
-  "lastSyncedAt": "2026-05-21T14:29:29.203Z",
+  "lastSyncedAt": "2026-05-21T17:17:47.364Z",
   "warDay": 83,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 7,
-    "summary": "A fragile ceasefire is in effect, with the US having paused attacks while Iran reviews a US proposal, but threats of renewed action persist."
+    "durationDays": 10,
+    "summary": "A shaky ceasefire remains in effect as the US and Iran negotiate a potential deal, though threats of renewed strikes persist."
   }
 }
