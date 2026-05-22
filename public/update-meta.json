@@ -1,13 +1,13 @@
 {
-  "updateSequence": 730,
+  "updateSequence": 731,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T01:33:16.500Z",
+  "lastSyncedAt": "2026-05-22T05:45:55.641Z",
   "warDay": 84,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.08,
     "durationDays": 3,
-    "summary": "A US peace proposal is under review by Iran, but no active ceasefire or truce is in effect."
+    "summary": "No active ceasefire is reported; hostilities and threats of escalation continue."
   }
 }
