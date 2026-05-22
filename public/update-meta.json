@@ -1,13 +1,13 @@
 {
-  "updateSequence": 735,
+  "updateSequence": 736,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T16:32:47.663Z",
+  "lastSyncedAt": "2026-05-22T18:18:54.147Z",
   "warDay": 84,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.3,
     "durationDays": 14,
-    "summary": "Despite ongoing diplomatic talks, no formal ceasefire or de-escalation agreement is currently in effect between the parties."
+    "summary": "Intense diplomatic efforts are underway with 'slight progress' reported and a draft deal potentially hours away, but active military engagements persist."
   }
 }
