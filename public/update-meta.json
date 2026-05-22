@@ -1,13 +1,13 @@
 {
-  "updateSequence": 729,
-  "lastUpdated": "2026-05-21",
-  "lastSyncedAt": "2026-05-21T23:36:35.559Z",
-  "warDay": 83,
+  "updateSequence": 730,
+  "lastUpdated": "2026-05-22",
+  "lastSyncedAt": "2026-05-22T01:33:16.500Z",
+  "warDay": 84,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 3,
-    "summary": "A ceasefire between Israel and Hezbollah is in effect but is being actively violated by continued clashes and Israeli strikes in Lebanon."
+    "summary": "A US peace proposal is under review by Iran, but no active ceasefire or truce is in effect."
   }
 }
