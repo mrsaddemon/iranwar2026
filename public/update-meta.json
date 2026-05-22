@@ -1,13 +1,13 @@
 {
-  "updateSequence": 734,
+  "updateSequence": 735,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T13:57:22.260Z",
+  "lastSyncedAt": "2026-05-22T16:32:47.663Z",
   "warDay": 84,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 14,
-    "summary": "A fragile ceasefire remains in effect, characterized by ongoing diplomatic negotiations and intermittent military engagements, particularly in Lebanon."
+    "summary": "Despite ongoing diplomatic talks, no formal ceasefire or de-escalation agreement is currently in effect between the parties."
   }
 }

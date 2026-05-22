@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 734,
+  "updateSequence": 735,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T13:57:22.260Z",
+  "lastSyncedAt": "2026-05-22T16:32:47.663Z",
   "warDay": 84,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran-Israel conflict continues with ongoing military actions in Lebanon and diplomatic efforts between the US and Iran, particularly concerning the Strait of Hormuz, amidst reports of Iran's military rebuilding.",
   "lastNarrativeUpdate": "2026-05-22",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 14,
-    "summary": "A fragile ceasefire remains in effect, characterized by ongoing diplomatic negotiations and intermittent military engagements, particularly in Lebanon."
+    "summary": "Despite ongoing diplomatic talks, no formal ceasefire or de-escalation agreement is currently in effect between the parties."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 90,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 20",
-      "text": "Iran Update Special Report released, with Rubio noting 'some good signs' for a peace deal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQS0h6NHVtb3RTRUFEVmFPM2ctZ25DVVNGYV9nRi1veWdNRF9LbzBDYlZpdHNaWUxHYlRWZWFRUnp0dVFDNzhia0J5c3FCQ2hhS2ZLc3FRZ1pCS09OR1FYZXpPdzVtRXZsaVd6NnRTWHF2MS05dEprMkNjazRuNkw0WUlRcDJsbzdpSHZEeDlqbF9qeXM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 734
-    },
-    {
-      "date": "May 20",
-      "text": "U.S. reports 'slight progress' in Iran talks amidst ongoing Iran-Israel war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxOeUk0c05wbG1vMHRCZXcwajZPX2hPbzhMZDFCc0lMbWVRUEx5Z2w5TlU1MFZvS0tUZlVkZDhpdEZManZhRzd0c3BkRHd5UEw2VHJzWVM2TExDQ2NCMi1BYUhKcW5GNHNuMFc2cWRKYlY0Y3Z1a1ZqZmVnMzVlRDJWVm9jXzVVbS1ORTZBUnpTWWNzSkl0TlJBQmJsM0JVNnlYektsSmdIaEdTLUdJMHFEUEpSOWY4WGEtdUhMN252eTJPS192MTN4Wm9ISWM5RjVJWFlBUC04aXlTdUVXNFlGR2hSanF3YVFZZnFSWdIB8wFBVV95cUxPNFozS1FzaEF2TTZRSG9wYUQ2RDZ5VWN1cGI0Yndtc2Z5QkxvakZLQzZXWkRWdjFXNWZTNGZoUzIzOWE5b0J4ZDd6eU9tZXFGREcyNHlwSjZvNEltRzZyTEpyand2ZjlxY3dlTGRlZ2VNandkaXVOVVo4V3liejJfQkhPZC1NcTVnQURGZmhYMkFVQml4bW1LTWRPa2JFNG5CODFMZGlaZnYyQm9rX012UThQRTJReGpfUHllN3hxNUxFd2FiN09NTzJRSUY4WXktbHJ5YXhYSHhQZDYyMklhenFubExTakU1UUR1MzlkaVVTbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 734
-    },
-    {
       "date": "May 21",
-      "text": "Iran Update Special Report released, detailing intense mediation between US and Iran.",
+      "text": "An 'Iran Update Special Report' was released, detailing the projected four waves of economic shock from the Iran war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQczFMZkZLMkpSSEdKemVhY0NpU0kzeXZsM1JRZ1UtQlMyTkZNb1VNeWxmSTZ3QkdncWpDVGdWVlRVQkdoZmpTR0IwOXg5ZzZ3cGhpWUQ0MTJMdWoyT0ExZnZ1bW4ySGQ3MzhiWWZsZXhMVm5YeE9vSktvNWlhMnpjZTNMOUdaWGJkbEFzVC1HSXBVdTg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 734
+      "latestSinceUpdate": 735
     },
     {
-      "date": "May 21",
-      "text": "Israel conducts strikes in Lebanon, resulting in 21 deaths, including children.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 734
+      "date": "May 22",
+      "text": "The U.S. reports 'slight progress' in ongoing peace talks with Iran, with Senator Rubio also noting 'some good signs'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxOeUk0c05wbG1vMHRCZXcwajZPX2hPbzhMZDFCc0lMbWVRUEx5Z2w5TlU1MFZvS0tUZlVkZDhpdEZManZhRzd0c3BkRHd5UEw2VHJzWVM2TExDQ2NCMi1BYUhKcW5GNHNuMFc2cWRKYlY0Y3Z1a1ZqZmVnMzVlRDJWVm9jXzVVbS1ORTZBUnpTWWNzSkl0TlJBQmJsM0JVNnlYektsSmdIaEdTLUdJMHFEUEpSOWY4WGEtdUhMN252eTJPS192MTN4Wm9ISWM5RjVJWFlBUC04aXlTdUVXNFlGR2hSanF3YVFZZnFSWdIB8wFBVV95cUxPNFozS1FzaEF2TTZRSG9wYUQ2RDZ5VWN1cGI0Yndtc2Z5QkxvakZLQzZXWkRWdjFXNWZTNGZoUzIzOWE5b0J4ZDd6eU9tZXFGREcyNHlwSjZvNEltRzZyTEpyand2ZjlxY3dlTGRlZ2VNandkaXVOVVo4V3liejJfQkhPZC1NcTVnQURGZmhYMkFVQml4bW1LTWRPa2JFNG5CODFMZGlaZnYyQm9rX012UThQRTJReGpfUHllN3hxNUxFd2FiN09NTzJRSUY4WXktbHJ5YXhYSHhQZDYyMklhenFubExTakU1UUR1MzlkaVVTbjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 735
     },
     {
-      "date": "May 21",
-      "text": "Iran unveils plans to control the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 734
-    },
-    {
-      "date": "May 21",
-      "text": "Tehran accuses the US of ‘overt and covert’ moves for an attack.",
+      "date": "May 22",
+      "text": "Tehran accuses the US of 'overt and covert' moves for an attack amidst intense mediation efforts.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 734
+      "latestSinceUpdate": 735
+    },
+    {
+      "date": "May 22",
+      "text": "Israel launches an air strike on Beirut, while the US states it attacked an Iranian-flagged ship.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 735
+    },
+    {
+      "date": "May 22",
+      "text": "Iran unveils plans to control the Strait of Hormuz, leading to continued negotiations with the US over the critical waterway.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 735
+    },
+    {
+      "date": "May 22",
+      "text": "Hezbollah drone strike videos show evolving tactics against Israel, with 10 soldiers, including a brigade commander, injured in separate attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1ZRlZ1bFFFWlc5SDVraHZwUTRxd1FFS2hTeWdiVUdLWnFiaHI0QVhPU2ZYckFaNFF3UW5vWGEtZWIwb1lmNGdtX1V3VVQzdXEwQjVrNDA5TTVRdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 735
     }
   ],
   "sourceStatuses": [
