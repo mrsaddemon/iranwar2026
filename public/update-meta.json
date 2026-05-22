@@ -1,13 +1,13 @@
 {
-  "updateSequence": 739,
+  "updateSequence": 740,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T22:43:40.655Z",
+  "lastSyncedAt": "2026-05-22T23:51:02.085Z",
   "warDay": 84,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 14,
-    "summary": "No ceasefire is currently active, though intense mediation and peace talks are ongoing between the US and Iran."
+    "summary": "No active ceasefire is in place, though intense diplomatic efforts are underway with reported slight progress in peace talks."
   }
 }
