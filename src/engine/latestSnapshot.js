@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 733,
+  "updateSequence": 734,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T11:33:54.278Z",
+  "lastSyncedAt": "2026-05-22T13:57:22.260Z",
   "warDay": 84,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-22",
@@ -9,8 +9,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 3,
-    "summary": "A shaky ceasefire continues between parties, with ongoing peace talks showing slight progress but significant disagreements remain."
+    "durationDays": 14,
+    "summary": "A fragile ceasefire remains in effect, characterized by ongoing diplomatic negotiations and intermittent military engagements, particularly in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,7 +37,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     }
   },
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 20",
-      "text": "Tehran accuses US of ‘overt and covert’ moves for attack.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 733
+      "text": "Iran Update Special Report released, with Rubio noting 'some good signs' for a peace deal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQS0h6NHVtb3RTRUFEVmFPM2ctZ25DVVNGYV9nRi1veWdNRF9LbzBDYlZpdHNaWUxHYlRWZWFRUnp0dVFDNzhia0J5c3FCQ2hhS2ZLc3FRZ1pCS09OR1FYZXpPdzVtRXZsaVd6NnRTWHF2MS05dEprMkNjazRuNkw0WUlRcDJsbzdpSHZEeDlqbF9qeXM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 734
+    },
+    {
+      "date": "May 20",
+      "text": "U.S. reports 'slight progress' in Iran talks amidst ongoing Iran-Israel war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxOeUk0c05wbG1vMHRCZXcwajZPX2hPbzhMZDFCc0lMbWVRUEx5Z2w5TlU1MFZvS0tUZlVkZDhpdEZManZhRzd0c3BkRHd5UEw2VHJzWVM2TExDQ2NCMi1BYUhKcW5GNHNuMFc2cWRKYlY0Y3Z1a1ZqZmVnMzVlRDJWVm9jXzVVbS1ORTZBUnpTWWNzSkl0TlJBQmJsM0JVNnlYektsSmdIaEdTLUdJMHFEUEpSOWY4WGEtdUhMN252eTJPS192MTN4Wm9ISWM5RjVJWFlBUC04aXlTdUVXNFlGR2hSanF3YVFZZnFSWdIB8wFBVV95cUxPNFozS1FzaEF2TTZRSG9wYUQ2RDZ5VWN1cGI0Yndtc2Z5QkxvakZLQzZXWkRWdjFXNWZTNGZoUzIzOWE5b0J4ZDd6eU9tZXFGREcyNHlwSjZvNEltRzZyTEpyand2ZjlxY3dlTGRlZ2VNandkaXVOVVo4V3liejJfQkhPZC1NcTVnQURGZmhYMkFVQml4bW1LTWRPa2JFNG5CODFMZGlaZnYyQm9rX012UThQRTJReGpfUHllN3hxNUxFd2FiN09NTzJRSUY4WXktbHJ5YXhYSHhQZDYyMklhenFubExTakU1UUR1MzlkaVVTbjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 734
     },
     {
       "date": "May 21",
-      "text": "Rubio states 'some good signs' peace deal can be reached in Iran talks.",
+      "text": "Iran Update Special Report released, detailing intense mediation between US and Iran.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPekMyeGcxWEVrNG5LQnpVdW5jdU9hcTFMUTFlRFRuU2VNZFZZbUZHbEpkY1ZxbUtjSGgyeTh2VnY1Y1dZNENFanNBYzhNNERpWF8tOXJCS1pmbHJOcFBoVl9tbDVlM3RGUFVsdDc4aXFJOTdLZXpRclFJTGlDeUdZel9CWDRHaE5GcEFGQ2hFb0hEQVNpQ3Q0YndnbHFtdHBBRFMzOEtUajhXd0c5U3Zfdm9wdlJ1VV8wbDZn0gHAAUFVX3lxTFBVM1ZlbXNDVU1IVE45TWxiaXNZTDJGaTZNa3J6WWRiQWpnaVVudFdDOVk4VHkybjYwQ241QXBoaTNhSzhHT3pZNmlJVGNoZ2FVcDFuOERYbklaLXpwbVVlbDdxWnJDSmx6VE1NLVZ2WXBtYjNvRi05dXpUUmFIdGxyR1JqcGYwdHZsS19udG5KS3ZXWU9kUUp0c1B4bkx1Mmt3TU1FWlo0dERWb1FwYnBZbldKaU5tdEJNVkJPazFVTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 733
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQczFMZkZLMkpSSEdKemVhY0NpU0kzeXZsM1JRZ1UtQlMyTkZNb1VNeWxmSTZ3QkdncWpDVGdWVlRVQkdoZmpTR0IwOXg5ZzZ3cGhpWUQ0MTJMdWoyT0ExZnZ1bW4ySGQ3MzhiWWZsZXhMVm5YeE9vSktvNWlhMnpjZTNMOUdaWGJkbEFzVC1HSXBVdTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 734
     },
     {
-      "date": "May 22",
-      "text": "Iran unveils plans to control the Strait of Hormuz.",
+      "date": "May 21",
+      "text": "Israel conducts strikes in Lebanon, resulting in 21 deaths, including children.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 733
+      "latestSinceUpdate": 734
     },
     {
-      "date": "May 22",
-      "text": "Israel is reportedly preparing for a renewal of the Iran war.",
+      "date": "May 21",
+      "text": "Iran unveils plans to control the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQY0hFRFJqeXMyYXVTQU5XZjI3TExpcUw2RlNaUW5rT2k0Ylk3ZEN1a3RhZzBUQU00Z3JPSmtNTjhrYlhZWFVNWmlSaUZRZUNKOXBuVGVCSzQtVjZHMzFFRWszU2txa1RJSFdlSVhERWVQdl9xcFFUV1NrSDJuTTR1Ukw5M29MYnJuWWhNY1BxajI2eGZGNUJYNDNnWXl5TWdZUHF0ZkZuQlluTlJkeHBxajM1cWhUYmPSAbwBQVVfeXFMTmVqLS1IcXJHdTZfdTdweVpGUmI5a2drYWtGWlFwa19lY0ZLUTliR0NYeDhDZFBhMnlXTnlRcTZOSmlaNmJwQ25KTFI5TkNTeU5UWXdxZ2I4dnBzQTcwUkZ2ZDNfTVZNcGMyTGYyNVcwUUZYUHJVN2hPMUxwSDFVcWRJc3NoWkpSV2c5Z3YtV2htLU41eWZqR2hQOWJsWDNUTFhiSVBZOTJXSEZobHZyS2NPejdpSlhYZy1CSlY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 733
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 734
     },
     {
-      "date": "May 22",
-      "text": "Trump states 'Clock is Ticking' for Iran amidst a shaky ceasefire.",
+      "date": "May 21",
+      "text": "Tehran accuses the US of ‘overt and covert’ moves for an attack.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQMWZnWl9iZjVMaE91ZFRYa3JNR2xSMk50eXVCTzZaYWh5TkhYSFUyd0FmbFZqRXg1V3JPOHE3QldoNm9XVlZGdVVqY1NoOEdMelRjZWM1eW84T3k2TkFrYml3cWJ6UklVczJsQ3RySnZ2T0JmNGEwY3NMUFBlSlZpcFVTMFRfLVB4QzRXSHhYdkQzYnF0QzJQSdIBngFBVV95cUxPTWVNNTBmUEtIbXdXMnlFX3E0aHo2U29ZN2xnZ0Rtc3pneV9oc1BhVVFzZEtNeVN1eG9vQTVMaXU1a2JkOXp5bHJXV3NmUHZMejByUTZkNTRtQVRfektVXzM4ZFp6VUdZUjFKeXZCd3RJWEdZNmZGdmFWMUV6bDdmVmRqSVJtSWE3OXJpc2hsNjA2aFVPT3BYYlRGQ1pVUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 733
-    },
-    {
-      "date": "May 22",
-      "text": "U.S. and Iran signal peace progress but remain at odds over enriched uranium and Strait of Hormuz tolls.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE4yUnlWeDNhbzIzeHpJdGFPUThqTHl2VXk3OE5XYVZDVXN5NmxfSmEwWGpfdGRDRXQyWWVrVm5qVlhlWlNfQktNdDZPeDFxejdWU2xKRU82b0lFVE52YlZOREpuemVLdUdUUnlBc0RpdXlLeHExN2dVUDlrMkZESWvSAYQBQVVfeXFMUFBtTVI3SUxrYVg1Y3lleWdZNWFzeWEyUURrak4zZFZqS01XaGpCcTllSkMyTjRsYVdSSzB4NE9PYXQ2bHlzVHdaY0o4NG9CUVdQSHB4NUZpZ0JLMWN1SjFQLXNYVHFFeF9lNUVGaksyZmJ1RmRMdTA2OTBNT3FvUFZXOTFS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 733
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 734
     }
   ],
   "sourceStatuses": [
