@@ -1,13 +1,13 @@
 {
-  "updateSequence": 736,
+  "updateSequence": 737,
   "lastUpdated": "2026-05-22",
-  "lastSyncedAt": "2026-05-22T18:18:54.147Z",
+  "lastSyncedAt": "2026-05-22T20:14:21.994Z",
   "warDay": 84,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.3,
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "Intense diplomatic efforts are underway with 'slight progress' reported and a draft deal potentially hours away, but active military engagements persist."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and diplomatic disputes."
   }
 }
