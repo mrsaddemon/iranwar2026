@@ -1,13 +1,13 @@
 {
-  "updateSequence": 746,
+  "updateSequence": 747,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T12:04:02.037Z",
+  "lastSyncedAt": "2026-05-23T13:59:21.230Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A previously implied ceasefire between the US and Iran appears to have collapsed, with both sides reporting violations and active military engagements."
+    "summary": "A previous ceasefire period allowed Iran to rebuild its military, but it appears to have collapsed amidst new allegations of violations, ongoing strikes, and US preparations for military action."
   }
 }
