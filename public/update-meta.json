@@ -1,13 +1,13 @@
 {
-  "updateSequence": 754,
+  "updateSequence": 755,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T21:31:11.835Z",
+  "lastSyncedAt": "2026-05-23T22:28:47.517Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "Negotiations for a 60-day ceasefire extension and nuclear framework between the US and Iran are advanced, though Tehran claims US violations and demands uranium handover."
+    "summary": "No active, stable ceasefire is currently in effect, despite ongoing diplomatic efforts and claims of past violations."
   }
 }
