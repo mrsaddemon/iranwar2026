@@ -1,13 +1,13 @@
 {
-  "updateSequence": 749,
+  "updateSequence": 750,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T16:30:00.000Z",
+  "lastSyncedAt": "2026-05-23T17:29:01.262Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
-    "durationDays": 14,
-    "summary": "Intense mediation efforts are underway between the US and Iran, but no formal ceasefire is active, with ongoing military actions and threats."
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 60,
+    "summary": "Negotiations are underway for a 60-day US-Iran ceasefire extension with a nuclear framework, though Tehran alleges US violations and regional hostilities persist."
   }
 }
