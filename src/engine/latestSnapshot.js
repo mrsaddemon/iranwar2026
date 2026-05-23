@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 753,
+  "updateSequence": 754,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T20:34:22.865Z",
+  "lastSyncedAt": "2026-05-23T21:31:11.835Z",
   "warDay": 85,
-  "summary": "Intense diplomatic efforts between the US and Iran continue regarding a potential ceasefire extension and nuclear framework, amidst ongoing military strikes by Israel in Lebanon and Hezbollah drone attacks.",
+  "summary": "Intense diplomatic efforts between the US and Iran are underway to finalize a ceasefire and nuclear framework, despite ongoing military actions between Israel and Hezbollah in Lebanon and accusations of ceasefire violations.",
   "lastNarrativeUpdate": "2026-05-23",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Intense mediation is ongoing for a 60-day ceasefire extension, but significant demands and accusations of violations make the agreement fragile and not yet active."
+    "summary": "Negotiations for a 60-day ceasefire extension and nuclear framework between the US and Iran are advanced, though Tehran claims US violations and demands uranium handover."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 22",
-      "text": "U.S. and Iran are reportedly closing in on a 60-day ceasefire extension with a nuclear framework.",
+      "text": "U.S. and Iran are closing in on a 60-day ceasefire extension with nuclear framework, FT reports.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE9GekFKeFgteThEeDR5RXM5d1lBaE9aYm9wdnk2LXY5RUFOTXl6LS1tWHdDLWNhNEc5bW5lUmM3X1VHOTItbldiallXdm5UWTJFQ0ZGVXRvcC1qWUZZWkF4cDFfekTSAWpBVV95cUxNR2JTUFdkSGpMenRzU2pxNm5iT0UyWTJyOFJQQ3E5bGwxUGxzZVNBY2NpQWw5OFRfdlJ6dDltN053empCTjFIWVJDQjhDSHJ2b1ZTdFdRTlZTdFQwS0w2a1FtZDVzWWFrN3V3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "FT",
-      "latestSinceUpdate": 753
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 754
     },
     {
       "date": "May 22",
-      "text": "An Iran Update Special Report was issued, indicating significant developments in the conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNelVpMWJ6ZVNSXzRCOURieDRiUUtuSFQwUi1GUDMwc19NM21vRGNjSTRxQnVBQTJCeDFiMVA5TTRLWVRsb1dSeENuY01QOThKN3dfTjZObUd0S183WEhNVVZVVnRnN0pHQ2hKV3FMa1UtMlRaUUwxRmlnT28zXzVGQ0U3bXJ3MTh6Z05nUzhNbUgxbjA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 753
+      "text": "Israel strikes south Lebanon as Hezbollah says Iran won’t abandon group.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQUndkalFsMXhNczBYVDJNMlpkT3dXX3ltcEU4cmVselkyUVFwQ2Q4QWsyd3B3cGlSU0NVcTVQLTBzdjZFYmF6Zm1pR2k0aDJ4VGRpbmFzNm1QZm1DLVNnLXdLR2YwTW1DNWxrcm5YSGd2REY0eEtCeUFJeElfS0NXWHhxaXF1T09zOXFSQlR6VDhsNTBDTmJmc01iLVctb0pGc3N5OXdUYU9JRTYzSHE5dzlzRl9sdk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 754
     },
     {
-      "date": "Recent",
-      "text": "Israel launched air strikes on Beirut and southern Lebanon, reducing buildings to craters.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 753
-    },
-    {
-      "date": "Recent",
-      "text": "Hezbollah conducted drone attacks, injuring 10 soldiers including a brigade commander, showcasing evolving tactics.",
+      "date": "May 22",
+      "text": "Hezbollah drone attacks injure 10 soldiers, including a brigade commander, in separate incidents.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQTHpXZ3VMODRRRmY4WXg0UWxiSEVsTnc4SmNEYlJZMmt2VEl1T1BlN0Rrb255MDJBQnB5bjBoSm1WbEFuR1BpYlVGeVhSOFNqZ0lEckNxYVFsZXNsU2lFLXJRcGpuWndDQ3VuNFZ2QUVBLTFUb3E0WHExdWdMLUIxcWNoSl9rdG1YT0I3NDBjSEF4QUZzcFJnU0sySnVzQzU2SkU3a1ZManpsSm5GYkhYadIBtgFBVV95cUxNTDdFd2l2Wlh1Z3IwTHAyM3RrR0w2NThMUEVVQ2JkaU02ZGpGS0l1ZjlNWnhlV1VoZTZfd3BJWWxJUmFoRWRJc2VGR1NyTndOb2NOa0lDMFh3LXp4NEhKbVZ0Nm9EQm50REtsTGRLTjM1WDNnNXI1YVVHVHFUSXlXQkY2RW1ESjJuYzJQTUMzUDZLaGtjOGtVZ3ZVR2RNbk9MakhBUVl1ZTF3SktaTUtCS29EUEVrQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 753
+      "latestSinceUpdate": 754
     },
     {
-      "date": "Recent",
-      "text": "Iran stated that the US demand for uranium handover would kill any potential deal.",
+      "date": "May 22",
+      "text": "Tehran says US violated ceasefire and targeted ships.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOdHUtaGFONi1DbnBDWkhIaE45Wkl6ZWE1YkdLLTlVdHZKQ2xxTlU3YWFsN0I2RWxZNlVEYVl2a1h5VkVuR2d3SER6QmtHN1hzY0d6alJ4VV81cUFQbzFvM01NRjRCZVZCQnROaF95UnpaNU5IQTItdHBNUlU2WDFCZjhFbHVDM09hdkVrTmVFMFh4XzdtbFdVYUROa0kwc0RsVjcwWHdmNkhsck5aS2tqcV9VN1pBYnhQeWlpOFZGSdIBxAFBVV95cUxQTGJpZmpsWDJKbFM0MG45V1VTaHZHS1dGRWxzcEZrcEg0NUFkdTMxQUR1cVZhSjVHSGtCZ2t0WWRwOWVJZlRRLW9jRnZMdHZvU3pHQ3ZBeGFkN3FwcWs4VEVoLXgzOUtKX1ZYMVFBZWtySlc5NjQwMUw5Q1JBX2NnWENnWEpqVE52dlpDRW55UlFLSEZ6SENJeW9XTXhVRGhPMWdSWFVfVlpSNGpBUGFhWjVkclR6Sjl1eU1QRXJDNHlxalBK?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 753
+      "latestSinceUpdate": 754
     },
     {
-      "date": "Recent",
-      "text": "Trump stated the U.S. will only sign an agreement with Iran 'if we get everything we want' and threatened to 'blow them to a thousand hells'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOSlhfaUQwVjZjemtERjRSVVlUZzhfVVVKTWtGNG16RUo2aktQV2hDT0JPVXkydkNUZGR3Smp5emx1em90RTZmcndpam9vdHF5WlBpeG1XTTYyS09jbjVCbDJNeG9nREVBenZUOTVrRlFRTi1lNmM4LThRSEc2OEF0OUZGd1dna0lEWVlzRUN4ZS1SYjlqOUY1ekxYaWZhZGdfbTI2ZVVXX2xHWVVabFNuR3lmdHhvZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 753
+      "date": "May 22",
+      "text": "US intelligence indicates Iran is rebuilding its military industrial base faster than expected, already producing drones.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1LcWcxVzFDaVhiYVZUOFNJYjdEakhpU2xaVUFGZVhzTHFtS3N1bGdwa3A0RFNrbURFaXNxeVc0WGlqZDVhcE9kTWxKMl9yNlh5cmxXMFNNTDNNMzlwaDZjNl9vdGduUjB4MzBlUzhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 754
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

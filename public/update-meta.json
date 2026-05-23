@@ -1,13 +1,13 @@
 {
-  "updateSequence": 753,
+  "updateSequence": 754,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T20:34:22.865Z",
+  "lastSyncedAt": "2026-05-23T21:31:11.835Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Intense mediation is ongoing for a 60-day ceasefire extension, but significant demands and accusations of violations make the agreement fragile and not yet active."
+    "summary": "Negotiations for a 60-day ceasefire extension and nuclear framework between the US and Iran are advanced, though Tehran claims US violations and demands uranium handover."
   }
 }
