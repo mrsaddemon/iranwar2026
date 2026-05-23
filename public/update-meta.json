@@ -1,13 +1,13 @@
 {
-  "updateSequence": 745,
+  "updateSequence": 746,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T10:55:59.718Z",
+  "lastSyncedAt": "2026-05-23T12:04:02.037Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect between the primary belligerents, though diplomatic efforts are ongoing."
+    "summary": "A previously implied ceasefire between the US and Iran appears to have collapsed, with both sides reporting violations and active military engagements."
   }
 }
