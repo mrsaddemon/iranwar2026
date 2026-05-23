@@ -1,13 +1,13 @@
 {
-  "updateSequence": 743,
+  "updateSequence": 744,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T07:44:41.153Z",
+  "lastSyncedAt": "2026-05-23T09:28:23.161Z",
   "warDay": 85,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 14,
-    "summary": "No active ceasefire or de-escalation agreement is currently in place between the primary belligerents."
+    "summary": "No formal ceasefire is in effect, though diplomatic efforts are underway to de-escalate tensions and reopen the Strait of Hormuz."
   }
 }
