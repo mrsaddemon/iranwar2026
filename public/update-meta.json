@@ -1,13 +1,13 @@
 {
-  "updateSequence": 741,
+  "updateSequence": 742,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T01:31:07.514Z",
+  "lastSyncedAt": "2026-05-23T05:10:01.567Z",
   "warDay": 85,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Despite ongoing mediation and peace talks, no formal ceasefire or de-escalation agreement has been reached between the involved parties."
+    "summary": "No active ceasefire is in effect, despite ongoing mediation efforts and discussions about potential peace deals."
   }
 }

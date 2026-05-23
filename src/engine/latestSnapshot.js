@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 741,
+  "updateSequence": 742,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T01:31:07.514Z",
+  "lastSyncedAt": "2026-05-23T05:10:01.567Z",
   "warDay": 85,
-  "summary": "Intense mediation efforts between the US and Iran continue amidst ongoing military strikes by Israel in Lebanon and US preparations for potential new strikes against Iran.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-23",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Despite ongoing mediation and peace talks, no formal ceasefire or de-escalation agreement has been reached between the involved parties."
+    "summary": "No active ceasefire is in effect, despite ongoing mediation efforts and discussions about potential peace deals."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
+        "precision": 0.6,
         "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 80,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 21",
-      "text": "Iran states US uranium handover demand will kill the deal, amid ongoing war updates.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOdHUtaGFONi1DbnBDWkhIaE45Wkl6ZWE1YkdLLTlVdHZKQ2xxTlU3YWFsN0I2RWxZNlVEYVl2a1h5VkVuR2d3SER6QmtHN1hzY0d6alJ4VV81cUFQbzFvM01NRjRCZVZCQnROaF95UnpaNU5IQTItdHBNUlU2WDFCZjhFbHVDM09hdkVrTmVFMFh4XzdtbFdVYUROa0kwc0RsVjcwWHdmNkhsck5aS2tqcV9VN1pBYnhQeWlpOFZGSdIBxAFBVV95cUxQTGJpZmpsWDJKbFM0MG45V1VTaHZHS1dGRWxzcEZrcEg0NUFkdTMxQUR1cVZhSjVHSGtCZ2t0WWRwOWVJZlRRLW9jRnZMdHZvU3pHQ3ZBeGFkN3FwcWs4VEVoLXgzOUtKX1ZYMVFBZWtySlc5NjQwMUw5Q1JBX2NnWENnWEpqVE52dlpDRW55UlFLSEZ6SENJeW9XTXhVRGhPMWdSWFVfVlpSNGpBUGFhWjVkclR6Sjl1eU1QRXJDNHlxalBK?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 741
+      "text": "Iran Update Special Report published.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQczFMZkZLMkpSSEdKemVhY0NpU0kzeXZsM1JRZ1UtQlMyTkZNb1VNeWxmSTZ3QkdncWpDVGdWVlRVQkdoZmpTR0IwOXg5ZzZ3cGhpWUQ0MTJMdWoyT0ExZnZ1bW4ySGQ3MzhiWWZsZXhMVm5YeE9vSktvNWlhMnpjZTNMOUdaWGJkbEFzVC1HSXBVdTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 742
     },
     {
       "date": "May 21",
-      "text": "Pakistan Army Chief Munir arrives in Tehran to expedite efforts to end the war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxOeUk0c05wbG1vMHRCZXcwajZPX2hPbzhMZDFCc0lMbWVRUEx5Z2w5TlU1MFZvS0tUZlVkZDhpdEZManZhRzd0c3BkRHd5UEw2VHJzWVM2TExDQ2NCMi1BYUhKcW5GNHNuMFc2cWRKYlY0Y3Z1a1ZqZmVnMzVlRDJWVm9jXzVVbS1ORTZBUnpTWWNzSkl0TlJBQmJsM0JVNnlYektsSmdIaEdTLUdJMHFEUEpSOWY4WGEtdUhMN252eTJPS192MTN4Wm9ISWM5RjVJWFlBUC04aXlTdUVXNFlGR2hSanF3YVFZZnFSWdIB8wFBVV95cUxPNFozS1FzaEF2TTZRSG9wYUQ2RDZ5VWN1cGI0Yndtc2Z5QkxvakZLQzZXWkRWdjFXNWZTNGZoUzIzOWE5b0J4ZDd6eU9tZXFGREcyNHlwSjZvNEltRzZyTEpyand2ZjlxY3dlTGRlZ2VNandkaXVOVVo4V3liejJfQkhPZC1NcTVnQURGZmhYMkFVQml4bW1LTWRPa2JFNG5CODFMZGlaZnYyQm9rX012UThQRTJReGpfUHllN3hxNUxFd2FiN09NTzJRSUY4WXktbHJ5YXhYSHhQZDYyMklhenFubExTakU1UUR1MzlkaVVTbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 741
-    },
-    {
-      "date": "May 22",
-      "text": "Israel launches air strike on Beirut, while the US reports attacking an Iranian-flagged ship.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 741
-    },
-    {
-      "date": "May 22",
-      "text": "Rubio reports 'slight progress' in Iran peace talks but rejects a Strait of Hormuz 'tolling system'.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 741
-    },
-    {
-      "date": "May 22",
-      "text": "Lebanon reports 21 killed, including children, in Israeli air strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBpaWpfRU91WjUtR1hQVkQ0MDdhWjRKVDItMVNBM183NnVyeURJcXZSUUFvWkxnYXFHOF9DcE5VeHBXcjJtdG9zTWsyNTFwMk0xY1F5N1lJWGc3UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 741
-    },
-    {
-      "date": "May 22",
-      "text": "10 soldiers, including a brigade commander, are injured in separate Hezbollah drone attacks.",
+      "text": "Tehran states US uranium handover demand will kill the deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQTHpXZ3VMODRRRmY4WXg0UWxiSEVsTnc4SmNEYlJZMmt2VEl1T1BlN0Rrb255MDJBQnB5bjBoSm1WbEFuR1BpYlVGeVhSOFNqZ0lEckNxYVFsZXNsU2lFLXJRcGpuWndDQ3VuNFZ2QUVBLTFUb3E0WHExdWdMLUIxcWNoSl9rdG1YT0I3NDBjSEF4QUZzcFJnU0sySnVzQzU2SkU3a1ZManpsSm5GYkhYadIBtgFBVV95cUxNTDdFd2l2Wlh1Z3IwTHAyM3RrR0w2NThMUEVVQ2JkaU02ZGpGS0l1ZjlNWnhlV1VoZTZfd3BJWWxJUmFoRWRJc2VGR1NyTndOb2NOa0lDMFh3LXp4NEhKbVZ0Nm9EQm50REtsTGRLTjM1WDNnNXI1YVVHVHFUSXlXQkY2RW1ESjJuYzJQTUMzUDZLaGtjOGtVZ3ZVR2RNbk9MakhBUVl1ZTF3SktaTUtCS29EUEVrQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 741
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOdHUtaGFONi1DbnBDWkhIaE45Wkl6ZWE1YkdLLTlVdHZKQ2xxTlU3YWFsN0I2RWxZNlVEYVl2a1h5VkVuR2d3SER6QmtHN1hzY0d6alJ4VV81cUFQbzFvM01NRjRCZVZCQnROaF95UnpaNU5IQTItdHBNUlU2WDFCZjhFbHVDM09hdkVrTmVFMFh4XzdtbFdVYUROa0kwc0RsVjcwWHdmNkhsck5aS2tqcV9VN1pBYnhQeWlpOFZGSdIBxAFBVV95cUxQTGJpZmpsWDJKbFM0MG45V1VTaHZHS1dGRWxzcEZrcEg0NUFkdTMxQUR1cVZhSjVHSGtCZ2t0WWRwOWVJZlRRLW9jRnZMdHZvU3pHQ3ZBeGFkN3FwcWs4VEVoLXgzOUtKX1ZYMVFBZWtySlc5NjQwMUw5Q1JBX2NnWENnWEpqVE52dlpDRW55UlFLSEZ6SENJeW9XTXhVRGhPMWdSWFVfVlpSNGpBUGFhWjVkclR6Sjl1eU1QRXJDNHlxalBK?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 742
+    },
+    {
+      "date": "May 21",
+      "text": "Report warns of four waves of economic shock from the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNaThoTlY4ODhhVnFJWXI5bFo3SzhHQkpBYXB5QTdzdDZPS2xqTzdKUE9zOGtKalkxeTVyVl8tR050NlJ5bURFQkFVRWFqekdrbWdkUDJqaUFvM0pITTZ4QnQzRmVNTTBGbXBWakxkWWtkMVY4ZzlJUlJwRWJKeTBwOHhSM1BlM0FlLXNKYzEyZTIxTnhKS1FNU1lweVF4VFA1Z2Zvd2Z0VW1oejVLblFTQ9IBtgFBVV95cUxNNmZXeGtzSlVKaWU2TDJqbjNrTGJsRndFaTFYTWY1N0xzSS04VmhpMkxvWEpGV2xUNER2cmM5bEs4QWhQWVVPWVBsUDEybW1hQUlXbE1rX0J6LXFaa19wR3pTOEFNNnJFM1VuNUpySkRUYi1pbDlIZWxhTU1kam0wVzN0Ti1GWl94eDFHMTVmV21rRHdjT0U1ZW5DZEdQQ0tRZC1DRmE3TC1DblNLR3F4SVhELWMtdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 742
+    },
+    {
+      "date": "May 21",
+      "text": "Senator Rubio indicates 'some good signs' a peace deal can be reached.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPekMyeGcxWEVrNG5LQnpVdW5jdU9hcTFMUTFlRFRuU2VNZFZZbUZHbEpkY1ZxbUtjSGgyeTh2VnY1Y1dZNENFanNBYzhNNERpWF8tOXJCS1pmbHJOcFBoVl9tbDVlM3RGUFVsdDc4aXFJOTdLZXpRclFJTGlDeUdZel9CWDRHaE5GcEFGQ2hFb0hEQVNpQ3Q0YndnbHFtdHBBRFMzOEtUajhXd0c5U3Zfdm9wdlJ1VV8wbDZn0gHAAUFVX3lxTFBVM1ZlbXNDVU1IVE45TWxiaXNZTDJGaTZNa3J6WWRiQWpnaVVudFdDOVk4VHkybjYwQ241QXBoaTNhSzhHT3pZNmlJVGNoZ2FVcDFuOERYbklaLXpwbVVlbDdxWnJDSmx6VE1NLVZ2WXBtYjNvRi05dXpUUmFIdGxyR1JqcGYwdHZsS19udG5KS3ZXWU9kUUp0c1B4bkx1Mmt3TU1FWlo0dERWb1FwYnBZbldKaU5tdEJNVkJPazFVTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 742
+    },
+    {
+      "date": "May 21",
+      "text": "Tehran accuses US of ‘overt and covert’ moves for attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 742
+    },
+    {
+      "date": "May 21",
+      "text": "'Intense mediation' reported between US and Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New Arab",
+      "latestSinceUpdate": 742
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
