@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 742,
+  "updateSequence": 743,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T05:10:01.567Z",
+  "lastSyncedAt": "2026-05-23T07:44:41.153Z",
   "warDay": 85,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US and Iran remain in a state of conflict with ongoing diplomatic efforts failing to yield a deal, while military actions and threats persist in the region, particularly concerning the Strait of Hormuz and Lebanon.",
   "lastNarrativeUpdate": "2026-05-23",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect, despite ongoing mediation efforts and discussions about potential peace deals."
+    "summary": "No active ceasefire or de-escalation agreement is currently in place between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "nuclearIndex": 40,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 21",
-      "text": "Iran Update Special Report published.",
+      "text": "Iran Update Special Report published, detailing the ongoing conflict.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQczFMZkZLMkpSSEdKemVhY0NpU0kzeXZsM1JRZ1UtQlMyTkZNb1VNeWxmSTZ3QkdncWpDVGdWVlRVQkdoZmpTR0IwOXg5ZzZ3cGhpWUQ0MTJMdWoyT0ExZnZ1bW4ySGQ3MzhiWWZsZXhMVm5YeE9vSktvNWlhMnpjZTNMOUdaWGJkbEFzVC1HSXBVdTg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 742
+      "latestSinceUpdate": 743
     },
     {
       "date": "May 21",
-      "text": "Tehran states US uranium handover demand will kill the deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOdHUtaGFONi1DbnBDWkhIaE45Wkl6ZWE1YkdLLTlVdHZKQ2xxTlU3YWFsN0I2RWxZNlVEYVl2a1h5VkVuR2d3SER6QmtHN1hzY0d6alJ4VV81cUFQbzFvM01NRjRCZVZCQnROaF95UnpaNU5IQTItdHBNUlU2WDFCZjhFbHVDM09hdkVrTmVFMFh4XzdtbFdVYUROa0kwc0RsVjcwWHdmNkhsck5aS2tqcV9VN1pBYnhQeWlpOFZGSdIBxAFBVV95cUxQTGJpZmpsWDJKbFM0MG45V1VTaHZHS1dGRWxzcEZrcEg0NUFkdTMxQUR1cVZhSjVHSGtCZ2t0WWRwOWVJZlRRLW9jRnZMdHZvU3pHQ3ZBeGFkN3FwcWs4VEVoLXgzOUtKX1ZYMVFBZWtySlc5NjQwMUw5Q1JBX2NnWENnWEpqVE52dlpDRW55UlFLSEZ6SENJeW9XTXhVRGhPMWdSWFVfVlpSNGpBUGFhWjVkclR6Sjl1eU1QRXJDNHlxalBK?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 742
-    },
-    {
-      "date": "May 21",
-      "text": "Report warns of four waves of economic shock from the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNaThoTlY4ODhhVnFJWXI5bFo3SzhHQkpBYXB5QTdzdDZPS2xqTzdKUE9zOGtKalkxeTVyVl8tR050NlJ5bURFQkFVRWFqekdrbWdkUDJqaUFvM0pITTZ4QnQzRmVNTTBGbXBWakxkWWtkMVY4ZzlJUlJwRWJKeTBwOHhSM1BlM0FlLXNKYzEyZTIxTnhKS1FNU1lweVF4VFA1Z2Zvd2Z0VW1oejVLblFTQ9IBtgFBVV95cUxNNmZXeGtzSlVKaWU2TDJqbjNrTGJsRndFaTFYTWY1N0xzSS04VmhpMkxvWEpGV2xUNER2cmM5bEs4QWhQWVVPWVBsUDEybW1hQUlXbE1rX0J6LXFaa19wR3pTOEFNNnJFM1VuNUpySkRUYi1pbDlIZWxhTU1kam0wVzN0Ti1GWl94eDFHMTVmV21rRHdjT0U1ZW5DZEdQQ0tRZC1DRmE3TC1DblNLR3F4SVhELWMtdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 742
-    },
-    {
-      "date": "May 21",
-      "text": "Senator Rubio indicates 'some good signs' a peace deal can be reached.",
+      "text": "Tehran states diplomacy continues with the US but no deal has been reached yet.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPekMyeGcxWEVrNG5LQnpVdW5jdU9hcTFMUTFlRFRuU2VNZFZZbUZHbEpkY1ZxbUtjSGgyeTh2VnY1Y1dZNENFanNBYzhNNERpWF8tOXJCS1pmbHJOcFBoVl9tbDVlM3RGUFVsdDc4aXFJOTdLZXpRclFJTGlDeUdZel9CWDRHaE5GcEFGQ2hFb0hEQVNpQ3Q0YndnbHFtdHBBRFMzOEtUajhXd0c5U3Zfdm9wdlJ1VV8wbDZn0gHAAUFVX3lxTFBVM1ZlbXNDVU1IVE45TWxiaXNZTDJGaTZNa3J6WWRiQWpnaVVudFdDOVk4VHkybjYwQ241QXBoaTNhSzhHT3pZNmlJVGNoZ2FVcDFuOERYbklaLXpwbVVlbDdxWnJDSmx6VE1NLVZ2WXBtYjNvRi05dXpUUmFIdGxyR1JqcGYwdHZsS19udG5KS3ZXWU9kUUp0c1B4bkx1Mmt3TU1FWlo0dERWb1FwYnBZbldKaU5tdEJNVkJPazFVTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNVGdjcGZxc0xlUWVqMTFnSE5PWHhfTktWV1FienhRUXprYWxtT0c3dnQ5dEJGUFNQUVNVRURXcm4tNDl4SEFoQ3U3Y3Jpc0VDbGlGS0dtTHIwdDBDeTd1MVQzQlhvUzhlNU1nS0s1bl9vVURnTzdvanVXdkwxNjlZMEZCTm9OYXhkc2xLeE9USlIyMU1ERUVqNHpHRXpaamZra2VFcEgtUDBBY1Yxem1yYmZCNmNoN29HckdN0gHAAUFVX3lxTFBIbkd1N3VodWpvUElmRHpXTHJxUkdqNjNwdzhkejVNZGwtSlhnb1dGUVFTUENnemJuZWt0dVhBVW5FYmt0Q2dtaWtGekxrV1hqOTJXUC1iam5SVVdyVk9EMU9qazEwY1N0d3hUVXZqMDVIRkhCcGtWR0NDUVRXNUNNMmgzXzRWUHhPM3V0QjEzeU5Ccmp4V28yVnZuYTI2TDR4aEtmaGFBM1k5TFNJMGJ5VVhBZG5EN0piQ2c1bXFxcA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 742
+      "latestSinceUpdate": 743
     },
     {
-      "date": "May 21",
-      "text": "Tehran accuses US of ‘overt and covert’ moves for attack.",
+      "date": "May 23",
+      "text": "Trump administration is reportedly weighing fresh military strikes on Iran as diplomatic efforts continue.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMDJZNG9HalZLWEpsaHNBemRNVHpOOXVITWN3eTVMZEx6WnNuX0gwdlpUV2x5ME82MHJTazE4TlJoWmxLMTF3c2xDWG9rb1o1UmJlLXRpWlZjWWlpZXJUR2l1X0ttQlZzaEtVaEd6QTliRTFGZFZsX21jYnE4alNOeEoxTVVyZm81UU5uNWNGZGNHVzJZcy1UTHNlNjZ6d3hoYnJzWHBvZkZxMTRmWHVGRjB4cGJJNk4tMENN0gHAAUFVX3lxTFA5dzBfN3RmRWVPR2ZpWjQxOTlEbDBncExIejdaMU9UdDc0c21Bd2VLa3p6Vy1fcFE4bE1xQmR2LVJGOUxKNERXSGFzbjhKb09jLU5pTU5DY1Z1S2tTWEdQN2N6MVFRWWJTMmhvaVMwN0RWclo4b2Q2cF85aHFaZVhvZ0N0WWdmVFo5YTFtcGlWU2l5NzZjeXJrTXpmRkRIVjh3Tk1DMzBzVGtKcFpraDVmVGJNTkhrSTNPWENPTGhBUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 742
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNb3RKeWxZZmhWX05WV2NybDlvb3BDd3daTXJqQWdfUk9IbWV6ZVFNYW1IVklsX0lVTExTRzh3MFJnRXdVR3VkbThIV215NkJYbm5STXRkUUprekJiS3BRQlliOUl5LUJFTXVnNEMyd2J0N1V5cFQ3M0V1ejZZcEFPLUo4ZnloTHlNVUNUYS1FckFlemxBS0NjVF8zd2pUaFJqRXZSQU44MGQyYl96cExGS2lhNzhWYXg3YWJzRkQtTdIBxAFBVV95cUxOM0RVR3ZSRGxITVJwYjhoZjFoYV96NTIzOHdUdi0wR2oya3pZZTFrc011Sng1OWhxTElRSTJ0QUFDMGIxaEJOT3lPQS13MDhXYmlNYkYtemljVmxsT3pkYUxWM0dCRzFpNThFV2JHQzZfQWtYOU5Ub3I1N1liYWJGM2hCUVRGNEhja3ZhSFd2M19sTnczTTFQTFFGMG5xMVkwY2pXc0RXVGVjNGstREFYdFdEVHQzN25JcWNDNWJpTFBXYXAw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 743
     },
     {
-      "date": "May 21",
-      "text": "'Intense mediation' reported between US and Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New Arab",
-      "latestSinceUpdate": 742
+      "date": "May 23",
+      "text": "Israel launches an air strike on Beirut, while the US reports attacking an Iranian-flagged ship.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 743
+    },
+    {
+      "date": "May 23",
+      "text": "Sources indicate the U.S. is preparing for possible military strikes against Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 743
+    },
+    {
+      "date": "May 23",
+      "text": "Senator Rubio states tolls on the Strait of Hormuz are 'not acceptable', highlighting concerns over maritime security.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 743
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
