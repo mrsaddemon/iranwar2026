@@ -1,13 +1,13 @@
 {
-  "updateSequence": 748,
+  "updateSequence": 749,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T15:11:38.607Z",
+  "lastSyncedAt": "2026-05-23T16:30:00.000Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 14,
-    "summary": "Intense diplomatic efforts are ongoing to establish a ceasefire framework, but claims of violations and continued military actions indicate no stable ceasefire is currently active."
+    "summary": "Intense mediation efforts are underway between the US and Iran, but no formal ceasefire is active, with ongoing military actions and threats."
   }
 }
