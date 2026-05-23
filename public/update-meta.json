@@ -1,13 +1,13 @@
 {
-  "updateSequence": 747,
+  "updateSequence": 748,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T13:59:21.230Z",
+  "lastSyncedAt": "2026-05-23T15:11:38.607Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "A previous ceasefire period allowed Iran to rebuild its military, but it appears to have collapsed amidst new allegations of violations, ongoing strikes, and US preparations for military action."
+    "summary": "Intense diplomatic efforts are ongoing to establish a ceasefire framework, but claims of violations and continued military actions indicate no stable ceasefire is currently active."
   }
 }
