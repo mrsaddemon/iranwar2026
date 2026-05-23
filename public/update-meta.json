@@ -1,13 +1,13 @@
 {
-  "updateSequence": 755,
+  "updateSequence": 756,
   "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T22:28:47.517Z",
+  "lastSyncedAt": "2026-05-23T23:33:45.973Z",
   "warDay": 85,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "No active, stable ceasefire is currently in effect, despite ongoing diplomatic efforts and claims of past violations."
+    "summary": "Despite claims of a 'largely negotiated' peace deal, active hostilities persist between Israel and Hezbollah, and the US maintains its blockade on Iran."
   }
 }
