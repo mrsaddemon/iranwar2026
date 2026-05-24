@@ -1,13 +1,13 @@
 {
-  "updateSequence": 757,
+  "updateSequence": 758,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T01:31:45.882Z",
+  "lastSyncedAt": "2026-05-24T05:41:57.827Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A supposed ceasefire between Israel and Hezbollah has collapsed amidst ongoing attacks and casualties in Lebanon, while a broader peace deal with Iran is reportedly under negotiation."
+    "summary": "Despite claims of a largely negotiated peace deal, Iran states no agreement has been reached, and reports of ceasefire violations and ongoing strikes persist."
   }
 }
