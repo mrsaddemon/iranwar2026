@@ -1,13 +1,13 @@
 {
-  "updateSequence": 760,
+  "updateSequence": 761,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T10:13:23.559Z",
+  "lastSyncedAt": "2026-05-24T11:43:53.691Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "Despite claims of a largely negotiated peace deal, hostilities continue, and Iran denies a deal has been reached, indicating a fragile and unconfirmed ceasefire status."
+    "summary": "A ceasefire between the US and Iran is claimed to have been violated by Tehran, while broader peace deal negotiations continue amidst ongoing regional conflict."
   }
 }
