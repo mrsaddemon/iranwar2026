@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 764,
+  "updateSequence": 765,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T15:37:10.073Z",
+  "lastSyncedAt": "2026-05-24T16:39:06.194Z",
   "warDay": 86,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Intense mediation efforts are underway between the US and Iran for an initial peace deal, including the reopening of the Strait of Hormuz, amidst continued military strikes, accusations of ceasefire violations, and preparations for further conflict.",
   "lastNarrativeUpdate": "2026-05-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "An initial peace deal is reportedly largely negotiated, but significant gaps remain, and reports of ceasefire violations and ongoing military actions persist."
+    "summary": "Despite ongoing negotiations for an initial peace deal, a stable ceasefire is not active, with reports of violations and continued military actions from multiple parties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.5
+        "precision": 0.65,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 64,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 23",
-      "text": "Tehran indicates major gaps remain in US talks, contradicting claims of a largely negotiated deal.",
-      "severity": "info",
+      "text": "Tehran reports major gaps remain in US talks and accuses the US of violating a ceasefire by targeting ships.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNbGdNUHRiREpESUxxY0Z0WDZocGxZR2xMN1lOekZOSjQ2Q2k1XzBTQzM2S2ZjOHpISkVkaXhOQkxCWnoyZXFEWWZhVUNRRHN3M1JqTGdaejZsTGQ4LThuV0tVaFZsd3ZyRkQ4VVlQb3hJOGwxanNHTHFQR1pJQ1I1c1BKWVdCS2ZWOHhVcDJjREg4N1hXUzNXb1pIRWlaTTTSAaQBQVVfeXFMTkh4VEFUd19SS1J1UnB5RGF6d3FfNEswTTFHaGNXeC1iWHJ3X3VQTk80UDdCNDBoeEx3NzJaYWkwOXhxT0tIRDIzdGhGUUJtVzN1Rk96X0Fod2lMelZObGJxNWd6RXdydHB5M2JpQml4VWc1M1phbmhDLXBKcDBXaGVVNmluSWFMRVBtX19xVjNHdURwR3h0Vzh2c2dHWDI3RjlMSEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 764
+      "latestSinceUpdate": 765
     },
     {
       "date": "May 23",
-      "text": "US is reportedly weighing new military strikes against Iran while seeking a 'decisive' victory.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 764
+      "text": "Israel launches an air strike on Beirut, while the US confirms attacking an Iranian-flagged ship.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 765
     },
     {
       "date": "May 23",
-      "text": "Israel conducts strikes in Lebanon amidst 'intense mediation' between the US and Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDDSAZgBQVVfeXFMTklOVGIwNmtjUE81eWhTQkpaTmhKNGc1VVFWVC13eWIxNjdYWnNfMjdpV1lxck83ajNPdGRkaXFXNE95dnlza0VVM3d5S3VQQzhPUUQwM2t6MjlhX1FHcG5CcUhEQUdvb1draUotMXktSjc1X2VSWEZSSUN5UWtfRUItNm5jc3YwOXRmSFNtTHJDU3M4MGtmRl8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New Arab",
-      "latestSinceUpdate": 764
-    },
-    {
-      "date": "May 23",
-      "text": "A soldier was killed in northern Israel by a Hezbollah drone launched from Lebanon.",
+      "text": "A soldier is killed in northern Israel by a Hezbollah drone from Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPRFlCSnR0UUtnTEpoX3gwVlZaLXBqQTVVdlRFZEJ0ZDBRODFBbDJBX0N5R3BiM1h4U2dVa2s4eVFoVkZ4Z1FEZ1NsbW9vUUlFM2dzZENILUs3MFhWMFlGSjVZUWV5bTNXMXJKdFJpZXlqRnowVnMyc1lHM3BpZk53LWVQUHdfNWNHRVgwRDM2Z2lqUE5JTnpJa0xvMVfSAaIBQVVfeXFMTVRNaExFS3VXblRvTTZjblowVEM2UzI3cXFjYjgtVjRya2VOcFhaZkQ3d3RjYWhrRDNhQWI4dG9iVW5vaHE1aEZGM2h3d2lLVThDOXYycTFpRzhGLV8xSldFWUJldHdUd1FWRlJMaEFiSlc4Q1dDamtIZGRNRXZJRElNa0xMVTFzUXdvZXZid2EzdzQwcTdEc0xvQ3B0OVJ1cEZR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 764
+      "latestSinceUpdate": 765
     },
     {
       "date": "May 23",
-      "text": "US military boarded an Iranian-flagged oil tanker suspected of attempting to breach the blockade.",
+      "text": "The US military boards an Iranian-flagged oil tanker suspected of attempting to breach the blockade.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPOG1BQ05TVWdHUUhXQzI5SG1sSWo1eFhrTzlJQ1czNXo1TlJxMHIxcThsWks0MWRWOFZuLWE5NUZSTV9tVlNrUFhyN0lOcWp6MWFETEN0S0puMU5abkZWMXNmejNIbXJacGhoR2ZrMmd6SXBJcG5EZEYyU3NHeV9SdzZhRG11anZKNWdMLWY0ZXF4cEtiNFpkdlI4MnhhUkZiRldLSHNIb2hKcmh4QmhONFlKb2NVYjNXM21FdF9MZEMwOTZj0gHKAUFVX3lxTE1XUGxoQmRRM0d5dUVIZUtLQ2R0OHdGcHJNTXZ1SmpCekZfU3VhNmljS3lRZ29TSTgtNkFDd2JwTEpsdVM5b0RCMmFta054Q29PQ0FheXN0cTZjelJnNG5lSkVkRUtfeEVFeFNaeDBCN1BCZ2gtLTItOXhJYTY3bEFNY0thZjRGc1hCX2NSZENudE1wVDFmREJuRGwycDFUU3B0VUlibFNLSDVtMTlZQnBDdWJaT3J3U0Q1bkRpcUdWa0pkVHNBekN1eGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "WANE 15",
-      "latestSinceUpdate": 764
+      "latestSinceUpdate": 765
+    },
+    {
+      "date": "May 23",
+      "text": "US intelligence indicates Iran is rebuilding its military industrial base faster than expected, already producing drones.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1LcWcxVzFDaVhiYVZUOFNJYjdEakhpU2xaVUFGZVhzTHFtS3N1bGdwa3A0RFNrbURFaXNxeVc0WGlqZDVhcE9kTWxKMl9yNlh5cmxXMFNNTDNNMzlwaDZjNl9vdGduUjB4MzBlUzhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 765
     }
   ],
   "sourceStatuses": [
