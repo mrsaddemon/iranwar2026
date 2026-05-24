@@ -1,13 +1,13 @@
 {
-  "updateSequence": 765,
+  "updateSequence": 766,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T16:39:06.194Z",
+  "lastSyncedAt": "2026-05-24T17:44:24.909Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Despite ongoing negotiations for an initial peace deal, a stable ceasefire is not active, with reports of violations and continued military actions from multiple parties."
+    "summary": "Despite reports of an agreement in principle, ongoing military actions, threats, and accusations of violations indicate a highly fragile and unconfirmed ceasefire status."
   }
 }
