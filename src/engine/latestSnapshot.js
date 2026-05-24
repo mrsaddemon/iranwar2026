@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 758,
+  "updateSequence": 759,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T05:41:57.827Z",
+  "lastSyncedAt": "2026-05-24T08:09:06.213Z",
   "warDay": 86,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "Despite claims of a largely negotiated peace deal, Iran states no agreement has been reached, and reports of ceasefire violations and ongoing strikes persist."
+    "summary": "Despite claims of a largely negotiated peace deal, active military engagements and conflicting statements indicate a very fragile or non-existent formal ceasefire, with intense mediation ongoing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.6
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 55,
+    "tradeImpact": 40,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 60,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 24",
-      "text": "Trump says Iran deal reopening Strait of Hormuz 'largely negotiated,' will be announced soon",
+      "text": "President Trump claims a peace deal with Iran, including reopening the Strait of Hormuz, is 'largely negotiated' and will be announced soon.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE9GekFKeFgteThEeDR5RXM5d1lBaE9aYm9wdnk2LXY5RUFOTXl6LS1tWHdDLWNhNEc5bW5lUmM3X1VHOTItbldiallXdm5UWTJFQ0ZGVXRvcC1qWUZZWkF4cDFfekTSAWpBVV95cUxNR2JTUFdkSGpMenRzU2pxNm5iT0UyWTJyOFJQQ3E5bGwxUGxzZVNBY2NpQWw5OFRfdlJ6dDltN053empCTjFIWVJDQjhDSHJ2b1ZTdFdRTlZTdFQwS0w2a1FtZDVzWWFrN3V3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 758
+      "latestSinceUpdate": 759
     },
     {
       "date": "May 24",
-      "text": "’Intense mediation’ between US and Iran, Israel strikes Lebanon",
+      "text": "Israel conducts strikes in Lebanon amidst ongoing regional tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New Arab",
-      "latestSinceUpdate": 758
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 759
     },
     {
       "date": "May 24",
-      "text": "Iran war updates: Tehran says US violated ceasefire, targeted ships",
+      "text": "Hezbollah drone attack wounds two IDF soldiers in southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 758
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQTXkydHRJa2U1M0NaNW5UVWdNNlEzOFczRHRnRjFzTHpsb1JFLUEzWUI1MVJ1b0k0X29RZFlNVkU5QlFKaE9lTnAzWm5FbmFXZTJBSlpZODZzcnJwLWVpaHltRXJmOTRSandSOE4zWnQtNnc4Ukt0UkIzZ2FjZVR2S0ZqZUloV3BqU2F6dWxTdXZIOE1rdExzZ0FCN2FPV3BsR3lvdnVOTmVDTXdrbnF5RTAyOGg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 759
     },
     {
       "date": "May 24",
-      "text": "I survived a missile strike in the Strait of Hormuz, but my friend has not been found",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9KTGJoaHEtWGFGNjB2SHVVanRKSGdPbDJtRW5PbTg2VWlEaTBrRk9vUTZGWkF2V0k3MmdVemNrdUJrQXlTNDlleUpJT3Z0cmc4RmZOd2xuS0lKUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 758
+      "text": "IDF destroys a 100-meter long Hezbollah tunnel containing four rooms for operatives.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOakVfdFJBd2Z6dzE0YUxmSmltWXkzRG9Galk2T05USjY5SjU0MXZ2OG8ySVRuSE5BNS1HWUxNMkNIdjBqSlFadElKdHRycUFiTzFGZHZCLVpGNTRtSlFGWEE3bGV1OXRuNXlfc09lSDU0Z3Judld0ZkZFcVdreG9qYy15YnVucXZobnJFTS1ucDBqeUE5SGVSWEFZQTloeXEzU3VYZC1Penk4RGJUb3VtZmZXS0twTmRqeS1naXdlVERBdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 759
     },
     {
       "date": "May 24",
-      "text": "Israeli military conducts fresh attacks on Hezbollah sites in Lebanon",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQSk5NVF9wM2tkaXFsakpHTVNHM2NYV1NWMlFpU1RzclNLSEdBVXU1LUJ1eG9obC1Pb1pvc1Z5M3AwOWlENThNZXhEMi1LY1pSRk5uLUljMHpxM1doeklJN3VGVnU3dG12a3FobTBId1hwaXZfSGM0RHFKZ2RVUTBuVTMzZm95S1hlTzVFUkVlUmxTbTNMTzN6TTV1Z2s?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo",
-      "latestSinceUpdate": 758
-    },
-    {
-      "date": "May 24",
-      "text": "Iran rebuilding military industrial base faster than expected, already producing drones, according to US intel",
+      "text": "US intelligence indicates Iran is rebuilding its military industrial base faster than expected, already producing drones.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1LcWcxVzFDaVhiYVZUOFNJYjdEakhpU2xaVUFGZVhzTHFtS3N1bGdwa3A0RFNrbURFaXNxeVc0WGlqZDVhcE9kTWxKMl9yNlh5cmxXMFNNTDNNMzlwaDZjNl9vdGduUjB4MzBlUzhR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 758
+      "latestSinceUpdate": 759
+    },
+    {
+      "date": "May 24",
+      "text": "Iran states that no deal has yet been reached with the US, despite Trump's claims.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 759
     }
   ],
   "sourceStatuses": [
