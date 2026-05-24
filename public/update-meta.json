@@ -1,13 +1,13 @@
 {
-  "updateSequence": 766,
+  "updateSequence": 767,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T17:44:24.909Z",
+  "lastSyncedAt": "2026-05-24T18:52:28.795Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Despite reports of an agreement in principle, ongoing military actions, threats, and accusations of violations indicate a highly fragile and unconfirmed ceasefire status."
+    "summary": "No general ceasefire is active, though US and Iran have agreed in principle to reopen the Strait of Hormuz."
   }
 }

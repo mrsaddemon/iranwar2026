@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 766,
+  "updateSequence": 767,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T17:44:24.909Z",
+  "lastSyncedAt": "2026-05-24T18:52:28.795Z",
   "warDay": 86,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Despite reports of an agreement in principle, ongoing military actions, threats, and accusations of violations indicate a highly fragile and unconfirmed ceasefire status."
+    "summary": "No general ceasefire is active, though US and Iran have agreed in principle to reopen the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.4,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "nuclearIndex": 40,
+    "escalationLevel": 38,
+    "oilDisruption": 70,
+    "tradeImpact": 41,
+    "sanctionsPressure": 49,
+    "globalPressure": 53,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 23",
-      "text": "Trump states an agreement with Iran has been largely negotiated and the Strait of Hormuz will be opened.",
+      "text": "Trump says agreement with Iran has ‘been largely negotiated’ and Strait of Hormuz will be opened.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOVWdfVmFGa2RfRzBlNmtBdVhRTWY1dkRxTGc5Y1g5RVRyMVFrVGRhXzNfcFdpQ19teS0wSDBrTkIzVEV3c2MwT2NyQzcyTGE1aXdZVUxsS0ZwU0hwVVAwVDlxZl9TNGJHVTVsSkNIbnJ4aGpoZm1aZWNnTzFoanNwS2NRTTVFQ18zbVRV?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 766
+      "latestSinceUpdate": 767
     },
     {
-      "date": "May 23",
-      "text": "Iran reports major gaps remain in US talks despite progress.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNbGdNUHRiREpESUxxY0Z0WDZocGxZR2xMN1lOekZOSjQ2Q2k1XzBTQzM2S2ZjOHpISkVkaXhOQkxCWnoyZXFEWWZhVUNRRHN3M1JqTGdaejZsTGQ4LThuV0tVaFZsd3ZyRkQ4VVlQb3hJOGwxanNHTHFQR1pJQ1I1c1BKWVdCS2ZWOHhVcDJjREg4N1hXUzNXb1pIRWlaTTTSAaQBQVVfeXFMTkh4VEFUd19SS1J1UnB5RGF6d3FfNEswTTFHaGNXeC1iWHJ3X3VQTk80UDdCNDBoeEx3NzJaYWkwOXhxT0tIRDIzdGhGUUJtVzN1Rk96X0Fod2lMelZObGJxNWd6RXdydHB5M2JpQml4VWc1M1phbmhDLXBKcDBXaGVVNmluSWFMRVBtX19xVjNHdURwR3h0Vzh2c2dHWDI3RjlMSEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 766
-    },
-    {
-      "date": "May 23",
-      "text": "Liberman criticizes the emerging Iran deal and Netanyahu's war strategy.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 766
-    },
-    {
-      "date": "May 23",
-      "text": "Trump is reportedly weighing new Iran strikes for a 'decisive' victory, with Netanyahu excluded from talks.",
+      "date": "Recent",
+      "text": "Trump said weighing new Iran strikes as he seeks ‘decisive’ victory; Netanyahu frozen out of talks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNNHk2dXpzaHNCNC1JM3pmWmxIeU1Md05yc2FCWUZ5cjhZb3JaQWdnWm9MTnNHMzl3REs5U3ljb2pIUERiUWpxYjhfNm5KM0poLUtnN0pTMWJ6Q2RZeGNQbXBfUklOWll5cV9IY3pmZ0pYRzUxTGNudEg5WDdlbXNBWVdFMHdTSjlCeExtdFJ1Mm9RaHZXTTNNT0IzSUJITWQzcEJzMm5jVllObmotcUc5U2kwZlV3MVpFRWRrTHJZQmJqd9IBxwFBVV95cUxNcEFPNWJpbXJXR0JUQ0dFUE1BU1R6MmR3aWdtdGxJOTdnY1MwdGcyNUlkejN5LUg5Z2tUWXZLeVQ3ZEdyZnZ1NVA1M0ROMHFWMVU5Z2VrYVJ2X19oaWlvbjJMb0ZvWmVmd1VITmMzdmRsYk5vOWtXbU9yWHkwMWt2VnpCczRVeGJUQnJLMnl6eG1yVUNxSGhtMzdCckxVU01qNjZQRmV0S3MtOW9GRl91Um1sVGd4VWp1SURxcWpORU4yQ21aVnJz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 766
+      "latestSinceUpdate": 767
     },
     {
-      "date": "May 23",
-      "text": "Intense mediation between US and Iran is reported, alongside Israeli strikes in Lebanon.",
+      "date": "Recent",
+      "text": "Intense mediation' between US and Iran, Israel strikes Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDDSAZgBQVVfeXFMTklOVGIwNmtjUE81eWhTQkpaTmhKNGc1VVFWVC13eWIxNjdYWnNfMjdpV1lxck83ajNPdGRkaXFXNE95dnlza0VVM3d5S3VQQzhPUUQwM2t6MjlhX1FHcG5CcUhEQUdvb1draUotMXktSjc1X2VSWEZSSUN5UWtfRUItNm5jc3YwOXRmSFNtTHJDU3M4MGtmRl8?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New Arab",
-      "latestSinceUpdate": 766
+      "latestSinceUpdate": 767
     },
     {
-      "date": "May 23",
-      "text": "Iran claims the US violated a ceasefire and targeted ships.",
-      "severity": "critical",
+      "date": "Recent",
+      "text": "Tehran says US violated ceasefire, targeted ships.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 766
+      "latestSinceUpdate": 767
+    },
+    {
+      "date": "Recent",
+      "text": "Israel launches air strike on Beirut as US says it has attacked Iranian-flagged ship.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 767
+    },
+    {
+      "date": "Recent",
+      "text": "U.S. and Iran Agree in Principle to Reopen Strait of Hormuz, U.S. Official Says.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE44WGtYZU03RHcwd1NxdmQyeHVZUnpQaXk3cDl4Vzd2ZlNjV2V5S2g2RlI1aHQ2VlFuTTZMNmdzS1NXM3gzbkYwTFNsaHVGZTRVZVlkMjlFSVo0YzcwUm5lOTNtZUJlcXlJR2VKag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 767
     }
   ],
   "sourceStatuses": [
