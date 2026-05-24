@@ -1,13 +1,13 @@
 {
-  "updateSequence": 761,
+  "updateSequence": 762,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T11:43:53.691Z",
+  "lastSyncedAt": "2026-05-24T12:48:06.352Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "A ceasefire between the US and Iran is claimed to have been violated by Tehran, while broader peace deal negotiations continue amidst ongoing regional conflict."
+    "summary": "Despite claims from Trump of a largely negotiated peace deal, Iran denies any agreement, and military actions continue in the region."
   }
 }
