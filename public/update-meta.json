@@ -1,13 +1,13 @@
 {
-  "updateSequence": 756,
-  "lastUpdated": "2026-05-23",
-  "lastSyncedAt": "2026-05-23T23:33:45.973Z",
-  "warDay": 85,
+  "updateSequence": 757,
+  "lastUpdated": "2026-05-24",
+  "lastSyncedAt": "2026-05-24T01:31:45.882Z",
+  "warDay": 86,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Despite claims of a 'largely negotiated' peace deal, active hostilities persist between Israel and Hezbollah, and the US maintains its blockade on Iran."
+    "summary": "A supposed ceasefire between Israel and Hezbollah has collapsed amidst ongoing attacks and casualties in Lebanon, while a broader peace deal with Iran is reportedly under negotiation."
   }
 }
