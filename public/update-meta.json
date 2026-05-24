@@ -1,13 +1,13 @@
 {
-  "updateSequence": 759,
+  "updateSequence": 760,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T08:09:06.213Z",
+  "lastSyncedAt": "2026-05-24T10:13:23.559Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Despite claims of a largely negotiated peace deal, active military engagements and conflicting statements indicate a very fragile or non-existent formal ceasefire, with intense mediation ongoing."
+    "summary": "Despite claims of a largely negotiated peace deal, hostilities continue, and Iran denies a deal has been reached, indicating a fragile and unconfirmed ceasefire status."
   }
 }

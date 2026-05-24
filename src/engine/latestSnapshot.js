@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 759,
+  "updateSequence": 760,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T08:09:06.213Z",
+  "lastSyncedAt": "2026-05-24T10:13:23.559Z",
   "warDay": 86,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "US President Trump claims a peace deal with Iran, including the reopening of the Strait of Hormuz, is largely negotiated amidst ongoing mediation efforts, while hostilities persist with Israel striking Lebanon and Iran reporting US ceasefire violations.",
   "lastNarrativeUpdate": "2026-05-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Despite claims of a largely negotiated peace deal, active military engagements and conflicting statements indicate a very fragile or non-existent formal ceasefire, with intense mediation ongoing."
+    "summary": "Despite claims of a largely negotiated peace deal, hostilities continue, and Iran denies a deal has been reached, indicating a fragile and unconfirmed ceasefire status."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.65
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 55,
-    "tradeImpact": 40,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 60,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 24",
-      "text": "President Trump claims a peace deal with Iran, including reopening the Strait of Hormuz, is 'largely negotiated' and will be announced soon.",
+      "text": "Trump claims peace deal with Iran, including reopening Strait of Hormuz, is largely negotiated and near announcement.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE9GekFKeFgteThEeDR5RXM5d1lBaE9aYm9wdnk2LXY5RUFOTXl6LS1tWHdDLWNhNEc5bW5lUmM3X1VHOTItbldiallXdm5UWTJFQ0ZGVXRvcC1qWUZZWkF4cDFfekTSAWpBVV95cUxNR2JTUFdkSGpMenRzU2pxNm5iT0UyWTJyOFJQQ3E5bGwxUGxzZVNBY2NpQWw5OFRfdlJ6dDltN053empCTjFIWVJDQjhDSHJ2b1ZTdFdRTlZTdFQwS0w2a1FtZDVzWWFrN3V3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 759
+      "latestSinceUpdate": 760
     },
     {
       "date": "May 24",
-      "text": "Israel conducts strikes in Lebanon amidst ongoing regional tensions.",
+      "text": "Intense mediation efforts are underway between the US and Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New Arab",
+      "latestSinceUpdate": 760
+    },
+    {
+      "date": "May 24",
+      "text": "Israel conducts strikes in Lebanon.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 759
+      "latestSinceUpdate": 760
     },
     {
       "date": "May 24",
-      "text": "Hezbollah drone attack wounds two IDF soldiers in southern Lebanon.",
+      "text": "Iran reports the US violated a ceasefire and targeted ships.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQTXkydHRJa2U1M0NaNW5UVWdNNlEzOFczRHRnRjFzTHpsb1JFLUEzWUI1MVJ1b0k0X29RZFlNVkU5QlFKaE9lTnAzWm5FbmFXZTJBSlpZODZzcnJwLWVpaHltRXJmOTRSandSOE4zWnQtNnc4Ukt0UkIzZ2FjZVR2S0ZqZUloV3BqU2F6dWxTdXZIOE1rdExzZ0FCN2FPV3BsR3lvdnVOTmVDTXdrbnF5RTAyOGg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 759
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 760
     },
     {
       "date": "May 24",
-      "text": "IDF destroys a 100-meter long Hezbollah tunnel containing four rooms for operatives.",
+      "text": "Britain’s navy prepares to clear mines in the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOakVfdFJBd2Z6dzE0YUxmSmltWXkzRG9Galk2T05USjY5SjU0MXZ2OG8ySVRuSE5BNS1HWUxNMkNIdjBqSlFadElKdHRycUFiTzFGZHZCLVpGNTRtSlFGWEE3bGV1OXRuNXlfc09lSDU0Z3Judld0ZkZFcVdreG9qYy15YnVucXZobnJFTS1ucDBqeUE5SGVSWEFZQTloeXEzU3VYZC1Penk4RGJUb3VtZmZXS0twTmRqeS1naXdlVERBdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 759
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxNQldQV0E1RllQa09QdHBaWndUQmtFdzdVU3J0aVpWV0ZFajdtUWh6a2dLdDZFRk1wTFpwV3pVWmM1c2I4X2ZubU9TRHVNN1YwTi0tRG85RGhVSHBfcGRnSVo1X28tMXpaZExYeWVDSVpmRmZvUkY5Q1h0eVprQTN3NENoOW1HS1hmU2tFOTRlLXBvMVY0MmtDOUR0Q3lVTzhQRGJEVkIxZy0zcUdsdEdTWno2dEh0UXpJT2xfSzhDOXhCdUxrbmVaLWpQQnE1N2I1Q1Y4UzhRSDk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Seattle Times",
+      "latestSinceUpdate": 760
     },
     {
       "date": "May 24",
-      "text": "US intelligence indicates Iran is rebuilding its military industrial base faster than expected, already producing drones.",
-      "severity": "warning",
+      "text": "US intelligence indicates Iran is rebuilding its military industrial base faster than expected and producing drones.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1LcWcxVzFDaVhiYVZUOFNJYjdEakhpU2xaVUFGZVhzTHFtS3N1bGdwa3A0RFNrbURFaXNxeVc0WGlqZDVhcE9kTWxKMl9yNlh5cmxXMFNNTDNNMzlwaDZjNl9vdGduUjB4MzBlUzhR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 759
-    },
-    {
-      "date": "May 24",
-      "text": "Iran states that no deal has yet been reached with the US, despite Trump's claims.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 759
+      "latestSinceUpdate": 760
     }
   ],
   "sourceStatuses": [
