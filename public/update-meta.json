@@ -1,13 +1,13 @@
 {
-  "updateSequence": 769,
+  "updateSequence": 770,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T21:13:54.828Z",
+  "lastSyncedAt": "2026-05-24T22:13:30.540Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "An agreement in principle between the US and Iran is emerging, but claims of ceasefire violations and ongoing strikes indicate a highly fragile situation."
+    "summary": "Despite reports of a ceasefire violation by the US, negotiations for a broader peace deal are ongoing, but no stable ceasefire is currently active."
   }
 }
