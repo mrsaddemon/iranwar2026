@@ -1,13 +1,13 @@
 {
-  "updateSequence": 762,
+  "updateSequence": 763,
   "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T12:48:06.352Z",
+  "lastSyncedAt": "2026-05-24T14:14:31.984Z",
   "warDay": 86,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Despite claims from Trump of a largely negotiated peace deal, Iran denies any agreement, and military actions continue in the region."
+    "summary": "A supposed ceasefire in Lebanon has been violated by Israeli attacks, while Iran claims the US violated a separate ceasefire, indicating extreme fragility and lack of adherence."
   }
 }
