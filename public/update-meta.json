@@ -1,13 +1,13 @@
 {
-  "updateSequence": 778,
+  "updateSequence": 779,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T20:40:29.463Z",
+  "lastSyncedAt": "2026-05-25T21:56:01.445Z",
   "warDay": 87,
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.3,
     "durationDays": 14,
-    "summary": "Talks are ongoing between the US and Iran for a deal that could include a ceasefire extension and reopening of the Strait of Hormuz, but no agreement is imminent and regional conflict persists."
+    "summary": "Despite reports of a peace deal nearing, active military engagements and preparations for new strikes indicate no active ceasefire is in effect, though diplomatic efforts continue."
   }
 }

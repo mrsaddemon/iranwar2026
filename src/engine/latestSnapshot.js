@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 778,
+  "updateSequence": 779,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T20:40:29.463Z",
+  "lastSyncedAt": "2026-05-25T21:56:01.445Z",
   "warDay": 87,
-  "summary": "The US and Iran are engaged in talks for a deal to extend a ceasefire and reopen the Strait of Hormuz, while Israel continues to intensify strikes against Hezbollah in Lebanon amid ongoing regional conflict.",
+  "summary": "Ongoing conflict sees Israel conducting strikes in Lebanon while the US and Iran report progress on a potential peace deal amidst preparations for new US military actions.",
   "lastNarrativeUpdate": "2026-05-25",
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.3,
     "durationDays": 14,
-    "summary": "Talks are ongoing between the US and Iran for a deal that could include a ceasefire extension and reopening of the Strait of Hormuz, but no agreement is imminent and regional conflict persists."
+    "summary": "Despite reports of a peace deal nearing, active military engagements and preparations for new strikes indicate no active ceasefire is in effect, though diplomatic efforts continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 48,
+    "nuclearIndex": 55,
+    "escalationLevel": 75,
     "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "tradeImpact": 64,
+    "sanctionsPressure": 62,
+    "globalPressure": 77,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 25",
-      "text": "Israel launches air strike on Beirut as US says it has attacked an Iranian-flagged ship.",
+      "text": "Reports emerge on the lives of 13 US troops killed in connection with the Iran war.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 778
+      "latestSinceUpdate": 779
     },
     {
       "date": "May 25",
-      "text": "A soldier was killed in south Lebanon by a Hezbollah drone, with another seriously wounded.",
+      "text": "US officials indicate a US-Iran peace deal is nearing finalization but could take days to conclude.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 779
+    },
+    {
+      "date": "May 25",
+      "text": "Israel launches air strikes on Beirut and south Lebanon, while Hezbollah reaffirms Iran's support.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 779
+    },
+    {
+      "date": "May 25",
+      "text": "The US confirms it has attacked an Iranian-flagged ship and is preparing for new military strikes against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRVVDc05SZ1VYcjMxb3BjQzdWdVdTTEk2c3ctSm5nb1hJNnNHVlFKMFp1RjNNd2swTU93azBWQnZENENEX2RxYXljeGdQMkhLM1g4NnZzVzlJRmtlWGExSUxNSU5xRW8zUXJkZXN6WlhTRjl3cEZvNUNhOUVKY0dWX3ZTQ0dCaHNZQU1NZEhCMG4xM1dSS3dZLTVWSkUtanJKWEhzc2hwbW1fX3fSAbABQVVfeXFMTi1Ma09FTUlxUUs3RDYwVmlFRWItM3hKQzdxS3lIdUU1OUNRRkxoeHRVeGxWeUVLS2lTLUhULWZrREt0Z1JDUWFrVnFDZ3BNQ2VWNWN2SjFUcWRhQV9nSW11LTJINE5heHRWbHZCd2Z0UlFLdU1EeE4xRHFuOHFiam1Jbkdlcm84VjZFVEQweDFvRzFTbFFLWk1DV2lVYjB2OVpEX0NPcGNoaEtmbko0NEI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 778
-    },
-    {
-      "date": "May 25",
-      "text": "The IDF reports striking over 70 Hezbollah targets across Lebanon in the past day.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNYVR1WnVyU0xXVWV3eXNsSHZoQnNJTC1XS0ItRWFGSmdzeXJRc0w5dTlNZnZqQmI5TmE5VE13R0M5V1hXRDVVenA0dWJHdUdPT0RQR1U0d3VISGpTd2o3UGJ5S2RvaWxUUUNnelVZOXVVbmdkTG4wTXB6bnNBSU9aQVdHQ2I4aVU3TjdUaV8xdTg4a3h1dmhXdDZQSXNrR3RBX01kdzV1aXl4VlRRQTZFS1BoeWE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 778
-    },
-    {
-      "date": "May 25",
-      "text": "The U.S. is preparing for new military strikes against Iran.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 778
+      "latestSinceUpdate": 779
     },
     {
       "date": "May 25",
-      "text": "Reports highlight the lives behind the 13 US troop deaths tied to the Iran war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9uWldZWGRwTXNGZzc2LW1KM2VlU2o4OFlCYVdCX25vQUxzNUJuRXJTbEoyenVpRlZOTGZxLS0yMTYxSi1zSk1iSXkwOW90THlJNWtUcXo2OXl6QWVKaVFxX3ZpZWRRRDQzbGJNVHVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 778
-    },
-    {
-      "date": "May 25",
-      "text": "U.S. and Iran are working toward a deal to extend a ceasefire and reopen the Strait of Hormuz.",
+      "text": "Iran is reportedly set to restore internet services following a wartime blackout.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPY2puSU5FbjhpX2RUWEZZaG9wV1ZKdkp4Z09sUzIzYVlTam1Ud1I2dmdSaXBBSVVDWkxLaHpBTG1VY0NBdEUza1NqdTZSb054dHZrRm5zdkN5N21GdDRNeThWMUJwNlh0LXZrREVwand5eGdxbEU5VXRmNTVMVE9KQ0d2ajFMeUktTWh1d2I1S0pyWGlrU3dmZjFVZlJGQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 778
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 779
+    },
+    {
+      "date": "May 25",
+      "text": "The UK prepares for a mine-clearing mission in the Strait of Hormuz amidst ongoing Iran deal talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxPazJHem9UNWZGN3o2Q3lKS2dfWTV0WWNGenVLTWdiZWNrV3JySXFVMUhrNHByeURLdkN2alZ1Qnl3SGZwLTFJUFl3eTREeU9ldk5qMUtxUmR2bXR6REJrLWhjZ0ZQZHlkbWxNN3RTYWxmTXVsRWwxdlk1ZzVDb18xSXJKRmxBbXhGV251QjZZdVZjQTU0eXVqYVFJSE9iV0pQdFJ2M3BKZ9IBrAFBVV95cUxOYzJ1b0VtVnh6QzZvS0FnU0pDaU5uV0JQbkxPazJJYXFENUlmbW5kOGV3QzAxN3hNX3oxRVF1b0pYbE51OElBOHVyR1BDMnVhQTRZM2d3eFdWMFJBN1YyQVcya3VaOVFXbFpGZWNUdDVmbWdZT0IteUVzY2FIemhzODZHcEg4UWFVREZjYVVlaTg5TEJneFdNZ3VTX2Fza1ZibkdJMENfYWxFQUY2?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 779
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
