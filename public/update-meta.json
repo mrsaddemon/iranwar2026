@@ -1,13 +1,13 @@
 {
-  "updateSequence": 775,
+  "updateSequence": 776,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T15:43:36.846Z",
+  "lastSyncedAt": "2026-05-25T17:25:15.792Z",
   "warDay": 87,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.3,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A peace deal between the US and Iran is reportedly nearing completion, but significant obstacles remain and it is not yet active."
   }
 }

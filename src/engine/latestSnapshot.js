@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 775,
+  "updateSequence": 776,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T15:43:36.846Z",
+  "lastSyncedAt": "2026-05-25T17:25:15.792Z",
   "warDay": 87,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "Intense mediation efforts between the US and Iran are ongoing for a potential peace deal, while regional hostilities persist with Israeli strikes in Lebanon and Hezbollah drone attacks.",
   "lastNarrativeUpdate": "2026-05-25",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.3,
     "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A peace deal between the US and Iran is reportedly nearing completion, but significant obstacles remain and it is not yet active."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 46
+    "nuclearIndex": 25,
+    "escalationLevel": 72,
+    "oilDisruption": 55,
+    "tradeImpact": 53,
+    "sanctionsPressure": 62,
+    "globalPressure": 73,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 25",
-      "text": "Trump says agreement with Iran has ‘been largely negotiated’ and Strait of Hormuz will be opened",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOVWdfVmFGa2RfRzBlNmtBdVhRTWY1dkRxTGc5Y1g5RVRyMVFrVGRhXzNfcFdpQ19teS0wSDBrTkIzVEV3c2MwT2NyQzcyTGE1aXdZVUxsS0ZwU0hwVVAwVDlxZl9TNGJHVTVsSkNIbnJ4aGpoZm1aZWNnTzFoanNwS2NRTTVFQ18zbVRV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 775
+      "text": "Reports highlight the lives of 13 US troops killed in connection with the Iran war.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 776
     },
     {
       "date": "May 25",
-      "text": "Iran war updates: Trump says Iran ‘agreement has been largely negotiated’",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNVGdjcGZxc0xlUWVqMTFnSE5PWHhfTktWV1FienhRUXprYWxtT0c3dnQ5dEJGUFNQUVNVRURXcm4tNDl4SEFoQ3U3Y3Jpc0VDbGlGS0dtTHIwdDBDeTd1MVQzQlhvUzhlNU1nS0s1bl9vVURnTzdvanVXdkwxNjlZMEZCTm9OYXhkc2xLeE9USlIyMU1ERUVqNHpHRXpaamZra2VFcEgtUDBBY1Yxem1yYmZCNmNoN29HckdN0gHAAUFVX3lxTFBIbkd1N3VodWpvUElmRHpXTHJxUkdqNjNwdzhkejVNZGwtSlhnb1dGUVFTUENnemJuZWt0dVhBVW5FYmt0Q2dtaWtGekxrV1hqOTJXUC1iam5SVVdyVk9EMU9qazEwY1N0d3hUVXZqMDVIRkhCcGtWR0NDUVRXNUNNMmgzXzRWUHhPM3V0QjEzeU5Ccmp4V28yVnZuYTI2TDR4aEtmaGFBM1k5TFNJMGJ5VVhBZG5EN0piQ2c1bXFxcA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 775
+      "text": "Israel conducts strikes in south Lebanon, while Hezbollah reaffirms Iran's continued support.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 776
     },
     {
       "date": "May 25",
-      "text": "May 24, 2026 Middle East news — US, Iran still negotiating peace deal terms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE9CZi1BWXp3QThJRWJsMFJMV0N2ajVVNi1US1drQlREV1JNRVA5bkNFWmhuYXZURW5DVUZldXUyRVJtNzhkYjlEYThIaTVuLXJXaUFlYjFJSFIzbEJ3R0RFUEVLaGIzSVU5YnRleA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 775
+      "text": "A Hezbollah drone kills an IDF soldier and seriously wounds another in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 776
     },
     {
       "date": "May 25",
-      "text": "IRAN WAR WEEK 13, day 3: SpongeDon throws himself in for an incoherent defeat on Memorial Day",
+      "text": "Oil prices slide as ships are observed moving toward the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQR3d6MzhTak12YVlQU05MemJfaFRZU2g5bGF2WS1iaDRXOC1QelFYUTYyemtrV2ZUcXZhejNyUXdoTjBoakVKM2FVWm5wQmlrOUktejlOWlN4dXpKQWNCQW1sSEpqWXhPNEpHTDNKTWplTkpuTU1OMWNBWVhwUTJkRFY0VGN6aFdrRzF5ck1TZ0VMMzNuRkpJbllVakdJMHZIUUVtX1RB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Daily Kos",
-      "latestSinceUpdate": 775
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 776
     },
     {
       "date": "May 25",
-      "text": "Israel strikes south Lebanon as Hezbollah says Iran won’t abandon group",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQUndkalFsMXhNczBYVDJNMlpkT3dXX3ltcEU4cmVselkyUVFwQ2Q4QWsyd3B3cGlSU0NVcTVQLTBzdjZFYmF6Zm1pR2k0aDJ4VGRpbmFzNm1QZm1DLVNnLXdLR2YwTW1DNWxrcm5YSGd2REY0eEtCeUFJeElfS0NXWHhxaXF1T09zOXFSQlR6VDhsNTBDTmJmc01iLVctb0pGc3N5OXdUYU9JRTYzSHE5dzlzRl9sdk3SAbwBQVVfeXFMUC1LLWlNRDF3RVV3QnVoamNaenVYUFQ0V21kWnhTajhkRFFOZXdfZkhqYWNqRTQyb2VjNExLYm5hQ2JjYUNQc1JCb2UxMEV0d3htdHp0YWRUQUpGZEc2YU04Q1ZHT3BZVGdoSzVyek1keGEzWDlya1l2VW5qZUx6T1hOZGpsSXl4SlNNVUFNY1F2dS11ZXprZ2hEQmtwMXltOWJoZTduVkxHLUhPU0N5X3h4Nm5FMFJyeUsxNTc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 775
-    },
-    {
-      "date": "May 25",
-      "text": "Intense mediation' between US and Iran, Israel strikes Lebanon",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDDSAZgBQVVfeXFMTklOVGIwNmtjUE81eWhTQkpaTmhKNGc1VVFWVC13eWIxNjdYWnNfMjdpV1lxck83ajNPdGRkaXFXNE95dnlza0VVM3d5S3VQQzhPUUQwM2t6MjlhX1FHcG5CcUhEQUdvb1draUotMXktSjc1X2VSWEZSSUN5UWtfRUItNm5jc3YwOXRmSFNtTHJDU3M4MGtmRl8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New Arab",
-      "latestSinceUpdate": 775
+      "text": "The U.S. is reportedly preparing for new military strikes against Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 776
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
