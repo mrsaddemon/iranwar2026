@@ -1,13 +1,13 @@
 {
-  "updateSequence": 772,
+  "updateSequence": 773,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T00:15:33.335Z",
+  "lastSyncedAt": "2026-05-25T04:55:22.125Z",
   "warDay": 87,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "Intense US-Iran negotiations are underway for a peace deal, but regional military actions and accusations of ceasefire violations indicate a fragile and unconfirmed de-escalation."
+    "confidence": 0.81,
+    "durationDays": 14,
+    "summary": "Tehran claims the US violated a prior ceasefire by targeting ships, indicating any previous de-escalation has broken down amidst ongoing peace negotiations."
   }
 }

@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 772,
+  "updateSequence": 773,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T00:15:33.335Z",
+  "lastSyncedAt": "2026-05-25T04:55:22.125Z",
   "warDay": 87,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "Intense US-Iran negotiations are underway for a peace deal, but regional military actions and accusations of ceasefire violations indicate a fragile and unconfirmed de-escalation."
+    "confidence": 0.81,
+    "durationDays": 14,
+    "summary": "Tehran claims the US violated a prior ceasefire by targeting ships, indicating any previous de-escalation has broken down amidst ongoing peace negotiations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 50,
-    "tradeImpact": 37,
+    "oilDisruption": 30,
+    "tradeImpact": 22,
     "sanctionsPressure": 54,
-    "globalPressure": 59,
-    "allianceInfluence": 51
+    "globalPressure": 55,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 23",
-      "text": "Trump states Iran agreement 'largely negotiated', Strait of Hormuz to open.",
+      "date": "May 25",
+      "text": "President Trump touts an Iran breakthrough, stating a peace deal is largely negotiated and the Strait of Hormuz will be opened.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOVWdfVmFGa2RfRzBlNmtBdVhRTWY1dkRxTGc5Y1g5RVRyMVFrVGRhXzNfcFdpQ19teS0wSDBrTkIzVEV3c2MwT2NyQzcyTGE1aXdZVUxsS0ZwU0hwVVAwVDlxZl9TNGJHVTVsSkNIbnJ4aGpoZm1aZWNnTzFoanNwS2NRTTVFQ18zbVRV?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 772
+      "latestSinceUpdate": 773
     },
     {
-      "date": "May 24",
-      "text": "Oil prices fall 5% on signs of U.S.-Iran deal progress.",
+      "date": "May 25",
+      "text": "US and Iran negotiators are reportedly inching closer to a deal, agreeing to broad principles, though finalization may take days.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPZXZoS1U1dzU3OGVCNTBhd0JBVk4waDRfMkxjVm1PWXBUWUFOUy12Q1ZMV3daVFFFZkxkMTVVbGNlRlFURm8tbE15QWc4MU9xeUVEZ1gxNmd0ejU5RXA0M3d5RUxfOTRFNjdVeXJsOUNaeHIxeUxJclZJTVB2TUhpc2VNY3gxWDBVZ1BCQTBIeFFjQVFDLWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 772
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 773
     },
     {
-      "date": "May 24",
-      "text": "Hezbollah drone kills soldier in northern Israel from Lebanon.",
+      "date": "May 25",
+      "text": "Oil prices fall to two-week lows amidst news of a potential US-Iran deal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggJBVV95cUxOSTRaVnFVNzlTTk9oZUppaHFqTnotVDZfc1lIYjhGSHNBNU9nTVNReWJSZDg0aDA3MVcwQXBneURmRENIUGl0VE1zTlBQWFQyYmdkVFVrU09USlNMaTBuNWVhanZsekxQMzNNUU1SR0d5SkJkZHZ0bmJyYUdYWXVYa0d4U3h6N3ZWQ0g3SllaZ0R5MmFGWi1FMkhHdnFvbGRBM2dZejBNWHA5Qkc4T1NDNWF3Szh4Q2FGV0pGVk0taWRpYmdnWVE3eXdBRUZXZjBrSmlkczhNZndJNVl5cUNKTUY4UHJ1UnpMVEpJc05Bbktfd0M4TFdGR3RVbjRHQTFGZVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 773
+    },
+    {
+      "date": "May 25",
+      "text": "Tehran claims the US violated a ceasefire and targeted ships, while the US prepares for potential new military strikes against Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPRFlCSnR0UUtnTEpoX3gwVlZaLXBqQTVVdlRFZEJ0ZDBRODFBbDJBX0N5R3BiM1h4U2dVa2s4eVFoVkZ4Z1FEZ1NsbW9vUUlFM2dzZENILUs3MFhWMFlGSjVZUWV5bTNXMXJKdFJpZXlqRnowVnMyc1lHM3BpZk53LWVQUHdfNWNHRVgwRDM2Z2lqUE5JTnpJa0xvMVfSAaIBQVVfeXFMTVRNaExFS3VXblRvTTZjblowVEM2UzI3cXFjYjgtVjRya2VOcFhaZkQ3d3RjYWhrRDNhQWI4dG9iVW5vaHE1aEZGM2h3d2lLVThDOXYycTFpRzhGLV8xSldFWUJldHdUd1FWRlJMaEFiSlc4Q1dDamtIZGRNRXZJRElNa0xMVTFzUXdvZXZid2EzdzQwcTdEc0xvQ3B0OVJ1cEZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 772
-    },
-    {
-      "date": "May 24",
-      "text": "Israeli strikes kill six in southern Lebanon; evacuation orders issued.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPX3NyRURDSEZEQ0M3NjBHWFRhZFl6YUVLSTU0S3o5Qm9DT3dyUDBuSGZLd0pCRU9neDk0WF8tMDMxcjBuOGwtMzlnSmM1a2QwbzFUWHluRTVQWUdnMThqQVV0SjZVb2NyTFRKMXd1OWlpOXM3OTQtRlNNbFN6VTJMbnhvSnJ2SGNqenVaTENwRXU0UmRIVHRNVHhXa25IX3pxRE5Bc3NFSXNoU0ZEOHp5bWlaRVbSAboBQVVfeXFMT2VrYTU2QUlnTmpqQlpjRTNUcUVNUlAyOUFJYmVfU1B6bmRJNVhNbnZPWWZVZnJlVW4wTXJPZ19YTnJpOVpoVzdsTy1OTG1hNDRmbFVXeDhyVVAtM3QwNHdvUG1idHpNTVV3YmZzVnp1RFJFZlZ1WDhBd0RnUUxLSGo3UkxHUndjLUdBV3B2bDRHbHQ5ZjNOb1gzUGNGUWM0R0NGZEVhY1NOMjM5VzhIbWdpR2ZnaHJCeVVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 772
+      "latestSinceUpdate": 773
     },
     {
-      "date": "May 24",
-      "text": "US targets Iranian military facilities after responding to attacks on navy ships.",
+      "date": "May 25",
+      "text": "Israel strikes Lebanon, and an IDF report indicates a Hezbollah drone hit near the Lebanon border with no injuries.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE95RHFJYjM2ZkFnRXRTMlVqSmFob0NKdld0Z0ZwMWVhU0FZYmN2VVZtNmZiaEJCTjAxRTg3X2pSMEJqT1VwTWhjam93eGFEdXktM1VJWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 772
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 773
     },
     {
-      "date": "May 24",
-      "text": "U.S. prepares for new military strikes against Iran.",
+      "date": "May 25",
+      "text": "Israel fears a US-Iran deal may curb its actions against Hezbollah in Lebanon and is drawing up contingency plans.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 772
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNdnJKYjcyU0lqMEgydmxBV2Z4c0xzM2dSeC1hbUFMSmtXRVVzQkxLRXNWQlRRaU5oREp1UEgwUWJibThBVV9XSEtNRGUxWlJILWQzLWJ0eTVycktXWEg2MHBHb0YtRmI1dnVlby1BZ2RnUTZBQXdXRDkyTDFmV21DSmlJVVI0R25RaDJEakpkdjYxZnZTcVpDdDZzaG5Td2Z4N1dFeGx3TnhiRXdYQ0ZzbWE0WnJfTFpfckRMN3owQmg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 773
     }
   ],
   "sourceStatuses": [
