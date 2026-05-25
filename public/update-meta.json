@@ -1,13 +1,13 @@
 {
-  "updateSequence": 773,
+  "updateSequence": 774,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T04:55:22.125Z",
+  "lastSyncedAt": "2026-05-25T12:39:57.570Z",
   "warDay": 87,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Tehran claims the US violated a prior ceasefire by targeting ships, indicating any previous de-escalation has broken down amidst ongoing peace negotiations."
+    "summary": "A previously attempted ceasefire appears fragile or collapsed, with Iran accusing the US of violations, while broader peace deal negotiations continue."
   }
 }
