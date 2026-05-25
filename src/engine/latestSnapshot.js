@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 774,
+  "updateSequence": 775,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T12:39:57.570Z",
+  "lastSyncedAt": "2026-05-25T15:43:36.846Z",
   "warDay": 87,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-05-25",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A previously attempted ceasefire appears fragile or collapsed, with Iran accusing the US of violations, while broader peace deal negotiations continue."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 24",
-      "text": "US and Iran continue negotiating peace deal terms, with officials reporting agreement on broad principles.",
+      "date": "May 25",
+      "text": "Trump says agreement with Iran has ‘been largely negotiated’ and Strait of Hormuz will be opened",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 774
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOVWdfVmFGa2RfRzBlNmtBdVhRTWY1dkRxTGc5Y1g5RVRyMVFrVGRhXzNfcFdpQ19teS0wSDBrTkIzVEV3c2MwT2NyQzcyTGE1aXdZVUxsS0ZwU0hwVVAwVDlxZl9TNGJHVTVsSkNIbnJ4aGpoZm1aZWNnTzFoanNwS2NRTTVFQ18zbVRV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 775
     },
     {
-      "date": "May 24",
-      "text": "President Trump states an Iran agreement has been largely negotiated but also weighs new strikes to achieve a 'decisive' victory.",
-      "severity": "warning",
+      "date": "May 25",
+      "text": "Iran war updates: Trump says Iran ‘agreement has been largely negotiated’",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNVGdjcGZxc0xlUWVqMTFnSE5PWHhfTktWV1FienhRUXprYWxtT0c3dnQ5dEJGUFNQUVNVRURXcm4tNDl4SEFoQ3U3Y3Jpc0VDbGlGS0dtTHIwdDBDeTd1MVQzQlhvUzhlNU1nS0s1bl9vVURnTzdvanVXdkwxNjlZMEZCTm9OYXhkc2xLeE9USlIyMU1ERUVqNHpHRXpaamZra2VFcEgtUDBBY1Yxem1yYmZCNmNoN29HckdN0gHAAUFVX3lxTFBIbkd1N3VodWpvUElmRHpXTHJxUkdqNjNwdzhkejVNZGwtSlhnb1dGUVFTUENnemJuZWt0dVhBVW5FYmt0Q2dtaWtGekxrV1hqOTJXUC1iam5SVVdyVk9EMU9qazEwY1N0d3hUVXZqMDVIRkhCcGtWR0NDUVRXNUNNMmgzXzRWUHhPM3V0QjEzeU5Ccmp4V28yVnZuYTI2TDR4aEtmaGFBM1k5TFNJMGJ5VVhBZG5EN0piQ2c1bXFxcA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 774
+      "latestSinceUpdate": 775
     },
     {
-      "date": "May 24",
-      "text": "Israeli Prime Minister Netanyahu is reportedly frozen out of US-Iran peace talks.",
+      "date": "May 25",
+      "text": "May 24, 2026 Middle East news — US, Iran still negotiating peace deal terms",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 774
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTE9CZi1BWXp3QThJRWJsMFJMV0N2ajVVNi1US1drQlREV1JNRVA5bkNFWmhuYXZURW5DVUZldXUyRVJtNzhkYjlEYThIaTVuLXJXaUFlYjFJSFIzbEJ3R0RFUEVLaGIzSVU5YnRleA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 775
     },
     {
-      "date": "May 24",
-      "text": "Israel conducts strikes in Lebanon amidst intense US-Iran mediation efforts.",
-      "severity": "warning",
+      "date": "May 25",
+      "text": "IRAN WAR WEEK 13, day 3: SpongeDon throws himself in for an incoherent defeat on Memorial Day",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQR3d6MzhTak12YVlQU05MemJfaFRZU2g5bGF2WS1iaDRXOC1QelFYUTYyemtrV2ZUcXZhejNyUXdoTjBoakVKM2FVWm5wQmlrOUktejlOWlN4dXpKQWNCQW1sSEpqWXhPNEpHTDNKTWplTkpuTU1OMWNBWVhwUTJkRFY0VGN6aFdrRzF5ck1TZ0VMMzNuRkpJbllVakdJMHZIUUVtX1RB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Daily Kos",
+      "latestSinceUpdate": 775
+    },
+    {
+      "date": "May 25",
+      "text": "Israel strikes south Lebanon as Hezbollah says Iran won’t abandon group",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQUndkalFsMXhNczBYVDJNMlpkT3dXX3ltcEU4cmVselkyUVFwQ2Q4QWsyd3B3cGlSU0NVcTVQLTBzdjZFYmF6Zm1pR2k0aDJ4VGRpbmFzNm1QZm1DLVNnLXdLR2YwTW1DNWxrcm5YSGd2REY0eEtCeUFJeElfS0NXWHhxaXF1T09zOXFSQlR6VDhsNTBDTmJmc01iLVctb0pGc3N5OXdUYU9JRTYzSHE5dzlzRl9sdk3SAbwBQVVfeXFMUC1LLWlNRDF3RVV3QnVoamNaenVYUFQ0V21kWnhTajhkRFFOZXdfZkhqYWNqRTQyb2VjNExLYm5hQ2JjYUNQc1JCb2UxMEV0d3htdHp0YWRUQUpGZEc2YU04Q1ZHT3BZVGdoSzVyek1keGEzWDlya1l2VW5qZUx6T1hOZGpsSXl4SlNNVUFNY1F2dS11ZXprZ2hEQmtwMXltOWJoZTduVkxHLUhPU0N5X3h4Nm5FMFJyeUsxNTc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 775
+    },
+    {
+      "date": "May 25",
+      "text": "Intense mediation' between US and Iran, Israel strikes Lebanon",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQRnVzY24tZ0NvMXpwYWVkLS1mbWdnV0ZBSjdZbF9pOURweXBmTWF5Q1FaVTV2NkRDVUZsdy1ET093Nng3aHhUUXNHTC1yeWQtdGxEdnBHS09GanFBcWJHN1Fwd2haMG9jU25nYTNzeHA2aHQ5Z2lqVkxMaEd0WDFreVpHX2tSNnpwZjcwRXlKVFNDMDDSAZgBQVVfeXFMTklOVGIwNmtjUE81eWhTQkpaTmhKNGc1VVFWVC13eWIxNjdYWnNfMjdpV1lxck83ajNPdGRkaXFXNE95dnlza0VVM3d5S3VQQzhPUUQwM2t6MjlhX1FHcG5CcUhEQUdvb1draUotMXktSjc1X2VSWEZSSUN5UWtfRUItNm5jc3YwOXRmSFNtTHJDU3M4MGtmRl8?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New Arab",
-      "latestSinceUpdate": 774
-    },
-    {
-      "date": "May 24",
-      "text": "Tehran claims the US violated a ceasefire and targeted Iranian ships.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQWmMwcHRNRzF3SVdqU3A3dFJpS0YyUFp3aFhncHVDZ0FQd0xXSWJwdTFteUEya1d0VEkxazRtbkNyMi1hVV9SdTBBdktJM29GaHlOdThaS1M5cUlwdHo2RTFiSDNZLTlJb3VTTTFYdlVjemlYX2ZaWm9ubUhLOTdTUGdnMDZpVFh3RHlvbWZLODM3ZmlDeVFMRkJ0RlZNSDIzNWVNc3Z4UlpScGZheHdteTl2YUxlYnotWDFJ0gHAAUFVX3lxTE85dVRselp4VWZ0QXpJTXJTaEs2aS1tOUdGbXJjdVhiSXZ0TkxlMFI1RUdmZFVENFhQSjRQYk45ZzR4X2lpcU5XOHZwQ0JEcUtHaDZIS0FXNmlScjhhNUdmLXAwNmpqMkRPS3RTNGR2dFpHT3doWGVyTHRGUklYMm5qcDdjRTJKREQ2YmptMVctVVRsc08wUlNDRFBwOTFORUtaVTFSY1R2NDNJX28zZ3pLYzdNcXlWOGtwNVdpZ1Zxcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 774
-    },
-    {
-      "date": "May 24",
-      "text": "Oil prices slide as ships move toward the Strait of Hormuz, prompting the UK to ready a mine-clearing mission.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 774
+      "latestSinceUpdate": 775
     }
   ],
   "sourceStatuses": [
