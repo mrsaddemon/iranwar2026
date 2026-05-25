@@ -1,13 +1,13 @@
 {
-  "updateSequence": 771,
-  "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T23:17:32.967Z",
-  "warDay": 86,
+  "updateSequence": 772,
+  "lastUpdated": "2026-05-25",
+  "lastSyncedAt": "2026-05-25T00:15:33.335Z",
+  "warDay": 87,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Negotiations for a peace deal are ongoing, but military actions and accusations of ceasefire violations persist, indicating a highly unstable situation."
+    "summary": "Intense US-Iran negotiations are underway for a peace deal, but regional military actions and accusations of ceasefire violations indicate a fragile and unconfirmed de-escalation."
   }
 }

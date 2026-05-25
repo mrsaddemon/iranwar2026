@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 771,
-  "lastUpdated": "2026-05-24",
-  "lastSyncedAt": "2026-05-24T23:17:32.967Z",
-  "warDay": 86,
+  "updateSequence": 772,
+  "lastUpdated": "2026-05-25",
+  "lastSyncedAt": "2026-05-25T00:15:33.335Z",
+  "warDay": 87,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-05-24",
+  "lastNarrativeUpdate": "2026-05-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Negotiations for a peace deal are ongoing, but military actions and accusations of ceasefire violations persist, indicating a highly unstable situation."
+    "summary": "Intense US-Iran negotiations are underway for a peace deal, but regional military actions and accusations of ceasefire violations indicate a fragile and unconfirmed de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 60,
-    "tradeImpact": 44,
+    "oilDisruption": 50,
+    "tradeImpact": 37,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 59,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 23",
-      "text": "Trump states an agreement with Iran has been largely negotiated, suggesting the Strait of Hormuz will be opened.",
+      "text": "Trump states Iran agreement 'largely negotiated', Strait of Hormuz to open.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOVWdfVmFGa2RfRzBlNmtBdVhRTWY1dkRxTGc5Y1g5RVRyMVFrVGRhXzNfcFdpQ19teS0wSDBrTkIzVEV3c2MwT2NyQzcyTGE1aXdZVUxsS0ZwU0hwVVAwVDlxZl9TNGJHVTVsSkNIbnJ4aGpoZm1aZWNnTzFoanNwS2NRTTVFQ18zbVRV?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 771
-    },
-    {
-      "date": "May 23",
-      "text": "Oil prices fall more than 4% following Trump's comments that Iran talks are proceeding constructively.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 771
+      "latestSinceUpdate": 772
     },
     {
       "date": "May 24",
-      "text": "US and Iran negotiators have reportedly agreed to broad principles of an agreement, though a final deal could take days.",
+      "text": "Oil prices fall 5% on signs of U.S.-Iran deal progress.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 771
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPZXZoS1U1dzU3OGVCNTBhd0JBVk4waDRfMkxjVm1PWXBUWUFOUy12Q1ZMV3daVFFFZkxkMTVVbGNlRlFURm8tbE15QWc4MU9xeUVEZ1gxNmd0ejU5RXA0M3d5RUxfOTRFNjdVeXJsOUNaeHIxeUxJclZJTVB2TUhpc2VNY3gxWDBVZ1BCQTBIeFFjQVFDLWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 772
     },
     {
       "date": "May 24",
-      "text": "US prepares for new military strikes against Iran, with Trump seeking a 'decisive' victory.",
+      "text": "Hezbollah drone kills soldier in northern Israel from Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPRFlCSnR0UUtnTEpoX3gwVlZaLXBqQTVVdlRFZEJ0ZDBRODFBbDJBX0N5R3BiM1h4U2dVa2s4eVFoVkZ4Z1FEZ1NsbW9vUUlFM2dzZENILUs3MFhWMFlGSjVZUWV5bTNXMXJKdFJpZXlqRnowVnMyc1lHM3BpZk53LWVQUHdfNWNHRVgwRDM2Z2lqUE5JTnpJa0xvMVfSAaIBQVVfeXFMTVRNaExFS3VXblRvTTZjblowVEM2UzI3cXFjYjgtVjRya2VOcFhaZkQ3d3RjYWhrRDNhQWI4dG9iVW5vaHE1aEZGM2h3d2lLVThDOXYycTFpRzhGLV8xSldFWUJldHdUd1FWRlJMaEFiSlc4Q1dDamtIZGRNRXZJRElNa0xMVTFzUXdvZXZid2EzdzQwcTdEc0xvQ3B0OVJ1cEZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 772
+    },
+    {
+      "date": "May 24",
+      "text": "Israeli strikes kill six in southern Lebanon; evacuation orders issued.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPX3NyRURDSEZEQ0M3NjBHWFRhZFl6YUVLSTU0S3o5Qm9DT3dyUDBuSGZLd0pCRU9neDk0WF8tMDMxcjBuOGwtMzlnSmM1a2QwbzFUWHluRTVQWUdnMThqQVV0SjZVb2NyTFRKMXd1OWlpOXM3OTQtRlNNbFN6VTJMbnhvSnJ2SGNqenVaTENwRXU0UmRIVHRNVHhXa25IX3pxRE5Bc3NFSXNoU0ZEOHp5bWlaRVbSAboBQVVfeXFMT2VrYTU2QUlnTmpqQlpjRTNUcUVNUlAyOUFJYmVfU1B6bmRJNVhNbnZPWWZVZnJlVW4wTXJPZ19YTnJpOVpoVzdsTy1OTG1hNDRmbFVXeDhyVVAtM3QwNHdvUG1idHpNTVV3YmZzVnp1RFJFZlZ1WDhBd0RnUUxLSGo3UkxHUndjLUdBV3B2bDRHbHQ5ZjNOb1gzUGNGUWM0R0NGZEVhY1NOMjM5VzhIbWdpR2ZnaHJCeVVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 772
+    },
+    {
+      "date": "May 24",
+      "text": "US targets Iranian military facilities after responding to attacks on navy ships.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE95RHFJYjM2ZkFnRXRTMlVqSmFob0NKdld0Z0ZwMWVhU0FZYmN2VVZtNmZiaEJCTjAxRTg3X2pSMEJqT1VwTWhjam93eGFEdXktM1VJWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 772
+    },
+    {
+      "date": "May 24",
+      "text": "U.S. prepares for new military strikes against Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOd0YydWZGVkNndld4N2RMN3pCNTB6U0lud2o1SlBBVDd6UjNPeUlYb2taRTl0UVBBY1ZmcEM2cUdPRVRoOFY2YnJZdGxYNHkzb0JCd0dTVWZqVVh5Z3ZnT2FvZk9maG4wbkFkdWQ4dEliMlBIemJsSlVQaTNkUXM5YdIBhgFBVV95cUxPbmoxbmJHMzhBdmdIYnVOaVNUME9GbktiTDdwazVqNVViUUtvYzRfUHVyWjNHMTVaNkxEYUpPcFNLcDF0Q25hSlcwaG9EYkFzN0c1eWZoLWtCMWFFYnNEZm5XRTFQYU9CR3hCNVVWYkE5ellhRHhCcGxmbVRzV3FiQk43UDdKQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 771
-    },
-    {
-      "date": "May 24",
-      "text": "Israel conducts strikes in Lebanon, while Hezbollah claims 28 attacks on Israeli forces in south Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi8wFBVV95cUxOcjR6Mmw4S1pnaFJwUU1WbzlXOW5QYlNHWHNCcGJIS21FdzlBNjY3VDZZUTkxOE9uOVQwQ1RnckU5WW0yZGExck92Z3BKUnRIMkY4aGYzNGcxTEZ3dUdxeGJwZl9ETTlhcGt4ZE5VZGlfUU85V29IM2Q3RUktM0xWSkxLYmZhTTY3NENfWkJkTU1aeUQ5MGt4TVNlbzV6N0JhQlo1MWF0S1BsTlQ0YWM1bC1HTV9IWWd1SU9XdkpTNEgtSXRLdmwtQ1hidlFPZ09ONWhKX3E1OEJJNTBlSEUxakpqMy03QWdldEJEdWhCVWh3Rjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 771
-    },
-    {
-      "date": "May 24",
-      "text": "US says it has targeted Iranian military facilities in response to attacks on navy ships.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE95RHFJYjM2ZkFnRXRTMlVqSmFob0NKdld0Z0ZwMWVhU0FZYmN2VVZtNmZiaEJCTjAxRTg3X2pSMEJqT1VwTWhjam93eGFEdXktM1VJWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 771
+      "latestSinceUpdate": 772
     }
   ],
   "sourceStatuses": [
@@ -140,31 +140,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "narratives": [
     {
       "perspective": "US Administration",
-      "headline": "Trump Claims Iran Peace Deal Nearing Completion",
-      "summary": "The US administration, through President Trump, asserts that a comprehensive peace deal with Iran is largely negotiated and will soon be announced, including the reopening of the Strait of Hormuz. This suggests a diplomatic resolution to the conflict is imminent.",
-      "tone": "hopeful",
-      "latestSinceUpdate": 757
+      "headline": "Trump touts Iran breakthrough, but also weighs new strikes.",
+      "summary": "The Trump administration indicates significant progress on an agreement with Iran, suggesting the Strait of Hormuz will open. However, reports also suggest the US is weighing new strikes for a 'decisive' victory.",
+      "tone": "strained",
+      "latestSinceUpdate": 772
     },
     {
       "perspective": "Iran",
-      "headline": "Iran Accuses US of Ceasefire Violation Amidst Military Rebuilding",
-      "summary": "Iran claims the US has violated a ceasefire by targeting its ships, while simultaneously accelerating the rebuilding of its military industrial base and drone production. This indicates a posture of defiance and continued military development despite ongoing negotiations.",
+      "headline": "Iran accuses US of ceasefire violation amidst peace talks.",
+      "summary": "Tehran claims the US violated a ceasefire and targeted ships, even as negotiators have agreed to broad principles of a peace deal. Iran maintains its substantial missile capabilities.",
       "tone": "defiant",
-      "latestSinceUpdate": 757
+      "latestSinceUpdate": 772
     },
     {
-      "perspective": "Regional Conflict",
-      "headline": "Hostilities Persist in Lebanon Despite Ceasefire Claims",
-      "summary": "Despite reports of a ceasefire, intense hostilities continue in south Lebanon with Israeli strikes causing casualties and Hezbollah launching drone attacks. Hezbollah maintains that Iran will not abandon its support for the group, indicating continued regional tensions.",
-      "tone": "strained",
-      "latestSinceUpdate": 757
+      "perspective": "Israel/Lebanon",
+      "headline": "Israel strikes Lebanon after Hezbollah drone attack, issues evacuations.",
+      "summary": "Following a Hezbollah drone attack that killed a soldier, Israel conducted strikes in southern Lebanon and issued evacuation orders. The fate of the conflict is seen as resting with outside powers.",
+      "tone": "anxious",
+      "latestSinceUpdate": 772
     },
     {
-      "perspective": "International Security",
-      "headline": "UK Prepares for Strait of Hormuz Mine Clearance",
-      "summary": "Britain's navy is preparing for a mission to clear mines in the Strait of Hormuz, signaling international concern for maritime security in the critical waterway. This preparation is underway while awaiting the finalization of a peace deal that would ensure the strait's reopening.",
-      "tone": "cautious",
-      "latestSinceUpdate": 757
+      "perspective": "Global Markets",
+      "headline": "Oil prices fall on signs of US-Iran deal progress.",
+      "summary": "Global oil prices have fallen significantly, reacting positively to news of constructive talks between the US and Iran. This indicates market optimism for a potential resolution and reduced supply disruption risks.",
+      "tone": "neutral",
+      "latestSinceUpdate": 772
     }
   ]
 });
