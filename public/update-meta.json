@@ -1,13 +1,13 @@
 {
-  "updateSequence": 776,
+  "updateSequence": 777,
   "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T17:25:15.792Z",
+  "lastSyncedAt": "2026-05-25T19:06:08.740Z",
   "warDay": 87,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.3,
+    "confidence": 0.2,
     "durationDays": 14,
-    "summary": "A peace deal between the US and Iran is reportedly nearing completion, but significant obstacles remain and it is not yet active."
+    "summary": "Despite ongoing negotiations for a peace deal, no formal ceasefire or de-escalation is currently active between the primary belligerents."
   }
 }
