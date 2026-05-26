@@ -1,13 +1,13 @@
 {
-  "updateSequence": 781,
+  "updateSequence": 782,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T00:16:53.166Z",
+  "lastSyncedAt": "2026-05-26T04:37:09.470Z",
   "warDay": 88,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Despite ongoing discussions, no ceasefire or de-escalation agreement is currently in effect, with military actions continuing."
+    "summary": "Despite ongoing peace talks between the US and Iran, active military operations by both the US and Israel indicate no ceasefire is currently in effect."
   }
 }

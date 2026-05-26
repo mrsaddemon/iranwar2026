@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 781,
+  "updateSequence": 782,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T00:16:53.166Z",
+  "lastSyncedAt": "2026-05-26T04:37:09.470Z",
   "warDay": 88,
-  "summary": "US forces conducted self-defense strikes in southern Iran while Israel intensified attacks on Hezbollah in Lebanon, amidst ongoing, yet uncertain, discussions for a US-Iran peace deal.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-26",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "Despite ongoing discussions, no ceasefire or de-escalation agreement is currently in effect, with military actions continuing."
+    "summary": "Despite ongoing peace talks between the US and Iran, active military operations by both the US and Israel indicate no ceasefire is currently in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -43,12 +43,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 75,
-    "oilDisruption": 40,
-    "tradeImpact": 42,
-    "sanctionsPressure": 62,
-    "globalPressure": 72,
-    "allianceInfluence": 51
+    "escalationLevel": 38,
+    "oilDisruption": 75,
+    "tradeImpact": 45,
+    "sanctionsPressure": 49,
+    "globalPressure": 54,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 26",
-      "text": "US military conducted 'self-defence strikes' against targets in southern Iran, near the Strait of Hormuz.",
+      "text": "US forces strike southern Iran as top Tehran officials in Qatar for talks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 782
+    },
+    {
+      "date": "May 26",
+      "text": "US launches fresh strikes on Iran as talks to end war proceed.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNVngxZVRLZ1JuQXprdzRzMDIwazZnY2tvWExLS2ZlNkhEMWYxeVF4YTVldGFYSEt4dVU1NEo5bng1Sm9EUFFZNzN3bTJZR1Z1akRjd1o2emJhU0J3TGMtZVZfcWI4ejdyNWhvd1hXRmRPVkFXYmFKUWl0YVM4Q2pyeHJmQW1jSWxsaDdfVXBORmFWQjcwamxWSXFHYlE4ZDFtcGo1SlRzT3RwSHJ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 782
+    },
+    {
+      "date": "May 26",
+      "text": "US conducts 'self-defence' strikes in Iran, Israel hits Hezbollah.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQNW51NkF2dmtJcC1BX1NScWxJNUtMVWJTcWJ5REVXaGhjQUNidUVsWU5mYjBCQXMwVVJ3ckhtSnJtckIyY19CcmpSV3o2RjV5elRjbnJIOEw5V21YSmUydFFFS1ZIcTVoU1gtN3lXOHJwd2NNdHdBbkRGN2lKcWM1bThVSWZCT2hQbmRHbnRQWnhINWxEM0lrZDRDYjhXSWdtVmtxQVlXWFNzZE15RUR3UTBlTXZTOEQxV25BTmN5VDJxVDdEVTN5cG9IeFE1M2NId0xR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Sky News",
-      "latestSinceUpdate": 781
+      "latestSinceUpdate": 782
     },
     {
       "date": "May 26",
-      "text": "Israel launched strikes on Hezbollah sites in south Lebanon, with Netanyahu vowing to intensify attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQMHZ6T3ItVElkd1cyWVlNX3VOM05DeUY3bEJGb3QwT1R0SGFQejVzUVI4Z19DZlhwYjNDQ0FVMlBlekEzMkhNYXNDY3lySzZzNUNPUy1uWWpkMl92NGhhNXFfUEViZXZMeDhMbTAxSTZPY3NvMTJ3c2t1cjc1THJxeTU2ZEl2VUtrSTNvbWdhSV9iVEllVXh2bHhKRmhmVW5JYndlemFyblU1bk14bUMzUjBJNVd5SzhXQzZSTy1UYTVIbnhLTnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 781
+      "text": "Israel launches air strike on Beirut as US says it has attacked Iranian-flagged ship.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 782
     },
     {
       "date": "May 26",
-      "text": "A soldier was killed in south Lebanon by a Hezbollah drone, and another seriously wounded.",
+      "text": "Soldier killed in south Lebanon by Hezbollah drone, another seriously wounded.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRVVDc05SZ1VYcjMxb3BjQzdWdVdTTEk2c3ctSm5nb1hJNnNHVlFKMFp1RjNNd2swTU93azBWQnZENENEX2RxYXljeGdQMkhLM1g4NnZzVzlJRmtlWGExSUxNSU5xRW8zUXJkZXN6WlhTRjl3cEZvNUNhOUVKY0dWX3ZTQ0dCaHNZQU1NZEhCMG4xM1dSS3dZLTVWSkUtanJKWEhzc2hwbW1fX3fSAbABQVVfeXFMTi1Ma09FTUlxUUs3RDYwVmlFRWItM3hKQzdxS3lIdUU1OUNRRkxoeHRVeGxWeUVLS2lTLUhULWZrREt0Z1JDUWFrVnFDZ3BNQ2VWNWN2SjFUcWRhQV9nSW11LTJINE5heHRWbHZCd2Z0UlFLdU1EeE4xRHFuOHFiam1Jbkdlcm84VjZFVEQweDFvRzFTbFFLWk1DV2lVYjB2OVpEX0NPcGNoaEtmbko0NEI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 781
+      "latestSinceUpdate": 782
     },
     {
       "date": "May 26",
-      "text": "Reports indicate mixed signals on a potential US-Iran peace deal, with some officials suggesting it's nearer but could take days, while others play down hopes for an imminent breakthrough.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQZ29QTUp4cGNUdUhvZTRtd3UzQWtTMTc3QUpjb1ZSZ0g0R00wdkVlaVprcFVDdTVjWVZnMDRGWG1wZ3BoNVNTQWMwdFJSYV9qUXhKdmxPSC1iSkFJWUVVSUIteW14NmtneHJTS1BHV3BBUVBiVnhST1JOT1JjRWJrRXJ6S0Z1OEJnNjFIQ1pNTm5ScWs3dXZLejJ2dWhvZ9IBowFBVV95cUxQXzJRZHZUSmxMaTVwN0NrVHdUT3U5Tk84ZWQtMVZhY3d3OHJEdzBqbzVPSEl1RUEwbVZuZWtrWjBWeDdiTmRreTVQYk1wVUZsQ053WW1pUFVTalFMUHQ4LXBLdTV1Z3p3eV95c2JILV91RkRLazlLbVVaejcwQ3ZFQWZ1Y0JHVWdMYUtRY1ZUSE11UUhKOGJ4X3hReFBuWUlFMnJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 781
-    },
-    {
-      "date": "May 26",
-      "text": "Pakistan's army chief Asim Munir held 'high-level' talks during a visit to Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNb3RKeWxZZmhWX05WV2NybDlvb3BDd3daTXJqQWdfUk9IbWV6ZVFNYW1IVklsX0lVTExTRzh3MFJnRXdVR3VkbThIV215NkJYbm5STXRkUUprekJiS3BRQlliOUl5LUJFTXVnNEMyd2J0N1V5cFQ3M0V1ejZZcEFPLUo4ZnloTHlNVUNUYS1FckFlemxBS0NjVF8zd2pUaFJqRXZSQU44MGQyYl96cExGS2lhNzhWYXg3YWJzRkQtTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Firstpost",
-      "latestSinceUpdate": 781
+      "text": "US military says it carried out 'self-defense' strikes in Iran, including on missile launch sites.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxORXlFelRZR2pXWkQzZ1NEbmhudU9MTXVwNEJVSWI0QzAtQ3F2bjNwcjYwbS1iRzRoWGRTUEk1LTJkbGg1czkwaFZScV8zNW9ZUXdnZEp0NVNvYlZaTGZJYlNEazFtMzMtdDhkX3V1SlF2Umt2WkdqMEIzZUxpZmJLdl9HZjVnZ0NIMEZvU250Q2lMVGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 782
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
