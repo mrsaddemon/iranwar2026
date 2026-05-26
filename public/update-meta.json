@@ -1,13 +1,13 @@
 {
-  "updateSequence": 780,
-  "lastUpdated": "2026-05-25",
-  "lastSyncedAt": "2026-05-25T23:16:41.747Z",
-  "warDay": 87,
+  "updateSequence": 781,
+  "lastUpdated": "2026-05-26",
+  "lastSyncedAt": "2026-05-26T00:16:53.166Z",
+  "warDay": 88,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.4,
+    "confidence": 0.08,
     "durationDays": 14,
-    "summary": "Negotiations for a peace deal between the U.S. and Iran are reportedly nearing completion but remain unfinalized, with no active ceasefire in effect."
+    "summary": "Despite ongoing discussions, no ceasefire or de-escalation agreement is currently in effect, with military actions continuing."
   }
 }
