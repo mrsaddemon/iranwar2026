@@ -1,13 +1,13 @@
 {
-  "updateSequence": 782,
+  "updateSequence": 783,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T04:37:09.470Z",
+  "lastSyncedAt": "2026-05-26T08:08:28.772Z",
   "warDay": 88,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.2,
     "durationDays": 14,
-    "summary": "Despite ongoing peace talks between the US and Iran, active military operations by both the US and Israel indicate no ceasefire is currently in effect."
+    "summary": "Peace talks are underway in Qatar with a proposed deal on the table, but active military engagements by the U.S. and Israel indicate a highly fragile situation."
   }
 }
