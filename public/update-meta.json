@@ -1,13 +1,13 @@
 {
-  "updateSequence": 785,
+  "updateSequence": 786,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T17:39:06.228Z",
+  "lastSyncedAt": "2026-05-26T19:47:11.128Z",
   "warDay": 88,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire is technically active, but it is severely strained and partially violated by recent U.S. strikes, though Iran remains in peace talks."
+    "summary": "A previously discussed ceasefire appears to have collapsed following renewed strikes by the US and Israel, and threats of retaliation from Iran."
   }
 }
