@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 786,
+  "updateSequence": 787,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T19:47:11.128Z",
+  "lastSyncedAt": "2026-05-26T21:21:31.362Z",
   "warDay": 88,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran war continues with Israel deepening its offensive in Lebanon, while the U.S. conducts strikes against Iran amidst strained peace talks and accusations of ceasefire violations.",
   "lastNarrativeUpdate": "2026-05-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A previously discussed ceasefire appears to have collapsed following renewed strikes by the US and Israel, and threats of retaliation from Iran."
+    "summary": "A ceasefire appears to have collapsed, with both U.S. and Israeli forces conducting strikes and Iran accusing the U.S. of 'gross violation'."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.78,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.72
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
-    "allianceInfluence": 46
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 26",
-      "text": "US conducts 'self-defense' strikes in Iran, including on missile launch sites and boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxORXlFelRZR2pXWkQzZ1NEbmhudU9MTXVwNEJVSWI0QzAtQ3F2bjNwcjYwbS1iRzRoWGRTUEk1LTJkbGg1czkwaFZScV8zNW9ZUXdnZEp0NVNvYlZaTGZJYlNEazFtMzMtdDhkX3V1SlF2Umt2WkdqMEIzZUxpZmJLdl9HZjVnZ0NIMEZvU250Q2lMVGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 786
+      "text": "Israel pushes deeper into Lebanon as part of its offensive.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 787
     },
     {
       "date": "May 26",
-      "text": "Iran threatens retaliation after US strikes in southern Iran and on its Gulf Coast.",
+      "text": "U.S. military launches new 'self-defense' strikes on Iran's Gulf Coast, targeting missile launch sites and boats.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNT1U5QkRyUHlFdkozd1hpTHg0QWp1SnBIb1NvMTNZX04yd1hacHZ6N3BuYkJ6dXgzOTNzdmx3TzZMSEpNc0JnQ21mam9Jeld4R0tiTlJXcjZ6eFRJeE54eWlMOHFETjZLSnV2OFVCdGVLajJBNnU3cUlTVDJRTmh0VnRRZklMc0tUWGNFYmVCcEwyaFZCLW5MZ3UySjBXNkd4WlJhb2lxc1M5VWd1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 786
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQb0wyQVNKWGxqWW8zczA0ZllhNmh4YWFxWFF5Q0oyWW0tMkpSTjQwZnJOSUllek80eHFxS3liTWotMjUzZVpWV2IzQUozcGhhTFM0ZmxzVkh2UU15WEhDdy1aelFZQk0zN2poakQ1Q1ZxYkhfUVZ5MVpEYlB3NzUzUDA5X2pFcHJoUC03Z256Mkx2NWpBVHYzU3NSOFJ1dlZZWVhuNUhpb3pIdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 787
     },
     {
       "date": "May 26",
-      "text": "Israel pushes deeper into Lebanon, launches air strikes on Beirut, and intensifies strikes against Hezbollah.",
+      "text": "Iran's IRGC threatens to retaliate after U.S. strikes, accusing the U.S. of 'gross violation' of ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBUVm5zaXVRd1U3Q3E5ODI2dTBqS1lTemFnNWNMVU9OdkJFcDluTTdxVDR1UTVnX2FSUGVVRmxWRmNqTVJHTTRRelVEWXpCNDMzOEtEV2FjSE1EZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 786
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 787
     },
     {
       "date": "May 26",
-      "text": "Peace talks in Qatar are strained, and prospects for an imminent end to the Iran war fade as attacks restart.",
+      "text": "Prospects for an imminent end to the Iran war fade as attacks restart and peace talks in Qatar are strained.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 786
+      "sourceName": "Google News",
+      "latestSinceUpdate": 787
     },
     {
       "date": "May 26",
-      "text": "Iran accuses the U.S. of a 'gross violation' of ceasefire amidst renewed strikes.",
+      "text": "Benjamin Netanyahu states Israel will intensify strikes against Hezbollah after ceasefire did not stop drone attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBUVm5zaXVRd1U3Q3E5ODI2dTBqS1lTemFnNWNMVU9OdkJFcDluTTdxVDR1UTVnX2FSUGVVRmxWRmNqTVJHTTRRelVEWXpCNDMzOEtEV2FjSE1EZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 787
+    },
+    {
+      "date": "May 26",
+      "text": "Iran expresses 'resolute support' for Hezbollah, with its supreme leader stating Gulf powers will no longer shield U.S. bases.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOQW9zTEpyY3F6WDlTSUUxckdYVmJyVl8wd25PSDhmQ2JzbUhlbWpFNW9fWm1odmRmY0U3V2FuajVjMWJtQVJ3b3lFaHQ2MkhhU25sM1Z0RUU5V2tiNjJ3M0V1Y0hVWFRkYXRMbmR1ZmxIQ1hBSlRtbjVWZXY5elROejhGdThxV2wtaUl6OXhfTGpYM3lObURqRDlPUEt0UUV4Ni1BVnNZWF9GSEdHZjlQajZBS2t3UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 786
-    },
-    {
-      "date": "May 26",
-      "text": "U.S. Navy is quietly guiding ships through the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 786
+      "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxPQ095N3hodW00M2NoZWl6QTlnUWpxLThKR1hfa28zSkp3d0lVTklfejRfcmdWSXBFcnN0Nm5hVmF2RTRGZE1WR211RmpwSjlfcExWOGNfdG5UMGZMM2NHYjk0YzBZY1ItWHlsV1A4Y2VXME5TMm0tME51Mk00OGRDOGluTEd6dmt2TXZ5YkIxdHFZa0JjMVp6WENFa0NPa01udDEwME4zcmNVa1Vnd3NmNFp4NzZwTXRwWjBwMFlPOHhBZ191RmZqWnREQUIxT0hIbGpObkdLOXdnV3NQVlVBeEdySGjSAesBQVVfeXFMT1I3Z3ZWc3AxTEtMZE1ZSkdXVVJOcXhhMXlaNUljVWwwOTVyS2FvZWdWc1o3N0FVVFg5Z0hmWGVzS2UteWhhZ1B0YXNXdFE0bkZBZEZWXzBTa2s1bTBSMUdWZHNXcVBrZVJpbjN6VVZNbTFnR0FoWHFuWS12US1Oa08xOUZ4Y3pfa2RsTlpmb25ZbmFoN1h6bVBmSTU1ek1SRUZCbXdpVzhGU2pBR05hVFI3LTZrdkZ3VTl5dUVwVDZUbDBjTUs4MEFxWlAzUzdReGxJYVVaWUJWS2tzZW1CRkFjUll3blY0WEV6bw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 787
     }
   ],
   "sourceStatuses": [
