@@ -1,13 +1,13 @@
 {
-  "updateSequence": 787,
+  "updateSequence": 788,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T21:21:31.362Z",
+  "lastSyncedAt": "2026-05-26T22:43:51.580Z",
   "warDay": 88,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 15,
-    "summary": "A ceasefire appears to have collapsed, with both U.S. and Israeli forces conducting strikes and Iran accusing the U.S. of 'gross violation'."
+    "summary": "A previously established ceasefire appears to have collapsed following renewed US strikes on Iran and intensified Israeli operations in Lebanon, despite ongoing peace negotiations."
   }
 }
