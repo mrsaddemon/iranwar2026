@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 788,
+  "updateSequence": 789,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T22:43:51.580Z",
+  "lastSyncedAt": "2026-05-26T23:51:15.088Z",
   "warDay": 88,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "A previously established ceasefire appears to have collapsed following renewed US strikes on Iran and intensified Israeli operations in Lebanon, despite ongoing peace negotiations."
+    "summary": "A previously established ceasefire has collapsed following renewed US strikes on Iran and Israeli offensive in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,11 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 26",
-      "text": "Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats.",
+      "text": "Iran’s IRGC threatens to retaliate after US strikes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 788
+      "latestSinceUpdate": 789
     },
     {
       "date": "May 26",
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 26",
-      "text": "Soldier killed in south Lebanon by Hezbollah drone, another seriously wounded.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRVVDc05SZ1VYcjMxb3BjQzdWdVdTTEk2c3ctSm5nb1hJNnNHVlFKMFp1RjNNd2swTU93azBWQnZENENEX2RxYXljeGdQMkhLM1g4NnZzVzlJRmtlWGExSUxNSU5xRW8zUXJkZXN6WlhTRjl3cEZvNUNhOUVKY0dWX3ZTQ0dCaHNZQU1NZEhCMG4xM1dSS3dZLTVWSkUtanJKWEhzc2hwbW1fX3fSAbABQVVfeXFMTi1Ma09FTUlxUUs3RDYwVmlFRWItM3hKQzdxS3lIdUU1OUNRRkxoeHRVeGxWeUVLS2lTLUhULWZrREt0Z1JDUWFrVnFDZ3BNQ2VWNWN2SjFUcWRhQV9nSW11LTJINE5heHRWbHZCd2Z0UlFLdU1EeE4xRHFuOHFiam1Jbkdlcm84VjZFVEQweDFvRzFTbFFLWk1DV2lVYjB2OVpEX0NPcGNoaEtmbko0NEI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 788
+      "text": "Peace talks in Qatar are strained amidst renewed hostilities.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 789
     },
     {
       "date": "May 26",
@@ -100,17 +100,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 26",
-      "text": "Iran says US violated ceasefire with strikes near Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNOW1fWHd6cThyblFRcFdtTkljUmpxNm1xd2hnTmdjQWYzWG5DWHNQTXdHeG5fOXZraDIyLXZ5dTJ4TDlsNUhsU0dWaHJZMm1qSDV1MGljcDIyekNkQkF1TU56SWh0ZDBGMmFXZ0J0cnF3a3JwcS05MGZtX3BwUXNFT2IxemJSRnFTaWNaRW1ja3g1ekZsU0hEdzVkcGRRZlJYcGNqUkVZVzZVbUlxX0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 788
+      "text": "Piper Sandler predicts Strait of Hormuz closure for months, leading to new oil highs.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPTTF6a1RJXzh0Q0RvQnBrQkJzZ2dxaEMzTW9QVnVsQk9KUER0VE1KSDdNZDhOcFFEdktIYjA1Y0xIV1RWUXJtazdyN25zYjE0dy1ORGNlWHFWNkFxWFRxVVVWaU9jaE5KbU1lQlF6M3F4UVV2OGkteVVpeVctZ2E3SkdObkFCZG9MQWtLaktJZWVwaWtOSFBoaVdGRnVlYXEzSmY3dGJfNTJPZ280Wm8xb292TV9pQnhYVGFzQ3paZTE4ZUXSAcgBQVVfeXFMTmU4aHpNSFRqZlp6Z0k0cDBpd0ZaTWdQd1VNeXBqcld4NDNPbjlGTWFXcXBGRnYwMFNaZy1uNlRYYWFFSVNVMlp1SFYzX3hNS3VzTDJPMHl5SnhiX3o4eEU0dFZDOWVpRDhfTkRtWExHTE5zV2VOOFkyUTV4eGdubVpWUHc4RDBYQndLM294bmQ5Q3h3Wkhnc1lxSFVSVW4xVUZDNGc5SGhsVEhDbmtPVm1oZ0RkNzBySktKM3RWOVVkMXg4bElISnk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 789
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
