@@ -1,13 +1,13 @@
 {
-  "updateSequence": 783,
+  "updateSequence": 784,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T08:08:28.772Z",
+  "lastSyncedAt": "2026-05-26T14:21:00.403Z",
   "warDay": 88,
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.2,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Peace talks are underway in Qatar with a proposed deal on the table, but active military engagements by the U.S. and Israel indicate a highly fragile situation."
+    "summary": "A proposed ceasefire is under severe strain and has been violated by recent US strikes, despite ongoing peace talks."
   }
 }

@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 783,
+  "updateSequence": 784,
   "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T08:08:28.772Z",
+  "lastSyncedAt": "2026-05-26T14:21:00.403Z",
   "warDay": 88,
-  "summary": "As delegations gather for peace talks in Qatar, the U.S. has conducted renewed 'self-defense' strikes against targets in Iran, while Israel has intensified strikes against Hezbollah.",
+  "summary": "US forces conducted strikes in Iran amidst ongoing peace talks in Qatar, which Iran condemned as a ceasefire violation, while Israel also launched strikes against Hezbollah in Beirut.",
   "lastNarrativeUpdate": "2026-05-26",
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.2,
+    "confidence": 0.98,
     "durationDays": 14,
-    "summary": "Peace talks are underway in Qatar with a proposed deal on the table, but active military engagements by the U.S. and Israel indicate a highly fragile situation."
+    "summary": "A proposed ceasefire is under severe strain and has been violated by recent US strikes, despite ongoing peace talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 26",
-      "text": "U.S. conducts 'self-defense' strikes in Iran, targeting missile launch sites and boats near the Strait of Hormuz.",
+      "date": "May 25",
+      "text": "US conducts strikes on Iran's Gulf Coast, targeting boats and missile launchers.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 783
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQb0wyQVNKWGxqWW8zczA0ZllhNmh4YWFxWFF5Q0oyWW0tMkpSTjQwZnJOSUllek80eHFxS3liTWotMjUzZVpWV2IzQUozcGhhTFM0ZmxzVkh2UU15WEhDdy1aelFZQk0zN2poakQ1Q1ZxYkhfUVZ5MVpEYlB3NzUzUDA5X2pFcHJoUC03Z256Mkx2NWpBVHYzU3NSOFJ1dlZZWVhuNUhpb3pIdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 784
     },
     {
-      "date": "May 26",
-      "text": "A U.S. drone is reportedly shot down as tensions surge during ongoing peace talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 783
-    },
-    {
-      "date": "May 26",
-      "text": "Israel launches air strikes on Beirut and states it will intensify attacks against Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBUVm5zaXVRd1U3Q3E5ODI2dTBqS1lTemFnNWNMVU9OdkJFcDluTTdxVDR1UTVnX2FSUGVVRmxWRmNqTVJHTTRRelVEWXpCNDMzOEtEV2FjSE1EZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 783
-    },
-    {
-      "date": "May 26",
-      "text": "Delegations gather in Qatar for talks on a proposed deal to end the US-Iran conflict.",
+      "date": "May 25",
+      "text": "Delegations gather in Qatar for peace talks between US and Iran.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE52R2tmX3d6SlRTTl9uM2J3WGF2ZWtUc3pQNEctVk9OM0NtRi1KNlRscTJVdU85MTBlN3R3bGVnbmFjdXJJUnJzeXNzNGpGWFp3d3pZYWFmejBEeE5IbXBMRDVpZGtvVXRQb2RYdG9YLVZNQWpTUG90YkZhTU0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 783
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 784
+    },
+    {
+      "date": "May 25",
+      "text": "Israel launches air strike on Beirut, targeting Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 784
     },
     {
       "date": "May 26",
-      "text": "Tehran expresses 'resolute support' for Hezbollah amidst regional exchanges.",
+      "text": "Iran condemns US strikes as a 'gross violation' of ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAJBVV95cUxNejBNQVZYeHhMMThVVFJTMWtzUDlhMXM3SkVhNndwZjhIWDJCWHlfRVVadTJFYzdMSDFPRzZ3SFhTNnRaQ0x1eFh0eUZ3TkkxMHI0S0lTaDh3WXhoZTRfTWJOdmkyNGJFd0RqMzloSFpxSFlZdEJfSjVtRmliaXRzTmZ4VkdpcXRqVVdHcFZXbWJRNWpjVnh6T0dNYVptX0FaaGJRMmJwb1Itc2dNNnF0LUVvR0FVWGVLZml0SW1aQmpUcEw4dVNRTkdmZ0NoTXM0VUFna2FZU29ZclRiTzh3cXRvc2YzTE1TWlRUY0hGd2hxTzZGcl8tMEt4Ym15SnlzV2V6LVJ5eTk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 783
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1DZTlZeWJUYWJ3bU85Y3dNQ2dxdmFIUDB0YjI5enBoZFNEeVNwWXRkLV84VU1uU2RDd0kzNFZSQlFHakFmYmZURjNjMFpLem5yN01Qa21DVVRXZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 784
+    },
+    {
+      "date": "May 26",
+      "text": "Prospects for an imminent end to the Iran war fade as attacks restart.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 784
+    },
+    {
+      "date": "May 26",
+      "text": "Stocks gain on optimism over a potential US-Iran deal to open the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 784
     }
   ],
   "sourceStatuses": [
