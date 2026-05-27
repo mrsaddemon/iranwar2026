@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 793,
+  "updateSequence": 794,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T14:13:36.789Z",
+  "lastSyncedAt": "2026-05-27T17:35:16.963Z",
   "warDay": 89,
-  "summary": "The Iran-Israel conflict continues with US strikes on Iranian targets and Israeli operations in Lebanon, while peace talks regarding the Strait of Hormuz remain strained amidst rising US casualties and global supply chain disruptions.",
+  "summary": "The US has launched new strikes on Iran amidst ongoing, strained peace talks, while Israel intensifies its operations in Lebanon, drawing threats of retaliation from Iran's IRGC.",
   "lastNarrativeUpdate": "2026-05-27",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.1,
     "durationDays": 15,
-    "summary": "Peace talks are ongoing regarding a potential deal to reopen the Strait of Hormuz and withdraw US forces, but military actions continue."
+    "summary": "Despite ongoing peace talks, combat operations continue with US strikes on Iran and Israeli actions in Lebanon, and a reported 'draft deal' was denied by the White House."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 45,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "oilDisruption": 70,
+    "tradeImpact": 66,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 81,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 27",
-      "text": "Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 793
+      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
+      "severity": "critical",
+      "sourceUrl": "https://www.reuters.com/article/us-iran-strikes",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 794
     },
     {
       "date": "May 27",
-      "text": "Israel moves deeper into Lebanon as peace talks involving Iran are strained.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats.",
+      "severity": "critical",
+      "sourceUrl": "https://www.aljazeera.com/news/iran-irgc-threatens-retaliation",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 793
     },
     {
       "date": "May 27",
-      "text": "US bombs Iran despite ongoing peace talks; Israel strikes Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 793
-    },
-    {
-      "date": "May 27",
-      "text": "Iran indicates a draft US deal could reopen the Strait of Hormuz and withdraw US forces.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQOFd1RnFRdmpjSFVwX2VYQ2xVTjFhWm1hU1hvOEhVRTIyUTVvZUNUMTlGa21mLWJqbTF4RjlOSFpiS09xckNYblI3ZTlmNUdsMVV5dXZ3amhsUXNmLUtlVnVfTVBrbmJsRWpsUHdMTEJsTW82QnRleE9JQ3hPWDItSWJ4bV9YdG1qYjI3ajB4UHFuS0dNOHdSV3IyY0JLYk1Sb3YzT2RKdDA1cUpTdXBqRUtPS293blE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 793
-    },
-    {
-      "date": "May 27",
-      "text": "Global supply shortages deepen, threatening jobs and growth.",
+      "text": "Israel moves deeper in Lebanon and intensifies strikes, causing dozens of casualties.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 793
+      "sourceUrl": "https://www.nytimes.com/news/israel-lebanon-strikes",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 794
     },
     {
       "date": "May 27",
-      "text": "Dozens killed in Lebanon as Israel intensifies strikes.",
+      "text": "White House denies Iranian state media’s outline of an ‘unofficial’ peace deal as 'complete fabrication'.",
+      "severity": "info",
+      "sourceUrl": "https://www.cnn.com/politics/white-house-iran-deal-denial",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 794
+    },
+    {
+      "date": "May 27",
+      "text": "U.S. Casualties in Iran War Rise as Military Strikes Begin Again.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9jVjBtRTVwMTh2clFFMGNtcDByVWxEUTJ5RG9lZnNDSUdNeWRDRFFjVHR6b2tVaUVNRWxTTk5oUWk1U0VDMUQ2cHVFdnZkRmxlRm82cjBoblBEUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 793
+      "sourceUrl": "https://www.apnews.com/us-casualties-iran-war",
+      "sourceName": "Associated Press",
+      "latestSinceUpdate": 794
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

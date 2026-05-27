@@ -1,13 +1,13 @@
 {
-  "updateSequence": 793,
+  "updateSequence": 794,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T14:13:36.789Z",
+  "lastSyncedAt": "2026-05-27T17:35:16.963Z",
   "warDay": 89,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.1,
     "durationDays": 15,
-    "summary": "Peace talks are ongoing regarding a potential deal to reopen the Strait of Hormuz and withdraw US forces, but military actions continue."
+    "summary": "Despite ongoing peace talks, combat operations continue with US strikes on Iran and Israeli actions in Lebanon, and a reported 'draft deal' was denied by the White House."
   }
 }
