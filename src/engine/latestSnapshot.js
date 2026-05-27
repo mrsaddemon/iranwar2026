@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 791,
+  "updateSequence": 792,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T06:37:44.565Z",
+  "lastSyncedAt": "2026-05-27T10:42:58.162Z",
   "warDay": 89,
-  "summary": "Renewed US strikes against Iran, coupled with Israel's intensified actions against Hezbollah and Iran's accusations of ceasefire violations, indicate a significant escalation in regional conflict.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "A previously active ceasefire between the US and Iran appears to have collapsed following renewed US strikes and Iranian accusations of grave violations."
+    "summary": "A ceasefire appears to have collapsed following renewed U.S. strikes and Iranian accusations of violations, despite ongoing peace talks."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 27",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
+      "text": "U.S. military launched self-defense strikes on Iranian launch sites and boats.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 791
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxORXlFelRZR2pXWkQzZ1NEbmhudU9MTXVwNEJVSWI0QzAtQ3F2bjNwcjYwbS1iRzRoWGRTUEk1LTJkbGg1czkwaFZScV8zNW9ZUXdnZEp0NVNvYlZaTGZJYlNEazFtMzMtdDhkX3V1SlF2Umt2WkdqMEIzZUxpZmJLdl9HZjVnZ0NIMEZvU250Q2lMVGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 792
     },
     {
       "date": "May 27",
-      "text": "Iran accuses U.S. of 'grave violation' of ceasefire following renewed strikes.",
+      "text": "Iran’s IRGC threatened to retaliate after U.S. strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1DZTlZeWJUYWJ3bU85Y3dNQ2dxdmFIUDB0YjI5enBoZFNEeVNwWXRkLV84VU1uU2RDd0kzNFZSQlFHakFmYmZURjNjMFpLem5yN01Qa21DVVRXZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 791
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 792
     },
     {
       "date": "May 27",
-      "text": "Benjamin Netanyahu states Israel will intensify strikes against Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBUVm5zaXVRd1U3Q3E5ODI2dTBqS1lTemFnNWNMVU9OdkJFcDluTTdxVDR1UTVnX2FSUGVVRmxWRmNqTVJHTTRRelVEWXpCNDMzOEtEV2FjSE1EZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 791
-    },
-    {
-      "date": "May 27",
-      "text": "Tehran expresses 'resolute support' for Hezbollah amidst escalating conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxPdFV2eG0xRldMT3BpR29OMl9nd1g1Q0JnWlBsQmFlWkpZVW5wOUNKajdfdTNJLWdDQklubnNiSFhDMTRWeTE4QlY0bzZxZ1FtZmplV1ZuSWNzOTZMSDF0ZWMzaDRHamhESTVZR2pScFRqTmwxSVhDMXZCd09tMTdXRG5sMmpYLTZ6aDlycDF4ekY1aUFta293VlRGd01GZ0RwZUFpeFFqWUFSMEo3bC1LZnZEMjBkRDEzYU1BdGpCaDVSQlhydk44SFB0WVlmRVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 791
-    },
-    {
-      "date": "May 27",
-      "text": "Ships stack up at Hormuz entrance as U.S. denies report of Navy escorts.",
+      "text": "Israel intensified attacks on Hezbollah in Lebanon.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 791
+      "latestSinceUpdate": 792
     },
     {
       "date": "May 27",
-      "text": "Israeli strike kills Hamas military wing’s new chief in Gaza.",
+      "text": "Prospects for an imminent end to the Iran war faded as attacks restarted.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 792
+    },
+    {
+      "date": "May 27",
+      "text": "Iran accused the U.S. of a 'grave violation' of a ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gJBVV95cUxOWlBhQ3l4VVRtemwzU2hma0tLeWpUd3FmcEtmay1iYmZVNU9pUmprTjQ4cHM5NkVlWk5udWFneGxaeERSOWJPSzZYX0RIOHFBSjJVNzNZNGt4S3hRQk9fVHRTOEZuQWZkaGRuWTB2bkdZR29Lc3lDOW9wY0lLcHRqeDlNZTc5ZERjd3h6d2phc3JkdkcwR1lvdUJPaWxyX1dmN2lmOWs5cS1rdXIybzFnTFJZM2tWN3ByLUZPem5IcUYzNktxYU5uek1vSlF4ZG1zeG92ME95ZlFPS3hsSjNnMlg2bkxsb1BzUVc1TnhRbzVBa3NkMXRjRnZXak16OUJmcS1jS2ZrZVlWLUJlMFA2eHhGaUI2VG1wNmotN2hBMFJ3MUFnMDJ0SGw1X01GQWx2US13bWN4dmppQjJJS2pnTWI0d3dzQ1l6Yk1SYmhmVmg2T0pIcW9xdmFHUGh2NzVrUFhfZXpR0gHrAkFVX3lxTE5QTU91WTg4aVFXSnhrMVpFTHpXWEFUZ2xkdWdMRWtla0FRdjlmeXloNjJuMlJPd21wZ2o2Q2VWaVc3NHA3Mnl0ZzJsTldhcGUwUzdQSTYweHRveHJKc3gxVTViQnBCSE55d0xPemVDSzV5YmR1T2pBN2ZZTkFHaEhlNEJfMm9PbmI0YWpjVy01bEYyUlQtMXRHd253N290QktwckRqUVAtM3RrdWdkTDBnZUo3YjdaZjE1dHpweFY5RWdVM2dGRmpwVXpGN19KM1VNS05rZ0RUTWFlLU92amdyMzZSYlB1a1plem9Lakc4aTVuY2JhcUdOUmlvUURaQWx2Qk5pQWF5d3NPZ3pSdV8tRkFhR1BFbGJxenAzNVB1dDVWTzI1SGlqYnBzcTRZTFJCVjZ4alhBZUpNV2VlRW5ndW1zY1RYOHBiTEZjUHk4TFd6b0Z6OFdqaHlGcGhFamxDN0pPSklIMFZJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 791
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 792
+    },
+    {
+      "date": "May 27",
+      "text": "A South Korean ship in the Strait of Hormuz was likely attacked by an Iranian missile.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxQU0FvelZ2cHpUUW5qS3FpQ1NJMUVha1YtR2owWnJ1OEROem1MekVoQkVtWEMtTmxuOGFUQ3Q3QW9XVHd6bENOVjVsMVZ3Y2FFT0RYYkJpWHBfbG9meWxwM2tOck1GaTF1djA2Tnd6alNncGVmclhGNkZQX21YRmkzTWFpWU9QeV93OFk5eUhCMTRnc1Bwc0ZGbmJmckp2Q3BWZ2lDR1pGM1F6cHZFU2NkNnlfd05oZUJSd2VlcHVQMWdIZmhCZWhRT0NmS1c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 792
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
