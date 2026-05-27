@@ -1,13 +1,13 @@
 {
-  "updateSequence": 789,
-  "lastUpdated": "2026-05-26",
-  "lastSyncedAt": "2026-05-26T23:51:15.088Z",
-  "warDay": 88,
+  "updateSequence": 790,
+  "lastUpdated": "2026-05-27",
+  "lastSyncedAt": "2026-05-27T01:55:32.730Z",
+  "warDay": 89,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 15,
-    "summary": "A previously established ceasefire has collapsed following renewed US strikes on Iran and Israeli offensive in Lebanon."
+    "summary": "A ceasefire, if previously in effect or discussed, appears to have collapsed with renewed strikes and accusations of violations."
   }
 }
