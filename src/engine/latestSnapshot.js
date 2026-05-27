@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 796,
+  "updateSequence": 797,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T21:29:12.273Z",
+  "lastSyncedAt": "2026-05-27T23:00:45.437Z",
   "warDay": 89,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US has renewed strikes against Iran following perceived threats, while peace talks continue amidst Iranian threats of retaliation and escalating conflict between Israel and Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-05-27",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 15,
-    "summary": "The ceasefire has collapsed following renewed US strikes on Iran, with Iran's foreign ministry stating the US broke the agreement."
+    "summary": "No active ceasefire is reported amidst renewed military actions and strained peace talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -43,12 +43,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 51
+    "escalationLevel": 85,
+    "oilDisruption": 70,
+    "tradeImpact": 66,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 27",
-      "text": "Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 796
+      "date": "May 26",
+      "text": "U.S. officials reported seeing threats from Iran before renewing strikes.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 797
     },
     {
       "date": "May 26",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
+      "text": "US launched new strikes on Iran, targeting missile sites and boats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 796
+      "latestSinceUpdate": 797
     },
     {
       "date": "May 26",
-      "text": "Iran’s foreign ministry states the US broke the ceasefire with overnight strikes.",
+      "text": "Iran’s IRGC threatened to retaliate after US strikes.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxNa2s2R2pVLXl1T0d1aGx1c1ZWZ3QyTEZpWlJGNU1sSzJXYWEyeHZndGlCRVV0NGt3dTNUTUl4YlA2MnM2U1NCcmFtaVFlVzNScUNTd2l1UEljSmVwRUNnYVFSZWpwc1NqT2lyZVp2amxrcVhpampFOXNHVmZNNFowSXpuRHF2WTJ3LWhhTXBWOThiQVdaQ2RzT1hKZHZjeGd4Ym5NQ3lzWGt3ZGxTZFM2SU1PWTFwdnFKNldmN2thY1JqRW5fMzdOZHdQUmVjOTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 796
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFAyUmx3c2o0WXpFWHl5T21FYnNhVzZmUXZ5WEp5cnpPc0lVQjVaUlhZYnI0eHFHbmQtaFdxSlVwZDFpbUVFZC0tdTNjdGJUbk03TF93aU9MMVM0MG1SZjdTOEhVR2JHbmxfOHEwZmRLSGlZZEQ0ekFuVnVKY19iQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 797
     },
     {
       "date": "May 26",
-      "text": "Israel moves deeper into Lebanon and issues a huge evacuation order for southern Lebanon.",
+      "text": "Israel moved deeper into Lebanon, while Iran peace talks were strained.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1kYzFJdldyZ01IUWdFLTNOU2lDNFkwTjIwbzRnN0xudjg4T3k2RzlkdW1KTy1mZUpMVUVTZWxTQ241N1REcGt3anhyNzQ1eWpFM0ppUlBIVHR0QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 796
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 797
     },
     {
       "date": "May 26",
-      "text": "Multiple Hezbollah explosive drones impact in northern Israel, killing one soldier and seriously wounding another.",
+      "text": "A soldier was killed in south Lebanon by a Hezbollah drone, with another seriously wounded.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRVVDc05SZ1VYcjMxb3BjQzdWdVdTTEk2c3ctSm5nb1hJNnNHVlFKMFp1RjNNd2swTU93azBWQnZENENEX2RxYXljeGdQMkhLM1g4NnZzVzlJRmtlWGExSUxNSU5xRW8zUXJkZXN6WlhTRjl3cEZvNUNhOUVKY0dWX3ZTQ0dCaHNZQU1NZEhCMG4xM1dSS3dZLTVWSkUtanJKWEhzc2hwbW1fX3fSAbABQVVfeXFMTi1Ma09FTUlxUUs3RDYwVmlFRWItM3hKQzdxS3lIdUU1OUNRRkxoeHRVeGxWeUVLS2lTLUhULWZrREt0Z1JDUWFrVnFDZ3BNQ2VWNWN2SjFUcWRhQV9nSW11LTJINE5heHRWbHZCd2Z0UlFLdU1EeE4xRHFuOHFiam1Jbkdlcm84VjZFVEQweDFvRzFTbFFLWk1DV2lVYjB2OVpEX0NPcGNoaEtmbko0NEI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 797
+    },
+    {
+      "date": "May 26",
+      "text": "Multiple Hezbollah explosive drones impacted in northern Israel.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5YWUZHZ3J3UFVkcEpRVkJVTVQ0VkZJNi1fYTI3a0FhWWhic3Y4T3JjeHhmTi1jZVFuY0cwRVJraHFUTmU1N2hpVWtVbzhnN21iM0VmemdyWFJUV182dHJsVzBic3BacXRSZlpHRVBn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 796
-    },
-    {
-      "date": "May 26",
-      "text": "U.S. casualties in the Iran War rise as military strikes begin again.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 796
+      "latestSinceUpdate": 797
     }
   ],
   "sourceStatuses": [

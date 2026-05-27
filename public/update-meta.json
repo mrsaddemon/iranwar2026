@@ -1,13 +1,13 @@
 {
-  "updateSequence": 796,
+  "updateSequence": 797,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T21:29:12.273Z",
+  "lastSyncedAt": "2026-05-27T23:00:45.437Z",
   "warDay": 89,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 15,
-    "summary": "The ceasefire has collapsed following renewed US strikes on Iran, with Iran's foreign ministry stating the US broke the agreement."
+    "summary": "No active ceasefire is reported amidst renewed military actions and strained peace talks."
   }
 }
