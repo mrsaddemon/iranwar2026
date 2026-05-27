@@ -1,13 +1,13 @@
 {
-  "updateSequence": 795,
+  "updateSequence": 796,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T19:38:56.607Z",
+  "lastSyncedAt": "2026-05-27T21:29:12.273Z",
   "warDay": 89,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.9,
     "durationDays": 15,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "The ceasefire has collapsed following renewed US strikes on Iran, with Iran's foreign ministry stating the US broke the agreement."
   }
 }

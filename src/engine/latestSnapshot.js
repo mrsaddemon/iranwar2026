@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 795,
+  "updateSequence": 796,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T19:38:56.607Z",
+  "lastSyncedAt": "2026-05-27T21:29:12.273Z",
   "warDay": 89,
-  "summary": "The US has launched new strikes on Iran amidst ongoing, strained peace talks, while Israel intensifies its operations in Lebanon, drawing threats of retaliation from Iran's IRGC.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-05-27",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.9,
     "durationDays": 15,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "The ceasefire has collapsed following renewed US strikes on Iran, with Iran's foreign ministry stating the US broke the agreement."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
         "precision": 0.7,
         "aggression": 0.8
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.6,
+        "aggression": 0.7
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 46
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 27",
-      "text": "Live updates: Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats",
-      "severity": "info",
+      "text": "Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 795
+      "latestSinceUpdate": 796
     },
     {
-      "date": "May 27",
-      "text": "Iran war updates: Israel moves deeper in Lebanon; Iran peace talks strained",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 795
-    },
-    {
-      "date": "May 27",
-      "text": "Iran War Updates: U.S. Saw Threats From Iran Before Renewing Strikes, Officials Said",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBqYzdyRkVnYnVJbDBrS0Fpb2VULTI2XzNIQlN2ZVZSMlg0b01VLTJXY1VDeDJ6NTlTQ1BScXdKTGEzaTdUWWR0UFdyalJneDlyUGZEckFpSFMzcjJvVFNfVUhJblIxWFM0MktoeXBLcG94UFk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 795
-    },
-    {
-      "date": "May 27",
-      "text": "Iran Update Special Report, May 26, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNN2tDNmtSNm56MWdXU0FwNFlTWkFsRFNWUENiQ0NvRDdkaFhpWkZ2LWFIcHlQWm1ET2t0bmV3c1NVMGR5c1JpaTNFSUxoZmhSMVl2aDZlcjVKaHlMMlktTUFjUEptajRiT3Y4eWl5ZjNPWjgtN0ZJd1lsdmQwODJoWjlYS2VpT1hUcGp3bHlsVjROU3llWmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 795
-    },
-    {
-      "date": "May 27",
-      "text": "Iran war live: Trump says no one will control Strait of Hormuz",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNcG83M3dvUlJjanhXeGVlZ3ZGbG5iM3JfVG5wUDMyZUVGWXlJanhJSGxvQkdsQmxxRlBtSkpQY21vRW90MFNHNHNUSV9DdnNnVE9DNWpyMzl0UGZGMXdoLXpaSEVCanVIR3VZTVdUY3poaHpHLU5mVEgxQzBzVVpDX3gxRkg1dEN2aFRrazJBVEVZVFNSZ2tWRDdmZE1Rc0cxaUY2YzlReU1pWV9CY2xMWDctbHFWeTFwcHBTc2g3SXTSAcYBQVVfeXFMTkhVbktCc082cVgzLXZjRWpxRmFnSDFwWVBSczdTRUlTSEs5NXJ3Nmp3ZWZRTjM4LW9UVVJ5YldTN3cwTnBiQ3Z2YURtT2R4SnB1VUMwWDROLXcxX2Qyd3gxNmR5LUp2ZWFySlkzQlRVSlpkREJzZnJNalpoeHVITVZsa3g0SGkwZGR3MW1GOEY5NFlSMkp0OTVUZ01taV9sWW1YX2tEV2ZIQzJqSjdiZVh4MVNYbUc3WnU4N2FPaVhsb2xmdHhB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 795
-    },
-    {
-      "date": "May 27",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats",
+      "date": "May 26",
+      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 795
+      "latestSinceUpdate": 796
+    },
+    {
+      "date": "May 26",
+      "text": "Iran’s foreign ministry states the US broke the ceasefire with overnight strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxNa2s2R2pVLXl1T0d1aGx1c1ZWZ3QyTEZpWlJGNU1sSzJXYWEyeHZndGlCRVV0NGt3dTNUTUl4YlA2MnM2U1NCcmFtaVFlVzNScUNTd2l1UEljSmVwRUNnYVFSZWpwc1NqT2lyZVp2amxrcVhpampFOXNHVmZNNFowSXpuRHF2WTJ3LWhhTXBWOThiQVdaQ2RzT1hKZHZjeGd4Ym5NQ3lzWGt3ZGxTZFM2SU1PWTFwdnFKNldmN2thY1JqRW5fMzdOZHdQUmVjOTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 796
+    },
+    {
+      "date": "May 26",
+      "text": "Israel moves deeper into Lebanon and issues a huge evacuation order for southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1kYzFJdldyZ01IUWdFLTNOU2lDNFkwTjIwbzRnN0xudjg4T3k2RzlkdW1KTy1mZUpMVUVTZWxTQ241N1REcGt3anhyNzQ1eWpFM0ppUlBIVHR0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 796
+    },
+    {
+      "date": "May 26",
+      "text": "Multiple Hezbollah explosive drones impact in northern Israel, killing one soldier and seriously wounding another.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5YWUZHZ3J3UFVkcEpRVkJVTVQ0VkZJNi1fYTI3a0FhWWhic3Y4T3JjeHhmTi1jZVFuY0cwRVJraHFUTmU1N2hpVWtVbzhnN21iM0VmemdyWFJUV182dHJsVzBic3BacXRSZlpHRVBn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 796
+    },
+    {
+      "date": "May 26",
+      "text": "U.S. casualties in the Iran War rise as military strikes begin again.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 796
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
