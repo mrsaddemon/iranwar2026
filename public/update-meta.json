@@ -1,13 +1,13 @@
 {
-  "updateSequence": 794,
+  "updateSequence": 795,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T17:35:16.963Z",
+  "lastSyncedAt": "2026-05-27T19:38:56.607Z",
   "warDay": 89,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 15,
-    "summary": "Despite ongoing peace talks, combat operations continue with US strikes on Iran and Israeli actions in Lebanon, and a reported 'draft deal' was denied by the White House."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
