@@ -1,13 +1,13 @@
 {
-  "updateSequence": 792,
+  "updateSequence": 793,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T10:42:58.162Z",
+  "lastSyncedAt": "2026-05-27T14:13:36.789Z",
   "warDay": 89,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 15,
-    "summary": "A ceasefire appears to have collapsed following renewed U.S. strikes and Iranian accusations of violations, despite ongoing peace talks."
+    "summary": "Peace talks are ongoing regarding a potential deal to reopen the Strait of Hormuz and withdraw US forces, but military actions continue."
   }
 }

@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 792,
+  "updateSequence": 793,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T10:42:58.162Z",
+  "lastSyncedAt": "2026-05-27T14:13:36.789Z",
   "warDay": 89,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Iran-Israel conflict continues with US strikes on Iranian targets and Israeli operations in Lebanon, while peace talks regarding the Strait of Hormuz remain strained amidst rising US casualties and global supply chain disruptions.",
   "lastNarrativeUpdate": "2026-05-27",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 15,
-    "summary": "A ceasefire appears to have collapsed following renewed U.S. strikes and Iranian accusations of violations, despite ongoing peace talks."
+    "summary": "Peace talks are ongoing regarding a potential deal to reopen the Strait of Hormuz and withdraw US forces, but military actions continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 48,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 27",
-      "text": "U.S. military launched self-defense strikes on Iranian launch sites and boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxORXlFelRZR2pXWkQzZ1NEbmhudU9MTXVwNEJVSWI0QzAtQ3F2bjNwcjYwbS1iRzRoWGRTUEk1LTJkbGg1czkwaFZScV8zNW9ZUXdnZEp0NVNvYlZaTGZJYlNEazFtMzMtdDhkX3V1SlF2Umt2WkdqMEIzZUxpZmJLdl9HZjVnZ0NIMEZvU250Q2lMVGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 792
-    },
-    {
-      "date": "May 27",
-      "text": "Iran’s IRGC threatened to retaliate after U.S. strikes.",
-      "severity": "critical",
+      "text": "Iran’s IRGC threatens to retaliate after US strikes on launch sites and boats.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 792
+      "latestSinceUpdate": 793
     },
     {
       "date": "May 27",
-      "text": "Israel intensified attacks on Hezbollah in Lebanon.",
+      "text": "Israel moves deeper into Lebanon as peace talks involving Iran are strained.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 792
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 793
     },
     {
       "date": "May 27",
-      "text": "Prospects for an imminent end to the Iran war faded as attacks restarted.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 792
-    },
-    {
-      "date": "May 27",
-      "text": "Iran accused the U.S. of a 'grave violation' of a ceasefire.",
+      "text": "US bombs Iran despite ongoing peace talks; Israel strikes Lebanon.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 792
+      "latestSinceUpdate": 793
     },
     {
       "date": "May 27",
-      "text": "A South Korean ship in the Strait of Hormuz was likely attacked by an Iranian missile.",
+      "text": "Iran indicates a draft US deal could reopen the Strait of Hormuz and withdraw US forces.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQOFd1RnFRdmpjSFVwX2VYQ2xVTjFhWm1hU1hvOEhVRTIyUTVvZUNUMTlGa21mLWJqbTF4RjlOSFpiS09xckNYblI3ZTlmNUdsMVV5dXZ3amhsUXNmLUtlVnVfTVBrbmJsRWpsUHdMTEJsTW82QnRleE9JQ3hPWDItSWJ4bV9YdG1qYjI3ajB4UHFuS0dNOHdSV3IyY0JLYk1Sb3YzT2RKdDA1cUpTdXBqRUtPS293blE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 793
+    },
+    {
+      "date": "May 27",
+      "text": "Global supply shortages deepen, threatening jobs and growth.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 793
+    },
+    {
+      "date": "May 27",
+      "text": "Dozens killed in Lebanon as Israel intensifies strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxQU0FvelZ2cHpUUW5qS3FpQ1NJMUVha1YtR2owWnJ1OEROem1MekVoQkVtWEMtTmxuOGFUQ3Q3QW9XVHd6bENOVjVsMVZ3Y2FFT0RYYkJpWHBfbG9meWxwM2tOck1GaTF1djA2Tnd6alNncGVmclhGNkZQX21YRmkzTWFpWU9QeV93OFk5eUhCMTRnc1Bwc0ZGbmJmckp2Q3BWZ2lDR1pGM1F6cHZFU2NkNnlfd05oZUJSd2VlcHVQMWdIZmhCZWhRT0NmS1c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 792
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9jVjBtRTVwMTh2clFFMGNtcDByVWxEUTJ5RG9lZnNDSUdNeWRDRFFjVHR6b2tVaUVNRWxTTk5oUWk1U0VDMUQ2cHVFdnZkRmxlRm82cjBoblBEUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 793
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
