@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 790,
+  "updateSequence": 791,
   "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T01:55:32.730Z",
+  "lastSyncedAt": "2026-05-27T06:37:44.565Z",
   "warDay": 89,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Renewed US strikes against Iran, coupled with Israel's intensified actions against Hezbollah and Iran's accusations of ceasefire violations, indicate a significant escalation in regional conflict.",
   "lastNarrativeUpdate": "2026-05-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire, if previously in effect or discussed, appears to have collapsed with renewed strikes and accusations of violations."
+    "summary": "A previously active ceasefire between the US and Iran appears to have collapsed following renewed US strikes and Iranian accusations of grave violations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.65
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 27",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats in self-defense.",
+      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 790
+      "latestSinceUpdate": 791
     },
     {
       "date": "May 27",
-      "text": "Israel steps up its Lebanon offensive and Benjamin Netanyahu states Israel will intensify strikes against Hezbollah.",
-      "severity": "warning",
+      "text": "Iran accuses U.S. of 'grave violation' of ceasefire following renewed strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1DZTlZeWJUYWJ3bU85Y3dNQ2dxdmFIUDB0YjI5enBoZFNEeVNwWXRkLV84VU1uU2RDd0kzNFZSQlFHakFmYmZURjNjMFpLem5yN01Qa21DVVRXZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 791
+    },
+    {
+      "date": "May 27",
+      "text": "Benjamin Netanyahu states Israel will intensify strikes against Hezbollah.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBUVm5zaXVRd1U3Q3E5ODI2dTBqS1lTemFnNWNMVU9OdkJFcDluTTdxVDR1UTVnX2FSUGVVRmxWRmNqTVJHTTRRelVEWXpCNDMzOEtEV2FjSE1EZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 790
+      "latestSinceUpdate": 791
     },
     {
       "date": "May 27",
-      "text": "Iran's IRGC threatens retaliation after US strikes, and Tehran accuses the US of 'gross violation' of ceasefire.",
+      "text": "Tehran expresses 'resolute support' for Hezbollah amidst escalating conflict.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxPdFV2eG0xRldMT3BpR29OMl9nd1g1Q0JnWlBsQmFlWkpZVW5wOUNKajdfdTNJLWdDQklubnNiSFhDMTRWeTE4QlY0bzZxZ1FtZmplV1ZuSWNzOTZMSDF0ZWMzaDRHamhESTVZR2pScFRqTmwxSVhDMXZCd09tMTdXRG5sMmpYLTZ6aDlycDF4ekY1aUFta293VlRGd01GZ0RwZUFpeFFqWUFSMEo3bC1LZnZEMjBkRDEzYU1BdGpCaDVSQlhydk44SFB0WVlmRVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 791
+    },
+    {
+      "date": "May 27",
+      "text": "Ships stack up at Hormuz entrance as U.S. denies report of Navy escorts.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 791
+    },
+    {
+      "date": "May 27",
+      "text": "Israeli strike kills Hamas military wing’s new chief in Gaza.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOQW9zTEpyY3F6WDlTSUUxckdYVmJyVl8wd25PSDhmQ2JzbUhlbWpFNW9fWm1odmRmY0U3V2FuajVjMWJtQVJ3b3lFaHQ2MkhhU25sM1Z0RUU5V2tiNjJ3M0V1Y0hVWFRkYXRMbmR1ZmxIQ1hBSlRtbjVWZXY5elROejhGdThxV2wtaUl6OXhfTGpYM3lObURqRDlPUEt0UUV4Ni1BVnNZWF9GSEdHZjlQajZBS2t3UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 790
-    },
-    {
-      "date": "May 27",
-      "text": "Prospects for an imminent end to the Iran war fade as attacks restart and peace talks are strained.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 790
-    },
-    {
-      "date": "May 27",
-      "text": "Piper Sandler predicts the Strait of Hormuz will remain closed for months, leading to new oil highs, while the U.S. Navy guides ships through.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPTTF6a1RJXzh0Q0RvQnBrQkJzZ2dxaEMzTW9QVnVsQk9KUER0VE1KSDdNZDhOcFFEdktIYjA1Y0xIV1RWUXJtazdyN25zYjE0dy1ORGNlWHFWNkFxWFRxVVVWaU9jaE5KbU1lQlF6M3F4UVV2OGkteVVpeVctZ2E3SkdObkFCZG9MQWtLaktJZWVwaWtOSFBoaVdGRnVlYXEzSmY3dGJfNTJPZ280Wm8xb292TV9pQnhYVGFzQ3paZTE4ZUXSAcgBQVVfeXFMTmU4aHpNSFRqZlp6Z0k0cDBpd0ZaTWdQd1VNeXBqcld4NDNPbjlGTWFXcXBGRnYwMFNaZy1uNlRYYWFFSVNVMlp1SFYzX3hNS3VzTDJPMHl5SnhiX3o4eEU0dFZDOWVpRDhfTkRtWExHTE5zV2VOOFkyUTV4eGdubVpWUHc4RDBYQndLM294bmQ5Q3h3Wkhnc1lxSFVSVW4xVUZDNGc5SGhsVEhDbmtPVm1oZ0RkNzBySktKM3RWOVVkMXg4bElISnk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 790
+      "sourceUrl": "https://news.google.com/articles/CBMi5gJBVV95cUxOWlBhQ3l4VVRtemwzU2hma0tLeWpUd3FmcEtmay1iYmZVNU9pUmprTjQ4cHM5NkVlWk5udWFneGxaeERSOWJPSzZYX0RIOHFBSjJVNzNZNGt4S3hRQk9fVHRTOEZuQWZkaGRuWTB2bkdZR29Lc3lDOW9wY0lLcHRqeDlNZTc5ZERjd3h6d2phc3JkdkcwR1lvdUJPaWxyX1dmN2lmOWs5cS1rdXIybzFnTFJZM2tWN3ByLUZPem5IcUYzNktxYU5uek1vSlF4ZG1zeG92ME95ZlFPS3hsSjNnMlg2bkxsb1BzUVc1TnhRbzVBa3NkMXRjRnZXak16OUJmcS1jS2ZrZVlWLUJlMFA2eHhGaUI2VG1wNmotN2hBMFJ3MUFnMDJ0SGw1X01GQWx2US13bWN4dmppQjJJS2pnTWI0d3dzQ1l6Yk1SYmhmVmg2T0pIcW9xdmFHUGh2NzVrUFhfZXpR0gHrAkFVX3lxTE5QTU91WTg4aVFXSnhrMVpFTHpXWEFUZ2xkdWdMRWtla0FRdjlmeXloNjJuMlJPd21wZ2o2Q2VWaVc3NHA3Mnl0ZzJsTldhcGUwUzdQSTYweHRveHJKc3gxVTViQnBCSE55d0xPemVDSzV5YmR1T2pBN2ZZTkFHaEhlNEJfMm9PbmI0YWpjVy01bEYyUlQtMXRHd253N290QktwckRqUVAtM3RrdWdkTDBnZUo3YjdaZjE1dHpweFY5RWdVM2dGRmpwVXpGN19KM1VNS05rZ0RUTWFlLU92amdyMzZSYlB1a1plem9Lakc4aTVuY2JhcUdOUmlvUURaQWx2Qk5pQWF5d3NPZ3pSdV8tRkFhR1BFbGJxenAzNVB1dDVWTzI1SGlqYnBzcTRZTFJCVjZ4alhBZUpNV2VlRW5ndW1zY1RYOHBiTEZjUHk4TFd6b0Z6OFdqaHlGcGhFamxDN0pPSklIMFZJdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 791
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
