@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 801,
+  "updateSequence": 802,
   "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T12:00:57.856Z",
+  "lastSyncedAt": "2026-05-28T16:20:26.416Z",
   "warDay": 90,
-  "summary": "The US and Iran have exchanged multiple air strikes, testing a fragile ceasefire, while Israel has intensified attacks and issued evacuation orders in southern Lebanon.",
+  "summary": "Direct military exchanges between the US and Iran have resumed, alongside intensified Israeli operations in southern Lebanon, despite previous ceasefire attempts and ongoing diplomatic efforts.",
   "lastNarrativeUpdate": "2026-05-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A fragile ceasefire is in effect between the US and Iran, but it is being repeatedly tested and violated by fresh strikes from both sides."
+    "summary": "A previously established ceasefire between the US and Iran has collapsed amidst renewed direct military exchanges and accusations of violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.88
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 28",
-      "text": "US and Iran trade fresh air strikes, testing a fragile ceasefire.",
+      "text": "Prospects fade for imminent end to Iran war as attacks restart.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE9nU2JJbWg5ZjRFYUNaaVV2b19hT25aeWtFZER1Tkhyby1yNU16d3FwNVVZblBBemQ4eTVwMWNTYVY1NzNIRnpzU193WFdjUzhYakhsNmxSTkpkbnJCSGsxcU9YeENCQ1RWR2kwdFl0bGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 801
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 802
     },
     {
       "date": "May 28",
-      "text": "Iran claims to target a U.S. base after new American strikes.",
+      "text": "Gulf condemns Iran attack on Kuwait after US strikes on IRGC.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 802
+    },
+    {
+      "date": "May 27",
+      "text": "U.S. Again Conducts Strikes in Iran as Trump Expresses Indifference to Midterms Pressure.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBDWnFDdm1FZ1FDUUlaUkJCRWxGaW5FREpOam02NGszLWR6VnNuRFV2RXlrN0ZyN3dFd1VQS1pZMTFhOWtXNW80cWRjRnpNQmZ3T2tTak45Szc0YjR6TjdTejRnMXExbVNqTURWTjhmOU0xU1k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 802
+    },
+    {
+      "date": "May 27",
+      "text": "Iran says it targeted American base after fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 801
+      "latestSinceUpdate": 802
     },
     {
-      "date": "May 28",
-      "text": "Israel intensifies attacks on southern Lebanon, killing at least 16 people and issuing evacuation orders.",
+      "date": "May 27",
+      "text": "US, Iran have launched multiple attacks during ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQMkdya1ZjdzZXaThIWW90eTQ2dS1xMW5zSnhpcV9KU1laQWFMTHNlSGE4Wi1VZUJyY0k4NWJaUFRVdEFmb0J2ZnZ2eGtrWGV5aC1xVzgtLTZ1MktDckJQZHRjaTJnbHAzcjRBRUJ3TEl5NVI4eGZpSTZXYS1wR1ZRSVlMSDR1bnV6aWxwSnptMl9HdEVBS1NHa0p3UERsdklNVkh5cFFpbF81cHhNUjRfZF9nU1PSAboBQVVfeXFMUENUWmdtb0VheHg0ajQxZ0hoLVUwYUFNZUhpVl9WOEdqTlE5dzN5LXdPR0xRY3lIUFp0eTlOR2psMmFrVm1ER3hEV2hNdHpyRE8wTlozNnIyaHJ5VjAxOVBMdmVpM3dLSXJRTmlJV1JrWURuZHprRG5CNVp4V2JzanhJVVFuZTBuTF9tUHUyUzBpbzRjb2lTTWdCbkFwZGc1TlZOOTlad2VIejU2M1BtV3R3Vy1zdWV4N0xB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPaGIyeG44MU9TeDdIT3RFdVZoSklaZDFwOXpqQUlNU0FvRDBEVk1iMkR0LVhrV0R0SmwwdEJPV1ZteTZsajNEYkNBb09BN2piaGxYeU00Zm5JLTE5b1BlX0VrRUJjRnNtTmZvS3NXczhfMDNESzlXS015Qkk0aDJjVlFWd3QxeXVFTDlIRkVKeHBMNUw0aWN1OTRySDdSYjhzcGNvdHBZU08zMDjSAbABQVVfeXFMTlpnWkFOaV9aRGJieW5mV0YwNlNUVVlKVGhuQUVwQWsyRVBKamdra2N3cUlScGtnTjJldGZvaFlhZ0JSQzV0cDBJYjFSdE14bG4zNVUzMzJHVFR3bUhOLWJ2Zk02djI1UjdtaHZ5cmZmU0Q0RFFzRFlVcVdxN2tHT1Zvc3gtb20xMnluV2trcmQzcWVxLVM1bk9zb00xejJCWS1DM1hHeDloMEVjZnJIOGM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 801
+      "latestSinceUpdate": 802
     },
     {
-      "date": "May 28",
-      "text": "Israeli forces cross Lebanon’s Litani River amid ongoing conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 801
-    },
-    {
-      "date": "May 28",
-      "text": "U.S. Navy is guiding ships through the Strait of Hormuz amidst regional tensions.",
-      "severity": "info",
+      "date": "May 27",
+      "text": "Israel hits Lebanese capital Beirut in 'targeted strike' and steps up Lebanon offensive.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 801
-    },
-    {
-      "date": "May 28",
-      "text": "Trump threatens to 'blow up' US ally Oman if it does not 'behave' over the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOZ3RuU0NjajUzWEFlZFk0OEtoOHYtWUl0MDZJZWxVem9NOVJ2amh6cTZfMDdUY0hyb0tKaW1SZlNTNjk2cUdCVmREX0VHenNvSm44SmVYQ3ozRnBqbDJxUGlYaURYN1NkTUFmVkVHQzF2ZmowU3hZOENYWjZnWkxTWjdiX1B2cVpsLUJ6akZDUGVQempWNDhZUmpKVmg4dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 801
+      "latestSinceUpdate": 802
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

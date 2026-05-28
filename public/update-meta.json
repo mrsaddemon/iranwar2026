@@ -1,13 +1,13 @@
 {
-  "updateSequence": 801,
+  "updateSequence": 802,
   "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T12:00:57.856Z",
+  "lastSyncedAt": "2026-05-28T16:20:26.416Z",
   "warDay": 90,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A fragile ceasefire is in effect between the US and Iran, but it is being repeatedly tested and violated by fresh strikes from both sides."
+    "summary": "A previously established ceasefire between the US and Iran has collapsed amidst renewed direct military exchanges and accusations of violations."
   }
 }
