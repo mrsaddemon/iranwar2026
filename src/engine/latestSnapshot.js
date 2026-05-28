@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 804,
+  "updateSequence": 805,
   "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T21:00:37.657Z",
+  "lastSyncedAt": "2026-05-28T22:43:24.881Z",
   "warDay": 90,
-  "summary": "US and Iran continue to exchange strikes despite a tentative 60-day truce agreement pending Trump's approval, while Israel intensifies attacks on southern Lebanon.",
+  "summary": "The US and Iran continue to exchange strikes amidst tentative negotiations for a 60-day truce, while Israel intensifies attacks on southern Lebanon, prompting civilian displacement.",
   "lastNarrativeUpdate": "2026-05-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A tentative 60-day truce MoU has been reached between the US and Iran, but its approval by Trump and Mojtaba Khamenei is pending amidst continued strikes."
+    "summary": "A tentative 60-day truce agreement has been reached between the US and Iran, but it is pending Trump's approval and ongoing strikes indicate its fragility."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.75
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 28",
-      "text": "Prospects for an imminent end to the Iran war fade as attacks restart.",
+      "text": "Prospects fade for an imminent end to the Iran war as attacks restart.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 804
+      "latestSinceUpdate": 805
     },
     {
       "date": "May 28",
@@ -76,19 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 28",
-      "text": "U.S. conducts new strikes in Iran against a military site and drones.",
+      "text": "U.S. again conducts strikes in Iran, targeting a military site and drones.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSTRRSVJycmxrcVZhN2F2OF8zR2JIWW1Ua0F4V1dIV2NIYUxEMGZSRElNYzBVVlRGazQtX1NuZGNmTzZBYWx3cWlCdVg3Q0xPQkVUZHhTM21ReXdrWHNKMDhzVHRiUkJ5N0tSM1BuNl9NbmhCMUFVRFd1N0dYelB2RkpBYmRTZDVQOExXU1JtdlVsaEw1bGR6aHJUR3lFLVN3dl9ERnVnNlF2b2lLdjhkX1dHLUJNZy1HT1dIdVNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 804
-    },
-    {
-      "date": "May 28",
-      "text": "Israeli sources claim no indication Mojtaba Khamenei has approved terms of MoU with US.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiYEFVX3lxTE9nQmVKRWFOWVFtMkIwNHRuOVJHNGJXWnUzS0xxdHdpWmFjNVk1dU1ueUpoZDAxa2gxNXh3X3p3OXNyY0l6VS02UlhEcWF3RUROcldLQkVBamVuemZsdllkddIBZkFVX3lxTE4wcUNOdTlGRElmTWMzdk5wcjJQMmlwbW93RVZqdHBoVG5ZQ0V2Sm0yNkpkUG1WR2ZmamF4cVdOQjlhVjFNQm05cjRaeTBnOEl5eVN3TnV2d1VpSkdYUWY1Ulk3SEM0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 804
+      "latestSinceUpdate": 805
     },
     {
       "date": "May 28",
@@ -100,17 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 28",
-      "text": "Israel intensifies attacks on southern Lebanon, killing at least 16 people and telling residents to leave.",
+      "text": "Israel intensifies attacks on southern Lebanon, killing at least 16 people.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQMkdya1ZjdzZXaThIWW90eTQ2dS1xMW5zSnhpcV9KU1laQWFMTHNlSGE4Wi1VZUJyY0k4NWJaUFRVdEFmb0J2ZnZ2eGtrWGV5aC1xVzgtLTZ1MktDckJQZHRjaTJnbHAzcjRBRUJ3TEl5NVI4eGZpSTZXYS1wR1ZRSVlMSDR1bnV6aWxwSnptMl9HdEVBS1NHa0p3UERsdklNVkh5cFFpbF81cHhNUjRfZF9nU1PSAboBQVVfeXFMUENUWmdtb0VheHg0ajQxZ0hoLVUwYUFNZUhpVl9WOEdqTlE5dzN5LXdPR0xRY3lIUFp0eTlOR2psMmFrVm1ER3hEV2hNdHpyRE8wTlozNnIyaHJ5VjAxOVBMdmVpM3dLSXJRTmlJV1JrWURuZHprRG5CNVp4V2JzanhJVVFuZTBuTF9tUHUyUzBpbzRjb2lTTWdCbkFwZGc1TlZOOTlad2VIejU2M1BtV3R3Vy1zdWV4N0xB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 804
+      "latestSinceUpdate": 805
+    },
+    {
+      "date": "May 28",
+      "text": "Israeli military tells residents of a swathe of southern Lebanon to leave.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNNTRZMWQ2TnEtYWo2Y1MwZW1xcjh6WGlNRTZteEVhTXlwZXpmd0FXWC03OVh3aHRmeVoxN1VNLTJKLWNhYUZVN3V1a0FPSVE1VmVQbjJkSi1wbTZyQWFkdlB4bUJWZE1hdjhKTHpSTlVSaFdfOTB2bnBiTUdpRzJQbjliWFpWY2w3VEdmWU5xTldJT2VDcXJ6QlAwWFc5N2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 805
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
