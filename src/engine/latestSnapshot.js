@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 799,
+  "updateSequence": 800,
   "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T04:44:11.601Z",
+  "lastSyncedAt": "2026-05-28T08:34:12.468Z",
   "warDay": 90,
-  "summary": "Direct exchanges of strikes between the US and Iran have resumed, while Israel has intensified operations in southern Lebanon, raising concerns over regional stability and maritime security in the Strait of Hormuz.",
+  "summary": "The conflict continues with direct US strikes on Iranian military sites, Iranian retaliation, and Israel expanding operations into southern Lebanon against Hezbollah.",
   "lastNarrativeUpdate": "2026-05-28",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No ceasefire is active as US and Iran exchange strikes and peace deal prospects fade."
+    "summary": "No ceasefire is currently active; direct military engagements are ongoing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 80,
+    "nuclearIndex": 35,
+    "escalationLevel": 85,
     "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 46
+    "tradeImpact": 69,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 26",
-      "text": "Prospects fade for imminent end to Iran war as attacks restart.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 799
-    },
-    {
-      "date": "May 27",
-      "text": "US military carries out new strikes in Iran, followed by Iranian retaliation claims.",
+      "text": "US conducts new strikes against Iranian military sites.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5TbG1TWkZSM3lmMFJmNzBPWnVWaVM4TS1LR1dUanZqZllqNkhfMmtFZWRDQ0kycjItR0plTU9uNG1lRm1ObG82WHBVMi1kUUQwbWpKRWFxM3Vuakc1T3NXel80RHFsY2JLSnlWckpJU3o?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 799
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQSzRGUk1INGZtNlZFWDhxRWRJQzN1eVIwQzFGc3N2TUo4aVhjNlZLVzV3Q0EwRGxhWHpxTy01RDcwS3JqREdnaGhVSldjSXo1NHlxMWZxdEJLRmxSWW80ZTM0YXlMRzlORDMzT3FWMVE2UnVpQUZoQTFjNmhKUU4wTWduRTRoODNUUFMtQlF1OW9OS09NbGFOd09vU3NqT1hZYWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 800
     },
     {
-      "date": "May 27",
-      "text": "Kuwait targeted by missiles and drones amidst regional escalation.",
-      "severity": "warning",
+      "date": "May 26",
+      "text": "Iran retaliates after US strikes, reportedly targeting an American base.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 799
+      "latestSinceUpdate": 800
     },
     {
-      "date": "May 27",
-      "text": "Israel intensifies attacks on southern Lebanon, issuing evacuation orders.",
+      "date": "May 26",
+      "text": "Kuwait is reportedly targeted by missiles and drones.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 799
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 800
     },
     {
       "date": "May 27",
-      "text": "Three oil and LNG tankers exit Strait of Hormuz with transponders off.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNWxXdlJKT0l4US1ZM2pFVHFrd2pZRVBCR0MzMURRMVBGY2E2NlpBSENsQWJodGdpRXFrYlN2eDB5ZlNVZ3dOWi1NUkctd3o4Y1cwazlYRFpvMmNIcnI0dDl5aHQxQUpPNFp3cExWaXdkYkRQcjkxQWF0V2U2c09ZMXRZMHJYSmV5V2NQYmxod0p3UUhwV2MxUjN5M1lfa0hKYzRHWGkzeThsczA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 799
+      "text": "Israel begins strikes on southern Lebanon following evacuation orders.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1kYzFJdldyZ01IUWdFLTNOU2lDNFkwTjIwbzRnN0xudjg4T3k2RzlkdW1KTy1mZUpMVUVTZWxTQ241N1REcGt3anhyNzQ1eWpFM0ppUlBIVHR0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 800
     },
     {
       "date": "May 27",
-      "text": "U.S. Navy is guiding ships through Strait of Hormuz amid heightened tensions.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 799
+      "text": "A soldier is killed in a Hezbollah drone attack as Israel widens strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOTHc1MlUxWnFvbGhpMDRydGVXYWdzZWtrRkFlaUkwc0lPU0pyUW5NM0ZsNjV3RC1NdnJtUzdYZFdleU81eXVwZlRrdzJtTUVicEFTdk1lZ2ttNTBwTmJ4anlpbzZnX1laa3lYUlhnd0xGQzBrYlpvNk0zYXR6cVpTaGxhVnVfb0xMU1dxOG5nNnVGak1UaVZ1aS1sd1lyZ3ZMTHZOXzU4MlU4QkhHdlhpMnNB0gG3AUFVX3lxTE5NeDZZX0hZeXdlckhDdjBiZ3RkdEt6dXZEUHZGNklmbjU4b0lvTldWaWY2U0tPYjkyeHFZdEM1NjBmMnM0VGdwSVVjS1Q2NERqamZ0YkxTUHdSRmhBMlIyWjlKS2RuaURCSWFramprTjFORXVTTFNBT1RNUWNBWEo0RTNta0U2QXdCMkl3VlZLX2NlYllLeWU2OTRUZUJzVzk0bDZMRHVyT19JU0tsdGtWYjRHUUJacw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 800
+    },
+    {
+      "date": "May 27",
+      "text": "IDF announces plans to invade deeper into Lebanon, operating beyond the Yellow Line to deter Hezbollah drones.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1yRDI1bG8tVDRPZklCTWpwVlN5SDFVV2s1cWZISjFvb0t6bmtMcDNRWkdqN3poUUlMaVRZLXpkZXdIdm1SSUlmTFZHRWI4SzJuXzUwc1h3U2dmOFlrVDYzUlZiWlJuTXdWVm1QbW1n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 800
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
