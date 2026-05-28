@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 797,
-  "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T23:00:45.437Z",
-  "warDay": 89,
-  "summary": "The US has renewed strikes against Iran following perceived threats, while peace talks continue amidst Iranian threats of retaliation and escalating conflict between Israel and Hezbollah in Lebanon.",
-  "lastNarrativeUpdate": "2026-05-27",
+  "updateSequence": 798,
+  "lastUpdated": "2026-05-28",
+  "lastSyncedAt": "2026-05-28T00:07:32.445Z",
+  "warDay": 90,
+  "summary": "The US has renewed strikes against Iranian military sites despite ongoing peace talks, while Israel continues operations against Hezbollah in southern Lebanon, straining regional ceasefire efforts.",
+  "lastNarrativeUpdate": "2026-05-28",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "No active ceasefire is reported amidst renewed military actions and strained peace talks."
+    "summary": "The Israel-Lebanon ceasefire is strained by ongoing IDF operations, and US strikes on Iran indicate a collapse of any broader de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 46
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
+      "date": "May 28",
+      "text": "US carries out new strikes against Iranian military sites.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQSzRGUk1INGZtNlZFWDhxRWRJQzN1eVIwQzFGc3N2TUo4aVhjNlZLVzV3Q0EwRGxhWHpxTy01RDcwS3JqREdnaGhVSldjSXo1NHlxMWZxdEJLRmxSWW80ZTM0YXlMRzlORDMzT3FWMVE2UnVpQUZoQTFjNmhKUU4wTWduRTRoODNUUFMtQlF1OW9OS09NbGFOd09vU3NqT1hZYWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 798
+    },
+    {
       "date": "May 26",
-      "text": "U.S. officials reported seeing threats from Iran before renewing strikes.",
+      "text": "Iran's IRGC threatens retaliation after US strikes on launch sites and boats.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 798
+    },
+    {
+      "date": "May 28",
+      "text": "Israel issues evacuation orders and moves deeper into southern Lebanon against Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1kYzFJdldyZ01IUWdFLTNOU2lDNFkwTjIwbzRnN0xudjg4T3k2RzlkdW1KTy1mZUpMVUVTZWxTQ241N1REcGt3anhyNzQ1eWpFM0ppUlBIVHR0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 798
+    },
+    {
+      "date": "May 28",
+      "text": "US-Iran peace talks are strained amidst renewed US military action.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 798
+    },
+    {
+      "date": "May 28",
+      "text": "US Navy is guiding ships through the Strait of Hormuz amid regional tensions.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 797
-    },
-    {
-      "date": "May 26",
-      "text": "US launched new strikes on Iran, targeting missile sites and boats.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 797
-    },
-    {
-      "date": "May 26",
-      "text": "Iran’s IRGC threatened to retaliate after US strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFAyUmx3c2o0WXpFWHl5T21FYnNhVzZmUXZ5WEp5cnpPc0lVQjVaUlhZYnI0eHFHbmQtaFdxSlVwZDFpbUVFZC0tdTNjdGJUbk03TF93aU9MMVM0MG1SZjdTOEhVR2JHbmxfOHEwZmRLSGlZZEQ0ekFuVnVKY19iQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 797
-    },
-    {
-      "date": "May 26",
-      "text": "Israel moved deeper into Lebanon, while Iran peace talks were strained.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 797
-    },
-    {
-      "date": "May 26",
-      "text": "A soldier was killed in south Lebanon by a Hezbollah drone, with another seriously wounded.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRVVDc05SZ1VYcjMxb3BjQzdWdVdTTEk2c3ctSm5nb1hJNnNHVlFKMFp1RjNNd2swTU93azBWQnZENENEX2RxYXljeGdQMkhLM1g4NnZzVzlJRmtlWGExSUxNSU5xRW8zUXJkZXN6WlhTRjl3cEZvNUNhOUVKY0dWX3ZTQ0dCaHNZQU1NZEhCMG4xM1dSS3dZLTVWSkUtanJKWEhzc2hwbW1fX3fSAbABQVVfeXFMTi1Ma09FTUlxUUs3RDYwVmlFRWItM3hKQzdxS3lIdUU1OUNRRkxoeHRVeGxWeUVLS2lTLUhULWZrREt0Z1JDUWFrVnFDZ3BNQ2VWNWN2SjFUcWRhQV9nSW11LTJINE5heHRWbHZCd2Z0UlFLdU1EeE4xRHFuOHFiam1Jbkdlcm84VjZFVEQweDFvRzFTbFFLWk1DV2lVYjB2OVpEX0NPcGNoaEtmbko0NEI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 797
-    },
-    {
-      "date": "May 26",
-      "text": "Multiple Hezbollah explosive drones impacted in northern Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5YWUZHZ3J3UFVkcEpRVkJVTVQ0VkZJNi1fYTI3a0FhWWhic3Y4T3JjeHhmTi1jZVFuY0cwRVJraHFUTmU1N2hpVWtVbzhnN21iM0VmemdyWFJUV182dHJsVzBic3BacXRSZlpHRVBn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 797
+      "latestSinceUpdate": 798
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +131,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "US and Israel Act in Self-Defense Amid Escalating Regional Threats",
-      "summary": "The United States asserts its recent strikes on Iran were in self-defense, targeting missile sites and boats. Concurrently, Israel is intensifying its offensive against Hezbollah in Lebanon, with officials stating a need to combat drone threats and secure its borders.",
-      "tone": "defiant",
-      "latestSinceUpdate": 790
+      "perspective": "US Policy",
+      "headline": "US Balances Strikes with Diplomacy Amidst Iranian Threats",
+      "summary": "The US continues to conduct military strikes against Iranian targets, citing threats, even as peace talks are underway. Officials report some progress on a potential deal, but the military actions suggest a strategy of pressure.",
+      "tone": "strained",
+      "latestSinceUpdate": 798
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Condemns US Aggression, Vows Retaliation for Ceasefire Violation",
-      "summary": "Iran accuses the US of a 'gross violation' of a ceasefire through renewed strikes and warns of retaliation. Tehran reiterates its resolute support for Hezbollah, viewing Israeli actions in Lebanon as an extension of regional aggression.",
+      "perspective": "Iranian Response",
+      "headline": "Iran Threatens Retaliation, Maintains Suspicion of US Intentions",
+      "summary": "Iran's IRGC has threatened retaliation following US strikes, with forces reportedly 'lying in wait.' Tehran expresses 'resolute support' for Hezbollah and harbors 'deep suspicion' of US motives despite considering a peace agreement.",
       "tone": "defiant",
-      "latestSinceUpdate": 790
+      "latestSinceUpdate": 798
     },
     {
-      "perspective": "Global Markets",
-      "headline": "Strait of Hormuz Closure Threatens Global Oil Supply, Driving Prices Higher",
-      "summary": "Analysts are warning that the Strait of Hormuz could remain closed for months due to the escalating conflict, potentially driving oil prices to new highs. Despite US Navy efforts to guide ships, the ongoing hostilities pose a significant risk to global energy stability.",
+      "perspective": "Israeli Actions",
+      "headline": "Israel Expands Operations in Lebanon, Straining Ceasefire",
+      "summary": "Israel is moving deeper into southern Lebanon, issuing evacuation orders and targeting Hezbollah cells. These actions are straining the existing ceasefire and are perceived by some as an attempt to influence broader regional dynamics.",
+      "tone": "strained",
+      "latestSinceUpdate": 798
+    },
+    {
+      "perspective": "Economic & Global Impact",
+      "headline": "Conflict Drains US Budgets, Maintains Oil Price Pressure",
+      "summary": "Ongoing war spending is reportedly straining US military budgets, leading to cancelled trainings and delayed maintenance. The conflict's continuation, particularly around the Strait of Hormuz, contributes to sustained high oil prices.",
       "tone": "anxious",
-      "latestSinceUpdate": 790
+      "latestSinceUpdate": 798
     }
   ]
 });

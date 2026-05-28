@@ -1,13 +1,13 @@
 {
-  "updateSequence": 797,
-  "lastUpdated": "2026-05-27",
-  "lastSyncedAt": "2026-05-27T23:00:45.437Z",
-  "warDay": 89,
+  "updateSequence": 798,
+  "lastUpdated": "2026-05-28",
+  "lastSyncedAt": "2026-05-28T00:07:32.445Z",
+  "warDay": 90,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "No active ceasefire is reported amidst renewed military actions and strained peace talks."
+    "summary": "The Israel-Lebanon ceasefire is strained by ongoing IDF operations, and US strikes on Iran indicate a collapse of any broader de-escalation."
   }
 }
