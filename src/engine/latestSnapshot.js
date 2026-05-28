@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 798,
+  "updateSequence": 799,
   "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T00:07:32.445Z",
+  "lastSyncedAt": "2026-05-28T04:44:11.601Z",
   "warDay": 90,
-  "summary": "The US has renewed strikes against Iranian military sites despite ongoing peace talks, while Israel continues operations against Hezbollah in southern Lebanon, straining regional ceasefire efforts.",
+  "summary": "Direct exchanges of strikes between the US and Iran have resumed, while Israel has intensified operations in southern Lebanon, raising concerns over regional stability and maritime security in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-28",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 15,
-    "summary": "The Israel-Lebanon ceasefire is strained by ongoing IDF operations, and US strikes on Iran indicate a collapse of any broader de-escalation."
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
+    "durationDays": 3,
+    "summary": "No ceasefire is active as US and Iran exchange strikes and peace deal prospects fade."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 48,
+    "nuclearIndex": 30,
+    "escalationLevel": 80,
     "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 28",
-      "text": "US carries out new strikes against Iranian military sites.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQSzRGUk1INGZtNlZFWDhxRWRJQzN1eVIwQzFGc3N2TUo4aVhjNlZLVzV3Q0EwRGxhWHpxTy01RDcwS3JqREdnaGhVSldjSXo1NHlxMWZxdEJLRmxSWW80ZTM0YXlMRzlORDMzT3FWMVE2UnVpQUZoQTFjNmhKUU4wTWduRTRoODNUUFMtQlF1OW9OS09NbGFOd09vU3NqT1hZYWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 798
-    },
-    {
       "date": "May 26",
-      "text": "Iran's IRGC threatens retaliation after US strikes on launch sites and boats.",
+      "text": "Prospects fade for imminent end to Iran war as attacks restart.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 798
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 799
     },
     {
-      "date": "May 28",
-      "text": "Israel issues evacuation orders and moves deeper into southern Lebanon against Hezbollah.",
+      "date": "May 27",
+      "text": "US military carries out new strikes in Iran, followed by Iranian retaliation claims.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1kYzFJdldyZ01IUWdFLTNOU2lDNFkwTjIwbzRnN0xudjg4T3k2RzlkdW1KTy1mZUpMVUVTZWxTQ241N1REcGt3anhyNzQ1eWpFM0ppUlBIVHR0QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 798
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5TbG1TWkZSM3lmMFJmNzBPWnVWaVM4TS1LR1dUanZqZllqNkhfMmtFZWRDQ0kycjItR0plTU9uNG1lRm1ObG82WHBVMi1kUUQwbWpKRWFxM3Vuakc1T3NXel80RHFsY2JLSnlWckpJU3o?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 799
     },
     {
-      "date": "May 28",
-      "text": "US-Iran peace talks are strained amidst renewed US military action.",
+      "date": "May 27",
+      "text": "Kuwait targeted by missiles and drones amidst regional escalation.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 798
+      "latestSinceUpdate": 799
     },
     {
-      "date": "May 28",
-      "text": "US Navy is guiding ships through the Strait of Hormuz amid regional tensions.",
+      "date": "May 27",
+      "text": "Israel intensifies attacks on southern Lebanon, issuing evacuation orders.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 799
+    },
+    {
+      "date": "May 27",
+      "text": "Three oil and LNG tankers exit Strait of Hormuz with transponders off.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNWxXdlJKT0l4US1ZM2pFVHFrd2pZRVBCR0MzMURRMVBGY2E2NlpBSENsQWJodGdpRXFrYlN2eDB5ZlNVZ3dOWi1NUkctd3o4Y1cwazlYRFpvMmNIcnI0dDl5aHQxQUpPNFp3cExWaXdkYkRQcjkxQWF0V2U2c09ZMXRZMHJYSmV5V2NQYmxod0p3UUhwV2MxUjN5M1lfa0hKYzRHWGkzeThsczA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 799
+    },
+    {
+      "date": "May 27",
+      "text": "U.S. Navy is guiding ships through Strait of Hormuz amid heightened tensions.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 798
+      "latestSinceUpdate": 799
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
