@@ -1,13 +1,13 @@
 {
-  "updateSequence": 802,
+  "updateSequence": 803,
   "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T16:20:26.416Z",
+  "lastSyncedAt": "2026-05-28T18:44:58.064Z",
   "warDay": 90,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 5,
-    "summary": "A previously established ceasefire between the US and Iran has collapsed amidst renewed direct military exchanges and accusations of violations."
+    "confidence": 0.98,
+    "durationDays": 60,
+    "summary": "A tentative 60-day truce between the US and Iran has been reached, but its implementation is pending former President Trump's approval amidst ongoing reciprocal strikes."
   }
 }
