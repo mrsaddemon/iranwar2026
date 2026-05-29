@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 812,
+  "updateSequence": 813,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T20:36:26.356Z",
+  "lastSyncedAt": "2026-05-29T22:15:19.167Z",
   "warDay": 91,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US and Iran are engaged in ongoing negotiations for a ceasefire and the reopening of the Strait of Hormuz, despite continued exchanges of strikes, while Israel intensifies its military actions in southern Lebanon and holds talks with Lebanon.",
   "lastNarrativeUpdate": "2026-05-29",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Negotiations for a 60-day truce and ceasefire extension are ongoing between the US and Iran, but active strikes continue from both sides."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.68,
-        "aggression": 0.78
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 29",
-      "text": "Iran War Live Updates: Trump Puts Off ‘Final Determination’ on Iran Proposal",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFB4amRjY21ZdVRYa29sT1IwbS1fX2VZMjFCenhMNmRqc1BMUDcyVXZKV3JGOWpBYnFlYlJ2XzhjVXhNVThSUU5FX0dIbEc5RVBJQjcxVTkwYU9pS1dBX0t5NDhOcTFtTEk1LTZEaHgxLXdWMTU2Q3dJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 812
+      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 813
     },
     {
       "date": "May 29",
-      "text": "Iran promises ‘utter ruin’ if war restarts. Here’s what could happen if diplomacy fails",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOTVhnUnlzdGZkbDRWR3IyUDY2R3hqUkxpSHdGSlB2X21jdzNUdW9YNV9MbWxjMmtwWG9sejlkbGJFZGxybUI1a3lvT2N0Ul9ScGt2eDZob21RM3VnbE1hd2VORnVJdVdqdjlKekZMaE1wUnVXMC1ocUdIaDZXOUdObF9HVng?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 812
-    },
-    {
-      "date": "May 29",
-      "text": "Iran war live: Tehran says ceasefire deal with US still not reached",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 812
-    },
-    {
-      "date": "May 29",
-      "text": "Iran Update Special Report, May 26, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNN2tDNmtSNm56MWdXU0FwNFlTWkFsRFNWUENiQ0NvRDdkaFhpWkZ2LWFIcHlQWm1ET2t0bmV3c1NVMGR5c1JpaTNFSUxoZmhSMVl2aDZlcjVKaHlMMlktTUFjUEptajRiT3Y4eWl5ZjNPWjgtN0ZJd1lsdmQwODJoWjlYS2VpT1hUcGp3bHlsVjROU3llWmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 812
+      "text": "US military launches another strike on Iran as potential deal stalls",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZm96OTJkNENIbjhibTlaT0lpOVlhdXBVdWpYd0h0cXdxa2ZHVXMyWUV3RWswLTZsZ25MZUFwRm14NUJkbVNKLVZ2OS1tOFZkd2RyTnliZWxFT3ZKcE1JUTYwa1h1dXE2TldTT0d5RldSN2Y1TUk2RjRQSXpkSXFUY3FCYUllbHBNU21PSURzQ29aSlRwXzB6UnpudEJ0VnFEbzVjVFlNcTNFOTdGRnltbkhhd01mMTg3MmFCNnA2RFBjc3BW?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 813
     },
     {
       "date": "May 29",
       "text": "Iran says it targeted American base after fresh US strikes",
-      "severity": "info",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 812
     },
     {
       "date": "May 29",
-      "text": "Iran war updates: US, Iran reach MoU on 60-day truce, Trump yet to approve",
+      "text": "Israeli troops push deeper into Lebanon as the two sides start military talks at the Pentagon",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi6wFBVV95cUxPYktwTERPQUx5Yk9XZllSX1QxckpTakQ4cXRqSTZ2a3Y0OXdRZHNna1hKcGJwVVBvQlRDQkV0VU9hUFlUZ3I1bFpMRnlRZTltRjkySmZCS2hJR2xQRXVPN09SSG84WWp0dndZWURaUHRWRk1FU250YTItRjFSVEswQWdZcWltOXROX3diVXczcE9CbVpXX0I3WDc5Q2NaemZMakI3Wm4wOHZWem0xeXZXWnlhdkdtUGtKMHJRWERDZ1FzR1NZUTFXaHJWZ05LbDFpb2pWN0h0TjdtQmZNMzFKWElXaUxiZGl5bXVF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 813
+    },
+    {
+      "date": "May 29",
+      "text": "U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 812
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1fcnhwNnhKV0lpWUV1WGdIUkltT1RpQXBKTnk5T05IRmpBcXZoc1dxcjkxVWNmWnVHVGk2LWlVYWMzTmRUS0tydERZRlRtdjFWbGJTa1ktMXcwRTU1MDdRMXFDVzAzb0VHLVhfMXd4STVvRDMyeGRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 813
+    },
+    {
+      "date": "May 29",
+      "text": "US and Iranian negotiators reach tentative deal to extend ceasefire and start new nuclear talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQZkpNTFpBTDhFTFczZnNxSVpaSDRnYnZiX2pKSmFIWTFJZVh0ZG5Ka2o1SmxjVHl0MzVoTEVIZUMySGRmYWdPbGcyNVEwRWJCdGdHQTNIbXNadWJCMV9IeVB3TVh2S21NUEZoXzhTNWxjdTdmSFdTSUFwQ2w4UWQ4aVBqMHdwQ24yQ0xIS05rNUc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 813
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
