@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 808,
+  "updateSequence": 809,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T08:26:34.726Z",
+  "lastSyncedAt": "2026-05-29T11:50:45.584Z",
   "warDay": 91,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "US and Iran are engaged in tentative truce negotiations, with a potential 60-day deal awaiting Trump's approval, even as both sides continue to exchange strikes and Israel escalates attacks on Hezbollah.",
   "lastNarrativeUpdate": "2026-05-29",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A tentative 60-day truce agreement between the US and Iran is awaiting President Trump's approval, with ongoing strikes complicating its implementation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.65
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -43,12 +43,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 51
+    "escalationLevel": 48,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
+    "sanctionsPressure": 54,
+    "globalPressure": 57,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 29",
-      "text": "Iran war live: Tehran, Trump yet to comment on 60-day truce extension plan",
+      "date": "May 28",
+      "text": "US and Iran reach tentative agreement on a 60-day truce, pending President Trump's approval.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 808
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 809
     },
     {
-      "date": "May 29",
-      "text": "Iran War Updates: U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz",
+      "date": "May 28",
+      "text": "Oil price drops 20% from its 2026 peak on optimism over US-Iran ceasefire talks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1fcnhwNnhKV0lpWUV1WGdIUkltT1RpQXBKTnk5T05IRmpBcXZoc1dxcjkxVWNmWnVHVGk2LWlVYWMzTmRUS0tydERZRlRtdjFWbGJTa1ktMXcwRTU1MDdRMXFDVzAzb0VHLVhfMXd4STVvRDMyeGRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 807
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNV05jSjE0MGtuY1dIUUhSekpqZW5tR2dYN3ZqQXMzVkxfS1FvZ1pab3ZKNzVqTF9NT1ZRRVlpd1ZLcU5rZ214ZlNEa1g4Z08tN3BXNUJYUEVNaUhaZkpWVDN1a3BkSm5zQzBhQlByaU9oQ3BvNVptOVlGMjhybXkxQW8xU0hBZndGbWkzbmdTbG9IZUdhSDJzX3JtbngtTzDSAaQBQVVfeXFMUHBjTTlGS0x0amN2WFpyZ2V2MmJtWGN6TmlPenViX1JpMUtkU1B6UUxTQjYyQm1XbG9zNEhLZXA5ODFEeXhlNEVHZEVQYUFvSmtmSk9jN3VuOEJYbXhvT3pJYlBKVWdxR24wejBKQjQzLVdFeEpYbC1OZDExbW80OWN1eFAwcWpoZi1wWmtXRHI5d3NoWkxtTkllYTBjU2IwOFZjSnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 809
     },
     {
-      "date": "May 29",
-      "text": "Iran Update Special Report, May 26, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNN2tDNmtSNm56MWdXU0FwNFlTWkFsRFNWUENiQ0NvRDdkaFhpWkZ2LWFIcHlQWm1ET2t0bmV3c1NVMGR5c1JpaTNFSUxoZmhSMVl2aDZlcjVKaHlMMlktTUFjUEptajRiT3Y4eWl5ZjNPWjgtN0ZJd1lsdmQwODJoWjlYS2VpT1hUcGp3bHlsVjROU3llWmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 807
+      "date": "May 28",
+      "text": "US and Iran exchange new strikes despite ongoing deal discussions.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 809
     },
     {
-      "date": "May 29",
-      "text": "Prospects fade for imminent end to Iran war as attacks restart",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 808
+      "date": "May 28",
+      "text": "Israel strikes Beirut and southern Lebanon, widening attacks on Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 809
     },
     {
-      "date": "May 29",
-      "text": "Iran says it targeted American base after fresh US strikes",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 807
-    },
-    {
-      "date": "May 29",
-      "text": "Iran war updates: US, Iran reach MoU on 60-day truce, Trump yet to approve",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 807
+      "date": "May 28",
+      "text": "A soldier is killed in a Hezbollah drone attack against Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOTHc1MlUxWnFvbGhpMDRydGVXYWdzZWtrRkFlaUkwc0lPU0pyUW5NM0ZsNjV3RC1NdnJtUzdYZFdleU81eXVwZlRrdzJtTUVicEFTdk1lZ2ttNTBwTmJ4anlpbzZnX1laa3lYUlhnd0xGQzBrYlpvNk0zYXR6cVpTaGxhVnVfb0xMU1dxOG5nNnVGak1UaVZ1aS1sd1lyZ3ZMTHZOXzU4MlU4QkhHdlhpMnNB0gG3AUFVX3lxTE5NeDZZX0hZeXdlckhDdjBiZ3RkdEt6dXZEUHZGNklmbjU4b0lvTldWaWY2U0tPYjkyeHFZdEM1NjBmMnM0VGdwSVVjS1Q2NERqamZ0YkxTUHdSRmhBMlIyWjlKS2RuaURCSWFramprTjFORXVTTFNBT1RNUWNBWEo0RTNta0U2QXdCMkl3VlZLX2NlYllLeWU2OTRUZUJzVzk0bDZMRHVyT19JU0tsdGtWYjRHUUJacw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 809
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
