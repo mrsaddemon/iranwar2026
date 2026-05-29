@@ -1,13 +1,13 @@
 {
-  "updateSequence": 809,
+  "updateSequence": 810,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T11:50:45.584Z",
+  "lastSyncedAt": "2026-05-29T14:29:08.690Z",
   "warDay": 91,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A tentative 60-day truce agreement between the US and Iran is awaiting President Trump's approval, with ongoing strikes complicating its implementation."
+    "summary": "A tentative 60-day truce MoU has been reached between the US and Iran, but its activation is pending US presidential approval and ongoing military actions continue."
   }
 }

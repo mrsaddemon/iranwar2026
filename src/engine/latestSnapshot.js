@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 809,
+  "updateSequence": 810,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T11:50:45.584Z",
+  "lastSyncedAt": "2026-05-29T14:29:08.690Z",
   "warDay": 91,
-  "summary": "US and Iran are engaged in tentative truce negotiations, with a potential 60-day deal awaiting Trump's approval, even as both sides continue to exchange strikes and Israel escalates attacks on Hezbollah.",
+  "summary": "US and Iran are engaged in ongoing military exchanges while simultaneously negotiating a tentative 60-day truce and an arrangement to reopen the Strait of Hormuz, with US presidential approval pending, amidst escalating conflict between Israel and Hezbollah in southern Lebanon.",
   "lastNarrativeUpdate": "2026-05-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A tentative 60-day truce agreement between the US and Iran is awaiting President Trump's approval, with ongoing strikes complicating its implementation."
+    "summary": "A tentative 60-day truce MoU has been reached between the US and Iran, but its activation is pending US presidential approval and ongoing military actions continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -24,16 +24,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 40,
-    "tradeImpact": 29,
+    "oilDisruption": 60,
+    "tradeImpact": 44,
     "sanctionsPressure": 54,
-    "globalPressure": 57,
-    "allianceInfluence": 46
+    "globalPressure": 61,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 28",
-      "text": "US and Iran reach tentative agreement on a 60-day truce, pending President Trump's approval.",
+      "text": "US and Iran officials report being close to an arrangement to reopen the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 809
+      "latestSinceUpdate": 810
     },
     {
       "date": "May 28",
-      "text": "Oil price drops 20% from its 2026 peak on optimism over US-Iran ceasefire talks.",
+      "text": "US and Iran reach a tentative MoU for a 60-day truce, pending Trump's approval.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNV05jSjE0MGtuY1dIUUhSekpqZW5tR2dYN3ZqQXMzVkxfS1FvZ1pab3ZKNzVqTF9NT1ZRRVlpd1ZLcU5rZ214ZlNEa1g4Z08tN3BXNUJYUEVNaUhaZkpWVDN1a3BkSm5zQzBhQlByaU9oQ3BvNVptOVlGMjhybXkxQW8xU0hBZndGbWkzbmdTbG9IZUdhSDJzX3JtbngtTzDSAaQBQVVfeXFMUHBjTTlGS0x0amN2WFpyZ2V2MmJtWGN6TmlPenViX1JpMUtkU1B6UUxTQjYyQm1XbG9zNEhLZXA5ODFEeXhlNEVHZEVQYUFvSmtmSk9jN3VuOEJYbXhvT3pJYlBKVWdxR24wejBKQjQzLVdFeEpYbC1OZDExbW80OWN1eFAwcWpoZi1wWmtXRHI5d3NoWkxtTkllYTBjU2IwOFZjSnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 809
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 810
     },
     {
       "date": "May 28",
-      "text": "US and Iran exchange new strikes despite ongoing deal discussions.",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 810
+    },
+    {
+      "date": "May 28",
+      "text": "US and Iran exchange strikes amidst ongoing negotiations.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 809
+      "latestSinceUpdate": 810
     },
     {
       "date": "May 28",
-      "text": "Israel strikes Beirut and southern Lebanon, widening attacks on Hezbollah.",
+      "text": "Israel intensifies attacks on southern Lebanon, with Hezbollah using fibre-optic drones.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 809
+      "latestSinceUpdate": 810
     },
     {
       "date": "May 28",
-      "text": "A soldier is killed in a Hezbollah drone attack against Israel.",
+      "text": "Israeli military advises residents of southern Lebanon to evacuate.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOTHc1MlUxWnFvbGhpMDRydGVXYWdzZWtrRkFlaUkwc0lPU0pyUW5NM0ZsNjV3RC1NdnJtUzdYZFdleU81eXVwZlRrdzJtTUVicEFTdk1lZ2ttNTBwTmJ4anlpbzZnX1laa3lYUlhnd0xGQzBrYlpvNk0zYXR6cVpTaGxhVnVfb0xMU1dxOG5nNnVGak1UaVZ1aS1sd1lyZ3ZMTHZOXzU4MlU4QkhHdlhpMnNB0gG3AUFVX3lxTE5NeDZZX0hZeXdlckhDdjBiZ3RkdEt6dXZEUHZGNklmbjU4b0lvTldWaWY2U0tPYjkyeHFZdEM1NjBmMnM0VGdwSVVjS1Q2NERqamZ0YkxTUHdSRmhBMlIyWjlKS2RuaURCSWFramprTjFORXVTTFNBT1RNUWNBWEo0RTNta0U2QXdCMkl3VlZLX2NlYllLeWU2OTRUZUJzVzk0bDZMRHVyT19JU0tsdGtWYjRHUUJacw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 809
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNNTRZMWQ2TnEtYWo2Y1MwZW1xcjh6WGlNRTZteEVhTXlwZXpmd0FXWC03OVh3aHRmeVoxN1VNLTJKLWNhYUZVN3V1a0FPSVE1VmVQbjJkSi1wbTZyQWFkdlB4bUJWZE1hdjhKTHpSTlVSaFdfOTB2bnBiTUdpRzJQbjliWFpWY2w3VEdmWU5xTldJT2VDcXJ6QlAwWFc5N2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 810
     }
   ],
   "sourceStatuses": [
