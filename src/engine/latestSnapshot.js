@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 806,
-  "lastUpdated": "2026-05-28",
-  "lastSyncedAt": "2026-05-28T23:56:35.450Z",
-  "warDay": 90,
-  "summary": "US and Iranian forces have exchanged strikes amidst ongoing negotiations for a 60-day ceasefire, while Israel intensifies its attacks against Hezbollah in Lebanon.",
-  "lastNarrativeUpdate": "2026-05-28",
+  "updateSequence": 807,
+  "lastUpdated": "2026-05-29",
+  "lastSyncedAt": "2026-05-29T04:26:28.217Z",
+  "warDay": 91,
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "lastNarrativeUpdate": "2026-05-29",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A tentative agreement for a 60-day ceasefire has been reached between the US and Iran, but it remains pending President Trump's approval amidst ongoing hostilities."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 28",
-      "text": "Prospects fade for an imminent end to the Iran war as attacks restart.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1oNVZ3cG9SZTZkdWRhX0liS3BTYU41VFJuRTQyOUNxV3laM1o5LVhxWDRIWWd2RGo3M0d0Vlk0cGhTV1VlWWhBNmloTXBJWUNYTmxTN3ZISUVqRnZZeWxNYTdRVWpGVFB2eXV1czEwenVZbjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 805
+      "date": "May 29",
+      "text": "Iran, US reach deal to extend ceasefire, pending Trump's approval",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQMDAxUGdSUGJhV19NajdXRE5yZGtxMFRVYnpEb1I3ZEMwZlZsUnBvdlJyb3RlbG4tX0dLMXFEN25ZeER4N3pOblRJYjJGS3NyR1JEZFNlR3VsN1gxd3MxMnhTVHU5VVVadWxCV1VBcFNiRHAtczFfX3FIMW9GZEJRTHFWMzIya1ZQa0ZSMUVQQXhLWVJVSUMzTVNFOGVBNUxKMEhvQW92eWZwaW8zMFpPbDRTYjlxa3NTTVNTaQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 807
     },
     {
-      "date": "May 28",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 806
+      "date": "May 29",
+      "text": "Iran War Updates: U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1fcnhwNnhKV0lpWUV1WGdIUkltT1RpQXBKTnk5T05IRmpBcXZoc1dxcjkxVWNmWnVHVGk2LWlVYWMzTmRUS0tydERZRlRtdjFWbGJTa1ktMXcwRTU1MDdRMXFDVzAzb0VHLVhfMXd4STVvRDMyeGRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 807
     },
     {
-      "date": "May 28",
-      "text": "Iran says it targeted an American base after fresh US strikes.",
-      "severity": "critical",
+      "date": "May 29",
+      "text": "Iran war updates: US, Iran reach MoU on 60-day truce, Trump yet to approve",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 807
+    },
+    {
+      "date": "May 29",
+      "text": "Iran Update Special Report, May 26, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNN2tDNmtSNm56MWdXU0FwNFlTWkFsRFNWUENiQ0NvRDdkaFhpWkZ2LWFIcHlQWm1ET2t0bmV3c1NVMGR5c1JpaTNFSUxoZmhSMVl2aDZlcjVKaHlMMlktTUFjUEptajRiT3Y4eWl5ZjNPWjgtN0ZJd1lsdmQwODJoWjlYS2VpT1hUcGp3bHlsVjROU3llWmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 807
+    },
+    {
+      "date": "May 29",
+      "text": "Iran says it targeted American base after fresh US strikes",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 803
+      "latestSinceUpdate": 807
     },
     {
-      "date": "May 28",
-      "text": "US military says it carried out ‘self-defense’ strikes in Iran, including on missile launch sites.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxORXlFelRZR2pXWkQzZ1NEbmhudU9MTXVwNEJVSWI0QzAtQ3F2bjNwcjYwbS1iRzRoWGRTUEk1LTJkbGg1czkwaFZScV8zNW9ZUXdnZEp0NVNvYlZaTGZJYlNEazFtMzMtdDhkX3V1SlF2Umt2WkdqMEIzZUxpZmJLdl9HZjVnZ0NIMEZvU250Q2lMVGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 806
-    },
-    {
-      "date": "May 28",
-      "text": "Israel intensifies attacks on Lebanon, killing at least 19 people.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQMkdya1ZjdzZXaThIWW90eTQ2dS1xMW5zSnhpcV9KU1laQWFMTHNlSGE4Wi1VZUJyY0k4NWJaUFRVdEFmb0J2ZnZ2eGtrWGV5aC1xVzgtLTZ1MktDckJQZHRjaTJnbHAzcjRBRUJ3TEl5NVI4eGZpSTZXYS1wR1ZRSVlMSDR1bnV6aWxwSnptMl9HdEVBS1NHa0p3UERsdklNVkh5cFFpbF81cHhNUjRfZF9nU1PSAboBQVVfeXFMUENUWmdtb0VheHg0ajQxZ0hoLVUwYUFNZUhpVl9WOEdqTlE5dzN5LXdPR0xRY3lIUFp0eTlOR2psMmFrVm1ER3hEV2hNdHpyRE8wTlozNnIyaHJ5VjAxOVBMdmVpM3dLSXJRTmlJV1JrWURuZHprRG5CNVp4V2JzanhJVVFuZTBuTF9tUHUyUzBpbzRjb2lTTWdCbkFwZGc1TlZOOTlad2VIejU2M1BtV3R3Vy1zdWV4N0xB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 806
-    },
-    {
-      "date": "May 28",
-      "text": "Israeli military tells residents of a swathe of southern Lebanon to leave.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNNTRZMWQ2TnEtYWo2Y1MwZW1xcjh6WGlNRTZteEVhTXlwZXpmd0FXWC03OVh3aHRmeVoxN1VNLTJKLWNhYUZVN3V1a0FPSVE1VmVQbjJkSi1wbTZyQWFkdlB4bUJWZE1hdjhKTHpSTlVSaFdfOTB2bnBiTUdpRzJQbjliWFpWY2w3VEdmWU5xTldJT2VDcXJ6QlAwWFc5N2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 805
+      "date": "May 29",
+      "text": "Live updates: Iran and U.S. trade strikes, accuse each other of violating truce",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQOThzeThOUGptUjAyVnJwa2tQbEwwdUJ3LXEtdmxSUWhVcndqejRfWVUtb1ZadHBmaUZackdETGF5a3Q4ejNRRnNSakpLT3dpRkRkMFVfZlpzSG1xTndrUlBzYUZmZDVYQjJIdzR5MkFTUG5LQk5EbkxlakZZdk5GTlZ0N3l0UHowakZUSV9YN2wtOXVfNEVEVHJLdktMaUhYcmgyU2VYMlp0MDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 807
     }
   ],
   "sourceStatuses": [
