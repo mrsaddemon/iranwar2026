@@ -1,13 +1,13 @@
 {
-  "updateSequence": 813,
+  "updateSequence": 814,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T22:15:19.167Z",
+  "lastSyncedAt": "2026-05-29T23:43:28.652Z",
   "warDay": 91,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Negotiations for a 60-day truce and ceasefire extension are ongoing between the US and Iran, but active strikes continue from both sides."
+    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, but it awaits final approval from President Trump amidst continued military exchanges."
   }
 }
