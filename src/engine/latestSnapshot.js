@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 810,
+  "updateSequence": 811,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T14:29:08.690Z",
+  "lastSyncedAt": "2026-05-29T17:52:54.837Z",
   "warDay": 91,
-  "summary": "US and Iran are engaged in ongoing military exchanges while simultaneously negotiating a tentative 60-day truce and an arrangement to reopen the Strait of Hormuz, with US presidential approval pending, amidst escalating conflict between Israel and Hezbollah in southern Lebanon.",
+  "summary": "Negotiations between the US and Iran are ongoing regarding a potential truce and the reopening of the Strait of Hormuz, amidst continued military strikes and rising US casualties, while Israel intensifies operations in southern Lebanon.",
   "lastNarrativeUpdate": "2026-05-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A tentative 60-day truce MoU has been reached between the US and Iran, but its activation is pending US presidential approval and ongoing military actions continue."
+    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, pending Trump's approval, amidst ongoing military exchanges and regional tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.68,
+        "aggression": 0.78
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 60,
-    "tradeImpact": 44,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 28",
-      "text": "US and Iran officials report being close to an arrangement to reopen the Strait of Hormuz.",
+      "date": "May 29",
+      "text": "U.S. officials indicate they are nearing an arrangement to reopen the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 810
+      "latestSinceUpdate": 811
     },
     {
-      "date": "May 28",
-      "text": "US and Iran reach a tentative MoU for a 60-day truce, pending Trump's approval.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 810
-    },
-    {
-      "date": "May 28",
-      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "date": "May 29",
+      "text": "US and Iran have reached a Memorandum of Understanding for a 60-day truce, pending Trump's approval.",
       "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 811
+    },
+    {
+      "date": "May 29",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 810
+      "latestSinceUpdate": 811
     },
     {
-      "date": "May 28",
-      "text": "US and Iran exchange strikes amidst ongoing negotiations.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 810
-    },
-    {
-      "date": "May 28",
-      "text": "Israel intensifies attacks on southern Lebanon, with Hezbollah using fibre-optic drones.",
+      "date": "May 29",
+      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 810
+      "latestSinceUpdate": 811
     },
     {
-      "date": "May 28",
-      "text": "Israeli military advises residents of southern Lebanon to evacuate.",
+      "date": "May 29",
+      "text": "Trump demands 'unrestricted shipping' in the Strait of Hormuz and states he will make a final decision on Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi9wFBVV95cUxQLTJwZjMzaWJCUmJkVDgtRHdwYVBIeGVpUnozQklxbDQ5MjVZcEQ1eElPWlp4czliQmk5UlpidjNQdjVtOExST0w3LU9VOE5ZUkpZN2tQd0NUVDBmVnVSVnJmWUZ1TXdISDllTmJJYlBuMkVzYjJ4WnV1eU01eVJOak1wUl9Yel9kUGg4b2dGZnRCeC01Y3dnRVhHRVdOc3RZR1YyM1d5LWpFQkdXd1RUazBrd2QzVmdSdzhNQzA3eWxwQ0FZVGxMNWxHdlVaS21qcGwzcnRzY2FWYWctRVZjQVd0ZlZqZWs0V2dXMEljTFdNNU85YnhN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo Finance",
+      "latestSinceUpdate": 811
+    },
+    {
+      "date": "May 29",
+      "text": "US Forces warn they will strike mine-laying ships in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNNTRZMWQ2TnEtYWo2Y1MwZW1xcjh6WGlNRTZteEVhTXlwZXpmd0FXWC03OVh3aHRmeVoxN1VNLTJKLWNhYUZVN3V1a0FPSVE1VmVQbjJkSi1wbTZyQWFkdlB4bUJWZE1hdjhKTHpSTlVSaFdfOTB2bnBiTUdpRzJQbjliWFpWY2w3VEdmWU5xTldJT2VDcXJ6QlAwWFc5N2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 810
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 811
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
