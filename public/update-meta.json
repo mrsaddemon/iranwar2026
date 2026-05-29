@@ -1,13 +1,13 @@
 {
-  "updateSequence": 811,
+  "updateSequence": 812,
   "lastUpdated": "2026-05-29",
-  "lastSyncedAt": "2026-05-29T17:52:54.837Z",
+  "lastSyncedAt": "2026-05-29T20:36:26.356Z",
   "warDay": 91,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, pending Trump's approval, amidst ongoing military exchanges and regional tensions."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
