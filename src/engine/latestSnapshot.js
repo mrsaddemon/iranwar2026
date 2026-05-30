@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 821,
+  "updateSequence": 822,
   "lastUpdated": "2026-05-30",
-  "lastSyncedAt": "2026-05-30T14:20:30.859Z",
+  "lastSyncedAt": "2026-05-30T15:41:18.509Z",
   "warDay": 92,
-  "summary": "Negotiations for a ceasefire and the reopening of the Strait of Hormuz are ongoing between the US and Iran, amidst continued exchanges of strikes and intensified Israeli operations against Hezbollah in southern Lebanon.",
+  "summary": "Tensions remain high between the US and Iran with ongoing strikes and stalled truce talks, while Israel and Hezbollah continue to exchange fire in southern Lebanon, impacting the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-05-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Reports indicate a 60-day truce MoU has been reached between the US and Iran, but final approval from President Trump is pending, and military strikes continue."
+    "summary": "An MoU for a 60-day truce between the US and Iran has been reported but is not yet approved by Trump and Tehran states no deal has been reached, with strikes continuing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 30",
-      "text": "U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz",
+      "text": "U.S. officials are reportedly nearing an arrangement to reopen the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1fcnhwNnhKV0lpWUV1WGdIUkltT1RpQXBKTnk5T05IRmpBcXZoc1dxcjkxVWNmWnVHVGk2LWlVYWMzTmRUS0tydERZRlRtdjFWbGJTa1ktMXcwRTU1MDdRMXFDVzAzb0VHLVhfMXd4STVvRDMyeGRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 821
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 822
     },
     {
       "date": "May 30",
-      "text": "Tehran says ceasefire deal with US still not reached",
-      "severity": "info",
+      "text": "Tehran states that a ceasefire deal with the US has not yet been reached.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 821
+      "latestSinceUpdate": 822
     },
     {
       "date": "May 30",
-      "text": "Israeli army issues evacuation orders for seven south Lebanon villages",
-      "severity": "warning",
+      "text": "The Israeli army has issued evacuation orders for seven villages in south Lebanon.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxOVjc5RzlWZ09TY1QySzVwUnFmSVZia0wxUWxGb2dBOTVQdTduZjQ3eVVXSng2el90QUJfd1ZMQS12QzFXZDVHcG1qb3JqUkVuVi1LMTJHemxnUktfRG80TnJFeGdjbVljcmdvY0FIMGMwbTVjaEdUSFVaN1lnTUY5TWhoRGFLWXBSaTB6dFplb1RTNGtKSWN6OUh1T3p1dE4wTkFhaHRZUC0zODVEWjh1ZWpVcl9fYjZUMDVZZHJFUUZlYVpTYks3M0gwRG5Cc09RelE5X1lsTnnSAd8BQVVfeXFMUDRZNE5rcW1xRWZGbzhfNnNOQXQ3Tm5mWnJVVjhlV1Y1UGhDUDZMWkpMcjVkQV90RmZMMzRST05qazRUM0ozUVNRUVZqWlB0d2FiQ2U4REhhQWpNQnZvd0t6WTFiWGVDQkV4aE9xLXNTQW4xMzg2MVNWaVBjdmYzSHhCVGlWNHVsYV9TckdqQlRLdXk2VV9KNWR0aGVLeXNNRGI5SVlDTGdkcm9CR0dBeGNNQW90ZEJVSmpVcjBrSU83bjlGNUw4Rnl5U0JTOHpiM052a3hXX0hDRV9fbElOZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hindu",
-      "latestSinceUpdate": 821
+      "latestSinceUpdate": 822
     },
     {
       "date": "May 30",
-      "text": "Iran says it targeted American base after fresh US strikes",
-      "severity": "warning",
+      "text": "The US defense secretary warns the US military is ready to resume combat in the Gulf if needed.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 822
+    },
+    {
+      "date": "May 30",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 821
+      "latestSinceUpdate": 822
     },
     {
       "date": "May 30",
-      "text": "US, Iran reach MoU on 60-day truce, Trump yet to approve",
+      "text": "Reports indicate the US and Iran reached an MoU on a 60-day truce, pending Trump's approval.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 821
-    },
-    {
-      "date": "May 30",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 821
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 822
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
