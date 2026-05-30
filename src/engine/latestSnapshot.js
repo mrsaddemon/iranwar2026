@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 824,
+  "updateSequence": 825,
   "lastUpdated": "2026-05-30",
-  "lastSyncedAt": "2026-05-30T17:47:41.351Z",
+  "lastSyncedAt": "2026-05-30T18:50:47.473Z",
   "warDay": 92,
-  "summary": "The US and Iran are engaged in ongoing negotiations for a 60-day truce, with President Trump yet to approve a tentative agreement, while both sides continue to exchange strikes and the US maintains a blockade.",
+  "summary": "The US and Iran are engaged in ongoing strikes and negotiations for a 60-day truce, with President Trump yet to approve a tentative agreement, while Hezbollah continues rocket attacks against Israel.",
   "lastNarrativeUpdate": "2026-05-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, but President Trump has not yet approved it, and hostilities continue."
+    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, but President Trump has not yet approved it, and active strikes continue."
   },
   "actorOverrides": {
     "usa": {
@@ -28,24 +28,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 60,
+    "tradeImpact": 44,
     "sanctionsPressure": 54,
     "globalPressure": 61,
     "allianceInfluence": 46
@@ -60,19 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 28",
-      "text": "US and Iran reach tentative agreement on a truce, pending President Trump's final determination.",
+      "text": "US and Iran reach tentative agreement, though President Trump has not yet signed off on it.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 824
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE9nU2JJbWg5ZjRFYUNaaVV2b19hT25aeWtFZER1Tkhyby1yNU16d3FwNVVZblBBemQ4eTVwMWNTYVY1NzNIRnpzU193WFdjUzhYakhsNmxSTkpkbnJCSGsxcU9YeENCQ1RWR2kwdFl0bGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 825
     },
     {
       "date": "May 28",
-      "text": "Iran says it targeted an American base after fresh US strikes.",
+      "text": "Iran states that a ceasefire deal with the US has still not been reached, despite reports of an agreement.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 825
+    },
+    {
+      "date": "May 28",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 824
+      "latestSinceUpdate": 825
     },
     {
       "date": "May 28",
@@ -84,27 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "May 28",
-      "text": "Hezbollah launches multiple rockets and drones at northern Israel, causing damage, as IDF expands operations in southern Lebanon.",
+      "text": "President Trump states Iran is 'negotiating on fumes' as the U.S. conducts new strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQR1RuVG9VYnY4b1hEczN1SFBCZDJROHZQZlRMUjRxeHIwczhfWEM4QndTRGYzcjg0ZTcxejJxOGs0elBieU9ncnFWM3F5QXU3YkVJVHUtemtDc0VIMEJoQ0tzTzFaM2stTHRHWmVnZUZwYzBlRTFVdnZ6cTFQUzNKTkxLY2pxajA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 825
+    },
+    {
+      "date": "May 28",
+      "text": "Hezbollah launches rocket barrages causing damage in northern Israel, with drones identified as a top threat.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPZW1GT1phZjhHVUNwcm5fR29leVN5Z2pORWRxanhHbG9ocWUwZmFBT2kteWhUM05WcXA5SnZMMVdKNk96RzdsRmx2bjlpTzdoNGpoUUdrdnozTDMzZk9kREJsWXV6NjZlaVlFcklsSFc4eVFWLVVIS19ieDZlZVQzeWppRXRMdVI4M0pudW1OaDg3QmNoTHliNmZ0bTMxbUkzQTZuenlHajJJcHViSVQzckJFal_SAboBQVVfeXFMTk4zS1VQRExpVFg3UVFGSEx4WU95NmkzeXBiN05lc3lmZFMxUlNIZXFtOFZQRElIMXpBb04wc05HZHBwcVBKOTdHR09HRWo4M19vWHBJbVZORUtDWlZ1VUx1VTAxVDRIUWlIM0FHM09zano3X05CRXRiYU9NWkFKS2h4VVM0cHdNNG5GLUpmVzFNYmRaVms4TVRzMmtaUlQ0dGpIcDlJRS1NOUEtcDVHRkJKaWpLN3hNSFRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 824
-    },
-    {
-      "date": "May 28",
-      "text": "US military launches another strike on Iran as potential deal stalls.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZm96OTJkNENIbjhibTlaT0lpOVlhdXBVdWpYd0h0cXdxa2ZHVXMyWUV3RWswLTZsZ25MZUFwRm14NUJkbVNKLVZ2OS1tOFZkd2RyTnliZWxFT3ZKcE1JUTYwa1h1dXE2TldTT0d5RldSN2Y1TUk2RjRQSXpkSXFUY3FCYUllbHBNU21PSURzQ29aSlRwXzB6UnpudEJ0VnFEbzVjVFlNcTNFOTdGRnltbkhhd01mMTg3MmFCNnA2RFBjc3BW?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
-      "latestSinceUpdate": 824
-    },
-    {
-      "date": "May 28",
-      "text": "US disables another commercial ship attempting to breach the blockade and reach Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxQS3M1WGV6elZYQWhScGxaeXNPZEdpOWlmamR2bnl3b3JjbFpGZWlLM0g3b05JRUlWR0RiLW9NOC1mbmVsQzhLY3VJaDVqa2VQSTR0bE9QRUd6bmJVZVozZzk2ZzhMV2pnVEVJcXB1NXVuTEk5dUQ0UzJ0c0pCN3k5QmN0ZmpuSzh2QmFZR2Q4N3FyYnpKa01talFsSDlFdlY1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 824
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPN3BLZldaZFVObVZyOWNnb2dZYkNMOVcwVVVYRm5XQkhoV2d1bktOMmNIcVlEY2dqYmdxSzhOcVNzVzQ5WmNudjlpaUdQVjhoX2ZTS1JqUzRJV1ZscnBBTm9qQXlDT2NVdjJ6Y3NUNVIzY3EwVWlJUDN2T0lkd1VXc2RXTDIyNzVQT05oZHBTb0V0RXpKazNyc01yMmx2YktPMDRYZDhpTHhZUU15dEFCVEkwM1pWNDFDYlE4b0hwSdIBxAFBVV95cUxORW5oVUNJZThteFFBU1FNU3dyUndiVTBQVkwzS2JPaEN3WUJGQ0lULTVRSmxRLWdSQTJidWJaWDhQaW8zR255ZU9hOWl0ZXpFZzB2NHRwOGYyUHVFdHVaVFNUZzg3UGFpTk9zdTFCVnZRN2Rib0R5MVZxZnZWc2t3SEVyOGUtWmNFOEZiVlVLOWtIclJ4ODV5aXhjWHhBbVlfZ0V0X1ppWWRnbm1JTXRteFRpOENmMktpMGphV2lGU3lkSkJp?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 825
     }
   ],
   "sourceStatuses": [

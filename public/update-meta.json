@@ -1,13 +1,13 @@
 {
-  "updateSequence": 824,
+  "updateSequence": 825,
   "lastUpdated": "2026-05-30",
-  "lastSyncedAt": "2026-05-30T17:47:41.351Z",
+  "lastSyncedAt": "2026-05-30T18:50:47.473Z",
   "warDay": 92,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, but President Trump has not yet approved it, and hostilities continue."
+    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, but President Trump has not yet approved it, and active strikes continue."
   }
 }
