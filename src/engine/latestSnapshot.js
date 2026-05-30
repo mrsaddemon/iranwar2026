@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 819,
+  "updateSequence": 820,
   "lastUpdated": "2026-05-30",
-  "lastSyncedAt": "2026-05-30T11:47:07.201Z",
+  "lastSyncedAt": "2026-05-30T12:51:15.545Z",
   "warDay": 92,
-  "summary": "US and Iran have exchanged strikes while simultaneously negotiating a potential truce and the reopening of the Strait of Hormuz, as Israel intensifies attacks on Hezbollah in southern Lebanon.",
+  "summary": "Negotiations between the US and Iran for a potential ceasefire and reopening of the Strait of Hormuz are ongoing but stalled due to pending approval from President Trump, amidst continued exchanges of strikes and escalating Hezbollah activity against Israel.",
   "lastNarrativeUpdate": "2026-05-30",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, but it remains unapproved by Trump and potential deals are stalling amidst ongoing strikes."
+    "summary": "A tentative 60-day ceasefire agreement between the US and Iran has been reached but remains unapproved by President Trump, with ongoing military exchanges undermining its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,80 +37,72 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
-    "sanctionsPressure": 53,
-    "globalPressure": 61,
-    "allianceInfluence": 73
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "May 30",
-      "text": "US military launches another strike on Iran as potential deal stalls.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZm96OTJkNENIbjhibTlaT0lpOVlhdXBVdWpYd0h0cXdxa2ZHVXMyWUV3RWswLTZsZ25MZUFwRm14NUJkbVNKLVZ2OS1tOFZkd2RyTnliZWxFT3ZKcE1JUTYwa1h1dXE2TldTT0d5RldSN2Y1TUk2RjRQSXpkSXFUY3FCYUllbHBNU21PSURzQ29aSlRwXzB6UnpudEJ0VnFEbzVjVFlNcTNFOTdGRnltbkhhd01mMTg3MmFCNnA2RFBjc3BW?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
-      "latestSinceUpdate": 819
+      "date": "May 28",
+      "text": "US and Iran reach tentative agreement on a 60-day truce, though President Trump has not yet signed off on it.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPMjBheDJiTHNmOFdRbzJvVlBiZFYtNk9iOGl5UUxCVFMzQ2REMV9HNFZvOU1XcWVLSzUxNjdXdE5ZR3FoZWd2VkFnQzRxZ2hYanpqdkEwTmNIZVFVaklBdnV6d0dmR0hSNnlQbFY2b0FiTG96MUJwY2otYzJMcUItb1RCUUF3bXRldk91TkJkUk5BWnQxbXBzZ3BjQTllandyLXVwaDA3ck9pT1VzUW1hRzZiaFZfQ0hnN3RpMTJJVERKQdIBxwFBVV95cUxPQzBmc1RFR0xDQXFYVmw5RTVGTVBZakRhUGJ4S1lKTDVNOURsWmNSS0hMMVRmeG9OT0Y3TzF3TndBYnRtTGNYZVVOaVdEUExqOGJBdUVEem1uT3ZFYW12dWhqbmxVVFlSc3NIU0UzSE0tTjEtWGl2RHVneUtHb0hMTENadFY0SWdNWUZkdTc4NExhQW5CMV9hNkNuQlpBV21mTHQ1WWhQaDdaa3JmZERxS01BLWpNSmYwdU5kMExsTXR2c2dQT0pJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 820
     },
     {
-      "date": "May 30",
-      "text": "Iran says it targeted American base after fresh US strikes.",
+      "date": "May 29",
+      "text": "US and Iran exchange strikes, with Iran reporting it targeted an American base after fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 819
+      "latestSinceUpdate": 820
     },
     {
-      "date": "May 30",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
+      "date": "May 29",
+      "text": "Hezbollah launches rocket barrages and utilizes fibre-optic drones, causing damage in northern Israel.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 819
-    },
-    {
-      "date": "May 30",
-      "text": "Israeli army issues evacuation orders for seven south Lebanon villages.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxOVjc5RzlWZ09TY1QySzVwUnFmSVZia0wxUWxGb2dBOTVQdTduZjQ3eVVXSng2el90QUJfd1ZMQS12QzFXZDVHcG1qb3JqUkVuVi1LMTJHemxnUktfRG80TnJFeGdjbVljcmdvY0FIMGMwbTVjaEdUSFVaN1lnTUY5TWhoRGFLWXBSaTB6dFplb1RTNGtKSWN6OUh1T3p1dE4wTkFhaHRZUC0zODVEWjh1ZWpVcl9fYjZUMDVZZHJFUUZlYVpTYks3M0gwRG5Cc09RelE5X1lsTnnSAd8BQVVfeXFMUDRZNE5rcW1xRWZGbzhfNnNOQXQ3Tm5mWnJVVjhlV1Y1UGhDUDZMWkpMcjVkQV90RmZMMzRST05qazRUM0ozUVNRUVZqWlB0d2FiQ2U4REhhQWpNQnZvd0t6WTFiWGVDQkV4aE9xLXNTQW4xMzg2MVNWaVBjdmYzSHhCVGlWNHVsYV9TckdqQlRLdXk2VV9KNWR0aGVLeXNNRGI5SVlDTGdkcm9CR0dBeGNNQW90ZEJVSmpVcjBrSU83bjlGNUw4Rnl5U0JTOHpiM052a3hXX0hDRV9fbElOZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 819
-    },
-    {
-      "date": "May 30",
-      "text": "Hezbollah launches rocket barrages and uses fibre-optic drones against northern Israel.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPN3BLZldaZFVObVZyOWNnb2dZYkNMOVcwVVVYRm5XQkhoV2d1bktOMmNIcVlEY2dqYmdxSzhOcVNzVzQ5WmNudjlpaUdQVjhoX2ZTS1JqUzRJV1ZscnBBTm9qQXlDT2NVdjJ6Y3NUNVIzY3EwVWlJUDN2T0lkd1VXc2RXTDIyNzVQT05oZHBTb0V0RXpKazNyc01yMmx2YktPMDRYZDhpTHhZUU15dEFCVEkwM1pWNDFDYlE4b0hwSdIBxAFBVV95cUxORW5oVUNJZThteFFBU1FNU3dyUndiVTBQVkwzS2JPaEN3WUJGQ0lULTVRSmxRLWdSQTJidWJaWDhQaW8zR255ZU9hOWl0ZXpFZzB2NHRwOGYyUHVFdHVaVFNUZzg3UGFpTk9zdTFCVnZRN2Rib0R5MVZxZnZWc2t3SEVyOGUtWmNFOEZiVlVLOWtIclJ4ODV5aXhjWHhBbVlfZ0V0X1ppWWRnbm1JTXRteFRpOENmMktpMGphV2lGU3lkSkJp?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 819
+      "latestSinceUpdate": 820
     },
     {
       "date": "May 30",
-      "text": "U.S. Officials say they are closing in on arrangement to reopen Strait of Hormuz.",
+      "text": "President Trump holds a key White House meeting to make a 'final determination' on the Iran deal, including demands to reopen the Strait of Hormuz and destroy uranium.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 819
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZXhWUGE0ZjBSTk1fTlJYRm84Tk9saERWQVhYcUdIOFFhZjFXTGgyREVGRUNUbmhNdDRCZkFicDU3WkhDQVpxTzBMUG9uWlZoQWRTeVhlLWY0dEJKamxrVTNxM1BpWXpRTl9wcElGSnQxaExvRVhfZ3pJV3BzdzBha01INnJaVHJYYmlVY1ZfX3pYN01BeEd2LTJUSW1lbjdm?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 820
+    },
+    {
+      "date": "May 30",
+      "text": "US military launches another strike on Iran as the potential deal stalls.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZm96OTJkNENIbjhibTlaT0lpOVlhdXBVdWpYd0h0cXdxa2ZHVXMyWUV3RWswLTZsZ25MZUFwRm14NUJkbVNKLVZ2OS1tOFZkd2RyTnliZWxFT3ZKcE1JUTYwa1h1dXE2TldTT0d5RldSN2Y1TUk2RjRQSXpkSXFUY3FCYUllbHBNU21PSURzQ29aSlRwXzB6UnpudEJ0VnFEbzVjVFlNcTNFOTdGRnltbkhhd01mMTg3MmFCNnA2RFBjc3BW?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews",
+      "latestSinceUpdate": 820
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
