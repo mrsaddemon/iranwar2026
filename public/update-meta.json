@@ -1,13 +1,13 @@
 {
-  "updateSequence": 842,
+  "updateSequence": 843,
   "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T22:16:39.261Z",
+  "lastSyncedAt": "2026-05-31T23:31:59.101Z",
   "warDay": 93,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "US and Iran have agreed on a 60-day ceasefire extension, but it awaits Trump's approval and faces violations from ongoing military actions."
+    "summary": "No formal ceasefire is in effect, though diplomatic talks between the US and Iran are ongoing amidst active military engagements."
   }
 }
