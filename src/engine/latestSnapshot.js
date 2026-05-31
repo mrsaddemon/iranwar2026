@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 838,
+  "updateSequence": 839,
   "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T17:47:19.449Z",
+  "lastSyncedAt": "2026-05-31T18:55:24.118Z",
   "warDay": 93,
-  "summary": "Tensions remain high as a potential US-Iran ceasefire extension awaits presidential approval amidst ongoing Israeli military operations in Lebanon and Gaza, and concerns over shipping in the Strait of Hormuz.",
+  "summary": "The Iran-US conflict continues with ongoing military actions, including US strikes on ships and Iranian retaliation, while a proposed 60-day ceasefire extension remains in limbo awaiting US approval amidst escalating Israeli-Hezbollah clashes.",
   "lastNarrativeUpdate": "2026-05-31",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A 60-day ceasefire extension has been agreed upon by US and Iranian negotiators but awaits final approval from President Trump, leaving its status uncertain."
+    "summary": "A proposed 60-day ceasefire extension between the US and Iran has been agreed upon but remains unapproved by Trump and unconfirmed by Tehran, leaving its status in limbo."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 29-30",
-      "text": "US defense secretary warns military is ready to resume combat in the Gulf if needed.",
+      "date": "May 31",
+      "text": "US military disabled a ship with a Hellfire missile in the Gulf of Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSVotLVFqT0lNQy15OWRUSVRNYi12b1d2ZTZTekxmaE9uYlNmNDd5YlVwVXNlaHE2RWsxTzZVZzFxTmk0M05uSjdCVlU5OGFsbUVEY3hOWUJFRTEzOWtjOURHZUZUQ0pGNlJMSl9ORHk5WUVGOG9nM1U4WnBWS2RSZzBSaTFkWC1nR0ZmNmNGTUVTVnF3TFNUN2ptYk9TLXp5Y19PMm8xSFBpWTduQl9xTDNuVHZJSEwwWTV3a2Z30gHDAUFVX3lxTE1qaGFnNzB1Q2JrYy1HUml3ZllPZTZjbU9tUGxsV25VNWp4UnpOVkNFUHV0a3NXVzRsVHk1M2pHTkNnb05KVlhqVFE3TTY5MDN0dDhyZlNnSlJ3dTVpdGNFaXNqLUNNMDFfR2VWRGxlYlV4VnJPd09OVVktNDhndXlmLXlaUkJpdXd4U2Q3ZXM1bnZac3RzcGxnQmJBWFFKT0lqaFlhcVRLd3cxb1ppREs0VVM4dnZyTlpjMmhtc2hzWlotQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 839
+    },
+    {
+      "date": "May 31",
+      "text": "Trump has put off a 'final determination' on an Iran proposal and stated he is in 'no hurry' to make a deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBvUVMwOFVMTmdjLW52a3JJdWRJc2JMN3lQOC1jZy1oa2ZpRGNZYWZEMFp5ZHB3OHZfRWFMVHBmS3FIeUt4alFuWG9KdXdhQXE5SmN0VEJMTVZRV0FNbFlUY0p2NFdVNGhMb0RHdUpZT0EyZXUwaTlsOE1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 837
-    },
-    {
-      "date": "May 29-30",
-      "text": "Reports indicate a 60-day ceasefire extension agreement between the US and Iran, pending President Trump's approval.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 838
-    },
-    {
-      "date": "May 29-30",
-      "text": "President Trump states he is in 'no hurry' to make a final determination on the Iran deal.",
-      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZXhWUGE0ZjBSTk1fTlJYRm84Tk9saERWQVhYcUdIOFFhZjFXTGgyREVGRUNUbmhNdDRCZkFicDU3WkhDQVpxTzBMUG9uWlZoQWRTeVhlLWY0dEJKamxrVTNxM1BpWXpRTl9wcElGSnQxaExvRVhfZ3pJV3BzdzBha01INnJaVHJYYmlVY1ZfX3pYN01BeEd2LTJUSW1lbjdm?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 838
+      "latestSinceUpdate": 839
     },
     {
-      "date": "May 29-30",
-      "text": "Israel expands its incursion into Lebanon to target Hezbollah and conducts strikes in Lebanon and Gaza.",
+      "date": "May 31",
+      "text": "Iran promised 'utter ruin' if the war restarts, while also stating a ceasefire deal with the US has 'still not been reached'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 839
+    },
+    {
+      "date": "May 31",
+      "text": "Israel expanded its invasion into Lebanon and struck Lebanon and Gaza on the eve of Eid.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiaEFVX3lxTE5CY2syLXZIVUVCVFd1eGR5aTJyNUhNS0JxMTNjdlVtMTRjQWl3bFVqTFdlWEg3bEs1Rm9pSVJzUW51RVNWVmEwclNsQjN3QjNjS1ZPLUJ2MU5rUzMyMzAxbDdSUUExTmli0gFcQVVfeXFMT2xwaUF3VnV4LTNGRThkVXd1Z1A3RFAyQ01zcVpqTVRSRE9Iell6OFp5R2dZOUJPWkttSWpzWHg2QzJub3IxT0ZBbzVVSDZYTi1xckhUYk5HaWEzT2o?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Modern Ghana",
-      "latestSinceUpdate": 838
+      "latestSinceUpdate": 839
     },
     {
-      "date": "May 29-30",
-      "text": "Hezbollah is reportedly using fibre-optic drones against Israel, leading to school closures near the border.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 838
-    },
-    {
-      "date": "May 29-30",
-      "text": "US military fires a missile into the engine room of a commercial ship attempting to reach Iran after it ignored warnings.",
+      "date": "May 31",
+      "text": "Iran claimed to have targeted an American base after fresh US strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQNGxzdS1Ic2wzLU1CeVJmcVlkd2s5UndyM1FnM2RSbWNrUU9PUFlrd2prLWM0X00tVmxtVE1YblRXWGxwbjFkTzZhbjdYVXlmTnNFR2swU25oUlBqOGZ1X1FzX1B1V2NYa1Q2U3A3YXBrcENhU1dORDJjclNtbE1xbjhTRVZwdjZtVDg0YjRaYVhfVG5Ha1BHQ0FvMXlnajA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 838
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 839
+    },
+    {
+      "date": "May 31",
+      "text": "Oil exports through the Strait of Hormuz are not expected to return to pre-war levels, with ships sailing 'dark' to avoid detection.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPekk4MkNlWndSRXhZTjlGZEpxcnk1Ni00b0FwVnBFa21YTzdOS3pPOWV4d1paR2gwTTFLeDV5ZGd6Y0Z6R20wd3VhM0JCTUJlUTdoUXpWNXRUZDRzOWdGMnN5STZNMGNvSEhDZEc1aTRnbWZVdlRUNjkzWVpRSTBuWHZNWFJ0OWgwOFhPRkhvdHlLOHBHNWJxS0JlWmNHNFBkbEFvTVBVY2J3UdIBrwFBVV95cUxOaFV1VFh0ZVpGR3RhQXoxUVZnX1lFdHRqM2dWZ0NCc3BFSXhXb0FqaWZZYXQ4QUlQNDQ4MmtIWmZxbG82UFotT25IX3JVTV93TVpFeGlHVENBS2dPN0t4aHJ3LTRvUVVRanpic1ZCa3JXLUxoMzFwQ3RBa0ZBb2FLa0lxS240R0dIWGRJYXBCdkt4cFR4eHFqZTJGQ2FGeXlmU1hvTzJuQ1V1SnFLcUVF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 839
     }
   ],
   "sourceStatuses": [
