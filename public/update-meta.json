@@ -1,13 +1,13 @@
 {
-  "updateSequence": 841,
+  "updateSequence": 842,
   "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T21:17:27.539Z",
+  "lastSyncedAt": "2026-05-31T22:16:39.261Z",
   "warDay": 93,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A 60-day US-Iran ceasefire extension has been agreed upon but awaits Trump's final approval, with ongoing US military actions against ships complicating its stability."
+    "summary": "US and Iran have agreed on a 60-day ceasefire extension, but it awaits Trump's approval and faces violations from ongoing military actions."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 841,
+  "updateSequence": 842,
   "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T21:17:27.539Z",
+  "lastSyncedAt": "2026-05-31T22:16:39.261Z",
   "warDay": 93,
-  "summary": "US-Iran ceasefire talks continue amidst US military actions against ships in the Gulf and an expanding Israeli ground offensive in Lebanon, leading to significant oil disruption concerns in the Strait of Hormuz.",
+  "summary": "US and Iran continue talks for a ceasefire extension amidst ongoing military actions in the Gulf and escalating conflict between Israel and Hezbollah in Lebanon and Gaza, with significant disruption to Strait of Hormuz shipping.",
   "lastNarrativeUpdate": "2026-05-31",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A 60-day US-Iran ceasefire extension has been agreed upon but awaits Trump's final approval, with ongoing US military actions against ships complicating its stability."
+    "summary": "US and Iran have agreed on a 60-day ceasefire extension, but it awaits Trump's approval and faces violations from ongoing military actions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.4,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 68,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 29-30",
-      "text": "US military warns of readiness to resume combat in the Gulf and disables a ship with a Hellfire missile in the Gulf of Oman.",
+      "text": "US defense secretary warns military is ready to resume combat in the Gulf if needed.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 842
+    },
+    {
+      "date": "May 29-30",
+      "text": "US military 'disables' a ship with a Hellfire missile in the Gulf of Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSVotLVFqT0lNQy15OWRUSVRNYi12b1d2ZTZTekxmaE9uYlNmNDd5YlVwVXNlaHE2RWsxTzZVZzFxTmk0M05uSjdCVlU5OGFsbUVEY3hOWUJFRTEzOWtjOURHZUZUQ0pGNlJMSl9ORHk5WUVGOG9nM1U4WnBWS2RSZzBSaTFkWC1nR0ZmNmNGTUVTVnF3TFNUN2ptYk9TLXp5Y19PMm8xSFBpWTduQl9xTDNuVHZJSEwwWTV3a2Z30gHDAUFVX3lxTE1qaGFnNzB1Q2JrYy1HUml3ZllPZTZjbU9tUGxsV25VNWp4UnpOVkNFUHV0a3NXVzRsVHk1M2pHTkNnb05KVlhqVFE3TTY5MDN0dDhyZlNnSlJ3dTVpdGNFaXNqLUNNMDFfR2VWRGxlYlV4VnJPd09OVVktNDhndXlmLXlaUkJpdXd4U2Q3ZXM1bnZac3RzcGxnQmJBWFFKT0lqaFlhcVRLd3cxb1ppREs0VVM4dnZyTlpjMmhtc2hzWlotQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 841
+      "latestSinceUpdate": 842
     },
     {
       "date": "May 29-30",
-      "text": "US military fires missile into engine room of a commercial blockade runner attempting to reach Iran after multiple warnings.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQNGxzdS1Ic2wzLU1CeVJmcVlkd2s5UndyM1FnM2RSbWNrUU9PUFlrd2prLWM0X00tVmxtVE1YblRXWGxwbjFkTzZhbjdYVXlmTnNFR2swU25oUlBqOGZ1X1FzX1B1V2NYa1Q2U3A3YXBrcENhU1dORDJjclNtbE1xbjhTRVZwdjZtVDg0YjRaYVhfVG5Ha1BHQ0FvMXlnajA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 841
-    },
-    {
-      "date": "May 29-30",
-      "text": "Reports indicate a 60-day US-Iran ceasefire extension agreement, pending Trump's approval, with discussions including enriched uranium and the Strait of Hormuz.",
+      "text": "Trump puts off 'final determination' on an Iran proposal.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 841
+      "latestSinceUpdate": 842
     },
     {
       "date": "May 29-30",
-      "text": "Iran threatens 'utter ruin' if war restarts and claims to have targeted an American base after fresh US strikes.",
+      "text": "Iran promises 'utter ruin' if war restarts.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 841
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOTVhnUnlzdGZkbDRWR3IyUDY2R3hqUkxpSHdGSlB2X21jdzNUdW9YNV9MbWxjMmtwWG9sejlkbGJFZGxybUI1a3lvT2N0Ul9ScGt2eDZob21RM3VnbE1hd2VORnVJdVdqdjlKekZMaE1wUnVXMC1ocUdIaDZXOUdObF9HVng?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 842
     },
     {
       "date": "May 29-30",
-      "text": "Israel expands its ground offensive into Lebanon, seizing a castle and striking Lebanon and Gaza, while northern Israel faces persistent Hezbollah fire.",
+      "text": "Iran says US talks continue, while Israel expands its invasion into Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNY24wNkZUR1ZyOFJFdnFnZ1FJWVB5VENxaTJLSHpSUVZRcHgzMFFYdXNFRGNyNER3aG1XS0tzbXZ3VXd5WHFOb3I3cXlrRnpOX281aUo5RGRQVnliZ1JFN2tsRWZRd0JCWVUtQmtNNHJZdjdZSXZwdXRaWFhERzVUNHlneWlScnRfVkVrdzcwUXM1RXFNQ1Y5YjN4MGFsaHhqSmtkcm5kWUhsbmtlUlNFSNIBtgFBVV95cUxNX28xSk84d05HRGRQd1FqdmpqQ2Z0clNTNWdYcUc5SWxDd2xzTHlMNl9tcHNMUHJ4NkhvTzJTT0h1WmtfcWhCenF6bnQ0aVB3X0NINVFkSmM4NE5MaXVETlBKenVOTFZ3T0VoRVQtN0NFazNnUS1OZmNQN09IUEZmX1lwVGsxZ3VkRGhtRjNjRWZjZldqbHpwTXA4Y1E5ZGswS2hNYjRfZ1NhSlJDZHdaUlc3LUpaUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 842
+    },
+    {
+      "date": "May 29-30",
+      "text": "Israel strikes Lebanon and Gaza on the eve of Eid.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9oWmwzcUdrNVlWZFo0cWZkTkR5YkRveFloM2lXWDZsa3ZNcWJKbUJSV3dhYXY2cVFNeGRhYWw1SVM1VXhmSENFSmZscGd2dElDZmJCVUtyVGJVUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 841
-    },
-    {
-      "date": "May 29-30",
-      "text": "Concerns rise over oil exports through the Strait of Hormuz, with reports of ships sailing 'dark' and the US military quietly guiding vessels.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 841
+      "sourceUrl": "https://news.google.com/articles/CBMiaEFVX3lxTE5CY2syLXZIVUVCVFd1eGR5aTJyNUhNS0JxMTNjdlVtMTRjQWl3bFVqTFdlWEg3bEs1Rm9pSVJzUW51RVNWVmEwclNsQjN3QjNjS1ZPLUJ2MU5rUzMyMzAxbDdSUUExTmli0gFcQVVfeXFMT2xwaUF3VnV4LTNGRThkVXd1Z1A3RFAyQ01zcVpqTVRSRE9Iell6OFp5R2dZOUJPWkttSWpzWHg2QzJub3IxT0ZBbzVVSDZYTi1xckhUYk5HaWEzT2o?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Modern Ghana",
+      "latestSinceUpdate": 842
     }
   ],
   "sourceStatuses": [
