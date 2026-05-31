@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 832,
+  "updateSequence": 833,
   "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T08:19:15.003Z",
+  "lastSyncedAt": "2026-05-31T10:26:31.916Z",
   "warDay": 93,
-  "summary": "US and Iran are negotiating a 60-day truce while simultaneously exchanging strikes, as Israel intensifies its military operations in southern Lebanon against Hezbollah.",
+  "summary": "US and Iran continue to exchange strikes in the Gulf while negotiating a ceasefire extension, as Israel intensifies military operations against Hezbollah in southern Lebanon.",
   "lastNarrativeUpdate": "2026-05-31",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A 60-day truce MoU between the US and Iran is awaiting Trump's approval amidst ongoing exchanges of strikes and a US blockade enforcement."
+    "summary": "A tentative 60-day ceasefire extension between the US and Iran is reported, but remains in limbo pending US presidential approval amidst continued exchanges of strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.9,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.68
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 55,
     "sanctionsPressure": 54,
     "globalPressure": 63,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 29-30",
-      "text": "US defense secretary warns US military is ready to resume combat in the Persian Gulf if needed.",
+      "text": "US military warns readiness to resume combat in Gulf if needed.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBvUVMwOFVMTmdjLW52a3JJdWRJc2JMN3lQOC1jZy1oa2ZpRGNZYWZEMFp5ZHB3OHZfRWFMVHBmS3FIeUt4alFuWG9KdXdhQXE5SmN0VEJMTVZRV0FNbFlUY0p2NFdVNGhMb0RHdUpZT0EyZXUwaTlsOE1B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 832
+      "latestSinceUpdate": 833
     },
     {
       "date": "May 29-30",
-      "text": "Reports indicate US and Iran have reached an MoU on a 60-day truce, pending Trump's approval.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 832
+      "text": "US 'disables' ship with Hellfire missile in Gulf of Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSVotLVFqT0lNQy15OWRUSVRNYi12b1d2ZTZTekxmaE9uYlNmNDd5YlVwVXNlaHE2RWsxTzZVZzFxTmk0M05uSjdCVlU5OGFsbUVEY3hOWUJFRTEzOWtjOURHZUZUQ0pGNlJMSl9ORHk5WUVGOG9nM1U4WnBWS2RSZzBSaTFkWC1nR0ZmNmNGTUVTVnF3TFNUN2ptYk9TLXp5Y19PMm8xSFBpWTduQl9xTDNuVHZJSEwwWTV3a2Z30gHDAUFVX3lxTE1qaGFnNzB1Q2JrYy1HUml3ZllPZTZjbU9tUGxsV25VNWp4UnpOVkNFUHV0a3NXVzRsVHk1M2pHTkNnb05KVlhqVFE3TTY5MDN0dDhyZlNnSlJ3dTVpdGNFaXNqLUNNMDFfR2VWRGxlYlV4VnJPd09OVVktNDhndXlmLXlaUkJpdXd4U2Q3ZXM1bnZac3RzcGxnQmJBWFFKT0lqaFlhcVRLd3cxb1ppREs0VVM4dnZyTlpjMmhtc2hzWlotQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 833
     },
     {
       "date": "May 29-30",
-      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "text": "US and Iran trade attacks; Iran says it targeted American base after fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 832
+      "latestSinceUpdate": 833
     },
     {
       "date": "May 29-30",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
+      "text": "Reports of tentative US-Iran agreement for 60-day ceasefire extension, pending Trump approval.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 833
+    },
+    {
+      "date": "May 29-30",
+      "text": "US military fires missile into engine room of blockade runner after ignoring warnings.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQNGxzdS1Ic2wzLU1CeVJmcVlkd2s5UndyM1FnM2RSbWNrUU9PUFlrd2prLWM0X00tVmxtVE1YblRXWGxwbjFkTzZhbjdYVXlmTnNFR2swU25oUlBqOGZ1X1FzX1B1V2NYa1Q2U3A3YXBrcENhU1dORDJjclNtbE1xbjhTRVZwdjZtVDg0YjRaYVhfVG5Ha1BHQ0FvMXlnajA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 833
+    },
+    {
+      "date": "May 29-30",
+      "text": "Israel intensifies attacks on southern Lebanon, crossing Litani River and capturing Beaufort Castle.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 832
-    },
-    {
-      "date": "May 29-30",
-      "text": "Israel's military crossed Lebanon’s Litani River and captured Beaufort Castle in a push against Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 832
-    },
-    {
-      "date": "May 29-30",
-      "text": "Hezbollah is reportedly using fibre-optic drones to hit Israel, learning from the Ukraine war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9qdTM1SFdFWmR1OFUwdVRfUDRaVmFTVVhVYXpWRThFMjFscWtDdHltSkhBeVFKUHhsM29oMEJoalFISGtRbTBUQ3JabHp2X0F6LXRzeVlzZ0doZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 832
+      "latestSinceUpdate": 833
     }
   ],
   "sourceStatuses": [
