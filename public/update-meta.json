@@ -1,13 +1,13 @@
 {
-  "updateSequence": 839,
+  "updateSequence": 840,
   "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T18:55:24.118Z",
+  "lastSyncedAt": "2026-05-31T20:18:54.860Z",
   "warDay": 93,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A proposed 60-day ceasefire extension between the US and Iran has been agreed upon but remains unapproved by Trump and unconfirmed by Tehran, leaving its status in limbo."
+    "summary": "A reported 60-day ceasefire extension between the U.S. and Iran awaits Trump's approval, while combat operations and diplomatic hurdles persist."
   }
 }
