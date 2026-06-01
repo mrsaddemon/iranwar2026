@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 848,
+  "updateSequence": 849,
   "lastUpdated": "2026-06-01",
-  "lastSyncedAt": "2026-06-01T21:44:44.714Z",
+  "lastSyncedAt": "2026-06-01T23:17:52.279Z",
   "warDay": 94,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-01",
@@ -60,6 +60,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 01",
+      "text": "Iran War Live Updates: Trump Says Israel and Hezbollah Will Hold Off on New Strikes",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 849
+    },
+    {
+      "date": "Jun 01",
       "text": "Iran suspends peace talks after ‘violation of ceasefire’ in Lebanon",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNYy1wQ3RLdzhMZWtFWEdDdHlDWmJna09GdXI3Y0Rhd0pLcGQza0E4dHBxbURZYk5kaWFCVnNienBwN2xacm5mcUpBTE14S25wQ1c1dzBoWDh4R2RGcGNRN3htV3RFaG95Z0NFakd5SnRPNTJnNldEZXM0VDA2N29fSWVDRlE0ZUdJUjRNaGxUcm1GNXZBaVhMLXpmc05lUWhVNXZ0dThR?hl=en-US&gl=US&ceid=US:en",
@@ -84,33 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 01",
-      "text": "What to watch for in the US-Iran memo to end the war",
+      "text": "Iran war live: Trump says he spoke to Netanyahu, Hezbollah about Lebanon",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5DdGR6V1ZVMGpRWnVWSEpHSWlORXBLNzVtNElZY3RjNFZfN2pnc19wdlBsZTRmZ0F2OUtGSGlmQnMzbkxXNFpuNWFUR2NZMmd3M3dJVVhibHdPb1piLWZWYmRoajYtQ2JhTmxyNl9abkdHTzQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 847
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOaFlBcjlwS3dhN0dfcVlRY1QyQktOSkFQVWNMcHp4NEdnZFBnUUxmQnpOd2lHOEprMlJERGxhMG1JZ09McTJIbXJUaUtNY3JqMDZDVlI1NWJJLWNESjV2ZndFc2JtelkxYjhVSUNIa3RpaVdhZ3hDd0NpXzVEckNSLVlEa28xREp4X2RIY2Y4bjhBLS1lTGZDZHNwUXRLVm5BRmREVXVRRjVfU3lSTEtDOC0zbWpDSDhiTHVB0gHAAUFVX3lxTFBwNGZYT1FqdTZtR0o4dHd2S1FUMkZiT1NlYXhfNnl0VUI4OW5qQkMyWUF2MFAyWHc2cWlKYUtkbXluVkpEMnd1c1drNXBGSHo3Q05ZcHhqTGtaekdCTUIwUHVSWXJ1TmJDMTVoMGxGSU95dWdrMmNZbXRkd3dxLWVYeXNKN1lBb052Rm5scVFVVkF4M04yZ2NEa0ZhZkRwNW1VOERQTExOc2V2c3RSZWhPT3dNcE1pdHRhb3YzdG1Eag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 849
     },
     {
       "date": "Jun 01",
-      "text": "Iran War Live Updates: Trump Says Iran Talks Are Continuing; Iran and Israel Threaten New Attacks",
+      "text": "Middle East crisis live: Lebanon’s US embassy says Hezbollah has agreed to ‘reciprocal’ ceasefire with Israel under US proposal",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 848
-    },
-    {
-      "date": "Jun 01",
-      "text": "Iran live updates: Trump says he thinks deal with Iran could happen 'over the next week",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 848
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNLTFRYUp5ZHhXTHJtSGNTOEdmdHJtX2ZHX0ZjXzRDVENENGh1cGtiWVhwc081b3JlZV9jWmdTX0RINEFBWGlnckxqVjhyWHdWZUdGTlhoRVdxVDJWSURWVW9WOVJCZW84TUJRcVFkRGRHV0RfSWVLZHEzYko4ekZ2NGM4dTlXUFlMaGNQOGpLZ0E4b3lkNFlycFFmM1lMVGNrNUhIMzlvaXlRVXhXVGhpbVpfZ2RFRUlfRFlkcXdSbTZlSGROdDU4ckdSblp0UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 849
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (15 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
