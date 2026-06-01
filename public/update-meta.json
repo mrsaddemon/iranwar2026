@@ -1,13 +1,13 @@
 {
-  "updateSequence": 843,
-  "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T23:31:59.101Z",
-  "warDay": 93,
+  "updateSequence": 844,
+  "lastUpdated": "2026-06-01",
+  "lastSyncedAt": "2026-06-01T01:41:35.035Z",
+  "warDay": 94,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No formal ceasefire is in effect, though diplomatic talks between the US and Iran are ongoing amidst active military engagements."
+    "summary": "No active ceasefire or truce is currently in effect between the primary belligerents."
   }
 }

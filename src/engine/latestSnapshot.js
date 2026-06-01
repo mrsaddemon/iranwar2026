@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 843,
-  "lastUpdated": "2026-05-31",
-  "lastSyncedAt": "2026-05-31T23:31:59.101Z",
-  "warDay": 93,
-  "summary": "Ongoing US-Iran diplomatic efforts are complicated by new US military strikes and warnings in the Gulf, while Israel expands its operations in Lebanon and Gaza against Hezbollah amidst continued cross-border attacks.",
-  "lastNarrativeUpdate": "2026-05-31",
+  "updateSequence": 844,
+  "lastUpdated": "2026-06-01",
+  "lastSyncedAt": "2026-06-01T01:41:35.035Z",
+  "warDay": 94,
+  "summary": "Military actions by the US and Israel continue against Iran and Hezbollah, respectively, while diplomatic efforts regarding a US-Iran agreement are ongoing amidst critical threats to the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-06-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No formal ceasefire is in effect, though diplomatic talks between the US and Iran are ongoing amidst active military engagements."
+    "summary": "No active ceasefire or truce is currently in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.5
+        "precision": 0.4,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
     "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
     "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 46
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "May 29-30",
-      "text": "US military warns it is ready to resume combat in the Gulf if needed.",
+      "text": "US defense secretary warns military is ready to resume combat in Gulf if needed.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 843
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBvUVMwOFVMTmdjLW52a3JJdWRJc2JMN3lQOC1jZy1oa2ZpRGNZYWZEMFp5ZHB3OHZfRWFMVHBmS3FIeUt4alFuWG9KdXdhQXE5SmN0VEJMTVZRV0FNbFlUY0p2NFdVNGhMb0RHdUpZT0EyZXUwaTlsOE1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 844
     },
     {
       "date": "May 29-30",
-      "text": "US military disables a ship with a Hellfire missile in the Gulf of Oman and launches new strikes on Iran, targeting missile sites and boats.",
+      "text": "US 'disables' a ship with a Hellfire missile in the Gulf of Oman.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 843
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPSVotLVFqT0lNQy15OWRUSVRNYi12b1d2ZTZTekxmaE9uYlNmNDd5YlVwVXNlaHE2RWsxTzZVZzFxTmk0M05uSjdCVlU5OGFsbUVEY3hOWUJFRTEzOWtjOURHZUZUQ0pGNlJMSl9ORHk5WUVGOG9nM1U4WnBWS2RSZzBSaTFkWC1nR0ZmNmNGTUVTVnF3TFNUN2ptYk9TLXp5Y19PMm8xSFBpWTduQl9xTDNuVHZJSEwwWTV3a2Z3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 844
     },
     {
       "date": "May 29-30",
-      "text": "US military hits a commercial ship attempting to reach Iran while peace talks continue.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxNRUU3MHlOVjVsQWhJMENWVEsxWGhjVTd5Sm82Q3BNYjM4N0VjTjV2ektpLTlsTjZCMllrYmFmd3N0TDZRbnl3WFpkTXRWbEVJUFB0SkVsUzc0SU9BS1lacDNCWHR6bEhuQV8za0ZlN0w1QUMxX1Q3Z3hGUy05emdHRGg2VjljS0JTUkFoU19idzBWYlN1bUNhQ0ZpSG9RNDJDZzFRQXJKMFdNNWUtbGIyNG5DVnFoVXAxTi1ERXlHOWwyNnBCdWZrdjN2LTU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 843
-    },
-    {
-      "date": "May 29-30",
-      "text": "Trump puts off a 'Final Determination' on an Iran proposal and is seeking edits to a possible US-Iran agreement, including on enriched uranium and the Strait of Hormuz.",
+      "text": "Trump puts off 'final determination' on an Iran proposal, while seeking edits to a possible US-Iran agreement.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZXhWUGE0ZjBSTk1fTlJYRm84Tk9saERWQVhYcUdIOFFhZjFXTGgyREVGRUNUbmhNdDRCZkFicDU3WkhDQVpxTzBMUG9uWlZoQWRTeVhlLWY0dEJKamxrVTNxM1BpWXpRTl9wcElGSnQxaExvRVhfZ3pJV3BzdzBha01INnJaVHJYYmlVY1ZfX3pYN01BeEd2LTJUSW1lbjdm?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 843
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9hSzZvb0J6TUlWam5NM1FWaldpZFRZdUpfUmVGMWNnNG5kRkVidmpOVlJCeUc0a1BRSVBoYnlGQ1pCdnp3QmczMlV4WWxTcUV1VmExM3ZRQnlQZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 844
     },
     {
       "date": "May 29-30",
-      "text": "Iran promises 'utter ruin' if war restarts, while stating US talks continue despite ongoing strikes.",
+      "text": "Iran promises 'utter ruin' if war restarts.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 843
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOTVhnUnlzdGZkbDRWR3IyUDY2R3hqUkxpSHdGSlB2X21jdzNUdW9YNV9MbWxjMmtwWG9sejlkbGJFZGxybUI1a3lvT2N0Ul9ScGt2eDZob21RM3VnbE1hd2VORnVJdVdqdjlKekZMaE1wUnVXMC1ocUdIaDZXOUdObF9HVng?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 844
     },
     {
       "date": "May 29-30",
-      "text": "Netanyahu orders a deeper Israeli incursion into Lebanon to hit Hezbollah, and Israel strikes Lebanon and Gaza.",
+      "text": "Netanyahu orders Israeli army to expand Lebanon invasion and deeper incursion to hit Hezbollah.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi1wFBVV95cUxQZ19uYndNRDdIVlVObEJCQjhHUnhNUTRqWTM3NFppenBsU01tWU5ILXU2ZHA3QmVHYllWU0ZQeU1nVzlITlhsUDlFTkJoU19OUXJPUFFyMDBYZ2l2a3EtSVo0YkFRQUF0bTlvOVJ3Vm40dHFGTUoyNm9ZTnlBQWltYXZxak1xLXdOQ29XR05ZNzd3cTF1MWtuZjZRZW14dWZlLWhEcHJfRzVMTlZTMVhhbHdsQ2I0S3hIY2NqdWZMUlZWNjJteVhRd19QVEpJVFBVMjdPd0NtRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 843
+      "sourceName": "Google News",
+      "latestSinceUpdate": 844
+    },
+    {
+      "date": "May 29-30",
+      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 844
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Administration",
-      "headline": "Trump's Demands Shape Iran Truce",
-      "summary": "President Trump has outlined demands for Iran and has yet to give final approval to a tentative 60-day truce agreement, with US officials emphasizing the military's capability to resume strikes if necessary. Negotiations are ongoing, but the administration maintains a firm stance.",
+      "perspective": "US Policy",
+      "headline": "US maintains military readiness and diplomatic engagement amidst Gulf tensions",
+      "summary": "The US military asserts readiness for combat in the Gulf and conducts strikes against Iranian targets, while also guiding ships through the Strait of Hormuz. President Trump is actively seeking to finalize a US-Iran agreement, including on enriched uranium and the Strait of Hormuz.",
       "tone": "strained",
-      "latestSinceUpdate": 830
+      "latestSinceUpdate": 844
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Responds to US Strikes Amid Truce Talks",
-      "summary": "Iran has agreed to a tentative 60-day truce but continues to target American bases in response to fresh US strikes, including a US military hit on a commercial ship attempting to reach Iran. This indicates a volatile situation despite diplomatic efforts.",
+      "perspective": "Iranian Stance",
+      "headline": "Iran warns of 'utter ruin' while facing US strikes and blockade",
+      "summary": "Iran warns of 'utter ruin' if conflict restarts, facing new US strikes on missile sites and boats, and a US military strike on a commercial ship attempting to breach an Iranian blockade. President Trump suggests Iran is 'negotiating on fumes' amid ongoing diplomatic efforts.",
       "tone": "defiant",
-      "latestSinceUpdate": 830
+      "latestSinceUpdate": 844
     },
     {
-      "perspective": "Israel/Hezbollah",
-      "headline": "Hezbollah's Drone Threat Escalates Border Conflict",
-      "summary": "Hezbollah has intensified its attacks on northern Israel using rockets and advanced fibre-optic drones, prompting Israel to shut schools near the border. This regional conflict continues to escalate, posing a significant security challenge for Israel.",
+      "perspective": "Israel-Hezbollah Conflict",
+      "headline": "Israel expands Lebanon incursion as Hezbollah intensifies rocket attacks",
+      "summary": "Netanyahu has ordered the Israeli army to expand its invasion and deepen its incursion into Lebanon to target Hezbollah. Concurrently, Hezbollah has launched persistent rocket barrages on northern Israel, utilizing a 'game changing' night-hunting weapon.",
       "tone": "anxious",
-      "latestSinceUpdate": 830
+      "latestSinceUpdate": 844
     }
   ]
 });
