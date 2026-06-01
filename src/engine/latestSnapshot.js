@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 847,
+  "updateSequence": 848,
   "lastUpdated": "2026-06-01",
-  "lastSyncedAt": "2026-06-01T18:18:47.210Z",
+  "lastSyncedAt": "2026-06-01T21:44:44.714Z",
   "warDay": 94,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-01",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 01",
-      "text": "Iran War Live Updates: Israel and Iran Threaten New Military Action",
+      "text": "Iran suspends peace talks after ‘violation of ceasefire’ in Lebanon",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 847
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNYy1wQ3RLdzhMZWtFWEdDdHlDWmJna09GdXI3Y0Rhd0pLcGQza0E4dHBxbURZYk5kaWFCVnNienBwN2xacm5mcUpBTE14S25wQ1c1dzBoWDh4R2RGcGNRN3htV3RFaG95Z0NFakd5SnRPNTJnNldEZXM0VDA2N29fSWVDRlE0ZUdJUjRNaGxUcm1GNXZBaVhMLXpmc05lUWhVNXZ0dThR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 848
     },
     {
       "date": "Jun 01",
@@ -92,25 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 01",
-      "text": "Live updates: Iran suspends talks with US over Israel’s strikes on Lebanon, state media reports",
+      "text": "Iran War Live Updates: Trump Says Iran Talks Are Continuing; Iran and Israel Threaten New Attacks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9GTUlJc1NURGJieVpKUTE2Y2ZraTVoSXNUM2FieW15UVdLbUt1U0t6djJWNDlNanJjUXRseVJ3TUxaY29NX3NDeUNqZ2d6dmtKMGRlR056NTlFc2pCaEVtdWg5SEh2VFRNUUVjaVFIX3NGNTBLS1ltZWUzSUpBd1U?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 847
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 848
     },
     {
       "date": "Jun 01",
-      "text": "Live Updates: Iran state media say talks with U.S. halted, attacks on another key waterway coming",
+      "text": "Iran live updates: Trump says he thinks deal with Iran could happen 'over the next week",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxPeWhrRFh0cG5WejkyUjJ1ZWhGam90eHFRNUFjdE5ITWZDUkRxemFfalNOMVozMG1mYTU5T2RTWGlnRXJuTGgtbUE2Q2dpNnBrRnNwcHFDaFpFOEdIbU85T1FQVWNXNWJqSUhKbzB4dnNEekRjSVByQW9wWGFUcm9OMm1RT19MM2xTajZyVzBOWERWdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 847
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 848
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
