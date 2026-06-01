@@ -1,13 +1,13 @@
 {
-  "updateSequence": 846,
+  "updateSequence": 847,
   "lastUpdated": "2026-06-01",
-  "lastSyncedAt": "2026-06-01T12:19:38.593Z",
+  "lastSyncedAt": "2026-06-01T18:18:47.210Z",
   "warDay": 94,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "Despite reports of a ceasefire being tested, continuous US and Iranian strikes indicate a collapsed state, with a broader peace deal remaining elusive."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
