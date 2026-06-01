@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 845,
+  "updateSequence": 846,
   "lastUpdated": "2026-06-01",
-  "lastSyncedAt": "2026-06-01T06:35:14.578Z",
+  "lastSyncedAt": "2026-06-01T12:19:38.593Z",
   "warDay": 94,
-  "summary": "Military actions by the US and Israel continue against Iran and Hezbollah, respectively, while diplomatic efforts regarding a US-Iran agreement are ongoing amidst critical threats to the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-01",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Despite reports of a ceasefire being tested, continuous US and Iranian strikes indicate a collapsed state, with a broader peace deal remaining elusive."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 01",
-      "text": "Iran Update Special Report, May 31, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPaUNMRmF2dGdJeEJLZXEtaU1mdW8tUE1QS0lsX1p1U1lvM01fM1hHOW5wNUxJaGwySFd1LWVaa0F1U3UxMGZvNXdTZElmQ0ZoQ1hoMFdjZWltbGc1bGNsMERoakMwMGVudXNBZENlN0hhOG9SWlZKZVlfb29UeXN1aVhMMW9MMjROaGJBY2VHVEwzWFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 845
-    },
-    {
-      "date": "Jun 01",
-      "text": "What to watch for in the US-Iran memo to end the war",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5DdGR6V1ZVMGpRWnVWSEpHSWlORXBLNzVtNElZY3RjNFZfN2pnc19wdlBsZTRmZ0F2OUtGSGlmQnMzbkxXNFpuNWFUR2NZMmd3M3dJVVhibHdPb1piLWZWYmRoajYtQ2JhTmxyNl9abkdHTzQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 845
-    },
-    {
-      "date": "Jun 01",
-      "text": "Trump tightens terms on Iran war deal, US media say",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxObFR6Z1ZxN1JhbGp3YUtvVmExUTBUTGlzMGhxdEhyZktHcU1rOWFHWG53T1MteS11U0dFSnFNWGhRYVpWY1c3M01WZ0NNRTBzejlXVWk2NHg0bENKMjJUdXh4QllUYnVvQUs4TGhHTndiLU9xSlhmOEFMZ1Jzc0E1TVE2ZGJzdWJhY0xrX0tQZ1ZrY0l4MUHSAZsBQVVfeXFMUDIyMUV5ZDdiczBKbmhyQ1ZFaGFyNUctemQ0bUhvOUZuTG5qa2sxMjNkQW5YZklKZnk1cjViYVNLUnJHd2IxSF9yNjZvUVJjeDBfbThDYVczUWtGaFhPSDNDNzBjaks1N0stWG5Ebk9WZHB3dEVSODRmZVlwZ2FCYmNUdFViUV8waUxHTEJ6RG8wa1lTUE93SEkydFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 845
-    },
-    {
-      "date": "Jun 01",
-      "text": "Iran War Updates: Trump Puts Off ‘Final Determination’ on Iran Proposal",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFB4amRjY21ZdVRYa29sT1IwbS1fX2VZMjFCenhMNmRqc1BMUDcyVXZKV3JGOWpBYnFlYlJ2XzhjVXhNVThSUU5FX0dIbEc5RVBJQjcxVTkwYU9pS1dBX0t5NDhOcTFtTEk1LTZEaHgxLXdWMTU2Q3dJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 845
-    },
-    {
-      "date": "Jun 01",
-      "text": "Iran war updates: Netanyahu orders Israeli army to expand Lebanon invasion",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNY24wNkZUR1ZyOFJFdnFnZ1FJWVB5VENxaTJLSHpSUVZRcHgzMFFYdXNFRGNyNER3aG1XS0tzbXZ3VXd5WHFOb3I3cXlrRnpOX281aUo5RGRQVnliZ1JFN2tsRWZRd0JCWVUtQmtNNHJZdjdZSXZwdXRaWFhERzVUNHlneWlScnRfVkVrdzcwUXM1RXFNQ1Y5YjN4MGFsaHhqSmtkcm5kWUhsbmtlUlNFSNIBtgFBVV95cUxNX28xSk84d05HRGRQd1FqdmpqQ2Z0clNTNWdYcUc5SWxDd2xzTHlMNl9tcHNMUHJ4NkhvTzJTT0h1WmtfcWhCenF6bnQ0aVB3X0NINVFkSmM4NE5MaXVETlBKenVOTFZ3T0VoRVQtN0NFazNnUS1OZmNQN09IUEZmX1lwVGsxZ3VkRGhtRjNjRWZjZldqbHpwTXA4Y1E5ZGswS2hNYjRfZ1NhSlJDZHdaUlc3LUpaUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 845
-    },
-    {
-      "date": "Jun 01",
-      "text": "Iran war live: US bombs Qeshm, Goruk; Kuwait reports missile, drone attacks",
+      "date": "May 31",
+      "text": "US and Iran exchange new attacks, straining ongoing peace talks.",
       "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 846
+    },
+    {
+      "date": "May 31",
+      "text": "US-Iran ceasefire is reportedly 'being tested' on multiple fronts.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOaFlBcjlwS3dhN0dfcVlRY1QyQktOSkFQVWNMcHp4NEdnZFBnUUxmQnpOd2lHOEprMlJERGxhMG1JZ09McTJIbXJUaUtNY3JqMDZDVlI1NWJJLWNESjV2ZndFc2JtelkxYjhVSUNIa3RpaVdhZ3hDd0NpXzVEckNSLVlEa28xREp4X2RIY2Y4bjhBLS1lTGZDZHNwUXRLVm5BRmREVXVRRjVfU3lSTEtDOC0zbWpDSDhiTHVB0gHAAUFVX3lxTFBwNGZYT1FqdTZtR0o4dHd2S1FUMkZiT1NlYXhfNnl0VUI4OW5qQkMyWUF2MFAyWHc2cWlKYUtkbXluVkpEMnd1c1drNXBGSHo3Q05ZcHhqTGtaekdCTUIwUHVSWXJ1TmJDMTVoMGxGSU95dWdrMmNZbXRkd3dxLWVYeXNKN1lBb052Rm5scVFVVkF4M04yZ2NEa0ZhZkRwNW1VOERQTExOc2V2c3RSZWhPT3dNcE1pdHRhb3YzdG1Eag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 845
+      "latestSinceUpdate": 846
+    },
+    {
+      "date": "May 31",
+      "text": "Netanyahu orders Israeli army to expand Lebanon invasion, targeting Beirut suburbs.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNY24wNkZUR1ZyOFJFdnFnZ1FJWVB5VENxaTJLSHpSUVZRcHgzMFFYdXNFRGNyNER3aG1XS0tzbXZ3VXd5WHFOb3I3cXlrRnpOX281aUo5RGRQVnliZ1JFN2tsRWZRd0JCWVUtQmtNNHJZdjdZSXZwdXRaWFhERzVUNHlneWlScnRfVkVrdzcwUXM1RXFNQ1Y5YjN4MGFsaHhqSmtkcm5kWUhsbmtlUlNFSNIBtgFBVV95cUxNX28xSk84d05HRGRQd1FqdmpqQ2Z0clNTNWdYcUc5SWxDd2xzTHlMNl9tcHNMUHJ4NkhvTzJTT0h1WmtfcWhCenF6bnQ0aVB3X0NINVFkSmM4NE5MaXVETlBKenVOTFZ3T0VoRVQtN0NFazNnUS1OZmNQN09IUEZmX1lwVGsxZ3VkRGhtRjNjRWZjZldqbHpwTXA4Y1E5ZGswS2hNYjRfZ1NhSlJDZHdaUlc3LUpaUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 846
+    },
+    {
+      "date": "May 31",
+      "text": "US launches new strikes on Iran, targeting missile sites, boats, and radar sites.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 846
+    },
+    {
+      "date": "May 31",
+      "text": "Kuwait reports missile and drone attacks, with some shot down over its territory.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 846
+    },
+    {
+      "date": "May 31",
+      "text": "Hezbollah employs a 'game changing' night-hunting weapon against Israeli defenses.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 846
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 845,
+  "updateSequence": 846,
   "lastUpdated": "2026-06-01",
-  "lastSyncedAt": "2026-06-01T06:35:14.578Z",
+  "lastSyncedAt": "2026-06-01T12:19:38.593Z",
   "warDay": 94,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Despite reports of a ceasefire being tested, continuous US and Iranian strikes indicate a collapsed state, with a broader peace deal remaining elusive."
   }
 }
