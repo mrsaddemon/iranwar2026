@@ -1,13 +1,13 @@
 {
-  "updateSequence": 855,
+  "updateSequence": 856,
   "lastUpdated": "2026-06-02",
-  "lastSyncedAt": "2026-06-02T21:37:39.980Z",
+  "lastSyncedAt": "2026-06-02T23:22:56.151Z",
   "warDay": 95,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "No formal ceasefire is active, though diplomatic talks are underway between various parties amidst continued military engagements and reported violations."
+    "summary": "A US-brokered partial ceasefire plan is in place for Lebanon, but it is frequently violated by ongoing clashes between Israel and Hezbollah."
   }
 }
