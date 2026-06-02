@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 851,
+  "updateSequence": 852,
   "lastUpdated": "2026-06-02",
-  "lastSyncedAt": "2026-06-02T06:24:28.962Z",
+  "lastSyncedAt": "2026-06-02T11:06:34.863Z",
   "warDay": 95,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The region is experiencing heightened military activity with direct US-Iran confrontations, Israeli strikes in Lebanon, and the collapse of ceasefire talks, alongside Iranian threats to block the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-06-02",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire talks between the US and Iran have collapsed, with Iran suspending negotiations and renewed attacks occurring between Israel and Hezbollah."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 02",
-      "text": "Live updates: Trump vented anger in call with Netanyahu as status of Iran peace talks remain unclear",
+      "date": "May 31",
+      "text": "Israel and Iran step back from threats after a day of tension.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9GTUlJc1NURGJieVpKUTE2Y2ZraTVoSXNUM2FieW15UVdLbUt1U0t6djJWNDlNanJjUXRseVJ3TUxaY29NX3NDeUNqZ2d6dmtKMGRlR056NTlFc2pCaEVtdWg5SEh2VFRNUUVjaVFIX3NGNTBLS1ltZWUzSUpBd1U?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 851
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 852
     },
     {
-      "date": "Jun 02",
-      "text": "Iran Update Special Report, May 31, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPaUNMRmF2dGdJeEJLZXEtaU1mdW8tUE1QS0lsX1p1U1lvM01fM1hHOW5wNUxJaGwySFd1LWVaa0F1U3UxMGZvNXdTZElmQ0ZoQ1hoMFdjZWltbGc1bGNsMERoakMwMGVudXNBZENlN0hhOG9SWlZKZVlfb29UeXN1aVhMMW9MMjROaGJBY2VHVEwzWFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 850
-    },
-    {
-      "date": "Jun 02",
-      "text": "Iran war live: Trump talks to Hezbollah, Israel as Lebanon fighting surges",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQV1MybzFWaVBnd3FjRGhNWEF3UVl5WnhSQjh0VS1lWDdxUVlJSjJ6SW5XRFRUTW1SakFTOEQzTWhxSTBRSEdBcURnOGRrTUVIazhWQ2hDQ3ZhblNCTGVIZmNuX21LdVF2UTFpQXZqa0MyV2RHc21aQnkweWs0UEZHcnE2ZV9BV29rQTk1UHgtOFlZbWtWNlNwdlVkNHlKMGZibE04Tm5RODNfQzY2ZUN4UC10TnN3Z3Z2YXlNNmxn0gHDAUFVX3lxTE5VSTZSN041Y1dnaEhjZlpzWUtTc0NPUGxhZUdnSlBySnhEX2NSbExobV9qQzAyUHFzZnFSazRaanVMV3BjWDdYVkdqY1RoSmtVb2JHRDkzeUZBVG1kWWx6VldneW9fVGE3aE8wcVVRUTExaG5PZUJoM2d2YWRkRDlIV2k0YXg1Y1ZldWxUT3RsWXZESkNMRnNQSkdGOGFib1QyNk5qWEZ1b2ZTbmRUTlNPOFFNRDdoWUtwYUtrMmJZbGJTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 851
-    },
-    {
-      "date": "Jun 02",
-      "text": "Israel and Iran Step Back From Threats After Day of Tension",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 851
-    },
-    {
-      "date": "Jun 02",
-      "text": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+      "date": "Recent",
+      "text": "Iran breaks off ceasefire talks over Israeli attacks on Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNLTFRYUp5ZHhXTHJtSGNTOEdmdHJtX2ZHX0ZjXzRDVENENGh1cGtiWVhwc081b3JlZV9jWmdTX0RINEFBWGlnckxqVjhyWHdWZUdGTlhoRVdxVDJWSURWVW9WOVJCZW84TUJRcVFkRGRHV0RfSWVLZHEzYko4ekZ2NGM4dTlXUFlMaGNQOGpLZ0E4b3lkNFlycFFmM1lMVGNrNUhIMzlvaXlRVXhXVGhpbVpfZ2RFRUlfRFlkcXdSbTZlSGROdDU4ckdSblp0UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 851
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPQm0zc1ZESDFjVVJZcUZiOUhhQVFfUjdIV3V4b0FoQkJVb3Z3dHBfVEl1SGNGaUdsQTQxN2U3OWtUelQwbmdKOHI2VUZ5bjVMWWNSTDB5dTdmcFl2Vk1mUnVmVndOQ05hVTlfVzNYOEFmeFlYOXJFd05XMnVkTUFERWprWWZYOTlNaTdiMmctUllpNE91WXk1M0RRNzFTVXYt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 852
     },
     {
-      "date": "Jun 02",
-      "text": "US-Israel-Iran War News Live Updates: Israel's attack across southern Lebanon continues amid Trump's diplomatic breakthrough attempt",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwJBVV95cUxOMzg2M21IeERiX191dWZGRjI2YkxqUHViU1REdjlKcjNKaHk2RW9JdDYxS1lRYnRCWkR5MWM2Y1lULWxsWGV2bGk3WkxRUkJjbXFyRXZfSWU4Q2ItY1FxZkw5TTdfb1JOWDluUG8tUGltOGhWWGVhWkZqNVJuTUZrSDdjQkJ6STd4SFVZN3p4dHotaml5ZGZWRWVjQVMxUXdSVGFtVk56dlBrb0hfRHF6ZG1paThudnZGVGdoNDhIYVE2R3JHZHd2d2J2UV80V0I0MDZnaFVfMm9DUUVPanN2RldpWVVZMzd1Yk5BcXZkSjBFdW1fb2M5Tkd1Z1NpUDlJVlRSaVpxU1VEbF9NX1F0SjFURGM2cTFDNXNRYjduQkpubGU3VU9Fd1NHWnhpNC1adHhGMHpkc1JBcHNKMk130gHEAkFVX3lxTE1XdFNyd2Vpak5LWW1hN0FSWlJtNXlGOW4ySjBKRWlFalRiLTVFMVBOUGNRblpLWkxXX0pWYnJzYlBsT3FVeHJRa0h4blJ5U3JRSXNKVDluQmNUazRRUlRqeGFuYjVGQjdRRk5ZTzhvVmIxRFVBaTg4M3BybERLa2ZaYWs3ZEM2dmxwWVJ3aXFfTlowa2JSRG9XUGdISGw3U25yaHlrZHkzRVVWZXVPcXUzRmowRDZ1SXNZMVhpSUFNMUpkVjR6WUpLSUV3TXFaTWtzelZ4RHVTWXhTeTZrczFJcmlwcS1naGpSWW4zZVRWeEFrWWdxZHd3MUpEQTZJa19GMTYtcEhpLXN3cVZ1WjM4VktlZ1dFdlNTcDVJcXZ1ZzgzRW5iV1UzWUF0NEtfSlcyNFIxME9FZlpudVFuQUtwa01RUw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 851
+      "date": "Recent",
+      "text": "Israel strikes Southern Lebanon after pulling back from threat to Beirut.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 852
+    },
+    {
+      "date": "Recent",
+      "text": "US strikes Iranian radar sites; Iran targets American forces in Kuwait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wc3lMT3hUc01OVVUtMzFXb29BREozUmQ5UEFrYW5UbFlwbjE1TDFiczZoQWFBSkxDNXgzdVFaREp0TVdBNmZGOGw2QVlyQjhSRVI1MEdmUjJndw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 852
+    },
+    {
+      "date": "Recent",
+      "text": "Iran vows to block Strait of Hormuz and stops negotiations with the U.S.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBSUHpKdFZmVERQYzNIejV5MWdFZ1B0eVdlOEVqek04RHZ4cnNkM1Y3eEZMS04yblJ5VmZRSWRxOVJxZkRDSHdYMTB2U3djSGFKTXFuc04zeGx5UTdPQ1dDdjdGa05WLUxFR0JvdXpRWnRLNmkzYXlwR0EzS0hDOE3SAYQBQVVfeXFMT0Z1aDdzejZNN2dHNW5mUnZxWnZ5RUtPXzA1VS1KSWZNWUItSTJRTThvS2pZLVctOFFvRGdDRHBfVmxMZV91Ti1tTjY5dzE3V3RGR3VLd0wzQkhXNkJLMlhvb2M1R0RsZUE2ckhrWmFEeWdQNV9QVlB1c2RTZVRidlpsVjJp?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 852
+    },
+    {
+      "date": "Recent",
+      "text": "Israel and Hezbollah trade new attacks despite Trump intervention.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNV195UHZJZ2NFWWs1c0tqT21IdTlyb2F4YVNtWWNSNHFWbDJmMDVqWVJMXzBjaV9QUTVHOXBHc3VrYzJkQnlrQm8xM3cwa2s1ZmJTajY0RE5Vd2Nnak9IQ3dLcE05bmE4d1ZTVmgtTExWQkFHVlpZYVB0QTh2TjdNNGJ4dW9BM2txdTl4VmFXRm9ZREVGWUJ4b3JUSEp3SVphQlViQ05ITk9TS05O?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 852
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
