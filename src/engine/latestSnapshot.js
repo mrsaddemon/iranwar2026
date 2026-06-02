@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 850,
+  "updateSequence": 851,
   "lastUpdated": "2026-06-02",
-  "lastSyncedAt": "2026-06-02T01:39:06.203Z",
+  "lastSyncedAt": "2026-06-02T06:24:28.962Z",
   "warDay": 95,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-02",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -60,19 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 02",
-      "text": "West Asia war highlights: Trump says Netanyahu agreed not to send troops to Beirut",
+      "text": "Live updates: Trump vented anger in call with Netanyahu as status of Iran peace talks remain unclear",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNZHl3cEM3TGZ1SWdrZDJWOUNia08ycHNlMWZGX0dWbnRxbHNLUzl1REkyMnNYSW1MYTFEWlBSd2NQVU5YbG5iZnc0b3Q2WG9hdU9GRld1ZkNRVnYyX2Fub0xkdnlkUW1sdndtYzRqbzI1VFJDMWhqMGdGbXZjS0kzSDY5WXNsYldNaDM0NVhMUjY1anpoWEg0bVhyWkpDTjJVX1kzek52OXlXdkJQY1A3T1QyMXRJX3VHaUIxbG8wY0k1YlBta0lqSFVPTjBvZjVaeTUtUlZadlhkekx5T3fSAeQBQVVfeXFMT3hNX1QzanFyU2RCeFB5M3pYY3BRRXhNVzByVHlOczRTNDl0bmd5OGxxcUdnTk92NmtLdDdwbDBFeDlkLXJCa3FaeGN2S2lzb0NRdXVJLS11RUtSMzkwUVFIOUxCVFpoNlVVcjQ1YWRrSkdTVUdKRld2VjN3T0xCQ0hsVGVNUGtwLWk5R19obk5aWmV6ZDI2cUl1QjZMOF9IcTAzRGdLeDFZYXVTN3BYbVp3Vm9SZzNyQS1yaTktTGdoR2RBZDNVYzBpdXk1LUhGa251UDRVMjkzZkl2clBpcFU2S2lv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 850
-    },
-    {
-      "date": "Jun 02",
-      "text": "Iran threatens to suspend peace talks after ‘violation of ceasefire’ in Lebanon",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNYy1wQ3RLdzhMZWtFWEdDdHlDWmJna09GdXI3Y0Rhd0pLcGQza0E4dHBxbURZYk5kaWFCVnNienBwN2xacm5mcUpBTE14S25wQ1c1dzBoWDh4R2RGcGNRN3htV3RFaG95Z0NFakd5SnRPNTJnNldEZXM0VDA2N29fSWVDRlE0ZUdJUjRNaGxUcm1GNXZBaVhMLXpmc05lUWhVNXZ0dThR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 850
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9GTUlJc1NURGJieVpKUTE2Y2ZraTVoSXNUM2FieW15UVdLbUt1U0t6djJWNDlNanJjUXRseVJ3TUxaY29NX3NDeUNqZ2d6dmtKMGRlR056NTlFc2pCaEVtdWg5SEh2VFRNUUVjaVFIX3NGNTBLS1ltZWUzSUpBd1U?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 851
     },
     {
       "date": "Jun 02",
@@ -84,33 +76,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 02",
-      "text": "What to watch for in the US-Iran memo to end the war",
+      "text": "Iran war live: Trump talks to Hezbollah, Israel as Lebanon fighting surges",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5DdGR6V1ZVMGpRWnVWSEpHSWlORXBLNzVtNElZY3RjNFZfN2pnc19wdlBsZTRmZ0F2OUtGSGlmQnMzbkxXNFpuNWFUR2NZMmd3M3dJVVhibHdPb1piLWZWYmRoajYtQ2JhTmxyNl9abkdHTzQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 850
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQV1MybzFWaVBnd3FjRGhNWEF3UVl5WnhSQjh0VS1lWDdxUVlJSjJ6SW5XRFRUTW1SakFTOEQzTWhxSTBRSEdBcURnOGRrTUVIazhWQ2hDQ3ZhblNCTGVIZmNuX21LdVF2UTFpQXZqa0MyV2RHc21aQnkweWs0UEZHcnE2ZV9BV29rQTk1UHgtOFlZbWtWNlNwdlVkNHlKMGZibE04Tm5RODNfQzY2ZUN4UC10TnN3Z3Z2YXlNNmxn0gHDAUFVX3lxTE5VSTZSN041Y1dnaEhjZlpzWUtTc0NPUGxhZUdnSlBySnhEX2NSbExobV9qQzAyUHFzZnFSazRaanVMV3BjWDdYVkdqY1RoSmtVb2JHRDkzeUZBVG1kWWx6VldneW9fVGE3aE8wcVVRUTExaG5PZUJoM2d2YWRkRDlIV2k0YXg1Y1ZldWxUT3RsWXZESkNMRnNQSkdGOGFib1QyNk5qWEZ1b2ZTbmRUTlNPOFFNRDdoWUtwYUtrMmJZbGJTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 851
     },
     {
       "date": "Jun 02",
-      "text": "Iran War Live Updates: Trump Says Israel and Hezbollah Will Hold Off on New Strikes",
+      "text": "Israel and Iran Step Back From Threats After Day of Tension",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 850
+      "latestSinceUpdate": 851
     },
     {
       "date": "Jun 02",
-      "text": "Iran war updates: Trump says he spoke to Netanyahu, Hezbollah about Lebanon",
+      "text": "UN experts warn against ‘surging Israeli settler terror’ – as it happened",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNLTFRYUp5ZHhXTHJtSGNTOEdmdHJtX2ZHX0ZjXzRDVENENGh1cGtiWVhwc081b3JlZV9jWmdTX0RINEFBWGlnckxqVjhyWHdWZUdGTlhoRVdxVDJWSURWVW9WOVJCZW84TUJRcVFkRGRHV0RfSWVLZHEzYko4ekZ2NGM4dTlXUFlMaGNQOGpLZ0E4b3lkNFlycFFmM1lMVGNrNUhIMzlvaXlRVXhXVGhpbVpfZ2RFRUlfRFlkcXdSbTZlSGROdDU4ckdSblp0UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 851
+    },
+    {
+      "date": "Jun 02",
+      "text": "US-Israel-Iran War News Live Updates: Israel's attack across southern Lebanon continues amid Trump's diplomatic breakthrough attempt",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOaFlBcjlwS3dhN0dfcVlRY1QyQktOSkFQVWNMcHp4NEdnZFBnUUxmQnpOd2lHOEprMlJERGxhMG1JZ09McTJIbXJUaUtNY3JqMDZDVlI1NWJJLWNESjV2ZndFc2JtelkxYjhVSUNIa3RpaVdhZ3hDd0NpXzVEckNSLVlEa28xREp4X2RIY2Y4bjhBLS1lTGZDZHNwUXRLVm5BRmREVXVRRjVfU3lSTEtDOC0zbWpDSDhiTHVB0gHAAUFVX3lxTFBwNGZYT1FqdTZtR0o4dHd2S1FUMkZiT1NlYXhfNnl0VUI4OW5qQkMyWUF2MFAyWHc2cWlKYUtkbXluVkpEMnd1c1drNXBGSHo3Q05ZcHhqTGtaekdCTUIwUHVSWXJ1TmJDMTVoMGxGSU95dWdrMmNZbXRkd3dxLWVYeXNKN1lBb052Rm5scVFVVkF4M04yZ2NEa0ZhZkRwNW1VOERQTExOc2V2c3RSZWhPT3dNcE1pdHRhb3YzdG1Eag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 850
+      "sourceUrl": "https://news.google.com/articles/CBMivwJBVV95cUxOMzg2M21IeERiX191dWZGRjI2YkxqUHViU1REdjlKcjNKaHk2RW9JdDYxS1lRYnRCWkR5MWM2Y1lULWxsWGV2bGk3WkxRUkJjbXFyRXZfSWU4Q2ItY1FxZkw5TTdfb1JOWDluUG8tUGltOGhWWGVhWkZqNVJuTUZrSDdjQkJ6STd4SFVZN3p4dHotaml5ZGZWRWVjQVMxUXdSVGFtVk56dlBrb0hfRHF6ZG1paThudnZGVGdoNDhIYVE2R3JHZHd2d2J2UV80V0I0MDZnaFVfMm9DUUVPanN2RldpWVVZMzd1Yk5BcXZkSjBFdW1fb2M5Tkd1Z1NpUDlJVlRSaVpxU1VEbF9NX1F0SjFURGM2cTFDNXNRYjduQkpubGU3VU9Fd1NHWnhpNC1adHhGMHpkc1JBcHNKMk130gHEAkFVX3lxTE1XdFNyd2Vpak5LWW1hN0FSWlJtNXlGOW4ySjBKRWlFalRiLTVFMVBOUGNRblpLWkxXX0pWYnJzYlBsT3FVeHJRa0h4blJ5U3JRSXNKVDluQmNUazRRUlRqeGFuYjVGQjdRRk5ZTzhvVmIxRFVBaTg4M3BybERLa2ZaYWs3ZEM2dmxwWVJ3aXFfTlowa2JSRG9XUGdISGw3U25yaHlrZHkzRVVWZXVPcXUzRmowRDZ1SXNZMVhpSUFNMUpkVjR6WUpLSUV3TXFaTWtzelZ4RHVTWXhTeTZrczFJcmlwcS1naGpSWW4zZVRWeEFrWWdxZHd3MUpEQTZJa19GMTYtcEhpLXN3cVZ1WjM4VktlZ1dFdlNTcDVJcXZ1ZzgzRW5iV1UzWUF0NEtfSlcyNFIxME9FZlpudVFuQUtwa01RUw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 851
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
