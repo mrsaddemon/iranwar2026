@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 854,
+  "updateSequence": 855,
   "lastUpdated": "2026-06-02",
-  "lastSyncedAt": "2026-06-02T18:51:41.344Z",
+  "lastSyncedAt": "2026-06-02T21:37:39.980Z",
   "warDay": 95,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-02",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and stalled negotiations."
+    "summary": "No formal ceasefire is active, though diplomatic talks are underway between various parties amidst continued military engagements and reported violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,26 +18,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "May 31",
-      "text": "Iran ponders US peace deal; Lebanon-Israel talks underway.",
+      "date": "Jun 02",
+      "text": "Iran is reportedly pondering a US peace deal, while Lebanon-Israel talks are underway.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQV1MybzFWaVBnd3FjRGhNWEF3UVl5WnhSQjh0VS1lWDdxUVlJSjJ6SW5XRFRUTW1SakFTOEQzTWhxSTBRSEdBcURnOGRrTUVIazhWQ2hDQ3ZhblNCTGVIZmNuX21LdVF2UTFpQXZqa0MyV2RHc21aQnkweWs0UEZHcnE2ZV9BV29rQTk1UHgtOFlZbWtWNlNwdlVkNHlKMGZibE04Tm5RODNfQzY2ZUN4UC10TnN3Z3Z2YXlNNmxn0gHDAUFVX3lxTE5VSTZSN041Y1dnaEhjZlpzWUtTc0NPUGxhZUdnSlBySnhEX2NSbExobV9qQzAyUHFzZnFSazRaanVMV3BjWDdYVkdqY1RoSmtVb2JHRDkzeUZBVG1kWWx6VldneW9fVGE3aE8wcVVRUTExaG5PZUJoM2d2YWRkRDlIV2k0YXg1Y1ZldWxUT3RsWXZESkNMRnNQSkdGOGFib1QyNk5qWEZ1b2ZTbmRUTlNPOFFNRDdoWUtwYUtrMmJZbGJTQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 854
+      "latestSinceUpdate": 855
     },
     {
-      "date": "May 31",
-      "text": "Trump states indifference to Iran negotiations.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxPTFlQSkVmanF0UWw3S3VzeFh2M3phazE4WG5xSHNYNVFDSmo3MGxsSjNMbV8zSzgzbVg2Zkk2T2g1amd4eG93OGtmbkdXTzJSLTBMTWNZVWN6NVNYWkhXYjhLclRFajVMd2VzZTJjWVB2MncwWWNMaUVHcXlvVmNnSkx2QVpXSkhaMGcyb3Zn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 854
+      "date": "Jun 02",
+      "text": "Israel and Hezbollah have traded new attacks despite a promise of de-escalation.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNV195UHZJZ2NFWWs1c0tqT21IdTlyb2F4YVNtWWNSNHFWbDJmMDVqWVJMXzBjaV9QUTVHOXBHc3VrYzJkQnlrQm8xM3cwa2s1ZmJTajY0RE5Vd2Nnak9IQ3dLcE05bmE4d1ZTVmgtTExWQkFHVlpZYVB0QTh2TjdNNGJ4dW9BM2txdTl4VmFXRm9ZREVGWUJ4b3JUSEp3SVphQlViQ05ITk9TS05O?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 855
     },
     {
-      "date": "May 31",
-      "text": "Israel and Iran step back from threats after a day of tension.",
-      "severity": "info",
+      "date": "Jun 02",
+      "text": "The Strait of Hormuz remains shut, prompting Iraq to boost Ceyhan oil exports.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 854
+      "latestSinceUpdate": 855
     },
     {
-      "date": "May 31",
-      "text": "UN experts warn against 'surging Israeli settler terror'.",
+      "date": "Jun 02",
+      "text": "The US bombed Iranian military sites and subsequently downed missiles fired by Tehran at troops in Kuwait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOMjVJLWNwc3ZkX1R2NDY0emhqYW1SUVFZd3FJNEVZcFBJcGJ2aFFrdUNOTEV6dzdVNUkyZmE1S3NjTXk1RmwwODhTRTgyeFJlMjIwMTA0VEZGVWl5N3p6YmFjM1RBWXl0UjhXTjNUdEM1SHlfOG5ZcEVOZUdLZDBpcWN2UFNTeFhNZXpLeW9MMjFrLXpjak9J?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 855
+    },
+    {
+      "date": "Jun 02",
+      "text": "Satellite images reportedly show Iran has attacked and damaged 20 US military sites since the start of the war.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNLTFRYUp5ZHhXTHJtSGNTOEdmdHJtX2ZHX0ZjXzRDVENENGh1cGtiWVhwc081b3JlZV9jWmdTX0RINEFBWGlnckxqVjhyWHdWZUdGTlhoRVdxVDJWSURWVW9WOVJCZW84TUJRcVFkRGRHV0RfSWVLZHEzYko4ekZ2NGM4dTlXUFlMaGNQOGpLZ0E4b3lkNFlycFFmM1lMVGNrNUhIMzlvaXlRVXhXVGhpbVpfZ2RFRUlfRFlkcXdSbTZlSGROdDU4ckdSblp0UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 854
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBTdnc1eHpiOHJRdXRHdEo4T1NLWHBpcVVSX1JMSDVaMlR4a0M1THhaVHNSM3hyZ0MtLVJvdUdORDU0WXp0eWl3bjkwb1NtRDJMNlNSVnpVdC0xQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 855
     },
     {
-      "date": "May 31",
-      "text": "Israel holds off on striking Beirut after U.S. request.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPQm0zc1ZESDFjVVJZcUZiOUhhQVFfUjdIV3V4b0FoQkJVb3Z3dHBfVEl1SGNGaUdsQTQxN2U3OWtUelQwbmdKOHI2VUZ5bjVMWWNSTDB5dTdmcFl2Vk1mUnVmVndOQ05hVTlfVzNYOEFmeFlYOXJFd05XMnVkTUFERWprWWZYOTlNaTdiMmctUllpNE91WXk1M0RRNzFTVXYt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 854
-    },
-    {
-      "date": "May 31",
-      "text": "Rubio states opening Strait of Hormuz as first condition for talks with Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxPZUFGNk5XTkpHVlp0TDdwRlA1YmFsN0oxZWtZaE5JRF9aRmVJRS1VVWpmdldJVXY3LXlNN01QNDQwdi1tWnQ1R2N6ZjIxYmw3RVVTczFWQVd5dHU0Qzl2aG1NRkRYSlRPN1JfN01LQlVYcXQySmZkUnB2N251WTIyZkFGZE1FRmlrbVF1b29ucWFNbEhvazgyY05LSGZGMmVYSTNVQjdjSXRUMGx6MHBFZUpzYkxfVGpFMmtRcEZfQkUyOHc5cUVaVjJwU0xicHpYNTBrT0ZvY0lhUjA?hl=en-US&gl=US&ceid=US:en",
+      "date": "Jun 02",
+      "text": "Iran has threatened to suspend peace talks following a claimed 'violation of ceasefire' in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNYy1wQ3RLdzhMZWtFWEdDdHlDWmJna09GdXI3Y0Rhd0pLcGQza0E4dHBxbURZYk5kaWFCVnNienBwN2xacm5mcUpBTE14S25wQ1c1dzBoWDh4R2RGcGNRN3htV3RFaG95Z0NFakd5SnRPNTJnNldEZXM0VDA2N29fSWVDRlE0ZUdJUjRNaGxUcm1GNXZBaVhMLXpmc05lUWhVNXZ0dThR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 854
+      "latestSinceUpdate": 855
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
