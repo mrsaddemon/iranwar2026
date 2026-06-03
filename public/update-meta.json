@@ -1,13 +1,13 @@
 {
-  "updateSequence": 860,
+  "updateSequence": 861,
   "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T17:20:36.165Z",
+  "lastSyncedAt": "2026-06-03T20:31:24.520Z",
   "warDay": 96,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A partial truce between Israel and Hezbollah is in effect but is being tested by rocket fire, while a broader Iran-US ceasefire is strained by new strikes."
+    "summary": "Despite President Trump's assertions of ongoing talks, fresh US-Iran strikes and regional attacks indicate a highly fragile or non-existent ceasefire."
   }
 }
