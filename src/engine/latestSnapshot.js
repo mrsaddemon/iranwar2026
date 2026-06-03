@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 857,
+  "updateSequence": 858,
   "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T02:11:15.300Z",
+  "lastSyncedAt": "2026-06-03T07:16:36.274Z",
   "warDay": 96,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-03",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
-    "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "confidence": 0.98,
+    "durationDays": 94,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 94 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -60,11 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 03",
-      "text": "Iran War Live Updates: Iran Targets Neighbors as U.S. Condemns ‘Aggressive’ Strikes",
+      "text": "Several wounded in Kuwait as Iran airport attack forces flight suspension",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYUhpV3c5VHdqbWVwaXBTSVl5SktnMzJpLWJyS0lyVGx4V2k4a0VBVEVwZk8tR3JRQldhdkhGNlE5S19FZExiQU4tU0ctTjRwSjRwUkExMUxVckxxUW9vQi05Z0ppRTdJYWtjTjFkTkNMZ0FPZ3BpMEJQMmxjYnR1WUdNWEhRVTQzZTFibDhneEZCR2VpSHFVbFQyd2ZYZG1UYjZ6SlMyT2lLcjhOOUprc3NlQjJSRFBrbVdIUw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 858
+    },
+    {
+      "date": "Jun 03",
+      "text": "Iran Targets Neighbors as U.S. Condemns ‘Aggressive’ Strikes",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 857
+      "latestSinceUpdate": 858
     },
     {
       "date": "Jun 03",
@@ -84,11 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 03",
-      "text": "Israel says it is holding off on striking Beirut after U.S. request",
+      "text": "Iran war live: Strikes shut down Kuwait airport with several wounded",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPQm0zc1ZESDFjVVJZcUZiOUhhQVFfUjdIV3V4b0FoQkJVb3Z3dHBfVEl1SGNGaUdsQTQxN2U3OWtUelQwbmdKOHI2VUZ5bjVMWWNSTDB5dTdmcFl2Vk1mUnVmVndOQ05hVTlfVzNYOEFmeFlYOXJFd05XMnVkTUFERWprWWZYOTlNaTdiMmctUllpNE91WXk1M0RRNzFTVXYt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 857
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYUhpV3c5VHdqbWVwaXBTSVl5SktnMzJpLWJyS0lyVGx4V2k4a0VBVEVwZk8tR3JRQldhdkhGNlE5S19FZExiQU4tU0ctTjRwSjRwUkExMUxVckxxUW9vQi05Z0ppRTdJYWtjTjFkTkNMZ0FPZ3BpMEJQMmxjYnR1WUdNWEhRVTQzZTFibDhneEZCR2VpSHFVbFQyd2ZYZG1UYjZ6SlMyT2lLcjhOOUprc3NlQjJSRFBrbVdIU9IBwgFBVV95cUxNZjJzY25HMi10cHNhRE04QlpJQkt1a0NCOXh5RWJJb2RmT09XcWZCS0VRNUxhTlQzQ0thci1fVXJRM21MUk1vcy1KTmhnclFVaHhPR0Jjb0JEVFBEQkZMM0pSTXZZVVUwM2diM2dtUFBlRWpFQ29oWS1WQzB2YjdoMnhzRzFhNEE0c1J6d1pndy14VzgxZUZVUzZlUFYxcHlUU08xMmczeXpJRFhhbmVnekplQTFFOFRpUVNtN2hzMkhZdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 858
     },
     {
       "date": "Jun 03",
@@ -97,20 +105,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9jcTc1dkI0dm5raGxJaldyekMtbEJ3aEtRY2FZYi1oWVhSU3dlU2E3aWpPcUVyWEtqNjNIcEJUbEtrWDRsYTZDYThJb1pja0YzaXdDbGJ1MFdhUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 857
-    },
-    {
-      "date": "Jun 03",
-      "text": "Iran war live: Tehran ponders US peace deal; Lebanon-Israel talks under way",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQV1MybzFWaVBnd3FjRGhNWEF3UVl5WnhSQjh0VS1lWDdxUVlJSjJ6SW5XRFRUTW1SakFTOEQzTWhxSTBRSEdBcURnOGRrTUVIazhWQ2hDQ3ZhblNCTGVIZmNuX21LdVF2UTFpQXZqa0MyV2RHc21aQnkweWs0UEZHcnE2ZV9BV29rQTk1UHgtOFlZbWtWNlNwdlVkNHlKMGZibE04Tm5RODNfQzY2ZUN4UC10TnN3Z3Z2YXlNNmxn0gHDAUFVX3lxTE5VSTZSN041Y1dnaEhjZlpzWUtTc0NPUGxhZUdnSlBySnhEX2NSbExobV9qQzAyUHFzZnFSazRaanVMV3BjWDdYVkdqY1RoSmtVb2JHRDkzeUZBVG1kWWx6VldneW9fVGE3aE8wcVVRUTExaG5PZUJoM2d2YWRkRDlIV2k0YXg1Y1ZldWxUT3RsWXZESkNMRnNQSkdGOGFib1QyNk5qWEZ1b2ZTbmRUTlNPOFFNRDdoWUtwYUtrMmJZbGJTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 857
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
