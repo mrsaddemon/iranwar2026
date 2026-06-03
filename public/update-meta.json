@@ -1,13 +1,13 @@
 {
-  "updateSequence": 861,
+  "updateSequence": 862,
   "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T20:31:24.520Z",
+  "lastSyncedAt": "2026-06-03T22:38:45.951Z",
   "warDay": 96,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Despite President Trump's assertions of ongoing talks, fresh US-Iran strikes and regional attacks indicate a highly fragile or non-existent ceasefire."
+    "summary": "A ceasefire between Iran and the US appears strained by recent strikes, while a US-mediated deal between Israel and Hezbollah is being tested by ongoing rocket fire."
   }
 }
