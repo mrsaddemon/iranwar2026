@@ -1,13 +1,13 @@
 {
-  "updateSequence": 859,
+  "updateSequence": 860,
   "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T12:13:34.902Z",
+  "lastSyncedAt": "2026-06-03T17:20:36.165Z",
   "warDay": 96,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 94,
-    "summary": "Peace talks are ongoing, but new strikes by both sides and Iran's threat to suspend talks indicate a highly fragile or collapsed de-escalation."
+    "confidence": 0.98,
+    "durationDays": 7,
+    "summary": "A partial truce between Israel and Hezbollah is in effect but is being tested by rocket fire, while a broader Iran-US ceasefire is strained by new strikes."
   }
 }

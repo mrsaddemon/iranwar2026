@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 859,
+  "updateSequence": 860,
   "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T12:13:34.902Z",
+  "lastSyncedAt": "2026-06-03T17:20:36.165Z",
   "warDay": 96,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Ongoing conflict sees Iran targeting regional neighbors, US military sites, and shipping routes, while a partial truce between Israel and Hezbollah remains fragile amidst continued strikes and diplomatic efforts.",
   "lastNarrativeUpdate": "2026-06-03",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 94,
-    "summary": "Peace talks are ongoing, but new strikes by both sides and Iran's threat to suspend talks indicate a highly fragile or collapsed de-escalation."
+    "confidence": 0.98,
+    "durationDays": 7,
+    "summary": "A partial truce between Israel and Hezbollah is in effect but is being tested by rocket fire, while a broader Iran-US ceasefire is strained by new strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "globalPressure": 65,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 03",
-      "text": "Trump states he doesn't care if Iran negotiations are over, while also noting talks are continuous.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxPTFlQSkVmanF0UWw3S3VzeFh2M3phazE4WG5xSHNYNVFDSmo3MGxsSjNMbV8zSzgzbVg2Zkk2T2g1amd4eG93OGtmbkdXTzJSLTBMTWNZVWN6NVNYWkhXYjhLclRFajVMd2VzZTJjWVB2MncwWWNMaUVHcXlvVmNnSkx2QVpXSkhaMGcyb3Zn0gGTAUFVX3lxTE52U1U2dENwazJPcjRkUFNqOEFIczlia1A2VkJnN2s2MmxBY2puY1BlYlk2bDRwRFdXaGh4QnFNWEpZbmxRdGUwRUh6a0VxSVM0TUpqVFhkQTJ6UGJoRVp6UlBsRmFSQlBfU0paU2drWGMtX1RkclpSNHZYdUEyRTB0VC0wUW9EMmY5dmdpQi1nMlJKZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 859
-    },
-    {
-      "date": "Jun 03",
-      "text": "Iran is studying a deal to halt the war, amidst ongoing discussions.",
-      "severity": "info",
+      "date": "Jun 02",
+      "text": "Iran targets neighbors as U.S. condemns ‘Aggressive’ Strikes.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 859
+      "latestSinceUpdate": 860
     },
     {
       "date": "Jun 03",
-      "text": "Iran targets Kuwait and Bahrain, with Kuwait reporting its airport was hit by Iranian drones.",
+      "text": "Kuwait’s international airport attacked, resulting in one killed and 63 wounded.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5IQlY0SWk3SW1lWWlyN19nN0VHNklGQ2xvVm04LU8zajZpWEZaOXVaWTk3YmZpRmFLYWUwQVc3T3pMMXc1dWdVZkdsVzVVajUzZllhN29aYVJJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 859
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPcDM3X2JqVkh5Sm5LbzdhMi1CTEFmdjhSdmE1c0VaVzBwM0cxN2dabzJfRERKTkpyNnBSVFJrdk5wTzlDSEw2dGRFbnVoekZ1R2J3TnZVaGxneTVuQzRMR1hHUEhkczZFQ2hZUTJHMnJEbEhxZGpYaHZzUmNxUFo5dHBHSVF1NU1yQm0wUS1obw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 860
     },
     {
       "date": "Jun 03",
-      "text": "US conducts new strikes in the region, described as 'self-defense strikes' over the weekend.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxPdm1xRjdkQzd1U19sNTk0MFpFZF92WTl2WGNnS0RBQmVyLXk0Vk5nbWI3VGd5VXdESTlDWFNfRE9hOURBSHo5MHNBY0diYVdaNF9ibkxhbjdFemJ5anN1Ym16V0lXRzA3dEdaczlvQ2hyb1ZHZ3BlQmhEZ3RXSWc5dG8xTy04V3dtallabUcxcFUzQdIBlwFBVV95cUxOMmRxOVZjaGZqVXZ2MXNiOVZKcHZFWXpTYVJfY1BTX3ptaFU0LWVteWJ3WnVIMkh2ZVBZQWo5SEowdURWbW01ZTd6UDlIbHdaY3dHYmVUeVcwS2h1S000dVl4VThHdHBPY3lUUklpUldWTllMSktmSTQtSktCaFRHZUgwTjY2YmdneXpuTjQ4WC13RzNiSG04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 859
-    },
-    {
-      "date": "Jun 03",
-      "text": "Iran states a deadly attack on Kuwait 'should serve as a lesson' for the US.",
+      "text": "U.S. and Iran launch new attacks in Persian Gulf, straining ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYUhpV3c5VHdqbWVwaXBTSVl5SktnMzJpLWJyS0lyVGx4V2k4a0VBVEVwZk8tR3JRQldhdkhGNlE5S19FZExiQU4tU0ctTjRwSjRwUkExMUxVckxxUW9vQi05Z0ppRTdJYWtjTjFkTkNMZ0FPZ3BpMEJQMmxjYnR1WUdNWEhRVTQzZTFibDhneEZCR2VpSHFVbFQyd2ZYZG1UYjZ6SlMyT2lLcjhOOUprc3NlQjJSRFBrbVdIUw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 859
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNV195UHZJZ2NFWWs1c0tqT21IdTlyb2F4YVNtWWNSNHFWbDJmMDVqWVJMXzBjaV9QUTVHOXBHc3VrYzJkQnlrQm8xM3cwa2s1ZmJTajY0RE5Vd2Nnak9IQ3dLcE05bmE4d1ZTVmgtTExWQkFHVlpZYVB0QTh2TjdNNGJ4dW9BM2txdTl4VmFXRm9ZREVGWUJ4b3JUSEp3SVphQlViQ05ITk9TS05O?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 860
     },
     {
       "date": "Jun 03",
-      "text": "Israel strikes southern Lebanon, but a partial truce with Hezbollah appears to hold.",
+      "text": "Israel strikes southern Lebanon, but partial truce with Hezbollah appears to hold.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9jcTc1dkI0dm5raGxJaldyekMtbEJ3aEtRY2FZYi1oWVhSU3dlU2E3aWpPcUVyWEtqNjNIcEJUbEtrWDRsYTZDYThJb1pja0YzaXdDbGJ1MFdhUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 859
+      "latestSinceUpdate": 860
+    },
+    {
+      "date": "Jun 03",
+      "text": "Iran says it is targeting ships violating approved Strait of Hormuz route.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQNEYwZkpBcHZsbXBBNlk3VzNtbkNSOEJERHdfdDhpUXBwZURBOUdudVBUczk4Wjd0TW0xcDlYU0xyYThSY182NHZVNExEOTlxdC1BVi1RUzlzTUpLQ3JMQk5OUW1US2drY2hQNnI2Y3cyc0Jhbjctc3c2WWdZdVJlUGotOHlYNjBocmw1TlZzUFFsQ1g0cGhUNGU0Wi1mMTN3RTh6UnhNRjlxMXhZQjBvaA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 860
+    },
+    {
+      "date": "Jun 03",
+      "text": "Hezbollah launches rockets at Israel, testing U.S.-mediated deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNejNUYzdtTjIxM1JOY1FzOFYxZnVKQjNIa2RyZk5QSXh4TFFSSjYtd2EydDkyS0FaR0E2bmw2ZEJVaFJab0pBUmg1OEVBQXJ3MnlmcDJ1cnRsYUR0UEV5OFVzRVp1LXJUeEtKenZHR0RuRkJoT3V5d0ZQQnZ2aXFLaDNPbEZ0VFhXcGc4alhwTkNrdkdUQUZZUWpScTltT0E0eEJ6NlVIZ2lBSTRu?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 860
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
