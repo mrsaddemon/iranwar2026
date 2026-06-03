@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 858,
+  "updateSequence": 859,
   "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T07:16:36.274Z",
+  "lastSyncedAt": "2026-06-03T12:13:34.902Z",
   "warDay": 96,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-03",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.98,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 94,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 94 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Peace talks are ongoing, but new strikes by both sides and Iran's threat to suspend talks indicate a highly fragile or collapsed de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 51
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 03",
-      "text": "Several wounded in Kuwait as Iran airport attack forces flight suspension",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYUhpV3c5VHdqbWVwaXBTSVl5SktnMzJpLWJyS0lyVGx4V2k4a0VBVEVwZk8tR3JRQldhdkhGNlE5S19FZExiQU4tU0ctTjRwSjRwUkExMUxVckxxUW9vQi05Z0ppRTdJYWtjTjFkTkNMZ0FPZ3BpMEJQMmxjYnR1WUdNWEhRVTQzZTFibDhneEZCR2VpSHFVbFQyd2ZYZG1UYjZ6SlMyT2lLcjhOOUprc3NlQjJSRFBrbVdIUw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 858
-    },
-    {
-      "date": "Jun 03",
-      "text": "Iran Targets Neighbors as U.S. Condemns ‘Aggressive’ Strikes",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 858
-    },
-    {
-      "date": "Jun 03",
-      "text": "Trump tells CNBC: 'I don't care' if Iran negotiations are over",
+      "text": "Trump states he doesn't care if Iran negotiations are over, while also noting talks are continuous.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxPTFlQSkVmanF0UWw3S3VzeFh2M3phazE4WG5xSHNYNVFDSmo3MGxsSjNMbV8zSzgzbVg2Zkk2T2g1amd4eG93OGtmbkdXTzJSLTBMTWNZVWN6NVNYWkhXYjhLclRFajVMd2VzZTJjWVB2MncwWWNMaUVHcXlvVmNnSkx2QVpXSkhaMGcyb3Zn0gGTAUFVX3lxTE52U1U2dENwazJPcjRkUFNqOEFIczlia1A2VkJnN2s2MmxBY2puY1BlYlk2bDRwRFdXaGh4QnFNWEpZbmxRdGUwRUh6a0VxSVM0TUpqVFhkQTJ6UGJoRVp6UlBsRmFSQlBfU0paU2drWGMtX1RkclpSNHZYdUEyRTB0VC0wUW9EMmY5dmdpQi1nMlJKZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 857
+      "latestSinceUpdate": 859
     },
     {
       "date": "Jun 03",
-      "text": "Iran studying deal to halt war, as Trump says talks going on continuously",
+      "text": "Iran is studying a deal to halt the war, amidst ongoing discussions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQcG1DSFVhQ3MxRlgtdV9LYlZndTBDX0VvZDZ4ZkZuZEV5QnhMYlhmd2phazdVMnBlUXRWXzUzWTZFSXZfSDhNMzF2VTVwdlZiMU9aMEVVVVhyWEk1QmFNWjJRSFNfWTFzOGNMXzk1ZnJSOE5EZDJycERabElIeEQ1SjQxWE9CejBZT2FDY1FnLVdFaGlvR0FQeVVkM3JSanNmdkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 857
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 859
     },
     {
       "date": "Jun 03",
-      "text": "Iran war live: Strikes shut down Kuwait airport with several wounded",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYUhpV3c5VHdqbWVwaXBTSVl5SktnMzJpLWJyS0lyVGx4V2k4a0VBVEVwZk8tR3JRQldhdkhGNlE5S19FZExiQU4tU0ctTjRwSjRwUkExMUxVckxxUW9vQi05Z0ppRTdJYWtjTjFkTkNMZ0FPZ3BpMEJQMmxjYnR1WUdNWEhRVTQzZTFibDhneEZCR2VpSHFVbFQyd2ZYZG1UYjZ6SlMyT2lLcjhOOUprc3NlQjJSRFBrbVdIU9IBwgFBVV95cUxNZjJzY25HMi10cHNhRE04QlpJQkt1a0NCOXh5RWJJb2RmT09XcWZCS0VRNUxhTlQzQ0thci1fVXJRM21MUk1vcy1KTmhnclFVaHhPR0Jjb0JEVFBEQkZMM0pSTXZZVVUwM2diM2dtUFBlRWpFQ29oWS1WQzB2YjdoMnhzRzFhNEE0c1J6d1pndy14VzgxZUZVUzZlUFYxcHlUU08xMmczeXpJRFhhbmVnekplQTFFOFRpUVNtN2hzMkhZdw?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran targets Kuwait and Bahrain, with Kuwait reporting its airport was hit by Iranian drones.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5IQlY0SWk3SW1lWWlyN19nN0VHNklGQ2xvVm04LU8zajZpWEZaOXVaWTk3YmZpRmFLYWUwQVc3T3pMMXc1dWdVZkdsVzVVajUzZllhN29aYVJJdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 859
+    },
+    {
+      "date": "Jun 03",
+      "text": "US conducts new strikes in the region, described as 'self-defense strikes' over the weekend.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxPdm1xRjdkQzd1U19sNTk0MFpFZF92WTl2WGNnS0RBQmVyLXk0Vk5nbWI3VGd5VXdESTlDWFNfRE9hOURBSHo5MHNBY0diYVdaNF9ibkxhbjdFemJ5anN1Ym16V0lXRzA3dEdaczlvQ2hyb1ZHZ3BlQmhEZ3RXSWc5dG8xTy04V3dtallabUcxcFUzQdIBlwFBVV95cUxOMmRxOVZjaGZqVXZ2MXNiOVZKcHZFWXpTYVJfY1BTX3ptaFU0LWVteWJ3WnVIMkh2ZVBZQWo5SEowdURWbW01ZTd6UDlIbHdaY3dHYmVUeVcwS2h1S000dVl4VThHdHBPY3lUUklpUldWTllMSktmSTQtSktCaFRHZUgwTjY2YmdneXpuTjQ4WC13RzNiSG04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 859
+    },
+    {
+      "date": "Jun 03",
+      "text": "Iran states a deadly attack on Kuwait 'should serve as a lesson' for the US.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYUhpV3c5VHdqbWVwaXBTSVl5SktnMzJpLWJyS0lyVGx4V2k4a0VBVEVwZk8tR3JRQldhdkhGNlE5S19FZExiQU4tU0ctTjRwSjRwUkExMUxVckxxUW9vQi05Z0ppRTdJYWtjTjFkTkNMZ0FPZ3BpMEJQMmxjYnR1WUdNWEhRVTQzZTFibDhneEZCR2VpSHFVbFQyd2ZYZG1UYjZ6SlMyT2lLcjhOOUprc3NlQjJSRFBrbVdIUw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 858
+      "latestSinceUpdate": 859
     },
     {
       "date": "Jun 03",
-      "text": "Israel strikes southern Lebanon but partial truce with Hezbollah appears to hold",
-      "severity": "info",
+      "text": "Israel strikes southern Lebanon, but a partial truce with Hezbollah appears to hold.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9jcTc1dkI0dm5raGxJaldyekMtbEJ3aEtRY2FZYi1oWVhSU3dlU2E3aWpPcUVyWEtqNjNIcEJUbEtrWDRsYTZDYThJb1pja0YzaXdDbGJ1MFdhUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 857
+      "latestSinceUpdate": 859
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
