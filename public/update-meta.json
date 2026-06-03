@@ -1,13 +1,13 @@
 {
-  "updateSequence": 856,
-  "lastUpdated": "2026-06-02",
-  "lastSyncedAt": "2026-06-02T23:22:56.151Z",
-  "warDay": 95,
+  "updateSequence": 857,
+  "lastUpdated": "2026-06-03",
+  "lastSyncedAt": "2026-06-03T02:11:15.300Z",
+  "warDay": 96,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A US-brokered partial ceasefire plan is in place for Lebanon, but it is frequently violated by ongoing clashes between Israel and Hezbollah."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
