@@ -1,13 +1,13 @@
 {
-  "updateSequence": 862,
-  "lastUpdated": "2026-06-03",
-  "lastSyncedAt": "2026-06-03T22:38:45.951Z",
-  "warDay": 96,
+  "updateSequence": 863,
+  "lastUpdated": "2026-06-04",
+  "lastSyncedAt": "2026-06-04T00:21:58.838Z",
+  "warDay": 97,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between Iran and the US appears strained by recent strikes, while a US-mediated deal between Israel and Hezbollah is being tested by ongoing rocket fire."
+    "summary": "A partial truce between Israel and Hezbollah is in effect but is being tested by rocket attacks, while ceasefire talks between the US and Iran are ongoing without progress."
   }
 }
