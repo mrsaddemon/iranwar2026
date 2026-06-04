@@ -1,13 +1,13 @@
 {
-  "updateSequence": 868,
+  "updateSequence": 869,
   "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T18:02:14.111Z",
+  "lastSyncedAt": "2026-06-04T20:17:17.025Z",
   "warDay": 97,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A ceasefire agreement between Israel and Lebanon has been renewed, but its effectiveness is undermined by Hezbollah's rejection and ongoing Iranian attacks."
+    "durationDays": 94,
+    "summary": "A ceasefire agreement between Israel and Lebanon, secured by the US, has been repeatedly rejected by Hezbollah, leading to its collapse and continued hostilities."
   }
 }

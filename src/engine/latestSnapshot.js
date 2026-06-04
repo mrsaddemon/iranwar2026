@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 868,
+  "updateSequence": 869,
   "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T18:02:14.111Z",
+  "lastSyncedAt": "2026-06-04T20:17:17.025Z",
   "warDay": 97,
-  "summary": "A renewed ceasefire agreement between Israel and Lebanon is challenged by Hezbollah's rejection and ongoing Iranian attacks on regional targets, while the US House moves to curb presidential war powers amidst a broadened US military footprint.",
+  "summary": "The conflict continues with ongoing strikes between Israel and Hezbollah, a recently agreed ceasefire has been rejected by Hezbollah, and Iran launched a deadly drone attack on Kuwait airport, while the Strait of Hormuz remains closed for 94 days.",
   "lastNarrativeUpdate": "2026-06-04",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A ceasefire agreement between Israel and Lebanon has been renewed, but its effectiveness is undermined by Hezbollah's rejection and ongoing Iranian attacks."
+    "durationDays": 94,
+    "summary": "A ceasefire agreement between Israel and Lebanon, secured by the US, has been repeatedly rejected by Hezbollah, leading to its collapse and continued hostilities."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 80
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.5
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
         "militaryPower": 75
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.7
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 70
+      },
+      "behavior": {
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 03",
-      "text": "Israel and Lebanon agree to renew a ceasefire.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 868
+      "text": "Israel and Hezbollah trade strikes, casting doubt on a new ceasefire.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 869
     },
     {
       "date": "Jun 03",
-      "text": "House passes war powers resolution directing Trump to end hostilities with Iran.",
+      "text": "US House passes war powers resolution directing President Trump to end hostilities with Iran.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 868
+      "latestSinceUpdate": 869
     },
     {
       "date": "Jun 03",
-      "text": "Iran launches deadly attack on Kuwait airport, killing one and injuring dozens.",
+      "text": "Hezbollah dismisses and rejects a new Lebanon ceasefire, stating deadly Israeli attacks continue.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 869
+    },
+    {
+      "date": "Jun 03",
+      "text": "Israel and Lebanon agree to renew a ceasefire, despite Hezbollah's rejection.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 869
+    },
+    {
+      "date": "Jun 03",
+      "text": "Iran launches a deadly drone attack on Kuwait airport, killing one and injuring dozens.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 868
+      "latestSinceUpdate": 869
     },
     {
       "date": "Jun 03",
-      "text": "Iran fires missiles and US strikes an Iranian facility after reports of faltering peace talks.",
+      "text": "Ships stranded in the Persian Gulf quietly coordinate with the U.S. Navy to exit Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOU1BXWkhqeGRkRDRmQURFZW02aWM1NlZyTHl6Q3hIUjhRUUdaMV85bUpCbUl5bjREd1Flbk9YNE9ndldSSExSUkw2M3IzdkpreFRMTnBLaUFWdkRxSVlOY1d3TVN1bFZTZTd0ZVV5UTlsQ1Q3bDI2a3gteXBPdmtMY2J4MmNfdGFtZFg3UXZwU0wxN0VG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 868
-    },
-    {
-      "date": "Jun 02-03",
-      "text": "Iranian attacks on Kuwait airport and Bahrain are condemned by Middle East countries.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxPYjlDZ2xvU3ltT2EySXRxSi1adFRtRVF3RTlJZXlJNUNRZW5DdjhlN1NoeWR5dHE3Wi0zRWR4OUxsQzZhZERRd0ZLc01mdEpBNTZNd0Z5cHo3cGhpN3htRkliUGFfLXNMZ09kTXlmRTVOQXNGbG1pX1lfcm50OTB5ODVZbjM2ZHBOU0N0d3RR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 868
-    },
-    {
-      "date": "Jun 03",
-      "text": "Hezbollah rejects the renewed ceasefire agreed by Israel and Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBDX19HLUpiZ2wzMzJfd0VNaUxxazNlXzJXMkRrM2tkUkk5MmtVYllkUUZSWWR3d2RydXRNSzdKdHRqQ281Mkk5ZWpRamlrM3lqTll5LWNQQW5rUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 868
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQQjcwMnZ6S0hSN3dVQ24zOEdHNzZhM3JyUGNQUFl2TjJTcnpGaDJQaENaSVc5ejBCNFcwSzNmTHl4T3ZvVnFmZ0U5S1RBakZheXdkSC02SjVkbEVQTkFkeXd3VDhtWnJQSl9fTTlUclZheTZqNlVMN3FlenFGTk5xTTBXMFBScTZ1RU94V2h5UVFMenl0QkHSAZsBQVVfeXFMTWM1VFFFNlc3VWdRSXVmV25QbzRwWmx2QzhYMWZZbl9WdUNyc01Cam5kSHNZVWJ3WkphZUhKYmNZcnBkcnhqQTkzaVpLRjM1ZmszNTlkQjRYdl9jdEFiZkdEU2hna19PMU91a3VHemY3QklKeTlMWmczOUsza2RWOW5oY0lyU3pQNXE2M0FhV2ZrR2hkbEotdm9OWk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 869
     }
   ],
   "sourceStatuses": [
