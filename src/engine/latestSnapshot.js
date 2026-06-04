@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 864,
+  "updateSequence": 865,
   "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T05:14:38.390Z",
+  "lastSyncedAt": "2026-06-04T09:04:05.150Z",
   "warDay": 97,
-  "summary": "US-Iran clashes continue to test a fragile ceasefire, while Israel conducts strikes in Gaza and Lebanon amidst an agreement for a conditional ceasefire with Lebanon, and Iran launches attacks on Kuwait airport.",
+  "summary": "The Iran war continues with Iranian attacks on Kuwait and Bahrain, while the US brokers a fragile Israel-Lebanon ceasefire amidst domestic political divisions regarding the conflict.",
   "lastNarrativeUpdate": "2026-06-04",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "An Israel-Lebanon ceasefire has been agreed upon, contingent on Hezbollah actions, but broader US-Iran clashes and Iranian attacks on Kuwait continue to test de-escalation efforts."
+    "summary": "Israel and Lebanon have agreed to a renewed ceasefire, but its implementation is uncertain due to Hezbollah's rejection and ongoing attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.4,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 02-03",
-      "text": "US-Iran clashes test ceasefire; Israel kills 9 in Gaza.",
+      "date": "Jun 03",
+      "text": "Iran launches deadly attack on Kuwait airport, injuring several.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 864
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 865
     },
     {
-      "date": "Jun 02",
-      "text": "Iranian attacks on Kuwait airport and Bahrain condemned by Middle East countries.",
+      "date": "Jun 03",
+      "text": "Israel attack injures several after new Lebanon ceasefire.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 865
+    },
+    {
+      "date": "Jun 03",
+      "text": "US House votes for measure that would end Iran war, in a blow to Trump.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOaXZBVGtQRWNUQXJnZ1ZIRy1ESnlmMTR6MXZMeGotWEJEV0JwTnJmVXdHYUJZazB3cjhrU2FLN0gyMk0tUlNPZDVYYUpLMzhhTUZFam9aLWpNWjNManFDVzFVTGFudDBCQnJja0V4YXFLNldHRUtvYTZBdVR5eTlZaHFKb1dHSjBHSXNMRHpZR3JGY21Kb1NONEJ3ckoxR3N4d3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 865
+    },
+    {
+      "date": "Jun 02-03",
+      "text": "Iranian attacks on Kuwait airport and Bahrain are condemned by Middle East countries.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxPYjlDZ2xvU3ltT2EySXRxSi1adFRtRVF3RTlJZXlJNUNRZW5DdjhlN1NoeWR5dHE3Wi0zRWR4OUxsQzZhZERRd0ZLc01mdEpBNTZNd0Z5cHo3cGhpN3htRkliUGFfLXNMZ09kTXlmRTVOQXNGbG1pX1lfcm50OTB5ODVZbjM2ZHBOU0N0d3RR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 864
+      "latestSinceUpdate": 865
     },
     {
-      "date": "Recent",
-      "text": "Israel and Lebanon agree to implement a ceasefire, contingent on Hezbollah actions.",
+      "date": "Jun 02-03",
+      "text": "Israel and Lebanon agree to renew ceasefire, but Hezbollah rejects the agreement.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFB5N3JBTXdxaG5jOU15NXJGSkQ4dk1SNkN3ZEpwVFBvQ1ZISjQ0VURDLXdoN1ZpMk5hUHlTTUFEd3NUZVFmZFVsVGt4Y3BNTGZRS0dsNGRBTWpGUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 864
+      "latestSinceUpdate": 865
     },
     {
       "date": "Recent",
-      "text": "US House passes resolution to halt military action in Iran, rebuking Trump's actions.",
+      "text": "Trump broadens U.S. military footprint in the region.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1IYWpzd2VTd0ljOHZsSEk3Rjl3c0NTVkRKMklWTjhoT0FNM1pZUjNGT3NFcGhxLWh4dml1OXBwZ1lSTEY4anZFUjFsYnNwcEJ6ODV1a1lzWFg0VUpIOC0tVDA4NV8zT1lYTWhUN3FtUUM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 864
-    },
-    {
-      "date": "Recent",
-      "text": "US secures Israel-Lebanon ceasefire in a major diplomatic breakthrough.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxQOUVBeXhfWkxfYWU4N1FOd2lGUl9iN256TWhLUUZXVUNjVWxhYnBRaDk2Qi1qUmE4ekNUN3FITS1RNThaclpyMGtidGFhNXJSUFpwVUM5QmxMOUdpckYtZGRnU2FJOFAxbHE2X0ZGYlEwb1NMZUlnQU5fR2hzYkRod1dFMkFjQWJMTF95cUVsYzhjX0NyRXFxOS1xRUJ0M2ZsVjc4U2lqZ0k5bXdnSHI0Zk5pUklHekZiZ2pzOVdtMDFEV1HSAcgBQVVfeXFMUGZkbzF2ZFkwRGg5OTQtcXpJZkhlczE5NTROWi1PWDZWa1hMM3NfY3Y0d196QkJudS1waGNHVXY1Um1neTlOcFc4a0hXcGpBRlpscG9zSk5MSlhMTUxKZncwVWRRXzVlNjlrT2t0WVNudjlxYm9xVU1qdVpFN2hLMFd1YnZiSmJCTUEzNTVSNzl1a1BHNENMVTdvS0NMLVRKa0tHRFRqSEktZkQtdHZkeEFzWEtIc1NsclFqeUVxbnluRnpoSENpenM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 864
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVlo4blVxcW56cWswcGlyUUU4TktibnJQaVhHS3ZVZ0FYc1lyc1o1ZTd2cURqVDFfQ2ZTYWtaTG1zbmFrLTJLV3BLTU8wbXdsWDhlcmpmNzIwd1o1TXpwWEVGczc3alREYTJxRWRJOVNtZk5KaS1icUxteWZOY2xCRWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 865
     }
   ],
   "sourceStatuses": [
