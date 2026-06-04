@@ -1,13 +1,13 @@
 {
-  "updateSequence": 866,
+  "updateSequence": 867,
   "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T12:11:14.554Z",
+  "lastSyncedAt": "2026-06-04T16:35:12.345Z",
   "warDay": 97,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A renewed ceasefire between Israel and Lebanon has been agreed upon but is immediately challenged by continued fighting and Israeli strikes."
+    "summary": "A ceasefire agreement between Israel and Lebanon was reached but immediately challenged by Hezbollah's rejection and continued military actions."
   }
 }
