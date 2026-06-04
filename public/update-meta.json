@@ -1,13 +1,13 @@
 {
-  "updateSequence": 863,
+  "updateSequence": 864,
   "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T00:21:58.838Z",
+  "lastSyncedAt": "2026-06-04T05:14:38.390Z",
   "warDay": 97,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A partial truce between Israel and Hezbollah is in effect but is being tested by rocket attacks, while ceasefire talks between the US and Iran are ongoing without progress."
+    "durationDays": 1,
+    "summary": "An Israel-Lebanon ceasefire has been agreed upon, contingent on Hezbollah actions, but broader US-Iran clashes and Iranian attacks on Kuwait continue to test de-escalation efforts."
   }
 }

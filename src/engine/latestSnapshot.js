@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 863,
+  "updateSequence": 864,
   "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T00:21:58.838Z",
+  "lastSyncedAt": "2026-06-04T05:14:38.390Z",
   "warDay": 97,
-  "summary": "Regional tensions remain high with Iran launching attacks on Kuwait and targeting a US vessel, while US forces respond and Israel and Hezbollah navigate a fragile truce.",
+  "summary": "US-Iran clashes continue to test a fragile ceasefire, while Israel conducts strikes in Gaza and Lebanon amidst an agreement for a conditional ceasefire with Lebanon, and Iran launches attacks on Kuwait airport.",
   "lastNarrativeUpdate": "2026-06-04",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "A partial truce between Israel and Hezbollah is in effect but is being tested by rocket attacks, while ceasefire talks between the US and Iran are ongoing without progress."
+    "durationDays": 1,
+    "summary": "An Israel-Lebanon ceasefire has been agreed upon, contingent on Hezbollah actions, but broader US-Iran clashes and Iranian attacks on Kuwait continue to test de-escalation efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 02",
-      "text": "Iran launches deadly attack on Kuwait airport, killing one and injuring 63.",
+      "date": "Jun 02-03",
+      "text": "US-Iran clashes test ceasefire; Israel kills 9 in Gaza.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 863
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 864
     },
     {
       "date": "Jun 02",
-      "text": "US strikes near Hormuz in response to Gulf flare-up.",
+      "text": "Iranian attacks on Kuwait airport and Bahrain condemned by Middle East countries.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOa0pCM2JwVC1jclluOW5wcnktSUJHZ2ZLUUxwMnY5c3F6VWhuSVFLQ29mbmc0cHdhSWkyTzNyVzJvWnBxNjlVWnhqQ0FOUUpiY2YtTld2b3hWWmpYTzJueElSOUVmeTBweDFYWUwxcnZhdVlzYTNvZXp2SXJNcnNhdGh6TElzTWtzUDlvNlBQS3pQREk4a0cwb1NXa1YzWG5jb3lOaC1jZDNRT2JZQkNxbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 863
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxPYjlDZ2xvU3ltT2EySXRxSi1adFRtRVF3RTlJZXlJNUNRZW5DdjhlN1NoeWR5dHE3Wi0zRWR4OUxsQzZhZERRd0ZLc01mdEpBNTZNd0Z5cHo3cGhpN3htRkliUGFfLXNMZ09kTXlmRTVOQXNGbG1pX1lfcm50OTB5ODVZbjM2ZHBOU0N0d3RR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 864
     },
     {
-      "date": "Jun 03",
-      "text": "US forces shoot down Iranian missiles and drones in response to attacks on Kuwait and Bahrain.",
-      "severity": "critical",
+      "date": "Recent",
+      "text": "Israel and Lebanon agree to implement a ceasefire, contingent on Hezbollah actions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFB5N3JBTXdxaG5jOU15NXJGSkQ4dk1SNkN3ZEpwVFBvQ1ZISjQ0VURDLXdoN1ZpMk5hUHlTTUFEd3NUZVFmZFVsVGt4Y3BNTGZRS0dsNGRBTWpGUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 864
+    },
+    {
+      "date": "Recent",
+      "text": "US House passes resolution to halt military action in Iran, rebuking Trump's actions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1IYWpzd2VTd0ljOHZsSEk3Rjl3c0NTVkRKMklWTjhoT0FNM1pZUjNGT3NFcGhxLWh4dml1OXBwZ1lSTEY4anZFUjFsYnNwcEJ6ODV1a1lzWFg0VUpIOC0tVDA4NV8zT1lYTWhUN3FtUUM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 864
+    },
+    {
+      "date": "Recent",
+      "text": "US secures Israel-Lebanon ceasefire in a major diplomatic breakthrough.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxQOUVBeXhfWkxfYWU4N1FOd2lGUl9iN256TWhLUUZXVUNjVWxhYnBRaDk2Qi1qUmE4ekNUN3FITS1RNThaclpyMGtidGFhNXJSUFpwVUM5QmxMOUdpckYtZGRnU2FJOFAxbHE2X0ZGYlEwb1NMZUlnQU5fR2hzYkRod1dFMkFjQWJMTF95cUVsYzhjX0NyRXFxOS1xRUJ0M2ZsVjc4U2lqZ0k5bXdnSHI0Zk5pUklHekZiZ2pzOVdtMDFEV1HSAcgBQVVfeXFMUGZkbzF2ZFkwRGg5OTQtcXpJZkhlczE5NTROWi1PWDZWa1hMM3NfY3Y0d196QkJudS1waGNHVXY1Um1neTlOcFc4a0hXcGpBRlpscG9zSk5MSlhMTUxKZncwVWRRXzVlNjlrT2t0WVNudjlxYm9xVU1qdVpFN2hLMFd1YnZiSmJCTUEzNTVSNzl1a1BHNENMVTdvS0NMLVRKa0tHRFRqSEktZkQtdHZkeEFzWEtIc1NsclFqeUVxbnluRnpoSENpenM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 863
-    },
-    {
-      "date": "Jun 03",
-      "text": "Iran targets US military vessel hosting a command centre in the Sea of Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi4AFBVV95cUxOaFZxZ3llQlJYaVlCQTgwNjFIdkotaEU5aXRJVlZyaUU4aDNUWmdTdVNsNHI5c3F6d2QyVFQ1ZTFFcFN6NmxrSHlKMG1mZjFhbDN4dGhSSzBYY2tJcms3X0FGTWF3aTJDcFd3RkVBNW1xdWNfMFhvMzlMRFlOVUJfeWlsbU9icUdKcDQ4YlYzWGVlQ21rbHFhYjRFTFZzRDVadWVXRDI1RWFTblpQZS1iRjliZnlFVUdZR2pieUlVRmU0UkVSRUVrNkcwU0JXYXNycUhJREFKN2xBUjNidHd4T9IB5gFBVV95cUxNOGhkaF9Vc2tHbENld1ViY1oyVEhhdy1fQmt2MjlXRW1tZ3BJZ3pYcTh1NnBVdWcwTEN2Z3JFa3ZIYk94c0x5ajRkb3hVdk9XUlZHNFg3SUliTW5RYWFTcFRJcXh3dnNBX05wa0pVUWJSei1IMjcyRkRTM3hjQzNrTlFlb25jSHRYODV1d2dzTk5vdmdYVkZLNEdqTTZURC11ekNJLVN4ajR4MkZsUjBXWkxqNTdlc3NfMkxMamlOR2hCNGp1YWFtT1RhTUVNTVNLUV91MnZXUEdPa2lZU0dKOHk4VUFDdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "India Today",
-      "latestSinceUpdate": 863
-    },
-    {
-      "date": "Jun 03",
-      "text": "Israel strikes southern Lebanon amidst a partial truce with Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9jcTc1dkI0dm5raGxJaldyekMtbEJ3aEtRY2FZYi1oWVhSU3dlU2E3aWpPcUVyWEtqNjNIcEJUbEtrWDRsYTZDYThJb1pja0YzaXdDbGJ1MFdhUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 863
-    },
-    {
-      "date": "Jun 03",
-      "text": "Hezbollah launches rockets at Israel, testing a U.S.-mediated deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNejNUYzdtTjIxM1JOY1FzOFYxZnVKQjNIa2RyZk5QSXh4TFFSSjYtd2EydDkyS0FaR0E2bmw2ZEJVaFJab0pBUmg1OEVBQXJ3MnlmcDJ1cnRsYUR0UEV5OFVzRVp1LXJUeEtKenZHR0RuRkJoT3V5d0ZQQnZ2aXFLaDNPbEZ0VFhXcGc4alhwTkNrdkdUQUZZUWpScTltT0E0eEJ6NlVIZ2lBSTRu?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 863
+      "latestSinceUpdate": 864
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
