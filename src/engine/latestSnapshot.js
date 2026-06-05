@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 877,
+  "updateSequence": 878,
   "lastUpdated": "2026-06-05",
-  "lastSyncedAt": "2026-06-05T18:15:01.476Z",
+  "lastSyncedAt": "2026-06-05T20:16:24.571Z",
   "warDay": 98,
-  "summary": "The US-Israel-Iran conflict continues with ongoing attacks, stalled peace talks, and significant disruption to Strait of Hormuz shipping, despite attempts at regional ceasefires.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-05",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "Attempts at a Lebanon-Israel ceasefire are ongoing, but continued attacks by both sides and Hezbollah's rejection indicate extreme fragility."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 03",
-      "text": "Israel continues attacks after new Lebanon ceasefire.",
-      "severity": "warning",
+      "date": "Jun 05",
+      "text": "Iran war updates: Israel continues attacks after new Lebanon ceasefire",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 877
+      "latestSinceUpdate": 878
     },
     {
-      "date": "Jun 04",
-      "text": "Uncertainty surrounds US-Iran talks; Hezbollah rejects Lebanon-Israel ceasefire plan.",
-      "severity": "warning",
+      "date": "Jun 05",
+      "text": "June 4, 2026 — Uncertainty surrounds US-Iran talks, Hezbollah rejects Lebanon-Israel ceasefire plan",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE0xUDZ6OFRNS2NIcWt6VWY5cHdUeVBGa1hRMENwd3U5YVFhN3RUY2lIWkd5MnhTQTREb2NWQ2FzcXZBR2N5TlFxWnpKTHZsNzMtQmpGWXB0eVUtc0w2bzU5SEtGY3NxM3ItOTRURXZFMUpuNUI3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 877
+      "latestSinceUpdate": 878
     },
     {
-      "date": "Recent",
-      "text": "House passes war powers resolution directing Trump to end hostilities with Iran.",
+      "date": "Jun 05",
+      "text": "House passes war powers resolution directing Trump to end hostilities with Iran",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 877
+      "latestSinceUpdate": 878
     },
     {
-      "date": "Recent",
-      "text": "Iran launches deadly attack on Kuwait airport.",
-      "severity": "critical",
+      "date": "Jun 05",
+      "text": "Iran Update Special Report, June 3, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNcjNwZU1ndTV0T2FlMW56eHdPSTJMQjlNUE9TcHg1RUNJMXFzOEJEaVd2QzdoSUNaUmloUktjbTlfaS0teXdEeDc2Y29UN0FtT3o5YkF3Q3VrY2lLMTVrc19WUWY1dGh5MVp0Wk96bmZpWnhDSjlqbE01dHdXRVRpUWp2SGdCbDdwVjNLUU9HT2k5YjQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 878
+    },
+    {
+      "date": "Jun 05",
+      "text": "Iran war live: Lebanon’s president criticises Iran amid Israeli attacks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOWxXQ3AwU2t4YUlFRndZMWpEdGFxS25qZllnMWVlQnJvYTJvT1p2aktlY2JXSW01OXBLQ3dsN25kVHJicXhDeFZhR0RoR20yR2tYSUg3ejN5V0xZcVVabW5URTBoaURDN3BLRXhGRmRpUGFhcXVGaWU5TG5rdmlCcjg3WjFIVVRhejdkdGlOQlhqNGgzTnYtdGJQN2FKWm1wQnZkNVEyOENMX0V0MFdYSzR3dGVldlB0ZUJqamhqTdIBxAFBVV95cUxOQzA0d1NUdlkyRDlMTnBNVTZBTnpCTEkxbG9DSGVFSDEtOUJIN2lvN0lJSnM5ZW4xd1NVQ2lhUWFBQXh6cVkwaFpJOFQ4by1SMWZKblFRc3h1WUpfQjhoYWdPMi0ydnZORGd3bUNoTjZBR3pHRGU5WlQ2S2ZZWHZmNlN0MmJCdEVYNXB1ZFdyXzJiVklWZGhTUXFnMnZBbG5fX2hWOFdiekdJLUVqdlVvSUJJSm10VEFBaERkTlBDUWlLRS1Q?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 878
+    },
+    {
+      "date": "Jun 05",
+      "text": "Israel, Lebanon agree to renew ceasefire as Iran launches deadly attack on Kuwait airport",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 877
-    },
-    {
-      "date": "Recent",
-      "text": "Iran fires missiles and US strikes Iran facility after reports of faltering peace talks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOU1BXWkhqeGRkRDRmQURFZW02aWM1NlZyTHl6Q3hIUjhRUUdaMV85bUpCbUl5bjREd1Flbk9YNE9ndldSSExSUkw2M3IzdkpreFRMTnBLaUFWdkRxSVlOY1d3TVN1bFZTZTd0ZVV5UTlsQ1Q3bDI2a3gteXBPdmtMY2J4MmNfdGFtZFg3UXZwU0wxN0VG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 877
-    },
-    {
-      "date": "Recent",
-      "text": "Hormuz Traffic Remains Near Zero as Peace Talks Stall.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPc2VrMHZNaWx5eThNbnY3V1NweGprOXhBbXkzQzdLZFVZR0Rkc0IzQXJaRDk5OHJmdUZiTXJTdTIyMDl2NmJnajZsQ3ltWnFJREY3VXNaZ19tcFNtY282enYzZWpMZEFPNjFCajJici1CUy1LWlJCbWYyYXBSdUFVbjllWlFnV05pWHVQdmNNMmpkWmg5Q2t3Q2V2XzNmcDVlaWhSNl85eGl1VXFCLVNNOV9R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bloomberg.com",
-      "latestSinceUpdate": 877
+      "latestSinceUpdate": 878
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
