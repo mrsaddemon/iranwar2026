@@ -1,13 +1,13 @@
 {
-  "updateSequence": 875,
+  "updateSequence": 876,
   "lastUpdated": "2026-06-05",
-  "lastSyncedAt": "2026-06-05T13:28:45.603Z",
+  "lastSyncedAt": "2026-06-05T16:14:13.857Z",
   "warDay": 98,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "A regional ceasefire remains highly fragile and contested, with Hezbollah rejecting agreements and Iran launching attacks despite attempts at renewal."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
