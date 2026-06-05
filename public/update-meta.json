@@ -1,13 +1,13 @@
 {
-  "updateSequence": 872,
+  "updateSequence": 873,
   "lastUpdated": "2026-06-05",
-  "lastSyncedAt": "2026-06-05T01:31:51.459Z",
+  "lastSyncedAt": "2026-06-05T06:03:08.815Z",
   "warDay": 98,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "Multiple attempts at a ceasefire between Israel and Lebanon, backed by the US, have been rejected by Hezbollah, and an agreed renewal was immediately undermined by an Iranian attack on Kuwait, indicating a collapsed state of de-escalation."
+    "summary": "A ceasefire agreement between Israel and Lebanon was reported but immediately rejected by Hezbollah and followed by continued attacks from both sides."
   }
 }
