@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 873,
+  "updateSequence": 874,
   "lastUpdated": "2026-06-05",
-  "lastSyncedAt": "2026-06-05T06:03:08.815Z",
+  "lastSyncedAt": "2026-06-05T10:07:49.833Z",
   "warDay": 98,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The conflict between Israel and Iran continues with ongoing strikes in Lebanon, rejected ceasefire attempts, and US involvement, while regional economic concerns persist.",
   "lastNarrativeUpdate": "2026-06-05",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "A ceasefire agreement between Israel and Lebanon was reported but immediately rejected by Hezbollah and followed by continued attacks from both sides."
+    "summary": "Multiple ceasefire attempts between Israel and Lebanon have been rejected by Hezbollah or violated by ongoing attacks from both sides and Iran."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.88
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
+    "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 92,
-    "tradeImpact": 67,
+    "oilDisruption": 60,
+    "tradeImpact": 44,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 61,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 03",
-      "text": "Iran Update Special Report released.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNcjNwZU1ndTV0T2FlMW56eHdPSTJMQjlNUE9TcHg1RUNJMXFzOEJEaVd2QzdoSUNaUmloUktjbTlfaS0teXdEeDc2Y29UN0FtT3o5YkF3Q3VrY2lLMTVrc19WUWY1dGh5MVp0Wk96bmZpWnhDSjlqbE01dHdXRVRpUWp2SGdCbDdwVjNLUU9HT2k5YjQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 873
-    },
-    {
-      "date": "Jun 05",
-      "text": "Israel continues attacks in Lebanon despite a new ceasefire attempt.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 873
-    },
-    {
-      "date": "Jun 05",
-      "text": "Hezbollah rejects a ceasefire deal between Lebanon and Israel.",
+      "date": "Jun 04",
+      "text": "Hezbollah rejects a Lebanon-Israel ceasefire plan amidst continued Israeli attacks.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 873
+      "latestSinceUpdate": 874
     },
     {
-      "date": "Jun 05",
-      "text": "Israel and Lebanon agree to renew ceasefire, but Iran launches a deadly attack on Kuwait airport.",
+      "date": "Jun 04",
+      "text": "The US House passes a war powers resolution directing President Trump to end hostilities with Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 874
+    },
+    {
+      "date": "Jun 04",
+      "text": "Israel and Lebanon agree to renew a ceasefire, but Iran launches a deadly attack on Kuwait airport.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 873
+      "latestSinceUpdate": 874
     },
     {
-      "date": "Jun 05",
-      "text": "Iran fires missiles, and the US strikes an Iranian facility after peace talks falter.",
+      "date": "Jun 04",
+      "text": "President Trump warns Iran that killing US troops would trigger military action, as Tehran blasts US demands.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOU1BXWkhqeGRkRDRmQURFZW02aWM1NlZyTHl6Q3hIUjhRUUdaMV85bUpCbUl5bjREd1Flbk9YNE9ndldSSExSUkw2M3IzdkpreFRMTnBLaUFWdkRxSVlOY1d3TVN1bFZTZTd0ZVV5UTlsQ1Q3bDI2a3gteXBPdmtMY2J4MmNfdGFtZFg3UXZwU0wxN0VG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 873
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOcURlcHp2TU5ubWtEUktYVXNqZ0g1dlBFQlp3RE9YREE2OWVlbXloR3pzLU4waE5jMW55M0paOEFLUnp4MUJyN3pTWUxvZ0x2MFBZa18yY0JPTHR1aF9pdDByd1BUX0dmSDdfLVpWamtxY1R0WndJT0U3aGx6N2F0SWdpcnJwTmx0eUt3MmJPTkJJMU1kNkk3WTdwc1J5MDdoU0ZHSV9R0gGrAUFVX3lxTE16ZUYzbzVoS2xCblNOdVhYZFZXN2xXQzBSM3EtUlR4YTA4YlB3eVhBUlkxZXJqRFJVTVVUUkdQUlNUNUx2U3o3WkU4X2hEalUwYW9tUFRnT2YwWDY4WnB2SHZjdnJRR2xSa2FCd3BqaVZJT1UyMEM4WEM0YmNEUEZqY1hlaHoycjIyZE4xYjFRNUdjVm1RT1cyRGN0ZjRmdE5RTW5YQlpwQURyTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 874
     },
     {
-      "date": "Jun 05",
-      "text": "U.S. and Iran launch new attacks in the Persian Gulf.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNV195UHZJZ2NFWWs1c0tqT21IdTlyb2F4YVNtWWNSNHFWbDJmMDVqWVJMXzBjaV9QUTVHOXBHc3VrYzJkQnlrQm8xM3cwa2s1ZmJTajY0RE5Vd2Nnak9IQ3dLcE05bmE4d1ZTVmgtTExWQkFHVlpZYVB0QTh2TjdNNGJ4dW9BM2txdTl4VmFXRm9ZREVGWUJ4b3JUSEp3SVphQlViQ05ITk9TS05O?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 873
+      "date": "Jun 04",
+      "text": "Oil prices slip as hopes for peace talks with Iran temporarily outweigh fears of disruption in the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 874
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
