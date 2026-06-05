@@ -1,13 +1,13 @@
 {
-  "updateSequence": 874,
+  "updateSequence": 875,
   "lastUpdated": "2026-06-05",
-  "lastSyncedAt": "2026-06-05T10:07:49.833Z",
+  "lastSyncedAt": "2026-06-05T13:28:45.603Z",
   "warDay": 98,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "Multiple ceasefire attempts between Israel and Lebanon have been rejected by Hezbollah or violated by ongoing attacks from both sides and Iran."
+    "summary": "A regional ceasefire remains highly fragile and contested, with Hezbollah rejecting agreements and Iran launching attacks despite attempts at renewal."
   }
 }
