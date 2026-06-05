@@ -1,13 +1,13 @@
 {
-  "updateSequence": 878,
+  "updateSequence": 879,
   "lastUpdated": "2026-06-05",
-  "lastSyncedAt": "2026-06-05T20:16:24.571Z",
+  "lastSyncedAt": "2026-06-05T21:47:49.821Z",
   "warDay": 98,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A renewed ceasefire between Israel and Lebanon has been agreed upon but is immediately challenged by ongoing attacks and rejections from Hezbollah and an Iranian attack on Kuwait."
   }
 }
