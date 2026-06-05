@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 871,
-  "lastUpdated": "2026-06-04",
-  "lastSyncedAt": "2026-06-04T23:17:42.922Z",
-  "warDay": 97,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-04",
+  "updateSequence": 872,
+  "lastUpdated": "2026-06-05",
+  "lastSyncedAt": "2026-06-05T01:31:51.459Z",
+  "warDay": 98,
+  "summary": "The Middle East conflict intensifies with Iran's attack on Kuwait and Hezbollah's rejection of ceasefire deals, while the Strait of Hormuz faces significant oil shipping disruptions and US military involvement grows amidst domestic political division.",
+  "lastNarrativeUpdate": "2026-06-05",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 94,
-    "summary": "A proposed ceasefire between Lebanon and Israel faces rejection from Hezbollah, with continued hostilities despite reports of a partial truce holding in some areas."
+    "summary": "Multiple attempts at a ceasefire between Israel and Lebanon, backed by the US, have been rejected by Hezbollah, and an agreed renewal was immediately undermined by an Iranian attack on Kuwait, indicating a collapsed state of de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,22 +27,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 68,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 03",
-      "text": "Israel continues deadly attacks after new Lebanon ceasefire talks.",
-      "severity": "critical",
+      "text": "An Iran Update Special Report was published.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNcjNwZU1ndTV0T2FlMW56eHdPSTJMQjlNUE9TcHg1RUNJMXFzOEJEaVd2QzdoSUNaUmloUktjbTlfaS0teXdEeDc2Y29UN0FtT3o5YkF3Q3VrY2lLMTVrc19WUWY1dGh5MVp0Wk96bmZpWnhDSjlqbE01dHdXRVRpUWp2SGdCbDdwVjNLUU9HT2k5YjQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 872
+    },
+    {
+      "date": "Jun 05",
+      "text": "Hezbollah rejected a US-backed ceasefire deal between Lebanon and Israel.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 872
+    },
+    {
+      "date": "Jun 05",
+      "text": "Israel continued attacks in Lebanon despite ceasefire discussions.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 871
+      "latestSinceUpdate": 872
     },
     {
-      "date": "Jun 03",
-      "text": "Hezbollah rejects US-backed ceasefire deal between Lebanon and Israel.",
+      "date": "Jun 05",
+      "text": "Iran stated 'no tangible progress' was made in ongoing talks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBDX19HLUpiZ2wzMzJfd0VNaUxxazNlXzJXMkRrM2tkUkk5MmtVYllkUUZSWWR3d2RydXRNSzdKdHRqQ281Mkk5ZWpRamlrM3lqTll5LWNQQW5rUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 870
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOYlpmbDZCQVFUOFE1aWl0NG9jVWp6MElrRjJzNE5UVTVkelU1anNIYjNvRjZ5bHNLVWM4M1h1UXFvbHRGNXZzS0RxSF9OU21OUm5VQTZwdnIyMVJTVmwyLU5YLWY2RkRRTXFOV05FdW9BYjVodUlYaVNmdTdEVTlkaDFrU2NvYnp4eW5MSlIxSGhDemJZYUxF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 872
     },
     {
-      "date": "Jun 03",
-      "text": "Iran launches deadly attack on Kuwait airport.",
+      "date": "Jun 05",
+      "text": "Iran launched a deadly attack on Kuwait airport.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 871
+      "latestSinceUpdate": 872
     },
     {
-      "date": "Jun 03",
-      "text": "Iran fires missiles and US strikes Iran facility after reports of faltering peace talks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOU1BXWkhqeGRkRDRmQURFZW02aWM1NlZyTHl6Q3hIUjhRUUdaMV85bUpCbUl5bjREd1Flbk9YNE9ndldSSExSUkw2M3IzdkpreFRMTnBLaUFWdkRxSVlOY1d3TVN1bFZTZTd0ZVV5UTlsQ1Q3bDI2a3gteXBPdmtMY2J4MmNfdGFtZFg3UXZwU0wxN0VG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 871
-    },
-    {
-      "date": "Jun 03",
-      "text": "Ships stranded in Persian Gulf quietly coordinate with U.S. Navy to exit Hormuz.",
-      "severity": "critical",
+      "date": "Jun 05",
+      "text": "Ships in the Persian Gulf quietly coordinated with the U.S. Navy to exit the Strait of Hormuz.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQQjcwMnZ6S0hSN3dVQ24zOEdHNzZhM3JyUGNQUFl2TjJTcnpGaDJQaENaSVc5ejBCNFcwSzNmTHl4T3ZvVnFmZ0U5S1RBakZheXdkSC02SjVkbEVQTkFkeXd3VDhtWnJQSl9fTTlUclZheTZqNlVMN3FlenFGTk5xTTBXMFBScTZ1RU94V2h5UVFMenl0QkHSAZsBQVVfeXFMTWM1VFFFNlc3VWdRSXVmV25QbzRwWmx2QzhYMWZZbl9WdUNyc01Cam5kSHNZVWJ3WkphZUhKYmNZcnBkcnhqQTkzaVpLRjM1ZmszNTlkQjRYdl9jdEFiZkdEU2hna19PMU91a3VHemY3QklKeTlMWmczOUsza2RWOW5oY0lyU3pQNXE2M0FhV2ZrR2hkbEotdm9OWk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 871
-    },
-    {
-      "date": "Jun 03",
-      "text": "US House votes for measure that would end Iran war, in blow to Trump.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOaXZBVGtQRWNUQXJnZ1ZIRy1ESnlmMTR6MXZMeGotWEJEV0JwTnJmVXdHYUJZazB3cjhrU2FLN0gyMk0tUlNPZDVYYUpLMzhhTUZFam9aLWpNWjNManFDVzFVTGFudDBCQnJja0V4YXFLNldHRUtvYTZBdVR5eTlZaHFKb1dHSjBHSXNMRHpZR3JGY21Kb1NONEJ3ckoxR3N4d3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 871
+      "latestSinceUpdate": 872
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Stance",
-      "headline": "Iran Continues Strikes Amidst Stalled US Negotiations",
-      "summary": "Iran's Foreign Minister states contact with the US is maintained but negotiations show no progress, as Iran launches aggressive strikes against neighbors and US assets, framing them as responses to regional dynamics.",
+      "perspective": "Iran/Hezbollah",
+      "headline": "Defiance and Resistance",
+      "summary": "Hezbollah and Iran maintain a defiant stance, rejecting ceasefire proposals and continuing military actions, asserting their influence and rejecting external mediation efforts. Iran also reports no progress in broader negotiations.",
       "tone": "defiant",
-      "latestSinceUpdate": 863
+      "latestSinceUpdate": 872
     },
     {
-      "perspective": "US Response & Internal Division",
-      "headline": "US Counters Iranian Aggression While Congress Rebukes Executive Power",
-      "summary": "The US condemns Iran's aggressive strikes and actively counters missile and drone attacks, while the House of Representatives passes a war powers resolution, signaling internal political division regarding military engagement.",
+      "perspective": "US (Trump)",
+      "headline": "Assertive US Posture",
+      "summary": "President Trump has broadened the U.S. military footprint and issued strong warnings to Iran, signaling a more aggressive stance against perceived threats. However, this approach faces domestic opposition from the House of Representatives.",
       "tone": "strained",
-      "latestSinceUpdate": 863
+      "latestSinceUpdate": 872
     },
     {
-      "perspective": "Israel-Hezbollah Volatility",
-      "headline": "Fragile Truce Holds Amidst Hezbollah Provocations",
-      "summary": "A partial truce between Israel and Hezbollah is in place, contingent on Hezbollah ceasing attacks, but recent rocket launches by Hezbollah are testing the U.S.-mediated deal, maintaining high regional tension.",
+      "perspective": "Global Energy",
+      "headline": "Strait of Hormuz Disruption",
+      "summary": "Iran's increasing influence over the Strait of Hormuz is causing significant disruptions to global oil shipping, forcing a re-evaluation of energy supply routes and raising concerns about long-term stability in the region.",
       "tone": "anxious",
-      "latestSinceUpdate": 863
+      "latestSinceUpdate": 872
     }
   ]
 });
