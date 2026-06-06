@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 885,
+  "updateSequence": 886,
   "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T11:06:46.357Z",
+  "lastSyncedAt": "2026-06-06T12:13:37.488Z",
   "warDay": 99,
-  "summary": "Ongoing military exchanges between the U.S. and Iran in the Gulf region, alongside a fraying ceasefire between Israel and Lebanon, mark a period of heightened regional tension and warnings of wider conflict.",
+  "summary": "The conflict in West Asia continues with active exchanges of fire between the US and Iran, Iranian missile and drone attacks on Gulf neighbors, and a highly fragile ceasefire situation between Israel and Lebanon.",
   "lastNarrativeUpdate": "2026-06-06",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "Attempts to renew a ceasefire between Israel and Lebanon are met with rejection by Hezbollah, while a broader ceasefire between the U.S. and Iran is actively being tested by ongoing strikes."
+    "summary": "A ceasefire between Israel and Lebanon is highly fragile, frequently violated by active strikes, and rejected by Hezbollah despite attempts to renew it."
   },
   "actorOverrides": {
     "usa": {
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 05",
-      "text": "Ceasefire in Lebanon frays as Iran warns of wider war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 885
-    },
-    {
-      "date": "Jun 05",
-      "text": "Iranian missiles target Kuwait and Bahrain following a US-Iran clash.",
+      "text": "Iranian missiles targeted Kuwait and Bahrain following a US-Iran clash.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOZDNOM0N5RlRpQVgzS3JNR3FFVmluU2w1dk0tRDRnRzg1UHhSbDVkNVd2aHlkSXBZc0l0MHdjcENyX3NUN3E4RTViUGxfVmNGZFFGeEN6ZGVTMWlXOFlKanZhN1ZfdE54Ykxhd3J1SkFqZ2RuVUJCN2RXZUxqZC00LTFQNUlLdkUzbzhhYzFqLWhPdmg1SjBYQUVDS2hxaVprLThyYkVWUHEydnpUbnZGU08yMUhOOXPSAbwBQVVfeXFMTWVNMkFzNGlmOXQzSTA2TDR1VmpJLWZTMlFrR193XzBQWnl5V3JWSlpLb1dDV21CdzEtSU1lSTJScDI4WC1GcDNOQ2YwdGJKR2pObzRtZHNPRnhRYTRmTkwtMmlIU25HTXpiU3hKbFRGUTlVa0FjVXp6aW9DVVBzTUY0c0JtWTVzY1YyYmVqcEZJcGdOR2ZiWUhhN0o3X19BMk5IaG5KTmsxVWFwWE9ldEY3cW9nYWlYcDg5UHQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 885
+      "latestSinceUpdate": 886
     },
     {
-      "date": "Jun 05",
-      "text": "Iran fires drones toward the Strait of Hormuz, with the U.S. military shooting down at least four.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 885
-    },
-    {
-      "date": "Jun 05",
-      "text": "U.S. and Iran trade another round of fire, with talks reported to be at a 'deadlock'.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 885
-    },
-    {
-      "date": "Jun 05",
-      "text": "Hezbollah rejects a US-backed Israel-Lebanon ceasefire proposal.",
+      "date": "Jun 04",
+      "text": "The ceasefire in Lebanon frayed as Iran warned of a wider war.",
       "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 886
+    },
+    {
+      "date": "Jun 04",
+      "text": "Israel and Lebanon agreed to renew a ceasefire, but Iran launched a deadly attack on Kuwait airport.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 886
+    },
+    {
+      "date": "Recent",
+      "text": "Iran fired drones toward the Strait of Hormuz, with the U.S. military shooting down at least four.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 886
+    },
+    {
+      "date": "Recent",
+      "text": "The U.S. and Iran traded another round of fire in the Gulf.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 886
+    },
+    {
+      "date": "Recent",
+      "text": "Hezbollah rejected a US-backed Israel-Lebanon ceasefire proposal.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBDX19HLUpiZ2wzMzJfd0VNaUxxazNlXzJXMkRrM2tkUkk5MmtVYllkUUZSWWR3d2RydXRNSzdKdHRqQ281Mkk5ZWpRamlrM3lqTll5LWNQQW5rUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 885
+      "latestSinceUpdate": 886
     }
   ],
   "sourceStatuses": [
