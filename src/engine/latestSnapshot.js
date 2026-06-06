@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 891,
+  "updateSequence": 892,
   "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T19:42:35.374Z",
+  "lastSyncedAt": "2026-06-06T20:47:28.377Z",
   "warDay": 99,
-  "summary": "Ongoing military exchanges between the U.S. and Iran, including drone incidents near the Strait of Hormuz, are occurring amidst a collapsed ceasefire in Lebanon and warnings from Iran of a wider regional conflict.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-06",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "The ceasefire in Lebanon has collapsed following rejection by Hezbollah and ongoing military exchanges."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 05",
-      "text": "Ceasefire in Lebanon frays as Iran warns of wider war.",
-      "severity": "critical",
+      "date": "Jun 06",
+      "text": "Iran war live: Tehran says US ‘lacks will’ for stability after latest clash",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOZDNOM0N5RlRpQVgzS3JNR3FFVmluU2w1dk0tRDRnRzg1UHhSbDVkNVd2aHlkSXBZc0l0MHdjcENyX3NUN3E4RTViUGxfVmNGZFFGeEN6ZGVTMWlXOFlKanZhN1ZfdE54Ykxhd3J1SkFqZ2RuVUJCN2RXZUxqZC00LTFQNUlLdkUzbzhhYzFqLWhPdmg1SjBYQUVDS2hxaVprLThyYkVWUHEydnpUbnZGU08yMUhOOXPSAbwBQVVfeXFMTWVNMkFzNGlmOXQzSTA2TDR1VmpJLWZTMlFrR193XzBQWnl5V3JWSlpLb1dDV21CdzEtSU1lSTJScDI4WC1GcDNOQ2YwdGJKR2pObzRtZHNPRnhRYTRmTkwtMmlIU25HTXpiU3hKbFRGUTlVa0FjVXp6aW9DVVBzTUY0c0JtWTVzY1YyYmVqcEZJcGdOR2ZiWUhhN0o3X19BMk5IaG5KTmsxVWFwWE9ldEY3cW9nYWlYcDg5UHQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 892
+    },
+    {
+      "date": "Jun 06",
+      "text": "June 5, 2026 — Ceasefire in Lebanon frays, Iran warns of wider war",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 891
+      "latestSinceUpdate": 892
     },
     {
-      "date": "Jun 05",
-      "text": "U.S. and Iran trade another round of fire as ceasefire faces further strain.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 891
+      "date": "Jun 06",
+      "text": "Iran Update Special Report, June 4, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcmVsWTh6Vnotamp0Z19leFpQWmVYcDU5Uk9pSWx2Y2J6cVB4Ri0wWE5RcnJlajFmRm81Z2k2dlBnZUh0cUZlTXpQRW1fbFhjcEpyaHNBZUtWRlQ4cEZvdWtWUGtiZWJHSjcxNWgwdUVrYkpkUG1GUGZnNFRiZC1uYTZtVERrVW9aRldwV1BKbWpOVXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 892
     },
     {
-      "date": "Jun 05",
-      "text": "Hezbollah rejects US-backed Israel-Lebanon ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBDX19HLUpiZ2wzMzJfd0VNaUxxazNlXzJXMkRrM2tkUkk5MmtVYllkUUZSWWR3d2RydXRNSzdKdHRqQ281Mkk5ZWpRamlrM3lqTll5LWNQQW5rUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 891
-    },
-    {
-      "date": "Recent",
-      "text": "Iran Fired Drones Toward Strait of Hormuz with U.S. Shooting Down at Least 4.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPMElJNTFWUFhqeEdWLUtxSEdMOS05ZjFhbVlFTlNYd2dGTFhma0xGREdJSnBuR1pFenB3UU05OHRValFIb1BLMW4zeElXeE1jRVZtS3ZRWlpZYkRXZElmS0dGMHltYnlKNURHVWVzWF9UYXJzeFByM3VTQlVSMnc4THV1VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 891
-    },
-    {
-      "date": "Recent",
-      "text": "House passes war powers resolution directing Trump to end hostilities with Iran.",
+      "date": "Jun 06",
+      "text": "House passes war powers resolution directing Trump to end hostilities with Iran",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 891
+      "latestSinceUpdate": 892
+    },
+    {
+      "date": "Jun 06",
+      "text": "Live Updates: U.S. and Iran trade another round of fire as Iranian official says talks are at a \"deadlock",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 892
+    },
+    {
+      "date": "Jun 06",
+      "text": "Live updates: Ceasefire faces further strain as US and Iran launch new strikes",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaThld29lUFRLdTRVVlNPOV94LUxWVko2UkRZbXVpWGpVZnAxV2tLNDkzMHZuSEdyQzhSZXRLblhWanRyTG4yNE5VQjEzMFk0ODQybTBidEVWQzVaSlI5T2dfNWJwS241ZXVnRU5rZS14X0VndzJRWnJhNGJNbGFPWk13?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 892
     }
   ],
   "sourceStatuses": [

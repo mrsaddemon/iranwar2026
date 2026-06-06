@@ -1,13 +1,13 @@
 {
-  "updateSequence": 891,
+  "updateSequence": 892,
   "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T19:42:35.374Z",
+  "lastSyncedAt": "2026-06-06T20:47:28.377Z",
   "warDay": 99,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "The ceasefire in Lebanon has collapsed following rejection by Hezbollah and ongoing military exchanges."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
