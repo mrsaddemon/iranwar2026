@@ -1,13 +1,13 @@
 {
-  "updateSequence": 882,
+  "updateSequence": 883,
   "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T04:14:54.613Z",
+  "lastSyncedAt": "2026-06-06T07:25:54.925Z",
   "warDay": 99,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A new Lebanon ceasefire was proposed but rejected by Hezbollah, and ongoing exchanges of fire indicate a highly fragile or collapsed truce."
+    "summary": "Despite an agreement between Israel and Lebanon to renew a ceasefire, Hezbollah has rejected the truce, and US and Iranian forces continue to exchange strikes in the Gulf."
   }
 }
