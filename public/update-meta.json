@@ -1,13 +1,13 @@
 {
-  "updateSequence": 893,
+  "updateSequence": 894,
   "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T21:46:24.566Z",
+  "lastSyncedAt": "2026-06-06T22:46:39.109Z",
   "warDay": 99,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A ceasefire deal between Lebanon and Israel is under severe strain and has been rejected by Hezbollah, with ongoing hostilities."
+    "summary": "The ceasefire in Lebanon has collapsed following Hezbollah's rejection and continued military actions by both sides."
   }
 }
