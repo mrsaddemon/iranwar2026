@@ -1,13 +1,13 @@
 {
-  "updateSequence": 883,
+  "updateSequence": 884,
   "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T07:25:54.925Z",
+  "lastSyncedAt": "2026-06-06T09:35:24.417Z",
   "warDay": 99,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "Despite an agreement between Israel and Lebanon to renew a ceasefire, Hezbollah has rejected the truce, and US and Iranian forces continue to exchange strikes in the Gulf."
+    "durationDays": 3,
+    "summary": "A ceasefire between Israel and Lebanon is fraying and rejected by Hezbollah, while broader US-Iran conflict continues with no active truce."
   }
 }
