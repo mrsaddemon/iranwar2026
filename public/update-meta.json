@@ -1,13 +1,13 @@
 {
-  "updateSequence": 896,
+  "updateSequence": 897,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T01:58:34.011Z",
+  "lastSyncedAt": "2026-06-07T06:39:26.653Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 3,
-    "summary": "A ceasefire deal between Lebanon and Israel has been rejected by Hezbollah and appears to have collapsed amidst mutual strikes and accusations of violations, though peace talks reportedly continue."
+    "summary": "Proposed ceasefire deals between Lebanon and Israel have been rejected by Hezbollah, and Iran accuses the U.S. of violating an existing ceasefire."
   }
 }
