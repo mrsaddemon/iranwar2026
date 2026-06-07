@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 899,
+  "updateSequence": 900,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T11:29:36.974Z",
+  "lastSyncedAt": "2026-06-07T13:07:27.845Z",
   "warDay": 100,
-  "summary": "The conflict in West Asia continues on its 100th day with a ceasefire in Lebanon fraying, direct exchanges between US and Iranian forces, and ongoing Israeli strikes against Hezbollah.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-07",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
-    "durationDays": 3,
-    "summary": "A ceasefire in Lebanon has frayed and collapsed, with Hezbollah rejecting new agreements and both sides exchanging strikes."
+    "durationDays": 100,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 100 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 05",
-      "text": "Ceasefire in Lebanon frays as Iran warns of a wider war.",
-      "severity": "critical",
+      "date": "Jun 07",
+      "text": "June 5, 2026 — Ceasefire in Lebanon frays, Iran warns of wider war",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 899
+      "latestSinceUpdate": 900
     },
     {
-      "date": "Jun 05",
-      "text": "Iran accuses the U.S. of violating the ceasefire after both sides exchange strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 899
+      "date": "Jun 07",
+      "text": "100 days of the Iran war: How global markets and the economy have been affected, in charts",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNQ0piOEJUaXBPd1ZyZ3BrRWdMbXlQZk1sUzZrMUY3N0pMYWFmLXAzZzVoREpZRGFnaHY2eFE1eUVjV3JjcEN3d3lkTFRKcmlqT2R2X2VJRjdBRXRleDFVM09tMDhrVlhmZ19RSk1yQXZ4RGhpZW1IeWJ6dGlqRGFQVm1nc0VaeURlU0Ew0gGQAUFVX3lxTE14ck9VTmJTN1Y1aHFmZkhpYjRkRkdva085ZEt4cEd5NHUwclRhdmRJcW8yM2pPSllqQUdRZFYwUTR0bWI3cUlzTjR4djZmSERFNkd6YUMzaEpxLUhMNHNWa0d6NWdUY1dIVDQ4alFxYkV6R3lYQ3dhWVRBV2xBX0xzWHBrdXdPNzJSUF9WUDlheA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 900
     },
     {
-      "date": "Jun 05",
-      "text": "Israel strikes Lebanon as Hezbollah fires missiles in response.",
-      "severity": "critical",
+      "date": "Jun 07",
+      "text": "How have countries around the world responded to the US-Israel war on Iran?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOcUhQekE3N0RCZlNiWGdNTmhoNFM5OUMxaklWX0M2dTN3Q3poM3R5bTNMS2NVY0JzN1o0TUVtMnh4NXkxOXZIZ2xrb2NuTDV3dVJhbTdoVm1LTVloc2tPTGZ2TE5oNnByWmdva1AxanNvckJIcHFBV3E5blRBclVMOERnYkNSVFlEVC03VHNlMVNuVjhVWVh6eUJvdm9XVkh0M29yM1hqX2MxenVXV1pscExEcHHSAboBQVVfeXFMUGJ0UUtUOHF2UFlQVEt5M0JrVVVCNlRVSnRxLUVtSFpSQU50bHVJZ0tpSGVhd0ZSYy1JMkFaek1MTlpma0hNSldFWkRfa3ZCbXQ3TmZIMlFveUJtcHV5V0dEeWIzUWN5alliTGE5OE9sMkJEN200U0w5U2tRSXJFcXBrVUJrNDR5NXdZTXU5ejloaDJRMy1XTzVDYkFYa0lhV1g0OHdQWlAxS19oSUhvMlprNTVPWWlLMi1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 900
+    },
+    {
+      "date": "Jun 07",
+      "text": "Iran Update Special Report, June 6, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPQ2E2ZF9rd29Edmd4dFE2U2xHTmxTWW9hQ2FhUVFhX3pzbGJvSWxYR1F1a0l3MFMxLTZSUDlUU1JCR3REYndnTVd4eGx5RjNTWXJCZU9aaVA5Nl9RRkN3bDQtOXpNTmNKSFp0dDYwaXpBZF9CZmYyWXoyRUYwNVNPZzJqMFVicXh6ZlNTbnlvSXhPMkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 900
+    },
+    {
+      "date": "Jun 07",
+      "text": "Iran war live: Israel strikes southern suburbs of Lebanon’s Beirut",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNOS1JbnU1UG56TjRPLW96Q0YzZ2xjcGdzMURseFFZOFZ0emcyS1ctVTRYVFJmQlYwSXM4UWt3WjdfM1pNUVM5c0VzTzFsbFlrNXFYUUJzVVdDNFQ4UE5CbjFoUnhENVJUZEY1bVhMdzdIQUlPTXZSOUJWS3I2UWI4QUNfTy14N3VMS1BjLVVFRVpiNGxPU2ZNUlFyZ0Q2YWZoM1RNRFVQRFNsamhWTjBUSjdOQUFNRGtv0gG-AUFVX3lxTE9HOUViRk1WdTRJTVRUOEJjQTNXT3pKaWVPRlQ1bGh5ZS1YR29MVWt4ZHRfQlhUREFEOUIxcmZTbzlJd1RVZFI2QzB4NlJtVkRzQ3k3Um9yeG9jaEZJM3NBSlB4LVF3TFlXOFNSV1NsVTE0YXplQjlvZ0FTX3dUR1V5elRjVWo1NU5JbHdMYUphenJJVGZtZ2luRldoNllRNlhkQjhlcXhtZ1JNNHJVUEh1bFVHM1BabW5DcWM1V3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 899
+      "latestSinceUpdate": 900
     },
     {
-      "date": "Jun 05",
-      "text": "U.S. military shoots down Iranian drones launched toward Gulf allies and the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPSzNfZ04xZUVycUZLbW4xTERjZFVfMlZIdXphTXotR1pna2JaZ2pHM1ZxcTVvekpHOE0zZVlRSndFTDRJcHdVRmlxZXphc2lFQXNhajc1aFJudGREZ0l5blhQTXh1Zl9ZWXc0NUtKUjBURlFBV3JvOHBFYkZtUlE0Zzk0WXEtV2tGaVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 899
-    },
-    {
-      "date": "Jun 06",
-      "text": "Hezbollah rejects the latest ceasefire agreement, stating it gives them new purpose.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 899
-    },
-    {
-      "date": "Jun 06",
-      "text": "Israeli strikes kill 4 in Lebanon amid ongoing hostilities.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxQaWxhTXE4RVFMNzZSeHRMdVdCRkIzeHktVTdfazU4ZVAxVkU4eUJJZlpOdUxTYVhuVUphemMtNFIxYmJXcFRYTTl2V3UyeTAwS0VoY3dPRmN5aDRLUzVtU2pNZ1UycTd1RFpSOHNmZk9OOEZXWXoxdWRtd3JEVnJWTUxFMUx6VWpORGt5V3lzMHRTc0NZaFdzSUJGaVFxd0pWXzlYUG0tdUs1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 899
+      "date": "Jun 07",
+      "text": "Live Updates: Iran accuses U.S. of violating ceasefire after both sides exchange strikes as stalemate continues in peace talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 900
     }
   ],
   "sourceStatuses": [
