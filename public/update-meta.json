@@ -1,13 +1,13 @@
 {
-  "updateSequence": 895,
-  "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T23:47:35.693Z",
-  "warDay": 99,
+  "updateSequence": 896,
+  "lastUpdated": "2026-06-07",
+  "lastSyncedAt": "2026-06-07T01:58:34.011Z",
+  "warDay": 100,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire deal between Lebanon and Israel has been rejected by Hezbollah and appears to have collapsed amidst mutual strikes and accusations of violations, though peace talks reportedly continue."
   }
 }

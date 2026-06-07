@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 895,
-  "lastUpdated": "2026-06-06",
-  "lastSyncedAt": "2026-06-06T23:47:35.693Z",
-  "warDay": 99,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
-  "lastNarrativeUpdate": "2026-06-06",
+  "updateSequence": 896,
+  "lastUpdated": "2026-06-07",
+  "lastSyncedAt": "2026-06-07T01:58:34.011Z",
+  "warDay": 100,
+  "summary": "Ongoing clashes between US and Iran, and Israel and Lebanon, continue as a ceasefire deal frays and Hezbollah rejects a truce, while the US maintains naval presence in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-06-07",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire deal between Lebanon and Israel has been rejected by Hezbollah and appears to have collapsed amidst mutual strikes and accusations of violations, though peace talks reportedly continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 46
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 06",
-      "text": "Iran war live: Tehran says US ‘lacks will’ for stability after latest clash",
-      "severity": "info",
+      "date": "Jun 05",
+      "text": "Iran states US 'lacks will' for stability following clashes.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOZDNOM0N5RlRpQVgzS3JNR3FFVmluU2w1dk0tRDRnRzg1UHhSbDVkNVd2aHlkSXBZc0l0MHdjcENyX3NUN3E4RTViUGxfVmNGZFFGeEN6ZGVTMWlXOFlKanZhN1ZfdE54Ykxhd3J1SkFqZ2RuVUJCN2RXZUxqZC00LTFQNUlLdkUzbzhhYzFqLWhPdmg1SjBYQUVDS2hxaVprLThyYkVWUHEydnpUbnZGU08yMUhOOXPSAbwBQVVfeXFMTWVNMkFzNGlmOXQzSTA2TDR1VmpJLWZTMlFrR193XzBQWnl5V3JWSlpLb1dDV21CdzEtSU1lSTJScDI4WC1GcDNOQ2YwdGJKR2pObzRtZHNPRnhRYTRmTkwtMmlIU25HTXpiU3hKbFRGUTlVa0FjVXp6aW9DVVBzTUY0c0JtWTVzY1YyYmVqcEZJcGdOR2ZiWUhhN0o3X19BMk5IaG5KTmsxVWFwWE9ldEY3cW9nYWlYcDg5UHQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 895
+      "latestSinceUpdate": 896
     },
     {
-      "date": "Jun 06",
-      "text": "June 5, 2026 — Ceasefire in Lebanon frays, Iran warns of wider war",
-      "severity": "info",
+      "date": "Jun 04",
+      "text": "Ceasefire in Lebanon frays as Iran warns of wider conflict.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 895
+      "latestSinceUpdate": 896
     },
     {
       "date": "Jun 06",
-      "text": "Iran Update Special Report, June 4, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOcmVsWTh6Vnotamp0Z19leFpQWmVYcDU5Uk9pSWx2Y2J6cVB4Ri0wWE5RcnJlajFmRm81Z2k2dlBnZUh0cUZlTXpQRW1fbFhjcEpyaHNBZUtWRlQ4cEZvdWtWUGtiZWJHSjcxNWgwdUVrYkpkUG1GUGZnNFRiZC1uYTZtVERrVW9aRldwV1BKbWpOVXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 895
+      "text": "Hezbollah rejects US-backed ceasefire deal between Lebanon and Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBDX19HLUpiZ2wzMzJfd0VNaUxxazNlXzJXMkRrM2tkUkk5MmtVYllkUUZSWWR3d2RydXRNSzdKdHRqQ281Mkk5ZWpRamlrM3lqTll5LWNQQW5rUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 896
     },
     {
       "date": "Jun 06",
-      "text": "Hezbollah Rejects Cease-Fire Deal Between Lebanon and Israel",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOcTNYYjZmbTFVQzRwZ2Q0THdUakdnWThpTTBIdGRWcUhVSjAzVFoweHRlbll4bnZlVVlQVll4U2pyTUMyQnllajQtVkxMMUtZVHpEUjdLaHdTaXdGWFdITElJZzVpMDFkY3dJVGJZMmJlamlKblY4eWZHMGIzSG1jWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 895
-    },
-    {
-      "date": "Jun 06",
-      "text": "Live Updates: Iran accuses U.S. of violating ceasefire after both sides exchange strikes as stalemate continues in peace talks",
-      "severity": "info",
+      "text": "Iran accuses US of ceasefire violation amidst mutual strikes and stalled peace talks.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 895
+      "latestSinceUpdate": 896
     },
     {
       "date": "Jun 06",
-      "text": "Live updates: Ceasefire faces further strain as US and Iran launch new strikes",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaThld29lUFRLdTRVVlNPOV94LUxWVko2UkRZbXVpWGpVZnAxV2tLNDkzMHZuSEdyQzhSZXRLblhWanRyTG4yNE5VQjEzMFk0ODQybTBidEVWQzVaSlI5T2dfNWJwS241ZXVnRU5rZS14X0VndzJRWnJhNGJNbGFPWk13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 895
+      "text": "US and Iran exchange strikes; US reports destroying two Iranian drones targeting Hormuz shipping.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxObnMtNTBlSnZZT1h0OGVBZFhSMGVTWFhEQ3lNRnFNQVBEOW9zM3BzbElrU3NaMm5VT3lzcDRUakF1RzFCTkdTTV9NZnp3LUFhTGZpMEhKcW5QMmZzNGt2cTVleW1faThrdXRMVkpzUktHb2ZtODI0V2p6YmlGMkZkalpKOUdvSEJSTFk1OWhZRkg4cW1JLThoRFhGZjB0cVNQV01ncTlPV2ZyWE8x?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 896
+    },
+    {
+      "date": "Jun 06",
+      "text": "US military intercepts multiple Iranian drones launched towards Gulf allies and Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPSzNfZ04xZUVycUZLbW4xTERjZFVfMlZIdXphTXotR1pna2JaZ2pHM1ZxcTVvekpHOE0zZVlRSndFTDRJcHdVRmlxZXphc2lFQXNhajc1aFJudGREZ0l5blhQTXh1Zl9ZWXc0NUtKUjBURlFBV3JvOHBFYkZtUlE0Zzk0WXEtV2tGaVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 896
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (14 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran/Hezbollah",
-      "headline": "Hezbollah Rejects Truce Amid Continued Iranian Strikes",
-      "summary": "Hezbollah rejects ceasefire agreements and Iran reports stalled talks, while continuing military actions including drone launches and attacks on Gulf neighbors. Iran criticizes Lebanon's president amid Israeli attacks.",
+      "perspective": "Iran",
+      "headline": "US Lacks Will, Iran Warns of Wider War",
+      "summary": "Iran asserts the US lacks the will for regional stability following recent clashes and accuses the US of violating a ceasefire. Tehran warns that the ongoing conflict could escalate into a wider war.",
       "tone": "defiant",
-      "latestSinceUpdate": 882
+      "latestSinceUpdate": 896
     },
     {
-      "perspective": "Israel",
-      "headline": "Israel Continues Attacks, Faces Drone Challenges",
-      "summary": "Israel continues its attacks in the region, facing criticism from Lebanon's president and challenges to its defenses from Hezbollah's advanced fiber-optic drones. Efforts for a Lebanon ceasefire are ongoing.",
-      "tone": "strained",
-      "latestSinceUpdate": 882
+      "perspective": "Hezbollah",
+      "headline": "Hezbollah Rejects Truce, Finds New Purpose",
+      "summary": "Hezbollah has rejected a US-backed ceasefire deal between Lebanon and Israel. The group states that the ongoing Israeli offensive in Lebanon has provided it with renewed purpose.",
+      "tone": "defiant",
+      "latestSinceUpdate": 896
     },
     {
       "perspective": "United States",
-      "headline": "US Engages Iran in Gulf, Congress Limits War Powers",
-      "summary": "The US military actively intercepts Iranian projectiles and exchanges fire in the Gulf, testing the limits of a ceasefire. Domestically, the House votes to limit presidential war powers regarding Iran.",
-      "tone": "anxious",
-      "latestSinceUpdate": 882
+      "headline": "US Secures Hormuz, Seeks Regional Stability",
+      "summary": "The US military is providing naval overwatch in the Strait of Hormuz, having intercepted Iranian drones targeting shipping. The US also plans to use Iranian assets for rebuilding in Gulf states, signaling a complex approach to regional stability.",
+      "tone": "neutral",
+      "latestSinceUpdate": 896
     },
     {
-      "perspective": "Global Energy",
-      "headline": "Strait of Hormuz Closure Threatens Oil Supplies",
-      "summary": "Concerns rise over dwindling oil supplies and the Strait of Hormuz remaining mostly closed due to ongoing conflict. The situation poses a significant threat to global energy markets.",
-      "tone": "anxious",
-      "latestSinceUpdate": 882
+      "perspective": "Lebanon",
+      "headline": "Lebanese President Criticizes Iran",
+      "summary": "Lebanon's president has publicly criticized Iran amidst ongoing Israeli attacks on Lebanese territory. This indicates growing internal pressure and potential shifts in regional alliances.",
+      "tone": "strained",
+      "latestSinceUpdate": 896
     }
   ]
 });
