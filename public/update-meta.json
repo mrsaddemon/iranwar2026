@@ -1,13 +1,13 @@
 {
-  "updateSequence": 905,
+  "updateSequence": 906,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T20:21:23.512Z",
+  "lastSyncedAt": "2026-06-07T21:39:49.769Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "A fragile ceasefire is in effect but faces severe strain and repeated violations from multiple parties, with peace talks stalled."
+    "durationDays": 60,
+    "summary": "A fragile ceasefire, in effect since April, is repeatedly violated by all parties, leading to stalled peace talks and continued military exchanges."
   }
 }
