@@ -1,13 +1,13 @@
 {
-  "updateSequence": 900,
+  "updateSequence": 901,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T13:07:27.845Z",
+  "lastSyncedAt": "2026-06-07T15:02:48.491Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 100,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 100 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "An attempted ceasefire has collapsed due to direct military exchanges between the US and Iran, Israel's strikes in Beirut, and Hezbollah's rejection of the truce."
   }
 }
