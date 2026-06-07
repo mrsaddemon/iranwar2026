@@ -1,13 +1,13 @@
 {
-  "updateSequence": 907,
+  "updateSequence": 908,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T22:47:19.359Z",
+  "lastSyncedAt": "2026-06-07T23:49:08.810Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The April ceasefire remains technically active but is under severe strain following recent missile exchanges and strikes by all parties."
+    "summary": "The April ceasefire has collapsed following direct missile attacks by Iran on Israel and retaliatory strikes, alongside US-Iran exchanges in the Gulf."
   }
 }

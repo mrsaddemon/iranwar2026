@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 907,
+  "updateSequence": 908,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T22:47:19.359Z",
+  "lastSyncedAt": "2026-06-07T23:49:08.810Z",
   "warDay": 100,
-  "summary": "The Iran war reaches 100 days with global markets affected by fuel shocks, as a fragile ceasefire between the US, Iran, and Israel faces severe strain due to renewed missile exchanges and strikes in the region.",
+  "summary": "The fragile April ceasefire has collapsed following direct missile exchanges between Iran and Israel, mutual strikes involving the US, and escalating conflict in Lebanon, leading to significant global economic impact.",
   "lastNarrativeUpdate": "2026-06-07",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The April ceasefire remains technically active but is under severe strain following recent missile exchanges and strikes by all parties."
+    "summary": "The April ceasefire has collapsed following direct missile attacks by Iran on Israel and retaliatory strikes, alongside US-Iran exchanges in the Gulf."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,19 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 06",
-      "text": "Iran fires missiles towards Israel for the first time since the April ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 907
-    },
-    {
-      "date": "Jun 06",
-      "text": "US and Iran exchange strikes in the Gulf, further testing the ceasefire.",
+      "text": "US and Iran exchange strikes in the Gulf, further straining the ceasefire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9NcGpqajQxUkRMcHZWNWNOb2dWS0FRRHIzUEo4RlRub0RKRmtHbV9wMWZjbjVacmRVd1BmeW5CUTg5aEw0ZHpoeGJPRnpKeDJQZjBueFRPNDZUUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 907
+      "latestSinceUpdate": 908
+    },
+    {
+      "date": "Jun 06",
+      "text": "Iran launches missile barrages towards Israel for the first time since the April ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 908
     },
     {
       "date": "Jun 06",
@@ -84,33 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 06",
-      "text": "Iran accuses the U.S. of violating the ceasefire amidst stalled peace talks.",
-      "severity": "warning",
+      "text": "Iran retaliates after Israel's strike in Beirut, accusing the U.S. of violating the ceasefire.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 907
+      "latestSinceUpdate": 908
     },
     {
-      "date": "Recent",
-      "text": "OPEC+ approves a fourth oil output quota hike since the Strait of Hormuz closure.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNc19wZzhENmRSTVpwaU1fdDcxN0g2bGlpSWw1WF9uMV9DdWFuczIzQ1V6a0htSGZsQkQ0NXhUejFqLVpVM3pvYlVkM3pyMVg2ZnNvV3RzN1R4OXVzQ0xrZXQyc0o1WU9QRlFOMnl4Y0JVTFNFbTNzem9QR1Y3YThnYjZKZl9HaGZmdU1QX0d6TXlBemFNNnhGVzVWY1czX3hYQWd0cNIBqgFBVV95cUxQbHp2MFpIZ3JWaDhQbHFZcnN5MDZ1MXU1X1A3Tk5ES2tHdjV1bTQzWlNCUUR3WU5Bd2RtWnRLaFhjZG1YcUNwbV9pMzhvRklWNnVESWZXX0tfbnNyaDBWWmhHWk03VElvT2ZhQTlZc3hGMWZxajdRb09KLUlnOEJidW40Q0RKNDFlYXlQNGhfZTVCdVpjNTN0aVdBV2Q3T0ZyQ2JpTHBacm5EUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 907
+      "date": "Jun 06",
+      "text": "Iran launches missiles and drones towards the Strait of Hormuz, according to the U.S. military.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNMnhrZmU1dEJXQzRJQWFaelI4LVZlUE01ZERhS3VKUzhsRXNEa3N1elZRc3VTRXlnclJvNTNyM1FUOFpLdjUxNmplY0xub29CUzRmZFQ1ZThsT0hsT29IcU96TjlJeVk2Y2s3eHUtN0FVekRhRnhuVG0xMTBTSC1sal9JVkVGalY4UTFvOS12UXppY1RJdHVHaUFpOEJOenJiV1RZdmp1aVpqS2xVOElPYWh2VHJuZ3M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 908
     },
     {
-      "date": "Recent",
-      "text": "The Strait of Hormuz is reported to be more open due to U.S. naval overwatch.",
+      "date": "Jun 06",
+      "text": "The U.S. provides 'naval overwatch' in the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 907
+      "latestSinceUpdate": 908
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
