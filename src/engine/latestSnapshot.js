@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 903,
+  "updateSequence": 904,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T17:49:42.772Z",
+  "lastSyncedAt": "2026-06-07T18:59:12.867Z",
   "warDay": 100,
-  "summary": "The Iran war reaches 100 days with a US-supported ceasefire facing severe strain and violations, marked by mutual strikes and a stalemate in peace talks.",
+  "summary": "The 100-day war between the US and Iran continues with a fragile ceasefire under strain due to mutual strikes, Israeli actions in Lebanon, and increased military activity in the Strait of Hormuz, while peace talks remain at a stalemate.",
   "lastNarrativeUpdate": "2026-06-07",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A US-supported ceasefire is in effect but is severely strained and violated by mutual strikes from both US/Israel and Iran."
+    "durationDays": 5,
+    "summary": "A recently agreed ceasefire is under severe strain and has been violated by multiple parties, with Hezbollah rejecting the deal."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -61,10 +61,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Jun 06",
       "text": "Ceasefire faces further strain as US and Iran launch strikes.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaThld29lUFRLdTRVVlNPOV94LUxWVko2UkRZbXVpWGpVZnAxV2tLNDkzMHZuSEdyQzhSZXRLblhWanRyTG4yNE5VQjEzMFk0ODQybTBidEVWQzVaSlI5T2dfNWJwS241ZXVnRU5rZS14X0VndzJRWnJhNGJNbGFPWk13?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 902
+    },
+    {
+      "date": "Jun 06",
+      "text": "Israel strikes Beirut after Hezbollah attack, risking Iran response.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 904
+    },
+    {
+      "date": "Jun 06",
+      "text": "Iran accuses U.S. of violating ceasefire after both sides exchange strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 904
     },
     {
       "date": "Jun 06",
@@ -76,41 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 06",
-      "text": "Iran threatens ‘painful’ response to Israeli strikes on southern Beirut.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxOMV8zcDRsQ3FQWW5iZTVYUllNazZjeHFqYmQ2YWM1c09HbzFOZ1JhRC1KbUNGRHVSMEVzS3ZaQUVja2k2QzNDU3g4X3k2WjVhWVpfQXFMdk5uOEtSM21ESnYtazBSZllKUnpRVnBadlhFdEphZElua0x6eW1iN0gwVy1rc1VHUVh4WVRNWE5tekxtcjkyNFJVMHNPWDlMTzlob2pjV2ZXYjN2UXN1TDNreUgzYUFkdlhmbUxPTTctcUV6T01KZ0tlaVBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 903
-    },
-    {
-      "date": "Jun 06",
-      "text": "OPEC+ decides on fourth oil quota hike since the Strait of Hormuz closure.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNc19wZzhENmRSTVpwaU1fdDcxN0g2bGlpSWw1WF9uMV9DdWFuczIzQ1V6a0htSGZsQkQ0NXhUejFqLVpVM3pvYlVkM3pyMVg2ZnNvV3RzN1R4OXVzQ0xrZXQyc0o1WU9QRlFOMnl4Y0JVTFNFbTNzem9QR1Y3YThnYjZKZl9HaGZmdU1QX0d6TXlBemFNNnhGVzVWY1czX3hYQWd0cNIBqgFBVV95cUxQbHp2MFpIZ3JWaDhQbHFZcnN5MDZ1MXU1X1A3Tk5ES2tHdjV1bTQzWlNCUUR3WU5Bd2RtWnRLaFhjZG1YcUNwbV9pMzhvRklWNnVESWZXX0tfbnNyaDBWWmhHWk03VElvT2ZhQTlZc3hGMWZxajdRb09KLUlnOEJidW40Q0RKNDFlYXlQNGhfZTVCdVpjNTN0aVdBV2Q3T0ZyQ2JpTHBacm5EUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 902
-    },
-    {
-      "date": "Jun 06",
-      "text": "Iran launched missiles and drones toward Strait of Hormuz, U.S. military says.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNMnhrZmU1dEJXQzRJQWFaelI4LVZlUE01ZERhS3VKUzhsRXNEa3N1elZRc3VTRXlnclJvNTNyM1FUOFpLdjUxNmplY0xub29CUzRmZFQ1ZThsT0hsT29IcU96TjlJeVk2Y2s3eHUtN0FVekRhRnhuVG0xMTBTSC1sal9JVkVGalY4UTFvOS12UXppY1RJdHVHaUFpOEJOenJiV1RZdmp1aVpqS2xVOElPYWh2VHJuZ3M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 902
-    },
-    {
-      "date": "Jun 06",
-      "text": "U.S. military says it shot down Iranian drones launched toward Gulf allies.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPSzNfZ04xZUVycUZLbW4xTERjZFVfMlZIdXphTXotR1pna2JaZ2pHM1ZxcTVvekpHOE0zZVlRSndFTDRJcHdVRmlxZXphc2lFQXNhajc1aFJudGREZ0l5blhQTXh1Zl9ZWXc0NUtKUjBURlFBV3JvOHBFYkZtUlE0Zzk0WXEtV2tGaVE?hl=en-US&gl=US&ceid=US:en",
+      "text": "Hezbollah rejects ceasefire deal agreed on by Israel and Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9XX3k3UzBSLS1BOHVMQ1ppWmhMMVdiQUVLT1RnYUR2c1hQZ2VWX2FDZmc0WWpneEdSZjBtTTVWSDBxR2EzZlhMN3JzZVN1OEZQdlMzTTF5ZVg2VldwRlNSWF9XYnFpQkdOUkZUUG1jM2ZfUmFKS1E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 902
+      "latestSinceUpdate": 904
+    },
+    {
+      "date": "Jun 06",
+      "text": "Iran has launched multiple drones towards the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPaWNoMWljcEVLeTNSU09PSGdTTllERnBWUXVqRlNrSGI2S3I1Y1VZdlRBY05FbXNlX0tudmZlalJKYV9VaVpJZHBRTWFqTThMQ01TakJDVXVnTGJ2OVBmNmxNdVRRRXNKRThuWnFDUzRDZlFyQkt4Uy1EUDlqVzVMNW56U0tvZzAtYmNoby1tdnpTaGNrWkV3eHk4TGhTUWdaVGg4S3dHakNRaTNpR2tFTnNiYTFmaDl0cjk3eU9R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 904
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

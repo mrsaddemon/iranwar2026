@@ -1,13 +1,13 @@
 {
-  "updateSequence": 903,
+  "updateSequence": 904,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T17:49:42.772Z",
+  "lastSyncedAt": "2026-06-07T18:59:12.867Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A US-supported ceasefire is in effect but is severely strained and violated by mutual strikes from both US/Israel and Iran."
+    "durationDays": 5,
+    "summary": "A recently agreed ceasefire is under severe strain and has been violated by multiple parties, with Hezbollah rejecting the deal."
   }
 }
