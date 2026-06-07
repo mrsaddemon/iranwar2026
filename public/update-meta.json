@@ -1,13 +1,13 @@
 {
-  "updateSequence": 901,
+  "updateSequence": 902,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T15:02:48.491Z",
+  "lastSyncedAt": "2026-06-07T16:25:27.583Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 100,
-    "summary": "An attempted ceasefire has collapsed due to direct military exchanges between the US and Iran, Israel's strikes in Beirut, and Hezbollah's rejection of the truce."
+    "durationDays": 5,
+    "summary": "A recently established US-supported ceasefire is severely strained and actively violated by multiple parties, with peace talks remaining at a stalemate."
   }
 }
