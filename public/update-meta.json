@@ -1,13 +1,13 @@
 {
-  "updateSequence": 898,
+  "updateSequence": 899,
   "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T09:51:48.012Z",
+  "lastSyncedAt": "2026-06-07T11:29:36.974Z",
   "warDay": 100,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A ceasefire in Lebanon is reported to be fraying, with Iran accusing the US of violations and Hezbollah rejecting a US-backed agreement."
+    "summary": "A ceasefire in Lebanon has frayed and collapsed, with Hezbollah rejecting new agreements and both sides exchanging strikes."
   }
 }
