@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 912,
+  "updateSequence": 913,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T16:14:16.155Z",
+  "lastSyncedAt": "2026-06-08T12:00:00Z",
   "warDay": 101,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-08",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 100,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The previous ceasefire has collapsed due to renewed strikes, though both sides have indicated a temporary pause in direct attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.3
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.65,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 0,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 08",
-      "text": "Iran war live: Tehran calls off attacks on Israel; warns not to hit Lebanon",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 912
-    },
-    {
-      "date": "Jun 08",
-      "text": "Iran Update Special Report, June 7, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNVGhtX0s2RG1uOWhuUzlBZmNNblZxTFFiLWthVTh0V2I5RG9XUVVZRnBnS2RsMXFYX3NWdTZtb1ZsWHB5ZHBCNHcxZ2Rha3oxbjVBa2xwRkdIeUhTeVVjc0dnTWtYTGVHYXpiZVk4YlY4NUhGVkFVMGZSOG9QQzNKN01iUThFTXdHS3J2UE0tRDVGdW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 912
-    },
-    {
-      "date": "Jun 08",
-      "text": "Live updates: Iran halts strikes on Israel but issues Lebanon warning",
+      "date": "Jun 07",
+      "text": "Iran announced it was calling off attacks on Israel but issued a warning against striking Lebanon, following recent missile exchanges.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 912
-    },
-    {
-      "date": "Jun 08",
-      "text": "Netanyahu acknowledges halt in fighting with Iran but vows to respond 'with force' to future attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5uNzlzWGsyOUxIMC1pWmNpVG1mWkU5R1BkaVhNdmk2ZURiVE9MdnVobWdkcjdpbXc0X1IzX0NWNHp6SHdKSEpBZjBxTDlhUTBvenQtcEt0em1meklYd0prVTNCQmtwVUNaQlF4LXkwWVhMQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 912
-    },
-    {
-      "date": "Jun 08",
-      "text": "Netanyahu says Israel is holding off attacks on Iran 'for now",
-      "severity": "info",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 912
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 913
     },
     {
-      "date": "Jun 08",
-      "text": "Live Updates: Iran says attacks halted as Trump tells Tehran, Israel to \"stop 'shooting'\" on war's 101st day",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxQRG9kN3ZOb251SzM2VWFCMXJlU3ZPZ1l2LXVMamVqSWFRclhBWkZHMDgwcy1xazR5eFU3eUJ5RXB3LUdkUGc3aEVqTHo4a3JSUWpyNk1YTGRVRzdtTTdvSHB5WGpIWUltbE1iVTNiWHdvT3VKay1nY3ZfZE1BLUx4dkFQaTJmd2NObXg2WGc3Q1B4cDFrWC1r?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 912
+      "date": "Jun 07",
+      "text": "Israel and Iran traded missile fire, marking the first such bombardment since a fragile ceasefire, which subsequently broke down.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 913
+    },
+    {
+      "date": "Jun 07",
+      "text": "Netanyahu stated that Israel is holding off attacks on Iran 'for now' but affirmed the war with Iran and Hezbollah is not over.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 913
+    },
+    {
+      "date": "Jun 07",
+      "text": "Israel conducted strikes in Beirut following a Hezbollah attack, risking further escalation with Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 913
+    },
+    {
+      "date": "Jun 07",
+      "text": "The Strait of Hormuz is reportedly open with transit fees, but international bodies and traders warn that safe reopening and normal traffic are unlikely until de-escalation takes hold, possibly not until year-end.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOQm1Pbk13TFdWQ3Q3RzNDLXJSTjAyTVp2MTAxdWF5SFhtaXB6alZJZTFvMUFGRFJ3NWs5U29WdF9WZDREQTNFUFlnRExKaldCZFQwdG50QTJUNklHd0NSTmROVEJBdk5uU2pFNHpCWmppbURrbVRnck5pbjZLU1V0QWkzYmwtWFFrcnlKanlraFFwRmowVW9YclJaRkVHR3pJVWJ0T2NDeXdLVms2Qm5lMUpBTWlPN1JR0gG-AUFVX3lxTE0zMlF3d2dRbjhhRXFpSWtHLU52aGdXdWdOTDJvd0I0aV9PbGRGajdoN0RoNmlVa3JpNmJrS2w2dzVtZndES1prUlpud1NJZHBfek5LS25NZmZXa0JlOVNxQlIwczlzd1pIVHNoa0lDSXc3S203WU42bkdBbjNWWENzLUxIYWo1eUtxaWdmQnU2REdfVklSYjIwdi04bVdMRHNJd3d3b1VuYjhhVGxNTEQ1VldKSFQwZ1ZoX0g1VGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 913
+    },
+    {
+      "date": "Jun 07",
+      "text": "The US military disabled an unladen oil tanker headed to Iran, indicating continued interdiction efforts.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNU19Va2dzUG1DN3Y3Z3NLSm03SUdubm0wMnY3dHRVbnJlazFTZUsyckp5NUFIWTJPcDI0aTVpN0U2V003bG1rVDZINndselY0Y09zNjFhYVlhNUdzVzYwRERkRjZKODVoMjhTWGtfdUhlYlJpWGhmZkdkMk84aUZTcm5SM0M2eFlLdVV1TC1zXzcwYTlFQWFmLW5MaTFRVzRDQjBmTmJWSFZaMWhU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 913
     }
   ],
   "sourceStatuses": [
