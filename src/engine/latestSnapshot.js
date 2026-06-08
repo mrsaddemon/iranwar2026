@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 913,
+  "updateSequence": 914,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T12:00:00Z",
+  "lastSyncedAt": "2026-06-08T21:08:58.866Z",
   "warDay": 101,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Iran and Israel have paused direct strikes against each other following a recent exchange, though both sides warn of potential resumption and the Strait of Hormuz remains a point of contention.",
   "lastNarrativeUpdate": "2026-06-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 100,
-    "summary": "The previous ceasefire has collapsed due to renewed strikes, though both sides have indicated a temporary pause in direct attacks."
+    "durationDays": 1,
+    "summary": "Iran and Israel have paused direct strikes against each other following a recent exchange, though both sides warn of potential resumption and the broader conflict continues."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 55,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 07",
-      "text": "Iran announced it was calling off attacks on Israel but issued a warning against striking Lebanon, following recent missile exchanges.",
+      "text": "Iran and Israel halt direct strikes against each other but warn they are ready to resume attacks.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 913
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 914
     },
     {
       "date": "Jun 07",
-      "text": "Israel and Iran traded missile fire, marking the first such bombardment since a fragile ceasefire, which subsequently broke down.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 913
+      "text": "Iran declares an end to attacks against Israel after the first exchange since the April ceasefire.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOamRJYWYtNzlaRDBMcUVtcFduXzB4dHJ3ZTZ5TUhDZzcwMWJHeGR3TDRxZ1o3dEd4TmxPc1U5X1pnMTlIUDM5Zi1rY3hOdjhHZm9jWDI0di04LUV3Q1Nrci0yTUZncXA1b1BWQ3NlRDh4TkQxVF93d0wydXdtZ2FWbGtVc0FkOENBWXhKRjBJZHRzUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 914
     },
     {
       "date": "Jun 07",
-      "text": "Netanyahu stated that Israel is holding off attacks on Iran 'for now' but affirmed the war with Iran and Hezbollah is not over.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 913
-    },
-    {
-      "date": "Jun 07",
-      "text": "Israel conducted strikes in Beirut following a Hezbollah attack, risking further escalation with Iran.",
+      "text": "Israel strikes Beirut following a Hezbollah attack, risking further Iranian response.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 913
+      "latestSinceUpdate": 914
     },
     {
       "date": "Jun 07",
-      "text": "The Strait of Hormuz is reportedly open with transit fees, but international bodies and traders warn that safe reopening and normal traffic are unlikely until de-escalation takes hold, possibly not until year-end.",
+      "text": "Iran states the Strait of Hormuz will be open but with transit fees.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZjVSOTNvREwzVnhncmx3eVFGWTFBNU1ocGtIbmhOSXhDdTVqNVNLek0xaS1EWVhfNURyU0lXSWRUV0ZfZ0RJSVhNaTdOc2V6SlNrQll2SkpNZHBGYWtObkdTOHdpRmRhMGVXdmdGejZ4clNoQlBYbVJqbTBsTGMwNFhwMTlpZ1ZSZ2ZIdm5hQ0t1VUo1cWxSeFdITU9lV1ZXLS10SEh2elREdDNTUkMwTTBMdDdMR0hqVlNYVDhn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 914
+    },
+    {
+      "date": "Jun 07",
+      "text": "US Defense Chief Austin indicates the US Navy could open the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 914
+    },
+    {
+      "date": "Jun 07",
+      "text": "Kalshi traders predict Strait of Hormuz traffic will not return to normal before January.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOQm1Pbk13TFdWQ3Q3RzNDLXJSTjAyTVp2MTAxdWF5SFhtaXB6alZJZTFvMUFGRFJ3NWs5U29WdF9WZDREQTNFUFlnRExKaldCZFQwdG50QTJUNklHd0NSTmROVEJBdk5uU2pFNHpCWmppbURrbVRnck5pbjZLU1V0QWkzYmwtWFFrcnlKanlraFFwRmowVW9YclJaRkVHR3pJVWJ0T2NDeXdLVms2Qm5lMUpBTWlPN1JR0gG-AUFVX3lxTE0zMlF3d2dRbjhhRXFpSWtHLU52aGdXdWdOTDJvd0I0aV9PbGRGajdoN0RoNmlVa3JpNmJrS2w2dzVtZndES1prUlpud1NJZHBfek5LS25NZmZXa0JlOVNxQlIwczlzd1pIVHNoa0lDSXc3S203WU42bkdBbjNWWENzLUxIYWo1eUtxaWdmQnU2REdfVklSYjIwdi04bVdMRHNJd3d3b1VuYjhhVGxNTEQ1VldKSFQwZ1ZoX0g1VGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 913
-    },
-    {
-      "date": "Jun 07",
-      "text": "The US military disabled an unladen oil tanker headed to Iran, indicating continued interdiction efforts.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNU19Va2dzUG1DN3Y3Z3NLSm03SUdubm0wMnY3dHRVbnJlazFTZUsyckp5NUFIWTJPcDI0aTVpN0U2V003bG1rVDZINndselY0Y09zNjFhYVlhNUdzVzYwRERkRjZKODVoMjhTWGtfdUhlYlJpWGhmZkdkMk84aUZTcm5SM0M2eFlLdVV1TC1zXzcwYTlFQWFmLW5MaTFRVzRDQjBmTmJWSFZaMWhU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 913
+      "latestSinceUpdate": 914
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

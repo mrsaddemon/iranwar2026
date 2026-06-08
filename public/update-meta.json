@@ -1,13 +1,13 @@
 {
-  "updateSequence": 913,
+  "updateSequence": 914,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T12:00:00Z",
+  "lastSyncedAt": "2026-06-08T21:08:58.866Z",
   "warDay": 101,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 100,
-    "summary": "The previous ceasefire has collapsed due to renewed strikes, though both sides have indicated a temporary pause in direct attacks."
+    "durationDays": 1,
+    "summary": "Iran and Israel have paused direct strikes against each other following a recent exchange, though both sides warn of potential resumption and the broader conflict continues."
   }
 }
