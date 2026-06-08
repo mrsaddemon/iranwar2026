@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 908,
-  "lastUpdated": "2026-06-07",
-  "lastSyncedAt": "2026-06-07T23:49:08.810Z",
-  "warDay": 100,
-  "summary": "The fragile April ceasefire has collapsed following direct missile exchanges between Iran and Israel, mutual strikes involving the US, and escalating conflict in Lebanon, leading to significant global economic impact.",
-  "lastNarrativeUpdate": "2026-06-07",
+  "updateSequence": 909,
+  "lastUpdated": "2026-06-08",
+  "lastSyncedAt": "2026-06-08T02:04:29.066Z",
+  "warDay": 101,
+  "summary": "The Iran-Israel conflict has escalated with direct missile exchanges and US-Iran strikes, leading to the collapse of the April ceasefire and significant global market impacts.",
+  "lastNarrativeUpdate": "2026-06-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 60,
-    "summary": "The April ceasefire has collapsed following direct missile attacks by Iran on Israel and retaliatory strikes, alongside US-Iran exchanges in the Gulf."
+    "durationDays": 100,
+    "summary": "The April ceasefire has collapsed following direct missile exchanges between Iran and Israel and US-Iran strikes, with peace talks stalled."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 06",
-      "text": "US and Iran exchange strikes in the Gulf, further straining the ceasefire.",
-      "severity": "critical",
+      "text": "US and Iran launch strikes in the Gulf, further straining the ceasefire.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9NcGpqajQxUkRMcHZWNWNOb2dWS0FRRHIzUEo4RlRub0RKRmtHbV9wMWZjbjVacmRVd1BmeW5CUTg5aEw0ZHpoeGJPRnpKeDJQZjBueFRPNDZUUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 908
+      "latestSinceUpdate": 909
     },
     {
       "date": "Jun 06",
-      "text": "Iran launches missile barrages towards Israel for the first time since the April ceasefire.",
+      "text": "Iran fires missiles at Israel for the first time since the April ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 909
+    },
+    {
+      "date": "Jun 06",
+      "text": "Israel launches retaliatory strikes on western and central Iran after attacks on northern Israel.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 908
+      "latestSinceUpdate": 909
     },
     {
       "date": "Jun 06",
-      "text": "Israel bombs Beirut outskirts as fighting with Hezbollah escalates.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 907
+      "text": "Israel strikes Beirut after Hezbollah attack, risking further Iran response.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 909
     },
     {
-      "date": "Jun 06",
-      "text": "Iran retaliates after Israel's strike in Beirut, accusing the U.S. of violating the ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 908
-    },
-    {
-      "date": "Jun 06",
-      "text": "Iran launches missiles and drones towards the Strait of Hormuz, according to the U.S. military.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNMnhrZmU1dEJXQzRJQWFaelI4LVZlUE01ZERhS3VKUzhsRXNEa3N1elZRc3VTRXlnclJvNTNyM1FUOFpLdjUxNmplY0xub29CUzRmZFQ1ZThsT0hsT29IcU96TjlJeVk2Y2s3eHUtN0FVekRhRnhuVG0xMTBTSC1sal9JVkVGalY4UTFvOS12UXppY1RJdHVHaUFpOEJOenJiV1RZdmp1aVpqS2xVOElPYWh2VHJuZ3M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 908
-    },
-    {
-      "date": "Jun 06",
-      "text": "The U.S. provides 'naval overwatch' in the Strait of Hormuz.",
+      "date": "Jun 08",
+      "text": "OPEC+ approves fourth oil output quota hike since Hormuz closure.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 908
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNc19wZzhENmRSTVpwaU1fdDcxN0g2bGlpSWw1WF9uMV9DdWFuczIzQ1V6a0htSGZsQkQ0NXhUejFqLVpVM3pvYlVkM3pyMVg2ZnNvV3RzN1R4OXVzQ0xrZXQyc0o1WU9QRlFOMnl4Y0JVTFNFbTNzem9QR1Y3YThnYjZKZl9HaGZmdU1QX0d6TXlBemFNNnhGVzVWY1czX3hYQWd0cNIBqgFBVV95cUxQbHp2MFpIZ3JWaDhQbHFZcnN5MDZ1MXU1X1A3Tk5ES2tHdjV1bTQzWlNCUUR3WU5Bd2RtWnRLaFhjZG1YcUNwbV9pMzhvRklWNnVESWZXX0tfbnNyaDBWWmhHWk03VElvT2ZhQTlZc3hGMWZxajdRb09KLUlnOEJidW40Q0RKNDFlYXlQNGhfZTVCdVpjNTN0aVdBV2Q3T0ZyQ2JpTHBacm5EUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 909
+    },
+    {
+      "date": "Jun 08",
+      "text": "Global airlines slash 2026 profit forecast on fuel shock from Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxQenE5amZ2NmVSM2gzMXBWVjczMDdsZnRreUZObWlzUGJ2YVpBeU45cTNOdmt2Z1lOc1MtcmZqV2JSZ1RwaktBUzYyTDcwZVRjYnhiWk9xX2hQc3QxMUJ3NjVacWF2MTdwZ2hfOFozZEh3NzdyQWpza2xGRVNIYzAxV3hKaTJlM2dmTGxUdWRuR1RuaS1od2pWcEFpRXh6Tk5FV2lycE1Na2FaSjFlNlVGRDF6dEVfa09iZHN5dDhGTDFrSWM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 909
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "US Lacks Will, Iran Warns of Wider War",
-      "summary": "Iran asserts the US lacks the will for regional stability following recent clashes and accuses the US of violating a ceasefire. Tehran warns that the ongoing conflict could escalate into a wider war.",
-      "tone": "defiant",
-      "latestSinceUpdate": 896
+      "perspective": "Economic Impact",
+      "headline": "Global Markets Reel from 100 Days of Iran War Fuel Shock",
+      "summary": "Global markets and airlines are experiencing significant fuel shock and profit forecast cuts due to the ongoing Iran war, marking 100 days of conflict. The economic fallout is a major concern for international stability.",
+      "tone": "anxious",
+      "latestSinceUpdate": 909
     },
     {
-      "perspective": "Hezbollah",
-      "headline": "Hezbollah Rejects Truce, Finds New Purpose",
-      "summary": "Hezbollah has rejected a US-backed ceasefire deal between Lebanon and Israel. The group states that the ongoing Israeli offensive in Lebanon has provided it with renewed purpose.",
-      "tone": "defiant",
-      "latestSinceUpdate": 896
-    },
-    {
-      "perspective": "United States",
-      "headline": "US Secures Hormuz, Seeks Regional Stability",
-      "summary": "The US military is providing naval overwatch in the Strait of Hormuz, having intercepted Iranian drones targeting shipping. The US also plans to use Iranian assets for rebuilding in Gulf states, signaling a complex approach to regional stability.",
-      "tone": "neutral",
-      "latestSinceUpdate": 896
-    },
-    {
-      "perspective": "Lebanon",
-      "headline": "Lebanese President Criticizes Iran",
-      "summary": "Lebanon's president has publicly criticized Iran amidst ongoing Israeli attacks on Lebanese territory. This indicates growing internal pressure and potential shifts in regional alliances.",
+      "perspective": "Escalation & Retaliation",
+      "headline": "Iran and Israel Exchange Missile Strikes, Vows of Retaliation",
+      "summary": "Israel and Iran have engaged in direct missile exchanges, with Israel vowing retaliation after Iran's first missile attack since April, following earlier strikes in Lebanon. This marks a significant escalation in the conflict.",
       "tone": "strained",
-      "latestSinceUpdate": 896
+      "latestSinceUpdate": 909
+    },
+    {
+      "perspective": "US/Western Concern",
+      "headline": "US Focuses on Iran's Nuclear Ambitions and Hormuz Control Amid Gulf Strikes",
+      "summary": "US officials and allies emphasize preventing Iran from becoming a nuclear power and controlling the Strait of Hormuz, while also engaging in strikes in the Gulf. The US provides naval overwatch in the Strait of Hormuz.",
+      "tone": "defiant",
+      "latestSinceUpdate": 909
+    },
+    {
+      "perspective": "Iran's Stance",
+      "headline": "Iran Retaliates Against Israel, Accuses US of Ceasefire Violation",
+      "summary": "Iran has launched missiles and drones toward the Strait of Hormuz and Israel, accusing the US of violating the ceasefire and retaliating for Israeli strikes. Peace talks have stalled amidst the renewed hostilities.",
+      "tone": "defiant",
+      "latestSinceUpdate": 909
     }
   ]
 });
