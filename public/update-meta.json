@@ -1,13 +1,13 @@
 {
-  "updateSequence": 910,
+  "updateSequence": 911,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T06:57:32.992Z",
+  "lastSyncedAt": "2026-06-08T14:30:00.000Z",
   "warDay": 101,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 100,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "An April ceasefire between Israel and Iran has been violated by renewed strikes, rendering the current situation highly fragile despite calls for a new truce."
   }
 }
