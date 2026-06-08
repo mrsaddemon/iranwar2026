@@ -1,13 +1,13 @@
 {
-  "updateSequence": 914,
+  "updateSequence": 915,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T21:08:58.866Z",
+  "lastSyncedAt": "2026-06-08T22:51:30.426Z",
   "warDay": 101,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Iran and Israel have paused direct strikes against each other following a recent exchange, though both sides warn of potential resumption and the broader conflict continues."
+    "summary": "A fragile ceasefire is in effect, having been recently re-declared by Iran after a reported exchange of strikes, but remains under strain with ongoing hostilities and skepticism from Israel."
   }
 }
