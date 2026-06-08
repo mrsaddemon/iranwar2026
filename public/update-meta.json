@@ -1,13 +1,13 @@
 {
-  "updateSequence": 909,
+  "updateSequence": 910,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T02:04:29.066Z",
+  "lastSyncedAt": "2026-06-08T06:57:32.992Z",
   "warDay": 101,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 100,
-    "summary": "The April ceasefire has collapsed following direct missile exchanges between Iran and Israel and US-Iran strikes, with peace talks stalled."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
