@@ -1,13 +1,13 @@
 {
-  "updateSequence": 915,
+  "updateSequence": 916,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T22:51:30.426Z",
+  "lastSyncedAt": "2026-06-08T23:54:39.826Z",
   "warDay": 101,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A fragile ceasefire is in effect, having been recently re-declared by Iran after a reported exchange of strikes, but remains under strain with ongoing hostilities and skepticism from Israel."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

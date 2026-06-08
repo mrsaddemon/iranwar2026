@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 915,
+  "updateSequence": 916,
   "lastUpdated": "2026-06-08",
-  "lastSyncedAt": "2026-06-08T22:51:30.426Z",
+  "lastSyncedAt": "2026-06-08T23:54:39.826Z",
   "warDay": 101,
-  "summary": "Despite recent attempts to halt strikes and re-establish a ceasefire, the conflict remains active with violations, escalating tensions in Lebanon, and ongoing disputes over the Strait of Hormuz.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-08",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A fragile ceasefire is in effect, having been recently re-declared by Iran after a reported exchange of strikes, but remains under strain with ongoing hostilities and skepticism from Israel."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 50,
-    "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 08",
-      "text": "Iran and Israel halt strikes against each other but warn they are ready to resume attacks.",
+      "text": "Iran war live: Tehran says US seeking no ceasefire or dialogue",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 916
+    },
+    {
+      "date": "Jun 08",
+      "text": "Iran Update Special Report, June 7, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNVGhtX0s2RG1uOWhuUzlBZmNNblZxTFFiLWthVTh0V2I5RG9XUVVZRnBnS2RsMXFYX3NWdTZtb1ZsWHB5ZHBCNHcxZ2Rha3oxbjVBa2xwRkdIeUhTeVVjc0dnTWtYTGVHYXpiZVk4YlY4NUhGVkFVMGZSOG9QQzNKN01iUThFTXdHS3J2UE0tRDVGdW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 916
+    },
+    {
+      "date": "Jun 08",
+      "text": "Live updates: Iran and Israel halt strikes against each other but warn they are ready to resume attacks",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 915
+      "latestSinceUpdate": 916
     },
     {
       "date": "Jun 08",
-      "text": "Israel halts Iran strikes after Trump claims progress toward nuclear talks.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 915
-    },
-    {
-      "date": "Jun 08",
-      "text": "Iran states the Strait of Hormuz will be open but with transit fees, while the US Navy indicates it could open the strait.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZjVSOTNvREwzVnhncmx3eVFGWTFBNU1ocGtIbmhOSXhDdTVqNVNLek0xaS1EWVhfNURyU0lXSWRUV0ZfZ0RJSVhNaTdOc2V6SlNrQll2SkpNZHBGYWtObkdTOHdpRmRhMGVXdmdGejZ4clNoQlBYbVJqbTBsTGMwNFhwMTlpZ1ZSZ2ZIdm5hQ0t1VUo1cWxSeFdITU9lV1ZXLS10SEh2elREdDNTUkMwTTBMdDdMR0hqVlNYVDhn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 915
-    },
-    {
-      "date": "Jun 08",
-      "text": "Netanyahu states the war with Iran and Hezbollah is not over, despite Tehran's halt in strikes.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 915
-    },
-    {
-      "date": "Jun 08",
-      "text": "Israel reports Iran launched missiles at it, marking the first such bombardment since a fragile ceasefire.",
+      "text": "Live Updates: Israel Halts Iran Strikes After Trump Claims Progress Toward Nuclear Talks, Officials Say",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 915
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFA0VFhYMWdHNzZoZ09mWVRRV1hrTFR3NHJyb3BqMEhvTlpac0M0cXpSWnk5anVfd0xEdUpmX3hYUXV5V3ZVZVlQdkpMSVNHWi1mWUtETTZDSTh4amEzLTY3U2FkdUoxS3JUMWg5TGxUbllNQ2R1X25wQzczVmF1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 916
     },
     {
       "date": "Jun 08",
-      "text": "Israel bombs Beirut outskirts as fighting with Hezbollah escalates.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 915
+      "text": "After escalating strikes, Israel and Iran signal end to attacks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQbDNZeVlhTlB0ZW9nUHJBRmJyTGlFT3pjX1p5Sld4WWdyTlNMT0Q2WHdWQVh4aWoxSVlWZ040MkxKRTNmaUgzV25acXJHVHNodXA0ZU14MmgtMVVxT2c4VG55RjJtck5ic1U1dzNISG1NZWdUT0JzREpsU2R2dmx5M01QekNXcU1tdzVHQ2w1Ylc1UWhKa0VhTldhUWo2Y0ZTTVZWVnZZODNBVy1wNGdUTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 916
+    },
+    {
+      "date": "Jun 08",
+      "text": "Live Updates: Iran and Israel say attacks halted after Trump tells both to \"stop 'shooting'\" on war's 101st day",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxQRG9kN3ZOb251SzM2VWFCMXJlU3ZPZ1l2LXVMamVqSWFRclhBWkZHMDgwcy1xazR5eFU3eUJ5RXB3LUdkUGc3aEVqTHo4a3JSUWpyNk1YTGRVRzdtTTdvSHB5WGpIWUltbE1iVTNiWHdvT3VKay1nY3ZfZE1BLUx4dkFQaTJmd2NObXg2WGc3Q1B4cDFrWC1r?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 916
     }
   ],
   "sourceStatuses": [
