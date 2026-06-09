@@ -1,13 +1,13 @@
 {
-  "updateSequence": 917,
+  "updateSequence": 918,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T04:18:22.889Z",
+  "lastSyncedAt": "2026-06-09T08:03:28.373Z",
   "warDay": 102,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A fragile halt in strikes between Iran and Israel was reported on June 7, but was subsequently violated by missile launches and retaliatory attacks, with Iran declaring an end to its attacks after the exchange."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

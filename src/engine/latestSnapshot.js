@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 917,
+  "updateSequence": 918,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T04:18:22.889Z",
+  "lastSyncedAt": "2026-06-09T08:03:28.373Z",
   "warDay": 102,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-09",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A fragile halt in strikes between Iran and Israel was reported on June 7, but was subsequently violated by missile launches and retaliatory attacks, with Iran declaring an end to its attacks after the exchange."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 09",
-      "text": "Iran declares end to attacks against Israel after first exchange since ceasefire.",
+      "text": "Iran war updates: Tehran says US seeking no ceasefire or dialogue",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOamRJYWYtNzlaRDBMcUVtcFduXzB4dHJ3ZTZ5TUhDZzcwMWJHeGR3TDRxZ1o3dEd4TmxPc1U5X1pnMTlIUDM5Zi1rY3hOdjhHZm9jWDI0di04LUV3Q1Nrci0yTUZncXA1b1BWQ3NlRDh4TkQxVF93d0wydXdtZ2FWbGtVc0FkOENBWXhKRjBJZHRzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 917
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 918
     },
     {
       "date": "Jun 09",
-      "text": "Netanyahu states war with Iran and Hezbollah is not over after Tehran's declaration.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 917
+      "text": "June 7-8, 2026 — Ceasefire falters as Israel and Iran trade worst strikes in months",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 918
     },
     {
       "date": "Jun 09",
-      "text": "Israel hits Beirut's suburbs in retaliatory attack against Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPSjNMTVEzek5lTTczV2llM0NQN05fbzRJTFNlU3FOdDhSdUZqXzNIcnZPWERTSlVMZjd4bDZMRUp6S3A2bktDbjJZTmZCMnk4aG5mSnlrcHZzREN3Mmo0X2NZTkVNMFZKZENYeGlETklkQWtvSFBkTENCcTRMeEJDQklySVREZk1WaFFuNXBoQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 917
-    },
-    {
-      "date": "Jun 09",
-      "text": "US and Iran exchange strikes in the Gulf in latest test of ceasefire.",
+      "text": "Live Updates: Israel Halts Iran Strikes After Trump Claims Progress Toward Nuclear Talks, Officials Say",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9NcGpqajQxUkRMcHZWNWNOb2dWS0FRRHIzUEo4RlRub0RKRmtHbV9wMWZjbjVacmRVd1BmeW5CUTg5aEw0ZHpoeGJPRnpKeDJQZjBueFRPNDZUUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTFA0VFhYMWdHNzZoZ09mWVRRV1hrTFR3NHJyb3BqMEhvTlpac0M0cXpSWnk5anVfd0xEdUpmX3hYUXV5V3ZVZVlQdkpMSVNHWi1mWUtETTZDSTh4amEzLTY3U2FkdUoxS3JUMWg5TGxUbllNQ2R1X25wQzczVmF1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 918
+    },
+    {
+      "date": "Jun 09",
+      "text": "Iran Update Special Report, June 7, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNVGhtX0s2RG1uOWhuUzlBZmNNblZxTFFiLWthVTh0V2I5RG9XUVVZRnBnS2RsMXFYX3NWdTZtb1ZsWHB5ZHBCNHcxZ2Rha3oxbjVBa2xwRkdIeUhTeVVjc0dnTWtYTGVHYXpiZVk4YlY4NUhGVkFVMGZSOG9QQzNKN01iUThFTXdHS3J2UE0tRDVGdW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 918
+    },
+    {
+      "date": "Jun 09",
+      "text": "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9idDU3emQxNmRBNmNucTkxXzFZcUpCeDhoY2VsVGNSNFYxSFhQWlBOLXZyRm9ET2M4eHdjRFZHcXdPV3QtUWRpb0xJdmJ2eS1oT2p1UnQwaGRaZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 917
+      "latestSinceUpdate": 918
     },
     {
       "date": "Jun 09",
-      "text": "Israel reports Iran launched missiles, marking the first such bombardment since a fragile ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 917
-    },
-    {
-      "date": "Jun 09",
-      "text": "US military helped Israel intercept Iran's missiles.",
+      "text": "Iran and Israel say they will pause strikes but warn of retaliation if ceasefire breached again",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNd0ZIMFNsaFhuRkM3ZWNXZ3pTZWstMHZyOU1MOHRIdTNrZFBtcW50eHJkZEJiNnQwMHdQRFRzSUprMzJMbjNqM3I4QzNLY2o2RzlpRGR2Q2M4UzV2R1dMMncwSlpWbmU1U1p2NjA0WFZBZG1CVHZnYnp1dE1SN3hqRmFFYUZKQWZyemJnaTBTLW9pdnY1TUh5MUR2SUttM0tCUVdVeFFHcTc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al-Monitor",
-      "latestSinceUpdate": 917
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 918
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
