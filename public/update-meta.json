@@ -1,13 +1,13 @@
 {
-  "updateSequence": 919,
+  "updateSequence": 920,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T11:26:37.537Z",
+  "lastSyncedAt": "2026-06-09T14:01:09.813Z",
   "warDay": 102,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Israel and Iran have paused direct exchanges of fire, but both sides warn of retaliation if the fragile ceasefire is breached, and Israel states the war is not over."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
