@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 922,
+  "updateSequence": 923,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T18:34:44.327Z",
+  "lastSyncedAt": "2026-06-09T20:33:22.311Z",
   "warDay": 102,
-  "summary": "Reports indicate a US helicopter was allegedly shot down by Iran, prompting a vow of retaliation from former President Trump, while a ceasefire between Israel and Iran appears to be faltering amidst continued regional strikes.",
+  "summary": "A recent ceasefire between Israel and Iran has faltered, leading to renewed strikes and a claimed downing of a US helicopter near the Strait of Hormuz, prompting US vows of retaliation.",
   "lastNarrativeUpdate": "2026-06-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A recent ceasefire between Israel and Iran is reported to be faltering, with both sides trading strikes before a temporary pullback."
+    "summary": "A recent ceasefire between Israel and Iran has collapsed following renewed strikes and a claimed US helicopter incident, though a temporary halt in exchanges has been reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.9,
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -61,34 +61,34 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Jun 07-08",
       "text": "Ceasefire falters as Israel and Iran trade worst strikes in months.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 921
     },
     {
-      "date": "Jun 07",
-      "text": "Trump claims Iran shot down U.S. helicopter near Strait of Hormuz and vows to retaliate.",
+      "date": "Jun 07-08",
+      "text": "President Trump claims Iran downed a U.S. Army helicopter near the Strait of Hormuz and vows a response.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNS0lCdGM4alVyQVVLYXZyaWZVX3Fha3NZc1lVdHRwN2lxeV9XVnlDWGV4cURyWDRTeU9rUHE2ajZBUlJQd0dYQW4yR1NBM0poblhmQXhLTkhPMTBUTVRCazJXMllnVGJ5Z3V0dGxYbWRJcDRFUFZrVDBCOWJoMllEeE01YUxOQXFkM2FVVXM0d3BWVGpGMGdwZG5ZYkRabG1KQ05WRWVQdmpMUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 922
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxQMWdvRUJXeEttQUppc3Z2YnF1ZEdwLXNBN085ekR4SUhDaXZocVNJQ3BnRlZPUWNOMHBxNHJzSmxGZExnU1VleDJNQm1uYlpNNkJsT3VXeHZGWTAtYjQ1NFAzM1VuNGwwWEsyRHBydzl6ZkFvTl9WQU1CN19rQ0xuWkZZcmFhNkM3SEtybU9FNUtYTDdzemVweW5FZkR1aDRBc0xaaUFBZTBSUnd2SkxNam8zZ01xemE3Rmx6YVpULV83b3ByZXZMVw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 923
     },
     {
-      "date": "Recent",
-      "text": "Israel bombs Beirut outskirts as fighting with Hezbollah escalates.",
+      "date": "Jun 07-08",
+      "text": "Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1pQ2lCMHpqSjhTWFdQZ0dOZ2hBSXoyY1YtV0tiM0NmVVNuQUpNN1hhazFiWUx0MkhCSFNTZF9kNEVxMTNMVlA0cEtGWGR2dnFJRlBVZXk2ZEpMUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 923
+    },
+    {
+      "date": "Jun 07-08",
+      "text": "Iran and Israel reportedly halt exchanges of fire following recent escalation.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 922
-    },
-    {
-      "date": "Recent",
-      "text": "Hezbollah terrorist infiltrates Israel from Lebanon and fires at soldiers.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9uX2ROU09tZUZRVlZGWkJ6TXBmRWFJOHoxdktZLV92N01fTWpsUzJhSmo5NmNhckgzNTFGZUVtOFRSMzV1b3laQjJqQ0k0SXZ6eS1lZGd0UEdTa2ZDOXVaWlJYVWxwVlZTLVJ6Mk9R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 922
+      "latestSinceUpdate": 923
     }
   ],
   "sourceStatuses": [

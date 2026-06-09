@@ -1,13 +1,13 @@
 {
-  "updateSequence": 922,
+  "updateSequence": 923,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T18:34:44.327Z",
+  "lastSyncedAt": "2026-06-09T20:33:22.311Z",
   "warDay": 102,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A recent ceasefire between Israel and Iran is reported to be faltering, with both sides trading strikes before a temporary pullback."
+    "summary": "A recent ceasefire between Israel and Iran has collapsed following renewed strikes and a claimed US helicopter incident, though a temporary halt in exchanges has been reported."
   }
 }
