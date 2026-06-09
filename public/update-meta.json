@@ -1,13 +1,13 @@
 {
-  "updateSequence": 924,
+  "updateSequence": 925,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T22:10:53.343Z",
+  "lastSyncedAt": "2026-06-09T23:44:45.427Z",
   "warDay": 102,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A previously fragile ceasefire between Israel and Iran has collapsed following missile exchanges and continued military actions."
+    "summary": "No active ceasefire is in effect, with direct U.S. strikes on Iran and ongoing Israel-Hezbollah exchanges."
   }
 }
