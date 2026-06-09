@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 920,
+  "updateSequence": 921,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T14:01:09.813Z",
+  "lastSyncedAt": "2026-06-09T16:36:05.977Z",
   "warDay": 102,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A recent ceasefire attempt between Israel and Iran has faltered amidst renewed strikes on Lebanon by Israel, while the US is involved in rescue operations and diplomatic efforts.",
   "lastNarrativeUpdate": "2026-06-09",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A recent attempt at a ceasefire has collapsed due to continued Israeli strikes on Lebanon despite a stated pause from Iran."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "israel": {
-      "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
-      }
-    },
-    "iran": {
       "metrics": {
         "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 60
+      },
+      "behavior": {
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 51
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 09",
-      "text": "Iran war updates: Tehran says US seeking no ceasefire or dialogue",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 920
-    },
-    {
-      "date": "Jun 09",
-      "text": "June 7-8, 2026 — Ceasefire falters as Israel and Iran trade worst strikes in months",
-      "severity": "info",
+      "date": "Jun 07-08",
+      "text": "Ceasefire falters as Israel and Iran trade worst strikes in months.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 920
+      "latestSinceUpdate": 921
     },
     {
       "date": "Jun 09",
-      "text": "Iran Update Special Report, June 8, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQVjMtWndVN3loSjQzY2FTZGpYdEIxVWpSZkpOTjhHUDVIem5vV2xqTFBkOWF4ZGhlR3FzeV9iMmtmem8tWFFteXpJZ0NQaU42b0dBaGQwQlFlTThNZGJfem10dHROWXI5QVQzYk1KYVRsc2JseURWTC1aTDV5Yl9qdE9OUUJWdFlXYmdaaFlEUG9IT0k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 920
-    },
-    {
-      "date": "Jun 09",
-      "text": "Israel and Iran pull back after trading missile fire — for now",
+      "text": "Israel pounds Lebanon, killing at least eight people in strikes on Tyre and Beirut outskirts.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFBTNHQ1RXBOWlhKdEhLUHd2V2x0WTU1YWFtZzNmbVN0X0laSjlPT0Q3ZXBWWlVTZ2pubHVYUWI1X0otMDZnSDV4QnVtQ1hxVjI1ZHVsVFVYVlFsZDhfMnQwblFrejRBU3J5QTNZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 920
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 921
     },
     {
       "date": "Jun 09",
-      "text": "‘Panic’ in Tyre as Israel pounds Lebanon; Trump says Iran deal within days",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPTk1sMDhuN1Y0S0dtS3hsMWdlZUp5NGVWcnhZSmEya3VLYXBOM29DTzkzTjNIWWdIMUNVWjBVWkNWQnRnYWZnRUcwSmQ3bDU3QlN5Rndub2dWNUc1dHA1Z0c1RXlPT1lhbWVpRlFnV3ZjSml2MW45ZmlDbXU5clhNQmlmZ3RwbmtqQkFFMHZLOS1LVkVpSnhsTHpoMjNTOXltMl95QXEyZ25rdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 920
+      "text": "A US Apache helicopter was downed near Hormuz, with its crew rescued by a drone boat.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 921
     },
     {
       "date": "Jun 09",
-      "text": "Israel and Iran flare-up could strengthen Tehran's negotiating hand",
+      "text": "Netanyahu states the war with Iran and Hezbollah is not over, despite Tehran's claims of halting strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNZnBndXNpNUd4bnh6M2trWE5oM0dmREVnZzlidjhNS2dnZkRUN1AtOTdMcl9VZThTc2ZPdDVVcWlvLTM0aVJubUFpSGFIZjJVT0xoOXU5cTBjRS12NkVpVGZVMlM1ajBXMlpDdDN4Qmp0WWNwRHRiN2YtcVJEN0J2aWtPdmVSMlZCS0VwV1IwdHM5a0NBQ1HSAZsBQVVfeXFMTlNqYnlBakZKVWptLXFDYjZuZlFjT1dVX04yZU84eEdrNFUwOW9MbXN4RjRoanloRG1hUDROVXRfSGVjYTNIa3BiMGpUZkZZazNFVDQxazJTZVdvWE16THlJbFczdUd5LWhSOHJqWEJjMURVdzh0M0tCdFBJcGhYa2RTQmRaMGlNazNDMm9rZkxWbGdxZDNOeVEybFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 921
+    },
+    {
+      "date": "Jun 09",
+      "text": "US military assisted Israel in intercepting Iranian missiles.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9idDU3emQxNmRBNmNucTkxXzFZcUpCeDhoY2VsVGNSNFYxSFhQWlBOLXZyRm9ET2M4eHdjRFZHcXdPV3QtUWRpb0xJdmJ2eS1oT2p1UnQwaGRaZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 920
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 921
     }
   ],
   "sourceStatuses": [
