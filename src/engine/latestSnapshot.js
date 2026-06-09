@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 921,
+  "updateSequence": 922,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T16:36:05.977Z",
+  "lastSyncedAt": "2026-06-09T18:34:44.327Z",
   "warDay": 102,
-  "summary": "A recent ceasefire attempt between Israel and Iran has faltered amidst renewed strikes on Lebanon by Israel, while the US is involved in rescue operations and diplomatic efforts.",
+  "summary": "Reports indicate a US helicopter was allegedly shot down by Iran, prompting a vow of retaliation from former President Trump, while a ceasefire between Israel and Iran appears to be faltering amidst continued regional strikes.",
   "lastNarrativeUpdate": "2026-06-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A recent attempt at a ceasefire has collapsed due to continued Israeli strikes on Lebanon despite a stated pause from Iran."
+    "summary": "A recent ceasefire between Israel and Iran is reported to be faltering, with both sides trading strikes before a temporary pullback."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
-    "allianceInfluence": 46
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -61,48 +61,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Jun 07-08",
       "text": "Ceasefire falters as Israel and Iran trade worst strikes in months.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 921
     },
     {
-      "date": "Jun 09",
-      "text": "Israel pounds Lebanon, killing at least eight people in strikes on Tyre and Beirut outskirts.",
+      "date": "Jun 07",
+      "text": "Trump claims Iran shot down U.S. helicopter near Strait of Hormuz and vows to retaliate.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 921
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNS0lCdGM4alVyQVVLYXZyaWZVX3Fha3NZc1lVdHRwN2lxeV9XVnlDWGV4cURyWDRTeU9rUHE2ajZBUlJQd0dYQW4yR1NBM0poblhmQXhLTkhPMTBUTVRCazJXMllnVGJ5Z3V0dGxYbWRJcDRFUFZrVDBCOWJoMllEeE01YUxOQXFkM2FVVXM0d3BWVGpGMGdwZG5ZYkRabG1KQ05WRWVQdmpMUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 922
     },
     {
-      "date": "Jun 09",
-      "text": "A US Apache helicopter was downed near Hormuz, with its crew rescued by a drone boat.",
+      "date": "Recent",
+      "text": "Israel bombs Beirut outskirts as fighting with Hezbollah escalates.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 921
+      "latestSinceUpdate": 922
     },
     {
-      "date": "Jun 09",
-      "text": "Netanyahu states the war with Iran and Hezbollah is not over, despite Tehran's claims of halting strikes.",
+      "date": "Recent",
+      "text": "Hezbollah terrorist infiltrates Israel from Lebanon and fires at soldiers.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNZnBndXNpNUd4bnh6M2trWE5oM0dmREVnZzlidjhNS2dnZkRUN1AtOTdMcl9VZThTc2ZPdDVVcWlvLTM0aVJubUFpSGFIZjJVT0xoOXU5cTBjRS12NkVpVGZVMlM1ajBXMlpDdDN4Qmp0WWNwRHRiN2YtcVJEN0J2aWtPdmVSMlZCS0VwV1IwdHM5a0NBQ1HSAZsBQVVfeXFMTlNqYnlBakZKVWptLXFDYjZuZlFjT1dVX04yZU84eEdrNFUwOW9MbXN4RjRoanloRG1hUDROVXRfSGVjYTNIa3BiMGpUZkZZazNFVDQxazJTZVdvWE16THlJbFczdUd5LWhSOHJqWEJjMURVdzh0M0tCdFBJcGhYa2RTQmRaMGlNazNDMm9rZkxWbGdxZDNOeVEybFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 921
-    },
-    {
-      "date": "Jun 09",
-      "text": "US military assisted Israel in intercepting Iranian missiles.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 921
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9uX2ROU09tZUZRVlZGWkJ6TXBmRWFJOHoxdktZLV92N01fTWpsUzJhSmo5NmNhckgzNTFGZUVtOFRSMzV1b3laQjJqQ0k0SXZ6eS1lZGd0UEdTa2ZDOXVaWlJYVWxwVlZTLVJ6Mk9R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 922
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

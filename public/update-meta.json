@@ -1,13 +1,13 @@
 {
-  "updateSequence": 921,
+  "updateSequence": 922,
   "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T16:36:05.977Z",
+  "lastSyncedAt": "2026-06-09T18:34:44.327Z",
   "warDay": 102,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A recent attempt at a ceasefire has collapsed due to continued Israeli strikes on Lebanon despite a stated pause from Iran."
+    "summary": "A recent ceasefire between Israel and Iran is reported to be faltering, with both sides trading strikes before a temporary pullback."
   }
 }
