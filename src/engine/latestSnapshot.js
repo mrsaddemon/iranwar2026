@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 927,
+  "updateSequence": 928,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T06:39:09.441Z",
+  "lastSyncedAt": "2026-06-10T10:44:31.851Z",
   "warDay": 103,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The United States and Iran are engaged in mutual retaliatory strikes following the downing of a US helicopter, while Israel and Iran/Hezbollah continue exchanges of fire despite a fragile ceasefire.",
   "lastNarrativeUpdate": "2026-06-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A previously fragile ceasefire between Israel and Iran has been violated by renewed missile exchanges and strikes, though some parties indicate a halt in their own actions."
+    "summary": "A fragile ceasefire between Iran and Israel has been reported but is actively being violated by missile launches and strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Recent",
-      "text": "US launches strikes on Iran; Tehran claims attacks on US fleet.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 927
-    },
-    {
-      "date": "Recent",
-      "text": "Israel and Iran engage in missile exchanges, followed by a temporary pullback.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 927
-    },
-    {
-      "date": "Recent",
-      "text": "Iran targets US forces in Bahrain, Jordan, and Kuwait.",
+      "date": "Jun 10",
+      "text": "Iran launches retaliatory strikes on US targets in Bahrain, Jordan, and Kuwait.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQRzU3NkNkeDZSNkxfN0JIN2NKM1pXNUNYenBXZ1o1bTJ4T1Y1ZEUyUlprZXo0T0gyWXJWOFhsTGt0NG94N2xwa1pYTjE5RjhoTF9fOGQxRnhITjdYcUkwMTVPU25IcHd2bGtHeVRWUHU0VHhwR3d4ai1kSFJLS000VEx2UGs3QzRCVUVfMFJKRzl6RjJfZnRrZjBKY0tJcFBUTTd4QU5YUmxhSUJBd2xZWHZKQ1owYmhnanVKa09n0gHDAUFVX3lxTFA2cS1jaHJYWnFBR3paR2lkMV9qZnNWcGZLMFlUcXZqcHV1V25FQXFIeFdtTnY1U0lXZ1lTYXFNT1dqSkUzeU5VN3phWFliU0NvRWxPY0VmNVZIa193YXVHbDdfQkNOeE1Lb0k4aWJZWGF0SkxzazFUcUdXVXFOTm8wRV9wVHhvczhzaWxBOE5iaDFJc1hoemNtM3VYTUtQTlpvVVBReEJ4UFVHeEVENDBwLW9BeURFZGVqMVllbjlVa0lyRQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 927
+      "latestSinceUpdate": 928
     },
     {
-      "date": "Recent",
-      "text": "US conducts retaliatory strikes after an American patrol helicopter was downed in Hormuz.",
+      "date": "Jun 10",
+      "text": "U.S. conducts retaliatory strikes on Iran after an Apache helicopter was reportedly shot down near Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 927
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 928
     },
     {
-      "date": "Recent",
-      "text": "IMO warns against Strait of Hormuz sailings amid US-Iran tensions.",
+      "date": "Jun 10",
+      "text": "Israel strikes Beirut after a Hezbollah attack, risking further Iranian response.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxNMkJiQXQtTGt4bzJhTklNYXNiRGdMRklVV3hzMGJZZFBqbkZVVGNDeVN4UHVkcVhCU1FNcW1naFdTSzc3dlFOOGZlVG0wcDAyakFuYVAxd0ZiRmdzLWFYY1IwQm5pWGtUc1dDVnZpZGFQWmFfbHJyVU9rVEtfSVJlN2FIakQyVjJZbGZrOWd3NXROWkdDMkxlZUFWa1lTc0pKa01oR1ZVMGhISVc1dDhBZTV1M1MzaXJfWURONXN0aE1oLThOVEkzVUxSUHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "TradeWinds News",
-      "latestSinceUpdate": 927
-    },
-    {
-      "date": "Recent",
-      "text": "Israel strikes Beirut after Hezbollah attack, risking further Iranian response.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 927
+      "latestSinceUpdate": 928
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israel reports Iran launched missiles at it, marking the first such bombardment since a fragile ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 928
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israel's Ben Gvir calls for abducting Lebanese 'women and youth' to pressure Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPWGtfZHV3TWRJQ1pVek9RODhkM1A0VEpVQl9PQzJOaXpCQm1LOWQwX2JLZXF3UC1qWmtvcmY2V1Q1eTdwaFZOaU9uY2FMNkM1eGZXOWxSbXRGMVpZOVg2aVp2U2VSX1NTYnh1c0tlc210dlJkdmE3TF9od2NTdjljZXNsdzN1aVhEZExpSDdvdnZIUGNNZ3JKWlNSZDU1YlBqOUV2VEdCSjlhaDgzS3EyMTNNU1I?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 928
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

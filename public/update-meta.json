@@ -1,13 +1,13 @@
 {
-  "updateSequence": 927,
+  "updateSequence": 928,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T06:39:09.441Z",
+  "lastSyncedAt": "2026-06-10T10:44:31.851Z",
   "warDay": 103,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A previously fragile ceasefire between Israel and Iran has been violated by renewed missile exchanges and strikes, though some parties indicate a halt in their own actions."
+    "summary": "A fragile ceasefire between Iran and Israel has been reported but is actively being violated by missile launches and strikes."
   }
 }
