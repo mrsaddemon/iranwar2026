@@ -1,13 +1,13 @@
 {
-  "updateSequence": 926,
+  "updateSequence": 927,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T01:54:32.356Z",
+  "lastSyncedAt": "2026-06-10T06:39:09.441Z",
   "warDay": 103,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "No general ceasefire is active, despite a reported temporary halt in exchanges between Iran and Israel."
+    "summary": "A previously fragile ceasefire between Israel and Iran has been violated by renewed missile exchanges and strikes, though some parties indicate a halt in their own actions."
   }
 }
