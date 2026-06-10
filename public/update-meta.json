@@ -1,13 +1,13 @@
 {
-  "updateSequence": 930,
+  "updateSequence": 931,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T17:29:58.091Z",
+  "lastSyncedAt": "2026-06-10T19:55:00.041Z",
   "warDay": 103,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 100,
-    "summary": "A US-brokered truce between Israel and Hezbollah appears to have collapsed following continued Israeli strikes in Lebanon, while US-Iran exchanges of fire persist despite ongoing peace talks."
+    "summary": "A US-brokered truce between Iran and Israel has collapsed following renewed attacks and threats from both sides."
   }
 }

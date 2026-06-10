@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 930,
+  "updateSequence": 931,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T17:29:58.091Z",
+  "lastSyncedAt": "2026-06-10T19:55:00.041Z",
   "warDay": 103,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Amid ongoing threats from the US and Iran, a fragile US-brokered truce between Iran and Israel has collapsed following renewed attacks from both sides and regional targeting.",
   "lastNarrativeUpdate": "2026-06-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 100,
-    "summary": "A US-brokered truce between Israel and Hezbollah appears to have collapsed following continued Israeli strikes in Lebanon, while US-Iran exchanges of fire persist despite ongoing peace talks."
+    "summary": "A US-brokered truce between Iran and Israel has collapsed following renewed attacks and threats from both sides."
   },
   "actorOverrides": {
     "usa": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 10",
-      "text": "Tehran states the US is not seeking a ceasefire or dialogue in the ongoing conflict.",
+      "text": "Trump threatens Iran again, stating 'We’re going to be attacking'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQRzU3NkNkeDZSNkxfN0JIN2NKM1pXNUNYenBXZ1o1bTJ4T1Y1ZEUyUlprZXo0T0gyWXJWOFhsTGt0NG94N2xwa1pYTjE5RjhoTF9fOGQxRnhITjdYcUkwMTVPU25IcHd2bGtHeVRWUHU0VHhwR3d4ai1kSFJLS000VEx2UGs3QzRCVUVfMFJKRzl6RjJfZnRrZjBKY0tJcFBUTTd4QU5YUmxhSUJBd2xZWHZKQ1owYmhnanVKa09n0gHDAUFVX3lxTFA2cS1jaHJYWnFBR3paR2lkMV9qZnNWcGZLMFlUcXZqcHV1V25FQXFIeFdtTnY1U0lXZ1lTYXFNT1dqSkUzeU5VN3phWFliU0NvRWxPY0VmNVZIa193YXVHbDdfQkNOeE1Lb0k4aWJZWGF0SkxzazFUcUdXVXFOTm8wRV9wVHhvczhzaWxBOE5iaDFJc1hoemNtM3VYTUtQTlpvVVBReEJ4UFVHeEVENDBwLW9BeURFZGVqMVllbjlVa0lyRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 931
+    },
+    {
+      "date": "Jun 10",
+      "text": "Tehran states the US is seeking no ceasefire or dialogue.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 930
+      "latestSinceUpdate": 931
     },
     {
       "date": "Jun 10",
-      "text": "Trump vows to attack Iran again today, amid prolonged peace talks and recent US-Iran trade of strikes.",
+      "text": "US disables a tanker in the Gulf of Oman, with three crewmembers reported missing.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 930
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 931
     },
     {
       "date": "Jun 10",
-      "text": "The U.S. conducted retaliatory strikes after an Apache helicopter was reportedly shot down by Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 930
-    },
-    {
-      "date": "Jun 10",
-      "text": "US and Iran exchanged fire after an American patrol helicopter was downed in Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 930
-    },
-    {
-      "date": "Jun 10",
-      "text": "Tehran reportedly targeted Bahrain, Kuwait, and Jordan following U.S. strikes on Iranian assets.",
+      "text": "Tehran targets Bahrain, Kuwait, and Jordan following US strikes on Iranian assets.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE5sRm9EcldpYUsxdEx1MnNJUUhaVGc1a0hsUDN6am1PMnJXQWZ2c3lVSWFEMVRtcktEeE5EQUxpcC02Rzg1akFuMEd1VGhlRmxPYzV3RnBWMmVVejR5YkhhYWZfeDg3UWYwWlROZGY0SGtUREZQeTFDSTM4Z3XSAYIBQVVfeXFMTjB2aTYwNTNBOVpOWEhaVUl5ZGx1WFdMTUMwU3p3TkMtUlNfR2hEZTF0X2s5VWlZZUpsbnc4eXItazJEb2I4Y3VuV1BOa1FoX1NVSVJwblpyNmhNQ1hBSlhSV0FYb3Y1SFdiMUkxX2VuVXJoTDJJWW01Qk9OZFg3a1NtQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 930
+      "latestSinceUpdate": 931
     },
     {
       "date": "Jun 10",
-      "text": "Ship traffic has thinned in the Gulf as US-Iran tensions intensify, with oil tankers increasing 'dark' transits through the Strait of Hormuz.",
+      "text": "Reports indicate the Strait of Hormuz is 'leaking' oil.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE9NZGhYVUg2Rjk0T2dFM05PbkhqVlRaX253T2h2d05rMlJISFhmMGRKaEdxZ3pxWUdXSnNMZVZxelRJcm4tUWpJNFRhRklEM0dTUnpUQWlXMjNqVHdiY3luQ2U4WFpKMG1MckFac3NibE0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 930
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOUXhQTEFIM2dZMHZWS3VJWVFsdW9mR2QtQmVXQXpGX2RROWZmaVZGRFBKMzlTcm9JTHNCcHQzQTNBNk81QjJhSnpYZTYxUkZ1M2Y0U0RwdzlCVi0yNTZnTEJzdnQ1OW1qblFSSkNxMjMzc2hmZDhBaGRPZWNzQ2tmSmZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 931
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israel strikes a Beirut suburb days after a US-brokered truce.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE85MmJYVVJ0LTcyRno2RHYxLXN2cjFwME5MMWxBSjhCX3FRdFdNYW5uUnFZcG9CQ19jalN5N2phNTN1ejU3cmdGampqY1lCZDVZMk5LUTRoMnVOZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 931
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (14 headlines)"
     },
     {
       "source": "GDELT",
