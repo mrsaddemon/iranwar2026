@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 929,
+  "updateSequence": 930,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T14:03:56.766Z",
+  "lastSyncedAt": "2026-06-10T17:29:58.091Z",
   "warDay": 103,
-  "summary": "The US and Iran have engaged in direct exchanges of fire following the downing of a US helicopter, while Israel and Iran also exchanged missile strikes despite a fragile ceasefire, and Israel continues its campaign against Hezbollah.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 100,
-    "summary": "A fragile ceasefire between Iran and Israel was reported but immediately followed by missile exchanges, indicating a collapse or immediate violation."
+    "summary": "A US-brokered truce between Israel and Hezbollah appears to have collapsed following continued Israeli strikes in Lebanon, while US-Iran exchanges of fire persist despite ongoing peace talks."
   },
   "actorOverrides": {
     "usa": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 10",
-      "text": "US and Iran exchange fire after American patrol helicopter downed in Hormuz.",
+      "text": "Tehran states the US is not seeking a ceasefire or dialogue in the ongoing conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 930
+    },
+    {
+      "date": "Jun 10",
+      "text": "Trump vows to attack Iran again today, amid prolonged peace talks and recent US-Iran trade of strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 930
+    },
+    {
+      "date": "Jun 10",
+      "text": "The U.S. conducted retaliatory strikes after an Apache helicopter was reportedly shot down by Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 930
+    },
+    {
+      "date": "Jun 10",
+      "text": "US and Iran exchanged fire after an American patrol helicopter was downed in Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 929
+      "latestSinceUpdate": 930
     },
     {
       "date": "Jun 10",
-      "text": "U.S. launches new attacks on Iran in response to downing of helicopter, CENTCOM says.",
+      "text": "Tehran reportedly targeted Bahrain, Kuwait, and Jordan following U.S. strikes on Iranian assets.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNS0lCdGM4alVyQVVLYXZyaWZVX3Fha3NZc1lVdHRwN2lxeV9XVnlDWGV4cURyWDRTeU9rUHE2ajZBUlJQd0dYQW4yR1NBM0poblhmQXhLTkhPMTBUTVRCazJXMllnVGJ5Z3V0dGxYbWRJcDRFUFZrVDBCOWJoMllEeE01YUxOQXFkM2FVVXM0d3BWVGpGMGdwZG5ZYkRabG1KQ05WRWVQdmpMUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 929
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE5sRm9EcldpYUsxdEx1MnNJUUhaVGc1a0hsUDN6am1PMnJXQWZ2c3lVSWFEMVRtcktEeE5EQUxpcC02Rzg1akFuMEd1VGhlRmxPYzV3RnBWMmVVejR5YkhhYWZfeDg3UWYwWlROZGY0SGtUREZQeTFDSTM4Z3XSAYIBQVVfeXFMTjB2aTYwNTNBOVpOWEhaVUl5ZGx1WFdMTUMwU3p3TkMtUlNfR2hEZTF0X2s5VWlZZUpsbnc4eXItazJEb2I4Y3VuV1BOa1FoX1NVSVJwblpyNmhNQ1hBSlhSV0FYb3Y1SFdiMUkxX2VuVXJoTDJJWW01Qk9OZFg3a1NtQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 930
     },
     {
       "date": "Jun 10",
-      "text": "US bombs Iran’s water facilities.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNTEg5WFRrY1l5MWZ5TTRKUkpRYWsxeDBMbGkyYTYyMUFjVFpMb1QtaHFOY0VxY3ZGc3hORWF2aGswd0U0RFpCSHFMWkMzUWc3WDVldHNGOUFoRnpIUmkzMlZkbGVqQWJCWmlsaTJoQUlGLWUweUNTZ1hvTngxNUdsNktzV1U0SWFGeGo3cEZwc1VFQWpxRVdQMmYxSXlvd9IBowFBVV95cUxNWURQeXkyUzRJWC1EdHByZXM4MXBVVGlrUnF1c1JPdEdpOUJDU2dTOXN3amhXNjItZnJkc3RJWGVGNkxJdXJRVXAyeElzX3o5MWp0UzM5ZXFsRFdjRWNGZkJJWmlHR0pzSWsyLXlhRXpRQS1IdXBNSUVoT0NrNDVMNHFTekZ0ZXlZa2QzckduUDc3NXJLMlEtUjdCNHQ1MWJ6NkJN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 929
-    },
-    {
-      "date": "Jun 10",
-      "text": "Iran Targets F-35 Hangars and US Bases After Strikes Over Apache Downing.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQbjJpZFNXdFFLR2xNMUVxV0ZQUDhyZDZjLUJES2Zwb01NVTBfQ3d1RnFJa3Uybi1QVU5KSkdtUjE3S1JaYUpoc3E3RUZ0UHp5d3NSUVZYMS0yT1dBNFVWbkdXb0Z0YUVQN0pvSXhqN0c1MWhaYUFKTk1oZlFWLV9MU21qWjBqSnVRN3BPUmo5Sk42d21reFNXZWthcWtoUDY1Wlc5NE0yb3NJaHdTU2wyVC1wRjbSAbwBQVVfeXFMT2NHamo1clBlektBQTF1VXZ2em0tSWF5VzZONW4wbnNBNU10dUdWWk54N1FFalFqSDNFQmdfX095WV9oVFExVFBaU0R6RmNNZnVzTlRxNkRvenAzem5JWGtYR3VDZ21jX3hFbWM1emIzOHZBWWxmd0poX3BfN3FIdFJsR3FSNUJfNEFLeXk2eE1ZYjQyR2YwZHdXcTBNb3BCWEVXUUpKdHh2LVBXLS1ZZWl2MHdvYV9XeEVqTFI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NDTV",
-      "latestSinceUpdate": 929
-    },
-    {
-      "date": "Jun 10",
-      "text": "Israel says Iran launched missiles at it in first such bombardment since fragile ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 929
-    },
-    {
-      "date": "Jun 10",
-      "text": "Israel's bombing campaign against Hezbollah continues inside Lebanon.",
+      "text": "Ship traffic has thinned in the Gulf as US-Iran tensions intensify, with oil tankers increasing 'dark' transits through the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxON2lsM0F6RDZiVU0xa2pJanlGYmU3QUk4LVJ5MmRGUWhFeGtONy0wc2owZUU1cDBtcTN1Z0M0SmZ3YWozMno1cHNZWVFUN0hSYjJ5WHkxel8wMGE4bm8xV3JDcmxjZGhTbjh2RXAzTG5qNzByYU92VmdCaEhDSUo0VExhcS1nMmpiTS1rcUJIdTRKcHU5RTJFS3R4NVJfb3dxeVk0YUFSemZEYTdnLTQ3ag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 929
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE9NZGhYVUg2Rjk0T2dFM05PbkhqVlRaX253T2h2d05rMlJISFhmMGRKaEdxZ3pxWUdXSnNMZVZxelRJcm4tUWpJNFRhRklEM0dTUnpUQWlXMjNqVHdiY3luQ2U4WFpKMG1MckFac3NibE0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 930
     }
   ],
   "sourceStatuses": [
