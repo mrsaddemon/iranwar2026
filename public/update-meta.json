@@ -1,13 +1,13 @@
 {
-  "updateSequence": 931,
+  "updateSequence": 932,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T19:55:00.041Z",
+  "lastSyncedAt": "2026-06-10T22:13:54.122Z",
   "warDay": 103,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A US-brokered truce between Iran and Israel has collapsed following renewed attacks and threats from both sides."
+    "summary": "A previously reported US-brokered truce between Israel and Lebanon appears to have collapsed amidst continued Israeli strikes and escalating US-Iran conflict."
   }
 }

@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 931,
+  "updateSequence": 932,
   "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T19:55:00.041Z",
+  "lastSyncedAt": "2026-06-10T22:13:54.122Z",
   "warDay": 103,
-  "summary": "Amid ongoing threats from the US and Iran, a fragile US-brokered truce between Iran and Israel has collapsed following renewed attacks from both sides and regional targeting.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A US-brokered truce between Iran and Israel has collapsed following renewed attacks and threats from both sides."
+    "summary": "A previously reported US-brokered truce between Israel and Lebanon appears to have collapsed amidst continued Israeli strikes and escalating US-Iran conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 10",
-      "text": "Trump threatens Iran again, stating 'We’re going to be attacking'.",
+      "text": "US military launches new attacks against multiple targets in Iran, with officials indicating further strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQRzU3NkNkeDZSNkxfN0JIN2NKM1pXNUNYenBXZ1o1bTJ4T1Y1ZEUyUlprZXo0T0gyWXJWOFhsTGt0NG94N2xwa1pYTjE5RjhoTF9fOGQxRnhITjdYcUkwMTVPU25IcHd2bGtHeVRWUHU0VHhwR3d4ai1kSFJLS000VEx2UGs3QzRCVUVfMFJKRzl6RjJfZnRrZjBKY0tJcFBUTTd4QU5YUmxhSUJBd2xZWHZKQ1owYmhnanVKa09n0gHDAUFVX3lxTFA2cS1jaHJYWnFBR3paR2lkMV9qZnNWcGZLMFlUcXZqcHV1V25FQXFIeFdtTnY1U0lXZ1lTYXFNT1dqSkUzeU5VN3phWFliU0NvRWxPY0VmNVZIa193YXVHbDdfQkNOeE1Lb0k4aWJZWGF0SkxzazFUcUdXVXFOTm8wRV9wVHhvczhzaWxBOE5iaDFJc1hoemNtM3VYTUtQTlpvVVBReEJ4UFVHeEVENDBwLW9BeURFZGVqMVllbjlVa0lyRQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 931
+      "latestSinceUpdate": 932
     },
     {
       "date": "Jun 10",
-      "text": "Tehran states the US is seeking no ceasefire or dialogue.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 931
-    },
-    {
-      "date": "Jun 10",
-      "text": "US disables a tanker in the Gulf of Oman, with three crewmembers reported missing.",
-      "severity": "critical",
+      "text": "Iran accuses the US of a 'calculated war crime' following the latest American strikes.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 931
+      "latestSinceUpdate": 932
     },
     {
       "date": "Jun 10",
-      "text": "Tehran targets Bahrain, Kuwait, and Jordan following US strikes on Iranian assets.",
+      "text": "Tehran launches retaliatory attacks on Bahrain and Kuwait.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE5sRm9EcldpYUsxdEx1MnNJUUhaVGc1a0hsUDN6am1PMnJXQWZ2c3lVSWFEMVRtcktEeE5EQUxpcC02Rzg1akFuMEd1VGhlRmxPYzV3RnBWMmVVejR5YkhhYWZfeDg3UWYwWlROZGY0SGtUREZQeTFDSTM4Z3XSAYIBQVVfeXFMTjB2aTYwNTNBOVpOWEhaVUl5ZGx1WFdMTUMwU3p3TkMtUlNfR2hEZTF0X2s5VWlZZUpsbnc4eXItazJEb2I4Y3VuV1BOa1FoX1NVSVJwblpyNmhNQ1hBSlhSV0FYb3Y1SFdiMUkxX2VuVXJoTDJJWW01Qk9OZFg3a1NtQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 931
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxOd2F2OS02ZHk4NGFiSXA4NHA5cFlRSU9FUnNKN3hzY0w3bFl2cmVYeWtpTU5PakRxTnJPSTNSbnNxYnkxYVd2OGd2X2xIZG1reWxVM1JFdGlBbWdvS1pUNWlsalVlU2l0QWd1Wnl3ZjdWb1lEQjAtazcwNTdsR1VDUVc5WkgzTWZ1eGNYYjU4cUVJQlM1Uks1bVNRcmEwbndSTUhSenZRTEVvLXViRjVicTQ0d1gwSFJzQkVOZUhtSlhoM0k3VjVVbVY0V1FSbWk2VmFfNVJRZHRNeDdOMlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 932
     },
     {
       "date": "Jun 10",
-      "text": "Reports indicate the Strait of Hormuz is 'leaking' oil.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOUXhQTEFIM2dZMHZWS3VJWVFsdW9mR2QtQmVXQXpGX2RROWZmaVZGRFBKMzlTcm9JTHNCcHQzQTNBNk81QjJhSnpYZTYxUkZ1M2Y0U0RwdzlCVi0yNTZnTEJzdnQ1OW1qblFSSkNxMjMzc2hmZDhBaGRPZWNzQ2tmSmZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 931
+      "text": "Iranian media reports explosions around Hormuz and activated air defenses in Tehran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQVUJHR0luX1F3NWNSTUREX2ZFWUZaMnJEVXEtUEVXVmxuNDd1WjdUN2g2MGFzbnN4WHRMVDQyZkt6TnJwZ0Y2b1ZvWmQzWnZBcHQ0ZDZKVEVnOG1Wd05aamJTdjBudWxnN0pSdU42RHdMdDhEQ0pfM2JDRkdFck9Kbk83REFPYm81Q0lqaklDRURPOVdYeW1iUGhCYzNtMVVxZ0RMMkVqUk9nNUI1cEEtT0dydHhhcFU2ejNkNU80VEpJM19aVTR1cWpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 932
     },
     {
       "date": "Jun 10",
-      "text": "Israel strikes a Beirut suburb days after a US-brokered truce.",
+      "text": "Israel strikes a Beirut suburb days after a US-brokered truce, continuing its bombing campaign against Hezbollah.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE85MmJYVVJ0LTcyRno2RHYxLXN2cjFwME5MMWxBSjhCX3FRdFdNYW5uUnFZcG9CQ19jalN5N2phNTN1ejU3cmdGampqY1lCZDVZMk5LUTRoMnVOZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 931
+      "latestSinceUpdate": 932
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israel's Ben Gvir calls for abducting Lebanese 'women and youth' to pressure Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPWGtfZHV3TWRJQ1pVek9RODhkM1A0VEpVQl9PQzJOaXpCQm1LOWQwX2JLZXF3UC1qWmtvcmY2V1Q1eTdwaFZOaU9uY2FMNkM1eGZXOWxSbXRGMVpZOVg2aVp2U2VSX1NTYnh1c0tlc210dlJkdmE3TF9od2NTdjljZXNsdzN1aVhEZExpSDdvdnZIUGNNZ3JKWlNSZDU1YlBqOUV2VEdCSjlhaDgzS3EyMTNNU1I?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 932
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (14 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
