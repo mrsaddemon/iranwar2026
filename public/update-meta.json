@@ -1,13 +1,13 @@
 {
-  "updateSequence": 925,
-  "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T23:44:45.427Z",
-  "warDay": 102,
+  "updateSequence": 926,
+  "lastUpdated": "2026-06-10",
+  "lastSyncedAt": "2026-06-10T01:54:32.356Z",
+  "warDay": 103,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, with direct U.S. strikes on Iran and ongoing Israel-Hezbollah exchanges."
+    "summary": "No general ceasefire is active, despite a reported temporary halt in exchanges between Iran and Israel."
   }
 }

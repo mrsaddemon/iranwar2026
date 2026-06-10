@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 925,
-  "lastUpdated": "2026-06-09",
-  "lastSyncedAt": "2026-06-09T23:44:45.427Z",
-  "warDay": 102,
+  "updateSequence": 926,
+  "lastUpdated": "2026-06-10",
+  "lastSyncedAt": "2026-06-10T01:54:32.356Z",
+  "warDay": 103,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-09",
+  "lastNarrativeUpdate": "2026-06-10",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, with direct U.S. strikes on Iran and ongoing Israel-Hezbollah exchanges."
+    "summary": "No general ceasefire is active, despite a reported temporary halt in exchanges between Iran and Israel."
   },
   "actorOverrides": {
     "usa": {
@@ -19,12 +19,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 35,
     "escalationLevel": 38,
     "oilDisruption": 75,
     "tradeImpact": 45,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 09",
-      "text": "A U.S. helicopter went down near the Strait of Hormuz, with the crew subsequently rescued.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 925
-    },
-    {
-      "date": "Jun 09",
-      "text": "Former President Trump claimed Iran shot down the helicopter and vowed a 'response'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPTk1sMDhuN1Y0S0dtS3hsMWdlZUp5NGVWcnhZSmEya3VLYXBOM29DTzkzTjNIWWdIMUNVWjBVWkNWQnRnYWZnRUcwSmQ3bDU3QlN5Rndub2dWNUc1dHA1Z0c1RXlPT1lhbWVpRlFnV3ZjSml2MW45ZmlDbXU5clhNQmlmZ3RwbmtqQkFFMHZLOS1LVkVpSnhsTHpoMjNTOXltMl95QXEyZ25rd9IBrwFBVV95cUxNOG1fSlNOY2JPQUF4c3hFSF9hZ25YdHp4SzNzai1oZXhHNjlIbkhhV21CMnRUVkxBbXg5WVpURUFEYVdkUDhjNEJRUXp1WmxtWFRHajRabktYbV9ab013cmcwb29nYmJ5N3hWbE93SThJclNIRzVzUEhWc3IzbEVPRkplUTlldk5yMTJPdTFFM3ZhRUU5WFhzQWxoQ09OOWNndEVVVFVGSThYY2Vndi13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 925
-    },
-    {
-      "date": "Jun 09",
-      "text": "The U.S. military launched strikes against Iran in response to the helicopter downing.",
+      "date": "Jun 10",
+      "text": "US military launches strikes against Iran in response to helicopter downing.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 925
+      "sourceName": "CNN",
+      "latestSinceUpdate": 926
     },
     {
-      "date": "Jun 09",
-      "text": "Iran and Israel reportedly halted exchanges of fire, though Netanyahu stated the war is not over.",
-      "severity": "info",
+      "date": "Jun 10",
+      "text": "Iran strikes US Navy's 5th Fleet after US attacks over Apache chopper downing.",
+      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 925
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 926
     },
     {
-      "date": "Jun 09",
-      "text": "Israel struck Beirut following a Hezbollah attack, risking further Iranian response.",
+      "date": "Jun 10",
+      "text": "Crew is rescued after U.S. helicopter goes down near Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 926
+    },
+    {
+      "date": "Jun 10",
+      "text": "Netanyahu states war with Iran and Hezbollah is not over, despite claims of halting strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNZnBndXNpNUd4bnh6M2trWE5oM0dmREVnZzlidjhNS2dnZkRUN1AtOTdMcl9VZThTc2ZPdDVVcWlvLTM0aVJubUFpSGFIZjJVT0xoOXU5cTBjRS12NkVpVGZVMlM1ajBXMlpDdDN4Qmp0WWNwRHRiN2YtcVJEN0J2aWtPdmVSMlZCS0VwV1IwdHM5a0NBQ1HSAZsBQVVfeXFMTlNqYnlBakZKVWptLXFDYjZuZlFjT1dVX04yZU84eEdrNFUwOW9MbXN4RjRoanloRG1hUDROVXRfSGVjYTNIa3BiMGpUZkZZazNFVDQxazJTZVdvWE16THlJbFczdUd5LWhSOHJqWEJjMURVdzh0M0tCdFBJcGhYa2RTQmRaMGlNazNDMm9rZkxWbGdxZDNOeVEybFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 926
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israel strikes Beirut after Hezbollah attack, risking further Iran response.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPamtFLVM2ZEVsR3UxUS12X2VGclNOVzJWdllVejhUOFdKZWt0THJJVGxsZ0EwZXRJU0tRUGJlbG42UWx5al9XN0VXMG5UN0laS2t6S0RiYmRIME51bk5IWF80T1h0emNneEx5c0p0NE94QUFRelZIOEhwTWtBUTI1Ym05OU9tYkUwX0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 925
+      "sourceName": "Axios",
+      "latestSinceUpdate": 926
     },
     {
-      "date": "Jun 09",
-      "text": "Iran stated the U.S. is not seeking a ceasefire or dialogue amidst the escalating conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPckwzaWlod3dWNDIyX0dILXNhaXNBUnVOSG9VU245MHBTT2RkajBsQ2RidHRrMDdEQW4xc2h5NkFhbDcxQ3l1MGkzVzZLOGlOS2JGdjZBR2JOVmZwZFFaR0o4TGl4V2l2Nk1MVmpkdWVJU0ZJQWVqNmVialczOEt6aUZnMzRRV2FDQnBRZ3FBWllsWGNUSzRXU243X3hpblZhM25nYWZENXN3WHJyYkpqNlRqVmZENWlrWGxtRlg3azjSAcYBQVVfeXFMTUdNcDNObDZwcl95bkxtTVhqeU5GcHd1SnFMblhuLUkwTXI1eG0tUmNoSkpBRDJUYXhPRzNCbng2QmNFbUpDZFgxeFJ4cDI2eDdzb0ZoV2hCWVlQblBsQmtrai1KWERiRjhsMjFncnQ0VHUzY2NKNlFrZ2lOWElRUEVBQVFGMnExdzVDYU53TXFCeHVIejQwOXVROW9EenprbEFXTFFid3FWT3ZTMXpiU1FsZFozVU1maFdmUnlTalMyZjBhWm13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 925
+      "date": "Jun 10",
+      "text": "Iran and Israel reportedly halt exchanges of fire, amidst broader regional conflict.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 926
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
