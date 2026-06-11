@@ -1,13 +1,13 @@
 {
-  "updateSequence": 933,
-  "lastUpdated": "2026-06-10",
-  "lastSyncedAt": "2026-06-10T23:51:03.321Z",
-  "warDay": 103,
+  "updateSequence": 934,
+  "lastUpdated": "2026-06-11",
+  "lastSyncedAt": "2026-06-11T02:06:06.723Z",
+  "warDay": 104,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "No active ceasefire is in effect for the primary conflict between the US and Iran, despite a previously brokered truce between Israel and Lebanon showing signs of collapse."
+    "summary": "A US-brokered truce between Israel and Hezbollah appears to have collapsed following Israeli strikes, though Iran and Israel have since pulled back from a fierce exchange."
   }
 }
