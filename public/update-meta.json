@@ -1,13 +1,13 @@
 {
-  "updateSequence": 934,
+  "updateSequence": 935,
   "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T02:06:06.723Z",
+  "lastSyncedAt": "2026-06-11T07:00:51.902Z",
   "warDay": 104,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 100,
-    "summary": "A US-brokered truce between Israel and Hezbollah appears to have collapsed following Israeli strikes, though Iran and Israel have since pulled back from a fierce exchange."
+    "summary": "No ceasefire is active as U.S. and Iran continue to trade strikes and regional tensions remain high."
   }
 }

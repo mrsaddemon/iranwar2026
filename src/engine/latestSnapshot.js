@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 934,
+  "updateSequence": 935,
   "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T02:06:06.723Z",
+  "lastSyncedAt": "2026-06-11T07:00:51.902Z",
   "warDay": 104,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The U.S. and Iran have engaged in a second day of direct strikes, with Iran also targeting regional allies, while Israel continues operations in Lebanon amidst heightened tensions.",
   "lastNarrativeUpdate": "2026-06-11",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 100,
-    "summary": "A US-brokered truce between Israel and Hezbollah appears to have collapsed following Israeli strikes, though Iran and Israel have since pulled back from a fierce exchange."
+    "summary": "No ceasefire is active as U.S. and Iran continue to trade strikes and regional tensions remain high."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
         "precision": 0.7,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 73
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
+    "nuclearIndex": 65,
+    "escalationLevel": 92,
     "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "tradeImpact": 78,
+    "sanctionsPressure": 65,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 11",
-      "text": "US launches new attacks on multiple targets in Iran.",
+      "date": "Jun 10",
+      "text": "U.S. and Iran traded strikes for a second consecutive day following earlier U.S. actions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQRzU3NkNkeDZSNkxfN0JIN2NKM1pXNUNYenBXZ1o1bTJ4T1Y1ZEUyUlprZXo0T0gyWXJWOFhsTGt0NG94N2xwa1pYTjE5RjhoTF9fOGQxRnhITjdYcUkwMTVPU25IcHd2bGtHeVRWUHU0VHhwR3d4ai1kSFJLS000VEx2UGs3QzRCVUVfMFJKRzl6RjJfZnRrZjBKY0tJcFBUTTd4QU5YUmxhSUJBd2xZWHZKQ1owYmhnanVKa09n0gHDAUFVX3lxTFA2cS1jaHJYWnFBR3paR2lkMV9qZnNWcGZLMFlUcXZqcHV1V25FQXFIeFdtTnY1U0lXZ1lTYXFNT1dqSkUzeU5VN3phWFliU0NvRWxPY0VmNVZIa193YXVHbDdfQkNOeE1Lb0k4aWJZWGF0SkxzazFUcUdXVXFOTm8wRV9wVHhvczhzaWxBOE5iaDFJc1hoemNtM3VYTUtQTlpvVVBReEJ4UFVHeEVENDBwLW9BeURFZGVqMVllbjlVa0lyRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 934
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 935
     },
     {
-      "date": "Jun 11",
-      "text": "Trump claims Iran shot down a helicopter and vows a response.",
+      "date": "Jun 10",
+      "text": "Iran reportedly targeted Bahrain, Kuwait, and Jordan after new waves of U.S. strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOaktSTTBDcE1hZkc0dmoxTXFubzh6Q0VuNVBJazRxV1dRZDRwRlFKWnVRT1V1cTl1UjNPTjMtakRLMGpwY3RvWHk1ZzJoazk3QjlpV2NXUHg1UXpJdlFLZDByeG56a2YzcUdIcVlxU2ZFQWZOX1lxNjNnVFFBY1YzNHhfNU9DQzFEbUxRdEM1U2pXN2ZJYUpMRXRLdEJhdTMyLVVSNDZiVkpYdjBLWmROZkNNZGjSAboBQVVfeXFMUEVDRjMxQzBQcFEtc2QwaGZUbkUxaUF1U1MycVozQ2F1eTZlOFhaQVNrRmkzQUEyamJCUklqWlJWa09tS0pUU21OSmtWaTBITkViWm1jblZOd05RNHB4R1Q4eTNPM2RzbWdDdjM0VXNUOEdzREJiZ2VFSGh5U3JDT0tTUmd4d0JxckdtMHJiQi14V0FhY3IxUmI5d3I5VXdQRV9uYmJod2hOWm44M0tQSTBfdUY5eVhfTlhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 935
+    },
+    {
+      "date": "Jun 10",
+      "text": "Kuwait closed its airspace and began shipping cooking gas out of Hormuz as Gulf producers faced disruptions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPTk1sMDhuN1Y0S0dtS3hsMWdlZUp5NGVWcnhZSmEya3VLYXBOM29DTzkzTjNIWWdIMUNVWjBVWkNWQnRnYWZnRUcwSmQ3bDU3QlN5Rndub2dWNUc1dHA1Z0c1RXlPT1lhbWVpRlFnV3ZjSml2MW45ZmlDbXU5clhNQmlmZ3RwbmtqQkFFMHZLOS1LVkVpSnhsTHpoMjNTOXltMl95QXEyZ25rd9IBrwFBVV95cUxNOG1fSlNOY2JPQUF4c3hFSF9hZ25YdHp4SzNzai1oZXhHNjlIbkhhV21CMnRUVkxBbXg5WVpURUFEYVdkUDhjNEJRUXp1WmxtWFRHajRabktYbV9ab013cmcwb29nYmJ5N3hWbE93SThJclNIRzVzUEhWc3IzbEVPRkplUTlldk5yMTJPdTFFM3ZhRUU5WFhzQWxoQ09OOWNndEVVVFVGSThYY2Vndi13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 934
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 935
     },
     {
-      "date": "Jun 11",
-      "text": "Iran announces the closure of the Strait of Hormuz following US strikes.",
+      "date": "Jun 10",
+      "text": "Israel warned of launches from Lebanon and conducted air strikes on the Lebanese city of Tyre.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQcWotVHBuWTNSVDRJNWlaekNFWjdqZ2ZnZ0JoYU8zbzl0SUZkRWdlSXpJZWpwekExV0o0blgySGhiQWJIOXczR0V3ME56WUhjZmFNUVBTbU5iQ2lXam9JVXRjTmczaW1ZYXVSRGZfd3NaeHVFWFFCZzNRZklybGRFbGY1VUlUM2lReXlrdkk2aDNPdGVNVlRDWjRFeTlVM2FVRHl1RnloTjRoTFdfNG01WTJndFrSAboBQVVfeXFMUFdrMU1RZnNWZ3M2eWRPNGxiRXNybTYtTHp3V2dBRlVVQ1B2V1M2c3pFTGZGZDhYSGVkV2lBUXVjeThnb2RqX2tmeDhEWFZEZE9OLUtfTGNMTXJJNTM2akMwblhlejY2MzdBMXROYmdBUGNySlE3VEQ3cTdsRVpnc3M2aGhuX2ctR1hKUEkzeU5PZlI4ZmQ4SF9VeVlmV09aSXZUSzNKRW10N0Y1Z0lDMzMwSmUtM084RkRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 934
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 935
     },
     {
-      "date": "Jun 11",
-      "text": "CENTCOM states the U.S. has finished attacking targets in Iran.",
+      "date": "Jun 10",
+      "text": "An Indian official reported that three Indian nationals were killed on a tanker shot by the U.S. military.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxNX2lfQXUwTTlJQ0NmVmpjQ2NjLXNON0gwWFg3dmxCc1kxYnBmMzdlV3VCdDhtSC16cnZCTGNmN293WGd1bDNmYlNhWEswUVdaM1NQZlZBVXlsYi0wMzdqaloxRDR3TzhhMzA0b2RvT255eExLQnRnWGVQUmFxNTcwRU9HR01hVkpsLTNycXY2a1o?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Newsday",
+      "latestSinceUpdate": 935
+    },
+    {
+      "date": "Jun 10",
+      "text": "Netanyahu stated that the war with Iran and Hezbollah is not over, despite Iran's claims of halting strikes.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1Oc1Fzd0ZSWVdncl9DMFcwSHN2Q1V3N1pUWDNRN3NocFY3ZVJ2Y25GR09CMW5fSjRSSDBxc3RiUER0cDhWMU1yNE1oVUh6ZlpRLVJOelB1aF9vbXU0bDZiOHVscFVxWmtCc2x3VFJBUTRZUmxqbXBKR3I2VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 934
-    },
-    {
-      "date": "Jun 11",
-      "text": "Tehran claims it has targeted a US base in Bahrain.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOYVRrbUlGa2FOQi1SSnhKZmNKNDh6NURTOFdVSjVHeEpTTVM5b0RyNDQxWnhIaXRwTVRBNEhMY2x4c1EtM1VXYkp5VWp1a1huZV84MEFVb3ZIVEZtSHBRWlVuMXJPNXc5dmdQSnctOGNRckMwNFFheUdWVE9uWmFpdU9fS0lZZmlJd2M0dWoxUlpZNVk1SnZHeVZ3MG41aDZKQ24yQkNueGNEUGN5alJNTjhjUWdFeGZkQ0k0QndwQ21heGxvNXpnTGdCRVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 934
-    },
-    {
-      "date": "Jun 11",
-      "text": "Israel strikes a Beirut suburb days after a US-brokered truce.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE85MmJYVVJ0LTcyRno2RHYxLXN2cjFwME5MMWxBSjhCX3FRdFdNYW5uUnFZcG9CQ19jalN5N2phNTN1ejU3cmdGampqY1lCZDVZMk5LUTRoMnVOZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 934
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNZnBndXNpNUd4bnh6M2trWE5oM0dmREVnZzlidjhNS2dnZkRUN1AtOTdMcl9VZThTc2ZPdDVVcWlvLTM0aVJubUFpSGFIZjJVT0xoOXU5cTBjRS12NkVpVGZVMlM1ajBXMlpDdDN4Qmp0WWNwRHRiN2YtcVJEN0J2aWtPdmVSMlZCS0VwV1IwdHM5a0NBQ1HSAZsBQVVfeXFMTlNqYnlBakZKVWptLXFDYjZuZlFjT1dVX04yZU84eEdrNFUwOW9MbXN4RjRoanloRG1hUDROVXRfSGVjYTNIa3BiMGpUZkZZazNFVDQxazJTZVdvWE16THlJbFczdUd5LWhSOHJqWEJjMURVdzh0M0tCdFBJcGhYa2RTQmRaMGlNazNDMm9rZkxWbGdxZDNOeVEybFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 935
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
