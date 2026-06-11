@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 938,
+  "updateSequence": 939,
   "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T18:36:16.219Z",
+  "lastSyncedAt": "2026-06-11T21:04:49.796Z",
   "warDay": 104,
-  "summary": "Amid ongoing US strikes and Iranian retaliation, President Trump announced the cancellation of further strikes, citing progress in potential peace talks, while regional tensions persist with Israeli actions in Lebanon.",
+  "summary": "The US and Iran have exchanged fire in the Middle East, including in the Strait of Hormuz, while President Trump claims a deal to end the war is close despite ongoing strikes, and Israel continues operations in Lebanon.",
   "lastNarrativeUpdate": "2026-06-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.2,
     "durationDays": 100,
-    "summary": "President Trump has cancelled some strikes and indicated progress in peace talks, but no formal ceasefire is in effect."
+    "summary": "Despite President Trump's claims of a potential settlement and canceled strikes, active exchanges of fire between the US and Iran indicate no current ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 78,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 10",
-      "text": "President Trump announced the cancellation of scheduled strikes against Iran, claiming progress in talks.",
+      "text": "President Trump claims to have canceled scheduled strikes against Iran and signals a move toward a deal.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQcVotVXBtSFIzWjE4NGk0ZXRDWGFqbGlENTNETFBsaGJRSmdFLWJBaFZiY2tQMjBjSm4wMXl5azV2emN3OG1kMVk3c21WZUxqanAyTVp4UmZ6UHRSM0FNMl81djVvNm5aWlpDQUliLUxrMU5paVRmSFgwNzNJVXIyRVBvcEl5TnQ2Ml9ESllaM0hIZkJTeU5rR2JFSWFlNEZtSmhPT2JJSTdCdFpSYkNQWdIBtgFBVV95cUxQNDVBLWpPLXZ3Nzh4NDJiMy1Wb2ZxU0NFOGJXUTREYUt1bFpRNmJIZkJrSlNlUmhVVWh6Z3doU0pFX3A2U2ZXbEhOMVpJQ2lZQ25heEJQV2Y3b29zZ3U5cHNqblhPbXdJMllxUVJ2b1VsanRQV1R5U1h2NXItTWs1RjJmRVk3TThWTERqdXZKam42VUNtVWs5RTJhaEwtbUJFZXRQY2xiYXNCeEsyMWNNRUt2X2FaZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 938
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQOGh6VE16SGcyemxnaWsxLTlXTjlxSVRSMFhOdXlCZjkya1Z0bzh3UVp2TzJLemtNTzZ2bU9lYnhmSEhaOGJNWFpleE1FWlYzTUl6TmlKd3ZDY3JMZmJLRFBRcXpkOUpPM1pIT2VZbEl2MEZ6YnZPdnN1eU9iUUFfLTFQd3dEWThacDBZbnM5aURzLWJsNEpvUHUtcW5xaW13Vkc0emwwaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 939
     },
     {
       "date": "Jun 10",
-      "text": "US bases in the Middle East faced a second night of retaliatory Iranian attacks.",
+      "text": "US bases in the Middle East are reportedly facing a second night of retaliatory Iranian attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 938
+      "latestSinceUpdate": 939
     },
     {
       "date": "Jun 10",
-      "text": "The US launched new strikes on multiple targets in Iran, with Iran firing back at Gulf states and Jordan.",
+      "text": "The US launched new strikes on Iran, which responded by firing back at Gulf states and Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPU25kWmtrYVNpdHBud0dxUDhZdUx0OFMyQUxOWER5cXowaW8zWk9pdWNBeWdycUNTTXp4VjlmSWF1UDRzOEpBdl9RRTlYeno2cXBHUEJuVDJaTk05dldzaEwza29fR2I1NmpsZU5JZUlUWjNoWlZUTXFiaFFLYm9oSHR5Ukk4X2s5X193eU5fVm5KWjZmSHBsTnJ2U29JU1lVb3ZtLUZuTUpDNHM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 938
+      "latestSinceUpdate": 939
     },
     {
       "date": "Jun 10",
-      "text": "President Trump warned the US would seize the key Iranian oil export hub Kharg Island.",
+      "text": "Kuwait closed its airspace, and Israel warned of launches from Lebanon following US strikes in Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1QY0JRWVhUT2wwN2h5ZFRETDRoUktOYngxcTFZVXNLQlIwNTBfN1JBaE9qLXlPT096VF9leUFHOVZMUEx4WnRVT1JscW1fRnlvRU02eFhRODZZY1UyU0pYakFfbWtiWmtPSnppQW9yeE1CSFBRaXdnZElJZGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 938
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 939
     },
     {
       "date": "Jun 10",
-      "text": "Israel's Ben Gvir called for abducting Lebanese 'women and youth' to pressure Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPWGtfZHV3TWRJQ1pVek9RODhkM1A0VEpVQl9PQzJOaXpCQm1LOWQwX2JLZXF3UC1qWmtvcmY2V1Q1eTdwaFZOaU9uY2FMNkM1eGZXOWxSbXRGMVpZOVg2aVp2U2VSX1NTYnh1c0tlc210dlJkdmE3TF9od2NTdjljZXNsdzN1aVhEZExpSDdvdnZIUGNNZ3JKWlNSZDU1YlBqOUV2VEdCSjlhaDgzS3EyMTNNU1I?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 938
-    },
-    {
-      "date": "Jun 10",
-      "text": "Israeli air strikes hit the Lebanese city of Tyre despite Iranian warnings.",
+      "text": "The US and Iran exchanged fire after an American patrol helicopter was downed in the Strait of Hormuz.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 939
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israeli air strikes hit the Lebanese city of Tyre despite an Iranian warning to cease attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1pQ2lCMHpqSjhTWFdQZ0dOZ2hBSXoyY1YtV0tiM0NmVVNuQUpNN1hhazFiWUx0MkhCSFNTZF9kNEVxMTNMVlA0cEtGWGR2dnFJRlBVZXk2ZEpMUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 938
+      "latestSinceUpdate": 939
     }
   ],
   "sourceStatuses": [

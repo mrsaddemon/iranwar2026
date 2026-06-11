@@ -1,13 +1,13 @@
 {
-  "updateSequence": 938,
+  "updateSequence": 939,
   "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T18:36:16.219Z",
+  "lastSyncedAt": "2026-06-11T21:04:49.796Z",
   "warDay": 104,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.2,
     "durationDays": 100,
-    "summary": "President Trump has cancelled some strikes and indicated progress in peace talks, but no formal ceasefire is in effect."
+    "summary": "Despite President Trump's claims of a potential settlement and canceled strikes, active exchanges of fire between the US and Iran indicate no current ceasefire."
   }
 }
