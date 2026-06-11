@@ -1,13 +1,13 @@
 {
-  "updateSequence": 935,
+  "updateSequence": 936,
   "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T07:00:51.902Z",
+  "lastSyncedAt": "2026-06-11T11:43:08.321Z",
   "warDay": 104,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "No ceasefire is active as U.S. and Iran continue to trade strikes and regional tensions remain high."
+    "summary": "The April ceasefire between Israel and Iran appears to have collapsed amidst renewed regional hostilities, though a brief pause in direct Israel-Iran strikes was noted."
   }
 }
