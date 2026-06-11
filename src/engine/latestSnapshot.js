@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 936,
+  "updateSequence": 937,
   "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T11:43:08.321Z",
+  "lastSyncedAt": "2026-06-11T15:22:26.522Z",
   "warDay": 104,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US and Iran are engaged in renewed strikes, with President Trump threatening to seize Kharg Island and control Iran's oil industry, while Israel conducts air strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-06-11",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 100,
-    "summary": "The April ceasefire between Israel and Iran appears to have collapsed amidst renewed regional hostilities, though a brief pause in direct Israel-Iran strikes was noted."
+    "summary": "No active ceasefire is in effect as US-Iran strikes continue and regional tensions escalate."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 48,
+    "nuclearIndex": 30,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 10",
-      "text": "US launches new strikes on multiple targets in Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQRzU3NkNkeDZSNkxfN0JIN2NKM1pXNUNYenBXZ1o1bTJ4T1Y1ZEUyUlprZXo0T0gyWXJWOFhsTGt0NG94N2xwa1pYTjE5RjhoTF9fOGQxRnhITjdYcUkwMTVPU25IcHd2bGtHeVRWUHU0VHhwR3d4ai1kSFJLS000VEx2UGs3QzRCVUVfMFJKRzl6RjJfZnRrZjBKY0tJcFBUTTd4QU5YUmxhSUJBd2xZWHZKQ1owYmhnanVKa09n0gHDAUFVX3lxTFA2cS1jaHJYWnFBR3paR2lkMV9qZnNWcGZLMFlUcXZqcHV1V25FQXFIeFdtTnY1U0lXZ1lTYXFNT1dqSkUzeU5VN3phWFliU0NvRWxPY0VmNVZIa193YXVHbDdfQkNOeE1Lb0k4aWJZWGF0SkxzazFUcUdXVXFOTm8wRV9wVHhvczhzaWxBOE5iaDFJc1hoemNtM3VYTUtQTlpvVVBReEJ4UFVHeEVENDBwLW9BeURFZGVqMVllbjlVa0lyRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 936
-    },
-    {
-      "date": "Jun 10",
-      "text": "Iran retaliates, targeting Bahrain, Kuwait, and Jordan after new US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQcVotVXBtSFIzWjE4NGk0ZXRDWGFqbGlENTNETFBsaGJRSmdFLWJBaFZiY2tQMjBjSm4wMXl5azV2emN3OG1kMVk3c21WZUxqanAyTVp4UmZ6UHRSM0FNMl81djVvNm5aWlpDQUliLUxrMU5paVRmSFgwNzNJVXIyRVBvcEl5TnQ2Ml9ESllaM0hIZkJTeU5rR2JFSWFlNEZtSmhPT2JJSTdCdFpSYkNQWdIBtgFBVV95cUxQNDVBLWpPLXZ3Nzh4NDJiMy1Wb2ZxU0NFOGJXUTREYUt1bFpRNmJIZkJrSlNlUmhVVWh6Z3doU0pFX3A2U2ZXbEhOMVpJQ2lZQ25heEJQV2Y3b29zZ3U5cHNqblhPbXdJMllxUVJ2b1VsanRQV1R5U1h2NXItTWs1RjJmRVk3TThWTERqdXZKam42VUNtVWs5RTJhaEwtbUJFZXRQY2xiYXNCeEsyMWNNRUt2X2FaZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 936
-    },
-    {
-      "date": "Jun 10",
-      "text": "Kuwait closes its airspace following US strikes in Iran and regional tensions.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 936
-    },
-    {
-      "date": "Jun 10",
-      "text": "Iran claims closure of the Strait of Hormuz; US denies the claim.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 936
-    },
-    {
-      "date": "Jun 10",
-      "text": "US bases in the Middle East face a second night of retaliatory Iranian attacks.",
+      "text": "US bases in Middle East face second night of retaliatory Iranian attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 936
+      "latestSinceUpdate": 937
     },
     {
       "date": "Jun 10",
-      "text": "Israeli air strikes hit the Lebanese city of Tyre despite Iranian warnings.",
+      "text": "US launches new strikes on Iran, which fires back at Gulf states and Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPU25kWmtrYVNpdHBud0dxUDhZdUx0OFMyQUxOWER5cXowaW8zWk9pdWNBeWdycUNTTXp4VjlmSWF1UDRzOEpBdl9RRTlYeno2cXBHUEJuVDJaTk05dldzaEwza29fR2I1NmpsZU5JZUlUWjNoWlZUTXFiaFFLYm9oSHR5Ukk4X2s5X193eU5fVm5KWjZmSHBsTnJ2U29JU1lVb3ZtLUZuTUpDNHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 937
+    },
+    {
+      "date": "Jun 10",
+      "text": "Trump threatens to hit Iran 'very hard' and take 'total control' of Iran’s oil industry, including Kharg Island.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQOGh6VE16SGcyemxnaWsxLTlXTjlxSVRSMFhOdXlCZjkya1Z0bzh3UVp2TzJLemtNTzZ2bU9lYnhmSEhaOGJNWFpleE1FWlYzTUl6TmlKd3ZDY3JMZmJLRFBRcXpkOUpPM1pIT2VZbEl2MEZ6YnZPdnN1eU9iUUFfLTFQd3dEWThacDBZbnM5aURzLWJsNEpvUHUtcW5xaW13Vkc0emwwaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 937
+    },
+    {
+      "date": "Jun 10",
+      "text": "Hormuz Oil Sneakouts Rise 50% as Iran and US Vie for Control.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNZ3VTakJqelYweXpHOGRrMDVhcDM1NEpLR2lPU1NXUUhKczdFS2lueUR6b2daOUZmOEdGdWpoa3A0b0dZejVFV0U2dUZscm1LaHlPRjcyUGZlTUoyVV90dDZuTXJ6U3NvZHctOUVNU2F4UXZvWGRienkzNFRMeWVpQWZzb1lFQk1vQTllUjg4MHBkc3c2aWFDZDU2T3FsTXNON0RsOVd3UzNENF9WbXJv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 937
+    },
+    {
+      "date": "Jun 10",
+      "text": "Israeli air strikes hit Lebanese city of Tyre despite Iranian warning to stop attacks.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1pQ2lCMHpqSjhTWFdQZ0dOZ2hBSXoyY1YtV0tiM0NmVVNuQUpNN1hhazFiWUx0MkhCSFNTZF9kNEVxMTNMVlA0cEtGWGR2dnFJRlBVZXk2ZEpMUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 936
+      "latestSinceUpdate": 937
+    },
+    {
+      "date": "Jun 10",
+      "text": "US attacks third tanker near Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE5xSU0yM2JmUzVGX0tJWE80YmNTSEotejdPbWFMSndic3lmRlk4T0lQcGhGS2RLdW55LW9iM3ZydGhUSEtCUUpoTG9qZkpQaWFtdzVWTw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 937
     }
   ],
   "sourceStatuses": [
