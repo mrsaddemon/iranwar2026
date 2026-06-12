@@ -1,13 +1,13 @@
 {
-  "updateSequence": 944,
+  "updateSequence": 945,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T12:34:24.191Z",
+  "lastSyncedAt": "2026-06-12T15:49:32.419Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 100,
-    "summary": "Talks for an interim US-Iran agreement are underway, with Trump claiming a deal is close and strikes cancelled, but Iran denies finalization and active conflict continues."
+    "summary": "Despite claims of progress by the US, Iran states no deal is finalized, and military exchanges continue, indicating no active ceasefire."
   }
 }
