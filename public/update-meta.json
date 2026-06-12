@@ -1,13 +1,13 @@
 {
-  "updateSequence": 946,
+  "updateSequence": 947,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T17:54:27.623Z",
+  "lastSyncedAt": "2026-06-12T20:21:53.804Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 100,
-    "summary": "Despite claims of a peace deal being close or settled, ongoing US strikes and Iran's denial of a finalized agreement indicate a highly fragile and unconfirmed de-escalation."
+    "summary": "No formal ceasefire is in effect, with ongoing military actions by multiple parties."
   }
 }
