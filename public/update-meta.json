@@ -1,13 +1,13 @@
 {
-  "updateSequence": 942,
+  "updateSequence": 943,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T05:21:16.279Z",
+  "lastSyncedAt": "2026-06-12T09:17:16.312Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 100,
-    "summary": "Despite US claims of an imminent peace deal and canceled strikes, Tehran has not confirmed an agreement, and military exchanges between US and Iranian forces persist, alongside ongoing Israeli operations in Lebanon."
+    "summary": "Despite claims of a deal and canceled strikes, active conflict continues between the US and Iran, and Israel and Hezbollah."
   }
 }
