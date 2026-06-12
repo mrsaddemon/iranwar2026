@@ -1,13 +1,13 @@
 {
-  "updateSequence": 941,
+  "updateSequence": 942,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T00:22:55.729Z",
+  "lastSyncedAt": "2026-06-12T05:21:16.279Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
     "status": "fragile",
-    "confidence": 0.2,
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "President Trump claims a settlement with Iran is imminent and has canceled planned strikes, but Iran states no final decision has been made amidst ongoing retaliatory attacks and regional military actions."
+    "summary": "Despite US claims of an imminent peace deal and canceled strikes, Tehran has not confirmed an agreement, and military exchanges between US and Iranian forces persist, alongside ongoing Israeli operations in Lebanon."
   }
 }
