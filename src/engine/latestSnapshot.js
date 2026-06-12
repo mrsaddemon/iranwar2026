@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 945,
+  "updateSequence": 946,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T15:49:32.419Z",
+  "lastSyncedAt": "2026-06-12T17:54:27.623Z",
   "warDay": 105,
-  "summary": "The United States and Iran are engaged in ongoing military exchanges and negotiations, with conflicting reports on the proximity of a peace deal, while Israel conducts strikes in Lebanon.",
+  "summary": "The US conducted retaliatory strikes in Iran following an Apache helicopter incident, while President Trump claimed a peace deal was settled, though Iran stated no agreement was finalized, amidst ongoing Israeli military actions against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-06-12",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "Despite claims of progress by the US, Iran states no deal is finalized, and military exchanges continue, indicating no active ceasefire."
+    "summary": "Despite claims of a peace deal being close or settled, ongoing US strikes and Iran's denial of a finalized agreement indicate a highly fragile and unconfirmed de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 75,
+    "escalationLevel": 70,
+    "oilDisruption": 60,
+    "tradeImpact": 56,
+    "sanctionsPressure": 61,
+    "globalPressure": 74,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 11",
-      "text": "Trump cancels planned strikes and touts progress, Iran says no deal finalized.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1QY0JRWVhUT2wwN2h5ZFRETDRoUktOYngxcTFZVXNLQlIwNTBfN1JBaE9qLXlPT096VF9leUFHOVZMUEx4WnRVT1JscW1fRnlvRU02eFhRODZZY1UyU0pYakFfbWtiWmtPSnppQW9yeE1CSFBRaXdnZElJZGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 945
-    },
-    {
-      "date": "Jun 11",
-      "text": "U.S. Launches Strikes on Iran; Tehran Claims Attacks on U.S. Fleet.",
+      "text": "US conducts retaliatory strikes on multiple targets in Iran after Trump says Iran shot down an Apache helicopter.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNSmVTQlBBU2hybzN1RVMzZUZuU19hbTYtRm5GdW9kUU9Kd19KOThfbUE2aHRyNFU3NnZSS2RjREJUbW14NTZXMEVxNDJNdnlLd1I0SXh4U1JmTlVQRU9GNEhlUkRxRWc4Sm14LUdkWm0yU3dYaU8taVVGYkV0TEFGZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 945
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 946
     },
     {
       "date": "Jun 11",
-      "text": "Proposed Iran-U.S. deal would reopen Hormuz strait and lift oil sanctions, Iran state media says.",
+      "text": "Trump cancels planned strikes, claims Iran war settled 'subject to finalization,' expects signing in 'next few days'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQUjdwVzFuOHR6UGJvVVV3bk4zQ3EwLXBLb3F4Q0FRZUFQSFFlT19jMUtNdWxQRnlqdDE0eEtsU0dLZnFYZHJySVdfUlZBZVJiUTR2X3J2bVF0MUlKeGZFMTl4YWdqRHoxQTFXU1luSE5YWmlpekxZbzhEeVZKTksydExyUXJVMmdWQnVv0gGQAUFVX3lxTE9mRTlPYWh0Tm81cXFmM1BYVk1BanU2RVVCMFJnZFdzV0lTMkVSMnFQZ0NXQmY5Nmhma2JCcm51dDktQndxX0pESnc5d0ZIODdfUUNlN1A1YjBJWjJNZmFKZWpzZlFLLURzdjR6OUkxWXRqVTk5bGsxYXMwV2pFeF94dEJ5Y0dkSDRPM2w1LUJRUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Iran state media (via Google News RSS)",
-      "latestSinceUpdate": 945
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQcVotVXBtSFIzWjE4NGk0ZXRDWGFqbGlENTNETFBsaGJRSmdFLWJBaFZiY2tQMjBjSm4wMXl5azV2emN3OG1kMVk3c21WZUxqanAyTVp4UmZ6UHRSM0FNMl81djVvNm5aWlpDQUliLUxrMU5paVRmSFgwNzNJVXIyRVBvcEl5TnQ2Ml9ESllaM0hIZkJTeU5rR2JFSWFlNEZtSmhPT2JJSTdCdFpSYkNQWdIBtgFBVV95cUxQNDVBLWpPLXZ3Nzh4NDJiMy1Wb2ZxU0NFOGJXUTREYUt1bFpRNmJIZkJrSlNlUmhVVWh6Z3doU0pFX3A2U2ZXbEhOMVpJQ2lZQ25heEJQV2Y3b29zZ3U5cHNqblhPbXdJMllxUVJ2b1VsanRQV1R5U1h2NXItTWs1RjJmRVk3TThWTERqdXZKam42VUNtVWs5RTJhaEwtbUJFZXRQY2xiYXNCeEsyMWNNRUt2X2FaZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 946
     },
     {
       "date": "Jun 11",
-      "text": "U.S. shoots down Iranian drones; Tehran says no final decision as Trump touts imminent deal.",
+      "text": "Iran denies deal terms, states no deal finalized, and decries a new drone attack.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 946
+    },
+    {
+      "date": "Jun 11",
+      "text": "Pakistan’s PM claims 'final text' of US-Iran deal agreed, signaling progress in peace talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE20gG-AUFVX3lxTE5VXzRrd25NRzg2NGhvSk9uX0txUlUzQmxQZW1fYkMwRkN6bTM2VXFrN2Y5ZXJuOENoaUc3blVybkQ1RWMxYVY3NjJNYWFVQWZOcER6cXowRE5OeHdUNXBxMmh0VFJ5NmNscDNPQU14VGRNWmVGNHZzZ1Q5LThZZGxkcjJ0MVVWQ25XV1ZkeGE3eWlpcG43WW1FX3EzZGJHUkdGYjhMSEZ1aDNfcEoyOG5lak5Fa1YyUzU1aVBjLVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 946
+    },
+    {
+      "date": "Jun 11",
+      "text": "Kuwait closes airspace, and Israel warns of launches from Lebanon after U.S. strikes in Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOVVB6emdrMERVSzlUSHJIalFLQTNhWFYwMEZUeEZhVllLbHVzenQ4UVZlbW1JMEVMdG9ISGNHandJbE05ZUlmSTZORUdqcFlERXFteUtrLWZXdlE4dFJEUmdhU1U3RS1mMzE4czR3QWdnUE9EbXlGWUx1WXdXSktsZk9KOUxuak5zamVYVVdobGRIM1htWFgtZmxXdVc1NWJQdmY2VEdGTXJTNjZzb3FNMWFn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 945
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 946
     },
     {
       "date": "Jun 11",
-      "text": "Israeli strikes kill 12 in Lebanon as Netanyahu urges fight against Hezbollah.",
+      "text": "Israeli strikes kill 12 in Lebanon as Netanyahu urges fight against Hezbollah; IDF poised for offensive.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 945
-    },
-    {
-      "date": "Jun 11",
-      "text": "US and Iran exchange fire after American patrol helicopter downed in Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 945
+      "latestSinceUpdate": 946
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 945,
+  "updateSequence": 946,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T15:49:32.419Z",
+  "lastSyncedAt": "2026-06-12T17:54:27.623Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "Despite claims of progress by the US, Iran states no deal is finalized, and military exchanges continue, indicating no active ceasefire."
+    "summary": "Despite claims of a peace deal being close or settled, ongoing US strikes and Iran's denial of a finalized agreement indicate a highly fragile and unconfirmed de-escalation."
   }
 }
