@@ -1,13 +1,13 @@
 {
-  "updateSequence": 940,
-  "lastUpdated": "2026-06-11",
-  "lastSyncedAt": "2026-06-11T22:53:53.612Z",
-  "warDay": 104,
+  "updateSequence": 941,
+  "lastUpdated": "2026-06-12",
+  "lastSyncedAt": "2026-06-12T00:22:55.729Z",
+  "warDay": 105,
   "ceasefire": {
     "active": false,
     "status": "fragile",
-    "confidence": 0.3,
+    "confidence": 0.2,
     "durationDays": 100,
-    "summary": "President Trump claims an imminent US-Iran settlement, but active exchanges of fire and regional strikes indicate no formal ceasefire is in effect."
+    "summary": "President Trump claims a settlement with Iran is imminent and has canceled planned strikes, but Iran states no final decision has been made amidst ongoing retaliatory attacks and regional military actions."
   }
 }
