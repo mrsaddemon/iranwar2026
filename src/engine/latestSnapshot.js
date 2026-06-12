@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 943,
+  "updateSequence": 944,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T09:17:16.312Z",
+  "lastSyncedAt": "2026-06-12T12:34:24.191Z",
   "warDay": 105,
-  "summary": "Trump claims a deal to end the war with Iran is close and has canceled planned strikes, though Iran states no deal is finalized, amidst ongoing US strikes on Iran and Israeli military actions in Lebanon.",
+  "summary": "Amidst ongoing US-Iran exchanges of fire and Israeli strikes in Lebanon, President Trump claims a peace deal with Iran is close, though Tehran states no agreement has been finalized.",
   "lastNarrativeUpdate": "2026-06-12",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "Despite claims of a deal and canceled strikes, active conflict continues between the US and Iran, and Israel and Hezbollah."
+    "summary": "Talks for an interim US-Iran agreement are underway, with Trump claiming a deal is close and strikes cancelled, but Iran denies finalization and active conflict continues."
   },
   "actorOverrides": {
     "usa": {
@@ -19,12 +19,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
+    "nuclearIndex": 45,
+    "escalationLevel": 88,
+    "oilDisruption": 78,
+    "tradeImpact": 72,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 46
+    "globalPressure": 83,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 11",
-      "text": "Trump cancels planned strikes and claims progress on a deal with Iran.",
+      "text": "Trump cancels planned strikes on Iran, citing a breakthrough in talks to end the war, while Iran states no deal has been finalized.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1QY0JRWVhUT2wwN2h5ZFRETDRoUktOYngxcTFZVXNLQlIwNTBfN1JBaE9qLXlPT096VF9leUFHOVZMUEx4WnRVT1JscW1fRnlvRU02eFhRODZZY1UyU0pYakFfbWtiWmtPSnppQW9yeE1CSFBRaXdnZElJZGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 943
-    },
-    {
-      "date": "Jun 11",
-      "text": "Iran states no deal has been finalized despite Trump's claims.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 943
-    },
-    {
-      "date": "Jun 11",
-      "text": "US launches new strikes on Iran, which retaliates by firing back at Gulf states and Jordan.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPU25kWmtrYVNpdHBud0dxUDhZdUx0OFMyQUxOWER5cXowaW8zWk9pdWNBeWdycUNTTXp4VjlmSWF1UDRzOEpBdl9RRTlYeno2cXBHUEJuVDJaTk05dldzaEwza29fR2I1NmpsZU5JZUlUWjNoWlZUTXFiaFFLYm9oSHR5Ukk4X2s5X193eU5fVm5KWjZmSHBsTnJ2U29JU1lVb3ZtLUZuTUpDNHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 943
+      "latestSinceUpdate": 944
     },
     {
       "date": "Jun 11",
-      "text": "Kuwait closes its airspace; Israel warns of launches from Lebanon after US strikes in Iran.",
-      "severity": "warning",
+      "text": "US says second day of strikes against Iran 'completed' as US bases in the Middle East face a second night of retaliatory Iranian attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOYVRrbUlGa2FOQi1SSnhKZmNKNDh6NURTOFdVSjVHeEpTTVM5b0RyNDQxWnhIaXRwTVRBNEhMY2x4c1EtM1VXYkp5VWp1a1huZV84MEFVb3ZIVEZtSHBRWlVuMXJPNXc5dmdQSnctOGNRckMwNFFheUdWVE9uWmFpdU9fS0lZZmlJd2M0dWoxUlpZNVk1SnZHeVZ3MG41aDZKQ24yQkNueGNEUGN5alJNTjhjUWdFeGZkQ0k0QndwQ21heGxvNXpnTGdCRVA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 944
+    },
+    {
+      "date": "Jun 11",
+      "text": "Kuwait closes airspace, and Israel warns of launches from Lebanon following US strikes in Iran.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 943
+      "latestSinceUpdate": 944
     },
     {
       "date": "Jun 11",
-      "text": "IDF is poised for an offensive against Hezbollah in southern Lebanon; Israeli air strikes hit Tyre, killing 12.",
+      "text": "US and Iran exchange fire after an American patrol helicopter was downed in Hormuz.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 943
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 944
     },
     {
       "date": "Jun 11",
-      "text": "US bases in the Middle East face a second night of retaliatory Iranian attacks.",
+      "text": "Proposed Iran-U.S. deal would reportedly reopen the Hormuz strait and lift oil sanctions, with a signing potentially on Sunday in Geneva.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQUjdwVzFuOHR6UGJvVVV3bk4zQ3EwLXBLb3F4Q0FRZUFQSFFlT19jMUtNdWxQRnlqdDE0eEtsU0dLZnFYZHJySVdfUlZBZVJiUTR2X3J2bVF0MUlKeGZFMTl4YWdqRHoxQTFXU1luSE5YWmlpekxZbzhEeVZKTksydExyUXJVMmdWQnVv0gGQAUFVX3lxTE9mRTlPYWh0Tm81cXFmM1BYVk1BanU2RVVCMFJnZFdzV0lTMkVSMnFQZ0NXQmY5Nmhma2JCcm51dDktQndxX0pESnc5d0ZIODdfUUNlN1A1YjBJWjJNZmFKZWpzZlFLLURzdjR6OUkxWXRqVTk5bGsxYXMwV2pFeF94dEJ5Y0dkSDRPM2w1LUJRUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 944
+    },
+    {
+      "date": "Jun 11",
+      "text": "Israeli strikes kill 12 in Lebanon as Prime Minister Netanyahu urges continued fight against Hezbollah.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 943
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 944
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

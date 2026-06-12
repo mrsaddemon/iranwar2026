@@ -1,13 +1,13 @@
 {
-  "updateSequence": 943,
+  "updateSequence": 944,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T09:17:16.312Z",
+  "lastSyncedAt": "2026-06-12T12:34:24.191Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "Despite claims of a deal and canceled strikes, active conflict continues between the US and Iran, and Israel and Hezbollah."
+    "summary": "Talks for an interim US-Iran agreement are underway, with Trump claiming a deal is close and strikes cancelled, but Iran denies finalization and active conflict continues."
   }
 }
