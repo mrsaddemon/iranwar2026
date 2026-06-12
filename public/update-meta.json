@@ -1,13 +1,13 @@
 {
-  "updateSequence": 947,
+  "updateSequence": 948,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T20:21:53.804Z",
+  "lastSyncedAt": "2026-06-12T22:02:29.487Z",
   "warDay": 105,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 100,
-    "summary": "No formal ceasefire is in effect, with ongoing military actions by multiple parties."
+    "summary": "No formal ceasefire is in effect, though negotiations for a US-Iran deal are ongoing amidst military actions."
   }
 }
