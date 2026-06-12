@@ -1,13 +1,13 @@
 {
-  "updateSequence": 948,
+  "updateSequence": 949,
   "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T22:02:29.487Z",
+  "lastSyncedAt": "2026-06-12T23:26:33.780Z",
   "warDay": 105,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "No formal ceasefire is in effect, though negotiations for a US-Iran deal are ongoing amidst military actions."
+    "summary": "A deal to end fighting between the US and Iran is reportedly close with a 'final text' agreed by some parties, but Iran states no deal is finalized, and regional military actions continue."
   }
 }
