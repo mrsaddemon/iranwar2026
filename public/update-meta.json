@@ -1,13 +1,13 @@
 {
-  "updateSequence": 959,
+  "updateSequence": 960,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T20:55:21.219Z",
+  "lastSyncedAt": "2026-06-13T22:14:37.961Z",
   "warDay": 106,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.85,
     "durationDays": 1,
-    "summary": "A US-Iran deal is announced for Sunday signing, but active conflict persists between Israel and Hezbollah."
+    "summary": "A US-Iran peace deal is expected to be signed on Sunday, leading to a significant de-escalation of direct US-Iran tensions, but is not yet active."
   }
 }
