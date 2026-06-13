@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 950,
+  "updateSequence": 951,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T01:39:12.318Z",
+  "lastSyncedAt": "2026-06-13T06:02:55.888Z",
   "warDay": 106,
-  "summary": "President Trump announced the cancellation of planned strikes against Iran, citing progress towards a deal, though Iran states no agreement has been finalized amidst ongoing regional military activities.",
+  "summary": "Negotiations for a US-Iran peace deal are ongoing with conflicting reports on finalization, while military actions persist in the Strait of Hormuz and Israeli forces conduct strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-06-13",
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.4,
     "durationDays": 100,
-    "summary": "Talks are ongoing for a potential deal, but no ceasefire is active, and regional conflicts persist."
+    "summary": "Despite ongoing peace talks and claims of a deal, active military engagements and conflicting statements indicate no formal ceasefire is currently in effect."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.5
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 75,
-    "oilDisruption": 70,
-    "tradeImpact": 64,
-    "sanctionsPressure": 62,
-    "globalPressure": 77,
+    "nuclearIndex": 75,
+    "escalationLevel": 70,
+    "oilDisruption": 65,
+    "tradeImpact": 59,
+    "sanctionsPressure": 61,
+    "globalPressure": 75,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 11",
-      "text": "Trump cancels planned strikes and touts progress in talks with Iran.",
+      "text": "Reports emerge of a potential US-Iran peace deal, with Pakistan's prime minister stating a 'final text' has been agreed, though Iran says no deal is finalized.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE2?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 951
+    },
+    {
+      "date": "Jun 11",
+      "text": "US President Trump cancels planned strikes but later launches new strikes against Iran, threatening to attack 'very hard,' while also denying Iran's account of deal terms.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1QY0JRWVhUT2wwN2h5ZFRETDRoUktOYngxcTFZVXNLQlIwNTBfN1JBaE9qLXlPT096VF9leUFHOVZMUEx4WnRVT1JscW1fRnlvRU02eFhRODZZY1UyU0pYakFfbWtiWmtPSnppQW9yeE1CSFBRaXdnZElJZGs?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 950
+      "latestSinceUpdate": 951
     },
     {
       "date": "Jun 11",
-      "text": "Iran states no deal has been finalized despite Trump's claims of progress.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 950
+      "text": "The US military downs Iranian attack drones in the Strait of Hormuz amidst ongoing peace deal progress reports and new drone attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNd2hBTFQxWjkyMXEtRmJjQVE1WDNQSDRIRVV3VlpVNEtndngyV3BXdGNweTJUUnN5Q1k2d2YxRWFmc3hDT3N6T2NuamRRc1J5MkpHdU1yUGtkaHhra0NZVG1UR2FSQVlrXzJuOENPWDVrYmloV0poU2s5X283VjZzVmJHUlZsS1JVbFNWTXFOQjRLNU5TSFJDWHltSV9FRW5kYlpHdEV2dnJjd0JBUTdaTlQwX1FBemlOUUVYR1g3bk9oZTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "South China Morning Post",
+      "latestSinceUpdate": 951
     },
     {
       "date": "Jun 11",
-      "text": "Pakistan’s Prime Minister says a 'final text' of a US-Iran deal has been agreed.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE20gG-AUFVX3lxTE5VXzRrd25NRzg2NGhvSk9uX0txUlUzQmxQZW1fYkMwRkN6bTM2VXFrN2Y5ZXJuOENoaUc3blVybkQ1RWMxYVY3NjJNYWFVQWZOcER6cXowRE5OeHdUNXBxMmh0VFJ5NmNscDNPQU14VGRNWmVGNHZzZ1Q5LThZZGxkcjJ0MVVWQ25XV1ZkeGE3eWlpcG43WW1FX3EzZGJHUkdGYjhMSEZ1aDNfcEoyOG5lak5Fa1YyUzU1aVBjLVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 950
-    },
-    {
-      "date": "Jun 11",
-      "text": "US says second day of strikes 'completed', indicating recent military action.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOYVRrbUlGa2FOQi1SSnhKZmNKNDh6NURTOFdVSjVHeEpTTVM5b0RyNDQxWnhIaXRwTVRBNEhMY2x4c1EtM1VXYkp5VWp1a1huZV84MEFVb3ZIVEZtSHBRWlVuMXJPNXc5dmdQSnctOGNRckMwNFFheUdWVE9uWmFpdU9fS0lZZmlJd2M0dWoxUlpZNVk1SnZHeVZ3MG41aDZKQ24yQkNueGNEUGN5alJNTjhjUWdFeGZkQ0k0QndwQ21heGxvNXpnTGdCRVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 950
-    },
-    {
-      "date": "Jun 11",
-      "text": "Kuwait closes airspace and Israel warns of launches from Lebanon following reported U.S. strikes in Iran.",
+      "text": "Kuwait closes its airspace, and Israel warns of launches from Lebanon following US strikes in Iran, as Israeli strikes kill 12 in Lebanon and the IDF prepares for an offensive against Hezbollah.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 950
+      "latestSinceUpdate": 951
     },
     {
       "date": "Jun 11",
-      "text": "Iran warns its 'sword will always hang over Strait of Hormuz' and links reopening to a deal.",
+      "text": "Sources reveal the US military has rushed to prepare a ground mission to capture Iran’s uranium, with plans to secure nuclear materials if a deal is reached, though Trump paused the mission.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 950
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 951
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
