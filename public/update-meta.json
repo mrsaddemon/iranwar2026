@@ -1,13 +1,13 @@
 {
-  "updateSequence": 949,
-  "lastUpdated": "2026-06-12",
-  "lastSyncedAt": "2026-06-12T23:26:33.780Z",
-  "warDay": 105,
+  "updateSequence": 950,
+  "lastUpdated": "2026-06-13",
+  "lastSyncedAt": "2026-06-13T01:39:12.318Z",
+  "warDay": 106,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "A deal to end fighting between the US and Iran is reportedly close with a 'final text' agreed by some parties, but Iran states no deal is finalized, and regional military actions continue."
+    "summary": "Talks are ongoing for a potential deal, but no ceasefire is active, and regional conflicts persist."
   }
 }
