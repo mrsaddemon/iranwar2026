@@ -1,13 +1,13 @@
 {
-  "updateSequence": 956,
+  "updateSequence": 957,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T16:50:57.220Z",
+  "lastSyncedAt": "2026-06-13T18:00:10.645Z",
   "warDay": 106,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 100,
-    "summary": "A claimed Lebanon truce by Iran, including IDF withdrawal, is contradicted by ongoing Israeli strikes, indicating extreme fragility."
+    "durationDays": 1,
+    "summary": "Iran claims a truce in Lebanon is in effect, reportedly including an IDF withdrawal, though regional hostilities persist."
   }
 }

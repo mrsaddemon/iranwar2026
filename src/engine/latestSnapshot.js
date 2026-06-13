@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 956,
+  "updateSequence": 957,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T16:50:57.220Z",
+  "lastSyncedAt": "2026-06-13T18:00:10.645Z",
   "warDay": 106,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-13",
@@ -9,46 +9,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 100,
-    "summary": "A claimed Lebanon truce by Iran, including IDF withdrawal, is contradicted by ongoing Israeli strikes, indicating extreme fragility."
+    "durationDays": 1,
+    "summary": "Iran claims a truce in Lebanon is in effect, reportedly including an IDF withdrawal, though regional hostilities persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.5
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 57,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 12",
-      "text": "US and Iran say an agreement is close, but questions remain regarding a potential deal.",
+      "text": "US and Iran indicate an agreement is close, though questions remain regarding the final text.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 956
+      "sourceName": "CNN",
+      "latestSinceUpdate": 957
     },
     {
       "date": "Jun 12",
-      "text": "Israel carries out air strikes on Lebanon, with reports of 12 fatalities.",
+      "text": "President Trump states he has called off latest threats to strike Iran, citing a breakthrough in talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 957
+    },
+    {
+      "date": "Jun 12",
+      "text": "Israel carries out air strikes on Lebanon, as Iran claims a deal with the US is near.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 956
+      "sourceName": "BBC",
+      "latestSinceUpdate": 957
     },
     {
       "date": "Jun 12",
-      "text": "Kuwait closes its airspace, and Israel warns of potential launches from Lebanon.",
+      "text": "President Trump announces the US-Iran deal will be signed Sunday, with the Strait of Hormuz to reopen immediately.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPOTktdERRTXhHZVNZOXJQeHFzNHZuOFdLWW80UTJ0VGZpaGpQQTFNcHpNX3k4Z3ZiOF90TTVFeUtOTzQwMTg1QkVxNjBCTWc5VXRBbjJzM050QjZ5dnNPVl94Vk1VcUh5dWhkMWc5WHdCOFFpNi1yYk8xT3c0RW9fUGJxRWVTWkxqMWNFSllwQTlJMndiZzVUbHg4cnZUaldJ0gGmAUFVX3lxTFBXcVQ0c0R2UVU0SjE3LXBySDljY3Q4ckZtSGNPV3NzN0JYM1JxbkNxLXVmb2NMTE8wTjV1UmZzNkFxZ0xQeVJtVkRWaFVCbVNiYTNzMDlaQXdkV1RCdmZVRjRjakdhUWhQMVVMYVZsYTBnNVNXMHNxUkE5U3hhVDVLLWQtc1J4YTZWM2I1R1FtcWtzODIyejFVLVI3YkFBcU14dG1YUXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 957
+    },
+    {
+      "date": "Jun 12",
+      "text": "Kuwait closes its airspace, and Israel warns of launches from Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 956
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 957
     },
     {
       "date": "Jun 12",
-      "text": "A tanker was hit by an 'unknown projectile' near Oman.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPc3JyS0owTHNiOXVLejVocXd2Nl82aEtCYUxCa082QWc1MFZkUkNYcnZnbDRCM3owSWhwZ3R1Q1Z0dnptaXZDckhld3pHZUdESFppQU5FNmh2cTBENW1rTnVkenJmOTRScWF5SVB0RDhWMnpkTmhLUmlfd3ZqNWM3c3M1MWNMdlMyVXVyZ0tiQWlkSEF5SjJPazZtc1VnbzVIYmthbmItdGNIMU5faGpQRjAyTHRPUXFvSGF2MVdPVHdRT2VvTVVfWVpsWW83RjZJYzNBclpOQTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 956
-    },
-    {
-      "date": "Jun 11",
-      "text": "Hezbollah drone strikes a military zone in northern Israel; no injuries reported.",
+      "text": "Hezbollah conducts a drone strike on a military zone in northern Israel; no injuries reported.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNZjJQZHBvcHZvbExucVNsS2FNdkRvcEVMaTZMdXduXzhEdi03eEhReDNCUm44Q3ZfV2o5cmR6VENCV0t6RU96QnVOdTVJNVdqZ3hiTkx1RDlOOUJnNUJWT1EzRzFBcDBrVDJWZjdyMk9POFdSOHJkdzZlZ3MtQWtXSG5UbnV6RUQwaDl5M0FuenVSYWpmbjRIY0hXX2RmdHlxVXNmQzZrZWZxVDgtbmd2cWRJNTA0VHBOZGtCdHd0Zmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 956
-    },
-    {
-      "date": "Jun 11",
-      "text": "US military shoots down multiple Iranian drones.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPOTktdERRTXhHZVNZOXJQeHFzNHZuOFdLWW80UTJ0VGZpaGpQQTFNcHpNX3k4Z3ZiOF90TTVFeUtOTzQwMTg1QkVxNjBCTWc5VXRBbjJzM050QjZ5dnNPVl94Vk1VcUh5dWhkMWc5WHdCOFFpNi1yYk8xT3c0RW9fUGJxRWVTWkxqMWNFSllwQTlJMndiZzVUbHg4cnZUaldJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 956
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 957
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
