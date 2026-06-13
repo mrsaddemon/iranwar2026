@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 951,
+  "updateSequence": 952,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T06:02:55.888Z",
+  "lastSyncedAt": "2026-06-13T09:30:15.762Z",
   "warDay": 106,
-  "summary": "Negotiations for a US-Iran peace deal are ongoing with conflicting reports on finalization, while military actions persist in the Strait of Hormuz and Israeli forces conduct strikes in Lebanon.",
+  "summary": "Intense diplomatic efforts are underway for a US-Iran deal to end the war, with reports of an agreement being close, while military actions by the US and Israel against Iranian-backed forces continue, and oil flow through the Strait of Hormuz remains disrupted.",
   "lastNarrativeUpdate": "2026-06-13",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.4,
+    "status": "fragile",
+    "confidence": 0.6,
     "durationDays": 100,
-    "summary": "Despite ongoing peace talks and claims of a deal, active military engagements and conflicting statements indicate no formal ceasefire is currently in effect."
+    "summary": "Intense negotiations suggest a US-Iran deal is close to being finalized, but details are disputed and military actions persist, indicating a fragile path to de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 70,
-    "oilDisruption": 65,
-    "tradeImpact": 59,
-    "sanctionsPressure": 61,
-    "globalPressure": 75,
+    "nuclearIndex": 60,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 11",
-      "text": "Reports emerge of a potential US-Iran peace deal, with Pakistan's prime minister stating a 'final text' has been agreed, though Iran says no deal is finalized.",
+      "date": "Jun 12",
+      "text": "US and Iran say an agreement is close, but questions remain.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE2?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 951
-    },
-    {
-      "date": "Jun 11",
-      "text": "US President Trump cancels planned strikes but later launches new strikes against Iran, threatening to attack 'very hard,' while also denying Iran's account of deal terms.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1QY0JRWVhUT2wwN2h5ZFRETDRoUktOYngxcTFZVXNLQlIwNTBfN1JBaE9qLXlPT096VF9leUFHOVZMUEx4WnRVT1JscW1fRnlvRU02eFhRODZZY1UyU0pYakFfbWtiWmtPSnppQW9yeE1CSFBRaXdnZElJZGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 951
+      "latestSinceUpdate": 952
     },
     {
-      "date": "Jun 11",
-      "text": "The US military downs Iranian attack drones in the Strait of Hormuz amidst ongoing peace deal progress reports and new drone attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNd2hBTFQxWjkyMXEtRmJjQVE1WDNQSDRIRVV3VlpVNEtndngyV3BXdGNweTJUUnN5Q1k2d2YxRWFmc3hDT3N6T2NuamRRc1J5MkpHdU1yUGtkaHhra0NZVG1UR2FSQVlrXzJuOENPWDVrYmloV0poU2s5X283VjZzVmJHUlZsS1JVbFNWTXFOQjRLNU5TSFJDWHltSV9FRW5kYlpHdEV2dnJjd0JBUTdaTlQwX1FBemlOUUVYR1g3bk9oZTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "South China Morning Post",
-      "latestSinceUpdate": 951
+      "date": "Jun 12",
+      "text": "Pakistan's prime minister says US and Iran have agreed to wording of a deal to end their war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxONURwN19GREN0aGJfdmstQ0ZQc0w1eGNHRG5kYW9MWUhjRm55M0gweVdQeHQ0dWlVU2w5dWkxYXJhaW1yMzcxN2pfZnNWNm0xaURoVjAtdlY3SWVhN3lrWXV5STJVdExXTjdMM3pSb0paTUZoU2xBMHJMUVFGelFuQ0tycmlYWURDQVFjbmpjOER4SUp1SWNaeVd2MWFUUFNua1FqSi1XMl9UY2s?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 952
     },
     {
-      "date": "Jun 11",
-      "text": "Kuwait closes its airspace, and Israel warns of launches from Lebanon following US strikes in Iran, as Israeli strikes kill 12 in Lebanon and the IDF prepares for an offensive against Hezbollah.",
-      "severity": "critical",
+      "date": "Jun 12",
+      "text": "Trump denies Iran's account of deal terms and decries new drone attack.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 952
+    },
+    {
+      "date": "Jun 12",
+      "text": "US says second day of strikes 'completed' in Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOYVRrbUlGa2FOQi1SSnhKZmNKNDh6NURTOFdVSjVHeEpTTVM5b0RyNDQxWnhIaXRwTVRBNEhMY2x4c1EtM1VXYkp5VWp1a1huZV84MEFVb3ZIVEZtSHBRWlVuMXJPNXc5dmdQSnctOGNRckMwNFFheUdWVE9uWmFpdU9fS0lZZmlJd2M0dWoxUlpZNVk1SnZHeVZ3MG41aDZKQ24yQkNueGNEUGN5alJNTjhjUWdFeGZkQ0k0QndwQ21heGxvNXpnTGdCRVA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 952
+    },
+    {
+      "date": "Jun 12",
+      "text": "Israeli strikes kill 12 in Lebanon; IDF poised for offensive against Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 952
+    },
+    {
+      "date": "Jun 12",
+      "text": "Kuwait closes airspace, Israel warns of launches from Lebanon after U.S strikes in Iran.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 951
-    },
-    {
-      "date": "Jun 11",
-      "text": "Sources reveal the US military has rushed to prepare a ground mission to capture Iran’s uranium, with plans to secure nuclear materials if a deal is reached, though Trump paused the mission.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 951
+      "latestSinceUpdate": 952
     }
   ],
   "sourceStatuses": [

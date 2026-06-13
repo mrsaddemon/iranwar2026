@@ -1,13 +1,13 @@
 {
-  "updateSequence": 951,
+  "updateSequence": 952,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T06:02:55.888Z",
+  "lastSyncedAt": "2026-06-13T09:30:15.762Z",
   "warDay": 106,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.4,
+    "status": "fragile",
+    "confidence": 0.6,
     "durationDays": 100,
-    "summary": "Despite ongoing peace talks and claims of a deal, active military engagements and conflicting statements indicate no formal ceasefire is currently in effect."
+    "summary": "Intense negotiations suggest a US-Iran deal is close to being finalized, but details are disputed and military actions persist, indicating a fragile path to de-escalation."
   }
 }
