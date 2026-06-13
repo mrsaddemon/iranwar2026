@@ -1,13 +1,13 @@
 {
-  "updateSequence": 958,
+  "updateSequence": 959,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T19:48:21.050Z",
+  "lastSyncedAt": "2026-06-13T20:55:21.219Z",
   "warDay": 106,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Iran claims a truce in Lebanon including IDF withdrawal, but active exchanges of fire between Israel and Hezbollah continue."
+    "summary": "A US-Iran deal is announced for Sunday signing, but active conflict persists between Israel and Hezbollah."
   }
 }
