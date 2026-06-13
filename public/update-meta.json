@@ -1,13 +1,13 @@
 {
-  "updateSequence": 955,
+  "updateSequence": 956,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T15:13:22.127Z",
+  "lastSyncedAt": "2026-06-13T16:50:57.220Z",
   "warDay": 106,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "Reports of a US-Iran deal are circulating, but details are contested and no formal ceasefire is active in the broader conflict."
+    "summary": "A claimed Lebanon truce by Iran, including IDF withdrawal, is contradicted by ongoing Israeli strikes, indicating extreme fragility."
   }
 }
