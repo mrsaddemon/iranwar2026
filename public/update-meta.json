@@ -1,13 +1,13 @@
 {
-  "updateSequence": 953,
+  "updateSequence": 954,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T11:29:05.499Z",
+  "lastSyncedAt": "2026-06-13T13:09:03.314Z",
   "warDay": 106,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.2,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "While a US-Iran deal to end fighting is reportedly close, ongoing Israeli military actions in Lebanon and recent US strikes indicate no broader regional ceasefire is in effect."
+    "summary": "No comprehensive regional ceasefire is currently active, despite diplomatic efforts for a US-Iran deal and claims of a Lebanon truce that appears violated."
   }
 }
