@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 952,
+  "updateSequence": 953,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T09:30:15.762Z",
+  "lastSyncedAt": "2026-06-13T11:29:05.499Z",
   "warDay": 106,
-  "summary": "Intense diplomatic efforts are underway for a US-Iran deal to end the war, with reports of an agreement being close, while military actions by the US and Israel against Iranian-backed forces continue, and oil flow through the Strait of Hormuz remains disrupted.",
+  "summary": "A US-Iran deal to end fighting and reopen the Strait of Hormuz is reportedly close to being signed, even as recent US strikes in Iran and ongoing Israeli military actions in Lebanon maintain regional tensions.",
   "lastNarrativeUpdate": "2026-06-13",
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.6,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 100,
-    "summary": "Intense negotiations suggest a US-Iran deal is close to being finalized, but details are disputed and military actions persist, indicating a fragile path to de-escalation."
+    "summary": "While a US-Iran deal to end fighting is reportedly close, ongoing Israeli military actions in Lebanon and recent US strikes indicate no broader regional ceasefire is in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 70,
     "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
+    "oilDisruption": 65,
+    "tradeImpact": 60,
     "sanctionsPressure": 62,
-    "globalPressure": 79,
-    "allianceInfluence": 51
+    "globalPressure": 76,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 12",
-      "text": "US and Iran say an agreement is close, but questions remain.",
+      "text": "US and Iran say an agreement is close, with a deal expected within 24 hours.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 952
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQNFFWVF9EQWtHZGhrdUx4SHB1ZHQ3b05YTEYzODVmbXRqV2J0ODBsN1hQSDVzbFJqNEw2Z3BPLVZjRnVkYmtOR1BLVno2bUtxR3hELWl4ZnlhbklQejJzRnRiZkh3RmREcWZ6U09zWEIyenFST2JmODNvdmppeURLRVk4M2VMZDQ4b0RWamtPSzBmbHBJZk5RVjdmcDVNTHNzemNQMG5ZUkJQS0xMb1JUWkxGa1B1eVh2anRtdm5VOG7SAcYBQVVfeXFMUEhRTVF3c2tEUFNmSWhpSTVHYV9lQXo2ZHpTRU9yXzBhbGozam4xd1VyUW16Y2N1a3lwYzFabkV4X1ZKZFk0LXRvNXh6R2MxUktrVHNmNktxYWVjNjN5X3JkaDFiME1xWWRKT09UREw2eGJ0RTA5MzdNdEVYajNlTlRCaENwRTY5czFBeVQza2lqVG13LXR0WXZya2lZYmhmclV4R21jLVU4b1dCeW9WS2hFalk1VjdudS0wa0NVbkVWd1ZyRmlR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 953
     },
     {
       "date": "Jun 12",
-      "text": "Pakistan's prime minister says US and Iran have agreed to wording of a deal to end their war.",
+      "text": "Trump calls off latest threats to strike Iran, citing a breakthrough in talks to end the war.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxONURwN19GREN0aGJfdmstQ0ZQc0w1eGNHRG5kYW9MWUhjRm55M0gweVdQeHQ0dWlVU2w5dWkxYXJhaW1yMzcxN2pfZnNWNm0xaURoVjAtdlY3SWVhN3lrWXV5STJVdExXTjdMM3pSb0paTUZoU2xBMHJMUVFGelFuQ0tycmlYWURDQVFjbmpjOER4SUp1SWNaeVd2MWFUUFNua1FqSi1XMl9UY2s?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 952
+      "latestSinceUpdate": 953
     },
     {
       "date": "Jun 12",
-      "text": "Trump denies Iran's account of deal terms and decries new drone attack.",
-      "severity": "warning",
+      "text": "U.S. Launches New Strikes After Trump Threatens to Attack Iran 'Very Hard'.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 952
-    },
-    {
-      "date": "Jun 12",
-      "text": "US says second day of strikes 'completed' in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOYVRrbUlGa2FOQi1SSnhKZmNKNDh6NURTOFdVSjVHeEpTTVM5b0RyNDQxWnhIaXRwTVRBNEhMY2x4c1EtM1VXYkp5VWp1a1huZV84MEFVb3ZIVEZtSHBRWlVuMXJPNXc5dmdQSnctOGNRckMwNFFheUdWVE9uWmFpdU9fS0lZZmlJd2M0dWoxUlpZNVk1SnZHeVZ3MG41aDZKQ24yQkNueGNEUGN5alJNTjhjUWdFeGZkQ0k0QndwQ21heGxvNXpnTGdCRVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 952
-    },
-    {
-      "date": "Jun 12",
-      "text": "Israeli strikes kill 12 in Lebanon; IDF poised for offensive against Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 952
+      "latestSinceUpdate": 953
     },
     {
       "date": "Jun 12",
       "text": "Kuwait closes airspace, Israel warns of launches from Lebanon after U.S strikes in Iran.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
       "latestSinceUpdate": 952
+    },
+    {
+      "date": "Jun 12",
+      "text": "Pakistan’s PM says ‘final text’ of US-Iran deal agreed, with Iran holding ‘final’ deliberations.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE20gG-AUFVX3lxTE5VXzRrd25NRzg2NGhvSk9uX0txUlUzQmxQZW1fYkMwRkN6bTM2VXFrN2Y5ZXJuOENoaUc3blVybkQ1RWMxYVY3NjJNYWFVQWZOcER6cXowRE5OeHdUNXBxMmh0VFJ5NmNscDNPQU14VGRNWmVGNHZzZ1Q5LThZZGxkcjJ0MVVWQ25XV1ZkeGE3eWlpcG43WW1FX3EzZGJHUkdGYjhMSEZ1aDNfcEoyOG5lak5Fa1YyUzU1aVBjLVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 953
+    },
+    {
+      "date": "Jun 12",
+      "text": "Iran states a deal to end fighting would lead to the reopening of the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 953
     }
   ],
   "sourceStatuses": [

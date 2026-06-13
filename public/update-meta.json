@@ -1,13 +1,13 @@
 {
-  "updateSequence": 952,
+  "updateSequence": 953,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T09:30:15.762Z",
+  "lastSyncedAt": "2026-06-13T11:29:05.499Z",
   "warDay": 106,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.6,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 100,
-    "summary": "Intense negotiations suggest a US-Iran deal is close to being finalized, but details are disputed and military actions persist, indicating a fragile path to de-escalation."
+    "summary": "While a US-Iran deal to end fighting is reportedly close, ongoing Israeli military actions in Lebanon and recent US strikes indicate no broader regional ceasefire is in effect."
   }
 }
