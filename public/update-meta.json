@@ -1,13 +1,13 @@
 {
-  "updateSequence": 960,
+  "updateSequence": 961,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T22:14:37.961Z",
+  "lastSyncedAt": "2026-06-13T23:34:50.266Z",
   "warDay": 106,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.85,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A US-Iran peace deal is expected to be signed on Sunday, leading to a significant de-escalation of direct US-Iran tensions, but is not yet active."
+    "summary": "A US-Iran deal is expected to be signed Sunday, potentially including a Lebanon truce, but active Israeli-Hezbollah clashes continue."
   }
 }
