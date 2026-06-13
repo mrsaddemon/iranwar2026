@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 954,
+  "updateSequence": 955,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T13:09:03.314Z",
+  "lastSyncedAt": "2026-06-13T15:13:22.127Z",
   "warDay": 106,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-13",
@@ -10,33 +10,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "No comprehensive regional ceasefire is currently active, despite diplomatic efforts for a US-Iran deal and claims of a Lebanon truce that appears violated."
+    "summary": "Reports of a US-Iran deal are circulating, but details are contested and no formal ceasefire is active in the broader conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.3
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.6
       }
     }
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 58,
     "escalationLevel": 38,
-    "oilDisruption": 65,
-    "tradeImpact": 38,
+    "oilDisruption": 70,
+    "tradeImpact": 41,
     "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "globalPressure": 53,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 12",
-      "text": "US and Iran indicate an agreement is close, with a deal expected within 24 hours.",
+      "text": "US and Iran reportedly close to a deal to end their war, with Pakistan mediating.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQNFFWVF9EQWtHZGhrdUx4SHB1ZHQ3b05YTEYzODVmbXRqV2J0ODBsN1hQSDVzbFJqNEw2Z3BPLVZjRnVkYmtOR1BLVno2bUtxR3hELWl4ZnlhbklQejJzRnRiZkh3RmREcWZ6U09zWEIyenFST2JmODNvdmppeURLRVk4M2VMZDQ4b0RWamtPSzBmbHBJZk5RVjdmcDVNTHNzemNQMG5ZUkJQS0xMb1JUWkxGa1B1eVh2anRtdm5VOG7SAcYBQVVfeXFMUEhRTVF3c2tEUFNmSWhpSTVHYV9lQXo2ZHpTRU9yXzBhbGozam4xd1VyUW16Y2N1a3lwYzFabkV4X1ZKZFk0LXRvNXh6R2MxUktrVHNmNktxYWVjNjN5X3JkaDFiME1xWWRKT09UREw2eGJ0RTA5MzdNdEVYajNlTlRCaENwRTY5czFBeVQza2lqVG13LXR0WXZya2lZYmhmclV4R21jLVU4b1dCeW9WS2hFalk1VjdudS0wa0NVbkVWd1ZyRmlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 954
-    },
-    {
-      "date": "Jun 12",
-      "text": "Trump calls off latest threats to strike Iran, citing a breakthrough in talks to end the war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 953
-    },
-    {
-      "date": "Jun 12",
-      "text": "U.S. Launches New Strikes after Trump threatened to attack Iran 'Very Hard'.",
-      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 954
+      "latestSinceUpdate": 955
     },
     {
       "date": "Jun 12",
-      "text": "Kuwait closes airspace; Israel warns of launches from Lebanon following U.S. strikes in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE5JRzk3dDJ5dEFyWGw2dGY2Z0hxUy12c29QVElKMUxxNUYzeVdMVXBiWm9vZUlxYzBzakpMOGsyMVhLZ2p1WnByX2dkVWVwNi1uNmt2UWZwdU5ZaG90Vm9DQWs5OGhUSWtfdGlYTjU2TVA3d9IBd0FVX3lxTE1MeFk0ZWNVVUM5X2xWaVRCN1IyVDFxMjcwWERtUjlXWS10UmFMdVBpMlZ4akhDSWRBR09QVjA4SjBUX0VhVnl6YTMtOFdwVEd6Q1R5S2tVSmJQZ1c4YlNCTXIxemM5Z2w1RWljYl9zQ21EWFc0bGxN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 954
-    },
-    {
-      "date": "Jun 12",
-      "text": "Tanker hit by 'unknown projectile' near Oman, raising concerns about maritime security.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 954
-    },
-    {
-      "date": "Jun 12",
-      "text": "Israeli strikes kill 12 in Lebanon as Netanyahu urges fight against Hezbollah.",
+      "text": "Israel carries out air strikes on Lebanon, killing 12, and warns of launches from Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 954
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 955
+    },
+    {
+      "date": "Jun 12",
+      "text": "Kuwait closes airspace following reported US strikes in Iran, though Trump later 'cancels strikes'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQcVotVXBtSFIzWjE4NGk0ZXRDWGFqbGlENTNETFBsaGJRSmdFLWJBaFZiY2tQMjBjSm4wMXl5azV2emN3OG1kMVk3c21WZUxqanAyTVp4UmZ6UHRSM0FNMl81djVvNm5aWlpDQUliLUxrMU5paVRmSFgwNzNJVXIyRVBvcEl5TnQ2Ml9ESllaM0hIZkJTeU5rR2JFSWFlNEZtSmhPT2JJSTdCdFpSYkNQWdIBtgFBVV95cUxQNDVBLWpPLXZ3Nzh4NDJiMy1Wb2ZxU0NFOGJXUTREYUt1bFpRNmJIZkJrSlNlUmhVVWh6Z3doU0pFX3A2U2ZXbEhOMVpJQ2lZQ25heEJQV2Y3b29zZ3U5cHNqblhPbXdJMllxUVJ2b1VsanRQV1R5U1h2NXItTWs1RjJmRVk3TThWTERqdXZKam42VUNtVWs5RTJhaEwtbUJFZXRQY2xiYXNCeEsyMWNNRUt2X2FaZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 955
+    },
+    {
+      "date": "Jun 12",
+      "text": "Tanker hit by 'unknown projectile' near Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPc3JyS0owTHNiOXVLejVocXd2Nl82aEtCYUxCa082QWc1MFZkUkNYcnZnbDRCM3owSWhwZ3R1Q1Z0dnptaXZDckhld3pHZUdESFppQU5FNmh2cTBENW1rTnVkenJmOTRScWF5SVB0RDhWMnpkTmhLUmlfd3ZqNWM3c3M1MWNMdlMyVXVyZ0tiQWlkSEF5SjJPazZtc1VnbzVIYmthbmItdGNIMU5faGpQRjAyTHRPUXFvSGF2MVdPVHdRT2VvTVVfWVpsWW83RjZJYzNBclpOQTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 955
+    },
+    {
+      "date": "Jun 12",
+      "text": "US military downs Iranian attack drones.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxOWXZFVFVpaWpJR2d1WDM0eklhWVF4SjllZ1RkdXVvTmY4N1VySzRQd3k5TGdHdGQtQ0RnLUthcXRQakdxcUtxejFSblFLWlRQODhIaUtKN2dGcUpDX01LTVdERXJ3WnFMckRwWS1qSjdQaUxCVThCMzExOXNHcl8yM3oyX3ZmdnlITEJsUjl6RGpaZFp5NjlZdFNKcmRLUEF1MXY2ZkhrdTlvZ0lpODZaR2RyT0ozYUhRdUFJaWg5TVkxb0pmM0htTE5LLUVmM0pOcHRLWGVndmJGNGJ4UWpWc1oyaXFRUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 955
+    },
+    {
+      "date": "Jun 12",
+      "text": "IDF poised for offensive against Hezbollah in southern Lebanon city.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxOc3JWYzF6eUdPVFpYLWktcXZfaXkxNGFUSFVsd2VEM0hqRzhLSk9MeURQeEktUko4aVFyd0UtbnJtdzRvUS1pc09tUm5HUkRaSm8wd3VJLUlQUVM3MWt2aVBRdUxQdHNGaXpncGZkNC1JcE5CWFluemlKbzhnX3paNXR3VGNyVEY1WGJDbGZQUkVwUXd0aFFfajVEWktqR3RmbTlvYUVKX0pTRmdzaFZIQTRSaWx1dlFNQmQwRmpGbmdyckxZNlhvTHJNR0tYWHfSAdQBQVVfeXFMTXpWN1JMOTVERFlESHFEVGNmdVo0M1UxZGFhdWFoUGVPcjZZRno0ckN4aG5ueDVidVZiQkNZblBMQmZCQkl6N3p4QVJpa3JacFRndVUyRGJpNmFLXzBzelhkYjh1Y1VEcmYzbDdTbURkckRic1VrNnBUd3hnRDJfUzh2dllNTnNCOXBqTGJTNHZIUDN2MzBCRGtxMXhGWFRINUNjQWE2Zk1SazNBZXhoZ1dPV1VDWWdfcFlzRm9iSHhrU2ZCRFBPM2NBa01HZlJKNnRJYnU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 955
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 954,
+  "updateSequence": 955,
   "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T13:09:03.314Z",
+  "lastSyncedAt": "2026-06-13T15:13:22.127Z",
   "warDay": 106,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "No comprehensive regional ceasefire is currently active, despite diplomatic efforts for a US-Iran deal and claims of a Lebanon truce that appears violated."
+    "summary": "Reports of a US-Iran deal are circulating, but details are contested and no formal ceasefire is active in the broader conflict."
   }
 }
