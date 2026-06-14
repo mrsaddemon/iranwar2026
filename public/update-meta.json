@@ -1,13 +1,13 @@
 {
-  "updateSequence": 963,
+  "updateSequence": 964,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T06:51:09.911Z",
+  "lastSyncedAt": "2026-06-14T10:16:34.463Z",
   "warDay": 107,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "No general ceasefire is active, though a broader peace deal between the US and Iran is reportedly close to being signed, while Israel continues operations in Lebanon."
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.6,
+    "durationDays": 100,
+    "summary": "A US-Iran peace deal is reportedly close to agreement, but Tehran has not yet made a final decision, maintaining a fragile status amidst ongoing regional tensions."
   }
 }
