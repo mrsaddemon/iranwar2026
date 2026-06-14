@@ -1,13 +1,13 @@
 {
-  "updateSequence": 965,
+  "updateSequence": 966,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T12:17:14.538Z",
+  "lastSyncedAt": "2026-06-14T14:32:52.576Z",
   "warDay": 107,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.4,
     "durationDays": 100,
-    "summary": "A ceasefire appears to have been breached by Israeli strikes in Beirut, complicating efforts for a broader US-Iran peace agreement."
+    "summary": "Despite claims of an imminent peace deal, active hostilities continue between Israel and Hezbollah, and Iran has threatened retaliation."
   }
 }
