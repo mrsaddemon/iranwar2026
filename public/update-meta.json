@@ -1,13 +1,13 @@
 {
-  "updateSequence": 962,
+  "updateSequence": 963,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T01:58:03.282Z",
+  "lastSyncedAt": "2026-06-14T06:51:09.911Z",
   "warDay": 107,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No general ceasefire is active, with Israel and Hezbollah trading fire and Israeli strikes ongoing in Lebanon."
+    "summary": "No general ceasefire is active, though a broader peace deal between the US and Iran is reportedly close to being signed, while Israel continues operations in Lebanon."
   }
 }
