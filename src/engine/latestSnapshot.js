@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 964,
+  "updateSequence": 965,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T10:16:34.463Z",
+  "lastSyncedAt": "2026-06-14T12:17:14.538Z",
   "warDay": 107,
-  "summary": "Negotiations for a US-Iran peace deal are reportedly nearing completion, with conflicting reports on the final agreement status, while Israel continues air strikes in Lebanon against Hezbollah.",
+  "summary": "Intense diplomatic efforts for a US-Iran peace deal are underway, with President Trump announcing an imminent signing, but these efforts are complicated by ongoing Israeli strikes in Beirut and alleged breaches of a ceasefire.",
   "lastNarrativeUpdate": "2026-06-14",
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.6,
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A US-Iran peace deal is reportedly close to agreement, but Tehran has not yet made a final decision, maintaining a fragile status amidst ongoing regional tensions."
+    "summary": "A ceasefire appears to have been breached by Israeli strikes in Beirut, complicating efforts for a broader US-Iran peace agreement."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.85,
+        "aggression": 0.45
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.78,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.3
+        "precision": 0.65,
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 60,
-    "oilDisruption": 70,
-    "tradeImpact": 61,
-    "sanctionsPressure": 60,
-    "globalPressure": 72,
+    "nuclearIndex": 55,
+    "escalationLevel": 48,
+    "oilDisruption": 65,
+    "tradeImpact": 47,
+    "sanctionsPressure": 54,
+    "globalPressure": 61,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 13",
-      "text": "US and Iran say an agreement is close, but questions remain regarding timing and final decision.",
+      "date": "Jun 12",
+      "text": "US and Iran indicate a peace agreement is close, though questions persist.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 964
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 965
     },
     {
-      "date": "Jun 13",
-      "text": "Trump claims a US-Iran deal will be signed today or Sunday, while Tehran disputes the timing and states no final decision has been made.",
+      "date": "Jun 14",
+      "text": "President Trump announces a US-Iran peace deal will be signed today, aiming to end the war and reopen the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 964
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPWTAtYmdwOFNBWk16QTlHalVyck5LZ2hCTVZibE5URlFTTGRJVklOdFVHaFI5eWwxNlVBd3p2a2trNXY3YzlGbDRjcFBaN2JJN3hUczZGbHQtNklsTzMxeWZ0c3VTd2RRM2lVS0xySGhpQ3BxNWxuZUdjU0hxZ2o3TzI1UDBKUGhSWXFacmtCaGJFd21uazNKbnQzT01jVlBfV2ZpQjVqbnZTcTRMaUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "USA Today",
+      "latestSinceUpdate": 965
     },
     {
-      "date": "Jun 13",
-      "text": "Pakistan's Prime Minister states that a 'final text' of the US-Iran deal has been agreed upon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE20gG-AUFVX3lxTE5VXzRrd25NRzg2NGhvSk9uX0txUlUzQmxQZW1fYkMwRkN6bTM2VXFrN2Y5ZXJuOENoaUc3blVybkQ1RWMxYVY3NjJNYWFVQWZOcER6cXowRE5OeHdUNXBxMmh0VFJ5NmNscDNPQU14VGRNWmVGNHZzZ1Q5LThZZGxkcjJ0MVVWQ25XV1ZkeGE3eWlpcG43WW1FX3EzZGJHUkdGYjhMSEZ1aDNfcEoyOG5lak5Fa1YyUzU1aVBjLVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 964
+      "date": "Jun 14",
+      "text": "Israel conducts military strikes against Hezbollah targets in Beirut's southern suburbs.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQM1ZSMHdVR0RXSjFrUkp3dFVfMlYzVlBjQjNVRUdNYVZhRzNBNzJtcHdmYklfaTFmYlgyZnI3MS1vSzYtcHRHdUgtSXh2aVpzUzFlQ0RJdWJIRmJnV3FmZG9FaTlUS0MyQWtVUW8zZDc4LWxWV0lkcDJ1NzNCdjhYUUR6d1dYOXZKblkwaUFRLWRiZzdsU1dKbUdDMlg3Wk5leXN0eQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 965
     },
     {
-      "date": "Jun 13",
-      "text": "Israel carries out air strikes in Lebanon, killing at least 12 and issuing forced displacement orders, as Netanyahu urges fight against Hezbollah.",
+      "date": "Jun 14",
+      "text": "Reports indicate Israeli strikes in Beirut constitute a breach of ceasefire, potentially jeopardizing the US-Iran peace deal.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 964
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeTFjb29FQW5uNkFDeUEyTnQwVGlaMExjT2UwS3l1RHNmWmZLX3ExWjVEMVF2TVZ4alRaWUdidk5ZdEVjb3FoTWhnYWlqLVBNNGlpc0FZRkU3QWJCVVFtYXlZZ1BEei01RUlUbktGUFA3QU5zNUhkWGFrNFhnd1hfc0gwOFYyZXB6M2Y2c29YbVlSNVNyWWQ4ZGM2Yk5YWXo0TXZQT3hwc3RYRnpSa3BmMjhZYnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 965
     },
     {
-      "date": "Jun 13",
-      "text": "Hezbollah launched three projectiles towards northern Israel, according to the Israeli military.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNb0dtcHdBNDdCYXg2eGVXYTJ5MGlRQ0ZVM1I2UnN3MTlXZEh0eHA5QmJNMGQxMF9fbHFQVnBkMzVNbW1CY003X0l3TFFSX1VrZVBzSl95QVRjZFVkdmZ3VENOR21xM2xLbTdnbHY3ZkNSMkgwTHl5WVJuRXhoNEQwQ29BM1RGNkxab3FIbFAyQ3V0bWwxalcxX1BtRkZ1NmVfWFN1dm9HbVd1RHoxTW5qN2JkN0dWWEhxSFBrdVJuYmJlNFNZdE80ag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 964
+      "date": "Jun 14",
+      "text": "Two fatalities are reported in Lebanon following Israeli strikes, amidst rising prospects for Gulf calm due to a draft US-Iran agreement.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi4AFBVV95cUxPLS1IZVk3eURBVDFLeUtlOGFKTnUtTE9HQTlZVFRkS3Vyc1VjVHNoQjEwSDBnT0xPQXBsQWZoS1JoeV9Ub09XNVpTRFhmODkxYktDMVV3OUR2VFY1MDBUYWJTZFhJUWpiUTNER1EwRE9XTHJVa0ZMOWhBUmRCOFRhVnFnZjhadENaSmJvMFF3QjFUaUZreFNvQ2dqdjhFTkVTM3dNUFF2VlNVZ2RsNHctZW5XamgwYzVHZ3dFYlQwazdLMkJvWjNCbnJnREhVWGxxRkVMMHNvUU5NcVdhR2o5dNIB5gFBVV95cUxNUUplUWE5cmhEc0lfMkQtcjRzVzgtWGVkeEpWcEhlcG1xZy1Ec2djMElTM3FDb0FtcFNoY3BkQ0VpMl9GTHY2V1FmNnloTUdSU2FrSGRHZE1JMHdCUzUxZ1UtOXlyQXpVdmJaNG1Oa0NLcnVkQWZwS0hfWUloX0xRU2I2R1NRSTAxcHJRdVBNcnFJUFdkblZXbVlCOEloRXFBYl9NZVUySDBHaGRfTzc4QmdsSGx3MkRySTlkeUlmOUp3SklfZHBNZ1lRMzY2djhUZDVreWdfTWhVLUFMZlVjVXVrTUhadw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Firstpost",
+      "latestSinceUpdate": 965
     },
     {
-      "date": "Jun 13",
-      "text": "US military reportedly prepared for a ground mission to capture Iran’s uranium, but Trump paused it.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 964
+      "date": "Jun 14",
+      "text": "An Iranian official states Tehran agrees not to produce or acquire nuclear weapons under the draft peace deal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPc3JyS0owTHNiOXVLejVocXd2Nl82aEtCYUxCa082QWc1MFZkUkNYcnZnbDRCM3owSWhwZ3R1Q1Z0dnptaXZDckhld3pHZUdESFppQU5FNmh2cTBENW1rTnVkenJmOTRScWF5SVB0RDhWMnpkTmhLUmlfd3ZqNWM3c3M1MWNMdlMyVXVyZ0tiQWlkSEF5SjJPazZtc1VnbzVIYmthbmItdGNIMU5faGpQRjAyTHRPUXFvSGF2MVdPVHdRT2VvTVVfWVpsWW83RjZJYzNBclpOQTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 965
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

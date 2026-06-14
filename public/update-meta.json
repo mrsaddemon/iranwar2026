@@ -1,13 +1,13 @@
 {
-  "updateSequence": 964,
+  "updateSequence": 965,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T10:16:34.463Z",
+  "lastSyncedAt": "2026-06-14T12:17:14.538Z",
   "warDay": 107,
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.6,
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A US-Iran peace deal is reportedly close to agreement, but Tehran has not yet made a final decision, maintaining a fragile status amidst ongoing regional tensions."
+    "summary": "A ceasefire appears to have been breached by Israeli strikes in Beirut, complicating efforts for a broader US-Iran peace agreement."
   }
 }
