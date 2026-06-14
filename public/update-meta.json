@@ -1,13 +1,13 @@
 {
-  "updateSequence": 969,
+  "updateSequence": 970,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T19:02:08.123Z",
+  "lastSyncedAt": "2026-06-14T20:23:24.470Z",
   "warDay": 107,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 100,
-    "summary": "A potential US-Iran peace deal is under negotiation, but its status is fragile due to recent Israeli strikes and Iranian threats of response."
+    "summary": "An emerging US-Iran peace deal is in a fragile state, threatened by recent Israeli strikes in Beirut and Iran's warnings of retaliation."
   }
 }
