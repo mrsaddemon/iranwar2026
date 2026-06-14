@@ -1,13 +1,13 @@
 {
-  "updateSequence": 967,
+  "updateSequence": 968,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T16:07:54.105Z",
+  "lastSyncedAt": "2026-06-14T17:51:55.932Z",
   "warDay": 107,
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.3,
+    "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A potential US-Iran peace deal is under negotiation, with a signing anticipated by Trump, but its status is fragile due to Israeli strikes and Iranian caution."
+    "summary": "An emerging US-Iran peace deal is in question due to recent Israeli strikes, despite US efforts to secure an agreement."
   }
 }
