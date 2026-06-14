@@ -1,13 +1,13 @@
 {
-  "updateSequence": 966,
+  "updateSequence": 967,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T14:32:52.576Z",
+  "lastSyncedAt": "2026-06-14T16:07:54.105Z",
   "warDay": 107,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.4,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "Despite claims of an imminent peace deal, active hostilities continue between Israel and Hezbollah, and Iran has threatened retaliation."
+    "summary": "A potential US-Iran peace deal is under negotiation, with a signing anticipated by Trump, but its status is fragile due to Israeli strikes and Iranian caution."
   }
 }

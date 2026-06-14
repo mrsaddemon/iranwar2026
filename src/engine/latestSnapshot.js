@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 966,
+  "updateSequence": 967,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T14:32:52.576Z",
+  "lastSyncedAt": "2026-06-14T16:07:54.105Z",
   "warDay": 107,
-  "summary": "Despite US President Trump's announcement of an imminent peace deal with Iran, Israel conducted air strikes on Beirut, leading to Iranian threats of retaliation.",
+  "summary": "Negotiations for a US-Iran peace deal are ongoing, with President Trump announcing a Sunday signing, while Israel's strikes on Beirut suburbs threaten to derail the agreement amidst Iran's caution.",
   "lastNarrativeUpdate": "2026-06-14",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.4,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 100,
-    "summary": "Despite claims of an imminent peace deal, active hostilities continue between Israel and Hezbollah, and Iran has threatened retaliation."
+    "summary": "A potential US-Iran peace deal is under negotiation, with a signing anticipated by Trump, but its status is fragile due to Israeli strikes and Iranian caution."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.5
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 59,
     "sanctionsPressure": 61,
     "globalPressure": 75,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 12",
-      "text": "US President Trump announced that a peace deal with Iran would be signed today or Sunday, aiming to reopen the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxPOTktdERRTXhHZVNZOXJQeHFzNHZuOFdLWW80UTJ0VGZpaGpQQTFNcHpNX3k4Z3ZiOF90TTVFeUtOTzQwMTg1QkVxNjBCTWc5VXRBbjJzM050QjZ5dnNPVl94Vk1VcUh5dWhkMWc5WHdCOFFpNi1yYk8xT3c0RW9fUGJxRWVTWkxqMWNFSllwQTlJMndiZzVUbHg4cnZUaldJ0gGmAUFVX3lxTFBXcVQ0c0R2UVU0SjE3LXBySDljY3Q4ckZtSGNPV3NzN0JYM1JxbkNxLXVmb2NMTE8wTjV1UmZzNkFxZ0xQeVJtVkRWaFVCbVNiYTNzMDlaQXdkV1RCdmZVRjRjakdhUWhQMVVMYVZsYTBnNVNXMHNxUkE5U3hhVDVLLWQtc1J4YTZWM2I1R1FtcWtzODIyejFVLVI3YkFBcU14dG1YUXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 966
-    },
-    {
-      "date": "Jun 12",
-      "text": "Israel carried out air strikes on southern Beirut, reportedly targeting Hezbollah and killing at least two people, citing Hezbollah drones.",
+      "text": "Israel attacked southern Beirut, killing at least three people, citing Hezbollah drones.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 966
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQOVpQanNKWGRXX2lLcXQySlpYZnc1R3VrdGp0MWpDUk1kRE85RnZGU01wZ1h1YlozNm1pWDdZZGc4SnJMd0tCWTI0Mzl1VnV3ZW5RUkhGUW5OZFR3aFo5d25sZU1wcmVfXzJjUVFBajAzZDR2emlQak1OU0RJSVA5VXJud3J1bGdhZkNmektidzA4WjRxVjg1WFhFQUR5aTBMdFV3Z1poY3MtLTNGcUM5Q0dGbGHSAboBQVVfeXFMUEhiTEZDaXU3UXVyaXBpNjNPNUpYUHJSMk1ISzd1eFh2NTFaajhDQWl5THJnUVFEQWZfd0kzOUZMTUFQRmlDc1c1a1ZPY1RxandhcTN6YVdzX3FUdkRDTnh0QXo5RjhWeE9Od2dndHdnYnN4Vm9sLWVQVUlCbXJXMkRybHlmM1lXRy1Od0ZRbFZ6LXJ1UGh2NWN2VXhhRjRIUkdLd3lRemRSV1lSblFzQTF0RHdDMkxKUWd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 967
     },
     {
       "date": "Jun 12",
-      "text": "An Iranian army official stated that the Beirut attack would not go 'unanswered,' while an Iranian negotiator suggested it could undermine peace talks.",
+      "text": "President Trump stated a deal to end the Iran war would be signed Sunday, despite Iran's disagreement on timing and caution.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5ZMkJzclp6eXBUU1dnMDVfRWZnYTBSNVRiSEhFZFVyU2RpdGVIa3JDeXNkRXhoN1ZQcklLU3dSN3RVOHBQQk1NQ253SFZiV0VxRHJ3OTQzM3NRYS1FVm56M1FUOUdjM2ZxYzJhdXhEcHBqT2taV3UwY3p3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 967
+    },
+    {
+      "date": "Jun 12",
+      "text": "Iran warned that Israel's Beirut strike could derail the ongoing U.S. peace deal talks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPc3JyS0owTHNiOXVLejVocXd2Nl82aEtCYUxCa082QWc1MFZkUkNYcnZnbDRCM3owSWhwZ3R1Q1Z0dnptaXZDckhld3pHZUdESFppQU5FNmh2cTBENW1rTnVkenJmOTRScWF5SVB0RDhWMnpkTmhLUmlfd3ZqNWM3c3M1MWNMdlMyVXVyZ0tiQWlkSEF5SjJPazZtc1VnbzVIYmthbmItdGNIMU5faGpQRjAyTHRPUXFvSGF2MVdPVHdRT2VvTVVfWVpsWW83RjZJYzNBclpOQTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 966
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 967
     },
     {
       "date": "Recent",
-      "text": "The US military reportedly prepared for a ground mission to capture Iran’s uranium but Trump paused it.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 966
-    },
-    {
-      "date": "Recent",
-      "text": "The US military reported downing Iranian attack drones.",
+      "text": "The US military downed Iranian attack drones.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxOWXZFVFVpaWpJR2d1WDM0eklhWVF4SjllZ1RkdXVvTmY4N1VySzRQd3k5TGdHdGQtQ0RnLUthcXRQakdxcUtxejFSblFLWlRQODhIaUtKN2dGcUpDX01LTVdERXJ3WnFMckRwWS1qSjdQaUxCVThCMzExOXNHcl8yM3oyX3ZmdnlITEJsUjl6RGpaZFp5NjlZdFNKcmRLUEF1MXY2ZkhrdTlvZ0lpODZaR2RyT0ozYUhRdUFJaWg5TVkxb0pmM0htTE5LLUVmM0pOcHRLWGVndmJGNGJ4UWpWc1oyaXFRUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 966
+      "latestSinceUpdate": 967
+    },
+    {
+      "date": "Recent",
+      "text": "An exclusive report revealed the US military prepared a ground mission to capture Iran’s uranium, which Trump subsequently paused.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 967
+    },
+    {
+      "date": "Ongoing",
+      "text": "Satellite images indicate more than 50 Iranian military bases have been damaged in US strikes since the start of the war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5wXzRnSGZYakdxem5yWWkyRWthWG1ydHJzakd6Ri1IY09ZcG1GOEN2OWhUXzBIM0NXOVBaUEFDYnVMRXhfVG01blVWTF8zeVlHMnp5QVY3S2stZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 967
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
