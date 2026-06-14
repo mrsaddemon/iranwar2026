@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 971,
+  "updateSequence": 972,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T21:53:29.392Z",
+  "lastSyncedAt": "2026-06-14T23:20:13.608Z",
   "warDay": 107,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-14",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.8,
+    "status": "fragile",
+    "confidence": 0.6,
     "durationDays": 3,
-    "summary": "A US-Iran peace deal is reported as complete and will be signed Sunday, leading to the reopening of the Strait of Hormuz, despite recent Israeli strikes in Beirut."
+    "summary": "A peace deal between the U.S. and Iran has been announced, aiming for a permanent end to military action, but its stability is immediately threatened by Israeli strikes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.3
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.3
+        "precision": 0.5,
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 30,
-    "oilDisruption": 10,
-    "tradeImpact": 0,
-    "sanctionsPressure": 48,
-    "globalPressure": 40,
-    "allianceInfluence": 51
+    "nuclearIndex": 55,
+    "escalationLevel": 45,
+    "oilDisruption": 20,
+    "tradeImpact": 15,
+    "sanctionsPressure": 54,
+    "globalPressure": 52,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 12",
-      "text": "Pakistan announces US-Iran ceasefire 'now in place'.",
+      "date": "Jun 13",
+      "text": "Iran Update Special Report published.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPZ21WcHlHLVY0anVsTDZyZDM4Y1ZVd3RLN0NjM1o0ZnRub1JDWFpTejlyZ29IOVZadzBlR0hfZnFmNDFoWno3Q25WTV92Y1hjb0xQaEZ5VXdCLXJiOTlTMUdhUGcxdWNZUGNmSWU1QmNqMEt5dmJzS2h2Wmxlc2Y4b2pRbUlyVGlUc3ZtZmxKbWxDbW5i?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 972
+    },
+    {
+      "date": "Jun 12",
+      "text": "U.S. and Iran confirm a 'peace deal' is in place, with Trump announcing an end to the war and the reopening of the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 971
+      "latestSinceUpdate": 972
     },
     {
       "date": "Jun 12",
-      "text": "US and Iran state an agreement is close, but questions remain.",
+      "text": "U.S. crude oil falls nearly 5% following the announcement of the U.S.-Iran deal and the reopening of the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNdDFKTnBkSnVBZkNqUDEtZVJlVHJnLWJ4b1lYSzBDTy1ONlE2R2pPSEZvRFBGd1NJU3RuYlB2SjMxSEJoaEtlcS1XY25udmhFRTk1S3d2dG00VU1tVjJLcGdaaXVpWGdvTGMyZWxQZEhJQU5QWlZUQlhLVFpubm5zV25fMTIyZ1XSAYwBQVVfeXFMUEdNYTJLQlJUYUFfMWVlZWZzRE1zc0pIbV9VRWNOVktYS0o2LXpKT3RwZVp3RVpqT0dpTU1ZOS1rd1lDck5Fc0EzNm84OUJmVEZmU0lxbEF4bzRocHkwTHpRbEZldjFhRGNNaUFGYl83MTZBQk45RGs2VWJHQlR5TktKRjh2ZG1iR2VHdzY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 972
+    },
+    {
+      "date": "Jun 12",
+      "text": "Israeli military strikes Hezbollah targets in Beirut, killing at least three, raising questions about the U.S.-Iran peace deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaZVE2UC11VHhpR2ZqaHlpQ2M4dlBxc1VPX2M1ekdRRXN6blAzcXdHbE5EV2JOYkkyU2lpWmRNeEgzYVVsd0tIYmthcTg3Z1FnSFppSEZnWVB0UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 972
+    },
+    {
+      "date": "Jun 12",
+      "text": "U.S. military reportedly rushed to prepare a ground mission to capture Iran’s uranium, but Trump paused it, with plans to secure nuclear materials if a deal is reached.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 971
-    },
-    {
-      "date": "Jun 12",
-      "text": "Israel strikes Hezbollah targets in Beirut suburbs, killing at least three.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 971
-    },
-    {
-      "date": "Jun 12",
-      "text": "Trump condemns Israeli strike in Beirut, warning attacks threaten the US-Iran deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5ZMkJzclp6eXBUU1dnMDVfRWZnYTBSNVRiSEhFZFVyU2RpdGVIa3JDeXNkRXhoN1ZQcklLU3dSN3RVOHBQQk1NQ253SFZiV0VxRHJ3OTQzM3NRYS1FVm56M1FUOUdjM2ZxYzJhdXhEcHBqT2taV3UwY3p3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 971
-    },
-    {
-      "date": "Jun 12",
-      "text": "Trump says US-Iran deal is complete and authorizes removal of Navy blockade of Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE1lN3kxUnRDcG5rNVdsdGtnSDE3dWZuZVhlVWp2N2dkM0VZeGNDX0dXSmdtdFRjUFBEWEdRelktYmRUU25tUmFjUEVqWnQ2Z21iRzlIbjFrSl9fS3FSMVRWNDluOWdCQTRuWTZEOFBNQms2WG1wNkRQRWpoZlJGUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 971
-    },
-    {
-      "date": "Jun 14",
-      "text": "US military making plans to secure Iran's nuclear materials if a deal is reached.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB4cWZMcjNVMnRkWlJ6eGlEV3ZndVBtRFZadXg1aUxUYnNpZGdZb3hrZGJzS0FYVzFRUkRUT0wyLW40Q3ktN3lhUG1mcm9KOEU0ZTZ2RVNOZmFWRDc2RHhMOWUwQWt2SWJqWjdIOThNbkkxUFRGMzhid3p5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 971
+      "latestSinceUpdate": 972
     }
   ],
   "sourceStatuses": [
