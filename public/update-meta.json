@@ -1,13 +1,13 @@
 {
-  "updateSequence": 961,
-  "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T23:34:50.266Z",
-  "warDay": 106,
+  "updateSequence": 962,
+  "lastUpdated": "2026-06-14",
+  "lastSyncedAt": "2026-06-14T01:58:03.282Z",
+  "warDay": 107,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A US-Iran deal is expected to be signed Sunday, potentially including a Lebanon truce, but active Israeli-Hezbollah clashes continue."
+    "summary": "No general ceasefire is active, with Israel and Hezbollah trading fire and Israeli strikes ongoing in Lebanon."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 961,
-  "lastUpdated": "2026-06-13",
-  "lastSyncedAt": "2026-06-13T23:34:50.266Z",
-  "warDay": 106,
+  "updateSequence": 962,
+  "lastUpdated": "2026-06-14",
+  "lastSyncedAt": "2026-06-14T01:58:03.282Z",
+  "warDay": 107,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-13",
+  "lastNarrativeUpdate": "2026-06-14",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A US-Iran deal is expected to be signed Sunday, potentially including a Lebanon truce, but active Israeli-Hezbollah clashes continue."
+    "summary": "No general ceasefire is active, with Israel and Hezbollah trading fire and Israeli strikes ongoing in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.3
+        "precision": 0.9,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.4
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 40,
-    "oilDisruption": 20,
-    "tradeImpact": 14,
-    "sanctionsPressure": 53,
-    "globalPressure": 51,
+    "nuclearIndex": 50,
+    "escalationLevel": 38,
+    "oilDisruption": 75,
+    "tradeImpact": 45,
+    "sanctionsPressure": 49,
+    "globalPressure": 54,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 12",
-      "text": "US and Iran announce an agreement is close, with a deal expected to be signed on Sunday.",
+      "text": "US and Iran indicate an agreement is close, with Trump stating a deal will be signed on Sunday.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQNFFWVF9EQWtHZGhrdUx4SHB1ZHQ3b05YTEYzODVmbXRqV2J0ODBsN1hQSDVzbFJqNEw2Z3BPLVZjRnVkYmtOR1BLVno2bUtxR3hELWl4ZnlhbklQejJzRnRiZkh3RmREcWZ6U09zWEIyenFST2JmODNvdmppeURLRVk4M2VMZDQ4b0RWamtPSzBmbHBJZk5RVjdmcDVNTHNzemNQMG5ZUkJQS0xMb1JUWkxGa1B1eVh2anRtdm5VOG7SAcYBQVVfeXFMUEhRTVF3c2tEUFNmSWhpSTVHYV9lQXo2ZHpTRU9yXzBhbGozam4xd1VyUW16Y2N1a3lwYzFabkV4X1ZKZFk0LXRvNXh6R2MxUktrVHNmNktxYWVjNjN5X3JkaDFiME1xWWRKT09UREw2eGJ0RTA5MzdNdEVYajNlTlRCaENwRTY5czFBeVQza2lqVG13LXR0WXZya2lZYmhmclV4R21jLVU4b1dCeW9WS2hFalk1VjdudS0wa0NVbkVWd1ZyRmlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 961
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQNFZSbW9DSkM5aHNlTzFIU1JHSUlULU5OVjkwTFkwMDRjRFBTUnEtSHFWWVVGUDV1TEFOT0dSc3JWSkhXYk9nYlhmNkZPeWROZGd0b1U2YnFUYnRSOVk3dnN1LWlWems0VE9GVjh4aFFuTDBkOC1ybWdWRlZIZGlFdk5IYkNITmVnNE91ZW00VkkySlpSZEU5S3hmZGFHQ3BfTmx0RERuN1JzWUJjamNQQ09VZlhscXFzMy1wVXBJVUVEUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 962
     },
     {
       "date": "Jun 12",
-      "text": "Trump retracts previous threats of strikes against Iran, citing a breakthrough in talks to end the war.",
+      "text": "Trump calls off latest threats to strike Iran, citing a breakthrough in talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 961
+      "latestSinceUpdate": 962
     },
     {
       "date": "Jun 12",
-      "text": "Israel carries out air strikes on Lebanon, reportedly killing 12, as Netanyahu urges continued fight against Hezbollah.",
-      "severity": "warning",
+      "text": "Israel carries out air strikes on Lebanon, killing 12, as Netanyahu urges fight against Hezbollah.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQMjJkdEg0d3BTbzVnTzZIaVQzR1UzRUtFRnRTOHhUd1FWQUFjdWVFODdtYWlCNWdCNkJ5VFRKQm5XVEFSWlRWckFkUkJPMjd0NkFYY1Bmd0FKc1RrLU0zRlFvYUR5ZlFfRzcydFNWQ1FVdHZNVmhUNUVpd2liTll4eDZRLVlLNXZuUU1FVFdfTzI5UHdBMXhCTE5PbjVDaVROUDRUa0E3eWJUUE5CalU4SlpwUkxCTmtCVVhpUUVCM1FSUThu?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 961
+      "latestSinceUpdate": 962
     },
     {
       "date": "Jun 12",
-      "text": "US military reportedly prepared for a ground mission to capture Iran’s uranium, but Trump paused it.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 961
+      "text": "IDF is preparing to stop a potential Lebanon ground advance amid the pending US-Iran deal.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 962
     },
     {
       "date": "Jun 12",
-      "text": "Pakistan’s PM states that a 'final text' of the US-Iran deal has been agreed upon.",
+      "text": "US military is making plans to secure Iran's nuclear materials if a deal is reached.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE20gG-AUFVX3lxTE5VXzRrd25NRzg2NGhvSk9uX0txUlUzQmxQZW1fYkMwRkN6bTM2VXFrN2Y5ZXJuOENoaUc3blVybkQ1RWMxYVY3NjJNYWFVQWZOcER6cXowRE5OeHdUNXBxMmh0VFJ5NmNscDNPQU14VGRNWmVGNHZzZ1Q5LThZZGxkcjJ0MVVWQ25XV1ZkeGE3eWlpcG43WW1FX3EzZGJHUkdGYjhMSEZ1aDNfcEoyOG5lak5Fa1YyUzU1aVBjLVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 961
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB4cWZMcjNVMnRkWlJ6eGlEV3ZndVBtRFZadXg1aUxUYnNpZGdZb3hrZGJzS0FYVzFRUkRUT0wyLW40Q3ktN3lhUG1mcm9KOEU0ZTZ2RVNOZmFWRDc2RHhMOWUwQWt2SWJqWjdIOThNbkkxUFRGMzhid3p5TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 962
+    },
+    {
+      "date": "Jun 12",
+      "text": "US forces shoot down Iranian attack drones.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOLVpqblpRT0R6RGd1RUJmVjhfQi12S3JhbUJwM2dsM2hVSGRtMy02UkZYZTdseUI4YzRyMEFzOGpqNTdiRGkwdVB2R0oyX0otZDFQXzhENzYyVnpvMnNVUWZ4U0N5MzZETmp0OG5RcmdfWGV5elVlZktyeXVObThKNUlIa1N2dUtTdDUweGxwV0ZDeC1QeW9rd3p5RWhVVFRRRVdLYTJhQ2JxbnFt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 962
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -131,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Administration",
-      "headline": "Trump Touts Deal Progress, Cancels Strikes",
-      "summary": "President Trump claims significant progress in talks with Iran, leading to the cancellation of planned strikes and signaling a potential de-escalation of direct conflict. This narrative emphasizes diplomatic breakthroughs.",
+      "perspective": "US/Trump Administration",
+      "headline": "US-Iran Deal Imminent, Peace Prospects Rise",
+      "summary": "The US administration is optimistic about an impending peace deal with Iran, with President Trump announcing it will be signed on Sunday and that planned strikes have been called off. This agreement is expected to lead to de-escalation and the reopening of the Strait of Hormuz.",
       "tone": "neutral",
-      "latestSinceUpdate": 950
+      "latestSinceUpdate": 962
     },
     {
-      "perspective": "Iranian Stance",
-      "headline": "Iran Denies Deal Finalized, Warns on Hormuz",
-      "summary": "Iran acknowledges ongoing negotiations but denies a deal is finalized, maintaining a defiant posture regarding the Strait of Hormuz and leveraging Lebanon as a strategic asset. This perspective highlights caution and continued leverage.",
-      "tone": "defiant",
-      "latestSinceUpdate": 950
+      "perspective": "Iran",
+      "headline": "Cautious Optimism on US Deal, Claims Lebanon Truce",
+      "summary": "Iran acknowledges progress on a deal with the US but remains cautious on the exact timing of its signing. Concurrently, Iran claims a truce in Lebanon that includes an IDF withdrawal, despite ongoing Israeli military actions.",
+      "tone": "strained",
+      "latestSinceUpdate": 962
     },
     {
-      "perspective": "Regional Conflict",
-      "headline": "Israel Escalates Against Hezbollah Amidst Talks",
-      "summary": "Israel continues military action against Hezbollah in Lebanon, with the IDF poised for further offensives, indicating persistent regional tensions despite US-Iran diplomatic efforts. This narrative focuses on ongoing localized conflict.",
+      "perspective": "Israel",
+      "headline": "Concerns Over Iran Deal Amid Continued Lebanon Strikes",
+      "summary": "Israeli officials express concern that an emerging US-Iran deal could strengthen the Iranian regime and Hezbollah, potentially undermining regional security. Israel continues to carry out air strikes in Lebanon and is preparing for a potential ground advance against Hezbollah.",
       "tone": "anxious",
-      "latestSinceUpdate": 950
+      "latestSinceUpdate": 962
     },
     {
-      "perspective": "International Mediation",
-      "headline": "Pakistan Claims US-Iran Deal Text Agreed",
-      "summary": "Pakistan's Prime Minister asserts that a 'final text' of a US-Iran deal has been reached, suggesting international efforts to broker an agreement are advancing. This perspective offers a more optimistic view of the diplomatic process.",
-      "tone": "neutral",
-      "latestSinceUpdate": 950
+      "perspective": "Economic/Energy",
+      "headline": "Strait of Hormuz Disruption Persists, Impacts Oil Flow",
+      "summary": "Despite US efforts, the Strait of Hormuz continues to experience disruptions, with little oil flowing through the critical waterway. This ongoing turmoil is cited as a factor contributing to high gas prices, with political blame being assigned.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 962
     }
   ]
 });
