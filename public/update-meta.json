@@ -1,13 +1,13 @@
 {
-  "updateSequence": 970,
+  "updateSequence": 971,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T20:23:24.470Z",
+  "lastSyncedAt": "2026-06-14T21:53:29.392Z",
   "warDay": 107,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 100,
-    "summary": "An emerging US-Iran peace deal is in a fragile state, threatened by recent Israeli strikes in Beirut and Iran's warnings of retaliation."
+    "status": "active",
+    "confidence": 0.8,
+    "durationDays": 3,
+    "summary": "A US-Iran peace deal is reported as complete and will be signed Sunday, leading to the reopening of the Strait of Hormuz, despite recent Israeli strikes in Beirut."
   }
 }
