@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 968,
+  "updateSequence": 969,
   "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T17:51:55.932Z",
+  "lastSyncedAt": "2026-06-14T19:02:08.123Z",
   "warDay": 107,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-14",
@@ -10,45 +10,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "An emerging US-Iran peace deal is in question due to recent Israeli strikes, despite US efforts to secure an agreement."
+    "summary": "A potential US-Iran peace deal is under negotiation, but its status is fragile due to recent Israeli strikes and Iranian threats of response."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
     "oilDisruption": 70,
     "tradeImpact": 51,
     "sanctionsPressure": 54,
     "globalPressure": 62,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 13",
-      "text": "US and Iran officials are reportedly near agreement on a peace deal, with a virtual signing planned.",
+      "text": "Trump states US-Iran deal is 'so close' and urges calm in Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 969
+    },
+    {
+      "date": "Jun 13",
+      "text": "Trump calls for restraint after Israel strikes Beirut suburbs.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 969
+    },
+    {
+      "date": "Jun 13",
+      "text": "US and Iran are reportedly near an agreement, with officials planning a virtual signing.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1KUG9TR2l1U0VzcHNOR29kN3Z3RjJVWUJhNnVrS2ZfR0ZJNi1yZEtSZDJuUExGY0cyYTY5QlBxdnluRmdwU0NkQ1FJMWpOVURzeGpiSkZXaTZ2NkRMNFZ0N3ZaT3NGUGVZZ1dWR2N0YUE2bDRhRTBJ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 968
+      "latestSinceUpdate": 969
     },
     {
       "date": "Jun 13",
-      "text": "Israel conducted strikes in Beirut suburbs, killing at least three and escalating fighting with Hezbollah.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 968
+      "text": "Trump condemns Israel’s attack on Beirut, reiterating that the Iran deal is still close.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOQnJYQUE1TmpueVh2ZVVxTHowTXd4UmQ4WERoVjluLTk3MGR6MFl5NEVSZElvNXBodzJKQUxBV1J4OHF5Si1RUDVyN05ORFRudEVnNnVCSVNLSmtpd1RJc0JyYlBRaHZibU9KS1ZmdlJjdVdjYkxqS1ZqVDBWbkQ1VGhLbm1vU0pRVkhGOTVWYkZxM0QwbzhyeDYwcDJCNVpnX2EyeTYxNlNZUdIBrwFBVV95cUxOTXBSa0FvY2J4alVHZHJPbjlQNDctbnVjbTZsc2Ytb0dPY1NpUnB4SHkxOEhHQ0JlUkttMXlUZy1fbG5ERkROa2RDRHYwSTBKTzRQSmp2cVM0V3JIOG8xcWNYcnBHeFg1QTMzd1Jld20tZGp1TkdrOTVucVMyWHhIME5Wc1oweTBqX2hpYWFqSE1rei1EVGF2QXdYelBqT2JpanNFQU5QU0RRZWFrTWFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 969
     },
     {
       "date": "Jun 13",
-      "text": "Trump urged calm and condemned Israeli strikes, warning against jeopardizing the emerging US-Iran peace deal.",
+      "text": "U.S. peace deal with Iran is in question as Israel strikes Lebanon, with Trump warning not to 'blow it'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 968
+      "latestSinceUpdate": 969
     },
     {
-      "date": "Recent",
-      "text": "US military says it downed Iranian attack drones.",
+      "date": "Jun 13",
+      "text": "Trump faults Israel's Beirut strike and urges a stand-down as Iran threatens the deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxOWXZFVFVpaWpJR2d1WDM0eklhWVF4SjllZ1RkdXVvTmY4N1VySzRQd3k5TGdHdGQtQ0RnLUthcXRQakdxcUtxejFSblFLWlRQODhIaUtKN2dGcUpDX01LTVdERXJ3WnFMckRwWS1qSjdQaUxCVThCMzExOXNHcl8yM3oyX3ZmdnlITEJsUjl6RGpaZFp5NjlZdFNKcmRLUEF1MXY2ZkhrdTlvZ0lpODZaR2RyT0ozYUhRdUFJaWg5TVkxb0pmM0htTE5LLUVmM0pOcHRLWGVndmJGNGJ4UWpWc1oyaXFRUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 968
-    },
-    {
-      "date": "Recent",
-      "text": "Satellite images show more than 50 Iranian military bases damaged in US strikes since the start of the war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5wXzRnSGZYakdxem5yWWkyRWthWG1ydHJzakd6Ri1IY09ZcG1GOEN2OWhUXzBIM0NXOVBaUEFDYnVMRXhfVG01blVWTF8zeVlHMnp5QVY3S2stZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 968
-    },
-    {
-      "date": "Recent",
-      "text": "US military rushed to prepare a ground mission to capture Iran’s uranium, but Trump paused it.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 968
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 969
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
