@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 976,
+  "updateSequence": 977,
   "lastUpdated": "2026-06-15",
-  "lastSyncedAt": "2026-06-15T18:10:38.584Z",
+  "lastSyncedAt": "2026-06-15T21:25:35.670Z",
   "warDay": 108,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.6,
     "durationDays": 1,
-    "summary": "A tentative ceasefire between the U.S. and Iran is in effect, but its stability is threatened by ongoing Israeli-Hezbollah hostilities."
+    "summary": "A tentative agreement to end the US-Iran war and reopen the Strait of Hormuz has been reached, but ongoing Israeli-Hezbollah conflict threatens its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.3
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.3
+        "precision": 0.5,
+        "aggression": 0.4
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 30,
-    "tradeImpact": 22,
+    "oilDisruption": 20,
+    "tradeImpact": 15,
     "sanctionsPressure": 54,
-    "globalPressure": 55,
+    "globalPressure": 53,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "U.S. and Iran reach an initial deal to end the war and open the Strait of Hormuz.",
+      "text": "U.S. and Iran reach framework agreement for peace, including reopening the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNXzBOb0pzYUExM1g5aXo2ZDlTU0RJQllLdjNxUTZMQjViWEJFWjlTRTN0N1pQeHBaVUYwN2E1Rkw4dl8zQTBQQ1dDMDhUWnEyRzZMLThDNkYyd2s4S2ctNGx2RXphTjlkTDU5OHRtMTFEV1RjNy1tUS1YZE5tZ3VPR0ItaXJ0YXBOMWlnalNiUXFYUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": null,
       "sourceName": "Google News",
-      "latestSinceUpdate": 976
+      "latestSinceUpdate": 977
     },
     {
       "date": "Jun 15",
-      "text": "Israeli military strikes Hezbollah targets in Beirut's southern suburbs.",
+      "text": "Trump claims the Strait of Hormuz will be 'permanently toll-free' under the agreement.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 977
+    },
+    {
+      "date": "Jun 15",
+      "text": "Israeli military strikes Hezbollah targets in Beirut, killing senior commander Ali Musa Daqduq.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNb0dtcHdBNDdCYXg2eGVXYTJ5MGlRQ0ZVM1I2UnN3MTlXZEh0eHA5QmJNMGQxMF9fbHFQVnBkMzVNbW1CY003X0l3TFFSX1VrZVBzSl95QVRjZFVkdmZ3VENOR21xM2xLbTdnbHY3ZkNSMkgwTHl5WVJuRXhoNEQwQ29BM1RGNkxab3FIbFAyQ3V0bWwxalcxX1BtRkZ1NmVfWFN1dm9HbVd1RHoxTW5qN2JkN0dWWEhxSFBrdVJuYmJlNFNZdE80ag?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaZVE2UC11VHhpR2ZqaHlpQ2M4dlBxc1VPX2M1ekdRRXN6blAzcXdHbE5EV2JOYkkyU2lpWmRNeEgzYVVsd0tIYmthcTg3Z1FnSFppSEZnWVB0UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 976
+      "latestSinceUpdate": 977
     },
     {
       "date": "Jun 15",
-      "text": "Trump faults Israel's Beirut strike and warns against jeopardizing the U.S.-Iran deal.",
+      "text": "Trump faults Israel's Beirut strike and urges a stand-down, warning against jeopardizing the US-Iran deal.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 976
+      "latestSinceUpdate": 977
     },
     {
       "date": "Jun 15",
-      "text": "U.S. military downed Iranian attack drones.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxOWXZFVFVpaWpJR2d1WDM0eklhWVF4SjllZ1RkdXVvTmY4N1VySzRQd3k5TGdHdGQtQ0RnLUthcXRQakdxcUtxejFSblFLWlRQODhIaUtKN2dGcUpDX01LTVdERXJ3WnFMckRwWS1qSjdQaUxCVThCMzExOXNHcl8yM3oyX3ZmdnlITEJsUjl6RGpaZFp5NjlZdFNKcmRLUEF1MXY2ZkhrdTlvZ0lpODZaR2RyT0ozYUhRdUFJaWg5TVkxb0pmM0htTE5LLUVmM0pOcHRLWGVndmJGNGJ4UWpWc1oyaXFRUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 976
-    },
-    {
-      "date": "Jun 15",
-      "text": "U.S. military making plans to secure Iran's nuclear materials if a deal is reached.",
+      "text": "U.S. military is making plans to secure Iran's nuclear materials if the deal is reached.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB4cWZMcjNVMnRkWlJ6eGlEV3ZndVBtRFZadXg1aUxUYnNpZGdZb3hrZGJzS0FYVzFRUkRUT0wyLW40Q3ktN3lhUG1mcm9KOEU0ZTZ2RVNOZmFWRDc2RHhMOWUwQWt2SWJqWjdIOThNbkkxUFRGMzhid3p5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 976
+      "latestSinceUpdate": 977
     }
   ],
   "sourceStatuses": [
