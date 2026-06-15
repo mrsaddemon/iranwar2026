@@ -1,13 +1,13 @@
 {
-  "updateSequence": 977,
+  "updateSequence": 978,
   "lastUpdated": "2026-06-15",
-  "lastSyncedAt": "2026-06-15T21:25:35.670Z",
+  "lastSyncedAt": "2026-06-15T23:20:19.877Z",
   "warDay": 108,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 1,
-    "summary": "A tentative agreement to end the US-Iran war and reopen the Strait of Hormuz has been reached, but ongoing Israeli-Hezbollah conflict threatens its stability."
+    "summary": "A tentative agreement between the U.S. and Iran to cease military operations and reopen the Strait of Hormuz is in effect, but its stability is threatened by ongoing Israeli-Hezbollah conflict."
   }
 }
