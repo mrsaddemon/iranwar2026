@@ -1,13 +1,13 @@
 {
-  "updateSequence": 973,
+  "updateSequence": 974,
   "lastUpdated": "2026-06-15",
-  "lastSyncedAt": "2026-06-15T01:42:22.090Z",
+  "lastSyncedAt": "2026-06-15T07:02:23.098Z",
   "warDay": 108,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
+    "confidence": 0.69,
     "durationDays": 3,
-    "summary": "A peace deal between the US and Iran has been reached, but its stability is threatened by ongoing Israeli military actions in Lebanon."
+    "summary": "A peace deal between the U.S. and Iran has been reached, including an immediate end to military operations and the reopening of the Strait of Hormuz, though Israeli strikes in Beirut raise concerns about its stability."
   }
 }
