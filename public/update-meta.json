@@ -1,13 +1,13 @@
 {
-  "updateSequence": 972,
-  "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T23:20:13.608Z",
-  "warDay": 107,
+  "updateSequence": 973,
+  "lastUpdated": "2026-06-15",
+  "lastSyncedAt": "2026-06-15T01:42:22.090Z",
+  "warDay": 108,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 3,
-    "summary": "A peace deal between the U.S. and Iran has been announced, aiming for a permanent end to military action, but its stability is immediately threatened by Israeli strikes in Lebanon."
+    "summary": "A peace deal between the US and Iran has been reached, but its stability is threatened by ongoing Israeli military actions in Lebanon."
   }
 }

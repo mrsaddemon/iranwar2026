@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 972,
-  "lastUpdated": "2026-06-14",
-  "lastSyncedAt": "2026-06-14T23:20:13.608Z",
-  "warDay": 107,
+  "updateSequence": 973,
+  "lastUpdated": "2026-06-15",
+  "lastSyncedAt": "2026-06-15T01:42:22.090Z",
+  "warDay": 108,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-14",
+  "lastNarrativeUpdate": "2026-06-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 3,
-    "summary": "A peace deal between the U.S. and Iran has been announced, aiming for a permanent end to military action, but its stability is immediately threatened by Israeli strikes in Lebanon."
+    "summary": "A peace deal between the US and Iran has been reached, but its stability is threatened by ongoing Israeli military actions in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.3
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 45,
-    "oilDisruption": 20,
-    "tradeImpact": 15,
+    "nuclearIndex": 60,
+    "escalationLevel": 48,
+    "oilDisruption": 30,
+    "tradeImpact": 22,
     "sanctionsPressure": 54,
-    "globalPressure": 52,
-    "allianceInfluence": 46
+    "globalPressure": 55,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,44 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 13",
-      "text": "Iran Update Special Report published.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPZ21WcHlHLVY0anVsTDZyZDM4Y1ZVd3RLN0NjM1o0ZnRub1JDWFpTejlyZ29IOVZadzBlR0hfZnFmNDFoWno3Q25WTV92Y1hjb0xQaEZ5VXdCLXJiOTlTMUdhUGcxdWNZUGNmSWU1QmNqMEt5dmJzS2h2Wmxlc2Y4b2pRbUlyVGlUc3ZtZmxKbWxDbW5i?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 972
-    },
-    {
       "date": "Jun 12",
-      "text": "U.S. and Iran confirm a 'peace deal' is in place, with Trump announcing an end to the war and the reopening of the Strait of Hormuz.",
+      "text": "US and Iran confirm a peace deal is reached, including arrangements for reopening the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 972
+      "latestSinceUpdate": 973
     },
     {
       "date": "Jun 12",
-      "text": "U.S. crude oil falls nearly 5% following the announcement of the U.S.-Iran deal and the reopening of the Strait of Hormuz.",
+      "text": "Crude oil futures drop after Trump promises an Iran deal will be signed Friday, leading to the Strait of Hormuz opening.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNdDFKTnBkSnVBZkNqUDEtZVJlVHJnLWJ4b1lYSzBDTy1ONlE2R2pPSEZvRFBGd1NJU3RuYlB2SjMxSEJoaEtlcS1XY25udmhFRTk1S3d2dG00VU1tVjJLcGdaaXVpWGdvTGMyZWxQZEhJQU5QWlZUQlhLVFpubm5zV25fMTIyZ1XSAYwBQVVfeXFMUEdNYTJLQlJUYUFfMWVlZWZzRE1zc0pIbV9VRWNOVktYS0o2LXpKT3RwZVp3RVpqT0dpTU1ZOS1rd1lDck5Fc0EzNm84OUJmVEZmU0lxbEF4bzRocHkwTHpRbEZldjFhRGNNaUFGYl83MTZBQk45RGs2VWJHQlR5TktKRjh2ZG1iR2VHdzY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 972
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE5haEM4X1FiUnFNQmNfaWRyNDF4Wkt4X1FycGt0UVJYcWdib21PTmk2UlA2R0ZLeUU2Qlo3N3B3WnJJR2x5UkNHc2ZVUW1vTlNCendkNmU2VmFCOVNXaE54SlQ3cnZjcGhUR1UzaXB1QmZHejhqUTRRaC1zOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 973
     },
     {
       "date": "Jun 12",
-      "text": "Israeli military strikes Hezbollah targets in Beirut, killing at least three, raising questions about the U.S.-Iran peace deal.",
+      "text": "Israel strikes Beirut suburbs, with military saying Hezbollah targets were hit and at least three killed.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQOVpQanNKWGRXX2lLcXQySlpYZnc1R3VrdGp0MWpDUk1kRE85RnZGU01wZ1h1YlozNm1pWDdZZGc4SnJMd0tCWTI0Mzl1VnV3ZW5RUkhGUW5OZFR3aFo5d25sZU1wcmVfXzJjUVFBajAzZDR2emlQak1OU0RJSVA5VXJud3J1bGdhZkNmektidzA4WjRxVjg1WFhFQUR5aTBMdFV3Z1poY3MtLTNGcUM5Q0dGbGHSAboBQVVfeXFMUEhiTEZDaXU3UXVyaXBpNjNPNUpYUHJSMk1ISzd1eFh2NTFaajhDQWl5THJnUVFEQWZfd0kzOUZMTUFQRmlDc1c1a1ZPY1RxandhcTN6YVdzX3FUdkRDTnh0QXo5RjhWeE9Od2dndHdnYnN4Vm9sLWVQVUlCbXJXMkRybHlmM1lXRy1Od0ZRbFZ6LXJ1UGh2NWN2VXhhRjRIUkdLd3lRemRSV1lSblFzQTF0RHdDMkxKUWd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 973
+    },
+    {
+      "date": "Jun 12",
+      "text": "Trump condemns Israeli strikes in Beirut, warning that attacks threaten the newly reached US-Iran peace deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaZVE2UC11VHhpR2ZqaHlpQ2M4dlBxc1VPX2M1ekdRRXN6blAzcXdHbE5EV2JOYkkyU2lpWmRNeEgzYVVsd0tIYmthcTg3Z1FnSFppSEZnWVB0UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 972
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5ZMkJzclp6eXBUU1dnMDVfRWZnYTBSNVRiSEhFZFVyU2RpdGVIa3JDeXNkRXhoN1ZQcklLU3dSN3RVOHBQQk1NQ253SFZiV0VxRHJ3OTQzM3NRYS1FVm56M1FUOUdjM2ZxYzJhdXhEcHBqT2taV3UwY3p3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 973
     },
     {
-      "date": "Jun 12",
-      "text": "U.S. military reportedly rushed to prepare a ground mission to capture Iran’s uranium, but Trump paused it, with plans to secure nuclear materials if a deal is reached.",
+      "date": "Recent",
+      "text": "US military made plans for a ground mission to secure Iran’s uranium if a deal was reached, but Trump paused it.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOa0V0ay1reHR2RFF3YjFjejU0YVVqSTR6TWNBVTlQb2FJNDFEeGFxeVBHTjFQMTNhQ1hURVBtSXNHZEFUTm1jN0x6YUJlY2Flajd4TGJwTzhLc0tsVllESHJ1T2JNQ0RiQS0tVnFtcUtCRldoV2h3NFByUHhhVWRqR3hZVEE0djlIQkJF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 972
+      "latestSinceUpdate": 973
     }
   ],
   "sourceStatuses": [
@@ -131,32 +131,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Trump Administration",
-      "headline": "US-Iran Deal Imminent, Peace Prospects Rise",
-      "summary": "The US administration is optimistic about an impending peace deal with Iran, with President Trump announcing it will be signed on Sunday and that planned strikes have been called off. This agreement is expected to lead to de-escalation and the reopening of the Strait of Hormuz.",
-      "tone": "neutral",
-      "latestSinceUpdate": 962
-    },
-    {
-      "perspective": "Iran",
-      "headline": "Cautious Optimism on US Deal, Claims Lebanon Truce",
-      "summary": "Iran acknowledges progress on a deal with the US but remains cautious on the exact timing of its signing. Concurrently, Iran claims a truce in Lebanon that includes an IDF withdrawal, despite ongoing Israeli military actions.",
+      "perspective": "US Perspective",
+      "headline": "Deal Secured, Strait Open, Israel Warned",
+      "summary": "The US has successfully brokered a peace deal with Iran, leading to the reopening of the Strait of Hormuz. President Trump has warned Israel against actions that could jeopardize this agreement.",
       "tone": "strained",
-      "latestSinceUpdate": 962
+      "latestSinceUpdate": 973
     },
     {
-      "perspective": "Israel",
-      "headline": "Concerns Over Iran Deal Amid Continued Lebanon Strikes",
-      "summary": "Israeli officials express concern that an emerging US-Iran deal could strengthen the Iranian regime and Hezbollah, potentially undermining regional security. Israel continues to carry out air strikes in Lebanon and is preparing for a potential ground advance against Hezbollah.",
-      "tone": "anxious",
-      "latestSinceUpdate": 962
+      "perspective": "Iranian Perspective",
+      "headline": "Peace Deal Reached, US Responsible for Israeli Aggression",
+      "summary": "Iran confirms a peace deal with the US, including arrangements for the Strait of Hormuz, while holding the US responsible for Israeli strikes in Beirut. Iran asserts its ability to control the Strait.",
+      "tone": "defiant",
+      "latestSinceUpdate": 973
     },
     {
-      "perspective": "Economic/Energy",
-      "headline": "Strait of Hormuz Disruption Persists, Impacts Oil Flow",
-      "summary": "Despite US efforts, the Strait of Hormuz continues to experience disruptions, with little oil flowing through the critical waterway. This ongoing turmoil is cited as a factor contributing to high gas prices, with political blame being assigned.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 962
+      "perspective": "Israeli Perspective",
+      "headline": "Targeting Hezbollah Amid Regional Tensions",
+      "summary": "Israel continues to strike Hezbollah targets in Beirut, asserting its security interests amidst a fragile US-Iran peace agreement. These actions have drawn condemnation from the US.",
+      "tone": "defiant",
+      "latestSinceUpdate": 973
     }
   ]
 });
