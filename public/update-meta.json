@@ -1,13 +1,13 @@
 {
-  "updateSequence": 975,
+  "updateSequence": 976,
   "lastUpdated": "2026-06-15",
-  "lastSyncedAt": "2026-06-15T13:23:00.357Z",
+  "lastSyncedAt": "2026-06-15T18:10:38.584Z",
   "warDay": 108,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
-    "durationDays": 3,
-    "summary": "A tentative deal between the U.S. and Iran to end the war and reopen the Strait of Hormuz is in effect, but its stability is threatened by ongoing Israeli military actions in Lebanon."
+    "confidence": 0.69,
+    "durationDays": 1,
+    "summary": "A tentative ceasefire between the U.S. and Iran is in effect, but its stability is threatened by ongoing Israeli-Hezbollah hostilities."
   }
 }
