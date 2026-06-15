@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 974,
+  "updateSequence": 975,
   "lastUpdated": "2026-06-15",
-  "lastSyncedAt": "2026-06-15T07:02:23.098Z",
+  "lastSyncedAt": "2026-06-15T13:23:00.357Z",
   "warDay": 108,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.6,
     "durationDays": 3,
-    "summary": "A peace deal between the U.S. and Iran has been reached, including an immediate end to military operations and the reopening of the Strait of Hormuz, though Israeli strikes in Beirut raise concerns about its stability."
+    "summary": "A tentative deal between the U.S. and Iran to end the war and reopen the Strait of Hormuz is in effect, but its stability is threatened by ongoing Israeli military actions in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.3
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.2
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 30,
-    "oilDisruption": 15,
-    "tradeImpact": 8,
-    "sanctionsPressure": 55,
-    "globalPressure": 52,
+    "nuclearIndex": 55,
+    "escalationLevel": 40,
+    "oilDisruption": 20,
+    "tradeImpact": 14,
+    "sanctionsPressure": 57,
+    "globalPressure": 57,
     "allianceInfluence": 68
   },
   "alliance": {
@@ -59,50 +59,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 15",
-      "text": "U.S. and Iran confirm a peace deal has been reached, including an immediate end to military operations.",
+      "date": "Jun 14",
+      "text": "U.S. and Iran reach a tentative deal to end the Mideast war and reopen the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 974
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxORjlqRlNIOWFfNUJULW9jVHdCZzlZS0xaUXhuNXVhZDhkUmJveHI0eFh1cGhZM3ZQWFNMRXdkclVzT2k5N05INGJfQVNQSkcyYTRFRy1YbVdLbGxfSnZRQ0NqNTlCUFZaYTlHZFFCR1NQclN2eFhqNlBHSEtwdWoxQWRyN2xMZDhaaG52Q1pJSWJ5NG1LS1lQN0ZhS0d0UllPSjVaOVR2VXAyOHZvVi1JQlNPckVrc2ZMcWJPWW93?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 975
     },
     {
-      "date": "Jun 15",
-      "text": "Trump authorizes the removal of the Navy blockade of the Strait of Hormuz as part of the deal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE1lN3kxUnRDcG5rNVdsdGtnSDE3dWZuZVhlVWp2N2dkM0VZeGNDX0dXSmdtdFRjUFBEWEdRelktYmRUU25tUmFjUEVqWnQ2Z21iRzlIbjFrSl9fS3FSMVRWNDluOWdCQTRuWTZEOFBNQms2WG1wNkRQRWpoZlJGUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 974
-    },
-    {
-      "date": "Jun 15",
-      "text": "Israeli military strikes Hezbollah targets in Beirut suburbs, escalating fighting with the group.",
+      "date": "Jun 14",
+      "text": "Israeli military strikes Hezbollah targets in Beirut suburbs, killing at least three.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaZVE2UC11VHhpR2ZqaHlpQ2M4dlBxc1VPX2M1ekdRRXN6blAzcXdHbE5EV2JOYkkyU2lpWmRNeEgzYVVsd0tIYmthcTg3Z1FnSFppSEZnWVB0UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 974
+      "latestSinceUpdate": 975
     },
     {
-      "date": "Jun 15",
-      "text": "Trump condemns Israeli strikes in Beirut, warning they threaten the newly reached U.S.-Iran peace deal.",
+      "date": "Jun 14",
+      "text": "Trump calls for restraint from Israel, warning against actions that could jeopardize the U.S.-Iran deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5ZMkJzclp6eXBUU1dnMDVfRWZnYTBSNVRiSEhFZFVyU2RpdGVIa3JDeXNkRXhoN1ZQcklLU3dSN3RVOHBQQk1NQ253SFZiV0VxRHJ3OTQzM3NRYS1FVm56M1FUOUdjM2ZxYzJhdXhEcHBqT2taV3UwY3p3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 974
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 975
     },
     {
-      "date": "Jun 15",
-      "text": "U.S. military making plans to secure Iran's nuclear materials if the deal is reached.",
+      "date": "Jun 14",
+      "text": "U.S. military prepared plans to secure Iran's nuclear materials if a deal is reached, but Trump paused the ground mission.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB4cWZMcjNVMnRkWlJ6eGlEV3ZndVBtRFZadXg1aUxUYnNpZGdZb3hrZGJzS0FYVzFRUkRUT0wyLW40Q3ktN3lhUG1mcm9KOEU0ZTZ2RVNOZmFWRDc2RHhMOWUwQWt2SWJqWjdIOThNbkkxUFRGMzhid3p5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 974
+      "latestSinceUpdate": 975
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
