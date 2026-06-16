@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 978,
-  "lastUpdated": "2026-06-15",
-  "lastSyncedAt": "2026-06-15T23:20:19.877Z",
-  "warDay": 108,
+  "updateSequence": 979,
+  "lastUpdated": "2026-06-16",
+  "lastSyncedAt": "2026-06-16T02:01:31.461Z",
+  "warDay": 109,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-15",
+  "lastNarrativeUpdate": "2026-06-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 1,
-    "summary": "A tentative agreement between the U.S. and Iran to cease military operations and reopen the Strait of Hormuz is in effect, but its stability is threatened by ongoing Israeli-Hezbollah conflict."
+    "summary": "An initial deal between the U.S. and Iran to end the war and reopen the Strait of Hormuz has been reached, but its stability is threatened by ongoing Israeli-Hezbollah conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.3
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.4
+        "precision": 0.5,
+        "aggression": 0.3
       }
     }
   },
   "global": {
     "nuclearIndex": 55,
     "escalationLevel": 48,
-    "oilDisruption": 20,
-    "tradeImpact": 15,
+    "oilDisruption": 35,
+    "tradeImpact": 26,
     "sanctionsPressure": 54,
-    "globalPressure": 53,
+    "globalPressure": 56,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,50 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 15",
-      "text": "U.S. and Iran reach framework agreement for peace and to reopen the Strait of Hormuz.",
+      "date": "Jun 16",
+      "text": "U.S. and Iran announce an initial deal to end the war and reopen the Strait of Hormuz, with Trump confirming an electronic MoU signing.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBTTHBYQ1FMM3d4UGFxYnlsMVVVR014REs4S0IzaEpNeUZRSEpuZU5WcTFLR3dkdjhkcGVKVFc2NUdFZnJ1Q1FTWExBbno5SlR3SXpQOGR4NWdWWG8zRHFBWTFpWERDNFR0NF9DU0E3MEJ5QUVEb0dB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 978
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBKTnRENzBwRkxWekxYZk5SWTBVVUVVaW1Vc0k1d0p2MExyXzJhdlFnWFBKSV9FT0VxWGluN0FHQk5tZm9SZ1hrVmZRd0xaZW1UdjFzdTVtOXVZNndRVVNvVkVxYUNiS3ZyMlJXYk1hVnA3amM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 979
     },
     {
-      "date": "Jun 15",
-      "text": "Israeli military strikes Hezbollah targets in Beirut, prompting U.S. warnings not to jeopardize the Iran deal.",
+      "date": "Jun 16",
+      "text": "Israel attacks Hezbollah targets in Beirut's southern suburbs, killing senior commander Ali Musa Daqduq.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaZVE2UC11VHhpR2ZqaHlpQ2M4dlBxc1VPX2M1ekdRRXN6blAzcXdHbE5EV2JOYkkyU2lpWmRNeEgzYVVsd0tIYmthcTg3Z1FnSFppSEZnWVB0UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 978
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNb0dtcHdBNDdCYXg2eGVXYTJ5MGlRQ0ZVM1I2UnN3MTlXZEh0eHA5QmJNMGQxMF9fbHFQVnBkMzVNbW1CY003X0l3TFFSX1VrZVBzSl95QVRjZFVkdmZ3VENOR21xM2xLbTdnbHY3ZkNSMkgwTHl5WVJuRXhoNEQwQ29BM1RGNkxab3FIbFAyQ3V0bWwxalcxX1BtRkZ1NmVfWFN1dm9HbVd1RHoxTW5qN2JkN0dWWEhxSFBrdVJuYmJlNFNZdE80ag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 979
     },
     {
-      "date": "Jun 15",
-      "text": "Netanyahu states Israeli forces will remain in a Lebanon 'buffer zone' as long as deemed necessary.",
+      "date": "Jun 16",
+      "text": "Trump faults Israel's Beirut strike and urges a stand-down, warning that renewed fighting could scupper the U.S-Iran deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2gFBVV95cUxNbDM0RlFqaTJYeVVQU3djemlFYmlMeHdjSW5uYl8ybmFvVEVScGUwWGYtb1NVbUx4YVFxSE81WmllQmJWanF2V3kzOFZVNC10MkRveU1YN2ttRmVwY0NqSWphS1RkS040cUp2WUQySHRSelplRHU5WXg2Um4tWlJEZk1wQTdFSzNpVFFKQXUtZDhiY3RTZFNpdTUydGFNSHhEWThscnc3T3RaUFVTbWFYaDFScWNjX0dyY0d6Sm9oVkdlcGRSSTB3NHExQS1zeTlnX0paUS1lZ3R3Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 978
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 979
     },
     {
-      "date": "Jun 15",
-      "text": "IDF reports killing senior Hezbollah commander Ali Musa Daqduq.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1uY3AzcjNmVDB3U3lpbjV1aEtQNWFPYVY1ZU5qOFowQVhPUlFkRmE0VXBJVm9KSl9GZkVNUURJN21YOEdoLWxZWC1oZ2VSLUFicEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "ایران اینترنشنال",
-      "latestSinceUpdate": 978
-    },
-    {
-      "date": "Jun 15",
-      "text": "U.S. military prepares plans to secure Iran's nuclear materials if a deal is reached, but Trump paused a ground mission.",
+      "date": "Jun 16",
+      "text": "U.S. military is making plans to secure Iran's nuclear materials if a deal is reached, with a ground mission reportedly paused by Trump.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB4cWZMcjNVMnRkWlJ6eGlEV3ZndVBtRFZadXg1aUxUYnNpZGdZb3hrZGJzS0FYVzFRUkRUT0wyLW40Q3ktN3lhUG1mcm9KOEU0ZTZ2RVNOZmFWRDc2RHhMOWUwQWt2SWJqWjdIOThNbkkxUFRGMzhid3p5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 978
+      "latestSinceUpdate": 979
+    },
+    {
+      "date": "Jun 16",
+      "text": "Questions arise regarding potential fees for commercial ships passing through the reopened Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 979
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -131,25 +131,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Perspective",
-      "headline": "Deal Secured, Strait Open, Israel Warned",
-      "summary": "The US has successfully brokered a peace deal with Iran, leading to the reopening of the Strait of Hormuz. President Trump has warned Israel against actions that could jeopardize this agreement.",
+      "perspective": "US Administration",
+      "headline": "Historic Deal Reached, Strait Reopened",
+      "summary": "The U.S. administration emphasizes the successful negotiation of an initial deal with Iran, aiming to end the conflict and restore free passage through the Strait of Hormuz. It views the agreement as a significant diplomatic achievement, urging all parties to uphold its terms.",
+      "tone": "neutral",
+      "latestSinceUpdate": 979
+    },
+    {
+      "perspective": "Iran",
+      "headline": "Deal Signed, But Regional Actions Threaten Peace",
+      "summary": "Iran acknowledges the signing of an initial agreement with the U.S. to cease hostilities and reopen the Strait of Hormuz. However, it warns that continued Israeli military actions, particularly against Hezbollah, could jeopardize the fragile peace framework.",
       "tone": "strained",
-      "latestSinceUpdate": 973
+      "latestSinceUpdate": 979
     },
     {
-      "perspective": "Iranian Perspective",
-      "headline": "Peace Deal Reached, US Responsible for Israeli Aggression",
-      "summary": "Iran confirms a peace deal with the US, including arrangements for the Strait of Hormuz, while holding the US responsible for Israeli strikes in Beirut. Iran asserts its ability to control the Strait.",
+      "perspective": "Israel",
+      "headline": "Continued Security Operations Amid Regional Shifts",
+      "summary": "Israel maintains its right to conduct security operations against threats like Hezbollah, despite the broader U.S.-Iran peace efforts. Its actions in Lebanon are framed as necessary for national defense, potentially creating friction with the newly formed deal.",
       "tone": "defiant",
-      "latestSinceUpdate": 973
+      "latestSinceUpdate": 979
     },
     {
-      "perspective": "Israeli Perspective",
-      "headline": "Targeting Hezbollah Amid Regional Tensions",
-      "summary": "Israel continues to strike Hezbollah targets in Beirut, asserting its security interests amidst a fragile US-Iran peace agreement. These actions have drawn condemnation from the US.",
-      "tone": "defiant",
-      "latestSinceUpdate": 973
+      "perspective": "Global Shipping/Energy",
+      "headline": "Hormuz Reopening Brings Relief, But New Costs Loom",
+      "summary": "The reopening of the Strait of Hormuz is seen as a positive development for global energy markets and shipping, potentially easing oil flow. However, uncertainty remains regarding whether commercial vessels will face new fees for passage, impacting operational costs.",
+      "tone": "anxious",
+      "latestSinceUpdate": 979
     }
   ]
 });
