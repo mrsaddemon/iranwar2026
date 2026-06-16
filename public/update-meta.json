@@ -1,13 +1,13 @@
 {
-  "updateSequence": 982,
+  "updateSequence": 983,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T17:34:23.386Z",
+  "lastSyncedAt": "2026-06-16T20:27:36.846Z",
   "warDay": 109,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "An initial agreement between the U.S. and Iran aims to end hostilities and reopen the Strait of Hormuz, but its stability is threatened by ongoing regional conflicts and retaliatory actions."
+    "summary": "An initial agreement between the US and Iran to end fighting and reopen the Strait of Hormuz is in effect, but its terms are murky and regional attacks continue."
   }
 }
