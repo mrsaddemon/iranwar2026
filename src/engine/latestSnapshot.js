@@ -1,43 +1,43 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 983,
+  "updateSequence": 984,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T20:27:36.846Z",
+  "lastSyncedAt": "2026-06-16T22:31:46.413Z",
   "warDay": 109,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "An initial agreement between the US and Iran to end fighting and reopen the Strait of Hormuz is in effect, but its terms are murky and regional attacks continue."
+    "summary": "An initial US-Iran deal to end the war has been reached, but its terms are murky and regional hostilities, including Israeli strikes and Iranian retaliatory attacks, continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.3
+        "precision": 0.7,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 58,
     "sanctionsPressure": 54,
     "globalPressure": 64,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,27 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "US and Iran virtually sign initial agreement to end war and reopen Strait of Hormuz.",
+      "text": "Trump and Vance virtually sign US-Iran agreement, moving towards a formal deal to end the war.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE54NjFDN2JpbVBfMkp1QzZXZWdhamNlZWd5UFVrb1FIVUhaRjVrMS1DNUZEaVl1UERBX2cxUWhiWF9YWGh3YmE1Mi1oOVFmdW9OQldwa2xvSlBMZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 983
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBsS3dOOXZmUFdkN2htVW0wQjB4MzdrUlBWazE3T3hDNjZSajhKeXIyaTlodjlFNV9oWF9SeHdBcmdPYlAyaG5QeVNHeEFUeUQxeW9nZkxyb3U0LTBLb3lYVUoyR3V3MGFFbkFIb2NYcWRBZW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 984
     },
     {
       "date": "Jun 15",
-      "text": "Israel attacks Lebanon, prompting criticism from Trump who urges a stand-down.",
+      "text": "Israel attacks Hezbollah targets in Beirut, prompting threats of 'harsh response' from Iran.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 983
-    },
-    {
-      "date": "Jun 15",
-      "text": "US intel assesses Iran can shut down the Strait of Hormuz at will despite the agreement.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPX3JKVm9LQzlXQjEyZzhpOXhjU2ZDblJsSk9HdXlJT0R5SzlMOEVVZXhQQWNtZzhJMnVhTkFmVDdRcXdTaTkteE5zUkJxMlFiUUZUVGhjeDRGRFFkbXc4azdXR1ZzbENoUnpUV0VqcElNTTRRdWFtME5paEwzSGd2SW9fTjdpSXljTnBB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 983
+      "latestSinceUpdate": 984
     },
     {
       "date": "Jun 15",
@@ -92,17 +84,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 15",
-      "text": "Israel-Lebanon talks are reportedly close to yielding a lasting ceasefire deal.",
+      "text": "US intelligence assesses Iran can shut down the Strait of Hormuz at will.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPX3JKVm9LQzlXQjEyZzhpOXhjU2ZDblJsSk9HdXlJT0R5SzlMOEVVZXhQQWNtZzhJMnVhTkFmVDdRcXdTaTkteE5zUkJxMlFiUUZUVGhjeDRGRFFkbXc4azdXR1ZzbENoUnpUV0VqcElNTTRRdWFtME5paEwzSGd2SW9fTjdpSXljTnBB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 984
+    },
+    {
+      "date": "Jun 15",
+      "text": "Trump faults Israel's Beirut strike and urges a stand-down, stating he is 'not happy' with their actions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQMnhlbUIyUlp3anR2VWRzZk5pVk5ZTzZ5X3VzUkpLaWFabkhOTDE4aWRwTFN2M1NCbXZTY0hoOE9NU2dVWGd5RmhfYjlNcmZKX0ZCWnFSelFCTkxqOXVlVGNkTVQzRE84QXJkanRSWHlxckZ6eWVwUE84cnphcUtCWVZ1NDJrQTRGOE5KWHNaeXd6dkhuMHpvQnlNejZyd9IBowFBVV95cUxOZWtwU2dVWWlwR2NMUmRMVEVzTHA1QmJsZEpVaTd0ZXY3aTdTNHFNeGJQZlZDQmhUSGxiaVlxWTJXZE9qVGY1cjVUNzliS0pGclFIbkRFMlFjNzZvenlBZXhFS3MyVXBmeWhrVm1MTVVZMGdHSl9rc290N0hUM293eUczNThENHE2ZHU4d1NKejVSRWEzakZ2aHdsQkh0Z0ZsTFV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 983
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 984
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

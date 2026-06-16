@@ -1,13 +1,13 @@
 {
-  "updateSequence": 983,
+  "updateSequence": 984,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T20:27:36.846Z",
+  "lastSyncedAt": "2026-06-16T22:31:46.413Z",
   "warDay": 109,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "An initial agreement between the US and Iran to end fighting and reopen the Strait of Hormuz is in effect, but its terms are murky and regional attacks continue."
+    "summary": "An initial US-Iran deal to end the war has been reached, but its terms are murky and regional hostilities, including Israeli strikes and Iranian retaliatory attacks, continue."
   }
 }
