@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 981,
+  "updateSequence": 982,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T12:28:10.855Z",
+  "lastSyncedAt": "2026-06-16T17:34:23.386Z",
   "warDay": 109,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.4,
+    "confidence": 0.6,
     "durationDays": 1,
-    "summary": "A US-Iran agreement to end the war has been signed, but its immediate implementation is challenged by continued Israeli and Iranian military actions."
+    "summary": "An initial agreement between the U.S. and Iran aims to end hostilities and reopen the Strait of Hormuz, but its stability is threatened by ongoing regional conflicts and retaliatory actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 30,
-    "tradeImpact": 22,
+    "oilDisruption": 20,
+    "tradeImpact": 15,
     "sanctionsPressure": 54,
-    "globalPressure": 55,
-    "allianceInfluence": 51
+    "globalPressure": 53,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "US and Iran virtually sign an agreement to end the war, including the reopening of the Strait of Hormuz.",
+      "text": "Trump and Vance virtually sign initial US-Iran agreement to end war and reopen shipping.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 981
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBsS3dOOXZmUFdkN2htVW0wQjB4MzdrUlBWazE3T3hDNjZSajhKeXIyaTlodjlFNV9oWF9SeHdBcmdPYlAyaG5QeVNHeEFUeUQxeW9nZkxyb3U0LTBLb3lYVUoyR3V3MGFFbkFIb2NYcWRBZW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 982
     },
     {
       "date": "Jun 15",
-      "text": "Israeli military strikes Hezbollah targets in Beirut, drawing condemnation from President Trump.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaZVE2UC11VHhpR2ZqaHlpQ2M4dlBxc1VPX2M1ekdRRXN6blAzcXdHbE5EV2JOYkkyU2lpWmRNeEgzYVVsd0tIYmthcTg3Z1FnSFppSEZnWVB0UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 981
-    },
-    {
-      "date": "Jun 15",
-      "text": "President Trump criticizes Israel's handling of the conflict with Hezbollah and warns against jeopardizing the US-Iran deal.",
+      "text": "Israel strikes Beirut outskirts as fighting with Hezbollah escalates.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 981
+      "latestSinceUpdate": 982
     },
     {
       "date": "Jun 15",
-      "text": "US bases in the Middle East face a second night of retaliatory Iranian attacks.",
-      "severity": "critical",
+      "text": "Trump condemns Israel's Beirut strike, urges stand-down, and suggests Syria fight Hezbollah.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 982
+    },
+    {
+      "date": "Jun 15",
+      "text": "US bases in Middle East face second night of retaliatory Iranian attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 981
-    },
-    {
-      "date": "Jun 15",
-      "text": "The US states it will not soften its military posture in the Middle East despite the Iran agreement.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxOX0dpUklsbmUxdDB6R0tRS2NJMHludzRrNG5zN2dfYWRYR0dlMUZtZmw5TS1CNUZfM3lOM2tiWDRna0p4SU96Q3J1TkJaWUJFMXEweVZENjRsOXVra2MxVTA3ZGl6LUJFU1JVNnZKWFkyelhYeFl3NHJ1NVNMLVZ0TGhOVDRjcFJZMllrc3BXa2pkWjVpWlc3SUpJaFFzbGNKTFlnTmFOVHdiMmJNcU4yQ0JuX0VOaXlCSlZ2YmpGMlFYSFJsemlrMWtRVERsTzQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military Times",
-      "latestSinceUpdate": 981
+      "latestSinceUpdate": 982
     }
   ],
   "sourceStatuses": [
