@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 979,
+  "updateSequence": 980,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T02:01:31.461Z",
+  "lastSyncedAt": "2026-06-16T07:36:59.254Z",
   "warDay": 109,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-16",
@@ -10,15 +10,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 1,
-    "summary": "An initial deal between the U.S. and Iran to end the war and reopen the Strait of Hormuz has been reached, but its stability is threatened by ongoing Israeli-Hezbollah conflict."
+    "summary": "A memorandum of understanding has been signed between the US and Iran to immediately end military operations and reopen the Strait of Hormuz, though regional tensions persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.4
       }
     },
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.3
+        "precision": 0.6,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 48,
-    "oilDisruption": 35,
-    "tradeImpact": 26,
-    "sanctionsPressure": 54,
-    "globalPressure": 56,
+    "nuclearIndex": 30,
+    "escalationLevel": 40,
+    "oilDisruption": 20,
+    "tradeImpact": 14,
+    "sanctionsPressure": 53,
+    "globalPressure": 51,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 16",
-      "text": "U.S. and Iran announce an initial deal to end the war and reopen the Strait of Hormuz, with Trump confirming an electronic MoU signing.",
+      "date": "Jun 15",
+      "text": "Trump and Vance virtually sign US-Iran agreement to end war",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBKTnRENzBwRkxWekxYZk5SWTBVVUVVaW1Vc0k1d0p2MExyXzJhdlFnWFBKSV9FT0VxWGluN0FHQk5tZm9SZ1hrVmZRd0xaZW1UdjFzdTVtOXVZNndRVVNvVkVxYUNiS3ZyMlJXYk1hVnA3amM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 979
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE96MkdnSWJIck92NmhSbHp0cGl0LW1FSFhTM0tLR0FCYndhMnJLd2VVZ09NSzlhX2JrMmRENXNNaGFVTzBzY3hWUUFJdWZReUM1VWhVX0w2QWVORV9CbUhGNWpjbTRMRzVEdWIwT0kzNl9oWk1TYU83Tg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 980
     },
     {
-      "date": "Jun 16",
-      "text": "Israel attacks Hezbollah targets in Beirut's southern suburbs, killing senior commander Ali Musa Daqduq.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNb0dtcHdBNDdCYXg2eGVXYTJ5MGlRQ0ZVM1I2UnN3MTlXZEh0eHA5QmJNMGQxMF9fbHFQVnBkMzVNbW1CY003X0l3TFFSX1VrZVBzSl95QVRjZFVkdmZ3VENOR21xM2xLbTdnbHY3ZkNSMkgwTHl5WVJuRXhoNEQwQ29BM1RGNkxab3FIbFAyQ3V0bWwxalcxX1BtRkZ1NmVfWFN1dm9HbVd1RHoxTW5qN2JkN0dWWEhxSFBrdVJuYmJlNFNZdE80ag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 979
-    },
-    {
-      "date": "Jun 16",
-      "text": "Trump faults Israel's Beirut strike and urges a stand-down, warning that renewed fighting could scupper the U.S-Iran deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 979
-    },
-    {
-      "date": "Jun 16",
-      "text": "U.S. military is making plans to secure Iran's nuclear materials if a deal is reached, with a ground mission reportedly paused by Trump.",
+      "date": "Jun 15",
+      "text": "U.S. and Iran Sign Agreement to Stop Fighting, Reopen Strait of Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB4cWZMcjNVMnRkWlJ6eGlEV3ZndVBtRFZadXg1aUxUYnNpZGdZb3hrZGJzS0FYVzFRUkRUT0wyLW40Q3ktN3lhUG1mcm9KOEU0ZTZ2RVNOZmFWRDc2RHhMOWUwQWt2SWJqWjdIOThNbkkxUFRGMzhid3p5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 979
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNczRLaUNKSTZKU2hHWkVPVm94M0NqTjJyV2RzVjZFZDdVdjZwYW1vU1pHa3U5NzRSSFIxS3luSWl3Z2N1bi1XbDRwZUJNZGxhejhTRjBXNXlWWEJNVEdCMDFZemRVUU5vQkl1V2xwM3VMcU9OTzJ1T091UFU2blFNNWJLY0haT2VBQlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Time Magazine",
+      "latestSinceUpdate": 980
     },
     {
-      "date": "Jun 16",
-      "text": "Questions arise regarding potential fees for commercial ships passing through the reopened Strait of Hormuz.",
+      "date": "Jun 15",
+      "text": "Vance says IAEA to return to Iran, US will help Iran destroy uranium stockpile",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp30gG3AUFVX3lxTE1rRU1UeGpwWDJvU0VtNjRHRGE4ZE5tS0lSc3pSMl9LTmk5dlJsQS1PeHE2dS1WcWxvbm9IQ2NUenNTdDdRaHYzRk5pd1BhdXp3Sk5MQ2JNamVhemYxVzNwRGtyRGJnM3M0SW9YQW9JeTh4eEdPcDlrcExnaDd3bEhtalZjcTcwTmJVbE54YVAxYWZzbDhuSlFhNTIyRTIzMnJYQTZ5WC1jWlVKZWtUcmE4UDVPVWxFMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 980
+    },
+    {
+      "date": "Jun 15",
+      "text": "Oil prices fall following US-Iran agreement and Strait of Hormuz reopening",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 979
+      "latestSinceUpdate": 980
+    },
+    {
+      "date": "Jun 15",
+      "text": "Israel attacks Hezbollah targets in Beirut's southern suburbs",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNb0dtcHdBNDdCYXg2eGVXYTJ5MGlRQ0ZVM1I2UnN3MTlXZEh0eHA5QmJNMGQxMF9fbHFQVnBkMzVNbW1CY003X0l3TFFSX1VrZVBzSl95QVRjZFVkdmZ3VENOR21xM2xLbTdnbHY3ZkNSMkgwTHl5WVJuRXhoNEQwQ29BM1RGNkxab3FIbFAyQ3V0bWwxalcxX1BtRkZ1NmVfWFN1dm9HbVd1RHoxTW5qN2JkN0dWWEhxSFBrdVJuYmJlNFNZdE80ag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 980
+    },
+    {
+      "date": "Jun 15",
+      "text": "Israel rules out withdrawing from seized land",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNU3d1T3lKTVA4RFp2aElaWDEzYWpzNENxTFNHUVhuQlNkVktmTkNNTFR6azlsd3BBaXZBVS1nOEozNU9CR1dGYVRuaDA2alY4SUgzSzlCdi1vLTFMMEZxQVg0NXVJd3QxeXhGUWlwUkJZOF9TWTRxMGJmU0dlaERrbUFZV0ZzOTJrb3YxLVZ30gGTAUFVX3lxTFBqcWZLQWg4OHMtQWF6LW1STGZJQV91VlZpWjBRZVZHX3c2QU9oWmJ0bGF5Rk1RWFJzXzNyZTZrWXI1VHhtZWZ2ZjNaUU5SUXhfcy1VN0NFOUpWZ3J0NnRvU1pfcVhZSjR4Y0lueUlyclY4ckdGMGhJS0xRNHpvMTk3Y3lFZ2diZjBZYmdOdldmZUdjOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 980
     }
   ],
   "sourceStatuses": [

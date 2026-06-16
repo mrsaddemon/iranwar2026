@@ -1,13 +1,13 @@
 {
-  "updateSequence": 979,
+  "updateSequence": 980,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T02:01:31.461Z",
+  "lastSyncedAt": "2026-06-16T07:36:59.254Z",
   "warDay": 109,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 1,
-    "summary": "An initial deal between the U.S. and Iran to end the war and reopen the Strait of Hormuz has been reached, but its stability is threatened by ongoing Israeli-Hezbollah conflict."
+    "summary": "A memorandum of understanding has been signed between the US and Iran to immediately end military operations and reopen the Strait of Hormuz, though regional tensions persist."
   }
 }
