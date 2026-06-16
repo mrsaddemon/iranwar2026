@@ -1,13 +1,13 @@
 {
-  "updateSequence": 984,
+  "updateSequence": 985,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T22:31:46.413Z",
+  "lastSyncedAt": "2026-06-16T23:59:26.674Z",
   "warDay": 109,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "An initial US-Iran deal to end the war has been reached, but its terms are murky and regional hostilities, including Israeli strikes and Iranian retaliatory attacks, continue."
+    "summary": "A US-Iran agreement to stop fighting and reopen shipping has been reached, but its terms are contested, and regional hostilities persist, indicating a fragile truce."
   }
 }

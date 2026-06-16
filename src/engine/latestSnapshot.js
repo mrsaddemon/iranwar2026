@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 984,
+  "updateSequence": 985,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T22:31:46.413Z",
+  "lastSyncedAt": "2026-06-16T23:59:26.674Z",
   "warDay": 109,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "An initial US-Iran deal to end the war has been reached, but its terms are murky and regional hostilities, including Israeli strikes and Iranian retaliatory attacks, continue."
+    "summary": "A US-Iran agreement to stop fighting and reopen shipping has been reached, but its terms are contested, and regional hostilities persist, indicating a fragile truce."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.4
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 57,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,19 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "Trump and Vance virtually sign US-Iran agreement, moving towards a formal deal to end the war.",
+      "text": "Trump and Vance virtually sign US-Iran agreement to stop fighting and reopen the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBsS3dOOXZmUFdkN2htVW0wQjB4MzdrUlBWazE3T3hDNjZSajhKeXIyaTlodjlFNV9oWF9SeHdBcmdPYlAyaG5QeVNHeEFUeUQxeW9nZkxyb3U0LTBLb3lYVUoyR3V3MGFFbkFIb2NYcWRBZW8?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 984
+      "latestSinceUpdate": 985
     },
     {
       "date": "Jun 15",
-      "text": "Israel attacks Hezbollah targets in Beirut, prompting threats of 'harsh response' from Iran.",
+      "text": "Israel attacks Lebanon, prompting Iran to threaten a 'harsh response' and raising questions about the US-Iran deal.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 984
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp30gG3AUFVX3lxTE1rRU1UeGpwWDJvU0VtNjRHRGE4ZE5tS0lSc3pSMl9LTmk5dlJsQS1PeHE2dS1WcWxvbm9IQ2NUenNTdDdRaHYzRk5pd1BhdXp3Sk5MQ2JNamVhemYxVzNwRGtyRGJnM3M0SW9YQW9JeTh4eEdPcDlrcExnaDd3bEhtalZjcTcwTmJVbE54YVAxYWZzbDhuSlFhNTIyRTIzMnJYQTZ5WC1jWlVKZWtUcmE4UDVPVWxFMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 985
+    },
+    {
+      "date": "Jun 15",
+      "text": "US intel assesses Iran can shut down the Strait of Hormuz at will from now on.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPX3JKVm9LQzlXQjEyZzhpOXhjU2ZDblJsSk9HdXlJT0R5SzlMOEVVZXhQQWNtZzhJMnVhTkFmVDdRcXdTaTkteE5zUkJxMlFiUUZUVGhjeDRGRFFkbXc4azdXR1ZzbENoUnpUV0VqcElNTTRRdWFtME5paEwzSGd2SW9fTjdpSXljTnBB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 985
     },
     {
       "date": "Jun 15",
@@ -84,19 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 15",
-      "text": "US intelligence assesses Iran can shut down the Strait of Hormuz at will.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPX3JKVm9LQzlXQjEyZzhpOXhjU2ZDblJsSk9HdXlJT0R5SzlMOEVVZXhQQWNtZzhJMnVhTkFmVDdRcXdTaTkteE5zUkJxMlFiUUZUVGhjeDRGRFFkbXc4azdXR1ZzbENoUnpUV0VqcElNTTRRdWFtME5paEwzSGd2SW9fTjdpSXljTnBB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 984
-    },
-    {
-      "date": "Jun 15",
-      "text": "Trump faults Israel's Beirut strike and urges a stand-down, stating he is 'not happy' with their actions.",
+      "text": "Trump expresses dissatisfaction with Israel's conduct against Hezbollah, suggesting Syria should intervene instead.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 984
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 985
     }
   ],
   "sourceStatuses": [
