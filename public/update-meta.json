@@ -1,13 +1,13 @@
 {
-  "updateSequence": 980,
+  "updateSequence": 981,
   "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T07:36:59.254Z",
+  "lastSyncedAt": "2026-06-16T12:28:10.855Z",
   "warDay": 109,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
+    "confidence": 0.4,
     "durationDays": 1,
-    "summary": "A memorandum of understanding has been signed between the US and Iran to immediately end military operations and reopen the Strait of Hormuz, though regional tensions persist."
+    "summary": "A US-Iran agreement to end the war has been signed, but its immediate implementation is challenged by continued Israeli and Iranian military actions."
   }
 }
