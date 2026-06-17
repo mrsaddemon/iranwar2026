@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 989,
+  "updateSequence": 990,
   "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T16:49:20.627Z",
+  "lastSyncedAt": "2026-06-17T19:14:18.942Z",
   "warDay": 110,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-17",
@@ -9,8 +9,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 3,
-    "summary": "A deal between the US and Iran to cease fighting and reopen shipping has been reached, though its terms are unclear and it faces immediate challenges from ongoing regional hostilities."
+    "durationDays": 2,
+    "summary": "A preliminary deal between the US and Iran has been signed to end the war, but its terms are murky, and hostilities continue with Israeli strikes and Iranian retaliatory attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 57,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "Iran warns of 'harsh response' over Lebanon attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp30gG3AUFVX3lxTE1rRU1UeGpwWDJvU0VtNjRHRGE4ZE5tS0lSc3pSMl9LTmk5dlJsQS1PeHE2dS1WcWxvbm9IQ2NUenNTdDdRaHYzRk5pd1BhdXp3Sk5MQ2JNamVhemYxVzNwRGtyRGJnM3M0SW9YQW9JeTh4eEdPcDlrcExnaDd3bEhtalZjcTcwTmJVbE54YVAxYWZzbDhuSlFhNTIyRTIzMnJYQTZ5WC1jWlVKZWtUcmE4UDVPVWxFMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 989
-    },
-    {
-      "date": "Jun 15",
-      "text": "Trump and Vance virtually sign US-Iran agreement.",
+      "text": "US and Iran virtually sign a preliminary agreement to end the war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBsS3dOOXZmUFdkN2htVW0wQjB4MzdrUlBWazE3T3hDNjZSajhKeXIyaTlodjlFNV9oWF9SeHdBcmdPYlAyaG5QeVNHeEFUeUQxeW9nZkxyb3U0LTBLb3lYVUoyR3V3MGFFbkFIb2NYcWRBZW8?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 988
+      "latestSinceUpdate": 990
     },
     {
       "date": "Jun 15",
-      "text": "Iran states initial deal requires Israel to withdraw from Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOMU9UVU0xalpEMWRiaWd2TmRycmtVR0x4aXhhOUFEaTZpbzFRY3l0YzRqb0NxcVZDa2NDX3NscUJfeDNrbkh0bXA4OXNtaEFCU0t0X0w3Q2lfMDNlWUY2SDhDMnRrTVdVUENVQnNmWXRqZ0sydXBVVmU3aEExX3NKOEdaUFo5b0FFWUZTRl9Ia09QQy1IUlBpNW5FaUVUd1lKajRnXy1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 989
-    },
-    {
-      "date": "Jun 14",
-      "text": "U.S. and Iran have reached a deal to stop fighting and reopen shipping.",
+      "text": "Terms of the US-Iran deal remain secret and murky.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 989
+      "latestSinceUpdate": 990
     },
     {
-      "date": "Jun 14",
-      "text": "Trump faults Israel's Beirut strike, urges stand-down as Iran threatens U.S. deal.",
+      "date": "Jun 15",
+      "text": "Strait of Hormuz to reopen, and US to lift Iran sanctions under the deal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNd3hyU3FuSlhkMVRjZHJ1eEQ2VmNZMWl5Y3I3QkFTeFh4YlhQazAwdTY0dHhpMDVYYXpsWmpYMTk1clhHOVZWUlpFU2JPQU1QTkdFM0RtM2VZVlVlaldtLWQyaWJBb0ppS1dCWmNYV2hKVmwxY2Nvc2RRVHZxUWhHbkNWSzdxbHl6RVYxYm9oWmVPS2kyd3NMWFA2T05fQXp3UGpnZUxkdDRBTGE4QWg0RGZ1TjlvZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 990
+    },
+    {
+      "date": "Jun 16",
+      "text": "Iran states the initial deal requires Israel to withdraw from Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOMU9UVU0xalpEMWRiaWd2TmRycmtVR0x4aXhhOUFEaTZpbzFRY3l0YzRqb0NxcVZDa2NDX3NscUJfeDNrbkh0bXA4OXNtaEFCU0t0X0w3Q2lfMDNlWUY2SDhDMnRrTVdVUENVQnNmWXRqZ0sydXBVVmU3aEExX3NKOEdaUFo5b0FFWUZTRl9Ia09QQy1IUlBpNW5FaUVUd1lKajRnXy1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 990
+    },
+    {
+      "date": "Jun 16",
+      "text": "US intel assesses Iran can shut down the Strait of Hormuz at will.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPX3JKVm9LQzlXQjEyZzhpOXhjU2ZDblJsSk9HdXlJT0R5SzlMOEVVZXhQQWNtZzhJMnVhTkFmVDdRcXdTaTkteE5zUkJxMlFiUUZUVGhjeDRGRFFkbXc4azdXR1ZzbENoUnpUV0VqcElNTTRRdWFtME5paEwzSGd2SW9fTjdpSXljTnBB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 990
+    },
+    {
+      "date": "Jun 16",
+      "text": "Trump faults Israel's Beirut strike and urges a stand-down, threatening the US deal.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 989
-    },
-    {
-      "date": "Jun 14",
-      "text": "Israel launches fresh strikes on Lebanon despite Trump criticism.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 989
+      "latestSinceUpdate": 990
     }
   ],
   "sourceStatuses": [
