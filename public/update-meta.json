@@ -1,13 +1,13 @@
 {
-  "updateSequence": 987,
+  "updateSequence": 988,
   "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T09:58:21.949Z",
+  "lastSyncedAt": "2026-06-17T13:51:12.362Z",
   "warDay": 110,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "An initial deal between the U.S. and Iran to end hostilities and reopen the Strait of Hormuz has been announced, but its terms are disputed and regional conflicts continue."
+    "durationDays": 3,
+    "summary": "An initial deal to end fighting and reopen the Strait of Hormuz has been announced, but its terms are contested and retaliatory actions persist."
   }
 }

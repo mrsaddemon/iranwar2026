@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 987,
+  "updateSequence": 988,
   "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T09:58:21.949Z",
+  "lastSyncedAt": "2026-06-17T13:51:12.362Z",
   "warDay": 110,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-17",
@@ -9,46 +9,46 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "An initial deal between the U.S. and Iran to end hostilities and reopen the Strait of Hormuz has been announced, but its terms are disputed and regional conflicts continue."
+    "durationDays": 3,
+    "summary": "An initial deal to end fighting and reopen the Strait of Hormuz has been announced, but its terms are contested and retaliatory actions persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 60,
+    "tradeImpact": 44,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "globalPressure": 61,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 17",
+      "date": "Jun 15",
+      "text": "Iran warns of ‘harsh response’ over Lebanon attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp30gG3AUFVX3lxTE1rRU1UeGpwWDJvU0VtNjRHRGE4ZE5tS0lSc3pSMl9LTmk5dlJsQS1PeHE2dS1WcWxvbm9IQ2NUenNTdDdRaHYzRk5pd1BhdXp3Sk5MQ2JNamVhemYxVzNwRGtyRGJnM3M0SW9YQW9JeTh4eEdPcDlrcExnaDd3bEhtalZjcTcwTmJVbE54YVAxYWZzbDhuSlFhNTIyRTIzMnJYQTZ5WC1jWlVKZWtUcmE4UDVPVWxFMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 988
+    },
+    {
+      "date": "Jun 15",
+      "text": "Trump and Vance virtually sign US-Iran agreement.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBsS3dOOXZmUFdkN2htVW0wQjB4MzdrUlBWazE3T3hDNjZSajhKeXIyaTlodjlFNV9oWF9SeHdBcmdPYlAyaG5QeVNHeEFUeUQxeW9nZkxyb3U0LTBLb3lYVUoyR3V3MGFFbkFIb2NYcWRBZW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 988
+    },
+    {
+      "date": "Jun 14",
       "text": "U.S. and Iran announce an initial deal to end the war and reopen the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBKTnRENzBwRkxWekxYZk5SWTBVVUVVaW1Vc0k1d0p2MExyXzJhdlFnWFBKSV9FT0VxWGluN0FHQk5tZm9SZ1hrVmZRd0xaZW1UdjFzdTVtOXVZNndRVVNvVkVxYUNiS3ZyMlJXYk1hVnA3amM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 987
+      "latestSinceUpdate": 988
     },
     {
       "date": "Jun 17",
-      "text": "Trump vows to release text of Iran agreement ‘in a couple of days’ as key questions remain.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1RQ0lKSUtBdGc2WkMtam5fbk9ZbW5TZUdxMlRBblQyYlFnS2RSYjhTSVJyYWxPZnRCWW8tLWw2UmllRkpWcjYta184Tlo1ak1BeWZ6Y0tFaXg5QUd3SDk0VTl2bEtvNmxnbFBaa1loM1F3eGM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 987
-    },
-    {
-      "date": "Jun 17",
-      "text": "Iran warns of ‘harsh response’ over Lebanon attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 987
-    },
-    {
-      "date": "Jun 17",
-      "text": "Israel kills 4 in Lebanon and launches new strikes despite Trump warning.",
+      "text": "US bases in Middle East facing second night of retaliatory Iranian attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZVdSbllHY2kydWJzbnFzTUtLOFlSU0pycDBlMm45TlVGaG01cEc1NDJ6Tm9aZ3BnekJFZHNOeXkwVmZLMTlGZE1yTFdDVHRCX0tFVkJYeUhibnhCVzBGa3Axd3JvUGNZTDQwTVItNjEwSGl5aVowWlFtZ3kydXBVQjlSQV85UnVZeGhLWnFaUnAwVjFocElIbllPZjAtRXlKZENsdUdsb0ZhOFJLTWhSVXUxQ09KZHA4Zk5pYjFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 987
-    },
-    {
-      "date": "Jun 17",
-      "text": "Trump criticises Netanyahu and Israel's handling of Hezbollah.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 987
-    },
-    {
-      "date": "Jun 17",
-      "text": "US intel assesses Iran can shut down the Strait of Hormuz at will.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPX3JKVm9LQzlXQjEyZzhpOXhjU2ZDblJsSk9HdXlJT0R5SzlMOEVVZXhQQWNtZzhJMnVhTkFmVDdRcXdTaTkteE5zUkJxMlFiUUZUVGhjeDRGRFFkbXc4azdXR1ZzbENoUnpUV0VqcElNTTRRdWFtME5paEwzSGd2SW9fTjdpSXljTnBB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 987
+      "latestSinceUpdate": 988
+    },
+    {
+      "date": "Jun 17",
+      "text": "Trump faults Israel's Beirut strike, urges stand-down as Iran threatens U.S. deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 988
+    },
+    {
+      "date": "Jun 17",
+      "text": "Oil Prices Waver as Traders Hope the Strait of Hormuz Will Reopen.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1acEdfU1lqS1FrQlVmQUZLRjM5STNiUVhsZFdkNlRJM0d6ei1xdjNFMllnb0hmYTh5NGJGczR0Z0M0d0dHNXJHZ1ZvUlJ1ZDlWdEQ4emJKRnRtcUlLY3RuNm5UWFNoekp0NWx5Q0ZORGJUQkIyWE5hQWpaNkI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 988
     }
   ],
   "sourceStatuses": [
