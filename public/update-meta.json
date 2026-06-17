@@ -1,13 +1,13 @@
 {
-  "updateSequence": 986,
+  "updateSequence": 987,
   "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T05:04:09.797Z",
+  "lastSyncedAt": "2026-06-17T09:58:21.949Z",
   "warDay": 110,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "An initial deal to stop fighting has been signed between the U.S. and Iran, but its terms are contested, and Iran has continued drone activity in the Strait of Hormuz."
+    "summary": "An initial deal between the U.S. and Iran to end hostilities and reopen the Strait of Hormuz has been announced, but its terms are disputed and regional conflicts continue."
   }
 }
