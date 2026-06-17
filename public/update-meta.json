@@ -1,13 +1,13 @@
 {
-  "updateSequence": 985,
-  "lastUpdated": "2026-06-16",
-  "lastSyncedAt": "2026-06-16T23:59:26.674Z",
-  "warDay": 109,
+  "updateSequence": 986,
+  "lastUpdated": "2026-06-17",
+  "lastSyncedAt": "2026-06-17T05:04:09.797Z",
+  "warDay": 110,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "A US-Iran agreement to stop fighting and reopen shipping has been reached, but its terms are contested, and regional hostilities persist, indicating a fragile truce."
+    "durationDays": 2,
+    "summary": "An initial deal to stop fighting has been signed between the U.S. and Iran, but its terms are contested, and Iran has continued drone activity in the Strait of Hormuz."
   }
 }
