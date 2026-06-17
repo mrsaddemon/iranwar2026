@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 988,
+  "updateSequence": 989,
   "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T13:51:12.362Z",
+  "lastSyncedAt": "2026-06-17T16:49:20.627Z",
   "warDay": 110,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-17",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 3,
-    "summary": "An initial deal to end fighting and reopen the Strait of Hormuz has been announced, but its terms are contested and retaliatory actions persist."
+    "summary": "A deal between the US and Iran to cease fighting and reopen shipping has been reached, though its terms are unclear and it faces immediate challenges from ongoing regional hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 60,
-    "tradeImpact": 44,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "Iran warns of ‘harsh response’ over Lebanon attacks.",
+      "text": "Iran warns of 'harsh response' over Lebanon attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp30gG3AUFVX3lxTE1rRU1UeGpwWDJvU0VtNjRHRGE4ZE5tS0lSc3pSMl9LTmk5dlJsQS1PeHE2dS1WcWxvbm9IQ2NUenNTdDdRaHYzRk5pd1BhdXp3Sk5MQ2JNamVhemYxVzNwRGtyRGJnM3M0SW9YQW9JeTh4eEdPcDlrcExnaDd3bEhtalZjcTcwTmJVbE54YVAxYWZzbDhuSlFhNTIyRTIzMnJYQTZ5WC1jWlVKZWtUcmE4UDVPVWxFMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 988
+      "latestSinceUpdate": 989
     },
     {
       "date": "Jun 15",
@@ -75,36 +75,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 988
     },
     {
-      "date": "Jun 14",
-      "text": "U.S. and Iran announce an initial deal to end the war and reopen the Strait of Hormuz.",
+      "date": "Jun 15",
+      "text": "Iran states initial deal requires Israel to withdraw from Lebanon.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBKTnRENzBwRkxWekxYZk5SWTBVVUVVaW1Vc0k1d0p2MExyXzJhdlFnWFBKSV9FT0VxWGluN0FHQk5tZm9SZ1hrVmZRd0xaZW1UdjFzdTVtOXVZNndRVVNvVkVxYUNiS3ZyMlJXYk1hVnA3amM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 988
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOMU9UVU0xalpEMWRiaWd2TmRycmtVR0x4aXhhOUFEaTZpbzFRY3l0YzRqb0NxcVZDa2NDX3NscUJfeDNrbkh0bXA4OXNtaEFCU0t0X0w3Q2lfMDNlWUY2SDhDMnRrTVdVUENVQnNmWXRqZ0sydXBVVmU3aEExX3NKOEdaUFo5b0FFWUZTRl9Ia09QQy1IUlBpNW5FaUVUd1lKajRnXy1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 989
     },
     {
-      "date": "Jun 17",
-      "text": "US bases in Middle East facing second night of retaliatory Iranian attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 988
+      "date": "Jun 14",
+      "text": "U.S. and Iran have reached a deal to stop fighting and reopen shipping.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 989
     },
     {
-      "date": "Jun 17",
+      "date": "Jun 14",
       "text": "Trump faults Israel's Beirut strike, urges stand-down as Iran threatens U.S. deal.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE00bzAyQUpFVVFHOWtkLWtJTzk0NlEtTGMzQWhkclpfY1JEcUhkTWExbXhvWmlqX3JYT1g3ajlLNUdUcktGTTVKSzZqR2pXcTE3Q0ZLUk81RGdrOHJzU3VfUkxYUzNMRnEwWmlYbm1oSEp0U3VlSjUtSndOUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 988
+      "latestSinceUpdate": 989
     },
     {
-      "date": "Jun 17",
-      "text": "Oil Prices Waver as Traders Hope the Strait of Hormuz Will Reopen.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1acEdfU1lqS1FrQlVmQUZLRjM5STNiUVhsZFdkNlRJM0d6ei1xdjNFMllnb0hmYTh5NGJGczR0Z0M0d0dHNXJHZ1ZvUlJ1ZDlWdEQ4emJKRnRtcUlLY3RuNm5UWFNoekp0NWx5Q0ZORGJUQkIyWE5hQWpaNkI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 988
+      "date": "Jun 14",
+      "text": "Israel launches fresh strikes on Lebanon despite Trump criticism.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 989
     }
   ],
   "sourceStatuses": [
