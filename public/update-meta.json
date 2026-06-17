@@ -1,13 +1,13 @@
 {
-  "updateSequence": 990,
+  "updateSequence": 991,
   "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T19:14:18.942Z",
+  "lastSyncedAt": "2026-06-17T21:23:55.898Z",
   "warDay": 110,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "A preliminary deal between the US and Iran has been signed to end the war, but its terms are murky, and hostilities continue with Israeli strikes and Iranian retaliatory attacks."
+    "durationDays": 14,
+    "summary": "A preliminary agreement between the US and Iran to stop fighting and reopen the Strait of Hormuz is active, but its terms are disputed and violations by other parties are occurring."
   }
 }
