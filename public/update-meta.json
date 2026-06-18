@@ -1,13 +1,13 @@
 {
-  "updateSequence": 993,
+  "updateSequence": 994,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T00:23:31.810Z",
+  "lastSyncedAt": "2026-06-18T05:20:45.768Z",
   "warDay": 111,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "An initial memorandum of understanding between the US and Iran to end fighting has been signed, but its terms are contested and Israel continues strikes in Lebanon."
+    "confidence": 0.81,
+    "durationDays": 60,
+    "summary": "An initial peace deal has been signed between the US and Iran to end direct conflict and ease sanctions, but regional hostilities persist, making the broader ceasefire fragile."
   }
 }

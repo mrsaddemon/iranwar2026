@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 993,
+  "updateSequence": 994,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T00:23:31.810Z",
+  "lastSyncedAt": "2026-06-18T05:20:45.768Z",
   "warDay": 111,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "An initial memorandum of understanding between the US and Iran to end fighting has been signed, but its terms are contested and Israel continues strikes in Lebanon."
+    "confidence": 0.81,
+    "durationDays": 60,
+    "summary": "An initial peace deal has been signed between the US and Iran to end direct conflict and ease sanctions, but regional hostilities persist, making the broader ceasefire fragile."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.3
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 15",
-      "text": "Trump and Pezeshkian virtually signed a Memorandum of Understanding between the US and Iran to end fighting and reopen shipping.",
+      "date": "Jun 16",
+      "text": "US and Iran sign initial deal to end war, ease sanctions and open strait as nuclear talks continue.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 993
-    },
-    {
-      "date": "Jun 15",
-      "text": "Iran stated the initial deal with the US requires Israel to withdraw from Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOMU9UVU0xalpEMWRiaWd2TmRycmtVR0x4aXhhOUFEaTZpbzFRY3l0YzRqb0NxcVZDa2NDX3NscUJfeDNrbkh0bXA4OXNtaEFCU0t0X0w3Q2lfMDNlWUY2SDhDMnRrTVdVUENVQnNmWXRqZ0sydXBVVmU3aEExX3NKOEdaUFo5b0FFWUZTRl9Ia09QQy1IUlBpNW5FaUVUd1lKajRnXy1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQYzhJLTNmdndOU3pZcnk5NHo0eTlWSXd1OTNGenFWRDUxbGVuZnhXLUN4QWs4RTAwUEpvT0xtd29yZ1J3U1d5Q0hhWkpBZ2U3MGx5QkltNGl3SkdvRWY2aGU2dmZCMnZ0aU5Td0xidVZ4VHExdnBkQmJYeEhYUjFWTXUxMlJKaFVwcFJfNHI3eDJqcnYtX09wM09YcmN5U2JjbkE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 993
+      "latestSinceUpdate": 994
     },
     {
-      "date": "Jun 15",
-      "text": "Israel launched fresh strikes on Lebanon despite criticism from Trump.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 993
-    },
-    {
-      "date": "Jun 15",
-      "text": "Tehran claimed it will charge ships to transit the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi6AFBVV95cUxNZHVLRlJEcXVOREtRcU9HU3FuaDR5LTVuZmhuNVM5REtTRkx4RDBuT1pwcTZHeFgxQkRQU3Qzd08xZXZNTTJRaUZvNHFsWVlrbmwyV0l5dUM1OTFlX214TTNZVTAxVHpTQnFTT0VSdTg5YXZFYmNDSUh6NUNCbS1rVkI4b2d6ZEZzcGtJdUplUUU5Mmpvd0o0Qmg0dXRGU1JHQ1Rtdm54MFZLUk9INEVnOUJXM28zTDRZWFFheE1ULXg1bDdBVGM2cjcyOXp1Y0MxXy04bWlSLTJkOEt1QUt6WkJ0emdjYldn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 993
-    },
-    {
-      "date": "Jun 15",
-      "text": "Three Iranian tankers exited a U.S. blockade for the first time in months.",
+      "date": "Jun 16",
+      "text": "Trump signs Iran peace plan, claiming deal averts ‘worldwide depression’ and releases official agreement.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1VekxfZkhaMm9LaFU4TndvZk5zNGNiR1lKYTdaSkxGZmJMLUt5bTZBakJxXzY4MzZoZ2xNOU9iY3RaWXByV0x1N3hEamtCTFBPVlBEYVNUYnM2RjNOd1FZdkJIdW9WSkE2cmh0N000d0VaVW1lQm43RDdER1g?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 994
+    },
+    {
+      "date": "Jun 17",
+      "text": "Israeli air strikes on Lebanon continue despite the US-Iran deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNZjV1cGh5RmM4VnBKVU1xMlFjb0VyV2dvNDVfLWRTcm5rcV84eENKREEzVnpCQXF5TmxqR29HVTVER21WVHE0WjZ6czU0ekVTUDhhaXJfUVVjNXk3dzFhc0RrOGhDSnVKeDlGTktvX09rX2Y3ekxBTkJDOWI3dlVjb3BJa1l6YTlVdmxCTjQwdWdPWVItenoyY01aaDZuNlBiZG1tRVN2UXTSAa4BQVVfeXFMTVFwQXdJS0Zzb3FtamIwTHpxNDdRQ1Z0R09jcnlIeTA5YmdMWkpsbXMtcHJkcGo0MThJdG1yUXNtVDFwYjUzNDA2MHJLVWptUkcxMm9vY1hzOUg3aUdGd0kxbHFNTVBTUnZNd3cyOUZPUXBXVWlsNG0yTkc1ci1NbDJqU2FVM09PZkMwNkUwNGxhc0RKbWRPUlczdEtpam85YTB5Yldjc1hVc0x6cnJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 994
+    },
+    {
+      "date": "Jun 17",
+      "text": "Israel conducts strikes in Iran, IDF says.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 993
+      "latestSinceUpdate": 994
     },
     {
-      "date": "Jun 15",
-      "text": "The Pentagon revealed Musk’s AI, Grok, was used in strikes in Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxQOWVsVmZONEYtNXNyajhscnZGTTREY2xnV2I1Q2pOdmNCQ1lWX2gxRThnZjRRYkdFMjBMRHRYcXdFMFl2XzFqSV9yMnUtR29meG8ySEV5MGFJYXhvR2h5UHlYQkhIZkNfYXhsa2pqQXlReTE4RHlJMWQydlJ0WmtKakpkTm9TVHF4OUZOUmhUMWR6NmNiX2RodGFUQ2xzMXI5SnJZOTRjUWFZelZjV3ZuUE11b1ZxVEtnQmlYdVozU21CQUFQWnZYeTJQNXhwZ2gyQUREQVlmNDFaaE0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Le Monde.fr",
-      "latestSinceUpdate": 993
+      "date": "Jun 17",
+      "text": "IDF reserve soldier killed, 7 others wounded by Hezbollah explosive in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiYkFVX3lxTE5aUlJ5QzlZc3U0MWRrZU0wQktRY0xfdDVpWEZkaHUtak5QQ2pBMDNMcEFnYTJNRjduWTZ1dVlwRzlsbExXVEhjWThhNXplMXIxcWE3NXBxOFdSQmNwX0RtTVBn0gFnQVVfeXFMTTZjWG1lNGlMWm9KTExsM2F3OUkzRFY4bllVdU8zWUxTUzNlWEIyQnQyNTJjTjlvdjd6SFpNLWFTNFpUenJ2SVJVY3V4SFlwMXFsZTN3YVJHRTd0a0dLWDhaajRWQnMwaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 994
+    },
+    {
+      "date": "Jun 18",
+      "text": "Tehran says it will charge ships in the Strait of Hormuz after 60 days.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi9gFBVV95cUxNMDl6SEpjMVhoS0xBTmlGYXo0eGtPbjE5bGhXM3VpZmFicUNsS01ydVVEaWNJWUNNTFJwMUdlUVVBYlRkQUZyVVIxR0JiOTA2a2dJczJxVzd2MnlEZWpkQ2NUTlk1NjFJVFE5YUd0a0YtbGp6cTNheE5kcmJ3Z3NUbVRNVTlIU3llWGt6RENfQWZNLS1TRlc0SXRUWENpcWFkaEhnZ0hMbWdDeHVoZVNuZzNrWlRTZGl6UHowclJtRUZoT1RYQ0hSaHVPYlpsdVQ5azN2aG1uNDFaYkRDMlI0UjdnVmg3cDMtZTNZT3I4QUs3OGdUbXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 994
     }
   ],
   "sourceStatuses": [
