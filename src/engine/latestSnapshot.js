@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 995,
+  "updateSequence": 996,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T09:49:21.220Z",
+  "lastSyncedAt": "2026-06-18T12:42:48.391Z",
   "warDay": 111,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US and Iran have signed a deal to end conflict and reopen shipping, but Israeli attacks on Lebanon continue, and the ceasefire terms remain disputed.",
   "lastNarrativeUpdate": "2026-06-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.93,
     "durationDays": 2,
-    "summary": "A peace agreement has been signed between the US and Iran, but its stability is undermined by ongoing Israeli military actions and new threats from Iran regarding shipping."
+    "summary": "A deal between the US and Iran has been signed to end conflict and reopen shipping, but its terms are disputed, and Israeli attacks on Lebanon continue."
   },
   "actorOverrides": {
     "usa": {
@@ -18,41 +18,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.3
+        "precision": 0.85,
+        "aggression": 0.45
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.4
+        "precision": 0.55,
+        "aggression": 0.35
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
+    "oilDisruption": 35,
+    "tradeImpact": 26,
+    "sanctionsPressure": 58,
     "globalPressure": 62,
-    "allianceInfluence": 46
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 16",
-      "text": "The United States and Iran signed a peace agreement to end their conflict and reopen shipping routes.",
+      "text": "US and Iran sign an official agreement to end conflict and reopen shipping.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 995
-    },
-    {
-      "date": "Jun 18",
-      "text": "Israel continues air strikes in Lebanon and conducts strikes in Iran despite the US-Iran peace agreement.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNZjV1cGh5RmM4VnBKVU1xMlFjb0VyV2dvNDVfLWRTcm5rcV84eENKREEzVnpCQXF5TmxqR29HVTVER21WVHE0WjZ6czU0ekVTUDhhaXJfUVVjNXk3dzFhc0RrOGhDSnVKeDlGTktvX09rX2Y3ekxBTkJDOWI3dlVjb3BJa1l6YTlVdmxCTjQwdWdPWVItenoyY01aaDZuNlBiZG1tRVN2UXQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxONmxPV2hHMTdhbmZiLUZMNXRUOUpxUGVXR1hvcUlRTFpqYi1Eb3BpV2htUkdWeGs5T2lXYkUzVnBjOTZ6X2hKRGp1TVE5R0RKeHFValNrVkFKanN5eVhzTWtIazVEMkl1Tkg2UEowZzc5R2pQbGNPeXJsMGFOd2VlcVlLemJyeW1LT2N6d2REbHZYazdKc1poRHg2MjNpNFRJRmloa3ljdEFEMWJic29QUW5KTlZFOGVNNllJSzZTY9IBxAFBVV95cUxOMERVZUNMTFVZZXBfWW1za0UtWS1Ld1pqemRjM3k2bDh4TXJLU1Y2YXkzWFNXaDE5Y3owNmhYQ2h3blQ0UTlEcExRWmFXR21EUmlINllFNENNOFpBVEZVX2FGNnhDZW45LU9DaGN2NTRYVF9xRXp6dGpjS19lTm5ubEY5QnVaMnhmLWRPVFJaVVVHSzVZVm1EVGRTZ1U3aGdwU2d5MGpOQTIwdGVWY2YtLVVTZ3EtQmpIbnc0aDlUN0Ffa3FY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 995
+      "latestSinceUpdate": 996
     },
     {
       "date": "Jun 18",
-      "text": "Iran announced it will begin charging ships in the Strait of Hormuz after 60 days.",
+      "text": "Israel continues fresh strikes on Lebanon despite the US-Iran deal and Trump's criticism.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 996
+    },
+    {
+      "date": "Jun 18",
+      "text": "Shipping in the Strait of Hormuz increases following the US-Iran deal, though challenges remain.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 995
+      "latestSinceUpdate": 996
     },
     {
       "date": "Jun 18",
-      "text": "An average of 12 children are killed or maimed daily in Lebanon, despite an existing Hezbollah-Israel truce.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1zVmFSYnIxSjgyN2ZKakVJejg2bnI3enJIQ0c0MDFZdjd0ekJkbDIxMTlrbkhaSi0wRnUxYnZtTnVINWEyMlhrdGMtRFZXZnJVZ0doZnp3MA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "UN News",
-      "latestSinceUpdate": 995
-    },
-    {
-      "date": "Jun 18",
-      "text": "The Pentagon revealed that Musk's AI, Grok, was utilized in recent strikes in Iran.",
+      "text": "Iran sends tankers loaded with oil past a US military blockade.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBIRkdJMVBRUERBU2FkM2oxNWVzME9QODZvSW5VbmlNUjItU0xEaldxelJaaHc2QzRUNzBwSVIyWEZtM3ZudF9tZUR3RmZ4U3o1aGF0UFlXU1B3QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 996
+    },
+    {
+      "date": "Jun 18",
+      "text": "Hezbollah is reportedly expecting a major cash injection from Iran once the deal is sealed with the US.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNNGZJRWpyYXMteEhEMHdxZ0VnNWxjMjA1dVhnUUtUa3o4RkhoOWkwZ3M1NExYX0tIZkp4NlpIVXFTMVlZeE1tLUhjUURHVmhkaUtMWUhBYVBuSzFkc0ExSTlKVjZNdnlkaWxacjlfXzNNV1JvN0UySllvQlJobXhMenRaUndYSXdQU0hqRU1ZZnF3UDFzNFVYRFpvaEo4NmtGemVZY3k1S3QtbEpIbU5JdElyWVDSAboBQVVfeXFMTUU1b19zbVVOSzB1SnNYTzRoUFAzTFBYQnJDRnBSM29iRkd1NHZ5R1JudGZRREF1MS1BWl9CbERGVUpmVi1RdllCTzRXUzMtRlg1bDRsZ0ktS1JPc0ZKMVA2V1hld3JNUVVKN1pKMklFMXJDaGduWVFjdGVWYWVfZUV5cTlVU1gyVTBndzIxd0EydjFlRGFvOXpnZTBWQXdOWlZTZzRJaktNNmtjZTMzbFVwRWNpWjRMeGx3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 996
+    },
+    {
+      "date": "Jun 18",
+      "text": "The Pentagon reveals Musk’s AI, Grok, was used in strikes in Iran.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxQOWVsVmZONEYtNXNyajhscnZGTTREY2xnV2I1Q2pOdmNCQ1lWX2gxRThnZjRRYkdFMjBMRHRYcXdFMFl2XzFqSV9yMnUtR29meG8ySEV5MGFJYXhvR2h5UHlYQkhIZkNfYXhsa2pqQXlReTE4RHlJMWQydlJ0WmtKakpkTm9TVHF4OUZOUmhUMWR6NmNiX2RodGFUQ2xzMXI5SnJZOTRjUWFZelZjV3ZuUE11b1ZxVEtnQmlYdVozU21CQUFQWnZYeTJQNXhwZ2gyQUREQVlmNDFaaE0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Le Monde.fr",
-      "latestSinceUpdate": 995
-    },
-    {
-      "date": "Recent",
-      "text": "Months have passed without answers regarding a previous U.S. strike on an Iranian girls' school.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 995
+      "latestSinceUpdate": 996
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
