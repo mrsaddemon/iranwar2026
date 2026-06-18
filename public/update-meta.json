@@ -1,13 +1,13 @@
 {
-  "updateSequence": 999,
+  "updateSequence": 1000,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T21:14:19.657Z",
+  "lastSyncedAt": "2026-06-18T23:11:49.949Z",
   "warDay": 111,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "An initial agreement between the US and Iran aims to end the conflict, but its terms are contested, and Israeli military actions continue in Lebanon."
+    "durationDays": 7,
+    "summary": "An initial agreement between the US and Iran has led to a lifting of blockades, while Israel has committed to a truce with Lebanon, though both remain fragile due to ongoing strikes and disputes over terms."
   }
 }
