@@ -1,13 +1,13 @@
 {
-  "updateSequence": 998,
+  "updateSequence": 999,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T18:37:41.915Z",
+  "lastSyncedAt": "2026-06-18T21:14:19.657Z",
   "warDay": 111,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A Memorandum of Understanding between the US and Iran aims to end the conflict, but its terms are contested, and Israeli military actions continue to challenge its stability."
+    "summary": "An initial agreement between the US and Iran aims to end the conflict, but its terms are contested, and Israeli military actions continue in Lebanon."
   }
 }

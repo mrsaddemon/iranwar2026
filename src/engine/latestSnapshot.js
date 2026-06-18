@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 998,
+  "updateSequence": 999,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T18:37:41.915Z",
+  "lastSyncedAt": "2026-06-18T21:14:19.657Z",
   "warDay": 111,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A Memorandum of Understanding between the US and Iran aims to end the conflict, but its terms are contested, and Israeli military actions continue to challenge its stability."
+    "summary": "An initial agreement between the US and Iran aims to end the conflict, but its terms are contested, and Israeli military actions continue in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.3
       }
     },
@@ -27,17 +27,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.4
+        "precision": 0.6,
+        "aggression": 0.5
       }
     }
   },
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 22,
     "sanctionsPressure": 54,
     "globalPressure": 54,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 18",
-      "text": "US and Iran sign MoU to end conflict, with Trump and Pezeshkian involved.",
+      "text": "US and Iran sign an initial agreement to end the conflict, with tougher talks expected to follow.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxONmxPV2hHMTdhbmZiLUZMNXRUOUpxUGVXR1hvcUlRTFpqYi1Eb3BpV2htUkdWeGs5T2lXYkUzVnBjOTZ6X2hKRGp1TVE5R0RKeHFValNrVkFKanN5eVhzTWtIazVEMkl1Tkg2UEowZzc5R2pQbGNPeXJsMGFOd2VlcVlLemJyeW1LT2N6d2REbHZYazdKc1poRHg2MjNpNFRJRmloa3ljdEFEMWJic29QUW5KTlZFOGVNNllJSzZTY9IBxAFBVV95cUxOMERVZUNMTFVZZXBfWW1za0UtWS1Ld1pqemRjM3k2bDh4TXJLU1Y2YXkzWFNXaDE5Y3owNmhYQ2h3blQ0UTlEcExRWmFXR21EUmlINllFNENNOFpBVEZVX2FGNnhDZW45LU9DaGN2NTRYVF9xRXp6dGpjS19lTm5ubEY5QnVaMnhmLWRPVFJaVVVHSzVZVm1EVGRTZ1U3aGdwU2d5MGpOQTIwdGVWY2YtLVVTZ3EtQmpIbnc0aDlUN0Ffa3FY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 998
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPOTBtUnVpSk00dUI4alhrVGxNYWRLbkttcl9OV2ZWZVhIQW9nYTQtd2RmNm9iMkE1NUloZEpwQ3VJeEhJanZwanBMOEdpNTR1bEpXcTVldnRhc3RqT3FfM3U0MkVWZXJRektyVGxRdnA2R1lQWm9JY3hSRTh6Y2Vybkd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 999
     },
     {
       "date": "Jun 18",
-      "text": "U.S. military lifts naval blockade of the Strait of Hormuz and Iranian ports following the MoU.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNQzVaVnhOUmJadnJldlVobC1NYnpCazNtdlR1Mm5VV2pWNjFMMkZDei12aDJZQmJOWWZrd1hJMlo5ZE5wOWFaTXpJM3M2czJBQVo4RDAxNTdyOGp6R0xVNHgzek5HOHFXaXZpRlVXTFBZLVhTcVpnM0VXTWQtMUotOUktYllnUFJKblRRTmJMY3IzRE4xTy1hY01zQ0dDVnd3NnNfd29LWEZrVmVNTUdNWHNCMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 998
-    },
-    {
-      "date": "Jun 18",
-      "text": "Iran announces plans to implement maritime fees for passage through the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQUThlbEZ0WlpCeWk5TXNSb3lnbklYZkdCYjdDTXlJTzBpMlRTZTBiay1sckV6bUMxVzBJMC1HR2R6NFZPWWxCeVdOd0hfZ1pPN203N1U1Ymx5UWZ1bzQwMGxqNjRnb1ZEc0YyX2N6VmdaZ3M4THZlbjhvdHlkRTQ0amZ1U1FaYk5GSFRDNW5QX0t2eWRUWGZ3dFdjSWl4ZjZsX1dILXFvWk5kTGNMTkpOMU1HNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 998
-    },
-    {
-      "date": "Jun 18",
-      "text": "Israel launches fresh strikes on Lebanon, killing three, despite the U.S.-Iran deal and Trump's criticism.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 998
-    },
-    {
-      "date": "Jun 18",
-      "text": "Israeli military publishes and demarcates a new, expanded Lebanon occupation map, challenging the U.S.-Iran pact.",
+      "text": "Israel launches fresh strikes on Lebanon and publishes an expanded occupation map despite the US-Iran deal.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPbTJ4V2NMM1hEMlJjU0F2bE5GYUdoWHBlS0pFbi0tdDZKc0U4SkpERFpmQUk1bjBzdUR2NjBPX2Q5M040dDNSZmFldGxTX0Ftd0JZV2hIYVVQWkJpd1EtQURvVUY4bEFWT0NMczRMUzI3RUl3cjFKZl9reGlqcXA3SGFOZU9MMTNqQnBuaUlHbXlDTExFMzNhNGR5enF1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBC",
-      "latestSinceUpdate": 998
+      "latestSinceUpdate": 999
     },
     {
       "date": "Jun 18",
-      "text": "Hezbollah is reportedly expecting a major cash injection from Iran once the deal with the US is sealed.",
+      "text": "Israeli attacks on southern Lebanon kill three people despite the recently signed US-Iran deal.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPRmRYSFFlOTJnelNXMDFWenltYXpzSkh5b3BrYUNJRTVNYXNSU3FlVmlRM0t4eXhhbnp2eHlmWUxoMVZnNzFYRGZqLTNkSXE3VG9RNGR2aDVPYl9uakxaX2pJbFI1RlRHWFgzZ29fMGFnZ0hyMFZqREFJdkQzVGJQVHRUeDNDcGd6X1RVdlZQRDlmcVg5S3ZvNmhRWGxLZEZWRWdzSUg3bm1ZLXpF0gGyAUFVX3lxTFBTQnVqcFBDQ1M5VDloX3M1eUVudDlIYWxDQnZIQW51ZXdnR05vaGxveV9WajM5T0FtcHdMMmNNUm9NTFY1NE5yLW9DeTBXQWxmLTFRTThHSS1HY3NpV19BdEJKa2dOTk1JRHhReFRBNnBWUTNmaFgweWdkdzg5RGkzSEZrNEhmM3lzNkE1MDlaVFYxdEl5NTl0TlU4TzdjUnJPRUlfNUxWMVI1cG90eXk4UEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 999
+    },
+    {
+      "date": "Jun 18",
+      "text": "The Strait of Hormuz sees increased shipping activity, including Iranian and Saudi Arabian tankers, following the US-Iran deal.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNNGZJRWpyYXMteEhEMHdxZ0VnNWxjMjA1dVhnUUtUa3o4RkhoOWkwZ3M1NExYX0tIZkp4NlpIVXFTMVlZeE1tLUhjUURHVmhkaUtMWUhBYVBuSzFkc0ExSTlKVjZNdnlkaWxacjlfXzNNV1JvN0UySllvQlJobXhMenRaUndYSXdQU0hqRU1ZZnF3UDFzNFVYRFpvaEo4NmtGemVZY3k1S3QtbEpIbU5JdElyWVDSAboBQVVfeXFMTUU1b19zbVVOSzB1SnNYTzRoUFAzTFBYQnJDRnBSM29iRkd1NHZ5R1JudGZRREF1MS1BWl9CbERGVUpmVi1RdllCTzRXUzMtRlg1bDRsZ0ktS1JPc0ZKMVA2V1hld3JNUVVKN1pKMklFMXJDaGduWVFjdGVWYWVfZUV5cTlVU1gyVTBndzIxd0EydjFlRGFvOXpnZTBWQXdOWlZTZzRJaktNNmtjZTMzbFVwRWNpWjRMeGx3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 998
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9FTV9MWkNyMUhBN0gtNU8ydmhRSEVDZE5HcVEzZHAzWkJOVEVPZHpuUFRLNWlsNktjWlJXV2pldTBQcFd0ZzhpLWl2amtZY0RDRGZtTHh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 999
+    },
+    {
+      "date": "Jun 18",
+      "text": "The US, Iran, and Hezbollah are reportedly sparring over the murky terms of the ceasefire deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQcGxOLWVERXRLS3M5VExBNDRhZVpNSmZEVFBSazl2MnVxTFpyMmtJdXRseTJUOXl0dXdtRUJ6V21NX1FtamkxNjQ4NGdmSVpMU2kwVzh5cHVyZ25TMkg1VjAxX1pJYjExNXc3X1B4cHl2ek5lRzRyNW9ST2V0c3JyWkdOd0Fka1FBajFXa3ZMeTdES1VqcDFoQg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "DW",
+      "latestSinceUpdate": 999
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
