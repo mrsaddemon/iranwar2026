@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 992,
-  "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T23:02:57.766Z",
-  "warDay": 110,
+  "updateSequence": 993,
+  "lastUpdated": "2026-06-18",
+  "lastSyncedAt": "2026-06-18T00:23:31.810Z",
+  "warDay": 111,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-17",
+  "lastNarrativeUpdate": "2026-06-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 2,
-    "summary": "A tentative US-Iran agreement to stop fighting and reopen the Strait of Hormuz is in effect but faces immediate challenges from ongoing Israeli strikes and disputed terms."
+    "summary": "An initial memorandum of understanding between the US and Iran to end fighting has been signed, but its terms are contested and Israel continues strikes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.3
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.4
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 45,
-    "tradeImpact": 33,
+    "oilDisruption": 65,
+    "tradeImpact": 47,
     "sanctionsPressure": 54,
-    "globalPressure": 58,
-    "allianceInfluence": 46
+    "globalPressure": 61,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 15",
-      "text": "Trump and Pezeshkian sign US-Iran MoU to end war.",
+      "text": "Trump and Pezeshkian virtually signed a Memorandum of Understanding between the US and Iran to end fighting and reopen shipping.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxONmxPV2hHMTdhbmZiLUZMNXRUOUpxUGVXR1hvcUlRTFpqYi1Eb3BpV2htUkdWeGs5T2lXYkUzVnBjOTZ6X2hKRGp1TVE5R0RKeHFValNrVkFKanN5eVhzTWtIazVEMkl1Tkg2UEowZzc5R2pQbGNPeXJsMGFOd2VlcVlLemJyeW1LT2N6d2REbHZYazdKc1poRHg2MjNpNFRJRmloa3ljdEFEMWJic29QUW5KTlZFOGVNNllJSzZTY9IBxAFBVV95cUxOMERVZUNMTFVZZXBfWW1za0UtWS1Ld1pqemRjM3k2bDh4TXJLU1Y2YXkzWFNXaDE5Y3owNmhYQ2h3blQ0UTlEcExRWmFXR21EUmlINllFNENNOFpBVEZVX2FGNnhDZW45LU9DaGN2NTRYVF9xRXp6dGpjS19lTm5ubEY5QnVaMnhmLWRPVFJaVVVHSzVZVm1EVGRTZ1U3aGdwU2d5MGpOQTIwdGVWY2YtLVVTZ3EtQmpIbnc0aDlUN0Ffa3FY?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 992
+      "latestSinceUpdate": 993
     },
     {
       "date": "Jun 15",
-      "text": "Trump and Vance virtually sign US-Iran agreement.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBsS3dOOXZmUFdkN2htVW0wQjB4MzdrUlBWazE3T3hDNjZSajhKeXIyaTlodjlFNV9oWF9SeHdBcmdPYlAyaG5QeVNHeEFUeUQxeW9nZkxyb3U0LTBLb3lYVUoyR3V3MGFFbkFIb2NYcWRBZW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 992
-    },
-    {
-      "date": "Jun 15",
-      "text": "Iran states initial deal requires Israel to withdraw from Lebanon.",
+      "text": "Iran stated the initial deal with the US requires Israel to withdraw from Lebanon.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOMU9UVU0xalpEMWRiaWd2TmRycmtVR0x4aXhhOUFEaTZpbzFRY3l0YzRqb0NxcVZDa2NDX3NscUJfeDNrbkh0bXA4OXNtaEFCU0t0X0w3Q2lfMDNlWUY2SDhDMnRrTVdVUENVQnNmWXRqZ0sydXBVVmU3aEExX3NKOEdaUFo5b0FFWUZTRl9Ia09QQy1IUlBpNW5FaUVUd1lKajRnXy1B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 992
+      "latestSinceUpdate": 993
     },
     {
-      "date": "Jun 14",
-      "text": "U.S. and Iran sign agreement to stop fighting and reopen Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 992
-    },
-    {
-      "date": "Jun 14",
-      "text": "Israel launches fresh strikes on Lebanon despite Trump criticism.",
+      "date": "Jun 15",
+      "text": "Israel launched fresh strikes on Lebanon despite criticism from Trump.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 992
+      "latestSinceUpdate": 993
     },
     {
-      "date": "Jun 14",
-      "text": "Israeli air strikes on Lebanon continue despite US-Iran deal.",
+      "date": "Jun 15",
+      "text": "Tehran claimed it will charge ships to transit the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNZjV1cGh5RmM4VnBKVU1xMlFjb0VyV2dvNDVfLWRTcm5rcV84eENKREEzVnpCQXF5TmxqR29HVTVER21WVHE0WjZ6czU0ekVTUDhhaXJfUVVjNXk3dzFhc0RrOGhDSnVKeDlGTktvX09rX2Y3ekxBTkJDOWI3dlVjb3BJa1l6YTlVdmxCTjQwdWdPWVItenoyY01aaDZuNlBiZG1tRVN2UXTSAa4BQVVfeXFMTVFwQXdJS0Zzb3FtamIwTHpxNDdRQ1Z0R09jcnlIeTA5YmdMWkpsbXMtcHJkcGo0MThJdG1yUXNtVDFwYjUzNDA2MHJLVWptUkcxMm9vY1hzOUg3aUdGd0kxbHFNTVBTUnZNd3cyOUZPUXBXVWlsNG0yTkc1ci1NbDJqU2FVM09PZkMwNkUwNGxhc0RKbWRPUlczdEtpam85YTB5Yldjc1hVc0x6cnJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 992
+      "sourceUrl": "https://news.google.com/articles/CBMi6AFBVV95cUxNZHVLRlJEcXVOREtRcU9HU3FuaDR5LTVuZmhuNVM5REtTRkx4RDBuT1pwcTZHeFgxQkRQU3Qzd08xZXZNTTJRaUZvNHFsWVlrbmwyV0l5dUM1OTFlX214TTNZVTAxVHpTQnFTT0VSdTg5YXZFYmNDSUh6NUNCbS1rVkI4b2d6ZEZzcGtJdUplUUU5Mmpvd0o0Qmg0dXRGU1JHQ1Rtdm54MFZLUk9INEVnOUJXM28zTDRZWFFheE1ULXg1bDdBVGM2cjcyOXp1Y0MxXy04bWlSLTJkOEt1QUt6WkJ0emdjYldn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 993
+    },
+    {
+      "date": "Jun 15",
+      "text": "Three Iranian tankers exited a U.S. blockade for the first time in months.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 993
+    },
+    {
+      "date": "Jun 15",
+      "text": "The Pentagon revealed Musk’s AI, Grok, was used in strikes in Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxQOWVsVmZONEYtNXNyajhscnZGTTREY2xnV2I1Q2pOdmNCQ1lWX2gxRThnZjRRYkdFMjBMRHRYcXdFMFl2XzFqSV9yMnUtR29meG8ySEV5MGFJYXhvR2h5UHlYQkhIZkNfYXhsa2pqQXlReTE4RHlJMWQydlJ0WmtKakpkTm9TVHF4OUZOUmhUMWR6NmNiX2RodGFUQ2xzMXI5SnJZOTRjUWFZelZjV3ZuUE11b1ZxVEtnQmlYdVozU21CQUFQWnZYeTJQNXhwZ2gyQUREQVlmNDFaaE0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Le Monde.fr",
+      "latestSinceUpdate": 993
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Administration",
-      "headline": "Trump Hopes to Put War in 'Rearview Mirror' with Iran Deal",
-      "summary": "The U.S. administration, led by Trump, has signed an initial deal with Iran to end the war and reopen shipping lanes, expressing a desire for de-escalation. Trump has also criticized Israel's actions in Lebanon, urging a stand-down.",
+      "perspective": "US Diplomacy",
+      "headline": "US Brokers Iran Deal Amid Regional Tensions",
+      "summary": "The US, led by Trump, has brokered an initial agreement with Iran to end the conflict and reopen shipping lanes. This effort comes despite immediate challenges regarding the deal's implementation and continued Israeli military actions.",
       "tone": "strained",
-      "latestSinceUpdate": 986
+      "latestSinceUpdate": 993
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Warns of 'Harsh Response,' Demands Israeli Withdrawal",
-      "summary": "Iran has warned of a 'harsh response' to attacks in Lebanon and asserts that the deal with the U.S. requires Israel to withdraw from the region. Despite the agreement, Iran has reportedly fired drones nightly in the Strait of Hormuz.",
+      "perspective": "Iranian Assertiveness",
+      "headline": "Iran Sets Conditions, Asserts Hormuz Control",
+      "summary": "Iran has signed a deal with the US but immediately set conditions for Israeli withdrawal from Lebanon and asserted its right to charge transit fees in the Strait of Hormuz. Iranian tankers have also moved past a US blockade, signaling renewed assertiveness.",
       "tone": "defiant",
-      "latestSinceUpdate": 986
+      "latestSinceUpdate": 993
     },
     {
-      "perspective": "Israel",
-      "headline": "Israel Under Pressure Amid Beirut Strikes and Withdrawal Demands",
-      "summary": "Israel's actions in Lebanon, including Beirut strikes, have drawn criticism from Trump and are cited by Iran as a condition for the U.S. deal. The demand for Israeli withdrawal from Lebanon remains a contentious point.",
+      "perspective": "Israeli Autonomy",
+      "headline": "Israel Continues Lebanon Strikes Despite US Criticism",
+      "summary": "Israel continues its military operations in Lebanon, launching fresh strikes despite US criticism. This indicates a continued focus on its security objectives, seemingly independent of the US-Iran agreement's immediate implications.",
+      "tone": "defiant",
+      "latestSinceUpdate": 993
+    },
+    {
+      "perspective": "Global Shipping Concerns",
+      "headline": "Hormuz Reopening Met with Wary Disbelief",
+      "summary": "Shipowners are observing the reopening of the Strait of Hormuz with 'wary disbelief' following the US-Iran agreement. This highlights ongoing uncertainty about maritime security and potential new transit costs imposed by Iran.",
       "tone": "anxious",
-      "latestSinceUpdate": 986
-    },
-    {
-      "perspective": "Global Shipping/Energy",
-      "headline": "Strait of Hormuz Reopening Amid Continued Drone Activity",
-      "summary": "The U.S.-Iran deal aims to reopen the Strait of Hormuz, a critical shipping lane. However, Iran's continued nightly drone firings in the Strait and its assessed ability to shut it down at will introduce significant uncertainty and risk.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 986
+      "latestSinceUpdate": 993
     }
   ]
 });

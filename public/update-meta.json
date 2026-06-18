@@ -1,13 +1,13 @@
 {
-  "updateSequence": 992,
-  "lastUpdated": "2026-06-17",
-  "lastSyncedAt": "2026-06-17T23:02:57.766Z",
-  "warDay": 110,
+  "updateSequence": 993,
+  "lastUpdated": "2026-06-18",
+  "lastSyncedAt": "2026-06-18T00:23:31.810Z",
+  "warDay": 111,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 2,
-    "summary": "A tentative US-Iran agreement to stop fighting and reopen the Strait of Hormuz is in effect but faces immediate challenges from ongoing Israeli strikes and disputed terms."
+    "summary": "An initial memorandum of understanding between the US and Iran to end fighting has been signed, but its terms are contested and Israel continues strikes in Lebanon."
   }
 }
