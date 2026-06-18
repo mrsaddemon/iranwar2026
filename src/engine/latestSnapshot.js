@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 994,
+  "updateSequence": 995,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T05:20:45.768Z",
+  "lastSyncedAt": "2026-06-18T09:49:21.220Z",
   "warDay": 111,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-18",
@@ -9,16 +9,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 60,
-    "summary": "An initial peace deal has been signed between the US and Iran to end direct conflict and ease sanctions, but regional hostilities persist, making the broader ceasefire fragile."
+    "durationDays": 2,
+    "summary": "A peace agreement has been signed between the US and Iran, but its stability is undermined by ongoing Israeli military actions and new threats from Iran regarding shipping."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.3
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.4
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 62,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 16",
-      "text": "US and Iran sign initial deal to end war, ease sanctions and open strait as nuclear talks continue.",
+      "text": "The United States and Iran signed a peace agreement to end their conflict and reopen shipping routes.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQYzhJLTNmdndOU3pZcnk5NHo0eTlWSXd1OTNGenFWRDUxbGVuZnhXLUN4QWs4RTAwUEpvT0xtd29yZ1J3U1d5Q0hhWkpBZ2U3MGx5QkltNGl3SkdvRWY2aGU2dmZCMnZ0aU5Td0xidVZ4VHExdnBkQmJYeEhYUjFWTXUxMlJKaFVwcFJfNHI3eDJqcnYtX09wM09YcmN5U2JjbkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 994
-    },
-    {
-      "date": "Jun 16",
-      "text": "Trump signs Iran peace plan, claiming deal averts ‘worldwide depression’ and releases official agreement.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1VekxfZkhaMm9LaFU4TndvZk5zNGNiR1lKYTdaSkxGZmJMLUt5bTZBakJxXzY4MzZoZ2xNOU9iY3RaWXByV0x1N3hEamtCTFBPVlBEYVNUYnM2RjNOd1FZdkJIdW9WSkE2cmh0N000d0VaVW1lQm43RDdER1g?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 994
-    },
-    {
-      "date": "Jun 17",
-      "text": "Israeli air strikes on Lebanon continue despite the US-Iran deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNZjV1cGh5RmM4VnBKVU1xMlFjb0VyV2dvNDVfLWRTcm5rcV84eENKREEzVnpCQXF5TmxqR29HVTVER21WVHE0WjZ6czU0ekVTUDhhaXJfUVVjNXk3dzFhc0RrOGhDSnVKeDlGTktvX09rX2Y3ekxBTkJDOWI3dlVjb3BJa1l6YTlVdmxCTjQwdWdPWVItenoyY01aaDZuNlBiZG1tRVN2UXTSAa4BQVVfeXFMTVFwQXdJS0Zzb3FtamIwTHpxNDdRQ1Z0R09jcnlIeTA5YmdMWkpsbXMtcHJkcGo0MThJdG1yUXNtVDFwYjUzNDA2MHJLVWptUkcxMm9vY1hzOUg3aUdGd0kxbHFNTVBTUnZNd3cyOUZPUXBXVWlsNG0yTkc1ci1NbDJqU2FVM09PZkMwNkUwNGxhc0RKbWRPUlczdEtpam85YTB5Yldjc1hVc0x6cnJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 994
-    },
-    {
-      "date": "Jun 17",
-      "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 994
-    },
-    {
-      "date": "Jun 17",
-      "text": "IDF reserve soldier killed, 7 others wounded by Hezbollah explosive in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiYkFVX3lxTE5aUlJ5QzlZc3U0MWRrZU0wQktRY0xfdDVpWEZkaHUtak5QQ2pBMDNMcEFnYTJNRjduWTZ1dVlwRzlsbExXVEhjWThhNXplMXIxcWE3NXBxOFdSQmNwX0RtTVBn0gFnQVVfeXFMTTZjWG1lNGlMWm9KTExsM2F3OUkzRFY4bllVdU8zWUxTUzNlWEIyQnQyNTJjTjlvdjd6SFpNLWFTNFpUenJ2SVJVY3V4SFlwMXFsZTN3YVJHRTd0a0dLWDhaajRWQnMwaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 994
+      "latestSinceUpdate": 995
     },
     {
       "date": "Jun 18",
-      "text": "Tehran says it will charge ships in the Strait of Hormuz after 60 days.",
+      "text": "Israel continues air strikes in Lebanon and conducts strikes in Iran despite the US-Iran peace agreement.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi9gFBVV95cUxNMDl6SEpjMVhoS0xBTmlGYXo0eGtPbjE5bGhXM3VpZmFicUNsS01ydVVEaWNJWUNNTFJwMUdlUVVBYlRkQUZyVVIxR0JiOTA2a2dJczJxVzd2MnlEZWpkQ2NUTlk1NjFJVFE5YUd0a0YtbGp6cTNheE5kcmJ3Z3NUbVRNVTlIU3llWGt6RENfQWZNLS1TRlc0SXRUWENpcWFkaEhnZ0hMbWdDeHVoZVNuZzNrWlRTZGl6UHowclJtRUZoT1RYQ0hSaHVPYlpsdVQ5azN2aG1uNDFaYkRDMlI0UjdnVmg3cDMtZTNZT3I4QUs3OGdUbXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 994
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNZjV1cGh5RmM4VnBKVU1xMlFjb0VyV2dvNDVfLWRTcm5rcV84eENKREEzVnpCQXF5TmxqR29HVTVER21WVHE0WjZ6czU0ekVTUDhhaXJfUVVjNXk3dzFhc0RrOGhDSnVKeDlGTktvX09rX2Y3ekxBTkJDOWI3dlVjb3BJa1l6YTlVdmxCTjQwdWdPWVItenoyY01aaDZuNlBiZG1tRVN2UXQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 995
+    },
+    {
+      "date": "Jun 18",
+      "text": "Iran announced it will begin charging ships in the Strait of Hormuz after 60 days.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 995
+    },
+    {
+      "date": "Jun 18",
+      "text": "An average of 12 children are killed or maimed daily in Lebanon, despite an existing Hezbollah-Israel truce.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1zVmFSYnIxSjgyN2ZKakVJejg2bnI3enJIQ0c0MDFZdjd0ekJkbDIxMTlrbkhaSi0wRnUxYnZtTnVINWEyMlhrdGMtRFZXZnJVZ0doZnp3MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "UN News",
+      "latestSinceUpdate": 995
+    },
+    {
+      "date": "Jun 18",
+      "text": "The Pentagon revealed that Musk's AI, Grok, was utilized in recent strikes in Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxQOWVsVmZONEYtNXNyajhscnZGTTREY2xnV2I1Q2pOdmNCQ1lWX2gxRThnZjRRYkdFMjBMRHRYcXdFMFl2XzFqSV9yMnUtR29meG8ySEV5MGFJYXhvR2h5UHlYQkhIZkNfYXhsa2pqQXlReTE4RHlJMWQydlJ0WmtKakpkTm9TVHF4OUZOUmhUMWR6NmNiX2RodGFUQ2xzMXI5SnJZOTRjUWFZelZjV3ZuUE11b1ZxVEtnQmlYdVozU21CQUFQWnZYeTJQNXhwZ2gyQUREQVlmNDFaaE0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Le Monde.fr",
+      "latestSinceUpdate": 995
+    },
+    {
+      "date": "Recent",
+      "text": "Months have passed without answers regarding a previous U.S. strike on an Iranian girls' school.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 995
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

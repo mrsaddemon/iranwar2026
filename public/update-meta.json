@@ -1,13 +1,13 @@
 {
-  "updateSequence": 994,
+  "updateSequence": 995,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T05:20:45.768Z",
+  "lastSyncedAt": "2026-06-18T09:49:21.220Z",
   "warDay": 111,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 60,
-    "summary": "An initial peace deal has been signed between the US and Iran to end direct conflict and ease sanctions, but regional hostilities persist, making the broader ceasefire fragile."
+    "durationDays": 2,
+    "summary": "A peace agreement has been signed between the US and Iran, but its stability is undermined by ongoing Israeli military actions and new threats from Iran regarding shipping."
   }
 }
