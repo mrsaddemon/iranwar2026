@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 997,
+  "updateSequence": 998,
   "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T16:18:50.703Z",
+  "lastSyncedAt": "2026-06-18T18:37:41.915Z",
   "warDay": 111,
-  "summary": "The US and Iran have signed a deal to end conflict, allowing oil tankers to pass through the Strait of Hormuz, though Israel continues strikes on Lebanon and terms of the ceasefire remain murky.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "A deal between the US and Iran to end conflict has been signed, but its terms are contested, and Israeli military actions continue in the region."
+    "durationDays": 1,
+    "summary": "A Memorandum of Understanding between the US and Iran aims to end the conflict, but its terms are contested, and Israeli military actions continue to challenge its stability."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.3
       }
     },
     "israel": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
+    "nuclearIndex": 15,
+    "escalationLevel": 45,
     "oilDisruption": 30,
     "tradeImpact": 22,
     "sanctionsPressure": 54,
-    "globalPressure": 55,
+    "globalPressure": 54,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 16",
-      "text": "US and Iran sign MoU to end conflict, hailed as 'historic document' by both presidents.",
+      "date": "Jun 18",
+      "text": "US and Iran sign MoU to end conflict, with Trump and Pezeshkian involved.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxONmxPV2hHMTdhbmZiLUZMNXRUOUpxUGVXR1hvcUlRTFpqYi1Eb3BpV2htUkdWeGs5T2lXYkUzVnBjOTZ6X2hKRGp1TVE5R0RKeHFValNrVkFKanN5eVhzTWtIazVEMkl1Tkg2UEowZzc5R2pQbGNPeXJsMGFOd2VlcVlLemJyeW1LT2N6d2REbHZYazdKc1poRHg2MjNpNFRJRmloa3ljdEFEMWJic29QUW5KTlZFOGVNNllJSzZTY9IBxAFBVV95cUxOMERVZUNMTFVZZXBfWW1za0UtWS1Ld1pqemRjM3k2bDh4TXJLU1Y2YXkzWFNXaDE5Y3owNmhYQ2h3blQ0UTlEcExRWmFXR21EUmlINllFNENNOFpBVEZVX2FGNnhDZW45LU9DaGN2NTRYVF9xRXp6dGpjS19lTm5ubEY5QnVaMnhmLWRPVFJaVVVHSzVZVm1EVGRTZ1U3aGdwU2d5MGpOQTIwdGVWY2YtLVVTZ3EtQmpIbnc0aDlUN0Ffa3FY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 997
+      "latestSinceUpdate": 998
     },
     {
-      "date": "Jun 17",
-      "text": "Oil tankers pass through the Strait of Hormuz following the US-Iran deal.",
+      "date": "Jun 18",
+      "text": "U.S. military lifts naval blockade of the Strait of Hormuz and Iranian ports following the MoU.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNZFY3MnNmZ09mREw2aE9SRkR5MXFsUERRRTFfT1B5ZVdhaVdweDNnNGN3c2o3cEVndWt5Y2FBMDVQakQxclN6QzZEM0tzdFNGV1AycE1rU3RKcVdjQ1Vyd3ljbnF4VWJIeVBfU1Q3aHRrYmxNV1dZVHlFMlJKODZMcDQ3TUs1MmpMS2R4ZEVCNWlVcVJjMXBVTXZHSEpwQTdGVWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 997
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNQzVaVnhOUmJadnJldlVobC1NYnpCazNtdlR1Mm5VV2pWNjFMMkZDei12aDJZQmJOWWZrd1hJMlo5ZE5wOWFaTXpJM3M2czJBQVo4RDAxNTdyOGp6R0xVNHgzek5HOHFXaXZpRlVXTFBZLVhTcVpnM0VXTWQtMUotOUktYllnUFJKblRRTmJMY3IzRE4xTy1hY01zQ0dDVnd3NnNfd29LWEZrVmVNTUdNWHNCMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 998
     },
     {
-      "date": "Jun 17",
-      "text": "Israel launches fresh air strikes on Lebanon despite the US-Iran deal and Trump's criticism.",
+      "date": "Jun 18",
+      "text": "Iran announces plans to implement maritime fees for passage through the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQUThlbEZ0WlpCeWk5TXNSb3lnbklYZkdCYjdDTXlJTzBpMlRTZTBiay1sckV6bUMxVzBJMC1HR2R6NFZPWWxCeVdOd0hfZ1pPN203N1U1Ymx5UWZ1bzQwMGxqNjRnb1ZEc0YyX2N6VmdaZ3M4THZlbjhvdHlkRTQ0amZ1U1FaYk5GSFRDNW5QX0t2eWRUWGZ3dFdjSWl4ZjZsX1dILXFvWk5kTGNMTkpOMU1HNA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 998
+    },
+    {
+      "date": "Jun 18",
+      "text": "Israel launches fresh strikes on Lebanon, killing three, despite the U.S.-Iran deal and Trump's criticism.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5Bel9CaVBKVXJiT2lxdHpHa3RXZ182QWFDSjBUbVJST1lZYWhjakRJSWEtY0lUdEQzYXFZekM3SEx1eEItVGJrVXZZT1c0ZENfUjBnNDdvZTd6UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 997
+      "latestSinceUpdate": 998
     },
     {
-      "date": "Jun 17",
-      "text": "US states it will restart military action if Iran does not uphold the terms of the deal.",
+      "date": "Jun 18",
+      "text": "Israeli military publishes and demarcates a new, expanded Lebanon occupation map, challenging the U.S.-Iran pact.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi9gFBVV95cUxNMDl6SEpjMVhoS0xBTmlGYXo0eGtPbjE5bGhXM3VpZmFicUNsS01ydVVEaWNJWUNNTFJwMUdlUVVBYlRkQUZyVVIxR0JiOTA2a2dJczJxVzd2MnlEZWpkQ2NUTlk1NjFJVFE5YUd0a0YtbGp6cTNheE5kcmJ3Z3NUbVRNVTlIU3llWGt6RENfQWZNLS1TRlc0SXRUWENpcWFkaEhnZ0hMbWdDeHVoZVNuZzNrWlRTZGl6UHowclJtRUZoT1RYQ0hSaHVPYlpsdVQ5azN2aG1uNDFaYkRDMlI0UjdnVmg3cDMtZTNZT3I4QUs3OGdUbXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 997
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPbTJ4V2NMM1hEMlJjU0F2bE5GYUdoWHBlS0pFbi0tdDZKc0U4SkpERFpmQUk1bjBzdUR2NjBPX2Q5M040dDNSZmFldGxTX0Ftd0JZV2hIYVVQWkJpd1EtQURvVUY4bEFWT0NMczRMUzI3RUl3cjFKZl9reGlqcXA3SGFOZU9MMTNqQnBuaUlHbXlDTExFMzNhNGR5enF1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBC",
+      "latestSinceUpdate": 998
     },
     {
-      "date": "Jun 17",
-      "text": "Hezbollah is reportedly expecting a major cash injection from Iran once the deal is sealed with the US.",
+      "date": "Jun 18",
+      "text": "Hezbollah is reportedly expecting a major cash injection from Iran once the deal with the US is sealed.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNNGZJRWpyYXMteEhEMHdxZ0VnNWxjMjA1dVhnUUtUa3o4RkhoOWkwZ3M1NExYX0tIZkp4NlpIVXFTMVlZeE1tLUhjUURHVmhkaUtMWUhBYVBuSzFkc0ExSTlKVjZNdnlkaWxacjlfXzNNV1JvN0UySllvQlJobXhMenRaUndYSXdQU0hqRU1ZZnF3UDFzNFVYRFpvaEo4NmtGemVZY3k1S3QtbEpIbU5JdElyWVDSAboBQVVfeXFMTUU1b19zbVVOSzB1SnNYTzRoUFAzTFBYQnJDRnBSM29iRkd1NHZ5R1JudGZRREF1MS1BWl9CbERGVUpmVi1RdllCTzRXUzMtRlg1bDRsZ0ktS1JPc0ZKMVA2V1hld3JNUVVKN1pKMklFMXJDaGduWVFjdGVWYWVfZUV5cTlVU1gyVTBndzIxd0EydjFlRGFvOXpnZTBWQXdOWlZTZzRJaktNNmtjZTMzbFVwRWNpWjRMeGx3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 997
-    },
-    {
-      "date": "Jun 17",
-      "text": "German military prepares for a possible mine-clearing mission in the region.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQYWJZYkV6UWd4eWZ6bm5MbGlMbzMzN290YXZlT2t4bG9DeHp0c0JPYnU3YmxEcmpYc1AycTJtWGszR2NzYmY2QmRwWFR1azZRdktfYzctRHRSQU55S213MTRheEFPc1B0Qk1YdW9oSWhZOXd6OFZLeG9hYmhvZi1zNHk5TDZPWmw1a3pQNnRhN0k1RmoyUDNVd1JJZGdqU0XSAZ8BQVVfeXFMTVlKR0s4TzdvNEdNRl9XU3dJSHd4dUpxRjh2RWxYWmFYSVNNN0ZhM2d6Sk91VFlrRkYxYktOODVIeWxKNXg4X1ZIVkJTWFMxdEl5bU5yRlhVQ3hSQlowZ1phbEZRQXpSYXRLYUtNTDg3SGtraTlIMWlreVNHZHhfMHMzTUhZZ1F5c1lkMDI3MXJ2eGc0TW1yUXRCWktEQlJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW",
-      "latestSinceUpdate": 997
+      "latestSinceUpdate": 998
     }
   ],
   "sourceStatuses": [
