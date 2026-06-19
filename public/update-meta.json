@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1000,
-  "lastUpdated": "2026-06-18",
-  "lastSyncedAt": "2026-06-18T23:11:49.949Z",
-  "warDay": 111,
+  "updateSequence": 1001,
+  "lastUpdated": "2026-06-19",
+  "lastSyncedAt": "2026-06-19T02:07:49.155Z",
+  "warDay": 112,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
-    "durationDays": 7,
-    "summary": "An initial agreement between the US and Iran has led to a lifting of blockades, while Israel has committed to a truce with Lebanon, though both remain fragile due to ongoing strikes and disputes over terms."
+    "durationDays": 14,
+    "summary": "An initial agreement between the US and Iran to end the conflict has been signed, but its terms remain murky and regional hostilities persist."
   }
 }
