@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1005,
+  "updateSequence": 1006,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T17:00:18.347Z",
+  "lastSyncedAt": "2026-06-19T19:02:56.563Z",
   "warDay": 112,
-  "summary": "A US-Iran deal has been signed, leading to the lifting of a blockade on Iranian ports and the resumption of shipping through the Strait of Hormuz, while a fragile ceasefire between Israel and Hezbollah has been agreed upon amidst continued reports of strikes.",
+  "summary": "The United States and Iran have signed a preliminary agreement leading to the lifting of the blockade on Iranian ports and increased oil tanker traffic in the Strait of Hormuz, while Israel and Hezbollah have agreed to a ceasefire amidst reports of continued strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-06-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Israel and Hezbollah have agreed to renew a ceasefire, though reports indicate continued strikes in Lebanon, highlighting its fragile nature."
+    "summary": "Israel and Hezbollah have agreed to a ceasefire, but reports of continued strikes in Lebanon suggest its immediate stability is uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.3
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 55,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
-    "sanctionsPressure": 58,
-    "globalPressure": 67,
-    "allianceInfluence": 68
+    "oilDisruption": 20,
+    "tradeImpact": 15,
+    "sanctionsPressure": 54,
+    "globalPressure": 53,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 19",
-      "text": "JD Vance cancels trip to Switzerland, postponing initial US-Iran nuclear negotiations.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1005
+      "text": "US and Iran sign a 14-point preliminary agreement to end the war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQYjZvaV90am9YWnNwSU83QTNBNWphWUlnbGwtTUV4X0Z1emxteURKTV8zMmVETkR5SUtjUmNHTFVvOHJvQ3NuZE00NFdpaGdQbjV3b0pWV0lGcmtKYzgzaE9ldjl5VVZNSmpqbng5WThHQWFmMWNFVzFRcUVER09yLVZZeWRjQU1JWnI5RG1UeU5TYUJfcUtvRTlucU0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1006
     },
     {
       "date": "Jun 19",
-      "text": "US announces blockade of Iranian ports lifted as part of a new deal.",
+      "text": "US lifts blockade of Iranian ports as part of the new agreement.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1005
+      "latestSinceUpdate": 1006
     },
     {
       "date": "Jun 19",
-      "text": "Israel and Hezbollah agree to renew ceasefire, though reports indicate continued strikes in Lebanon.",
+      "text": "Oil tanker traffic in the Strait of Hormuz significantly increases following the US-Iran deal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQRHdNd05CR2hzb1cyLTdhWmxTazZUdGNvZEFNcjdqTENtM0JHRW5wWDMxQzl3aGZ1eFUzWVBwQkxWVTNUcDhVZ1U2T2tleThMNmlGLXdIUzMyQjdHa3U5dFcwdnNfeV9pU0Q2eDloQ3RXMTlaSnlxV3c1OXVfcmRtSFJoR3V0RVEtSTVmRdIBkgFBVV95cUxPN3lPRkw3MHNDVmxWS0NFVE4wU0Z4cFBuY0Vva1E2a2ctckRKek9iUDNia2ZON0JhX2Q1X2Nsa2tkV3BHbVZjcmROLVZsekNUb3Nlc3dvbzVsX0FQaWNrUllEOVVEeXhaWEJZb213TlNibG16NFdxNjBDWVJnUXVxT250bnNkZjFWRFdPcEV2dEcxdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1006
+    },
+    {
+      "date": "Jun 19",
+      "text": "Israel and Hezbollah agree to a ceasefire, though reports indicate continued attacks in Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE81dUtGajhYYWJSU19acmJzaGRKdk5VX1k4ZWJ6My1jb1VJQjhnOUF0cFdQaEpYWDBiQ2dvSWpES0ZCSXZuWW9tSGwxX01vSHdhVE5Jaw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1005
+      "latestSinceUpdate": 1006
     },
     {
       "date": "Jun 19",
-      "text": "Oil prices briefly turn negative following news of the Israel-Hezbollah ceasefire agreement.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNY2VWS2x4Zy1kOEE0ZzJwem05YW5GdkxJTnp6a2w2UFRYOWs4STFtY1lOTGJmbVZfUTVDamVHc2RXX0x4QmtZMDBTU2JKQnR1U25BZFk1RmFwVzdhSFJxVXJ1WmZhNk9tSHVSeFpNMUVDMk9LSXBqcDJ2VUo1cWw1WTRESUZKd2l3TUQwSDY3a3hnSkZqZmdUSU52TEJMdWlJVGstWVhLNnBGb3ds0gGyAUFVX3lxTE5RemRYYTNUSkZacG5zdEF3TC1CQk1EeUIxWlpfc3BVa01vTmllUHVDN1FSeHJuYkZCb19aLW5ldWZ4Vzd1YWxsR2s2bFBGdGNwQ0xUQTQxanBhNmZiR1RJX3gtcE13dFpMS0xLY3ZPY3V4ZXVxaktXcGNyQ2ZlcTdvSDdibXV3SThIRU5WWXdYZ0R3amxyQVBwOGVTdlhoaTl6UDQ0TUhwRHpBdE9HdEhwd1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1005
-    },
-    {
-      "date": "Jun 19",
-      "text": "Stranded ships begin to cross the Strait of Hormuz after the initial U.S.-Iran deal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQSjQzdWlOdWpGbWN0OU5ENGl3ZTVTMnVsT09VRlQyc1IxSGtRUkQ5SERMMWM2cXdkWmEyTGpiZkpzaEFBZm0zR3pxazR2Q1BNUGxVc1BtdnB1OFZFQm9mR2liUm4ybWJ6WFN1SFBFc2dERVN1VGxOUHQxd0lKODVOZkk0Z21fRm5yMEdYdHZ2bHFhSGRQS3ZRQ0kwS0wwS2s2UVFtLUhCSFJ1ZVRMZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1005
-    },
-    {
-      "date": "Jun 19",
-      "text": "Pentagon investigation into an Iran school strike is being finalized.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPQjhtZ1VHZjRERUl4SUJ3MVZSbHB0c1JHZUZyYmY4bHJ1SFl0TDlveTk2UmdTT1pWM2hyNEdBajBXbzRQX2RJSE1PS1hIa0dQbG4ySnF2V0Q3bzBpano5SzdLN2pHMEFQWG1RVFA3U1oxOG4zNDhNOW1FOWk4MUliZ1NsaS02cVhTaEl4Tjg0VndLUlBEczNZM0l0aVN2d2lGY09xZ2dqdUNqSGFYcWx2SlJDYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1005
+      "text": "Initial US-Iran nuclear negotiations in Switzerland are postponed.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPeFRjLUpWQkxqczhQeE1SVXZvMW1JYi15Q2lTMEJxVFg0enRjX0Z1SjIzNjVybWg2Vkx5dTNyYVVETVlMWFNRdkJ1aXVmV0pxZUJ5T0NWRUJQdVBRUUZtLXhId1V0bEFwUkNiY1ZDMEN2YVBmSkY4d1lUNEt2M1NDN1dyZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1006
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
