@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1003,
+  "updateSequence": 1004,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T11:50:19.412Z",
+  "lastSyncedAt": "2026-06-19T14:31:48.217Z",
   "warDay": 112,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A US-Iran deal has been signed, leading to the lifting of a blockade on Iranian ports, though initial talks in Switzerland were postponed amid Israeli strikes on Lebanon and a fragile Israel-Hezbollah ceasefire agreement.",
   "lastNarrativeUpdate": "2026-06-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
-    "durationDays": 60,
-    "summary": "An initial US-Iran deal was signed, leading to a 60-day waiver of Strait of Hormuz fees, but ongoing Israeli strikes in Lebanon and Hezbollah retaliation indicate a fragile broader ceasefire."
+    "confidence": 0.98,
+    "durationDays": 3,
+    "summary": "A ceasefire between Israel and Hezbollah has been agreed upon, but reports indicate continued attacks and Israeli strikes on Lebanon, making its stability uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.4
+        "precision": 0.85,
+        "aggression": 0.35
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.55,
+        "aggression": 0.55
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 48,
     "escalationLevel": 48,
-    "oilDisruption": 50,
-    "tradeImpact": 37,
+    "oilDisruption": 55,
+    "tradeImpact": 40,
     "sanctionsPressure": 54,
-    "globalPressure": 59,
-    "allianceInfluence": 51
+    "globalPressure": 60,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,41 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 19",
-      "text": "US-Iran talks in Switzerland postponed as Israel strikes targets in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxObmxTZUxEX2lPNnJHQ3J1V0NZUmlOR3E1d25QTUxIWXZKYms4SUhTTnJlUXB3amxfMDllc29oVXg5UF96S2tZajhxSnR2TFdwUUpsd0E3elNydEdoWE4xN0NMSFVKbE9wVVhqZFUtdXpOakQtRVlxSTB2Mk1QRHFVTC05WFpraUNqY29wbV9YUndEMnUtMGg0V3RzUm1ibW05WVZ2MmZPWnpnVnEwMkpyX2ZROUR6clFBVEtLeE5lWjJUQ0lWMzNRU3ZTSVZFUUtmN3cyNVdyMUQ4VUk0RW5iNGg0cGNMdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1003
-    },
-    {
-      "date": "Jun 19",
-      "text": "Israeli strikes kill at least 18 amid intense fighting in southern Lebanon; Hezbollah kills four Israeli soldiers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPRmRYSFFlOTJnelNXMDFWenltYXpzSkh5b3BrYUNJRTVNYXNSU3FlVmlRM0t4eXhhbnp2eHlmWUxoMVZnNzFYRGZqLTNkSXE3VG9RNGR2aDVPYl9uakxaX2pJbFI1RlRHWFgzZ29fMGFnZ0hyMFZqREFJdkQzVGJQVHRUeDNDcGd6X1RVdlZQRDlmcVg5S3ZvNmhRWGxLZEZWRWdzSUg3bm1ZLXpF0gGyAUFVX3lxTFBTQnVqcFBDQ1M5VDloX3M1eUVudDlIYWxDQnZIQW51ZXdnR05vaGxveV9WajM5T0FtcHdMMmNNUm9NTFY1NE5yLW9DeTBXQWxmLTFRTThHSS1HY3NpV19BdEJKa2dOTk1JRHhReFRBNnBWUTNmaFgweWdkdzg5RGkzSEZrNEhmM3lzNkE1MDlaVFYxdEl5NTl0TlU4TzdjUnJPRUlfNUxWMVI1cG90eXk4UEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1003
-    },
-    {
-      "date": "Jun 19",
-      "text": "Iran waives Strait of Hormuz fees during 60-day peace negotiation period.",
+      "text": "US official claims Israel-Hezbollah ceasefire agreed, though attacks reportedly continue.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNMWNBV2Fad29lOGxTT1k3VHNRcERnWVhONzI2SV9weDQ2RWw1UFZBQXBCTDNmWHNCdnVaSHhWZEFfSkE1d2NGckdzMUo2WGRaRU5hWERLeHBRUEhIWXYydEpBaWgyS3FGNWY4dFlmMjBHWl9weUR3WlhlMmtma3lEZHBXbkpYN1M0eFhjOUw2SGZlZ2h3cmw2SmVfWVNzUHZDRWtOSVk1NU9tZ002bndXczZ5bE9kc0YwV3V4NDNsTnVFWDJQeF9fOdIByAFBVV95cUxOdXU3M0ZXeFNXekRzNHRabTFmOGFaOHpyZDZZZmdQN0tzZGd4TDVvaHNZb09UUjM0UTF4cHB0RkVoQzY2Z2g1ZWd6S2xCelNIY0VxVXY1R3BoYTVEN1NMd00yZjdkN1BXRWZuTEF4TFFjTHVTdHNILXdXUXFVTzZMY2dncTU2MVZQMWtRU1NiV1RlQS1hTjE0RTZkQWFVcU9tVnp0anM2U0FHR1MxWkdrSWRQV25kT0FzMThPNGE3ZS1ZdHBPSDlncA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "South China Morning Post",
-      "latestSinceUpdate": 1003
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1004
     },
     {
       "date": "Jun 19",
-      "text": "US military lifts blockade of Iranian ports as part of initial deal.",
+      "text": "Scheduled US-Iran talks in Switzerland called off following Israeli strikes on southern Lebanon, killing at least 15.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPdlZibFR2Q1c2NVpXMkJWOGpBbkhvLWVTdy1Qc19FYlgyUzhidUxQamhyZzJudmVPT0lnazQ2Qy1XTWxTZVo3eGZHSGkyeWE2RUNDVFl5YkxRUzFDYVBZX0tqeWdydTFxanBlN1FueFluNXMycl9RTlpXVG1VRWt4QmtRRGFGcVRXaTNjbW5LUGptemxqdzRVM1o4US1wZTRVWDJPTUowLTFHeFZjdTMxNUFHS3VOd3kwOVdTbDZlOGJkTVBS?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Express Tribune",
+      "latestSinceUpdate": 1004
+    },
+    {
+      "date": "Jun 19",
+      "text": "US military lifts blockade of Iranian ports as part of the newly signed deal with Iran.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1003
+      "latestSinceUpdate": 1004
+    },
+    {
+      "date": "Jun 19",
+      "text": "Iran states ships transiting the Strait of Hormuz must submit a request 48 hours in advance, despite the deal with the US.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi1wFBVV95cUxQcy1LS0lvWVRqQV81WjhDNWgyNEVvVkw5dlFJMkYxemh5Tzg1WnY4RkcwM2VmUmhaN3lycGhjOU5MRGQySl9Wc3c0NVpidG5peC1uTmFCSFZ0Z2FINmVZUV9zaWpFUVdDMEVKQ1dvdDZsdTRCX0p4aE8xVjJJUjE4Rzk2aE1rd0MzMWEwNTFCZktoMXIxaUtBZVZWamZnTDRCSFVOMmdaWC1McUZOdzlKXzM4Rm5wdk9fOFpNVmI5OHFjUHFyaUJwdGh4THNOZEpOaU53Ym9ETQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1004
+    },
+    {
+      "date": "Jun 19",
+      "text": "Iraq announces plans to ship oil from Syrian ports to avoid the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQWDA1MkRUVEpBY1MwRVRZeDhDdkMyaEEwR1B1NXlGYWMzTUxuenAzOUFSYzlHZll5VjZyYWdFLVU1ME1rV0xpeklNME5OOGhvY1U2WGxBbFZEc1lCMWljWnc0RHE1R0hMUENUb0ZuaE1JQlpXS2NDVktyWHQzZFdaSUducFNWNHNPV1JYLWRNMHYtX2k0X3VldllKaWFscHktSzhTY3pQMXJBekYtVGVXZA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "TradeWinds News",
+      "latestSinceUpdate": 1004
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

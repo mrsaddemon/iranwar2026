@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1003,
+  "updateSequence": 1004,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T11:50:19.412Z",
+  "lastSyncedAt": "2026-06-19T14:31:48.217Z",
   "warDay": 112,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
-    "durationDays": 60,
-    "summary": "An initial US-Iran deal was signed, leading to a 60-day waiver of Strait of Hormuz fees, but ongoing Israeli strikes in Lebanon and Hezbollah retaliation indicate a fragile broader ceasefire."
+    "confidence": 0.98,
+    "durationDays": 3,
+    "summary": "A ceasefire between Israel and Hezbollah has been agreed upon, but reports indicate continued attacks and Israeli strikes on Lebanon, making its stability uncertain."
   }
 }
