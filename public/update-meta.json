@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1002,
+  "updateSequence": 1003,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T07:31:41.270Z",
+  "lastSyncedAt": "2026-06-19T11:50:19.412Z",
   "warDay": 112,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
-    "durationDays": 14,
-    "summary": "Despite calls for a complete ceasefire from the US, Israeli forces and Hezbollah continue to exchange attacks in southern Lebanon."
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 60,
+    "summary": "An initial US-Iran deal was signed, leading to a 60-day waiver of Strait of Hormuz fees, but ongoing Israeli strikes in Lebanon and Hezbollah retaliation indicate a fragile broader ceasefire."
   }
 }

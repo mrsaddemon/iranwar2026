@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1002,
+  "updateSequence": 1003,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T07:31:41.270Z",
+  "lastSyncedAt": "2026-06-19T11:50:19.412Z",
   "warDay": 112,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-19",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
-    "durationDays": 14,
-    "summary": "Despite calls for a complete ceasefire from the US, Israeli forces and Hezbollah continue to exchange attacks in southern Lebanon."
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 60,
+    "summary": "An initial US-Iran deal was signed, leading to a 60-day waiver of Strait of Hormuz fees, but ongoing Israeli strikes in Lebanon and Hezbollah retaliation indicate a fragile broader ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.3
+        "precision": 0.9,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
+    "nuclearIndex": 68,
+    "escalationLevel": 48,
     "oilDisruption": 50,
-    "tradeImpact": 27,
-    "sanctionsPressure": 49,
-    "globalPressure": 50,
-    "allianceInfluence": 46
+    "tradeImpact": 37,
+    "sanctionsPressure": 54,
+    "globalPressure": 59,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 19",
-      "text": "US-Iran talks in Switzerland abruptly called off, with Vance delaying his trip.",
+      "text": "US-Iran talks in Switzerland postponed as Israel strikes targets in Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNb2hjaXJJODViakgzMExITW9TRTY1SzFPOWo0cFRNZmVsZXJ4cnEwSXN5ZFBsM2VjZ2NNdWZHaWl4LVE2a1k2RWpMUWZQY19acnFobnZYcWgwTEVOOUoxcWlwSnpRN1E2TXR6TllHNGd0UTZaallHcFp0emllU3dKTERyWlhIcW90YzR6eGN1Sk9HanNWUHd0MV9oQTF5by1YQkFydlQyRGtnQldpamdYZXl2RmtqMjBkbWhabTVPSEbSAcYBQVVfeXFMTzd1ZDFrMk9CbDNKNmRyZ2psQUlsazJHdG1hVHkwTENBTzAwbnp0UzUxRzBMY1NXZ3BMclctV1J2NGQxUGZCMGtVaFVlQzZqSHM0b0NvSkJIUDR3aFZJSF9zeW1FalZzR2xBeEFreFJQUmpZVHlxNWZVNHdNVF9PVmwzSmltQTFSeUIxNUxCU2cxbDhBZ2RIY3k1Rk5BODNlYkNOZFpiZWIxX05oczF6Z3FiaUk2YWRGMklnT2c5VDNPR2tmS0Vn?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxObmxTZUxEX2lPNnJHQ3J1V0NZUmlOR3E1d25QTUxIWXZKYms4SUhTTnJlUXB3amxfMDllc29oVXg5UF96S2tZajhxSnR2TFdwUUpsd0E3elNydEdoWE4xN0NMSFVKbE9wVVhqZFUtdXpOakQtRVlxSTB2Mk1QRHFVTC05WFpraUNqY29wbV9YUndEMnUtMGg0V3RzUm1ibW05WVZ2MmZPWnpnVnEwMkpyX2ZROUR6clFBVEtLeE5lWjJUQ0lWMzNRU3ZTSVZFUUtmN3cyNVdyMUQ4VUk0RW5iNGg0cGNMdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1003
+    },
+    {
+      "date": "Jun 19",
+      "text": "Israeli strikes kill at least 18 amid intense fighting in southern Lebanon; Hezbollah kills four Israeli soldiers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPRmRYSFFlOTJnelNXMDFWenltYXpzSkh5b3BrYUNJRTVNYXNSU3FlVmlRM0t4eXhhbnp2eHlmWUxoMVZnNzFYRGZqLTNkSXE3VG9RNGR2aDVPYl9uakxaX2pJbFI1RlRHWFgzZ29fMGFnZ0hyMFZqREFJdkQzVGJQVHRUeDNDcGd6X1RVdlZQRDlmcVg5S3ZvNmhRWGxLZEZWRWdzSUg3bm1ZLXpF0gGyAUFVX3lxTFBTQnVqcFBDQ1M5VDloX3M1eUVudDlIYWxDQnZIQW51ZXdnR05vaGxveV9WajM5T0FtcHdMMmNNUm9NTFY1NE5yLW9DeTBXQWxmLTFRTThHSS1HY3NpV19BdEJKa2dOTk1JRHhReFRBNnBWUTNmaFgweWdkdzg5RGkzSEZrNEhmM3lzNkE1MDlaVFYxdEl5NTl0TlU4TzdjUnJPRUlfNUxWMVI1cG90eXk4UEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1002
+      "latestSinceUpdate": 1003
     },
     {
       "date": "Jun 19",
-      "text": "Israel launched fresh strikes on southern Lebanon, killing three despite US-Iran deal context.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQQm05UUlaMWxCNnhBVjdoQ2JzSmxwSVdiNThkbEI2bzV1dWV6ZXY1SmxtU2xPcUxrNmdlQ1VzMUZ1Y2RtaWF2djVweHZhbE9DOUxvNGowWFliM3VjX2dEMFFUNVdNdWY1RlpzbGpNRkVHMjB5Y1loVWZBNno2ZEV1QWtOdVd6Ulo4YWczWkg3X3dkd3BRSzU3ZnJLZ0RiQW04T3NWZURXZVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Globe and Mail",
-      "latestSinceUpdate": 1002
+      "text": "Iran waives Strait of Hormuz fees during 60-day peace negotiation period.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNMWNBV2Fad29lOGxTT1k3VHNRcERnWVhONzI2SV9weDQ2RWw1UFZBQXBCTDNmWHNCdnVaSHhWZEFfSkE1d2NGckdzMUo2WGRaRU5hWERLeHBRUEhIWXYydEpBaWgyS3FGNWY4dFlmMjBHWl9weUR3WlhlMmtma3lEZHBXbkpYN1M0eFhjOUw2SGZlZ2h3cmw2SmVfWVNzUHZDRWtOSVk1NU9tZ002bndXczZ5bE9kc0YwV3V4NDNsTnVFWDJQeF9fOdIByAFBVV95cUxOdXU3M0ZXeFNXekRzNHRabTFmOGFaOHpyZDZZZmdQN0tzZGd4TDVvaHNZb09UUjM0UTF4cHB0RkVoQzY2Z2g1ZWd6S2xCelNIY0VxVXY1R3BoYTVEN1NMd00yZjdkN1BXRWZuTEF4TFFjTHVTdHNILXdXUXFVTzZMY2dncTU2MVZQMWtRU1NiV1RlQS1hTjE0RTZkQWFVcU9tVnp0anM2U0FHR1MxWkdrSWRQV25kT0FzMThPNGE3ZS1ZdHBPSDlncA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "South China Morning Post",
+      "latestSinceUpdate": 1003
     },
     {
       "date": "Jun 19",
-      "text": "Hezbollah attack in southern Lebanon injured 5 IDF troops, one seriously.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNWXd3YlN5XzRZUkplSmlCSVBNUERjTjhVUWpYT01IeHZqMG1weElaMEdjTUZEbjdDaURydUU3WXpxd1p6X1NnYWRkTUhydkREelNKeXBDV1RmcEpWamNkZU5US0F4OUdsQUJYZEdMVGV6cnFfRVl5RVVlT0R1QjdDNHJ1MldjZDJOUUx5YTVWeENwWVB5MTBiZ3d1dmprcVJjcW9DYkJ0WnA0QWhkMDFkbnZwMUZqZ0RU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1002
-    },
-    {
-      "date": "Jun 19",
-      "text": "The US military lifted the blockade of Iranian ports as part of a deal.",
+      "text": "US military lifts blockade of Iranian ports as part of initial deal.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1002
-    },
-    {
-      "date": "Jun 19",
-      "text": "Normal shipping will not resume in the Strait of Hormuz until 80 mines are cleared.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxObGdpNmNYZlNYU3ZPMUZsYkV6OVd3QnJIOWEwdWlBQTZDbzFZNmYxdEx5ci1HMlcyUFlYdzFqSl9hQlp5RE5LNThmLXdxTHBydDVfQTcwejFmS1FDZFlvOGxwaGJUWEIxOGRMcmJoUmJxVEZneVpXcjBMY2R5TEJ2Z1BSRDV5RGE2LU5BLWk4MHhKc1hsZVRoVDRtaUEtd3pRWnNOWnVTcUsyaEFrUFdNcmpmZkx0Tk9X?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1002
-    },
-    {
-      "date": "Jun 19",
-      "text": "The White House issued an 'unprecedented' rebuke to Israel regarding its actions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOTC1QQWJuUjg5b0NRQWMxVlkxUjlCTnJsWEdtSFZmdTJQblBCaFlRX3lWY0RhNDVSUjVQZS1DaFcwT29kRkdUbWRiaFUtZG9jNXN2Y2lkUGtqZ1ZybzFtSGViVUJsNmZFRTlJMGg4Njh3LTJYdDUxclJ4eTg5cm8zV1p6ZkVON0k5ZDltZE1OZmJ3T3pwaXFBUmVaVUM1MmFSZEhZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 1002
+      "latestSinceUpdate": 1003
     }
   ],
   "sourceStatuses": [
