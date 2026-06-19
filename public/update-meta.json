@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1001,
+  "updateSequence": 1002,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T02:07:49.155Z",
+  "lastSyncedAt": "2026-06-19T07:31:41.270Z",
   "warDay": 112,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 14,
-    "summary": "An initial agreement between the US and Iran to end the conflict has been signed, but its terms remain murky and regional hostilities persist."
+    "summary": "Despite calls for a complete ceasefire from the US, Israeli forces and Hezbollah continue to exchange attacks in southern Lebanon."
   }
 }
