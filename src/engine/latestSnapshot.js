@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1006,
+  "updateSequence": 1007,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T19:02:56.563Z",
+  "lastSyncedAt": "2026-06-19T20:41:36.302Z",
   "warDay": 112,
-  "summary": "The United States and Iran have signed a preliminary agreement leading to the lifting of the blockade on Iranian ports and increased oil tanker traffic in the Strait of Hormuz, while Israel and Hezbollah have agreed to a ceasefire amidst reports of continued strikes in Lebanon.",
+  "summary": "The US and Iran have released an official agreement, lifting the blockade of Iranian ports, while Israel and Hezbollah have agreed to a renewed ceasefire after intensified fighting delayed US-Iran talks.",
   "lastNarrativeUpdate": "2026-06-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Israel and Hezbollah have agreed to a ceasefire, but reports of continued strikes in Lebanon suggest its immediate stability is uncertain."
+    "summary": "Israel and Hezbollah have agreed to renew a ceasefire following recent clashes, though the situation remains delicate and has impacted broader US-Iran diplomatic efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.3
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 65
-      },
-      "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
-      }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 55
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
         "aggression": 0.5
       }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 60
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.4
+      }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 48,
-    "oilDisruption": 20,
-    "tradeImpact": 15,
-    "sanctionsPressure": 54,
-    "globalPressure": 53,
+    "nuclearIndex": 20,
+    "escalationLevel": 40,
+    "oilDisruption": 30,
+    "tradeImpact": 21,
+    "sanctionsPressure": 53,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,43 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 19",
-      "text": "US and Iran sign a 14-point preliminary agreement to end the war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQYjZvaV90am9YWnNwSU83QTNBNWphWUlnbGwtTUV4X0Z1emxteURKTV8zMmVETkR5SUtjUmNHTFVvOHJvQ3NuZE00NFdpaGdQbjV3b0pWV0lGcmtKYzgzaE9ldjl5VVZNSmpqbng5WThHQWFmMWNFVzFRcUVER09yLVZZeWRjQU1JWnI5RG1UeU5TYUJfcUtvRTlucU0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1006
-    },
-    {
-      "date": "Jun 19",
-      "text": "US lifts blockade of Iranian ports as part of the new agreement.",
+      "text": "US releases official agreement with Iran, lifting the blockade of Iranian ports as part of the deal.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1006
+      "latestSinceUpdate": 1007
     },
     {
       "date": "Jun 19",
-      "text": "Oil tanker traffic in the Strait of Hormuz significantly increases following the US-Iran deal.",
+      "text": "Israel and Hezbollah agree to renew a ceasefire after intensified fighting threatened US-Iran talks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQRHdNd05CR2hzb1cyLTdhWmxTazZUdGNvZEFNcjdqTENtM0JHRW5wWDMxQzl3aGZ1eFUzWVBwQkxWVTNUcDhVZ1U2T2tleThMNmlGLXdIUzMyQjdHa3U5dFcwdnNfeV9pU0Q2eDloQ3RXMTlaSnlxV3c1OXVfcmRtSFJoR3V0RVEtSTVmRdIBkgFBVV95cUxPN3lPRkw3MHNDVmxWS0NFVE4wU0Z4cFBuY0Vva1E2a2ctckRKek9iUDNia2ZON0JhX2Q1X2Nsa2tkV3BHbVZjcmROLVZsekNUb3Nlc3dvbzVsX0FQaWNrUllEOVVEeXhaWEJZb213TlNibG16NFdxNjBDWVJnUXVxT250bnNkZjFWRFdPcEV2dEcxdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1006
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZUlabWgwdElDRVdLdjVrdWdtbmZIYzh4V3NTT3BGTFpiWnFJU2w0NnF1RU1ha3lRUnlXY0xlSDlHUElSTTBnY3UzNXVERC1Hd3Q4RkQtQ1F1cl9OS0tLaW9LRzM2M0hibnlKWlA3SlZmcGZFYlloR3NESmNrMTdpaDBVRzRqT2paREplcV9wX194Wk1yb0hQSG8zdE9YeXR6cGM3Z0djS2tUOGNpVDR0aQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1007
     },
     {
       "date": "Jun 19",
-      "text": "Israel and Hezbollah agree to a ceasefire, though reports indicate continued attacks in Lebanon.",
+      "text": "US-Iran talks in Switzerland are postponed as Israel and Hezbollah enter a ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE81dUtGajhYYWJSU19acmJzaGRKdk5VX1k4ZWJ6My1jb1VJQjhnOUF0cFdQaEpYWDBiQ2dvSWpES0ZCSXZuWW9tSGwxX01vSHdhVE5Jaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1006
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQb09GUkZhOTJSUnMxVUtrTDRjTWRmWWJBZExCaVlCVzAxbHc0azJjRS12bW5KdXVHdkhyWmRJVm8tRHVnVjJ3MTU1YkVMQlRBUm5KMXpYbWM2TV9DeHlhR0xjVk80cGNXY0RaaXp2c2hYWnoyR3I0T2tRMEpoUVg5bzkyMkRpaHZTM29oOUM3S2JzLXJJZnJIV19Tb1JmRFREZ3JEYVVRT2VUNjNu?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1007
     },
     {
       "date": "Jun 19",
-      "text": "Initial US-Iran nuclear negotiations in Switzerland are postponed.",
+      "text": "Oil tanker traffic in the Strait of Hormuz jumps, but Iran floats 'insurance fees' and asserts control, leading to a turbulent environment.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPeFRjLUpWQkxqczhQeE1SVXZvMW1JYi15Q2lTMEJxVFg0enRjX0Z1SjIzNjVybWg2Vkx5dTNyYVVETVlMWFNRdkJ1aXVmV0pxZUJ5T0NWRUJQdVBRUUZtLXhId1V0bEFwUkNiY1ZDMEN2YVBmSkY4d1lUNEt2M1NDN1dyZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1006
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxObFJiaThpOURJUG85MUp5NGZrdUNEU1oxYTQzLWlUYmNKaEtvMDZ4TVhDRzFxUi1QT29pUlFjTVh5VlVYUlpVTldWaW9QYXk2UVVYNXgzY3paVmJYZzNYd2xJazkzaVJtaDluMklyMzh6X0c2ZUFKaEpLTGNCY3JFYndUSHZUY0Y1c00wNGtUU21hUXZYNVB2TVBDQ1YwQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Spokesman-Review",
+      "latestSinceUpdate": 1007
     }
   ],
   "sourceStatuses": [
