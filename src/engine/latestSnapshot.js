@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1008,
+  "updateSequence": 1009,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T21:53:16.136Z",
+  "lastSyncedAt": "2026-06-19T23:08:24.130Z",
   "warDay": 112,
-  "summary": "The US and Iran have implemented a new agreement, lifting the blockade of Iranian ports, while Israel and Hezbollah have agreed to a ceasefire following recent clashes that threatened to derail the US-Iran talks.",
+  "summary": "The US has released an official agreement with Iran, leading to increased oil tanker traffic in the Strait of Hormuz, while Israel and Hezbollah have agreed to a fragile ceasefire amidst reports of continued strikes.",
   "lastNarrativeUpdate": "2026-06-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Israel and Hezbollah have agreed to a ceasefire following recent clashes, though reports of continued strikes suggest its fragility."
+    "summary": "Israel and Hezbollah have agreed to a ceasefire, but its fragility is evident from reports of continued strikes and the need to renew the agreement."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.3
       }
     },
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.5,
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 15,
-    "tradeImpact": 11,
+    "oilDisruption": 20,
+    "tradeImpact": 15,
     "sanctionsPressure": 54,
-    "globalPressure": 52,
+    "globalPressure": 53,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 19",
-      "text": "US releases official 14-point agreement with Iran, lifting the blockade of Iranian ports as part of the deal.",
+      "text": "US releases official agreement with Iran, detailing a 14-point text.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPVks0MkhBQW1EOGdhbjd5WlVwTWNuQWlyQ1h3WWF5dGZyN3Bfc0VQMi1rRHY3bFlRd1V5dDltWE50bndDakVTeGgzWlZwMDFWWEFnYUJRcjYtQWpiTHNVOVBJV3pWTlFMeEJzbHVTbXcxQm9nNHcxSFJZQ3FQakttRXJWUnpaZklhVENwUjZVaXlqUENfWVFvcDVENTExTEZveTBDZDRYVWk5T2VSTEpVRlRVdUlNZEpBc29n0gHAAUFVX3lxTE1NSm5IcWVqNmlDOWN1anAxMzlCSEF1d2JpcGQ4T1JRUmVqc2lrRnFOUURUaTNpWi14V2tJVHBQSDVDX0VXTEVvMGRuMl9uT1dGWjNvWE9nSWxVaGZZN2ZSWlZ3dFI3NjhyaGFKMllPRlp1dVowbEF4OFpTeUlFeWxFdHdHeHFoQ0dMSkdzMjR3N05WUFZQeGx3cnF3UXV5ZmpvOXNDZEJfbDdXSmVsOTdpWlpoZENEYVRRWnJmbnQ3TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1008
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE5CQ3p0cG16TzJCYXJpcEQteFZSMkxpQ1dwR3pjNFkxUElfZXJYN0R5ZlRDdzVDVUJQXzVOcHRFUGlHcW5VSmU3MGd0QWoxRGJySklOREdEXzRiZlZjNjd1Z1FWcFJLLTJBV3FsOTgwMTdIeThTYWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1009
     },
     {
       "date": "Jun 19",
-      "text": "Oil tanker traffic in the Strait of Hormuz jumps after the US and Iran implement the deal to open the sea lane.",
+      "text": "Israel and Hezbollah agree to a ceasefire, though reports of continued attacks persist.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNb2hjaXJJODViakgzMExITW9TRTY1SzFPOWo0cFRNZmVsZXJ4cnEwSXN5ZFBsM2VjZ2NNdWZHaWl4LVE2a1k2RWpMUWZQY19acnFobnZYcWgwTEVOOUoxcWlwSnpRN1E2TXR6TllHNGd0UTZaallHcFp0emllU3dKTERyWlhIcW90YzR6eGN1Sk9HanNWUHd0MV9oQTF5by1YQkFydlQyRGtnQldpamdYZXl2RmtqMjBkbWhabTVPSEbSAcYBQVVfeXFMTzd1ZDFrMk9CbDNKNmRyZ2psQUlsazJHdG1hVHkwTENBTzAwbnp0UzUxRzBMY1NXZ3BMclctV1J2NGQxUGZCMGtVaFVlQzZqSHM0b0NvSkJIUDR3aFZJSF9zeW1FalZzR2xBeEFreFJQUmpZVHlxNWZVNHdNVF9PVmwzSmltQTFSeUIxNUxCU2cxbDhBZ2RIY3k1Rk5BODNlYkNOZFpiZWIxX05oczF6Z3FiaUk2YWRGMklnT2c5VDNPR2tmS0Vn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1009
+    },
+    {
+      "date": "Jun 19",
+      "text": "Oil tanker traffic in the Strait of Hormuz jumps after the US and Iran implement a deal to open the sea lane.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQRHdNd05CR2hzb1cyLTdhWmxTazZUdGNvZEFNcjdqTENtM0JHRW5wWDMxQzl3aGZ1eFUzWVBwQkxWVTNUcDhVZ1U2T2tleThMNmlGLXdIUzMyQjdHa3U5dFcwdnNfeV9pU0Q2eDloQ3RXMTlaSnlxV3c1OXVfcmRtSFJoR3V0RVEtSTVmRdIBkgFBVV95cUxPN3lPRkw3MHNDVmxWS0NFVE4wU0Z4cFBuY0Vva1E2a2ctckRKek9iUDNia2ZON0JhX2Q1X2Nsa2tkV3BHbVZjcmROLVZsekNUb3Nlc3dvbzVsX0FQaWNrUllEOVVEeXhaWEJZb213TlNibG16NFdxNjBDWVJnUXVxT250bnNkZjFWRFdPcEV2dEcxdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1008
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1009
     },
     {
       "date": "Jun 19",
-      "text": "Israel and Hezbollah agree to renew a ceasefire after intensified fighting, including Israeli strikes killing 47 in Lebanon and Hezbollah killing four Israeli soldiers, threatened US-Iran talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZUlabWgwdElDRVdLdjVrdWdtbmZIYzh4V3NTT3BGTFpiWnFJU2w0NnF1RU1ha3lRUnlXY0xlSDlHUElSTTBnY3UzNXVERC1Hd3Q4RkQtQ1F1cl9OS0tLaW9LRzM2M0hibnlKWlA3SlZmcGZFYlloR3NESmNrMTdpaDBVRzRqT2paREplcV9wX194Wk1yb0hQSG8zdE9YeXR6cGM3Z0djS2tUOGNpVDR0aQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1008
-    },
-    {
-      "date": "Jun 19",
-      "text": "Reports indicate continued Israeli strikes in Lebanon despite the ceasefire agreement with Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE81dUtGajhYYWJSU19acmJzaGRKdk5VX1k4ZWJ6My1jb1VJQjhnOUF0cFdQaEpYWDBiQ2dvSWpES0ZCSXZuWW9tSGwxX01vSHdhVE5Jaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1008
-    },
-    {
-      "date": "Jun 19",
-      "text": "Trump states he told Israel to agree to a ceasefire with Hezbollah to prevent further disruption to the US-Iran deal.",
+      "text": "US-Iran talks in Switzerland are postponed following the Israel-Hezbollah ceasefire agreement.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZWVHNmNMYzdsOEhXN19zZlhWamhJTnBJeWRaZ0FIR2lwNkZlbUxfV1F0UzY1aVBtcDFkeGxENGxnQl9PREg5WnNaSXpzdC1VRDFRSmdrVzJ6X1c0MlBnQXlNSE5KZWFKaVV1NHAzcmNHbnYwbXNZTXFqcnl4QVBFOXVwQ0tZb1YyYTI2TkI5Q0o2eFlxSXlvcnNCYU0xbXJVMXNWVXFaTVhzR1BJeFRBU1RxMWFoX2tpRUl6YWYwUVpZU1dz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1008
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQb09GUkZhOTJSUnMxVUtrTDRjTWRmWWJBZExCaVlCVzAxbHc0azJjRS12bW5KdXVHdkhyWmRJVm8tRHVnVjJ3MTU1YkVMQlRBUm5KMXpYbWM2TV9DeHlhR0xjVk80cGNXY0RaaXp2c2hYWnoyR3I0T2tRMEpoUVg5bzkyMkRpaHZTM29oOUM3S2JzLXJJZnJIV19Tb1JmRFREZ3JEYVVRT2VUNjNu?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1009
     },
     {
       "date": "Jun 19",
-      "text": "Iran's Supreme Leader states that Trump made a deal out of 'desperation'.",
+      "text": "Israel and Hezbollah agree to renew ceasefire after 4 Israeli soldiers' deaths and continued conflict.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPVVhLbC12Y19CdVNlZnpwQWZHSzdzN3NRU3FET1pBNDN4SkZSdTFBZjltcUxzdTlSQlJqLXJrRlJxR0stZGo5OGxDLXpmZVFRSmlWWF81MVcyNDJCTGhhdzR3Y2ZsTEpSa01VZ1dJc2FGTlJjSk5La284M19pM1R0Q0preFd5QTBTeGJYNFBnVWZPak9HWmJSalNkbWVHcjhRclM4VE1wQ29SNHJRTDdNTzFZaUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1009
+    },
+    {
+      "date": "Jun 19",
+      "text": "Pentagon investigation into an Iran school strike is being finalized.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOZXNPMU90cURUWXptUWx2bnFyOHoyM3YzYzU2MEQ5czJSTjZCaXFTSGJQaFpDZEliaWFQQWVaRUpkdUstVklKaElVQTFqcnV2bDl4dk5NRmt2S1owdlEzX0F2WE5Rdllac3N5OW44dUFZczBmd2R5SHRXVy1EMGFxSzU2bFBqMS1mYkJCd3Y2YUhjYWNkalhDVjQ3dEIwbG5uaDBFdi0zMGFLQVMwM0hRTUROaUc4WktrSXUzRERB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1008
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPQjhtZ1VHZjRERUl4SUJ3MVZSbHB0c1JHZUZyYmY4bHJ1SFl0TDlveTk2UmdTT1pWM2hyNEdBajBXbzRQX2RJSE1PS1hIa0dQbG4ySnF2V0Q3bzBpano5SzdLN2pHMEFQWG1RVFA3U1oxOG4zNDhNOW1FOWk4MUliZ1NsaS02cVhTaEl4Tjg0VndLUlBEczNZM0l0aVN2d2lGY09xZ2dqdUNqSGFYcWx2SlJDYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1009
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

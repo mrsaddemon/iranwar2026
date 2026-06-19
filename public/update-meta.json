@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1008,
+  "updateSequence": 1009,
   "lastUpdated": "2026-06-19",
-  "lastSyncedAt": "2026-06-19T21:53:16.136Z",
+  "lastSyncedAt": "2026-06-19T23:08:24.130Z",
   "warDay": 112,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Israel and Hezbollah have agreed to a ceasefire following recent clashes, though reports of continued strikes suggest its fragility."
+    "summary": "Israel and Hezbollah have agreed to a ceasefire, but its fragility is evident from reports of continued strikes and the need to renew the agreement."
   }
 }
