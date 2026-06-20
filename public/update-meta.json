@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1019,
+  "updateSequence": 1020,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T21:25:12.332Z",
+  "lastSyncedAt": "2026-06-20T22:45:13.623Z",
   "warDay": 113,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 60,
-    "summary": "A preliminary ceasefire agreement has collapsed due to continued Israeli-Hezbollah strikes in Lebanon, leading Iran to claim closure of the Strait of Hormuz."
+    "confidence": 0.93,
+    "durationDays": 7,
+    "summary": "A preliminary ceasefire agreement is in place, but continued Israeli strikes in Lebanon and Iran's retaliatory actions indicate significant violations and a highly fragile status."
   }
 }
