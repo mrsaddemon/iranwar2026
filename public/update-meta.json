@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1017,
+  "updateSequence": 1018,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T18:20:48.337Z",
+  "lastSyncedAt": "2026-06-20T19:59:45.396Z",
   "warDay": 113,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 1,
-    "summary": "A preliminary US-Iran agreement has been reached, but its stability is threatened by Iran's closure of the Strait of Hormuz and ongoing Israeli-Hezbollah fighting in Lebanon."
+    "summary": "Despite a renewed agreement, the ceasefire between Israel and Hezbollah has collapsed with continued strikes reported by both sides."
   }
 }
