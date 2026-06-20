@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1020,
+  "updateSequence": 1021,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T22:45:13.623Z",
+  "lastSyncedAt": "2026-06-20T23:52:35.861Z",
   "warDay": 113,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A preliminary ceasefire agreement is in place, but continued Israeli strikes in Lebanon and Iran's retaliatory actions indicate significant violations and a highly fragile status."
+    "summary": "Multiple ceasefire agreements between Israel and Hezbollah have been violated, with fighting continuing in Lebanon."
   }
 }
