@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1011,
+  "updateSequence": 1012,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T05:58:11.835Z",
+  "lastSyncedAt": "2026-06-20T09:31:29.303Z",
   "warDay": 113,
-  "summary": "The US has released a preliminary agreement with Iran to end the war, while Israel and Hezbollah have agreed to a ceasefire in Lebanon amidst ongoing tensions regarding the Strait of Hormuz.",
+  "summary": "A preliminary US-Iran agreement has been reached, setting the stage for nuclear talks, while a fragile ceasefire between Israel and Hezbollah is in effect despite reports of Israeli strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-06-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Israel and Hezbollah have agreed to a ceasefire in Lebanon, but Israeli troops are expected to remain, indicating the truce's fragility."
+    "summary": "Israel and Hezbollah have agreed to a ceasefire, but reports indicate ongoing Israeli strikes in Lebanon, making the agreement fragile."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.3
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,23 +36,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.4
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 45,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 58,
-    "globalPressure": 67,
-    "allianceInfluence": 68
+    "nuclearIndex": 45,
+    "escalationLevel": 48,
+    "oilDisruption": 65,
+    "tradeImpact": 47,
+    "sanctionsPressure": 54,
+    "globalPressure": 61,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 20",
-      "text": "US releases official agreement with Iran, detailing a 14-point text to end the war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE5CQ3p0cG16TzJCYXJpcEQteFZSMkxpQ1dwR3pjNFkxUElfZXJYN0R5ZlRDdzVDVUJQXzVOcHRFUGlHcW5VSmU3MGd0QWoxRGJySklOREdEXzRiZlZjNjd1Z1FWcFJLLTJBV3FsOTgwMTdIeThTYWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1011
-    },
-    {
-      "date": "Jun 20",
-      "text": "Israel and Hezbollah agree to a ceasefire in Lebanon after intensified fighting, with US officials confirming the truce.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOMG40STJrQkMxTUlTM2J4bkNpWXJTb0daR3BXaEpNZGx5dVVzaVFsQU9xRXU0QkVlSWw0dXpmSkdYNEVBZmEzVmhma0pyTUg0TFUyMHJnOFQzRFk0Zk5PeHpvVmpVXzZLMVhpS3JoeExqNFhwdkdDSXRfeElvb0VUTGk4bFhvZExWTHFYcWItUWs0cmpNY1R0ZjlDdGZaLTlXTW5VZkVnS1g0a0dhaFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1011
-    },
-    {
-      "date": "Jun 20",
-      "text": "Iran issues new transit rules for vessels passing through the Strait of Hormuz, leading to reports of turbulent conditions and stranded ships.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPTktTdjM1UExiQWY3bnVocjktWGRhNVZRODh4bzg1OXNwVzJpVWVOc2lta0FLMnh1QTB4NVAydHBsaC1QamlaNjF2Tmt3a0ozWkhDZU1LMXROM3ZHbTdqYmhUQUhRSkhZNVBjLXZsckRzNi1TTm1JRElBZDZqMklvRlpPNENzM3VIYWJuWnFva2ZrZkV3N2lZRkswR1NIWjRtYktWN2ZQLXJ3WGM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "news.cgtn.com",
-      "latestSinceUpdate": 1011
-    },
-    {
-      "date": "Jun 20",
-      "text": "Pentagon investigation into an Iran school strike is being finalized.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPQjhtZ1VHZjRERUl4SUJ3MVZSbHB0c1JHZUZyYmY4bHJ1SFl0TDlveTk2UmdTT1pWM2hyNEdBajBXbzRQX2RJSE1PS1hIa0dQbG4ySnF2V0Q3bzBpano5SzdLN2pHMEFQWG1RVFA3U1oxOG4zNDhNOW1FOWk4MUliZ1NsaS02cVhTaEl4Tjg0VndLUlBEczNZM0l0aVN2d2lGY09xZ2dqdUNqSGFYcWx2SlJDYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1011
-    },
-    {
-      "date": "Jun 20",
-      "text": "Hegseth announces a review of U.S. troops in Europe and criticizes NATO allies amid a rift.",
+      "text": "A preliminary U.S.-Iran agreement to end the war has been reached, with details explained and some aspects remaining unresolved.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1011
+      "latestSinceUpdate": 1012
+    },
+    {
+      "date": "Jun 20",
+      "text": "Israel and Hezbollah have agreed to a ceasefire, as confirmed by the US and officials, though more Lebanon strikes are reported.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaWVgteWhXVktkU1V4cmU4ekdjRUJQZmNjajhCaVZaSFhhcXRkYldfbnpvU2RSaFhOeXlWNW5TQndiazVxRldSV3JxaThEeDlJWjQ3TGtXY0NIQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1012
+    },
+    {
+      "date": "Jun 20",
+      "text": "Israeli strikes have killed at least five people in Lebanon, threatening the recently agreed U.S.-Iran deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOTC1QQWJuUjg5b0NRQWMxVlkxUjlCTnJsWEdtSFZmdTJQblBCaFlRX3lWY0RhNDVSUjVQZS1DaFcwT29kRkdUbWRiaFUtZG9jNXN2Y2lkUGtqZ1ZybzFtSGViVUJsNmZFRTlJMGg4Njh3LTJYdDUxclJ4eTg5cm8zV1p6ZkVON0k5ZDltZE1OZmJ3T3pwaXFBUmVaVUM1MmFSZEhZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 1012
+    },
+    {
+      "date": "Jun 20",
+      "text": "Iran has imposed mandatory insurance on ships transiting the Strait of Hormuz, with fees likely to follow.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxNUmxSMkJzZlRKTGhXcklpcnVKd21hQ0Izd1RZWEpJeTJ4dllQYWxNMlMtMGt5TGx6MDJXZlRYbUhuSXR2cUpDNXhWQlBTWlJJNWZ4cGFZbk40aFcwLUdMOXVGdmlwZlh6aXNQYTViMWhGNko4Wnk2Nk9IX0xqVkx4blI3WVl2MmhxOXNvdmxnRThpUFlBRDNRbHRYekF0d2VZUDhZVFZXOUtnLVpudEZ1LXY5aXQzVXU4UkczaXhqU1Jld2FxaUVQY2dRYmJWdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Lloyd's List",
+      "latestSinceUpdate": 1012
+    },
+    {
+      "date": "Jun 20",
+      "text": "U.S. intelligence warns that Israel is likely to undermine the Iran peace deal, according to officials.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxPVmF4N2JBdnBNSzhUYnc0d2tIYllaenN5OEtMTDZBS1lWRHRodldDNTZsMTNuTjlPUjMyMi1MMk5sTTF1dDY1dVd3THZHOUxSaXFzUUZUWFRLd29QaVFJMl9Xek9fdnRucjZzZDlDWDFoWkNRU2xXQVBxR1ota0l3Wmp0SThTX1pwV1p4OXRJWkRLMllwU0ZCN1V0ampwRjFqTlJXa3RPX0JoZm9wek9sWXgzVlFqbGVGdWVMQjFRd1NLaHhEUU9nSUtBbmZDbklvel9pSGZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1012
+    },
+    {
+      "date": "Jun 20",
+      "text": "Initial talks in Switzerland for nuclear negotiations, following the U.S.-Iran deal signing, have been postponed.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPeFRjLUpWQkxqczhQeE1SVXZvMW1JYi15Q2lTMEJxVFg0enRjX0Z1SjIzNjVybWg2Vkx5dTNyYVVETVlMWFNRdkJ1aXVmV0pxZUJ5T0NWRUJQdVBRUUZtLXhId1V0bEFwUkNiY1ZDMEN2YVBmSkY4d1lUNEt2M1NDN1dyZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1012
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
