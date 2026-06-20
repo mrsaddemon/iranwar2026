@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1016,
+  "updateSequence": 1017,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T16:53:51.201Z",
+  "lastSyncedAt": "2026-06-20T18:20:48.337Z",
   "warDay": 113,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A ceasefire between Israel and Hezbollah was reportedly agreed upon, but immediate violations and continued strikes have rendered it fragile."
+    "summary": "A preliminary US-Iran agreement has been reached, but its stability is threatened by Iran's closure of the Strait of Hormuz and ongoing Israeli-Hezbollah fighting in Lebanon."
   }
 }

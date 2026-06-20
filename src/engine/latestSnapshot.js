@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1016,
+  "updateSequence": 1017,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T16:53:51.201Z",
+  "lastSyncedAt": "2026-06-20T18:20:48.337Z",
   "warDay": 113,
-  "summary": "Iran has announced the closure of the Strait of Hormuz, citing violations of a ceasefire between Israel and Hezbollah, even as technical talks between Iran and the US are reportedly pending.",
+  "summary": "Iran has declared the Strait of Hormuz closed due to alleged ceasefire violations by Israel in Lebanon, even as US-Iran talks are set to resume following a preliminary agreement.",
   "lastNarrativeUpdate": "2026-06-20",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A ceasefire between Israel and Hezbollah was reportedly agreed upon, but immediate violations and continued strikes have rendered it fragile."
+    "summary": "A preliminary US-Iran agreement has been reached, but its stability is threatened by Iran's closure of the Strait of Hormuz and ongoing Israeli-Hezbollah fighting in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.3
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,64 +37,72 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 58,
+    "globalPressure": 71,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Jun 20",
-      "text": "Iran announces the closure of the Strait of Hormuz, accusing Israel and the US of ceasefire violations.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1016
-    },
-    {
-      "date": "Jun 20",
-      "text": "Israel and Hezbollah continue to exchange fire in Lebanon despite reports of a renewed ceasefire agreement.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBwNjdCeHBnM3dhMmtPUDV0OEw4UHJ1T3gxV3IySy1mWkdHcl96emxtTExkZjBKTkpzRjBEejdJWnlBRjdRR29DYUxaUlVpenFLYkFhRHkyQnZodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1016
-    },
-    {
-      "date": "Jun 20",
-      "text": "Pakistan states that technical talks between Iran and the US are scheduled to begin on Sunday.",
+      "date": "Jun 19",
+      "text": "Trump's preliminary U.S.-Iran agreement to end the war announced.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOR25aelZYNGo5ZVFrNnBfUDQzRTd6eTBzbmUyUW40aGg1MVFqOS0tSVFRNXIwZjAyOFg0UWFSSlAyOHRVMGw1UGtaMUVWTmNWcGtpeTV4eFhacHJFc0d5dVl1THFHa2NMMV9iYmhLSmk4Skc4OTU0U1JmNkNSVWExWDBia1REZF94WTUxbjdrWWJORGdyeGctMjhuNkJQdGlmdzVNbXEzUF9YRHBJQk0xRGlmZWdETEJ2bGYtR1pB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1016
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQYjZvaV90am9YWnNwSU83QTNBNWphWUlnbGwtTUV4X0Z1emxteURKTV8zMmVETkR5SUtjUmNHTFVvOHJvQ3NuZE00NFdpaGdQbjV3b0pWV0lGcmtKYzgzaE9ldjl5VVZNSmpqbng5WThHQWFmMWNFVzFRcUVER09yLVZZeWRjQU1JWnI5RG1UeU5TYUJfcUtvRTlucU0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1017
     },
     {
       "date": "Jun 20",
-      "text": "The US military lifts a blockade, with Vance criticizing Israel's reaction to an Iran deal.",
+      "text": "US official states Witkoff is heading to Switzerland for Iran talks, with talks to start Sunday.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQQm9XSkVxdVBZVDc5ZkNXbVZSTXAwZElpTFp4a3pFRTU3Z28wMm9wWm5lcXgtajF2SmptTXZFZk5sUnctTVFrOTZZRGNnNGpkLVlweEhSWm4zZ29LT0JKOFAwemV4SlVwTlctQkhRdElpajFNazNEVS13cUdwRkR3X0p3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1017
+    },
+    {
+      "date": "Jun 20",
+      "text": "Iran declares Strait of Hormuz closed over alleged ceasefire violations and continued Israeli strikes in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNYWZLRUlHdXhuQXlwNkpEVUlGa2tQSEs5WmJzQUQwRFVzT3lsOG43LWNyOWNlQlFxM2VrQ2VaQVIwR0RGTWljb0JYSkFJeU9FZ3dERzdONnVrdmhXSlZpTjd4WFNnWno0OUdRV2QzbWVMSllVekxQel9PYkZhWlN0VHNkVGJyMGw4RVFkbk1lZ3ZKem14LWU0eWVn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1017
+    },
+    {
+      "date": "Jun 20",
+      "text": "Israel and Hezbollah trade attacks amid reports of Israel testing an MOU with Lebanon strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOMG40STJrQkMxTUlTM2J4bkNpWXJTb0daR3BXaEpNZGx5dVVzaVFsQU9xRXU0QkVlSWw0dXpmSkdYNEVBZmEzVmhma0pyTUg0TFUyMHJnOFQzRFk0Zk5PeHpvVmpVXzZLMVhpS3JoeExqNFhwdkdDSXRfeElvb0VUTGk4bFhvZExWTHFYcWItUWs0cmpNY1R0ZjlDdGZaLTlXTW5VZkVnS1g0a0dhaFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1017
+    },
+    {
+      "date": "Jun 20",
+      "text": "U.S. military lifts blockade, likely in connection with the preliminary Iran deal.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNWDVyRkR6VWszZFAta3UzZkFoa1pUdXpBWXZKSGc5QU8zRXduQWd3dFNQLW8tOEd4Z0h6Ykx0bzRBMmZhMlZJSGJ5QUdHWFYwcGRmWjg0YVZ6cXItaGU3QVFPeHFMaUkwbnI5V0hvcXlfd01zdEM2aWVCeVpNS3BBcTlEOElXbC1mM2Y2cGxhRUVmcVpfM3ZiejJ1a2lUM2ZlYkpuTXBpZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1016
+      "latestSinceUpdate": 1017
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (13 headlines)"
+      "status": "ok (14 headlines)"
     },
     {
       "source": "GDELT",
