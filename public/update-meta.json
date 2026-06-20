@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1018,
+  "updateSequence": 1019,
   "lastUpdated": "2026-06-20",
-  "lastSyncedAt": "2026-06-20T19:59:45.396Z",
+  "lastSyncedAt": "2026-06-20T21:25:12.332Z",
   "warDay": 113,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "Despite a renewed agreement, the ceasefire between Israel and Hezbollah has collapsed with continued strikes reported by both sides."
+    "durationDays": 60,
+    "summary": "A preliminary ceasefire agreement has collapsed due to continued Israeli-Hezbollah strikes in Lebanon, leading Iran to claim closure of the Strait of Hormuz."
   }
 }
