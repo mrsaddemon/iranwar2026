@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1030,
+  "updateSequence": 1031,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T22:03:36.427Z",
+  "lastSyncedAt": "2026-06-21T23:25:52.534Z",
   "warDay": 114,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "Peace talks between the U.S. and Iran are ongoing but highly unstable due to Iran's claims of closing the Strait of Hormuz and subsequent suspension of talks, while a separate ceasefire in Lebanon is in effect but with Israeli troops remaining."
+    "summary": "Despite preliminary agreement texts and ongoing talks, the closure of Hormuz and suspension of negotiations indicate no active ceasefire."
   }
 }

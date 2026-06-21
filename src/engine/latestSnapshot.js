@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1030,
+  "updateSequence": 1031,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T22:03:36.427Z",
+  "lastSyncedAt": "2026-06-21T23:25:52.534Z",
   "warDay": 114,
-  "summary": "US-Iran peace talks have begun in Switzerland amidst conflicting claims from Iran regarding the closure of the Strait of Hormuz and threats from the U.S. President, while Israel has committed to a ceasefire in Lebanon.",
+  "summary": "US-Iran peace talks have commenced in Switzerland amidst Iran's closure of the Strait of Hormuz and escalating tensions in Lebanon involving Israeli military actions.",
   "lastNarrativeUpdate": "2026-06-21",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "Peace talks between the U.S. and Iran are ongoing but highly unstable due to Iran's claims of closing the Strait of Hormuz and subsequent suspension of talks, while a separate ceasefire in Lebanon is in effect but with Israeli troops remaining."
+    "summary": "Despite preliminary agreement texts and ongoing talks, the closure of Hormuz and suspension of negotiations indicate no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.88
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 48,
+    "nuclearIndex": 60,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 46
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 21",
-      "text": "Iran claims to have closed the Strait of Hormuz over ceasefire violations and Israeli strikes in Lebanon.",
+      "text": "Iran announces the closure of the Strait of Hormuz, leading to a jump in oil prices.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1030
-    },
-    {
-      "date": "Jun 21",
-      "text": "US-Iran peace talks begin in Switzerland with Vance leading negotiations.",
-      "severity": "info",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1030
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1031
     },
     {
       "date": "Jun 21",
-      "text": "Iranian negotiators suspend talks with the US in protest over Trump's threats.",
+      "text": "US-Iran talks begin in Switzerland, with Vance heading to peace talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1031
+    },
+    {
+      "date": "Jun 21",
+      "text": "Iranian negotiators suspend talks with the US in protest over threats made by Trump.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNWUZObHhFa2x5c3c5TXhIQXRZNzMzWFBvd1ZNNEYwZm1BOFFlVURKN0lzN3FCaHIwOW1zR1pqUjJOSkdWZmRWQ0dJTUJPQ2FpMzZwSUZlTDdOcXBRSlRGSkU2c0VpTFBldWNjbkd1R2JJRGZ4T2ZMOFJ4b3dMajVNNktOVU5maFVHQjhJNWJWSkdSTnBhNzI4V3c5MTZla3NuUEpadkhVLU4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1030
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1031
     },
     {
       "date": "Jun 21",
-      "text": "President Trump warns Iran of severe consequences, including 'taking over' the country, if the Strait of Hormuz is closed.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBKUHVPNDNYNkNpSFUyZi1jUmdDVHZpTTQ5NW8xd08wU0hNTTBuOHBzd3dvMm84aHdmcnphRUpwTV9DRVNZYXF4ZzVvaE8ydFJKcVVtS0J3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1030
-    },
-    {
-      "date": "Jun 21",
-      "text": "Israel commits to a new ceasefire in Lebanon, but states troops will remain in the area.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1030
-    },
-    {
-      "date": "Jun 21",
-      "text": "IDF captures a Hezbollah drone factory and launch site hidden inside a south Lebanon mountain.",
+      "text": "IDF captures a Hezbollah drone factory and launch site in south Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1030
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1031
+    },
+    {
+      "date": "Jun 21",
+      "text": "Israel directs its military to limit actions in Lebanon amidst persistent tensions.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1031
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (15 headlines)"
     },
     {
       "source": "GDELT",
