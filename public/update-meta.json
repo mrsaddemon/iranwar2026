@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1028,
+  "updateSequence": 1029,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T18:54:29.991Z",
+  "lastSyncedAt": "2026-06-21T20:43:14.236Z",
   "warDay": 114,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "A ceasefire commitment in Lebanon is overshadowed by Iran's closure of the Strait of Hormuz due to alleged violations, indicating a highly unstable and localized de-escalation."
+    "confidence": 0.93,
+    "durationDays": 1,
+    "summary": "A ceasefire between Israel and Hezbollah has been renewed, but the broader US-Iran conflict remains highly volatile with ongoing tensions and suspended talks."
   }
 }
