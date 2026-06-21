@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1024,
+  "updateSequence": 1025,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T11:49:57.516Z",
+  "lastSyncedAt": "2026-06-21T13:27:15.957Z",
   "warDay": 114,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire agreement between Israel and Hezbollah is in place but is being actively violated by both sides, leading to continued clashes in Lebanon."
+    "summary": "A ceasefire agreement is reportedly in place but is being actively violated by continued Israeli and Hezbollah strikes in Lebanon."
   }
 }
