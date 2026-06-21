@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1029,
+  "updateSequence": 1030,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T20:43:14.236Z",
+  "lastSyncedAt": "2026-06-21T22:03:36.427Z",
   "warDay": 114,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "US-Iran peace talks have begun in Switzerland amidst conflicting claims from Iran regarding the closure of the Strait of Hormuz and threats from the U.S. President, while Israel has committed to a ceasefire in Lebanon.",
   "lastNarrativeUpdate": "2026-06-21",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A ceasefire between Israel and Hezbollah has been renewed, but the broader US-Iran conflict remains highly volatile with ongoing tensions and suspended talks."
+    "summary": "Peace talks between the U.S. and Iran are ongoing but highly unstable due to Iran's claims of closing the Strait of Hormuz and subsequent suspension of talks, while a separate ceasefire in Lebanon is in effect but with Israeli troops remaining."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.7
+        "precision": 0.78,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 21",
-      "text": "Iran announced the closure of the Strait of Hormuz, citing Israeli strikes in Lebanon and ceasefire violations.",
+      "text": "Iran claims to have closed the Strait of Hormuz over ceasefire violations and Israeli strikes in Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1028
+      "latestSinceUpdate": 1030
     },
     {
       "date": "Jun 21",
-      "text": "US-Iran peace talks began in Switzerland with envoy Vance present, but Iranian negotiators later suspended talks in protest over Trump's threats.",
+      "text": "US-Iran peace talks begin in Switzerland with Vance leading negotiations.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1030
+    },
+    {
+      "date": "Jun 21",
+      "text": "Iranian negotiators suspend talks with the US in protest over Trump's threats.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNWUZObHhFa2x5c3c5TXhIQXRZNzMzWFBvd1ZNNEYwZm1BOFFlVURKN0lzN3FCaHIwOW1zR1pqUjJOSkdWZmRWQ0dJTUJPQ2FpMzZwSUZlTDdOcXBRSlRGSkU2c0VpTFBldWNjbkd1R2JJRGZ4T2ZMOFJ4b3dMajVNNktOVU5maFVHQjhJNWJWSkdSTnBhNzI4V3c5MTZla3NuUEpadkhVLU4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1029
+      "latestSinceUpdate": 1030
     },
     {
       "date": "Jun 21",
-      "text": "Stock futures and oil prices reacted to the closure of the Strait of Hormuz, indicating market disruption.",
+      "text": "President Trump warns Iran of severe consequences, including 'taking over' the country, if the Strait of Hormuz is closed.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBKUHVPNDNYNkNpSFUyZi1jUmdDVHZpTTQ5NW8xd08wU0hNTTBuOHBzd3dvMm84aHdmcnphRUpwTV9DRVNZYXF4ZzVvaE8ydFJKcVVtS0J3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1030
+    },
+    {
+      "date": "Jun 21",
+      "text": "Israel commits to a new ceasefire in Lebanon, but states troops will remain in the area.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1029
+      "latestSinceUpdate": 1030
     },
     {
       "date": "Jun 21",
-      "text": "Trump threatened to 'take over' Iran if the Strait of Hormuz remained closed.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPeFIwZ3MyZ05VX0lBajRZd2VTb1ZSRGQ1bmw2ODBSTWxuTHJINktzcGRmbmtjTlA4M1FzcW01YkMtM3JVcUFJeGdGMnZ6MjdMMzBQX2M1b19tdTg3ZFBhQ291TW1zUkpUVk5KT0E3THdMZkR6NHE1MG1aQmdCTEdfZEVLNDJvakoyX1RFOHF2SGtTVGhpZEU4ZGhwenlxVXY5TV9MLXdvN0N6YWlOcjJBc3ppMVlzbEd0S3JodENuTWh4bkxnUEpFQlNR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1029
-    },
-    {
-      "date": "Jun 21",
-      "text": "The IDF captured a Hezbollah drone factory and launch site hidden inside a south Lebanon mountain.",
+      "text": "IDF captures a Hezbollah drone factory and launch site hidden inside a south Lebanon mountain.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1028
-    },
-    {
-      "date": "Jun 21",
-      "text": "Following the deaths of four Israeli soldiers, Israel and Hezbollah agreed to renew a ceasefire.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPVVhLbC12Y19CdVNlZnpwQWZHSzdzN3NRU3FET1pBNDN4SkZSdTFBZjltcUxzdTlSQlJqLXJrRlJxR0stZGo5OGxDLXpmZVFRSmlWWF81MVcyNDJCTGhhdzR3Y2ZsTEpSa01VZ1dJc2FGTlJjSk5La284M19pM1R0Q0preFd5QTBTeGJYNFBnVWZPak9HWmJSalNkbWVHcjhRclM4VE1wQ29SNHJRTDdNTzFZaUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1029
+      "latestSinceUpdate": 1030
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
