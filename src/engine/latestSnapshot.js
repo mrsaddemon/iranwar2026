@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1023,
+  "updateSequence": 1024,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T09:03:35.500Z",
+  "lastSyncedAt": "2026-06-21T11:49:57.516Z",
   "warDay": 114,
-  "summary": "US and Iran are holding talks in Switzerland regarding a truce in Lebanon and Iran's nuclear program, amidst Iran's claims of closing the Strait of Hormuz and ongoing fighting between Israel and Hezbollah in Lebanon.",
+  "summary": "US and Iran are engaged in high-level negotiations in Switzerland to end the war, amidst Iran's claims of closing the Strait of Hormuz and continued Israeli-Hezbollah clashes in Lebanon despite a ceasefire agreement.",
   "lastNarrativeUpdate": "2026-06-21",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire agreement between Israel and Hezbollah is in effect but is being actively violated by both sides, with ongoing fighting in Lebanon."
+    "summary": "A ceasefire agreement between Israel and Hezbollah is in place but is being actively violated by both sides, leading to continued clashes in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.3
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 21",
-      "text": "Iran claims to have closed the Strait of Hormuz over Israeli strikes in Lebanon.",
+      "text": "High-level US-Iran negotiations kick off in Switzerland to discuss a preliminary agreement to end the war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZmp5TjlZb1JrUGpleDlrRmRqd0dLU1EwRkt5cGROd0hwcnNqa1BLZ1ZGY0RBQWtJbC1uTUU3TWRYbE1qS01qNF8zMlBNbzRTQTZSWEpZekpZWDNNTWx0R0lENi1YaHNSSDZqUDZuU2FNVnVMTVE3dld5TkFLb25WYjkxYVBnX2JPeWg0TmtZdmk4WkhqRmlqVXVqVDU2UXV3U3k4TzdGOGRSLTN5djJDakJCZzN2ZDJp0gG-AUFVX3lxTE5Mbjh3RXJkTkQ5S0t2OFdyWHF1VEJtY213T3FiR1l1clJsTDhyRm5pa0h6aU01cXR0WGdNVE04ZGs0eE5haGpXdGZBVjM2cGtWc2tMOVBDU191M0c5eXJLeV9fQnVWdEgwY0NtVjlheEpsS2lzTm9WOHRIQVA2LUxsaTVHUTJ2Rm9NcElIZXNGSWp2VWcyNG5DM1c1WmpEMXNWTGYwN0V1VE5vMTl6ZHZwZXdDU2hCb0VWQUc2bWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1024
+    },
+    {
+      "date": "Jun 21",
+      "text": "Iran claims to have closed the Strait of Hormuz over Israeli strikes in Lebanon and ceasefire violations.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1023
+      "latestSinceUpdate": 1024
     },
     {
       "date": "Jun 21",
-      "text": "US denies Iran's claim to have closed the Strait of Hormuz.",
-      "severity": "info",
+      "text": "The US denies Iran's claim regarding the closure of the Strait of Hormuz.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE5RZFliamhHTXRHRms3RUVKMnlSZjVQUi1JSUp0cFEtWVJXcHRQUk9JUDVNOEltUFh2S0d3Q1BBX1NCUmpGUVA5aE5GWHZJQ1hFeU5DeQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1023
+      "latestSinceUpdate": 1024
     },
     {
       "date": "Jun 21",
-      "text": "US-Iran talks begin in Switzerland with Vance present, focusing on a Lebanon truce and Iran's nuclear program.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1023
-    },
-    {
-      "date": "Jun 21",
-      "text": "Fighting continues in Lebanon between Israel and Hezbollah despite a ceasefire agreement.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBwNjdCeHBnM3dhMmtPUDV0OEw4UHJ1T3gxV3IySy1mWkdHcl96emxtTExkZjBKTkpzRjBEejdJWnlBRjdRR29DYUxaUlVpenFLYkFhRHkyQnZodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1023
+      "text": "Israeli attacks kill dozens in Lebanon as US and Iran prepare for truce talks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPSDl2OG5XVG5xYXVhY2xOd2I3QXV3T2d0dDVGOTdZNk1NMDRVUFJMX2FFVjdrNkVkRzhOYURfS3ppUF9rLVZ2SDM5UU41Yk1HZWhWX0hvbFlpVUlBdjNmbE83ZmVLYzdfUXc2Q1FqMUFnaEhMaFNDR3JnUlJ1SjBpeFNkVTN2V215VlZCT2piTlRqZU82ZnB4dVlfTnBpS3k5UEZpajEtczg1Nkw1VFNQbk1jU1bSAboBQVVfeXFMTmx0dHpURVpIa0lJU1N1U01wMlBTUmFuamFZTTZPWEQyamhsdy1vTHlGTmxxTDRJYmFDN1hIVHE0Tm1HbmRUQUM5MUNiNG5sTFJhWE9vUzFnRHdicnAzN0RuNksxNkp6WjFOTm9wMkxrUkdQbTFNYnRKN00zblU0U3d0bmU3Y3JCbm5vVkdDcWdkWGt2X1RzSjZRWkw3QnJ1Mm1nb2xNMUhHdi1NSkhGbHhzSUpkc20wU3pn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1024
     },
     {
       "date": "Jun 21",
       "text": "An IDF soldier was killed and 13 injured in an overnight Hezbollah attack in southern Lebanon.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNY2Zwa3hvcHVfWVpmSXR0ak8yVEwyaXFtTUxFVGdDd1Jyc0ZWel9lelJubVlnbmtCYVc3VjJXOGNtdkJlVUF1S2VqbVBGTXczSnFCNURyWDFfX2hzS3BwSVdXeWJsY3ZwQUQyR3lKb0FVNzl3TWFkN3MwbVlFZjc0NjczZ1Bya0M4LXBjU1VyRXlTR25Xb20za29iQ0hxN1JyNXYzN1UwN3l4NVBaQ0QycEpWV3TSAboBQVVfeXFMTk9XQVhKaDIwazhXak53NzRYcjFkYld4RVlsNXVwd0JQOUFUU05PNWtkblpPRGZIcTlMbjlBa2t2a25WQzlEbjU2MmlmX2s3YzBNWHlZT0FJYy02b19DSDJzVm13c1h4YkFfbFcyaWdGdzdud3F2eDlZVF9ITG50OUJOQ1FPa2ZEVnF3TEhBTWFtcVdTUTlrajQ3aFdVNWREUlJ3bHJsbXhoUTZDcUFpTVQyanNEalJQRlNR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
       "latestSinceUpdate": 1022
     },
     {
       "date": "Jun 21",
-      "text": "Israeli attacks have killed dozens in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPSDl2OG5XVG5xYXVhY2xOd2I3QXV3T2d0dDVGOTdZNk1NMDRVUFJMX2FFVjdrNkVkRzhOYURfS3ppUF9rLVZ2SDM5UU41Yk1HZWhWX0hvbFlpVUlBdjNmbE83ZmVLYzdfUXc2Q1FqMUFnaEhMaFNDR3JnUlJ1SjBpeFNkVTN2V215VlZCT2piTlRqZU82ZnB4dVlfTnBpS3k5UEZpajEtczg1Nkw1VFNQbk1jU1bSAboBQVVfeXFMTmx0dHpURVpIa0lJU1N1U01wMlBTUmFuamFZTTZPWEQyamhsdy1vTHlGTmxxTDRJYmFDN1hIVHE0Tm1HbmRUQUM5MUNiNG5sTFJhWE9vUzFnRHdicnAzN0RuNksxNkp6WjFOTm9wMkxrUkdQbTFNYnRKN00zblU0U3d0bmU3Y3JCbm5vVkdDcWdkWGt2X1RzSjZRWkw3QnJ1Mm1nb2xNMUhHdi1NSkhGbHhzSUpkc20wU3pn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1023
+      "text": "US Vice President JD Vance slams Israeli reaction to the Iran deal as the U.S. military lifts a blockade.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNWDVyRkR6VWszZFAta3UzZkFoa1pUdXpBWXZKSGc5QU8zRXduQWd3dFNQLW8tOEd4Z0h6Ykx0bzRBMmZhMlZJSGJ5QUdHWFYwcGRmWjg0YVZ6cXItaGU3QVFPeHFMaUkwbnI5V0hvcXlfd01zdEM2aWVCeVpNS3BBcTlEOElXbC1mM2Y2cGxhRUVmcVpfM3ZiejJ1a2lUM2ZlYkpuTXBpZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1024
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
