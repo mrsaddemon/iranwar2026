@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1022,
+  "updateSequence": 1023,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T05:10:04.591Z",
+  "lastSyncedAt": "2026-06-21T09:03:35.500Z",
   "warDay": 114,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "Despite ongoing peace talks, a ceasefire between Israel and Hezbollah remains fragile and largely unobserved, with continued fighting and accusations of violations."
+    "summary": "A ceasefire agreement between Israel and Hezbollah is in effect but is being actively violated by both sides, with ongoing fighting in Lebanon."
   }
 }
