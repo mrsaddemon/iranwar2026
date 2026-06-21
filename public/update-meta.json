@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1026,
+  "updateSequence": 1027,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T15:28:51.305Z",
+  "lastSyncedAt": "2026-06-21T17:07:57.790Z",
   "warDay": 114,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "Israel has committed to a new ceasefire in Lebanon, but its troops remain in the area, and Iran cites Israeli strikes as a reason for its actions."
+    "summary": "A ceasefire between Israel and Hezbollah is claimed by the US but remains fragile with reports of continued strikes and IDF operations."
   }
 }
