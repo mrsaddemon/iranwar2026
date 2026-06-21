@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1027,
+  "updateSequence": 1028,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T17:07:57.790Z",
+  "lastSyncedAt": "2026-06-21T18:54:29.991Z",
   "warDay": 114,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire between Israel and Hezbollah is claimed by the US but remains fragile with reports of continued strikes and IDF operations."
+    "summary": "A ceasefire commitment in Lebanon is overshadowed by Iran's closure of the Strait of Hormuz due to alleged violations, indicating a highly unstable and localized de-escalation."
   }
 }
