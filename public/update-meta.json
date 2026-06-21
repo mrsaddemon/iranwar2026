@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1025,
+  "updateSequence": 1026,
   "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T13:27:15.957Z",
+  "lastSyncedAt": "2026-06-21T15:28:51.305Z",
   "warDay": 114,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire agreement is reportedly in place but is being actively violated by continued Israeli and Hezbollah strikes in Lebanon."
+    "summary": "Israel has committed to a new ceasefire in Lebanon, but its troops remain in the area, and Iran cites Israeli strikes as a reason for its actions."
   }
 }
