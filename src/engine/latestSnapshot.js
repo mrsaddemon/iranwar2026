@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1032,
+  "updateSequence": 1033,
   "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T02:05:09.195Z",
+  "lastSyncedAt": "2026-06-22T07:36:13.303Z",
   "warDay": 115,
-  "summary": "US-Iran peace talks are underway in Switzerland amidst Iran's claims of closing the Strait of Hormuz and a fragile ceasefire agreement between Israel and Hezbollah in Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-22",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A ceasefire between Israel and Hezbollah has been agreed upon, but tensions persist and Iran claims Hormuz closure due to Israeli actions in Lebanon."
+    "summary": "A fragile ceasefire is in effect in Lebanon, with Israel committing to limits while maintaining troops, and US-Iran talks aiming for broader de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.4
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.85,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,7 +36,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
@@ -60,35 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 22",
-      "text": "US-Iran peace talks begin in Switzerland with U.S. envoy Vance present.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1032
-    },
-    {
-      "date": "Jun 22",
-      "text": "Iran claims closure of the Strait of Hormuz due to alleged Israeli strikes in Lebanon.",
+      "text": "Iran claims closure of Strait of Hormuz over Israeli strikes in Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1032
+      "latestSinceUpdate": 1033
     },
     {
       "date": "Jun 22",
-      "text": "U.S. reports that vessels are still passing through the Strait of Hormuz despite Iran's claims.",
+      "text": "US envoy Vance arrives in Switzerland for peace talks with Iran.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1032
+      "latestSinceUpdate": 1033
     },
     {
       "date": "Jun 22",
-      "text": "Israel and Hezbollah agree to halt fighting, with Israel committing to limit military actions in Lebanon.",
+      "text": "US-Iran talks begin in Switzerland, but are strained by Trump's threats leading to an Iranian walkout.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNdDdtMWZ0SDdDbThCNEFjb2p2aE5QVFhETEFOT0RyUG9MaHlta2VNWWpjWE1sOFNEM3pYOE9NYkhRM2x3d0hnYzRQZ2F6eG5zSl9aZEpHd0xaRFR6LTFfNHFKdFBWVXdZSTNMMVZOY3RaZmVjRVZ0T0ZYVEZvWU8xZDBtdk5OMGpMaFhOR3RKU3MyUHFQU3NmMzluUFlFaDBD?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1032
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNWUZObHhFa2x5c3c5TXhIQXRZNzMzWFBvd1ZNNEYwZm1BOFFlVURKN0lzN3FCaHIwOW1zR1pqUjJOSkdWZmRWQ0dJTUJPQ2FpMzZwSUZlTDdOcXBRSlRGSkU2c0VpTFBldWNjbkd1R2JJRGZ4T2ZMOFJ4b3dMajVNNktOVU5maFVHQjhJNWJWSkdSTnBhNzI4V3c5MTZla3NuUEpadkhVLU4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1033
+    },
+    {
+      "date": "Jun 22",
+      "text": "Israel commits to a new Lebanon ceasefire, though troops will remain in the region.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1033
     },
     {
       "date": "Jun 22",
@@ -97,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
       "latestSinceUpdate": 1032
+    },
+    {
+      "date": "Jun 22",
+      "text": "Mediators report US and Iran agree on a roadmap to reduce Lebanon conflict and Strait of Hormuz tensions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQNGxDNWNkbG1DN2ptYmJVNWdUUHk0OUk2NERqZzlRZHZyU0dVLUFTVXh6ZkhidTAtZEZQQUttTXNxR0M5T2FCU2ttUlRrV1l4dGpHLWNoT0tXS2otNEd4TkVCQ2Zyd1luaEcxb2NYWHYzVFZ0OEE5UnFVQTZpaGpOeXVBa2pIMU0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1033
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1032,
+  "updateSequence": 1033,
   "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T02:05:09.195Z",
+  "lastSyncedAt": "2026-06-22T07:36:13.303Z",
   "warDay": 115,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A ceasefire between Israel and Hezbollah has been agreed upon, but tensions persist and Iran claims Hormuz closure due to Israeli actions in Lebanon."
+    "summary": "A fragile ceasefire is in effect in Lebanon, with Israel committing to limits while maintaining troops, and US-Iran talks aiming for broader de-escalation."
   }
 }
