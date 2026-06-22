@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1034,
+  "updateSequence": 1035,
   "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T13:13:26.531Z",
+  "lastSyncedAt": "2026-06-22T17:54:19.208Z",
   "warDay": 115,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "A ceasefire between Israel and Hezbollah is claimed to be back on by the U.S., but Iran cites ongoing Israeli strikes and violations as reasons for its actions, indicating extreme fragility."
+    "confidence": 0.98,
+    "durationDays": 5,
+    "summary": "A ceasefire agreement between Israel and Hezbollah is in effect but remains fragile, with both sides reporting continued military actions and Israel holding a defensive posture."
   }
 }
