@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1031,
-  "lastUpdated": "2026-06-21",
-  "lastSyncedAt": "2026-06-21T23:25:52.534Z",
-  "warDay": 114,
+  "updateSequence": 1032,
+  "lastUpdated": "2026-06-22",
+  "lastSyncedAt": "2026-06-22T02:05:09.195Z",
+  "warDay": 115,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "Despite preliminary agreement texts and ongoing talks, the closure of Hormuz and suspension of negotiations indicate no active ceasefire."
+    "summary": "A ceasefire between Israel and Hezbollah has been agreed upon, but tensions persist and Iran claims Hormuz closure due to Israeli actions in Lebanon."
   }
 }
