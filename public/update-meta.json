@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1036,
+  "updateSequence": 1037,
   "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T21:09:42.860Z",
+  "lastSyncedAt": "2026-06-22T22:56:49.008Z",
   "warDay": 115,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Multiple ceasefire agreements between Israel and Hezbollah are in place but are being violated, with fighting continuing in Lebanon."
+    "summary": "Despite progress in US-Iran talks and agreement on a roadmap to end military operations in Lebanon, Iran has closed the Strait of Hormuz citing ceasefire violations."
   }
 }
