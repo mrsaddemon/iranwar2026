@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1033,
+  "updateSequence": 1034,
   "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T07:36:13.303Z",
+  "lastSyncedAt": "2026-06-22T13:13:26.531Z",
   "warDay": 115,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "US-Iran peace talks are underway in Switzerland with reported progress, while Iran has closed the Strait of Hormuz citing Israeli strikes in Lebanon and ceasefire violations, though oil flow continues despite warnings.",
   "lastNarrativeUpdate": "2026-06-22",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A fragile ceasefire is in effect in Lebanon, with Israel committing to limits while maintaining troops, and US-Iran talks aiming for broader de-escalation."
+    "summary": "A ceasefire between Israel and Hezbollah is claimed to be back on by the U.S., but Iran cites ongoing Israeli strikes and violations as reasons for its actions, indicating extreme fragility."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.5
+        "aggression": 0.3
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,8 +36,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 22",
-      "text": "Iran claims closure of Strait of Hormuz over Israeli strikes in Lebanon.",
+      "text": "Iran and US make ‘encouraging progress’ in crucial talks, mediators say.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOcG5XRXhqYllSMDk1cko0aTRtX2dLWTFEVjMxYjhBVUh0WVZueEN4NEtLMUowNkVwNE1SRHFEUE5PMUhVY2o2MGJUbjEwMTlUalZrVzQtOUdxZG96YXFjc1c4LUFnaGtiMDFIeVdEaThKakJsdEJiVXZaX3ZHMFNDRk5R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1034
+    },
+    {
+      "date": "Jun 22",
+      "text": "Iran announces closure of the Strait of Hormuz over Israeli strikes in Lebanon and ceasefire violations.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1033
+      "latestSinceUpdate": 1034
     },
     {
       "date": "Jun 22",
-      "text": "US envoy Vance arrives in Switzerland for peace talks with Iran.",
+      "text": "Vance lands in Switzerland as US-Iran talks begin amidst Hormuz closure.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1033
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1034
     },
     {
       "date": "Jun 22",
-      "text": "US-Iran talks begin in Switzerland, but are strained by Trump's threats leading to an Iranian walkout.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNWUZObHhFa2x5c3c5TXhIQXRZNzMzWFBvd1ZNNEYwZm1BOFFlVURKN0lzN3FCaHIwOW1zR1pqUjJOSkdWZmRWQ0dJTUJPQ2FpMzZwSUZlTDdOcXBRSlRGSkU2c0VpTFBldWNjbkd1R2JJRGZ4T2ZMOFJ4b3dMajVNNktOVU5maFVHQjhJNWJWSkdSTnBhNzI4V3c5MTZla3NuUEpadkhVLU4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1033
-    },
-    {
-      "date": "Jun 22",
-      "text": "Israel commits to a new Lebanon ceasefire, though troops will remain in the region.",
+      "text": "Oil is reported to be flowing through the Strait of Hormuz despite Iran’s warnings and closure claims.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1033
+      "latestSinceUpdate": 1034
     },
     {
       "date": "Jun 22",
-      "text": "IDF captures a Hezbollah drone factory and launch site hidden inside a south Lebanon mountain.",
+      "text": "IDF captures Hezbollah drone factory and launch site hidden inside south Lebanon mountain.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1032
+      "latestSinceUpdate": 1034
     },
     {
       "date": "Jun 22",
-      "text": "Mediators report US and Iran agree on a roadmap to reduce Lebanon conflict and Strait of Hormuz tensions.",
+      "text": "U.S. claims Israel-Hezbollah ceasefire is back on, while Iran and US agree on roadmap to end military operations in Lebanon.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQNGxDNWNkbG1DN2ptYmJVNWdUUHk0OUk2NERqZzlRZHZyU0dVLUFTVXh6ZkhidTAtZEZQQUttTXNxR0M5T2FCU2ttUlRrV1l4dGpHLWNoT0tXS2otNEd4TkVCQ2Zyd1luaEcxb2NYWHYzVFZ0OEE5UnFVQTZpaGpOeXVBa2pIMU0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1033
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5mbTdyZDlhemhJcF82dVJRRkM5amlNM1JoMUxNdXZPWm9qR1ZyOFlnOVJFMVNCNFpnUWh0RHcwZk5hSUdZeER1Z0pjR3NpWXJmb0hhbVViMVJ1NlYzNk5hc3Z6dlJ4ZDJhcHQwYUNzbE1KT1RTRjZlOHJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 1034
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
