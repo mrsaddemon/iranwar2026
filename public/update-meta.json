@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1041,
+  "updateSequence": 1042,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T11:26:13.174Z",
+  "lastSyncedAt": "2026-06-23T14:01:14.752Z",
   "warDay": 116,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 10,
-    "summary": "A ceasefire agreement between Israel and Hezbollah is in effect but is frequently violated by both sides, leading to continued strikes."
+    "durationDays": 5,
+    "summary": "A ceasefire agreement between Israel and Hezbollah is in effect but is frequently violated by both sides, leading to continued strikes and casualties."
   }
 }
