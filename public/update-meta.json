@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1043,
+  "updateSequence": 1044,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T16:31:51.231Z",
+  "lastSyncedAt": "2026-06-23T18:24:04.956Z",
   "warDay": 116,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A roadmap for a final deal and an end to military operations in Lebanon has been agreed upon by the US and Iran, but violations by Israel and denials by Iran indicate a fragile state."
+    "summary": "Despite ongoing US-Iran talks for a future deal, no active ceasefire is in effect, with reports of violations and continued military operations."
   }
 }
