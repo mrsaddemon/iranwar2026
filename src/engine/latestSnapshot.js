@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1038,
+  "updateSequence": 1039,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T00:16:44.361Z",
+  "lastSyncedAt": "2026-06-23T04:32:10.346Z",
   "warDay": 116,
-  "summary": "US and Iran report progress in crucial talks while Iran temporarily closed the Strait of Hormuz, and Israel and Hezbollah continue fighting despite a declared ceasefire.",
+  "summary": "US and Iran report encouraging progress in crucial talks amidst conflicting statements on nuclear inspections and Iran's closure of the Strait of Hormuz, while Israel and Hezbollah continue strikes despite a ceasefire agreement.",
   "lastNarrativeUpdate": "2026-06-23",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 7,
-    "summary": "A ceasefire between Israel and Hezbollah was announced but quickly violated by continued strikes from both sides."
+    "summary": "The ceasefire between Israel and Hezbollah remains fragile, with both sides reporting continued strikes despite an agreement, though Israel maintains a defensive posture."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.3
+        "aggression": 0.5
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 23",
-      "text": "Live updates: Iran and US make ‘encouraging progress’ in crucial talks, mediators say",
+      "text": "US and Iran make ‘encouraging progress’ in crucial talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOcG5XRXhqYllSMDk1cko0aTRtX2dLWTFEVjMxYjhBVUh0WVZueEN4NEtLMUowNkVwNE1SRHFEUE5PMUhVY2o2MGJUbjEwMTlUalZrVzQtOUdxZG96YXFjc1c4LUFnaGtiMDFIeVdEaThKakJsdEJiVXZaX3ZHMFNDRk5R?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1038
+      "latestSinceUpdate": 1039
     },
     {
       "date": "Jun 23",
-      "text": "Iran war updates: Tehran shuts Hormuz, Vance on way to Switzerland",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOR25aelZYNGo5ZVFrNnBfUDQzRTd6eTBzbmUyUW40aGg1MVFqOS0tSVFRNXIwZjAyOFg0UWFSSlAyOHRVMGw1UGtaMUVWTmNWcGtpeTV4eFhacHJFc0d5dVl1THFHa2NMMV9iYmhLSmk4Skc4OTU0U1JmNkNSVWExWDBia1REZF94WTUxbjdrWWJORGdyeGctMjhuNkJQdGlmdzVNbXEzUF9YRHBJQk0xRGlmZWdETEJ2bGYtR1pB0gHDAUFVX3lxTE5Vd2Y1Zm9PZWJQd3VMZ21rUDM3anBFY0NQN3QwN3l5Sll4cTZaWkV6Snc4RkJ2RHRsWlFnbHlBWXpNaGxma1RmZTBPVTAxc2x3U29EM2duMV9RMVJVNDVSREZXSXVnN0p3MmNqaHBManNTSkRFdlZlNkwydVVRTFlRWFR5YmdVZGtGVC1vM2dWTGd0d0hoWGdTMHh3aWo5NVZOVl9RWFBkLUVBRUtoMzdTV1BReTIxT0ExR0ZzM1ZZclRSZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1038
-    },
-    {
-      "date": "Jun 23",
-      "text": "Shipping stalls in Strait of Hormuz after Iran declares key waterway closed again",
+      "text": "Iran declares the Strait of Hormuz closed again over ceasefire violations and Israeli strikes in Lebanon, causing shipping stalls.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9kY20xcnV4TnZiNWVDV2o3eDJfb3JnMzRvZ01zRTlrVFZmZnhzel9oX3BPZ0RqX0dLcThIX251OVFQQ3FSYnI0cHlBZFRsU2JJNDZVU1A4Qmp6QlFENHdQZ1hFX2c4T0ZrRzZfdlJOc2Mtc05uZkE3YlFab0tELVnSAYQBQVVfeXFMTnM0aWhmSklqTHN4S0xLbEl2QklKbzdvbzlUaGZEcUREZVJwb3Z1VE1fc19ITW5rRUZXeXlTOG1oMG0yakQ2LWZrSFpGcjFRbHlxeWQ2a0ZiZnRGaV9weko5OXMtUGYyckJoMTFwd2hHQnM3MHJYaXhjQlk1c0V5RDZEdjdx?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1038
+      "latestSinceUpdate": 1039
     },
     {
       "date": "Jun 23",
-      "text": "‘A mechanism’ is being created to always keep the Strait of Hormuz open: Vance",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5QS2lUcjBnSGtjbGdFWmVaaHVPRU53eUx0aDFJVE9yQmtHY0dqRWxHeHA4cHNSRGk3SkdORld6VXRlZTBYSUM1YkZqb2dIb1ZXcGQtUk1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1038
-    },
-    {
-      "date": "Jun 23",
-      "text": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
+      "text": "Vance and Iranian state media issue conflicting statements over UN nuclear inspector access.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaWVgteWhXVktkU1V4cmU4ekdjRUJQZmNjajhCaVZaSFhhcXRkYldfbnpvU2RSaFhOeXlWNW5TQndiazVxRldSV3JxaThEeDlJWjQ3TGtXY0NIQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1038
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQNGxDNWNkbG1DN2ptYmJVNWdUUHk0OUk2NERqZzlRZHZyU0dVLUFTVXh6ZkhidTAtZEZQQUttTXNxR0M5T2FCU2ttUlRrV1l4dGpHLWNoT0tXS2otNEd4TkVCQ2Zyd1luaEcxb2NYWHYzVFZ0OEE5UnFVQTZpaGpOeXVBa2pIMU0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1039
     },
     {
       "date": "Jun 23",
-      "text": "Israel and Hezbollah continue strikes despite ceasefire agreement",
-      "severity": "critical",
+      "text": "Israel and Hezbollah continue strikes despite a ceasefire agreement in Lebanon.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBwNjdCeHBnM3dhMmtPUDV0OEw4UHJ1T3gxV3IySy1mWkdHcl96emxtTExkZjBKTkpzRjBEejdJWnlBRjdRR29DYUxaUlVpenFLYkFhRHkyQnZodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1038
+      "latestSinceUpdate": 1039
+    },
+    {
+      "date": "Jun 23",
+      "text": "Pentagon seeks $80 billion from Congress for the Iran War.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQdmVuY2kxZ0RfUnlDRUZiMmtxc1ZMYTh3UV9QSENoSDJtX2VUcjBrVWZLOHRRUllGY1JUV29LNjliZEI0bTlZLUVRanBKdHd2NHl5czU2ZnN0b240VnVSWFFpMzQtWXBZbElXWTlyeUpwclowZzFwczBsTloyV3FIQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WYFF News 4",
+      "latestSinceUpdate": 1039
+    },
+    {
+      "date": "Jun 23",
+      "text": "U.S. and Iran agree on a roadmap for a final deal and a plan to end military operations in Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1039
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
