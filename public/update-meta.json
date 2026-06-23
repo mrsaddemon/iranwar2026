@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1042,
+  "updateSequence": 1043,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T14:01:14.752Z",
+  "lastSyncedAt": "2026-06-23T16:31:51.231Z",
   "warDay": 116,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A ceasefire agreement between Israel and Hezbollah is in effect but is frequently violated by both sides, leading to continued strikes and casualties."
+    "summary": "A roadmap for a final deal and an end to military operations in Lebanon has been agreed upon by the US and Iran, but violations by Israel and denials by Iran indicate a fragile state."
   }
 }
