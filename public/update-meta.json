@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1044,
+  "updateSequence": 1045,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T18:24:04.956Z",
+  "lastSyncedAt": "2026-06-23T20:36:02.329Z",
   "warDay": 116,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 5,
-    "summary": "Despite ongoing US-Iran talks for a future deal, no active ceasefire is in effect, with reports of violations and continued military operations."
+    "summary": "A peace MoU is in place, but its status is highly fragile due to reported ceasefire violations by Iran and ongoing Israeli military actions in Lebanon."
   }
 }

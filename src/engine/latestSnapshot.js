@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1044,
+  "updateSequence": 1045,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T18:24:04.956Z",
+  "lastSyncedAt": "2026-06-23T20:36:02.329Z",
   "warDay": 116,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "US-Iran peace talks have commenced in Switzerland amidst Iran's closure of the Strait of Hormuz due to alleged ceasefire violations and ongoing Israeli military actions in Lebanon.",
   "lastNarrativeUpdate": "2026-06-23",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 5,
-    "summary": "Despite ongoing US-Iran talks for a future deal, no active ceasefire is in effect, with reports of violations and continued military operations."
+    "summary": "A peace MoU is in place, but its status is highly fragile due to reported ceasefire violations by Iran and ongoing Israeli military actions in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.5
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 49,
-    "globalPressure": 57,
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 23",
-      "text": "US and Iran make 'encouraging progress' in crucial talks, mediators say.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOcG5XRXhqYllSMDk1cko0aTRtX2dLWTFEVjMxYjhBVUh0WVZueEN4NEtLMUowNkVwNE1SRHFEUE5PMUhVY2o2MGJUbjEwMTlUalZrVzQtOUdxZG96YXFjc1c4LUFnaGtiMDFIeVdEaThKakJsdEJiVXZaX3ZHMFNDRk5R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1044
-    },
-    {
-      "date": "Jun 23",
-      "text": "Iran announces closure of Strait of Hormuz, citing Israeli strikes in Lebanon and ceasefire violations.",
+      "text": "Iran announces the closure of the Strait of Hormuz, citing ceasefire violations and Israeli strikes in Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1044
+      "latestSinceUpdate": 1045
     },
     {
       "date": "Jun 23",
-      "text": "Conflicting statements emerge over UN nuclear inspector access, with Trump claiming agreement and Tehran denying.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1044
+      "text": "US-Iran talks begin in Switzerland, with India welcoming a peace MoU and hoping for Hormuz opening.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1045
     },
     {
       "date": "Jun 23",
-      "text": "IDF captures a Hezbollah drone factory and launch site hidden inside south Lebanon mountain.",
+      "text": "Israeli troops kill two in south Lebanon and IDF captures a Hezbollah drone factory and launch site.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1044
+      "latestSinceUpdate": 1045
     },
     {
       "date": "Jun 23",
-      "text": "US military seeks another $80B to cover costs of the Iran conflict.",
+      "text": "Pentagon requests approximately $80 billion from Congress to cover the cost of the Iran war and replenish stockpiles.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOYy1LMkRPbjJyU2F0SFVPT3ZCaW9Gb0NVUks0QWwzZDB0NFdBLTJVaGs0aTAzS2xpdHVDZXJyTUNYSXpnMF80cUZWN2R6aXZGV0szX01rdzM3VWptLWh4REhUTGlocDJ3cG15OER1ZkplQkllUmhpREJVdXZWdWM3VtIBhgFBVV95cUxOQUpDdnFPLWJmTnFOOGVvZ2MtQ0FWdFRaZlZua25rcHJEOWpWaHRCaDJMRnQ0VHlPblpwaGlzVDB2RHY4aWp3YXRMSklhV0tZdjA1Tl96TTZrd1VJeVBtQmVqNDQ3UjE0OC1yLTJFdlkyaHUxdjA1aFpoV0JBVnlvTzdWZVBZZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "FOX 5 DC",
-      "latestSinceUpdate": 1044
+      "sourceUrl": "https://news.google.com/articles/CBMiX0FVX3lxTFBqdVRTSWgwUTl1SWtnaG5uMVNfN2pvcnJoLXk0MVNWOF9pWE5kSjY3Y2xleGxWeEw5MUw0VXl6MWZCZGNVSjRHLVhYM0hrdEtVS09UZF9JNHBFVWRtVmpr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1045
     },
     {
       "date": "Jun 23",
-      "text": "Maritime organization announces an evacuation plan to begin for ships stranded in Persian Gulf due to Hormuz closure.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxOTHZ3aXZWRE1sZDZfTW1lTzIxNlY4WUNEWXplSjE4S05OWWIwVHdRMVhmZm1oT2xLTm42RkpEUkh0aWFQbGpzalJfLVROZXVvY3lEbHZvdUsyWTFPOW1rS3FwRU9SVXB2ZjYtRmxRQU1hbDloRmFERFY4QWZtYjhKUUhrakp2U25BQTFobndOMNIBlAFBVV95cUxPOEZUOVNNcUJXUWVhMVozYkxrN3dwU0gyODNjQ0kzYWxLZWxPS0ZtNjZkRUE5cFJ1b2JTQWNMcE1RNmNGRm8wUm14Y29jNWstTmtjRjlMWnh1eDE1Wk5qQjJSbHY3bG1iZl9wME5jd1FDN1NVWHJKa09rUmFERXUxNnI2bkZ5N3hmUkp5M3JzUkltYkNO?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1044
+      "text": "Iranian banks are reportedly hit by a cyber attack following a US offer of frozen funds.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPbzA1U0V0M1FKSUJYTzZZQmloY0Nxbm93OE9QSEZXcXdaMDVsTUNORzRDZ2lVeGNDTFJqVkNsWTdjSzR1SVFTa19zZ0w5Smx2dUQ0Ry1MRWE5SGdhWlZ1SFFNRnZLVC1tSkhaaC1RVlpOQTJXMW1ZX2FBSXc4X0QzTnBxUXRUZkhhaE41aTZ0RC1VN3A1dUY3a2NYLXc3eGpDLWhCWjYtYUZkY0pialNUd0dnNUN2a0kwdGNZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1045
+    },
+    {
+      "date": "Jun 23",
+      "text": "The Senate passes a war powers resolution aimed at curbing future US military action against Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNZDlKcXVJcWoxcWlzTDVzZjJUTU15V0tEeDRpZHZYZExWbjJlSzRmOHN6a1lTZy05bml0SkFWQlIxeXpEamFFNXlvbEtOUHdtZkt6V1l4R2QyVkNSR09xNWJ5WVFHRGRjckVFZlpsRXAybFh6eVhNWUJGbGdxYWtfR0RkM00zUU8xcnV3SXRvMDJhRExacm5pb0lxTlQ5Q0VieFFZNF9DenAzUmU2WENOS3dR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WCHS",
+      "latestSinceUpdate": 1045
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
