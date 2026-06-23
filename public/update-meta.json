@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1046,
+  "updateSequence": 1047,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T22:01:41.477Z",
+  "lastSyncedAt": "2026-06-23T23:15:42.764Z",
   "warDay": 116,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A ceasefire appears to have collapsed, with Iran citing Israeli strikes in Lebanon as justification for closing the Strait of Hormuz, and locals expressing doubt about its effectiveness."
+    "summary": "A ceasefire between Israel and Hezbollah appears fragile, with reports of violations and continued military actions despite ongoing talks."
   }
 }
