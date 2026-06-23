@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1037,
-  "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T22:56:49.008Z",
-  "warDay": 115,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-22",
+  "updateSequence": 1038,
+  "lastUpdated": "2026-06-23",
+  "lastSyncedAt": "2026-06-23T00:16:44.361Z",
+  "warDay": 116,
+  "summary": "US and Iran report progress in crucial talks while Iran temporarily closed the Strait of Hormuz, and Israel and Hezbollah continue fighting despite a declared ceasefire.",
+  "lastNarrativeUpdate": "2026-06-23",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "Despite progress in US-Iran talks and agreement on a roadmap to end military operations in Lebanon, Iran has closed the Strait of Hormuz citing ceasefire violations."
+    "summary": "A ceasefire between Israel and Hezbollah was announced but quickly violated by continued strikes from both sides."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 50,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 80,
     "tradeImpact": 58,
     "sanctionsPressure": 54,
     "globalPressure": 64,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 22",
-      "text": "Mediators report 'encouraging progress' in crucial US-Iran talks held in Switzerland.",
+      "date": "Jun 23",
+      "text": "Live updates: Iran and US make ‘encouraging progress’ in crucial talks, mediators say",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOcG5XRXhqYllSMDk1cko0aTRtX2dLWTFEVjMxYjhBVUh0WVZueEN4NEtLMUowNkVwNE1SRHFEUE5PMUhVY2o2MGJUbjEwMTlUalZrVzQtOUdxZG96YXFjc1c4LUFnaGtiMDFIeVdEaThKakJsdEJiVXZaX3ZHMFNDRk5R?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1037
+      "latestSinceUpdate": 1038
     },
     {
-      "date": "Jun 22",
-      "text": "Iran declares the Strait of Hormuz closed again, citing Israeli strikes in Lebanon and 'ceasefire violations'.",
+      "date": "Jun 23",
+      "text": "Iran war updates: Tehran shuts Hormuz, Vance on way to Switzerland",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQUHFHQURrcjZ2R1g4MkZTcmNqU2lsOFpDNzlUeE4tcFl2eWd5bFkxTEdPcFV6clh1NTFjMkFBTW9qWGhzRW14Y25HdmRseVItckNBLW11M3o4MGtHWExoZUZCNGpHWlFxa0ZUMEU4Z3VHT1NvZmFqbThiQWdrRUJhMXBod1JVb3lYdjNqTEVodGREamkwQ1c3ZThjMkktUDQ4Mm9pVklNMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1037
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOR25aelZYNGo5ZVFrNnBfUDQzRTd6eTBzbmUyUW40aGg1MVFqOS0tSVFRNXIwZjAyOFg0UWFSSlAyOHRVMGw1UGtaMUVWTmNWcGtpeTV4eFhacHJFc0d5dVl1THFHa2NMMV9iYmhLSmk4Skc4OTU0U1JmNkNSVWExWDBia1REZF94WTUxbjdrWWJORGdyeGctMjhuNkJQdGlmdzVNbXEzUF9YRHBJQk0xRGlmZWdETEJ2bGYtR1pB0gHDAUFVX3lxTE5Vd2Y1Zm9PZWJQd3VMZ21rUDM3anBFY0NQN3QwN3l5Sll4cTZaWkV6Snc4RkJ2RHRsWlFnbHlBWXpNaGxma1RmZTBPVTAxc2x3U29EM2duMV9RMVJVNDVSREZXSXVnN0p3MmNqaHBManNTSkRFdlZlNkwydVVRTFlRWFR5YmdVZGtGVC1vM2dWTGd0d0hoWGdTMHh3aWo5NVZOVl9RWFBkLUVBRUtoMzdTV1BReTIxT0ExR0ZzM1ZZclRSZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1038
     },
     {
-      "date": "Jun 22",
-      "text": "Shipping stalls in the Strait of Hormuz following Iran's declaration of closure.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1037
-    },
-    {
-      "date": "Jun 22",
-      "text": "The U.S. and Iran agree on a roadmap for a final deal and a plan to end military operations in Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "Jun 23",
+      "text": "Shipping stalls in Strait of Hormuz after Iran declares key waterway closed again",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9kY20xcnV4TnZiNWVDV2o3eDJfb3JnMzRvZ01zRTlrVFZmZnhzel9oX3BPZ0RqX0dLcThIX251OVFQQ3FSYnI0cHlBZFRsU2JJNDZVU1A4Qmp6QlFENHdQZ1hFX2c4T0ZrRzZfdlJOc2Mtc05uZkE3YlFab0tELVnSAYQBQVVfeXFMTnM0aWhmSklqTHN4S0xLbEl2QklKbzdvbzlUaGZEcUREZVJwb3Z1VE1fc19ITW5rRUZXeXlTOG1oMG0yakQ2LWZrSFpGcjFRbHlxeWQ2a0ZiZnRGaV9weko5OXMtUGYyckJoMTFwd2hHQnM3MHJYaXhjQlk1c0V5RDZEdjdx?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1037
+      "latestSinceUpdate": 1038
     },
     {
-      "date": "Jun 22",
-      "text": "Oil prices fluctuate, with reports of a previous drop below $75, amidst ongoing tensions in the Strait of Hormuz.",
+      "date": "Jun 23",
+      "text": "‘A mechanism’ is being created to always keep the Strait of Hormuz open: Vance",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5QS2lUcjBnSGtjbGdFWmVaaHVPRU53eUx0aDFJVE9yQmtHY0dqRWxHeHA4cHNSRGk3SkdORld6VXRlZTBYSUM1YkZqb2dIb1ZXcGQtUk1n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1038
+    },
+    {
+      "date": "Jun 23",
+      "text": "Israel and Hezbollah agree ceasefire, US says, as more Lebanon strikes reported",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1037
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBaWVgteWhXVktkU1V4cmU4ekdjRUJQZmNjajhCaVZaSFhhcXRkYldfbnpvU2RSaFhOeXlWNW5TQndiazVxRldSV3JxaThEeDlJWjQ3TGtXY0NIQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1038
+    },
+    {
+      "date": "Jun 23",
+      "text": "Israel and Hezbollah continue strikes despite ceasefire agreement",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBwNjdCeHBnM3dhMmtPUDV0OEw4UHJ1T3gxV3IySy1mWkdHcl96emxtTExkZjBKTkpzRjBEejdJWnlBRjdRR29DYUxaUlVpenFLYkFhRHkyQnZodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1038
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
@@ -131,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "Hormuz Closure and Talks",
-      "summary": "Tehran asserts its right to close the Strait of Hormuz in response to alleged Israeli ceasefire violations in Lebanon, while simultaneously engaging in peace talks with the U.S. in Switzerland.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1032
-    },
-    {
-      "perspective": "US/International",
-      "headline": "Diplomacy Amidst Escalation",
-      "summary": "The U.S. is mediating peace talks between Iran and the U.S. in Switzerland, while monitoring the Strait of Hormuz and confirming a fragile ceasefire between Israel and Hezbollah.",
+      "perspective": "US/Mediators",
+      "headline": "Progress in US-Iran talks and efforts to secure shipping lanes",
+      "summary": "Mediators report encouraging progress in US-Iran talks, with a mechanism being developed to ensure the Strait of Hormuz remains open. Vance is actively involved in peace talks following Iran's actions.",
       "tone": "strained",
-      "latestSinceUpdate": 1032
+      "latestSinceUpdate": 1038
     },
     {
-      "perspective": "Israel",
-      "headline": "Ceasefire and Continued Operations",
-      "summary": "Israel has agreed to a ceasefire with Hezbollah and committed to limiting actions in Lebanon, even as its forces continue operations against Hezbollah infrastructure.",
-      "tone": "neutral",
-      "latestSinceUpdate": 1032
+      "perspective": "Iran",
+      "headline": "Defiance over Hormuz closure amid Israeli actions",
+      "summary": "Iran temporarily closed the Strait of Hormuz in response to Israeli strikes in Lebanon, asserting control over the vital waterway. Tehran stated the Strait is not a 'personal casino' for others.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1038
+    },
+    {
+      "perspective": "Israel/Hezbollah",
+      "headline": "Continued conflict despite ceasefire declarations",
+      "summary": "Despite US-brokered ceasefire agreements, Israel and Hezbollah have continued to exchange strikes and engage in military operations. The IDF reported capturing a Hezbollah drone factory in south Lebanon.",
+      "tone": "anxious",
+      "latestSinceUpdate": 1038
     }
   ]
 });

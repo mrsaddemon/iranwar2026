@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1037,
-  "lastUpdated": "2026-06-22",
-  "lastSyncedAt": "2026-06-22T22:56:49.008Z",
-  "warDay": 115,
+  "updateSequence": 1038,
+  "lastUpdated": "2026-06-23",
+  "lastSyncedAt": "2026-06-23T00:16:44.361Z",
+  "warDay": 116,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "Despite progress in US-Iran talks and agreement on a roadmap to end military operations in Lebanon, Iran has closed the Strait of Hormuz citing ceasefire violations."
+    "summary": "A ceasefire between Israel and Hezbollah was announced but quickly violated by continued strikes from both sides."
   }
 }
