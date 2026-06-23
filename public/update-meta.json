@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1039,
+  "updateSequence": 1040,
   "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T04:32:10.346Z",
+  "lastSyncedAt": "2026-06-23T08:04:44.292Z",
   "warDay": 116,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 7,
-    "summary": "The ceasefire between Israel and Hezbollah remains fragile, with both sides reporting continued strikes despite an agreement, though Israel maintains a defensive posture."
+    "durationDays": 2,
+    "summary": "A ceasefire between Israel and Hezbollah has been agreed upon, but reports indicate continued strikes from both sides, rendering the truce fragile."
   }
 }
