@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1051,
+  "updateSequence": 1052,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T11:18:35.885Z",
+  "lastSyncedAt": "2026-06-24T13:31:20.586Z",
   "warDay": 117,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Ongoing conflict between the US, Israel, and Iran continues with new strikes and strained peace talks, while diplomatic efforts progress on a roadmap for de-escalation and UN-backed shipping in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-06-24",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 5,
-    "summary": "While talks are ongoing between the US and Iran, and Israel and Lebanon, active military engagements and disputes over nuclear inspections indicate no stable ceasefire is in effect."
+    "summary": "No active ceasefire is in effect, though a roadmap for de-escalation has been agreed upon by the U.S. and Iran."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.5
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
-    "escalationLevel": 48,
-    "oilDisruption": 20,
-    "tradeImpact": 15,
-    "sanctionsPressure": 54,
-    "globalPressure": 53,
+    "nuclearIndex": 65,
+    "escalationLevel": 78,
+    "oilDisruption": 45,
+    "tradeImpact": 46,
+    "sanctionsPressure": 62,
+    "globalPressure": 74,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 23",
-      "text": "Iran and US make ‘encouraging progress’ in crucial talks, mediators say.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOcG5XRXhqYllSMDk1cko0aTRtX2dLWTFEVjMxYjhBVUh0WVZueEN4NEtLMUowNkVwNE1SRHFEUE5PMUhVY2o2MGJUbjEwMTlUalZrVzQtOUdxZG96YXFjc1c4LUFnaGtiMDFIeVdEaThKakJsdEJiVXZaX3ZHMFNDRk5R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1051
-    },
-    {
-      "date": "Jun 23",
+      "date": "Jun 24",
       "text": "US launches new strikes on Iran, targeting missile sites and boats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1051
+      "latestSinceUpdate": 1052
     },
     {
-      "date": "Jun 23",
+      "date": "Jun 24",
       "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1051
+      "latestSinceUpdate": 1052
     },
     {
-      "date": "Jun 23",
-      "text": "US Senate joins House in voting to halt Iran war, rebuking Trump.",
+      "date": "Jun 24",
+      "text": "Israel moves deeper in Lebanon; Iran peace talks strained.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1051
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1052
     },
     {
-      "date": "Jun 23",
-      "text": "More stranded oil tankers exit Hormuz, adding to global supply.",
+      "date": "Jun 24",
+      "text": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOY2o2SGJnYkd2bV9TcjFjLUlZMEUwLU9WdXpkMFpEelVDNGlEZ0xCLUphcFhSWTljR0pmdUgtbVN1LVRFTjAyMThwVWpYWHU3eTlBZENhVDZMOEZBRExnT1pkTmMzc1FUUWxsX0N2QUdNODVENXRvZ1ZqRl9PYnpBZjNfblBKNWpNemJfVlgwM0d2bFFoTjFRZjM5MDB5Rjl5S0pFMW9LUXBfaWtaVXNJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1051
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1052
     },
     {
-      "date": "Jun 23",
-      "text": "Oil Falls for Third Consecutive Session as Hormuz Shipping Activity Improves.",
+      "date": "Jun 24",
+      "text": "Ships start sailing through Hormuz under U.N. evacuation scheme, agency says.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOY3NBZ2hxcG5CNFFaQ0MxYWN0azUyX3pyVU9tV3lOVXIzcE9BOVlkS2NLWmk4OXBhV0s0MExOYXlKWGRrQ1JINWx6bzhENXFvZ0VCZUF6X3pMeEFmRHlxZHZjRWMtTXpFZUJ1S2xXcmZzNW5NYUtpaU41UU13SlVKTDdnS1BHMnFMUXJPS2hiVWpScXBrbDg0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo Finance",
-      "latestSinceUpdate": 1051
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOLXZzRUp2RnNiaW1WcGdXNzR1bEszeWNpMEtYR01LWm1ETWotcGh1aXA0VEFlSnFpSXZCMm1IczNZN3V4YXFWcHEwS3MtSHVtS0wtYkc5VEQtYnF5RU5tbVNvbWNmSlpIRTNBTjBMMF9rNTFkWkpsMncyQ2JmQlhNNWU4TkNFSVdSVlg2MGlGNjQ0TGZiTGRxV01KVUE0VzlTNHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1052
+    },
+    {
+      "date": "Jun 24",
+      "text": "Senate passes war powers resolution and breaks with Trump over Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1KelU2dVZZMXhTaFVmaklBaUJ2WVBzdmpEdmFneE9pN0FMemNYQWVHbGNnbkhzS1VTQnBhaHlTZTV1Nl9iSGRXdTZNSm5DTnQ1SWtJZXhUN3JNeF80RU5tMGRJUE8zT2ctNHJTWWdtanE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1052
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
