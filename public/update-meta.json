@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1047,
-  "lastUpdated": "2026-06-23",
-  "lastSyncedAt": "2026-06-23T23:15:42.764Z",
-  "warDay": 116,
+  "updateSequence": 1048,
+  "lastUpdated": "2026-06-24",
+  "lastSyncedAt": "2026-06-24T00:13:10.696Z",
+  "warDay": 117,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A ceasefire between Israel and Hezbollah appears fragile, with reports of violations and continued military actions despite ongoing talks."
+    "summary": "A previous lull in fighting between Israel and Hezbollah has been broken by new clashes, indicating a collapsed ceasefire."
   }
 }
