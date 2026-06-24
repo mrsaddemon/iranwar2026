@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1052,
+  "updateSequence": 1053,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T13:31:20.586Z",
+  "lastSyncedAt": "2026-06-24T15:55:09.676Z",
   "warDay": 117,
-  "summary": "Ongoing conflict between the US, Israel, and Iran continues with new strikes and strained peace talks, while diplomatic efforts progress on a roadmap for de-escalation and UN-backed shipping in the Strait of Hormuz.",
+  "summary": "Ongoing military operations by the US and Israel against Iran and in Lebanon continue amidst diplomatic efforts for a roadmap to peace and internal US political division over the conflict.",
   "lastNarrativeUpdate": "2026-06-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.2,
     "durationDays": 5,
-    "summary": "No active ceasefire is in effect, though a roadmap for de-escalation has been agreed upon by the U.S. and Iran."
+    "summary": "No active ceasefire is in effect, though a roadmap for a final deal between the U.S. and Iran has been agreed upon, with peace talks in Lebanon reportedly strained."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.65
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 78,
-    "oilDisruption": 45,
-    "tradeImpact": 46,
+    "nuclearIndex": 55,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
     "sanctionsPressure": 62,
-    "globalPressure": 74,
-    "allianceInfluence": 46
+    "globalPressure": 79,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -84,26 +84,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 24",
+      "text": "Trump sets out Strait of Hormuz red line to Tehran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOTC1QQWJuUjg5b0NRQWMxVlkxUjlCTnJsWEdtSFZmdTJQblBCaFlRX3lWY0RhNDVSUjVQZS1DaFcwT29kRkdUbWRiaFUtZG9jNXN2Y2lkUGtqZ1ZybzFtSGViVUJsNmZFRTlJMGg4Njh3LTJYdDUxclJ4eTg5cm8zV1p6ZkVON0k5ZDltZE1OZmJ3T3pwaXFBUmVaVUM1MmFSZEhZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 1053
+    },
+    {
+      "date": "Jun 24",
+      "text": "US Senate joins House in voting to halt Iran war, rebuking Trump.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1053
+    },
+    {
+      "date": "Jun 24",
       "text": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1052
-    },
-    {
-      "date": "Jun 24",
-      "text": "Ships start sailing through Hormuz under U.N. evacuation scheme, agency says.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOLXZzRUp2RnNiaW1WcGdXNzR1bEszeWNpMEtYR01LWm1ETWotcGh1aXA0VEFlSnFpSXZCMm1IczNZN3V4YXFWcHEwS3MtSHVtS0wtYkc5VEQtYnF5RU5tbVNvbWNmSlpIRTNBTjBMMF9rNTFkWkpsMncyQ2JmQlhNNWU4TkNFSVdSVlg2MGlGNjQ0TGZiTGRxV01KVUE0VzlTNHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1052
-    },
-    {
-      "date": "Jun 24",
-      "text": "Senate passes war powers resolution and breaks with Trump over Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1KelU2dVZZMXhTaFVmaklBaUJ2WVBzdmpEdmFneE9pN0FMemNYQWVHbGNnbkhzS1VTQnBhaHlTZTV1Nl9iSGRXdTZNSm5DTnQ1SWtJZXhUN3JNeF80RU5tMGRJUE8zT2ctNHJTWWdtanE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
       "latestSinceUpdate": 1052
     }
   ],

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1052,
+  "updateSequence": 1053,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T13:31:20.586Z",
+  "lastSyncedAt": "2026-06-24T15:55:09.676Z",
   "warDay": 117,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.2,
     "durationDays": 5,
-    "summary": "No active ceasefire is in effect, though a roadmap for de-escalation has been agreed upon by the U.S. and Iran."
+    "summary": "No active ceasefire is in effect, though a roadmap for a final deal between the U.S. and Iran has been agreed upon, with peace talks in Lebanon reportedly strained."
   }
 }
