@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1056,
+  "updateSequence": 1057,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T21:39:04.518Z",
+  "lastSyncedAt": "2026-06-24T22:55:20.337Z",
   "warDay": 117,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "Despite ongoing talks focusing on Hezbollah-free zones, a ceasefire between Israel and Lebanon appears fragile and subject to violations, with local populations expressing doubt."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and strained peace talks."
   }
 }
