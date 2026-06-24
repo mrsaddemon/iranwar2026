@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1048,
+  "updateSequence": 1049,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T00:13:10.696Z",
+  "lastSyncedAt": "2026-06-24T04:40:03.754Z",
   "warDay": 117,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A previous lull in fighting between Israel and Hezbollah has been broken by new clashes, indicating a collapsed ceasefire."
+    "summary": "No comprehensive ceasefire is active, though talks are ongoing and a local truce between Israel and Hezbollah was reportedly violated."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.4
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
+    "oilDisruption": 60,
+    "tradeImpact": 34,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 24",
-      "text": "US-Iran talks begin in Switzerland as Tehran says it closed Strait of Hormuz.",
+      "text": "US Congress directs Trump to remove forces from Iran war and votes to halt military action.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1049
+    },
+    {
+      "date": "Jun 24",
+      "text": "Trump states Iran ‘will agree’ to allow weapons inspections, though Tehran denies such plans.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1048
-    },
-    {
-      "date": "Jun 24",
-      "text": "Iran shuts Strait of Hormuz as Israel tests MOU with Lebanon strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPRTRqQVNEaC05LXo0aVdESTQtVGoxMDVYVEJXZ0hPckZlVEl2V1MzbS04Z1VjVks2dENUb0tZYko4SWx1Zm0tV0J2VlBDRDd2enEtV0tQZU1rMC1wOVFvZXJId2hWWFpFUGZHeWZGNEdNNHlqa2NsaEk2QzZsZVNVdVVkSVo1SG1kQzhBY3VLTnlySDBGd0VLOXdaMjBzT25rQUtyUHN1cjY3SlItcjhoR0VKc2JpWEZVM1ZJ0gHAAUFVX3lxTFBuSDBSRlA4TzBFSDhJaDV3SXYySG85VUdVcWRRVXZSYXh0THhHOHREMWFRbzZDbmpNODdtTnVKRE51SVgxX0ZMckRVMEpleWZaVkgxbXNiZmQ4eWZVWF81WHFLM1FlNG1LengySENzb21iZWFJZFFjNmdEYkZJOVVyQnBqeG41LVA3QnVXUGs2TlkwVE5LVnZQbDY0UHhqT0R5bWtzUVdzbjQ4SjdxT2d1MkNIemhxNFJ4SWdORHhmcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNNzFsMW1kN2NOYk1MN1lscWljZ1ZkQ0VMVU5fYkZpMENFY3N1M3FUZGRmc0VkSEJ4UmxWejVoSjhWZGNUYUF0SmtQV21LcW9OdGlGNWdWSjU1V05pbGFqd1NVNkRTaXhnOFJwc25NS245T1dmTDF4VGFPR2V1TEdDWEpNT1RFclg1RklEbXZYVzl4RVhOSkIyZ1NoS3kxSTlNTHN0V1kwbFNFQUhzRVI4STVIWXlTcTQ0amhqR0lB0gHDAUFVX3lxTE9JTGNuMDg0a3FJNVdFOUFLUGNVSm90RHZBb3JrT1FocHNnek9idXRHcUNvai1jVWpkTmlXNEtWM2pCTVk4V2J2VzJDMXRyTEFpbmRkYVFPbGFZa09qVXhRNENtRUZqb3pCSFNQWVpidy00bDA2TWV3UE5RS2E1VmhIdjd1d2pGZUcxNGUxTWE2OFdtYmlocThURXBsdVBUNGVibW9sMVd0TTU4LWFiZWdLaW54QlJfcEZHWV9HX0VqMGx5MA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1048
+      "latestSinceUpdate": 1049
     },
     {
       "date": "Jun 24",
-      "text": "Iran Says Hormuz Closed Again After Israel Strikes Lebanon.",
+      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTFBUYzd0WXFzeFA4X2RadTJMM3E3OUcwWlo3RnpTZkJOTG5Kc3hpUkZUZWpkMUl0c1V6UTlaUXJNeVpXYWV2ZkJBUnRsaElOYTlSQWRwRHN4VW01SEtFZDJzSXNtX0s2SWI5bWRfSnBYYTZEWFJ2RWRkam90ZS3SAYIBQVVfeXFMUFp0OG5SODFfdWdtQXdjN3BXUDhEZ2lQS2o5c2JRZExJTHlzRklMaVFwYnZsa0VzZnMxU1gzcnVQWGZnQ1REZW9sWnNHMWNxUzhaYm5ZZmVDdDVzcWZuaFhjZVM4d0YtUmxOS05oYmdHZWFzVENISXN1R1hkcXhyRXJ0UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Defense Post",
-      "latestSinceUpdate": 1048
-    },
-    {
-      "date": "Jun 24",
-      "text": "IMO announces evacuation plan in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQZ19mMG90RUdBbEFVMS1IMFlFb2IxTHczRndvS2NxQjhxNHJCdjlXVndXYkNCbndoeUpWbElPakZ3Q3Q0WmZoeUhHaXBBQng2a2d6bi11MnN4N1hYeTl0aTFHTzB0SGFWVkdBS0VZWE5XWVo3eW9UNF9oU0FNNEJZWnM0dEo2QW4tdU1TQ2Exbk1ESHlRWm5HMHdXanFoeG5MY05zQjM4RWF1aVJMYWQ4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "International Maritime Organization",
-      "latestSinceUpdate": 1048
-    },
-    {
-      "date": "Jun 24",
-      "text": "UN says it will evacuate sailors stranded in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE8xQVIwZUNJUTlJRzQ1SWNiaDF4RVRCU1cwTG9iNEdlOVFFbElia2RXVEw2bHBlUWpFYXV0akg0RGZha3ZaVWtka2QxODFlaEdfUmR4S3VLLTZwUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1048
+      "latestSinceUpdate": 1049
+    },
+    {
+      "date": "Jun 24",
+      "text": "Israel conducts strikes in Iran and moves deeper into Lebanon, straining peace talks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1049
+    },
+    {
+      "date": "Jun 24",
+      "text": "IDF captures Hezbollah drone factory and launch site hidden inside a south Lebanon mountain.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1049
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
