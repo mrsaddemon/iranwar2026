@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1050,
+  "updateSequence": 1051,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T08:15:32.353Z",
+  "lastSyncedAt": "2026-06-24T11:18:35.885Z",
   "warDay": 117,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No active ceasefire is in effect, with ongoing strikes and accusations of truce violations despite peace talks."
+    "summary": "While talks are ongoing between the US and Iran, and Israel and Lebanon, active military engagements and disputes over nuclear inspections indicate no stable ceasefire is in effect."
   }
 }
