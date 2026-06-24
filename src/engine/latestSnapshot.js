@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1055,
+  "updateSequence": 1056,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T20:00:27.666Z",
+  "lastSyncedAt": "2026-06-24T21:39:04.518Z",
   "warDay": 117,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "Despite reports of a US-Iran roadmap for a final deal and a lull in some fighting, active military operations continue in Lebanon and skepticism remains regarding a lasting agreement."
+    "summary": "Despite ongoing talks focusing on Hezbollah-free zones, a ceasefire between Israel and Lebanon appears fragile and subject to violations, with local populations expressing doubt."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.4
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 30,
-    "tradeImpact": 22,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
     "sanctionsPressure": 54,
-    "globalPressure": 55,
+    "globalPressure": 57,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
+      "date": "Jun 24",
+      "text": "Trump again insists Iran agreed to more UN nuclear inspections",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPVTlNZWEzTnFmX0JfU3BLUXVuam9iR2tIUk5ER2F3RXpVZmtYd2lweDBBT2hDSXNaVTFiQS1rTldhQnBVOGVsZUYtVXFGUUhMYzRKUGJfRjBldG84QzNXZ1l3MWh5aVVjYXlPc1hNSFdodW9zRGhZWW5UWVMzMzZMT3VR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1056
+    },
+    {
       "date": "Jun 23",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
-      "severity": "critical",
+      "text": "US launches new strikes on Iran, targeting missile sites and boats",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1055
+      "latestSinceUpdate": 1056
     },
     {
       "date": "Jun 23",
-      "text": "Israel conducts strikes in Iran, IDF says.",
+      "text": "Israel conducts strikes in Iran, IDF says",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1056
+    },
+    {
+      "date": "Jun 23",
+      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1055
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1056
     },
     {
       "date": "Jun 23",
-      "text": "Israel moves deeper in Lebanon and reportedly traps Hezbollah fighters underground in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1055
-    },
-    {
-      "date": "Jun 23",
-      "text": "Israeli troops kill two in south Lebanon after a lull in fighting.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE44aEZLRjFyQm1kZm93VXJ2b2psQmZjWmhnejdBS2Nla1lzM1JjYUdIRDFRTFpoQl85YnZBdEhOcU00bGg1QUpXMjVic2FqNmRxeVoxc2FEYUswUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1055
-    },
-    {
-      "date": "Jun 23",
-      "text": "US Senate approves Iran war powers resolution, directing Trump to remove forces and breaking with his administration.",
+      "text": "U.S. Senate votes to block military action against Iran for 1st time",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1KelU2dVZZMXhTaFVmaklBaUJ2WVBzdmpEdmFneE9pN0FMemNYQWVHbGNnbkhzS1VTQnBhaHlTZTV1Nl9iSGRXdTZNSm5DTnQ1SWtJZXhUN3JNeF80RU5tMGRJUE8zT2ctNHJTWWdtanE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1055
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOdXdGWlB6VE1yZ04weXBHR1U0RldxV29nRF9pOEVBRXEzVXlxbTk0SE0yZ3U5RzROa2tlTHMwc2pUNGNjN2tGZDkxeGx0UDkzTDdmaWJ5QVpidjRpa0RmSkQtbUNpdnB5b1ZvUWk2RkJfQXh3MFRVSGYzNGJ4czVoTmNWVDJtUXVpRTM2YQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Global News",
+      "latestSinceUpdate": 1056
     },
     {
       "date": "Jun 23",
-      "text": "U.S. and Iran reportedly agree on a roadmap for a final deal and plan to end military operations in Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1055
+      "text": "Israel Says It Has Trapped Hezbollah Fighters in an Underground Complex",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNYXJOYlJISzFSSWVsR1NkNnp0czI2elJBVkRLSEhCVHA2bzNqaWptbzlXY1E4SzFPWWdMYThGa2tCTDZWWHVxR0ptU1JqQkZsTG9nblpVbkVzUWRyaVB6TWRNVlctOWFpR0JEUGdCMV9DVW9kUG5WRFgyc05yOEtVbXFGeDVTQ2drblY1UFAtSFJia3BPdmFpM3ZkVlg1LVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1056
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

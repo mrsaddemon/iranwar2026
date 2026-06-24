@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1055,
+  "updateSequence": 1056,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T20:00:27.666Z",
+  "lastSyncedAt": "2026-06-24T21:39:04.518Z",
   "warDay": 117,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "Despite reports of a US-Iran roadmap for a final deal and a lull in some fighting, active military operations continue in Lebanon and skepticism remains regarding a lasting agreement."
+    "summary": "Despite ongoing talks focusing on Hezbollah-free zones, a ceasefire between Israel and Lebanon appears fragile and subject to violations, with local populations expressing doubt."
   }
 }
