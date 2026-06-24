@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1049,
+  "updateSequence": 1050,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T04:40:03.754Z",
+  "lastSyncedAt": "2026-06-24T08:15:32.353Z",
   "warDay": 117,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-24",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No comprehensive ceasefire is active, though talks are ongoing and a local truce between Israel and Hezbollah was reportedly violated."
+    "summary": "No active ceasefire is in effect, with ongoing strikes and accusations of truce violations despite peace talks."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 58,
     "escalationLevel": 38,
-    "oilDisruption": 60,
-    "tradeImpact": 34,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
     "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "globalPressure": 55,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,19 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 24",
-      "text": "US Congress directs Trump to remove forces from Iran war and votes to halt military action.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1049
-    },
-    {
-      "date": "Jun 24",
-      "text": "Trump states Iran ‘will agree’ to allow weapons inspections, though Tehran denies such plans.",
+      "text": "US Senate votes to halt Iran war and curb President Trump's war powers, rebuking the administration.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNNzFsMW1kN2NOYk1MN1lscWljZ1ZkQ0VMVU5fYkZpMENFY3N1M3FUZGRmc0VkSEJ4UmxWejVoSjhWZGNUYUF0SmtQV21LcW9OdGlGNWdWSjU1V05pbGFqd1NVNkRTaXhnOFJwc25NS245T1dmTDF4VGFPR2V1TEdDWEpNT1RFclg1RklEbXZYVzl4RVhOSkIyZ1NoS3kxSTlNTHN0V1kwbFNFQUhzRVI4STVIWXlTcTQ0amhqR0lB0gHDAUFVX3lxTE9JTGNuMDg0a3FJNVdFOUFLUGNVSm90RHZBb3JrT1FocHNnek9idXRHcUNvai1jVWpkTmlXNEtWM2pCTVk4V2J2VzJDMXRyTEFpbmRkYVFPbGFZa09qVXhRNENtRUZqb3pCSFNQWVpidy00bDA2TWV3UE5RS2E1VmhIdjd1d2pGZUcxNGUxTWE2OFdtYmlocThURXBsdVBUNGVibW9sMVd0TTU4LWFiZWdLaW54QlJfcEZHWV9HX0VqMGx5MA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1049
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1050
     },
     {
       "date": "Jun 24",
@@ -92,19 +84,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 24",
-      "text": "Israel conducts strikes in Iran and moves deeper into Lebanon, straining peace talks.",
+      "text": "Israel conducts strikes in Iran and moves deeper into Lebanon, with IDF capturing a Hezbollah drone factory.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1049
+      "latestSinceUpdate": 1050
     },
     {
       "date": "Jun 24",
-      "text": "IDF captures Hezbollah drone factory and launch site hidden inside a south Lebanon mountain.",
+      "text": "Dispute arises over UN nuclear inspections, with Trump claiming agreement and Tehran denying any such plans.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOdTR4NjRud0F2U0J0NXZGZDQwM3hVNmtJODVnRjN3eVJMTTltV1U1MHlGVFVwSHJwMUxMTWJnaWszMm5Jc3BuZ3NhaHRiQkNIM3NUd0YyN0JoYWQyczd6OUlyNmVBQ1kzaFVIWGV2T2R3X200RnNKN3A5UTRraHhWSHNsdGV3amhKQ1ZpTElBNU5QS3haaFJwenZwUGhoUHhtczJpRWJBNTBjc3A2RlA3OUdXUnlGbmRlTW0weA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1049
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1050
+    },
+    {
+      "date": "Jun 24",
+      "text": "IMO announces an evacuation plan in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQZ19mMG90RUdBbEFVMS1IMFlFb2IxTHczRndvS2NxQjhxNHJCdjlXVndXYkNCbndoeUpWbElPakZ3Q3Q0WmZoeUhHaXBBQng2a2d6bi11MnN4N1hYeTl0aTFHTzB0SGFWVkdBS0VZWE5XWVo3eW9UNF9oU0FNNEJZWnM0dEo2QW4tdU1TQ2Exbk1ESHlRWm5HMHdXanFoeG5MY05zQjM4RWF1aVJMYWQ4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "International Maritime Organization",
+      "latestSinceUpdate": 1050
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1049,
+  "updateSequence": 1050,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T04:40:03.754Z",
+  "lastSyncedAt": "2026-06-24T08:15:32.353Z",
   "warDay": 117,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No comprehensive ceasefire is active, though talks are ongoing and a local truce between Israel and Hezbollah was reportedly violated."
+    "summary": "No active ceasefire is in effect, with ongoing strikes and accusations of truce violations despite peace talks."
   }
 }
