@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1054,
+  "updateSequence": 1055,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T18:03:14.529Z",
+  "lastSyncedAt": "2026-06-24T20:00:27.666Z",
   "warDay": 117,
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.4,
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "While the U.S. and Iran have agreed on a roadmap for a final deal and ending military operations in Lebanon, ongoing strikes and disputes over nuclear inspections indicate a fragile and unconfirmed de-escalation."
+    "summary": "Despite reports of a US-Iran roadmap for a final deal and a lull in some fighting, active military operations continue in Lebanon and skepticism remains regarding a lasting agreement."
   }
 }

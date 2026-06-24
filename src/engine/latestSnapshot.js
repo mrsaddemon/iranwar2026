@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1054,
+  "updateSequence": 1055,
   "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T18:03:14.529Z",
+  "lastSyncedAt": "2026-06-24T20:00:27.666Z",
   "warDay": 117,
-  "summary": "Ongoing US and Israeli military strikes against Iran and Hezbollah in Lebanon continue amidst strained US-Iran peace talks, while the US Congress moves to curb presidential war powers and Strait of Hormuz traffic shows improvement.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-24",
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.4,
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "While the U.S. and Iran have agreed on a roadmap for a final deal and ending military operations in Lebanon, ongoing strikes and disputes over nuclear inspections indicate a fragile and unconfirmed de-escalation."
+    "summary": "Despite reports of a US-Iran roadmap for a final deal and a lull in some fighting, active military operations continue in Lebanon and skepticism remains regarding a lasting agreement."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.5
+        "aggression": 0.4
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
-    "escalationLevel": 70,
-    "oilDisruption": 40,
-    "tradeImpact": 41,
-    "sanctionsPressure": 61,
-    "globalPressure": 70,
+    "escalationLevel": 48,
+    "oilDisruption": 30,
+    "tradeImpact": 22,
+    "sanctionsPressure": 54,
+    "globalPressure": 55,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 24",
+      "date": "Jun 23",
       "text": "US launches new strikes on Iran, targeting missile sites and boats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1052
+      "latestSinceUpdate": 1055
     },
     {
-      "date": "Jun 24",
+      "date": "Jun 23",
       "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1052
+      "latestSinceUpdate": 1055
     },
     {
-      "date": "Jun 24",
-      "text": "Israel moves deeper in Lebanon and claims to have trapped Hezbollah fighters underground in Southern Lebanon.",
+      "date": "Jun 23",
+      "text": "Israel moves deeper in Lebanon and reportedly traps Hezbollah fighters underground in southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1054
+      "latestSinceUpdate": 1055
     },
     {
-      "date": "Jun 24",
+      "date": "Jun 23",
       "text": "Israeli troops kill two in south Lebanon after a lull in fighting.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE44aEZLRjFyQm1kZm93VXJ2b2psQmZjWmhnejdBS2Nla1lzM1JjYUdIRDFRTFpoQl85YnZBdEhOcU00bGg1QUpXMjVic2FqNmRxeVoxc2FEYUswUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1054
+      "latestSinceUpdate": 1055
     },
     {
-      "date": "Jun 24",
-      "text": "US Senate joins House in voting to halt Iran war, rebuking Trump.",
+      "date": "Jun 23",
+      "text": "US Senate approves Iran war powers resolution, directing Trump to remove forces and breaking with his administration.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1053
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1KelU2dVZZMXhTaFVmaklBaUJ2WVBzdmpEdmFneE9pN0FMemNYQWVHbGNnbkhzS1VTQnBhaHlTZTV1Nl9iSGRXdTZNSm5DTnQ1SWtJZXhUN3JNeF80RU5tMGRJUE8zT2ctNHJTWWdtanE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1055
     },
     {
-      "date": "Jun 24",
-      "text": "U.S. and Iran agree on a roadmap for a final deal and plan to end military operations in Lebanon.",
+      "date": "Jun 23",
+      "text": "U.S. and Iran reportedly agree on a roadmap for a final deal and plan to end military operations in Lebanon.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1054
+      "latestSinceUpdate": 1055
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
