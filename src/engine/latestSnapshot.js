@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1063,
+  "updateSequence": 1064,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T15:46:58.035Z",
+  "lastSyncedAt": "2026-06-25T17:56:16.249Z",
   "warDay": 118,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-25",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No comprehensive ceasefire is active, with ongoing military actions and strained peace talks."
+    "summary": "Peace talks between Iran and the US are strained, and Israel-Lebanon talks are ongoing but marred by truce violations and continued military action."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.5
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 20,
-    "tradeImpact": 5,
-    "sanctionsPressure": 49,
-    "globalPressure": 44,
+    "nuclearIndex": 65,
+    "escalationLevel": 48,
+    "oilDisruption": 60,
+    "tradeImpact": 44,
+    "sanctionsPressure": 54,
+    "globalPressure": 61,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 25",
-      "text": "Trump again insists Iran agreed to more UN nuclear inspections.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPVTlNZWEzTnFmX0JfU3BLUXVuam9iR2tIUk5ER2F3RXpVZmtYd2lweDBBT2hDSXNaVTFiQS1rTldhQnBVOGVsZUYtVXFGUUhMYzRKUGJfRjBldG84QzNXZ1l3MWh5aVVjYXlPc1hNSFdodW9zRGhZWW5UWVMzMzZMT3VR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1063
-    },
-    {
-      "date": "Jun 25",
-      "text": "US Senate joins House in voting to halt Iran war, rebuking Trump.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1062
-    },
-    {
-      "date": "Jun 25",
       "text": "US launches new strikes on Iran, targeting missile sites and boats.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 1062
     },
     {
       "date": "Jun 25",
-      "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "warning",
+      "text": "A Singapore-flagged cargo ship was hit by an unknown projectile while crossing the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQQWVrWVg1aktpQVJ1MExZZVY1VmcySXkzQ2pkYkVJM3FYOVdnV3VuaUctRVpvZ3J0V0JPb3lTS1dIVW5hRGpHN2prQXJrUmI4YWozOG8tRDZ1QmQ5TWFKZzlkQzdWMTJONzdZWGhTUXFnNVRxLThKM3B3Z1hocDVoNnB0OHkwU3pPbkpuSC1ia0tNUEt4RE1iSTFGaU05aEZwLUJDc05zSUdJbm1HQldJUHNxejhVdjVsR1VPZVBDUktDS1ZJaHN5dHdxeUhnZ9IBzgFBVV95cUxOMlE4OXNzYVlKTURsS3FRZjF3bU52QUdtOXBRam9LdHEwVDNWR29SSHJHVVBodjBCQlFQcFNTZk1NUE83MjdQUDB1bFN1Ml9fWUx4SEJiTm50LWk1M2FOcVBFeTE5WFpMSHlLdzlpSmFMUWpoa2RMQ3JmS0RVcFNJdzNMcHB6d1BaWkNtU3FpVjMtZXpaZ05BN0NqZGJTR3VMTlg0MUdINDRsd3NST1p4N0QxVVJYemxiTzhvZGJsbmJpMlVPOWJadXZ6bFdRdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "South China Morning Post",
+      "latestSinceUpdate": 1064
+    },
+    {
+      "date": "Jun 25",
+      "text": "Israel conducts strikes in Iran and moves deeper into Lebanon, stating it has trapped Hezbollah fighters.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1064
+    },
+    {
+      "date": "Jun 25",
+      "text": "The US Senate joins the House in voting to halt the Iran war, rebuking President Trump.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQNmhxUVNibG82ZUN6NG5vUGVEb3c3X3ExNXJKYjFwYzZCYi03ZGFjX2JNZ1VyNzRzSzF5U3V4LVhIUGM4U0lrZzY4SmhBeGZuVHlqLWxsQ3hPRk5aYVZtT2ZPUk84LUl2LWw1WEl5ai1OS3ZFcGlKTmpEZmVPeG5rT1QwOFVoY25iS2NXRjBPTnQtNnBxYkNpQXFVT1hKTEJYbGJpSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1064
+    },
+    {
+      "date": "Jun 25",
+      "text": "Oil prices return to near pre-war levels as Oman states there will be no Strait of Hormuz transit fees.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1060
+      "latestSinceUpdate": 1064
     },
     {
       "date": "Jun 25",
-      "text": "Israel moves deeper in Lebanon and Israeli fire kills two.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQR0RUWVRfSHpFWHdJOW1vUkpCUzQ4Y0R6b2tGTDl6cG1CY3VOTnd2MWNBX0lxcWJMcXY4YTd2V1hxZGJaWmZ1b1ZjSXNreUkwV3RPVXNyelpUOFB2MGZ0ZmRheUxnZDhpR015czMxMHM2c0J4TnNrUlF5Rm5MTHFLYTJkOENsa3F1R2lRdnFPSkJJV1ljRFZjdWF5b1ZvcTVnMU1yQkltYUJwWjdIWWfSAbMBQVVfeXFMTlVIbVpkYUVFNWJOZTJnVllRTG81X0NmNzA0a0xCMHEweDB1YnFna3Vfa0dIdWwyekJ0NE11YndjQmY1eVlKTUQ4LTgxeldCMGRRd1ViNWs5Z1oyUi1EUVUxdUFMZ3puWGV1QXRwWTFzeXV2STZOcGFabEJpSEl2UG9zQnBQSS1IX3k2NVBjUDk0b3lGS3JDa2hrZmZpRXFpMlhqcTltYm1uTHNlZ3daSVZzdEU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1063
-    },
-    {
-      "date": "Jun 25",
-      "text": "IRGC issues warning to vessels entering Hormuz Strait.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOa3hvQlJ1bVhodzE0SW9YbDVnVzgyLXlodVFnS0ZQNlc2ZExaVUdmWlEzQjN4UWQxS3hJRUVoMGxlTHViRXVYRmVrVGdzaERaeTYyVVlnQ3poYzZVZkcxU29TZlFTa0kweWRSZWNJTzByQmJPZWFRY3F5WDhPR2NfUFZBdGVZVURIT0RTZzFLNGlRT3NmMEtQQXdzSURLZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Foundation for Defense of Democracies",
-      "latestSinceUpdate": 1063
+      "text": "Israel-Lebanon talks are held in Washington, with Lebanon demanding full IDF withdrawal.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1064
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
