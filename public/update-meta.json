@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1059,
+  "updateSequence": 1060,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T04:37:03.305Z",
+  "lastSyncedAt": "2026-06-25T08:01:03.963Z",
   "warDay": 118,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A truce in Lebanon appears to be violated by Israeli fire, while broader Iran peace talks are strained despite ongoing discussions."
+    "summary": "A truce in Lebanon is reported to be violated by Israeli fire, with locals expressing doubt about its effectiveness."
   }
 }

@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1059,
+  "updateSequence": 1060,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T04:37:03.305Z",
+  "lastSyncedAt": "2026-06-25T08:01:03.963Z",
   "warDay": 118,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A truce in Lebanon appears to be violated by Israeli fire, while broader Iran peace talks are strained despite ongoing discussions."
+    "summary": "A truce in Lebanon is reported to be violated by Israeli fire, with locals expressing doubt about its effectiveness."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
+    "nuclearIndex": 55,
     "escalationLevel": 48,
-    "oilDisruption": 55,
-    "tradeImpact": 40,
+    "oilDisruption": 20,
+    "tradeImpact": 15,
     "sanctionsPressure": 54,
-    "globalPressure": 60,
-    "allianceInfluence": 51
+    "globalPressure": 53,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 23",
-      "text": "Iran Update Special Report published.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPTEVQTVpCRGxpMnd6azEzT3RkeC1kNld4enZBRTVqcmwwZXNaV0RrUEZDVXp2OGczRXFQTE5jRE5MWGZ6MXBOT1lmVG9iUVZsQzdkVFhuSkR6LVAwZGRodE5iMFhEVGNyZUtkRmZyMzROVUV0M0F3ZS1zVGJPaS1MYUpOcXpfYkdSUmxKRGZfVk1DNm9p?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1058
-    },
-    {
-      "date": "Recent",
-      "text": "Trump insists Iran agreed to more UN nuclear inspections.",
+      "text": "Trump again insists Iran agreed to more UN nuclear inspections.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPVTlNZWEzTnFmX0JfU3BLUXVuam9iR2tIUk5ER2F3RXpVZmtYd2lweDBBT2hDSXNaVTFiQS1rTldhQnBVOGVsZUYtVXFGUUhMYzRKUGJfRjBldG84QzNXZ1l3MWh5aVVjYXlPc1hNSFdodW9zRGhZWW5UWVMzMzZMT3VR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1059
+      "latestSinceUpdate": 1060
     },
     {
-      "date": "Recent",
-      "text": "Congress directs Trump to remove forces from Iran war, with Senate joining House vote.",
-      "severity": "warning",
+      "date": "Jun 23",
+      "text": "US Congress directs Trump to remove forces from Iran war in symbolic vote.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 1059
+      "latestSinceUpdate": 1060
     },
     {
-      "date": "Recent",
+      "date": "Jun 25",
       "text": "Iran says it targeted American base after fresh US strikes.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1059
+      "latestSinceUpdate": 1060
     },
     {
-      "date": "Recent",
+      "date": "Jun 25",
+      "text": "Israel moves deeper in Lebanon and says it has trapped Hezbollah fighters underground.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1060
+    },
+    {
+      "date": "Jun 25",
       "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1059
-    },
-    {
-      "date": "Recent",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1059
+      "latestSinceUpdate": 1060
+    },
+    {
+      "date": "Jun 25",
+      "text": "Iran warns against Strait of Hormuz crossings without authorization.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPRjlpMGc5MDB6RFpCaDdlZkdPNmFvQzJiUlQyTDdSZ0xiWi16MzJzRHJRS3ZoYnNIeGN3UWsxc2wyUHhmaFk4eEFBRWJ3dWw3RjlZODNWSnNYM25yWnVzT1g0bnVTNVh2MV9haW5ZVS11bV9WRVZSTGJWUVBBOU1ucjF6U1RqYUxzSG5IeFZfdzR1WkcxM1J1SHZCRkMzQzk0anUtdUxOdlMzVWZz0gGyAUFVX3lxTE10X3oxNXFTN3Z0ZHZlVnp4WFJEQy1ZY0dNMjRtNi1LSl80RGlTU2g0Ynl0cDJtdG1mdE5yR3FrcFNoRjh5S2ZlMmRUUXhwYVE3VV9Zc2wweTB0TmU3SGkzYm5tdVlsMFVIWGFvcFE4OHpWdGQ1LTRzUHhpOEc5WG9hS0dSelR5Q1FBMVRRX0tURVZ5VmdSOUVmMWNzOU51UUc1bFc0UThDcXZHd3FUS2pHZ0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Inquirer.net",
+      "latestSinceUpdate": 1060
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
