@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1058,
+  "updateSequence": 1059,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T00:19:27.929Z",
+  "lastSyncedAt": "2026-06-25T04:37:03.305Z",
   "warDay": 118,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-25",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No broad ceasefire is active, though local truces may be in effect and are reportedly violated."
+    "summary": "A truce in Lebanon appears to be violated by Israeli fire, while broader Iran peace talks are strained despite ongoing discussions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 38,
-    "oilDisruption": 30,
-    "tradeImpact": 12,
-    "sanctionsPressure": 49,
-    "globalPressure": 46,
-    "allianceInfluence": 46
+    "nuclearIndex": 68,
+    "escalationLevel": 48,
+    "oilDisruption": 55,
+    "tradeImpact": 40,
+    "sanctionsPressure": 54,
+    "globalPressure": 60,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -67,50 +67,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1058
     },
     {
-      "date": "Jun 25",
+      "date": "Recent",
       "text": "Trump insists Iran agreed to more UN nuclear inspections.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPVTlNZWEzTnFmX0JfU3BLUXVuam9iR2tIUk5ER2F3RXpVZmtYd2lweDBBT2hDSXNaVTFiQS1rTldhQnBVOGVsZUYtVXFGUUhMYzRKUGJfRjBldG84QzNXZ1l3MWh5aVVjYXlPc1hNSFdodW9zRGhZWW5UWVMzMzZMT3VR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1058
+      "latestSinceUpdate": 1059
     },
     {
-      "date": "Jun 25",
-      "text": "Iran talks scheduled for next week; Gulf discussions described as frank.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNWHdzZEtBU1pnbmd2RUZOcGZUQzJFdWx5RUpTNHR6V3lZX0lmemVhc1dvdEJweTRtckhJZUlaNkFXQi11dFlFUnUtaUpsLTQ5dzJpd2o0a0ctdHBsZ05aMkd1ME5yZVU3Y09xQTA3Nmp1Zk52SnNCYUJfQWlEMUk0WWE5M1JtaWNDc1ZDVDhGTzkzZW1fTFlTeGVCR01ENFctMGZBZnRrWVRXVTQxTXJGc1U3N2RpMlnSAbwBQVVfeXFMTmN4QzhzYzhkRFVWWXV1d1g2RTQtWFFUUVZzcHNIYXZYVFAxNDVwTEgyLUR2YmFyeHVnYzRkLXQtWFpkVGdyV2FyaHBRNHpoaVFFVnNDOVVTT2dfNHB1M3Y1S1ZacEZLa1BLVjZUZ3NoMDR4TVN3Z1hyNU8yS2oweTVSSjI5VzFFOG9RVVM2bm1vOUM4UFZ1YldwNmNyMGVlRER2d2tVbC1iNjdZRWN3T0ctTWNFVWlSVEl2QnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1058
-    },
-    {
-      "date": "Jun 25",
-      "text": "US Congress directs Trump to remove forces from Iran war in a symbolic vote.",
+      "date": "Recent",
+      "text": "Congress directs Trump to remove forces from Iran war, with Senate joining House vote.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 1058
+      "latestSinceUpdate": 1059
     },
     {
-      "date": "Jun 25",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
+      "date": "Recent",
+      "text": "Iran says it targeted American base after fresh US strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1058
+      "latestSinceUpdate": 1059
     },
     {
-      "date": "Jun 25",
-      "text": "Israel moves deeper into Lebanon; Iran peace talks are strained.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPX200Zzhvc01oMWR1S3hFVnRJc2J6SU9CLS14aG1lMjY1U290ZHk4Qk94Ty1NZjd0U1FCVldpRlp5ZnM0cVlXa2R0ZWxZeV94eWp1Mkx2VlRGTkNiYWdqaFBKT1lrSXNJQTU1VjBUWXVMUndKd2hPZHIxaXdMVHFDY1pVVUZ5UkpHemR5RG5MeG9Zdjk2eWFZaFBFSnNFUWxXTW9JQ1c5Z01SVDIydE9wLWJMTmw1S083em9aWnUxRdIBxAFBVV95cUxOT1lnSWQ5SG1ld25mc3pTUTBNelpxWFYwQ0xfRDF6Wk82SHRGVWZBeGlpQmJ6dFhaVF80QTBlbmxqUnNtZkdUYjkzbHgteU1pdXBkT0MxU3d4MzhXR19kNVNMMThtNkJHNkdYN0dXUzFVUHBFdEk4OHE2QWVRbmwzS0FGZ2hYVlRVSWl3Nk5VN1R3NU43LTlTb2xSUEg3LXItSDRpYzhPRDBneXROVlJKRmJsUlJKZTU1MGxjYTM2dE9RQzRY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1058
+      "date": "Recent",
+      "text": "Israel conducts strikes in Iran, IDF says.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1059
+    },
+    {
+      "date": "Recent",
+      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1059
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

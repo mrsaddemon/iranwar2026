@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1058,
+  "updateSequence": 1059,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T00:19:27.929Z",
+  "lastSyncedAt": "2026-06-25T04:37:03.305Z",
   "warDay": 118,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No broad ceasefire is active, though local truces may be in effect and are reportedly violated."
+    "summary": "A truce in Lebanon appears to be violated by Israeli fire, while broader Iran peace talks are strained despite ongoing discussions."
   }
 }
