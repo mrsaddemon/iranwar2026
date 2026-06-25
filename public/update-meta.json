@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1064,
+  "updateSequence": 1065,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T17:56:16.249Z",
+  "lastSyncedAt": "2026-06-25T20:17:44.425Z",
   "warDay": 118,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "Peace talks between Iran and the US are strained, and Israel-Lebanon talks are ongoing but marred by truce violations and continued military action."
+    "summary": "No overarching ceasefire is active, with peace talks strained and local truces in Lebanon reportedly violated."
   }
 }
