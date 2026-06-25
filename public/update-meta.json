@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1061,
+  "updateSequence": 1062,
   "lastUpdated": "2026-06-25",
-  "lastSyncedAt": "2026-06-25T10:50:01.890Z",
+  "lastSyncedAt": "2026-06-25T13:07:45.646Z",
   "warDay": 118,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "Discussions for deconfliction are underway between Lebanon and Israel, but a truce in Lebanon has been violated, and Iran peace talks are strained."
+    "summary": "Peace talks between Iran and the US are strained, and a truce in Lebanon has been violated, despite ongoing diplomatic discussions."
   }
 }
