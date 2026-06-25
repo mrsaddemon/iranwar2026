@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1057,
-  "lastUpdated": "2026-06-24",
-  "lastSyncedAt": "2026-06-24T22:55:20.337Z",
-  "warDay": 117,
+  "updateSequence": 1058,
+  "lastUpdated": "2026-06-25",
+  "lastSyncedAt": "2026-06-25T00:19:27.929Z",
+  "warDay": 118,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and strained peace talks."
+    "summary": "No broad ceasefire is active, though local truces may be in effect and are reportedly violated."
   }
 }
