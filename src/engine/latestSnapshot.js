@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1069,
+  "updateSequence": 1070,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T05:56:52.775Z",
+  "lastSyncedAt": "2026-06-26T09:45:40.027Z",
   "warDay": 119,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-26",
@@ -10,45 +10,45 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "Despite talks between Jerusalem and Beirut, ongoing strikes and local skepticism indicate no active ceasefire is in effect, though a specific 'peace deal' for Hormuz shipping was recently violated."
+    "summary": "No general ceasefire is active between the primary belligerents, with localized clashes and political tensions ongoing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 58,
     "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
     "sanctionsPressure": 49,
-    "globalPressure": 56,
-    "allianceInfluence": 51
+    "globalPressure": 55,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,16 +60,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 26",
-      "text": "Israel attacks Lebanon as Netanyahu says troops to stay.",
-      "severity": "critical",
+      "text": "Tehran says US-GCC statement is ‘provocative, irresponsible’.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1069
+      "latestSinceUpdate": 1070
+    },
+    {
+      "date": "Jun 26",
+      "text": "Global oil prices fall to lowest level since before the US-Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1070
+    },
+    {
+      "date": "Jun 26",
+      "text": "Congress directs Trump to remove forces from Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1070
     },
     {
       "date": "Jun 26",
       "text": "UN’s IMO halts ship evacuations from Hormuz after attack.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1069
@@ -77,40 +93,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Jun 26",
       "text": "Iran says it targeted American base after fresh US strikes.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 1069
     },
     {
       "date": "Jun 26",
-      "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1068
-    },
-    {
-      "date": "Jun 26",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1069
-    },
-    {
-      "date": "Jun 26",
-      "text": "Oil prices ease after spiking over halt to Strait of Hormuz evacuation plan.",
+      "text": "Oil Futures Pick Up on Strait of Hormuz Concerns.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPbndvT2oxQk1UQmtTQ0NFVUgyZXNaTXQtY0d5WlZycENWNzQycEtBRThQMWJ4QWkxS2I3SXRCc3FzUEpGV2JlXzlaWU1GRng3dDhkVThJSEhPMXRqT1hDLVBTck9hc2tZZUs4M0QxSlF6TmxpWk1XUUpuZTZOeHRMdXhLc1hnMnpqaFJjaWpfZW05SEE3cGlNeG9CNzQ0ZVpCQUU1UGdnSEE0Zklpc2hnQkJNWko4d9IBuwFBVV95cUxORjBXTnRfOWhkRXNNSUNfNkM3Nl9XSTZDbzJSZnBRSFJXSHhMb0tuSlZERGsxZFowTlo4UndyT1ZkM0U1OVgzMXFiY1E2S1p3ckk0VjVyejFBOWlfcEpRc0NRekFYdXJZa3JxUkRUZ1JualBCSFJxZmg1TFpUeE5GQW9idklLR0s3R1lxOENiMWdMSU9aTnpUNDVZbDJLWDF2NEctV053MmFGbnU3TEZya3dqd050d0xfdkEw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1069
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNdlhCU1VLa29OS1NESHlmME5La3k2dmpva1piZ0RYckEwaGFfbTBkelJzZVFCdGh6Q3NQa2JDZ0ZBdGZfalRfcDd1ZUJGRjk5Y3l4WVdNWW10MmstR1VfR3J3Ui1pRGsyVVBLU2NZai11MkFOTmNhV2FvMTlhVFFZUERHNF93eHh4dUliQkNCYWdBalp0TEVraDU0MkN3Wk5tdzEtZEhXaUZ6bk5RNl9GeXlJTGhBRjVLenpuczhQMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 1070
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
