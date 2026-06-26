@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1076,
+  "updateSequence": 1077,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T21:55:36.782Z",
+  "lastSyncedAt": "2026-06-26T23:16:50.171Z",
   "warDay": 119,
-  "summary": "The US and Israel have conducted strikes against Iran, while Iran claims to have targeted an American base, amidst a collapsed ceasefire and ongoing regional tensions including an Israeli-Lebanese framework agreement rejected by Hezbollah.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A previously active ceasefire between the US and Iran has collapsed following mutual accusations of violations and subsequent military strikes."
+    "summary": "The ceasefire between the US and Iran appears to have collapsed following mutual strikes and accusations of violations."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 35,
-    "tradeImpact": 26,
+    "oilDisruption": 25,
+    "tradeImpact": 19,
     "sanctionsPressure": 54,
-    "globalPressure": 56,
+    "globalPressure": 54,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 26",
-      "text": "US military conducted strikes against Iran in response to a drone attack on a commercial ship in the Strait of Hormuz.",
+      "text": "US attacks Iran after Trump threat to respond to Gulf fire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOdHdZdU1zam5FTTBKVzlNWDBLU3N0dmxTbFRaMjBrVFNwNHBXQVpnTU16SmhxWUdyRWRNUkE0NXdLWE5kMDNnc25rdFIxMk1jSFd4M05LWkxzTDVlTnRBUkotNW5RaHBQaGZFaXE2RWdlb2psdHVqTHV3MU9odHVVdVZ0M1NJX3pMQ0RHcGFsTWlQTXdIY29rSV9HQXJCWW1uZHVUWnQwOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1076
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1077
     },
     {
       "date": "Jun 26",
-      "text": "Iran stated it targeted an American base following fresh US strikes.",
+      "text": "Global oil prices fall to lowest level since before the US-Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1077
+    },
+    {
+      "date": "Jun 26",
+      "text": "Congress directs Trump to remove forces from Iran war in symbolic vote.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1077
+    },
+    {
+      "date": "Jun 26",
+      "text": "U.S. strikes Iran after Trump accuses Tehran of 'foolish violation' of ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1077
+    },
+    {
+      "date": "Jun 26",
+      "text": "Iran says it targeted American base after fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1076
+      "latestSinceUpdate": 1077
     },
     {
       "date": "Jun 26",
-      "text": "Israel conducted strikes in Iran, according to the IDF.",
+      "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1076
-    },
-    {
-      "date": "Jun 26",
-      "text": "Trump accused Tehran of a 'foolish violation' of a ceasefire, preceding US strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1076
-    },
-    {
-      "date": "Jun 26",
-      "text": "Israeli fire killed two in Lebanon, with Hezbollah condemning it as a truce violation.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQR0RUWVRfSHpFWHdJOW1vUkpCUzQ4Y0R6b2tGTDl6cG1CY3VOTnd2MWNBX0lxcWJMcXY4YTd2V1hxZGJaWmZ1b1ZjSXNreUkwV3RPVXNyelpUOFB2MGZ0ZmRheUxnZDhpR015czMxMHM2c0J4TnNrUlF5Rm5MTHFLYTJkOENsa3F1R2lRdnFPSkJJV1ljRFZjdWF5b1ZvcTVnMU1yQkltYUJwWjdIWWfSAbMBQVVfeXFMTlVIbVpkYUVFNWJOZTJnVllRTG81X0NmNzA0a0xCMHEweDB1YnFna3Vfa0dIdWwyekJ0NE11YndjQmY1eVlKTUQ4LTgxeldCMGRRd1ViNWs5Z1oyUi1EUVUxdUFMZ3puWGV1QXRwWTFzeXV2STZOcGFabEJpSEl2UG9zQnBQSS1IX3k2NVBjUDk0b3lGS3JDa2hrZmZpRXFpMlhqcTltYm1uTHNlZ3daSVZzdEU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1076
-    },
-    {
-      "date": "Jun 26",
-      "text": "An Israel-Lebanon Framework Agreement for Hezbollah's disarmament was proposed, but Hezbollah stated it would not support the deal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQVTRxR1FzVFJuM2pvalgtd0t3ZkdoUmtLWGdLdnNPOUFvMU80T0lNTFM2TkxjZ2NmaHBEWTkyaV9jc2RsT21HWHhJMXRtNnhxVHpJc3hNVldGYmdjQWVDSVp4SzlrVjNLV0FCUjU5OGlBeGJ4VHJzeGU5enFqQ3JLZllGZm1obnBNMm1XR3BMUnEyMmpHSVdreVM5WWVNdlgwN1BIUHVZTnpqNTdtcFVYZ0xpZFlReUXSAbwBQVVfeXFMUEd2Z3EwVUMzUFdOM0FoMmllSjhtYmZzeUtDcWNDdllKV05hMmdocUd3Y1hDOUJJQUdoaDdWZm9YUXowTTFSc19uVmJGdTQzVmZjVHJGZEwzdlZBSm44NmVzZzE4MjR5RkpWTDY2SUtpNHJRcFA5WkJLbVg5ZmVWdGh0aEJQZm1QY2JQekZSb1JCcjBaQmgxMXV1OUN5Ym9rZDVDVUhoWWhvZ1l2ZlhHbUxoaENUS1FGeXJzREo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1076
+      "latestSinceUpdate": 1077
     }
   ],
   "sourceStatuses": [
