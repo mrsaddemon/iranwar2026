@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1074,
+  "updateSequence": 1075,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T18:58:30.130Z",
+  "lastSyncedAt": "2026-06-26T20:49:33.455Z",
   "warDay": 119,
-  "summary": "The US-Iran conflict continues with accusations of ceasefire violations, while Israel and Lebanon have signed a framework agreement amidst ongoing tensions and strikes.",
+  "summary": "Recent signals indicate ongoing military actions between Iran and Israel, continued US-Iran tensions over alleged ceasefire violations in the Strait of Hormuz, and diplomatic efforts between Israel and Lebanon, while global oil prices have fallen.",
   "lastNarrativeUpdate": "2026-06-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A previously established ceasefire agreement has been accused of being violated by Iran following drone strikes on a cargo ship and other attacks."
+    "summary": "A previously established ceasefire appears to have collapsed, with multiple reports of violations by both Iran and Israel, and active hostilities continuing."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.55
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 30,
-    "tradeImpact": 22,
+    "oilDisruption": 45,
+    "tradeImpact": 33,
     "sanctionsPressure": 54,
-    "globalPressure": 55,
+    "globalPressure": 58,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -76,35 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 26",
-      "text": "Congress directs President Trump to remove forces from the Iran war.",
+      "text": "Congress directs Trump to remove forces from the Iran war in a symbolic vote.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 1074
+      "latestSinceUpdate": 1075
     },
     {
       "date": "Jun 26",
-      "text": "The UN's IMO halts ship evacuations from the Strait of Hormuz following an attack.",
-      "severity": "warning",
+      "text": "UN's IMO halts ship evacuations from the Strait of Hormuz after an attack.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1074
+      "latestSinceUpdate": 1075
     },
     {
       "date": "Jun 26",
-      "text": "Iran states that Hormuz transit is only permitted via Tehran-approved routes.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1073
-    },
-    {
-      "date": "Jun 26",
-      "text": "Iran claims to have targeted an American base after fresh US strikes.",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1074
+      "latestSinceUpdate": 1075
+    },
+    {
+      "date": "Jun 26",
+      "text": "Israel conducts strikes in Iran, as confirmed by the IDF.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1075
     }
   ],
   "sourceStatuses": [
