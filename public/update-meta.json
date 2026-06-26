@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1073,
+  "updateSequence": 1074,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T16:52:41.906Z",
+  "lastSyncedAt": "2026-06-26T18:58:30.130Z",
   "warDay": 119,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "Multiple reports indicate a ceasefire has been violated by both Iran and Israel/Hezbollah, leading to skepticism about its existence or effectiveness."
+    "summary": "A previously established ceasefire agreement has been accused of being violated by Iran following drone strikes on a cargo ship and other attacks."
   }
 }
