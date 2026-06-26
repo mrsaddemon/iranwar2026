@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1068,
+  "updateSequence": 1069,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T01:38:23.676Z",
+  "lastSyncedAt": "2026-06-26T05:56:52.775Z",
   "warDay": 119,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-26",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A previously implied truce in Lebanon has been violated by Israeli fire, and no broader ceasefire is active between major belligerents."
+    "summary": "Despite talks between Jerusalem and Beirut, ongoing strikes and local skepticism indicate no active ceasefire is in effect, though a specific 'peace deal' for Hormuz shipping was recently violated."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "nuclearIndex": 45,
+    "escalationLevel": 38,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,36 +59,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 24",
-      "text": "Global oil prices fall to lowest level since before the US-Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1068
-    },
-    {
-      "date": "Jun 24",
-      "text": "US Congress directs Trump to remove forces from Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1068
-    },
-    {
       "date": "Jun 26",
-      "text": "UN agency pauses Hormuz ship evacuation initiative after vessel attacked.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgJBVV95cUxPYThqQkhMYVNXcXdNSjN6dFlQa0ZySTFVM01vSl9kR0RULU1wcmVoTmhpLVlvZVlUOTh4dDU1a2tab2ZTNHcwbTQzeVlKTENGM0t4VDNhU0pwakptZmFDYkx4bnR5WnN5UlA3ZE1BUXg0RWYxaUxFSlRzUW5mV3FkQXhSc1VUVktiR2VyWkNSREpFRVF2dG9LV1ZLajkxWGtRQjdtOTB2VzVPck9iOXhNZ0loczd6RWNlbkctU2sxakdRS2J5NTNSM2VoR25aM3I5SjVBOUFqSmVsZXVTUUJrejlwNGh3UWUwcWh1Mmk3ZnRDUm1ldExyMk5Bb1VKaTFadzJZNVMxZHFRZTh2QXJNS1c4MlZvQdIBnAJBVV95cUxOQ014a2psZ2J2aklfMWJlU1EwbWxxWmZXMWE1MjFqMExVTWR1b2sxdnh5cU0xSk1vUU52Q1hiZzhMVnRYQUY2eGpDMkNVam1aT0Q5d1FNSU1XdU9aWk1tYlQta2RPNS1HWFh3NnhSbnNKTUp6bVBvd0p4aTE1dGVOODFCdmEtWlIyZEFaVTBYelJEYjFRazR1SlVnWjlHYmp0OVN0R0x4MlhjR0ZlcEtqZmdFbkoyTnJfUGhkN2VwRFlSSTl1ejFuWEI3c2tUbmJnU0phLXQwaExTeWQ3dGd3UktKN2dUVE1kVFl3ZnNuQVFEWHJEcDVacGoxRnBVSkVrZTJSS3UtZkxlMG9xc1Fmc0JFM2pDRFRLd19lcQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 1068
-    },
-    {
-      "date": "Jun 26",
-      "text": "US launches new strikes on Iran, targeting missile sites and boats.",
+      "text": "Israel attacks Lebanon as Netanyahu says troops to stay.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WaDJGdEZ0YndpVVJXUlUydGhtZnZWVUFDdnR6MUdTSmhQNVMyZmRKUGMxZC0yTUNNTGw1Q2Q1M3VsNWVacFJ2X3cwd1BiOTd4b1BSYWxBM1Bodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1069
+    },
+    {
+      "date": "Jun 26",
+      "text": "UN’s IMO halts ship evacuations from Hormuz after attack.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1069
+    },
+    {
+      "date": "Jun 26",
+      "text": "Iran says it targeted American base after fresh US strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1068
+      "latestSinceUpdate": 1069
     },
     {
       "date": "Jun 26",
@@ -100,11 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 26",
-      "text": "Iran strikes vessel pausing UN efforts to evacuate ships from Hormuz.",
+      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNa0V2T3lqclJWdFBicm1RTkhieXZaTGNZS2lRRWp0SWRuMzZ4cTlJN292SmNIaFpVb3pyMGFieXdiR2lEdC1nSm5IYTZlOWhJYnB2OU05X0lxdjJ0dTJjMXo3bjFjZFJyTWVkelhybXl4RE9XUEx6ODdoRGc3ekZNX0FSbkdsM1EwUEp6NWdLd2JNQzFNT1F2TUNWMndGSTl1RkFwOEhyOEYwZEFRZENyc05nYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1068
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1069
+    },
+    {
+      "date": "Jun 26",
+      "text": "Oil prices ease after spiking over halt to Strait of Hormuz evacuation plan.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPbndvT2oxQk1UQmtTQ0NFVUgyZXNaTXQtY0d5WlZycENWNzQycEtBRThQMWJ4QWkxS2I3SXRCc3FzUEpGV2JlXzlaWU1GRng3dDhkVThJSEhPMXRqT1hDLVBTck9hc2tZZUs4M0QxSlF6TmxpWk1XUUpuZTZOeHRMdXhLc1hnMnpqaFJjaWpfZW05SEE3cGlNeG9CNzQ0ZVpCQUU1UGdnSEE0Zklpc2hnQkJNWko4d9IBuwFBVV95cUxORjBXTnRfOWhkRXNNSUNfNkM3Nl9XSTZDbzJSZnBRSFJXSHhMb0tuSlZERGsxZFowTlo4UndyT1ZkM0U1OVgzMXFiY1E2S1p3ckk0VjVyejFBOWlfcEpRc0NRekFYdXJZa3JxUkRUZ1JualBCSFJxZmg1TFpUeE5GQW9idklLR0s3R1lxOENiMWdMSU9aTnpUNDVZbDJLWDF2NEctV053MmFGbnU3TEZya3dqd050d0xfdkEw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1069
     }
   ],
   "sourceStatuses": [

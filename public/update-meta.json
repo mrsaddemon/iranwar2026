@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1068,
+  "updateSequence": 1069,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T01:38:23.676Z",
+  "lastSyncedAt": "2026-06-26T05:56:52.775Z",
   "warDay": 119,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A previously implied truce in Lebanon has been violated by Israeli fire, and no broader ceasefire is active between major belligerents."
+    "summary": "Despite talks between Jerusalem and Beirut, ongoing strikes and local skepticism indicate no active ceasefire is in effect, though a specific 'peace deal' for Hormuz shipping was recently violated."
   }
 }
