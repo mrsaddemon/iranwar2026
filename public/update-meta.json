@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1070,
+  "updateSequence": 1071,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T09:45:40.027Z",
+  "lastSyncedAt": "2026-06-26T12:03:05.011Z",
   "warDay": 119,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No general ceasefire is active between the primary belligerents, with localized clashes and political tensions ongoing."
+    "summary": "No active ceasefire is reported for the broader Iran war, and local skepticism exists regarding any agreement with Hezbollah."
   }
 }
