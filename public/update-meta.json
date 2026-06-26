@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1072,
+  "updateSequence": 1073,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T14:41:33.845Z",
+  "lastSyncedAt": "2026-06-26T16:52:41.906Z",
   "warDay": 119,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "No overall ceasefire is active, and regional truce efforts with Hezbollah appear to be failing."
+    "summary": "Multiple reports indicate a ceasefire has been violated by both Iran and Israel/Hezbollah, leading to skepticism about its existence or effectiveness."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1072,
+  "updateSequence": 1073,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T14:41:33.845Z",
+  "lastSyncedAt": "2026-06-26T16:52:41.906Z",
   "warDay": 119,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-26",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "No overall ceasefire is active, and regional truce efforts with Hezbollah appear to be failing."
+    "summary": "Multiple reports indicate a ceasefire has been violated by both Iran and Israel/Hezbollah, leading to skepticism about its existence or effectiveness."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.85,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.65,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 38,
-    "oilDisruption": 20,
-    "tradeImpact": 5,
-    "sanctionsPressure": 49,
-    "globalPressure": 44,
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 30,
+    "tradeImpact": 22,
+    "sanctionsPressure": 54,
+    "globalPressure": 55,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 26",
-      "text": "Iran says Hormuz transit only via Tehran-approved routes.",
+      "text": "Iran states that Hormuz transit is only permitted via Tehran-approved routes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1072
+      "latestSinceUpdate": 1073
     },
     {
       "date": "Jun 26",
-      "text": "Global oil prices fall to lowest level since before the US-Iran war.",
+      "text": "Global oil prices fall to their lowest level since before the US-Iran war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1070
+      "latestSinceUpdate": 1073
     },
     {
       "date": "Jun 26",
-      "text": "Congress directs Trump to remove forces from Iran war in symbolic vote.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1072
-    },
-    {
-      "date": "Jun 26",
-      "text": "UN’s IMO halts ship evacuations from Hormuz after attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1069
-    },
-    {
-      "date": "Jun 26",
-      "text": "Iran says it targeted American base after fresh US strikes.",
+      "text": "Iran says it targeted an American base following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1072
+      "latestSinceUpdate": 1073
     },
     {
       "date": "Jun 26",
-      "text": "Israel conducts strikes in Iran, IDF says.",
+      "text": "Israel conducts strikes in Iran, according to the IDF.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1071
+      "latestSinceUpdate": 1073
+    },
+    {
+      "date": "Jun 26",
+      "text": "Iran strikes a ship in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1073
+    },
+    {
+      "date": "Jun 26",
+      "text": "Trump states Iran violated a ceasefire with a drone strike on a ship in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQSTM0dmIxM0VDOEhiZlU1MURDWTd0THd6THVBc29lZE15WVIyWWdZR0hlMW92TVhtOHBiTW9XRUZDQk5rRGJfeDRCLVctbG5qTDMxNFBvck92ZTFHclpfTFdJa2NSdndyazJiM3pTcGlwb3JpNjRnZThBWjdtOXVMSW9ITHRhMUxaOEExdGsxVFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1073
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
