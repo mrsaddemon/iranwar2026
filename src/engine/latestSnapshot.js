@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1071,
+  "updateSequence": 1072,
   "lastUpdated": "2026-06-26",
-  "lastSyncedAt": "2026-06-26T12:03:05.011Z",
+  "lastSyncedAt": "2026-06-26T14:41:33.845Z",
   "warDay": 119,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-26",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "No active ceasefire is reported for the broader Iran war, and local skepticism exists regarding any agreement with Hezbollah."
+    "summary": "No overall ceasefire is active, and regional truce efforts with Hezbollah appear to be failing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 50,
     "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
+    "oilDisruption": 20,
+    "tradeImpact": 5,
     "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "globalPressure": 44,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 26",
-      "text": "Tehran condemns US-GCC statement as 'provocative, irresponsible'.",
-      "severity": "info",
+      "text": "Iran says Hormuz transit only via Tehran-approved routes.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1071
+      "latestSinceUpdate": 1072
     },
     {
       "date": "Jun 26",
@@ -76,11 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 26",
-      "text": "US Congress votes to direct Trump to remove forces from Iran war.",
+      "text": "Congress directs Trump to remove forces from Iran war in symbolic vote.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 1071
+      "latestSinceUpdate": 1072
     },
     {
       "date": "Jun 26",
@@ -92,16 +92,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 26",
-      "text": "Iran claims targeting American base after fresh US strikes.",
-      "severity": "warning",
+      "text": "Iran says it targeted American base after fresh US strikes.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1071
+      "latestSinceUpdate": 1072
     },
     {
       "date": "Jun 26",
       "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
       "latestSinceUpdate": 1071
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
