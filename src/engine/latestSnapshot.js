@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1079,
+  "updateSequence": 1080,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T05:32:22.773Z",
+  "lastSyncedAt": "2026-06-27T08:11:24.210Z",
   "warDay": 120,
-  "summary": "US forces have conducted strikes against Iranian military sites following an attack on a vessel in the Strait of Hormuz, while global oil prices have fallen and a previous ceasefire appears to have collapsed.",
+  "summary": "The United States has conducted multiple strikes against military sites in Iran following accusations of ceasefire violations and attacks on vessels in the Strait of Hormuz, while regional tensions persist between Israel and Lebanon despite an initial agreement.",
   "lastNarrativeUpdate": "2026-06-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A previously established ceasefire between the U.S. and Iran has reportedly collapsed following recent U.S. strikes and accusations of violations."
+    "summary": "A previously active ceasefire between the US and Iran has collapsed following accusations of Iranian violations and subsequent US military strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -19,12 +19,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 35,
-    "tradeImpact": 26,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 56,
-    "allianceInfluence": 51
+    "globalPressure": 62,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 26",
-      "text": "US strikes Iran after attack on vessel in Strait of Hormuz.",
+      "date": "Jun 27",
+      "text": "US military conducted strikes against missile and drone sites in Iran after accusing Tehran of violating a ceasefire and attacking vessels.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNdjVVaVMzcUdxUDVMbm0zREp4X2FHWk5kdzJzbi1zZF9OQ3RhSlVmRFdkSGVXenc4TlRISHlmNzY2dl9FSjdUaDFYR0lNRTlleWxwb0t3blVWUUt3V0tiRGNURVQwQndQZ2l0YkxKZHJ4cjg0OXRwVUVKblBkMks5LXZkWWg5YWJjbmFVN2gzM05rRnBYcDZsTTc2aF8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The National",
+      "latestSinceUpdate": 1080
+    },
+    {
+      "date": "Jun 27",
+      "text": "Iran condemned US strikes, stating they violate a Memorandum of Understanding (MoU).",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1080
+    },
+    {
+      "date": "Jun 27",
+      "text": "The UN’s IMO halted ship evacuations from the Strait of Hormuz following an attack on a vessel.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1079
+      "latestSinceUpdate": 1080
     },
     {
-      "date": "Jun 26",
-      "text": "Global oil prices fall to lowest level since before the US-Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1079
-    },
-    {
-      "date": "Jun 26",
-      "text": "Congress directs Trump to remove forces from Iran war in a symbolic vote.",
+      "date": "Jun 27",
+      "text": "In a symbolic vote, Congress directed Trump to remove forces from the Iran war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 1079
+      "latestSinceUpdate": 1080
     },
     {
-      "date": "Jun 26",
-      "text": "UN’s IMO halts ship evacuations from Hormuz after attack.",
+      "date": "Jun 27",
+      "text": "Israel and Lebanon signed an initial agreement after US-mediated talks, but Hezbollah stated it would not support the framework deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1079
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOZEQ1eUt6SFFHdFlGLWZxLVFTVnhHOThrbmpjbmtEMnlydmZYY08wLTI3X3NhSm5adGlBVU5nbmwwOWZENkJnVlU1UUNaUHIxNXdSNXdsT0NpRnpSdTFkc3VnUXVmY3lvX2lpb0xybngxODZya0ZTWFlueU1lSEZvZU5lWmV0M0U3OEp6MXVXaUF6Sm9xUjZoZGJldkFWQU5NV2dGWi13Uzdlci1LVEVQTGZnaEdBV0ZFSktfdTJfUGxXZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1080
     },
     {
-      "date": "Jun 26",
-      "text": "U.S. strikes Iran after Trump accuses Tehran of 'foolish violation' of ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1079
-    },
-    {
-      "date": "Jun 26",
-      "text": "Hezbollah states it will not support Israel-Lebanon framework deal.",
+      "date": "Jun 27",
+      "text": "Israel scrambled to counter a Hezbollah drone threat.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQVTRxR1FzVFJuM2pvalgtd0t3ZkdoUmtLWGdLdnNPOUFvMU80T0lNTFM2TkxjZ2NmaHBEWTkyaV9jc2RsT21HWHhJMXRtNnhxVHpJc3hNVldGYmdjQWVDSVp4SzlrVjNLV0FCUjU5OGlBeGJ4VHJzeGU5enFqQ3JLZllGZm1obnBNMm1XR3BMUnEyMmpHSVdreVM5WWVNdlgwN1BIUHVZTnpqNTdtcFVYZ0xpZFlReUXSAbwBQVVfeXFMUEd2Z3EwVUMzUFdOM0FoMmllSjhtYmZzeUtDcWNDdllKV05hMmdocUd3Y1hDOUJJQUdoaDdWZm9YUXowTTFSc19uVmJGdTQzVmZjVHJGZEwzdlZBSm44NmVzZzE4MjR5RkpWTDY2SUtpNHJRcFA5WkJLbVg5ZmVWdGh0aEJQZm1QY2JQekZSb1JCcjBaQmgxMXV1OUN5Ym9rZDVDVUhoWWhvZ1l2ZlhHbUxoaENUS1FGeXJzREo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1079
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQVFpIdkNnLWFiS3lJZ1VkV1ZoS1h0ZjVjZ0x0MnpCVnBIbWJHSFNOMWIza2s0SFAyaTV4QV9rRGo1SWQ4Nk01b3hPSS1SSHJJR2YtZUpEYmpaV2cyVUdVWWt3dDRwN05RQU5jZkZSV0dDTHlqdXZKSkF4UVdIX1ltbk9uOERzZU9fc1Nha0x3VzhJU2FYcDl1TnJSbDQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1080
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (14 headlines)"
     },
     {
       "source": "GDELT",
