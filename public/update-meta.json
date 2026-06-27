@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1078,
+  "updateSequence": 1079,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T01:24:20.172Z",
+  "lastSyncedAt": "2026-06-27T05:32:22.773Z",
   "warDay": 120,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A previously established ceasefire between the US and Iran has collapsed following repeated military strikes and accusations of violations from both sides."
+    "summary": "A previously established ceasefire between the U.S. and Iran has reportedly collapsed following recent U.S. strikes and accusations of violations."
   }
 }
