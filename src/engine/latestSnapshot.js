@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1080,
+  "updateSequence": 1081,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T08:11:24.210Z",
+  "lastSyncedAt": "2026-06-27T10:25:51.409Z",
   "warDay": 120,
-  "summary": "The United States has conducted multiple strikes against military sites in Iran following accusations of ceasefire violations and attacks on vessels in the Strait of Hormuz, while regional tensions persist between Israel and Lebanon despite an initial agreement.",
+  "summary": "The US has conducted military strikes against Iran following accusations of a ceasefire violation and an attack on a cargo ship in the Strait of Hormuz, while Iran has reportedly targeted US military sites in retaliation.",
   "lastNarrativeUpdate": "2026-06-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A previously active ceasefire between the US and Iran has collapsed following accusations of Iranian violations and subsequent US military strikes."
+    "summary": "A previously established ceasefire between the US and Iran has reportedly been violated by Iran, leading to renewed US military strikes and subsequent Iranian retaliation."
   },
   "actorOverrides": {
     "usa": {
@@ -28,27 +28,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.5
+        "aggression": 0.3
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 70,
     "tradeImpact": 51,
     "sanctionsPressure": 54,
     "globalPressure": 62,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 27",
-      "text": "US military conducted strikes against missile and drone sites in Iran after accusing Tehran of violating a ceasefire and attacking vessels.",
+      "text": "US strikes military sites in Iran after accusing Tehran of violating a ceasefire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNdjVVaVMzcUdxUDVMbm0zREp4X2FHWk5kdzJzbi1zZF9OQ3RhSlVmRFdkSGVXenc4TlRISHlmNzY2dl9FSjdUaDFYR0lNRTlleWxwb0t3blVWUUt3V0tiRGNURVQwQndQZ2l0YkxKZHJ4cjg0OXRwVUVKblBkMks5LXZkWWg5YWJjbmFVN2gzM05rRnBYcDZsTTc2aF8?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The National",
-      "latestSinceUpdate": 1080
+      "latestSinceUpdate": 1081
     },
     {
       "date": "Jun 27",
-      "text": "Iran condemned US strikes, stating they violate a Memorandum of Understanding (MoU).",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1080
-    },
-    {
-      "date": "Jun 27",
-      "text": "The UN’s IMO halted ship evacuations from the Strait of Hormuz following an attack on a vessel.",
+      "text": "Iran's IRGC reportedly targets US military sites in the region and US Navy assets in retaliation for US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1080
+      "latestSinceUpdate": 1081
     },
     {
       "date": "Jun 27",
-      "text": "In a symbolic vote, Congress directed Trump to remove forces from the Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxONFNtMy1HZlhnWDdRVnBCbW5JVFFNX3VPeXR3RXNlR0FtOFNMV193NktWWGU5VmYtUFRvZy1IOTFnUzIxNldmZ1dXb29yVGFCeXhSYWdkN0VZS0tWZTlzTERNVXhPNVBBM0VXMHkxbTM3NlhNaWJLcG16d1p5dXlERTRSV2k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1080
-    },
-    {
-      "date": "Jun 27",
-      "text": "Israel and Lebanon signed an initial agreement after US-mediated talks, but Hezbollah stated it would not support the framework deal.",
+      "text": "The UN’s IMO halts ship evacuations from the Strait of Hormuz after an attack on a cargo ship.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1081
+    },
+    {
+      "date": "Jun 27",
+      "text": "The US strikes Iranian military sites after a cargo ship was hit in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQZE5FZXRUMFlMa2d1OWJhZW11RFJjeUw3Z1lzbEM4c3NQQXA3MDRYbFI2SW5KU3Bac3A2bDE1dGt5ZkV1UTg5dml2VXNFZHlwSEJLaXZMRVZOamwtOFNMSmtHYkNjazdidVpUZDRoWjB2ak5McGNndHdoZEdhMklSTmlvQWtRaDV6RDRBWTI4RzVwek5CQUtDZXZzQzZEVklSaXdKekNQU25mZlpndEhYbDNGMVdhblhmc1E5bXFELXJBMTdidHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1081
+    },
+    {
+      "date": "Jun 27",
+      "text": "Israel and Lebanon sign an initial agreement after US-mediated talks, though Hezbollah states it will not support the framework deal.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOZEQ1eUt6SFFHdFlGLWZxLVFTVnhHOThrbmpjbmtEMnlydmZYY08wLTI3X3NhSm5adGlBVU5nbmwwOWZENkJnVlU1UUNaUHIxNXdSNXdsT0NpRnpSdTFkc3VnUXVmY3lvX2lpb0xybngxODZya0ZTWFlueU1lSEZvZU5lWmV0M0U3OEp6MXVXaUF6Sm9xUjZoZGJldkFWQU5NV2dGWi13Uzdlci1LVEVQTGZnaEdBV0ZFSktfdTJfUGxXZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1080
-    },
-    {
-      "date": "Jun 27",
-      "text": "Israel scrambled to counter a Hezbollah drone threat.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQVFpIdkNnLWFiS3lJZ1VkV1ZoS1h0ZjVjZ0x0MnpCVnBIbWJHSFNOMWIza2s0SFAyaTV4QV9rRGo1SWQ4Nk01b3hPSS1SSHJJR2YtZUpEYmpaV2cyVUdVWWt3dDRwN05RQU5jZkZSV0dDTHlqdXZKSkF4UVdIX1ltbk9uOERzZU9fc1Nha0x3VzhJU2FYcDl1TnJSbDQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1080
+      "latestSinceUpdate": 1081
     }
   ],
   "sourceStatuses": [
