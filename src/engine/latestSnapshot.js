@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1087,
+  "updateSequence": 1088,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T18:55:21.213Z",
+  "lastSyncedAt": "2026-06-27T20:15:54.893Z",
   "warDay": 120,
-  "summary": "Tensions have escalated with US strikes on Iran following alleged ceasefire violations, Iranian retaliation, and Hezbollah's rejection of a proposed Israel-Lebanon security agreement, leading to Israeli strikes in southern Lebanon and disruption in the Strait of Hormuz.",
+  "summary": "Tensions between the US and Iran have escalated following mutual accusations of ceasefire violations, leading to US strikes on Iran and Iranian drone attacks on Bahrain, while regional stability is further challenged by Hezbollah's rejection of an Israel-Lebanon security deal.",
   "lastNarrativeUpdate": "2026-06-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A previously established ceasefire between the US and Iran has been violated, leading to renewed strikes, while Hezbollah has rejected a proposed Israel-Lebanon security deal."
+    "summary": "A ceasefire between the US and Iran appears to have collapsed following mutual accusations of violations and retaliatory strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 35,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 27",
-      "text": "US strikes military sites in Iran after accusing Tehran of violating a ceasefire.",
+      "text": "US strikes military sites in Iran after accusing Tehran of violating a ceasefire and attacking a cargo ship.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNdjVVaVMzcUdxUDVMbm0zREp4X2FHWk5kdzJzbi1zZF9OQ3RhSlVmRFdkSGVXenc4TlRISHlmNzY2dl9FSjdUaDFYR0lNRTlleWxwb0t3blVWUUt3V0tiRGNURVQwQndQZ2l0YkxKZHJ4cjg0OXRwVUVKblBkMks5LXZkWWg5YWJjbmFVN2gzM05rRnBYcDZsTTc2aF8?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The National",
-      "latestSinceUpdate": 1087
+      "latestSinceUpdate": 1088
     },
     {
       "date": "Jun 27",
@@ -84,25 +84,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 27",
-      "text": "Israel strikes southern Lebanon after Hezbollah condemns the new deal.",
+      "text": "Israel strikes southern Lebanon as Hezbollah condemns the new deal.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBsVHVPNndVQ3hQLTF6aUJDNnJ5RmVjdlFOeWhHS1VMYUo2X0UyZDQ5Vm5Jd1ZzeURPX21lMnJNNHUtTFBqMmRXU0F2QXFxWEp0ZU1Db1JCOUx5dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1087
+      "latestSinceUpdate": 1088
     },
     {
       "date": "Jun 27",
-      "text": "The UN’s IMO halts ship evacuations from the Strait of Hormuz after an attack.",
+      "text": "UN’s IMO halts ship evacuations from the Strait of Hormuz after an attack, citing increased tensions.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1087
+      "latestSinceUpdate": 1088
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (10 headlines)"
+      "status": "ok (11 headlines)"
     },
     {
       "source": "GDELT",

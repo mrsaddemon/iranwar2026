@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1087,
+  "updateSequence": 1088,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T18:55:21.213Z",
+  "lastSyncedAt": "2026-06-27T20:15:54.893Z",
   "warDay": 120,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A previously established ceasefire between the US and Iran has been violated, leading to renewed strikes, while Hezbollah has rejected a proposed Israel-Lebanon security deal."
+    "summary": "A ceasefire between the US and Iran appears to have collapsed following mutual accusations of violations and retaliatory strikes."
   }
 }
