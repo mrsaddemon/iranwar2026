@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1090,
+  "updateSequence": 1091,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T22:39:17.632Z",
+  "lastSyncedAt": "2026-06-27T23:44:07.404Z",
   "warDay": 120,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A ceasefire between the US and Iran is severely strained by ongoing exchanges of strikes and accusations of violations."
+    "summary": "The recent U.S.-Iran truce has collapsed following renewed strikes and retaliations from both sides."
   }
 }
