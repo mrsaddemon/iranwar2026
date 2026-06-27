@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1083,
+  "updateSequence": 1084,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T14:01:36.097Z",
+  "lastSyncedAt": "2026-06-27T15:21:44.179Z",
   "warDay": 120,
-  "summary": "The United States and Iran have engaged in reciprocal military strikes following accusations of ceasefire violations, leading to heightened tensions in the Strait of Hormuz and regional instability.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "A previously established ceasefire or Memorandum of Understanding between the US and Iran has collapsed following reciprocal military strikes and accusations of violations."
+    "summary": "A previously established ceasefire between the US and Iran appears to have collapsed following accusations of violations and subsequent military strikes by both sides."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,49 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 27",
-      "text": "U.S. strikes Iranian military sites after a ship was reportedly hit in the Strait of Hormuz.",
+      "text": "US strikes military sites in Iran after accusing Tehran of violating a ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQZE5FZXRUMFlMa2d1OWJhZW11RFJjeUw3Z1lzbEM4c3NQQXA3MDRYbFI2SW5KU3Bac3A2bDE1dGt5ZkV1UTg5dml2VXNFZHlwSEJLaXZMRVZOamwtOFNMSmtHYkNjazdidVpUZDRoWjB2ak5McGNndHdoZEdhMklSTmlvQWtRaDV6RDRBWTI4RzVwek5CQUtDZXZzQzZEVklSaXdKekNQU25mZlpndEhYbDNGMVdhblhmc1E5bXFELXJBMTdidHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1083
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNdjVVaVMzcUdxUDVMbm0zREp4X2FHWk5kdzJzbi1zZF9OQ3RhSlVmRFdkSGVXenc4TlRISHlmNzY2dl9FSjdUaDFYR0lNRTlleWxwb0t3blVWUUt3V0tiRGNURVQwQndQZ2l0YkxKZHJ4cjg0OXRwVUVKblBkMks5LXZkWWg5YWJjbmFVN2gzM05rRnBYcDZsTTc2aF8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The National",
+      "latestSinceUpdate": 1084
     },
     {
       "date": "Jun 27",
-      "text": "Iran launches retaliatory strikes on Bahrain after the latest US attacks, claiming to hit US targets.",
+      "text": "Iran launches retaliatory strikes, targeting Bahrain and the US Navy.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxNTWFlc2NVMzM5OFBXcnpNQmxTakcyQ3RtLTZMZVNuQzBIdXRFMmNYenRHT2w5ZjdTMjdMQWlPTmgzY2xWN0M3TF9NSTFwckdWelNJOWw4Nk1JOHJHeXA5Yk5aaWliV2VEcW84ZW5UakRuUXVEZnUzbTNhblBURGd3OFVGemsyR2lJMzk1UHU4WkJ5SWVhUUVJWNIBngFBVV95cUxPTUNyb1JNZlQ3MGlneGpFNngtOU1rWGFPbHNlTGhWbVlNTTFXano2T21XODJHRlhldGVLRlZ5UENRY0l6dTJOdGNEQ3VNMDdRZlIyQ1NCSDlxV185NGJEZGFOZWVZb2xEeXRhXzQ0VWNlV1lvUEFmM1ZFZDNaQTFORXBaMllxUC1ydGdEUC1jZnBuQ3BSY3YwYmduaTZDUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 1083
+      "latestSinceUpdate": 1084
     },
     {
       "date": "Jun 27",
-      "text": "The UN’s IMO halts ship evacuations from the Strait of Hormuz following an attack, indicating significant disruption.",
+      "text": "UN's IMO halts ship evacuations from the Strait of Hormuz after an attack and threats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1083
+      "latestSinceUpdate": 1084
     },
     {
       "date": "Jun 27",
-      "text": "Hezbollah states it will not support the proposed Israel-Lebanon framework deal.",
+      "text": "Hezbollah rejects the proposed Israel-Lebanon framework agreement.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQVTRxR1FzVFJuM2pvalgtd0t3ZkdoUmtLWGdLdnNPOUFvMU80T0lNTFM2TkxjZ2NmaHBEWTkyaV9jc2RsT21HWHhJMXRtNnhxVHpJc3hNVldGYmdjQWVDSVp4SzlrVjNLV0FCUjU5OGlBeGJ4VHJzeGU5enFqQ3JLZllGZm1obnBNMm1XR3BMUnEyMmpHSVdreVM5WWVNdlgwN1BIUHVZTnpqNTdtcFVYZ0xpZFlReUXSAbwBQVVfeXFMUEd2Z3EwVUMzUFdOM0FoMmllSjhtYmZzeUtDcWNDdllKV05hMmdocUd3Y1hDOUJJQUdoaDdWZm9YUXowTTFSc19uVmJGdTQzVmZjVHJGZEwzdlZBSm44NmVzZzE4MjR5RkpWTDY2SUtpNHJRcFA5WkJLbVg5ZmVWdGh0aEJQZm1QY2JQekZSb1JCcjBaQmgxMXV1OUN5Ym9rZDVDVUhoWWhvZ1l2ZlhHbUxoaENUS1FGeXJzREo?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1083
+      "latestSinceUpdate": 1084
     },
     {
       "date": "Jun 27",
-      "text": "Israel agrees to a small withdrawal from two areas in Lebanon.",
+      "text": "Israel agrees to withdraw from two areas in Lebanon as a small step.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1083
+      "latestSinceUpdate": 1084
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (13 headlines)"
     },
     {
       "source": "GDELT",
