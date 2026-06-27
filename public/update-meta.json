@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1088,
+  "updateSequence": 1089,
   "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T20:15:54.893Z",
+  "lastSyncedAt": "2026-06-27T21:31:50.089Z",
   "warDay": 120,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A ceasefire between the US and Iran appears to have collapsed following mutual accusations of violations and retaliatory strikes."
+    "summary": "A previously attempted ceasefire between the U.S. and Iran appears to have collapsed following mutual strikes and accusations of violations, while a proposed Israel-Lebanon security deal was rejected."
   }
 }
