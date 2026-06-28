@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1098,
+  "updateSequence": 1099,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T16:20:49.769Z",
+  "lastSyncedAt": "2026-06-28T17:38:57.149Z",
   "warDay": 121,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A fragile truce between the US and Iran is under severe strain due to escalating tit-for-tat strikes, while a separate Israel-Lebanon peace deal is rejected by Hezbollah and tested by Israeli strikes."
+    "summary": "A fragile ceasefire between the US and Iran is under severe strain due to ongoing retaliatory strikes, while a separate days-old Israel-Lebanon peace deal is also being tested."
   }
 }
