@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1091,
-  "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T23:44:07.404Z",
-  "warDay": 120,
+  "updateSequence": 1092,
+  "lastUpdated": "2026-06-28",
+  "lastSyncedAt": "2026-06-28T01:54:54.412Z",
+  "warDay": 121,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "The recent U.S.-Iran truce has collapsed following renewed strikes and retaliations from both sides."
+    "summary": "A previously established ceasefire between the US and Iran has collapsed amidst escalating tit-for-tat strikes and mutual accusations of violations."
   }
 }

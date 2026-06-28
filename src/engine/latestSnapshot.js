@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1091,
-  "lastUpdated": "2026-06-27",
-  "lastSyncedAt": "2026-06-27T23:44:07.404Z",
-  "warDay": 120,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-06-27",
+  "updateSequence": 1092,
+  "lastUpdated": "2026-06-28",
+  "lastSyncedAt": "2026-06-28T01:54:54.412Z",
+  "warDay": 121,
+  "summary": "US and Iran are engaged in escalating tit-for-tat strikes across the Gulf region, straining an existing ceasefire, while Hezbollah rejects a US-brokered security deal for Lebanon.",
+  "lastNarrativeUpdate": "2026-06-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 5,
-    "summary": "The recent U.S.-Iran truce has collapsed following renewed strikes and retaliations from both sides."
+    "summary": "A previously established ceasefire between the US and Iran has collapsed amidst escalating tit-for-tat strikes and mutual accusations of violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,36 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 27",
-      "text": "U.S. conducts further strikes against multiple targets in Iran, citing ceasefire violations.",
+      "date": "Jun 28",
+      "text": "US military strikes multiple targets in Iran following alleged ceasefire violations.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimwJBVV95cUxPSkRwZkc1UnJMbEN1LThLSXRQNDFxbDF4WWx1aHE4UEw5b2RwZFktNkNCcGVaUkd2MGUyRXZuMlRGQjA3OFhPUkF3Y0pHQVpLdWlIbXNXeEJJMVNUdUdXYWVQdXpSbU50TXV6cWZ3T21EbjFRdnVMdUNPMnVYMnJoNmVGMnhVNFZ3clpPTGV4STdacWRzNUVvVGJzZ1g3RDhiRExIZkhiSG1DYkRGbE5lbHplM2dnd3F6TzlNOTJ0My1id0ZjVWZiMTZGZEVGLTJrOVZud1dTR2R5WFlMVEdCalAxeDY5eFktYnBYVDlQRUlVekcyMG9XaXpIczRSbWNSLTdtcG9XcVRqX0RGNEE4Mmx4R0MzWHpGdkJv0gGiAkFVX3lxTFA0MXp0d0FBcU5yMmV5SU5MLU1YeThMdGhvQTZpVndjU21TQVo3TlRNc0lERXA2azBodjgzMFNXZ3RfN001TzNuSTlYa2JvMHByVjBzRE9DZWZZbnNQUWlXVDhCLWRvSjRaN25lQllFb1hrcFJUVEFqMkZMSHNVXzdvOXlpdGRmX0hLTF9GUkdFMHctdDRwcEw3azFUOVVtMWVobGJsbGhNdDQ3WDVfbXFrRlR0Z1NWQVgwc3FuS256RG1EbWxveC1nR19wMjdHdlhtZGVEQTY1S1hqZjk0cENWN09KOVkwZG5BR2NOU0dWMDlzTWtDbGFpTG82WV9vU19jYXI3a3FtdnNTVWU3c3dDdFFJdTRmVFgwamZDcG13d3JB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 1091
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1092
     },
     {
-      "date": "Jun 27",
-      "text": "Iran launches retaliatory drone strikes targeting Bahrain following the latest U.S. attacks.",
+      "date": "Jun 28",
+      "text": "Iran claims to have targeted an American base in retaliation for fresh US strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1092
+    },
+    {
+      "date": "Jun 28",
+      "text": "A tanker was struck in the Strait of Hormuz, leading to further US strikes against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxOa1VBd0lTLXNIN1ZWWnpuTUVydFpzcmdpU2ZnRFRjVlk2djhWNk1HNi1Hd1V4Q3d4czhkOHE3TzdmQ045Wkl2bUktNURLTTdNU1ZJZGhKbDd5YnY3RXZCak5OTXZNTVM1V1lpM0F1WG9tOTJOYy1zRUY4VG8wazNTU29wRFh5clkzMnFxeWdBWUdyVk1GVmhWUDRmT3E5WTJkSmlaWFJWYk5RUXQ3QnRiTWUyRE81T0d1ODhYSDJEM0FTNUxBZXFmbGtoX3F4SkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1092
+    },
+    {
+      "date": "Jun 28",
+      "text": "Iran launches retaliatory strikes on Bahrain after latest US attacks, with air raid sirens reported in Gulf nations.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxNTWFlc2NVMzM5OFBXcnpNQmxTakcyQ3RtLTZMZVNuQzBIdXRFMmNYenRHT2w5ZjdTMjdMQWlPTmgzY2xWN0M3TF9NSTFwckdWelNJOWw4Nk1JOHJHeXA5Yk5aaWliV2VEcW84ZW5UakRuUXVEZnUzbTNhblBURGd3OFVGemsyR2lJMzk1UHU4WkJ5SWVhUUVJWNIBngFBVV95cUxPTUNyb1JNZlQ3MGlneGpFNngtOU1rWGFPbHNlTGhWbVlNTTFXano2T21XODJHRlhldGVLRlZ5UENRY0l6dTJOdGNEQ3VNMDdRZlIyQ1NCSDlxV185NGJEZGFOZWVZb2xEeXRhXzQ0VWNlV1lvUEFmM1ZFZDNaQTFORXBaMllxUC1ydGdEUC1jZnBuQ3BSY3YwYmduaTZDUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 1091
+      "latestSinceUpdate": 1092
     },
     {
-      "date": "Jun 27",
-      "text": "Israel strikes southern Lebanon, killing one, a day after agreeing to a security framework.",
+      "date": "Jun 28",
+      "text": "Hezbollah rejects a US-brokered Israel-Lebanon security deal amidst ongoing Israeli attacks in southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNYWtiMUI4NktLVWg4WjVHQTd5emRGX0hkMXVOaW5FWjlSN3Q2WGZJcmVSa1A0WEFUZ21MUDlpRXBHMzBGSm9hN1NPalJpMEdPWmE5X1hDY2U1WXN1cFp6N0dXRHMyNGJpdEc5YzdSb1c5aWkxU2FUVGpaMllDdDJmSk9rVFhETUZHaDh5UVJaSTNGTW9sY3dxVHdJa0NJVXhlV1pzWjR0X3ZOclNBeV8zSUxB0gG3AUFVX3lxTE9LRU9jNV9teVhSVG1YVWVJYzlCVVpybXZUS3R6YnR6SFlVMTdGM19mZkhIeHVkOEVjaWhibGFCTUw4YXN3dkJLcElzZF9uVE9pT3llaC00ZVFIUUs1cHR1WmFZNC1CN21sWGNfdkpVUHV4Y2hoRkxWSzRFWk5VYTlIMWJiaHl3RDB3dXZ5T2JKX2FYelJsZTVTNllQN2pIN25YZFdaa1prbjN2TGRPM2g1d2FTSXFRTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1091
-    },
-    {
-      "date": "Jun 27",
-      "text": "Hezbollah rejects the US-brokered Israel-Lebanon security deal, calling it a 'surrender'.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1091
+      "latestSinceUpdate": 1092
     }
   ],
   "sourceStatuses": [
@@ -123,25 +131,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Allies",
-      "headline": "US and Israel Respond to Iranian Aggression",
-      "summary": "The United States and Israel assert their right to respond to Iranian aggression, including attacks on shipping and violations of a ceasefire, by conducting targeted military strikes to protect regional interests.",
-      "tone": "strained",
-      "latestSinceUpdate": 1078
+      "perspective": "US",
+      "headline": "US Strikes Iran Over Aggression",
+      "summary": "The US states its strikes on Iran are a response to continued aggression against shipping and violations of a ceasefire agreement.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1092
     },
     {
       "perspective": "Iran",
-      "headline": "Iran Retaliates Against Foreign Aggression",
-      "summary": "Iran maintains its right to retaliate against US and Israeli military actions, asserting that its strikes are a response to foreign aggression and defense of its sovereignty.",
+      "headline": "Iran Retaliates Against US Attacks",
+      "summary": "Iran asserts its strikes are retaliatory actions against recent US military attacks and to defend its sovereign interests.",
       "tone": "defiant",
-      "latestSinceUpdate": 1078
+      "latestSinceUpdate": 1092
     },
     {
-      "perspective": "Economic/Global",
-      "headline": "Oil Prices Fall Amid Ongoing Conflict",
-      "summary": "Despite ongoing conflict, global oil prices have reportedly fallen to pre-war levels, raising questions about the economic impact and beneficiaries of the prolonged conflict.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 1078
+      "perspective": "Hezbollah",
+      "headline": "Hezbollah Rejects US-Israel Deal",
+      "summary": "Hezbollah's leadership has publicly rejected the US-brokered security deal between Israel and Lebanon, calling it a surrender.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1092
     }
   ]
 });
