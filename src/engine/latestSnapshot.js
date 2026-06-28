@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1092,
+  "updateSequence": 1093,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T01:54:54.412Z",
+  "lastSyncedAt": "2026-06-28T06:34:31.681Z",
   "warDay": 121,
-  "summary": "US and Iran are engaged in escalating tit-for-tat strikes across the Gulf region, straining an existing ceasefire, while Hezbollah rejects a US-brokered security deal for Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "A previously established ceasefire between the US and Iran has collapsed amidst escalating tit-for-tat strikes and mutual accusations of violations."
+    "summary": "An interim deal between the US and Iran has collapsed following a second day of mutual strikes and accusations of violations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,22 +18,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,43 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 28",
-      "text": "US military strikes multiple targets in Iran following alleged ceasefire violations.",
+      "text": "US launches second night of airstrikes on Iran after a ship was reportedly hit by a drone.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1092
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajBRX044WFVIbHpWazNnNjNjV0UwekFBT0N6b0MyaHNDTjZMSC00Nm9kX1VmR1RxMEt0R3IwaUFzUUFqWmg1cVg1U1VfUE9EaVVaVU1jbkU4d2s1cjdlelMyM0ZSVFBJd0NWM3FlOHBiejVtNGNNOVZOeWZHa2VqZ3I1a1ZIQUdnUWl0QmpBS0tGSWFlMHdEQWdIRWtOaGdNTjVlaUIzcDJud2prT2pGQzNiTVJWUnPSAbwBQVVfeXFMTVA3Sm5UdjV5TnlPMEFiTi1YZDdCNEgwNW1mNTljT3Q2eGNveUZySmRLSjRLWnc0WjdmLUxBcS1Yd2NjNG56OXkwVnlHblZJeEo0MGE5ZDRvMi1hSTZGQkpKUUZybHJpRkFybXprQW5SN1phN1JkS3hhS1p3WmFBUWhWRVNpdlVWUlRDcktWd0ZnamNDdjVyWUhJUENITTZ0WDE0WGxjU3B3ektLcmZaR2FUYVVPaF92dG5QU0o?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1093
     },
     {
       "date": "Jun 28",
-      "text": "Iran claims to have targeted an American base in retaliation for fresh US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1092
-    },
-    {
-      "date": "Jun 28",
-      "text": "A tanker was struck in the Strait of Hormuz, leading to further US strikes against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxOa1VBd0lTLXNIN1ZWWnpuTUVydFpzcmdpU2ZnRFRjVlk2djhWNk1HNi1Hd1V4Q3d4czhkOHE3TzdmQ045Wkl2bUktNURLTTdNU1ZJZGhKbDd5YnY3RXZCak5OTXZNTVM1V1lpM0F1WG9tOTJOYy1zRUY4VG8wazNTU29wRFh5clkzMnFxeWdBWUdyVk1GVmhWUDRmT3E5WTJkSmlaWFJWYk5RUXQ3QnRiTWUyRE81T0d1ODhYSDJEM0FTNUxBZXFmbGtoX3F4SkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1092
-    },
-    {
-      "date": "Jun 28",
-      "text": "Iran launches retaliatory strikes on Bahrain after latest US attacks, with air raid sirens reported in Gulf nations.",
+      "text": "Iran launches retaliatory strikes on Bahrain and Kuwait, following the latest US attacks near Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxNTWFlc2NVMzM5OFBXcnpNQmxTakcyQ3RtLTZMZVNuQzBIdXRFMmNYenRHT2w5ZjdTMjdMQWlPTmgzY2xWN0M3TF9NSTFwckdWelNJOWw4Nk1JOHJHeXA5Yk5aaWliV2VEcW84ZW5UakRuUXVEZnUzbTNhblBURGd3OFVGemsyR2lJMzk1UHU4WkJ5SWVhUUVJWNIBngFBVV95cUxPTUNyb1JNZlQ3MGlneGpFNngtOU1rWGFPbHNlTGhWbVlNTTFXano2T21XODJHRlhldGVLRlZ5UENRY0l6dTJOdGNEQ3VNMDdRZlIyQ1NCSDlxV185NGJEZGFOZWVZb2xEeXRhXzQ0VWNlV1lvUEFmM1ZFZDNaQTFORXBaMllxUC1ydGdEUC1jZnBuQ3BSY3YwYmduaTZDUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 1092
+      "latestSinceUpdate": 1093
     },
     {
       "date": "Jun 28",
-      "text": "Hezbollah rejects a US-brokered Israel-Lebanon security deal amidst ongoing Israeli attacks in southern Lebanon.",
+      "text": "Trump accuses Tehran of ceasefire violation as US and Iran trade more strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1093
+    },
+    {
+      "date": "Jun 28",
+      "text": "Hezbollah rejects a new Israel-Lebanon agreement, prompting Israeli attacks in southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNYWtiMUI4NktLVWg4WjVHQTd5emRGX0hkMXVOaW5FWjlSN3Q2WGZJcmVSa1A0WEFUZ21MUDlpRXBHMzBGSm9hN1NPalJpMEdPWmE5X1hDY2U1WXN1cFp6N0dXRHMyNGJpdEc5YzdSb1c5aWkxU2FUVGpaMllDdDJmSk9rVFhETUZHaDh5UVJaSTNGTW9sY3dxVHdJa0NJVXhlV1pzWjR0X3ZOclNBeV8zSUxB0gG3AUFVX3lxTE9LRU9jNV9teVhSVG1YVWVJYzlCVVpybXZUS3R6YnR6SFlVMTdGM19mZkhIeHVkOEVjaWhibGFCTUw4YXN3dkJLcElzZF9uVE9pT3llaC00ZVFIUUs1cHR1WmFZNC1CN21sWGNfdkpVUHV4Y2hoRkxWSzRFWk5VYTlIMWJiaHl3RDB3dXZ5T2JKX2FYelJsZTVTNllQN2pIN25YZFdaa1prbjN2TGRPM2g1d2FTSXFRTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1092
+      "latestSinceUpdate": 1093
     }
   ],
   "sourceStatuses": [
