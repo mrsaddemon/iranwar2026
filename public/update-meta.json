@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1093,
+  "updateSequence": 1094,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T06:34:31.681Z",
+  "lastSyncedAt": "2026-06-28T09:44:24.922Z",
   "warDay": 121,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 5,
-    "summary": "An interim deal between the US and Iran has collapsed following a second day of mutual strikes and accusations of violations."
+    "summary": "The ceasefire between the US and Iran has collapsed following a second day of mutual strikes and accusations of violations."
   }
 }
