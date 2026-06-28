@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1096,
+  "updateSequence": 1097,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T13:02:13.779Z",
+  "lastSyncedAt": "2026-06-28T14:52:56.461Z",
   "warDay": 121,
-  "summary": "Conflict continues in the Middle East, drawing international attention.",
+  "summary": "US and Iran have escalated direct military strikes, with Iran attacking Bahrain and Kuwait, threatening to halt peace talks, and issuing a Strait of Hormuz threat, further straining a fragile truce.",
   "lastNarrativeUpdate": "2026-06-28",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "An interim peace agreement is in place but is severely strained by escalating US-Iran strikes and retaliatory attacks, with threats to halt talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.4
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.78
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 58
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 70,
-    "oilDisruption": 40,
-    "tradeImpact": 41,
-    "sanctionsPressure": 61,
-    "globalPressure": 70,
+    "nuclearIndex": 45,
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -57,11 +57,60 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "mosaicDefense": false,
     "unscShield": true
   },
-  "recentEvents": [],
+  "recentEvents": [
+    {
+      "date": "Jun 27",
+      "text": "US launches more strikes on Iranian sites.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1SaDY2MkdLNlQ2V25mS0VCQ2Zhc0tOdEpiLTh3Y1M2VWNfazFmX2hwemJBOG4xVi1QT1VRSVhKeEt5TFc0YTlSdGlqVEJhRkRJVjNzWnYyTlNyM0s4X2Rhd1ZKQzc5Y2VXNVRtMkZSRVVaSEw2VFNXMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1097
+    },
+    {
+      "date": "Jun 27",
+      "text": "Iran attacks Bahrain and Kuwait with drones and missiles.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOam5lWGFqNWVZWW5aWnBwNGlhZEhGNlZxSEJMRW53YjYwQjJ0OXVTSVhJeGI5aDBhV1BPdXg0b1B0RGg3N2dMbFh3MHRxcFp1MFljZTlsNFgtYmxsSThLRnlBWEtXTS05eXBDSTZfSE03WTRYLTM3MkxOUjhBRXRtNlVrRTVSSVQ0LWRyVWNjUUJSc0FWTGl4QWtTaEx5NGxxdXJ2ZHJuNTc5dXRUakt0TlpySWZkSy1xVW82QXJYd9IBxAFBVV95cUxQN1E3WGQ0WkNTVjFiODlwR2o1UDVobVdkSnVSbkpwQTRQZ2xweHBWZnh6NlRoZkZTOTkxM1VyU083S3pfMnVVVW5UNUc1bDZtdkoxNDNvYWFUeTc4b0MyUnJaWFFBQ3ZiYVV4QnIxODZxUi1UODBjOGphclRLR3JsWVNzRU9nV0tFQkdvSWpWRE4tcDlIXzVUQm5RVlU3UW40TnJYRkFKaHBBaE45ekNGYmxINWtRUnJBRU15OFBfQmFjMnRj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1097
+    },
+    {
+      "date": "Jun 27",
+      "text": "Iran threatens to halt talks to end the war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQcDBTQkFEbzlzV3FGUXhBeks0Wm5CV2RIU0J4aFcwTl9jRFRNeHRNbkxzVEZNa3ZNSTcwS1FDZm5PM3RDbVJuMFc0bWRwR1hhSlZFVGlMSkdvOC1GcnlLUWpUbjQ0aFlMYWN3X0gtdVBUWHZYSHNKR3BKelJtdUZ1dUpnTWVubU1BOWowd1N3aE1kckE1Uklya1huN25iLUxYM2Q5N0JtcVY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1097
+    },
+    {
+      "date": "Jun 27",
+      "text": "Trump warns Iran 'will no longer exist' and US may have to 'militarily complete the job'.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1097
+    },
+    {
+      "date": "Jun 27",
+      "text": "Hezbollah rejects US-brokered Israel-Lebanon security deal as 'surrender'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1097
+    },
+    {
+      "date": "Jun 27",
+      "text": "Escalating US-Iran strikes threaten interim peace agreement and strain fragile truce.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNUjMzVkxxSXh2OVNqNEhNQ0V3Njh5cGdkYnE4VUdwaE5xRU1hRzdvXzRmQXpNQ1NmdE9BbDAwXzBWa05KbnlDU2xLRVRiY2NpdWN1T1RFSk16cHBjSlR6Q3lER1FNblpLd1ZJRlU1QmdTejNpTU12NGxYenRWRlB3aVREX21RRVdwaXkxdVBvM2doTEdZdXpJRE9kZVNMS01WZ2xfU2U1cVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1097
+    }
+  ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "no recent items"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",

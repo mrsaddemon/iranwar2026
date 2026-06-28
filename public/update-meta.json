@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1096,
+  "updateSequence": 1097,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T13:02:13.779Z",
+  "lastSyncedAt": "2026-06-28T14:52:56.461Z",
   "warDay": 121,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "An interim peace agreement is in place but is severely strained by escalating US-Iran strikes and retaliatory attacks, with threats to halt talks."
   }
 }
