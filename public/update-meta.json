@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1103,
+  "updateSequence": 1104,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T22:37:01.845Z",
+  "lastSyncedAt": "2026-06-28T23:43:09.631Z",
   "warDay": 121,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A recent ceasefire between the US and Iran has collapsed amidst renewed military strikes and the suspension of technical talks."
+    "durationDays": 1,
+    "summary": "A ceasefire agreement between the US and Iran is in place but has been immediately strained by renewed tit-for-tat strikes and threats."
   }
 }
