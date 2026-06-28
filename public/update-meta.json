@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1099,
+  "updateSequence": 1100,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T17:38:57.149Z",
+  "lastSyncedAt": "2026-06-28T18:53:11.399Z",
   "warDay": 121,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A fragile ceasefire between the US and Iran is under severe strain due to ongoing retaliatory strikes, while a separate days-old Israel-Lebanon peace deal is also being tested."
+    "summary": "A fragile ceasefire between the US and Iran is under severe strain due to ongoing retaliatory strikes from both sides."
   }
 }
