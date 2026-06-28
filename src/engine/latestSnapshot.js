@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1094,
+  "updateSequence": 1095,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T09:44:24.922Z",
+  "lastSyncedAt": "2026-06-28T11:26:16.445Z",
   "warDay": 121,
-  "summary": "The United States and Iran have exchanged multiple strikes, with Iran retaliating against US bases in Bahrain and Kuwait, while a ceasefire appears to have collapsed amid escalating tensions over the Strait of Hormuz.",
+  "summary": "The U.S. and Iran are engaged in a second day of direct strikes following a ceasefire violation, while Israel and Hezbollah continue to exchange attacks in southern Lebanon.",
   "lastNarrativeUpdate": "2026-06-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 5,
-    "summary": "The ceasefire between the US and Iran has collapsed following a second day of mutual strikes and accusations of violations."
+    "summary": "A previously established ceasefire between the U.S. and Iran has collapsed following mutual accusations of violation and renewed direct strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
+    "nuclearIndex": 55,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,19 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 27",
-      "text": "US launches more strikes on Iranian sites.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1SaDY2MkdLNlQ2V25mS0VCQ2Zhc0tOdEpiLTh3Y1M2VWNfazFmX2hwemJBOG4xVi1QT1VRSVhKeEt5TFc0YTlSdGlqVEJhRkRJVjNzWnYyTlNyM0s4X2Rhd1ZKQzc5Y2VXNVRtMkZSRVVaSEw2VFNXMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1094
-    },
-    {
-      "date": "Jun 27",
-      "text": "Iran attacks Bahrain and Kuwait after US bombs Iranian coast.",
+      "text": "US bombs Iranian coast; Iran retaliates by attacking US bases in Bahrain and Kuwait.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOam5lWGFqNWVZWW5aWnBwNGlhZEhGNlZxSEJMRW53YjYwQjJ0OXVTSVhJeGI5aDBhV1BPdXg0b1B0RGg3N2dMbFh3MHRxcFp1MFljZTlsNFgtYmxsSThLRnlBWEtXTS05eXBDSTZfSE03WTRYLTM3MkxOUjhBRXRtNlVrRTVSSVQ0LWRyVWNjUUJSc0FWTGl4QWtTaEx5NGxxdXJ2ZHJuNTc5dXRUakt0TlpySWZkSy1xVW82QXJYd9IBxAFBVV95cUxQN1E3WGQ0WkNTVjFiODlwR2o1UDVobVdkSnVSbkpwQTRQZ2xweHBWZnh6NlRoZkZTOTkxM1VyU083S3pfMnVVVW5UNUc1bDZtdkoxNDNvYWFUeTc4b0MyUnJaWFFBQ3ZiYVV4QnIxODZxUi1UODBjOGphclRLR3JsWVNzRU9nV0tFQkdvSWpWRE4tcDlIXzVUQm5RVlU3UW40TnJYRkFKaHBBaE45ekNGYmxINWtRUnJBRU15OFBfQmFjMnRj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1094
+      "latestSinceUpdate": 1095
+    },
+    {
+      "date": "Jun 27",
+      "text": "US launches more strikes on Iranian sites, marking a second day of attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1SaDY2MkdLNlQ2V25mS0VCQ2Zhc0tOdEpiLTh3Y1M2VWNfazFmX2hwemJBOG4xVi1QT1VRSVhKeEt5TFc0YTlSdGlqVEJhRkRJVjNzWnYyTlNyM0s4X2Rhd1ZKQzc5Y2VXNVRtMkZSRVVaSEw2VFNXMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1095
     },
     {
       "date": "Jun 27",
@@ -84,33 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 27",
-      "text": "Donald Trump threatens to annihilate Iran after crossfire over Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxNNXZNQlNMNkxJUDVfUGRPTVNvaUV6RGlLcXFxN3RoMHJFWUNnOENyODI4MW5IS2gtOXc1MTBMaS0zdmtXbTdTcjNYNkJiWW9QNC1KbUhrWGc5T0NKa25PblRtelFLazdwTWxvc2FEYk9lTWZKS1pKeDhNb1pVd3VuZFZXWkVkQUVMR09SS3NwUHctZk1lRnlqdEFobG42YkZDMzZpMl9jWF9fZGhBRG02R1BQdDd2bGh1YmpUV3IzRzZFbkFsNW9oaE1HeWpOTndZOVBoOTVkQ3JNU3YzVUQw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1094
-    },
-    {
-      "date": "Jun 27",
-      "text": "Tensions flare over Strait of Hormuz.",
+      "text": "Iran's Foreign Minister warns that any challenge to Tehran’s control of the Strait of Hormuz will increase tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQdVZWRF9vTzhkU3J5bjZvWlpid3lUaGFLU3hwTEIxUGRHTVVjdmVwMTRROHhfd3ZhLTdhRlpmTkk3bTc4OFRoUGJSdzBXSDR5S0xHdGpvbUUxZXgtQmZ6N1dOc05maDdxd0xfNzNmS0xpcnRKUXlpTGZ0VkJVVzNfUXY4WW1GTmQ1QTcwMWl1LTJkMGtYWWx6bFBOTkM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1094
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNRFlGcldTTlZ0bVJfN2YtMUstR2NyMjhGVVI1U2lTbGQ1eF8wR1ZSMG91R3JNY3MzT1hoWlQwaUpIc2EweDdFODRuaHJxbnVMbnF5RHFGVFNmTUVKSWJxM2djczVKaHdsRjZfYW5UZWYzTjNFV2lpYl9kX3BzMzI5REROSGx2NTdCWWRMdzcyWk9CanJBUnd6YVpiVzJONmdrQ0xXSVR4Z3V5Z2Q0eDVCTVU3a1pQbWYwMTJDRllVRGdRWDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1095
     },
     {
       "date": "Jun 27",
-      "text": "Hezbollah rejects Israel-Lebanon agreement as Israeli attacks hit south.",
+      "text": "Hezbollah rejects an Israel-Lebanon agreement as Israeli attacks hit southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNYWtiMUI4NktLVWg4WjVHQTd5emRGX0hkMXVOaW5FWjlSN3Q2WGZJcmVSa1A0WEFUZ21MUDlpRXBHMzBGSm9hN1NPalJpMEdPWmE5X1hDY2U1WXN1cFp6N0dXRHMyNGJpdEc5YzdSb1c5aWkxU2FUVGpaMllDdDJmSk9rVFhETUZHaDh5UVJaSTNGTW9sY3dxVHdJa0NJVXhlV1pzWjR0X3ZOclNBeV8zSUxB0gG3AUFVX3lxTE9LRU9jNV9teVhSVG1YVWVJYzlCVVpybXZUS3R6YnR6SFlVMTdGM19mZkhIeHVkOEVjaWhibGFCTUw4YXN3dkJLcElzZF9uVE9pT3llaC00ZVFIUUs1cHR1WmFZNC1CN21sWGNfdkpVUHV4Y2hoRkxWSzRFWk5VYTlIMWJiaHl3RDB3dXZ5T2JKX2FYelJsZTVTNllQN2pIN25YZFdaa1prbjN2TGRPM2g1d2FTSXFRTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1094
+      "latestSinceUpdate": 1095
+    },
+    {
+      "date": "Jun 27",
+      "text": "U.S. military strikes missile and drone sites in Iran, further straining the ceasefire.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1095
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (15 headlines)"
     },
     {
       "source": "GDELT",
