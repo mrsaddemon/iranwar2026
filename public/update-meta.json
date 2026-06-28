@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1101,
+  "updateSequence": 1102,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T20:19:47.008Z",
+  "lastSyncedAt": "2026-06-28T21:32:48.202Z",
   "warDay": 121,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The ceasefire between the U.S. and Iran is severely strained by ongoing retaliatory strikes and threats to halt peace talks."
+    "summary": "A previously agreed ceasefire between the U.S. and Iran is severely strained by ongoing tit-for-tat strikes, despite efforts to meet this week."
   }
 }

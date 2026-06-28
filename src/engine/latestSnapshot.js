@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1101,
+  "updateSequence": 1102,
   "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T20:19:47.008Z",
+  "lastSyncedAt": "2026-06-28T21:32:48.202Z",
   "warDay": 121,
-  "summary": "The fragile ceasefire between the U.S. and Iran is under severe strain following a second day of tit-for-tat strikes, with Iran targeting U.S. military sites in Bahrain and Kuwait and threatening to halt peace talks.",
+  "summary": "The U.S. and Iran are engaged in tit-for-tat strikes, severely straining a previously agreed ceasefire, while regional tensions persist between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-06-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The ceasefire between the U.S. and Iran is severely strained by ongoing retaliatory strikes and threats to halt peace talks."
+    "summary": "A previously agreed ceasefire between the U.S. and Iran is severely strained by ongoing tit-for-tat strikes, despite efforts to meet this week."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 75,
     "tradeImpact": 55,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 27",
-      "text": "Iran's Supreme Leader calls for war crimes charges against the US and Israel amidst escalating tensions.",
-      "severity": "warning",
+      "text": "IRGC claims 8 US military sites destroyed in Iran.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOam5lWGFqNWVZWW5aWnBwNGlhZEhGNlZxSEJMRW53YjYwQjJ0OXVTSVhJeGI5aDBhV1BPdXg0b1B0RGg3N2dMbFh3MHRxcFp1MFljZTlsNFgtYmxsSThLRnlBWEtXTS05eXBDSTZfSE03WTRYLTM3MkxOUjhBRXRtNlVrRTVSSVQ0LWRyVWNjUUJSc0FWTGl4QWtTaEx5NGxxdXJ2ZHJuNTc5dXRUakt0TlpySWZkSy1xVW82QXJYd9IBxAFBVV95cUxQN1E3WGQ0WkNTVjFiODlwR2o1UDVobVdkSnVSbkpwQTRQZ2xweHBWZnh6NlRoZkZTOTkxM1VyU083S3pfMnVVVW5UNUc1bDZtdkoxNDNvYWFUeTc4b0MyUnJaWFFBQ3ZiYVV4QnIxODZxUi1UODBjOGphclRLR3JsWVNzRU9nV0tFQkdvSWpWRE4tcDlIXzVUQm5RVlU3UW40TnJYRkFKaHBBaE45ekNGYmxINWtRUnJBRU15OFBfQmFjMnRj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1101
+      "latestSinceUpdate": 1102
     },
     {
       "date": "Jun 27",
-      "text": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt peace talks.",
+      "text": "US launches more strikes on Iranian sites.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQcDBTQkFEbzlzV3FGUXhBeks0Wm5CV2RIU0J4aFcwTl9jRFRNeHRNbkxzVEZNa3ZNSTcwS1FDZm5PM3RDbVJuMFc0bWRwR1hhSlZFVGlMSkdvOC1GcnlLUWpUbjQ0aFlMYWN3X0gtdVBUWHZYSHNKR3BKelJtdUZ1dUpnTWVubU1BOWowd1N3aE1kckE1Uklya1huN25iLUxYM2Q5N0JtcVY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1101
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1SaDY2MkdLNlQ2V25mS0VCQ2Zhc0tOdEpiLTh3Y1M2VWNfazFmX2hwemJBOG4xVi1QT1VRSVhKeEt5TFc0YTlSdGlqVEJhRkRJVjNzWnYyTlNyM0s4X2Rhd1ZKQzc5Y2VXNVRtMkZSRVVaSEw2VFNXMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1102
     },
     {
       "date": "Jun 27",
-      "text": "U.S. launches more strikes on Iranian sites for a second consecutive night after a ship was hit by a drone.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajBRX044WFVIbHpWazNnNjNjV0UwekFBT0N6b0MyaHNDTjZMSC00Nm9kX1VmR1RxMEt0R3IwaUFzUUFqWmg1cVg1U1VfUE9EaVVaVU1jbkU4d2s1cjdlelMyM0ZSVFBJd0NWM3FlOHBiejVtNGNNOVZOeWZHa2VqZ3I1a1ZIQUdnUWl0QmpBS0tGSWFlMHdEQWdIRWtOaGdNTjVlaUIzcDJud2prT2pGQzNiTVJWUnPSAbwBQVVfeXFMTVA3Sm5UdjV5TnlPMEFiTi1YZDdCNEgwNW1mNTljT3Q2eGNveUZySmRLSjRLWnc0WjdmLUxBcS1Yd2NjNG56OXkwVnlHblZJeEo0MGE5ZDRvMi1hSTZGQkpKUUZybHJpRkFybXprQW5SN1phN1JkS3hhS1p3WmFBUWhWRVNpdlVWUlRDcktWd0ZnamNDdjVyWUhJUENITTZ0WDE0WGxjU3B3ektLcmZaR2FUYVVPaF92dG5QU0o?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1101
+      "text": "Iran cancels participation in technical talks over recent attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAJBVV95cUxOcVlzck5hM3RXd2JYbmV3UFJMemRFdDY2OVhlZk81STRSZThjaERlbEVGX0hkUUJkb3c4MG5MTHVnNW5XelZzY04wcG9iV09NQXg3MVY1RTRLV25BdEU4dE9MbEZ5eUU4UG1Lb1ZzQzRkSng3TXQtcGh1eWVBOWljcG1FRFFCa3hGVHRCVUx0NWZfamJJeEJEcWhuQVdPZTJOSE9nZjhadU1nOWRCSXN0dnRPMHVnNEYwLTByNUFZOExmcjJHOTBHWWVMUjBmRDEySTE0TFNraVQzOVJaMDJqSWlqNzFmQ0NrQ2FVejJsWlJtdFJmUHZ5UGpxa3ZjYTF50gGHAkFVX3lxTE41ajVPcVFuTF9WeEJGT3Fqb3Jpbl9rdWdWbmJaQnBDMXIwRmgxaHdIMUQ5bnpqbnJTVGN1RGpQXzgyTi1kY2VzUERmUm42QUt2eHNOeUNuLUJNZXZOZ2pMUUE3SXU2RV94cFJabW1MUmFkcnpEcEJRSWxmOEM1dzBIcGxaeDIySzVfMzh4X1hWUnM2bFo4NzBUOFo5NmpxRWFUc3ZaLWtOVUpfTjhSaTFlVHBvT0YzSmJxblctMW5tUWJTUFZSd01hUkMzaXRrUm9VckJycVQ2TjF2cU9WaXlRNGxxbWZwSGROWGY3ZldVVjZuN1BoWlh4OGtMSmk3TFJpbHVVN3c4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 1102
     },
     {
       "date": "Jun 27",
-      "text": "Iran launches drone and missile attacks targeting Bahrain and Kuwait, further straining the fragile truce.",
+      "text": "Iran launches drone and missile attacks targeting Bahrain and Kuwait.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1101
+      "latestSinceUpdate": 1102
     },
     {
       "date": "Jun 27",
-      "text": "Hezbollah rejects an Israel-Lebanon agreement as Israeli attacks continue to hit southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNYWtiMUI4NktLVWg4WjVHQTd5emRGX0hkMXVOaW5FWjlSN3Q2WGZJcmVSa1A0WEFUZ21MUDlpRXBHMzBGSm9hN1NPalJpMEdPWmE5X1hDY2U1WXN1cFp6N0dXRHMyNGJpdEc5YzdSb1c5aWkxU2FUVGpaMllDdDJmSk9rVFhETUZHaDh5UVJaSTNGTW9sY3dxVHdJa0NJVXhlV1pzWjR0X3ZOclNBeV8zSUxB0gG3AUFVX3lxTE9LRU9jNV9teVhSVG1YVWVJYzlCVVpybXZUS3R6YnR6SFlVMTdGM19mZkhIeHVkOEVjaWhibGFCTUw4YXN3dkJLcElzZF9uVE9pT3llaC00ZVFIUUs1cHR1WmFZNC1CN21sWGNfdkpVUHV4Y2hoRkxWSzRFWk5VYTlIMWJiaHl3RDB3dXZ5T2JKX2FYelJsZTVTNllQN2pIN25YZFdaa1prbjN2TGRPM2g1d2FTSXFRTQ?hl=en-US&gl=US&ceid=US:en",
+      "text": "US launches second night of strikes on Iran after ship hit by drone.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajBRX044WFVIbHpWazNnNjNjV0UwekFBT0N6b0MyaHNDTjZMSC00Nm9kX1VmR1RxMEt0R3IwaUFzUUFqWmg1cVg1U1VfUE9EaVVaVU1jbkU4d2s1cjdlelMyM0ZSVFBJd0NWM3FlOHBiejVtNGNNOVZOeWZHa2VqZ3I1a1ZIQUdnUWl0QmpBS0tGSWFlMHdEQWdIRWtOaGdNTjVlaUIzcDJud2prT2pGQzNiTVJWUnPSAbwBQVVfeXFMTVA3Sm5UdjV5TnlPMEFiTi1YZDdCNEgwNW1mNTljT3Q2eGNveUZySmRLSjRLWnc0WjdmLUxBcS1Yd2NjNG56OXkwVnlHblZJeEo0MGE5ZDRvMi1hSTZGQkpKUUZybHJpRkFybXprQW5SN1phN1JkS3hhS1p3WmFBUWhWRVNpdlVWUlRDcktWd0ZnamNDdjVyWUhJUENITTZ0WDE0WGxjU3B3ektLcmZaR2FUYVVPaF92dG5QU0o?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1101
+      "latestSinceUpdate": 1102
+    },
+    {
+      "date": "Recent",
+      "text": "U.S. and Iran agree to halt strikes and meet this week.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOckhYQlFEYzQ1S2MxdVVvVlg3U3RPemtZTVNNWV9HM1BJU2xSank2QXJHQjlDencwXzBvNkRzZm9sZ3JQbW14b1hUV3BKWkdPZG83UVJQNXB3OTg5enRaU2hkTUdVbWYyMWxvR3RKczZUUlhnelVJNlFPRnpfZFBHUUgzR1lkMEt1RklaUjV5SzIyRGo2Y0dlUnN1VExkaEFDWVRfSg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 1102
     }
   ],
   "sourceStatuses": [
