@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1105,
+  "updateSequence": 1106,
   "lastUpdated": "2026-06-29",
-  "lastSyncedAt": "2026-06-29T01:57:20.764Z",
+  "lastSyncedAt": "2026-06-29T07:00:31.173Z",
   "warDay": 122,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "No active ceasefire is in effect as recent fighting has put planned talks on hold."
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 2,
+    "summary": "A fragile ceasefire between the U.S. and Iran is in effect, with both sides agreeing to halt attacks and schedule talks in Doha, despite reports of continued strikes."
   }
 }
