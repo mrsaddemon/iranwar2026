@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1107,
+  "updateSequence": 1108,
   "lastUpdated": "2026-06-29",
-  "lastSyncedAt": "2026-06-29T12:05:05.621Z",
+  "lastSyncedAt": "2026-06-29T16:05:53.559Z",
   "warDay": 122,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A fragile ceasefire between the U.S. and Iran is strained by recent mutual strikes but talks are scheduled for June 30."
+    "durationDays": 5,
+    "summary": "A fragile ceasefire between the US and Iran is active but severely tested by recent mutual strikes and regional targeting, with talks announced to resume."
   }
 }
