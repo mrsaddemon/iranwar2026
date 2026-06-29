@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1110,
+  "updateSequence": 1111,
   "lastUpdated": "2026-06-29",
-  "lastSyncedAt": "2026-06-29T20:17:23.734Z",
+  "lastSyncedAt": "2026-06-29T21:45:31.048Z",
   "warDay": 122,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 3,
-    "summary": "A fragile ceasefire between the U.S. and Iran is in effect, marked by recent reciprocal strikes and ongoing disagreements over the path forward for talks."
+    "summary": "A fragile ceasefire between the U.S. and Iran is active but has been repeatedly strained by recent exchanges of strikes and threats, though hostilities have paused and shipping resumed."
   }
 }
