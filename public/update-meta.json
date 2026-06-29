@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1104,
-  "lastUpdated": "2026-06-28",
-  "lastSyncedAt": "2026-06-28T23:43:09.631Z",
-  "warDay": 121,
+  "updateSequence": 1105,
+  "lastUpdated": "2026-06-29",
+  "lastSyncedAt": "2026-06-29T01:57:20.764Z",
+  "warDay": 122,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A ceasefire agreement between the US and Iran is in place but has been immediately strained by renewed tit-for-tat strikes and threats."
+    "summary": "No active ceasefire is in effect as recent fighting has put planned talks on hold."
   }
 }
