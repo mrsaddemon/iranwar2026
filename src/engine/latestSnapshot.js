@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1111,
+  "updateSequence": 1112,
   "lastUpdated": "2026-06-29",
-  "lastSyncedAt": "2026-06-29T21:45:31.048Z",
+  "lastSyncedAt": "2026-06-29T22:41:49.270Z",
   "warDay": 122,
-  "summary": "A fragile ceasefire between the U.S. and Iran is strained by recent exchanges of strikes and threats, while diplomatic efforts for talks continue amidst regional tensions involving Israel and Hezbollah.",
+  "summary": "A fragile ceasefire between the US and Iran is in effect following recent exchanges of strikes, with talks planned but their path forward remains unclear amidst continued regional tensions involving Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-06-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 3,
-    "summary": "A fragile ceasefire between the U.S. and Iran is active but has been repeatedly strained by recent exchanges of strikes and threats, though hostilities have paused and shipping resumed."
+    "confidence": 0.93,
+    "durationDays": 1,
+    "summary": "A fragile ceasefire between the US and Iran is currently in effect, marked by a pause in hostilities following recent exchanges of strikes, though its stability is uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.8,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 28",
-      "text": "Iran's IRGC claims destruction of 8 US military sites in Bahrain and Kuwait.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1111
+      "text": "US and Iran exchange strikes, underscoring the fragility of the ceasefire",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOSEtEanN5a1QwZnVEQWxWM0dnQm5pSktIWS1iUHlPUjlWeDM4SmJZdkg4dXl6TFVPbktMckhVZTFlanVlZjdVeVZLQTlwdmZrVGFoQ0x3R3BrQkoyQXNLR1ZnVFFXamdIWXFOVzBhS2ltbkFVUERSalBXR2NvQVpvb21CbmJJOHpfX1NGN1lHMzN2dmljbWdrTUhCNA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1112
     },
     {
       "date": "Jun 28",
-      "text": "U.S. and Iran pause strikes but express disagreement over next steps for talks.",
+      "text": "Iran’s Revolutionary Guards claim 8 US military sites destroyed in Bahrain and Kuwait",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1112
+    },
+    {
+      "date": "Jun 28",
+      "text": "US hits Iran in latest tit-for-tat strike",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1112
+    },
+    {
+      "date": "Jun 29",
+      "text": "US and Iran pause strikes, but disagree over next steps on talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1111
+      "latestSinceUpdate": 1112
     },
     {
-      "date": "Jun 28",
-      "text": "Fragile US-Iran ceasefire is strained, with Bahrain and Kuwait reportedly targeted by Tehran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9JcVZwTU9wS3YxN1ZZcHgzWTRxdHpNN2Y0UlRDS1dneHhWQWdWTTNibkUwMGJGTjI1N3ROQWFjSkI3MURHTTNCVXBCS2hDYzc5em51MjNYalBRQ1M0dV9ILTNlTF9CYzFYTzVfTGkyU1RXcUR2alZUbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1111
+      "date": "Jun 29",
+      "text": "Trump announces Qatar meeting with Iran, but Tehran says nothing planned",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNVWk1WDFoM25qQVl5SldLdFNLX3dPTVZTTW5oWjRwOHI5VkduUXllelNCXzBlSFJvYjFJdmM0TGRFeWN3N2s1TEM4MkRnVlRUNVk0Sll3STVWRVUzWFctczNNZUpQeXo0TGluUnFKOFR0UlFXX0l4NG9MdWFMUlljMmt1Y0tvT0F3RG90TW5xbDBFbkJSZERoeWNxSUI1TXJUNGF3bnNya0lZcUZBbG8xNUw1d1NDZjFla1pqWVRQdGQtZ9IBxwFBVV95cUxNU1NPMFdjcnlWeDVSd0dMZ2NyMmRKTTJNaU9UaVVTaWtYR3g0QjUyYmtIQmpkNjE1TFgtY3hXeF8wdHJXQVZTOEp0THBpYnU0R1V0VWxCSHpMS2NjRmlKSW1BekVaSjl2aDcwejFPTzZOTWNZM2ZoUEJwMkR5bFkycFVnODVQOWNKeFRIeWRoTl9mZ0htaU9IMnFxMDh2bS1JcE9FX2ZlUmN0VVIzZGJvMlg0QUZyOVNwYk80TVpqM01zRW53Q3g4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1112
     },
     {
-      "date": "Jun 28",
-      "text": "Iran threatens a 'complete halt' to talks after trading strikes with the U.S., though Washington indicates talks will continue.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1111
-    },
-    {
-      "date": "Jun 28",
-      "text": "U.S. and Iran exchange strikes, highlighting the fragility of the ongoing ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOSEtEanN5a1QwZnVEQWxWM0dnQm5pSktIWS1iUHlPUjlWeDM4SmJZdkg4dXl6TFVPbktMckhVZTFlanVlZjdVeVZLQTlwdmZrVGFoQ0x3R3BrQkoyQXNLR1ZnVFFXamdIWXFOVzBhS2ltbkFVUERSalBXR2NvQVpvb21CbmJJOHpfX1NGN1lHMzN2dmljbWdrTUhCNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1111
-    },
-    {
-      "date": "Jun 28",
-      "text": "U.S. military launches fresh strikes against Iran, with Trump threatening to 'complete the job'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNSWJpN1VxTmpMb29JZjgzTnVqajU0dXJmVFFxNEF4T3MzenZXWk9FLW1YOHpGdEk0c3lrQU56akxjeFQyM3lwaTdJWHVRZ2FTSllkYk9PcmsyRkZtX3Q2TkVtWkIwb0ZWbmhxa2I2VElEWnA2YllZQm5MZ3B2R2RZenpYQ0FHazAzVkM3cXBIU093MW9TQ1FFbmdkTW5KZWxpTE5hMi13cDdUVlZNZUwtMzZ30gG3AUFVX3lxTFBlU01XakVNamNDTHFEVmphZlFVVmRJTDFPLUlyemRtXzRDNWJNZC1WZ1dXdjNRbmhqZElaeDV6OXhHRW5ZN3E2bW5OYjBjWkV4d2xIZEJfd2VOc1NwSk1QTERFczdUUlNHQ1Y0aC0yWXVlZmVzX3UtZnozbnFQSXU0S1lFUk96NDNwYUd1LUowWG9WeEc5OEdvbEpJbTNnSnZQcHByQzA3R3FMVFZlclNiLWhyanFhVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1111
+      "date": "Jun 29",
+      "text": "Hormuz shipping resumes after weekend clashes",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQc3VldHk1NklNUnVwUlhzLXo1MjJIN3dVOWF3N1RIZjBIbXVGVlloTExyeVFSdVNIWkpfWlB4UmZwSnpSNmJGQjlmSzh5RFV3NUE2UzJkeTllTlc3YmdjOUc4Y2NxVmtiQkdocDBBX0N6WGlCaG1ZTWVqM0RXY2JqV3dmdHM5SWhENUZhZE9NRUtNS2habnRsdEl6VXU5Tmk0NC0wSlNNLTXSAa4BQVVfeXFMUE14anFsVFg5enQzcEJ2TGZ6S3J5MzFoT1FUZGJGUnVNTktjYi1SNkFLcXZsajlpMWx5aHV5YlFnRmxXUGk1NkJ2Y3RjU1dzUVl6S0VMTnRhVjFDc011ZUhUczJIS0E2ZW9ubjU0QWU1bVYybDE1RkU3VXNhcUNBX3ROYzZZYTBwZ3U4Um1VSFlMNTdLSGxpRmRIWHhCMDM5RTRqaVlqZnhEZENqd0tR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1112
     }
   ],
   "sourceStatuses": [
