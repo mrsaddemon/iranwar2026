@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1115,
+  "updateSequence": 1116,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T05:57:35.542Z",
+  "lastSyncedAt": "2026-06-30T09:56:06.133Z",
   "warDay": 123,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 2,
-    "summary": "A fragile ceasefire between the US and Iran is in effect, marked by a pause in strikes but strained by conflicting statements and recent violations."
+    "summary": "Attempts at de-escalation and a Hezbollah-Israel truce have been undermined by renewed strikes and threats of war resumption."
   }
 }
