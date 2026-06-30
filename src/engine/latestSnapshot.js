@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1113,
-  "lastUpdated": "2026-06-29",
-  "lastSyncedAt": "2026-06-29T23:44:23.286Z",
-  "warDay": 122,
-  "summary": "A fragile ceasefire between the US and Iran is in effect following recent exchanges of strikes, with both sides engaging in diplomatic efforts while regional tensions remain high.",
-  "lastNarrativeUpdate": "2026-06-29",
+  "updateSequence": 1114,
+  "lastUpdated": "2026-06-30",
+  "lastSyncedAt": "2026-06-30T01:51:47.932Z",
+  "warDay": 123,
+  "summary": "A fragile pause in US-Iran hostilities is underway, marked by ongoing talks in Qatar, mutual accusations of strikes, and heightened tensions in the Strait of Hormuz and between Israel and Hezbollah.",
+  "lastNarrativeUpdate": "2026-06-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 2,
-    "summary": "A fragile ceasefire between the US and Iran is currently active, marked by a pause in strikes but ongoing disagreements and regional tensions."
+    "summary": "A fragile pause in hostilities between the US and Iran is in effect, though strained by recent strikes and disagreements over talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 60,
     "tradeImpact": 44,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 29",
+      "date": "Jun 30",
       "text": "US and Iran pause strikes but disagree over next steps on talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1113
+      "latestSinceUpdate": 1114
     },
     {
-      "date": "Jun 28",
-      "text": "Iran's IRGC claims 8 US military sites destroyed in overnight strikes in Bahrain and Kuwait.",
+      "date": "Jun 30",
+      "text": "Trump announces Qatar talks; Tehran says nothing planned.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNVWk1WDFoM25qQVl5SldLdFNLX3dPTVZTTW5oWjRwOHI5VkduUXllelNCXzBlSFJvYjFJdmM0TGRFeWN3N2s1TEM4MkRnVlRUNVk0Sll3STVWRVUzWFctczNNZUpQeXo0TGluUnFKOFR0UlFXX0l4NG9MdWFMUlljMmt1Y0tvT0F3RG90TW5xbDBFbkJSZERoeWNxSUI1TXJUNGF3bnNya0lZcUZBbG8xNUw1d1NDZjFla1pqWVRQdGQtZ9IBxwFBVV95cUxNU1NPMFdjcnlWeDVSd0dMZ2NyMmRKTTJNaU9UaVVTaWtYR3g0QjUyYmtIQmpkNjE1TFgtY3hXeF8wdHJXQVZTOEp0THBpYnU0R1V0VWxCSHpMS2NjRmlKSW1BekVaSjl2aDcwejFPTzZOTWNZM2ZoUEJwMkR5bFkycFVnODVQOWNKeFRIeWRoTl9mZ0htaU9IMnFxMDh2bS1JcE9FX2ZlUmN0VVIzZGJvMlg0QUZyOVNwYk80TVpqM01zRW53Q3g4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1114
+    },
+    {
+      "date": "Jun 30",
+      "text": "Iran's IRGC claims 8 US military sites destroyed in Bahrain and Kuwait.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1113
+      "latestSinceUpdate": 1114
     },
     {
-      "date": "Jun 28",
+      "date": "Jun 30",
       "text": "US hits Iran in latest tit-for-tat strike.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1113
+      "latestSinceUpdate": 1114
     },
     {
-      "date": "Jun 28",
-      "text": "Israel says it destroyed Hezbollah underground infrastructure in southern Lebanon.",
+      "date": "Jun 30",
+      "text": "Iran threatens 'complete halt' to talks after trading strikes with U.S.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1114
+    },
+    {
+      "date": "Jun 30",
+      "text": "Israel destroys Hezbollah underground infrastructure in southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOeHpnQ2htRldyN2wyQkhMc0JqSVdwbDA5VkRCZklRS0t1QURDWHFWRUJEM1BxNnFhN0hCcnRNQ3hvQm9USV9wSkhKZXl2OXJSc2xObjFxRTdCNXVaUVNsdlVsZHd4dDNwVHZTUU5LY1BodWRrZkZHdU1NcFVGMDhfVmpJTnkwSDc4NzdBWTlVUnhKaFg2ZTZiSnNFeDdteG5TVmZDbEtFRGhLSk0yNDFabDdUTDV6SmFJejQ0akZ4OWg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1113
-    },
-    {
-      "date": "Jun 28",
-      "text": "Israel warns war could begin 'within two days' as US pushes ahead with Iran technical talks in Doha.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9VbzVmSktocFd3dGU1TEZsekd1TFhQSWRCRWFtRUxHNGZzTEt1YlhwdllCek8yTC02eGxvZ3pHSzZfbEt0YTlRYTNHTWtiWnNaUTlJWEJsZ3pGcWs1U3lPS1hlMlNGYmJBdWVSUllldUdCM0JJcFE2cUJqbk9fc3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1113
-    },
-    {
-      "date": "Jun 28",
-      "text": "U.S., Iran pause hostilities as Hormuz shipping resumes after weekend clashes.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQc3VldHk1NklNUnVwUlhzLXo1MjJIN3dVOWF3N1RIZjBIbXVGVlloTExyeVFSdVNIWkpfWlB4UmZwSnpSNmJGQjlmSzh5RFV3NUE2UzJkeTllTlc3YmdjOUc4Y2NxVmtiQkdocDBBX0N6WGlCaG1ZTWVqM0RXY2JqV3dmdHM5SWhENUZhZE9NRUtNS2habnRsdEl6VXU5Tmk0NC0wSlNNLTXSAa4BQVVfeXFMUE14anFsVFg5enQzcEJ2TGZ6S3J5MzFoT1FUZGJGUnVNTktjYi1SNkFLcXZsajlpMWx5aHV5YlFnRmxXUGk1NkJ2Y3RjU1dzUVl6S0VMTnRhVjFDc011ZUhUczJIS0E2ZW9ubjU0QWU1bVYybDE1RkU3VXNhcUNBX3ROYzZZYTBwZ3U4Um1VSFlMNTdLSGxpRmRIWHhCMDM5RTRqaVlqZnhEZENqd0tR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1113
+      "latestSinceUpdate": 1114
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US",
-      "headline": "US Strikes Iran Over Aggression",
-      "summary": "The US states its strikes on Iran are a response to continued aggression against shipping and violations of a ceasefire agreement.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1092
+      "perspective": "US/Western Perspective",
+      "headline": "US pushes for talks while responding to Iranian strikes",
+      "summary": "The US seeks to de-escalate tensions through technical talks in Qatar, despite recent tit-for-tat strikes and Iranian claims of targeting US sites. Washington maintains that talks will continue.",
+      "tone": "strained",
+      "latestSinceUpdate": 1114
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Retaliates Against US Attacks",
-      "summary": "Iran asserts its strikes are retaliatory actions against recent US military attacks and to defend its sovereign interests.",
+      "perspective": "Iranian Perspective",
+      "headline": "Iran claims successful strikes and threatens talks amid US pressure",
+      "summary": "Iran's Revolutionary Guards claim to have destroyed US military sites, while Tehran threatens to halt talks after US strikes. Iran views the Strait of Hormuz situation as sensitive and complex.",
       "tone": "defiant",
-      "latestSinceUpdate": 1092
+      "latestSinceUpdate": 1114
     },
     {
-      "perspective": "Hezbollah",
-      "headline": "Hezbollah Rejects US-Israel Deal",
-      "summary": "Hezbollah's leadership has publicly rejected the US-brokered security deal between Israel and Lebanon, calling it a surrender.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1092
+      "perspective": "Israeli/Hezbollah Perspective",
+      "headline": "Israel acts against Hezbollah as regional tensions rise",
+      "summary": "Israel has destroyed Hezbollah infrastructure and warns of potential war resumption, while Hezbollah rejects US-brokered security deals as a surrender.",
+      "tone": "anxious",
+      "latestSinceUpdate": 1114
     }
   ]
 });
