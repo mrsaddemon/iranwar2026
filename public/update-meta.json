@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1118,
+  "updateSequence": 1119,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T14:46:09.017Z",
+  "lastSyncedAt": "2026-06-30T16:55:47.216Z",
   "warDay": 123,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "A limited pause in some US-Iran strikes is reported, but fresh US strikes, Israeli actions, and threats indicate a highly fragile and incomplete de-escalation."
   }
 }
