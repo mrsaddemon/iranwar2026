@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1122,
+  "updateSequence": 1123,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T22:20:35.100Z",
+  "lastSyncedAt": "2026-06-30T23:40:22.011Z",
   "warDay": 123,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-06-30",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "A temporary operational pause in strikes between the U.S. and Iran is in effect, though talks remain contentious and fragile."
+    "status": "active",
+    "confidence": 0.81,
+    "durationDays": 2,
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 2 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 30",
-      "text": "Trump and Iran issue conflicting statements about new talks.",
-      "severity": "warning",
+      "text": "Live updates: Trump and Iran issue conflicting statements about new talks",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1121
+      "latestSinceUpdate": 1123
     },
     {
       "date": "Jun 30",
-      "text": "IRGC claims 8 US military sites destroyed in overnight strikes in Bahrain and Kuwait.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1122
+      "text": "Iran war updates: IRGC says 8 US military sites destroyed",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOam5lWGFqNWVZWW5aWnBwNGlhZEhGNlZxSEJMRW53YjYwQjJ0OXVTSVhJeGI5aDBhV1BPdXg0b1B0RGg3N2dMbFh3MHRxcFp1MFljZTlsNFgtYmxsSThLRnlBWEtXTS05eXBDSTZfSE03WTRYLTM3MkxOUjhBRXRtNlVrRTVSSVQ0LWRyVWNjUUJSc0FWTGl4QWtTaEx5NGxxdXJ2ZHJuNTc5dXRUakt0TlpySWZkSy1xVW82QXJYd9IBxAFBVV95cUxQN1E3WGQ0WkNTVjFiODlwR2o1UDVobVdkSnVSbkpwQTRQZ2xweHBWZnh6NlRoZkZTOTkxM1VyU083S3pfMnVVVW5UNUc1bDZtdkoxNDNvYWFUeTc4b0MyUnJaWFFBQ3ZiYVV4QnIxODZxUi1UODBjOGphclRLR3JsWVNzRU9nV0tFQkdvSWpWRE4tcDlIXzVUQm5RVlU3UW40TnJYRkFKaHBBaE45ekNGYmxINWtRUnJBRU15OFBfQmFjMnRj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1123
     },
     {
       "date": "Jun 30",
-      "text": "US and Iran pause strikes but disagree over next steps on talks.",
+      "text": "US and Iran pause strikes but disagree over next steps on talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1122
+      "latestSinceUpdate": 1123
     },
     {
-      "date": "Jun 29",
-      "text": "Iran says it targeted American base after fresh US strikes.",
-      "severity": "critical",
+      "date": "Jun 30",
+      "text": "Iran Update Special Report, June 28, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOcTVBd3hKTFEtQWRHa3JPc1RKSC1TdFg5TjRUVUNFcWlNTEJ5dGJ1eWJ1NG5Qb2JvREdvemlvN1haam5qYVI3N0piTmFsbmd0cEVCWUN2MThGdm1yb2tJeEVXV3JTWFpBZS1wMHoxUUtTa3ZYME5TYmdZTWV6RDlubWNpSTF1b2NTYTVrX0w4S2pnbTEw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1123
+    },
+    {
+      "date": "Jun 30",
+      "text": "Iran says it targeted American base after fresh US strikes",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1122
+      "latestSinceUpdate": 1123
     },
     {
-      "date": "Jun 29",
-      "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "critical",
+      "date": "Jun 30",
+      "text": "Israel conducts strikes in Iran, IDF says",
+      "severity": "info",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1121
-    },
-    {
-      "date": "Jun 29",
-      "text": "Iran threatens 'complete halt' to talks after trading strikes with U.S.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1121
+      "sourceName": null,
+      "latestSinceUpdate": 1123
     }
   ],
   "sourceStatuses": [
