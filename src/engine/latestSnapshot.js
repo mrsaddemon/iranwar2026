@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1120,
+  "updateSequence": 1121,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T19:01:58.587Z",
+  "lastSyncedAt": "2026-06-30T21:02:02.233Z",
   "warDay": 123,
-  "summary": "Direct military strikes between the US and Iran continue, alongside Israeli strikes in Iran and Lebanon, while diplomatic efforts and Strait of Hormuz disputes persist.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-30",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 2,
-    "summary": "Despite reports of a temporary pause in strikes, ongoing military actions and conflicting statements indicate no active ceasefire."
+    "summary": "A temporary pause in strikes between the U.S. and Iran has been strained by renewed attacks, though peace talks continue."
   },
   "actorOverrides": {
     "usa": {
@@ -18,41 +18,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 60,
-    "tradeImpact": 58,
-    "sanctionsPressure": 64,
-    "globalPressure": 79,
-    "allianceInfluence": 51
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 56,
+    "globalPressure": 65,
+    "allianceInfluence": 57
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 30",
-      "text": "Trump and Iran issue conflicting statements regarding new talks.",
-      "severity": "info",
+      "text": "Trump and Iran issue conflicting statements about new talks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1120
+      "latestSinceUpdate": 1121
     },
     {
       "date": "Jun 30",
-      "text": "IRGC claims 8 US military sites were destroyed in recent strikes.",
+      "text": "IRGC says 8 US military sites destroyed.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOam5lWGFqNWVZWW5aWnBwNGlhZEhGNlZxSEJMRW53YjYwQjJ0OXVTSVhJeGI5aDBhV1BPdXg0b1B0RGg3N2dMbFh3MHRxcFp1MFljZTlsNFgtYmxsSThLRnlBWEtXTS05eXBDSTZfSE03WTRYLTM3MkxOUjhBRXRtNlVrRTVSSVQ0LWRyVWNjUUJSc0FWTGl4QWtTaEx5NGxxdXJ2ZHJuNTc5dXRUakt0TlpySWZkSy1xVW82QXJYd9IBxAFBVV95cUxQN1E3WGQ0WkNTVjFiODlwR2o1UDVobVdkSnVSbkpwQTRQZ2xweHBWZnh6NlRoZkZTOTkxM1VyU083S3pfMnVVVW5UNUc1bDZtdkoxNDNvYWFUeTc4b0MyUnJaWFFBQ3ZiYVV4QnIxODZxUi1UODBjOGphclRLR3JsWVNzRU9nV0tFQkdvSWpWRE4tcDlIXzVUQm5RVlU3UW40TnJYRkFKaHBBaE45ekNGYmxINWtRUnJBRU15OFBfQmFjMnRj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1120
-    },
-    {
-      "date": "Jun 30",
-      "text": "US and Iran reportedly paused strikes but remain in disagreement over next steps in talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1120
+      "latestSinceUpdate": 1121
     },
     {
       "date": "Jun 29",
-      "text": "Iran states it targeted an American base following fresh US strikes.",
+      "text": "U.S. military says it struck multiple targets in Iran as ceasefire is strained by 2nd day of attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1120
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPZ01VcmhwOHVST3hoWXQtb3hkMkx2MS1MZmo5TjcyWDEtc19nWExLMHh2b1VzUnBDY19PU1lpNjlfUlMteUpZcWFMeGxkSjFiakpnbWZWeE1vcTBJczdlWGVwNWNNbU1UcC11eFc1M19kYndYNi05WjNrUDhxdTY3eWpwTnVqdFZ5VlNweGJ5Qm1aRTFSNEJvUlZoUTM3SUZXcFJMdU5nVEpGZzA4SjhYR01pMjBuQWJHT2hHRHpOSUFub3lXQWlkcnJCenY1UdIB0wFBVV95cUxNQmJTcloxYzAyY0dxaWU1dDdEdFlxQzdlQ2NPXzVwX2xZdGR5TkpjaGlQX29yRWhlM0psWVE0U3RGODExSUI4NXVKWUE4QVc2QzcxU2FlNko0T1FhT1c1dWhtdjlMemZnWTF6R29Wb1lSYWtwWlc5MzVfOTJOZWkxb1o5WXZrRVE2bEtoOFFNYmlDeUFvUC1OdmZlb3otYjAwYW8xUG91bFlLYmF1cXV1UTgyMDFyckxpRldQSDMyZDdGSG1PLVpjVFlJM0lYTnk4ZGFn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1121
     },
     {
       "date": "Jun 29",
-      "text": "Israel conducted strikes in Iran, according to the IDF.",
+      "text": "Iran threatens 'complete halt' to talks after trading strikes with U.S.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1121
+    },
+    {
+      "date": "Jun 29",
+      "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1120
+      "latestSinceUpdate": 1121
     },
     {
-      "date": "Jun 29",
-      "text": "Trump threatens to 'complete the job' in Iran as US military launches fresh strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNSWJpN1VxTmpMb29JZjgzTnVqajU0dXJmVFFxNEF4T3MzenZXWk9FLW1YOHpGdEk0c3lrQU56akxjeFQyM3lwaTdJWHVRZ2FTSllkYk9PcmsyRkZtX3Q2TkVtWkIwb0ZWbmhxa2I2VElEWnA2YllZQm5MZ3B2R2RZenpYQ0FHazAzVkM3cXBIU093MW9TQ1FFbmdkTW5KZWxpTE5hMi13cDdUVlZNZUwtMzZ30gG3AUFVX3lxTFBlU01XakVNamNDTHFEVmphZlFVVmRJTDFPLUlyemRtXzRDNWJNZC1WZ1dXdjNRbmhqZElaeDV6OXhHRW5ZN3E2bW5OYjBjWkV4d2xIZEJfd2VOc1NwSk1QTERFczdUUlNHQ1Y0aC0yWXVlZmVzX3UtZnozbnFQSXU0S1lFUk96NDNwYUd1LUowWG9WeEc5OEdvbEpJbTNnSnZQcHByQzA3R3FMVFZlclNiLWhyanFhVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1120
+      "date": "Jun 28",
+      "text": "US, Iran war, peace talks in Doha, Qatar off to shaky start Tuesday.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNcDhxUUhMSEY2cDgwUjRvVUgyVE51WXdLbldtTWd2TzBHbTE3enp4V0E1ZnVqdmlxb0tCN2w4SUE3cjIycDZrcVQ0MHhydjNaNUotcjlEY2dma05oZ0dfMFlBOU5DMkhObHBkS3JmWTYydUQtRkkwVHBqLXMwS3oyeXBSZkZCQV9ZOGxxUThKaFROcnpY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1121
     }
   ],
   "sourceStatuses": [
