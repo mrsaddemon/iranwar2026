@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1116,
+  "updateSequence": 1117,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T09:56:06.133Z",
+  "lastSyncedAt": "2026-06-30T12:18:59.167Z",
   "warDay": 123,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 2,
-    "summary": "Attempts at de-escalation and a Hezbollah-Israel truce have been undermined by renewed strikes and threats of war resumption."
+    "summary": "A temporary pause in US-Iran strikes is in effect, but it is highly fragile with violations reported and threats of resumption."
   }
 }
