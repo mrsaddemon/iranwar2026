@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1121,
+  "updateSequence": 1122,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T21:02:02.233Z",
+  "lastSyncedAt": "2026-06-30T22:20:35.100Z",
   "warDay": 123,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 2,
-    "summary": "A temporary pause in strikes between the U.S. and Iran has been strained by renewed attacks, though peace talks continue."
+    "confidence": 0.69,
+    "durationDays": 1,
+    "summary": "A temporary operational pause in strikes between the U.S. and Iran is in effect, though talks remain contentious and fragile."
   }
 }

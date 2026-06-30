@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1121,
+  "updateSequence": 1122,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T21:02:02.233Z",
+  "lastSyncedAt": "2026-06-30T22:20:35.100Z",
   "warDay": 123,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-06-30",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 2,
-    "summary": "A temporary pause in strikes between the U.S. and Iran has been strained by renewed attacks, though peace talks continue."
+    "confidence": 0.69,
+    "durationDays": 1,
+    "summary": "A temporary operational pause in strikes between the U.S. and Iran is in effect, though talks remain contentious and fragile."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.9,
@@ -24,35 +24,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 56,
-    "globalPressure": 65,
-    "allianceInfluence": 57
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -68,27 +68,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jun 30",
-      "text": "IRGC says 8 US military sites destroyed.",
+      "text": "IRGC claims 8 US military sites destroyed in overnight strikes in Bahrain and Kuwait.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOam5lWGFqNWVZWW5aWnBwNGlhZEhGNlZxSEJMRW53YjYwQjJ0OXVTSVhJeGI5aDBhV1BPdXg0b1B0RGg3N2dMbFh3MHRxcFp1MFljZTlsNFgtYmxsSThLRnlBWEtXTS05eXBDSTZfSE03WTRYLTM3MkxOUjhBRXRtNlVrRTVSSVQ0LWRyVWNjUUJSc0FWTGl4QWtTaEx5NGxxdXJ2ZHJuNTc5dXRUakt0TlpySWZkSy1xVW82QXJYd9IBxAFBVV95cUxQN1E3WGQ0WkNTVjFiODlwR2o1UDVobVdkSnVSbkpwQTRQZ2xweHBWZnh6NlRoZkZTOTkxM1VyU083S3pfMnVVVW5UNUc1bDZtdkoxNDNvYWFUeTc4b0MyUnJaWFFBQ3ZiYVV4QnIxODZxUi1UODBjOGphclRLR3JsWVNzRU9nV0tFQkdvSWpWRE4tcDlIXzVUQm5RVlU3UW40TnJYRkFKaHBBaE45ekNGYmxINWtRUnJBRU15OFBfQmFjMnRj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1121
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1122
+    },
+    {
+      "date": "Jun 30",
+      "text": "US and Iran pause strikes but disagree over next steps on talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1122
     },
     {
       "date": "Jun 29",
-      "text": "U.S. military says it struck multiple targets in Iran as ceasefire is strained by 2nd day of attacks.",
+      "text": "Iran says it targeted American base after fresh US strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPZ01VcmhwOHVST3hoWXQtb3hkMkx2MS1MZmo5TjcyWDEtc19nWExLMHh2b1VzUnBDY19PU1lpNjlfUlMteUpZcWFMeGxkSjFiakpnbWZWeE1vcTBJczdlWGVwNWNNbU1UcC11eFc1M19kYndYNi05WjNrUDhxdTY3eWpwTnVqdFZ5VlNweGJ5Qm1aRTFSNEJvUlZoUTM3SUZXcFJMdU5nVEpGZzA4SjhYR01pMjBuQWJHT2hHRHpOSUFub3lXQWlkcnJCenY1UdIB0wFBVV95cUxNQmJTcloxYzAyY0dxaWU1dDdEdFlxQzdlQ2NPXzVwX2xZdGR5TkpjaGlQX29yRWhlM0psWVE0U3RGODExSUI4NXVKWUE4QVc2QzcxU2FlNko0T1FhT1c1dWhtdjlMemZnWTF6R29Wb1lSYWtwWlc5MzVfOTJOZWkxb1o5WXZrRVE2bEtoOFFNYmlDeUFvUC1OdmZlb3otYjAwYW8xUG91bFlLYmF1cXV1UTgyMDFyckxpRldQSDMyZDdGSG1PLVpjVFlJM0lYTnk4ZGFn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1121
-    },
-    {
-      "date": "Jun 29",
-      "text": "Iran threatens 'complete halt' to talks after trading strikes with U.S.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1121
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1122
     },
     {
       "date": "Jun 29",
@@ -99,18 +99,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1121
     },
     {
-      "date": "Jun 28",
-      "text": "US, Iran war, peace talks in Doha, Qatar off to shaky start Tuesday.",
+      "date": "Jun 29",
+      "text": "Iran threatens 'complete halt' to talks after trading strikes with U.S.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNcDhxUUhMSEY2cDgwUjRvVUgyVE51WXdLbldtTWd2TzBHbTE3enp4V0E1ZnVqdmlxb0tCN2w4SUE3cjIycDZrcVQ0MHhydjNaNUotcjlEY2dma05oZ0dfMFlBOU5DMkhObHBkS3JmWTYydUQtRkkwVHBqLXMwS3oyeXBSZkZCQV9ZOGxxUThKaFROcnpY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
       "latestSinceUpdate": 1121
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
