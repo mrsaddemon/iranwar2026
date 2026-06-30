@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1117,
+  "updateSequence": 1118,
   "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T12:18:59.167Z",
+  "lastSyncedAt": "2026-06-30T14:46:09.017Z",
   "warDay": 123,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "A temporary pause in US-Iran strikes is in effect, but it is highly fragile with violations reported and threats of resumption."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   }
 }
