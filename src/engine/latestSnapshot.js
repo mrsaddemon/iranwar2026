@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1126,
+  "updateSequence": 1127,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T10:34:32.917Z",
+  "lastSyncedAt": "2026-07-01T13:20:14.506Z",
   "warDay": 124,
-  "summary": "The region is experiencing heightened military activity between the US, Israel, and Iran, with significant focus on the Strait of Hormuz and ongoing, yet strained, diplomatic efforts.",
+  "summary": "US and Iran are engaged in tit-for-tat strikes, with a fragile pause for technical talks, while Israel has also conducted strikes in Iran and maintains a strong stance regarding Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-07-01",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 3,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "A fragile pause in strikes between the US and Iran is in effect, but talks are stalled and disagreements persist."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 60,
+    "tradeImpact": 58,
+    "sanctionsPressure": 63,
+    "globalPressure": 77,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,27 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 01",
-      "text": "Trump and Iran issue conflicting statements about new talks.",
+      "text": "Iran rejects third-party intervention for Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1127
+    },
+    {
+      "date": "Jun 29",
+      "text": "Iran Update Special Report published.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1126
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOX0pNV1NrT0ZlTXlKazQ1VnJMU1pvTjd0WUFVb1ZPVWYzcVM3WFhhVzFXNzZtMFZ5MFFrSllJcllOQTBCNUdQR2ZQWHFydUNYYUNQRDZRdXgwbkh3QkprNlYyT1hnaFJBQllyT3E5LWw3MDZWYTBsT2JwYWhXbEVGRFBPN0xoZ3h3a01aZzZjUEtjX3Jt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1127
     },
     {
       "date": "Jul 01",
-      "text": "IRGC claims 8 US military sites destroyed in overnight strikes in Bahrain, Kuwait.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1126
+      "text": "US and Iran pause strikes but disagree over next steps on talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1127
     },
     {
       "date": "Jul 01",
       "text": "Iran says it targeted American base after fresh US strikes.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
       "latestSinceUpdate": 1126
+    },
+    {
+      "date": "Jul 01",
+      "text": "US hits Iran in latest tit-for-tat strike.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1127
     },
     {
       "date": "Jul 01",
@@ -89,28 +105,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": null,
       "sourceName": "Google News RSS",
       "latestSinceUpdate": 1126
-    },
-    {
-      "date": "Jul 01",
-      "text": "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNcjN3dG1HWmVmbnJSS09hVUM4UGFtVmdZVjB6VDYwRzRLMm9tVmI0aEpoU3hyc045RWl1TjVheFlPMEFvNWVYR19ZQi1IQmR4dXRVcktQemdqMWtFMmZPUUNOUUlxOU84QWI0RDI5eWs5QXRtUHdyelczYm1Ua3VMaFk0Z0dHUkphTWd6dlplZ1Q1TE9wOGI3XzB30gGfAUFVX3lxTE5ENU44TFRkTTROYUpKcnBrOUoxMjkyUDNXUlM1cWswSzdIQnhoelhaRVdDTVZCem4zMS1IcGIxZzNjTWtwamZ1OHE1MS1sUk9RV2xBdmZzai1BZFdpbGhmNUl4NlAyZjBnMHVBZzlNekRhS2JSVFhiREE0Uy0xbzh3QWhTOUNIVFpVSnR0U1BBXy0weFZ6cVlXXzFuTVZIUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1126
-    },
-    {
-      "date": "Jul 01",
-      "text": "Iran insists on keeping control over Hormuz, senior Iranian sources say.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNTFBydmx6S2JaLXlSTGotcDJJemY3STctRmNiX1M1aEtQR3czZzU5VEtiYjdObEloOXRVVkNEckpmY1BmaG5DZUV6UjVaTzhZd0ZSNkZaYkw4WURhbWZ3eWpBeDlBVW0wTU9XcGFLVk9PZzBtSkpQVzA0ampJOVd4X0c1U3JkTDFzUXZTUFFrZmQ3aGRWZkllSmE5Nml5M2ZPS3VWWEhDMi1nVzRCbzhrSWZXZlMzbGhrcTZTajVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1126
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1126,
+  "updateSequence": 1127,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T10:34:32.917Z",
+  "lastSyncedAt": "2026-07-01T13:20:14.506Z",
   "warDay": 124,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 3,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "A fragile pause in strikes between the US and Iran is in effect, but talks are stalled and disagreements persist."
   }
 }
