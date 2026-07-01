@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1128,
+  "updateSequence": 1129,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T15:59:32.026Z",
+  "lastSyncedAt": "2026-07-01T18:06:09.899Z",
   "warDay": 124,
-  "summary": "US and Iran have paused hostilities and entered technical talks to secure a peace deal and shipping restart, despite ongoing tit-for-tat strikes, Israeli attacks in Iran and Lebanon, and Iranian attacks on US bases in Bahrain and Kuwait.",
+  "summary": "Ongoing tit-for-tat strikes between the US and Iran, and Israel and Iran, continue amidst diplomatic talks and maritime incidents in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-01",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.4,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "A fragile pause in hostilities between the US and Iran is in effect, allowing for technical talks and resumption of Hormuz shipping, but disagreements and threats persist."
+    "summary": "A previous pause in strikes between the US and Iran has collapsed due to renewed military actions, though technical talks are reportedly still underway."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
+    "nuclearIndex": 50,
+    "escalationLevel": 85,
     "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 30",
-      "text": "Iran rejects third-party intervention for the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1128
+      "text": "Iran Update Special Report released, highlighting potential for earlier conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNU0RtbUNscTVyb1NHT0FHeGFYMWgzMFktTGh1aDQwMVJsZ3RFSmdHdURMeXkzQkpUUkNjdVVXZHdaUm80MG9lR3c3b2N3cnp0Tm1sMDRGNFNqWXNzdzExT1ZFeW1iOVNyX0ZYdXZmUVQ5a0d0QUFhcWxOUEpLeTVOQ0RBX2s2QzNfdmpZa1VFN3FzMWdN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1129
     },
     {
       "date": "Jun 30",
-      "text": "US and Iran pause strikes but disagree over next steps on talks.",
+      "text": "US and Iran paused strikes but remain in disagreement over next steps in talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1128
+      "latestSinceUpdate": 1129
     },
     {
       "date": "Jun 30",
-      "text": "Iran claims to have targeted an American base after fresh US strikes.",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1128
+      "latestSinceUpdate": 1129
     },
     {
       "date": "Jun 30",
-      "text": "US hits Iran in latest tit-for-tat strike.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1128
-    },
-    {
-      "date": "Jun 30",
-      "text": "Israel conducts strikes in Iran, IDF says.",
+      "text": "US conducted strikes in Iran in a latest tit-for-tat response.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1128
+      "latestSinceUpdate": 1129
     },
     {
       "date": "Jun 30",
-      "text": "Ship runs aground in Strait of Hormuz, Iranian state TV reports.",
+      "text": "Israel conducted strikes in Iran, as confirmed by the IDF.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1129
+    },
+    {
+      "date": "Jun 30",
+      "text": "A ship ran aground in the Strait of Hormuz, according to Iranian state TV.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOTE1BT01IcFo4dkRRNnltSzczRW9XSUtFckk1WjM1VnhZaGhjSVF0V0NzMWxKdjJlTm1NOUtBSHdnRGhVVGQxQjJQYnJOcE5CS04zVHB1MjY3T3lrYU96UUdIcEJ6Z2JienlwOHNTT0dUeFpPZGlpb2VRblI0cWtFclRqUWwtYzRvSHNaem5nVWU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo",
-      "latestSinceUpdate": 1128
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNa3hYM2p1SFA4MExhajdQc0ZWM2ZjY2NyVlVfM2VCaWNUTk1qUWs5NnVsMHdpMFBxOGktUEdyOXhZUXhyMDFLcEI2VzF4VUlaVTVJenh1T2RpdzZZaEk5ZFUtZ3BZMEdzY3BJWk4wUno3QW1zUFNnSFRYRkk2cXRtdUUwZDU3dGxGVDRaTHFRX0hiQ2hDYW1PMEtsQUlNMllS?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WRAL",
+      "latestSinceUpdate": 1129
     }
   ],
   "sourceStatuses": [
