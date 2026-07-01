@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1129,
+  "updateSequence": 1130,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T18:06:09.899Z",
+  "lastSyncedAt": "2026-07-01T20:07:24.267Z",
   "warDay": 124,
-  "summary": "Ongoing tit-for-tat strikes between the US and Iran, and Israel and Iran, continue amidst diplomatic talks and maritime incidents in the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-01",
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 1,
-    "summary": "A previous pause in strikes between the US and Iran has collapsed due to renewed military actions, though technical talks are reportedly still underway."
+    "summary": "A temporary pause in US-Iran strikes is in effect, but both sides disagree on next steps and Iran expresses readiness for war."
   },
   "actorOverrides": {
     "usa": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jun 30",
-      "text": "Iran Update Special Report released, highlighting potential for earlier conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNU0RtbUNscTVyb1NHT0FHeGFYMWgzMFktTGh1aDQwMVJsZ3RFSmdHdURMeXkzQkpUUkNjdVVXZHdaUm80MG9lR3c3b2N3cnp0Tm1sMDRGNFNqWXNzdzExT1ZFeW1iOVNyX0ZYdXZmUVQ5a0d0QUFhcWxOUEpLeTVOQ0RBX2s2QzNfdmpZa1VFN3FzMWdN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1129
+      "text": "A special report warns that the next Iran war may come sooner than anticipated.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPaGhZVGxYcGxXVFlVSXdiMDkxN0Z1QnJwX1k1Nm1pWTRJX0hBR0c4QW5CUFg2Ukw3dmxJUUstR2EtUDY2TDNuMjBVWmRTNnNNeTR4MkVGU3AwYkV5Wmo4OU9ZYWR1enRRNk9PUlNLcnBpVElzTnNaVTBTOVNkcmtyVE9FSXRVUWpKQ3ZWeDA1QWxVblNaTURUWk92YlR5VF9VRDNJczJTaDhYakQtbk9PVHo5a0R4MldOcW12amV5bVhYRm05VVJOTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1130
     },
     {
-      "date": "Jun 30",
-      "text": "US and Iran paused strikes but remain in disagreement over next steps in talks.",
+      "date": "Recent",
+      "text": "US and Iran pause military strikes but remain at odds over next steps in talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1129
+      "latestSinceUpdate": 1130
     },
     {
-      "date": "Jun 30",
+      "date": "Recent",
       "text": "Iran claims to have targeted an American base following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1129
+      "latestSinceUpdate": 1130
     },
     {
-      "date": "Jun 30",
-      "text": "US conducted strikes in Iran in a latest tit-for-tat response.",
+      "date": "Recent",
+      "text": "Israel conducts strikes within Iran, as confirmed by the IDF.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1129
+      "latestSinceUpdate": 1130
     },
     {
-      "date": "Jun 30",
-      "text": "Israel conducted strikes in Iran, as confirmed by the IDF.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1129
-    },
-    {
-      "date": "Jun 30",
-      "text": "A ship ran aground in the Strait of Hormuz, according to Iranian state TV.",
+      "date": "Recent",
+      "text": "A ship runs aground in the Strait of Hormuz, according to Iranian state TV.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNa3hYM2p1SFA4MExhajdQc0ZWM2ZjY2NyVlVfM2VCaWNUTk1qUWs5NnVsMHdpMFBxOGktUEdyOXhZUXhyMDFLcEI2VzF4VUlaVTVJenh1T2RpdzZZaEk5ZFUtZ3BZMEdzY3BJWk4wUno3QW1zUFNnSFRYRkk2cXRtdUUwZDU3dGxGVDRaTHFRX0hiQ2hDYW1PMEtsQUlNMllS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WRAL",
-      "latestSinceUpdate": 1129
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOQ2lQSWQwRDQ4OFduMjN6LWJ6N0Q3VWQ2bTNDSGk3NzcyM01FYlBPd1ozSTgzM056VnZEck1UR2VvbE96dkZocFZ1cmNjS3NyOENOWlJJbDg0eHVmelg5NlZyQ0l2dTZPZW8zb0RzUGJRUnI0VFk5Q1dyZ0plQk1wQXR3STBEVHVWa1JoUE9qd0xGT2Jza2J0YzhHX1ljaHRkTXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1130
+    },
+    {
+      "date": "Recent",
+      "text": "Iran’s Revolutionary Guards claim destruction of 8 US military sites in Bahrain and Kuwait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1130
     }
   ],
   "sourceStatuses": [

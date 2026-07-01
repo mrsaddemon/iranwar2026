@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1129,
+  "updateSequence": 1130,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T18:06:09.899Z",
+  "lastSyncedAt": "2026-07-01T20:07:24.267Z",
   "warDay": 124,
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 1,
-    "summary": "A previous pause in strikes between the US and Iran has collapsed due to renewed military actions, though technical talks are reportedly still underway."
+    "summary": "A temporary pause in US-Iran strikes is in effect, but both sides disagree on next steps and Iran expresses readiness for war."
   }
 }
