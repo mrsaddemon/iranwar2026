@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1125,
+  "updateSequence": 1126,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T06:41:34.372Z",
+  "lastSyncedAt": "2026-07-01T10:34:32.917Z",
   "warDay": 124,
-  "summary": "A fragile US-Iran ceasefire is strained by continued strikes and conflicting statements, while technical talks in Qatar proceed amidst regional tensions and Israeli warnings.",
+  "summary": "The region is experiencing heightened military activity between the US, Israel, and Iran, with significant focus on the Strait of Hormuz and ongoing, yet strained, diplomatic efforts.",
   "lastNarrativeUpdate": "2026-07-01",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 3,
-    "summary": "A fragile ceasefire between the US and Iran is in effect, marked by pauses in strikes but also by violations and threats, with ongoing technical talks."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 01",
-      "text": "Trump and Iran issue conflicting statements regarding the status of new talks.",
+      "text": "Trump and Iran issue conflicting statements about new talks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1125
+      "latestSinceUpdate": 1126
     },
     {
       "date": "Jul 01",
-      "text": "Iran's IRGC claims 8 US military sites in Bahrain and Kuwait were destroyed in overnight strikes.",
-      "severity": "critical",
+      "text": "IRGC claims 8 US military sites destroyed in overnight strikes in Bahrain, Kuwait.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1125
+      "latestSinceUpdate": 1126
     },
     {
-      "date": "Jun 30",
-      "text": "US and Iran pause strikes but express disagreement over the next steps in ongoing talks.",
+      "date": "Jul 01",
+      "text": "Iran says it targeted American base after fresh US strikes.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1125
-    },
-    {
-      "date": "Jun 30",
-      "text": "Iran states it targeted an American base following fresh US strikes.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1125
+      "latestSinceUpdate": 1126
     },
     {
-      "date": "Jun 30",
-      "text": "Israel conducts strikes within Iran, according to IDF statements.",
+      "date": "Jul 01",
+      "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1125
+      "latestSinceUpdate": 1126
     },
     {
-      "date": "Jun 30",
-      "text": "Iran threatens a 'complete halt' to talks after exchanging strikes with the U.S., though Washington officials indicate talks will continue.",
+      "date": "Jul 01",
+      "text": "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNcjN3dG1HWmVmbnJSS09hVUM4UGFtVmdZVjB6VDYwRzRLMm9tVmI0aEpoU3hyc045RWl1TjVheFlPMEFvNWVYR19ZQi1IQmR4dXRVcktQemdqMWtFMmZPUUNOUUlxOU84QWI0RDI5eWs5QXRtUHdyelczYm1Ua3VMaFk0Z0dHUkphTWd6dlplZ1Q1TE9wOGI3XzB30gGfAUFVX3lxTE5ENU44TFRkTTROYUpKcnBrOUoxMjkyUDNXUlM1cWswSzdIQnhoelhaRVdDTVZCem4zMS1IcGIxZzNjTWtwamZ1OHE1MS1sUk9RV2xBdmZzai1BZFdpbGhmNUl4NlAyZjBnMHVBZzlNekRhS2JSVFhiREE0Uy0xbzh3QWhTOUNIVFpVSnR0U1BBXy0weFZ6cVlXXzFuTVZIUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1126
+    },
+    {
+      "date": "Jul 01",
+      "text": "Iran insists on keeping control over Hormuz, senior Iranian sources say.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1125
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNTFBydmx6S2JaLXlSTGotcDJJemY3STctRmNiX1M1aEtQR3czZzU5VEtiYjdObEloOXRVVkNEckpmY1BmaG5DZUV6UjVaTzhZd0ZSNkZaYkw4WURhbWZ3eWpBeDlBVW0wTU9XcGFLVk9PZzBtSkpQVzA0ampJOVd4X0c1U3JkTDFzUXZTUFFrZmQ3aGRWZkllSmE5Nml5M2ZPS3VWWEhDMi1nVzRCbzhrSWZXZlMzbGhrcTZTajVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1126
     }
   ],
   "sourceStatuses": [
