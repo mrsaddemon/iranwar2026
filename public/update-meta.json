@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1127,
+  "updateSequence": 1128,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T13:20:14.506Z",
+  "lastSyncedAt": "2026-07-01T15:59:32.026Z",
   "warDay": 124,
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.3,
-    "durationDays": 3,
-    "summary": "A fragile pause in strikes between the US and Iran is in effect, but talks are stalled and disagreements persist."
+    "confidence": 0.4,
+    "durationDays": 1,
+    "summary": "A fragile pause in hostilities between the US and Iran is in effect, allowing for technical talks and resumption of Hormuz shipping, but disagreements and threats persist."
   }
 }
