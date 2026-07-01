@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1131,
+  "updateSequence": 1132,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T21:44:42.843Z",
+  "lastSyncedAt": "2026-07-01T23:00:00.000Z",
   "warDay": 124,
-  "summary": "Ongoing tit-for-tat strikes between the US and Iran continue amidst stalled diplomatic talks in Doha, while Israel conducts strikes against both Iran and Hezbollah, and Iran asserts control over the Strait of Hormuz.",
+  "summary": "US and Iran engage in tit-for-tat strikes while holding stalled talks in Doha, as Israel also conducts strikes in Iran and Lebanon, raising regional tensions, particularly around the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-01",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Despite a brief pause in strikes, recent tit-for-tat actions and stalled talks indicate no active ceasefire."
+    "summary": "No active ceasefire is in effect as US, Iran, and Israel conduct strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.68,
-        "aggression": 0.78
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 75,
-    "oilDisruption": 70,
-    "tradeImpact": 64,
-    "sanctionsPressure": 62,
-    "globalPressure": 77,
+    "nuclearIndex": 60,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Recent",
-      "text": "Iran rejects third-party intervention for the Strait of Hormuz.",
+      "date": "Jun 30",
+      "text": "Iran Update Special Report released.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1131
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNU0RtbUNscTVyb1NHT0FHeGFYMWgzMFktTGh1aDQwMVJsZ3RFSmdHdURMeXkzQkpUUkNjdVVXZHdaUm80MG9lR3c3b2N3cnp0Tm1sMDRGNFNqWXNzdzExT1ZFeW1iOVNyX0ZYdXZmUVQ5a0d0QUFhcWxOUEpLeTVOQ0RBX2s2QzNfdmpZa1VFN3FzMWdN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1132
     },
     {
-      "date": "Recent",
-      "text": "US and Iran briefly pause strikes but disagree on next steps for talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1131
-    },
-    {
-      "date": "Recent",
-      "text": "Iran says it targeted an American base following fresh US strikes.",
+      "date": "Jul 01",
+      "text": "Iran claims targeting an American base after fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1131
+      "latestSinceUpdate": 1132
     },
     {
-      "date": "Recent",
-      "text": "US hits Iran in latest tit-for-tat strike.",
+      "date": "Jul 01",
+      "text": "US conducts tit-for-tat strike against Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1131
+      "latestSinceUpdate": 1132
     },
     {
-      "date": "Recent",
-      "text": "Israel conducts strikes in Iran, according to IDF.",
+      "date": "Jul 01",
+      "text": "Israel conducts strikes in Iran, IDF confirms.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1131
+      "latestSinceUpdate": 1132
     },
     {
-      "date": "Recent",
-      "text": "US and Iran hold separate meetings in Qatar and agree to continue discussions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOQ2lQSWQwRDQ4OFduMjN6LWJ6N0Q3VWQ2bTNDSGk3NzcyM01FYlBPd1ozSTgzM056VnZEck1UR2VvbE96dkZocFZ1cmNjS3NyOENOWlJJbDg0eHVmelg5NlZyQ0l2dTZPZW8zb0RzUGJRUnI0VFk5Q1dyZ0plQk1wQXR3STBEVHVWa1JoUE9qd0xGT2Jza2J0YzhHX1ljaHRkTXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1131
+      "date": "Jul 01",
+      "text": "Iran's Revolutionary Guards claim destruction of 8 US military sites in Bahrain and Kuwait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1132
+    },
+    {
+      "date": "Jul 01",
+      "text": "US-Iran talks in Doha conclude in stalemate, with Trump downplaying return to combat.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPcHNWSXR0MzJaeklrLWpRbWw5ZzdvRDQ4UGo3WVhIVzNmOUliMkd5ZGpPdmhKZko0TEY0R1R4MjM0ZU5NUnBidlJHdjJZS1d0MnkzX2hIMWpQOFU2S29SQWFFM283WEhiekNnN2RJajFiUnlIVFRReEpFQ1FWU0llNDZZUEJ6Ny1LYnREc3c2UTNaUkNvTkVfQ0NnQVVuYUQwYVlwdHkzc081TVpDZXhMaTBmbHdoSE5PaF9JMnVwUS1JMTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1132
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
