@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1130,
+  "updateSequence": 1131,
   "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T20:07:24.267Z",
+  "lastSyncedAt": "2026-07-01T21:44:42.843Z",
   "warDay": 124,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.3,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "A temporary pause in US-Iran strikes is in effect, but both sides disagree on next steps and Iran expresses readiness for war."
+    "summary": "Despite a brief pause in strikes, recent tit-for-tat actions and stalled talks indicate no active ceasefire."
   }
 }
