@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1123,
-  "lastUpdated": "2026-06-30",
-  "lastSyncedAt": "2026-06-30T23:40:22.011Z",
-  "warDay": 123,
+  "updateSequence": 1124,
+  "lastUpdated": "2026-07-01",
+  "lastSyncedAt": "2026-07-01T01:57:50.785Z",
+  "warDay": 124,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 2,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 2 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "An operational pause in some areas is offset by ongoing strikes and threats, maintaining a fragile regional stability despite diplomatic talks."
   }
 }
