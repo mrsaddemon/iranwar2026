@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1134,
+  "updateSequence": 1135,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T04:32:36.308Z",
+  "lastSyncedAt": "2026-07-02T07:52:00.874Z",
   "warDay": 125,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and declarations of readiness for war despite diplomatic talks."
+    "summary": "A temporary pause in strikes between the US and Iran was reported, but subsequent actions indicate it was not sustained or fully effective."
   }
 }
