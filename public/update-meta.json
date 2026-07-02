@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1142,
+  "updateSequence": 1143,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T21:35:55.421Z",
+  "lastSyncedAt": "2026-07-02T22:42:17.060Z",
   "warDay": 125,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "A fragile ceasefire is reported in the Strait of Hormuz, but ongoing military actions and threats indicate low confidence in its stability."
+    "summary": "Discussions for a Lebanon ceasefire are ongoing, but no comprehensive ceasefire is active for the broader US-Iran conflict."
   }
 }
