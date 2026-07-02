@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1132,
-  "lastUpdated": "2026-07-01",
-  "lastSyncedAt": "2026-07-01T23:00:00.000Z",
-  "warDay": 124,
-  "summary": "US and Iran engage in tit-for-tat strikes while holding stalled talks in Doha, as Israel also conducts strikes in Iran and Lebanon, raising regional tensions, particularly around the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-07-01",
+  "updateSequence": 1133,
+  "lastUpdated": "2026-07-02",
+  "lastSyncedAt": "2026-07-02T00:17:10.428Z",
+  "warDay": 125,
+  "summary": "Diplomatic talks between the US and Iran in Doha regarding the Strait of Hormuz have concluded in a stalemate, amidst ongoing military strikes by both nations and Israel's continued operations in Iran and Lebanon.",
+  "lastNarrativeUpdate": "2026-07-02",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect as US, Iran, and Israel conduct strikes."
+    "summary": "Despite a reported pause in strikes, ongoing military actions by all parties indicate no active or comprehensive ceasefire is in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jun 30",
-      "text": "Iran Update Special Report released.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNU0RtbUNscTVyb1NHT0FHeGFYMWgzMFktTGh1aDQwMVJsZ3RFSmdHdURMeXkzQkpUUkNjdVVXZHdaUm80MG9lR3c3b2N3cnp0Tm1sMDRGNFNqWXNzdzExT1ZFeW1iOVNyX0ZYdXZmUVQ5a0d0QUFhcWxOUEpLeTVOQ0RBX2s2QzNfdmpZa1VFN3FzMWdN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1132
-    },
-    {
-      "date": "Jul 01",
-      "text": "Iran claims targeting an American base after fresh US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1132
-    },
-    {
-      "date": "Jul 01",
-      "text": "US conducts tit-for-tat strike against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOLTM2b0s0V25IYjUxNEhrRDV1RDFfdzlRMFdGU1VFZlhPNXJwZ3BuS2RIY1pmT2JPVG9kd19Sdlhtby1uUGVHSTJuU0dnSzJIeFVydU5PeVVQbFJHa0NqbF9iS2Foc2FNSDh2Qk9hNU84dWV0SUpXc00xbzl1ei1UT3UzdUpFam43cFJDZWstWnpBMVJleWE5Ul8ycUNybWRjMDJKUWtEdFJZQjlPRUxrLVMtaVZPaHg3bWY5d9IBwgFBVV95cUxNaUdLcXdDSTJMcFZjY2NCcXRtYXhHWEZNaDNxcTBOUUZZUjBnY1hLSk5Xb1d4aXNRQXpKSVhWMVhhUU5iWVZjMnViTVE5X2hCdnBtbEdURzlPdEVSeEF2RkN2a2NDeU9oREdEZ1dUVUtqeHVndWdBelpaUWc4S0dHZkpqUTRFZy0tcEdMZGZPVWpxX0VPZFUwdURyQ1BkZXBFazIwT2E2QWxacUFZVnF6bVk3NFVlZnRYcmRNckR6QXloUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1132
-    },
-    {
-      "date": "Jul 01",
-      "text": "Israel conducts strikes in Iran, IDF confirms.",
-      "severity": "critical",
+      "date": "Jul 02",
+      "text": "US and Iran talks in Doha conclude in stalemate, with both sides disagreeing on next steps for de-escalation.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1132
+      "latestSinceUpdate": 1133
     },
     {
-      "date": "Jul 01",
-      "text": "Iran's Revolutionary Guards claim destruction of 8 US military sites in Bahrain and Kuwait.",
+      "date": "Jul 02",
+      "text": "Iran's Revolutionary Guards claim destruction of 8 US military sites in Bahrain and Kuwait following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNeUw4Z1lOT1dXS3ZybGlWR2Q3Q1k5bXNxNW53aU5FdVh0dFladXBnX1NGd0paeG5aN2M4YjY2Umd3Vmd1ZEM3bnprQ0E4eW1WS2pVekQ0bm04VHY3LU4yVS1UYVdXbmFKZW81T1VDMzBfUUJaQk1CRlkyLUhlem1odnBMbC1rZFlCbHB6STBXWWdYS1BGcWVnMVZOZ2k2dG5fbmRuNmt5OGFyUDVsUWxKa0ZvWkhZYl91ZU5hNGdMQ2hNTFVmMDVoa1NvZjY4WnhsbHZjekh1Y0tCTzBrMmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1132
+      "latestSinceUpdate": 1133
     },
     {
-      "date": "Jul 01",
-      "text": "US-Iran talks in Doha conclude in stalemate, with Trump downplaying return to combat.",
+      "date": "Jul 02",
+      "text": "Israel conducts strikes in Iran and reports destroying Hezbollah underground infrastructure in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOeHpnQ2htRldyN2wyQkhMc0JqSVdwbDA5VkRCZklRS0t1QURDWHFWRUJEM1BxNnFhN0hCcnRNQ3hvQm9USV9wSkhKZXl2OXJSc2xObjFxRTdCNXVaUVNsdlVsZHd4dDNwVHZTUU5LY1BodWRrZkZHdU1NcFVGMDhfVmpJTnkwSDc4NzdBWTlVUnhKaFg2ZTZiSnNFeDdteG5TVmZDbEtFRGhLSk0yNDFabDdUTDV6SmFJejQ0akZ4OWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1133
+    },
+    {
+      "date": "Jul 02",
+      "text": "Iran rejects third-party intervention for the Strait of Hormuz as US and Gulf allies explore new shipping routes.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPcHNWSXR0MzJaeklrLWpRbWw5ZzdvRDQ4UGo3WVhIVzNmOUliMkd5ZGpPdmhKZko0TEY0R1R4MjM0ZU5NUnBidlJHdjJZS1d0MnkzX2hIMWpQOFU2S29SQWFFM283WEhiekNnN2RJajFiUnlIVFRReEpFQ1FWU0llNDZZUEJ6Ny1LYnREc3c2UTNaUkNvTkVfQ0NnQVVuYUQwYVlwdHkzc081TVpDZXhMaTBmbHdoSE5PaF9JMnVwUS1JMTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1132
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1133
     }
   ],
   "sourceStatuses": [
@@ -139,32 +123,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "Iran Defiant Amidst Strikes, Ready for War, Claims US Site Destruction",
-      "summary": "Iran maintains a defiant stance, claiming successful strikes against US military sites and reiterating its readiness for war while engaging in slow-moving peace talks. Tehran rejects external intervention in the Strait of Hormuz, emphasizing its control over the vital waterway.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1124
-    },
-    {
-      "perspective": "United States",
-      "headline": "US Engages in Strikes and Diplomacy, Threatens Further Action",
-      "summary": "The US continues military strikes against Iran while simultaneously pursuing diplomatic channels through envoys in Doha, though statements on talks remain conflicting. President Trump has threatened to 'complete the job' in Iran, indicating a readiness for further military action.",
+      "perspective": "US/Allies",
+      "headline": "Diplomacy Stalls Amidst Retaliatory Strikes",
+      "summary": "The US continues diplomatic efforts in Doha to de-escalate tensions and secure shipping routes in the Strait of Hormuz, while responding to Iranian military actions. Efforts are also underway with Gulf allies to establish alternative shipping routes.",
       "tone": "strained",
-      "latestSinceUpdate": 1124
+      "latestSinceUpdate": 1133
     },
     {
-      "perspective": "Israel",
-      "headline": "Israel Conducts Strikes, Warns of Resumption, Faces Hezbollah Challenge",
-      "summary": "Israel has conducted strikes in Iran and issued warnings that conflict could resume within days, highlighting persistent regional instability. The country also faces ongoing security challenges from Hezbollah drones in Lebanon, testing existing truce frameworks.",
+      "perspective": "Iran",
+      "headline": "Sovereignty and Readiness for Conflict",
+      "summary": "Iran asserts its control over the Strait of Hormuz, rejecting external intervention, and declares readiness for war while engaging in talks. The Revolutionary Guards claim successful retaliatory strikes against US military sites.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1133
+    },
+    {
+      "perspective": "Regional Stability",
+      "headline": "Escalation Risk High as Talks Fail",
+      "summary": "The failure of Doha talks to achieve a breakthrough, coupled with continued military engagements involving the US, Iran, and Israel, signals a high risk of further regional escalation. The situation in the Strait of Hormuz remains a critical flashpoint.",
       "tone": "anxious",
-      "latestSinceUpdate": 1124
-    },
-    {
-      "perspective": "Regional Security",
-      "headline": "Hormuz Tensions High as New Shipping Routes Explored",
-      "summary": "The Strait of Hormuz remains a point of sensitive and complex tension, with Iran fighting to maintain its grip while commercial vessels transit and Oman proposes a new fee plan. The US and Gulf allies are exploring alternative shipping routes to mitigate potential disruptions.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 1124
+      "latestSinceUpdate": 1133
     }
   ]
 });
