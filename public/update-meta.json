@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1135,
+  "updateSequence": 1136,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T07:52:00.874Z",
+  "lastSyncedAt": "2026-07-02T10:24:13.292Z",
   "warDay": 125,
   "ceasefire": {
-    "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A temporary pause in strikes between the US and Iran was reported, but subsequent actions indicate it was not sustained or fully effective."
+    "summary": "No broad ceasefire is active, though discussions for de-escalation and specific regional agreements are ongoing but met with skepticism."
   }
 }

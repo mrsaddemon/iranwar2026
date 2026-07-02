@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1135,
+  "updateSequence": 1136,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T07:52:00.874Z",
+  "lastSyncedAt": "2026-07-02T10:24:13.292Z",
   "warDay": 125,
-  "summary": "Indirect talks between the US and Iran show mixed progress amidst continued strikes, Israeli actions against Hezbollah, and ongoing concerns over the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-02",
   "ceasefire": {
-    "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "A temporary pause in strikes between the US and Iran was reported, but subsequent actions indicate it was not sustained or fully effective."
+    "summary": "No broad ceasefire is active, though discussions for de-escalation and specific regional agreements are ongoing but met with skepticism."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.65
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 30,
-    "tradeImpact": 36,
-    "sanctionsPressure": 63,
-    "globalPressure": 72,
+    "nuclearIndex": 25,
+    "escalationLevel": 38,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 02",
-      "text": "US and Tehran wrap up indirect talks, citing 'positive progress' despite disagreements on next steps.",
+      "date": "Jul 01",
+      "text": "US and Iran wrap up indirect talks in Qatar, agreeing to continue discussions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1135
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1136
     },
     {
       "date": "Jul 01",
-      "text": "Iran says it targeted an American base after fresh US strikes.",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1134
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1136
     },
     {
       "date": "Jul 01",
-      "text": "Israel conducts strikes in Iran, according to the IDF.",
+      "text": "Israel conducts strikes in Iran, according to IDF statements.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1135
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1136
     },
     {
-      "date": "Jun 30",
-      "text": "US hits Iran after a Trump threat to respond to Gulf fire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1135
-    },
-    {
-      "date": "Jun 29",
-      "text": "Oil prices fall to pre-war levels as Strait of Hormuz shipping slowly recovers.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQUmEzb0l6YmN4WDZucnZ4cGpkR1VucXJBZTFiczE3Q1ZPX1NPRUhyY1MyTDNtWUMwZnB4MXMxTWJXS3B1elNKaVQydzZOOVdfNlhqU1VrQk1xS2dxTy1kR2pBX01lR3AxcXpfTFVNM19XQWJEczZNd1hQS1hXMTRYVENWbWRiUVFEdG9WSUtXbVRwUE1PYXJLRnBn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1135
-    },
-    {
-      "date": "Jun 28",
-      "text": "A ship runs aground in the Strait of Hormuz, Iranian state media reports.",
+      "date": "Jul 01",
+      "text": "Adnoc L&S LNG carrier transits the Strait of Hormuz in 'dark' mode amidst heightened tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxPaC13aTRSa3ZqWUZTT19xc2xOb1A0ZmNfUFVSelB6V1VSZGZYWVc2eklrRUVGZ2J1THdWcjA3U0YzMFpHOU9PelBORUxkY09CTGFULTlXUEp1MjN2ZW5lUXQ3SVNuVU50Q01CVGxnbnY1bXhQZ1ExaVhxbkNrOHFxWVBwMm1XaDA0SXlrY09DVlBPRS1KTmR3TURTWFkyd9IBowFBVV95cUxQeUFibGlLNTBud3hHWGNxbDg0cS1STnV2cXJTajR0ZHR6OG84Y1NPdUxBRXo3X1lOX3BkNm9iX0xBOU9MUlJiaFpzUEFhQWVMd1JVLWlwMjBTZzVRdG52WEJlVUh1ejAtekRueUxmWXktRWRHb3lxVHIzejVjbGpNeG1Pc1hTQzhaMjNmZjRIVzlzbUpwcTRkd0FaQUg3QzZXWFo0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1135
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOZUtqMU9sakx3SVpjclhsM0V1LUY2S2xKZXFPakk1aldSM01ScnBmQm5YdHJhQUIyYmQ2aWV3TXVRZC1NUmxVbExpMGlMeVNXbWI4SzZoM24xb3A4Z1pCVERyMV9YMzZrSmo2SzljNHp1UDdWVk5CSlZ4dmhxS1dPdTJiczJjRmI1MjdSOTd1OUZXNDR5TXNjdFlMeEpQQ1NZRzloZi1Sd2RKdWViV3U2bnFFdjZ6bUdrQXNBcg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "TradeWinds News",
+      "latestSinceUpdate": 1136
+    },
+    {
+      "date": "Jul 01",
+      "text": "Iran's top negotiator states the country is ready for war as peace talks progress slowly.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQaGFGOW1UbXp6UGVFUm9OallVbzEweHphTnF1cFNoOFp0OS0xX2NlUVdnc1VvUWZTdW9qZDV0QXhRcXJVaG1SRzlvbUpiSmFjRER1UzUyTlZnNlhZVWw5Umh1ZkxtSW1aOC1xbHdvTFVpejlRYk1JUGZCdXZuVUJQT0tjcGZkcDI5Rmt4TTUzQXNMR1d3NGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1136
+    },
+    {
+      "date": "Jul 01",
+      "text": "Reports indicate Israel is facing a significant Hezbollah drone problem in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1136
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
