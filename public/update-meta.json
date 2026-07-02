@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1141,
+  "updateSequence": 1142,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T20:10:30.606Z",
+  "lastSyncedAt": "2026-07-02T21:35:55.421Z",
   "warDay": 125,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "No active ceasefire or de-escalation agreement is currently reported."
+    "summary": "A fragile ceasefire is reported in the Strait of Hormuz, but ongoing military actions and threats indicate low confidence in its stability."
   }
 }
