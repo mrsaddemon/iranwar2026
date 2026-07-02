@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1136,
+  "updateSequence": 1137,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T10:24:13.292Z",
+  "lastSyncedAt": "2026-07-02T12:30:02.565Z",
   "warDay": 125,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No broad ceasefire is active, though discussions for de-escalation and specific regional agreements are ongoing but met with skepticism."
+    "summary": "A temporary pause in US-Iran strikes was reported but quickly followed by renewed hostilities and disagreement, while a Lebanon-Israel agreement is viewed with skepticism."
   }
 }
