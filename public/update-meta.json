@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1137,
+  "updateSequence": 1138,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T12:30:02.565Z",
+  "lastSyncedAt": "2026-07-02T14:54:34.100Z",
   "warDay": 125,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
-    "durationDays": 1,
-    "summary": "A temporary pause in US-Iran strikes was reported but quickly followed by renewed hostilities and disagreement, while a Lebanon-Israel agreement is viewed with skepticism."
+    "active": false,
+    "status": "fragile",
+    "confidence": 0.3,
+    "durationDays": 5,
+    "summary": "A fragile operational pause between the US and Iran is in effect, though both sides and Israel have conducted recent strikes, complicating peace talks."
   }
 }
