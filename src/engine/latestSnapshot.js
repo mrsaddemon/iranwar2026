@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1138,
+  "updateSequence": 1139,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T14:54:34.100Z",
+  "lastSyncedAt": "2026-07-02T16:57:47.060Z",
   "warDay": 125,
-  "summary": "US and Iran engage in indirect talks while simultaneously conducting strikes, with tensions high around the Strait of Hormuz and Israel continuing operations in Lebanon and Iran.",
+  "summary": "Direct military engagements continue between the US, Iran, and Israel amidst ongoing peace talks, while the Strait of Hormuz has reopened, easing oil supply concerns.",
   "lastNarrativeUpdate": "2026-07-02",
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "A fragile operational pause between the US and Iran is in effect, though both sides and Israel have conducted recent strikes, complicating peace talks."
+    "summary": "Despite ongoing peace talks and the release of a preliminary agreement, direct military actions and threats continue, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.65,
+        "aggression": 0.85
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 75,
-    "oilDisruption": 65,
-    "tradeImpact": 60,
-    "sanctionsPressure": 62,
-    "globalPressure": 76,
+    "escalationLevel": 80,
+    "oilDisruption": 25,
+    "tradeImpact": 32,
+    "sanctionsPressure": 63,
+    "globalPressure": 71,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,6 +60,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 01",
+      "text": "Tehran vows a ‘decisive response’ to any US ‘miscalculation’.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1139
+    },
+    {
+      "date": "Jul 01",
+      "text": "Trump's preliminary U.S.-Iran agreement to end the war is released.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQYjZvaV90am9YWnNwSU83QTNBNWphWUlnbGwtTUV4X0Z1emxteURKTV8zMmVETkR5SUtjUmNHTFVvOHJvQ3NuZE00NFdpaGdQbjV3b0pWV0lGcmtKYzgzaE9ldjl5VVZNSmpqbng5WThHQWFmMWNFVzFRcUVER09yLVZZeWRjQU1JWnI5RG1UeU5TYUJfcUtvRTlucU0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1139
+    },
+    {
+      "date": "Jul 01",
       "text": "Iran rejects third-party intervention for the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?hl=en-US&gl=US&ceid=US:en",
@@ -68,43 +84,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 01",
-      "text": "US and Iran pause strikes but disagree over next steps on talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1138
-    },
-    {
-      "date": "Jul 01",
-      "text": "US-Iran indirect talks in Doha make 'positive progress'.",
+      "text": "Trump's negotiators arrive for talks with Iran.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1138
+      "latestSinceUpdate": 1139
     },
     {
       "date": "Jul 01",
-      "text": "Iran says it targeted an American base after fresh US strikes.",
+      "text": "Iran claims to have targeted an American base following fresh US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1137
+      "latestSinceUpdate": 1139
     },
     {
       "date": "Jul 01",
-      "text": "Israel conducts strikes in Iran, IDF says.",
+      "text": "Israel conducts strikes in Iran, according to the IDF.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1138
-    },
-    {
-      "date": "Jul 01",
-      "text": "A ship tied to Tehran runs aground in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOYW95VU9HS3RaSUg2Z3N3S21tYzBvdVlpSDlqTjZ4ZldDMzdKcWZRUlZhLUpMN3BTbV8zdXloVDQ4MjMtcHQ1b3JOQXZZUmlRMHdsVUpfd3o3LWI2VmRZMklNVFZKdkFTTEgwLTlPLUUyZjNvcm53Wk04S3NBTm1NS0twM25odk5nWmhTRWI0UGFpeXRra2Z1Q2xDVEVMMEF3aEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1138
+      "latestSinceUpdate": 1139
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

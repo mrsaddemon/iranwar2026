@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1138,
+  "updateSequence": 1139,
   "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T14:54:34.100Z",
+  "lastSyncedAt": "2026-07-02T16:57:47.060Z",
   "warDay": 125,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "A fragile operational pause between the US and Iran is in effect, though both sides and Israel have conducted recent strikes, complicating peace talks."
+    "summary": "Despite ongoing peace talks and the release of a preliminary agreement, direct military actions and threats continue, indicating no active ceasefire."
   }
 }
