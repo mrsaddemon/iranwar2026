@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1154,
+  "updateSequence": 1155,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T20:46:00.069Z",
+  "lastSyncedAt": "2026-07-03T21:47:41.261Z",
   "warDay": 126,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "No active ceasefire is in effect, though diplomatic discussions are reported to be making some progress."
+    "summary": "No active ceasefire is in effect, with ongoing military engagements and warnings."
   }
 }
