@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1144,
-  "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T23:47:47.651Z",
-  "warDay": 125,
+  "updateSequence": 1145,
+  "lastUpdated": "2026-07-03",
+  "lastSyncedAt": "2026-07-03T01:20:17.362Z",
+  "warDay": 126,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-07-02",
+  "lastNarrativeUpdate": "2026-07-03",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No active ceasefire is reported; discussions are ongoing but conflict persists."
+    "summary": "No general ceasefire is active, though discussions for a Lebanon ceasefire are ongoing and a framework agreement exists but is viewed as unstable."
   },
   "actorOverrides": {
     "usa": {
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 30,
     "escalationLevel": 38,
     "oilDisruption": 90,
     "tradeImpact": 56,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 01",
-      "text": "Tehran rejects third-party intervention for the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1144
-    },
-    {
-      "date": "Jun 30",
-      "text": "Qatar's Emir discusses Iran talks and Lebanon ceasefire with US envoys.",
+      "text": "Iran Update Special Report released, detailing ongoing conflict developments.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPMFhZUzZXdk80QVo2X0dLeWNKd0R2VGd5dDJqYmNrUGt1VGFrNjdNZnJXV3JSdU9TZENVVXZTV0RZWC1lZ0ZRUjRVSTBhdGw2cDNEcHljUHlJSVFvVEV5X0kyT3hFa0VvT0xfWXF3dE9YV2k2NnR6TmpkZXNiY1ptaDR0b3M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1142
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOLVdjbGMxNzNIN0lpak9kdDNFQ2djWmhSYmh6Y2Y4SHpCbXdYWkRNMGlkSFBOOWtxSUNrSDFCTDM2N1VwTEt3ZnBJUmVaaUY1YXF1YjFacWg3UWNRUFlZSUhDTkN3Y3Z0Nm53QVY2T2xYUFJGbElEZHMteUMtYm9IY1JUTGZPUDRyWXpqYkpVZ2lTY0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1145
     },
     {
       "date": "Recent",
-      "text": "Trump's negotiators arrive for talks with Iran.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1144
-    },
-    {
-      "date": "Recent",
-      "text": "Iran claims to have targeted an American base following fresh US strikes.",
+      "text": "Iran warns oil tankers to use approved routes in Strait of Hormuz or face a 'forceful response'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1144
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNZkpXWTBfdGxqUUpYSGQzNlFoLVhlVTQ2YUo5QzE4TVJlSzhWaXNSbTREN2RhZXJFYjBMWFBnQkF3cGUzQXdmNVU2d1NmeTA0R1h6YnFEN0thckotcjNLTThwOWxtRFhjVmxILXRhUWxDbUlZRUxIWmwydTlkSDJWdk9ZeTdYN2pGY3VHaEhHQnRBSUFycXl4SHdKWFY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WBAL-TV",
+      "latestSinceUpdate": 1145
     },
     {
       "date": "Recent",
-      "text": "Israel conducts strikes in Iran, according to the IDF.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1144
-    },
-    {
-      "date": "Recent",
-      "text": "US hits Iran after a threat from Trump to respond to Gulf fire.",
+      "text": "US hits Iran after Trump threat to respond to Gulf fire incidents.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1144
+      "latestSinceUpdate": 1145
+    },
+    {
+      "date": "Recent",
+      "text": "Israel conducts strikes in Iran, as confirmed by the IDF.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1145
+    },
+    {
+      "date": "Recent",
+      "text": "Iran states it targeted an American base following fresh US strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1145
+    },
+    {
+      "date": "Recent",
+      "text": "The Lebanon-Israel agreement is described as potentially paving the way for future conflict.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNRmdleG9Db1gtMkx5c3BNRnd0MnEwOV9UMkJJa2pzZ2hqWmY1YUNmUWxHLUlhQkYwemRUaS1FQ2pUczNSem1qUzN0dm4zTWU1aHVNT3AtWU5Id3VnSHJPU1JHUmkzME5PUEtzRG03TklUZ2VaUWFTZEpPOW1VZ1M3QlJ1b2FMdDdlMjFONHpQS0dkY2tDS01YeTNoTWNNdzlXdUFiSVBTTlBnaHfSAbABQVVfeXFMUDJzX0I2REN4Nks1YmhVbXZCX3J0RHR5NW55UzMzdW91MHFCWGhDejJBcTJaWUhIT3lKWHZBOHlLWUt4SGEzVlByVTJ6cC03Wk5JNmZ3RXBHN2d2QzlhZXFacG1SVkNQMWdDMmNLelJNeUlTQVFxNGtvSjBzcXJjcFlLcXA3QnVvOVVjYkdEM1gzWm02bVJvejMwSE1zNm1Lbl8waS13bFo1ZGFkM3N2NjA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1145
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Allies",
-      "headline": "Diplomacy Stalls Amidst Retaliatory Strikes",
-      "summary": "The US continues diplomatic efforts in Doha to de-escalate tensions and secure shipping routes in the Strait of Hormuz, while responding to Iranian military actions. Efforts are also underway with Gulf allies to establish alternative shipping routes.",
-      "tone": "strained",
-      "latestSinceUpdate": 1133
-    },
-    {
-      "perspective": "Iran",
-      "headline": "Sovereignty and Readiness for Conflict",
-      "summary": "Iran asserts its control over the Strait of Hormuz, rejecting external intervention, and declares readiness for war while engaging in talks. The Revolutionary Guards claim successful retaliatory strikes against US military sites.",
+      "perspective": "Iran's Defiance",
+      "headline": "Tehran Rejects Intervention, Warns of Forceful Response",
+      "summary": "Iran maintains a defiant stance, rejecting third-party intervention in Hormuz and warning of a 'forceful response' to any US 'miscalculation'. Its top negotiator asserts the country is ready for war despite ongoing peace talks.",
       "tone": "defiant",
-      "latestSinceUpdate": 1133
+      "latestSinceUpdate": 1145
     },
     {
-      "perspective": "Regional Stability",
-      "headline": "Escalation Risk High as Talks Fail",
-      "summary": "The failure of Doha talks to achieve a breakthrough, coupled with continued military engagements involving the US, Iran, and Israel, signals a high risk of further regional escalation. The situation in the Strait of Hormuz remains a critical flashpoint.",
+      "perspective": "US/Israel Military Action",
+      "headline": "US and Israel Conduct Strikes Amid Regional Tensions",
+      "summary": "The US has conducted strikes in Iran following threats, while Israel also reports strikes within Iran. Israel's PM states the IDF will not withdraw from south Lebanon as long as Hezbollah remains present.",
+      "tone": "strained",
+      "latestSinceUpdate": 1145
+    },
+    {
+      "perspective": "Strait of Hormuz Security",
+      "headline": "Hormuz Tensions Escalate with Warnings and Seizures",
+      "summary": "Iran has issued warnings to oil tankers regarding approved routes in the Strait of Hormuz, with reports of seized ships and stranded tankers. Saudi Arabia has increased oil shipments through the strait amidst the heightened security concerns.",
       "tone": "anxious",
-      "latestSinceUpdate": 1133
+      "latestSinceUpdate": 1145
+    },
+    {
+      "perspective": "Regional Diplomatic Strain",
+      "headline": "Peace Talks Inch Along Amid US-Saudi Rift",
+      "summary": "Peace talks between Iran and the US are progressing slowly, while the ongoing conflict is creating a wedge between the US and Saudi Arabia. Qatar's Emir is involved in discussions regarding Iran and a Lebanon ceasefire.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 1145
     }
   ]
 });

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1144,
-  "lastUpdated": "2026-07-02",
-  "lastSyncedAt": "2026-07-02T23:47:47.651Z",
-  "warDay": 125,
+  "updateSequence": 1145,
+  "lastUpdated": "2026-07-03",
+  "lastSyncedAt": "2026-07-03T01:20:17.362Z",
+  "warDay": 126,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "No active ceasefire is reported; discussions are ongoing but conflict persists."
+    "summary": "No general ceasefire is active, though discussions for a Lebanon ceasefire are ongoing and a framework agreement exists but is viewed as unstable."
   }
 }
