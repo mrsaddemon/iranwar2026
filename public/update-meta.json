@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1146,
+  "updateSequence": 1147,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T05:01:42.739Z",
+  "lastSyncedAt": "2026-07-03T08:18:12.031Z",
   "warDay": 126,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 5,
-    "summary": "While a ceasefire is reported to hold in the Strait of Hormuz, broader military engagements between the US, Israel, and Iran persist."
+    "summary": "Despite ongoing diplomatic efforts in Qatar and discussions regarding a Lebanon ceasefire, no active ceasefire is in effect amidst escalating regional conflict."
   }
 }
