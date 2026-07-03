@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1149,
+  "updateSequence": 1150,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T13:02:03.392Z",
+  "lastSyncedAt": "2026-07-03T15:18:07.126Z",
   "warDay": 126,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 5,
-    "summary": "Diplomatic efforts are underway in Qatar to discuss Iran and a Lebanon ceasefire, but no active ceasefire is reported."
+    "summary": "Diplomatic talks in Qatar are reportedly making progress on a potential ceasefire, but direct military actions continue."
   }
 }
