@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1147,
+  "updateSequence": 1148,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T08:18:12.031Z",
+  "lastSyncedAt": "2026-07-03T11:02:22.631Z",
   "warDay": 126,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 5,
-    "summary": "Despite ongoing diplomatic efforts in Qatar and discussions regarding a Lebanon ceasefire, no active ceasefire is in effect amidst escalating regional conflict."
+    "summary": "No active ceasefire is in effect, though diplomatic talks in Qatar are reportedly making positive progress."
   }
 }

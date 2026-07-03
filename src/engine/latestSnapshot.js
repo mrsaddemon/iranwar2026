@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1147,
+  "updateSequence": 1148,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T08:18:12.031Z",
+  "lastSyncedAt": "2026-07-03T11:02:22.631Z",
   "warDay": 126,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Direct military exchanges between the US, Israel, and Iran continue amidst diplomatic efforts in Qatar, while Iran issues warnings regarding the Strait of Hormuz and regional stability.",
   "lastNarrativeUpdate": "2026-07-03",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 5,
-    "summary": "Despite ongoing diplomatic efforts in Qatar and discussions regarding a Lebanon ceasefire, no active ceasefire is in effect amidst escalating regional conflict."
+    "summary": "No active ceasefire is in effect, though diplomatic talks in Qatar are reportedly making positive progress."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
     "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,35 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 02",
-      "text": "Iran issues fresh warning regarding the Strait of Hormuz.",
+      "text": "Iran issues fresh warning on the Strait of Hormuz, threatening a 'decisive response' to any US 'miscalculation'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1147
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1148
     },
     {
       "date": "Jul 02",
-      "text": "Qatar reports 'positive progress' in US-Iran talks.",
+      "text": "Qatar reports 'positive progress' made in US-Iran talks, indicating ongoing diplomatic efforts.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQakhqNnAxbU5jRHlxU2lyTnRvZzRsSHlFbzhacWVQT0VsMU5hajRCT1FTLUdDclpsWnRjc1ByRTZFUXNJOTBWS1dpTUZnZXIzYVFLbF9QenlsQTI3N2JZYmJWNk1FT0hkaHQ1QzRKRUhsaHdmX0RzUXNfOFJUMEwzT0JPaG52N3JyYlN3MFp3ZEtTOXhFcXdTQjNQZVFfTnJPcjdIVzVidWlieC1SenpzSkVOa2htSUVibzE2cdIBwgFBVV95cUxOWjBpbVVadl82Q01hbXl3eHBBOTM1ZkoyRVktbWtYWWJpd0lER1B0REw1bGE1U0ZzWGJTVnJlVy0zTkFFajloUTM4Wmk0N0xONWdoUG9fTzhjXzI3Umg2WlgwRGozM0ptYWFIeGZVU1hZQmtxOEZfdTBhcThXUm9CQ2xkNzdLR1pvcDB1RmgxME9YRlotczIwNmVhOTJvcFQ3eGJtRl9EVmVYd0YtRmhJa1VWMk45cjFXZW5kMDBfSENHQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1147
-    },
-    {
-      "date": "Jul 02",
-      "text": "Iran warns the US and Israel against attacking during the leader's funeral.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1147
-    },
-    {
-      "date": "Jul 02",
-      "text": "Iran states it targeted an American base following fresh US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1147
+      "latestSinceUpdate": 1148
     },
     {
       "date": "Jul 02",
@@ -100,11 +84,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 02",
-      "text": "The US hits Iran after a threat from Trump to respond to Gulf fire.",
+      "text": "Iran says it targeted an American base after fresh US strikes, escalating direct military confrontation.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1147
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1148
+    },
+    {
+      "date": "Jul 02",
+      "text": "Iran warns the US and Israel not to attack during the leader's funeral, reiterating its readiness for war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1148
+    },
+    {
+      "date": "Jul 02",
+      "text": "BBC reports from a boat in the Strait of Hormuz, observing seized ships and stranded tankers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE42dUxMYmFpQjNySU51OVhzWDBjUy1YUURIRlhNQm9ZZHE2aGEwaHhaY1oxQ1JrMzJFNVFHVThrY1gtaHo3bTJWUEJ3ZGRpWFR1RzhxZU9oNA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1148
     }
   ],
   "sourceStatuses": [
