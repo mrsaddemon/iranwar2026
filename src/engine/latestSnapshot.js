@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1150,
+  "updateSequence": 1151,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T15:18:07.126Z",
+  "lastSyncedAt": "2026-07-03T16:47:28.010Z",
   "warDay": 126,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Ongoing conflict between Iran, the US, and Israel continues with mutual strikes, warnings regarding the Strait of Hormuz, and diplomatic efforts making limited progress.",
   "lastNarrativeUpdate": "2026-07-03",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "Diplomatic talks in Qatar are reportedly making progress on a potential ceasefire, but direct military actions continue."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and war warnings."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 02",
-      "text": "Iran issues fresh warning on the Strait of Hormuz amidst ongoing tensions.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1150
+      "text": "Iran issues fresh warning regarding the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1151
     },
     {
       "date": "Jul 02",
-      "text": "Israel conducts strikes in Iran, as confirmed by the IDF.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1150
-    },
-    {
-      "date": "Jul 02",
-      "text": "Iran states it targeted an American base following fresh US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1150
-    },
-    {
-      "date": "Jul 02",
-      "text": "Qatar talks make 'positive progress' regarding the conflict and a potential Lebanon ceasefire.",
+      "text": "Qatar-mediated talks show positive progress.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1150
+      "latestSinceUpdate": 1151
     },
     {
       "date": "Jul 02",
-      "text": "Iran's top negotiator declares the country is ready for war as peace talks continue.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQaGFGOW1UbXp6UGVFUm9OallVbzEweHphTnF1cFNoOFp0OS0xX2NlUVdnc1VvUWZTdW9qZDV0QXhRcXJVaG1SRzlvbUpiSmFjRER1UzUyTlZnNlhZVWw5Umh1ZkxtSW1aOC1xbHdvTFVpejlRYk1JUGZCdXZuVUJQT0tjcGZkcDI5Rmt4TTUzQXNMR1d3NGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1150
+      "text": "Israel conducts strikes within Iran, according to IDF.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1151
     },
     {
       "date": "Jul 02",
-      "text": "The US evaluates moving CENTCOM forces and naval assets to Israel.",
+      "text": "Iran claims to have targeted an American base following US strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9UX2t0V3ZoNHlLbHNGNnBMT2JwYVY1TURaWFFYSS0xNFRNMjQ4LW5wLTRibHd1SzkzUGpYVkgyNmdDNkJwUzJ1SnNHSW5FMHlMYzNKeW9oTUFXUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1151
+    },
+    {
+      "date": "Jul 02",
+      "text": "Iran warns US and Israel against attacks during the leader's funeral.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE41Y2VKUTFZMlF1anJWTkpKU2gxNnd2cTFDOXlheEJXX2tvY0E1UFBLSVJ5Z3BKTVpZZGpvZUs3WE11R0NTUmFoWFlBZDRjZnBtYVduY19JcUhtcWpv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1150
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1151
+    },
+    {
+      "date": "Jul 02",
+      "text": "BBC reports seized ships and stranded tankers in Iran near the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE14TnVGLUx0cXBxUkZpUV96QVNJS05iN0Q2RUcyTGtWdGtTSTgzVmJQNVFlSnh4d1VQcHdjZ0hSMF9tUWp1RjFfVkhSb0tBRkZ2Skd6TDdSTmwxZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1151
     }
   ],
   "sourceStatuses": [

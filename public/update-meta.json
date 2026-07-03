@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1150,
+  "updateSequence": 1151,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T15:18:07.126Z",
+  "lastSyncedAt": "2026-07-03T16:47:28.010Z",
   "warDay": 126,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 5,
-    "summary": "Diplomatic talks in Qatar are reportedly making progress on a potential ceasefire, but direct military actions continue."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and war warnings."
   }
 }
