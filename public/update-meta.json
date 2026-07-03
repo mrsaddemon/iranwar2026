@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1145,
+  "updateSequence": 1146,
   "lastUpdated": "2026-07-03",
-  "lastSyncedAt": "2026-07-03T01:20:17.362Z",
+  "lastSyncedAt": "2026-07-03T05:01:42.739Z",
   "warDay": 126,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 5,
-    "summary": "No general ceasefire is active, though discussions for a Lebanon ceasefire are ongoing and a framework agreement exists but is viewed as unstable."
+    "summary": "While a ceasefire is reported to hold in the Strait of Hormuz, broader military engagements between the US, Israel, and Iran persist."
   }
 }
