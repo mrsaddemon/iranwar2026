@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1161,
+  "updateSequence": 1162,
   "lastUpdated": "2026-07-04",
-  "lastSyncedAt": "2026-07-04T10:21:24.575Z",
+  "lastSyncedAt": "2026-07-04T11:48:49.630Z",
   "warDay": 127,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 5,
-    "summary": "No active ceasefire is reported amidst ongoing military exchanges between the US, Iran, and Israel."
+    "summary": "No active ceasefire is in effect, with military actions and threats continuing between involved parties."
   }
 }

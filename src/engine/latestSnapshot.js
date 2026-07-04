@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1161,
+  "updateSequence": 1162,
   "lastUpdated": "2026-07-04",
-  "lastSyncedAt": "2026-07-04T10:21:24.575Z",
+  "lastSyncedAt": "2026-07-04T11:48:49.630Z",
   "warDay": 127,
-  "summary": "The US and Iran have exchanged strikes amidst the funeral of Iran's leader, while Israel intensifies operations in southern Lebanon and conducts strikes in Iran, with diplomatic discussions continuing in Qatar.",
+  "summary": "Ongoing military exchanges between the US, Iran, and Israel continue amidst diplomatic discussions, heightened tensions around the Strait of Hormuz, and the funeral of Iran's leader.",
   "lastNarrativeUpdate": "2026-07-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 5,
-    "summary": "No active ceasefire is reported amidst ongoing military exchanges between the US, Iran, and Israel."
+    "summary": "No active ceasefire is in effect, with military actions and threats continuing between involved parties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
@@ -36,17 +36,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
     "globalPressure": 82,
     "allianceInfluence": 51
   },
@@ -61,50 +61,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Jul 02",
       "text": "Day one of Khamenei funeral ends, Israel bombs Lebanon.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQZ0xNSk5zYk8xX2d2LUVtRHYzMFVlNHpLcm80OXBwbnNXam12MWREWUh2Rl9MSWpPVFEwc0xqVk9VNGgxc2RWR1diSWIySk1uY3lncmpQLTV3ak1RYWFDVHZsYWdJV0VCdDVTRkpzZ2wzZXFLN2dxN1JOZkJucVdOX3hvbEQ1UmE3emhoVmxjdjNQUVlLbHBhQzhURnRQQU1NSmhZbGY4ZHp5YkMzV2dMYzVscnA2QWt10gG-AUFVX3lxTE9ZX3BIdmRlRWswdTRDVllmRW9ZTWtLRHRMeVlKc1MtYi0yX2k5VXFfVUdodFBzbHlZLUx4Q1h5NFJNSXM4ZXJkWmNxOEc1ODFrS0JpZ2t6M3hNeXNDWFV4ak9LYU5EdnB0UFZCS3JTbndyektUajdobGdocC1SOGkwdXhPTGdDQ2c1RS1CVVp2dnJybjVIc0VzclBqbng2b1V5TTVCeEh0SlNGQWpHY1hfSnRyMDZjcTl5d0RYNHc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1161
     },
     {
-      "date": "Jul 04",
+      "date": "Recent",
       "text": "US and Iran hold separate meetings in Qatar and agree to continue discussions.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOQ2lQSWQwRDQ4OFduMjN6LWJ6N0Q3VWQ2bTNDSGk3NzcyM01FYlBPd1ozSTgzM056VnZEck1UR2VvbE96dkZocFZ1cmNjS3NyOENOWlJJbDg0eHVmelg5NlZyQ0l2dTZPZW8zb0RzUGJRUnI0VFk5Q1dyZ0plQk1wQXR3STBEVHVWa1JoUE9qd0xGT2Jza2J0YzhHX1ljaHRkTXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1161
+      "latestSinceUpdate": 1162
     },
     {
-      "date": "Jul 04",
-      "text": "Iran warns US and Israel not to attack during leader's funeral, threatening a 'decisive response' to any 'miscalculation'.",
+      "date": "Recent",
+      "text": "Tehran warns of 'decisive response' to any US 'miscalculation' and 'harsh retaliation' before Khamenei funeral.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1161
+      "latestSinceUpdate": 1162
     },
     {
-      "date": "Jul 04",
+      "date": "Recent",
       "text": "US hits Iran after Trump threat to respond to Gulf fire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1161
+      "latestSinceUpdate": 1162
     },
     {
-      "date": "Jul 04",
+      "date": "Recent",
       "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1161
+      "latestSinceUpdate": 1162
     },
     {
-      "date": "Jul 04",
+      "date": "Recent",
       "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1161
+      "latestSinceUpdate": 1162
     }
   ],
   "sourceStatuses": [
