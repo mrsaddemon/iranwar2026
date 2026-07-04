@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1170,
+  "updateSequence": 1171,
   "lastUpdated": "2026-07-04",
-  "lastSyncedAt": "2026-07-04T21:09:16.226Z",
+  "lastSyncedAt": "2026-07-04T22:13:43.684Z",
   "warDay": 127,
-  "summary": "US, Iran, and Israel are engaged in active military exchanges, with significant focus on the Strait of Hormuz and regional stability, while diplomatic efforts are also underway.",
+  "summary": "Direct military exchanges between the US, Iran, and Israel continue, alongside heightened tensions and diplomatic efforts regarding the Strait of Hormuz and regional stability.",
   "lastNarrativeUpdate": "2026-07-04",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 6,
-    "summary": "No active ceasefire is reported amidst ongoing military exchanges and regional tensions."
+    "summary": "No widespread ceasefire is active, though limited diplomatic talks are ongoing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.65,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 25,
+    "escalationLevel": 88,
+    "oilDisruption": 75,
+    "tradeImpact": 70,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 82,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "July 2",
-      "text": "Iran issues fresh warning on Hormuz, Qatar talks make ‘positive progress’.",
+      "date": "Jul 02",
+      "text": "Iran issues a fresh warning of a 'decisive response' to any US 'miscalculation' and on the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1171
+    },
+    {
+      "date": "Jul 02",
+      "text": "Qatar talks make 'positive progress' amidst regional tensions.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1170
+      "latestSinceUpdate": 1171
     },
     {
-      "date": "Recent",
-      "text": "U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz.",
+      "date": "Jul 04",
+      "text": "US officials report progress on an arrangement to reopen the Strait of Hormuz, while Iran remains unbudging on US incentives.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1fcnhwNnhKV0lpWUV1WGdIUkltT1RpQXBKTnk5T05IRmpBcXZoc1dxcjkxVWNmWnVHVGk2LWlVYWMzTmRUS0tydERZRlRtdjFWbGJTa1ktMXcwRTU1MDdRMXFDVzAzb0VHLVhfMXd4STVvRDMyeGRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1169
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1171
     },
     {
-      "date": "Recent",
-      "text": "Iran Targets Neighbors as U.S. Condemns ‘Aggressive’ Strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1169
-    },
-    {
-      "date": "Recent",
-      "text": "Israel conducts strikes in Iran, IDF says.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1169
-    },
-    {
-      "date": "Recent",
-      "text": "US hits Iran after Trump threat to respond to Gulf fire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1170
-    },
-    {
-      "date": "Recent",
-      "text": "US and Iran exchange strikes as Israel intensifies attacks on southern Lebanon.",
+      "date": "Jul 04",
+      "text": "Iran targets neighbors with strikes, drawing condemnation from the U.S. for 'aggressive' actions.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1170
+      "latestSinceUpdate": 1171
+    },
+    {
+      "date": "Jul 04",
+      "text": "Israel conducts strikes in Iran, and the IDF shells Hezbollah sites in southern Lebanon after a soldier is injured.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1171
+    },
+    {
+      "date": "Jul 04",
+      "text": "The US and Iran exchange strikes following a Trump threat to respond to Gulf fire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1171
     }
   ],
   "sourceStatuses": [
