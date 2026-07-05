@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1184,
+  "updateSequence": 1185,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T21:13:07.905Z",
+  "lastSyncedAt": "2026-07-05T22:15:15.964Z",
   "warDay": 128,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 1,
-    "summary": "No formal ceasefire is active, though a temporary de-escalation of threats between Israel and Iran was reported."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.81,
+    "durationDays": 60,
+    "summary": "A Memorandum of Understanding for a 60-day truce between the US and Iran has been reached, pending US presidential approval, amidst ongoing regional hostilities."
   }
 }
