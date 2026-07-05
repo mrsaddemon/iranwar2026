@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1185,
+  "updateSequence": 1186,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T22:15:15.964Z",
+  "lastSyncedAt": "2026-07-05T23:30:14.211Z",
   "warDay": 128,
-  "summary": "Ongoing military exchanges between the US, Iran, and Israel continue amidst the funeral of Iran's leader, while a potential 60-day truce between the US and Iran is under consideration.",
+  "summary": "Ongoing regional conflicts involve Israel striking Lebanon and Iran, and the US exchanging strikes with Iran, amidst the funeral of Ali Khamenei and a proposed 60-day US-Iran truce, while OPEC+ increases oil output.",
   "lastNarrativeUpdate": "2026-07-05",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce between the US and Iran has been reached, pending US presidential approval, amidst ongoing regional hostilities."
+    "summary": "A Memorandum of Understanding for a 60-day truce between the US and Iran has been reached, pending approval, amidst ongoing regional conflicts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.65
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
+    "oilDisruption": 35,
+    "tradeImpact": 26,
     "sanctionsPressure": 54,
-    "globalPressure": 61,
-    "allianceInfluence": 46
+    "globalPressure": 56,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 05",
-      "text": "Day one of Ali Khamenei's funeral concludes in Tehran, with millions expected to attend, as Israel conducts strikes in Lebanon.",
-      "severity": "warning",
+      "text": "Day one of Ali Khamenei's funeral concludes in Iran, with millions expected to attend.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1186
+    },
+    {
+      "date": "Jul 05",
+      "text": "Israel conducts strikes in Lebanon and Iran, with the IDF confirming operations.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1185
+      "latestSinceUpdate": 1186
     },
     {
       "date": "Jul 05",
-      "text": "US and Iran exchange strikes, with the US bombing Iranian military sites and downing missiles fired at troops in Kuwait, while Israel intensifies attacks on southern Lebanon.",
+      "text": "US bombs Iranian military sites and downs missiles fired by Tehran at troops in Kuwait.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1185
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOMjVJLWNwc3ZkX1R2NDY0emhqYW1SUVFZd3FJNEVZcFBJcGJ2aFFrdUNOTEV6dzdVNUkyZmE1S3NjTXk1RmwwODhTRTgyeFJlMjIwMTA0VEZGVWl5N3p6YmFjM1RBWXl0UjhXTjNUdEM1SHlfOG5ZcEVOZUdLZDBpcWN2UFNTeFhNZXpLeW9MMjFrLXpjak9J?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1186
     },
     {
       "date": "Jul 05",
-      "text": "The Strait of Hormuz has reopened, leading OPEC and allies to agree on a fresh August oil output hike as traffic recovers.",
+      "text": "Iran warns the US and Israel against attacks during the leader's funeral.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1186
+    },
+    {
+      "date": "Jul 05",
+      "text": "OPEC+ agrees to a fresh August oil output hike as Strait of Hormuz traffic starts recovering.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi9AFBVV95cUxPeEZPOUh0ZE10UjQ1VFVDWmpMakVEQl9oTWRWSUxSZ1lsUkNMa3hHM21iQUc5enZqd21USm9JWk5wbUpSRDFISnY4NHdSenU5ME1HRHNmaTV5dHQ0ekkzRnFYcEJiWlg3MUwzVW9ibVo4MTFObmNhaXcyNkNFRlpyNk9JRG1kV21Cci1Dd19nNW4tUm5SeVlZYzJpSWxTWHpLZUVCNTJNOHJSM2w2WExVVTdjZl9PRjZCNDJ3eDROZXc5SXE5b1dzem5saWpXUV9DYTZ3TmVfdWR0WUhfZVJQRU5FdmVwNlJEd0dRNmw4amdIR0Y20gH6AUFVX3lxTE0yeGc0TDhJTDVqNnp1eGlQRHlUcFY5Q3VUcktZNlFhMlhGOVZzZ1dndGJlc2QtMldINVpKdUFMUjZKWF80ZlFFOG9INEdRbldFazFvRnp0cW9BRi1nQjk3dUd6Zll1OTNCZHFjV1prU1Jnb3pOWFpPQzJ5eUQ4NFM5LUZjVmVDREdXS2hRMW5pWkNaUFltdVhFOWtYMHBvckNVN2hGMmxpYy0xNW1yZm1QM0o4bTJ6bEJaaVl2MlJMSUt0ZjBpSktXeUdwOXBmWGF0TjFMUUJ2cFdrTTBmbDdKRjlYWTUtQVFwM2lIMkNncUxIWkpzN3RYQkE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of India",
-      "latestSinceUpdate": 1185
+      "latestSinceUpdate": 1186
     },
     {
       "date": "Jul 05",
-      "text": "Israel's IDF Chief states control over Hezbollah's tunnel network beneath Beaufort Ridge, as shells target Hezbollah sites after a soldier was injured.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1185
-    },
-    {
-      "date": "Jul 05",
-      "text": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, pending approval from the US President.",
+      "text": "US and Iran reach a Memorandum of Understanding on a 60-day truce, pending Trump's approval.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1185
+      "latestSinceUpdate": 1186
     }
   ],
   "sourceStatuses": [
