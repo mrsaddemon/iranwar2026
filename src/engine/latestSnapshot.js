@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1172,
-  "lastUpdated": "2026-07-04",
-  "lastSyncedAt": "2026-07-04T23:16:38.823Z",
-  "warDay": 127,
-  "summary": "The conflict involving Iran, the US, and Israel continues with direct strikes, warnings regarding the Strait of Hormuz, and ongoing diplomatic efforts.",
-  "lastNarrativeUpdate": "2026-07-04",
+  "updateSequence": 1173,
+  "lastUpdated": "2026-07-05",
+  "lastSyncedAt": "2026-07-05T00:15:20.950Z",
+  "warDay": 128,
+  "summary": "Tensions remain high in the Middle East with ongoing military actions between Israel and Iran, US responses, and continued disputes over the Strait of Hormuz, while regional diplomatic efforts are underway in Lebanon and Syria.",
+  "lastNarrativeUpdate": "2026-07-05",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 6,
-    "summary": "No active ceasefire is reported amidst ongoing hostilities and threats."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 65,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 04",
-      "text": "Tehran warns of a ‘decisive response’ to any US ‘miscalculation’.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1172
-    },
-    {
       "date": "Jul 02",
-      "text": "Iran issues a fresh warning on Hormuz, while Qatar talks show ‘positive progress’.",
+      "text": "Iran issues fresh warnings on the Strait of Hormuz and to the US/Israel, while Qatar talks reportedly make 'positive progress'.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1172
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1173
     },
     {
-      "date": "Jul 04",
-      "text": "U.S. officials are reportedly closing in on an arrangement to reopen the Strait of Hormuz.",
+      "date": "Recent",
+      "text": "Israel conducts strikes in Iran, followed by US retaliatory strikes after a Trump threat to respond to Gulf fire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1173
+    },
+    {
+      "date": "Recent",
+      "text": "Tankers U-Turn in the Strait of Hormuz, with some taking an Iran route, as US efforts to reopen the strait are met with Iranian resistance.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1173
+    },
+    {
+      "date": "Recent",
+      "text": "The US evaluates moving CENTCOM forces and naval assets to Israel following the Iran conflict.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE41Y2VKUTFZMlF1anJWTkpKU2gxNnd2cTFDOXlheEJXX2tvY0E1UFBLSVJ5Z3BKTVpZZGpvZUs3WE11R0NTUmFoWFlBZDRjZnBtYVduY19JcUhtcWpv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1173
+    },
+    {
+      "date": "Recent",
+      "text": "Lebanon shows signs of turning against Hezbollah, with a deal focused on dismantling the group, while Syria signals diplomacy.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1172
-    },
-    {
-      "date": "Jul 04",
-      "text": "Tehran warns the US and Israel not to attack during a leader's funeral.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1172
-    },
-    {
-      "date": "Jul 04",
-      "text": "Iran targets neighbors with strikes, drawing condemnation from the U.S.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1172
-    },
-    {
-      "date": "Jul 04",
-      "text": "Israel conducts strikes in Iran, according to the IDF.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1172
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1173
     }
   ],
   "sourceStatuses": [
@@ -139,32 +131,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Stance",
-      "headline": "Hormuz Sovereignty & Diplomatic Leverage",
-      "summary": "Iran asserts its right to control the Strait of Hormuz, issuing warnings against US 'miscalculation' while engaging in diplomatic talks in Qatar and proposing a fee plan for passage. Tehran views US actions as provocative but also seeks negotiated solutions.",
+      "perspective": "Iran's Defiance",
+      "headline": "Tehran Warns of Decisive Response, Maintains Hormuz Stance",
+      "summary": "Tehran issues strong warnings against US and Israeli military actions, asserting its right to respond decisively to any miscalculation and maintaining its stance on the Strait of Hormuz despite international pressure.",
       "tone": "defiant",
-      "latestSinceUpdate": 1158
+      "latestSinceUpdate": 1173
     },
     {
-      "perspective": "US Strategy",
-      "headline": "De-escalation Efforts Amidst Retaliatory Strikes",
-      "summary": "The US seeks arrangements to reopen the Strait of Hormuz and sends envoys for talks, indicating a desire for de-escalation. However, it also conducts retaliatory strikes against Iran and considers moving military assets to Israel, signaling a readiness to respond forcefully.",
+      "perspective": "US/Western Intervention & Diplomacy",
+      "headline": "US Condemns Aggression, Seeks Hormuz Opening, Evaluates Force Posture",
+      "summary": "The US condemns Iranian aggression, conducts retaliatory strikes, and seeks arrangements to reopen the Strait of Hormuz while evaluating military posture, with UK and France also engaging in regional security efforts.",
       "tone": "strained",
-      "latestSinceUpdate": 1158
+      "latestSinceUpdate": 1173
     },
     {
-      "perspective": "Israel's Security",
-      "headline": "Pre-emptive Strikes & Regional Deterrence",
-      "summary": "Israel is actively conducting strikes in Iran and intensifying attacks on Hezbollah in Lebanon, citing security concerns and a persistent drone threat from the Iran-backed group. This reflects a strategy of pre-emption and deterrence against perceived threats.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1158
-    },
-    {
-      "perspective": "Global Shipping",
-      "headline": "Choke Point Crisis & Stranded Sailors",
-      "summary": "The Strait of Hormuz remains a critical choke point with seized ships and stranded tankers, prompting international efforts to rescue sailors and address the ongoing disruption to global shipping. The situation highlights the vulnerability of maritime trade routes.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1158
+      "perspective": "Regional Realignment",
+      "headline": "Lebanon Turns Against Hezbollah Amidst Syrian Diplomatic Signals",
+      "summary": "Lebanon shows signs of turning against Hezbollah, with a deal focused on dismantling the group, while Syria signals a preference for diplomacy amidst regional complications involving Israel and Hezbollah.",
+      "tone": "neutral",
+      "latestSinceUpdate": 1173
     }
   ]
 });
