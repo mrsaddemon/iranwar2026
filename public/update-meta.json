@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1180,
+  "updateSequence": 1181,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T15:55:20.083Z",
+  "lastSyncedAt": "2026-07-05T17:22:10.818Z",
   "warDay": 128,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 1,
-    "summary": "Despite a recent step back from threats, no formal ceasefire or de-escalation agreement is in effect between the involved parties."
+    "summary": "No active ceasefire is in effect, with direct military exchanges continuing between involved parties."
   }
 }
