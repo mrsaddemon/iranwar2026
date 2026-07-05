@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1179,
+  "updateSequence": 1180,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T14:49:55.764Z",
+  "lastSyncedAt": "2026-07-05T15:55:20.083Z",
   "warDay": 128,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "No formal ceasefire is in effect, but both Israel and Iran have reportedly stepped back from immediate threats following a day of direct military exchanges."
+    "summary": "Despite a recent step back from threats, no formal ceasefire or de-escalation agreement is in effect between the involved parties."
   }
 }
