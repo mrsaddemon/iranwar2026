@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1176,
+  "updateSequence": 1177,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T09:57:28.529Z",
+  "lastSyncedAt": "2026-07-05T11:42:32.810Z",
   "warDay": 128,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 3,
-    "summary": "A fragile ceasefire is reported to be in effect in the Strait of Hormuz, despite ongoing regional military exchanges."
+    "summary": "No active ceasefire is in place, though rhetoric between Israel and Iran has temporarily de-escalated after recent tensions."
   }
 }
