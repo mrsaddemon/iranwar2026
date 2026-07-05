@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1174,
+  "updateSequence": 1175,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T04:33:49.684Z",
+  "lastSyncedAt": "2026-07-05T07:44:31.950Z",
   "warDay": 128,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 6,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.7,
+    "durationDays": 1,
+    "summary": "A fragile ceasefire is reported in the Strait of Hormuz, though broader regional tensions persist."
   }
 }
