@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1177,
+  "updateSequence": 1178,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T11:42:32.810Z",
+  "lastSyncedAt": "2026-07-05T12:55:58.756Z",
   "warDay": 128,
-  "summary": "The region remains highly volatile following the funeral of Iran's Supreme Leader Ali Khamenei, marked by continued direct strikes between the US, Israel, and Iran, and heightened tensions around the Strait of Hormuz and southern Lebanon.",
+  "summary": "Following the funeral of Ali Khamenei, direct military exchanges occurred between the US, Israel, and Iran, alongside heightened tensions in the Strait of Hormuz, while a fragile ceasefire is reported.",
   "lastNarrativeUpdate": "2026-07-05",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
-    "durationDays": 3,
-    "summary": "No active ceasefire is in place, though rhetoric between Israel and Iran has temporarily de-escalated after recent tensions."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
+    "durationDays": 1,
+    "summary": "A fragile ceasefire is reported in the Strait of Hormuz, and Israel and Iran have stepped back from threats after recent tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.88,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
+    "nuclearIndex": 45,
+    "escalationLevel": 48,
     "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 68,
-    "globalPressure": 87,
-    "allianceInfluence": 73
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 02",
-      "text": "Millions expected in Tehran for funeral of Ali Khamenei, with Iran issuing warnings against attacks during the period.",
-      "severity": "warning",
+      "text": "Millions expected in Tehran for funeral of Ali Khamenei.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNREl1YVRDbjhlc2lVdzRGTVpWdXpKc3FDaERlUkh1ajRrVllZazM4WW8yZ2QwZEU3QlZnNXlVT0ZCNmFpOTRoQ0lPejRuSzdCb25FbFcxV0lWMDNoYXpQSXdOVXhPREp0OUZZbko1ZzVwYTlxMDNiU3pwSkt1dDBkZDJKOGYxMXhSUWNpNmIybXlxU3drMzNCS3FYQThmNE1GRlM0ZWNNYUtubzdIbXZqQWRrbnkzSmRNRlHSAb8BQVVfeXFMTjRTWWZva1RnMDg4U1EwSXk0X0VLdHB0NlFWdXVPcnhsd0VsVHNYV3lVWkVxYzZUbW5KcHVmOWwzRHlGbnJxMjdaYVk1S1o4T3ltSVNmQURJeDF5VUozVlR0Q0dKVkd6SG9VZHdBWlo0MER2VUVCV1pOb0stU3B6ano2eUlXS3ZIZ1hzRkd4T091MTAxdWZseDhtYVBoUlljNXFXLUp1UWtuUEdXTDg4MWVsNTFHQ1VRS1R3SVRKSEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1177
+      "latestSinceUpdate": 1178
     },
     {
       "date": "Jul 02",
-      "text": "Iran issues fresh warning on Hormuz Strait, while Qatar talks reportedly make positive progress.",
+      "text": "Iran issues fresh warning on Hormuz, Qatar talks make ‘positive progress’.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1177
+      "latestSinceUpdate": 1178
     },
     {
       "date": "Jul 02",
-      "text": "Israel conducts strikes in Lebanon as day one of Khamenei's funeral concludes.",
+      "text": "Day one of Khamenei funeral ends, Israel bombs Lebanon.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1177
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQZ0xNSk5zYk8xX2d2LUVtRHYzMFVlNHpLcm80OXBwbnNXam12MWREWUh2Rl9MSWpPVFEwc0xqVk9VNGgxc2RWR1diSWIySk1uY3lncmpQLTV3ak1RYWFDVHZsYWdJV0VCdDVTRkpzZ2wzZXFLN2dxN1JOZkJucVdOX3hvbEQ1UmE3emhoVmxjdjNQUVlLbHBhQzhURnRQQU1NSmhZbGY4ZHp5YkMzV2dMYzVscnA2QWt10gG-AUFVX3lxTE9ZX3BIdmRlRWswdTRDVllmRW9ZTWtLRHRMeVlKc1MtYi0yX2k5VXFfVUdodFBzbHlZLUx4Q1h5NFJNSXM4ZXJkWmNxOEc1ODFrS0JpZ2t6M3hNeXNDWFV4ak9LYU5EdnB0UFZCS3JTbndyektUajdobGdocC1SOGkwdXhPTGdDQ2c1RS1CVVp2dnJybjVIc0VzclBqbng2b1V5TTVCeEh0SlNGQWpHY1hfSnRyMDZjcTl5d0RYNHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1178
     },
     {
       "date": "Jul 03",
-      "text": "Iran targets neighboring countries with strikes, drawing condemnation from the U.S. for aggressive actions.",
-      "severity": "critical",
+      "text": "Tehran warns US and Israel not to attack during leader's funeral.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1177
+      "latestSinceUpdate": 1178
     },
     {
       "date": "Jul 03",
-      "text": "Israel conducts strikes inside Iran, as confirmed by the IDF.",
+      "text": "Iran Targets Neighbors as U.S. Condemns ‘Aggressive’ Strikes.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1177
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1178
     },
     {
-      "date": "Jul 04",
-      "text": "US and Iran exchange strikes, while Israel intensifies attacks on southern Lebanon.",
+      "date": "Jul 03",
+      "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1177
+      "latestSinceUpdate": 1178
     }
   ],
   "sourceStatuses": [
