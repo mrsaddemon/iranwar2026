@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1178,
+  "updateSequence": 1179,
   "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T12:55:58.756Z",
+  "lastSyncedAt": "2026-07-05T14:49:55.764Z",
   "warDay": 128,
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.3,
     "durationDays": 1,
-    "summary": "A fragile ceasefire is reported in the Strait of Hormuz, and Israel and Iran have stepped back from threats after recent tensions."
+    "summary": "No formal ceasefire is in effect, but both Israel and Iran have reportedly stepped back from immediate threats following a day of direct military exchanges."
   }
 }
