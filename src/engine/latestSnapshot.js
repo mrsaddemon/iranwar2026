@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1191,
+  "updateSequence": 1192,
   "lastUpdated": "2026-07-06",
-  "lastSyncedAt": "2026-07-06T16:40:56.075Z",
+  "lastSyncedAt": "2026-07-06T18:33:31.523Z",
   "warDay": 129,
-  "summary": "The region is experiencing heightened tensions with ongoing Israeli strikes in Gaza, Lebanon, and Iran, coinciding with Iran's leadership transition and US warnings regarding Gulf combat readiness.",
+  "summary": "Following the funeral of Iran's leader, Israel conducted strikes in Gaza, Lebanon, and Iran, while the Strait of Hormuz reopened amidst US political debate over military action against Iran.",
   "lastNarrativeUpdate": "2026-07-06",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.55
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.78,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 45,
     "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
+    "oilDisruption": 65,
+    "tradeImpact": 61,
     "sanctionsPressure": 63,
-    "globalPressure": 79,
+    "globalPressure": 78,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 06",
-      "text": "Millions attend the funeral of Iran's leader, Ali Khamenei, in Tehran.",
+      "date": "Jul 04",
+      "text": "Millions attended the funeral of Iran's leader, Ali Khamenei, in Tehran.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNREl1YVRDbjhlc2lVdzRGTVpWdXpKc3FDaERlUkh1ajRrVllZazM4WW8yZ2QwZEU3QlZnNXlVT0ZCNmFpOTRoQ0lPejRuSzdCb25FbFcxV0lWMDNoYXpQSXdOVXhPREp0OUZZbko1ZzVwYTlxMDNiU3pwSkt1dDBkZDJKOGYxMXhSUWNpNmIybXlxU3drMzNCS3FYQThmNE1GRlM0ZWNNYUtubzdIbXZqQWRrbnkzSmRNRlHSAb8BQVVfeXFMTjRTWWZva1RnMDg4U1EwSXk0X0VLdHB0NlFWdXVPcnhsd0VsVHNYV3lVWkVxYzZUbW5KcHVmOWwzRHlGbnJxMjdaYVk1S1o4T3ltSVNmQURJeDF5VUozVlR0Q0dKVkd6SG9VZHdBWlo0MER2VUVCV1pOb0stU3B6ano2eUlXS3ZIZ1hzRkd4T091MTAxdWZseDhtYVBoUlljNXFXLUp1UWtuUEdXTDg4MWVsNTFHQ1VRS1R3SVRKSEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1191
+      "latestSinceUpdate": 1192
     },
     {
       "date": "Jul 06",
-      "text": "Israel conducts strikes in Gaza, Lebanon, and Iran, according to IDF statements and news reports.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1191
-    },
-    {
-      "date": "May 29-30",
-      "text": "US Defense Secretary warns that the US military is ready to resume combat in the Gulf if needed.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1191
-    },
-    {
-      "date": "Jul 06",
-      "text": "Iran targets neighboring countries with strikes, drawing condemnation from the U.S. for 'aggressive' actions.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1191
-    },
-    {
-      "date": "Jul 06",
-      "text": "Concerns rise over shipping safety and strategic leverage in the Strait of Hormuz, with reports of stranded bulkers and departing vessels.",
+      "text": "Israel conducted strikes in Gaza, Lebanon, and Iran, according to IDF statements.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1191
+      "latestSinceUpdate": 1192
     },
     {
       "date": "Jul 06",
-      "text": "Netanyahu states that some Lebanese Christian villages have requested annexation to Israel.",
+      "text": "The Strait of Hormuz has reopened, with oil and gas tankers crossing via an Oman-side route.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPX2ZqYkNDOUdhTWlSNTNoZWRwN3EyR25qbmZpdWQwNTNMbldhcXl1Si00dzRoNXhBbmRtVjdzVWZDYkNqaEU1end4dHdIcHhlakhGRDVQd0lmYnhBdGU2bFVsSGZFbVczalNhY00ySFJBM0tpTHd0MVZMREJBbzJKMkZvc3RKejQ5X3NEalhMdDI5cjJFRGgxaDVwOHdDdFUyclVPU0xsX0J4bEpCN2dsZG9wNG1SMmg5YVA4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1191
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxQd0dLanUtckNSTHJNY2wwUDBkNTFPelVNLXhjblVrT3ZLOUVQQTRBRGc5R01ZWnlWQnFDWklFVG9jVEJ4bGZRU0lFN3prc1BxYUxWZG91d1BOcEdRekF2ZVBrR2pHUFhObGVReUFScG5mOGVTY3NneEpENG5mMG5vN1NCUDdIb0JEUDZzV29OZktuQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fortune",
+      "latestSinceUpdate": 1192
+    },
+    {
+      "date": "Jul 06",
+      "text": "US President Trump stated a preference for a nuclear deal with Iran but warned of military action if US troops are killed.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQQUU5bWxPZGlQXzFKbXg1U2tERVEwY0QtdHcxYWNMbm16dU9QcXk4b0RoRDRUOTdlY3lVcVBTTk83TWg0V1BaWms0ZG1TMXNzX0MybEJkYnFEYkwtMnk0dEY1TENoM1N6dXQ1QjB1dlZFaFVoOHZQNmwwVGF1ZWs5WFBUZ1MxMGpBRGpKS1Q2dlJ3X1FlN3lKdlJtekRfam9BdjFFYno0X3dxM3EtT0dfYkFfVVFTam5NYkgweU82SGJodlpyZ1VlVVV3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1192
+    },
+    {
+      "date": "Jul 06",
+      "text": "The US House of Representatives approved a war powers resolution to halt military action against Iran, rebuking Trump.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPMnR3dXhONnF2YWJ2MDY1TGhPVnJzMVVCRVJ6YzI4MmNGUzI5Mk5La1UxRDEyRmhEbkQxQ0tnVnVQb0lhUlgtNnhOYXBUU1lJREZIamt3SkFjUDh4akxaWU9YWmtUN0llYjN1MzdFM0J6RUJlSXNUekJqaWlxYjhCWDFJREVldkU5aTAyRlJldw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1192
+    },
+    {
+      "date": "Jul 06",
+      "text": "IDF Chief stated Israel controls Hezbollah's tunnel network beneath Beaufort Ridge.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1192
     }
   ],
   "sourceStatuses": [
