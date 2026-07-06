@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1188,
+  "updateSequence": 1189,
   "lastUpdated": "2026-07-06",
-  "lastSyncedAt": "2026-07-06T05:39:18.088Z",
+  "lastSyncedAt": "2026-07-06T09:46:03.071Z",
   "warDay": 129,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, pending US presidential approval."
+    "summary": "No active ceasefire is in effect, despite ongoing diplomatic efforts to de-escalate specific issues."
   }
 }
