@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1186,
-  "lastUpdated": "2026-07-05",
-  "lastSyncedAt": "2026-07-05T23:30:14.211Z",
-  "warDay": 128,
+  "updateSequence": 1187,
+  "lastUpdated": "2026-07-06",
+  "lastSyncedAt": "2026-07-06T01:18:14.267Z",
+  "warDay": 129,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A Memorandum of Understanding for a 60-day truce between the US and Iran has been reached, pending approval, amidst ongoing regional conflicts."
+    "summary": "A 60-day truce MoU has been reached between the US and Iran, but it is pending final approval and recent hostilities indicate fragility."
   }
 }
