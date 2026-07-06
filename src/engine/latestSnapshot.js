@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1187,
+  "updateSequence": 1188,
   "lastUpdated": "2026-07-06",
-  "lastSyncedAt": "2026-07-06T01:18:14.267Z",
+  "lastSyncedAt": "2026-07-06T05:39:18.088Z",
   "warDay": 129,
-  "summary": "Following the funeral of Ali Khamenei, US, Israeli, and Iranian forces engaged in mutual strikes, while a 60-day truce MoU between the US and Iran was announced, and the Strait of Hormuz reopened.",
+  "summary": "Following the funeral of Ali Khamenei, regional tensions persist with Israeli strikes in Lebanon and Iran, while the US and Iran have reached a tentative 60-day truce agreement pending approval, and oil output increases as Strait of Hormuz traffic recovers.",
   "lastNarrativeUpdate": "2026-07-06",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A 60-day truce MoU has been reached between the US and Iran, but it is pending final approval and recent hostilities indicate fragility."
+    "summary": "A Memorandum of Understanding for a 60-day truce has been reached between the US and Iran, pending US presidential approval."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 25,
-    "tradeImpact": 19,
+    "oilDisruption": 30,
+    "tradeImpact": 22,
     "sanctionsPressure": 54,
-    "globalPressure": 54,
+    "globalPressure": 55,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 02",
-      "text": "Millions expected in Tehran for the funeral of Ali Khamenei, with day one concluding as Israel bombs Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNREl1YVRDbjhlc2lVdzRGTVpWdXpKc3FDaERlUkh1ajRrVllZazM4WW8yZ2QwZEU3QlZnNXlVT0ZCNmFpOTRoQ0lPejRuSzdCb25FbFcxV0lWMDNoYXpQSXdOVXhPREp0OUZZbko1ZzVwYTlxMDNiU3pwSkt1dDBkZDJKOGYxMXhSUWNpNmIybXlxU3drMzNCS3FYQThmNE1GRlM0ZWNNYUtubzdIbXZqQWRrbnkzSmRNRlHSAb8BQVVfeXFMTjRTWWZva1RnMDg4U1EwSXk0X0VLdHB0NlFWdXVPcnhsd0VsVHNYV3lVWkVxYzZUbW5KcHVmOWwzRHlGbnJxMjdaYVk1S1o4T3ltSVNmQURJeDF5VUozVlR0Q0dKVkd6SG9VZHdBWlo0MER2VUVCV1pOb0stU3B6ano2eUlXS3ZIZ1hzRkd4T091MTAxdWZseDhtYVBoUlljNXFXLUp1UWtuUEdXTDg4MWVsNTFHQ1VRS1R3SVRKSEE?hl=en-US&gl=US&ceid=US:en",
+      "date": "Jul 2",
+      "text": "Day one of Khamenei funeral ends, Israel bombs Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQZ0xNSk5zYk8xX2d2LUVtRHYzMFVlNHpLcm80OXBwbnNXam12MWREWUh2Rl9MSWpPVFEwc0xqVk9VNGgxc2RWR1diSWIySk1uY3lncmpQLTV3ak1RYWFDVHZsYWdJV0VCdDVTRkpzZ2wzZXFLN2dxN1JOZkJucVdOX3hvbEQ1UmE3emhoVmxjdjNQUVlLbHBhQzhURnRQQU1NSmhZbGY4ZHp5YkMzV2dMYzVscnA2QWt10gG-AUFVX3lxTE9ZX3BIdmRlRWswdTRDVllmRW9ZTWtLRHRMeVlKc1MtYi0yX2k5VXFfVUdodFBzbHlZLUx4Q1h5NFJNSXM4ZXJkWmNxOEc1ODFrS0JpZ2t6M3hNeXNDWFV4ak9LYU5EdnB0UFZCS3JTbndyektUajdobGdocC1SOGkwdXhPTGdDQ2c1RS1CVVp2dnJybjVIc0VzclBqbng2b1V5TTVCeEh0SlNGQWpHY1hfSnRyMDZjcTl5d0RYNHc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1187
+      "latestSinceUpdate": 1188
     },
     {
-      "date": "Jul 05",
-      "text": "Israel conducts strikes in Iran and intensifies attacks on southern Lebanon.",
+      "date": "Jul 2",
+      "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNUXdrc3JheHlJVnU3Nlc0Sm1XSnpWQm05cHFpVktvbmxOaEkzMFpWNUNtbUZEYVhwSUNMVTBfUGtBSjI0d00zOWNnVTh5UGd0WmROckRSbGdxLWVjRlpYREJvcEVLQWdRNHpHOTVhckJMOF9zQl80UWkyeDdNcXg3dWhwUFk5MEQ5bENkMk0tcFR4anBGQkY2Nzd6ZVczZ1RHWUw1cEdOalNXQjBjWFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1187
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1188
     },
     {
-      "date": "Jul 05",
-      "text": "US and Iran exchange strikes, with the US bombing Iranian military sites and downing missiles fired at troops in Kuwait.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOMjVJLWNwc3ZkX1R2NDY0emhqYW1SUVFZd3FJNEVZcFBJcGJ2aFFrdUNOTEV6dzdVNUkyZmE1S3NjTXk1RmwwODhTRTgyeFJlMjIwMTA0VEZGVWl5N3p6YmFjM1RBWXl0UjhXTjNUdEM1SHlfOG5ZcEVOZUdLZDBpcWN2UFNTeFhNZXpLeW9MMjFrLXpjak9J?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1187
-    },
-    {
-      "date": "Jul 05",
-      "text": "Iran threatens a complete halt to talks after trading strikes with the U.S., though Washington officials state talks will continue.",
+      "date": "Jul 2",
+      "text": "Iran warns US and Israel not to attack during leader's funeral.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1187
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1188
     },
     {
-      "date": "Jul 05",
-      "text": "The Strait of Hormuz has reopened, with tankers crossing via a US-protected corridor.",
+      "date": "Jul 2",
+      "text": "OPEC and allies hike output again as Hormuz traffic starts recovering.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1187
+      "latestSinceUpdate": 1188
     },
     {
-      "date": "Jul 05",
-      "text": "OPEC and allies hike output again as Hormuz traffic starts recovering, leading oil prices to hover near pre-conflict levels.",
+      "date": "Jul 2",
+      "text": "US bombs Iranian military sites, then downs missiles Tehran fired at troops in Kuwait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOMjVJLWNwc3ZkX1R2NDY0emhqYW1SUVFZd3FJNEVZcFBJcGJ2aFFrdUNOTEV6dzdVNUkyZmE1S3NjTXk1RmwwODhTRTgyeFJlMjIwMTA0VEZGVWl5N3p6YmFjM1RBWXl0UjhXTjNUdEM1SHlfOG5ZcEVOZUdLZDBpcWN2UFNTeFhNZXpLeW9MMjFrLXpjak9J?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1188
+    },
+    {
+      "date": "Jul 2",
+      "text": "Israel and Iran step back from threats after day of tension.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOMkNoTG5aUlhwNXRMdk1hN3dUZV9RRkhCWFA0Ul9oMTRiZUlfWGNNQlV4VjkzamwxMXQ0VnJ0dlVXZGVYendtNTN5SDNvdGNKX2hHSlhsQTBBMzRJMDQtUm9xRDFicEU5THVmdV9rd2kxSW8wMndST2MzV2l3ZmVpYUdpZHdZQ0dNMFhSRE1EbVpEOUFhV29iRm9NbmRaZU41Wk130gGoAUFVX3lxTE5WSVpvZE9sRFp1VVVoTTVvZzlLaF9XRE8zM0FZS05JMm9NQUhuRTZQQXcxaURUQlJOd0ZDSlJvM1dRSmFacVNqMnJsTG1zeUpBYzdVeEhZb0NKUkYxM0VOX2tDa1FzQnIydDhkYW5PZThrU3F2YmNFekxqQkF3NnRhaVJ5UlZSbGJ5THVhTUZJMWltUmZ5aGpQMWxZOEhEZjZuLU05VW9LQw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox Business",
-      "latestSinceUpdate": 1187
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1188
     }
   ],
   "sourceStatuses": [
