@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1193,
+  "updateSequence": 1194,
   "lastUpdated": "2026-07-06",
-  "lastSyncedAt": "2026-07-06T20:29:21.246Z",
+  "lastSyncedAt": "2026-07-06T21:58:48.118Z",
   "warDay": 129,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-06",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect, with ongoing strikes and warnings of truce violations."
+    "summary": "A truce in south Lebanon is mentioned, but the IDF warns of attacks if it is violated, indicating its fragility amidst ongoing strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 40,
-    "tradeImpact": 20,
-    "sanctionsPressure": 49,
-    "globalPressure": 48,
+    "nuclearIndex": 25,
+    "escalationLevel": 48,
+    "oilDisruption": 65,
+    "tradeImpact": 47,
+    "sanctionsPressure": 54,
+    "globalPressure": 61,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "July 06",
-      "text": "Millions attend the funeral of Iran's leader Ali Khamenei.",
+      "date": "Jul 06",
+      "text": "Millions attended the funeral of Iran's leader, Ali Khamenei, signaling defiance and a new regional order.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQTmloVTVHdy1pN25CSUVVb3RkUG53eGhzUFBoZWhlZjJSZ3pwaEhVcEFCU2hFdVUtS0JRN2xleTQ2ZFRRcHFhOXhidk9tc3hNcmFCTVlHc0dOVDIyRGhTSVJBR2dDQjZ3YTFHZlkyeG1zSmhEbThpaUFlSk9YelVYVkVzTmdDSEh1b1JRN1BsNnkzT3ZkVkRkRDJLZ3BJakRnVU5pYlNmald4RF80R3FhREZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1194
+    },
+    {
+      "date": "Jul 06",
+      "text": "Israel conducted strikes in Iran and attacked targets in Gaza and Lebanon.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1193
+      "latestSinceUpdate": 1194
     },
     {
-      "date": "July 06",
-      "text": "Israel conducts strikes in Gaza and Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1193
+      "date": "Jul 06",
+      "text": "Iran targeted neighbors with strikes, drawing condemnation from the U.S.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1194
     },
     {
-      "date": "May 30",
-      "text": "US defense secretary warns military is ready to resume combat in the Gulf if needed.",
+      "date": "May 29-30",
+      "text": "US defense secretary warned the US military is ready to resume combat in the Gulf if needed.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1193
+      "latestSinceUpdate": 1194
     },
     {
-      "date": "July 06",
-      "text": "Israel conducts strikes in Iran, according to IDF.",
-      "severity": "critical",
+      "date": "Jul 06",
+      "text": "Iran seeks to tighten control over the Strait of Hormuz, leading to oil and gas tankers rerouting via Oman.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1193
+      "latestSinceUpdate": 1194
     },
     {
-      "date": "July 06",
-      "text": "Iran targets neighbors with strikes, drawing US condemnation.",
-      "severity": "critical",
+      "date": "Jul 06",
+      "text": "IDF Chief stated Israel controls Hezbollah's tunnel network beneath Beaufort Ridge; an IDF strike hit a Hezbollah cell in south Lebanon.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1193
-    },
-    {
-      "date": "July 06",
-      "text": "OPEC+ approves a fifth consecutive oil output increase as Strait of Hormuz shipping recovers.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE5tVXltSHVDWGlLb1VMMFNCXzVrcnYzTXlnTzctYW92bHQwYUFlVzZEZ01lc0dYZUtzZW1BN2tYWjFNT2tRWVpUNUNIQzM0TkFkc3ZhdEZlX1RLSjNjSjQwVlliYUxyRHZHTWRWaUo2Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "qz.com",
-      "latestSinceUpdate": 1193
+      "latestSinceUpdate": 1194
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

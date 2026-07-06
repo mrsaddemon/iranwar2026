@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1193,
+  "updateSequence": 1194,
   "lastUpdated": "2026-07-06",
-  "lastSyncedAt": "2026-07-06T20:29:21.246Z",
+  "lastSyncedAt": "2026-07-06T21:58:48.118Z",
   "warDay": 129,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect, with ongoing strikes and warnings of truce violations."
+    "summary": "A truce in south Lebanon is mentioned, but the IDF warns of attacks if it is violated, indicating its fragility amidst ongoing strikes."
   }
 }
