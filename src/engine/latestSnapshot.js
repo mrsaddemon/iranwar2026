@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1194,
+  "updateSequence": 1195,
   "lastUpdated": "2026-07-06",
-  "lastSyncedAt": "2026-07-06T21:58:48.118Z",
+  "lastSyncedAt": "2026-07-06T23:16:40.706Z",
   "warDay": 129,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-06",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A truce in south Lebanon is mentioned, but the IDF warns of attacks if it is violated, indicating its fragility amidst ongoing strikes."
+    "summary": "No active ceasefire or truce is reported in the region."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.4,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
-    "sanctionsPressure": 54,
-    "globalPressure": 61,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
+    "oilDisruption": 70,
+    "tradeImpact": 41,
+    "sanctionsPressure": 49,
+    "globalPressure": 53,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 06",
-      "text": "Millions attended the funeral of Iran's leader, Ali Khamenei, signaling defiance and a new regional order.",
+      "text": "Millions attend the funeral of Iran's Supreme Leader Ali Khamenei in Tehran.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQTmloVTVHdy1pN25CSUVVb3RkUG53eGhzUFBoZWhlZjJSZ3pwaEhVcEFCU2hFdVUtS0JRN2xleTQ2ZFRRcHFhOXhidk9tc3hNcmFCTVlHc0dOVDIyRGhTSVJBR2dDQjZ3YTFHZlkyeG1zSmhEbThpaUFlSk9YelVYVkVzTmdDSEh1b1JRN1BsNnkzT3ZkVkRkRDJLZ3BJakRnVU5pYlNmald4RF80R3FhREZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1194
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNREl1YVRDbjhlc2lVdzRGTVpWdXpKc3FDaERlUkh1ajRrVllZazM4WW8yZ2QwZEU3QlZnNXlVT0ZCNmFpOTRoQ0lPejRuSzdCb25FbFcxV0lWMDNoYXpQSXdOVXhPREp0OUZZbko1ZzVwYTlxMDNiU3pwSkt1dDBkZDJKOGYxMXhSUWNpNmIybXlxU3drMzNCS3FYQThmNE1GRlM0ZWNNYUtubzdIbXZqQWRrbnkzSmRNRlHSAb8BQVVfeXFMTjRTWWZva1RnMDg4U1EwSXk0X0VLdHB0NlFWdXVPcnhsd0VsVHNYV3lVWkVxYzZUbW5KcHVmOWwzRHlGbnJxMjdaYVk1S1o4T3ltSVNmQURJeDF5VUozVlR0Q0dKVkd6SG9VZHdBWlo0MER2VUVCV1pOb0stU3B6ano2eUlXS3ZIZ1hzRkd4T091MTAxdWZseDhtYVBoUlljNXFXLUp1UWtuUEdXTDg4MWVsNTFHQ1VRS1R3SVRKSEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1195
     },
     {
       "date": "Jul 06",
-      "text": "Israel conducted strikes in Iran and attacked targets in Gaza and Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1194
+      "text": "Israel conducts strikes in Gaza and Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1195
     },
     {
       "date": "Jul 06",
-      "text": "Iran targeted neighbors with strikes, drawing condemnation from the U.S.",
+      "text": "IDF confirms conducting strikes in Iran.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1194
+      "latestSinceUpdate": 1195
     },
     {
       "date": "May 29-30",
-      "text": "US defense secretary warned the US military is ready to resume combat in the Gulf if needed.",
+      "text": "US Defense Secretary warns the military is ready to resume combat in the Gulf if needed.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFB1QXlGRWt2N1daSW9BM01MUW1VNmJtNElYdXFxRU52UEVWaGwxQmJCZE5wb1pQTzg1SjlYTFJsYndEX29saWxjLWItUlE0WU5XOTQ3VVRMZ1dJY3VvYlVna3RIc1lEajZZT2txdk8zYkxOQnk4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1194
+      "latestSinceUpdate": 1195
     },
     {
       "date": "Jul 06",
-      "text": "Iran seeks to tighten control over the Strait of Hormuz, leading to oil and gas tankers rerouting via Oman.",
+      "text": "Iran targets neighboring countries with strikes, drawing condemnation from the U.S.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1194
+      "latestSinceUpdate": 1195
     },
     {
       "date": "Jul 06",
-      "text": "IDF Chief stated Israel controls Hezbollah's tunnel network beneath Beaufort Ridge; an IDF strike hit a Hezbollah cell in south Lebanon.",
+      "text": "Iran seeks to tighten control over the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1194
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQWS0wd05fY2VPVHNJSG40ZnUtdWVKS2tHR2FPQUk4RUJvY1BRTWNlc1hMT1VEUTNaQ21XX0xLejVUVXE1WDFJbExRZmpOSUhuYmNORkwzcDkyR3dYRFhMQS13Yk9UV1FxUzZTZTVKMy1uVGp2V0VuQnVwQ3lmaGxwMW9wTFdGM0FRSkdkMGR4cDBjUDY2blpoeUVmU3U?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1195
     }
   ],
   "sourceStatuses": [
