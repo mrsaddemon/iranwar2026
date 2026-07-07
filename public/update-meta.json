@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1203,
+  "updateSequence": 1204,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T20:28:10.018Z",
+  "lastSyncedAt": "2026-07-07T21:56:21.682Z",
   "warDay": 130,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A fragile truce appears to be in effect between Israel and Hezbollah, though violations and warnings persist from both sides."
+    "summary": "No active ceasefire is reported amidst ongoing military engagements between multiple parties."
   }
 }
