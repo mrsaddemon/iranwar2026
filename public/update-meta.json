@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1204,
+  "updateSequence": 1205,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T21:56:21.682Z",
+  "lastSyncedAt": "2026-07-07T23:09:37.010Z",
   "warDay": 130,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.55,
     "durationDays": 60,
-    "summary": "No active ceasefire is reported amidst ongoing military engagements between multiple parties."
+    "summary": "A previously active ceasefire appears to have collapsed following renewed U.S. strikes on Iran and Israeli actions in Lebanon."
   }
 }
