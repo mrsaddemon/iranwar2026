@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1201,
+  "updateSequence": 1202,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T16:12:31.639Z",
+  "lastSyncedAt": "2026-07-07T18:22:56.393Z",
   "warDay": 130,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A previously established truce appears fragile, with violations reported, though both sides have recently stepped back from immediate threats."
+    "summary": "No active ceasefire or truce is reported between the primary belligerents."
   }
 }
