@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1197,
+  "updateSequence": 1198,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T05:09:48.397Z",
+  "lastSyncedAt": "2026-07-07T08:46:03.412Z",
   "warDay": 130,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No formal ceasefire is active, though some de-escalation attempts have been noted amidst ongoing hostilities and warnings of truce violations."
+    "summary": "No formal ceasefire is active, though Israel and Iran have reportedly stepped back from immediate threats after a day of tension."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1197,
+  "updateSequence": 1198,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T05:09:48.397Z",
+  "lastSyncedAt": "2026-07-07T08:46:03.412Z",
   "warDay": 130,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-07",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No formal ceasefire is active, though some de-escalation attempts have been noted amidst ongoing hostilities and warnings of truce violations."
+    "summary": "No formal ceasefire is active, though Israel and Iran have reportedly stepped back from immediate threats after a day of tension."
   },
   "actorOverrides": {
     "usa": {
@@ -19,15 +19,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
+    "nuclearIndex": 30,
+    "escalationLevel": 38,
     "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "tradeImpact": 56,
+    "sanctionsPressure": 49,
+    "globalPressure": 57,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,11 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 07",
-      "text": "Millions attend the funeral of Iran's Supreme Leader Ali Khamenei in Tehran.",
+      "text": "Khamenei’s funeral under way in Qom, drawing millions in Iran.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNREl1YVRDbjhlc2lVdzRGTVpWdXpKc3FDaERlUkh1ajRrVllZazM4WW8yZ2QwZEU3QlZnNXlVT0ZCNmFpOTRoQ0lPejRuSzdCb25FbFcxV0lWMDNoYXpQSXdOVXhPREp0OUZZbko1ZzVwYTlxMDNiU3pwSkt1dDBkZDJKOGYxMXhSUWNpNmIybXlxU3drMzNCS3FYQThmNE1GRlM0ZWNNYUtubzdIbXZqQWRrbnkzSmRNRlHSAb8BQVVfeXFMTjRTWWZva1RnMDg4U1EwSXk0X0VLdHB0NlFWdXVPcnhsd0VsVHNYV3lVWkVxYzZUbW5KcHVmOWwzRHlGbnJxMjdaYVk1S1o4T3ltSVNmQURJeDF5VUozVlR0Q0dKVkd6SG9VZHdBWlo0MER2VUVCV1pOb0stU3B6ano2eUlXS3ZIZ1hzRkd4T091MTAxdWZseDhtYVBoUlljNXFXLUp1UWtuUEdXTDg4MWVsNTFHQ1VRS1R3SVRKSEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPVlJJS3dEVEwzZnBjeVBmWG9Hc2xrd2VvMTNLRkh5VUdTMUU2YTNvU1J5dDV4YVRrZkVnamtndTNoV3lDcW9ENkhfQ2dXRTdCQWo0bkxqRTVvS0NTR0w3QkhneXBnQXRNQVYyaGtNWDZDYkk0NjUwTHEtbC10WGNmWUd0cmpqWlJlV3dGSzJLaHBVdW1JZUVBWjB2dlJNYzdkaUp1UmtrYldLSXVQV2hkdzB3NERvQXdhTE1pRdIBwgFBVV95cUxQSWVSZTRnTEhfX2w0QUZnbDMtcl9MTE5PWVJLTldULWNuV1pHY01zM282Wml1bTRVckhZdTFOVFlvV0ZIeEw5UnZQZnlrNWlvYjZnV3pjYWVZOGFvbjhhOFB5RUMyd0tKRjhkUGp4cHhFQVFfN2FWMzYzS3R3NllmT01rUEhycVA0aGg1X2dIdlRKQWpTanBmZm1RSnk4RWVZN19uM2x2X3dLMWVXSVZJVFZuUXBTR3VYdGY4MDRWUG5QQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1197
+      "latestSinceUpdate": 1198
+    },
+    {
+      "date": "Jul 07",
+      "text": "Ship attacked in Hormuz; Qatari gas tanker hit and another tanker set ablaze in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1UUzFybkpyeXhkbDBERVJ5M29IR0otanJMMThzbHZvVzE3MENtbWJ0ZzZHOTBnSWliZlVyY0NiczVjTjY1bDFiajVjR0U4R2o3YmtkYXZ3dHp0dlBWTUxpYWFiZFFCbElkOTM3ZFNxZFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 1198
     },
     {
       "date": "Jul 07",
@@ -76,35 +84,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 07",
-      "text": "Iran targets neighbors and reportedly fires at two commercial ships in the Strait of Hormuz, including a Qatari gas tanker.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiYEFVX3lxTE9LTmdiVmk5a2VvVWtvejh5OXExQ1FfcEZzSkNvNVhfOElDYTNsY1hFNWY4bnZ6eWx2a3h0X1NucFBTZlZQSGNxRjh0S2l3LXZwTmYzeHRuVzNOREZ5bEFVONIBZkFVX3lxTE1jbDB6NmI1S0JxRjBmclNyRzE0ZjVuLTByTkdGclY0VE1zcm55NzB5MFFRMnd1cXRlNWgyNzR3azV0alRsS2N2N3dRSnJtWURGb1lZOGVvMHN0eTBJZjNWajB5TGhldw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1197
+      "text": "Iran’s Revolutionary Guard Fires Missiles at Ships Near Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQVXptTnNYdkpkaHlOVGEzOXRuYnVVVDRlQW1USXZCUlhVLXJSaTVLYmh5bk9Zc0Z1UXViMDlCcnhMU2NWM095RTRjN0xTRHRsLUNodmNZNl9GVFZPUEgxcTRic0pNOE4zVlNNRXp5dndscHZIWWVMV1JZVFRrbDBkMG5KZ2NveFpfYmNlZlVRYVFwQnBURVJiNlROOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 1198
     },
     {
       "date": "Jul 07",
-      "text": "A tanker is set ablaze after being struck by a projectile in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1197
-    },
-    {
-      "date": "Jul 07",
-      "text": "The US strikes Iranian radar sites after Iran targets American forces in Kuwait.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wc3lMT3hUc01OVVUtMzFXb29BREozUmQ5UEFrYW5UbFlwbjE1TDFiczZoQWFBSkxDNXgzdVFaREp0TVdBNmZGOGw2QVlyQjhSRVI1MEdmUjJndw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1197
-    },
-    {
-      "date": "Jul 07",
-      "text": "The House passes a war powers resolution directing the President to end hostilities with Iran.",
+      "text": "Netanyahu states some Lebanese Christian villages 'asked to be annexed to Israel'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1197
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPX2ZqYkNDOUdhTWlSNTNoZWRwN3EyR25qbmZpdWQwNTNMbldhcXl1Si00dzRoNXhBbmRtVjdzVWZDYkNqaEU1end4dHdIcHhlakhGRDVQd0lmYnhBdGU2bFVsSGZFbVczalNhY00ySFJBM0tpTHd0MVZMREJBbzJKMkZvc3RKejQ5X3NEalhMdDI5cjJFRGgxaDVwOHdDdFUyclVPU0xsX0J4bEpCN2dsZG9wNG1SMmg5YVA4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1198
+    },
+    {
+      "date": "Jul 07",
+      "text": "IDF says Hezbollah cell hit in south Lebanon and warns of attacks if truce violated.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNYlBjdU1FYnBZbXk4YVNPLVV5VGk3cExERy1tTW5YWFBnN0hxMEtvYTRlaEhTU0VneVc2R0pYOFJhVlp6M2tMSlpRM05mdU9DaXVERXgwZ3BwVV9Yb2Z4OUxOa3BBTnV3anJRamVsX1VvdlZDX1J5ZnBBZ1NBbkRwdkY3Q3VPWUxtc3R0N2Z4ZnR1Z3V6RVRBU2o2dlFsdUE0ZFV3ZnFSVGJpRG9fZkozaVAyN03SAboBQVVfeXFMTUZxY3dBWUlzSHlnb1NQVFM4bmlJdGpCdGJMMDRVRUVUWHR2QTRhbm5Kank2LWo2d0lYQkZXYW1GZzVOVTdVWmJYb1V6RW1MV0g4WjQxUnhORERCZjNPcUt2VG9LWkQyclRzd2d5U2E1YXh6VXNxeFhoWW1makdLRHlxaWltWFN6SS1HbU1XLUQxUEVpTFRaQi1XUnV1Z2dyTlc1WXQtTWRBcEZySHFVTk9JMWdrRy1xNkFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1198
     }
   ],
   "sourceStatuses": [
