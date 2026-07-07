@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1200,
+  "updateSequence": 1201,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T13:37:43.788Z",
+  "lastSyncedAt": "2026-07-07T16:12:31.639Z",
   "warDay": 130,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-07",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No formal ceasefire is active, though both Israel and Iran have reportedly stepped back from immediate threats."
+    "summary": "A previously established truce appears fragile, with violations reported, though both sides have recently stepped back from immediate threats."
   },
   "actorOverrides": {
     "usa": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 49,
-    "globalPressure": 57,
-    "allianceInfluence": 51
+    "nuclearIndex": 50,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 07",
-      "text": "Iran warns US against continued threats, stating talks will not commence under duress.",
+      "text": "Iran warns US that negotiations will not commence if threats continue.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1200
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1IbXhpbGtTa01XUGxjTktZODZxWEZqenk2NmkyWkxNR1o2cDNnSGNUaktwcE54Sm5LZ2lDaEJJZVpEOUdnaWVlZGtxN1NjU1c4SHc5b1N0Q2p0SnRsWmRTWGtxclZnSGxvTGE5TGpTdV9nR1hCam9YQXNiTjgzeW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 1201
     },
     {
       "date": "Jul 07",
-      "text": "Tanker struck by projectile and set ablaze in the Strait of Hormuz.",
+      "text": "Israel conducts strikes in Lebanon following Khamenei's funeral.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1200
-    },
-    {
-      "date": "Jul 07",
-      "text": "Iran’s Revolutionary Guard fires missiles at ships near Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1200
-    },
-    {
-      "date": "Jul 07",
-      "text": "Israel conducts strikes in Iran and Lebanon, targeting Hezbollah.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1200
+      "latestSinceUpdate": 1201
     },
     {
       "date": "Jul 07",
-      "text": "House approves war powers resolution to halt military action against Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPMnR3dXhONnF2YWJ2MDY1TGhPVnJzMVVCRVJ6YzI4MmNGUzI5Mk5La1UxRDEyRmhEbkQxQ0tnVnVQb0lhUlgtNnhOYXBUU1lJREZIamt3SkFjUDh4akxaWU9YWmtUN0llYjN1MzdFM0J6RUJlSXNUekJqaWlxYjhCWDFJREVldkU5aTAyRlJldw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1200
-    },
-    {
-      "date": "Jul 07",
-      "text": "Israel and Iran step back from threats after a day of tension.",
-      "severity": "info",
+      "text": "Israel conducts strikes in Iran, IDF confirms.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1200
+      "latestSinceUpdate": 1201
+    },
+    {
+      "date": "Jul 07",
+      "text": "Iran targets neighbors as US condemns 'aggressive' strikes.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1201
+    },
+    {
+      "date": "Jul 07",
+      "text": "Iran threatens to halt talks after trading strikes with the U.S.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1201
+    },
+    {
+      "date": "Jul 07",
+      "text": "Tanker struck near Strait of Hormuz; two ships hit in latest attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE1OMjdBTVozSG5KV2lGUDJMQnRoVVotblNaVXVMaTBTR01xNndBZ25IcFVBbktXMHVuQkJHZDBScHJLRjJQSzdlYkNwVkdpd0ZuZG8wNEx6YS0xc0xjUkliZGhxZnFobnJySXREUGFMR2FyYnp3d1F2cXd6aE5sZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1201
     }
   ],
   "sourceStatuses": [

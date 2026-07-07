@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1200,
+  "updateSequence": 1201,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T13:37:43.788Z",
+  "lastSyncedAt": "2026-07-07T16:12:31.639Z",
   "warDay": 130,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No formal ceasefire is active, though both Israel and Iran have reportedly stepped back from immediate threats."
+    "summary": "A previously established truce appears fragile, with violations reported, though both sides have recently stepped back from immediate threats."
   }
 }
