@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1202,
+  "updateSequence": 1203,
   "lastUpdated": "2026-07-07",
-  "lastSyncedAt": "2026-07-07T18:22:56.393Z",
+  "lastSyncedAt": "2026-07-07T20:28:10.018Z",
   "warDay": 130,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-07",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No active ceasefire or truce is reported between the primary belligerents."
+    "summary": "A fragile truce appears to be in effect between Israel and Hezbollah, though violations and warnings persist from both sides."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
+    "nuclearIndex": 65,
+    "escalationLevel": 48,
     "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 49,
-    "globalPressure": 57,
-    "allianceInfluence": 51
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 07",
-      "text": "Khamenei funeral draws millions; Israel bombs Lebanon",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQQVpoTV83ckQybVhGcERsQXJRenJjd3FXdi1uclFRbGpVRkFKV2ptcVNrZE9WT0xSY2tYT01oLVNsd0ZiOEtjRVJud29jWUVpcFlxYXNHbDJSMG91OEVqTkljT2xwSHJZVjM2QUF0NGlOTXdYRGQ3bHlTaDhOY3pTajB5d2ZSem8xUlBNeXZnLTJuM1VQRTg0dXNkcFY2OWFNcElHZnlFX283ZzE5VEdXSVljdC00ZzAyRVlN0gHAAUFVX3lxTE5fOXQ0dU12MEI0bW5sNGE4T0w4SzRhTnFYMnpEaTdXQ3FSQjJackpWYzVrSzF6RUl0bGJKUW1LTVZLc01NYi1DRm15QWJXN213Y2xncDM1eUJteldrUmlBNkVmcndYUHB4cUxEMWF2aU1reTZZcjV1cDZ4cDk3SkJ6aklYRFZTa0Nhd21zV1hJb19BTXZNMmw4LUpUUmlfWnhNajZ4ci1uOC1oMzJLT0NWeWJ2emI1MGk3d192cG15bQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1202
-    },
-    {
-      "date": "Jul 07",
-      "text": "Doha says Iran 'fully responsible' for attack on Qatari tanker",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1IbXhpbGtTa01XUGxjTktZODZxWEZqenk2NmkyWkxNR1o2cDNnSGNUaktwcE54Sm5LZ2lDaEJJZVpEOUdnaWVlZGtxN1NjU1c4SHc5b1N0Q2p0SnRsWmRTWGtxclZnSGxvTGE5TGpTdV9nR1hCam9YQXNiTjgzeW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1202
-    },
-    {
-      "date": "Jul 07",
-      "text": "House passes war powers resolution directing Trump to end hostilities with Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1202
-    },
-    {
-      "date": "Jul 07",
-      "text": "Israel conducts strikes in Iran, IDF says",
+      "text": "Israel conducts strikes in Lebanon and Iran following Khamenei's funeral.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1202
+      "latestSinceUpdate": 1203
     },
     {
       "date": "Jul 07",
-      "text": "Iran Targets Neighbors as U.S. Condemns ‘Aggressive’ Strikes",
+      "text": "Three tankers were hit in the Strait of Hormuz, leading the US to revoke a license authorizing the sale of Iranian oil.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1202
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1203
     },
     {
       "date": "Jul 07",
-      "text": "Iran threatens 'complete halt' to talks after trading strikes with U.S.",
+      "text": "The US House passed a war powers resolution directing the President to end hostilities with Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1203
+    },
+    {
+      "date": "Jul 07",
+      "text": "US officials are reportedly closing in on an arrangement to reopen the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1203
+    },
+    {
+      "date": "Jul 07",
+      "text": "IDF states it controls Hezbollah tunnel networks and warns of attacks if a truce is violated in south Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1202
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNYlBjdU1FYnBZbXk4YVNPLVV5VGk3cExERy1tTW5YWFBnN0hxMEtvYTRlaEhTU0VneVc2R0pYOFJhVlp6M2tMSlpRM05mdU9DaXVERXgwZ3BwVV9Yb2Z4OUxOa3BBTnV3anJRamVsX1VvdlZDX1J5ZnBBZ1NBbkRwdkY3Q3VPWUxtc3R0N2Z4ZnR1Z3V6RVRBU2o2dlFsdUE0ZFV3ZnFSVGJpRG9fZkozaVAyN03SAboBQVVfeXFMTUZxY3dBWUlzSHlnb1NQVFM4bmlJdGpCdGJMMDRVRUVUWHR2QTRhbm5Kank2LWo2d0lYQkZXYW1GZzVOVTdVWmJYb1V6RW1MV0g4WjQxUnhORERCZjNPcUt2VG9LWkQyclRzd2d5U2E1YXh6VXNxeFhoWW1makdLRHlxaWltWFN6SS1HbU1XLUQxUEVpTFRaQi1XUnV1Z2dyTlc1WXQtTWRBcEZySHFVTk9JMWdrRy1xNkFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1203
+    },
+    {
+      "date": "Jul 07",
+      "text": "Trump warns Iran that killing US troops would trigger military action and broadens the US military footprint.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVlo4blVxcW56cWswcGlyUUU4TktibnJQaVhHS3ZVZ0FYc1lyc1o1ZTd2cURqVDFfQ2ZTYWtaTG1zbmFrLTJLV3BLTU8wbXdsWDhlcmpmNzIwd1o1TXpwWEVGczc3alREYTJxRWRJOVNtZk5KaS1icUxteWZOY2xCRWZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 1203
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
