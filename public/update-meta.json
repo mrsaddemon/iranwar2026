@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1211,
+  "updateSequence": 1212,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T12:09:37.936Z",
+  "lastSyncedAt": "2026-07-08T14:42:45.950Z",
   "warDay": 131,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The memorandum of understanding regarding a ceasefire between the US and Iran has been declared over by President Trump following new strikes and attacks on vessels."
+    "summary": "President Trump has declared the ceasefire with Iran 'over' following renewed strikes by both sides and attacks on commercial vessels."
   }
 }
