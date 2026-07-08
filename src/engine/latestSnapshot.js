@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1212,
+  "updateSequence": 1213,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T14:42:45.950Z",
+  "lastSyncedAt": "2026-07-08T16:22:47.349Z",
   "warDay": 131,
-  "summary": "The US and Iran have launched new strikes against each other, with President Trump declaring the existing ceasefire 'over' and threatening further action, while regional tensions persist with Hamas and Hezbollah.",
+  "summary": "The US has launched new strikes on Iran, with President Trump declaring the ceasefire 'over' following attacks on vessels in the Strait of Hormuz, while regional tensions remain high with Israel preparing for potential renewed conflict with Hezbollah.",
   "lastNarrativeUpdate": "2026-07-08",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "President Trump has declared the ceasefire with Iran 'over' following renewed strikes by both sides and attacks on commercial vessels."
+    "summary": "The ceasefire between the US and Iran has been declared 'over' by President Trump following renewed hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 58,
-    "globalPressure": 72,
-    "allianceInfluence": 73
+    "oilDisruption": 75,
+    "tradeImpact": 55,
+    "sanctionsPressure": 54,
+    "globalPressure": 63,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 08",
-      "text": "US launches new strikes on Iran after attacks on vessels in the Strait of Hormuz.",
+      "text": "US launches new strikes on southern Iran and revokes oil sales permits after three ships were attacked in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPVlJJS3dEVEwzZnBjeVBmWG9Hc2xrd2VvMTNLRkh5VUdTMUU2YTNvU1J5dDV4YVRrZkVnamtndTNoV3lDcW9ENkhfQ2dXRTdCQWo0bkxqRTVvS0NTR0w3QkhneXBnQXRNQVYyaGtNWDZDYkk0NjUwTHEtbC10WGNmWUd0cmpqWlJlV3dGSzJLaHBVdW1JZUVBWjB2dlJNYzdkaUp1UmtrYldLSXVQV2hkdzB3NERvQXdhTE1pRdIBwgFBVV95cUxQSWVSZTRnTEhfX2w0QUZnbDMtcl9MTE5PWVJLTldULWNuV1pHY01zM282Wml1bTRVckhZdTFOVFlvV0ZIeEw5UnZQZnlrNWlvYjZnV3pjYWVZOGFvbjhhOFB5RUMyd0tKRjhkUGp4cHhFQVFfN2FWMzYzS3R3NllmT01rUEhycVA0aGg1X2dIdlRKQWpTanBmZm1RSnk4RWVZN19uM2x2X3dLMWVXSVZJVFZuUXBTR3VYdGY4MDRWUG5QQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1212
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1213
     },
     {
       "date": "Jul 08",
-      "text": "Iran claims strikes on 85 US military sites in the Gulf, sparking a global selloff in stocks and a spike in oil price.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPbkhMb2gta1Z0dzNYZEFiOC1SNEltcE9rc1FhXzRNYnd4RlJGeDJWQThXSEpyMVB5eWFRUGVydXZKUXdZYnFPWXNLOTk3TjBGTS1hTC1tam9ET09tUlE5MUxTc0ZLeGNOMmtpSF9NTTJpNWpmSnpxUjVVT200SUJLeldUSFdjYmRq?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 1212
-    },
-    {
-      "date": "Jul 08",
-      "text": "President Trump declares the ceasefire with Iran 'over' and threatens to hit Iran 'hard again tonight'.",
+      "text": "President Trump states that the MoU to end the Iran war is 'over' and threatens to hit Iran 'hard again tonight'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1212
+      "latestSinceUpdate": 1213
     },
     {
       "date": "Jul 08",
-      "text": "US revokes Iran's oil sales permit following attacks on commercial ships.",
+      "text": "Iran claims attacks on US military sites following US strikes on southern Iran.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1212
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxPa1hvbWRYQ2V0aGJILWJ3Skd3MlV2aU1lSmVjNXlEbGR2NF82TU1MTkJELUd2cEdOZHNwelBfdFo5RV9JZ1pfZnRydTBOUUdZRnE5dVRaZFRvNVpWNGpnZldndk1tdFFBaFJnZGFjOWw1S0hWRTVRamhhdHdXN3JySktHbWxkVGxRM2lnMGVHWXU2cXpGdkZpb0ZzWTczV2tkVUZF0gGoAUFVX3lxTE5EbUZ0TjNIVXJEQk9VdjlNaXMxVHZSSng1S19OM2hhMV8xSHVuLVk1bTBINjE1OFJpTGhoel9jN3BKa1o5T1p0Q3ZyMmZUVGsyb3ZqN2RvYkI1N2dTSy1JaTlnZXhXQ0M4WUdaQVp1bVoxV2NOVk0xd295V3gySGtFTWJTbjZ2VGIzRkJzcE5PcHFYSXI5QlllbGhNY3VIMndXUzZSWHh4OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1213
     },
     {
       "date": "Jul 08",
-      "text": "Hamas announces it will dissolve the Gaza government, but Israel warns the group still seeks Hezbollah-style control.",
+      "text": "Some war insurers advise shipowners to pause voyages through the Strait of Hormuz after recent attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOWFdhbWZDLTdzYi1XMHhnaFdGdHlqZHFxYjFNM0JKaldZYzduTzNKTXpwZXBxYl9mUFRyZ0dQRUJQU2o2Z0lNQk5KRnBmN0FYUktZWWxwY0FzT0pwTndEUlNIc21mMTM3QlQwWDNFeTRIRVZrRGNSWGNob0RRUG5VVU1HUzg4SmIta0g4b1lEdHNqQ2pCTHJ4dG9QcjRTOWNhOXN4eE1INlhhWE9ITHBsTV9tRmUxOEZWcUVTatIBwgFBVV95cUxOQjVITmh3Skx5UjJtRTk1ZFRjOEh2RVA4bl9YajY3czNhUlcwRURjY3FIN1dldkNJWENzbDNmazJRWEo4RmtPc0p4UnlIMDZSRjNMTTluc291TlR5bkxCdVBEUUNxYjl6RTNfMHlnUWFROUY4b0RCTFNpZHZXLURRRVZPZkpGT3hZd0JDWVpQSFVQMFYyYmJ1dHV2djVJN0tOMlo0QlhpQm1fY29jWEo4QWxwUldMZHJHZXNmQzhZTlRFUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1212
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNRXd6QnJtZEVMdGFlS1NzcWlLNVhYSDQ2eUw2bzRXV21BSTFrUFJNdy03S3pOSzROc3J6eUNpclY3M2FWb2x1dkduM3JkR3RyRnFXc21LX0N4NHJwZk5QQ3h5SUVIOEl4SGJ1bkxQaWxDTkFxelZGNlpoUWZwejdFNzlLUW9tNDlRamdVUWxkY0xTTXE1ZE1QVVMzREVHa0Nxb2lGOExyNFdmeXRBbjNxZ2pqa2xoSVUtLXRjZVJaTkR0Z2VnbkRGUG1UTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1213
     },
     {
       "date": "Jul 08",
-      "text": "IDF says a Hezbollah cell was hit in south Lebanon and warns it will attack if truce is violated, preparing for possible resumption of fighting.",
+      "text": "The IDF states a Hezbollah cell was hit in south Lebanon and warns of further attacks if a truce is violated, while preparing for a possible resumption of fighting.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNYlBjdU1FYnBZbXk4YVNPLVV5VGk3cExERy1tTW5YWFBnN0hxMEtvYTRlaEhTU0VneVc2R0pYOFJhVlp6M2tMSlpRM05mdU9DaXVERXgwZ3BwVV9Yb2Z4OUxOa3BBTnV3anJRamVsX1VvdlZDX1J5ZnBBZ1NBbkRwdkY3Q3VPWUxtc3R0N2Z4ZnR1Z3V6RVRBU2o2dlFsdUE0ZFV3ZnFSVGJpRG9fZkozaVAyN03SAboBQVVfeXFMTUZxY3dBWUlzSHlnb1NQVFM4bmlJdGpCdGJMMDRVRUVUWHR2QTRhbm5Kank2LWo2d0lYQkZXYW1GZzVOVTdVWmJYb1V6RW1MV0g4WjQxUnhORERCZjNPcUt2VG9LWkQyclRzd2d5U2E1YXh6VXNxeFhoWW1makdLRHlxaWltWFN6SS1HbU1XLUQxUEVpTFRaQi1XUnV1Z2dyTlc1WXQtTWRBcEZySHFVTk9JMWdrRy1xNkFB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1212
+      "latestSinceUpdate": 1213
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
