@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1207,
+  "updateSequence": 1208,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T03:48:25.972Z",
+  "lastSyncedAt": "2026-07-08T06:17:41.454Z",
   "warDay": 131,
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.55,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A previously established ceasefire or peace deal appears to have collapsed following renewed strikes by both the US and Iran, and ongoing Israeli military actions."
+    "summary": "No active ceasefire is in effect, with direct military engagements between the US and Iran, and ongoing Israeli strikes in Lebanon."
   }
 }
