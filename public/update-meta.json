@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1206,
+  "updateSequence": 1207,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T00:14:32.013Z",
+  "lastSyncedAt": "2026-07-08T03:48:25.972Z",
   "warDay": 131,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.55,
     "durationDays": 60,
-    "summary": "A previous ceasefire between the US and Iran has collapsed following renewed US strikes in retaliation for attacks on commercial vessels."
+    "summary": "A previously established ceasefire or peace deal appears to have collapsed following renewed strikes by both the US and Iran, and ongoing Israeli military actions."
   }
 }

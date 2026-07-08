@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1206,
+  "updateSequence": 1207,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T00:14:32.013Z",
+  "lastSyncedAt": "2026-07-08T03:48:25.972Z",
   "warDay": 131,
-  "summary": "US forces have launched renewed strikes against Iran in retaliation for attacks on commercial vessels in the Strait of Hormuz, while Israel continues strikes in Lebanon amid ongoing tensions with Hezbollah.",
+  "summary": "The United States has launched renewed strikes against Iran following attacks on commercial vessels in the Strait of Hormuz, while Israel has also conducted strikes in Iran and Lebanon amid ongoing tensions with Hezbollah.",
   "lastNarrativeUpdate": "2026-07-08",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.55,
     "durationDays": 60,
-    "summary": "A previous ceasefire between the US and Iran has collapsed following renewed US strikes in retaliation for attacks on commercial vessels."
+    "summary": "A previously established ceasefire or peace deal appears to have collapsed following renewed strikes by both the US and Iran, and ongoing Israeli military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.78,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.55,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 75,
+    "tradeImpact": 70,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 46
+    "globalPressure": 83,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 08",
-      "text": "Two tankers were struck by projectiles in the Strait of Hormuz.",
+      "text": "US launches new strikes against Iran after attacks on tankers in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPVlJJS3dEVEwzZnBjeVBmWG9Hc2xrd2VvMTNLRkh5VUdTMUU2YTNvU1J5dDV4YVRrZkVnamtndTNoV3lDcW9ENkhfQ2dXRTdCQWo0bkxqRTVvS0NTR0w3QkhneXBnQXRNQVYyaGtNWDZDYkk0NjUwTHEtbC10WGNmWUd0cmpqWlJlV3dGSzJLaHBVdW1JZUVBWjB2dlJNYzdkaUp1UmtrYldLSXVQV2hkdzB3NERvQXdhTE1pRdIBwgFBVV95cUxQSWVSZTRnTEhfX2w0QUZnbDMtcl9MTE5PWVJLTldULWNuV1pHY01zM282Wml1bTRVckhZdTFOVFlvV0ZIeEw5UnZQZnlrNWlvYjZnV3pjYWVZOGFvbjhhOFB5RUMyd0tKRjhkUGp4cHhFQVFfN2FWMzYzS3R3NllmT01rUEhycVA0aGg1X2dIdlRKQWpTanBmZm1RSnk4RWVZN19uM2x2X3dLMWVXSVZJVFZuUXBTR3VYdGY4MDRWUG5QQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1206
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOVGRRMkgyZXh6WmZONDQ3UF9hejJiLXBmY214Q1VlcWpkQWl2UmpmdGsyTHB2bFpJUnhiRklVMWE4dV9wazhTZGMzM3dvRzZMWjJrSF94MzgyejlmYXctMkpNSm4wbHZkUEdYa1NaaDltX2tfb2dHVksxR0hRRk52dFdFcnUzQzRyalhtemFwU0d2V1RJVHNqdC0tWmVqOUZ0eHB3MlJQUTNjNzdFc1pHdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1207
     },
     {
       "date": "Jul 08",
-      "text": "US launched renewed strikes against Iran after a clear violation of ceasefire and attacks on commercial vessels.",
+      "text": "Iran strikes three vessels near the Strait of Hormuz, raising stakes for a peace deal.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPXzNZOTZiVDREWWluWVNpdS1OMFNmVm94bWRFMG1CeUFqakZzOTlGbkk4ZEg3bGxPd3YyeHZvM3doVklIUW9uTm1zSXR0ejBac1VIeG1RMy14TzFWUi01M1MwNGxlUGx0YU1mUmlzWlY2aTd6NGJWVXVWZFQ2b3U1QVQzdS1JQ1J3anc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1207
+    },
+    {
+      "date": "Jul 08",
+      "text": "Israel conducts strikes in Iran and bombs Lebanon, with the IDF preparing for potential resumption of fighting against Hezbollah.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1206
+      "latestSinceUpdate": 1207
     },
     {
-      "date": "Jul 07",
-      "text": "Israel conducted strikes in Iran, according to the IDF.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPY1ZJZk90Wld1cXluZE45NDJSUERIRW82aGJ0TWZCbkVjNkNuOU8wODNyZGpLbnl4ODk4M2JPNnpLbHBnUE1MZ1RIXy1XdGhGNmJBOTZuaVhpU0ZHa2RJLUNCTnYtMkpPRUxTZmktSHJ3SWUwdVVmdTNWTEdUT2RiZUVyNW5JdThEYl9sMFAzWUEyZjlMLWsyUWUydFViZjh5QjM3dWk4QTZKV3V1bTZUQjdGU1VXNmlJbTAwctIBwgFBVV95cUxNZXJGWHhNdExYZEloUFlYbE9JMEwtbVJxUFBjd1ZzS1Fidk4yOWhMSkpoOUxOaklkelpWN25kRm1fM2FBaGhHT3ptanBqc2hRTGlSZmhGamxnR0YwZ0RDSy1uSk9MUDhwZEJVajJvbXZjMTRzRV9FQjQ5LUZyY0xYcXkyNFlmU0sycWU1TlFZRW82Yjd1NkxaYTJEbjFwajl4SGNwZE41c0tucFlsSnZZWkswVldSd0k1eDVMZ1dKZkF2UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1206
-    },
-    {
-      "date": "Jul 07",
-      "text": "Israel conducted strikes in Lebanon, while Iran held Khamenei’s funeral.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1206
-    },
-    {
-      "date": "Jul 07",
-      "text": "Iran threatened a complete halt to talks after trading strikes with the U.S.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1206
-    },
-    {
-      "date": "Jul 06",
-      "text": "Hamas stated it would dissolve the Gaza government, but Israel warned the group still seeks Hezbollah-style control.",
+      "date": "Jul 08",
+      "text": "House passes war powers resolution directing Trump to end hostilities with Iran.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOWFdhbWZDLTdzYi1XMHhnaFdGdHlqZHFxYjFNM0JKaldZYzduTzNKTXpwZXBxYl9mUFRyZ0dQRUJQU2o2Z0lNQk5KRnBmN0FYUktZWWxwY0FzT0pwTndEUlNIc21mMTM3QlQwWDNFeTRIRVZrRGNSWGNob0RRUG5VVU1HUzg4SmIta0g4b1lEdHNqQ2pCTHJ4dG9QcjRTOWNhOXN4eE1INlhhWE9ITHBsTV9tRmUxOEZWcUVTatIBwgFBVV95cUxOQjVITmh3Skx5UjJtRTk1ZFRjOEh2RVA4bl9YajY3czNhUlcwRURjY3FIN1dldkNJWENzbDNmazJRWEo4RmtPc0p4UnlIMDZSRjNMTTluc291TlR5bkxCdVBEUUNxYjl6RTNfMHlnUWFROUY4b0RCTFNpZHZXLURRRVZPZkpGT3hZd0JDWVpQSFVQMFYyYmJ1dHV2djVJN0tOMlo0QlhpQm1fY29jWEo4QWxwUldMZHJHZXNmQzhZTlRFUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1206
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE81cnVNSUc5VUI0VW51ZGRjQzNwdWV6Q1d0TWxVZWsyaXFiVEt1dDAwc0dWb2huX0MyOUJnSDRZZDZrLUpaeU5iaU9JT2xIaEdmbmplNFVBV1VQVzNqVFZlbEI1X1VpOFFWRW9TSjZwbjlyUm9PMkYtR3lwdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1207
+    },
+    {
+      "date": "Jul 08",
+      "text": "Khamenei's funeral draws millions in Iran amidst regional conflict.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1207
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
