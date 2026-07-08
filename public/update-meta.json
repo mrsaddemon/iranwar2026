@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1214,
+  "updateSequence": 1215,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T18:03:38.308Z",
+  "lastSyncedAt": "2026-07-08T19:48:30.478Z",
   "warDay": 131,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 1,
     "durationDays": 60,
-    "summary": "The previously established ceasefire agreement has been declared 'over' by President Trump following renewed US strikes and Iranian attacks on vessels."
+    "summary": "The cease-fire between the US and Iran has collapsed following renewed strikes and explicit statements from President Trump."
   }
 }
