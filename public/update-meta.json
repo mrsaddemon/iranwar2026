@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1216,
+  "updateSequence": 1217,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T20:48:32.739Z",
+  "lastSyncedAt": "2026-07-08T21:52:04.151Z",
   "warDay": 131,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The US has indicated that a previous ceasefire is no longer active following renewed strikes and attacks on vessels."
+    "summary": "The ceasefire appears to have collapsed following new US strikes and statements from former President Trump."
   }
 }
