@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1218,
+  "updateSequence": 1219,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T22:49:46.670Z",
+  "lastSyncedAt": "2026-07-08T23:53:37.914Z",
   "warDay": 131,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A previously observed ceasefire between the US and Iran is now considered over following renewed US strikes and statements from former President Trump."
+    "summary": "The previous ceasefire between the US and Iran has been explicitly declared 'over' by President Trump following new US strikes and Iranian actions in Hormuz."
   }
 }
