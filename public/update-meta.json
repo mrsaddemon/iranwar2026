@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1209,
+  "updateSequence": 1210,
   "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T08:46:30.139Z",
+  "lastSyncedAt": "2026-07-08T10:50:32.234Z",
   "warDay": 131,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 1,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect amidst ongoing military actions between the US and Iran, and heightened tensions between Israel and Hezbollah."
+    "summary": "Former President Trump has explicitly stated that the ceasefire with Iran is over, following new mutual strikes between the US and Iran."
   }
 }
