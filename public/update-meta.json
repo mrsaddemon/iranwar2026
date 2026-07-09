@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1226,
+  "updateSequence": 1227,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T20:07:41.770Z",
+  "lastSyncedAt": "2026-07-09T21:48:44.161Z",
   "warDay": 132,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "The recent ceasefire agreement between the US and Iran has collapsed, leading to renewed direct military engagements."
+    "summary": "The previously established ceasefire between the US and Iran has been declared over by President Trump, leading to renewed military engagements."
   }
 }

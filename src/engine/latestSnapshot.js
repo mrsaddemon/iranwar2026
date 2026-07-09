@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1226,
+  "updateSequence": 1227,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T20:07:41.770Z",
+  "lastSyncedAt": "2026-07-09T21:48:44.161Z",
   "warDay": 132,
-  "summary": "The United States and Iran have resumed direct military strikes, with Iran targeting Gulf Arab states, following the collapse of a recent ceasefire agreement.",
+  "summary": "US and Iran are engaged in a second day of tit-for-tat strikes following President Trump's declaration that the ceasefire is over, while Israel continues operations against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-07-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "The recent ceasefire agreement between the US and Iran has collapsed, leading to renewed direct military engagements."
+    "summary": "The previously established ceasefire between the US and Iran has been declared over by President Trump, leading to renewed military engagements."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 09",
-      "text": "US and Iran trade strikes for second day after Trump said ceasefire is ‘over’",
+      "text": "US and Iran trade strikes for second day after Trump said ceasefire is ‘over’.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1226
+      "latestSinceUpdate": 1227
     },
     {
       "date": "Jul 09",
-      "text": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1226
-    },
-    {
-      "date": "Jul 09",
-      "text": "Iran war live: Tehran hits Bahrain, Kuwait, Qatar after deadly US strikes",
+      "text": "Blasts reported across southern Iran after Tehran attacks GCC states.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOazFrLXladEhrcG51TllsZHBwdDd0Y2hPTWo3eXNEYkxXX0J1cDlfUk94eURqb29qR20wMU93a3BCN3E5d21OUEVUOU5meF8yNm9uNngtUi1adEJEYVFCUksyeG1EVGtTU0dncU55NHEwQzV5bWRLSGhBUUpGOFhfZGRTemktaW1rREhpb1lDTWRKc2dPNV9jOUt0VG44ZzBhT3BEWENyMHRvOXpIcFBmT3dPcHRwN1doc3QxWtIBwgFBVV95cUxNajNoV2lYTU9GUnM5bmRJcVB1Uno1VDZMbXdsRHo2anF1Vk0taFRuVjVVUHVuSkVWYkhjS3owUFBwR1JMR2ROdEEycVlmdTNndEJ2am8tNUY2TlNEQ21lbXpNdG1SZW4wYkF0bmI2YTNYWEZrakZWV1lDUjVORFI4bTZVUTRBUjRQdDhvVVNyWE82eDdoazdKVzI1VEFPV2NzaFU0WGNGNFRpT1djbFd5NzFfZTd0VHM2Yl9MdGtvWW1zQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1226
+      "latestSinceUpdate": 1227
     },
     {
       "date": "Jul 09",
-      "text": "US launches new strikes on Iran, revokes oil sales permit after 3 ships attacked in Strait of Hormuz",
+      "text": "Iran says it hits U.S. military targets in Gulf, vows retaliation as peace, ceasefire stall.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1226
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYWlVcGh4SkRwb2h1UGwzeXNMRklydEpSWGxUSTVqWUFjQVNRdDZyN1Bpang1ZVVoLVliczlOWGVZN3d3VGdKZVlwbHQ1MnQ2NHFWTVZVTTdnUlZpbkZydVhvR0t4eVZTc250UF8wSDNYRlc4VzFPRmUwVEJBUDFIUEtDS19vMEU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1227
     },
     {
       "date": "Jul 09",
-      "text": "Live Updates: Iran and U.S. ramp up tit-for-tat strikes ahead of Ali Khamenei's burial",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPYmQyTXJRVFgtVE1uM1MtLUhNb0dLaUNLMUxyYUpLcUhHWmowR2JhZGZtamJZaWJNNG13TkI5RFU4N19sZHl3czZkblU1Mi1tcDVCUjlRTGdXWDRLc3Y4bkc3ai1ObmVwQV9oYXdvN3lwVEdhX0F1bk5aUm05WktoZ2FrVm9JQnpfeUQxZF9tRmoxdXF6VWlnYXVKbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1226
+      "text": "Khamenei's funeral ceremony underway in Mashhad.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gJBVV95cUxPSVJlMWdiY2QwZlFPVFpWdk1lME1TdFRYdkU2bkZxcnN0dlBoUGpkLTVUYXNsVkVmMUhOSnpGYWdUTlZweHh3MmxLcmEwRkEyQllMTFdTal9nbHNjNTloaHJoSmJkWV9rRko4TVJvclpQMmFwaVJfVnJwbzhMdTlzOVRoWGVZZ1hkTmpta2xnSy1LaG9DRVFhYkhDRk5ZbHJ2Q01KX0tDTEFkS3l1d1B0M21OMEhibWQ2Y3Ewdlg0MGZZRDRsWmNnV3E2TjgxSExVNG1ndTlOc0xSYnY3S2hYU0t6cjBFR2hVVGlSanVINlZtZXJ3dVF5Q0JYVldNYTBUMUNiNFprTDBOWjhHcjN2OGExenRjVDFyVUx0SldQdjZxZ2ZReXJfMmp2NDF3WHltdGcyWDhhZUYzZktQdkFxSDloVlo3VF9oaEV5ZjRDUE5OUdIB1wJBVV95cUxPR1dnekhmdkhiaTkxZW51RGVZNVpXR0pGbms4RkswTnVXZGF5RW9rS1pLcUhhdTI1aEtKcmp1YWtTZE9Gck1jMXQtenhfR0tiei1fTURUVWJ1WGVKeDVhTC1uVUVSbDU0QVdEeUlnVW1sXzFVQ0ZZdkJGQ3Jpa01sOVd6UnRVenFXZ2VPajc2eW1RSWduRE0tVldVMFpFeGt3WXhIdDdqUzZYcFZQWVFEdGpxWE5qU3RPQmxHcjlDMEhtWGdCNkEyaTdlX1R2LWtocTZpR0RkYldqb0k2c1dWRzRXbXEzYkx6MDBZS3B1NnAydWRyWjVrbHBTdDYtbWZQZkNiNGFmbVdJdE9xV1ZDTHplOWZTYU90eHR5cFBxUmFfdjVpalFLc3YwLVhIZHRJZnpYbGstUGcyaGUxWVRNT0h4ek92YkxLYi1ITzV6UkFNLTl4UjBN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 1227
     },
     {
       "date": "Jul 09",
-      "text": "Tanker Attacks Risk Overplaying Iran’s Hand and Reigniting a War",
+      "text": "Israel destroys more Hezbollah tunnels and hunts militants in Lebanon security zone.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQSnFJaFRfcmJQaW5TQ3ZpcThkX0ZNaHhVVWRHVF9sS3JUUVp1blQxZnFpTXdnWmhOR3hwSS1TNHRlWjhjRUV1eWtuVHhMa21vSzczQU1LVXFBLVl3elY4MUFwMTlFSVZkQzZGWmt3aGxaS2ZhM0w4aHJock5PSG1yNGhVRFNlNF82U2ZwNU1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1226
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9UcGhZSXktWEhYU25yb25ZNXZoU1ViMkdlRlYtOXB3b25qWEhuTS1MazIyMmhJVU5lMkVHdHFMd1RWcDVfNy1qdGdZV2VVQ2I4OTBkRlRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 1227
     }
   ],
   "sourceStatuses": [
