@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1219,
-  "lastUpdated": "2026-07-08",
-  "lastSyncedAt": "2026-07-08T23:53:37.914Z",
-  "warDay": 131,
-  "summary": "The United States has launched multiple new strikes on Iran, with President Trump declaring the previous ceasefire over, while tensions also rise between Israel and Hezbollah.",
-  "lastNarrativeUpdate": "2026-07-08",
+  "updateSequence": 1220,
+  "lastUpdated": "2026-07-09",
+  "lastSyncedAt": "2026-07-09T04:05:44.972Z",
+  "warDay": 132,
+  "summary": "The US and Iran have resumed direct military strikes, with the US revoking oil sales permits and Iran retaliating against Gulf Arab states, signaling the collapse of a previous ceasefire.",
+  "lastNarrativeUpdate": "2026-07-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The previous ceasefire between the US and Iran has been explicitly declared 'over' by President Trump following new US strikes and Iranian actions in Hormuz."
+    "summary": "The previous ceasefire between the US and Iran has collapsed following renewed military strikes and retaliatory actions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 51
+    "globalPressure": 63,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,42 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 08",
-      "text": "US forces carry out 'additional strikes' on Iran, with local media reporting explosions along the south coast.",
+      "date": "Jul 09",
+      "text": "US military launches new airstrikes on Iran, prompting Iran to fire back at Kuwait and Bahrain.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1219
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1220
     },
     {
-      "date": "Jul 08",
-      "text": "President Trump declares the ceasefire 'over' after latest strikes and Tehran attacks in Hormuz.",
+      "date": "Jul 09",
+      "text": "US revokes Iran's oil sales permit after three ships were attacked in the Strait of Hormuz.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1220
+    },
+    {
+      "date": "Jul 09",
+      "text": "President Trump suggests the ceasefire with Iran is 'over' following the latest exchange of strikes.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1219
+      "latestSinceUpdate": 1220
     },
     {
-      "date": "Jul 08",
-      "text": "IDF says a Hezbollah cell was hit in south Lebanon and warns of further attacks if truce is violated.",
+      "date": "Jul 09",
+      "text": "IDF says a Hezbollah cell was hit in south Lebanon and warns of further attacks if the truce is violated.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNYlBjdU1FYnBZbXk4YVNPLVV5VGk3cExERy1tTW5YWFBnN0hxMEtvYTRlaEhTU0VneVc2R0pYOFJhVlp6M2tMSlpRM05mdU9DaXVERXgwZ3BwVV9Yb2Z4OUxOa3BBTnV3anJRamVsX1VvdlZDX1J5ZnBBZ1NBbkRwdkY3Q3VPWUxtc3R0N2Z4ZnR1Z3V6RVRBU2o2dlFsdUE0ZFV3ZnFSVGJpRG9fZkozaVAyN03SAboBQVVfeXFMTUZxY3dBWUlzSHlnb1NQVFM4bmlJdGpCdGJMMDRVRUVUWHR2QTRhbm5Kank2LWo2d0lYQkZXYW1GZzVOVTdVWmJYb1V6RW1MV0g4WjQxUnhORERCZjNPcUt2VG9LWkQyclRzd2d5U2E1YXh6VXNxeFhoWW1makdLRHlxaWltWFN6SS1HbU1XLUQxUEVpTFRaQi1XUnV1Z2dyTlc1WXQtTWRBcEZySHFVTk9JMWdrRy1xNkFB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1219
+      "latestSinceUpdate": 1220
     },
     {
-      "date": "Jul 08",
-      "text": "Khamenei funeral draws millions amidst ongoing conflict and US strikes.",
+      "date": "Jul 09",
+      "text": "The IMF projects global economic output to be slower for 2026.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1219
+      "latestSinceUpdate": 1220
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -123,25 +131,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Western",
-      "headline": "US Retaliates Against Iran for Hormuz Attacks",
-      "summary": "The US has resumed military strikes against Iran, citing retaliation for recent attacks on commercial vessels in the Strait of Hormuz, following a clear violation of a previous ceasefire. Washington officials indicate talks are intended to continue despite the strikes.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1206
+      "perspective": "US Policy",
+      "headline": "Trump's Desire to Exit Iran War Contradicted by Renewed Hostilities",
+      "summary": "Despite President Trump's stated desire to leave the Iran war behind, recent events indicate a shift to a direct confrontation over the Strait of Hormuz, with the ceasefire declared 'over'. The US has initiated new strikes and economic measures.",
+      "tone": "strained",
+      "latestSinceUpdate": 1220
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Threatens Talks Amid US Strikes and Regional Tensions",
-      "summary": "Iran has threatened to halt ongoing talks with the US after trading strikes, while also mourning the funeral of its leader amidst regional tensions. Iran has been accused of targeting neighbors and commercial vessels.",
+      "perspective": "Iranian Response",
+      "headline": "Iran Retaliates to US Strikes, Targets Gulf Arab States",
+      "summary": "Following US airstrikes, Iran has responded by firing back at three Gulf Arab states, including Kuwait and Bahrain. This marks a direct escalation in the conflict, with Iran's actions seen as retaliation for US military and economic pressure.",
       "tone": "defiant",
-      "latestSinceUpdate": 1206
+      "latestSinceUpdate": 1220
     },
     {
-      "perspective": "Israel/Hezbollah",
-      "headline": "Israel Prepares for Renewed Fighting with Hezbollah",
-      "summary": "Israel continues to conduct strikes in Lebanon against Hezbollah targets and is preparing for a potential resumption of broader conflict if a truce is violated. IDF commanders assess the Lebanese army is unlikely to effectively eliminate Hezbollah.",
+      "perspective": "Regional Stability (Lebanon)",
+      "headline": "IDF Prepares for Renewed Hezbollah Conflict Amidst Truce Violations",
+      "summary": "The IDF has reported hitting a Hezbollah cell in south Lebanon and is preparing for a possible resumption of fighting, warning of further attacks if the truce is violated. Lebanese political figures are urging Hezbollah to submit to state authority.",
       "tone": "anxious",
-      "latestSinceUpdate": 1206
+      "latestSinceUpdate": 1220
+    },
+    {
+      "perspective": "Global Economy",
+      "headline": "IMF Forecasts Slower Global Economic Output for 2026",
+      "summary": "The International Monetary Fund (IMF) has indicated a slower global economic output for 2026. This forecast comes amidst heightened geopolitical tensions, which could further impact energy markets and trade routes.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 1220
     }
   ]
 });
