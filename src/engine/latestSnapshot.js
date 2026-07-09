@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1227,
+  "updateSequence": 1228,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T21:48:44.161Z",
+  "lastSyncedAt": "2026-07-09T22:57:59.631Z",
   "warDay": 132,
-  "summary": "US and Iran are engaged in a second day of tit-for-tat strikes following President Trump's declaration that the ceasefire is over, while Israel continues operations against Hezbollah in Lebanon.",
+  "summary": "The US and Iran are engaged in renewed tit-for-tat strikes following President Trump's declaration that the ceasefire is over, while Israel continues operations against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-07-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 1,
     "durationDays": 60,
-    "summary": "The previously established ceasefire between the US and Iran has been declared over by President Trump, leading to renewed military engagements."
+    "summary": "The ceasefire agreement between the US and Iran has been declared 'over' by President Trump, leading to renewed hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 75,
     "tradeImpact": 55,
@@ -60,43 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 09",
-      "text": "US and Iran trade strikes for second day after Trump said ceasefire is ‘over’.",
+      "text": "US and Iran trade strikes for a second consecutive day after President Trump declared the ceasefire 'over'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1227
+      "latestSinceUpdate": 1228
     },
     {
       "date": "Jul 09",
-      "text": "Blasts reported across southern Iran after Tehran attacks GCC states.",
+      "text": "Iran reports explosions across its southern regions and states it hit U.S. military targets in the Gulf, while burying its slain leader Khamenei.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOazFrLXladEhrcG51TllsZHBwdDd0Y2hPTWo3eXNEYkxXX0J1cDlfUk94eURqb29qR20wMU93a3BCN3E5d21OUEVUOU5meF8yNm9uNngtUi1adEJEYVFCUksyeG1EVGtTU0dncU55NHEwQzV5bWRLSGhBUUpGOFhfZGRTemktaW1rREhpb1lDTWRKc2dPNV9jOUt0VG44ZzBhT3BEWENyMHRvOXpIcFBmT3dPcHRwN1doc3QxWtIBwgFBVV95cUxNajNoV2lYTU9GUnM5bmRJcVB1Uno1VDZMbXdsRHo2anF1Vk0taFRuVjVVUHVuSkVWYkhjS3owUFBwR1JMR2ROdEEycVlmdTNndEJ2am8tNUY2TlNEQ21lbXpNdG1SZW4wYkF0bmI2YTNYWEZrakZWV1lDUjVORFI4bTZVUTRBUjRQdDhvVVNyWE82eDdoazdKVzI1VEFPV2NzaFU0WGNGNFRpT1djbFd5NzFfZTd0VHM2Yl9MdGtvWW1zQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1227
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1228
     },
     {
       "date": "Jul 09",
-      "text": "Iran says it hits U.S. military targets in Gulf, vows retaliation as peace, ceasefire stall.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYWlVcGh4SkRwb2h1UGwzeXNMRklydEpSWGxUSTVqWUFjQVNRdDZyN1Bpang1ZVVoLVliczlOWGVZN3d3VGdKZVlwbHQ1MnQ2NHFWTVZVTTdnUlZpbkZydVhvR0t4eVZTc250UF8wSDNYRlc4VzFPRmUwVEJBUDFIUEtDS19vMEU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1227
-    },
-    {
-      "date": "Jul 09",
-      "text": "Khamenei's funeral ceremony underway in Mashhad.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gJBVV95cUxPSVJlMWdiY2QwZlFPVFpWdk1lME1TdFRYdkU2bkZxcnN0dlBoUGpkLTVUYXNsVkVmMUhOSnpGYWdUTlZweHh3MmxLcmEwRkEyQllMTFdTal9nbHNjNTloaHJoSmJkWV9rRko4TVJvclpQMmFwaVJfVnJwbzhMdTlzOVRoWGVZZ1hkTmpta2xnSy1LaG9DRVFhYkhDRk5ZbHJ2Q01KX0tDTEFkS3l1d1B0M21OMEhibWQ2Y3Ewdlg0MGZZRDRsWmNnV3E2TjgxSExVNG1ndTlOc0xSYnY3S2hYU0t6cjBFR2hVVGlSanVINlZtZXJ3dVF5Q0JYVldNYTBUMUNiNFprTDBOWjhHcjN2OGExenRjVDFyVUx0SldQdjZxZ2ZReXJfMmp2NDF3WHltdGcyWDhhZUYzZktQdkFxSDloVlo3VF9oaEV5ZjRDUE5OUdIB1wJBVV95cUxPR1dnekhmdkhiaTkxZW51RGVZNVpXR0pGbms4RkswTnVXZGF5RW9rS1pLcUhhdTI1aEtKcmp1YWtTZE9Gck1jMXQtenhfR0tiei1fTURUVWJ1WGVKeDVhTC1uVUVSbDU0QVdEeUlnVW1sXzFVQ0ZZdkJGQ3Jpa01sOVd6UnRVenFXZ2VPajc2eW1RSWduRE0tVldVMFpFeGt3WXhIdDdqUzZYcFZQWVFEdGpxWE5qU3RPQmxHcjlDMEhtWGdCNkEyaTdlX1R2LWtocTZpR0RkYldqb0k2c1dWRzRXbXEzYkx6MDBZS3B1NnAydWRyWjVrbHBTdDYtbWZQZkNiNGFmbVdJdE9xV1ZDTHplOWZTYU90eHR5cFBxUmFfdjVpalFLc3YwLVhIZHRJZnpYbGstUGcyaGUxWVRNT0h4ek92YkxLYi1ITzV6UkFNLTl4UjBN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 1227
-    },
-    {
-      "date": "Jul 09",
-      "text": "Israel destroys more Hezbollah tunnels and hunts militants in Lebanon security zone.",
+      "text": "Israel continues operations in Lebanon, destroying Hezbollah tunnels and capturing militants, affirming its presence in the security zone until Hezbollah is disarmed.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9UcGhZSXktWEhYU25yb25ZNXZoU1ViMkdlRlYtOXB3b25qWEhuTS1MazIyMmhJVU5lMkVHdHFMd1RWcDVfNy1qdGdZV2VVQ2I4OTBkRlRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 1227
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1228
+    },
+    {
+      "date": "Jul 09",
+      "text": "The dispute over the Strait of Hormuz is cited as a factor in the latest cycle of US-Iran fighting.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPNTNGMWh4a2Vpd3VvX202NjR5NEJNTVZ2ZmR3cTdKVjZFYlFnZWh1MHFvUTdXMzZ4X3NFcXJySi1RTFFUWnNKd2c0QmVObm8zbkJoVzJqeS1YUmdZcDNvUFY3Ml80UFpTb3gtMzBRYTItS3ZnODFsdkJMWENjS29Qdl9UOS1NWDZCUzgxR0prTHQyS2EwMzZVZnZfUWVZcUNlOEFCUGN2dVFPUnpw0gGyAUFVX3lxTE5RWVFYdS1wNkYtYnktZUdxLUk2a3dyZjc0YlVHVWdUZ2RDcVItYlhVelFlVm1kcGtadk5TVUxoamJYekVWQXFJRXpYSHRuSDNWU2VVNjhzaHVCMndTbEJNRGpSVXF2SllYTTc5UnJldkl5RWQyUlV0SGxzem9nTHlYckxRMlZJdlFKQzhLU2RZX2VpbkFyU0xTeGJQczNiQksxeDlIclZ6SXdnVVM0SHBHbHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1228
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1227,
+  "updateSequence": 1228,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T21:48:44.161Z",
+  "lastSyncedAt": "2026-07-09T22:57:59.631Z",
   "warDay": 132,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 1,
     "durationDays": 60,
-    "summary": "The previously established ceasefire between the US and Iran has been declared over by President Trump, leading to renewed military engagements."
+    "summary": "The ceasefire agreement between the US and Iran has been declared 'over' by President Trump, leading to renewed hostilities."
   }
 }
