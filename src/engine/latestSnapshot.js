@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1221,
+  "updateSequence": 1222,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T07:49:38.360Z",
+  "lastSyncedAt": "2026-07-09T10:46:05.815Z",
   "warDay": 132,
-  "summary": "The ceasefire between the US and Iran has collapsed, leading to a second day of renewed US airstrikes on Iran and retaliatory Iranian attacks on Gulf Arab states and US bases, alongside continued tensions involving Hezbollah.",
+  "summary": "The ceasefire between the US and Iran has collapsed, leading to a second day of direct strikes between the two nations and Iran targeting Gulf Arab states, while the US revoked Iran's oil sales permit.",
   "lastNarrativeUpdate": "2026-07-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 1,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The ceasefire between the US and Iran has been explicitly declared 'over' by President Trump following renewed hostilities."
+    "summary": "The ceasefire between the US and Iran has collapsed following renewed strikes and declarations from President Trump."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 09",
-      "text": "US and Iran trade strikes for second day after Trump declared ceasefire 'over'.",
+      "text": "US and Iran trade strikes for a second day after President Trump declared the ceasefire 'over'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1221
+      "latestSinceUpdate": 1222
     },
     {
       "date": "Jul 09",
-      "text": "US launches new airstrikes on Iran, hitting approximately 170 targets over two nights.",
+      "text": "US launches new airstrikes on Iran, with Tehran firing back at Bahrain, Kuwait, and Qatar.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1222
+    },
+    {
+      "date": "Jul 09",
+      "text": "US revokes Iran's oil sales permit after three ships were attacked in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1222
+    },
+    {
+      "date": "Jul 08",
+      "text": "President Trump declares the ceasefire 'over' following Iranian attacks in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1221
+      "latestSinceUpdate": 1222
     },
     {
-      "date": "Jul 09",
-      "text": "Iran fires back at Gulf Arab states (Bahrain, Kuwait) and US military bases in retaliatory strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOTHk5SVR4QzhvakNVWlhyYzFTM1VtTW13bUYxY0hoNHlVYjNuVDY3c1FPdG5NRlJaZWpzdVoyZDlIcG1pc0RxTFpzR2h2QTVWb3RTMkhmSUI0clRKSGxISnlpWGtLZTdzdjVxeVFlQ1Q1ZVdqUW0tWWZlVXJwMXZjemdMYV9VcTg0TGhycktLR2pjVTZJa1pnZ2kwdEZ4N2xvZ3dQb2ZLQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Telegraph",
-      "latestSinceUpdate": 1221
-    },
-    {
-      "date": "Jul 09",
-      "text": "Iran attacks in Strait of Hormuz after 3 ships were targeted, prompting US to revoke oil sales permits.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1221
-    },
-    {
-      "date": "Jul 09",
-      "text": "Hezbollah rejects US-backed Israel-Lebanon ceasefire amidst ongoing regional tensions.",
+      "date": "Jul 08",
+      "text": "Hezbollah rejects an Israel-Lebanon truce amid escalating regional conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBDX19HLUpiZ2wzMzJfd0VNaUxxazNlXzJXMkRrM2tkUkk5MmtVYllkUUZSWWR3d2RydXRNSzdKdHRqQ281Mkk5ZWpRamlrM3lqTll5LWNQQW5rUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1221
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1222
     }
   ],
   "sourceStatuses": [
