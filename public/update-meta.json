@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1222,
+  "updateSequence": 1223,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T10:46:05.815Z",
+  "lastSyncedAt": "2026-07-09T13:38:10.389Z",
   "warDay": 132,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The ceasefire between the US and Iran has collapsed following renewed strikes and declarations from President Trump."
+    "summary": "The previously fragile ceasefire between the US and Iran has collapsed amidst renewed reciprocal strikes and declarations that the agreement is 'over'."
   }
 }
