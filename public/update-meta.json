@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1223,
+  "updateSequence": 1224,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T13:38:10.389Z",
+  "lastSyncedAt": "2026-07-09T16:17:20.962Z",
   "warDay": 132,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The previously fragile ceasefire between the US and Iran has collapsed amidst renewed reciprocal strikes and declarations that the agreement is 'over'."
+    "summary": "The previously fragile US-Iran ceasefire has collapsed, with both sides resuming military strikes and no active de-escalation efforts reported."
   }
 }

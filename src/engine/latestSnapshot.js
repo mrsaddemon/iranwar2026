@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1223,
+  "updateSequence": 1224,
   "lastUpdated": "2026-07-09",
-  "lastSyncedAt": "2026-07-09T13:38:10.389Z",
+  "lastSyncedAt": "2026-07-09T16:17:20.962Z",
   "warDay": 132,
-  "summary": "The United States and Iran are engaged in a second day of reciprocal strikes, with Iran targeting Gulf Arab states, indicating the collapse of a previous ceasefire agreement.",
+  "summary": "The ceasefire between the US and Iran has collapsed, leading to renewed mutual airstrikes and Iranian attacks on Gulf Arab states, while Israel maintains its security operations in Lebanon.",
   "lastNarrativeUpdate": "2026-07-09",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The previously fragile ceasefire between the US and Iran has collapsed amidst renewed reciprocal strikes and declarations that the agreement is 'over'."
+    "summary": "The previously fragile US-Iran ceasefire has collapsed, with both sides resuming military strikes and no active de-escalation efforts reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.78
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.89
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 75,
     "tradeImpact": 55,
     "sanctionsPressure": 54,
     "globalPressure": 63,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 09",
-      "text": "US and Iran trade strikes for second day after Trump said ceasefire is 'over'.",
+      "text": "US and Iran trade strikes for second day after President Trump declared the ceasefire 'over'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1223
+      "latestSinceUpdate": 1224
     },
     {
       "date": "Jul 09",
-      "text": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1223
-    },
-    {
-      "date": "Jul 09",
-      "text": "Iran hits Bahrain, Kuwait, Qatar after deadly US strikes.",
+      "text": "Iran launches retaliatory strikes, targeting US military installations in the Gulf and three Gulf Arab states (Bahrain, Kuwait, Qatar).",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOazFrLXladEhrcG51TllsZHBwdDd0Y2hPTWo3eXNEYkxXX0J1cDlfUk94eURqb29qR20wMU93a3BCN3E5d21OUEVUOU5meF8yNm9uNngtUi1adEJEYVFCUksyeG1EVGtTU0dncU55NHEwQzV5bWRLSGhBUUpGOFhfZGRTemktaW1rREhpb1lDTWRKc2dPNV9jOUt0VG44ZzBhT3BEWENyMHRvOXpIcFBmT3dPcHRwN1doc3QxWtIBwgFBVV95cUxNajNoV2lYTU9GUnM5bmRJcVB1Uno1VDZMbXdsRHo2anF1Vk0taFRuVjVVUHVuSkVWYkhjS3owUFBwR1JMR2ROdEEycVlmdTNndEJ2am8tNUY2TlNEQ21lbXpNdG1SZW4wYkF0bmI2YTNYWEZrakZWV1lDUjVORFI4bTZVUTRBUjRQdDhvVVNyWE82eDdoazdKVzI1VEFPV2NzaFU0WGNGNFRpT1djbFd5NzFfZTd0VHM2Yl9MdGtvWW1zQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1223
+      "latestSinceUpdate": 1224
     },
     {
       "date": "Jul 09",
-      "text": "Explosions reported as US forces carry out 'additional strikes' in Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQd2Z4M3hOV2ZEdjBGdnhaLWFnS3JVU3g2S3hDbnE4NnU4Vzkzb081elViZ3VBaEtxZlNmdktwb2c0eW96dldZT1pvSmR3N1RYWFE4UFpqZFIzSlNLMy0xM2dTTVllRmxGUFRMQ0xsbWZNX09vcmJJeHV0ZVlPNHg0NnBfS0JzQ01fa0dncGJKckd5S1dBSU5vXzFoUE5ZdUQxVUhDbG5KaDVaazhydjhERjU5SS1zSVXSAbwBQVVfeXFMUFRKTEtCaGQ3ZlV5MlZoQ05CeThIeDd0Sng5OTZ4aG1JNm8wTmhrbDZFZFJMclI0MUZpWS1jY0hSUHhFN2g2S2RfUndlaFVtMUk4TVl0RWZ1MWZFS3VOQUkwakpFZ3lLYTBGOXFQdkhOc0RDWHloVG1aQW8yQS1pN1NldjlUOXgweDY0aGtOMkxSQ25CdE9tdDN0VW9pOExVOHJvdFJEcjB0empwYTJYbE1PclZaRnNlNnBGSTA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1223
+      "text": "Tanker traffic through the Strait of Hormuz slows following Iranian attacks and renewed fighting.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQMFdRNlpaV0ZCRU1vbThIVlFSQy11anNlcDc5RUxFbmhraHU2SWptSXVNdFBjX0FmM3hTRlFpa2V2QUlaMGVpZGtJNEY4MzNmMGNwR2RmNm9MaXdqbnBldzRnbnpZUHR3Z2NMbUNBTHpIS2ZRaHIzUWxGQmgwSlUtUllCVmpaVkVRUm9SSi1R0gGTAUFVX3lxTE00X3NPUnQ1dzlkZVBwMGpuYzd1RFJVdlhINXVUTlBRMkdidGpiQ0ZoUVdJYmFZdGRHUkgxcGlSeVJCVTlaUzNNWHNRX2UzZC1QTWs0RU10MjZhcVRHSzVhWUl3alo0WThDY3l4YkpCTTM5WUdQSFNPWFdoNjU5Zl85aTNMMzBCQTZHVjVhWkdvRVZ1bw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1224
     },
     {
-      "date": "Jul 08",
-      "text": "U.S. military launches second night of strikes against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9rUDZTSFRvQjBBMDJWRW1KWk9rLWphZWhlb0RXOEItOFpiMUw1cXgwSWZmckR0TlJ2Y2VhQjFXVjdsemRyT0xpaUR2U3hkNmF2OTY1S1p3UDEwNHI0dHhVT1VORkNPVzdmemNBLVh3VU52dXFGR3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1223
+      "date": "Jul 09",
+      "text": "Israel states it will remain in the Lebanon security zone until Hezbollah is disarmed.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1224
     },
     {
-      "date": "Jul 08",
-      "text": "Iran says it hits US military targets in Gulf.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPMjFOZnJocnk5bGR1Z3YtZ3B5eHZYRTdyRlRHTGk4S3ZseGRSWEJ0elQyeW9FMGw4OE1KMkN6a0JvV3VmZE15aGtCWEM1YWp4VTRuZUlDcFRnVEYwMEtrdzJncGM2c1FBYlVWWm1hUFJwR3FJWlJza0lXdDlsUVRtWFJueHpNaWpVcVNQd0x4M0VIRDdkTVc3X1ozU1NQX2dXUER2dUpoSkFnajFReXpXV0dzZXUwWEVWZnVuTW0zQXVpcEVJX2tIdG9R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Detroit News",
-      "latestSinceUpdate": 1223
+      "date": "Jul 09",
+      "text": "The Israeli army reports capturing a Hezbollah militant.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1224
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
