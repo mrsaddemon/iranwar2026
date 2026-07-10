@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1236,
+  "updateSequence": 1237,
   "lastUpdated": "2026-07-10",
-  "lastSyncedAt": "2026-07-10T19:06:38.050Z",
+  "lastSyncedAt": "2026-07-10T20:39:53.975Z",
   "warDay": 133,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 2,
-    "summary": "No active ceasefire or truce is currently reported in the region."
+    "summary": "The US-Iran ceasefire has collapsed following renewed and intensifying tit-for-tat strikes by both sides across the Middle East."
   }
 }
