@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1232,
+  "updateSequence": 1233,
   "lastUpdated": "2026-07-10",
-  "lastSyncedAt": "2026-07-10T11:13:54.989Z",
+  "lastSyncedAt": "2026-07-10T13:20:38.535Z",
   "warDay": 133,
-  "summary": "The US-Iran ceasefire has crumbled amid intensifying tit-for-tat strikes across the Middle East, including attacks in the Gulf and a standoff in the Strait of Hormuz, while Israel continues operations against Hezbollah in Lebanon.",
+  "summary": "The US-Iran ceasefire has crumbled, leading to intensifying tit-for-tat strikes across the Middle East, a halt in Strait of Hormuz shipping, and continued Israeli operations against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-07-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has crumbled amid renewed and intensifying tit-for-tat strikes, with peace efforts stalled."
+    "summary": "The US-Iran ceasefire has explicitly crumbled, with both sides exchanging intensifying fire and peace talks stalled."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -67,50 +67,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1232
     },
     {
-      "date": "Jul 09",
-      "text": "Iran says it hits U.S. military targets in Gulf and buries slain leader Khamenei.",
+      "date": "Jul 10",
+      "text": "Strait of Hormuz shipping halts as Trump and Tehran trade strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1232
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOY3RoSGYxQ1hPRGEzNU1FdXQ0azRYSHVLZ2lZY0pvdDF0QzdzaVhyTjFtWnBvLUdZWERzRmVDUndtcUFyQ1YtTTlqaDBxWm5pU1NTeWJBSC1ON3FVZlRMbmdEMzh6dHJLVEdYY1N5MlN0Zk5fcjdWSnY1QUMwNHE2VElQTWUzZzZzNGduVHpOZk5JN1hGUldFaFZtV2szY2tva2JJQ1lyZnRLQWM3X0xwcnpoNkgwcXlJSXJVWGdn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1233
     },
     {
-      "date": "Jul 09",
-      "text": "US and Iran exchange intensifying fire across Mideast, threatening ceasefire deal.",
+      "date": "Jul 10",
+      "text": "Iran and U.S. ramp up tit-for-tat strikes as Khamenei laid to rest.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNQmZnOENNRXdELTloYWdZVG84OGRxcnFydXg5S1RNYWYyeTVkZGQ3XzkwV0hJdXRDNzBrSEp2ZUw2UkU5LVJkcWtyc0FXOHZkM1cwanhvaUFFM3g2WjJ6bkdHZmJVbE8zNGFneWF4VzM5VFdWcGNmUWo4VnljNktvSWJ3eE9XaThVZVVPM2NlQlhoUVh4T2E0cnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1232
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPYmQyTXJRVFgtVE1uM1MtLUhNb0dLaUNLMUxyYUpLcUhHWmowR2JhZGZtamJZaWJNNG13TkI5RFU4N19sZHl3czZkblU1Mi1tcDVCUjlRTGdXWDRLc3Y4bkc3ai1ObmVwQV9oYXdvN3lwVEdhX0F1bk5aUm05WktoZ2FrVm9JQnpfeUQxZF9tRmoxdXF6VWlnYXVKbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1233
     },
     {
-      "date": "Jul 09",
-      "text": "Tehran launches more strikes as Israel warns it is ready to strike Iran again ‘with even greater force’.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxNSzZmYVBxWmdLdUp5NUhCSXZrMnpVeG5lUWJSRTFMMDBuRUpfbHBJYlU3S0R4S1FwblBZZUhuUVZiODJ6OXRkUmhhRktaVXNIdUIweWdBZ1FWckZVTWxWV1FoOGpVbldETUk0cFRONXVXazJhaEh5aHRQQVYyell0amFnNVRZZ1JLZnZZX2hOT25WYkdsUEJoLWZ4NGVaSEF5SGlCel85c21HMENZc1M3RWltRG94Zkp0a1p1Z1FaM1hWR1ZaN0hNdVdJSmQ5c21GdVRjMTA4TmtuMU54?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1232
+      "date": "Jul 10",
+      "text": "Explosions reported across Iran; US military denies involvement.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxPdjRwNlJIX3oycGNxWHN4N2tfRVlNTDhRTHhJa0R5eEYxZWkyZzRNaEFKWFhzWFlBUXVZeHp2TV9OdGloaF9kcDY1QVRwVTlkQURDOWhNVURoOU1FZHYteHlITHU3QUlnNVB4TzRJdWh4MjlQWVI5cnF5TmhHdDRrLVNRMjJEVVVsTU1nS01LWGtDNFprZGo5M003QUdKN3PSAaQBQVVfeXFMTV9MbG9lRWhnUHBtTl94Z0ZFdFRjRVNPUnJacjhkd3dFdnlzWTRmeGhPV3cydElseEZKODZ0by1YNlRzVmIzejcwcm5KOFNfMmh5aXl4dnB2dHZpX0lCV2puNlZJN3hua2l3MlM4RklraGZBWFBIR1hMeGlvS3FEMWR5b0QxM0MxVTdWZzFTMVdxZmxDZ2JqVWtlS3I4WmhxZEZ4b3U?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1233
     },
     {
-      "date": "Jul 09",
-      "text": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPN1EzaDJUZ2REeXNHcExQcXZaeDVuUzVpVGVHajlqUFR3d1g2bnRMalhVcWhrUGJwUHRSQ2d5ZHREMTRoZUl2Vk5VdmhZY01zUXc0QmtNZXJCOW1ubHUyQTVHN19KWFdZc0xxRy1QaV94UWo2ZWpPd2loc01pNEdhTHluQzJIcmdBTl82NHE1cDA3RzI3TDBsNjV0X3RiRTZmRkRoQ0dlenRudkt2aTdkSzhrT3NVOElhSkdaempRVVhlcjdELUFMdnBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 1232
-    },
-    {
-      "date": "Jul 09",
-      "text": "US renews strikes on IRGC; Iran vows retaliation as peace and ceasefire stall.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYWlVcGh4SkRwb2h1UGwzeXNMRklydEpSWGxUSTVqWUFjQVNRdDZyN1Bpang1ZVVoLVliczlOWGVZN3d3VGdKZVlwbHQ1MnQ2NHFWTVZVTTdnUlZpbkZydVhvR0t4eVZTc250UF8wSDNYRlc4VzFPRmUwVEJBUDFIUEtDS19vMEU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1232
+      "date": "Jul 10",
+      "text": "Israel destroys more Hezbollah tunnels and hunts militants in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9UcGhZSXktWEhYU25yb25ZNXZoU1ViMkdlRlYtOXB3b25qWEhuTS1MazIyMmhJVU5lMkVHdHFMd1RWcDVfNy1qdGdZV2VVQ2I4OTBkRlRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 1233
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
