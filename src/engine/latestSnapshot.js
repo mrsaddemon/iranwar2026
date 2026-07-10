@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1233,
+  "updateSequence": 1234,
   "lastUpdated": "2026-07-10",
-  "lastSyncedAt": "2026-07-10T13:20:38.535Z",
+  "lastSyncedAt": "2026-07-10T15:41:38.567Z",
   "warDay": 133,
-  "summary": "The US-Iran ceasefire has crumbled, leading to intensifying tit-for-tat strikes across the Middle East, a halt in Strait of Hormuz shipping, and continued Israeli operations against Hezbollah in Lebanon.",
+  "summary": "The ceasefire between the U.S. and Iran has collapsed, leading to intensifying tit-for-tat strikes across the Middle East, while Israel continues operations against Hezbollah and warns Iran.",
   "lastNarrativeUpdate": "2026-07-10",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has explicitly crumbled, with both sides exchanging intensifying fire and peace talks stalled."
+    "summary": "The previously established ceasefire between the U.S. and Iran has officially ended, with both sides confirming its collapse amidst renewed hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.65,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -67,42 +67,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1232
     },
     {
-      "date": "Jul 10",
-      "text": "Strait of Hormuz shipping halts as Trump and Tehran trade strikes.",
+      "date": "Jul 09",
+      "text": "U.S. and Iran exchange intensifying fire across Mideast, threatening ceasefire deal.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOY3RoSGYxQ1hPRGEzNU1FdXQ0azRYSHVLZ2lZY0pvdDF0QzdzaVhyTjFtWnBvLUdZWERzRmVDUndtcUFyQ1YtTTlqaDBxWm5pU1NTeWJBSC1ON3FVZlRMbmdEMzh6dHJLVEdYY1N5MlN0Zk5fcjdWSnY1QUMwNHE2VElQTWUzZzZzNGduVHpOZk5JN1hGUldFaFZtV2szY2tva2JJQ1lyZnRLQWM3X0xwcnpoNkgwcXlJSXJVWGdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1233
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE93UE0wX00zYkx6ajllMGRZRzJ6VUpOV1JRbmJPUDMwUVM1WnBMcVVLdFdOeWlKb0RldGktMlpwVnF0bTVGbzFFdVpSMzhWSWRKM0Fmb1NVQ0ItaDlIVl9zU3M3QTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1234
     },
     {
-      "date": "Jul 10",
-      "text": "Iran and U.S. ramp up tit-for-tat strikes as Khamenei laid to rest.",
+      "date": "Jul 09",
+      "text": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNWU8weHNqWU10dDFxUGpMR3Z5LW0xVVVnTlNuU2ZBaWpXS0ZnbHQ4c3BENmZ2QVZMZ0VLWmIyUnU0NVM2Tkp4T0lONVM2NnF5cHluZWRxR3FkOXdsNEJoQ3I1VmV3a3hOcExFWll0Vkp2VUJKN2xpcU13US1lOEkxWE1CcEY2dWZGbUZ4TzZ3V0lYRUhLdC1CZjJNTDVJZVM2TDZpSUU0V0lQdkZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1234
+    },
+    {
+      "date": "Jul 09",
+      "text": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPYmQyTXJRVFgtVE1uM1MtLUhNb0dLaUNLMUxyYUpLcUhHWmowR2JhZGZtamJZaWJNNG13TkI5RFU4N19sZHl3czZkblU1Mi1tcDVCUjlRTGdXWDRLc3Y4bkc3ai1ObmVwQV9oYXdvN3lwVEdhX0F1bk5aUm05WktoZ2FrVm9JQnpfeUQxZF9tRmoxdXF6VWlnYXVKbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1233
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPN1EzaDJUZ2REeXNHcExQcXZaeDVuUzVpVGVHajlqUFR3d1g2bnRMalhVcWhrUGJwUHRSQ2d5ZHREMTRoZUl2Vk5VdmhZY01zUXc0QmtNZXJCOW1ubHUyQTVHN19KWFdZc0xxRy1QaV94UWo2ZWpPd2loc01pNEdhTHluQzJIcmdBTl82NHE1cDA3RzI3TDBsNjV0X3RiRTZmRkRoQ0dlenRudkt2aTdkSzhrT3NVOElhSkdaempRVVhlcjdELUFMdnBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1234
     },
     {
-      "date": "Jul 10",
-      "text": "Explosions reported across Iran; US military denies involvement.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxPdjRwNlJIX3oycGNxWHN4N2tfRVlNTDhRTHhJa0R5eEYxZWkyZzRNaEFKWFhzWFlBUXVZeHp2TV9OdGloaF9kcDY1QVRwVTlkQURDOWhNVURoOU1FZHYteHlITHU3QUlnNVB4TzRJdWh4MjlQWVI5cnF5TmhHdDRrLVNRMjJEVVVsTU1nS01LWGtDNFprZGo5M003QUdKN3PSAaQBQVVfeXFMTV9MbG9lRWhnUHBtTl94Z0ZFdFRjRVNPUnJacjhkd3dFdnlzWTRmeGhPV3cydElseEZKODZ0by1YNlRzVmIzejcwcm5KOFNfMmh5aXl4dnB2dHZpX0lCV2puNlZJN3hua2l3MlM4RklraGZBWFBIR1hMeGlvS3FEMWR5b0QxM0MxVTdWZzFTMVdxZmxDZ2JqVWtlS3I4WmhxZEZ4b3U?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1233
+      "date": "Jul 09",
+      "text": "Iran says it hits U.S. military targets in Gulf, buries slain leader Khamenei.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1234
     },
     {
-      "date": "Jul 10",
-      "text": "Israel destroys more Hezbollah tunnels and hunts militants in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9UcGhZSXktWEhYU25yb25ZNXZoU1ViMkdlRlYtOXB3b25qWEhuTS1MazIyMmhJVU5lMkVHdHFMd1RWcDVfNy1qdGdZV2VVQ2I4OTBkRlRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 1233
+      "date": "Jul 09",
+      "text": "As U.S. Steps Up Attacks on Iran, Prospect of All-Out War Rises.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPaXRSQVpnYzVEOHNSa1lqY2lBOFhFd0lsUnphelhyYTQ1Wkp0dm5tSG96VDcteTRnVzNhQ3phLWdMd3J0U1ZlLXFMX3o4d3Y5QzZVMUM2ZjRoSnhNeWljU3MtbzRVc0NFdF9NcFpEUWVoODBNVkdJUkVyVEVrSEVQZFVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1234
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

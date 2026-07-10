@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1233,
+  "updateSequence": 1234,
   "lastUpdated": "2026-07-10",
-  "lastSyncedAt": "2026-07-10T13:20:38.535Z",
+  "lastSyncedAt": "2026-07-10T15:41:38.567Z",
   "warDay": 133,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has explicitly crumbled, with both sides exchanging intensifying fire and peace talks stalled."
+    "summary": "The previously established ceasefire between the U.S. and Iran has officially ended, with both sides confirming its collapse amidst renewed hostilities."
   }
 }
