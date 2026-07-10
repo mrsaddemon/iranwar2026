@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1230,
+  "updateSequence": 1231,
   "lastUpdated": "2026-07-10",
-  "lastSyncedAt": "2026-07-10T04:18:24.276Z",
+  "lastSyncedAt": "2026-07-10T07:54:48.705Z",
   "warDay": 133,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "The ceasefire between the US and Iran has crumbled, with both sides resuming direct strikes and President Trump declaring it 'over'."
+    "summary": "A previously suggested ceasefire deal between the US and Iran is now considered over or stalled, with both sides engaging in fresh strikes."
   }
 }
