@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1252,
+  "updateSequence": 1253,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T18:10:16.184Z",
+  "lastSyncedAt": "2026-07-11T19:34:42.577Z",
   "warDay": 134,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-11",
@@ -10,15 +10,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 2,
-    "summary": "The ceasefire between the US and Iran is reported as 'over', with both sides engaged in tit-for-tat strikes, despite ongoing mediation efforts."
+    "summary": "The ceasefire has collapsed amidst escalating tit-for-tat strikes between the US, Iran, and Israel, despite earlier reports of a fragile truce."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,35 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 10",
-      "text": "U.S. and Iran sink into a violent cycle after latest strikes, with Tehran launching more strikes and Iran claiming hits on U.S. military targets in the Gulf.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1252
-    },
-    {
-      "date": "Jul 10",
-      "text": "Hormuz shipping halts amidst escalating tensions, while Israel reveals a plot by Tehran to kill Trump.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQY21BS0FGWk0zdG5EM200bGU5RW01Skh4cC1tZHM0SzBZWVliUWMyZ2dHNlhWUEdEaEtPcVBCX1R4UlFuZXNPR29qLVNkYzJvOUVxZUdKaV9MeXlKMjZYMEhxMGo1NHpRTEQ0Zi1tOTNqakVWcGxmRzJQMURhUUV6TmgzcHpWWm9vcGVhQTZCTURuY0VVTHlkbHAtWGZ6QkE1bmZnREJhcmZtQlRvQlFYelo4alJTZ1JFbklF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1252
-    },
-    {
-      "date": "Jul 10",
-      "text": "Israeli leadership signals readiness to strike Iran again 'with even greater force' as US negotiators head to Oman for talks.",
+      "text": "Mediators work to de-escalate US-Iran tensions and revive talks, as Trump indicates negotiations will continue despite the ceasefire being 'over'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPX2lSb1hPcXFEVm1UUnhEZk1YTlFJZ0gwVmdPVWNwcXpEcVFwc0hUME9JOExHcGdMLXloYm1ISUFpRUk4N19vWWhmbUROZDgzdThuZEhvMkRMNmlVbHY4MWlVU2J4eVp5WjZzZ01KVFF0MFpWM3duT2JIaExRRm5kSl9IQUxpVkNGcEZVM0NZcXN6Z3JjUHBEVnQ0cw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1252
-    },
-    {
-      "date": "Jul 10",
-      "text": "Mediators work to de-escalate US-Iran tensions and revive talks, with Trump stating negotiations will continue despite the ceasefire being 'over'.",
-      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBpaGF3XzYyR2V1VW9XRTB1NEtRRzZweFd3Snd3R3dJeEo3Ti03UHBqanAwXzN3ODBYRWhycGV6eTY2c2hHcnlwRHNxcVNfSUZuMm41a1p6NUFXbldMTG1MS2lJV0FPM0xUb2NaZW9n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1252
+      "latestSinceUpdate": 1253
+    },
+    {
+      "date": "Jul 10",
+      "text": "Iran's Supreme Leader is laid to rest, with his successor vowing revenge over his father's death, leading to more strikes.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1253
+    },
+    {
+      "date": "Jul 10",
+      "text": "US and Iran ramp up tit-for-tat strikes, with Iran claiming to hit US military targets in the Gulf, while the US denies involvement in explosions heard in Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxPdjRwNlJIX3oycGNxWHN4N2tfRVlNTDhRTHhJa0R5eEYxZWkyZzRNaEFKWFhzWFlBUXVZeHp2TV9OdGloaF9kcDY1QVRwVTlkQURDOWhNVURoOU1FZHYteHlITHU3QUlnNVB4TzRJdWh4MjlQWVI5cnF5TmhHdDRrLVNRMjJEVVVsTU1nS01LWGtDNFprZGo5M003QUdKN3PSAaQBQVVfeXFMTV9MbG9lRWhnUHBtTl94Z0ZFdFRjRVNPUnJacjhkd3dFdnlzWTRmeGhPV3cydElseEZKODZ0by1YNlRzVmIzejcwcm5KOFNfMmh5aXl4dnB2dHZpX0lCV2puNlZJN3hua2l3MlM4RklraGZBWFBIR1hMeGlvS3FEMWR5b0QxM0MxVTdWZzFTMVdxZmxDZ2JqVWtlS3I4WmhxZEZ4b3U?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1253
+    },
+    {
+      "date": "Jul 10",
+      "text": "Iran officials admit to a 'mistake' after attacks on ships in the Strait of Hormuz, as Oman and Iran discuss safe passage.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQOTZxZFcwTy1SYWVwNF9fbHE1cW5FekRidTZxUE5ickx6M2cwekVTVkc2eTY5ZGh2YWJFcWJRcmYtMnNQT3g4ZjJQYjdGRVpQZGd0LWpFVEh5LU1WSUt1ZlRVaTBsbXI0cEJDWGdOWXZRYUppM0JhTFJvekY2bFJ3MG02S1l6cGtqSVBNc2VRV2FhbkdpR0pKMHFnTUl6ejRZWmVWaUd3WmNVaS04ZVBRV1V6dW81bzBpTmtaUW1SeEE5d9IBxwFBVV95cUxNRm5pVE40OFNwLXdrN0t0STd5MktaVHVzRHhvM3AtekdBVkVyY19UWWpDM2lhRV9rWTVTcklWWVcySWdabWg4QmRlVWw4ajFQeS03RGhZdFpmWkhKT3BnSXI3MEdHZENYQnJIVkhCUmNveEtWT1N4MkhDVVRLSVRZcGpHTE4tQzhaZzZFMTdlT29hdDNYclpWMkI0TFZPZUlqcFNhTjY2eDNocU9aMWU5YXI3YUpjTjJLMlE3NGtIYkpzRXhPWWFV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1253
+    },
+    {
+      "date": "Jul 10",
+      "text": "Israel warns it is ready to strike Iran again 'with even greater force' and continues operations against Hezbollah in Lebanon, eliminating a terrorist and capturing a militant.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxNSzZmYVBxWmdLdUp5NUhCSXZrMnpVeG5lUWJSRTFMMDBuRUpfbHBJYlU3S0R4S1FwblBZZUhuUVZiODJ6OXRkUmhhRktaVXNIdUIweWdBZ1FWckZVTWxWV1FoOGpVbldETUk0cFRONXVXazJhaEh5aHRQQVYyell0amFnNVRZZ1JLZnZZX2hOT25WYkdsUEJoLWZ4NGVaSEF5SGlCel85c21HMENZc1M3RWltRG94Zkp0a1p1Z1FaM1hWR1ZaN0hNdVdJSmQ5c21GdVRjMTA4TmtuMU54?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1253
     }
   ],
   "sourceStatuses": [

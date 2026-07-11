@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1252,
+  "updateSequence": 1253,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T18:10:16.184Z",
+  "lastSyncedAt": "2026-07-11T19:34:42.577Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 2,
-    "summary": "The ceasefire between the US and Iran is reported as 'over', with both sides engaged in tit-for-tat strikes, despite ongoing mediation efforts."
+    "summary": "The ceasefire has collapsed amidst escalating tit-for-tat strikes between the US, Iran, and Israel, despite earlier reports of a fragile truce."
   }
 }
