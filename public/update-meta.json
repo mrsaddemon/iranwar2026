@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1256,
+  "updateSequence": 1257,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T22:26:42.901Z",
+  "lastSyncedAt": "2026-07-11T23:32:13.887Z",
   "warDay": 134,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "The previous ceasefire has collapsed amidst renewed US-Iran strikes and threats, though diplomatic efforts to revive talks continue."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   }
 }
