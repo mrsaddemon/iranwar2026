@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1245,
+  "updateSequence": 1246,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T10:02:26.727Z",
+  "lastSyncedAt": "2026-07-11T11:13:46.565Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 2,
-    "summary": "The previously fragile ceasefire has been declared over by the US, with both sides engaging in renewed strikes."
+    "summary": "The ceasefire appears to have collapsed, with both sides engaging in strikes, despite ongoing diplomatic efforts for talks."
   }
 }
