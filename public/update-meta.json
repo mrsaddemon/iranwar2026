@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1242,
+  "updateSequence": 1243,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T04:30:43.545Z",
+  "lastSyncedAt": "2026-07-11T06:38:19.373Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The US-Iran ceasefire has officially collapsed, leading to renewed military engagements and a return to tit-for-tat strikes."
+    "summary": "The US-Iran ceasefire has collapsed following renewed tit-for-tat strikes, though diplomatic channels for negotiation remain open."
   }
 }
