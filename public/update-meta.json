@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1244,
+  "updateSequence": 1245,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T08:29:59.041Z",
+  "lastSyncedAt": "2026-07-11T10:02:26.727Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The previously fragile ceasefire between the US and Iran has been declared over by the US, though negotiations are reportedly ongoing."
+    "summary": "The previously fragile ceasefire has been declared over by the US, with both sides engaging in renewed strikes."
   }
 }
