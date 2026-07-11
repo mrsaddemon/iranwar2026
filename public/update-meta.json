@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1254,
+  "updateSequence": 1255,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T20:25:49.450Z",
+  "lastSyncedAt": "2026-07-11T21:26:17.169Z",
   "warDay": 134,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "The ceasefire is widely reported as 'over' or 'imperiled' by intensifying US-Iran and Israel-Iran strikes."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported in the region."
   }
 }
