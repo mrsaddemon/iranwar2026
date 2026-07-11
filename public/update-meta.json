@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1246,
+  "updateSequence": 1247,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T11:13:46.565Z",
+  "lastSyncedAt": "2026-07-11T12:08:12.572Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 2,
-    "summary": "The ceasefire appears to have collapsed, with both sides engaging in strikes, despite ongoing diplomatic efforts for talks."
+    "summary": "The ceasefire has collapsed amidst a violent cycle of tit-for-tat strikes between the US and Iran, with Trump declaring it 'over'."
   }
 }
