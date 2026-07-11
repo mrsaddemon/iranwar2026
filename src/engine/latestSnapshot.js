@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1240,
-  "lastUpdated": "2026-07-10",
-  "lastSyncedAt": "2026-07-10T23:41:33.775Z",
-  "warDay": 133,
-  "summary": "The US-Iran ceasefire has collapsed following renewed and intensifying tit-for-tat strikes across the Middle East, with both sides exchanging fire and Israel threatening further action.",
-  "lastNarrativeUpdate": "2026-07-10",
+  "updateSequence": 1241,
+  "lastUpdated": "2026-07-11",
+  "lastSyncedAt": "2026-07-11T01:11:32.241Z",
+  "warDay": 134,
+  "summary": "The US-Iran ceasefire has collapsed, leading to renewed tit-for-tat strikes across the Middle East, while the US demands Iran publicly affirm the Strait of Hormuz is open.",
+  "lastNarrativeUpdate": "2026-07-11",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The US-Iran ceasefire has collapsed following renewed and intensifying tit-for-tat strikes across the Middle East."
+    "summary": "The US-Iran ceasefire has collapsed following renewed strikes and mutual accusations of violations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.9
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 75,
     "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "sanctionsPressure": 58,
+    "globalPressure": 69,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -62,55 +62,47 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "date": "Jul 09",
       "text": "US-Iran ceasefire crumbles as fresh strikes rock Middle East.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFB4bHN4OE85Y0EtNkdsYzlGcGRzbjRJNE5DRktPMFdfUDB6cVFfQzE5eC04VDJISDVGNDVERVB2M1dERXNTOWRld2JVNDNVRVhaa3VwR1FiMGdScVZVN3QzZUZzeWpJV2RTS3VkX2ZQdHlkNDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5tVUNDY3llSC1wa1hRUi15OUI5Q1hHdDBVeFAzdDBGejVYOWNfRlc2cUhmRnpQcEZBZU4yLXBVNlFnNWFlN3kyMUpUYjJxVGs1b1VaRHJsZEEwb254RzFPSU52ZGlNc0VwbzFHbHF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1240
     },
     {
       "date": "Jul 09",
-      "text": "US and Iran exchange intensifying fire across Mideast, threatening ceasefire deal.",
+      "text": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNQmZnOENNRXdELTloYWdZVG84OGRxcnFydXg5S1RNYWYyeTVkZGQ3XzkwV0hJdXRDNzBrSEp2ZUw2UkU5LVJkcWtyc0FXOHZkM1cwanhvaUFFM3g2WjJ6bkdHZmJVbE8zNGFneWF4VzM5VFdWcGNmUWo4VnljNktvSWJ3eE9XaThVZVVPM2NlQlhoUVh4T2E0cnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1240
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPN1EzaDJUZ2REeXNHcExQcXZaeDVuUzVpVGVHajlqUFR3d1g2bnRMalhVcWhrUGJwUHRSQ2d5ZHREMTRoZUl2Vk5VdmhZY01zUXc0QmtNZXJCOW1ubHUyQTVHN19KWFdZc0xxRy1QaV94UWo2ZWpPd2loc01pNEdhTHluQzJIcmdBTl82NHE1cDA3RzI3TDBsNjV0X3RiRTZmRkRoQ0dlenRudkt2aTdkSzhrT3NVOElhSkdaempRVVhlcjdELUFMdnBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1241
     },
     {
       "date": "Jul 09",
-      "text": "Iran War Updates: U.S. and Iran Sink Into Violent Cycle After Latest Strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5zR2FVTHZrcGRpMzdzaU11YWZTMU9GN2ZWbTFtNkM2YkNRWGh6cEoxdlhQa0Vvd2FpbHVuXzZiWHJRTVBWNU5VU2Y2ZkRVOVNvYjhzMWJMSUs2d0ItV3hoRjFfT2NpUmlGYzBsSHVGRGY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1240
-    },
-    {
-      "date": "Jul 09",
-      "text": "Iran and U.S. ramp up tit-for-tat strikes as Khamenei laid to rest.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPYmQyTXJRVFgtVE1uM1MtLUhNb0dLaUNLMUxyYUpLcUhHWmowR2JhZGZtamJZaWJNNG13TkI5RFU4N19sZHl3czZkblU1Mi1tcDVCUjlRTGdXWDRLc3Y4bkc3ai1ObmVwQV9oYXdvN3lwVEdhX0F1bk5aUm05WktoZ2FrVm9JQnpfeUQxZF9tRmoxdXF6VWlnYXVKbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1240
-    },
-    {
-      "date": "Jul 09",
-      "text": "Blasts across southern Iran after Tehran attacks Gulf states.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOazFrLXladEhrcG51TllsZHBwdDd0Y2hPTWo3eXNEYkxXX0J1cDlfUk94eURqb29qR20wMU93a3BCN3E5d21OUEVUOU5meF8yNm9uNngtUi1adEJEYVFCUksyeG1EVGtTU0dncU55NHEwQzV5bWRLSGhBUUpGOFhfZGRTemktaW1rREhpb1lDTWRKc2dPNV9jOUt0VG44ZzBhT3BEWENyMHRvOXpIcFBmT3dPcHRwN1doc3QxWtIBwgFBVV95cUxNajNoV2lYTU9GUnM5bmRJcVB1Uno1VDZMbXdsRHo2anF1Vk0taFRuVjVVUHVuSkVWYkhjS3owUFBwR1JMR2ROdEEycVlmdTNndEJ2am8tNUY2TlNEQ21lbXpNdG1SZW4wYkF0bmI2YTNYWEZrakZWV1lDUjVORFI4bTZVUTRBUjRQdDhvVVNyWE82eDdoazdKVzI1VEFPV2NzaFU0WGNGNFRpT1djbFd5NzFfZTd0VHM2Yl9MdGtvWW1zQQ?hl=en-US&gl=US&ceid=US:en",
+      "text": "US demands Iran publicly state Strait of Hormuz open for all.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQOTZxZFcwTy1SYWVwNF9fbHE1cW5FekRidTZxUE5ickx6M2cwekVTVkc2eTY5ZGh2YWJFcWJRcmYtMnNQT3g4ZjJQYjdGRVpQZGd0LWpFVEh5LU1WSUt1ZlRVaTBsbXI0cEJDWGdOWXZRYUppM0JhTFJvekY2bFJ3MG02S1l6cGtqSVBNc2VRV2FhbkdpR0pKMHFnTUl6ejRZWmVWaUd3WmNVaS04ZVBRV1V6dW81bzBpTmtaUW1SeEE5d9IBxwFBVV95cUxNRm5pVE40OFNwLXdrN0t0STd5MktaVHVzRHhvM3AtekdBVkVyY19UWWpDM2lhRV9rWTVTcklWWVcySWdabWg4QmRlVWw4ajFQeS03RGhZdFpmWkhKT3BnSXI3MEdHZENYQnJIVkhCUmNveEtWT1N4MkhDVVRLSVRZcGpHTE4tQzhaZzZFMTdlT29hdDNYclpWMkI0TFZPZUlqcFNhTjY2eDNocU9aMWU5YXI3YUpjTjJLMlE3NGtIYkpzRXhPWWFV?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1240
+      "latestSinceUpdate": 1241
     },
     {
       "date": "Jul 09",
-      "text": "Tehran launches more strikes as Israel warns it is ready to strike Iran again ‘with even greater force’.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxNSzZmYVBxWmdLdUp5NUhCSXZrMnpVeG5lUWJSRTFMMDBuRUpfbHBJYlU3S0R4S1FwblBZZUhuUVZiODJ6OXRkUmhhRktaVXNIdUIweWdBZ1FWckZVTWxWV1FoOGpVbldETUk0cFRONXVXazJhaEh5aHRQQVYyell0amFnNVRZZ1JLZnZZX2hOT25WYkdsUEJoLWZ4NGVaSEF5SGlCel85c21HMENZc1M3RWltRG94Zkp0a1p1Z1FaM1hWR1ZaN0hNdVdJSmQ5c21GdVRjMTA4TmtuMU54?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1240
+      "text": "Israel signals readiness for another Iran strike and destroys Hezbollah tunnels in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNVGhJbmhJU2lDMjV1a2JaS194aFozMFQwaXV6QVM1S0pLbzNucW5ESEdZa2tESV9TYjIxcElOMFhVY2l2YVVZaUhKbDI3TXFoVG45Z0I1TDBGbDlNZlVtNjYxNGdJTTRpcjRDTXZHUTlpZzRXQWRmSzZaTlRHeVZpUEEwdzk2YUVMSTR2Uy10YzJfRWVnZzVoX09rcUJ0ZUNSTVk3ZDRqWdIBrAFBVV95cUxON3c3LWtNV3VmT2M3QzRFTW9rdVd3LWt2RDFaLUdjc0NkMEFfdmpxanZDMFItYjJ0cDAyWEJfTXcwVkZ6MkpJTWNmb3ZiRzJOaWh4M0Q4bGxBaGpPUVZvRUl3V01ReThsUE5VT0Fjbk1iOWVUNUNENkpaRjA5U3RBQ0xWdXZ1X195VmlzZmxjSHk1YWJrNlJYV1RMSXQyR0ZmRGJEbUNRWDVvVWNF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1241
+    },
+    {
+      "date": "Jul 09",
+      "text": "Iran buries slain leader Khamenei amidst escalating conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOU0l1cEJNcjlUQjVYcXFjUVViTThKdnVqSGJMTUpEM2Jqem5HUGJyN1VvcEtyQUdrUnFBYWFhNXB3aEFUX2RmRHhCbXJxQ1JhX1Y1RXVyZUp3TXFlY1RFRXpLMWxHQnlQa3Q2OU1wekRWOEY4dGVzNVhQMnhYd1gyVEM0c080bUdGY01KNGJ2RW05MnlQMER1Q21EeUNfME1TVTh2aFk3TFZqMnpnOFowUzhmMWpXdUVHTmJtaXE1VkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1241
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +131,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Western",
-      "headline": "Ceasefire Collapse",
-      "summary": "Trump suggests the ceasefire is 'over' as the US renews strikes on Iran, with Tehran firing back at Gulf Arab states. This indicates a breakdown of previous de-escalation efforts and a return to direct conflict.",
+      "perspective": "United States",
+      "headline": "US Demands Open Strait, Continues Negotiations Amid Strikes",
+      "summary": "The US maintains its right to respond to Iranian aggression while seeking to continue negotiations and ensure freedom of navigation in the Strait of Hormuz.",
       "tone": "strained",
-      "latestSinceUpdate": 1229
+      "latestSinceUpdate": 1241
     },
     {
-      "perspective": "Iranian",
-      "headline": "Retaliation & Resilience",
-      "summary": "Iran vows retaliation and claims to have hit US military targets in the Gulf, amidst reports of explosions across its southern regions. The burial of slain leader Khamenei also occurs during this period of heightened conflict.",
+      "perspective": "Iran",
+      "headline": "Iran Retaliates, Mourns Leader, Defies US Demands",
+      "summary": "Iran asserts its right to retaliate against US strikes, mourns its leader, and views US demands as provocative amidst ongoing conflict.",
       "tone": "defiant",
-      "latestSinceUpdate": 1229
+      "latestSinceUpdate": 1241
     },
     {
-      "perspective": "Israeli",
-      "headline": "Northern Border Security",
-      "summary": "Israel asserts its intent to remain in the Lebanon security zone until Hezbollah is disarmed, actively destroying tunnels and hunting militants. This highlights ongoing efforts to secure its northern border against perceived threats.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1229
-    },
-    {
-      "perspective": "Regional Stability",
-      "headline": "Escalation Concerns",
-      "summary": "Reports suggest tanker attacks risk reigniting a wider war, and the Lebanese army is deemed unlikely to effectively eliminate Hezbollah. This indicates persistent regional instability and a high potential for further escalation.",
+      "perspective": "Israel",
+      "headline": "Israel Targets Hezbollah, Signals Readiness for Iran Action",
+      "summary": "Israel continues its operations against Hezbollah in Lebanon and signals readiness to act against Iran, viewing the ceasefire's collapse as a critical development.",
       "tone": "anxious",
-      "latestSinceUpdate": 1229
+      "latestSinceUpdate": 1241
     }
   ]
 });
