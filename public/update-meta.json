@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1249,
+  "updateSequence": 1250,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T15:05:13.659Z",
+  "lastSyncedAt": "2026-07-11T16:05:03.223Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The ceasefire has been declared over by the US and is imperiled by ongoing strikes and threats from all parties."
+    "summary": "A previous ceasefire has collapsed, leading to renewed and intensifying hostilities between the US and Iran, despite ongoing diplomatic efforts."
   }
 }
