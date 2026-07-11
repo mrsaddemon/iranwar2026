@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1248,
+  "updateSequence": 1249,
   "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T13:57:48.653Z",
+  "lastSyncedAt": "2026-07-11T15:05:13.659Z",
   "warDay": 134,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The ceasefire has been declared over by the US and is imperiled by ongoing strikes and threats from all parties."
   }
 }
