@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1258,
+  "updateSequence": 1259,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T01:07:18.707Z",
+  "lastSyncedAt": "2026-07-12T04:34:21.814Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "A previously fragile ceasefire between Israel and Iran has collapsed, leading to renewed direct hostilities and tit-for-tat strikes."
+    "summary": "No active ceasefire is in effect between the US and Iran, with a previous one declared 'over'. A fragile ceasefire appears to be holding in Lebanon despite ongoing tensions and military actions."
   }
 }
