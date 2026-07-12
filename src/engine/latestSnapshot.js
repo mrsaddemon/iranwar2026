@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1269,
+  "updateSequence": 1270,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T18:31:16.611Z",
+  "lastSyncedAt": "2026-07-12T19:42:56.307Z",
   "warDay": 135,
-  "summary": "The US has launched multiple rounds of strikes on Iran in response to an attack on a civilian vessel in the Strait of Hormuz, while Israel also conducted strikes in Iran, and tensions remain high between Israel and Hezbollah despite a ceasefire in Lebanon.",
+  "summary": "Tensions between the US, Israel, and Iran have escalated significantly with multiple rounds of strikes and counter-strikes, particularly in the Strait of Hormuz, while a ceasefire in Lebanon remains active but fragile.",
   "lastNarrativeUpdate": "2026-07-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "While a ceasefire is reported in Lebanon, it appears fragile with ongoing military preparations, and any ceasefire between the US and Iran has collapsed amid renewed strikes."
+    "durationDays": 30,
+    "summary": "A ceasefire remains active in Lebanon, leading to an influx of tourists in northern Israel, though Hezbollah is reportedly regrouping and internal divisions persist over disarmament efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 11",
-      "text": "US unleashes biggest round of strikes on Iran in weeks as tensions boil over in Strait of Hormuz.",
+      "text": "US unleashes biggest round of strikes on Iran in weeks following an Iranian attack on a civilian vessel in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1269
+      "latestSinceUpdate": 1270
     },
     {
       "date": "Jul 11",
-      "text": "Iran fires on a ship in the Strait of Hormuz, prompting US retaliation.",
+      "text": "Iran reports explosions and new attacks on military targets on its largest island near the Strait of Hormuz, including Bandar Abbas and Qeshm island.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxPSjlZUGVZa2U0b2h4WVVFUnpiN2hpUVYtbHY3aExEamdfaEJWWDQxTUhJdXNMbko1YlpobWh4dExkWWFLX2pOMVBTRi1aaE9manlhZXUtZzhfdG5VQk9qbVhiSGhwZEdET1hGUUpNYVhfMGtPMGFpaU1UVHBsWUp5SElpWHBuYnU2d3NqQVd2ZU5aZ2lOMnZGNmVaemxBdHMwNHJXcjQ5aUtjWHliakZLUmdJRmNBTlVES3E3SmEwSXpONVV5R1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1270
+    },
+    {
+      "date": "Jul 11",
+      "text": "Israel conducts strikes in Iran, as confirmed by the IDF.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1269
+      "latestSinceUpdate": 1270
     },
     {
       "date": "Jul 11",
-      "text": "Explosions reported in Bandar Abbas and Qeshm island following US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?hl=en-US&gl=US&ceid=US:en",
+      "text": "President Trump states he agreed to talks with Tehran but declares a broader ceasefire 'over' amidst escalating conflict.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1269
+      "latestSinceUpdate": 1270
     },
     {
       "date": "Jul 11",
-      "text": "Israel conducts strikes in Iran, according to IDF statements.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1269
+      "text": "A report indicates survivors of an Iranian attack that killed six U.S. troops claim generals ignored warnings.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxQRWt5dzlReFlGS2NnSUJWX0loQm8yZUwwWkZWcTNBdWhULXg5RThSSHVaLVJCbjhna0dpU3ptLUFFRjdCR095WkFkcEFsY0VoYjBEcGVIUEh0Vk93OE9kR29WTDd1dlJGVW9xblVGSVBNTTZBZHc0RWdvSHppa0FqMkR2cEpxRUlqa2ZYMmtsVjM4Yk1HM2hxdjhVS09kbkthTkFOblp5emN2eW1nV3Z0RFN5R09WOGhFR0dSM0dURllHbXdnVzZhLThPVkF3SVMyMEtPeGxB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1270
     },
     {
       "date": "Jul 11",
-      "text": "Iran targets Gulf states and claims the Strait of Hormuz is closed after intense US strikes.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1269
-    },
-    {
-      "date": "Jul 11",
-      "text": "A Hezbollah lair built to attack Israel is reportedly unearthed beneath Beaufort's strategic bulwark.",
+      "text": "A Hezbollah lair built to attack Israel is unearthed beneath Beaufort's strategic bulwark, raising concerns about regional stability.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMG5BNnJkck5GOS0za01lWWhsVWc5X1M1OFI3NUtXOGMyckNpakFlU3FvVzlKRnkyVTg1V2FCMmpoRHhsRDBzM1lXNnpTQTZHcTB6bURsNkRIc0VUMWQ3cTNQdG1JNGt3Q2dWekNlcGxpWno3eTdidDR1X2hUdHI0WjNSa3FRckQxbk5OTkNWTG1WUVZaakRXUFF0cnRJWmREaWpwc3hoMmxoSk45QjhIMzR5X2ZENGx4dnM4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1269
+      "latestSinceUpdate": 1270
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1269,
+  "updateSequence": 1270,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T18:31:16.611Z",
+  "lastSyncedAt": "2026-07-12T19:42:56.307Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 15,
-    "summary": "While a ceasefire is reported in Lebanon, it appears fragile with ongoing military preparations, and any ceasefire between the US and Iran has collapsed amid renewed strikes."
+    "durationDays": 30,
+    "summary": "A ceasefire remains active in Lebanon, leading to an influx of tourists in northern Israel, though Hezbollah is reportedly regrouping and internal divisions persist over disarmament efforts."
   }
 }
