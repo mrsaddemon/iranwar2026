@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1264,
+  "updateSequence": 1265,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T12:40:49.019Z",
+  "lastSyncedAt": "2026-07-12T14:17:57.004Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire between Israel and Hezbollah in Lebanon is active but remains fragile as Hezbollah regroups and divisions deepen within Lebanon."
+    "summary": "The ceasefire between the US and Iran has collapsed, with direct military engagements reported, though a separate Lebanon ceasefire is mentioned."
   }
 }
