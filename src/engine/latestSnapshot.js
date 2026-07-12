@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1273,
+  "updateSequence": 1274,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T22:27:22.951Z",
+  "lastSyncedAt": "2026-07-12T23:31:14.160Z",
   "warDay": 135,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "The ceasefire between the US and Iran has collapsed amidst direct military strikes and threats, though a separate, fragile ceasefire appears to be holding in Lebanon."
+    "summary": "A previously active ceasefire between the US and Iran has been declared over by the US, amidst escalating military engagements."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.78,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.95
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 93,
+    "tradeImpact": 68,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 11",
-      "text": "US strikes Iran after ship attack in Strait of Hormuz.",
+      "text": "US launches strikes on Iran after ship attack in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBYMVlvZWhZemtQSGdfTzNxam9JME9jc3RlNy1rUDNIT1lzM0l6ZHlFWGQyU3FpV2JNVXlDRUlMbEVhWi13bHZTSHdfS0VvWkhmTksyY041b19tLUNHajB6RkVHaloxdnBEX0dheGln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1273
+      "latestSinceUpdate": 1274
     },
     {
       "date": "Jul 11",
-      "text": "Iran announces closure of the Strait of Hormuz.",
+      "text": "Israel conducts strikes in Iran, according to the IDF.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1273
+      "latestSinceUpdate": 1274
     },
     {
       "date": "Jul 11",
-      "text": "US conducts multiple rounds of strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1273
-    },
-    {
-      "date": "Jul 11",
-      "text": "Israel conducts strikes in Iran.",
-      "severity": "critical",
+      "text": "Trump and Iran's supreme leader exchange threats, with Trump stating a ceasefire is 'over'.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1273
+      "latestSinceUpdate": 1274
     },
     {
       "date": "Jul 11",
-      "text": "Iran targets Gulf States.",
+      "text": "Oil prices rise significantly as US and Iran engage in conflict over the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBITHdYYzF5TFFMLW9Ma18wTjVrdy1DMFBsUmxFUXNUQV9fT3FEMGstQ3dld0p2MTlFcGJ5NFRtSG5ZR2NUNERoU1lram5vbUdDbFdUQ0RlRk8tVTlIQWpobHZGcjhzSHZtSGp4blRJMlFuUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1273
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOVFYzekVvMlNULUZZc3ZlUkE5RmRjYVE0ZXJMLW80SzQ5MzhLRUt0UlZRRmxXbi1sQ3Q4REVTcXZNSVg3bFVwRnNwT3FKbXVBaGZvWWhuOUVLSUZ6X2dUTHlVMGcxVlRaR25EYkVkckw5VG55ZlZObmRQRjRMQ1JqclkwVm7SAYoBQVVfeXFMT0RzeVVLZHMxdEFSczJLVFpiODNfYjJXN0gtWFNsbGlveVJfQXkxendKY2J0UkJHQ0pnMGRBVFVwWk03ZExkc2tjb0paNzQzTXlTNXhYMnR3Nkh4R3NZOTB6RjF5X05iclhwMTBoVklQQks0UTBncUFIYzhCdzNEYmdERUdMWkJYdUxn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1274
     },
     {
-      "date": "Jul 11",
-      "text": "US President Trump states ceasefire 'over' after agreeing to talks with Tehran.",
+      "date": "Jul 12",
+      "text": "US launches third round of strikes after Iran announces closure of the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1273
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1rclVBV3NOWkZ1anJEem16QXhnTElxOGNHcFd6Tktkd25MYVVJTDJXSTlkSzN2b0dPNVlrV3JZVVhvNHdtTmFRQ1pIT2puc3k4YnBoZ0FoRmFsVE8yeU1JYjlyTjM4WVVxTms3OXlmZVJ6LU5nUkhPZdIBfkFVX3lxTFBfQnJzZDJGUlBnM3VyV09YeUo4VkwwTVBQc3RwX0NwWUNRLTZUYnI4VFhzYWtQR2U5MTBtODNRYzVLT2JQeXBFdHFMSlFrVDZQZ25XMTFYWWlZaVlIVGRUd3dRVnlDdHlHNTNHaE5hY1k4cnVfamNfMGp5QUdCUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1274
+    },
+    {
+      "date": "Jul 12",
+      "text": "Tensions deepen in Lebanon over efforts to disarm Hezbollah, with the IDF preparing for a long stay.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1274
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
