@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1259,
+  "updateSequence": 1260,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T04:34:21.814Z",
+  "lastSyncedAt": "2026-07-12T07:10:43.461Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect between the US and Iran, with a previous one declared 'over'. A fragile ceasefire appears to be holding in Lebanon despite ongoing tensions and military actions."
+    "summary": "The ceasefire between the US and Iran has been declared over amidst escalating military exchanges and threats."
   }
 }
