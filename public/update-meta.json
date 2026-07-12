@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1260,
+  "updateSequence": 1261,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T07:10:43.461Z",
+  "lastSyncedAt": "2026-07-12T09:19:07.968Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "The ceasefire between the US and Iran has been declared over amidst escalating military exchanges and threats."
+    "summary": "The US-Iran ceasefire is reported as 'over' amidst active hostilities, though a separate ceasefire in Lebanon remains in effect, allowing Hezbollah to regroup."
   }
 }
