@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1257,
-  "lastUpdated": "2026-07-11",
-  "lastSyncedAt": "2026-07-11T23:32:13.887Z",
-  "warDay": 134,
+  "updateSequence": 1258,
+  "lastUpdated": "2026-07-12",
+  "lastSyncedAt": "2026-07-12T01:07:18.707Z",
+  "warDay": 135,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "A previously fragile ceasefire between Israel and Iran has collapsed, leading to renewed direct hostilities and tit-for-tat strikes."
   }
 }
