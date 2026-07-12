@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1268,
+  "updateSequence": 1269,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T17:35:39.395Z",
+  "lastSyncedAt": "2026-07-12T18:31:16.611Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "The ceasefire between the US and Iran is reported as 'over' by President Trump, indicating active conflict."
+    "summary": "While a ceasefire is reported in Lebanon, it appears fragile with ongoing military preparations, and any ceasefire between the US and Iran has collapsed amid renewed strikes."
   }
 }
