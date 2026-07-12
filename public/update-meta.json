@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1265,
+  "updateSequence": 1266,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T14:17:57.004Z",
+  "lastSyncedAt": "2026-07-12T15:27:25.752Z",
   "warDay": 135,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 15,
-    "summary": "The ceasefire between the US and Iran has collapsed, with direct military engagements reported, though a separate Lebanon ceasefire is mentioned."
+    "summary": "No active ceasefire or truce is currently reported."
   }
 }
