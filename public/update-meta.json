@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1267,
+  "updateSequence": 1268,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T16:30:40.992Z",
+  "lastSyncedAt": "2026-07-12T17:35:39.395Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire in Lebanon is active but fragile, with Hezbollah regrouping and internal divisions over disarmament, while the broader US-Iran conflict is escalating."
+    "summary": "The ceasefire between the US and Iran is reported as 'over' by President Trump, indicating active conflict."
   }
 }

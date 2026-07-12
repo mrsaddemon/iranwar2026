@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1267,
+  "updateSequence": 1268,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T16:30:40.992Z",
+  "lastSyncedAt": "2026-07-12T17:35:39.395Z",
   "warDay": 135,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-12",
@@ -10,12 +10,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 15,
-    "summary": "A ceasefire in Lebanon is active but fragile, with Hezbollah regrouping and internal divisions over disarmament, while the broader US-Iran conflict is escalating."
+    "summary": "The ceasefire between the US and Iran is reported as 'over' by President Trump, indicating active conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,16 +24,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 11",
-      "text": "US and Iran exchange more strikes as tensions boil over in the Strait of Hormuz.",
+      "text": "US conducts strikes on Iran in response to an attack on a civilian vessel in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1267
+      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxQSk5qXy1CSmp6b2hxU3A5OFRaRGRtWkFpYTcwRTU3WUpxMW4wbFV6YmIwZEFvTTFDdFpRVGFuLUIycXY5VUdOLXNlaW5DOVpHQzlFMkJ0UEVra3dfbUJKY3lvS2JMcXB6SWVwVXZicTBmWVFIMDc1aGxwa2Y3Wmh3OXAyWEFJdjBTTVI1OWVvNkhxSUhfYk1MeFZHWXJlajdxWm9iaWZYM3pyQ21LaW1aa0haSERtZDk4TkUzbnRZc2NTY0pSbk9hY0dZNHNNT1Ru?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1268
     },
     {
       "date": "Jul 11",
-      "text": "U.S. launches strikes after Iran fires on a ship in the Strait of Hormuz.",
+      "text": "Iran launches more strikes, targeting Gulf States and claiming the Strait of Hormuz is closed.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1267
+      "latestSinceUpdate": 1268
     },
     {
       "date": "Jul 11",
-      "text": "Explosions reported in Bandar Abbas and Qeshm island, Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1267
-    },
-    {
-      "date": "Jul 11",
-      "text": "U.S. conducts another round of strikes on Iran as Trump and Supreme Leader exchange threats.",
+      "text": "US and Iran exchange more strikes as President Trump and Iran's Supreme Leader exchange threats.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1267
+      "latestSinceUpdate": 1268
     },
     {
       "date": "Jul 11",
-      "text": "Tehran launches more strikes as Israel warns it is ready to strike Iran again 'with even greater force'.",
-      "severity": "critical",
+      "text": "Israel warns it is ready to strike Iran again 'with even greater force'.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxNSzZmYVBxWmdLdUp5NUhCSXZrMnpVeG5lUWJSRTFMMDBuRUpfbHBJYlU3S0R4S1FwblBZZUhuUVZiODJ6OXRkUmhhRktaVXNIdUIweWdBZ1FWckZVTWxWV1FoOGpVbldETUk0cFRONXVXazJhaEh5aHRQQVYyell0amFnNVRZZ1JLZnZZX2hOT25WYkdsUEJoLWZ4NGVaSEF5SGlCel85c21HMENZc1M3RWltRG94Zkp0a1p1Z1FaM1hWR1ZaN0hNdVdJSmQ5c21GdVRjMTA4TmtuMU54?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1267
+      "latestSinceUpdate": 1268
     },
     {
       "date": "Jul 11",
-      "text": "After intense U.S. strikes, Iran targets Gulf States and claims the Strait of Hormuz is closed.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1267
+      "text": "A Hezbollah lair is unearthed in Lebanon, deepening divisions and raising fears of civil war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOTm9LLTBHMWZFY0otakR6VC0xeVFWTHR1bXc3bkppcVlGRVc2YjFOdGVFd3BhY2JFMXRxdEJqYlhxLWttTXMzQkw5cDNqMjZoa1lHZHo1Q3lMMUZnS1VUTWlVcEJ5d1VqSXRsT2w0cERqbGVOdXNjbmtudjNfYnRxcU4xSnFnUGU3SHpFY2xUSUl2Vzg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1268
+    },
+    {
+      "date": "Jul 11",
+      "text": "IDF prepares for a long stay in Lebanon as Hezbollah regroups under a ceasefire.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9fNnJZX1dsQXM1b01QbXByazJEZFdoRW1xbTl5S2NHV0I2ZDk2YV9nRU5uRjQycVNRTWVDNnZlZmhpeUMza2VWblBNeW93TTk4V09VS2dn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 1268
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
