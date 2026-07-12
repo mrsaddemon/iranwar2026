@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1271,
+  "updateSequence": 1272,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T20:29:33.661Z",
+  "lastSyncedAt": "2026-07-12T21:26:05.608Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 1,
+    "confidence": 0.93,
     "durationDays": 30,
-    "summary": "A ceasefire between the US and Iran has been declared 'over' by President Trump, despite ongoing talks."
+    "summary": "A previously agreed ceasefire between the US and Tehran has been declared over amidst renewed strikes."
   }
 }
