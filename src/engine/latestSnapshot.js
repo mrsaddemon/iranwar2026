@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1262,
+  "updateSequence": 1263,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T10:46:31.518Z",
+  "lastSyncedAt": "2026-07-12T11:45:27.031Z",
   "warDay": 135,
-  "summary": "The US has conducted multiple strikes on Iran in response to attacks on vessels and the closure of the Strait of Hormuz, while Israel signals readiness for further strikes against Iran amidst ongoing tensions and a fragile ceasefire in Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-12",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "No active ceasefire is in place for the escalating US-Iran conflict, though a fragile ceasefire is reported in Lebanon amidst fears of civil war."
+    "summary": "A broader ceasefire is not active, with direct US-Iran conflict ongoing; a Lebanon ceasefire is mentioned but Hezbollah is regrouping and internal divisions persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
     "oilDisruption": 95,
-    "tradeImpact": 59,
-    "sanctionsPressure": 49,
-    "globalPressure": 58,
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,27 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 12",
-      "text": "US conducts another round of strikes on Iran following attacks on civilian vessels.",
+      "text": "US conducts new strikes on Iran and reports intercepting attacks from Gulf nations.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1262
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1263
     },
     {
       "date": "Jul 12",
-      "text": "Iran announces the indefinite closure of the Strait of Hormuz and claims to have struck a vessel.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1262
-    },
-    {
-      "date": "Jul 12",
-      "text": "Israeli leadership signals readiness to strike Iran again with 'even greater force'.",
-      "severity": "critical",
+      "text": "Israeli leadership signals readiness to strike Iran again with greater force.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPX2lSb1hPcXFEVm1UUnhEZk1YTlFJZ0gwVmdPVWNwcXpEcVFwc0hUME9JOExHcGdMLXloYm1ISUFpRUk4N19vWWhmbUROZDgzdThuZEhvMkRMNmlVbHY4MWlVU2J4eVp5WjZzZ01KVFF0MFpWM3duT2JIaExRRm5kSl9IQUxpVkNGcEZVM0NZcXN6Z3JjUHBEVnQ0cw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1262
+      "latestSinceUpdate": 1263
+    },
+    {
+      "date": "Jul 12",
+      "text": "Iran announces the indefinite closure of the Strait of Hormuz and claims to have struck a vessel using an 'unauthorized route'.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1263
     },
     {
       "date": "Jul 12",
@@ -92,25 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 12",
-      "text": "Trump and Iran's supreme leader exchange threats amidst escalating conflict.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1262
+      "text": "Former President Trump states he agreed to talks with Tehran but declares a ceasefire 'over'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1263
     },
     {
       "date": "Jul 12",
-      "text": "Divisions deepen in Lebanon over disarming Hezbollah, raising fears of civil war despite a ceasefire.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1262
+      "text": "US military launches a third round of strikes on Iran in response to attacks on civilian vessels.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1rclVBV3NOWkZ1anJEem16QXhnTElxOGNHcFd6Tktkd25MYVVJTDJXSTlkSzN2b0dPNVlrV3JZVVhvNHdtTmFRQ1pIT2puc3k4YnBoZ0FoRmFsVE8yeU1JYjlyTjM4WVVxTms3OXlmZVJ6LU5nUkhPZdIBfkFVX3lxTFBfQnJzZDJGUlBnM3VyV09YeUo4VkwwTVBQc3RwX0NwWUNRLTZUYnI4VFhzYWtQR2U5MTBtODNRYzVLT2JQeXBFdHFMSlFrVDZQZ25XMTFYWWlZaVlIVGRUd3dRVnlDdHlHNTNHaE5hY1k4cnVfamNfMGp5QUdCUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1263
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",

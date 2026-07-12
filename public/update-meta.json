@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1262,
+  "updateSequence": 1263,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T10:46:31.518Z",
+  "lastSyncedAt": "2026-07-12T11:45:27.031Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 2,
-    "summary": "No active ceasefire is in place for the escalating US-Iran conflict, though a fragile ceasefire is reported in Lebanon amidst fears of civil war."
+    "summary": "A broader ceasefire is not active, with direct US-Iran conflict ongoing; a Lebanon ceasefire is mentioned but Hezbollah is regrouping and internal divisions persist."
   }
 }
