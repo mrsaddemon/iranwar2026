@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1270,
+  "updateSequence": 1271,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T19:42:56.307Z",
+  "lastSyncedAt": "2026-07-12T20:29:33.661Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 1,
     "durationDays": 30,
-    "summary": "A ceasefire remains active in Lebanon, leading to an influx of tourists in northern Israel, though Hezbollah is reportedly regrouping and internal divisions persist over disarmament efforts."
+    "summary": "A ceasefire between the US and Iran has been declared 'over' by President Trump, despite ongoing talks."
   }
 }
