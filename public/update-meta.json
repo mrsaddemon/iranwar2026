@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1272,
+  "updateSequence": 1273,
   "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T21:26:05.608Z",
+  "lastSyncedAt": "2026-07-12T22:27:22.951Z",
   "warDay": 135,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 30,
-    "summary": "A previously agreed ceasefire between the US and Tehran has been declared over amidst renewed strikes."
+    "summary": "The ceasefire between the US and Iran has collapsed amidst direct military strikes and threats, though a separate, fragile ceasefire appears to be holding in Lebanon."
   }
 }
