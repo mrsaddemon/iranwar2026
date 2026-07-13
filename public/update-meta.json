@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1277,
+  "updateSequence": 1278,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T07:58:02.281Z",
+  "lastSyncedAt": "2026-07-13T11:23:54.663Z",
   "warDay": 136,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire is reported to be active in Lebanon, allowing tourism, but the primary US-Iran conflict continues to escalate."
+    "summary": "The ceasefire between the US and Iran has disintegrated amidst renewed strikes and counter-strikes, particularly around the Strait of Hormuz."
   }
 }
