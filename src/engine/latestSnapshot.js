@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1281,
+  "updateSequence": 1282,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T18:11:52.453Z",
+  "lastSyncedAt": "2026-07-13T19:52:25.222Z",
   "warDay": 136,
-  "summary": "The United States has launched a second night of strikes on Iran and reinstated a blockade with a 20% toll on the Strait of Hormuz, while Israel continues to strike Hezbollah targets in Southern Lebanon.",
+  "summary": "The United States has renewed its blockade of Iran and launched new strikes, while threatening to charge tolls for passage through the Strait of Hormuz, leading to an exchange of fire with the IRGC.",
   "lastNarrativeUpdate": "2026-07-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, with direct military actions and threats ongoing."
+    "summary": "No ceasefire is active; direct conflict and escalation are ongoing between the US and Iran."
   },
   "actorOverrides": {
     "usa": {
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.5
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 50,
     "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 46
+    "globalPressure": 87,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 12",
-      "text": "US launches strikes on Iran for a second consecutive night.",
+      "text": "US launches strikes on Iran for a second night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1281
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1282
     },
     {
       "date": "Jul 12",
-      "text": "US President Trump announces the reinstatement of an Iran blockade and a 20% toll on cargo passing through the Strait of Hormuz.",
+      "text": "Trump renews Iran blockade and threatens to take control of the Strait of Hormuz, proposing a 20% toll for passage.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOMV9vbjgzc3lGdFhGN0tRekRlTDItNXRiUnN1OV90MG5VeXVsRzRXNVItYUZPLWdPZlZtVUVFYTBaQlhhUkFTU1JTQzVfSVhoMHV1VUhQUmhtelBMMllPQk40dUhjWW16dEpaaWc0bVpjazBLWmRvakxGUEtkNHExcmlmRTBMRGxaSDF3VGk3d3BqZTNRU3pZRkUzTENvUk5KYVg5Rk4tUjZ1dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1281
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQNWFGOFJuSzNYX1FIdUwzUlh3R3hEVDYxc2w5WmhaMWxfSFV0Q3lwU0poZXNfTzRzWmNwWjVULURYQzMyUHdlYV8yQUctLWQ1ZXdqalpuODBkd3FEWko2dFRjZGxaeTlwX3owSC1BVEpYRTZqUnNkaGpyMjhDeW03N3FOSFpsYUdmUEo4TUtzUDBEbVBGOUJrdmY0eFlIRi03UzNiVXpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1282
     },
     {
       "date": "Jul 12",
-      "text": "CENTCOM states US strikes are ordered to 'hold Iranian forces accountable' as both sides exchange threats.",
+      "text": "US and IRGC forces exchange fire over the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1281
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxPVjRMWlNaRDhUd1I4Y0pIa3ZQaDdqWUR2TUVCNGl5bDlVT0Y4LTF5LUhtTDR5Ynk5dkZ4bzJXRDBkSTg4VVoyTkdmU3o0bHZYLV9NZTVBaGlraGMxdWhEd3VjdFZNbXQ3SXlLcHkzMlNtR0lOMkxvWWo3ZlpnTTdIX2UtS1lMUGM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1282
     },
     {
       "date": "Jul 12",
-      "text": "Dubai plans a new port to bypass the Strait of Hormuz amid escalating tensions.",
+      "text": "Iran rejects US claims over the Strait of Hormuz and mocks Trump's vow to charge tolls.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOYTdiSWItQ2pwRFM1ZHFhU1FBZXk5QjBwQ2ludVQyeV9xbEJMTWhoSktwY0xsSlYyTHNWRkpVLWN1VmhBemRZTGZFM18zeXVZVEo5R3JRa1E4MDc2Rm9yOVdibkR3LXJ3a29saXE2eVlxMHM1cjhoeHhEYzIzVnpxZWE3dGI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1281
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1282
     },
     {
       "date": "Jul 12",
-      "text": "US demands Iran publicly state that the Strait of Hormuz is open and that Tehran will not attack ships.",
+      "text": "A Hezbollah lair built to attack Israel is reportedly unearthed beneath Beaufort's strategic bulwark.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQMkgxNzlSWHpvYWVhcGhmNkJTRzJIa2R1Z1ZfOGJYdElvenoxa2diSHR6bTFJaWx2M0VZZ0JWM2Y1VjZrYzBOWTlFTUdLNHk2YzFWZGJJazJNSHU2VUdDbnpHaURzc25SeS1PVXp5dEJVWWdhbDdwUkNCTHhlUVQyXzZYOG5ZNlNSektpNUpYbFNYOEs0ZTl4Tk96SHd6b3M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1281
-    },
-    {
-      "date": "Jul 12",
-      "text": "IDF strikes Hezbollah terrorists transferring weapons in Southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPd3ZXSWZzT08yWjFpQmlfZkFTaXFsWkhzWXlnQktZSGotdzRrUk9kRm1DSXJIY2ppU3REVkRRNVhfMmtrQ0tBZmFOaFoyTzh1TWluS3psdE8xUTBuSXlOS3dSWnI5RG1JclpoQjRSamVnY0ZmdzBXd1lhUDNQS2pGeG9NbGhxNkNqVjJwNW16MVE3a3Fpb3ZuMVVTSXEzaDByUGdNN0ZELVRQa25ZdHVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1281
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMG5BNnJkck5GOS0za01lWWhsVWc5X1M1OFI3NUtXOGMyckNpakFlU3FvVzlKRnkyVTg1V2FCMmpoRHhsRDBzM1lXNnpTQTZHcTB6bURsNkRIc0VUMWQ3cTNQdG1JNGt3Q2dWekNlcGxpWno3eTdidDR1X2hUdHI0WjNSa3FRckQxbk5OTkNWTG1WUVZaakRXUFF0cnRJWmREaWpwc3hoMmxoSk45QjhIMzR5X2ZENGx4dnM4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1282
     }
   ],
   "sourceStatuses": [
