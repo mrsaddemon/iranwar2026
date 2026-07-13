@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1280,
+  "updateSequence": 1281,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T16:08:16.789Z",
+  "lastSyncedAt": "2026-07-13T18:11:52.453Z",
   "warDay": 136,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "A previously active ceasefire has disintegrated following renewed US strikes and the reinstatement of a naval blockade."
+    "summary": "No active ceasefire is in effect between the primary belligerents, with direct military actions and threats ongoing."
   }
 }
