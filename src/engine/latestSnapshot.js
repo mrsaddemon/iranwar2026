@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1278,
+  "updateSequence": 1279,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T11:23:54.663Z",
+  "lastSyncedAt": "2026-07-13T13:40:37.277Z",
   "warDay": 136,
-  "summary": "The United States and Iran have engaged in a second night of direct strikes and counter-strikes, leading to the disintegration of a ceasefire and a halt in shipping through the Strait of Hormuz.",
+  "summary": "The United States and Iran are engaged in escalating military exchanges, particularly concerning control of the Strait of Hormuz, while Iran has also launched attacks on regional allies, and Israel continues operations against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-07-13",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "The ceasefire between the US and Iran has disintegrated amidst renewed strikes and counter-strikes, particularly around the Strait of Hormuz."
+    "summary": "No ceasefire is active between the primary belligerents, with hostilities escalating."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "nuclearIndex": 60,
+    "escalationLevel": 90,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
+    "sanctionsPressure": 64,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 12",
-      "text": "US launches strikes on Iran for a second night.",
+      "text": "US launches strikes on Iran for a second consecutive night.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBWM2xxSUF3aEVMRDZvd3BaWU1UbnJnd1dHRUxqOS12MzhMbDljeklxNFlMYUxuRkNwQlhSejdMUkVqWWRSY1Vnb25BUi1NalVUcmZIMW1HWDE1eUc3MEEzNlNtLXZsaHdEaDVwQjZaM2U3UHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1277
+      "latestSinceUpdate": 1279
     },
     {
       "date": "Jul 12",
-      "text": "Iran launches attacks on American military facilities in Bahrain and Kuwait after fresh US strikes.",
+      "text": "Iran attacks Bahrain, Kuwait, and Jordan following US bombings.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQSy1rNTNpcGVXcGpQdExuXy1LQk1tQUNYVS1URmR2eVZYRVY0aUpMVGNpVmppODB0ZGZvVjRneml0aG1ISHhXSm1KazUtZlg4a3lQQ3c1dFQ2amt2RUotcUR5Mk5LbXYyX1ozbmxGM3dhRXZ6eUtCWlFDVVVDR3d5NGRBT2lfck5hd2xKRFdIVzBpeVhqREEzX0pXUTdNaE1sTlpnVHZDMldldWYzemxEN2hNa2JlOF9VTUZtVDFsU2ZUUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1278
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQbzFBN0l4LWl2SWxzSGxUd1ZRQ25Pckc1bk9tcnlOcFYwcTJqdHJjU2NhNGFGbTNTUk90ZVB5Q0ZqT00yanlWNWpNR1BUdWtOOS1ZMkRFVlJnTjRiaUJGS0NEczZOWXVldEN6OGZIbG9zcVI5LUZwd2YzemNMYWdMTkNwdjQ0T1ZwQWR4YUpYNDVBcHZhdHBuVUgtNVA2aGk0ckQxOW5ybXFuUFNtYldaaFNKRGt6NHQ1dWMtNG12cWlmZ9IBxwFBVV95cUxQbE9Tbml3V3hjSXdXaGozdWZhUDJEYWVHckpmS1lxbjgyZGtxTjFxY0dkWExIZVQ2ZHhBaTNBZ1NPWlo3WTJieHlyYS1PNzVKODdTNVB0VUQ3ZVBvcFltZ0NDVEhxLURjb0tPSlBXSFhHbkNpRWVkNnVibmpYRFZhWkFvbmt0VjZEcU92SDROLTZRY2l3aExDT1dDNDYzLVlETTdTa1o0a3UwUXY3dFdqV0J4UWptaGpRVGRMbkV1V1QxemxsQlpB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1279
     },
     {
       "date": "Jul 12",
-      "text": "Ships stop crossing Strait of Hormuz as US and Iran exchange overnight strikes.",
+      "text": "US and Iran each assert control over the Strait of Hormuz after heavy exchanges of fire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE1LQ2IyTmsyTXlsYjJHR0NpMEFCT2Q0Z3UwS0JzSXRlTFRpZ3hzc3dzOW9rak1NWVd5ZllBR1Z3Q1I4LUVLamVTbHBCWlVkcTY2RTI1Ng?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1278
-    },
-    {
-      "date": "Jul 12",
-      "text": "Ceasefire disintegrates as US and Iran trade strikes over Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1278
-    },
-    {
-      "date": "Jul 12",
-      "text": "US and Iran vie for Strait of Hormuz control.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZkFVX3lxTE5RN2F5TFp4alVXdFMtbHlGbTQwLWJtc1dWemU0QUtFVGoyQ0tfVm00OTFGWGRQYVB6NUp6V2tvdlFzSU1iZHBORzczRkVXQVZ4eS1DOWJiLXdPSFFxWE1ueW95N2ItQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNQXlDMHpMczFma2paOVJQMzZuZzVNVFZLeS04V0VXUk1zUFBSTGRaelYzaU1fQlg0azEwQ1dQQ2lfV2VmOFBMZ0ZGa0tjSWJGUWVFdDhhUTdCbmpKMy1QRHVOdE5YRnliNmJfVkRKU09zdVhYSm1hQW94MDlUbEp1OXB0ZjIzZlFtYUdZZHBQb2pHT1V5bjZtbVE0QVN3cTg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1278
+      "latestSinceUpdate": 1279
     },
     {
       "date": "Jul 12",
-      "text": "A Hezbollah lair built to attack Israel is unearthed beneath Beaufort’s strategic bulwark.",
+      "text": "IDF strikes Hezbollah terrorists transferring weapons in Southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMG5BNnJkck5GOS0za01lWWhsVWc5X1M1OFI3NUtXOGMyckNpakFlU3FvVzlKRnkyVTg1V2FCMmpoRHhsRDBzM1lXNnpTQTZHcTB6bURsNkRIc0VUMWQ3cTNQdG1JNGt3Q2dWekNlcGxpWno3eTdidDR1X2hUdHI0WjNSa3FRckQxbk5OTkNWTG1WUVZaakRXUFF0cnRJWmREaWpwc3hoMmxoSk45QjhIMzR5X2ZENGx4dnM4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1278
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPd3ZXSWZzT08yWjFpQmlfZkFTaXFsWkhzWXlnQktZSGotdzRrUk9kRm1DSXJIY2ppU3REVkRRNVhfMmtrQ0tBZmFOaFoyTzh1TWluS3psdE8xUTBuSXlOS3dSWnI5RG1JclpoQjRSamVnY0ZmdzBXd1lhUDNQS2pGeG9NbGhxNkNqVjJwNW16MVE3a3Fpb3ZuMVVTSXEzaDByUGdNN0ZELVRQa25ZdHVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "JNS",
+      "latestSinceUpdate": 1279
+    },
+    {
+      "date": "Jul 12",
+      "text": "Trump orders new round of strikes to 'hold Iranian forces accountable' and suggests US will 'keep' and 'probably run' the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1279
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +114,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
