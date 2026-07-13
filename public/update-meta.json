@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1274,
-  "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T23:31:14.160Z",
-  "warDay": 135,
+  "updateSequence": 1275,
+  "lastUpdated": "2026-07-13",
+  "lastSyncedAt": "2026-07-13T01:07:52.430Z",
+  "warDay": 136,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 30,
-    "summary": "A previously active ceasefire between the US and Iran has been declared over by the US, amidst escalating military engagements."
+    "confidence": 0.98,
+    "durationDays": 10,
+    "summary": "A ceasefire is active in Lebanon, allowing some tourism, but the IDF remains present and Hezbollah is regrouping, indicating its fragility."
   }
 }

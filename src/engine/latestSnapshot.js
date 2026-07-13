@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1274,
-  "lastUpdated": "2026-07-12",
-  "lastSyncedAt": "2026-07-12T23:31:14.160Z",
-  "warDay": 135,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-07-12",
+  "updateSequence": 1275,
+  "lastUpdated": "2026-07-13",
+  "lastSyncedAt": "2026-07-13T01:07:52.430Z",
+  "warDay": 136,
+  "summary": "The United States and Iran are engaged in direct military strikes following a ship attack in the Strait of Hormuz, while Israel also conducted strikes in Iran and maintains a presence in Lebanon amidst a ceasefire.",
+  "lastNarrativeUpdate": "2026-07-13",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 30,
-    "summary": "A previously active ceasefire between the US and Iran has been declared over by the US, amidst escalating military engagements."
+    "confidence": 0.98,
+    "durationDays": 10,
+    "summary": "A ceasefire is active in Lebanon, allowing some tourism, but the IDF remains present and Hezbollah is regrouping, indicating its fragility."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.78,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 93,
-    "tradeImpact": 68,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 11",
-      "text": "US launches strikes on Iran after ship attack in Strait of Hormuz.",
+      "text": "US launches new strikes across Iran after ship attack in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBYMVlvZWhZemtQSGdfTzNxam9JME9jc3RlNy1rUDNIT1lzM0l6ZHlFWGQyU3FpV2JNVXlDRUlMbEVhWi13bHZTSHdfS0VvWkhmTksyY041b19tLUNHajB6RkVHaloxdnBEX0dheGln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1274
+      "latestSinceUpdate": 1275
+    },
+    {
+      "date": "Jul 11",
+      "text": "Iran targets Gulf States and claims the Strait of Hormuz is closed following intense U.S. strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxQZkg3Y2hLME44SkItWjB5OXdQTlB4NFNhSnZObFBQbzMtV3ZxZnNHZmk1WHJ0RmV0RnY5R2Z4VTJLc1JxYTNjeWdfdWFrNkYyMnNzX1lORzFHTlRwQjduWGMyaWlzSGJndDgzU3h0Y2NPQjU0OXBwNHlpMElvY05XS2luQkhVdmh0NUVsaEpNS2ZDdWNHSUZ3Z3VTMzZJUjBuNmgySkRSei1MdC1xUGpTVmFPbUtsNWNHdWJUSTlrUWJOZ0Y0Y1plcjNINkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1275
+    },
+    {
+      "date": "Jul 11",
+      "text": "US military states the Strait of Hormuz remains open, despite Iran's claims.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPdTRGX25BSEZSVU82ZTc0UWFILWRQZlctMWo1TjlzZ3lFV2c5SUd2Tl9yQjlXd3F6Q3BMdXdfZDZtYml3OC0yamRQZW9Zb1M5bmgtci1wazlqWUo3cmpoSUhhLTd2aEltYlNxME9nal9YMjZsdE5veEg0UGZTcFZvRHFjaHJtelhjUzZrM3FtdUxLY25hbk5QSmQ2dEozYkFmY25tTTNCaGVta2c0Ymc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1275
     },
     {
       "date": "Jul 11",
@@ -76,41 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 11",
-      "text": "Trump and Iran's supreme leader exchange threats, with Trump stating a ceasefire is 'over'.",
+      "text": "IDF prepares for a long stay in Lebanon as Hezbollah regroups under a ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1274
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9fNnJZX1dsQXM1b01QbXByazJEZFdoRW1xbTl5S2NHV0I2ZDk2YV9nRU5uRjQycVNRTWVDNnZlZmhpeUMza2VWblBNeW93TTk4V09VS2dn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 1275
     },
     {
       "date": "Jul 11",
-      "text": "Oil prices rise significantly as US and Iran engage in conflict over the Strait of Hormuz.",
+      "text": "Survivors claim generals ignored warnings before an Iranian attack that killed 6 U.S. troops.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOVFYzekVvMlNULUZZc3ZlUkE5RmRjYVE0ZXJMLW80SzQ5MzhLRUt0UlZRRmxXbi1sQ3Q4REVTcXZNSVg3bFVwRnNwT3FKbXVBaGZvWWhuOUVLSUZ6X2dUTHlVMGcxVlRaR25EYkVkckw5VG55ZlZObmRQRjRMQ1JqclkwVm7SAYoBQVVfeXFMT0RzeVVLZHMxdEFSczJLVFpiODNfYjJXN0gtWFNsbGlveVJfQXkxendKY2J0UkJHQ0pnMGRBVFVwWk03ZExkc2tjb0paNzQzTXlTNXhYMnR3Nkh4R3NZOTB6RjF5X05iclhwMTBoVklQQks0UTBncUFIYzhCdzNEYmdERUdMWkJYdUxn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1274
-    },
-    {
-      "date": "Jul 12",
-      "text": "US launches third round of strikes after Iran announces closure of the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1rclVBV3NOWkZ1anJEem16QXhnTElxOGNHcFd6Tktkd25MYVVJTDJXSTlkSzN2b0dPNVlrV3JZVVhvNHdtTmFRQ1pIT2puc3k4YnBoZ0FoRmFsVE8yeU1JYjlyTjM4WVVxTms3OXlmZVJ6LU5nUkhPZdIBfkFVX3lxTFBfQnJzZDJGUlBnM3VyV09YeUo4VkwwTVBQc3RwX0NwWUNRLTZUYnI4VFhzYWtQR2U5MTBtODNRYzVLT2JQeXBFdHFMSlFrVDZQZ25XMTFYWWlZaVlIVGRUd3dRVnlDdHlHNTNHaE5hY1k4cnVfamNfMGp5QUdCUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1274
-    },
-    {
-      "date": "Jul 12",
-      "text": "Tensions deepen in Lebanon over efforts to disarm Hezbollah, with the IDF preparing for a long stay.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1274
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxQRWt5dzlReFlGS2NnSUJWX0loQm8yZUwwWkZWcTNBdWhULXg5RThSSHVaLVJCbjhna0dpU3ptLUFFRjdCR095WkFkcEFsY0VoYjBEcGVIUEh0Vk93OE9kR29WTDd1dlJGVW9xblVGSVBNTTZBZHc0RWdvSHppa0FqMkR2cEpxRUlqa2ZYMmtsVjM4Yk1HM2hxdjhVS09kbkthTkFOblp5emN2eW1nV3Z0RFN5R09WOGhFR0dSM0dURllHbXdnVzZhLThPVkF3SVMyMEtPeGxB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1275
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Stance",
-      "headline": "US Demands Open Hormuz, Israel Signals Further Strikes",
-      "summary": "The US is demanding Iran publicly guarantee the Strait of Hormuz remains open and free from attacks, while launching retaliatory strikes. Israel has signaled readiness for further military action against Iran with 'even greater force'.",
+      "perspective": "US/Western",
+      "headline": "Holding Iran Accountable Amid Strait Tensions",
+      "summary": "The United States is conducting strikes to hold Iranian forces accountable for attacks on shipping and to ensure freedom of navigation in the Strait of Hormuz. President Trump has agreed to talks but declared a previous ceasefire 'over'.",
       "tone": "defiant",
-      "latestSinceUpdate": 1258
+      "latestSinceUpdate": 1275
     },
     {
-      "perspective": "Iran Stance",
-      "headline": "Iran Closes Hormuz, Launches Strikes on US Targets",
-      "summary": "Iran's IRGC navy has declared the Strait of Hormuz closed following an attack on a ship, and Tehran has launched strikes, claiming to hit US military targets in the Gulf. This comes amidst the burial of leader Khamenei.",
+      "perspective": "Iranian",
+      "headline": "Retaliation and Strait Closure Claims",
+      "summary": "Iran claims to have closed the Strait of Hormuz and is targeting Gulf states in response to intense US and Israeli strikes. Iranian forces continue to engage in exchanges with US military.",
       "tone": "defiant",
-      "latestSinceUpdate": 1258
+      "latestSinceUpdate": 1275
     },
     {
-      "perspective": "International Mediation",
-      "headline": "Mediators Work to De-escalate US-Iran Tensions",
-      "summary": "International mediators are actively working to de-escalate the renewed tensions between the US and Iran and revive talks. Efforts are underway to prevent further escalation in the region.",
+      "perspective": "Israeli",
+      "headline": "Strikes in Iran and Lebanon Presence",
+      "summary": "Israel has conducted strikes in Iran and is preparing for a prolonged presence in Lebanon to counter Hezbollah, despite a local ceasefire. This comes as a Hezbollah lair was reportedly unearthed.",
       "tone": "strained",
-      "latestSinceUpdate": 1258
-    },
-    {
-      "perspective": "Lebanon Instability",
-      "headline": "Hezbollah Disarmament Fuels Lebanon Divisions",
-      "summary": "Efforts to disarm Hezbollah are deepening internal divisions within Lebanon, raising fears of a potential civil war. The IDF is preparing for a prolonged presence in Lebanon as Hezbollah regroups.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1258
+      "latestSinceUpdate": 1275
     }
   ]
 });
