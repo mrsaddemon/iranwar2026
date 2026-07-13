@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1285,
+  "updateSequence": 1286,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T22:39:45.473Z",
+  "lastSyncedAt": "2026-07-13T23:37:48.223Z",
   "warDay": 136,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts reported."
+    "summary": "No ceasefire is active as hostilities between the US and Iran have resumed, accompanied by a reinstated blockade."
   }
 }
