@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1275,
+  "updateSequence": 1276,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T01:07:52.430Z",
+  "lastSyncedAt": "2026-07-13T04:50:06.669Z",
   "warDay": 136,
-  "summary": "The United States and Iran are engaged in direct military strikes following a ship attack in the Strait of Hormuz, while Israel also conducted strikes in Iran and maintains a presence in Lebanon amidst a ceasefire.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-13",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire is active in Lebanon, allowing some tourism, but the IDF remains present and Hezbollah is regrouping, indicating its fragility."
+    "summary": "The US-Iran ceasefire is declared over, indicating active conflict, though a separate Lebanon ceasefire is noted as fragile."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "nuclearIndex": 10,
+    "escalationLevel": 38,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 11",
-      "text": "US launches new strikes across Iran after ship attack in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBYMVlvZWhZemtQSGdfTzNxam9JME9jc3RlNy1rUDNIT1lzM0l6ZHlFWGQyU3FpV2JNVXlDRUlMbEVhWi13bHZTSHdfS0VvWkhmTksyY041b19tLUNHajB6RkVHaloxdnBEX0dheGln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1275
-    },
-    {
-      "date": "Jul 11",
-      "text": "Iran targets Gulf States and claims the Strait of Hormuz is closed following intense U.S. strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxQZkg3Y2hLME44SkItWjB5OXdQTlB4NFNhSnZObFBQbzMtV3ZxZnNHZmk1WHJ0RmV0RnY5R2Z4VTJLc1JxYTNjeWdfdWFrNkYyMnNzX1lORzFHTlRwQjduWGMyaWlzSGJndDgzU3h0Y2NPQjU0OXBwNHlpMElvY05XS2luQkhVdmh0NUVsaEpNS2ZDdWNHSUZ3Z3VTMzZJUjBuNmgySkRSei1MdC1xUGpTVmFPbUtsNWNHdWJUSTlrUWJOZ0Y0Y1plcjNINkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1275
-    },
-    {
-      "date": "Jul 11",
-      "text": "US military states the Strait of Hormuz remains open, despite Iran's claims.",
+      "date": "Jul 12",
+      "text": "Trump says agreed to talks with Tehran, but ceasefire ‘over’.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPdTRGX25BSEZSVU82ZTc0UWFILWRQZlctMWo1TjlzZ3lFV2c5SUd2Tl9yQjlXd3F6Q3BMdXdfZDZtYml3OC0yamRQZW9Zb1M5bmgtci1wazlqWUo3cmpoSUhhLTd2aEltYlNxME9nal9YMjZsdE5veEg0UGZTcFZvRHFjaHJtelhjUzZrM3FtdUxLY25hbk5QSmQ2dEozYkFmY25tTTNCaGVta2c0Ymc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1275
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1276
     },
     {
-      "date": "Jul 11",
-      "text": "Israel conducts strikes in Iran, according to the IDF.",
+      "date": "Jul 13",
+      "text": "US demands Iran publicly state that Strait of Hormuz is open and Tehran won't attack ships anymore.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQMkgxNzlSWHpvYWVhcGhmNkJTRzJIa2R1Z1ZfOGJYdElvenoxa2diSHR6bTFJaWx2M0VZZ0JWM2Y1VjZrYzBOWTlFTUdLNHk2YzFWZGJJazJNSHU2VUdDbnpHaURzc25SeS1PVXp5dEJVWWdhbDdwUkNCTHhlUVQyXzZYOG5ZNlNSektpNUpYbFNYOEs0ZTl4Tk96SHd6b3M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1276
+    },
+    {
+      "date": "Jul 13",
+      "text": "IRGC navy declares Strait of Hormuz closed.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQOTZxZFcwTy1SYWVwNF9fbHE1cW5FekRidTZxUE5ickx6M2cwekVTVkc2eTY5ZGh2YWJFcWJRcmYtMnNQT3g4ZjJQYjdGRVpQZGd0LWpFVEh5LU1WSUt1ZlRVaTBsbXI0cEJDWGdOWXZRYUppM0JhTFJvekY2bFJ3MG02S1l6cGtqSVBNc2VRV2FhbkdpR0pKMHFnTUl6ejRZWmVWaUd3WmNVaS04ZVBRV1V6dW81bzBpTmtaUW1SeEE5d9IBxwFBVV95cUxNRm5pVE40OFNwLXdrN0t0STd5MktaVHVzRHhvM3AtekdBVkVyY19UWWpDM2lhRV9rWTVTcklWWVcySWdabWg4QmRlVWw4ajFQeS03RGhZdFpmWkhKT3BnSXI3MEdHZENYQnJIVkhCUmNveEtWT1N4MkhDVVRLSVRZcGpHTE4tQzhaZzZFMTdlT29hdDNYclpWMkI0TFZPZUlqcFNhTjY2eDNocU9aMWU5YXI3YUpjTjJLMlE3NGtIYkpzRXhPWWFV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1276
+    },
+    {
+      "date": "Jul 13",
+      "text": "More explosions as US says launching new strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1276
+    },
+    {
+      "date": "Jul 13",
+      "text": "Trump orders new round of strikes to 'hold Iranian forces accountable,' CENTCOM says.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1276
+    },
+    {
+      "date": "Jul 13",
+      "text": "Israel conducts strikes in Iran, IDF says.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1274
-    },
-    {
-      "date": "Jul 11",
-      "text": "IDF prepares for a long stay in Lebanon as Hezbollah regroups under a ceasefire.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9fNnJZX1dsQXM1b01QbXByazJEZFdoRW1xbTl5S2NHV0I2ZDk2YV9nRU5uRjQycVNRTWVDNnZlZmhpeUMza2VWblBNeW93TTk4V09VS2dn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 1275
-    },
-    {
-      "date": "Jul 11",
-      "text": "Survivors claim generals ignored warnings before an Iranian attack that killed 6 U.S. troops.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxQRWt5dzlReFlGS2NnSUJWX0loQm8yZUwwWkZWcTNBdWhULXg5RThSSHVaLVJCbjhna0dpU3ptLUFFRjdCR095WkFkcEFsY0VoYjBEcGVIUEh0Vk93OE9kR29WTDd1dlJGVW9xblVGSVBNTTZBZHc0RWdvSHppa0FqMkR2cEpxRUlqa2ZYMmtsVjM4Yk1HM2hxdjhVS09kbkthTkFOblp5emN2eW1nV3Z0RFN5R09WOGhFR0dSM0dURllHbXdnVzZhLThPVkF3SVMyMEtPeGxB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1275
+      "latestSinceUpdate": 1276
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

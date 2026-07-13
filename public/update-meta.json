@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1275,
+  "updateSequence": 1276,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T01:07:52.430Z",
+  "lastSyncedAt": "2026-07-13T04:50:06.669Z",
   "warDay": 136,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 10,
-    "summary": "A ceasefire is active in Lebanon, allowing some tourism, but the IDF remains present and Hezbollah is regrouping, indicating its fragility."
+    "summary": "The US-Iran ceasefire is declared over, indicating active conflict, though a separate Lebanon ceasefire is noted as fragile."
   }
 }
