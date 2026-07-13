@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1282,
+  "updateSequence": 1283,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T19:52:25.222Z",
+  "lastSyncedAt": "2026-07-13T20:44:58.447Z",
   "warDay": 136,
-  "summary": "The United States has renewed its blockade of Iran and launched new strikes, while threatening to charge tolls for passage through the Strait of Hormuz, leading to an exchange of fire with the IRGC.",
+  "summary": "The United States has launched a second night of strikes on Iran and renewed a naval blockade of the Strait of Hormuz, leading to an exchange of fire with the IRGC.",
   "lastNarrativeUpdate": "2026-07-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active; direct conflict and escalation are ongoing between the US and Iran."
+    "summary": "No ceasefire is active amidst ongoing US strikes and naval blockade against Iran."
   },
   "actorOverrides": {
     "usa": {
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 90,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
     "oilDisruption": 95,
-    "tradeImpact": 85,
+    "tradeImpact": 84,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,35 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 12",
-      "text": "Trump renews Iran blockade and threatens to take control of the Strait of Hormuz, proposing a 20% toll for passage.",
+      "text": "US naval blockade of Iran to begin on Tuesday, with threats to charge a 20% Hormuz fee.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQNWFGOFJuSzNYX1FIdUwzUlh3R3hEVDYxc2w5WmhaMWxfSFV0Q3lwU0poZXNfTzRzWmNwWjVULURYQzMyUHdlYV8yQUctLWQ1ZXdqalpuODBkd3FEWko2dFRjZGxaeTlwX3owSC1BVEpYRTZqUnNkaGpyMjhDeW03N3FOSFpsYUdmUEo4TUtzUDBEbVBGOUJrdmY0eFlIRi03UzNiVXpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1282
-    },
-    {
-      "date": "Jul 12",
-      "text": "US and IRGC forces exchange fire over the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxPVjRMWlNaRDhUd1I4Y0pIa3ZQaDdqWUR2TUVCNGl5bDlVT0Y4LTF5LUhtTDR5Ynk5dkZ4bzJXRDBkSTg4VVoyTkdmU3o0bHZYLV9NZTVBaGlraGMxdWhEd3VjdFZNbXQ3SXlLcHkzMlNtR0lOMkxvWWo3ZlpnTTdIX2UtS1lMUGM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1282
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQbzFBN0l4LWl2SWxzSGxUd1ZRQ25Pckc1bk9tcnlOcFYwcTJqdHJjU2NhNGFGbTNTUk90ZVB5Q0ZqT00yanlWNWpNR1BUdWtOOS1ZMkRFVlJnTjRiaUJGS0NEczZOWXVldEN6OGZIbG9zcVI5LUZwd2YzemNMYWdMTkNwdjQ0T1ZwQWR4YUpYNDVBcHZhdHBuVUgtNVA2aGk0ckQxOW5ybXFuUFNtYldaaFNKRGt6NHQ1dWMtNG12cWlmZ9IBxwFBVV95cUxQbE9Tbml3V3hjSXdXaGozdWZhUDJEYWVHckpmS1lxbjgyZGtxTjFxY0dkWExIZVQ2ZHhBaTNBZ1NPWlo3WTJieHlyYS1PNzVKODdTNVB0VUQ3ZVBvcFltZ0NDVEhxLURjb0tPSlBXSFhHbkNpRWVkNnVibmpYRFZhWkFvbmt0VjZEcU92SDROLTZRY2l3aExDT1dDNDYzLVlETTdTa1o0a3UwUXY3dFdqV0J4UWptaGpRVGRMbkV1V1QxemxsQlpB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1283
     },
     {
       "date": "Jul 12",
       "text": "Iran rejects US claims over the Strait of Hormuz and mocks Trump's vow to charge tolls.",
-      "severity": "warning",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
       "latestSinceUpdate": 1282
     },
     {
       "date": "Jul 12",
-      "text": "A Hezbollah lair built to attack Israel is reportedly unearthed beneath Beaufort's strategic bulwark.",
+      "text": "Iran war escalates as US and IRGC exchange fire over the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxPVjRMWlNaRDhUd1I4Y0pIa3ZQaDdqWUR2TUVCNGl5bDlVT0Y4LTF5LUhtTDR5Ynk5dkZ4bzJXRDBkSTg4VVoyTkdmU3o0bHZYLV9NZTVBaGlraGMxdWhEd3VjdFZNbXQ3SXlLcHkzMlNtR0lOMkxvWWo3ZlpnTTdIX2UtS1lMUGM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1283
+    },
+    {
+      "date": "Jul 12",
+      "text": "A Hezbollah lair built to attack Israel is unearthed beneath Beaufort's strategic bulwark.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMG5BNnJkck5GOS0za01lWWhsVWc5X1M1OFI3NUtXOGMyckNpakFlU3FvVzlKRnkyVTg1V2FCMmpoRHhsRDBzM1lXNnpTQTZHcTB6bURsNkRIc0VUMWQ3cTNQdG1JNGt3Q2dWekNlcGxpWno3eTdidDR1X2hUdHI0WjNSa3FRckQxbk5OTkNWTG1WUVZaakRXUFF0cnRJWmREaWpwc3hoMmxoSk45QjhIMzR5X2ZENGx4dnM4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1282
+      "latestSinceUpdate": 1283
+    },
+    {
+      "date": "Jul 12",
+      "text": "Israeli ambassador states IDF Lebanon withdrawal hinges on Hezbollah.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE05Mms2b3NCRXZDRWU4cUpwLXVPQ2dVeFRjZFVaVzhrR1FUYy1IV0hjTFA3a2JqX1IyVjJMR1AtNXY1LTdzUWlkalh5N0s2U1FXYkhmUmZwVHpISEVL?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1283
     }
   ],
   "sourceStatuses": [
