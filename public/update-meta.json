@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1276,
+  "updateSequence": 1277,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T04:50:06.669Z",
+  "lastSyncedAt": "2026-07-13T07:58:02.281Z",
   "warDay": 136,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "The US-Iran ceasefire is declared over, indicating active conflict, though a separate Lebanon ceasefire is noted as fragile."
+    "summary": "A ceasefire is reported to be active in Lebanon, allowing tourism, but the primary US-Iran conflict continues to escalate."
   }
 }
