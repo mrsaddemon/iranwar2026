@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1279,
+  "updateSequence": 1280,
   "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T13:40:37.277Z",
+  "lastSyncedAt": "2026-07-13T16:08:16.789Z",
   "warDay": 136,
-  "summary": "The United States and Iran are engaged in escalating military exchanges, particularly concerning control of the Strait of Hormuz, while Iran has also launched attacks on regional allies, and Israel continues operations against Hezbollah in Lebanon.",
+  "summary": "The United States launched a second night of strikes on Iran and reinstated a naval blockade of the Strait of Hormuz, as a ceasefire disintegrated and Iran declared diplomacy futile.",
   "lastNarrativeUpdate": "2026-07-13",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No ceasefire is active between the primary belligerents, with hostilities escalating."
+    "summary": "A previously active ceasefire has disintegrated following renewed US strikes and the reinstatement of a naval blockade."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 90,
-    "oilDisruption": 90,
-    "tradeImpact": 81,
-    "sanctionsPressure": 64,
-    "globalPressure": 86,
+    "nuclearIndex": 45,
+    "escalationLevel": 48,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,49 +60,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 12",
-      "text": "US launches strikes on Iran for a second consecutive night.",
+      "text": "US launches strikes on Iran for a second night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1279
+      "latestSinceUpdate": 1280
     },
     {
       "date": "Jul 12",
-      "text": "Iran attacks Bahrain, Kuwait, and Jordan following US bombings.",
+      "text": "Trump says US will reinstate Strait of Hormuz blockade and impose 20% charge on cargo.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQbzFBN0l4LWl2SWxzSGxUd1ZRQ25Pckc1bk9tcnlOcFYwcTJqdHJjU2NhNGFGbTNTUk90ZVB5Q0ZqT00yanlWNWpNR1BUdWtOOS1ZMkRFVlJnTjRiaUJGS0NEczZOWXVldEN6OGZIbG9zcVI5LUZwd2YzemNMYWdMTkNwdjQ0T1ZwQWR4YUpYNDVBcHZhdHBuVUgtNVA2aGk0ckQxOW5ybXFuUFNtYldaaFNKRGt6NHQ1dWMtNG12cWlmZ9IBxwFBVV95cUxQbE9Tbml3V3hjSXdXaGozdWZhUDJEYWVHckpmS1lxbjgyZGtxTjFxY0dkWExIZVQ2ZHhBaTNBZ1NPWlo3WTJieHlyYS1PNzVKODdTNVB0VUQ3ZVBvcFltZ0NDVEhxLURjb0tPSlBXSFhHbkNpRWVkNnVibmpYRFZhWkFvbmt0VjZEcU92SDROLTZRY2l3aExDT1dDNDYzLVlETTdTa1o0a3UwUXY3dFdqV0J4UWptaGpRVGRMbkV1V1QxemxsQlpB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1279
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE1LQ2IyTmsyTXlsYjJHR0NpMEFCT2Q0Z3UwS0JzSXRlTFRpZ3hzc3dzOW9rak1NWVd5ZllBR1Z3Q1I4LUVLamVTbHBCWlVkcTY2RTI1Ng?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1280
     },
     {
       "date": "Jul 12",
-      "text": "US and Iran each assert control over the Strait of Hormuz after heavy exchanges of fire.",
+      "text": "Ceasefire disintegrates as Trump says US will reinstate blockade of Iranian ships in Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNQXlDMHpMczFma2paOVJQMzZuZzVNVFZLeS04V0VXUk1zUFBSTGRaelYzaU1fQlg0azEwQ1dQQ2lfV2VmOFBMZ0ZGa0tjSWJGUWVFdDhhUTdCbmpKMy1QRHVOdE5YRnliNmJfVkRKU09zdVhYSm1hQW94MDlUbEp1OXB0ZjIzZlFtYUdZZHBQb2pHT1V5bjZtbVE0QVN3cTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1279
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1280
     },
     {
       "date": "Jul 12",
-      "text": "IDF strikes Hezbollah terrorists transferring weapons in Southern Lebanon.",
+      "text": "Hezbollah insists on linking Lebanon to Iran-US negotiations.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPd3ZXSWZzT08yWjFpQmlfZkFTaXFsWkhzWXlnQktZSGotdzRrUk9kRm1DSXJIY2ppU3REVkRRNVhfMmtrQ0tBZmFOaFoyTzh1TWluS3psdE8xUTBuSXlOS3dSWnI5RG1JclpoQjRSamVnY0ZmdzBXd1lhUDNQS2pGeG9NbGhxNkNqVjJwNW16MVE3a3Fpb3ZuMVVTSXEzaDByUGdNN0ZELVRQa25ZdHVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "JNS",
-      "latestSinceUpdate": 1279
-    },
-    {
-      "date": "Jul 12",
-      "text": "Trump orders new round of strikes to 'hold Iranian forces accountable' and suggests US will 'keep' and 'probably run' the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1279
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1280
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (14 headlines)"
     },
     {
       "source": "GDELT",
