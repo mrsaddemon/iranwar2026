@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1286,
-  "lastUpdated": "2026-07-13",
-  "lastSyncedAt": "2026-07-13T23:37:48.223Z",
-  "warDay": 136,
+  "updateSequence": 1287,
+  "lastUpdated": "2026-07-14",
+  "lastSyncedAt": "2026-07-14T01:05:09.571Z",
+  "warDay": 137,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No ceasefire is active as hostilities between the US and Iran have resumed, accompanied by a reinstated blockade."
+    "summary": "The ceasefire between Israel and Iran is imperiled by renewed strikes, and a broader regional ceasefire has collapsed with the US declaration of a new war against Iran."
   }
 }
