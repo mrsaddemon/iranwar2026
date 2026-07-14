@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1287,
+  "updateSequence": 1288,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T01:05:09.571Z",
+  "lastSyncedAt": "2026-07-14T04:12:31.781Z",
   "warDay": 137,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "The ceasefire between Israel and Iran is imperiled by renewed strikes, and a broader regional ceasefire has collapsed with the US declaration of a new war against Iran."
+    "summary": "Direct military actions between the US and Iran, and Iranian attacks on tankers, indicate a collapse of any prior ceasefire."
   }
 }
