@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1292,
+  "updateSequence": 1293,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T12:00:00.000Z",
+  "lastSyncedAt": "2026-07-14T14:05:36.437Z",
   "warDay": 137,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A previously fragile ceasefire between Israel and Iran has fractured amid renewed strikes and attacks on shipping."
+    "summary": "The previously fragile ceasefire between Israel and Iran has fractured amid renewed strikes and escalating tensions in the Strait of Hormuz."
   }
 }
