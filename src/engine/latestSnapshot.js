@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1288,
+  "updateSequence": 1289,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T04:12:31.781Z",
+  "lastSyncedAt": "2026-07-14T06:27:55.456Z",
   "warDay": 137,
-  "summary": "The United States has launched multiple nights of strikes on Iran, prompting Iranian retaliation against tankers in the Strait of Hormuz and attacks on Gulf states, while an already fragile ceasefire between Israel and Iran appears to have collapsed.",
+  "summary": "The United States and Iran are engaged in active conflict, with US strikes and Iranian retaliation across the Middle East, while tensions escalate around the Strait of Hormuz and an Israel-Iran ceasefire remains fragile.",
   "lastNarrativeUpdate": "2026-07-14",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "Direct military actions between the US and Iran, and Iranian attacks on tankers, indicate a collapse of any prior ceasefire."
+    "summary": "The broader US-Iran conflict is active with no ceasefire, while a previously fragile Israel-Iran ceasefire is imperiled by recent strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 95,
     "tradeImpact": 69,
@@ -59,36 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 12",
-      "text": "US launches strikes on Iran for a second and third consecutive night.",
+      "date": "Jul 14",
+      "text": "Trump notifies Congress of a new war against Iran, followed by US attacks and Iranian retaliation across the Middle East.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1288
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQUU9ieHhBZnpPM195b0pyRmt5amMtOURxWmtDRzZmVnBLMWhmXzNJTWotZkhpckc3YzNfSGZuZUtNV1luSEZNdnJ2SGYyS2RuM2Qzdk5tWFBZM1BPUjdOcEFrSjhDcmFlZWcwbXZfaGx5WG5Zd0xSTlJYcWxOSV9FU1FqUDZmVjE4UU0xdjluN3VMQ1FZT2hjMEoxTVkyZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1289
     },
     {
-      "date": "Jul 12",
-      "text": "Iran says it struck two tankers in the Strait of Hormuz, with UAE reporting one fatality.",
+      "date": "Jul 14",
+      "text": "U.S. targets Iranian military assets in latest strikes as Tehran hits Gulf states, with reports of explosions and new US attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1288
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9UZkgxcnIyVnFjR2hHdHVQYVpvd0VzR1h0UXVkZXROckFaVFRUQmFkZ196WmZWSkdvRl82ajlvZzVhSnptbGdxUGY3UDNwcTdxYUl1WHFQMjJPMGRIX1BaalpXVmdLaHlSdXhPaG94a0FfdHc4aEpR0gF8QVVfeXFMTXRWeUlTOHVVem01dFN2MUVCVUJHb2pScGhoN0lRVU9jTmtMTWR2LU5sQjlPYlFrWlpaS20xcTk2WWRSd1QwR3k3NnFGRzRwQzRFX3RNbmY1Q0VkN2YwQ0JRNHRkaDdueDJYQ2dYQmFadkRwVzV3em1Hcncyeg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1289
     },
     {
-      "date": "Jul 12",
-      "text": "Gulf states attacked again following US strikes on Iran.",
+      "date": "Jul 14",
+      "text": "UAE reports 1 killed in a tanker strike amidst ongoing US attacks and Iranian claims of striking two tankers in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOYUNZMjV0NWQ1T1BzdkVvbld5dVdFTzNONVlqc3hwdnF4T19rTkgtNFdRajZpREpMS1FvTmhTN0FweEZmeDQ2ZmstU3hjaXdSMU5PUFRGY1FvV3pqc25Idk9wWXpuZDFpMEtZbm5LTnI5TkR2TGhQTkd0TTRKOHVlcmt3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1288
-    },
-    {
-      "date": "Jul 12",
-      "text": "US resumes shipping blockade as ordered by Trump.",
-      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1288
+      "latestSinceUpdate": 1289
+    },
+    {
+      "date": "Jul 13",
+      "text": "Trump proposes a 20% toll on cargo through the Strait of Hormuz and restarts an Iran blockade, leading to rising oil prices.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPVnd1UFRnWVZxeVZIaVdGWWtCQXRtSXY5NC04TTVLRkh2bkh0ZGNvUERlcHVKak9QRTk5TE9heEEwRWs1NFhHSDBCR2xYQ0swRUlHWFg3UXNxTFdMZ1BsbnF6czZocmk0T1pwdXBHVEliTGJIaExSdW9rMkFMWElsSzJiLTDSAYoBQVVfeXFMUEs3MXZaRlhER0tXNFVZNHNTZHMyNGZGU28yQWZ0bnFMTWVsMnlfM3pBX0hjaUhCLXZkcVJKMVRJSklwT0t6RTNJLXJNc0p0X2hiMzBudUxiSGs1bU50ZllabTdiRlF6WHowMENmV3BiVl9lUGNmaWhCbVBSVVVGSm83b2lqeFZWS3Nn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1289
+    },
+    {
+      "date": "Jul 13",
+      "text": "The US military death toll in the Iran war rises to 14 after a Navy pilot death this month.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxQeXJKVmJOM254RzYxTC1IYjFQTE1qVUVROS1GUEE3RWlTSmFBQ2twclVaNVJxVTJMMHVwX21QZUlGSVFHb2Z6M3N6R1QzTHlpQWJZaFRRMFFnZWdwS2V2RGVBTjlpUkpaSE9GVkdkSW4zRWs4bkdlMEVvakdzY0VyM0M4Ti11b3lJT1U1SkNvZUV3YmhCQUZXT2V4QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1289
     },
     {
       "date": "Jul 12",
@@ -96,14 +104,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1288
-    },
-    {
-      "date": "Jul 12",
-      "text": "A Hezbollah lair built to attack Israel is unearthed beneath Beaufort’s strategic bulwark.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPMG5BNnJkck5GOS0za01lWWhsVWc5X1M1OFI3NUtXOGMyckNpakFlU3FvVzlKRnkyVTg1V2FCMmpoRHhsRDBzM1lXNnpTQTZHcTB6bURsNkRIc0VUMWQ3cTNQdG1JNGt3Q2dWekNlcGxpWno3eTdidDR1X2hUdHI0WjNSa3FRckQxbk5OTkNWTG1WUVZaakRXUFF0cnRJWmREaWpwc3hoMmxoSk45QjhIMzR5X2ZENGx4dnM4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
       "latestSinceUpdate": 1288
     }
   ],
