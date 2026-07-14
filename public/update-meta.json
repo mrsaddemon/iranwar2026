@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1289,
+  "updateSequence": 1290,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T06:27:55.456Z",
+  "lastSyncedAt": "2026-07-14T08:38:27.924Z",
   "warDay": 137,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "The broader US-Iran conflict is active with no ceasefire, while a previously fragile Israel-Iran ceasefire is imperiled by recent strikes."
+    "summary": "A previously fragile ceasefire between Israel and Iran is being imperiled by recent trade of strikes."
   }
 }
