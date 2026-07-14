@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1299,
+  "updateSequence": 1300,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T21:41:07.021Z",
+  "lastSyncedAt": "2026-07-14T22:41:23.277Z",
   "warDay": 137,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A previously fragile ceasefire between Israel and Iran is imperiled by renewed strikes from both sides, particularly around the war's 100th day."
+    "summary": "A previously fragile ceasefire between Israel and Iran has collapsed amidst renewed strikes and regional tensions."
   }
 }
