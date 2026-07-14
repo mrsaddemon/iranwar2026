@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1291,
+  "updateSequence": 1292,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T10:26:28.341Z",
+  "lastSyncedAt": "2026-07-14T12:00:00.000Z",
   "warDay": 137,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A previously fragile ceasefire between Israel and Iran has been imperiled by recent strikes, while a new war between the US and Iran involves active military and economic hostilities."
+    "summary": "A previously fragile ceasefire between Israel and Iran has fractured amid renewed strikes and attacks on shipping."
   }
 }

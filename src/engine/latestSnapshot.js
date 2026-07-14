@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1291,
+  "updateSequence": 1292,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T10:26:28.341Z",
+  "lastSyncedAt": "2026-07-14T12:00:00.000Z",
   "warDay": 137,
-  "summary": "The United States has declared a new war against Iran, initiating fresh strikes and economic blockades, while Iran retaliates with attacks on tankers in the Strait of Hormuz, further imperiling a fragile ceasefire between Israel and Iran.",
+  "summary": "The US has resumed strikes against Iran, which retaliated by attacking oil tankers and other targets in the Strait of Hormuz, while an already fragile ceasefire between Israel and Iran has fractured.",
   "lastNarrativeUpdate": "2026-07-14",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "A previously fragile ceasefire between Israel and Iran has been imperiled by recent strikes, while a new war between the US and Iran involves active military and economic hostilities."
+    "summary": "A previously fragile ceasefire between Israel and Iran has fractured amid renewed strikes and attacks on shipping."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 100
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.95
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.65,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 13",
-      "text": "Trump notifies Congress of new war against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQUU9ieHhBZnpPM195b0pyRmt5amMtOURxWmtDRzZmVnBLMWhmXzNJTWotZkhpckc3YzNfSGZuZUtNV1luSEZNdnJ2SGYyS2RuM2Qzdk5tWFBZM1BPUjdOcEFrSjhDcmFlZWcwbXZfaGx5WG5Zd0xSTlJYcWxOSV9FU1FqUDZmVjE4UU0xdjluN3VMQ1FZT2hjMEoxTVkyZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1291
-    },
-    {
-      "date": "Jul 13",
-      "text": "US attacks Iran and Tehran retaliates across the Middle East, vying for control of the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNQXlDMHpMczFma2paOVJQMzZuZzVNVFZLeS04V0VXUk1zUFBSTGRaelYzaU1fQlg0azEwQ1dQQ2lfV2VmOFBMZ0ZGa0tjSWJGUWVFdDhhUTdCbmpKMy1QRHVOdE5YRnliNmJfVkRKU09zdVhYSm1hQW94MDlUbEp1OXB0ZjIzZlFtYUdZZHBQb2pHT1V5bjZtbVE0QVN3cTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1291
-    },
-    {
-      "date": "Jul 13",
-      "text": "US launches new attacks after Trump’s threats, with more explosions reported.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQbzFBN0l4LWl2SWxzSGxUd1ZRQ25Pckc1bk9tcnlOcFYwcTJqdHJjU2NhNGFGbTNTUk90ZVB5Q0ZqT00yanlWNWpNR1BUdWtOOS1ZMkRFVlJnTjRiaUJGS0NEczZOWXVldEN6OGZIbG9zcVI5LUZwd2YzemNMYWdMTkNwdjQ0T1ZwQWR4YUpYNDVBcHZhdHBuVUgtNVA2aGk0ckQxOW5ybXFuUFNtYldaaFNKRGt6NHQ1dWMtNG12cWlmZ9IBxwFBVV95cUxQbE9Tbml3V3hjSXdXaGozdWZhUDJEYWVHckpmS1lxbjgyZGtxTjFxY0dkWExIZVQ2ZHhBaTNBZ1NPWlo3WTJieHlyYS1PNzVKODdTNVB0VUQ3ZVBvcFltZ0NDVEhxLURjb0tPSlBXSFhHbkNpRWVkNnVibmpYRFZhWkFvbmt0VjZEcU92SDROLTZRY2l3aExDT1dDNDYzLVlETTdTa1o0a3UwUXY3dFdqV0J4UWptaGpRVGRMbkV1V1QxemxsQlpB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1291
-    },
-    {
-      "date": "Jul 13",
-      "text": "Israel and Iran trade strikes, imperiling an already fragile ceasefire in the war's 100th day.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1291
-    },
-    {
-      "date": "Jul 13",
-      "text": "US resumes strikes while Iran claims to have struck two tankers in the Strait of Hormuz.",
+      "text": "US resumes strikes while Iran says it struck two tankers in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1291
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1292
     },
     {
       "date": "Jul 13",
-      "text": "Trump proposes a 20% toll on cargo through the Strait of Hormuz and restarts Iran blockade.",
+      "text": "US attacks Iran and Tehran retaliates across the Middle East as both vie for control of strait.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPVnd1UFRnWVZxeVZIaVdGWWtCQXRtSXY5NC04TTVLRkh2bkh0ZGNvUERlcHVKak9QRTk5TE9heEEwRWs1NFhHSDBCR2xYQ0swRUlHWFg3UXNxTFdMZ1BsbnF6czZocmk0T1pwdXBHVEliTGJIaExSdW9rMkFMWElsSzJiLTDSAYoBQVVfeXFMUEs3MXZaRlhER0tXNFVZNHNTZHMyNGZGU28yQWZ0bnFMTWVsMnlfM3pBX0hjaUhCLXZkcVJKMVRJSklwT0t6RTNJLXJNc0p0X2hiMzBudUxiSGs1bU50ZllabTdiRlF6WHowMENmV3BiVl9lUGNmaWhCbVBSVVVGSm83b2lqeFZWS3Nn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1291
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNQXlDMHpMczFma2paOVJQMzZuZzVNVFZLeS04V0VXUk1zUFBSTGRaelYzaU1fQlg0azEwQ1dQQ2lfV2VmOFBMZ0ZGa0tjSWJGUWVFdDhhUTdCbmpKMy1QRHVOdE5YRnliNmJfVkRKU09zdVhYSm1hQW94MDlUbEp1OXB0ZjIzZlFtYUdZZHBQb2pHT1V5bjZtbVE0QVN3cTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1292
+    },
+    {
+      "date": "Jul 13",
+      "text": "Iranian cruise missiles hit two UAE oil tankers in Hormuz, one sailor killed.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQdF9iNjRwdm9pODdabFB6TGd0b0llZjQxY3NDQWktelE1c2NnUERlYUs2TnNPc0JBaFZvWlZhM3VfRUVwTV9MZUFteVh3VlV0QVhfZi1NUGpQdEp3elpuYnFrVE9Yb1BzNmtGLWdiYlJ2THBOT3NrRmppdG5mNWFVRDcyWmFSRHJzWXJyVVpQYy16cVZKb1I1UEh4eFdYN1VURkFtQmNVanhnM2I4Y3JSLXhHTmhOMXBmSTRMZE4xam5CSlN1eGFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1292
+    },
+    {
+      "date": "Jul 13",
+      "text": "Iran attacks UAE, UK ships in Strait of Hormuz, strikes Bahrain.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTFBlbENNdGhNWjdncUo0Umg1ZEt3RXQ4NmE4LXQ1dHo5N256TGtzUTZMSlZ0LVNvNFhIUXJISHgzUnk0QzBtdWFSUzN3OE1yMXU1MC13WHdxR3FfSzhaU3VYM0twS0pnbXdGdlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1292
+    },
+    {
+      "date": "Jul 13",
+      "text": "Israel and Iran trade strikes, imperiling already fragile ceasefire in war's 100th day.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1292
+    },
+    {
+      "date": "Jul 13",
+      "text": "U.S. crude jumps above $80 as Iran ceasefire fractures; Trump's Hormuz toll plans reignite supply fears.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPUFp4M3l1OG8tUnZQelY4Szg4TmxlblAxbUVLOGYyajUzYXZIbHd0a1pGOGNKWnZKUE5lMzl0WDlySmJENUdWLW1jVXU4WlpfdkRqSU9nRk5JV09zQjRTUnFzTlNSYVItQjd3bkhoYmJGMGU2WkhjM1NOMVgtOVdIbDFVWk1MeW5CUmNEaXBma9IBlAFBVV95cUxOUnVvcWs2VDdLVW05bHZ0d2hRckdoNzBNOTJocFBxakQ1Tkw5d24tcFQ2bW1JdkpDN1ZUU0dNYUNBZ3FOQmFrbzlEWGlCZ1dhb0tnZ05kajMwRkgtb09HUzYxRUtMRFc5VEJSdThHcEd4VWRBcS1nMFM0aXR3aGVxbUNoRkYyd1MxenpQcEZReXpsUlBi?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1292
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
