@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1296,
+  "updateSequence": 1297,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T18:11:18.985Z",
+  "lastSyncedAt": "2026-07-14T19:46:19.388Z",
   "warDay": 137,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "A previously fragile ceasefire between Israel and Iran has collapsed following renewed direct strikes and retaliations."
+    "summary": "The ceasefire has collapsed due to renewed US and Iranian strikes and intensified conflict."
   }
 }
