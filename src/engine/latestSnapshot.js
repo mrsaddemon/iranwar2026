@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1298,
+  "updateSequence": 1299,
   "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T20:45:28.643Z",
+  "lastSyncedAt": "2026-07-14T21:41:07.021Z",
   "warDay": 137,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US has resumed strikes on Iran and restored a naval blockade following Iran's reported attacks on tankers in the Strait of Hormuz, while Israel and Iran have traded strikes, further imperiling a fragile ceasefire.",
   "lastNarrativeUpdate": "2026-07-14",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 100,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A previously fragile ceasefire between Israel and Iran is imperiled by renewed strikes from both sides, particularly around the war's 100th day."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 14",
-      "text": "July 13, 2026 -US resumes strikes while Iran says it struck two tankers in Strait of Hormuz",
-      "severity": "info",
+      "date": "Jul 13",
+      "text": "US resumes strikes on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQMjlSZWpxTTRMSUNuTmRocnVjNlJBZHhCTG81Nktodm1LU2dGZWN5MWZtazRLdkZySE4yX2tnTk9tR3dkWFVZUmFjT0VibVluVDd5X040dDBoRlYxd3VBaHhLRXhyWm8xUENUcjRsUHg3QTktQWo5X0FWTXVnLXBSMQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1299
+    },
+    {
+      "date": "Jul 13",
+      "text": "Iran claims striking two tankers in Strait of Hormuz.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1298
+      "latestSinceUpdate": 1299
     },
     {
-      "date": "Jul 14",
-      "text": "Iran war live: Trump reverses 20-percent Hormuz tariff announcement",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNZ1FmMWtLM2FxQldvem5lcHN6MlA5S2hJLXY0cHhmbi03eDhwOHZiUndwVFljaUgwcVZWRTBjUEl5MXAwZlo5X2EzLVNsdU5pTk9wcEk0dDc1bHNNS2F3MllFUktjaUVHQlJST1doektLNkp6S3pTOVNjZzUtYzdZb0hDc1RTRUZSaVVXcVdxejRZZXVWOE5fUDJTeUM2dC1obnp0bnVtU1Q3eTlYMlJMbWRYY2x2eENTalVvTNIBwgFBVV95cUxOZmtXVEFSSlhjNUZlVVR3VTRTMm4tRUNMYXNLMk93N2FDeE9zekdSQmtVZzFKS3IxTktvbEYxeXkzOElVRG1uMFZuZG1wZGdpZUtrTkdTTHFIVTVuSmZnTDFBbG1fcVlNcE5UZFB2U19MWWcwSWVzekd5SlR3NzdYUnlfSnU4UWtUbHlxZFlTWjVmcl9SUmFkWjRGc1A5SXNVOXUxUUU5UThtdndyRXYxZVBuNkZVdHBVckJNbFN4a2pTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1298
+      "date": "Jul 13",
+      "text": "US restores naval blockade on Iran's ports.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1299
     },
     {
-      "date": "Jul 14",
-      "text": "Inside Israel’s Secret Operation to Install Ahmadinejad, Iran’s Former President, as Leader",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxObUtmR3FDdjd5SXU4cE90ak5RNEJxbTFaM0doRzRGS0hiZG9CM2FwV1BTOVpleU05TVdNQjQxaURGbGRsZHVsMlgxaml0TUJNX3JFTVlBTW92dDl3bEVvYmRYSk02UnY2NnZFRkloX2dxV1NMOWlmZTIySWdlb0xCUTFaM1lKZlVFTWg0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1298
+      "date": "Jul 13",
+      "text": "Israel and Iran exchange strikes, imperiling ceasefire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1299
     },
     {
-      "date": "Jul 14",
-      "text": "The Iran War and the War Powers Resolution",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPeWU5QjFteS05TEVBNnZ5S21WTjBvWGF6ZENaMnRSZU5OVDVGNHhkQnhNOVBIZE9ZcG9aRHNWRnhUUEJQX2RJVUtvYWlibVkwNVZvSjJuQlItODhYVjBZNUZDMFlYT2hvOW5CcWFsQVQ4UXRkNFdCMzN6UjFBVXhNbTRNNWs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Brookings",
-      "latestSinceUpdate": 1298
+      "date": "Jul 13",
+      "text": "US military death toll in Iran war rises to 14.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE5TSFNrVW5Ibks0elBUYUtmLTV1VkVBSE1rYXY0M1J5V1ExdWRrNzgzcVh6LWRlVW1URlZKT2tZcEZWZjVyRGE1MlVEWmdmS2J3VkY1UWlMeHVKODhSVGFuWXJCRTlPWE1wMGI2X3dUWHRTNlZTYzdoSmNkc9IBgAFBVV95cUxPdVNGQXk5eUtQR3RJcW00WVkxWkYtMGFhNUtrX2xPNm5mN19ab2ZJVnpwU1lnXzhwWFdYbUE3djNEMHFhbUhVTGxuSXlYRmJCSWgyay1Ic1RhbGVwRnB3ZUpmaGEwX2N3Ukg2dmNkSXAzajF2Y01tYVU0WTFTVmpHTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1299
     },
     {
-      "date": "Jul 14",
-      "text": "Iran war updates: US launches new attacks after Trump’s threats",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQbzFBN0l4LWl2SWxzSGxUd1ZRQ25Pckc1bk9tcnlOcFYwcTJqdHJjU2NhNGFGbTNTUk90ZVB5Q0ZqT00yanlWNWpNR1BUdWtOOS1ZMkRFVlJnTjRiaUJGS0NEczZOWXVldEN6OGZIbG9zcVI5LUZwd2YzemNMYWdMTkNwdjQ0T1ZwQWR4YUpYNDVBcHZhdHBuVUgtNVA2aGk0ckQxOW5ybXFuUFNtYldaaFNKRGt6NHQ1dWMtNG12cWlmZ9IBxwFBVV95cUxQbE9Tbml3V3hjSXdXaGozdWZhUDJEYWVHckpmS1lxbjgyZGtxTjFxY0dkWExIZVQ2ZHhBaTNBZ1NPWlo3WTJieHlyYS1PNzVKODdTNVB0VUQ3ZVBvcFltZ0NDVEhxLURjb0tPSlBXSFhHbkNpRWVkNnVibmpYRFZhWkFvbmt0VjZEcU92SDROLTZRY2l3aExDT1dDNDYzLVlETTdTa1o0a3UwUXY3dFdqV0J4UWptaGpRVGRMbkV1V1QxemxsQlpB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1298
-    },
-    {
-      "date": "Jul 14",
-      "text": "Iran war updates: More explosions as US says launching new strikes",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1298
+      "date": "Jul 13",
+      "text": "Hezbollah lair discovered near Beaufort, Lebanon.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1299
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
