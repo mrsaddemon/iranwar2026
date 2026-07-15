@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1309,
+  "updateSequence": 1310,
   "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T15:53:39.455Z",
+  "lastSyncedAt": "2026-07-15T17:25:57.456Z",
   "warDay": 138,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "An attempted pause between Iran and Israel was reported, but the broader US-Iran conflict remains active and escalating with renewed strikes and blockades."
+    "summary": "Iran and Israel have announced a pause in strikes, with both sides warning of retaliation if the ceasefire is breached."
   }
 }
