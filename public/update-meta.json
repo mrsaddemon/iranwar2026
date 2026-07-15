@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1302,
+  "updateSequence": 1303,
   "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T00:57:28.328Z",
+  "lastSyncedAt": "2026-07-15T04:12:02.405Z",
   "warDay": 138,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 100,
-    "summary": "A previously fragile ceasefire has collapsed amidst intensifying US and Iranian military actions and a renewed US naval blockade."
+    "confidence": 0.69,
+    "durationDays": 1,
+    "summary": "Iran and Israel have agreed to a temporary pause in strikes, but both sides have issued warnings of retaliation if the agreement is violated."
   }
 }

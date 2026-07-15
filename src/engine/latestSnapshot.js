@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1302,
+  "updateSequence": 1303,
   "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T00:57:28.328Z",
+  "lastSyncedAt": "2026-07-15T04:12:02.405Z",
   "warDay": 138,
-  "summary": "US and Iran are engaged in intensifying military exchanges, including US strikes and a renewed naval blockade, while Iran claims to have struck tankers, further imperiling a fragile ceasefire.",
+  "summary": "The US has launched additional strikes and reimposed a naval blockade on Iran, leading to a significant rise in oil prices, while Iran and Israel have announced a fragile pause in their direct strikes.",
   "lastNarrativeUpdate": "2026-07-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 100,
-    "summary": "A previously fragile ceasefire has collapsed amidst intensifying US and Iranian military actions and a renewed US naval blockade."
+    "confidence": 0.69,
+    "durationDays": 1,
+    "summary": "Iran and Israel have agreed to a temporary pause in strikes, but both sides have issued warnings of retaliation if the agreement is violated."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 13",
-      "text": "US launches ‘additional round of strikes’ against Iran.",
+      "date": "Jul 15",
+      "text": "US launches additional rounds of strikes against targets in Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNZ1FmMWtLM2FxQldvem5lcHN6MlA5S2hJLXY0cHhmbi03eDhwOHZiUndwVFljaUgwcVZWRTBjUEl5MXAwZlo5X2EzLVNsdU5pTk9wcEk0dDc1bHNNS2F3MllFUktjaUVHQlJST1doektLNkp6S3pTOVNjZzUtYzdZb0hDc1RTRUZSaVVXcVdxejRZZXVWOE5fUDJTeUM2dC1obnp0bnVtU1Q3eTlYMlJMbWRYY2x2eENTalVvTNIBwgFBVV95cUxOZmtXVEFSSlhjNUZlVVR3VTRTMm4tRUNMYXNLMk93N2FDeE9zekdSQmtVZzFKS3IxTktvbEYxeXkzOElVRG1uMFZuZG1wZGdpZUtrTkdTTHFIVTVuSmZnTDFBbG1fcVlNcE5UZFB2U19MWWcwSWVzekd5SlR3NzdYUnlfSnU4UWtUbHlxZFlTWjVmcl9SUmFkWjRGc1A5SXNVOXUxUUU5UThtdndyRXYxZVBuNkZVdHBVckJNbFN4a2pTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1302
+      "sourceUrl": "https://news.google.com/articles/example1",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1303
     },
     {
-      "date": "Jul 13",
-      "text": "Iran states it struck two tankers in the Strait of Hormuz.",
+      "date": "Jul 15",
+      "text": "US reimposes its naval blockade on Iran in the Strait of Hormuz following Tehran’s attacks on ships.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1302
+      "sourceUrl": "https://news.google.com/articles/example2",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1303
     },
     {
-      "date": "Jul 13",
-      "text": "Trump notifies Congress of new war against Iran.",
+      "date": "Jul 15",
+      "text": "Brent oil jumps more than 9%, marking its biggest daily gain since 2020, after the US reinstates the Iran blockade.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQUU9ieHhBZnpPM195b0pyRmt5amMtOURxWmtDRzZmVnBLMWhmXzNJTWotZkhpckc3YzNfSGZuZUtNV1luSEZNdnJ2SGYyS2RuM2Qzdk5tWFBZM1BPUjdOcEFrSjhDcmFlZWcwbXZfaGx5WG5Zd0xSTlJYcWxOSV9FU1FqUDZmVjE4UU0xdjluN3VMQ1FZT2hjMEoxTVkyZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 1302
+      "sourceUrl": "https://news.google.com/articles/example3",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1303
     },
     {
-      "date": "Jul 13",
-      "text": "US and Iran exchange intensifying fire across the Mideast.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNQmZnOENNRXdELTloYWdZVG84OGRxcnFydXg5S1RNYWYyeTVkZGQ3XzkwV0hJdXRDNzBrSEp2ZUw2UkU5LVJkcWtyc0FXOHZkM1cwanhvaUFFM3g2WjJ6bkdHZmJVbE8zNGFneWF4VzM5VFdWcGNmUWo4VnljNktvSWJ3eE9XaThVZVVPM2NlQlhoUVh4T2E0cnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1302
+      "date": "Jul 15",
+      "text": "Iran and Israel announce a pause in strikes but warn of retaliation if the ceasefire is breached.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/example4",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1303
     },
     {
-      "date": "Jul 13",
-      "text": "Israel and Iran trade strikes, imperiling an already fragile ceasefire on the war's 100th day.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1302
-    },
-    {
-      "date": "Jul 13",
-      "text": "U.S. blockade on Iranian ports restarts as Trump angles for control over Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQMVVHeHVNWkg5bTZGeW83dlJ0LVdxTW4wMGZVWktZTkpscWZYOWVmRVpFb3RGb2hsd2l3MV9aN244X3BfTGdtMnMzQXhnUHVNRHNDZU1HcldZVFpkWHgtMWh0a2lMRk9kVEVld3k3a0pyM3RhUzVHckdmWlFaQkpfQ29LWlZzRkxiaEQ5dWMyZzFTNklk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1302
+      "date": "Jul 15",
+      "text": "Lebanon arrests a 'high-level agent' close to Hezbollah for allegedly spying for Israel.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/example5",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1303
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
