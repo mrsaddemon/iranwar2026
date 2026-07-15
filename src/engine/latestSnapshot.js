@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1303,
+  "updateSequence": 1304,
   "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T04:12:02.405Z",
+  "lastSyncedAt": "2026-07-15T06:30:17.991Z",
   "warDay": 138,
-  "summary": "The US has launched additional strikes and reimposed a naval blockade on Iran, leading to a significant rise in oil prices, while Iran and Israel have announced a fragile pause in their direct strikes.",
+  "summary": "The US has resumed a naval blockade of Iranian ports and launched new strikes, while Iran claims to have targeted US bases and is accused of tracking US military personnel via cyberattacks.",
   "lastNarrativeUpdate": "2026-07-15",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Iran and Israel have agreed to a temporary pause in strikes, but both sides have issued warnings of retaliation if the agreement is violated."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 48,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 15",
-      "text": "US launches additional rounds of strikes against targets in Iran.",
+      "date": "Jul 14",
+      "text": "US naval blockade of Iranian ports goes into effect.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/example1",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1303
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5mclRqN1M1Z0RvTWloR0xWUE5tdlJLQnNuMjVQNnlZNVpSWWgyUmtkMDVodVBzU1RKTnVPbUt6MDJ2Q1B0QS0xeWR1U0RLRW9feEdpQU1CbUw4S3VmMy1PREVGbl9KaFhaa3RFQTFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1304
     },
     {
-      "date": "Jul 15",
-      "text": "US reimposes its naval blockade on Iran in the Strait of Hormuz following Tehran’s attacks on ships.",
+      "date": "Jul 14",
+      "text": "US launches additional strikes on Iran as blockade resumes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/example2",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1303
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPWDU5S1hDX0FUXy1rVnlVdE5pam0wOGd5cllaN1JOM2RGM1VMZnllcUZ1Xy1lVjhWR25VZHZtVXpzY1NTaHRYM2RDSlkweEFialRZSlV3YXF2LWgwTUI5Y2dLbU9USEpucm1ncDlXcUJGUDlnZ2lEVTlFMVZtNzlUemhHN1E2cnNXX3A3Sjg4MlNWOVdaZm1HV0ZTWUhHdWxHTVFtcThGTkhPUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "USA Today",
+      "latestSinceUpdate": 1304
     },
     {
-      "date": "Jul 15",
-      "text": "Brent oil jumps more than 9%, marking its biggest daily gain since 2020, after the US reinstates the Iran blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/example3",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1303
-    },
-    {
-      "date": "Jul 15",
-      "text": "Iran and Israel announce a pause in strikes but warn of retaliation if the ceasefire is breached.",
+      "date": "Jul 14",
+      "text": "Iran's IRGC claims damage on US Gulf bases, including the US Fifth Fleet in Bahrain.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/example4",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1303
+      "latestSinceUpdate": 1304
     },
     {
-      "date": "Jul 15",
-      "text": "Lebanon arrests a 'high-level agent' close to Hezbollah for allegedly spying for Israel.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/example5",
+      "date": "Jul 14",
+      "text": "Trump renews Iran blockade and threatens to take control of the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQNWFGOFJuSzNYX1FIdUwzUlh3R3hEVDYxc2w5WmhaMWxfSFV0Q3lwU0poZXNfTzRzWmNwWjVULURYQzMyUHdlYV8yQUctLWQ1ZXdqalpuODBkd3FEWko2dFRjZGxaeTlwX3owSC1BVEpYRTZqUnNkaGpyMjhDeW03N3FOSFpsYUdmUEo4TUtzUDBEbVBGOUJrdmY0eFlIRi03UzNiVXpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1304
+    },
+    {
+      "date": "Jul 14",
+      "text": "Lebanese security detains alleged high-level agent close to Hezbollah for spying for Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQNWZDOE1YeEluaWIyazhrU2JZZ19wM0F3NC1PWmpNeVVWWlZRdmFuNE1nREUxWGR6NjhTRlFwazc0V0tXWlZWLWhaV1NsMUwxbjRDTFR5OXhwbUlGY1N0V09TSWNRcmh5TGtsMTc5dnRMZVpnUFZhRmhMenZVSmRGR0xhdzFnSlM5OGREZmd0bzE5NjQ4WWo3WDFpaW53VkhVX3BJaTg4MnVNOEtYZnVjaGtrcEbSAboBQVVfeXFMT3pOM0ppYkRZNHJybkVPMlpPemJVWFVfMjdDZjdyZzBSWjQ4eTE4WnFpRk9uY3dIS3pnZmEwZnZfcVFmSFhYaHZEU3l2SjdmdndOR2hPcUZYc1MycXVPa3VXY2g5Yks2WFBHcVF1dEN4LU5TU1B1V3J5TzVkR2RpRmY3QlZ6TGN0SFIzNGV1UkZYUXFQM08zbjZ4a2YzWDlYd0tTOFlEb2FUTXZNSWE1TEsxTGtIVWs5U1lR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1304
+    },
+    {
+      "date": "Jul 14",
+      "text": "Report suggests Iran's cyberattackers tracked phones of US military personnel in the Mideast.",
+      "severity": "warning",
+      "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1303
+      "latestSinceUpdate": 1304
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
