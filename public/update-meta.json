@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1311,
+  "updateSequence": 1312,
   "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T18:40:45.666Z",
+  "lastSyncedAt": "2026-07-15T19:55:11.321Z",
   "warDay": 138,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "No ceasefire is active; conflict has escalated with new military actions and blockades."
+    "summary": "Iran and Israel have agreed to a temporary pause in strikes, but both sides have issued warnings of retaliation if the agreement is violated."
   }
 }
