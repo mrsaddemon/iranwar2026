@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1301,
-  "lastUpdated": "2026-07-14",
-  "lastSyncedAt": "2026-07-14T23:36:48.427Z",
-  "warDay": 137,
-  "summary": "The United States has resumed strikes against Iran and restored a naval blockade after Iran reportedly struck two tankers in the Strait of Hormuz, while Israel and Iran also traded strikes, collapsing a fragile ceasefire.",
-  "lastNarrativeUpdate": "2026-07-14",
+  "updateSequence": 1302,
+  "lastUpdated": "2026-07-15",
+  "lastSyncedAt": "2026-07-15T00:57:28.328Z",
+  "warDay": 138,
+  "summary": "US and Iran are engaged in intensifying military exchanges, including US strikes and a renewed naval blockade, while Iran claims to have struck tankers, further imperiling a fragile ceasefire.",
+  "lastNarrativeUpdate": "2026-07-15",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 100,
-    "summary": "The ceasefire between Israel and Iran, which had been fragile, has collapsed following renewed strikes from both sides."
+    "summary": "A previously fragile ceasefire has collapsed amidst intensifying US and Iranian military actions and a renewed US naval blockade."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 13",
-      "text": "US resumes strikes while Iran says it struck two tankers in Strait of Hormuz.",
+      "text": "US launches ‘additional round of strikes’ against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNZ1FmMWtLM2FxQldvem5lcHN6MlA5S2hJLXY0cHhmbi03eDhwOHZiUndwVFljaUgwcVZWRTBjUEl5MXAwZlo5X2EzLVNsdU5pTk9wcEk0dDc1bHNNS2F3MllFUktjaUVHQlJST1doektLNkp6S3pTOVNjZzUtYzdZb0hDc1RTRUZSaVVXcVdxejRZZXVWOE5fUDJTeUM2dC1obnp0bnVtU1Q3eTlYMlJMbWRYY2x2eENTalVvTNIBwgFBVV95cUxOZmtXVEFSSlhjNUZlVVR3VTRTMm4tRUNMYXNLMk93N2FDeE9zekdSQmtVZzFKS3IxTktvbEYxeXkzOElVRG1uMFZuZG1wZGdpZUtrTkdTTHFIVTVuSmZnTDFBbG1fcVlNcE5UZFB2U19MWWcwSWVzekd5SlR3NzdYUnlfSnU4UWtUbHlxZFlTWjVmcl9SUmFkWjRGc1A5SXNVOXUxUUU5UThtdndyRXYxZVBuNkZVdHBVckJNbFN4a2pTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1302
+    },
+    {
+      "date": "Jul 13",
+      "text": "Iran states it struck two tankers in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBnVjhScnVheUNnYXhMcjVVRlZuS2RiMGgwQTNxRWxtU1AxWlM1elZTRGxjU0xwVFNwb3A3YkluVzN4WGlsUlVrbmZtT0hwRlVsYnozb2Q1cXhHTXU2QlFyMlNzaHFQUzh1cVVmWW1n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1301
+      "latestSinceUpdate": 1302
     },
     {
       "date": "Jul 13",
-      "text": "US restores blockade on Iran after its attacks on ships in the Strait of Hormuz.",
+      "text": "Trump notifies Congress of new war against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNWnBwMkRnYlE0eWdLanFlS1JwcWNwQW83YkJMbFJXdzZYRGFiZUtib0UzM1hRVFozX3RCTmwxUVQzV2RvNTU2ZE56RjZOYjRQbzF5SkJ1Y0RTQnktRmg1NjliM2pMcy1kY045dVQ4bk9sYkNDU2N6WTFnNV9NNjZMa21IYkxLX3NmWDF2NXMzUmRtRkN0eGlwRmx6SHdlakU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1301
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQUU9ieHhBZnpPM195b0pyRmt5amMtOURxWmtDRzZmVnBLMWhmXzNJTWotZkhpckc3YzNfSGZuZUtNV1luSEZNdnJ2SGYyS2RuM2Qzdk5tWFBZM1BPUjdOcEFrSjhDcmFlZWcwbXZfaGx5WG5Zd0xSTlJYcWxOSV9FU1FqUDZmVjE4UU0xdjluN3VMQ1FZT2hjMEoxTVkyZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1302
     },
     {
       "date": "Jul 13",
-      "text": "Israel and Iran trade strikes, imperiling already fragile ceasefire in war's 100th day.",
+      "text": "US and Iran exchange intensifying fire across the Mideast.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNQmZnOENNRXdELTloYWdZVG84OGRxcnFydXg5S1RNYWYyeTVkZGQ3XzkwV0hJdXRDNzBrSEp2ZUw2UkU5LVJkcWtyc0FXOHZkM1cwanhvaUFFM3g2WjJ6bkdHZmJVbE8zNGFneWF4VzM5VFdWcGNmUWo4VnljNktvSWJ3eE9XaThVZVVPM2NlQlhoUVh4T2E0cnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1302
+    },
+    {
+      "date": "Jul 13",
+      "text": "Israel and Iran trade strikes, imperiling an already fragile ceasefire on the war's 100th day.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1301
+      "latestSinceUpdate": 1302
     },
     {
       "date": "Jul 13",
-      "text": "Trump threatens to strike Iran power plants unless deal reached.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1301
-    },
-    {
-      "date": "Jul 13",
-      "text": "Lebanon arrests ‘high-level agent’ close to Hezbollah for allegedly spying for Israel.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQNWZDOE1YeEluaWIyazhrU2JZZ19wM0F3NC1PWmpNeVVWWlZRdmFuNE1nREUxWGR6NjhTRlFwazc0V0tXWlZWLWhaV1NsMUwxbjRDTFR5OXhwbUlGY1N0V09TSWNRcmh5TGtsMTc5dnRMZVpnUFZhRmhMenZVSmRGR0xhdzFnSlM5OGREZmd0bzE5NjQ4WWo3WDFpaW53VkhVX3BJaTg4MnVNOEtYZnVjaGtrcEbSAboBQVVfeXFMT3pOM0ppYkRZNHJybkVPMlpPemJVWFVfMjdDZjdyZzBSWjQ4eTE4WnFpRk9uY3dIS3pnZmEwZnZfcVFmSFhYaHZEU3l2SjdmdndOR2hPcUZYc1MycXVPa3VXY2g5Yks2WFBHcVF1dEN4LU5TU1B1V3J5TzVkR2RpRmY3QlZ6TGN0SFIzNGV1UkZYUXFQM08zbjZ4a2YzWDlYd0tTOFlEb2FUTXZNSWE1TEsxTGtIVWs5U1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1301
-    },
-    {
-      "date": "Jul 13",
-      "text": "Iranian cyberattackers tracked phones of U.S. military personnel through mobile network vulnerabilities.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1301
+      "text": "U.S. blockade on Iranian ports restarts as Trump angles for control over Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQMVVHeHVNWkg5bTZGeW83dlJ0LVdxTW4wMGZVWktZTkpscWZYOWVmRVpFb3RGb2hsd2l3MV9aN244X3BfTGdtMnMzQXhnUHVNRHNDZU1HcldZVFpkWHgtMWh0a2lMRk9kVEVld3k3a0pyM3RhUzVHckdmWlFaQkpfQ29LWlZzRkxiaEQ5dWMyZzFTNklk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1302
     }
   ],
   "sourceStatuses": [
