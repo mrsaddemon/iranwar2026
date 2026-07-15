@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1314,
+  "updateSequence": 1315,
   "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T22:15:46.255Z",
+  "lastSyncedAt": "2026-07-15T23:14:58.474Z",
   "warDay": 138,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Iran and Israel have announced a temporary pause in strikes, but both sides warn of retaliation if the agreement is violated."
+    "summary": "Iran and Israel have stated a pause in strikes, but warnings of retaliation persist, and US military actions against Iran continue."
   }
 }
