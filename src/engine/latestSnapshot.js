@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1326,
+  "updateSequence": 1327,
   "lastUpdated": "2026-07-16",
-  "lastSyncedAt": "2026-07-16T19:35:47.435Z",
+  "lastSyncedAt": "2026-07-16T20:30:27.140Z",
   "warDay": 139,
-  "summary": "The United States has expanded strikes against Iran in response to attacks in the Strait of Hormuz, leading to Iranian warnings and a resumed US blockade, while President Trump considers further military expansion.",
+  "summary": "The United States has launched multiple rounds of strikes against Iran, which has vowed to retaliate and warned against violations of the Strait of Hormuz, while also being accused of cyberattacks on US military personnel.",
   "lastNarrativeUpdate": "2026-07-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
+    "summary": "No ceasefire is active; active military conflict is ongoing between the US and Iran."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.3
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -76,14 +76,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 15",
-      "text": "Iran claims the US Fifth Fleet was targeted in Bahrain in a recent exchange of strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1326
-    },
-    {
-      "date": "Jul 15",
       "text": "US resumes blockade on Iran and launches strikes following reported attacks in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": null,
@@ -92,25 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 15",
-      "text": "US officials report progress on a withdrawal agreement between Lebanon and Israel.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQUzdXWUgxdkZESUZCemtDcl9UNGIzUUNjeU5qMkcxbmoxMlpNMHZVRU4xYkE0T1pKQVc2d1pDTEtUc1NQOWsxd0o1NFVfbGpPdGhGRDdfVFR3c01fV3Z1QUVQNVJjMTZ0U3VFNUliNkpndVN6MlBWYlFkbVVaejhjUktmUjFieDZJWmZ6aXdKSWhEWXluWGZqSlkyNzBpQnVHWU9OeXdwY2dDZEVDZGxscFFBY2xSWHFubFZlRktKNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1326
+      "text": "Iran claims the US Fifth Fleet was targeted in Bahrain during the latest exchange of strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1327
     },
     {
       "date": "Jul 15",
-      "text": "Lebanese security detains an alleged Israeli spy within the Hezbollah network.",
+      "text": "US forces begin their fifth straight night of strikes on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOajZOMWNTRFdVNDkwTDZvNVlhSFkxQ1lwM1ZPNVJDRlFzbDRqQnltZVRDOGp5eC1RdFdTYVlISHVUbVg3Y3l3dG0yV21QUzVHMVFBRUVpRW1mVWo5ekw3ekFPczNkX2w1WlpiUm1JTDdjSXFWS1B2cVJlMjJHMWNNTVJYd0RIV0JmWnJ4ZGZRcUtuZHJ6ekdEeWY1aXVfU09wMUcwaEg4TzRURXdmOFRhd21rRGNYLTVjb1dzMHd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 1327
+    },
+    {
+      "date": "Jul 15",
+      "text": "Iran reportedly attempted to track US military personnel via phones using cyber skills.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1aRW43MTFHNmNxYzlTSHQyVllqczhzak54R3ZVU0tSN2lRVDVFaE5WeklsSGpieGp4d254OE1Pb3VVODk1VTJMM21FUGVJWC1relh0R0Q3NW5GUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Israel National News",
-      "latestSinceUpdate": 1326
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOY2lzLWUwcW16YldjTmtOak9PU1VVaWIycW5lT3hid1lHTUVGZVk1QlhjbVBubFp4Ml9UODZrQ3JOd1UycHRjeEV0WWhyZnRKNlM2WnFEY2drMmpGSzNnMlVPNW9NVXpmRXpSQjRhRW5hVzlVUGVSV3JxWHE5NWdYUGJHSDNVX1VVckhnLURnM3VRdVg3N2NRLU1HeUU4NzJXYjNHNlEycWFrWHVnUFdnYlJnbDY2QmszaXpjeWQ5UWzSAcYBQVVfeXFMTW9NVjBXWi1MRDNXdVVybVZSNHM3VmIzX2dxeEhpZW56WnNLMXI2cm14VnhORHM5dkhyTngyLV9zVkVjejAyTkRnMGZnSzB2Ul95V0U2b1hwcGpkQXFmWDdZVUZIclA3M3ZZVm5sRGdER2M3OFczWG5iSVdyMUc5MGpqRkJCZ1FMbEphcE94UDZLWGx0NjBTSkptcmhKYy1sekdhb0piMEdoR3pzamlNRjVQWU1tRWhyRkJMX1ZjTlFlQ1VhcktB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1327
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
