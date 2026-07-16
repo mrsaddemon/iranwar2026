@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1315,
-  "lastUpdated": "2026-07-15",
-  "lastSyncedAt": "2026-07-15T23:14:58.474Z",
-  "warDay": 138,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-07-15",
+  "updateSequence": 1316,
+  "lastUpdated": "2026-07-16",
+  "lastSyncedAt": "2026-07-16T00:12:21.012Z",
+  "warDay": 139,
+  "summary": "The US has reimposed a naval blockade on Iranian ports and launched new strikes following Iranian attacks in the Strait of Hormuz, while Israel continues operations against Hezbollah and Iran-Israel declare a fragile pause in strikes.",
+  "lastNarrativeUpdate": "2026-07-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Iran and Israel have stated a pause in strikes, but warnings of retaliation persist, and US military actions against Iran continue."
+    "summary": "Iran and Israel have declared a pause in strikes, though both warn of retaliation if the ceasefire is breached."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -28,12 +28,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 14",
-      "text": "US naval blockade of Iranian ports goes into effect, with US resuming blockade and launching strikes after attacks in Strait of Hormuz.",
+      "text": "US naval blockade of Iranian ports goes into effect and additional strikes are launched.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5mclRqN1M1Z0RvTWloR0xWUE5tdlJLQnNuMjVQNnlZNVpSWWgyUmtkMDVodVBzU1RKTnVPbUt6MDJ2Q1B0QS0xeWR1U0RLRW9feEdpQU1CbUw4S3VmMy1PREVGbl9KaFhaa3RFQTFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1315
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1316
     },
     {
       "date": "Jul 14",
-      "text": "US military carries out an additional wave of strikes on Iran, aimed at protecting vessels in the Strait of Hormuz.",
+      "text": "US reimposes its blockade on Iran after Tehran’s attacks on ships in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQWVlTLXZEcHJQTnhTMThIRmVQUGlPRk5vT1hNMmstLXNYXzZNWnlLUDJGQWJtUmI0cnlHLWFLZE1yMVctdW5RV0dSVmlWbVlvZFdSeTZrMG1ldmJvczFzUHRfbDlycEJWQ3M0SXlfNWtYZGZveEgzVzMxaVAxcXNxRXRRelpTelY1aXRyTUlHNlZGZk9qNnpNYVd1ZE9JY2RRMVo1eUd1ekliam_SAbABQVVfeXFMUHhaSU1rXzMyNHB2ZTJCbmR6REE5bUJXWDdWMzh6bHhHWnhlbGdlQ2JvVlFJTkVNamxheEU0TmNPR3gyT2syQ3prR0pBQkQ4eUVLcUVRd2x3RU9hb01UbTR6UGo3U3lnNTUxamNnTVRlbzcxaDh5cXBKUi1HUzRETzVjeFRfWGt2cE9RbzRRNndLYUw3VXBGeHVXZFJRLW1GMXNoSUFEQmxGSlRlLUtnRUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1315
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNWnBwMkRnYlE0eWdLanFlS1JwcWNwQW83YkJMbFJXdzZYRGFiZUtib0UzM1hRVFozX3RCTmwxUVQzV2RvNTU2ZE56RjZOYjRQbzF5SkJ1Y0RTQnktRmg1NjliM2pMcy1kY045dVQ4bk9sYkNDU2N6WTFnNV9NNjZMa21IYkxLX3NmWDF2NXMzUmRtRkN0eGlwRmx6SHdlakU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1316
     },
     {
       "date": "Jul 14",
-      "text": "Iran claims the US Fifth Fleet was targeted in Bahrain in the latest exchange of strikes.",
+      "text": "Iran claims the US Fifth Fleet was targeted in Bahrain during the latest exchange of strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1315
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1316
     },
     {
       "date": "Jul 14",
       "text": "Iran and Israel state they will pause strikes but warn of retaliation if the ceasefire is breached again.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
+      "sourceName": "Google News",
       "latestSinceUpdate": 1315
     },
     {
       "date": "Jul 14",
-      "text": "The U.S. disables a ship allegedly attempting to sail to Kharg Island as the feud over the Strait of Hormuz escalates.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxNR1pGUHJ0UXlGRjNPZzNtdHJyUC0wbXh6UmxYUWhMQ2l6U0txd1NWT3BscU1CVk4wRTd6VkxOakx3eXBqQ3RRSWVwbWJLVGJGWGIwUFJ5QzkyTFZmVHBkVUFhc1hNUmxmdzhhWHdvOWNsMktCQzlPd1JLSl9STzluQi1oaTZIUU5VU2xuVDhnZW9JS1MtcDJYVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1315
-    },
-    {
-      "date": "Jul 14",
-      "text": "Strait of Hormuz oil shipments fall toward pre-peace deal levels as the war reignites.",
+      "text": "Strait of Hormuz oil shipments fall toward pre-peace deal levels as war reignites.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNLTZxaGxBMk1PS1U3RnRGc1ZFb1hPRkR0dm9XQjVzLXdDRjZfVlZHeUt4SWU5b3dkVTlRcGFMbHJMUXo5VXRIUG9lZkc0dmFidV9SSVdoVGFWUzNDMk9VUU5VZzlMbDJpN0s1YTlhQ1ptanFGQnA4a0xCenhhc0k1ejdGUFF4QW9uMkNoblhsQ3Zub1liRC1zM21zZ1dVT2hlNzBqcnVUSlpoY3M5Z3RONzRxZnRXVzRweWR6VmljUzF2R3Mt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo! Finance Canada",
-      "latestSinceUpdate": 1315
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1316
+    },
+    {
+      "date": "Jul 14",
+      "text": "Lebanon arrests an alleged Israeli spy close to Hezbollah.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1316
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Aggression",
-      "headline": "Trump Escalates Iran Conflict with New War, Blockade, and Nuclear Site Threat",
-      "summary": "The US administration under Trump has declared a new war against Iran, resuming military strikes and imposing a shipping blockade in the Strait of Hormuz. Threats to take control of the strait and consider striking a nuclear site signal a significant escalation of hostilities.",
+      "perspective": "US/Western",
+      "headline": "US Blockade and Strikes Aim to Protect Shipping in Hormuz",
+      "summary": "The United States has reimposed a naval blockade on Iranian ports and launched new strikes, citing the need to protect vessels in the Strait of Hormuz following Iranian attacks. This action aims to restore stability and deter further aggression in the critical waterway.",
       "tone": "defiant",
-      "latestSinceUpdate": 1287
+      "latestSinceUpdate": 1316
     },
     {
-      "perspective": "Iranian Retaliation",
-      "headline": "Iran Accused of Tanker Attacks Amid US Strikes and Blockade",
-      "summary": "Iran is accused by the UAE of attacking two tankers in the Strait of Hormuz, causing casualties, amidst renewed US military strikes and a declared shipping blockade. This suggests a pattern of Iranian retaliation or defiance in response to US actions.",
+      "perspective": "Iranian",
+      "headline": "Iran Responds to US Aggression, Targets US Fifth Fleet",
+      "summary": "Iran has responded to US aggression, claiming to have targeted the US Fifth Fleet in Bahrain amidst escalating exchanges of strikes. Iranian cyberattackers have also reportedly tracked US military personnel, indicating a multi-faceted response to the renewed blockade.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1316
+    },
+    {
+      "perspective": "Israeli",
+      "headline": "IDF Intensifies Operations Against Hezbollah Infrastructure",
+      "summary": "The IDF is actively engaged in destroying Hezbollah infrastructure in southern Lebanon, including strongholds, as part of ongoing efforts to neutralize threats. Concurrently, Lebanese security has detained an alleged Israeli spy within Hezbollah, highlighting intelligence operations.",
       "tone": "strained",
-      "latestSinceUpdate": 1287
+      "latestSinceUpdate": 1316
     },
     {
-      "perspective": "Regional Instability",
-      "headline": "Mideast Tensions Soar as Hormuz Attacks and US-Iran War Threaten Oil Supply",
-      "summary": "The Strait of Hormuz is a flashpoint with reported tanker attacks and a renewed US blockade, driving oil prices up due to supply worries. The broader region remains volatile with Israel and Iran trading strikes and concerns over Hezbollah's activities in Lebanon.",
+      "perspective": "Global Economic",
+      "headline": "Strait of Hormuz Disruption Impacts Oil Shipments",
+      "summary": "The renewed conflict and US blockade in the Strait of Hormuz have led to a significant fall in oil shipments, nearing pre-peace deal levels. This disruption raises concerns about global energy supply and market stability.",
       "tone": "anxious",
-      "latestSinceUpdate": 1287
-    },
-    {
-      "perspective": "Israeli Security",
-      "headline": "Israel-Lebanon Talks Hinge on Hezbollah Amid Trade Strikes with Iran",
-      "summary": "Israel and Iran continue to trade strikes, further destabilizing the region. Israeli officials indicate that any withdrawal from Lebanon is contingent on the dismantling of Hezbollah, highlighting ongoing security concerns on its northern border.",
-      "tone": "strained",
-      "latestSinceUpdate": 1287
+      "latestSinceUpdate": 1316
     }
   ]
 });
