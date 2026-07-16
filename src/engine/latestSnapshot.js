@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1325,
+  "updateSequence": 1326,
   "lastUpdated": "2026-07-16",
-  "lastSyncedAt": "2026-07-16T18:13:48.012Z",
+  "lastSyncedAt": "2026-07-16T19:35:47.435Z",
   "warDay": 139,
-  "summary": "The United States and Iran have escalated military actions, with the US conducting new strikes and imposing a blockade in the Strait of Hormuz, while Iran issues warnings and vows retaliation.",
+  "summary": "The United States has expanded strikes against Iran in response to attacks in the Strait of Hormuz, leading to Iranian warnings and a resumed US blockade, while President Trump considers further military expansion.",
   "lastNarrativeUpdate": "2026-07-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire is reported between the primary belligerents, with escalating military actions."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.5,
         "aggression": 0.4
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 15",
-      "text": "US says new strikes on Iran aimed at protecting vessels in Strait of Hormuz",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1325
-    },
-    {
-      "date": "Jul 15",
-      "text": "Iran warns Strait of Hormuz is an ‘unbreakable red line’ as US expands strikes",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1RWk1Qa1dMb0Y3cjlkWWtFUFpPQzhEMnk4N0lFRmswd2t1R1F0Yi1oS1Z6TUJFQ0xpRzZPcGd3Yi1ndU5YYlk3ZjRJYkJxRVkxdmlPU2RxY052ekFOWWc5NDd3LTJLMmx5MkdmZ293?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1325
-    },
-    {
-      "date": "Jul 15",
-      "text": "US resumes blockade on Iran, launches strikes after attacks in Strait of Hormuz",
+      "text": "US launches new strikes on Iran, stating the aim is to protect vessels in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQVHY4TmVKS1hoUTY1cTVwYXNmX255SnU0R1h2SE16dDV2aUxhcUdSYklSWGVXUlduX1RHbkowT2dyUWdpOWlTM3F0RWtvYW1MRlpTZm81NS1WU1QyMVZ4aUFFRVBQMmIwb01wcDJSbC1iTEllMExxX2p4VHhyZ3NGdUFzeVlPdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1325
+      "latestSinceUpdate": 1326
     },
     {
       "date": "Jul 15",
-      "text": "US Fifth Fleet targeted in Bahrain, says Iran, in latest exchange of strikes",
+      "text": "Iran warns the Strait of Hormuz is an 'unbreakable red line' as US expands strikes.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1RWk1Qa1dMb0Y3cjlkWWtFUFpPQzhEMnk4N0lFRmswd2t1R1F0Yi1oS1Z6TUJFQ0xpRzZPcGd3Yi1ndU5YYlk3ZjRJYkJxRVkxdmlPU2RxY052ekFOWWc5NDd3LTJLMmx5MkdmZ293?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1326
+    },
+    {
+      "date": "Jul 15",
+      "text": "Iran claims the US Fifth Fleet was targeted in Bahrain in a recent exchange of strikes.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1325
+      "latestSinceUpdate": 1326
     },
     {
       "date": "Jul 15",
-      "text": "Trump Leans Toward Expanding U.S. Military Operations in Iran",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOVU1pOWZlc0haRHRFZW94VEpMSWVFSWszTkNodnpWdG1OaDRSeElLdXd2UGRVWC0tUGNvdWJrQzdhblBBVTlRbEpnLTBTRmhrYkNIVFZQdl9GbHZQUTIyM05PNENGc194QUtjNnhEbndGZUFRd3E0b2d0dTR0UTVoNFd3LXUwZ3pKR2xCQXhpUTN3a3NrNHVIQ3ZmWklrdUJ0Z09mQ2Zka21mR3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 1325
+      "text": "US resumes blockade on Iran and launches strikes following reported attacks in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1326
     },
     {
       "date": "Jul 15",
-      "text": "Lebanon and Israel move toward implementing withdrawal agreement, US officials say",
+      "text": "US officials report progress on a withdrawal agreement between Lebanon and Israel.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQUzdXWUgxdkZESUZCemtDcl9UNGIzUUNjeU5qMkcxbmoxMlpNMHZVRU4xYkE0T1pKQVc2d1pDTEtUc1NQOWsxd0o1NFVfbGpPdGhGRDdfVFR3c01fV3Z1QUVQNVJjMTZ0U3VFNUliNkpndVN6MlBWYlFkbVVaejhjUktmUjFieDZJWmZ6aXdKSWhEWXluWGZqSlkyNzBpQnVHWU9OeXdwY2dDZEVDZGxscFFBY2xSWHFubFZlRktKNA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1325
+      "latestSinceUpdate": 1326
+    },
+    {
+      "date": "Jul 15",
+      "text": "Lebanese security detains an alleged Israeli spy within the Hezbollah network.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1aRW43MTFHNmNxYzlTSHQyVllqczhzak54R3ZVU0tSN2lRVDVFaE5WeklsSGpieGp4d254OE1Pb3VVODk1VTJMM21FUGVJWC1relh0R0Q3NW5GUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Israel National News",
+      "latestSinceUpdate": 1326
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
