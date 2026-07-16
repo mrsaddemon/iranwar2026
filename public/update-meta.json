@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1317,
+  "updateSequence": 1318,
   "lastUpdated": "2026-07-16",
-  "lastSyncedAt": "2026-07-16T03:41:54.752Z",
+  "lastSyncedAt": "2026-07-16T06:05:53.520Z",
   "warDay": 139,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.9,
     "durationDays": 1,
-    "summary": "Iran and Israel have announced a pause in strikes, but both sides warn of retaliation if the ceasefire is breached, indicating a highly fragile agreement."
+    "summary": "A previous ceasefire has collapsed, leading to renewed US military operations and Iranian retaliatory actions."
   }
 }
