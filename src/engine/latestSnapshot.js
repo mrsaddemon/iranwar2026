@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1316,
+  "updateSequence": 1317,
   "lastUpdated": "2026-07-16",
-  "lastSyncedAt": "2026-07-16T00:12:21.012Z",
+  "lastSyncedAt": "2026-07-16T03:41:54.752Z",
   "warDay": 139,
-  "summary": "The US has reimposed a naval blockade on Iranian ports and launched new strikes following Iranian attacks in the Strait of Hormuz, while Israel continues operations against Hezbollah and Iran-Israel declare a fragile pause in strikes.",
+  "summary": "The US continues a campaign of strikes and a blockade against Iran, which threatens to halt Mideast energy exports, while Israel conducts operations against Hezbollah and a fragile pause in strikes between Iran and Israel is announced.",
   "lastNarrativeUpdate": "2026-07-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Iran and Israel have declared a pause in strikes, though both warn of retaliation if the ceasefire is breached."
+    "summary": "Iran and Israel have announced a pause in strikes, but both sides warn of retaliation if the ceasefire is breached, indicating a highly fragile agreement."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.85
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 14",
-      "text": "US naval blockade of Iranian ports goes into effect and additional strikes are launched.",
+      "date": "Jul 16",
+      "text": "US military launches an additional round of strikes against Iran and completes new strikes, including firing on a ship accused of violating its blockade.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5mclRqN1M1Z0RvTWloR0xWUE5tdlJLQnNuMjVQNnlZNVpSWWgyUmtkMDVodVBzU1RKTnVPbUt6MDJ2Q1B0QS0xeWR1U0RLRW9feEdpQU1CbUw4S3VmMy1PREVGbl9KaFhaa3RFQTFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1316
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNZ1FmMWtLM2FxQldvem5lcHN6MlA5S2hJLXY0cHhmbi03eDhwOHZiUndwVFljaUgwcVZWRTBjUEl5MXAwZlo5X2EzLVNsdU5pTk9wcEk0dDc1bHNNS2F3MllFUktjaUVHQlJST1doektLNkp6S3pTOVNjZzUtYzdZb0hDc1RTRUZSaVVXcVdxejRZZXVWOE5fUDJTeUM2dC1obnp0bnVtU1Q3eTlYMlJMbWRYY2x2eENTalVvTNIBwgFBVV95cUxOZmtXVEFSSlhjNUZlVVR3VTRTMm4tRUNMYXNLMk93N2FDeE9zekdSQmtVZzFKS3IxTktvbEYxeXkzOElVRG1uMFZuZG1wZGdpZUtrTkdTTHFIVTVuSmZnTDFBbG1fcVlNcE5UZFB2U19MWWcwSWVzekd5SlR3NzdYUnlfSnU4UWtUbHlxZFlTWjVmcl9SUmFkWjRGc1A5SXNVOXUxUUU5UThtdndyRXYxZVBuNkZVdHBVckJNbFN4a2pTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1317
     },
     {
-      "date": "Jul 14",
-      "text": "US reimposes its blockade on Iran after Tehran’s attacks on ships in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNWnBwMkRnYlE0eWdLanFlS1JwcWNwQW83YkJMbFJXdzZYRGFiZUtib0UzM1hRVFozX3RCTmwxUVQzV2RvNTU2ZE56RjZOYjRQbzF5SkJ1Y0RTQnktRmg1NjliM2pMcy1kY045dVQ4bk9sYkNDU2N6WTFnNV9NNjZMa21IYkxLX3NmWDF2NXMzUmRtRkN0eGlwRmx6SHdlakU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1316
-    },
-    {
-      "date": "Jul 14",
-      "text": "Iran claims the US Fifth Fleet was targeted in Bahrain during the latest exchange of strikes.",
+      "date": "Jul 16",
+      "text": "Iran claims its forces targeted the US Fifth Fleet in Bahrain in the latest exchange of strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1316
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1317
     },
     {
-      "date": "Jul 14",
-      "text": "Iran and Israel state they will pause strikes but warn of retaliation if the ceasefire is breached again.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1315
-    },
-    {
-      "date": "Jul 14",
-      "text": "Strait of Hormuz oil shipments fall toward pre-peace deal levels as war reignites.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNLTZxaGxBMk1PS1U3RnRGc1ZFb1hPRkR0dm9XQjVzLXdDRjZfVlZHeUt4SWU5b3dkVTlRcGFMbHJMUXo5VXRIUG9lZkc0dmFidV9SSVdoVGFWUzNDMk9VUU5VZzlMbDJpN0s1YTlhQ1ptanFGQnA4a0xCenhhc0k1ejdGUFF4QW9uMkNoblhsQ3Zub1liRC1zM21zZ1dVT2hlNzBqcnVUSlpoY3M5Z3RONzRxZnRXVzRweWR6VmljUzF2R3Mt?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1316
-    },
-    {
-      "date": "Jul 14",
-      "text": "Lebanon arrests an alleged Israeli spy close to Hezbollah.",
+      "date": "Jul 16",
+      "text": "Iran and Israel announce a pause in strikes but issue warnings of retaliation if the ceasefire is breached again.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1317
+    },
+    {
+      "date": "Jul 16",
+      "text": "India bars its seafarers from voyages through the Strait of Hormuz following recent attacks, contributing to fewer vessels traveling through the strait.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1316
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1317
+    },
+    {
+      "date": "Jul 16",
+      "text": "Lebanese security forces detain an alleged Israeli spy within the Hezbollah network, described as a 'high-level agent'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1aRW43MTFHNmNxYzlTSHQyVllqczhzak54R3ZVU0tSN2lRVDVFaE5WeklsSGpieGp4d254OE1Pb3VVODk1VTJMM21FUGVJWC1relh0R0Q3NW5GUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Israel National News",
+      "latestSinceUpdate": 1317
+    },
+    {
+      "date": "Jul 16",
+      "text": "IDF embeds in Bint Jbail and races to destroy Hezbollah infrastructure, including a stronghold where Nasrallah previously declared Israel 'weaker than a spider’s web'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5SZDZlaGtiMVEybEFnaVBCejNGQUpWOXBKckcyVTFJY1BrQnJDUDFVNy1zamNzXzlxSElVcUVGUWxFTDhYcFZFaDlDNkY3UmxwTnlYQ25R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 1317
     }
   ],
   "sourceStatuses": [
