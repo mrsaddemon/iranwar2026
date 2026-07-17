@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1342,
+  "updateSequence": 1343,
   "lastUpdated": "2026-07-17",
-  "lastSyncedAt": "2026-07-17T19:51:32.492Z",
+  "lastSyncedAt": "2026-07-17T20:38:30.570Z",
   "warDay": 140,
-  "summary": "Intensified US strikes against Iran and Iranian retaliatory attacks on US bases in the Gulf mark a significant escalation, prompting regional threats and efforts to secure alternative oil routes.",
+  "summary": "Direct conflict between the US and Iran has escalated with continuous US strikes and Iranian retaliatory attacks, leading to increased regional tensions and significant oil market disruption.",
   "lastNarrativeUpdate": "2026-07-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; conflict has significantly escalated with ongoing strikes and retaliatory actions."
+    "summary": "No ceasefire is active; direct conflict between the US and Iran is escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.8,
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.5,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 90,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 15,
+    "escalationLevel": 92,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
+    "sanctionsPressure": 65,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,27 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 16",
-      "text": "US launches sixth consecutive day of strikes against Iran, intensifying attacks in southern Iran and killing at least eight.",
+      "text": "Qatar and Kuwait fend off fresh attacks amidst ongoing US strikes against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOU0UzM1RqVEZOZDY5Z3RMcDN4UEpaejlVUnBZOW51azFzWmNaZEVtTHJSdThpTnYwbmlzRjd2Sno0SjZKdHFyYU5JZmJyMzFoeWZLZTVGVUsydVJFZ0MxVGlMVVY0NlpVaW5TMENxSGdTZ2NLYlZtZUdXTVZYVU1zQkZuNkFLNnFFQjVGbUpOUDZremQ1SHg1UTZVclpWSVQxa2ZpNDJ1N0dnVXFMX0NqT0JvaUhGMkFoc1dv0gHAAUFVX3lxTFB1U0ZRVHh2cWdJMmN4MGlmakxadUctVXhxNFZpR05SZGtYNEhyakRKT0NYTXBhSDhmYnpZYzhscS1lRy0wTWVmR3pJenZtQXB3VkNZM0szaWxoYlY4dkwxTXJhVEpHdFdiV2dqcFVEQ3NUNWlkclZjTU5hNExJZzM4VmhFTDlMVDNJV2RySk53dlVEVmZFak1VdTYwWV9aaEFILThmdHRxc3phV1ZuZmxGUTdsQ2hOeFZZbmJGMzNqSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1342
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1RWk1Qa1dMb0Y3cjlkWWtFUFpPQzhEMnk4N0lFRmswd2t1R1F0Yi1oS1Z6TUJFQ0xpRzZPcGd3Yi1ndU5YYlk3ZjRJYkJxRVkxdmlPU2RxY052ekFOWWc5NDd3LTJLMmx5MkdmZ293?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1343
     },
     {
       "date": "Jul 16",
-      "text": "Iran Guards claim responsibility for an attack on a U.S. base in Qatar, stating it was meant to 'punish aggressor'.",
+      "text": "Iran's Revolutionary Guards claim responsibility for an attack on a U.S. base in Qatar, stating it was to 'punish aggressor'.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1342
+      "latestSinceUpdate": 1343
     },
     {
       "date": "Jul 16",
-      "text": "US expands Iran strikes, hitting an airport, bridges, and a communications tower.",
+      "text": "US intensifies attacks in southern Iran, reportedly killing at least eight people, marking the sixth consecutive day of strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1343
+    },
+    {
+      "date": "Jul 16",
+      "text": "US expands strikes against Iran, hitting an airport, bridges, and a communications tower.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFB0V2lEMjl3REM1d2VhZEEyMmZyRG9LMHZOSk8wUXotakwyRDkzVkphQjBvRVF2M0NtX1pfNmZLSXF6OGpkakFnRTJ6N3VjTy1DcFdKQ1Jn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Ynetnews",
-      "latestSinceUpdate": 1342
+      "latestSinceUpdate": 1343
     },
     {
       "date": "Jul 16",
@@ -92,19 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 16",
-      "text": "Report indicates Iran has told regional allies, including Hezbollah, to prepare for a broader conflict.",
+      "text": "Maritime risk CEO states oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQMVRJMkpmT2tBWHFWY3dpek1YWk94QmM3eWNHZEtpc2tjZHdxcTk3U0xCZ2Jka0d2QVRkalNPX2lVYkJ5WC1OeHRQY0RkU0FyaU9NaWxXbU1iNGFpaGdnMnRuSExGTl9MVmNDZzRVM1g5NTk5QWlkUFZwcmxuZ0pTekQwRTNqd3ItRUhQckZON2VIZExyTl9oTGZMM0hIUmY2RmtTTHE3MDZFcjgtRVlWVm5PVG5MVXNaYUszRWlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1342
-    },
-    {
-      "date": "Jul 16",
-      "text": "Chevron explores a pipeline bypassing the Strait of Hormuz; Iraq and Syria sign agreement to restore an alternative oil pipeline.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOdklMSnhYQmNTWnBFZ3JGTkRkckE1RTg1QVBpd3hWb291ZGsxSGNqSlF2VGtxWWtIdWtzY2VGUDZ1eFBxN0RZb0huWFZ3U2FoaWtBVTZ1MmQtWFZGOVFncW1nVW9uaGhfd1lZZXlVUmcyZVdFektMajJSTVhXYk50a0pEbFI1RFBPQ3Y00gGQAUFVX3lxTE1xSEFicjl2X29zZ1IxQ1NONUNycjlJbDlkRTd0UWM5cjA2eU9oczE3OEg5cEVzcEd5ZTlveEV5aVZ4MjB5c0hqVW9SaklKLTJrMEpSMHlPRWtHMDR6YUFPalg5el9ISTM3SmRpSW1XbW04eFBGS1JZXzBQVE1jVlVvRFd5OWdSVU0yMVZDeWFlSA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPc2ZkclBjdExUQmlrZURuWWltMFBvUmFEN3VVSkZDT0Y0ckZUZXRCU2pFV2NKeWUtek5IQ3Z5dUVkQzFOSHczUFVDT19fc0FBTUZWNGVRZUJVY216Rk05RkwyVklqTXlxTzZVczIyYjZINlRTZVpmVmFyRkVzcHpfallaeDRWR2tNeVVvdDZBYkttRjFUNHI00gGcAUFVX3lxTFBtUFFBeloxLXJKUXdIWkJTSHBoWERCNkV3WlN4OWFuaWIxQWJlWnBjcVYyUng0VDdkc21rMk90czUzdnd2ekJEOVUwbWFTLU9ja25LTDRteEJpaXhXVnVHTWFFZXlLNWlvODRIRUxlYW0zcWFwSzBxSWJSSUFYQnFQSFRKMy1kN1JTZ09GcE1WRnZlczV5ZVlxd2FweQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1342
+      "latestSinceUpdate": 1343
     }
   ],
   "sourceStatuses": [
