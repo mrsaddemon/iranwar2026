@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1331,
+  "updateSequence": 1332,
   "lastUpdated": "2026-07-17",
-  "lastSyncedAt": "2026-07-17T01:05:24.891Z",
+  "lastSyncedAt": "2026-07-17T04:17:51.179Z",
   "warDay": 140,
-  "summary": "The United States continues its airstrike campaign against Iran, which claims to have targeted the US Fifth Fleet, while efforts are underway to secure oil transit routes and regional arms smuggling attempts are being interdicted.",
+  "summary": "The United States is conducting ongoing strikes against Iran, citing the protection of vessels in the Strait of Hormuz, while Iran and Israel have exchanged strikes for the first time since an April cease-fire.",
   "lastNarrativeUpdate": "2026-07-17",
   "ceasefire": {
     "active": false,
-    "status": "none",
+    "status": "collapsed",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is currently active, with continuous military engagements reported."
+    "summary": "The April cease-fire between Iran and Israel has collapsed following recent exchanges of strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.2
+        "precision": 0.65,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 35,
+    "escalationLevel": 88,
+    "oilDisruption": 82,
+    "tradeImpact": 75,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 15",
-      "text": "US launches sixth consecutive day of strikes against Iran, expanding its campaign to hit more bridges.",
+      "date": "Jul 13",
+      "text": "Trump notifies Congress of new war against Iran.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQUU9ieHhBZnpPM195b0pyRmt5amMtOURxWmtDRzZmVnBLMWhmXzNJTWotZkhpckc3YzNfSGZuZUtNV1luSEZNdnJ2SGYyS2RuM2Qzdk5tWFBZM1BPUjdOcEFrSjhDcmFlZWcwbXZfaGx5WG5Zd0xSTlJYcWxOSV9FU1FqUDZmVjE4UU0xdjluN3VMQ1FZT2hjMEoxTVkyZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1332
+    },
+    {
+      "date": "Jul 15",
+      "text": "US states new strikes on Iran are aimed at protecting vessels in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1332
+    },
+    {
+      "date": "Jul 17",
+      "text": "US military completes its sixth consecutive night of strikes against Iran.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOU0UzM1RqVEZOZDY5Z3RMcDN4UEpaejlVUnBZOW51azFzWmNaZEVtTHJSdThpTnYwbmlzRjd2Sno0SjZKdHFyYU5JZmJyMzFoeWZLZTVGVUsydVJFZ0MxVGlMVVY0NlpVaW5TMENxSGdTZ2NLYlZtZUdXTVZYVU1zQkZuNkFLNnFFQjVGbUpOUDZremQ1SHg1UTZVclpWSVQxa2ZpNDJ1N0dnVXFMX0NqT0JvaUhGMkFoc1dv0gHAAUFVX3lxTFB1U0ZRVHh2cWdJMmN4MGlmakxadUctVXhxNFZpR05SZGtYNEhyakRKT0NYTXBhSDhmYnpZYzhscS1lRy0wTWVmR3pJenZtQXB3VkNZM0szaWxoYlY4dkwxTXJhVEpHdFdiV2dqcFVEQ3NUNWlkclZjTU5hNExJZzM4VmhFTDlMVDNJV2RySk53dlVEVmZFak1VdTYwWV9aaEFILThmdHRxc3phV1ZuZmxGUTdsQ2hOeFZZbmJGMzNqSg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1331
+      "latestSinceUpdate": 1332
     },
     {
-      "date": "Jul 15",
-      "text": "Iran claims its forces targeted the US Fifth Fleet in Bahrain in response to ongoing US strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQbjlLV08xTHJxX0JZLTJkRE1DaFV6WFRsMWwxeXRoZWROVHZJQ2hhUU9UTjhBd3Vld0h1azluWkJFM1ZzM2gtS3cyZXNqM1V6SnA2aDlPNUVNQ3dTMzVQV0JKaVNaUU9DcjRfZ3JNSWV0WkRvWWRxOE4wS1l4a1dremtzUUFoaFJlaVhVMFV2dXdNX2ZQdXpLRWdGeDJLTl8ycUhIaHowUktSTUx0ZUptcFR4clp5aWJla2UycHJHME00M3lKYVRGNVl5QnlXZmEtV013?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1331
+      "date": "Recent",
+      "text": "Iran and Israel exchange strikes for the first time since an April cease-fire.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1332
     },
     {
-      "date": "Jul 15",
-      "text": "Chevron and Iraq are exploring options for a new oil pipeline through Syria to bypass the Strait of Hormuz.",
+      "date": "Recent",
+      "text": "Syria blocks a major weapons shipment to Hezbollah from Iraq.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPSW1PQk53QzVRbW4xa29CNWRsbGtCSmpCS2pRR3N6dmJoMnNXbjdBRDhwMFN6UVZpM2MxSm5zakZaVkxRQjhIWWMxaDBIOWxjM0w5Y3BRUHBLWFJSNUp3elFoMWRTdXBvaElxamdwQlJVTS1BVzJUYjN3ek5DUjNFTmYtalc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 1331
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9qUzQyb0EzNzBTVER3NzNYU2U4M2txNG5mZklSTFhHNi1NZDUwQjJKaGQwRk5rZWowVEdDU0FDeWNpYlA2Nl81cDFCeXdPdXNsQnh0QkJtR041Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Israel National News",
+      "latestSinceUpdate": 1332
     },
     {
-      "date": "Jul 15",
-      "text": "Syria seizes advanced weapons it states were bound for Lebanon’s Hezbollah from Iraq.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNaFRMMk5Ka05ZQUFURGViTlJ2ZTVvUzNDN0lOcDFJMzZMODZNU1FILUVjNk5iN2lLZ3BzcExwT25vRW1EVjBFMTBTckJMQXEwN2F3azN3NDJReGNRaWZiSEVaaWo1T05jLVlxSkxxWm1WZDJaVkRMTkZWVTJRNlhXc0k5YS12UjdlLWRwc2FtdDdKaFhVWWYtdjNlbTRDWVhubzRyNVZsT0Jia2Y1SHU5Yk9B0gG3AUFVX3lxTFByRkJ5ZS0tNEJtMVFUUGhBb3FwZ1BmdVV0WVcxMm5YQUVTdXEzSlZDUEE1ZjhJZkQtSEllblB5QnZwdkVzckJ4YjJYX3B6QjRpWFo2LWVpMHhKeUpPYmNFTDg0dEhuZU1RZ0k1SkpyLV9EeE9oVEU2Uy1iNlQ4UDlRWHNXb2FZdFlYRTFXaThKM1RoUC1ibGtQTTQ0T083UHkzX3lON0dyNGk5M2hCTExUaEthUWVQWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1331
-    },
-    {
-      "date": "Jul 15",
-      "text": "US officials indicate progress in Lebanon and Israel moving toward implementing a withdrawal agreement.",
+      "date": "Recent",
+      "text": "US officials report Lebanon and Israel are moving toward implementing a withdrawal agreement.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQUzdXWUgxdkZESUZCemtDcl9UNGIzUUNjeU5qMkcxbmoxMlpNMHZVRU4xYkE0T1pKQVc2d1pDTEtUc1NQOWsxd0o1NFVfbGpPdGhGRDdfVFR3c01fV3Z1QUVQNVJjMTZ0U3VFNUliNkpndVN6MlBWYlFkbVVaejhjUktmUjFieDZJWmZ6aXdKSWhEWXluWGZqSlkyNzBpQnVHWU9OeXdwY2dDZEVDZGxscFFBY2xSWHFubFZlRktKNA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1331
-    },
-    {
-      "date": "Jul 15",
-      "text": "President Trump is reportedly weighing options for expanding US military operations in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9iRlk3Z0lDV3hvZWs5YWw1THpOdG5sMXRlQUZtdzgyT0hEY2tMQmhmQURMS1hVWkY4R2NUeFZhTnhxMF9iOTg2aHBQNlJzMkhnRkNZM0pULS1ZTkJyOEMtbGhvZnpqbXRoQXpMdTNZcE1CZTlPdEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1331
+      "latestSinceUpdate": 1332
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

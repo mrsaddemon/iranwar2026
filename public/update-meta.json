@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1331,
+  "updateSequence": 1332,
   "lastUpdated": "2026-07-17",
-  "lastSyncedAt": "2026-07-17T01:05:24.891Z",
+  "lastSyncedAt": "2026-07-17T04:17:51.179Z",
   "warDay": 140,
   "ceasefire": {
     "active": false,
-    "status": "none",
+    "status": "collapsed",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is currently active, with continuous military engagements reported."
+    "summary": "The April cease-fire between Iran and Israel has collapsed following recent exchanges of strikes."
   }
 }
