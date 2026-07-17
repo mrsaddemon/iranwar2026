@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1337,
+  "updateSequence": 1338,
   "lastUpdated": "2026-07-17",
-  "lastSyncedAt": "2026-07-17T13:56:52.051Z",
+  "lastSyncedAt": "2026-07-17T15:21:27.685Z",
   "warDay": 140,
-  "summary": "The conflict between the US and Iran has intensified with continuous US strikes on Iranian infrastructure and Iranian retaliation against US bases, leading to a 'worst case scenario' for the Strait of Hormuz and warnings of broader regional conflict.",
+  "summary": "The US has intensified and expanded strikes against Iran, which has retaliated against US bases and regional infrastructure, leading to a blockade in the Strait of Hormuz and rising oil prices, while regional allies prepare for a wider conflict.",
   "lastNarrativeUpdate": "2026-07-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; conflict continues to escalate with no end in sight."
+    "summary": "No ceasefire is active amid escalating conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.5
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "nuclearIndex": 35,
+    "escalationLevel": 95,
+    "oilDisruption": 90,
+    "tradeImpact": 82,
+    "sanctionsPressure": 65,
+    "globalPressure": 88,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 16",
-      "text": "US launches sixth consecutive day of strikes against Iran, intensifying attacks in southern Iran.",
+      "text": "US launches sixth consecutive day of strikes against Iran, hitting bridges, airport, and communications tower.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOU0UzM1RqVEZOZDY5Z3RMcDN4UEpaejlVUnBZOW51azFzWmNaZEVtTHJSdThpTnYwbmlzRjd2Sno0SjZKdHFyYU5JZmJyMzFoeWZLZTVGVUsydVJFZ0MxVGlMVVY0NlpVaW5TMENxSGdTZ2NLYlZtZUdXTVZYVU1zQkZuNkFLNnFFQjVGbUpOUDZremQ1SHg1UTZVclpWSVQxa2ZpNDJ1N0dnVXFMX0NqT0JvaUhGMkFoc1dv0gHAAUFVX3lxTFB1U0ZRVHh2cWdJMmN4MGlmakxadUctVXhxNFZpR05SZGtYNEhyakRKT0NYTXBhSDhmYnpZYzhscS1lRy0wTWVmR3pJenZtQXB3VkNZM0szaWxoYlY4dkwxTXJhVEpHdFdiV2dqcFVEQ3NUNWlkclZjTU5hNExJZzM4VmhFTDlMVDNJV2RySk53dlVEVmZFak1VdTYwWV9aaEFILThmdHRxc3phV1ZuZmxGUTdsQ2hOeFZZbmJGMzNqSg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1337
+      "latestSinceUpdate": 1338
     },
     {
       "date": "Jul 16",
-      "text": "US expands Iran strikes, hitting airport, bridges, and communications tower; Iran reports seven killed.",
+      "text": "Iran targets US bases in the Gulf and attacks Kuwaiti water desalination and power plant.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFB0V2lEMjl3REM1d2VhZEEyMmZyRG9LMHZOSk8wUXotakwyRDkzVkphQjBvRVF2M0NtX1pfNmZLSXF6OGpkakFnRTJ6N3VjTy1DcFdKQ1Jn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 1337
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1338
     },
     {
       "date": "Jul 16",
-      "text": "Tehran targets U.S. bases in the Gulf in retaliation for US strikes.",
+      "text": "US fires at an oil tanker in the Strait of Hormuz as a new Iran blockade begins, further eroding tanker traffic.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE1kVloyRVRzdnA0Ulk3R1AxaTNtWDMyTHdWQXlZOU8zb2hjaXZEblFnQUptai04Y3pSUlFxSURpWS0tU1hwNFdnMndjMlotMUJQUVZ2NmdOZ0t6czZXZk1YRTU0dnhMY3lEeVhlX29aUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1337
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE53Zzh4c1BzR2xsR08zRWRvcko4OFZzWVdPWTR1QTRfS3lYMUNZdnRrTW5Xbk8zRUpZQWthRy1McVJtbUpoVVNVTi1DMFlDQTBqUEJUSjNkZ2VDUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1338
     },
     {
       "date": "Jul 16",
-      "text": "Strait of Hormuz is 'back to the worst case scenario' amid escalating attacks, raising oil disruption concerns.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNTms5S29XQzlnbjNtVi1RXzJ6WUtBLTVIVlJZVnhMbFVfemxMdmpxNlhqV2k4dkRHemU2QnpLcFNjTWRjN2NzLW4zTk9vbmFSOUQ2ejYzRVBGbC1hN2RaQWhVaE9EalhzUl9mbFY4WVFPeDRwVkNETGtEQnl3VHNpc0steHVaT3lLdFdESi1kWlIyUHla?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1337
-    },
-    {
-      "date": "Jul 16",
-      "text": "Iran warns the war 'will spread' and tells regional allies, including Hezbollah, to prepare for broader conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiYkFVX3lxTE1xMkdDcEhqTm5Qd2VuUk5KSjV6ZHJodUZ3dWs5M29tVHZ2MjQxb2RWaVBseVVhQ1dxLTBsMWVyWmJYd211WjdNVk9ZeDZoUl9id0JJMS02aUg0bFI1Szl2V19B0gFnQVVfeXFMTUNRUnZqM0tTOW5veXJkZ0JiOGlTQTd4Z2VaaTlMZlZnWmVzVHE2amtUaFdZaEtBUVJDYXc5WHBOMzdMU1ljdEpKLTIyTy1QYUR5YmZUT3RxSlVjSGYwWmswTkpocVVSUQ?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran reportedly tells Hezbollah and allies to prepare for a wider conflict, potentially involving Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1337
+      "latestSinceUpdate": 1338
     },
     {
       "date": "Jul 16",
-      "text": "Qatar and Kuwait fend off fresh attacks amidst ongoing US-Iran conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1RWk1Qa1dMb0Y3cjlkWWtFUFpPQzhEMnk4N0lFRmswd2t1R1F0Yi1oS1Z6TUJFQ0xpRzZPcGd3Yi1ndU5YYlk3ZjRJYkJxRVkxdmlPU2RxY052ekFOWWc5NDd3LTJLMmx5MkdmZ293?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1337
+      "text": "Lebanon’s UNIFIL Peacekeepers are heading for the exits amid escalating regional tensions.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1338
+    },
+    {
+      "date": "Jul 16",
+      "text": "Syria seizes advanced weapons it says were bound for Lebanon’s Hezbollah.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNaFRMMk5Ka05ZQUFURGViTlJ2ZTVvUzNDN0lOcDFJMzZMODZNU1FILUVjNk5iN2lLZ3BzcExwT25vRW1EVjBFMTBTckJMQXEwN2F3azN3NDJReGNRaWZiSEVaaWo1T05jLVlxSkxxWm1WZDJaVkRMTkZWVTJRNlhXc0k5YS12UjdlLWRwc2FtdDdKaFhVWWYtdjNlbTRDWVhubzRyNVZsT0Jia2Y1SHU5Yk9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1338
     }
   ],
   "sourceStatuses": [
