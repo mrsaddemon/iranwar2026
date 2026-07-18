@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1359,
+  "updateSequence": 1360,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T18:10:18.229Z",
+  "lastSyncedAt": "2026-07-18T19:34:59.144Z",
   "warDay": 141,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 1,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "Iran has announced the suspension of its ceasefire commitments with the US, leading to a collapse of previous de-escalation efforts."
+    "summary": "An interim peace agreement has been called off by Iran, leading to renewed and escalating conflict with no signs of de-escalation."
   }
 }
