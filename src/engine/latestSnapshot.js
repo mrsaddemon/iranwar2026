@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1355,
+  "updateSequence": 1356,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T14:10:45.291Z",
+  "lastSyncedAt": "2026-07-18T15:17:05.555Z",
   "warDay": 141,
-  "summary": "The conflict between the United States and Iran has intensified, marked by a seventh consecutive night of US strikes and Iranian threats of wider regional engagement, with infrastructure damage reported in Kuwait and Lebanon.",
+  "summary": "The United States and Iran are engaged in escalating military strikes over the Strait of Hormuz, with Iran suspending ceasefire commitments and regional allies preparing for a wider conflict.",
   "lastNarrativeUpdate": "2026-07-18",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 1,
     "durationDays": 1,
-    "summary": "No ceasefire is active as conflict between the US and Iran continues to escalate."
+    "summary": "Iran has announced the suspension of its ceasefire commitments with the US following a week of intensified military strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
     "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 17",
-      "text": "US and Iran widen attacks with no sign of de-escalation.",
+      "text": "Iran and US widen attacks as renewed conflict shows no sign of de-escalating.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9CRTdoVUhnVjkxYTZVWXJCdXRnWXVSZGkyeXJiOEg0MzRzYk9JWkQtbDFPZ3BxSVZMdTVxOG92aEg4YXo1dVdMcG1QNVFVSWJtT0dCU0xFUTY4ekZTYnJzV0szUC10UTlEY1JHRlRB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1355
+      "latestSinceUpdate": 1356
     },
     {
-      "date": "Jul 17",
-      "text": "Bridges and water plants in Iran hit by strikes for the seventh consecutive day.",
+      "date": "Jul 15",
+      "text": "US says new strikes on Iran aimed at protecting vessels in Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAxVGZoUVBJNUtEYi1ONDBNWDZnX1o3ZTVLblF5RkY0dzR0VG1NRE5ZQzd1VHFTU3FDVnhIRENicjJIalVjRElNTjBtV0pfMVd3QVJMazBCMkZDZVNpRGZfNjdTdWJkcnZWT2VwVWd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1356
+    },
+    {
+      "date": "Jul 15",
+      "text": "The U.S. and Iran blow past red lines as they lurch back toward all-out war.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1355
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9fLS1XRGYwTGdYR0Z1QmlXYldBUEpkUzAzcVluN3hoa3hFR1FldjlZVUhLUHUtSGVNLTh4ZC11azdDRnUyNlhmXzc5cUZMNE1mV2t3YVB6dnFqVUw3bXM4Uk8yQjNobkJwTWhpRlVnb25XeGdpM3hPcg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1356
     },
     {
-      "date": "Jul 17",
-      "text": "US attacks this month have resulted in 50 killed and 500 wounded in Iran.",
+      "date": "Jul 16",
+      "text": "Iran war live: 50 killed, 500 wounded in US attacks this month.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1355
+      "latestSinceUpdate": 1356
     },
     {
       "date": "Jul 17",
-      "text": "US and Iran trade strikes over the Strait of Hormuz, with Kuwait reporting infrastructure damage.",
+      "text": "US launches seventh straight night of strikes on Iran.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1355
-    },
-    {
-      "date": "Jul 17",
-      "text": "Iran instructs Hezbollah and allies to prepare for a wider conflict, potentially involving Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1355
-    },
-    {
-      "date": "Jul 17",
-      "text": "Israeli army destroys three schools in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNbW1ReVZ4eDRZTktQZEdjRm52YUdhWE04Zk5xVUNjcXkxTFJpdjl4WDJFUTZKdUZDNDNGWGZINDFPdjgwc0V4bzNzV3hWTkZNalpibS1vaW8yWmplNzhXQnVERVpnUFdDb2R1VndkUWpSZTJsekJJZkZ5cFpnWS1tWGxnR3F2dEw5dFNzV0RqU3p2N0F3M1prRXhaeTZ4eW1pZkdramxuVXU0QWc0Z0l30gG0AUFVX3lxTE9xQzZHMlRZUFlHaUVIN1N0bXV1U0ZhSFYwSU9MZ2dYVTk3eWRqMFV1aUo0dXpuc2tkLUhUZTRiZzBJMWtUOEZ2a1pjZWNhZ2VCODJ3MV9CelVPUGVTTDBTMUVON1ZsM09XU3MtRk9YUVp4cGh2OS1iWm42TG1lSUZsZVhMNG5JTmFtRkE0SEVKREZHRWtlamtUNWtVZzl4ZVVJTnkzMFYxNFpyR3NNc2FfU2NxcA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQX3F0Tk5uODljNVJMbFh5OS12WlAzeEE4VTBJRFd1NzU4UDNDVTlNUzBNNnBTaXFOODZYN1phZ2JyZ3FEVE5udkJka3ZILVFSQ3hab094dmhOUnJmdC0xUnhJWjJSaG4yZ0R6VFJTTUpKd2ZfY1dsSlRDeC04WEFpZXVad0V6SEp0QnQ3TlhtbkVSckdYNmd1YzdB0gGfAUFVX3lxTFAxbFdvUUcwd3BSUWNsak5VYlN2SmxHYU5yYmlGOVUzbm0ybzlPczhobE1NMDJDSFNkdU1Da1V2VHNaZDZVajFtY0FDcDdtVF9sc05CdzEwdW1zVnc4T2o0c1EyQjdKWnN3YXNhendhdGhXX2xwYnRMUEtZamNPS1dUTVVnUWlPQ1hGWmQ3RTJ0Qm14U0ozd3J4S1ViSmN2Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1355
+      "latestSinceUpdate": 1356
+    },
+    {
+      "date": "Jul 17",
+      "text": "US and Iran trade strikes over Strait of Hormuz; Kuwait suffers infrastructure damage.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1356
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

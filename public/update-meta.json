@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1355,
+  "updateSequence": 1356,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T14:10:45.291Z",
+  "lastSyncedAt": "2026-07-18T15:17:05.555Z",
   "warDay": 141,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 1,
     "durationDays": 1,
-    "summary": "No ceasefire is active as conflict between the US and Iran continues to escalate."
+    "summary": "Iran has announced the suspension of its ceasefire commitments with the US following a week of intensified military strikes."
   }
 }
