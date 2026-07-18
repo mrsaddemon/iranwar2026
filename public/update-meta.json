@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1363,
+  "updateSequence": 1364,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T22:26:38.650Z",
+  "lastSyncedAt": "2026-07-18T23:30:20.648Z",
   "warDay": 141,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "An interim peace agreement has been called off, indicating no active ceasefire."
+    "summary": "An interim peace agreement has been called off by Iran, and direct military escalation is ongoing between the US and Iran."
   }
 }
