@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1357,
+  "updateSequence": 1358,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T16:12:18.480Z",
+  "lastSyncedAt": "2026-07-18T17:17:39.028Z",
   "warDay": 141,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 1,
     "durationDays": 1,
-    "summary": "Iran has announced the suspension of its ceasefire commitments with the US following a week of intensified American strikes."
+    "summary": "Iran has announced the suspension of its ceasefire commitments amid renewed US strikes, indicating a collapse of previous agreements."
   }
 }
