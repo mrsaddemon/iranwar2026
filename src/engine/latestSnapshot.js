@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1361,
+  "updateSequence": 1362,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T20:23:44.705Z",
+  "lastSyncedAt": "2026-07-18T21:27:48.316Z",
   "warDay": 141,
-  "summary": "Conflict between the US and Iran has escalated with US casualties in Jordan, continued reciprocal strikes, and Iran calling off an interim peace agreement while regional tensions involving Israel and Hezbollah also intensify.",
+  "summary": "Conflict between the US and Iran has significantly escalated following an Iranian attack in Jordan that killed two US service members, prompting a seventh consecutive night of US strikes on Iran and threats of wider regional conflict.",
   "lastNarrativeUpdate": "2026-07-18",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
-    "confidence": 0.9,
+    "confidence": 0.08,
     "durationDays": 1,
     "summary": "An interim peace agreement has been called off by Iran's supreme leader, indicating a collapse of previous de-escalation efforts."
   },
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 74,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,19 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 17",
-      "text": "Two U.S. service members were killed and one is missing following an Iranian attack on a base in Jordan.",
+      "text": "Iranian attack in Jordan killed two US service members and left one missing.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQc3N2aG5kQ0NidlFlZXE0eUk4U2NlZUxuTFhKVk9vNWR0a2p4QXRjTkc3N0JOMkZPUUxFX3NLYXJuelFTTF9uQU5odnY2cGNPMXVCcHUyNmZrdEpCbHlIa2YtcHJ2YnY2eExEMFZhX0dJb202Z1BRa2pNVjJub0J0MC1aZkx4Nm1l?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1361
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9GSmY1MHcwblY5Y0NWNTJmOUotLUJ6bV92cXVHUXhMeWtNUWhFLVBORDlzM2F1QXlxakU5RGZOOURvRGVRM0hEeDBLTE5YejZ1M202a1ViTGtSZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1362
     },
     {
       "date": "Jul 17",
-      "text": "The U.S. military launched its seventh consecutive night of strikes on Iran, targeting bridges and water plants.",
-      "severity": "warning",
+      "text": "The US launched its seventh consecutive night of strikes on Iran in response to escalating attacks.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1361
+      "latestSinceUpdate": 1362
     },
     {
       "date": "Jul 17",
@@ -92,19 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 17",
-      "text": "The Israeli army destroyed three schools in southern Lebanon and struck Hezbollah fighters after a drone was spotted.",
+      "text": "Israeli army destroyed three schools in southern Lebanon, according to a Lebanese minister.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1360
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNbW1ReVZ4eDRZTktQZEdjRm52YUdhWE04Zk5xVUNjcXkxTFJpdjl4WDJFUTZKdUZDNDNGWGZINDFPdjgwc0V4bzNzV3hWTkZNalpibS1vaW8yWmplNzhXQnVERVpnUFdDb2R1VndkUWpSZTJsekJJZkZ5cFpnWS1tWGxnR3F2dEw5dFNzV0RqU3p2N0F3M1prRXhaeTZ4eW1pZkdramxuVXU0QWc0Z0l30gG0AUFVX3lxTE9xQzZHMlRZUFlHaUVIN1N0bXV1U0ZhSFYwSU9MZ2dYVTk3eWRqMFV1aUo0dXpuc2tkLUhUZTRiZzBJMWtUOEZ2a1pjZWNhZ2VCODJ3MV9CelVPUGVTTDBTMUVON1ZsM09XU3MtRk9YUVp4cGh2OS1iWm42TG1lSUZsZVhMNG5JTmFtRkE0SEVKREZHRWtlamtUNWtVZzl4ZVVJTnkzMFYxNFpyR3NNc2FfU2NxcA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1362
     },
     {
       "date": "Jul 17",
-      "text": "The U.S.-Iran battle over the Strait of Hormuz is raising risks for global waterways.",
+      "text": "Israeli military struck Hezbollah fighters after a drone was spotted in southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxNV19JQjNsbG9UTjhwaFJDdU9waGppMDRfenJsUmJWNFczUERHV0lIMFR1Z28zalN3UzVlaUx6dHVCc0lBU1g4Y1hic19NLWc0UkFLSUxFdksxV09GM0R5QlhON252RHFwb3B5MVNlaUJoX0pPNFFtbUpPVUg2d20tYjV4MGlvSnNwc0Nib01jMGg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1361
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1362
     }
   ],
   "sourceStatuses": [
