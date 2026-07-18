@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1360,
+  "updateSequence": 1361,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T19:34:59.144Z",
+  "lastSyncedAt": "2026-07-18T20:23:44.705Z",
   "warDay": 141,
-  "summary": "The conflict between the US and Iran has escalated significantly with direct attacks, US casualties, and retaliatory strikes, while Iran has called off an interim peace agreement and threatened wider regional conflict.",
+  "summary": "Conflict between the US and Iran has escalated with US casualties in Jordan, continued reciprocal strikes, and Iran calling off an interim peace agreement while regional tensions involving Israel and Hezbollah also intensify.",
   "lastNarrativeUpdate": "2026-07-18",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
-    "confidence": 0.08,
+    "confidence": 0.9,
     "durationDays": 1,
-    "summary": "An interim peace agreement has been called off by Iran, leading to renewed and escalating conflict with no signs of de-escalation."
+    "summary": "An interim peace agreement has been called off by Iran's supreme leader, indicating a collapse of previous de-escalation efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 45,
     "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,35 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 17",
-      "text": "Two US service members were killed and one is missing following an Iranian attack on a base in Jordan.",
+      "text": "Two U.S. service members were killed and one is missing following an Iranian attack on a base in Jordan.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9GSmY1MHcwblY5Y0NWNTJmOUotLUJ6bV92cXVHUXhMeWtNUWhFLVBORDlzM2F1QXlxakU5RGZOOURvRGVRM0hEeDBLTE5YejZ1M202a1ViTGtSZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1360
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQc3N2aG5kQ0NidlFlZXE0eUk4U2NlZUxuTFhKVk9vNWR0a2p4QXRjTkc3N0JOMkZPUUxFX3NLYXJuelFTTF9uQU5odnY2cGNPMXVCcHUyNmZrdEpCbHlIa2YtcHJ2YnY2eExEMFZhX0dJb202Z1BRa2pNVjJub0J0MC1aZkx4Nm1l?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1361
     },
     {
       "date": "Jul 17",
-      "text": "The US military launched its seventh consecutive night of strikes targeting Iran.",
+      "text": "The U.S. military launched its seventh consecutive night of strikes on Iran, targeting bridges and water plants.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1360
+      "latestSinceUpdate": 1361
     },
     {
       "date": "Jul 17",
-      "text": "Iran's supreme leader warned of 'unforgettable lessons' for the US if attacks continue and called off an interim peace agreement.",
+      "text": "Iran's supreme leader vowed 'unforgettable lessons' for the U.S. and called off an interim peace agreement.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPQUZ4NFJJSU1NWWE3TlpSd0dvVzVwcVZFYW1kcEJIRVhJSDhxR052U1ctZWdjZ1BVNHlBYTFHRy1oLUFTa3VXU2czRzlUMFA5R1B4OWJ1VERrUlRuWE9IUzlhM1RMSnNKajh6eGhMSGZLMUFDSWl5ZGRkUG9Uby1iTldqdUVzcnFReGFrZC1MaWZ2QS1fRHNZT2twN25EWV9TaVIzVk9n0gGrAUFVX3lxTE1GemlvVkpUUGRsUFZLRnJiaGFaaUl4Q29qS29hcHFRbVFHLVhPTEtJbmpVUlhUZlRWZDQ5a2paTFBaS0ttbXl4Smk3aWVKZnVXRlFWaXRiX2l5UDBCSG1tdVQ1UzRzT2JWVlI3aWxnU2ZSY1FnV1p0b0hmRFBZOEdxY3M0QXNzUTczQzFJVS16RGJDRlVVZmR0dEd4SERleVIyQkQ1alhuS2ctQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1360
+      "latestSinceUpdate": 1361
     },
     {
       "date": "Jul 17",
-      "text": "Iran reportedly told Hezbollah and allies to prepare for a wider conflict that could involve Israel.",
-      "severity": "critical",
+      "text": "Iran reportedly told Hezbollah and allies to prepare for a wider conflict, potentially involving Israel.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1360
+      "latestSinceUpdate": 1361
     },
     {
       "date": "Jul 17",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 17",
-      "text": "The U.S.-Iran battle over the Strait of Hormuz raises risks for global waterways.",
+      "text": "The U.S.-Iran battle over the Strait of Hormuz is raising risks for global waterways.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxNV19JQjNsbG9UTjhwaFJDdU9waGppMDRfenJsUmJWNFczUERHV0lIMFR1Z28zalN3UzVlaUx6dHVCc0lBU1g4Y1hic19NLWc0UkFLSUxFdksxV09GM0R5QlhON252RHFwb3B5MVNlaUJoX0pPNFFtbUpPVUg2d20tYjV4MGlvSnNwc0Nib01jMGg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 1360
+      "latestSinceUpdate": 1361
     }
   ],
   "sourceStatuses": [
