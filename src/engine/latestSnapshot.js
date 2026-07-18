@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1349,
+  "updateSequence": 1350,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T06:22:02.966Z",
+  "lastSyncedAt": "2026-07-18T08:13:14.283Z",
   "warDay": 141,
-  "summary": "The conflict between the US and Iran has intensified with both sides escalating attacks across the Middle East, threatening maritime shipping in the Strait of Hormuz, and involving regional allies.",
+  "summary": "Conflict between the United States and Iran has intensified, marked by reciprocal strikes across the Middle East and threats of wider regional involvement, particularly impacting maritime security in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-18",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; conflict between the US and Iran is actively escalating."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict is escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.78
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "nuclearIndex": 35,
+    "escalationLevel": 92,
+    "oilDisruption": 88,
+    "tradeImpact": 80,
+    "sanctionsPressure": 65,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,27 +68,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 17",
-      "text": "U.S. sending dozens of refueling planes to Israel as Iran escalation looms.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE0wdWZPMDJyNmZjNk04ZXNBaGo0b3pTdHdXRmJaQ253WlNoVDNkOVFDLU5Oc1FYNXRlTF9sWExqTmwta3poTjNJaUFjMVlEbHlqdWhKNHhScXJZZE12bXpNN0R6SC1jck9UOElHckE4cjV6V0tDRnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 1349
-    },
-    {
-      "date": "Jul 17",
-      "text": "US and Iran escalate strikes across Mideast, with US launching 7th consecutive night of strikes on Iran.",
+      "text": "US launches seventh consecutive night of strikes on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1349
+      "latestSinceUpdate": 1350
     },
     {
       "date": "Jul 17",
-      "text": "Iran threatens to lash out at Arab neighbors as US ramps up strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5jTVhZd0FfWURfdTk2dk1XM0NKMDdlNG1OeW5FSVd0Y3lGTHJmcjBmRVllTGJPbjIwWkFKRUFVOF9uN0MyRUc0LUxrYWJWd1czeWtSZ05iVUxMZVpSOEN5Z1pVZE5CUjVTbDE0OHJISGtudmVtN2JOYnkyV2UzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1349
+      "text": "Iran attacks Kuwait, Bahrain, and Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1350
     },
     {
       "date": "Jul 17",
@@ -100,17 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 17",
-      "text": "US attacks oil tanker in Strait of Hormuz as strikes reported in Tehran.",
+      "text": "Iran tells Hezbollah and allies to prepare for wider conflict, potentially involving Israel.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNYjN5b0F1WEwzX0Y3RTFpdVBhc0JiN2M0Y3RRNHJBMlZHOTZWVThnYWdJUFdGVTRzdjh3dG8teEtCcFBtMXd3OE9tSWZvbGg1M1d2TWl2Yk5hWlNZQ2d5bl9ud3Zad3lhYjJkcFJaRGNsejA2ZnhWM1NfM3JKWFVvaXFBclBSOU5uYUJsZjA1NDBXdFhHNTRublNHcUotTlkxQVNXN2c0VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1350
+    },
+    {
+      "date": "Jul 17",
+      "text": "U.S. sending dozens of refueling planes to Israel as Iran escalation looms.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE0wdWZPMDJyNmZjNk04ZXNBaGo0b3pTdHdXRmJaQ253WlNoVDNkOVFDLU5Oc1FYNXRlTF9sWExqTmwta3poTjNJaUFjMVlEbHlqdWhKNHhScXJZZE12bXpNN0R6SC1jck9UOElHckE4cjV6V0tDRnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
       "latestSinceUpdate": 1349
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
