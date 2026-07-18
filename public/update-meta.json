@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1362,
+  "updateSequence": 1363,
   "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T21:27:48.316Z",
+  "lastSyncedAt": "2026-07-18T22:26:38.650Z",
   "warDay": 141,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "An interim peace agreement has been called off by Iran's supreme leader, indicating a collapse of previous de-escalation efforts."
+    "summary": "An interim peace agreement has been called off, indicating no active ceasefire."
   }
 }
