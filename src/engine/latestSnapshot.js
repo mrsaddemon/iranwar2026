@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1374,
+  "updateSequence": 1375,
   "lastUpdated": "2026-07-19",
-  "lastSyncedAt": "2026-07-19T16:13:29.683Z",
+  "lastSyncedAt": "2026-07-19T17:26:19.546Z",
   "warDay": 142,
-  "summary": "The US and Iran are engaged in direct military conflict following an attack on US service members in Jordan, with US forces conducting multiple retaliatory strikes on Iranian targets and Iran warning of wider regional escalation.",
+  "summary": "The United States has launched retaliatory airstrikes against Iran following the deaths of US troops in Jordan, leading to fears of a wider regional conflict involving US allies and Iranian proxies.",
   "lastNarrativeUpdate": "2026-07-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; direct military conflict and regional escalation are ongoing."
+    "summary": "No active ceasefire is in effect amidst escalating hostilities between the US and Iran, and regional actors."
   },
   "actorOverrides": {
     "usa": {
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 70,
+    "nuclearIndex": 75,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
     "sanctionsPressure": 64,
     "globalPressure": 85,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 18",
-      "text": "Two US service members were killed and one missing after an Iranian attack in Jordan, prompting US retaliatory strikes.",
+      "text": "Two US service members killed, one missing following Iranian strikes in Jordan.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPRW1HM0tnNnRlejk2WUp0LURrTzA2RERyQUZvZ3g3SGRCeVJWQUtYUl8zbWZQSzlkSDc0WmdLWlY1VTFmTG1DejlFbnV0ejNGbFNkQ2tfdU96dTlsRHI4Z1RsbG9NM2R6TXlENU55RmVnZVR2Umk2Y3o0MWw3bUJnVXI0UmE1Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1374
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQc3N2aG5kQ0NidlFlZXE0eUk4U2NlZUxuTFhKVk9vNWR0a2p4QXRjTkc3N0JOMkZPUUxFX3NLYXJuelFTTF9uQU5odnY2cGNPMXVCcHUyNmZrdEpCbHlIa2YtcHJ2YnY2eExEMFZhX0dJb202Z1BRa2pNVjJub0J0MC1aZkx4Nm1l?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1375
     },
     {
       "date": "Jul 18",
-      "text": "US military launched new airstrikes, marking the 7th consecutive night of strikes, to punish Iran for the deaths of US troops.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1374
+      "text": "US military launches new airstrikes to 'swiftly punish' Iran for deaths of US troops.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1375
     },
     {
       "date": "Jul 18",
-      "text": "US reportedly attacked an Iranian nuclear site, while a Kuwaiti desalination plant was also hit.",
+      "text": "US attacks Iran nuclear site; Kuwait desalination plant hit.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1374
+      "latestSinceUpdate": 1375
     },
     {
       "date": "Jul 18",
-      "text": "Iran's IRGC warned of a potential 'accident' in the Strait of Hormuz amid escalating tensions.",
-      "severity": "warning",
+      "text": "Iran hits US allies as Israel warns missiles headed for Jordan could land on its territory.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1374
+      "latestSinceUpdate": 1375
     },
     {
       "date": "Jul 18",
-      "text": "Iran reportedly told Hezbollah and allies to prepare for a wider conflict that could involve Israel.",
+      "text": "IRGC warns of 'accident' in Strait of Hormuz; tankers involved in ‘accident’.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNLWctRkh1bVFmdEhxVmxwRjl4bHprdWpLVGJ4dm1Ea3ZnMnRvNGZRd0dVaDNKTUNEVElZVlJTMnhLeFVzNkpyVUdROTFBcU9TTzRTOE9ybmFuS1kyakVRdmUyUkthM0dGUk5fNnVNMFNwTFJueGNEc29xM291NmNRczhzMGFXb0dWbVFSMnNFVkNuWUVIdEJZRDRDTGl4R3BFUWhCcGxQbXN1X1dZV3hwcWxTS283bmQ3NjV2aC1Kd1RxbjFyTWFndHdB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1375
+    },
+    {
+      "date": "Jul 18",
+      "text": "Iran said to tell Hezbollah, allies to prepare for wider conflict.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1374
-    },
-    {
-      "date": "Jul 18",
-      "text": "Israeli army destroyed three schools in southern Lebanon and struck Hezbollah fighters after a drone was spotted.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1374
+      "latestSinceUpdate": 1375
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
