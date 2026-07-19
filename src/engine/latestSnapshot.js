@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1378,
+  "updateSequence": 1379,
   "lastUpdated": "2026-07-19",
-  "lastSyncedAt": "2026-07-19T20:31:44.967Z",
+  "lastSyncedAt": "2026-07-19T21:27:42.284Z",
   "warDay": 142,
-  "summary": "The US and Iran are engaged in direct conflict, with US retaliatory strikes on Iranian targets, including a nuclear site, following the deaths of US service members, while Iran targets US allies and warns of Strait of Hormuz disruptions.",
+  "summary": "The US and Iran are engaged in escalating conflict, marked by repeated US strikes on Iranian targets, including a nuclear site, and increasing casualties, while Israel also conducts strikes against Hezbollah.",
   "lastNarrativeUpdate": "2026-07-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No ceasefire is active as hostilities between the US and Iran continue to escalate."
   },
   "actorOverrides": {
     "usa": {
@@ -24,20 +24,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 18",
-      "text": "US attacks Iran nuclear site.",
+      "text": "US attacks Iran nuclear site; Kuwait desalination plant hit.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1378
+      "latestSinceUpdate": 1379
     },
     {
       "date": "Jul 18",
-      "text": "Kuwait desalination plant hit.",
+      "text": "Another U.S. Service Member Is Killed as Two Sides Edge Toward Wider War.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1378
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQbmViUUFFckx5RUFieFpDdVFUb2hrazdyVkJuRUFfcXpEQV9xbURPal9ucHY2a2pjV0p5d3lEMFZGR01VekxzanpkZUZoQ0Z2WHdzZF8tbEZqeThTUDU3c3pVd2tRMG5tX1c3T1dyRDlOSkZjRnl4eGtFeHFKNTlRbA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1379
     },
     {
       "date": "Jul 18",
-      "text": "Another U.S. service member killed in Jordan/Iraq, raising fears of wider war.",
+      "text": "U.S. launches 7th consecutive night of strikes on Iran in retaliation for troop deaths.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1378
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1379
     },
     {
       "date": "Jul 18",
-      "text": "U.S. launches strikes against Iran in retaliation for troop deaths.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1378
-    },
-    {
-      "date": "Jul 18",
-      "text": "Iran hits US allies, with Israel warning Tehran's attacks on Jordan are coming close.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxPdXB4ekZwQU9LckJ2TE9pTmk0V3FwSUd1djQ2MGhvVC1zNVg0ZUM0TWluU0J3QzZoR0dQTm5Wc3pFU1JSNWxzVWRTWGhKWm0wU3BfeUN2WkFvbnpXQlBGbDJpcmlCbDEwbW04aXJIZXdMSlVzTFFUcHZHY05LcWRqV3NWZEQ0TmxKbFVNbHFTdHdpZnR3Vk42TDBEMXpZOW1XQ0d2UUxfY3R3ejFDZ2dPcm5hVFh5TWgxRW1pdjNSVy1hV1psUnpPYkg3ODdwVmpQVlF0QXkydGV0U1nSAeABQVVfeXFMUHM2Yzg5V185WUJkOHR5UmlzU0g5VVh1V0o4YmpCQzNLY0Q3UGVvcUFlRTBnTTZ0YlJOTjJhN2NVZklZZGpZNWhBems1QlVSLTVWcU92VzRXaWNPMVJTZVRDeGh3VVdaX3pWTnBFWXBuSkRZTklIZk9mYjU0OENTVDVsVmt0Nmt4cHd0bGdEVUpxbEtTRUtuY19jUXVEUDdad2k3U3R6Sng0aml4eThQUlplb3JlM0g3UWk3SXNfM3BicVBMNTdhMWt1QkZZYWVLLVlDV2JVOFdvbUVqbkwzcE4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "ABC7 Los Angeles",
-      "latestSinceUpdate": 1378
-    },
-    {
-      "date": "Jul 18",
-      "text": "IRGC warns of 'accident' in Strait of Hormuz.",
+      "text": "Israeli military strikes Hezbollah fighters after drone spotted in southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNLWctRkh1bVFmdEhxVmxwRjl4bHprdWpLVGJ4dm1Ea3ZnMnRvNGZRd0dVaDNKTUNEVElZVlJTMnhLeFVzNkpyVUdROTFBcU9TTzRTOE9ybmFuS1kyakVRdmUyUkthM0dGUk5fNnVNMFNwTFJueGNEc29xM291NmNRczhzMGFXb0dWbVFSMnNFVkNuWUVIdEJZRDRDTGl4R3BFUWhCcGxQbXN1X1dZV3hwcWxTS283bmQ3NjV2aC1Kd1RxbjFyTWFndHdB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1378
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1379
+    },
+    {
+      "date": "Jul 18",
+      "text": "U.S. military service member killed during ‘controlled detonation’ of downed Iranian drone.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi9AFBVV95cUxQY0tQMm14dmRveXQ1TDZ2Qk9QY0FVNHFDdm5jZ3N2Y0gzYkZ5SjN3ZXBwbE90RnNXOG10S3NlandSQVJSSGlHRXJwMkZlSE5SNWlmVTZJOTBLZkhPYnNGWjFTRTRrX0NSam5NcU9PWEF3MDViMW9iakNRYmwwcExZOTRRRmQ5bnJOeHlLaUpVbHpIdDhvNUs4Wm44ZVJHR2dtcHl3SjZGUFVSZktBQ1UtLVduRTVJb1JyaVNKenlfOUY1cGNpQ3BHSWNJajZUVk1tWVBOZGRVSDM5OXJNZThpelFickdHTm1qd1FndTd1NGE5Tmg4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1379
     }
   ],
   "sourceStatuses": [
