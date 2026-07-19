@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1368,
+  "updateSequence": 1369,
   "lastUpdated": "2026-07-19",
-  "lastSyncedAt": "2026-07-19T09:19:43.288Z",
+  "lastSyncedAt": "2026-07-19T10:46:39.484Z",
   "warDay": 142,
-  "summary": "The US and Iran are engaged in widening direct conflict, with the US conducting retaliatory airstrikes after American troop deaths in Jordan, while Iran prepares for a broader regional confrontation involving its allies.",
+  "summary": "The US and Iran are engaged in escalating military conflict following US troop deaths in Jordan, with both sides widening attacks and regional actors like Hezbollah and Israel becoming involved.",
   "lastNarrativeUpdate": "2026-07-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; conflict between the US and Iran is escalating with no signs of de-escalation."
+    "summary": "No ceasefire is active; conflict is actively escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 83
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 74
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.88
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 18,
+    "nuclearIndex": 20,
     "escalationLevel": 90,
-    "oilDisruption": 78,
-    "tradeImpact": 72,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 18",
-      "text": "US military launches new airstrikes against Iran to punish for deaths of US troops.",
+      "text": "US military launches new airstrikes to 'swiftly punish' Iran for deaths of US troops.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1368
+      "latestSinceUpdate": 1369
     },
     {
       "date": "Jul 17",
-      "text": "Iran and US widen attacks, with renewed conflict showing no sign of de-escalating.",
+      "text": "Iran and US widen attacks as renewed conflict shows no sign of de-escalating.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9CRTdoVUhnVjkxYTZVWXJCdXRnWXVSZGkyeXJiOEg0MzRzYk9JWkQtbDFPZ3BxSVZMdTVxOG92aEg4YXo1dVdMcG1QNVFVSWJtT0dCU0xFUTY4ekZTYnJzV0szUC10UTlEY1JHRlRB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1368
+      "latestSinceUpdate": 1369
     },
     {
-      "date": "Jul 17",
-      "text": "Two US service members killed and one missing after an Iranian attack on a base in Jordan.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPRW1HM0tnNnRlejk2WUp0LURrTzA2RERyQUZvZ3g3SGRCeVJWQUtYUl8zbWZQSzlkSDc0WmdLWlY1VTFmTG1DejlFbnV0ejNGbFNkQ2tfdU96dTlsRHI4Z1RsbG9NM2R6TXlENU55RmVnZVR2Umk2Y3o0MWw3bUJnVXI0UmE1Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1368
-    },
-    {
-      "date": "Jul 17",
-      "text": "Iran threatens to lash out at Arab neighbors and tells Hezbollah and allies to prepare for wider conflict.",
+      "date": "Jul 18",
+      "text": "Iran threatens to lash out at Arab neighbors as US ramps up strikes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE5jTVhZd0FfWURfdTk2dk1XM0NKMDdlNG1OeW5FSVd0Y3lGTHJmcjBmRVllTGJPbjIwWkFKRUFVOF9uN0MyRUc0LUxrYWJWd1czeWtSZ05iVUxMZVpSOEN5Z1pVZE5CUjVTbDE0OHJISGtudmVtN2JOYnkyV2UzUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1368
+      "latestSinceUpdate": 1369
     },
     {
-      "date": "Jul 17",
-      "text": "Israeli military strikes Hezbollah fighters in southern Lebanon after a drone was spotted.",
+      "date": "Jul 18",
+      "text": "Iran tells Hezbollah and allies to prepare for wider conflict, potentially involving Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1369
+    },
+    {
+      "date": "Jul 18",
+      "text": "Israeli military strikes Hezbollah fighters after drone spotted in southern Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1368
-    },
-    {
-      "date": "Jul 17",
-      "text": "Israeli army reportedly destroys three schools in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNbW1ReVZ4eDRZTktQZEdjRm52YUdhWE04Zk5xVUNjcXkxTFJpdjl4WDJFUTZKdUZDNDNGWGZINDFPdjgwc0V4bzNzV3hWTkZNalpibS1vaW8yWmplNzhXQnVERVpnUFdDb2R1VndkUWpSZTJsekJJZkZ5cFpnWS1tWGxnR3F2dEw5dFNzV0RqU3p2N0F3M1prRXhaeTZ4eW1pZkdramxuVXU0QWc0Z0l30gG0AUFVX3lxTE9xQzZHMlRZUFlHaUVIN1N0bXV1U0ZhSFYwSU9MZ2dYVTk3eWRqMFV1aUo0dXpuc2tkLUhUZTRiZzBJMWtUOEZ2a1pjZWNhZ2VCODJ3MV9CelVPUGVTTDBTMUVON1ZsM09XU3MtRk9YUVp4cGh2OS1iWm42TG1lSUZsZVhMNG5JTmFtRkE0SEVKREZHRWtlamtUNWtVZzl4ZVVJTnkzMFYxNFpyR3NNc2FfU2NxcA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1368
+      "latestSinceUpdate": 1369
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +114,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
