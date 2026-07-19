@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1371,
+  "updateSequence": 1372,
   "lastUpdated": "2026-07-19",
-  "lastSyncedAt": "2026-07-19T12:38:42.000Z",
+  "lastSyncedAt": "2026-07-19T14:14:59.632Z",
   "warDay": 142,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 1,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "A brief truce between the US and Iran has collapsed, leading to renewed and intensified hostilities."
   }
 }
