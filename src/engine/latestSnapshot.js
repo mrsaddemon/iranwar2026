@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1380,
+  "updateSequence": 1381,
   "lastUpdated": "2026-07-19",
-  "lastSyncedAt": "2026-07-19T22:28:24.269Z",
+  "lastSyncedAt": "2026-07-19T23:32:40.297Z",
   "warDay": 142,
-  "summary": "The US-Iran conflict continues with US strikes on Iranian targets, including a nuclear site, and ongoing casualties for US service members, while regional tensions escalate with an attack on a Kuwaiti desalination plant and a warning regarding the Strait of Hormuz.",
+  "summary": "The US-Iran conflict continues with ongoing US airstrikes on Iranian targets, including a nuclear site, and reports of US troop casualties, while Iran warns of potential disruptions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is currently active between the warring parties, with active military engagements reported."
+    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 70,
     "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 18",
-      "text": "US attacks an Iranian nuclear site.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1380
-    },
-    {
-      "date": "Jul 18",
-      "text": "A Kuwaiti desalination plant is hit.",
+      "text": "Another U.S. service member was killed, bringing the total to 17, as US forces continue strikes against Iran.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1380
+      "latestSinceUpdate": 1381
     },
     {
       "date": "Jul 18",
-      "text": "Another U.S. service member is killed, bringing the total to 17.",
+      "text": "US military launched strikes on an Iran nuclear site and continued its 9th consecutive night of airstrikes against Iran.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1380
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQR18yY0ZHTjdGNS1SZlVrYm5nNmlKUm50NlFiSGJuS1JpVHdFWDM0bDVlel9UUXI4YlZkRlk0QnpwdnJKWV9fRDdqZlZvbHZyd0c0QVVOZlpGejktS0JXazBHcGV1NkV5QmVBS3M0VGhRUzdSUGFwVzBKbnlFYUNsdlZHT2JSTW16QUNQVV9ibHBmcHpVNmZQZ2Fqd1d0eTZZT282Q2hLZE5iNlhy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1381
     },
     {
       "date": "Jul 18",
-      "text": "US launches its 7th consecutive night of strikes on Iran.",
+      "text": "A Kuwait desalination plant was reported hit amidst ongoing regional conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOd3lSdFRQZlgtMENkT0RZVFRRcXhQcTNEWm1mVUFacjdZX0F2VXRQbGh1TnFyejFYcldIVWFkdjZZdXJsZk93dGlwMWhCNVpqMmN1NGhFMGtEQlVmQW1Ba3RPTEdTRVdqTTByamhubG5tWFgxb1p5NjdweFF3N3dIX3E2MzhfLVBKVzZZM1pOcWhxcnhIcVR0Z1JqdEVVWExzTDlheTJxOV9iZmtRY0poOFNDNnNGTDNKOWFGakJlc9IBxAFBVV95cUxOUTBWOUczSEhTSVBKdlVkeERTdE1uYTFwUEI4OGVxZkhQUjVBMXhSR0xFdktMcTk0MFUzUU51YnZJYk9jYWMtemkwcXE2Nmg3c2FfamhJZ2RoaGxTcGV3bEtaazZ0bkJSZnpMV1BHVFcyNFlfWndMYWZnS2hpdWZSNElELXItdTh6SXNaT09GQjZqcjlXRTNhdV9GOElvbXhKX0l6R2tkTEM3dXFrZUtNN1lZRHI3R2dLZHRXeWdncjBHOUJP?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1380
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1381
     },
     {
       "date": "Jul 18",
-      "text": "Iran's IRGC warns of a potential 'accident' in the Strait of Hormuz.",
+      "text": "Iran's IRGC warned of a potential 'accident' in the Strait of Hormuz, a critical oil shipping lane.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1380
+      "latestSinceUpdate": 1381
     },
     {
       "date": "Jul 18",
-      "text": "A blast kills a Lebanese soldier in the south, with Israel blaming Hezbollah.",
+      "text": "Brent Oil prices topped $90 per barrel due to Middle East attacks threatening Hormuz flows.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxPSGZIaEdteHBaOTdFamVlaW5lbkNRVEtKNy1SS2ZmMlhueDg3MDF1bWxCQ2dLTF9kUTJtb3JVLVF1aE5XUk1BQ21abXlsV09mQlJydzFORmVQWUJ1YW1mOGFJS1hON1JHanZQVFJSOTNXbHhuRkdORXJwOGFIWU5sWTJ4MHNIT2xSN25zcF91R0plcXZNOXk4SXliTC1ma0VMUjlZS3NQZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Naharnet",
-      "latestSinceUpdate": 1380
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1381
+    },
+    {
+      "date": "Jul 18",
+      "text": "Iran reportedly told Hezbollah and allies to prepare for a wider conflict that could involve Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1381
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
