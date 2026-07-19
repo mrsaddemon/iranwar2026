@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1364,
-  "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T23:30:20.648Z",
-  "warDay": 141,
+  "updateSequence": 1365,
+  "lastUpdated": "2026-07-19",
+  "lastSyncedAt": "2026-07-19T01:04:24.846Z",
+  "warDay": 142,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "An interim peace agreement has been called off by Iran, and direct military escalation is ongoing between the US and Iran."
+    "summary": "No active ceasefire is in effect; hostilities are escalating between the US and Iran, and in the Israel-Lebanon border region."
   }
 }

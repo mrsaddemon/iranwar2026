@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1364,
-  "lastUpdated": "2026-07-18",
-  "lastSyncedAt": "2026-07-18T23:30:20.648Z",
-  "warDay": 141,
-  "summary": "The United States and Iran are engaged in escalating direct conflict, with the US launching multiple airstrikes in response to an Iranian attack that killed US service members in Jordan, while Israel continues strikes against Hezbollah in Lebanon.",
-  "lastNarrativeUpdate": "2026-07-18",
+  "updateSequence": 1365,
+  "lastUpdated": "2026-07-19",
+  "lastSyncedAt": "2026-07-19T01:04:24.846Z",
+  "warDay": 142,
+  "summary": "The US has launched multiple retaliatory airstrikes against Iran following an attack in Jordan that killed US service members, while Iran has increased attacks on shipping in the Strait of Hormuz and signaled preparation for a wider regional conflict.",
+  "lastNarrativeUpdate": "2026-07-19",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "An interim peace agreement has been called off by Iran, and direct military escalation is ongoing between the US and Iran."
+    "summary": "No active ceasefire is in effect; hostilities are escalating between the US and Iran, and in the Israel-Lebanon border region."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
+    "nuclearIndex": 15,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,50 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 18",
-      "text": "US military launches new airstrikes against Iran, marking the seventh consecutive night of strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQX3F0Tk5uODljNVJMbFh5OS12WlAzeEE4VTBJRFd1NzU4UDNDVTlNUzBNNnBTaXFOODZYN1phZ2JyZ3FEVE5udkJka3ZILVFSQ3hab094dmhOUnJmdC0xUnhJWjJSaG4yZ0R6VFJTTUpKd2ZfY1dsSlRDeC04WEFpZXVad0V6SEp0QnQ3TlhtbkVSckdYNmd1YzdB0gGfAUFVX3lxTFAxbFdvUUcwd3BSUWNsak5VYlN2SmxHYU5yYmlGOVUzbm0ybzlPczhobE1NMDJDSFNkdU1Da1V2VHNaZDZVajFtY0FDcDdtVF9sc05CdzEwdW1zVnc4T2o0c1EyQjdKWnN3YXNhendhdGhXX2xwYnRMUEtZamNPS1dUTVVnUWlPQ1hGWmQ3RTJ0Qm14U0ozd3J4S1ViSmN2Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1364
-    },
-    {
-      "date": "Jul 17",
-      "text": "Two US service members were killed and one is missing after an Iranian missile and drone attack in Jordan.",
+      "date": "Jul 19",
+      "text": "Two U.S. service members killed and one missing in Iranian attack on Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPRW1HM0tnNnRlejk2WUp0LURrTzA2RERyQUZvZ3g3SGRCeVJWQUtYUl8zbWZQSzlkSDc0WmdLWlY1VTFmTG1DejlFbnV0ejNGbFNkQ2tfdU96dTlsRHI4Z1RsbG9NM2R6TXlENU55RmVnZVR2Umk2Y3o0MWw3bUJnVXI0UmE1Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1364
+      "latestSinceUpdate": 1365
     },
     {
-      "date": "Jul 18",
-      "text": "Iran's supreme leader vows 'unforgettable lessons in store' for the U.S. after calling off an interim peace agreement.",
+      "date": "Jul 19",
+      "text": "US military launches new airstrikes to punish Iran for deaths of US troops, marking eighth consecutive night of strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1365
+    },
+    {
+      "date": "Jul 19",
+      "text": "US revokes oil sales permit after Iran attacks three ships in Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1365
+    },
+    {
+      "date": "Jul 19",
+      "text": "Iran reportedly tells Hezbollah and allies to prepare for wider conflict, potentially involving Israel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPQUZ4NFJJSU1NWWE3TlpSd0dvVzVwcVZFYW1kcEJIRVhJSDhxR052U1ctZWdjZ1BVNHlBYTFHRy1oLUFTa3VXU2czRzlUMFA5R1B4OWJ1VERrUlRuWE9IUzlhM1RMSnNKajh6eGhMSGZLMUFDSWl5ZGRkUG9Uby1iTldqdUVzcnFReGFrZC1MaWZ2QS1fRHNZT2twN25EWV9TaVIzVk9n0gGrAUFVX3lxTE1GemlvVkpUUGRsUFZLRnJiaGFaaUl4Q29qS29hcHFRbVFHLVhPTEtJbmpVUlhUZlRWZDQ5a2paTFBaS0ttbXl4Smk3aWVKZnVXRlFWaXRiX2l5UDBCSG1tdVQ1UzRzT2JWVlI3aWxnU2ZSY1FnV1p0b0hmRFBZOEdxY3M0QXNzUTczQzFJVS16RGJDRlVVZmR0dEd4SERleVIyQkQ1alhuS2ctQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1364
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1365
     },
     {
-      "date": "Jul 18",
-      "text": "Israeli army destroys three schools in southern Lebanon and strikes Hezbollah fighters after a drone was spotted.",
+      "date": "Jul 19",
+      "text": "Israeli army destroys three schools in southern Lebanon and strikes Hezbollah fighters after drone spotted.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNbW1ReVZ4eDRZTktQZEdjRm52YUdhWE04Zk5xVUNjcXkxTFJpdjl4WDJFUTZKdUZDNDNGWGZINDFPdjgwc0V4bzNzV3hWTkZNalpibS1vaW8yWmplNzhXQnVERVpnUFdDb2R1VndkUWpSZTJsekJJZkZ5cFpnWS1tWGxnR3F2dEw5dFNzV0RqU3p2N0F3M1prRXhaeTZ4eW1pZkdramxuVXU0QWc0Z0l30gG0AUFVX3lxTE9xQzZHMlRZUFlHaUVIN1N0bXV1U0ZhSFYwSU9MZ2dYVTk3eWRqMFV1aUo0dXpuc2tkLUhUZTRiZzBJMWtUOEZ2a1pjZWNhZ2VCODJ3MV9CelVPUGVTTDBTMUVON1ZsM09XU3MtRk9YUVp4cGh2OS1iWm42TG1lSUZsZVhMNG5JTmFtRkE0SEVKREZHRWtlamtUNWtVZzl4ZVVJTnkzMFYxNFpyR3NNc2FfU2NxcA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1364
-    },
-    {
-      "date": "Jul 18",
-      "text": "Israel watches US-Iran escalation and offers to join strikes, but Washington urges restraint.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5VYlNvMG1MbFhEZnA4ZnBIVlFUdHZMZm5LTGs5SDlva2FPMlF0T29FbFBOWU56TnhXM1duVkl2ak0wVmJCb0w5dDhUa3VvVy1MSE5vMFZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 1364
+      "latestSinceUpdate": 1365
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -118,7 +118,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "Our World in Data",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Liveuamap",
@@ -131,25 +131,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Stance",
-      "headline": "Iran Punishes Aggressors, Prepares for Wider Conflict",
-      "summary": "Iran claims its attack on a U.S. base was punitive and states it 'never welcomed war', while also threatening Arab neighbors and preparing allies like Hezbollah for a wider regional conflict that could involve Israel.",
+      "perspective": "US/Western",
+      "headline": "US Retaliates Against Iran for Troop Deaths and Maritime Attacks",
+      "summary": "The United States is conducting sustained retaliatory strikes against Iran to punish for the killing of American troops and deter further aggression. Concurrently, the US is addressing Iranian maritime threats in the Strait of Hormuz by revoking oil sales permits.",
       "tone": "defiant",
-      "latestSinceUpdate": 1347
+      "latestSinceUpdate": 1365
     },
     {
-      "perspective": "US Military Action",
-      "headline": "US Expands Strikes and Blockade Amid Escalation",
-      "summary": "The United States has launched seven consecutive nights of strikes against Iran, expanding targets to include infrastructure like airports and bridges, and resuming a blockade in response to Iranian attacks in the Strait of Hormuz.",
+      "perspective": "Iranian",
+      "headline": "Iran Prepares for Wider Conflict Amid US Strikes and Regional Tensions",
+      "summary": "Iran is escalating its actions in response to perceived aggression, including attacks on shipping and preparing regional allies for a broader confrontation with the US and Israel. This comes as the US launches multiple nights of strikes against Iranian targets.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1365
+    },
+    {
+      "perspective": "Regional (Israel/Hezbollah)",
+      "headline": "Israel Intensifies Strikes in Southern Lebanon Amid Border Escalation",
+      "summary": "Israel is actively engaging Hezbollah targets in southern Lebanon, responding to drone incursions and planted explosives, and has destroyed infrastructure. This indicates a heightened state of conflict along the border, with potential for wider regional involvement.",
       "tone": "strained",
-      "latestSinceUpdate": 1347
-    },
-    {
-      "perspective": "Regional Instability",
-      "headline": "Hormuz Crisis Deepens, Wider Conflict Feared",
-      "summary": "Concerns are rising over the security of oil tankers in the Strait of Hormuz, with reports of Iran stopping ships and warnings from a maritime risk CEO of a 'worst case scenario', alongside fears of a wider regional conflict involving Israel and Hezbollah.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1347
+      "latestSinceUpdate": 1365
     }
   ]
 });
