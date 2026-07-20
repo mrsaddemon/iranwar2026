@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1386,
+  "updateSequence": 1387,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T13:18:42.856Z",
+  "lastSyncedAt": "2026-07-20T15:22:32.219Z",
   "warDay": 143,
-  "summary": "The U.S. and Iran are engaged in direct military conflict with casualties, strikes on critical infrastructure, and regional spillover into Jordan and Lebanon, leading to a halt in LNG shipments through the Strait of Hormuz.",
+  "summary": "The conflict between the U.S. and Iran has intensified significantly, marked by U.S. casualties in Jordan, U.S. airstrikes on Iranian nuclear sites, Iranian attacks on Kuwaiti infrastructure and oil tankers in the Strait of Hormuz, and preparations for a wider regional conflict involving Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-07-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect as direct conflict escalates between the U.S. and Iran."
+    "summary": "No active ceasefire or de-escalation efforts are reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 92
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.9
+        "aggression": 0.95
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.75,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.92
       }
     }
   },
   "global": {
     "nuclearIndex": 75,
-    "escalationLevel": 90,
-    "oilDisruption": 90,
-    "tradeImpact": 81,
-    "sanctionsPressure": 64,
+    "escalationLevel": 93,
+    "oilDisruption": 88,
+    "tradeImpact": 80,
+    "sanctionsPressure": 65,
     "globalPressure": 86,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "US identifies soldiers killed in Iranian attack in Jordan after ninth night of strikes.",
+      "text": "Jordan is becoming a new focus in the U.S.-Iran conflict.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1387
+    },
+    {
+      "date": "Jul 20",
+      "text": "Yemen’s Houthis announce a maritime blockade of Saudi Arabia.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1387
+    },
+    {
+      "date": "Jul 20",
+      "text": "Hamas names a new leader as Kuwait reports being under fire from Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPYlNIOVRycE5IMVc1QVBrRGlTRTJ6Ty1jRW1CRFhGMGl2RWUzWGJ6ODZVT1NsMjZBdzBobVU4cG5hdGlYSkVZTzdyVUl4YmlDU0JCeEpMajB2czlZZjltY1RtVDlnRHNoWGQtdHZxVkNuZzB2Q0FJU0RkNW1kak5fTGFnTmFVRmtzb1dkTHJrWmh0NUpUUTVjRFlFU0tDR3Ffa3NlX3ZwSlNzb20zczZsaExlN2p5dUNDemZRazNzOVF4V011ZWNXUUQ3Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1386
+      "latestSinceUpdate": 1387
     },
     {
       "date": "Jul 20",
-      "text": "US launches more airstrikes against Iran after announcing another death of a service member.",
+      "text": "The U.S. and Iran are described as blowing past red lines and lurching toward all-out war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9fLS1XRGYwTGdYR0Z1QmlXYldBUEpkUzAzcVluN3hoa3hFR1FldjlZVUhLUHUtSGVNLTh4ZC11azdDRnUyNlhmXzc5cUZMNE1mV2t3YVB6dnFqVUw3bXM4Uk8yQjNobkJwTWhpRlVnb25XeGdpM3hPcg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1387
+    },
+    {
+      "date": "Jul 20",
+      "text": "U.S. launches more airstrikes against Iran following another death of a service member.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1385
+      "latestSinceUpdate": 1387
     },
     {
       "date": "Jul 20",
-      "text": "Iran war updates: US attacks nuclear site.",
+      "text": "U.S. attacks an Iranian nuclear site; a Kuwaiti desalination plant is hit.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1386
-    },
-    {
-      "date": "Jul 20",
-      "text": "Kuwait desalination plant hit.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1386
-    },
-    {
-      "date": "Jul 20",
-      "text": "LNG Shipments Through Strait of Hormuz Grind to a Halt as Conflict Escalates.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOMmYzc01oNk40dUtnTFB5LWgxYVZFU2NlQTdRdmU4cHlPdkFsYzZxUDlTcU9GOGlwVlhCTTBfVDNHQ2MxMlhfT05QSFBuRkI1aEVVSm4wZENFdnBlUGpOemdhYWN6LVRlejJxd1VwY0d2UEpELVpIT0N1cUIzNDNMX1RfUVYyOVRyUnA2NGI2ZXRJTDRZMEJSQU44eFNINUpNajFrLXZzY1Zydkk1bzBZT1BYc3l2SExIZlBDUkxxU0MyYnFiV2YxUW55UlTSAdIBQVVfeXFMTjFDZnlzTlc5Ri1hTVpqaHlkSlkzUTByM2hiMGxERjladERpSms4SGhSR1NlN2xHY1ljTG16czBtaXlZaVJiVGpxa1ZNLUdXakNNaGFpQW51UlRJdllLeXVPLXNlVHctRTA0ZWdiZHA1R1hvNUFHdUtYVWl0OFp1d1Bxb2htUHNBaUdGWGdKWkRNa0lmWjhDUWFCb2JhRGtUcEdFODB3UjcwN1d3S2tlX19TQlY4TDBlRE5PaFp6ajNFYm11SEN1Yk1odmxvdGNUcC1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Crude Oil Prices Today | OilPrice.com",
-      "latestSinceUpdate": 1386
-    },
-    {
-      "date": "Jul 20",
-      "text": "Iran said to tell Hezbollah, allies to prepare for wider conflict, which could rope in Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1386
+      "latestSinceUpdate": 1387
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
