@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1388,
+  "updateSequence": 1389,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T17:02:12.617Z",
+  "lastSyncedAt": "2026-07-20T19:00:05.883Z",
   "warDay": 143,
-  "summary": "The conflict between the U.S. and Iran has escalated significantly with mutual attacks, U.S. casualties, Houthi maritime blockades, and increased tensions between Israel and Hezbollah.",
+  "summary": "The United States and Iran are engaged in direct military exchanges following US troop deaths in Jordan, with Iran's president declaring a 'full-scale war' and regional tensions escalating with Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-07-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; the conflict between the U.S. and Iran, and Israel and Hezbollah, continues to escalate."
+    "summary": "No ceasefire is active; direct military conflict is ongoing between the U.S. and Iran, with regional spillover."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 92,
-    "oilDisruption": 85,
-    "tradeImpact": 78,
-    "sanctionsPressure": 65,
-    "globalPressure": 86,
+    "nuclearIndex": 30,
+    "escalationLevel": 90,
+    "oilDisruption": 65,
+    "tradeImpact": 63,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "Two US service members killed, another missing after Iranian attack in Jordan.",
+      "text": "Three U.S. service members were killed and dozens wounded in a repeat attack on a base in Jordan.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPRW1HM0tnNnRlejk2WUp0LURrTzA2RERyQUZvZ3g3SGRCeVJWQUtYUl8zbWZQSzlkSDc0WmdLWlY1VTFmTG1DejlFbnV0ejNGbFNkQ2tfdU96dTlsRHI4Z1RsbG9NM2R6TXlENU55RmVnZVR2Umk2Y3o0MWw3bUJnVXI0UmE1Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1388
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1389
     },
     {
       "date": "Jul 20",
-      "text": "U.S. hits Iran for ninth consecutive night as American casualties rise.",
+      "text": "U.S. launches more airstrikes against Iran in retaliation for the death of service members.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOZ0VvRW0wSkhXX19TZnBzYkF0cWVXUGtUdWlSb3JyLXZjNmtpNmNJOHVvOVpRLTJiaklJWjVOSEJBNEtFOW1lRFI0Zl9aOGg0NnMyTG1RZGF4MG1RRUV3NFV5Q2pvZWFMZm1SUUpkV1BFQi04eXdYWUZQb01ITGtmYzVfcDZvbFp6UUdIUHdR0gGTAUFVX3lxTE5TbTFTYUxrRFNLU3JwUGx2cy1yd2hSOEhScGZxRW5yalBSOGpvU3NnQ2J3Z0JUYXhSTkRNSDRWLUNaZ05jZjhwM1RwLVEyUTdncDdaUTdtT0pKelRRelpsbzg2eDhVb1VFRzdPZ1l1c2FZTjB3bFM4c0xvWGhMRGJiTFFEVS1EZTFPN21QWjhMZmw2WQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1388
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1389
     },
     {
       "date": "Jul 20",
-      "text": "Reports indicate US attacks on an Iranian nuclear site and a hit on a Kuwaiti desalination plant.",
+      "text": "Iran's president declares the country is in 'full-scale war' following the expansion of U.S. attacks, including a reported strike on a nuclear site.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1388
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNR2lqYURIaDAySDVzVnJYZ2kzMVN5WjJLeUNxc3NKZmNRWS1NZGZ2RVp3Vkt3VWxBMFpDb1RoV1YzTWxsQ2RoVWN0UUhfQ09oQkM0T00zbElUV0tWbVNQVDVoNGo4TGZCeEt4Y1c5T2pwcFFKcEJUeVA3eGJNRnNLMDJqLW8xR1ZwcGV4dXdWSExpa3M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1389
     },
     {
       "date": "Jul 20",
-      "text": "Yemen’s Houthis declare a naval blockade against Saudi Arabia amid Strait of Hormuz fighting.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQcGlNdEF4aTNtNFh4cDl6dW5sNTdfd1huSnFLTHhBY0hTb0lpY3p4aFZJTjhDLURFZXh3T3loek45UFA1MnRSdmFFY29Zc0dSQkt6dXBhMHByNUdjQUdUYjhjaEwyRHhka0VmUHV5emptaWRwZFRBcmZ6c0xFLXBGVzNiOVpiSUh0RE55Qk9Xc24wSTlMZnBXanNwTXNQbWUtR09n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1388
+      "text": "Israel threatens a 'full force' response if Iran fires missiles towards its territory.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQSE4tTld2NjdPdzFhRWNDeDYwWmI1OFF1bEUxZFkxcDEyZjBVY2tDdmMyT2VVODFERmhhWDJCLXZ4VFpJejVNYVVjd1l6U0NraGtlNDY0UHA2aU1RMlJvM0s0ZXlpdXF0djEtLWZLOFpscXI5U1VSYllHLXlDOUhCNXN6OGRyQ1UzQkVmbzdiYkpyelN0bHZkRFZabjZZRXV3M3BJbQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1389
     },
     {
       "date": "Jul 20",
-      "text": "Iran reportedly tells Hezbollah and allies to prepare for a wider conflict, potentially involving Israel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1388
+      "text": "Israeli forces surround Hezbollah fighters in a tunnel network in southern Lebanon and strike targets after a drone spotting.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1389
     },
     {
       "date": "Jul 20",
-      "text": "Israeli forces surround Hezbollah fighters in a tunnel network in Lebanon and strike targets after a drone sighting.",
+      "text": "A Kuwaiti desalination plant was reportedly hit amidst regional conflict.",
       "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1388
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1389
     }
   ],
   "sourceStatuses": [
