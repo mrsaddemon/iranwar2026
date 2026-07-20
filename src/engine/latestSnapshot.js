@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1392,
+  "updateSequence": 1393,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T22:41:05.498Z",
+  "lastSyncedAt": "2026-07-20T23:42:15.998Z",
   "warDay": 143,
-  "summary": "The United States and Iran are engaged in escalating military exchanges, including US airstrikes and Iranian attacks on US personnel and maritime targets, while Israel continues operations against Hezbollah in Lebanon.",
+  "summary": "The U.S. and Iran are engaged in escalating direct attacks, resulting in U.S. casualties and strikes on Iranian nuclear sites and shipping threats, while Israel continues operations against Hezbollah in Lebanon, including infrastructure destruction and establishing safe zones.",
   "lastNarrativeUpdate": "2026-07-20",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "The US-Iran MoU on June 17 appears to have collapsed following renewed military exchanges and attacks."
+    "summary": "No active ceasefire reported."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "nuclearIndex": 75,
+    "escalationLevel": 95,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 65,
+    "globalPressure": 88,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "U.S. military identifies 2 soldiers killed in Iranian attack in Jordan.",
+      "text": "U.S. and Iran trade attacks following the killing of U.S. soldiers.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1392
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1393
     },
     {
       "date": "Jul 20",
-      "text": "US launches more airstrikes against Iran after announcing another death of a service member.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1392
-    },
-    {
-      "date": "Jul 20",
-      "text": "Iran: 2 oil tankers in Strait of Hormuz have exploded.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNS0xHeEJHSTQ2MjA3N1htcDR3WS11Y0U2QjNXUHU4Zkd6Z0lNNXNKYmcxM2VEaVR3ejV1YkhNVXZqdC1kY2p3eUxHamJ5RmljQzZRRlc5bmlHM2RTdDc5R0VDcEp2QTVsQ2JPN0xqX01rNkUzMVlkMkZ5dTNlZ3IwY3dn0gGHAUFVX3lxTE5kQlpxOGp1NDdZbmJqdW15T0VhZ2JKRGtZSUtURVlmV1B4YldxQUFhckxNcU5YUjRKVkJaaGtsZzFDMk0zVXA5ZF9idV9JOUtJeVJ5MVJWLVpBV2xWMkY3Z3NUQkpVVEpBdEhiZ1I3V25PM192aHd6NzM5SmhsMnZod1F2ZTRzMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1392
-    },
-    {
-      "date": "Jul 20",
-      "text": "US attacks nuclear site in Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1392
-    },
-    {
-      "date": "Jul 20",
-      "text": "Kuwait desalination plant hit.",
+      "text": "Lawmakers demand termination of the Iran War after three U.S. service members were killed.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1392
+      "latestSinceUpdate": 1393
     },
     {
       "date": "Jul 20",
-      "text": "Israeli Forces Surround Hezbollah Fighters In Tunnel Network in Lebanon.",
+      "text": "Reports indicate the U.S. may lack sufficient missiles for an all-out war with Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOVnNOTHNFVUI2QzRyZElfU1ZybnhGV2VMZExiYjlheDJLcElQdWNwVElpM2tpNDBKUjNEM1ZBVGZ1ZUVRa1Y1R09nanYzeG1lRW5kOFhvVS0xbnhrWUYxcVdfLThVVHhtVDdBYk1rVVJUX1hoWmVFT3VJb3ZHTHFoYURrQnBFelh3N09lSUlxNW9nUmI1VGxtNlZfWVNBUVdCS3BEMTJzeHJfLUxjSGV2bkZwM2l1TDZ2bmdj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 1392
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1393
+    },
+    {
+      "date": "Jul 20",
+      "text": "The U.S. and Iran are described as blowing past red lines and lurching toward all-out war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE9fLS1XRGYwTGdYR0Z1QmlXYldBUEpkUzAzcVluN3hoa3hFR1FldjlZVUhLUHUtSGVNLTh4ZC11azdDRnUyNlhmXzc5cUZMNE1mV2t3YVB6dnFqVUw3bXM4Uk8yQjNobkJwTWhpRlVnb25XeGdpM3hPcg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1393
+    },
+    {
+      "date": "Jul 20",
+      "text": "U.S. attacks an Iranian nuclear site; a Kuwaiti desalination plant is also reported hit.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1393
+    },
+    {
+      "date": "Jul 20",
+      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are nearing.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1393
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

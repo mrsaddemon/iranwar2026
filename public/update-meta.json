@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1392,
+  "updateSequence": 1393,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T22:41:05.498Z",
+  "lastSyncedAt": "2026-07-20T23:42:15.998Z",
   "warDay": 143,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "The US-Iran MoU on June 17 appears to have collapsed following renewed military exchanges and attacks."
+    "summary": "No active ceasefire reported."
   }
 }
