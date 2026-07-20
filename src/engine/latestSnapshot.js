@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1385,
+  "updateSequence": 1386,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T12:00:00.000Z",
+  "lastSyncedAt": "2026-07-20T13:18:42.856Z",
   "warDay": 143,
-  "summary": "The U.S.-Iran conflict has intensified with mutual airstrikes, troop casualties, attacks on shipping and infrastructure, and Israeli military actions in Lebanon, while diplomatic signals are also emerging.",
+  "summary": "The U.S. and Iran are engaged in direct military conflict with casualties, strikes on critical infrastructure, and regional spillover into Jordan and Lebanon, leading to a halt in LNG shipments through the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect amidst ongoing hostilities."
+    "summary": "No active ceasefire is in effect as direct conflict escalates between the U.S. and Iran."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.75
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 75,
+    "escalationLevel": 90,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "globalPressure": 86,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "Ship ablaze in Hormuz Strait after attack; crew rescued.",
+      "text": "US identifies soldiers killed in Iranian attack in Jordan after ninth night of strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1385
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPYlNIOVRycE5IMVc1QVBrRGlTRTJ6Ty1jRW1CRFhGMGl2RWUzWGJ6ODZVT1NsMjZBdzBobVU4cG5hdGlYSkVZTzdyVUl4YmlDU0JCeEpMajB2czlZZjltY1RtVDlnRHNoWGQtdHZxVkNuZzB2Q0FJU0RkNW1kak5fTGFnTmFVRmtzb1dkTHJrWmh0NUpUUTVjRFlFU0tDR3Ffa3NlX3ZwSlNzb20zczZsaExlN2p5dUNDemZRazNzOVF4V011ZWNXUUQ3Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1386
     },
     {
       "date": "Jul 20",
@@ -76,41 +76,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 20",
-      "text": "US attacks nuclear site; Kuwait desalination plant hit.",
+      "text": "Iran war updates: US attacks nuclear site.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1385
+      "latestSinceUpdate": 1386
     },
     {
       "date": "Jul 20",
-      "text": "Iran vows not a ‘single drop’ of oil or gas will pass Strait of Hormuz as US carries out ninth night of strikes.",
+      "text": "Kuwait desalination plant hit.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPYlNIOVRycE5IMVc1QVBrRGlTRTJ6Ty1jRW1CRFhGMGl2RWUzWGJ6ODZVT1NsMjZBdzBobVU4cG5hdGlYSkVZTzdyVUl4YmlDU0JCeEpMajB2czlZZjltY1RtVDlnRHNoWGQtdHZxVkNuZzB2Q0FJU0RkNW1kak5fTGFnTmFVRmtzb1dkTHJrWmh0NUpUUTVjRFlFU0tDR3Ffa3NlX3ZwSlNzb20zczZsaExlN2p5dUNDemZRazNzOVF4V011ZWNXUUQ3Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1385
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1386
     },
     {
       "date": "Jul 20",
-      "text": "Israel threatens ‘full force’ response if Iran fires missiles towards it.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQSE4tTld2NjdPdzFhRWNDeDYwWmI1OFF1bEUxZFkxcDEyZjBVY2tDdmMyT2VVODFERmhhWDJCLXZ4VFpJejVNYVVjd1l6U0NraGtlNDY0UHA2aU1RMlJvM0s0ZXlpdXF0djEtLWZLOFpscXI5U1VSYllHLXlDOUhCNXN6OGRyQ1UzQkVmbzdiYkpyelN0bHZkRFZabjZZRXV3M3BJbQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1385
+      "text": "LNG Shipments Through Strait of Hormuz Grind to a Halt as Conflict Escalates.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOMmYzc01oNk40dUtnTFB5LWgxYVZFU2NlQTdRdmU4cHlPdkFsYzZxUDlTcU9GOGlwVlhCTTBfVDNHQ2MxMlhfT05QSFBuRkI1aEVVSm4wZENFdnBlUGpOemdhYWN6LVRlejJxd1VwY0d2UEpELVpIT0N1cUIzNDNMX1RfUVYyOVRyUnA2NGI2ZXRJTDRZMEJSQU44eFNINUpNajFrLXZzY1Zydkk1bzBZT1BYc3l2SExIZlBDUkxxU0MyYnFiV2YxUW55UlTSAdIBQVVfeXFMTjFDZnlzTlc5Ri1hTVpqaHlkSlkzUTByM2hiMGxERjladERpSms4SGhSR1NlN2xHY1ljTG16czBtaXlZaVJiVGpxa1ZNLUdXakNNaGFpQW51UlRJdllLeXVPLXNlVHctRTA0ZWdiZHA1R1hvNUFHdUtYVWl0OFp1d1Bxb2htUHNBaUdGWGdKWkRNa0lmWjhDUWFCb2JhRGtUcEdFODB3UjcwN1d3S2tlX19TQlY4TDBlRE5PaFp6ajNFYm11SEN1Yk1odmxvdGNUcC1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Crude Oil Prices Today | OilPrice.com",
+      "latestSinceUpdate": 1386
     },
     {
       "date": "Jul 20",
-      "text": "Israeli army destroys three schools in southern Lebanon.",
+      "text": "Iran said to tell Hezbollah, allies to prepare for wider conflict, which could rope in Israel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNbW1ReVZ4eDRZTktQZEdjRm52YUdhWE04Zk5xVUNjcXkxTFJpdjl4WDJFUTZKdUZDNDNGWGZINDFPdjgwc0V4bzNzV3hWTkZNalpibS1vaW8yWmplNzhXQnVERVpnUFdDb2R1VndkUWpSZTJsekJJZkZ5cFpnWS1tWGxnR3F2dEw5dFNzV0RqU3p2N0F3M1prRXhaeTZ4eW1pZkdramxuVXU0QWc0Z0l3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1385
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1386
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
