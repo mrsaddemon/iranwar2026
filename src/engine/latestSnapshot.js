@@ -1,100 +1,116 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1383,
+  "updateSequence": 1384,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T04:55:09.226Z",
+  "lastSyncedAt": "2026-07-20T08:14:04.469Z",
   "warDay": 143,
-  "summary": "The conflict between the US and Iran has intensified, marked by reciprocal strikes, US troop casualties, Iranian threats to oil transit, and an expanding regional involvement including Israel and Hezbollah.",
+  "summary": "The conflict between the U.S. and Iran has escalated significantly with multiple U.S. service member deaths, repeated U.S. airstrikes on Iranian targets including a nuclear site, and Iran threatening to block the Strait of Hormuz while preparing regional allies for a wider conflict involving Israel.",
   "lastNarrativeUpdate": "2026-07-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; the conflict is actively escalating."
+    "summary": "No ceasefire is active; conflict is actively escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.95
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 40,
     "escalationLevel": 90,
     "oilDisruption": 95,
     "tradeImpact": 85,
-    "sanctionsPressure": 64,
-    "globalPressure": 87,
-    "allianceInfluence": 51
+    "sanctionsPressure": 68,
+    "globalPressure": 93,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Jul 17",
-      "text": "US and Iran widen attacks, with the US conducting strikes for the 9th night in a row and announcing another troop death in Iraq.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOQi0zUlByVmtyRkFtTHBDM1BhNUt0eGNPVG5ocG5nOHRPUFpWcmZzVGxEeFN5XzdkZTNRSkVvclBnam1LdjZkSTF1VG93Zl9XdDIwRDdlcmpzRC0yQk9KTk5zYVg2VFNlSUlxMUh6elZCU0twZnV3ZUFLMU1sUTdxeHJmMjdGREd0RHIzLVR4WnY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 1383
-    },
-    {
-      "date": "Jul 17",
-      "text": "Iran reportedly attacks a nuclear site and a Kuwaiti desalination plant, while also targeting vessels in the Strait of Hormuz, leading to reports of halted or exploded oil tankers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOeDJKbzJhVUt2WlhPRVlGY2xKX21weTJuUUZLNGlaZ0RBWGpva21BUGh2OUYxSE5vVHlpTFdaNXJOQ21FYUctWUZxaV9jdHlEY1BmWXdrWEpOREpZNlVIaFRpRThObFlGWXFnUmVya29XbVdUM3pSVUdXamgtQzJubVZLRVR5dl9VZndTYVZOMUF1X25TYjFRNkY4WWlneUJsbVNSdVl4aEg2WVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AFR",
-      "latestSinceUpdate": 1383
-    },
-    {
-      "date": "Jul 17",
-      "text": "Iran vows that not a 'single drop' of oil or gas will pass the Strait of Hormuz and tells Hezbollah and allies to prepare for a wider conflict.",
+      "date": "Jul 20",
+      "text": "Another U.S. service member killed as war expands.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1383
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1384
     },
     {
-      "date": "Jul 17",
-      "text": "Israel warns Tehran's attacks are coming close and threatens a 'full force' response, while also striking Hezbollah fighters and destroying three schools in southern Lebanon.",
+      "date": "Jul 20",
+      "text": "U.S. completes ninth consecutive night of airstrikes against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOVHFLaklRSVdGWFlqcWlwY1otdVY0RExtSkhnakpkck1KcFo5MG44ejdfWjFkZU1ZWHJTd0xrSm9DTnBQTWJEVTZMQ3RKRjZMNVpMYXFmcmVHT3NMakhfSHhfT3U0bk1JLXNRa2psTUdIUEYyNjFWcm5vSTFNSHY3Ty0xYldJTE9lbEhFeU10ZU9XQnZfd3ZqVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1383
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1384
+    },
+    {
+      "date": "Jul 20",
+      "text": "U.S. attacks Iranian nuclear site; Kuwait desalination plant hit.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOQ0x3a0wzS2pXQVZJdHBKUTVyRjNncVV1cGtrLWdjWGRDVDFMV3l2YWkxN2E3bE8xWmpXV2kxN0pqdHdpanMyamZIdjB0ZDhGUWtXbmVPQjcySlZRT2dEdWJ0Qks0aVM3WkVuQXlYUTVybW0xSHdNcENlRFc2Z2pKQ2NDOHZHN1ZIblR3RmplVDJsVjAtTzB6am5ZVHZ5T3U1NHhrOUtJbTNpRV9zRFR2VUNPZjFRYkHSAbwBQVVfeXFMUGNmdVE0ZTFwOU5EclpJZm9pS0s2NjhvWkRmUHlwVWMzaXlaOFZPOG1iUXQ5aWVFamZjbldSMjVyR251ZzNOLWx6RUlFaTNWSFA5eTc4eTdtMm5ib3BTZEkxZk9wLUl0WVlVMHBUOHBjWi1qM1puc05oTzFwcWV1X25GTmx6TzNweER2SE1DbXg0SkVYSzNwaklkcGZYWE9tamE3M2xjZzZ0WWpBVmRESjlqNFIwcGR6NG9mRXo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1384
+    },
+    {
+      "date": "Jul 20",
+      "text": "Iran vows to block Strait of Hormuz, threatening oil and gas passage.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1384
+    },
+    {
+      "date": "Jul 20",
+      "text": "Maritime risk CEO warns oil tankers face 'worst case scenario' in Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPc2ZkclBjdExUQmlrZURuWWltMFBvUmFEN3VVSkZDT0Y0ckZUZXRCU2pFV2NKeWUtek5IQ3Z5dUVkQzFOSHczUFVDT19fc0FBTUZWNGVRZUJVY216Rk05RkwyVklqTXlxTzZVczIyYjZINlRTZVpmVmFyRkVzcHpfallaeDRWR2tNeVVvdDZBYkttRjFUNHI00gGcAUFVX3lxTFBtUFFBeloxLXJKUXdIWkJTSHBoWERCNkV3WlN4OWFuaWIxQWJlWnBjcVYyUng0VDdkc21rMk90czUzdnd2ekJEOVUwbWFTLU9ja25LTDRteEJpaXhXVnVHTWFFZXlLNWlvODRIRUxlYW0zcWFwSzBxSWJSSUFYQnFQSFRKMy1kN1JTZ09GcE1WRnZlczV5ZVlxd2FweQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1384
+    },
+    {
+      "date": "Jul 20",
+      "text": "Iran reportedly tells Hezbollah and allies to prepare for wider conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQRXBsVjMxOWtPTnVMLThiZWZ3VmY1ZmZySXpPN3BkZGp5c1RoNWxMMzNPTEpwUmtBSUljN3FBM2tEblc3cUFxU0hTS3BOMFBQTUZVUDBOaDQxUll2MnFNODVRcngtVkhlZjd4cEpVVGoycTY3ZDdWZTZOSUx3c3BaN1hfUGpQV2JmTVNxUENGRUFGSkVKUjBRZHF6dDQ1WXF5RlRDSnp3RXdlM2RPQ2NyYmZsZEJMUGR6WGUydFREa9IBxAFBVV95cUxPVWE3ak9DRkM3LXltUFpOeHdjV1JoZWZRUnI0cUhlbFVhdDdLcTduQmxSczQ5cVk3T2VMRlpRb1RoajNyM1hRb2RZMzdISFZFYjFNSGdURU1ncjNvQVo3TWxldmotRmRLUE5fMjJ6SFQzZWpvVm5WczZDY2lhZWp3NExoXzA3OW5QVURVR19iQUYzNXdjR3p3bjJOU0p5YzlUdEwtZzh3c011UmRJbFBCS2N5QWlJUE0xMnV4MFE4RVBDV0Fr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1384
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
