@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1389,
+  "updateSequence": 1390,
   "lastUpdated": "2026-07-20",
-  "lastSyncedAt": "2026-07-20T19:00:05.883Z",
+  "lastSyncedAt": "2026-07-20T20:27:00.250Z",
   "warDay": 143,
-  "summary": "The United States and Iran are engaged in direct military exchanges following US troop deaths in Jordan, with Iran's president declaring a 'full-scale war' and regional tensions escalating with Israel and Hezbollah.",
+  "summary": "The conflict between the U.S. and Iran has intensified with continued U.S. airstrikes and Iranian retaliation following U.S. troop deaths, while Israel engages Hezbollah and Iran declares a full-scale war.",
   "lastNarrativeUpdate": "2026-07-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is active; direct military conflict is ongoing between the U.S. and Iran, with regional spillover."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 75,
     "escalationLevel": 90,
-    "oilDisruption": 65,
-    "tradeImpact": 63,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 20",
-      "text": "Three U.S. service members were killed and dozens wounded in a repeat attack on a base in Jordan.",
+      "date": "Jul 19",
+      "text": "U.S. military identifies 2 soldiers killed in Iranian attack in Jordan, bringing total U.S. service member deaths to 17.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1389
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1390
     },
     {
-      "date": "Jul 20",
-      "text": "U.S. launches more airstrikes against Iran in retaliation for the death of service members.",
+      "date": "Jul 19",
+      "text": "U.S. launches more airstrikes against Iran, including a nuclear site, after announcing another death of a service member.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1389
+      "latestSinceUpdate": 1390
     },
     {
-      "date": "Jul 20",
-      "text": "Iran's president declares the country is in 'full-scale war' following the expansion of U.S. attacks, including a reported strike on a nuclear site.",
+      "date": "Jul 19",
+      "text": "Iran’s President Pezeshkian states the country is in ‘full-scale war’ after expansion of U.S. attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNR2lqYURIaDAySDVzVnJYZ2kzMVN5WjJLeUNxc3NKZmNRWS1NZGZ2RVp3Vkt3VWxBMFpDb1RoV1YzTWxsQ2RoVWN0UUhfQ09oQkM0T00zbElUV0tWbVNQVDVoNGo4TGZCeEt4Y1c5T2pwcFFKcEJUeVA3eGJNRnNLMDJqLW8xR1ZwcGV4dXdWSExpa3M?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1389
+      "latestSinceUpdate": 1390
     },
     {
-      "date": "Jul 20",
-      "text": "Israel threatens a 'full force' response if Iran fires missiles towards its territory.",
+      "date": "Jul 19",
+      "text": "Israel threatens ‘full force’ response if Iran fires missiles towards it and strikes Hezbollah fighters in Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQSE4tTld2NjdPdzFhRWNDeDYwWmI1OFF1bEUxZFkxcDEyZjBVY2tDdmMyT2VVODFERmhhWDJCLXZ4VFpJejVNYVVjd1l6U0NraGtlNDY0UHA2aU1RMlJvM0s0ZXlpdXF0djEtLWZLOFpscXI5U1VSYllHLXlDOUhCNXN6OGRyQ1UzQkVmbzdiYkpyelN0bHZkRFZabjZZRXV3M3BJbQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1389
+      "latestSinceUpdate": 1390
     },
     {
-      "date": "Jul 20",
-      "text": "Israeli forces surround Hezbollah fighters in a tunnel network in southern Lebanon and strike targets after a drone spotting.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQazdUZDlCcTM4RDlDTThjdnhKdU1rLU9WQzRDbWxrQWpIb2hjUU91V1VicGRSYjdQbkI4Qkw3c05aOW5faUZHeHlhaTdGd0pRWFhxeGtBYW1FcDhLVzNJV0NzQnRuMEpuNE5HOTZZVnN0OVkzSDRKZWJUZlZFWW83T3YzTGtYdHd4QS0tZ3ctai1TUUNTdGtHQ01PQzltSnJiY25PaDdxLWJTSWJHTHF4c0JLbE15NVVVUUUyR2ZoQ3c3VmlYZTVXcmFTdXVJdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1389
-    },
-    {
-      "date": "Jul 20",
-      "text": "A Kuwaiti desalination plant was reportedly hit amidst regional conflict.",
+      "date": "Jul 19",
+      "text": "Kuwait desalination plant reportedly hit amidst escalating regional conflict.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1389
+      "latestSinceUpdate": 1390
+    },
+    {
+      "date": "Jul 19",
+      "text": "Kpler's Matt Smith states Iranians still have control over the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQaEw3ZXdGNDA1VFlnNDNJR0o2Y0VFN2FOeWctckp2amQxd2dpcjUwQzY4MGt5NUZ0b0RLZWZPbmJEVUFOVzJrY19xdkFrdGxvLXVqUTQ1bTNPVUY5T0xFMU4td1JHVmUzYTV3d0xuMHF0QUJETm12dHIyS05hN3NOamk1S2s0bXdNWDk5Sm15aW9uSDVQbl9ZYl96ajFfUFQ2enBnWTBHSDg0UjktWmw0bnN4eTlQMGt6akY4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1390
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
