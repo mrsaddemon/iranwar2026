@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1401,
+  "updateSequence": 1402,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T16:45:25.315Z",
+  "lastSyncedAt": "2026-07-21T18:01:33.211Z",
   "warDay": 144,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No general ceasefire is active between the primary belligerents, though a security pilot is underway in Southern Lebanon."
+    "summary": "No general ceasefire is active between the primary belligerents, though a localized security pilot is underway in southern Lebanon."
   }
 }

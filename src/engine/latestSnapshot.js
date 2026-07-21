@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1401,
+  "updateSequence": 1402,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T16:45:25.315Z",
+  "lastSyncedAt": "2026-07-21T18:01:33.211Z",
   "warDay": 144,
-  "summary": "The conflict in the Middle East continues to escalate with ongoing US strikes against Iran, Houthi threats to shipping, and reports of US troop casualties, while a security pilot begins in Southern Lebanon.",
+  "summary": "The US and Iran are engaged in daily airstrikes and naval incidents in the Strait of Hormuz, while a US-backed security pilot involving Israeli withdrawal and Lebanese army deployment is underway in southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No general ceasefire is active between the primary belligerents, though a security pilot is underway in Southern Lebanon."
+    "summary": "No general ceasefire is active between the primary belligerents, though a localized security pilot is underway in southern Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -28,12 +28,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 88,
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 81,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 46
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 20",
-      "text": "Another tanker was attacked in the Strait of Hormuz as US forces continued strikes against Iran for the 10th consecutive night.",
+      "date": "Jul 21",
+      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1401
+      "latestSinceUpdate": 1402
     },
     {
       "date": "Jul 20",
-      "text": "US completed more strikes against Iran following a warning from former President Trump to Tehran.",
+      "text": "US completes more strikes against Iran after Trump warning to Tehran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1401
+      "latestSinceUpdate": 1402
     },
     {
-      "date": "Jul 20",
-      "text": "Pentagon reportedly withheld information regarding dozens of U.S. military injuries in the Iran War.",
+      "date": "Jul 21",
+      "text": "Trump claims Iran desperate to talk, threatens heavy attacks.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1401
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1402
     },
     {
-      "date": "Jul 20",
-      "text": "Houthis announced a blockade of Saudi shipping, threatening a Strait of Hormuz workaround and causing tankers to turn back in the Red Sea.",
+      "date": "Jul 21",
+      "text": "Houthis announce Saudi blockade.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPdmpnSlVvbWFtMjdGR2JPbGVZY2tVUGQ2UUQ3VElpb3RfWmF1Wk0yYTlRQWYtekxPWTRhbGtKZmtkMnJNdGk5UlV1X3FiRHNYTURRSXdQRGJwT0o1a3JVanJhbW5HZmU4Z3IwNS12YzUxQVdHelI0X1hjMDkwenZ1T2xkV21obUFHTjM0TkN5eDVLQ1Y3djJrd051QzYtb0NJT1cyR25VeHpUVm8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "TradeWinds News",
-      "latestSinceUpdate": 1401
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1402
     },
     {
-      "date": "Jul 20",
-      "text": "U.S. announced another troop death, with two soldiers identified as killed in an Iranian attack in Jordan, leading to more US airstrikes against Iran.",
+      "date": "Jul 21",
+      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1401
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1402
     },
     {
-      "date": "Jul 20",
-      "text": "Israel warned that Tehran's attacks are coming close, while an expert suggested Iran is avoiding direct attacks on Israel over fears of IDF strikes on regime leaders.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9zcGEwdWRPTk9WdHFDVEtHTmR2bXdjcjNyanhRNE45cXVlVHJ1azZaaS1OU0ZkWWp0MnVKR3NONWNHZ1JWTzVCMzNvdWNhTUduMWx1SVVzckRodkRFSFhqdVVqN1RIUXZUanc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1401
+      "date": "Jul 21",
+      "text": "US forces strike Iranian military targets as tensions soar in Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOYUQ0YUE0RkJQa1lJYzk3WG4yLVM1TlNFZ2VUNEhGLU1TUUJvMDFiTWpYSFZNek5BNW9CWHJqcVJDS0owdHVtVDdiVTBMelhIdTBEYnlXUV9yNXd0VDhSUTB4N1hkOFVSbWVlZkZSLUhVWDhsQkhPOUtTNmFQLW0yTS1ROFQ2UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1402
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
