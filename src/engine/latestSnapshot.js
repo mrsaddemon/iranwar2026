@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1399,
+  "updateSequence": 1400,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T12:58:29.901Z",
+  "lastSyncedAt": "2026-07-21T15:11:10.305Z",
   "warDay": 144,
-  "summary": "The US-Iran conflict continues to escalate with sustained US airstrikes, Iranian attacks on shipping in the Strait of Hormuz, and reports of US casualties, while Israel begins a withdrawal from Lebanon amidst diplomatic efforts.",
+  "summary": "The US and Iran continue to trade attacks, including a US strike on an Iranian nuclear site and an attack on a tanker in the Strait of Hormuz, while the Pentagon admits nearly 100 US service members have been injured.",
   "lastNarrativeUpdate": "2026-07-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No active ceasefire or de-escalation agreement is in place between the US and Iran."
+    "summary": "No active ceasefire is in effect as US and Iran continue to trade attacks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.3
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 70,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
+      "text": "Another tanker attacked in Strait of Hormuz amidst soaring tensions.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1399
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1400
     },
     {
       "date": "Jul 20",
-      "text": "US completes more strikes against Iran after Trump warning to Tehran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1399
-    },
-    {
-      "date": "Jul 20",
-      "text": "Lawmakers demand termination of Iran War after three U.S. service members killed.",
+      "text": "US completes more strikes against Iran, marking the 10th consecutive night of attacks.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1398
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1400
     },
     {
       "date": "Jul 20",
-      "text": "Kuwait desalination and power plants damaged in fiery attack, attributed to Iran.",
+      "text": "Pentagon admits nearly 100 US service members injured in recent weeks, after initially withholding information.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxPR2t0LTJLTFBfajdPTElvSDNDUzdVa2pwSUN2MVJXS3p4Ty1GNzFubUZrV29rUWs5T0VPWW82TkFrYmJrV1BnSTBEUG9UZzBMOWtTWUtxb2ZNaDc2eXZyWmZtMUd3b0ZRQ3dSMHlFWDFERzluWjdnZFJGXzAwMFJOeHRMdWFDQXRScXp2Z190VnEtbkhJZzBwblFGSTVZVURPaDBqM0NISVZvZDNzY2Q4bmJ5bFRKWDhpT2huWjZESy1XQXdmWjV6alVRVnNuSjJYRjRxQ0RIN1llMDVOMEkzWGxoYTJIUGhoeHl5bQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "10TV",
+      "latestSinceUpdate": 1400
+    },
+    {
+      "date": "Jul 20",
+      "text": "US forces attack an Iranian nuclear site as part of ongoing strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1399
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1400
     },
     {
       "date": "Jul 20",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "text": "Kuwait desalination plant hit amidst regional conflict.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1400
+    },
+    {
+      "date": "Jul 20",
+      "text": "U.S. announces another troop death in the conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1399
-    },
-    {
-      "date": "Jul 20",
-      "text": "Iran claims attacks on Strait of Hormuz ships amid fresh US strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxNZUNEazROOWlVb0djbTd3cVgxTlc5VkRVMzBuMjdIVl9jVXZidWZIWlRiZUJnQjZ2OHp3LUN3VEd3T1BsdGduSl8tTG1ydm5rYXlpUlBRblU1MVA3X0RpUndfVFpPQ0dfV0hiLTBJek9VN3ZzTGJob1hCNC1hY1MwUEtkVXhCbXFCUDlwbVZQTFpjU0VMSlRQeWZsa1U2MC1IZFVFbGlmMWtCejlibndybWo1UVdZSlZFcV9yd1NlTDRKRllzcjliQU8yRnBpeGdTVFdkQTRESjN4Ym9oOElQTUFPWkZOUEtBY3ZnWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1399
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1400
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
