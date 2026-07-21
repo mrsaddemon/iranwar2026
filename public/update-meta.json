@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1405,
+  "updateSequence": 1406,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T21:48:20.055Z",
+  "lastSyncedAt": "2026-07-21T22:39:26.786Z",
   "warDay": 144,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No ceasefire is active; hostilities are escalating with continuous strikes and attacks."
+    "summary": "No active ceasefire between US and Iran; a localized security pilot has been initiated in southern Lebanon."
   }
 }
