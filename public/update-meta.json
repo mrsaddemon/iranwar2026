@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1403,
+  "updateSequence": 1404,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T19:44:35.898Z",
+  "lastSyncedAt": "2026-07-21T20:50:53.848Z",
   "warDay": 144,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No general ceasefire is active between the US and Iran, with hostilities continuing."
+    "summary": "No general ceasefire is active in the broader US-Iran conflict, though a localized security pilot is underway in southern Lebanon."
   }
 }
