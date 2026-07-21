@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1400,
+  "updateSequence": 1401,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T15:11:10.305Z",
+  "lastSyncedAt": "2026-07-21T16:45:25.315Z",
   "warDay": 144,
-  "summary": "The US and Iran continue to trade attacks, including a US strike on an Iranian nuclear site and an attack on a tanker in the Strait of Hormuz, while the Pentagon admits nearly 100 US service members have been injured.",
+  "summary": "The conflict in the Middle East continues to escalate with ongoing US strikes against Iran, Houthi threats to shipping, and reports of US troop casualties, while a security pilot begins in Southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect as US and Iran continue to trade attacks."
+    "summary": "No general ceasefire is active between the primary belligerents, though a security pilot is underway in Southern Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 85,
+    "nuclearIndex": 35,
+    "escalationLevel": 88,
     "oilDisruption": 90,
-    "tradeImpact": 80,
+    "tradeImpact": 81,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "Another tanker attacked in Strait of Hormuz amidst soaring tensions.",
+      "text": "Another tanker was attacked in the Strait of Hormuz as US forces continued strikes against Iran for the 10th consecutive night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1400
+      "latestSinceUpdate": 1401
     },
     {
       "date": "Jul 20",
-      "text": "US completes more strikes against Iran, marking the 10th consecutive night of attacks.",
+      "text": "US completed more strikes against Iran following a warning from former President Trump to Tehran.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1400
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1401
     },
     {
       "date": "Jul 20",
-      "text": "Pentagon admits nearly 100 US service members injured in recent weeks, after initially withholding information.",
+      "text": "Pentagon reportedly withheld information regarding dozens of U.S. military injuries in the Iran War.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxPR2t0LTJLTFBfajdPTElvSDNDUzdVa2pwSUN2MVJXS3p4Ty1GNzFubUZrV29rUWs5T0VPWW82TkFrYmJrV1BnSTBEUG9UZzBMOWtTWUtxb2ZNaDc2eXZyWmZtMUd3b0ZRQ3dSMHlFWDFERzluWjdnZFJGXzAwMFJOeHRMdWFDQXRScXp2Z190VnEtbkhJZzBwblFGSTVZVURPaDBqM0NISVZvZDNzY2Q4bmJ5bFRKWDhpT2huWjZESy1XQXdmWjV6alVRVnNuSjJYRjRxQ0RIN1llMDVOMEkzWGxoYTJIUGhoeHl5bQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "10TV",
-      "latestSinceUpdate": 1400
-    },
-    {
-      "date": "Jul 20",
-      "text": "US forces attack an Iranian nuclear site as part of ongoing strikes.",
-      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1400
+      "latestSinceUpdate": 1401
     },
     {
       "date": "Jul 20",
-      "text": "Kuwait desalination plant hit amidst regional conflict.",
+      "text": "Houthis announced a blockade of Saudi shipping, threatening a Strait of Hormuz workaround and causing tankers to turn back in the Red Sea.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1400
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPdmpnSlVvbWFtMjdGR2JPbGVZY2tVUGQ2UUQ3VElpb3RfWmF1Wk0yYTlRQWYtekxPWTRhbGtKZmtkMnJNdGk5UlV1X3FiRHNYTURRSXdQRGJwT0o1a3JVanJhbW5HZmU4Z3IwNS12YzUxQVdHelI0X1hjMDkwenZ1T2xkV21obUFHTjM0TkN5eDVLQ1Y3djJrd051QzYtb0NJT1cyR25VeHpUVm8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "TradeWinds News",
+      "latestSinceUpdate": 1401
     },
     {
       "date": "Jul 20",
-      "text": "U.S. announces another troop death in the conflict.",
+      "text": "U.S. announced another troop death, with two soldiers identified as killed in an Iranian attack in Jordan, leading to more US airstrikes against Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1400
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1401
+    },
+    {
+      "date": "Jul 20",
+      "text": "Israel warned that Tehran's attacks are coming close, while an expert suggested Iran is avoiding direct attacks on Israel over fears of IDF strikes on regime leaders.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9zcGEwdWRPTk9WdHFDVEtHTmR2bXdjcjNyanhRNE45cXVlVHJ1azZaaS1OU0ZkWWp0MnVKR3NONWNHZ1JWTzVCMzNvdWNhTUduMWx1SVVzckRodkRFSFhqdVVqN1RIUXZUanc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1401
     }
   ],
   "sourceStatuses": [
