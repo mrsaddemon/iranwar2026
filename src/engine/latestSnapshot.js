@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1397,
+  "updateSequence": 1398,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T09:42:13.222Z",
+  "lastSyncedAt": "2026-07-21T11:30:38.211Z",
   "warDay": 144,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US and Iran are engaged in escalating direct conflict, marked by repeated US airstrikes, Iranian attacks on Gulf states and shipping in the Strait of Hormuz, and increasing US casualties, while diplomatic efforts address the situation in Lebanon.",
   "lastNarrativeUpdate": "2026-07-21",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "Mediators are attempting to broker a 10-day ceasefire amidst ongoing hostilities, but no agreement is active."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.5
+        "precision": 0.75,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "Another tanker attacked in Strait of Hormuz; two tankers on fire",
+      "text": "Another tanker attacked in Strait of Hormuz; 2 tankers reported on fire.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1397
+      "latestSinceUpdate": 1398
     },
     {
       "date": "Jul 20",
-      "text": "US launches 10th consecutive night of strikes against Iran",
+      "text": "US completes more strikes against Iran for 10th consecutive night after Trump warning to Tehran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNR2lqYURIaDAySDVzVnJYZ2kzMVN5WjJLeUNxc3NKZmNRWS1NZGZ2RVp3Vkt3VWxBMFpDb1RoV1YzTWxsQ2RoVWN0UUhfQ09oQkM0T00zbElUV0tWbVNQVDVoNGo4TGZCeEt4Y1c5T2pwcFFKcEJUeVA3eGJNRnNLMDJqLW8xR1ZwcGV4dXdWSExpa3M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1397
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1398
     },
     {
       "date": "Jul 20",
-      "text": "Iran declares it is in ‘full-scale war’",
+      "text": "Iran attacks Gulf states and Jordan, indicating a broadening conflict zone.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1397
+      "latestSinceUpdate": 1398
     },
     {
-      "date": "Recent weeks",
-      "text": "Pentagon reports nearly 100 US troops injured and 3 killed in Iran war",
+      "date": "Jul 20",
+      "text": "Lawmakers demand termination of Iran War after three U.S. service members killed.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1398
+    },
+    {
+      "date": "Jul 20",
+      "text": "US forces sustained about 100 recent injuries in Iran war, Pentagon reports amid scrutiny.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQbGxVLU51NDZzT2RHMlRkSFdpRkJnTzJSM2gtd1E5dGpmcWYzdUh6SzZCQ1I4LW1KSzNRV3RwanhSMUxvWVBpRzJhVWdCWjBHZTRyWkg3ajRGLXdobFJsRXZQQzFWcVR3NDVKRXcxbEhuSzFJVDBKX25ZZEtaNFJtZnVYcUhEN3BtR2VqZmIyNE1qdWEzSFJYOGtxcm5RNmIzeWllaWRkTFFyTDA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "stripes.com",
+      "latestSinceUpdate": 1398
+    },
+    {
+      "date": "Jul 20",
+      "text": "Houthis announce a Saudi naval blockade, further threatening regional shipping.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPTnl2blBxN3hkcHpRclhTUVh1aEtCSDRKcTBPQXV3UmZFTExfVnExVEcxTW5uZlVRcEQyZDg1MXJ4SXNVUTl6cEdjR2Fla1pRQ1dzSWhoa1dJSlVtell4TXZ2YXNGbFRYRXFsc3hReHJDS0d6V0Q4Yk9KdkRMTEJWVk1OTWR4QWJRVVEtTldRZjBkRGM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1397
-    },
-    {
-      "date": "Recent",
-      "text": "Houthis announce Saudi blockade; Iran attacks Gulf states and Jordan",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1397
-    },
-    {
-      "date": "Recent",
-      "text": "US issues ‘worldwide caution’ for American citizens",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPYlNIOVRycE5IMVc1QVBrRGlTRTJ6Ty1jRW1CRFhGMGl2RWUzWGJ6ODZVT1NsMjZBdzBobVU4cG5hdGlYSkVZTzdyVUl4YmlDU0JCeEpMajB2czlZZjltY1RtVDlnRHNoWGQtdHZxVkNuZzB2Q0FJU0RkNW1kak5fTGFnTmFVRmtzb1dkTHJrWmh0NUpUUTVjRFlFU0tDR3Ffa3NlX3ZwSlNzb20zczZsaExlN2p5dUNDemZRazNzOVF4V011ZWNXUUQ3Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1397
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1398
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
