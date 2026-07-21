@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1406,
+  "updateSequence": 1407,
   "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T22:39:26.786Z",
+  "lastSyncedAt": "2026-07-21T23:42:55.495Z",
   "warDay": 144,
-  "summary": "The US and Iran continue to exchange attacks, resulting in US troop deaths and tanker incidents in the Strait of Hormuz, while a security pilot begins in southern Lebanon.",
+  "summary": "The US continues airstrikes against Iran following troop casualties and tanker attacks in the Strait of Hormuz, while a US-backed security pilot begins in Southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 14,
-    "summary": "No active ceasefire between US and Iran; a localized security pilot has been initiated in southern Lebanon."
+    "summary": "No active ceasefire is in effect between the US and Iran, with hostilities ongoing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 70,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 20",
-      "text": "Another tanker attacked in Strait of Hormuz, with crew abandoning the vessel.",
+      "text": "US completes more strikes against Iran for the 10th consecutive night following a Trump warning to Tehran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1406
-    },
-    {
-      "date": "Jul 20",
-      "text": "US completes more strikes against Iran for 10th consecutive night after Trump warning.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1406
+      "latestSinceUpdate": 1407
     },
     {
       "date": "Jul 20",
-      "text": "US announces another troop death, identifying two soldiers killed in Iranian attack in Jordan.",
+      "text": "Another tanker was attacked in the Strait of Hormuz, and tankers carrying Saudi oil were turned back after Houthi threats.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1407
+    },
+    {
+      "date": "Jul 20",
+      "text": "US military identifies two soldiers killed in an Iranian attack in Jordan and another soldier killed destroying a downed Iranian drone in Iraq.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 1406
+      "latestSinceUpdate": 1407
     },
     {
       "date": "Jul 20",
-      "text": "Trump warns US will strike Iran nuclear sites if conflict escalates, as drones are shot down near US consulate.",
+      "text": "Trump claims the US will hit an Iran nuclear storage facility 'pretty soon' and Iran warns against attacks on nuclear sites.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOYUQ0YUE0RkJQa1lJYzk3WG4yLVM1TlNFZ2VUNEhGLU1TUUJvMDFiTWpYSFZNek5BNW9CWHJqcVJDS0owdHVtVDdiVTBMelhIdTBEYnlXUV9yNXd0VDhSUTB4N1hkOFVSbWVlZkZSLUhVWDhsQkhPOUtTNmFQLW0yTS1ROFQ2UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1406
+      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxNZUNEazROOWlVb0djbTd3cVgxTlc5VkRVMzBuMjdIVl9jVXZidWZIWlRiZUJnQjZ2OHp3LUN3VEd3T1BsdGduSl8tTG1ydm5rYXlpUlBRblU1MVA3X0RpUndfVFpPQ0dfV0hiLTBJek9VN3ZzTGJob1hCNC1hY1MwUEtkVXhCbXFCUDlwbVZQTFpjU0VMSlRQeWZsa1U2MC1IZFVFbGlmMWtCejlibndybWo1UVdZSlZFcV9yd1NlTDRKRllzcjliQU8yRnBpeGdTVFdkQTRESjN4Ym9oOElQTUFPWkZOUEtBY3ZnWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1407
     },
     {
       "date": "Jul 20",
-      "text": "Houthis announce Saudi blockade, prompting Trump's pledge to 'take care of' the group.",
+      "text": "Lebanese army deploys in a 'pilot zone' in Southern Lebanon after Israeli withdrawal, initiating a US-backed security pilot.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1407
+    },
+    {
+      "date": "Jul 20",
+      "text": "Houthis announce a Saudi blockade amidst ongoing regional tensions.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1406
-    },
-    {
-      "date": "Jul 20",
-      "text": "Israel and Lebanon begin US-backed security pilot in southern Lebanon after Israeli withdrawal.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1406
+      "latestSinceUpdate": 1407
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
