@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1417,
+  "updateSequence": 1418,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T19:38:30.004Z",
+  "lastSyncedAt": "2026-07-22T20:47:19.903Z",
   "warDay": 145,
-  "summary": "Tensions in the Middle East continue to escalate with ongoing US-Iran attacks, explicit threats from the US, and concerns over oil market disruption.",
+  "summary": "The United States and Iran are engaged in an escalating conflict, marked by repeated US strikes, Iranian attacks on US forces and shipping, and heightened tensions around the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active; attacks and threats continue between involved parties."
+    "summary": "No ceasefire is active, with both sides engaged in active conflict and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.78
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 92,
-    "oilDisruption": 85,
-    "tradeImpact": 78,
-    "sanctionsPressure": 65,
-    "globalPressure": 86,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 22",
-      "text": "Pentagon withheld dozens of U.S. military injuries in Iran War.",
-      "severity": "info",
+      "text": "Pentagon reportedly withheld information regarding dozens of U.S. military injuries in the Iran War.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1417
+      "latestSinceUpdate": 1418
     },
     {
       "date": "Jul 22",
-      "text": "Trump threatens to bomb a power plant or bridge for each ship strike in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1417
-    },
-    {
-      "date": "Jul 22",
-      "text": "U.S. and Iranian attacks continue as tensions mount on a key waterway in the Red Sea.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBmVHBOV1ItYWFfdHBVZmEyQnRtTnlvVVozMjA3UnMzbFBZWDh0YmpwTHZXM2k3SUtJcGZDSlpNWklVNzhkMkxNRnQ4emZRR2VWdm1CbXo0QkR3M2ZVeEpDM1RsTjExanBVdHJqcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1417
-    },
-    {
-      "date": "Jul 22",
-      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
+      "text": "Another tanker was attacked in the Strait of Hormuz amidst the 10th consecutive night of US strikes against Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1416
+      "latestSinceUpdate": 1418
     },
     {
       "date": "Jul 22",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "text": "The US launched its 10th round of strikes as Iran declared itself in a 'full-scale war'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNR2lqYURIaDAySDVzVnJYZ2kzMVN5WjJLeUNxc3NKZmNRWS1NZGZ2RVp3Vkt3VWxBMFpDb1RoV1YzTWxsQ2RoVWN0UUhfQ09oQkM0T00zbElUV0tWbVNQVDVoNGo4TGZCeEt4Y1c5T2pwcFFKcEJUeVA3eGJNRnNLMDJqLW8xR1ZwcGV4dXdWSExpa3M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1418
+    },
+    {
+      "date": "Jul 22",
+      "text": "The U.S. announced another troop death, while Israel warned that Tehran's attacks are nearing its borders.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 1416
+      "latestSinceUpdate": 1418
     },
     {
       "date": "Jul 22",
-      "text": "Houthis threaten Red Sea blockade, putting oil market at greater risk.",
-      "severity": "warning",
+      "text": "Former President Trump threatened to bomb an Iranian power plant or bridge for every ship Iran attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE43V0hGVGNEUGdTbU9TOUpTR29YVzM2UGtyRGMzcXlIbEdxNVNPLXlhZ003dWhtWS1ZbjNmT0t1MmFPaWdtN1QwRXlLcHVTbFoyWWNCTTBMdlBJc0pUd19mdFdPWXlhV2Y4ZWZfaXI1MzNQRGJzSmRkMVhRTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 1418
+    },
+    {
+      "date": "Jul 22",
+      "text": "Dubai secured a deal for a new port intended to bypass the Strait of Hormuz.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1417
+      "latestSinceUpdate": 1418
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
