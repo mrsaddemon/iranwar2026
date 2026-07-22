@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1407,
-  "lastUpdated": "2026-07-21",
-  "lastSyncedAt": "2026-07-21T23:42:55.495Z",
-  "warDay": 144,
-  "summary": "The US continues airstrikes against Iran following troop casualties and tanker attacks in the Strait of Hormuz, while a US-backed security pilot begins in Southern Lebanon.",
-  "lastNarrativeUpdate": "2026-07-21",
+  "updateSequence": 1408,
+  "lastUpdated": "2026-07-22",
+  "lastSyncedAt": "2026-07-22T01:10:00.639Z",
+  "warDay": 145,
+  "summary": "US forces continue strikes against Iran amidst tanker attacks, Houthi threats, and discussions of a ceasefire, while a security pilot begins in southern Lebanon.",
+  "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 14,
-    "summary": "No active ceasefire is in effect between the US and Iran, with hostilities ongoing."
+    "active": true,
+    "status": "active",
+    "confidence": 0.81,
+    "durationDays": 10,
+    "summary": "Mediators are pushing for a 10-day ceasefire, but no active agreement is reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.5
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 85,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
     "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "tradeImpact": 48,
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 20",
-      "text": "US completes more strikes against Iran for the 10th consecutive night following a Trump warning to Tehran.",
+      "date": "Jul 22",
+      "text": "Another tanker attacked in Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1407
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1408
     },
     {
-      "date": "Jul 20",
-      "text": "Another tanker was attacked in the Strait of Hormuz, and tankers carrying Saudi oil were turned back after Houthi threats.",
+      "date": "Jul 22",
+      "text": "US strikes Iran for 10th and 11th consecutive nights.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1407
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPLUh0VUFhQy00V0hoRUU0bnctN2V2aFM1N1FkeXVJUGdpTTlwRnhQOHV5dFFFdXFmS2dTN1ZQQWlYR3pSb0RPYkRGS2NySGl2MU5PRnVEWmFKLXF6RktkQTBDQzFvcEFfYTZsd2lOQ3M0WExtQUNTbnZUSWxzRU10UW1wVXpHc1h5anVidkg5YW1JVU0zNXdIVWl2b9IBoAFBVV95cUxNVHRfZUFKdTR6NWlGVlZNUjN1RFQ1TG44TmNCQVNtNjdCaldMREkzZklKYVN4cE0tanlwRU85d19UZGd2aVJuNTFfNkxFclhDaFpwejcyMXgtWUxRVE44SndnOFFCeWd4c1hVSllrMjVQRWFYb3B3R3IzMkFNQlppVE5wb1pXV1dRSkFEZVhXYUFQb0NkNzZmQnhQS2xnMndm?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1408
     },
     {
-      "date": "Jul 20",
-      "text": "US military identifies two soldiers killed in an Iranian attack in Jordan and another soldier killed destroying a downed Iranian drone in Iraq.",
+      "date": "Jul 22",
+      "text": "U.S. military identifies 2 soldiers killed in Iranian attack in Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 1407
+      "latestSinceUpdate": 1408
     },
     {
-      "date": "Jul 20",
-      "text": "Trump claims the US will hit an Iran nuclear storage facility 'pretty soon' and Iran warns against attacks on nuclear sites.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxNZUNEazROOWlVb0djbTd3cVgxTlc5VkRVMzBuMjdIVl9jVXZidWZIWlRiZUJnQjZ2OHp3LUN3VEd3T1BsdGduSl8tTG1ydm5rYXlpUlBRblU1MVA3X0RpUndfVFpPQ0dfV0hiLTBJek9VN3ZzTGJob1hCNC1hY1MwUEtkVXhCbXFCUDlwbVZQTFpjU0VMSlRQeWZsa1U2MC1IZFVFbGlmMWtCejlibndybWo1UVdZSlZFcV9yd1NlTDRKRllzcjliQU8yRnBpeGdTVFdkQTRESjN4Ym9oOElQTUFPWkZOUEtBY3ZnWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1407
-    },
-    {
-      "date": "Jul 20",
-      "text": "Lebanese army deploys in a 'pilot zone' in Southern Lebanon after Israeli withdrawal, initiating a US-backed security pilot.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1407
-    },
-    {
-      "date": "Jul 20",
-      "text": "Houthis announce a Saudi blockade amidst ongoing regional tensions.",
+      "date": "Jul 22",
+      "text": "Jordan is becoming a new focus in the U.S.-Iran War.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1407
+      "latestSinceUpdate": 1408
+    },
+    {
+      "date": "Jul 22",
+      "text": "Trump threatens 'heavy attacks' on Pickaxe Mountain and claims US will hit Iran nuclear storage facility 'pretty soon'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1408
+    },
+    {
+      "date": "Jul 22",
+      "text": "Tankers carrying Saudi oil turned back after Houthi threats.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi7AFBVV95cUxNZUNEazROOWlVb0djbTd3cVgxTlc5VkRVMzBuMjdIVl9jVXZidWZIWlRiZUJnQjZ2OHp3LUN3VEd3T1BsdGduSl8tTG1ydm5rYXlpUlBRblU1MVA3X0RpUndfVFpPQ0dfV0hiLTBJek9VN3ZzTGJob1hCNC1hY1MwUEtkVXhCbXFCUDlwbVZQTFpjU0VMSlRQeWZsa1U2MC1IZFVFbGlmMWtCejlibndybWo1UVdZSlZFcV9yd1NlTDRKRllzcjliQU8yRnBpeGdTVFdkQTRESjN4Ym9oOElQTUFPWkZOUEtBY3ZnWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1408
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Government",
-      "headline": "US Vows Retaliation for Soldier Deaths",
-      "summary": "The US government, including former President Trump, has vowed strong retaliation against Iran following the deaths of US service members. Multiple strikes have been launched in response to these casualties.",
+      "perspective": "US Resolve",
+      "headline": "US Intensifies Strikes, Issues Nuclear Warning to Iran",
+      "summary": "The US continues its military strikes against Iran, emphasizing its commitment to action despite ongoing costs and threats. President Trump has issued strong warnings regarding potential strikes on Iran's nuclear facilities.",
       "tone": "defiant",
-      "latestSinceUpdate": 1394
+      "latestSinceUpdate": 1408
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Declares 'Full-Scale War' Amid US Strikes",
-      "summary": "Iran asserts it is in a 'full-scale war' with the US, continuing its actions and supporting regional proxies. Attacks on US forces and critical infrastructure targets are reported.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1394
-    },
-    {
-      "perspective": "US Lawmakers",
-      "headline": "Lawmakers Demand End to Iran War After Casualties",
-      "summary": "Some US lawmakers are calling for the termination of the conflict with Iran following recent US military deaths and injuries. Concerns are rising over the escalating human cost of the war.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1394
-    },
-    {
-      "perspective": "Israel",
-      "headline": "Israel Targets Hezbollah Amid Regional Tensions",
-      "summary": "Israel continues to conduct strikes against Hezbollah in Lebanon, warning of broader regional attacks from Tehran. Israeli forces are reportedly surrounding Hezbollah fighters in tunnel networks.",
+      "perspective": "Iranian Pressure",
+      "headline": "Iran Faces Sustained US Pressure Amid Regional Tensions",
+      "summary": "Iran faces sustained US military pressure and economic threats, while also navigating regional tensions by supporting proxies and threatening shipping. An expert suggests Iran avoids direct attacks on Israel due to fear of retaliation.",
       "tone": "strained",
-      "latestSinceUpdate": 1394
+      "latestSinceUpdate": 1408
+    },
+    {
+      "perspective": "Regional De-escalation Efforts",
+      "headline": "Ceasefire Push and Lebanon Security Pilot Underway",
+      "summary": "Amidst escalating conflict, mediators are pushing for a 10-day ceasefire. Separately, a US-backed security pilot involving Lebanese army deployment in southern Lebanon is underway following an Israeli withdrawal, indicating some efforts towards localized stability.",
+      "tone": "neutral",
+      "latestSinceUpdate": 1408
     }
   ]
 });
