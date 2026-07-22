@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1411,
+  "updateSequence": 1412,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T09:41:01.792Z",
+  "lastSyncedAt": "2026-07-22T11:31:58.061Z",
   "warDay": 145,
-  "summary": "The United States continues airstrikes against Iran for an eleventh consecutive night, while Iran has retaliated by attacking Bahrain, Kuwait, and Jordan, amidst ongoing tanker attacks and threats to the Strait of Hormuz and Bab al-Mandeb.",
+  "summary": "The US continues nightly strikes against Iran following troop deaths, while Iran targets tankers in the Strait of Hormuz and the Red Sea, escalating regional tensions.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active as direct military engagements and retaliatory attacks continue between the US and Iran, and Iran and Gulf states."
+    "summary": "No active ceasefire is in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.4
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 21",
-      "text": "Another tanker was attacked in the Strait of Hormuz.",
+      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1411
+      "latestSinceUpdate": 1412
     },
     {
-      "date": "Jul 21",
-      "text": "US strikes Iran for the 10th consecutive night, with the US military later stating strikes ended marking the 11th successive night.",
+      "date": "Jul 22",
+      "text": "US announces another troop death, identifying 2 soldiers killed in Iranian attack in Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1412
+    },
+    {
+      "date": "Jul 22",
+      "text": "Iran: 2 oil tankers in Strait of Hormuz have exploded.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNS0xHeEJHSTQ2MjA3N1htcDR3WS11Y0U2QjNXUHU4Zkd6Z0lNNXNKYmcxM2VEaVR3ejV1YkhNVXZqdC1kY2p3eUxHamJ5RmljQzZRRlc5bmlHM2RTdDc5R0VDcEp2QTVsQ2JPN0xqX01rNkUzMVlkMkZ5dTNlZ3IwY3dn0gGHAUFVX3lxTE5kQlpxOGp1NDdZbmJqdW15T0VhZ2JKRGtZSUtURVlmV1B4YldxQUFhckxNcU5YUjRKVkJaaGtsZzFDMk0zVXA5ZF9idV9JOUtJeVJ5MVJWLVpBV2xWMkY3Z3NUQkpVVEpBdEhiZ1I3V25PM192aHd6NzM5SmhsMnZod1F2ZTRzMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1412
+    },
+    {
+      "date": "Jul 22",
+      "text": "Red Sea tankers turn back as cost of escalating war to US hits $37.5 billion.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1412
+    },
+    {
+      "date": "Jul 22",
+      "text": "US military says its latest strikes on Iran have ended, marking 11th successive night of attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNdjdfcnFmNzMwSTFCYWFYRXZzOGtwSlpwM2ljMXh5QU5LZXFGTnJyUER0UDhyYnl2S2FjS1dPMzZ2S3gyRHBhQk9yV3RWOHRDS3pmYUVLWldkdHhvZWFFM08tWDNreUtrelJETjlRQVdLd09LRlRRNWF4YlB3YzVZT0xrdDJyVHNWN0NKcE4xdjFQVF85dWNGV3pSSHRyS0QtTGRGR1pFUkNjcjg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1411
+      "latestSinceUpdate": 1412
     },
     {
-      "date": "Jul 21",
-      "text": "Tehran attacked Bahrain, Kuwait, and Jordan following US bombings.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1411
-    },
-    {
-      "date": "Jul 21",
-      "text": "Pete Hegseth testified at a hearing on Iran funding, estimating the war cost at $37.5 billion.",
+      "date": "Jul 22",
+      "text": "Israel and Lebanon begin US-backed security pilot in southern Lebanon after Israeli withdrawal.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1mbS1zeE9UQWs3WEN6aXZTeTNROVZveU1GLTBlUm1kRGRlTDJaNjU0cGx6QTJrcGF3bGdhVFJzUFZ6Yk9VVEpST2UzNzYxQVVBRFNwdDFhb21mV0thTW1kVFhPa0l2aHNrcDFTWUV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1411
-    },
-    {
-      "date": "Jul 21",
-      "text": "Trump threatened 'heavy attacks' on Pickaxe Mountain.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1411
-    },
-    {
-      "date": "Jul 21",
-      "text": "Houthis announced a Saudi blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1411
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1412
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
