@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1418,
+  "updateSequence": 1419,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T20:47:19.903Z",
+  "lastSyncedAt": "2026-07-22T21:53:44.554Z",
   "warDay": 145,
-  "summary": "The United States and Iran are engaged in an escalating conflict, marked by repeated US strikes, Iranian attacks on US forces and shipping, and heightened tensions around the Strait of Hormuz.",
+  "summary": "US and Iranian forces continue to exchange attacks, escalating tensions around the Strait of Hormuz, while discussions regarding Hezbollah's disarmament emerge.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active, with both sides engaged in active conflict and threats."
+    "summary": "No active ceasefire is in effect as US and Iranian forces continue to engage in direct conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,23 +36,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 90,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
     "oilDisruption": 80,
-    "tradeImpact": 74,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "tradeImpact": 73,
+    "sanctionsPressure": 68,
+    "globalPressure": 88,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 22",
-      "text": "Pentagon reportedly withheld information regarding dozens of U.S. military injuries in the Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1418
-    },
-    {
-      "date": "Jul 22",
-      "text": "Another tanker was attacked in the Strait of Hormuz amidst the 10th consecutive night of US strikes against Iran.",
+      "text": "Another tanker was attacked in the Strait of Hormuz as the US conducted its 10th consecutive night of strikes against Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1418
+      "latestSinceUpdate": 1419
     },
     {
       "date": "Jul 22",
-      "text": "The US launched its 10th round of strikes as Iran declared itself in a 'full-scale war'.",
+      "text": "Trump threatened 'heavy attacks' on Pickaxe Mountain and to target Iran's bridges and power plants if ship attacks persist.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNR2lqYURIaDAySDVzVnJYZ2kzMVN5WjJLeUNxc3NKZmNRWS1NZGZ2RVp3Vkt3VWxBMFpDb1RoV1YzTWxsQ2RoVWN0UUhfQ09oQkM0T00zbElUV0tWbVNQVDVoNGo4TGZCeEt4Y1c5T2pwcFFKcEJUeVA3eGJNRnNLMDJqLW8xR1ZwcGV4dXdWSExpa3M?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5kaWs2X2Z5U3ptRzJ0MEE5eFhIbnkxcDZNdUFQajJQQ2pZSzYxNHcyeEdEUF9XYXNpa0lsLVZOZ04wZUVuRXpPM09fSW9PY1Z2RmhMVlVzbFlpdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1419
+    },
+    {
+      "date": "Jul 22",
+      "text": "Iran warned of an 'eye for an eye' response if the US follows through on Trump’s threats to destroy infrastructure.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxQZEl3RlRNMDVPQ0VQYWpJb3ZYMFZmSHAzZ3NrRHZBUEkySmJPZ0lndnk3RzFUMGxzNUc0WVZ3NFVsV1lKMmxfbjM4SEZoT1pid2NoWWpkSmg0NERzM3hLRDJBVGNDTlctaVdiRjBDMGNDaUE1ckhjOVk2ODM5OUpxMmkyUDBDTFBldnBUcm1JRVh0RVp5cFhvZGdUZmNic0lPYWxYX0xUYlhLN3NtWkxfVjVnMUw5RVVWQ0dkWnpDOE5RZFJkUWI5bHJqYkhtR3JBRk5fcGF5Mm12RHd0aVdKYkNhdXM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1418
+      "latestSinceUpdate": 1419
     },
     {
       "date": "Jul 22",
-      "text": "The U.S. announced another troop death, while Israel warned that Tehran's attacks are nearing its borders.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1418
-    },
-    {
-      "date": "Jul 22",
-      "text": "Former President Trump threatened to bomb an Iranian power plant or bridge for every ship Iran attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE43V0hGVGNEUGdTbU9TOUpTR29YVzM2UGtyRGMzcXlIbEdxNVNPLXlhZ003dWhtWS1ZbjNmT0t1MmFPaWdtN1QwRXlLcHVTbFoyWWNCTTBMdlBJc0pUd19mdFdPWXlhV2Y4ZWZfaXI1MzNQRGJzSmRkMVhRTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 1418
-    },
-    {
-      "date": "Jul 22",
-      "text": "Dubai secured a deal for a new port intended to bypass the Strait of Hormuz.",
-      "severity": "info",
+      "text": "The Pentagon reportedly withheld information regarding dozens of U.S. military injuries in the Iran War.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1418
+      "latestSinceUpdate": 1419
+    },
+    {
+      "date": "Jul 22",
+      "text": "The U.S. surged forces toward the Middle East, providing options to expand the Iran War.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1419
+    },
+    {
+      "date": "Jul 22",
+      "text": "Lebanese army troops are deploying in a 'pilot zone' following an Israeli withdrawal, as the Lebanese president set conditions for Hezbollah disarmament.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1419
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
