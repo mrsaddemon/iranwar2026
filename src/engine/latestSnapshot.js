@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1419,
+  "updateSequence": 1420,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T21:53:44.554Z",
+  "lastSyncedAt": "2026-07-22T22:44:12.237Z",
   "warDay": 145,
-  "summary": "US and Iranian forces continue to exchange attacks, escalating tensions around the Strait of Hormuz, while discussions regarding Hezbollah's disarmament emerge.",
+  "summary": "US and Iranian forces continue to exchange strikes and threats, escalating tensions over key waterways and civilian infrastructure, while discussions on regional stability and war costs emerge.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect as US and Iranian forces continue to engage in direct conflict."
+    "summary": "No active ceasefire is in effect as US and Iranian forces continue to exchange strikes and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.78,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.87
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 68,
-    "globalPressure": 88,
+    "nuclearIndex": 38,
+    "escalationLevel": 92,
+    "oilDisruption": 88,
+    "tradeImpact": 80,
+    "sanctionsPressure": 69,
+    "globalPressure": 92,
     "allianceInfluence": 73
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 22",
-      "text": "Another tanker was attacked in the Strait of Hormuz as the US conducted its 10th consecutive night of strikes against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1419
-    },
-    {
-      "date": "Jul 22",
-      "text": "Trump threatened 'heavy attacks' on Pickaxe Mountain and to target Iran's bridges and power plants if ship attacks persist.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5kaWs2X2Z5U3ptRzJ0MEE5eFhIbnkxcDZNdUFQajJQQ2pZSzYxNHcyeEdEUF9XYXNpa0lsLVZOZ04wZUVuRXpPM09fSW9PY1Z2RmhMVlVzbFlpdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1419
-    },
-    {
-      "date": "Jul 22",
-      "text": "Iran warned of an 'eye for an eye' response if the US follows through on Trump’s threats to destroy infrastructure.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxQZEl3RlRNMDVPQ0VQYWpJb3ZYMFZmSHAzZ3NrRHZBUEkySmJPZ0lndnk3RzFUMGxzNUc0WVZ3NFVsV1lKMmxfbjM4SEZoT1pid2NoWWpkSmg0NERzM3hLRDJBVGNDTlctaVdiRjBDMGNDaUE1ckhjOVk2ODM5OUpxMmkyUDBDTFBldnBUcm1JRVh0RVp5cFhvZGdUZmNic0lPYWxYX0xUYlhLN3NtWkxfVjVnMUw5RVVWQ0dkWnpDOE5RZFJkUWI5bHJqYkhtR3JBRk5fcGF5Mm12RHd0aVdKYkNhdXM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1419
-    },
-    {
-      "date": "Jul 22",
-      "text": "The Pentagon reportedly withheld information regarding dozens of U.S. military injuries in the Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1419
-    },
-    {
-      "date": "Jul 22",
-      "text": "The U.S. surged forces toward the Middle East, providing options to expand the Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1419
-    },
-    {
-      "date": "Jul 22",
-      "text": "Lebanese army troops are deploying in a 'pilot zone' following an Israeli withdrawal, as the Lebanese president set conditions for Hezbollah disarmament.",
+      "date": "Jul 21",
+      "text": "Pete Hegseth testifies at hearing on Iran funding, stating the war has cost $37.5 billion.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1419
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1mbS1zeE9UQWs3WEN6aXZTeTNROVZveU1GLTBlUm1kRGRlTDJaNjU0cGx6QTJrcGF3bGdhVFJzUFZ6Yk9VVEpST2UzNzYxQVVBRFNwdDFhb21mV0thTW1kVFhPa0l2aHNrcDFTWUV3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1420
+    },
+    {
+      "date": "Jul 21",
+      "text": "US military reports carrying out strikes on Iran as both sides threaten civilian infrastructure.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1420
+    },
+    {
+      "date": "Jul 21",
+      "text": "U.S. and Iranian attacks continue as tensions mount on a key waterway in the Red Sea.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBmVHBOV1ItYWFfdHBVZmEyQnRtTnlvVVozMjA3UnMzbFBZWDh0YmpwTHZXM2k3SUtJcGZDSlpNWklVNzhkMkxNRnQ4emZRR2VWdm1CbXo0QkR3M2ZVeEpDM1RsTjExanBVdHJqcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1420
+    },
+    {
+      "date": "Jul 21",
+      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain and vows to hit an Iranian bridge or power plant for every ship Iran attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE43V0hGVGNEUGdTbU9TOUpTR29YVzM2UGtyRGMzcXlIbEdxNVNPLXlhZ003dWhtWS1ZbjNmT0t1MmFPaWdtN1QwRXlLcHVTbFoyWWNCTTBMdlBJc0pUd19mdFdPWXlhV2Y4ZWZfaXI1MzNQRGJzSmRkMVhRTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 1420
+    },
+    {
+      "date": "Jul 21",
+      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1420
+    },
+    {
+      "date": "Jul 21",
+      "text": "Rubio warns Asian leaders that Iran's demands over the Strait of Hormuz would set a dangerous precedent, stating the US won’t let Iran control it.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOdG4tODB0aXFqWlB4d3R2bnVycm9lVTdVa01TNGl5eVNQYkhQdTVVZEtyZ0hveU9LNjRBdGhvd1FWRXhIVDNGMnZPajU2NUN1UmNqN2JmcGRTVTh5N1ItanJsNFF3bDB0R2tFMUNaUnRXQjY3d2NSTWIyamUzeXlaSmlYSkR5MncyVzZrRWhORTdUWW5RVGxEY2NUdl8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1420
     }
   ],
   "sourceStatuses": [
