@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1408,
+  "updateSequence": 1409,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T01:10:00.639Z",
+  "lastSyncedAt": "2026-07-22T04:36:29.571Z",
   "warDay": 145,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "Mediators are pushing for a 10-day ceasefire, but no active agreement is reported amidst ongoing hostilities."
+    "summary": "No ceasefire is active as US and Iran continue to trade attacks for multiple consecutive nights."
   }
 }
