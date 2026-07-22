@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1415,
+  "updateSequence": 1416,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T16:51:05.976Z",
+  "lastSyncedAt": "2026-07-22T17:57:19.107Z",
   "warDay": 145,
-  "summary": "The United States continues airstrikes against Iran amid escalating tensions in the Strait of Hormuz, with both nations issuing threats and concerns rising over a potential wider conflict.",
+  "summary": "The conflict between the US and Iran continues to escalate with ongoing US strikes, Iranian attacks on shipping, Houthi threats of blockades, and explicit threats against critical infrastructure and nuclear sites.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported between the warring parties."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.3
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
+    "nuclearIndex": 75,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 22",
-      "text": "Pentagon Withheld Dozens of U.S. Military Injuries in Iran War",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNeThlaHp1WlFJWWlZWmdKSUE1azhyc1dNZDlqQlFqd09VQXJ1RUlNLXF0OEJfeUhzdnZRYnl1REV5UjlUVmd5T2RKTFdnV3VCTlVGd3NzYTJTRkszMnhQUjY2SmdaSnBaSGFhU3V4bWo4dGlibHl3aUZ4c1g3a0NyRmxRMEp1VlNvekE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1415
+      "date": "Jul 20",
+      "text": "US completes more strikes against Iran after Trump warning to Tehran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9vNkw0Q1VPUDBXanZUeUtTZFpFYmV1ZWJwazYzd29VY1dKM19EMmJsdEFCNFg5cU94MFZNNS1JbjZxRWZFd0p1T2NpWkNlWGl5M2FTa1hRa1dsTm1wNjZraHBzOXhBVnlYT2ZGcGhR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1416
     },
     {
       "date": "Jul 22",
-      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night",
+      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1415
+      "latestSinceUpdate": 1416
     },
     {
       "date": "Jul 22",
-      "text": "US launches more airstrikes against Iran after announcing another death of a service member",
+      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1415
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1416
     },
     {
       "date": "Jul 22",
-      "text": "Trump threatens to destroy an Iranian bridge or power plant for each strait of Hormuz attack",
-      "severity": "warning",
+      "text": "Houthis Threaten Red Sea Blockade, Putting Oil Market at Greater Risk.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE04ZWJmR1B6U3dBcDk1UmlDUUxxUWtTbDFfMWw5Tzk4bXpPU0hSV1ktTUpkd0pHNzhHZlpWS29UUTRFSWdpSm9NUHA5X0VRZ1NDd25rRUdlV3pRdWVpa2daZXRBMWwtcWM4dFRZUmFrYXFfSUNoT2Vj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1416
+    },
+    {
+      "date": "Jul 22",
+      "text": "Trump threatens to destroy an Iranian bridge or power plant for each Strait of Hormuz attack.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxQZEl3RlRNMDVPQ0VQYWpJb3ZYMFZmSHAzZ3NrRHZBUEkySmJPZ0lndnk3RzFUMGxzNUc0WVZ3NFVsV1lKMmxfbjM4SEZoT1pid2NoWWpkSmg0NERzM3hLRDJBVGNDTlctaVdiRjBDMGNDaUE1ckhjOVk2ODM5OUpxMmkyUDBDTFBldnBUcm1JRVh0RVp5cFhvZGdUZmNic0lPYWxYX0xUYlhLN3NtWkxfVjVnMUw5RVVWQ0dkWnpDOE5RZFJkUWI5bHJqYkhtR3JBRk5fcGF5Mm12RHd0aVdKYkNhdXM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1415
+      "latestSinceUpdate": 1416
     },
     {
       "date": "Jul 22",
-      "text": "Iran threatens retaliation as Trump issues stark warning: 'We'll hit nuclear site'",
-      "severity": "warning",
+      "text": "Iran threatens retaliation as Trump issues stark warning: 'We'll hit nuclear site'.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1415
-    },
-    {
-      "date": "Jul 22",
-      "text": "Rubio warns of dangerous precedent in Iranian Strait of Hormuz demands",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxPaEFEd29MdFp6QVAwX3hVTjh0VkdpWWJuM2ZwcUtMOUlYN0pWckFnMG53aDBQUEVmOEVjXzBlUHZubkRjYndBX2Z3elJ2RXp2VEJEcDNLUWdPUUxiblhDTEliNVZZQWliZGc4Tnk0SjAtQ2Y1SzEzM2J0OEhuZDFsSjlIT0tlNDBwSjVvUNIBkgFBVV95cUxQMUhlRWFFaWN2c2pqQTRHbXVtTW14X1R5emRSM3pkQmdhTU9iQnBLbXVlTTRqbEFQUTdXUktTZ1J6MEE3VjdqWU01QWdOY0VBRmRXLWNaenZ3a3EzWUJacHZVOEk3NzYtT2xKYlR5cDlIWTdrZWRsNGhaR3RTSEZKanNnS2ZBaGFJNWtXMldFRUozdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1415
+      "latestSinceUpdate": 1416
     }
   ],
   "sourceStatuses": [
