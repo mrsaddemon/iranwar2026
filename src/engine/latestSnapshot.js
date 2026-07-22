@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1412,
+  "updateSequence": 1413,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T11:31:58.061Z",
+  "lastSyncedAt": "2026-07-22T13:05:18.908Z",
   "warDay": 145,
-  "summary": "The US continues nightly strikes against Iran following troop deaths, while Iran targets tankers in the Strait of Hormuz and the Red Sea, escalating regional tensions.",
+  "summary": "US forces continue airstrikes against Iran for the 11th consecutive night following tanker attacks in the Strait of Hormuz and the deaths of US service members, while regional tensions remain high with Houthi threats and a new security pilot in Southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents."
+    "summary": "No active ceasefire or de-escalation agreement is in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 35,
+    "escalationLevel": 88,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 21",
-      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
+      "text": "Another tanker attacked in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1412
+      "latestSinceUpdate": 1413
+    },
+    {
+      "date": "Jul 21",
+      "text": "US strikes Iran for 10th consecutive night.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1413
     },
     {
       "date": "Jul 22",
-      "text": "US announces another troop death, identifying 2 soldiers killed in Iranian attack in Jordan.",
+      "text": "US military identifies 2 soldiers killed in Iranian attack in Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 1412
+      "latestSinceUpdate": 1413
     },
     {
       "date": "Jul 22",
-      "text": "Iran: 2 oil tankers in Strait of Hormuz have exploded.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNS0xHeEJHSTQ2MjA3N1htcDR3WS11Y0U2QjNXUHU4Zkd6Z0lNNXNKYmcxM2VEaVR3ejV1YkhNVXZqdC1kY2p3eUxHamJ5RmljQzZRRlc5bmlHM2RTdDc5R0VDcEp2QTVsQ2JPN0xqX01rNkUzMVlkMkZ5dTNlZ3IwY3dn0gGHAUFVX3lxTE5kQlpxOGp1NDdZbmJqdW15T0VhZ2JKRGtZSUtURVlmV1B4YldxQUFhckxNcU5YUjRKVkJaaGtsZzFDMk0zVXA5ZF9idV9JOUtJeVJ5MVJWLVpBV2xWMkY3Z3NUQkpVVEpBdEhiZ1I3V25PM192aHd6NzM5SmhsMnZod1F2ZTRzMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1412
-    },
-    {
-      "date": "Jul 22",
-      "text": "Red Sea tankers turn back as cost of escalating war to US hits $37.5 billion.",
+      "text": "Houthis threaten Red Sea blockade, putting oil market at greater risk.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1412
+      "latestSinceUpdate": 1413
     },
     {
       "date": "Jul 22",
-      "text": "US military says its latest strikes on Iran have ended, marking 11th successive night of attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNdjdfcnFmNzMwSTFCYWFYRXZzOGtwSlpwM2ljMXh5QU5LZXFGTnJyUER0UDhyYnl2S2FjS1dPMzZ2S3gyRHBhQk9yV3RWOHRDS3pmYUVLWldkdHhvZWFFM08tWDNreUtrelJETjlRQVdLd09LRlRRNWF4YlB3YzVZT0xrdDJyVHNWN0NKcE4xdjFQVF85dWNGV3pSSHRyS0QtTGRGR1pFUkNjcjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1412
-    },
-    {
-      "date": "Jul 22",
-      "text": "Israel and Lebanon begin US-backed security pilot in southern Lebanon after Israeli withdrawal.",
+      "text": "Lebanese army deploys in southern 'pilot zone' after Israeli withdrawal.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1412
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1413
+    },
+    {
+      "date": "Jul 22",
+      "text": "Bulgaria moves to aid U.S. military operations despite Iran’s threats.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPbkNPclo5ZFRBSXdpY3FoeWN6QkR1amFQeG9vVHBwWEF1ZmpkZWl4WGVHVUZTY1VTWE9zOTNYMGNZaWxMbEZncU1Mc1pWOXd1aVRLWVIxdEw4WktlZFFvWW1CTko1bzBKYXgtak5hNmg0LWJNMktlUmR5a0pFV0ZOd3lGVFVqY2dqcmYxVmtwTmFiTnc3V1hZMy15TDllUmFCU0hLXzlrNHdKOFB3TkkxMzVzVUVacllnc3dNQWRxVUs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Defense News",
+      "latestSinceUpdate": 1413
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
