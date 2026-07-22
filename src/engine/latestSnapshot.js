@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1413,
+  "updateSequence": 1414,
   "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T13:05:18.908Z",
+  "lastSyncedAt": "2026-07-22T15:10:49.121Z",
   "warDay": 145,
-  "summary": "US forces continue airstrikes against Iran for the 11th consecutive night following tanker attacks in the Strait of Hormuz and the deaths of US service members, while regional tensions remain high with Houthi threats and a new security pilot in Southern Lebanon.",
+  "summary": "The US and Iran continue to trade attacks, with US forces conducting strikes for an eleventh consecutive night, while tensions rise over Strait of Hormuz demands and the status of Hezbollah.",
   "lastNarrativeUpdate": "2026-07-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation agreement is in effect between the primary belligerents."
+    "summary": "No ceasefire is active as US and Iran continue to trade attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -18,22 +18,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.5,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 88,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 60,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 21",
+      "date": "Jul 22",
+      "text": "Pentagon withheld dozens of U.S. military injuries in Iran War.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1414
+    },
+    {
+      "date": "Jul 22",
       "text": "Another tanker attacked in Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1413
+      "latestSinceUpdate": 1414
     },
     {
-      "date": "Jul 21",
+      "date": "Jul 22",
       "text": "US strikes Iran for 10th consecutive night.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1413
+      "latestSinceUpdate": 1414
     },
     {
       "date": "Jul 22",
-      "text": "US military identifies 2 soldiers killed in Iranian attack in Jordan.",
+      "text": "U.S. military identifies 2 soldiers killed in Iranian attack in Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxNWXNJYmdvY0pfYnlkVm5aV1RZV2JrMl9FbkE4cElqZnJXR05ocDd0RERIVEFnMHRncEI1RUhaR2pxbGV6U1VEalNPM3dzTnZjcVduclhwNnNRZzR5cnIxMkZzaDJzV21zdHY4ZVhRTmVsRk4wNDY2MTFQX05zM21GVDNZaUY3b0tUckIzUTF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 1413
+      "latestSinceUpdate": 1414
     },
     {
       "date": "Jul 22",
-      "text": "Houthis threaten Red Sea blockade, putting oil market at greater risk.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1413
+      "text": "Trump threatens 'heavy attacks' on Pickaxe Mountain and to destroy Iranian bridges and power plants.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1414
     },
     {
       "date": "Jul 22",
-      "text": "Lebanese army deploys in southern 'pilot zone' after Israeli withdrawal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1413
-    },
-    {
-      "date": "Jul 22",
-      "text": "Bulgaria moves to aid U.S. military operations despite Iran’s threats.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPbkNPclo5ZFRBSXdpY3FoeWN6QkR1amFQeG9vVHBwWEF1ZmpkZWl4WGVHVUZTY1VTWE9zOTNYMGNZaWxMbEZncU1Mc1pWOXd1aVRLWVIxdEw4WktlZFFvWW1CTko1bzBKYXgtak5hNmg0LWJNMktlUmR5a0pFV0ZOd3lGVFVqY2dqcmYxVmtwTmFiTnc3V1hZMy15TDllUmFCU0hLXzlrNHdKOFB3TkkxMzVzVUVacllnc3dNQWRxVUs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Defense News",
-      "latestSinceUpdate": 1413
+      "text": "US military says its latest strikes on Iran have ended, marking 11th successive night of attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNdjdfcnFmNzMwSTFCYWFYRXZzOGtwSlpwM2ljMXh5QU5LZXFGTnJyUER0UDhyYnl2S2FjS1dPMzZ2S3gyRHBhQk9yV3RWOHRDS3pmYUVLWldkdHhvZWFFM08tWDNreUtrelJETjlRQVdLd09LRlRRNWF4YlB3YzVZT0xrdDJyVHNWN0NKcE4xdjFQVF85dWNGV3pSSHRyS0QtTGRGR1pFUkNjcjg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1414
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
