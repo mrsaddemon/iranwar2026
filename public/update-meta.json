@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1421,
-  "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T23:44:46.382Z",
-  "warDay": 145,
+  "updateSequence": 1422,
+  "lastUpdated": "2026-07-23",
+  "lastSyncedAt": "2026-07-23T01:16:27.781Z",
+  "warDay": 146,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No general ceasefire is active between the primary belligerents, though localized de-escalation is observed between Israel and Lebanon."
+    "summary": "No ceasefire is currently in effect as military actions and threats continue between the US and Iran."
   }
 }

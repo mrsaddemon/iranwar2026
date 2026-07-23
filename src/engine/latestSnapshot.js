@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1421,
-  "lastUpdated": "2026-07-22",
-  "lastSyncedAt": "2026-07-22T23:44:46.382Z",
-  "warDay": 145,
-  "summary": "US forces continue nightly strikes against Iran amidst escalating tensions over tanker attacks in the Strait of Hormuz, while a deal between Israel and Lebanon leads to troop deployment in a border zone.",
-  "lastNarrativeUpdate": "2026-07-22",
+  "updateSequence": 1422,
+  "lastUpdated": "2026-07-23",
+  "lastSyncedAt": "2026-07-23T01:16:27.781Z",
+  "warDay": 146,
+  "summary": "The conflict between the US and Iran continues with ongoing military strikes, threats to civilian infrastructure, and rising tensions over the Strait of Hormuz, while US troop casualties are reported.",
+  "lastNarrativeUpdate": "2026-07-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No general ceasefire is active between the primary belligerents, though localized de-escalation is observed between Israel and Lebanon."
+    "summary": "No ceasefire is currently in effect as military actions and threats continue between the US and Iran."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 20,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 21",
-      "text": "Pentagon withheld dozens of U.S. military injuries in Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1421
-    },
-    {
-      "date": "Jul 21",
-      "text": "Another tanker attacked in Strait of Hormuz as US strikes Iran for 10th consecutive night.",
+      "text": "US military carries out strikes on Iran as both sides threaten civilian infrastructure.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQajNHTE9aUmxpa2RIMy1jNjZ4RmgzZlk2OXE3ZXBtRzdxaUpnQldzeUtxaHh6Z3VTQzZMUGNtZ1oxNE5lQzZwLVhnX3BTZWk1OVBVT1ZiNFFtMnoyRDhHbFBnV0pFdTdNcnBKdWVuT0RidVJoWXFCYkdlNDE2V1hmZ1VhUlZhLXExZTZjOHo1YmRYMm5ra1U4RE9DU29CMVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1421
+      "latestSinceUpdate": 1422
     },
     {
       "date": "Jul 21",
-      "text": "Pete Hegseth testifies at hearing on Iran funding, stating war cost $37.5 billion.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1mbS1zeE9UQWs3WEN6aXZTeTNROVZveU1GLTBlUm1kRGRlTDJaNjU0cGx6QTJrcGF3bGdhVFJzUFZ6Yk9VVEpST2UzNzYxQVVBRFNwdDFhb21mV0thTW1kVFhPa0l2aHNrcDFTWUV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1421
-    },
-    {
-      "date": "Jul 22",
-      "text": "US military says its latest strikes on Iran have ended, marking 11th successive night of attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNdjdfcnFmNzMwSTFCYWFYRXZzOGtwSlpwM2ljMXh5QU5LZXFGTnJyUER0UDhyYnl2S2FjS1dPMzZ2S3gyRHBhQk9yV3RWOHRDS3pmYUVLWldkdHhvZWFFM08tWDNreUtrelJETjlRQVdLd09LRlRRNWF4YlB3YzVZT0xrdDJyVHNWN0NKcE4xdjFQVF85dWNGV3pSSHRyS0QtTGRGR1pFUkNjcjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1421
-    },
-    {
-      "date": "Jul 22",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "text": "U.S. and Iranian attacks continue as tensions mount on a key waterway in the Red Sea.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1421
+      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBmVHBOV1ItYWFfdHBVZmEyQnRtTnlvVVozMjA3UnMzbFBZWDh0YmpwTHZXM2k3SUtJcGZDSlpNWklVNzhkMkxNRnQ4emZRR2VWdm1CbXo0QkR3M2ZVeEpDM1RsTjExanBVdHJqcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1422
     },
     {
-      "date": "Jul 22",
-      "text": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal.",
+      "date": "Jul 21",
+      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain, bridges, and power plants over Hormuz attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1422
+    },
+    {
+      "date": "Jul 21",
+      "text": "Iran is reportedly avoiding attack on Israel over fears of IDF strikes on regime leaders.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1421
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9zcGEwdWRPTk9WdHFDVEtHTmR2bXdjcjNyanhRNE45cXVlVHJ1azZaaS1OU0ZkWWp0MnVKR3NONWNHZ1JWTzVCMzNvdWNhTUduMWx1SVVzckRodkRFSFhqdVVqN1RIUXZUanc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1422
+    },
+    {
+      "date": "Jul 21",
+      "text": "U.S. announces another troop death; 2 soldiers killed in Iranian attack in Jordan; 4 US soldiers killed in Iran war return to American soil.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOODJZQlJUc3VCSE14Ullld3FGVU5GcDdHZEJhTVVzb3UwRkF2c0hPVUlnNzZhaFVTYTNnd3VMUTlJUVRfRWRrNXRBb0lSclgzekJoR0FTUXU0aXp0YmlYdndyY2RJUTVudnZReTZBa0xfUG1xQi1XZWEzSWQ0clV4bk4zQW0tVGxkdF9kcUhwcTdaZHJ2WXo0dEZFdmZZVkg0c2VXWkNaN1JiQXNTNllrbXVjcmE2WkdM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Military Times",
+      "latestSinceUpdate": 1422
+    },
+    {
+      "date": "Jul 21",
+      "text": "Rubio warns Asian leaders that Iran's demands over the Strait of Hormuz would set a dangerous precedent.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOdG4tODB0aXFqWlB4d3R2bnVycm9lVTdVa01TNGl5eVNQYkhQdTVVZEtyZ0hveU9LNjRBdGhvd1FWRXhIVDNGMnZPajU2NUN1UmNqN2JmcGRTVTh5N1ItanJsNFF3bDB0R2tFMUNaUnRXQjY3d2NSTWIyamUzeXlaSmlYSkR5MncyVzZrRWhORTdUWW5RVGxEY2NUdl8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1422
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Resolve",
-      "headline": "US Intensifies Strikes, Issues Nuclear Warning to Iran",
-      "summary": "The US continues its military strikes against Iran, emphasizing its commitment to action despite ongoing costs and threats. President Trump has issued strong warnings regarding potential strikes on Iran's nuclear facilities.",
+      "perspective": "US Stance",
+      "headline": "US warns Iran on Hormuz, continues strikes",
+      "summary": "US officials warn Iran's demands over the Strait of Hormuz are a dangerous precedent, while the US continues military strikes and threatens further heavy attacks in response to Iranian actions and troop deaths.",
       "tone": "defiant",
-      "latestSinceUpdate": 1408
+      "latestSinceUpdate": 1422
     },
     {
-      "perspective": "Iranian Pressure",
-      "headline": "Iran Faces Sustained US Pressure Amid Regional Tensions",
-      "summary": "Iran faces sustained US military pressure and economic threats, while also navigating regional tensions by supporting proxies and threatening shipping. An expert suggests Iran avoids direct attacks on Israel due to fear of retaliation.",
+      "perspective": "Iranian Actions",
+      "headline": "Iran continues attacks, avoids Israel",
+      "summary": "Iran continues its attacks and makes demands regarding the Strait of Hormuz, while reportedly avoiding direct attacks on Israel due to fears of retaliatory strikes on its leadership.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1422
+    },
+    {
+      "perspective": "Regional Stability",
+      "headline": "Lebanese army deploys in pilot zone",
+      "summary": "The Lebanese army has deployed in a southern 'pilot zone' following an Israeli withdrawal, indicating a localized de-escalation in that specific area amidst broader regional tensions.",
       "tone": "strained",
-      "latestSinceUpdate": 1408
-    },
-    {
-      "perspective": "Regional De-escalation Efforts",
-      "headline": "Ceasefire Push and Lebanon Security Pilot Underway",
-      "summary": "Amidst escalating conflict, mediators are pushing for a 10-day ceasefire. Separately, a US-backed security pilot involving Lebanese army deployment in southern Lebanon is underway following an Israeli withdrawal, indicating some efforts towards localized stability.",
-      "tone": "neutral",
-      "latestSinceUpdate": 1408
+      "latestSinceUpdate": 1422
     }
   ]
 });
