@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1422,
+  "updateSequence": 1423,
   "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T01:16:27.781Z",
+  "lastSyncedAt": "2026-07-23T04:38:31.388Z",
   "warDay": 146,
-  "summary": "The conflict between the US and Iran continues with ongoing military strikes, threats to civilian infrastructure, and rising tensions over the Strait of Hormuz, while US troop casualties are reported.",
+  "summary": "The United States and Iran are engaged in direct military conflict, with US strikes ongoing for the 11th consecutive night and both sides trading threats regarding civilian infrastructure and the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently in effect as military actions and threats continue between the US and Iran."
+    "summary": "No active ceasefire or de-escalation is in effect between the primary belligerents; direct military actions and threats are ongoing."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 60,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 21",
+      "date": "Jul 22",
       "text": "US military carries out strikes on Iran as both sides threaten civilian infrastructure.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1422
+      "latestSinceUpdate": 1423
     },
     {
-      "date": "Jul 21",
-      "text": "U.S. and Iranian attacks continue as tensions mount on a key waterway in the Red Sea.",
+      "date": "Jul 22",
+      "text": "US attacks Iran for 11th consecutive night, with President Trump threatening 'heavy attacks' on Pickaxe Mountain and targeting bridges and power plants.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibEFVX3lxTFBmVHBOV1ItYWFfdHBVZmEyQnRtTnlvVVozMjA3UnMzbFBZWDh0YmpwTHZXM2k3SUtJcGZDSlpNWklVNzhkMkxNRnQ4emZRR2VWdm1CbXo0QkR3M2ZVeEpDM1RsTjExanBVdHJqcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1422
-    },
-    {
-      "date": "Jul 21",
-      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain, bridges, and power plants over Hormuz attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxOVG9iYmRIcFFxcEZhd1dOd1VXdFlmRFozbWFuMWR1YVptOG03UUk2VkdhcEdLN29PUENuSUZMeDNNNVdHb1FEcGF6RVFPU1NabWx2QWRWcEFqQm5FQ2t4YUhlODAtOFo4dVhUUGZnZW1RNWRtUGVTNE5PTkZjTGNlbWJqejJCajV6VWl3NXV2SdIBlAFBVV95cUxOX1J5QUlCV1Y1aXAycjhJT3gtMFVQZDAtdE1JT0FpSlEtNlJzN2JfaTFCMDR6UGZMcEk0bVdFZ2VsejlhRlhiWnpsdVQ3WTVmOHZOSllmY192Z1VvSzgwWUlDOWY2MGhZbkF6Q2lhemFnRXU4dUNBdUFfdWNVc2dPVmhmckJDM1BIbVR2eVFrejQ2NWZF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1422
+      "latestSinceUpdate": 1423
     },
     {
-      "date": "Jul 21",
-      "text": "Iran is reportedly avoiding attack on Israel over fears of IDF strikes on regime leaders.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9zcGEwdWRPTk9WdHFDVEtHTmR2bXdjcjNyanhRNE45cXVlVHJ1azZaaS1OU0ZkWWp0MnVKR3NONWNHZ1JWTzVCMzNvdWNhTUduMWx1SVVzckRodkRFSFhqdVVqN1RIUXZUanc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1422
-    },
-    {
-      "date": "Jul 21",
-      "text": "U.S. announces another troop death; 2 soldiers killed in Iranian attack in Jordan; 4 US soldiers killed in Iran war return to American soil.",
+      "date": "Jul 22",
+      "text": "Iran's IRGC states it stopped ships from sailing through the Strait of Hormuz, prompting US discussions on reopening the strait by force.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOODJZQlJUc3VCSE14Ullld3FGVU5GcDdHZEJhTVVzb3UwRkF2c0hPVUlnNzZhaFVTYTNnd3VMUTlJUVRfRWRrNXRBb0lSclgzekJoR0FTUXU0aXp0YmlYdndyY2RJUTVudnZReTZBa0xfUG1xQi1XZWEzSWQ0clV4bk4zQW0tVGxkdF9kcUhwcTdaZHJ2WXo0dEZFdmZZVkg0c2VXWkNaN1JiQXNTNllrbXVjcmE2WkdM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military Times",
-      "latestSinceUpdate": 1422
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNTHdUWmJzaENqQ3d4cU5PV0oybGVDd0gtcHFfeEhNV0FHX1pVNnNkbVdTTFpXSnlQYjI0YjJtWWJGMUZsOHd6N25kLXl0X0dNcUNXaXF0aXU4X2Y0WldtWEN6QWtqMWdKU3R2Nm5MQ3pLUlBXLXBqNTVtWjZCbXhZWm02eFpscnJfYUVxZTNReWUtc1VmSHFMTlJCYU5nSGNSYmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1423
     },
     {
-      "date": "Jul 21",
-      "text": "Rubio warns Asian leaders that Iran's demands over the Strait of Hormuz would set a dangerous precedent.",
+      "date": "Jul 22",
+      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes, stating 'Everything was in ruins'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOdG4tODB0aXFqWlB4d3R2bnVycm9lVTdVa01TNGl5eVNQYkhQdTVVZEtyZ0hveU9LNjRBdGhvd1FWRXhIVDNGMnZPajU2NUN1UmNqN2JmcGRTVTh5N1ItanJsNFF3bDB0R2tFMUNaUnRXQjY3d2NSTWIyamUzeXlaSmlYSkR5MncyVzZrRWhORTdUWW5RVGxEY2NUdl8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1422
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1423
+    },
+    {
+      "date": "Jul 22",
+      "text": "Lebanese army deploys to three southern villages in a 'pilot zone' following an Israeli withdrawal, under a US-backed security framework.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPbFFqSWZlVGRYYWZhN0hVd2k1aXBGb2ltdWktUS1MWEF0bl9yUlVTeGpPc1diWHRGRG11c2Z4ajgzVGp6SVhsYmFpWVRHNlA5bTRTOXpybmk4a05qUFgzaEJORXpxMlhPNXBac3RMeWZlYTdIcVJuZmcya3Uxd3NDLWhZaVZhdUdOdDRORElWZEZkZG4xOHJnOG9hRk4tM183OFdodloxUk5Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1423
+    },
+    {
+      "date": "Jul 22",
+      "text": "Reports indicate recent damage to U.S. military sites in the Middle East, while a Houthi Red Sea threat is noted to challenge a stretched US military.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPOThodmVRdFZqSlZuSnpSMDJBb1dkX1NUam1GcVJsRWlHcV9qM0x6MUhXRlJtRXd3MWdKMHpYOVFvUGZjcmUtR1pkSTZsUEd2M2xZS1YtUGRqUkhteGw5QzR6a1ZhcG4wR1c4LXUzaXZrN3ctTlI2Vkc4NzlnUlRBb01pY3kxRTlweVFDWGMydnpsLThrUGlXamcxX3RDTnFpVXFwY1FJT01LRU1pVEdxdW1pQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1423
     }
   ],
   "sourceStatuses": [
