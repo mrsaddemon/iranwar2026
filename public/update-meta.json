@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1425,
+  "updateSequence": 1426,
   "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T10:02:22.388Z",
+  "lastSyncedAt": "2026-07-23T11:57:27.444Z",
   "warDay": 146,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, though localized de-escalation is observed in southern Lebanon."
+    "summary": "No ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
   }
 }
