@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1426,
+  "updateSequence": 1427,
   "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T11:57:27.444Z",
+  "lastSyncedAt": "2026-07-23T14:24:51.206Z",
   "warDay": 146,
-  "summary": "The US military continues strikes on Iran, which has responded with attacks on Jordan and Houthi actions in the Red Sea, while oil prices have risen amid threats to civilian infrastructure.",
+  "summary": "The US is conducting ongoing strikes against Iran, with President Trump issuing threats of further attacks on infrastructure, while oil prices are rising due to escalating conflict in the Red Sea and broader Middle East.",
   "lastNarrativeUpdate": "2026-07-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect amidst ongoing military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.95
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.45
+        "precision": 0.7,
+        "aggression": 0.4
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 92,
-    "oilDisruption": 85,
-    "tradeImpact": 78,
-    "sanctionsPressure": 65,
-    "globalPressure": 86,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 23",
-      "text": "US military carries out strikes on Iran as both sides threaten civilian infrastructure.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1426
-    },
-    {
-      "date": "Jul 23",
-      "text": "US announces new strikes underway against Iran; Trump threatens bridges.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1426
-    },
-    {
-      "date": "Jul 21",
-      "text": "Pete Hegseth testifies at hearing on Iran funding, stating war cost $37.5 billion.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5WYjgtQWNmYVdvQVhUMnhaNHpfUVVfalROWG9wTnlxNi14aV9WTkFYWG5fU2NFQmY0aFRQbm5CWlFSQVBld0xiRGNoOUpWbldSeUxYTFdpQWw4a2RRX3dlNFN0RGRjdHNuUEY1b0pxY3lZY1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1426
-    },
-    {
-      "date": "Jul 23",
-      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1426
-    },
-    {
-      "date": "Jul 23",
-      "text": "Expert states Iran is avoiding attack on Israel over fears of IDF strikes on regime leaders.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9zcGEwdWRPTk9WdHFDVEtHTmR2bXdjcjNyanhRNE45cXVlVHJ1azZaaS1OU0ZkWWp0MnVKR3NONWNHZ1JWTzVCMzNvdWNhTUduMWx1SVVzckRodkRFSFhqdVVqN1RIUXZUanc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1426
-    },
-    {
-      "date": "Jul 23",
-      "text": "US attacks Iran for 11th consecutive night.",
+      "text": "US military carries out new strikes on Iran for the 11th consecutive night.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxOVG9iYmRIcFFxcEZhd1dOd1VXdFlmRFozbWFuMWR1YVptOG03UUk2VkdhcEdLN29PUENuSUZMeDNNNVdHb1FEcGF6RVFPU1NabWx2QWRWcEFqQm5FQ2t4YUhlODAtOFo4dVhUUGZnZW1RNWRtUGVTNE5PTkZjTGNlbWJqejJCajV6VWl3NXV2SdIBlAFBVV95cUxOX1J5QUlCV1Y1aXAycjhJT3gtMFVQZDAtdE1JT0FpSlEtNlJzN2JfaTFCMDR6UGZMcEk0bVdFZ2VsejlhRlhiWnpsdVQ3WTVmOHZOSllmY192Z1VvSzgwWUlDOWY2MGhZbkF6Q2lhemFnRXU4dUNBdUFfdWNVc2dPVmhmckJDM1BIbVR2eVFrejQ2NWZF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1426
+      "latestSinceUpdate": 1427
+    },
+    {
+      "date": "Jul 23",
+      "text": "President Trump threatens 'heavy attacks' on Iranian bridges, power plants, and Pickaxe Mountain, and 'major military punishment' for Iran and Houthis.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1427
+    },
+    {
+      "date": "Jul 23",
+      "text": "Oil price rises above $95, nearing $100, as Red Sea attacks mark a new escalation in the Middle East conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQd3RaMjdqWXNXeFV1R1dnQnpoM2VLTml2ZWtNWE1WcHVrekNraHpPa2dxUjVhZVZmTWJrbkJzYVFrVy1WdWNJSTBDWG5pS0UtZXZJbFVSel9jcUMwMUhGU3U3S0xXSVBsRmFqaDlIRkpSRnlzUlJ0WTFsWnBKanF0NDJJc19TdHQ5WXlUX1JLZGxWV2Q4dkdRRTgwM3U3OGRORVlVbndqbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1427
+    },
+    {
+      "date": "Jul 23",
+      "text": "US identifies a 3rd service member killed in an Iranian attack and surges forces toward the Middle East.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNQ3dEY08zMVhyUGt3S3pwaTU2NzltZjFuNkNQRFNoNVB2WGpfYXQwQW1JR0RmUWdiRnEwTkhXWW9QMmkxMFVoa3lRcGRWQjEtMUV5bGs3VWkyVmhCak1QTGFfOXlGbW1uajZEd0VJbDRSeFpMLVEzMnpoSEZHS3JUTzRnMGxiYkZrcTJYWGQ3bTFGM3NHYlA3UHJqNHJ0WWtYRnJBcWxLaldGR0NWNUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1427
+    },
+    {
+      "date": "Jul 23",
+      "text": "Lebanese army deploys to three southern villages in a 'pilot zone' after Israeli withdrawal under a US-backed security framework.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPbFFqSWZlVGRYYWZhN0hVd2k1aXBGb2ltdWktUS1MWEF0bl9yUlVTeGpPc1diWHRGRG11c2Z4ajgzVGp6SVhsYmFpWVRHNlA5bTRTOXpybmk4a05qUFgzaEJORXpxMlhPNXBac3RMeWZlYTdIcVJuZmcya3Uxd3NDLWhZaVZhdUdOdDRORElWZEZkZG4xOHJnOG9hRk4tM183OFdodloxUk5Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1427
+    },
+    {
+      "date": "Jul 23",
+      "text": "Iran is reportedly avoiding attack on Israel over fears of IDF strikes on regime leaders.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9zcGEwdWRPTk9WdHFDVEtHTmR2bXdjcjNyanhRNE45cXVlVHJ1azZaaS1OU0ZkWWp0MnVKR3NONWNHZ1JWTzVCMzNvdWNhTUduMWx1SVVzckRodkRFSFhqdVVqN1RIUXZUanc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1427
     }
   ],
   "sourceStatuses": [
