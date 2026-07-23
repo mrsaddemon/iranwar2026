@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1431,
+  "updateSequence": 1432,
   "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T20:17:43.056Z",
+  "lastSyncedAt": "2026-07-23T21:30:00.805Z",
   "warDay": 146,
-  "summary": "The US continues its bombing campaign against Iran, threatening further escalation and civilian infrastructure, while the conflict shows signs of spreading to the Red Sea and impacting oil transit, amidst troop deployments in southern Lebanon.",
+  "summary": "The US-Iran conflict continues with intensified US strikes and threats from President Trump, while Iran responds with threats and regional oil producers seek alternatives to the Strait of Hormuz, and the US House attempts to limit presidential war powers.",
   "lastNarrativeUpdate": "2026-07-23",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "collapsed",
+    "confidence": 0.14,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; military actions and threats continue."
+    "summary": "A previous ceasefire has collapsed, leading to renewed and intensified conflict between the US and Iran."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.65
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 90,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 81,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 22",
-      "text": "US troops killed in Trump’s Iran war are remembered; Trump attends dignified transfer of soldiers.",
+      "date": "Jul 23",
+      "text": "US troops killed in the Iran war are remembered for their service.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE9nY2lST0RnYklyRk9Bam85NVZMNEREVHlQZFBFV3NjeHdOMVpuWkFqMllKcVQ4eEs5eGtTWGFYZHRENzd0cTd0azh4cE5hMU1sQmdKcGlRZGI0NVlEX0g3aUJVYjRCOXBieXNDMkZLQXhxQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1431
+      "latestSinceUpdate": 1432
     },
     {
-      "date": "Jul 22",
-      "text": "Trump warns of unprecedented ‘massive attack’ on Iran and threatens bridges, power plants.",
+      "date": "Jul 23",
+      "text": "President Trump warns of an unprecedented 'massive attack' on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1431
+      "latestSinceUpdate": 1432
+    },
+    {
+      "date": "Jul 23",
+      "text": "US House and Senate split on votes to rebuke Trump on the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPaDBBblVoaktLQWpaVmlmdWlSR0tyMzBvT2hnZHBhUWRpM2ZmZlpPcm5jTWE2Q3ZmM2VvdkR5bFFvWTBWcUQydlQ1bEhvTm1nbVVGejhSUWRpLTBjS2tuTEp4bW44RGVLcXlWblE5bTVNXy1naW16SGppbjdmQl9kVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1432
     },
     {
       "date": "Jul 22",
-      "text": "US military carries out strikes on Iran for 11th consecutive night, both sides threaten civilian infrastructure.",
+      "text": "Trump attends dignified transfer of soldiers as US and Iran trade threats.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1431
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBRMWdUYldNM3B6UDFrSXpEd21GbzRtVklxWEFtVi1vclBYVHlNN3NmVVVwcnZPUlY5aHVBN19vbTE4b0VJUXJWXzU4TTBJdVc1UGVSR3BBWWRDeVZIdTYydE1JU1dLcHVIYTZSZ0NsQ29Hdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1432
     },
     {
-      "date": "Jul 22",
+      "date": "Jul 23",
+      "text": "US says new strikes are underway and Trump threatens bridges in Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1432
+    },
+    {
+      "date": "Jul 23",
       "text": "US informs Israel of plans to intensify Iran strikes in coming days.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPenNFZ2Y4ZWh6dUpKVXQxQjFKLV82amRrTVJMckptdElIaEhVQmNsWC0taGRZNjdzclpKNkVicWZ6OFR5YVNIaENRQnAzdEdHSXBLRmdtTlFHZi1CTGVQOVh2OWtpak82RVFjOVgxYzB1WEMtVF9tMWlHdmVqOXNmdkQ4TDFSQUd6SDM5dE5qR3o4Ni0xRm1HbklYME9rbGc0SEsxU3VVNmJTV0xHV0xwYkd2QTd6LUU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1431
-    },
-    {
-      "date": "Jul 22",
-      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes, indicating prior Israeli action.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1431
-    },
-    {
-      "date": "Jul 22",
-      "text": "Trump threatens Iran and Houthis with 'major military punishment' as war spreads to Red Sea.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQbnFoblVaeW56TWFYUWE1SGl5N0RtX2t1S25oOFprWVlLZjFPa0Nmdm5hWjdzcmNpTGJCejk5OUxnMF9Pbnh0SklXc3BRYlktaVR2cS1Mbk1FNVVhak5QakV0UEh2VXF5UEFJQ2ppWXZ1Um9FX2lYSEpiaUEtT3dFaEQ2N3lRdTRLSjZRTnZGWk1PUk1tWHUwOVdVZjc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1431
+      "latestSinceUpdate": 1432
     }
   ],
   "sourceStatuses": [
