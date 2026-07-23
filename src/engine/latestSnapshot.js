@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1429,
+  "updateSequence": 1430,
   "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T17:50:01.850Z",
+  "lastSyncedAt": "2026-07-23T18:53:11.060Z",
   "warDay": 146,
-  "summary": "The Middle East conflict continues, drawing significant attention from international observers.",
+  "summary": "The Middle East continues to be the focal point of international attention due to ongoing conflict.",
   "lastNarrativeUpdate": "2026-07-23",
   "ceasefire": {
     "active": false,
@@ -15,11 +15,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.5
+        "precision": 0.9,
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,32 +27,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 65,
-    "oilDisruption": 55,
-    "tradeImpact": 51,
-    "sanctionsPressure": 60,
-    "globalPressure": 71,
-    "allianceInfluence": 46
+    "nuclearIndex": 15,
+    "escalationLevel": 70,
+    "oilDisruption": 75,
+    "tradeImpact": 67,
+    "sanctionsPressure": 65,
+    "globalPressure": 82,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
