@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1423,
+  "updateSequence": 1424,
   "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T04:38:31.388Z",
+  "lastSyncedAt": "2026-07-23T07:22:55.344Z",
   "warDay": 146,
-  "summary": "The United States and Iran are engaged in direct military conflict, with US strikes ongoing for the 11th consecutive night and both sides trading threats regarding civilian infrastructure and the Strait of Hormuz.",
+  "summary": "The United States and Iran are engaged in escalating conflict with ongoing US strikes and reciprocal threats, while Houthi forces threaten Red Sea oil routes, and Israel completes a withdrawal from southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation is in effect between the primary belligerents; direct military actions and threats are ongoing."
+    "summary": "No active ceasefire is in effect between the primary belligerents, with ongoing military actions and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.3
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 90,
+    "nuclearIndex": 15,
+    "escalationLevel": 88,
     "oilDisruption": 85,
     "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 22",
-      "text": "US attacks Iran for 11th consecutive night, with President Trump threatening 'heavy attacks' on Pickaxe Mountain and targeting bridges and power plants.",
+      "text": "US attacks Iran for 11th consecutive night, with new strikes reported underway.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxOVG9iYmRIcFFxcEZhd1dOd1VXdFlmRFozbWFuMWR1YVptOG03UUk2VkdhcEdLN29PUENuSUZMeDNNNVdHb1FEcGF6RVFPU1NabWx2QWRWcEFqQm5FQ2t4YUhlODAtOFo4dVhUUGZnZW1RNWRtUGVTNE5PTkZjTGNlbWJqejJCajV6VWl3NXV2SdIBlAFBVV95cUxOX1J5QUlCV1Y1aXAycjhJT3gtMFVQZDAtdE1JT0FpSlEtNlJzN2JfaTFCMDR6UGZMcEk0bVdFZ2VsejlhRlhiWnpsdVQ3WTVmOHZOSllmY192Z1VvSzgwWUlDOWY2MGhZbkF6Q2lhemFnRXU4dUNBdUFfdWNVc2dPVmhmckJDM1BIbVR2eVFrejQ2NWZF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1423
+      "latestSinceUpdate": 1424
     },
     {
       "date": "Jul 22",
-      "text": "Iran's IRGC states it stopped ships from sailing through the Strait of Hormuz, prompting US discussions on reopening the strait by force.",
+      "text": "Houthis threaten a Red Sea blockade, putting the oil market at greater risk, and attack two Saudi oil tankers.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNTHdUWmJzaENqQ3d4cU5PV0oybGVDd0gtcHFfeEhNV0FHX1pVNnNkbVdTTFpXSnlQYjI0YjJtWWJGMUZsOHd6N25kLXl0X0dNcUNXaXF0aXU4X2Y0WldtWEN6QWtqMWdKU3R2Nm5MQ3pLUlBXLXBqNTVtWjZCbXhZWm02eFpscnJfYUVxZTNReWUtc1VmSHFMTlJCYU5nSGNSYmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1423
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1424
     },
     {
       "date": "Jul 22",
-      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes, stating 'Everything was in ruins'.",
+      "text": "Oil prices climb after a tanker was struck off Saudi Arabia and Trump escalates Iran threats.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1423
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxOTmctMzlYU1FiQlBvdGFwemtzeWE4MnZPR3pIeV8zSUYyWG90d2dfdlBKYmFoRjU2TFlKUUhPWklaclgzRWgtZW03Z09fOURWdlEweXNvY3dYdzFYdnY4U182ZW1RZHVweDVTUW9NUE5va00tREQxTHM5Qy1UQ0pSdExsQmpSbFlD0gGOAUFVX3lxTFBrRTdDSTVkeWFvYkd6ZGdfRnNDeUJ1QmE1UjBKUE1QWU01T0hwM2xPTXJMdHRWZTQ2Zzd5cGNFbDFRakVMN0VoQlVsUEd1UlpvMlgzS2JrcDhORVhqb0JIOUpMSmRqZW0zdVZmWGU4c0Vkd2Z5aDBiajh4VHVSajEtT1VBODZaZXNjTGZjQ1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1424
     },
     {
       "date": "Jul 22",
-      "text": "Lebanese army deploys to three southern villages in a 'pilot zone' following an Israeli withdrawal, under a US-backed security framework.",
+      "text": "Several US service members are reported killed or missing in the Iran war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiX0FVX3lxTE1FU1VHOEk5Zy00TnUtSVd3Z2hCdXMzcEo0bjcwS19TLWpKZFNVeDdnNDg2MlNIZWdHVy1JTGFaRHc2YkcxdjI0SlAzUTVvZzQ1dUhjVjBzXzFXMG1oc19R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1424
+    },
+    {
+      "date": "Jul 22",
+      "text": "Lebanese army troops are deploying in a 'pilot zone' following a complete Israeli withdrawal from southern villages.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPbFFqSWZlVGRYYWZhN0hVd2k1aXBGb2ltdWktUS1MWEF0bl9yUlVTeGpPc1diWHRGRG11c2Z4ajgzVGp6SVhsYmFpWVRHNlA5bTRTOXpybmk4a05qUFgzaEJORXpxMlhPNXBac3RMeWZlYTdIcVJuZmcya3Uxd3NDLWhZaVZhdUdOdDRORElWZEZkZG4xOHJnOG9hRk4tM183OFdodloxUk5Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1423
-    },
-    {
-      "date": "Jul 22",
-      "text": "Reports indicate recent damage to U.S. military sites in the Middle East, while a Houthi Red Sea threat is noted to challenge a stretched US military.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPOThodmVRdFZqSlZuSnpSMDJBb1dkX1NUam1GcVJsRWlHcV9qM0x6MUhXRlJtRXd3MWdKMHpYOVFvUGZjcmUtR1pkSTZsUEd2M2xZS1YtUGRqUkhteGw5QzR6a1ZhcG4wR1c4LXUzaXZrN3ctTlI2Vkc4NzlnUlRBb01pY3kxRTlweVFDWGMydnpsLThrUGlXamcxX3RDTnFpVXFwY1FJT01LRU1pVEdxdW1pQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1423
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5CWVVsOEJFcFdFU2RfS0lkeHZTY2d0VnRsdkNzUnVtTVQzNV9Sa1NTXzExWGZWQzZZX2thUnNrX2dKYm9pdlgzZnh3Z0RzZ2hyTUZYMVZabjJodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1424
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
