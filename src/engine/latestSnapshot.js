@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1434,
-  "lastUpdated": "2026-07-23",
-  "lastSyncedAt": "2026-07-23T23:31:04.879Z",
-  "warDay": 146,
-  "summary": "The US-Iran conflict continues with intensified US strikes and threats from President Trump, while oil prices rise due to regional attacks and the US House attempts to limit presidential war powers.",
-  "lastNarrativeUpdate": "2026-07-23",
+  "updateSequence": 1435,
+  "lastUpdated": "2026-07-24",
+  "lastSyncedAt": "2026-07-24T00:59:40.412Z",
+  "warDay": 147,
+  "summary": "The US is conducting its 13th consecutive night of strikes against Iran amidst escalating clashes over shipping routes, while oil producers seek alternatives to the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-07-24",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.14,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "A previous ceasefire has broken down, and the conflict between the US and Iran is ongoing."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing military operations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 30,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 46
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 23",
-      "text": "US troops killed in Trump’s Iran war are remembered for lives of service.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE9nY2lST0RnYklyRk9Bam85NVZMNEREVHlQZFBFV3NjeHdOMVpuWkFqMllKcVQ4eEs5eGtTWGFYZHRENzd0cTd0azh4cE5hMU1sQmdKcGlRZGI0NVlEX0g3aUJVYjRCOXBieXNDMkZLQXhxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1434
-    },
-    {
-      "date": "Jul 23",
-      "text": "Oil tops $100 a barrel as Houthi attack on Saudi vessels in Red Sea marks new escalation.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAwS09NMm0xR0ZNSU9VRV9lSkdpdW9QRGF1VHZZakt0VWdMN0tzRWRmYVM4SlZKRGc5c2UzLS1CWEU5VWdnSFZNQ1l5VVpZa05WTF9yVUE1Z3BkcncyVlltZXFPMXNrVFlOb3VSYWVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1434
-    },
-    {
-      "date": "Jul 23",
-      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
+      "date": "Jul 24",
+      "text": "Trump warns of an unprecedented ‘massive attack’ on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1434
+      "latestSinceUpdate": 1435
     },
     {
-      "date": "Jul 23",
-      "text": "US says new strikes under way; Trump threatens bridges.",
+      "date": "Jul 24",
+      "text": "US military launches 13th consecutive night of strikes against Iran as clashes escalate over shipping routes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1434
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNRVpyREpBdHFEMGNNTG5MclduQkZvbEozOUc3c0RwVk11ZHZodFBwU1FLTy1BdzZHVExPMWpEOGUwQkx3VXROcmdSd3FGVVBBdndnRDhuTEYwaU9NdE84aGEzWHJFVUVRWjJLUnZFLTFCZ2hScEtCSmV4OFhMNWd3YXA5RlV3ZWpvQWZPaFFqWUJQVFJmblE4T2w4b0NmRHYzd2V5MlVFNzl1RHB5UDkzNE03VDRLb25wN0xqRUtRQVRHUdIBxwFBVV95cUxQM1pKRVhmTEtVVExOWVN1YWNLNkdfelp6OVZiZWRFMFhQd2h4WDBzSzdJQTlRSlVlVWhGMnBfczRfejRYcW9tb0xUMGhBcFB6ZjNfbEdQMUpOalZCNmpLZkNnMXNfSVlYV1hQTUFPb0toLWlnSDNMaHVXVTIxbjQ0N2tKYTQ5Z3pkaDZTSXpQQ0xqWTBYR1VEcDJ3MFdfLU92dUlNemZ3eVg2cU5Ra0dVc3NWelpkc1lLdkYzR25kLXNORzdPRi1Z?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1435
     },
     {
-      "date": "Jul 23",
-      "text": "US informs Israel of plans to intensify Iran strikes in coming days.",
+      "date": "Jul 24",
+      "text": "US and Iran trade threats following the dignified transfer of US soldiers killed in the conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPenNFZ2Y4ZWh6dUpKVXQxQjFKLV82amRrTVJMckptdElIaEhVQmNsWC0taGRZNjdzclpKNkVicWZ6OFR5YVNIaENRQnAzdEdHSXBLRmdtTlFHZi1CTGVQOVh2OWtpak82RVFjOVgxYzB1WEMtVF9tMWlHdmVqOXNmdkQ4TDFSQUd6SDM5dE5qR3o4Ni0xRm1HbklYME9rbGc0SEsxU3VVNmJTV0xHV0xwYkd2QTd6LUU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1432
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBRMWdUYldNM3B6UDFrSXpEd21GbzRtVklxWEFtVi1vclBYVHlNN3NmVVVwcnZPUlY5aHVBN19vbTE4b0VJUXJWXzU4TTBJdVc1UGVSR3BBWWRDeVZIdTYydE1JU1dLcHVIYTZSZ0NsQ29Hdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1435
     },
     {
-      "date": "Jul 23",
-      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes.",
+      "date": "Jul 24",
+      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes, indicating significant damage.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1434
+      "latestSinceUpdate": 1435
+    },
+    {
+      "date": "Jul 24",
+      "text": "Mideast oil producers accelerate plans to bypass the Strait of Hormuz as oil prices hit $100.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPeFNJUHoyR2lSOVJuSUNWb0tXSlh2NnFsN2JCTklWTHM0RWJLdVJ1ek5sdnotOWRua3ZFTUFyV3djRGhYNnpHSUhwTW9YMzhaN3lqY0l4QnVPUk51eVh5d2dWVWE0Zlc5dkFRekh3ZGVnMWNhRzh6SmdLTDVsVFkwMTFiUzZrRTFSblE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 1435
+    },
+    {
+      "date": "Jul 24",
+      "text": "Lebanese army deploys to three southern villages under a US-backed security framework after an Israeli withdrawal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPbFFqSWZlVGRYYWZhN0hVd2k1aXBGb2ltdWktUS1MWEF0bl9yUlVTeGpPc1diWHRGRG11c2Z4ajgzVGp6SVhsYmFpWVRHNlA5bTRTOXpybmk4a05qUFgzaEJORXpxMlhPNXBac3RMeWZlYTdIcVJuZmcya3Uxd3NDLWhZaVZhdUdOdDRORElWZEZkZG4xOHJnOG9hRk4tM183OFdodloxUk5Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1435
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Stance",
-      "headline": "US warns Iran on Hormuz, continues strikes",
-      "summary": "US officials warn Iran's demands over the Strait of Hormuz are a dangerous precedent, while the US continues military strikes and threatens further heavy attacks in response to Iranian actions and troop deaths.",
+      "perspective": "US Administration Stance",
+      "headline": "Trump Vows Escalation Amidst Ongoing Strikes",
+      "summary": "The Trump administration maintains a defiant posture, continuing military strikes and issuing threats of further escalation against Iran, while honoring fallen soldiers. There is a reported split in Congress regarding the administration's actions.",
       "tone": "defiant",
-      "latestSinceUpdate": 1422
+      "latestSinceUpdate": 1435
     },
     {
-      "perspective": "Iranian Actions",
-      "headline": "Iran continues attacks, avoids Israel",
-      "summary": "Iran continues its attacks and makes demands regarding the Strait of Hormuz, while reportedly avoiding direct attacks on Israel due to fears of retaliatory strikes on its leadership.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1422
-    },
-    {
-      "perspective": "Regional Stability",
-      "headline": "Lebanese army deploys in pilot zone",
-      "summary": "The Lebanese army has deployed in a southern 'pilot zone' following an Israeli withdrawal, indicating a localized de-escalation in that specific area amidst broader regional tensions.",
+      "perspective": "Iranian Perspective",
+      "headline": "Iran Recounts Damage, Navigates Regional Pressures",
+      "summary": "Iran acknowledges significant damage from initial Israeli strikes and faces ongoing US military action. The Iranian foreign minister describes the impact of these strikes, while Iran also expresses concern over Hezbollah's stability in Lebanon.",
       "tone": "strained",
-      "latestSinceUpdate": 1422
+      "latestSinceUpdate": 1435
+    },
+    {
+      "perspective": "Global Energy Market Concern",
+      "headline": "Oil Producers Race to Bypass Hormuz",
+      "summary": "Amid escalating tensions and military clashes impacting shipping routes, Mideast oil producers are actively developing alternative export routes to bypass the Strait of Hormuz. Oil prices have reached $100, reflecting market anxieties.",
+      "tone": "anxious",
+      "latestSinceUpdate": 1435
+    },
+    {
+      "perspective": "Lebanese Security Transition",
+      "headline": "Lebanese Army Deploys Post-Israeli Withdrawal",
+      "summary": "Following an Israeli withdrawal, the Lebanese army is deploying to southern villages, indicating a shift in regional security arrangements under a US-backed framework. This move suggests a localized de-escalation or new security posture.",
+      "tone": "neutral",
+      "latestSinceUpdate": 1435
     }
   ]
 });
