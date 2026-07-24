@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1436,
+  "updateSequence": 1437,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T04:22:17.433Z",
+  "lastSyncedAt": "2026-07-24T06:43:00.795Z",
   "warDay": 147,
-  "summary": "The US continues its air campaign against Iranian military targets, with President Trump issuing further threats, while regional oil producers seek alternative shipping routes amid rising tensions and attacks on tankers.",
+  "summary": "The US-Iran conflict has intensified with ongoing US strikes and Iranian retaliatory actions impacting oil trade routes, while a new US-backed security framework is being implemented in Southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "No active ceasefire is reported between the primary belligerents, with conflict escalating."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 50,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 46
+    "globalPressure": 87,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 24",
-      "text": "The latest US troops killed in Trump’s Iran war are remembered for lives of service.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE9nY2lST0RnYklyRk9Bam85NVZMNEREVHlQZFBFV3NjeHdOMVpuWkFqMllKcVQ4eEs5eGtTWGFYZHRENzd0cTd0azh4cE5hMU1sQmdKcGlRZGI0NVlEX0g3aUJVYjRCOXBieXNDMkZLQXhxQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1436
-    },
-    {
-      "date": "Jul 24",
-      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1436
-    },
-    {
-      "date": "Jul 24",
-      "text": "US says it hit Iranian military targets in 13th consecutive night of strikes.",
+      "date": "Jul 23",
+      "text": "Oil tops $100 a barrel following a Houthi attack in the Red Sea, marking a new escalation.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAwS09NMm0xR0ZNSU9VRV9lSkdpdW9QRGF1VHZZakt0VWdMN0tzRWRmYVM4SlZKRGc5c2UzLS1CWEU5VWdnSFZNQ1l5VVpZa05WTF9yVUE1Z3BkcncyVlltZXFPMXNrVFlOb3VSYWVB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1436
+      "latestSinceUpdate": 1437
     },
     {
-      "date": "Jul 24",
-      "text": "Trump threatens bridges as US air war in Iran may be reaching its limits.",
+      "date": "Jul 23",
+      "text": "Trump warns of an unprecedented 'massive attack' on Iran as US says new strikes are underway.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdGhlTnlHZDFXcGRXQ0k0bHZGSXBLTjJJdzBkR3J1WVJYd3VKSUJfYW9uZ2kxWUg1YXJxbjRlejZHbXVkVWtYMm9XUXVHUFlDeDhUMXV3b1lLX3k4TjI2MWlzMlhqLTREV3Z4eUpnM0FObUdrc1FxNzBDcDB4V2NTRg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 1436
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1437
     },
     {
-      "date": "Jul 24",
-      "text": "Katz states Iran will face a 'crushing blow' if it strikes Israel first.",
+      "date": "Jul 23",
+      "text": "Reports emerge of US troops killed in Trump’s Iran war, with the Pentagon later removing recent casualties from its list.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE82S1NwSG9sbmpvUE9Tek1wMWZIZ0h0XzIwRFk1SnFHYlVxVEU0MTU0U092OVJ1MkV5a0xMOFl5dWlpT0E2Vmx0UFE1UE85enQwLXRIUFl1U3FyOUxWUWExcUZQaXJQUjlOVWNzTUZB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1437
+    },
+    {
+      "date": "Jul 23",
+      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes, stating 'Everything was in ruins'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1436
+      "latestSinceUpdate": 1437
     },
     {
-      "date": "Jul 24",
-      "text": "Mideast oil producers step up plans to bypass the Strait of Hormuz as oil hits $100.",
+      "date": "Jul 23",
+      "text": "Oil tankers are attacked as Iran threatens to turn a second trade route into a 'Gate of Tears', with one tanker catching fire in the Hormuz Strait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPRkJKVWFoWEl3NG02VG5ZNFBDNl9BdDZ4YnNKVVpzMkhUdTItWUJpMFJkQ2FiOV9Rd0Z3SVozNVYxbnItZnRtT1JIRS0zVmN6X0UtSjVvanEtMEFNTFNaNVJkS0NOcXNJb2o1bW51ZG5LOE5wNVB1bk41S1lqZXYtcV9uLWZhLXkwVW5icEFwdXJmbUp2TGpJNXRvZ1ZQODdlQUY5bUtidnBiQVFuVjdRUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1437
+    },
+    {
+      "date": "Jul 23",
+      "text": "Mideast oil producers accelerate plans to bypass the Strait of Hormuz amid escalating tensions.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPeFNJUHoyR2lSOVJuSUNWb0tXSlh2NnFsN2JCTklWTHM0RWJLdVJ1ek5sdnotOWRua3ZFTUFyV3djRGhYNnpHSUhwTW9YMzhaN3lqY0l4QnVPUk51eVh5d2dWVWE0Zlc5dkFRekh3ZGVnMWNhRzh6SmdLTDVsVFkwMTFiUzZrRTFSblE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Yahoo",
-      "latestSinceUpdate": 1436
+      "latestSinceUpdate": 1437
     }
   ],
   "sourceStatuses": [

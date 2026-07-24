@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1436,
+  "updateSequence": 1437,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T04:22:17.433Z",
+  "lastSyncedAt": "2026-07-24T06:43:00.795Z",
   "warDay": 147,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "No active ceasefire is reported between the primary belligerents, with conflict escalating."
   }
 }
