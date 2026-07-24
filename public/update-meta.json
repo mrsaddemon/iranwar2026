@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1445,
+  "updateSequence": 1446,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T20:37:20.733Z",
+  "lastSyncedAt": "2026-07-24T21:41:36.515Z",
   "warDay": 147,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A ceasefire deal in south Lebanon is reportedly in place but is being violated by Israeli blasts."
+    "summary": "A ceasefire deal in south Lebanon is reported, but Israeli forces have carried out blasts in the area, indicating its fragility."
   }
 }
