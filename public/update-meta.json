@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1439,
+  "updateSequence": 1440,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T11:14:12.619Z",
+  "lastSyncedAt": "2026-07-24T12:47:46.744Z",
   "warDay": 147,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire deal in South Lebanon is in effect, with Israeli forces withdrawing and Lebanese troops deploying, though localized Israeli blasts have been reported."
+    "summary": "A ceasefire deal in south Lebanon is in place but has been violated by Israeli blasts, indicating its fragility."
   }
 }
