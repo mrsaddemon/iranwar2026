@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1441,
+  "updateSequence": 1442,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T10:00:00.000Z",
+  "lastSyncedAt": "2026-07-24T15:58:30.548Z",
   "warDay": 147,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "A previously reported ceasefire deal in Lebanon has collapsed due to continued Israeli military actions."
+    "summary": "A ceasefire deal in south Lebanon appears to have collapsed due to Israeli blasts, while Iran rejects a broader temporary ceasefire."
   }
 }

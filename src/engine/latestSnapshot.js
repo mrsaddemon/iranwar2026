@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1441,
+  "updateSequence": 1442,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T10:00:00.000Z",
+  "lastSyncedAt": "2026-07-24T15:58:30.548Z",
   "warDay": 147,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.93,
     "durationDays": 14,
-    "summary": "A previously reported ceasefire deal in Lebanon has collapsed due to continued Israeli military actions."
+    "summary": "A ceasefire deal in south Lebanon appears to have collapsed due to Israeli blasts, while Iran rejects a broader temporary ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 23",
-      "text": "US military carries out strikes on Iran as both sides threaten civilian infrastructure.",
+      "text": "Trump considering a ‘massive attack’ on Iran as Tehran labels UK ‘accomplice’ to America.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1441
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1DT3ROTDZjaHVoV0g2VEdyOERTeHQyZU9hUW1QLTh4NVltaVF5LW8xTWdPNy1oeVRycXVwcVJyd3JqNTlfX1A3aFdzVlJzSXBucW5uM1lWRUR5Zi00VDBOSkFuMjMtZmE0LWdHVDFDMXdUbnpnUl9STNIBfkFVX3lxTFA1MmUxNnhZQ090aXloVFpVRkFvdWxhelcyYVZSUkZiQ2NHXzJEZWxaanZ5MjI3eWljemh0MEwtNl9vVjNkTDVNR2FjUUVGUUQ4ck9VVmZORExYbjM5T1NSYWtBalZ6TE9iTjhEclN2TWpRc0JhS2FRX0FkVDFDZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1442
     },
     {
       "date": "Jul 23",
-      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
+      "text": "Iran hits Gulf states; Israel starts raids in West Bank.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOOTd2aWM4cUZhUU9yNEthRk5KMEcta21uU2l3cm52ZGRNSFdPLW1RUk1WdGJtdXdqR0dtWlZlcHBFMUxiQVBhbkdvTVBfZDJxLThWdUhhNmhaZENwVHkwa2c5THNSc0toYW94RE54SklUUDRHQ042dk9GX294bVpYZXpiUDBOQXVCVXJLeEMxUzZ3M1NtX3J6c05NQ1BGckIw0gGmAUFVX3lxTE5JNWg1RnF3U2tkRzF6QWsxLTEwTFNza2owc1Y5dUZEcnpsXzBSc0g2ZlZjWFFNVHJrazdab2pqU0U0Q3lGcXhJc3hkcmRyMXhlVTVSWGNKSGtIQjhlTjM3bGtFUmZGTWJ2Yjhha0JGMlZlb3luaG5LQ3RjSVVjSWJWVzc3dHBmRE1sOU9iQ3NkbDZKbmI3YnZGWjJhTXM3d01jQ2pNR3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1441
-    },
-    {
-      "date": "Jul 22",
-      "text": "Iran Update Special Report details ongoing conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNQ2l3V2N3aWtONFdBTm40RFdiOENaWExiQ3JrWUhYeGV5TlFvZ3g0RUNTRllKeFRRd3kxbkN2Ynhla0FUaG1QMjdSWHNGN2NTcGNtVUszWk14a25BemNGbTZ4QURFUHFfRFVfbFlwSnlxczJIUXVzc2J1NkRFTm5RNGwwYVJfRkxnMWxWS19XZWFjSkxy?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1441
+      "latestSinceUpdate": 1442
     },
     {
       "date": "Jul 23",
-      "text": "Katz states Iran will face a 'crushing blow' if it strikes Israel first.",
+      "text": "Number of U.S. Troop Deaths in Iran War Appears Lower on Pentagon Website, with four recent deaths removed.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE82S1NwSG9sbmpvUE9Tek1wMWZIZ0h0XzIwRFk1SnFHYlVxVEU0MTU0U092OVJ1MkV5a0xMOFl5dWlpT0E2Vmx0UFE1UE85enQwLXRIUFl1U3FyOUxWUWExcUZQaXJQUjlOVWNzTUZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1441
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1MTHpfSDRMaEhENlU3MG5CWnVYYUdYVmNlNWt1RlNKUmZOM1pCYS13LUhEYzJHaE55MDNQMzkyU3hkbWxVMzNsM1Qtb0Vza2dzYXhXLTFiSW9aUXZ5V3ZMbUt2WHJybmt6aDZYMjhKVUpNTW83OERFaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1442
     },
     {
       "date": "Jul 23",
-      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes.",
+      "text": "U.S. carries out more strikes as Trump threatens Iran, Houthis with 'major military punishment'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1441
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1442
+    },
+    {
+      "date": "Jul 23",
+      "text": "Oil tops $100 as Strait of Hormuz traffic slows; gas rises in Texas and nationwide.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNd19QdGJBOE1LZ1RKeVpCLVpHSDdCQ2RJUnBWZEQwc2U0TUh1cXdwcGZGcFE0LWpqb1pDQkdma3ZBLW1zSmJOQlBKTjl5alM3UmNNU0V3WE9KWTBlTWVMN1VkNWZpa2dYUDdzM01UY2d2aVBCbXpGaEh0MkZOeU1pSlc0VGhKcVdUMlBKY3BKa19jamZxU2RDbTdNZHFnUG9FOWZlS2I5Z0xxWS14ZFZrSnpR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "KEYE",
+      "latestSinceUpdate": 1442
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
