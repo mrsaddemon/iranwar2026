@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1447,
+  "updateSequence": 1448,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T22:45:04.726Z",
+  "lastSyncedAt": "2026-07-24T23:46:29.678Z",
   "warDay": 147,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 1,
-    "summary": "A recently announced pause in strikes between Iran and Israel is fragile, with Israel already carrying out blasts in Lebanon."
+    "summary": "A declared pause in strikes between Iran and Israel is active but highly fragile following Israeli blasts in south Lebanon."
   }
 }
