@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1437,
+  "updateSequence": 1438,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T06:43:00.795Z",
+  "lastSyncedAt": "2026-07-24T09:11:13.944Z",
   "warDay": 147,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported between the primary belligerents, with conflict escalating."
+    "summary": "A ceasefire deal in southern Lebanon is active but appears fragile, with Israel conducting blasts despite the agreement as Lebanese troops deploy following an Israeli withdrawal."
   }
 }
