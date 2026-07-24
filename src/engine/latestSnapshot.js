@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1435,
+  "updateSequence": 1436,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T00:59:40.412Z",
+  "lastSyncedAt": "2026-07-24T04:22:17.433Z",
   "warDay": 147,
-  "summary": "The US is conducting its 13th consecutive night of strikes against Iran amidst escalating clashes over shipping routes, while oil producers seek alternatives to the Strait of Hormuz.",
+  "summary": "The US continues its air campaign against Iranian military targets, with President Trump issuing further threats, while regional oil producers seek alternative shipping routes amid rising tensions and attacks on tankers.",
   "lastNarrativeUpdate": "2026-07-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing military operations."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
@@ -27,16 +27,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.5,
         "aggression": 0.6
       }
     }
@@ -44,11 +44,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 24",
-      "text": "Trump warns of an unprecedented ‘massive attack’ on Iran.",
+      "text": "The latest US troops killed in Trump’s Iran war are remembered for lives of service.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE9nY2lST0RnYklyRk9Bam85NVZMNEREVHlQZFBFV3NjeHdOMVpuWkFqMllKcVQ4eEs5eGtTWGFYZHRENzd0cTd0azh4cE5hMU1sQmdKcGlRZGI0NVlEX0g3aUJVYjRCOXBieXNDMkZLQXhxQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1436
+    },
+    {
+      "date": "Jul 24",
+      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1435
+      "latestSinceUpdate": 1436
     },
     {
       "date": "Jul 24",
-      "text": "US military launches 13th consecutive night of strikes against Iran as clashes escalate over shipping routes.",
+      "text": "US says it hit Iranian military targets in 13th consecutive night of strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNRVpyREpBdHFEMGNNTG5MclduQkZvbEozOUc3c0RwVk11ZHZodFBwU1FLTy1BdzZHVExPMWpEOGUwQkx3VXROcmdSd3FGVVBBdndnRDhuTEYwaU9NdE84aGEzWHJFVUVRWjJLUnZFLTFCZ2hScEtCSmV4OFhMNWd3YXA5RlV3ZWpvQWZPaFFqWUJQVFJmblE4T2w4b0NmRHYzd2V5MlVFNzl1RHB5UDkzNE03VDRLb25wN0xqRUtRQVRHUdIBxwFBVV95cUxQM1pKRVhmTEtVVExOWVN1YWNLNkdfelp6OVZiZWRFMFhQd2h4WDBzSzdJQTlRSlVlVWhGMnBfczRfejRYcW9tb0xUMGhBcFB6ZjNfbEdQMUpOalZCNmpLZkNnMXNfSVlYV1hQTUFPb0toLWlnSDNMaHVXVTIxbjQ0N2tKYTQ5Z3pkaDZTSXpQQ0xqWTBYR1VEcDJ3MFdfLU92dUlNemZ3eVg2cU5Ra0dVc3NWelpkc1lLdkYzR25kLXNORzdPRi1Z?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1435
-    },
-    {
-      "date": "Jul 24",
-      "text": "US and Iran trade threats following the dignified transfer of US soldiers killed in the conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBRMWdUYldNM3B6UDFrSXpEd21GbzRtVklxWEFtVi1vclBYVHlNN3NmVVVwcnZPUlY5aHVBN19vbTE4b0VJUXJWXzU4TTBJdVc1UGVSR3BBWWRDeVZIdTYydE1JU1dLcHVIYTZSZ0NsQ29Hdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAwS09NMm0xR0ZNSU9VRV9lSkdpdW9QRGF1VHZZakt0VWdMN0tzRWRmYVM4SlZKRGc5c2UzLS1CWEU5VWdnSFZNQ1l5VVpZa05WTF9yVUE1Z3BkcncyVlltZXFPMXNrVFlOb3VSYWVB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1435
+      "latestSinceUpdate": 1436
     },
     {
       "date": "Jul 24",
-      "text": "Iran's FM Araghchi describes surviving Israel's opening strikes, indicating significant damage.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE56M3NPT25BaFFEcmZYWThOZTZ5UlRFVjNnQXRJMEZPb2U2VXhLWWlmUjFjZDl6ME5rZW1KWWtNOWRyWUE4TElRLWttZDRkWTNBc3M2SlRTeGROM1U4?hl=en-US&gl=US&ceid=US:en",
+      "text": "Trump threatens bridges as US air war in Iran may be reaching its limits.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOdGhlTnlHZDFXcGRXQ0k0bHZGSXBLTjJJdzBkR3J1WVJYd3VKSUJfYW9uZ2kxWUg1YXJxbjRlejZHbXVkVWtYMm9XUXVHUFlDeDhUMXV3b1lLX3k4TjI2MWlzMlhqLTREV3Z4eUpnM0FObUdrc1FxNzBDcDB4V2NTRg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1436
+    },
+    {
+      "date": "Jul 24",
+      "text": "Katz states Iran will face a 'crushing blow' if it strikes Israel first.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE82S1NwSG9sbmpvUE9Tek1wMWZIZ0h0XzIwRFk1SnFHYlVxVEU0MTU0U092OVJ1MkV5a0xMOFl5dWlpT0E2Vmx0UFE1UE85enQwLXRIUFl1U3FyOUxWUWExcUZQaXJQUjlOVWNzTUZB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1435
+      "latestSinceUpdate": 1436
     },
     {
       "date": "Jul 24",
-      "text": "Mideast oil producers accelerate plans to bypass the Strait of Hormuz as oil prices hit $100.",
-      "severity": "info",
+      "text": "Mideast oil producers step up plans to bypass the Strait of Hormuz as oil hits $100.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPeFNJUHoyR2lSOVJuSUNWb0tXSlh2NnFsN2JCTklWTHM0RWJLdVJ1ek5sdnotOWRua3ZFTUFyV3djRGhYNnpHSUhwTW9YMzhaN3lqY0l4QnVPUk51eVh5d2dWVWE0Zlc5dkFRekh3ZGVnMWNhRzh6SmdLTDVsVFkwMTFiUzZrRTFSblE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Yahoo",
-      "latestSinceUpdate": 1435
-    },
-    {
-      "date": "Jul 24",
-      "text": "Lebanese army deploys to three southern villages under a US-backed security framework after an Israeli withdrawal.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPbFFqSWZlVGRYYWZhN0hVd2k1aXBGb2ltdWktUS1MWEF0bl9yUlVTeGpPc1diWHRGRG11c2Z4ajgzVGp6SVhsYmFpWVRHNlA5bTRTOXpybmk4a05qUFgzaEJORXpxMlhPNXBac3RMeWZlYTdIcVJuZmcya3Uxd3NDLWhZaVZhdUdOdDRORElWZEZkZG4xOHJnOG9hRk4tM183OFdodloxUk5Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1435
+      "latestSinceUpdate": 1436
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
