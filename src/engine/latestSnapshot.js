@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1442,
+  "updateSequence": 1443,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T15:58:30.548Z",
+  "lastSyncedAt": "2026-07-24T17:45:30.516Z",
   "warDay": 147,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A ceasefire deal in south Lebanon appears to have collapsed due to Israeli blasts, while Iran rejects a broader temporary ceasefire."
+    "summary": "No broad ceasefire is in effect, with Iran rejecting a U.S. offer and localized agreements in Lebanon appearing to be violated."
   },
   "actorOverrides": {
     "usa": {
@@ -18,13 +18,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "nuclearIndex": 40,
+    "escalationLevel": 38,
+    "oilDisruption": 90,
+    "tradeImpact": 56,
+    "sanctionsPressure": 49,
+    "globalPressure": 57,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 23",
-      "text": "Oil tops $100 a barrel, Houthi attack in Red Sea marks new escalation.",
+      "text": "Oil tops $100 a barrel following a Houthi attack in the Red Sea, marking a new escalation.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAwS09NMm0xR0ZNSU9VRV9lSkdpdW9QRGF1VHZZakt0VWdMN0tzRWRmYVM4SlZKRGc5c2UzLS1CWEU5VWdnSFZNQ1l5VVpZa05WTF9yVUE1Z3BkcncyVlltZXFPMXNrVFlOb3VSYWVB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1441
+      "latestSinceUpdate": 1443
     },
     {
       "date": "Jul 23",
-      "text": "Trump considering a ‘massive attack’ on Iran as Tehran labels UK ‘accomplice’ to America.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1DT3ROTDZjaHVoV0g2VEdyOERTeHQyZU9hUW1QLTh4NVltaVF5LW8xTWdPNy1oeVRycXVwcVJyd3JqNTlfX1A3aFdzVlJzSXBucW5uM1lWRUR5Zi00VDBOSkFuMjMtZmE0LWdHVDFDMXdUbnpnUl9STNIBfkFVX3lxTFA1MmUxNnhZQ090aXloVFpVRkFvdWxhelcyYVZSUkZiQ2NHXzJEZWxaanZ5MjI3eWljemh0MEwtNl9vVjNkTDVNR2FjUUVGUUQ4ck9VVmZORExYbjM5T1NSYWtBalZ6TE9iTjhEclN2TWpRc0JhS2FRX0FkVDFDZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1442
-    },
-    {
-      "date": "Jul 23",
-      "text": "Iran hits Gulf states; Israel starts raids in West Bank.",
+      "text": "Trump considers a 'massive attack' on Iran, while Iran reportedly hits Gulf states and Israel conducts raids in the West Bank.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOOTd2aWM4cUZhUU9yNEthRk5KMEcta21uU2l3cm52ZGRNSFdPLW1RUk1WdGJtdXdqR0dtWlZlcHBFMUxiQVBhbkdvTVBfZDJxLThWdUhhNmhaZENwVHkwa2c5THNSc0toYW94RE54SklUUDRHQ042dk9GX294bVpYZXpiUDBOQXVCVXJLeEMxUzZ3M1NtX3J6c05NQ1BGckIw0gGmAUFVX3lxTE5JNWg1RnF3U2tkRzF6QWsxLTEwTFNza2owc1Y5dUZEcnpsXzBSc0g2ZlZjWFFNVHJrazdab2pqU0U0Q3lGcXhJc3hkcmRyMXhlVTVSWGNKSGtIQjhlTjM3bGtFUmZGTWJ2Yjhha0JGMlZlb3luaG5LQ3RjSVVjSWJWVzc3dHBmRE1sOU9iQ3NkbDZKbmI3YnZGWjJhTXM3d01jQ2pNR3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1442
+      "latestSinceUpdate": 1443
     },
     {
       "date": "Jul 23",
-      "text": "Number of U.S. Troop Deaths in Iran War Appears Lower on Pentagon Website, with four recent deaths removed.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1MTHpfSDRMaEhENlU3MG5CWnVYYUdYVmNlNWt1RlNKUmZOM1pCYS13LUhEYzJHaE55MDNQMzkyU3hkbWxVMzNsM1Qtb0Vza2dzYXhXLTFiSW9aUXZ5V3ZMbUt2WHJybmt6aDZYMjhKVUpNTW83OERFaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1442
-    },
-    {
-      "date": "Jul 23",
-      "text": "U.S. carries out more strikes as Trump threatens Iran, Houthis with 'major military punishment'.",
+      "text": "Iran rejected a U.S. cease-fire offer delivered by Iraq, indicating continued conflict.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1442
+      "latestSinceUpdate": 1443
     },
     {
       "date": "Jul 23",
-      "text": "Oil tops $100 as Strait of Hormuz traffic slows; gas rises in Texas and nationwide.",
+      "text": "The U.S. concluded its 13th night of strikes on Iranian military targets.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNd19QdGJBOE1LZ1RKeVpCLVpHSDdCQ2RJUnBWZEQwc2U0TUh1cXdwcGZGcFE0LWpqb1pDQkdma3ZBLW1zSmJOQlBKTjl5alM3UmNNU0V3WE9KWTBlTWVMN1VkNWZpa2dYUDdzM01UY2d2aVBCbXpGaEh0MkZOeU1pSlc0VGhKcVdUMlBKY3BKa19jamZxU2RDbTdNZHFnUG9FOWZlS2I5Z0xxWS14ZFZrSnpR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "KEYE",
-      "latestSinceUpdate": 1442
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1443
+    },
+    {
+      "date": "Jul 23",
+      "text": "Iran targeted American bases in Jordan and Iraq, with reports of depleting U.S. interceptor stockpiles.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPX3lNZnhiOVFueGNzd0dnbGM3V0d5emVUZTZhaXRRNmVpXzhVaVNRcVlWQ29XcGZDUnkwM0hhN1BYRmhnWEZhQlhFU1ItX0x6R3k3enA3VC00LVpKQi1xMWJPeXJ3VmQ5WDRhbzIzLWZ3MUgwS25ScHZOOXRnWmxWMzFacTlvRWNC?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1443
+    },
+    {
+      "date": "Jul 23",
+      "text": "The U.S. and U.K. are planning an international conference on the Strait of Hormuz amid rising tensions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9Na25pbGEyNU5WS2d5dE5EcXFyLUNhWDBJd1E3U2I5c0VQUW5ramNaTUtFdEppbXZ1LTFRbkpwNWJJdlJpU0hhbExVaklhaThBTmcwaktuTlJ3NlhhazI5c2tPS2o3SVgxbVJ6amZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 1443
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

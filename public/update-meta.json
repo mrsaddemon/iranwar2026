@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1442,
+  "updateSequence": 1443,
   "lastUpdated": "2026-07-24",
-  "lastSyncedAt": "2026-07-24T15:58:30.548Z",
+  "lastSyncedAt": "2026-07-24T17:45:30.516Z",
   "warDay": 147,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 14,
-    "summary": "A ceasefire deal in south Lebanon appears to have collapsed due to Israeli blasts, while Iran rejects a broader temporary ceasefire."
+    "summary": "No broad ceasefire is in effect, with Iran rejecting a U.S. offer and localized agreements in Lebanon appearing to be violated."
   }
 }
