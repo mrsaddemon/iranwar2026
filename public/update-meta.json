@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1455,
+  "updateSequence": 1456,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T12:49:28.228Z",
+  "lastSyncedAt": "2026-07-25T14:22:08.948Z",
   "warDay": 148,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Iran and Israel declared a pause in strikes, but Israel has already carried out blasts in Lebanon, indicating a fragile and partially violated agreement."
+    "summary": "Iran and Israel announced a pause in direct strikes, but Israel has conducted operations in Lebanon despite a separate ceasefire deal, and the US has reported no new strikes on Iran for two weeks."
   }
 }
