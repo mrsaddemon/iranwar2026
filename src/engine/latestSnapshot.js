@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1459,
+  "updateSequence": 1460,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T17:34:05.510Z",
+  "lastSyncedAt": "2026-07-25T12:00:00Z",
   "warDay": 148,
-  "summary": "The Iran-Israel conflict has escalated with renewed direct strikes, imperiling a fragile ceasefire and leading to significant disruptions in the Strait of Hormuz and Red Sea, while the US navigates its response amid internal debate.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-07-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 100,
-    "summary": "The April ceasefire between Iran and Israel has collapsed following renewed direct exchanges of strikes, while a separate ceasefire in Lebanon also faces violations."
+    "durationDays": 14,
+    "summary": "The April ceasefire between Iran and Israel has collapsed following renewed direct strikes and ongoing regional conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -63,47 +63,47 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Escalation in Iran war nears 2-week mark.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAtQk51ZFI1R2hJeUhnTTJlazk2WGstSFNLeEhfbVY2TXhER0tBVjZpemxQWTlyTDQzdFRiZlJQSHZ1YXVIWDJvUTh0ZzkwNDg2RmxBOTdLRGNSVUhaRm9DZzJUZm0xY3U5WGxQZThR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
+      "sourceName": "Google News"
     },
     {
       "date": "Jul 22",
+      "text": "Iran Update Special Report released.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxNQ2l3V2N3aWtONFdBTm40RFdiOENaWExiQ3JrWUhYeGV5TlFvZ3g0RUNTRllKeFRRd3kxbkN2Ynhla0FUaG1QMjdSWHNGN2NTcGNtVUszWk14a25BemNGbTZ4QURFUHFfRFVfbFlwSnlxczJIUXVzc2J1NkRFTm5RNGwwYVJfRkxnMWxWS19XZWFjSkxy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1460
+    },
+    {
+      "date": "Jul 24",
+      "text": "Saudi Arabia and Houthis trade attacks, escalating conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNdDVPSWhRMm50Mng1UHBhbG5qRXV3eHFwX0dObEFENW1CcUduQ0o4a3dtNDlpcGNMRHpsZS1kTkJEYTZxM3VsTTRoSnR4UW15R0ZLa29IaEJJRlNwa1FLV2RhWmZ0cUtLZXhxcmZVeVhKdEJMNWdCT1gtNnU1amVQVDdnMDhUVUM3dk1GTldsY3Z5UjNXNXJnWksydzFfSnBMRUduQVdXemV6S0VCZVkySi0tLTRGTHpLY2fSAb8BQVVfeXFMTjJkVDJwTWlHRC1SVXdRNnFXZTJJWXVzR1Jib2F4dnJVMXVrZFBucDhLME00Ri1wdzFoM3dMYllLTGIxR2hTa0UtSXNXSm1CM2lfcVkzc2pvT0pUT1U3S0xTNjRseTVmZFVHbVBsUms0TXZNOUZydVA5T2NqWG5jNjI4ZUpSb0ZSOUk4dVRtTHFXWHhuNVRjUTliR0ZDVzVNRC1rME51NDdrWVpKUDlSRW10cS1Fc1R0SFI4RnZGM2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1460
+    },
+    {
+      "date": "Jul 24",
       "text": "Pentagon accused of cover-up over US military casualties in Iran war.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxPTG9hNHJocmdRUVNvZzNzSUxlYTQydkFOeDdSa21sUWxidFg1Ri14OWs0TDdXUGtLSUlFdGpqUFFSYW1ibWZ3UGtVZU1UR0p2RzF2X2hVdTEtNnVBRWU5cHFGckJMdUNQOEp0WGp0ZUtFSXVXRVQ3c05tdTc5ZFpTaUlnYV9qOWJEVnA1YVVjUFJCY3ZlOWo5YWgwc1N0STE3QVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1459
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1460
     },
     {
-      "date": "Jul 2X",
-      "text": "Iran and Israel exchange strikes for the first time since April ceasefire.",
+      "date": "Jul 24",
+      "text": "Trump warns of unprecedented 'massive attack' on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1460
+    },
+    {
+      "date": "Jul 24",
+      "text": "Iran and Israel exchange strikes for the first time since April Cease-Fire.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1459
-    },
-    {
-      "date": "Jul 2X",
-      "text": "Iranian strike on Israel suggests Tehran's sense of resilience is growing.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFA1cVJXT0RQcXFSX0VuM3E3aEVNZllsZ1RLQkZSQkFNSU9JbkpXel9lNkx1RnZTZ3AySkdtTHlsR0J5YXZnWk5HRGx2MTU2cTBJelF1T2JXRXJUZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1459
-    },
-    {
-      "date": "Jul 2X",
-      "text": "Iran Guards say stopped four ships trying to transit Hormuz strait.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAJBVV95cUxQc1VNVk9NcTcwdkxWbmMwOXpxRy0td1FTcHJHb3R3bDZIOW9fQzhUVWpNSTFhQW51eHdJeVVUVktnXy1CNWQ5SGtqX1pmOG9wNk95ZlQ1dTBFVXhscjR6Rk5ZOXVFdkVxdzh3VWs3djEtVjhaOGl2MXJKZHNrMG5TNXZIOHpBNzZ6T1Jvcmc3ZExFRXRpbDVyY0pTcnZ4SXo2bGpPTktYaGNQc0pzUjVhTWF4S2t3T2YxeGlMRHdkUGxyUm5rNFkybUktV0tzUmppSmtCeEVlOHdrT29wUFJXWng0X3B6eTR6SUo3SjZWVmRsZHZ3MUtEQTVOSU5PWDB2MWhaenBFX03SAY8CQVVfeXFMTXZQOHhZc0RCMXRLaDVKODRsN2N2YWJ4Wi1aYjZ6aEhiZlcwdlFiR0loU1U1TEFXZ3Y5b0lqNVFHM0x2c0FRX2l5VzJtN1g3dmhXSVN3M3RVV1JId19KUzIzRFNjR1VjXy1jSzFra2M3YWFCclloTGRJQ1psRHlKT3NWcW9qNld0ZGtJVFFyVk9rTVB0MWZfOEQ5LTAxTjRodkpoWlB6OXdSM0JuN1ltMHRYbVRmZjVfSWt0dE5kM21McFFJeUt0UUpBSW1NSVVOQkdKM3N2MUY3dkdieWdCa0NZZEwxaC1haUs4YU9MZ0FubHllSWlLaDFEOVhDbTlUUGdCa2xYYV9OUnBUanRRaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 1459
-    },
-    {
-      "date": "Jul 2X",
-      "text": "Crude oil prices shoot up after Red Sea joins Strait of Hormuz as Iran war's second choke point.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOLTE3MVJMNG1NX0poY3YyV2RqdmVlMU82US1NWGZ1cFBvQjF4V21IcU5lUXZ6RWNzcmdibGM2SmJMY010MGZOVXY3ZlN6anRHeU5uYlVrQ05SZjh5YXcyUExxTW5nY1ktMWM4WjNTMkRvOUpaOXRUWm1QQTdiUVp5RQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1459
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1460
     }
   ],
   "sourceStatuses": [
@@ -121,7 +121,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
