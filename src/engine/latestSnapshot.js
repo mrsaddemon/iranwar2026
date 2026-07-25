@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1451,
+  "updateSequence": 1452,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T06:57:01.860Z",
+  "lastSyncedAt": "2026-07-25T09:06:34.581Z",
   "warDay": 148,
-  "summary": "The Iran war has escalated significantly, nearing its two-week mark with ongoing US and Israeli strikes, threats of 'massive attacks,' and a collapsed ceasefire, leading to a surge in oil prices due to disrupted shipping lanes.",
+  "summary": "The US-Iran conflict continues to escalate with threats of 'massive attacks' and ongoing strikes, leading to significant oil price increases and a collapsed ceasefire, while the Pentagon faces scrutiny over casualty reporting.",
   "lastNarrativeUpdate": "2026-07-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 14,
-    "summary": "A recently announced pause in strikes between Iran and Israel has collapsed following Israeli blasts in south Lebanon."
+    "summary": "A brief pause in strikes between Iran and Israel was announced but appears to have collapsed quickly amidst ongoing US military actions and threats of retaliation."
   },
   "actorOverrides": {
     "usa": {
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 35,
+    "nuclearIndex": 65,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 24",
-      "text": "Escalation in Iran war nears 2-week mark.",
+      "text": "Trump administration considers a 'massive attack' on Iran, escalating rhetoric as the Iran war nears its two-week mark.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAtQk51ZFI1R2hJeUhnTTJlazk2WGstSFNLeEhfbVY2TXhER0tBVjZpemxQWTlyTDQzdFRiZlJQSHZ1YXVIWDJvUTh0ZzkwNDg2RmxBOTdLRGNSVUhaRm9DZzJUZm0xY3U5WGxQZThR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1451
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1452
     },
     {
       "date": "Jul 24",
-      "text": "Trump considers 'massive attack' on Iran and threatens bridges.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1DT3ROTDZjaHVoV0g2VEdyOERTeHQyZU9hUW1QLTh4NVltaVF5LW8xTWdPNy1oeVRycXVwcVJyd3JqNTlfX1A3aFdzVlJzSXBucW5uM1lWRUR5Zi00VDBOSkFuMjMtZmE0LWdHVDFDMXdUbnpnUl9STNIBfkFVX3lxTFA1MmUxNnhZQ090aXloVFpVRkFvdWxhelcyYVZSUkZiQ2NHXzJEZWxaanZ5MjI3eWljemh0MEwtNl9vVjNkTDVNR2FjUUVGUUQ4ck9VVmZORExYbjM5T1NSYWtBalZ6TE9iTjhEclN2TWpRc0JhS2FRX0FkVDFDZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1451
-    },
-    {
-      "date": "Jul 24",
-      "text": "US military carries out strikes on Iran as both sides threaten civilian infrastructure.",
+      "text": "US military carries out new strikes on Iran, with both sides threatening civilian infrastructure.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1451
+      "latestSinceUpdate": 1452
     },
     {
       "date": "Jul 24",
-      "text": "Iran and Israel announce a pause in strikes but warn of retaliation if ceasefire breached again.",
+      "text": "Iran and Israel announce a pause in strikes but warn of retaliation if the ceasefire is breached again.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1451
+      "latestSinceUpdate": 1452
     },
     {
       "date": "Jul 24",
-      "text": "Crude oil prices shoot up after Red Sea joins Strait of Hormuz as Iran war's second choke point.",
+      "text": "Saudi Arabia and Houthis trade fire, and the US fires on a tanker in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBXMFN4NE9tTE1Ub0dqX2ZDNVh1RzVNUmhMZGdhbUlfd3VZSi1KcmNYMmM4dm1acGlMLWt0TEpUX214WXBaV0JCRnZEdC1jWklyZ0J2YzltQkFmZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1452
+    },
+    {
+      "date": "Jul 24",
+      "text": "Crude oil prices shoot up as the Red Sea joins the Strait of Hormuz as a second choke point in the Iran war.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOLTE3MVJMNG1NX0poY3YyV2RqdmVlMU82US1NWGZ1cFBvQjF4V21IcU5lUXZ6RWNzcmdibGM2SmJMY010MGZOVXY3ZlN6anRHeU5uYlVrQ05SZjh5YXcyUExxTW5nY1ktMWM4WjNTMkRvOUpaOXRUWm1QQTdiUVp5RQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1451
+      "latestSinceUpdate": 1452
     },
     {
-      "date": "Jul 24",
-      "text": "Israel carries out blasts across south Lebanon despite 'ceasefire' deal.",
+      "date": "Jul 23",
+      "text": "Oil prices top $100 a barrel following a Houthi attack in the Red Sea, marking a new escalation.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNZl90QmVaeGdDMFBWV2JaNkRTV29BN2tJOTIyVTdYeGdrTXoyYS1PWWthTG4tUzlkWlBpNEtiWmFUTTRBRC1VYTlhNlhCb0EwZ1NoUV9CUVRlYWZLTmdhakcwbWNTUExtYkEtUVZzN1pEUkhZRzgwZHVGYU5Lekx0bXdNNHoyWnhkcW1WXzZmejU2Wm53YTdla3RZSk9NS1p5YnFUMjBxZE9HMFJvSVk40gG0AUFVX3lxTE9aU2dWYTlsVEdubkFVTWRoSlBqZnJaYTBzWUw1THpGeGo0eXJWMmpqcnBJYTAyZ1VmajdVZTI4TVBRNU9VdmFwOWg4WjV5bHI5c0NlNU1LSll2YUJvdERRMjBkbWtVWFY3VW95WFJyc1AtbHRBWVdGYVd5ZHFIamI4S094c1l3V2hYb0U0OU02MVlLNVc0SzhnLXpEWUUtQW5YSWJkaW1DcTF3SkFKSmUzMzBGSg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1451
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAwS09NMm0xR0ZNSU9VRV9lSkdpdW9QRGF1VHZZakt0VWdMN0tzRWRmYVM4SlZKRGc5c2UzLS1CWEU5VWdnSFZNQ1l5VVpZa05WTF9yVUE1Z3BkcncyVlltZXFPMXNrVFlOb3VSYWVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1452
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
