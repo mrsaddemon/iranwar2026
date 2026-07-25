@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1453,
+  "updateSequence": 1454,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T10:41:26.786Z",
+  "lastSyncedAt": "2026-07-25T11:51:44.196Z",
   "warDay": 148,
-  "summary": "Tensions in the Iran war remain high as the US considers intensifying strikes and threatens a 'massive attack,' while Iran and Israel recently exchanged strikes before agreeing to a temporary pause, and oil prices surged due to disruptions in the Red Sea and Strait of Hormuz.",
+  "summary": "The Iran war continues with heightened US threats of a 'massive attack,' direct US strikes deeper into Iran, and US enforcement of a blockade in the Strait of Hormuz, while Iran and Israel have agreed to a fragile pause in strikes after recent exchanges.",
   "lastNarrativeUpdate": "2026-07-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 1,
-    "summary": "Iran and Israel have paused strikes following recent exchanges, but both sides warn of retaliation if the pause is breached."
+    "summary": "Iran and Israel have announced a pause in strikes, but warn of retaliation if breached, following recent exchanges."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.75
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 18,
+    "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 24",
-      "text": "US President Trump meets with cabinet to discuss intensifying strikes against Iran",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1453
+      "text": "Trump Meets With Cabinet Over Whether to Intensify Iran Strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNekVNZHhVQkF4WWRNNm84S0JDZWJ1U3ZJRl85dFBtdV9DNlFSZGhtTGxIZll4aWRMZDVGd3JFX0hfWFR2SEwxUlVLOXR6NlNrQ3RPOUpBbm1qZERuVG1VM0FyY0NKNFZvZGtwV3VjU3BBSE5IeDV6dEpYYnYybnM3Zg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1454
     },
     {
-      "date": "Jul 24",
-      "text": "Escalation in Iran war nears 2-week mark",
-      "severity": "warning",
+      "date": "Jul 25",
+      "text": "Escalation in Iran war nears 2-week mark.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAtQk51ZFI1R2hJeUhnTTJlazk2WGstSFNLeEhfbVY2TXhER0tBVjZpemxQWTlyTDQzdFRiZlJQSHZ1YXVIWDJvUTh0ZzkwNDg2RmxBOTdLRGNSVUhaRm9DZzJUZm0xY3U5WGxQZThR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1453
+      "latestSinceUpdate": 1454
     },
     {
-      "date": "Jul 24",
-      "text": "President Trump warns of an unprecedented 'massive attack' on Iran",
+      "date": "Jul 25",
+      "text": "Trump considers ‘massive attack’ on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTE1DT3ROTDZjaHVoV0g2VEdyOERTeHQyZU9hUW1QLTh4NVltaVF5LW8xTWdPNy1oeVRycXVwcVJyd3JqNTlfX1A3aFdzVlJzSXBucW5uM1lWRUR5Zi00VDBOSkFuMjMtZmE0LWdHVDFDMXdUbnpnUl9STNIBfkFVX3lxTFA1MmUxNnhZQ090aXloVFpVRkFvdWxhelcyYVZSUkZiQ2NHXzJEZWxaanZ5MjI3eWljemh0MEwtNl9vVjNkTDVNR2FjUUVGUUQ4ck9VVmZORExYbjM5T1NSYWtBalZ6TE9iTjhEclN2TWpRc0JhS2FRX0FkVDFDZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1454
+    },
+    {
+      "date": "Jul 25",
+      "text": "Pakistan reportedly seeks to restart stalled peace talks.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1454
+    },
+    {
+      "date": "Jul 25",
+      "text": "Trump says he trusts Russia and China's leaders not to enable Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1454
+    },
+    {
+      "date": "Jul 25",
+      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1453
-    },
-    {
-      "date": "Jul 24",
-      "text": "Iran and Israel exchange strikes for the first time since April ceasefire",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1453
-    },
-    {
-      "date": "Jul 24",
-      "text": "Iran and Israel agree to pause strikes, warning of retaliation if breached",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1453
-    },
-    {
-      "date": "Jul 24",
-      "text": "Saudi Arabia and Houthis trade fire; US fires on tanker in Hormuz Strait",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBXMFN4NE9tTE1Ub0dqX2ZDNVh1RzVNUmhMZGdhbUlfd3VZSi1KcmNYMmM4dm1acGlMLWt0TEpUX214WXBaV0JCRnZEdC1jWklyZ0J2YzltQkFmZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1453
+      "latestSinceUpdate": 1454
     }
   ],
   "sourceStatuses": [
