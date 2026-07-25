@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1450,
+  "updateSequence": 1451,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T04:31:48.927Z",
+  "lastSyncedAt": "2026-07-25T06:57:01.860Z",
   "warDay": 148,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "A stated pause in strikes between Iran and Israel appears to have collapsed following Israeli blasts in Lebanon and new US missile strikes on Iran."
+    "durationDays": 14,
+    "summary": "A recently announced pause in strikes between Iran and Israel has collapsed following Israeli blasts in south Lebanon."
   }
 }
