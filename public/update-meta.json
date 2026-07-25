@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1462,
+  "updateSequence": 1463,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T20:34:38.269Z",
+  "lastSyncedAt": "2026-07-25T21:29:30.488Z",
   "warDay": 148,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 14,
-    "summary": "Previous ceasefires between Iran and Israel, and in Lebanon, appear to have collapsed or are severely strained due to recent military actions."
+    "summary": "The April cease-fire between Iran and Israel has collapsed, and a separate cease-fire deal in Lebanon has been violated by Israeli actions."
   }
 }
