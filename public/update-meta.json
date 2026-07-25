@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1454,
+  "updateSequence": 1455,
   "lastUpdated": "2026-07-25",
-  "lastSyncedAt": "2026-07-25T11:51:44.196Z",
+  "lastSyncedAt": "2026-07-25T12:49:28.228Z",
   "warDay": 148,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Iran and Israel have announced a pause in strikes, but warn of retaliation if breached, following recent exchanges."
+    "summary": "Iran and Israel declared a pause in strikes, but Israel has already carried out blasts in Lebanon, indicating a fragile and partially violated agreement."
   }
 }
