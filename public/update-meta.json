@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1472,
+  "updateSequence": 1473,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T14:02:29.456Z",
+  "lastSyncedAt": "2026-07-26T15:13:04.304Z",
   "warDay": 149,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
-    "durationDays": 2,
-    "summary": "A fragile pause in strikes is observed between the US and Iran, and Iran and Israel, though recent violations and threats of retaliation persist."
+    "durationDays": 1,
+    "summary": "Both US-Iran and Iran-Israel have announced a pause in strikes, though threats of retaliation persist and a recent oil tanker incident adds to regional instability."
   }
 }
