@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1478,
+  "updateSequence": 1479,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T20:39:36.498Z",
+  "lastSyncedAt": "2026-07-26T21:42:33.871Z",
   "warDay": 149,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
-    "durationDays": 1,
-    "summary": "A fragile pause in direct US-Iran strikes is observed, allowing for potential talks, though Israel and Iran have exchanged strikes and Iran threatens escalation."
+    "confidence": 0.98,
+    "durationDays": 2,
+    "summary": "A fragile operational pause in US-Iran strikes is in effect for two days, with diplomatic talks underway, but Iran threatens escalation and Israel continues regional actions."
   }
 }
