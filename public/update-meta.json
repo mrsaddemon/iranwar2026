@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1476,
+  "updateSequence": 1477,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T18:35:54.898Z",
+  "lastSyncedAt": "2026-07-26T19:47:51.991Z",
   "warDay": 149,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 2,
-    "summary": "The US has paused direct strikes against Iran for two days, allowing for diplomatic talks, though the situation remains highly volatile with threats of renewed escalation."
+    "summary": "The US has implemented a two-day operational pause in strikes against Iran, signaling a willingness for talks, but the situation remains fragile due to Iranian threats and ongoing maritime incidents."
   }
 }
