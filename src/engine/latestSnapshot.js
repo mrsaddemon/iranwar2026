@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1477,
+  "updateSequence": 1478,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T19:47:51.991Z",
+  "lastSyncedAt": "2026-07-26T20:39:36.498Z",
   "warDay": 149,
-  "summary": "The United States has paused strikes against Iran for two days, signaling a potential for diplomatic talks, while Iran threatens escalation if strikes resume amidst ongoing maritime incidents and regional tensions.",
+  "summary": "A fragile pause in direct US-Iran strikes is observed, allowing for potential talks, though Israel and Iran have exchanged strikes and Iran threatens escalation while the conflict spreads to new regions.",
   "lastNarrativeUpdate": "2026-07-26",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 2,
-    "summary": "The US has implemented a two-day operational pause in strikes against Iran, signaling a willingness for talks, but the situation remains fragile due to Iranian threats and ongoing maritime incidents."
+    "durationDays": 1,
+    "summary": "A fragile pause in direct US-Iran strikes is observed, allowing for potential talks, though Israel and Iran have exchanged strikes and Iran threatens escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.3
+        "precision": 0.7,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "globalPressure": 64,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 25",
-      "text": "US military does not announce new Iran strikes for first time in 2 weeks",
+      "text": "US military does not announce new Iran strikes for first time in 2 weeks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5vaW92cWRJeWowUVJXZW5UQlpoS2JlQWFtTnpmd0xPNkdHWGlKV1M1eWhmUWg4d202ZC1tZkdDd29TX25LeU0yZDVUeVgyOUhYM0RKMlIyWmNrVVZKUnhIRjBQa0d6RlVIYzVXQ05R?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1477
+      "latestSinceUpdate": 1478
     },
     {
-      "date": "Jul 26",
-      "text": "U.S. pauses Iran strikes for second straight day as diplomatic talks move in positive direction",
+      "date": "Recent",
+      "text": "Trump administration signals that pause in Iran strikes will allow talks to progress.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPX3lNZnhiOVFueGNzd0dnbGM3V0d5emVUZTZhaXRRNmVpXzhVaVNRcVlWQ29XcGZDUnkwM0hhN1BYRmhnWEZhQlhFU1ItX0x6R3k3enA3VC00LVpKQi1xMWJPeXJ3VmQ5WDRhbzIzLWZ3MUgwS25ScHZOOXRnWmxWMzFacTlvRWNC?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1477
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4yUGQyOU5oLVZvX0t4bWI3dVo0R3ZaSHNoS0t1SEl0bjZHLVNTejIyeEVXMnZraDhBUE5kanFxYkU0ZHR2c2JEVzc0ZUR0MV9GMkg0U0IyRHYxdEw1Wi1FYUkzMnU4c3N4T3JwbUNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1478
     },
     {
-      "date": "Jul 26",
-      "text": "Oil tanker explodes in Strait of Hormuz after hitting naval mine: Iranian media",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQRkIwVWo1SzBsNVdoNGotejR2elAwaHpqOER5endma1kwa1Y5Tk1Mb3J4QWxZbjVKR1NTMWhqZGpiR3ctUFo4alVyMmZ5dllqczBqNW9iR01ya2R2QTNPWGVuUGFZa19RREFUU3o2ZXk3YXpfZ3NDRFRQbDNweE90b19fTUZYVXJ6NVRmXzRBR3FSNzZmNW9IQmVEVkRjcmtweHFsVjJneExMREtaa3gtXzVFeVd2ZUpDNWg2RUV6Y00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1477
-    },
-    {
-      "date": "Jul 26",
-      "text": "US military disables tanker accused of breaking the Iran blockade",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQQVdDRkYyNkR5Yl94a1UwZEYwYmhfSjNGcGVnejZzcktKMDNFTC0zcEgtdjhYVXluaWR6MjVXMUtrbnd1cUxGTWF5M0JSRjUwMUp4cUhsQTRwaEluU242Tk50Y0lrS2NBNEZqUjhmSmRlYURRMkZ4OEw2MXhUclpjQ3E0LS1SaFVKaXQ1ZnE5QWNNWFlqSkhWTFBrelVaN0szYllBYXBmOFpqelVLSGhxTFhuSDZxMzTSAbwBQVVfeXFMT1BGRnlCa2N6eWxPSC1aTG5nR0lYaXVQREYxTHk2MVV0b1RMMXlWaHZuWmpIeXJpS1Y4YWtRMzlrVkhVdVpqVkRiQnlOTEUySGhFN05TYlJwNG5BLVI5clJOVms3bnk4SEpBVHhNaDJZNGZmc1lWMmJHa3Vqa3I4cURydHRuUU9iZkZsWXc1UG5pTWdGamtjN0t5Y21ieEt6RjcyT1ZiT1M0TlZHOUpuWWlZcmQzZ1R2ODZZTVo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1477
-    },
-    {
-      "date": "Jul 26",
-      "text": "Iran threatens to expand war if US resumes strikes, which it says Israel is pushing for",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNTEU1blJ0ZjFodmdqYXM3MzdXeU9PbXcwUlNEUWx5aktWY29NRXRHOC1XS2F3QTFpMWhKMnVhX0dUMkh4TmNYVEl0cDN6ZGtHb0dOMzk0SlE3SkdOT1JzVmZJQjFHYUYyUzZjUkFKNU5tZ3JmbDZTRXVYdUNDZXVFWjg4cG5QQmZKcFhKZnd1a2tMMENKS05LNFZMUC1henZCRERMcUVTaXRoRGYyV0Z4UmRSdmgxNUR30gG-AUFVX3lxTFA1UEhCVnJkWDRyNHRNYUItcVpsWDRfVXgyR0xUX3VyVXdacXZKMWgxSmtmWFFpVjlFVW12NHplMDFhXzZpYVFmbTdQRmFJajFGenhOdWtDZzNraEV5NEZXMkFCeElTQUVDbW9FaFUzS1lWam81NG5QMnpQRkcxclpUd2dGTTNsa05IeTRwd1BTclM2Q0RoMmtxM0FsZ2NvQWdLd2lfNWwyQ3BwcnV1d3NNanFrQVBBY3lxSXVtNUE?hl=en-US&gl=US&ceid=US:en",
+      "date": "Recent",
+      "text": "US, Iran appear to halt strikes after 13 days of mutual attacks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxObFNiN0FCazRuclZfTEdFTFdKemZyU09SSGl3STJHR2otcHA5MThCTlRIaXR0UGlnUy1xZ3Jpb0NQQ2JleWNBdVh5MmNpaklQUVhsVW1SV0VDT24xZ01Ybm1XX3RRaWNMSl9RY3Q1S05UM2djWEpmcXBfR0V6Wmw1MVNPMjgzd1psLUdXX09aZmxXbTEwUE82LdIBngFBVV95cUxNV3g3THBZdXRLUzJwT2ZFQ1NGd0V0aDZVc2dzc29ONkNtanpfa2p5NHczb0ZfQUs1UmZRNXh4eHZCbWdQRm1zckVXX0FySS1LcjdSa1pzdUxGYm1hM1loR0d0S3pYSWt0UENOMkFlcnF4U3RHd3pwWnNJY0NWb1NCUzZQelFnQldfbDVMeXRIbG5qZ013bWZUTzBXWTZuUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1477
+      "latestSinceUpdate": 1478
+    },
+    {
+      "date": "Recent",
+      "text": "Iran and Israel Exchange Strikes for First Time Since April Cease-Fire.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE4yaFRvZG5JOHJaV2ZsSllxcUx6WG9HSEdWVC1sQlVDZlRIUmxxb18xVWNmOEZCd0xKa3lraG80ZGw4NnVHcE5vODRwZzVNVkV4V3JscldjQUt0dU9zQ2swZjExcG9IR2E2dG5hb29HekFnYV8x?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1478
+    },
+    {
+      "date": "Recent",
+      "text": "Oil tanker explodes after hitting naval mine in Strait of Hormuz, IRGC-linked media claims.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1478
+    },
+    {
+      "date": "Recent",
+      "text": "Iran war spreads to Red Sea and Caspian.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPYnVSWlhuMFM5LW94bUxZY2tSeDlTX3p1RC1yNk10aVJobG02aVpFeGc3bFowLVZIT01sQk5yekpRWHNUYmhiS3gxSmJTbF9YU2hROXlmQ3hSMVFvaVpDZlhuUXp6N0d4c2lERjlra2NFeXp6Y1Uwd3M2U3prWUp2LTNvMG5Zd05laVktTmJXaXFTNnp4V3U2RkUwV0FNM04yc0dsQWZKc1BtOFk2aDFKQlUwc21pdW9k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1478
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
