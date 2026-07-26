@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1480,
+  "updateSequence": 1481,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T22:44:12.343Z",
+  "lastSyncedAt": "2026-07-26T23:44:35.168Z",
   "warDay": 149,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "The US has implemented a two-day pause in strikes against Iran to allow for diplomatic talks, though the broader regional situation remains volatile with Israeli actions in Lebanon and a Strait of Hormuz incident."
   }
 }
