@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1474,
+  "updateSequence": 1475,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T16:15:43.796Z",
+  "lastSyncedAt": "2026-07-26T17:26:17.645Z",
   "warDay": 149,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
-    "durationDays": 1,
-    "summary": "US and Iran have paused strikes for the first time in two weeks, while Iran and Israel have also agreed to a temporary pause following recent exchanges, though both sides warn of retaliation."
+    "confidence": 0.4,
+    "durationDays": 2,
+    "summary": "The U.S. and Iran have implemented an operational pause in strikes for two days, though regional tensions remain high and Iran threatens escalation."
   }
 }
