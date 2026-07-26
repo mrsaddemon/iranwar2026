@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1473,
+  "updateSequence": 1474,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T15:13:04.304Z",
+  "lastSyncedAt": "2026-07-26T16:15:43.796Z",
   "warDay": 149,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 1,
-    "summary": "Both US-Iran and Iran-Israel have announced a pause in strikes, though threats of retaliation persist and a recent oil tanker incident adds to regional instability."
+    "summary": "US and Iran have paused strikes for the first time in two weeks, while Iran and Israel have also agreed to a temporary pause following recent exchanges, though both sides warn of retaliation."
   }
 }
