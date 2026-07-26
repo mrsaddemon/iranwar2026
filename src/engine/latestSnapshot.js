@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1468,
+  "updateSequence": 1469,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T07:26:30.138Z",
+  "lastSyncedAt": "2026-07-26T09:36:16.336Z",
   "warDay": 149,
-  "summary": "US and Iran appear to have paused direct strikes after 13 days, though Iran rejected a US ceasefire offer, while Israel and Iran exchanged strikes and Israel continued operations in Lebanon despite a ceasefire deal.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-07-26",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.98,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 14,
-    "summary": "No active ceasefire is in effect between the US and Iran, and a previous Israel-Iran ceasefire has collapsed, while a deal in Lebanon is being violated."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 25",
-      "text": "US military does not announce new Iran strikes for first time in 2 weeks.",
+      "date": "Jul 26",
+      "text": "July 25, 2026 — US military does not announce new Iran strikes for first time in 2 weeks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5vaW92cWRJeWowUVJXZW5UQlpoS2JlQWFtTnpmd0xPNkdHWGlKV1M1eWhmUWg4d202ZC1tZkdDd29TX25LeU0yZDVUeVgyOUhYM0RKMlIyWmNrVVZKUnhIRjBQa0d6RlVIYzVXQ05R?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1468
+      "latestSinceUpdate": 1469
     },
     {
-      "date": "Jul 25",
-      "text": "US, Iran appear to halt strikes after 13 days of mutual attacks.",
+      "date": "Jul 26",
+      "text": "July 24, 2026 — Escalation in Iran war nears 2-week mark",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxObFNiN0FCazRuclZfTEdFTFdKemZyU09SSGl3STJHR2otcHA5MThCTlRIaXR0UGlnUy1xZ3Jpb0NQQ2JleWNBdVh5MmNpaklQUVhsVW1SV0VDT24xZ01Ybm1XX3RRaWNMSl9RY3Q1S05UM2djWEpmcXBfR0V6Wmw1MVNPMjgzd1psLUdXX09aZmxXbTEwUE82LdIBngFBVV95cUxNV3g3THBZdXRLUzJwT2ZFQ1NGd0V0aDZVc2dzc29ONkNtanpfa2p5NHczb0ZfQUs1UmZRNXh4eHZCbWdQRm1zckVXX0FySS1LcjdSa1pzdUxGYm1hM1loR0d0S3pYSWt0UENOMkFlcnF4U3RHd3pwWnNJY0NWb1NCUzZQelFnQldfbDVMeXRIbG5qZ013bWZUTzBXWTZuUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1468
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAtQk51ZFI1R2hJeUhnTTJlazk2WGstSFNLeEhfbVY2TXhER0tBVjZpemxQWTlyTDQzdFRiZlJQSHZ1YXVIWDJvUTh0ZzkwNDg2RmxBOTdLRGNSVUhaRm9DZzJUZm0xY3U5WGxQZThR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1469
     },
     {
-      "date": "Jul 25",
-      "text": "Iran rejected a U.S. cease-fire offer delivered by Iraq, officials say.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1468
-    },
-    {
-      "date": "Jul 25",
-      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "date": "Jul 26",
+      "text": "Iran war live: Baghaei says progress made in Oman talks on Strait of Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPSTd6UkF5eDBrZ2R4N2JFLU1iMzR5WER1bnNDUVpEOTJQdUlQM3RHcVItSEsxQzVmSDhFeThBLW9LTHZtQTBRT1hZU2JVRDZtSGhKd2gyMXkwRHplMlM2SUxmS2kwX1NrUEViZ3NEUVctZzJHWHdjZHNuNDNLMWdQWVc3R0dERDhzY2ZxalJsd0E5S1NWRkFFb3plbzA5Ml82R1ZacENwRjIwSHVMS3E3N3FUYjZqcGM3YWZXSdIBwgFBVV95cUxQa2FmQnZMRTI0R2lSdWFacXFYeFBCZnhYNlJ4ZE1aU1YwVThJVGRJSGVVX3F4S1l2UGpkSFA1czQ5X1Q5a2Q2dkIxOW1Ld0NtX1hNQnBFZ2VhVVhuVjJ6MDFQU2pXVkY4aUx1NjhuQWc5OXRPX1FrWHZVUlIyN0d2SVBGN2U1cFN2b1lGM2tySjFidDR1RWIwU0R3WkMtQzl6Y1BuVnc5SlEtS1BMM05aY1B3QmpTQTRwQnRsckljRklmUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1468
+      "latestSinceUpdate": 1469
     },
     {
-      "date": "Jul 25",
-      "text": "Trump Holds Off on Major War Escalation Against Iran as Advisers Raise Concerns.",
+      "date": "Jul 26",
+      "text": "Trump Holds Off on Major War Escalation Against Iran as Advisers Raise Concerns",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFA4ZDFwek83TzF4YkIzeWJRVUo0Umg0QkpkVHZWSEVkOC1QTHNqLThmdHlPdDhEVjEza2xQVW9LeFktSFZ6N2Jza2xPSEdhUXVGSEJ1VUtGNUEtRmFvdk9FQ3gyYlFBbnVZckpxY2VtUkFTNUo4dDNNMVN4WQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1468
+      "latestSinceUpdate": 1469
     },
     {
-      "date": "Jul 25",
-      "text": "Iran and Israel exchange strikes for first time since April Cease-Fire.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1468
+      "date": "Jul 26",
+      "text": "Iran war updates: Trump warns of unprecedented ‘massive attack’ on Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1469
+    },
+    {
+      "date": "Jul 26",
+      "text": "Katz: Iran will face a 'crushing blow' if it strikes Israel first",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE82S1NwSG9sbmpvUE9Tek1wMWZIZ0h0XzIwRFk1SnFHYlVxVEU0MTU0U092OVJ1MkV5a0xMOFl5dWlpT0E2Vmx0UFE1UE85enQwLXRIUFl1U3FyOUxWUWExcUZQaXJQUjlOVWNzTUZB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1469
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
