@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1469,
+  "updateSequence": 1470,
   "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T09:36:16.336Z",
+  "lastSyncedAt": "2026-07-26T11:05:16.888Z",
   "warDay": 149,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.81,
-    "durationDays": 14,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 14 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "status": "fragile",
+    "confidence": 0.98,
+    "durationDays": 1,
+    "summary": "Iran and Israel have announced a pause in strikes following recent exchanges, but warnings of retaliation persist and breaches have occurred."
   }
 }
