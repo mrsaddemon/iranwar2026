@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1490,
+  "updateSequence": 1491,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T21:31:24.194Z",
+  "lastSyncedAt": "2026-07-27T22:35:47.454Z",
   "warDay": 150,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.65,
+    "confidence": 0.6,
     "durationDays": 2,
-    "summary": "The U.S. has paused strikes against Iran for two consecutive nights, engaging in diplomatic talks, though threats of escalation persist from both sides."
+    "summary": "The U.S. has paused strikes on Iran for a second night as diplomatic talks are underway, though the situation remains tense with threats of escalation."
   }
 }
