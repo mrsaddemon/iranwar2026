@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1486,
+  "updateSequence": 1487,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T15:00:00.000Z",
+  "lastSyncedAt": "2026-07-27T17:04:44.234Z",
   "warDay": 150,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 2,
-    "summary": "No active ceasefire or truce is currently reported in the region."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.5,
+    "durationDays": 3,
+    "summary": "A temporary pause in U.S. and Iranian strikes is in effect to facilitate peace talks, but the ceasefire remains fragile amidst ongoing threats and skepticism from regional actors."
   }
 }
