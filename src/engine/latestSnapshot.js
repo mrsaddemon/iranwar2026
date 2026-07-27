@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1491,
+  "updateSequence": 1492,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T22:35:47.454Z",
+  "lastSyncedAt": "2026-07-27T23:40:10.597Z",
   "warDay": 150,
-  "summary": "The U.S. has paused strikes on Iran for a second night, engaging in diplomatic talks, while Iran threatens escalation if strikes resume and Israel pushes for continued U.S. military action.",
+  "summary": "The U.S. and Iran have paused military strikes for a second night amid ongoing diplomatic talks, though the Strait of Hormuz remains closed and threats of escalation persist.",
   "lastNarrativeUpdate": "2026-07-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.6,
     "durationDays": 2,
-    "summary": "The U.S. has paused strikes on Iran for a second night as diplomatic talks are underway, though the situation remains tense with threats of escalation."
+    "summary": "The U.S. has paused strikes for a second night as talks with Iran progress, but the situation remains fragile with conditions and threats of renewed conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.45
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.9,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 40,
-    "tradeImpact": 29,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 57,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,6 +60,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 27",
+      "text": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1492
+    },
+    {
+      "date": "Jul 27",
       "text": "Pentagon reports more than 600 Iran war casualties in a quiet database update.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPRjZuN2tOUWVfbmppRExOaEJ5NXFvREZybXlkb3hlWTFzTU16R0N0UERhQUhndjdvVzV2SnBxRlgzN09sOHBrU2oxOG5vQTVoX0kzeUFJM1lldmgxaXZSUUcxbEJNemtxLTlJVThXVEpNV09OeHdxZTNMUGFpMW1feFhlZGtPeGdReGNWVUVPN1RkZnZ5aUQwSVJ3?hl=en-US&gl=US&ceid=US:en",
@@ -68,35 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 27",
-      "text": "U.S. and Iran pause fighting for a second straight night as talks move in a positive direction; Trump dismisses concerns of dwindling stockpiles.",
+      "text": "Trump states U.S. is in 'very deep talks' with Iran, ready for military action if diplomacy fails.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1491
-    },
-    {
-      "date": "Jul 26",
-      "text": "UN envoy Waltz states Trump is giving talks 'some space' as Trump holds off on major war escalation against Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4yUGQyOU5oLVZvX0t4bWI3dVo0R3ZaSHNoS0t1SEl0bjZHLVNTejIyeEVXMnZraDhBUE5kanFxYkU0ZHR2c2JEVzc0ZUR0MV9GMkg0U0IyRHYxdEw1Wi1FYUkzMnU4c3N4T3JwbUNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1491
+      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxNTGh3QnE2ekpjZEl4bEtWdFVZS0dzb250bG1KVUpfX1Azcnh0YkhGY0dqcml2TmhGY1I1UGg1N3NIQVFIeFFZanpQMkdhcHJiMWloUXpJLUJRS29yNzFHbnhjR1pDU1JfSm45S2pSeWlyNTdEdkY1NlY0a1lKYVlrZzFuZ3pjUERuTkdRN3JyRWpaek1QRHAxVFBRQnFDMFF4aUlIM2Z0NjdTQng4UWlZRTZzSExCUHFFT1pxTzNGSWs2dTNmR294dkE2R1FFVUxZM3REUC1fc0R5T1dxRllyMzgtaWlId3JMMTlVZ0pn0gH0AUFVX3lxTE4xMzRsWjNuN0tydXlXejlsLUxGLWpYYXlXOXNnR1FJNThrU2pLakNoX2I4ZDhyR2pTYjZ4LS1uWEhnczBnLVRNVHp6NmxGUS10V0hmcmJQazM0d1EwZGNfWXh4MHhVS2wxZ3hxQ2o4VzhtS3g5NV9OUDdWcjJxa3hTbXdzRUxrcHhrUDF0NHotTmJpSGxKQ1VXZlNieE5HSTNqRHh6c3Z2WEtLUnJqSmppS3I4dFJtSEZpbnd3bnF2Z1d4dHRjNl92bjNOSlJtWjhkWk1XSEtNM0JIQWFVbmI3dnY2bkppZXRjTHp3SlRvbEV2ei0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 1492
     },
     {
       "date": "Jul 27",
-      "text": "Iran threatens to expand the war if the U.S. resumes strikes, which it claims Israel is pushing for.",
+      "text": "Iran threatens to expand war if U.S. resumes strikes, which it says Israel is pushing for.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNTEU1blJ0ZjFodmdqYXM3MzdXeU9PbXcwUlNEUWx5aktWY29NRXRHOC1XS2F3QTFpMWhKMnVhX0dUMkh4TmNYVEl0cDN6ZGtHb0dOMzk0SlE3SkdOT1JzVmZJQjFHYUYyUzZjUkFKNU5tZ3JmbDZTRXVYdUNDZXVFWjg4cG5QQmZKcFhKZnd1a2tMMENKS05LNFZMUC1henZCRERMcUVTaXRoRGYyV0Z4UmRSdmgxNUR30gG-AUFVX3lxTFA1UEhCVnJkWDRyNHRNYUItcVpsWDRfVXgyR0xUX3VyVXdacXZKMWgxSmtmWFFpVjlFVW12NHplMDFhXzZpYVFmbTdQRmFJajFGenhOdWtDZzNraEV5NEZXMkFCeElTQUVDbW9FaFUzS1lWam81NG5QMnpQRkcxclpUd2dGTTNsa05IeTRwd1BTclM2Q0RoMmtxM0FsZ2NvQWdLd2lfNWwyQ3BwcnV1d3NNanFrQVBBY3lxSXVtNUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1491
-    },
-    {
-      "date": "Jul 27",
-      "text": "Trump says the U.S. is in talks with Tehran, indicating 'good things can happen,' but warns of 'strong military action' if talks fail.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1491
+      "latestSinceUpdate": 1492
     },
     {
       "date": "Jul 27",
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlZIaGtLT0ItbHVjQ0xEWFoyU2I5anhKZHp2QlZhVW1kWTRuOXRBMy1uQlc3a29vTVRTT21vMXZ3dTQ3UTkyVFZSNElnNzQ2VjZDWERjSEQ2bTFDOUpGMkVsOEozVkN0Nm9TVVphV1U5Yll1UEx1cXRsWFBKLU1xMUl1T2lUX3NqVkI1dXBaY2k3cWJiRmRRdkdQVTRacU5hTExkbndBWHQ0VGfSAbABQVVfeXFMUEVoS2VuR3pBZ1YyVzlYTTIyU0Z4eGFfSEhGd2Y0M3lMQ3ZUUFFndDVZUHh5cGhYRUU5enpINl9ha3FHclJuc3dVSkRFWXdFSXNuZjVoZU9qV0FMYjRYcjZIenBFLWRIczhIeEVIalFqLUNjR0Rscm5wMGlramFQZGJXZWRSVDdtcW9la2xxZEhlSGFvRmlYdTVybDY2MTI4Q2tLTmc4TG12TmtyczlZejM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1491
+    },
+    {
+      "date": "Jul 27",
+      "text": "Israel reportedly believes Trump will soon be forced to escalate despite the current pause.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1492
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
