@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1488,
+  "updateSequence": 1489,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T18:42:50.005Z",
+  "lastSyncedAt": "2026-07-27T20:09:50.547Z",
   "warDay": 150,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.65,
-    "durationDays": 1,
-    "summary": "The U.S. and Iran have implemented an operational pause in fighting to facilitate diplomatic talks."
+    "status": "fragile",
+    "confidence": 0.4,
+    "durationDays": 2,
+    "summary": "The U.S. has paused strikes on Iran for a second night, engaging in talks, but threats of escalation persist from both sides."
   }
 }
