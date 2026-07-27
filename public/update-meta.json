@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1484,
+  "updateSequence": 1485,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T08:40:14.779Z",
+  "lastSyncedAt": "2026-07-27T11:59:48.956Z",
   "warDay": 150,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "An operational pause in US and Iranian strikes is in effect for a second night, accompanied by ongoing talks, but threats of escalation persist."
+    "summary": "A two-day operational pause in US-Iran strikes is in effect, with talks reportedly moving in a positive direction, though incidents like a tanker explosion and Iranian threats underscore its fragility."
   }
 }
