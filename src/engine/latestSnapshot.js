@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1483,
+  "updateSequence": 1484,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T04:56:39.113Z",
+  "lastSyncedAt": "2026-07-27T08:40:14.779Z",
   "warDay": 150,
-  "summary": "The US and Iran have paused mutual strikes for two days, leading to diplomatic talks and a drop in oil prices, though underlying tensions and threats of renewed escalation persist.",
+  "summary": "The US has paused strikes against Iran for a second consecutive night amidst ongoing talks, while Iran threatens to expand the conflict if US attacks resume.",
   "lastNarrativeUpdate": "2026-07-27",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.6,
     "durationDays": 2,
-    "summary": "A fragile operational pause in US and Iranian strikes is in effect for a second day, accompanied by diplomatic talks, but threatened by potential US resumption and Israeli pressure."
+    "summary": "An operational pause in US and Iranian strikes is in effect for a second night, accompanied by ongoing talks, but threats of escalation persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.4
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.55,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 12,
     "escalationLevel": 48,
-    "oilDisruption": 50,
-    "tradeImpact": 37,
-    "sanctionsPressure": 54,
-    "globalPressure": 59,
-    "allianceInfluence": 51
+    "oilDisruption": 55,
+    "tradeImpact": 40,
+    "sanctionsPressure": 58,
+    "globalPressure": 66,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 24",
-      "text": "Iran threatens to expand war if US resumes strikes, which it says Israel is pushing for.",
+      "text": "Iran threatens to expand the war if the US resumes strikes, which it claims Israel is pushing for.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNTEU1blJ0ZjFodmdqYXM3MzdXeU9PbXcwUlNEUWx5aktWY29NRXRHOC1XS2F3QTFpMWhKMnVhX0dUMkh4TmNYVEl0cDN6ZGtHb0dOMzk0SlE3SkdOT1JzVmZJQjFHYUYyUzZjUkFKNU5tZ3JmbDZTRXVYdUNDZXVFWjg4cG5QQmZKcFhKZnd1a2tMMENKS05LNFZMUC1henZCRERMcUVTaXRoRGYyV0Z4UmRSdmgxNUR30gG-AUFVX3lxTFA1UEhCVnJkWDRyNHRNYUItcVpsWDRfVXgyR0xUX3VyVXdacXZKMWgxSmtmWFFpVjlFVW12NHplMDFhXzZpYVFmbTdQRmFJajFGenhOdWtDZzNraEV5NEZXMkFCeElTQUVDbW9FaFUzS1lWam81NG5QMnpQRkcxclpUd2dGTTNsa05IeTRwd1BTclM2Q0RoMmtxM0FsZ2NvQWdLd2lfNWwyQ3BwcnV1d3NNanFrQVBBY3lxSXVtNUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1483
+      "latestSinceUpdate": 1484
     },
     {
-      "date": "Jul 27",
-      "text": "US and Iran appear to halt strikes after 13 days of mutual attacks, with the US pausing for a second straight day.",
+      "date": "Jul 24",
+      "text": "The U.S. pauses Iran strikes for a second straight night as talks are reported to be moving in a positive direction.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxObFNiN0FCazRuclZfTEdFTFdKemZyU09SSGl3STJHR2otcHA5MThCTlRIaXR0UGlnUy1xZ3Jpb0NQQ2JleWNBdVh5MmNpaklQUVhsVW1SV0VDT24xZ01Ybm1XX3RRaWNMSl9RY3Q1S05UM2djWEpmcXBfR0V6Wmw1MVNPMjgzd1psLUdXX09aZmxXbTEwUE82LdIBngFBVV95cUxNV3g3THBZdXRLUzJwT2ZFQ1NGd0V0aDZVc2dzc29ONkNtanpfa2p5NHczb0ZfQUs1UmZRNXh4eHZCbWdQRm1zckVXX0FySS1LcjdSa1pzdUxGYm1hM1loR0d0S3pYSWt0UENOMkFlcnF4U3RHd3pwWnNJY0NWb1NCUzZQelFnQldfbDVMeXRIbG5qZ013bWZUTzBXWTZuUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1483
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxPX3lNZnhiOVFueGNzd0dnbGM3V0d5emVUZTZhaXRRNmVpXzhVaVNRcVlWQ29XcGZDUnkwM0hhN1BYRmhnWEZhQlhFU1ItX0x6R3k3enA3VC00LVpKQi1xMWJPeXJ3VmQ5WDRhbzIzLWZ3MUgwS25ScHZOOXRnWmxWMzFacTlvRWNC?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1484
     },
     {
-      "date": "Jul 27",
-      "text": "Oil prices fall more than 4% as the US-Iran pause fuels hopes for Strait of Hormuz stability.",
+      "date": "Jul 24",
+      "text": "Oil prices fall more than 7% following the pause in strikes between Iran and the US over the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPU2VGeTlMSlMzSzVSVHh1VWF4R084c3Nid196WXNjcXNGVktlWVdIN1JPVEItcTdJMDRqc1NZZjhQaFFzQXIyQlNfUFhCYWZUMUgzM2p1U0pEZmp6ZHBNNFo3aGZKVzFzcHpQcEpTblQtbVktUDN5MG5JZ3VWLUxITlBoUHU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Financial Times",
-      "latestSinceUpdate": 1483
+      "latestSinceUpdate": 1484
     },
     {
-      "date": "Jul 27",
-      "text": "Diplomatic talks between the US and Iran are reported to be moving in a positive direction.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1483
-    },
-    {
-      "date": "Jul 27",
-      "text": "Pentagon faces outrage and accusations of cover-up after lowering the number of US troop deaths, which now eclipse 600.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1483
-    },
-    {
-      "date": "Jul 27",
-      "text": "Mojtaba Khamenei praises Hezbollah and calls for continued jihad and attacks against Israel.",
+      "date": "Jul 24",
+      "text": "Iran's Revolutionary Guards turn back six vessels in the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9iN2pyMlJDMTRTWDhVRXB3eHZ4VTU3eVlPd3cxTWl4ZEIzb0hyODRhejZVUDVHS010R0RvOU13WUtPUmVrM0Q0dDFrQUdqR3ItTzBHZ09sZ1BuOW1LOElSTDVaRFhfd1Q0N0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1483
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPSDdZdHJTZmJ6WXBDdU9ueEdVR2hSOEFvTmRfaDJXMjllTGxyaG5qaXQtNjJRNlVMNC1XNHVaaUwyZE9SVnJVajRBNTZmLXZKcjV5emdqNS0tbU01WDlPdllyczJ6MU5yOEk0LXlLWmdpRzhRMkVHWGYteXIwbHZKVnMzemNLY0p2LUpnMWZOdE9GaklMM2E0YmFR0gGfAUFVX3lxTE9UbTZ6cVEzVTVqbXhWdjZwaWhKV2Jqai0wZXJWbnI4WU9JNUI5NEo2cmllUl9wVFVFTHd6VHVvM19JYnhSY1hLMTJQWUR5QWxyOVBzLUU1SS1xVXdmcnhTMUNPVUdMcEE2Ui03S3lSS1RRN1JtUEl3ZHdxakdNcWJfd0RvU1JyMUdhRXhtN1ltZE1CNzRMWWVlLXBpcThvSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Inquirer.net",
+      "latestSinceUpdate": 1484
+    },
+    {
+      "date": "Jul 25",
+      "text": "The Pentagon lowers its count of US military dead and wounded in the Iran war, leading to questions and accusations of a cover-up.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1484
     }
   ],
   "sourceStatuses": [

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1483,
+  "updateSequence": 1484,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T04:56:39.113Z",
+  "lastSyncedAt": "2026-07-27T08:40:14.779Z",
   "warDay": 150,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.6,
     "durationDays": 2,
-    "summary": "A fragile operational pause in US and Iranian strikes is in effect for a second day, accompanied by diplomatic talks, but threatened by potential US resumption and Israeli pressure."
+    "summary": "An operational pause in US and Iranian strikes is in effect for a second night, accompanied by ongoing talks, but threats of escalation persist."
   }
 }
