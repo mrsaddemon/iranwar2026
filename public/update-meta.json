@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1481,
-  "lastUpdated": "2026-07-26",
-  "lastSyncedAt": "2026-07-26T23:44:35.168Z",
-  "warDay": 149,
+  "updateSequence": 1482,
+  "lastUpdated": "2026-07-27",
+  "lastSyncedAt": "2026-07-27T01:20:42.393Z",
+  "warDay": 150,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 2,
-    "summary": "The US has implemented a two-day pause in strikes against Iran to allow for diplomatic talks, though the broader regional situation remains volatile with Israeli actions in Lebanon and a Strait of Hormuz incident."
+    "summary": "An operational pause in US-Iran strikes is in effect for two days, but remains fragile amidst threats of escalation and a recent oil tanker incident."
   }
 }
