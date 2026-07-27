@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1487,
+  "updateSequence": 1488,
   "lastUpdated": "2026-07-27",
-  "lastSyncedAt": "2026-07-27T17:04:44.234Z",
+  "lastSyncedAt": "2026-07-27T18:42:50.005Z",
   "warDay": 150,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.5,
-    "durationDays": 3,
-    "summary": "A temporary pause in U.S. and Iranian strikes is in effect to facilitate peace talks, but the ceasefire remains fragile amidst ongoing threats and skepticism from regional actors."
+    "status": "active",
+    "confidence": 0.65,
+    "durationDays": 1,
+    "summary": "The U.S. and Iran have implemented an operational pause in fighting to facilitate diplomatic talks."
   }
 }
