@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1504,
+  "updateSequence": 1505,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T22:37:30.835Z",
+  "lastSyncedAt": "2026-07-28T23:43:34.174Z",
   "warDay": 151,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 2,
-    "summary": "An April ceasefire between Iran and Israel has collapsed following recent direct exchanges of strikes."
+    "durationDays": 1,
+    "summary": "Iran and Israel have agreed to pause strikes following a recent exchange, but warn of retaliation if the pause is breached, indicating a highly fragile de-escalation."
   }
 }
