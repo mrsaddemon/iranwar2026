@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1502,
+  "updateSequence": 1503,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T20:21:41.267Z",
+  "lastSyncedAt": "2026-07-28T21:34:14.247Z",
   "warDay": 151,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.4,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "The US has paused strikes against Iran for two nights, indicating a temporary de-escalation, but threats of renewed conflict and ongoing Israeli-Iranian exchanges undermine stability."
+    "summary": "The April ceasefire between Iran and Israel has collapsed following a recent exchange of strikes, despite a temporary pause in US strikes against Iran."
   }
 }

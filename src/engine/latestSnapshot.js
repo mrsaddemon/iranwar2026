@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1502,
+  "updateSequence": 1503,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T20:21:41.267Z",
+  "lastSyncedAt": "2026-07-28T21:34:14.247Z",
   "warDay": 151,
-  "summary": "The US has paused strikes against Iran for a second night amid ongoing diplomatic efforts, while Iran maintains no current negotiations are underway and threatens escalation if strikes resume, as Israel and Iran exchanged strikes for the first time since April.",
+  "summary": "The US has paused strikes against Iran amid ongoing diplomatic efforts, while Iran and Israel exchanged strikes for the first time since April, raising regional tensions.",
   "lastNarrativeUpdate": "2026-07-28",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.4,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "The US has paused strikes against Iran for two nights, indicating a temporary de-escalation, but threats of renewed conflict and ongoing Israeli-Iranian exchanges undermine stability."
+    "summary": "The April ceasefire between Iran and Israel has collapsed following a recent exchange of strikes, despite a temporary pause in US strikes against Iran."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.5
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "nuclearIndex": 30,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 27",
-      "text": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1502
-    },
-    {
-      "date": "Jul 27",
-      "text": "Americans feel pinch of continued Iran war: ‘It’s screwed everything up’.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1NazRUSjJubHhVdU9FZFZzY2phMWV3Ul85cmFTUjMtR1VIVUUxMmEwTGdGOE9GenE1MnVPTndRSllvOGlqMWY5Wk9DTjNCbXktaG93cEJjSzJTazlZUkQ3T3owVmxzd1ZEQ3VJSkc0aUhmYy1xbncyOHJzWHFqdlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1502
-    },
-    {
-      "date": "Jul 27",
-      "text": "Iran threatens to expand war if US resumes strikes, which it says Israel is pushing for.",
+      "text": "Iran vows control over the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNTEU1blJ0ZjFodmdqYXM3MzdXeU9PbXcwUlNEUWx5aktWY29NRXRHOC1XS2F3QTFpMWhKMnVhX0dUMkh4TmNYVEl0cDN6ZGtHb0dOMzk0SlE3SkdOT1JzVmZJQjFHYUYyUzZjUkFKNU5tZ3JmbDZTRXVYdUNDZXVFWjg4cG5QQmZKcFhKZnd1a2tMMENKS05LNFZMUC1henZCRERMcUVTaXRoRGYyV0Z4UmRSdmgxNUR30gG-AUFVX3lxTFA1UEhCVnJkWDRyNHRNYUItcVpsWDRfVXgyR0xUX3VyVXdacXZKMWgxSmtmWFFpVjlFVW12NHplMDFhXzZpYVFmbTdQRmFJajFGenhOdWtDZzNraEV5NEZXMkFCeElTQUVDbW9FaFUzS1lWam81NG5QMnpQRkcxclpUd2dGTTNsa05IeTRwd1BTclM2Q0RoMmtxM0FsZ2NvQWdLd2lfNWwyQ3BwcnV1d3NNanFrQVBBY3lxSXVtNUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1502
-    },
-    {
-      "date": "Jul 27",
-      "text": "Khamenei ties US-Iran peace deal to Israel ending attacks on Lebanon.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlZIaGtLT0ItbHVjQ0xEWFoyU2I5anhKZHp2QlZhVW1kWTRuOXRBMy1uQlc3a29vTVRTT21vMXZ3dTQ3UTkyVFZSNElnNzQ2VjZDWERjSEQ2bTFDOUpGMkVsOEozVkN0Nm9TVVphV1U5Yll1UEx1cXRsWFBKLU1xMUl1T2lUX3NqVkI1dXBaY2k3cWJiRmRRdkdQVTRacU5hTExkbndBWHQ0VGfSAbABQVVfeXFMUEVoS2VuR3pBZ1YyVzlYTTIyU0Z4eGFfSEhGd2Y0M3lMQ3ZUUFFndDVZUHh5cGhYRUU5enpINl9ha3FHclJuc3dVSkRFWXdFSXNuZjVoZU9qV0FMYjRYcjZIenBFLWRIczhIeEVIalFqLUNjR0Rscm5wMGlramFQZGJXZWRSVDdtcW9la2xxZEhlSGFvRmlYdTVybDY2MTI4Q2tLTmc4TG12TmtyczlZejM?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1502
+      "latestSinceUpdate": 1503
     },
     {
       "date": "Jul 27",
-      "text": "As Trump pauses Iran strikes, Israel said to believe he’ll soon be forced to escalate.",
+      "text": "Trump meets Israel's Netanyahu as his threat to resume bombing Iran looms over diplomacy.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1503
+    },
+    {
+      "date": "Jul 27",
+      "text": "Iran and Israel exchange strikes for the first time since April Cease-Fire.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1503
+    },
+    {
+      "date": "Jul 27",
+      "text": "More than 600 US military service members injured since Iran War began in February.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPS3V5WTQ4R3ZtU0hOOWlNQjZEdW5TaVBWNjlhWDQ5dTNmemdSSndTX3doYzl2aWJVQnhoN1hfWHhqa2FaYjZzUG44WURPRTRYdmFBa044ZnRkckpMeXBISFlmWG9KRTVUQkZpVlphQmdlUTdSYmt4bXVrSThBbEFUVUFnNW0yaXR0TDFleU9KcDk1STZvTkFCLTdmRFRfYjlJaFA1TGo3NDJZWmpiWjUtUy1CbzLSAboBQVVfeXFMTWExNmpnZkk1cXVWVVBOdW1qT2E0YkZyZjVuMElkSkNxQi00MU96VXprck9OSjZJTFUzSll0cHVWZXpaNHdheWZxdkZ4bEZmdDNmUTdNZGt0NEdfOHYyQ00xVW5XcmN4Z0RXR2tNVzRoVTN4enFVTmhkeGJNXzUtQy1VZGUyU3pZRlFqcmI1cC15OGdxLXNMYmlkUzY2NF9yVGp1UFdNekF3clFDbnF6ZVcwTXgyX2pCeGhn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1502
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9XbFpJZmowWXhfWTlHYmVNV2RwQjdCWVBZVlNETVZJdVFvb29OczZLbmpKVW1vREY0SFVhNDdkcjRSdkxCSDgyX21MZzNWWUNGa0haejl3ZFRIUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1503
+    },
+    {
+      "date": "Jul 27",
+      "text": "U.S. air defense supply shrinks during Iran war, leaving experts concerned.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOc015RHdtekJjT2VrZ0VhNnlLM2UzQTVfWXJMWEpfM3lRU3R2Z1lsbndRZU90eXNNcTFMNVpCTGpfdFA5a2Fibm53SEZTMmozT0d1clZDRTY1Ym5YbVVKdEtYeGM3cEt6MWVSX3VHdmN4eE9iVFotazNhSWxEQjVodVhXT0VJZjZKODgtc0k1ZDhSb256ZjMxS2xNQ08tVWVxVHRDN1Z3U2d4Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1503
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
