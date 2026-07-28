@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1499,
+  "updateSequence": 1500,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T16:19:35.098Z",
+  "lastSyncedAt": "2026-07-28T17:47:24.491Z",
   "warDay": 151,
   "ceasefire": {
-    "active": true,
+    "active": false,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.3,
     "durationDays": 1,
-    "summary": "A pause in strikes between the US and Iran, and Iran and Israel, is in effect, though warnings of retaliation and underlying geopolitical tensions persist."
+    "summary": "The US has paused strikes against Iran, but recent exchanges between Iran and Israel, coupled with ongoing threats, indicate a highly fragile de-escalation."
   }
 }
