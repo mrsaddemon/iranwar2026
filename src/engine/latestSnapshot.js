@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1494,
+  "updateSequence": 1495,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T04:30:37.196Z",
+  "lastSyncedAt": "2026-07-28T07:18:20.001Z",
   "warDay": 151,
-  "summary": "The U.S. has paused military strikes against Iran for several days to allow for diplomatic talks, leading to a drop in oil prices, while Iran maintains a defiant stance and Israel urges renewed escalation.",
+  "summary": "The US has paused new strikes against Iran, with President Trump indicating ongoing talks, while Iran denies current negotiations and threatens to expand the conflict if US military action resumes.",
   "lastNarrativeUpdate": "2026-07-28",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.6,
-    "durationDays": 3,
-    "summary": "The U.S. has paused military strikes against Iran for several days to facilitate diplomatic talks, though underlying tensions and threats persist."
+    "confidence": 0.4,
+    "durationDays": 1,
+    "summary": "The US has initiated a pause in strikes against Iran, though Iran denies current negotiations and threatens to expand the conflict if strikes resume, indicating a fragile de-escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.45
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 35,
-    "tradeImpact": 26,
+    "oilDisruption": 40,
+    "tradeImpact": 29,
     "sanctionsPressure": 54,
-    "globalPressure": 56,
+    "globalPressure": 57,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 25",
-      "text": "US military does not announce new Iran strikes for first time in 2 weeks.",
+      "date": "Jul 27",
+      "text": "US pauses new strikes against Iran, while Iran states no current negotiations are underway with the US.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5vaW92cWRJeWowUVJXZW5UQlpoS2JlQWFtTnpmd0xPNkdHWGlKV1M1eWhmUWg4d202ZC1tZkdDd29TX25LeU0yZDVUeVgyOUhYM0RKMlIyWmNrVVZKUnhIRjBQa0d6RlVIYzVXQ05R?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1494
+      "latestSinceUpdate": 1495
     },
     {
-      "date": "Jul 26",
-      "text": "UN envoy Waltz says Trump giving talks ‘some space;’ Iran condemns Ukrainian attacks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE9HLWxnU3JEZGtzTGFqaXBRNnpLM2lLMG5jdTg0bHk0VTlpRnVOTmZYQmZjcm9HMG1EVUNwU2hUdndKU1NMeV84UUwzYUxKaHNuaFhiR0lfRnVJRzZ6aHBSUmxBZEVJYjZyd0pDZEo0UWRyY2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1494
-    },
-    {
-      "date": "Recent",
-      "text": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1494
-    },
-    {
-      "date": "Recent",
-      "text": "Oil prices fall as US pauses strikes on Iran over strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPY3NLLWN3ME9IZjdEWmdJNHE4cEJsSEV3SG5pTlpRWjBqbWdFYllsZGZJXzFXQVBlT2w3XzBOempmcWw3RGpvWVFVSWEtM1k2MlNPaU9CdUlJNkVVOU5QcUJIem1UMEZLanh0SzUxVkE1bEs5RWppNFJWMDAyT0NNVVNFdGJqcEJHbDZ5ejl6N01mOWY1RVZVSnRvWEhvVXBFYTNCcmFfVTJtUUU1U09V?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1494
-    },
-    {
-      "date": "Recent",
-      "text": "Iran threatens to expand war if US resumes strikes, which it says Israel is pushing for.",
+      "date": "Jul 27",
+      "text": "Iran threatens to expand the war if the US resumes strikes, which it claims Israel is pushing for.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNTEU1blJ0ZjFodmdqYXM3MzdXeU9PbXcwUlNEUWx5aktWY29NRXRHOC1XS2F3QTFpMWhKMnVhX0dUMkh4TmNYVEl0cDN6ZGtHb0dOMzk0SlE3SkdOT1JzVmZJQjFHYUYyUzZjUkFKNU5tZ3JmbDZTRXVYdUNDZXVFWjg4cG5QQmZKcFhKZnd1a2tMMENKS05LNFZMUC1henZCRERMcUVTaXRoRGYyV0Z4UmRSdmgxNUR30gG-AUFVX3lxTFA1UEhCVnJkWDRyNHRNYUItcVpsWDRfVXgyR0xUX3VyVXdacXZKMWgxSmtmWFFpVjlFVW12NHplMDFhXzZpYVFmbTdQRmFJajFGenhOdWtDZzNraEV5NEZXMkFCeElTQUVDbW9FaFUzS1lWam81NG5QMnpQRkcxclpUd2dGTTNsa05IeTRwd1BTclM2Q0RoMmtxM0FsZ2NvQWdLd2lfNWwyQ3BwcnV1d3NNanFrQVBBY3lxSXVtNUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1494
+      "latestSinceUpdate": 1495
     },
     {
-      "date": "Recent",
-      "text": "Khamenei ties US-Iran peace deal to Israel ending attacks on Lebanon.",
+      "date": "Jul 27",
+      "text": "More than 600 US military service members have been injured since the Iran War began in February.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9XbFpJZmowWXhfWTlHYmVNV2RwQjdCWVBZVlNETVZJdVFvb29OczZLbmpKVW1vREY0SFVhNDdkcjRSdkxCSDgyX21MZzNWWUNGa0haejl3ZFRIUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1495
+    },
+    {
+      "date": "Jul 27",
+      "text": "Oman and Iran are reportedly approaching a deal to reopen the Strait of Hormuz, benefiting from the lull in US strikes.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1495
+    },
+    {
+      "date": "Jul 27",
+      "text": "A report suggests a joint Iran-Hezbollah strike could cripple Israel’s energy lifelines.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlZIaGtLT0ItbHVjQ0xEWFoyU2I5anhKZHp2QlZhVW1kWTRuOXRBMy1uQlc3a29vTVRTT21vMXZ3dTQ3UTkyVFZSNElnNzQ2VjZDWERjSEQ2bTFDOUpGMkVsOEozVkN0Nm9TVVphV1U5Yll1UEx1cXRsWFBKLU1xMUl1T2lUX3NqVkI1dXBaY2k3cWJiRmRRdkdQVTRacU5hTExkbndBWHQ0VGfSAbABQVVfeXFMUEVoS2VuR3pBZ1YyVzlYTTIyU0Z4eGFfSEhGd2Y0M3lMQ3ZUUFFndDVZUHh5cGhYRUU5enpINl9ha3FHclJuc3dVSkRFWXdFSXNuZjVoZU9qV0FMYjRYcjZIenBFLWRIczhIeEVIalFqLUNjR0Rscm5wMGlramFQZGJXZWRSVDdtcW9la2xxZEhlSGFvRmlYdTVybDY2MTI4Q2tLTmc4TG12TmtyczlZejM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1494
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE04ZkN3NnYyNVNDTjVGVGpaUTQ0WEtQRWQ3dmcydWplandKTnJTSE16c0p3VWVhUFJUM2hEUkNGcDBrX1pDSzVNTHNTaHpjQnFMYnYwZmpOcnZyeHJl?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1495
     }
   ],
   "sourceStatuses": [
