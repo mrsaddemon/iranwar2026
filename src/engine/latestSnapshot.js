@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1503,
+  "updateSequence": 1504,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T21:34:14.247Z",
+  "lastSyncedAt": "2026-07-28T22:37:30.835Z",
   "warDay": 151,
-  "summary": "The US has paused strikes against Iran amid ongoing diplomatic efforts, while Iran and Israel exchanged strikes for the first time since April, raising regional tensions.",
+  "summary": "The US has paused new strikes while Iran and Israel exchanged strikes for the first time since April, amidst ongoing tensions over the Strait of Hormuz and US casualty reports.",
   "lastNarrativeUpdate": "2026-07-28",
   "ceasefire": {
-    "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 2,
-    "summary": "The April ceasefire between Iran and Israel has collapsed following a recent exchange of strikes, despite a temporary pause in US strikes against Iran."
+    "summary": "An April ceasefire between Iran and Israel has collapsed following recent direct exchanges of strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 27",
-      "text": "US pauses new strikes, Iran says no current negotiations with the US.",
+      "text": "US pauses new strikes, Iran states no current negotiations with the US.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1501
+      "latestSinceUpdate": 1504
     },
     {
       "date": "Jul 27",
-      "text": "Iran vows control over the Strait of Hormuz.",
+      "text": "Iran vows control of the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1503
+      "latestSinceUpdate": 1504
     },
     {
       "date": "Jul 27",
-      "text": "Trump meets Israel's Netanyahu as his threat to resume bombing Iran looms over diplomacy.",
+      "text": "Trump-Netanyahu talks described as 'positive' by Trump, who threatens to strike if a deal is not made.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1503
+      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxPUndjU3V6VHdEM0p4YnU2RXRXR1R1bzNWMHBCNXF6YlFVTXk3b3pVQjNnc1ktNUxNVDlYZllQcUw0SElDd3JlTXk5UTFZQkNGSlh3TU9Rb2M3alh4MkVEZ2pObFZLSmV3cE1USEo1NEowRHVCMlEyWUhsV25mY2hfSDFhUVB0S1IzNGdvQzZnT05OeVlORjZwNVRpcjdmcHJPU29EeXgzR19SdzFOYjhEX0tQNk51Wl82MXVZOHRMUGRaOTFYRXpJdUUyN3BuX2kycTl2aU9LdGpTeXhZR3VqUzcwbF96NlZDeDVFVVN30gH0AUFVX3lxTE5KamthbTZ1eUxXUGhvQzN1b0V4TkxLN3RwRGFJaENHYlZsdjJ5a09mZHRkREpCeXgtQ0dJd2tJRkh1Q3BtaTA0TlAzMklnMWZCeldlZXdvdHJ3Q3ZLWlp3T1dQN3ZLQjlQT3lTOERQME1iZVBuVVBiMk5pQUdYZDVqQzJnVnk1QkM5WEVWcjd5ckhDdDRkZ1A0MXVNOHJGVERhbWgzX0ZTeHRjTGlybm5zcElWS3Zodmk3Rk83Y3BZeU1rRWktSlBlTU5vWTlaSkhMT1ZMenMwNzJOYlJWU2FLXzVmS0tfMzJZdUVzcGtyMmtqck8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 1504
     },
     {
       "date": "Jul 27",
-      "text": "Iran and Israel exchange strikes for the first time since April Cease-Fire.",
+      "text": "Iran and Israel exchange strikes for the first time since an April cease-fire.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1503
+      "latestSinceUpdate": 1504
     },
     {
       "date": "Jul 27",
-      "text": "More than 600 US military service members injured since Iran War began in February.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9XbFpJZmowWXhfWTlHYmVNV2RwQjdCWVBZVlNETVZJdVFvb29OczZLbmpKVW1vREY0SFVhNDdkcjRSdkxCSDgyX21MZzNWWUNGa0haejl3ZFRIUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1503
+      "text": "Oman presents Iran with a Gulf-backed plan to ease Strait of Hormuz tensions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNTVNqdlpKWlZnYVpmNVdIZXMzYkEtVXlKcTk2c0NzZk1PWWlkWTlPcjk0SUFKZUoydUxHRzFsRVJOcjJxVk5VWmFPUUc1WEZWWEthTmI4b2FKdExadkhLUERvcmFGYjZ6RTR0cFBJNEZhajItUjNIQzVTVDVhb1NOZW94M3o0R1cwSlFXUmpHYWlOYWhyYjE3dTdEeWNjZ3o0Z2R0NHpFQW1mNWx1YWZjUDkySTJ3U1l1UXowaVozbFM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1504
     },
     {
       "date": "Jul 27",
-      "text": "U.S. air defense supply shrinks during Iran war, leaving experts concerned.",
+      "text": "Mojtaba Khamenei issues a 'Jihad' message to Hezbollah against the US and Israel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOc015RHdtekJjT2VrZ0VhNnlLM2UzQTVfWXJMWEpfM3lRU3R2Z1lsbndRZU90eXNNcTFMNVpCTGpfdFA5a2Fibm53SEZTMmozT0d1clZDRTY1Ym5YbVVKdEtYeGM3cEt6MWVSX3VHdmN4eE9iVFotazNhSWxEQjVodVhXT0VJZjZKODgtc0k1ZDhSb256ZjMxS2xNQ08tVWVxVHRDN1Z3U2d4Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1503
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1504
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
