@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1495,
+  "updateSequence": 1496,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T07:18:20.001Z",
+  "lastSyncedAt": "2026-07-28T09:58:14.173Z",
   "warDay": 151,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.4,
-    "durationDays": 1,
-    "summary": "The US has initiated a pause in strikes against Iran, though Iran denies current negotiations and threatens to expand the conflict if strikes resume, indicating a fragile de-escalation."
+    "confidence": 0.5,
+    "durationDays": 3,
+    "summary": "An operational pause in US strikes against Iran is active, but its stability is uncertain amidst threats and ongoing regional tensions, including recent Iran-Israel exchanges."
   }
 }
