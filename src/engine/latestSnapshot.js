@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1500,
+  "updateSequence": 1501,
   "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T17:47:24.491Z",
+  "lastSyncedAt": "2026-07-28T18:58:23.907Z",
   "warDay": 151,
-  "summary": "The US has paused new strikes against Iran amid diplomatic efforts for the Strait of Hormuz, while Iran threatens escalation if strikes resume and recent exchanges occurred between Iran and Israel.",
+  "summary": "The US has paused new strikes against Iran, while Iran and Israel have also agreed to a temporary pause in exchanges following recent hostilities, amidst ongoing diplomatic efforts and regional tensions in Lebanon.",
   "lastNarrativeUpdate": "2026-07-28",
   "ceasefire": {
-    "active": false,
+    "active": true,
     "status": "fragile",
-    "confidence": 0.3,
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "The US has paused strikes against Iran, but recent exchanges between Iran and Israel, coupled with ongoing threats, indicate a highly fragile de-escalation."
+    "summary": "Both the US and Iran/Israel have announced a pause in strikes, though warnings of retaliation persist following a recent exchange of hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.45
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 70,
-    "oilDisruption": 60,
-    "tradeImpact": 56,
-    "sanctionsPressure": 61,
-    "globalPressure": 74,
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 27",
-      "text": "US pauses new strikes against Iran, while Iran states no current negotiations are underway with the US.",
+      "text": "US pauses new strikes, Iran says no current negotiations with the US.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1500
+      "latestSinceUpdate": 1501
     },
     {
       "date": "Jul 27",
-      "text": "Oman presents Iran with a Gulf-backed plan for voluntary fees to use the Strait of Hormuz.",
+      "text": "Iran and Israel exchange strikes for the first time since April ceasefire, then agree to pause.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1501
+    },
+    {
+      "date": "Jul 27",
+      "text": "Trump-Netanyahu talks described as 'positive, productive' by White House.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1501
+    },
+    {
+      "date": "Jul 27",
+      "text": "Oman presents Iran with Gulf-backed plan for voluntary fees to use Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNeWdMSVB3OUxtSmtXNWtjQW9EWHRKb0hKaUFkeXd4ek45MHpkUUhFWnNBNHpIUnJpM2RXYkU5MHJOaHN2c1BJeDdXZ0ZpZDdkVUNfbHczcmt2MExCQ082MUZWbnFxYXd4U0ZidUI4bUhWb3NMMjdNVjFyLXh1c3E2ZEVDY1dHSEpoSGFFVE0xWHRheGhRdXkybnBuTnVZSC0yaTl5U3QtdEJQenhEMThhSGVtQkZVcmRMakdN?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1500
+      "latestSinceUpdate": 1501
     },
     {
       "date": "Jul 27",
-      "text": "Iran threatens to expand the war if the US resumes strikes, which it claims Israel is advocating for.",
+      "text": "Residents return to a southern Lebanese village after a U.S.-brokered agreement.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1iczJUUV8xNWF5M0wzcTBZOE1sanotMzhlTzVuRXNMUUFUTkZlTW9KalZrUkZ3NmZ6SHJMeGJVVmJObEx2RlZNUllwT0hpYy1hekpPczFzOXNYWklqX1p6cmY3OTJCYVJwNEtwSldFQmJ4aDQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1501
+    },
+    {
+      "date": "Jul 27",
+      "text": "Lebanese Army reportedly finds Hezbollah arms in pilot zone.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxNTEU1blJ0ZjFodmdqYXM3MzdXeU9PbXcwUlNEUWx5aktWY29NRXRHOC1XS2F3QTFpMWhKMnVhX0dUMkh4TmNYVEl0cDN6ZGtHb0dOMzk0SlE3SkdOT1JzVmZJQjFHYUYyUzZjUkFKNU5tZ3JmbDZTRXVYdUNDZXVFWjg4cG5QQmZKcFhKZnd1a2tMMENKS05LNFZMUC1henZCRERMcUVTaXRoRGYyV0Z4UmRSdmgxNUR30gG-AUFVX3lxTFA1UEhCVnJkWDRyNHRNYUItcVpsWDRfVXgyR0xUX3VyVXdacXZKMWgxSmtmWFFpVjlFVW12NHplMDFhXzZpYVFmbTdQRmFJajFGenhOdWtDZzNraEV5NEZXMkFCeElTQUVDbW9FaFUzS1lWam81NG5QMnpQRkcxclpUd2dGTTNsa05IeTRwd1BTclM2Q0RoMmtxM0FsZ2NvQWdLd2lfNWwyQ3BwcnV1d3NNanFrQVBBY3lxSXVtNUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1500
-    },
-    {
-      "date": "Jul 27",
-      "text": "Khamenei ties any US-Iran peace deal to Israel ending its attacks on Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlZIaGtLT0ItbHVjQ0xEWFoyU2I5anhKZHp2QlZhVW1kWTRuOXRBMy1uQlc3a29vTVRTT21vMXZ3dTQ3UTkyVFZSNElnNzQ2VjZDWERjSEQ2bTFDOUpGMkVsOEozVkN0Nm9TVVphV1U5Yll1UEx1cXRsWFBKLU1xMUl1T2lUX3NqVkI1dXBaY2k3cWJiRmRRdkdQVTRacU5hTExkbndBWHQ0VGfSAbABQVVfeXFMUEVoS2VuR3pBZ1YyVzlYTTIyU0Z4eGFfSEhGd2Y0M3lMQ3ZUUFFndDVZUHh5cGhYRUU5enpINl9ha3FHclJuc3dVSkRFWXdFSXNuZjVoZU9qV0FMYjRYcjZIenBFLWRIczhIeEVIalFqLUNjR0Rscm5wMGlramFQZGJXZWRSVDdtcW9la2xxZEhlSGFvRmlYdTVybDY2MTI4Q2tLTmc4TG12TmtyczlZejM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1500
-    },
-    {
-      "date": "Jul 27",
-      "text": "Iran and Israel exchange strikes for the first time since an April cease-fire.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1500
-    },
-    {
-      "date": "Jul 27",
-      "text": "Mojtaba Khamenei issues a 'Jihad' message to Hezbollah against the US and Israel.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1500
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOeGFwMUg0V0NZejAtVGRwb0E5RjZnNVRNZXlmbWd2OFRuUDBSYzBScC1rNi12MWhaOWFCdkszci12ODFQaTVUQ2xuTVlDRHA3bmF1SlZoZEJuTFhlUGVwSmRleHpWbl9mUktmTVRGNTM5em1lQzBIalZuRHZVQnpKSFNiU0lVUTl1aUJpZEZmUXJFQnFod3ltR09uN1ZySktMX19UQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Naharnet",
+      "latestSinceUpdate": 1501
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
