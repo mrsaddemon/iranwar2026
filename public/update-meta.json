@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1517,
+  "updateSequence": 1518,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T22:09:14.132Z",
+  "lastSyncedAt": "2026-07-29T23:16:37.065Z",
   "warDay": 152,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 39,
-    "summary": "No active ceasefire is reported between the primary belligerents, though a US-brokered deal exists between Lebanon and Israel."
+    "summary": "A previous pause in fighting has collapsed following Iran's surprise attack on US forces in Jordan."
   }
 }
