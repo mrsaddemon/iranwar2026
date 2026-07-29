@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1506,
+  "updateSequence": 1507,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T01:11:23.802Z",
+  "lastSyncedAt": "2026-07-29T04:33:47.337Z",
   "warDay": 152,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "The April ceasefire between Iran and Israel has collapsed following direct missile exchanges and continued regional military actions."
+    "summary": "No comprehensive ceasefire is active, though the US has paused some strikes and a localized agreement exists in southern Lebanon."
   }
 }

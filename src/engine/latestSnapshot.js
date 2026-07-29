@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1506,
+  "updateSequence": 1507,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T01:11:23.802Z",
+  "lastSyncedAt": "2026-07-29T04:33:47.337Z",
   "warDay": 152,
-  "summary": "The Iran war has entered its sixth month with increased uncertainty, marked by direct missile exchanges between Iran and Israel, US military intercepts, and continued US strikes against Iran-backed groups in Iraq, alongside diplomatic efforts involving the US and Iran.",
+  "summary": "The Iran war continues into its sixth month with ongoing missile attacks by Iran, US intercepts, and retaliatory US strikes on proxies, alongside diplomatic discussions and regional proposals.",
   "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "The April ceasefire between Iran and Israel has collapsed following direct missile exchanges and continued regional military actions."
+    "summary": "No comprehensive ceasefire is active, though the US has paused some strikes and a localized agreement exists in southern Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.4,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 88,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 45,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 27",
-      "text": "Iran and Israel exchanged strikes for the first time since an April cease-fire.",
+      "text": "Iran vows control over the Strait of Hormuz amid reports of Trump-Netanyahu talks.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1506
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1507
     },
     {
       "date": "Jul 27",
-      "text": "US military intercepted Iranian missiles in an 'attempted surprise attack,' according to CENTCOM.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1506
+      "text": "US pauses new strikes, while Iran states no current negotiations are underway with the US.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1507
     },
     {
-      "date": "Jul 27",
-      "text": "US military, alongside Saudi forces, struck sites of Iran-backed groups in Iraq.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUHJGTGM0cWxxc1lyajNFQ1Y1NXNKUUdnREtjZDk3Z3RaRUFabm41dmF2UE1YVTFfbVJNTHJWZTlRYzJCTEpGbnVRWlg1akk2cGJKamVPRmZQNEZZRFVsSFp1LXFOOWQxYzRObjYyYmQ1U29LWUVyRHAtNHVFcUplWHlZYWZnWVFJeTVxdmktRVdmaTJ2aTh6SkM5R3VJOEtKR254SzdEMFNyZFJHcHJGN3kwaE4ySVdSUngwbTdhZ1M?hl=en-US&gl=US&ceid=US:en",
+      "date": "Recent",
+      "text": "The US thwarts an Iranian missile attack on US troops and strikes Iranian proxies in Iraq with Saudi forces.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1507
+    },
+    {
+      "date": "Recent",
+      "text": "President Trump states the US is in talks with Iran and hopes for 'good things,' also claiming US strikes saved Israel.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1507
+    },
+    {
+      "date": "Recent",
+      "text": "US military intercepts Iran's latest 'surprise' missile attack on US forces in the Middle East.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObTVqSTB4SV8ydHZWZjBDMUhyQnlqc05HUlB4NENrS0wzVjdXdzJMYWdkOTZJZ2ZTUmhGR2Z4eVVIUk5telFPZWthVmRlaEpnY0txZDVQOVdMbWZlR2JCUU5MNDBQdDMwdVY1dmJDaVVwM0J3aXRNUXFwQ3JMakVWZENpWU1KMlVrNVZUNzVJdmRBSjlTSjdhMmlnSGZ1U1ZKMnJxemJWS0ZBRzlEV2ltaTZRWk0xN25CWGY5VEtSSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1507
+    },
+    {
+      "date": "Recent",
+      "text": "Oman proposes a new plan to manage the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQbXRyekdNLTJicW5na3REMEUxbVF1X2NLUnBGOTRVWFRCS3QyMzFhNFhHM0lmeVBzTTE3VER5TmwtcU1aWkotR05EbFlmOS11N3A4Slp1UURHU3Y4UkdqQmF4d2tURzVseWYtT2taMVJsNVNBOElfdmI1YnlSQ2k1aEVTNHVTRnIxeGJQT3R6WllNUGVyRF80T3RYeHMzRTM5RW1UUA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1506
-    },
-    {
-      "date": "Jul 27",
-      "text": "Iran vowed control over the Strait of Hormuz amid ongoing diplomatic talks.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1506
-    },
-    {
-      "date": "Jul 27",
-      "text": "Mojtaba Khamenei issued a 'Jihad' message to Hezbollah against the US and Israel.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1506
-    },
-    {
-      "date": "Jul 27",
-      "text": "Defense Minister Katz stated Israel has razed 24 south Lebanon villages whose residents aided Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxQb0dDVFZiRGF5TEVfaXFmZTNob3RiYmVfbkhGbl8yYTc4ZFpQMGJCVkZQeXZJWk1hdlJuNlFZRDRvcE9UNnEtQjM5ZFJrNXpIRm9BLUV5c3pFdnNaNTNpVkUtT0lpSkpUZW1Yc01pd3VBcnhtSzZOYnl5aTFlVGI5WjBISWtnajJkdjVvQXViOXB6SXRzOEdIRVpTYTZ0VmZIZzFsMV9USGJrUnBmUERwTXVIWHA2NzhFQ3dSN0kxY0ZHR2d2QUJBWmZ5ZURkOXRrcnVhRXNSbmE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1506
+      "latestSinceUpdate": 1507
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
