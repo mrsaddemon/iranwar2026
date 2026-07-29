@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1505,
-  "lastUpdated": "2026-07-28",
-  "lastSyncedAt": "2026-07-28T23:43:34.174Z",
-  "warDay": 151,
-  "summary": "The Iran-Israel conflict continues with recent exchanges of strikes, followed by a pause agreement, while diplomatic efforts and regional tensions persist, including threats to the Strait of Hormuz and US forces.",
-  "lastNarrativeUpdate": "2026-07-28",
+  "updateSequence": 1506,
+  "lastUpdated": "2026-07-29",
+  "lastSyncedAt": "2026-07-29T01:11:23.802Z",
+  "warDay": 152,
+  "summary": "The Iran war has entered its sixth month with increased uncertainty, marked by direct missile exchanges between Iran and Israel, US military intercepts, and continued US strikes against Iran-backed groups in Iraq, alongside diplomatic efforts involving the US and Iran.",
+  "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "Iran and Israel have agreed to pause strikes following a recent exchange, but warn of retaliation if the pause is breached, indicating a highly fragile de-escalation."
+    "summary": "The April ceasefire between Iran and Israel has collapsed following direct missile exchanges and continued regional military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.9,
         "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 46
+    "nuclearIndex": 65,
+    "escalationLevel": 88,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 27",
-      "text": "US pauses new strikes while Iran states no current negotiations with the US.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1505
-    },
-    {
-      "date": "Jul 27",
-      "text": "Iran vows control over the Strait of Hormuz amidst ongoing conflict.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1505
-    },
-    {
-      "date": "Jul 27",
-      "text": "Former President Trump meets with Israeli Prime Minister Netanyahu as threats to resume bombing Iran loom.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1505
-    },
-    {
-      "date": "Jul 27",
-      "text": "US launches new attacks, and Houthis announce a Saudi blockade.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOMHF3aV9CSGJTNDE1X1NWeUNnbkxKa2lmQnQ5LUtBTHF1QUJFUVUzb3QycktuMms1Y2dvczR2MENLeDhwU19SVXZFaGY1bDNNUENZd01nQnloVkFCanVSLXZ1MUs4NzdUdHlFdG9YNEFhWHVRLVdTcWl2WHpFRkZSYy1rZTI1QzhhZms5Y29tRWFZU0dMQnRDdUs1el9TQlFkV2NVOUFLSmQ2TS1wRHMtZUhoalkzWHVrSXJJ0gHAAUFVX3lxTFAwX2wtLVpHZ1kwZ2VGTWYzbTdWSGtxZzViQUhrc2t0QUNySWVYaC1DQWJxNzRwWGh2b1c3VDB4T1ZCTXYtWjZ4dWJGcWE5YVc3U1NuUnBNbW1CLXJ2LU9fTkVDVmJEZzVIRWRXYllhMmFmMVRvdWlaRUVOY0RmMWE2dU1OUlJKRm1UZUJ3ZElGdVA4cHljNWlXRHNoUUs0TWNpelNpYm1BU0Z5dUN6SjVOS1RYenh0bUVNdWswRFJPWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1505
-    },
-    {
-      "date": "Jul 27",
-      "text": "Iran and Israel exchange strikes for the first time since the April cease-fire.",
+      "text": "Iran and Israel exchanged strikes for the first time since an April cease-fire.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1505
+      "latestSinceUpdate": 1506
     },
     {
       "date": "Jul 27",
-      "text": "Iran and Israel agree to pause strikes but warn of retaliation if the cease-fire is breached again.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVEFVX3lxTE0xV3g2OWxXcVhxUjZOZUpZVThPSXNkbW1lcjdqaU5KRkctWHBwRTNOSWp1dy1zSE8xNHpUU1ZpRGVKMm5qVTBJMEx2Znp3d1pUaGcwVg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1505
+      "text": "US military intercepted Iranian missiles in an 'attempted surprise attack,' according to CENTCOM.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1506
+    },
+    {
+      "date": "Jul 27",
+      "text": "US military, alongside Saudi forces, struck sites of Iran-backed groups in Iraq.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUHJGTGM0cWxxc1lyajNFQ1Y1NXNKUUdnREtjZDk3Z3RaRUFabm41dmF2UE1YVTFfbVJNTHJWZTlRYzJCTEpGbnVRWlg1akk2cGJKamVPRmZQNEZZRFVsSFp1LXFOOWQxYzRObjYyYmQ1U29LWUVyRHAtNHVFcUplWHlZYWZnWVFJeTVxdmktRVdmaTJ2aTh6SkM5R3VJOEtKR254SzdEMFNyZFJHcHJGN3kwaE4ySVdSUngwbTdhZ1M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1506
+    },
+    {
+      "date": "Jul 27",
+      "text": "Iran vowed control over the Strait of Hormuz amid ongoing diplomatic talks.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1506
+    },
+    {
+      "date": "Jul 27",
+      "text": "Mojtaba Khamenei issued a 'Jihad' message to Hezbollah against the US and Israel.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1506
+    },
+    {
+      "date": "Jul 27",
+      "text": "Defense Minister Katz stated Israel has razed 24 south Lebanon villages whose residents aided Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxQb0dDVFZiRGF5TEVfaXFmZTNob3RiYmVfbkhGbl8yYTc4ZFpQMGJCVkZQeXZJWk1hdlJuNlFZRDRvcE9UNnEtQjM5ZFJrNXpIRm9BLUV5c3pFdnNaNTNpVkUtT0lpSkpUZW1Yc01pd3VBcnhtSzZOYnl5aTFlVGI5WjBISWtnajJkdjVvQXViOXB6SXRzOEdIRVpTYTZ0VmZIZzFsMV9USGJrUnBmUERwTXVIWHA2NzhFQ3dSN0kxY0ZHR2d2QUJBWmZ5ZURkOXRrcnVhRXNSbmE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1506
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
