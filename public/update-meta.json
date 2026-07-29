@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1508,
+  "updateSequence": 1509,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T07:23:37.065Z",
+  "lastSyncedAt": "2026-07-29T10:12:40.093Z",
   "warDay": 152,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 1,
-    "summary": "No active ceasefire is in effect, though diplomatic talks are reported alongside ongoing military engagements."
+    "summary": "Diplomatic talks are underway between the US, Iran, Oman, and Israel, with a localized US-brokered deal allowing Lebanese returns, but widespread military actions continue."
   }
 }
