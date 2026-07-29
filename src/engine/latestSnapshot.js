@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1513,
+  "updateSequence": 1514,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T17:51:22.397Z",
+  "lastSyncedAt": "2026-07-29T18:44:09.443Z",
   "warDay": 152,
-  "summary": "Direct conflict between the United States and Iran has escalated following Iranian attacks on US forces in Jordan and subsequent US and Saudi retaliatory strikes in Iraq, while tensions persist in southern Lebanon.",
+  "summary": "US and Saudi forces conducted strikes against Iran-backed militias in Iraq following Iranian missile attacks on US assets, while regional tensions remain high with ongoing conflict in Lebanon and diplomatic proposals exchanged regarding the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 39,
-    "summary": "No active ceasefire is in effect, with hostilities escalating between major parties."
+    "summary": "No active ceasefire is in effect, with ongoing military engagements and threats."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 40,
     "escalationLevel": 85,
     "oilDisruption": 80,
     "tradeImpact": 73,
     "sanctionsPressure": 64,
     "globalPressure": 82,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 28",
-      "text": "Iran attacks US forces in Jordan, prompting US vows of strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1513
-    },
-    {
-      "date": "Jul 28",
       "text": "US intercepts a 'surprise attack' by Iran on US forces in the Middle East.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?hl=en-US&gl=US&ceid=US:en",
@@ -76,35 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Jul 28",
-      "text": "U.S. and Saudi forces conduct airstrikes against Iranian proxies in Iraq.",
+      "text": "Iran launches renewed missile attacks as US and Saudis strike Tehran-backed militias in Iraq.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1513
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxPcFZvamthZTNrZ0JiSDZZMVJBNW02Y1JiQUlvUlAwN1RRODcyUWNydUtZbGxpVVdhZElfTERINDh6ZURJZll3M25weWk4UVFPczliQWZ0MkRUc09VTTQ0X1BMVDBDa0hMdzE0TjBlYmI3UkJpYl9KZDFYMTFsZ05jNnd0Zm9wUHEwTlJObUEycG1BNTVqVTVQWjl5NnJqdEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1514
     },
     {
       "date": "Jul 28",
-      "text": "US Air Force aircraft took off from Israel to strike Iran, according to Defense Minister Katz.",
+      "text": "US Air Force took off from Israel to strike Iran, according to Defense Minister Katz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1513
+      "latestSinceUpdate": 1514
     },
     {
-      "date": "Jul 29",
-      "text": "Oil prices rise significantly after U.S. blocks Iranian attack and subsequent strikes.",
+      "date": "Jul 28",
+      "text": "Hezbollah attacks a strategic area in Southern Lebanon, Israel says.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPM3FtMFdJd0VGNko4bVI4cGlYMkNobjdaMFRjSzdSOTZxdExfXy00Q3JKMmhaNU9qNjFXV3pGMS02RDRlMVlxSUlpMUh3dWpvYzRWVWpKaGpqem1veXEwRjNxSGFQSmtUbUJ3SU0xUkdZX2lwTEtJZ2ZQM0JyWE5HNUx2TdIBiAFBVV95cUxPVWRiMFRyTHNqMlMzUGduazg0M2JJRXJPN0Rtd0o2Zl94TFVVeTlxOGZnZXExX2NvVlJBYV9CVExlTmhvcVVaTUhzb0F6SmlxT3FrdUpuRjBqdUhBQzhFeTQ1UWpGQzRYalMyTzEtWG5TWDluRlJPVElPaVFXV2Q5c3NrMXI2UFlz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1513
-    },
-    {
-      "date": "Jul 29",
-      "text": "Hezbollah attacks a strategic area in Southern Lebanon, amidst US-brokered deal efforts.",
-      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1513
+      "latestSinceUpdate": 1514
+    },
+    {
+      "date": "Jul 28",
+      "text": "Iran and Oman swap proposals to manage the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOMVNnd2xCYUs4LUZPakJqdzdadXFYcXcxbGVIeENwM0plWGZZNVpKRlpERWowNk5DU0lKbjhfVnktWG9FWVZrdEZrUk1Mc05kUVlnTWpnLVA5dE91Q2diMGJycXBvajIzNUJuWG5sbW8tUXE4dzJGeVc2ajVzd3pxdEFqeC1yTWN5U1RmM2pFaGFWb0w1MU9lcmR3X3JRd1BvaGVIc1hkeDZiNjU5eUHSAbMBQVVfeXFMUE1mSGk4ZU5LNEFDR1VPc05PUnZRa0pmdGZQY3c1WDhzbG51alA0RGFtRmc2VllYRWQ5OW8ybGUtX1dtQjBWek5PT2RhM3ZHR2lnUmlrQTE3WldjcThRYy1IdVJYclpoRF91Yk5zNVMwRnZzM3FFUXhXeTZWc1JQSFJQbEtpZ042dmFheFFIcDZxdU1Ocnp0am5LM2tzdHItLTdISFBqMDkzWXkzQ3RHdEpQRzQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1514
+    },
+    {
+      "date": "Jul 28",
+      "text": "Khamenei ties a US-Iran peace deal to Israel ending attacks on Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlZIaGtLT0ItbHVjQ0xEWFoyU2I5anhKZHp2QlZhVW1kWTRuOXRBMy1uQlc3a29vTVRTT21vMXZ3dTQ3UTkyVFZSNElnNzQ2VjZDWERjSEQ2bTFDOUpGMkVsOEozVkN0Nm9TVVphV1U5Yll1UEx1cXRsWFBKLU1xMUl1T2lUX3NqVkI1dXBaY2k3cWJiRmRRdkdQVTRacU5hTExkbndBWHQ0VGfSAbABQVVfeXFMUEVoS2VuR3pBZ1YyVzlYTTIyU0Z4eGFfSEhGd2Y0M3lMQ3ZUUFFndDVZUHh5cGhYRUU5enpINl9ha3FHclJuc3dVSkRFWXdFSXNuZjVoZU9qV0FMYjRYcjZIenBFLWRIczhIeEVIalFqLUNjR0Rscm5wMGlramFQZGJXZWRSVDdtcW9la2xxZEhlSGFvRmlYdTVybDY2MTI4Q2tLTmc4TG12TmtyczlZejM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1514
     }
   ],
   "sourceStatuses": [
