@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1511,
+  "updateSequence": 1512,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T14:53:57.983Z",
+  "lastSyncedAt": "2026-07-29T16:35:30.225Z",
   "warDay": 152,
-  "summary": "US and Saudi forces have conducted joint strikes against Iran-backed militias in Iraq following an intercepted Iranian missile attack, while Hezbollah has violated a truce with Israel.",
+  "summary": "Direct conflict escalated significantly with Iran attacking US forces in Jordan, followed by US and Saudi retaliatory strikes on Iranian proxies in Iraq, while Hezbollah violated a ceasefire with Israel.",
   "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "A US-brokered truce between Israel and Hezbollah has collapsed following a blatant drone attack by Hezbollah on an IDF vehicle."
+    "confidence": 0.9,
+    "durationDays": 39,
+    "summary": "The June 19 ceasefire between Israel and Hezbollah has collapsed following a drone attack by Hezbollah on an IDF bulldozer."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 60,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 28",
-      "text": "US intercepts Iranian 'surprise attack' on US forces in the Middle East",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1511
-    },
-    {
-      "date": "Jul 28",
-      "text": "US and Saudi forces conduct strikes against Iran-backed militias in Iraq",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1511
-    },
-    {
-      "date": "Jul 29",
-      "text": "US-Saudi attack in Iraq kills 20; IRGC reportedly targets Jordan",
+      "text": "Iran attacked US forces in Jordan, prompting US vows of strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1511
+      "latestSinceUpdate": 1512
     },
     {
-      "date": "Jul 29",
-      "text": "Hezbollah drone strikes IDF vehicle, violating Lebanon truce",
+      "date": "Jul 28",
+      "text": "US intercepted a 'surprise attack' by Iran on US forces in the Middle East.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1512
+    },
+    {
+      "date": "Jul 28",
+      "text": "US and Saudi forces conducted airstrikes on Iranian proxies in Iraq.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1512
+    },
+    {
+      "date": "Jul 28",
+      "text": "Hezbollah launched a drone attack on an IDF bulldozer in Southern Lebanon, violating a June 19 ceasefire.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1511
+      "latestSinceUpdate": 1512
     },
     {
-      "date": "Jul 29",
-      "text": "Iran vows to control the Strait of Hormuz",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1511
-    },
-    {
-      "date": "Jul 29",
-      "text": "Houthis announce plans for a Red Sea toll on shipping",
+      "date": "Jul 28",
+      "text": "Iran rejected an Omani proposal to share the Strait of Hormuz, demanding more control.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1511
+      "latestSinceUpdate": 1512
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",

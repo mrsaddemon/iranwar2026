@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1511,
+  "updateSequence": 1512,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T14:53:57.983Z",
+  "lastSyncedAt": "2026-07-29T16:35:30.225Z",
   "warDay": 152,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
-    "durationDays": 1,
-    "summary": "A US-brokered truce between Israel and Hezbollah has collapsed following a blatant drone attack by Hezbollah on an IDF vehicle."
+    "confidence": 0.9,
+    "durationDays": 39,
+    "summary": "The June 19 ceasefire between Israel and Hezbollah has collapsed following a drone attack by Hezbollah on an IDF bulldozer."
   }
 }
