@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1510,
+  "updateSequence": 1511,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T12:23:04.442Z",
+  "lastSyncedAt": "2026-07-29T14:53:57.983Z",
   "warDay": 152,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "No general ceasefire is active; a specific Lebanon truce has reportedly been broken by Hezbollah."
+    "summary": "A US-brokered truce between Israel and Hezbollah has collapsed following a blatant drone attack by Hezbollah on an IDF vehicle."
   }
 }

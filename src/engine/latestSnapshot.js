@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1510,
+  "updateSequence": 1511,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T12:23:04.442Z",
+  "lastSyncedAt": "2026-07-29T14:53:57.983Z",
   "warDay": 152,
-  "summary": "US and Saudi forces conducted strikes against Iran-backed groups in Iraq, following an Iranian missile attack on US forces, while Iran vows control over the Strait of Hormuz and a Lebanon truce is reported broken.",
+  "summary": "US and Saudi forces have conducted joint strikes against Iran-backed militias in Iraq following an intercepted Iranian missile attack, while Hezbollah has violated a truce with Israel.",
   "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 1,
-    "summary": "No general ceasefire is active; a specific Lebanon truce has reportedly been broken by Hezbollah."
+    "summary": "A US-brokered truce between Israel and Hezbollah has collapsed following a blatant drone attack by Hezbollah on an IDF vehicle."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 29",
-      "text": "US and Saudi forces conducted strikes against Iran-backed groups in Iraq, killing at least 20 people.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxQZ0tFNzRYdF9UMmNiMmtpZGp5NUxneDhtNTBwR0x3LTlUUFFNamZLTWhhWXU2eS14QnlpdEEzWDZkT2dMRDNxNmx4VFM5cXRHWFRxUm1lMDhTdUlUWXlGOVowLWlhUVU1NnFqakZqdzFSYl9fc1ZRaV9mYUtyeDkwZl85MVNIXzdXN1RZREM2X054b05UN0VZelRySXNlcXVEYjhsbmNpVlJVWkprWFZOR0dRZTh1cUpyX1drMUlmMnpnd0pEci05WEZFVEF4MUVTNVlpWUNpRFlQcjk3QXBvQ0JIdW5nMU9ldkpPWFd30gH0AUFVX3lxTE1sUmpPT2tFYS1PNFNOMThqS2xtcUhXbXhGWEVvTVJzcmFMbDhKWE9qZGdMTG13MjNzVzZPc1ZZWFFwQ19xMVZYbkRzdndQbVdMMGxmVnlnZnBWdHhKVUlMVm5ObVBkRGZKS1ZyYllKMjUwODRVNDk4T1lBaVpMZlJMZEN0VERfTlhSd3lNa2dLWmVoTTk5eExiY2tIekZtWDFOMGVwODM4bk1mVm13T0RWRXZiVE5wMzY1QTNXTUotRVJaTlNFYjExMVNYVi1YX18xZjlRTnRPZWlvbnRsQTVUR0p4bk4xUV9tc0NBLUxobnM0dW0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 1510
-    },
-    {
-      "date": "Jul 29",
-      "text": "IRGC reportedly targeted Jordan.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1510
-    },
-    {
       "date": "Jul 28",
-      "text": "US intercepted a surprise missile attack by Iran on US forces in the Middle East.",
+      "text": "US intercepts Iranian 'surprise attack' on US forces in the Middle East",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1510
+      "latestSinceUpdate": 1511
     },
     {
-      "date": "Jul 29",
-      "text": "US Air Force took off from Israel to strike Iran, according to Defense Minister Katz.",
+      "date": "Jul 28",
+      "text": "US and Saudi forces conduct strikes against Iran-backed militias in Iraq",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1510
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1511
     },
     {
       "date": "Jul 29",
-      "text": "Former President Trump stated the US is in talks with Iran, hoping for 'good things'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?hl=en-US&gl=US&ceid=US:en",
+      "text": "US-Saudi attack in Iraq kills 20; IRGC reportedly targets Jordan",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1510
+      "latestSinceUpdate": 1511
     },
     {
       "date": "Jul 29",
-      "text": "A senior Iranian lawmaker declared the Strait of Hormuz belongs to Iran and they will not back down.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNSFRxSFVscUFtSDljcmFveFpSeDdVQU0yS19fTkVsSUQwcHNLNENmSUZod0tuSENWdFNXUkNQdHQ5ZlB3NVJ1ZEpNNHRoUE9FQ2owN1dlWEFqRlIzX2haUi12MzNGc3R6MnJZYk1YRWoxa1pPejNPRXhscGYtS2JhZTZURnVhRC1TcHA1QzIyX212Vm4xRG9GUXdUTlBQLWVRQ2tzZ2d3VU5OZ2NjT0IyQ0tKdWU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1510
+      "text": "Hezbollah drone strikes IDF vehicle, violating Lebanon truce",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1511
+    },
+    {
+      "date": "Jul 29",
+      "text": "Iran vows to control the Strait of Hormuz",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1511
+    },
+    {
+      "date": "Jul 29",
+      "text": "Houthis announce plans for a Red Sea toll on shipping",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1511
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
