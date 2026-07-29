@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1509,
+  "updateSequence": 1510,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T10:12:40.093Z",
+  "lastSyncedAt": "2026-07-29T12:23:04.442Z",
   "warDay": 152,
-  "summary": "The Iran war continues with US and Saudi forces conducting strikes against Iranian proxies in Iraq, while Iran attempts attacks on US forces and vows control of the Strait of Hormuz, amidst ongoing diplomatic talks involving the US, Iran, Oman, and Israel.",
+  "summary": "US and Saudi forces conducted strikes against Iran-backed groups in Iraq, following an Iranian missile attack on US forces, while Iran vows control over the Strait of Hormuz and a Lebanon truce is reported broken.",
   "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
-    "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Diplomatic talks are underway between the US, Iran, Oman, and Israel, with a localized US-brokered deal allowing Lebanese returns, but widespread military actions continue."
+    "summary": "No general ceasefire is active; a specific Lebanon truce has reportedly been broken by Hezbollah."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
+    "sanctionsPressure": 49,
+    "globalPressure": 56,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 29",
-      "text": "US-Saudi forces conduct strikes in Iraq, IRGC targets Jordan.",
+      "text": "US and Saudi forces conducted strikes against Iran-backed groups in Iraq, killing at least 20 people.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1509
+      "sourceUrl": "https://news.google.com/articles/CBMi7gFBVV95cUxQZ0tFNzRYdF9UMmNiMmtpZGp5NUxneDhtNTBwR0x3LTlUUFFNamZLTWhhWXU2eS14QnlpdEEzWDZkT2dMRDNxNmx4VFM5cXRHWFRxUm1lMDhTdUlUWXlGOVowLWlhUVU1NnFqakZqdzFSYl9fc1ZRaV9mYUtyeDkwZl85MVNIXzdXN1RZREM2X054b05UN0VZelRySXNlcXVEYjhsbmNpVlJVWkprWFZOR0dRZTh1cUpyX1drMUlmMnpnd0pEci05WEZFVEF4MUVTNVlpWUNpRFlQcjk3QXBvQ0JIdW5nMU9ldkpPWFd30gH0AUFVX3lxTE1sUmpPT2tFYS1PNFNOMThqS2xtcUhXbXhGWEVvTVJzcmFMbDhKWE9qZGdMTG13MjNzVzZPc1ZZWFFwQ19xMVZYbkRzdndQbVdMMGxmVnlnZnBWdHhKVUlMVm5ObVBkRGZKS1ZyYllKMjUwODRVNDk4T1lBaVpMZlJMZEN0VERfTlhSd3lNa2dLWmVoTTk5eExiY2tIekZtWDFOMGVwODM4bk1mVm13T0RWRXZiVE5wMzY1QTNXTUotRVJaTlNFYjExMVNYVi1YX18xZjlRTnRPZWlvbnRsQTVUR0p4bk4xUV9tc0NBLUxobnM0dW0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 1510
+    },
+    {
+      "date": "Jul 29",
+      "text": "IRGC reportedly targeted Jordan.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1510
     },
     {
       "date": "Jul 28",
-      "text": "US intercepts Iranian 'surprise attack' on US forces in the Middle East.",
+      "text": "US intercepted a surprise missile attack by Iran on US forces in the Middle East.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1509
+      "latestSinceUpdate": 1510
     },
     {
       "date": "Jul 29",
-      "text": "US Air Force took off from Israel to strike Iran.",
+      "text": "US Air Force took off from Israel to strike Iran, according to Defense Minister Katz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1509
+      "latestSinceUpdate": 1510
     },
     {
       "date": "Jul 29",
-      "text": "Saudi Arabia joins US military strikes on Iranian proxies in Iraq.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1509
-    },
-    {
-      "date": "Jul 29",
-      "text": "Trump indicates US in talks with Iran, hopes for 'good things'.",
+      "text": "Former President Trump stated the US is in talks with Iran, hoping for 'good things'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1509
+      "latestSinceUpdate": 1510
     },
     {
       "date": "Jul 29",
-      "text": "Iran and Oman seek agreement on Hormuz in bid to jumpstart peace talks.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1509
+      "text": "A senior Iranian lawmaker declared the Strait of Hormuz belongs to Iran and they will not back down.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNSFRxSFVscUFtSDljcmFveFpSeDdVQU0yS19fTkVsSUQwcHNLNENmSUZod0tuSENWdFNXUkNQdHQ5ZlB3NVJ1ZEpNNHRoUE9FQ2owN1dlWEFqRlIzX2haUi12MzNGc3R6MnJZYk1YRWoxa1pPejNPRXhscGYtS2JhZTZURnVhRC1TcHA1QzIyX212Vm4xRG9GUXdUTlBQLWVRQ2tzZ2d3VU5OZ2NjT0IyQ0tKdWU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1510
     }
   ],
   "sourceStatuses": [

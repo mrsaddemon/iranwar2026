@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1509,
+  "updateSequence": 1510,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T10:12:40.093Z",
+  "lastSyncedAt": "2026-07-29T12:23:04.442Z",
   "warDay": 152,
   "ceasefire": {
-    "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 1,
-    "summary": "Diplomatic talks are underway between the US, Iran, Oman, and Israel, with a localized US-brokered deal allowing Lebanese returns, but widespread military actions continue."
+    "summary": "No general ceasefire is active; a specific Lebanon truce has reportedly been broken by Hezbollah."
   }
 }
