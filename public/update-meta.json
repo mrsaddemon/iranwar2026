@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1507,
+  "updateSequence": 1508,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T04:33:47.337Z",
+  "lastSyncedAt": "2026-07-29T07:23:37.065Z",
   "warDay": 152,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No comprehensive ceasefire is active, though the US has paused some strikes and a localized agreement exists in southern Lebanon."
+    "summary": "No active ceasefire is in effect, though diplomatic talks are reported alongside ongoing military engagements."
   }
 }
