@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1512,
+  "updateSequence": 1513,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T16:35:30.225Z",
+  "lastSyncedAt": "2026-07-29T17:51:22.397Z",
   "warDay": 152,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 39,
-    "summary": "The June 19 ceasefire between Israel and Hezbollah has collapsed following a drone attack by Hezbollah on an IDF bulldozer."
+    "summary": "No active ceasefire is in effect, with hostilities escalating between major parties."
   }
 }
