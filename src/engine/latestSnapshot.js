@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1515,
+  "updateSequence": 1516,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T20:03:27.057Z",
+  "lastSyncedAt": "2026-07-29T21:07:25.516Z",
   "warDay": 152,
-  "summary": "The conflict involving Iran, the US, and regional allies continues to escalate with missile attacks, retaliatory strikes, and threats, while a truce in Lebanon faces violations.",
+  "summary": "Tensions between the US and Iran have escalated following an Iranian missile attack on US forces in the Middle East, prompting retaliatory strikes by US and Saudi forces against Iranian proxies in Iraq, while Israel and Hezbollah engage in clashes in southern Lebanon.",
   "lastNarrativeUpdate": "2026-07-29",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 39,
     "summary": "A US-brokered deal in south Lebanon is active but faces violations by Hezbollah, while broader conflict continues."
   },
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.4,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 29",
-      "text": "Iran launches surprise missile attack on U.S. forces in the Middle East.",
+      "date": "Jul 28",
+      "text": "US military intercepts a 'surprise attack' by Iran involving missile launches targeting American troops in the Middle East.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1515
+      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1516
     },
     {
       "date": "Jul 29",
-      "text": "US military thwarts an Iranian missile attack on American troops.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBpdXlHNERocU1LNXp6UjVDekNjTVhRaHNrSmY0Q0lmRlNrM21GamlxQ21aeVkzLTlHelhJVGFiTEpsRGw0eDNXMU5MOUNDODRjYXI5SXNFeUlURlRxYWdoT0p0WEkxNXlLOE9ZVXJkX3RvS3U2bkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1515
-    },
-    {
-      "date": "Jul 29",
-      "text": "U.S. and Saudi forces conduct airstrikes against Iranian proxies in Iraq.",
+      "text": "U.S. forces, joined by Saudi Arabia, conduct strikes against Iranian proxies in Iraq following the thwarted missile attack.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cbsnews.com",
-      "latestSinceUpdate": 1515
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1516
     },
     {
       "date": "Jul 29",
-      "text": "US Air Force takes off from Israel to strike Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFB0d2NnZ3NWUmhHQmV6X1p1M0JLSm92SUlDWnJSYjV0LW9sQnNsZjNfbHdlTUUtclBONFNwamlUWWJjckRmMGxwYnYtZElhZTdHR2VudDJWR2x4Y1VDd2JETk96a2RfZXhzRTV0YmRB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "jpost.com",
-      "latestSinceUpdate": 1515
+      "text": "President Trump issues strong threats to hit Iran 'hard' in response to the missile attack on U.S. assets.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1516
     },
     {
       "date": "Jul 29",
-      "text": "Iran vows to control the Strait of Hormuz amid ongoing tensions.",
+      "text": "Iran vows to maintain control over the Strait of Hormuz amid ongoing talks between Trump and Netanyahu.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNeDIyc1dzckZFZ0RzcVF1N0NaUHVDNzBLR3d0VUEwTjhIRHYxQktIZ2hobHlHQkh3cHdkZmJrbDh4Q21NSGcxRUVRM29rQlFkZ3ZfSG9MRWJNbzBJRzJQVXA5Mmp6cXBUZkVEa3BKMmt0WDJ2eEtGOUtSeWxOc2dfdWNMX056M29Zc05JQ1MxV2VrSjJCZFpPVkNaZ3lrTFFSNnlLOE5CZkpTd0M0elNuQmJFUi3SAboBQVVfeXFMTjgxWU81QTR1XzRFbzZ0RHJEenVKUjlwZWNRSnhpRjBXX1JxX1FCMUdldzBUVjc4RUItdnAtTWtLOVBIV1NMLU9fOUVlUXRVSnlLdW9rUmw5ajBZX1BwcnlidmIzNUVsZmVBYVFobG1iRy1yb2tRQmNIMlVqNTQ1dm40UkFSalF4U1JER3E5RGpBR0x2Ukt1cW9NaUFMTEtYdXBVYWVIT3VBRFk1MWc1ajYyenpvWDE0UFJ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1515
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1516
     },
     {
       "date": "Jul 29",
-      "text": "Israel mulls response after Hezbollah violates a truce in southern Lebanon.",
+      "text": "Israel accuses Hezbollah of launching a drone in Southern Lebanon, while the IDF reports destroying a Hezbollah command tunnel near a UNIFIL post.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPVnNTR3J0Z1ZZMDJRYXMxY3dhLVJGN3BpR2ZrMWMxbjJVMklsNUVvTnhaTGtsaHRhMS1Uck5OTlkyLUtLeDM5NDJpVXc3MTNqT01fcWhBUVVBQVJ3VXJEbU1ubHhEVVNJQl9oS19KbUFmSy1FWnN3V0ctNmltODFTU0VGMnV0c09KdnFtTE9RRWQ5WmJXR2toY3dCQ1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "fdd.org",
-      "latestSinceUpdate": 1515
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPNlZ2TEpqcnZ4RHF6WUY1VVhXNFhwRUF2RV9kTDR4Qzg1VFFyT2QtNy1vNm4tUXptRmdpb2txWUVLaGRYajJ2SC1TRnIxNG1CMU9pYkR6dVdmNTk4WHdValRZWGRZM1NweDJXMkFqWl9IZG04MDdFV2dseUJiVXN5dVp5aTc1Z1M0VFdjd19LWWRZVElRM3MyZGhzU3lURy1LM0M0MlU5bU9FeUMyWVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1516
+    },
+    {
+      "date": "Jul 29",
+      "text": "Supreme Leader Khamenei states that any US-Iran peace deal is contingent on Israel ending its attacks on Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlZIaGtLT0ItbHVjQ0xEWFoyU2I5anhKZHp2QlZhVW1kWTRuOXRBMy1uQlc3a29vTVRTT21vMXZ3dTQ3UTkyVFZSNElnNzQ2VjZDWERjSEQ2bTFDOUpGMkVsOEozVkN0Nm9TVVphV1U5Yll1UEx1cXRsWFBKLU1xMUl1T2lUX3NqVkI1dXBaY2k3cWJiRmRRdkdQVTRacU5hTExkbndBWHQ0VGfSAbABQVVfeXFMUEVoS2VuR3pBZ1YyVzlYTTIyU0Z4eGFfSEhGd2Y0M3lMQ3ZUUFFndDVZUHh5cGhYRUU5enpINl9ha3FHclJuc3dVSkRFWXdFSXNuZjVoZU9qV0FMYjRYcjZIenBFLWRIczhIeEVIalFqLUNjR0Rscm5wMGlramFQZGJXZWRSVDdtcW9la2xxZEhlSGFvRmlYdTVybDY2MTI4Q2tLTmc4TG12TmtyczlZejM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1516
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",

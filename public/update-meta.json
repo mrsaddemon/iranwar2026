@@ -1,12 +1,12 @@
 {
-  "updateSequence": 1515,
+  "updateSequence": 1516,
   "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T20:03:27.057Z",
+  "lastSyncedAt": "2026-07-29T21:07:25.516Z",
   "warDay": 152,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 39,
     "summary": "A US-brokered deal in south Lebanon is active but faces violations by Hezbollah, while broader conflict continues."
   }
