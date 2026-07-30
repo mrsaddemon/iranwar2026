@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1525,
+  "updateSequence": 1526,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T15:19:03.717Z",
+  "lastSyncedAt": "2026-07-30T16:52:35.711Z",
   "warDay": 153,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 21,
-    "summary": "Peace efforts are under threat and hopes for a quick resolution have dimmed amidst widespread military actions, with a specific Lebanon truce also violated."
+    "summary": "No general ceasefire is active, and a regional truce in Lebanon has been violated amidst ongoing hostilities."
   }
 }
