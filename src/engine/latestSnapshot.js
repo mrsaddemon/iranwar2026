@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1529,
+  "updateSequence": 1530,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T21:19:05.410Z",
+  "lastSyncedAt": "2026-07-30T22:30:12.883Z",
   "warDay": 153,
-  "summary": "The US-Iran conflict has expanded significantly, with both sides trading strikes, involving more countries like Kuwait, Jordan, and Egypt, while a truce in Lebanon has been violated.",
+  "summary": "The 153-day conflict between the US and Iran has expanded to include strikes in Kuwait, Jordan, and Egypt, while Israel continues operations against Hezbollah in Lebanon, amidst reports of dwindling US stockpiles and diplomatic efforts regarding nuclear talks.",
   "lastNarrativeUpdate": "2026-07-30",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No general ceasefire is active in the US-Iran conflict, and a specific Lebanon truce has been violated by Hezbollah."
+    "summary": "Despite claims of progress toward nuclear talks and a temporary halt in Israeli strikes, active missile exchanges between the US and Iran continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.65
+        "precision": 0.9,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 75,
-    "tradeImpact": 45,
-    "sanctionsPressure": 49,
-    "globalPressure": 54,
+    "nuclearIndex": 55,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 30",
-      "text": "Iran's IRGC claims to have hit Kuwait and Jordan following deadly US strikes.",
+      "text": "IRGC claims strikes on Kuwait and Jordan following US actions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1529
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1530
     },
     {
       "date": "Jul 30",
-      "text": "American forces conducted strikes on 'dozens' of Iranian targets after an attempted attack on US troops.",
+      "text": "American forces hit 'dozens' of Iranian targets after an attempted attack on US troops.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPNDNZZ1IzbDlvbkRLRjJWbXNlYVI1cUh2eUVZUmxPUzJON2hDV2xiYVFyRTR2TWcyQ05YM0hRaGdrUzRBcFN1Ti1YV3I5WG5tdG0takNaMEp6WER1TzFXNEpQR2NFeHN4WFNnTFMwZDhUVkE1dGpWVnpDdG1FVG15c0wwa2I3UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1529
+      "latestSinceUpdate": 1530
     },
     {
       "date": "Jul 30",
-      "text": "US and Saudi airstrikes are reportedly drawing more countries into the fighting.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1529
-    },
-    {
-      "date": "Jul 30",
-      "text": "The US and Iran traded more missile strikes as the 5-month war appears to expand to Egypt.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1529
-    },
-    {
-      "date": "Jul 30",
-      "text": "Egypt confirmed a Mediterranean port fire was caused by a drone, marking its first strike in the conflict.",
+      "text": "Egypt confirms a Mediterranean port fire was caused by a drone, marking the first strike on Egypt in the conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOX0R4Wi0zQTlUY2VLZktKUHNMd0dldVVOemEtYWgyaVM1c1B5UlI0eGNnbzNjcHg5VGJZVkNPd3U0S0VVSTA0aGdNWXJiRHpzdWxPSjVhd25xSm5SYkptSUdLczR3YkVxaHlLZk00M2JNY2E1NzZZcGgzcnBtTzBRektHWkl0U3lNeWM1Q1JrZDlsZTdsRlFtZjl3WEtTYWVzcWdmcnJXVzFSZ3JzRWQwdE5CONIBuAFBVV95cUxOX1hXQWJoQXZBU0tRaWVUUm1KX0RTNDlYdVJ6cGw4cjZfMXNhS3pvLUNDRmpSVFpfSXVFbnQ0M2k1RkJyV2NlVGxFaDRYZTAxSl9wSVJhVkVOeklraXN4RFllc2hVcHRYZWtWOXdDVmpqVHBIWENpQXE2ejdUekhyVlJWY0QwU3R5V2VmaU04UW9ReXRXN0dXZlBpeldLeHlvdk5qUWJDakxSakM0dE9CaWFKVHdnbE0x?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "abcnews.com",
-      "latestSinceUpdate": 1529
+      "latestSinceUpdate": 1530
     },
     {
       "date": "Jul 30",
-      "text": "Hezbollah drone hit an IDF bulldozer, violating a Lebanon truce days ahead of scheduled talks.",
+      "text": "Israel carries out air strikes on Lebanon, state media reports.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNMjEzaXZjNGI4M0xDVmNFdlgyYktyMkFld280MDhWaVhWY0RaaVVDazk5eWQtaEhkT3RselpXQkg4Y2hMdGU4YzJvQm9aUFRsM3doYVAyNG8yWVE0bDh3aFZVcF9UeEtYUmEyOUdzTkJNVU9VQnJLa3JIazZXZUhPNVZvLVMydGdEcnZsZEw0OHBPWDBHWlZBTHl2dWlyWWZVSkVJMk9VV2VuVTN30gGyAUFVX3lxTE9FOGFDVkVmTUllY2dZOXpTSUFyM0lzdGNQRlBidFZmWHdkOWkya0ZrSUp0SUpUYjdSbm5yNldPZWFwbHZRUDc5aUVhVWl3QzZDYmVtSjYtMXZTeGV5WDBSTmNsQ2J1S2oyT2Z2Q3d3WF9kX2stUC03bU85THdPcHFfOWhwM2djSm9kMFVGRTZHNmJtMk1KMndweHI4WHd6ekN6Y0lvVUZua2dWQ1V4QXJlWlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1530
+    },
+    {
+      "date": "Jul 30",
+      "text": "IDF announces destruction of a Hezbollah tunnel system below south Lebanon's Beaufort.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxObzNqZFdSWUFBN3R0ZVp3YWhQVzBGYzhJSkhLbFlfMXpBWk5lY05fVkQ4MXp6Xy1lWTFkN3Z3NDNQclZYM0xGMG1MY0xaLVFCbFdyU2RYS3h3OGl6engxTXpEMF9HUkZZWkZheXhIQ1ZRMWgzMDMxazFmNmtvS2xvcHY1NF9KU3hfWDUtWEpBSzBUSmZVeWhoQjhDTV9MWkRUbWpyU29XWnJUbVlSM3FtQThnVXVKUkUzNkxtanNSZ19ZMlktbzRjRy1fQjY0N1Y5bV9Gd3Z5d3E4a3plakE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1529
+      "latestSinceUpdate": 1530
+    },
+    {
+      "date": "Jul 30",
+      "text": "US weapons stockpiles continue to dwindle with no end to the Iran war in sight.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNUUpwOTVOaVlDYkdfV1I0Mmx2MXJfVHA1ZWJ0MUZOUWROYWgzdzBGYVlzeHJuV043UzhrVk10X3loTlFGY0MwbjNwWnIzRFR0Mms4c29UMUNpMkRibkd5ZzR5SVdXNXpMUFJ3UFNwWDRfMVRiUjlnazRMNThLck9qTGNJSEg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1530
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
