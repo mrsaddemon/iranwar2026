@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1524,
+  "updateSequence": 1525,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T12:55:51.220Z",
+  "lastSyncedAt": "2026-07-30T15:19:03.717Z",
   "warDay": 153,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 21,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect, with hostilities ongoing."
+    "summary": "Peace efforts are under threat and hopes for a quick resolution have dimmed amidst widespread military actions, with a specific Lebanon truce also violated."
   }
 }
