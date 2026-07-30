@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1528,
+  "updateSequence": 1529,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T20:03:41.318Z",
+  "lastSyncedAt": "2026-07-30T21:19:05.410Z",
   "warDay": 153,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.93,
     "durationDays": 21,
-    "summary": "The broader US-Iran conflict shows no active ceasefire, and a local truce in Lebanon has been violated by Hezbollah."
+    "summary": "No general ceasefire is active in the US-Iran conflict, and a specific Lebanon truce has been violated by Hezbollah."
   }
 }
