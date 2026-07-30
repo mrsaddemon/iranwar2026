@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1519,
+  "updateSequence": 1520,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T00:13:35.699Z",
+  "lastSyncedAt": "2026-07-30T03:33:13.191Z",
   "warDay": 153,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 39,
-    "summary": "A US-brokered truce in Lebanon has been broken by a Hezbollah drone strike, and a pause in fighting was ended by an Iranian attack in Jordan."
+    "summary": "No active ceasefire is in effect, with ongoing military engagements and diplomatic conditions for peace discussions."
   }
 }
