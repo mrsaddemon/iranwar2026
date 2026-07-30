@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1518,
-  "lastUpdated": "2026-07-29",
-  "lastSyncedAt": "2026-07-29T23:16:37.065Z",
-  "warDay": 152,
+  "updateSequence": 1519,
+  "lastUpdated": "2026-07-30",
+  "lastSyncedAt": "2026-07-30T00:13:35.699Z",
+  "warDay": 153,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 39,
-    "summary": "A previous pause in fighting has collapsed following Iran's surprise attack on US forces in Jordan."
+    "summary": "A US-brokered truce in Lebanon has been broken by a Hezbollah drone strike, and a pause in fighting was ended by an Iranian attack in Jordan."
   }
 }
