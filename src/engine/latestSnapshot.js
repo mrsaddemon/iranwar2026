@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1526,
+  "updateSequence": 1527,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T16:52:35.711Z",
+  "lastSyncedAt": "2026-07-30T18:24:38.304Z",
   "warDay": 153,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The 5-month war between the US and Iran continues to escalate, with direct strikes by both sides, involvement of Saudi forces, and expansion of conflict to additional countries and proxies, while a local truce in Lebanon was violated.",
   "lastNarrativeUpdate": "2026-07-30",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 21,
-    "summary": "No general ceasefire is active, and a regional truce in Lebanon has been violated amidst ongoing hostilities."
+    "summary": "No active ceasefire is reported for the main US-Iran conflict, and a local truce in Lebanon has been violated."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.78
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.65,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 25,
     "escalationLevel": 38,
     "oilDisruption": 80,
     "tradeImpact": 48,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 30",
-      "text": "IRGC says it hit Kuwait and Jordan after deadly US strikes.",
+      "text": "IRGC claims to have hit Kuwait and Jordan following deadly US strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1526
+      "latestSinceUpdate": 1527
     },
     {
       "date": "Jul 30",
-      "text": "US hits dozens of targets in Iran overnight as peace efforts come under threat.",
+      "text": "US hits dozens of targets in Iran overnight, threatening peace efforts.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1526
+      "latestSinceUpdate": 1527
     },
     {
       "date": "Jul 30",
-      "text": "U.S. and Saudi Airstrikes Drag More Countries Into Fighting.",
+      "text": "US and Saudi airstrikes are reportedly drawing more countries into the fighting.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9lUlNXWlBZaE01azJKdjNfb2hoM1FYYVdzdGRFZ1F0dlBQbU9PSzZLLXhEdWcxRE01VDluUEJKVFIxdU5RcU1kOHN2U2JVbE5WWFFxVjFYeHlxR19xbFpqczA5RnVpaGtWU1QyM09pS0hGb1BWRlcwcFRDVGE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1526
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1527
     },
     {
       "date": "Jul 30",
-      "text": "US launches strikes on Iranian targets a day after it foiled missile attack on American forces.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxPcFZvamthZTNrZ0JiSDZZMVJBNW02Y1JiQUlvUlAwN1RRODcyUWNydUtZbGxpVVdhZElfTERINDh6ZURJZll3M25weWk4UVFPczliQWZ0MkRUc09VTTQ0X1BMVDBDa0hMdzE0TjBlYmI3UkJpYl9KZDFYMTFsZ05jNnd0Zm9wUHEwTlJObUEycG1BNTVqVTVQWjl5NnJqdEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "apnews.com",
-      "latestSinceUpdate": 1526
-    },
-    {
-      "date": "Jul 30",
-      "text": "Pezeshkian urges Iranians to ‘stand firm’ against ‘enemy’.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1526
-    },
-    {
-      "date": "Jul 30",
-      "text": "U.S. thwarts Iranian missile attack on U.S. troops, strikes Iranian proxies in Iraq with Saudi forces.",
+      "text": "US thwarts an Iranian missile attack on US troops and strikes Iranian proxies in Iraq with Saudi forces.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1526
+      "latestSinceUpdate": 1527
+    },
+    {
+      "date": "Jul 30",
+      "text": "Iran and U.S. trade more missile strikes as the war appears to expand to Egypt.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1527
+    },
+    {
+      "date": "Jul 30",
+      "text": "Israel carries out air strikes on Lebanon, while Iran claims a deal with the US is near.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1527
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
