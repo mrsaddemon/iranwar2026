@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1521,
+  "updateSequence": 1522,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T06:09:12.620Z",
+  "lastSyncedAt": "2026-07-30T09:06:19.615Z",
   "warDay": 153,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
-    "durationDays": 39,
-    "summary": "No active ceasefire or de-escalation agreement is reported amidst ongoing hostilities and retaliatory strikes."
+    "durationDays": 21,
+    "summary": "No active ceasefire is in effect; conflict continues with active strikes and retaliations."
   }
 }

@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1521,
+  "updateSequence": 1522,
   "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T06:09:12.620Z",
+  "lastSyncedAt": "2026-07-30T09:06:19.615Z",
   "warDay": 153,
-  "summary": "The US and Saudi Arabia have conducted airstrikes in response to Iranian attacks, while Iran urges its citizens to stand firm amidst ongoing hostilities and regional tensions, including concerns over the Strait of Hormuz.",
+  "summary": "The US and Saudi Arabia have conducted multiple airstrikes against Iranian targets and proxies, leading to civilian casualties, while Iran's leadership urges resilience and regional tensions escalate with Hezbollah drone activity against Israel and disruptions to Strait of Hormuz shipping.",
   "lastNarrativeUpdate": "2026-07-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
-    "durationDays": 39,
-    "summary": "No active ceasefire or de-escalation agreement is reported amidst ongoing hostilities and retaliatory strikes."
+    "durationDays": 21,
+    "summary": "No active ceasefire is in effect; conflict continues with active strikes and retaliations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.55
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.4,
@@ -43,12 +43,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 51
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 30",
-      "text": "U.S. and Saudi airstrikes are reportedly dragging more countries into the fighting.",
+      "text": "U.S. and Saudi airstrikes are reportedly drawing more countries into the fighting.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1521
+      "latestSinceUpdate": 1522
     },
     {
       "date": "Jul 30",
-      "text": "The US military thwarted an Iranian missile attack targeting American troops.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFBpdXlHNERocU1LNXp6UjVDekNjTVhRaHNrSmY0Q0lmRlNrM21GamlxQ21aeVkzLTlHelhJVGFiTEpsRGw0eDNXMU5MOUNDODRjYXI5SXNFeUlURlRxYWdoT0p0WEkxNXlLOE9ZVXJkX3RvS3U2bkJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1521
-    },
-    {
-      "date": "Jul 30",
-      "text": "The US launched 'powerful' and 'heavy' strikes after an IRGC attack on Jordan and attempted attack on American troops.",
+      "text": "A U.S. attack on Qeshm Island reportedly killed an Iranian couple and their toddler.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBTU0lxSXpCeTVrS1JXemlVdmNyZ2NjaDhpWFhCY2hwa2pmdk5yblB4M2FBN3cwQU9RTWJCRTJCTDFGaHZEZC1ENUEwdGFCLUhrY1VrZU1GVHhOZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1521
-    },
-    {
-      "date": "Jul 30",
-      "text": "Ships stuck in the Strait of Hormuz are raising warnings about a 'super-spreader' biodiversity threat.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxOamZXVXF1eF9QZDF2QlpJRGNhOWVkb1hQX2RmUWFjV1hOX0VCcHJMUXpnbk14ck5qdldvSXpNV2xzWU1QbEtwRUhfV25kZWl3QmhsbDlPdmJfZW9yUWlLX0t3NFkxMUd6RVhHWkNnNGF1M0RSejgtRmZYNlRqb0k5M1JKN1pHQXl6alVjbDlxdUJHS2s1Vno1SnVUUnpZdlotQ2NQcHJRMW9hNzNEUGN5dGcwYkNFVUtuRVdveU5DNzZHejNxQmZRdHJqZDBMUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1521
-    },
-    {
-      "date": "Jul 30",
-      "text": "Hezbollah attacked a strategic area in Southern Lebanon, according to Israel.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1521
-    },
-    {
-      "date": "Jul 30",
-      "text": "Former President Trump stated the US is in talks with Iran, expressing hopes for 'good things'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1521
+      "latestSinceUpdate": 1522
+    },
+    {
+      "date": "Jul 30",
+      "text": "The U.S. launched strikes on Iranian targets a day after thwarting a missile attack on American forces.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxPcFZvamthZTNrZ0JiSDZZMVJBNW02Y1JiQUlvUlAwN1RRODcyUWNydUtZbGxpVVdhZElfTERINDh6ZURJZll3M25weWk4UVFPczliQWZ0MkRUc09VTTQ0X1BMVDBDa0hMdzE0TjBlYmI3UkJpYl9KZDFYMTFsZ05jNnd0Zm9wUHEwTlJObUEycG1BNTVqVTVQWjl5NnJqdEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1522
+    },
+    {
+      "date": "Jul 30",
+      "text": "Americans are reportedly experiencing economic difficulties due to the continued Iran war.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1522
+    },
+    {
+      "date": "Jul 30",
+      "text": "The U.S. thwarted an Iranian missile attack on its troops and struck Iranian proxies in Iraq with Saudi forces.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1522
+    },
+    {
+      "date": "Jul 30",
+      "text": "Iranian President Pezeshkian urged Iranians to 'stand firm' against the 'enemy'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1522
     }
   ],
   "sourceStatuses": [
