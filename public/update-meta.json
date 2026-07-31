@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1542,
+  "updateSequence": 1543,
   "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T21:49:11.780Z",
+  "lastSyncedAt": "2026-07-31T22:44:30.963Z",
   "warDay": 154,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire is in effect for the primary US-Iran conflict, though a deal between Israel and Lebanon is mentioned."
+    "summary": "No active ceasefire is in effect for the primary US-Iran conflict, which continues to escalate."
   }
 }
