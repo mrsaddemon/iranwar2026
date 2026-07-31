@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1541,
+  "updateSequence": 1542,
   "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T20:47:42.928Z",
+  "lastSyncedAt": "2026-07-31T21:49:11.780Z",
   "warDay": 154,
-  "summary": "The US-Iran conflict has intensified and widened, drawing in countries like Egypt and Iraq, with significant military exchanges, including US strikes on Iran and Iranian attacks on tankers and US bases, leading to disruptions in the Strait of Hormuz and rising oil prices.",
+  "summary": "The US-Iran conflict has significantly escalated, drawing in more countries like Egypt and Kuwait, with Iran striking tankers in the Strait of Hormuz, leading to rising oil prices.",
   "lastNarrativeUpdate": "2026-07-31",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire is reported in the primary US-Iran conflict, though a US-brokered deal with Israel regarding Lebanon is mentioned."
+    "summary": "No active ceasefire is in effect for the primary US-Iran conflict, though a deal between Israel and Lebanon is mentioned."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.85,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 90,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 30",
-      "text": "Egypt struck for first time as US-Iran conflict pulls in more countries.",
+      "text": "Egypt struck for first time as US-Iran conflict pulls in more countries",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBDZ0dMZk1tUGZDZlItTm1MSmR2ODExY2t6VFVCeC0xTy1IVENybUZIalVuSmw1cWI0ZlN3MTNvX3ZxMy1aUlFiSkg5ejVwQzhxc3loWmRRUEFoVnZIdUd6cWpaSFZyU1hPWWpLSFFB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1541
+      "latestSinceUpdate": 1542
     },
     {
       "date": "Jul 30",
-      "text": "U.S. Strikes Iran Again, as Trump Encounters a More Determined Adversary in Widened War.",
+      "text": "U.S. Strikes Iran Again, hitting dozens of targets overnight",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTE1nazQwZzlMcUIzRUlXTVNJbVlncDA4VUNHQ2xGc1pZbnRsWXpFSWdZSVJqbWFrVGU1OG9HbDNpTUFiN3hGaHMzaE9BekluLW1uODNieHBXZTlfM0RjMm8ya1FoZTRuamZqUVA5RDZPVXkzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1541
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1542
     },
     {
       "date": "Jul 30",
-      "text": "US hits dozens of targets in Iran overnight as peace efforts under threat.",
+      "text": "Iran strikes tankers under US escort in Hormuz strait",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQa0Nlc3FFeTZIM0dHUG8wYm9yaXhpOFBRSzJNQ09nZW9aUHlCWU5hU1ZZOE1XVXdhcXVmZnJiZzgtaGdSbkU2Y2FsZXlWOXp1LXdGT2t3MHhGZGlwS095dURvODFaSUlSRER3aHl1Z3ZMbVlPWThNUExqTnZuZ2ZwZmxOUmJ2bXo4d1RwX3VILXpiLW1fTEgxMm5NQ0RrZjQ3cUlGZG5DY2FGRmQwdHkwcjJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1541
+      "latestSinceUpdate": 1542
     },
     {
       "date": "Jul 30",
-      "text": "Iran War Live Updates: U.S. and Saudi Airstrikes Drag More Countries Into Fighting.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9lUlNXWlBZaE01azJKdjNfb2hoM1FYYVdzdGRFZ1F0dlBQbU9PSzZLLXhEdWcxRE01VDluUEJKVFIxdU5RcU1kOHN2U2JVbE5WWFFxVjFYeHlxR19xbFpqczA5RnVpaGtWU1QyM09pS0hGb1BWRlcwcFRDVGE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1541
-    },
-    {
-      "date": "Jul 30",
-      "text": "Tehran: US to ‘pay the price’ for Qeshm civilians killed.",
+      "text": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1541
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPQ0l6N3lHU1dIT0dUQk9NYlJoVzY4c2lUcHlCa1l6eVNpeF9wakZUbWpKQ3pPZE1tb1NDT0pkZ2oyMmJDSTR3UUpmQ09KUWMwU0h5SHRSTFlhcHRGcGtvOHVKeTRmdGQ5aUtMYmYtQjVMRjBneFJ1Y0JXbkwxdTlHNkhESk91T0kyQ3fSAY8BQVVfeXFMTWd0U2pVRmhJNTNYVEFOaE4yTUU2enFTQWowRkY5aUlodkhtX2RfeTlYd3RVVFkxWnFqY1huYUxGQlcxZWFwcHRXSzg4QjA3czNibzFFalBMWU9aSVN6Q2tfV0kwWXctb3FvVnFvUGZsTzVGSHdpYTNPdUlZc3VpbExUUlBiblJBdDFWSzFjTUU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1542
     },
     {
       "date": "Jul 30",
-      "text": "Iraq says it had ‘no prior knowledge’ of US-Saudi attacks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1541
+      "text": "Iran Says It Targeted U.S. Military in Kuwait With Drones",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOTUVwdnRiNDE3WndaUEZrMG5EUjl2VTROX3R1bjZVRGphYTkxNE1valRKMjIzT1FKcmlhMl9jcUl3WmlBTi0talRLQnJMRm9lQ0VoZW9BWE13dS1QVTJ2aGpNdEE5eW4wd01nOVpxLWpIZFViNHVMV0dzUFNUVWJqMXB0Unc0VVBxWEItR3FLcWhNN2lIQmtoUA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1542
+    },
+    {
+      "date": "Jul 30",
+      "text": "IDF Destroys Hezbollah Tunnel Network Beneath Beaufort Ridge In South Lebanon",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOZjYxV0dFZ0dGRzZqc1BobGU3VHk3TnB5aGJYX3lCa1V4RnFwU2ZwUEYwZkRfS1dBRmI2V0xyM1pjTEhmc1JuM2hUSVNORVhUTTZ4ZW5hQlpoYW9xeDNkQzctZ1ZpNDhXQzRPTmQ4WDVfNU5JSlcwRG9pRWE1MUdnZGRKQXRhbUR0OUNVLURBbEt4V1BFR3FsMTZkWnRCNHpjY2JqeWo3eUd3QlVuR2tfc3NyQlBfU1YzVTBNMVBjdWNDWFM2WV9r?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "i24NEWS",
+      "latestSinceUpdate": 1542
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
