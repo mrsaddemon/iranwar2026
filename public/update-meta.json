@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1531,
-  "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T23:34:18.265Z",
-  "warDay": 153,
+  "updateSequence": 1532,
+  "lastUpdated": "2026-07-31",
+  "lastSyncedAt": "2026-07-31T01:08:36.487Z",
+  "warDay": 154,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.1,
     "durationDays": 21,
-    "summary": "A brief halt in Israeli strikes following claims of nuclear talks progress was quickly overshadowed by continued US and Iran missile exchanges and expanding conflict."
+    "summary": "Despite claims of progress toward nuclear talks and a temporary halt in some Israeli strikes, active conflict and missile exchanges continue between the US and Iran, indicating no active ceasefire."
   }
 }

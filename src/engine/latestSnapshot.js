@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1531,
-  "lastUpdated": "2026-07-30",
-  "lastSyncedAt": "2026-07-30T23:34:18.265Z",
-  "warDay": 153,
-  "summary": "The 5-month conflict involving the US and Iran continues to expand, with both sides trading strikes and new countries like Kuwait, Jordan, and Egypt reportedly drawn into the fighting, despite some claims of progress toward nuclear talks.",
-  "lastNarrativeUpdate": "2026-07-30",
+  "updateSequence": 1532,
+  "lastUpdated": "2026-07-31",
+  "lastSyncedAt": "2026-07-31T01:08:36.487Z",
+  "warDay": 154,
+  "summary": "The conflict between the US and Iran has intensified with direct missile exchanges and regional expansion, despite some claims of progress toward nuclear talks and a temporary halt in Israeli strikes.",
+  "lastNarrativeUpdate": "2026-07-31",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.1,
     "durationDays": 21,
-    "summary": "A brief halt in Israeli strikes following claims of nuclear talks progress was quickly overshadowed by continued US and Iran missile exchanges and expanding conflict."
+    "summary": "Despite claims of progress toward nuclear talks and a temporary halt in some Israeli strikes, active conflict and missile exchanges continue between the US and Iran, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 25,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 30",
-      "text": "IRGC claims strikes on Kuwait and Jordan following deadly US retaliatory strikes on Iranian targets.",
+      "date": "Jul 31",
+      "text": "American forces hit ‘dozens’ of Iranian targets following an attempted attack on US troops.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPNDNZZ1IzbDlvbkRLRjJWbXNlYVI1cUh2eUVZUmxPUzJON2hDV2xiYVFyRTR2TWcyQ05YM0hRaGdrUzRBcFN1Ti1YV3I5WG5tdG0takNaMEp6WER1TzFXNEpQR2NFeHN4WFNnTFMwZDhUVkE1dGpWVnpDdG1FVG15c0wwa2I3UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1532
+    },
+    {
+      "date": "Jul 31",
+      "text": "U.S. and Saudi Airstrikes are reportedly dragging more countries into the fighting.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1532
+    },
+    {
+      "date": "Jul 31",
+      "text": "Tehran states the US will ‘pay the price’ for Qeshm civilians killed.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Multiple Outlets via Google News RSS",
-      "latestSinceUpdate": 1531
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1532
     },
     {
-      "date": "Jul 30",
-      "text": "US and Saudi airstrikes are reportedly drawing more countries into the ongoing conflict.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Multiple Outlets via Google News RSS",
-      "latestSinceUpdate": 1531
-    },
-    {
-      "date": "Jul 30",
-      "text": "Iranian President Pezeshkian urges citizens to 'stand firm' against the 'enemy'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Multiple Outlets via Google News RSS",
-      "latestSinceUpdate": 1531
-    },
-    {
-      "date": "Jul 30",
-      "text": "Israel carries out air strikes on Lebanon, while Iran claims a deal with the US is near.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Multiple Outlets via Google News RSS",
-      "latestSinceUpdate": 1531
-    },
-    {
-      "date": "Jul 30",
-      "text": "Israel temporarily halts Iran strikes after Trump claims progress toward nuclear talks, but US and Iran continue to trade missile strikes.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Multiple Outlets via Google News RSS",
-      "latestSinceUpdate": 1531
-    },
-    {
-      "date": "Jul 30",
-      "text": "Egypt confirms a Mediterranean port fire was caused by a drone, as the war appears to expand to its territory.",
+      "date": "Jul 31",
+      "text": "Israel carried out air strikes on Lebanon, according to state media.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1532
+    },
+    {
+      "date": "Jul 31",
+      "text": "Israel halted Iran strikes after Trump claimed progress toward nuclear talks.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Multiple Outlets via Google News RSS",
-      "latestSinceUpdate": 1531
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1532
+    },
+    {
+      "date": "Jul 31",
+      "text": "Iran and U.S. traded more missile strikes as the 5-month war appears to expand to Egypt.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1532
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iranian Defiance",
-      "headline": "Iran Vows Hormuz Control, Urges Firmness Against Enemy",
-      "summary": "Iranian leadership asserts control over the Strait of Hormuz and calls on its citizens to resist external pressures. This stance comes amidst ongoing conflict and diplomatic discussions involving the US.",
-      "tone": "defiant",
-      "latestSinceUpdate": 1519
-    },
-    {
-      "perspective": "US Engagement & Force",
-      "headline": "US Engages Diplomatically While Employing Military Force",
-      "summary": "The US is engaged in both diplomatic talks with Iran, expressing hopes for positive outcomes, while simultaneously conducting strikes against Iranian proxies and threatening strong military action in response to attacks. This dual approach aims to manage escalation while protecting US interests.",
+      "perspective": "US/Allies",
+      "headline": "US Responds to Attacks Amidst Regional Expansion",
+      "summary": "American forces are actively responding to attacks on their troops by hitting Iranian targets, while also navigating the expansion of the conflict to new regional fronts. Concerns are being raised domestically regarding the treatment of wounded US personnel.",
       "tone": "strained",
-      "latestSinceUpdate": 1519
+      "latestSinceUpdate": 1532
     },
     {
-      "perspective": "Regional Instability & Economic Strain",
-      "headline": "Middle East Conflict Spreads, Impacting Shipping and Economies",
-      "summary": "The conflict is expanding geographically, drawing in more countries and causing significant shipping risks in crucial oil routes like the Strait of Hormuz. This instability is leading to economic strain felt by citizens and raising environmental concerns.",
+      "perspective": "Iran",
+      "headline": "Iran Vows Retaliation and Stands Firm Against Enemy",
+      "summary": "Iran views recent US actions as requiring retaliation for civilian casualties and urges its population to remain steadfast against perceived enemies. Tehran also claims to be nearing a deal with the US, even as it tightens its control over the Strait of Hormuz.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1532
+    },
+    {
+      "perspective": "Israel/Hezbollah",
+      "headline": "Israel Engages Hezbollah While Halting Iran Strikes",
+      "summary": "Israel is conducting air strikes in Lebanon and engaging Hezbollah forces, including demolishing tunnels. Simultaneously, Israel temporarily halted strikes against Iran following US diplomatic claims, indicating a complex and multi-front security situation.",
       "tone": "anxious",
-      "latestSinceUpdate": 1519
+      "latestSinceUpdate": 1532
     }
   ]
 });
