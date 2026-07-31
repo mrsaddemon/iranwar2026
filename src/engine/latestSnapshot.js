@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1532,
+  "updateSequence": 1533,
   "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T01:08:36.487Z",
+  "lastSyncedAt": "2026-07-31T04:45:44.690Z",
   "warDay": 154,
-  "summary": "The conflict between the US and Iran has intensified with direct missile exchanges and regional expansion, despite some claims of progress toward nuclear talks and a temporary halt in Israeli strikes.",
+  "summary": "The US-Iran conflict has intensified with heavy US strikes and Iranian threats, while localized deals are reported in Gaza and Lebanon, and oil traffic in key straits remains a concern.",
   "lastNarrativeUpdate": "2026-07-31",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "status": "collapsed",
+    "confidence": 0.2,
     "durationDays": 21,
-    "summary": "Despite claims of progress toward nuclear talks and a temporary halt in some Israeli strikes, active conflict and missile exchanges continue between the US and Iran, indicating no active ceasefire."
+    "summary": "A Gaza disarmament deal was claimed, and a US-brokered deal allows returns to Lebanon, but the US-Iran conflict has restarted with heavy strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 50,
+    "tradeImpact": 51,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 77,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 31",
-      "text": "American forces hit ‘dozens’ of Iranian targets following an attempted attack on US troops.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPNDNZZ1IzbDlvbkRLRjJWbXNlYVI1cUh2eUVZUmxPUzJON2hDV2xiYVFyRTR2TWcyQ05YM0hRaGdrUzRBcFN1Ti1YV3I5WG5tdG0takNaMEp6WER1TzFXNEpQR2NFeHN4WFNnTFMwZDhUVkE1dGpWVnpDdG1FVG15c0wwa2I3UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1532
-    },
-    {
-      "date": "Jul 31",
-      "text": "U.S. and Saudi Airstrikes are reportedly dragging more countries into the fighting.",
+      "text": "Iran warns US will 'pay the price' for Qeshm civilian deaths.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1532
+      "latestSinceUpdate": 1533
     },
     {
       "date": "Jul 31",
-      "text": "Tehran states the US will ‘pay the price’ for Qeshm civilians killed.",
+      "text": "Trump claims Gaza disarmament breakthrough with Hamas confirmation.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1533
+    },
+    {
+      "date": "Jul 31",
+      "text": "US and Saudi airstrikes expand conflict, drawing in more countries.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1532
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1533
     },
     {
       "date": "Jul 31",
-      "text": "Israel carried out air strikes on Lebanon, according to state media.",
+      "text": "US launches heavy strikes on Iran following attempted attack on American troops.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1532
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBTU0lxSXpCeTVrS1JXemlVdmNyZ2NjaDhpWFhCY2hwa2pmdk5yblB4M2FBN3cwQU9RTWJCRTJCTDFGaHZEZC1ENUEwdGFCLUhrY1VrZU1GVHhOZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "bbc.com",
+      "latestSinceUpdate": 1533
     },
     {
       "date": "Jul 31",
-      "text": "Israel halted Iran strikes after Trump claimed progress toward nuclear talks.",
+      "text": "Oil prices ease as Hormuz Strait traffic recovers, though remains thin.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPQ0l6N3lHU1dIT0dUQk9NYlJoVzY4c2lUcHlCa1l6eVNpeF9wakZUbWpKQ3pPZE1tb1NDT0pkZ2oyMmJDSTR3UUpmQ09KUWMwU0h5SHRSTFlhcHRGcGtvOHVKeTRmdGQ5aUtMYmYtQjVMRjBneFJ1Y0JXbkwxdTlHNkhESk91T0kyQ3fSAY8BQVVfeXFMTWd0U2pVRmhJNTNYVEFOaE4yTUU2enFTQWowRkY5aUlodkhtX2RfeTlYd3RVVFkxWnFqY1huYUxGQlcxZWFwcHRXSzg4QjA3czNibzFFalBMWU9aSVN6Q2tfV0kwWXctb3FvVnFvUGZsTzVGSHdpYTNPdUlZc3VpbExUUlBiblJBdDFWSzFjTUU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1533
+    },
+    {
+      "date": "Jul 31",
+      "text": "Egypt confirms drone-caused fire at Mediterranean port.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1532
-    },
-    {
-      "date": "Jul 31",
-      "text": "Iran and U.S. traded more missile strikes as the 5-month war appears to expand to Egypt.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1532
+      "latestSinceUpdate": 1533
     }
   ],
   "sourceStatuses": [
