@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1538,
+  "updateSequence": 1539,
   "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T16:27:07.283Z",
+  "lastSyncedAt": "2026-07-31T18:06:52.885Z",
   "warDay": 154,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire is in effect for the broader US-Iran conflict, though a specific deal allows some Lebanese returns."
+    "summary": "No active ceasefire or de-escalation efforts are reported in the ongoing US-Iran conflict, despite some regional deals."
   }
 }
