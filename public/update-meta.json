@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1533,
+  "updateSequence": 1534,
   "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T04:45:44.690Z",
+  "lastSyncedAt": "2026-07-31T07:37:33.082Z",
   "warDay": 154,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.2,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 21,
-    "summary": "A Gaza disarmament deal was claimed, and a US-brokered deal allows returns to Lebanon, but the US-Iran conflict has restarted with heavy strikes."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict is actively escalating."
   }
 }
