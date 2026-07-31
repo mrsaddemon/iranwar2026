@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1536,
+  "updateSequence": 1537,
   "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T12:21:43.335Z",
+  "lastSyncedAt": "2026-07-31T14:42:21.693Z",
   "warDay": 154,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 21,
-    "summary": "No general ceasefire is active in the US-Iran conflict, despite Iran claiming a deal with the US is near."
+    "summary": "A ceasefire between Israel and Hezbollah appears to have collapsed following recent drone attacks and IDF operations in southern Lebanon."
   }
 }
