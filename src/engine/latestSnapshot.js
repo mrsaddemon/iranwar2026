@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1553,
+  "updateSequence": 1554,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T15:44:34.132Z",
+  "lastSyncedAt": "2026-08-01T16:40:01.599Z",
   "warDay": 155,
-  "summary": "The US has conducted strikes in Iran, while Iran has attacked Kuwait and threatened regional stability, leading to increased tensions and threats to energy infrastructure.",
+  "summary": "The war involving the US, Israel, and Iran continues to escalate with regional attacks, threats to shipping, and increasing tensions.",
   "lastNarrativeUpdate": "2026-08-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire or de-escalation efforts are reported; conflict is escalating."
+    "summary": "No ceasefire is active; the conflict between the US, Israel, and Iran is escalating."
   },
   "actorOverrides": {
     "usa": {
@@ -19,30 +19,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 40,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 01",
-      "text": "US hits dozens of targets in Iran overnight as peace efforts come under threat.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1553
-    },
-    {
-      "date": "Aug 01",
-      "text": "Iran attacks Kuwait and threatens the region with ‘flames of war’.",
+      "date": "Jul 31",
+      "text": "Iran attacks Kuwait and threatens the region with 'flames of war' amid ongoing conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1553
+      "latestSinceUpdate": 1554
     },
     {
-      "date": "Aug 01",
-      "text": "U.S. and Israel are preparing to bombard energy-related targets in Iran.",
+      "date": "Jul 31",
+      "text": "The US war on Iran is described as 'spinning out of control' as Washington prepares new strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPWlZrblhRajBMcWNtSEd2ZmhsUmN0ZmFpTVFoZWlsS2Q4c0VQbWhlUV92YU1vdTNoVEMyd0t4bjJWaERIQ2VKeWdYUnVxQ2JlUTQ1dkRLY3Z2ZlpOM0hHMkVfdXd5alpUMWk5R1ZGUjN3V240dXQzTnk2Yjk0b1QwYVBjSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1553
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1554
     },
     {
-      "date": "Aug 01",
-      "text": "Hormuz Traffic Levels Continue Decreasing, Houthis in Yemen Threaten Saudi Tankers.",
+      "date": "Jul 31",
+      "text": "Israel is poised to return to the Iran war in what are described as the heaviest US strikes yet.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNbW84blJKOVQ2alloVEd5VUgwNWVaR3MycmFwZkZpaUJHWTZNOGRaZXpKVXFGLVNnN0hZLW1EWWxLeW1iZjZTaUdxbFBpSjhMaHpOUU5nbzBpX1I0XzFEWEUtMDBZTXNBNzlNbU5BbjA1OG1ZcjZMeURydk15QWg2dWFpbkE3YVUyWkVJV19LUkdiUWdlWEZ5Nk03al9nZUVnakE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Telegraph",
+      "latestSinceUpdate": 1554
+    },
+    {
+      "date": "Jul 31",
+      "text": "Traffic in the Strait of Hormuz continues to decrease, with Houthis in Yemen threatening Saudi tankers.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1554
+    },
+    {
+      "date": "Jul 31",
+      "text": "IDF kills several Hezbollah gunmen in south Lebanon strike and demolishes Hezbollah tunnels.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPcFg2VUdLSVRRclNHYVVfNEQ2SWx6amVDZmVZWnlCbHVJWXVmTXA3N2NnRHR6am5uQzROemR2bEhpSmNfZWVoVGxDMExrS1d4S0JFM1dDUzRDWWYzZjFKNWNrb05uOG5rcVpkalYtMV8tWUcweXJTQUFRcWo4bklIUzZfOF9KNjBwak5GaV9USmpGeVEycHEzSG5EVGRkYzVqaDJnXzVJZk0zWlpaZ3lzYjh5YVY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "USNI News",
-      "latestSinceUpdate": 1553
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxQZU5sODdaQXV5OFY5SldkYU5USGdjdjR3Vkh3M185TWdPSFNJUFNucHEwbkdtaWdfbTFXQ2t3MlA4RGN5Ulo4dVgtYjR2ZXdwUExnRE9Ya1JHSjVlcTJZVkFxeElNUW9zdGxWYUpkNVg5bVVyMDdOeXBaZHlOLTc5cnNaaDhtUHhJbjM3XzJWVlBUVGF5bldLdC1ncnRRSDJOaFVwS3ctT3U2ZHVhb05YT3EwZ0lGUGNRQ0U2aEllWHpEbHlvcVpQNA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1554
     },
     {
-      "date": "Aug 01",
-      "text": "Iran Says It Targeted U.S. Military in Kuwait With Drones.",
+      "date": "Jul 31",
+      "text": "Iran says it targeted U.S. Military in Kuwait with drones.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOTUVwdnRiNDE3WndaUEZrMG5EUjl2VTROX3R1bjZVRGphYTkxNE1valRKMjIzT1FKcmlhMl9jcUl3WmlBTi0talRLQnJMRm9lQ0VoZW9BWE13dS1QVTJ2aGpNdEE5eW4wd01nOVpxLWpIZFViNHVMV0dzUFNUVWJqMXB0Unc0VVBxWEItR3FLcWhNN2lIQmtoUA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1553
-    },
-    {
-      "date": "Aug 01",
-      "text": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxQa3h1dDZtLURRWlJPYmlkLXc3UEZlaFhmUTJudm4wSTNtR1JyQk9BaC11VmtJZzE1NXR2MmYtaFphVzdpalpQSUh2WkJaUERLbUlMTWV1NEZWeVdrMDBDUGRLMG9mSGViRE5hazRTdk9RRFlWRklWeEtTNjhzRmVHOUd5YXBzdDBHUWIwblp1TXpOeVZxZFlvWGxkYlkycnpGQ3d1RENMR01zQjdOZ0ZuXzZzRmFSR2NMSlRxTmxnYVVnZHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1553
+      "latestSinceUpdate": 1554
     }
   ],
   "sourceStatuses": [
