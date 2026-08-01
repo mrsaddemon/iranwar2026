@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1548,
+  "updateSequence": 1549,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T09:24:09.304Z",
+  "lastSyncedAt": "2026-08-01T11:01:40.017Z",
   "warDay": 155,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 21,
-    "summary": "No active ceasefire is in effect for the US-Iran conflict, though a Hamas disarmament deal is being brokered."
+    "summary": "No active ceasefire is in effect for the broader conflict, though diplomatic efforts for a Gaza peace deal are reported."
   }
 }
