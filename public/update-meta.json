@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1554,
+  "updateSequence": 1555,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T16:40:01.599Z",
+  "lastSyncedAt": "2026-08-01T17:45:23.615Z",
   "warDay": 155,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No ceasefire is active; the conflict between the US, Israel, and Iran is escalating."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   }
 }
