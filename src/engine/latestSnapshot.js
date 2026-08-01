@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1550,
+  "updateSequence": 1551,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T12:07:27.036Z",
+  "lastSyncedAt": "2026-08-01T13:48:45.277Z",
   "warDay": 155,
-  "summary": "The US-Iran war continues to escalate with Iran attacking Kuwait and US forces, a tanker strike in the Strait of Hormuz, and US preparations for further strikes, while Israel conducts operations against Hezbollah in Lebanon.",
+  "summary": "The US-Iran conflict continues to expand, drawing in more regional actors like Egypt and Kuwait, while the US and Israel prepare to target Iranian energy infrastructure and tensions persist in Lebanon.",
   "lastNarrativeUpdate": "2026-08-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire is reported amidst ongoing conflict."
+    "summary": "No active ceasefire is reported for the ongoing US-Iran conflict, though diplomatic efforts for Gaza peace are mentioned."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.85,
+        "aggression": 0.9
+      }
+    },
+    "iran": {
       "metrics": {
         "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
-      }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "nuclearIndex": 40,
+    "escalationLevel": 95,
+    "oilDisruption": 90,
+    "tradeImpact": 82,
+    "sanctionsPressure": 65,
+    "globalPressure": 88,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -67,50 +67,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1549
     },
     {
-      "date": "Jul 31",
+      "date": "Jul 30",
+      "text": "Egypt struck for the first time as US-Iran conflict pulls in more countries.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBDZ0dMZk1tUGZDZlItTm1MSmR2ODExY2t6VFVCeC0xTy1IVENybUZIalVuSmw1cWI0ZlN3MTNvX3ZxMy1aUlFiSkg5ejVwQzhxc3loWmRRUEFoVnZIdUd6cWpaSFZyU1hPWWpLSFFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1551
+    },
+    {
+      "date": "Jul 30",
+      "text": "Iran warns US will 'pay the price' for Qeshm civilians killed.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1551
+    },
+    {
+      "date": "Jul 30",
       "text": "Iran attacks Kuwait and threatens the region with 'flames of war'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1550
+      "latestSinceUpdate": 1551
     },
     {
-      "date": "Jul 31",
-      "text": "Iran's war with the US continues amidst mounting internal crises.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1550
-    },
-    {
-      "date": "Jul 31",
-      "text": "US allies show reluctance to intervene in the escalating Iran war.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1550
-    },
-    {
-      "date": "Jul 31",
-      "text": "Iran accuses the U.S. of escalating tensions as Washington prepares new strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "Jul 30",
+      "text": "US and Israel are reportedly preparing to bombard energy-related targets in Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPWlZrblhRajBMcWNtSEd2ZmhsUmN0ZmFpTVFoZWlsS2Q4c0VQbWhlUV92YU1vdTNoVEMyd0t4bjJWaERIQ2VKeWdYUnVxQ2JlUTQ1dkRLY3Z2ZlpOM0hHMkVfdXd5alpUMWk5R1ZGUjN3V240dXQzTnk2Yjk0b1QwYVBjSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1550
+      "latestSinceUpdate": 1551
     },
     {
-      "date": "Jul 31",
-      "text": "Iraq states it had no prior knowledge of US-Saudi attacks.",
+      "date": "Jul 30",
+      "text": "Iraq states it had 'no prior knowledge' of US-Saudi attacks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "theguardian.com",
-      "latestSinceUpdate": 1550
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1551
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
