@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1544,
-  "lastUpdated": "2026-07-31",
-  "lastSyncedAt": "2026-07-31T23:45:29.740Z",
-  "warDay": 154,
-  "summary": "The US-Iran conflict has expanded, drawing in Egypt and Kuwait, with continued US strikes on Iran and Iranian retaliation, leading to rising oil prices due to Strait of Hormuz disruptions.",
-  "lastNarrativeUpdate": "2026-07-31",
+  "updateSequence": 1545,
+  "lastUpdated": "2026-08-01",
+  "lastSyncedAt": "2026-08-01T01:17:57.765Z",
+  "warDay": 155,
+  "summary": "US and Iran strikes have intensified, with the US planning further actions and Iran responding by striking tankers and threatening the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-08-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire is in effect as the conflict continues to expand."
+    "summary": "No ceasefire is currently active as strikes between the US and Iran intensify."
   },
   "actorOverrides": {
     "usa": {
@@ -18,17 +18,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.55,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 15,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Jul 30",
-      "text": "Egypt was struck for the first time as the US-Iran conflict expanded to involve more countries.",
+      "date": "Aug 01",
+      "text": "US plans fresh strikes on Iran as soon as this weekend, officials say",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBDZ0dMZk1tUGZDZlItTm1MSmR2ODExY2t6VFVCeC0xTy1IVENybUZIalVuSmw1cWI0ZlN3MTNvX3ZxMy1aUlFiSkg5ejVwQzhxc3loWmRRUEFoVnZIdUd6cWpaSFZyU1hPWWpLSFFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9iVnVVVTJXMFNiMEdId3ZvWWhnYVNhUHZTOU0xc2VfQ3ZCZUhfVzlCaldRWFJCXzJzOUQ0SUh3b0tpVUtmNzZwbEphNVpPVkh1eWRfd21rdGhScEFvUmVrUGFSbWZOMTdIX2Y3bGh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1544
+      "latestSinceUpdate": 1545
     },
     {
-      "date": "Jul 30",
-      "text": "The US conducted strikes on dozens of targets in Iran overnight, impacting peace efforts.",
+      "date": "Aug 01",
+      "text": "Iran says passage through Hormuz 'not feasible'",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1545
+    },
+    {
+      "date": "Aug 01",
+      "text": "US hits dozens of targets in Iran overnight as peace efforts under threat",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 1544
+      "latestSinceUpdate": 1545
     },
     {
-      "date": "Jul 30",
-      "text": "Iran claimed to have targeted US military installations in Kuwait with drones.",
+      "date": "Aug 01",
+      "text": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1544
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQa0Nlc3FFeTZIM0dHUG8wYm9yaXhpOFBRSzJNQ09nZW9aUHlCWU5hU1ZZOE1XVXdhcXVmZnJiZzgtaGdSbkU2Y2FsZXlWOXp1LXdGT2t3MHhGZGlwS095dURvODFaSUlSRER3aHl1Z3ZMbVlPWThNUExqTnZuZ2ZwZmxOUmJ2bXo4d1RwX3VILXpiLW1fTEgxMm5NQ0RrZjQ3cUlGZG5DY2FGRmQwdHkwcjJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1545
     },
     {
-      "date": "Jul 30",
-      "text": "Iran stated it attacked two tankers and stopped ships transiting the Strait of Hormuz, leading to increased oil prices.",
-      "severity": "critical",
+      "date": "Aug 01",
+      "text": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPQ0l6N3lHU1dIT0dUQk9NYlJoVzY4c2lUcHlCa1l6eVNpeF9wakZUbWpKQ3pPZE1tb1NDT0pkZ2oyMmJDSTR3UUpmQ09KUWMwU0h5SHRSTFlhcHRGcGtvOHVKeTRmdGQ5aUtMYmYtQjVMRjBneFJ1Y0JXbkwxdTlHNkhESk91T0kyQ3fSAY8BQVVfeXFMTWd0U2pVRmhJNTNYVEFOaE4yTUU2enFTQWowRkY5aUlodkhtX2RfeTlYd3RVVFkxWnFqY1huYUxGQlcxZWFwcHRXSzg4QjA3czNibzFFalBMWU9aSVN6Q2tfV0kwWXctb3FvVnFvUGZsTzVGSHdpYTNPdUlZc3VpbExUUlBiblJBdDFWSzFjTUU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 1544
+      "latestSinceUpdate": 1545
     },
     {
-      "date": "Jul 30",
-      "text": "Oil prices rose following Iran's actions in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1544
-    },
-    {
-      "date": "Jul 30",
-      "text": "The IDF destroyed a Hezbollah tunnel network beneath Beaufort Ridge in South Lebanon.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1544
+      "date": "Aug 01",
+      "text": "IDF Destroys Hezbollah Tunnel Network Beneath Beaufort Ridge In South Lebanon",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOZjYxV0dFZ0dGRzZqc1BobGU3VHk3TnB5aGJYX3lCa1V4RnFwU2ZwUEYwZkRfS1dBRmI2V0xyM1pjTEhmc1JuM2hUSVNORVhUTTZ4ZW5hQlpoYW9xeDNkQzctZ1ZpNDhXQzRPTmQ4WDVfNU5JSlcwRG9pRWE1MUdnZGRKQXRhbUR0OUNVLURBbEt4V1BFR3FsMTZkWnRCNHpjY2JqeWo3eUd3QlVuR2tfc3NyQlBfU1YzVTBNMVBjdWNDWFM2WV9r?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "i24NEWS",
+      "latestSinceUpdate": 1545
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Allies",
-      "headline": "US Responds to Attacks Amidst Regional Expansion",
-      "summary": "American forces are actively responding to attacks on their troops by hitting Iranian targets, while also navigating the expansion of the conflict to new regional fronts. Concerns are being raised domestically regarding the treatment of wounded US personnel.",
+      "perspective": "US/Israel",
+      "headline": "US and Israel Intensify Strikes on Iran, Target Hezbollah",
+      "summary": "The US is planning and executing fresh, heavy strikes on Iran, often in coordination with Israel, while also targeting Hezbollah infrastructure. President Trump is reportedly pressuring Israel regarding a Hamas disarmament deal amidst the widening conflict.",
       "tone": "strained",
-      "latestSinceUpdate": 1532
+      "latestSinceUpdate": 1545
     },
     {
       "perspective": "Iran",
-      "headline": "Iran Vows Retaliation and Stands Firm Against Enemy",
-      "summary": "Iran views recent US actions as requiring retaliation for civilian casualties and urges its population to remain steadfast against perceived enemies. Tehran also claims to be nearing a deal with the US, even as it tightens its control over the Strait of Hormuz.",
+      "headline": "Iran Vows Retaliation, Threatens Hormuz Passage Amid US Strikes",
+      "summary": "Iran has vowed to make the US 'pay the price' for civilian casualties and has responded to US strikes by attacking tankers in the Strait of Hormuz, declaring passage 'not feasible.' Iranian leadership urges citizens to stand firm against the enemy as strikes intensify.",
       "tone": "defiant",
-      "latestSinceUpdate": 1532
+      "latestSinceUpdate": 1545
     },
     {
-      "perspective": "Israel/Hezbollah",
-      "headline": "Israel Engages Hezbollah While Halting Iran Strikes",
-      "summary": "Israel is conducting air strikes in Lebanon and engaging Hezbollah forces, including demolishing tunnels. Simultaneously, Israel temporarily halted strikes against Iran following US diplomatic claims, indicating a complex and multi-front security situation.",
+      "perspective": "Regional Impact",
+      "headline": "Hezbollah Adapts Tactics as Regional Conflict Widens",
+      "summary": "Hezbollah is increasingly employing FPV drones, requiring Israeli overmatch, while the IDF continues to destroy its tunnel networks in South Lebanon. Iraq has denied prior knowledge of US-Saudi attacks, highlighting the complex regional dynamics of the escalating conflict.",
       "tone": "anxious",
-      "latestSinceUpdate": 1532
+      "latestSinceUpdate": 1545
     }
   ]
 });
