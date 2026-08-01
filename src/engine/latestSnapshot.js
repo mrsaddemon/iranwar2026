@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1546,
+  "updateSequence": 1547,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T04:40:50.840Z",
+  "lastSyncedAt": "2026-08-01T07:17:42.491Z",
   "warDay": 155,
-  "summary": "The conflict in the Middle East continues to be the primary focus of international attention.",
+  "summary": "The Middle East conflict continues to be a central focus for international observers.",
   "lastNarrativeUpdate": "2026-08-01",
   "ceasefire": {
     "active": false,
@@ -15,11 +15,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.4
+        "aggression": 0.55
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 25,
     "escalationLevel": 70,
-    "oilDisruption": 60,
-    "tradeImpact": 56,
+    "oilDisruption": 65,
+    "tradeImpact": 59,
     "sanctionsPressure": 65,
-    "globalPressure": 80,
+    "globalPressure": 81,
     "allianceInfluence": 73
   },
   "alliance": {
