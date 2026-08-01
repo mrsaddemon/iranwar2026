@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1551,
+  "updateSequence": 1552,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T13:48:45.277Z",
+  "lastSyncedAt": "2026-08-01T14:47:54.418Z",
   "warDay": 155,
-  "summary": "The US-Iran conflict continues to expand, drawing in more regional actors like Egypt and Kuwait, while the US and Israel prepare to target Iranian energy infrastructure and tensions persist in Lebanon.",
+  "summary": "The US war with Iran is escalating, marked by regional attacks, threats to shipping in the Strait of Hormuz, and preparations for further strikes on energy targets, while Hezbollah remains active in southern Lebanon.",
   "lastNarrativeUpdate": "2026-08-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire is reported for the ongoing US-Iran conflict, though diplomatic efforts for Gaza peace are mentioned."
+    "summary": "No ceasefire is currently active; hostilities between the US, Israel, and Iran are escalating."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 95
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.9
+        "aggression": 0.8
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 75
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.95
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 95,
-    "oilDisruption": 90,
-    "tradeImpact": 82,
-    "sanctionsPressure": 65,
-    "globalPressure": 88,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Jul 31",
-      "text": "Trump touts progress on Gaza peace effort as war with Iran drags on.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9iVnVVVTJXMFNiMEdId3ZvWWhnYVNhUHZTOU0xc2VfQ3ZCZUhfVzlCaldRWFJCXzJzOUQ0SUh3b0tpVUtmNzZwbEphNVpPVkh1eWRfd21rdGhScEFvUmVrUGFSbWZOMTdIX2Y3bGh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1549
-    },
-    {
-      "date": "Jul 30",
-      "text": "Egypt struck for the first time as US-Iran conflict pulls in more countries.",
+      "text": "Reports indicate the US war on Iran is spinning out of control, with Tehran accusing the US of escalating tensions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBDZ0dMZk1tUGZDZlItTm1MSmR2ODExY2t6VFVCeC0xTy1IVENybUZIalVuSmw1cWI0ZlN3MTNvX3ZxMy1aUlFiSkg5ejVwQzhxc3loWmRRUEFoVnZIdUd6cWpaSFZyU1hPWWpLSFFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1551
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1552
     },
     {
-      "date": "Jul 30",
-      "text": "Iran warns US will 'pay the price' for Qeshm civilians killed.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1551
-    },
-    {
-      "date": "Jul 30",
-      "text": "Iran attacks Kuwait and threatens the region with 'flames of war'.",
+      "date": "Jul 31",
+      "text": "Iran attacked Kuwait with drones and threatened the region with 'flames of war' in response to US-Saudi actions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1551
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1552
     },
     {
-      "date": "Jul 30",
-      "text": "US and Israel are reportedly preparing to bombard energy-related targets in Iran.",
+      "date": "Jul 31",
+      "text": "The US and Israel are reportedly preparing to bombard energy-related targets in Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPWlZrblhRajBMcWNtSEd2ZmhsUmN0ZmFpTVFoZWlsS2Q4c0VQbWhlUV92YU1vdTNoVEMyd0t4bjJWaERIQ2VKeWdYUnVxQ2JlUTQ1dkRLY3Z2ZlpOM0hHMkVfdXd5alpUMWk5R1ZGUjN3V240dXQzTnk2Yjk0b1QwYVBjSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1551
+      "latestSinceUpdate": 1552
     },
     {
-      "date": "Jul 30",
-      "text": "Iraq states it had 'no prior knowledge' of US-Saudi attacks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1551
+      "date": "Jul 31",
+      "text": "Iran announced it stopped ships in the Strait of Hormuz, leading to a rise in oil prices and a drop in traffic.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1552
+    },
+    {
+      "date": "Jul 31",
+      "text": "The IDF demolished Hezbollah tunnels below southern Lebanon’s Beaufort Ridge, amidst ongoing Hezbollah drone activity.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPa2xZNWtfdld2Vm9BUEhUWkp0ZnNGUmlDakVadXo3REwxbkR6aXFoMzV4bVpaMnNyN0xPR3Y4Qk41M3dPdjNONWg3b01yb2xOM1ljYjRPZ0dlMnVHSnotYVhSR0ZQREZHWXUtaDhDelpzeFlNTHR2N2VWNXA2UVloMTZ0b1ZNeXB4N0IybWw2cWdwdkdzRkNuSElDRXBrUkYyZGlvZtIBqgFBVV95cUxNOVVpemp2V2VFT1pnN0YxR3d6NnFubzBQRXBuUHBNQmxUWXVCT3dPSWZRaVNOZUJ6OVFiMEtmdnJiT0V6T3p2WHREQ1M4d2FYMXNuM2t1RUx1eUJYdTdmZWd0OWgtQk5mMUNHTzgyTmxxbFhrTGxrTE9tMW1qWm9wcVpMeGVBUk15NnI5UWF4YldfUkZ5YXlRMHc2MTVjc01hVnF2N3NXM3IyQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1552
+    },
+    {
+      "date": "Jul 31",
+      "text": "A U.S. general warned the Pentagon about insufficient forces to protect Israel amidst regional tensions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxQa3h1dDZtLURRWlJPYmlkLXc3UEZlaFhmUTJudm4wSTNtR1JyQk9BaC11VmtJZzE1NXR2MmYtaFphVzdpalpQSUh2WkJaUERLbUlMTWV1NEZWeVdrMDBDUGRLMG9mSGViRE5hazRTdk9RRFlWRklWeEtTNjhzRmVHOUd5YXBzdDBHUWIwblp1TXpOeVZxZFlvWGxkYlkycnpGQ3d1RENMR01zQjdOZ0ZuXzZzRmFSR2NMSlRxTmxnYVVnZHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1552
     }
   ],
   "sourceStatuses": [
