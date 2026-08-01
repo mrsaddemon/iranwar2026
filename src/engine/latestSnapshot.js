@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1545,
+  "updateSequence": 1546,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T01:17:57.765Z",
+  "lastSyncedAt": "2026-08-01T04:40:50.840Z",
   "warDay": 155,
-  "summary": "US and Iran strikes have intensified, with the US planning further actions and Iran responding by striking tankers and threatening the Strait of Hormuz.",
+  "summary": "The conflict in the Middle East continues to be the primary focus of international attention.",
   "lastNarrativeUpdate": "2026-08-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No ceasefire is currently active as strikes between the US and Iran intensify."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   },
   "actorOverrides": {
     "usa": {
@@ -18,99 +18,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 20,
+    "escalationLevel": 70,
+    "oilDisruption": 60,
+    "tradeImpact": 56,
+    "sanctionsPressure": 65,
+    "globalPressure": 80,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
-  "recentEvents": [
-    {
-      "date": "Aug 01",
-      "text": "US plans fresh strikes on Iran as soon as this weekend, officials say",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9iVnVVVTJXMFNiMEdId3ZvWWhnYVNhUHZTOU0xc2VfQ3ZCZUhfVzlCaldRWFJCXzJzOUQ0SUh3b0tpVUtmNzZwbEphNVpPVkh1eWRfd21rdGhScEFvUmVrUGFSbWZOMTdIX2Y3bGh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1545
-    },
-    {
-      "date": "Aug 01",
-      "text": "Iran says passage through Hormuz 'not feasible'",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1545
-    },
-    {
-      "date": "Aug 01",
-      "text": "US hits dozens of targets in Iran overnight as peace efforts under threat",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1545
-    },
-    {
-      "date": "Aug 01",
-      "text": "Iran strikes tankers under US escort in Hormuz strait as Trump gathers cabinet to discuss war",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQa0Nlc3FFeTZIM0dHUG8wYm9yaXhpOFBRSzJNQ09nZW9aUHlCWU5hU1ZZOE1XVXdhcXVmZnJiZzgtaGdSbkU2Y2FsZXlWOXp1LXdGT2t3MHhGZGlwS095dURvODFaSUlSRER3aHl1Z3ZMbVlPWThNUExqTnZuZ2ZwZmxOUmJ2bXo4d1RwX3VILXpiLW1fTEgxMm5NQ0RrZjQ3cUlGZG5DY2FGRmQwdHkwcjJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1545
-    },
-    {
-      "date": "Aug 01",
-      "text": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPQ0l6N3lHU1dIT0dUQk9NYlJoVzY4c2lUcHlCa1l6eVNpeF9wakZUbWpKQ3pPZE1tb1NDT0pkZ2oyMmJDSTR3UUpmQ09KUWMwU0h5SHRSTFlhcHRGcGtvOHVKeTRmdGQ5aUtMYmYtQjVMRjBneFJ1Y0JXbkwxdTlHNkhESk91T0kyQ3fSAY8BQVVfeXFMTWd0U2pVRmhJNTNYVEFOaE4yTUU2enFTQWowRkY5aUlodkhtX2RfeTlYd3RVVFkxWnFqY1huYUxGQlcxZWFwcHRXSzg4QjA3czNibzFFalBMWU9aSVN6Q2tfV0kwWXctb3FvVnFvUGZsTzVGSHdpYTNPdUlZc3VpbExUUlBiblJBdDFWSzFjTUU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1545
-    },
-    {
-      "date": "Aug 01",
-      "text": "IDF Destroys Hezbollah Tunnel Network Beneath Beaufort Ridge In South Lebanon",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOZjYxV0dFZ0dGRzZqc1BobGU3VHk3TnB5aGJYX3lCa1V4RnFwU2ZwUEYwZkRfS1dBRmI2V0xyM1pjTEhmc1JuM2hUSVNORVhUTTZ4ZW5hQlpoYW9xeDNkQzctZ1ZpNDhXQzRPTmQ4WDVfNU5JSlcwRG9pRWE1MUdnZGRKQXRhbUR0OUNVLURBbEt4V1BFR3FsMTZkWnRCNHpjY2JqeWo3eUd3QlVuR2tfc3NyQlBfU1YzVTBNMVBjdWNDWFM2WV9r?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 1545
-    }
-  ],
+  "recentEvents": [],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "no recent items"
     },
     {
       "source": "GDELT",
