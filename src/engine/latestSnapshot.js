@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1556,
+  "updateSequence": 1557,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T18:43:37.355Z",
+  "lastSyncedAt": "2026-08-01T19:59:11.066Z",
   "warDay": 155,
   "summary": "The ongoing conflict in the Middle East remains the primary focus for international observers on War Day 155.",
   "lastNarrativeUpdate": "2026-08-01",
@@ -60,35 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 01",
-      "text": "July 31, 2026 — Trump touts progress on Gaza peace effort as war with Iran drags on",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9iVnVVVTJXMFNiMEdId3ZvWWhnYVNhUHZTOU0xc2VfQ3ZCZUhfVzlCaldRWFJCXzJzOUQ0SUh3b0tpVUtmNzZwbEphNVpPVkh1eWRfd21rdGhScEFvUmVrUGFSbWZOMTdIX2Y3bGh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1556
-    },
-    {
-      "date": "Aug 01",
-      "text": "US hits dozens of targets in Iran overnight as peace efforts under threat",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1556
-    },
-    {
-      "date": "Aug 01",
-      "text": "New Strikes Engulf More Countries in the Iran War",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNSDFXRnZYalhsWXp0YllnODNxNHUzRVlCQmRIaFZJX1JEY0JKSkVBMXUxX09kendCVjcwMXFTSTlIdWVsbFR4X0EyTVR6UU1TMm56YlRCUXZaaDhpeGEtWEp6UGhpR3pIdUJFOUdpQkxpa2c2VWtXTmVYLWxzUU5NcFgtd2diOXdwVkJqeWJfSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1556
-    },
-    {
-      "date": "Aug 01",
       "text": "Trump gets conflicting messages as he seeks an exit ramp from the Iran war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE93ZlhTYXctWDVxYkdrcHF2ajNzbmNTRnVBd01PWjVUblB4SGVMcnpLNWF3TU9jb2VCek1qWm9oSzBNcFZ6MjUzMW9sTVVCeEUwMWxsblNMbWtQaFJNeXA3anpmVHVueVJsbkwxXy1Ka1l4dTVOSV9ReHhWSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1556
+    },
+    {
+      "date": "Aug 01",
+      "text": "The US war on Iran is spinning out of control",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1557
+    },
+    {
+      "date": "Aug 01",
+      "text": "Iran war updates: US to ‘pay the price’ for Qeshm civilians killed – Tehran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1557
+    },
+    {
+      "date": "Aug 01",
+      "text": "Amid escalation, US allies hang back on intervening in Iran war",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLUxVbDVpM1BTaFdvR25xMTY5N3BvSVFKSEc4ekNSY2QyS3FtM1hyTzFMV3V2ZG5sSnotR0JKWE1XU0NXX29fR3Q3aVFnYnRsb3g0YVZ0TjNvNllsbTNNdERxWHBHa0MyVnVTaHFnZTRTMkM1c1ZlZWM0TFBpVDZYNTBhYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1557
     },
     {
       "date": "Aug 01",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
