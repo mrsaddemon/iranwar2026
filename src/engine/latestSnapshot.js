@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1559,
+  "updateSequence": 1560,
   "lastUpdated": "2026-08-01",
-  "lastSyncedAt": "2026-08-01T22:04:15.717Z",
+  "lastSyncedAt": "2026-08-01T23:03:43.541Z",
   "warDay": 155,
   "summary": "The ongoing conflict in the Middle East remains the primary focus for international observers on War Day 155.",
   "lastNarrativeUpdate": "2026-08-01",
@@ -76,11 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 01",
-      "text": "Iran war updates: US to ‘pay the price’ for Qeshm civilians killed – Tehran",
+      "text": "Amid escalation, US allies hang back on intervening in Iran war",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1557
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLUxVbDVpM1BTaFdvR25xMTY5N3BvSVFKSEc4ekNSY2QyS3FtM1hyTzFMV3V2ZG5sSnotR0JKWE1XU0NXX29fR3Q3aVFnYnRsb3g0YVZ0TjNvNllsbTNNdERxWHBHa0MyVnVTaHFnZTRTMkM1c1ZlZWM0TFBpVDZYNTBhYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1560
     },
     {
       "date": "Aug 01",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 01",
-      "text": "Live Updates: Iran accuses U.S. of escalating tensions as Washington prepares new strikes",
+      "text": "Israel said to assess Iran will fire missiles at it even if it doesn’t initially join new US offensive",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1556
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTFBxallOc2RjZFVpVnZjQkNzVENaejB6QnY4Z1B6SUpadGdhQlE3TXpPekJmOGJTdXlhWmwxRjY5bjJDT1YyclBFNWZxTlRVamYzU3daUnBsQ1NqRHpkMURIb0dDTkXSAWpBVV95cUxQX0VnSXNZSzk2TmtfMVpKUF8zeEpYZ05WSnJ2d0lmN1E2QlBuS0phaUVRRWswMUZrYjhKWHRkVENTNy1UTThGYnJqOVJLdXQ0NDFfb0syMGlzRHJiUmZwNmIzVVR1RkgtUE1n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1560
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
