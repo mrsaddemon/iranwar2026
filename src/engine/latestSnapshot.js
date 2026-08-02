@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1573,
+  "updateSequence": 1574,
   "lastUpdated": "2026-08-02",
-  "lastSyncedAt": "2026-08-02T19:48:24.296Z",
+  "lastSyncedAt": "2026-08-02T20:37:47.112Z",
   "warDay": 156,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-02",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 21,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 10,
     "escalationLevel": 38,
     "oilDisruption": 60,
-    "tradeImpact": 50,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
+    "tradeImpact": 34,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -75,18 +75,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 02",
-      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+      "text": "Trump backs down on Iran strikes in expectation of ‘rapidly’ reaching a deal",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1573
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQczZBcUg1UEtfYzNTQm83WWRMZjl1LTlGZXJNNkE3Sk5ydlBDem83Vy1VckRxa19BeUo0eDd2MWVTTFB0VjdZcE1DSnJjeVZXNjJZSFZmTmpydlp1TTctblZWYzNJME9FTC12OGhfdC1RaTliQzd2WmRZQlBZb2hZTTNleHczWVpxVS1IcHBoRlhnOUJMMWNnenpDMW5zYk94aldjNzBDbFAzamxzelZMaUdDbVZBOWFlb3R1Q1pR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "theguardian.com",
+      "latestSinceUpdate": 1574
     },
     {
       "date": "Aug 02",
-      "text": "Amid escalation, US allies hang back on intervening in Iran war",
+      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLUxVbDVpM1BTaFdvR25xMTY5N3BvSVFKSEc4ekNSY2QyS3FtM1hyTzFMV3V2ZG5sSnotR0JKWE1XU0NXX29fR3Q3aVFnYnRsb3g0YVZ0TjNvNllsbTNNdERxWHBHa0MyVnVTaHFnZTRTMkM1c1ZlZWM0TFBpVDZYNTBhYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "politico.com"
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "nytimes.com",
+      "latestSinceUpdate": 1573
     },
     {
       "date": "Aug 02",
@@ -106,7 +107,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (14 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
