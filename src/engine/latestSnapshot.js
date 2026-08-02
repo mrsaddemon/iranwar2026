@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1566,
+  "updateSequence": 1567,
   "lastUpdated": "2026-08-02",
-  "lastSyncedAt": "2026-08-02T11:37:59.799Z",
+  "lastSyncedAt": "2026-08-02T12:43:22.887Z",
   "warDay": 156,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-02",
@@ -63,8 +63,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1563
+      "sourceName": "CNN"
+    },
+    {
+      "date": "Aug 02",
+      "text": "Iran war live: Trump cancels Iran attack; Israel kills 11 in Gaza",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQckRfaGFCa29xN2dPU2hUOUJVcjBTWFQyRW9UeGlfd2JzaVpVLUV0XzdSQmFwOFRBTlN2dF9wXzVzN1duRVVWa29jMWYxUmV0Z1poMlU1MlZ6TjZzbS12Ym03M0NRWm1CNG9HdHB4RVlMM3dORW5CYUtDSDBhRnBmQkc2a2FDS2U2VGlCYWVUR0ZHY3g1S0JjTHlOX1JZWEZSZEs1N01JZmQxV1hvVzd3QkJyWWVZSTJF0gG-AUFVX3lxTE9TRlJmVm5vQy1UaVNfMzMtamJHS25fNXNnZUlDaUhlRWV0cGhtR0cycXVLcjFXZlZFcWdWaWpOZHRfaUlEYzhQa2t3a0Y0QXN2U2NvazRfc19ZcWJUZFVTblVQUllqc1p3aUdUeUxWMEVNTXNDeWxabDhVMXRBRUdaY3hYLTk3Vy0wVVRTVi1wUkdrV1dqRUY1aWc3VGc0VkpPamRUcXdIY1FxXzJQd1ZJUHBYYlNEUTlOS1BJVXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1567
     },
     {
       "date": "Aug 02",
@@ -75,40 +82,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 02",
-      "text": "Iran war live: Trump cancels attack, calls for a ‘rapid’ deal on Hormuz",
+      "text": "Amid escalation, US allies hang back on intervening in Iran war",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQckRfaGFCa29xN2dPU2hUOUJVcjBTWFQyRW9UeGlfd2JzaVpVLUV0XzdSQmFwOFRBTlN2dF9wXzVzN1duRVVWa29jMWYxUmV0Z1poMlU1MlZ6TjZzbS12Ym03M0NRWm1CNG9HdHB4RVlMM3dORW5CYUtDSDBhRnBmQkc2a2FDS2U2VGlCYWVUR0ZHY3g1S0JjTHlOX1JZWEZSZEs1N01JZmQxV1hvVzd3QkJyWWVZSTJF0gG-AUFVX3lxTE9TRlJmVm5vQy1UaVNfMzMtamJHS25fNXNnZUlDaUhlRWV0cGhtR0cycXVLcjFXZlZFcWdWaWpOZHRfaUlEYzhQa2t3a0Y0QXN2U2NvazRfc19ZcWJUZFVTblVQUllqc1p3aUdUeUxWMEVNTXNDeWxabDhVMXRBRUdaY3hYLTk3Vy0wVVRTVi1wUkdrV1dqRUY1aWc3VGc0VkpPamRUcXdIY1FxXzJQd1ZJUHBYYlNEUTlOS1BJVXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1563
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLUxVbDVpM1BTaFdvR25xMTY5N3BvSVFKSEc4ekNSY2QyS3FtM1hyTzFMV3V2ZG5sSnotR0JKWE1XU0NXX29fR3Q3aVFnYnRsb3g0YVZ0TjNvNllsbTNNdERxWHBHa0MyVnVTaHFnZTRTMkM1c1ZlZWM0TFBpVDZYNTBhYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1567
     },
     {
       "date": "Aug 02",
-      "text": "Iran Plotted Wider War With Help of Its Proxies",
+      "text": "Live Updates: Trump says attack on Iran canceled after rough framework of deal reached",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNMDJlZkVkZ1NFVWZZOTV4b2U5bC0yVi1PUnJqNkpkNnBQZDh2TWJIS2U4dHRJYU9ib2o2a0dGMjgwM0JucDJiaUhmcm9YWmM5alB3Smw4NUNBbFVUNTQ2T3NvdC1sMmRGcGk5YUIyNGM1WXdhYjA2a0ZzTGZOdTl5Q0ZSRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1566
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1567
     },
     {
       "date": "Aug 02",
-      "text": "Iran war updates: Kuwait downs Iranian drones targeting vital facilities",
+      "text": "Israel raises alert: Iran conflict risks renewed escalation",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera"
-    },
-    {
-      "date": "Aug 02",
-      "text": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQdnVGdzU1TEZxRHNxVDc4SUJXMTViU1hYZkpXeXNnRlBvT29EdU16alJOajByWVI0WV9GU0pRY0twdWF1VGFsSklOc3BXd2ptQUFKMUJEcVREWVVFb1R4N3N1Y0pWdGlfZURLZElvaXpTdERVN2JLZmJ6TmhjU21ZZzhnQlZNeGhUUXlDdkpzeTBsU2FrRDhYMWE5VWhJb2hkaFpSYW9yVFkzWnJORFHSAbMBQVVfeXFMT3ktbzZJc3NHYTdxTWl4d0U4Nk53ZXVDTlV4bzhoMVI1cnExb0Q3eWVRdXhZcjQxcUE1OHp6TkMwb1N6M3J6YWc1bm1rUndNZnFkb0ZvS3VTbTNmeW9kN2xNbHhxMkJobG9MWnQ5LW9mV2FaLXQ0S3J2aGM5RnhEN05RRzZoTEdQUHhhUzRHR3M1NXprS3ktRndHd0xOcjdwV3l4SGcyLW1tS0g1YWhPLXZ1c2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1566
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBoTWhMdEJ3RjRvMXY0dWRDVmwzbV93MTFFTzktb2RpWnctSVN0T1JaRzc0WFJLMDUxc3B1dDhkU2h6dWpVZmU4UG9HWll3emRBTnlJaFgtaW9VRlNxanVaam1YY2tEY0ZUZGJBNW5n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1567
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
