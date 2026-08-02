@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1563,
+  "updateSequence": 1564,
   "lastUpdated": "2026-08-02",
-  "lastSyncedAt": "2026-08-02T06:21:59.428Z",
+  "lastSyncedAt": "2026-08-02T08:40:50.979Z",
   "warDay": 156,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-02",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
