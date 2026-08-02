@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1571,
+  "updateSequence": 1572,
   "lastUpdated": "2026-08-02",
-  "lastSyncedAt": "2026-08-02T17:36:15.157Z",
+  "lastSyncedAt": "2026-08-02T18:36:11.881Z",
   "warDay": 156,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-02",
@@ -60,18 +60,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 02",
-      "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
-    },
-    {
-      "date": "Aug 02",
       "text": "Iran war live: Saudi Arabia calls on Trump to prioritise dialogue",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQckRfaGFCa29xN2dPU2hUOUJVcjBTWFQyRW9UeGlfd2JzaVpVLUV0XzdSQmFwOFRBTlN2dF9wXzVzN1duRVVWa29jMWYxUmV0Z1poMlU1MlZ6TjZzbS12Ym03M0NRWm1CNG9HdHB4RVlMM3dORW5CYUtDSDBhRnBmQkc2a2FDS2U2VGlCYWVUR0ZHY3g1S0JjTHlOX1JZWEZSZEs1N01JZmQxV1hvVzd3QkJyWWVZSTJF0gG-AUFVX3lxTE9TRlJmVm5vQy1UaVNfMzMtamJHS25fNXNnZUlDaUhlRWV0cGhtR0cycXVLcjFXZlZFcWdWaWpOZHRfaUlEYzhQa2t3a0Y0QXN2U2NvazRfc19ZcWJUZFVTblVQUllqc1p3aUdUeUxWMEVNTXNDeWxabDhVMXRBRUdaY3hYLTk3Vy0wVVRTVi1wUkdrV1dqRUY1aWc3VGc0VkpPamRUcXdIY1FxXzJQd1ZJUHBYYlNEUTlOS1BJVXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1569
+    },
+    {
+      "date": "Aug 02",
+      "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 02",
@@ -86,7 +86,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Amid escalation, US allies hang back on intervening in Iran war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLUxVbDVpM1BTaFdvR25xMTY5N3BvSVFKSEc4ekNSY2QyS3FtM1hyTzFMV3V2ZG5sSnotR0JKWE1XU0NXX29fR3Q3aVFnYnRsb3g0YVZ0TjNvNllsbTNNdERxWHBHa0MyVnVTaHFnZTRTMkM1c1ZlZWM0TFBpVDZYNTBhYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "politico.com"
+      "sourceName": "Politico"
     },
     {
       "date": "Aug 02",
