@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1584,
+  "updateSequence": 1585,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T18:20:57.194Z",
+  "lastSyncedAt": "2026-08-03T20:03:26.664Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -67,11 +67,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+      "text": "Live updates: Iran discusses Strait of Hormuz deal with Oman but denies talks planned with US",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1583
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1585
     },
     {
       "date": "Aug 03",
@@ -83,19 +83,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "The US war on Iran is spinning out of control",
+      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
       "latestSinceUpdate": 1583
     },
     {
       "date": "Aug 03",
-      "text": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQdnVGdzU1TEZxRHNxVDc4SUJXMTViU1hYZkpXeXNnRlBvT29EdU16alJOajByWVI0WV9GU0pRY0twdWF1VGFsSklOc3BXd2ptQUFKMUJEcVREWVVFb1R4N3N1Y0pWdGlfZURLZElvaXpTdERVN2JLZmJ6TmhjU21ZZzhnQlZNeGhUUXlDdkpzeTBsU2FrRDhYMWE5VWhJb2hkaFpSYW9yVFkzWnJORFHSAbMBQVVfeXFMT3ktbzZJc3NHYTdxTWl4d0U4Nk53ZXVDTlV4bzhoMVI1cnExb0Q3eWVRdXhZcjQxcUE1OHp6TkMwb1N6M3J6YWc1bm1rUndNZnFkb0ZvS3VTbTNmeW9kN2xNbHhxMkJobG9MWnQ5LW9mV2FaLXQ0S3J2aGM5RnhEN05RRzZoTEdQUHhhUzRHR3M1NXprS3ktRndHd0xOcjdwV3l4SGcyLW1tS0g1YWhPLXZ1c2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1584
+      "text": "U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1585
     },
     {
       "date": "Aug 03",
