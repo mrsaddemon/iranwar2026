@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1586,
+  "updateSequence": 1587,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T21:14:53.258Z",
+  "lastSyncedAt": "2026-08-03T22:28:00.969Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -63,7 +63,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran Update Special Report, August 2, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOY01YQjAwWUJGWnhxTmN1TkZzMzlfYTI1YU9ZaEFXTjRuUWVzdEMzazRHN0ROOU9NN29QaXBDT3RaRXVIaEYtT0pnbWw3X21ySkdqci05bTBDZXptNFhwc2FLNnhrWGVIVDhLS0R6VGJGa3NXWHJHRWVsS3V4TzBNelhyaXZOMUJxYmlQaDY2eGtVeXlfM0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War"
+      "sourceName": "understandingwar.org"
     },
     {
       "date": "Aug 03",
@@ -94,7 +94,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
+      "sourceName": "cbsnews.com",
       "latestSinceUpdate": 1585
     },
     {
@@ -102,14 +102,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Aug. 1: Israel said to assess Iran will fire missiles at it even if it doesn’t initially join new US offensive",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTFBxallOc2RjZFVpVnZjQkNzVENaejB6QnY4Z1B6SUpadGdhQlE3TXpPekJmOGJTdXlhWmwxRjY5bjJDT1YyclBFNWZxTlRVamYzU3daUnBsQ1NqRHpkMURIb0dDTkXSAWpBVV95cUxQX0VnSXNZSzk2TmtfMVpKUF8zeEpYZ05WSnJ2d0lmN1E2QlBuS0phaUVRRWswMUZrYjhKWHRkVENTNy1UTThGYnJqOVJLdXQ0NDFfb0syMGlzRHJiUmZwNmIzVVR1RkgtUE1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1583
+      "sourceName": "The Times of Israel"
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
