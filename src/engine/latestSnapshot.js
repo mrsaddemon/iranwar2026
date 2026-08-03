@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1581,
+  "updateSequence": 1582,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T11:48:01.751Z",
+  "lastSyncedAt": "2026-08-03T14:04:09.375Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -68,19 +68,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "Live updates: Trump says Iran war talks to resume Monday after he called off strikes",
+      "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1580
+      "latestSinceUpdate": 1582
     },
     {
       "date": "Aug 03",
-      "text": "Iran war live: Iranian foreign ministry says no current talks with US",
+      "text": "Iran war live: Tehran says no current talks with US; Oman meetings ongoing",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1581
+      "latestSinceUpdate": 1582
     },
     {
       "date": "Aug 03",
@@ -92,25 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "U.S., Israel preparing to bombard energy-related targets in Iran, sources say",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPWlZrblhRajBMcWNtSEd2ZmhsUmN0ZmFpTVFoZWlsS2Q4c0VQbWhlUV92YU1vdTNoVEMyd0t4bjJWaERIQ2VKeWdYUnVxQ2JlUTQ1dkRLY3Z2ZlpOM0hHMkVfdXd5alpUMWk5R1ZGUjN3V240dXQzTnk2Yjk0b1QwYVBjSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1581
+      "text": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQdnVGdzU1TEZxRHNxVDc4SUJXMTViU1hYZkpXeXNnRlBvT29EdU16alJOajByWVI0WV9GU0pRY0twdWF1VGFsSklOc3BXd2ptQUFKMUJEcVREWVVFb1R4N3N1Y0pWdGlfZURLZElvaXpTdERVN2JLZmJ6TmhjU21ZZzhnQlZNeGhUUXlDdkpzeTBsU2FrRDhYMWE5VWhJb2hkaFpSYW9yVFkzWnJORFHSAbMBQVVfeXFMT3ktbzZJc3NHYTdxTWl4d0U4Nk53ZXVDTlV4bzhoMVI1cnExb0Q3eWVRdXhZcjQxcUE1OHp6TkMwb1N6M3J6YWc1bm1rUndNZnFkb0ZvS3VTbTNmeW9kN2xNbHhxMkJobG9MWnQ5LW9mV2FaLXQ0S3J2aGM5RnhEN05RRzZoTEdQUHhhUzRHR3M1NXprS3ktRndHd0xOcjdwV3l4SGcyLW1tS0g1YWhPLXZ1c2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1582
     },
     {
       "date": "Aug 03",
-      "text": "Iran war updates: Kuwait downs Iranian drones targeting vital facilities",
+      "text": "U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1579
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cbsnews.com",
+      "latestSinceUpdate": 1582
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
