@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1579,
+  "updateSequence": 1580,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T04:50:26.493Z",
+  "lastSyncedAt": "2026-08-03T08:15:41.320Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -60,27 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 03",
-      "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
+      "text": "Iran Update Special Report, August 2, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1578
-    },
-    {
-      "date": "Aug 03",
-      "text": "Iran Update Special Report, August 1, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPaEZCcHdyeGQ4VkZ5Ykx2VnBZMTRNM003bkxMelBWZ1p3UlRqUU84WHZCRDlIdFdNdXgtNzhHOWV6dTAxU0xjMnphV0VPYmljRE9MWVEtV0hmaGduS2V3SS04dGxIdnYwZ2NTbUtlbG1yUWhYZ2xnRlcyYkh3QmRUZUlLWFFBNHZuckt5RDJvWDVMc080LXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOY01YQjAwWUJGWnhxTmN1TkZzMzlfYTI1YU9ZaEFXTjRuUWVzdEMzazRHN0ROOU9NN29QaXBDT3RaRXVIaEYtT0pnbWw3X21ySkdqci05bTBDZXptNFhwc2FLNnhrWGVIVDhLS0R6VGJGa3NXWHJHRWVsS3V4TzBNelhyaXZOMUJxYmlQaDY2eGtVeXlfM0E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1579
+      "latestSinceUpdate": 1580
     },
     {
       "date": "Aug 03",
-      "text": "Trump backs down on Iran strikes in expectation of ‘rapidly’ reaching a deal",
+      "text": "Live updates: Trump says Iran war talks to resume Monday after he called off strikes",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQczZBcUg1UEtfYzNTQm83WWRMZjl1LTlGZXJNNkE3Sk5ydlBDem83Vy1VckRxa19BeUo0eDd2MWVTTFB0VjdZcE1DSnJjeVZXNjJZSFZmTmpydlp1TTctblZWYzNJME9FTC12OGhfdC1RaTliQzd2WmRZQlBZb2hZTTNleHczWVpxVS1IcHBoRlhnOUJMMWNnenpDMW5zYk94aldjNzBDbFAzamxzelZMaUdDbVZBOWFlb3R1Q1pR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1578
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1580
+    },
+    {
+      "date": "Aug 03",
+      "text": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1580
     },
     {
       "date": "Aug 03",
