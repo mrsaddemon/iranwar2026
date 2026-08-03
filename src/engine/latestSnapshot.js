@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1585,
+  "updateSequence": 1586,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T20:03:26.664Z",
+  "lastSyncedAt": "2026-08-03T21:14:53.258Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -67,11 +67,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "Live updates: Iran discusses Strait of Hormuz deal with Oman but denies talks planned with US",
+      "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1585
+      "latestSinceUpdate": 1586
     },
     {
       "date": "Aug 03",
@@ -83,11 +83,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+      "text": "Iran Plotted Wider War With Help of Its Proxies",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNMDJlZkVkZ1NFVWZZOTV4b2U5bC0yVi1PUnJqNkpkNnBQZDh2TWJIS2U4dHRJYU9ib2o2a0dGMjgwM0JucDJiaUhmcm9YWmM5alB3Smw4NUNBbFVUNTQ2T3NvdC1sMmRGcGk5YUIyNGM1WXdhYjA2a0ZzTGZOdTl5Q0ZSRQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1583
+      "latestSinceUpdate": 1586
     },
     {
       "date": "Aug 03",
@@ -109,7 +109,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
