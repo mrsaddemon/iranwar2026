@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1580,
+  "updateSequence": 1581,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T08:15:41.320Z",
+  "lastSyncedAt": "2026-08-03T11:48:01.751Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -76,19 +76,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU",
+      "text": "Iran war live: Iranian foreign ministry says no current talks with US",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1580
+      "latestSinceUpdate": 1581
     },
     {
       "date": "Aug 03",
-      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+      "text": "Iran Plotted Wider War With Help of Its Proxies",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNMDJlZkVkZ1NFVWZZOTV4b2U5bC0yVi1PUnJqNkpkNnBQZDh2TWJIS2U4dHRJYU9ib2o2a0dGMjgwM0JucDJiaUhmcm9YWmM5alB3Smw4NUNBbFVUNTQ2T3NvdC1sMmRGcGk5YUIyNGM1WXdhYjA2a0ZzTGZOdTl5Q0ZSRQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1578
+      "latestSinceUpdate": 1581
+    },
+    {
+      "date": "Aug 03",
+      "text": "U.S., Israel preparing to bombard energy-related targets in Iran, sources say",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPWlZrblhRajBMcWNtSEd2ZmhsUmN0ZmFpTVFoZWlsS2Q4c0VQbWhlUV92YU1vdTNoVEMyd0t4bjJWaERIQ2VKeWdYUnVxQ2JlUTQ1dkRLY3Z2ZlpOM0hHMkVfdXd5alpUMWk5R1ZGUjN3V240dXQzTnk2Yjk0b1QwYVBjSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1581
     },
     {
       "date": "Aug 03",
@@ -97,20 +105,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1579
-    },
-    {
-      "date": "Aug 03",
-      "text": "Live Updates: U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1578
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
