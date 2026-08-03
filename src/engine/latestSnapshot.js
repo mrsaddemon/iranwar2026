@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1587,
+  "updateSequence": 1588,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T22:28:00.969Z",
+  "lastSyncedAt": "2026-08-03T23:40:28.534Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -63,38 +63,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran Update Special Report, August 2, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOY01YQjAwWUJGWnhxTmN1TkZzMzlfYTI1YU9ZaEFXTjRuUWVzdEMzazRHN0ROOU9NN29QaXBDT3RaRXVIaEYtT0pnbWw3X21ySkdqci05bTBDZXptNFhwc2FLNnhrWGVIVDhLS0R6VGJGa3NXWHJHRWVsS3V4TzBNelhyaXZOMUJxYmlQaDY2eGtVeXlfM0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "understandingwar.org"
+      "sourceName": "Institute for the Study of War"
     },
     {
       "date": "Aug 03",
-      "text": "August 1, 2026 — US-Iran war; State Department warns US citizens across the Middle East",
+      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1586
+      "latestSinceUpdate": 1588
     },
     {
       "date": "Aug 03",
       "text": "Iran war live: Trump claims talks ongoing, says ‘last chance’ for good deal",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1584
+      "sourceName": "Al Jazeera"
     },
     {
       "date": "Aug 03",
-      "text": "Iran Plotted Wider War With Help of Its Proxies",
+      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNMDJlZkVkZ1NFVWZZOTV4b2U5bC0yVi1PUnJqNkpkNnBQZDh2TWJIS2U4dHRJYU9ib2o2a0dGMjgwM0JucDJiaUhmcm9YWmM5alB3Smw4NUNBbFVUNTQ2T3NvdC1sMmRGcGk5YUIyNGM1WXdhYjA2a0ZzTGZOdTl5Q0ZSRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1586
+      "latestSinceUpdate": 1588
     },
     {
       "date": "Aug 03",
       "text": "U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cbsnews.com",
+      "sourceName": "CBS News",
       "latestSinceUpdate": 1585
     },
     {
@@ -108,7 +107,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
