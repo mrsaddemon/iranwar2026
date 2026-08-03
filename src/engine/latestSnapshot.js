@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1578,
+  "updateSequence": 1579,
   "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T01:17:13.212Z",
+  "lastSyncedAt": "2026-08-03T04:50:26.493Z",
   "warDay": 157,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-03",
@@ -68,10 +68,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "Iran war updates: Trump says negotiations with Tehran to begin Monday",
+      "text": "Iran Update Special Report, August 1, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQckRfaGFCa29xN2dPU2hUOUJVcjBTWFQyRW9UeGlfd2JzaVpVLUV0XzdSQmFwOFRBTlN2dF9wXzVzN1duRVVWa29jMWYxUmV0Z1poMlU1MlZ6TjZzbS12Ym03M0NRWm1CNG9HdHB4RVlMM3dORW5CYUtDSDBhRnBmQkc2a2FDS2U2VGlCYWVUR0ZHY3g1S0JjTHlOX1JZWEZSZEs1N01JZmQxV1hvVzd3QkJyWWVZSTJF0gG-AUFVX3lxTE9TRlJmVm5vQy1UaVNfMzMtamJHS25fNXNnZUlDaUhlRWV0cGhtR0cycXVLcjFXZlZFcWdWaWpOZHRfaUlEYzhQa2t3a0Y0QXN2U2NvazRfc19ZcWJUZFVTblVQUllqc1p3aUdUeUxWMEVNTXNDeWxabDhVMXRBRUdaY3hYLTk3Vy0wVVRTVi1wUkdrV1dqRUY1aWc3VGc0VkpPamRUcXdIY1FxXzJQd1ZJUHBYYlNEUTlOS1BJVXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPaEZCcHdyeGQ4VkZ5Ykx2VnBZMTRNM003bkxMelBWZ1p3UlRqUU84WHZCRDlIdFdNdXgtNzhHOWV6dTAxU0xjMnphV0VPYmljRE9MWVEtV0hmaGduS2V3SS04dGxIdnYwZ2NTbUtlbG1yUWhYZ2xnRlcyYkh3QmRUZUlLWFFBNHZuckt5RDJvWDVMc080LXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1579
+    },
+    {
+      "date": "Aug 03",
+      "text": "Trump backs down on Iran strikes in expectation of ‘rapidly’ reaching a deal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQczZBcUg1UEtfYzNTQm83WWRMZjl1LTlGZXJNNkE3Sk5ydlBDem83Vy1VckRxa19BeUo0eDd2MWVTTFB0VjdZcE1DSnJjeVZXNjJZSFZmTmpydlp1TTctblZWYzNJME9FTC12OGhfdC1RaTliQzd2WmRZQlBZb2hZTTNleHczWVpxVS1IcHBoRlhnOUJMMWNnenpDMW5zYk94aldjNzBDbFAzamxzelZMaUdDbVZBOWFlb3R1Q1pR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
       "latestSinceUpdate": 1578
     },
     {
@@ -84,11 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 03",
-      "text": "Trump backs down on Iran strikes in expectation of ‘rapidly’ reaching a deal",
+      "text": "Iran war updates: Kuwait downs Iranian drones targeting vital facilities",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQczZBcUg1UEtfYzNTQm83WWRMZjl1LTlGZXJNNkE3Sk5ydlBDem83Vy1VckRxa19BeUo0eDd2MWVTTFB0VjdZcE1DSnJjeVZXNjJZSFZmTmpydlp1TTctblZWYzNJME9FTC12OGhfdC1RaTliQzd2WmRZQlBZb2hZTTNleHczWVpxVS1IcHBoRlhnOUJMMWNnenpDMW5zYk94aldjNzBDbFAzamxzelZMaUdDbVZBOWFlb3R1Q1pR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "theguardian.com",
-      "latestSinceUpdate": 1578
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1579
     },
     {
       "date": "Aug 03",
@@ -97,20 +105,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
       "latestSinceUpdate": 1578
-    },
-    {
-      "date": "Aug 03",
-      "text": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQdnVGdzU1TEZxRHNxVDc4SUJXMTViU1hYZkpXeXNnRlBvT29EdU16alJOajByWVI0WV9GU0pRY0twdWF1VGFsSklOc3BXd2ptQUFKMUJEcVREWVVFb1R4N3N1Y0pWdGlfZURLZElvaXpTdERVN2JLZmJ6TmhjU21ZZzhnQlZNeGhUUXlDdkpzeTBsU2FrRDhYMWE5VWhJb2hkaFpSYW9yVFkzWnJORFHSAbMBQVVfeXFMT3ktbzZJc3NHYTdxTWl4d0U4Nk53ZXVDTlV4bzhoMVI1cnExb0Q3eWVRdXhZcjQxcUE1OHp6TkMwb1N6M3J6YWc1bm1rUndNZnFkb0ZvS3VTbTNmeW9kN2xNbHhxMkJobG9MWnQ5LW9mV2FaLXQ0S3J2aGM5RnhEN05RRzZoTEdQUHhhUzRHR3M1NXprS3ktRndHd0xOcjdwV3l4SGcyLW1tS0g1YWhPLXZ1c2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1578
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
