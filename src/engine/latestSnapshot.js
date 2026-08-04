@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1598,
+  "updateSequence": 1599,
   "lastUpdated": "2026-08-04",
-  "lastSyncedAt": "2026-08-04T21:21:12.301Z",
+  "lastSyncedAt": "2026-08-04T22:31:49.034Z",
   "warDay": 158,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-04",
@@ -63,22 +63,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
+      "sourceName": "cnn.com"
     },
     {
       "date": "Aug 04",
-      "text": "Qatar says progress made toward US-Iran talks on ending war",
+      "text": "Qatar says mediators make progress in efforts to end US-Iran war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1595
+      "latestSinceUpdate": 1599
     },
     {
       "date": "Aug 04",
       "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnbc.com"
+      "sourceName": "CNBC"
     },
     {
       "date": "Aug 04",
@@ -90,23 +90,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 04",
-      "text": "Iran war updates: Kuwait downs Iranian drones targeting vital facilities",
+      "text": "Iran war latest: US 'nearly out' of long-range missiles, sources say; ship hit and sunk near Yemen",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera"
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPYXI0THh5aVNRdGVWWm1oWG0zNmdfVk8xYkRRNDlYMXpHYTNsbktDejVOeC1SWDRFQnJ6Q1dtZ2lHUVZfbVJ4ZGdTcVZ2bWhyMk5NRHFwU0dpTUhfM3YtbGQ2SzYxbkRISDZGRzgxeHNseXMwLUlpSFVsbl9Dc2ZCeU1PVzFvMzg1YnhjMmpYZDBYUGphNDRYZGt4RHlXbWhxeXhnVDJOcUtyd1BBeDZvZlFPdmdPQUdwSmpSWDBpNVhoTWZieFhrVTRpbUFjYnJOLU04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 1599
     },
     {
       "date": "Aug 04",
-      "text": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
+      "text": "Israeli forces meant to participate in US strikes on Iran, officials say",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC"
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE80alZpX3VoRWVHekZBd1VZbDVsdUsyeVQxc1hDeVB6SWk1ZHdUNW9XU24tSlRnelZuZGdPZTBQWlJON3MwSlU3aUtZT21ITmhacnZ0ekl4dzM0X0ZYTHJ3aTc3R1p1ZnROdGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1599
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
