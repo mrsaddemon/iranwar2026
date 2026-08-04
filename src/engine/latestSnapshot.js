@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1593,
+  "updateSequence": 1594,
   "lastUpdated": "2026-08-04",
-  "lastSyncedAt": "2026-08-04T12:08:17.200Z",
+  "lastSyncedAt": "2026-08-04T14:42:15.685Z",
   "warDay": 158,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-04",
@@ -68,19 +68,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 04",
-      "text": "Iran war updates: Trump says talks ongoing, says ‘last chance’ for a deal",
+      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1590
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1594
     },
     {
       "date": "Aug 04",
-      "text": "Iran Update Special Report, August 1, 2026",
+      "text": "Iran war updates: Trump says talks ongoing, says ‘last chance’ for a deal",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPaEZCcHdyeGQ4VkZ5Ykx2VnBZMTRNM003bkxMelBWZ1p3UlRqUU84WHZCRDlIdFdNdXgtNzhHOWV6dTAxU0xjMnphV0VPYmljRE9MWVEtV0hmaGduS2V3SS04dGxIdnYwZ2NTbUtlbG1yUWhYZ2xnRlcyYkh3QmRUZUlLWFFBNHZuckt5RDJvWDVMc080LXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1591
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera"
     },
     {
       "date": "Aug 04",
