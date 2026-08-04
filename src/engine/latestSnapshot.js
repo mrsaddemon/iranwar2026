@@ -1,10 +1,10 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1588,
-  "lastUpdated": "2026-08-03",
-  "lastSyncedAt": "2026-08-03T23:40:28.534Z",
-  "warDay": 157,
+  "updateSequence": 1589,
+  "lastUpdated": "2026-08-04",
+  "lastSyncedAt": "2026-08-04T01:08:52.459Z",
+  "warDay": 158,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
-  "lastNarrativeUpdate": "2026-08-03",
+  "lastNarrativeUpdate": "2026-08-04",
   "ceasefire": {
     "active": false,
     "status": "none",
@@ -59,55 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 03",
+      "date": "Aug 04",
       "text": "Iran Update Special Report, August 2, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOY01YQjAwWUJGWnhxTmN1TkZzMzlfYTI1YU9ZaEFXTjRuUWVzdEMzazRHN0ROOU9NN29QaXBDT3RaRXVIaEYtT0pnbWw3X21ySkdqci05bTBDZXptNFhwc2FLNnhrWGVIVDhLS0R6VGJGa3NXWHJHRWVsS3V4TzBNelhyaXZOMUJxYmlQaDY2eGtVeXlfM0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War"
+      "sourceName": "understandingwar.org",
+      "latestSinceUpdate": 1589
     },
     {
-      "date": "Aug 03",
-      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
+      "date": "Aug 04",
+      "text": "Live updates: Trump warns Iran of ‘last chance’ to sign a deal but says he’s under no time constraint",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1588
+      "latestSinceUpdate": 1589
     },
     {
-      "date": "Aug 03",
-      "text": "Iran war live: Trump claims talks ongoing, says ‘last chance’ for good deal",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera"
-    },
-    {
-      "date": "Aug 03",
+      "date": "Aug 04",
       "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1588
+      "latestSinceUpdate": 1589
     },
     {
-      "date": "Aug 03",
+      "date": "Aug 04",
+      "text": "The US war on Iran is spinning out of control",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1589
+    },
+    {
+      "date": "Aug 04",
       "text": "U.S.-Iran negotiations set to begin Monday, Trump says after calling off strikes",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1585
+      "latestSinceUpdate": 1589
     },
     {
-      "date": "Aug 03",
+      "date": "Aug 04",
       "text": "Aug. 1: Israel said to assess Iran will fire missiles at it even if it doesn’t initially join new US offensive",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTFBxallOc2RjZFVpVnZjQkNzVENaejB6QnY4Z1B6SUpadGdhQlE3TXpPekJmOGJTdXlhWmwxRjY5bjJDT1YyclBFNWZxTlRVamYzU3daUnBsQ1NqRHpkMURIb0dDTkXSAWpBVV95cUxQX0VnSXNZSzk2TmtfMVpKUF8zeEpYZ05WSnJ2d0lmN1E2QlBuS0phaUVRRWswMUZrYjhKWHRkVENTNy1UTThGYnJqOVJLdXQ0NDFfb0syMGlzRHJiUmZwNmIzVVR1RkgtUE1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel"
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1589
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
