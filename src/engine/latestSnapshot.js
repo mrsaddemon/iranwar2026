@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1597,
+  "updateSequence": 1598,
   "lastUpdated": "2026-08-04",
-  "lastSyncedAt": "2026-08-04T20:00:13.365Z",
+  "lastSyncedAt": "2026-08-04T21:21:12.301Z",
   "warDay": 158,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-04",
@@ -60,6 +60,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 04",
+      "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN"
+    },
+    {
+      "date": "Aug 04",
       "text": "Qatar says progress made toward US-Iran talks on ending war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?hl=en-US&gl=US&ceid=US:en",
@@ -71,15 +78,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1594
-    },
-    {
-      "date": "Aug 04",
-      "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
+      "sourceName": "cnbc.com"
     },
     {
       "date": "Aug 04",
