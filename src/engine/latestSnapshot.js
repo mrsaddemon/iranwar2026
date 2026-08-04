@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1592,
+  "updateSequence": 1593,
   "lastUpdated": "2026-08-04",
-  "lastSyncedAt": "2026-08-04T10:00:51.398Z",
+  "lastSyncedAt": "2026-08-04T12:08:17.200Z",
   "warDay": 158,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-04",
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 04",
-      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
+      "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1591
+      "latestSinceUpdate": 1593
     },
     {
       "date": "Aug 04",
@@ -84,11 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 04",
-      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1592
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1591
     },
     {
       "date": "Aug 04",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
