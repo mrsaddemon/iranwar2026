@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1591,
+  "updateSequence": 1592,
   "lastUpdated": "2026-08-04",
-  "lastSyncedAt": "2026-08-04T07:17:51.352Z",
+  "lastSyncedAt": "2026-08-04T10:00:51.398Z",
   "warDay": 158,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-04",
@@ -84,19 +84,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 04",
-      "text": "As Cease-Fire Teetered, Iran Plotted a Wider War With Aid of Its Proxies",
+      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNMDJlZkVkZ1NFVWZZOTV4b2U5bC0yVi1PUnJqNkpkNnBQZDh2TWJIS2U4dHRJYU9ib2o2a0dGMjgwM0JucDJiaUhmcm9YWmM5alB3Smw4NUNBbFVUNTQ2T3NvdC1sMmRGcGk5YUIyNGM1WXdhYjA2a0ZzTGZOdTl5Q0ZSRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 1591
-    },
-    {
-      "date": "Aug 04",
-      "text": "Aug. 1: Israel said to assess Iran will fire missiles at it even if it doesn’t initially join new US offensive",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTFBxallOc2RjZFVpVnZjQkNzVENaejB6QnY4Z1B6SUpadGdhQlE3TXpPekJmOGJTdXlhWmwxRjY5bjJDT1YyclBFNWZxTlRVamYzU3daUnBsQ1NqRHpkMURIb0dDTkXSAWpBVV95cUxQX0VnSXNZSzk2TmtfMVpKUF8zeEpYZ05WSnJ2d0lmN1E2QlBuS0phaUVRRWswMUZrYjhKWHRkVENTNy1UTThGYnJqOVJLdXQ0NDFfb0syMGlzRHJiUmZwNmIzVVR1RkgtUE1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1589
+      "latestSinceUpdate": 1592
     },
     {
       "date": "Aug 04",
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1591
+    },
+    {
+      "date": "Aug 04",
+      "text": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1592
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
