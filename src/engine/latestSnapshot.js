@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1601,
+  "updateSequence": 1602,
   "lastUpdated": "2026-08-05",
-  "lastSyncedAt": "2026-08-05T00:58:08.177Z",
+  "lastSyncedAt": "2026-08-05T04:18:43.997Z",
   "warDay": 159,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-05",
@@ -60,19 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 05",
-      "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
+      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1601
-    },
-    {
-      "date": "Aug 05",
-      "text": "Iran war updates: Iran says talks with Oman on Hormuz advancing",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNVTd3c0hZM1BYS2M5NXNHcERxemtBcEFPZjBrdWVERGVEUkNLTnhtSTgtX3VDbVdZd3ZzSFNiLVlQMTdMemlqVDdYUHdwaGxrMDRtUEVmeHFrb0Z2MjZYVDVfMktsc0dlczVmQThGZmdITUhVR2xXX1JHaklKV1dHbjBrTWFzNWl4WkxVcG8wSnNnWlNGOUNKZWk4VWdMV1ZpSi04Wl9HSm1ibDlNenRIMmVPcnlKQdIBuwFBVV95cUxPMVRmd25CaE9fcWpyT08zMUw3MFdhSnlrcjNkdE5LRE9yOUFjSWI4cE0yLUY0UFFJQjFNZ1VCcTRHX3pqNlMtY2FBd0dzMUJjdERDdGY1N1N4QkZMTnk2THE1SC1FWFFCb1AydVM1eERmdnNlMUptRFBFQURfOEZfUWFiUElxeEJNbVJXYkRvUjlvamdyVXVxb1VSZlo0Sl93WDZpZklib1JreTY2cm41djdRUWs0bXBpcEFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1601
+      "latestSinceUpdate": 1602
     },
     {
       "date": "Aug 05",
@@ -84,33 +76,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 05",
-      "text": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
+      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1602
+    },
+    {
+      "date": "Aug 05",
+      "text": "Aug 2-3, 2026 — Trump calls Iranian leadership ‘unbelievably duplicitous’ after Tehran denies talks resumed",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
       "latestSinceUpdate": 1601
     },
     {
       "date": "Aug 05",
-      "text": "Iran war latest: US 'nearly out' of long-range missiles, sources say; ship hit and sunk near Yemen",
+      "text": "Iran war updates: Kuwait downs Iranian drones targeting vital facilities",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPYXI0THh5aVNRdGVWWm1oWG0zNmdfVk8xYkRRNDlYMXpHYTNsbktDejVOeC1SWDRFQnJ6Q1dtZ2lHUVZfbVJ4ZGdTcVZ2bWhyMk5NRHFwU0dpTUhfM3YtbGQ2SzYxbkRISDZGRzgxeHNseXMwLUlpSFVsbl9Dc2ZCeU1PVzFvMzg1YnhjMmpYZDBYUGphNDRYZGt4RHlXbWhxeXhnVDJOcUtyd1BBeDZvZlFPdmdPQUdwSmpSWDBpNVhoTWZieFhrVTRpbUFjYnJOLU04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 1601
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1602
     },
     {
       "date": "Aug 05",
       "text": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
+      "sourceName": "bbc.com",
       "latestSinceUpdate": 1601
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
