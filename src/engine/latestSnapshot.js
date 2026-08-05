@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1611,
+  "updateSequence": 1612,
   "lastUpdated": "2026-08-05",
-  "lastSyncedAt": "2026-08-05T21:51:28.574Z",
+  "lastSyncedAt": "2026-08-05T22:45:07.528Z",
   "warDay": 159,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-05",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 10,
     "escalationLevel": 38,
     "oilDisruption": 60,
-    "tradeImpact": 34,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "tradeImpact": 50,
+    "sanctionsPressure": 56,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -63,15 +63,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "reuters.com"
-    },
-    {
-      "date": "Aug 05",
-      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1610
+      "sourceName": "Reuters"
     },
     {
       "date": "Aug 05",
@@ -87,6 +79,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Institute for the Study of War"
+    },
+    {
+      "date": "Aug 05",
+      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1612
     },
     {
       "date": "Aug 05",
@@ -106,7 +106,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
