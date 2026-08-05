@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1610,
+  "updateSequence": 1611,
   "lastUpdated": "2026-08-05",
-  "lastSyncedAt": "2026-08-05T20:36:29.862Z",
+  "lastSyncedAt": "2026-08-05T21:51:28.574Z",
   "warDay": 159,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-05",
@@ -60,18 +60,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 05",
-      "text": "Iran war live: Tehran says it agreed coordinates of Hormuz route with Oman",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUUhGV2daUXJBYzlucTFkdTlPbHdZMmtEdVJhWXVGX05FeHNMX0FTRElnLU0zaFlYYTN4OVF0U2NhME1kbmZPVl94X3hWb21aSmNPdzdCbk5JZ1RFd1V3eExMYTROX3pHZmJGeGppV1RuMjBVeWtNaGw3OURzdjZoOWtfdngyNFVvRGVpbjd2VU9oNTluMFhvb29NMnplb3ZvT0F5ZTIzNklxWnRoaF9OMVNPaEV4QzZUMUVJ0gHAAUFVX3lxTFA1Vm9kZWlZa0NDT0VBRWJBY0pFNDkxb3FhVkNVdkVmdDdCLVNWMmN6RGVELU1xSkRaOWhYWVVMNkZ3SEpabTFQWjVYdG1sMFRhWVFuUHRxMGdSUVNCbnRIcVlDTk1YMDllTHE2RHFmRlpUQ1h3cEFvOVYwMVJxQWczeEl4TU5nRVF1Xzl1NEtERHJRakJlalhVUnJkcEc5SUpCLURpd3JtQm41eHgxZWxUanhsTHBuTlFDRVNfSHpMMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1609
-    },
-    {
-      "date": "Aug 05",
       "text": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters"
+      "sourceName": "reuters.com"
     },
     {
       "date": "Aug 05",
@@ -83,11 +75,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 05",
+      "text": "Iran war live: Tehran says it agreed coordinates of Hormuz route with Oman",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUUhGV2daUXJBYzlucTFkdTlPbHdZMmtEdVJhWXVGX05FeHNMX0FTRElnLU0zaFlYYTN4OVF0U2NhME1kbmZPVl94X3hWb21aSmNPdzdCbk5JZ1RFd1V3eExMYTROX3pHZmJGeGppV1RuMjBVeWtNaGw3OURzdjZoOWtfdngyNFVvRGVpbjd2VU9oNTluMFhvb29NMnplb3ZvT0F5ZTIzNklxWnRoaF9OMVNPaEV4QzZUMUVJ0gHAAUFVX3lxTFA1Vm9kZWlZa0NDT0VBRWJBY0pFNDkxb3FhVkNVdkVmdDdCLVNWMmN6RGVELU1xSkRaOWhYWVVMNkZ3SEpabTFQWjVYdG1sMFRhWVFuUHRxMGdSUVNCbnRIcVlDTk1YMDllTHE2RHFmRlpUQ1h3cEFvOVYwMVJxQWczeEl4TU5nRVF1Xzl1NEtERHJRakJlalhVUnJkcEc5SUpCLURpd3JtQm41eHgxZWxUanhsTHBuTlFDRVNfSHpMMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1609
+    },
+    {
+      "date": "Aug 05",
       "text": "Iran Update Special Report, August 4, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "understandingwar.org",
-      "latestSinceUpdate": 1607
+      "sourceName": "Institute for the Study of War"
     },
     {
       "date": "Aug 05",
@@ -107,7 +106,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
