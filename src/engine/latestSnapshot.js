@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1609,
+  "updateSequence": 1610,
   "lastUpdated": "2026-08-05",
-  "lastSyncedAt": "2026-08-05T18:55:57.269Z",
+  "lastSyncedAt": "2026-08-05T20:36:29.862Z",
   "warDay": 159,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-05",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -75,18 +75,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 05",
-      "text": "Iran Update Special Report, August 4, 2026",
+      "text": "Exclusive: US military asks troops for ‘creative and unconventional’ ideas to punish Iran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1607
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBJX3liMTZKQzVWUUd2RldTWlhaVnhIRjRucV93R2tRbnNzR2tRZS1xY19obnlTTjVRZkF3OVphdjY4TUdHa3IxWGRMZ0xpdFZ3Szh3ZnJJX1RnRkNqMmVaQTdvN3hpa0ktZmF0eXd0dzVMdHFnT1RsWjZQZ1JIRk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1610
     },
     {
       "date": "Aug 05",
-      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
+      "text": "Iran Update Special Report, August 4, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC"
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "understandingwar.org",
+      "latestSinceUpdate": 1607
     },
     {
       "date": "Aug 05",
@@ -106,7 +107,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -118,7 +119,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
