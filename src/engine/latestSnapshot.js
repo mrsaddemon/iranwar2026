@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1607,
+  "updateSequence": 1608,
   "lastUpdated": "2026-08-05",
-  "lastSyncedAt": "2026-08-05T15:40:59.568Z",
+  "lastSyncedAt": "2026-08-05T17:12:44.027Z",
   "warDay": 159,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-05",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 10,
     "escalationLevel": 38,
     "oilDisruption": 60,
-    "tradeImpact": 50,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
+    "tradeImpact": 34,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -67,14 +67,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 05",
-      "text": "Iran Update Special Report, August 4, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1607
-    },
-    {
-      "date": "Aug 05",
       "text": "Iran war live: Israel bombs southern Lebanon as Hormuz deal inches closer",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUUhGV2daUXJBYzlucTFkdTlPbHdZMmtEdVJhWXVGX05FeHNMX0FTRElnLU0zaFlYYTN4OVF0U2NhME1kbmZPVl94X3hWb21aSmNPdzdCbk5JZ1RFd1V3eExMYTROX3pHZmJGeGppV1RuMjBVeWtNaGw3OURzdjZoOWtfdngyNFVvRGVpbjd2VU9oNTluMFhvb29NMnplb3ZvT0F5ZTIzNklxWnRoaF9OMVNPaEV4QzZUMUVJ0gHAAUFVX3lxTFA1Vm9kZWlZa0NDT0VBRWJBY0pFNDkxb3FhVkNVdkVmdDdCLVNWMmN6RGVELU1xSkRaOWhYWVVMNkZ3SEpabTFQWjVYdG1sMFRhWVFuUHRxMGdSUVNCbnRIcVlDTk1YMDllTHE2RHFmRlpUQ1h3cEFvOVYwMVJxQWczeEl4TU5nRVF1Xzl1NEtERHJRakJlalhVUnJkcEc5SUpCLURpd3JtQm41eHgxZWxUanhsTHBuTlFDRVNfSHpMMw?hl=en-US&gl=US&ceid=US:en",
@@ -83,10 +75,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 05",
+      "text": "Iran Update Special Report, August 4, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1607
+    },
+    {
+      "date": "Aug 05",
       "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC"
+      "sourceName": "cnbc.com"
     },
     {
       "date": "Aug 05",
@@ -107,7 +107,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
