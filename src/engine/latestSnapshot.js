@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1626,
+  "updateSequence": 1627,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T09:43:52.394Z",
+  "lastSyncedAt": "2026-08-07T10:37:22.021Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -86,7 +86,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "This is proof Iran won the war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNSS05Z1A1Ni1ualRRcVo4U3h3Ql85VXNXTzRtdGZ4SGdvc2pGMThLcWZuWnVkSTVYZ1ZHc1VnUGNwM0F1TVdodGk4ZklIYTNaeHNmaTgtWmdrYWt1OVRHT01DWG9mcWgzWWRsS2lWZnVoVjYwQl8xSlFSZXFCS0t4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "telegraph.co.uk",
+      "sourceName": "The Telegraph",
       "latestSinceUpdate": 1624
     },
     {
@@ -107,7 +107,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
