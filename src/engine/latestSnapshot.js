@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1639,
+  "updateSequence": 1640,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T22:07:53.536Z",
+  "lastSyncedAt": "2026-08-07T22:56:52.827Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
@@ -60,16 +60,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 07",
-      "text": "August 5, 2026 — Houthis claim to attack Saudi oil tanker, Trump says Hormuz reopening ‘soon’",
+      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5OLXlSS3NsVWFKTGpWMnhoeEJVeEJSTThJMjhtTXJHWGR2TWRmV0R6cHhrLUctVEtCOVM1bk1FUGZlWFN4bVNvMGJIQm9CTnUxMjREc2M2NGZ3Z29SNW5fLWp1MkV1Y210RGhhMHNkWFdSSVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN"
     },
     {
       "date": "Aug 07",
-      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
+      "text": "August 5, 2026 — Houthis claim to attack Saudi oil tanker, Trump says Hormuz reopening ‘soon’",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5OLXlSS3NsVWFKTGpWMnhoeEJVeEJSTThJMjhtTXJHWGR2TWRmV0R6cHhrLUctVEtCOVM1bk1FUGZlWFN4bVNvMGJIQm9CTnUxMjREc2M2NGZ3Z29SNW5fLWp1MkV1Y210RGhhMHNkWFdSSVE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN"
     },
     {
@@ -98,8 +98,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1636
+      "sourceName": "Al Jazeera"
     }
   ],
   "sourceStatuses": [
