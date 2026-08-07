@@ -1,10 +1,10 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1619,
-  "lastUpdated": "2026-08-06",
-  "lastSyncedAt": "2026-08-06T14:42:54.275Z",
-  "warDay": 160,
+  "updateSequence": 1620,
+  "lastUpdated": "2026-08-07",
+  "lastSyncedAt": "2026-08-07T00:17:39.247Z",
+  "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
-  "lastNarrativeUpdate": "2026-08-06",
+  "lastNarrativeUpdate": "2026-08-07",
   "ceasefire": {
     "active": true,
     "status": "active",
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 06",
+      "date": "Aug 07",
       "text": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1617
+      "latestSinceUpdate": 1620
     },
     {
-      "date": "Aug 06",
+      "date": "Aug 07",
+      "text": "Iran war updates: Tehran, Oman agree on route coordinates in Hormuz Strait",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUUhGV2daUXJBYzlucTFkdTlPbHdZMmtEdVJhWXVGX05FeHNMX0FTRElnLU0zaFlYYTN4OVF0U2NhME1kbmZPVl94X3hWb21aSmNPdzdCbk5JZ1RFd1V3eExMYTROX3pHZmJGeGppV1RuMjBVeWtNaGw3OURzdjZoOWtfdngyNFVvRGVpbjd2VU9oNTluMFhvb29NMnplb3ZvT0F5ZTIzNklxWnRoaF9OMVNPaEV4QzZUMUVJ0gHAAUFVX3lxTFA1Vm9kZWlZa0NDT0VBRWJBY0pFNDkxb3FhVkNVdkVmdDdCLVNWMmN6RGVELU1xSkRaOWhYWVVMNkZ3SEpabTFQWjVYdG1sMFRhWVFuUHRxMGdSUVNCbnRIcVlDTk1YMDllTHE2RHFmRlpUQ1h3cEFvOVYwMVJxQWczeEl4TU5nRVF1Xzl1NEtERHJRakJlalhVUnJkcEc5SUpCLURpd3JtQm41eHgxZWxUanhsTHBuTlFDRVNfSHpMMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1620
+    },
+    {
+      "date": "Aug 07",
+      "text": "August 5, 2026 — Houthis claim to attack Saudi oil tanker, Trump says Hormuz reopening ‘soon’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5OLXlSS3NsVWFKTGpWMnhoeEJVeEJSTThJMjhtTXJHWGR2TWRmV0R6cHhrLUctVEtCOVM1bk1FUGZlWFN4bVNvMGJIQm9CTnUxMjREc2M2NGZ3Z29SNW5fLWp1MkV1Y210RGhhMHNkWFdSSVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1620
+    },
+    {
+      "date": "Aug 07",
       "text": "Qatar says mediators make progress in efforts to end US-Iran war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1617
+      "latestSinceUpdate": 1620
     },
     {
-      "date": "Aug 06",
-      "text": "Iran Update Special Report, August 4, 2026",
+      "date": "Aug 07",
+      "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMnRpM1k3bVFfcFltcFFuUVk4andRU0RFM2dtQmcyaEJmOXJ4Q0pQa1oxY29UUklTOEViUVJWS24wSGVucG1PR0ZYQVNGRU94WFJ4ZzQ1T0xRa19iZFU5ZTI1RXZORWdwaldHRkYzYm9Tck0tcW5PcF9zb0laeTdTcWZJdkROSVV2anpyN0J6bTdWWHlUYXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1617
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1620
     },
     {
-      "date": "Aug 06",
-      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
+      "date": "Aug 07",
+      "text": "Iran war updates: US launches strikes after killing of soldiers in Jordan",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1618
-    },
-    {
-      "date": "Aug 06",
-      "text": "Iran war latest: Iran-Oman Strait of Hormuz deal possible",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOZ3luLUxvekFtWFdpQU9vSnJ2RzRwdndUZ205VmYwcEl2WDNPSmZ1YUNteThESjB4LW5SdHlXX3pyZkdqNGtQd0JDQU5oeER4U21BY1AtMUpiSEdDWHZacnV5SGdQOXpzdllRU1lTLUtFZlFlU25JWGgtMnRSaE9sdVNOWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1619
-    },
-    {
-      "date": "Aug 06",
-      "text": "Israel carries out air strikes on Lebanon, state media says, as Iran claims deal with US near",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1617
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1620
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
