@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1635,
+  "updateSequence": 1636,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T19:07:49.768Z",
+  "lastSyncedAt": "2026-08-07T20:01:19.132Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
@@ -84,7 +84,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: US, Tehran confirm ‘peace deal’, signing set for Friday",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceName": "aljazeera.com",
       "latestSinceUpdate": 1634
     },
     {
@@ -97,17 +97,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 07",
-      "text": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel’s Campaign",
+      "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1635
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1636
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
