@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1628,
+  "updateSequence": 1629,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T11:27:34.130Z",
+  "lastSyncedAt": "2026-08-07T12:24:25.922Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
@@ -75,19 +75,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 07",
-      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
+      "text": "Trump denies US low on key munitions in war with Iran after reports of shortages",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1625
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNNTBtOWxQd244SDhXRjUwWThaa256VTBIQUpwWGJ4MkI5WFNDRXZXUDZhTzJGY3NVVENuSEkzdXlOdVNKN05UQTV3c0M3MXU0X0hlMWI4YlFZa3ktYXNhZ2NWcFB1SjBTa2w3bjF3T2d3cy1IMmJ3eGRWcENuMzhRQ042VDVlUUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 1629
     },
     {
       "date": "Aug 07",
-      "text": "Could the Iran war derail Donald Trump’s legacy?",
+      "text": "This is proof Iran won the war",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNT0VvNkpuVlZaMXJneE94UGRrTWt3OHB3dnFJLWM2dkxkVlVsdVdUVlhDQW9zMGZpQS0wNm1nUU03ZzhSU1Ayd0NiNlVZY0N4VG9jVTRCRmJGMks0YUphQU9XR1ZsSk9oQlRvVU44ZHUxYVNMRFkwai15ZVN4WTFMRkY4WDdYZTdBeXEtS2cwTEpzMVJjd0hWWXVVMVjSAaIBQVVfeXFMTUZqVXNpS2dBNVJwclMxTFlwTnR6NzlJSllZQ01PaVgwWG9NcTY5OEI2QTYwVGRHTjMwZTlXMG5Qbzk2amRKaUp3LXBvRXYwdDNwLWZkaERqMF91YzdKRWRUVG9LMzhCR1YtTTEtYTJvOEczUVhlZEVqZnFoNFYtWnZOM19UQVdnc0hJZFZSTmQxRWNkZnpSYXFvc0swZV9KOElR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1628
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNSS05Z1A1Ni1ualRRcVo4U3h3Ql85VXNXTzRtdGZ4SGdvc2pGMThLcWZuWnVkSTVYZ1ZHc1VnUGNwM0F1TVdodGk4ZklIYTNaeHNmaTgtWmdrYWt1OVRHT01DWG9mcWgzWWRsS2lWZnVoVjYwQl8xSlFSZXFCS0t4QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "telegraph.co.uk",
+      "latestSinceUpdate": 1629
     },
     {
       "date": "Aug 07",
@@ -107,7 +107,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
