@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1633,
+  "updateSequence": 1634,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T17:01:14.506Z",
+  "lastSyncedAt": "2026-08-07T17:54:40.142Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -77,16 +77,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1630
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 07",
-      "text": "Iran war latest: Trump says Iran war could end 'pretty soon",
+      "text": "Iran war updates: US, Tehran confirm ‘peace deal’, signing set for Friday",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOVVpFZkU5VW1nOG03enRqc3FQYUoyOC1Bd2FveG92VlAwYW1oSmY5VWFVbDZiSGpOczJsRmw4a2xWQ1A2ejVGaXJWcEJLMWt4WklZLTlCTlo1ejZ0TG41NnVTaFZpWTBER0xETU9LNTExQ1JaWlNSakl1UjV0NUkzdk9VQnZnQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1633
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1634
     },
     {
       "date": "Aug 07",
@@ -106,7 +105,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
