@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1625,
+  "updateSequence": 1626,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T08:40:50.706Z",
+  "lastSyncedAt": "2026-08-07T09:43:52.394Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
@@ -67,6 +67,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 07",
+      "text": "August 5, 2026 — Houthis claim to attack Saudi oil tanker, Trump says Hormuz reopening ‘soon’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5OLXlSS3NsVWFKTGpWMnhoeEJVeEJSTThJMjhtTXJHWGR2TWRmV0R6cHhrLUctVEtCOVM1bk1FUGZlWFN4bVNvMGJIQm9CTnUxMjREc2M2NGZ3Z29SNW5fLWp1MkV1Y210RGhhMHNkWFdSSVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1626
+    },
+    {
+      "date": "Aug 07",
       "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
@@ -75,18 +83,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 07",
-      "text": "Could the Iran war derail Donald Trump’s legacy?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxNT0VvNkpuVlZaMXJneE94UGRrTWt3OHB3dnFJLWM2dkxkVlVsdVdUVlhDQW9zMGZpQS0wNm1nUU03ZzhSU1Ayd0NiNlVZY0N4VG9jVTRCRmJGMks0YUphQU9XR1ZsSk9oQlRvVU44ZHUxYVNMRFkwai15ZVN4WTFMRkY4WDdYZTdBeXEtS2cwTEpzMVJjd0hWWXVVMVjSAaIBQVVfeXFMTUZqVXNpS2dBNVJwclMxTFlwTnR6NzlJSllZQ01PaVgwWG9NcTY5OEI2QTYwVGRHTjMwZTlXMG5Qbzk2amRKaUp3LXBvRXYwdDNwLWZkaERqMF91YzdKRWRUVG9LMzhCR1YtTTEtYTJvOEczUVhlZEVqZnFoNFYtWnZOM19UQVdnc0hJZFZSTmQxRWNkZnpSYXFvc0swZV9KOElR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1625
-    },
-    {
-      "date": "Aug 07",
       "text": "This is proof Iran won the war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNSS05Z1A1Ni1ualRRcVo4U3h3Ql85VXNXTzRtdGZ4SGdvc2pGMThLcWZuWnVkSTVYZ1ZHc1VnUGNwM0F1TVdodGk4ZklIYTNaeHNmaTgtWmdrYWt1OVRHT01DWG9mcWgzWWRsS2lWZnVoVjYwQl8xSlFSZXFCS0t4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Telegraph",
+      "sourceName": "telegraph.co.uk",
       "latestSinceUpdate": 1624
     },
     {
@@ -101,8 +101,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: US launches strikes after killing of soldiers in Jordan",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1622
+      "sourceName": "Al Jazeera"
     }
   ],
   "sourceStatuses": [
