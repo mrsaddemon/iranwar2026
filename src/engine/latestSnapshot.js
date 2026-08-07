@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1629,
+  "updateSequence": 1630,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T12:24:25.922Z",
+  "lastSyncedAt": "2026-08-07T13:52:28.301Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
@@ -63,31 +63,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters"
+      "sourceName": "reuters.com"
     },
     {
       "date": "Aug 07",
       "text": "August 5, 2026 — Houthis claim to attack Saudi oil tanker, Trump says Hormuz reopening ‘soon’",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5OLXlSS3NsVWFKTGpWMnhoeEJVeEJSTThJMjhtTXJHWGR2TWRmV0R6cHhrLUctVEtCOVM1bk1FUGZlWFN4bVNvMGJIQm9CTnUxMjREc2M2NGZ3Z29SNW5fLWp1MkV1Y210RGhhMHNkWFdSSVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1626
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 07",
-      "text": "Trump denies US low on key munitions in war with Iran after reports of shortages",
+      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNNTBtOWxQd244SDhXRjUwWThaa256VTBIQUpwWGJ4MkI5WFNDRXZXUDZhTzJGY3NVVENuSEkzdXlOdVNKN05UQTV3c0M3MXU0X0hlMWI4YlFZa3ktYXNhZ2NWcFB1SjBTa2w3bjF3T2d3cy1IMmJ3eGRWcENuMzhRQ042VDVlUUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1629
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cnbc.com",
+      "latestSinceUpdate": 1630
     },
     {
       "date": "Aug 07",
-      "text": "This is proof Iran won the war",
+      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNSS05Z1A1Ni1ualRRcVo4U3h3Ql85VXNXTzRtdGZ4SGdvc2pGMThLcWZuWnVkSTVYZ1ZHc1VnUGNwM0F1TVdodGk4ZklIYTNaeHNmaTgtWmdrYWt1OVRHT01DWG9mcWgzWWRsS2lWZnVoVjYwQl8xSlFSZXFCS0t4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "telegraph.co.uk",
-      "latestSinceUpdate": 1629
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1630
     },
     {
       "date": "Aug 07",
@@ -107,7 +106,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
