@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1636,
+  "updateSequence": 1637,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T20:01:19.132Z",
+  "lastSyncedAt": "2026-08-07T20:51:47.586Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 10,
     "escalationLevel": 38,
     "oilDisruption": 60,
-    "tradeImpact": 50,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
+    "tradeImpact": 34,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -70,7 +70,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 5, 2026 — Houthis claim to attack Saudi oil tanker, Trump says Hormuz reopening ‘soon’",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5OLXlSS3NsVWFKTGpWMnhoeEJVeEJSTThJMjhtTXJHWGR2TWRmV0R6cHhrLUctVEtCOVM1bk1FUGZlWFN4bVNvMGJIQm9CTnUxMjREc2M2NGZ3Z29SNW5fLWp1MkV1Y210RGhhMHNkWFdSSVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "edition.cnn.com"
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 07",
@@ -84,7 +84,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: US, Tehran confirm ‘peace deal’, signing set for Friday",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1634
     },
     {
@@ -100,7 +100,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1636
     }
   ],
