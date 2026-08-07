@@ -1,14 +1,14 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1631,
+  "updateSequence": 1632,
   "lastUpdated": "2026-08-07",
-  "lastSyncedAt": "2026-08-07T15:02:42.724Z",
+  "lastSyncedAt": "2026-08-07T16:02:38.202Z",
   "warDay": 161,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-07",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 60,
     "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
@@ -74,18 +74,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 07",
-      "text": "‘Last chance’: Bessent says Hormuz deal is in sight after Trump's warning on Iran talks",
+      "text": "Iran war updates: Tehran, Oman agree on route coordinates in Hormuz Strait",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE8xVDJwcEtlRHp3UDVCSmRFS1B5YVl6aEFqTEE3azRJWmtHQ1Joa3JTQ1RNSlV4MXIzRkc0NG1NTmN3NjRiMzNHVnBWX2g4bDdoWXVBQnVXcmJ0ZG1UWGFyMjJCZWgxNkdKRWFOOV9B0gFzQVVfeXFMTWIwdjBkSkNDaG1TaTVFTDlENDVTNng4Q21oN1JGa1FreExfYXBXUU1qbjJ0UUpCWkNSc19mN1kyOGlMRk90bmhXZXRYN21CUThJVllkRDIyNnotcDBENkhKSUZwcDc5Rjh5cWNlNjBBQnYzbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1630
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUUhGV2daUXJBYzlucTFkdTlPbHdZMmtEdVJhWXVGX05FeHNMX0FTRElnLU0zaFlYYTN4OVF0U2NhME1kbmZPVl94X3hWb21aSmNPdzdCbk5JZ1RFd1V3eExMYTROX3pHZmJGeGppV1RuMjBVeWtNaGw3OURzdjZoOWtfdngyNFVvRGVpbjd2VU9oNTluMFhvb29NMnplb3ZvT0F5ZTIzNklxWnRoaF9OMVNPaEV4QzZUMUVJ0gHAAUFVX3lxTFA1Vm9kZWlZa0NDT0VBRWJBY0pFNDkxb3FhVkNVdkVmdDdCLVNWMmN6RGVELU1xSkRaOWhYWVVMNkZ3SEpabTFQWjVYdG1sMFRhWVFuUHRxMGdSUVNCbnRIcVlDTk1YMDllTHE2RHFmRlpUQ1h3cEFvOVYwMVJxQWczeEl4TU5nRVF1Xzl1NEtERHJRakJlalhVUnJkcEc5SUpCLURpd3JtQm41eHgxZWxUanhsTHBuTlFDRVNfSHpMMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1632
     },
     {
       "date": "Aug 07",
       "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
+      "sourceName": "CNN",
       "latestSinceUpdate": 1630
     },
     {
@@ -106,7 +106,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
