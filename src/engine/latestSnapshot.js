@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1655,
+  "updateSequence": 1656,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T11:57:55.266Z",
+  "lastSyncedAt": "2026-08-08T13:05:18.973Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -60,6 +60,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
+      "text": "Iran Update Special Report, August 7, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNVGk1REhza1NwYXRKRU84VHVnOUIxRGt5a2FOeFViS1FZYjEtRXIxOHlIS2NGSlhZV3d5SGNVRmhjcHR3MXFBbDVnckU3dmtjZklBaXlwYnU5UWctcFNWb21NeDdJa1NiQkJFR085aUJpUDFwVEU3ZzkyZmdwVGNFMzY3QzNBY1lSdk9wN3VtYm9JalZkQkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1656
+    },
+    {
+      "date": "Aug 08",
       "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
@@ -81,14 +89,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 08",
-      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1655
-    },
-    {
-      "date": "Aug 08",
       "text": "Iran Warns Gulf States",
       "severity": "info",
       "sourceUrl": null,
@@ -105,7 +105,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
