@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1643,
+  "updateSequence": 1644,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T02:30:25.578Z",
+  "lastSyncedAt": "2026-08-08T03:52:43.195Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -68,18 +68,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 08",
-      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
+      "text": "Iran war latest: UAE, Bahrain and Kuwait condemn Houthi attacks on Saudi Arabia",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1642
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 1644
     },
     {
       "date": "Aug 08",
-      "text": "Iran war updates: US, Tehran confirm ‘peace deal’, signing set for Friday",
+      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQNEFmTFFKRUowR2l3c1Y5cFJlSGFjWDgzeDljakxTUERYa196SWRqMkx0eWhPYTdud1h5dEVvRzU5dkxRNUxIWjBUUElfRGhQQ25pU3ZJLXNlMTNqZWFaRmlaa05qRXJick9SVGVKSjJQanJuSzRLYzBnWU51UVRETVd6MGFMY2R4aHU1M1J3ZWl6ZnoxY2hJVndKMTJNMWxMYmJ3bm1OdFBEb0NWOEFCdENkOXRtX2tRb090ZlMyONIBxAFBVV95cUxPRlpGX2ZCbWxibFBiaWdVSzFnZjdqMDN0d1dVNk1nT3MxTFE1ZDlGS1hhZ1BXZ3ZkN0RDRWs3Tk1rVnNDbXJ0dkNsUHFjUDNsVEtHNXZiNGFuUVFFdk54SVIya0MzRG84Uy04RkNXWGJiT1FYWVJ3QzNjRmVrcVhfOUJ4MHRheVR1ckpGZmVHZTNMbzlTY2JFY3p5R2FKeXcybFIwODMzOGRHeXUzSC1yS0IxeDZIeG5PYXJUdUprT3M4bHNI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
       "latestSinceUpdate": 1642
     },
     {
@@ -103,7 +103,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war updates: Trump says US in talks with Iran, hopes for ‘good things’",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceName": "aljazeera.com",
       "latestSinceUpdate": 1643
     }
   ],
