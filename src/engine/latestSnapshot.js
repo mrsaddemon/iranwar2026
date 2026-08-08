@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1658,
+  "updateSequence": 1659,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T14:40:18.584Z",
+  "lastSyncedAt": "2026-08-08T15:12:43.857Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -71,7 +71,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com"
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 08",
