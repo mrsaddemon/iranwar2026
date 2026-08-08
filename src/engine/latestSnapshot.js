@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1651,
+  "updateSequence": 1652,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T09:48:42.951Z",
+  "lastSyncedAt": "2026-08-08T10:15:11.051Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -70,8 +70,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran plots to deal Trump a blow in midterms by keeping him entangled in war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNMllaRG1YaWRad3lYVXJ0TkQtSGg1dDBXQk1HaUFiRV9kOWZzRi1mcEdEREVaZmlESEU2LXJ6MVh0VVl5MUJyNjY4aUFYbVA0Z2VGQTlJU0otT2NLX1VHY1h3NmtNQ2JqcXFnZC10bjlGRENiUUJpZ2VSaGltZzA5bA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1648
+      "sourceName": "The Guardian"
     },
     {
       "date": "Aug 08",
@@ -106,7 +105,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
