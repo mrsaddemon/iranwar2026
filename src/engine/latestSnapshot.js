@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1650,
+  "updateSequence": 1651,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T09:03:31.866Z",
+  "lastSyncedAt": "2026-08-08T09:48:42.951Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -60,6 +60,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
+      "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN"
+    },
+    {
+      "date": "Aug 08",
       "text": "Iran plots to deal Trump a blow in midterms by keeping him entangled in war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNMllaRG1YaWRad3lYVXJ0TkQtSGg1dDBXQk1HaUFiRV9kOWZzRi1mcEdEREVaZmlESEU2LXJ6MVh0VVl5MUJyNjY4aUFYbVA0Z2VGQTlJU0otT2NLX1VHY1h3NmtNQ2JqcXFnZC10bjlGRENiUUJpZ2VSaGltZzA5bA?hl=en-US&gl=US&ceid=US:en",
@@ -68,18 +75,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 08",
-      "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
+      "text": "Will the US-Iran war and Hormuz deadlock last for months?",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran war latest: UAE, Bahrain and Kuwait condemn Houthi attacks on Saudi Arabia",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1648
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOeWV1dlM0Uk8ya1hsSnUwMDluTlBGQW9zak8zVzh4RnRRNVBIMEszdkZjdTNoTFN2UlNpSDFXNXZZUlBfcWQ5YWpVMkptd2ZSV3oxNTBPbkU5eTAzRkhSUHhuSTVRclNQbS1kOF9QaDlVV21nZ3c5eVkyVWRYY09xZWlWMFZ0X0tZQTNTSlV0MGlKblFKS3ppN1p4bETSAaIBQVVfeXFMTWZkOHNkZkRlMUE5dTVSbXNsLVo3ZDB5b1hsS1QtMnY2Q1B2aG84dGoyYldwMmpidnZXdUtZa1JGMUVIS3VJcmhtaGU4eXRzVzVSR2o0QTR4R3ltZlM1aExuU3dyMWlkU3RIYmM1Sy0yZTRNMWFpTnFKbkRXTmxkTDNJRUVRbmZxal9vWWgwZUNDRHF5MDEyUHFiWUVOR1dWZ09n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1651
     },
     {
       "date": "Aug 08",
