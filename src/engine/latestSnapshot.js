@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1673,
+  "updateSequence": 1674,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T23:12:33.020Z",
+  "lastSyncedAt": "2026-08-08T23:47:44.796Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
