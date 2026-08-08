@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1659,
+  "updateSequence": 1660,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T15:12:43.857Z",
+  "lastSyncedAt": "2026-08-08T15:49:01.368Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -63,8 +63,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran Update Special Report, August 7, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNVGk1REhza1NwYXRKRU84VHVnOUIxRGt5a2FOeFViS1FZYjEtRXIxOHlIS2NGSlhZV3d5SGNVRmhjcHR3MXFBbDVnckU3dmtjZklBaXlwYnU5UWctcFNWb21NeDdJa1NiQkJFR085aUJpUDFwVEU3ZzkyZmdwVGNFMzY3QzNBY1lSdk9wN3VtYm9JalZkQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1656
+      "sourceName": "Institute for the Study of War"
     },
     {
       "date": "Aug 08",
@@ -75,17 +74,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 08",
-      "text": "Iran plots to deal Trump a blow in midterms by keeping him entangled in war",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNMllaRG1YaWRad3lYVXJ0TkQtSGg1dDBXQk1HaUFiRV9kOWZzRi1mcEdEREVaZmlESEU2LXJ6MVh0VVl5MUJyNjY4aUFYbVA0Z2VGQTlJU0otT2NLX1VHY1h3NmtNQ2JqcXFnZC10bjlGRENiUUJpZ2VSaGltZzA5bA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian"
-    },
-    {
-      "date": "Aug 08",
       "text": "Will the US-Iran war and Hormuz deadlock last for months?",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOeWV1dlM0Uk8ya1hsSnUwMDluTlBGQW9zak8zVzh4RnRRNVBIMEszdkZjdTNoTFN2UlNpSDFXNXZZUlBfcWQ5YWpVMkptd2ZSV3oxNTBPbkU5eTAzRkhSUHhuSTVRclNQbS1kOF9QaDlVV21nZ3c5eVkyVWRYY09xZWlWMFZ0X0tZQTNTSlV0MGlKblFKS3ppN1p4bETSAaIBQVVfeXFMTWZkOHNkZkRlMUE5dTVSbXNsLVo3ZDB5b1hsS1QtMnY2Q1B2aG84dGoyYldwMmpidnZXdUtZa1JGMUVIS3VJcmhtaGU4eXRzVzVSR2o0QTR4R3ltZlM1aExuU3dyMWlkU3RIYmM1Sy0yZTRNMWFpTnFKbkRXTmxkTDNJRUVRbmZxal9vWWgwZUNDRHF5MDEyUHFiWUVOR1dWZ09n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera"
+    },
+    {
+      "date": "Aug 08",
+      "text": "Iran war latest: UAE, Bahrain and Kuwait condemn Houthi attacks on Saudi Arabia",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 1660
     },
     {
       "date": "Aug 08",
