@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1654,
+  "updateSequence": 1655,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T11:36:17.316Z",
+  "lastSyncedAt": "2026-08-08T11:57:55.266Z",
   "warDay": 162,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -74,19 +74,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 08",
-      "text": "The cost of the Iran war is mounting. Here’s the latest tally.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPekdKYXN0N3lrNFloMUZFdFR1TTU5ZUZYWVdRQmVKdXBCY1U0UlNNUGltUkRraGdHR0lFZy1CYXNNbUcyOVBRWWpRaHltZEg5TDVHSmdUOFpNcGlTVFd5UFFpMF85Y0k1MFFPN2lpU2dIdzczMmNoOWRJY0txUFlQYWQxOHZSQ1pRZ2xId2xaRnVQek91bmYtSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1653
-    },
-    {
-      "date": "Aug 08",
       "text": "Will the US-Iran war and Hormuz deadlock last for months?",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxOeWV1dlM0Uk8ya1hsSnUwMDluTlBGQW9zak8zVzh4RnRRNVBIMEszdkZjdTNoTFN2UlNpSDFXNXZZUlBfcWQ5YWpVMkptd2ZSV3oxNTBPbkU5eTAzRkhSUHhuSTVRclNQbS1kOF9QaDlVV21nZ3c5eVkyVWRYY09xZWlWMFZ0X0tZQTNTSlV0MGlKblFKS3ppN1p4bETSAaIBQVVfeXFMTWZkOHNkZkRlMUE5dTVSbXNsLVo3ZDB5b1hsS1QtMnY2Q1B2aG84dGoyYldwMmpidnZXdUtZa1JGMUVIS3VJcmhtaGU4eXRzVzVSR2o0QTR4R3ltZlM1aExuU3dyMWlkU3RIYmM1Sy0yZTRNMWFpTnFKbkRXTmxkTDNJRUVRbmZxal9vWWgwZUNDRHF5MDEyUHFiWUVOR1dWZ09n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1651
+      "sourceName": "Al Jazeera"
+    },
+    {
+      "date": "Aug 08",
+      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1655
     },
     {
       "date": "Aug 08",
@@ -106,7 +105,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
