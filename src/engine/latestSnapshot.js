@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1670,
+  "updateSequence": 1671,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T21:48:49.148Z",
+  "lastSyncedAt": "2026-08-08T22:11:56.666Z",
   "warDay": 162,
   "summary": "The Middle East conflict is widening with Iranian-backed proxies targeting Saudi Arabia, while Iran issues demands regarding the Strait of Hormuz and tensions persist between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-08-08",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect as conflicts are reported to be widening."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 07",
-      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1669
-    },
-    {
-      "date": "Aug 07",
-      "text": "Iran Update Special Report.",
+      "date": "Aug 08",
+      "text": "Iran Update Special Report, August 7, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNVGk1REhza1NwYXRKRU84VHVnOUIxRGt5a2FOeFViS1FZYjEtRXIxOHlIS2NGSlhZV3d5SGNVRmhjcHR3MXFBbDVnckU3dmtjZklBaXlwYnU5UWctcFNWb21NeDdJa1NiQkJFR085aUJpUDFwVEU3ZzkyZmdwVGNFMzY3QzNBY1lSdk9wN3VtYm9JalZkQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1670
+      "sourceName": "understandingwar.org",
+      "latestSinceUpdate": 1671
     },
     {
-      "date": "Aug 06",
-      "text": "Iran Update Special Report.",
+      "date": "Aug 08",
+      "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOb2M2cXlGYmM5d3VpUnhldnItUk9yZGo4a2c4ZGxadktfSVB1Zm9pR2hSa0Q3XzJ2dXpaSDNNZ25jSVk3ZTMyc2dwaXhfQmIxTWdJd29KVlJQRlFoUU5WM21lOUNVTzBLTEMwVmREM1ExNHJITV9Yc3NhU3VPWUY1Z1J5NUFjVFF4Q0FBSUJ1b2dKODczS2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1670
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1671
     },
     {
-      "date": "Aug 06",
-      "text": "Trump says US has ‘massive amounts’ of munitions after reports of low stockpile.",
+      "date": "Aug 08",
+      "text": "Iran war latest: UAE, Bahrain and Kuwait condemn Houthi attacks on Saudi Arabia",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 1671
+    },
+    {
+      "date": "Aug 08",
+      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1670
+      "latestSinceUpdate": 1671
     },
     {
       "date": "Aug 08",
-      "text": "Iran warns Gulf States.",
-      "severity": "warning",
+      "text": "Iran Warns Gulf States",
+      "severity": "info",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1670
+      "sourceName": null,
+      "latestSinceUpdate": 1671
     },
     {
       "date": "Aug 08",
-      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain.",
-      "severity": "warning",
+      "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1670
+      "latestSinceUpdate": 1671
     }
   ],
   "sourceStatuses": [
