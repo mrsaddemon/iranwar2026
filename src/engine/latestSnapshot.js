@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1663,
+  "updateSequence": 1664,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T17:38:38.149Z",
+  "lastSyncedAt": "2026-08-08T18:14:03.287Z",
   "warDay": 162,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The conflict in the Middle East is widening with Iranian-backed proxies targeting Saudi Arabia, while the US navigates military responses and diplomatic efforts with Iran amidst Strait of Hormuz tensions and internal calls for de-escalation.",
   "lastNarrativeUpdate": "2026-08-08",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect amidst ongoing regional conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.4
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 60,
-    "tradeImpact": 50,
-    "sanctionsPressure": 56,
-    "globalPressure": 63,
-    "allianceInfluence": 46
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,48 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 08",
-      "text": "Iran Update Special Report, August 7, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNVGk1REhza1NwYXRKRU84VHVnOUIxRGt5a2FOeFViS1FZYjEtRXIxOHlIS2NGSlhZV3d5SGNVRmhjcHR3MXFBbDVnckU3dmtjZklBaXlwYnU5UWctcFNWb21NeDdJa1NiQkJFR085aUJpUDFwVEU3ZzkyZmdwVGNFMzY3QzNBY1lSdk9wN3VtYm9JalZkQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War"
-    },
-    {
-      "date": "Aug 08",
-      "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
-      "severity": "info",
+      "date": "Aug 07",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, widening the conflict in the Middle East.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1664
     },
     {
-      "date": "Aug 08",
-      "text": "Iran war latest: UAE, Bahrain and Kuwait condemn Houthi attacks on Saudi Arabia",
-      "severity": "info",
+      "date": "Aug 07",
+      "text": "UAE, Bahrain, and Kuwait condemned Houthi attacks on Saudi Arabia.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1662
+      "latestSinceUpdate": 1664
     },
     {
-      "date": "Aug 08",
-      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1662
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran Warns Gulf States",
+      "date": "Aug 06",
+      "text": "President Trump stated the US possesses 'massive amounts' of munitions.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": null
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1664
     },
     {
-      "date": "Aug 08",
-      "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera"
+      "date": "Aug 06",
+      "text": "Iran issued warnings to Gulf States.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1664
+    },
+    {
+      "date": "Recent",
+      "text": "The US launched strikes following the killing of soldiers in Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1664
+    },
+    {
+      "date": "Recent",
+      "text": "Iran issued a list of demands, complicating efforts to reopen the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1664
     }
   ],
   "sourceStatuses": [
