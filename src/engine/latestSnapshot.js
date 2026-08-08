@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1668,
+  "updateSequence": 1669,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T20:39:56.316Z",
+  "lastSyncedAt": "2026-08-08T21:13:06.057Z",
   "warDay": 162,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-08",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and lingering disputes over potential de-escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -19,12 +19,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
     "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
+    "oilDisruption": 85,
+    "tradeImpact": 52,
     "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "globalPressure": 56,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 08",
-      "text": "August 7, 2026 — Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East",
-      "severity": "info",
+      "date": "Aug 07",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1668
+      "latestSinceUpdate": 1669
     },
     {
-      "date": "Aug 08",
-      "text": "Iran Update Special Report, August 7, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNVGk1REhza1NwYXRKRU84VHVnOUIxRGt5a2FOeFViS1FZYjEtRXIxOHlIS2NGSlhZV3d5SGNVRmhjcHR3MXFBbDVnckU3dmtjZklBaXlwYnU5UWctcFNWb21NeDdJa1NiQkJFR085aUJpUDFwVEU3ZzkyZmdwVGNFMzY3QzNBY1lSdk9wN3VtYm9JalZkQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1668
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran Update Special Report, August 6, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOb2M2cXlGYmM5d3VpUnhldnItUk9yZGo4a2c4ZGxadktfSVB1Zm9pR2hSa0Q3XzJ2dXpaSDNNZ25jSVk3ZTMyc2dwaXhfQmIxTWdJd29KVlJQRlFoUU5WM21lOUNVTzBLTEMwVmREM1ExNHJITV9Yc3NhU3VPWUY1Z1J5NUFjVFF4Q0FBSUJ1b2dKODczS2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1668
-    },
-    {
-      "date": "Aug 08",
-      "text": "August 6, 2026 — Trump says US has ‘massive amounts’ of munitions after reports of low stockpile",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9lbjJRUV9NcV9LdlpHdnVwSThzSGlOYWZjWW9SMU5KZHB5MmI3OHQ2Z0JPaHh2alF3Ym9pTHFDUWV1OEVUUnZtS1FwQXZwVGpIZmlOUWcyTGx3ZU5FZWRaelJnY05lWm5XZ1YxS3hB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1668
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran Warns Gulf States",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 1668
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran war updates: Trump threatens ‘heavy attacks’ on Pickaxe Mountain",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 06",
+      "text": "US launches strikes after killing of soldiers in Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1668
+      "latestSinceUpdate": 1669
+    },
+    {
+      "date": "Aug 06",
+      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1669
+    },
+    {
+      "date": "Aug 06",
+      "text": "Iran Issues List of Demands, Dampening Hopes of Reopening Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPQ0Z6VE9zOTlXc2VKSUt0MU9fMDVneXJVN2d5bTVVdDNsT1dSZnNscEhZSXc4SkpQd1JwaTlFajA4T1Q2dG1LekRpa3VGblNJM2RnVVg0SUV6dFdTd0Y3UFg0QWctQ0ZhUkRfQk92MkpaTDF5WFV3aTJyRlB6a3VPdGFxY2tUbmNKa2J4bUNjQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1669
+    },
+    {
+      "date": "Aug 06",
+      "text": "Iran makes new strait demands, the UAE says a ship was targeted.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQOHdLUWp2NDlHVUNRNUxzazJIX3lzdzlVR0tMZEJacTVUa0N1bGZocG9jV01IT2MzNU5fdmJsUTNPQV9RN0tRT3FUclpuMWFUb0RpVmpNekVSZDBlcUxsVXplQzZjYW8xeGVXVEhKTnBZOGdkOF9mNkpBUWhpWUxDV2RBQUlSOFlrVGNFY25xckY1a19XTW9zdHhqXzRMNFZsOFZuTUJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1669
+    },
+    {
+      "date": "Aug 06",
+      "text": "Israel's response to Hezbollah attack that killed 2 IDF soldiers 'not yet complete'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxOUjA2YkF4SEhKaXBTRDR3cTFnaFNCVGlLcnhEdEFqZWZNTmFWUTV2dEtiZHpkRE5Wc00yQ09ZSjB1aGp1ME1rR0NHM1l6cVBFNks3MW11QnBxODZlOElHb3o1WHBnSXVrbEVobWhTUlZXWWkzTGJUYVZvWG1Ncm9zemRfbjd5Yzh4YXdnQzRXbW9keTZxUVVGcFJ6NHdNLTlCXzZGNloxN1Q3OXhFQ3czcEo3ZUFKRHE4d0R3RmNYTjhudXRjX2pCdjh0Q1JIandyaXBn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "i24NEWS",
+      "latestSinceUpdate": 1669
     }
   ],
   "sourceStatuses": [

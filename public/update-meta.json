@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1668,
+  "updateSequence": 1669,
   "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T20:39:56.316Z",
+  "lastSyncedAt": "2026-08-08T21:13:06.057Z",
   "warDay": 162,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and lingering disputes over potential de-escalation."
   }
 }
