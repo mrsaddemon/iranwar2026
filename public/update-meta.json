@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1691,
+  "updateSequence": 1692,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T15:14:42.630Z",
+  "lastSyncedAt": "2026-08-09T15:49:58.493Z",
   "warDay": 163,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect between major parties; regional conflicts and standoffs persist."
+    "summary": "No active ceasefire is in effect, with ongoing hostilities and a deadlock over the Strait of Hormuz."
   }
 }
