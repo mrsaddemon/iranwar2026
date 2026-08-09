@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1701,
+  "updateSequence": 1702,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T21:40:49.702Z",
+  "lastSyncedAt": "2026-08-09T22:12:11.912Z",
   "warDay": 163,
-  "summary": "The Iran war continues with US-Iran negotiations stalled over Strait of Hormuz conditions, while regional tensions escalate with proxy attacks and Israeli preparations for strikes.",
+  "summary": "Negotiations over the Strait of Hormuz are ongoing with Iran demanding concessions, while regional tensions remain high with threats of military action and proxy attacks.",
   "lastNarrativeUpdate": "2026-08-09",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect for the broader Iran-US conflict, though talks on Hezbollah disarmament are ongoing."
+    "summary": "No active ceasefire is in effect; negotiations are ongoing but demands are hardening."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.75
       }
     },
@@ -27,32 +27,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 68,
-    "globalPressure": 90,
-    "allianceInfluence": 73
+    "nuclearIndex": 45,
+    "escalationLevel": 80,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
+    "sanctionsPressure": 63,
+    "globalPressure": 79,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,35 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "US is 'only semi-negotiating' with Tehran amidst Iran's demands for concessions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1701
-    },
-    {
-      "date": "Aug 08",
       "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman.",
-      "severity": "warning",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1700
     },
     {
       "date": "Aug 08",
-      "text": "IRGC states Hormuz will open after US accepts Iran's conditions.",
-      "severity": "warning",
+      "text": "IRGC says Hormuz to open after US accepts conditions.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdXdjZUFncUFjUUhKUlJVNHZLOWFLbHlvQ1NxbGdTbXB1Q1p5V055VFFUbVNzaG1peHJHcG5NWUl4c1YxMnZhM3BlalN2V2dsWjNGb1JVRFdzby1CWlJJcVZvVVdSQ09QY2VHZ3hCaFRtb25RMjc4b1RvaDlTVm9lT3FPT0x4bThvZjV5bWx5TnNLcU9SU2E2UGhZSEpmU1ppVW05dDFtTDhKTS01UVg0YnZUZGo1QllZRHFybtIBwgFBVV95cUxNUmVhM2hweGl2V0dURDlEc3JqUTFYbG9UbWdhRmdSVkJXalZUSHdEanJ5eUVSMUpoblI0b0JEdmtELWNDR214ZTl5akNpTU9OYnZJcUZYQ3hBVlp0dW4xT19vNFYtbENtZUZTVlVScDRFaFVmWG1oY1pGZHN5a1gwRmtsQ1A0b3hwUFZJVmJ5WGExSFpXRV9Ed2hJcFNpNnVfRzhKZ2s2RG8zaGlRTGpBU01xdkxjU08yT2FfMkhpN2VTZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1701
+      "latestSinceUpdate": 1702
     },
     {
       "date": "Aug 07",
-      "text": "Iranian-backed proxies targeted Saudi Arabia, widening the Middle East conflict.",
-      "severity": "critical",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1701
+      "latestSinceUpdate": 1702
     },
     {
       "date": "Aug 07",
@@ -100,11 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 07",
-      "text": "Iran warns Gulf States amidst escalating tensions.",
+      "text": "Trump warns of unprecedented ‘massive attack’ on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1702
+    },
+    {
+      "date": "Aug 08",
+      "text": "Iran toughens its demands over the vital Strait of Hormuz rather than capitulating to the US.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1701
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE9meGY5VUJUV2tUTy1QVHlJejNuQ3NGZVh2YVp2ZXVYMkU3a1hodmlNRGRtZjhZTkFNWjhYc254TE1nRzVwcXpPeU1DUHlEbURlUDd1dndqQ2lFcmttTGoyaWxQMldkNXlqd2VVMk9YblJFSElQdUtER0xxdVZ4QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1702
     }
   ],
   "sourceStatuses": [
