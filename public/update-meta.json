@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1700,
+  "updateSequence": 1701,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T20:54:08.388Z",
+  "lastSyncedAt": "2026-08-09T21:40:49.702Z",
   "warDay": 163,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect, though diplomatic efforts for the Strait of Hormuz and calls for de-escalation are noted amidst ongoing conflict."
+    "summary": "No active ceasefire is in effect for the broader Iran-US conflict, though talks on Hezbollah disarmament are ongoing."
   }
 }
