@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1687,
+  "updateSequence": 1688,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T11:59:32.489Z",
+  "lastSyncedAt": "2026-08-09T13:08:04.885Z",
   "warDay": 163,
-  "summary": "Iran continues to demand concessions from the US for opening the Strait of Hormuz, while Israel prepares for potential unilateral strikes on Iran and engages in conflict with Lebanon.",
+  "summary": "The conflict intensifies as Iran demands concessions for reopening the Strait of Hormuz, while Iranian-backed proxies escalate attacks in the region and Israel prepares for potential unilateral strikes.",
   "lastNarrativeUpdate": "2026-08-09",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect between major belligerents, with ongoing conflicts and threats."
+    "summary": "No ceasefire is currently active; conflict continues with escalating threats and actions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.55
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.85
+        "precision": 0.75,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 40,
     "escalationLevel": 80,
     "oilDisruption": 90,
     "tradeImpact": 79,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "Iran seeks to create grounds for talks with the US, demanding concessions.",
+      "text": "Iran seeks to create grounds for talks with the US, while demanding concessions.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1687
+      "latestSinceUpdate": 1688
     },
     {
       "date": "Aug 07",
-      "text": "Iran is nearing a Strait of Hormuz deal with Oman, while also publishing a list of demands for the US.",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, widening the conflict in the Middle East.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQTjRyQnZ2aG5rTlFvRmplYkNqQ3Rxck5pREMzSGxnRm1oOFRSd3hic3BlUzZ3alAtZFB5RjFiSC1ibnVpNm9DQzZWVVk5c2Iwd24yeUlEQzBqWGZ6eHdMaFI4d0MtdDIxbXlzTDgzT0tsX3ZJb2Zvb3ZnLTNTbzFla1BORl9sN1pkeDEtVFE5SWhJY3BLUHFfaWhKRjh3WHBRS1FV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1687
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1688
     },
     {
-      "date": "Aug 08",
-      "text": "UAE, Bahrain, and Kuwait condemn Houthi attacks on Saudi Arabia.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1687
-    },
-    {
-      "date": "Aug 08",
-      "text": "Israel prepares for possible unilateral strikes on Iran.",
+      "date": "Aug 07",
+      "text": "Houthis claim attacks on a Saudi oil facility and a Yemeni port as regional conflict escalates.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4zczFtNVN4ekhEZnBzcmk1a0JsOHlRanpTblowSUN5d1pCbHRmMTN5Y045bkdTdG92bncxWUhqZ2ZOdEV0X3kxU29TZ3lkYU0zd3N4Qk1LMUhvU3RYM2RhcXpJN2FEZjdoSVBNWVZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1688
+    },
+    {
+      "date": "Aug 07",
+      "text": "Iran issues a list of demands, stating the Strait of Hormuz will remain closed until the US accepts all conditions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdXdjZUFncUFjUUhKUlJVNHZLOWFLbHlvQ1NxbGdTbXB1Q1p5V055VFFUbVNzaG1peHJHcG5NWUl4c1YxMnZhM3BlalN2V2dsWjNGb1JVRFdzby1CWlJJcVZvVVdSQ09QY2VHZ3hCaFRtb25RMjc4b1RvaDlTVm9lT3FPT0x4bThvZjV5bWx5TnNLcU9SU2E2UGhZSEpmU1ppVW05dDFtTDhKTS01UVg0YnZUZGo1QllZRHFybtIBwgFBVV95cUxNUmVhM2hweGl2V0dURDlEc3JqUTFYbG9UbWdhRmdSVkJXalZUSHdEanJ5eUVSMUpoblI0b0JEdmtELWNDR214ZTl5akNpTU9OYnZJcUZYQ3hBVlp0dW4xT19vNFYtbENtZUZTVlVScDRFaFVmWG1oY1pGZHN5a1gwRmtsQ1A0b3hwUFZJVmJ5WGExSFpXRV9Ed2hJcFNpNnVfRzhKZ2s2RG8zaGlRTGpBU01xdkxjU08yT2FfMkhpN2VTZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1688
+    },
+    {
+      "date": "Aug 07",
+      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Israeli media",
-      "latestSinceUpdate": 1687
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1688
     },
     {
-      "date": "Aug 08",
-      "text": "Iran warns Gulf States and states the Strait of Hormuz will remain closed while the US breaches a deal.",
-      "severity": "critical",
+      "date": "Aug 07",
+      "text": "Iran warns Gulf States amidst the escalating conflict.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1687
-    },
-    {
-      "date": "Aug 08",
-      "text": "Trump threatens 'heavy attacks' on Pickaxe Mountain.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1687
+      "latestSinceUpdate": 1688
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
