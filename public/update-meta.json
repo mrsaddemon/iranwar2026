@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1674,
-  "lastUpdated": "2026-08-08",
-  "lastSyncedAt": "2026-08-08T23:47:44.796Z",
-  "warDay": 162,
+  "updateSequence": 1675,
+  "lastUpdated": "2026-08-09",
+  "lastSyncedAt": "2026-08-09T00:35:31.384Z",
+  "warDay": 163,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire is in effect for the broader conflict, and a previous truce in Lebanon appears to be severely strained."
   }
 }
