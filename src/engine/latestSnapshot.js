@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1682,
+  "updateSequence": 1683,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T08:55:36.286Z",
+  "lastSyncedAt": "2026-08-09T09:49:37.211Z",
   "warDay": 163,
-  "summary": "As War Day 163 continues, Iran seeks an end to the 'no war, no peace' situation, demanding US concessions for a Strait of Hormuz deal, while Iranian-backed proxies targeted Saudi Arabia and Israel escalated attacks on Hezbollah and prepared for potential strikes on Iran, amidst calls from a top US general for de-escalation.",
+  "summary": "The US and Iran are engaged in talks regarding the Strait of Hormuz, while regional conflicts persist with Israeli strikes in Lebanon and Iranian-backed proxy attacks in Saudi Arabia.",
   "lastNarrativeUpdate": "2026-08-09",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is reported, with ongoing conflict and negotiations for de-escalation."
+    "summary": "No active ceasefire is reported in the primary conflict zones."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 60,
     "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
+    "oilDisruption": 85,
+    "tradeImpact": 75,
     "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "Iran's Pezeshkian seeks end to ‘no war, no peace’ amid Hormuz talks.",
+      "text": "Iran seeks to create grounds for talks with the US and demands concessions as it nears a Strait of Hormuz deal with Oman.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1682
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1682
-    },
-    {
-      "date": "Aug 08",
-      "text": "IRGC says Hormuz to open after US accepts conditions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdXdjZUFncUFjUUhKUlJVNHZLOWFLbHlvQ1NxbGdTbXB1Q1p5V055VFFUbVNzaG1peHJHcG5NWUl4c1YxMnZhM3BlalN2V2dsWjNGb1JVRFdzby1CWlJJcVZvVVdSQ09QY2VHZ3hCaFRtb25RMjc4b1RvaDlTVm9lT3FPT0x4bThvZjV5bWx5TnNLcU9SU2E2UGhZSEpmU1ppVW05dDFtTDhKTS01UVg0YnZUZGo1QllZRHFybtIBwgFBVV95cUxNUmVhM2hweGl2V0dURDlEc3JqUTFYbG9UbWdhRmdSVkJXalZUSHdEanJ5eUVSMUpoblI0b0JEdmtELWNDR214ZTl5akNpTU9OYnZJcUZYQ3hBVlp0dW4xT19vNFYtbENtZUZTVlVScDRFaFVmWG1oY1pGZHN5a1gwRmtsQ1A0b3hwUFZJVmJ5WGExSFpXRV9Ed2hJcFNpNnVfRzhKZ2s2RG8zaGlRTGpBU01xdkxjU08yT2FfMkhpN2VTZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1682
+      "latestSinceUpdate": 1683
     },
     {
       "date": "Aug 07",
-      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East.",
-      "severity": "critical",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in the Middle East.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1682
+      "latestSinceUpdate": 1683
     },
     {
       "date": "Aug 07",
-      "text": "Israel prepares for possible unilateral strikes on Iran.",
-      "severity": "critical",
+      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1681
+      "sourceName": "aa.com.tr",
+      "latestSinceUpdate": 1683
     },
     {
       "date": "Aug 07",
-      "text": "Iran Warns Gulf States.",
+      "text": "Iran warns Gulf States amid regional tensions.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1682
+      "latestSinceUpdate": 1683
+    },
+    {
+      "date": "Aug 07",
+      "text": "Iran insists on US concessions before opening the Strait of Hormuz after a UAE ship was reportedly targeted by an airstrike.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4zczFtNVN4ekhEZnBzcmk1a0JsOHlRanpTblowSUN5d1pCbHRmMTN5Y045bkdTdG92bncxWUhqZ2ZOdEV0X3kxU29TZ3lkYU0zd3N4Qk1LMUhvU3RYM2RhcXpJN2FEZjdoSVBNWVZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1683
+    },
+    {
+      "date": "Aug 07",
+      "text": "Israel strikes south Lebanon after two soldiers were killed by an explosion.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9vVXFqYnduTnlVM25qT285YnZXa0FUbk5BV0JsM0wxeHM2SkliUXhCeFkzSjdpamN2eHhGcnpHNXZTT3dvMU11RURQZHVsdGVYdU5QVWxjc21Qdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1683
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
