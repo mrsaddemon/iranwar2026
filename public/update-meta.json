@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1693,
+  "updateSequence": 1694,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T16:16:02.086Z",
+  "lastSyncedAt": "2026-08-09T16:57:30.454Z",
   "warDay": 163,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 70,
-    "summary": "A June truce between Lebanon and Israel has seen its first Israeli casualties, though talks continue on international verification of Hezbollah disarmament."
+    "summary": "No active ceasefire is reported, with ongoing military actions and threats from multiple parties."
   }
 }
