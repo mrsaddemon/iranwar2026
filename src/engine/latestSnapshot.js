@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1685,
+  "updateSequence": 1686,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T10:54:58.782Z",
+  "lastSyncedAt": "2026-08-09T11:37:22.006Z",
   "warDay": 163,
-  "summary": "Ongoing conflict sees Iran demanding concessions for opening the Strait of Hormuz while engaging in talks with Oman, as Israel conducts strikes in Lebanon and prepares for potential action against Iran, and a top US general seeks de-escalation.",
+  "summary": "The Middle East conflict continues with Iran demanding concessions from the US for opening the Strait of Hormuz, while Iranian-backed proxies target Saudi Arabia and Israel conducts strikes in Lebanon and prepares for potential unilateral action against Iran.",
   "lastNarrativeUpdate": "2026-08-09",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect between major parties."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect across the conflict zones."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.88
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 78,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
-    "allianceInfluence": 46
+    "nuclearIndex": 55,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "Iran seeks 'to create grounds' for talks with US and demands concessions as it nears Strait of Hormuz deal with Oman.",
+      "text": "Iran seeks to create grounds for talks with the US and demands concessions as it nears a Strait of Hormuz deal with Oman.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1685
+      "latestSinceUpdate": 1686
     },
     {
       "date": "Aug 07",
-      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East.",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, widening the conflict in the Middle East.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1685
+      "latestSinceUpdate": 1686
     },
     {
       "date": "Aug 07",
       "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aa.com.tr",
+      "sourceName": "Anadolu Ajansı",
       "latestSinceUpdate": 1685
     },
     {
       "date": "Aug 07",
-      "text": "Iran warns Gulf States and states Strait of Hormuz will stay closed while US breaches deal.",
-      "severity": "critical",
+      "text": "Iran warns Gulf States amid escalating tensions.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1685
+      "latestSinceUpdate": 1686
     },
     {
       "date": "Aug 07",
-      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain.",
+      "text": "Iran states the Strait of Hormuz will remain closed while the US breaches a deal, issuing new demands.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQTjRyQnZ2aG5rTlFvRmplYkNqQ3Rxck5pREMzSGxnRm1oOFRSd3hic3BlUzZ3alAtZFB5RjFiSC1ibnVpNm9DQzZWVVk5c2Iwd24yeUlEQzBqWGZ6eHdMaFI4d0MtdDIxbXlzTDgzT0tsX3ZJb2Zvb3ZnLTNTbzFla1BORl9sN1pkeDEtVFE5SWhJY3BLUHFfaWhKRjh3WHBRS1FV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1686
+    },
+    {
+      "date": "Aug 07",
+      "text": "President Trump threatens ‘heavy attacks’ on Pickaxe Mountain.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1684
-    },
-    {
-      "date": "Aug 07",
-      "text": "Israel strikes south Lebanon after two soldiers killed by explosion, refusing further withdrawals.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9vVXFqYnduTnlVM25qT285YnZXa0FUbk5BV0JsM0wxeHM2SkliUXhCeFkzSjdpamN2eHhGcnpHNXZTT3dvMU11RURQZHVsdGVYdU5QVWxjc21Qdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1685
+      "latestSinceUpdate": 1686
     }
   ],
   "sourceStatuses": [
