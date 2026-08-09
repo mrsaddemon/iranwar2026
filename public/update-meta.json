@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1676,
+  "updateSequence": 1677,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T02:37:15.022Z",
+  "lastSyncedAt": "2026-08-09T04:02:59.493Z",
   "warDay": 163,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "fragile",
+    "confidence": 0.3,
     "durationDays": 60,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic tensions."
+    "summary": "A ceasefire between Israel and Hezbollah in Lebanon appears fragile and has been violated, despite ongoing diplomatic efforts for verification."
   }
 }
