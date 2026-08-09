@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1696,
+  "updateSequence": 1697,
   "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T18:15:48.617Z",
+  "lastSyncedAt": "2026-08-09T19:04:44.785Z",
   "warDay": 163,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 70,
-    "summary": "The June truce between Israel and Hezbollah has collapsed following recent Israeli casualties and escalated attacks."
+    "durationDays": 60,
+    "summary": "A June truce between Israel and Hezbollah has collapsed following renewed Israeli attacks and the deaths of two Israeli soldiers."
   }
 }
