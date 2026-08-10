@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1713,
+  "updateSequence": 1714,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T12:27:29.525Z",
+  "lastSyncedAt": "2026-08-10T13:59:02.741Z",
   "warDay": 164,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect; reports indicate a Hezbollah cease-fire violation."
+    "summary": "No active ceasefire is in place for the broader Iran-US conflict, though a reported Hezbollah cease-fire violation occurred in southern Lebanon."
   }
 }
