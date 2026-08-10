@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1714,
+  "updateSequence": 1715,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T13:59:02.741Z",
+  "lastSyncedAt": "2026-08-10T15:08:30.767Z",
   "warDay": 164,
-  "summary": "Negotiations between the US and Iran over the reopening of the Strait of Hormuz remain stalled as Iran demands concessions, while Israel prepares for potential unilateral strikes and regional tensions persist.",
+  "summary": "Tensions remain high as Iran demands concessions for reopening the Strait of Hormuz, while the US seeks an off-ramp from the conflict and Israel prepares for potential unilateral strikes.",
   "lastNarrativeUpdate": "2026-08-10",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is in place for the broader Iran-US conflict, though a reported Hezbollah cease-fire violation occurred in southern Lebanon."
+    "summary": "No active ceasefire is currently in effect for the primary US-Iran conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 65,
-    "escalationLevel": 80,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "Iran demands concessions from the US to reopen the Strait of Hormuz, despite earlier US optimism.",
+      "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1715
+    },
+    {
+      "date": "Aug 09",
+      "text": "Strait of Hormuz reportedly hit by missile strike amidst ongoing tensions.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1714
+      "latestSinceUpdate": 1715
     },
     {
-      "date": "Aug 08",
-      "text": "President Trump states the US is 'only semi-negotiating' with Tehran regarding the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1714
-    },
-    {
-      "date": "Aug 08",
-      "text": "Israel prepares for possible unilateral strikes on Iran amidst escalating tensions.",
-      "severity": "critical",
+      "date": "Aug 09",
+      "text": "Israel prepares for possible unilateral strikes on Iran.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1714
+      "latestSinceUpdate": 1715
     },
     {
-      "date": "Aug 08",
-      "text": "UAE, Bahrain, and Kuwait condemn Houthi attacks targeting Saudi Arabia.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1714
-    },
-    {
-      "date": "Aug 08",
-      "text": "The US announces another troop death in the region.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1714
-    },
-    {
-      "date": "Aug 08",
-      "text": "The IDF reports striking in southern Lebanon, citing a Hezbollah cease-fire violation.",
+      "date": "Aug 09",
+      "text": "IDF strikes in southern Lebanon citing Hezbollah cease-fire violation.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMinwJBVV95cUxOcVRQLWNxeE55TTlORE1YR3hpSWNzanBsbjJBbmhjWElnOHNNcUx0dHZVYXdEUlpGY25YQmZpakdPTFBQMjJOX0M0OG9aTjFXd0czWjhGcVNobDB1OU8zdENjTl85LWI4NGVRX09WRUxHMzRBZzgtMlQ1RXZHV1RzdHpqR0xuSjVWcFM5VDlCakRLRWppdDNVb09vVzZ5cUpxTlZBamxFRVNVRWY1QS1EVnpnZ19ieVMyYld1RTJoaG11TFNGb2VxR05aOEg1OWZaQVBlYWJCZGhJRVVkTXhKaXhYZU1lOFdZN3RyRDg0eF9nMlJDN3pwazNoSmR2cUx3QmRqUFdKNDNpdUQ4N2t5WE1XQ0h6LV9LTi1FUVBucw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Haaretz",
-      "latestSinceUpdate": 1714
+      "latestSinceUpdate": 1715
+    },
+    {
+      "date": "Aug 09",
+      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1715
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
