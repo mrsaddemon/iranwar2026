@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1707,
+  "updateSequence": 1708,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T04:46:33.696Z",
+  "lastSyncedAt": "2026-08-10T06:02:48.855Z",
   "warDay": 164,
   "summary": "The ongoing conflict, now on War Day 164, is dominated by stalled negotiations over the Strait of Hormuz, with Iran demanding concessions and the US maintaining its blockade amidst rising tensions and Israeli preparations for potential unilateral strikes.",
   "lastNarrativeUpdate": "2026-08-10",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is in place; negotiations are focused on the Strait of Hormuz and not a general cessation of hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 08",
-      "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman.",
-      "severity": "warning",
+      "date": "Aug 10",
+      "text": "Iran war updates: Trump says US ‘only semi-negotiating’ ⁠with Tehran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1708
+    },
+    {
+      "date": "Aug 10",
+      "text": "Netanyahu rejects Trump’s Gaza plan and vows no withdrawal until Hamas disarms – as it happened",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPT2VkSGVvZ0RGVGpNZnN2bUZCaFZqMWdoY1NnNHFudS1OQzdSemFBeDg0MU4xSEgxX2ZLTmk4WUdxLV9YbFV4RU9INDNLSm5YTGpNSFdWcmxoX2RWTUVVaExVNkpaWHp6WGtEWWdFaDRldU1MWlFWWVNXYllseFlzSjlkYnVzVFFxQXljMEF1c0NJeDJ4NHFZVU8tVk5BSTRBcEhTQnBYR1RhU2FYUkZSZDBmN3BWWXFPdVVpeFZURDhzZ3lwMTRuSXI4LVJzdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "theguardian.com",
+      "latestSinceUpdate": 1708
+    },
+    {
+      "date": "Aug 10",
+      "text": "August 8, 2026 – Iran demands concessions from US as it nears Strait of Hormuz deal with Oman",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1707
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1708
     },
     {
-      "date": "Aug 09",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1707
+      "date": "Aug 10",
+      "text": "Iran war updates: IRGC says Hormuz to open after US accepts conditions",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdXdjZUFncUFjUUhKUlJVNHZLOWFLbHlvQ1NxbGdTbXB1Q1p5V055VFFUbVNzaG1peHJHcG5NWUl4c1YxMnZhM3BlalN2V2dsWjNGb1JVRFdzby1CWlJJcVZvVVdSQ09QY2VHZ3hCaFRtb25RMjc4b1RvaDlTVm9lT3FPT0x4bThvZjV5bWx5TnNLcU9SU2E2UGhZSEpmU1ppVW05dDFtTDhKTS01UVg0YnZUZGo1QllZRHFybtIBwgFBVV95cUxNUmVhM2hweGl2V0dURDlEc3JqUTFYbG9UbWdhRmdSVkJXalZUSHdEanJ5eUVSMUpoblI0b0JEdmtELWNDR214ZTl5akNpTU9OYnZJcUZYQ3hBVlp0dW4xT19vNFYtbENtZUZTVlVScDRFaFVmWG1oY1pGZHN5a1gwRmtsQ1A0b3hwUFZJVmJ5WGExSFpXRV9Ed2hJcFNpNnVfRzhKZ2s2RG8zaGlRTGpBU01xdkxjU08yT2FfMkhpN2VTZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1708
     },
     {
-      "date": "Aug 09",
-      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
-      "severity": "critical",
+      "date": "Aug 10",
+      "text": "Israel prepares for possible unilateral strikes on Iran: Israeli media",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1707
+      "latestSinceUpdate": 1708
     },
     {
-      "date": "Aug 09",
-      "text": "U.S. reaffirms grip on Hormuz blockade, turning away 55 ships as talks stall.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxORnZkQ2Y1clBwaWMwOFZYa1BHb1pwOWxYNWhwbFJIc3BtR05fR2ozSkZfWkhld2huZktkWmFFaEJkSFVrZ1k5RE1kU1REWEFwTi1lMEoyeE4xQ1ItTmJVMzlqVU1SMGNhMWR2Q0tkOVh4ZVExdWpXTS1lRWR2TFdpWEk1bDNTaVBaMWc0LUJ1SDN1OUIy0gGaAUFVX3lxTE5PUWVhLWtoMEVPcmx0SE1aSEs3VjBUSGZCWEdWanNWOUFZNDZKLXF2TmN5Ty1lc0w2dnFvWTNDYTVJQ1E2UmFkWlduMFZnY0I4cnF0YXlGNDRhUXdFYkJ6WDZYWWJoc2gzNng0M3YtYnVsWFkzZmF6QjlycHcyb3VyeGxiVHhKWXFXd2RGVnRFQkVGa0RRdWRuN0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1707
-    },
-    {
-      "date": "Aug 09",
-      "text": "Lebanon and Israel agree on a shortlist of countries that could send troops to verify Hezbollah disarmament.",
+      "date": "Aug 10",
+      "text": "Iran War: Latest News, Live Coverage and Video",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxObTUzVkVVUGNmVndoank2S2FVLXctRzBwbDJPSVpFTDY5R2IzWUI4M0lZaUhhNm5jWG84bnlrT1ZpSUtQdHk2THVMMnJhdTF2ajNOYmExaGMyVnJHeVdtS0FteWpPclhjVzhUUDA1N25FZ0t4ZDMzZVhnU3ZVU21ScUdrc3h0alhUaElaNmRTdDZMY2g4QzhpaGh4VEliQU9WRUc2OHFHNllCbm14el83bGpTZnlWWk5xa3RObXNQcVVjOGl5Z2YwS0tRN2Rja2s?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "reuters.com",
-      "latestSinceUpdate": 1707
-    },
-    {
-      "date": "Aug 09",
-      "text": "Trump’s top general is reportedly 'looking for an off-ramp' from the Iran war as US military options remain limited.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNeHJydUExaTBnUDVITW9LOE1mUjBJN1ppaVp4SFo2LXZTLVFOeWpsTmZKelJjZUJPTl9ua1JhaDJUZ0hwNUZPT0hUT2Ric3lzWE41TzI2aGFCUldzbnNCejV3NEVKc3NKeXU5eGJpdXFsTGtaRThuQzdRZUEtMTRsWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1707
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1708
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

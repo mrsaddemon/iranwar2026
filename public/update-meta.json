@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1707,
+  "updateSequence": 1708,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T04:46:33.696Z",
+  "lastSyncedAt": "2026-08-10T06:02:48.855Z",
   "warDay": 164,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is in place; negotiations are focused on the Strait of Hormuz and not a general cessation of hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
