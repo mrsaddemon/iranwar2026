@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1720,
+  "updateSequence": 1721,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T20:03:48.579Z",
+  "lastSyncedAt": "2026-08-10T20:55:24.312Z",
   "warDay": 164,
   "ceasefire": {
     "active": false,
     "status": "fragile",
-    "confidence": 0.2,
+    "confidence": 0.3,
     "durationDays": 60,
-    "summary": "An agreement between Lebanon and Israel to verify Hezbollah disarmament exists, but the IDF reported a recent violation in southern Lebanon."
+    "summary": "A ceasefire between Israel and Hezbollah appears to have been violated, though efforts to verify disarmament continue."
   }
 }
