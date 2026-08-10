@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1722,
+  "updateSequence": 1723,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T21:51:24.378Z",
+  "lastSyncedAt": "2026-08-10T22:22:13.607Z",
   "warDay": 164,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect for the primary US-Iran conflict."
+    "summary": "A previous ceasefire has collapsed, evidenced by active strikes and Iran plotting a wider war, despite ongoing diplomatic efforts."
   }
 }
