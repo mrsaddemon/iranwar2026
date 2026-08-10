@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1709,
+  "updateSequence": 1710,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T07:57:45.777Z",
+  "lastSyncedAt": "2026-08-10T09:41:58.326Z",
   "warDay": 164,
   "ceasefire": {
     "active": false,
-    "status": "fragile",
-    "confidence": 0.3,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "Efforts to establish a ceasefire between Lebanon and Israel are underway, with a shortlist of countries for verification, but violations by Hezbollah have been reported."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
