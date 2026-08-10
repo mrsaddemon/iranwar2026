@@ -1,51 +1,51 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1712,
+  "updateSequence": 1713,
   "lastUpdated": "2026-08-10",
-  "lastSyncedAt": "2026-08-10T11:36:08.524Z",
+  "lastSyncedAt": "2026-08-10T12:27:29.525Z",
   "warDay": 164,
-  "summary": "Ongoing US-Iran negotiations are stalled over the Strait of Hormuz, while Israel prepares for potential strikes on Iran amid continued regional military actions and a US military search for de-escalation.",
+  "summary": "US and Iran are in stalled negotiations over the Strait of Hormuz reopening, with Iran demanding concessions, while Israel prepares for potential unilateral strikes on Iran and continues operations against Hezbollah.",
   "lastNarrativeUpdate": "2026-08-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "No active ceasefire is in effect; reports indicate a Hezbollah cease-fire violation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.55
+        "precision": 0.7,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 88,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 80,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
     "allianceInfluence": 51
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "Trump says US ‘only semi-negotiating’ with Tehran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1712
-    },
-    {
-      "date": "Aug 08",
-      "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman.",
-      "severity": "info",
+      "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman, with Trump stating US is 'only semi-negotiating'.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1712
+      "latestSinceUpdate": 1713
     },
     {
       "date": "Aug 08",
-      "text": "Netanyahu rejects Trump’s Gaza plan and vows no withdrawal until Hamas disarms.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPT2VkSGVvZ0RGVGpNZnN2bUZCaFZqMWdoY1NnNHFudS1OQzdSemFBeDg0MU4xSEgxX2ZLTmk4WUdxLV9YbFV4RU9INDNLSm5YTGpNSFdWcmxoX2RWTUVVaExVNkpaWHp6WGtEWWdFaDRldU1MWlFWWVNXYllseFlzSjlkYnVzVFFxQXljMEF1c0NJeDJ4NHFZVU8tVk5BSTRBcEhTQnBYR1RhU2FYUkZSZDBmN3BWWXFPdVVpeFZURDhzZ3lwMTRuSXI4LVJzdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 1712
+      "text": "Strait of Hormuz reportedly 'hit by missile strike' amidst ongoing tensions.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1713
     },
     {
-      "date": "Recent",
-      "text": "UAE, Bahrain and Kuwait condemn Houthi attacks on Saudi Arabia.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxNVUhhNkk2U0E1aGxlSGh2emxEVnZnZWlZRnRzLVJvY29PQXp3S1VKX3ZsRnd3bWlQdmZfZmFvMFFZaDlEX2xWVG5IWmNDdTRZVXZONTd0MFFEYW1ZLXBHRkJ4dVRRUFF6V2VSdm5TZmpqWkIzdHl4bTlkWFdwTlpqcVB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 1712
-    },
-    {
-      "date": "Recent",
-      "text": "Iran says Strait of Hormuz won't open until the U.S. 'corrects' behavior.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOMVhleVdzazZyT0ZHcXV5aWJxa3FZaGtTelNHdUJ5cm4tNXNlLU5PYUM3Tk40cVRLQjdWY2Job2NyM0hNTnhKN1diQkkzN0Y0a0lOWmtCaGxxdU5GTUFxZW9IODM0MjI4aU5sS2YzREFrODBHV0pocFpGMkpPWHhla1JaXzRzclYtb085WFhMOFcxaXVfWWh1SXQzSmpJNUU5TzR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cbsnews.com",
-      "latestSinceUpdate": 1712
-    },
-    {
-      "date": "Recent",
-      "text": "Israel prepares for possible unilateral strikes on Iran.",
+      "date": "Aug 08",
+      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media reports.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1712
+      "latestSinceUpdate": 1713
+    },
+    {
+      "date": "Aug 08",
+      "text": "IDF says it struck in southern Lebanon citing a Hezbollah cease-fire violation and destroyed a Hezbollah tunnel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMinwJBVV95cUxOcVRQLWNxeE55TTlORE1YR3hpSWNzanBsbjJBbmhjWElnOHNNcUx0dHZVYXdEUlpGY25YQmZpakdPTFBQMjJOX0M0OG9aTjFXd0czWjhGcVNobDB1OU8zdENjTl85LWI4NGVRX09WRUxHMzRBZzgtMlQ1RXZHV1RzdHpqR0xuSjVWcFM5VDlCakRLRWppdDNVb09vVzZ5cUpxTlZBamxFRVNVRWY1QS1EVnpnZ19ieVMyYld1RTJoaG11TFNGb2VxR05aOEg1OWZaQVBlYWJCZGhJRVVkTXhKaXhYZU1lOFdZN3RyRDg0eF9nMlJDN3pwazNoSmR2cUx3QmRqUFdKNDNpdUQ4N2t5WE1XQ0h6LV9LTi1FUVBucw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Haaretz",
+      "latestSinceUpdate": 1713
+    },
+    {
+      "date": "Aug 08",
+      "text": "Trump’s top general is reportedly ‘looking for an off-ramp’ from the Iran war as US military options remain limited.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNeHJydUExaTBnUDVITW9LOE1mUjBJN1ppaVp4SFo2LXZTLVFOeWpsTmZKelJjZUJPTl9ua1JhaDJUZ0hwNUZPT0hUT2Ric3lzWE41TzI2aGFCUldzbnNCejV3NEVKc3NKeXU5eGJpdXFsTGtaRThuQzdRZUEtMTRsWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1713
+    },
+    {
+      "date": "Aug 08",
+      "text": "America’s depleted weapons stockpiles are noted to undermine Trump’s leverage with Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOb05kTE5aSnYzZFd3YWlta3UydkNrNGpybkdGWVV5MDFvTlpoUWotVlpHNE02cDJ6M2QzVHI4Q3FmajktV0thYjJ2SE5QQmNZX1MyZzdINmV3YXEzZ2FiOHZSOHNzR2ZzSmhMQ0ZUaW1iakNDWWpKM0dib0pGeUNHOWJ1RdIBiAFBVV95cUxNVmZjVUM4ZVVWRFJmY2o1UE9MTVdUUUxySlUyenBZWkhzTXZFMUs2cEplSG9NOHB3MTE0ZHU5TkZ0bmF1Q1hKRHlXdnlvYUdTT25IVUZPTUZSTTZlNTdiSlhzMFhLd2VIU3pSWjJiREphMGlOVFYtSnFoTmNPa2RHV3VRWXl5LWlm?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1713
     }
   ],
   "sourceStatuses": [
