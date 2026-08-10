@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1704,
-  "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T23:39:39.469Z",
-  "warDay": 163,
-  "summary": "The US and Iran are engaged in complex negotiations regarding the Strait of Hormuz, while regional tensions escalate with proxy attacks and Israeli preparations for potential strikes, amidst concerns over US military resources.",
-  "lastNarrativeUpdate": "2026-08-09",
+  "updateSequence": 1705,
+  "lastUpdated": "2026-08-10",
+  "lastSyncedAt": "2026-08-10T00:37:17.382Z",
+  "warDay": 164,
+  "summary": "Tensions remain high in the Middle East with ongoing US-Iran negotiations, threats of military action, and regional proxy conflicts, while the Strait of Hormuz remains a focal point after a reported missile strike.",
+  "lastNarrativeUpdate": "2026-08-10",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "No general ceasefire is currently in effect between the primary belligerents, though regional de-escalation talks are ongoing."
+    "summary": "No general ceasefire is in effect for the broader conflict, though specific talks are underway regarding Hezbollah disarmament between Lebanon and Israel."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -60,56 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 08",
-      "text": "Iran demands concessions from US as it nears Strait of Hormuz deal with Oman.",
+      "text": "US President Trump indicates 'semi-negotiating' status with Tehran amidst Iran's demands for concessions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1705
     },
     {
       "date": "Aug 08",
-      "text": "Trump says US is ‘only semi-negotiating’ with Tehran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran demands concessions from the US as it nears a Strait of Hormuz deal with Oman, with IRGC stating Hormuz will open after US accepts conditions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdXdjZUFncUFjUUhKUlJVNHZLOWFLbHlvQ1NxbGdTbXB1Q1p5V055VFFUbVNzaG1peHJHcG5NWUl4c1YxMnZhM3BlalN2V2dsWjNGb1JVRFdzby1CWlJJcVZvVVdSQ09QY2VHZ3hCaFRtb25RMjc4b1RvaDlTVm9lT3FPT0x4bThvZjV5bWx5TnNLcU9SU2E2UGhZSEpmU1ppVW05dDFtTDhKTS01UVg0YnZUZGo1QllZRHFybtIBwgFBVV95cUxNUmVhM2hweGl2V0dURDlEc3JqUTFYbG9UbWdhRmdSVkJXalZUSHdEanJ5eUVSMUpoblI0b0JEdmtELWNDR214ZTl5akNpTU9OYnZJcUZYQ3hBVlp0dW4xT19vNFYtbENtZUZTVlVScDRFaFVmWG1oY1pGZHN5a1gwRmtsQ1A0b3hwUFZJVmJ5WGExSFpXRV9Ed2hJcFNpNnVfRzhKZ2s2RG8zaGlRTGpBU01xdkxjU08yT2FfMkhpN2VTZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1704
+      "latestSinceUpdate": 1705
     },
     {
       "date": "Aug 07",
-      "text": "Iranian-backed proxies targeted Saudi Arabia, widening conflict in Middle East.",
-      "severity": "warning",
+      "text": "Iranian-backed proxies targeted Saudi Arabia, indicating a widening of the conflict in the Middle East.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE11OFNkTG1PNmRQOXdaM3ZBRVBzR1FQWnE3WV82SHBaZVI0Q3B6eGxjcUoweEVmRnRTVHloTVFiajNCU3htZU9tckhNeTVNU2VwVkFveGhpZ2NBV2lQQ2dXcF91aTFjal82NnAxUVB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1704
+      "latestSinceUpdate": 1705
     },
     {
       "date": "Aug 07",
-      "text": "Israel prepares for possible unilateral strikes on Iran.",
-      "severity": "warning",
+      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1704
+      "latestSinceUpdate": 1705
     },
     {
       "date": "Aug 07",
-      "text": "Iran warns Gulf States.",
+      "text": "Iran issues warnings to Gulf States amidst escalating regional tensions.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1704
+      "latestSinceUpdate": 1705
     },
     {
-      "date": "Aug 07",
-      "text": "Trump threatens ‘heavy attacks’ on Pickaxe Mountain and ‘massive attack’ on Iran.",
+      "date": "Aug 08",
+      "text": "Strait of Hormuz reportedly hit by a missile strike, further escalating regional conflict.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1704
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOamFyOVhnZG9PZUJlenFjNUhXd0doVTNNS2dCTm5tQU5Wc3NCV1Z4UUVhVDF6ZVZjVEtiYzZVOHVVb281V2ZwS3J1TlRxVjB2eXlHYTVLYUpIZkpfMWw4OWVyVVFvYnRoRFpGamFMRFRSTFp3TVBObDJ1VHpVM3NKM3pQZFVDaEtFcWhZMnFaUWZtbVRwbElXQnQ4OFJublpJbWxEMGxaUnowbkNT?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1705
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -140,30 +141,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "perspective": "Iran",
       "headline": "Iran Demands Concessions, Seeks US Exit from Gulf",
-      "summary": "Iran is actively making new demands for opening the Strait of Hormuz, signaling its intent to leverage its position. Concurrently, Iran perceives an opportunity to diminish the US presence in the Gulf region.",
+      "summary": "Tehran is demanding concessions from the US for a Strait of Hormuz deal and asserts its conditions for opening the strait. Iran also expresses a desire to remove the US presence from the Gulf region.",
       "tone": "defiant",
-      "latestSinceUpdate": 1675
+      "latestSinceUpdate": 1705
     },
     {
       "perspective": "United States",
-      "headline": "US Threatens Massive Retaliation Amid Calls for De-escalation",
-      "summary": "President Trump has issued strong threats of 'heavy' and 'massive' attacks on Iran following US soldier deaths. However, sources indicate top US military leadership is seeking an 'off-ramp' from the ongoing conflict.",
+      "headline": "Trump Threatens Attacks Amidst Limited Options",
+      "summary": "President Trump issues threats of 'heavy' and 'massive' attacks on Iran while simultaneously engaging in 'semi-negotiations'. His top general is reportedly seeking an 'off-ramp' from the conflict due to limited military options.",
       "tone": "strained",
-      "latestSinceUpdate": 1675
+      "latestSinceUpdate": 1705
     },
     {
-      "perspective": "Regional Allies",
-      "headline": "Gulf States Condemn Proxy Attacks, Regional Conflict Widens",
-      "summary": "Saudi Arabia has been targeted by Iranian-backed proxies, leading to condemnation from UAE, Bahrain, and Kuwait. This indicates a widening of the conflict and increased regional instability.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1675
-    },
-    {
-      "perspective": "Israel/Lebanon",
-      "headline": "Lebanon Truce Fractures as Israeli Deaths Occur, Disarmament Verification Stalls",
-      "summary": "The June truce with Hezbollah has been violated with the killing of Israeli soldiers in Lebanon. Disputes over Hezbollah disarmament verification and Israel's refusal to withdraw further indicate escalating tensions on this front.",
-      "tone": "strained",
-      "latestSinceUpdate": 1675
+      "perspective": "Israel",
+      "headline": "Israel Prepares for Strikes, Rejects Gaza Plan",
+      "summary": "Israel is reportedly preparing for unilateral strikes on Iran and has rejected President Trump's Gaza plan, vowing no withdrawal until Hamas disarms. Concurrently, Israel is engaged in talks with Lebanon regarding Hezbollah disarmament verification.",
+      "tone": "defiant",
+      "latestSinceUpdate": 1705
     }
   ]
 });

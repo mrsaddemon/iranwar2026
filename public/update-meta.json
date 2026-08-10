@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1704,
-  "lastUpdated": "2026-08-09",
-  "lastSyncedAt": "2026-08-09T23:39:39.469Z",
-  "warDay": 163,
+  "updateSequence": 1705,
+  "lastUpdated": "2026-08-10",
+  "lastSyncedAt": "2026-08-10T00:37:17.382Z",
+  "warDay": 164,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 60,
-    "summary": "No general ceasefire is currently in effect between the primary belligerents, though regional de-escalation talks are ongoing."
+    "summary": "No general ceasefire is in effect for the broader conflict, though specific talks are underway regarding Hezbollah disarmament between Lebanon and Israel."
   }
 }
