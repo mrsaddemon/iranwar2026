@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1742,
+  "updateSequence": 1743,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T19:28:04.550Z",
+  "lastSyncedAt": "2026-08-11T20:11:33.606Z",
   "warDay": 165,
-  "summary": "The US and Iran are engaged in a dispute over war compensation, with Iran linking the reopening of the Strait of Hormuz to its demands, while regional tensions persist with Israeli operations in Lebanon.",
+  "summary": "Ongoing US-Iran conflict sees both sides demanding compensation, with Iran maintaining the closure of the Strait of Hormuz amidst continued military actions and regional tensions.",
   "lastNarrativeUpdate": "2026-08-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic disputes."
+    "summary": "No ceasefire is active; military actions and blockades continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 80,
-    "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 65,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 10",
-      "text": "Trump states he would require compensation from Iran as a condition for talks and claims control of Hormuz.",
-      "severity": "info",
+      "text": "Trump states he would require compensation from Iran as a condition for any talks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1742
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1743
+    },
+    {
+      "date": "Aug 10",
+      "text": "Trump pivots back to sanctions for Iran as other strategies to end the war are reported to fizzle.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1743
     },
     {
       "date": "Aug 10",
       "text": "Iran demands the U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
+      "sourceName": "Google News",
       "latestSinceUpdate": 1742
     },
     {
       "date": "Aug 10",
-      "text": "U.S. oil prices rise above $83 a barrel as Iran maintains the Strait of Hormuz will remain closed until conditions are met.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1ERXgzSE9wdWREUDZacUg3UWdOLWpxOEhYZ1VZanZjZjRXejNiWFotSnVyOXNEaGdySGU3SDRhVUx4dlBTd2pjRnVveUlsNDFiU1gtSlpjQkdkUTBUcVVmWHN2S0JWaEZvNzBuMWtqdWpFQ2fSAXhBVV95cUxQZTZkNVRYbGJoMEd3bnU4TWpJWEd0bzBvYnd0ZHRhMDI3Sy01bllGZlhlMV9oeGxXVldqOWtCTm1tNWpJUkQwdzZtckhQWThvcHpaamJxb1JwTkhVTS16UmN6ckI4YlA4dUxDcWgyeEpUYjV1T1hkMUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1742
+      "text": "US launches more airstrikes against Iran following the announcement of another service member's death.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1743
     },
     {
       "date": "Aug 10",
-      "text": "IDF tightens siege on Hezbollah terrorists in Lebanon; Netanyahu hints at an unannounced operation.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOQnZMZ1BlQnJUd3paR1dkS3R3YnN2azdQWkN0a0RqeVVHMi1uSDE1TVhPOTNhZnZFOWE5NFVWT2kwaVlCN3RKWC10MkNFLWpjMm54Q0hTT2h6NE43ZGVfZWlfaTVhRjNCSmhld2N2ZHZvZGdFbTBjYXNMSjQtTkQwTGdua1VwZ0wyU0NpR3dJczRWcVFiY0xVemkzT1hRUHZoMUgzb2lCTFY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Naharnet",
-      "latestSinceUpdate": 1742
-    },
-    {
-      "date": "Aug 10",
-      "text": "Iran’s supreme leader elevates military veterans willing to confront the US.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOdVRLN2JYMlhJeElsM0xBajVoNmZNNG9kOXJBTDBtYTJ0Y2NvQmZlTnc0am9sRXRjUnhTcnpvd0dxenFXSDdIUS1lTXlMOFVMMHNRMk9mRV9hWi1HUFB5WUVuZEFqYkJWcTdlZl9sUnY5Q3dPS0xUekFZVGVnWGNVVTBpNUo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1741
-    },
-    {
-      "date": "Aug 10",
-      "text": "U.S. assesses Iran’s priority has shifted from nuclear weapons to the Strait of Hormuz.",
+      "text": "Pakistan's interior minister is in Tehran as talks regarding the Strait of Hormuz reportedly advance.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQaEIwYko4Q0VxaDhpZVpVT0V0OTRhTmNuVDBtS29MNjdXVTRFQ1gxVW9kVlZMdG90dG03dHJxcU9PQzV2SlIxY0diVGUwVVlCRUc2NXgyaTVNSDI1dWl5dkJlQ3d0aUc4b0hKRnVyUEJXRmlkQWRzMjVkNmxqUVROTXptclRsNDJHdUdXa25Ib0NwejI3ekw4d0JVQnFUel9OTFVqT2xYT1BmTER2YUtFM2xCbDRzbWhVU0ZKZGQ4WVg5NEI3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1742
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbXlESEowYVBxMnhTaGNfZFlnaDAyVGRUYmtBRFZsenUxV1FZWGpDM09DYUtLejNFOXYyZVBGN2laYVBvalJEbllOZnVDX3NlX24tT2VBUWxnX216eFFWYXRJbzl3NzM5ZE9sTk15RXRWNDc1YW1wbmZnY3lyTllmT1RaSndVZ05LVEw2a1VjSHJTb18yLU5vU1FzSktOSUxaMjdicW5IcVRVUHVXRk9HMGNaUTQ1VzRfcE1RUTcyNNIBxAFBVV95cUxQOWVLNmpzaUVWb3dFY1ltNXZIb2N4RkZRTGNKNVR5dy1wdUNmWWdzdVdkUHhFeWRDWlg4RGt3R3dWcUhZeUhZTHdrLVg0RXgza0VUaEtyWDhMeGJzWWREcUszM3AzcC1xMkNVTUlwU1dma0R5eHV0NHBxbEVMNEUzb0dGdXB4UG9vLWloSHRleDhtckVHTlVyenlycGJQNDIwVUtab2ptUi1Lb1d0X2tqZ05mSnpWazcxbUk2TVpwX2Z6Y3Jt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1743
+    },
+    {
+      "date": "Aug 10",
+      "text": "Attacks at sea threaten the region as hopes fade for a deal to reopen the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1743
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
