@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1734,
+  "updateSequence": 1735,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T10:27:18.914Z",
+  "lastSyncedAt": "2026-08-11T11:23:41.769Z",
   "warDay": 165,
-  "summary": "US-Iran negotiations are stalled over compensation demands and control of the Strait of Hormuz, while Israel continues operations in Lebanon and threatens unilateral strikes on Iran.",
+  "summary": "Tensions escalate between the US and Iran over compensation demands and the Strait of Hormuz, while Israel prepares for potential unilateral strikes on Iran and conducts operations in Lebanon.",
   "lastNarrativeUpdate": "2026-08-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing conflicts and stalled negotiations."
+    "summary": "No active ceasefire is reported between the primary belligerents, with tensions remaining high."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 65,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 10",
-      "text": "Trump states he would require compensation from Iran as a condition for talks.",
+      "text": "Trump states he would require compensation from Iran as a condition for talks, while also signaling a shift to economic pressure.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1734
+      "latestSinceUpdate": 1735
     },
     {
-      "date": "Aug 08",
-      "text": "Iran demands concessions from the US as it nears a Strait of Hormuz deal with Oman.",
+      "date": "Aug 10",
+      "text": "Iran demands U.S. pay for war damage before agreeing to reopen the Strait of Hormuz, hardening its stance.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1734
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1735
     },
     {
-      "date": "Aug 08",
-      "text": "Israel prepares for possible unilateral strikes on Iran.",
+      "date": "Aug 10",
+      "text": "Israeli media reports indicate Israel is preparing for possible unilateral strikes on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1734
+      "latestSinceUpdate": 1735
     },
     {
-      "date": "Aug 08",
-      "text": "Gulf States reportedly accept Iran's control of the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1734
-    },
-    {
-      "date": "Recent",
-      "text": "Strait of Hormuz reportedly 'hit by missile strike'.",
+      "date": "Aug 10",
+      "text": "The Strait of Hormuz is reportedly hit by a missile strike, further escalating regional tensions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOamFyOVhnZG9PZUJlenFjNUhXd0doVTNNS2dCTm5tQU5Wc3NCV1Z4UUVhVDF6ZVZjVEtiYzZVOHVVb281V2ZwS3J1TlRxVjB2eXlHYTVLYUpIZkpfMWw4OWVyVVFvYnRoRFpGamFMRFRSTFp3TVBObDJ1VHpVM3NKM3pQZFVDaEtFcWhZMnFaUWZtbVRwbElXQnQ4OFJublpJbWxEMGxaUnowbkNT?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1734
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1735
     },
     {
-      "date": "Recent",
-      "text": "Israel conducts strikes in Beirut and establishes 'pilot zones' in Lebanon.",
+      "date": "Aug 10",
+      "text": "U.S. oil prices rise above $82 as doubts grow regarding a potential Washington-Tehran deal on Hormuz.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1734
+      "latestSinceUpdate": 1735
+    },
+    {
+      "date": "Aug 10",
+      "text": "Iran’s supreme leader shakes up military leadership as hopes for a Hormuz deal fade.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1735
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
