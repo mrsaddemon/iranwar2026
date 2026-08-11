@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1729,
+  "updateSequence": 1730,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T05:17:11.347Z",
+  "lastSyncedAt": "2026-08-11T06:07:04.737Z",
   "warDay": 165,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No general ceasefire is currently in effect between the primary belligerents, though Israel and Lebanon continue talks."
+    "summary": "No active ceasefire is in effect between the US and Iran, with ongoing hostilities and demands."
   }
 }
