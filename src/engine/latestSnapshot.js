@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1736,
+  "updateSequence": 1737,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T12:25:13.258Z",
+  "lastSyncedAt": "2026-08-11T13:59:33.697Z",
   "warDay": 165,
-  "summary": "The US and Iran are engaged in a stalemate over war reparations, leading to fading hopes for a Strait of Hormuz deal and a significant rise in oil prices.",
+  "summary": "The US and Iran are engaged in a dispute over war reparations, with both sides making demands, while the Strait of Hormuz remains a point of contention and reported missile strikes, impacting oil prices.",
   "lastNarrativeUpdate": "2026-08-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating demands and regional tensions."
+    "summary": "No active ceasefire is reported amidst ongoing demands and conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.65
+        "precision": 0.6,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -36,16 +36,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
+    "nuclearIndex": 0,
     "escalationLevel": 80,
-    "oilDisruption": 90,
-    "tradeImpact": 79,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
     "sanctionsPressure": 63,
     "globalPressure": 82,
     "allianceInfluence": 51
@@ -76,35 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 10",
-      "text": "Hopes for a deal to reopen the Strait of Hormuz fade amidst mutual compensation demands.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1736
-    },
-    {
-      "date": "Aug 10",
-      "text": "Oil prices climb 5% and rise to $90 a barrel due to the U.S.-Iran stalemate and Hormuz concerns.",
+      "text": "The Strait of Hormuz is reportedly hit by a missile strike amidst ongoing conflict.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOamFyOVhnZG9PZUJlenFjNUhXd0doVTNNS2dCTm5tQU5Wc3NCV1Z4UUVhVDF6ZVZjVEtiYzZVOHVVb281V2ZwS3J1TlRxVjB2eXlHYTVLYUpIZkpfMWw4OWVyVVFvYnRoRFpGamFMRFRSTFp3TVBObDJ1VHpVM3NKM3pQZFVDaEtFcWhZMnFaUWZtbVRwbElXQnQ4OFJublpJbWxEMGxaUnowbkNT?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1737
+    },
+    {
+      "date": "Aug 10",
+      "text": "Oil prices climb due to the stalemate and reported strike in the Strait of Hormuz.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1736
+      "latestSinceUpdate": 1737
     },
     {
       "date": "Aug 10",
-      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1736
-    },
-    {
-      "date": "Aug 10",
-      "text": "Iran’s supreme leader shakes up military leadership as Hormuz deal hopes fade.",
+      "text": "Oman-Iran talks on the Strait of Hormuz are reported to be at an advanced stage by Qatar.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1736
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQbXlESEowYVBxMnhTaGNfZFlnaDAyVGRUYmtBRFZsenUxV1FZWGpDM09DYUtLejNFOXYyZVBGN2laYVBvalJEbllOZnVDX3NlX24tT2VBUWxnX216eFFWYXRJbzl3NzM5ZE9sTk15RXRWNDc1YW1wbmZnY3lyTllmT1RaSndVZ05LVEw2a1VjSHJTb18yLU5vU1FzSktOSUxaMjdicW5IcVRVUHVXRk9HMGNaUTQ1VzRfcE1RUTcyNNIBxAFBVV95cUxQOWVLNmpzaUVWb3dFY1ltNXZIb2N4RkZRTGNKNVR5dy1wdUNmWWdzdVdkUHhFeWRDWlg4RGt3R3dWcUhZeUhZTHdrLVg0RXgza0VUaEtyWDhMeGJzWWREcUszM3AzcC1xMkNVTUlwU1dma0R5eHV0NHBxbEVMNEUzb0dGdXB4UG9vLWloSHRleDhtckVHTlVyenlycGJQNDIwVUtab2ptUi1Lb1d0X2tqZ05mSnpWazcxbUk2TVpwX2Z6Y3Jt?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1737
+    },
+    {
+      "date": "Aug 10",
+      "text": "Pakistan suggests the U.S. and Iran are close to a 'peace arrangement or a deal'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1737
     }
   ],
   "sourceStatuses": [
