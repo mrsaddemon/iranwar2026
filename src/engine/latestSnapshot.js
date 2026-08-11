@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1744,
+  "updateSequence": 1745,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T21:06:58.069Z",
+  "lastSyncedAt": "2026-08-11T21:59:26.996Z",
   "warDay": 165,
-  "summary": "The ongoing Iran War sees continued US military actions, including airstrikes and a tanker blockade in the Strait of Hormuz, while President Trump demands compensation from Iran amidst fading hopes for a deal and Iran's focus on the strategic waterway.",
+  "summary": "Tensions remain high as the US demands compensation from Iran for conflicts, while Iran sets conditions for reopening the Strait of Hormuz amidst ongoing regional attacks and a rising oil price.",
   "lastNarrativeUpdate": "2026-08-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active, and hopes for a deal regarding the Strait of Hormuz are reportedly fading."
+    "summary": "No ceasefire is active; conditions for de-escalation remain unmet amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
-      },
-      "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
         "aggression": 0.8
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 80
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.75
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 10",
-      "text": "U.S. announces another troop death, followed by more airstrikes against Iran.",
+      "text": "Trump states he would require compensation from Iran as a condition for talks and for reopening the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1745
+    },
+    {
+      "date": "Aug 10",
+      "text": "Iran announces the Strait of Hormuz will not open until its conditions are met, contributing to a rise in US oil prices.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQOVVPQXpIUjAzU1c2TG1GcXJUU19aU2FodDRTVWV4RVdVN2stQ1NueUtIRC03M2hXNFZLRkQzUUdqMWNQOVBMbzFmc1NGejY3bXFNSnJYMXNNRTIyMlNMYjFPbXVOcXJCSkFPVHNsMkRvblBzcjc5aXJhbHlndGlrek9RbmVBTlN4SHI3N1VHLUpGVlNmTE4tSlAwSktTd1k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1744
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1ERXgzSE9wdWREUDZacUg3UWdOLWpxOEhYZ1VZanZjZjRXejNiWFotSnVyOXNEaGdySGU3SDRhVUx4dlBTd2pjRnVveUlsNDFiU1gtSlpjQkdkUTBUcVVmWHN2S0JWaEZvNzBuMWtqdWpFQ2fSAXhBVV95cUxQZTZkNVRYbGJoMEd3bnU4TWpJWEd0bzBvYnd0ZHRhMDI3Sy01bllGZlhlMV9oeGxXVldqOWtCTm1tNWpJUkQwdzZtckhQWThvcHpaamJxb1JwTkhVTS16UmN6ckI4YlA4dUxDcWgyeEpUYjV1T1hkMUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1745
     },
     {
       "date": "Aug 10",
-      "text": "US military disables a Panama-flagged tanker in violation of the blockade in the Strait of Hormuz.",
+      "text": "The U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1745
+    },
+    {
+      "date": "Aug 10",
+      "text": "Attacks at sea continue to threaten the region, with hopes fading for a Strait of Hormuz deal.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1745
+    },
+    {
+      "date": "Aug 10",
+      "text": "Hezbollah's new battlefield strategy is assessed as challenging for Netanyahu and Trump.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxObWg5eWxCeTB6SHFmcHVTZkRuQmFrdU4ycGRGOTJlMnRSN1AxQ3BILTBMa1c5MU92RzFfbUFGd3l5X2drR0JWc3Rvc0RDS2RqWEpxRUtyY2htRWJsTV9vdV9lMXk4NEZqZ0RXaXNfcVNTR0Q4R0h3Znd0MmpsTzlJY3VMcXdKS1RhempwN2d2QmJBNm9tQUpjU3hqZ9IBoAFBVV95cUxNWHpaNDRIRTFhOGNwTF9JOTVZWDlmY21PZW8xOW9Cb3RDNGtQUmRYcHZvdzhnSDJfNTRkWFFKcjJHLTUwZ3N4OEZjNkgxa2VEVTdILU9jVXpkR21SckE3Wjk4QW5ZT3NhcnF6bmUwYTRSUEV5alRNcmp2WmxhOHNfZmNyUl91Z0pMQjFfX1F2eF8wVHQ3OERZWDFNSHloNVIx?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1744
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1745
     },
     {
       "date": "Aug 10",
-      "text": "President Trump demands Iran pay compensation as a condition for talks, while Iran makes its own demands for war reparations.",
+      "text": "Iran’s supreme leader elevates military veterans willing to confront the US.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQeVR5TzZOblVGaldmaERTUlk2Sk5XSEhfYWNiTWMyRVhwNXdZamp5LVhBX2JKMTdxSlFlZHQ4WFc3Vk1OakI0VFlNMThrS3ZPdzB6LUxCSThSSmtvbW5ISkJYSWN3WUNDaTFUTXl1QnFoXzlCV3UtdW9CNjJodTc2VGhWTG0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1744
-    },
-    {
-      "date": "Aug 10",
-      "text": "Pakistan's interior minister is in Tehran amid ongoing talks to reopen the Strait of Hormuz, though hopes for a deal are fading.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPejZ0MlBWbEd5eW9UTWh6MGtQTHlNZWUxLVRzbVN4aEQzR24xRjF2RjFXckFNRUZRZkdCaDVBMHA3QkFvdjhMWVpobTZhTnRVTC1rVnh4Y0NHYkZiUjJGdWwwX3J5bHVMbFN3UFFranVTbEt3UURkdDhTRjl1Sk1EYk1HWWw0RXRUdk5VckVRZEV6NWVfdEVOMWJfeGIxSndCSjhwWVB3cGxXS2cwbndtVVEyX1R4QdIBuwFBVV95cUxObVhCZVFNSWozZmx3UmVBX2lJUnJwVmhlRzh3X3BJQXFMM2dTeXk1cjdIVlhZV0VRQWxkZVlPVXFJMUVsb0hQamlJbzFwZllGTGxSSGt6MG9SQWVvcVRlR0sxWXBDeVdjcTVwRlM4VmtqajF5bzBnd3otOXpWZUVqVWlmbFZSQmhFVEhIVUNYdVowT3QxZ2x2UXB2c1lLNzRiZ1l2UDhXYTFDY1p2QjdSeEFwNmZWekNfTWNn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1744
-    },
-    {
-      "date": "Aug 10",
-      "text": "Israel's 'pilot zones' in southern Lebanon and reconstructed Beirut strikes raise questions about Lebanese sovereignty and UNIFIL's future.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxORm0yTjAxVktJdEVpbTZBSjNfOUFpYXF2YUlLTHM1b01kbUowSDk1cGZGcjBoNjBfbVJSM0NfLV90LTJzeXlGMFhtUjlpTTZFV2ZSY1dpUW9EUE9jd1U3Vk83alVBbDZwWVRDa3VlUTNiU251LWpRQlNUWVgwdmQzLTV6SThGY3VlX2piZzBSXzVrdGZGUnhv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1744
-    },
-    {
-      "date": "Aug 10",
-      "text": "U.S. assesses Iran’s priority has shifted from nuclear weapons to control of the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQaEIwYko4Q0VxaDhpZVpVT0V0OTRhTmNuVDBtS29MNjdXVTRFQ1gxVW9kVlZMdG90dG03dHJxcU9PQzV2SlIxY0diVGUwVVlCRUc2NXgyaTVNSDI1dWl5dkJlQ3d0aUc4b0hKRnVyUEJXRmlkQWRzMjVkNmxqUVROTXptclRsNDJHdUdXa25Ib0NwejI3ekw4d0JVQnFUel9OTFVqT2xYT1BmTER2YUtFM2xCbDRzbWhVU0ZKZGQ4WVg5NEI3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1744
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOdVRLN2JYMlhJeElsM0xBajVoNmZNNG9kOXJBTDBtYTJ0Y2NvQmZlTnc0am9sRXRjUnhTcnpvd0dxenFXSDdIUS1lTXlMOFVMMHNRMk9mRV9hWi1HUFB5WUVuZEFqYkJWcTdlZl9sUnY5Q3dPS0xUekFZVGVnWGNVVTBpNUo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1745
     }
   ],
   "sourceStatuses": [
