@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1738,
+  "updateSequence": 1739,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T15:07:53.462Z",
+  "lastSyncedAt": "2026-08-11T16:30:00.000Z",
   "warDay": 165,
-  "summary": "Tensions remain high as the US and Iran exchange demands for compensation, with Iran hardening its stance on reopening the Strait of Hormuz amidst ongoing regional strikes and Houthi attacks.",
+  "summary": "Diplomatic deadlock persists between the U.S. and Iran over war reparations and the reopening of the Strait of Hormuz, while regional military actions and peace talks continue.",
   "lastNarrativeUpdate": "2026-08-11",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic stalemates."
+    "summary": "No active ceasefire is in effect, despite reports of potential peace arrangements."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 80,
+    "nuclearIndex": 60,
+    "escalationLevel": 75,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "tradeImpact": 75,
+    "sanctionsPressure": 62,
+    "globalPressure": 80,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -61,7 +61,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 10",
       "text": "Trump states he would require compensation from Iran as a condition for talks.",
-      "severity": "info",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1736
@@ -69,33 +69,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 10",
       "text": "Iran demands U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
       "latestSinceUpdate": 1738
     },
     {
       "date": "Aug 10",
-      "text": "War returns to Iran with reported Israel and US strikes.",
+      "text": "U.S. military fires at a Panama-flagged ship near Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Dawn",
-      "latestSinceUpdate": 1738
-    },
-    {
-      "date": "Aug 10",
-      "text": "Houthi attacks in Yemen threaten a new shipping crisis in the Red Sea as Iran maintains its Hormuz demands.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE9mVGU5WWo4SGhQaVdqd1JEM3c0Y2hXQm1hN3pSN1U3aFVRb1d2VTItTWJMZjV1RkpzWHhlVHZ3MlByekk4Sm1NUHRhNDNsc2k4OTBSRnN6dzUwWXYwckd1Y2xFWUZ6T0dLdmJ3SGJTbzNBWlNfN01WWGVUWFY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 1738
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1739
     },
     {
       "date": "Aug 10",
       "text": "U.S. assesses Iran’s priority has shifted from nuclear weapons to the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQaEIwYko4Q0VxaDhpZVpVT0V0OTRhTmNuVDBtS29MNjdXVTRFQ1gxVW9kVlZMdG90dG03dHJxcU9PQzV2SlIxY0diVGUwVVlCRUc2NXgyaTVNSDI1dWl5dkJlQ3d0aUc4b0hKRnVyUEJXRmlkQWRzMjVkNmxqUVROTXptclRsNDJHdUdXa25Ib0NwejI3ekw4d0JVQnFUel9OTFVqT2xYT1BmTER2YUtFM2xCbDRzbWhVU0ZKZGQ4WVg5NEI3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
+      "sourceName": "nbcnews.com",
       "latestSinceUpdate": 1738
     },
     {
@@ -105,12 +97,20 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxORm0yTjAxVktJdEVpbTZBSjNfOUFpYXF2YUlLTHM1b01kbUowSDk1cGZGcjBoNjBfbVJSM0NfLV90LTJzeXlGMFhtUjlpTTZFV2ZSY1dpUW9EUE9jd1U3Vk83alVBbDZwWVRDa3VlUTNiU251LWpRQlNUWVgwdmQzLTV6SThGY3VlX2piZzBSXzVrdGZGUnhv?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Middle East Eye",
       "latestSinceUpdate": 1738
+    },
+    {
+      "date": "Aug 10",
+      "text": "Pakistan states the U.S. and Iran are close to a 'peace arrangement or a deal'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1739
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
