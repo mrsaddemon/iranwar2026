@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1726,
+  "updateSequence": 1727,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T00:35:51.193Z",
+  "lastSyncedAt": "2026-08-11T02:37:40.334Z",
   "warDay": 165,
   "summary": "Tensions remain high between the US and Iran over the Strait of Hormuz, with both sides demanding compensation, while Israel prepares for potential unilateral strikes and engages in talks with Lebanon regarding Hezbollah.",
   "lastNarrativeUpdate": "2026-08-11",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect between primary belligerents."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 08",
-      "text": "Iran demands concessions from US regarding Strait of Hormuz as it nears a deal with Oman.",
-      "severity": "warning",
+      "date": "Aug 11",
+      "text": "Iran war updates: Trump says US ‘only semi-negotiating’ ⁠with Tehran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1727
+    },
+    {
+      "date": "Aug 11",
+      "text": "August 8, 2026 – Iran demands concessions from US as it nears Strait of Hormuz deal with Oman",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFAybVA3dzRBU1hnc01FeGxSb0E3MjFhcjRteXBQUHZSVWJMRmF1QjNYM3ludGJFX1ZnVWkxYWlVdHhZY3c3ZmZOb0tadUMzMzJpZmV6QjZpc0ViS3pzbmdjMUg4YTZSdjA5bzE5akpn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1727
     },
     {
       "date": "Aug 11",
-      "text": "Sources indicate the US has used 'virtually all' of its long-range precision missiles during the Iran war.",
-      "severity": "critical",
+      "text": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1727
     },
     {
       "date": "Aug 11",
-      "text": "Israeli media reports that Israel is preparing for possible unilateral strikes on Iran.",
-      "severity": "warning",
+      "text": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1727
+    },
+    {
+      "date": "Aug 11",
+      "text": "Israel prepares for possible unilateral strikes on Iran: Israeli media",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1727
     },
     {
       "date": "Aug 11",
-      "text": "Iran states the Strait of Hormuz will not open until the U.S. 'corrects' its behavior.",
-      "severity": "critical",
+      "text": "Iran says Strait of Hormuz won't open until the U.S. \"corrects\" behavior",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOMVhleVdzazZyT0ZHcXV5aWJxa3FZaGtTelNHdUJ5cm4tNXNlLU5PYUM3Tk40cVRLQjdWY2Job2NyM0hNTnhKN1diQkkzN0Y0a0lOWmtCaGxxdU5GTUFxZW9IODM0MjI4aU5sS2YzREFrODBHV0pocFpGMkpPWHhla1JaXzRzclYtb085WFhMOFcxaXVfWWh1SXQzSmpJNUU5TzR3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1726
-    },
-    {
-      "date": "Aug 11",
-      "text": "The U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1726
-    },
-    {
-      "date": "Aug 11",
-      "text": "Oil prices climb 5% as Iran and the US both demand compensation and hopes for Hormuz reopening fade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1727
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
