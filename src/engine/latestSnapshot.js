@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1732,
+  "updateSequence": 1733,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T08:31:48.409Z",
+  "lastSyncedAt": "2026-08-11T09:33:23.022Z",
   "warDay": 165,
-  "summary": "Negotiations between the US and Iran are stalled over compensation and Strait of Hormuz access, while Israel continues strikes in Lebanon and prepares for potential unilateral action against Iran amidst concerns over US weapon stockpiles and rising oil prices.",
+  "summary": "The US and Iran are locked in a stalemate, each demanding compensation from the other, while oil prices climb due to the uncertain status of the Strait of Hormuz and Israel continues military actions in Lebanon and prepares for potential strikes on Iran.",
   "lastNarrativeUpdate": "2026-08-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; negotiations between the US and Iran remain stalled over key demands."
+    "summary": "No active ceasefire is reported between the primary belligerents, with ongoing demands and military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 10",
-      "text": "Trump states he would require compensation from Iran as a condition for talks, claiming the US is 'only semi-negotiating' with Tehran.",
+      "text": "Trump says he would require compensation from Iran as condition for talks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1732
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1733
     },
     {
-      "date": "Aug 08",
-      "text": "Iran demands concessions from the US and payment for war damage before agreeing to reopen the Strait of Hormuz, while nearing a deal with Oman.",
-      "severity": "warning",
+      "date": "Aug 10",
+      "text": "Iran demands U.S. pay for war damage before agreeing to reopen Strait of Hormuz.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 1732
-    },
-    {
-      "date": "Aug 08",
-      "text": "Sources report the US has used 'virtually all' of its long-range precision missiles during the Iran war, raising concerns about depleted stockpiles.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1732
+      "latestSinceUpdate": 1733
     },
     {
       "date": "Aug 10",
-      "text": "Oil prices climb as doubt grows over a US-Tehran deal on the Strait of Hormuz, with reports of a missile strike hitting the Strait.",
+      "text": "Report indicates the Strait of Hormuz was 'hit by missile strike'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOamFyOVhnZG9PZUJlenFjNUhXd0doVTNNS2dCTm5tQU5Wc3NCV1Z4UUVhVDF6ZVZjVEtiYzZVOHVVb281V2ZwS3J1TlRxVjB2eXlHYTVLYUpIZkpfMWw4OWVyVVFvYnRoRFpGamFMRFRSTFp3TVBObDJ1VHpVM3NKM3pQZFVDaEtFcWhZMnFaUWZtbVRwbElXQnQ4OFJublpJbWxEMGxaUnowbkNT?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1733
+    },
+    {
+      "date": "Aug 10",
+      "text": "Israel prepares for possible unilateral strikes on Iran, according to Israeli media.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1732
-    },
-    {
-      "date": "Aug 10",
-      "text": "Israel prepares for possible unilateral strikes on Iran and conducts drone strikes in Lebanon, including one reportedly hitting an ambulance.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxORnBwMDd2NXlSclA4SjZxUzNxckZMVFRHckt1X25YRnlMaWxhVEJsUU9QUU1aNkhnc3o5RmVMUXJQRmFMRWFVSHVZVzhwbWpFM3RGdlRtN3R6RUFqdF9uYVVsTjlkaEJVeHA5ZXh5bnl2V0VZYkYtOXhJVFN2Q0VWcEtYaWNiQXhTMHZoc3lXbDIxdU1wNzh1azM3S0NrdnBSLTh5ZHlScmRfazkxM0FtblVNaTE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1732
+      "latestSinceUpdate": 1733
+    },
+    {
+      "date": "Aug 10",
+      "text": "Report: Israeli drone strikes ambulance driving man wounded in previous strike.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgJBVV95cUxOeDQ5RmIxNnN4Nkk1UWFBNHY0QWFJUGFxLV9MMmRTVUQ1Tk5XVmtmZVFoVWJueTltOFBhczZtQlNHOWc4bWZZS3lVelVJVWZUN3ZVUS1tazRQWWIzLVduRmdGVFM2ZkhDN0J2c3NKUVg5cWVhMVBiSnBRZTZKMkNkc2tlOXV0dC12NkRIRjF5QVk0TVNYR3lmVV9mZ2lHbENKUTFfSzhWdTF5UGZiX2h1ZHF4ZGs0SE51ZGt1YnlCQVJ2MllHMkJHc2RPLTJVQlU1bzVvaElhYXRYZy1zWE13dl83OFptczR4bkQ0dUN3NHVQSFpiX0NlN0tUOUNfRU85RWhWMnRBTE9YdlNyVk5abF9pUG1LS1IzeFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Haaretz",
+      "latestSinceUpdate": 1733
+    },
+    {
+      "date": "Aug 10",
+      "text": "Oil Prices Climb on Stalemate in Strait of Hormuz, with hopes for a deal fading.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1kaTlzT0xuU3NDWGYwbjJOY3lfV3d2NXpJTWE1emo5VlpodXJkcTVRbmlKZ1dmVUdvcWJoSElKY2ZpbkxiTmlJcUhPSDJTeU1KT3prT3o3TFlfZklabE94TXBsYXV1dzUxYnRwWU9QYXdqeGxJRFIw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1733
     }
   ],
   "sourceStatuses": [

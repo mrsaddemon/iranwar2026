@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1732,
+  "updateSequence": 1733,
   "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T08:31:48.409Z",
+  "lastSyncedAt": "2026-08-11T09:33:23.022Z",
   "warDay": 165,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; negotiations between the US and Iran remain stalled over key demands."
+    "summary": "No active ceasefire is reported between the primary belligerents, with ongoing demands and military actions."
   }
 }
