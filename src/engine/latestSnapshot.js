@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1757,
+  "updateSequence": 1758,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T14:00:09.989Z",
+  "lastSyncedAt": "2026-08-12T15:06:45.813Z",
   "warDay": 166,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A ceasefire in Lebanon is reported to be active but remains fragile amidst Israeli strikes and Hezbollah's efforts to disrupt ongoing talks."
+    "summary": "No general ceasefire is active, though talks between Israel and Lebanon are set to continue in September."
   },
   "actorOverrides": {
     "usa": {
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.75,
         "aggression": 0.7
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.4,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
+    "nuclearIndex": 10,
+    "escalationLevel": 38,
     "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "tradeImpact": 56,
+    "sanctionsPressure": 49,
+    "globalPressure": 57,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -76,19 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 11",
-      "text": "Strait of Hormuz traffic falls to new low; IEA reports intensifying oil demand destruction.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1757
-    },
-    {
-      "date": "Aug 11",
-      "text": "Iran-backed Houthis kill 6 in Red Sea.",
+      "text": "Strait of Hormuz traffic falls to new low; Iran-backed Houthis kill 6 in Red Sea.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1757
+      "latestSinceUpdate": 1758
+    },
+    {
+      "date": "Aug 11",
+      "text": "US military fires on cargo vessel it said sought to break Iran blockade.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1758
     },
     {
       "date": "Aug 11",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 11",
-      "text": "US military fires on cargo vessel attempting to break Iran blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1757
+      "text": "Israel and Lebanon to continue talks in September, despite Hezbollah's efforts to disrupt the process.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1758
     }
   ],
   "sourceStatuses": [

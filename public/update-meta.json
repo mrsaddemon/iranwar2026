@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1757,
+  "updateSequence": 1758,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T14:00:09.989Z",
+  "lastSyncedAt": "2026-08-12T15:06:45.813Z",
   "warDay": 166,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A ceasefire in Lebanon is reported to be active but remains fragile amidst Israeli strikes and Hezbollah's efforts to disrupt ongoing talks."
+    "summary": "No general ceasefire is active, though talks between Israel and Lebanon are set to continue in September."
   }
 }
