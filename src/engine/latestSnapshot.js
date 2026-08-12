@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1747,
-  "lastUpdated": "2026-08-11",
-  "lastSyncedAt": "2026-08-11T23:51:41.064Z",
-  "warDay": 165,
-  "summary": "The ongoing war continues with the US demanding compensation from Iran, which in turn sets conditions for reopening the Strait of Hormuz, leading to rising oil prices and continued regional instability.",
-  "lastNarrativeUpdate": "2026-08-11",
+  "updateSequence": 1748,
+  "lastUpdated": "2026-08-12",
+  "lastSyncedAt": "2026-08-12T00:44:22.725Z",
+  "warDay": 166,
+  "summary": "The Iran War continues with active military engagements, a US-enforced blockade of Iran's ports, and escalating rhetoric from US leadership regarding compensation demands.",
+  "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict and demands."
+    "summary": "No ceasefire is active; military actions and blockades continue."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.95
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,19 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 10",
-      "text": "Trump demands compensation from Iran as a condition for talks and pivots back to sanctions.",
+      "text": "Trump states he would require compensation from Iran as a condition for talks, pivoting back to sanctions.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1747
-    },
-    {
-      "date": "Aug 10",
-      "text": "Iran states the Strait of Hormuz will not open until its conditions are met, causing U.S. oil prices to rise above $83 a barrel.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1ERXgzSE9wdWREUDZacUg3UWdOLWpxOEhYZ1VZanZjZjRXejNiWFotSnVyOXNEaGdySGU3SDRhVUx4dlBTd2pjRnVveUlsNDFiU1gtSlpjQkdkUTBUcVVmWHN2S0JWaEZvNzBuMWtqdWpFQ2fSAXhBVV95cUxQZTZkNVRYbGJoMEd3bnU4TWpJWEd0bzBvYnd0ZHRhMDI3Sy01bllGZlhlMV9oeGxXVldqOWtCTm1tNWpJUkQwdzZtckhQWThvcHpaamJxb1JwTkhVTS16UmN6ckI4YlA4dUxDcWgyeEpUYjV1T1hkMUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1747
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1748
     },
     {
       "date": "Aug 10",
@@ -84,19 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 10",
-      "text": "U.S. assesses Iran’s priority has shifted from nuclear weapons to control of the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQaEIwYko4Q0VxaDhpZVpVT0V0OTRhTmNuVDBtS29MNjdXVTRFQ1gxVW9kVlZMdG90dG03dHJxcU9PQzV2SlIxY0diVGUwVVlCRUc2NXgyaTVNSDI1dWl5dkJlQ3d0aUc4b0hKRnVyUEJXRmlkQWRzMjVkNmxqUVROTXptclRsNDJHdUdXa25Ib0NwejI3ekw4d0JVQnFUel9OTFVqT2xYT1BmTER2YUtFM2xCbDRzbWhVU0ZKZGQ4WVg5NEI3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1747
+      "text": "US military fires missiles at a cargo ship in the Gulf of Oman, stating it violated the Iran blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1748
     },
     {
       "date": "Aug 10",
-      "text": "Hezbollah's new battlefield strategy is reported to be challenging for Netanyahu and Trump.",
+      "text": "Hormuz deadlock persists, raising concerns about future oil prices as prospects for a deal fade.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1747
+      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTFBNcG9DY2ZzbXllOVcyNnVPYnUzQ0tnS0EyZDRGZXhNaF9ydmNJTWN1YWJEM2x2Tm5VS3F6REtQM2VBaklVYlRtUTFtM05ZdWdsYTlMaDFBNWlPVGhUS0FlTUJoWjBOWC1BaFAyQnpCc9IBdEFVX3lxTE55blBJLVBYeXpyLVpDSTE4czcyb2dFZEdSOWJvNU1vcFVHQmc1WmVneWo0eDRsSVlJMXlZOG83Ymd3Z2l3U3Nvb3FQVlhiSk1kVFQyUE5ncloydHplRWttN3lUejNQLXNUWjBERS01ZERxY1Ri?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1748
     },
     {
       "date": "Aug 10",
@@ -105,6 +97,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOdVRLN2JYMlhJeElsM0xBajVoNmZNNG9kOXJBTDBtYTJ0Y2NvQmZlTnc0am9sRXRjUnhTcnpvd0dxenFXSDdIUS1lTXlMOFVMMHNRMk9mRV9hWi1HUFB5WUVuZEFqYkJWcTdlZl9sUnY5Q3dPS0xUekFZVGVnWGNVVTBpNUo?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1745
+    },
+    {
+      "date": "Aug 10",
+      "text": "Hezbollah's new battlefield strategy is reported to be challenging for Netanyahu and Trump.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1747
     }
   ],
   "sourceStatuses": [
@@ -140,24 +140,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "narratives": [
     {
       "perspective": "US/Trump Administration",
-      "headline": "Trump Demands Compensation, Shifts to Economic Pressure",
-      "summary": "The US administration, led by Trump, is demanding compensation from Iran for past conflicts and is signaling a shift towards economic pressure. Negotiations with Tehran are described as only 'semi-negotiating' as military options appear limited.",
+      "headline": "Trump Demands Compensation, Enforces Blockade",
+      "summary": "The US administration, led by Trump, is demanding compensation from Iran as a condition for any talks, while actively enforcing a blockade of Iranian ports, including firing on vessels attempting to breach it. Trump claims control of Hormuz.",
       "tone": "defiant",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1748
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran Conditions Hormuz Reopening on US Concessions",
-      "summary": "Iran is demanding concessions from the US and states that the Strait of Hormuz will remain closed until the US 'corrects' its behavior. Tehran is also reportedly nearing a separate deal with Oman regarding the strait.",
+      "perspective": "Iranian Stance",
+      "headline": "Iran Resists Blockade, Elevates Military Leadership",
+      "summary": "Iran is resisting the US blockade and its supreme leader is elevating military veterans prepared to confront the US. Iran has also implicitly demanded war reparations, which Trump has scoffed at.",
       "tone": "defiant",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1748
     },
     {
-      "perspective": "Israel",
-      "headline": "Israel Prepares for Unilateral Strikes Amidst Regional Tensions",
-      "summary": "Israel is reportedly preparing for possible unilateral strikes on Iran and has warned that Tehran's attacks are coming close. The nation also defended its Beirut strikes as precise while engaging in talks with Lebanon.",
+      "perspective": "Regional Conflict Dynamics",
+      "headline": "Hezbollah Strategy Shifts, Israeli Strikes Continue",
+      "summary": "Hezbollah has adopted a new battlefield strategy posing challenges for Israeli and US leadership. Israel continues to conduct strikes, claiming precision, while warning of escalating attacks from Tehran.",
       "tone": "strained",
-      "latestSinceUpdate": 1726
+      "latestSinceUpdate": 1748
+    },
+    {
+      "perspective": "Global Economic Impact",
+      "headline": "Hormuz Deadlock Threatens Oil Prices",
+      "summary": "The ongoing deadlock in the Strait of Hormuz, exacerbated by the US blockade and military actions, is causing uncertainty in global oil markets and could lead to significant price increases.",
+      "tone": "anxious",
+      "latestSinceUpdate": 1748
     }
   ]
 });
