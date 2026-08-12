@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1764,
+  "updateSequence": 1765,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T21:05:38.447Z",
+  "lastSyncedAt": "2026-08-12T21:57:09.174Z",
   "warDay": 166,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Despite Trump's claim of a working ceasefire in Lebanon, overall conflict escalation and ongoing strikes indicate no active general ceasefire."
+    "summary": "A ceasefire in Lebanon is claimed by Trump to be working, but residents describe it as a 'prison' amidst ongoing Israeli strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.4,
         "aggression": 0.9
       }
     },
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 38,
-    "oilDisruption": 70,
-    "tradeImpact": 41,
-    "sanctionsPressure": 49,
-    "globalPressure": 53,
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 11",
-      "text": "Mediators, including Pakistan, are pushing for US-Iran talks amidst escalating conflict.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1764
-    },
-    {
-      "date": "Aug 11",
-      "text": "Israel conducted strikes on Lebanon and Gaza, with US-Israel strikes also hitting Iran.",
-      "severity": "critical",
+      "text": "Mediators are pushing for US-Iran talks as Israel conducts strikes in Lebanon and Gaza.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1764
+      "latestSinceUpdate": 1765
     },
     {
       "date": "Aug 11",
-      "text": "A US troop death was announced as Tehran's attacks are warned to be coming close.",
+      "text": "Trump pivots back to sanctions for Iran, while scoffs at Iran’s demand for war reparations.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPTHRSRTdObVh1eUFaNml6X3lhU0FnaEJvWHM2V2g2eC0yblF2QktZTnctM1Vud0pqZ2ZzQ0ZZTzBRNUV2TnpFNkV2V3lNUVhfcGlHbmtzT1k5bnJCclRCS1dTYnB5WTdmRk5aaHM4aEktLVFzc1lhallpd1FfM2J1aTE3NzBIejRSaTctUDdETm1hSFBadWk2aTR1ZDk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1765
+    },
+    {
+      "date": "Aug 11",
+      "text": "Pakistan states the U.S. and Iran are close to a 'peace arrangement or a deal' and pushes for talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1765
+    },
+    {
+      "date": "Aug 11",
+      "text": "Iran demands the U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 1764
+      "latestSinceUpdate": 1765
     },
     {
       "date": "Aug 11",
-      "text": "The US military fired on a cargo vessel attempting to break its blockade of Iranian ports.",
+      "text": "West Asia conflict escalates with US-Israel strikes hitting Iran and the US Embassy attacked in Riyadh.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1764
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 1765
     },
     {
       "date": "Aug 11",
-      "text": "Strait of Hormuz ship traffic is near a three-month low, with Gulf oil giants investing in alternative routes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNal9FNm8tZ1pwTGNYaHBXNVhqTW93S01idERNbkJXMGJMbW8wNzluUVN6eklTMHhJTzRDQ0FhTjlRWnFKMTAwQXZ6ZDVKUl90em9UTElITmNVT2dMYWdhT3dHVlgxUTJPLXZsTWhRRUJuY0hiZlRZR1FabjA3UEFaUjNBONIBiAFBVV95cUxNS2VLR2lZc3JfSzlkYm5iZElqaENSOXFBMzdfRWpSdEgyRUo4UXhUVlFvUUhMTjVySkVMaFNaZlNFYzVyelFXQ082cjk4SWVZemotTjhaSlI2WlJMVktTMFVaMWtZUHNfU1Zmdm9pU2xlbnlfbzMyaVZoOURDUUFTMTFlQi1aOHFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1764
-    },
-    {
-      "date": "Aug 11",
-      "text": "An attack occurred on the US Embassy in Riyadh amidst West Asia conflict escalation.",
+      "text": "Strait of Hormuz ship traffic falls to a near three-month low, with only 6 vessels reported amid hostilities.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1764
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPVXJMZkR3TkxSQWNRTFJKbG93N3gyXzB0TEpHbFlDV2ZVZ042SWpXdF9ralZGVGFIa1dfUVRnRENPM0lqSmhUVkI2eVhuXzVyVUMtczFBZFUwMzlYaWJRN3JJMTBVZjFzTExIVzNpblh3OWtDOElYOWtmSVhRYkE3VTFOSk91R1M4MTBUdml2U1hmbWfSAZgBQVVfeXFMUFRFUFpjdTFzYzRuSVNkUEh5Szd0b2lmd2MyMnVjOXFYNTQ5V2lKRXdCMVY3XzFFTkdlM1NmZDhSTzFIeTVzX2s4Z1pZaWpMUWQ3QXlMTVZibnZxTGduMjdYaU1rWWhGaVdwQ1hsbzJZWDRvcW5jS3dMV212WEJGT1VBRjlOQkU4QzlsNDBobmRBQlR6MVhrQi0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1765
     }
   ],
   "sourceStatuses": [

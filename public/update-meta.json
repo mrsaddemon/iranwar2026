@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1764,
+  "updateSequence": 1765,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T21:05:38.447Z",
+  "lastSyncedAt": "2026-08-12T21:57:09.174Z",
   "warDay": 166,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Despite Trump's claim of a working ceasefire in Lebanon, overall conflict escalation and ongoing strikes indicate no active general ceasefire."
+    "summary": "A ceasefire in Lebanon is claimed by Trump to be working, but residents describe it as a 'prison' amidst ongoing Israeli strikes."
   }
 }
