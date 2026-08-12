@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1759,
+  "updateSequence": 1760,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T16:06:14.027Z",
+  "lastSyncedAt": "2026-08-12T17:07:36.251Z",
   "warDay": 166,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Mediators are pushing for US-Iran talks amidst Trump's demands for compensation and sanctions, while tensions remain high over the Strait of Hormuz and the fragile ceasefire in Lebanon.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire in Lebanon is reportedly active but described as a 'prison' by residents, with the future of peacekeeping forces uncertain."
+    "summary": "A ceasefire in Lebanon is reported by Trump as working, but residents describe it as a 'prison' due to ongoing restrictions and conditions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.65
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 62,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 11",
-      "text": "New attacks on shipping reported as US-Iran war talks face impasse.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1759
-    },
-    {
-      "date": "Aug 11",
-      "text": "Iran vows to close the Strait of Hormuz until US sanctions are lifted, rejecting Trump's demands.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNQ2RUVjFBUmhnNTNCNjZSdEpzMmZ1NndMU20zX3IyRUdWUExvSmt5WUxFdnNKQzR5MGktWGJIQXN6YVJSZjhkcjgtRU1VSGZxX29TZzd6M2huelREQ0hYNDdnbng1aEdMNjBuajgyelNHT3hCcU1QY2JtbWtGbF9oUG14OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1759
-    },
-    {
-      "date": "Aug 11",
-      "text": "US military fires on a cargo vessel attempting to break the Iran blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1759
-    },
-    {
-      "date": "Aug 11",
-      "text": "Oil prices rise above $83 a barrel due to Strait of Hormuz tensions and shipping attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQWWotc2YtdGx5bHp5YXZieWNCaVQ0SzhwRzlnbVd1MkFmdXhmUXl3YmdqR2F1Q1ctTGRpVU5GUkZIQkpia3F5bFdSYXJYYjlpSzNTaFkzRjlBVThrdl9XMjFGOXFYbTJnaE5NbEVMTmphNks4ZHpZQjh6ZjVDZzIzYkYwX0wweTEwdlRoX0lDcjdvYWU4RV80SXdWME9CeGRmUGwtUzhWX09TZWpNMnZlSC130gG3AUFVX3lxTFBhZHlEWGh6eEJFRHVWTmxxVEoyTFlRWUpsbHdFU25kWDNWM1RUWlgxNEoxR1NKOFJqOHNtX2pETkY2LVgtdUZvam41SGNVR2RabUc5NU92YnVVSWVUVnZrM0FLTFdldlV6LVlZSXpBSExmWTNpU1hHWTZBWEdyOVNSVnd5dWdaSHlseGpYcGR0Q0VjeG1mSlZVN1AxQjljMWZWY1UtTVd1cjZwdVJ6Z0ZXLVRJNElRSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1759
-    },
-    {
-      "date": "Aug 11",
-      "text": "Pakistan pushes for US-Iran talks, stating US and Iran are close to a 'peace arrangement or a deal'.",
+      "text": "Mediators are pushing for US-Iran talks as a Memorandum of Understanding deadline approaches.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1759
+      "sourceUrl": "https://news.google.com/articles/iran-talks",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1760
     },
     {
       "date": "Aug 11",
-      "text": "Israel conducts twin strikes on Lebanon amidst uncertain future for UNIFIL peacekeeping.",
+      "text": "Trump pivots back to sanctions for Iran as other strategies to end the war reportedly fizzle.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1759
+      "sourceUrl": "https://news.google.com/articles/trump-sanctions",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1760
+    },
+    {
+      "date": "Aug 10",
+      "text": "Trump states he would require compensation from Iran as a condition for talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/trump-compensation",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1760
+    },
+    {
+      "date": "Aug 10",
+      "text": "Pakistan indicates the U.S. and Iran are close to a 'peace arrangement or a deal' while also reporting Israel's twin strikes on Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/pakistan-iran-deal",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1760
+    },
+    {
+      "date": "Aug 10",
+      "text": "Trump claims the U.S. has 'total control' over the Strait of Hormuz and might 'keep it', a claim Iran rejects.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/hormuz-control",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1760
+    },
+    {
+      "date": "Aug 10",
+      "text": "An Iranian military adviser suggests Iran could 'prolong' the war with the US until Trump is out of office.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/iran-prolong-war",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1760
     }
   ],
   "sourceStatuses": [
