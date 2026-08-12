@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1760,
+  "updateSequence": 1761,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T17:07:36.251Z",
+  "lastSyncedAt": "2026-08-12T18:08:58.549Z",
   "warDay": 166,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire in Lebanon is reported by Trump as working, but residents describe it as a 'prison' due to ongoing restrictions and conditions."
+    "summary": "A localized ceasefire in Lebanon is reported by Trump as working, but residents describe it as a 'prison' amidst uncertainty over future peacekeeping."
   }
 }
