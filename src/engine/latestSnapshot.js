@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1755,
+  "updateSequence": 1756,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T11:24:25.419Z",
+  "lastSyncedAt": "2026-08-12T12:26:35.769Z",
   "warDay": 166,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "No general ceasefire is active in the broader conflict, though a specific ceasefire in Lebanon is reported as working but restrictive."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 30,
     "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
     "sanctionsPressure": 49,
-    "globalPressure": 57,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 11",
-      "text": "New attacks on shipping reported as Iran war talks hit a fresh impasse.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1755
+      "date": "Aug 12",
+      "text": "August 11, 2026 – Middle East conflict latest",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1756
     },
     {
-      "date": "Aug 11",
-      "text": "Trump pivots back to sanctions for Iran after other strategies to end the war fizzle.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 1755
-    },
-    {
-      "date": "Aug 11",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1754
-    },
-    {
-      "date": "Aug 11",
-      "text": "Houthis reportedly kill six in their first deadly attack since the start of the Iran war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1qV0V6Z08tZ1RuOVlBTzZXRWQ5UzZqcFBOZlVNZnB6VE9KN2VGT29aQzhxYnh0aE9SWWNSN0szaWVZQklMeXY1a29IaklsY3dhQU5Wa1JZblRKQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1754
-    },
-    {
-      "date": "Aug 11",
-      "text": "Iran launches missile and drone attacks across the Gulf as Israel strikes Tehran infrastructure.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 1754
-    },
-    {
-      "date": "Aug 11",
-      "text": "Trump claims the US is in 'total control' of the Strait of Hormuz amidst ongoing conflict.",
+      "date": "Aug 12",
+      "text": "Iran war live: Mediators push for US-Iran talks as MoU deadline approaches",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1755
+      "latestSinceUpdate": 1756
+    },
+    {
+      "date": "Aug 12",
+      "text": "New attacks on shipping as Iran war talks hit fresh impasse",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1756
+    },
+    {
+      "date": "Aug 12",
+      "text": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1756
+    },
+    {
+      "date": "Aug 12",
+      "text": "Pakistan pushes for US-Iran talks, Israel's twin strikes on Lebanon",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxOYmlpV3dHZV95M2didGNhby1NTHZwTHpQLV9xTUtCck5RcmJtVkpOSHZYbTN6ZURJeWJlNlJsWlJFaFVoR21wYkhPTHBqUDliaHdMT2E5MHlDR0dTUHZ5aEozTzZ2bURjM3lYeWpWbXFaY05Xa19BY215M0tBMm5TWnVhU042ZUJNT09EY3pnZ1JpMVozZ2l0ZE5nLUt0SnlQTU1MSzUza0pjTUtKeVVCMGIwUjQyalg2WEdxS29fNldHWVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "newseu.cgtn.com",
+      "latestSinceUpdate": 1756
+    },
+    {
+      "date": "Aug 12",
+      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1756
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
