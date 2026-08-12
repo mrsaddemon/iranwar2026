@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1753,
+  "updateSequence": 1754,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T09:20:19.228Z",
+  "lastSyncedAt": "2026-08-12T10:30:30.167Z",
   "warDay": 166,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No general ceasefire is active in the broader Iran-US conflict, though a localized, fragile ceasefire is reported in Lebanon."
+    "summary": "No active ceasefire is in effect; conflict and hostilities are ongoing."
   }
 }
