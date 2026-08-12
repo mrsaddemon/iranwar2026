@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1749,
+  "updateSequence": 1750,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T03:13:08.222Z",
+  "lastSyncedAt": "2026-08-12T05:07:00.137Z",
   "warDay": 166,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict and demands persist."
+    "summary": "No ceasefire is active; hopes for a Strait of Hormuz deal are fading amidst ongoing hostilities."
   }
 }
