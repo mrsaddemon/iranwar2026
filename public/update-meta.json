@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1766,
+  "updateSequence": 1767,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T22:53:02.496Z",
+  "lastSyncedAt": "2026-08-12T23:51:45.505Z",
   "warDay": 166,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 5,
-    "summary": "A claimed ceasefire in Lebanon is reported by some, but ongoing Israeli strikes and resident accounts suggest it is not fully effective or widespread."
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is reported by the US to be active, though residents describe conditions as restrictive, and the future of peacekeeping remains uncertain."
   }
 }
