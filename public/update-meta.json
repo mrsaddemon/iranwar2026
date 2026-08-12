@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1758,
+  "updateSequence": 1759,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T15:06:45.813Z",
+  "lastSyncedAt": "2026-08-12T16:06:14.027Z",
   "warDay": 166,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 30,
-    "summary": "No general ceasefire is active, though talks between Israel and Lebanon are set to continue in September."
+    "durationDays": 10,
+    "summary": "A ceasefire in Lebanon is reportedly active but described as a 'prison' by residents, with the future of peacekeeping forces uncertain."
   }
 }

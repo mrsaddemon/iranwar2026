@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1758,
+  "updateSequence": 1759,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T15:06:45.813Z",
+  "lastSyncedAt": "2026-08-12T16:06:14.027Z",
   "warDay": 166,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 30,
-    "summary": "No general ceasefire is active, though talks between Israel and Lebanon are set to continue in September."
+    "durationDays": 10,
+    "summary": "A ceasefire in Lebanon is reportedly active but described as a 'prison' by residents, with the future of peacekeeping forces uncertain."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.6,
+        "aggression": 0.65
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
         "aggression": 0.6
       }
     },
-    "israel": {
-      "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.75,
-        "aggression": 0.7
-      }
-    },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
-    "sanctionsPressure": 49,
-    "globalPressure": 57,
-    "allianceInfluence": 51
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
+    "sanctionsPressure": 54,
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 11",
-      "text": "Mediators push for US-Iran talks as MoU deadline approaches.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1757
-    },
-    {
-      "date": "Aug 11",
-      "text": "New attacks on shipping reported as Iran war talks hit fresh impasse.",
-      "severity": "warning",
+      "text": "New attacks on shipping reported as US-Iran war talks face impasse.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1757
+      "latestSinceUpdate": 1759
     },
     {
       "date": "Aug 11",
-      "text": "Strait of Hormuz traffic falls to new low; Iran-backed Houthis kill 6 in Red Sea.",
+      "text": "Iran vows to close the Strait of Hormuz until US sanctions are lifted, rejecting Trump's demands.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQLTNOYzlIQUFzd2ZmNXU5eEJzS0g1ZHNwcVo0Nm1HeUExa2RJQzNQSGJpSWFfZWdoSmxYLVZBMlkzMG10T0R0WWN1dWM1VG5fbjFkcGlBQUZtSWxzVTd4dEJtVUwzdVBRTTNMZWhURWF1Ry1SLW93aGxVX25kcFZtNldkV1REcW91ZGZ3YzZkak9wZTJWOG9HVEx3UUg0RURheVZyZWpFZkpFV1dqUmdWZQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1758
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNQ2RUVjFBUmhnNTNCNjZSdEpzMmZ1NndMU20zX3IyRUdWUExvSmt5WUxFdnNKQzR5MGktWGJIQXN6YVJSZjhkcjgtRU1VSGZxX29TZzd6M2huelREQ0hYNDdnbng1aEdMNjBuajgyelNHT3hCcU1QY2JtbWtGbF9oUG14OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1759
     },
     {
       "date": "Aug 11",
-      "text": "US military fires on cargo vessel it said sought to break Iran blockade.",
-      "severity": "warning",
+      "text": "US military fires on a cargo vessel attempting to break the Iran blockade.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1758
+      "latestSinceUpdate": 1759
     },
     {
       "date": "Aug 11",
-      "text": "Israel conducts twin strikes on Lebanon.",
+      "text": "Oil prices rise above $83 a barrel due to Strait of Hormuz tensions and shipping attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQWWotc2YtdGx5bHp5YXZieWNCaVQ0SzhwRzlnbVd1MkFmdXhmUXl3YmdqR2F1Q1ctTGRpVU5GUkZIQkpia3F5bFdSYXJYYjlpSzNTaFkzRjlBVThrdl9XMjFGOXFYbTJnaE5NbEVMTmphNks4ZHpZQjh6ZjVDZzIzYkYwX0wweTEwdlRoX0lDcjdvYWU4RV80SXdWME9CeGRmUGwtUzhWX09TZWpNMnZlSC130gG3AUFVX3lxTFBhZHlEWGh6eEJFRHVWTmxxVEoyTFlRWUpsbHdFU25kWDNWM1RUWlgxNEoxR1NKOFJqOHNtX2pETkY2LVgtdUZvam41SGNVR2RabUc5NU92YnVVSWVUVnZrM0FLTFdldlV6LVlZSXpBSExmWTNpU1hHWTZBWEdyOVNSVnd5dWdaSHlseGpYcGR0Q0VjeG1mSlZVN1AxQjljMWZWY1UtTVd1cjZwdVJ6Z0ZXLVRJNElRSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1759
+    },
+    {
+      "date": "Aug 11",
+      "text": "Pakistan pushes for US-Iran talks, stating US and Iran are close to a 'peace arrangement or a deal'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1759
+    },
+    {
+      "date": "Aug 11",
+      "text": "Israel conducts twin strikes on Lebanon amidst uncertain future for UNIFIL peacekeeping.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1757
-    },
-    {
-      "date": "Aug 11",
-      "text": "Israel and Lebanon to continue talks in September, despite Hezbollah's efforts to disrupt the process.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1758
+      "latestSinceUpdate": 1759
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
