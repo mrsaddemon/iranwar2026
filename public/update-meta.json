@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1751,
+  "updateSequence": 1752,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T08:00:00.000Z",
+  "lastSyncedAt": "2026-08-12T08:05:16.541Z",
   "warDay": 166,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; hostilities and threats continue across the region."
+    "summary": "War talks have hit a fresh impasse and hopes for a Hormuz deal are fading, indicating no active ceasefire."
   }
 }

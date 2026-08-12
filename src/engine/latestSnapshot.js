@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1751,
+  "updateSequence": 1752,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T08:00:00.000Z",
+  "lastSyncedAt": "2026-08-12T08:05:16.541Z",
   "warDay": 166,
-  "summary": "The conflict intensifies with ongoing attacks at sea, direct strikes between Iran and Israel, and US demands for compensation from Iran amidst threats to keep the Strait of Hormuz closed.",
+  "summary": "Ongoing conflict in the Middle East features new attacks on shipping, direct military engagements between the US, Iran, and Israel, and a deepening crisis over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; hostilities and threats continue across the region."
+    "summary": "War talks have hit a fresh impasse and hopes for a Hormuz deal are fading, indicating no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.75,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 40,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 10",
-      "text": "Attacks at sea threaten the region as hopes fade for a Strait of Hormuz deal.",
+      "date": "Aug 11",
+      "text": "New attacks on shipping reported as Iran war talks hit fresh impasse.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE13NWtvZmNhOFJidDBEeGhoOUhxOUlOcTNYSWxLQnpQemtOVlhBc0pLRGhFMlJfX1JwMWJQNDBGRkFzTDJNQWwzVmtwMEN5djFfNDB2b053RS1zWXlwaGlKeVhrNnNwazM3WjVSYTVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1751
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1752
     },
     {
-      "date": "Aug 10",
-      "text": "Trump states he would require compensation from Iran as a condition for talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1750
-    },
-    {
-      "date": "Aug 12",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "date": "Aug 11",
+      "text": "U.S. announces another troop death amidst escalating tensions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1751
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1752
     },
     {
-      "date": "Aug 12",
-      "text": "Iran launches missile and drone attacks across the Gulf as Israel strikes Tehran infrastructure.",
+      "date": "Aug 11",
+      "text": "Houthis reportedly kill six in first deadly attack since start of Iran war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1qV0V6Z08tZ1RuOVlBTzZXRWQ5UzZqcFBOZlVNZnB6VE9KN2VGT29aQzhxYnh0aE9SWWNSN0szaWVZQklMeXY1a29IaklsY3dhQU5Wa1JZblRKQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1752
+    },
+    {
+      "date": "Aug 11",
+      "text": "Iran launches missile and drone attacks across Gulf as Israel strikes Tehran infrastructure.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "News On AIR",
-      "latestSinceUpdate": 1751
+      "latestSinceUpdate": 1752
     },
     {
       "date": "Aug 11",
-      "text": "Houthi strike kills six, further escalating regional tensions.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1751
+      "text": "US military fires on cargo vessel it said sought to break Iran blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1752
     },
     {
       "date": "Aug 11",
-      "text": "U.S. oil rises above $83 a barrel as Iran states the Strait of Hormuz will not open until conditions are met.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1ERXgzSE9wdWREUDZacUg3UWdOLWpxOEhYZ1VZanZjZjRXejNiWFotSnVyOXNEaGdySGU3SDRhVUx4dlBTd2pjRnVveUlsNDFiU1gtSlpjQkdkUTBUcVVmWHN2S0JWaEZvNzBuMWtqdWpFQ2fSAXhBVV95cUxQZTZkNVRYbGJoMEd3bnU4TWpJWEd0bzBvYnd0ZHRhMDI3Sy01bllGZlhlMV9oeGxXVldqOWtCTm1tNWpJUkQwdzZtckhQWThvcHpaamJxb1JwTkhVTS16UmN6ckI4YlA4dUxDcWgyeEpUYjV1T1hkMUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1751
+      "text": "Pakistan accuses Houthis of killing its nationals in the Red Sea as Hormuz deal hopes fade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1752
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
