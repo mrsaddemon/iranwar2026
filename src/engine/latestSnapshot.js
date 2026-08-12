@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1748,
+  "updateSequence": 1749,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T00:44:22.725Z",
+  "lastSyncedAt": "2026-08-12T03:13:08.222Z",
   "warDay": 166,
-  "summary": "The Iran War continues with active military engagements, a US-enforced blockade of Iran's ports, and escalating rhetoric from US leadership regarding compensation demands.",
+  "summary": "The Iran war continues on Day 166 with ongoing negotiations and demands for compensation from both the US and Iran, while military actions persist in the Strait of Hormuz and regional attacks by Houthis are reported.",
   "lastNarrativeUpdate": "2026-08-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; military actions and blockades continue."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict and demands persist."
   },
   "actorOverrides": {
     "usa": {
@@ -18,26 +18,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 10",
-      "text": "Trump states he would require compensation from Iran as a condition for talks, pivoting back to sanctions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1748
+      "text": "Trump states the US is 'only semi-negotiating' with Tehran and would require compensation from Iran as a condition for talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1749
     },
     {
       "date": "Aug 10",
-      "text": "U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
+      "text": "Houthis reportedly kill six in their first deadly attack since the start of the Iran war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1qV0V6Z08tZ1RuOVlBTzZXRWQ5UzZqcFBOZlVNZnB6VE9KN2VGT29aQzhxYnh0aE9SWWNSN0szaWVZQklMeXY1a29IaklsY3dhQU5Wa1JZblRKQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1749
+    },
+    {
+      "date": "Aug 11",
+      "text": "The U.S. announces another troop death as Israel warns Tehran's attacks are coming close.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWnJYc0NUMEFyWXc0S0x1LVFjZXNDcV9WQm1sU0JTX05BN1hQSkxEcmYyTzdGdHpuVFJHZWo2Q25JaVptLTZEOEZKOFFJQ0pWV2tCWDNpa1NxbFNaX0x6dkF6dEw2enNEdEdDOGlFMXg1aG51dWRzN2VyaElzRnBkZkFnWkc2UWxsZmpUelNvNFFzejJMZ29pYm9vR2NUUURDNmhaRTdneGx5aXNYdmFqWnJRVWt5ODZ0bVHSAb8BQVVfeXFMTlZhWS1lMjFKSUlEOUcwVUd5RWtjRzdKamdKaTJHVlFTejZWQzdIUmd2Q203S1g3c1d2eUlxMEtkeFFpa2ZoaTNfcUtQcFJLdUF4UU9qWDJaUFlEYXNkdE51UHh2b2N6eGNaVkZ5NUpFUU1EYU9uMUc1NE9FX1lqY0I0azVpVkhhT1FnN2U0MzVmOGhkc2c1c1lxLWtKV081TGVwYmZxZkpxR05LODlONzdHMXBpQms2czM3MUo3UUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1747
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1749
     },
     {
-      "date": "Aug 10",
-      "text": "US military fires missiles at a cargo ship in the Gulf of Oman, stating it violated the Iran blockade.",
-      "severity": "critical",
+      "date": "Aug 11",
+      "text": "Trump claims the US is in 'total control' of the Strait of Hormuz, while demanding Iran pay compensation after Tehran sets conditions for reopening the Strait.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1748
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1749
     },
     {
-      "date": "Aug 10",
-      "text": "Hormuz deadlock persists, raising concerns about future oil prices as prospects for a deal fade.",
+      "date": "Aug 11",
+      "text": "U.S. oil prices rise above $83 a barrel as Iran states the Strait of Hormuz will not open until conditions are met.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTFBNcG9DY2ZzbXllOVcyNnVPYnUzQ0tnS0EyZDRGZXhNaF9ydmNJTWN1YWJEM2x2Tm5VS3F6REtQM2VBaklVYlRtUTFtM05ZdWdsYTlMaDFBNWlPVGhUS0FlTUJoWjBOWC1BaFAyQnpCc9IBdEFVX3lxTE55blBJLVBYeXpyLVpDSTE4czcyb2dFZEdSOWJvNU1vcFVHQmc1WmVneWo0eDRsSVlJMXlZOG83Ymd3Z2l3U3Nvb3FQVlhiSk1kVFQyUE5ncloydHplRWttN3lUejNQLXNUWjBERS01ZERxY1Ri?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1748
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE1ERXgzSE9wdWREUDZacUg3UWdOLWpxOEhYZ1VZanZjZjRXejNiWFotSnVyOXNEaGdySGU3SDRhVUx4dlBTd2pjRnVveUlsNDFiU1gtSlpjQkdkUTBUcVVmWHN2S0JWaEZvNzBuMWtqdWpFQ2fSAXhBVV95cUxQZTZkNVRYbGJoMEd3bnU4TWpJWEd0bzBvYnd0ZHRhMDI3Sy01bllGZlhlMV9oeGxXVldqOWtCTm1tNWpJUkQwdzZtckhQWThvcHpaamJxb1JwTkhVTS16UmN6ckI4YlA4dUxDcWgyeEpUYjV1T1hkMUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1749
     },
     {
-      "date": "Aug 10",
-      "text": "Iran’s supreme leader elevates military veterans willing to confront the US.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOdVRLN2JYMlhJeElsM0xBajVoNmZNNG9kOXJBTDBtYTJ0Y2NvQmZlTnc0am9sRXRjUnhTcnpvd0dxenFXSDdIUS1lTXlMOFVMMHNRMk9mRV9hWi1HUFB5WUVuZEFqYkJWcTdlZl9sUnY5Q3dPS0xUekFZVGVnWGNVVTBpNUo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1745
-    },
-    {
-      "date": "Aug 10",
-      "text": "Hezbollah's new battlefield strategy is reported to be challenging for Netanyahu and Trump.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1747
+      "date": "Aug 12",
+      "text": "US military fires on a cargo vessel in the Gulf of Oman, stating it sought to break the Iran blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNVDZDSVYteFdRNE1CNmNDaDJBWUFkc1M1b21WalE1UDZaSnAybDJwNWZlZEhORVdmMC1JRVdRMk9MOHhWZjFCdXhudzN5dEdWdWNlck5PU0NJQ25fZDZOZXd2d1BoTXhtZlpMVW9HY1pQdzlOWTRCYlNHUTBNMUhCTjRBU29HbXI2dGdUeHhCbVlwM3VoZGU0TVFRNkdCRE5aSTl4VU12Y243WmVEMVVUbXNn0gG3AUFVX3lxTE5zMklBY3BGOEdfX0FtdkNXLUVER3NGVnRPU0REUkVfRjg4UDlTNkxoVUhVS1VJYnN2N2liZE95Wi1reWhXV25kOU5iWmlILTJCVVlKRklQOUM0ampTQzBqcWhnZmhwX2hLOG5UZlJ6bG5OWjU3QWVTR0Q2RWtPM3J5Mkt2RTVfT1Eta0JqWUExUktzMmRWWkZBVHE2c2huWG9RZG1oM3gyWWR5cEhlMTRYaG9zd25HQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1749
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
