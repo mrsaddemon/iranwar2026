@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1765,
+  "updateSequence": 1766,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T21:57:09.174Z",
+  "lastSyncedAt": "2026-08-12T22:53:02.496Z",
   "warDay": 166,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
-    "durationDays": 7,
-    "summary": "A ceasefire in Lebanon is claimed by Trump to be working, but residents describe it as a 'prison' amidst ongoing Israeli strikes."
+    "durationDays": 5,
+    "summary": "A claimed ceasefire in Lebanon is reported by some, but ongoing Israeli strikes and resident accounts suggest it is not fully effective or widespread."
   }
 }
