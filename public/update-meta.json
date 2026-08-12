@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1762,
+  "updateSequence": 1763,
   "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T19:29:38.585Z",
+  "lastSyncedAt": "2026-08-12T20:10:58.752Z",
   "warDay": 166,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
-    "durationDays": 10,
-    "summary": "No general ceasefire is in effect, though diplomatic efforts are underway for US-Iran talks and Lebanon-Israel discussions on Hezbollah disarmament."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is reported by Trump as working, though residents describe it as a 'prison,' while Israel and Lebanon discuss troop deployment for Hezbollah disarmament."
   }
 }
