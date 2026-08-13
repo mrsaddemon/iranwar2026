@@ -1,28 +1,19 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1773,
+  "updateSequence": 1774,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T09:21:32.522Z",
+  "lastSyncedAt": "2026-08-13T10:32:09.514Z",
   "warDay": 167,
-  "summary": "The US and Iran are engaged in ongoing conflict with conflicting claims over control of the Strait of Hormuz, while mediators push for peace talks amidst continued Israeli strikes in Lebanon and Gaza.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.2,
-    "durationDays": 10,
-    "summary": "Negotiations for a peace arrangement are underway, but no active ceasefire is in effect, with Iran setting conditions for de-escalation."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is reported by the US, though residents describe it as restrictive."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 60
-      },
-      "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 70
       },
@@ -31,23 +22,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "aggression": 0.8
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.8
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls Hormuz, while Iran states it could ‘prolong’ war with the US.",
+      "text": "Trump insists US controls Hormuz, Iran says it could ‘prolong’ war with US.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1773
+      "latestSinceUpdate": 1774
     },
     {
       "date": "Aug 12",
-      "text": "Mediators are pushing for US-Iran talks as Israel continues to hit Lebanon and Gaza.",
+      "text": "Mediators push US-Iran talks as Israel hits Lebanon and Gaza.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1773
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1774
     },
     {
       "date": "Aug 12",
-      "text": "Iran demands the U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
+      "text": "Iran demands U.S. pay for war damage before agreeing to reopen Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 1773
+      "latestSinceUpdate": 1774
     },
     {
       "date": "Aug 12",
-      "text": "Iran defies Trump, declaring the Strait of Hormuz blocked after the president claimed US has ‘total control’.",
+      "text": "Strait of Hormuz traffic remains low as world rapidly burns through oil stockpiles.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1774
+    },
+    {
+      "date": "Aug 12",
+      "text": "Iran claims the Strait of Hormuz is under its control.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1774
+    },
+    {
+      "date": "Aug 12",
+      "text": "Hezbollah's new battlefield strategy is reported to be challenging for Netanyahu and Trump.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1773
-    },
-    {
-      "date": "Aug 12",
-      "text": "Reports indicate America’s depleted weapons stockpiles are undermining Trump’s leverage with Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOb05kTE5aSnYzZFd3YWlta3UydkNrNGpybkdGWVV5MDFvTlpoUWotVlpHNE02cDJ6M2QzVHI4Q3FmajktV0thYjJ2SE5QQmNZX1MyZzdINmV3YXEzZ2FiOHZSOHNzR2ZzSmhMQ0ZUaW1iakNDWWpKM0dib0pGeUNHOWJ1RdIBiAFBVV95cUxNVmZjVUM4ZVVWRFJmY2o1UE9MTVdUUUxySlUyenBZWkhzTXZFMUs2cEplSG9NOHB3MTE0ZHU5TkZ0bmF1Q1hKRHlXdnlvYUdTT25IVUZPTUZSTTZlNTdiSlhzMFhLd2VIU3pSWjJiREphMGlOVFYtSnFoTmNPa2RHV3VRWXl5LWlm?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1772
-    },
-    {
-      "date": "Aug 12",
-      "text": "Four nations (UK, Italy, Switzerland, Indonesia) are shortlisted to oversee Hezbollah disarmament.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1TbjBCMnB4b1ZMbkJVZTBCY3ZiMVpVRjV1S0lyUDVqVGVnMzNua0toVTNDcHNITE5XajJ2bEFqc0lYbUp4RFhzWXgyM0hDbHpKdWlqZkVQS0F5dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Israel National News",
-      "latestSinceUpdate": 1773
+      "latestSinceUpdate": 1774
     }
   ],
   "sourceStatuses": [

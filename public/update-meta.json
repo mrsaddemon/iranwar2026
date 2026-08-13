@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1773,
+  "updateSequence": 1774,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T09:21:32.522Z",
+  "lastSyncedAt": "2026-08-13T10:32:09.514Z",
   "warDay": 167,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.2,
-    "durationDays": 10,
-    "summary": "Negotiations for a peace arrangement are underway, but no active ceasefire is in effect, with Iran setting conditions for de-escalation."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is reported by the US, though residents describe it as restrictive."
   }
 }
