@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1785,
+  "updateSequence": 1786,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T21:55:18.993Z",
+  "lastSyncedAt": "2026-08-13T22:54:02.971Z",
   "warDay": 167,
-  "summary": "The US-Iran conflict continues with an ongoing naval blockade in the Strait of Hormuz, attacks on shipping, and stalled peace talks, while Israel conducts strikes in Lebanon and Gaza amidst efforts to disarm Hezbollah.",
+  "summary": "The US-Iran war continues with a contested naval blockade of the Strait of Hormuz, leading to oil supply concerns, while regional tensions persist with Israeli strikes and calls for renewed military action.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active, with talks at an impasse and ongoing military engagements."
+    "summary": "No active ceasefire is in effect; mediators are pushing for talks amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 45,
     "escalationLevel": 90,
     "oilDisruption": 95,
     "tradeImpact": 85,
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "UAE reports Iran attacked two ADNOC vessels in the Strait of Hormuz, causing no injuries.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1785
-    },
-    {
-      "date": "Aug 12",
       "text": "US Navy opens fire on a ship attempting to break the Iran blockade.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1KcWVDVVZPTklUQUFDUzVyeU9idWR2LS1RU0xRbzhrRlljMGJzTUxGVXFDQnQ1bjBIMlFoVE1JeFJkajVlS05MUkFSV3pBa3JMbGRuNHREcHdkSDlXZDhacndheVJYRWR5cEpuRkE3RWJQUThQcjI0QTRhNFQ?hl=en-US&gl=US&ceid=US:en",
@@ -76,11 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 12",
-      "text": "Strait of Hormuz traffic remains low as global oil stockpiles are rapidly depleted.",
+      "text": "Strait of Hormuz traffic remains low, contributing to a rapid depletion of global oil stockpiles and deepening supply shortfalls.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1785
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1786
     },
     {
       "date": "Aug 12",
@@ -100,11 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 12",
-      "text": "Israel hits Lebanon and Gaza amidst ongoing conflict.",
+      "text": "Mediators are pushing for US-Iran talks amidst ongoing Israeli strikes in Lebanon and Gaza.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1786
+    },
+    {
+      "date": "Aug 12",
+      "text": "Iran demands war damage payments from the U.S. before agreeing to reopen the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1785
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1786
     }
   ],
   "sourceStatuses": [
