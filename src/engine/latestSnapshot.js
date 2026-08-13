@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1779,
+  "updateSequence": 1780,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T16:06:43.808Z",
+  "lastSyncedAt": "2026-08-13T17:07:59.903Z",
   "warDay": 167,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US and Iran continue to make competing claims over control of the Strait of Hormuz amidst low shipping traffic and new attacks, while a ceasefire in Lebanon is described as fragile.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 30,
+    "summary": "A ceasefire in Lebanon is reported by the US as working, but residents describe it as a 'prison,' and verification of Hezbollah disarmament remains unapproved by Lebanon."
   },
   "actorOverrides": {
     "usa": {
+      "metrics": {
+        "militaryPower": 80
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.8
+      }
+    },
+    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.75
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
-      },
-      "behavior": {
-        "precision": 0.65,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 13",
-      "text": "August 12, 2026 — Trump insists US controls Hormuz, Iran says it could ‘prolong’ war with US",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1779
+      "date": "Aug 12",
+      "text": "US and Iran make competing claims over control of the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1780
     },
     {
-      "date": "Aug 13",
-      "text": "Iran war updates: Mediators push US-Iran talks as Israel hits Lebanon, Gaza",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1779
-    },
-    {
-      "date": "Aug 13",
-      "text": "New attacks on shipping as Iran war talks hit fresh impasse",
-      "severity": "info",
+      "date": "Aug 12",
+      "text": "New attacks on shipping reported as Iran war talks reach an impasse.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1779
+      "latestSinceUpdate": 1780
     },
     {
-      "date": "Aug 13",
-      "text": "Iran live updates: US 'miscalculated' in war due to intel 'failures,' Araghchi says",
+      "date": "Aug 12",
+      "text": "Strait of Hormuz traffic remains low, contributing to rapid depletion of global oil stockpiles.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1780
+    },
+    {
+      "date": "Aug 12",
+      "text": "Iran states the US 'miscalculated' in the war due to intel 'failures'.",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 1779
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1780
     },
     {
-      "date": "Aug 13",
-      "text": "Iran War Timeline: The Latest on Where the Iran War Stands",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1779
-    },
-    {
-      "date": "Aug 13",
-      "text": "U.S. and Iran close to a \"peace arrangement or a deal,\" Pakistan says",
+      "date": "Aug 12",
+      "text": "Pakistan suggests the U.S. and Iran are close to a 'peace arrangement or a deal'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cbsnews.com",
-      "latestSinceUpdate": 1779
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1780
+    },
+    {
+      "date": "Aug 12",
+      "text": "Trump claims a ceasefire in Lebanon is working, but residents describe it as a 'prison'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOa0VFbEE1anZFX0hGcXJYUnFLZXZxVUdTQm1XMXBJTkg4aldqSlV0emJseWI2Q0JmT1Bxa2ZRZ1VnQ0dYR1VqYmMzTXliYTFOSHJwOUNWS0dYOHRQZzQ2VURGZC16TEtRem1YVVYwLTE2b0piMHZ5N0JMWlVuSnYzYjUxY1VpVndLRGFweUJVRDI3U3R6dXBaUnNFNVFmUEFoWlEydFJDdzQyMHNJZkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1780
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
