@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1780,
+  "updateSequence": 1781,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T17:07:59.903Z",
+  "lastSyncedAt": "2026-08-13T18:10:19.205Z",
   "warDay": 167,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 30,
-    "summary": "A ceasefire in Lebanon is reported by the US as working, but residents describe it as a 'prison,' and verification of Hezbollah disarmament remains unapproved by Lebanon."
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is reported by the US, but its effectiveness is questioned by residents, and verification terms remain unagreed."
   }
 }

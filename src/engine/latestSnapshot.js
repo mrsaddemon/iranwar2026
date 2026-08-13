@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1780,
+  "updateSequence": 1781,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T17:07:59.903Z",
+  "lastSyncedAt": "2026-08-13T18:10:19.205Z",
   "warDay": 167,
-  "summary": "The US and Iran continue to make competing claims over control of the Strait of Hormuz amidst low shipping traffic and new attacks, while a ceasefire in Lebanon is described as fragile.",
+  "summary": "The US-Iran war continues with new shipping attacks and stalled peace talks, while the Strait of Hormuz remains a point of contention and a fragile ceasefire holds in Lebanon.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 30,
-    "summary": "A ceasefire in Lebanon is reported by the US as working, but residents describe it as a 'prison,' and verification of Hezbollah disarmament remains unapproved by Lebanon."
+    "durationDays": 7,
+    "summary": "A ceasefire in Lebanon is reported by the US, but its effectiveness is questioned by residents, and verification terms remain unagreed."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "US and Iran make competing claims over control of the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1780
+      "text": "Trump insists US controls Hormuz, while Iran rejects claims and states it could 'prolong' the war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1781
     },
     {
       "date": "Aug 12",
-      "text": "New attacks on shipping reported as Iran war talks reach an impasse.",
+      "text": "New attacks on shipping are reported as US-Iran war talks hit a fresh impasse.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1780
+      "sourceName": "reuters.com",
+      "latestSinceUpdate": 1781
     },
     {
       "date": "Aug 12",
-      "text": "Strait of Hormuz traffic remains low, contributing to rapid depletion of global oil stockpiles.",
+      "text": "Iran's Araghchi states the US 'miscalculated' in the war due to intelligence 'failures'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1780
-    },
-    {
-      "date": "Aug 12",
-      "text": "Iran states the US 'miscalculated' in the war due to intel 'failures'.",
-      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1780
+      "latestSinceUpdate": 1781
     },
     {
       "date": "Aug 12",
       "text": "Pakistan suggests the U.S. and Iran are close to a 'peace arrangement or a deal'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
+      "sourceName": "cbsnews.com",
       "latestSinceUpdate": 1780
     },
     {
       "date": "Aug 12",
-      "text": "Trump claims a ceasefire in Lebanon is working, but residents describe it as a 'prison'.",
+      "text": "Iran demands the U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOa0VFbEE1anZFX0hGcXJYUnFLZXZxVUdTQm1XMXBJTkg4aldqSlV0emJseWI2Q0JmT1Bxa2ZRZ1VnQ0dYR1VqYmMzTXliYTFOSHJwOUNWS0dYOHRQZzQ2VURGZC16TEtRem1YVVYwLTE2b0piMHZ5N0JMWlVuSnYzYjUxY1VpVndLRGFweUJVRDI3U3R6dXBaUnNFNVFmUEFoWlEydFJDdzQyMHNJZkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1780
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1781
+    },
+    {
+      "date": "Aug 12",
+      "text": "Strait of Hormuz traffic remains low as the world rapidly burns through oil stockpiles.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1781
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
