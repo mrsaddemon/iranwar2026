@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1772,
+  "updateSequence": 1773,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T08:07:17.087Z",
+  "lastSyncedAt": "2026-08-13T09:21:32.522Z",
   "warDay": 167,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.2,
     "durationDays": 10,
-    "summary": "Despite reports of potential peace talks, ongoing military actions and demands for war damages indicate no active ceasefire."
+    "summary": "Negotiations for a peace arrangement are underway, but no active ceasefire is in effect, with Iran setting conditions for de-escalation."
   }
 }
