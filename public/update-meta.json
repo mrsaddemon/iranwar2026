@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1784,
+  "updateSequence": 1785,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T20:57:13.232Z",
+  "lastSyncedAt": "2026-08-13T21:55:18.993Z",
   "warDay": 167,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "A ceasefire is active in Lebanon, but its stability is questioned by residents and tied to the complex issue of Hezbollah disarmament."
+    "summary": "No ceasefire is active, with talks at an impasse and ongoing military engagements."
   }
 }
