@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1783,
+  "updateSequence": 1784,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T20:06:13.424Z",
+  "lastSyncedAt": "2026-08-13T20:57:13.232Z",
   "warDay": 167,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 20,
-    "summary": "A ceasefire is reported to be active in Lebanon, though residents describe restrictive conditions and Israel links withdrawal to Hezbollah disarmament."
+    "durationDays": 7,
+    "summary": "A ceasefire is active in Lebanon, but its stability is questioned by residents and tied to the complex issue of Hezbollah disarmament."
   }
 }
