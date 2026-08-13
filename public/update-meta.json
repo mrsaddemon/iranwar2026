@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1770,
+  "updateSequence": 1771,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T05:10:32.857Z",
+  "lastSyncedAt": "2026-08-13T06:49:15.391Z",
   "warDay": 167,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported, though diplomatic efforts are underway for a peace arrangement."
+    "summary": "Despite reports of mediators pushing for talks and a potential 'peace arrangement,' active conflict and blockades indicate no current ceasefire."
   }
 }
