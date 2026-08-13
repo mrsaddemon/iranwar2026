@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1768,
+  "updateSequence": 1769,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T00:45:57.309Z",
+  "lastSyncedAt": "2026-08-13T03:17:15.569Z",
   "warDay": 167,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire in Lebanon is reported by the Trump administration as working, though residents describe it as a 'prison' and its future remains uncertain ahead of UNIFIL phase-out."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

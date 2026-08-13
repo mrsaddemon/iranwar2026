@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1768,
+  "updateSequence": 1769,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T00:45:57.309Z",
+  "lastSyncedAt": "2026-08-13T03:17:15.569Z",
   "warDay": 167,
-  "summary": "Mediators are pushing for US-Iran talks amidst ongoing US-Israel strikes on Iran, Lebanon, and Gaza, while concerns persist over the Strait of Hormuz and the effectiveness of a ceasefire in Lebanon.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire in Lebanon is reported by the Trump administration as working, though residents describe it as a 'prison' and its future remains uncertain ahead of UNIFIL phase-out."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 11",
-      "text": "Mediators push US-Iran talks as Israel hits Lebanon, Gaza.",
-      "severity": "warning",
+      "date": "Aug 13",
+      "text": "Iran war updates: Mediators push US-Iran talks as Israel hits Lebanon, Gaza",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1768
+      "latestSinceUpdate": 1769
     },
     {
-      "date": "Aug 11",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, US Embassy attacked in Riyadh.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 1768
-    },
-    {
-      "date": "Aug 11",
-      "text": "Strait of Hormuz ship traffic near three-month low as U.S.-Iran deal in doubt.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNal9FNm8tZ1pwTGNYaHBXNVhqTW93S01idERNbkJXMGJMbW8wNzluUVN6eklTMHhJTzRDQ0FhTjlRWnFKMTAwQXZ6ZDVKUl90em9UTElITmNVT2dMYWdhT3dHVlgxUTJPLXZsTWhRRUJuY0hiZlRZR1FabjA3UEFaUjNBONIBiAFBVV95cUxNS2VLR2lZc3JfSzlkYm5iZElqaENSOXFBMzdfRWpSdEgyRUo4UXhUVlFvUUhMTjVySkVMaFNaZlNFYzVyelFXQ082cjk4SWVZemotTjhaSlI2WlJMVktTMFVaMWtZUHNfU1Zmdm9pU2xlbnlfbzMyaVZoOURDUUFTMTFlQi1aOHFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1768
-    },
-    {
-      "date": "Aug 11",
-      "text": "Iran demands U.S. pay for war damage before agreeing to reopen Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1767
-    },
-    {
-      "date": "Aug 11",
-      "text": "Iran’s supreme leader elevates military veterans willing to confront the US.",
+      "date": "Aug 13",
+      "text": "How Iran Adapted Its Attacks as U.S. War Munitions Dwindled",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOdVRLN2JYMlhJeElsM0xBajVoNmZNNG9kOXJBTDBtYTJ0Y2NvQmZlTnc0am9sRXRjUnhTcnpvd0dxenFXSDdIUS1lTXlMOFVMMHNRMk9mRV9hWi1HUFB5WUVuZEFqYkJWcTdlZl9sUnY5Q3dPS0xUekFZVGVnWGNVVTBpNUo?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1768
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOcVR5dzVTbDlmVVppNnM0cmtOZS0xX2tjSFdSaU9tdG56VFJuaC12c1ZvWDlkeEl0RHZFbHFMU29lRXZQZTBSNGxwR01zeGswYnZmLVZ5T0dZT2owQXJreTItMllodDN4SFhWTjRYMGpJUUh5d295QmdpTGltVFZhT2V3dWxTamdWRWxEQnA4aUFVbHNLa1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1769
     },
     {
-      "date": "Aug 11",
-      "text": "Trump says ceasefire in Lebanon is working, but residents describe it as a ‘prison.’",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOa0VFbEE1anZFX0hGcXJYUnFLZXZxVUdTQm1XMXBJTkg4aldqSlV0emJseWI2Q0JmT1Bxa2ZRZ1VnQ0dYR1VqYmMzTXliYTFOSHJwOUNWS0dYOHRQZzQ2VURGZC16TEtRem1YVVYwLTE2b0piMHZ5N0JMWlVuSnYzYjUxY1VpVndLRGFweUJVRDI3U3R6dXBaUnNFNVFmUEFoWlEydFJDdzQyMHNJZkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1768
+      "date": "Aug 13",
+      "text": "August 11, 2026 – Middle East conflict latest",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFB5NlJiWjFfa1I3NW42VjV6RXFrN1NsajFjWElDYkJZdVllUmFGbG0zdWhHWS1OdnE0aTBJdXh0MnphYVZNRElTUUhGM3pZNDFkdlJkZUx0eHcwS2JBOWFKME5VMUZiZVRybDcxaUN1cWNHYmM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1769
+    },
+    {
+      "date": "Aug 13",
+      "text": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 1769
+    },
+    {
+      "date": "Aug 13",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1769
+    },
+    {
+      "date": "Aug 13",
+      "text": "U.S. and Iran close to a \"peace arrangement or a deal,\" Pakistan says",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1769
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
