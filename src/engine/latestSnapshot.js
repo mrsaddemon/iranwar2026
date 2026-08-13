@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1771,
+  "updateSequence": 1772,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T06:49:15.391Z",
+  "lastSyncedAt": "2026-08-13T08:07:17.087Z",
   "warDay": 167,
-  "summary": "The US-Iran war continues with diplomatic efforts for a peace deal amidst escalating tensions over the Strait of Hormuz, where Iran has declared a blockade and the US Navy has engaged a vessel, while Israel conducts strikes in Lebanon and Gaza.",
+  "summary": "The US and Iran continue to dispute control over the Strait of Hormuz, with Iran declaring it blocked and the US Navy engaging a ship, while diplomatic efforts for a peace deal are also reported.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 10,
-    "summary": "Despite reports of mediators pushing for talks and a potential 'peace arrangement,' active conflict and blockades indicate no current ceasefire."
+    "summary": "Despite reports of potential peace talks, ongoing military actions and demands for war damages indicate no active ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 73
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.95
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "escalationLevel": 88,
+    "oilDisruption": 92,
+    "tradeImpact": 82,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls Hormuz, Iran says it could ‘prolong’ war with US.",
-      "severity": "info",
+      "text": "Trump insists US controls Hormuz, while Iran claims control and says it could 'prolong' the war.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1771
+      "latestSinceUpdate": 1772
     },
     {
       "date": "Aug 12",
-      "text": "Iran defies Trump, declares Strait of Hormuz blocked after president claims US has ‘total control’.",
+      "text": "Iran defies Trump and declares the Strait of Hormuz blocked, leading to low traffic and rapid depletion of global oil stockpiles.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOS0hxWklOR3ZOZkpsc093Q2liY245bHc1S3NwTUxoYnhqVk91YkRyX0RfLU1UUHJkX3VIdXdydTNpTFQtTk9STDNIaG9KMlhCN3VrX29tdEN5YUZzX3VVV1VSVEl0RDdmdFg5dzBoNlpER2V1dVFBLVZUTl9TSkpjcUU2U0JUaGQxdW8xQnEyOU40OEJ0R2JWb3dKLVlBMWo4YTg2aUg5aWpDZ9IBrwFBVV95cUxPeW5tZHNISnk5NnY3T1hoZXVweFNNMkh3c2Q3TXdtbTlON004cXFrYnVwQVJfMHl5cHdKdXhqcXFKeU5DaURCYmJmUWV1SkhCV0Jyd0V0UWUzMjRTWEJ3OVhWM1lzNVdGQThzQWhoTnlZMDJSR2ZnOTlUMTUzbTltaGp0bWRVUFctSW81QWQ2WW1zT2owTGNSWlY4c2tlX0JDTFY0R2QtNjFFVHhESUZz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1771
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1772
     },
     {
       "date": "Aug 12",
-      "text": "US Navy opens fire on ship trying to break Iran blockade as Tehran deepens Pakistan ties.",
+      "text": "The US Navy opens fire on a ship attempting to break Iran's blockade, as Tehran deepens ties with Pakistan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE1KcWVDVVZPTklUQUFDUzVyeU9idWR2LS1RU0xRbzhrRlljMGJzTUxGVXFDQnQ1bjBIMlFoVE1JeFJkajVlS05MUkFSV3pBa3JMbGRuNHREcHdkSDlXZDhacndheVJYRWR5cEpuRkE3RWJQUThQcjI0QTRhNFQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 1771
+      "latestSinceUpdate": 1772
     },
     {
       "date": "Aug 12",
-      "text": "Mediators push US-Iran talks as Israel hits Lebanon, Gaza.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1771
-    },
-    {
-      "date": "Aug 12",
-      "text": "Report: Four nations shortlisted to oversee Hezbollah disarmament.",
+      "text": "Pakistan reports that the U.S. and Iran are close to a 'peace arrangement or a deal,' though Iran demands war damages first.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1TbjBCMnB4b1ZMbkJVZTBCY3ZiMVpVRjV1S0lyUDVqVGVnMzNua0toVTNDcHNITE5XajJ2bEFqc0lYbUp4RFhzWXgyM0hDbHpKdWlqZkVQS0F5dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Israel National News",
-      "latestSinceUpdate": 1771
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1772
     },
     {
       "date": "Aug 12",
-      "text": "America’s depleted weapons stockpiles undermine Trump’s leverage with Iran.",
+      "text": "Reports indicate America’s depleted weapons stockpiles are undermining Trump’s leverage with Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOb05kTE5aSnYzZFd3YWlta3UydkNrNGpybkdGWVV5MDFvTlpoUWotVlpHNE02cDJ6M2QzVHI4Q3FmajktV0thYjJ2SE5QQmNZX1MyZzdINmV3YXEzZ2FiOHZSOHNzR2ZzSmhMQ0ZUaW1iakNDWWpKM0dib0pGeUNHOWJ1RdIBiAFBVV95cUxNVmZjVUM4ZVVWRFJmY2o1UE9MTVdUUUxySlUyenBZWkhzTXZFMUs2cEplSG9NOHB3MTE0ZHU5TkZ0bmF1Q1hKRHlXdnlvYUdTT25IVUZPTUZSTTZlNTdiSlhzMFhLd2VIU3pSWjJiREphMGlOVFYtSnFoTmNPa2RHV3VRWXl5LWlm?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1771
+      "sourceName": "thehill.com",
+      "latestSinceUpdate": 1772
+    },
+    {
+      "date": "Aug 12",
+      "text": "Hezbollah's new battlefield strategy is seen as bad news for Netanyahu and Trump, with four nations shortlisted to oversee Hezbollah disarmament.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1TbjBCMnB4b1ZMbkJVZTBCY3ZiMVpVRjV1S0lyUDVqVGVnMzNua0toVTNDcHNITE5XajJ2bEFqc0lYbUp4RFhzWXgyM0hDbHpKdWlqZkVQS0F5dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Israel National News",
+      "latestSinceUpdate": 1772
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
