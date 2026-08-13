@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1774,
+  "updateSequence": 1775,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T10:32:09.514Z",
+  "lastSyncedAt": "2026-08-13T11:23:39.381Z",
   "warDay": 167,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire in Lebanon is reported by the US, though residents describe it as restrictive."
+    "summary": "No general ceasefire is active in the US-Iran conflict, though a local ceasefire in Lebanon is reported by Trump but described as a 'prison' by residents, with Israel continuing strikes."
   }
 }
