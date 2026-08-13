@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1767,
-  "lastUpdated": "2026-08-12",
-  "lastSyncedAt": "2026-08-12T23:51:45.505Z",
-  "warDay": 166,
+  "updateSequence": 1768,
+  "lastUpdated": "2026-08-13",
+  "lastSyncedAt": "2026-08-13T00:45:57.309Z",
+  "warDay": 167,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
-    "durationDays": 7,
-    "summary": "A ceasefire in Lebanon is reported by the US to be active, though residents describe conditions as restrictive, and the future of peacekeeping remains uncertain."
+    "confidence": 0.69,
+    "durationDays": 10,
+    "summary": "A ceasefire in Lebanon is reported by the Trump administration as working, though residents describe it as a 'prison' and its future remains uncertain ahead of UNIFIL phase-out."
   }
 }
