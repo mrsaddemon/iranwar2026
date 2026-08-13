@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1776,
+  "updateSequence": 1777,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T12:26:55.621Z",
+  "lastSyncedAt": "2026-08-13T14:01:25.449Z",
   "warDay": 167,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The ongoing war sees escalating tensions between the US and Iran over control of the Strait of Hormuz, with Iran declaring it blocked while mediators push for peace talks amidst regional strikes and dwindling global oil stockpiles.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "A ceasefire is reported to be active in Lebanon, though its restrictive nature leads residents to describe it as a 'prison'."
+    "summary": "Despite ongoing talks for a peace arrangement, active military confrontations and blockades indicate no ceasefire is currently in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
-    "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
-    "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls Hormuz, Iran says it could ‘prolong’ war with US",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1776
-    },
-    {
-      "date": "Aug 12",
-      "text": "The Iran War Is a Whole New Level of Quagmire for the US",
+      "text": "Trump insists US controls Hormuz; Iran disputes and threatens to prolong war with the US.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1776
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1777
     },
     {
       "date": "Aug 12",
-      "text": "Iran war updates: Mediators push US-Iran talks as Israel hits Lebanon, Gaza",
+      "text": "Mediators push US-Iran talks as Israel hits Lebanon and Gaza.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1776
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1777
     },
     {
       "date": "Aug 12",
-      "text": "U.S. and Iran close to a 'peace arrangement or a deal,' Pakistan says",
+      "text": "Trump pivots back to sanctions for Iran as other strategies to end his war fizzle.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE5KcjJmak9tOGJ1UE5KSmZBMnozakgyUXV1eV9lZmJlYmE3WVA1Nll6c2lyYkRsWHgtZTQtYzkwS2tCUDVDczRwbU9zOERhT1hIQzF4YXU3bVVxNVgyTnpHRllaTXM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "npr.org",
+      "latestSinceUpdate": 1777
+    },
+    {
+      "date": "Aug 12",
+      "text": "Pakistan states the U.S. and Iran are close to a 'peace arrangement or a deal.'",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1776
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1777
     },
     {
       "date": "Aug 12",
-      "text": "Iran demands U.S. pay for war damage before agreeing to reopen Strait of Hormuz",
-      "severity": "critical",
+      "text": "Iran demands U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1776
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1777
     },
     {
       "date": "Aug 12",
-      "text": "Live updates: Strait of Hormuz traffic remains low as world rapidly burns through oil stockpiles",
+      "text": "Iran defies Trump and declares the Strait of Hormuz blocked after the president claims US has 'total control.'",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 1776
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1777
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

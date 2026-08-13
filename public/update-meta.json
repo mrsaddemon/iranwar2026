@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1776,
+  "updateSequence": 1777,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T12:26:55.621Z",
+  "lastSyncedAt": "2026-08-13T14:01:25.449Z",
   "warDay": 167,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "A ceasefire is reported to be active in Lebanon, though its restrictive nature leads residents to describe it as a 'prison'."
+    "summary": "Despite ongoing talks for a peace arrangement, active military confrontations and blockades indicate no ceasefire is currently in effect."
   }
 }
