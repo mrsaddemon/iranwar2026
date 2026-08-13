@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1782,
+  "updateSequence": 1783,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T19:28:11.555Z",
+  "lastSyncedAt": "2026-08-13T20:06:13.424Z",
   "warDay": 167,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The ongoing Iran-US conflict is marked by a dispute over control of the Strait of Hormuz, where traffic has significantly decreased, while the US military reports drone losses and a fragile ceasefire holds in Lebanon.",
   "lastNarrativeUpdate": "2026-08-13",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 15,
-    "summary": "A ceasefire is reportedly active in Lebanon, though residents describe it as a 'prison' and disarmament verification remains unapproved."
+    "durationDays": 20,
+    "summary": "A ceasefire is reported to be active in Lebanon, though residents describe restrictive conditions and Israel links withdrawal to Hezbollah disarmament."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.78
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.8
+        "precision": 0.68,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 65,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls Hormuz, while Iran disputes this claim and declares the strait blocked.",
+      "text": "Trump insists US controls Hormuz, while Iran states it could 'prolong' the war with the US and rejects claims of vessels transiting the strait.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1782
-    },
-    {
-      "date": "Aug 12",
-      "text": "Strait of Hormuz traffic sinks to near 3-month lows as the world rapidly burns through oil stockpiles.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1782
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1783
     },
     {
       "date": "Aug 12",
       "text": "Iran demands the U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
+      "sourceName": "Google News",
       "latestSinceUpdate": 1781
     },
     {
       "date": "Aug 12",
-      "text": "The U.S. military has lost roughly 25% of its Reaper drones as the Iran war depletes its arsenal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1782
+      "text": "Traffic through the Strait of Hormuz has sunk to near 3-month lows, with Iran disputing Trump's claims of control.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1783
     },
     {
       "date": "Aug 12",
       "text": "Gulf Oil Giants are spending billions to build alternative routes around the Strait of Hormuz.",
-      "severity": "info",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
+      "sourceName": "Google News",
       "latestSinceUpdate": 1782
     },
     {
       "date": "Aug 12",
-      "text": "Pakistan states that the U.S. and Iran are close to a 'peace arrangement or a deal.'",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQdFJmRllSZWd4dDRyLWZ3ZWU2NWVqRk9BekR5c0xkZG14Q3BKQmt1SnF4Q2VOX19IaWU1dUFTYXU4WTdENnBPWEk2cG1QU05WZHNnWWFPUWs4VFZadURZeTVnZG9kcEpTQ0lWVklCcUdfcUFoY0tFTjBrYXkwNUJXYTV3T1QwYlF0cGNUWkNXWnBnVmY5TXpOc1ZOMV9Udw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1782
+      "text": "The U.S. military has lost roughly 25% of its Reaper drones, indicating depletion of its arsenal in the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1783
+    },
+    {
+      "date": "Aug 12",
+      "text": "Iran’s supreme leader elevates military veterans willing to confront the US.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxOdVRLN2JYMlhJeElsM0xBajVoNmZNNG9kOXJBTDBtYTJ0Y2NvQmZlTnc0am9sRXRjUnhTcnpvd0dxenFXSDdIUS1lTXlMOFVMMHNRMk9mRV9hWi1HUFB5WUVuZEFqYkJWcTdlZl9sUnY5Q3dPS0xUekFZVGVnWGNVVTBpNUo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 1783
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",

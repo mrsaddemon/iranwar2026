@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1782,
+  "updateSequence": 1783,
   "lastUpdated": "2026-08-13",
-  "lastSyncedAt": "2026-08-13T19:28:11.555Z",
+  "lastSyncedAt": "2026-08-13T20:06:13.424Z",
   "warDay": 167,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 15,
-    "summary": "A ceasefire is reportedly active in Lebanon, though residents describe it as a 'prison' and disarmament verification remains unapproved."
+    "durationDays": 20,
+    "summary": "A ceasefire is reported to be active in Lebanon, though residents describe restrictive conditions and Israel links withdrawal to Hezbollah disarmament."
   }
 }
