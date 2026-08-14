@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1797,
+  "updateSequence": 1798,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T13:24:13.838Z",
+  "lastSyncedAt": "2026-08-14T14:32:37.836Z",
   "warDay": 168,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "A fragile ceasefire is reported in Lebanon, though its effectiveness is disputed by residents and violated by Israeli strikes, while the broader US-Iran conflict continues."
+    "summary": "No active ceasefire is reported between the primary belligerents, with ongoing military actions and calls for resumed strikes."
   }
 }
