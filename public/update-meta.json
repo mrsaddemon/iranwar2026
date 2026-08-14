@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1789,
+  "updateSequence": 1790,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T03:14:43.095Z",
+  "lastSyncedAt": "2026-08-14T05:07:38.035Z",
   "warDay": 168,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire in Lebanon is claimed by Trump, but its effectiveness is disputed by residents and Israel's conditions for withdrawal suggest ongoing instability."
+    "summary": "A ceasefire in Lebanon is reported by the US as active, but residents describe it as a 'prison', indicating limited scope or effectiveness."
   }
 }
