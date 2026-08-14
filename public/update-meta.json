@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1790,
+  "updateSequence": 1791,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T05:07:38.035Z",
+  "lastSyncedAt": "2026-08-14T06:45:38.510Z",
   "warDay": 168,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.1,
     "durationDays": 7,
-    "summary": "A ceasefire in Lebanon is reported by the US as active, but residents describe it as a 'prison', indicating limited scope or effectiveness."
+    "summary": "Mediators are attempting to facilitate US-Iran talks, but no active ceasefire or de-escalation is reported."
   }
 }
