@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1795,
+  "updateSequence": 1796,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T11:21:31.052Z",
+  "lastSyncedAt": "2026-08-14T12:01:30.411Z",
   "warDay": 168,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A ceasefire in Lebanon is reported by the US as active, but residents describe it as a 'prison' and Israeli strikes are called violations."
+    "summary": "A ceasefire is reportedly active in Lebanon, though its effectiveness is questioned by residents amidst ongoing Israeli strikes."
   }
 }
