@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1802,
+  "updateSequence": 1803,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T18:27:36.846Z",
+  "lastSyncedAt": "2026-08-14T19:31:13.499Z",
   "warDay": 168,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.14,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported."
+    "summary": "No active ceasefire is reported for the main US-Iran conflict, though mediators are pushing for talks."
   }
 }
