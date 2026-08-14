@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1799,
+  "updateSequence": 1800,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T15:23:30.678Z",
+  "lastSyncedAt": "2026-08-14T16:26:18.090Z",
   "warDay": 168,
-  "summary": "Tensions remain high between the US and Iran over the Strait of Hormuz, with reports of US military drone losses and Iran rebuilding its missile arsenal, while Israel continues strikes in Lebanon and Gaza.",
+  "summary": "Ongoing US-Iran tensions persist with disputes over the Strait of Hormuz, reports of Iranian military rebuilding, and US drone losses, while Israel conducts strikes in Lebanon and Gaza.",
   "lastNarrativeUpdate": "2026-08-14",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing conflict and calls for renewed strikes."
+    "summary": "No active ceasefire is in effect, though mediators are reportedly pushing for US-Iran talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.78,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -36,16 +36,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 25,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "oilDisruption": 88,
+    "tradeImpact": 79,
     "sanctionsPressure": 64,
     "globalPressure": 84,
     "allianceInfluence": 51
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Mediators push US-Iran talks as Israel hits Lebanon, Gaza.",
+      "text": "Mediators are reportedly pushing for US-Iran talks amidst ongoing conflict.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1799
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1800
     },
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls Hormuz; Iran says it could ‘prolong’ war with US.",
+      "text": "Israel conducted strikes in Lebanon and Gaza.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1799
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1800
     },
     {
-      "date": "Aug 12",
-      "text": "Iran rapidly rebuilding ballistic missile arsenal after war, stunning Israel.",
+      "date": "Aug 14",
+      "text": "Iran is rapidly rebuilding its ballistic missile arsenal after the war, reportedly stunning Israel.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XRVpSUlR3a1dveFM2VE91bEZ1YnVfeHdUY2p6S2RtSS1fbjk4Tlk4WFNkR25CZnhHTGVLUEZGd1RCNlhSc3h6aVJUempVeXhzY19nLUVwc1F4R1BnTmZ4VF9rUWVzWmdSSUY4WHln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1799
+      "sourceName": "jpost.com",
+      "latestSinceUpdate": 1800
     },
     {
-      "date": "Aug 12",
-      "text": "US CENTCOM chief pushing for renewed strikes on Iran, claims Israeli media.",
+      "date": "Aug 14",
+      "text": "US CENTCOM chief is reportedly pushing for renewed strikes on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1799
+      "latestSinceUpdate": 1800
     },
     {
-      "date": "Aug 12",
-      "text": "Two UAE tankers attacked while transiting Strait of Hormuz.",
+      "date": "Aug 14",
+      "text": "Iran targeted two UAE tankers in the Strait of Hormuz in what the UAE described as 'unprovoked attacks'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOU19BM2l2RGhNUW5aWGxpdXJRU1QwVWtzekJ1ckw2bUdzWlhBSWcxX3U3T1JVblRkYW92MEhkaS1rakhweUN6MnlYc0xVbzVQcUtwdXRBbGFPUzV5T2Q5a3lmbVNqdE0zZFgyT0J3OGt6bzlwT1dWb2dtdVBieEtuOVFQXzdlNFdzUm8tU3FrV1JQS1hEUGpscjl3Q1BRczR4RlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1799
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBWbGN2eXRreVRtbzJ4SnZxOGZzNXkzNy1fMkNuUHFlSkx1RHJpMjFYUEJUVlFpUVRyV2V5Q013cUtaaGg4Y1VrYjZMd181dzF2LXNOX3pnZFNDajNETmJfaWh2cXZpMjdnODNzcExKWGVUSzBRUkI4YUVTOHJIZHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1800
     },
     {
-      "date": "Aug 13",
-      "text": "Strait of Hormuz traffic remains low as world burns through oil stockpiles.",
+      "date": "Aug 14",
+      "text": "The U.S. military has lost approximately 25% of its Reaper drone fleet amid the Iran war.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1799
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQSWRPN1NSNmVKaWxFXzN3cEtoR3ZVRVVWQzNkSzJoUDhHTWtMd29QbkdDV0VXRkx0ZHdUWjdhOHlWRGIzSmdIa3JGclRXa3hSUUpteXNkUHBZWFhSLXQzZ3d0cUN5VDNKSkIycDRPTWxNcU1DZlA2WEx3LTZCMUVEV0YtaXF1cW10aGJrQXY5YVRjRGZ4dVh5VWlqZFZheW9qQVh2eGplN0xJNnQtYTJ0R3Z5ZkVnOXZibUI4ZDhOVnJtdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1800
     }
   ],
   "sourceStatuses": [
