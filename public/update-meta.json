@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1791,
+  "updateSequence": 1792,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T06:45:38.510Z",
+  "lastSyncedAt": "2026-08-14T08:02:52.766Z",
   "warDay": 168,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Mediators are attempting to facilitate US-Iran talks, but no active ceasefire or de-escalation is reported."
+    "summary": "A ceasefire in Lebanon is claimed by the US, but reports of Israeli strikes and resident descriptions of a 'prison' indicate extreme fragility."
   }
 }
