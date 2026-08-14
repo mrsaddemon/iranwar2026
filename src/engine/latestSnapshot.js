@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1801,
+  "updateSequence": 1802,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T17:31:49.415Z",
+  "lastSyncedAt": "2026-08-14T18:27:36.846Z",
   "warDay": 168,
-  "summary": "Tensions remain high in the Middle East with ongoing US-Iran conflict, accusations of tanker attacks in the Strait of Hormuz, and significant US drone losses, while mediators push for talks.",
+  "summary": "The US is implementing an indefinite naval blockade against Iran in the Strait of Hormuz, while Iran asserts control over the strait and claims the US military is weakening, amidst reports of US drone losses and tanker attacks.",
   "lastNarrativeUpdate": "2026-08-14",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "Mediators are pushing for US-Iran talks, but no formal ceasefire or de-escalation is reported."
+    "summary": "No active ceasefire or de-escalation efforts are reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 10,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls the Strait of Hormuz, while Iran claims control and warns it could prolong the war.",
+      "text": "US eyes ‘indefinite’ naval blockade, vows to isolate Tehran.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1802
+    },
+    {
+      "date": "Aug 12",
+      "text": "Trump insists US controls Hormuz, Iran says it could ‘prolong’ war with US.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1801
+      "latestSinceUpdate": 1802
     },
     {
       "date": "Aug 12",
-      "text": "UAE accuses Iran of unprovoked attacks on two ADNOC vessels in the Strait of Hormuz.",
+      "text": "US CENTCOM chief pushing for renewed strikes on Iran, claims Israeli media.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQem5NN3dXREFuR3F1YmR6UGZ3Y05uZGxfVFdOMmxDdE1DekEzVUUwTjUwUFI5YWhHTm9tMmN2a1ZXZ2gwSzcteG85MlNna1BvLVhQNUdaa1M2VUtrYVdFRXJlS09vdEctOFB1LUpwZHQzOEc2ZkY2V0E0Wm5fY2J0Uk5Oa3p0ekh2Sy14cXJsVGhvaE5IejlSbElZd2M5aWZyT0t2Rlo3bVhGaWNCOVHSAbMBQVVfeXFMT05jRkpzcEVyYUJUTXVfNDQyUTVGNXlMX3kyVFc3UDZPWExiRTMtQzJ2Y3BETG9rWE4tRTBmTk90emJMbjY3Y0REUTlSTUVjb1czYlo1amVjUlpNNTI5aGhtQkdfUXB4enVqdVBpU0lSalJUV1BabXp6alVDUnd5UTBrM2tFTnNRSVBHODlla1ZXOTA1dGctUjQwck5vc05VZHlYcVBhdFlDWEN4el9VSi1yX0U?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1801
-    },
-    {
-      "date": "Aug 12",
-      "text": "US CENTCOM chief is reportedly pushing for renewed strikes on Iran.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1801
+      "latestSinceUpdate": 1802
     },
     {
-      "date": "Aug 13",
-      "text": "Strait of Hormuz traffic remains low as global oil stockpiles are depleted.",
+      "date": "Aug 12",
+      "text": "Tehran says Strait of Hormuz 'under Iran's control' after Trump threatens U.S. might 'keep it'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1802
+    },
+    {
+      "date": "Aug 12",
+      "text": "UAE accuses Iran of attacks in Strait of Hormuz as Vance says cheap oil and gas are 'goal number one'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1pbW5CSDVsU0lSOTVwRzBkaENsM2VZYVdSTVJVaWxKbVpRbHBPaWJZMktfcVBGVzB1bGdKT0ZtSVBzblpBV0xkS2dSdlBJYVlSR1hRWVhPb2Z0UWtoaDhaMGhpTTJyYllaaFZ1ejBR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1801
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1802
     },
     {
-      "date": "Aug 13",
-      "text": "The U.S. military has lost approximately 25% of its Reaper drone fleet amid the Iran war.",
+      "date": "Aug 12",
+      "text": "Two UAE tankers attacked while transiting Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQSWRPN1NSNmVKaWxFXzN3cEtoR3ZVRVVWQzNkSzJoUDhHTWtMd29QbkdDV0VXRkx0ZHdUWjdhOHlWRGIzSmdIa3JGclRXa3hSUUpteXNkUHBZWFhSLXQzZ3d0cUN5VDNKSkIycDRPTWxNcU1DZlA2WEx3LTZCMUVEV0YtaXF1cW10aGJrQXY5YVRjRGZ4dVh5VWlqZFZheW9qQVh2eGplN0xJNnQtYTJ0R3Z5ZkVnOXZibUI4ZDhOVnJtdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1801
-    },
-    {
-      "date": "Aug 13",
-      "text": "An adviser to Iran's IRGC states the U.S. military is 'weaker than what we perceived'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1QY3hPaXJFa2gwaFRWdXUtNXV2TFE0djl0QnpWY2hiUy1UVlVRX182YjNTRWpqYndtV196cHRMQXQtZWQ1aFdoVDFTbF8yRm40X0lwUGJWV3dtTkFPVTNjWXF2ODdSOEliUkVfdVg3alk2QjNHMGJranZR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBC",
-      "latestSinceUpdate": 1801
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOU19BM2l2RGhNUW5aWGxpdXJRU1QwVWtzekJ1ckw2bUdzWlhBSWcxX3U3T1JVblRkYW92MEhkaS1rakhweUN6MnlYc0xVbzVQcUtwdXRBbGFPUzV5T2Q5a3lmbVNqdE0zZFgyT0J3OGt6bzlwT1dWb2dtdVBieEtuOVFQXzdlNFdzUm8tU3FrV1JQS1hEUGpscjl3Q1BRczR4RlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "apnews.com",
+      "latestSinceUpdate": 1802
     }
   ],
   "sourceStatuses": [
