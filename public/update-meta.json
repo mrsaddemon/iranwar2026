@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1788,
+  "updateSequence": 1789,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T00:45:20.859Z",
+  "lastSyncedAt": "2026-08-14T03:14:43.095Z",
   "warDay": 168,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire in Lebanon is claimed by Trump, but its effectiveness is disputed by residents and Israel's conditions for withdrawal suggest ongoing instability."
   }
 }
