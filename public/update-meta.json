@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1805,
+  "updateSequence": 1806,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T20:39:10.845Z",
+  "lastSyncedAt": "2026-08-14T21:08:28.014Z",
   "warDay": 168,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported; mediators are pushing for talks amidst ongoing hostilities."
+    "summary": "No active ceasefire is reported between major belligerents, with ongoing military actions and calls for renewed strikes."
   }
 }
