@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1800,
+  "updateSequence": 1801,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T16:26:18.090Z",
+  "lastSyncedAt": "2026-08-14T17:31:49.415Z",
   "warDay": 168,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, though mediators are reportedly pushing for US-Iran talks."
+    "summary": "Mediators are pushing for US-Iran talks, but no formal ceasefire or de-escalation is reported."
   }
 }
