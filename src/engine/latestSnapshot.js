@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1793,
+  "updateSequence": 1794,
   "lastUpdated": "2026-08-14",
-  "lastSyncedAt": "2026-08-14T09:14:24.134Z",
+  "lastSyncedAt": "2026-08-14T10:25:54.114Z",
   "warDay": 168,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-14",
@@ -10,39 +10,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 15,
-    "summary": "A ceasefire is reportedly active in Lebanon, though its effectiveness is disputed by residents and challenged by ongoing Israeli strikes."
+    "summary": "A ceasefire in Lebanon is claimed by Trump to be working, but residents describe it as a 'prison' and Israeli strikes continue, indicating a highly fragile or collapsed state."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.4,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 12",
-      "text": "Trump insists US controls Hormuz, Iran says it could ‘prolong’ war with US.",
+      "text": "Trump insists US controls Hormuz, while Iran states it could 'prolong' war with US and claims control of the strait.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pbWxQa3BOTklMZFVOT0RGLW5mSmRBRFNKeWV1R2VwUXNJOV9acS1sTzVWMFEteTgyczBlSU1QeU53RFhJVkNyc1FsS2xsVEJvRlYtWnhaXzRGT2pIbkVhVWVmU29UUDNKT0RoazFR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1793
+      "latestSinceUpdate": 1794
     },
     {
       "date": "Aug 12",
-      "text": "Mediators push US-Iran talks as Israel hits Lebanon, Gaza.",
+      "text": "Mediators are pushing for US-Iran talks as Israel continues to hit targets in Lebanon and Gaza.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1793
+      "latestSinceUpdate": 1794
     },
     {
       "date": "Aug 12",
-      "text": "New attacks on shipping as Iran war talks hit fresh impasse.",
+      "text": "New attacks on shipping have occurred as Iran war talks hit a fresh impasse.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1793
+      "latestSinceUpdate": 1794
     },
     {
       "date": "Aug 12",
-      "text": "Two UAE tankers attacked while transiting Strait of Hormuz.",
+      "text": "Two UAE tankers were attacked while transiting the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxQT01uNW1ySVgwYVhBMmtIVExpTldwTjdMaG1mZzlnRmFXbzlGZE9KTDM5Z25PeGdhZVdJUmJ6blFRSE41NkphRm42YjFtWFJqdll3ZGlzdDdZNEVUTE05eW9hZ3dOYmdmUll1RFp6SWh1ZWg1RGhoOVpvSzd1T3lrMUNpc1Z1VkZyYW5yZWpKVFFOWXhNTnhnejJ2aDdrNlUzamZkRkRJbGtOdGdJb0lpZExFNDFralMwdWp0OWxsZzNraHJnTlFRSllWSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Seattle Times",
-      "latestSinceUpdate": 1793
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxOX3dIWVdaOWplT0dHMm90SmRFbFkybDBZcGlKU1FQUGk1UXdkM3FLRnY5WXhRRlAtRmlkNXFfbDBjNnFORFF0WUFhMHBTTE12MHVUMENieHJLaE1lbFprVldzcjV5WWdmajRoY1cwdWxGeXRGV3V5dy1SeVhZbG8xZEdJYjgxc0ZsVDdiN3oybnVNcWlQZkZRVWRUNGktdTJIeUZ6N19ocUVNWTFxTHNRMExMd0EtSlhkOG9IbHNwaEJaSTB4RGJRMXJndF9reFNHMUpkbm4tbGFCWUxKeEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Click2Houston",
+      "latestSinceUpdate": 1794
     },
     {
       "date": "Aug 12",
-      "text": "US military has lost roughly 25% of its Reaper drones as Iran war depletes arsenal.",
+      "text": "Iran demands the U.S. pay for war damage before agreeing to reopen the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1793
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOMXVhMHlqUEtqTDctWTJpYWFoamFyZHVHWE4xUWtkMnFVN0pmYTVtdXBuSXZVUmtFMEJ1UHgtRjlSak5sUnNpM1pDZUFqc1lUYV9FYS15WGN5VDg1RzYyZ19wOVNZSUx1bENuaDJ5QWsybVBTZzZsa2RScDRmd05BWDJqcTdTRGN0X0dVU0dPRm9sOEQyZHdERmlWNk8xSmIzdndQVEl1Sk1yeXRDR21FQkJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1794
     },
     {
       "date": "Aug 12",
-      "text": "US deploys new aircraft carrier as war puts troops under strain.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOVFk1N2RTTzR5aUhyUmxBRUcwMG94S1RqaVV5RTJMdm9oVXdnd0lkTGFiT2RQeHlZc3RsMF84ME52NVZSSThoT3lNWGxvVHdRUW9kVjBUVkFaLW04dEIzTU8wOG9Ea000MkxjRlNlZGt0VVVYNGZkampGTWlieG05Q1pVUTNSN0M5ZDFPd2JOLUdxNXZJNWxzMHBfZURMc2NzYlBsSWZHNVZvdnM3MDlieXJkUGZqa2RQbXJkQWhPVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1793
+      "text": "The U.S. military has deployed a new aircraft carrier to the region, while also reportedly losing roughly 25% of its Reaper drones.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1794
     }
   ],
   "sourceStatuses": [
