@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1830,
+  "updateSequence": 1831,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T10:31:28.672Z",
+  "lastSyncedAt": "2026-08-15T10:51:05.575Z",
   "warDay": 169,
-  "summary": "The conflict in West Asia escalates with US-Israel strikes on Iran, attacks on tankers in the Strait of Hormuz, and significant US drone losses, while diplomatic efforts for US-Iran talks continue amidst regional tensions.",
+  "summary": "The Iran War continues with escalating US-Israel strikes on Iran and Lebanon, US military drone losses, and controversial US statements regarding the Strait of Hormuz, while mediators attempt to initiate talks.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported; regional conflict and military actions are escalating."
+    "summary": "No active ceasefire is in effect amidst ongoing military operations and escalating tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.65,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 82
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "nuclearIndex": 15,
+    "escalationLevel": 87,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "Mediators push US-Iran talks as Israel conducts strikes in Lebanon and Gaza.",
+      "text": "Mediators push US-Iran talks as Israel hits Lebanon, Gaza.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1830
+      "latestSinceUpdate": 1831
     },
     {
       "date": "Aug 14",
-      "text": "A US carrier group is reportedly headed to the Middle East to replace the USS Lincoln.",
+      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1829
+      "latestSinceUpdate": 1831
     },
     {
-      "date": "Aug 14",
-      "text": "Former President Trump states he will soon declare the Strait of Hormuz US territory.",
+      "date": "Aug 15",
+      "text": "President Trump states he will declare the Strait of Hormuz US territory 'pretty soon'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPWWFZd2RfUU1menRsbUNXVWM0bjFzS1RKT0tRdGsxSklTSGNWUjdGRTg4UnlwcTEzcjNveXhkbVNWcHJocXJFN2tYREtVejBJYW5YQkhPUU02elFpTEhQVHBZTUU0ZmtqQjZXREJMZUhKRk16MlItcXNlbW82NDdudTZiYlRVV0JBRTBrUmsxYi1CLWxBbmJRWkNjeExPS2szdjIyU3pMem5SaGZ2b05lOFpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "USA Today",
-      "latestSinceUpdate": 1830
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1831
     },
     {
-      "date": "Aug 14",
-      "text": "West Asia conflict escalates with US-Israel strikes hitting Iran and the US Embassy in Riyadh attacked.",
+      "date": "Aug 15",
+      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Newsonair",
-      "latestSinceUpdate": 1830
+      "latestSinceUpdate": 1831
     },
     {
-      "date": "Aug 14",
-      "text": "US CENTCOM chief is reportedly pushing for renewed strikes on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aa.com.tr",
-      "latestSinceUpdate": 1830
-    },
-    {
-      "date": "Aug 14",
-      "text": "Two UAE tankers, including one from ADNOC, were attacked while transiting the Strait of Hormuz.",
+      "date": "Aug 15",
+      "text": "Two UAE tankers were attacked while transiting the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOU19BM2l2RGhNUW5aWGxpdXJRU1QwVWtzekJ1ckw2bUdzWlhBSWcxX3U3T1JVblRkYW92MEhkaS1rakhweUN6MnlYc0xVbzVQcUtwdXRBbGFPUzV5T2Q5a3lmbVNqdE0zZFgyT0J3OGt6bzlwT1dWb2dtdVBieEtuOVFQXzdlNFdzUm8tU3FrV1JQS1hEUGpscjl3Q1BRczR4RlE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1830
+      "latestSinceUpdate": 1831
+    },
+    {
+      "date": "Aug 15",
+      "text": "Israeli airstrikes on southern Lebanon killed 9 people.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxOU2piWmJYdzNKV2xJbWlvaTk5dnJYT2NGc0xKVFdlWk9XeEFOVmtucGV4MGpESzhGV0FrX0FCWG5fS3lsWnI5X3J3WGE4THA0Q2JoeW5Wd0xEdEZzT3ozS3gwcFRSQ0hxeU85cGw0SG0tQ2RnTXNCS1ppWkZyd2pXcW9ILU9oNW5uX2ZLLVlEMzdDYmdfM3A5Ty1ZVGdWbW5QS1NiX2NoOWFMQktQOEVHZW9LRklLTnZTNE9kRUlOcV8tRG5KdTA0S29OZ1lfb1ZNbGJ5emVzbXhBOUxmMWJr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1831
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
