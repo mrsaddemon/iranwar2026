@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1861,
+  "updateSequence": 1862,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T22:31:09.127Z",
+  "lastSyncedAt": "2026-08-15T22:51:31.848Z",
   "warDay": 169,
   "summary": "The conflict in the Middle East continues to escalate with US and Israeli strikes on Iran and Lebanon, Iranian attacks on tankers in the Strait of Hormuz, and heightened rhetoric regarding control of the waterway.",
   "lastNarrativeUpdate": "2026-08-15",
@@ -63,8 +63,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1858
+      "sourceName": "CNN"
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran Update Special Report, August 13, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "understandingwar.org"
     },
     {
       "date": "Aug 15",
@@ -76,35 +82,24 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 15",
-      "text": "Iran Update Special Report, August 13, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1858
-    },
-    {
-      "date": "Aug 15",
       "text": "The Iran War Is a Whole New Level of Quagmire for the US",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 1858
+      "sourceName": "Politico"
     },
     {
       "date": "Aug 15",
       "text": "Iran claims Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1858
+      "sourceName": "AP News"
     },
     {
       "date": "Aug 15",
       "text": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1858
+      "sourceName": "BBC"
     }
   ],
   "sourceStatuses": [
