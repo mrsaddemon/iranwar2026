@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1849,
+  "updateSequence": 1850,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T18:00:25.874Z",
+  "lastSyncedAt": "2026-08-15T18:40:34.416Z",
   "warDay": 169,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
-    "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and rejections of peace deals."
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
+    "durationDays": 7,
+    "summary": "A truce between Lebanon and Israel is under severe strain following Israeli strikes and Hezbollah's rejection of a US-led deal."
   }
 }
