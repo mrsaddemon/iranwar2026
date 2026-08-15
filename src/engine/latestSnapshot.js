@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1864,
+  "updateSequence": 1865,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T23:28:40.980Z",
+  "lastSyncedAt": "2026-08-15T23:48:47.461Z",
   "warDay": 169,
-  "summary": "The conflict in the Middle East is intensifying with increased tensions in the Strait of Hormuz following multiple tanker attacks, US military deployments, and escalating clashes between Israel and Hezbollah in Lebanon.",
+  "summary": "High tensions persist in the Middle East with US and Iran clashing over control of the Strait of Hormuz following alleged tanker attacks, while Israel conducts strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
@@ -15,25 +15,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.9
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
         "militaryPower": 75
+      },
+      "behavior": {
+        "precision": 0.85,
+        "aggression": 0.8
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 35,
     "escalationLevel": 90,
     "oilDisruption": 95,
     "tradeImpact": 85,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
-      "severity": "warning",
+      "text": "A US official states a carrier group is headed to the Middle East to replace the USS Lincoln.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1864
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1865
     },
     {
       "date": "Aug 14",
-      "text": "Iran attacked a third UAE tanker within a week while transiting the Strait of Hormuz.",
+      "text": "Trump threatens to declare the Strait of Hormuz a US territory.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxPS3VQZHZGdDlJX2N0TlNubVV2QW9UdnUwMW1sTk1iUExtcFlQYlUtQ2dHMHNnaUkxbUJ6YnpscVd4WUFlZmd3WXJPbm1ZQjN2TGRzVDY4aUFCZ1ZlSk9KNFgxd3NJYlpGODNwOWVOSW93RUJVRGljcG9EblpDWTRPZUlxWlp0YkXSAYwBQVVfeXFMT1A3V3BJZlZWWFBYNnFlcVhqaVJYRjZFUVJORkxOTjRmVG91cmZGU0VTOVlKSWs4VENKR3hVZ3lhdV9GaW10QjB6RmtJb1J2cXVaRHQtelNCMmZMOGkzOGV0ZEduWEV5WFRmV2EyZzBnUS1sTmVxb1g4OVJyZy1XTTRkdGd4VnBPMzd3a0M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1864
-    },
-    {
-      "date": "Aug 14",
-      "text": "Israeli strikes killed 11 people in southern Lebanon, according to authorities.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1864
-    },
-    {
-      "date": "Aug 14",
-      "text": "Hezbollah stated that Israeli attacks on Lebanon will be met with an 'appropriate' response.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxPOVBoX2ctclp4SHVTQ2s0OHhabmhJOW15WHpaZkRFYmhwb3FiYVZjT1NsMUJjb3dxT2ZuSEVTMTBpYldBaWFKbTY4X1FFcU1Vc1BSMmxzNDNjQkJFRFlBN25rV2tpNDRwaG56eGFqUEdLVldHVVBXUTA4MkdYbVRtLUVEWkwyN1BmWDZ4NHFZYWg2RVJ2bEluZzJtc2s2V2ZHXzhpdzIycnlTcmR3d3loRGhLOVNPeUJubUphX1dYLWRpMUJwMThZM1ZVcjI3eFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1864
-    },
-    {
-      "date": "Aug 14",
-      "text": "President Trump announced plans to declare the Strait of Hormuz a US territory 'pretty soon'.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 1864
+      "latestSinceUpdate": 1865
     },
     {
       "date": "Aug 14",
-      "text": "The U.S. military has reportedly lost roughly 25% of its Reaper drones during the Iran war.",
+      "text": "Iran responds, stating the Strait of Hormuz is under its control and will stay closed, telling Trump to accept defeat.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQMVFjWi10bDAtVmhNUThEV0NMLVg1ZDBNMm1HNUIzNnM3WG9wT2FrU2VXZUNzeHlNekExVjk1ZXZyNWhKMGVJSFF0endxWDcyRUQwTFBFdkNfNEg2QlNrb29ITjY0REV0ZWJlVEZhVWxaQVhWOWQ0MEFfQjlYcGxjZ3daeGNTcVZ3XzY4bXI4YlRaRnFTOFA3dDZRdVZISE9BVXlCMjd3SGJLU1Nmb1kyTXBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 1865
+    },
+    {
+      "date": "Aug 14",
+      "text": "The UAE accuses Iran of attacking two ADNOC oil tankers in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxORERuY0ViWGV0MmNPS0U3NnFCLTJKcWpfNUdfZjlBeHpnZUdYQjd4cWNQNTZ2azBLZTA1TXRzLTZLRC1KN29YRndLaGllS3M2cmg2TkNobENjdlVTRDlBRjh6UWxKc091T1N2VU5yRmtoSjF1YzF5WUEzVk1mTkNEWEZ5bEliZlVCY0sxUjdUZ2hjS09tSDZiVm9pS1Zqd0FKSXpBVS15MkRLUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1865
+    },
+    {
+      "date": "Aug 14",
+      "text": "Israeli strikes kill 11 in southern Lebanon, prompting Hezbollah to vow an 'appropriate' response.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1864
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1865
+    },
+    {
+      "date": "Aug 14",
+      "text": "Israel seizes a vast arsenal linked to Iran's terror axis with surprising foreign origins.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNNk5TOUlncm9NeGJVX0k5TERTUVZjZERHR3ZiUzhJcnBJcXlrRjkzU0FoR3RNbHlpbEl1d3hjczJKR0F6Z196NXQwMC1JVFpKbGJoamlyOTJ5ZW1zRU16VXJBdS1IbUNBaEdEUmtkMjllZFVZak5hcnZNUWRlUkthWkd1VUFzbUhrbDFudlpGeXpzdE1YVVhUUEdVMnh2V18zdkpDSU9zZDVrTk5BV1Vj0gG0AUFVX3lxTFBhVVZmOHZWVEl4a3pUdzBTMHJfSmdua0hNRHk3al80STlyVm55UnJjSEpocGYtZEpYVldEMUhwZGZRQzc5TUZsdUdUaHNKaDJIbkF1eFd0WFRnYVVDU1pITm41b1Zfbk1KQkNiZHYwYVdxSnpmdm5fM1RvU214eGdRVm43WU5QUlR3bXRwWmJ3N0x6Y09oVDV3ZE5tM2JNeDZmczI0d2cwZmsxYXZDaVNTSF9PbA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1865
     }
   ],
   "sourceStatuses": [
