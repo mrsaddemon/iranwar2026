@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1862,
+  "updateSequence": 1863,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T22:51:31.848Z",
+  "lastSyncedAt": "2026-08-15T23:03:26.043Z",
   "warDay": 169,
   "summary": "The conflict in the Middle East continues to escalate with US and Israeli strikes on Iran and Lebanon, Iranian attacks on tankers in the Strait of Hormuz, and heightened rhetoric regarding control of the waterway.",
   "lastNarrativeUpdate": "2026-08-15",
@@ -63,14 +63,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN"
+      "sourceName": "cnn.com"
     },
     {
       "date": "Aug 15",
       "text": "Iran Update Special Report, August 13, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "understandingwar.org"
+      "sourceName": "Institute for the Study of War"
     },
     {
       "date": "Aug 15",
