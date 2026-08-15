@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1836,
+  "updateSequence": 1837,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T12:53:33.625Z",
+  "lastSyncedAt": "2026-08-15T13:37:16.693Z",
   "warDay": 169,
-  "summary": "The West Asia conflict escalates with US-Israel strikes on Iran, US declarations regarding the Strait of Hormuz, and attacks on tankers in the critical waterway.",
+  "summary": "The conflict in West Asia continues to escalate with US-Israel strikes on Iran, attacks on tankers in the Strait of Hormuz, and ongoing clashes between Israel and Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing conflict and escalating tensions."
+    "summary": "No active ceasefire is in effect; regional conflict and direct strikes continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 68,
+    "globalPressure": 90,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "Carrier group headed to Middle East to replace USS Lincoln, US official says",
+      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1836
+      "latestSinceUpdate": 1837
     },
     {
       "date": "Aug 14",
-      "text": "Trump says will declare Hormuz US territory 'pretty soon'",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1836
-    },
-    {
-      "date": "Aug 14",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, US Embassy attacked in Riyadh",
+      "text": "US-Israel strikes hit Iran, and the US Embassy in Riyadh was attacked.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 1836
+      "sourceName": "newsonair.gov.in",
+      "latestSinceUpdate": 1837
     },
     {
       "date": "Aug 14",
-      "text": "US CENTCOM chief pushing for renewed strikes on Iran, claims Israeli media",
+      "text": "President Trump stated he will declare the Strait of Hormuz US territory 'pretty soon' and when the Iran war ends.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1836
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPWTNPV2U3Vl9qZGxBWWptR3ZNalp3dDJheUxpNUIwSVVub1pSc2xqZEgtN2lPOGlqaUVEYlJuV1RyM2EtM1R2N1AxZ08xdXFWUjhCd2Ewa25UaGhSblpVcHYyc0RMZUpPdm5ZR1RVaDMxWHQ5MXE4MWJ5Z3NfTGJWb2EwN21TNXMtMDRzS1NvM2hRaU9TYW4yNVhCZFN2a0JYc1FxN2pnQ25LdzVrTHFxdWlrSDZMVWs1QkNRVTFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1837
     },
     {
       "date": "Aug 14",
-      "text": "2 UAE tankers attacked while transiting Strait of Hormuz",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOU19BM2l2RGhNUW5aWGxpdXJRU1QwVWtzekJ1ckw2bUdzWlhBSWcxX3U3T1JVblRkYW92MEhkaS1rakhweUN6MnlYc0xVbzVQcUtwdXRBbGFPUzV5T2Q5a3lmbVNqdE0zZFgyT0J3OGt6bzlwT1dWb2dtdVBieEtuOVFQXzdlNFdzUm8tU3FrV1JQS1hEUGpscjl3Q1BRczR4RlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1836
+      "text": "The US says it can maintain a blockade on Iran 'indefinitely'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1837
     },
     {
       "date": "Aug 14",
-      "text": "UAE says ADNOC vessel attacked in Hormuz, vows to defend navigation rights",
+      "text": "Iran is rapidly rebuilding its ballistic missile arsenal after the war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XRVpSUlR3a1dveFM2VE91bEZ1YnVfeHdUY2p6S2RtSS1fbjk4Tlk4WFNkR25CZnhHTGVLUEZGd1RCNlhSc3h6aVJUempVeXhzY19nLUVwc1F4R1BnTmZ4VF9rUWVzWmdSSUY4WHln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1837
+    },
+    {
+      "date": "Aug 14",
+      "text": "Two UAE tankers were attacked while transiting the Strait of Hormuz; UAE vows to defend navigation rights.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1836
+      "latestSinceUpdate": 1837
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
