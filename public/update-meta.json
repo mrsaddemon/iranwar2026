@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1838,
+  "updateSequence": 1839,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T13:55:38.807Z",
+  "lastSyncedAt": "2026-08-15T14:31:26.254Z",
   "warDay": 169,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing conflict and attacks."
+    "summary": "No ceasefire is active; Hezbollah has rejected a US-led deal with Israel."
   }
 }
