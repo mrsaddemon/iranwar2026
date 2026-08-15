@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1820,
+  "updateSequence": 1821,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T05:44:02.804Z",
+  "lastSyncedAt": "2026-08-15T06:01:56.373Z",
   "warDay": 169,
   "summary": "The Iran War continues with escalating tensions in the Strait of Hormuz following tanker attacks, significant US drone losses, and ongoing Israeli military actions in Lebanon and Gaza amidst diplomatic efforts.",
   "lastNarrativeUpdate": "2026-08-15",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and diplomatic rejections."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 14",
-      "text": "Mediators push for US-Iran talks as Israel conducts strikes in Lebanon and Gaza.",
+      "date": "Aug 15",
+      "text": "Iran war updates: Mediators push US-Iran talks as Israel hits Lebanon, Gaza",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1820
+      "latestSinceUpdate": 1821
     },
     {
-      "date": "Aug 14",
-      "text": "A US carrier group is reportedly headed to the Middle East to replace the USS Lincoln.",
+      "date": "Aug 15",
+      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1820
+      "latestSinceUpdate": 1821
     },
     {
-      "date": "Aug 14",
-      "text": "President Trump states he will 'pretty soon' declare the Strait of Hormuz a US territory.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPWWFZd2RfUU1menRsbUNXVWM0bjFzS1RKT0tRdGsxSklTSGNWUjdGRTg4UnlwcTEzcjNveXhkbVNWcHJocXJFN2tYREtVejBJYW5YQkhPUU02elFpTEhQVHBZTUU0ZmtqQjZXREJMZUhKRk16MlItcXNlbW82NDdudTZiYlRVV0JBRTBrUmsxYi1CLWxBbmJRWkNjeExPS2szdjIyU3pMem5SaGZ2b05lOFpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "USA Today",
-      "latestSinceUpdate": 1820
+      "date": "Aug 15",
+      "text": "Iran Update Special Report, August 13, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1821
     },
     {
-      "date": "Aug 14",
-      "text": "US CENTCOM chief is reportedly pushing for renewed strikes on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1820
-    },
-    {
-      "date": "Aug 14",
-      "text": "Lebanon condemns Israel’s ‘systematic destruction’ in its southern regions as a violation of international law.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZEZtOXZEdUFjeEdLUEVjMFlZTVdNNGxHbHl1aFpvc21ZVFB5OVo3aUdSRkxkaGxOaEx5Z2s3UUstM3ZUMEh2QkVlOTV6X1lMS0l0RXZ1ZEVZUWpWS1p0SXY5azkxWXZLYXVwaGg3YlFWRVBYbFBKVDFtd1c2MTlRSm1rTTJBM3FlM1luNWhlbWxIWDFIeFFPbmZ3NHRHYkU0dVhqclhfcXhET2ZYLVZYN2VoZUxrRHZNRDA5RDU1WVRIWEc0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1820
-    },
-    {
-      "date": "Aug 14",
-      "text": "Iran is accused by the UAE of targeting tankers in ‘unprovoked attacks’ in the Strait of Hormuz, with ADNOC confirming one of its vessels was attacked.",
+      "date": "Aug 15",
+      "text": "Iran war updates: US says can maintain blockade on Iran ‘indefinitely”",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBWbGN2eXRreVRtbzJ4SnZxOGZzNXkzNy1fMkNuUHFlSkx1RHJpMjFYUEJUVlFpUVRyV2V5Q013cUtaaGg4Y1VrYjZMd181dzF2LXNOX3pnZFNDajNETmJfaWh2cXZpMjdnODNzcExKWGVUSzBRUkI4YUVTOHJIZHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1820
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1821
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1821
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran War Timeline: The Latest on Where the Iran War Stands",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 1821
     }
   ],
   "sourceStatuses": [
