@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1817,
+  "updateSequence": 1818,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T04:14:57.021Z",
+  "lastSyncedAt": "2026-08-15T04:49:33.056Z",
   "warDay": 169,
-  "summary": "Mediators are pushing for US-Iran talks amidst ongoing conflict, Israeli strikes in Lebanon and Gaza, heightened tensions in the Strait of Hormuz following tanker attacks, and significant US drone losses.",
+  "summary": "Ongoing conflict between the US and Iran continues, marked by diplomatic efforts, Israeli military actions in Lebanon and Gaza, heightened tensions in the Strait of Hormuz following tanker attacks, and significant US drone losses.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect; mediators are pushing for talks while conflict continues and a proposed Lebanon-Israel deal was rejected."
+    "summary": "No active ceasefire is reported amidst ongoing hostilities and military actions."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 80,
+    "nuclearIndex": 40,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 13",
-      "text": "Mediators push US-Iran talks as Israel hits Lebanon, Gaza.",
+      "text": "Mediators push for US-Iran talks amidst ongoing Israeli strikes in Lebanon and Gaza.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1817
+      "latestSinceUpdate": 1818
     },
     {
-      "date": "Recent",
-      "text": "US states it can maintain a blockade on Iran indefinitely.",
+      "date": "Aug 13",
+      "text": "US states it can maintain a blockade on Iran 'indefinitely'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1817
+      "latestSinceUpdate": 1818
     },
     {
-      "date": "Recent",
-      "text": "Iran claims control of the Strait of Hormuz after Trump's threats to keep it.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1817
-    },
-    {
-      "date": "Recent",
-      "text": "US CENTCOM chief reportedly pushing for renewed strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1817
-    },
-    {
-      "date": "Recent",
-      "text": "Two UAE tankers attacked while transiting the Strait of Hormuz; UAE blames Iran for drone attacks.",
+      "date": "Aug 13",
+      "text": "Two UAE tankers attacked while transiting the Strait of Hormuz; UAE blames Iran for drone attack.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE11SkdOenRYTGNZZUQxbmRaLXpKVjRkQ3JzZlUxVVh1WGFHVTZBWlpZTlU2ZTdkZmwwN3RoYVI3QkxMbE9Id0RlNV9BWEFMaEJpTFdLdzhKNHZwZEhaamZvQ25LeUJ4eUVrRTU5Zk1ucnRtLTBsRGVFRUJYSDBEZ9IBgwFBVV95cUxQUndhM3RvS2wzeGRjbGVrSkFjTjRWWWgzeTVlTmotRnl4ZEM5dUlXOXpvUW5rWXZJT09waDJWYWw2bFNhZnh3bG4xSjhTekVjcGh3VWY3Znl1LXpaNHoxVjRHekU1XzVyNm9sZ1E4WTVFRWNUY1ppaldGYjN4S0JwTWFrZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NewsNation",
-      "latestSinceUpdate": 1817
+      "latestSinceUpdate": 1818
     },
     {
-      "date": "Recent",
-      "text": "Hezbollah chief rejects US-led Lebanon-Israel deal, claiming it humiliates the nation, as Israel reportedly plans an assault.",
+      "date": "Aug 13",
+      "text": "Trump states he will declare the Strait of Hormuz a US territory.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPa2twdmg3eDBpM05Hd3piS251eU5oYkxxNTFyc1NkdlZ4bFM0a2drbi0tTzVLbEhENncwQmhpakdUOU9GZFlJWWlRR1BSOWptN0xMU0RGdDJHbkNxWHlhR193d2NKWTBGV2EzUFM5bm5ZRmlwZC1NNjRmemZzaF9FVVh2Q2xyMjd1a0hwMVA1RWxQTE5zRzN5REduWWpJRzlsOURFMW9MaWoyQdIBrwFBVV95cUxNM0lvdDl0UWJMZ3FEMHExdko0WXQtcU9PSmsta2lQT2RRQTNfRUJENU5WN0NFOUtPeTVNWDJvLWNXMktrcThPaVFDNTdUYlNBbGVPMWZFbklLbWVqUjkxX01xMXFiWUkyczZqSnJGNTBSa05BTUkzaG5xTEVoMlQwN2VqYnloZVpkV005dnFndHdQWEFfMVY0eWZNdTlmYWRncTlfUGhQSGpWUzdJTHVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1817
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1818
+    },
+    {
+      "date": "Aug 13",
+      "text": "Hezbollah chief rejects a US-led Lebanon deal, calling it humiliating.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1818
+    },
+    {
+      "date": "Aug 13",
+      "text": "US military has lost approximately 25% of its Reaper drone fleet in the Iran war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1818
     }
   ],
   "sourceStatuses": [
