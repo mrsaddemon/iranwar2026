@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1850,
+  "updateSequence": 1851,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T18:40:34.416Z",
+  "lastSyncedAt": "2026-08-15T19:07:41.918Z",
   "warDay": 169,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A truce between Lebanon and Israel is under severe strain following Israeli strikes and Hezbollah's rejection of a US-led deal."
+    "summary": "A truce between Lebanon and Israel is being tested by Israeli airstrikes and rejected by Hezbollah leadership."
   }
 }
