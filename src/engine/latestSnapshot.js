@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1844,
+  "updateSequence": 1845,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T16:00:49.738Z",
+  "lastSyncedAt": "2026-08-15T16:34:29.170Z",
   "warDay": 169,
   "summary": "The conflict in West Asia is escalating with US carrier group deployments, US-Israel strikes on Iran, attacks on UAE vessels in the Strait of Hormuz, and Israeli strikes in southern Lebanon, while rhetoric intensifies regarding control of the Strait.",
   "lastNarrativeUpdate": "2026-08-15",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
+      "date": "Aug 15",
+      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1843
+      "latestSinceUpdate": 1845
     },
     {
-      "date": "Aug 14",
-      "text": "Trump states he will declare the Strait of Hormuz US territory 'pretty soon' or when the Iran war ends.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPWTNPV2U3Vl9qZGxBWWptR3ZNalp3dDJheUxpNUIwSVVub1pSc2xqZEgtN2lPOGlqaUVEYlJuV1RyM2EtM1R2N1AxZ08xdXFWUjhCd2Ewa25UaGhSblpVcHYyc0RMZUpPdm5ZR1RVaDMxWHQ5MXE4MWJ5Z3NfTGJWb2EwN21TNXMtMDRzS1NvM2hRaU9TYW4yNVhCZFN2a0JYc1FxN2pnQ25LdzVrTHFxdWlrSDZMVWs1QkNRVTFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1844
+      "date": "Aug 15",
+      "text": "Iran war updates: Trump says will declare Hormuz US territory ‘pretty soon’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1845
     },
     {
-      "date": "Aug 14",
-      "text": "Eleven people were killed in Israeli strikes on southern Lebanon.",
-      "severity": "critical",
+      "date": "Aug 15",
+      "text": "Iran Update Special Report, August 13, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1845
+    },
+    {
+      "date": "Aug 15",
+      "text": "The Iran War Is a Whole New Level of Quagmire for the US",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1845
+    },
+    {
+      "date": "Aug 15",
+      "text": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1844
+      "latestSinceUpdate": 1845
     },
     {
-      "date": "Aug 14",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh was attacked.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Newsonair",
-      "latestSinceUpdate": 1844
-    },
-    {
-      "date": "Aug 14",
-      "text": "Iran is rapidly rebuilding its ballistic missile arsenal after the war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1XRVpSUlR3a1dveFM2VE91bEZ1YnVfeHdUY2p6S2RtSS1fbjk4Tlk4WFNkR25CZnhHTGVLUEZGd1RCNlhSc3h6aVJUempVeXhzY19nLUVwc1F4R1BnTmZ4VF9rUWVzWmdSSUY4WHln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "jpost.com",
-      "latestSinceUpdate": 1844
-    },
-    {
-      "date": "Aug 14",
-      "text": "UAE accuses Iran of attacking two ADNOC vessels in the Strait of Hormuz, urging the waterway's reopening.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQem5NN3dXREFuR3F1YmR6UGZ3Y05uZGxfVFdOMmxDdE1DekEzVUUwTjUwUFI5YWhHTm9tMmN2a1ZXZ2gwSzcteG85MlNna1BvLVhQNUdaa1M2VUtrYVdFRXJlS09vdEctOFB1LUpwZHQzOEc2ZkY2V0E0Wm5fY2J0Uk5Oa3p0ekh2Sy14cXJsVGhvaE5IejlSbElZd2M5aWZyT0t2Rlo3bVhGaWNCOVHSAbMBQVVfeXFMT05jRkpzcEVyYUJUTXVfNDQyUTVGNXlMX3kyVFc3UDZPWExiRTMtQzJ2Y3BETG9rWE4tRTBmTk90emJMbjY3Y0REUTlSTUVjb1czYlo1amVjUlpNNTI5aGhtQkdfUXB4enVqdVBpU0lSalJUV1BabXp6alVDUnd5UTBrM2tFTnNRSVBHODlla1ZXOTA1dGctUjQwck5vc05VZHlYcVBhdFlDWEN4el9VSi1yX0U?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1844
+      "date": "Aug 15",
+      "text": "Lebanon front heats up as Iran warns Israel over strategic ridge",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5RZldqRG55RWNUU0NrNGttSGx6dU82QnJ0VXVvTVBMSTFWU0R1VDF3eDJfNFVJNTlmZmpCUlJDWkthV2ZUNTJkVFlpWklVWnNKOUV2WlF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 1845
     }
   ],
   "sourceStatuses": [
