@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1839,
+  "updateSequence": 1840,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T14:31:26.254Z",
+  "lastSyncedAt": "2026-08-15T14:51:49.556Z",
   "warDay": 169,
-  "summary": "The conflict in West Asia continues to escalate with US-Israel strikes on Iran, Iranian attacks on shipping in the Strait of Hormuz, and increased Israeli operations in Lebanon, while the US threatens an indefinite blockade and claims the Strait of Hormuz as its territory.",
+  "summary": "The conflict in West Asia is escalating with US-Israel strikes on Iran, attacks on vessels in the Strait of Hormuz, and US threats of an indefinite blockade.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active; Hezbollah has rejected a US-led deal with Israel."
+    "summary": "No ceasefire is currently active; conflict is actively escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.9
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 75
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.9
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
-    "allianceInfluence": 51
+    "globalPressure": 85,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -61,18 +61,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 14",
       "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
-      "severity": "warning",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1837
     },
     {
       "date": "Aug 14",
-      "text": "President Trump states he will declare the Strait of Hormuz US territory 'pretty soon' or when the Iran war ends.",
+      "text": "President Trump states he will declare the Strait of Hormuz US territory 'pretty soon'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPWTNPV2U3Vl9qZGxBWWptR3ZNalp3dDJheUxpNUIwSVVub1pSc2xqZEgtN2lPOGlqaUVEYlJuV1RyM2EtM1R2N1AxZ08xdXFWUjhCd2Ewa25UaGhSblpVcHYyc0RMZUpPdm5ZR1RVaDMxWHQ5MXE4MWJ5Z3NfTGJWb2EwN21TNXMtMDRzS1NvM2hRaU9TYW4yNVhCZFN2a0JYc1FxN2pnQ25LdzVrTHFxdWlrSDZMVWs1QkNRVTFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1839
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1840
     },
     {
       "date": "Aug 14",
@@ -84,27 +84,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 14",
-      "text": "Iran strikes another ship in the Strait of Hormuz; UAE reports an ADNOC vessel attack and urges reopening the waterway.",
+      "text": "The UAE reports Iran attacked two ADNOC vessels in the Strait of Hormuz and urges the waterway's reopening.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "reuters.com",
-      "latestSinceUpdate": 1839
+      "latestSinceUpdate": 1840
     },
     {
       "date": "Aug 14",
-      "text": "Israeli strikes kill 7-11 in southern Lebanon, with the IDF stating raids are in response to Hezbollah action.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPT1ZKX0ZEbHRQMERUcWlMNzZYS2U5NGxFamRaS2dpQUFURk50b1VvN3ZVbm1acjdUYXR6UC03OTJBb0x2VGs1bVN2ZXMwVVVaWTRsb2tYTTZYWFNBbVFLb2FaUlJfUklqNzBwSWNSdVpJeFhoV2ZQTFRnS2tMMEtkenowUFdFMkVwelRiRWpjcGc0Z0pOUGdGT2UtSjQxX0hIVFNlbWJjOGN1MGl6aGJpZW9WOHU5bXlrYXfSAb8BQVVfeXFMT2RwX3hnaDZnanQyWWJlclZ1ZUdTTUJINl9tQnpzR292bDlfMnNlZjZuOVJZRkZJakV1SDg0Nmg4ang4anJlZXVqcVp0eXFrRy1xenJDZjhNall4TXBYTVpycm5FeXNfZzc4T04zMjZYcDV5LWpHb3d3Z3kyZGJReDNBWHZRc0Rsak5PRWlRQUU1TVJYQmZ4SFB6TW44d0dTdG9kZ0Nta2NMLTQxRXhNamNIS1hrWURMRmRaRVBieGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1839
+      "text": "Israeli strikes kill nine in southern Lebanon as attacks intensify.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxNelhxblFxbjdvdUYyRC1QRm04Q2k0R0FMSUxDRnFoOXAtY3NGR0d3VDk1X0tRRlJRbDdCcFZOSnFtOVJaZkFmOENXN0Nac3dDbkhSZGJVekF4MGJocXpacjBUVk1lNlVzdm94ajdwYXFkcGFzWDhsWlF4R2xhVF90aTNaYzNuT2pKZHp3SkNWZFJNSjJOTnVBbDNGVW5VZWNEZDdUUEYtWGXSAa4BQVVfeXFMT3lmV0E4Ym1SbDRUX2ZjMWluVEMxbUFJOGZpWnhRcmota2dhMENmeVdvRWVqYW1YQXZwQkZ0UnpVd01OUFBDWGNHVzdoTmMzLUQ4aWVfVDdKbnVSRHFXeFhrbktTUmdGTVZQVkhuOXAxVER5RDE3S0VDY2NVVnBBN2c5NWpzS2hQaFpYMlJHSjlMZ21aZF9xVFNTQ0NLanc4cHlSUWlhQmdSZGdlaVFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1840
     },
     {
       "date": "Aug 14",
-      "text": "Hezbollah chief calls to reverse the 'mistake' of direct talks with Israel and rejects a US-led Lebanon deal.",
+      "text": "Hezbollah chief rejects a U.S.-led Lebanon deal and calls to reverse 'mistake' of direct talks with Israel.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNa2xoRVcwMzNOOXE4dDN2LUlVSFRKVkdQdE5mS093b0cyWlFOcW9rZzNfS3JDLTZYS2RWdEpMU1I3R21FTm5FaEZNYXc0VzB3aGlJaktSTjVxZG01cWUtVUdycDFOMC1lMU55cnAtcWExSEFNV0NiU1UtUlI4ZWt5TkVBM0kzSlBKb1NodjNXOGE5WmFMUUs1NkdjVVRoUUh1bWdIakplbGduSGoxaHlmQXFiVWF6bVU0TFHSAb8BQVVfeXFMTVVlbmZpdDdSaHBZMFZrNlloQ3NBMTlfcUwzOElXR0FVNkE1Yl9pdTlMOFNRc29MZklpV1JWQUNXNmM0UVdxRzBRNEpud0tscTVsNDRMbmdUZHJDV2xxOHdraGhGVG83MHZUMlNFSTFYSUNlSldacXFiSHVfT2ZzLVc5LW4wU2V2MF83ZUhONkVTQWF1dzlYMDVRc0I0WGN3Q3dLLVhPSVBHRmdsVkwyNU1XZTlHQ3p2blMtV3BhVHc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "upi.com",
-      "latestSinceUpdate": 1839
+      "latestSinceUpdate": 1840
     }
   ],
   "sourceStatuses": [
