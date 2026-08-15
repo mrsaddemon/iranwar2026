@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1822,
+  "updateSequence": 1823,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T06:52:00.276Z",
+  "lastSyncedAt": "2026-08-15T07:18:31.400Z",
   "warDay": 169,
-  "summary": "Mediators are pushing for US-Iran talks amidst ongoing Israeli strikes in Lebanon and Gaza, recent attacks on tankers in the Strait of Hormuz, and reports of significant US drone losses.",
+  "summary": "The Iran War continues with ongoing US-Iran talks, Israeli strikes in Lebanon and Gaza, and attacks on tankers in the Strait of Hormuz, while the US military reports significant drone losses.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, though mediators are reportedly pushing for US-Iran talks."
+    "summary": "No active ceasefire is reported; conflict and diplomatic efforts continue amidst hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.3,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -69,42 +69,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 14",
       "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
-      "severity": "warning",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1822
     },
     {
-      "date": "Aug 15",
-      "text": "Iran reportedly targeted two UAE tankers in 'unprovoked attacks' in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBWbGN2eXRreVRtbzJ4SnZxOGZzNXkzNy1fMkNuUHFlSkx1RHJpMjFYUEJUVlFpUVRyV2V5Q013cUtaaGg4Y1VrYjZMd181dzF2LXNOX3pnZFNDajNETmJfaWh2cXZpMjdnODNzcExKWGVUSzBRUkI4YUVTOHJIZHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1822
+      "date": "Aug 13",
+      "text": "An Iran Update Special Report was published.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1823
     },
     {
-      "date": "Aug 15",
-      "text": "An Israeli airstrike on southern Lebanon killed 7 people, according to Lebanese state media.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxOU2piWmJYdzNKV2xJbWlvaTk5dnJYT2NGc0xKVFdlWk9XeEFOVmtucGV4MGpESzhGV0FrX0FCWG5fS3lsWnI5X3J3WGE4THA0Q2JoeW5Wd0xEdEZzT3ozS3gwcFRSQ0hxeU85cGw0SG0tQ2RnTXNCS1ppWkZyd2pXcW9ILU9oNW5uX2ZLLVlEMzdDYmdfM3A5Ty1ZVGdWbW5QS1NiX2NoOWFMQktQOEVHZW9LRklLTnZTNE9kRUlOcV8tRG5KdTA0S29OZ1lfb1ZNbGJ5emVzbXhBOUxmMWJr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1822
-    },
-    {
-      "date": "Aug 15",
-      "text": "The U.S. military has lost approximately 25% of its Reaper drones, totaling 45 drones worth $1.3 billion, in the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1822
-    },
-    {
-      "date": "Aug 15",
+      "date": "Recent",
       "text": "US CENTCOM chief is reportedly pushing for renewed strikes on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 1822
+      "latestSinceUpdate": 1823
+    },
+    {
+      "date": "Recent",
+      "text": "Lebanon condemns Israel’s ‘systematic destruction’ in the south as a violation of international law.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxPZEZtOXZEdUFjeEdLUEVjMFlZTVdNNGxHbHl1aFpvc21ZVFB5OVo3aUdSRkxkaGxOaEx5Z2s3UUstM3ZUMEh2QkVlOTV6X1lMS0l0RXZ1ZEVZUWpWS1p0SXY5azkxWXZLYXVwaGg3YlFWRVBYbFBKVDFtd1c2MTlRSm1rTTJBM3FlM1luNWhlbWxIWDFIeFFPbmZ3NHRHYkU0dVhqclhfcXhET2ZYLVZYN2VoZUxrRHZNRDA5RDU1WVRIWEc0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1823
+    },
+    {
+      "date": "Recent",
+      "text": "Trump states he will soon declare the Strait of Hormuz a US territory.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPWWFZd2RfUU1menRsbUNXVWM0bjFzS1RKT0tRdGsxSklTSGNWUjdGRTg4UnlwcTEzcjNveXhkbVNWcHJocXJFN2tYREtVejBJYW5YQkhPUU02elFpTEhQVHBZTUU0ZmtqQjZXREJMZUhKRk16MlItcXNlbW82NDdudTZiYlRVV0JBRTBrUmsxYi1CLWxBbmJRWkNjeExPS2szdjIyU3pMem5SaGZ2b05lOFpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "USA Today",
+      "latestSinceUpdate": 1823
     }
   ],
   "sourceStatuses": [
