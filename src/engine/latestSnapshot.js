@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1824,
+  "updateSequence": 1825,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T07:47:29.357Z",
+  "lastSyncedAt": "2026-08-15T08:01:53.008Z",
   "warDay": 169,
-  "summary": "The Iran War continues with ongoing US-Iran talks, Israeli strikes in Lebanon and Gaza, and attacks on tankers in the Strait of Hormuz, while the US military reports significant drone losses.",
+  "summary": "Mediators are pushing for US-Iran talks amidst ongoing Israeli strikes in Lebanon and Gaza, while a US carrier group deploys to the Middle East and two UAE tankers were attacked in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is in effect, though mediators are reportedly pushing for US-Iran talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -24,25 +24,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 10,
     "escalationLevel": 85,
     "oilDisruption": 80,
     "tradeImpact": 73,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 15",
-      "text": "Iran war updates: Mediators push US-Iran talks as Israel hits Lebanon, Gaza",
-      "severity": "info",
+      "date": "Aug 14",
+      "text": "Mediators push for US-Iran talks amidst ongoing Israeli strikes in Lebanon and Gaza.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1824
+      "latestSinceUpdate": 1825
     },
     {
-      "date": "Aug 15",
-      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
-      "severity": "info",
+      "date": "Aug 14",
+      "text": "A US carrier group is deploying to the Middle East to replace the USS Lincoln.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1824
+      "latestSinceUpdate": 1825
     },
     {
-      "date": "Aug 15",
-      "text": "Iran Update Special Report, August 13, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1824
+      "date": "Aug 14",
+      "text": "Two UAE tankers were attacked in the Strait of Hormuz, with the UAE blaming Iran for a missile/drone strike.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQajV4Uk9FTWd2WFJTWWVSZS1pdkl4OGFERFdzeExaYy1udkYxWGdXYWxRdHUwd2kwLVRtRTdhRkdVdUZuNXZ3U09EQUR3OXUwUzVtZmZZeWZkWmlkTThUTDBYNVBjbE9IWVBQZnhhcHBfcFVnZTc0NG1uMk54dElXNkhzQUFZR3VkRW5QZkthVjdfdTJOaXR6YWxiZmtfdzJROGg3bWFuOVhuV2ZkTDNLNkg4d18?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1825
     },
     {
-      "date": "Aug 15",
-      "text": "The Iran War Is a Whole New Level of Quagmire for the US",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 1824
-    },
-    {
-      "date": "Aug 15",
-      "text": "Iran War: Latest News, Live Coverage and Video",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 14",
+      "text": "An Israeli airstrike in southern Lebanon killed 7 people.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNTkJfZDdJb1hncF9zVDBrUFVaOHBwMFp4VVMzZU9xTC1DTnF4NExyOUs5WXFOM1RkSEJuNXVQZTBWUFVFeGdPem9VV3RWZkNSVFZzR2JYYy0yWllENEhjMFZTWjZUTkVYYk5pbWJPRW5jREltMmtTU2lmbW9PcG5NNUZ3NG1mbmNTQ1pWejk1Z0tJZTJudXN6amJjTTFQdVg4SWVfcGt5Ui1LQTdTb3JYMmJkQ1BoZWdnZVE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 1824
+      "latestSinceUpdate": 1825
     },
     {
-      "date": "Aug 15",
-      "text": "Iran War Timeline: The Latest on Where the Iran War Stands",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 1824
+      "date": "Aug 14",
+      "text": "The U.S. military has lost approximately 25% of its MQ-9 Reaper drone fleet in the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1825
+    },
+    {
+      "date": "Aug 14",
+      "text": "US CENTCOM chief reportedly advocates for renewed strikes on Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQSDJPbnFkODBmcFhzSC1lZlNKVm1xTEhNd0thMzhtQU16bmppVkhOM1VIdGU2TnlBSXFnZG9KdllZeWp3NU5ORllvZXZiVmxzeFZ6Z2V4RW1hQlAwb0FqcUFjNzZQd25ySlpaYm8waHF0R3RyVjVNcHR4bi0waW5FMDh6cklDcEoyeDdoZVR5enBHaEZUZGllcWUyN0loN2JYTHNBMWV5TXloY3NRamlKbkdHRmhGdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 1825
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

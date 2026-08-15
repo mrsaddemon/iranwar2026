@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1824,
+  "updateSequence": 1825,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T07:47:29.357Z",
+  "lastSyncedAt": "2026-08-15T08:01:53.008Z",
   "warDay": 169,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is in effect, though mediators are reportedly pushing for US-Iran talks."
   }
 }
