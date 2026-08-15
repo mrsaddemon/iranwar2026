@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1818,
+  "updateSequence": 1819,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T04:49:33.056Z",
+  "lastSyncedAt": "2026-08-15T05:11:43.869Z",
   "warDay": 169,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing hostilities and military actions."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
