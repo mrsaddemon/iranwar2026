@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1852,
+  "updateSequence": 1853,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T19:30:12.455Z",
+  "lastSyncedAt": "2026-08-15T19:48:15.145Z",
   "warDay": 169,
-  "summary": "Ongoing hostilities in the Middle East include US deployment of a carrier group, Trump's intent to declare the Strait of Hormuz US territory, Iran's attacks on UAE tankers, and Israeli strikes in southern Lebanon met with Hezbollah's response.",
+  "summary": "The conflict in West Asia has escalated with US-Israel strikes on Iran, a US Embassy attack in Riyadh, and multiple Iranian attacks on UAE tankers in the Strait of Hormuz, which the US claims as its territory.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict continues to escalate."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.88
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 85,
-    "oilDisruption": 88,
-    "tradeImpact": 79,
+    "nuclearIndex": 20,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln, according to a US official.",
+      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1852
+      "latestSinceUpdate": 1853
     },
     {
       "date": "Aug 14",
-      "text": "Trump states he will declare the Strait of Hormuz US territory 'pretty soon'.",
-      "severity": "critical",
+      "text": "Trump states he will declare the Strait of Hormuz a US territory 'pretty soon'.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Hill",
-      "latestSinceUpdate": 1852
+      "latestSinceUpdate": 1853
     },
     {
       "date": "Aug 14",
-      "text": "The US claims it can maintain a blockade on Iran 'indefinitely'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1852
-    },
-    {
-      "date": "Aug 14",
-      "text": "Eleven people were killed in Israeli strikes on southern Lebanon, according to authorities.",
+      "text": "Eleven people were killed in Israeli strikes on southern Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1852
+      "latestSinceUpdate": 1853
     },
     {
       "date": "Aug 14",
-      "text": "Iran claims Qatar is holding pilots.",
+      "text": "Iran claims Qatar is holding its pilots.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 1852
+      "latestSinceUpdate": 1853
     },
     {
       "date": "Aug 14",
-      "text": "Iran launched missile and drone attacks across the Gulf as Israel struck Tehran infrastructure.",
+      "text": "The US Embassy in Riyadh was attacked.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Newsonair",
-      "latestSinceUpdate": 1852
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 1853
+    },
+    {
+      "date": "Aug 14",
+      "text": "The UAE reports Iran attacked an ADNOC vessel in Hormuz and urges the waterway's reopening.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1853
     }
   ],
   "sourceStatuses": [
