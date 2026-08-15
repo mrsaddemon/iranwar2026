@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1856,
+  "updateSequence": 1857,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T20:51:40.529Z",
+  "lastSyncedAt": "2026-08-15T21:05:33.928Z",
   "warDay": 169,
-  "summary": "The West Asia conflict has escalated with US and Israeli strikes, multiple tanker attacks in the Strait of Hormuz, and heightened rhetoric regarding the waterway's control.",
+  "summary": "The conflict in the Middle East continues to escalate with US and Israeli strikes on Iran and Lebanon, Iranian attacks on tankers in the Strait of Hormuz, and heightened rhetoric regarding control of the waterway.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active; the conflict shows signs of escalation."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 63
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.87
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 25,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "globalPressure": 85,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
+      "text": "A US carrier group is reportedly headed to the Middle East to replace the USS Lincoln.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1856
+      "latestSinceUpdate": 1857
     },
     {
       "date": "Aug 14",
@@ -76,41 +76,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 14",
-      "text": "Eleven people were killed in Israeli strikes on southern Lebanon after Hezbollah wounded three IDF soldiers.",
+      "text": "Israeli strikes reportedly killed eleven people in southern Lebanon.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1856
+      "latestSinceUpdate": 1857
     },
     {
       "date": "Aug 14",
-      "text": "The UAE reported that Iran attacked an ADNOC vessel in the Strait of Hormuz, urging the waterway's reopening, following two other tanker attacks within a week.",
+      "text": "US-Israel strikes hit Iran, and the US Embassy in Riyadh was attacked.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1856
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 1857
     },
     {
       "date": "Aug 14",
-      "text": "The US Embassy in Riyadh was attacked amidst escalating conflict.",
+      "text": "Iran reportedly targeted tankers in 'unprovoked attacks' in the Strait of Hormuz, according to the UAE.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1856
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBWbGN2eXRreVRtbzJ4SnZxOGZzNXkzNy1fMkNuUHFlSkx1RHJpMjFYUEJUVlFpUVRyV2V5Q013cUtaaGg4Y1VrYjZMd181dzF2LXNOX3pnZFNDajNETmJfaWh2cXZpMjdnODNzcExKWGVUSzBRUkI4YUVTOHJIZHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1857
     },
     {
       "date": "Aug 14",
-      "text": "The U.S. military has lost roughly 25% of its Reaper drones as the Iran war depletes its arsenal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1856
+      "text": "Two UAE tankers were attacked while transiting the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxOU19BM2l2RGhNUW5aWGxpdXJRU1QwVWtzekJ1ckw2bUdzWlhBSWcxX3U3T1JVblRkYW92MEhkaS1rakhweUN6MnlYc0xVbzVQcUtwdXRBbGFPUzV5T2Q5a3lmbVNqdE0zZFgyT0J3OGt6bzlwT1dWb2dtdVBieEtuOVFQXzdlNFdzUm8tU3FrV1JQS1hEUGpscjl3Q1BRczR4RlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1857
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
