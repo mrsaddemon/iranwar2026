@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1816,
+  "updateSequence": 1817,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T03:47:40.924Z",
+  "lastSyncedAt": "2026-08-15T04:14:57.021Z",
   "warDay": 169,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, with calls for renewed strikes and ongoing military actions."
+    "summary": "No active ceasefire is in effect; mediators are pushing for talks while conflict continues and a proposed Lebanon-Israel deal was rejected."
   }
 }
