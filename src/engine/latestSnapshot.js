@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1846,
+  "updateSequence": 1847,
   "lastUpdated": "2026-08-15",
-  "lastSyncedAt": "2026-08-15T16:54:22.221Z",
+  "lastSyncedAt": "2026-08-15T17:28:08.769Z",
   "warDay": 169,
-  "summary": "The Iran War continues with escalating conflict in the Middle East, including US military deployments, attacks in the Strait of Hormuz, and cross-border strikes between Israel and Lebanon.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-15",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active; conflict continues to escalate across multiple fronts."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln, according to a US official.",
-      "severity": "warning",
+      "date": "Aug 15",
+      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1846
+      "latestSinceUpdate": 1847
     },
     {
-      "date": "Aug 14",
-      "text": "Former President Trump states he will declare the Strait of Hormuz US territory 'pretty soon' when the Iran war ends.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPWTNPV2U3Vl9qZGxBWWptR3ZNalp3dDJheUxpNUIwSVVub1pSc2xqZEgtN2lPOGlqaUVEYlJuV1RyM2EtM1R2N1AxZ08xdXFWUjhCd2Ewa25UaGhSblpVcHYyc0RMZUpPdm5ZR1RVaDMxWHQ5MXE4MWJ5Z3NfTGJWb2EwN21TNXMtMDRzS1NvM2hRaU9TYW4yNVhCZFN2a0JYc1FxN2pnQ25LdzVrTHFxdWlrSDZMVWs1QkNRVTFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1846
+      "date": "Aug 15",
+      "text": "Iran war updates: Trump says will declare Hormuz US territory ‘pretty soon’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1847
     },
     {
-      "date": "Aug 14",
-      "text": "Eleven people were killed in Israeli airstrikes on southern Lebanon, according to Lebanese authorities.",
-      "severity": "critical",
+      "date": "Aug 15",
+      "text": "Iran Update Special Report, August 13, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1847
+    },
+    {
+      "date": "Aug 15",
+      "text": "The Iran War Is a Whole New Level of Quagmire for the US",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 1847
+    },
+    {
+      "date": "Aug 15",
+      "text": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 1846
+      "latestSinceUpdate": 1847
     },
     {
-      "date": "Aug 14",
-      "text": "The West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
-      "severity": "critical",
+      "date": "Aug 15",
+      "text": "West Asia conflict escalates as US‑Israel strikes hit Iran, US Embassy attacked in Riyadh",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Newsonair",
-      "latestSinceUpdate": 1846
-    },
-    {
-      "date": "Aug 14",
-      "text": "The UAE reports Iran attacked an ADNOC vessel in the Strait of Hormuz and urges the waterway's reopening.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "reuters.com",
-      "latestSinceUpdate": 1846
-    },
-    {
-      "date": "Aug 14",
-      "text": "Three IDF soldiers were seriously wounded in an overnight Hezbollah attack, prompting an Israeli army response on 'terror headquarters'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAJBVV95cUxPRENXRjk3a1FqZ3k2eWp1eWkycUxmV1Vkay0wUkZ5dXYzbXRIM1dQa3MyRDgyOFFFYWt3U3UyYUFiUzFacjJJVFF4eVR4amV3cDUtQ0NzLXhkV1ZZRzNUczJpU2RpOU9uU25pNXZvOVJ4cG1VWkdRSGlRdUVKdDlDc2Z1M3ZhcDV3cVNGdVJNa0s0dS1DQ2stZ0VONWtpVjRDdUNsa0ZNb3lGU21wWU8yWWJmSkp5dFpkWEM5TmFsWEJGMVl4QXNrLTFCLUxrYWJiN21VcURZVng5eVFEVXlrRUt5WDE3aVp1UU5aU2tQTEptZ1BYQkNQUzIzNV9LS1pDSXZxaDZxNFZDXzJEbmNkbW9YNFd3LXR5aTlsNnVTMzZCdVdY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Haaretz",
-      "latestSinceUpdate": 1846
+      "latestSinceUpdate": 1847
     }
   ],
   "sourceStatuses": [
