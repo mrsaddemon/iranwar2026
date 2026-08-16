@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1886,
+  "updateSequence": 1887,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T11:49:21.629Z",
+  "lastSyncedAt": "2026-08-16T12:00:22.400Z",
   "warDay": 170,
-  "summary": "The conflict intensifies with ongoing shipping disruptions in the Middle East, an Iranian strike on a ship in the Strait of Hormuz, and escalating Israeli strikes in southern Lebanon.",
+  "summary": "The US-Iran conflict continues with significant naval disruptions in the Strait of Hormuz, escalating Israeli strikes in Lebanon, and US military deployments.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities and rejections of proposed deals."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and rejections of diplomatic deals."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.65,
-        "aggression": 0.9
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 15,
     "escalationLevel": 85,
-    "oilDisruption": 95,
-    "tradeImpact": 84,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -77,7 +77,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 14",
       "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 1884
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 14",
-      "text": "Israeli strikes kill 11 in southern Lebanon after Hezbollah attack.",
+      "text": "Israeli strikes kill 11 in southern Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPT1ZKX0ZEbHRQMERUcWlMNzZYS2U5NGxFamRaS2dpQUFURk50b1VvN3ZVbm1acjdUYXR6UC03OTJBb0x2VGs1bVN2ZXMwVVVaWTRsb2tYTTZYWFNBbVFLb2FaUlJfUklqNzBwSWNSdVpJeFhoV2ZQTFRnS2tMMEtkenowUFdFMkVwelRiRWpjcGc0Z0pOUGdGT2UtSjQxX0hIVFNlbWJjOGN1MGl6aGJpZW9WOHU5bXlrYXfSAb8BQVVfeXFMT2RwX3hnaDZnanQyWWJlclZ1ZUdTTUJINl9tQnpzR292bDlfMnNlZjZuOVJZRkZJakV1SDg0Nmg4ang4anJlZXVqcVp0eXFrRy1xenJDZjhNall4TXBYTVpycm5FeXNfZzc4T04zMjZYcDV5LWpHb3d3Z3kyZGJReDNBWHZRc0Rsak5PRWlRQUU1TVJYQmZ4SFB6TW44d0dTdG9kZ0Nta2NMLTQxRXhNamNIS1hrWURMRmRaRVBieGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1886
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1887
     }
   ],
   "sourceStatuses": [
