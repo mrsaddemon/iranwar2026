@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1902,
+  "updateSequence": 1903,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T19:06:24.777Z",
+  "lastSyncedAt": "2026-08-16T19:29:17.684Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A previous US-Iran ceasefire is reported to be ending, and a US-led Lebanon deal has been rejected by Hezbollah, indicating no active regional ceasefire."
+    "summary": "The US-Iran ceasefire is reported to be collapsing, with significant Israeli strikes in Lebanon indicating a breakdown of previous de-escalation efforts."
   }
 }
