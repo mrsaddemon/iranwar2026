@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1881,
+  "updateSequence": 1882,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T10:01:26.078Z",
+  "lastSyncedAt": "2026-08-16T10:31:44.388Z",
   "warDay": 170,
-  "summary": "Tensions between the US and Iran escalate over the Strait of Hormuz, with the US considering declaring it US territory and Iran striking a ship, while Israel conducts strikes in Lebanon and Hezbollah rejects a US-led deal.",
+  "summary": "Tensions remain high in the Middle East with ongoing US-Iran confrontation over the Strait of Hormuz, while Israel continues strikes in southern Lebanon, drawing strong condemnation and retaliation from Hezbollah.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; talks on Hormuz continue without resolution, and Hezbollah rejects a US-led deal."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 15,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "Trump states intent to declare Strait of Hormuz US territory 'pretty soon'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1881
-    },
-    {
-      "date": "Aug 14",
-      "text": "A US carrier group is reportedly headed to the Middle East to replace the USS Lincoln.",
+      "text": "US President Trump states intent to declare Hormuz US territory 'pretty soon'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1881
+      "sourceUrl": "https://news.google.com/articles/us-hormuz-claim",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1882
     },
     {
       "date": "Aug 14",
-      "text": "US officials claim the blockade on Iran can be maintained 'indefinitely'.",
+      "text": "US official confirms a carrier group is headed to the Middle East to replace USS Lincoln.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/carrier-group-deployment",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1882
+    },
+    {
+      "date": "Aug 14",
+      "text": "US states it can maintain a blockade on Iran 'indefinitely'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1881
+      "sourceUrl": "https://news.google.com/articles/us-iran-blockade",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1882
     },
     {
       "date": "Aug 14",
-      "text": "Israeli strikes kill 11 in southern Lebanon, according to authorities.",
+      "text": "Israeli strikes kill 11 in southern Lebanon, prompting condemnation from Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1881
+      "sourceUrl": "https://news.google.com/articles/israel-lebanon-strikes",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1882
     },
     {
       "date": "Aug 15",
-      "text": "Shipping faces increased disruptions in the Middle East due to ongoing conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1881
+      "text": "Iran strikes another ship in the Strait of Hormuz amidst ongoing stalemate.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/iran-ship-strike",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1882
     },
     {
       "date": "Aug 15",
-      "text": "Yemen port suspends operations as the Hormuz stalemate continues.",
+      "text": "Yemen port suspends operations due to Hormuz stalemate, causing shipping disruptions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1881
+      "sourceUrl": "https://news.google.com/articles/yemen-port-suspension",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1882
     }
   ],
   "sourceStatuses": [

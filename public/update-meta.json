@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1881,
+  "updateSequence": 1882,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T10:01:26.078Z",
+  "lastSyncedAt": "2026-08-16T10:31:44.388Z",
   "warDay": 170,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; talks on Hormuz continue without resolution, and Hezbollah rejects a US-led deal."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   }
 }
