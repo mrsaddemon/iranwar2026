@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1887,
+  "updateSequence": 1888,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T12:00:22.400Z",
+  "lastSyncedAt": "2026-08-16T12:54:30.865Z",
   "warDay": 170,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and rejections of diplomatic deals."
+    "summary": "A previous US-Iran ceasefire appears to have collapsed, and a proposed Lebanon-Israel deal has been rejected by Hezbollah."
   }
 }
