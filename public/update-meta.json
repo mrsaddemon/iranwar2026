@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1889,
+  "updateSequence": 1890,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T13:37:52.186Z",
+  "lastSyncedAt": "2026-08-16T14:02:03.838Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "The US-Iran memorandum of understanding is approaching expiration, and active hostilities including ship strikes and Israeli attacks suggest the ceasefire has collapsed."
+    "summary": "The US-Iran ceasefire is reported to be nearing its end, while a June ceasefire between Israel and Lebanon appears to have been violated by recent Israeli strikes."
   }
 }
