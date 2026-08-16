@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1884,
+  "updateSequence": 1885,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T11:06:25.395Z",
+  "lastSyncedAt": "2026-08-16T11:30:39.539Z",
   "warDay": 170,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "A ceasefire in southern Lebanon appears to have collapsed following Israeli strikes and Hezbollah attacks."
+    "summary": "No active ceasefire is in effect; hostilities continue in multiple theaters."
   }
 }
