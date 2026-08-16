@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1892,
+  "updateSequence": 1893,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T14:52:17.440Z",
+  "lastSyncedAt": "2026-08-16T15:07:49.182Z",
   "warDay": 170,
-  "summary": "The Middle East faces escalating conflict with Israeli strikes in Lebanon, a reported end to the US-Iran ceasefire, and significant disruptions to critical shipping lanes.",
+  "summary": "The US-Iran conflict continues with escalating tensions around key shipping straits, Israeli strikes in Lebanon, and the looming end of a ceasefire.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "The US-Iran ceasefire is reported to be ending, with ongoing hostilities and threats indicating its collapse."
+    "summary": "The US-Iran ceasefire is reportedly nearing its end, with talks stalled and tensions rising."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 15,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
     "sanctionsPressure": 54,
     "globalPressure": 66,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,6 +60,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 15",
+      "text": "Shipping faces increased disruptions in the Middle East.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1893
+    },
+    {
+      "date": "Aug 15",
+      "text": "Former President Trump threatens to declare the Strait of Hormuz US territory.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNEVudV9fZFI2N0NBNnYwNlAzTjJfTGl2Zm9tNWgwU3RMb19Gd0VvZE1VbmlQbERPOXgwQ1JoUHRFNVZ0VUZlU3hVN2x4ajE0TWNqN05tVmhoNGNyV2J5WkxvMGhwMVhiSUxrT0pjdTBfT3ppSi1tRW1DR3hRellKdl9HU3UtSUFlZkR3WEFCanRTejVCNWJ0djF3anhXOVY1Y3VLV0cxR3pqR2vSAbABQVVfeXFMT01DTmVnOU9kYVE3RlhHcVg2YlEtVU9tdUFpZ1dwakdWa2t5V3dwb1h5NE1Gb2RzRm5GTXhtbHJiMUppNHJ4MFlKQTVGTnc4RVduY0R6eGsya08xdnoxNUVQVzVrbU9LVzVjZkpRd1RENDBHamp5aTBpSmxfTzlVRXBFOEFteGlyS1lST3FheTZvWEZuRm14eW9iU3MxMnpEaUFNMVYxMDgtSWYxWEhtQ3g?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1893
+    },
+    {
+      "date": "Aug 15",
       "text": "Israeli strikes in southern Lebanon kill at least 11 people.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?hl=en-US&gl=US&ceid=US:en",
@@ -68,49 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 15",
-      "text": "Shipping faces increased disruptions in the Middle East, with growing threats to the Bab el-Mandeb Strait and ongoing Hormuz disruption.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1892
-    },
-    {
-      "date": "Aug 15",
-      "text": "Former President Trump indicates intent to declare the Strait of Hormuz US territory.",
+      "text": "The end of the US-Iran ceasefire looms amidst ongoing Israeli strikes in Lebanon.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1892
+      "latestSinceUpdate": 1893
     },
     {
       "date": "Aug 15",
-      "text": "The end of the US-Iran ceasefire looms amidst continued hostilities.",
-      "severity": "critical",
+      "text": "The Bab el-Mandeb Strait faces growing threats from Houthi attacks, raising fears of further shipping disruptions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPcWZ4Y3pCY2JPd1Q3NDhQem9ueXlmOVFzX05Rb20zcVNacTdSRHd0REU1LUJiUlJ3MW5qWlNtOVlOOU8yZmd5UHRESE1odm5NMkFqWFlPdlZ2YXowdl80TGZ1d0VRc0l5OHRjMnVnQlFZSkwtajBZZFFISFNaNmpISDNWd2N0bVVhNnY1M1IxOWstWGpKb1ZOcFJOTFk0UUNJYWJQclhhZG8yNFdfN205TFpn0gG3AUFVX3lxTFBMbVBaay1Kal9NaTNkb0p3MlU5eWY1YVNOSjlERXl2ckxqZHNuU3h1a0JzUjFXUzRWSVdrbzRYd2RJaGpWNU9uSnhGYmVtZVFkVUk2TVpjRGRZbDRFNkpnWUttTmV1MkhhU2JZb1JvRlYtRXdtSEtfUU9QRWduaUIxVU5TR25IaG1YS0xqaGMtZVJveFRUUVlDbnE3T0pxQW9ZZV9rSnI3d0NuRXJYY0Qxc1IxQWFLMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 1893
+    },
+    {
+      "date": "Aug 15",
+      "text": "Hezbollah chief rejects a US-led Lebanon deal, calling it humiliating.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1892
-    },
-    {
-      "date": "Aug 15",
-      "text": "Hezbollah chief rejects a US-led Lebanon-Israel deal, calling for its reversal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPa2twdmg3eDBpM05Hd3piS251eU5oYkxxNTFyc1NkdlZ4bFM0a2drbi0tTzVLbEhENncwQmhpakdUOU9GZFlJWWlRR1BSOWptN0xMU0RGdDJHbkNxWHlhR193d2NKWTBGV2EzUFM5bm5ZRmlwZC1NNjRmemZzaF9FVVh2Q2xyMjd1a0hwMVA1RWxQTE5zRzN5REduWWpJRzlsOURFMW9MaWoyQdIBrwFBVV95cUxNM0lvdDl0UWJMZ3FEMHExdko0WXQtcU9PSmsta2lQT2RRQTNfRUJENU5WN0NFOUtPeTVNWDJvLWNXMktrcThPaVFDNTdUYlNBbGVPMWZFbklLbWVqUjkxX01xMXFiWUkyczZqSnJGNTBSa05BTUkzaG5xTEVoMlQwN2VqYnloZVpkV005dnFndHdQWEFfMVY0eWZNdTlmYWRncTlfUGhQSGpWUzdJTHVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1892
-    },
-    {
-      "date": "Aug 15",
-      "text": "Iranian military chief places a $30,000 bounty on killed or captured US soldiers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE0xQzRkd0NEaGdQVy1IZ3BCczRKVFNLWUh1bEliTjFfMmRibkpYbHVlLW5QNlhoZWRVbWNucGJpYXlQTWJNNEVIZzhoYTJwR2NzYlNkZ19mMHlYZE9p?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1892
+      "latestSinceUpdate": 1893
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

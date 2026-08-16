@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1892,
+  "updateSequence": 1893,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T14:52:17.440Z",
+  "lastSyncedAt": "2026-08-16T15:07:49.182Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "The US-Iran ceasefire is reported to be ending, with ongoing hostilities and threats indicating its collapse."
+    "summary": "The US-Iran ceasefire is reportedly nearing its end, with talks stalled and tensions rising."
   }
 }
