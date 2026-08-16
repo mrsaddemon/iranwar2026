@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1909,
+  "updateSequence": 1910,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T21:28:35.376Z",
+  "lastSyncedAt": "2026-08-16T21:48:35.275Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A US-Iran ceasefire appears to have collapsed amidst renewed hostilities and threats, while Israel continues strikes in Lebanon."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
