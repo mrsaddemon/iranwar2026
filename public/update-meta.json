@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1900,
+  "updateSequence": 1901,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T18:00:04.936Z",
+  "lastSyncedAt": "2026-08-16T18:39:58.248Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The US-Iran ceasefire is reportedly nearing its end, while a truce between Lebanon and Israel is under severe strain following Israeli strikes and Hezbollah's rejection of a deal."
   }
 }

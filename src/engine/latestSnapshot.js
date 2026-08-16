@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1900,
+  "updateSequence": 1901,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T18:00:04.936Z",
+  "lastSyncedAt": "2026-08-16T18:39:58.248Z",
   "warDay": 170,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "Tensions in the Middle East are escalating with the looming end of a US-Iran ceasefire, increased Israeli strikes in Lebanon, and heightened rhetoric and actions around the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The US-Iran ceasefire is reportedly nearing its end, while a truce between Lebanon and Israel is under severe strain following Israeli strikes and Hezbollah's rejection of a deal."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 51
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 16",
-      "text": "August 15, 2026 — Shipping faces more disruptions in the Middle East",
+      "date": "Aug 15",
+      "text": "Shipping faces more disruptions in the Middle East.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1899
+      "latestSinceUpdate": 1901
     },
     {
-      "date": "Aug 16",
-      "text": "Iran war updates: Trump says will declare Hormuz US territory ‘pretty soon’",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1899
+      "date": "Aug 15",
+      "text": "Trump states intent to declare Strait of Hormuz US territory 'pretty soon'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1901
     },
     {
-      "date": "Aug 16",
-      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1899
+      "date": "Aug 15",
+      "text": "Middle Eastern airlines are projected to face $4.3bn in losses in 2026 due to the war.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1901
     },
     {
-      "date": "Aug 16",
-      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
+      "date": "Aug 14",
+      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1899
+      "latestSinceUpdate": 1901
     },
     {
-      "date": "Aug 16",
-      "text": "Israel Strikes Lebanon as End of US-Iran Ceasefire Looms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOQlQ2TTRnS1c5aHBnVlgxWUNmSWJVMXpDNFpzNEROTWNXVDFib29UdkZRTE05aHFCdTFrZHJoaHY4WUFramp4VFVodk9ZOEdyN0dpd001ZGk0ZWdGUnkwXy1OQVZ3NmtXQk13N2RoWWFaZm5XRTd1T0o3aERlYk5JUUZQN3Y5azR5bS01RUtNVzhGejUzN1NtSUFVbEdSUEhnaW1jcThCTWlHQkk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bloomberg.com",
-      "latestSinceUpdate": 1899
+      "date": "Aug 14",
+      "text": "The end of the US-Iran ceasefire looms amidst regional instability.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1901
     },
     {
-      "date": "Aug 16",
-      "text": "Iran claims Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1899
+      "date": "Aug 14",
+      "text": "Israeli airstrikes in southern Lebanon kill at least 11 people.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOX2ZUYmxHT0l6eDJHcjM1UjY5eGUxSnhTZHduODFQbUh4M25uZk54TG1EaXBILTN0TDRudUJ3TVMzaFNxRFZYN1Rnck4wQXc1R1dxcWdhakp6TVJWVUw3Qk9zMUxVc1FYRmJaZWRzeTJiaGc4R29KMDZSYlNHaEhnMjUzS0g2a1haUzZaUkVTUDFzSS1UcnBpV1Btbmw0SUZPRnc2c1dGbzZNOUVpT1HSAbMBQVVfeXFMTTBuMzFBQXk0QldMdklYWTJodUd2aVBtUVhFSVIyQWNYcnVacVFIV1Z3aVVybWRMZXp2eDVxWXNMSE9qSXFpeThxdEFSN21lYnFacE4yRmtQc3NmanJXSjg5NTJWSFhFSVBfR01TOWNwaHZjeW5jVGtPVTZUdTJ5MW9VeG92dGd1ZjdqeVFEUElBTWZtbG9zVUZMMFZpRHQ4cGpGcGlMQmV4WFdNM3JGZXJiM0k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 1901
     }
   ],
   "sourceStatuses": [
