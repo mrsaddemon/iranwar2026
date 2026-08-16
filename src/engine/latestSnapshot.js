@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1893,
+  "updateSequence": 1894,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T15:07:49.182Z",
+  "lastSyncedAt": "2026-08-16T15:40:10.270Z",
   "warDay": 170,
-  "summary": "The US-Iran conflict continues with escalating tensions around key shipping straits, Israeli strikes in Lebanon, and the looming end of a ceasefire.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "status": "active",
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "The US-Iran ceasefire is reportedly nearing its end, with talks stalled and tensions rising."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 15",
-      "text": "Shipping faces increased disruptions in the Middle East.",
+      "date": "Aug 16",
+      "text": "August 15, 2026 — Shipping faces more disruptions in the Middle East",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1893
+      "latestSinceUpdate": 1894
     },
     {
-      "date": "Aug 15",
-      "text": "Former President Trump threatens to declare the Strait of Hormuz US territory.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNEVudV9fZFI2N0NBNnYwNlAzTjJfTGl2Zm9tNWgwU3RMb19Gd0VvZE1VbmlQbERPOXgwQ1JoUHRFNVZ0VUZlU3hVN2x4ajE0TWNqN05tVmhoNGNyV2J5WkxvMGhwMVhiSUxrT0pjdTBfT3ppSi1tRW1DR3hRellKdl9HU3UtSUFlZkR3WEFCanRTejVCNWJ0djF3anhXOVY1Y3VLV0cxR3pqR2vSAbABQVVfeXFMT01DTmVnOU9kYVE3RlhHcVg2YlEtVU9tdUFpZ1dwakdWa2t5V3dwb1h5NE1Gb2RzRm5GTXhtbHJiMUppNHJ4MFlKQTVGTnc4RVduY0R6eGsya08xdnoxNUVQVzVrbU9LVzVjZkpRd1RENDBHamp5aTBpSmxfTzlVRXBFOEFteGlyS1lST3FheTZvWEZuRm14eW9iU3MxMnpEaUFNMVYxMDgtSWYxWEhtQ3g?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 16",
+      "text": "Iran war updates: Trump says will declare Hormuz US territory ‘pretty soon’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1893
+      "latestSinceUpdate": 1894
     },
     {
-      "date": "Aug 15",
-      "text": "Israeli strikes in southern Lebanon kill at least 11 people.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1892
+      "date": "Aug 16",
+      "text": "Iran Update Special Report, August 13, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNRjFlY3pNaGNmVGVHYWp5NkVRUmd5aGc5ZHRpSDhlR0ljczl4RXRrdUQyeG9UcUtjMUVlZ29XSC1EYlh2dGktNkRrVXl0Uml1LXhpLUVkZ1lrY0lqVHZ6S0pjZWRiYTAwQzNoX3pnQmNvZDI1Tmw2bU5kT2EtcmdIeS1hVS1GNWZHUVRQUzN4U0Vob1psSExZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1894
     },
     {
-      "date": "Aug 15",
-      "text": "The end of the US-Iran ceasefire looms amidst ongoing Israeli strikes in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1893
+      "date": "Aug 16",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 1894
     },
     {
-      "date": "Aug 15",
-      "text": "The Bab el-Mandeb Strait faces growing threats from Houthi attacks, raising fears of further shipping disruptions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPcWZ4Y3pCY2JPd1Q3NDhQem9ueXlmOVFzX05Rb20zcVNacTdSRHd0REU1LUJiUlJ3MW5qWlNtOVlOOU8yZmd5UHRESE1odm5NMkFqWFlPdlZ2YXowdl80TGZ1d0VRc0l5OHRjMnVnQlFZSkwtajBZZFFISFNaNmpISDNWd2N0bVVhNnY1M1IxOWstWGpKb1ZOcFJOTFk0UUNJYWJQclhhZG8yNFdfN205TFpn0gG3AUFVX3lxTFBMbVBaay1Kal9NaTNkb0p3MlU5eWY1YVNOSjlERXl2ckxqZHNuU3h1a0JzUjFXUzRWSVdrbzRYd2RJaGpWNU9uSnhGYmVtZVFkVUk2TVpjRGRZbDRFNkpnWUttTmV1MkhhU2JZb1JvRlYtRXdtSEtfUU9QRWduaUIxVU5TR25IaG1YS0xqaGMtZVJveFRUUVlDbnE3T0pxQW9ZZV9rSnI3d0NuRXJYY0Qxc1IxQWFLMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1893
+      "date": "Aug 16",
+      "text": "Iran claims Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1894
     },
     {
-      "date": "Aug 15",
-      "text": "Hezbollah chief rejects a US-led Lebanon deal, calling it humiliating.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1893
+      "date": "Aug 16",
+      "text": "Israel Strikes Lebanon as End of US-Iran Ceasefire Looms",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOQlQ2TTRnS1c5aHBnVlgxWUNmSWJVMXpDNFpzNEROTWNXVDFib29UdkZRTE05aHFCdTFrZHJoaHY4WUFramp4VFVodk9ZOEdyN0dpd001ZGk0ZWdGUnkwXy1OQVZ3NmtXQk13N2RoWWFaZm5XRTd1T0o3aERlYk5JUUZQN3Y5azR5bS01RUtNVzhGejUzN1NtSUFVbEdSUEhnaW1jcThCTWlHQkk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 1894
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
