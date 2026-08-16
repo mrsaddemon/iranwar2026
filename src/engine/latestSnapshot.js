@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1879,
+  "updateSequence": 1880,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T09:10:31.624Z",
+  "lastSyncedAt": "2026-08-16T09:45:12.650Z",
   "warDay": 170,
-  "summary": "The US-Iran conflict continues with US assertions over the Strait of Hormuz and Iranian counter-actions, while Israel conducts strikes in Lebanon amidst Hezbollah's rejection of a US-led deal.",
+  "summary": "The US-Iran conflict intensifies with US claims over the Strait of Hormuz and an ongoing blockade, while Iran strikes another ship and Israel escalates attacks in Lebanon, leading to significant shipping disruptions.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported between major parties."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and diplomatic rejections of peace deals."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 5,
-    "escalationLevel": 90,
+    "nuclearIndex": 15,
+    "escalationLevel": 88,
     "oilDisruption": 85,
     "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 14",
-      "text": "Trump states intent to declare Hormuz US territory 'pretty soon' as a US carrier group heads to the Middle East.",
+      "text": "Trump states the US will declare Hormuz US territory 'pretty soon' as a carrier group heads to the Middle East.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1879
+      "latestSinceUpdate": 1880
     },
     {
       "date": "Aug 14",
-      "text": "US official states the US can maintain a blockade on Iran 'indefinitely'.",
+      "text": "The US claims it can maintain a blockade on Iran 'indefinitely', while reports suggest the Iran War is a 'whole new level of quagmire'.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1879
+      "latestSinceUpdate": 1880
     },
     {
       "date": "Aug 14",
-      "text": "Iran claims Qatar is holding pilots amidst ongoing Middle East news.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1879
-    },
-    {
-      "date": "Aug 14",
-      "text": "Israeli strikes kill at least 11 in southern Lebanon, condemned by Iran's Foreign Ministry.",
+      "text": "Israeli strikes kill 11 in southern Lebanon, prompting condemnation from Iran's Foreign Ministry.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1879
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1880
     },
     {
       "date": "Aug 14",
+      "text": "Iran claims Qatar is holding downed pilots, a claim Qatar denies.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxOc1FhckE3bmh1REl0TnQxN2NrSUR3YmtmcVpCc3JGVXgtZmFFR1BlU3N3WkJCalRQU3YzS2Y3UDlBMng5X1dSeWpqRExRNWFSS2trSnRRMDdDV1RIM1JtOG51T2dtS3RFUGZxdXhlNTRoNTI5cktkU1JfeFNyNnp0QVFURV9hWG1ySjFxcHhaMU1nSU5qM1RVVklqU2JPVFhLeWFoZGFERWhRQ0NlNTRnb3ZJQmlDN1N4NWR6R3VJbmRaS1pMdUpaU2VyOWF0Ty1hOG9kdTFXQU95X0k0MDJR0gHmAUFVX3lxTFBWaUFRdUFGS3VzOFhtRzQxMHNqS210MzdnRW1MTUQ4R1Iwdm9hSzE2ZDdrYTJUanJnS0tRdXdCZUZ4eGFTdnNqUUUyY2xaSEZ2V3N2eVdwUzNhZHV1aEg5ZjVYTlZsQ1JUOUJPRVRoamEzQlBUMTNvSHp0dk03N2paaEE0NEpoSDJaal9wc21zTzlHNk5WQjhwMXhVYU9USFN2SHJJWFZldHVjREFPY1lHVXE1aGpsVi05cDhaTWpTeE94Z2RKSlJxelczN2E0Vm15eHJuNF9DSGQ2eS11MjhnblhZOC1R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 1880
+    },
+    {
+      "date": "Aug 15",
+      "text": "Shipping faces more disruptions in the Middle East, with a Yemen port suspending operations as the Hormuz stalemate continues.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1880
+    },
+    {
+      "date": "Aug 15",
       "text": "Iran strikes another ship in the Strait of Hormuz as Israel steps up Lebanon attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1879
-    },
-    {
-      "date": "Aug 14",
-      "text": "Talks on Hormuz Strait continue; Yemen port suspends operations due to stalemate.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
-      "latestSinceUpdate": 1879
+      "latestSinceUpdate": 1880
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
