@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1901,
+  "updateSequence": 1902,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T18:39:58.248Z",
+  "lastSyncedAt": "2026-08-16T19:06:24.777Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "The US-Iran ceasefire is reportedly nearing its end, while a truce between Lebanon and Israel is under severe strain following Israeli strikes and Hezbollah's rejection of a deal."
+    "summary": "A previous US-Iran ceasefire is reported to be ending, and a US-led Lebanon deal has been rejected by Hezbollah, indicating no active regional ceasefire."
   }
 }

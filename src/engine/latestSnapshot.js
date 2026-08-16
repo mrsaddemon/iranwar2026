@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1901,
+  "updateSequence": 1902,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T18:39:58.248Z",
+  "lastSyncedAt": "2026-08-16T19:06:24.777Z",
   "warDay": 170,
-  "summary": "Tensions in the Middle East are escalating with the looming end of a US-Iran ceasefire, increased Israeli strikes in Lebanon, and heightened rhetoric and actions around the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "The US-Iran ceasefire is reportedly nearing its end, while a truce between Lebanon and Israel is under severe strain following Israeli strikes and Hezbollah's rejection of a deal."
+    "summary": "A previous US-Iran ceasefire is reported to be ending, and a US-led Lebanon deal has been rejected by Hezbollah, indicating no active regional ceasefire."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 64,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,27 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 15",
-      "text": "Shipping faces more disruptions in the Middle East.",
+      "text": "Shipping faces more disruptions in the Middle East due to ongoing conflict.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1901
+      "latestSinceUpdate": 1902
     },
     {
       "date": "Aug 15",
-      "text": "Trump states intent to declare Strait of Hormuz US territory 'pretty soon'.",
+      "text": "Former President Trump states he will declare the Strait of Hormuz US territory 'pretty soon'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPVzFraWFiZjd3WFg5eEpZNXRMdDFPZUlvTmpHYkM2QXNBUkQ2TjR5NUctNUJPZ1hKMnFtdWtKOFFNTkFTc0s0R3hYZFdfQ3ZHLWlMTFE3RWRranQ4aExKMkMzZzl4SWt2UGQzYjRJbHo5UVhINWVpX25rUzhKdkV0LW5WTG5nRUtTTmJwUU0wd2IzZnpKM296NtIBngFBVV95cUxQbUI0ZVg5NHQ4T05ScnpPVHptMHY2RFZReVp3NGdlbWtjMGlVMDNSVk8tN0M1N1BpUkU0b2pmcDRKM1ZRSl9XekxfYjExdHNtWVdVTklCMkpyd0RWVmZ6SGdTdUxyV2l0ZTU5ZFM4YWZFZndRaklFdzZkVU82cFB3RjQyOUtBbWs5aDFXRFEwZkpLMFNVbVJSeVlqT3h6Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 1901
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1902
     },
     {
       "date": "Aug 15",
-      "text": "Middle Eastern airlines are projected to face $4.3bn in losses in 2026 due to the war.",
+      "text": "The Iran war is projected to push Middle Eastern airlines towards a $4.3 billion loss in 2026.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1901
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 1902
     },
     {
       "date": "Aug 14",
@@ -92,19 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 14",
-      "text": "The end of the US-Iran ceasefire looms amidst regional instability.",
+      "text": "Israel strikes southern Lebanon, killing at least 11 people, as the end of a US-Iran ceasefire looms.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1901
+      "latestSinceUpdate": 1902
     },
     {
       "date": "Aug 14",
-      "text": "Israeli airstrikes in southern Lebanon kill at least 11 people.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxOX2ZUYmxHT0l6eDJHcjM1UjY5eGUxSnhTZHduODFQbUh4M25uZk54TG1EaXBILTN0TDRudUJ3TVMzaFNxRFZYN1Rnck4wQXc1R1dxcWdhakp6TVJWVUw3Qk9zMUxVc1FYRmJaZWRzeTJiaGc4R29KMDZSYlNHaEhnMjUzS0g2a1haUzZaUkVTUDFzSS1UcnBpV1Btbmw0SUZPRnc2c1dGbzZNOUVpT1HSAbMBQVVfeXFMTTBuMzFBQXk0QldMdklYWTJodUd2aVBtUVhFSVIyQWNYcnVacVFIV1Z3aVVybWRMZXp2eDVxWXNMSE9qSXFpeThxdEFSN21lYnFacE4yRmtQc3NmanJXSjg5NTJWSFhFSVBfR01TOWNwaHZjeW5jVGtPVTZUdTJ5MW9VeG92dGd1ZjdqeVFEUElBTWZtbG9zVUZMMFZpRHQ4cGpGcGlMQmV4WFdNM3JGZXJiM0k?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 1901
+      "text": "Iran claims Qatar is holding pilots, while Iran and Oman hold talks on the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1902
     }
   ],
   "sourceStatuses": [
