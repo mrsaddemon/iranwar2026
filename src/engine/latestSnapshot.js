@@ -1,110 +1,110 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1873,
+  "updateSequence": 1874,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T05:46:04.796Z",
+  "lastSyncedAt": "2026-08-16T06:03:28.255Z",
   "warDay": 170,
-  "summary": "A US carrier group is deploying to the Middle East amidst escalating tensions, including US threats of an indefinite blockade against Iran, multiple Iranian attacks on UAE tankers in the Strait of Hormuz, and deadly Israeli strikes in southern Lebanon following Hezbollah attacks.",
+  "summary": "The US-Iran conflict continues with a US carrier group deployment and threats of an indefinite blockade, while Iran targets tankers in the Strait of Hormuz and Israel escalates strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire is active; conflict and escalation are ongoing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.88
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.87
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
-    "oilDisruption": 88,
-    "tradeImpact": 79,
-    "sanctionsPressure": 68,
-    "globalPressure": 90,
-    "allianceInfluence": 73
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Aug 16",
-      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
+      "date": "Aug 14",
+      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1873
+      "latestSinceUpdate": 1874
     },
     {
-      "date": "Aug 16",
-      "text": "Iran war updates: Trump says will declare Hormuz US territory ‘pretty soon’",
-      "severity": "info",
+      "date": "Aug 14",
+      "text": "Former President Trump states he will declare Hormuz US territory 'pretty soon'.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1873
+      "latestSinceUpdate": 1874
     },
     {
-      "date": "Aug 16",
-      "text": "Iran war updates: US says can maintain blockade on Iran ‘indefinitely”",
+      "date": "Aug 14",
+      "text": "The US says it can maintain a blockade on Iran 'indefinitely'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1873
+      "latestSinceUpdate": 1874
     },
     {
-      "date": "Aug 16",
-      "text": "The Iran War Is a Whole New Level of Quagmire for the US",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 1873
-    },
-    {
-      "date": "Aug 16",
-      "text": "Iran claims Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news",
+      "date": "Aug 14",
+      "text": "Iran claims Qatar is holding pilots.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "apnews.com",
-      "latestSinceUpdate": 1873
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1874
     },
     {
-      "date": "Aug 16",
-      "text": "Eleven killed in Israeli strikes on southern Lebanon, authorities say",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1873
+      "date": "Aug 14",
+      "text": "Israeli strikes kill at least 11 in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1874
+    },
+    {
+      "date": "Aug 14",
+      "text": "Israel expresses desire for 'more serious' talks with Lebanon after deadly strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizwFBVV95cUxPOVBoX2ctclp4SHVTQ2s0OHhabmhJOW15WHpaZkRFYmhwb3FiYVZjT1NsMUJjb3dxT2ZuSEVTMTBpYldBaWFKbTY4X1FFcU1Vc1BSMmxzNDNjQkJFRFlBN25rV2tpNDRwaG56eGFqUEdLVldHVVBXUTA4MkdYbVRtLUVEWkwyN1BmWDZ4NHFZYWg2RVJ2bEluZzJtc2s2V2ZHXzhpdzIycnlTcmR3d3loRGhLOVNPeUJubUphX1dYLWRpMUJwMThZM1ZVcjI3eFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1874
     }
   ],
   "sourceStatuses": [
