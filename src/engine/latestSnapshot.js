@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1916,
+  "updateSequence": 1917,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T23:48:55.562Z",
+  "lastSyncedAt": "2026-08-16T23:59:19.663Z",
   "warDay": 170,
-  "summary": "Ongoing conflict sees Israel conducting strikes in Lebanon and Gaza as a US-Iran ceasefire is due to lapse, while shipping in the Strait of Hormuz faces disruptions amid Iranian threats and US military deployments.",
+  "summary": "The US-Iran ceasefire has lapsed, leading to increased Israeli military actions in Lebanon and Gaza, while shipping through the Strait of Hormuz faces disruptions amid heightened US-Iran tensions and military posturing.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A US-Iran ceasefire is due to lapse, with Israel conducting strikes in Lebanon and Gaza, despite diplomatic efforts to save a Gaza truce."
+    "summary": "A previously active US-Iran ceasefire has lapsed, leading to renewed Israeli military actions in Lebanon and Gaza."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.3,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "globalPressure": 63,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 15",
-      "text": "Shipping faces more disruptions in the Middle East, with Middle Eastern airlines projected to lose $4.3bn in 2026 due to the Iran war.",
+      "text": "Shipping faces more disruptions in the Middle East.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1916
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1917
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 1917
     },
     {
       "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln, as mediators push US-Iran talks.",
+      "text": "Carrier group headed to Middle East to replace USS Lincoln, US official says.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1916
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1917
     },
     {
       "date": "Aug 14",
-      "text": "Israel strikes Lebanon, killing 11, and Gaza as a US-Iran ceasefire is due to lapse and the U.S. prepares fresh Iran sanctions.",
+      "text": "Israel Strikes Lebanon With US-Iran Ceasefire Due to Lapse.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQSVNUazhGWkNMSDlmWmFILUp3TFBPX2c2Ym5CeUJZQS1LSjN3MmY0bGx5R1BEV3JhYjN3NHprX1Bhd1dqZWlfOHo3WWEwVmRTUF92VGVlc0U1REJIaVE2MHlJT0RtWWs2UmFMVDBHelh1djNWUU9FQi1OQjM1Vy1QWXVhaU9zb0otcDFzWGs4SmlMa3JSUUJPTDBGQTZhNEhiMmRDOC16MnBoUE5yblBQRlZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 1917
+    },
+    {
+      "date": "Aug 14",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1916
+      "latestSinceUpdate": 1917
     },
     {
       "date": "Aug 14",
-      "text": "Shipping data shows a sharp drop in Hormuz traffic over the weekend after Iranian attacks, with the Strait of Hormuz slowing.",
+      "text": "IDF kills senior Hezbollah commander after three soldiers wounded in Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxQa203ZFprc2ppTVRSUnBfUTNvM05BRlloYWlnWU9HeVkzNnlSWmRZU0hpaDZPYTVTaDExZDRPN3ExWndRd21lR19Jcm9ib3pxaDRielRLT0poTzFTZnY0SktRd3hwSm5SbC1MQ3M5djYtZnFzOHE2b3dfOHROSmZ3empZUUJKeHNtczRZeWdTZlZKNmw0ckdvOTY2dTVOVFFLeWtiWVFfaWxmaDZ3eWlJSEk1U3RUVm5HX0Q0aGpmYk9UNEVib2JEcG91cXp4UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1916
-    },
-    {
-      "date": "Aug 14",
-      "text": "Trump threatens to make the Strait of Hormuz a US territory, prompting Iran’s army chief to issue a defiant response and a $30,000 bounty for killing or capturing US soldiers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNEVudV9fZFI2N0NBNnYwNlAzTjJfTGl2Zm9tNWgwU3RMb19Gd0VvZE1VbmlQbERPOXgwQ1JoUHRFNVZ0VUZlU3hVN2x4ajE0TWNqN05tVmhoNGNyV2J5WkxvMGhwMVhiSUxrT0pjdTBfT3ppSi1tRW1DR3hRellKdl9HU3UtSUFlZkR3WEFCanRTejVCNWJ0djF3anhXOVY1Y3VLV0cxR3pqR2vSAbABQVVfeXFMT01DTmVnOU9kYVE3RlhHcVg2YlEtVU9tdUFpZ1dwakdWa2t5V3dwb1h5NE1Gb2RzRm5GTXhtbHJiMUppNHJ4MFlKQTVGTnc4RVduY0R6eGsya08xdnoxNUVQVzVrbU9LVzVjZkpRd1RENDBHamp5aTBpSmxfTzlVRXBFOEFteGlyS1lST3FheTZvWEZuRm14eW9iU3MxMnpEaUFNMVYxMDgtSWYxWEhtQ3g?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1916
-    },
-    {
-      "date": "Aug 14",
-      "text": "Jared Kushner lands in Israel after meeting Hamas officials in a bid to save the Gaza truce.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigJBVV95cUxNd1ZsYzVrUEFjOGEwaXdacThpSmdNTWlhUThUNG9QbXE4MEg0eGdGVU9pMWpYbl9XMkJFLWJ0RDBfelNVTGZCV1lUOE14bng1Y2JTanlvQXVycW9HeUdLUEVHOTlfS2VYbmgzdEtZU3VtV3FIN2RIS2pVeWdnN3pqUXBocUcyRTYxQWx1YnZxcUpLVXYyMHhzOXZXcUpOSU1yS3V0UTJGVFNMTFZ2bEZEZFJBQzNFcjlXeEk4ZVNMTGxfYjUtSjRGcE0zNEVqVzA1bjJPV0tzaTJudkNKVmM2TUEwMW55Q0JYaWdUdEVvRVFIbExVUldIR0RVcEFlczdSRzNFMktkYlYtUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Haaretz",
-      "latestSinceUpdate": 1916
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5UNm44Y2ZNSWNKZmJyVGFPeGkzWVc2TTBENmxZOS1RVmtWLVdjMzRWRlFnV3N2MlZ1OTVfTHlZdUU3UHZDa2NSZkhLZUZQZ1pnNUc3bjRZNllRNnhzREk1c3hLdzVyaG96aTNjM01R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 1917
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

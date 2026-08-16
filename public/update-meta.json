@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1916,
+  "updateSequence": 1917,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T23:48:55.562Z",
+  "lastSyncedAt": "2026-08-16T23:59:19.663Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A US-Iran ceasefire is due to lapse, with Israel conducting strikes in Lebanon and Gaza, despite diplomatic efforts to save a Gaza truce."
+    "summary": "A previously active US-Iran ceasefire has lapsed, leading to renewed Israeli military actions in Lebanon and Gaza."
   }
 }
