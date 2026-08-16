@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1876,
+  "updateSequence": 1877,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T07:37:53.507Z",
+  "lastSyncedAt": "2026-08-16T08:03:03.609Z",
   "warDay": 170,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation agreement is reported between the involved parties."
+    "summary": "No active ceasefire or de-escalation efforts are reported; Hezbollah has rejected a proposed deal."
   }
 }
