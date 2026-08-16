@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1915,
+  "updateSequence": 1916,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T23:28:28.494Z",
+  "lastSyncedAt": "2026-08-16T23:48:55.562Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A US-Iran ceasefire is due to lapse, with Israel conducting strikes in Lebanon and Gaza, despite diplomatic efforts to save a Gaza truce."
   }
 }
