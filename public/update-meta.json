@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1891,
+  "updateSequence": 1892,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T14:31:27.999Z",
+  "lastSyncedAt": "2026-08-16T14:52:17.440Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "The US-Iran ceasefire is reported to be nearing its end, and significant Israeli strikes in Lebanon indicate a breakdown of previous de-escalation efforts."
+    "summary": "The US-Iran ceasefire is reported to be ending, with ongoing hostilities and threats indicating its collapse."
   }
 }
