@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1888,
+  "updateSequence": 1889,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T12:54:30.865Z",
+  "lastSyncedAt": "2026-08-16T13:37:52.186Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A previous US-Iran ceasefire appears to have collapsed, and a proposed Lebanon-Israel deal has been rejected by Hezbollah."
+    "summary": "The US-Iran memorandum of understanding is approaching expiration, and active hostilities including ship strikes and Israeli attacks suggest the ceasefire has collapsed."
   }
 }
