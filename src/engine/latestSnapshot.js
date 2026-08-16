@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1897,
+  "updateSequence": 1898,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T16:54:52.715Z",
+  "lastSyncedAt": "2026-08-16T17:27:15.484Z",
   "warDay": 170,
-  "summary": "Tensions in the Middle East are escalating significantly with threats to the Strait of Hormuz, ongoing Israeli strikes in Lebanon, and a looming collapse of the US-Iran ceasefire.",
+  "summary": "The US-Iran conflict continues with escalating rhetoric and military actions, including Israeli strikes in Lebanon and threats regarding the Strait of Hormuz, while a ceasefire appears to be collapsing.",
   "lastNarrativeUpdate": "2026-08-16",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 7,
-    "summary": "A US-Iran ceasefire appears to have collapsed amidst escalating tensions, military actions, and threats to critical shipping lanes."
+    "summary": "A US-Iran ceasefire is nearing its end, and a separate truce between Israel and Lebanon is under severe strain following Israeli airstrikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
+    "oilDisruption": 75,
+    "tradeImpact": 55,
     "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 15",
-      "text": "Shipping faces more disruptions in the Middle East due to regional instability.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1897
+      "text": "Israeli airstrikes kill 11 people in southern Lebanon, testing an existing truce.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPdXVvcWZIbkY5aDNaUWczOEFHWVBiRkJ4MlVkVzNqaE1yODh5cW5BLVROY3NpamtVS05uQ2JiYk9PVDdoMjlIOVZZc2tXV21CVUNQV3cxS0N6X2p0TUxmaWMtbk1GX2dpSmdvSEF5WGhNcXJkTEk1ZU9tanhSaTUxM2dwZXhpUnQ2ODA4OE1UQWwxbVVzLWpibF9OSmRRMlpDOWdWWnQyOXZqMmUtNDdUUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1898
     },
     {
       "date": "Aug 15",
-      "text": "Trump threatens to declare the Strait of Hormuz US territory 'pretty soon'.",
+      "text": "US President Trump threatens to declare the Strait of Hormuz as US territory.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNNEVudV9fZFI2N0NBNnYwNlAzTjJfTGl2Zm9tNWgwU3RMb19Gd0VvZE1VbmlQbERPOXgwQ1JoUHRFNVZ0VUZlU3hVN2x4ajE0TWNqN05tVmhoNGNyV2J5WkxvMGhwMVhiSUxrT0pjdTBfT3ppSi1tRW1DR3hRellKdl9HU3UtSUFlZkR3WEFCanRTejVCNWJ0djF3anhXOVY1Y3VLV0cxR3pqR2vSAbABQVVfeXFMT01DTmVnOU9kYVE3RlhHcVg2YlEtVU9tdUFpZ1dwakdWa2t5V3dwb1h5NE1Gb2RzRm5GTXhtbHJiMUppNHJ4MFlKQTVGTnc4RVduY0R6eGsya08xdnoxNUVQVzVrbU9LVzVjZkpRd1RENDBHamp5aTBpSmxfTzlVRXBFOEFteGlyS1lST3FheTZvWEZuRm14eW9iU3MxMnpEaUFNMVYxMDgtSWYxWEhtQ3g?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1897
+      "latestSinceUpdate": 1898
     },
     {
       "date": "Aug 15",
-      "text": "Israeli strikes in southern Lebanon kill at least 11 people.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1897
-    },
-    {
-      "date": "Aug 15",
-      "text": "IDF kills a senior Hezbollah commander after three soldiers were wounded in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5UNm44Y2ZNSWNKZmJyVGFPeGkzWVc2TTBENmxZOS1RVmtWLVdjMzRWRlFnV3N2MlZ1OTVfTHlZdUU3UHZDa2NSZkhLZUZQZ1pnNUc3bjRZNllRNnhzREk1c3hLdzVyaG96aTNjM01R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 1897
-    },
-    {
-      "date": "Aug 15",
-      "text": "Hezbollah chief rejects a U.S.-led Lebanon deal and calls to reverse direct talks with Israel.",
+      "text": "Hezbollah chief rejects a US-led Lebanon deal and calls to reverse direct talks with Israel.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNa2xoRVcwMzNOOXE4dDN2LUlVSFRKVkdQdE5mS093b0cyWlFOcW9rZzNfS3JDLTZYS2RWdEpMU1I3R21FTm5FaEZNYXc0VzB3aGlJaktSTjVxZG01cWUtVUdycDFOMC1lMU55cnAtcWExSEFNV0NiU1UtUlI4ZWt5TkVBM0kzSlBKb1NodjNXOGE5WmFMUUs1NkdjVVRoUUh1bWdIakplbGduSGoxaHlmQXFiVWF6bVU0TFHSAb8BQVVfeXFMTVVlbmZpdDdSaHBZMFZrNlloQ3NBMTlfcUwzOElXR0FVNkE1Yl9pdTlMOFNRc29MZklpV1JWQUNXNmM0UVdxRzBRNEpud0tscTVsNDRMbmdUZHJDV2xxOHdraGhGVG83MHZUMlNFSTFYSUNlSldacXFiSHVfT2ZzLVc5LW4wU2V2MF83ZUhONkVTQWF1dzlYMDVRc0I0WGN3Q3dLLVhPSVBHRmdsVkwyNU1XZTlHQ3p2blMtV3BhVHc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "upi.com",
-      "latestSinceUpdate": 1896
+      "latestSinceUpdate": 1898
     },
     {
       "date": "Aug 15",
-      "text": "Iran’s army chief tells Trump 'we’ll break your legs' after the Hormuz threat.",
+      "text": "The US military has reportedly lost approximately 25% of its Reaper drones during the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxNR2swcWNKLTdQX01uTFVzYmpGSGU4Q2VZcWZxWHFPLXk2aXVJQjBsVW9QNGVpdDVJLTk0blY2a1RJV1dGMlYxVlBETTdoY3BKNHB0SnBUcHM3X0NSSUtlMGtkOHpXUi1qZ3dTdm15ME5GOXQzM2lBRzBvQTJlNC1YaVJUMF9jUUw3cEt4WW04U1QyaWpqSU82OGxUZVU3X1lNdlRhVG9tbHlkV0NKVC1oa3RXRlBvRzJxMzhxbERvcGs2bWFFRl9Wdm9XWk00bkRuTXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1898
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran offers a $30,000 bounty for killing or capturing US soldiers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "france24.com",
+      "latestSinceUpdate": 1898
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran’s army chief issues a direct threat to Trump following the Hormuz declaration.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQd3lWQ2k3NWxXV1ZXWG5hUjhON0FzV0xGWmxmRC1YTEtFM0htWGZ3M3l4eDRGa244aTA2TGdrTmt5WDVtcFhQQ2pVZkNoNjU0eGZsQzlHOF92VmZoeTZ1dGk0NUdiazJJVTV5akNDbkRmRXZMOUs5NkJOaUk5ZDQ0VW1WNnUxRlZKZ3duRnFkbHlzZFZfcy1BdDFBeDZ4UlcxTmxEcWluWUJQWVA3aTQ5eGdYYzV1NlU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Independent",
-      "latestSinceUpdate": 1897
+      "latestSinceUpdate": 1898
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
