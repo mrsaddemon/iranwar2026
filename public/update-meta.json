@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1904,
+  "updateSequence": 1905,
   "lastUpdated": "2026-08-16",
-  "lastSyncedAt": "2026-08-16T19:48:04.262Z",
+  "lastSyncedAt": "2026-08-16T19:58:36.109Z",
   "warDay": 170,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.93,
     "durationDays": 7,
-    "summary": "The June ceasefire between Lebanon and Israel has collapsed following deadly Israeli strikes, and the broader US-Iran ceasefire is reportedly nearing its end."
+    "summary": "The US-Iran ceasefire is reportedly nearing its end, while Israeli strikes in Lebanon have killed 11 people, violating a June ceasefire."
   }
 }
