@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1940,
+  "updateSequence": 1941,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T16:02:09.080Z",
+  "lastSyncedAt": "2026-08-17T16:37:24.626Z",
   "warDay": 171,
-  "summary": "The US-Iran ceasefire has expired, leading to increased rhetoric and threats from President Trump, while Israel escalates strikes in Lebanon and Iran asserts control over the Strait of Hormuz.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A proposed Lebanon-Israel deal has been rejected by Hezbollah, and Israel continues strikes despite a reported ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -18,26 +18,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.85
       }
     }
   },
@@ -45,10 +45,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 95,
-    "tradeImpact": 77,
-    "sanctionsPressure": 58,
-    "globalPressure": 72,
-    "allianceInfluence": 51
+    "tradeImpact": 69,
+    "sanctionsPressure": 54,
+    "globalPressure": 67,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,17 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Ongoing conflict in the Middle East remains the primary focus of international observers.",
+      "text": "Trump threatens to bomb US ally Oman as Iran agreement expires.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1941
+    },
+    {
+      "date": "Aug 17",
+      "text": "Strait of Hormuz remains closed, causing gas price jumps in the US.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxPRFZ6Tnp6aTVUc0IzYUZJUUtYNVdaYWV5NHRBRWEycEhLSUpIODcyc0NQMkhDdVk0VHB5RnIyamRpRWViZHZEM1h1WTJ4SVdsSWk0RzNiVGpjQ3dFdFkya3JTb1loNGFPdGpPWHZlZG9FelVRTElNLVlpXzF2SmdfU0lCVldWejRZZndDTmpmWTBpQ3BIVXd3d21mY1JJTXh3anZVTHBYRWltVWtneTZNek9CcWl5cnY3a3FibWxia0dIaTFHQkU3YWlQTFhpdnJ5MklDdXJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WPDE",
+      "latestSinceUpdate": 1941
+    },
+    {
+      "date": "Aug 17",
+      "text": "Iran reportedly places a $30,000 bounty for killing or capturing US soldiers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1941
+    },
+    {
+      "date": "Aug 17",
+      "text": "Israel strikes Lebanon as the US prepares fresh Iran measures.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 1941
+    },
+    {
+      "date": "Aug 17",
+      "text": "Hezbollah chief rejects a US-led Lebanon deal and calls to reverse direct talks with Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNa2xoRVcwMzNOOXE4dDN2LUlVSFRKVkdQdE5mS093b0cyWlFOcW9rZzNfS3JDLTZYS2RWdEpMU1I3R21FTm5FaEZNYXc0VzB3aGlJaktSTjVxZG01cWUtVUdycDFOMC1lMU55cnAtcWExSEFNV0NiU1UtUlI4ZWt5TkVBM0kzSlBKb1NodjNXOGE5WmFMUUs1NkdjVVRoUUh1bWdIakplbGduSGoxaHlmQXFiVWF6bVU0TFHSAb8BQVVfeXFMTVVlbmZpdDdSaHBZMFZrNlloQ3NBMTlfcUwzOElXR0FVNkE1Yl9pdTlMOFNRc29MZklpV1JWQUNXNmM0UVdxRzBRNEpud0tscTVsNDRMbmdUZHJDV2xxOHdraGhGVG83MHZUMlNFSTFYSUNlSldacXFiSHVfT2ZzLVc5LW4wU2V2MF83ZUhONkVTQWF1dzlYMDVRc0I0WGN3Q3dLLVhPSVBHRmdsVkwyNU1XZTlHQ3p2blMtV3BhVHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "upi.com",
+      "latestSinceUpdate": 1941
+    },
+    {
+      "date": "Aug 16",
+      "text": "Kushner meets regional leaders as multiple conflicts roil the Middle East.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 1940
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1941
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "no recent items"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -86,7 +126,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "Our World in Data",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Liveuamap",

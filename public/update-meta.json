@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1940,
+  "updateSequence": 1941,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T16:02:09.080Z",
+  "lastSyncedAt": "2026-08-17T16:37:24.626Z",
   "warDay": 171,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A proposed Lebanon-Israel deal has been rejected by Hezbollah, and Israel continues strikes despite a reported ceasefire."
   }
 }
