@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1938,
+  "updateSequence": 1939,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T15:10:18.426Z",
+  "lastSyncedAt": "2026-08-17T15:43:29.987Z",
   "warDay": 171,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US-Iran ceasefire has expired, leading to increased rhetoric and threats from President Trump, while Israel escalates strikes in Lebanon and Iran asserts control over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The US-Iran agreement has expired, and Israel has escalated attacks in Lebanon despite a prior ceasefire."
+    "summary": "The US-Iran ceasefire has expired, and a proposed Lebanon-Israel deal is rejected by Hezbollah amidst escalating Israeli strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -18,25 +18,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
@@ -44,11 +44,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 95,
+    "tradeImpact": 69,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 67,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,38 +59,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 17",
-      "text": "Trump threatens Oman as US-Iran agreement expires and 60-day negotiation period ends.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1938
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran signals readiness for ‘US ground operations’ as MoU expires.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQelFzdllQRGI3MUs3bFFrY3pqdmoxaUs1VnJBbTJuT2tCYUVVMDdpdFRGX1dfV2xLYzBES0l4QXNObXlmWFFrbzd3SjFOT3pIVzgyRlh6TlVxUEw4U1JRaE9IOGFhdEEzRnYwXzNSV0NjOWwtSXdBNTkyMWxpVnZyTDdZRzNMRm45S2pmV1RhTm5MenFyd1kyVmszc1QyOTV4cWZBVFpR0gGrAUFVX3lxTE1MLWVBNEdLNXdVUU11bk1fOGEwc24tWnJYMzhlR2NXNkYwU0NwdWlPaThMYnJVbjFEV0hXdXNKM2VnbGdkX1dMd19zZ3hZMldHY29DMFdzai1Dd05UVUh3c2FMc1FRQzAxNlJIRDQxN05sQ2x5b0JKVy0zcG5yT1gwYkZoQ1JJZjQ3Uk5HaFRVY0R2ZDlUMjQxeEpaQUhPYzBsbzNOMFJXUVBBbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1938
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran offers $30,000 bounty for killing or capturing US soldiers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1938
-    },
-    {
-      "date": "Aug 17",
-      "text": "Israel strikes Lebanon, killing 11, as US prepares fresh Iran measures.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1938
-    },
-    {
       "date": "Aug 16",
       "text": "Kushner meets regional leaders as multiple conflicts roil Middle East.",
       "severity": "info",
@@ -99,18 +67,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1936
     },
     {
+      "date": "Aug 16",
+      "text": "Iran states the Strait of Hormuz is under its control, while Israel bombs Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNQzlkS0EwWUsxSGYtSjNaal92eVBWNjhwcnhzdS10VXNRd1NTdnZ6OFNxZ2xXdWZ4NWtwZ2pQcWdnbmJ3M3hrU0E1RVppcjR1WU8ydjlRdm91UVJjVDNndk0zSUR0a2VNZ0NNZmp1MkNBNHVpaGpwUy1VdTJnbzBQX2JZeDdwTXd2NEpZN3RhNzY2OWZGR052eUYxTzZ2emVfSWNCZ2VKTFc5X0MxU1JHdjNJVTbSAboBQVVfeXFMTTBCVzhpTmo0MFR2eXFDWktoY0pfVVVoeUVPcU9heS1FaVdwTEJsdDB0eU9HWkhKMkM4YzdJb0hoT2ljdl9vTXlMNFRkdFJQcmJRWDEtajh2VDMyLWpNYXRtd0NyUTJkUnVKZ09CRUVYSVQ5Z1IxUklWUnNYNE9zelpmUEZTNnE3SWY0X0VSYkpaNldjcjZPQkYzNmRlVUtWLUpYSUhmelpRRGxmOWRVcDR2NzY3WjR3WUVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1939
+    },
+    {
       "date": "Aug 15",
-      "text": "Shipping faces more disruptions in the Middle East.",
+      "text": "Trump threatens to 'bomb' Oman if it 'gets in the way' as U.S.-Iran ceasefire expires.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5yYUVkY2dPZ0gwUXljWl91UW90Tk9Yb0J0NlRaZTdESlhoMmtneGpFZUhQSkd3ZzhhX3l2RGZJUmdDSzFhVnczRFhnY2tsaHBqMHFqN0lTS2Q3bjJEUm9QUFJmSHM0M25OcHV4RnZn0gFzQVVfeXFMTUx6bEdGYlhiR1ZTbVVyTzFaY1ZZcy1WQ1pQSXRyVjBfa0o0TVZ5VW83ZUsyMmtPTGNxQ3RscjR0ajdSTjA1akVxclViUWlRd19STTRDcVVuSkp3VURicGtUZkhJMHZqTHZhWjg5Zk1VRHRybw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cnbc.com",
+      "latestSinceUpdate": 1939
+    },
+    {
+      "date": "Aug 15",
+      "text": "South Carolina gas prices jump 8.2 cents as Strait of Hormuz remains closed.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1936
+      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxOa2U5RmlnRUdjSmZDRGpYTGl6VWZpc3hoNjVNNWJ3dGZ5T09Fb0U2NkJyUmxDdmltRVhYTXNQMFVGRXQ5M2RyUkdLbTFLLUJIU0FlWWtZZm1kWFBRV2l5bnVnc0hzRW5NM1lwT3AwRUZscHdqbktHTzNPWGRUZEpPNk13SERWeXZWV3pPejJlLWFqMTl5OWpka0VKeWN4M0RkckpqV1oxLXFBb1FQMktYN2dPbkJLY3lqN1dsR1FVVFNtLUluQVA5MVRtektKeVZDOVZHWWs2b3RCTnM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WCIV",
+      "latestSinceUpdate": 1939
+    },
+    {
+      "date": "Aug 15",
+      "text": "Iran reportedly offers a $30,000 bounty for killing or capturing US soldiers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 1939
+    },
+    {
+      "date": "Aug 15",
+      "text": "Hezbollah Chief rejects a U.S.-led Lebanon deal as Israel reportedly plans an assault.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1939
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
