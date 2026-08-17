@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1950,
+  "updateSequence": 1951,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T20:58:13.671Z",
+  "lastSyncedAt": "2026-08-17T21:33:10.974Z",
   "warDay": 171,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "The US-Iran ceasefire is set to expire with Iran ruling out an extension, while Israel continues strikes in Lebanon despite a separate ceasefire."
   }
 }
