@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1923,
+  "updateSequence": 1924,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T05:42:20.903Z",
+  "lastSyncedAt": "2026-08-17T06:21:38.449Z",
   "warDay": 171,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
+    "durationDays": 60,
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -45,9 +45,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "nuclearIndex": 40,
     "escalationLevel": 38,
     "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "tradeImpact": 51,
+    "sanctionsPressure": 56,
+    "globalPressure": 63,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,18 +60,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "August 15, 2026 — Shipping faces more disruptions in the Middle East",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
+      "text": "Live updates: US-Iran war; Deadline to reach deal passes with no end to conflict in sight",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1923
+      "latestSinceUpdate": 1924
     },
     {
       "date": "Aug 17",
       "text": "Iran war updates: Iran says Hormuz under its control, Israel bombs Lebanon",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNQzlkS0EwWUsxSGYtSjNaal92eVBWNjhwcnhzdS10VXNRd1NTdnZ6OFNxZ2xXdWZ4NWtwZ2pQcWdnbmJ3M3hrU0E1RVppcjR1WU8ydjlRdm91UVJjVDNndk0zSUR0a2VNZ0NNZmp1MkNBNHVpaGpwUy1VdTJnbzBQX2JZeDdwTXd2NEpZN3RhNzY2OWZGR052eUYxTzZ2emVfSWNCZ2VKTFc5X0MxU1JHdjNJVTbSAboBQVVfeXFMTTBCVzhpTmo0MFR2eXFDWktoY0pfVVVoeUVPcU9heS1FaVdwTEJsdDB0eU9HWkhKMkM4YzdJb0hoT2ljdl9vTXlMNFRkdFJQcmJRWDEtajh2VDMyLWpNYXRtd0NyUTJkUnVKZ09CRUVYSVQ5Z1IxUklWUnNYNE9zelpmUEZTNnE3SWY0X0VSYkpaNldjcjZPQkYzNmRlVUtWLUpYSUhmelpRRGxmOWRVcDR2NzY3WjR3WUVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 1923
     },
     {
@@ -79,16 +79,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
+      "sourceName": "middleeasteye.net",
       "latestSinceUpdate": 1923
     },
     {
       "date": "Aug 17",
-      "text": "August 14, 2026 — Carrier group headed to Middle East to replace USS Lincoln, US official says",
+      "text": "August 16, 2026 — Kushner meets regional leaders as multiple conflicts roil Middle East",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1923
+      "latestSinceUpdate": 1924
     },
     {
       "date": "Aug 17",
@@ -100,17 +100,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 17",
-      "text": "Israel Strikes Lebanon With US-Iran Ceasefire Due to Lapse",
+      "text": "Israel Strikes Lebanon, Adding Pressure to Stalled US-Iran Talks",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQSVNUazhGWkNMSDlmWmFILUp3TFBPX2c2Ym5CeUJZQS1LSjN3MmY0bGx5R1BEV3JhYjN3NHprX1Bhd1dqZWlfOHo3WWEwVmRTUF92VGVlc0U1REJIaVE2MHlJT0RtWWs2UmFMVDBHelh1djNWUU9FQi1OQjM1Vy1QWXVhaU9zb0otcDFzWGs4SmlMa3JSUUJPTDBGQTZhNEhiMmRDOC16MnBoUE5yblBQRlZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "bloomberg.com",
-      "latestSinceUpdate": 1923
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxOQ19YM1ZmYmRzYTMtS2d2SDZtVHk0djlhZVRFVDQyZW9VWHRNWkJWUl9Fb3pHRDlsR3ZwNkRUUlJKcFRLNHlidktLalRxUnBkUkw0YkR2MjIxeEcxbWwyTWNBLXFnamxyNVlZb1BkbjBzSUpEUVZ0OFZodGN6cGItSlRsNElpNmxvQkJuUFJEUEpPZlkwQ2NldmVZRDdXakxvWEZOdnBabE9XSElNMzRnMWxuSEl5YVdH?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Bloomberg.com",
+      "latestSinceUpdate": 1924
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
