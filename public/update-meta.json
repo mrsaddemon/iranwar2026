@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1951,
+  "updateSequence": 1952,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T21:33:10.974Z",
+  "lastSyncedAt": "2026-08-17T21:52:52.262Z",
   "warDay": 171,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 1,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire is set to expire with Iran ruling out an extension, while Israel continues strikes in Lebanon despite a separate ceasefire."
+    "summary": "The US-Iran ceasefire has expired after a 60-day negotiation period, with the Trump administration refusing to extend it."
   }
 }
