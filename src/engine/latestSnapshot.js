@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1929,
+  "updateSequence": 1930,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T10:17:28.576Z",
+  "lastSyncedAt": "2026-08-17T10:50:38.423Z",
   "warDay": 171,
-  "summary": "The US-Iran conflict continues with an expiring agreement, new sanctions, and a bounty on US soldiers, while Israel conducts strikes in Lebanon and Gaza amid Hezbollah's rejection of a peace deal and persistent tensions in the Strait of Hormuz.",
+  "summary": "Diplomatic efforts continue amidst a US-Iran stalemate, escalating conflict between Israel and Lebanon, and significant disruptions to shipping and oil prices due to issues in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No ceasefire is active; a deadline for a deal passed without resolution, and a previous agreement expired."
+    "summary": "No active ceasefire is reported amidst ongoing conflicts and diplomatic stalemates."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.45,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 90,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 14",
-      "text": "A US carrier group is headed to the Middle East to replace the USS Lincoln.",
+      "date": "Aug 16",
+      "text": "Kushner meets Netanyahu and regional leaders after talks with Hamas on a stalled Gaza peace plan.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1928
+      "latestSinceUpdate": 1930
     },
     {
-      "date": "Aug 14",
-      "text": "Iran claims the Strait of Hormuz is under its control.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNQzlkS0EwWUsxSGYtSjNaal92eVBWNjhwcnhzdS10VXNRd1NTdnZ6OFNxZ2xXdWZ4NWtwZ2pQcWdnbmJ3M3hrU0E1RVppcjR1WU8ydjlRdm91UVJjVDNndk0zSUR0a2VNZ0NNZmp1MkNBNHVpaGpwUy1VdTJnbzBQX2JZeDdwTXd2NEpZN3RhNzY2OWZGR052eUYxTzZ2emVfSWNCZ2VKTFc5X0MxU1JHdjNJVTbSAboBQVVfeXFMTTBCVzhpTmo0MFR2eXFDWktoY0pfVVVoeUVPcU9heS1FaVdwTEJsdDB0eU9HWkhKMkM4YzdJb0hoT2ljdl9vTXlMNFRkdFJQcmJRWDEtajh2VDMyLWpNYXRtd0NyUTJkUnVKZ09CRUVYSVQ5Z1IxUklWUnNYNE9zelpmUEZTNnE3SWY0X0VSYkpaNldjcjZPQkYzNmRlVUtWLUpYSUhmelpRRGxmOWRVcDR2NzY3WjR3WUVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1928
-    },
-    {
-      "date": "Aug 14",
-      "text": "Israel conducted strikes in Lebanon, killing 11 people, following a Hezbollah attack that wounded 3 IDF soldiers.",
+      "date": "Aug 17",
+      "text": "Iran claims control of the Strait of Hormuz while Israel conducts bombing operations in Lebanon.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNQzlkS0EwWUsxSGYtSjNaal92eVBWNjhwcnhzdS10VXNRd1NTdnZ6OFNxZ2xXdWZ4NWtwZ2pQcWdnbmJ3M3hrU0E1RVppcjR1WU8ydjlRdm91UVJjVDNndk0zSUR0a2VNZ0NNZmp1MkNBNHVpaGpwUy1VdTJnbzBQX2JZeDdwTXd2NEpZN3RhNzY2OWZGR052eUYxTzZ2emVfSWNCZ2VKTFc5X0MxU1JHdjNJVTbSAboBQVVfeXFMTTBCVzhpTmo0MFR2eXFDWktoY0pfVVVoeUVPcU9heS1FaVdwTEJsdDB0eU9HWkhKMkM4YzdJb0hoT2ljdl9vTXlMNFRkdFJQcmJRWDEtajh2VDMyLWpNYXRtd0NyUTJkUnVKZ09CRUVYSVQ5Z1IxUklWUnNYNE9zelpmUEZTNnE3SWY0X0VSYkpaNldjcjZPQkYzNmRlVUtWLUpYSUhmelpRRGxmOWRVcDR2NzY3WjR3WUVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1930
+    },
+    {
+      "date": "Aug 17",
+      "text": "Middle Eastern airlines are projected to face $4.3 billion in losses in 2026 due to the Iran war.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1929
+      "latestSinceUpdate": 1930
     },
     {
-      "date": "Aug 14",
-      "text": "The US is preparing fresh sanctions against Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1928
-    },
-    {
-      "date": "Aug 14",
-      "text": "Iran claims Qatar is holding its pilots.",
+      "date": "Aug 17",
+      "text": "CENTCOM chief meets with troops aboard USS Abraham Lincoln amid reported morale concerns.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1929
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cbsnews.com",
+      "latestSinceUpdate": 1930
     },
     {
-      "date": "Aug 14",
-      "text": "Hezbollah's chief rejected a US-led Lebanon deal, calling it a humiliation.",
+      "date": "Aug 17",
+      "text": "The U.S. is preparing fresh sanctions against Iran as a 60-day negotiation period ends in a stalemate.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1928
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQSjB6cEFBa2hwQ1ZKNUFmMmxtSEJhNnpITnQ0LTNzdUNoWUZvMy1tV3FxVkR3UlJ2VHpFQ1JVQlNiN2FhNVpvam1pZkNrY0pvajRCandGNjVYUG9QSUxyd3o4U1gzYWtHOE5xSmltVlVwY2lfcVlVVU0xaUwzdFZROURnTERwQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cbsnews.com",
+      "latestSinceUpdate": 1930
+    },
+    {
+      "date": "Aug 17",
+      "text": "Diesel prices spike to $5.41 nationally and shipping slows through the Strait of Hormuz following tanker attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNZS0zV3NTVHhMNTMzRHZ0eUpjZnBjN1pvYVBHSnpZSS1WREtFU3JPTXQxSFZHalR4c3ZZYk5qTEsyQUhBb3FGdnVEM2FQSjliNzhzQmIzYnRHUmgzVDNxdjcxMGpHS3M1blZwNVRQVzI5SEJXY1hDaEVWdnU0Y1BaeEhmUUtYSFZyOGRxSk40WTZjZjhRaTlFSGxjWXNMcnphOWlmVzhIUnU5Vi1JRGwyS2lpRm52OTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WLUK",
+      "latestSinceUpdate": 1930
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
