@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1928,
+  "updateSequence": 1929,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T09:51:43.927Z",
+  "lastSyncedAt": "2026-08-17T10:17:28.576Z",
   "warDay": 171,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No ceasefire is active, as a deadline for a deal passed with no resolution to the conflict."
+    "summary": "No ceasefire is active; a deadline for a deal passed without resolution, and a previous agreement expired."
   }
 }

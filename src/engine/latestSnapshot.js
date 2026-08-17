@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1928,
+  "updateSequence": 1929,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T09:51:43.927Z",
+  "lastSyncedAt": "2026-08-17T10:17:28.576Z",
   "warDay": 171,
-  "summary": "The US-Iran conflict continues with a diplomatic deadline passing, new US sanctions, and an Iranian bounty on US soldiers, while Israel conducts strikes in Lebanon and Gaza amid Hezbollah's rejection of a US-led deal.",
+  "summary": "The US-Iran conflict continues with an expiring agreement, new sanctions, and a bounty on US soldiers, while Israel conducts strikes in Lebanon and Gaza amid Hezbollah's rejection of a peace deal and persistent tensions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 60,
-    "summary": "No ceasefire is active, as a deadline for a deal passed with no resolution to the conflict."
+    "summary": "No ceasefire is active; a deadline for a deal passed without resolution, and a previous agreement expired."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.65,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.45,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 75,
-    "oilDisruption": 60,
-    "tradeImpact": 57,
-    "sanctionsPressure": 62,
-    "globalPressure": 75,
-    "allianceInfluence": 46
+    "nuclearIndex": 15,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -71,16 +71,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran claims the Strait of Hormuz is under its control.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxNQzlkS0EwWUsxSGYtSjNaal92eVBWNjhwcnhzdS10VXNRd1NTdnZ6OFNxZ2xXdWZ4NWtwZ2pQcWdnbmJ3M3hrU0E1RVppcjR1WU8ydjlRdm91UVJjVDNndk0zSUR0a2VNZ0NNZmp1MkNBNHVpaGpwUy1VdTJnbzBQX2JZeDdwTXd2NEpZN3RhNzY2OWZGR052eUYxTzZ2emVfSWNCZ2VKTFc5X0MxU1JHdjNJVTbSAboBQVVfeXFMTTBCVzhpTmo0MFR2eXFDWktoY0pfVVVoeUVPcU9heS1FaVdwTEJsdDB0eU9HWkhKMkM4YzdJb0hoT2ljdl9vTXlMNFRkdFJQcmJRWDEtajh2VDMyLWpNYXRtd0NyUTJkUnVKZ09CRUVYSVQ5Z1IxUklWUnNYNE9zelpmUEZTNnE3SWY0X0VSYkpaNldjcjZPQkYzNmRlVUtWLUpYSUhmelpRRGxmOWRVcDR2NzY3WjR3WUVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "sourceName": "aljazeera.com",
       "latestSinceUpdate": 1928
     },
     {
       "date": "Aug 14",
-      "text": "Israel conducted strikes in Lebanon, killing 11 people, and also struck Gaza.",
+      "text": "Israel conducted strikes in Lebanon, killing 11 people, following a Hezbollah attack that wounded 3 IDF soldiers.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1928
+      "latestSinceUpdate": 1929
     },
     {
       "date": "Aug 14",
@@ -92,11 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 14",
-      "text": "Trump's agreement with Tehran expired, and Iran reportedly placed a $30,000 bounty on US soldiers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOTEN6TWJuLW5tMWpOMGUzZWowSEhhTVdueEh2YU96RlFrR2c5OUJPUjV5aC1ZOHZvVXJSc3Z0ZncxVHUyWHdaZ1ZUWllrM0stbWc0eGV3Z1F2MzJwclZTMzI4b1RIazhMb2FwQzRzeXR4YTRyODJpM2lORmhWUFZGdjZ1eE5xMW42RDRYR0FpQVlQTWJnSWxSZkk4WjE4TDhoVHJweW5OOTNMV3NjaERKNnRQbzFfQ2xTOWxYUmtKUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 1928
+      "text": "Iran claims Qatar is holding its pilots.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1929
     },
     {
       "date": "Aug 14",
