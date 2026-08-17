@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1921,
+  "updateSequence": 1922,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T04:21:57.140Z",
+  "lastSyncedAt": "2026-08-17T05:02:52.542Z",
   "warDay": 171,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A US-Iran ceasefire is lapsing or has collapsed, with ongoing Israeli strikes and heightened tensions in the region."
+    "summary": "A previously established US-Iran ceasefire is reported to be lapsing, with peace talks stalled amidst escalating tensions."
   }
 }
