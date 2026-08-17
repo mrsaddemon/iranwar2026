@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1935,
+  "updateSequence": 1936,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T13:46:34.113Z",
+  "lastSyncedAt": "2026-08-17T14:11:47.513Z",
   "warDay": 171,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The US-Iran agreement has expired, and the US-led Lebanon deal has been rejected by Hezbollah while Israel escalates attacks."
+    "summary": "A previous ceasefire appears to have collapsed, with Israel escalating attacks and Hezbollah rejecting a new U.S.-led deal."
   }
 }
