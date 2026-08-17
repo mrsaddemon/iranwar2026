@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1953,
+  "updateSequence": 1954,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T22:33:14.864Z",
+  "lastSyncedAt": "2026-08-17T22:53:32.496Z",
   "warDay": 171,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon appears to be in effect but is being violated by Israeli strikes, denting peace prospects."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 45,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Trump threatens to bomb US ally Oman if it interferes with Strait of Hormuz deal.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNWWF5bVJKamNmVTRZUFkzOFk0dGVURG1wWnJNMzlEWXFBUEl1Q2JHRTJJdDlkN3dHTmEwZ1Vab0p5bmctOXNmRFBOQ3hUWXpHbnVRMjR1WHhvWWxvaHZKcmQtVTZCVmJ1SUFyVHk3cWs5UDhNYXVKRnR4OWE2RUJPVXVEV3JCWGhxeUFocDRUNUVvM3VDR1RZMnNIVWg2NzBfZlJVREdEZy1fUVdFMEw4MHp3UFNpQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1953
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran rules out interim deal extension and threatens to escalate conflict, causing Brent oil to rise above $90.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1953
-    },
-    {
-      "date": "Aug 17",
-      "text": "Israel strikes Lebanon, killing 11, and conducts strikes in Gaza as the US prepares fresh Iran sanctions.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1953
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran offers a $30,000 bounty for killing or capturing US soldiers as the US-Iran MOU deadline looms.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1953
-    },
-    {
-      "date": "Aug 16",
-      "text": "Jared Kushner meets regional leaders amid multiple conflicts roiling the Middle East.",
+      "text": "Live updates: Trump threatens to bomb US ally Oman as Iran agreement expires",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1953
+      "latestSinceUpdate": 1954
     },
     {
       "date": "Aug 17",
-      "text": "Oil Futures Rise as Hormuz Shipping Remains Constrained.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORkF6SjN6Wlp2enZxcjVZRUZEWnUtZVJ4NmYxNUFyQ0taT0loOUJSVVkwZzJ5UUZZOUM3Rm9DWmxDQTN6d1hTOTVpU19DbWRHYUVEWWxDUldaeVVJUktoN25JeGVMVWRPeUNESUF5LTVTWFV0bjBoSWF4MWxuQU55c3lVcW5xa20xLXI1aUdxdlpWRExQbFdUbEp2SndtMkRCbW9qdDZLeHJQMTd5aENBR0ViYlVhdUt4MVhN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 1953
+      "text": "Iran war updates: Tehran, Oman discuss Hormuz; UN delivers West Bank aid",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkJqOHdsTVhuNWRIbk9EdVRDUmQxMlczTmFsRlc4MEdOemNRMEdHUUxJaDZzZUtydUxsMDlyT0c0eXdJZnNOSmx1d0pmakY5enZKSjg3UjBIN1I2dzVieUx1VXcwVFZJbmFsbnZLSTlObXNaY2x4WUxYRERNbXVZaFRNOERTclNFeUhDaVkzdG96Mjh5cDhjbk9XM3JET25HS3BHZXhWMmJSR1hjSEdpWUpHYlJ6R1l3WllrWGhSRdIBxAFBVV95cUxNZFhLVEMyTjcwUGh5MWUwcms1M1ctOHpoeVh2NzlHYnh1aUJ1MWJqb2RqZGZHbGRvSTNyMVE4OGE3X0ZmVU1zM1VkMlpJTEM0V3BSemF4VUw5T0pDdmFad09JdldGenRhUzN4ZGFLZ0ZJMmw2Sm53WUx0WGQ0bHFVOUxMM2F2QnctbC05NWJjdExxcEl2aEZycC10bDU5REMyYWpCelo3b28wZk5PcWItLXZfeEJPbU1YQUtGRGJLMWc2Rmg0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1954
+    },
+    {
+      "date": "Aug 17",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 1954
+    },
+    {
+      "date": "Aug 17",
+      "text": "West Asia war LIVE: Trump threatens to bomb Oman if they get in way of Hormuz deal",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi3wFBVV95cUxQT3RSdDBxSmg2Qk9ZWTFVTExQeTJxdHVpWGpFUkJ4YUxLWlQzNkxjRTJaWE5uNnA4MVVpeVdDMVo0MnlycVRBVWhacE9pbmppTmoxVmpnRzJNNkhKSjBubDZXWVF3M3JDN0o0b2R0eHM2U2o4Sm43TVNvQWpKRTVEb0d6SGZGSEhhc0ppQUM4a0hESDlnLWcxQzNtTGZzalRHTGIzcU41MXRmSlNjZlhMRTRjMmE4VHdlZndMY0FlN21HV2NWNE1EZGRNX0QtYkZOWkhtQ3ZhQnh1RFBwVm5n0gHmAUFVX3lxTE5xTkJReWpsRmRvSVlqb3U5TEtfbFk2ZkR5VUhiZHlWZkdnLVhNRFdONU9GaGc5bVFaNzRobDhGempJenJYWmhYWk5fSXFDd25IMWpuMGxqb1o4bVljX1VGSU4xMDFEMVh0TWN0TGkzSWFZc1NJTExxeldieUJ0TnZYYlBDRTNNeWhmZGlYeUVvVkRMVVltaGFfcnc1MkFtaGkwSXFQX0NObHFUOVpFYXp6UVdGdGRkNFVwblJmZWYtQWpNZGhORHNRdElZTVZXMjlNYm52TVhMNU9UUW5fSmRUdHBUUmR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 1954
+    },
+    {
+      "date": "Aug 17",
+      "text": "CENTCOM chief meets with troops aboard USS Abraham Lincoln amid morale concerns",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 1954
+    },
+    {
+      "date": "Aug 17",
+      "text": "Iran claims Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1954
     }
   ],
   "sourceStatuses": [
