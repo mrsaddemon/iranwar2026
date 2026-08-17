@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1942,
+  "updateSequence": 1943,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T16:59:28.040Z",
+  "lastSyncedAt": "2026-08-17T17:34:56.465Z",
   "warDay": 171,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-17",
@@ -63,7 +63,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Live updates: Trump threatens to bomb US ally Oman as Iran agreement expires",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
+      "sourceName": "CNN",
       "latestSinceUpdate": 1942
     },
     {
@@ -79,7 +79,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 16, 2026 — Kushner meets regional leaders as multiple conflicts roil Middle East",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
+      "sourceName": "CNN",
       "latestSinceUpdate": 1942
     },
     {
@@ -87,7 +87,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "August 15, 2026 — Shipping faces more disruptions in the Middle East",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnn.com",
+      "sourceName": "CNN",
       "latestSinceUpdate": 1942
     },
     {
