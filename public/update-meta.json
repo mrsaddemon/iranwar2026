@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1932,
+  "updateSequence": 1933,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T11:44:08.321Z",
+  "lastSyncedAt": "2026-08-17T12:01:46.803Z",
   "warDay": 171,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The 60-day negotiation period for an Iran peace deal has ended in a stalemate, and Israel has escalated attacks in southern Lebanon despite an existing ceasefire."
+    "summary": "A 60-day negotiation period between the U.S. and Iran has ended in stalemate, and a ceasefire deal has expired, indicating a collapse of peace efforts."
   }
 }
