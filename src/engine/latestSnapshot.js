@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1952,
+  "updateSequence": 1953,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T21:52:52.262Z",
+  "lastSyncedAt": "2026-08-17T22:33:14.864Z",
   "warDay": 171,
-  "summary": "The US-Iran ceasefire has expired, leading to heightened tensions with Trump threatening Oman, while Israel escalates strikes in Lebanon and Iran offers bounties on US troops.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-17",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 1,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has expired after a 60-day negotiation period, with the Trump administration refusing to extend it."
+    "summary": "A ceasefire in southern Lebanon appears to be in effect but is being violated by Israeli strikes, denting peace prospects."
   },
   "actorOverrides": {
     "usa": {
@@ -24,16 +24,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Trump threatens to bomb Oman if it interferes with the Strait of Hormuz deal as the US-Iran agreement expires.",
+      "text": "Trump threatens to bomb US ally Oman if it interferes with Strait of Hormuz deal.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1952
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNWWF5bVJKamNmVTRZUFkzOFk0dGVURG1wWnJNMzlEWXFBUEl1Q2JHRTJJdDlkN3dHTmEwZ1Vab0p5bmctOXNmRFBOQ3hUWXpHbnVRMjR1WHhvWWxvaHZKcmQtVTZCVmJ1SUFyVHk3cWs5UDhNYXVKRnR4OWE2RUJPVXVEV3JCWGhxeUFocDRUNUVvM3VDR1RZMnNIVWg2NzBfZlJVREdEZy1fUVdFMEw4MHp3UFNpQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1953
     },
     {
       "date": "Aug 17",
-      "text": "The US-Iran ceasefire is set to expire, with the Trump administration confirming it will not extend the 60-day negotiation period.",
+      "text": "Iran rules out interim deal extension and threatens to escalate conflict, causing Brent oil to rise above $90.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 1953
+    },
+    {
+      "date": "Aug 17",
+      "text": "Israel strikes Lebanon, killing 11, and conducts strikes in Gaza as the US prepares fresh Iran sanctions.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1952
+      "latestSinceUpdate": 1953
     },
     {
       "date": "Aug 17",
-      "text": "Iran signals readiness for 'US ground operations' and reportedly places a $30,000 bounty for killing or capturing US soldiers.",
+      "text": "Iran offers a $30,000 bounty for killing or capturing US soldiers as the US-Iran MOU deadline looms.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 1952
+      "latestSinceUpdate": 1953
     },
     {
-      "date": "Aug 17",
-      "text": "Israel strikes Lebanon, killing 11, as the U.S. prepares fresh sanctions against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1952
-    },
-    {
-      "date": "Aug 17",
-      "text": "CENTCOM chief meets with troops aboard the USS Abraham Lincoln amid reported morale concerns.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 1952
-    },
-    {
-      "date": "Aug 17",
-      "text": "The Iran war is projected to push Middle Eastern airlines towards a $4.3 billion loss in 2026.",
+      "date": "Aug 16",
+      "text": "Jared Kushner meets regional leaders amid multiple conflicts roiling the Middle East.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1952
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1953
+    },
+    {
+      "date": "Aug 17",
+      "text": "Oil Futures Rise as Hormuz Shipping Remains Constrained.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORkF6SjN6Wlp2enZxcjVZRUZEWnUtZVJ4NmYxNUFyQ0taT0loOUJSVVkwZzJ5UUZZOUM3Rm9DWmxDQTN6d1hTOTVpU19DbWRHYUVEWWxDUldaeVVJUktoN25JeGVMVWRPeUNESUF5LTVTWFV0bjBoSWF4MWxuQU55c3lVcW5xa20xLXI1aUdxdlpWRExQbFdUbEp2SndtMkRCbW9qdDZLeHJQMTd5aENBR0ViYlVhdUt4MVhN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 1953
     }
   ],
   "sourceStatuses": [
