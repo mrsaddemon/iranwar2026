@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1954,
+  "updateSequence": 1955,
   "lastUpdated": "2026-08-17",
-  "lastSyncedAt": "2026-08-17T22:53:32.496Z",
+  "lastSyncedAt": "2026-08-17T23:30:31.121Z",
   "warDay": 171,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The US-Iran ceasefire has expired, with President Trump refusing to extend it, leading to a collapse of the agreement."
   }
 }
