@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1984,
+  "updateSequence": 1985,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T18:12:59.936Z",
+  "lastSyncedAt": "2026-08-18T18:59:35.627Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has expired, and diplomatic talks have ceased, while a separate ceasefire in southern Lebanon appears fragile with ongoing Israeli strikes."
+    "summary": "A ceasefire in southern Lebanon appears to have collapsed following Israeli strikes that killed 11 people."
   }
 }

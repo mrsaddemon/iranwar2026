@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1984,
+  "updateSequence": 1985,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T18:12:59.936Z",
+  "lastSyncedAt": "2026-08-18T18:59:35.627Z",
   "warDay": 172,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US-Iran deal deadline expired amidst continued conflict, missile launches, and attacks in the Strait of Hormuz, while Israel escalated strikes in Lebanon despite a ceasefire.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has expired, and diplomatic talks have ceased, while a separate ceasefire in southern Lebanon appears fragile with ongoing Israeli strikes."
+    "summary": "A ceasefire in southern Lebanon appears to have collapsed following Israeli strikes that killed 11 people."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.3,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, President Trump threatens Oman.",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1984
+      "latestSinceUpdate": 1985
     },
     {
       "date": "Aug 17",
-      "text": "Israeli strikes in southern Lebanon kill 11 people, according to health officials.",
+      "text": "UAE detects two missiles launched from Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1985
+    },
+    {
+      "date": "Aug 17",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "middleeasteye.net",
+      "latestSinceUpdate": 1985
+    },
+    {
+      "date": "Aug 17",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 1985
+    },
+    {
+      "date": "Aug 17",
+      "text": "Trump's envoys meet mediators, Israel strikes Gaza.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1985
+    },
+    {
+      "date": "Aug 17",
+      "text": "Iran prepared for larger war, fearing US talks were cover for Israeli attack.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1984
-    },
-    {
-      "date": "Aug 17",
-      "text": "Brent oil rises above $90 as Iran rules out interim deal extension and threatens to escalate conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1984
-    },
-    {
-      "date": "Aug 17",
-      "text": "President Trump states no talks are taking place with Iran, as global oil prices reach highest levels since July.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1fR1lNM2lVdG9Kak5IZkdlRWgzQzNVUHVrRU85ZUZ5MzJNX2hkcktWdkt6aW9jMmhjRDhEbUxnQktEbHQxXzFMbGQyT2xtYTJmQ2E0VDU0NTRBOHpuRjNCQW0xZmlVWENybGgzVGd3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1984
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran declares preparedness for a larger war, fearing US talks were a cover for an Israeli attack.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1984
+      "latestSinceUpdate": 1985
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
