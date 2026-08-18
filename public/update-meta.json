@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1985,
+  "updateSequence": 1986,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T18:59:35.627Z",
+  "lastSyncedAt": "2026-08-18T19:33:36.588Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon appears to have collapsed following Israeli strikes that killed 11 people."
+    "summary": "No comprehensive ceasefire is active in the broader US-Iran conflict, and local ceasefires appear to be violated."
   }
 }
