@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1967,
+  "updateSequence": 1968,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T08:16:06.724Z",
+  "lastSyncedAt": "2026-08-18T08:55:35.658Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.93,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The US-Iran deal deadline has expired without extension, and existing ceasefires in the region appear to be violated or non-binding."
+    "summary": "No general ceasefire is active, and a localized ceasefire in Lebanon appears to have collapsed due to recent escalations and Israeli attacks."
   }
 }
