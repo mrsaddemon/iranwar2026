@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1971,
+  "updateSequence": 1972,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T10:49:15.996Z",
+  "lastSyncedAt": "2026-08-18T11:10:37.365Z",
   "warDay": 172,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
@@ -10,39 +10,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A previously observed ceasefire in southern Lebanon appears to have collapsed following escalated Israeli attacks and ongoing Gaza strikes."
+    "summary": "A previously active ceasefire in southern Lebanon has collapsed following escalated Israeli attacks and ongoing regional flare-ups."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
     "oilDisruption": 90,
     "tradeImpact": 65,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman over Strait of Hormuz.",
+      "text": "US-Iran deal deadline expires, President Trump threatens Oman over Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1971
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNcVZuUm96YmtsdjFsSkhhY21fbDNVYkVNUWNhYURHUzlrbDdqUUcyLW1VVWQtSy1mdzhyR2hUYXZmd2RjdkRnRi1BM1EwRS02TWQxbGljTUlmaU5hRHkzZ3l6UkVhVU5BdmZVTmRjaFVYbVBUYTlHSlE0dnpXR0lZRGhKMzBLdmRmSXBQSkc4TlBvUTlzQnBrQzdrMGlsM2dnZlY3LTZaMGVXaTFFbFhNSWtIbmtlM0RpRGJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1972
     },
     {
       "date": "Aug 17",
-      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
+      "text": "Middle Eastern airlines projected to face $4.3 billion loss in 2026 due to Iran war.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1971
+      "latestSinceUpdate": 1972
     },
     {
       "date": "Aug 16",
-      "text": "Kushner meets regional leaders as multiple conflicts roil Middle East.",
+      "text": "Jared Kushner meets regional leaders amidst multiple ongoing conflicts in the Middle East.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1971
+      "latestSinceUpdate": 1972
     },
     {
       "date": "Aug 15",
-      "text": "Shipping faces more disruptions in the Middle East.",
+      "text": "Shipping industry faces increased disruptions in the Middle East.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1971
+      "latestSinceUpdate": 1972
     },
     {
       "date": "Aug 18",
-      "text": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz; one crew dead.",
+      "text": "Vessel hit by 'unknown projectile' in Strait of Hormuz, with one crew casualty reported.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwJBVV95cUxQMi1seGc3OW5iMkVpblJZQnhGd3NsbFRnemN3dE4zeTA0SWpvbGlpQkloWWpKak94NUlYM0REdU1uZjlxaWlDQVpFYWlkSU5FOE51RXhndmtSRU1OcVNObG1kVFR6ei1BaVE3UE00OURJVFRNN20tV19NWVotbnczMUE1WmVGcHJsSzFRNTBZcDlRcV85M3RlSlhDdHlfTDdFckcxSV81bWFOZVJYdlg1eC01ZFhYSS1GWmQ0X2g4eEhwSmlkMU9DeUphTXhOcEphaHVtZU5abEJ0M19qRXBYVnFXejZTNmxNYlZONGlGVlNxUHVVaDNhR0xUbTdiU3Z2bWh1MG1GRVNadllfdk9iaDAza3JZMGZhWmpiOHZ6U0Z5bWQ5SGRub05wRjZUcEHSAbQCQVVfeXFMT3U3dzdwd2FJa0lhWEdsMlIyYU54SEZkR2NlZXNYREdYaE5xbG51WXZEMWVhQUpDWFcyWWpJa3h5S1lja25VY3ZfUUtOcm5XRU5RNEVPVl9wa3lwRWJHaG9yMVZvZzk1S2VZRHF1NC13S3Q1RWVXYkp0LU9faFFLYlZBLUFqalczV1YwQWtnc1pMSWNtd3diWm5tRmRlRGJCMlF0ak1HTjEyNUZjLU5CRktCNFFRUWlyckYtaGpwcWZ4Z2JCX0N4UHJsR1p2VUtleTRreE1nakVKM2hWa3JIcDdJeWFQQll6d255YWtsMjA0R3EtR0dHODNrMkI3RmZTMHY4ajEzZlJfQnRqV09wdjRlalpSTzRUM0duZkdQeHdadnliMVpTcUFWeXVkemp2Y21aUlM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of India",
-      "latestSinceUpdate": 1971
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQdnhsTnlwVkVUTjEzcmw0cVhsUDZxVUoyUDl6WkNSSXp1SEx1c1AzQ1pwcloxN3RnMUV5SU9oSnJzcm1aQkRIV1hPMnBqWDAwMGp4T1g3YmxJT05qSGVxZm5LcDlmY3p5UkY5el82UHplTzR0R3dMWUQ1dzRvU2sxNTUxanRDVlMwVV9ab3EzRkYwLVFYWVdLcWVpXzVXLVktcG9odVdGSdIBrAFBVV95cUxQWmg0WGhUZzNuTDBDYkNzeDdJMjRVMEJRRFJLcENEaXhXNDR2T2tyVzVvMF9YSmtLYkRObGEzSE9NSmNUQTFfYXFseDFFYm40VmNSbkNFNGdqcDY0NWttUlpjbmFzMmFobW9pVGdMTEplNHFaTlBlaXZvZmM3N013Nk1UMF84SnkyT0FyQl9iLXpQTEZpWnVCY2dnbzJvblVJMUtreWF1TW5nZnps?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1972
     },
     {
       "date": "Aug 18",
-      "text": "Israeli strikes kill 11 in Lebanon despite ceasefire, raising concerns about escalation.",
+      "text": "Iran claims Qatar is holding pilots; Israeli strikes kill 11 in Lebanon.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1971
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1972
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",

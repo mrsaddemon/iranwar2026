@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1971,
+  "updateSequence": 1972,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T10:49:15.996Z",
+  "lastSyncedAt": "2026-08-18T11:10:37.365Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A previously observed ceasefire in southern Lebanon appears to have collapsed following escalated Israeli attacks and ongoing Gaza strikes."
+    "summary": "A previously active ceasefire in southern Lebanon has collapsed following escalated Israeli attacks and ongoing regional flare-ups."
   }
 }
