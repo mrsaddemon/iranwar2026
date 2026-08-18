@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1966,
+  "updateSequence": 1967,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T07:47:06.850Z",
+  "lastSyncedAt": "2026-08-18T08:16:06.724Z",
   "warDay": 172,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon is reportedly being violated by Israeli escalation, indicating a fragile status."
+    "summary": "The US-Iran deal deadline has expired without extension, and existing ceasefires in the region appear to be violated or non-binding."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
+        "militaryPower": 92
       },
       "behavior": {
         "precision": 0.75,
         "aggression": 0.85
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 83
       },
       "behavior": {
         "precision": 0.65,
-        "aggression": 0.9
+        "aggression": 0.88
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 62
+      },
+      "behavior": {
+        "precision": 0.45,
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 45,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 51
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, with Trump threatening Oman.",
+      "text": "Deadline to reach US-Iran deal expires, with the US ruling out extension and Iran threatening a new offensive.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1966
+      "latestSinceUpdate": 1967
     },
     {
       "date": "Aug 17",
-      "text": "A ship was struck by a projectile in the Strait of Hormuz, injuring a crew member.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1966
-    },
-    {
-      "date": "Aug 16",
-      "text": "Israeli strikes killed 11 in Lebanon and also hit Gaza, with Israel reportedly escalating attacks in southern Lebanon despite a ceasefire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQdlJXVVpubVFvQ0ZEdGozSWQxWUNVNTYwM3ZtaEw3NklHd3F2R0NJN1p3ZHBBaVN4VWNiVGhWaGwzaUw5NEtHZzEyM2xld2RteFhjcXZTejdLT2drTy1kWDViZ1MtanVuQm9kM1MyLTVkZVJpakFLSTFVWkZwbjl0OEpaV2Y5cEF4Vk5RM2xZUEVTV01CczlXSHRPdEEtaHVjYmswdHZjWkZjRUMtRjhSUtIBtgFBVV95cUxNS0tQa0NydXRYR0NONnFlRVBhRXlnOF9PZTBUUC1WbjhIMTZFNGVDQnhqaVBxT3kzR2k2UEVndWtRWndvdDBNR2FxeW8xcGNfVTI1TEpCR1A5dWFUcThLLVljSTg0aDg2UU9hWTBPdGhBaS1oQmFua2Y3T0Jlc2doWFYxVWZRYlJkenIwRTRvQVNwYWVxSnVHN2ZDOU1DUm0yWDRWNDcwQktnUUd3YXBGVEdoVzNrdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1966
-    },
-    {
-      "date": "Aug 16",
-      "text": "Trump floated US control of the Strait of Hormuz and warned Iran was 'in big trouble'.",
+      "text": "Iran war pushes Middle Eastern airlines towards an estimated $4.3bn loss in 2026.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQYXhZT1kzZWVfaHBjcTRzZS1sbm1GcDVxMWs2c3gtOXdIM1hOSGZxbWZvRkpnaDB1MTktU2RHRTZpd2djdzJiQUhkU0NlR1ZVMTYxN2hHUVFRRDJMUXJyOTlfeGQydFFTUjdnc2NRWEFURTlCTW83SklkMDF3dzZlSFI4NGNVZW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1966
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 1967
     },
     {
       "date": "Aug 16",
-      "text": "Iran signaled readiness for 'US ground operations' and reportedly offered a $30,000 bounty for killing or capturing US soldiers.",
+      "text": "Kushner meets regional leaders as multiple conflicts continue to affect the Middle East.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1967
+    },
+    {
+      "date": "Aug 16",
+      "text": "Iran claims Qatar is holding pilots, while Israeli strikes kill 11 in Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1966
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1967
     },
     {
       "date": "Aug 16",
-      "text": "CENTCOM chief met with troops aboard USS Abraham Lincoln amid morale concerns, while Diego Garcia was highlighted as an integral US military base.",
+      "text": "CENTCOM chief meets with troops aboard USS Abraham Lincoln amid morale concerns.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 1966
+      "latestSinceUpdate": 1967
+    },
+    {
+      "date": "Aug 16",
+      "text": "Trump's envoys meet mediators, and Israel conducts strikes in Gaza.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1967
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
