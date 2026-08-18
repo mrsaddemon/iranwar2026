@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1969,
+  "updateSequence": 1970,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T09:41:28.772Z",
+  "lastSyncedAt": "2026-08-18T10:11:05.508Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.93,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The US-Iran ceasefire has not been extended by President Trump, and Israeli actions in Lebanon suggest a broader regional ceasefire is not holding."
+    "summary": "No active ceasefire is in effect for the broader US-Iran conflict, and a ceasefire in Lebanon appears to be violated."
   }
 }
