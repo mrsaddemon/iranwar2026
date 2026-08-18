@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1958,
+  "updateSequence": 1959,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T01:44:13.817Z",
+  "lastSyncedAt": "2026-08-18T02:42:38.907Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.9,
     "durationDays": 60,
-    "summary": "The previously active ceasefire between the US and Iran has been rejected for extension by the US, with ongoing hostilities in the region."
+    "summary": "The previously discussed ceasefire agreement has collapsed, with the US rejecting its extension."
   }
 }
