@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1965,
+  "updateSequence": 1966,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T06:57:25.302Z",
+  "lastSyncedAt": "2026-08-18T07:47:06.850Z",
   "warDay": 172,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "No active ceasefire or de-escalation efforts are reported; tensions remain high."
+    "summary": "A ceasefire in southern Lebanon is reportedly being violated by Israeli escalation, indicating a fragile status."
   }
 }
