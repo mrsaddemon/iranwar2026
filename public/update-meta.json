@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1974,
+  "updateSequence": 1975,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T12:03:57.063Z",
+  "lastSyncedAt": "2026-08-18T13:02:00.081Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The 60-day negotiation period for a US-Iran deal has ended, and the Iran ceasefire will not be extended, with Israel escalating attacks despite prior agreements."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
