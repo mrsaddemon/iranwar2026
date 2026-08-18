@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1987,
+  "updateSequence": 1988,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T19:51:52.412Z",
+  "lastSyncedAt": "2026-08-18T20:07:30.308Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A regional ceasefire appears to have collapsed following renewed Israeli strikes and Hezbollah attacks despite its prior existence."
+    "summary": "A ceasefire in southern Lebanon appears to be in effect but is being violated by both Israeli strikes and Hezbollah attacks."
   }
 }

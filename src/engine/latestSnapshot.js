@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1987,
+  "updateSequence": 1988,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T19:51:52.412Z",
+  "lastSyncedAt": "2026-08-18T20:07:30.308Z",
   "warDay": 172,
-  "summary": "The US-Iran deal deadline expired, leading to increased tensions, attacks in the Strait of Hormuz, and continued Israeli strikes in Lebanon and Gaza amidst a collapsed regional ceasefire.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A regional ceasefire appears to have collapsed following renewed Israeli strikes and Hezbollah attacks despite its prior existence."
+    "summary": "A ceasefire in southern Lebanon appears to be in effect but is being violated by both Israeli strikes and Hezbollah attacks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
     "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "US-Iran deal deadline expires, Trump threatens Oman.",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1987
+      "latestSinceUpdate": 1988
     },
     {
       "date": "Aug 17",
@@ -76,33 +76,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 17",
-      "text": "Two ships transiting Strait of Hormuz are attacked as oil prices rise.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1987
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 1988
     },
     {
       "date": "Aug 17",
-      "text": "Israel strikes Lebanon, killing 11 after Hezbollah wounds 3 IDF soldiers.",
+      "text": "Trump posts map labeling Strait of Hormuz as US territory.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNaXdqczQxZDJIUFd5QW5MQ3pkXzBKMmFqOGhFdWI4ckdTQUE0cnVOV1p3WTZTU0tFN0Iydk9Mai03MU1QQTlZLVN2YVJ2MTlOWXh5TkpBeDlDaWQzM21YVDk5aVNVYkNubzVZY0NKZWxZTFFSUHNLazBBcTdoYXlSa0V3cXR2WkNuLWNya2dRUy1GRlhJOS1pM09iSHNsVkVmTEdQcFZlZHdqUXRpUkVj0gG0AUFVX3lxTE0tOTZacnBzS0Q5VlJkWXdBdjZuNjFXN3NoTTZpQWMteHg2eFAyS1NSRUtyMFpJTHhkQXZfdlJOVVR2T2RzdEJqeU1FeDFxbGdYM0NkazlDWmNSd3UtRERha3VRV2pmVW5IVnhyVlRLMWxZeXRiMEVONy02c3pJZ1VxOGdmdFlUTUlDNDZ3M09kOWthNFVwTndPTzlDTF9tLWhMdUNHMGlKN2FTc1NMOUt4RGZvTA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 1988
+    },
+    {
+      "date": "Aug 17",
+      "text": "Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQMWV0X21ESGRmUGFXQVQtSXNBRGhkdU5fM1hDNjhwaFhFTktWM3lVXzliRmdma093bTh5LWVmck9JNnYwWnNBUnRJcmxPS25KWGVsTHVGeGd1SE52SjF6LWNHcF9yTTJzX21qRzZvM1NMSk9lWjE0cW41c3hmbU9iT3NsMUF2SlpMWm9Xbnp0Q2pBNWJNUjQ2Y3NNSzZ4RjRsTURxS2NtMFFGOWdJaFlSUEJ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1988
+    },
+    {
+      "date": "Aug 17",
+      "text": "Israeli strikes kill 11 in south Lebanon after Hezbollah wounds 3 IDF soldiers in attack.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPT1ZKX0ZEbHRQMERUcWlMNzZYS2U5NGxFamRaS2dpQUFURk50b1VvN3ZVbm1acjdUYXR6UC03OTJBb0x2VGs1bVN2ZXMwVVVaWTRsb2tYTTZYWFNBbVFLb2FaUlJfUklqNzBwSWNSdVpJeFhoV2ZQTFRnS2tMMEtkenowUFdFMkVwelRiRWpjcGc0Z0pOUGdGT2UtSjQxX0hIVFNlbWJjOGN1MGl6aGJpZW9WOHU5bXlrYXfSAb8BQVVfeXFMT2RwX3hnaDZnanQyWWJlclZ1ZUdTTUJINl9tQnpzR292bDlfMnNlZjZuOVJZRkZJakV1SDg0Nmg4ang4anJlZXVqcVp0eXFrRy1xenJDZjhNall4TXBYTVpycm5FeXNfZzc4T04zMjZYcDV5LWpHb3d3Z3kyZGJReDNBWHZRc0Rsak5PRWlRQUU1TVJYQmZ4SFB6TW44d0dTdG9kZ0Nta2NMLTQxRXhNamNIS1hrWURMRmRaRVBieGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 1987
-    },
-    {
-      "date": "Aug 17",
-      "text": "Trump posts map labeling Strait of Hormuz 'new' US territory.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1987
+      "latestSinceUpdate": 1988
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
