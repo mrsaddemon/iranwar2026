@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1963,
+  "updateSequence": 1964,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T05:37:16.588Z",
+  "lastSyncedAt": "2026-08-18T05:58:52.979Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "The US-Iran interim deal and associated ceasefire have expired, with both sides rejecting extensions and escalating rhetoric."
+    "summary": "The US-Iran Memorandum of Understanding (MOU) deadline has expired, and an interim deal extension was rejected, indicating a collapse of previous de-escalation efforts."
   }
 }
