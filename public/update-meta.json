@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1962,
+  "updateSequence": 1963,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T04:54:27.180Z",
+  "lastSyncedAt": "2026-08-18T05:37:16.588Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.95,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The US-Iran Memorandum of Understanding (MoU) extension was rejected by Trump, and the ceasefire has expired, leading to increased tensions and threats of escalation."
+    "summary": "The US-Iran interim deal and associated ceasefire have expired, with both sides rejecting extensions and escalating rhetoric."
   }
 }

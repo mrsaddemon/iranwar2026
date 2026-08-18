@@ -1,51 +1,51 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1962,
+  "updateSequence": 1963,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T04:54:27.180Z",
+  "lastSyncedAt": "2026-08-18T05:37:16.588Z",
   "warDay": 172,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.95,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The US-Iran Memorandum of Understanding (MoU) extension was rejected by Trump, and the ceasefire has expired, leading to increased tensions and threats of escalation."
+    "summary": "The US-Iran interim deal and associated ceasefire have expired, with both sides rejecting extensions and escalating rhetoric."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 78,
-    "tradeImpact": 57,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
     "globalPressure": 64,
     "allianceInfluence": 51
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "US-Iran deal deadline expires, Trump rejects MoU extension and threatens Oman.",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman and rejects MoU extension.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1962
+      "latestSinceUpdate": 1963
     },
     {
       "date": "Aug 17",
@@ -75,36 +75,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 1962
     },
     {
-      "date": "Aug 17",
-      "text": "Iran war pushes Middle Eastern airlines towards a projected $4.3bn loss in 2026.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1962
-    },
-    {
-      "date": "Aug 16",
-      "text": "Kushner meets regional leaders as multiple conflicts continue to affect the Middle East.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1962
-    },
-    {
-      "date": "Aug 16",
-      "text": "Israeli strikes kill 11 in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1962
-    },
-    {
       "date": "Aug 16",
       "text": "Brent oil rises above $90 as Iran rules out interim deal extension and threatens escalation.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
       "latestSinceUpdate": 1962
+    },
+    {
+      "date": "Aug 16",
+      "text": "Strait of Hormuz crossings fall, remaining in single digits.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1963
+    },
+    {
+      "date": "Aug 16",
+      "text": "Eleven killed in Israeli strikes on southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 1963
+    },
+    {
+      "date": "Aug 16",
+      "text": "Iran signals readiness for 'US ground operations' as strategy shifts.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQelFzdllQRGI3MUs3bFFrY3pqdmoxaUs1VnJBbTJuT2tCYUVVMDdpdFRGX1dfV2xLYzBES0l4QXNObXlmWFFrbzd3SjFOT3pIVzgyRlh6TlVxUEw4U1JRaE9IOGFhdEEzRnYwXzNSV0NjOWwtSXdBNTkyMWxpVnZyTDdZRzNMRm45S2pmV1RhTm5MenFyd1kyVmszc1QyOTV4cWZBVFpR0gGrAUFVX3lxTE1MLWVBNEdLNXdVUU11bk1fOGEwc24tWnJYMzhlR2NXNkYwU0NwdWlPaThMYnJVbjFEV0hXdXNKM2VnbGdkX1dMd19zZ3hZMldHY29DMFdzai1Dd05UVUh3c2FMc1FRQzAxNlJIRDQxN05sQ2x5b0JKVy0zcG5yT1gwYkZoQ1JJZjQ3Uk5HaFRVY0R2ZDlUMjQxeEpaQUhPYzBsbzNOMFJXUVBBbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1963
     }
   ],
   "sourceStatuses": [
