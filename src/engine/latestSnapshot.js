@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1980,
+  "updateSequence": 1981,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T16:12:19.861Z",
+  "lastSyncedAt": "2026-08-18T16:52:00.687Z",
   "warDay": 172,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect for the US-Iran conflict, and a prior ceasefire in Lebanon appears to have collapsed."
+    "summary": "A ceasefire in southern Lebanon appears to be in effect but is being violated by Israeli escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 92
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
-    "allianceInfluence": 46
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, with President Trump threatening Oman.",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1979
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1981
     },
     {
       "date": "Aug 17",
-      "text": "Iran war pushes Middle Eastern airlines towards an estimated $4.3 billion loss in 2026.",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1980
+      "latestSinceUpdate": 1981
     },
     {
       "date": "Aug 16",
-      "text": "Jared Kushner meets regional leaders as multiple conflicts continue to affect the Middle East.",
+      "text": "Kushner meets regional leaders as multiple conflicts roil Middle East.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1980
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1981
     },
     {
       "date": "Aug 16",
-      "text": "US states it can maintain a blockade on Iran 'indefinitely' amid ongoing war.",
+      "text": "US says can maintain blockade on Iran ‘indefinitely”.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1980
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 1981
     },
     {
       "date": "Aug 16",
-      "text": "Israel strikes Lebanon as the U.S. prepares fresh sanctions against Iran.",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1979
+      "sourceName": "japantimes.co.jp",
+      "latestSinceUpdate": 1981
     },
     {
       "date": "Aug 16",
-      "text": "President Trump posts an image depicting the Strait of Hormuz as new 'U.S. Territory'.",
+      "text": "Trump threatens U.S. ally Oman over Strait of Hormuz as Iran peace deal deadline slips.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1980
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNcVZuUm96YmtsdjFsSkhhY21fbDNVYkVNUWNhYURHUzlrbDdqUUcyLW1VVWQtSy1mdzhyR2hUYXZmd2RjdkRnRi1BM1EwRS02TWQxbGljTUlmaU5hRHkzZ3l6UkVhVU5BdmZVTmRjaFVYbVBUYTlHSlE0dnpXR0lZRGhKMzBLdmRmSXBQSkc4TlBvUTlzQnBrQzdrMGlsM2dnZlY3LTZaMGVXaTFFbFhNSWtIbmtlM0RpRGJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 1981
     }
   ],
   "sourceStatuses": [
