@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1973,
+  "updateSequence": 1974,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T11:43:54.320Z",
+  "lastSyncedAt": "2026-08-18T12:03:57.063Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "The 60-day negotiation period for a US-Iran ceasefire has ended without extension, and Israel has escalated attacks in Lebanon despite a separate ceasefire."
+    "summary": "The 60-day negotiation period for a US-Iran deal has ended, and the Iran ceasefire will not be extended, with Israel escalating attacks despite prior agreements."
   }
 }
