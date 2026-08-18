@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1964,
+  "updateSequence": 1965,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T05:58:52.979Z",
+  "lastSyncedAt": "2026-08-18T06:57:25.302Z",
   "warDay": 172,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Tensions between the US and Iran have escalated following the expiration of a deal deadline, marked by US threats, an incident in the Strait of Hormuz, and Iranian signals of readiness for ground operations and bounties on US troops.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 60,
-    "summary": "The US-Iran Memorandum of Understanding (MOU) deadline has expired, and an interim deal extension was rejected, indicating a collapse of previous de-escalation efforts."
+    "summary": "No active ceasefire or de-escalation efforts are reported; tensions remain high."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 48,
+    "nuclearIndex": 60,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 62,
-    "sanctionsPressure": 54,
-    "globalPressure": 65,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "US-Iran deal deadline expires, Trump threatens Oman over Strait of Hormuz.",
+      "text": "Deadline to reach US-Iran deal expires; Trump threatens Oman.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNcVZuUm96YmtsdjFsSkhhY21fbDNVYkVNUWNhYURHUzlrbDdqUUcyLW1VVWQtSy1mdzhyR2hUYXZmd2RjdkRnRi1BM1EwRS02TWQxbGljTUlmaU5hRHkzZ3l6UkVhVU5BdmZVTmRjaFVYbVBUYTlHSlE0dnpXR0lZRGhKMzBLdmRmSXBQSkc4TlBvUTlzQnBrQzdrMGlsM2dnZlY3LTZaMGVXaTFFbFhNSWtIbmtlM0RpRGJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 1964
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1965
     },
     {
       "date": "Aug 17",
-      "text": "US claims control of Hormuz Strait as Iran war pushes Middle Eastern airlines towards $4.3bn loss.",
+      "text": "Ship struck by projectile in Strait of Hormuz, crew member injured.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1965
+    },
+    {
+      "date": "Aug 17",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1964
+      "latestSinceUpdate": 1965
     },
     {
       "date": "Aug 16",
-      "text": "Eleven killed in Israeli strikes on southern Lebanon, adding pressure to stalled US-Iran talks.",
+      "text": "Kushner meets regional leaders as multiple conflicts roil Middle East.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1965
+    },
+    {
+      "date": "Aug 16",
+      "text": "Iran claims Qatar is holding pilots; Israeli strikes kill 11 in Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBCRDVFUWZWd2tFVmZ6bm5fUld6aVBfSkhFTzZZYUhyYjl4M1pnc3pfUl82cTEtelV5cGxBem9JcWJQeXhxdVRtbWQxdFlSMXlsQUpOdUtwTzFRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 1964
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 1965
     },
     {
       "date": "Aug 16",
-      "text": "Iran offers $30,000 bounty for killing or capturing US soldiers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 1964
-    },
-    {
-      "date": "Aug 16",
-      "text": "Brent oil rises above $90 as Iran rules out interim deal extension and threatens to escalate conflict.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 1964
-    },
-    {
-      "date": "Aug 16",
-      "text": "Strait of Hormuz crossings fall, then rise slightly, remaining in single digits as US-Iran ceasefire expires.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxObmFuNHJUd0NQNEY5WUNVLWlIUnZwb2F5VVJxZkpiX1hCRjRqRk44UjRkTjE0STF4aUlqRkVNTElObWJpVmJJQkZnR0V4RzllVko3bHJCTDM3VU9yQTdxd1picWtid0FaRkJmcEQzTzBpaEdjenlpc0Fnd0xDdGE1Z0FYVENRVjlEb3hUbFVCUVJ3VG9SVTFwSEVabWRXT0ZGdml1R2Yya3NZWlBGV2xVT1JXRDVnR0FpSVhLVERkb2JqQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1964
+      "text": "CENTCOM chief meets with troops aboard USS Abraham Lincoln amid morale concerns.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cbsnews.com",
+      "latestSinceUpdate": 1965
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
