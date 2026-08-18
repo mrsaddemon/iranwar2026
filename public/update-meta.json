@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1990,
+  "updateSequence": 1991,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T21:03:03.539Z",
+  "lastSyncedAt": "2026-08-18T21:31:57.987Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A temporary ceasefire has collapsed, with the US ruling out extension and Israel escalating attacks in Lebanon despite its prior existence."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
