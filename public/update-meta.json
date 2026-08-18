@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1959,
+  "updateSequence": 1960,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T02:42:38.907Z",
+  "lastSyncedAt": "2026-08-18T03:30:04.808Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "The previously discussed ceasefire agreement has collapsed, with the US rejecting its extension."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
