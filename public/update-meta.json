@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1975,
+  "updateSequence": 1976,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T13:02:00.081Z",
+  "lastSyncedAt": "2026-08-18T13:49:26.910Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "The 60-day negotiation period for a US-Iran ceasefire has ended without extension, leading to renewed threats and military actions."
   }
 }
