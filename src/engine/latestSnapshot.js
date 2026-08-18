@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1996,
+  "updateSequence": 1997,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T23:29:39.051Z",
+  "lastSyncedAt": "2026-08-18T23:50:21.968Z",
   "warDay": 172,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon appears to be in place but is reportedly being violated by Israeli strikes, indicating a fragile status."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 45,
-    "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expired, with President Trump reportedly threatening Oman.",
-      "severity": "critical",
+      "date": "Aug 18",
+      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1996
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 1997
     },
     {
-      "date": "Aug 17",
-      "text": "UAE detected and accused Iran of firing two ballistic missiles at its territory.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi5gFBVV95cUxOdjU0QllydVZtR3NvNUNRM3M1dE9OOFpodXpjX2xJRmNveVdMWmduZE9UVXdpTXhOMzhOS3ZhczFkb1J3WElDNDV6SjFwVmNVQlRneUVNT29sUnFZSnhOUlVSRGUxcklvWFFHYThxOFY1TmJ4R2hlR2ZLSFhmUXBGMWFNNzNGTEMwRkM3LUpiREw5N1FaRTYxcWhIVFJYNUF5YmRiLS1MajJRQ3d5ZUdZMGNYVEtFNF9EUWI3R2xVWldSa0dGb0VTQW9UUFgtYmotbmJ1X2VoNzhkUHZHQXlmaHU4UGFYQdIB7AFBVV95cUxNSnhzM1BXYVh5WExhOC1YenQ3SFEzdVAxX0tiMFgwc3VHU2g5VFRoX2tfR3pvSTVwbFZUVVFzZXd6M2lzZnNWaHF0TDBYR2toNzlETmpaZ09kaFJscGNXWUNpZFdiakpySTRNVUhoX1RQZ1FvYW9xTWxnQnpCX2hVN21LdUVMNUlJdHpLdWZtTGwzYm84QjhaSkJ3NExTNmQwUGxUSXpJZll3T0N3YW9FcTZLdWpiR2FVa01qanppQUtuSWtwWW9WWWZNSUJkUEtSNUdtWFBxLW9hc0NCeXM4N05yMGUxRWhwb2JwUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 1996
+      "date": "Aug 18",
+      "text": "Iran Update Special Report, August 17, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOVVdJbkRYZE1DUFhOUzBFaDc3ek90b0k2TVBXdnBBdzFnUWFhOVlVRzZVRG9DclY0dkMzdU5PNXNKM013MExVbk1EaWF1c0NtVTJQNVJ5V2pvOEJDSkRYT1ZKQTJOZnUteW5NTDRxYmdDeW5WTlg2MGlsZkRKTF9UYTVaYjIzWU00MlgxRFZiUldZVjlkcHp3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 1997
     },
     {
-      "date": "Aug 17",
-      "text": "Israel conducted strikes in Lebanon as the U.S. prepared fresh sanctions against Iran.",
-      "severity": "warning",
+      "date": "Aug 18",
+      "text": "Iran war live: UAE detects two missiles launched from Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1997
+    },
+    {
+      "date": "Aug 18",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 1997
+    },
+    {
+      "date": "Aug 18",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1996
+      "latestSinceUpdate": 1997
     },
     {
-      "date": "Aug 17",
-      "text": "US envoy stated the US is working on a deconfliction mechanism among Turkey, Israel, and Syria.",
+      "date": "Aug 18",
+      "text": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQVlZuUXBialdJbERhTVMyN3NRUkxUY251V1g4c3RDS0EyUnNEVWhNcGVFTFNETFZRLTJFcUpWaEdwS0NuQ1FTck1mNURabzBNbnMtNV9RRDQzQ1d2RHlHUHFlNWdPUFlselFNSElSVmJ1ZklSUlUyaGdCbVEwMTE3YnlzMG0yUkQyNWJZSHpHVFgwZlhkTHlDaUxNMGlzQ1VVM01WaTRSVDNLZjJJT2Z3WkttVW5RZFM0R3h2M0tDSklkZGhoSkhJ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 1996
-    },
-    {
-      "date": "Aug 17",
-      "text": "President Trump reportedly labeled a map of the Strait of Hormuz as 'New U.S. Territory' after the 60-day deal deadline passed.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1996
-    },
-    {
-      "date": "Aug 17",
-      "text": "Saudi Arabia resumed oil loadings and sales from inside the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQMWV0X21ESGRmUGFXQVQtSXNBRGhkdU5fM1hDNjhwaFhFTktWM3lVXzliRmdma093bTh5LWVmck9JNnYwWnNBUnRJcmxPS25KWGVsTHVGeGd1SE52SjF6LWNHcF9yTTJzX21qRzZvM1NMSk9lWjE0cW41c3hmbU9iT3NsMUF2SlpMWm9Xbnp0Q2pBNWJNUjQ2Y3NNSzZ4RjRsTURxS2NtMFFGOWdJaFlSUEJ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 1995
+      "latestSinceUpdate": 1997
     }
   ],
   "sourceStatuses": [
