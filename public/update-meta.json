@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1986,
+  "updateSequence": 1987,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T19:33:36.588Z",
+  "lastSyncedAt": "2026-08-18T19:51:52.412Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "No comprehensive ceasefire is active in the broader US-Iran conflict, and local ceasefires appear to be violated."
+    "summary": "A regional ceasefire appears to have collapsed following renewed Israeli strikes and Hezbollah attacks despite its prior existence."
   }
 }

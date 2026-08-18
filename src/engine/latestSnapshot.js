@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1986,
+  "updateSequence": 1987,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T19:33:36.588Z",
+  "lastSyncedAt": "2026-08-18T19:51:52.412Z",
   "warDay": 172,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US-Iran deal deadline expired, leading to increased tensions, attacks in the Strait of Hormuz, and continued Israeli strikes in Lebanon and Gaza amidst a collapsed regional ceasefire.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "No comprehensive ceasefire is active in the broader US-Iran conflict, and local ceasefires appear to be violated."
+    "summary": "A regional ceasefire appears to have collapsed following renewed Israeli strikes and Hezbollah attacks despite its prior existence."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
-    "sanctionsPressure": 49,
-    "globalPressure": 55,
+    "nuclearIndex": 30,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, with President Trump threatening Oman.",
+      "text": "US-Iran deal deadline expires, Trump threatens Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1986
+      "latestSinceUpdate": 1987
     },
     {
       "date": "Aug 17",
@@ -76,35 +76,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 17",
-      "text": "Two ships transiting the Strait of Hormuz are attacked, leading to a rise in oil prices.",
+      "text": "Two ships transiting Strait of Hormuz are attacked as oil prices rise.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1986
+      "latestSinceUpdate": 1987
     },
     {
       "date": "Aug 17",
-      "text": "Israeli strikes kill 11 in south Lebanon following a Hezbollah attack that wounded 3 IDF soldiers.",
+      "text": "Israel strikes Lebanon, killing 11 after Hezbollah wounds 3 IDF soldiers.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPT1ZKX0ZEbHRQMERUcWlMNzZYS2U5NGxFamRaS2dpQUFURk50b1VvN3ZVbm1acjdUYXR6UC03OTJBb0x2VGs1bVN2ZXMwVVVaWTRsb2tYTTZYWFNBbVFLb2FaUlJfUklqNzBwSWNSdVpJeFhoV2ZQTFRnS2tMMEtkenowUFdFMkVwelRiRWpjcGc0Z0pOUGdGT2UtSjQxX0hIVFNlbWJjOGN1MGl6aGJpZW9WOHU5bXlrYXfSAb8BQVVfeXFMT2RwX3hnaDZnanQyWWJlclZ1ZUdTTUJINl9tQnpzR292bDlfMnNlZjZuOVJZRkZJakV1SDg0Nmg4ang4anJlZXVqcVp0eXFrRy1xenJDZjhNall4TXBYTVpycm5FeXNfZzc4T04zMjZYcDV5LWpHb3d3Z3kyZGJReDNBWHZRc0Rsak5PRWlRQUU1TVJYQmZ4SFB6TW44d0dTdG9kZ0Nta2NMLTQxRXhNamNIS1hrWURMRmRaRVBieGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "timesofisrael.com",
-      "latestSinceUpdate": 1986
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1987
     },
     {
       "date": "Aug 17",
-      "text": "President Trump posts a map labeling the Strait of Hormuz as 'new' US territory.",
+      "text": "Trump posts map labeling Strait of Hormuz 'new' US territory.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1986
-    },
-    {
-      "date": "Aug 17",
-      "text": "The Pentagon is weighing a smaller U.S. military presence in the Gulf once the Iran war ends.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 1986
+      "latestSinceUpdate": 1987
     }
   ],
   "sourceStatuses": [
