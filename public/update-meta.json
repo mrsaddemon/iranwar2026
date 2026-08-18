@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1989,
+  "updateSequence": 1990,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T20:42:41.686Z",
+  "lastSyncedAt": "2026-08-18T21:03:03.539Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.9,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The temporary US-Iran cease-fire has ended with no extension, and Israel has escalated attacks in Lebanon despite a separate ceasefire."
+    "summary": "A temporary ceasefire has collapsed, with the US ruling out extension and Israel escalating attacks in Lebanon despite its prior existence."
   }
 }

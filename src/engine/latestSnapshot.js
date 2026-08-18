@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1989,
+  "updateSequence": 1990,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T20:42:41.686Z",
+  "lastSyncedAt": "2026-08-18T21:03:03.539Z",
   "warDay": 172,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.9,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "The temporary US-Iran cease-fire has ended with no extension, and Israel has escalated attacks in Lebanon despite a separate ceasefire."
+    "summary": "A temporary ceasefire has collapsed, with the US ruling out extension and Israel escalating attacks in Lebanon despite its prior existence."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.6,
         "aggression": 0.9
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
     "oilDisruption": 85,
     "tradeImpact": 62,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, with Trump threatening Oman and the US ruling out extending the temporary cease-fire.",
+      "text": "US-Iran deal deadline expired, Trump threatens Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1989
+      "latestSinceUpdate": 1990
     },
     {
       "date": "Aug 17",
-      "text": "UAE detects two missiles launched from Iran, indicating continued regional military activity.",
+      "text": "UAE detects two missiles launched from Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 1989
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 1990
     },
     {
       "date": "Aug 17",
-      "text": "Israel strikes Lebanon, killing 11 people, despite an existing ceasefire, adding pressure to stalled US-Iran talks.",
+      "text": "Israeli strikes kill 11 in south Lebanon after Hezbollah wounds 3 IDF soldiers.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1989
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPT1ZKX0ZEbHRQMERUcWlMNzZYS2U5NGxFamRaS2dpQUFURk50b1VvN3ZVbm1acjdUYXR6UC03OTJBb0x2VGs1bVN2ZXMwVVVaWTRsb2tYTTZYWFNBbVFLb2FaUlJfUklqNzBwSWNSdVpJeFhoV2ZQTFRnS2tMMEtkenowUFdFMkVwelRiRWpjcGc0Z0pOUGdGT2UtSjQxX0hIVFNlbWJjOGN1MGl6aGJpZW9WOHU5bXlrYXfSAb8BQVVfeXFMT2RwX3hnaDZnanQyWWJlclZ1ZUdTTUJINl9tQnpzR292bDlfMnNlZjZuOVJZRkZJakV1SDg0Nmg4ang4anJlZXVqcVp0eXFrRy1xenJDZjhNall4TXBYTVpycm5FeXNfZzc4T04zMjZYcDV5LWpHb3d3Z3kyZGJReDNBWHZRc0Rsak5PRWlRQUU1TVJYQmZ4SFB6TW44d0dTdG9kZ0Nta2NMLTQxRXhNamNIS1hrWURMRmRaRVBieGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 1990
     },
     {
       "date": "Aug 17",
-      "text": "A vessel in the Strait of Hormuz was hit by a projectile, resulting in one casualty, amid claims of Iran losing control of the strait.",
+      "text": "Vessel in Strait of Hormuz hit by projectile, one casualty.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTE5UYmdZbW8tMm55Yzg4Z3VFeDFiWUk2TDNWWU13aVdKU2tSSmtOb3FMWnBaOWRxMW1tMUZna01vZnpZUXdMaDNKLVVVR1FOMTlrZm03V2JWeGVzR2VxY19QbkdCaFR6ckdhOVdFU05PWEhvMnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1989
+      "sourceUrl": "https://news.google.com/articles/CBMiiwJBVV95cUxQTXdlLWcybWRwUFNLbWJBTWdJYXptOEhqdC1vX2w5dHBhYVNOd1YzY3p5bnFsSzgtUWZnSjFWNkhDd0RXdktuN3dxdjZaS3FSX0JDQVNtTkZBLWY0ZnZkRXB6dVU0UE5jRDJDTWdhUFVXZ3lZd2swUkZDSFFTLXlFTWhtRG9HQWJCUGxPQm1wdEI0dGFfVVdHR2lEWlBqR3dMbGh6Nk1qekZkcmlRMkFFZ0NRLTdLTjUwcG1hejJUbUcyaTF0STJBUFpTU0lZbVJNb0xEM1h1dVNRWHhZa3lTMV9nTkFVUjdZVHB6OWtHTUZEQzNnSFd1QlZKMWFMMnp3VWQ2bXoySWRlMVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WBFF",
+      "latestSinceUpdate": 1990
     },
     {
       "date": "Aug 17",
-      "text": "Iran states it is prepared for a larger war, fearing US talks were a cover for an Israeli attack, and threatens military actions.",
+      "text": "Iran threatens military attacks while US rules out extending temporary cease-fire.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1989
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQQW9yazZWM2NYdzhkSFZreHRPMWlvTjhBZEViT253Rk9zZWV5U3ZacVQtMU9SNW90NUlvbTkweGJvd1d4Q1VtZFlVMXhRbTAwdnR2TVFjOURpcUdrMGhOYk9FUFNYS2dsZnFnXzBaa1hQZjVoT0JmZHkzNUJKN2w0Xy1NREFfdS1tQ0VFRzNGd1ZwcDZjcjcwN01HVmdnY01tcjB3VzZTZ25aRUp2VmRhdWxvVkE4bU5rSEloMnRGSjU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "New York Post",
+      "latestSinceUpdate": 1990
     }
   ],
   "sourceStatuses": [
