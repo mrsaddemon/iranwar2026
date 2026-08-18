@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1970,
+  "updateSequence": 1971,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T10:11:05.508Z",
+  "lastSyncedAt": "2026-08-18T10:49:15.996Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect for the broader US-Iran conflict, and a ceasefire in Lebanon appears to be violated."
+    "summary": "A previously observed ceasefire in southern Lebanon appears to have collapsed following escalated Israeli attacks and ongoing Gaza strikes."
   }
 }

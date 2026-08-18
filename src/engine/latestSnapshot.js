@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1970,
+  "updateSequence": 1971,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T10:11:05.508Z",
+  "lastSyncedAt": "2026-08-18T10:49:15.996Z",
   "warDay": 172,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 60,
-    "summary": "No active ceasefire is in effect for the broader US-Iran conflict, and a ceasefire in Lebanon appears to be violated."
+    "summary": "A previously observed ceasefire in southern Lebanon appears to have collapsed following escalated Israeli attacks and ongoing Gaza strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
@@ -28,27 +28,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
-    "sanctionsPressure": 49,
-    "globalPressure": 56,
-    "allianceInfluence": 46
+    "nuclearIndex": 15,
+    "escalationLevel": 48,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
+    "sanctionsPressure": 54,
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, President Trump threatens Oman.",
-      "severity": "warning",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman over Strait of Hormuz.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1970
+      "latestSinceUpdate": 1971
     },
     {
       "date": "Aug 17",
-      "text": "Vessel struck by unknown projectile in Strait of Hormuz, one crew member reported injured or dead.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1970
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran war pushes Middle Eastern airlines towards an estimated $4.3 billion loss in 2026.",
-      "severity": "info",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1970
+      "latestSinceUpdate": 1971
     },
     {
       "date": "Aug 16",
-      "text": "Jared Kushner meets regional leaders as multiple conflicts continue to roil the Middle East.",
+      "text": "Kushner meets regional leaders as multiple conflicts roil Middle East.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1970
+      "latestSinceUpdate": 1971
     },
     {
-      "date": "Aug 16",
-      "text": "Iran claims Qatar is holding Iranian pilots.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOU0NBVmpueWNUWGJ1ckoxSW1wR1dkX0ZHRzk3bWFUcUlGamk0NjBjMEo2LXVRNTlUUkxibVdSbHdLS245VF9Hc2hzbE9JYld3WEt4VnBPSWVwMjFoTlQyc2RSYjdzLU5ZN0FoZ1dSaVVGUGIwbU1XbzlCY256ZnloUFBuNnlPakV3RFlFWHpqRERKa3lIblRReG80R1hyN1RCczFLdXYtRmJQNlo3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 1970
-    },
-    {
-      "date": "Aug 16",
-      "text": "Israeli strikes kill 11 in Lebanon, escalating attacks despite an existing ceasefire.",
+      "date": "Aug 15",
+      "text": "Shipping faces more disruptions in the Middle East.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5jZlpLZGNVVU9BX2JPcU13ZWt1SXZPLWZmaUdhR05fcWdmUmtZMHRTNFZNdUllN2g3MHU0ejRidWVqSVRtUkRwSnlmOFI0U3BPX1FGaXEyQTl1VjVhNTh4Y1BRbU5kUGhvU2JfN1lR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 1971
+    },
+    {
+      "date": "Aug 18",
+      "text": "Vessel hit by ‘unknown projectile’ in Strait of Hormuz; one crew dead.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwJBVV95cUxQMi1seGc3OW5iMkVpblJZQnhGd3NsbFRnemN3dE4zeTA0SWpvbGlpQkloWWpKak94NUlYM0REdU1uZjlxaWlDQVpFYWlkSU5FOE51RXhndmtSRU1OcVNObG1kVFR6ei1BaVE3UE00OURJVFRNN20tV19NWVotbnczMUE1WmVGcHJsSzFRNTBZcDlRcV85M3RlSlhDdHlfTDdFckcxSV81bWFOZVJYdlg1eC01ZFhYSS1GWmQ0X2g4eEhwSmlkMU9DeUphTXhOcEphaHVtZU5abEJ0M19qRXBYVnFXejZTNmxNYlZONGlGVlNxUHVVaDNhR0xUbTdiU3Z2bWh1MG1GRVNadllfdk9iaDAza3JZMGZhWmpiOHZ6U0Z5bWQ5SGRub05wRjZUcEHSAbQCQVVfeXFMT3U3dzdwd2FJa0lhWEdsMlIyYU54SEZkR2NlZXNYREdYaE5xbG51WXZEMWVhQUpDWFcyWWpJa3h5S1lja25VY3ZfUUtOcm5XRU5RNEVPVl9wa3lwRWJHaG9yMVZvZzk1S2VZRHF1NC13S3Q1RWVXYkp0LU9faFFLYlZBLUFqalczV1YwQWtnc1pMSWNtd3diWm5tRmRlRGJCMlF0ak1HTjEyNUZjLU5CRktCNFFRUWlyckYtaGpwcWZ4Z2JCX0N4UHJsR1p2VUtleTRreE1nakVKM2hWa3JIcDdJeWFQQll6d255YWtsMjA0R3EtR0dHODNrMkI3RmZTMHY4ajEzZlJfQnRqV09wdjRlalpSTzRUM0duZkdQeHdadnliMVpTcUFWeXVkemp2Y21aUlM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of India",
+      "latestSinceUpdate": 1971
+    },
+    {
+      "date": "Aug 18",
+      "text": "Israeli strikes kill 11 in Lebanon despite ceasefire, raising concerns about escalation.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1970
+      "latestSinceUpdate": 1971
     }
   ],
   "sourceStatuses": [
