@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1995,
+  "updateSequence": 1996,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T22:54:29.067Z",
+  "lastSyncedAt": "2026-08-18T23:29:39.051Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A ceasefire between Israel and Hezbollah is in effect but has been violated by recent strikes and attacks from both sides."
+    "summary": "A ceasefire in southern Lebanon appears to be in place but is reportedly being violated by Israeli strikes, indicating a fragile status."
   }
 }
