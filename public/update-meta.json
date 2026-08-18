@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1972,
+  "updateSequence": 1973,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T11:10:37.365Z",
+  "lastSyncedAt": "2026-08-18T11:43:54.320Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "A previously active ceasefire in southern Lebanon has collapsed following escalated Israeli attacks and ongoing regional flare-ups."
+    "summary": "The 60-day negotiation period for a US-Iran ceasefire has ended without extension, and Israel has escalated attacks in Lebanon despite a separate ceasefire."
   }
 }
