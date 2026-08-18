@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1994,
+  "updateSequence": 1995,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T22:33:31.932Z",
+  "lastSyncedAt": "2026-08-18T22:54:29.067Z",
   "warDay": 172,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but has been violated by recent strikes and attacks from both sides."
   }
 }

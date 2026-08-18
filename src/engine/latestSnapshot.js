@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1994,
+  "updateSequence": 1995,
   "lastUpdated": "2026-08-18",
-  "lastSyncedAt": "2026-08-18T22:33:31.932Z",
+  "lastSyncedAt": "2026-08-18T22:54:29.067Z",
   "warDay": 172,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-18",
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "status": "fragile",
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but has been violated by recent strikes and attacks from both sides."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 10,
+    "escalationLevel": 48,
+    "oilDisruption": 70,
+    "tradeImpact": 51,
+    "sanctionsPressure": 54,
+    "globalPressure": 62,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 18",
-      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 1994
+      "date": "Aug 17",
+      "text": "The deadline to reach a US-Iran deal expired, with President Trump threatening Oman.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1995
     },
     {
-      "date": "Aug 18",
-      "text": "Iran Update Special Report, August 17, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOVVdJbkRYZE1DUFhOUzBFaDc3ek90b0k2TVBXdnBBdzFnUWFhOVlVRzZVRG9DclY0dkMzdU5PNXNKM013MExVbk1EaWF1c0NtVTJQNVJ5V2pvOEJDSkRYT1ZKQTJOZnUteW5NTDRxYmdDeW5WTlg2MGlsZkRKTF9UYTVaYjIzWU00MlgxRFZiUldZVjlkcHp3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 1994
-    },
-    {
-      "date": "Aug 18",
-      "text": "Iran war live: UAE detects two missiles launched from Iran",
-      "severity": "info",
+      "date": "Aug 17",
+      "text": "The UAE detected two missiles launched from Iran.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1994
+      "latestSinceUpdate": 1995
     },
     {
-      "date": "Aug 18",
-      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1994
+      "date": "Aug 17",
+      "text": "Israel conducted strikes in southern Lebanon, killing 11, after Hezbollah wounded 3 IDF soldiers in an attack.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1995
     },
     {
-      "date": "Aug 18",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 1994
+      "date": "Aug 17",
+      "text": "President Trump labeled a map of the Strait of Hormuz as 'New U.S. Territory' after the deal deadline.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 1995
     },
     {
-      "date": "Aug 18",
-      "text": "Live updates • Israel: Turkey was about to deploy troops at targeted Syrian airbase",
+      "date": "Aug 17",
+      "text": "Saudi Arabia resumed oil loadings and sales from inside the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinAJBVV95cUxPVUlzSWZ1c1R4bGFHUTZ4UTdrak45UTJaWTZ4ZHJza3NOOFdNTXBsY0hwU0xodHlMVG15eHVMN05zTlg5ajB1eGVSOFpFZ0NqamR1Z2swMWRpTi1Mak1fbXk5bTg1SGZ2YzRVUThvV3ZaSEI2TEU5dXh6YW1SWVpsSzhnXzhYRmkzWHJnbzVTdW1xOHU4OTFsZTNOMDUwRmVWb3VNVkxoOGZMUmE5Z0JPM2p2T1J6ZFp5Si1pVVRNRDdOanQtbXhVdHdHdHdHOHY3eDNla1RFa1VCZlZRWHBuUVdWQVk4WVMxbEtlUk0tNEpLUWNnb2ZKS3lWTnBSUFNKdHQ2LUdtR2l1dlBILWttVks4Wm0zemlDY1E3Xw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Haaretz",
-      "latestSinceUpdate": 1994
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQMWV0X21ESGRmUGFXQVQtSXNBRGhkdU5fM1hDNjhwaFhFTktWM3lVXzliRmdma093bTh5LWVmck9JNnYwWnNBUnRJcmxPS25KWGVsTHVGeGd1SE52SjF6LWNHcF9yTTJzX21qRzZvM1NMSk9lWjE0cW41c3hmbU9iT3NsMUF2SlpMWm9Xbnp0Q2pBNWJNUjQ2Y3NNSzZ4RjRsTURxS2NtMFFGOWdJaFlSUEJ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 1995
+    },
+    {
+      "date": "Aug 17",
+      "text": "The Pentagon is weighing a smaller US military presence in the Gulf once the Iran war ends.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 1995
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
