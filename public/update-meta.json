@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2021,
+  "updateSequence": 2022,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T16:12:23.541Z",
+  "lastSyncedAt": "2026-08-19T16:49:53.627Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.9,
     "durationDays": 21,
-    "summary": "Iran has expressed no interest in a ceasefire, stating the war must end fully, while Trump downplays hopes for a deal."
+    "summary": "Iran has explicitly stated no interest in a ceasefire, and diplomatic efforts for a deal are being downplayed by the US."
   }
 }
