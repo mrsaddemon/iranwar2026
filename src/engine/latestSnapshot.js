@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2009,
+  "updateSequence": 2010,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T09:17:17.626Z",
+  "lastSyncedAt": "2026-08-19T09:51:45.217Z",
   "warDay": 173,
-  "summary": "The US-Iran deal deadline expired, escalating tensions over the Strait of Hormuz, while Israel conducts strikes in Lebanon and Gaza amidst reports of a challenged ceasefire and Iranian threats against US targets in Europe.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon is reportedly in place but has been challenged by recent Israeli strikes, indicating its fragility."
+    "summary": "A ceasefire in southern Lebanon appears to be active but is frequently violated by Israeli strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
         "precision": 0.7,
         "aggression": 0.8
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.9
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 48,
-    "oilDisruption": 85,
-    "tradeImpact": 62,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 65,
-    "allianceInfluence": 46
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, with President Trump threatening Oman and claiming the Strait of Hormuz as 'New U.S. Territory'.",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2009
+      "latestSinceUpdate": 2010
     },
     {
       "date": "Aug 17",
-      "text": "Iran denies targeting UAE with missiles, but reports indicate Iran's attacks on ships in Hormuz are mounting, testing U.S. military restraint.",
+      "text": "Iran denies responsibility for new missile attack on UAE.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2009
+      "latestSinceUpdate": 2010
     },
     {
       "date": "Aug 17",
-      "text": "Israel strikes Lebanon and kills six in Gaza following a meeting between Kushner and Netanyahu, despite questions about an existing ceasefire.",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 2010
+    },
+    {
+      "date": "Aug 17",
+      "text": "Israel kills six in Gaza on day after Kushner meeting with Netanyahu.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNWUljaVdkdjZZMngxR1FnWEVjQ25STWQxNDRtVVNGV0dUdFkzN0tVWUh6UmtPTlZVZU14eTBuWW13Um9WUzZ1QzlBS0tHcFhhakc3aUZOVnc5QlJ2aFpqSF9fejNPd3ZUMFpMN2Q0RVhSVFM3ZHVJWHlka05acUpTY3lQdFFSSDZHbzJzLWxTOXdOdk9QbUI5Rm4yd1ZGUzJ1UTNwbjRhRXpNTkxnZG9LbzVTRGdfbEd0VGw3M1FGRzdoRW1CY3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2009
+      "sourceName": "reuters.com",
+      "latestSinceUpdate": 2010
     },
     {
       "date": "Aug 17",
-      "text": "Iran reportedly weighs attacks on U.S. targets in Europe if Donald Trump escalates the war, as UAE severs trade with Tehran.",
+      "text": "Israel says strikes on Syrian military airfield were to ensure its security.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOYnpvd0dzbVhzVWx6c2ZGRXJBcDJzZVpRUUZDbTBfVFZqMUFxUk92OEk4cmpoVENKcWw5b2RjOUdEbVVGUkFSeHRkZFZKRHhBSVpuNDNtNjRoNE1pRVAzNkZQRVJrODVZWHhsTnQxVXpWckF4RWpURlNZeHpEalk5NDE1Mllxbm10T2wybmJpSklLS1hxb3FhN0F1YUgzR3diTzdFN3BMa2RYUEluaGpUZ2s0Q2hTMy1mVnlpaGln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 2010
+    },
+    {
+      "date": "Aug 17",
+      "text": "Chinese Oil Tankers Turn Back as Hormuz Risks Mount.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4xWXltSkJ1VVdJSDBqRktHbUd0bjg0cG5KcjhudGFwaUFCLUk2cUxndEpIalBiUndYRzM2azBKU1Q3VUdwTjZhNjM3SHVCS0Y1Ym9qSy1rSzlMUDMxb0lSLUxfekhvdHdPVlUtdnln0gFzQVVfeXFMTklBNnA3QkJxbGljbGpEei1oYnVWeWJ2Z1hjRjNaY0M0ZGlMR0xHa3ZlUEJrcEhBWG5qWHZ2Tk5KMWJPMkpQZFl1U0R2cnI1TngyQWVrY1NadEx6YUR3dTUxdGEtY2V3S3REdDA5bHNzRHZOVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2009
-    },
-    {
-      "date": "Aug 17",
-      "text": "Oil prices rise due to persistent uncertainty and escalating tensions in the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2009
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQWmVtU2xZRWdYNGM1RXRpRTRObWVzTkFpRk44Q2p1d20wS18zdFA2WTh0X1pBbVNRNUVwN0VSdVZweEwyQms3V1p3azJhSlFuWFJYVlRsbDlrNndTZ1NrZVBrQUZfRkstUkttUjdfdE52MUlWX0Y1YUVCTGFTQjVWeUxhNW9rNEJCUFNJcG5PQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "finance.yahoo.com",
+      "latestSinceUpdate": 2010
     }
   ],
   "sourceStatuses": [
