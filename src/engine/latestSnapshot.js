@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2035,
+  "updateSequence": 2036,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T22:54:37.801Z",
+  "lastSyncedAt": "2026-08-19T23:30:38.001Z",
   "warDay": 173,
   "summary": "The Iran war continues with regional strikes, US sanctions, and increased tensions in the Strait of Hormuz, while the US considers troop reductions.",
   "lastNarrativeUpdate": "2026-08-19",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "japantimes.co.jp",
-      "latestSinceUpdate": 2035
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBtOXVqLTRRdlRkQ1YzLVNNb00zRDVVNnhUSExlWEhQRnBzTEFjMi1pRGNhV1F1X3l1UGMyMnIybU5xZjVCQ1N5MU9YSGVWYjdHRTdfNG5mNnpBTHpVQU5UT1V6Ym81TUg5T09yUHJFX3l4T2VIQTY0LW1Scmx0RVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2036
     }
   ],
   "sourceStatuses": [
