@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2032,
+  "updateSequence": 2033,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T21:43:35.603Z",
+  "lastSyncedAt": "2026-08-19T22:02:49.096Z",
   "warDay": 173,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "A ceasefire in southern Lebanon appears to be in effect but is being violated by escalated Israeli attacks."
+    "summary": "No ceasefire or de-escalation is currently active, with military actions and economic disruptions ongoing."
   }
 }
