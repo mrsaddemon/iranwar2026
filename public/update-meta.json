@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2011,
+  "updateSequence": 2012,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T10:13:51.994Z",
+  "lastSyncedAt": "2026-08-19T10:49:06.787Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon is reportedly active but has been challenged by recent Israeli escalations."
+    "summary": "A ceasefire in southern Lebanon is active but appears fragile due to continued Israeli strikes."
   }
 }
