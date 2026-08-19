@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2014,
+  "updateSequence": 2015,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T11:43:47.593Z",
+  "lastSyncedAt": "2026-08-19T12:03:14.337Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 21,
-    "summary": "Iran has stated no interest in a ceasefire, indicating active conflict will continue."
+    "summary": "Iran has stated no interest in a ceasefire, indicating a continued commitment to the conflict."
   }
 }
