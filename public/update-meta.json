@@ -1,13 +1,13 @@
 {
-  "updateSequence": 1998,
+  "updateSequence": 1999,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T00:02:03.324Z",
+  "lastSyncedAt": "2026-08-19T01:46:00.974Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.69,
+    "confidence": 0.98,
     "durationDays": 60,
-    "summary": "An existing ceasefire between Israel and Lebanon appears to have collapsed due to escalated Israeli attacks and ongoing hostilities."
+    "summary": "A ceasefire between Israel and Hezbollah is in effect but has been violated by recent Israeli strikes in southern Lebanon."
   }
 }
