@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2016,
+  "updateSequence": 2017,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T13:02:45.872Z",
+  "lastSyncedAt": "2026-08-19T13:51:37.588Z",
   "warDay": 173,
-  "summary": "The US-Iran deal deadline expired amidst continued regional conflict, with Israel striking Lebanon, Iran denying attacks and rejecting a ceasefire, and economic impacts on Middle Eastern airlines.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-19",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.69,
+    "confidence": 0.93,
     "durationDays": 21,
-    "summary": "Iran has explicitly stated no interest in a ceasefire, and US-Iran deal talks have stalled."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 25,
     "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
     "sanctionsPressure": 49,
-    "globalPressure": 57,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
-      "severity": "critical",
+      "date": "Aug 19",
+      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2016
+      "latestSinceUpdate": 2017
     },
     {
-      "date": "Aug 17",
-      "text": "Iran denies targeting UAE with missiles.",
+      "date": "Aug 19",
+      "text": "Iran war updates: Tehran denies Iran targeted UAE with missiles",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2015
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2017
     },
     {
-      "date": "Aug 17",
-      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
-      "severity": "warning",
+      "date": "Aug 19",
+      "text": "Iran Update Special Report, August 18, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOZ3ZUcl9XZEx2ejdibU12aG5pQUZBQ2pkN1JkeTNzMWUwNWlzeFF0QzQ5QzZqNG1lR3pjTkREZTF5MzJTVTRISlRVOV95SUZOME9odFo0OUdVRy0wZUZpcFlla28weF9tVnJDVndiNnNnSE16dVIxY2JZaG4yU09SSHFNVUdhMjd0LXFEaGNTbzVMZXZHUHZF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2017
+    },
+    {
+      "date": "Aug 19",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 2016
+      "latestSinceUpdate": 2017
     },
     {
-      "date": "Aug 17",
-      "text": "Turkey slams Israel's 'untenable' claims after strikes on Syrian base.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPeTdCNlA1LTNVZ0ttZ2VXTGJLVnR5YjBnUnZMNFVWVzc5cUJEcHdxekdHLXBzcDNLUnp1TUx4N3J6SzJQQ0pOTEtSRFVWOTJpZC1xZEd4QTA1TkpEaG1mOXdTM2pQWU5kV3FqWTM3SlJUZEYyb180ZWxMRHlSZlVveDMtWkNJMTFwMWs0VTB6R1M1aHhNRVAzdXc2V29oOVBBRV8wM2FmWnE4OTNJVWpWU3E0Z0VBcnQ4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "reuters.com",
-      "latestSinceUpdate": 2016
+      "date": "Aug 19",
+      "text": "Iran war live: Rubio discusses Hormuz security with UAE official",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2017
     },
     {
-      "date": "Aug 17",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2013
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran says no interest in ceasefire, war must end fully as Trump downplays hope for a deal.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2016
+      "date": "Aug 19",
+      "text": "Israel says strikes on Syrian military airfield were to ensure its security",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOYnpvd0dzbVhzVWx6c2ZGRXJBcDJzZVpRUUZDbTBfVFZqMUFxUk92OEk4cmpoVENKcWw5b2RjOUdEbVVGUkFSeHRkZFZKRHhBSVpuNDNtNjRoNE1pRVAzNkZQRVJrODVZWHhsTnQxVXpWckF4RWpURlNZeHpEalk5NDE1Mllxbm10T2wybmJpSklLS1hxb3FhN0F1YUgzR3diTzdFN3BMa2RYUEluaGpUZ2s0Q2hTMy1mVnlpaGln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 2017
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
