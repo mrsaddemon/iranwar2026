@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2018,
+  "updateSequence": 2019,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T14:19:17.096Z",
+  "lastSyncedAt": "2026-08-19T14:56:32.291Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 21,
-    "summary": "No ceasefire is active, with Iran explicitly stating no interest in one and the US indicating no talks are planned."
+    "summary": "Iran has explicitly stated no interest in a ceasefire, indicating a continued commitment to full conflict."
   }
 }
