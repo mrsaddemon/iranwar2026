@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2002,
+  "updateSequence": 2003,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T04:10:44.910Z",
+  "lastSyncedAt": "2026-08-19T04:54:19.757Z",
   "warDay": 173,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-19",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 60 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -71,8 +71,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran Update Special Report, August 17, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOVVdJbkRYZE1DUFhOUzBFaDc3ek90b0k2TVBXdnBBdzFnUWFhOVlVRzZVRG9DclY0dkMzdU5PNXNKM013MExVbk1EaWF1c0NtVTJQNVJ5V2pvOEJDSkRYT1ZKQTJOZnUteW5NTDRxYmdDeW5WTlg2MGlsZkRKTF9UYTVaYjIzWU00MlgxRFZiUldZVjlkcHp3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "understandingwar.org",
+      "sourceName": "Institute for the Study of War",
       "latestSinceUpdate": 2001
+    },
+    {
+      "date": "Aug 19",
+      "text": "Pentagon weighing smaller U.S. military presence in Gulf once Iran war ends",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2003
     },
     {
       "date": "Aug 19",
@@ -80,14 +88,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2001
-    },
-    {
-      "date": "Aug 19",
-      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
       "latestSinceUpdate": 2001
     },
     {
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
