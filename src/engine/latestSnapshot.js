@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2008,
+  "updateSequence": 2009,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T08:48:27.684Z",
+  "lastSyncedAt": "2026-08-19T09:17:17.626Z",
   "warDay": 173,
-  "summary": "Tensions remain high in the Middle East as the US-Iran deal deadline expires, leading to increased US sanctions and Iranian threats, while Israel continues strikes in Lebanon despite ceasefire violations.",
+  "summary": "The US-Iran deal deadline expired, escalating tensions over the Strait of Hormuz, while Israel conducts strikes in Lebanon and Gaza amidst reports of a challenged ceasefire and Iranian threats against US targets in Europe.",
   "lastNarrativeUpdate": "2026-08-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A ceasefire in southern Lebanon is active but has been repeatedly violated by both sides, leading to escalation."
+    "summary": "A ceasefire in southern Lebanon is reportedly in place but has been challenged by recent Israeli strikes, indicating its fragility."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
+    "oilDisruption": 85,
+    "tradeImpact": 62,
     "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "globalPressure": 65,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, with Trump threatening Oman.",
+      "text": "Deadline to reach US-Iran deal expires, with President Trump threatening Oman and claiming the Strait of Hormuz as 'New U.S. Territory'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2008
+      "latestSinceUpdate": 2009
     },
     {
       "date": "Aug 17",
-      "text": "Iran denies responsibility for new missile attack on UAE.",
+      "text": "Iran denies targeting UAE with missiles, but reports indicate Iran's attacks on ships in Hormuz are mounting, testing U.S. military restraint.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2008
+      "latestSinceUpdate": 2009
     },
     {
       "date": "Aug 17",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "text": "Israel strikes Lebanon and kills six in Gaza following a meeting between Kushner and Netanyahu, despite questions about an existing ceasefire.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2006
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNWUljaVdkdjZZMngxR1FnWEVjQ25STWQxNDRtVVNGV0dUdFkzN0tVWUh6UmtPTlZVZU14eTBuWW13Um9WUzZ1QzlBS0tHcFhhakc3aUZOVnc5QlJ2aFpqSF9fejNPd3ZUMFpMN2Q0RVhSVFM3ZHVJWHlka05acUpTY3lQdFFSSDZHbzJzLWxTOXdOdk9QbUI5Rm4yd1ZGUzJ1UTNwbjRhRXpNTkxnZG9LbzVTRGdfbEd0VGw3M1FGRzdoRW1CY3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2009
     },
     {
       "date": "Aug 17",
-      "text": "Trump labels map of Strait of Hormuz 'New U.S. Territory' after deal deadline passes.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2008
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran's attacks on ships in Hormuz mount, testing U.S. military restraint.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2008
-    },
-    {
-      "date": "Aug 17",
-      "text": "Iran reportedly weighs attacks on U.S. targets in Europe if Donald Trump escalates war.",
+      "text": "Iran reportedly weighs attacks on U.S. targets in Europe if Donald Trump escalates the war, as UAE severs trade with Tehran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4xWXltSkJ1VVdJSDBqRktHbUd0bjg0cG5KcjhudGFwaUFCLUk2cUxndEpIalBiUndYRzM2azBKU1Q3VUdwTjZhNjM3SHVCS0Y1Ym9qSy1rSzlMUDMxb0lSLUxfekhvdHdPVlUtdnln0gFzQVVfeXFMTklBNnA3QkJxbGljbGpEei1oYnVWeWJ2Z1hjRjNaY0M0ZGlMR0xHa3ZlUEJrcEhBWG5qWHZ2Tk5KMWJPMkpQZFl1U0R2cnI1TngyQWVrY1NadEx6YUR3dTUxdGEtY2V3S3REdDA5bHNzRHZOVQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2008
+      "latestSinceUpdate": 2009
+    },
+    {
+      "date": "Aug 17",
+      "text": "Oil prices rise due to persistent uncertainty and escalating tensions in the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2009
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
