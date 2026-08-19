@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2029,
+  "updateSequence": 2030,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T20:02:27.391Z",
+  "lastSyncedAt": "2026-08-19T20:38:28.124Z",
   "warDay": 173,
-  "summary": "The Iran War continues on day 173 with ongoing military actions by Israel in Lebanon and Syria, mounting Iranian attacks on shipping in the Strait of Hormuz, and the U.S. actively involved in securing oil transit while considering a future troop reduction.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-19",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 21,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -79,16 +79,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "middleeasteye.net",
+      "sourceName": "Middle East Eye",
       "latestSinceUpdate": 2029
     },
     {
       "date": "Aug 19",
-      "text": "The Iran War Is a Whole New Level of Quagmire for the US",
+      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNTmV5ZnAxYU9uYklKa0VDMDhITG5hdkltMkxkX0xXOVM5SzJzUU5IZ1JONkt1cTh6VjVUMzF0WVZBTlBTLUpvYlFBdEZ2N1h6TmM3dC1GLUdlNmZGY2N2NkFvYnN3LUhLYUJ0LWdvN053RmVnMkhiWXp3OVNwbE1yWGFpYkowQ240elFnMFBmbGNTU3BKczhzS0NlNDVfSExZVHE5TzNOVVBZOFZBNGdSWFZCVDh0eDVOQmozd2RRX1hWLWZ5Y1JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2029
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2030
     },
     {
       "date": "Aug 19",
