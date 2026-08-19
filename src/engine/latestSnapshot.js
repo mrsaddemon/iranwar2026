@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 1999,
+  "updateSequence": 2000,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T01:46:00.974Z",
+  "lastSyncedAt": "2026-08-19T02:44:14.642Z",
   "warDay": 173,
-  "summary": "The US-Iran deal deadline expired, leading to Trump's declaration of the Strait of Hormuz as US territory and increased attacks on ships, while Israel escalated strikes in Lebanon despite an existing ceasefire.",
+  "summary": "The US-Iran standoff intensified following an expired deal deadline, with US rhetoric on the Strait of Hormuz and mounting Iranian attacks on shipping, while Israel escalated strikes in Lebanon despite an existing ceasefire.",
   "lastNarrativeUpdate": "2026-08-19",
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.98,
+    "confidence": 0.81,
     "durationDays": 60,
-    "summary": "A ceasefire between Israel and Hezbollah is in effect but has been violated by recent Israeli strikes in southern Lebanon."
+    "summary": "A ceasefire in southern Lebanon is reportedly in effect but has been challenged by recent Israeli escalations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 20,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 90,
+    "tradeImpact": 65,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 46
+    "globalPressure": 66,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
+      "text": "Deadline to reach US-Iran deal expired, followed by Trump threatening Oman and labeling the Strait of Hormuz 'new U.S. territory'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 1998
+      "latestSinceUpdate": 2000
     },
     {
       "date": "Aug 17",
-      "text": "Iran denies targeting UAE with missiles.",
+      "text": "Tehran denied Iran targeted UAE with missiles amidst ongoing war updates.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1999
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2000
     },
     {
       "date": "Aug 17",
-      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026.",
+      "text": "Israel conducted strikes in Lebanon as the U.S. prepared fresh sanctions against Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 1999
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 2000
     },
     {
       "date": "Aug 17",
-      "text": "Iran and Oman discuss the Strait of Hormuz.",
+      "text": "The US envoy stated that the US is working on a deconfliction mechanism among Turkey, Israel, and Syria.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPbkJqOHdsTVhuNWRIbk9EdVRDUmQxMlczTmFsRlc4MEdOemNRMEdHUUxJaDZzZUtydUxsMDlyT0c0eXdJZnNOSmx1d0pmakY5enZKSjg3UjBIN1I2dzVieUx1VXcwVFZJbmFsbnZLSTlObXNaY2x4WUxYRERNbXVZaFRNOERTclNFeUhDaVkzdG96Mjh5cDhjbk9XM3JET25HS3BHZXhWMmJSR1hjSEdpWUpHYlJ6R1l3WllrWGhSRdIBxAFBVV95cUxNZFhLVEMyTjcwUGh5MWUwcms1M1ctOHpoeVh2NzlHYnh1aUJ1MWJqb2RqZGZHbGRvSTNyMVE4OGE3X0ZmVU1zM1VkMlpJTEM0V3BSemF4VUw5T0pDdmFad09JdldGenRhUzN4ZGFLZ0ZJMmw2Sm53WUx0WGQ0bHFVOUxMM2F2QnctbC05NWJjdExxcEl2aEZycC10bDU5REMyYWpCelo3b28wZk5PcWItLXZfeEJPbU1YQUtGRGJLMWc2Rmg0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 1999
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQVlZuUXBialdJbERhTVMyN3NRUkxUY251V1g4c3RDS0EyUnNEVWhNcGVFTFNETFZRLTJFcUpWaEdwS0NuQ1FTck1mNURabzBNbnMtNV9RRDQzQ1d2RHlHUHFlNWdPUFlselFNSElSVmJ1ZklSUlUyaGdCbVEwMTE3YnlzMG0yUkQyNWJZSHpHVFgwZlhkTHlDaUxNMGlzQ1VVM01WaTRSVDNLZjJJT2Z3WkttVW5RZFM0R3h2M0tDSklkZGhoSkhJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2000
     },
     {
       "date": "Aug 17",
-      "text": "Israel strikes Lebanon as US prepares fresh Iran measures.",
+      "text": "Iran's attacks on ships in the Strait of Hormuz mounted, testing U.S. military restraint, with traffic barely trickling.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 1999
+      "latestSinceUpdate": 2000
     },
     {
       "date": "Aug 17",
-      "text": "Israel strikes Hezbollah after attack on IDF, accused of ceasefire violations.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5jQTJhLTg2YTBtNE4yTkpfYWk2UWQzNGpoSGxrNjI1ZkNvY2lEU1JLZEo0M1dXMTdrV1YzV3lkY0EyMUNfakZIMy0tdVNLOE4zMHVSMHlB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 1999
+      "text": "The Pentagon is weighing a smaller U.S. military presence in the Gulf once the Iran war ends.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2000
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
