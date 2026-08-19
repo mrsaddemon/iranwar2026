@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2006,
+  "updateSequence": 2007,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T07:08:23.719Z",
+  "lastSyncedAt": "2026-08-19T07:56:08.486Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.81,
+    "confidence": 0.69,
     "durationDays": 60,
-    "summary": "A ceasefire appears to be in effect between Israel and Lebanon, but reports indicate Israel has escalated attacks despite it, suggesting a fragile status."
+    "summary": "A ceasefire appears to be in effect between Israel and Lebanon, but reports indicate it is being violated by Israeli strikes."
   }
 }
