@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2017,
+  "updateSequence": 2018,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T13:51:37.588Z",
+  "lastSyncedAt": "2026-08-19T14:19:17.096Z",
   "warDay": 173,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.93,
+    "confidence": 0.69,
     "durationDays": 21,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No ceasefire is active, with Iran explicitly stating no interest in one and the US indicating no talks are planned."
   }
 }
