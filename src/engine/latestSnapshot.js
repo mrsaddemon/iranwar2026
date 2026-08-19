@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2034,
+  "updateSequence": 2035,
   "lastUpdated": "2026-08-19",
-  "lastSyncedAt": "2026-08-19T22:34:18.416Z",
+  "lastSyncedAt": "2026-08-19T22:54:37.801Z",
   "warDay": 173,
   "summary": "The Iran war continues with regional strikes, US sanctions, and increased tensions in the Strait of Hormuz, while the US considers troop reductions.",
   "lastNarrativeUpdate": "2026-08-19",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 18",
-      "text": "Iran denies targeting UAE with missiles amidst ongoing war updates.",
+      "date": "Aug 19",
+      "text": "Iran Update Special Report, August 18, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxOZ3ZUcl9XZEx2ejdibU12aG5pQUZBQ2pkN1JkeTNzMWUwNWlzeFF0QzQ5QzZqNG1lR3pjTkREZTF5MzJTVTRISlRVOV95SUZOME9odFo0OUdVRy0wZUZpcFlla28weF9tVnJDVndiNnNnSE16dVIxY2JZaG4yU09SSHFNVUdhMjd0LXFEaGNTbzVMZXZHUHZF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2035
+    },
+    {
+      "date": "Aug 19",
+      "text": "Iran war updates: Tehran denies Iran targeted UAE with missiles",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2034
+      "latestSinceUpdate": 2035
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon as the U.S. prepares fresh sanctions against Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2034
-    },
-    {
-      "date": "Aug 19",
-      "text": "U.S. conducting stealth operation to transport oil through the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2034
-    },
-    {
-      "date": "Aug 19",
-      "text": "Iran’s attacks on ships in Hormuz mount, testing U.S. military restraint.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2034
-    },
-    {
-      "date": "Aug 19",
-      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers in a tactical engagement.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2034
-    },
-    {
-      "date": "Aug 19",
-      "text": "Pentagon weighing a smaller U.S. military presence in the Gulf once the Iran war ends.",
+      "text": "Iran war pushes Middle Eastern airlines towards $4.3bn loss in 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2034
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQWGJOWUs3azVwVUgtM3hHaW8xNTJFcFZReHJiUlRKeVM2c0lIY1YyOTBHQXdBUExMZDdLVXRURDFua0Y4b3RBYjBDZTR3Q0VIX2JRMF9KbTZzUlRzWXVTRDBycUVYZEdzRHpWTGxoWml4NVdLVWcyaFRlUE8yVmh0YXdRcmlDaXBxRFpLVnpuczY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 2035
+    },
+    {
+      "date": "Aug 19",
+      "text": "August 17, 2026 — Deadline to reach US-Iran deal expires, Trump threatens Oman",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2035
+    },
+    {
+      "date": "Aug 19",
+      "text": "Turkey slams Israel's 'untenable' claims after strikes on Syrian base",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPeTdCNlA1LTNVZ0ttZ2VXTGJLVnR5YjBnUnZMNFVWVzc5cUJEcHdxekdHLXBzcDNLUnp1TUx4N3J6SzJQQ0pOTEtSRFVWOTJpZC1xZEd4QTA1TkpEaG1mOXdTM2pQWU5kV3FqWTM3SlJUZEYyb180ZWxMRHlSZlVveDMtWkNJMTFwMWs0VTB6R1M1aHhNRVAzdXc2V29oOVBBRV8wM2FmWnE4OTNJVWpWU3E0Z0VBcnQ4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2035
+    },
+    {
+      "date": "Aug 19",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "japantimes.co.jp",
+      "latestSinceUpdate": 2035
     }
   ],
   "sourceStatuses": [
