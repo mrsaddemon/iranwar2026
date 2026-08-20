@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2068,
+  "updateSequence": 2069,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T21:13:04.533Z",
+  "lastSyncedAt": "2026-08-20T21:46:29.292Z",
   "warDay": 174,
   "summary": "The US and Israel are intensifying economic and military pressure on Iran and its proxies, while Iran continues to challenge shipping in the Strait of Hormuz and dismisses US actions.",
   "lastNarrativeUpdate": "2026-08-20",
@@ -76,11 +76,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "Iran war updates: Trump to reopen talks ‘at some point’; Israel pounds Gaza",
+      "text": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2068
+      "latestSinceUpdate": 2069
     },
     {
       "date": "Aug 20",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
