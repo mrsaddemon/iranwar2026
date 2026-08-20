@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2072,
+  "updateSequence": 2073,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T22:59:33.535Z",
+  "lastSyncedAt": "2026-08-20T23:33:22.628Z",
   "warDay": 174,
-  "summary": "The US has shifted its strategy towards Iran, announcing a 'crushing economic operation' and new sanctions, while Israel conducts strikes in Lebanon and the US Navy secures oil passage through Hormuz.",
+  "summary": "The US has intensified economic pressure on Iran, including new sanctions and trade restrictions, while military tensions persist in the region with ongoing US Navy operations in the Strait of Hormuz and Israeli strikes in Lebanon.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; military and economic pressures continue in the region."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict and economic pressure."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
+        "aggression": 0.8
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 70
+      },
+      "behavior": {
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "nuclearIndex": 50,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 19",
-      "text": "Trump announces 'crushing economic operation' on Iran and calls for 'Economic D-Day' as talks remain in limbo.",
+      "text": "Trump announces 'crushing economic operation' on Iran with talks in limbo, warning nations against throwing Tehran a lifeline.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2072
+      "latestSinceUpdate": 2073
     },
     {
       "date": "Aug 19",
-      "text": "US prepares fresh Iran sanctions and levies new sanctions against Hezbollah, stating Iran controls the group.",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 2073
+    },
+    {
+      "date": "Aug 19",
+      "text": "US hits Hezbollah with more sanctions, stating Iran controls it.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQQ1gzeHdiQlpnSVZlNWJibTFMbzdBYXF2Z0ZJSmVzRXk3RHRzdlZUMXJrUUJPLXNQN2djWVBKTnluVlFUUmNUR1dfRkt2bjFyZldRbGpIcHJGQ0ZEeFdoenhlcHVMRTBXaUhSbTBHLTVCbC1lQ3JhMUlYak1EWEx0cWZ6S3hEbG9BcUphN2JiUEhSOVdkN1BwUkhLamkzMXBySkczY2Q3dVQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2072
+      "latestSinceUpdate": 2073
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon amid escalating regional tensions.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2072
-    },
-    {
-      "date": "Aug 19",
-      "text": "U.S. Navy is helping get oil through the Strait of Hormuz, with the U.S. conducting a stealth operation to transport oil.",
-      "severity": "warning",
+      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2072
+      "latestSinceUpdate": 2073
     },
     {
       "date": "Aug 19",
-      "text": "Pentagon is weighing a smaller U.S. military presence in the Gulf once the Iran war ends.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2072
+      "text": "More than 750 US service members wounded since start of Iran War.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2073
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
