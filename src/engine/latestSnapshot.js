@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2049,
+  "updateSequence": 2050,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T09:19:26.226Z",
+  "lastSyncedAt": "2026-08-20T09:53:20.027Z",
   "warDay": 174,
-  "summary": "On War Day 174, the US announced a 'crushing economic operation' against Iran, prompting the UAE to suspend trade, while Israel conducted strikes in Gaza and Lebanon amidst ongoing military engagements and US efforts to secure oil transport through Hormuz.",
+  "summary": "The US has initiated a 'crushing economic operation' against Iran following the expiration of a deal deadline, prompting the UAE to suspend trade with Iran, while Israel continues military strikes in Gaza and Lebanon amidst ongoing regional tensions.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; military and economic hostilities are escalating."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military and economic hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
         "aggression": 0.9
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
+        "aggression": 0.8
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 60
+      },
+      "behavior": {
+        "precision": 0.5,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -63,32 +63,39 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "UAE suspends all trade and financial transactions with Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2046
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 20",
-      "text": "Trump announces 'most crushing economic operation ever taken' on Iran and warns its trade partners.",
+      "text": "Israel pounds Gaza.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2049
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2050
+    },
+    {
+      "date": "Aug 17",
+      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2050
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza and strikes Lebanon.",
-      "severity": "warning",
+      "text": "U.S. announces 'crushing economic operation' on Iran and warns nations against throwing Tehran a lifeline.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOYjNDZy10ODNkRFhWRkNqbmw0eVpKQk9WMWh1WnpLU2pZdEt6alA4cjc5ZTI3dndOd1ptQVFPQ2Z3OGQydExST2dwclB4SV9nRkJhQ29GczU2TDYyMzNHcXhacnV1SzVsLTJTa2Z5d0cxdWxmMHluZHNHUjZjM0NPQ25nUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2050
+    },
+    {
+      "date": "Aug 20",
+      "text": "Israel strikes Lebanon.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2048
-    },
-    {
-      "date": "Aug 20",
-      "text": "Iran denies targeting UAE with missiles.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2049
+      "latestSinceUpdate": 2050
     },
     {
       "date": "Aug 20",
@@ -96,14 +103,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2048
-    },
-    {
-      "date": "Aug 20",
-      "text": "Hezbollah FPV drone chases Israeli soldiers.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
       "latestSinceUpdate": 2048
     }
   ],
