@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2071,
+  "updateSequence": 2072,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T22:37:21.041Z",
+  "lastSyncedAt": "2026-08-20T22:59:33.535Z",
   "warDay": 174,
-  "summary": "The ongoing Iran war, nearing six months, is characterized by escalating U.S. economic pressure on Iran and its trade partners, regional military strikes by Israel, and increased Iranian attacks on shipping in the Strait of Hormuz.",
+  "summary": "The US has shifted its strategy towards Iran, announcing a 'crushing economic operation' and new sanctions, while Israel conducts strikes in Lebanon and the US Navy secures oil passage through Hormuz.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire is active; military and economic pressures continue in the region."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 20,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 20",
-      "text": "Iran Update, August 19, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNVF9CS0RvLU1TckR0cnp0X2dBTU5mQTJKUFVCTHpFYmo2OFBQNEkyTy0zWGRZRXV2cXp6SEJMa1k3NGk1M2dRVmhlUmJySDNSalJkcElYb21tazc1Sm9taENBM3ItaFhQS2x2MDFFZktidU1TQUswazhxT1FHdzNlaEYycw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2071
-    },
-    {
-      "date": "Aug 20",
-      "text": "August 19, 2026 — UAE suspends all trade and financial transactions with Iran",
-      "severity": "info",
+      "date": "Aug 19",
+      "text": "UAE suspends all trade and financial transactions with Iran.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2071
+      "latestSinceUpdate": 2072
     },
     {
-      "date": "Aug 20",
-      "text": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2071
-    },
-    {
-      "date": "Aug 20",
-      "text": "Iran war, said to be over \"very soon,\" nears 6 months",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1tMFBzS0tfcjJMYmRHUF9oalUwWUladDZnM3g4ZXIxdnhhTW1NM21nV2hFbThMclVKR3h5TXVJXzBDQV95YUJ2bmFrcnA5ZXpfX3lmM0ZvRnBJZ0M3aV9vbG4xU1E3RFR4UkxzTTJPazFiOW5uOGN1YjVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2071
-    },
-    {
-      "date": "Aug 20",
-      "text": "Trump threatens Iran’s trade partners, as military strikes make way for economic pressure",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2071
-    },
-    {
-      "date": "Aug 20",
-      "text": "Trump announces \"crushing economic operation\" on Iran with talks in limbo",
-      "severity": "info",
+      "date": "Aug 19",
+      "text": "Trump announces 'crushing economic operation' on Iran and calls for 'Economic D-Day' as talks remain in limbo.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2071
+      "latestSinceUpdate": 2072
+    },
+    {
+      "date": "Aug 19",
+      "text": "US prepares fresh Iran sanctions and levies new sanctions against Hezbollah, stating Iran controls the group.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQQ1gzeHdiQlpnSVZlNWJibTFMbzdBYXF2Z0ZJSmVzRXk3RHRzdlZUMXJrUUJPLXNQN2djWVBKTnluVlFUUmNUR1dfRkt2bjFyZldRbGpIcHJGQ0ZEeFdoenhlcHVMRTBXaUhSbTBHLTVCbC1lQ3JhMUlYak1EWEx0cWZ6S3hEbG9BcUphN2JiUEhSOVdkN1BwUkhLamkzMXBySkczY2Q3dVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2072
+    },
+    {
+      "date": "Aug 19",
+      "text": "Israel strikes Lebanon amid escalating regional tensions.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2072
+    },
+    {
+      "date": "Aug 19",
+      "text": "U.S. Navy is helping get oil through the Strait of Hormuz, with the U.S. conducting a stealth operation to transport oil.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2072
+    },
+    {
+      "date": "Aug 19",
+      "text": "Pentagon is weighing a smaller U.S. military presence in the Gulf once the Iran war ends.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2072
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
