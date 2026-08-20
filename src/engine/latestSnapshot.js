@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2073,
+  "updateSequence": 2074,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T23:33:22.628Z",
+  "lastSyncedAt": "2026-08-20T23:53:25.621Z",
   "warDay": 174,
-  "summary": "The US has intensified economic pressure on Iran, including new sanctions and trade restrictions, while military tensions persist in the region with ongoing US Navy operations in the Strait of Hormuz and Israeli strikes in Lebanon.",
+  "summary": "The conflict between the US and Iran continues into its 174th day, marked by a significant shift from military strikes to intensified US economic pressure on Iran and its allies, while regional tensions persist.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict and economic pressure."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict and economic pressure are escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 46
+    "nuclearIndex": 30,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -63,48 +63,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "UAE suspends all trade and financial transactions with Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
+      "sourceName": "Google News",
       "latestSinceUpdate": 2072
     },
     {
       "date": "Aug 19",
-      "text": "Trump announces 'crushing economic operation' on Iran with talks in limbo, warning nations against throwing Tehran a lifeline.",
+      "text": "Trump announces a 'crushing economic operation' and 'economic D-Day' on Iran, threatening its trade partners.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2073
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2074
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "text": "Israel strikes Lebanon as the U.S. prepares fresh sanctions against Iran and Hezbollah.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2073
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2074
     },
     {
       "date": "Aug 19",
-      "text": "US hits Hezbollah with more sanctions, stating Iran controls it.",
+      "text": "Over 770 US service members have been killed or injured since the conflict began.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYkJsQk1rWVprWk85M1UtZVJFV1h6dGFnMnFYemNIbFY2QWlQV081S0lRUk5oR254Z0ljZGpnWVVnRmZreVNyS1Vael9kZzgybnJHYUd6a21PTTVwVjhHTmRQVjBoeFl6Zms0NXpyT3AweEJlTmdTNkpXT29WTjVmLUI5ZkV2ZnVmMktxMUsyeEVsOHc3NDdNak81V0dmdXZYdGN6c3dycjhUYnFHdzBmQ2w1c3ZPVWVRVlpqRA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2074
+    },
+    {
+      "date": "Aug 19",
+      "text": "The U.S. Navy is helping get oil through the Strait of Hormuz, including conducting stealth operations.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQQ1gzeHdiQlpnSVZlNWJibTFMbzdBYXF2Z0ZJSmVzRXk3RHRzdlZUMXJrUUJPLXNQN2djWVBKTnluVlFUUmNUR1dfRkt2bjFyZldRbGpIcHJGQ0ZEeFdoenhlcHVMRTBXaUhSbTBHLTVCbC1lQ3JhMUlYak1EWEx0cWZ6S3hEbG9BcUphN2JiUEhSOVdkN1BwUkhLamkzMXBySkczY2Q3dVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2073
-    },
-    {
-      "date": "Aug 19",
-      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
-      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2073
-    },
-    {
-      "date": "Aug 19",
-      "text": "More than 750 US service members wounded since start of Iran War.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2073
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2074
     }
   ],
   "sourceStatuses": [
