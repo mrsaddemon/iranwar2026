@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2043,
+  "updateSequence": 2044,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T05:15:54.827Z",
+  "lastSyncedAt": "2026-08-20T05:48:59.168Z",
   "warDay": 174,
-  "summary": "Ongoing conflict sees UAE suspend trade with Iran, US-Iran talks remain in limbo amid new sanctions and threats, while regional strikes and Houthi attacks on oil tankers continue.",
+  "summary": "The US has announced a 'crushing economic operation' against Iran, while the UAE has suspended trade with Iran, and Israel continues strikes in Gaza and Lebanon amidst reports of potential US troop pullbacks from the Gulf.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active; conflict and hostilities are ongoing across multiple fronts."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "Trump indicates willingness to reopen talks with Iran 'at some point'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2043
+      "text": "Trump announces 'most crushing economic operation ever taken' on Iran, warning nations against support.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2044
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza amid ongoing conflict.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2043
-    },
-    {
-      "date": "Aug 20",
-      "text": "Houthis claim attacks on eight Saudi oil tankers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPUDg3LU9wQW5ZOTJ4NmdGeC1LeWFKWC1lQV9wUWNnS1VXbWNDQ21RaDZOOGRHM29rMTJsTG8yZ1dFM0wxMXZvNDZlcXBGcTk1SE5ja3JydFBNdzdVTVhsWGpvbHBrcjBxd256MnBMU1pTUkZMZ2lDMC1DNUVKSGIydUZfdndORXEzVUhxenhMOHVZVjV0T2pZVw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2043
-    },
-    {
-      "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2043
-    },
-    {
-      "date": "Aug 17",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "text": "Israel pounds Gaza and strikes Lebanon as the U.S. prepares fresh Iran sanctions.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2043
+      "latestSinceUpdate": 2044
+    },
+    {
+      "date": "Aug 20",
+      "text": "Iran denies targeting UAE with missiles and eyes US military bases in Europe as potential targets.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRWp6em1Qb1RKQk1DcFdCNjJ2UmZqQkEtUzVIMmpGckJ5TDRSM2pydjE1Ung5RkdaZmVuaEVHREpRTldSTVZSUGx5WDVHbnkwdUlVNzhNOVk0d2FZakpxTVY0V2tfX1ZzR1pObnNCM09fUlpCakQ0S2k2QU5fa0hKV3pOUHQxeUQtTGd2cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "stripes.com",
+      "latestSinceUpdate": 2044
+    },
+    {
+      "date": "Aug 20",
+      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers in a combat incident.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2044
+    },
+    {
+      "date": "Aug 20",
+      "text": "US reportedly weighing a major troop pullback from the Gulf following damage in the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPZGNjVG13M1N4cXhVU09mOU9SN3QxTXFZWW5HMVYydWhFajc2eldmeHVtUzJsYkw2WDJxMS1uSUpETmpMQUo5N0xSeDZENTZWMGlYb0ZxX0ZMdjlXVk56VHU4cmlndE1jWFlKWmMzbHZJZGx4YXJmRFV2eS1BN2NMVFlBNEltQmc2Y05SeEh2SXJCdUU4WTFHUEFvcld0bjJwVmdvbzBnTndNRE95VTMwYzFvQdIBuAFBVV95cUxNMlVoNV9PUDJJQW5jSmNpRmdtZnBsZFZmRkUtaGJBMTRWb0NxXzhvNkk3SFJGYWljajZEM2k4R2NUNUtrcmRVNzJwRDBvb3ZLTzVUTmpKMG0wNGpZNzVHWWduY3poakpOT1FmdnFjZnJFVzh5TVdzQWNmdnJZV09MWnYxMV8yX01oaHRKVl9fTzh1YTJSd3NMZ2tETGQ1THVaWUpwemdHUlVRa2Q3alV4Vlp1YWg4NVBZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2044
     }
   ],
   "sourceStatuses": [
