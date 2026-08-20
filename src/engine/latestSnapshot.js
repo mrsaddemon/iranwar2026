@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2066,
+  "updateSequence": 2067,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T20:10:14.633Z",
+  "lastSyncedAt": "2026-08-20T20:49:05.518Z",
   "warDay": 174,
-  "summary": "The conflict involving Iran is nearing its sixth month, marked by intensified US economic pressure, ongoing Israeli military strikes, and increased Iranian attacks on shipping in the Strait of Hormuz.",
+  "summary": "The US and Israel are intensifying economic and military pressure on Iran and its proxies, while Iran continues to challenge shipping in the Strait of Hormuz and dismisses US actions.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing military and economic actions."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military and economic actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 19",
-      "text": "US announces a 'crushing economic operation' on Iran, with talks in limbo.",
-      "severity": "warning",
+      "text": "Trump announces a 'crushing economic operation' on Iran and threatens its trade partners, while the US prepares fresh sanctions on Iran and hits Hezbollah.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2066
+      "latestSinceUpdate": 2067
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon and continues to pound Gaza.",
+      "text": "Israel strikes Lebanon and pounds Gaza; former Israeli PM Bennett advocates striking Iran in retaliation for Hezbollah attacks.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2066
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2067
     },
     {
       "date": "Aug 19",
-      "text": "US imposes fresh sanctions on Hezbollah, emphasizing ties to the Iranian government.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2066
-    },
-    {
-      "date": "Aug 19",
-      "text": "Iran's attacks on ships in the Strait of Hormuz are mounting.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2066
-    },
-    {
-      "date": "Aug 19",
-      "text": "US is conducting a stealth operation to transport oil through the Strait of Hormuz.",
+      "text": "Iran denies targeting UAE with missiles and dismisses Trump's economic pressure as a distraction.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2066
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNZkdIenNtYjE2aTdYcWJSano5dVFYMXE5MVdEa0VnVWJ6R3NMempHVjdfNVU1clJZd2RRY2VRcUtJR2xWZzJFUzI3MDNlWUR2aUtqYmFPRXhLSGdFMHZESXlRYUU3dmhoZTJKcGIzR0N5SEhzTGdtRTFPank2V2NraWUyYVFQbU1VRmdZX0FidVplQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2067
+    },
+    {
+      "date": "Aug 19",
+      "text": "Iran's attacks on ships in the Strait of Hormuz mount, testing U.S. military restraint, while the U.S. Navy assists in securing oil passage and conducts stealth operations.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2067
+    },
+    {
+      "date": "Aug 19",
+      "text": "A Canadian official condemns Israel’s 'unlawful invasion' and announces new aid to Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPdHJjTlBvTjh1b1dOOVlvaGptdGhnSkU2MGxJMW9rYzBla2ZEaVdldmJvcmlhRTVCTWZ5R2ZZVzFpVE9WNTVBVUg0clFNRTN6SjEtSW5KUVZCMkZ3LWJRQ3FOM2FJOG1KbkxTcGI1Mkt3c3VobVNDd3QxbFE1UGdJSW43ZGY4aUVwYmlPb0xPUVpXOTZZemhzLXZEOTgxOXU4SVI0S2Z4Qnh6bTFSV3g3OGVzVExQV2E1ck1MLXgyZVc2QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2067
     }
   ],
   "sourceStatuses": [
