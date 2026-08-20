@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2039,
+  "updateSequence": 2040,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T02:03:20.332Z",
+  "lastSyncedAt": "2026-08-20T03:05:11.257Z",
   "warDay": 174,
-  "summary": "Tensions remain high in the Middle East with ongoing Israeli strikes in Gaza and Lebanon, Houthi attacks on Saudi oil tankers, and escalating confrontation between the US and Iran over the Strait of Hormuz, despite some US diplomatic overtures.",
+  "summary": "The ongoing conflict sees the U.S. imposing severe economic sanctions on Iran amid continued naval tensions in the Strait of Hormuz, while Israel conducts strikes in Gaza and Lebanon, and Iran considers retaliatory actions against U.S. assets.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflicts and threats."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military and economic hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 40,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 17",
-      "text": "Deadline to reach US-Iran deal expires, Trump threatens Oman.",
+      "date": "Aug 18",
+      "text": "U.S. announces 'crushing economic operation' and 'economic D-Day' on Iran, warning nations against support.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2039
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2040
     },
     {
-      "date": "Aug 20",
-      "text": "Houthis claim attacks on eight Saudi oil tankers.",
+      "date": "Aug 18",
+      "text": "Strait of Hormuz naval blockade continues, with U.S. conducting stealth operations to transport oil.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPUDg3LU9wQW5ZOTJ4NmdGeC1LeWFKWC1lQV9wUWNnS1VXbWNDQ21RaDZOOGRHM29rMTJsTG8yZ1dFM0wxMXZvNDZlcXBGcTk1SE5ja3JydFBNdzdVTVhsWGpvbHBrcjBxd256MnBMU1pTUkZMZ2lDMC1DNUVKSGIydUZfdndORXEzVUhxenhMOHVZVjV0T2pZVw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2039
-    },
-    {
-      "date": "Aug 20",
-      "text": "Iran’s Attacks on Ships in Hormuz Mount, testing U.S. military restraint.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNdkR4blJKdVRSdUJldFRXenNyRzRuSEEtUjlTRWxUbE54QVNsb0U1QXE3NUdzZWFLNmppUlIyOFUyRTNoVVRjcFRWVlMwWXJkSG43TlBOMkpKaktpemV6VWZRcDJFMmdrcnZGazEtMVg3M0NEbkkxOU5Na3pkS2wwbWt6V0RhNkRkODk0ajd3T0stUnhzUEdyTWhyNWIwX3ZyYThON2xIbzUyRFd2cWdjeDYwc080WlQ4Rnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 2039
-    },
-    {
-      "date": "Aug 20",
-      "text": "Trump says 'draconian' sanctions for Iran may happen as Strait of Hormuz naval blockade continues.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE04UGgxNVlQcXpiOG1OUmpoWnJsTS0tNUZDdUljRkhlZEtsbkdON2pWaVlvZ21tOWNDd0dyTlZnRDVHYkJISFd0WTdEcmFIQmdwMzg3aUpR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2039
-    },
-    {
-      "date": "Aug 20",
-      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2039
+      "latestSinceUpdate": 2040
     },
     {
-      "date": "Aug 20",
-      "text": "Israel pounds Gaza.",
+      "date": "Aug 18",
+      "text": "Israel pounds Gaza and strikes Lebanon, while considering strikes on Iran for Hezbollah attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2039
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Japan Times",
+      "latestSinceUpdate": 2040
+    },
+    {
+      "date": "Aug 18",
+      "text": "Iran weighs strikes on U.S. military assets in Europe if Washington escalates conflict.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2040
+    },
+    {
+      "date": "Aug 18",
+      "text": "Houthis claim attacks on eight Saudi oil tankers.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPUDg3LU9wQW5ZOTJ4NmdGeC1LeWFKWC1lQV9wUWNnS1VXbWNDQ21RaDZOOGRHM29rMTJsTG8yZ1dFM0wxMXZvNDZlcXBGcTk1SE5ja3JydFBNdzdVTVhsWGpvbHBrcjBxd256MnBMU1pTUkZMZ2lDMC1DNUVKSGIydUZfdndORXEzVUhxenhMOHVZVjV0T2pZVw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2040
+    },
+    {
+      "date": "Aug 18",
+      "text": "U.K. condemns Israeli E1 settlement tender as 'unacceptable and destructive'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwJBVV95cUxQM1NlM1hmeFF5S3B2ejIxX2poWk1aZlRUY05EZFNGVndJZzV6emc5cjl0aTJMZmZacTUydEVFYlkxMDVsTGozb1JwMFA5YjFWT0ZPYVk4ZzFQUlFTazFrS2V4NmxQWE5kLWRJeDVFTlRxM0ZPdkpQWEgtYXhHX2djc3VWN3U5V0FCeUdMSml0TENKSmNwT1VKcHZROGJMcGRoNTl6Y0RRR2ZMV041VUp1STdtaExNX3l0bjItbzdzVDRyV0VNUnVaVGpkam1jZVhtZVJzbTNqMWkwLTJYVDRPTzNmcTN3THRZMU5ONFVSdHlTOC1weDVkYm5td1R1WXdXNUZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Haaretz",
+      "latestSinceUpdate": 2040
     }
   ],
   "sourceStatuses": [
