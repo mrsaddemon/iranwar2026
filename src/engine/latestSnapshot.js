@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2044,
+  "updateSequence": 2045,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T05:48:59.168Z",
+  "lastSyncedAt": "2026-08-20T06:18:00.667Z",
   "warDay": 174,
   "summary": "The US has announced a 'crushing economic operation' against Iran, while the UAE has suspended trade with Iran, and Israel continues strikes in Gaza and Lebanon amidst reports of potential US troop pullbacks from the Gulf.",
   "lastNarrativeUpdate": "2026-08-20",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 20",
-      "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "critical",
+      "text": "August 20, 2026 — UAE suspends all trade and financial transactions with Iran",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2043
+      "latestSinceUpdate": 2045
     },
     {
       "date": "Aug 20",
-      "text": "Trump announces 'most crushing economic operation ever taken' on Iran, warning nations against support.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2044
+      "text": "Iran war updates: Trump to reopen talks ‘at some point’; Israel pounds Gaza",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2045
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza and strikes Lebanon as the U.S. prepares fresh Iran sanctions.",
-      "severity": "warning",
+      "text": "World News Today Live Updates: US debt crosses $40 trillion threshold after doubling across Trump and Biden administrations",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQczVpNG84SnZ4STQyM29SQWp1a3hrZ3hITXdqQUlWVlFpUEdHMzNuRkF0ejc5TDhwbUZGdWZ3bDVnWjlTZndfelpXOUVyMWIyclRBS0g4d29qa3BoRGpNQWYxbGZINlpBV21ZQXZ4MEZMLW1yQnJyOWRqcVBzcTQtakZWSkxnUkRIU3RaMnFlbDhkYllic3NJTXMwMFZmQ2hqbnVCTzlvcTlVTmJUX05sUjdXZ0JWUdIBvAFBVV95cUxPb25CV0pkd1FIdHQ2YXI5SVJoZWFYZGNBMXF3N0N6a2ZDRW1nek5nUEZMWU92QTdUNV9IT0VNYjdLSWVVWW9JY1JEQjNqYThqN3VRWFhqVDVDM3pyVDNVR0lYb3Bzb0NLdW9tZF9YTTNMVVhfOTBpdWU5RUxYQ2E5WHJrd3hLOUxPY2thczBuUmZ6d1pNVzA0Vm8tZWJ1YV82ZWJFV1hDVG5ZNkJWWlpFVE4zMXVTdHVFOWdBaQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Indian Express",
+      "latestSinceUpdate": 2045
+    },
+    {
+      "date": "Aug 20",
+      "text": "Iran war updates: Tehran denies Iran targeted UAE with missiles",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2045
+    },
+    {
+      "date": "Aug 20",
+      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2044
+      "latestSinceUpdate": 2045
     },
     {
       "date": "Aug 20",
-      "text": "Iran denies targeting UAE with missiles and eyes US military bases in Europe as potential targets.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRWp6em1Qb1RKQk1DcFdCNjJ2UmZqQkEtUzVIMmpGckJ5TDRSM2pydjE1Ung5RkdaZmVuaEVHREpRTldSTVZSUGx5WDVHbnkwdUlVNzhNOVk0d2FZakpxTVY0V2tfX1ZzR1pObnNCM09fUlpCakQ0S2k2QU5fa0hKV3pOUHQxeUQtTGd2cg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "stripes.com",
-      "latestSinceUpdate": 2044
-    },
-    {
-      "date": "Aug 20",
-      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers in a combat incident.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2044
-    },
-    {
-      "date": "Aug 20",
-      "text": "US reportedly weighing a major troop pullback from the Gulf following damage in the Iran war.",
+      "text": "Iran War: Latest News, Live Coverage and Video",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPZGNjVG13M1N4cXhVU09mOU9SN3QxTXFZWW5HMVYydWhFajc2eldmeHVtUzJsYkw2WDJxMS1uSUpETmpMQUo5N0xSeDZENTZWMGlYb0ZxX0ZMdjlXVk56VHU4cmlndE1jWFlKWmMzbHZJZGx4YXJmRFV2eS1BN2NMVFlBNEltQmc2Y05SeEh2SXJCdUU4WTFHUEFvcld0bjJwVmdvbzBnTndNRE95VTMwYzFvQdIBuAFBVV95cUxNMlVoNV9PUDJJQW5jSmNpRmdtZnBsZFZmRkUtaGJBMTRWb0NxXzhvNkk3SFJGYWljajZEM2k4R2NUNUtrcmRVNzJwRDBvb3ZLTzVUTmpKMG0wNGpZNzVHWWduY3poakpOT1FmdnFjZnJFVzh5TVdzQWNmdnJZV09MWnYxMV8yX01oaHRKVl9fTzh1YTJSd3NMZ2tETGQ1THVaWUpwemdHUlVRa2Q3alV4Vlp1YWg4NVBZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2044
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "nbcnews.com",
+      "latestSinceUpdate": 2045
     }
   ],
   "sourceStatuses": [
