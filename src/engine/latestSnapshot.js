@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2057,
+  "updateSequence": 2058,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T14:45:12.912Z",
+  "lastSyncedAt": "2026-08-20T15:17:34.536Z",
   "warDay": 174,
-  "summary": "The US has intensified economic pressure on Iran with new sanctions and threats to trade partners, while Israel conducts strikes in Lebanon amidst ongoing regional tensions and US efforts to secure oil transit through the Strait of Hormuz.",
+  "summary": "The US is intensifying economic pressure on Iran with new sanctions and trade threats, while Israel conducts strikes in Lebanon and issues warnings over Syria amidst ongoing regional tensions and efforts to secure oil transit through the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
@@ -15,19 +15,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.55,
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 60,
+    "escalationLevel": 75,
+    "oilDisruption": 70,
+    "tradeImpact": 64,
+    "sanctionsPressure": 62,
+    "globalPressure": 77,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -61,50 +61,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 19",
       "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 2057
     },
     {
       "date": "Aug 19",
-      "text": "Trump announces 'crushing economic operation' on Iran, warning nations against throwing Tehran a lifeline.",
+      "text": "Trump announces 'crushing economic operation' on Iran with talks in limbo.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOYjNDZy10ODNkRFhWRkNqbmw0eVpKQk9WMWh1WnpLU2pZdEt6alA4cjc5ZTI3dndOd1ptQVFPQ2Z3OGQydExST2dwclB4SV9nRkJhQ29GczU2TDYyMzNHcXhacnV1SzVsLTJTa2Z5d0cxdWxmMHluZHNHUjZjM0NPQ25nUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2057
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2058
     },
     {
       "date": "Aug 19",
       "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
       "latestSinceUpdate": 2057
     },
     {
       "date": "Aug 19",
-      "text": "U.S. Navy is helping get oil through the Strait of Hormuz, conducting a stealth operation to transport oil.",
+      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2057
+      "latestSinceUpdate": 2058
     },
     {
       "date": "Aug 19",
-      "text": "Hezbollah FPV drone chases Israeli soldiers in a reported comeback incident.",
+      "text": "Hezbollah FPV drone chases Israeli soldiers.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2057
-    },
-    {
-      "date": "Aug 19",
-      "text": "Pentagon weighing smaller U.S. military presence in Gulf once Iran war ends.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2057
+      "latestSinceUpdate": 2058
     }
   ],
   "sourceStatuses": [
