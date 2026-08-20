@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2058,
+  "updateSequence": 2059,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T15:17:34.536Z",
+  "lastSyncedAt": "2026-08-20T15:50:59.196Z",
   "warDay": 174,
-  "summary": "The US is intensifying economic pressure on Iran with new sanctions and trade threats, while Israel conducts strikes in Lebanon and issues warnings over Syria amidst ongoing regional tensions and efforts to secure oil transit through the Strait of Hormuz.",
+  "summary": "The US is intensifying economic pressure on Iran while also signaling openness to talks, as Israel conducts strikes in Lebanon and Gaza amidst ongoing regional military confrontations and efforts to secure oil transit through the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported; conflict and economic pressure continue."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and economic pressure."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.65
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 45,
     "escalationLevel": 75,
     "oilDisruption": 70,
     "tradeImpact": 64,
@@ -61,42 +61,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 19",
       "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 2057
     },
     {
       "date": "Aug 19",
-      "text": "Trump announces 'crushing economic operation' on Iran with talks in limbo.",
-      "severity": "critical",
+      "text": "Trump announces a 'crushing economic operation' on Iran with talks in limbo, threatening Iran’s trade partners.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2058
+      "latestSinceUpdate": 2059
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "text": "Israel strikes Lebanon and pounds Gaza as the U.S. prepares fresh Iran sanctions.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2057
+      "latestSinceUpdate": 2059
     },
     {
       "date": "Aug 19",
-      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
+      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers in a combat incident.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2059
+    },
+    {
+      "date": "Aug 19",
+      "text": "U.S. Navy is helping get oil through the Strait of Hormuz, including a stealth operation to transport oil.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2058
-    },
-    {
-      "date": "Aug 19",
-      "text": "Hezbollah FPV drone chases Israeli soldiers.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2058
+      "latestSinceUpdate": 2059
     }
   ],
   "sourceStatuses": [
