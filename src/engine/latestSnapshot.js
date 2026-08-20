@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2059,
+  "updateSequence": 2060,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T15:50:59.196Z",
+  "lastSyncedAt": "2026-08-20T16:16:33.854Z",
   "warDay": 174,
-  "summary": "The US is intensifying economic pressure on Iran while also signaling openness to talks, as Israel conducts strikes in Lebanon and Gaza amidst ongoing regional military confrontations and efforts to secure oil transit through the Strait of Hormuz.",
+  "summary": "The Iran War continues with the US imposing new economic sanctions and threatening trade partners, while Iran dismisses these actions and threatens to close the Strait of Hormuz amidst ongoing military clashes between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and economic pressure."
+    "summary": "No active ceasefire is in effect, with ongoing military and economic hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.7
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 75,
-    "oilDisruption": 70,
-    "tradeImpact": 64,
-    "sanctionsPressure": 62,
-    "globalPressure": 77,
-    "allianceInfluence": 46
+    "nuclearIndex": 55,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,35 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 19",
-      "text": "Trump announces a 'crushing economic operation' on Iran with talks in limbo, threatening Iran’s trade partners.",
-      "severity": "warning",
+      "text": "Trump announces 'crushing economic operation' on Iran and threatens its trade partners, while also indicating openness to talks 'at some point'.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2059
+      "latestSinceUpdate": 2060
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon and pounds Gaza as the U.S. prepares fresh Iran sanctions.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2059
-    },
-    {
-      "date": "Aug 19",
-      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers in a combat incident.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2059
-    },
-    {
-      "date": "Aug 19",
-      "text": "U.S. Navy is helping get oil through the Strait of Hormuz, including a stealth operation to transport oil.",
+      "text": "Iran dismisses Trump’s ‘economic D-Day’ as a distraction from America's fiscal problems.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNZkdIenNtYjE2aTdYcWJSano5dVFYMXE5MVdEa0VnVWJ6R3NMempHVjdfNVU1clJZd2RRY2VRcUtJR2xWZzJFUzI3MDNlWUR2aUtqYmFPRXhLSGdFMHZESXlRYUU3dmhoZTJKcGIzR0N5SEhzTGdtRTFPank2V2NraWUyYVFQbU1VRmdZX0FidVplQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2060
+    },
+    {
+      "date": "Aug 19",
+      "text": "Iran states the Hormuz Strait will remain shut until the U.S. meets interim deal conditions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2060
+    },
+    {
+      "date": "Aug 19",
+      "text": "The U.S. Navy is helping get oil through the Strait of Hormuz, with reports of a stealth operation to transport oil.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2059
+      "latestSinceUpdate": 2060
+    },
+    {
+      "date": "Aug 19",
+      "text": "Israel pounds Gaza, and Bennett suggests Israel should strike Iran to retaliate for Hezbollah attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2060
     }
   ],
   "sourceStatuses": [
