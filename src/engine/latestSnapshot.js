@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2047,
+  "updateSequence": 2048,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T08:00:00.000Z",
+  "lastSyncedAt": "2026-08-20T08:50:02.265Z",
   "warDay": 174,
-  "summary": "The US has launched a 'crushing economic operation' against Iran, while regional military conflicts persist with Israel striking Lebanon and Gaza, Iran-backed forces engaging Israeli troops, and attacks on ships mounting in the Strait of Hormuz.",
+  "summary": "The US announced a 'crushing economic operation' against Iran, threatening its trade partners, while the UAE suspended trade with Iran, and Israel continued strikes in Gaza and Lebanon amidst ongoing regional conflict.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict and economic pressure."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating economic and military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 50,
     "escalationLevel": 88,
-    "oilDisruption": 90,
-    "tradeImpact": 81,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,27 +68,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "Trump announces 'crushing economic operation' on Iran, warns nations against throwing Tehran a lifeline.",
+      "text": "Trump announces 'most crushing economic operation ever taken' on Iran and threatens Iran’s trade partners.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOYjNDZy10ODNkRFhWRkNqbmw0eVpKQk9WMWh1WnpLU2pZdEt6alA4cjc5ZTI3dndOd1ptQVFPQ2Z3OGQydExST2dwclB4SV9nRkJhQ29GczU2TDYyMzNHcXhacnV1SzVsLTJTa2Z5d0cxdWxmMHluZHNHUjZjM0NPQ25nUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2047
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2048
     },
     {
       "date": "Aug 20",
-      "text": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions.",
+      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2048
+    },
+    {
+      "date": "Aug 20",
+      "text": "Israel pounds Gaza and strikes Lebanon.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2047
+      "latestSinceUpdate": 2048
     },
     {
       "date": "Aug 20",
-      "text": "Iran’s Attacks on Ships in Hormuz Mount, testing U.S. military restraint.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNdkR4blJKdVRSdUJldFRXenNyRzRuSEEtUjlTRWxUbE54QVNsb0U1QXE3NUdzZWFLNmppUlIyOFUyRTNoVVRjcFRWVlMwWXJkSG43TlBOMkpKaktpemV6VWZRcDJFMmdrcnZGazEtMVg3M0NEbkkxOU5Na3pkS2wwbWt6V0RhNkRkODk0ajd3T0stUnhzUEdyTWhyNWIwX3ZyYThON2xIbzUyRFd2cWdjeDYwc080WlQ4Rnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "wsj.com",
-      "latestSinceUpdate": 2047
+      "text": "Hezbollah FPV drone chases Israeli soldiers.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2048
     },
     {
       "date": "Aug 20",
@@ -97,20 +105,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 2047
-    },
-    {
-      "date": "Aug 20",
-      "text": "US reportedly weighing major troop pullback from Gulf following damage in Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPZGNjVG13M1N4cXhVU09mOU9SN3QxTXFZWW5HMVYydWhFajc2eldmeHVtUzJsYkw2WDJxMS1uSUpETmpMQUo5N0xSeDZENTZWMGlYb0ZxX0ZMdjlXVk56VHU4cmlndE1jWFlKWmMzbHZJZGx4YXJmRFV2eS1BN2NMVFlBNEltQmc2Y05SeEh2SXJCdUU4WTFHUEFvcld0bjJwVmdvbzBnTndNRE95VTMwYzFvQdIBuAFBVV95cUxNMlVoNV9PUDJJQW5jSmNpRmdtZnBsZFZmRkUtaGJBMTRWb0NxXzhvNkk3SFJGYWljajZEM2k4R2NUNUtrcmRVNzJwRDBvb3ZLTzVUTmpKMG0wNGpZNzVHWWduY3poakpOT1FmdnFjZnJFVzh5TVdzQWNmdnJZV09MWnYxMV8yX01oaHRKVl9fTzh1YTJSd3NMZ2tETGQ1THVaWUpwemdHUlVRa2Q3alV4Vlp1YWg4NVBZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2047
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
