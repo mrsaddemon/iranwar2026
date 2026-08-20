@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2070,
+  "updateSequence": 2071,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T22:03:33.977Z",
+  "lastSyncedAt": "2026-08-20T22:37:21.041Z",
   "warDay": 174,
   "summary": "The ongoing Iran war, nearing six months, is characterized by escalating U.S. economic pressure on Iran and its trade partners, regional military strikes by Israel, and increased Iranian attacks on shipping in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-20",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active, with ongoing military and economic hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 19",
-      "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "critical",
+      "date": "Aug 20",
+      "text": "Iran Update, August 19, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNVF9CS0RvLU1TckR0cnp0X2dBTU5mQTJKUFVCTHpFYmo2OFBQNEkyTy0zWGRZRXV2cXp6SEJMa1k3NGk1M2dRVmhlUmJySDNSalJkcElYb21tazc1Sm9taENBM3ItaFhQS2x2MDFFZktidU1TQUswazhxT1FHdzNlaEYycw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2071
+    },
+    {
+      "date": "Aug 20",
+      "text": "August 19, 2026 — UAE suspends all trade and financial transactions with Iran",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2070
+      "latestSinceUpdate": 2071
     },
     {
-      "date": "Aug 19",
-      "text": "Trump announces a 'crushing economic operation' on Iran, threatening its trade partners.",
+      "date": "Aug 20",
+      "text": "Iran war live: Tehran says Trump’s ‘economic warfare’ will fail",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2071
+    },
+    {
+      "date": "Aug 20",
+      "text": "Iran war, said to be over \"very soon,\" nears 6 months",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1tMFBzS0tfcjJMYmRHUF9oalUwWUladDZnM3g4ZXIxdnhhTW1NM21nV2hFbThMclVKR3h5TXVJXzBDQV95YUJ2bmFrcnA5ZXpfX3lmM0ZvRnBJZ0M3aV9vbG4xU1E3RFR4UkxzTTJPazFiOW5uOGN1YjVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2071
+    },
+    {
+      "date": "Aug 20",
+      "text": "Trump threatens Iran’s trade partners, as military strikes make way for economic pressure",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2071
+    },
+    {
+      "date": "Aug 20",
+      "text": "Trump announces \"crushing economic operation\" on Iran with talks in limbo",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2070
-    },
-    {
-      "date": "Aug 19",
-      "text": "Israel strikes Lebanon as the U.S. prepares fresh Iran sanctions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2070
-    },
-    {
-      "date": "Aug 19",
-      "text": "U.S. hits Hezbollah with fresh sanctions, emphasizing ties to the Iranian government.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2070
-    },
-    {
-      "date": "Aug 19",
-      "text": "Iran’s attacks on ships in the Strait of Hormuz mount, testing U.S. military restraint.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2070
-    },
-    {
-      "date": "Aug 19",
-      "text": "U.S. conducting a stealth operation to transport oil through the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2070
+      "latestSinceUpdate": 2071
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
