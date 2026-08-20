@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2054,
+  "updateSequence": 2055,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T12:15:33.961Z",
+  "lastSyncedAt": "2026-08-20T13:14:08.945Z",
   "warDay": 174,
-  "summary": "The US has initiated a 'crushing economic operation' against Iran, while regional military tensions remain high with Israel striking Gaza and Lebanon, and increased activity reported in the Strait of Hormuz.",
+  "summary": "Economic pressure on Iran intensifies with new US sanctions and UAE trade suspension, while military engagements continue in the region and the US conducts stealth oil operations through Hormuz.",
   "lastNarrativeUpdate": "2026-08-20",
   "ceasefire": {
     "active": false,
@@ -15,11 +15,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 46
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza amid ongoing conflict.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2054
-    },
-    {
-      "date": "Aug 17",
-      "text": "US-Iran deal deadline expires, with Trump announcing a 'crushing economic operation' on Iran and threatening Oman.",
+      "text": "Trump announces a 'crushing economic operation' on Iran, threatening trade partners, with talks in limbo.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2054
+      "latestSinceUpdate": 2055
     },
     {
-      "date": "Aug 17",
-      "text": "Israel strikes Lebanon as the U.S. prepares fresh Iran sanctions.",
-      "severity": "warning",
+      "date": "Aug 20",
+      "text": "Israel strikes Lebanon and pounds Gaza as the U.S. prepares fresh Iran sanctions.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Japan Times",
-      "latestSinceUpdate": 2054
+      "latestSinceUpdate": 2055
     },
     {
       "date": "Aug 20",
-      "text": "Increased traffic reported in the US-controlled Strait of Hormuz corridor, with the U.S. Navy assisting oil transport.",
+      "text": "U.S. is conducting a stealth operation to transport oil through Hormuz, with increased traffic reported in the US-controlled corridor.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2054
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2055
     },
     {
       "date": "Aug 20",
-      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers.",
+      "text": "More than 750 US service members have been wounded since the start of the Iran War.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2055
+    },
+    {
+      "date": "Aug 20",
+      "text": "Hezbollah FPV drone reportedly chased Israeli soldiers in a combat incident.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2053
+      "latestSinceUpdate": 2055
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
