@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2052,
+  "updateSequence": 2053,
   "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T11:10:42.216Z",
+  "lastSyncedAt": "2026-08-20T11:46:03.120Z",
   "warDay": 174,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; talks are in limbo and military/economic actions continue."
+    "summary": "No ceasefire is active; military actions and economic pressure are escalating."
   }
 }
