@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2074,
-  "lastUpdated": "2026-08-20",
-  "lastSyncedAt": "2026-08-20T23:53:25.621Z",
-  "warDay": 174,
-  "summary": "The conflict between the US and Iran continues into its 174th day, marked by a significant shift from military strikes to intensified US economic pressure on Iran and its allies, while regional tensions persist.",
-  "lastNarrativeUpdate": "2026-08-20",
+  "updateSequence": 2075,
+  "lastUpdated": "2026-08-21",
+  "lastSyncedAt": "2026-08-21T02:00:00.000Z",
+  "warDay": 175,
+  "summary": "The conflict nears six months with the US imposing new economic sanctions on Iran, which has responded by threatening to keep the Hormuz Strait closed, while Israel continues strikes in Gaza.",
+  "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict and economic pressure are escalating."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and stalled diplomatic efforts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.5,
         "aggression": 0.9
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -63,46 +63,54 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "UAE suspends all trade and financial transactions with Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "CNN",
       "latestSinceUpdate": 2072
     },
     {
       "date": "Aug 19",
-      "text": "Trump announces a 'crushing economic operation' and 'economic D-Day' on Iran, threatening its trade partners.",
+      "text": "Trump announces 'crushing economic operation' on Iran and threatens its trade partners, with talks in limbo.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2074
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2075
     },
     {
       "date": "Aug 19",
-      "text": "Israel strikes Lebanon as the U.S. prepares fresh sanctions against Iran and Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2074
-    },
-    {
-      "date": "Aug 19",
-      "text": "Over 770 US service members have been killed or injured since the conflict began.",
+      "text": "Iran states the Hormuz Strait will remain shut until the U.S. meets interim deal conditions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPYkJsQk1rWVprWk85M1UtZVJFV1h6dGFnMnFYemNIbFY2QWlQV081S0lRUk5oR254Z0ljZGpnWVVnRmZreVNyS1Vael9kZzgybnJHYUd6a21PTTVwVjhHTmRQVjBoeFl6Zms0NXpyT3AweEJlTmdTNkpXT29WTjVmLUI5ZkV2ZnVmMktxMUsyeEVsOHc3NDdNak81V0dmdXZYdGN6c3dycjhUYnFHdzBmQ2w1c3ZPVWVRVlpqRA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2074
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2075
     },
     {
       "date": "Aug 19",
-      "text": "The U.S. Navy is helping get oil through the Strait of Hormuz, including conducting stealth operations.",
+      "text": "Israel pounds Gaza, with mediators stating these strikes undermine efforts to end the conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2075
+    },
+    {
+      "date": "Aug 19",
+      "text": "Bennett suggests Israel should strike Iran to retaliate for Hezbollah attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2075
+    },
+    {
+      "date": "Aug 19",
+      "text": "U.S. is conducting a stealth operation to transport oil through Hormuz.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2074
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2075
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -131,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Western",
-      "headline": "Iran's Aggression Prompts Sanctions, Deconfliction Efforts",
-      "summary": "The US is responding to Iran's escalating actions, including missile launches and Strait of Hormuz incidents, with fresh sanctions and diplomatic efforts to deconflict regional tensions. There is also consideration for adjusting the US military footprint in the Gulf post-conflict.",
-      "tone": "anxious",
-      "latestSinceUpdate": 1998
-    },
-    {
-      "perspective": "Iranian",
-      "headline": "Defiance Amidst US Pressure and Regional Strikes",
-      "summary": "Iran continues to assert its regional influence, including missile launches and claims over the Strait of Hormuz, in defiance of US pressure and sanctions. The nation is responding to US-Israel strikes and perceived threats to its sovereignty.",
+      "perspective": "US Administration",
+      "headline": "Economic Pressure on Iran Intensifies Amidst Stalled Talks",
+      "summary": "The US is implementing a 'crushing economic operation' against Iran, threatening its trade partners, while signaling a willingness to reopen talks 'at some point'. The Pentagon is also considering a reduced military presence in the Gulf post-conflict.",
       "tone": "defiant",
-      "latestSinceUpdate": 1998
+      "latestSinceUpdate": 2075
     },
     {
-      "perspective": "Israeli/Regional",
-      "headline": "Escalation in Lebanon and Iran Amidst Regional Instability",
-      "summary": "Israel has escalated attacks in southern Lebanon despite a ceasefire, citing ongoing security concerns and threats from groups like Hezbollah. The broader West Asia conflict sees US-Israel strikes hitting Iran, contributing to regional instability.",
-      "tone": "strained",
-      "latestSinceUpdate": 1998
+      "perspective": "Iran",
+      "headline": "Iran Dismisses US Economic Warfare, Demands Conditions for Hormuz Reopening",
+      "summary": "Iran dismisses Trump’s 'economic D-Day' as a distraction and asserts that the Hormuz Strait will remain closed until the U.S. meets interim deal conditions. Tehran also claims the war will be over 'very soon'.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2075
+    },
+    {
+      "perspective": "Israel",
+      "headline": "Israel Continues Gaza Strikes, Considers Retaliation Against Iran",
+      "summary": "Israel continues to pound Gaza, actions which mediators say undermine peace efforts. A former Israeli official suggests striking Iran in retaliation for Hezbollah attacks.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2075
+    },
+    {
+      "perspective": "Hezbollah",
+      "headline": "Hezbollah Affirms Force as Sole Means to Compel Israeli Withdrawal",
+      "summary": "Hezbollah's Nawaf Moussawi states that only force can compel Israel to leave Lebanon, indicating a continued stance of resistance.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2075
     }
   ]
 });
