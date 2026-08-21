@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2090,
+  "updateSequence": 2091,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T12:14:41.074Z",
+  "lastSyncedAt": "2026-08-21T13:13:54.807Z",
   "warDay": 175,
-  "summary": "The Iran War continues on Day 175 with ongoing military actions by Israel in Gaza and Hezbollah against Israeli forces, while the US imposes new sanctions on Hezbollah and threatens economic pressure on Iran, leading to heightened regional tensions and concerns over global economic stability.",
+  "summary": "The Iran War continues on Day 175 with ongoing Israeli military actions in Gaza, new US sanctions and economic pressure on Iran, and mutual threats of escalation.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, and mediation efforts in Gaza are reportedly being undermined by ongoing Israeli strikes."
+    "summary": "No active ceasefire is in effect, and mediation efforts are reportedly being undermined by ongoing military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.88
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.87
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
-    "escalationLevel": 88,
-    "oilDisruption": 78,
-    "tradeImpact": 72,
+    "nuclearIndex": 85,
+    "escalationLevel": 90,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 83,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 20",
-      "text": "Trump indicates willingness to reopen talks with Iran 'at some point' while Israel continues to pound Gaza.",
-      "severity": "info",
+      "text": "Trump indicates willingness to reopen talks 'at some point' while Israel continues to pound Gaza.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2090
+      "latestSinceUpdate": 2091
     },
     {
-      "date": "Aug 19",
+      "date": "Aug 20",
       "text": "US imposes new sanctions on Hezbollah and threatens further economic pressure on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2090
+      "latestSinceUpdate": 2091
     },
     {
-      "date": "Ongoing",
+      "date": "Aug 20",
       "text": "More than 750 US service members have been wounded since the start of the Iran War.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2090
+      "latestSinceUpdate": 2091
     },
     {
-      "date": "Ongoing",
+      "date": "Aug 20",
       "text": "Gaza mediators state that recent Israeli strikes are undermining efforts to end the conflict at a critical stage.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2090
+      "latestSinceUpdate": 2091
     },
     {
-      "date": "Ongoing",
-      "text": "Trump threatens Iran’s trade partners, indicating a shift towards economic pressure alongside military strikes.",
+      "date": "Aug 20",
+      "text": "Trump threatens Iran’s trade partners as economic pressure becomes a primary tactic.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2090
+      "latestSinceUpdate": 2091
     },
     {
-      "date": "Ongoing",
-      "text": "A spike in 'Dark' Oil Tankers in the Gulf raises concerns about catastrophic spills and maritime security.",
+      "date": "Aug 20",
+      "text": "A spike in 'Dark' Oil Tankers in the Gulf raises concerns about catastrophic spills and defiance of shipping regulations.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2090
+      "latestSinceUpdate": 2091
     }
   ],
   "sourceStatuses": [
