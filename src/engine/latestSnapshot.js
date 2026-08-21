@@ -1,58 +1,58 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2107,
+  "updateSequence": 2108,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T21:52:49.372Z",
+  "lastSyncedAt": "2026-08-21T22:33:14.417Z",
   "warDay": 175,
-  "summary": "The war between the US and Iran continues with increased economic pressure from the US, threats of military response from Iran, and ongoing regional tensions in the Strait of Hormuz and Lebanon.",
+  "summary": "The US and UAE have intensified economic pressure on Iran through new sanctions and trade suspensions, while military tensions persist in the region, particularly around the Strait of Hormuz and the Israel-Hezbollah front.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported; regional conflicts and threats continue."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict and economic pressure."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 51
+    "nuclearIndex": 60,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 68,
+    "globalPressure": 88,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 20",
-      "text": "Iran and Oman discuss the Strait of Hormuz amid ongoing conflict.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2106
-    },
-    {
-      "date": "Aug 20",
-      "text": "US imposes new sanctions on Hezbollah and threatens further economic pressure on Iran.",
+      "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2107
+      "latestSinceUpdate": 2108
     },
     {
-      "date": "Aug 20",
-      "text": "Iran dismisses Trump's threats and states that 'economic warfare' will fail.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2107
-    },
-    {
-      "date": "Aug 20",
-      "text": "Gaza mediators report that recent Israeli strikes are undermining efforts to end the conflict.",
+      "date": "Aug 19",
+      "text": "UAE suspends all trade and financial transactions with Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2107
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2108
     },
     {
       "date": "Aug 20",
-      "text": "Former Israeli PM Bennett calls for Israel to strike Iran in retaliation for Hezbollah attacks.",
+      "text": "Iran warns of a ‘devastating’ response to US sanctions as America prepares for a new phase of war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNaEk5b091MDFHWEY5cnZkYnlJT0ltYVlTb3d6cXhFTmVvOTQtNnBCbnpPbHNHSnZaa2wxVURBakM0ck1MX2l3TWpDWFpWZHkyQUN0TDVuLUt0TTBubzJ3emowUFZaUEpyU2dfOVNDY0ZyQ1MzVGxaUXNoMk9JTHNTbTBwMHhWeGlZRXVPUHcyTzZmUkI0VEQzUFFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2108
+    },
+    {
+      "date": "Aug 20",
+      "text": "U.S. military states it aided the passage of 660 million barrels of oil through the Strait of Hormuz since May.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2108
+    },
+    {
+      "date": "Aug 20",
+      "text": "Pentagon reveals over 750 US servicemen have been wounded in the Iran war.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2108
+    },
+    {
+      "date": "Aug 20",
+      "text": "Former Israeli PM Bennett suggests Israel should strike Iran to retaliate for Hezbollah attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2107
-    },
-    {
-      "date": "Aug 20",
-      "text": "Trump threatens Iran’s trade partners as economic pressure intensifies.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2107
+      "latestSinceUpdate": 2108
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
