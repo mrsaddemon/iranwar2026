@@ -1,28 +1,19 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2093,
+  "updateSequence": 2094,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T14:44:42.200Z",
+  "lastSyncedAt": "2026-08-21T15:16:26.007Z",
   "warDay": 175,
-  "summary": "The conflict involving the US, Israel, and Iran continues to escalate with military strikes, new sanctions, and heightened tensions in the Strait of Hormuz.",
+  "summary": "The Iran War continues to escalate with US-Israel strikes on Iran and Lebanon, new US economic sanctions, and Iran threatening military targets in Europe if the conflict intensifies.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing military actions and threats."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 80
       },
@@ -31,18 +22,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "aggression": 0.9
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 75
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.85
+      }
+    },
     "iran": {
       "metrics": {
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
+    "nuclearIndex": 40,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 20",
-      "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
+      "text": "Israel strikes targets in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2094
+    },
+    {
+      "date": "Aug 20",
+      "text": "US imposes new sanctions on Hezbollah and threatens further economic pressure on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2092
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2094
     },
     {
       "date": "Aug 20",
-      "text": "China rejects US sanctions on Tehran, indicating geopolitical alignment.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2093
-    },
-    {
-      "date": "Aug 20",
-      "text": "Israel conducts strikes in Gaza and Lebanon.",
+      "text": "Over 750 US service members have been wounded since the start of the Iran War.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2093
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2094
     },
     {
       "date": "Aug 20",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
+      "text": "US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2093
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2094
     },
     {
       "date": "Aug 20",
-      "text": "Hezbollah uses FPV drones to target Israeli soldiers, forcing them to retreat.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2093
-    },
-    {
-      "date": "Aug 20",
-      "text": "Concerns rise over increased risk of collisions and oil spills in the Strait of Hormuz, with the U.S. military guiding oil tankers and conducting stealth operations.",
+      "text": "US President Trump initiates 'economic D-Day' against Iran, warning nations against providing support.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPNzQ3TkxjSlV3TWF2QjF1eERyNFNGWXp5UUhiVnRsMkRobktKSElnQXJUTFgtcjRjMHBxcUFqV01lYVBTX3dmcTZHelhvRy1ETUppZk5NcHE3SzFsUzlLTTlhS3VHa0N5c0hCYk9DM2QyamUtb19YZTdZMnRXUFNUeEJNN3puUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "qz.com",
-      "latestSinceUpdate": 2093
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOYjNDZy10ODNkRFhWRkNqbmw0eVpKQk9WMWh1WnpLU2pZdEt6alA4cjc5ZTI3dndOd1ptQVFPQ2Z3OGQydExST2dwclB4SV9nRkJhQ29GczU2TDYyMzNHcXhacnV1SzVsLTJTa2Z5d0cxdWxmMHluZHNHUjZjM0NPQ25nUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2094
+    },
+    {
+      "date": "Aug 20",
+      "text": "Concerns rise over increased risk of collisions and oil spills in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2094
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
