@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2104,
+  "updateSequence": 2105,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T20:33:30.927Z",
+  "lastSyncedAt": "2026-08-21T20:53:49.792Z",
   "warDay": 175,
-  "summary": "Economic pressure on Iran has intensified with new US sanctions and UAE trade suspension, while Israel continues strikes in Gaza, and Iran warns of potential retaliation and expansion of targets.",
+  "summary": "The conflict continues with new US sanctions on Hezbollah and Iran, UAE trade suspension, and ongoing Israeli strikes in Gaza, while concerns rise over Strait of Hormuz oil passage and potential escalation.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Latest Israeli strikes in Gaza are undermining efforts to end the conflict, indicating no active ceasefire."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.68,
+        "aggression": 0.87
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.82
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 85,
+    "nuclearIndex": 78,
+    "escalationLevel": 89,
     "oilDisruption": 80,
-    "tradeImpact": 73,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -63,54 +63,53 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2101
+      "sourceName": "CNN"
     },
     {
       "date": "Aug 19",
       "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
       "latestSinceUpdate": 2104
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza, with mediators stating strikes undermine efforts to end the conflict.",
+      "text": "Israel pounds Gaza, with mediators stating strikes undermine efforts to end the conflict at a critical stage.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2104
+      "latestSinceUpdate": 2105
     },
     {
       "date": "Aug 20",
-      "text": "Trump threatens Iran’s trade partners, signaling a shift to economic pressure.",
+      "text": "Former Israeli PM Bennett suggests Israel should strike Iran to retaliate for Hezbollah attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2104
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2105
     },
     {
       "date": "Aug 20",
-      "text": "Iran warns of a ‘devastating’ response to US sanctions as America prepares for a new phase of war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNaEk5b091MDFHWEY5cnZkYnlJT0ltYVlTb3d6cXhFTmVvOTQtNnBCbnpPbHNHSnZaa2wxVURBakM0ck1MX2l3TWpDWFpWZHkyQUN0TDVuLUt0TTBubzJ3emowUFZaUEpyU2dfOVNDY0ZyQ1MzVGxaUXNoMk9JTHNTbTBwMHhWeGlZRXVPUHcyTzZmUkI0VEQzUFFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2104
+      "text": "U.S. military reports aiding passage of 660 million barrels of oil through the Strait of Hormuz since May.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2105
     },
     {
       "date": "Aug 20",
-      "text": "A spike in ‘Dark’ Oil Tankers in the Gulf raises the risk of catastrophic spills.",
+      "text": "A spike in 'Dark' Oil Tankers in the Gulf raises risk of catastrophic spills and maritime incidents.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2104
+      "latestSinceUpdate": 2105
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
