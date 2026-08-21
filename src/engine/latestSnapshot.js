@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2109,
+  "updateSequence": 2110,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T22:53:52.105Z",
+  "lastSyncedAt": "2026-08-21T23:31:15.148Z",
   "warDay": 175,
   "summary": "The US and UAE have intensified economic pressure on Iran through new sanctions and trade suspensions, while military tensions persist in the region, particularly around the Strait of Hormuz and the Israel-Hezbollah front.",
   "lastNarrativeUpdate": "2026-08-21",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
