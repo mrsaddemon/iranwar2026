@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2077,
+  "updateSequence": 2078,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T03:37:40.704Z",
+  "lastSyncedAt": "2026-08-21T04:23:58.755Z",
   "warDay": 175,
-  "summary": "The conflict nears six months with the US imposing new economic sanctions on Iran, which has responded by threatening to keep the Hormuz Strait closed, while Israel continues strikes in Gaza.",
+  "summary": "The Iran War continues into its 6th month, marked by intensified US economic sanctions and threats against Iran, ongoing military clashes involving Hezbollah, and undermined efforts for a ceasefire in Gaza.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is in effect, with mediation efforts undermined and talks in limbo amidst escalating economic pressure."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "nuclearIndex": 55,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 21",
-      "text": "August 19, 2026 — UAE suspends all trade and financial transactions with Iran",
-      "severity": "info",
+      "date": "Aug 19",
+      "text": "UAE suspends all trade and financial transactions with Iran.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2076
+      "latestSinceUpdate": 2078
     },
     {
-      "date": "Aug 21",
-      "text": "Iran war updates: Tehran says Trump’s ‘economic warfare’ will fail",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2076
+      "date": "Aug 19",
+      "text": "Trump announces 'crushing economic operation' on Iran and threatens Iran’s trade partners.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2078
     },
     {
-      "date": "Aug 21",
-      "text": "Iran war, said to be over \"very soon,\" nears 6 months",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE1tMFBzS0tfcjJMYmRHUF9oalUwWUladDZnM3g4ZXIxdnhhTW1NM21nV2hFbThMclVKR3h5TXVJXzBDQV95YUJ2bmFrcnA5ZXpfX3lmM0ZvRnBJZ0M3aV9vbG4xU1E3RFR4UkxzTTJPazFiOW5uOGN1YjVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2076
-    },
-    {
-      "date": "Aug 21",
-      "text": "Iran war updates: Trump to reopen talks ‘at some point’; Israel pounds Gaza",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2076
-    },
-    {
-      "date": "Aug 21",
-      "text": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
-      "severity": "info",
+      "date": "Aug 19",
+      "text": "Gaza mediators state latest Israeli strikes undermine efforts to end conflict at a critical stage.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2076
+      "latestSinceUpdate": 2078
     },
     {
-      "date": "Aug 21",
-      "text": "Trump threatens Iran’s trade partners, as military strikes make way for economic pressure",
+      "date": "Aug 19",
+      "text": "Hezbollah FPV drone chases Israeli soldiers, and Hezbollah's Nawaf Moussawi states only force can compel Israel to leave Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2076
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQM0haLUozRFRjWUlNUVB1cndpcTIydGYyNlc2VTlTUzV5ZDRCT083TmpMSkFMQkRiTE5ySHRpelU3cndZQTF4bFJmdUh4UnBLVlh0LWhHTkRGQVlxbm9iQ2ZTN0RmY3A3QkxoSG0tLXlfdk9mNnNSUjBaN1pNakd5M1ZtVGJNUWh3dG1uUXFRNWlaRTlzSV9jZHJoY1U5N2VXVzdaN0hR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Middle East Eye",
+      "latestSinceUpdate": 2078
+    },
+    {
+      "date": "Aug 19",
+      "text": "U.S. conducting stealth operation to transport oil through Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2078
+    },
+    {
+      "date": "Aug 19",
+      "text": "More than 750 US service members wounded since the start of the Iran War.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2078
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
