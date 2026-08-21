@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2088,
+  "updateSequence": 2089,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T11:10:54.244Z",
+  "lastSyncedAt": "2026-08-21T11:45:03.168Z",
   "warDay": 175,
-  "summary": "The US is intensifying economic pressure on Iran and its allies, while Israel continues strikes in Gaza and faces escalating tensions with Hezbollah, impacting shipping in the Strait of Hormuz.",
+  "summary": "The US is intensifying economic pressure on Iran and its partners, while military engagements continue between Israel and Hamas/Hezbollah, and diplomatic efforts to de-escalate the Gaza conflict face setbacks.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and economic pressures."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and diplomatic efforts undermined by recent strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.75,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 20",
-      "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2085
+      "text": "Trump indicates willingness to reopen talks with Iran 'at some point'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2089
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza amid ongoing conflict.",
-      "severity": "warning",
+      "text": "Israel pounds Gaza, undermining mediator efforts to end the conflict.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2088
+      "latestSinceUpdate": 2089
     },
     {
-      "date": "Ongoing",
-      "text": "Gaza mediators state latest Israeli strikes undermine efforts to end conflict.",
+      "date": "Aug 20",
+      "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2088
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN"
     },
     {
-      "date": "Ongoing",
-      "text": "Trump threatens Iran's trade partners, shifting focus to economic pressure.",
+      "date": "Aug 20",
+      "text": "Trump threatens Iran’s trade partners as economic pressure intensifies.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2088
+      "latestSinceUpdate": 2089
     },
     {
-      "date": "Ongoing",
-      "text": "Spike in 'dark' oil tankers in Gulf raises risk of catastrophic spills.",
-      "severity": "critical",
+      "date": "Aug 20",
+      "text": "Spike in 'Dark' Oil Tankers in Gulf raises risk of catastrophic spills.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2088
+      "latestSinceUpdate": 2089
     },
     {
-      "date": "Ongoing",
-      "text": "Ships passing through Hormuz hover in single digits, data shows.",
+      "date": "Aug 20",
+      "text": "Ships passing through Hormuz hover in single digits, indicating severe disruption.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNSEhZX09yZU9wMFlFN0FUUjM0dUhpZ01zMEVvWFBlVHpoQ25lY0xFckRtVnpXMHZfZVA3TU0zRjNNYlUydy1pelQ1Q3Rmb1dPeWZmU3hDTXF2ZERfY3UyY2tteGpocUNoY0FkdE13dXV5cjV1VUh3MmN1al9MUm5xVlh6RWpwenRzQ2dzR0dxci05c2kwQ1VSUGNDTVBJVkFFd0RjZm9GRnBBdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2088
+      "latestSinceUpdate": 2089
     }
   ],
   "sourceStatuses": [
