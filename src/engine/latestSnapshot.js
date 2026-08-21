@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2101,
+  "updateSequence": 2102,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T19:15:37.060Z",
+  "lastSyncedAt": "2026-08-21T19:40:33.265Z",
   "warDay": 175,
-  "summary": "The Iran War continues with significant US casualties, escalating economic pressure from the US on Iran and Hezbollah, and ongoing Israeli strikes in Gaza, while concerns rise over the Strait of Hormuz and potential new flashpoints.",
+  "summary": "The Iran War continues on Day 175 with ongoing US sanctions and military actions, Israeli strikes in Gaza, and threats of escalation from Iran, while global concerns rise over oil transport and regional stability.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported; ongoing military actions and threats persist."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and threats undermining mediation efforts."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 85,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
     "oilDisruption": 75,
-    "tradeImpact": 69,
+    "tradeImpact": 70,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 83,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 20",
-      "text": "More than 750 US service members wounded since start of Iran War.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2101
-    },
-    {
-      "date": "Aug 20",
       "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
@@ -76,35 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "Gaza mediators state latest Israeli strikes undermine efforts to end conflict at a critical stage.",
-      "severity": "warning",
+      "text": "Israel pounds Gaza, with mediators stating these strikes undermine efforts to end the conflict.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2101
+      "latestSinceUpdate": 2102
     },
     {
       "date": "Aug 20",
-      "text": "Trump threatens Iran’s trade partners as military strikes transition to economic pressure.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2101
+      "text": "More than 750 US service members have been wounded since the start of the Iran War.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOaXROaW5CZXFmcURNMzN0aWFmTm9xNlZGaG55cTE1LXFUOHp4UGdxRDFtY0xzYUtBbk92NGgtZVhici1rU1pqZGg5Q3V1dXd5V3pqUnNIZEZGclFvRXRMUzhpemdGaER4bmFpaDlJSEtZM2Uyc3puSk1FR29Ma0JnTVln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2102
     },
     {
       "date": "Aug 20",
-      "text": "Iran War raises risk of collisions and oil spills in the Strait of Hormuz.",
+      "text": "A spike in 'Dark' Oil Tankers in the Gulf raises risks of catastrophic spills.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2101
+      "latestSinceUpdate": 2102
     },
     {
       "date": "Aug 20",
-      "text": "NATO members discuss Strait of Hormuz options without the alliance’s direct involvement.",
+      "text": "U.S. military is conducting a stealth operation to transport oil through the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNdldjRi0zSlFEd0tuMDhxZkQwUlNiUllwSUxVSDY0WnBjSWtzdm1KcjRpNmhvMDU2RlNTYzQ5c2VrZWsxei1pSnJFSmZzVDB1cXdsLTBpenpQNEVTcEJZNnBQdDg0ZEVBbi1Cd2JjTHJ6U3Q0QzZpMVJZdlNfcjYta3pBVWM2QUtOcUtnNng5VVRLMHA1eGJHMVVLN2VFNFlpSk41Nld5azExLVUyWEpiV0hIek5xZktwQnJZWEVOalV0UE0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2101
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2102
+    },
+    {
+      "date": "Aug 20",
+      "text": "Iran eyes military targets in Europe if Donald Trump escalates the war, according to insiders.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPX1JZN1RkZ0VhaTk1MXZsMlZlOW1iNUFvc2tYb2tmcjRhZWRLT3J1azE4VHNhLTNKQ0ZMck1NcktQc3FNcGtJekdwZUJlRUl3WFN1cXFtN05YLVJ0RjlpRGlRYnRESVlPdzZTU1pTeUI2TkhlWlBFcmhyX0dDajNncEtrMlg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 2102
     }
   ],
   "sourceStatuses": [
