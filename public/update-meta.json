@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2103,
+  "updateSequence": 2104,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T20:00:21.984Z",
+  "lastSyncedAt": "2026-08-21T20:33:30.927Z",
   "warDay": 175,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "Latest Israeli strikes in Gaza are undermining efforts to end the conflict, indicating no active ceasefire."
   }
 }
