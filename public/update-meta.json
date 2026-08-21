@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2086,
+  "updateSequence": 2087,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T09:55:37.704Z",
+  "lastSyncedAt": "2026-08-21T10:38:32.368Z",
   "warDay": 175,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Ongoing military actions and diplomatic setbacks indicate no active ceasefire, with efforts to end conflict being undermined."
+    "summary": "Efforts to end the conflict are reportedly being undermined by ongoing military actions."
   }
 }
