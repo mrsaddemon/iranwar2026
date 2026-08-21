@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2076,
+  "updateSequence": 2077,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T02:51:28.666Z",
+  "lastSyncedAt": "2026-08-21T03:37:40.704Z",
   "warDay": 175,
   "summary": "The conflict nears six months with the US imposing new economic sanctions on Iran, which has responded by threatening to keep the Hormuz Strait closed, while Israel continues strikes in Gaza.",
   "lastNarrativeUpdate": "2026-08-21",
