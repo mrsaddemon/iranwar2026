@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2105,
+  "updateSequence": 2106,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T20:53:49.792Z",
+  "lastSyncedAt": "2026-08-21T21:32:21.830Z",
   "warDay": 175,
-  "summary": "The conflict continues with new US sanctions on Hezbollah and Iran, UAE trade suspension, and ongoing Israeli strikes in Gaza, while concerns rise over Strait of Hormuz oil passage and potential escalation.",
+  "summary": "The war involving Iran continues with new US sanctions on Hezbollah and Iran, while regional tensions remain high, particularly around the Strait of Hormuz and Gaza.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic tensions."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.68,
-        "aggression": 0.87
+        "precision": 0.5,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.82
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 78,
-    "escalationLevel": 89,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -66,50 +66,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceName": "CNN"
     },
     {
-      "date": "Aug 19",
-      "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2104
+      "date": "Aug 20",
+      "text": "Iran and Oman discuss the Strait of Hormuz amid ongoing conflict.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2106
     },
     {
       "date": "Aug 20",
-      "text": "Israel pounds Gaza, with mediators stating strikes undermine efforts to end the conflict at a critical stage.",
-      "severity": "critical",
+      "text": "Gaza mediators express concern that recent Israeli strikes undermine peace efforts.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2105
+      "latestSinceUpdate": 2106
     },
     {
       "date": "Aug 20",
-      "text": "Former Israeli PM Bennett suggests Israel should strike Iran to retaliate for Hezbollah attacks.",
+      "text": "Former Israeli PM Bennett suggests Israel should strike Iran in retaliation for Hezbollah attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2105
+      "latestSinceUpdate": 2106
     },
     {
       "date": "Aug 20",
-      "text": "U.S. military reports aiding passage of 660 million barrels of oil through the Strait of Hormuz since May.",
+      "text": "US military reports aiding passage of 660 million barrels of oil through Strait of Hormuz since May.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2105
+      "latestSinceUpdate": 2106
     },
     {
       "date": "Aug 20",
-      "text": "A spike in 'Dark' Oil Tankers in the Gulf raises risk of catastrophic spills and maritime incidents.",
+      "text": "Hezbollah releases video showing an FPV drone chasing Israeli soldiers.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2105
+      "latestSinceUpdate": 2106
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
