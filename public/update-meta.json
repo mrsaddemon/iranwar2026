@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2099,
+  "updateSequence": 2100,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T17:59:53.143Z",
+  "lastSyncedAt": "2026-08-21T18:49:23.777Z",
   "warDay": 175,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported; mediators indicate Israeli strikes undermine peace efforts."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
