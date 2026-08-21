@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2081,
+  "updateSequence": 2082,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T08:30:00.000Z",
+  "lastSyncedAt": "2026-08-21T07:11:25.305Z",
   "warDay": 175,
-  "summary": "The Iran-US conflict continues with escalating economic pressure from the US, regional military strikes by Israel in Gaza, and threats of retaliation from Iran and Hezbollah, while maritime incidents persist in the Strait of Hormuz.",
+  "summary": "The US has intensified economic pressure on Iran and Hezbollah with new sanctions, while Israel continues strikes in Gaza, and Iran responds with defiance and threats of retaliation against European targets.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Efforts to end the conflict in Gaza are reportedly undermined by recent Israeli strikes, indicating no active ceasefire."
+    "summary": "No active ceasefire or de-escalation efforts are reported to be in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
+    "nuclearIndex": 75,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 70,
+    "tradeImpact": 66,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "globalPressure": 81,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
+      "date": "Aug 20",
+      "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2082
+    },
+    {
+      "date": "Aug 20",
+      "text": "Iran states that US 'economic warfare' will fail.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2082
+    },
+    {
+      "date": "Aug 20",
+      "text": "Israel continues to pound Gaza amidst US statements about future talks with Iran.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2082
+    },
+    {
       "date": "Aug 19",
       "text": "UAE suspends all trade and financial transactions with Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
+      "sourceName": "Google News",
       "latestSinceUpdate": 2080
     },
     {
       "date": "Aug 19",
-      "text": "Trump threatens Iran’s trade partners and vows to crush Iran with sanctions, accusing Tehran of 'economic terrorism'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOUFFvMGs0Z1NSXzJITXp6YnBBUUJIMEtvLWpTSGhMdFFZakxRWHJoZzJxOWRkUUw4WXFIVDVuVTlUR004THZoRUlDOEVMeURPb3R6RXdQcHlDdkhxa2w5QXVVWENkd1UwUUpZOWhwY2ctR3NaangwN2FkcllZQzUwUWhCX081S2J1eUVadkJRaVgtbmdCNTEyUklmZFFGYU9RTFlTWjMzQ1pVUFU4TjFDTUhEM2hfZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 2081
-    },
-    {
-      "date": "Aug 19",
-      "text": "Israel pounds Gaza, with mediators stating the strikes undermine efforts to end the conflict at a critical stage.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2081
-    },
-    {
-      "date": "Aug 19",
-      "text": "Hezbollah FPV drone reportedly chases Israeli soldiers, with Hezbollah stating only force can compel Israel to leave Lebanon.",
+      "text": "Mediators express concern that Israeli strikes undermine efforts to end the Gaza conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQM0haLUozRFRjWUlNUVB1cndpcTIydGYyNlc2VTlTUzV5ZDRCT083TmpMSkFMQkRiTE5ySHRpelU3cndZQTF4bFJmdUh4UnBLVlh0LWhHTkRGQVlxbm9iQ2ZTN0RmY3A3QkxoSG0tLXlfdk9mNnNSUjBaN1pNakd5M1ZtVGJNUWh3dG1uUXFRNWlaRTlzSV9jZHJoY1U5N2VXVzdaN0hR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 2081
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2082
     },
     {
       "date": "Aug 19",
-      "text": "Insiders suggest Iran eyes military targets in Europe if Donald Trump escalates the war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPX1JZN1RkZ0VhaTk1MXZsMlZlOW1iNUFvc2tYb2tmcjRhZWRLT3J1azE4VHNhLTNKQ0ZMck1NcktQc3FNcGtJekdwZUJlRUl3WFN1cXFtN05YLVJ0RjlpRGlRYnRESVlPdzZTU1pTeUI2TkhlWlBFcmhyX0dDajNncEtrMlg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2081
-    },
-    {
-      "date": "Aug 19",
-      "text": "US reportedly conducting a stealth operation to transport oil through the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2081
+      "text": "Hezbollah releases video showing FPV drone chasing Israeli soldiers.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2082
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
