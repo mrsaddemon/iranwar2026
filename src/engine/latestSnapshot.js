@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2102,
+  "updateSequence": 2103,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T19:40:33.265Z",
+  "lastSyncedAt": "2026-08-21T20:00:21.984Z",
   "warDay": 175,
-  "summary": "The Iran War continues on Day 175 with ongoing US sanctions and military actions, Israeli strikes in Gaza, and threats of escalation from Iran, while global concerns rise over oil transport and regional stability.",
+  "summary": "The Iran War continues with the US imposing new economic sanctions on Iran and Hezbollah, while Israel conducts strikes in Gaza and faces threats from Hezbollah, and Iran warns of potential strikes in Europe.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and threats undermining mediation efforts."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 30,
     "escalationLevel": 90,
-    "oilDisruption": 75,
-    "tradeImpact": 70,
+    "oilDisruption": 70,
+    "tradeImpact": 67,
     "sanctionsPressure": 64,
-    "globalPressure": 83,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,6 +68,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
+      "text": "Trump indicates a willingness to reopen talks with Iran 'at some point'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2103
+    },
+    {
+      "date": "Aug 20",
       "text": "Israel pounds Gaza, with mediators stating these strikes undermine efforts to end the conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
@@ -84,27 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "A spike in 'Dark' Oil Tankers in the Gulf raises risks of catastrophic spills.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2102
-    },
-    {
-      "date": "Aug 20",
-      "text": "U.S. military is conducting a stealth operation to transport oil through the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB6cnBGdDhxTW9hTE5vaXdadmx4NVFFb1lsc2ZRRWlGZTd3MnVJamt1Q0VpSzBHblBIMHlqTVhUN2pvaGc2RVBiRlJHOTJwTnpCT0h0bUwzREgwb3h6VTNHc3lMaFpzbmt1di04?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2102
-    },
-    {
-      "date": "Aug 20",
-      "text": "Iran eyes military targets in Europe if Donald Trump escalates the war, according to insiders.",
+      "text": "Trump unleashes 'economic D-Day' on Iran, warning nations against providing support.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPX1JZN1RkZ0VhaTk1MXZsMlZlOW1iNUFvc2tYb2tmcjRhZWRLT3J1azE4VHNhLTNKQ0ZMck1NcktQc3FNcGtJekdwZUJlRUl3WFN1cXFtN05YLVJ0RjlpRGlRYnRESVlPdzZTU1pTeUI2TkhlWlBFcmhyX0dDajNncEtrMlg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2102
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOYjNDZy10ODNkRFhWRkNqbmw0eVpKQk9WMWh1WnpLU2pZdEt6alA4cjc5ZTI3dndOd1ptQVFPQ2Z3OGQydExST2dwclB4SV9nRkJhQ29GczU2TDYyMzNHcXhacnV1SzVsLTJTa2Z5d0cxdWxmMHluZHNHUjZjM0NPQ25nUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2103
+    },
+    {
+      "date": "Aug 20",
+      "text": "The U.S. military reports aiding the passage of 660 million barrels of oil through the Strait of Hormuz since May.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2103
     }
   ],
   "sourceStatuses": [
