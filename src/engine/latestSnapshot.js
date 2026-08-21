@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2092,
+  "updateSequence": 2093,
   "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T14:00:42.425Z",
+  "lastSyncedAt": "2026-08-21T14:44:42.200Z",
   "warDay": 175,
-  "summary": "The West Asia conflict has escalated with US-Israel strikes hitting Iran and Lebanon, new US sanctions imposed on Hezbollah and Iran, and heightened concerns over Strait of Hormuz security.",
+  "summary": "The conflict involving the US, Israel, and Iran continues to escalate with military strikes, new sanctions, and heightened tensions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-08-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing military actions and threats."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,22 +27,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.4,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 70,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 20",
-      "text": "Israel conducts strikes in Gaza and Lebanon, and participates in US-Israel strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2092
-    },
-    {
-      "date": "Aug 20",
-      "text": "China rejects US sanctions on Tehran amidst escalating conflict.",
+      "text": "China rejects US sanctions on Tehran, indicating geopolitical alignment.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2092
+      "latestSinceUpdate": 2093
     },
     {
       "date": "Aug 20",
-      "text": "US Embassy in Riyadh reportedly attacked as West Asia conflict escalates.",
+      "text": "Israel conducts strikes in Gaza and Lebanon.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2092
+      "latestSinceUpdate": 2093
     },
     {
       "date": "Aug 20",
-      "text": "Concerns raised over increased risk of collisions and oil spills in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2092
+      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 2093
     },
     {
       "date": "Aug 20",
-      "text": "Hezbollah releases footage of FPV drone chasing Israeli soldiers, vows continued fight.",
-      "severity": "warning",
+      "text": "Hezbollah uses FPV drones to target Israeli soldiers, forcing them to retreat.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2092
+      "latestSinceUpdate": 2093
+    },
+    {
+      "date": "Aug 20",
+      "text": "Concerns rise over increased risk of collisions and oil spills in the Strait of Hormuz, with the U.S. military guiding oil tankers and conducting stealth operations.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPNzQ3TkxjSlV3TWF2QjF1eERyNFNGWXp5UUhiVnRsMkRobktKSElnQXJUTFgtcjRjMHBxcUFqV01lYVBTX3dmcTZHelhvRy1ETUppZk5NcHE3SzFsUzlLTTlhS3VHa0N5c0hCYk9DM2QyamUtb19YZTdZMnRXUFNUeEJNN3puUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "qz.com",
+      "latestSinceUpdate": 2093
     }
   ],
   "sourceStatuses": [
