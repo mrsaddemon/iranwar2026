@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2152,
+  "updateSequence": 2153,
   "lastUpdated": "2026-08-22",
-  "lastSyncedAt": "2026-08-22T21:08:17.002Z",
+  "lastSyncedAt": "2026-08-22T21:39:39.082Z",
   "warDay": 176,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported in the US-Iran conflict, and efforts to end the Gaza conflict are being undermined."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
