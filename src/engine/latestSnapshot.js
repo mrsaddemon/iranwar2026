@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2147,
+  "updateSequence": 2148,
   "lastUpdated": "2026-08-22",
-  "lastSyncedAt": "2026-08-22T19:09:06.111Z",
+  "lastSyncedAt": "2026-08-22T19:39:52.139Z",
   "warDay": 176,
   "summary": "Ongoing high tensions between the US and Iran are marked by US sanctions, Iranian defiance, and US claims over the Strait of Hormuz, while regional conflicts persist in Gaza and Lebanon with rising casualties.",
   "lastNarrativeUpdate": "2026-08-22",
@@ -92,25 +92,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 22",
-      "text": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9oMHZFQnhpUGIzWGg0c19HdXJiVVJTUzNNaDl0Z0JIMnh5Z0xiZVNyakd0N3dBZEhWSS1JOWtiT1FqRWVJbVB3RTQ1OHhYYm5lR0FiZVg5RV8xQnE3aDFzY1Q0dVl3YjM3aDhIOEk1UmwyLVYtcXpUZGc5bmh3Tmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
       "latestSinceUpdate": 2147
     },
     {
       "date": "Aug 22",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "text": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFB2VlZXTlNmNDhnWXNsSkVfaDVMQ0IxVks0Um9ZbjR2MVdXT1FWTlZGa3NpZFlocktLb1NCdUpPeWZTSmNPRTFXQmxqYVF0Uk5YZUFvN21XSzVCZ1Awc3VBRjFLeVlNYTJIY3piQVEwTUxjT2E4bnNUVW9TZWtEdkU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
       "latestSinceUpdate": 2147
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
