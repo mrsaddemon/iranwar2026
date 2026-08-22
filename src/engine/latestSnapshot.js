@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2114,
+  "updateSequence": 2115,
   "lastUpdated": "2026-08-22",
-  "lastSyncedAt": "2026-08-22T03:01:59.076Z",
+  "lastSyncedAt": "2026-08-22T03:51:46.882Z",
   "warDay": 176,
   "summary": "The West Asia conflict continues to escalate with US-Israel strikes on Iran, new US sanctions on Hezbollah, and heightened tensions around the Strait of Hormuz, while US forces report over 750 wounded.",
   "lastNarrativeUpdate": "2026-08-22",
@@ -60,6 +60,14 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 22",
+      "text": "Iran Update, August 20, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQMVlyenpLdldiM3I2Rk0zczlvUWxoLTFKUTJMVkEzU1FJcXNCWjZRakh6TXU4bEZpaXZ6VHRHNFNhVV9fOFVfTmx6NklYaDFJd2Z4Ukh5U0Z0S1RHZnczbHpnLVcxZmlEdG9fRXhkSUE4V2FRWjA1RFdyZmgtSEdWX2NTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2114
+    },
+    {
+      "date": "Aug 22",
       "text": "Iran updates: Iran, Oman discuss Hormuz; Tehran dismisses Trump’s threats",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNTWZtMDBMZHMxY3Y2bFg0R0hzYlJMaUMza2ZhXzAtaG5UNlk2X1hIQVJBcWxLMzBCZ2pPY2Q1R09IWlFMYnhSbUVmRUNqSHFVZmxhY0VrUkpaVW5iZFBOT0w5c2h2UHBYZ1hja0hnb2ctRnpfRnlENFRjVmIxbEJIVGxkb0E3b0t0Y3oyZWZnMVBqeGZMdE1wMURyS2tmbkliak16NlhlLV9ieTVQTDd1VGdwWnhkQdIBuwFBVV95cUxQLS1ucTVGS2NYdm0xanM1Z1RQbTFOY1h0azNGTzJLblk1YWozaUtzWExSNHQxS1dOS0VsVldTX0dJU0hPSW9xRmJWdFdGX1p3aXBsM0hEZ3Y3QTViWmFWdG1SYXJPbEtjTEFjbnh1X2pLS0xZR3Jsekk4alY3TGZ2WnJZNVFqcGQyazZDT3Y1VU1ibEtDMDFYTW45a3FpSTNyNFA3S1BNVXZlRktuaGpkVUVxd1o2V0hneEtj?hl=en-US&gl=US&ceid=US:en",
@@ -72,14 +80,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2114
-    },
-    {
-      "date": "Aug 22",
-      "text": "Iran Update, August 20, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQMVlyenpLdldiM3I2Rk0zczlvUWxoLTFKUTJMVkEzU1FJcXNCWjZRakh6TXU4bEZpaXZ6VHRHNFNhVV9fOFVfTmx6NklYaDFJd2Z4Ukh5U0Z0S1RHZnczbHpnLVcxZmlEdG9fRXhkSUE4V2FRWjA1RFdyZmgtSEdWX2NTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
       "latestSinceUpdate": 2114
     },
     {
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
