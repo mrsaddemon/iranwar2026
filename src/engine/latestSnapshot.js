@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2111,
-  "lastUpdated": "2026-08-21",
-  "lastSyncedAt": "2026-08-21T23:51:42.806Z",
-  "warDay": 175,
+  "updateSequence": 2112,
+  "lastUpdated": "2026-08-22",
+  "lastSyncedAt": "2026-08-22T00:24:31.235Z",
+  "warDay": 176,
   "summary": "The ongoing conflict sees the US imposing new sanctions on Hezbollah and Iran, while UAE suspends trade with Iran, and concerns rise over Strait of Hormuz oil passage amidst calls for Israeli strikes on Iran and reports of US casualties.",
-  "lastNarrativeUpdate": "2026-08-21",
+  "lastNarrativeUpdate": "2026-08-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, and mediation efforts in Gaza are reportedly undermined."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 20",
-      "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
-      "severity": "critical",
+      "date": "Aug 22",
+      "text": "Iran Update, August 20, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQMVlyenpLdldiM3I2Rk0zczlvUWxoLTFKUTJMVkEzU1FJcXNCWjZRakh6TXU4bEZpaXZ6VHRHNFNhVV9fOFVfTmx6NklYaDFJd2Z4Ukh5U0Z0S1RHZnczbHpnLVcxZmlEdG9fRXhkSUE4V2FRWjA1RFdyZmgtSEdWX2NTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2112
+    },
+    {
+      "date": "Aug 22",
+      "text": "Iran updates: Iran, Oman discuss Hormuz; Tehran dismisses Trump’s threats",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNTWZtMDBMZHMxY3Y2bFg0R0hzYlJMaUMza2ZhXzAtaG5UNlk2X1hIQVJBcWxLMzBCZ2pPY2Q1R09IWlFMYnhSbUVmRUNqSHFVZmxhY0VrUkpaVW5iZFBOT0w5c2h2UHBYZ1hja0hnb2ctRnpfRnlENFRjVmIxbEJIVGxkb0E3b0t0Y3oyZWZnMVBqeGZMdE1wMURyS2tmbkliak16NlhlLV9ieTVQTDd1VGdwWnhkQdIBuwFBVV95cUxQLS1ucTVGS2NYdm0xanM1Z1RQbTFOY1h0azNGTzJLblk1YWozaUtzWExSNHQxS1dOS0VsVldTX0dJU0hPSW9xRmJWdFdGX1p3aXBsM0hEZ3Y3QTViWmFWdG1SYXJPbEtjTEFjbnh1X2pLS0xZR3Jsekk4alY3TGZ2WnJZNVFqcGQyazZDT3Y1VU1ibEtDMDFYTW45a3FpSTNyNFA3S1BNVXZlRktuaGpkVUVxd1o2V0hneEtj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2112
+    },
+    {
+      "date": "Aug 22",
+      "text": "August 20, 2026 — US imposes new sanctions on Hezbollah, threatens economic pressure on Iran",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2111
+      "latestSinceUpdate": 2112
     },
     {
-      "date": "Aug 19",
-      "text": "UAE suspends all trade and financial transactions with Iran.",
-      "severity": "critical",
+      "date": "Aug 22",
+      "text": "August 19, 2026 — UAE suspends all trade and financial transactions with Iran",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2111
+      "latestSinceUpdate": 2112
     },
     {
-      "date": "Aug 21",
-      "text": "Gaza mediators state that recent Israeli strikes undermine efforts to end the conflict at a critical stage.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2111
+      "date": "Aug 22",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFB2VlZXTlNmNDhnWXNsSkVfaDVMQ0IxVks0Um9ZbjR2MVdXT1FWTlZGa3NpZFlocktLb1NCdUpPeWZTSmNPRTFXQmxqYVF0Uk5YZUFvN21XSzVCZ1Awc3VBRjFLeVlNYTJIY3piQVEwTUxjT2E4bnNUVW9TZWtEdkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2112
     },
     {
-      "date": "Aug 21",
-      "text": "Bennett suggests Israel should strike Iran to retaliate for Hezbollah attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOVm5RWHRhUm1XZV9BTno5Ym9IUnJRQ1k2R0M3RW9sb0xRYlhzU1JfaW1RRzlWRUYxdFQ2TmE2X2o5M1R2WDNhNVBJWXVvdDF1cTVyZFVZTWdmdTZwSWluZ1JRR0x1MWtMOEFETFpmSzVJdEw5UDllNXVwZFV3SkUwd0dRa0hxYTB0LS1aNUJFNjIwWTNsWEMySXhZZy1zMUtz0gGmAUFVX3lxTE01TTIwbzBrenNMcmp6eV9ZN1BoY1A5Q2Y4VkNTVG4yeWhPSlFMU01uWTZoLURQRUI4REpVaHBkZXgtWmNYRHFfOFdXVlpNV1pxZExRNmFyczJvbnM5VEJGUkdTN2gyYzk2MGRoakVrOHlMVHFmc0taRlV5S3lZWktwRkJhUlRKS19HUU01ckgyOHJacktLc1VQdGs4MlpYQkZMbGpyOGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2111
-    },
-    {
-      "date": "Aug 21",
-      "text": "Reports highlight a spike in 'Dark' Oil Tankers in the Gulf, raising risks of catastrophic spills in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2111
-    },
-    {
-      "date": "Aug 21",
-      "text": "Pentagon reveals over 750 US servicemen have been wounded in the Iran war, adding 60 to the casualty count.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOYVc5aVJ1N00yU0dGYUtNQm9yM0VMR1lwaW5qaTNuOHJ4czlYWXB2UGd5MlJ3N3djbFVVNUVOQUVuUHl1bkZxeVMtM1lzWjZXYmcwRUdQWkRSWnVqbG02VW9lYkFaaW8waEdmVjNWMXUwMFFNekRld2lleTlTR2FxdHFYSk9tUjBnRnBEYTVqSkc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "stripes.com",
-      "latestSinceUpdate": 2111
+      "date": "Aug 22",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2112
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
