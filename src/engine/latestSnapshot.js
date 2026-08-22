@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2123,
+  "updateSequence": 2124,
   "lastUpdated": "2026-08-22",
-  "lastSyncedAt": "2026-08-22T08:41:20.957Z",
+  "lastSyncedAt": "2026-08-22T09:11:12.787Z",
   "warDay": 176,
-  "summary": "The West Asia conflict continues to escalate with US-Israel strikes on Iran, US Embassy attack in Riyadh, new US sanctions, and heightened tensions in the Strait of Hormuz.",
+  "summary": "The West Asia conflict has escalated with US-Israel strikes on Iran, an attack on the US Embassy in Riyadh, and heightened tensions around the Strait of Hormuz, alongside new US sanctions and Iranian threats toward US military bases in Europe.",
   "lastNarrativeUpdate": "2026-08-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict appears to be escalating."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.85,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.65,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 90,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
+    "nuclearIndex": 35,
+    "escalationLevel": 88,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -63,7 +63,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "Trump states he views the Strait of Hormuz as 'American territory'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQQWUwUFJ0aEd2bHliRWRFMVlDRjJ5MDhkclhZV0pORWp2TGtGR1VoOUdTeVJiU0JfZ3BIXzRXMDMxYXkxZ3hCWllmTUc0dTkzemh2VXF2aTJuVkhRNVJwQVRZXzZUdlNkMmRGWmdoY0F2ZzQ4aDFlbHRUY0QxRlFMNFZGZktzbndySFNNUkRKWld0NFZTRWNhWVN3MW1fWTRpMTVrbGM2SFhzRkM3akhkbHd5bTNIRFdQazRvNExR0gHDAUFVX3lxTFBDWmZ0QTF0aktHUXZZUUxwRkVpcUY5ekRWeTdVODZpMzh2SEFMdy05cnVSSXF6ekotWDJvd24tY0Nua1JiLUY2NTN6bHpSWUMwa1o2cDdhSTJqbkl6ZTVZM0FTLUd5aC1OY2M1b21yOWd2LWJ1d0dSa3YzdDNmNWJQZHVfSGQtLTVrOWo4TjcyYWxmZjNWdGg0Y09kRERaSEE0bTg4U18zNzlYZm5kVFg0YVEzTkJ1Tm42Sk9sT09lbXRiTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 2121
     },
     {
@@ -71,40 +71,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "text": "US imposes new sanctions on Hezbollah and threatens economic pressure on Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBFRllmQTRnUUJ2Qk9iUUF0LU9jU0dQRjdSaGUyTlVkMFg0eXFvdVVmMGhHN3pncnFxLU5XYTlaQVFqa1FFNEwzUkRyVlhQdWhPV2V3TVEydTFUdFFNYnBKcEVUQzF5TE9TSjNtV19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "CNN",
       "latestSinceUpdate": 2121
     },
     {
-      "date": "Recent",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran and the US Embassy is attacked in Riyadh.",
+      "date": "Aug 20",
+      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy is attacked in Riyadh.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2123
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 2124
     },
     {
-      "date": "Recent",
-      "text": "Pentagon reports over 750 US service members wounded in the Iran war.",
+      "date": "Aug 20",
+      "text": "Iran eyes US military bases in Europe as potential targets if the war escalates.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE9GU0NEQThadWpqdUNZbVk0eUd1cHByYkNxczZoSVZUVEFoS1RhSTlwbHMyQ0pjOTVaWWVJRTRKVFljN2JlaEd2N3hWSjkxdVMzTWh5dUhQa0ZPTnRsMDNKZzNTcC1CbFd6RlVqRS0xM2dzU3FLNXliRE43d9IBgAFBVV95cUxOazhMZnN2cmtqNTNndjRaVEFhOUplZ0QxRlFjSlhONTZWUXpvNDl1SlJrTlBrQjFhRnR1NlVxM3pPV051N1R5WFo1WVhKSDRyNm9LNktsWHEwLWJQbkhMVVlwM0I5Qkt6RTV2dHcyUmNOTXZvUC00UTUwdVRySWdVeQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2123
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNRWp6em1Qb1RKQk1DcFdCNjJ2UmZqQkEtUzVIMmpGckJ5TDRSM2pydjE1Ung5RkdaZmVuaEVHREpRTldSTVZSUGx5WDVHbnkwdUlVNzhNOVk0d2FZakpxTVY0V2tfX1ZzR1pObnNCM09fUlpCakQ0S2k2QU5fa0hKV3pOUHQxeUQtTGd2cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "stripes.com",
+      "latestSinceUpdate": 2124
     },
     {
-      "date": "Recent",
-      "text": "Iran War raises risk of collisions and oil spills in the Strait of Hormuz.",
+      "date": "Aug 20",
+      "text": "Two mariners were killed in the Strait of Hormuz amidst a small increase in transits.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2123
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2124
     },
     {
-      "date": "Recent",
-      "text": "Israel and Turkey step up warnings over Syria after an airbase bombing.",
+      "date": "Aug 20",
+      "text": "Pentagon adds 60 wounded to the Iran war casualty count.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQLTlfMHNQWDJxLTRQUnk3S3BmSThwcFNFWTY4dHhTaVZlaENYcFliSkRTVFMzRVliRkgweUxUVThXN0ZfU2Q0Rl9WVXBCZkxBQXZPcUlkeVNKa2kwcFQzM3FVakJMRlQ2N1FBZ3hVUGNXb25ySko1UFVEQjZqU3dfekJUdVBYMFVkQ3RiSm1mMTZFUTFsNFhidHNxY0lsbnVCeTNJOUh0eEQ5dVRMM3VtajlWWlFxOFhfRTFjdXlTWjNtLUhi?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2123
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOYVc5aVJ1N00yU0dGYUtNQm9yM0VMR1lwaW5qaTNuOHJ4czlYWXB2UGd5MlJ3N3djbFVVNUVOQUVuUHl1bkZxeVMtM1lzWjZXYmcwRUdQWkRSWnVqbG02VW9lYkFaaW8waEdmVjNWMXUwMFFNekRld2lleTlTR2FxdHFYSk9tUjBnRnBEYTVqSkc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "stripes.com",
+      "latestSinceUpdate": 2124
     }
   ],
   "sourceStatuses": [
