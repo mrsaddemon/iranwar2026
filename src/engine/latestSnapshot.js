@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2155,
+  "updateSequence": 2156,
   "lastUpdated": "2026-08-22",
-  "lastSyncedAt": "2026-08-22T22:30:55.090Z",
+  "lastSyncedAt": "2026-08-22T22:52:09.391Z",
   "warDay": 176,
   "summary": "The US-Iran conflict continues on War Day 176 with escalating US economic pressure, Iranian defiance, and ongoing military casualties, while the Strait of Hormuz remains a critical point of contention.",
   "lastNarrativeUpdate": "2026-08-22",
@@ -92,19 +92,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 22",
-      "text": "West Asia conflict escalates as US‑Israel strikes hit Iran, US Embassy attacked in Riyadh",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2155
-    },
-    {
-      "date": "Aug 22",
       "text": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
       "latestSinceUpdate": 2155
+    },
+    {
+      "date": "Aug 22",
+      "text": "Trump threatens Iran’s trade partners, as military strikes make way for economic pressure",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2156
     }
   ],
   "sourceStatuses": [
