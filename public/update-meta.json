@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2125,
+  "updateSequence": 2126,
   "lastUpdated": "2026-08-22",
-  "lastSyncedAt": "2026-08-22T09:45:34.472Z",
+  "lastSyncedAt": "2026-08-22T10:01:45.539Z",
   "warDay": 176,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; the conflict shows signs of escalation."
+    "summary": "No active ceasefire is in effect; conflict is escalating."
   }
 }
