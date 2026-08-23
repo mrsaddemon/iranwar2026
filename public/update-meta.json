@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2198,
+  "updateSequence": 2199,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T20:51:58.923Z",
+  "lastSyncedAt": "2026-08-23T21:08:03.974Z",
   "warDay": 177,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire in Lebanon is active but appears fragile, with reports of Hezbollah exploiting it for arms smuggling and IDF increasing operations."
   }
 }
