@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2180,
+  "updateSequence": 2181,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T13:00:00.000Z",
+  "lastSyncedAt": "2026-08-23T13:38:39.722Z",
   "warDay": 177,
-  "summary": "Tensions between the US and Iran are escalating over economic sanctions and control of the Strait of Hormuz, while Israel continues military operations against targets in Syria and Hezbollah in Lebanon.",
+  "summary": "Tensions between the US and Iran escalate with new economic sanctions and threats of retaliation, while the conflict between Israel and Hezbollah continues in the region.",
   "lastNarrativeUpdate": "2026-08-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing regional conflicts and escalating tensions."
+    "summary": "No active ceasefire or de-escalation efforts are reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 55,
     "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,35 +68,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 22",
-      "text": "Iran declares US sanctions a ‘declaration of war’ on all nations.",
+      "text": "Iran updates: Tehran says US sanctions ‘declaration of war’ on all nations.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQQWUwUFJ0aEd2bHliRWRFMVlDRjJ5MDhkclhZV0pORWp2TGtGR1VoOUdTeVJiU0JfZ3BIXzRXMDMxYXkxZ3hCWllmTUc0dTkzemh2VXF2aTJuVkhRNVJwQVRZXzZUdlNkMmRGWmdoY0F2ZzQ4aDFlbHRUY0QxRlFMNFZGZktzbndySFNNUkRKWld0NFZTRWNhWVN3MW1fWTRpMTVrbGM2SFhzRkM3akhkbHd5bTNIRFdQazRvNExR0gHDAUFVX3lxTFBDWmZ0QTF0aktHUXZZUUxwRkVpcUY5ekRWeTdVODZpMzh2SEFMdy05cnVSSXF6ekotWDJvd24tY0Nua1JiLUY2NTN6bHpSWUMwa1o2cDdhSTJqbkl6ZTVZM0FTLUd5aC1OY2M1b21yOWd2LWJ1d0dSa3YzdDNmNWJQZHVfSGQtLTVrOWo4TjcyYWxmZjNWdGg0Y09kRERaSEE0bTg4U18zNzlYZm5kVFg0YVEzTkJ1Tm42Sk9sT09lbXRiTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2180
+      "latestSinceUpdate": 2181
     },
     {
       "date": "Aug 22",
-      "text": "Israel strikes southern Syria.",
+      "text": "Trump says he views Strait of Hormuz as ‘American territory’.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPS0VSTm1uS2NXQnFkRUhpVEFSTGNFUTlMdXhkT01MNTVBT29Hbk5ZbHd1a1pWRVEyOTN5N1BCc0I4eG9JeDRCMHE1ckpOUmlYTzcxVi1mNkc2VnZtN2c4XzRaU0I5UTF0TjlySVdLekVYLUktb3hZZ2hzUjlqd2VyRDJnaVMyTWQ3SVFkSXd2NHZZMnM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2181
+    },
+    {
+      "date": "Aug 22",
+      "text": "Iran-US war latest: Tehran warns of ‘earthquake-like’ retaliation over Trump’s ‘economic D-Day’ threats.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPeVctOXRuV3ZiQUFXZGNxbnRIMTdnMHB6RktMNHEwTjBXVkc0ZkJsNTd0aHZxb1g3X2xBWGFNU041NHRJM1dxSjhZclBfdzJwZmNpOV9RN3R4SU1hWXh1UGJyZkZDZWdDazNwWFQtTTY5ZXUwM2V6dVVvdmlFUEJqVllWZmp1Zi1hZTBzT3pQQm9rRl90MW84aC1fSTRXMEMzMFZTTFNaeTFQRVcxd2JxWTJYR2p0b0FXRG5hUGZWd1I?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 2181
+    },
+    {
+      "date": "Aug 22",
+      "text": "Israel strikes southern Syria; Damascus condemns attack.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2180
-    },
-    {
-      "date": "Aug 22",
-      "text": "Trump states he views the Strait of Hormuz as ‘American territory’.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPS0VSTm1uS2NXQnFkRUhpVEFSTGNFUTlMdXhkT01MNTVBT29Hbk5ZbHd1a1pWRVEyOTN5N1BCc0I4eG9JeDRCMHE1ckpOUmlYTzcxVi1mNkc2VnZtN2c4XzRaU0I5UTF0TjlySVdLekVYLUktb3hZZ2hzUjlqd2VyRDJnaVMyTWQ3SVFkSXd2NHZZMnM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2180
-    },
-    {
-      "date": "Aug 22",
-      "text": "Hezbollah states new US sanctions ‘will not deter’ its fight against Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNZV9UZnlGYlZiR2hqd1A5SDdEcDN1U2RHdWhvODlyQTZtWk43V0l3RE1HVnhxMFlaTF9ZVEtwVm1zdEEwWmFIX2JTbENkZDRxWWoyUTNCdHpVYjdLdGx1MkdUQjZNN1ppNlVnTUhRTENpRk41S0d6SkwzZHU0ZGZ3eVppVV9LbGE1U2sxdXItSWZuSzhpLXFuaEZ5bHZXbEXSAaQBQVVfeXFMTnlQeVVQZDJKVjRoejZVVW1uVjU5UXRhdzVfR1lxVS1rUmZOMWVvd2hLN0dmNzBCQ0EzeXhmTm5GYW0zcGotNXo5OXVTQ3ZlZkk4NzN4c3FLeDRrTV95Z19xX0ZIbXdpc3RUelpsT3JQTUdZcVNxRmFyNm9pWXNmLWROQ2YwRHhjN0FYY1lyMEZvcUhiWkRkUmthaXBUWWlyVUdpeDU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2180
+      "latestSinceUpdate": 2181
     },
     {
       "date": "Aug 22",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
