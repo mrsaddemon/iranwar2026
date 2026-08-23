@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2162,
+  "updateSequence": 2163,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T03:11:02.451Z",
+  "lastSyncedAt": "2026-08-23T04:04:09.577Z",
   "warDay": 177,
-  "summary": "The conflict in West Asia has escalated with US-Israel strikes on Iran, increased US economic pressure, and significant US casualties, while regional efforts to de-escalate remain challenged.",
+  "summary": "The US-Iran conflict continues with economic sanctions and military strikes, escalating tensions across West Asia, while regional actors like Hezbollah remain defiant.",
   "lastNarrativeUpdate": "2026-08-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported, with ongoing military actions and stalled mediation efforts in the region."
+    "summary": "No active ceasefire is reported amidst ongoing conflict and escalating tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.6
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 70,
+    "tradeImpact": 66,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 46
+    "globalPressure": 81,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -67,44 +67,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2162
     },
     {
-      "date": "Aug 21",
+      "date": "Aug 23",
       "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "News On AIR",
-      "latestSinceUpdate": 2162
+      "latestSinceUpdate": 2163
     },
     {
-      "date": "Aug 21",
-      "text": "Trump threatens Iran’s trade partners, shifting from military strikes to economic pressure.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2162
+      "date": "Aug 23",
+      "text": "Iran warns of a 'devastating' response to US sanctions as America prepares for a new phase of war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNaEk5b091MDFHWEY5cnZkYnlJT0ltYVlTb3d6cXhFTmVvOTQtNnBCbnpPbHNHSnZaa2wxVURBakM0ck1MX2l3TWpDWFpWZHkyQUN0TDVuLUt0TTBubzJ3emowUFZaUEpyU2dfOVNDY0ZyQ1MzVGxaUXNoMk9JTHNTbTBwMHhWeGlZRXVPUHcyTzZmUkI0VEQzUFFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2163
     },
     {
-      "date": "Aug 21",
-      "text": "An envoy states Israel did not give the US notice before strikes on a Syrian base.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOZVlWOVFMOUl2eU1oNk1NYUJxZ0J3NlBpTXFUUF9yM1dSZ3J6azVYR1BRWmM1TVVOSWpJVm1PMjRkaDJDTm9DS19YaFF5MGMzR0NwYUl0Y2pIR1pmbTl4a0w1MDctUV9mM2paWDVkRXZGbVk0Zzcwd3k5SlowX0FxUXZYVkhGVllBellyRHVWczZONTMwbU8wSzZvd0MyY3Z0TjVxcE1vOW5raUNJSVBzS25BbE5md9IBuwFBVV95cUxOeHlJbzN4Z1RwbWtmODgtUG1nTjVjS1k1M2c1d0hkQy1naWlWTkU0TkRCQ0h5N3VZcFpoUWJpNF93M1pndjFYWE1Wd21yRU00X2RDQUdmV0pjOHpwYWw1X19JVzNkUFVLQ3prSjc4TjczZ3lBdnluemVZUndCRHlHUm5URGNqVVdIanh1bl85YnhkS0lPOTUxTFhEMWFSYTV3SDdUY2VQX1NHc18yaFpQS3JvQXktRXVJNTUw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2162
-    },
-    {
-      "date": "Aug 21",
+      "date": "Aug 23",
       "text": "Iran grants permission for a number of Iraqi oil tankers to pass through the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2162
+      "latestSinceUpdate": 2163
     },
     {
-      "date": "Aug 21",
-      "text": "Trump declares he views the Strait of Hormuz as 'American territory'.",
+      "date": "Aug 23",
+      "text": "Hezbollah states that new US sanctions 'will not deter' its fight against Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxObDF3YUNoRzNJTGhVaklXX1p1a1h4WGpvSXFUS3VWc28wb296b3MwSFpEWEZNT1cxc2xFVUFqVWtGRjFsMm5fUFcyV21oUUF0d2xWZ0lSX2Q3SzVOOGpRQVlZZ2NIUTR6RmktUm5OUW5ndG5DSGhzM2llR2RGaWxaZ09sMk93SVcxVF9LQ0RfSGRLMWhvbWc5Z0RFdENyMlM1TC00UGRSVXlFb29pS2cySmtZRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2163
+    },
+    {
+      "date": "Aug 23",
+      "text": "The Pentagon reports that more than 750 US service members have been wounded in the Iran war.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPS0VSTm1uS2NXQnFkRUhpVEFSTGNFUTlMdXhkT01MNTVBT29Hbk5ZbHd1a1pWRVEyOTN5N1BCc0I4eG9JeDRCMHE1ckpOUmlYTzcxVi1mNkc2VnZtN2c4XzRaU0I5UTF0TjlySVdLekVYLUktb3hZZ2hzUjlqd2VyRDJnaVMyTWQ3SVFkSXd2NHZZMnM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2162
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE9GU0NEQThadWpqdUNZbVk0eUd1cHByYkNxczZoSVZUVEFoS1RhSTlwbHMyQ0pjOTVaWWVJRTRKVFljN2JlaEd2N3hWSjkxdVMzTWh5dUhQa0ZPTnRsMDNKZzNTcC1CbFd6RlVqRS0xM2dzU3FLNXliRE43d9IBgAFBVV95cUxOazhMZnN2cmtqNTNndjRaVEFhOUplZ0QxRlFjSlhONTZWUXpvNDl1SlJrTlBrQjFhRnR1NlVxM3pPV051N1R5WFo1WVhKSDRyNm9LNktsWHEwLWJQbkhMVVlwM0I5Qkt6RTV2dHcyUmNOTXZvUC00UTUwdVRySWdVeQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2163
     }
   ],
   "sourceStatuses": [
