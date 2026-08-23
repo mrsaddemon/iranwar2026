@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2197,
+  "updateSequence": 2198,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T20:33:06.032Z",
+  "lastSyncedAt": "2026-08-23T20:51:58.923Z",
   "warDay": 177,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-23",
@@ -68,14 +68,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 23",
-      "text": "Iran war live: Tehran says need to move beyond ‘no war, no peace’ situation",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2197
-    },
-    {
-      "date": "Aug 23",
       "text": "Persuasion, denial and bluster: Trump ‘stuck’ on Iran war ahead of elections",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?hl=en-US&gl=US&ceid=US:en",
@@ -84,11 +76,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 23",
-      "text": "August 21, 2026 — US gas prices up nearly a dollar from a year ago as Hormuz traffic remains low",
+      "text": "Iran war live: Tehran says need to move beyond ‘no war, no peace’ situation",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5NQkZSTmhtZGZDNVQ0bTh4WHI2WUdEOTVSTVh3N2tkcl9YSHRtdW5wN0JlSzV2SnpJMWJ5eGlDTDZpVzQ5ZG9OTEN6VmEwUW9QRjAtNGc3b1ozMW4wd3l1OXhrZkZrOEJMMGU0UUJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 2197
+    },
+    {
+      "date": "Aug 23",
+      "text": "Iran Update, August 21, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQcVBIckM0cFVQMUUwQjh3WTBxX1llRGNEak9EZk1DY2NGbEVTdENIN3hFWjNJMW1aWDlpSVZsYlNqcm1ZRk9kTnNzZ2tpZTZ1UjRmZ3Y5ZV9IOWl2TU16cnEwNG9kSm1hTHg2MEE0MEl4al9sTGo3dWNQS0JEdjVlSGtwVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2198
     },
     {
       "date": "Aug 23",
