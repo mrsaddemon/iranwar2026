@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2160,
+  "updateSequence": 2161,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T00:00:54.010Z",
+  "lastSyncedAt": "2026-08-23T01:53:27.284Z",
   "warDay": 177,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported in the Iran War, and Gaza de-escalation efforts are currently undermined."
+    "summary": "No active ceasefire is reported, with conflict escalating in multiple theaters."
   }
 }
