@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2173,
+  "updateSequence": 2174,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T09:46:19.794Z",
+  "lastSyncedAt": "2026-08-23T10:02:14.123Z",
   "warDay": 177,
-  "summary": "The West Asia conflict continues to escalate with US-Israel strikes on Iran and Syria, new US economic sanctions against Tehran, and Iran's defiant vows of retaliation, while regional actors like Hezbollah remain engaged and US allies express concern.",
+  "summary": "The conflict in West Asia continues to escalate with US-Iran tensions rising due to new sanctions and military actions, while Israel and Hezbollah remain engaged in hostilities.",
   "lastNarrativeUpdate": "2026-08-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No ceasefire is active; conflict continues to escalate across multiple fronts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.78,
+        "aggression": 0.82
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.45,
+        "aggression": 0.87
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 68,
+    "escalationLevel": 89,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 22",
-      "text": "Iran's military leader vows Tehran 'will not submit' as the US plans an economic squeeze.",
-      "severity": "critical",
+      "text": "Iran's military leader vows Tehran will not submit as the US plans an economic squeeze.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2173
+      "latestSinceUpdate": 2174
     },
     {
       "date": "Aug 22",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 22",
-      "text": "President Trump states he views the Strait of Hormuz as 'American territory'.",
+      "text": "Pentagon adds 60 wounded to Iran war casualty count.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPS0VSTm1uS2NXQnFkRUhpVEFSTGNFUTlMdXhkT01MNTVBT29Hbk5ZbHd1a1pWRVEyOTN5N1BCc0I4eG9JeDRCMHE1ckpOUmlYTzcxVi1mNkc2VnZtN2c4XzRaU0I5UTF0TjlySVdLekVYLUktb3hZZ2hzUjlqd2VyRDJnaVMyTWQ3SVFkSXd2NHZZMnM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2173
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOYVc5aVJ1N00yU0dGYUtNQm9yM0VMR1lwaW5qaTNuOHJ4czlYWXB2UGd5MlJ3N3djbFVVNUVOQUVuUHl1bkZxeVMtM1lzWjZXYmcwRUdQWkRSWnVqbG02VW9lYkFaaW8waEdmVjNWMXUwMFFNekRld2lleTlTR2FxdHFYSk9tUjBnRnBEYTVqSkc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "stripes.com",
+      "latestSinceUpdate": 2174
     }
   ],
   "sourceStatuses": [
