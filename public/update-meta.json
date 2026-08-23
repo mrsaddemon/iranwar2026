@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2194,
+  "updateSequence": 2195,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T19:08:18.979Z",
+  "lastSyncedAt": "2026-08-23T19:38:52.457Z",
   "warDay": 177,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire appears to be in effect in Lebanon, but Hezbollah is reportedly exploiting it for arms smuggling, indicating its fragile status."
+    "summary": "A ceasefire appears to be in effect in Lebanon but is actively being exploited by Hezbollah for arms smuggling and challenged by increased IDF operations."
   }
 }
