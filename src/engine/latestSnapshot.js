@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2161,
+  "updateSequence": 2162,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T01:53:27.284Z",
+  "lastSyncedAt": "2026-08-23T03:11:02.451Z",
   "warDay": 177,
-  "summary": "The West Asia conflict has escalated with US-Israel strikes on Iran, US casualties mounting, and heightened tensions around the Strait of Hormuz, while diplomatic efforts in Gaza and Lebanon face setbacks.",
+  "summary": "The conflict in West Asia has escalated with US-Israel strikes on Iran, increased US economic pressure, and significant US casualties, while regional efforts to de-escalate remain challenged.",
   "lastNarrativeUpdate": "2026-08-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported, with conflict escalating in multiple theaters."
+    "summary": "No active ceasefire is reported, with ongoing military actions and stalled mediation efforts in the region."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.4,
-        "aggression": 0.9
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 70,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
     "sanctionsPressure": 64,
     "globalPressure": 85,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 21",
-      "text": "President Trump is reportedly 'stuck' on the Iran war ahead of upcoming elections.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2161
-    },
-    {
-      "date": "Aug 21",
-      "text": "US gas prices are up nearly a dollar from a year ago as Strait of Hormuz traffic remains low.",
+      "text": "US gas prices are up nearly a dollar from a year ago as traffic through the Strait of Hormuz remains low.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5NQkZSTmhtZGZDNVQ0bTh4WHI2WUdEOTVSTVh3N2tkcl9YSHRtdW5wN0JlSzV2SnpJMWJ5eGlDTDZpVzQ5ZG9OTEN6VmEwUW9QRjAtNGc3b1ozMW4wd3l1OXhrZkZrOEJMMGU0UUJR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2161
+      "latestSinceUpdate": 2162
     },
     {
-      "date": "Aug 23",
-      "text": "The West Asia conflict escalates with US-Israel strikes hitting Iran and the US Embassy attacked in Riyadh.",
+      "date": "Aug 21",
+      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "News On AIR",
-      "latestSinceUpdate": 2161
+      "latestSinceUpdate": 2162
     },
     {
-      "date": "Aug 23",
-      "text": "President Trump states he views the Strait of Hormuz as 'American territory'.",
+      "date": "Aug 21",
+      "text": "Trump threatens Iran’s trade partners, shifting from military strikes to economic pressure.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOLVlYbS0wU005bjItOFRYMWlBZ29nRS0tT0VtdHA1TlVSTi1CbFZ1ZnZpajZuSlE2bDJsNEZPYVI1bjNzRnpVTW42Z1RuYkFqbUtNUWpUcnQ5SmpwY2ZXcVlJY3U1SW8wbmFFTnlrS3lySVYzbU1MWERMUE5lZWZGT2VLSDJZRUFpRUl4X0NQbFdFRE1vdURILWJrVzVWV29wdURtRUFhRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2161
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxOX0YxejNNS1poTHVOcXNPenhxM2c4RmxRb2dtVnVpMHpZMGw1OHBCbDRxWWpmOWxiLVh4QjJkc3JsUVd2UTZseXBGd3lzM1Q5bkpiLXhkMWhlZmJMZHNaV0lTZ0tra0dGclg3T1lTaERzaUJ3WUswQ0dKM3lvX2RGbkotQTZTb3V2VDBWTEY0aVpKQ1RldlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2162
     },
     {
-      "date": "Aug 23",
-      "text": "Iran's security chief threatens 'earthquake-like' retaliation as US pressure builds.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTFBoWmgyT0l1R0RTN2xyTlNYNjBGZzVaMEdYNG5TcVZCa3puOV9XS0tZUTZOb1Z4MjZoc2NjOGhRMExkSDY1S1lDUjZGOEdUb3RMSHZoV0RKMVNSX3Q1bEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Iran International",
-      "latestSinceUpdate": 2161
+      "date": "Aug 21",
+      "text": "An envoy states Israel did not give the US notice before strikes on a Syrian base.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOZVlWOVFMOUl2eU1oNk1NYUJxZ0J3NlBpTXFUUF9yM1dSZ3J6azVYR1BRWmM1TVVOSWpJVm1PMjRkaDJDTm9DS19YaFF5MGMzR0NwYUl0Y2pIR1pmbTl4a0w1MDctUV9mM2paWDVkRXZGbVk0Zzcwd3k5SlowX0FxUXZYVkhGVllBellyRHVWczZONTMwbU8wSzZvd0MyY3Z0TjVxcE1vOW5raUNJSVBzS25BbE5md9IBuwFBVV95cUxOeHlJbzN4Z1RwbWtmODgtUG1nTjVjS1k1M2c1d0hkQy1naWlWTkU0TkRCQ0h5N3VZcFpoUWJpNF93M1pndjFYWE1Wd21yRU00X2RDQUdmV0pjOHpwYWw1X19JVzNkUFVLQ3prSjc4TjczZ3lBdnluemVZUndCRHlHUm5URGNqVVdIanh1bl85YnhkS0lPOTUxTFhEMWFSYTV3SDdUY2VQX1NHc18yaFpQS3JvQXktRXVJNTUw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2162
     },
     {
-      "date": "Aug 23",
-      "text": "Data indicates ships passing through the Strait of Hormuz are hovering in single digits.",
+      "date": "Aug 21",
+      "text": "Iran grants permission for a number of Iraqi oil tankers to pass through the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2162
+    },
+    {
+      "date": "Aug 21",
+      "text": "Trump declares he views the Strait of Hormuz as 'American territory'.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2161
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPS0VSTm1uS2NXQnFkRUhpVEFSTGNFUTlMdXhkT01MNTVBT29Hbk5ZbHd1a1pWRVEyOTN5N1BCc0I4eG9JeDRCMHE1ckpOUmlYTzcxVi1mNkc2VnZtN2c4XzRaU0I5UTF0TjlySVdLekVYLUktb3hZZ2hzUjlqd2VyRDJnaVMyTWQ3SVFkSXd2NHZZMnM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2162
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
