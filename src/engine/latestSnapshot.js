@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2165,
+  "updateSequence": 2166,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T05:14:36.294Z",
+  "lastSyncedAt": "2026-08-23T05:47:54.077Z",
   "warDay": 177,
   "summary": "The US-Iran conflict continues with US-Israel strikes on Iran, Iranian defiance against sanctions, and escalating regional tensions involving Gaza, Jordan, and Lebanon, while US military casualties mount and oil transit through the Strait of Hormuz remains a point of contention.",
   "lastNarrativeUpdate": "2026-08-23",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported in the ongoing conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 23",
-      "text": "US prepares further economic squeeze on Iran.",
+      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2165
+      "latestSinceUpdate": 2166
     },
     {
       "date": "Aug 23",
-      "text": "Iranian military leader vows Tehran 'will not submit' as US prepares further economic squeeze.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2165
+      "text": "Persuasion, denial and bluster: Trump ‘stuck’ on Iran war ahead of elections",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2166
     },
     {
       "date": "Aug 23",
-      "text": "Iran states US sanctions are a 'declaration of war' on all nations.",
-      "severity": "critical",
+      "text": "Iran updates: Tehran says US sanctions ‘declaration of war’ on all nations",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQQWUwUFJ0aEd2bHliRWRFMVlDRjJ5MDhkclhZV0pORWp2TGtGR1VoOUdTeVJiU0JfZ3BIXzRXMDMxYXkxZ3hCWllmTUc0dTkzemh2VXF2aTJuVkhRNVJwQVRZXzZUdlNkMmRGWmdoY0F2ZzQ4aDFlbHRUY0QxRlFMNFZGZktzbndySFNNUkRKWld0NFZTRWNhWVN3MW1fWTRpMTVrbGM2SFhzRkM3akhkbHd5bTNIRFdQazRvNExR0gHDAUFVX3lxTFBDWmZ0QTF0aktHUXZZUUxwRkVpcUY5ekRWeTdVODZpMzh2SEFMdy05cnVSSXF6ekotWDJvd24tY0Nua1JiLUY2NTN6bHpSWUMwa1o2cDdhSTJqbkl6ZTVZM0FTLUd5aC1OY2M1b21yOWd2LWJ1d0dSa3YzdDNmNWJQZHVfSGQtLTVrOWo4TjcyYWxmZjNWdGg0Y09kRERaSEE0bTg4U18zNzlYZm5kVFg0YVEzTkJ1Tm42Sk9sT09lbXRiTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2165
-    },
-    {
-      "date": "Aug 21",
-      "text": "US gas prices are up nearly a dollar from a year ago as Hormuz traffic remains low.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5NQkZSTmhtZGZDNVQ0bTh4WHI2WUdEOTVSTVh3N2tkcl9YSHRtdW5wN0JlSzV2SnpJMWJ5eGlDTDZpVzQ5ZG9OTEN6VmEwUW9QRjAtNGc3b1ozMW4wd3l1OXhrZkZrOEJMMGU0UUJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2164
+      "latestSinceUpdate": 2166
     },
     {
       "date": "Aug 23",
-      "text": "Gaza mediators report latest Israeli strikes undermine efforts to end conflict at a critical stage.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2165
+      "text": "Iran Update, August 21, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQcVBIckM0cFVQMUUwQjh3WTBxX1llRGNEak9EZk1DY2NGbEVTdENIN3hFWjNJMW1aWDlpSVZsYlNqcm1ZRk9kTnNzZ2tpZTZ1UjRmZ3Y5ZV9IOWl2TU16cnEwNG9kSm1hTHg2MEE0MEl4al9sTGo3dWNQS0JEdjVlSGtwVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2166
     },
     {
       "date": "Aug 23",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy is attacked in Riyadh.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2165
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2166
+    },
+    {
+      "date": "Aug 23",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9oMHZFQnhpUGIzWGg0c19HdXJiVVJTUzNNaDl0Z0JIMnh5Z0xiZVNyakd0N3dBZEhWSS1JOWtiT1FqRWVJbVB3RTQ1OHhYYm5lR0FiZVg5RV8xQnE3aDFzY1Q0dVl3YjM3aDhIOEk1UmwyLVYtcXpUZGc5bmh3Tmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2166
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
