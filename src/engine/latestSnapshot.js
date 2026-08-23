@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2184,
+  "updateSequence": 2185,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T14:53:00.046Z",
+  "lastSyncedAt": "2026-08-23T15:30:42.187Z",
   "warDay": 177,
-  "summary": "Tensions between the US and Iran have escalated significantly following new US economic sanctions, with Iran declaring them an act of war and threatening retaliation, while Israel continues military actions against Hezbollah and in Syria.",
+  "summary": "Tensions between the US and Iran have escalated significantly, with Iran vowing defiance against new US sanctions, which it considers a declaration of war, while regional conflicts involving Israel and Hezbollah continue.",
   "lastNarrativeUpdate": "2026-08-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 22",
-      "text": "Iran's military leader vows Tehran will not submit as the US plans an economic squeeze.",
+      "text": "Iran's military leader vows Tehran 'will not submit' as US plans economic squeeze.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2184
+      "latestSinceUpdate": 2185
     },
     {
       "date": "Aug 22",
-      "text": "Iran states that US sanctions are a 'declaration of war' on all nations.",
+      "text": "Iran states US sanctions are a 'declaration of war' on all nations.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQQWUwUFJ0aEd2bHliRWRFMVlDRjJ5MDhkclhZV0pORWp2TGtGR1VoOUdTeVJiU0JfZ3BIXzRXMDMxYXkxZ3hCWllmTUc0dTkzemh2VXF2aTJuVkhRNVJwQVRZXzZUdlNkMmRGWmdoY0F2ZzQ4aDFlbHRUY0QxRlFMNFZGZktzbndySFNNUkRKWld0NFZTRWNhWVN3MW1fWTRpMTVrbGM2SFhzRkM3akhkbHd5bTNIRFdQazRvNExR0gHDAUFVX3lxTFBDWmZ0QTF0aktHUXZZUUxwRkVpcUY5ekRWeTdVODZpMzh2SEFMdy05cnVSSXF6ekotWDJvd24tY0Nua1JiLUY2NTN6bHpSWUMwa1o2cDdhSTJqbkl6ZTVZM0FTLUd5aC1OY2M1b21yOWd2LWJ1d0dSa3YzdDNmNWJQZHVfSGQtLTVrOWo4TjcyYWxmZjNWdGg0Y09kRERaSEE0bTg4U18zNzlYZm5kVFg0YVEzTkJ1Tm42Sk9sT09lbXRiTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2184
+      "latestSinceUpdate": 2185
     },
     {
       "date": "Aug 22",
-      "text": "Trump declares he views the Strait of Hormuz as 'American territory'.",
+      "text": "Iran warns of a 'devastating' response to US sanctions as America prepares for a new phase of war.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPS0VSTm1uS2NXQnFkRUhpVEFSTGNFUTlMdXhkT01MNTVBT29Hbk5ZbHd1a1pWRVEyOTN5N1BCc0I4eG9JeDRCMHE1ckpOUmlYTzcxVi1mNkc2VnZtN2c4XzRaU0I5UTF0TjlySVdLekVYLUktb3hZZ2hzUjlqd2VyRDJnaVMyTWQ3SVFkSXd2NHZZMnM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2184
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxNaEk5b091MDFHWEY5cnZkYnlJT0ltYVlTb3d6cXhFTmVvOTQtNnBCbnpPbHNHSnZaa2wxVURBakM0ck1MX2l3TWpDWFpWZHkyQUN0TDVuLUt0TTBubzJ3emowUFZaUEpyU2dfOVNDY0ZyQ1MzVGxaUXNoMk9JTHNTbTBwMHhWeGlZRXVPUHcyTzZmUkI0VEQzUFFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2185
     },
     {
       "date": "Aug 22",
-      "text": "Tehran warns of 'earthquake-like' retaliation over Trump’s 'economic D-Day' threats.",
+      "text": "Iran's hardline new security chief issues a stark threat to Gulf states ahead of fresh US sanctions.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPeVctOXRuV3ZiQUFXZGNxbnRIMTdnMHB6RktMNHEwTjBXVkc0ZkJsNTd0aHZxb1g3X2xBWGFNU041NHRJM1dxSjhZclBfdzJwZmNpOV9RN3R4SU1hWXh1UGJyZkZDZWdDazNwWFQtTTY5ZXUwM2V6dVVvdmlFUEJqVllWZmp1Zi1hZTBzT3pQQm9rRl90MW84aC1fSTRXMEMzMFZTTFNaeTFQRVcxd2JxWTJYR2p0b0FXRG5hUGZWd1I?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 2184
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2185
     },
     {
       "date": "Aug 22",
-      "text": "Israel conducts strikes in southern Syria, drawing condemnation from Damascus.",
+      "text": "Israel strikes southern Syria; Damascus condemns the attack.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2184
+      "latestSinceUpdate": 2185
     },
     {
       "date": "Aug 22",
-      "text": "The IDF increases the pace of destroying Hezbollah's terror infrastructure.",
+      "text": "IDF increases the pace of destroying Hezbollah's terror infrastructure.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE03T3JuM3doY251TURQRURMX3BHc0FOX1BkR2xXZkozNUVrYnR3cU1zUDE4YkNwQlJwd01TT1Q1cm1UMkZUQ0R6OURnWVU4SV90WjBwV3hfYkR1TWloTEZKRkJCWDBiNFI1MEJvT19B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2184
+      "latestSinceUpdate": 2185
     }
   ],
   "sourceStatuses": [
