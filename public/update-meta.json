@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2201,
+  "updateSequence": 2202,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T22:00:01.816Z",
+  "lastSyncedAt": "2026-08-23T22:30:51.390Z",
   "warDay": 177,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "durationDays": 25,
+    "summary": "A ceasefire appears to be in effect, but reports indicate Hezbollah is exploiting it for arms smuggling and the IDF is increasing operations."
   }
 }
