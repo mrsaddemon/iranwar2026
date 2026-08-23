@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2191,
+  "updateSequence": 2192,
   "lastUpdated": "2026-08-23",
-  "lastSyncedAt": "2026-08-23T17:49:51.511Z",
+  "lastSyncedAt": "2026-08-23T18:00:48.587Z",
   "warDay": 177,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst escalating conflict."
+    "summary": "A localized ceasefire involving Hezbollah is reported to be exploited for arms smuggling, indicating its fragility amidst ongoing conflict."
   }
 }
