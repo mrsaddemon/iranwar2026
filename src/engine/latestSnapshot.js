@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2208,
+  "updateSequence": 2209,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T01:51:01.608Z",
+  "lastSyncedAt": "2026-08-24T02:51:58.686Z",
   "warDay": 178,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "A ceasefire in Lebanon appears to be active but remains fragile, with reports of Hezbollah exploiting it for arms smuggling and ongoing IDF operations."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "nuclearIndex": 55,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 22",
-      "text": "Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
-      "severity": "warning",
+      "date": "Aug 24",
+      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2208
+      "latestSinceUpdate": 2209
     },
     {
-      "date": "Aug 22",
-      "text": "Iranian parliament advances plans for Hormuz service fees",
-      "severity": "warning",
+      "date": "Aug 24",
+      "text": "Iran updates: Iranian parliament advances plans for Hormuz service fees",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2208
+      "latestSinceUpdate": 2209
     },
     {
-      "date": "Aug 22",
-      "text": "Israel strikes southern Syria; Damascus condemns attack",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2208
-    },
-    {
-      "date": "Aug 22",
-      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, US Embassy attacked in Riyadh",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2208
-    },
-    {
-      "date": "Aug 22",
-      "text": "Oil falls ahead of US announcement on new Iran sanctions",
+      "date": "Aug 24",
+      "text": "Persuasion, denial and bluster: Trump ‘stuck’ on Iran war ahead of elections",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxONkR4RDVXMEFvZ0x5NGhmcVVWVnU0ckNHdF9UZVp4Z05rM2pTRkppNWxTREowb0xEbVVudzlBXzVuc2FkcFQ0TjFoUUduN3hEZlFoVGo0UTVyOG40RHBDNU5FUG1zSFI5MnFlbWEzdDNiMmRoa05GUGFsREZzaWZObUY0T2NGRlNVcVRvZU1xb2I2WFI2bGRlV3lXUWxWZzJILTdaMzk4TTJHVDFaUWZkUmNRdF9CdmJTT0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2208
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2209
     },
     {
-      "date": "Aug 22",
-      "text": "Hezbollah said to be exploiting ceasefire to increase arms smuggling from Syria",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2208
+      "date": "Aug 24",
+      "text": "August 21, 2026 — US gas prices up nearly a dollar from a year ago as Hormuz traffic remains low",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5NQkZSTmhtZGZDNVQ0bTh4WHI2WUdEOTVSTVh3N2tkcl9YSHRtdW5wN0JlSzV2SnpJMWJ5eGlDTDZpVzQ5ZG9OTEN6VmEwUW9QRjAtNGc3b1ozMW4wd3l1OXhrZkZrOEJMMGU0UUJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2209
+    },
+    {
+      "date": "Aug 24",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2209
+    },
+    {
+      "date": "Aug 24",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBrdGVDWkZZTU1zblFQTnBheFM2ZHNGVTdUR3ljQXBINEh6cTlpTmFCVkxoeXlZYTdlWE5ROTZSMlVnSVZJZWRSdkRUaUJYSEZxYWhDVmk3WGxlRm03Wjlxb1VoWDhkNUx4bWlzNTRpQkE5SUF4MjJtWU1Ec0dEQnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2209
     }
   ],
   "sourceStatuses": [
