@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2217,
+  "updateSequence": 2218,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T09:57:03.879Z",
+  "lastSyncedAt": "2026-08-24T10:45:38.731Z",
   "warDay": 178,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "A ceasefire appears to be in place but is fragile and being exploited by Hezbollah, with ongoing Israeli strikes in Gaza and Syria."
+    "summary": "Despite mentions of a ceasefire being exploited, active military strikes and threats indicate a general ceasefire is not holding."
   }
 }
