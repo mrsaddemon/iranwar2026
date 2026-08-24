@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2218,
+  "updateSequence": 2219,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T10:45:38.731Z",
+  "lastSyncedAt": "2026-08-24T11:12:56.463Z",
   "warDay": 178,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 25,
-    "summary": "Despite mentions of a ceasefire being exploited, active military strikes and threats indicate a general ceasefire is not holding."
+    "durationDays": 20,
+    "summary": "A ceasefire in Lebanon is active but appears fragile, with Hezbollah reportedly exploiting it for arms smuggling and disarmament efforts stalled."
   }
 }
