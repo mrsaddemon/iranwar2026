@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2219,
+  "updateSequence": 2220,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T11:12:56.463Z",
+  "lastSyncedAt": "2026-08-24T11:46:14.583Z",
   "warDay": 178,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 20,
-    "summary": "A ceasefire in Lebanon is active but appears fragile, with Hezbollah reportedly exploiting it for arms smuggling and disarmament efforts stalled."
+    "summary": "A regional ceasefire appears to be in effect but is highly fragile, with reports of Hezbollah exploiting it for arms smuggling and an Israeli strike occurring in Gaza."
   }
 }

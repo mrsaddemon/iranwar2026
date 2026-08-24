@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2219,
+  "updateSequence": 2220,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T11:12:56.463Z",
+  "lastSyncedAt": "2026-08-24T11:46:14.583Z",
   "warDay": 178,
-  "summary": "The US is preparing new economic sanctions against Iran, which has responded with threats to Gulf oil exports and plans for Hormuz service fees, amidst ongoing regional tensions including an Israeli strike in Syria and a fragile ceasefire in Lebanon.",
+  "summary": "The US is preparing for an 'economic D-Day' against Iran, which has responded with threats to Gulf oil exports and plans for Hormuz service fees, while regional tensions remain high with an Israeli strike in Gaza and reports of Hezbollah exploiting a ceasefire in Lebanon.",
   "lastNarrativeUpdate": "2026-08-24",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 20,
-    "summary": "A ceasefire in Lebanon is active but appears fragile, with Hezbollah reportedly exploiting it for arms smuggling and disarmament efforts stalled."
+    "summary": "A regional ceasefire appears to be in effect but is highly fragile, with reports of Hezbollah exploiting it for arms smuggling and an Israeli strike occurring in Gaza."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 40,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
+    "globalPressure": 64,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 23",
-      "text": "US official Bessent promises 'economic D-Day' ahead of expected Iran sanctions.",
+      "text": "US vows 'economic D-Day' ahead of expected Iran sanctions; Tehran threatens Gulf oil exports.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2219
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2220
     },
     {
       "date": "Aug 23",
-      "text": "Iranian parliament advances plans for Hormuz service fees, threatening Gulf oil exports.",
-      "severity": "critical",
+      "text": "Iranian parliament advances plans for Hormuz service fees; fewer than 20 ships transited Strait over weekend.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2219
+      "latestSinceUpdate": 2220
     },
     {
       "date": "Aug 23",
-      "text": "Iran warns of a harsh response to anticipated US sanctions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgJBVV95cUxOYnhnSEpacUh1VHlIeTE5LVNBc0NtOVE1WFAyRldfRVJqTXA0aEhBeWVoZ1BfejhDSjhNdndIcEtwejJIT3VJbG16SjVFRFZaaFBCX1lYUmo1cE5ncHUxTUZvRHlzb1o5NEN1Q3g4T2tMSGgybGFuZ1I2VWxiNEZ6QnJJLS1tTjFnampYcmVJZkxKaGtKRV9HaWl0U1NQWm04OUk2R1lTYkVoOUdMM1ZfRm5Ld1Atc3kwaVB5VTVvTUh3bl93U1lqVTdDQVhsRXl4MUdLMUJIRFFGMFFJT01ZSDRfS2wtZjUwT1JEZER0M1FPdFp5VnJTOGFFVl83TWhLaDU4QTNmM3BYSjN1amlvdmdqc05Bdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bozeman Daily Chronicle",
-      "latestSinceUpdate": 2219
+      "text": "Israeli strike kills child in central Gaza amidst ongoing conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNOGhLcXVlSk1ra05MV2ljYWJIWU4zSkF5djlycnZpMS12RE5CNW9Ia3JybF9pejdUQk14dHppRlg3OU1kM0hpbUpEMm1yVDBNd1dneWF1dVZ5Z1lpV2tUY2ZBTm5tb3J2SDdNN1dOUTNlUWVKc0U3RzNZdk4tQ3ZlYk83QkRVclMtYTNqQ0NHTHNRRnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2220
     },
     {
       "date": "Aug 23",
-      "text": "Israel strikes southern Syria; Damascus condemns the attack.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2219
-    },
-    {
-      "date": "Aug 23",
-      "text": "Hezbollah is reportedly exploiting a ceasefire to increase arms smuggling from Syria.",
+      "text": "Hezbollah reportedly exploiting ceasefire to increase arms smuggling from Syria into Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2219
+      "latestSinceUpdate": 2220
     },
     {
-      "date": "Aug 23",
-      "text": "The U.S. Navy is assisting in securing oil passage through the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2219
+      "date": "Aug 22",
+      "text": "Iran military leader vows Tehran 'will not submit' as US plans economic squeeze.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2220
+    },
+    {
+      "date": "Aug 22",
+      "text": "Iran reportedly weighs strikes on US military targets in Europe if Trump escalates war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE15VnhyX1RiSzVTOERRUVB4cmZHckl5WmRwRUhrcEcwZkdFdWxtTVFKZXRNRVJELWExbW1PTVE3aUJya0l6azVLaWstWFdxbHNwOXI2VGJn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2220
     }
   ],
   "sourceStatuses": [
