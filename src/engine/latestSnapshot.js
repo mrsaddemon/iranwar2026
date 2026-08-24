@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2209,
+  "updateSequence": 2210,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T02:51:58.686Z",
+  "lastSyncedAt": "2026-08-24T03:41:06.275Z",
   "warDay": 178,
   "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-24",
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 24",
-      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2209
-    },
-    {
-      "date": "Aug 24",
       "text": "Iran updates: Iranian parliament advances plans for Hormuz service fees",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
@@ -76,19 +68,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 24",
-      "text": "Persuasion, denial and bluster: Trump ‘stuck’ on Iran war ahead of elections",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran’s foreign minister calls threat of new US economic sanctions ‘desperate’",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPX1I0S3hyemkyRkVnUldIb05KbVViYW1tclh2T3lNSUlEM00zT3hSeHZZNDFVNUhPdGVjenB2WW1NUGEyOHNxdTJoSU9oMnV4cmRYd08zb3BXcVhER3hOVW4wWUtMRHplS09qMXJqSWdWMXd5VDhaVmFPSE1zNTUwbDNWX2lodFN1LXpuc2NOYi16UXZWaUVLeXJwazZkVFdxQTJVM2szYXRvNzRZaXk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
+      "latestSinceUpdate": 2210
+    },
+    {
+      "date": "Aug 24",
+      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
       "latestSinceUpdate": 2209
     },
     {
       "date": "Aug 24",
-      "text": "August 21, 2026 — US gas prices up nearly a dollar from a year ago as Hormuz traffic remains low",
+      "text": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5NQkZSTmhtZGZDNVQ0bTh4WHI2WUdEOTVSTVh3N2tkcl9YSHRtdW5wN0JlSzV2SnpJMWJ5eGlDTDZpVzQ5ZG9OTEN6VmEwUW9QRjAtNGc3b1ozMW4wd3l1OXhrZkZrOEJMMGU0UUJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2209
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNMGtWdFJrYW5jZkhTT0FDNHNPT296YmNFWmZKS3lZd3h0djJjWU1DWGw0WEFvX2xweUxQVjZzYXRUWW1QMnNSMFdYSDg4Z2hYSThMOXFYZ2FlekxXa3dfYkVKSFhiR1FYdmF1aTNsRm91WUJ2ajB5LTJqWHAzT0l6bnA4STBHVVhRRzhkTGNRbnE1eU5fWGEyeVpjdlFwUU5OM2diQ2VieG4wWVVsU2dR0gG0AUFVX3lxTE00VTNla2wwcnVaLW9RZ1c1alZuUjI1LVcxZlF3VHZPU01rZmhEal9pVDhpa2xHZFRSUXhQRDZjVHloZTdpRkxhNEMxelZWUUJXRndRT2hrNVlCOXoybUlHN0x1dXQyODI3Vm9jbDEtNk1wcWZ1ckJDZ2xCNEo1YXFsbEJWZGRwYjA2RGtBVmNZN1hkQUVJckJvNWYzdlBkMzU0d1pSYkhLNXdxSkY0QjROb21ubA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2210
     },
     {
       "date": "Aug 24",
@@ -100,11 +100,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 24",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "text": "Iran's president says U.S. memorandum is best path out of stalled war, and other Middle East news",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBrdGVDWkZZTU1zblFQTnBheFM2ZHNGVTdUR3ljQXBINEh6cTlpTmFCVkxoeXlZYTdlWE5ROTZSMlVnSVZJZWRSdkRUaUJYSEZxYWhDVmk3WGxlRm03Wjlxb1VoWDhkNUx4bWlzNTRpQkE5SUF4MjJtWU1Ec0dEQnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2209
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNOFhFbmRoaUtIMk1wVVdxMW5xVUhDZUoyVUdOQV9HNVh1UzloOTB4Z2FxVVlJN2x0ZkVJX3pWcHhndnNhLXlKRUExM0VadVFMdXdPaUtrRXltY3JMeVF6XzdPdlBDQ2U0TXJidjdsMWU3UHNpblFOWm5xMWVHcXFWaUxVbExhelhXQTRSZmxhek5YUU1xMzN0Y1FDV29JZEpYYWNDajJIUnlWeld2aTZ1N1ZwLU8wUVhiSjE5SExwSU92WVlVNzhQcNIBzgFBVV95cUxPMXlxalVxZ05nNjFXcFM0Ym5YNnp2QndBbzZGYTU2ZXF1QXlKQVVvVFBSTmhnWUo2Z3BkMWsyWS1Odkl2VmxJbk8wb0Q4cHh3LXV4aklRdVU2bmd3NWFqUDJONXlVZEk4eHl1SEszZ1hPcDFBSDRnN0xicmhmT29ld3VwRXRJellyRlBteGRMVTE3RmJ0WnlMaWlHbmhRdjE5SWRpbndFODVkS3dRbGtHQThad2Jnb21fZ0V1X3h2akI5dnlHMlBQZU11MFlmdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 2210
     }
   ],
   "sourceStatuses": [
