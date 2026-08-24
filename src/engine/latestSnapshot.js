@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2210,
+  "updateSequence": 2211,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T03:41:06.275Z",
+  "lastSyncedAt": "2026-08-24T04:30:16.962Z",
   "warDay": 178,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-24",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A previously reported ceasefire appears to have collapsed amid ongoing military actions and threats from multiple parties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 24",
-      "text": "Iran updates: Iranian parliament advances plans for Hormuz service fees",
-      "severity": "info",
+      "text": "Iranian parliament advances plans for Hormuz service fees.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2209
+      "latestSinceUpdate": 2211
     },
     {
       "date": "Aug 24",
-      "text": "Iran’s foreign minister calls threat of new US economic sanctions ‘desperate’",
-      "severity": "warning",
+      "text": "Iran’s foreign minister calls threat of new US economic sanctions ‘desperate’.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPX1I0S3hyemkyRkVnUldIb05KbVViYW1tclh2T3lNSUlEM00zT3hSeHZZNDFVNUhPdGVjenB2WW1NUGEyOHNxdTJoSU9oMnV4cmRYd08zb3BXcVhER3hOVW4wWUtMRHplS09qMXJqSWdWMXd5VDhaVmFPSE1zNTUwbDNWX2lodFN1LXpuc2NOYi16UXZWaUVLeXJwazZkVFdxQTJVM2szYXRvNzRZaXk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2210
+      "latestSinceUpdate": 2211
     },
     {
-      "date": "Aug 24",
-      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
-      "severity": "info",
+      "date": "Aug 22",
+      "text": "Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2209
+      "latestSinceUpdate": 2211
     },
     {
       "date": "Aug 24",
-      "text": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNMGtWdFJrYW5jZkhTT0FDNHNPT296YmNFWmZKS3lZd3h0djJjWU1DWGw0WEFvX2xweUxQVjZzYXRUWW1QMnNSMFdYSDg4Z2hYSThMOXFYZ2FlekxXa3dfYkVKSFhiR1FYdmF1aTNsRm91WUJ2ajB5LTJqWHAzT0l6bnA4STBHVVhRRzhkTGNRbnE1eU5fWGEyeVpjdlFwUU5OM2diQ2VieG4wWVVsU2dR0gG0AUFVX3lxTE00VTNla2wwcnVaLW9RZ1c1alZuUjI1LVcxZlF3VHZPU01rZmhEal9pVDhpa2xHZFRSUXhQRDZjVHloZTdpRkxhNEMxelZWUUJXRndRT2hrNVlCOXoybUlHN0x1dXQyODI3Vm9jbDEtNk1wcWZ1ckJDZ2xCNEo1YXFsbEJWZGRwYjA2RGtBVmNZN1hkQUVJckJvNWYzdlBkMzU0d1pSYkhLNXdxSkY0QjROb21ubA?hl=en-US&gl=US&ceid=US:en",
+      "text": "Israel strikes southern Syria; Damascus condemns attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2211
+    },
+    {
+      "date": "Aug 24",
+      "text": "US vows ‘economic D-Day’; Tehran threatens Gulf oil exports.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2210
+      "latestSinceUpdate": 2211
     },
     {
       "date": "Aug 24",
-      "text": "Iran War: Latest News, Live Coverage and Video",
+      "text": "U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2209
-    },
-    {
-      "date": "Aug 24",
-      "text": "Iran's president says U.S. memorandum is best path out of stalled war, and other Middle East news",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNOFhFbmRoaUtIMk1wVVdxMW5xVUhDZUoyVUdOQV9HNVh1UzloOTB4Z2FxVVlJN2x0ZkVJX3pWcHhndnNhLXlKRUExM0VadVFMdXdPaUtrRXltY3JMeVF6XzdPdlBDQ2U0TXJidjdsMWU3UHNpblFOWm5xMWVHcXFWaUxVbExhelhXQTRSZmxhek5YUU1xMzN0Y1FDV29JZEpYYWNDajJIUnlWeld2aTZ1N1ZwLU8wUVhiSjE5SExwSU92WVlVNzhQcNIBzgFBVV95cUxPMXlxalVxZ05nNjFXcFM0Ym5YNnp2QndBbzZGYTU2ZXF1QXlKQVVvVFBSTmhnWUo2Z3BkMWsyWS1Odkl2VmxJbk8wb0Q4cHh3LXV4aklRdVU2bmd3NWFqUDJONXlVZEk4eHl1SEszZ1hPcDFBSDRnN0xicmhmT29ld3VwRXRJellyRlBteGRMVTE3RmJ0WnlMaWlHbmhRdjE5SWRpbndFODVkS3dRbGtHQThad2Jnb21fZ0V1X3h2akI5dnlHMlBQZU11MFlmdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 2210
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2211
     }
   ],
   "sourceStatuses": [
