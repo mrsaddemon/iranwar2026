@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2215,
+  "updateSequence": 2216,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T08:06:27.266Z",
+  "lastSyncedAt": "2026-08-24T08:59:44.525Z",
   "warDay": 178,
-  "summary": "The US is increasing economic pressure on Iran, which vows defiance and threatens Strait of Hormuz oil transit, while Israel conducts strikes in Syria and continues operations against Hezbollah amidst reports of a fragile ceasefire being exploited.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-08-24",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "A ceasefire between Israel and Hezbollah is reportedly in effect but is being exploited by Hezbollah for arms smuggling and actively countered by IDF operations."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 70,
-    "tradeImpact": 51,
-    "sanctionsPressure": 54,
-    "globalPressure": 62,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 22",
-      "text": "Iran's military leader vows Tehran 'will not submit' as the US plans an economic squeeze, with Iran calling US sanctions a 'declaration of war'.",
-      "severity": "critical",
+      "date": "Aug 24",
+      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2215
+      "latestSinceUpdate": 2216
     },
     {
-      "date": "Aug 22",
-      "text": "Iranian parliament advances plans for Hormuz service fees and warns vessels violating transit rules of fines and detention.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 24",
+      "text": "Iran updates: Tehran says US sanctions ‘declaration of war’ on all nations",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQQWUwUFJ0aEd2bHliRWRFMVlDRjJ5MDhkclhZV0pORWp2TGtGR1VoOUdTeVJiU0JfZ3BIXzRXMDMxYXkxZ3hCWllmTUc0dTkzemh2VXF2aTJuVkhRNVJwQVRZXzZUdlNkMmRGWmdoY0F2ZzQ4aDFlbHRUY0QxRlFMNFZGZktzbndySFNNUkRKWld0NFZTRWNhWVN3MW1fWTRpMTVrbGM2SFhzRkM3akhkbHd5bTNIRFdQazRvNExR0gHDAUFVX3lxTFBDWmZ0QTF0aktHUXZZUUxwRkVpcUY5ekRWeTdVODZpMzh2SEFMdy05cnVSSXF6ekotWDJvd24tY0Nua1JiLUY2NTN6bHpSWUMwa1o2cDdhSTJqbkl6ZTVZM0FTLUd5aC1OY2M1b21yOWd2LWJ1d0dSa3YzdDNmNWJQZHVfSGQtLTVrOWo4TjcyYWxmZjNWdGg0Y09kRERaSEE0bTg4U18zNzlYZm5kVFg0YVEzTkJ1Tm42Sk9sT09lbXRiTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2215
+      "latestSinceUpdate": 2216
     },
     {
-      "date": "Aug 22",
-      "text": "Israel strikes southern Syria, while Damascus condemns the attack.",
-      "severity": "warning",
+      "date": "Aug 24",
+      "text": "Iran Update, August 21, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQcVBIckM0cFVQMUUwQjh3WTBxX1llRGNEak9EZk1DY2NGbEVTdENIN3hFWjNJMW1aWDlpSVZsYlNqcm1ZRk9kTnNzZ2tpZTZ1UjRmZ3Y5ZV9IOWl2TU16cnEwNG9kSm1hTHg2MEE0MEl4al9sTGo3dWNQS0JEdjVlSGtwVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2216
+    },
+    {
+      "date": "Aug 24",
+      "text": "Iran war latest: Fireball in central Gaza as Israeli strike kills child",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNOGhLcXVlSk1ra05MV2ljYWJIWU4zSkF5djlycnZpMS12RE5CNW9Ia3JybF9pejdUQk14dHppRlg3OU1kM0hpbUpEMm1yVDBNd1dneWF1dVZ5Z1lpV2tUY2ZBTm5tb3J2SDdNN1dOUTNlUWVKc0U3RzNZdk4tQ3ZlYk83QkRVclMtYTNqQ0NHTHNRRnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2216
+    },
+    {
+      "date": "Aug 24",
+      "text": "Iran's president says U.S. memorandum is best path out of stalled war, and other Middle East news",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNOFhFbmRoaUtIMk1wVVdxMW5xVUhDZUoyVUdOQV9HNVh1UzloOTB4Z2FxVVlJN2x0ZkVJX3pWcHhndnNhLXlKRUExM0VadVFMdXdPaUtrRXltY3JMeVF6XzdPdlBDQ2U0TXJidjdsMWU3UHNpblFOWm5xMWVHcXFWaUxVbExhelhXQTRSZmxhek5YUU1xMzN0Y1FDV29JZEpYYWNDajJIUnlWeld2aTZ1N1ZwLU8wUVhiSjE5SExwSU92WVlVNzhQcNIBzgFBVV95cUxPMXlxalVxZ05nNjFXcFM0Ym5YNnp2QndBbzZGYTU2ZXF1QXlKQVVvVFBSTmhnWUo2Z3BkMWsyWS1Odkl2VmxJbk8wb0Q4cHh3LXV4aklRdVU2bmd3NWFqUDJONXlVZEk4eHl1SEszZ1hPcDFBSDRnN0xicmhmT29ld3VwRXRJellyRlBteGRMVTE3RmJ0WnlMaWlHbmhRdjE5SWRpbndFODVkS3dRbGtHQThad2Jnb21fZ0V1X3h2akI5dnlHMlBQZU11MFlmdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "PBS",
+      "latestSinceUpdate": 2216
+    },
+    {
+      "date": "Aug 24",
+      "text": "Israel strikes southern Syria; Damascus condemns attack",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2215
-    },
-    {
-      "date": "Aug 22",
-      "text": "Lebanon’s efforts to tame Hezbollah stall amid the Israel War, with Hezbollah reportedly exploiting a ceasefire to increase arms smuggling from Syria.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2215
-    },
-    {
-      "date": "Aug 22",
-      "text": "The IDF increases the pace of destroying Hezbollah's terror infrastructure.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE03T3JuM3doY251TURQRURMX3BHc0FOX1BkR2xXZkozNUVrYnR3cU1zUDE4YkNwQlJwd01TT1Q1cm1UMkZUQ0R6OURnWVU4SV90WjBwV3hfYkR1TWloTEZKRkJCWDBiNFI1MEJvT19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2215
-    },
-    {
-      "date": "Aug 22",
-      "text": "The U.S. military reports aiding the passage of 660 million barrels of oil through the Strait of Hormuz since May.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxPU2tmbVlWOHdGT19tdnFrRnRSMzY4ZzJtUTNhV0xHVlZlOERZVGJtaHlMR3ZVT2IySVJfamFjS3JBUFlXZ1QxUnF4VzJWdnNacDEyeGp2a3p0a0pGS3RINTZZNTJIQ1FFX0hhWlBENWFSM2VPMlhvX21rOWZEalR6Ump2dFdrZEE4bkxZTWxneFXSAZYBQVVfeXFMTlByT2dSRUliWjY3SG9jU1MyNzkyVDJsNHhERkExdU8wSzAwcXR4YXVtMWY3dld3bzByRWVndFB1TnV0LU54eWZQNDduTmFaaG5jNl9QdFhaeXA5aWd0eGlTc3lRVUI3VnYzRG1kZnhNQm1fT0J0NVJ5WGRiTzNZT0FWMDZydFhsVG1UT0c0eWk4WVVqa09R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2215
+      "latestSinceUpdate": 2216
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
