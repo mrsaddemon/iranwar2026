@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2214,
+  "updateSequence": 2215,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T07:13:43.375Z",
+  "lastSyncedAt": "2026-08-24T08:06:27.266Z",
   "warDay": 178,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 25,
-    "summary": "Efforts to maintain a ceasefire in the region appear to have collapsed amidst ongoing Israeli strikes and Hezbollah's continued activities."
+    "summary": "A ceasefire between Israel and Hezbollah is reportedly in effect but is being exploited by Hezbollah for arms smuggling and actively countered by IDF operations."
   }
 }
