@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2221,
+  "updateSequence": 2222,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T12:15:41.722Z",
+  "lastSyncedAt": "2026-08-24T13:16:28.801Z",
   "warDay": 178,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
-    "durationDays": 15,
-    "summary": "A ceasefire is active in the region, but its fragility is evident as Hezbollah is reportedly exploiting it for arms smuggling from Syria, and Lebanon pushes to extend UNIFIL."
+    "durationDays": 14,
+    "summary": "A ceasefire appears to be in effect, but its stability is undermined by reports of Hezbollah exploiting it for arms smuggling and stalled disarmament efforts."
   }
 }
