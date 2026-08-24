@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2225,
+  "updateSequence": 2226,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T15:48:47.560Z",
+  "lastSyncedAt": "2026-08-24T16:17:39.591Z",
   "warDay": 178,
   "ceasefire": {
     "active": true,
     "status": "fragile",
-    "confidence": 0.7,
+    "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A ceasefire is active but appears fragile, with Hezbollah reportedly exploiting it for arms smuggling."
+    "summary": "A ceasefire is reportedly active but is being exploited by Hezbollah for arms smuggling and is experiencing continued use of force by Hezbollah in the security zone."
   }
 }
