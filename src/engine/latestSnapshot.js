@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2234,
+  "updateSequence": 2235,
   "lastUpdated": "2026-08-24",
-  "lastSyncedAt": "2026-08-24T21:13:32.941Z",
+  "lastSyncedAt": "2026-08-24T21:46:37.734Z",
   "warDay": 178,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "The US has announced new economic sanctions against Iran, which Iran views as a declaration of war, while regional tensions persist with Israel striking Syria and Hezbollah allegedly violating a ceasefire.",
   "lastNarrativeUpdate": "2026-08-24",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire appears to be in effect between Israel and Hezbollah, but reports indicate Hezbollah is exploiting it for arms smuggling and continuing to use force."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 24",
-      "text": "August 23, 2026 — Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2233
-    },
-    {
-      "date": "Aug 24",
-      "text": "Iran updates: Iranian parliament advances plans for Hormuz service fees",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 23",
+      "text": "US announces new sanctions against Iran, with Bessent promising an 'economic D-Day'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2233
+      "latestSinceUpdate": 2235
     },
     {
-      "date": "Aug 24",
-      "text": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNMGtWdFJrYW5jZkhTT0FDNHNPT296YmNFWmZKS3lZd3h0djJjWU1DWGw0WEFvX2xweUxQVjZzYXRUWW1QMnNSMFdYSDg4Z2hYSThMOXFYZ2FlekxXa3dfYkVKSFhiR1FYdmF1aTNsRm91WUJ2ajB5LTJqWHAzT0l6bnA4STBHVVhRRzhkTGNRbnE1eU5fWGEyeVpjdlFwUU5OM2diQ2VieG4wWVVsU2dR0gG0AUFVX3lxTE00VTNla2wwcnVaLW9RZ1c1alZuUjI1LVcxZlF3VHZPU01rZmhEal9pVDhpa2xHZFRSUXhQRDZjVHloZTdpRkxhNEMxelZWUUJXRndRT2hrNVlCOXoybUlHN0x1dXQyODI3Vm9jbDEtNk1wcWZ1ckJDZ2xCNEo1YXFsbEJWZGRwYjA2RGtBVmNZN1hkQUVJckJvNWYzdlBkMzU0d1pSYkhLNXdxSkY0QjROb21ubA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2233
-    },
-    {
-      "date": "Aug 24",
-      "text": "August 22, 2026 — Iran military leader vows Tehran ‘will not submit’ as US plans economic squeeze",
-      "severity": "info",
+      "date": "Aug 22",
+      "text": "Iran military leader vows Tehran 'will not submit' to US economic squeeze, calling sanctions a 'declaration of war'.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2233
+      "latestSinceUpdate": 2235
     },
     {
-      "date": "Aug 24",
-      "text": "Iran War: Latest News, Live Coverage and Video",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2233
+      "date": "Aug 22",
+      "text": "Israel strikes southern Syria; Damascus condemns the attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2235
     },
     {
-      "date": "Aug 24",
-      "text": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+      "date": "Aug 22",
+      "text": "UN offers to facilitate fertilizer transit through the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNY2JoQ0VHWjRHSW9xVVVFQ0J4eUN0RC1pRFdSU0hUajg2dDU0SU9vMDcwd3g4TVFmeWF4VDNTLUlyUld3Z19KU092SjlmdDVfYi1fNXdsLWx5TFhxaloyZEk4QnpJalNtZzhESWtGeHlzcDNwbnJfcUNUM0hNOTVlejBYNXA2Q05XNEZRNGVYVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Chicago Tribune",
-      "latestSinceUpdate": 2233
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPZ3l4OVA3eG9sM2taa1NLOUVFb2ozSmY2eEdQS1BMYkJRMjdCcEpBaDlKSEpjaEZTVGszVm9JeDlGWTN1Nl9qSzc5RzQ3OWEwdU1mdGhPMGk5V083OGhwSXlUR2k0WElJNUpkVll5TVRDb25VaUFjSG1aNktYaDR5ckliT08zRU9QTzRZa0dGS3pBNzk2VERwb2ZHb3Jadi1pQ2JhM0JNNTNIRFc5SDgwWktSWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2235
+    },
+    {
+      "date": "Aug 22",
+      "text": "Iran threatens 45 tankers with fines and confiscation in a Strait of Hormuz escalation.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2235
+    },
+    {
+      "date": "Aug 22",
+      "text": "Hezbollah is reported to be exploiting a ceasefire to increase arms smuggling from Syria.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2235
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
