@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2252,
+  "updateSequence": 2253,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T09:44:42.806Z",
+  "lastSyncedAt": "2026-08-25T10:14:53.198Z",
   "warDay": 179,
-  "summary": "The ongoing conflict sees an oil tanker attacked in the Strait of Hormuz, new US sanctions against Iran, and continued regional military actions by Israel, while Hezbollah reportedly exploits a ceasefire for arms smuggling.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-25",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A ceasefire appears to be in effect but is actively being exploited by Hezbollah for arms smuggling, indicating its fragility."
+    "summary": "No broad ceasefire is active in the US-Iran conflict, though a local ceasefire involving Hezbollah is reportedly being exploited."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.4,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "nuclearIndex": 15,
+    "escalationLevel": 38,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 23",
-      "text": "Oil tanker attacked in Strait of Hormuz off Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2252
-    },
-    {
-      "date": "Aug 23",
-      "text": "US announces new sanctions against Iran, with promises of an 'economic D-Day'.",
+      "date": "Aug 25",
+      "text": "US announces new sanctions against Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2252
+      "latestSinceUpdate": 2253
     },
     {
-      "date": "Aug 24",
+      "date": "Aug 25",
+      "text": "Iranian parliament advances plans for Hormuz service fees.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2253
+    },
+    {
+      "date": "Aug 25",
+      "text": "Oil tanker attacked and disabled in Strait of Hormuz off Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2253
+    },
+    {
+      "date": "Aug 23",
+      "text": "Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2253
+    },
+    {
+      "date": "Aug 25",
       "text": "Israel strikes southern Syria; Damascus condemns attack.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2252
+      "latestSinceUpdate": 2253
     },
     {
-      "date": "Aug 24",
-      "text": "Iran state broadcaster claims over 50 facilities targeted in recent war with US and Israel.",
+      "date": "Aug 25",
+      "text": "Iran state broadcaster says over 50 facilities targeted in recent war with US, Israel.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxOeE9tZWJOVDVzRG56VGdEdU5zWTk2d1RzdVBoYk5WYWxmVW1YUGlDcjJlNG1WZGl3R3JkNEJ6aEgtbTFpSEoxSlhMR0hSZzdxa0w1YnMzdWhJZlFLamp1SGRCRW1ETWR3M25IUms0LUU4NHZpSEVpcFRINmVYVWtteEE1WnlxWnRsV0JlV2NnTU5UYnBMQUFOMnhqRm1rUEVDRWdPMXR4dGd3VG1Kbll6aF9URjlqT1Y1YmlYODRzSmxWa0duaGkwZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2252
-    },
-    {
-      "date": "Aug 25",
-      "text": "2 US military refueling aircraft depart Bulgaria amid anger from Iran over deployment.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE1HQUQwb1Fsd29YXzUzeVJxRVg3T082dDlaekM2QXducVNhS1FVdEVoQjJBVF9sQ1B0N1pWcFUwU01ncUlOYkNMQ3ppR3RtcWJyWlFleFlDZ1hocFB1TkoxZkoybmxVa1N4dFNJdUFZY21Wd2w4ZHfSAXtBVV95cUxPUDB3ZEtZa195M2s1N1FlYXgxU1IwZkpOVnFuTF9CY29SdWpUWFVndHh0cnZQYWVkUWVJMGROVmJkYnMybUhxcWM5eC1YSlRZbHpNejNmYWoyMXd0TVUtbGpKYWdhWW1hSVRfQWRCSU53RGd5dUFlOUlqa0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 2252
-    },
-    {
-      "date": "Aug 25",
-      "text": "U.S. Marines cancel drill with South Korea, citing Iran War demands.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2252
+      "latestSinceUpdate": 2253
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

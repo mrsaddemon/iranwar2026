@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2252,
+  "updateSequence": 2253,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T09:44:42.806Z",
+  "lastSyncedAt": "2026-08-25T10:14:53.198Z",
   "warDay": 179,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A ceasefire appears to be in effect but is actively being exploited by Hezbollah for arms smuggling, indicating its fragility."
+    "summary": "No broad ceasefire is active in the US-Iran conflict, though a local ceasefire involving Hezbollah is reportedly being exploited."
   }
 }
