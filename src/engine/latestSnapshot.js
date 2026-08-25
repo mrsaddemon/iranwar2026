@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2260,
+  "updateSequence": 2261,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T15:52:33.995Z",
+  "lastSyncedAt": "2026-08-25T16:20:45.675Z",
   "warDay": 179,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The conflict between the US and Iran continues with new sanctions, diplomatic messages, and incidents in the Strait of Hormuz, while Israel conducts strikes in Syria and escalates actions against Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-08-25",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 15,
-    "summary": "No formal ceasefire is active for the main US-Iran conflict, though a regional ceasefire is reportedly being exploited by Hezbollah."
+    "summary": "No active ceasefire or truce is currently in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,27 +28,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
-    "sanctionsPressure": 49,
-    "globalPressure": 55,
-    "allianceInfluence": 46
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 25",
-      "text": "US sends message through Pakistan to Iran regarding reopening Hormuz.",
+      "text": "US sends message through Pakistan to Iran regarding the reopening of the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2260
+      "latestSinceUpdate": 2261
     },
     {
       "date": "Aug 25",
@@ -76,35 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 25",
-      "text": "Iranian parliament advances plans for Strait of Hormuz service fees.",
+      "text": "Iranian parliament advances plans to impose service fees for passage through the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2260
+      "latestSinceUpdate": 2261
+    },
+    {
+      "date": "Aug 22",
+      "text": "Iran's military leader vows Tehran 'will not submit' as the US plans economic pressure.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2261
     },
     {
       "date": "Aug 25",
-      "text": "Israel strikes southern Syria; Damascus condemns attack.",
+      "text": "Israel strikes southern Syria; Damascus condemns the attack.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2260
+      "latestSinceUpdate": 2261
     },
     {
       "date": "Aug 25",
-      "text": "Iran state broadcaster claims over 50 facilities targeted in recent war with US and Israel.",
-      "severity": "info",
+      "text": "Iran state broadcaster claims over 50 facilities were targeted in the recent war with the US and Israel.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxOeE9tZWJOVDVzRG56VGdEdU5zWTk2d1RzdVBoYk5WYWxmVW1YUGlDcjJlNG1WZGl3R3JkNEJ6aEgtbTFpSEoxSlhMR0hSZzdxa0w1YnMzdWhJZlFLamp1SGRCRW1ETWR3M25IUms0LUU4NHZpSEVpcFRINmVYVWtteEE1WnlxWnRsV0JlV2NnTU5UYnBMQUFOMnhqRm1rUEVDRWdPMXR4dGd3VG1Kbll6aF9URjlqT1Y1YmlYODRzSmxWa0duaGkwZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2260
-    },
-    {
-      "date": "Aug 25",
-      "text": "Projectile strikes and disables oil tanker near Strait of Hormuz/off Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxNMzB0Q0pWY2VHaW9KVnA0SVI0YVNRdEUxV0VwYW8waFA3VGNac2lPVjFGaHdmdk5LTkNnbm5YRW1mazJtZjFjdUNIN0FZM0k4OG8xMHJyTktTRzF1OVR3QV80cklKdDNra2ViZy1wLXE1bzAzRUlBbXF2Rm55eXEzN2VsMlNkT0wzcjBHMEdxU3dmemFOUW1xcEdYbEtiZlJKUWJHeHAzMlgydmgzMm0xOU5yOFZPTm41VE5tV3J4V3RyaDY0MkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "TradeWinds News",
-      "latestSinceUpdate": 2260
+      "latestSinceUpdate": 2261
     }
   ],
   "sourceStatuses": [
