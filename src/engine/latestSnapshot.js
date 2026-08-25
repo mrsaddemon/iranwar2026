@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2255,
+  "updateSequence": 2256,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T11:36:21.965Z",
+  "lastSyncedAt": "2026-08-25T11:58:52.032Z",
   "warDay": 179,
-  "summary": "The US announced new sanctions against Iran, an oil tanker was attacked in the Strait of Hormuz, and Israel conducted strikes in southern Syria amid ongoing regional tensions and reports of Hezbollah exploiting a ceasefire for arms smuggling.",
+  "summary": "The US announced new sanctions against Iran and threatened its trade partners, while Iran's parliament advanced plans for Strait of Hormuz service fees and a ship was disabled by an attack in the strait; Israel struck southern Syria, and Hezbollah is reportedly exploiting a ceasefire for arms smuggling.",
   "lastNarrativeUpdate": "2026-08-25",
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 15,
-    "summary": "A ceasefire appears to be active, but Hezbollah is reportedly exploiting it to increase arms smuggling from Syria."
+    "summary": "A ceasefire appears to be in effect, but is reportedly being exploited by Hezbollah for arms smuggling and tensions remain high in Lebanon."
   },
   "actorOverrides": {
     "usa": {
@@ -18,13 +18,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.85,
@@ -37,22 +37,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 56,
+    "globalPressure": 67,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 23",
-      "text": "US promises 'economic D-Day' ahead of expected Iran sanctions and announces new sanctions against Iran.",
+      "text": "US official promises 'economic D-Day' ahead of new Iran sanctions",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2256
+    },
+    {
+      "date": "Aug 23",
+      "text": "US announces new sanctions against Iran",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2255
+      "latestSinceUpdate": 2256
     },
     {
       "date": "Aug 23",
-      "text": "Oil tanker attacked and disabled in the Strait of Hormuz off Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2255
-    },
-    {
-      "date": "Aug 23",
-      "text": "Iranian parliament advances plans for Hormuz service fees.",
+      "text": "Iranian parliament advances plans for Strait of Hormuz service fees",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2255
+      "latestSinceUpdate": 2256
     },
     {
       "date": "Aug 23",
-      "text": "Israel strikes southern Syria; Damascus condemns attack.",
-      "severity": "warning",
+      "text": "Israel strikes southern Syria; Damascus condemns attack",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2255
+      "latestSinceUpdate": 2256
     },
     {
       "date": "Aug 23",
-      "text": "Iran state broadcaster claims over 50 facilities targeted in recent war with US and Israel.",
-      "severity": "warning",
+      "text": "Iran state broadcaster claims over 50 facilities targeted by US and Israel",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxOeE9tZWJOVDVzRG56VGdEdU5zWTk2d1RzdVBoYk5WYWxmVW1YUGlDcjJlNG1WZGl3R3JkNEJ6aEgtbTFpSEoxSlhMR0hSZzdxa0w1YnMzdWhJZlFLamp1SGRCRW1ETWR3M25IUms0LUU4NHZpSEVpcFRINmVYVWtteEE1WnlxWnRsV0JlV2NnTU5UYnBMQUFOMnhqRm1rUEVDRWdPMXR4dGd3VG1Kbll6aF9URjlqT1Y1YmlYODRzSmxWa0duaGkwZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2255
+      "latestSinceUpdate": 2256
     },
     {
       "date": "Aug 23",
-      "text": "Hezbollah is reportedly exploiting a ceasefire to increase arms smuggling from Syria.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2255
+      "text": "Ship disabled by attack in Strait of Hormuz",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQZ1dHYXRTbzFJcmg3OFNsQVYyMkhtb3ZEVlZ3c0hSRWJqQllzOWZXUlBEdks4YTYxcWUzeXdfa3pUMGFzNzZ5dFM3bWdFRTFEcWNTWWF3eGtOaHh3el9DeXNqLTlPWjdYTVFpbXVRcFlMRHEyUXBkNVVuVHY2STRqT3RBZUFBU19wZ0wyZHUxTGxMNDE4dE9pag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Pioneer Press",
+      "latestSinceUpdate": 2256
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
