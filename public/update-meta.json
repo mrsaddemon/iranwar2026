@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2253,
+  "updateSequence": 2254,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T10:14:53.198Z",
+  "lastSyncedAt": "2026-08-25T10:55:47.578Z",
   "warDay": 179,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "No broad ceasefire is active in the US-Iran conflict, though a local ceasefire involving Hezbollah is reportedly being exploited."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }
