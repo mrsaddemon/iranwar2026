@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2246,
+  "updateSequence": 2247,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T05:18:22.054Z",
+  "lastSyncedAt": "2026-08-25T05:50:48.147Z",
   "warDay": 179,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 30,
-    "summary": "A ceasefire is reportedly in effect but is being exploited by Hezbollah for arms smuggling and violated by Israeli strikes in Gaza."
+    "summary": "No active ceasefire or de-escalation efforts are reported; tensions remain high with new sanctions and military actions."
   }
 }

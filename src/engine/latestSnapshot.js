@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2246,
+  "updateSequence": 2247,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T05:18:22.054Z",
+  "lastSyncedAt": "2026-08-25T05:50:48.147Z",
   "warDay": 179,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The US has announced new sweeping sanctions against Iran, prompting warnings of a harsh response from Tehran, while oil continues to move through the Strait of Hormuz amid regional tensions and US military re-prioritizations.",
   "lastNarrativeUpdate": "2026-08-25",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 30,
-    "summary": "A ceasefire is reportedly in effect but is being exploited by Hezbollah for arms smuggling and violated by Israeli strikes in Gaza."
+    "summary": "No active ceasefire or de-escalation efforts are reported; tensions remain high with new sanctions and military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 48,
-    "oilDisruption": 65,
-    "tradeImpact": 47,
-    "sanctionsPressure": 54,
-    "globalPressure": 61,
-    "allianceInfluence": 46
+    "nuclearIndex": 45,
+    "escalationLevel": 70,
+    "oilDisruption": 60,
+    "tradeImpact": 56,
+    "sanctionsPressure": 61,
+    "globalPressure": 74,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 23",
-      "text": "US announces new sanctions against Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2246
-    },
-    {
-      "date": "Aug 23",
-      "text": "Bessent promises 'economic D-Day' ahead of expected Iran sanctions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2246
-    },
-    {
-      "date": "Aug 23",
-      "text": "Fireball in central Gaza as Israeli strike kills child.",
+      "text": "US announces sweeping new set of sanctions against Iran, with Bessent promising an 'economic D-Day'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNOGhLcXVlSk1ra05MV2ljYWJIWU4zSkF5djlycnZpMS12RE5CNW9Ia3JybF9pejdUQk14dHppRlg3OU1kM0hpbUpEMm1yVDBNd1dneWF1dVZ5Z1lpV2tUY2ZBTm5tb3J2SDdNN1dOUTNlUWVKc0U3RzNZdk4tQ3ZlYk83QkRVclMtYTNqQ0NHTHNRRnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2246
+      "latestSinceUpdate": 2247
     },
     {
       "date": "Aug 23",
-      "text": "Israel strikes southern Syria; Damascus condemns attack.",
+      "text": "Iran warns of a harsh response to anticipated US sanctions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNY2JoQ0VHWjRHSW9xVVVFQ0J4eUN0RC1pRFdSU0hUajg2dDU0SU9vMDcwd3g4TVFmeWF4VDNTLUlyUld3Z19KU092SjlmdDVfYi1fNXdsLWx5TFhxaloyZEk4QnpJalNtZzhESWtGeHlzcDNwbnJfcUNUM0hNOTVlejBYNXA2Q05XNEZRNGVYVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Chicago Tribune",
+      "latestSinceUpdate": 2247
+    },
+    {
+      "date": "Aug 23",
+      "text": "Israel strikes southern Syria; Damascus condemns the attack.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2243
+      "latestSinceUpdate": 2247
     },
     {
       "date": "Aug 23",
-      "text": "IMO reports 20 dead in 68 incidents near Strait of Hormuz over six months of war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNMmRDYmZDNDV4cUJCS2VQMExsSnlCZWhpSTEtZUFNMDJvbV9MRmsySUN4SWd5RElPenNidXdjSTdhRmNTUUM0V3N3YkdrdmNMRGJ1VlVWNm4tS0FwRklrRWVQWUgxRFhlYlVYNHUyQTh0Y2xNcHdFUklneFRfSnRoODVsVm9PUnhMWG1hbUZENGFIMURtN2NTS2VuR3ExS2QwakZrSEpyeGU0czE0R2lHNdIBtgFBVV95cUxNWEFqSFJyNmZzU25VcWJrdWdYM0xOZ0hKZmQ1dzAxeEJ6Q2p3d2Rhc0plcGJiODVRR2dodXN5eDB0akIwZ1IwaHBOQmJkR2lUdFRzdGkzcUhsTHVRSUNfZ1lnSDFQRlVwem1SR3hmVjJSNG1pSThBZVRoVC1tQTV6OTVwUkhsUi03aUtwOWxBbHczbm04eEhMczN2dE0yMXJTVEJyMjJjcGNzZkN5T2ZqWVJTUnVLQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Inquirer.net",
-      "latestSinceUpdate": 2246
+      "text": "TotalEnergies reports profitably moving heavily discounted oil through the Strait of Hormuz, despite US claims that trackers can't find it.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxNMlpTanlXRFd4X0JwM2o1eG05R0JFQTcwVG5CZHBlMzBLU0JCcWtsaFJLUnl0ZzRhVW9BZkNnN1ppQ25rVmZzV3pZYS1mSFRybThxcDlWcnRnRW9nUjNPT2VWcWh3X0VCUGdFWkNwdFU2eUFqZTBELUdKbWZYU2NFWkQzRDZyRXd5M0k0SG1LM1lmNHF5VnctdUhfdHBsY3ZRT3J0UWVfdzBLZHdsa3VSdmRQN3ZKZWxjMlI1OUVQZGJGQ29USU9Da1pPRk4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2247
     },
     {
       "date": "Aug 23",
-      "text": "Hezbollah said to be exploiting ceasefire to increase arms smuggling from Syria.",
+      "text": "Hezbollah states new US sanctions 'will not deter' its fight against Israel, as Iran is reported to be smuggling weapons to Hezbollah through Syria.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNZV9UZnlGYlZiR2hqd1A5SDdEcDN1U2RHdWhvODlyQTZtWk43V0l3RE1HVnhxMFlaTF9ZVEtwVm1zdEEwWmFIX2JTbENkZDRxWWoyUTNCdHpVYjdLdGx1MkdUQjZNN1ppNlVnTUhRTENpRk41S0d6SkwzZHU0ZGZ3eVppVV9LbGE1U2sxdXItSWZuSzhpLXFuaEZ5bHZXbEXSAaQBQVVfeXFMTnlQeVVQZDJKVjRoejZVVW1uVjU5UXRhdzVfR1lxVS1rUmZOMWVvd2hLN0dmNzBCQ0EzeXhmTm5GYW0zcGotNXo5OXVTQ3ZlZkk4NzN4c3FLeDRrTV95Z19xX0ZIbXdpc3RUelpsT3JQTUdZcVNxRmFyNm9pWXNmLWROQ2YwRHhjN0FYY1lyMEZvcUhiWkRkUmthaXBUWWlyVUdpeDU?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2245
+      "latestSinceUpdate": 2247
+    },
+    {
+      "date": "Aug 23",
+      "text": "US Marines cancel a drill with South Korea and withdraw from military exercises, citing Iran War demands.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2247
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
