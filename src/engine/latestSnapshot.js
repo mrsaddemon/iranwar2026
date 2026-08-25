@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2241,
+  "updateSequence": 2242,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T00:24:06.098Z",
+  "lastSyncedAt": "2026-08-25T02:04:51.996Z",
   "warDay": 179,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-25",
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "A ceasefire appears to be in effect, but Hezbollah is reportedly exploiting it to increase arms smuggling from Syria and maintain force in security zones."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 38,
-    "oilDisruption": 60,
-    "tradeImpact": 34,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
-    "allianceInfluence": 46
+    "nuclearIndex": 40,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 25",
-      "text": "August 23, 2026 — Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2241
-    },
-    {
-      "date": "Aug 25",
-      "text": "Iran war updates: US announces new sanctions against Iran",
-      "severity": "info",
+      "date": "Aug 23",
+      "text": "US announces new sanctions against Iran, with Bessent promising 'economic D-Day'.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2241
+      "latestSinceUpdate": 2242
     },
     {
-      "date": "Aug 25",
-      "text": "Iran war latest: Fireball in central Gaza as Israeli strike kills child",
+      "date": "Aug 23",
+      "text": "Iran threatens 45 tankers with fines and confiscation in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNOGhLcXVlSk1ra05MV2ljYWJIWU4zSkF5djlycnZpMS12RE5CNW9Ia3JybF9pejdUQk14dHppRlg3OU1kM0hpbUpEMm1yVDBNd1dneWF1dVZ5Z1lpV2tUY2ZBTm5tb3J2SDdNN1dOUTNlUWVKc0U3RzNZdk4tQ3ZlYk83QkRVclMtYTNqQ0NHTHNRRnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2241
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2242
     },
     {
-      "date": "Aug 25",
-      "text": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNMGtWdFJrYW5jZkhTT0FDNHNPT296YmNFWmZKS3lZd3h0djJjWU1DWGw0WEFvX2xweUxQVjZzYXRUWW1QMnNSMFdYSDg4Z2hYSThMOXFYZ2FlekxXa3dfYkVKSFhiR1FYdmF1aTNsRm91WUJ2ajB5LTJqWHAzT0l6bnA4STBHVVhRRzhkTGNRbnE1eU5fWGEyeVpjdlFwUU5OM2diQ2VieG4wWVVsU2dR0gG0AUFVX3lxTE00VTNla2wwcnVaLW9RZ1c1alZuUjI1LVcxZlF3VHZPU01rZmhEal9pVDhpa2xHZFRSUXhQRDZjVHloZTdpRkxhNEMxelZWUUJXRndRT2hrNVlCOXoybUlHN0x1dXQyODI3Vm9jbDEtNk1wcWZ1ckJDZ2xCNEo1YXFsbEJWZGRwYjA2RGtBVmNZN1hkQUVJckJvNWYzdlBkMzU0d1pSYkhLNXdxSkY0QjROb21ubA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2241
+      "date": "Aug 23",
+      "text": "Israel strikes southern Syria; Damascus condemns the attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2242
     },
     {
-      "date": "Aug 25",
-      "text": "Iran War: Latest News, Live Coverage and Video",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2241
+      "date": "Aug 23",
+      "text": "Hezbollah is reportedly exploiting a ceasefire to increase arms smuggling from Syria.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNQ21mekFoVDJkaEt3TFhnRFY2VkU4S3Rjc3N5UXFNVDVVWGhKSWEtRjhtRS1CekRjVkRsSUZhZk0yOE1PU1AxdXNjWE5UNjIwWnlPVFdleWFOSVNvNXZEbThGN1I4d2JKYTh4WWw2T2tTcHJ4RlJ6QjRvbl85bDc0Y1BtZ05IM2hOelIzQkVMYW1MY0dseFRNZWdfS0MwazcwaFFaX1lzVFM4YzNtZUM1eVd1VFQxZUhLenhMendnaHRKVGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2242
     },
     {
-      "date": "Aug 25",
-      "text": "Iran warns of a harsh response to anticipated US sanctions and other Middle East news",
+      "date": "Aug 23",
+      "text": "U.S. Marines cancel a drill with South Korea, citing Iran War demands.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNY2JoQ0VHWjRHSW9xVVVFQ0J4eUN0RC1pRFdSU0hUajg2dDU0SU9vMDcwd3g4TVFmeWF4VDNTLUlyUld3Z19KU092SjlmdDVfYi1fNXdsLWx5TFhxaloyZEk4QnpJalNtZzhESWtGeHlzcDNwbnJfcUNUM0hNOTVlejBYNXA2Q05XNEZRNGVYVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Chicago Tribune",
-      "latestSinceUpdate": 2241
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2242
     }
   ],
   "sourceStatuses": [
