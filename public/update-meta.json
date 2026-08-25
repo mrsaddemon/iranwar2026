@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2258,
+  "updateSequence": 2259,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T13:56:56.882Z",
+  "lastSyncedAt": "2026-08-25T14:55:21.847Z",
   "warDay": 179,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 15,
-    "summary": "A ceasefire is reportedly being exploited by Hezbollah for arms smuggling, indicating its fragile status amid continued Israeli occupation."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict remains active."
   }
 }
