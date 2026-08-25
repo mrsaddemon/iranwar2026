@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2245,
+  "updateSequence": 2246,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T04:48:04.076Z",
+  "lastSyncedAt": "2026-08-25T05:18:22.054Z",
   "warDay": 179,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-08-25",
@@ -10,15 +10,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 30,
-    "summary": "A ceasefire appears to be active, but reports indicate Hezbollah is exploiting it to increase arms smuggling from Syria."
+    "summary": "A ceasefire is reportedly in effect but is being exploited by Hezbollah for arms smuggling and violated by Israeli strikes in Gaza."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.7
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 25,
     "escalationLevel": 48,
-    "oilDisruption": 75,
-    "tradeImpact": 55,
+    "oilDisruption": 65,
+    "tradeImpact": 47,
     "sanctionsPressure": 54,
-    "globalPressure": 63,
-    "allianceInfluence": 51
+    "globalPressure": 61,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,27 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 23",
-      "text": "US announces sweeping new set of sanctions against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2245
-    },
-    {
-      "date": "Aug 23",
-      "text": "Iranian parliament advances plans for Hormuz service fees.",
+      "text": "US announces new sanctions against Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2245
+      "latestSinceUpdate": 2246
     },
     {
       "date": "Aug 23",
-      "text": "Iran threatens 45 tankers with fines and confiscation in Hormuz escalation.",
+      "text": "Bessent promises 'economic D-Day' ahead of expected Iran sanctions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2246
+    },
+    {
+      "date": "Aug 23",
+      "text": "Fireball in central Gaza as Israeli strike kills child.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2245
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNOGhLcXVlSk1ra05MV2ljYWJIWU4zSkF5djlycnZpMS12RE5CNW9Ia3JybF9pejdUQk14dHppRlg3OU1kM0hpbUpEMm1yVDBNd1dneWF1dVZ5Z1lpV2tUY2ZBTm5tb3J2SDdNN1dOUTNlUWVKc0U3RzNZdk4tQ3ZlYk83QkRVclMtYTNqQ0NHTHNRRnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2246
     },
     {
       "date": "Aug 23",
@@ -92,11 +92,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 23",
-      "text": "U.S. Marines cancel drill with South Korea, citing Iran War demands.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2245
+      "text": "IMO reports 20 dead in 68 incidents near Strait of Hormuz over six months of war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNMmRDYmZDNDV4cUJCS2VQMExsSnlCZWhpSTEtZUFNMDJvbV9MRmsySUN4SWd5RElPenNidXdjSTdhRmNTUUM0V3N3YkdrdmNMRGJ1VlVWNm4tS0FwRklrRWVQWUgxRFhlYlVYNHUyQTh0Y2xNcHdFUklneFRfSnRoODVsVm9PUnhMWG1hbUZENGFIMURtN2NTS2VuR3ExS2QwakZrSEpyeGU0czE0R2lHNdIBtgFBVV95cUxNWEFqSFJyNmZzU25VcWJrdWdYM0xOZ0hKZmQ1dzAxeEJ6Q2p3d2Rhc0plcGJiODVRR2dodXN5eDB0akIwZ1IwaHBOQmJkR2lUdFRzdGkzcUhsTHVRSUNfZ1lnSDFQRlVwem1SR3hmVjJSNG1pSThBZVRoVC1tQTV6OTVwUkhsUi03aUtwOWxBbHczbm04eEhMczN2dE0yMXJTVEJyMjJjcGNzZkN5T2ZqWVJTUnVLQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Inquirer.net",
+      "latestSinceUpdate": 2246
     },
     {
       "date": "Aug 23",
@@ -110,7 +110,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
