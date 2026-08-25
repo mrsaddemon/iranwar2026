@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2259,
+  "updateSequence": 2260,
   "lastUpdated": "2026-08-25",
-  "lastSyncedAt": "2026-08-25T14:55:21.847Z",
+  "lastSyncedAt": "2026-08-25T15:52:33.995Z",
   "warDay": 179,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 15,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict remains active."
+    "summary": "No formal ceasefire is active for the main US-Iran conflict, though a regional ceasefire is reportedly being exploited by Hezbollah."
   }
 }
