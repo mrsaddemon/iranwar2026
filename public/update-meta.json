@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2284,
+  "updateSequence": 2285,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T08:02:34.186Z",
+  "lastSyncedAt": "2026-08-26T08:54:34.721Z",
   "warDay": 180,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No general ceasefire is in effect; negotiations are focused on a temporary reopening of the Strait of Hormuz."
+    "summary": "No ceasefire or de-escalation efforts are currently reported as active or successful."
   }
 }
