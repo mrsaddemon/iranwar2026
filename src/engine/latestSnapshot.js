@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2278,
+  "updateSequence": 2279,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T03:27:31.806Z",
+  "lastSyncedAt": "2026-08-26T04:18:31.503Z",
   "warDay": 180,
   "summary": "The US has announced new sanctions against Iran, escalating economic pressure, while tensions remain high in the Strait of Hormuz following a tanker strike and ongoing disputes over its reopening.",
   "lastNarrativeUpdate": "2026-08-26",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 15,
-    "summary": "No active ceasefire or de-escalation efforts are reported; tensions remain high."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 23",
-      "text": "US announces new sanctions against Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 26",
+      "text": "Iran war updates: Tehran says Oman deal on Hormuz does not mean strait open",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2278
+      "latestSinceUpdate": 2279
     },
     {
-      "date": "Aug 23",
-      "text": "Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions.",
-      "severity": "warning",
+      "date": "Aug 26",
+      "text": "August 23, 2026 — Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2278
+      "latestSinceUpdate": 2279
     },
     {
       "date": "Aug 26",
-      "text": "New Tanker Strike in Hormuz as Iran Vows Retaliation for U.S. Economic Offensive.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxOc1RqdS1KRFNQWVJLVnVQM0wtM0JmN3F4YUNSeFZlcUhlTHhxR1R5cVJwTFlLUmQ4Wkt3OUtfYkNQUlBIZVdWOHZuLTNiUmh0QS1lMTh0bWVXUXhWdjJtbjcxZzZ6ZHE0VUI1dk5tZWZJSDJQemZMZkIyeXVTRHZHUlo3dHlSZWdfeDJvYWU2cDBtcXpVSWcyN01vQUZxeDZBZnVSY0cxVU9oNDhWNmlLaTZOdDAzWFd3WXdkVmt1bG03MXND?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 2278
-    },
-    {
-      "date": "Aug 26",
-      "text": "Projectile strikes, disables tanker near Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQLUFYakxBZUI5OWNmRXRBMGk2aTZsdHpCOTFWSWpfWFVZVEpKcHY2cE9KV210QzZDeXpibGJJbFJzWWI1Z0lWdjlvMHJEbndpT1FhUFJLalEwdC13RGVyU0RSSGNZVlZrVnpTZmJZWW1SMDV5YWVXaUstMW1NdDZ5WVlqR2VWXzlQTnFfSGk4SVFUZnkxZ09weNIBngFBVV95cUxQckhFdFAtMGdJOV9PRTh6XzNBUldVaVVabEVCSVY5a0VwXzJsMURaUjVVN094WlRxWjczbU5kS0ctcmFqSEpUd1VXUTlPNDZQM1BGb1U0RGxqZFFzYlRaQmlfLXJubk1zUTVNN0FPNTdhTG9iUkc2WVZBa2pJbDhYcUk1M0x6b25aZVduTjAyQ2llWmw5OU5CYTVvLTZBdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "upi.com",
-      "latestSinceUpdate": 2278
-    },
-    {
-      "date": "Aug 26",
-      "text": "Sixty More U.S. Soldiers Reported Injured in Iran War.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxQckQ4U0tRc3pybURoVlN1T0tZQ3ZqUGRnUFY0T3RrNXluNnV5UkM1RXRyeXVJSVFNbWh5bzdQZmR5dUR1Tk5WYXZaZTFYQ2FRTWxNT3plcE5jaG5Rckp4Z1RKTHhxU1owNTloejRCNmFTbHpUYnB1b2ZKeXlobGd3UTVkc3VyMGtmSEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Intercept",
-      "latestSinceUpdate": 2278
-    },
-    {
-      "date": "Aug 26",
-      "text": "Iran, Oman Push Talks for ‘Interim’ Reopening of Hormuz Strait.",
+      "text": "Iran war latest: US sends message through Pakistan to Iran on reopening Hormuz",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPbWdvcExZTXluazQtMWpQT01taDk2LTl6MTdIcXl3U1NqTE8yYU9iblI0RTBjTkdJSmMtSGJidjZQR3V2UEJRVDM3eGg5dzdreG03YjRVMEVtTF8xR24zT3RJY05lQmh5ZUozbXQySFNQc3hWNnhhSFE5YnhyQko1dzRfWnlUS25yaW1wclU1cEd5ZWk3bTVZczBfZHNVX1BjSjNTWnhKbmd1aHlKajNr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Bloomberg.com",
-      "latestSinceUpdate": 2278
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2279
+    },
+    {
+      "date": "Aug 26",
+      "text": "Iran war updates: US announces new sanctions against Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2279
+    },
+    {
+      "date": "Aug 26",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2279
+    },
+    {
+      "date": "Aug 26",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1mNzVjd2pfX0Rjd1NuWFpwRXc5Q1JHRnQ5SGRQTUNQOEtxZ0g5NDNBdU1QenpGR253Ry1hSFhxbERqWlZqX01NSEdKRjNsa2FsbGlSRDNMVURYaldKdG03c0V6OThGdE1ZZy1RT3hQWkQ1Um9NbFdXOFZ3ZDEwTzQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2279
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
