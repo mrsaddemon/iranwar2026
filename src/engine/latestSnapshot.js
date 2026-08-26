@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2291,
+  "updateSequence": 2292,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T13:09:30.626Z",
+  "lastSyncedAt": "2026-08-26T14:06:42.964Z",
   "warDay": 180,
-  "summary": "The Iran war continues on day 180 with ongoing US-Iran tensions over sanctions and the Strait of Hormuz, while Israel conducts strikes in southern Lebanon amidst reports of US casualties.",
+  "summary": "The ongoing Iran war continues with reports of US casualties and Iranian strikes on US intelligence sites, while negotiations and disputes persist regarding the reopening of the Strait of Hormuz amidst US threats of economic sanctions and Israeli military actions in southern Lebanon.",
   "lastNarrativeUpdate": "2026-08-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or truce is reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,11 +42,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
     "globalPressure": 82,
     "allianceInfluence": 51
   },
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 26",
-      "text": "Iran Update, August 25, 2026",
+      "date": "Aug 25",
+      "text": "Iran war updates indicate ongoing conflict and developments.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQZnRSMmlua1JaLXROenlWcFhPNFJOWnF5YVZqLTk0Z1NMVE15V25iVWJCNzk5S0ROVnBHVlNQMzdjSVlCSFdJSXc4MnU2ODZWdUZXUm5maEJSaUJISVRhNWZKdjljb3otN1IybXZDc2JaUGdaa0ZtSlFNd1VSM2ZHRE5mUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2290
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2292
     },
     {
-      "date": "Aug 26",
-      "text": "August 25, 2026 – Iran war latest",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2290
-    },
-    {
-      "date": "Aug 26",
-      "text": "August 23, 2026 — Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions",
-      "severity": "info",
+      "date": "Aug 23",
+      "text": "Bessent promises 'economic D-Day' ahead of expected Iran sanctions.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2290
+      "latestSinceUpdate": 2292
     },
     {
-      "date": "Aug 26",
-      "text": "Iran updates: Iran, Oman discuss Hormuz; Tehran dismisses Trump’s threats",
+      "date": "Aug 25",
+      "text": "Iran and Oman discuss the Strait of Hormuz, with Tehran dismissing US threats.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNTWZtMDBMZHMxY3Y2bFg0R0hzYlJMaUMza2ZhXzAtaG5UNlk2X1hIQVJBcWxLMzBCZ2pPY2Q1R09IWlFMYnhSbUVmRUNqSHFVZmxhY0VrUkpaVW5iZFBOT0w5c2h2UHBYZ1hja0hnb2ctRnpfRnlENFRjVmIxbEJIVGxkb0E3b0t0Y3oyZWZnMVBqeGZMdE1wMURyS2tmbkliak16NlhlLV9ieTVQTDd1VGdwWnhkQdIBuwFBVV95cUxQLS1ucTVGS2NYdm0xanM1Z1RQbTFOY1h0azNGTzJLblk1YWozaUtzWExSNHQxS1dOS0VsVldTX0dJU0hPSW9xRmJWdFdGX1p3aXBsM0hEZ3Y3QTViWmFWdG1SYXJPbEtjTEFjbnh1X2pLS0xZR3Jsekk4alY3TGZ2WnJZNVFqcGQyazZDT3Y1VU1ibEtDMDFYTW45a3FpSTNyNFA3S1BNVXZlRktuaGpkVUVxd1o2V0hneEtj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2291
+      "latestSinceUpdate": 2292
     },
     {
-      "date": "Aug 26",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1mNzVjd2pfX0Rjd1NuWFpwRXc5Q1JHRnQ5SGRQTUNQOEtxZ0g5NDNBdU1QenpGR253Ry1hSFhxbERqWlZqX01NSEdKRjNsa2FsbGlSRDNMVURYaldKdG03c0V6OThGdE1ZZy1RT3hQWkQ1Um9NbFdXOFZ3ZDEwTzQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2291
-    },
-    {
-      "date": "Aug 26",
-      "text": "Iranian strikes caused billions in damage to US intelligence sites: Report",
-      "severity": "info",
+      "date": "Aug 25",
+      "text": "Report indicates Iranian strikes caused billions in damage to US intelligence sites.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2290
+      "latestSinceUpdate": 2292
+    },
+    {
+      "date": "Aug 25",
+      "text": "Iran warns of a military ship ban in Hormuz under a potential deal with Oman.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxQNURuNk0wT05tY0NDV05DTENVbXpmdEtqbmVzNGVpenRfSk1CMUJHUFVEZTlPMnVhLUdOUFZfdmgtd216RmF0SDJOWE9lNldfQlJpTmNTMTlGUjBnNmtzbkFwVjhWcjhrTVp3YVRCSjdRRXlyTTlUUThHMjd6SjR0V2RwcGV0NlBXdEJCekRtd1I3b3RNSWI0Mng3SmFsVThMcEppZjNVUjVpa0lOVVhjZU8zRGhXakJVTjNLWlRlQlh3Nkd0azdlUlNwMmhhZEpYVldWWXNHZ1dHcWNO?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2292
+    },
+    {
+      "date": "Aug 25",
+      "text": "Rubio reportedly informs allies that the US is shifting from strikes to sanctions on Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOWi1rb2R1Q1lFYmdwNVphZE85Nmh3bnZRLVpBcUVfV2N5WWlsRGRaUllFTERhLWxvX3JKUy1qMXd6cS1LWDNZVFpnVlBtakVCMGJDQXJjck9CV0NhNGwxWlNEeEtMNFBSV0RqNUp5QnRyRGNuOXZPNzd2OU4zYXNtSXRvM21nODFuUVlmcE5XOXFCaHJTeURLVzh3OFFRcG53VXNF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Muslim Network TV",
+      "latestSinceUpdate": 2292
     }
   ],
   "sourceStatuses": [
