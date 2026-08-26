@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2290,
+  "updateSequence": 2291,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T12:00:18.665Z",
+  "lastSyncedAt": "2026-08-26T13:09:30.626Z",
   "warDay": 180,
   "summary": "The Iran war continues on day 180 with ongoing US-Iran tensions over sanctions and the Strait of Hormuz, while Israel conducts strikes in southern Lebanon amidst reports of US casualties.",
   "lastNarrativeUpdate": "2026-08-26",
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 26",
-      "text": "August 25, 2026 – Iran war latest",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2290
-    },
-    {
-      "date": "Aug 26",
       "text": "Iran Update, August 25, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQZnRSMmlua1JaLXROenlWcFhPNFJOWnF5YVZqLTk0Z1NMVE15V25iVWJCNzk5S0ROVnBHVlNQMzdjSVlCSFdJSXc4MnU2ODZWdUZXUm5maEJSaUJISVRhNWZKdjljb3otN1IybXZDc2JaUGdaa0ZtSlFNd1VSM2ZHRE5mUQ?hl=en-US&gl=US&ceid=US:en",
@@ -76,10 +68,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 26",
-      "text": "Iran war latest: Omani foreign minister says talks on Hormuz in Tehran were 'constructive",
+      "text": "August 25, 2026 – Iran war latest",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": null,
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
       "latestSinceUpdate": 2290
     },
     {
@@ -92,18 +84,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 26",
+      "text": "Iran updates: Iran, Oman discuss Hormuz; Tehran dismisses Trump’s threats",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNTWZtMDBMZHMxY3Y2bFg0R0hzYlJMaUMza2ZhXzAtaG5UNlk2X1hIQVJBcWxLMzBCZ2pPY2Q1R09IWlFMYnhSbUVmRUNqSHFVZmxhY0VrUkpaVW5iZFBOT0w5c2h2UHBYZ1hja0hnb2ctRnpfRnlENFRjVmIxbEJIVGxkb0E3b0t0Y3oyZWZnMVBqeGZMdE1wMURyS2tmbkliak16NlhlLV9ieTVQTDd1VGdwWnhkQdIBuwFBVV95cUxQLS1ucTVGS2NYdm0xanM1Z1RQbTFOY1h0azNGTzJLblk1YWozaUtzWExSNHQxS1dOS0VsVldTX0dJU0hPSW9xRmJWdFdGX1p3aXBsM0hEZ3Y3QTViWmFWdG1SYXJPbEtjTEFjbnh1X2pLS0xZR3Jsekk4alY3TGZ2WnJZNVFqcGQyazZDT3Y1VU1ibEtDMDFYTW45a3FpSTNyNFA3S1BNVXZlRktuaGpkVUVxd1o2V0hneEtj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2291
+    },
+    {
+      "date": "Aug 26",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1mNzVjd2pfX0Rjd1NuWFpwRXc5Q1JHRnQ5SGRQTUNQOEtxZ0g5NDNBdU1QenpGR253Ry1hSFhxbERqWlZqX01NSEdKRjNsa2FsbGlSRDNMVURYaldKdG03c0V6OThGdE1ZZy1RT3hQWkQ1Um9NbFdXOFZ3ZDEwTzQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2291
+    },
+    {
+      "date": "Aug 26",
       "text": "Iranian strikes caused billions in damage to US intelligence sites: Report",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2290
-    },
-    {
-      "date": "Aug 26",
-      "text": "Iran War: Latest News, Live Coverage and Video",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
       "latestSinceUpdate": 2290
     }
   ],
