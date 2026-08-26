@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2294,
+  "updateSequence": 2295,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T16:24:17.061Z",
+  "lastSyncedAt": "2026-08-26T18:20:17.311Z",
   "warDay": 180,
-  "summary": "The war between the US and Iran continues, marked by ongoing talks and an accord between Iran and Oman regarding the Strait of Hormuz, while Israel conducts strikes in southern Lebanon.",
+  "summary": "The conflict between the US and Iran continues, marked by US casualties, Iranian strikes, and ongoing tensions over the Strait of Hormuz, while Israel and Hezbollah remain engaged in hostilities.",
   "lastNarrativeUpdate": "2026-08-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported between the primary belligerents, with the conflict ongoing."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.65,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 45,
     "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
     "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 25",
-      "text": "Iran and Oman reached an accord on the Strait of Hormuz, according to the Revolutionary Guards.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNSlNYeEdXSk9RSTdWVnZwNWVQQzdPMDRqZmpxbW5rYlN6emhXUDZWbHhPTjRaUU1LejhXZnpPNUg4dlMxbER4WE9vQnhDN2ZLUHFzUHN5czhKc245Ny1xMFR5Q0U5VzQtYWVXNnlBaTJDYU5RcklwVmlEZWxGd0ljSlFPcjAwTkRWMVNnRFUtNFljYmhaZEc2QjJjZEZDZDhPdW9WNUVwUmZMQU5DbzAxQkNudw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2294
-    },
-    {
-      "date": "Aug 25",
-      "text": "Tehran clarified that the Oman deal on Hormuz does not mean the strait is fully open.",
+      "text": "Tehran states that an Oman deal on Hormuz does not mean the strait is open.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2294
+      "latestSinceUpdate": 2295
     },
     {
       "date": "Aug 25",
-      "text": "Iran stated the U.S. is obstructing a Hormuz deal amid ongoing talks with Oman.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1jOUFCMjg1c0xRdGhQS1BBdzczQTF5Y2oyaThSN0JLblRpZFRwOW9SQU43bmxaY3FsZE85bGRJbDBBNUVDSzEtdEFVV1RoR1pCMWlGMmc5STN1SHBCbHBMbXk3b3hYdHRNbnFZQ21n0gFzQVVfeXFMTVM2NDQ2amJfcHlFN0tDTGFNODhiMldlYVRzdnFOMklqajVfekp1eVNxOUoxWFN5ZGxXczJZc0tGb1VhRkpzYWFRQXdkUEhLZjZkbERPYkZyZkswd01wQUg0aXBHRzVEcjVTX2FoYzJyaXNOMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2294
-    },
-    {
-      "date": "Aug 25",
-      "text": "Iran warned of a potential military ship ban in the Strait of Hormuz under a deal with Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNTUxNU1FHTmNSNmlkQ3pyV05DRnlpWGl0U2I2Nm10Z3BkWTNEWVh4LTZsamNUWHBvOThOa1h6ZkZxSEdyTy1jclJMQUE0RHVuZUU2ZWZWUmQ2TnRlQ0t2VmduUlNsemdVNHFVd1g0Zl90SHhiYzdaeFVBT18yZFJ0eF9MMXRjcWFVWXVINXhhOFI1c19LdExYSFpiLVg0bW9qUl9XZHEwQmRNaHRq?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2294
-    },
-    {
-      "date": "Aug 25",
-      "text": "Trump claimed all mines have been cleared from the Strait of Hormuz.",
+      "text": "Trump claims Iran’s supreme leader is 'very seriously wounded' but likely still alive.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1tNi16cVlvMnN2YWdPQWdTOVdLYTFYVmFsRE5haGxwWS01blp5eFR0R0JUbi1ZMHJkRk44bnY1RnVrM3QzczI0RjNydDNqUTc1Nnl0QXp5ZjIwdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2294
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxORFRBRy04UWxZeDRqeFB4a2o4UzROWUxSalZ0S3BCeDJzSjVHaG0ySDRjQzduYjhNY1NVR0Z5Zm9DcjFXbXVGZmhiRGoycmdGQ2RoRV91Q0JlT1N2aDh0T3BVQjRxSmo0RDNUdGZpbDNldFVsVTVpME5ZZlVYcE9YSw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2295
     },
     {
       "date": "Aug 25",
-      "text": "Reports indicate Iranian strikes caused billions in damage to US intelligence sites.",
+      "text": "Report indicates Iranian strikes caused billions in damage to US intelligence sites.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2294
+      "latestSinceUpdate": 2295
+    },
+    {
+      "date": "Aug 25",
+      "text": "Iran warns of a military ship ban in Hormuz under a potential deal with Oman.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxObmpSZDNOS1Y3dzBpNmRpWjRtbXEtTG1HR24wcE9jODR2ZEVpWko5Z3VJbHpaTnkzeE1aRlRKMDFOWjRxRmhCWU5uZ21wRG9ia0c2V2pEWE8wZTlKczJJVW1OaGVIcE9JWTROdHNXY0F2LWpSdkFYZUV2ajdIUHFobDZZS1p3X1FkMEVJNkoxQjBEWVhTNVQ1Vm5hQ3dhSTZpc0taMHlsUzA1MlZJZ09nUnNBcHVCQ0Focmh0bA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Audacy",
+      "latestSinceUpdate": 2295
+    },
+    {
+      "date": "Aug 25",
+      "text": "Iran and Oman reportedly agree to share Strait of Hormuz revenue, according to IRGC.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2295
+    },
+    {
+      "date": "Aug 25",
+      "text": "Sixty more U.S. soldiers are reported injured in the Iran War.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2295
     }
   ],
   "sourceStatuses": [
