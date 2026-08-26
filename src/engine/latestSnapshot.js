@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2289,
+  "updateSequence": 2290,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T11:36:56.411Z",
+  "lastSyncedAt": "2026-08-26T12:00:18.665Z",
   "warDay": 180,
   "summary": "The Iran war continues on day 180 with ongoing US-Iran tensions over sanctions and the Strait of Hormuz, while Israel conducts strikes in southern Lebanon amidst reports of US casualties.",
   "lastNarrativeUpdate": "2026-08-26",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 25",
-      "text": "Omani foreign minister says talks on Hormuz in Tehran were 'constructive'.",
+      "date": "Aug 26",
+      "text": "August 25, 2026 – Iran war latest",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2290
+    },
+    {
+      "date": "Aug 26",
+      "text": "Iran Update, August 25, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQZnRSMmlua1JaLXROenlWcFhPNFJOWnF5YVZqLTk0Z1NMVE15V25iVWJCNzk5S0ROVnBHVlNQMzdjSVlCSFdJSXc4MnU2ODZWdUZXUm5maEJSaUJISVRhNWZKdjljb3otN1IybXZDc2JaUGdaa0ZtSlFNd1VSM2ZHRE5mUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2290
+    },
+    {
+      "date": "Aug 26",
+      "text": "Iran war latest: Omani foreign minister says talks on Hormuz in Tehran were 'constructive",
       "severity": "info",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2289
+      "sourceName": null,
+      "latestSinceUpdate": 2290
     },
     {
-      "date": "Aug 23",
-      "text": "Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions.",
-      "severity": "warning",
+      "date": "Aug 26",
+      "text": "August 23, 2026 — Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2287
+      "latestSinceUpdate": 2290
     },
     {
-      "date": "Aug 25",
-      "text": "Iranian strikes caused billions in damage to US intelligence sites: Report.",
-      "severity": "critical",
+      "date": "Aug 26",
+      "text": "Iranian strikes caused billions in damage to US intelligence sites: Report",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2288
+      "latestSinceUpdate": 2290
     },
     {
-      "date": "Aug 25",
-      "text": "Rubio tells allies US shifting from strikes to sanctions on Iran: report.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOWi1rb2R1Q1lFYmdwNVphZE85Nmh3bnZRLVpBcUVfV2N5WWlsRGRaUllFTERhLWxvX3JKUy1qMXd6cS1LWDNZVFpnVlBtakVCMGJDQXJjck9CV0NhNGwxWlNEeEtMNFBSV0RqNUp5QnRyRGNuOXZPNzd2OU4zYXNtSXRvM21nODFuUVlmcE5XOXFCaHJTeURLVzh3OFFRcG53VXNF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Muslim Network TV",
-      "latestSinceUpdate": 2288
-    },
-    {
-      "date": "Aug 25",
-      "text": "Iran and Oman plan for temporary Hormuz corridor as impasse with US persists.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNSlNYeEdXSk9RSTdWVnZwNWVQQzdPMDRqZmpxbW5rYlN6emhXUDZWbHhPTjRaUU1LejhXZnpPNUg4dlMxbER4WE9vQnhDN2ZLUHFzUHN5czhKc245Ny1xMFR5Q0U5VzQtYWVXNnlBaTJDYU5RcklwVmlEZWxGd0ljSlFPcjAwTkRWMVNnRFUtNFljYmhaZEc2QjJjZEZDZDhPdW9WNUVwUmZMQU5DbzAxQkNudw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2289
-    },
-    {
-      "date": "Aug 25",
-      "text": "Iran insists Hormuz remains closed despite Oman route deal and demands U.S. lift blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2289
+      "date": "Aug 26",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2290
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
