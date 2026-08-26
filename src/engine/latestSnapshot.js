@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2283,
+  "updateSequence": 2284,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T07:12:45.707Z",
+  "lastSyncedAt": "2026-08-26T08:02:34.186Z",
   "warDay": 180,
-  "summary": "The Iran war continues with ongoing tensions over the Strait of Hormuz, new US sanctions against Iran, reported Iranian strikes on US intelligence sites, and escalating regional conflicts involving Israel and Hezbollah.",
+  "summary": "The Iran-U.S. conflict continues with ongoing negotiations regarding the Strait of Hormuz, new U.S. sanctions against Iran, and reports of Iranian strikes on U.S. intelligence sites.",
   "lastNarrativeUpdate": "2026-08-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active; conflict and tensions remain high."
+    "summary": "No general ceasefire is in effect; negotiations are focused on a temporary reopening of the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
+    "nuclearIndex": 15,
+    "escalationLevel": 80,
     "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 25",
-      "text": "Iran states that an Oman deal on Hormuz does not mean the strait is open, insisting on US lifting its blockade.",
+      "text": "Iran states the Strait of Hormuz remains closed despite an Oman deal, insisting the U.S. lift its blockade.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmfSAb8BQVVfeXFMTTNTNFBiVmpTQVNpSGZ4aHhmUG1wSmZ2YjN5QXN5YWtycmZucGZTajM0SGtNclVfMEF4NkFpdC1mZFhLeGpUUHV2blNoSnBmMFZNX19fTFpPR3gwREw5MlhNM0xTWFpnRkd2eEJKZmNZaWt5Vno1UjlNMHFJWnZLN1Rja1VfcFV3YkVBZVVwNm1xTWdzOTF2NDZlM0pVbHZocnptUmFVUFB4cGhSUmhYNjRjMWZWSENoTGxSR3NXa3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 2283
+      "latestSinceUpdate": 2284
     },
     {
       "date": "Aug 25",
-      "text": "The US sends a message to Iran through Pakistan regarding the reopening of the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2283
-    },
-    {
-      "date": "Aug 25",
-      "text": "The US announces new sanctions against Iran amidst ongoing conflict.",
+      "text": "The U.S. sends a message to Iran via Pakistan regarding the reopening of Hormuz and announces new sanctions against Iran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 2283
+      "latestSinceUpdate": 2284
     },
     {
       "date": "Aug 25",
-      "text": "A report indicates Iranian strikes caused billions in damage to US intelligence sites.",
+      "text": "A report indicates Iranian strikes caused billions in damage to U.S. intelligence sites.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 2283
+      "latestSinceUpdate": 2284
     },
     {
       "date": "Aug 25",
-      "text": "Sixty more U.S. soldiers are reported injured in the Iran War.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2283
-    },
-    {
-      "date": "Aug 25",
-      "text": "Two US military refueling aircraft depart Bulgaria, drawing anger from Iran over the deployment.",
+      "text": "Sixty more U.S. soldiers are reported injured in the Iran War, with Americans expecting extended U.S. military involvement.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE1HQUQwb1Fsd29YXzUzeVJxRVg3T082dDlaekM2QXducVNhS1FVdEVoQjJBVF9sQ1B0N1pWcFUwU01ncUlOYkNMQ3ppR3RtcWJyWlFleFlDZ1hocFB1TkoxZkoybmxVa1N4dFNJdUFZY21Wd2w4ZHfSAXtBVV95cUxPUDB3ZEtZa195M2s1N1FlYXgxU1IwZkpOVnFuTF9CY29SdWpUWFVndHh0cnZQYWVkUWVJMGROVmJkYnMybUhxcWM5eC1YSlRZbHpNejNmYWoyMXd0TVUtbGpKYWdhWW1hSVRfQWRCSU53RGd5dUFlOUlqa0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPd2x2TEZNbk1naF8yOXVLdm1aZEx1Y29WVWF2WDZRNTNrLWRua2syUGZ0MjdOT2Z2dHl1TDJZcWRQSzJEVVAzZk9QQnpmYjFsOVRuWDJaT0stYndzN1pKNnFqU2U0cExtOGFKYmxsdWNMU3IwTFJKa3RPWGcwX0RLdVhhQXU0cTJ0RlFUTjY4dEgyTnprS3c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 2283
+      "latestSinceUpdate": 2284
+    },
+    {
+      "date": "Aug 25",
+      "text": "Israel strikes southern Syria, drawing condemnation from Damascus.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2284
+    },
+    {
+      "date": "Aug 25",
+      "text": "Tensions rise between Hezbollah and the Lebanese state amid continued Israeli occupation and reports of Iranian weapons smuggling to Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxQU2hQWXVRM0QxbWhybUVTVTdieUVKNklDbkFIN2Z3ZF9qZ2JQTkNhZHdIV3BWQTNlMnNsX3NRVjBTMGExRGkxZ05GMjMzd25TOXJqVmRIMFRxMFNSSWFidGViSWpQWDhtWDlkcmI4RnhyZmJtTVI1WkhaMlUxODQ0MDI0VjRBTmdTSXg3T2h2Y190dUY3TVNtS1NZaDVkdld1YXlaZTVBTTdaR1M4QlJpTWFCem14R1daVC14ZmpqQmtLSnZNS0c3ZUpxbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2284
     }
   ],
   "sourceStatuses": [
