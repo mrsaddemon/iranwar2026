@@ -1,19 +1,28 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2287,
+  "updateSequence": 2288,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T10:20:40.147Z",
+  "lastSyncedAt": "2026-08-26T10:54:41.256Z",
   "warDay": 180,
-  "summary": "The US announced new sanctions against Iran and sent a message regarding the reopening of the Strait of Hormuz, which Iran insists remains closed, while regional tensions persist with Israeli strikes in Lebanon and reports of Iranian strikes on US intelligence sites.",
+  "summary": "The US has announced new sanctions against Iran and is communicating through Pakistan regarding the reopening of the Strait of Hormuz, while an oil tanker was attacked in the strait and Israel continues strikes in southern Lebanon.",
   "lastNarrativeUpdate": "2026-08-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation efforts are currently reported to be active."
+    "summary": "No active ceasefire is reported amidst ongoing conflict and diplomatic tensions."
   },
   "actorOverrides": {
     "usa": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.7
+      }
+    },
+    "israel": {
       "metrics": {
         "militaryPower": 80
       },
@@ -22,32 +31,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "aggression": 0.8
       }
     },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
-      },
-      "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
-      }
-    },
     "iran": {
       "metrics": {
         "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.95
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 85,
+    "nuclearIndex": 30,
+    "escalationLevel": 80,
     "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -61,7 +61,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 25",
       "text": "US announces new sanctions against Iran.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
       "latestSinceUpdate": 2285
@@ -69,7 +69,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Aug 25",
       "text": "US sends message through Pakistan to Iran on reopening Hormuz.",
-      "severity": "warning",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
       "latestSinceUpdate": 2285
@@ -83,28 +83,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2287
     },
     {
-      "date": "Aug 26",
-      "text": "Iranian strikes caused billions in damage to US intelligence sites.",
+      "date": "Aug 25",
+      "text": "Iranian strikes caused billions in damage to US intelligence sites: Report.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2287
+      "latestSinceUpdate": 2288
     },
     {
-      "date": "Aug 26",
-      "text": "Rubio tells allies US shifting from strikes to sanctions on Iran.",
+      "date": "Aug 25",
+      "text": "Rubio tells allies US shifting from strikes to sanctions on Iran: report.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOWi1rb2R1Q1lFYmdwNVphZE85Nmh3bnZRLVpBcUVfV2N5WWlsRGRaUllFTERhLWxvX3JKUy1qMXd6cS1LWDNZVFpnVlBtakVCMGJDQXJjck9CV0NhNGwxWlNEeEtMNFBSV0RqNUp5QnRyRGNuOXZPNzd2OU4zYXNtSXRvM21nODFuUVlmcE5XOXFCaHJTeURLVzh3OFFRcG53VXNF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Muslim Network TV",
-      "latestSinceUpdate": 2287
+      "latestSinceUpdate": 2288
     },
     {
-      "date": "Aug 26",
-      "text": "Gulf Ship Traffic Via Strait of Hormuz Hovers Below 10-Day Average.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNUmNucWlZck0xdDQ0aWdxWTM4RTFuSnJ5RWY0anJMcnRNeGpGcGwta1JldXBNR2lCYUVpejZvT1hQSldORWZRYXdUb2JxX01BYnJvQkZPOU10VXV3T0Q1N0dhX0FZX3NSSE11ZEQtQUNCR2xqOU1ELWU1VS1WVHVWTWp3dDBSTlJYV0dYOFRudl9PTTBkdENRdWt3Q285M0dPbFVLSGhaTkhYVEkxYzduRTNzZFVTeWxFT3kweVdmckhJd0oxVGY3djJlSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "U.S. News & World Report",
-      "latestSinceUpdate": 2287
+      "date": "Aug 25",
+      "text": "Iran and Oman discuss temporary Hormuz corridor as impasse with US drags on.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNSlNYeEdXSk9RSTdWVnZwNWVQQzdPMDRqZmpxbW5rYlN6emhXUDZWbHhPTjRaUU1LejhXZnpPNUg4dlMxbER4WE9vQnhDN2ZLUHFzUHN5czhKc245Ny1xMFR5Q0U5VzQtYWVXNnlBaTJDYU5RcklwVmlEZWxGd0ljSlFPcjAwTkRWMVNnRFUtNFljYmhaZEc2QjJjZEZDZDhPdW9WNUVwUmZMQU5DbzAxQkNudw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2288
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
