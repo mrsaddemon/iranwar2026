@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2286,
+  "updateSequence": 2287,
   "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T09:51:25.761Z",
+  "lastSyncedAt": "2026-08-26T10:20:40.147Z",
   "warDay": 180,
-  "summary": "The ongoing Iran war sees new US sanctions and diplomatic efforts regarding the Strait of Hormuz, while regional tensions remain high with Israeli strikes in Syria and Lebanon and reports of US military injuries.",
+  "summary": "The US announced new sanctions against Iran and sent a message regarding the reopening of the Strait of Hormuz, which Iran insists remains closed, while regional tensions persist with Israeli strikes in Lebanon and reports of Iranian strikes on US intelligence sites.",
   "lastNarrativeUpdate": "2026-08-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
+    "summary": "No ceasefire or de-escalation efforts are currently reported to be active."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,32 +27,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 10,
     "escalationLevel": 85,
-    "oilDisruption": 88,
-    "tradeImpact": 79,
-    "sanctionsPressure": 68,
-    "globalPressure": 90,
-    "allianceInfluence": 73
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -76,35 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 23",
-      "text": "Bessent promises 'economic D-Day' ahead of expected Iran sanctions.",
+      "text": "Bessent promises ‘economic D-Day’ ahead of expected Iran sanctions.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2286
+      "latestSinceUpdate": 2287
     },
     {
-      "date": "Undated",
+      "date": "Aug 26",
       "text": "Iranian strikes caused billions in damage to US intelligence sites.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2286
+      "latestSinceUpdate": 2287
     },
     {
-      "date": "Undated",
-      "text": "Israel strikes southern Syria; Damascus condemns attack.",
+      "date": "Aug 26",
+      "text": "Rubio tells allies US shifting from strikes to sanctions on Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOWi1rb2R1Q1lFYmdwNVphZE85Nmh3bnZRLVpBcUVfV2N5WWlsRGRaUllFTERhLWxvX3JKUy1qMXd6cS1LWDNZVFpnVlBtakVCMGJDQXJjck9CV0NhNGwxWlNEeEtMNFBSV0RqNUp5QnRyRGNuOXZPNzd2OU4zYXNtSXRvM21nODFuUVlmcE5XOXFCaHJTeURLVzh3OFFRcG53VXNF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Muslim Network TV",
+      "latestSinceUpdate": 2287
+    },
+    {
+      "date": "Aug 26",
+      "text": "Gulf Ship Traffic Via Strait of Hormuz Hovers Below 10-Day Average.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2286
-    },
-    {
-      "date": "Undated",
-      "text": "Iran insists Hormuz remains closed despite Oman route deal.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2286
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNUmNucWlZck0xdDQ0aWdxWTM4RTFuSnJ5RWY0anJMcnRNeGpGcGwta1JldXBNR2lCYUVpejZvT1hQSldORWZRYXdUb2JxX01BYnJvQkZPOU10VXV3T0Q1N0dhX0FZX3NSSE11ZEQtQUNCR2xqOU1ELWU1VS1WVHVWTWp3dDBSTlJYV0dYOFRudl9PTTBkdENRdWt3Q285M0dPbFVLSGhaTkhYVEkxYzduRTNzZFVTeWxFT3kweVdmckhJd0oxVGY3djJlSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "U.S. News & World Report",
+      "latestSinceUpdate": 2287
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
