@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2298,
+  "updateSequence": 2299,
   "lastUpdated": "2026-08-27",
-  "lastSyncedAt": "2026-08-27T05:07:41.891Z",
+  "lastSyncedAt": "2026-08-27T16:33:26.646Z",
   "warDay": 181,
-  "summary": "The US-Iran conflict continues with new sanctions and threats of escalation, while regional tensions persist between Israel and Hezbollah over Lebanon and the Strait of Hormuz remains a point of contention.",
+  "summary": "The Iran war continues into its 181st day with ongoing military engagements between Iran and Israel, US military involvement, and intensified diplomatic efforts focused on the Strait of Hormuz, while tensions escalate between Israel and Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-08-27",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active; the conflict is explicitly stated to continue."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,22 +27,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 40,
     "escalationLevel": 80,
     "oilDisruption": 70,
     "tradeImpact": 65,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 26",
-      "text": "Trump states the US is 'not in a hurry' over talks with Tehran and is 'achieving a very big victory,' indicating the war 'will continue for as long as necessary.'",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmfSAb8BQVVfeXFMTTNTNFBiVmpTQVNpSGZ4aHhmUG1wSmZ2YjN5QXN5YWtycmZucGZTajM0SGtNclVfMEF4NkFpdC1mZFhLeGpUUHV2blNoSnBmMFZNX19fTFpPR3gwREw5MlhNM0xTWFpnRkd2eEJKZmNZaWt5Vno1UjlNMHFJWnZLN1Rja1VfcFV3YkVBZVVwNm1xTWdzOTF2NDZlM0pVbHZocnptUmFVUFB4cGhSUmhYNjRjMWZWSENoTGxSR3NXa3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2298
+      "text": "Iran launches missile and drone attacks across the Gulf, while Israel strikes Tehran infrastructure.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 2299
     },
     {
       "date": "Aug 26",
-      "text": "Iran states that an Oman deal on Hormuz does not mean the strait is open, implying continued control or restrictions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2298
-    },
-    {
-      "date": "Aug 26",
-      "text": "Reported Iranian strikes caused billions in damage to US intelligence sites.",
+      "text": "Iranian strikes reportedly caused billions in damage to US intelligence sites.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2298
+      "latestSinceUpdate": 2299
     },
     {
       "date": "Aug 26",
-      "text": "The US announces new sanctions against Iran.",
+      "text": "The US sends a new warship to the Middle East following claims of a 'very big victory' over Tehran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPeHFWSVQxMEZ1OUctZkFoeXpZT0FfajFEeG5xVjBfVE9majl4dUYzUFRuVjYxWmRNZlUwanBvTHFDeTRtc3RkUnhiSnhNa1lpbzRaXzZMWG1PRElxZjlZclVPUEpfQWN5YjE3Q09aNHJkWm5BblRYSkE3eWdQR3M5MnVuVzhYcHdRTzlqdFJZRDJWNDd0S1JQdXIySVFlMjZYTEgzVmFJVDU1ejZ0UGhzcS1WU2RLV0JhNC1R0gHAAUFVX3lxTE9pYi1jaGFBc1VzOF9xRnlMQnpna01fWEpnNDRDY2ZfSWNMSHVZM0ZtUG9JZEQ1VEE1YURqUXNVVTJGRERzWElLZkFIOExJbzJaVm5Gc211aGtVZE83STFxeVZpUlFJQ0EwcUNERVUwcmtRSE9mWWx3eVNzcGJteHdUcGNuU2RpSS04ZjZXQjN1YU9rYU5XUFFKWTdqcUc0QnNiYXotaUdOZ1RabkdlOFJIYzJaTllRcUViRjBfLUR6LQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2298
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQWjNOMFRfY3Rzbjh2ZXRKdmdTX3BNVkhkQzItRXFISXpfYkZmZWp2THBhTjZUdEhsZ1p3SnZFeHQtRE04MXZmWHFuMjFQSGdnWDk1SFptdWcyUHljUVFyOWp1RHFmWjJlQXQxQU1yTG55LVB1QVNDREZRbHg4NFA2Q1FpTFI0Q1d5UW5xVmJSLWl1WmlocGRPUkw0aXNWRXZJUWJlXzA0UXoxSkFnRVY3eDBGRHFNRkJQcS12REtR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 2299
     },
     {
       "date": "Aug 26",
-      "text": "Iran reportedly weighs strikes on US military targets in Europe if Trump escalates the war.",
+      "text": "Israel strikes Lebanon after the IDF reports Hezbollah launched drones at troops overnight.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE15VnhyX1RiSzVTOERRUVB4cmZHckl5WmRwRUhrcEcwZkdFdWxtTVFKZXRNRVJELWExbW1PTVE3aUJya0l6azVLaWstWFdxbHNwOXI2VGJn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2298
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE9JcHdqQTVIWWNWdzFqdVplSkdienJ4QlhTWVNiSUZRTlVBVEZpVUlvNVZfSkZSb2ZTQ2VnZGdJYVlJQkJnM0dqRS13TlpwYjZpNklQUjZ2eF9YOG9sTVkyN0FSS3PSAWpBVV95cUxONndDQlF0VDBjRmgxMWt2NE1SZ0JJcGlFZ0FFemFxa0NyelVWNHBVZG9aQlh6Z3hLWHRmZ1ViOFdPc0NOdXdCa0t6V3NJSklXaWNSMktIVC1hU1dGeEN5QXV2SlNPQTk5T3d3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2299
     },
     {
       "date": "Aug 26",
-      "text": "The gulf between Hezbollah and the Lebanese state grows wider as Israeli occupation continues, with Hezbollah calling for coordination against Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxQU2hQWXVRM0QxbWhybUVTVTdieUVKNklDbkFIN2Z3ZF9qZ2JQTkNhZHdIV3BWQTNlMnNsX3NRVjBTMGExRGkxZ05GMjMzd25TOXJqVmRIMFRxMFNSSWFidGViSWpQWDhtWDlkcmI4RnhyZmJtTVI1WkhaMlUxODQ0MDI0VjRBTmdTSXg3T2h2Y190dUY3TVNtS1NZaDVkdld1YXlaZTVBTTdaR1M4QlJpTWFCem14R1daVC14ZmpqQmtLSnZNS0c3ZUpxbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2298
+      "text": "Tehran engages in a renewed diplomatic push, proposing to reopen the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2299
+    },
+    {
+      "date": "Aug 26",
+      "text": "The Strait of Hormuz is at the center of ongoing negotiations between Iran and Oman.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNekF5ZFdjTVNXdXkycmp3dy1yb0N4SW5OTklESGR5SVVfakIxM2F2QjZfRVlVZTFqVW9McTI2QVZ2c3ZyeFRVZzE3WjZQeUkzRWhFTjRVUTdqUlpMYlM1NEVsYzVnbkxZVVdrenpQXzZSODVLQkx6M096dUZyMHA1d1NUNE4zM2I3anVXRzNpZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2299
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
