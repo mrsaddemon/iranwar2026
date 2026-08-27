@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2297,
-  "lastUpdated": "2026-08-26",
-  "lastSyncedAt": "2026-08-26T23:41:28.970Z",
-  "warDay": 180,
+  "updateSequence": 2298,
+  "lastUpdated": "2026-08-27",
+  "lastSyncedAt": "2026-08-27T05:07:41.891Z",
+  "warDay": 181,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with the US stating the war will continue as long as necessary."
+    "summary": "No ceasefire is active; the conflict is explicitly stated to continue."
   }
 }
