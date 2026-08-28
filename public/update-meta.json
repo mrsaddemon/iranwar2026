@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2301,
+  "updateSequence": 2302,
   "lastUpdated": "2026-08-28",
-  "lastSyncedAt": "2026-08-28T12:41:57.892Z",
+  "lastSyncedAt": "2026-08-28T22:43:13.899Z",
   "warDay": 182,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported, though diplomatic efforts are underway regarding the Strait of Hormuz."
+    "summary": "No active ceasefire is reported as the US-Iran war continues and regional conflicts persist."
   }
 }
