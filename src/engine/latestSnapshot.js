@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2299,
-  "lastUpdated": "2026-08-27",
-  "lastSyncedAt": "2026-08-27T16:33:26.646Z",
-  "warDay": 181,
-  "summary": "The Iran war continues into its 181st day with ongoing military engagements between Iran and Israel, US military involvement, and intensified diplomatic efforts focused on the Strait of Hormuz, while tensions escalate between Israel and Hezbollah in Lebanon.",
-  "lastNarrativeUpdate": "2026-08-27",
+  "updateSequence": 2300,
+  "lastUpdated": "2026-08-28",
+  "lastSyncedAt": "2026-08-28T01:06:23.686Z",
+  "warDay": 182,
+  "summary": "The six-month war between the US and Iran continues to escalate with US-Israel strikes on Iran, Iranian counter-strikes, and increased military deployments, while concerns grow over the Strait of Hormuz and the ongoing conflict between Israel and Hezbollah in Lebanon.",
+  "lastNarrativeUpdate": "2026-08-28",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and diplomatic tensions."
+    "summary": "No active ceasefire is reported; conflict continues to escalate."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 63,
-    "globalPressure": 79,
+    "nuclearIndex": 5,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 26",
-      "text": "Iran launches missile and drone attacks across the Gulf, while Israel strikes Tehran infrastructure.",
+      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy is attacked in Riyadh.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "News On AIR",
-      "latestSinceUpdate": 2299
+      "latestSinceUpdate": 2300
     },
     {
       "date": "Aug 26",
-      "text": "Iranian strikes reportedly caused billions in damage to US intelligence sites.",
+      "text": "Iranian strikes caused billions in damage to US intelligence sites.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNYzlVbWhabWV4eDRJaGdCOXNlM3FrdU1RUWhkVlFzMEFocTRFQW1vTGlJZmt6Ti1DY2FXMWNuQW5KRE9yUERTZWI2c2RyaVVCVjI0NVVZQnNsaXVRVHRBZE1tZUtPODNJM2VwczdsTzdYdzZjN2t2dm9XZ2xiMzRmQkozaTJFWEoxNkNucml0Tms4cWFXSmpjUmNQTzltNlFJX3dfRm02enhSM1BMRmlkNTcxanJ0SmZ4Z0xoS1FTTjlySmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2299
+      "latestSinceUpdate": 2300
     },
     {
-      "date": "Aug 26",
-      "text": "The US sends a new warship to the Middle East following claims of a 'very big victory' over Tehran.",
+      "date": "Aug 27",
+      "text": "Trump sends a new warship to the Middle East after claiming 'very big victory' over Tehran.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQWjNOMFRfY3Rzbjh2ZXRKdmdTX3BNVkhkQzItRXFISXpfYkZmZWp2THBhTjZUdEhsZ1p3SnZFeHQtRE04MXZmWHFuMjFQSGdnWDk1SFptdWcyUHljUVFyOWp1RHFmWjJlQXQxQU1yTG55LVB1QVNDREZRbHg4NFA2Q1FpTFI0Q1d5UW5xVmJSLWl1WmlocGRPUkw0aXNWRXZJUWJlXzA0UXoxSkFnRVY3eDBGRHFNRkJQcS12REtR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Independent",
-      "latestSinceUpdate": 2299
+      "latestSinceUpdate": 2300
     },
     {
-      "date": "Aug 26",
-      "text": "Israel strikes Lebanon after the IDF reports Hezbollah launched drones at troops overnight.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE9JcHdqQTVIWWNWdzFqdVplSkdienJ4QlhTWVNiSUZRTlVBVEZpVUlvNVZfSkZSb2ZTQ2VnZGdJYVlJQkJnM0dqRS13TlpwYjZpNklQUjZ2eF9YOG9sTVkyN0FSS3PSAWpBVV95cUxONndDQlF0VDBjRmgxMWt2NE1SZ0JJcGlFZ0FFemFxa0NyelVWNHBVZG9aQlh6Z3hLWHRmZ1ViOFdPc0NOdXdCa0t6V3NJSklXaWNSMktIVC1hU1dGeEN5QXV2SlNPQTk5T3d3?hl=en-US&gl=US&ceid=US:en",
+      "date": "Aug 27",
+      "text": "Iran and Oman move closer on 'future administration' of the Strait of Hormuz, with tolls under consideration.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi4gFBVV95cUxNVWxXS3p3NVZrQTFpZzhTRHRJblVnRGhsYVN1dnNRSmZkMVgxelk2ZE5KUTVRN052UEVPY1BwQzNGaG8xX0pBUk9RZ2g2dDZpZnhNNWxHYXBTYndfajg3Yzdpc2RnRktMVWF5YldsNlFTS0NHTkg5WUdab1FsNU9uN3pzVm1zMlk2aDQ5LXQ2aTVBZWQ3aGk5ekZYX1Y1QkNrSTJiZ0JuYk1WU29DRjhneGs1X0VrUGF4MWl4eWFiVHNrWVQ0YW1WbVRBYXRaV1FBQ0tnTHdzXzd6R1NhQk5kQ0V3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo Finance",
+      "latestSinceUpdate": 2300
+    },
+    {
+      "date": "Aug 27",
+      "text": "Hezbollah launched two explosive drones at IDF troops in southern Lebanon overnight.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNckZZell5WFBlczRaMTNQTV9GQ242cGF1LXItTml1TmVkdDlzN2VJQVRIZGR4bEpjR21iZFg4U1RBTHMwSEdVWWtnRV9xWUFJeHlVZEFaTTNtdlBzVmE1R0FGd3E2WUZ3Z2NSR2hwdHhURmx1dVlVd01RTnRFRWVlUTBLZFk2VF9CMmpWX2poX0RSX0xPMUtEcUtzSU1yOHR1SnRQNEJRZUhTU1ZFaFZxXzZJQlZ1dmIyQ3R1azc0TFJJSWU2YlR3WA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2299
+      "latestSinceUpdate": 2300
     },
     {
-      "date": "Aug 26",
-      "text": "Tehran engages in a renewed diplomatic push, proposing to reopen the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2299
-    },
-    {
-      "date": "Aug 26",
-      "text": "The Strait of Hormuz is at the center of ongoing negotiations between Iran and Oman.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNekF5ZFdjTVNXdXkycmp3dy1yb0N4SW5OTklESGR5SVVfakIxM2F2QjZfRVlVZTFqVW9McTI2QVZ2c3ZyeFRVZzE3WjZQeUkzRWhFTjRVUTdqUlpMYlM1NEVsYzVnbkxZVVdrenpQXzZSODVLQkx6M096dUZyMHA1d1NUNE4zM2I3anVXRzNpZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2299
+      "date": "Aug 27",
+      "text": "An Israeli airstrike destroyed a barbershop in Lebanon amidst the conflict between Israel and Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQc19RT0d6RDI2akNfcnRZTjhHbHM2c0JfdHRzY3lMR3h0bC1ZelozQWdFMkVaZmZ0N0VVTHAzSndHV1F3OTc1SzBsMU03Q0R6OFJxU3BtWEdSM0hTVjhMX3ZRNlpvX0c5NHFnLWJ4WEhYQWJlY01YSzA1d2lEWTJmOUx1UGRUVGIyUkpNSE92QWJqb0ExaFlhTGNKQm9DN2JWeXM5N2VR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "facebook.com",
+      "latestSinceUpdate": 2300
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
