@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2307,
+  "updateSequence": 2308,
   "lastUpdated": "2026-08-29",
-  "lastSyncedAt": "2026-08-29T21:20:51.014Z",
+  "lastSyncedAt": "2026-08-29T23:24:59.204Z",
   "warDay": 183,
-  "summary": "The US-Iran war has reached its six-month mark, characterized by high tensions in the Strait of Hormuz, US sanctions and blockade impacting shipping, and Hezbollah's continued rejection of withdrawal deals in Lebanon, while Israel conducted an airstrike in the West Bank.",
+  "summary": "The Iran war has reached its 183rd day, marked by ongoing US sanctions, Iran's resistance, and regional tensions involving Hezbollah and an Israeli strike in the West Bank.",
   "lastNarrativeUpdate": "2026-08-29",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire reported."
+    "summary": "No active ceasefire is in effect, with the conflict described as a stalemate with no end in sight."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.75,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 62
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.68
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
-    "allianceInfluence": 51
+    "nuclearIndex": 15,
+    "escalationLevel": 65,
+    "oilDisruption": 58,
+    "tradeImpact": 53,
+    "sanctionsPressure": 60,
+    "globalPressure": 72,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 29",
-      "text": "Israel kills Hamas operative in a rare West Bank air strike.",
+      "text": "Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2308
+    },
+    {
+      "date": "Aug 29",
+      "text": "Six months into the Iran war, markets have become accustomed to stalemate with no end in sight.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBOLW9UZGdUX1NfNWlWdWpHY1NfLTJVRk1fT2dlMk1KckJxVlBLczBwUWwwZUNTRzRubFJBbWoyR1hWUWhxZkN3M0dCa0ptbWdYSVNDdi13SFBGSmNUOUFrdkN2UkxJVzZHR2xjNTlKZW9wQ1XSAXhBVV95cUxNY2lNNGhFa1ZSTUJ5N0VEeExVQmNraUhXQmxMT0RQU1lkOXppeERINGJKREI2RUJ0ejFjS0Etbk9oeDFYaW1ySlBBSVBoaW0zR1I5azR5Z2pRVGJ0NmFUWDM3cGF1bjk3dGlqcmJVdUQ5ZmYzYWxUTm4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2308
+    },
+    {
+      "date": "Aug 29",
+      "text": "Israel kills Hamas operative in rare West Bank air strike, military says.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2307
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2308
     },
     {
       "date": "Aug 29",
-      "text": "US-Iran war reaches 6-month mark with Strait of Hormuz tensions remaining high.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPZC1OREFVbk5ZV25DVDZORHk0OEVJLTJCMk1ORjFRT0h3c0l4eS00eWtfWGg0Wkk5N0xPYjBRSmE1NEtXQjFZNkhhaDZNc3RTWXZQLUpxSDRzcHVLLXpPT0VkdXp2MUxQUzU3aHpoVFdJZEloUGkzRWU2WHcyS3p3ejUyR0p3cVdlbzdEdHBLcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2307
-    },
-    {
-      "date": "Aug 29",
-      "text": "Strait of Hormuz traffic remains below normal as US sanctions pressure Iran, with 82 ships redirected under US blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2307
-    },
-    {
-      "date": "Aug 29",
-      "text": "Hezbollah rejects Lebanese overtures and an Israel-Lebanon deal to withdraw from a strategic ridge.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2307
-    },
-    {
-      "date": "Aug 29",
-      "text": "Iran vows to resist U.S. sanctions as the war passes the 6-month mark.",
+      "text": "Iran vows to resist U.S. sanctions as war passes 6-month mark, pledging to stand firm.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2307
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2308
     },
     {
       "date": "Aug 29",
-      "text": "US navy budget is rapidly draining due to the Iran war, and the US plans to cut military aid to a key Middle East ally.",
+      "text": "Iran and Oman agree on a temporary Hormuz route, details of which are emerging.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9wOW1nQ1dCYmVFdkNGOC1FX1Y2dGhaZ2dUX0xKeFBQMUhZNlpqMHF4aXhrRkJmRndFMXY5Vkc5S0ZuX0J2ZHl0SGpKQ0N4NWo3TE5BYThIVjJ6Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2307
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNWTFrTGFKUWsycWlaTDVOb1pjUUJCSXJVblBLN1pzYUtJVlQzSktVZzJHdHVUQU1CWjYzQllDdHVrc2xVcTlPSVp4VGYxUThRdzRXT0xYMFFQYzRjVm12LTdobXRzR0tFNDQ3aXZhYzVpekRiRFZMMlZqMUJfb2xkSFFYYmcxcTRJWnY2Q29hNmxhLXhjdm83NER2TdIBoAFBVV95cUxPdlVzYWJtNU1rVzQyNUYzRlQ3amdSV1ZocVdVSjU4UUo5a1drTTl1d3Q2d24wYjRsZVNFcmVrazRGR2stNzIyajBYYTQ1ajhKLTN3QXI1Z0hnUkZpRWQxc0JmQm40WkRld0wwRE5sQnlCeXZjVGZGdTU2bUt5cnZ1M3pod19nRGw3VzB0bDhMb0NfWWNHNE9ERmxRQXFNTGhF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2308
+    },
+    {
+      "date": "Aug 29",
+      "text": "Hezbollah said to rebuff Lebanese overtures to withdraw from strategic ridge in south, rejecting Israel-Lebanon deal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2308
     }
   ],
   "sourceStatuses": [
