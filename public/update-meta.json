@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2306,
+  "updateSequence": 2307,
   "lastUpdated": "2026-08-29",
-  "lastSyncedAt": "2026-08-29T18:48:35.828Z",
+  "lastSyncedAt": "2026-08-29T21:20:51.014Z",
   "warDay": 183,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported, with ongoing combat and high tensions in the Strait of Hormuz."
+    "summary": "No active ceasefire reported."
   }
 }

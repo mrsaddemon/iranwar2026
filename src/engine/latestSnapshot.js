@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2306,
+  "updateSequence": 2307,
   "lastUpdated": "2026-08-29",
-  "lastSyncedAt": "2026-08-29T18:48:35.828Z",
+  "lastSyncedAt": "2026-08-29T21:20:51.014Z",
   "warDay": 183,
-  "summary": "The US-Iran war has reached its six-month mark, characterized by a stalemate, high tensions in the Strait of Hormuz, and ongoing diplomatic maneuvering amidst military actions.",
+  "summary": "The US-Iran war has reached its six-month mark, characterized by high tensions in the Strait of Hormuz, US sanctions and blockade impacting shipping, and Hezbollah's continued rejection of withdrawal deals in Lebanon, while Israel conducted an airstrike in the West Bank.",
   "lastNarrativeUpdate": "2026-08-29",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported, with ongoing combat and high tensions in the Strait of Hormuz."
+    "summary": "No active ceasefire reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 70,
-    "oilDisruption": 75,
-    "tradeImpact": 67,
-    "sanctionsPressure": 61,
-    "globalPressure": 76,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 29",
-      "text": "The US-Iran war reaches its six-month mark, with markets accustomed to a stalemate and high tensions remaining in the Strait of Hormuz.",
-      "severity": "info",
+      "text": "Israel kills Hamas operative in a rare West Bank air strike.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2307
+    },
+    {
+      "date": "Aug 29",
+      "text": "US-Iran war reaches 6-month mark with Strait of Hormuz tensions remaining high.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPZC1OREFVbk5ZV25DVDZORHk0OEVJLTJCMk1ORjFRT0h3c0l4eS00eWtfWGg0Wkk5N0xPYjBRSmE1NEtXQjFZNkhhaDZNc3RTWXZQLUpxSDRzcHVLLXpPT0VkdXp2MUxQUzU3aHpoVFdJZEloUGkzRWU2WHcyS3p3ejUyR0p3cVdlbzdEdHBLcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 2306
+      "latestSinceUpdate": 2307
     },
     {
       "date": "Aug 29",
-      "text": "Iran's IRGC claims 'decisive control' over the Strait of Hormuz, while the U.S. asserts it has gained the upper hand in the battle for the strait.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2306
-    },
-    {
-      "date": "Aug 29",
-      "text": "Tehran states it is preparing a list of conditions to open the Strait of Hormuz, including a potential ban on US warships, with the White House remaining silent on the Iran-Oman plan.",
+      "text": "Strait of Hormuz traffic remains below normal as US sanctions pressure Iran, with 82 ships redirected under US blockade.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNd0ZuNTZXUGlLd0RNamZaaWcyZEtDZXcwUldPZHRmeEdHSFYzMG9kYldqbExlREEwVnNmU3M2VlNMRElSZjlNd2FxYlBZT1hmdWRKMU5PT25RSGgzLVBsMlJYdVhxLUo1MlhpVFMzOHJIRzl5a0FNRjlDYUtCTThwanFyejE1UkZ2WWhwWlYySTdJLWVTMzBVbE9SbW4wRTlNTTM1NmZaTGZXYWfSAbABQVVfeXFMTWxfcFlVLWVtTC1uRGw5X25vYU9EMzRTRFg5Ty1sWnBXNHVQTlM4UkthekhSN2pjd1RYNS0yb1pvbHJnOTk2eE81OGJfNklZT1UtTHBPcnhsdzIzdWhPc2dlaEotd3BkSW1yYnhiNWo4Ti1mRHg4TzIzT3FQM0JaY0ItZWRaSDF6VWRhOUpUSTZSaWNwUnNCaG5yUkw1NGdibFhCV2RFYzF6ZWZXWWRTT1Y?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 2306
+      "latestSinceUpdate": 2307
     },
     {
       "date": "Aug 29",
-      "text": "Hezbollah Chief rejects a Lebanon-Israel deal and refuses to withdraw from a strategic ridge, reiterating a stance against surrender.",
+      "text": "Hezbollah rejects Lebanese overtures and an Israel-Lebanon deal to withdraw from a strategic ridge.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2306
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2307
     },
     {
       "date": "Aug 29",
-      "text": "Reports indicate the US plans to cut off military aid to a key Middle East ally, potentially altering regional dynamics.",
-      "severity": "warning",
+      "text": "Iran vows to resist U.S. sanctions as the war passes the 6-month mark.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2307
+    },
+    {
+      "date": "Aug 29",
+      "text": "US navy budget is rapidly draining due to the Iran war, and the US plans to cut military aid to a key Middle East ally.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9wOW1nQ1dCYmVFdkNGOC1FX1Y2dGhaZ2dUX0xKeFBQMUhZNlpqMHF4aXhrRkJmRndFMXY5Vkc5S0ZuX0J2ZHl0SGpKQ0N4NWo3TE5BYThIVjJ6Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2306
-    },
-    {
-      "date": "Aug 29",
-      "text": "The US blockade has reportedly redirected 82 ships, highlighting the ongoing disruption to maritime trade.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2306
+      "latestSinceUpdate": 2307
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
