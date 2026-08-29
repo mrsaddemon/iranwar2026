@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2303,
+  "updateSequence": 2304,
   "lastUpdated": "2026-08-29",
-  "lastSyncedAt": "2026-08-29T03:54:43.080Z",
+  "lastSyncedAt": "2026-08-29T10:59:24.449Z",
   "warDay": 183,
-  "summary": "The Iran war has reached its six-month mark, characterized by a costly stalemate, ongoing tensions in the Strait of Hormuz, and continued conflict in southern Lebanon.",
+  "summary": "Six months into the Iran-US war, a costly stalemate persists with high tensions in the Strait of Hormuz and ongoing regional conflicts involving Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-08-29",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with reports indicating a costly stalemate and Hezbollah rejecting a deal."
+    "summary": "No active ceasefire is in effect, with reports indicating a persistent stalemate and ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.78
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
-    "escalationLevel": 78,
-    "oilDisruption": 72,
-    "tradeImpact": 66,
-    "sanctionsPressure": 62,
-    "globalPressure": 78,
-    "allianceInfluence": 51
+    "nuclearIndex": 10,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 29",
-      "text": "The US marks six months of war with Iran, with markets accustomed to a costly stalemate with no end in sight.",
+      "text": "Iran's IRGC claims decisive control over the Strait of Hormuz amidst ongoing tensions.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBOLW9UZGdUX1NfNWlWdWpHY1NfLTJVRk1fT2dlMk1KckJxVlBLczBwUWwwZUNTRzRubFJBbWoyR1hWUWhxZkN3M0dCa0ptbWdYSVNDdi13SFBGSmNUOUFrdkN2UkxJVzZHR2xjNTlKZW9wQ1XSAXhBVV95cUxNY2lNNGhFa1ZSTUJ5N0VEeExVQmNraUhXQmxMT0RQU1lkOXppeERINGJKREI2RUJ0ejFjS0Etbk9oeDFYaW1ySlBBSVBoaW0zR1I5azR5Z2pRVGJ0NmFUWDM3cGF1bjk3dGlqcmJVdUQ5ZmYzYWxUTm4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2303
-    },
-    {
-      "date": "Aug 29",
-      "text": "The IRGC asserts control over the Strait of Hormuz while the US enforces a blockade, maintaining high tensions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2303
+      "latestSinceUpdate": 2304
     },
     {
       "date": "Aug 29",
-      "text": "President Trump states the Strait of Hormuz is 'open,' while the White House claims the US has momentum in the region.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogJBVV95cUxQZ19UU1FybExjbjZwRjZON3VFU3N1UVVWY2I0dW4tSFYzeGJXWm9TamJ2UnljcDJYU0o5VnhmdHpsZWVac0JDblJZckE4X0dVdy1fdG1iQk1MSEJ2bXgzQW9hVjREYnFKZDlSOG53R1pRYkRPYzVHLUxpbHJZSzA0bXBfZEdFZFFVQ2I0MXlOVmJoY2ZsZXBheHJBWkZ5bElzaEptc1ZUOG8wQmdfcWstV0RKT2JzV0FSRzNfYlJ4WWxxZjR6MlJ2MVVQZjdWWmVBcW1VYUhWdVZHdmVlOWpsYkR4cDJzRXVDM3lyTFVhZ19LaUZ0Z0ZLX3MxbzhYS3ktcWowRk5ZRGF5MktXN05yZm90eVFuTEJjNGdIcHdLYUR0QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "KOMO",
-      "latestSinceUpdate": 2303
-    },
-    {
-      "date": "Aug 29",
-      "text": "Fighting continues in southern Lebanon, posing a strategic conundrum for forces engaging Hezbollah, which rejects a Lebanon-Israel deal.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxPbFFSMlpZb2dEdWdfb3drSTFDT1E2SlUwcEFPUVczdnEtSXo5cDMteHFiaTcwVEREcnVOWWw5TGFIcUFlUGItZ0NQMGwwWGhZOE9nbjVHSEVlM3Q1YnY3LWN0TmdiYjRkWkdXNWgxS1VmQW9ZQURTeGM3ay1iZnI3R1BkeW9wOEpQeXhRcTRaUTJ4SjgydDFxblJtOGIyWHRBSTcxQUNrOUx3aExPSnVkN1VpWlRtdEtRNUs2QTVFdWpZMlVMLVNVWUlYYjZ5VGl5ei0yNjdxU0ZoeVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Defense News",
-      "latestSinceUpdate": 2303
-    },
-    {
-      "date": "Aug 29",
-      "text": "An Israeli strike in southern Lebanon reportedly killed a newlywed woman and wounded others, raising concerns about civilian risks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNZHRzdnRlcXdPNmpObDFFZGh5Sm0yQ3NnNGs0Ykl1T1VlMnBUc0JhOWE3T1ZsbUhKQWh3b2xUelJVQkhqM1h3cTRsSVB4QlZuYnp0NjZCYWtLUGNQTEI0TkEzMS14VkY2T1RxdU5yRE5IYVByYTBmcjVkQkI1WkQ0QlZVeUlIUG5zc3RSeXV2MUM2cU1KTEo4dURqRWUtYllfV2RtQkVOVWM2NlHSAbABQVVfeXFMUERFTGE3VGRWUlE5ZzdsTkhLWHQwMXpWLVJ0WXo2dFRUU0Z5Z1Q0YjdUVGhFNklKYy0xcFlTQ3JKTDJmUjQ4aGc0YjRTbGYzTFVWaU9QMjFaVkx6MVE3NUkwalVZdXdVV0dNaWxsbUNmaXdlaGZ1U2ZsSGNPUGxBTkNVeWJWQ0Z3NEtzNGFJMTBBWGstYjc1WkE5OGtqc0t6RzdkallUWkJsY2tFcE1hV2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2303
-    },
-    {
-      "date": "Aug 29",
-      "text": "Reports indicate that the war with Iran is rapidly draining the US Navy budget, making the US more vulnerable.",
+      "text": "Reports indicate the Iran war is rapidly draining the US navy budget and has left the Pentagon depleted.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2303
+      "latestSinceUpdate": 2304
+    },
+    {
+      "date": "Aug 29",
+      "text": "Israel conducted a rare air strike in the West Bank, killing a Hamas operative.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2304
+    },
+    {
+      "date": "Aug 29",
+      "text": "US and Israeli strikes on Iran have reached a costly stalemate after six months of conflict.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2304
+    },
+    {
+      "date": "Aug 29",
+      "text": "Tehran pledges to stand firm against 'unjust' US sanctions and sets conditions for reopening the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2304
+    },
+    {
+      "date": "Aug 29",
+      "text": "Hezbollah chief vows no 'surrender' as fighting continues in southern Lebanon, where an Israeli strike killed a civilian.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2304
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
