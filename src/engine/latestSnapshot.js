@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2305,
+  "updateSequence": 2306,
   "lastUpdated": "2026-08-29",
-  "lastSyncedAt": "2026-08-29T15:34:14.126Z",
+  "lastSyncedAt": "2026-08-29T18:48:35.828Z",
   "warDay": 183,
-  "summary": "The Iran War continues into its 183rd day with ongoing US sanctions impacting Strait of Hormuz traffic, while Iran claims control and engages in diplomatic efforts amidst regional tensions involving Hezbollah and an Israeli strike.",
+  "summary": "The US-Iran war has reached its six-month mark, characterized by a stalemate, high tensions in the Strait of Hormuz, and ongoing diplomatic maneuvering amidst military actions.",
   "lastNarrativeUpdate": "2026-08-29",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect as the Iran War continues into its sixth month."
+    "summary": "No active ceasefire is reported, with ongoing combat and high tensions in the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.75
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 63
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.78
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 78,
-    "oilDisruption": 80,
-    "tradeImpact": 72,
-    "sanctionsPressure": 62,
-    "globalPressure": 80,
-    "allianceInfluence": 46
+    "nuclearIndex": 10,
+    "escalationLevel": 70,
+    "oilDisruption": 75,
+    "tradeImpact": 67,
+    "sanctionsPressure": 61,
+    "globalPressure": 76,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 27",
-      "text": "IRGC claims 'decisive control' over Strait of Hormuz.",
+      "date": "Aug 29",
+      "text": "The US-Iran war reaches its six-month mark, with markets accustomed to a stalemate and high tensions remaining in the Strait of Hormuz.",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPZC1OREFVbk5ZV25DVDZORHk0OEVJLTJCMk1ORjFRT0h3c0l4eS00eWtfWGg0Wkk5N0xPYjBRSmE1NEtXQjFZNkhhaDZNc3RTWXZQLUpxSDRzcHVLLXpPT0VkdXp2MUxQUzU3aHpoVFdJZEloUGkzRWU2WHcyS3p3ejUyR0p3cVdlbzdEdHBLcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2306
+    },
+    {
+      "date": "Aug 29",
+      "text": "Iran's IRGC claims 'decisive control' over the Strait of Hormuz, while the U.S. asserts it has gained the upper hand in the battle for the strait.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2305
+      "latestSinceUpdate": 2306
     },
     {
       "date": "Aug 29",
-      "text": "Israel kills Hamas operative in a rare West Bank air strike.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2305
-    },
-    {
-      "date": "Aug 29",
-      "text": "Strait of Hormuz traffic remains below normal due to US sanctions pressure.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
+      "text": "Tehran states it is preparing a list of conditions to open the Strait of Hormuz, including a potential ban on US warships, with the White House remaining silent on the Iran-Oman plan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNd0ZuNTZXUGlLd0RNamZaaWcyZEtDZXcwUldPZHRmeEdHSFYzMG9kYldqbExlREEwVnNmU3M2VlNMRElSZjlNd2FxYlBZT1hmdWRKMU5PT25RSGgzLVBsMlJYdVhxLUo1MlhpVFMzOHJIRzl5a0FNRjlDYUtCTThwanFyejE1UkZ2WWhwWlYySTdJLWVTMzBVbE9SbW4wRTlNTTM1NmZaTGZXYWfSAbABQVVfeXFMTWxfcFlVLWVtTC1uRGw5X25vYU9EMzRTRFg5Ty1sWnBXNHVQTlM4UkthekhSN2pjd1RYNS0yb1pvbHJnOTk2eE81OGJfNklZT1UtTHBPcnhsdzIzdWhPc2dlaEotd3BkSW1yYnhiNWo4Ti1mRHg4TzIzT3FQM0JaY0ItZWRaSDF6VWRhOUpUSTZSaWNwUnNCaG5yUkw1NGdibFhCV2RFYzF6ZWZXWWRTT1Y?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 2305
+      "latestSinceUpdate": 2306
     },
     {
       "date": "Aug 29",
-      "text": "Iran and Oman agree on a temporary route for Strait of Hormuz traffic.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNWTFrTGFKUWsycWlaTDVOb1pjUUJCSXJVblBLN1pzYUtJVlQzSktVZzJHdHVUQU1CWjYzQllDdHVrc2xVcTlPSVp4VGYxUThRdzRXT0xYMFFQYzRjVm12LTdobXRzR0tFNDQ3aXZhYzVpekRiRFZMMlZqMUJfb2xkSFFYYmcxcTRJWnY2Q29hNmxhLXhjdm83NER2TdIBoAFBVV95cUxPdlVzYWJtNU1rVzQyNUYzRlQ3amdSV1ZocVdVSjU4UUo5a1drTTl1d3Q2d24wYjRsZVNFcmVrazRGR2stNzIyajBYYTQ1ajhKLTN3QXI1Z0hnUkZpRWQxc0JmQm40WkRld0wwRE5sQnlCeXZjVGZGdTU2bUt5cnZ1M3pod19nRGw3VzB0bDhMb0NfWWNHNE9ERmxRQXFNTGhF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2305
-    },
-    {
-      "date": "Aug 29",
-      "text": "Hezbollah rejects Lebanese overtures and a Lebanon-Israel deal.",
-      "severity": "info",
+      "text": "Hezbollah Chief rejects a Lebanon-Israel deal and refuses to withdraw from a strategic ridge, reiterating a stance against surrender.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2305
+      "latestSinceUpdate": 2306
     },
     {
       "date": "Aug 29",
-      "text": "US plans to cut off military aid to a key Middle East ally.",
+      "text": "Reports indicate the US plans to cut off military aid to a key Middle East ally, potentially altering regional dynamics.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9wOW1nQ1dCYmVFdkNGOC1FX1Y2dGhaZ2dUX0xKeFBQMUhZNlpqMHF4aXhrRkJmRndFMXY5Vkc5S0ZuX0J2ZHl0SGpKQ0N4NWo3TE5BYThIVjJ6Zw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2305
+      "latestSinceUpdate": 2306
+    },
+    {
+      "date": "Aug 29",
+      "text": "The US blockade has reportedly redirected 82 ships, highlighting the ongoing disruption to maritime trade.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2306
     }
   ],
   "sourceStatuses": [
