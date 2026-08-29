@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2302,
-  "lastUpdated": "2026-08-28",
-  "lastSyncedAt": "2026-08-28T22:43:13.899Z",
-  "warDay": 182,
+  "updateSequence": 2303,
+  "lastUpdated": "2026-08-29",
+  "lastSyncedAt": "2026-08-29T03:54:43.080Z",
+  "warDay": 183,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported as the US-Iran war continues and regional conflicts persist."
+    "summary": "No active ceasefire is in effect, with reports indicating a costly stalemate and Hezbollah rejecting a deal."
   }
 }

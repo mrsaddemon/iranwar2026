@@ -1,116 +1,116 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2302,
-  "lastUpdated": "2026-08-28",
-  "lastSyncedAt": "2026-08-28T22:43:13.899Z",
-  "warDay": 182,
-  "summary": "The US-Iran war reaches its six-month mark with no end in sight, marked by continued high tensions in the Strait of Hormuz where the US claims an upper hand, while Iran engages in diplomatic efforts to reopen the strait and appears stronger.",
-  "lastNarrativeUpdate": "2026-08-28",
+  "updateSequence": 2303,
+  "lastUpdated": "2026-08-29",
+  "lastSyncedAt": "2026-08-29T03:54:43.080Z",
+  "warDay": 183,
+  "summary": "The Iran war has reached its six-month mark, characterized by a costly stalemate, ongoing tensions in the Strait of Hormuz, and continued conflict in southern Lebanon.",
+  "lastNarrativeUpdate": "2026-08-29",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported as the US-Iran war continues and regional conflicts persist."
+    "summary": "No active ceasefire is in effect, with reports indicating a costly stalemate and Hezbollah rejecting a deal."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.65,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.78
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 75,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 66,
-    "globalPressure": 84,
-    "allianceInfluence": 73
+    "nuclearIndex": 12,
+    "escalationLevel": 78,
+    "oilDisruption": 72,
+    "tradeImpact": 66,
+    "sanctionsPressure": 62,
+    "globalPressure": 78,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Aug 28",
-      "text": "US-Iran war reaches six-month mark with no end in sight, markets accustomed to stalemate.",
+      "date": "Aug 29",
+      "text": "The US marks six months of war with Iran, with markets accustomed to a costly stalemate with no end in sight.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMic0FVX3lxTFBOLW9UZGdUX1NfNWlWdWpHY1NfLTJVRk1fT2dlMk1KckJxVlBLczBwUWwwZUNTRzRubFJBbWoyR1hWUWhxZkN3M0dCa0ptbWdYSVNDdi13SFBGSmNUOUFrdkN2UkxJVzZHR2xjNTlKZW9wQ1XSAXhBVV95cUxNY2lNNGhFa1ZSTUJ5N0VEeExVQmNraUhXQmxMT0RQU1lkOXppeERINGJKREI2RUJ0ejFjS0Etbk9oeDFYaW1ySlBBSVBoaW0zR1I5azR5Z2pRVGJ0NmFUWDM3cGF1bjk3dGlqcmJVdUQ5ZmYzYWxUTm4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2302
+      "latestSinceUpdate": 2303
     },
     {
-      "date": "Aug 28",
-      "text": "US Navy budget rapidly draining due to ongoing war with Iran.",
+      "date": "Aug 29",
+      "text": "The IRGC asserts control over the Strait of Hormuz while the US enforces a blockade, maintaining high tensions.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2302
-    },
-    {
-      "date": "Aug 28",
-      "text": "US claims upper hand in the battle for the Strait of Hormuz amidst high tensions.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2302
-    },
-    {
-      "date": "Aug 28",
-      "text": "Iran prepares conditions to open Strait of Hormuz and engages in renewed diplomatic push.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2302
+      "latestSinceUpdate": 2303
     },
     {
-      "date": "Aug 28",
-      "text": "Hezbollah chief rejects Lebanon-Israel deal as fighting continues in southern Lebanon.",
+      "date": "Aug 29",
+      "text": "President Trump states the Strait of Hormuz is 'open,' while the White House claims the US has momentum in the region.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiogJBVV95cUxQZ19UU1FybExjbjZwRjZON3VFU3N1UVVWY2I0dW4tSFYzeGJXWm9TamJ2UnljcDJYU0o5VnhmdHpsZWVac0JDblJZckE4X0dVdy1fdG1iQk1MSEJ2bXgzQW9hVjREYnFKZDlSOG53R1pRYkRPYzVHLUxpbHJZSzA0bXBfZEdFZFFVQ2I0MXlOVmJoY2ZsZXBheHJBWkZ5bElzaEptc1ZUOG8wQmdfcWstV0RKT2JzV0FSRzNfYlJ4WWxxZjR6MlJ2MVVQZjdWWmVBcW1VYUhWdVZHdmVlOWpsYkR4cDJzRXVDM3lyTFVhZ19LaUZ0Z0ZLX3MxbzhYS3ktcWowRk5ZRGF5MktXN05yZm90eVFuTEJjNGdIcHdLYUR0QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "KOMO",
+      "latestSinceUpdate": 2303
+    },
+    {
+      "date": "Aug 29",
+      "text": "Fighting continues in southern Lebanon, posing a strategic conundrum for forces engaging Hezbollah, which rejects a Lebanon-Israel deal.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQeFJwbThmcnlRMGcxZV9GWWVKUXV2alA5VzNDRE03TDJwTDU4cGlnWGtpUnl2MWxfRGRBZy00dFhpWEl2cnlRTU1ieTFoNlNHMVJpbXVUUjY0UnViN0hnT2N2OWpwcHlrSDE0SUJFdG9xY2JQNEg3NDk4NDJNblNsdUZmcmo5MEZpb2stRWd1RzB0Q2RYVDlVakhqQXNjeksyUkM4UFNIeHpjQWtrbmJPODlGaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2302
+      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxPbFFSMlpZb2dEdWdfb3drSTFDT1E2SlUwcEFPUVczdnEtSXo5cDMteHFiaTcwVEREcnVOWWw5TGFIcUFlUGItZ0NQMGwwWGhZOE9nbjVHSEVlM3Q1YnY3LWN0TmdiYjRkWkdXNWgxS1VmQW9ZQURTeGM3ay1iZnI3R1BkeW9wOEpQeXhRcTRaUTJ4SjgydDFxblJtOGIyWHRBSTcxQUNrOUx3aExPSnVkN1VpWlRtdEtRNUs2QTVFdWpZMlVMLVNVWUlYYjZ5VGl5ei0yNjdxU0ZoeVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Defense News",
+      "latestSinceUpdate": 2303
     },
     {
-      "date": "Aug 28",
-      "text": "Israeli strike kills civilian woman in southern Lebanon, raising civilian risks.",
+      "date": "Aug 29",
+      "text": "An Israeli strike in southern Lebanon reportedly killed a newlywed woman and wounded others, raising concerns about civilian risks.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNZHRzdnRlcXdPNmpObDFFZGh5Sm0yQ3NnNGs0Ykl1T1VlMnBUc0JhOWE3T1ZsbUhKQWh3b2xUelJVQkhqM1h3cTRsSVB4QlZuYnp0NjZCYWtLUGNQTEI0TkEzMS14VkY2T1RxdU5yRE5IYVByYTBmcjVkQkI1WkQ0QlZVeUlIUG5zc3RSeXV2MUM2cU1KTEo4dURqRWUtYllfV2RtQkVOVWM2NlHSAbABQVVfeXFMUERFTGE3VGRWUlE5ZzdsTkhLWHQwMXpWLVJ0WXo2dFRUU0Z5Z1Q0YjdUVGhFNklKYy0xcFlTQ3JKTDJmUjQ4aGc0YjRTbGYzTFVWaU9QMjFaVkx6MVE3NUkwalVZdXdVV0dNaWxsbUNmaXdlaGZ1U2ZsSGNPUGxBTkNVeWJWQ0Z3NEtzNGFJMTBBWGstYjc1WkE5OGtqc0t6RzdkallUWkJsY2tFcE1hV2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2303
+    },
+    {
+      "date": "Aug 29",
+      "text": "Reports indicate that the war with Iran is rapidly draining the US Navy budget, making the US more vulnerable.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2302
+      "latestSinceUpdate": 2303
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Official Stance",
-      "headline": "Trump Declares Victory, Prolongs Iran War, Imposes New Sanctions",
-      "summary": "President Trump asserts the US is achieving a 'very big victory' in the Iran war, stating it will continue 'for as long as necessary' and that the US is 'not in a hurry' for talks. This comes as the US announces new sanctions against Iran.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2298
+      "perspective": "Stalemate & Cost",
+      "headline": "Six Months In: War's Costly Stalemate Continues",
+      "summary": "The conflict has reached a six-month stalemate, with markets adjusting to the prolonged situation and no clear end in sight. The war is reportedly draining the US Navy budget, raising concerns about US vulnerability.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2303
     },
     {
-      "perspective": "Iranian Stance",
-      "headline": "Iran Maintains Hormuz Control, Threatens European Strikes Amid US Escalation",
-      "summary": "Iran asserts that an agreement with Oman does not open the Strait of Hormuz, maintaining its strategic leverage. Following reported strikes on US intelligence sites, Tehran reportedly weighs further strikes on US military targets in Europe if the conflict escalates.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2298
-    },
-    {
-      "perspective": "Regional Tensions",
-      "headline": "Hezbollah Seeks Coordination Against Israel Amidst Lebanese Divisions",
-      "summary": "The divide between Hezbollah and the Lebanese state widens as Israeli occupation persists, with Hezbollah's Fadlallah calling for coordination with Iran against Israel. Claims emerge of Israel's 'destruction of Lebanon' beyond forest fires.",
+      "perspective": "Strait of Hormuz Control",
+      "headline": "Conflicting Claims Over Strait of Hormuz",
+      "summary": "The IRGC asserts control over the Strait of Hormuz, while the US enforces a blockade, maintaining high tensions. US officials, including President Trump, claim the Strait is open and the US has momentum.",
       "tone": "strained",
-      "latestSinceUpdate": 2298
+      "latestSinceUpdate": 2303
+    },
+    {
+      "perspective": "Lebanon Conflict",
+      "headline": "Lebanon Conflict Intensifies Amidst Hezbollah Rejection",
+      "summary": "Fighting continues in southern Lebanon, presenting a strategic challenge as Hezbollah rejects a deal with Israel. Civilian risks are growing, highlighted by an Israeli strike causing casualties.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2303
+    },
+    {
+      "perspective": "Diplomatic Overture",
+      "headline": "Tehran Proposes Reopening Strait of Hormuz",
+      "summary": "Iran has initiated a renewed diplomatic push, putting forward a proposal to reopen the Strait of Hormuz. This comes amidst ongoing military tensions in the vital waterway.",
+      "tone": "neutral",
+      "latestSinceUpdate": 2303
     }
   ]
 });
