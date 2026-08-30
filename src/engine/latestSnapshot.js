@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2311,
+  "updateSequence": 2312,
   "lastUpdated": "2026-08-30",
-  "lastSyncedAt": "2026-08-30T12:59:25.607Z",
+  "lastSyncedAt": "2026-08-30T17:19:58.762Z",
   "warDay": 184,
-  "summary": "The US-Iran war has reached its six-month mark, characterized by ongoing US sanctions, Iran's resistance and diplomatic efforts regarding the Strait of Hormuz, and continued regional tensions involving Israel and Hezbollah.",
+  "summary": "The six-month-old Iran war continues with ongoing US sanctions impacting Strait of Hormuz traffic, while US military leaders express concerns about the prolonged campaign's strain on resources, and regional conflicts persist in southern Lebanon and the West Bank.",
   "lastNarrativeUpdate": "2026-08-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported; Hezbollah has rejected recent deals."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 20,
+    "escalationLevel": 75,
+    "oilDisruption": 60,
+    "tradeImpact": 57,
+    "sanctionsPressure": 62,
+    "globalPressure": 75,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 30",
-      "text": "Trump’s war on Iran is rapidly draining US navy budget.",
+      "text": "Reports indicate Trump’s war on Iran is rapidly draining US navy budget.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2311
+      "latestSinceUpdate": 2312
     },
     {
       "date": "Aug 30",
-      "text": "Israel kills Hamas operative in rare West Bank air strike.",
+      "text": "Israel kills a Hamas operative in a rare West Bank air strike.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2311
+      "latestSinceUpdate": 2312
     },
     {
       "date": "Aug 30",
-      "text": "US-Iran war reaches 6-month mark as Strait of Hormuz tensions remain high.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPZC1OREFVbk5ZV25DVDZORHk0OEVJLTJCMk1ORjFRT0h3c0l4eS00eWtfWGg0Wkk5N0xPYjBRSmE1NEtXQjFZNkhhaDZNc3RTWXZQLUpxSDRzcHVLLXpPT0VkdXp2MUxQUzU3aHpoVFdJZEloUGkzRWU2WHcyS3p3ejUyR0p3cVdlbzdEdHBLcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2311
-    },
-    {
-      "date": "Aug 30",
-      "text": "Tehran engages in renewed diplomatic push, touts proposal to reopen Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2311
-    },
-    {
-      "date": "Aug 30",
-      "text": "Hezbollah Chief Again Rejects Lebanon-Israel Deal, Refuses To 'Surrender'.",
+      "text": "Strait of Hormuz traffic remains below normal due to US sanctions, with the US reportedly gaining the upper hand.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2311
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2312
+    },
+    {
+      "date": "Aug 30",
+      "text": "Iran's supreme leader calls for regional unity as the war reaches its six-month mark.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2312
+    },
+    {
+      "date": "Aug 30",
+      "text": "Hezbollah reportedly rebuffs Lebanese overtures to withdraw from a strategic ridge in south Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2312
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
