@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2310,
+  "updateSequence": 2311,
   "lastUpdated": "2026-08-30",
-  "lastSyncedAt": "2026-08-30T07:19:50.191Z",
+  "lastSyncedAt": "2026-08-30T12:59:25.607Z",
   "warDay": 184,
-  "summary": "Six months into the Iran war, a stalemate persists with Iran resisting US sanctions and maintaining Strait of Hormuz tensions, while Hezbollah rejects regional deals.",
+  "summary": "The US-Iran war has reached its six-month mark, characterized by ongoing US sanctions, Iran's resistance and diplomatic efforts regarding the Strait of Hormuz, and continued regional tensions involving Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-08-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation agreement is currently in place between the warring parties."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported; Hezbollah has rejected recent deals."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 55
       },
       "behavior": {
         "precision": 0.5,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
-    "allianceInfluence": 51
+    "nuclearIndex": 10,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 30",
-      "text": "Iran pledges to stand firm against ‘unjust’ US sanctions as war passes 6-month mark.",
+      "text": "Iran pledges to stand firm against ‘unjust’ US sanctions.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2309
+      "latestSinceUpdate": 2311
     },
     {
       "date": "Aug 30",
-      "text": "Reports indicate Trump’s war on Iran is rapidly draining the US navy budget.",
+      "text": "Trump’s war on Iran is rapidly draining US navy budget.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2310
+      "latestSinceUpdate": 2311
     },
     {
       "date": "Aug 30",
-      "text": "Tehran engages in renewed diplomatic push, touting a proposal to reopen the Strait of Hormuz and preparing a list of conditions.",
+      "text": "Israel kills Hamas operative in rare West Bank air strike.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2311
+    },
+    {
+      "date": "Aug 30",
+      "text": "US-Iran war reaches 6-month mark as Strait of Hormuz tensions remain high.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPZC1OREFVbk5ZV25DVDZORHk0OEVJLTJCMk1ORjFRT0h3c0l4eS00eWtfWGg0Wkk5N0xPYjBRSmE1NEtXQjFZNkhhaDZNc3RTWXZQLUpxSDRzcHVLLXpPT0VkdXp2MUxQUzU3aHpoVFdJZEloUGkzRWU2WHcyS3p3ejUyR0p3cVdlbzdEdHBLcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2311
+    },
+    {
+      "date": "Aug 30",
+      "text": "Tehran engages in renewed diplomatic push, touts proposal to reopen Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2310
+      "latestSinceUpdate": 2311
     },
     {
       "date": "Aug 30",
-      "text": "Hezbollah Chief again rejects a Lebanon-Israel deal and refuses to withdraw from a strategic ridge in the south.",
+      "text": "Hezbollah Chief Again Rejects Lebanon-Israel Deal, Refuses To 'Surrender'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2310
-    },
-    {
-      "date": "Aug 30",
-      "text": "US-Iran war at six months sees 82 ships redirected under US blockade, with Strait of Hormuz tensions remaining high.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOUEV1S2tFLUNEVG9hdmJ3dEF5YlBmWk8xT0wwWXN3MzZGOVYzX0xITXRLbGNuTUtscXl1Sy10NHlaelVXUHMzZVNYMm42TUVmNVN6UW1pLXV3MDF4YXpaLV82VE5QdXI3R19HemNya2U5LTg1RGFTZXdvdjZ6blJwUWllYVEyaE02cmoyVmdSU3o3SzNZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2310
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2311
     }
   ],
   "sourceStatuses": [
