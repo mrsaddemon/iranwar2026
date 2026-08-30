@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2313,
+  "updateSequence": 2314,
   "lastUpdated": "2026-08-30",
-  "lastSyncedAt": "2026-08-30T19:52:09.158Z",
+  "lastSyncedAt": "2026-08-30T22:09:05.759Z",
   "warDay": 184,
-  "summary": "The Iran War has reached its six-month mark with ongoing US sanctions impacting the Strait of Hormuz, while regional tensions persist with Israeli strikes and Hezbollah activity in southern Lebanon.",
+  "summary": "The Iran War continues with recent US military strikes against Iranian targets in the Strait of Hormuz, while tensions persist in southern Lebanon involving Hezbollah and Israeli forces.",
   "lastNarrativeUpdate": "2026-08-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect."
+    "summary": "No active ceasefire or de-escalation efforts are reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.78
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "nuclearIndex": 10,
+    "escalationLevel": 75,
+    "oilDisruption": 70,
+    "tradeImpact": 64,
+    "sanctionsPressure": 62,
+    "globalPressure": 77,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 30",
-      "text": "Iran pledges to stand firm against 'unjust' US sanctions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2313
+      "text": "US forces strike Iranian rocket launchers on the Strait of Hormuz, marking the first military action in weeks/a month.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi5wFBVV95cUxNU0lJWHNRVkV0WUUtZkVTWk1GcXFscV9WU1JaRmJ2ckJZRFlWSzB5VndYV0MxN2F2NDM0ZU5sQlFFcjloREcxVVpXSGNMbVU0b3R4Z0V0Ul9oQmthX29CbHNZdTFLMTRqbXZSZ2ctV1VLdHd3N29GbWpFZFVKcEpRZkg2TXZhRkp1SThzZEFEQlZHRTVBdFRrNThJRzVPY0V1cFR6S2ZuNTVJaHdNUUR4S1NHOVFRRVdhNG1QR0NvZ0J3WGdVcGVMVEtkWi16WGlkSzBsdzN1cGFUYklRM2FmZVZPa0RpUEHSAewBQVVfeXFMTVVxQ2VIYk85NXpYVUhVaXBTbzN4bVV5eFpQdTVESEFFNVFHTVVNV2Qwd3JDRE1RRThlX29HcFlGbl9oZVNjREdlNVdVTjhZZDZHSnpJYmptNzFLRDBpNUR4U3NRR2RUMmpEV3VScDNHRHdmQzkwZ2NQZm1uX1ZrTGVXWG9wdkRaaGtkZ0dCbmxxTi1ENkFGWm5kaGl5cEJ4cFJCVnNGM0FLQUotX0VlTWFScXlLaGtLUkVDUXh3d3VhaDVUZUxRQ2Q1dEN0ZkhxYkgybXROMEhGSGZBLVJqUmFEVjE4Vkl0NEVLVnY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2314
     },
     {
       "date": "Aug 30",
-      "text": "Reports indicate the Iran war is rapidly draining the US navy budget.",
+      "text": "US strikes Iranian launchers on Larak island amid Strait of Hormuz tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPTm1OakU0ZTQxTmQ0YkVOWWVoMHZJQmJSQkhiV3ZTMXJ6TWNRZzYzblpoYnh2cUFCVTUzdkNRQUhBamhWY0I2MzFZZHBxWlpObmVyd3VXZkt4Y1FCNWVfZmR0U3VuRU16ODB3S1NJcHI4SHdhM1RwbnZnRkNSejdzZTB3N3FKM3ZEZmU0cGhfUHhoZFZPQ3E0cG1pelZlVFlpc05CQTZLdGdhV2ZYOXF3X2I5MmhLa21jS2t5SVVB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2313
+      "latestSinceUpdate": 2314
     },
     {
-      "date": "Aug 30",
-      "text": "Israel kills a Hamas operative in a rare West Bank air strike.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQZlZhNVQwZ2dBSUdMTmN3b2ZuR1VlSlBOanV6NTVkNTBsdHdfZk1OYW95SVFnU0dIdDNlS0NGSkxwOWFCd05JQ28za2N3azJRM2p0UXlISHl3aERWa3VubVRlVGdSdjF3UFFyUlc3VW5yVmI5b3ItU3ZsY1l6TFYtVWxJUG50X2RiNHZ3bGNPMnVRemphRGd2dlJtYUEycGQwUFdxaWdZd056a2d4QldPVEZULVFFUGJQLW05bVFwSWlMLWF0YzVZWmRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2312
-    },
-    {
-      "date": "Aug 30",
-      "text": "Iran's supreme leader calls for regional unity as the war hits the 6-month mark.",
+      "date": "Aug 29",
+      "text": "Hezbollah reportedly rebuffs Lebanese overtures to withdraw from a strategic ridge in southern Lebanon.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2313
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2314
     },
     {
-      "date": "Aug 30",
-      "text": "Strait of Hormuz traffic remains below normal due to US sanctions pressure on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2313
-    },
-    {
-      "date": "Aug 30",
-      "text": "Iran states it will name its terms for reopening the Strait of Hormuz.",
+      "date": "Aug 29",
+      "text": "An Israeli strike kills a woman and wounds others in south Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQM21mSzlVeDUzT184S0dEY19YZ2l2MXo2ZENReDVQZUItM2xUN1haNlAtM2J3TldJaHNmcDBwcXROU1RLTkNYWF84T2dLNE5VMWxMQ01KVFFFazhDN1Baa3g3cjNXeHN1RGw5YjZKdzY2QVowcmNzM2VGN3hxc2JCWmNjWVdJcnJIeVB1MjdOYkhXMzdUVlNpcEE5ZGM5LTFhaVJ0VEpValRiOWPSAbABQVVfeXFMT0d2ZkpiY29LUy1zbTdyYWFSYzBtcG5KRzRyM01Hb19jREJHNHdIdVNhNmdyd2lvc1I4dU9zdUVHX09RdGNPZEF6ZXI3dnM3eFQySWtlQ2lqbWUyekVUSHptbF9BNmh4M3dtWERRM0FNZG44S09QalRjN21ZNlhqQmdFY2RRb0hOUjJDOUNJd0M2OTc4cUw0ZFFwU1JTN1VmS3NpZDF0TUNheUlfemVtdWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNZHRzdnRlcXdPNmpObDFFZGh5Sm0yQ3NnNGs0Ykl1T1VlMnBUc0JhOWE3T1ZsbUhKQWh3b2xUelJVQkhqM1h3cTRsSVB4QlZuYnp0NjZCYWtLUGNQTEI0TkEzMS14VkY2T1RxdU5yRE5IYVByYTBmcjVkQkI1WkQ0QlZVeUlIUG5zc3RSeXV2MUM2cU1KTEo4dURqRWUtYllfV2RtQkVOVWM2NlHSAbABQVVfeXFMUERFTGE3VGRWUlE5ZzdsTkhLWHQwMXpWLVJ0WXo2dFRUU0Z5Z1Q0YjdUVGhFNklKYy0xcFlTQ3JKTDJmUjQ4aGc0YjRTbGYzTFVWaU9QMjFaVkx6MVE3NUkwalVZdXdVV0dNaWxsbUNmaXdlaGZ1U2ZsSGNPUGxBTkNVeWJWQ0Z3NEtzNGFJMTBBWGstYjc1WkE5OGtqc0t6RzdkallUWkJsY2tFcE1hV2M?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2313
+      "latestSinceUpdate": 2314
+    },
+    {
+      "date": "Aug 29",
+      "text": "US military chiefs warn that the Iran war is weakening forces needed to counter international threats.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE90WFlXUXZCaVI2X1BycHBDb2RSZUJNRjFET05PNThBN3lfQk82aWxoZER6TzA5XzBHQ3oyUVdIM2VEQ0NYSWhXcmEyWVdBVk92QWNUVEpHUzlEZHZVNXdxdzVoZVh6clN6N2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2314
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
