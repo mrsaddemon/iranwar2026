@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2309,
+  "updateSequence": 2310,
   "lastUpdated": "2026-08-30",
-  "lastSyncedAt": "2026-08-30T01:35:18.512Z",
+  "lastSyncedAt": "2026-08-30T07:19:50.191Z",
   "warDay": 184,
-  "summary": "The US-Iran war has reached its six-month mark with Iran resisting US sanctions, the Strait of Hormuz experiencing reduced traffic under US blockade, and Hezbollah rejecting a regional deal.",
+  "summary": "Six months into the Iran war, a stalemate persists with Iran resisting US sanctions and maintaining Strait of Hormuz tensions, while Hezbollah rejects regional deals.",
   "lastNarrativeUpdate": "2026-08-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active, with the conflict ongoing for six months."
+    "summary": "No active ceasefire or de-escalation agreement is currently in place between the warring parties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.4
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.5
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 20,
     "escalationLevel": 75,
     "oilDisruption": 80,
     "tradeImpact": 71,
     "sanctionsPressure": 62,
     "globalPressure": 79,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,41 +68,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 30",
-      "text": "Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal.",
+      "text": "Reports indicate Trump’s war on Iran is rapidly draining the US navy budget.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2309
+      "latestSinceUpdate": 2310
     },
     {
       "date": "Aug 30",
-      "text": "Strait of Hormuz traffic remains below normal as US sanctions pressure Iran, with the U.S. gaining the upper hand.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2309
+      "text": "Tehran engages in renewed diplomatic push, touting a proposal to reopen the Strait of Hormuz and preparing a list of conditions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2310
     },
     {
       "date": "Aug 30",
-      "text": "Hezbollah Chief Again Rejects Lebanon-Israel Deal and refuses to withdraw from strategic ridge in south.",
+      "text": "Hezbollah Chief again rejects a Lebanon-Israel deal and refuses to withdraw from a strategic ridge in the south.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2309
+      "latestSinceUpdate": 2310
     },
     {
       "date": "Aug 30",
-      "text": "US plans to cut off military aid to a key Middle East ally, BBC told.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9wOW1nQ1dCYmVFdkNGOC1FX1Y2dGhaZ2dUX0xKeFBQMUhZNlpqMHF4aXhrRkJmRndFMXY5Vkc5S0ZuX0J2ZHl0SGpKQ0N4NWo3TE5BYThIVjJ6Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2309
+      "text": "US-Iran war at six months sees 82 ships redirected under US blockade, with Strait of Hormuz tensions remaining high.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOUEV1S2tFLUNEVG9hdmJ3dEF5YlBmWk8xT0wwWXN3MzZGOVYzX0xITXRLbGNuTUtscXl1Sy10NHlaelVXUHMzZVNYMm42TUVmNVN6UW1pLXV3MDF4YXpaLV82VE5QdXI3R19HemNya2U5LTg1RGFTZXdvdjZ6blJwUWllYVEyaE02cmoyVmdSU3o3SzNZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2310
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
