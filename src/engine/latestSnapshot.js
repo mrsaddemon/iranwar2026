@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2312,
+  "updateSequence": 2313,
   "lastUpdated": "2026-08-30",
-  "lastSyncedAt": "2026-08-30T17:19:58.762Z",
+  "lastSyncedAt": "2026-08-30T19:52:09.158Z",
   "warDay": 184,
-  "summary": "The six-month-old Iran war continues with ongoing US sanctions impacting Strait of Hormuz traffic, while US military leaders express concerns about the prolonged campaign's strain on resources, and regional conflicts persist in southern Lebanon and the West Bank.",
+  "summary": "The Iran War has reached its six-month mark with ongoing US sanctions impacting the Strait of Hormuz, while regional tensions persist with Israeli strikes and Hezbollah activity in southern Lebanon.",
   "lastNarrativeUpdate": "2026-08-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.78
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 75,
-    "oilDisruption": 60,
-    "tradeImpact": 57,
-    "sanctionsPressure": 62,
-    "globalPressure": 75,
+    "nuclearIndex": 15,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,19 +60,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 30",
-      "text": "Iran pledges to stand firm against ‘unjust’ US sanctions.",
+      "text": "Iran pledges to stand firm against 'unjust' US sanctions.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2311
+      "latestSinceUpdate": 2313
     },
     {
       "date": "Aug 30",
-      "text": "Reports indicate Trump’s war on Iran is rapidly draining US navy budget.",
+      "text": "Reports indicate the Iran war is rapidly draining the US navy budget.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2312
+      "latestSinceUpdate": 2313
     },
     {
       "date": "Aug 30",
@@ -84,33 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Aug 30",
-      "text": "Strait of Hormuz traffic remains below normal due to US sanctions, with the US reportedly gaining the upper hand.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2312
-    },
-    {
-      "date": "Aug 30",
-      "text": "Iran's supreme leader calls for regional unity as the war reaches its six-month mark.",
+      "text": "Iran's supreme leader calls for regional unity as the war hits the 6-month mark.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2312
+      "latestSinceUpdate": 2313
     },
     {
       "date": "Aug 30",
-      "text": "Hezbollah reportedly rebuffs Lebanese overtures to withdraw from a strategic ridge in south Lebanon.",
+      "text": "Strait of Hormuz traffic remains below normal due to US sanctions pressure on Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2312
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDZDNUhNUXl2M3BMMUYxV1huTmFxTHcxbXZtRmpRZDRhaFZHTXhzUXVmVEFnN0h6cTJBTkh5OHpxY3pvYlBOOC1TOHJ4ZjZ2X1pNcHV4dy11U2R2ODhsVUhodDZlZW5taDc3dzF0bzNmSDdxQ1V4WWU0YTZvZ3pzQ1F6bUJtaElOenpQR0hMVXJSbV9oeEtyX2dxS3c3UGdTSDhBYg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2313
+    },
+    {
+      "date": "Aug 30",
+      "text": "Iran states it will name its terms for reopening the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQM21mSzlVeDUzT184S0dEY19YZ2l2MXo2ZENReDVQZUItM2xUN1haNlAtM2J3TldJaHNmcDBwcXROU1RLTkNYWF84T2dLNE5VMWxMQ01KVFFFazhDN1Baa3g3cjNXeHN1RGw5YjZKdzY2QVowcmNzM2VGN3hxc2JCWmNjWVdJcnJIeVB1MjdOYkhXMzdUVlNpcEE5ZGM5LTFhaVJ0VEpValRiOWPSAbABQVVfeXFMT0d2ZkpiY29LUy1zbTdyYWFSYzBtcG5KRzRyM01Hb19jREJHNHdIdVNhNmdyd2lvc1I4dU9zdUVHX09RdGNPZEF6ZXI3dnM3eFQySWtlQ2lqbWUyekVUSHptbF9BNmh4M3dtWERRM0FNZG44S09QalRjN21ZNlhqQmdFY2RRb0hOUjJDOUNJd0M2OTc4cUw0ZFFwU1JTN1VmS3NpZDF0TUNheUlfemVtdWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2313
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
