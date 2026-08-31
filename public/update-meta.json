@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2317,
+  "updateSequence": 2318,
   "lastUpdated": "2026-08-31",
-  "lastSyncedAt": "2026-08-31T14:01:24.233Z",
+  "lastSyncedAt": "2026-08-31T19:57:08.403Z",
   "warDay": 185,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A previous month-long operational pause between the US and Iran has ended with renewed military exchanges."
   }
 }

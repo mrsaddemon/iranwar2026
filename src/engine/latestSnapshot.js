@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2317,
+  "updateSequence": 2318,
   "lastUpdated": "2026-08-31",
-  "lastSyncedAt": "2026-08-31T14:01:24.233Z",
+  "lastSyncedAt": "2026-08-31T19:57:08.403Z",
   "warDay": 185,
-  "summary": "The US military conducted strikes on Iranian rocket launchers in the Strait of Hormuz and Larak Island, prompting Iranian reprisal attacks on airbases in Jordan and UAE, while Hezbollah reaffirmed its refusal to withdraw or surrender in southern Lebanon.",
+  "summary": "The United States and Iran have resumed direct military exchanges after a month-long pause, while regional tensions persist with Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-08-31",
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A previous month-long operational pause between the US and Iran has ended with renewed military exchanges."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,10 +24,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 25,
     "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
+    "oilDisruption": 70,
+    "tradeImpact": 64,
     "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "globalPressure": 77,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Aug 31",
-      "text": "Six months into the Iran war, Iranian Americans remain divided over what comes next",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOc21PY1IxdW0zZXFCb2p4bGh5T2hZdDBTTXVkVG1md2FCc2hTaXZGT0pwX3R2VnN6TW5FZVg1YlJSVW44UHNnckphUzVLTVRFZ2RUVkkxaWpmTlFpMmxfMUpleHpmR0QzWFpwYkNsSjczYXBMVFVnMFRuekNFei1pYQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2317
+      "text": "US and Iran exchange strikes following a month-long pause.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2318
     },
     {
       "date": "Aug 31",
-      "text": "How has life changed for Iranians six months into the war?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOc1pPZlljcHFVQWROOVlKRVF1YjdRaWd2Rl85cVZHdW5CaVplWm1BQkpiTkMzWnl1c1V6WXBmRUNYQW1vcHZDdHBUV01xX21TMllvOWhudjRWZGZSczZpRmdnOTAyalhtaTdZUE05RTJQOWNRcmlQTGlnaVdQNGtFX1hmenhkeFhHRmN4OFA2aFItd0tmcGxBaEJsY1lFSXZ3cmVJ0gGoAUFVX3lxTFBQajBTZ3NQS1BmOGxneWN5eUlhMUV0NU0xR3BxQjV1ZlVhdW1WZE9USHVfcGRhUjJxTG1pUm9CVzNkTzZSS01WQlZwQ0tTMGZXc0JwRzV6VUhjSUVWR3lDMm1zUTRXOEhIaFVXNUxjN2tRUzdQcTVnQmpZOHdKcjJiZ3RRdXdRRDlIcFB3OWc0RXY5NnZtbW5pU3dlZXlkNjNhM3N2ZE01Nw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2317
+      "text": "Iran's IRGC attacked US bases in Jordan after US strikes on Larak Island.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPZmpwLVVHQTNwYU5qS2JESWg5anN3UmVFQi1xY3l4enR4dXYyOG11em9OR3ZzR29Kazhzczd4Q1FfajBPd0ZBS3Q5cVNFdkNfSDNvQ1FsenQxWG5lUi12clZwaW5KYzZmb3FZVUNROVY4MThsUkJhQ21QZkN5TE5XNDZQRXYwcndYb2NtTWVCdjMyTXA5UnVvSHFLU3J0akhySFVPclpoUGpZSWE2MTM3TDVCZUFEREZoalHSAb8BQVVfeXFMUFdNYVJpZ0Rsek9Zc3NPdGdDNk1LU3g3clRKWEdxYkRjMndFRm80YVAzVGVCWnVQUGdid0ozVDl1al9zQ251SXhyM08yLU1RRVNEb21peEFuZm8xRXQ3cV83VFY3TTFEeWJxU0tZbFJmeVM4TklDZWdqcTltX2xsZ2VWWWk4VElCVWlkTm1jaWZLdVIyN29KU25mTW5aYUEyRVNnNWhhYUU2UDFCWEdQdi1RRlJDMk9MY1diWHpNNUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2318
     },
     {
       "date": "Aug 31",
-      "text": "For Trump, the Iran War Is Stuck Between Combat and Genuine Peace",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE0wd05wa1llUXZOMnFCRHd0RGZVOElYc1o1NjFJWTZDWlI3UXVCOTFIZzVsR2RVeUl6M0NPQ1pYOFJ1V0JuNkVZNXZPaVp0Q2lLMllzeHlHNmVlTHVSOTQzVlBVQnJEY3pvSE1zTHVQZ1NhaXVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2317
+      "text": "US military struck Iranian rocket launchers near the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNOGhwcUVGWm1hTHB5UWs3blpsTXlDc1gtZWJxUUNUakF6Y1FPMGc3U0MyYVlmYkJvX25LWnJjUS1fOHlfOEJ4TDlmcjdOcThhYnRVenNGSlhQUzNXSUV2R1pzQUNRM3k2TGxVMjd0Q1pFY2J2SDYwbXU3cVJxZ3ZVSV9OZnFaNzFFT3E2c3hkSjM0T1MxaUFaWnF0MG93RDBWaVdWRDBTZkROdlJtTzBGd1VObGxPTGt6NjNOQkM1UUVBRU9oRFQ4SlZibkxrV3JhV1RLTHNHV2ZGaFVhTEHSAeMBQVVfeXFMTXdQZm9CQ2R5N0hjeV9tX1M3R2RJazR6UWs3NUcwb204MDlZOEs4RmRjMTgxbzVtRkxzTWtyZTFsMVVPQ1lwaEtSMFlpbEVfVW0wYjdGX29EYkFlckFkRUhJX243a3ZCaUc1d0EyMEhqTGZiMXlBSU16ZndoTHc5cUM4LTNqTU5kVDRGNFpjV3hVZ0tCUXY4NndzUk5wMGhpdTNOWGtISlRlRGhoa3VuQUhzYzZpZVlvbUc5V2JVeWYwaEN5TmR4Y2xhUjJWVkxKSWR3ZER3T0VWb0t2RElvbThiYTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2318
     },
     {
       "date": "Aug 31",
-      "text": "Iran Update, August 28, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNaTJxaGNjTzE1cGhsVHFELVBvOG56MzB4ZXZqWDRBZllsMkNDb01XdkJjRld1MXlSRjBCOTAwNVNudmZaZXR3bHB1TUZvejhkSlcwMVBYVWwtTlhuYTI2OUIwNFZMX1FFa0ZZazgzYTB5TktsM1puSzkzZXN0TC1sS2luVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2317
+      "text": "Hezbollah leader rejects Israel-Lebanon deal and vows no surrender.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNQUFNTURkVFFnSkZuTzFaeTlzU2VtMml5TGY1ZEdTTEVhTFBROGxxU0FLZ3llWk5FYnEyRlNIaVRvS0x2ZWdLcmlnM0ZzRFFvcVZjd3p4ckJvenoyQWhmUDNOUWxhUXlFMktMY0JiZ2dXRlBQelpyMm5fUDZpUHlJWGNMTkE1dllIQndfNHpZUjhsSFpOY1MyOFZKZnA4NlZ1WTBoazRrb9IBrAFBVV95cUxQWGJHUmQ1cGRKb0FyaXpNa2FwZFZ5Q3pUWTNCdTdVVjR5TkhhVm0yRldWaGJVdEoxZW9POVVUSHZNSWFtaW5MdTRjTkl1MzZvaGswNWJ5QXVvWEJEY1hSSVFKUTRiMS1PZW41QklsUGE3bUthSlJ1cmY0LUc1YlJzZXdRTENUMGNnN3Vvamx4eTRPSXJnWXZnU29iMGVVci1hR1ZUM01hUlJtWWxs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2318
     },
     {
       "date": "Aug 31",
-      "text": "U.S. military strikes Iranian targets in first military action in a month",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2317
-    },
-    {
-      "date": "Aug 31",
-      "text": "US and Iran trade strikes after first known US attack in weeks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2317
+      "text": "US military commanders express concerns about attrition in the Iran conflict.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2318
     }
   ],
   "sourceStatuses": [
