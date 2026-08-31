@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2316,
+  "updateSequence": 2317,
   "lastUpdated": "2026-08-31",
-  "lastSyncedAt": "2026-08-31T06:16:14.891Z",
+  "lastSyncedAt": "2026-08-31T14:01:24.233Z",
   "warDay": 185,
   "summary": "The US military conducted strikes on Iranian rocket launchers in the Strait of Hormuz and Larak Island, prompting Iranian reprisal attacks on airbases in Jordan and UAE, while Hezbollah reaffirmed its refusal to withdraw or surrender in southern Lebanon.",
   "lastNarrativeUpdate": "2026-08-31",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with recent military actions and defiant statements indicating continued conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 28",
-      "text": "US military strikes Iranian targets in the Strait of Hormuz, marking the first military action in a month.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2316
-    },
-    {
-      "date": "Aug 28",
-      "text": "US forces strike two Iranian launchers on Iran's Larak island.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQTkpiVXljY0dfaG41QTlsRW1PXzVEMU9UUGRWYk41QzQ4UERCRnJ5TlVUSUloZXFTUF9ieVBhaGFxQi1iZ3NSOVRPODFnR3NQbnZxdWFJMnl6TmRwYnZqT3pOZFhWUEo5MzRVY2YtdEppVmNMSVQ2UVB0WW5zLThXNjIwdU9ZLUUyQVhWTENEQ3k0bGo2QUdNQVVHdWxSak91RkU5dGNlUFBOZjNqTDRuRGJRZHJHNWRuQTRiaDBSZFpjOTNGcGRV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2316
-    },
-    {
-      "date": "Aug 28",
-      "text": "Iranian forces launch reprisal attacks on airbases in Jordan and UAE following US strikes.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2316
-    },
-    {
-      "date": "Aug 30",
-      "text": "Hezbollah chief rejects Israel-Lebanon deal and vows no 'surrender' amid ongoing tensions in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNQUFNTURkVFFnSkZuTzFaeTlzU2VtMml5TGY1ZEdTTEVhTFBROGxxU0FLZ3llWk5FYnEyRlNIaVRvS0x2ZWdLcmlnM0ZzRFFvcVZjd3p4ckJvenoyQWhmUDNOUWxhUXlFMktMY0JiZ2dXRlBQelpyMm5fUDZpUHlJWGNMTkE1dllIQndfNHpZUjhsSFpOY1MyOFZKZnA4NlZ1WTBoazRrb9IBrAFBVV95cUxQWGJHUmQ1cGRKb0FyaXpNa2FwZFZ5Q3pUWTNCdTdVVjR5TkhhVm0yRldWaGJVdEoxZW9POVVUSHZNSWFtaW5MdTRjTkl1MzZvaGswNWJ5QXVvWEJEY1hSSVFKUTRiMS1PZW41QklsUGE3bUthSlJ1cmY0LUc1YlJzZXdRTENUMGNnN3Vvamx4eTRPSXJnWXZnU29iMGVVci1hR1ZUM01hUlJtWWxs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2316
+      "date": "Aug 31",
+      "text": "Six months into the Iran war, Iranian Americans remain divided over what comes next",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOc21PY1IxdW0zZXFCb2p4bGh5T2hZdDBTTXVkVG1md2FCc2hTaXZGT0pwX3R2VnN6TW5FZVg1YlJSVW44UHNnckphUzVLTVRFZ2RUVkkxaWpmTlFpMmxfMUpleHpmR0QzWFpwYkNsSjczYXBMVFVnMFRuekNFei1pYQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2317
     },
     {
       "date": "Aug 31",
-      "text": "US military leaders warn that a prolonged Iran campaign is eroding forces' readiness and risking ability to act elsewhere.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2316
+      "text": "How has life changed for Iranians six months into the war?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxOc1pPZlljcHFVQWROOVlKRVF1YjdRaWd2Rl85cVZHdW5CaVplWm1BQkpiTkMzWnl1c1V6WXBmRUNYQW1vcHZDdHBUV01xX21TMllvOWhudjRWZGZSczZpRmdnOTAyalhtaTdZUE05RTJQOWNRcmlQTGlnaVdQNGtFX1hmenhkeFhHRmN4OFA2aFItd0tmcGxBaEJsY1lFSXZ3cmVJ0gGoAUFVX3lxTFBQajBTZ3NQS1BmOGxneWN5eUlhMUV0NU0xR3BxQjV1ZlVhdW1WZE9USHVfcGRhUjJxTG1pUm9CVzNkTzZSS01WQlZwQ0tTMGZXc0JwRzV6VUhjSUVWR3lDMm1zUTRXOEhIaFVXNUxjN2tRUzdQcTVnQmpZOHdKcjJiZ3RRdXdRRDlIcFB3OWc0RXY5NnZtbW5pU3dlZXlkNjNhM3N2ZE01Nw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2317
+    },
+    {
+      "date": "Aug 31",
+      "text": "For Trump, the Iran War Is Stuck Between Combat and Genuine Peace",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE0wd05wa1llUXZOMnFCRHd0RGZVOElYc1o1NjFJWTZDWlI3UXVCOTFIZzVsR2RVeUl6M0NPQ1pYOFJ1V0JuNkVZNXZPaVp0Q2lLMllzeHlHNmVlTHVSOTQzVlBVQnJEY3pvSE1zTHVQZ1NhaXVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2317
+    },
+    {
+      "date": "Aug 31",
+      "text": "Iran Update, August 28, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNaTJxaGNjTzE1cGhsVHFELVBvOG56MzB4ZXZqWDRBZllsMkNDb01XdkJjRld1MXlSRjBCOTAwNVNudmZaZXR3bHB1TUZvejhkSlcwMVBYVWwtTlhuYTI2OUIwNFZMX1FFa0ZZazgzYTB5TktsM1puSzkzZXN0TC1sS2luVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2317
+    },
+    {
+      "date": "Aug 31",
+      "text": "U.S. military strikes Iranian targets in first military action in a month",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2317
+    },
+    {
+      "date": "Aug 31",
+      "text": "US and Iran trade strikes after first known US attack in weeks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2317
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
