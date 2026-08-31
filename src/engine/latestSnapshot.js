@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2315,
+  "updateSequence": 2316,
   "lastUpdated": "2026-08-31",
-  "lastSyncedAt": "2026-08-31T00:39:20.856Z",
+  "lastSyncedAt": "2026-08-31T06:16:14.891Z",
   "warDay": 185,
-  "summary": "The US-Iran conflict continues with recent US strikes on Iranian rocket launchers near the Strait of Hormuz, while Iran pledges resilience against sanctions and Hezbollah remains active in southern Lebanon.",
+  "summary": "The US military conducted strikes on Iranian rocket launchers in the Strait of Hormuz and Larak Island, prompting Iranian reprisal attacks on airbases in Jordan and UAE, while Hezbollah reaffirmed its refusal to withdraw or surrender in southern Lebanon.",
   "lastNarrativeUpdate": "2026-08-31",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; active conflict continues."
+    "summary": "No active ceasefire is in effect, with recent military actions and defiant statements indicating continued conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
-      },
-      "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.7
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.8,
+        "aggression": 0.6
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
     "escalationLevel": 75,
-    "oilDisruption": 70,
-    "tradeImpact": 64,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
     "sanctionsPressure": 62,
-    "globalPressure": 77,
-    "allianceInfluence": 46
+    "globalPressure": 79,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 31",
-      "text": "US forces strike two Iranian launchers on Iran's Larak island amid Strait of Hormuz tensions.",
+      "date": "Aug 28",
+      "text": "US military strikes Iranian targets in the Strait of Hormuz, marking the first military action in a month.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2316
+    },
+    {
+      "date": "Aug 28",
+      "text": "US forces strike two Iranian launchers on Iran's Larak island.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQTkpiVXljY0dfaG41QTlsRW1PXzVEMU9UUGRWYk41QzQ4UERCRnJ5TlVUSUloZXFTUF9ieVBhaGFxQi1iZ3NSOVRPODFnR3NQbnZxdWFJMnl6TmRwYnZqT3pOZFhWUEo5MzRVY2YtdEppVmNMSVQ2UVB0WW5zLThXNjIwdU9ZLUUyQVhWTENEQ3k0bGo2QUdNQVVHdWxSak91RkU5dGNlUFBOZjNqTDRuRGJRZHJHNWRuQTRiaDBSZFpjOTNGcGRV?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2315
+      "latestSinceUpdate": 2316
     },
     {
-      "date": "Aug 31",
-      "text": "Iran pledges to stand firm against 'unjust' US sanctions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2315
-    },
-    {
-      "date": "Aug 31",
-      "text": "Hezbollah rebuffs Lebanese overtures to withdraw from a strategic ridge in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQTVJGa0JlcTJvOFZKOTJkanNETDdTZDFINkIyZEs5UGJWNjJ5LWJ4TzR2Sm0xUVR3QWdPRERWeldOR0ZBVVdMbGxuTkJBc1ZvZUc4c05IMzVSbENBckRLTi1vZEFxejBTei1nU2F3OVk5MkxfZXFLbWItSTlHVjhEd0YydEE4MmNseVVpVTdWbUJWbmVxSHRybXdqOFkwaGlnMVlCU2VLcHQtVTdING5idDFMUzgtbzjSAbwBQVVfeXFMT0FvTVdobktnV3YyaVVneGs1V0N2MllIWFFkRVJMclJZVHNCR2p4YUJEUWZJbHBFbjdxM2czbUFXdmZNVVlsYkhjRDZoQnVUekQzNnFyWWRtTkpDelFLTlFCNjdZWmYwcE9jOXV4Y2RIMDNtdzNmT1gtbWY4LThRMHRXWlY3cWdjcHdaR1UxMmFvdDlGQXZMUlE3S2p3bzNmN3ZRd2RXNWctLXdtdExaUzhyNHpjOUZOa3Y2THk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2315
-    },
-    {
-      "date": "Aug 31",
-      "text": "Israeli strike kills a woman and wounds others in southern Lebanon.",
+      "date": "Aug 28",
+      "text": "Iranian forces launch reprisal attacks on airbases in Jordan and UAE following US strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNZHRzdnRlcXdPNmpObDFFZGh5Sm0yQ3NnNGs0Ykl1T1VlMnBUc0JhOWE3T1ZsbUhKQWh3b2xUelJVQkhqM1h3cTRsSVB4QlZuYnp0NjZCYWtLUGNQTEI0TkEzMS14VkY2T1RxdU5yRE5IYVByYTBmcjVkQkI1WkQ0QlZVeUlIUG5zc3RSeXV2MUM2cU1KTEo4dURqRWUtYllfV2RtQkVOVWM2NlHSAbABQVVfeXFMUERFTGE3VGRWUlE5ZzdsTkhLWHQwMXpWLVJ0WXo2dFRUU0Z5Z1Q0YjdUVGhFNklKYy0xcFlTQ3JKTDJmUjQ4aGc0YjRTbGYzTFVWaU9QMjFaVkx6MVE3NUkwalVZdXdVV0dNaWxsbUNmaXdlaGZ1U2ZsSGNPUGxBTkNVeWJWQ0Z3NEtzNGFJMTBBWGstYjc1WkE5OGtqc0t6RzdkallUWkJsY2tFcE1hV2M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2315
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2316
     },
     {
-      "date": "Late Aug",
-      "text": "Reports indicate the Iran war is rapidly draining the US Navy budget and eroding overall US armed forces' readiness.",
+      "date": "Aug 30",
+      "text": "Hezbollah chief rejects Israel-Lebanon deal and vows no 'surrender' amid ongoing tensions in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNQUFNTURkVFFnSkZuTzFaeTlzU2VtMml5TGY1ZEdTTEVhTFBROGxxU0FLZ3llWk5FYnEyRlNIaVRvS0x2ZWdLcmlnM0ZzRFFvcVZjd3p4ckJvenoyQWhmUDNOUWxhUXlFMktMY0JiZ2dXRlBQelpyMm5fUDZpUHlJWGNMTkE1dllIQndfNHpZUjhsSFpOY1MyOFZKZnA4NlZ1WTBoazRrb9IBrAFBVV95cUxQWGJHUmQ1cGRKb0FyaXpNa2FwZFZ5Q3pUWTNCdTdVVjR5TkhhVm0yRldWaGJVdEoxZW9POVVUSHZNSWFtaW5MdTRjTkl1MzZvaGswNWJ5QXVvWEJEY1hSSVFKUTRiMS1PZW41QklsUGE3bUthSlJ1cmY0LUc1YlJzZXdRTENUMGNnN3Vvamx4eTRPSXJnWXZnU29iMGVVci1hR1ZUM01hUlJtWWxs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2316
+    },
+    {
+      "date": "Aug 31",
+      "text": "US military leaders warn that a prolonged Iran campaign is eroding forces' readiness and risking ability to act elsewhere.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2315
-    },
-    {
-      "date": "Late Aug",
-      "text": "The US Navy is actively helping to get oil through the Strait of Hormuz amidst ongoing tensions.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2315
+      "latestSinceUpdate": 2316
     }
   ],
   "sourceStatuses": [
