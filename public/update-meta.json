@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2324,
+  "updateSequence": 2325,
   "lastUpdated": "2026-09-01",
-  "lastSyncedAt": "2026-09-01T19:51:02.589Z",
+  "lastSyncedAt": "2026-09-01T22:06:40.486Z",
   "warDay": 186,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active; hostilities between the US and Iran, and Israel and Hezbollah, are ongoing."
+    "summary": "No ceasefire is currently active between the primary belligerents, with active hostilities reported."
   }
 }
