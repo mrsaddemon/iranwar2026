@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2321,
+  "updateSequence": 2322,
   "lastUpdated": "2026-09-01",
-  "lastSyncedAt": "2026-09-01T07:43:02.590Z",
+  "lastSyncedAt": "2026-09-01T12:46:54.766Z",
   "warDay": 186,
-  "summary": "The United States and Iran have exchanged strikes for the first time in weeks, leading to increased tensions and concerns over escalation, particularly in the Strait of Hormuz.",
+  "summary": "The conflict in West Asia has escalated with direct military exchanges between the US and Iran, attacks on oil tankers in the Strait of Hormuz, and ongoing tensions involving Hezbollah.",
   "lastNarrativeUpdate": "2026-09-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst renewed military exchanges between the US and Iran."
+    "summary": "No active ceasefire is in effect; direct military engagements and threats continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.65
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 63,
-    "globalPressure": 79,
+    "nuclearIndex": 35,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 01",
-      "text": "US and Iran trade strikes after first known US attack in weeks.",
+      "date": "Aug 31",
+      "text": "US and Iran exchange fire in a new flare-up, with IRGC attacking US bases in Jordan after US bombs Larak Island.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2321
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPZmpwLVVHQTNwYU5qS2JESWg5anN3UmVFQi1xY3l4enR4dXYyOG11em9OR3ZzR29Kazhzczd4Q1FfajBPd0ZBS3Q5cVNFdkNfSDNvQ1FsenQxWG5lUi12clZwaW5KYzZmb3FZVUNROVY4MThsUkJhQ21QZkN5TE5XNDZQRXYwcndYb2NtTWVCdjMyTXA5UnVvSHFLU3J0akhySFVPclpoUGpZSWE2MTM3TDVCZUFEREZoalHSAb8BQVVfeXFMUFdNYVJpZ0Rsek9Zc3NPdGdDNk1LU3g3clRKWEdxYkRjMndFRm80YVAzVGVCWnVQUGdid0ozVDl1al9zQ251SXhyM08yLU1RRVNEb21peEFuZm8xRXQ3cV83VFY3TTFEeWJxU0tZbFJmeVM4TklDZWdqcTltX2xsZ2VWWWk4VElCVWlkTm1jaWZLdVIyN29KU25mTW5aYUEyRVNnNWhhYUU2UDFCWEdQdi1RRlJDMk9MY1diWHpNNUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2322
     },
     {
-      "date": "Sep 01",
-      "text": "U.S. strikes Iranian rocket launchers on the Strait of Hormuz in first military action in weeks.",
+      "date": "Aug 31",
+      "text": "U.S. strikes Iranian rocket launchers on the Strait of Hormuz, marking the first military action in weeks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNOGhwcUVGWm1hTHB5UWs3blpsTXlDc1gtZWJxUUNUakF6Y1FPMGc3U0MyYVlmYkJvX25LWnJjUS1fOHlfOEJ4TDlmcjdOcThhYnRVenNGSlhQUzNXSUV2R1pzQUNRM3k2TGxVMjd0Q1pFY2J2SDYwbXU3cVJxZ3ZVSV9OZnFaNzFFT3E2c3hkSjM0T1MxaUFaWnF0MG93RDBWaVdWRDBTZkROdlJtTzBGd1VObGxPTGt6NjNOQkM1UUVBRU9oRFQ4SlZibkxrV3JhV1RLTHNHV2ZGaFVhTEHSAeMBQVVfeXFMTXdQZm9CQ2R5N0hjeV9tX1M3R2RJazR6UWs3NUcwb204MDlZOEs4RmRjMTgxbzVtRkxzTWtyZTFsMVVPQ1lwaEtSMFlpbEVfVW0wYjdGX29EYkFlckFkRUhJX243a3ZCaUc1d0EyMEhqTGZiMXlBSU16ZndoTHc5cUM4LTNqTU5kVDRGNFpjV3hVZ0tCUXY4NndzUk5wMGhpdTNOWGtISlRlRGhoa3VuQUhzYzZpZVlvbUc5V2JVeWYwaEN5TmR4Y2xhUjJWVkxKSWR3ZER3T0VWb0t2RElvbThiYTg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 2321
+      "latestSinceUpdate": 2322
     },
     {
-      "date": "Sep 01",
-      "text": "Tanker struck in Hormuz, raising worries over escalation, as Trump vows to hit Iran 'hard'.",
+      "date": "Aug 30",
+      "text": "West Asia conflict escalates as US-Israel strikes hit Iran, and the US Embassy in Riyadh is attacked.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2321
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQZHhsMnRzT001OE5GdXBoSElzTl9qWjBIVWVZUHJXclN6ZUJTMVNvWHV5U3doRkEyRzJEaGQ1TzQ0b3lzOVgtVGJvQ0FEZ3IyZHRuU1dmT2t2UHYyR3lpZ2lraGFjM0tqS2hwUTlnV0JYZGVCODczZlZjTmhCeWxGOFQ3OTJnZU03d0pPZnNMSHlFd01FMHFmRzRMZ0FoRF8tRklmU2RaN3I0Nmo1aWEwUnIxUVJ5X2Ytemt5c2h3Yw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 2322
     },
     {
-      "date": "Sep 01",
-      "text": "Trump warns 'we're going to hit them hard' after Iran targets U.S. forces in Jordan.",
+      "date": "Aug 29",
+      "text": "Two tankers carrying Saudi oil were attacked in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPbTdiazZLdjJmZFUzaDZwUHpSV3R0b2lubVJLcXdtNmk1WEZjbU96MjJveEl4dl9FWjl3V3kwTVQtY0N5WnhINS1PSXoyNUNtYXpub0EwWVBCZklqaTJPTXN0QmxaTWJ3b284NWx4ckg4S3NONkl4WEVnSzdaaV94cUJ0YXI3UlZHV3RwZ1B2am8xMHc2VnV1TTBjcExjSEg1R2d0RWhuUkY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2322
+    },
+    {
+      "date": "Aug 28",
+      "text": "Trump warns of hitting Iran 'hard' after Iran targets U.S. forces in Jordan.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE4wSnJRS01nMGw4dnRINXlHYjVUUHBJaVNncFAyXzUtUWpMbGlFX0x2M0I1SXpNdElMZ0VpYzE1cm1tRFk4cDBob29xMlp3OExfS1RJcFplNEMwVFVHd3ZvTlZzb0x4d29iUjVOcGsxRzZrd1Vm0gF6QVVfeXFMTTZSZEkzZFVMR1YzOHo3V2pMSEZlTGZBQ3VhR3NLUmp3VVNVX0JDZkFVUlpDdWFzc01LUExwcnJqYTdQbGhWS2E4VEVnOUZjcm9Tc0Nib3Q2TDVmVlVUeVlGMExqNXRkUC1zdklFZjlyOTRaZjdteEZkZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnbc.com",
-      "latestSinceUpdate": 2321
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2322
     },
     {
-      "date": "Sep 01",
-      "text": "Hezbollah’s FPV Drones Pose an Acute Challenge to Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNSXpIZmc2MnR5YWV4bzZhWlFudTREUm5sSS1ITDZrWjl5aXVyV2tablFzdVppR0pjY185WUlUczJJVmpuaXhHbFRGa2ZITWZkWEFmWFZEYmhrY2tkX2FIby1iTEdLRWg3eHFSaTZMM1g2Sm9uOUNVVUY1VnBSUXM3ZDJKa19aMHFCeHlFVVFkX2o1a0hsSWJfaDZqa09uZ0gybjE0WDhmTlFrQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2321
-    },
-    {
-      "date": "Sep 01",
-      "text": "U.S. Military Commanders Warn of Attrition in Iran War.",
+      "date": "Aug 27",
+      "text": "Military leaders warn against extending Iran war operations, with a leaked document showing generals are concerned.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPTDBFNUI5QnJhelFXMm4xT0pabEU4X0l6RHRQVkZIY19SUkJZRGo1TXp0Y2tILVdieGRPUDgzQnJ6ZHdJY2VyQnlvR0V6Wk9SNEMtcl9kYTNsTlQ5SW45RFFNTVFkNGwybXpUamZvWUczdnNzb01wRmZnVVlKOHhCZ0lsaHVkdXJuUlIxc1dndmx5dkk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "IranWire",
-      "latestSinceUpdate": 2321
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNelBwdjExMnFiT0Q4TTJNdXIzTmN1WWFCSEZtdHhjbkFRYkhRc0o4U3ViX3pVSmQ5c0JBRkd3UXZwNFE1T0lLWUFPTXpWaW5JNDFEbC1fM3ZNczEwOHVudFZMUVNRbHJkWEFRWHA2Z203R05FbE5FOVVXLW9mUzFkRjI3TlIzNWM2eEhNWENjOTlNTmM2NVVKdGNFaDhITEFMeThNVnc0SXN1N3B0cUFNNlZrWWhkbjVnSTV6ckVPUUk1dGd2NHlr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2322
     }
   ],
   "sourceStatuses": [
