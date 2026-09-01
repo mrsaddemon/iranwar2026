@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2319,
-  "lastUpdated": "2026-08-31",
-  "lastSyncedAt": "2026-08-31T23:44:31.839Z",
-  "warDay": 185,
+  "updateSequence": 2320,
+  "lastUpdated": "2026-09-01",
+  "lastSyncedAt": "2026-09-01T02:04:32.126Z",
+  "warDay": 186,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active as military attacks between the US and Iran have resumed."
+    "summary": "No ceasefire is currently active between the primary belligerents."
   }
 }

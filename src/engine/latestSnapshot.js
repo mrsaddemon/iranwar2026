@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2319,
-  "lastUpdated": "2026-08-31",
-  "lastSyncedAt": "2026-08-31T23:44:31.839Z",
-  "warDay": 185,
-  "summary": "The US and Iran have resumed military strikes, leading to increased oil prices, while Iran pledges to stand firm against sanctions and Hezbollah shifts to low-intensity guerrilla warfare.",
-  "lastNarrativeUpdate": "2026-08-31",
+  "updateSequence": 2320,
+  "lastUpdated": "2026-09-01",
+  "lastSyncedAt": "2026-09-01T02:04:32.126Z",
+  "warDay": 186,
+  "summary": "The United States and Iran have exchanged military strikes in recent weeks, including US actions in the Strait of Hormuz and Iranian attacks on US bases in Jordan, leading to rising oil prices and concerns about sustained conflict.",
+  "lastNarrativeUpdate": "2026-09-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active as military attacks between the US and Iran have resumed."
+    "summary": "No ceasefire is currently active between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 35,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 31",
-      "text": "US and Iran trade strikes after first known US attack in weeks, marking a major military escalation.",
+      "date": "Aug 28",
+      "text": "US and Iran trade strikes after first known US attack in weeks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE0wR1VYOXlxY0JNeElMalZOaEw0VDcycU9GeDBFLUdEQ2x4NjRuSjQzd0drUUtfVDRIR2hzenZjY2lRU2ZvbzVUeWVzYUQxc2QwcS1pWW5HX2EzUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "the-independent.com",
-      "latestSinceUpdate": 2319
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2320
     },
     {
-      "date": "Aug 31",
-      "text": "U.S. strikes Iranian rocket launchers on the Strait of Hormuz.",
+      "date": "Aug 29",
+      "text": "U.S. strikes Iranian rocket launchers on the Strait of Hormuz in first military action in weeks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNOGhwcUVGWm1hTHB5UWs3blpsTXlDc1gtZWJxUUNUakF6Y1FPMGc3U0MyYVlmYkJvX25LWnJjUS1fOHlfOEJ4TDlmcjdOcThhYnRVenNGSlhQUzNXSUV2R1pzQUNRM3k2TGxVMjd0Q1pFY2J2SDYwbXU3cVJxZ3ZVSV9OZnFaNzFFT3E2c3hkSjM0T1MxaUFaWnF0MG93RDBWaVdWRDBTZkROdlJtTzBGd1VObGxPTGt6NjNOQkM1UUVBRU9oRFQ4SlZibkxrV3JhV1RLTHNHV2ZGaFVhTEHSAeMBQVVfeXFMTXdQZm9CQ2R5N0hjeV9tX1M3R2RJazR6UWs3NUcwb204MDlZOEs4RmRjMTgxbzVtRkxzTWtyZTFsMVVPQ1lwaEtSMFlpbEVfVW0wYjdGX29EYkFlckFkRUhJX243a3ZCaUc1d0EyMEhqTGZiMXlBSU16ZndoTHc5cUM4LTNqTU5kVDRGNFpjV3hVZ0tCUXY4NndzUk5wMGhpdTNOWGtISlRlRGhoa3VuQUhzYzZpZVlvbUc5V2JVeWYwaEN5TmR4Y2xhUjJWVkxKSWR3ZER3T0VWb0t2RElvbThiYTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "the-independent.com",
-      "latestSinceUpdate": 2319
+      "sourceName": "PBS",
+      "latestSinceUpdate": 2320
     },
     {
-      "date": "Aug 31",
-      "text": "US strikes Iran on Larak Island, with Israel noted as carrying long-term risk.",
+      "date": "Aug 30",
+      "text": "IRGC attacks US bases in Jordan after US bombs Larak Island.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1KbnB3T25OeFpwTzJ4NFpkN1ZNRE5JanoySWxTNWRtQ0VsRVJhOXZRTlJYTDJSbDNiVjBNT0gxN3VxRU5aUkxLcS04OVRlR1I1a05hNTg2SlQzdlVmWTRBOFJsYTBhaGI0X045NHB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "the-independent.com",
-      "latestSinceUpdate": 2319
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPZmpwLVVHQTNwYU5qS2JESWg5anN3UmVFQi1xY3l4enR4dXYyOG11em9OR3ZzR29Kazhzczd4Q1FfajBPd0ZBS3Q5cVNFdkNfSDNvQ1FsenQxWG5lUi12clZwaW5KYzZmb3FZVUNROVY4MThsUkJhQ21QZkN5TE5XNDZQRXYwcndYb2NtTWVCdjMyTXA5UnVvSHFLU3J0akhySFVPclpoUGpZSWE2MTM3TDVCZUFEREZoalHSAb8BQVVfeXFMUFdNYVJpZ0Rsek9Zc3NPdGdDNk1LU3g3clRKWEdxYkRjMndFRm80YVAzVGVCWnVQUGdid0ozVDl1al9zQ251SXhyM08yLU1RRVNEb21peEFuZm8xRXQ3cV83VFY3TTFEeWJxU0tZbFJmeVM4TklDZWdqcTltX2xsZ2VWWWk4VElCVWlkTm1jaWZLdVIyN29KU25mTW5aYUEyRVNnNWhhYUU2UDFCWEdQdi1RRlJDMk9MY1diWHpNNUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2320
     },
     {
-      "date": "Aug 31",
-      "text": "Iran pledges to stand firm against ‘unjust’ US sanctions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOSGJTQWRjaXhjYlZqdHpCb0tKQzJod3J0dDNLOWFhMENtOUpXdmFMWUF4bmJBNGs4UDVVbW9HbFhpRHdKVlZsVzFkZ3FGejNNSExlSHMwc3ptNzBJUUpQR2x6WXFDM2hxSzBad3Z5a1V6Ti1CT3dmdTBPcC1DODlSekE5Xy1nSUV4NjQ4d1pNZEpIYmhpVDJ3OWo2THdtcVo3VlE0MnFkWUhQNm5DQnJQREJ30gG3AUFVX3lxTE50LVdSTjA4THVkSmM4UDhLaEIwSG1oSV9DZEpPT1lQd29va3RYeWVXNWNubDluYkpHcHBoRHBsYU9HYzQwSDAxYS1TWTNYZXlqMUdLUkdGN2JnNUlwdWZsbEZncDNSMGVWamhQcmJNcE95c1BoWlBydml4UHk0UWhEWGlnWkFkVHJ0U0dFMmgySkhuT3VTcVo4c2ZMV0tkR1Vkb19mZTV2cTRjRDhRRjFYY3FZNXRNUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "the-independent.com",
-      "latestSinceUpdate": 2319
-    },
-    {
-      "date": "Aug 31",
-      "text": "Oil prices rise by more than 2.5% and stocks fall as US and Iran resume military attacks.",
+      "date": "Aug 30",
+      "text": "Oil prices rise and stocks fall after US hits Iranian sites in the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQSGRJUGVDenVxZzdzdXZ4aTJudWV6LS1adkVVMmVUNnc1QnMyNVNsLThHcG44U2p6SWoxYm9LbjJnUGdkZDAzTENhSDR2OW90cWV2aDJNZWpKRllRNUhselE2djRhQlI3ejVmUUl6cFNnVDN1UmU4QXVadDNmQloya3daeWVHSmtGNDh4QWktSk1fenV3czlkbnhwNjJ3VzNXWEhZelFCRTIzaWpR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "the-independent.com",
-      "latestSinceUpdate": 2319
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxQTkxlME9kNGFRUWlyc1k0NW93dnBPbHRkWWtveTVWc19ybnNSV2J2SHZ1MUhZa2VrQWVRaWNWWUQ0ZnE5UmRHcjYtYXl1ZVp4OF9DU0VRdmFEVXJ4MUFnUWkzQkRsNThWbVVXcUVvUDBRYXpoeXpBcnZaX0tXTjd3V3QxNzRBMTAwY3dRSmticTlFQUtITmdqQmpRS1JyUDVS?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2320
     },
     {
       "date": "Aug 31",
-      "text": "Hezbollah chief vows no ‘surrender’ and rejects Israel-Lebanon deal, shifting to low-intensity guerrilla warfare.",
+      "text": "Trump vows to hit Iran hard after U.S., Tehran exchange strikes for the first time in weeks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOX3VPTi0xVlBhMThyb19kVkpfWmJ5Q054dGxfeEFUMFFlN1NGZ2pwYU82ei03S28yNHJSc1lsampHMnFJYXpQbjJSR1hGNWpNT3pUTC05V1dhT1BfTTVQVkd1eF9BSU45bU1udS01QXRhdHdaY0pfUS1NZ0tac2JoeTlvSW9nVkNHdjRrbUZpN1o?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2320
+    },
+    {
+      "date": "Aug 31",
+      "text": "Pentagon expresses concern over classified warnings against Iran War and ability to sustain a long conflict.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxNQUFNTURkVFFnSkZuTzFaeTlzU2VtMml5TGY1ZEdTTEVhTFBROGxxU0FLZ3llWk5FYnEyRlNIaVRvS0x2ZWdLcmlnM0ZzRFFvcVZjd3p4ckJvenoyQWhmUDNOUWxhUXlFMktMY0JiZ2dXRlBQelpyMm5fUDZpUHlJWGNMTkE1dllIQndfNHpZUjhsSFpOY1MyOFZKZnA4NlZ1WTBoazRrb9IBrAFBVV95cUxQWGJHUmQ1cGRKb0FyaXpNa2FwZFZ5Q3pUWTNCdTdVVjR5TkhhVm0yRldWaGJVdEoxZW9POVVUSHZNSWFtaW5MdTRjTkl1MzZvaGswNWJ5QXVvWEJEY1hSSVFKUTRiMS1PZW41QklsUGE3bUthSlJ1cmY0LUc1YlJzZXdRTENUMGNnN3Vvamx4eTRPSXJnWXZnU29iMGVVci1hR1ZUM01hUlJtWWxs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "the-independent.com",
-      "latestSinceUpdate": 2319
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2320
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "Iran Defies Sanctions, Calls for Global Pushback",
-      "summary": "Iran pledges to stand firm against ‘unjust’ US sanctions and calls for global pushback, stating that diplomacy 'isn't impossible' despite the ongoing conflict.",
+      "perspective": "US Administration",
+      "headline": "US Vows Strong Response to Iranian Aggression While Weighing Options",
+      "summary": "The US administration, led by Trump, has responded to Iranian actions with military strikes and strong rhetoric, including threats to 'hit them hard.' However, there are also considerations for 'limited strikes' to curb attacks in the Strait of Hormuz.",
       "tone": "defiant",
-      "latestSinceUpdate": 2309
+      "latestSinceUpdate": 2320
     },
     {
-      "perspective": "United States",
-      "headline": "US Gains Hormuz Upper Hand Amid Budget Strain",
-      "summary": "The US has gained the upper hand in the Strait of Hormuz, now a top concern, though the war is rapidly draining the US navy budget after six months of conflict.",
-      "tone": "strained",
-      "latestSinceUpdate": 2309
+      "perspective": "Iranian Leadership",
+      "headline": "Iran Continues Retaliatory Strikes Against US Targets",
+      "summary": "Iran's IRGC has attacked US bases in Jordan following US military actions, indicating a continued willingness to engage in direct conflict. Iranian actions, including mine warfare, aim to challenge US control in strategic waterways.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2320
     },
     {
-      "perspective": "Regional/Market",
-      "headline": "Markets Accustomed to Stalemate as Region Transforms",
-      "summary": "Six months into the Iran war, markets have become accustomed to a stalemate with no end in sight, transforming the region and its relationship with the U.S.",
+      "perspective": "US Military/Defense",
+      "headline": "Pentagon Concerned About Sustaining Long-Term Conflict with Iran",
+      "summary": "Leaked documents and reports indicate significant concern among American generals regarding the potential for a prolonged conflict with Iran. Questions are being raised about the US military's capacity to sustain such an engagement.",
       "tone": "anxious",
-      "latestSinceUpdate": 2309
+      "latestSinceUpdate": 2320
     },
     {
-      "perspective": "Hezbollah",
-      "headline": "Hezbollah Rejects Regional Deal, Maintains Stance",
-      "summary": "Hezbollah rejects overtures for a Lebanon-Israel deal and refuses to withdraw from strategic positions, maintaining its stance against 'surrender' in the region.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2309
+      "perspective": "Regional Stability (Israel/Lebanon)",
+      "headline": "Hezbollah Poses Acute Challenge as Israel Expresses Discontent",
+      "summary": "Hezbollah's use of FPV drones presents a significant threat to Israel, which is reportedly unhappy with the slow progress of Hezbollah disarmament efforts. Lebanon is also attempting to assert its influence against Iran's presence.",
+      "tone": "strained",
+      "latestSinceUpdate": 2320
     }
   ]
 });
