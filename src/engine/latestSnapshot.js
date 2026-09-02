@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2329,
+  "updateSequence": 2330,
   "lastUpdated": "2026-09-02",
-  "lastSyncedAt": "2026-09-02T13:00:08.645Z",
+  "lastSyncedAt": "2026-09-02T17:07:18.724Z",
   "warDay": 187,
-  "summary": "US and Iran are engaged in reciprocal strikes, with Iran claiming attacks on US bases and the US completing new military operations, while oil tankers have been attacked in the Strait of Hormuz and Hezbollah continues drone attacks against Israel.",
+  "summary": "US and Iran continue direct military exchanges, including strikes on tankers and vessels in the Strait of Hormuz, while Israel and Hezbollah engage in cross-border attacks, raising fears of wider regional conflict.",
   "lastNarrativeUpdate": "2026-09-02",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 02",
-      "text": "Iran war live: US bombing inflicts heavy casualties as Gulf states targeted",
-      "severity": "info",
+      "text": "IRGC reports two vessels on fire after hitting mines in Hormuz.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQclJVZlVOS0hmbG9xRjFzR3JBc3ZzWmtUS2RKVGJnYjN0bnFBb3kwNDQxdTZaRUZpS2QzaXZwNXh1RHBjMnJRaE5MUEZsendhbzAyRnpuRGxHekUzX2hLTWFZTkU2ZHVGekR0NDBUaW8xTDRSTDhMSXBSN2NvaTIwOGI2bGRjTTF2a1V0aVdWN2ZSWTdScUV5V3ZoQnFnNUVuUGhidV9MdU53bVEwZk0yalZhOHd5Zkl3N1N1ctIBwgFBVV95cUxPQlNQQVdCYnlaT2lycU4tR0FpenhMRTM4MDR3ekZoTnVIc0V3WVFMWkRXc2VCR0laSURhR1pXaVNvSlNlcFlTUnZJbi0yNHNNQWMwUWp1ZzZTWXBZam9meEZzaGlhd0xiU2hNT0F2VzUtTUdrQXo4RGFEWDYtZmx5MXBtOGZwNHN3Mm1FWkVabUMwOEZ0dUxrbkhSTVUyRXlteGY0Y3NPRkhpNHk1NkdTTlV1OGhlUG96cUxWWGFHX1dlQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2329
+      "latestSinceUpdate": 2330
     },
     {
       "date": "Sep 02",
-      "text": "U.S. military strikes Iran, while Trump vows more for Tehran's retaliation",
-      "severity": "info",
+      "text": "U.S. military strikes Iran, with Trump vowing more for Tehran's retaliation.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE43OVI4c2VSUGlEY214Y0VQQlB0ZnFsdjN2WG54LWtUTW02SGRsdkt4d1U4LU52UzFWb3lZWGlfZTctVE13SDNJRkhWVnpxRldOcjNTZWtncXlqejgtR213QlBOU2g?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 2329
+      "latestSinceUpdate": 2330
     },
     {
-      "date": "Sep 02",
-      "text": "Military leaders warn Hegseth against extending Iran war operations",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNelBwdjExMnFiT0Q4TTJNdXIzTmN1WWFCSEZtdHhjbkFRYkhRc0o4U3ViX3pVSmQ5c0JBRkd3UXZwNFE1T0lLWUFPTXpWaW5JNDFEbC1fM3ZNczEwOHVudFZMUVNRbHJkWEFRWHA2Z203R05FbE5FOVVXLW9mUzFkRjI3TlIzNWM2eEhNWENjOTlNTmM2NVVKdGNFaDhITEFMeThNVnc0SXN1N3B0cUFNNlZrWWhkbjVnSTV6ckVPUUk1dGd2NHlr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2329
-    },
-    {
-      "date": "Sep 02",
-      "text": "Iran Update, August 31, 2026",
+      "date": "Aug 31",
+      "text": "Iran Update published, detailing ongoing conflict.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNdnhfSVl3eXV5R3JzLVQ0M2IyV2JKMHg1dktscXVLSS1VZFhKdmR6VXlWbFdqTkxIeWl4LWM5eHJWYXJ5S01aRi1HZ0VxNmFtT1dqVndwaktLRGxFNW5XdTR4VkhmZ1NFVVRwd1dBMmMxN2dwYVZPOURTU1YxQy02a0hfYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2329
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2330
     },
     {
       "date": "Sep 02",
-      "text": "Iran War: Latest News, Live Coverage and Video",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2329
-    },
-    {
-      "date": "Sep 02",
-      "text": "Iran attacks US bases in Middle East after reports US strike killed four at wedding party",
+      "text": "US military completes latest wave of strikes on Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFByamU5TjBFcHB1R2ZhQ0UtQ2pKTHY1Y09IQ045YlRBNEtMUjV3MVJISGdMZ0dLZ0lzTkR3QTRNdGo2ZDBSVFdObXhySXBvNVYyeDBHLXptQXBxUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPekNsWEt4cEh2RVhBNk5nQXJSczQ2QjJlU2hONHpGLXRBSVg1bi1wdWljNXZOd0lvS0toX0ZiZmpaNUVpaG9QbmMtTHBkdzRBUXZMVjU0al9iQUFVQWRvZzFTek5MOGhyME9Ea3Y4a0ZiUVNOUXR1VDRZQi1Td09pT1ZpanoxQ1BKVVp2NWc5WlZPT3hVSDJ2aWZZMExHU1J4aUhKSjFEZ3JWdmo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2330
+    },
+    {
+      "date": "Sep 02",
+      "text": "US and Iran exchange more airstrikes, fueling fears of wider hostilities.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE9oTFc4YUVQOW5PTFpPdnR2OVVLSnV1SkxHaURzZ2VUMlR1aGMtS0lNSDVib3psQW1YMmxVeVBKM1planZCaTdES1hHb3YxdEtWWnRRU0pIMDRLbG9FRnptMV84VEpiWlNTcUZTMXNqaHc2dlRPbWdRNjJPRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2330
+    },
+    {
+      "date": "Sep 02",
+      "text": "BBC reports Israeli military presence in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTFBBVjlMaHl4cTlTLVRhb2R5cy1NOHBYdlAwaGg2ajB0QTd6MjNUNk96bk95cXk3eFBfRmZvUmd1cEFNb1oxcjVaVkpfbGYxMnlEdDhfLWZLcw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2329
+      "latestSinceUpdate": 2330
     }
   ],
   "sourceStatuses": [
