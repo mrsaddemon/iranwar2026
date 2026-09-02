@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2327,
+  "updateSequence": 2328,
   "lastUpdated": "2026-09-02",
-  "lastSyncedAt": "2026-09-02T04:19:59.078Z",
+  "lastSyncedAt": "2026-09-02T08:50:52.350Z",
   "warDay": 187,
-  "summary": "Direct military exchanges between the US and Iran continue, marked by retaliatory strikes and attacks on oil tankers in the Strait of Hormuz, while Hezbollah's evolving tactics pose an ongoing challenge to Israel.",
+  "summary": "US and Iran are engaged in reciprocal strikes, with Iran claiming attacks on US bases and the US completing new military operations, while oil tankers have been attacked in the Strait of Hormuz and Hezbollah continues drone attacks against Israel.",
   "lastNarrativeUpdate": "2026-09-02",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
+    "summary": "No ceasefire is currently active between the primary belligerents, with ongoing military exchanges."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 15,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 02",
-      "text": "U.S. military launches fresh strikes in the Strait of Hormuz.",
+      "date": "Sep 01",
+      "text": "Iran claims attacks on US bases in Bahrain, Jordan, and Iraq.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE14emhLdERqMDNXajliUVR1S29GSEZOUUhkTjBzNXR2TG91aWk0M2F4YnB5U0d1UzRMQ2RnM1pYd1Jlc3VLUDdpNlctejloOVN4aC12NndlbFBjWjdQYkg3QThxZW9PQW9ZdlZJWjk0WG51OUww?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "axios.com",
-      "latestSinceUpdate": 2327
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQclJVZlVOS0hmbG9xRjFzR3JBc3ZzWmtUS2RKVGJnYjN0bnFBb3kwNDQxdTZaRUZpS2QzaXZwNXh1RHBjMnJRaE5MUEZsendhbzAyRnpuRGxHekUzX2hLTWFZTkU2ZHVGekR0NDBUaW8xTDRSTDhMSXBSN2NvaTIwOGI2bGRjTTF2a1V0aVdWN2ZSWTdScUV5V3ZoQnFnNUVuUGhidV9MdU53bVEwZk0yalZhOHd5Zkl3N1N1ctIBwgFBVV95cUxPQlNQQVdCYnlaT2lycU4tR0FpenhMRTM4MDR3ekZoTnVIc0V3WVFMWkRXc2VCR0laSURhR1pXaVNvSlNlcFlTUnZJbi0yNHNNQWMwUWp1ZzZTWXBZam9meEZzaGlhd0xiU2hNT0F2VzUtTUdrQXo4RGFEWDYtZmx5MXBtOGZwNHN3Mm1FWkVabUMwOEZ0dUxrbkhSTVUyRXlteGY0Y3NPRkhpNHk1NkdTTlV1OGhlUG96cUxWWGFHX1dlQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2328
     },
     {
-      "date": "Sep 02",
-      "text": "US forces strike 2 Iranian rocket launch sites.",
+      "date": "Sep 01",
+      "text": "US military completes latest wave of strikes against Iran.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPZEFCR3pYMFczek00TGhzVl9ram9qaUExZmVLWk05OGRzalVmc1J1dEcya2dON1I3TFRJNjZMRGxSeTVpZzVmMVdMVTFzMlFJWl9Vai01TVRFRWJ2eTlmU2ZuVW1QaHU4NzZneE5ndjRydTdRb2JrMWx6cnd4dUpwYg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al-Monitor",
+      "latestSinceUpdate": 2328
+    },
+    {
+      "date": "Sep 01",
+      "text": "Two oil tankers carrying Saudi oil attacked in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPbTdiazZLdjJmZFUzaDZwUHpSV3R0b2lubVJLcXdtNmk1WEZjbU96MjJveEl4dl9FWjl3V3kwTVQtY0N5WnhINS1PSXoyNUNtYXpub0EwWVBCZklqaTJPTXN0QmxaTWJ3b284NWx4ckg4S3NONkl4WEVnSzdaaV94cUJ0YXI3UlZHV3RwZ1B2am8xMHc2VnV1TTBjcExjSEg1R2d0RWhuUkY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2328
+    },
+    {
+      "date": "Sep 01",
+      "text": "Hezbollah launches explosive drones at Israeli troops in Southern Lebanon, prompting IDF strikes.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2327
+      "latestSinceUpdate": 2328
     },
     {
-      "date": "Sep 02",
-      "text": "Iran retaliates after US strikes, defying Trump’s warning it could be hit ‘much harder’.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBiUlh3M1d3S2Y0TTU0a2pHWTBZeW9oSS1QaGxYNGVJTWVWSFBqU0sweGo3TkF1cFNoQ0xWeERVZ1dpNzFfZ2N2Y0xUVHQwMUNIXzRyZEFLZXQwZFkyUGlPaWpnbFBGcUNQb1I2TEtLZDEtUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2327
-    },
-    {
-      "date": "Sep 02",
-      "text": "Two More Oil Tankers Are Attacked in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBFZkN6WmpBSk00S0NlbjVzeXlJR3h0aG04a0RoWGpqNDl6bU9TaWtuQmpfeHlXTzcyWVNMdlROLVZhX2Z5TjRGR3pRVmZvS2V1UkdoOFQ5M3UxdHdMREJBNmZUOFMxZ3owdGNvR1NPTklwVzNaRFVFTzRrT0NRQlk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2327
-    },
-    {
-      "date": "Sep 02",
-      "text": "Hezbollah’s FPV Drones Pose an Acute Challenge to Israel.",
+      "date": "Sep 01",
+      "text": "Israel is expanding its presence in Lebanon, with BBC visiting occupied areas.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNSXpIZmc2MnR5YWV4bzZhWlFudTREUm5sSS1ITDZrWjl5aXVyV2tablFzdVppR0pjY185WUlUczJJVmpuaXhHbFRGa2ZITWZkWEFmWFZEYmhrY2tkX2FIby1iTEdLRWg3eHFSaTZMM1g2Sm9uOUNVVUY1VnBSUXM3ZDJKa19aMHFCeHlFVVFkX2o1a0hsSWJfaDZqa09uZ0gybjE0WDhmTlFrQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2327
-    },
-    {
-      "date": "Sep 02",
-      "text": "Israel said unhappy with progress on Hezbollah disarmament in pilot zones.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi_gFBVV95cUxONXlHSVdVakpzTVA5ek5WQ3lHbkR1a3JMOUtPX2xLOXFkWXIydjNUa2UtMTBBci1OT3p4Y3MyMWU4OHdkaXkyZzB6dHVTYUI3czMzMjM5SlVYQ2dfNDZKODgtdnhZLUZRcEFXTWFWMHBvRHBnd0RWVkc2b29GZnFFTGdpbkZXU0ZWeG5HSGtQUjFnTEVRR052anVMNXJDOFdsTWlNMnk0SlBfSy1OM0ZBUzk1bnA4cHlCZUNxVDVVZk5IdkVjRU9mSzdpck9CMG1ydThPdlEzOUpSWlpVelJubS0yR0pZTTlfVlJBWHFidGhxaEZxNFB1eWtfdmxHQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2327
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQbTZSWUVZblVmMG90ckpkSGpiWktGQThRd2lMZFdZMWpEemdMV2N1eklCYmhSQy05NDlDY2xSekJNLW8yUjh2YlY5SFJTbDcyWVIzMzQ3V3poaGpMaW9KOW5QY3p5ZGZ1RHYyNFFyc1Jna2k4ZWJCcVNHa01FTlJXNzFIZlVjZy1DNGdra1NHU01DM2NWamtoeEVfM0tGMlhaZWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 2328
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
