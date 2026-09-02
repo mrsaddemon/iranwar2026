@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2326,
+  "updateSequence": 2327,
   "lastUpdated": "2026-09-02",
-  "lastSyncedAt": "2026-09-02T00:04:55.008Z",
+  "lastSyncedAt": "2026-09-02T04:19:59.078Z",
   "warDay": 187,
-  "summary": "The United States has launched new airstrikes on Iranian targets in retaliation for attacks on shipping and American forces, while two oil tankers were attacked in the Strait of Hormuz.",
+  "summary": "Direct military exchanges between the US and Iran continue, marked by retaliatory strikes and attacks on oil tankers in the Strait of Hormuz, while Hezbollah's evolving tactics pose an ongoing challenge to Israel.",
   "lastNarrativeUpdate": "2026-09-02",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 80,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 02",
-      "text": "Iran says it responded with missiles to US attack despite Trump’s threats",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQY1VIcWhXU2JEN0F2MFR6UHNxbHQ4WG02cWVRVzVEaW5lS3lveTJaMUc4c2RIWEhOeEl3QUF3NnUtQzN2Q2VUQTczcmdGNmU5Y3I1XzJTSTRwU1RBQTFvSDBfSjlZMHRxMlM5TDhlcE1XNVlUclB5VUdNQlZmYWExbWlaUEZmWkFrQ2tyTy1pY9IBlAFBVV95cUxNbVdoa0dFUldPbnNjTlNaZUJGVHprRGpUOWNieWtoQ1QtQTBoZktQUnlMbkFpT2sycnAyV2VYYVo0dE51Q3VVWUxsUU5sRnhCcHIxVnB1US1haS1Xck9LVUZfV2JqM3NfWVVpa0hGdXh6OFNrd1J5b2hsWjJZTU54cDBlLTBnMXZjYURyeVltVGJINVB1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2326
+      "text": "U.S. military launches fresh strikes in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE14emhLdERqMDNXajliUVR1S29GSEZOUUhkTjBzNXR2TG91aWk0M2F4YnB5U0d1UzRMQ2RnM1pYd1Jlc3VLUDdpNlctejloOVN4aC12NndlbFBjWjdQYkg3QThxZW9PQW9ZdlZJWjk0WG51OUww?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "axios.com",
+      "latestSinceUpdate": 2327
     },
     {
       "date": "Sep 02",
-      "text": "Iran Update, August 31, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNdnhfSVl3eXV5R3JzLVQ0M2IyV2JKMHg1dktscXVLSS1VZFhKdmR6VXlWbFdqTkxIeWl4LWM5eHJWYXJ5S01aRi1HZ0VxNmFtT1dqVndwaktLRGxFNW5XdTR4VkhmZ1NFVVRwd1dBMmMxN2dwYVZPOURTU1YxQy02a0hfYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2326
+      "text": "US forces strike 2 Iranian rocket launch sites.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2327
     },
     {
       "date": "Sep 02",
-      "text": "No, Iran is not winning: In Act IV of the war, it’s losing its leverage in Hormuz",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1iNmxzbkZlUXRaMWZyQWFNaElqLVhEeW1SZzFuUmhMWEc0Z3ZITXNsbTVSMlUxMEx2THFjeXZkLXBTU2VrUVZTeWEtMll0di00cFdzSmpaZjlPcTVyZG1EY2VJZ292TnpZbmEzMzc3Q0ZHcDhneFh4b0VuOEVnNHM?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran retaliates after US strikes, defying Trump’s warning it could be hit ‘much harder’.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMickFVX3lxTFBiUlh3M1d3S2Y0TTU0a2pHWTBZeW9oSS1QaGxYNGVJTWVWSFBqU0sweGo3TkF1cFNoQ0xWeERVZ1dpNzFfZ2N2Y0xUVHQwMUNIXzRyZEFLZXQwZFkyUGlPaWpnbFBGcUNQb1I2TEtLZDEtUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2326
+      "latestSinceUpdate": 2327
     },
     {
       "date": "Sep 02",
-      "text": "Iran war updates: Trump says US could still ‘smack’ Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQaHJoVXZ2MzBnaVRCSDBFYmJNWUNmdUR4Mmx0cHVXV20xY3V1VjVoRXVabXhZdWtnWDdEc2NBUTNOUGNMM0JHcWhXajlTSE1KWHBKQ3hiUHJaRWc0anpsYlk2SkNGZ294VW5EajFyV2VkUXAwRjNwT29FWTVXMXZvdmptRnhPanFnMXhJaFlhQ0lDWWdTN21mTDdfSU9zX05nWFFKS1VHRlZfTGM0bmJ5X2htLThpYWFXZDV1VWFBcVnSAcYBQVVfeXFMTVl0eWRfNVlPelc5SGNoSFdpd2xSeVJUZEhMOTNmbDlldDJCUzJfNDZEcTdTaHlFMjlDRkQ1YkVJWGVNNWZ5UWFESW1fZ3dHOS03S2k0ZXhTd01nSlFnaEk3aG9SVDE1dk40ZjB2cFZ1TVFrNVZnTnJ3cC02ZEY1RUZhOXdYTllOWWFkcS12eENQS0h6ZlVOYTcyZWxxZE5SSHJvZ1hVR2Q2S2ZPcGtpdC03ejZpWURIbzVGd003bEFwZkVFejd3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2326
+      "text": "Two More Oil Tankers Are Attacked in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBFZkN6WmpBSk00S0NlbjVzeXlJR3h0aG04a0RoWGpqNDl6bU9TaWtuQmpfeHlXTzcyWVNMdlROLVZhX2Z5TjRGR3pRVmZvS2V1UkdoOFQ5M3UxdHdMREJBNmZUOFMxZ3owdGNvR1NPTklwVzNaRFVFTzRrT0NRQlk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2327
     },
     {
       "date": "Sep 02",
-      "text": "US and Iran trade strikes, and other Mideast news",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQdlc2ODRWbzc4Ujc2bkpMYWU2dGtJU3JNdk1UeHhYbThocGhLbG9WdDVGd3JpdlIxLUNRZFhWZU80TXhRMWk2RFVaYmVwRXhVdG9fcUl3Zk5Pd0Q1SHpzT0w1aURMQVVxUURyR2lZYTZGbjNfT18yTlBMRml2bTZGM3dDaWNKNmNfelRuLXlsWmw1SlIwNHY0c3ljY2cwc0pma0tId2VtUjBpVWQ4OE5TeE90QVFrWFI5UTZ5eV9HeWhVQ09WUGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2326
+      "text": "Hezbollah’s FPV Drones Pose an Acute Challenge to Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNSXpIZmc2MnR5YWV4bzZhWlFudTREUm5sSS1ITDZrWjl5aXVyV2tablFzdVppR0pjY185WUlUczJJVmpuaXhHbFRGa2ZITWZkWEFmWFZEYmhrY2tkX2FIby1iTEdLRWg3eHFSaTZMM1g2Sm9uOUNVVUY1VnBSUXM3ZDJKa19aMHFCeHlFVVFkX2o1a0hsSWJfaDZqa09uZ0gybjE0WDhmTlFrQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2327
     },
     {
       "date": "Sep 02",
-      "text": "Iran War: Latest News, Live Coverage and Video",
+      "text": "Israel said unhappy with progress on Hezbollah disarmament in pilot zones.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "nbcnews.com",
-      "latestSinceUpdate": 2326
+      "sourceUrl": "https://news.google.com/articles/CBMi_gFBVV95cUxONXlHSVdVakpzTVA5ek5WQ3lHbkR1a3JMOUtPX2xLOXFkWXIydjNUa2UtMTBBci1OT3p4Y3MyMWU4OHdkaXkyZzB6dHVTYUI3czMzMjM5SlVYQ2dfNDZKODgtdnhZLUZRcEFXTWFWMHBvRHBnd0RWVkc2b29GZnFFTGdpbkZXU0ZWeG5HSGtQUjFnTEVRR052anVMNXJDOFdsTWlNMnk0SlBfSy1OM0ZBUzk1bnA4cHlCZUNxVDVVZk5IdkVjRU9mSzdpck9CMG1ydThPdlEzOUpSWlpVelJubS0yR0pZTTlfVlJBWHFidGhxaEZxNFB1eWtfdmxHQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2327
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
