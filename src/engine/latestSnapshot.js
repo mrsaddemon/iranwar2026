@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2325,
-  "lastUpdated": "2026-09-01",
-  "lastSyncedAt": "2026-09-01T22:06:40.486Z",
-  "warDay": 186,
+  "updateSequence": 2326,
+  "lastUpdated": "2026-09-02",
+  "lastSyncedAt": "2026-09-02T00:04:55.008Z",
+  "warDay": 187,
   "summary": "The United States has launched new airstrikes on Iranian targets in retaliation for attacks on shipping and American forces, while two oil tankers were attacked in the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-09-01",
+  "lastNarrativeUpdate": "2026-09-02",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active between the primary belligerents, with active hostilities reported."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 01",
-      "text": "US military carries out new strikes on Iranian targets, including IRGC sites, in response to attacks on American forces and shipping.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE5FTXd0OEtWRHdleWt6SDYwTHlxd3hLV0hKQmJNbmlvMm03RS1ZZmNReEZZd2RYaG9oV1pPWnEwcE5WYVUxYUJLYl83V0tZYl9BMFRrSVdhUG5rekpIaHRqdmYwbTBZdjd2QUtGQjh4cGM1SDlBeXI0?hl=en-US&gl=US&ceid=US:en",
+      "date": "Sep 02",
+      "text": "Iran says it responded with missiles to US attack despite Trump’s threats",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxQY1VIcWhXU2JEN0F2MFR6UHNxbHQ4WG02cWVRVzVEaW5lS3lveTJaMUc4c2RIWEhOeEl3QUF3NnUtQzN2Q2VUQTczcmdGNmU5Y3I1XzJTSTRwU1RBQTFvSDBfSjlZMHRxMlM5TDhlcE1XNVlUclB5VUdNQlZmYWExbWlaUEZmWkFrQ2tyTy1pY9IBlAFBVV95cUxNbVdoa0dFUldPbnNjTlNaZUJGVHprRGpUOWNieWtoQ1QtQTBoZktQUnlMbkFpT2sycnAyV2VYYVo0dE51Q3VVWUxsUU5sRnhCcHIxVnB1US1haS1Xck9LVUZfV2JqM3NfWVVpa0hGdXh6OFNrd1J5b2hsWjJZTU54cDBlLTBnMXZjYURyeVltVGJINVB1?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2326
+    },
+    {
+      "date": "Sep 02",
+      "text": "Iran Update, August 31, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNdnhfSVl3eXV5R3JzLVQ0M2IyV2JKMHg1dktscXVLSS1VZFhKdmR6VXlWbFdqTkxIeWl4LWM5eHJWYXJ5S01aRi1HZ0VxNmFtT1dqVndwaktLRGxFNW5XdTR4VkhmZ1NFVVRwd1dBMmMxN2dwYVZPOURTU1YxQy02a0hfYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2326
+    },
+    {
+      "date": "Sep 02",
+      "text": "No, Iran is not winning: In Act IV of the war, it’s losing its leverage in Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1iNmxzbkZlUXRaMWZyQWFNaElqLVhEeW1SZzFuUmhMWEc0Z3ZITXNsbTVSMlUxMEx2THFjeXZkLXBTU2VrUVZTeWEtMll0di00cFdzSmpaZjlPcTVyZG1EY2VJZ292TnpZbmEzMzc3Q0ZHcDhneFh4b0VuOEVnNHM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2325
+      "latestSinceUpdate": 2326
     },
     {
-      "date": "Sep 01",
-      "text": "Two oil tankers carrying Saudi oil were attacked by unknown projectiles in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPbTdiazZLdjJmZFUzaDZwUHpSV3R0b2lubVJLcXdtNmk1WEZjbU96MjJveEl4dl9FWjl3V3kwTVQtY0N5WnhINS1PSXoyNUNtYXpub0EwWVBCZklqaTJPTXN0QmxaTWJ3b284NWx4ckg4S3NONkl4WEVnSzdaaV94cUJ0YXI3UlZHV3RwZ1B2am8xMHc2VnV1TTBjcExjSEg1R2d0RWhuUkY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2325
-    },
-    {
-      "date": "Aug 31",
-      "text": "An update on the war's impact on Iranians six months into the conflict was published.",
+      "date": "Sep 02",
+      "text": "Iran war updates: Trump says US could still ‘smack’ Iran",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2325
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQaHJoVXZ2MzBnaVRCSDBFYmJNWUNmdUR4Mmx0cHVXV20xY3V1VjVoRXVabXhZdWtnWDdEc2NBUTNOUGNMM0JHcWhXajlTSE1KWHBKQ3hiUHJaRWc0anpsYlk2SkNGZ294VW5EajFyV2VkUXAwRjNwT29FWTVXMXZvdmptRnhPanFnMXhJaFlhQ0lDWWdTN21mTDdfSU9zX05nWFFKS1VHRlZfTGM0bmJ5X2htLThpYWFXZDV1VWFBcVnSAcYBQVVfeXFMTVl0eWRfNVlPelc5SGNoSFdpd2xSeVJUZEhMOTNmbDlldDJCUzJfNDZEcTdTaHlFMjlDRkQ1YkVJWGVNNWZ5UWFESW1fZ3dHOS03S2k0ZXhTd01nSlFnaEk3aG9SVDE1dk40ZjB2cFZ1TVFrNVZnTnJ3cC02ZEY1RUZhOXdYTllOWWFkcS12eENQS0h6ZlVOYTcyZWxxZE5SSHJvZ1hVR2Q2S2ZPcGtpdC03ejZpWURIbzVGd003bEFwZkVFejd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2326
     },
     {
-      "date": "Sep 01",
-      "text": "Hezbollah's FPV drones are posing an acute challenge to Israel, as the group shifts to guerrilla tactics while rebuilding.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQTW10dGFGZE9saFlyVmJudzg4NmNkYWhLeE92UEtkTk5NOWJIU24tYjN1b0JKV00xQmxQbHRjOTVNbGFJZFJBZTg5NEV1alFFS0VvdTZxUFVMa1NlWlNXZnY5RmY0SUhNZ1RYLWhvalROZHdFSG1NYzh1SHJGaTJoeTZoMm5IYTBUTjU0TkNhZDNsYjg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Arab Weekly",
-      "latestSinceUpdate": 2325
-    },
-    {
-      "date": "Sep 01",
-      "text": "Israel is reportedly unhappy with the progress of Hezbollah disarmament in pilot zones, with Lebanese army officers opposing an IDF pullout.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi_gFBVV95cUxONXlHSVdVakpzTVA5ek5WQ3lHbkR1a3JMOUtPX2xLOXFkWXIydjNUa2UtMTBBci1OT3p4Y3MyMWU4OHdkaXkyZzB6dHVTYUI3czMzMjM5SlVYQ2dfNDZKODgtdnhZLUZRcEFXTWFWMHBvRHBnd0RWVkc2b29GZnFFTGdpbkZXU0ZWeG5HSGtQUjFnTEVRR052anVMNXJDOFdsTWlNMnk0SlBfSy1OM0ZBUzk1bnA4cHlCZUNxVDVVZk5IdkVjRU9mSzdpck9CMG1ydThPdlEzOUpSWlpVelJubS0yR0pZTTlfVlJBWHFidGhxaEZxNFB1eWtfdmxHQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2325
-    },
-    {
-      "date": "Sep 01",
-      "text": "A school in Metula, on the Lebanese border, has reopened its gates after three years of war.",
+      "date": "Sep 02",
+      "text": "US and Iran trade strikes, and other Mideast news",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2325
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQdlc2ODRWbzc4Ujc2bkpMYWU2dGtJU3JNdk1UeHhYbThocGhLbG9WdDVGd3JpdlIxLUNRZFhWZU80TXhRMWk2RFVaYmVwRXhVdG9fcUl3Zk5Pd0Q1SHpzT0w1aURMQVVxUURyR2lZYTZGbjNfT18yTlBMRml2bTZGM3dDaWNKNmNfelRuLXlsWmw1SlIwNHY0c3ljY2cwc0pma0tId2VtUjBpVWQ4OE5TeE90QVFrWFI5UTZ5eV9HeWhVQ09WUGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2326
+    },
+    {
+      "date": "Sep 02",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "nbcnews.com",
+      "latestSinceUpdate": 2326
     }
   ],
   "sourceStatuses": [
