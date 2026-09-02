@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2331,
+  "updateSequence": 2332,
   "lastUpdated": "2026-09-02",
-  "lastSyncedAt": "2026-09-02T19:44:46.425Z",
+  "lastSyncedAt": "2026-09-02T22:00:44.021Z",
   "warDay": 187,
-  "summary": "The US and Iran are engaged in direct military exchanges following a US strike that Iran claims hit a wedding, leading to Iranian retaliation against US bases and Gulf neighbors, alongside attacks on oil tankers in the Strait of Hormuz, while Israel conducts strikes in southern Lebanon.",
+  "summary": "The United States and Iran have engaged in multiple direct airstrikes and retaliatory actions, fueling fears of broader regional escalation, while Israel continues military operations in Lebanon amid warnings to Iran.",
   "lastNarrativeUpdate": "2026-09-02",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing hostilities between the US, Iran, and regional actors."
+    "summary": "No ceasefire is active as direct military engagements between the U.S. and Iran, and Israel and Lebanon, continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 35,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 01",
-      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was reportedly hit.",
+      "date": "Sep 02",
+      "text": "U.S. military strikes Iran, with President Trump vowing more action for Tehran's retaliation.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2331
+      "sourceUrl": "https://news.google.com/articles/CBMiZEFVX3lxTE43OVI4c2VSUGlEY214Y0VQQlB0ZnFsdjN2WG54LWtUTW02SGRsdkt4d1U4LU52UzFWb3lZWGlfZTctVE13SDNJRkhWVnpxRldOcjNTZWtncXlqejgtR213QlBOU2g?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2332
     },
     {
-      "date": "Sep 01",
-      "text": "Iran claims a US strike killed four at a wedding, calling it a 'war crime,' while the US denies targeting civilians.",
+      "date": "Sep 02",
+      "text": "U.S. and Iran resume strikes, prompting fear of broader escalation in the region.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFByamU5TjBFcHB1R2ZhQ0UtQ2pKTHY1Y09IQ045YlRBNEtMUjV3MVJISGdMZ0dLZ0lzTkR3QTRNdGo2ZDBSVFdObXhySXBvNVYyeDBHLXptQXBxUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2331
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2332
     },
     {
-      "date": "Sep 01",
-      "text": "Two more oil tankers are attacked in the Strait of Hormuz, with Saudi Arabia reporting two Filipino sailors killed in an Iranian attack on a Saudi tanker.",
+      "date": "Sep 02",
+      "text": "Iran claims two tankers have hit naval mines in the Strait of Hormuz, a claim disputed by the U.S.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxNaFpkVzJhSEhqNlBNMnNDdEJKdHFoaFhaQlBPUU9lSE1WWFBxcGs4eHlXeWh6SEFmNnRkY2dvbFN5eHhLQS1fNUt2MVlONjBkNzBRQ1ZieHN5ZzVMd0ktQWUzRHNoQ0dBOEFDTmVaa1gwTG1TbUVhNzZwQnRSS3NPU0dLdDkzeXVD0gGOAUFVX3lxTE16RHFxR29aLU5LTDlSSFRadW5zejBmcWkxVXlGRGowcGpXYTA1b2xGZzREMGhEdVJrRW0wMkpxMG5oejZTaFg0c3RnLUw2c1V4Sm00TXdHNjVsSXhTVFhLZjg2c2NJWUExVGJjeWwydXZ5Tlo5M3Z3RV9VdFZyQVd6S1RaZi04YUgzSFNtTmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2332
+    },
+    {
+      "date": "Sep 02",
+      "text": "US military states it completed the latest wave of strikes on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPekNsWEt4cEh2RVhBNk5nQXJSczQ2QjJlU2hONHpGLXRBSVg1bi1wdWljNXZOd0lvS0toX0ZiZmpaNUVpaG9QbmMtTHBkdzRBUXZMVjU0al9iQUFVQWRvZzFTek5MOGhyME9Ea3Y4a0ZiUVNOUXR1VDRZQi1Td09pT1ZpanoxQ1BKVVp2NWc5WlZPT3hVSDJ2aWZZMExHU1J4aUhKSjFEZ3JWdmo3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2332
+    },
+    {
+      "date": "Sep 02",
+      "text": "Israel warns Iran against attacking during Jewish holidays, threatening an unprecedented response.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2332
+    },
+    {
+      "date": "Sep 02",
+      "text": "An Iranian attack on a Saudi tanker reportedly killed two Filipino sailors.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5ETHRCRWFjMm04endYR2xHNmlwWHhGUGUtalljVkRZVXp6aTZaa0J4TlBrb0JHQzA1d2h3ZWI5MnZIelBDbnAya2x1MGZLSlZRT0QwY3RKc2dCQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2331
-    },
-    {
-      "date": "Sep 01",
-      "text": "Iran launches retaliatory strikes against US bases in the Middle East.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE5SaC1oR3FYSXo2NEZkQWhxVC1lcG1zdXVFbWR3UmhubE9jLTM4Y21GLUVEQ3pFTVZwRDVrYmtuOWVJckF3MnZTU1VjQkhKNW9hN1RGVnNiVmhPSW11?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2331
-    },
-    {
-      "date": "Sep 01",
-      "text": "US military completes latest strikes against Iran, with President Trump vowing more for Tehran's retaliation and warning of a bigger response if Iran keeps targeting US forces and shipping.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwJBVV95cUxOMHJ6bEE2MTRFS2F0UkNVU1VNWjZpaTVualJDMWxtN0pvSmp3X3pwaXVUcjl6WEtDNG1lbXBHRWVIaHRISi1KVUphYl9UWS1TS1BTU3FOb1dqdUtMdF9PbWc2SXpIeXYtMWU1U2h1NmVQSjE5U0p3QXd2VHZJZ0tTTmhnaDJVVFgwYV9ibnFoYm5kQU9TeUpIX3RMUG81S0lKLWFrb3hJcU5NVzE1LXdlMVNuNVFDbkdvY20zR1RIRXlLNXlCWXo3Zm54Y2NWT0h3RXE1QzEydjVwek9zUTBUODY2MS1LRkpuSU05YUFQR2JZdjNBbDdXZGRjRUxBSVg1b2JEWE91NGVVeV9jTDhLSXl1YVJyVV9xOUxyV050dEoyLVBkWTc5WkIyQ3pUV29QTHJPSFZKVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "KOMO",
-      "latestSinceUpdate": 2331
-    },
-    {
-      "date": "Sep 01",
-      "text": "IDF strikes southern Lebanon after sirens sound in Israel, with the Lebanese army reportedly wanting the IDF to remain in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE45VVNkRHkwNWdISmU5NzZRbGloZFVVRk0tZmZQQ2lGdGxMRTN5eVpwaGVvUjE5TEdNbHJ2a1pIVTlOSWlxLWVEOW8ycnpVMGs3dWFJRE4zcFgyR0pE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2331
+      "latestSinceUpdate": 2332
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
