@@ -1,116 +1,108 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2335,
+  "updateSequence": 2336,
   "lastUpdated": "2026-09-03",
-  "lastSyncedAt": "2026-09-03T08:58:37.908Z",
+  "lastSyncedAt": "2026-09-03T13:30:14.055Z",
   "warDay": 188,
-  "summary": "The US and Iran are engaged in intense strikes and retaliation, with Iran firing on Gulf neighbors and the US protecting oil transit in the Strait of Hormuz, while Israel and Hezbollah continue to clash in Lebanon.",
+  "summary": "Recent signals indicate renewed hostilities between Iran and the US, with Iran striking Kuwait and both sides involved in strikes, while tensions also escalate between Israel and Hezbollah in southern Lebanon.",
   "lastNarrativeUpdate": "2026-09-03",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with ongoing military engagements between multiple parties."
+    "summary": "No active ceasefire is in effect as hostilities have resumed between key actors."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.78
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 83
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.82,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 35,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "oilDisruption": 88,
+    "tradeImpact": 79,
+    "sanctionsPressure": 68,
+    "globalPressure": 90,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Aug 31",
-      "text": "Iran fired on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
+      "date": "Sep 01",
+      "text": "Iran strikes Kuwait with missiles and drones, resuming hostilities with the U.S.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2335
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOallJNTBESkZZUGJPSldNM2tCZFlGcHc2UkdOX3hPYjN6NzI0WXVidGJNbHpaRjhKWTRBWGxoZEg2WXp3em55QUpOVVh4RFpleEVYd0ZvcGF4OWp1dFNqVnYxU29Nc3ZJbkVEMUd1QWhKaGRNSi1UempFVHo1Z0FiM29GeVEtUlRweUNYWFFCcnlXX3RkNlkyWGt2UThVT1Nkemp1N2lVOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2336
     },
     {
-      "date": "Recent",
-      "text": "The US military announced it completed its latest wave of strikes on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxPekNsWEt4cEh2RVhBNk5nQXJSczQ2QjJlU2hONHpGLXRBSVg1bi1wdWljNXZOd0lvS0toX0ZiZmpaNUVpaG9QbmMtTHBkdzRBUXZMVjU0al9iQUFVQWRvZzFTek5MOGhyME9Ea3Y4a0ZiUVNOUXR1VDRZQi1Td09pT1ZpanoxQ1BKVVp2NWc5WlZPT3hVSDJ2aWZZMExHU1J4aUhKSjFEZ3JWdmo3?hl=en-US&gl=US&ceid=US:en",
+      "date": "Sep 01",
+      "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2335
+      "latestSinceUpdate": 2336
     },
     {
       "date": "Recent",
-      "text": "IRGC reportedly targeted US forces with the aim of driving America out of the region before attacking Israel.",
+      "text": "Iran accuses the US of a 'war crime' after a strike reportedly killed four at a wedding; the US denies targeting civilians.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1ZbjAzeVc5NjFsMnBGcnQ5LXhRVGlYUHYwakNEY2hlUG1RS1dHRDE5a0FoRjN0a2JpTGxrX1RZTHR6bWFGLWxNNE5ibXl6QXJJaEZQWmdYdDNjYVdMZjlkbHpUTmlqaGdqU3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2335
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFByamU5TjBFcHB1R2ZhQ0UtQ2pKTHY1Y09IQ045YlRBNEtMUjV3MVJISGdMZ0dLZ0lzTkR3QTRNdGo2ZDBSVFdObXhySXBvNVYyeDBHLXptQXBxUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2336
     },
     {
       "date": "Recent",
-      "text": "Kuwaiti Army air defense confronted hostile missile and drone attacks originating from Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi4gFBVV95cUxQaUFWbDlsalZBSjBGUGJvN3dvTlp3OHQxN1M0YWNYY2ZCUTZabUtXTi1mcS1qSFJGQWJDQTB5dXNfSnRDLUstNDMxVkRXT0x4OUZXanowMFVXUmxqOGJSVjNtNHZsUnNWZDVJVVJ1MjRxTkdNX0NKUVlQT2RiYjNURGI1S3BVTko4VHJGRlhaZlRnYXRLMXgwVngxaEdKUllJQTA4T0dyaVpBc2xndWE4Ry1Ka3ZRUDlVY0pHMEd2cVNxRjdydE1SRldkTy1ySzRGdUY2UG5sRHJoVk5fUWJSTXZn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 2335
-    },
-    {
-      "date": "Recent",
-      "text": "The US military reported striking 60 targets and protecting 18 million barrels of oil in the Strait of Hormuz.",
+      "text": "Iran warns the US against an Israeli offensive on a Hezbollah-held ridge in southern Lebanon.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE44VEI5N3I4alhMYWpOMEFMeTZIWWw4d1QzeDVIR25UMDNxMzhxN0N6Q1NuN0JuNkZnbHhEZ3NoMm15TTlCaUh5Z25odEpXSldNVlMzTFFXSWhUMHNXTXJyQ3NVSVhBT2htM0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2336
+    },
+    {
+      "date": "Recent",
+      "text": "Hezbollah launches explosive drones at IDF troops in southern Lebanon, prompting Israeli strikes.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2335
-    },
-    {
-      "date": "Recent",
-      "text": "The IDF stated it hit Hezbollah after the group launched two drones at troops in Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQU1BOODdzZjdILS02Q0VpTHJFUWNVTXY3R0QwM1BhZVZiYklJbXRUMFhtMW1QTV9CZnlCVG9zMUVRamNVQXdtSHExazhHOThXUkJMVktHXzY1ZjNRX3h5Qk5ucHZnbXdnMmg3UlNwWC03SEpVZTBlb0VLQVdXVW56NmJNZUZRanRDdVAyVG9Vc0dFSlUwcm5VVVlvV1pTSnFMVWJ5YzN0NXlUaUnSAbABQVVfeXFMTlpuc1lFWGMzbUNwd2djZ090Z3I0b0w2TXQxVkhRMV9hMGtZek4xLXE1bVN3ZHFycnNzbEVUanZwX2lkN1hZVUdvXzZ2Zm9ZU0lZN0V2NWJrUmVSNnhEM1d2Xy0wcU5CcVRfSDhtaWIzTTYtTXJvbW1OLTJEQzRkbU5ST0praVhlTXpOcUxRX285VS1GTUYwYXNpeWdfRlUyS1VYbXk5QVNPbS1MOERhRHg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2335
+      "latestSinceUpdate": 2336
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (11 headlines)"
     },
     {
       "source": "GDELT",
