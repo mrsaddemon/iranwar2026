@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2333,
+  "updateSequence": 2334,
   "lastUpdated": "2026-09-03",
-  "lastSyncedAt": "2026-09-03T00:03:31.313Z",
+  "lastSyncedAt": "2026-09-03T04:10:46.694Z",
   "warDay": 188,
-  "summary": "The United States and Iran have engaged in multiple direct airstrikes and retaliatory actions, fueling fears of broader regional escalation, while Israel continues military operations in Lebanon amid warnings to Iran.",
+  "summary": "Direct conflict between the US and Iran has escalated following US strikes and Iranian retaliation, while the Strait of Hormuz remains a critical point for oil transit amidst ongoing Israel-Hezbollah clashes in Lebanon.",
   "lastNarrativeUpdate": "2026-09-03",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "nuclearIndex": 15,
+    "escalationLevel": 80,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
+    "sanctionsPressure": 63,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 03",
-      "text": "Iran Update, August 31, 2026",
+      "date": "Sep 01",
+      "text": "Iran retaliates against its Gulf neighbors for US strikes, reportedly after a wedding was hit.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2334
+    },
+    {
+      "date": "Sep 01",
+      "text": "US launches new strikes on Iran, with Tehran hitting back in a widening conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2334
+    },
+    {
+      "date": "Sep 02",
+      "text": "Energy Secretary Chris Wright states more than 17 million barrels of oil transited the Strait of Hormuz on Monday.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNdnhfSVl3eXV5R3JzLVQ0M2IyV2JKMHg1dktscXVLSS1VZFhKdmR6VXlWbFdqTkxIeWl4LWM5eHJWYXJ5S01aRi1HZ0VxNmFtT1dqVndwaktLRGxFNW5XdTR4VkhmZ1NFVVRwd1dBMmMxN2dwYVZPOURTU1YxQy02a0hfYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2333
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNUUwtV0h5MmswU1oxM2hYa2RNajQtaF9pQ3lEdlBDOWk5dHp2MG1VcVBpZFo2LWh6aENSREtsTDQwREhSejNLV2dKZnU0dzdLOUU5VjdjX3hidnU4OWl2bWZMd29VZUwteUpDZU04MEhiNHdfRS1NdHQtZDVYYzVpRkFjbW9KU2QtdUkyWm1YU1d6aXFJRGwxamRBM3pHb1FIOVFOV0hqdkN3TjFpWUh0aElxTzBRRENJa0h1SlZ5VzY0VW1EbWctLVVPdUNhMU9LM3BVYWVISzJGMEFBVVHSAeMBQVVfeXFMUGtrejFHdVByeXdWNXNWSTRBa1d4Zmo5NHM2d0txbi0xcno0eXpJNEF0T2djT05HRC10dGpBSjVsemNQTFh1UkhLZzJ3TlJ0cGdCR0tiNWQ3Ym9TdmVmbjNLRnoydFNMSWJGYUR3UUhZLW5BTlpXdzNXaFVjRElRTWhYWjh5VE9CSXRBN0pnZHFoZjhYaVVQVXlMS1paTHpGNnQ1emtqNWJYMVhmbU5tdGdPc2FLOVhVNWxkV2JrYkxnMzN2X0FxMy1FalZVQTdFTzJ6ZGZSWGxWVjN6WHA3eUNJVFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2334
     },
     {
       "date": "Sep 03",
-      "text": "Tehran targets U.S. allies in Gulf after U.S. launched ‘large and powerful’ strikes on Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQRWxnU3Z6ai1MZ2Y0Zktlanl3Q2dKQ1FpQUthWDVfeTJ0NjFQWUZLYWlxcnAzUUlVY0tHQkpEY2RMMjhRWmZpZDZVM3pqeE5DTlZKY05BS2pWWWlyT2JUYkRpTEhlS3IyMmtZNHB2LVMtZnVyaEIyZEdWSGFfRHJwdnpSM3Joc1ZjZDRxMlN0clI0bVNVbnN2V3RKYUw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2333
-    },
-    {
-      "date": "Sep 03",
-      "text": "Military leaders warn Hegseth against extending Iran war operations",
+      "text": "BBC reports Israel is expanding positions inside occupied Lebanon, facing challenges from Hezbollah's FPV drones.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNelBwdjExMnFiT0Q4TTJNdXIzTmN1WWFCSEZtdHhjbkFRYkhRc0o4U3ViX3pVSmQ5c0JBRkd3UXZwNFE1T0lLWUFPTXpWaW5JNDFEbC1fM3ZNczEwOHVudFZMUVNRbHJkWEFRWHA2Z203R05FbE5FOVVXLW9mUzFkRjI3TlIzNWM2eEhNWENjOTlNTmM2NVVKdGNFaDhITEFMeThNVnc0SXN1N3B0cUFNNlZrWWhkbjVnSTV6ckVPUUk1dGd2NHlr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2333
-    },
-    {
-      "date": "Sep 03",
-      "text": "Army Secretary Resigns After Clashes With Hegseth Over Firings",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiY0FVX3lxTE8za2VlSDA4UVpVbjRMSWpkUXN1SjF0cWhPLVgxM3pIalZDY0JtVGhmUUs4bmFBQ1NKTldFbTlrMndFM2ZndWs5NHZ5LS01SzVlTFdoVWVLWVV2NkpEY204Yy1TRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2333
-    },
-    {
-      "date": "Sep 03",
-      "text": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFByamU5TjBFcHB1R2ZhQ0UtQ2pKTHY1Y09IQ045YlRBNEtMUjV3MVJISGdMZ0dLZ0lzTkR3QTRNdGo2ZDBSVFdObXhySXBvNVYyeDBHLXptQXBxUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBWaEozTEU0S1Vncl9OSW9DckZqTksxenBRMUw5bnRQb3pnc3VQbmpCcHBNTi00VUVpWVdialFzYVZjVTFwNUlMTVBFR0pzNVg0dnZiY0VENzFDZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2333
+      "latestSinceUpdate": 2334
     },
     {
       "date": "Sep 03",
-      "text": "Iran retaliates after US missile strike reportedly hits wedding – video",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGZval80TENHTTFGbHFnWlNFdUQtanlvVnJid1A0czlXZVgzUWhQa3lqc29TR3lLTFVuWFN1RnZYOFdDSWJBOFZKS0pTZjROUzZfcF9jYml1TV9PQnZFSFNadjZvSlA3bE1GZWlZSjF0R0NXaXo3UDlFOGVHMVdqUmdHclpHNUtZN0lIRVFaLXIyWW1Od0U3UTlIYWFEOGxRVl90UjNSUDgzRTN2MHFaX2UwQmo2WnIwaXdhb1F3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2333
+      "text": "Pentagon cuts access to classified information amid growing concerns over the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxQdVJYMjhSZ2FIaDdCSlN2WXBvcERXTHVwZDZQd01hS04zZVJfRjMyamxOUGNyZWN5TFpJS0lLb3g0bmFuYVI3Vk1iV09lUFNCX3BYN1JlU2NxcUNMUHU2RGNhWFBKbFJJRGxiUDFDRG9MNE5YakV3eXFWbjVYWEtEWHAwa1YzRG9NLVZwd05LTUx5QjFfb1c1WHhjaTJqUVdDd3Q0c0cwMHZTVVhqMFRoX0ZiVFdwRXptZGlYemNlTFU4ZzQ1V2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2334
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
