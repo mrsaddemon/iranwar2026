@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2338,
+  "updateSequence": 2339,
   "lastUpdated": "2026-09-03",
-  "lastSyncedAt": "2026-09-03T19:54:51.680Z",
+  "lastSyncedAt": "2026-09-03T22:33:38.729Z",
   "warDay": 188,
-  "summary": "The conflict between the US and Iran has intensified with renewed airstrikes and retaliatory actions, while Israel and Hezbollah continue to exchange fire, and Iran's oil exports face a blockade.",
+  "summary": "Renewed strikes between the US and Iran have escalated tensions across the Middle East, particularly around the Strait of Hormuz, while Israel issues warnings to Iran.",
   "lastNarrativeUpdate": "2026-09-03",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active as hostilities between the US, Iran, Israel, and Hezbollah continue to escalate."
+    "summary": "No ceasefire is currently active, with reports indicating renewed and resumed strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.6,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 64
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 88,
-    "oilDisruption": 75,
-    "tradeImpact": 70,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
     "globalPressure": 82,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 03",
-      "text": "US launches new strikes on Iran, and Tehran responds with counter-strikes.",
+      "date": "Sep 01",
+      "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2338
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "reuters.com",
+      "latestSinceUpdate": 2339
     },
     {
-      "date": "Sep 03",
-      "text": "Iran media reports six navy personnel killed in U.S. attacks.",
+      "date": "Sep 01",
+      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAJBVV95cUxPWl9kTDczazBYY00zV0t1SUhFMWZrcTRKWHBZbno0WTcwSlg3dDhMTEFzaDRBSjlTRHBJU0RySWhWRjNHZE5LRTZuV3hEOEM4dUxfZzdBdVhlM2RDS3NrNUdqdW8tZy1US3dHLVJEdF9UM0hES2E0bGtXbEsyUHBWUDljOEJENU5yQ0FnNWQ2NGRUVUR1c2RCcHUyMjMweHA3bW5VTVVxajVZdkVfcGcyTUVLdXk5ZFdFU2xNdHpQTWRtd3dXa1NPbzc4T3IzVW1LSFpEY0RjZTk0d09xanpHNDgwSEJ2X1hlanhjVDJDanNNNXVlYVdIZE9TTkwxbDk20gGHAkFVX3lxTE1nUk5iYmJGVzBwM00tdnNId1hDOEhiR2VXZEVxX2tmLWFTTlR4TTl0Um1BbFZ0cmtBMW5GWUhpa3V4ZFMwWVhVbjNqdGNITjNsTnUwTmVFVzNjS0FmYVZjQ202ckREcktXTWRVUm9Pb2JZWFBvLUl0ek9NdWxqWGxWRHdZVjViejk0VzlfSjhjUTRZQzF3SEFXU0NWb3NiZUxGRHNteDdBN1lGVG9pRThpSU9ZSXVRaDYwMzhrdVdEd2RYSjZOaU5Sb0hNeGN6ZWZfWFVWTG9LYkdzckpWSFZXbkZWeGhPT3J6TTNfSFk2TTdVZF9XMWYtSlN5d1FwYmdMRWt2VWxR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hindu",
-      "latestSinceUpdate": 2338
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2339
     },
     {
-      "date": "Sep 03",
-      "text": "Iran fires missiles and drones at Kuwait, citing US military support.",
+      "date": "Sep 02",
+      "text": "Iran fires missiles and drones at Kuwait as strikes resume in war with U.S.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOallJNTBESkZZUGJPSldNM2tCZFlGcHc2UkdOX3hPYjN6NzI0WXVidGJNbHpaRjhKWTRBWGxoZEg2WXp3em55QUpOVVh4RFpleEVYd0ZvcGF4OWp1dFNqVnYxU29Nc3ZJbkVEMUd1QWhKaGRNSi1UempFVHo1Z0FiM29GeVEtUlRweUNYWFFCcnlXX3RkNlkyWGt2UThVT1Nkemp1N2lVOA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2338
+      "latestSinceUpdate": 2339
     },
     {
-      "date": "Sep 03",
-      "text": "Israel warns Iran of consequences following threats of an attack on the country.",
+      "date": "Sep 02",
+      "text": "The US military reports striking 60 targets and protecting 18 million barrels of oil in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2339
+    },
+    {
+      "date": "Sep 02",
+      "text": "Two Filipino nationals were reported dead in an attack in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxPU05hcVVMNVRhV3pQM3BxdVFzbFU2QnB4VE5xQzRYaERYSXR6SHlLaEo4QXkwVEFFNjhzZWZhS09KVEVoVmNrMkF5RnFmT0JaX0lwM2k4UFhqQVFmVDNLUUwtRU9KbVVCQjNUTDVjLVNxd0pwM0N5WmxuRklxNjdycVBUdnNmZUF6dEQ4UEdXU3BSUdIBlwFBVV95cUxQdGw0ZkRiM0JTbkhfT0RIMzZ5TUlfcEZxQ2kwYVkwb2c2SEQwM2QwNWdsVlFYRXRqWmloajZ5UkNwSEcxRzZreFdKdWZyZmVoWkFvUm5DS3VCREM3RDg2ZnVsWFNVazRhRE5fWnJISV9ORFBpeXc3cERDS2RJNXhBLVAtRkNqUGFScEFDZHU2bXR0cmQycGh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Inquirer.net",
+      "latestSinceUpdate": 2339
+    },
+    {
+      "date": "Sep 02",
+      "text": "Israel warns Iran of consequences and potential strikes on energy infrastructure if an attack occurs.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOdDRGbGJ4VmlGTmM0R0xHMWpaX2RVS2xHa3g1Z1hCODF2WlU4ZDZFbWlERHZzeDkxQlpxWmFUdnFUcF9mOGpwOVhxeE92S1BBSFZ3aVZ5NmZQem5IcUJOZ1FYYUhQU3k2Z0czTTJSUzEwTWxyd2RxVXBibFRyTDZqc01aTzlKVXkzV1BSR0RwXzZ1d9IBlwFBVV95cUxNMjVrNnVXNDBnaWZ1NU1JLUxtRjRBaWc0c2gyQjYwZndqSzhKWllYS2FfZWpNR0hhNGxUYTZBZDlER3ZyV3N6R2VpOHpkaF9uc2dTSFd1VlcyVWxMVXhwa3JHRmZuM1loNzNMR3VSUmFfM1dReEo2VENoVnpqcTg4RFFBY3M3NVFVcEsyb3BMaEJ3VjUybHJN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "newsnationnow.com",
-      "latestSinceUpdate": 2338
-    },
-    {
-      "date": "Sep 03",
-      "text": "IDF strikes southern Lebanon after Hezbollah launches explosive drones at troops.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2338
-    },
-    {
-      "date": "Sep 03",
-      "text": "A blockade has reportedly stalled Iran's oil exports, succeeding where sanctions previously failed.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2338
+      "sourceName": "NewsNation",
+      "latestSinceUpdate": 2339
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
