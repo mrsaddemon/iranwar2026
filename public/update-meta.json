@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2332,
-  "lastUpdated": "2026-09-02",
-  "lastSyncedAt": "2026-09-02T22:00:44.021Z",
-  "warDay": 187,
+  "updateSequence": 2333,
+  "lastUpdated": "2026-09-03",
+  "lastSyncedAt": "2026-09-03T00:03:31.313Z",
+  "warDay": 188,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active as direct military engagements between the U.S. and Iran, and Israel and Lebanon, continue."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
