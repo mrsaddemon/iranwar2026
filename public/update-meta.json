@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2345,
+  "updateSequence": 2346,
   "lastUpdated": "2026-09-04",
-  "lastSyncedAt": "2026-09-04T19:24:40.440Z",
+  "lastSyncedAt": "2026-09-04T21:44:32.825Z",
   "warDay": 189,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, though Israel has made a prisoner exchange with Lebanon."
+    "summary": "No active ceasefire or de-escalation efforts are reported."
   }
 }
