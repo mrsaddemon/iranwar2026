@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2341,
+  "updateSequence": 2342,
   "lastUpdated": "2026-09-04",
-  "lastSyncedAt": "2026-09-04T04:45:37.418Z",
+  "lastSyncedAt": "2026-09-04T09:06:15.690Z",
   "warDay": 189,
-  "summary": "The conflict between the US and Iran continues with active strikes and retaliations, while Israel issues warnings to Iran and South Korea considers military deployment to the Strait of Hormuz.",
+  "summary": "Renewed US-Iran strikes and Iranian missile attacks on Kuwait have escalated regional tensions, while Israel continues operations in southern Lebanon and global concerns rise over the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active, with ongoing military strikes and retaliations reported."
+    "summary": "No active ceasefire is in effect as hostilities between the US, Iran, and regional actors continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 35,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 04",
-      "text": "US military completes latest strikes against Iran, with Trump vowing more for Tehran's retaliation.",
+      "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPZEFCR3pYMFczek00TGhzVl9ram9qaUExZmVLWk05OGRzalVmc1J1dEcya2dON1I3TFRJNjZMRGxSeTVpZzVmMVdMVTFzMlFJWl9Vai01TVRFRWJ2eTlmU2ZuVW1QaHU4NzZneE5ndjRydTdRb2JrMWx6cnd4dUpwYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2341
-    },
-    {
-      "date": "Sep 04",
-      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2341
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2342
     },
     {
       "date": "Sep 04",
       "text": "Iran fires missiles and drones at Kuwait as strikes resume in war with U.S.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOallJNTBESkZZUGJPSldNM2tCZFlGcHc2UkdOX3hPYjN6NzI0WXVidGJNbHpaRjhKWTRBWGxoZEg2WXp3em55QUpOVVh4RFpleEVYd0ZvcGF4OWp1dFNqVnYxU29Nc3ZJbkVEMUd1QWhKaGRNSi1UempFVHo1Z0FiM29GeVEtUlRweUNYWFFCcnlXX3RkNlkyWGt2UThVT1Nkemp1N2lVOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
+      "sourceName": "Google News",
       "latestSinceUpdate": 2341
     },
     {
       "date": "Sep 04",
-      "text": "Israel warns Iran of consequences of an attack on the country and specifically warns of strikes on energy infrastructure.",
+      "text": "Israel claims 'operational control' of Lebanon's strategic Ali Al Taher ridge.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOdDRGbGJ4VmlGTmM0R0xHMWpaX2RVS2xHa3g1Z1hCODF2WlU4ZDZFbWlERHZzeDkxQlpxWmFUdnFUcF9mOGpwOVhxeE92S1BBSFZ3aVZ5NmZQem5IcUJOZ1FYYUhQU3k2Z0czTTJSUzEwTWxyd2RxVXBibFRyTDZqc01aTzlKVXkzV1BSR0RwXzZ1d9IBlwFBVV95cUxNMjVrNnVXNDBnaWZ1NU1JLUxtRjRBaWc0c2gyQjYwZndqSzhKWllYS2FfZWpNR0hhNGxUYTZBZDlER3ZyV3N6R2VpOHpkaF9uc2dTSFd1VlcyVWxMVXhwa3JHRmZuM1loNzNMR3VSUmFfM1dReEo2VENoVnpqcTg4RFFBY3M3NVFVcEsyb3BMaEJ3VjUybHJN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NewsNation",
-      "latestSinceUpdate": 2341
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPMDdHVHlBUlpkekdKcVA5bGJnTENYNG12Vzg5S05iaGhRZllFWEpiS1I2dnFBWFdXVENJRndodXFIeERCeU1BZWNhREczd1lDRkVMcnFWU2VaM2lBd1o3NVh0dVJhZDZmbW9zcDRSeUZjc2hmR1hveEFJc2xaQ1d5RnFuRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2342
+    },
+    {
+      "date": "Sep 04",
+      "text": "South Korea reviewing military options for Hormuz, no decision made.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdWViay1UelBGa2N2MVRMeTBDRUFURDhZblFPbFcwLXc1VG92Y3ZTeE1ZZHU3b1JicEYxOHBEdWQzSEQ1aXZiNmNCZjBVcUl0Y19yOGRQZE5wZjRkdHFYbzJxZTE3QTZDdlRVUGtFSTRyR0JSNkxRU0dBZGRTT1BWalZjdGpKV1BCRjFQV0dXTzZwZEw4aElNSXhJVy1ldVRZV2VqTlYzejVUdzZ3bUhoMlRpbFFsV2FWUjNYUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2342
+    },
+    {
+      "date": "Sep 04",
+      "text": "US military reports 60 targets struck and 18M barrels of oil protected in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOeXlRMElsZTdHUThtWXFaX0dIeEs4Rk5QTUtJVlhpWFNxZlN2YTB6R0pSa0RKLVR2TWJtdUUzSloxYTVWWDdpS1F0TjFFeTdMRURVQzlUOUhPdFlSQjRXNWFMaXpXNjVOd0xxdWpNWEVNa3lYU2hQQWt4c0UxRmF4TTBCemN6OEZqQV9BbG5qanJLVTIwR1FCdko4a0dLZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2342
     },
     {
       "date": "Sep 04",
       "text": "Iran warns US against Israeli attack on south Lebanon ridge held by Hezbollah.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxOTXNYTGpEYldjZ00zSFctdU5VT1A3blcyNnhmalVSNEMwNVBEa09RWFF1Zk9ibGY2cmdmRVdid2dDbUJwaHhzcFVpVHVxUUQ1NFZRb3F2MkRHREtLZHNoSF9tZUdseGdQZ0hFdFk5eDNTT0VyQzRXLUVZYi1OanRIc3g3SE1RQUlRNGQ3TXBCbi1JZHNycUhXcHJSMXFMb21YZVNtb2cwZGVYWGQ1bGlmQTJtNHZPSi1HZU96S1QwTldxV2NLYllz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2341
-    },
-    {
-      "date": "Sep 04",
-      "text": "South Korea is reviewing military options and preparing for potential deployment in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPdWViay1UelBGa2N2MVRMeTBDRUFURDhZblFPbFcwLXc1VG92Y3ZTeE1ZZHU3b1JicEYxOHBEdWQzSEQ1aXZiNmNCZjBVcUl0Y19yOGRQZE5wZjRkdHFYbzJxZTE3QTZDdlRVUGtFSTRyR0JSNkxRU0dBZGRTT1BWalZjdGpKV1BCRjFQV0dXTzZwZEw4aElNSXhJVy1ldVRZV2VqTlYzejVUdzZ3bUhoMlRpbFFsV2FWUjNYUg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
+      "sourceName": "Google News",
       "latestSinceUpdate": 2341
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
