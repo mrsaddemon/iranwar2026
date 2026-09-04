@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2346,
+  "updateSequence": 2347,
   "lastUpdated": "2026-09-04",
-  "lastSyncedAt": "2026-09-04T21:44:32.825Z",
+  "lastSyncedAt": "2026-09-04T23:23:39.541Z",
   "warDay": 189,
-  "summary": "Recent reports indicate ongoing military strikes between Israel and Hezbollah in southern Lebanon following drone launches, with the Ali al-Taher ridge identified as a flashpoint.",
+  "summary": "Ongoing military exchanges between the US and Iran, including retaliatory strikes and US operations in the Strait of Hormuz, are raising fears of broader regional conflict, while Israel and Hezbollah continue to engage in cross-border hostilities.",
   "lastNarrativeUpdate": "2026-09-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported."
+    "summary": "No ceasefire or de-escalation efforts are currently reported amidst active hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.3
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,58 +27,90 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.4
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 65,
-    "oilDisruption": 55,
-    "tradeImpact": 51,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 77,
-    "allianceInfluence": 68
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Sep 04",
-      "text": "Explainer: Ali al-Taher ridge emerges as flashpoint in Israel-Hezbollah war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPakRyMlpkYi00X1dGcXhwdmgzYklaeTFicENLWDJVQ2FJUW1JYURrMThUeFM5RUlzcUtJQmV6c0xuNjl0SG9UYUJUZXpGVWYyNmJpNThfTnAzX0pxeGFyczNYMHFVVEhyN0hQR25ERUhHamVxZHBZVHptdXo2c1pHT2E3NUlacEo2LTlIX3BYMVVJWTRKU3J2RHNYU3NTdnN3dWtSRW4zNmhJaFVRSmkxTWZR?hl=en-US&gl=US&ceid=US:en",
+      "date": "Sep 03",
+      "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2346
+      "latestSinceUpdate": 2347
     },
     {
-      "date": "Sep 04",
-      "text": "Israel conducts military strikes against Hezbollah targets in southern Lebanon following an explosive drone launch towards IDF soldiers.",
+      "date": "Sep 03",
+      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2346
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2347
+    },
+    {
+      "date": "Sep 03",
+      "text": "U.S. military reviewing deadly strike on Iranian wedding.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNaFQ5ZDlJdzMyWUlPQnhGQnBBclQtTTV4MS1BSzJTdVBHcks3SWp1cTNvR19YTEs2Z0dZNkIxbElVNmhFNndSRUUzUUU4ZmVGOUtpNDE0Qy0ycF9falVsNDJ3cE5MUVZaSmJIb1JYc2tjbFY0SGJpQThRbmlUWXFRaGNuajY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2347
+    },
+    {
+      "date": "Sep 03",
+      "text": "IDF strikes Hezbollah targets in Lebanon after Israeli soldiers intercept drone attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4yQzZiOXRneHdNcGZKOXV0QTVrUDVnRjJPYWJtRXlDR1BjZHVYUHY4N0tZeW5qUU9IUFpTY0w1b2tyUE90Zm84MHVubzZMNjZBRExkbjJtcU9OcUt2QUlDdTV0Ry1ndkJOa1BZc2x3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2347
+    },
+    {
+      "date": "Sep 03",
+      "text": "Lebanon reports at least 3 killed, over 20 hurt in Israeli strikes following Hezbollah drone attack.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxQMEg0RTdZVERmWVhKQ2J1bU9QSDlvVFY4cENWMWZvdGhrbXpTZHR1WjhvdHJmRlRKVm95MmVURHYwamprWlktQ2s3WW8ySnJEVmVVa1FiZU5tOEFSS1JJdEtGYlhfMGs4T1c1aWkyYkhueFBPRU9FU01zNmg5YllLcmQ4QjdlWGh6dG9UalI1T3h2WnNtUjExd3diSk8zRUtkZ2xESlhTdmdLdnBraFdDTGZwSUhhR1lFdlJNT3JxcUZuYk44S1RQYmg3QUZXWi1yNGF4M0paVjQ2LTN6?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2347
+    },
+    {
+      "date": "Sep 03",
+      "text": "US military reports 60 targets struck and 18M barrels of oil protected in the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOeXlRMElsZTdHUThtWXFaX0dIeEs4Rk5QTUtJVlhpWFNxZlN2YTB6R0pSa0RKLVR2TWJtdUUzSloxYTVWWDdpS1F0TjFFeTdMRURVQzlUOUhPdFlSQjRXNWFMaXpXNjVOd0xxdWpNWEVNa3lYU2hQQWt4c0UxRmF4TTBCemN6OEZqQV9BbG5qanJLVTIwR1FCdko4a0dLZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2347
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (4 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
