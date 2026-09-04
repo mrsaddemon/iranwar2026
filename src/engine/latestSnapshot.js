@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2344,
+  "updateSequence": 2345,
   "lastUpdated": "2026-09-04",
-  "lastSyncedAt": "2026-09-04T17:00:31.146Z",
+  "lastSyncedAt": "2026-09-04T19:24:40.440Z",
   "warDay": 189,
-  "summary": "US and Iran have traded strikes in the Strait of Hormuz, raising fears of wider conflict, while Israel has cleared Hezbollah tunnels and released Lebanese prisoners amid ongoing regional tensions.",
+  "summary": "The US and Iran are engaged in strikes and retaliatory actions, raising fears of a renewed war in the Middle East, while Israel has cleared Hezbollah tunnels and released Lebanese prisoners.",
   "lastNarrativeUpdate": "2026-09-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect between the primary belligerents, with ongoing strikes and retaliations reported."
+    "summary": "No active ceasefire is in effect between the primary belligerents, though Israel has made a prisoner exchange with Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.75
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 82
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
         "aggression": 0.7
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.7
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 65
+      },
+      "behavior": {
+        "precision": 0.4,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 75,
-    "oilDisruption": 78,
-    "tradeImpact": 70,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 03",
-      "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2344
-    },
-    {
-      "date": "Sep 03",
-      "text": "US to investigate deadly Kuhestak wedding party strike in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxONS1WZEF3NG1NVkJVVDBHSzdxUzRjS0h3RnVfQm9xY0VqLXJoc2tpQVpBanRvdUw4a0hPQ19CcE9XNzZicWZGQ1lHTDE0alRLYXNvRElVMVNxcTVlSFduaGlIUE9YQ1RwNFE1WkM0ZjRTcEI0NWVSTFFtb2RTaFQ4a01WOHZHdWFweFlWYzduVkFrSTR1TkFRN0RCZUdaU1ZNRmRtdGRCTXhkcDRIT2pj0gG0AUFVX3lxTFA0TGR6aDhZUDNmOFhxd0RJRTkxbmdpZkhJTS1EalVBY3VEU01GcmY3aXBrTzVOTjBOdXlkSUl5UWhXcmFXbG13bngzb3BKR0g1Tjh6WjN2Mm9iUjBvanpFVVJaaDQ5QnNSYVRjMUxPWUhtcTFtdHhaUEItVjJhMmNaUGZRdUlGRDZhZXAxTGtQTVFfZkFXeEx0WXNLN1VqMjQ1WHg3X2l1N3Jtem80NGs5MG1NMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2344
-    },
-    {
-      "date": "Sep 03",
-      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
+      "date": "Sep 01",
+      "text": "US-Iran strikes escalate, with Iran retaliating against Gulf neighbors after a US strike reportedly hit a wedding party.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2343
+      "latestSinceUpdate": 2345
     },
     {
       "date": "Sep 03",
-      "text": "U.S. and Iran trade strikes in the Strait of Hormuz as both battle on social media.",
+      "text": "Iran attacks Kuwait with missiles and drones following recent US strikes, further escalating regional tensions.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2344
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNN3JKaGh4eWVCeWFMcUVYaEUzUUhrMG05Q3gtREsydnc2ajZoY2Z2LXkwSWFCZmlTMVZWaUVRV3FxeUJkREN5bGR0QzRFb25jMVdWMXBnMkVqODYzdzQtRTBXT0s0S0tPMUxkc3hDZWVSN3JJdTROejZ1b0NHUHB5WE1LcXVrZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2345
     },
     {
-      "date": "Sep 03",
-      "text": "Israel says it has cleared Hezbollah fighters from tunnels under a key Lebanon ridge.",
+      "date": "Sep 04",
+      "text": "The US military is reviewing the deadly strike on an Iranian wedding, while a US senator expresses skepticism about the incident.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNaFQ5ZDlJdzMyWUlPQnhGQnBBclQtTTV4MS1BSzJTdVBHcks3SWp1cTNvR19YTEs2Z0dZNkIxbElVNmhFNndSRUUzUUU4ZmVGOUtpNDE0Qy0ycF9falVsNDJ3cE5MUVZaSmJIb1JYc2tjbFY0SGJpQThRbmlUWXFRaGNuajY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2345
+    },
+    {
+      "date": "Sep 04",
+      "text": "The U.S. 'Economic Outcast' operation gains momentum as the EU joins sanctions against Iran, with South Korea weighing military backing.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQX2J4YmRsQjhNWG93RGdSR0dsUlBxeDZNWkNteDhGSVJQenpxTWlVemUtVFdVNzk4RTBJa2lpaFhRdnk5QlNBUlByN3c1N1pYam9yTE83cHJhX1k1cFVNVUdpWlFiVHliQmd3Nzl4cUVlaGxMTzJjcVd6TC1DUHp5blZMRGEwdDZEbkVYa2JNc05rNVRsam1ZTGg5VVlkd0tGNlFMTmVQdDJxOGvSAbABQVVfeXFMUFF4OWRySnJuRWh1aTRFZ09OQlY3R2k5UzNuRGhjcWQwODZYWnctS0FlRzlIaVVMQVU5dHQwQk94c2prVTF2UXM0ZHhPRkdkanhkV0c1Sy1pZUtZdWRTVXBqYmpPMC1LQ0t2T1pRLWpHZmRQYmJackJyS0tHbTB6bHZCS1JUZWZ5T09uQV8zWl9acmxIaXA4RHNYYmJrcHVpX2lBT3VPVFVNNHpvQlVFUV8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2345
+    },
+    {
+      "date": "Sep 04",
+      "text": "Israel clears Hezbollah fighters from tunnels under a key Lebanon ridge and releases four more Lebanese prisoners in a deal.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2344
-    },
-    {
-      "date": "Sep 03",
-      "text": "Israel releases first of 5 Lebanese prisoners, in a rare sign of progress.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTE1PNjhQRnE3SmlDZE4za3d0WWZieEltR1h1LXBIRHdBbmV5TzI2cHVHWmlVdGl6VVU1SjBCNHViSDV6VWdYZFQ0bGRSeFEyRGtjWkR0TVhrSHpIczk1VUJ2VW0yYklxUnBCamRHaFcydWNlQ2w00gF0QVVfeXFMT2V1aEt2RmVTa18xOC1vc1JqbVdMZEplaloySkNCQUUxdmR2VHlQb1lnNjB6eHV0STZKdkJWX1U0Sk84MEY0VV9aRF9xb2huUVc3ZU4xU3NvVG5tcWJBbG5wOEZJMDJyTTYySFJVQzJ3bzNQczc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "DW.com",
-      "latestSinceUpdate": 2344
+      "latestSinceUpdate": 2345
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
