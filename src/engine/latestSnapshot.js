@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2354,
+  "updateSequence": 2355,
   "lastUpdated": "2026-09-05",
-  "lastSyncedAt": "2026-09-05T20:30:15.337Z",
+  "lastSyncedAt": "2026-09-05T22:12:57.645Z",
   "warDay": 190,
-  "summary": "The conflict features continued US strikes on Iranian oil tankers in response to missile attacks, Iranian retaliation against Gulf neighbors, and ongoing Israeli operations against Hezbollah in Lebanon, while tensions remain high in the Strait of Hormuz.",
+  "summary": "US and Iranian forces have engaged in strikes targeting oil tankers and naval vessels in the Strait of Hormuz, with Iran threatening escalation amidst ongoing regional tensions involving Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-09-05",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire is currently in effect; direct military engagements are reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.8,
@@ -24,25 +24,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 35,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 05",
-      "text": "Iran war updates: Trump says US may attack Iran’s Pickaxe Mountain soon",
+      "text": "US military strikes three Iranian crude oil carriers after its warships were reportedly targeted.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2355
+    },
+    {
+      "date": "Sep 05",
+      "text": "Iran's IRGC claims hitting three oilers in Hormuz Strait and three U.S. vessels elsewhere in retaliatory strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTE5GRDhtSEpNSnlhR3VVczJWa0RkRUprVEY5c1dpYzdkdGl2UC0tbXZ4QTU5TjNQWFVVWnphbzhXR1REU3Uyem9qVGV1V2RENXRhNDdJeFdfOGt2OUt4WENfXzYwNzc3ckxOVE14eEtsZDB3bVZka1k3c0l0WVY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Xinhua",
+      "latestSinceUpdate": 2355
+    },
+    {
+      "date": "Sep 05",
+      "text": "Iran threatens escalation following US attacks on oil tankers.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2355
+    },
+    {
+      "date": "Sep 05",
+      "text": "Trump suggests US may attack Iran’s Pickaxe Mountain soon and dismisses current conflict as 'small potatoes'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxONS1WZEF3NG1NVkJVVDBHSzdxUzRjS0h3RnVfQm9xY0VqLXJoc2tpQVpBanRvdUw4a0hPQ19CcE9XNzZicWZGQ1lHTDE0alRLYXNvRElVMVNxcTVlSFduaGlIUE9YQ1RwNFE1WkM0ZjRTcEI0NWVSTFFtb2RTaFQ4a01WOHZHdWFweFlWYzduVkFrSTR1TkFRN0RCZUdaU1ZNRmRtdGRCTXhkcDRIT2pj0gG0AUFVX3lxTFA0TGR6aDhZUDNmOFhxd0RJRTkxbmdpZkhJTS1EalVBY3VEU01GcmY3aXBrTzVOTjBOdXlkSUl5UWhXcmFXbG13bngzb3BKR0g1Tjh6WjN2Mm9iUjBvanpFVVJaaDQ5QnNSYVRjMUxPWUhtcTFtdHhaUEItVjJhMmNaUGZRdUlGRDZhZXAxTGtQTVFfZkFXeEx0WXNLN1VqMjQ1WHg3X2l1N3Jtem80NGs5MG1NMw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2354
+      "latestSinceUpdate": 2355
     },
     {
       "date": "Sep 05",
-      "text": "Iran Update, September 3, 2026",
+      "text": "Israel strikes southern Lebanon after Hezbollah drone attack on troops, clearing tunnels to a Hezbollah fortress.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2355
+    },
+    {
+      "date": "Sep 05",
+      "text": "South Korea mulls 'contributions' in Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPdHZSYmo3d0ZaUnVEXzRTaF93bUZfQTZ6cFcyREsxeGxsUUFYQXhqS3RhU05yTVlJWU9NLTJxWXh0SXVFbDVxWWxSNXBhZm5OVkxoanVibGtVc2lGSUUzbGswOWdseVJiQVR2dW5rUlFQYjZpS0FzUDZQZVpqZ1MwRUpLckNvQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2354
-    },
-    {
-      "date": "Sep 05",
-      "text": "Iran war latest: Iranian oil tanker targeted in US strike, says state media",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPQmhrYmtBdFFnX0h5ZF85bm1FQ2xDUHdCam5yZUZSWW1aS2JsRzNDeU9GNzJKSk1qT012Vmhzb1cwM25FNDJEdTQ1OHlIYlhfWlBHdmtfOFBFSFlsMU9lNHZ4R3U5U0ZOSDRzU1ZZRmJRY3JfN3BhUWVpNExRVFlUNzh3cFkzcU43MlE1dEJVTkVVSlJr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2354
-    },
-    {
-      "date": "Sep 05",
-      "text": "Iran Update, September 2, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOaEppa2llMktVVWpJT1k3dXl6bHI3Zko4TkczdzJURTV6SV9Ob3dfRTJXTHd3d3U4TVIxSXpLQ09heWZxUkhVb3d0RXJMOGxkVkpMbHNjZmpHV1ozTUp6ZUpqOWxQU1NCVjRwbGppVkRnekZCamZQNU1hZ0djTVZoYmFRTjVndw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2354
-    },
-    {
-      "date": "Sep 05",
-      "text": "What’s Going On In Iran?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE54QU1vWXpFSHdpSG5WR3JkZ1lyMGFvRjVEeExRNFdTSjM3WFQyUG5Gd0o5d2tnMmE4ck4yb1RVZzFTZ2tJZHFZbTFjZFNhclBUcC1hYlI4R3B6dUN5eVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "War on the Rocks",
-      "latestSinceUpdate": 2354
-    },
-    {
-      "date": "Sep 05",
-      "text": "Iran rebuilding its axis of resistance for attack, Israeli intelligence. suggests",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE9tbjJBU0JLWHMtWjBZOEZGcGVDUHcwZVgzbFlxb3RPZVJYM3Z6S2ttOGhBZDNwT0Vpc2lxRkRGYUd1bWluWFJlNGtoWVQ0aTB0NTBBRDhuT0Fva3ZX?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2354
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNOGNKSndEUXU1NmZJeVJ5b1B2Tk94VnJkS1F3aGpIbExRRTFmOWlvazk0MzJYY25DNjVCNEpIM2tRd2JhSHcxSTNHVDBLdkJPZHNLcEFyNDcxOUdYMDQwLURJa1M2RWg5UFU2NGdaVVlZaXl1c21LN3FFdzhIVFZNbGlqdG5mb3RYTGpLRktYSk9SVmFxYVHSAZsBQVVfeXFMTk1iMTJFa2pKY2VFZTdUTU4zeDMzTTZ5ck1xRFdsUnIxTnFxRy1hT0xqNEFHcHBITjlPRG1USlhQUklfWmd6aklSZlVHY0U0WjdFSEd3ZWxfTjQycXN4am5QcWRuTDVqYjdpM2wxdnY0TzIwQVZiWFR4MHNUTVQ4dnJsUUxmdVVDcTBpTzBKR1k1bWJrNk1ub3Q1VVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2355
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
