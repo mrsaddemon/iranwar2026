@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2352,
+  "updateSequence": 2353,
   "lastUpdated": "2026-09-05",
-  "lastSyncedAt": "2026-09-05T15:56:46.721Z",
+  "lastSyncedAt": "2026-09-05T18:08:22.912Z",
   "warDay": 190,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "A previous ceasefire between Israel and Hezbollah has collapsed amidst renewed fighting, and no ceasefire is active between the US and Iran."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   }
 }

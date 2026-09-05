@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2352,
+  "updateSequence": 2353,
   "lastUpdated": "2026-09-05",
-  "lastSyncedAt": "2026-09-05T15:56:46.721Z",
+  "lastSyncedAt": "2026-09-05T18:08:22.912Z",
   "warDay": 190,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The conflict features continued US strikes on Iranian oil tankers in response to missile attacks, Iranian retaliation against Gulf neighbors, and ongoing Israeli operations against Hezbollah in Lebanon, while tensions remain high in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-05",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "A previous ceasefire between Israel and Hezbollah has collapsed amidst renewed fighting, and no ceasefire is active between the US and Iran."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
-    "allianceInfluence": 46
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 05",
-      "text": "US military struck three Iranian oil tankers after American warships reportedly came under missile attack.",
+      "text": "US military struck 3 Iranian oil tankers after Navy ships were targeted with missiles.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5RaGwtc1V6SnRzUnp3N3dBYXk3cmw4TkNOd05PQk4ycFZkYU9iWkRzQUNoVnA4NDloc08tRTZPeWhFcGtQSllIZllRd2JWbFlBaTd5MGZRb1dEYzJlNDR1a3JqeHlaZmRLaGlSZWZtUjJKbDNHNmZpM2JR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2352
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPUEtPbThoMkY0OEVqRWdxUlA0eDRZYlhPTG5qbEt5V1RnazFIVzBuZHJyU2VMVHdHMzBCWmQxRDhmZ0RnOTZ2WGZPLVJTQjExWFo2amZiMmJFM3Jkb3plWnJOd0dkeEtHLXFqaFRseExIc00wUHRONXdVVWVWMWhJRmxRZFhPVTJuS3J3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2353
     },
     {
       "date": "Sep 05",
-      "text": "A Liberian-flagged tanker carrying 2 million barrels of Saudi crude was hit by 3 unknown projectiles in the Strait of Hormuz.",
+      "text": "Iran fired on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxNYlUxSFB0cDZXLUpFb1ZCVGpIbWZ3UEY2c2hpMUMzR05VMlRGUkd4bkZ2a3ZuWFE0MGNDSUR2blI0c1hzNUpzeXA5TjZBZkZwaFhWTmdqMEpfQ1M3TkdWWGN6dWFKSVVCbHVfY1VKenJJaV9ZN2RJR2pfTUpBVHY3VEhWZlBycmhBYy1wWUZTb2o1aWc5bjMtN1o0M1ZQa3lFeklpX3ZKeFpzMF9kQjczZUVIY2t3SnBPc0FzWXdINDdsVmpMcDJPOE9wQV9Rcmt4YVFZ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Business Insider Africa",
-      "latestSinceUpdate": 2352
-    },
-    {
-      "date": "Sep 05",
-      "text": "Iran fired on its Gulf neighbors, including Kuwait, in retaliation for US strikes that reportedly hit a wedding.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2352
+      "latestSinceUpdate": 2353
     },
     {
       "date": "Sep 05",
-      "text": "Israel and Hezbollah are battling over a strategic hill in Lebanon, months after a ceasefire, with Israel conducting strikes after a drone launch.",
+      "text": "Israel struck southern Lebanon after a Hezbollah drone launch, with 3 said killed in IDF strikes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2352
+      "latestSinceUpdate": 2353
     },
     {
       "date": "Sep 05",
-      "text": "The Pentagon is conducting polygraph tests for Joint Staff members in a major leak hunt.",
+      "text": "Trump stated the US may attack Iran’s Pickaxe Mountain soon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxONS1WZEF3NG1NVkJVVDBHSzdxUzRjS0h3RnVfQm9xY0VqLXJoc2tpQVpBanRvdUw4a0hPQ19CcE9XNzZicWZGQ1lHTDE0alRLYXNvRElVMVNxcTVlSFduaGlIUE9YQ1RwNFE1WkM0ZjRTcEI0NWVSTFFtb2RTaFQ4a01WOHZHdWFweFlWYzduVkFrSTR1TkFRN0RCZUdaU1ZNRmRtdGRCTXhkcDRIT2pj0gG0AUFVX3lxTFA0TGR6aDhZUDNmOFhxd0RJRTkxbmdpZkhJTS1EalVBY3VEU01GcmY3aXBrTzVOTjBOdXlkSUl5UWhXcmFXbG13bngzb3BKR0g1Tjh6WjN2Mm9iUjBvanpFVVJaaDQ5QnNSYVRjMUxPWUhtcTFtdHhaUEItVjJhMmNaUGZRdUlGRDZhZXAxTGtQTVFfZkFXeEx0WXNLN1VqMjQ1WHg3X2l1N3Jtem80NGs5MG1NMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2353
+    },
+    {
+      "date": "Sep 05",
+      "text": "The US military is hunting an Iran War data leaker with mass polygraph tests of top Army officials.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2352
+      "latestSinceUpdate": 2353
+    },
+    {
+      "date": "Sep 05",
+      "text": "Iraq is in the process of seeking oil tankers for Hormuz Strait runs.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2353
     }
   ],
   "sourceStatuses": [
