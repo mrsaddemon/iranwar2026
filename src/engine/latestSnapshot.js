@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2348,
+  "updateSequence": 2349,
   "lastUpdated": "2026-09-05",
-  "lastSyncedAt": "2026-09-05T01:19:46.033Z",
+  "lastSyncedAt": "2026-09-05T05:51:14.539Z",
   "warDay": 190,
-  "summary": "Direct conflict between the US and Iran has intensified with strikes and retaliations, while Israel and Hezbollah continue to exchange fire, raising regional tensions and impacting Strait of Hormuz shipping.",
+  "summary": "The US and Iran are engaged in active strikes and counter-strikes, particularly in the Strait of Hormuz, while Israel conducts operations against Hezbollah in Lebanon, raising fears of broader regional conflict.",
   "lastNarrativeUpdate": "2026-09-05",
   "ceasefire": {
     "active": false,
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "escalationLevel": 95,
+    "oilDisruption": 85,
+    "tradeImpact": 78,
+    "sanctionsPressure": 65,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 03",
+      "date": "Sep 05",
       "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
-      "severity": "critical",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2347
+      "latestSinceUpdate": 2349
     },
     {
-      "date": "Sep 03",
-      "text": "Iran fires on its Gulf neighbors, including Kuwait, in retaliation for US strikes that reportedly hit a wedding.",
+      "date": "Sep 05",
+      "text": "Trump says US may attack Iran’s Pickaxe Mountain ‘very soon’.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxONS1WZEF3NG1NVkJVVDBHSzdxUzRjS0h3RnVfQm9xY0VqLXJoc2tpQVpBanRvdUw4a0hPQ19CcE9XNzZicWZGQ1lHTDE0alRLYXNvRElVMVNxcTVlSFduaGlIUE9YQ1RwNFE1WkM0ZjRTcEI0NWVSTFFtb2RTaFQ4a01WOHZHdWFweFlWYzduVkFrSTR1TkFRN0RCZUdaU1ZNRmRtdGRCTXhkcDRIT2pj0gG0AUFVX3lxTFA0TGR6aDhZUDNmOFhxd0RJRTkxbmdpZkhJTS1EalVBY3VEU01GcmY3aXBrTzVOTjBOdXlkSUl5UWhXcmFXbG13bngzb3BKR0g1Tjh6WjN2Mm9iUjBvanpFVVJaaDQ5QnNSYVRjMUxPWUhtcTFtdHhaUEItVjJhMmNaUGZRdUlGRDZhZXAxTGtQTVFfZkFXeEx0WXNLN1VqMjQ1WHg3X2l1N3Jtem80NGs5MG1NMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2349
+    },
+    {
+      "date": "Sep 05",
+      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2348
+      "latestSinceUpdate": 2349
     },
     {
-      "date": "Sep 03",
-      "text": "Israel warns Iran of consequences following an attack on the country.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOdDRGbGJ4VmlGTmM0R0xHMWpaX2RVS2xHa3g1Z1hCODF2WlU4ZDZFbWlERHZzeDkxQlpxWmFUdnFUcF9mOGpwOVhxeE92S1BBSFZ3aVZ5NmZQem5IcUJOZ1FYYUhQU3k2Z0czTTJSUzEwTWxyd2RxVXBibFRyTDZqc01aTzlKVXkzV1BSR0RwXzZ1d9IBlwFBVV95cUxNMjVrNnVXNDBnaWZ1NU1JLUxtRjRBaWc0c2gyQjYwZndqSzhKWllYS2FfZWpNR0hhNGxUYTZBZDlER3ZyV3N6R2VpOHpkaF9uc2dTSFd1VlcyVWxMVXhwa3JHRmZuM1loNzNMR3VSUmFfM1dReEo2VENoVnpqcTg4RFFBY3M3NVFVcEsyb3BMaEJ3VjUybHJN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NewsNation",
-      "latestSinceUpdate": 2348
-    },
-    {
-      "date": "Sep 03",
-      "text": "Gulf shipping traffic via the Strait of Hormuz remains below its 10-day average amid heightened tensions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOSmJxV2JuVVpNSWV4QTRZZktncFBvaUQtcXZVaDZHdkJfV1JkZFhoeU0ybFRIU19qYmZKUkt1VXZZaFlaR2FKY2dxZFN0U2NkRjZYZWt1dlh2N21aN092aEpVdmZ2MmlvMVNDeThDZ1p4aHJpR0x6NV9MREtJb3dFeXY3ZktVbTFJZVZXNzd1ZkFaTWg0TWtQM1dzRlVVeHlUcTYtSFA3UEFPTEQ4ckc0TFRTcEUtQUpzTUFRWWVHd09ZUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2348
-    },
-    {
-      "date": "Sep 03",
-      "text": "IDF strikes Hezbollah targets in southern Lebanon after Israeli soldiers intercept a drone attack, with Lebanon reporting casualties.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4yQzZiOXRneHdNcGZKOXV0QTVrUDVnRjJPYWJtRXlDR1BjZHVYUHY4N0tZeW5qUU9IUFpTY0w1b2tyUE90Zm84MHVubzZMNjZBRExkbjJtcU9OcUt2QUlDdTV0Ry1ndkJOa1BZc2x3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2348
-    },
-    {
-      "date": "Sep 03",
-      "text": "U.S. military is reviewing a deadly strike on an Iranian wedding.",
+      "date": "Sep 05",
+      "text": "The US military struck 60 targets and protected 18M barrels of oil in the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNaFQ5ZDlJdzMyWUlPQnhGQnBBclQtTTV4MS1BSzJTdVBHcks3SWp1cTNvR19YTEs2Z0dZNkIxbElVNmhFNndSRUUzUUU4ZmVGOUtpNDE0Qy0ycF9falVsNDJ3cE5MUVZaSmJIb1JYc2tjbFY0SGJpQThRbmlUWXFRaGNuajY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2348
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOeXlRMElsZTdHUThtWXFaX0dIeEs4Rk5QTUtJVlhpWFNxZlN2YTB6R0pSa0RKLVR2TWJtdUUzSloxYTVWWDdpS1F0TjFFeTdMRURVQzlUOUhPdFlSQjRXNWFMaXpXNjVOd0xxdWpNWEVNa3lYU2hQQWt4c0UxRmF4TTBCemN6OEZqQV9BbG5qanJLVTIwR1FCdko4a0dLZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2349
+    },
+    {
+      "date": "Sep 05",
+      "text": "Israel strikes southern Lebanon after Hezbollah drone launch.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2349
+    },
+    {
+      "date": "Sep 05",
+      "text": "Lebanon reports at least 3 killed, over 20 hurt in Israeli strikes following Hezbollah drone attack.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxQMEg0RTdZVERmWVhKQ2J1bU9QSDlvVFY4cENWMWZvdGhrbXpTZHR1WjhvdHJmRlRKVm95MmVURHYwamprWlktQ2s3WW8ySnJEVmVVa1FiZU5tOEFSS1JJdEtGYlhfMGs4T1c1aWkyYkhueFBPRU9FU01zNmg5YllLcmQ4QjdlWGh6dG9UalI1T3h2WnNtUjExd3diSk8zRUtkZ2xESlhTdmdLdnBraFdDTGZwSUhhR1lFdlJNT3JxcUZuYk44S1RQYmg3QUZXWi1yNGF4M0paVjQ2LTN6?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "timesofisrael.com",
+      "latestSinceUpdate": 2349
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
