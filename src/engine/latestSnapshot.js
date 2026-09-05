@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2349,
+  "updateSequence": 2350,
   "lastUpdated": "2026-09-05",
-  "lastSyncedAt": "2026-09-05T05:51:14.539Z",
+  "lastSyncedAt": "2026-09-05T09:28:53.788Z",
   "warDay": 190,
-  "summary": "The US and Iran are engaged in active strikes and counter-strikes, particularly in the Strait of Hormuz, while Israel conducts operations against Hezbollah in Lebanon, raising fears of broader regional conflict.",
+  "summary": "US and Iran have engaged in reciprocal strikes, escalating tensions in the Middle East and Strait of Hormuz, while Israel continues operations in southern Lebanon.",
   "lastNarrativeUpdate": "2026-09-05",
   "ceasefire": {
     "active": false,
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 95,
-    "oilDisruption": 85,
-    "tradeImpact": 78,
-    "sanctionsPressure": 65,
-    "globalPressure": 87,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -61,18 +61,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Sep 05",
       "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
       "latestSinceUpdate": 2349
     },
     {
       "date": "Sep 05",
-      "text": "Trump says US may attack Iran’s Pickaxe Mountain ‘very soon’.",
+      "text": "Iranian oil tanker reported hit by missiles off Kharg island.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxONS1WZEF3NG1NVkJVVDBHSzdxUzRjS0h3RnVfQm9xY0VqLXJoc2tpQVpBanRvdUw4a0hPQ19CcE9XNzZicWZGQ1lHTDE0alRLYXNvRElVMVNxcTVlSFduaGlIUE9YQ1RwNFE1WkM0ZjRTcEI0NWVSTFFtb2RTaFQ4a01WOHZHdWFweFlWYzduVkFrSTR1TkFRN0RCZUdaU1ZNRmRtdGRCTXhkcDRIT2pj0gG0AUFVX3lxTFA0TGR6aDhZUDNmOFhxd0RJRTkxbmdpZkhJTS1EalVBY3VEU01GcmY3aXBrTzVOTjBOdXlkSUl5UWhXcmFXbG13bngzb3BKR0g1Tjh6WjN2Mm9iUjBvanpFVVJaaDQ5QnNSYVRjMUxPWUhtcTFtdHhaUEItVjJhMmNaUGZRdUlGRDZhZXAxTGtQTVFfZkFXeEx0WXNLN1VqMjQ1WHg3X2l1N3Jtem80NGs5MG1NMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2349
+      "latestSinceUpdate": 2350
     },
     {
       "date": "Sep 05",
@@ -84,33 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Sep 05",
-      "text": "The US military struck 60 targets and protected 18M barrels of oil in the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOeXlRMElsZTdHUThtWXFaX0dIeEs4Rk5QTUtJVlhpWFNxZlN2YTB6R0pSa0RKLVR2TWJtdUUzSloxYTVWWDdpS1F0TjFFeTdMRURVQzlUOUhPdFlSQjRXNWFMaXpXNjVOd0xxdWpNWEVNa3lYU2hQQWt4c0UxRmF4TTBCemN6OEZqQV9BbG5qanJLVTIwR1FCdko4a0dLZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2349
-    },
-    {
-      "date": "Sep 05",
-      "text": "Israel strikes southern Lebanon after Hezbollah drone launch.",
+      "text": "Israel warns Iran of consequences of an attack on the country.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2349
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOdDRGbGJ4VmlGTmM0R0xHMWpaX2RVS2xHa3g1Z1hCODF2WlU4ZDZFbWlERHZzeDkxQlpxWmFUdnFUcF9mOGpwOVhxeE92S1BBSFZ3aVZ5NmZQem5IcUJOZ1FYYUhQU3k2Z0czTTJSUzEwTWxyd2RxVXBibFRyTDZqc01aTzlKVXkzV1BSR0RwXzZ1d9IBlwFBVV95cUxNMjVrNnVXNDBnaWZ1NU1JLUxtRjRBaWc0c2gyQjYwZndqSzhKWllYS2FfZWpNR0hhNGxUYTZBZDlER3ZyV3N6R2VpOHpkaF9uc2dTSFd1VlcyVWxMVXhwa3JHRmZuM1loNzNMR3VSUmFfM1dReEo2VENoVnpqcTg4RFFBY3M3NVFVcEsyb3BMaEJ3VjUybHJN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NewsNation",
+      "latestSinceUpdate": 2350
     },
     {
       "date": "Sep 05",
-      "text": "Lebanon reports at least 3 killed, over 20 hurt in Israeli strikes following Hezbollah drone attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxQMEg0RTdZVERmWVhKQ2J1bU9QSDlvVFY4cENWMWZvdGhrbXpTZHR1WjhvdHJmRlRKVm95MmVURHYwamprWlktQ2s3WW8ySnJEVmVVa1FiZU5tOEFSS1JJdEtGYlhfMGs4T1c1aWkyYkhueFBPRU9FU01zNmg5YllLcmQ4QjdlWGh6dG9UalI1T3h2WnNtUjExd3diSk8zRUtkZ2xESlhTdmdLdnBraFdDTGZwSUhhR1lFdlJNT3JxcUZuYk44S1RQYmg3QUZXWi1yNGF4M0paVjQ2LTN6?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "timesofisrael.com",
-      "latestSinceUpdate": 2349
+      "text": "More than 17 million barrels of oil transited Hormuz on Monday, according to Energy Secretary Chris Wright.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi3gFBVV95cUxNUUwtV0h5MmswU1oxM2hYa2RNajQtaF9pQ3lEdlBDOWk5dHp2MG1VcVBpZFo2LWh6aENSREtsTDQwREhSejNLV2dKZnU0dzdLOUU5VjdjX3hidnU4OWl2bWZMd29VZUwteUpDZU04MEhiNHdfRS1NdHQtZDVYYzVpRkFjbW9KU2QtdUkyWm1YU1d6aXFJRGwxamRBM3pHb1FIOVFOV0hqdkN3TjFpWUh0aElxTzBRRENJa0h1SlZ5VzY0VW1EbWctLVVPdUNhMU9LM3BVYWVISzJGMEFBVVHSAeMBQVVfeXFMUGtrejFHdVByeXdWNXNWSTRBa1d4Zmo5NHM2d0txbi0xcno0eXpJNEF0T2djT05HRC10dGpBSjVsemNQTFh1UkhLZzJ3TlJ0cGdCR0tiNWQ3Ym9TdmVmbjNLRnoydFNMSWJGYUR3UUhZLW5BTlpXdzNXaFVjRElRTWhYWjh5VE9CSXRBN0pnZHFoZjhYaVVQVXlMS1paTHpGNnQ1emtqNWJYMVhmbU5tdGdPc2FLOVhVNWxkV2JrYkxnMzN2X0FxMy1FalZVQTdFTzJ6ZGZSWGxWVjN6WHA3eUNJVFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2350
+    },
+    {
+      "date": "Sep 05",
+      "text": "Israeli army has seized Lebanon's key Ali al-Taher ridge from Hezbollah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNYUN2dTQ3bEJFdVBtZTNfSWEzQmNqREREcUVSWjJqQUw2blhCbFBTVERmRmtKeEQ5YS1RdDZ6a0diR01ZWUNBbzJsSHQ1bUw4MEpDNXliTVEtTFFfaFBNcmJOTERzaEdxNDE0VTUyMW1vdUl2UGdCSzZYS0Q2Y3d4T01rU0NSQ1lxRzV4cUZFejhFZGh2bzJpMzN4UzluMzJ1Vm5wQk92MHdDZEpVUWpPTjl4TndJRVlHaWJaNw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 2350
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
