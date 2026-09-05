@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2347,
-  "lastUpdated": "2026-09-04",
-  "lastSyncedAt": "2026-09-04T23:23:39.541Z",
-  "warDay": 189,
-  "summary": "Ongoing military exchanges between the US and Iran, including retaliatory strikes and US operations in the Strait of Hormuz, are raising fears of broader regional conflict, while Israel and Hezbollah continue to engage in cross-border hostilities.",
-  "lastNarrativeUpdate": "2026-09-04",
+  "updateSequence": 2348,
+  "lastUpdated": "2026-09-05",
+  "lastSyncedAt": "2026-09-05T01:19:46.033Z",
+  "warDay": 190,
+  "summary": "Direct conflict between the US and Iran has intensified with strikes and retaliations, while Israel and Hezbollah continue to exchange fire, raising regional tensions and impacting Strait of Hormuz shipping.",
+  "lastNarrativeUpdate": "2026-09-05",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst active hostilities."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
@@ -33,7 +33,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
     "oilDisruption": 80,
     "tradeImpact": 73,
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Sep 03",
-      "text": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit.",
+      "text": "Iran fires on its Gulf neighbors, including Kuwait, in retaliation for US strikes that reportedly hit a wedding.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2347
+      "latestSinceUpdate": 2348
     },
     {
       "date": "Sep 03",
-      "text": "U.S. military reviewing deadly strike on Iranian wedding.",
+      "text": "Israel warns Iran of consequences following an attack on the country.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNaFQ5ZDlJdzMyWUlPQnhGQnBBclQtTTV4MS1BSzJTdVBHcks3SWp1cTNvR19YTEs2Z0dZNkIxbElVNmhFNndSRUUzUUU4ZmVGOUtpNDE0Qy0ycF9falVsNDJ3cE5MUVZaSmJIb1JYc2tjbFY0SGJpQThRbmlUWXFRaGNuajY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2347
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOdDRGbGJ4VmlGTmM0R0xHMWpaX2RVS2xHa3g1Z1hCODF2WlU4ZDZFbWlERHZzeDkxQlpxWmFUdnFUcF9mOGpwOVhxeE92S1BBSFZ3aVZ5NmZQem5IcUJOZ1FYYUhQU3k2Z0czTTJSUzEwTWxyd2RxVXBibFRyTDZqc01aTzlKVXkzV1BSR0RwXzZ1d9IBlwFBVV95cUxNMjVrNnVXNDBnaWZ1NU1JLUxtRjRBaWc0c2gyQjYwZndqSzhKWllYS2FfZWpNR0hhNGxUYTZBZDlER3ZyV3N6R2VpOHpkaF9uc2dTSFd1VlcyVWxMVXhwa3JHRmZuM1loNzNMR3VSUmFfM1dReEo2VENoVnpqcTg4RFFBY3M3NVFVcEsyb3BMaEJ3VjUybHJN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NewsNation",
+      "latestSinceUpdate": 2348
     },
     {
       "date": "Sep 03",
-      "text": "IDF strikes Hezbollah targets in Lebanon after Israeli soldiers intercept drone attack.",
+      "text": "Gulf shipping traffic via the Strait of Hormuz remains below its 10-day average amid heightened tensions.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOSmJxV2JuVVpNSWV4QTRZZktncFBvaUQtcXZVaDZHdkJfV1JkZFhoeU0ybFRIU19qYmZKUkt1VXZZaFlaR2FKY2dxZFN0U2NkRjZYZWt1dlh2N21aN092aEpVdmZ2MmlvMVNDeThDZ1p4aHJpR0x6NV9MREtJb3dFeXY3ZktVbTFJZVZXNzd1ZkFaTWg0TWtQM1dzRlVVeHlUcTYtSFA3UEFPTEQ4ckc0TFRTcEUtQUpzTUFRWWVHd09ZUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2348
+    },
+    {
+      "date": "Sep 03",
+      "text": "IDF strikes Hezbollah targets in southern Lebanon after Israeli soldiers intercept a drone attack, with Lebanon reporting casualties.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4yQzZiOXRneHdNcGZKOXV0QTVrUDVnRjJPYWJtRXlDR1BjZHVYUHY4N0tZeW5qUU9IUFpTY0w1b2tyUE90Zm84MHVubzZMNjZBRExkbjJtcU9OcUt2QUlDdTV0Ry1ndkJOa1BZc2x3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2347
+      "latestSinceUpdate": 2348
     },
     {
       "date": "Sep 03",
-      "text": "Lebanon reports at least 3 killed, over 20 hurt in Israeli strikes following Hezbollah drone attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxQMEg0RTdZVERmWVhKQ2J1bU9QSDlvVFY4cENWMWZvdGhrbXpTZHR1WjhvdHJmRlRKVm95MmVURHYwamprWlktQ2s3WW8ySnJEVmVVa1FiZU5tOEFSS1JJdEtGYlhfMGs4T1c1aWkyYkhueFBPRU9FU01zNmg5YllLcmQ4QjdlWGh6dG9UalI1T3h2WnNtUjExd3diSk8zRUtkZ2xESlhTdmdLdnBraFdDTGZwSUhhR1lFdlJNT3JxcUZuYk44S1RQYmg3QUZXWi1yNGF4M0paVjQ2LTN6?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2347
-    },
-    {
-      "date": "Sep 03",
-      "text": "US military reports 60 targets struck and 18M barrels of oil protected in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOeXlRMElsZTdHUThtWXFaX0dIeEs4Rk5QTUtJVlhpWFNxZlN2YTB6R0pSa0RKLVR2TWJtdUUzSloxYTVWWDdpS1F0TjFFeTdMRURVQzlUOUhPdFlSQjRXNWFMaXpXNjVOd0xxdWpNWEVNa3lYU2hQQWt4c0UxRmF4TTBCemN6OEZqQV9BbG5qanJLVTIwR1FCdko4a0dLZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2347
+      "text": "U.S. military is reviewing a deadly strike on an Iranian wedding.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNaFQ5ZDlJdzMyWUlPQnhGQnBBclQtTTV4MS1BSzJTdVBHcks3SWp1cTNvR19YTEs2Z0dZNkIxbElVNmhFNndSRUUzUUU4ZmVGOUtpNDE0Qy0ycF9falVsNDJ3cE5MUVZaSmJIb1JYc2tjbFY0SGJpQThRbmlUWXFRaGNuajY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2348
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Administration",
-      "headline": "US asserts military dominance, downplays conflict duration",
-      "summary": "The Trump administration emphasizes the effectiveness of US military strikes against Iran, stating that renewed fighting will not last long and questioning claims of civilian casualties. Officials highlight successful operations in protecting oil transit through the Strait of Hormuz.",
+      "perspective": "US/Trump Administration",
+      "headline": "Trump asserts strong stance against Iran, preventing energy crisis",
+      "summary": "The Trump administration claims its military actions and diplomacy have prevented a wider energy crisis during the Iran conflict. President Trump has threatened further strikes and suggested renaming the Strait of Hormuz.",
       "tone": "defiant",
-      "latestSinceUpdate": 2340
+      "latestSinceUpdate": 2348
     },
     {
-      "perspective": "Iranian Response",
-      "headline": "Iran retaliates against US, warns Israel",
-      "summary": "Iran asserts its right to retaliate against US strikes, firing missiles and drones at Gulf neighbors in response to perceived aggression. Tehran also issues warnings to the US against any potential Israeli attacks on Hezbollah-held areas in Lebanon.",
+      "perspective": "Iran",
+      "headline": "Iran retaliates for US strikes, seeks to break Hormuz stalemate",
+      "summary": "Iran views its recent actions, including firing on Gulf neighbors, as retaliation for US strikes, particularly after a wedding was reportedly hit. Iran aims to challenge and break the current stalemate in the Strait of Hormuz.",
       "tone": "defiant",
-      "latestSinceUpdate": 2340
+      "latestSinceUpdate": 2348
     },
     {
-      "perspective": "Regional/Global Concern",
-      "headline": "Fears of wider Middle East war and oil disruption grow",
-      "summary": "International observers express significant anxiety over the renewed US-Iran conflict, fearing a wider war across the Middle East. Concerns are particularly high regarding the Strait of Hormuz, prompting Asian nations to consider storing oil closer to home.",
+      "perspective": "Regional/International Concern",
+      "headline": "Fears of renewed war and shipping disruption grow",
+      "summary": "International observers express significant concern over escalating US-Iran hostilities, the impact on critical Gulf shipping routes, and the ongoing Israel-Hezbollah conflict. Some nations, like South Korea, are pushing back against calls for military deployment.",
       "tone": "anxious",
-      "latestSinceUpdate": 2340
-    },
-    {
-      "perspective": "Israeli Stance",
-      "headline": "Israel warns Iran while releasing Lebanese prisoners",
-      "summary": "Israel issues stern warnings to Iran regarding potential attacks, specifically threatening strikes on energy infrastructure. Concurrently, Israel has begun releasing Lebanese prisoners, a rare move signaling mixed signals in regional diplomatic efforts.",
-      "tone": "strained",
-      "latestSinceUpdate": 2340
+      "latestSinceUpdate": 2348
     }
   ]
 });
