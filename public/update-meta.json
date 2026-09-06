@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2357,
+  "updateSequence": 2358,
   "lastUpdated": "2026-09-06",
-  "lastSyncedAt": "2026-09-06T04:23:21.479Z",
+  "lastSyncedAt": "2026-09-06T08:50:03.071Z",
   "warDay": 191,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is observed amidst ongoing US-Iran retaliatory attacks and Israel-Hezbollah clashes."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   }
 }
