@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2361,
+  "updateSequence": 2362,
   "lastUpdated": "2026-09-06",
-  "lastSyncedAt": "2026-09-06T17:40:21.498Z",
+  "lastSyncedAt": "2026-09-06T19:34:48.486Z",
   "warDay": 191,
   "summary": "The United States and Iran are engaged in retaliatory attacks on ships, including oil tankers, causing a significant disruption in the Strait of Hormuz, while Israel conducts strikes and clears tunnels in southern Lebanon.",
   "lastNarrativeUpdate": "2026-09-06",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently in effect as direct military engagements continue between US and Iranian forces."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 04",
-      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2361
+      "date": "Sep 06",
+      "text": "Iran Update, September 4, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNd082WHBXbmVMd3BUOHJ2Mk95MkxLS21iRjdkaGthMjlNajctcU1nY1prYmV4T21DUVRrd1BHdnR6a3dYZGwyNm5KRHl2aWdnMFhwV1hRdXZWZW56Rmd1dlZQRmdlVEd2eV9Kb3RsbFFLVnB5aVVwRDg0QS1IWDB2Y3BFWHRLUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2362
     },
     {
-      "date": "Sep 04",
-      "text": "Iran slams US attacks on oil tankers and vows to respond.",
-      "severity": "critical",
+      "date": "Sep 06",
+      "text": "Iran war updates: Tehran slams US attacks on oil tankers, vows to respond",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2361
-    },
-    {
-      "date": "Sep 03",
-      "text": "Iran claims a strike on a US ship in the Strait of Hormuz, but the US denies it.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNeVFldUZselU5Y1lBOWdOZDRBTF9PN2h5Y0RoVG04ekVkZmFXS1J5MHFEaFZvZC0tcXJXeG0zMDZzQXdnWWE1NWlXNGxDUGM3MVFYWE9tNWZhRUJlaFJheFBTcFQzN0g2LUdFUGEwZWhtZU5VQTVaSDE3cTVKRUtUWnBNalZmN1F2QjlfTXdfLV9QZnVrSUlJaDFrUmU2SW5wRW1Oejdn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WTOP News",
-      "latestSinceUpdate": 2361
+      "latestSinceUpdate": 2362
     },
     {
       "date": "Sep 06",
-      "text": "Shipping traffic through the Strait of Hormuz has seen a 95 percent drop.",
+      "text": "Iran war latest: Iranian oil tanker targeted in US strike, says state media",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2361
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPQmhrYmtBdFFnX0h5ZF85bm1FQ2xDUHdCam5yZUZSWW1aS2JsRzNDeU9GNzJKSk1qT012Vmhzb1cwM25FNDJEdTQ1OHlIYlhfWlBHdmtfOFBFSFlsMU9lNHZ4R3U5U0ZOSDRzU1ZZRmJRY3JfN3BhUWVpNExRVFlUNzh3cFkzcU43MlE1dEJVTkVVSlJr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2362
     },
     {
       "date": "Sep 06",
-      "text": "Israeli strikes kill seven in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2361
-    },
-    {
-      "date": "Sep 06",
-      "text": "Israel says it cleared tunnels to a strategic Hezbollah fortress in Lebanon.",
+      "text": "Iran Update, September 3, 2026",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2361
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPdHZSYmo3d0ZaUnVEXzRTaF93bUZfQTZ6cFcyREsxeGxsUUFYQXhqS3RhU05yTVlJWU9NLTJxWXh0SXVFbDVxWWxSNXBhZm5OVkxoanVibGtVc2lGSUUzbGswOWdseVJiQVR2dW5rUlFQYjZpS0FzUDZQZVpqZ1MwRUpLckNvQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2362
+    },
+    {
+      "date": "Sep 06",
+      "text": "What’s Going On In Iran?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE54QU1vWXpFSHdpSG5WR3JkZ1lyMGFvRjVEeExRNFdTSjM3WFQyUG5Gd0o5d2tnMmE4ck4yb1RVZzFTZ2tJZHFZbTFjZFNhclBUcC1hYlI4R3B6dUN5eVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "War on the Rocks",
+      "latestSinceUpdate": 2362
+    },
+    {
+      "date": "Sep 06",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2362
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
