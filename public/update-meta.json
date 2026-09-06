@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2356,
-  "lastUpdated": "2026-09-05",
-  "lastSyncedAt": "2026-09-05T23:57:27.531Z",
-  "warDay": 190,
+  "updateSequence": 2357,
+  "lastUpdated": "2026-09-06",
+  "lastSyncedAt": "2026-09-06T04:23:21.479Z",
+  "warDay": 191,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active between the primary belligerents, with active retaliatory strikes reported."
+    "summary": "No active ceasefire is observed amidst ongoing US-Iran retaliatory attacks and Israel-Hezbollah clashes."
   }
 }
