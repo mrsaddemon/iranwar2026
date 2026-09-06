@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2358,
+  "updateSequence": 2359,
   "lastUpdated": "2026-09-06",
-  "lastSyncedAt": "2026-09-06T08:50:03.071Z",
+  "lastSyncedAt": "2026-09-06T12:22:11.679Z",
   "warDay": 191,
-  "summary": "The conflict between the US and Iran has escalated with direct retaliatory attacks on oil tankers and ships, while Israel continues military operations against Hezbollah in southern Lebanon.",
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-09-06",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "A previous ceasefire between Israel and Hezbollah has collapsed, leading to renewed fighting in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,75 +42,75 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 85,
+    "nuclearIndex": 25,
+    "escalationLevel": 48,
     "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "tradeImpact": 65,
+    "sanctionsPressure": 58,
+    "globalPressure": 72,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
+      "date": "Sep 03",
+      "text": "Iran condemns US attacks on oil tankers and vows retaliation.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2359
+    },
+    {
+      "date": "Sep 03",
+      "text": "Iranian oil tanker targeted in US strike, state media reports.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPQmhrYmtBdFFnX0h5ZF85bm1FQ2xDUHdCam5yZUZSWW1aS2JsRzNDeU9GNzJKSk1qT012Vmhzb1cwM25FNDJEdTQ1OHlIYlhfWlBHdmtfOFBFSFlsMU9lNHZ4R3U5U0ZOSDRzU1ZZRmJRY3JfN3BhUWVpNExRVFlUNzh3cFkzcU43MlE1dEJVTkVVSlJr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2359
+    },
+    {
       "date": "Sep 06",
-      "text": "US military strikes three Iranian crude oil carriers in retaliation for missile attacks.",
+      "text": "US and Iran trade retaliatory attacks on ships as conflict flares.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9MR2lQUEVfWHpBVV9NQjVxS0x6WldUNHB1RzFWSzlDa0hYWm1wYVpxMEVhdkRiT1dCeGVlY2Y5d25uR3lQOEtxbW5CVG5VNDRhRmFvU2NLQlN5UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2359
+    },
+    {
+      "date": "Sep 06",
+      "text": "Iran claims strike on US ship in Strait of Hormuz as fighting escalates.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxNeVFldUZselU5Y1lBOWdOZDRBTF9PN2h5Y0RoVG04ekVkZmFXS1J5MHFEaFZvZC0tcXJXeG0zMDZzQXdnWWE1NWlXNGxDUGM3MVFYWE9tNWZhRUJlaFJheFBTcFQzN0g2LUdFUGEwZWhtZU5VQTVaSDE3cTVKRUtUWnBNalZmN1F2QjlfTXdfLV9QZnVrSUlJaDFrUmU2SW5wRW1Oejdn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WTOP News",
+      "latestSinceUpdate": 2359
+    },
+    {
+      "date": "Sep 06",
+      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2358
+      "latestSinceUpdate": 2359
     },
     {
       "date": "Sep 06",
-      "text": "Iran claims strike on a US ship in the Strait of Hormuz as fighting escalates.",
+      "text": "Israel and Hezbollah battle over the strategic Ali al-Taher ridge in Lebanon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNeDRJdHZZYXAyb3hNSkV4aERFcF9vQ0tFV0hTWXYzQkFSb3FESHBEanlwTkFybjFVNDRUcWlpWGRHSHlicW1PY0VTWFQ1ZDlNSGxRbHdrbm8yMVFOUHo0Ung5Z3B5WV9fZkU4c3d6QVhTMjkwY0hVbjJhX2hGU1lTa1ZKVEhNZXdQQTBBbGc2Y1lGUFg2ZEt0cXBzdi1LWS1fa0liUFZFY3JrRlU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WRAL",
-      "latestSinceUpdate": 2358
-    },
-    {
-      "date": "Sep 06",
-      "text": "Iran vows to respond to US attacks on oil tankers.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2358
-    },
-    {
-      "date": "Sep 06",
-      "text": "Israeli military strikes southern Lebanon after Hezbollah launched drones.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2358
-    },
-    {
-      "date": "Sep 06",
-      "text": "Israel claims control of Lebanon’s key Ali al-Taher ridge.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOYWoycTROU0ZfekxqZ3M0SmI2S3JSUDQ0X01IMmtsOTVyclBoaTFYM0xMa3JJUFpuWWt4dEtTLWNXb1ZQY04zbWl5XzFYTG9jRTJBQU9RakNSWDhncmZXX2FhRXhBbGpaeGxiQUJxMEtJTlRwaDhGY0xIUWdudXZWaU03MS16ckRLMTV1TXBNQXMwQ2Zlc1h4Mko4ejJuRHktOVNhZHRGaGpEQm5PTFNZZlNn0gG3AUFVX3lxTFBxTDFUT3oxVUJENkh0UmZTQzRzWEhIVXoxTjhEV200NktfLW9DR29nam5MVVRWckhTTUc4RDdZTzRPOG5ZZTYxS05Zd1pDQUd4OHVUOXk5RUZkV0pwY2cxb3JXeWJoSVBKbmg1TWw4N3phcGpZdlBXclFXcGpKZnhqOGZzdTFzNTc3bW4wa2V3WW8yaEdaMUdhTmZMLXd6UEZ5X2pGTEFwMlUtS0lBRmZTWF9EV2RxRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2357
-    },
-    {
-      "date": "Sep 06",
-      "text": "Trump says US may attack Iran’s Pickaxe Mountain soon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxONS1WZEF3NG1NVkJVVDBHSzdxUzRjS0h3RnVfQm9xY0VqLXJoc2tpQVpBanRvdUw4a0hPQ19CcE9XNzZicWZGQ1lHTDE0alRLYXNvRElVMVNxcTVlSFduaGlIUE9YQ1RwNFE1WkM0ZjRTcEI0NWVSTFFtb2RTaFQ4a01WOHZHdWFweFlWYzduVkFrSTR1TkFRN0RCZUdaU1ZNRmRtdGRCTXhkcDRIT2pj0gG0AUFVX3lxTFA0TGR6aDhZUDNmOFhxd0RJRTkxbmdpZkhJTS1EalVBY3VEU01GcmY3aXBrTzVOTjBOdXlkSUl5UWhXcmFXbG13bngzb3BKR0g1Tjh6WjN2Mm9iUjBvanpFVVJaaDQ5QnNSYVRjMUxPWUhtcTFtdHhaUEItVjJhMmNaUGZRdUlGRDZhZXAxTGtQTVFfZkFXeEx0WXNLN1VqMjQ1WHg3X2l1N3Jtem80NGs5MG1NMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2358
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPTUdGWkMtN2RpZ3JFMV9kVU9lSGdtU0FuTW5xVzVlNzE2WmhQSUJ1LUpyaHNkVWk3VHlsbjdRLWl2WnNBT0VqMFVHbm9EUmRsLUZLMGdBcW5STDNwaTRDUnlzd0RsUGlDTXlTQjlpMWVHVWpNOTFZTFN2cF9CcTQwX1J2bXZiNVk3aUF0MVNSdUhkZ0dzNjVEdUpOcURCaGtCdWM4Nl8tM05URHJGS2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "apnews.com",
+      "latestSinceUpdate": 2359
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
