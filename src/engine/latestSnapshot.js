@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2364,
-  "lastUpdated": "2026-09-06",
-  "lastSyncedAt": "2026-09-06T23:13:55.989Z",
-  "warDay": 191,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-09-06",
+  "updateSequence": 2365,
+  "lastUpdated": "2026-09-07",
+  "lastSyncedAt": "2026-09-07T01:04:24.867Z",
+  "warDay": 192,
+  "summary": "The conflict involving Iran, the U.S., and Israel continues with direct military engagements, threats of escalation, and significant disruption to global shipping in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-09-07",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
     "summary": "A previous ceasefire between Israel and Hezbollah has collapsed, leading to renewed battles over strategic territory in Lebanon."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
-    "allianceInfluence": 51
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 03",
-      "text": "Iran slams US attacks on oil tankers and vows to respond, with its parliament speaker stating the response will be 'more painful'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2364
-    },
-    {
-      "date": "Sep 03",
-      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2364
-    },
-    {
-      "date": "Sep 06",
-      "text": "Iran announces plans to declare a new 'exclusion zone' near the Strait of Hormuz.",
+      "text": "An ex-US defense secretary warns the Iran war is likely to drag on for another six months.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2365
+    },
+    {
+      "date": "Sep 07",
+      "text": "Iran's parliament speaker states that Iran's response to U.S. attacks will be 'more painful'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMigAJBVV95cUxOdkZQUkZ1Y2kxZkxkX0tLNVNpeGEzY3BRRExZaFA3ZDBqdDNiYm5qYXBhUUl3V3pfSTg0UUJsX0hLTWNqWmhoeUUtZG5lWHNjV2xOempMQWk5MXVGakk4aC0xRlVFdHZWemFRQ2JyTjJ2NW9hVkpwVkRqX2dUQTROdHJ3TEYyYU5COUZHU29BTkpCQVZjdWZvb1ZIdUc5WDdVR1ZyVUlfQzRaU1hKcnY5RU14NU9wVkF0RUNOdFBZOERaWTlvRkdEcVIzUUlXRHJyUnMwNHk3TjB2NTdScmg1MXlTUjllZzF4R0kxdlNhLXR6S0o3OTFhUlcxWWZlS3hm0gGHAkFVX3lxTE9qb0l6TzY2MDBRcG5uQkcwNk5LM3A5Qms1VUMzaWQ1dGFyeF9jVUpFVXpZcWYyRUZ2elYtUDBwbWhId0RqMTVrY1dya0pCMmVfejltaFJRWjM1WnVzZHpCZ3o0RFlzZlhHRnMyZ1l0UVhLSXZkX3lrYTlIcldINFRLT01Hbi01SndtMUV1eDhlZk8yUzc1VlRzY3NWeVBfZ1l6RzlYZC1fdzhPNmMybnVCQk00cUlVXzRacnlNc19KelJZeVNmVmxTYmlNNWR0emY2cTdSWnpmbTVWR0NrQzFjYzBoTVJTRFJhMlFKTWFjQkFtVGViQ2pIVUl2cnR4MVpfSHh3ME8w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hindu",
+      "latestSinceUpdate": 2365
+    },
+    {
+      "date": "Sep 07",
+      "text": "Iran plans to announce a new 'exclusion zone' near the Strait of Hormuz.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNeXpPTUJjVll0WEd0Wk90aXMyTzltVWQwNXk2Y0hXZ1JsWVZmeFpLMTN0VG9CdlVrdjFKRXlRWWpkczdkOVk4blJKOVZNYUYtbi1fLUpqOXBnN25hdFZDQWN1S3BtWGxJM3NRdHg2a3VPTUVYZzkzUjFTc1JGQkZPd0FwR3dRdUFXeV91UWJyZURPTFZwWXJTYjRXNS1hdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2364
+      "sourceName": "apnews.com",
+      "latestSinceUpdate": 2365
     },
     {
-      "date": "Sep 06",
-      "text": "Iran claims a strike on a U.S. ship in the Strait of Hormuz, but the U.S. denies the claim.",
-      "severity": "warning",
+      "date": "Sep 07",
+      "text": "Iran claims a strike on a U.S. ship in the Strait of Hormuz, which the U.S. denies.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQQjFZYld3STFWaVdhR2hGb25NdVJQeml2TU5PRDlsa2lFbVc4a1huRXU0MlFYd0lvem4tR3dablZsMDBkUVpQMjNDb0dlTjdicVVLMWwtUDh1cnlBSkUwUDFYUlNfLUs3QTB0SmU4d3VXQmxady1jRkhQMnRYdjZ1bDVKTEhRaVpWT1dZaXVCYmNhMEZGOVAyeHI1Z3o?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NBC News",
-      "latestSinceUpdate": 2364
+      "latestSinceUpdate": 2365
     },
     {
-      "date": "Sep 06",
-      "text": "Israeli strikes kill seven individuals in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2364
+      "date": "Sep 07",
+      "text": "Israeli intelligence suggests Iran is rebuilding its 'axis of resistance' for attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE9tbjJBU0JLWHMtWjBZOEZGcGVDUHcwZVgzbFlxb3RPZVJYM3Z6S2ttOGhBZDNwT0Vpc2lxRkRGYUd1bWluWFJlNGtoWVQ0aTB0NTBBRDhuT0Fva3ZX?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2365
     },
     {
-      "date": "Sep 06",
-      "text": "The Israeli army has seized Lebanon's key Ali al-Taher ridge from Hezbollah.",
+      "date": "Sep 07",
+      "text": "Reports indicate Iran is planning a 'October 7-style' multi-front, coordinated attack on Israel using proxies.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNYUN2dTQ3bEJFdVBtZTNfSWEzQmNqREREcUVSWjJqQUw2blhCbFBTVERmRmtKeEQ5YS1RdDZ6a0diR01ZWUNBbzJsSHQ1bUw4MEpDNXliTVEtTFFfaFBNcmJOTERzaEdxNDE0VTUyMW1vdUl2UGdCSzZYS0Q2Y3d4T01rU0NSQ1lxRzV4cUZFejhFZGh2bzJpMzN4UzluMzJ1Vm5wQk92MHdDZEpVUWpPTjl4TndJRVlHaWJaNw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 2364
+      "sourceUrl": "https://news.google.com/articles/CBMi-AFBVV95cUxPUWI0a2EyR2pTTjZxZ3JpaXVHQkpqNXVBQkc1M0lCV0pGd1hOcHlrd2hacHVqU2MxUVVHaUkyR1VxQVlOeFpvN0MxSGo0TlhEdnRwTjZfQ0UzQTFXRGZTT3lqVzljeXk4UE5JcW9ub0hWV1hkSGJvN2FrMjZ1ei1JSzRaSjY5M05hVGtZQWxBYlFSUGVRc213VHJhSWNKdlhWcUZ1VklSZVhJblBvR1BUVk9xQVZDTm53M1hjSmw3T1Q5OXhvdjM2WEFrLTMwVkNRWkF4eER1aTBpYTU0YzhvdmQ3YlhLMS1lLWtLLU45aWloMzB1OW5sWNIB_gFBVV95cUxNSHY1MF85UjVGcldRcVkyMGxnenVSeDlBR1Q5a3dBb0F4SkRxNWgzSXU2ajJ1UTZDWmZPQzZpVC10aGsxUFZpc1NpMng4SWpsMjRtTDNiQ0tnNFhVU1VMeVZGN19uNkNPTy1RZ0VENThhRmRGZmFIM1lYRzR1d3lBcmZqUndMTjVlMUw3VFM1Q05WMXM0Q1lnb2JPOThudVVqZVFJOTg0NG1xbERYbUJzc3ZxZGxfREI4SHlPOE9rdkRUMG1za1JkZUwycTc0a2FMNkRKa1VpTDM0c3dKTFF6U09tSEZudDZMcjBWbndUUW9uajdqQVpGZl94ajVxZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Hindustan Times",
+      "latestSinceUpdate": 2365
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Trump Administration",
-      "headline": "Trump asserts strong stance against Iran, preventing energy crisis",
-      "summary": "The Trump administration claims its military actions and diplomacy have prevented a wider energy crisis during the Iran conflict. President Trump has threatened further strikes and suggested renaming the Strait of Hormuz.",
+      "perspective": "Iran's Stance",
+      "headline": "Iran Threatens 'More Painful' Response, Asserts Hormuz Control",
+      "summary": "Iran asserts its right to respond to U.S. attacks with 'more painful' measures and plans to establish an exclusion zone near the Strait of Hormuz, while also claiming a strike on a U.S. ship. This indicates a defiant posture and an intent to control strategic waterways.",
       "tone": "defiant",
-      "latestSinceUpdate": 2348
+      "latestSinceUpdate": 2365
     },
     {
-      "perspective": "Iran",
-      "headline": "Iran retaliates for US strikes, seeks to break Hormuz stalemate",
-      "summary": "Iran views its recent actions, including firing on Gulf neighbors, as retaliation for US strikes, particularly after a wedding was reportedly hit. Iran aims to challenge and break the current stalemate in the Strait of Hormuz.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2348
-    },
-    {
-      "perspective": "Regional/International Concern",
-      "headline": "Fears of renewed war and shipping disruption grow",
-      "summary": "International observers express significant concern over escalating US-Iran hostilities, the impact on critical Gulf shipping routes, and the ongoing Israel-Hezbollah conflict. Some nations, like South Korea, are pushing back against calls for military deployment.",
+      "perspective": "Israeli Security Concerns",
+      "headline": "Israel Warns of Major Iranian Attacks, Conducts Strikes",
+      "summary": "Israeli intelligence suggests Iran is rebuilding its 'axis of resistance' and planning a significant 'October 7-style' multi-front attack, leading to Israeli retaliatory strikes in southern Lebanon. This highlights a perception of imminent and severe threats from Iran and its proxies.",
       "tone": "anxious",
-      "latestSinceUpdate": 2348
+      "latestSinceUpdate": 2365
+    },
+    {
+      "perspective": "US Military Engagement & Internal Issues",
+      "headline": "US Strikes Iranian Tankers Amidst Internal Military Challenges",
+      "summary": "The U.S. military has conducted retaliatory strikes on Iranian tankers, indicating direct engagement, while simultaneously grappling with internal challenges such as a major leak hunt and criticism regarding military leadership. This suggests a complex operational environment with both external actions and internal pressures.",
+      "tone": "strained",
+      "latestSinceUpdate": 2365
+    },
+    {
+      "perspective": "Global Shipping & Conflict Duration",
+      "headline": "Hormuz Traffic Plummets as War Expected to Prolong",
+      "summary": "The conflict has already led to a 95 percent drop in traffic through the Strait of Hormuz, significantly impacting global shipping, with warnings that the war is likely to continue for at least another six months. This narrative focuses on the economic and logistical consequences and the prolonged nature of the conflict.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2365
     }
   ]
 });

@@ -1,12 +1,12 @@
 {
-  "updateSequence": 2364,
-  "lastUpdated": "2026-09-06",
-  "lastSyncedAt": "2026-09-06T23:13:55.989Z",
-  "warDay": 191,
+  "updateSequence": 2365,
+  "lastUpdated": "2026-09-07",
+  "lastSyncedAt": "2026-09-07T01:04:24.867Z",
+  "warDay": 192,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.9,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
     "summary": "A previous ceasefire between Israel and Hezbollah has collapsed, leading to renewed battles over strategic territory in Lebanon."
   }
