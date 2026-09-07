@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2368,
+  "updateSequence": 2369,
   "lastUpdated": "2026-09-07",
-  "lastSyncedAt": "2026-09-07T17:45:51.298Z",
+  "lastSyncedAt": "2026-09-07T20:47:34.542Z",
   "warDay": 192,
-  "summary": "Tensions in the Middle East have significantly escalated with direct US-Iran military strikes on oil tankers, Iranian threats against US energy assets and the Strait of Hormuz, and ongoing deadly clashes between Israel and Hezbollah.",
+  "summary": "The conflict involving the US, Iran, and Israel/Hezbollah is escalating with direct military strikes, threats to shipping in the Strait of Hormuz, and warnings of prolonged engagement.",
   "lastNarrativeUpdate": "2026-09-07",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst escalating regional conflict."
+    "summary": "No ceasefire is active; direct military actions and threats are ongoing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,41 +18,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 25,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
-    "sanctionsPressure": 68,
-    "globalPressure": 93,
-    "allianceInfluence": 73
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 07",
-      "text": "US military strikes three Iranian tankers in retaliation for missile attacks",
+      "text": "Ex-US defense secretary warns Iran war likely to drag on for another six months.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2369
+    },
+    {
+      "date": "Sep 07",
+      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2368
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 2369
     },
     {
       "date": "Sep 07",
-      "text": "Iran threatens 'more painful' retaliation to U.S. strikes on Iranian oil tankers",
+      "text": "Iranian state media reports an Iranian oil tanker was targeted in a US strike.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPNTB4cXFwcGVMMDdGdWZaNExNcDRBUGVSZURNUHdKcWxIWjNLREUyQlpjaGdQQWZzMGh3cVZxcThKT1JtS0V1SlV5cWxUYU1Ra0I4OUJEYnoxa1RJOFlFWkxsNHpOR2d4R01Mc3prOERtdUx6MzF6RV9jRWEzM0l5Qi1mYkt1SUxULWJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2368
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxPQmhrYmtBdFFnX0h5ZF85bm1FQ2xDUHdCam5yZUZSWW1aS2JsRzNDeU9GNzJKSk1qT012Vmhzb1cwM25FNDJEdTQ1OHlIYlhfWlBHdmtfOFBFSFlsMU9lNHZ4R3U5U0ZOSDRzU1ZZRmJRY3JfN3BhUWVpNExRVFlUNzh3cFkzcU43MlE1dEJVTkVVSlJr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2369
     },
     {
       "date": "Sep 07",
-      "text": "Iran warns US energy assets in Gulf are vulnerable after latest clashes",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2368
+      "text": "Tehran slams US attacks on oil tankers and vows to respond.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2369
     },
     {
       "date": "Sep 07",
-      "text": "Iran war latest: Tehran says it will act against vessels beyond Strait of Hormuz",
+      "text": "Tehran states it will act against vessels beyond the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQUzJtX25kdzBPS0R1V3pfS1VaVzZaWXBIaUZITFZaQXBHMVEtTlRPM3Fpc1lpNFhGRkJFc1ZlMmFDS3NqYmVEOXM4dV9aeHkzcEFlR2tIejAtWWZSWmpxSjBPU2o3WnZycFUwb08xTzF6QlU4Wk8zZHZ4U3ZoZ0dUa1ZKYzIzVkwtUTh0aEJjSTJmbWV0MWFUSA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2368
+      "latestSinceUpdate": 2369
     },
     {
       "date": "Sep 07",
-      "text": "Israel-Hezbollah clashes kill 11 as Mideast conflict escalation gathers pace after U.S.-Iran strikes",
+      "text": "Israel-Hezbollah clashes kill 11, escalating Mideast conflict after U.S.-Iran strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxObk5EbElublhva1o0aEYxbmpnTFB1aEU1dTNvenR2eHJndXFvYjVTTFJmYk5EQWpSVXdlaXhiM2lFeks5aFh6M1hQd2hJSDgwRXB1b3ducmllX19mam9CRFRjN0dlQVp5ak1QaEphcE8wUXpkYW4xUS1JYWpiTDJvcS1EOHduTjN5OWJWNy11anpKMlVoYlgtM2dwNGnSAaIBQVVfeXFMT0FyOVVHZVpXUUtqTWpKZ0hYdnVEZ1FhWTRWNk44bnZlS2Y2dkV5VTVGZjVYbm94MXcwMzN4TUY5YXBPX05qUUM2Q09sM3BYYl9uWlVFcmZsbmFCMjhCZE11bEN3bmt5VFpVdmdybHFfSExucWpXSVpZNVZjQTVOOFZIdXI3VWVvdjdsV1o2b1doQk9ZT0NxUldDTEdaRmZ3Mjh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "cnbc.com",
-      "latestSinceUpdate": 2368
-    },
-    {
-      "date": "Sep 07",
-      "text": "Iran Planning Bigger 'October 7' Style Attack On Israel Using Proxies: Report",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNOEprbFRuNl9UV3FuS1RvNFNJWHFyR3hJMUJpaFFPNUZnd0lOTlRJQ1YtUE16bnRzMHdWU2pyOVZTTE1jWmx5djhxUFhJVUhWZG9sYmxfRkR2NGFMYWJGVDNpMHBxRzhXcDJWbmhRZFNkVWFCb1RGTEdMamt1U3FNeDZPdXpwYnRqT2F3bHJza2dCX0hWVVR6QS1NNFZQWEc1NkFXQVp2eGlhMTdPaURwcndQR3pHd9IBvgFBVV95cUxNOWQ1QjNtUUlPMW1zZ2M4enNtSE1vakUyZmVjNWJMY2ZkRkdkc0dYQm9qby1CbXQ3OXVaaGVNbktvNVczeGN0UjhrZjk0NjVWOGEwcTd6ZDlqVzlLOC1tb2x4Wm9NNDlzWVd6NkxVNWE0ZkNOQjFVRDlCTV9MMFBiUEN6LTBlNURINmxVbi03Z1BzRnNidnhIRnlxVDF2LW12RFF4MU9JSEVXQXJUMV9WTGZPZjFSVnUxTDlrV19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NDTV",
-      "latestSinceUpdate": 2368
+      "latestSinceUpdate": 2369
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
