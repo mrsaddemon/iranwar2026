@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2366,
+  "updateSequence": 2367,
   "lastUpdated": "2026-09-07",
-  "lastSyncedAt": "2026-09-07T05:58:25.899Z",
+  "lastSyncedAt": "2026-09-07T12:18:07.729Z",
   "warDay": 192,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with direct military engagements between the US and Iran and escalating clashes between Israel and Hezbollah."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict is escalating."
   }
 }

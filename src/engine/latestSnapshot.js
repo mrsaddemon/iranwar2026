@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2366,
+  "updateSequence": 2367,
   "lastUpdated": "2026-09-07",
-  "lastSyncedAt": "2026-09-07T05:58:25.899Z",
+  "lastSyncedAt": "2026-09-07T12:18:07.729Z",
   "warDay": 192,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The Middle East conflict continues with escalating clashes between Israel and Hezbollah, US strikes on Iranian tankers, and Iran threatening to control the Strait of Hormuz while reportedly planning further attacks.",
   "lastNarrativeUpdate": "2026-09-07",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with direct military engagements between the US and Iran and escalating clashes between Israel and Hezbollah."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict is escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.9,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 48,
+    "nuclearIndex": 35,
+    "escalationLevel": 90,
     "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 07",
-      "text": "Iran to announce new Hormuz shipping route in coming days.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNWEx0eDJjS1ZhZmlrQm81R0JkSXFYTG1HeDVRTHY2VFNVa3RKaXl4YThfbjAxWnhoNGlsZTM2UFUzbmk2WTB4dWtMcFZnWDRFb204bXJJRXYzbXVnbjBPdEVzTHpwc3UtVEk4cDBtQW9meTdNTTFGZGx5cVRqVWFZYS13anZZZGszd3J0UGlQdkRxdTN5LU5YOUJwQkxUdFNJNkZxSV81RTF3Y3htTTZZY1hIVTdwMnREd2JBTWhnd9IBxAFBVV95cUxNU0twWmhxcUJXelhrV0xFeWVxWlBWZkFMRmozVXc0Tmx5WGlkRFlad3BMRXptUTZ3OE5VUTFuZkhiQzBGNklFMUlidkg2TmxOTG5PRm9jRXExZ29rNkd4cEFoWjhVblg5VnFJYjJyVUtfbWZ4b0JRNjl2ZUdBSVRtRVhqRUtnYkdHanRPcmJqdXRYRWViYUVhNVk2YXdEdzJ0NTU2MmhLcHJnQ1JDNTlteHhzSWY1S3ZzbjdfTVpvMU4zS2Uz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2366
-    },
-    {
-      "date": "Sep 07",
-      "text": "Iranian tanker sinks in Gulf of Oman after US strike, Centcom says.",
+      "text": "Iran announces plans to declare an 'exclusion zone' near the Strait of Hormuz, potentially impacting global shipping.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxPNnd2SnpjYTk3bmppTE5TQ1pIY3RGSXJKT2xLV25rcVBZRHlScWpmUWlnQTZQUXNhSHprYUZrbkUxTVR3SE9hZWdyeHlhUzVOYTdnZ3ZFeGhzWGpOOHZuLWdnX25fLVpxbjZsa3NrZnNXM3RRLVhXcjBaekltdHByOVQtaDN5ZTI0djRqSkZwSDlKYkhWWUs1VS1LQ0Rwa0U1eVA4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2366
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2367
     },
     {
       "date": "Sep 07",
-      "text": "Iran vows 'more painful response' for US, Trump sinking 3 oil tankers in Hormuz Strait.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPcVRCUTJDbU1rM3VXMlV0U0lONk81WDlCendLTXVDTnBJc1JWamJfdDJtVzhOeFJxVnVHeWo5SnJ5WVkyQThNS2FDVmhSaDUzQnMzbGFRUVpEdDdmQ0V1X3pGMlFNMnVQdElab0dqNGNobzRSMGQxeGdPWEVYNVR3WE1FVXcwdTVzbzNyaWN1RTJiTmg2a1NMSFBBWTZPb05oYWRwV2NR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2366
+      "text": "Israel conducts strikes in southern Lebanon, killing 11 individuals amidst escalating clashes with Hezbollah.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2367
     },
     {
       "date": "Sep 07",
-      "text": "Iran vows to extend ‘exclusion zone’ near Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOcG1BYUJ4RVpoVElpdzBtc1VBZHg0QkFtMnk5S21lbmZFNmt3MHZNM25ZQi1vVDh2Y2RwSnJ0aEdZX0I0N2hIVmVQUExfMmxVUkZuVTNaUjgwXzZSV0tNVFhjdVFMODh4OXRLc3AtZ0pVQU5uTWZKVzhaNDRtRGZHTjd1MjQybzliTHBsYURHZFd2MmxLdXI1S19ZR1hMeFZSUkVDSzdPNFA3dDRSaFI2c1VlQmQ4NmM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 2366
-    },
-    {
-      "date": "Sep 07",
-      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
+      "text": "US military strikes three Iranian oil tankers in retaliation for recent missile attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2366
+      "latestSinceUpdate": 2367
     },
     {
       "date": "Sep 07",
-      "text": "Israeli strikes kill seven in southern Lebanon.",
+      "text": "Iran threatens 'more painful' retaliation following US strikes on its oil tankers.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2366
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxPNTB4cXFwcGVMMDdGdWZaNExNcDRBUGVSZURNUHdKcWxIWjNLREUyQlpjaGdQQWZzMGh3cVZxcThKT1JtS0V1SlV5cWxUYU1Ra0I4OUJEYnoxa1RJOFlFWkxsNHpOR2d4R01Mc3prOERtdUx6MzF6RV9jRWEzM0l5Qi1mYkt1SUxULWJF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2367
+    },
+    {
+      "date": "Sep 07",
+      "text": "Reports indicate Iran is planning a 'bigger October 7-style' multi-front, coordinated attack on Israel using proxies.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi-AFBVV95cUxPUWI0a2EyR2pTTjZxZ3JpaXVHQkpqNXVBQkc1M0lCV0pGd1hOcHlrd2hacHVqU2MxUVVHaUkyR1VxQVlOeFpvN0MxSGo0TlhEdnRwTjZfQ0UzQTFXRGZTT3lqVzljeXk4UE5JcW9ub0hWV1hkSGJvN2FrMjZ1ei1JSzRaSjY5M05hVGtZQWxBYlFSUGVRc213VHJhSWNKdlhWcUZ1VklSZVhJblBvR1BUVk9xQVZDTm53M1hjSmw3T1Q5OXhvdjM2WEFrLTMwVkNRWkF4eER1aTBpYTU0YzhvdmQ3YlhLMS1lLWtLLU45aWloMzB1OW5sWNIB_gFBVV95cUxNSHY1MF85UjVGcldRcVkyMGxnenVSeDlBR1Q5a3dBb0F4SkRxNWgzSXU2ajJ1UTZDWmZPQzZpVC10aGsxUFZpc1NpMng4SWpsMjRtTDNiQ0tnNFhVU1VMeVZGN19uNkNPTy1RZ0VENThhRmRGZmFIM1lYRzR1d3lBcmZqUndMTjVlMUw3VFM1Q05WMXM0Q1lnb2JPOThudVVqZVFJOTg0NG1xbERYbUJzc3ZxZGxfREI4SHlPOE9rdkRUMG1za1JkZUwycTc0a2FMNkRKa1VpTDM0c3dKTFF6U09tSEZudDZMcjBWbndUUW9uajdqQVpGZl94ajVxZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Hindustan Times",
+      "latestSinceUpdate": 2367
+    },
+    {
+      "date": "Sep 07",
+      "text": "An ex-US defense secretary warns the Iran war is likely to drag on for another six months.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2367
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
