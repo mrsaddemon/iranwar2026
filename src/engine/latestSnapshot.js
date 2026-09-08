@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2372,
+  "updateSequence": 2373,
   "lastUpdated": "2026-09-08",
-  "lastSyncedAt": "2026-09-08T05:54:23.549Z",
+  "lastSyncedAt": "2026-09-08T11:07:26.906Z",
   "warDay": 193,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The conflict in the Middle East continues to escalate with retaliatory strikes between the US and Iran, intensified Israeli military action in Lebanon, and ongoing concerns over oil supply disruptions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-08",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "A previous ceasefire between Israel and Hezbollah has collapsed amid renewed clashes and territorial disputes in southern Lebanon."
+    "summary": "No ceasefire is currently in effect as conflict escalation continues."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.75,
         "aggression": 0.8
       }
     },
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 15,
-    "escalationLevel": 48,
-    "oilDisruption": 80,
-    "tradeImpact": 58,
-    "sanctionsPressure": 54,
-    "globalPressure": 64,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 08",
-      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE80clViT1pWcjBiY0Q5YWpQN3NJUjVWZzU0b2Y3OXhWbUVfOGFnUzk3TGhwa2FWaDRDWGx5NTdodENseXlXVGhPcFF3RXJTb2NpMERtSWdxTlU1bm5SaGgtZ2x6NjNIT2g2VWV1YmpRVzRiYmFuek9FNi01RQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2372
-    },
-    {
-      "date": "Sep 08",
-      "text": "Israeli airstrikes on a village in southern Lebanon kill 12 people, including 2 children.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxQTzJBTjlhbHgtZUg0YWViV3JJem5LeHRIU3BpeTF2SGRCdEdKUkpxUjRQem9RSzR0TlZLT3kyVFNPblpHM0NCYnFjVlNKaXpEMDJnVUhtcFJUTVhNTzM0M00xb0FLUy1PeGNVSGg4RDhUYy01QVhtcUNBYjBSUzdrUWFSUUJTSk5kTERodTJMZmIzZUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2372
-    },
-    {
-      "date": "Sep 08",
-      "text": "Iran plans new 'restricted zone' outside Strait of Hormuz.",
+      "date": "Sep 07",
+      "text": "Qatar warns of potential 'industrial catastrophe' if the crisis persists.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPMGlsWGJZOXNiQVpva0R4eDBWMlQtTFRqR0dJSDdTQzJhUDVRemFoUzhxUzgyUzlmdWxDQ2p3VmN6V3Y0TElxR0lubUVQSTY1elhnMm9CX3pMQ0xmU09hTE82Tko0ODNDLUVpQ0hpVWx1aGJNTWR6RVV6Z3hDenMzQ3NvYjA5UFN4QVFRWjJNX1JqWnVqVjhkVU5BVkFfSk4xUEZ4YU5ueGZiU3pGcEJHZDh4OVFHUlZudEZyUGhB0gHDAUFVX3lxTE9vLU56cXNQckU0VWZTSzhDMTZYMU82eG5uX1NBRlBrY1RVUy1QXzNfZ0hBYXMwdUlLS21UenNBZm1jMm5EV05veERqSm9XdHZHU0lTSGttaUNHMHhxWWQ2N2djV2JnR1FuVGJzZDNjeTgwMTNON1ViLTV0VUM2V2VzUW94X3FGSWplVzMtUUVZT3pYRmZzakNvSTRBekNnU215TEFNdzI5UlpXTEtMZzZtWXNmemQ3N2NUSkdwcFZQbXlRYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2372
+      "latestSinceUpdate": 2373
     },
     {
-      "date": "Sep 08",
-      "text": "Hormuz traffic slows after Iran threatens retaliation for US attacks.",
+      "date": "Sep 07",
+      "text": "An ex-US defense secretary predicts the Iran war will likely continue for another six months.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2373
+    },
+    {
+      "date": "Sep 07",
+      "text": "The GCC chief condemns 'malicious' Houthi attacks on Saudi Arabian cities.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxOZGJmb3F5S05jTkpmdzBOa0dLM0dOQkdISWN6WHlscjA0YlN2RXU5ZFROZ3ZnOGhKTEI4MFdGOU82bjVXVGU3dUM4dmpHVy0wU19wNUpxTDJJQkQ3VGhubGg5bVFoVnVZTDR0VjFEUXJGODJTS2VTeG9YZlpDRXcwbmVwcDdQMDdoSlA5M0JRc1BST0VtNW9pc2g4cVZabDJxcEFSTjdOMkZEdXVrcUF2dDIwemZiLTViX2ZPVEFGV3ozLUtHeE02OUpnRU9aNGM2OHhB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Detroit News",
-      "latestSinceUpdate": 2372
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNWWZwYVd5ZkUwZE1QSU9VclpYam10NVFMZ194cDRqMEJ3YVZjTHp2NVpISkVFQ0k2R0wyeS1Gem9INUFObWN3TmUtZUFyZDRkUUJOVlFrb2xKODRvdTBMWi1abUUzVFFQZ25TMXVJalBoRXZ5QmhPdlJ1REpqYlBpalBfTnV5NHFYRUhlUjd1SVNHRW9WNHVqdVRYUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2373
     },
     {
-      "date": "Sep 08",
-      "text": "Israel-Hezbollah clashes kill 11 as Mideast conflict escalation gathers pace.",
+      "date": "Sep 07",
+      "text": "Israel-Hezbollah clashes result in 11 fatalities, indicating escalating Mideast conflict.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxObk5EbElublhva1o0aEYxbmpnTFB1aEU1dTNvenR2eHJndXFvYjVTTFJmYk5EQWpSVXdlaXhiM2lFeks5aFh6M1hQd2hJSDgwRXB1b3ducmllX19mam9CRFRjN0dlQVp5ak1QaEphcE8wUXpkYW4xUS1JYWpiTDJvcS1EOHduTjN5OWJWNy11anpKMlVoYlgtM2dwNGnSAaIBQVVfeXFMT0FyOVVHZVpXUUtqTWpKZ0hYdnVEZ1FhWTRWNk44bnZlS2Y2dkV5VTVGZjVYbm94MXcwMzN4TUY5YXBPX05qUUM2Q09sM3BYYl9uWlVFcmZsbmFCMjhCZE11bEN3bmt5VFpVdmdybHFfSExucWpXSVpZNVZjQTVOOFZIdXI3VWVvdjdsV1o2b1doQk9ZT0NxUldDTEdaRmZ3Mjh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2372
-    },
-    {
-      "date": "Sep 08",
-      "text": "Saudi Arabia vows firm response after Houthi attacks injure 73.",
-      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2372
+      "latestSinceUpdate": 2373
+    },
+    {
+      "date": "Sep 07",
+      "text": "US and Iran exchange retaliatory attacks on ships, further escalating the conflict.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9MR2lQUEVfWHpBVV9NQjVxS0x6WldUNHB1RzFWSzlDa0hYWm1wYVpxMEVhdkRiT1dCeGVlY2Y5d25uR3lQOEtxbW5CVG5VNDRhRmFvU2NLQlN5UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2373
+    },
+    {
+      "date": "Sep 07",
+      "text": "Oil prices spike following Houthi attacks on Saudi Arabian cities.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQLUtiYjJHSXVpaE5VaGl6akZybmlvbUtRUUJKY1p2Tm5rVEQ5WU52Uk5BTHlhQ0lsczQ0bU16U1g0dEQwZE90S0VQOWxrV1Vac0s0aGFFSFRwcnJzUVZ6ajlOc3daUmZXSW05NUpweFpoSzF4U3diZWZoNmNpTGtTWnBaV0ZYTG9BcWtzQlBhZG1SX2x6MW1UV3BlZFV4bG1URWNrR0JIRGlENEpkcklQalBxSHlyNmNqNlFXMXA1OWZmUFlUcGh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 2373
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
