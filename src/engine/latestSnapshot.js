@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2376,
+  "updateSequence": 2377,
   "lastUpdated": "2026-09-08",
-  "lastSyncedAt": "2026-09-08T21:28:02.251Z",
+  "lastSyncedAt": "2026-09-08T23:36:35.934Z",
   "warDay": 193,
-  "summary": "The conflict involving the US, Iran, and Israel continues to escalate with direct military strikes, civilian casualties, and significant oil market disruption due to Strait of Hormuz issues.",
+  "summary": "The conflict in the Middle East continues to escalate with direct US strikes on Iranian oil tankers, Iran's seizure of a US drone, and ongoing deadly clashes between Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-09-08",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire is active; conflict is actively escalating across multiple fronts."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities and direct military engagements."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.9
+        "precision": 0.4,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 07",
-      "text": "US hits Iranian tankers, prompting a retaliation warning from IRGC.",
+      "text": "US military strikes three to five Iranian oil tankers in the Strait of Hormuz in retaliation for missile attacks on a Navy warship.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2376
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE9tVlZfRVpnZHk5LUZINnd1bUh0Mkp3N3FoU3ZpT1Rad3ZwbzU2SllpNEUzeFpjdms2SWI4MWFCSVU4S2JtQ3BRTUNRQ01ybWprRmFybkNUdDk4TWxtZTFiWV9CQzJha0JWdlh0XzhHUzJSa2hEQkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2377
     },
     {
       "date": "Sep 07",
-      "text": "Ex-US defense secretary warns Iran war likely to drag on for another six months.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2375
+      "text": "Iran's IRGC states it will retaliate against US strikes on its tankers.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2377
     },
     {
-      "date": "Sep 08",
-      "text": "Arab and Gulf countries condemn Houthi attacks on Saudi Arabia.",
+      "date": "Sep 07",
+      "text": "Iran claims to have seized a US unmanned submarine drone in the Strait of Hormuz, which the US states had malfunctioned.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPWmlqeDdsTWM5SmRhZE95ZmZVcVFrYkNYelVGTExQTGlnSFJvTGNuaURuV0o4MXFybUhRT3JfYWFVVDB4TnJOM3haOXhSdXBKVmNVaUlHSkhqSEZKbDF5RUxzYmhXc2JCLXlqRVNCYS1Eb2dTdmxwN2kxRkw2bzlmbEljdFRHYlE0dTJGRmJ6TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2377
+    },
+    {
+      "date": "Sep 07",
+      "text": "Israel-Hezbollah clashes kill 11 in Lebanon, with Israeli strikes in a southern Lebanese village killing 12.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTFBkeHo4dnBmNnFsLXpHaUU2czN0MG52bTBadUNFVlNWTTExWWFTanpTZnp3YS1QVEFsVkVPYWREVFRhRVBvY3NwcV9kakJ5clVhb2VtUjhMNzlTZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2377
+    },
+    {
+      "date": "Sep 07",
+      "text": "Arab and Gulf countries condemn 'malicious' Houthi attacks on Saudi Arabia.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNWWZwYVd5ZkUwZE1QSU9VclpYam10NVFMZ194cDRqMEJ3YVZjTHp2NVpISkVFQ0k2R0wyeS1Gem9INUFObWN3TmUtZUFyZDRkUUJOVlFrb2xKODRvdTBMWi1abUUzVFFQZ25TMXVJalBoRXZ5QmhPdlJ1REpqYlBpalBfTnV5NHFYRUhlUjd1SVNHRW9WNHVqdVRYUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2376
+      "latestSinceUpdate": 2377
     },
     {
-      "date": "Sep 08",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
+      "date": "Sep 07",
+      "text": "An investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2376
-    },
-    {
-      "date": "Sep 08",
-      "text": "Israel-Hezbollah clashes kill 11, indicating escalating Mideast conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxObk5EbElublhva1o0aEYxbmpnTFB1aEU1dTNvenR2eHJndXFvYjVTTFJmYk5EQWpSVXdlaXhiM2lFeks5aFh6M1hQd2hJSDgwRXB1b3ducmllX19mam9CRFRjN0dlQVp5ak1QaEphcE8wUXpkYW4xUS1JYWpiTDJvcS1EOHduTjN5OWJWNy11anpKMlVoYlgtM2dwNGnSAaIBQVVfeXFMT0FyOVVHZVpXUUtqTWpKZ0hYdnVEZ1FhWTRWNk44bnZlS2Y2dkV5VTVGZjVYbm94MXcwMzN4TUY5YXBPX05qUUM2Q09sM3BYYl9uWlVFcmZsbmFCMjhCZE11bEN3bmt5VFpVdmdybHFfSExucWpXSVpZNVZjQTVOOFZIdXI3VWVvdjdsV1o2b1doQk9ZT0NxUldDTEdaRmZ3Mjh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2376
-    },
-    {
-      "date": "Sep 08",
-      "text": "Oil nears $100 a barrel as Strait of Hormuz stalemate keeps ship traffic down.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxQbVJza1YxaXdiMHRhZU1XaHpDTFE2emZ0UDhJWkQ3LWdnOG1YZkNRUndZcTJJdW9UZFdsOUI2eldad0pmR1JKS1JUM1p2MUhOdllOd1Y0X2tTUDh2aXFvQ3Z0Sk5XYkNiSzM5VEVHM3VEaWdPdlpIM2hUamVqeVhxTVU2cjh6OXo2eVJzcG1aQXNHQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2376
+      "latestSinceUpdate": 2377
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
