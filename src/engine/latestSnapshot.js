@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2375,
+  "updateSequence": 2376,
   "lastUpdated": "2026-09-08",
-  "lastSyncedAt": "2026-09-08T18:45:17.232Z",
+  "lastSyncedAt": "2026-09-08T21:28:02.251Z",
   "warDay": 193,
-  "summary": "The conflict involving the US, Israel, and Iran continues to escalate with mutual strikes, sanctions, and increased tensions in the Strait of Hormuz, while regional actors like Hezbollah and Houthis remain active.",
+  "summary": "The conflict involving the US, Iran, and Israel continues to escalate with direct military strikes, civilian casualties, and significant oil market disruption due to Strait of Hormuz issues.",
   "lastNarrativeUpdate": "2026-09-08",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire reported amidst ongoing conflict and escalation."
+    "summary": "No ceasefire is active; conflict is actively escalating across multiple fronts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.75,
         "aggression": 0.9
       }
     },
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.65,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 35,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 07",
-      "text": "US slaps aviation sanctions on Iran; UK bans Israel settlement goods.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2375
+      "text": "US hits Iranian tankers, prompting a retaliation warning from IRGC.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2376
     },
     {
       "date": "Sep 07",
@@ -75,42 +75,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2375
     },
     {
-      "date": "Sep 07",
-      "text": "Arab and Gulf countries condemn 'malicious' Houthi attacks on Saudi Arabia.",
+      "date": "Sep 08",
+      "text": "Arab and Gulf countries condemn Houthi attacks on Saudi Arabia.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNWWZwYVd5ZkUwZE1QSU9VclpYam10NVFMZ194cDRqMEJ3YVZjTHp2NVpISkVFQ0k2R0wyeS1Gem9INUFObWN3TmUtZUFyZDRkUUJOVlFrb2xKODRvdTBMWi1abUUzVFFQZ25TMXVJalBoRXZ5QmhPdlJ1REpqYlBpalBfTnV5NHFYRUhlUjd1SVNHRW9WNHVqdVRYUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2375
+      "latestSinceUpdate": 2376
     },
     {
-      "date": "Sep 07",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 08",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2375
+      "latestSinceUpdate": 2376
     },
     {
-      "date": "Sep 07",
-      "text": "Israel-Hezbollah clashes kill 11 as Mideast conflict escalation gathers pace.",
+      "date": "Sep 08",
+      "text": "Israel-Hezbollah clashes kill 11, indicating escalating Mideast conflict.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxObk5EbElublhva1o0aEYxbmpnTFB1aEU1dTNvenR2eHJndXFvYjVTTFJmYk5EQWpSVXdlaXhiM2lFeks5aFh6M1hQd2hJSDgwRXB1b3ducmllX19mam9CRFRjN0dlQVp5ak1QaEphcE8wUXpkYW4xUS1JYWpiTDJvcS1EOHduTjN5OWJWNy11anpKMlVoYlgtM2dwNGnSAaIBQVVfeXFMT0FyOVVHZVpXUUtqTWpKZ0hYdnVEZ1FhWTRWNk44bnZlS2Y2dkV5VTVGZjVYbm94MXcwMzN4TUY5YXBPX05qUUM2Q09sM3BYYl9uWlVFcmZsbmFCMjhCZE11bEN3bmt5VFpVdmdybHFfSExucWpXSVpZNVZjQTVOOFZIdXI3VWVvdjdsV1o2b1doQk9ZT0NxUldDTEdaRmZ3Mjh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2375
+      "latestSinceUpdate": 2376
     },
     {
-      "date": "Sep 07",
-      "text": "Iran Foreign Ministry takes aim at Canada for support of U.S. actions in Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxOWU9TdjZUU2ozWGhJMGRpaHNzWnZNUjYyTW1BSHVNQ0ZEWmx1QlBkaDVLUHR5RzltNG01UEgyX1BUTW9JaVVMSFFIdGxPcEgzNTY5OGhtSDlHeG1FTXZubnVkSUZQay1HLWE1SzRzRzBBMm1yY0hmZEpVNHprTm1Jc0tKUy1ENUY1dzVlU0FTQXpEV0dW0gGaAUFVX3lxTE1HS3J6TzlEWlhBQzVGSHQ0VFh6OEkxc2lYVGhOYUZ4dTA2VGd3aVQydmdLSnhKYV8xVFB2SjB4azY1bTV3U0doQjl5b292emJ0UG84cDN4cFZpWmt6bk0yR05TbkRqRWlabldQcl9uV0xkd3J1VVJHS19EdlZVZ25pR1hHYjd6eUlsTmFhU3oyVTlBSDVzQnZndlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2375
+      "date": "Sep 08",
+      "text": "Oil nears $100 a barrel as Strait of Hormuz stalemate keeps ship traffic down.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxQbVJza1YxaXdiMHRhZU1XaHpDTFE2emZ0UDhJWkQ3LWdnOG1YZkNRUndZcTJJdW9UZFdsOUI2eldad0pmR1JKS1JUM1p2MUhOdllOd1Y0X2tTUDh2aXFvQ3Z0Sk5XYkNiSzM5VEVHM3VEaWdPdlpIM2hUamVqeVhxTVU2cjh6OXo2eVJzcG1aQXNHQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2376
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
