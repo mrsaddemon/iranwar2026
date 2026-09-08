@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2373,
+  "updateSequence": 2374,
   "lastUpdated": "2026-09-08",
-  "lastSyncedAt": "2026-09-08T11:07:26.906Z",
+  "lastSyncedAt": "2026-09-08T15:10:46.680Z",
   "warDay": 193,
   "summary": "The conflict in the Middle East continues to escalate with retaliatory strikes between the US and Iran, intensified Israeli military action in Lebanon, and ongoing concerns over oil supply disruptions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-08",
@@ -9,8 +9,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "active": false,
     "status": "none",
     "confidence": 0.08,
-    "durationDays": 10,
-    "summary": "No ceasefire is currently in effect as conflict escalation continues."
+    "durationDays": 2,
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 07",
-      "text": "Qatar warns of potential 'industrial catastrophe' if the crisis persists.",
-      "severity": "warning",
+      "date": "Sep 08",
+      "text": "Iran war live: China backs ⁠dialogue; Iran vows to resist against US",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2373
+      "latestSinceUpdate": 2374
     },
     {
-      "date": "Sep 07",
-      "text": "An ex-US defense secretary predicts the Iran war will likely continue for another six months.",
+      "date": "Sep 08",
+      "text": "Iran Update, September 7, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPOGNFTTlMQ0R1djd3TlZWT2tkSDJ2MlRMTGwzYXp3bl90TURvdEJLX0kwNVhGaU56OEEwbDg0ekNkR2VQb1ZRQjZxNkViV2hSYWNZVG1QNTBLcWRpWVBsOFRFOEpsdU9IRk5OaXNaTi1XeDhNZUU2eVNHX1l0NUo5cWR0eEtqQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2374
+    },
+    {
+      "date": "Sep 08",
+      "text": "Iran war likely to drag on for another six months, ex-US defense secretary warns",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2373
+      "latestSinceUpdate": 2374
     },
     {
-      "date": "Sep 07",
-      "text": "The GCC chief condemns 'malicious' Houthi attacks on Saudi Arabian cities.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNWWZwYVd5ZkUwZE1QSU9VclpYam10NVFMZ194cDRqMEJ3YVZjTHp2NVpISkVFQ0k2R0wyeS1Gem9INUFObWN3TmUtZUFyZDRkUUJOVlFrb2xKODRvdTBMWi1abUUzVFFQZ25TMXVJalBoRXZ5QmhPdlJ1REpqYlBpalBfTnV5NHFYRUhlUjd1SVNHRW9WNHVqdVRYUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2373
+      "date": "Sep 08",
+      "text": "Iran war updates: Hormuz traffic falls as US insists waterway ‘fully open’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNWEx0eDJjS1ZhZmlrQm81R0JkSXFYTG1HeDVRTHY2VFNVa3RKaXl4YThfbjAxWnhoNGlsZTM2UFUzbmk2WTB4dWtMcFZnWDRFb204bXJJRXYzbXVnbjBPdEVzTHpwc3UtVEk4cDBtQW9meTdNTTFGZGx5cVRqVWFZYS13anZZZGszd3J0UGlQdkRxdTN5LU5YOUJwQkxUdFNJNkZxSV81RTF3Y3htTTZZY1hIVTdwMnREd2JBTWhnd9IBxAFBVV95cUxNU0twWmhxcUJXelhrV0xFeWVxWlBWZkFMRmozVXc0Tmx5WGlkRFlad3BMRXptUTZ3OE5VUTFuZkhiQzBGNklFMUlidkg2TmxOTG5PRm9jRXExZ29rNkd4cEFoWjhVblg5VnFJYjJyVUtfbWZ4b0JRNjl2ZUdBSVRtRVhqRUtnYkdHanRPcmJqdXRYRWViYUVhNVk2YXdEdzJ0NTU2MmhLcHJnQ1JDNTlteHhzSWY1S3ZzbjdfTVpvMU4zS2Uz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2374
     },
     {
-      "date": "Sep 07",
-      "text": "Israel-Hezbollah clashes result in 11 fatalities, indicating escalating Mideast conflict.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2373
+      "date": "Sep 08",
+      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2374
     },
     {
-      "date": "Sep 07",
-      "text": "US and Iran exchange retaliatory attacks on ships, further escalating the conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE9MR2lQUEVfWHpBVV9NQjVxS0x6WldUNHB1RzFWSzlDa0hYWm1wYVpxMEVhdkRiT1dCeGVlY2Y5d25uR3lQOEtxbW5CVG5VNDRhRmFvU2NLQlN5UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2373
-    },
-    {
-      "date": "Sep 07",
-      "text": "Oil prices spike following Houthi attacks on Saudi Arabian cities.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQLUtiYjJHSXVpaE5VaGl6akZybmlvbUtRUUJKY1p2Tm5rVEQ5WU52Uk5BTHlhQ0lsczQ0bU16U1g0dEQwZE90S0VQOWxrV1Vac0s0aGFFSFRwcnJzUVZ6ajlOc3daUmZXSW05NUpweFpoSzF4U3diZWZoNmNpTGtTWnBaV0ZYTG9BcWtzQlBhZG1SX2x6MW1UV3BlZFV4bG1URWNrR0JIRGlENEpkcklQalBxSHlyNmNqNlFXMXA1OWZmUFlUcGh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 2373
+      "date": "Sep 08",
+      "text": "Iran War: Latest News, Live Coverage and Video",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2374
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
