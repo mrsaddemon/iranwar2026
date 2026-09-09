@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2381,
+  "updateSequence": 2382,
   "lastUpdated": "2026-09-09",
-  "lastSyncedAt": "2026-09-09T15:20:14.575Z",
+  "lastSyncedAt": "2026-09-09T18:42:23.862Z",
   "warDay": 194,
-  "summary": "Direct conflict between the US and Iran has intensified with attacks on oil tankers and military targets, leading to surging oil prices, while Israel's military campaign in southern Lebanon continues to strain a US-backed ceasefire.",
+  "summary": "The Middle East conflict has intensified with direct military engagements between the US, Israel, and Iran, leading to significant escalation and economic pressure.",
   "lastNarrativeUpdate": "2026-09-09",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "A US-backed ceasefire in southern Lebanon is active but severely strained by renewed fighting and intensified Israeli military operations."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.75,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 48,
-    "oilDisruption": 95,
-    "tradeImpact": 69,
-    "sanctionsPressure": 54,
-    "globalPressure": 67,
-    "allianceInfluence": 46
+    "nuclearIndex": 65,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 07",
-      "text": "US and Iran attack oil tankers; crude hits $100 a barrel.",
-      "severity": "critical",
+      "date": "Sep 08",
+      "text": "IAEA board refers Iran to UNSC, prompting Tehran to slam the decision.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQVGRvY3RUVHlVT1NoWDA0d2pZLTV5TjF4TG5UOVRtZGhlcHAtVFVhY2pPVFk2MUJSdEl6U2ZZSjNTQjlJd1otUGNQMjNRT1BMa2NvNDlEdThYXy1DOVB0WGJEaS1FN0RzYVBmendOTkRXQ0hhdEVlSkpSMDRyMU5kUmprSWlwYVJJV0pMVWxXSVRMV195T2VJN0l3WGR0enhTbGN2N3BDbkR6a3pCV1hCZVFwM3lLQXVV0gG-AUFVX3lxTFBZVkRPczZnZnVlUEJVSFhpeUlhTDdvZWh6dHJ4M2VCd3VlbmtIXzVJdXhtdzhJczNpTWNjSmdsWU9KVWExWkZnbW1NdW5obUtJUDZZSlJqRkxocGJtNXJULUpmNWdfN1NER0dubG1BSm1XX2I4VVlsVnpNOWZEajZqSTlXOXdNNXNvMXhVc2tieE5rODhVWGtHQnFocDRmSWhUUXlIdmhJTHhXOUhzVTVVQjlrNlhrbWZMN2ZVZmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2381
+      "latestSinceUpdate": 2382
     },
     {
       "date": "Sep 08",
-      "text": "Former US defense secretary warns Iran war likely to drag on for another six months.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2381
+      "text": "US strikes Iranian 'shadow network' oil tankers.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2382
     },
     {
-      "date": "Sep 09",
+      "date": "Sep 08",
+      "text": "Iran attacks US army forces in Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2382
+    },
+    {
+      "date": "Sep 08",
       "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2381
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2382
     },
     {
-      "date": "Sep 09",
-      "text": "US strikes Iranian tankers and destroys 5 more after missile attacks on Navy warship.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOUlN5b1FuNFl6ajd5T0Z0MVppWHZ5Y2hFOHJ4dkd0X1dqMGljMHlOX0FZNE9HSXU4SmoxVUVQVEs5OUg2OG8yM1NyazNZQ1VPU1dCS3p0NmNsUk5rVjBMY0xONjRQWGRtTk1vZkNFOC1PWElwcGZmbk9SUzVRS3JCeTlhN25heDc1b0dWbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2381
-    },
-    {
-      "date": "Sep 09",
-      "text": "Oil prices surge past $100 a barrel as US-Iran strikes intensify in Strait of Hormuz.",
+      "date": "Sep 08",
+      "text": "Oil hits $100 a barrel for the first time since July after US and Houthi strikes.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQcDlzUXFCcVJvUER3Ym1FeE9mREQ1a3FuaGV6T2hOdlV4WHU1bkRTN3V0eFVfNDJvYTRrSHFoMW9uSlBtaXNoQVJ2Sk42d1BNRmFjejAwaXg4a2swdTR4WFFnaVRBMFkzZUdjQmhfRnZIcGR3Qm9SYVZ5YkZQSDhJcUZOcDE3TlUyZTFaUnkwcWV5dWJOMXEwUGlTOFJhaGE5RXZHOW5qZDV2S0dM0gGyAUFVX3lxTE1xQXhqajhaRnRSRklMaUlJeWFCdU5Gb01qSXd6VmVNLUdaY0w5TTA2Rjk0bk9mdDgyZ0F2QTU4TkRXTzF3OUNnc3NxY2M5ZEVscXZBVXR5YXd4Z0hfVmtDMWQ5YThhMm5yY1RfcTFrTDFJaWFNalEybjk4SE1GRU1WTG5vdDNETEN6U0ZabThTQVdnNFpxR1dWM0VhYVJHSy1WMXo2Z0p1MkMwX1paQ0dpR3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2381
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE1YNWJtUDJmUXdQb2JLMUZpVFNTU3llRTdfSHkzQWVPMjdfb3lJM0RhaTJBWk51RDY4QWlQS3IzemgyeU1EcXBVMkRlVXlySHZzQWFRcFZ0eVFXdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2382
     },
     {
-      "date": "Sep 09",
-      "text": "Iran attacks US forces in Jordan and sends wave of missiles toward US base.",
+      "date": "Sep 08",
+      "text": "Iran claims to have attacked 10 ships near the Strait of Hormuz after US strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPYXl5NEhWdWhSUHJZanQ3LU5Jd0dyWHhUN1RYVVROUHFWcnV2WjEwNzl3VWtjX0cxanNGanNUV1NEZGZTeXYwNDh6T0tIT0hQYkVsTzZGNzA0SWlONVZWOEZwRmY1OWdGUmZLMmkyNWt2Uk5fQnFNWVF2ZlBXcmdfdmowSG9fUWJBWFE1MHU1bXdwYUpsb0EwSEVkSjEtYWFvRWpwd2lvdUpZZWdXOWNlRm5wRVV5N1plM1RUMGpXc1BwWTEwcWYyaDZ6emk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2381
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxQN0tGcHN6eVRuV0EzMllYUTYzOHd1ZDhFeWpJczVqMjB1a3JWWWpnRjh1RmV3Mm1Ya1ViQWxRRjhLRjRfWXlhVHVhM1ZOWlZyZkE4LXRTVDdQZ3RxQ3l2eEM5b1VkLVBySjVITFJMc1NjenAwakdZeEp1ZFBWV0UwcHBoQVdhTHhMRVl4bHdOVWh2X0IyNE5CMGVqYkxqbGtUd0xhY0d5UVNWVVhmTG9IUkROSnNlNDR1ckhkdEZ6dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2382
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
