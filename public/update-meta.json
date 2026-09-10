@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2390,
+  "updateSequence": 2391,
   "lastUpdated": "2026-09-10",
-  "lastSyncedAt": "2026-09-10T20:56:42.863Z",
+  "lastSyncedAt": "2026-09-10T23:04:38.952Z",
   "warDay": 195,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "A U.S.-backed ceasefire in southern Lebanon is active but experiencing renewed fighting and significant strain."
   }
 }
