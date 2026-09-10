@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2388,
+  "updateSequence": 2389,
   "lastUpdated": "2026-09-10",
-  "lastSyncedAt": "2026-09-10T15:01:02.773Z",
+  "lastSyncedAt": "2026-09-10T18:18:26.312Z",
   "warDay": 195,
-  "summary": "Escalating US-Iran hostilities, including direct military engagements and attacks on oil infrastructure, are driving oil prices above $100, while Israel intensifies its military campaign in southern Lebanon.",
+  "summary": "Conflict intensifies with Houthi advances in Yemen, US and Israeli strikes on Iranian and Hezbollah targets, and Iranian counter-strikes damaging US assets, while President Trump offers mixed signals on the war's duration.",
   "lastNarrativeUpdate": "2026-09-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military engagements."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 10",
-      "text": "Iran war updates: Trump says Iran talks possible, war to end after election",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQVGRvY3RUVHlVT1NoWDA0d2pZLTV5TjF4TG5UOVRtZGhlcHAtVFVhY2pPVFk2MUJSdEl6U2ZZSjNTQjlJd1otUGNQMjNRT1BMa2NvNDlEdThYXy1DOVB0WGJEaS1FN0RzYVBmendOTkRXQ0hhdEVlSkpSMDRyMU5kUmprSWlwYVJJV0pMVWxXSVRMV195T2VJN0l3WGR0enhTbGN2N3BDbkR6a3pCV1hCZVFwM3lLQXVV0gG-AUFVX3lxTFBZVkRPczZnZnVlUEJVSFhpeUlhTDdvZWh6dHJ4M2VCd3VlbmtIXzVJdXhtdzhJczNpTWNjSmdsWU9KVWExWkZnbW1NdW5obUtJUDZZSlJqRkxocGJtNXJULUpmNWdfN1NER0dubG1BSm1XX2I4VVlsVnpNOWZEajZqSTlXOXdNNXNvMXhVc2tieE5rODhVWGtHQnFocDRmSWhUUXlIdmhJTHhXOUhzVTVVQjlrNlhrbWZMN2ZVZmc?hl=en-US&gl=US&ceid=US:en",
+      "date": "Sep 09",
+      "text": "Houthis advance near Red Sea coast, threatening Bab al-Mandeb.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPSi05Yl9uRDRWMVJyalZULUVmOGVmMzBwN2xtQTU4Qzh2NlBvVUNBX0tRam90VkI5b2Z0NXMxaUNENHVoejNaNkJoN3Byd29EX1FRQldDN25JQ0ZBcnBiMTg2YWg2VXFoUHFDTTBMM3IybWN4MUZ3dU1kdjV0QUd4ckRQOW9xbVplUWlZQl9FVGxHNlZiejBfWUxucGpvamYzeXIzUU13U2xqTFZaeEppYkVzUS13aGtTLTJZdtIBwgFBVV95cUxNbmdDM2Y5SlMxdnVlekM0RzUzM3IzZXZTMXRQYzd2b1ctWjVFNUxCaTA2d1Z4Qm9fcTltZ0lUdGRLQjlPM0hGUmQycFBuMkxEYVlsYXNpMzBXVS1BUFVqZHdsdmZiYzZmNjJ4UGpFMGh0bW1mLXJrMUtNZWtFTkJVQ1ZMeG1CRDBTZThNT3hhMFlNbC0wZm1WMFVsb2w0Z0RoT3pITnczOVp1MkJJSkNRdzV5RkVhVDNNbV9CQ0I0emg1dw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2388
+      "latestSinceUpdate": 2389
     },
     {
-      "date": "Sep 10",
-      "text": "Trump says Iran war will end ‘immediately’ after midterms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNVi1kbjdIVmRlMnpxNDhfOEJSNERJX0gtUDVrRl9oQy1xN1ZPZUpWNU04c0xzcDlhc0Z3bTByRW5IOUM1SmM3NFFjNnY3WjJVYzRSakRRSFd3UGdMbk4zYVczS1hUcTlzWTBQS1BqUGNzRWhkaUZVT09wVlZfWGZraUc1TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2388
+      "date": "Sep 09",
+      "text": "Houthis seize Mokha, expanding control along Yemen's west coast.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOMVIwekEtTWJoN0Y3U2JVdTZibTdrNHpmcnpXSV9WWllOU3RmQzkyNXI0TmlwbmJITkxoMUNoS1RJb244YTVzUE01eUl4cXRwWmVXc3AyUU85M1pEMWJGRzdXZHhqc3lBdF8xWmhkYTZzZjVONkVZMnhkZl9Jdko0aFdhQ25oSXVSZU8ySg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2389
     },
     {
-      "date": "Sep 10",
-      "text": "Iran Update, September 9, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQNzNkUFMzeGwwTmU2amMwNkRLRnp2VmVlTTRmdDNjMVp2SlFXUGxickFpT0NEQ0FtaDdBNHlyMEJSaVZpdVVHbnZka3NTaVA2OGlfZzdTenRCRzEzdDVvR1JiX244eUMwbmJoZnY3amFxNGY1OHNPTHJJVmMyc19XVElOVXdZUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2388
-    },
-    {
-      "date": "Sep 10",
-      "text": "Iran war updates: US hits Iranian tankers, Iran attacks US army in Jordan",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2388
-    },
-    {
-      "date": "Sep 10",
-      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
-      "severity": "info",
+      "date": "Sep 09",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2388
+      "latestSinceUpdate": 2389
     },
     {
-      "date": "Sep 10",
-      "text": "Why Iran Fears Israel, But Not America",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTFBfSmgxV0FETlJUN0h5U3RIRWk4R3hJbEZaalRLSVZac3hPd3hjcmJnSEtNQ3BId3RCcm50aTk4U2FMTzUxYWhRcGpINGFkQmZmTjctQ2tZSkwzNFJtVUdIaEtPMHRrb2hIczlEeEEtMENTTllPRFFkYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "JINSA",
-      "latestSinceUpdate": 2388
+      "date": "Sep 09",
+      "text": "US strikes Iranian tankers.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPTUgxSWZaOWhTSTVEbEFLYURrY3Rac2FMMll6dk1rTDZFbThMc24yY3FNWHlLcks1dXV6cl9mWEIxdUxGUmx6NlUyek1lWFFISXFpSUxEY2Ixbzg5b3J2ZVZtemN0eTd5bHgxRzNzOG5MMUltajZvSmU3UlNSb3VwMFR2TTlnTFhlNGplRzVld2hBODMyb2p1eFl3TTZ0ZWZOUTNHV0k3UzZVSTBmVWNwNzgtcDdraWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2389
+    },
+    {
+      "date": "Sep 09",
+      "text": "Israel ramps up strikes in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxOSTZKVURjekFwTkxHQjJkdEgwZkh5Y3NOUUJicVZ4RGNqckFQOWM4cUM0bk9JOXlIRkt4TjZXT2lnbVZrR3pQdE5TZlpMdXNoR0ozYWtGd3pOVklIYkVaQnN5emt1anduZVlLSHZxbkZNOXhVcXlPMXJkTzVtdnlRY1VfY1d5dTV0QVlzblhvcE5WMldDU2UxMFYyb1A5dzZ6NmgwSTdDdUh1amJlZ1dZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "washingtonpost.com",
+      "latestSinceUpdate": 2389
+    },
+    {
+      "date": "Sep 09",
+      "text": "Multiple U.S. military aircraft damaged in Iranian strikes on a military base in Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2389
     }
   ],
   "sourceStatuses": [
