@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2395,
+  "updateSequence": 2396,
   "lastUpdated": "2026-09-11",
-  "lastSyncedAt": "2026-09-11T14:17:09.231Z",
+  "lastSyncedAt": "2026-09-11T17:47:02.724Z",
   "warDay": 196,
-  "summary": "The conflict involving Iran, the US, and Israel continues with ongoing strikes, Houthi advances in Yemen, and political statements regarding the war's potential end.",
+  "summary": "The conflict continues with US-Israeli strikes on Iranian and Hezbollah targets, Iranian retaliation damaging US assets, and Houthi advances threatening key shipping lanes in the Red Sea and Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and escalation signals."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.7,
         "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 15,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 09",
-      "text": "UNSC meets on Yemen after Houthis seize city of Mocha.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPSi05Yl9uRDRWMVJyalZULUVmOGVmMzBwN2xtQTU4Qzh2NlBvVUNBX0tRam90VkI5b2Z0NXMxaUNENHVoejNaNkJoN3Byd29EX1FRQldDN25JQ0ZBcnBiMTg2YWg2VXFoUHFDTTBMM3IybWN4MUZ3dU1kdjV0QUd4ckRQOW9xbVplUWlZQl9FVGxHNlZiejBfWUxucGpvamYzeXIzUU13U2xqTFZaeEppYkVzUS13aGtTLTJZdtIBwgFBVV95cUxNbmdDM2Y5SlMxdnVlekM0RzUzM3IzZXZTMXRQYzd2b1ctWjVFNUxCaTA2d1Z4Qm9fcTltZ0lUdGRLQjlPM0hGUmQycFBuMkxEYVlsYXNpMzBXVS1BUFVqZHdsdmZiYzZmNjJ4UGpFMGh0bW1mLXJrMUtNZWtFTkJVQ1ZMeG1CRDBTZThNT3hhMFlNbC0wZm1WMFVsb2w0Z0RoT3pITnczOVp1MkJJSkNRdzV5RkVhVDNNbV9CQ0I0emg1dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2394
-    },
-    {
       "date": "Sep 10",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2395
+      "latestSinceUpdate": 2396
     },
     {
       "date": "Sep 10",
-      "text": "Multiple U.S. military aircraft damaged in Iranian strikes on military base in Jordan.",
+      "text": "Multiple U.S. military aircraft damaged in Iranian strikes on a military base in Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2395
+      "latestSinceUpdate": 2396
     },
     {
       "date": "Sep 10",
-      "text": "Israel destroys major underground Hezbollah base in southern Lebanon.",
+      "text": "Israel says it has destroyed a major underground Hezbollah base in southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE9mQTJjV1Z2NTVnVGRoeUJxTVBfQ3JkTVdOS1hzYmJseU0wWG1oTGhTdkxsRXh4ejFzTlVrcl96N0ZMemtPa0s3VlhCMGdENjV3cDBPM19vVEJKNlB5?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2395
+      "latestSinceUpdate": 2396
     },
     {
       "date": "Sep 10",
-      "text": "US strikes Iranian tankers in the Middle East.",
+      "text": "Iran-backed Houthis sweep toward control over key Red Sea strait, imperiling global trade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPaG50aHhISFBBM3ZtcUJ1UHllRy12QVZFQ1VCMVRHYUxiYl9iSUlKd0kzNk1MUlNJazh5NUZYTm13V3RySE1jMjlHNFh6SGQ1SllMV3d3ZlR2NVJaMmh1MGdLOTlxSnZUdlZOUXFDVGRJWjc1UEwwUm9wOW93dEx4NFRqNk4zRUZzeUJMWGhPUHNlY3JlR190a3Myakg5cWdJRWdTdTdLMzdmRTNkQkdyQmZGb3dJT01DWkxVUTNMVFo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "nbcnews.com",
+      "latestSinceUpdate": 2396
+    },
+    {
+      "date": "Sep 10",
+      "text": "Hormuz shipping traffic falls to single digits, data shows.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQUXNiYVFqaWhNQW1zamxmTm9HMEtQSFZhUDAzX3pEVzk2NnJleHYwNDFXT1YyeWRUS3ZGOHhIbmRGd0NoNVVIenZhUTVrWnd6VzdFbWs2RnVKTi16Zk94TDkzRU9qcDhuY0UtU293SDAwUVk5Wm40UVpzWEFFZm1JZUxuOE5fUkg1Q2VfeEdOX2hNeEVsRjdCTWZXS1lRdGVsZm1sa2RQUC1GYjNG?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2396
+    },
+    {
+      "date": "Sep 10",
+      "text": "Iran signals readiness to escalate fight in face of rising U.S. pressure.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2395
-    },
-    {
-      "date": "Sep 11",
-      "text": "Houthis take control of Yemen’s entire Red Sea coastline.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2394
+      "latestSinceUpdate": 2396
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
