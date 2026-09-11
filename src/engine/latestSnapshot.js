@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2394,
+  "updateSequence": 2395,
   "lastUpdated": "2026-09-11",
-  "lastSyncedAt": "2026-09-11T10:01:56.541Z",
+  "lastSyncedAt": "2026-09-11T14:17:09.231Z",
   "warDay": 196,
-  "summary": "The Iran war continues with active US-Israeli strikes on Tehran, Iranian retaliation damaging US assets in Jordan, Houthi territorial gains in Yemen, and escalating Israeli conflict with Hezbollah in Lebanon, while the US makes progress in reopening the Strait of Hormuz.",
+  "summary": "The conflict involving Iran, the US, and Israel continues with ongoing strikes, Houthi advances in Yemen, and political statements regarding the war's potential end.",
   "lastNarrativeUpdate": "2026-09-11",
   "ceasefire": {
     "active": false,
@@ -18,26 +18,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.8
       }
     }
   },
@@ -67,50 +67,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2394
     },
     {
-      "date": "Sep 11",
+      "date": "Sep 10",
       "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2394
+      "latestSinceUpdate": 2395
     },
     {
-      "date": "Sep 11",
-      "text": "US strikes Iranian tankers.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPTUgxSWZaOWhTSTVEbEFLYURrY3Rac2FMMll6dk1rTDZFbThMc24yY3FNWHlLcks1dXV6cl9mWEIxdUxGUmx6NlUyek1lWFFISXFpSUxEY2Ixbzg5b3J2ZVZtemN0eTd5bHgxRzNzOG5MMUltajZvSmU3UlNSb3VwMFR2TTlnTFhlNGplRzVld2hBODMyb2p1eFl3TTZ0ZWZOUTNHV0k3UzZVSTBmVWNwNzgtcDdraWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2394
-    },
-    {
-      "date": "Sep 11",
-      "text": "Houthis take control of Yemen’s entire Red Sea coastline.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2394
-    },
-    {
-      "date": "Sep 11",
+      "date": "Sep 10",
       "text": "Multiple U.S. military aircraft damaged in Iranian strikes on military base in Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2394
+      "latestSinceUpdate": 2395
+    },
+    {
+      "date": "Sep 10",
+      "text": "Israel destroys major underground Hezbollah base in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE9mQTJjV1Z2NTVnVGRoeUJxTVBfQ3JkTVdOS1hzYmJseU0wWG1oTGhTdkxsRXh4ejFzTlVrcl96N0ZMemtPa0s3VlhCMGdENjV3cDBPM19vVEJKNlB5?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2395
+    },
+    {
+      "date": "Sep 10",
+      "text": "US strikes Iranian tankers in the Middle East.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2395
     },
     {
       "date": "Sep 11",
-      "text": "U.S.-Iran exchange attacks on ships near Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTFBxSkd5WVlxY0lnWUhpUk4xUVg2Zlc3MmZCR2thM3NBY2FDejdDNXY5SkFNc1Y4UU1kWF9XOVlBZTFCSXRQdE5SSktKMTZaRzlocy1oWFpzREphMV9YQm5kdVVVSVJsVGpyM3VGQTdmZzFsd3c1bzAwS2h5MDbSAYIBQVVfeXFMT0IxQnpEZm94MjZzZWlobXJWWHkwMXJvVFE2bTRXOE9kRGZKSDFiMHVzTloxdFZSUUJwall3SkI2ZVZkU0FpbzRZX2VmMnVYdV9MRE1QY3QwVU5lY2QzV01YN21Jc3JSdEkzcllyS3dFTHBzLXF6R25ZTWdCLW5mN3o0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
+      "text": "Houthis take control of Yemen’s entire Red Sea coastline.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 2394
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
