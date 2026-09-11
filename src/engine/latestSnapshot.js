@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2397,
+  "updateSequence": 2398,
   "lastUpdated": "2026-09-11",
-  "lastSyncedAt": "2026-09-11T20:04:13.278Z",
+  "lastSyncedAt": "2026-09-11T22:29:00.596Z",
   "warDay": 196,
   "summary": "The conflict continues with US-Israeli strikes on Iranian and Hezbollah targets, Iranian retaliation damaging US assets, and Houthi advances threatening key shipping lanes in the Red Sea and Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-11",
@@ -60,22 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 11",
-      "text": "Iran Update, September 10, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQZnZvQmVHSHBzdDFKSjRDRVVNck5vOUVRaUxReE9xVXQzeENxc1BRVmhabXpjQ09aSUZ4RGpyaVEwekpOWjA5VFEwZ0FXT0JMQU1DUG9RWDV6UXBhVDNpT3RNNEJFYVh1VTA2S3lHSDJrVlhSblNUZkpSU3d4aHg0VUhjM1VEaDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2397
-    },
-    {
-      "date": "Sep 11",
-      "text": "Trump says Iran war will end ‘immediately’ after midterms",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNVi1kbjdIVmRlMnpxNDhfOEJSNERJX0gtUDVrRl9oQy1xN1ZPZUpWNU04c0xzcDlhc0Z3bTByRW5IOUM1SmM3NFFjNnY3WjJVYzRSakRRSFd3UGdMbk4zYVczS1hUcTlzWTBQS1BqUGNzRWhkaUZVT09wVlZfWGZraUc1TQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2397
-    },
-    {
-      "date": "Sep 11",
       "text": "Iran Update, September 9, 2026",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQNzNkUFMzeGwwTmU2amMwNkRLRnp2VmVlTTRmdDNjMVp2SlFXUGxickFpT0NEQ0FtaDdBNHlyMEJSaVZpdVVHbnZka3NTaVA2OGlfZzdTenRCRzEzdDVvR1JiX244eUMwbmJoZnY3amFxNGY1OHNPTHJJVmMyc19XVElOVXdZUQ?hl=en-US&gl=US&ceid=US:en",
@@ -84,33 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Sep 11",
-      "text": "Iran Update, September 8, 2026",
+      "text": "Iran war live: Yemen gov’t says bombing ‘kill box’ near Houthi-seized Mocha",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQU2dOdTBGRXVtb1lra0liZUVlcXRKRnlTengtNmR2NE9VNm02aWhHTWlXN185UEpNbUNDb0R0alR6Mlo0SmRtYklic01HN2pKTmpnNlRIZDlDTXhDMUxiTmg3TnpvbG5CQ2VqNWE3dWpwWDBjV08wdW9LdUVmOUpvdjUtdHExQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2397
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2398
+    },
+    {
+      "date": "Sep 11",
+      "text": "Trump, Hegseth push Iran war at Pentagon 9/11 memorial",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQZDBOVzI1M3lnRi03ajktRmpaenhtOHloaklLNFJUU0ljbDRBcGNwVzk0OWExRFVTZDlSa181VXdHdUpDS3RoWDExQ2ptcWVkMTZEeFYwTUR4RnZOS3QtLWFKWjQ3UDQxTlpIWUF6eTRwSGdSdmZEd013b2JfMTBEQWZ2OA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 2398
+    },
+    {
+      "date": "Sep 11",
+      "text": "Amid war and sanctions, many Iranians are losing their jobs and struggling to get by",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE5EUGplTllYUzJCdTI5bTZ3aU9ySkpzV2VLQWFwLXc1VnBaS1JhZW9wVy1OUGIwWDFyWVBacFVfYXZYekVPZ0dXZVNPQS13V2xQVUFORFBlNkdXMG9nMDUyVGlNX1lHYzMxNGxxT2tiLU5KYy13dXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2398
     },
     {
       "date": "Sep 11",
       "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
+      "sourceName": "Amnesty International",
       "latestSinceUpdate": 2397
     },
     {
       "date": "Sep 11",
-      "text": "Trump says war to end \"immediately\" after midterms as Iran damages U.S. jets in strikes",
+      "text": "Why Iran Fears Israel, But Not America",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQUVJuX1liNlV4OVBFUUZrMUQ4QWNZV0R3enp2b0pzN0gwVVVKeW9xUmdKejFueWVCM3Z3RXI2TldvbVYzWXNPRlRNNmFSd3ZxVERxem0wX3R6YjFwcERxa1ZjUDhKbU93RGFPVG5rU3dqUVZkS2dlQU1qcmhsM21HY29Ea1MxdmNDYWVFZThvcGx0M0ZuUUFGdVl4Qmd4QUpaLWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2397
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTFBfSmgxV0FETlJUN0h5U3RIRWk4R3hJbEZaalRLSVZac3hPd3hjcmJnSEtNQ3BId3RCcm50aTk4U2FMTzUxYWhRcGpINGFkQmZmTjctQ2tZSkwzNFJtVUdIaEtPMHRrb2hIczlEeEEtMENTTllPRFFkYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "JINSA",
+      "latestSinceUpdate": 2398
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
