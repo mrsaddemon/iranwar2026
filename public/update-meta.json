@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2391,
-  "lastUpdated": "2026-09-10",
-  "lastSyncedAt": "2026-09-10T23:04:38.952Z",
-  "warDay": 195,
+  "updateSequence": 2392,
+  "lastUpdated": "2026-09-11",
+  "lastSyncedAt": "2026-09-11T00:58:37.560Z",
+  "warDay": 196,
   "ceasefire": {
     "active": true,
     "status": "fragile",
     "confidence": 0.69,
     "durationDays": 10,
-    "summary": "A U.S.-backed ceasefire in southern Lebanon is active but experiencing renewed fighting and significant strain."
+    "summary": "A U.S.-backed ceasefire in southern Lebanon is under severe strain due to renewed fighting and Israeli military actions."
   }
 }
