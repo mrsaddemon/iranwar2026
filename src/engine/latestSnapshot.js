@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2400,
+  "updateSequence": 2401,
   "lastUpdated": "2026-09-12",
-  "lastSyncedAt": "2026-09-12T04:56:21.523Z",
+  "lastSyncedAt": "2026-09-12T09:11:09.962Z",
   "warDay": 197,
-  "summary": "The conflict continues with significant regional attacks, including Houthi control of the Red Sea coast and a Saudi pipeline shutdown, Iranian strikes damaging US aircraft, and Israeli operations against Hezbollah, while oil prices fluctuate amid diplomatic signals.",
+  "summary": "The conflict continues with US-Israeli strikes on Tehran and Hezbollah targets, Iranian retaliation damaging US military aircraft in Jordan, and Saudi oil infrastructure facing new threats amid economic hardship in Iran.",
   "lastNarrativeUpdate": "2026-09-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or truce is reported amidst ongoing hostilities."
+    "summary": "No active ceasefire is in effect, with ongoing military engagements and retaliatory strikes reported."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.3,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "escalationLevel": 80,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
+    "sanctionsPressure": 63,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 12",
-      "text": "Houthis control Red Sea coast, Saudi pipeline shut down.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOdTZTa1RDLUhuSVNvcm83QzVKdFN5WHZFT0hMSWtkVE5vaExLaXpON2tsdFVHTTUydWxXTGcyMkNUTVlwbmtfQmVtdFdYd2xuMHV1VTZtQ3Y2OUIzLTdsaWsxd19XVFZ1RjFvamRSSmI4c0YzY25jR2xOWmNQX0VySlJWMkZrNWZ6WmlYbjJ6c05EUWxrTTAyZFVJUmJxaS11eGFvaTRzVWlxVWlMSGV6RU1yZFl3N2V6alHSAb8BQVVfeXFMTWZBUFBQRV9OOHlHeXp6Y1VNbUdLLWRpRmFiNUFXX1dtRUlNNEZUYW5rUjlwR055VFpnN3FnOVBteThHanFnNGdEbDdQbnhhdVQzWHk3MENpR2hCcUh2WWlkMGFFNm1IVHhPelNJNzhxRTVUQlExUW1iSUtPSktUTGZRbUY4TUxqTnJCQjFSdTZZOGxJaVdOV3lfcS1abzJXX1Q3UTlSdjlDQ1d6VS1OWG5GLThBVGFuLThqYjBtWU0?hl=en-US&gl=US&ceid=US:en",
+      "date": "Sep 11",
+      "text": "Yemen government reports bombing a 'kill box' near Mocha.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2400
+      "latestSinceUpdate": 2401
     },
     {
-      "date": "Sep 12",
-      "text": "Multiple U.S. military aircraft damaged in Iranian strikes on military base in Jordan.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2400
-    },
-    {
-      "date": "Sep 12",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 11",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2400
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2401
     },
     {
-      "date": "Sep 12",
-      "text": "Israel destroys major underground Hezbollah base and razes a hilltop stronghold in South Lebanon.",
+      "date": "Sep 11",
+      "text": "Israel destroys a major underground Hezbollah base and razes a hilltop stronghold in South Lebanon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2400
+      "latestSinceUpdate": 2401
     },
     {
-      "date": "Sep 12",
-      "text": "Oil prices dive on signs of Hormuz diplomacy while Saudi Arabia is left hanging in fight vs. Houthis.",
+      "date": "Sep 11",
+      "text": "Multiple U.S. military aircraft were damaged in Iranian strikes on a military base in Jordan.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2401
+    },
+    {
+      "date": "Sep 11",
+      "text": "Saudi Arabia shuts down a crucial pipeline bypassing Hormuz, with oil exports facing heightened threats.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2401
+    },
+    {
+      "date": "Sep 11",
+      "text": "Oil prices dive on signs of Hormuz diplomacy, despite Saudi Arabia's ongoing struggle against Houthis.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxORWNpWWYtTGpqeFowZmQ3SzJhNDZfVFo4VEdjTXJnYlgxbDl3UXYyVW44dnVka0podXJGU0RjeDVzTEk0YUdGQTlPemlqYXNiYTNzS0tqbUVySzBvYlpHeFJmLXF5emFoQXBldzdwOFRKeVFTVzFJVjRQejIxcW1mS2pHNDJVWVVrREVnVXJpWDRwYVl2eW5ua3huajZsWFdvc0JHLUxNVEFJUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fortune",
-      "latestSinceUpdate": 2400
-    },
-    {
-      "date": "Sep 12",
-      "text": "Amid war and sanctions, many Iranians are losing their jobs and struggling to get by.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE5EUGplTllYUzJCdTI5bTZ3aU9ySkpzV2VLQWFwLXc1VnBaS1JhZW9wVy1OUGIwWDFyWVBacFVfYXZYekVPZ0dXZVNPQS13V2xQVUFORFBlNkdXMG9nMDUyVGlNX1lHYzMxNGxxT2tiLU5KYy13dXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2400
+      "latestSinceUpdate": 2401
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
