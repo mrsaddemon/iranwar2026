@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2402,
+  "updateSequence": 2403,
   "lastUpdated": "2026-09-12",
-  "lastSyncedAt": "2026-09-12T12:53:54.452Z",
+  "lastSyncedAt": "2026-09-12T16:11:10.722Z",
   "warDay": 197,
-  "summary": "Ongoing conflict in the Middle East features direct strikes between Iran and Israel, Iranian attacks damaging US military assets in Jordan, and a significant disruption to Saudi oil exports following pipeline attacks.",
+  "summary": "Active conflict continues between Iran, Israel, and the US, marked by mutual strikes, civilian casualties, and regional spillover, while Saudi oil infrastructure faces threats and diplomatic talks are delayed.",
   "lastNarrativeUpdate": "2026-09-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or truce is currently in effect; regional talks have been postponed."
+    "summary": "No active ceasefire is in effect, with ongoing military engagements and delayed diplomatic talks."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -27,25 +27,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.4,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 50,
+    "escalationLevel": 90,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
     "globalPressure": 84,
     "allianceInfluence": 51
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 11",
-      "text": "Yemen gov’t says bombing ‘kill box’ near Mocha.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2402
-    },
-    {
-      "date": "Sep 11",
-      "text": "Iran Update, September 11, 2026.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2402
-    },
-    {
-      "date": "Sep 12",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2402
-    },
-    {
-      "date": "Sep 12",
-      "text": "Iran launches missile and drone attacks across Gulf as Israel strikes Tehran infrastructure.",
+      "text": "Iran launches missile and drone attacks across the Gulf, while Israel strikes Tehran infrastructure.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "News On AIR",
-      "latestSinceUpdate": 2402
+      "latestSinceUpdate": 2403
     },
     {
-      "date": "Sep 12",
-      "text": "Israel says it has destroyed major underground Hezbollah base.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2402
-    },
-    {
-      "date": "Sep 12",
-      "text": "Saudi Arabia shuts down pipeline that was a crucial Hormuz bypass after attacks.",
+      "date": "Sep 11",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNM0Q2VE5CaE1VUFBTRnZ3Z0txSW1GTU9FRDBHSHlkTWZSbmZ3VS01cHRSUjNmQjA2a3ZLSk5pbnhnTE9ENllxQXNiOVBHOGJqVkJ1aDNUS3JoeXpyQTFGZHpmYVJ1Z3AzdkZzU0FsYUJjSHMxdlNuc3hEdjBDcWRJa0F6T0w?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2402
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2403
+    },
+    {
+      "date": "Sep 11",
+      "text": "Iran damages U.S. jets in strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxQUVJuX1liNlV4OVBFUUZrMUQ4QWNZV0R3enp2b0pzN0gwVVVKeW9xUmdKejFueWVCM3Z3RXI2TldvbVYzWXNPRlRNNmFSd3ZxVERxem0wX3R6YjFwcERxa1ZjUDhKbU93RGFPVG5rU3dqUVZkS2dlQU1qcmhsM21HY29Ea1MxdmNDYWVFZThvcGx0M0ZuUUFGdVl4Qmd4QUpaLWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2403
+    },
+    {
+      "date": "Sep 11",
+      "text": "Israel reports destroying major underground Hezbollah base and another base in Lebanon’s Ali al-Taher ridge.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPQk5ZOVU0SzFyUG9JOWRfekk1ZDIyUW51VVZBNDZpUEhtM0F1RG92TkpwcEUyQlZwbjdIQ2F3bk9sU3BPSmxLQWdyXzVCbW1HekczSFZGMlVtSXgweGhNR1RaVDIzcnNTSno0X20xU1pVU2luUjU0UVRRYTVDcGE0RmJQLUQ1MExzN3A4MzFaaHlTZ1VJVjFkQ0pRMEVJNGp4Q0JrSmZTTm5OMjRRZlRDeNIBtgFBVV95cUxNNk1vOVZ3UjJvazBwbWl4eW8zUnhIV2NtTFBaTTVoQWVsb1dFRFptZTBVNXppamVZVXlsYndmcFRFNC0zTWRDUHdkY21iOERzV1JlMWZ1dnhlNE84eUc2aTVwR3p5c1dMdW8wSGhLaUloVlVXQ1RjdU1FMDhOTDJ2WDBqUVA4OHU4bkxJSjQzM3lrTnYtRzA4bW5ydUowQlpqZ1FhZ3ZFUmpJczJUd2tYZUZDSlNIdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2403
+    },
+    {
+      "date": "Sep 11",
+      "text": "Saudi Arabia shuts down a crucial Hormuz bypass pipeline, with oil exports facing heightened threats after attacks.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2403
+    },
+    {
+      "date": "Sep 11",
+      "text": "Upcoming Israel-Lebanon talks are delayed from next week until October amidst explosions in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOTUtTLWZtTEY1YU1qVnpOMG9MVkFQTlJBakY3eEtzN2xyeFo0Vk83UUJqLXNxdkZ2U3lVNThPWXBxeE15c2d3Ukp0N3g4MUJSMEp4eXZQaVhZOF96a1dCS21LNXVOS056aEwyQmFoNGd3ZmtjYnBhRkhwbWZ0dlYwM29nY2Rza1lUb0xuNmd3UHZaRV9OaDNxM0FrMFZsbVdNSk5JbElGQkhJdUJjXzQ3bUduUXhrMlNRbFHSAb8BQVVfeXFMUEpFYXVjeTByaVlYWW4yYWpwQ1NxNTd3NGttMmhvdFZLd3k5YmFadjh5NlVKT2E5LUtJdUZ6Q2xnT1Y1Y2xEQTRYdzYyTnZDeVhCd0VSa09RSUJETGpIcnpkdFVxblVESXZ2WXR6Q05pejhneFAwdG9rUlB6eGo0czlLZzVIX09iSDVaNVJCU1dxZDNHd2plUzJYVlZmNDg2aElZQTBlZEpjUGdySWtEZzhiSm9neGNoeG1OS3pUdGM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2403
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
