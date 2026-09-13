@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2410,
+  "updateSequence": 2411,
   "lastUpdated": "2026-09-13",
-  "lastSyncedAt": "2026-09-13T14:28:35.459Z",
+  "lastSyncedAt": "2026-09-13T17:35:34.083Z",
   "warDay": 198,
-  "summary": "The Iran war continues with widespread regional attacks, including strikes on US bases, commercial shipping in the Strait of Hormuz, and Israeli operations against Hezbollah in Lebanon.",
+  "summary": "The Iran war continues with reports of US-Israeli strikes causing civilian harm in Tehran, Iranian retaliation damaging US bases, and ongoing conflict around the Strait of Hormuz and southern Lebanon.",
   "lastNarrativeUpdate": "2026-09-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing regional conflict."
+    "summary": "No ceasefire is currently in effect, with active conflict reported across multiple fronts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -28,31 +28,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 68,
-    "globalPressure": 88,
-    "allianceInfluence": 73
+    "nuclearIndex": 65,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 11",
-      "text": "Iran Update, September 11, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2410
-    },
-    {
-      "date": "Sep 13",
-      "text": "Commercial ship attacked in Hormuz, killing 1, wounding 4",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPdjJYYTEtc01jR1hnV3dPbDl1SW9GTlM3cmpZSkM1OFBsNm5pLVpTS3ZwbkdMQXN3YkdkVW5wUDNyUHBKeE01NUFvd3RDYUlMUlM2VGwwbUtodV9uTkhNYzFTR0h4NTdRbklvNUlZbjQ5aDZ1WTZZbzUtQTJ6U3BsaHRHZGVibkdVSkZaQ2NUMDk2Vk5lbHgwZFhjT0JvTjJOSkRjT01EYVNMOVFCbWF6bENSRWU5bjFRN0s3YlRR0gHDAUFVX3lxTE80eEFuVVFCNXR0dWhobEFRNTFGX0ZTQzJVT2NGQlh4djNpR2cySEl0ZHlXdmdNQ2I4Y0xhRDBOLXYzdGt6bkRRNlJCcFJ2X2dkMDg4R1hFeUplLTEwM3dDS2E4RU1GWllqU205OFgtVFJsWDk0OHk4RTdGX0F2MWppZW5vbGxjcTdteFZTZ1VzaVVaTlpWaGYzZE9IQzFfOFFVdUF2TzZUV3ZYSUhmSG9FenEyWkRGMkFtOHFfaUpoOFRUYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2410
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2411
     },
     {
-      "date": "Sep 13",
-      "text": "Iranian commercial ship struck near Strait of Hormuz with 1 dead, Iranian media say",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxOeHNLNlhZX2l0TFEzc3hOOEp1NEFqcWV6dF9IVjdwcm10RmVSbFYxMWxKTi1RNkVVOUd1bE1yeDZCY3kwR3loLUhVbk1MblBBVFJGaUg2TF9sbGpzVEtMeDJ2N2hfSjBNQ0xDRTFtRzNzM2NXTXRHZUZ0RGlLbFAwUHRTM3hGT3p3N0ZCVDExMTM4TW9pOThVQW9Ody1CQ2xHX2h3dGVhY0E3QjZKM0JlLUdTYWJFaGZlazliNXhBbWdMY0M1bE9IM21wajhaN282OHB5NXZzWF_SAd4BQVVfeXFMT2Y5VHJsUlA0U3V5azR4OXByOGp1MVV1dElYN2JjOFlFMnpFTkVYZWg4bFE0Y0pzd2lPRjJxRTB4QVlCeEdpUmhDbXh3dHN3VDlKM2hPX18tNjNBdEpXQUFGRUtUSDh6aWZ4eFRXTEh6bkJpRURhcFdZMi1YeTI3anItdXJzdE9iOFU0eVdFY3d2WWhrNmRNOWY2SEJVZEFyX0MtcC01TjNCYTAyZ2VSRU8yMllJTFlJNlhZdFRCN1B4RlYwYkM0YXBobVhoSVlFVklVMER3WGtKSjJqeGp3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thehill.com",
-      "latestSinceUpdate": 2410
-    },
-    {
-      "date": "Sep 13",
-      "text": "Multiple U.S. military aircraft damaged in Iranian strikes on military base in Jordan",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2410
-    },
-    {
-      "date": "Sep 13",
-      "text": "Iran damaged US bases in Bahrain, Jordan",
+      "date": "Sep 11",
+      "text": "Iran damages US jets in strikes and 'blew the hell out of' US bases in Bahrain and Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQOEIwVE8tUnoyMWlXY0wzSElpTEFLVms2RGQ0Uk5GWTVQLWdfeGJTWENMMDJZb0pUdW4zNjVBdThoal9CMjk5b3E5VHA5V2ZPdS1rVnhOR1NjaDBrOEJuZW5ybllQS0wtWWVsS2Y1THdOaHcwdkZiQ0QxdVZ2eE1ZNWRiLUw0eExYeXJsT2ItMUxfbnJSNUZXNXFFX1lNZGg1Smp5OE9WYmx3aFF20gGyAUFVX3lxTE12V0VzS015YzVxeExJa1AxbGVCVEdGVkhOM1UxUU5Mb19VVjdURlppTW9QVVlITHNwOVVGU3J1blM1ZUYtc0FJTXkzUjFzc3VPWmw1RVFQYW5vRVMtV3hkQmhPRlZKcGxoRnphRUFMeGxRRk5adnhxM1dVYlJtQXZjN2x5OXQ3TDJ3bVlxZC1qSk5hOGVzYmF0UDFmaDJaTE1WSVBUeVhIUmRIdzBTWUxNc2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2410
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2411
     },
     {
-      "date": "Sep 13",
-      "text": "Israel says it has destroyed major underground Hezbollah base and tunnel network in southern Lebanon",
+      "date": "Sep 11",
+      "text": "Iranian ship struck near Strait of Hormuz, killing one.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2411
+    },
+    {
+      "date": "Sep 11",
+      "text": "Israel destroys major underground Hezbollah base and tunnel network in southern Lebanon, causing a 4.1 magnitude tremor.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2410
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPQW9ERVpqTU5STG1EcllOcGFtSnJHM1NOVklDRi1jZ0NRbEJJYVBiTktjZHpVSWZNWk8tVkdkSmpXMjRFMzczR29BdncyelNpYUYxd2dVVE1oUzQ0bl9Id2tlaDJ0WWwzSEtMRk53Rk11QU9kYUktdDR5X1lwUzFVRFNLcm4tRE10c3hBaDY4aTBXVmdtMFQ1eUdrbnVHb04taElPS2ZZQ1dwYUxpUVBMZXo1M1pjMzdxUlBfSzN1TVFqdFptN1NlbHdiS3Q?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 2411
+    },
+    {
+      "date": "Sep 11",
+      "text": "Yemen government reports bombing a 'kill box' near Mocha.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOeHcwZmxmZ3ZyWjNKUHJvWmtKM1ZwR29wRTBmZVVVWHhwZEdiWkZqYUhiOXBVTi1xVjN1NVVOYkxDMlloc1BHQmF6OVYzaEFwSXBETmYzajZLOE04XzZyaWlTdVpHTTM3QjkxbFFhbWdIMHJzZ1dRQThoNGhyMk1EaFdRVEt0S2pvcWMtV09PTGtRMXZCc1RxLU9QZmhTRlU4S25LSzZFbGUxOXFTekZ6LUdrSHVNenBNcjY40gHAAUFVX3lxTE5iMmRacEdXZTZHcGlZWXFHWXZUVFFYd3RfSGpPeFM0MWREN3djMVhYaldsLTBEbDdHa2tQY3VlYXFjRXRjS1V2OVo1VE0yTnNHUnBWTTMxUHlnVmZNZ0pocG5yUEVsUjNRNXNjNXV1UU1wa2RQUFVpNDJBRndiYjU3YVJ6aFI2bWp3aDI5UE9PZ3hiMDYwYy13OElmZzlRY0ZSd1VNSklhTkNpX1RDRmtMbWNlclpkZjNjNUZLWmhObA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2411
+    },
+    {
+      "date": "Sep 11",
+      "text": "Houthis claim attack on a Saudi base as their advance intensifies.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQT2Z0d3l4T0dlTHN0U2ZCTGg5RXZLRHdaN2ZQU2pXM2pvTTFpYzRUYnZQWS0tRVZyc2IyWUFHN0poZzhmZ1IxU01ZSVJJbmh3d3VOTmZXaWQ3c2V3RmVQTmlIdHlCSnpPckZTbGVfM1dHejZaWkdqWHdJRHlrMFJlUmxDZFBFaG5zM3Vtd25QdDdod3phdU9TTU52M0JITEFZZG43NEo0b3pSeXRhV0N1c1ZPT1JvOGM1Wm5GbDBUdWp6NVM2?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "independent.co.uk",
+      "latestSinceUpdate": 2411
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
