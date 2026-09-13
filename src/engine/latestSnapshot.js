@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2413,
+  "updateSequence": 2414,
   "lastUpdated": "2026-09-13",
-  "lastSyncedAt": "2026-09-13T21:45:38.028Z",
+  "lastSyncedAt": "2026-09-13T23:37:21.098Z",
   "warDay": 198,
-  "summary": "The Iran war continues with reports of US-Israeli strikes on Tehran causing civilian harm, Iranian attacks on US bases, and regional tensions escalating around the Strait of Hormuz and southern Lebanon.",
+  "summary": "The Iran war continues with US-Israeli strikes on Tehran, Iranian attacks on US bases, and Israeli operations against Hezbollah, leading to civilian casualties and significant oil market disruptions.",
   "lastNarrativeUpdate": "2026-09-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -33,11 +33,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.85
       }
     }
   },
@@ -48,7 +48,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "tradeImpact": 77,
     "sanctionsPressure": 64,
     "globalPressure": 85,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 11",
+      "text": "General update on the Iran war situation.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2414
+    },
+    {
+      "date": "Sep 13",
       "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2413
+      "latestSinceUpdate": 2414
     },
     {
-      "date": "Sep 12",
-      "text": "Iranian ship attacked near the Strait of Hormuz, according to Iranian state media.",
+      "date": "Sep 13",
+      "text": "U.S. attacks on southern Iran cause civilian deaths and fear among families.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNTTRXQkJYVGtQWlNfRGFWSHNoeWdDamdLTndGRENXclhCendBeTVGYVZlWHVXbWo4YWxwSFJ6VHlQOFlIbHl4Slhha2dOdFBSeF9PQ1Vobi15Y0RQcHdIREdOT2tWTkUtSkFaeW1iejIxa0ZwSzBHREF2aUNBQXgyWm8tQ2NDdDlRTlHSAY8BQVVfeXFMTi1pZUNYX3J5bGIydm1xSFJKbXZpdF9uYTI1X20wcEswcVVYSUNaQ1JKamlMUFIwSTBSRER2QmpxcFIteXdWR3M3TE9iVjRWbFdPaG1QcU43RlVCRVpwa3ZiSmhxM18ybjNZSm9OMWhBaUtQM0dUWXI3NjEwSzlLVEg2VWRiTkVHMS1URGhWMXM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 2413
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNcU1kaDdOZGExX2pHZ0piWTU4YU5pUGlhNTI0eWdoczhTcHIwLVVrSVlVRDhqZXkxTkdFaDVMb09FS2x1MXJlMGpCVzI1Z2E5MXBMLW5rODhzQnotRGdMRG1mRjV6QTNYTXFCTTJWdnB1WEF0R2d2ckNvVFVSN0VzWUZvd2hUeWNsYlJWN01VeGVUTnFRMlpERmZiN3FvOVFjZ0pWYnlzeWRCdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2414
     },
     {
-      "date": "Sep 12",
-      "text": "Israel destroys a major underground Hezbollah base, causing a blast in Southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2413
-    },
-    {
-      "date": "Sep 12",
+      "date": "Sep 13",
       "text": "Iran reportedly damaged US bases in Bahrain and Jordan.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxQOEIwVE8tUnoyMWlXY0wzSElpTEFLVms2RGQ0Uk5GWTVQLWdfeGJTWENMMDJZb0pUdW4zNjVBdThoal9CMjk5b3E5VHA5V2ZPdS1rVnhOR1NjaDBrOEJuZW5ybllQS0wtWWVsS2Y1THdOaHcwdkZiQ0QxdVZ2eE1ZNWRiLUw0eExYeXJsT2ItMUxfbnJSNUZXNXFFX1lNZGg1Smp5OE9WYmx3aFF20gGyAUFVX3lxTE12V0VzS015YzVxeExJa1AxbGVCVEdGVkhOM1UxUU5Mb19VVjdURlppTW9QVVlITHNwOVVGU3J1blM1ZUYtc0FJTXkzUjFzc3VPWmw1RVFQYW5vRVMtV3hkQmhPRlZKcGxoRnphRUFMeGxRRk5adnhxM1dVYlJtQXZjN2x5OXQ3TDJ3bVlxZC1qSk5hOGVzYmF0UDFmaDJaTE1WSVBUeVhIUmRIdzBTWUxNc2c?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2413
+      "latestSinceUpdate": 2414
     },
     {
-      "date": "Sep 12",
-      "text": "Gulf states postpone talks with Iran over an impasse regarding the Strait of Hormuz.",
+      "date": "Sep 13",
+      "text": "Israel destroyed a major underground Hezbollah base in Lebanon's Ali al-Taher ridge.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPS19fUlNXLWZxOF9IVTF0RVpxcDBRSFNvWmRKT2V3Q1hKbTVKLWV3LU9tM2tMMkZleXZMM0Q3OHFmZXhiU0ZKUW9KZHphMlB6WVVkdUNuUE42Wk51dERDZ1VOVFN4NkJKTlMxUno2bUs5OFM5SVd4eVluam95bzhXN2tnb3E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2413
-    },
-    {
-      "date": "Sep 12",
-      "text": "Israel-Lebanon talks postponed following explosions rocking southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPSnFiMnJtSDFDQ29CUm1CdWpmOUlmaDRvMUNoUUJpNmJ4cEdKUk5HQ3hYV1V2SUV4cTEtbjJsbklaeUY5aXNRelF3TGU1OFdORVBSYktxU2hjd1duMkdlOTJFUmx3akNNU0hucDBlMnB2eDlibk1KM0dMWGQxc2ZxYThlNjd3MlZkeHFfcmpydXcxTVRvRUdWcDEtNTlWQXRlamR6TlVsWThUMkHSAbABQVVfeXFMTmZkQnk5anFhVWRPSHZBNlc5eUVkdU1tamRqY3kybno1UGVsQUN0RElVM3NFbkNWWFRXRkRDRGdWank4QmV6bkl3WkN4NTlScUd3anNaTGNIbkpXcUpfckQ3dVNqbEp3Rll6b0JfejhoYlBJRHZqd0RFQTY0YUpmdjBHUDRDbnpoTVFOVHg5b0FNMkdXNENfSm9DbXBXaWFMWWpZWExweURPN0ZlcXRrTmg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPQk5ZOVU0SzFyUG9JOWRfekk1ZDIyUW51VVZBNDZpUEhtM0F1RG92TkpwcEUyQlZwbjdIQ2F3bk9sU3BPSmxLQWdyXzVCbW1HekczSFZGMlVtSXgweGhNR1RaVDIzcnNTSno0X20xU1pVU2luUjU0UVRRYTVDcGE0RmJQLUQ1MExzN3A4MzFaaHlTZ1VJVjFkQ0pRMEVJNGp4Q0JrSmZTTm5OMjRRZlRDeNIBtgFBVV95cUxNNk1vOVZ3UjJvazBwbWl4eW8zUnhIV2NtTFBaTTVoQWVsb1dFRFptZTBVNXppamVZVXlsYndmcFRFNC0zTWRDUHdkY21iOERzV1JlMWZ1dnhlNE84eUc2aTVwR3p5c1dMdW8wSGhLaUloVlVXQ1RjdU1FMDhOTDJ2WDBqUVA4OHU4bkxJSjQzM3lrTnYtRzA4bW5ydUowQlpqZ1FhZ3ZFUmpJczJUd2tYZUZDSlNIdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2413
+      "latestSinceUpdate": 2414
+    },
+    {
+      "date": "Sep 13",
+      "text": "Oil prices rose after Saudi Arabia shut down a critical pipeline bypassing the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2414
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
