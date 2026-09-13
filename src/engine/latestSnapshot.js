@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2406,
-  "lastUpdated": "2026-09-12",
-  "lastSyncedAt": "2026-09-12T22:39:36.835Z",
-  "warDay": 197,
-  "summary": "The conflict between Iran, Israel, and the United States continues with mutual strikes, civilian casualties, and diplomatic efforts for de-escalation, while US assets sustain damage.",
-  "lastNarrativeUpdate": "2026-09-12",
+  "updateSequence": 2407,
+  "lastUpdated": "2026-09-13",
+  "lastSyncedAt": "2026-09-13T00:26:18.583Z",
+  "warDay": 198,
+  "summary": "The region is experiencing intense conflict with US-Israeli strikes on Iran and Hezbollah targets, while Iran retaliates with attacks on US bases and across the Gulf, threatening oil infrastructure.",
+  "lastNarrativeUpdate": "2026-09-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect, with active hostilities ongoing."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 11",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2406
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2407
     },
     {
-      "date": "Sep 11",
-      "text": "Iran launches missile and drone attacks across the Gulf, while Israel strikes Tehran infrastructure.",
+      "date": "Sep 10",
+      "text": "Iran launches missile and drone attacks across Gulf as Israel strikes Tehran infrastructure.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "News On AIR",
-      "latestSinceUpdate": 2406
+      "latestSinceUpdate": 2407
     },
     {
-      "date": "Sep 11",
+      "date": "Sep 10",
       "text": "Multiple U.S. military aircraft damaged in Iranian strikes on military bases in Jordan and Bahrain.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNbHFMdm1iMUYteWtiRFBvb2xqMldYbXhxajFtY213NGx2X0NoNEF0dHJiX3Mwa1Buel9JaXFZWTJ0VkFHOWczbkRiRTRhS3Bjbm5saHJRejRjWnBrQmlGMXZfLTViZm9XTlFaVk4ybUZTaVA2MkRiY1hZTFNjVTlJQldoNWlKNUU0dGhPY1YwZ19jTE1iREVNdGtRaFY2V05iZ3R3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2406
+      "latestSinceUpdate": 2407
     },
     {
-      "date": "Sep 11",
-      "text": "Israel destroys a major underground Hezbollah base and secures a buffer zone in Southern Lebanon.",
+      "date": "Sep 10",
+      "text": "Israel destroys major underground Hezbollah base and tunnel network in southern Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2406
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxPQW9ERVpqTU5STG1EcllOcGFtSnJHM1NOVklDRi1jZ0NRbEJJYVBiTktjZHpVSWZNWk8tVkdkSmpXMjRFMzczR29BdncyelNpYUYxd2dVVE1oUzQ0bl9Id2tlaDJ0WWwzSEtMRk53Rk11QU9kYUktdDR5X1lwUzFVRFNLcm4tRE10c3hBaDY4aTBXVmdtMFQ1eUdrbnVHb04taElPS2ZZQ1dwYUxpUVBMZXo1M1pjMzdxUlBfSzN1TVFqdFptN1NlbHdiS3Q?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 2407
     },
     {
-      "date": "Sep 11",
-      "text": "The U.S. 'limits' air defence protection for tankers in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2406
+      "date": "Sep 10",
+      "text": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMifEFVX3lxTFByYjJ4ZE5yM1dTaDdycGR4bHBPV2U1NG1zWnlJeTQ4d0I2dk5WNTVXWnhXUEhId1JjMy1UYUo0cUZZMzZFUHRYSThQdXdTSndpRFVsaEhreV9nLVQzdjJwa1U0ZHNCLXNkOC1tRzBYajV0bFAwWkQ2ZFZKc0k?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "nytimes.com",
+      "latestSinceUpdate": 2407
     },
     {
-      "date": "Sep 11",
-      "text": "Israel-Lebanon talks are postponed following explosions in southern Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPSnFiMnJtSDFDQ29CUm1CdWpmOUlmaDRvMUNoUUJpNmJ4cEdKUk5HQ3hYV1V2SUV4cTEtbjJsbklaeUY5aXNRelF3TGU1OFdORVBSYktxU2hjd1duMkdlOTJFUmx3akNNU0hucDBlMnB2eDlibk1KM0dMWGQxc2ZxYThlNjd3MlZkeHFfcmpydXcxTVRvRUdWcDEtNTlWQXRlamR6TlVsWThUMkHSAbABQVVfeXFMTmZkQnk5anFhVWRPSHZBNlc5eUVkdU1tamRqY3kybno1UGVsQUN0RElVM3NFbkNWWFRXRkRDRGdWank4QmV6bkl3WkN4NTlScUd3anNaTGNIbkpXcUpfckQ3dVNqbEp3Rll6b0JfejhoYlBJRHZqd0RFQTY0YUpmdjBHUDRDbnpoTVFOVHg5b0FNMkdXNENfSm9DbXBXaWFMWWpZWExweURPN0ZlcXRrTmg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2406
+      "date": "Sep 09",
+      "text": "Iran Update, September 9, 2026.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2407
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Political",
-      "headline": "Trump Predicts Immediate End to Iran War Post-Midterms",
-      "summary": "Former President Trump states that the war with Iran will conclude immediately after the upcoming midterms. This suggests a potential shift in US policy or strategy depending on election outcomes.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 2399
-    },
-    {
-      "perspective": "Iranian Internal",
-      "headline": "Iranians Face Job Losses and Economic Hardship Amid War and Sanctions",
-      "summary": "Reports indicate that many Iranians are struggling with job losses and economic difficulties due to ongoing war and international sanctions. This highlights the internal societal impact of the prolonged conflict.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2399
-    },
-    {
-      "perspective": "Israeli Security",
-      "headline": "Israel Expands Lebanon Operations, Secures Buffer Zone Against Hezbollah",
-      "summary": "Israel has destroyed major Hezbollah strongholds and secured a buffer zone in South Lebanon, signaling an intent to expand military activity. This aims to enhance border security and counter Hezbollah threats.",
+      "perspective": "Iran",
+      "headline": "Escalation Yields Leverage for Iran",
+      "summary": "Iran views escalation as a successful strategy to gain leverage in the ongoing conflict with the U.S., demonstrating its capability to strike U.S. assets and infrastructure across the Gulf. This approach has resulted in damage to U.S. military aircraft and bases.",
       "tone": "defiant",
-      "latestSinceUpdate": 2399
+      "latestSinceUpdate": 2407
     },
     {
-      "perspective": "International Concern",
-      "headline": "Civilian Harm Reported from US-Israeli Strikes on Tehran",
-      "summary": "Investigations are underway into US-Israeli strikes on Tehran neighborhoods, with reports revealing devastating civilian harm. This raises international concerns about the conduct and consequences of military operations.",
+      "perspective": "US/Israel",
+      "headline": "Continued Strikes on Iranian & Hezbollah Targets",
+      "summary": "US and Israeli forces continue to conduct strikes against Iranian and Hezbollah targets, including infrastructure in Tehran and Hezbollah strongholds in Lebanon. Israel reports destroying significant underground bases and tunnel networks, securing buffer zones.",
       "tone": "strained",
-      "latestSinceUpdate": 2399
+      "latestSinceUpdate": 2407
+    },
+    {
+      "perspective": "Political/Regional",
+      "headline": "Trump Predicts War End; Regional Tensions High",
+      "summary": "Statements from former President Trump suggest a political dimension to the conflict's potential end, predicting it will conclude 'immediately' after midterms. Meanwhile, regional actors like Bahrain navigate escalating tensions, declining participation in Iran's proposed Hormuz meeting.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2407
+    },
+    {
+      "perspective": "Humanitarian",
+      "headline": "Civilian Harm Mounts in Iran",
+      "summary": "Civilian populations in southern Iran and Tehran are experiencing significant harm, grief, and fear due to ongoing US-Israeli strikes. Investigations reveal devastating civilian harm in Tehran neighborhoods following these attacks.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2407
     }
   ]
 });
