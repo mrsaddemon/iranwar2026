@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2414,
-  "lastUpdated": "2026-09-13",
-  "lastSyncedAt": "2026-09-13T23:37:21.098Z",
-  "warDay": 198,
+  "updateSequence": 2415,
+  "lastUpdated": "2026-09-14",
+  "lastSyncedAt": "2026-09-14T01:36:35.469Z",
+  "warDay": 199,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No ceasefire is active; diplomatic talks between regional actors have been postponed amidst escalating conflict."
   }
 }
