@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2418,
+  "updateSequence": 2419,
   "lastUpdated": "2026-09-14",
-  "lastSyncedAt": "2026-09-14T19:14:43.348Z",
+  "lastSyncedAt": "2026-09-14T22:32:49.715Z",
   "warDay": 199,
-  "summary": "The Iran-Israel conflict continues with direct strikes on infrastructure, missile attacks across the Gulf, and significant oil market disruptions, while US forces remain on high alert.",
+  "summary": "The Iran war continues with US-Israeli strikes on Tehran causing civilian harm, regional risks widening to include attacks on Saudi energy infrastructure and Israeli operations against Hezbollah in Lebanon, while oil prices remain above $100 due to Strait of Hormuz disruptions.",
   "lastNarrativeUpdate": "2026-09-14",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported; diplomatic attempts have failed."
+    "summary": "No ceasefire is active; the conflict remains ongoing with active military engagements."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 45,
-    "escalationLevel": 88,
-    "oilDisruption": 87,
-    "tradeImpact": 78,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 11",
-      "text": "Iran launches missile and drone attacks across the Gulf as Israel strikes Tehran infrastructure.",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2418
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2419
     },
     {
-      "date": "Sep 11",
-      "text": "Brent crude tops $106 after Saudi Arabia shuts down a critical pipeline that bypasses the Strait of Hormuz.",
-      "severity": "critical",
+      "date": "Recent",
+      "text": "Oil prices rise after Saudi Arabia shuts down a critical pipeline bypassing the Strait of Hormuz, which was subsequently attacked.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2418
+      "latestSinceUpdate": 2419
     },
     {
-      "date": "Sep 11",
-      "text": "Israel destroys a major underground Hezbollah base in Southern Lebanon, with Netanyahu vowing to continue operations.",
-      "severity": "warning",
+      "date": "Recent",
+      "text": "Israel destroys a major underground Hezbollah base in Southern Lebanon amidst ongoing efforts to block encroachment.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2418
+      "latestSinceUpdate": 2419
     },
     {
-      "date": "Sep 11",
-      "text": "A U.S. Air Force officer shot down in Iran recounts his rescue, as the U.S. military remains on high alert.",
+      "date": "Recent",
+      "text": "U.S. military is on high alert as Iran and its allies target energy supply infrastructure.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxOODdQNHB0ZTJpOGFZOTRDcUplRWNJRXpBREdzTWJseW5Za0YyQUQwNDhCeEE3dVBBR25sUk1NdTg1WjVyOEYzUUc1TFpTZlRJaGVSTHluWkRfbUFrMlQ5eG1yTGFNTTBBN3RCOWdvM0hIUnBpdDE5UXJicHU0YVktMks4azUydG1RbXdMVmtCNA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2419
+    },
+    {
+      "date": "Recent",
+      "text": "A U.S. Air Force officer was shot down in Iran and subsequently rescued by nearly 100 troops in enemy territory.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2418
-    },
-    {
-      "date": "Sep 11",
-      "text": "A temporary solution for Hormuz traffic is deferred after an Iran-Arab summit falls through, contributing to high oil futures.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOenJ1TzExUGp6ZTFEWjBxRVlKaHlFbE1CdVZQYVEzdFo2ZlJjQUhoRzluZnBSY3B1bkJfRGxsbTRXZ3FQYzhKSDIxZmt3dGYxUVJKS2lfRllRblRCaDVoRFBBd0s0eUV6U1kwUWhQbHBtRUI5aFFUZjFtTXQ3ZUhib1Bzb3d4U0JTdUp5NWxTaUFtcmZYbTZTcE56T3B3REg0MHl4YmdqRGxOMXFOTERBYmFRX1d5VWFVR3fSAb8BQVVfeXFMTnUxM3MwZVY4bkozaDJrOUU4U3lUbWZYSUJkMlQ4RkM4RzVuZnBMMHE3RHRJN0NXRGJJZzFBM2VrMi1QdU5PcXZKbms0STU1RHVTZVRjcWF6akpKaGt6Q29fWkRVSjh3RzVFdmtBbFpLNUp4bzR0U01FYVRnMWVVblZXbXFId1hzMUdJSEZMR2VMNUl5X20xZzRtUW92a2ZSR3B6amtuenhZemtDazl6dDROQ0NMVGNPekZyai1LYlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2418
+      "latestSinceUpdate": 2419
     }
   ],
   "sourceStatuses": [
