@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2417,
+  "updateSequence": 2418,
   "lastUpdated": "2026-09-14",
-  "lastSyncedAt": "2026-09-14T13:54:34.495Z",
+  "lastSyncedAt": "2026-09-14T19:14:43.348Z",
   "warDay": 199,
-  "summary": "The Iran war continues on Day 199 with US-Israeli strikes causing civilian harm in Tehran, Israel destroying Hezbollah infrastructure in Lebanon, and Iran targeting energy supplies, leading to rising oil prices and stalled diplomatic talks.",
+  "summary": "The Iran-Israel conflict continues with direct strikes on infrastructure, missile attacks across the Gulf, and significant oil market disruptions, while US forces remain on high alert.",
   "lastNarrativeUpdate": "2026-09-14",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are reported; diplomatic attempts have failed."
   },
   "actorOverrides": {
     "usa": {
@@ -18,34 +18,34 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.95
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 45,
+    "escalationLevel": 88,
+    "oilDisruption": 87,
+    "tradeImpact": 78,
     "sanctionsPressure": 64,
     "globalPressure": 85,
     "allianceInfluence": 51
@@ -59,52 +59,44 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 14",
-      "text": "Iran Update, September 11, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2417
+      "date": "Sep 11",
+      "text": "Iran launches missile and drone attacks across the Gulf as Israel strikes Tehran infrastructure.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQYmFtdmtoamYyU2taWm5uSUp0LWxRR3p3bGszYjhPT0tnNmoweWI3eWtjcnlmRzRqTmtJdWRYTU55Ym5zY0xkTVJOdlRSUVduWjVSSGRndlJwSThXSU9qOW50ejUxWTNjRUZPbkpxZHZBd1RoVUV0V2gtSmZycEZTeFlfejZfOEtNbjYxUF9VYnpHTURxZ3E2dkU3Z1FQOUtpZFM2MVdRdnNGc25RajFhdzlnQlZzbVh4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 2418
     },
     {
-      "date": "Sep 14",
-      "text": "The Iran war reveals the limits of BRICS",
+      "date": "Sep 11",
+      "text": "Brent crude tops $106 after Saudi Arabia shuts down a critical pipeline that bypasses the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2418
+    },
+    {
+      "date": "Sep 11",
+      "text": "Israel destroys a major underground Hezbollah base in Southern Lebanon, with Netanyahu vowing to continue operations.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE5oYjE5VldLLW45VXA4WFN4OXdfaHl6QkhDZGpVX05ZcmJXRzZMRlo2V2RoLWxrRVNLM2pPZndFQ01UOFpSQ2lzWHI4STZDS3EyX2MtMWkyMWFlQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2418
+    },
+    {
+      "date": "Sep 11",
+      "text": "A U.S. Air Force officer shot down in Iran recounts his rescue, as the U.S. military remains on high alert.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2418
+    },
+    {
+      "date": "Sep 11",
+      "text": "A temporary solution for Hormuz traffic is deferred after an Iran-Arab summit falls through, contributing to high oil futures.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNX0Q3eEEtNnBfMDlyVTZNZjU0MXRpd0I3X1RzSkl2bFdJWUpIRGxjamN3MDlvQS1nOVpOM2U0YzFSdXNCdkx5MFhQeXlibnV0RlVDNG11emcxMWRXNmFVc2U3ek5EbDV1M25ET0VNd3JRTHlxWXVmbFRRaVN4YUNaOE5BMmp1d9IBiwFBVV95cUxPYV9SWXdINDBrdGMtN1dNcGxfZzFwRFc3ck9pd2kxa1Rqd1QzQXB0V2FJWWdObVd5U0szdzk1aVdscmF1SlVGeUE4QW9PVEFqWnJDcjZSbnpWOV9hRVJUTk5IVEIwcHo4bzM4dXU5c0VMdWxSblpaZTJpNVFYbEVtd0RTSWJQYjhiSE1j?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOenJ1TzExUGp6ZTFEWjBxRVlKaHlFbE1CdVZQYVEzdFo2ZlJjQUhoRzluZnBSY3B1bkJfRGxsbTRXZ3FQYzhKSDIxZmt3dGYxUVJKS2lfRllRblRCaDVoRFBBd0s0eUV6U1kwUWhQbHBtRUI5aFFUZjFtTXQ3ZUhib1Bzb3d4U0JTdUp5NWxTaUFtcmZYbTZTcE56T3B3REg0MHl4YmdqRGxOMXFOTERBYmFRX1d5VWFVR3fSAb8BQVVfeXFMTnUxM3MwZVY4bkozaDJrOUU4U3lUbWZYSUJkMlQ4RkM4RzVuZnBMMHE3RHRJN0NXRGJJZzFBM2VrMi1QdU5PcXZKbms0STU1RHVTZVRjcWF6akpKaGt6Q29fWkRVSjh3RzVFdmtBbFpLNUp4bzR0U01FYVRnMWVVblZXbXFId1hzMUdJSEZMR2VMNUl5X20xZzRtUW92a2ZSR3B6amtuenhZemtDazl6dDROQ0NMVGNPekZyai1LYlE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2417
-    },
-    {
-      "date": "Sep 14",
-      "text": "Trump, Hegseth push Iran war at Pentagon 9/11 memorial",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQZDBOVzI1M3lnRi03ajktRmpaenhtOHloaklLNFJUU0ljbDRBcGNwVzk0OWExRFVTZDlSa181VXdHdUpDS3RoWDExQ2ptcWVkMTZEeFYwTUR4RnZOS3QtLWFKWjQ3UDQxTlpIWUF6eTRwSGdSdmZEd013b2JfMTBEQWZ2OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2417
-    },
-    {
-      "date": "Sep 14",
-      "text": "Iran war latest: Iran was 'probably responsible' for Saudi attack, says Trump",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNZ1lFNWJ0SXB5WWJRMjdPdGhIazVKQXRmZmx4Y3dqaDlXQkxwdVRMVVQ1RkMxekdBNExXZXRyRGxmYW1EX0V4STV3dnFzU002YjJwLVk5YkYzYi0xSVdUb0ZfUk9raVROaFhWSDZ5NXRHX2J4bjN1Z1dMYjJyN3RTR1I0QWxCUk9wNFV0SW1GQlRma3M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2417
-    },
-    {
-      "date": "Sep 14",
-      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2417
-    },
-    {
-      "date": "Sep 14",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1PMVd2dm1YcjNuMUZHNzVkS1I1bC1pM2QzTFlkNEJPMXhWWE9ITHNwMFNpM2NydTUxYkpYeUs2Q3lBTUZpc2V0Zy1XOG1HUjg1ejIyTGViVFotOFYwSWpPUXVIWjhGSWtZLTV5bU5yR1FNSzBLMThIdUdJMFl6RXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2417
+      "latestSinceUpdate": 2418
     }
   ],
   "sourceStatuses": [
