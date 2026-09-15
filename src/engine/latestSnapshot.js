@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2421,
+  "updateSequence": 2422,
   "lastUpdated": "2026-09-15",
-  "lastSyncedAt": "2026-09-15T05:32:46.412Z",
+  "lastSyncedAt": "2026-09-15T10:23:04.582Z",
   "warDay": 200,
-  "summary": "The conflict involving Iran, Israel, and the US is escalating with direct strikes, regional attacks, and significant disruptions to oil infrastructure and supply.",
+  "summary": "The conflict involving Iran, the US, and Israel is escalating with significant regional impacts, including civilian harm, oil supply disruptions, and military strain.",
   "lastNarrativeUpdate": "2026-09-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 15",
-      "text": "Iran Update, September 11, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2421
+      "date": "Sep 11",
+      "text": "The situation in Iran is dangerously escalating, though some sources caution against calling it a war.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2422
     },
     {
-      "date": "Sep 15",
-      "text": "The situation in Iran is dangerously escalating – but whatever you do, don’t call it a war",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQQ29ONy1oT25tVVc3UDQ5M0prLW43WHNoY3pfN194Y2pLaTlLY1ZLaWpLZEs4NFZaWmJlbktfem8ycVBobzVKZzZjNGRlTkhQQS05RzhDUTVyMElFcDZjajJ3b1pTX0xRYzdxb0hfU0ExbzItZHNKMVg0SmNpYjJmZS1GdzA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2421
-    },
-    {
-      "date": "Sep 15",
-      "text": "The Iran war reveals the limits of BRICS",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNX0Q3eEEtNnBfMDlyVTZNZjU0MXRpd0I3X1RzSkl2bFdJWUpIRGxjamN3MDlvQS1nOVpOM2U0YzFSdXNCdkx5MFhQeXlibnV0RlVDNG11emcxMWRXNmFVc2U3ek5EbDV1M25ET0VNd3JRTHlxWXVmbFRRaVN4YUNaOE5BMmp1d9IBiwFBVV95cUxPYV9SWXdINDBrdGMtN1dNcGxfZzFwRFc3ck9pd2kxa1Rqd1QzQXB0V2FJWWdObVd5U0szdzk1aVdscmF1SlVGeUE4QW9PVEFqWnJDcjZSbnpWOV9hRVJUTk5IVEIwcHo4bzM4dXU5c0VMdWxSblpaZTJpNVFYbEVtd0RTSWJQYjhiSE1j?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2421
-    },
-    {
-      "date": "Sep 15",
-      "text": "Amid war and sanctions, many Iranians are losing their jobs and struggling to get by",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE5EUGplTllYUzJCdTI5bTZ3aU9ySkpzV2VLQWFwLXc1VnBaS1JhZW9wVy1OUGIwWDFyWVBacFVfYXZYekVPZ0dXZVNPQS13V2xQVUFORFBlNkdXMG9nMDUyVGlNX1lHYzMxNGxxT2tiLU5KYy13dXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2421
-    },
-    {
-      "date": "Sep 15",
-      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
-      "severity": "info",
+      "date": "Recent",
+      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2421
+      "sourceName": "amnesty.org",
+      "latestSinceUpdate": 2422
     },
     {
-      "date": "Sep 15",
-      "text": "Civilians bear the brunt, with deadly US strikes in Iran and thousands displaced in Yemen",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1SQnE5Ukx0aXNtR18wT2JxeWJfX0xMcjAycktnbDNtamxjSVAya3NGbHYyOEJjVVRqWHdIM1lwc1RZNVVvMWJUVVJUNHF3aFpkdlRjUVducw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "UN News",
-      "latestSinceUpdate": 2421
+      "date": "Recent",
+      "text": "Saudi Arabia shuts down a critical oil pipeline that bypasses the Strait of Hormuz due to damage.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2422
+    },
+    {
+      "date": "Recent",
+      "text": "An oil tanker explodes after colliding with mines in Hormuz, according to Iran's Fars news agency.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE8wS2VtT1dLdl9EV1ZMaWx0UHJ3NzNES2lBVG5hbFJtZi10QkZKTU02QVdqTU14OHZxcGZNSVlNZEs3ZUVxTk1BVzNscDlIajRtclhDUTJGa2hmc1R3MWxYYnNjUEE3eVBrMUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2422
+    },
+    {
+      "date": "Recent",
+      "text": "Israel strikes a Hezbollah base in Lebanon, causing a 4.1-magnitude tremor.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNSUdEMlVkb0diNFYzUXpQTmt0eFk2SzA4U2xFUHQta01XbjduVk93eGhNS2JJa0o4SnI0TkVvSldBeUN5eHF2dVozU2k1VDZERXVWalZaUUY0c1hTaFlsU3hNTVRFR0NHeXNVNDJJMlpqMUc0NVZTV3piSzFWMFltc29kRGJac0I2MTBB0gGQAUFVX3lxTE9jZmZBSG41Vm93bmNVT253VmltVE83dF9DbUp4NmJSRElOUGl6TklPNldMY0hac2dWMHd0Tjg4b2lHT2lIY0xDYTRkQ0NfR0RxZ0xtb0J1b2tLak1tSUNYSnlRRWk2SEx0Ukw2eVV5QXlFbkk3RlZ3VkV1d1AxZEExQTRyV2ZhWFN0QWFPQl8zQg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "upi.com",
+      "latestSinceUpdate": 2422
+    },
+    {
+      "date": "Recent",
+      "text": "Pentagon inspector general reports that the Iran war has caused weapons shortages for the US military.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNNkMxYURTcUFqTURFSG9VdlU1MWZCOHNaRHBwRUY2cGhZbW1LeWJzb2tRakp0S2ZlUFliMmc5WlJ1RFZqWVhsVk9yTXZQc0lvZjNnTkZkLVNzM3N5eHl3OFJmVlFqazFNVlE4SXR0ZGdLX000Y0ZOVUY2UDRfbkd1OGotaU1jZ0tFczhmM3Z6d09ETms?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2422
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
