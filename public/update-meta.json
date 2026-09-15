@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2424,
+  "updateSequence": 2425,
   "lastUpdated": "2026-09-15",
-  "lastSyncedAt": "2026-09-15T19:03:41.424Z",
+  "lastSyncedAt": "2026-09-15T22:06:41.025Z",
   "warDay": 200,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with ongoing hostilities and Iran balking at renewed peace talks."
+    "summary": "No active ceasefire is in effect, though political figures have signaled openness to future talks."
   }
 }

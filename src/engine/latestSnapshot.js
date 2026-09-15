@@ -1,63 +1,71 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2424,
+  "updateSequence": 2425,
   "lastUpdated": "2026-09-15",
-  "lastSyncedAt": "2026-09-15T19:03:41.424Z",
+  "lastSyncedAt": "2026-09-15T22:06:41.025Z",
   "warDay": 200,
-  "summary": "The war between the US, Israel, and Iran continues, marked by significant US military losses, rising costs, civilian casualties in Tehran and Yemen, and Houthi attacks on Saudi pipelines driving oil prices higher, amidst mixed signals regarding peace talks.",
+  "summary": "The war between the US/Israel and Iran continues with significant US military losses, ongoing strikes causing civilian harm, and regional proxy attacks, while discussions of potential talks emerge amidst rising war costs and oil disruptions.",
   "lastNarrativeUpdate": "2026-09-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect, with ongoing hostilities and Iran balking at renewed peace talks."
+    "summary": "No active ceasefire is in effect, though political figures have signaled openness to future talks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 87
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.87
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "nuclearIndex": 15,
+    "escalationLevel": 88,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 68,
+    "globalPressure": 89,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
+    {
+      "date": "Sep 14",
+      "text": "US military losses, including dozens of aircraft and hundreds of buildings, revealed from Iran attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNR0xBM2hYamtNRV83VktFTTV3UXBqdFNHNmN5dHZ5NEdHSE1oZ0JaMHlQaUMzcnBUc0hPM0ozOFJ3MlBUZ1NQY0NBRUxVX1NqazNrUDN1LWRKQkJKWkxsSkhNYk1yc2FCMk5rcVprMDFEb3NCdG4zb1BSVlVodkVTczBDMU5fOEU3VWhzeTMzc1lfV1A3VUs5NUIyRnd5Zy1HN3hYQ2JWWVJtSEROdVY3TVYycktqeXZvSVHSAb8BQVVfeXFMTXZzNzQwLWcxNUd2QWdKbHhjQ2UxaHlTRVFVREpBUWFMVFdRM2NlOVVKVHN2YXhFWi0wTHlZLWpHQmh6aTBWSE5MaEFPeWlRMlpHN3luTmgtSkFVR1dQTk04ZkpIMGItWVpGNjBqbS1CQ192Qi1GcXlqeWczUnd6YUpkejJndUloRlRSVnctbGtTbFVnYnM2WUhlM3ZVbnByOWdnUGhmR0Ffd2RKVVFVSmV2ekxkY2RWc3RJb0U1Nms?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2425
+    },
     {
       "date": "Sep 14",
       "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
@@ -68,43 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Sep 15",
-      "text": "Pentagon reports US military facing munitions shortfalls and aircraft losses, with war costs exceeding $33 billion.",
+      "text": "Pentagon states Iran war costs exceed $33.4 billion, with Trump signaling openness to talks.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2424
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2425
     },
     {
       "date": "Sep 15",
-      "text": "Houthi attacks on Saudi pipelines have sent oil prices higher.",
-      "severity": "warning",
+      "text": "Tanker hit in the Strait of Hormuz.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2424
+      "latestSinceUpdate": 2425
     },
     {
       "date": "Sep 15",
-      "text": "IDF warns Hezbollah is regrouping and studying Israeli activity to mount significant attacks.",
+      "text": "Hezbollah warns of significant attack after regrouping and studying Israeli activity.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTFBCekI0emlxWmFuNG4wZmhwRUZDMEFEcTVwdzJDVVAwcHhNZEt4SUtwaHdJMzNXS2d3UUxoRUlvdGkzRDRXMDhtNWpFQzg5OVBYUVFzenVFeVlsRC1S?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2424
+      "latestSinceUpdate": 2425
     },
     {
       "date": "Sep 15",
-      "text": "Trump signals renewed openness to peace talks, but Iran has balked at the offer.",
-      "severity": "info",
+      "text": "Houthi attacks on Saudi pipelines send oil prices higher.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2424
-    },
-    {
-      "date": "Sep 15",
-      "text": "U.S., Israeli and Arab military chiefs held a secret meeting on Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQYzZVZGtBRi1nRFVZY1Y5WEhWQnFKLWdYYmc4akRHQ1RoRWlmaDRkc0NSLTdxY1BIVl9lSUl6VkNkeUQ5S3Z4ZWRSYTRjV1B0YUp1NEZuNWZYRDRJalQ2MmVMbGVoSmNhMFBBdkRWZmtlbzNIbnVkajRTMmFLblhkdkVHOUVJU0xMODlfRlRMZl9mWkVIb1hlS2ZmRFRoUTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2424
+      "latestSinceUpdate": 2425
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
