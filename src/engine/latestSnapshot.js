@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2422,
+  "updateSequence": 2423,
   "lastUpdated": "2026-09-15",
-  "lastSyncedAt": "2026-09-15T10:23:04.582Z",
+  "lastSyncedAt": "2026-09-15T15:15:48.867Z",
   "warDay": 200,
   "summary": "The conflict involving Iran, the US, and Israel is escalating with significant regional impacts, including civilian harm, oil supply disruptions, and military strain.",
   "lastNarrativeUpdate": "2026-09-15",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 11",
-      "text": "The situation in Iran is dangerously escalating, though some sources caution against calling it a war.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2422
+      "date": "Sep 15",
+      "text": "The Iran war reveals the limits of BRICS",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNX0Q3eEEtNnBfMDlyVTZNZjU0MXRpd0I3X1RzSkl2bFdJWUpIRGxjamN3MDlvQS1nOVpOM2U0YzFSdXNCdkx5MFhQeXlibnV0RlVDNG11emcxMWRXNmFVc2U3ek5EbDV1M25ET0VNd3JRTHlxWXVmbFRRaVN4YUNaOE5BMmp1d9IBiwFBVV95cUxPYV9SWXdINDBrdGMtN1dNcGxfZzFwRFc3ck9pd2kxa1Rqd1QzQXB0V2FJWWdObVd5U0szdzk1aVdscmF1SlVGeUE4QW9PVEFqWnJDcjZSbnpWOV9hRVJUTk5IVEIwcHo4bzM4dXU5c0VMdWxSblpaZTJpNVFYbEVtd0RTSWJQYjhiSE1j?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2423
     },
     {
-      "date": "Recent",
-      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
-      "severity": "critical",
+      "date": "Sep 15",
+      "text": "Brics summit 2026 Delhi: Iran war reshapes ties but exposes divides",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiWkFVX3lxTE91b1g5Z3VhS21qLVlBbER6dGVudjhrdUpiNlBkcHVCQTVxQ1FOdnpPWlpkc1VWSEhZTXpXMERDRWQ2X0FpdnFwWEN0N0lrdy1YamZBeW1LOHVmUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2423
+    },
+    {
+      "date": "Sep 15",
+      "text": "Iran Update, September 11, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNcjM5WThmQkFpQ096RTBXUW9TQkpRUHJNWlBJM0VtUnozVE14cG8xUGQyUUd0SHkxcFV3Qng3YVo1ZVVQeGNuNjgwTEJ4M3puNk4tRk1WT0RmTzZ5Z2kxNVVyamJtZmhld2NUbDhsaXkxWHlSdThMcTFGOFFEd3dMWElxOXkwdW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2423
+    },
+    {
+      "date": "Sep 15",
+      "text": "Trump says Iran war will end ‘immediately’ after midterms",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNVi1kbjdIVmRlMnpxNDhfOEJSNERJX0gtUDVrRl9oQy1xN1ZPZUpWNU04c0xzcDlhc0Z3bTByRW5IOUM1SmM3NFFjNnY3WjJVYzRSakRRSFd3UGdMbk4zYVczS1hUcTlzWTBQS1BqUGNzRWhkaUZVT09wVlZfWGZraUc1TQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 2423
+    },
+    {
+      "date": "Sep 15",
+      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2422
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2423
     },
     {
-      "date": "Recent",
-      "text": "Saudi Arabia shuts down a critical oil pipeline that bypasses the Strait of Hormuz due to damage.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2422
-    },
-    {
-      "date": "Recent",
-      "text": "An oil tanker explodes after colliding with mines in Hormuz, according to Iran's Fars news agency.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE8wS2VtT1dLdl9EV1ZMaWx0UHJ3NzNES2lBVG5hbFJtZi10QkZKTU02QVdqTU14OHZxcGZNSVlNZEs3ZUVxTk1BVzNscDlIajRtclhDUTJGa2hmc1R3MWxYYnNjUEE3eVBrMUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2422
-    },
-    {
-      "date": "Recent",
-      "text": "Israel strikes a Hezbollah base in Lebanon, causing a 4.1-magnitude tremor.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNSUdEMlVkb0diNFYzUXpQTmt0eFk2SzA4U2xFUHQta01XbjduVk93eGhNS2JJa0o4SnI0TkVvSldBeUN5eHF2dVozU2k1VDZERXVWalZaUUY0c1hTaFlsU3hNTVRFR0NHeXNVNDJJMlpqMUc0NVZTV3piSzFWMFltc29kRGJac0I2MTBB0gGQAUFVX3lxTE9jZmZBSG41Vm93bmNVT253VmltVE83dF9DbUp4NmJSRElOUGl6TklPNldMY0hac2dWMHd0Tjg4b2lHT2lIY0xDYTRkQ0NfR0RxZ0xtb0J1b2tLak1tSUNYSnlRRWk2SEx0Ukw2eVV5QXlFbkk3RlZ3VkV1d1AxZEExQTRyV2ZhWFN0QWFPQl8zQg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "upi.com",
-      "latestSinceUpdate": 2422
-    },
-    {
-      "date": "Recent",
-      "text": "Pentagon inspector general reports that the Iran war has caused weapons shortages for the US military.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxNNkMxYURTcUFqTURFSG9VdlU1MWZCOHNaRHBwRUY2cGhZbW1LeWJzb2tRakp0S2ZlUFliMmc5WlJ1RFZqWVhsVk9yTXZQc0lvZjNnTkZkLVNzM3N5eHl3OFJmVlFqazFNVlE4SXR0ZGdLX000Y0ZOVUY2UDRfbkd1OGotaU1jZ0tFczhmM3Z6d09ETms?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2422
+      "date": "Sep 15",
+      "text": "Civilians bear the brunt, with deadly US strikes in Iran and thousands displaced in Yemen",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1SQnE5Ukx0aXNtR18wT2JxeWJfX0xMcjAycktnbDNtamxjSVAya3NGbHYyOEJjVVRqWHdIM1lwc1RZNVVvMWJUVVJUNHF3aFpkdlRjUVducw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "UN News",
+      "latestSinceUpdate": 2423
     }
   ],
   "sourceStatuses": [
