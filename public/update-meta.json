@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2423,
+  "updateSequence": 2424,
   "lastUpdated": "2026-09-15",
-  "lastSyncedAt": "2026-09-15T15:15:48.867Z",
+  "lastSyncedAt": "2026-09-15T19:03:41.424Z",
   "warDay": 200,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is in effect, with ongoing hostilities and Iran balking at renewed peace talks."
   }
 }
