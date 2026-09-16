@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2429,
+  "updateSequence": 2430,
   "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T14:22:57.688Z",
+  "lastSyncedAt": "2026-09-16T18:22:30.997Z",
   "warDay": 201,
-  "summary": "The US-Iran war continues with significant financial and human costs, ongoing military operations, and widening regional risks, while Houthi attacks impact oil prices and Hezbollah regroups.",
+  "summary": "The US House has repeatedly voted to end the Iran war amid reports of high costs and munitions shortfalls, while US-Israeli strikes continue in Iran, Iranian forces retaliate, and regional tensions escalate with pipeline attacks and Hezbollah clashes.",
   "lastNarrativeUpdate": "2026-09-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire or de-escalation is currently in effect, with active conflict and regional threats continuing."
+    "summary": "No ceasefire is currently active; military engagements and regional tensions persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 87
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.88
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
+        "precision": 0.6,
         "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 82,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
+    "nuclearIndex": 60,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
     "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 16",
-      "text": "US House votes for the third time to end the Iran war after $38 billion cost is revealed.",
+      "text": "US House votes for the third time to end the Iran war, citing a $38 billion cost and revealing munitions shortfalls.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2429
+      "latestSinceUpdate": 2430
     },
     {
       "date": "Sep 16",
-      "text": "Pentagon Inspector General reports munitions shortfalls and restocking bottlenecks due to the Iran war.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2429
-    },
-    {
-      "date": "Sep 16",
-      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2429
+      "latestSinceUpdate": 2430
     },
     {
       "date": "Sep 16",
-      "text": "Thousands of civilians displaced in Yemen amid ongoing conflict.",
+      "text": "US Energy Secretary states the East-West pipeline will reopen within days, while Saudi pipeline attacks by Houthis send oil prices higher.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQTmNCMkFYVC11Qlo1UGFLSHVlTkhfYW9DRUo5RlQ2cHRrNFNWXzNnVE1HLVRwTzQtbW5WX3VLc1NHOWJqS0FJdm1ZcjB2WWF6eHkzSXlNWWpzN21SdG5wVi1ZVUtZdnA3RXpjdkhtZE1vWnlMX0E3dDJXS3M4RFJsOHpZcTBhREJzMW1sTA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2430
+    },
+    {
+      "date": "Sep 16",
+      "text": "Iranian strikes damaged hundreds of US military buildings and dozens of aircraft, with a US F-15E airman shot down and subsequently rescued.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2429
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPMXlmQzNrdGJacjYxUHlIQ1JYTjRfczEzR2Q2cjZaejNqNVA4ZlluSGdoMTFNalotejBQQnI2Sm82a2NBSUNBSVF1VU42SUx4X3FoSGU1RDhFcFVxTWRIS0Rsa0RNUng2aTk0dmNCdUxBc2dWQ09NOHJjM0V2OThaUHFVTXZkbUtxYzlEbS0zSS1FM0VHT3VPaUtZUG02MjB3QW9WYTRRd0JWN1lHOExoSW81TC1FajNPb2ZhdUY2SW1UM1BlaFg5bkpyYlF5TnN2bTJpcjNjTVA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Military Times",
+      "latestSinceUpdate": 2430
     },
     {
       "date": "Sep 16",
-      "text": "18 million barrels of oil are surging through the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE95ZG05M1V5Z0h4WW9YbzdLM0xsN3dvODNWaU1MS3lmcE1nS1Zsa1I2cHBQazNsWGVTX3NwNTNKdUxkbVY3S3VZOW1seEJtT0Z0NUIzMm9B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2429
+      "text": "Hezbollah's surrender of Ali Al Taher impacts its legitimacy in Lebanon, as Israel claims a 'Massive Victory' and accuses Lebanon's army chief of Hezbollah ties.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNSkxKWnFvY1R2OUtnX0xEWmhnX3FBQlZNMnFTZEZBUXJOcHlFbVFxVnRLQjhIcTludVdpM0ZCS3oyNEgzUk9OckF0NlJSbUZjdzFxOUE1YV9VcDlxLTZxMXRtMHptUklhZGk0RnBkNlQ0WkxEamFjYWNWTUt1cTVST0RRMmlpajNOMWFlUnJIaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thearabweekly.com",
+      "latestSinceUpdate": 2430
     },
     {
       "date": "Sep 16",
-      "text": "Houthi attacks on Saudi pipelines send oil prices higher.",
+      "text": "Iran issues a talks ultimatum to Trump, while concerns rise over Iran's nuclear red line potentially triggering new US-Israel strikes.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2429
+      "latestSinceUpdate": 2430
     }
   ],
   "sourceStatuses": [
