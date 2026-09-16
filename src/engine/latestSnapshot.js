@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2428,
+  "updateSequence": 2429,
   "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T09:50:23.323Z",
+  "lastSyncedAt": "2026-09-16T14:22:57.688Z",
   "warDay": 201,
-  "summary": "The conflict continues with active US-Israeli strikes causing civilian harm in Iran, drone incidents in the Strait of Hormuz, and Houthi attacks impacting oil prices, while the US military faces reported strain.",
+  "summary": "The US-Iran war continues with significant financial and human costs, ongoing military operations, and widening regional risks, while Houthi attacks impact oil prices and Hezbollah regroups.",
   "lastNarrativeUpdate": "2026-09-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire or de-escalation is currently in effect, with active conflict and regional threats continuing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 87
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.65,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 85,
+    "nuclearIndex": 15,
+    "escalationLevel": 82,
     "oilDisruption": 75,
     "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 16",
-      "text": "Iran war increasing inflation, straining US munitions: congressional report",
+      "text": "US House votes for the third time to end the Iran war after $38 billion cost is revealed.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPQkxVbTZwTHBPc3ZaTFhWcTduWVZ0U2hjQ3hHek8yQkVhazl5dXdCS1p6WGJnb0JnclJlU0d0MkJ4OHJIc3dOWVZIR3dTZWRma2taSGlsVDYzT0xqaElvZ29EMzlYcC15SEYwMXlFMF84TkRMVE84MW16c3JnWVM3WlpHVHZVXzJtVlVUZ1M2enpOQ0NvdXd6RHVWUzdITE1Sc2xQVlF4cWNINFZMMTNYQURnT0rSAboBQVVfeXFMUDBUU2RHREliYVljZjNCU3FVcW1md212MF9hV0xOVGdhYXU5blB3OUlJUFNKSVpQVFBTS0p4am4tUkhvamVERjctZzZfdlJzZFJ5TkZ0LW16SkFKX2NzQURfd3RpUDBEbUptbHpIYUJiNVo1MGRkX1hyTm5VRW1vOEQ3OFc1UDFmdnM3M09EYWdwWFdkWkVhSk1GX2hwMGMzc0dvM3pjd3ZJRzZSREJhZUdmeFRORTFZWXp3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2428
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2429
     },
     {
       "date": "Sep 16",
-      "text": "Iran war has led to munitions shortfall, bottlenecks to restock, Pentagon IG says",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQVmxiNmxsWDdJVFJvWjJFbFhPVFYwYW8ya1NmZlp0OFJSdWlIZkNHRGZDTFpNOTBCRmRPYVFwV3YwS2lkR3M1QzVoVUVNcUlyaEdBc2RUX1Zubm9RM2ZsTXYxdURaVDVuUUxQaUNwNkxDZmY5OFhvQUFwcC1lYWYxRnl3UVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2428
+      "text": "Pentagon Inspector General reports munitions shortfalls and restocking bottlenecks due to the Iran war.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2429
     },
     {
       "date": "Sep 16",
-      "text": "Iran Update, September 14, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOSy1Qa0dsZ1ZpSVZWQmZESWh3R1lveXZjdDZYdU9uMEtWQmM2YjNPcHhsXy1qdVQzREszdzhhcTA5dnVzUGUyQzNtaGFBRFBQcWhPTm5ocUdCTTNKV05pRl9wMktpekVGNndxQkl3dVF6NU5LbGMtdFlhME90VTB5WDRVa2NFUzQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2428
+      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2429
     },
     {
       "date": "Sep 16",
-      "text": "Iran War Has the U.S. Military on the Brink of a “Breakdown”",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5hZGJxbzVFcFQ3NDlneWhNY3MtbE4yMmh3N3oxRGhCS3BvelNOcmRsV1RZRHFQQ3FPQ0hYZTZYTTFsZzdpbFdFZHhOa3NIVEVPZnJCNmc0LVhpaHp4NFhieGlpZTJQWkJkaGVjZWdFTm0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Intercept",
-      "latestSinceUpdate": 2428
+      "text": "Thousands of civilians displaced in Yemen amid ongoing conflict.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2429
     },
     {
       "date": "Sep 16",
-      "text": "Civilians bear the brunt, with deadly US strikes in Iran and thousands displaced in Yemen",
+      "text": "18 million barrels of oil are surging through the Strait of Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1SQnE5Ukx0aXNtR18wT2JxeWJfX0xMcjAycktnbDNtamxjSVAya3NGbHYyOEJjVVRqWHdIM1lwc1RZNVVvMWJUVVJUNHF3aFpkdlRjUVducw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "UN News",
-      "latestSinceUpdate": 2428
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE95ZG05M1V5Z0h4WW9YbzdLM0xsN3dvODNWaU1MS3lmcE1nS1Zsa1I2cHBQazNsWGVTX3NwNTNKdUxkbVY3S3VZOW1seEJtT0Z0NUIzMm9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2429
     },
     {
       "date": "Sep 16",
-      "text": "Iran war: Reuters tracks US‑Israel strikes and widening regional risks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiX0FVX3lxTE11eEoyRk9sV3IzT3lUb0dUUExHeS1xc0JqN1J0REdOZU9HX3NsNkx1TGZFWVQxRTQ1ZlhTOFYxUkdySmZxblVjdERzV21Ja0Nfc1VXX1J0RmZoRXFEUXNn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "eciks.org",
-      "latestSinceUpdate": 2428
+      "text": "Houthi attacks on Saudi pipelines send oil prices higher.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2429
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
