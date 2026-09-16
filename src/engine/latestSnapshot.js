@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2426,
+  "updateSequence": 2427,
   "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T00:13:36.141Z",
+  "lastSyncedAt": "2026-09-16T04:55:50.423Z",
   "warDay": 201,
-  "summary": "The US-Iran war continues with significant military engagements, including US-Israeli strikes causing civilian harm in Iran, Houthi attacks on Saudi pipelines, and ongoing clashes between Israel and Hezbollah, while diplomatic efforts remain stalled.",
+  "summary": "The conflict continues with active US-Israeli strikes causing civilian harm in Iran, drone incidents in the Strait of Hormuz, and Houthi attacks impacting oil prices, while the US military faces reported strain.",
   "lastNarrativeUpdate": "2026-09-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or truce is reported between the warring parties."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 14",
-      "text": "Reports reveal significant US losses, including dozens of aircraft and hundreds of buildings, due to Iran attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNR0xBM2hYamtNRV83VktFTTV3UXBqdFNHNmN5dHZ5NEdHSE1oZ0JaMHlQaUMzcnBUc0hPM0ozOFJ3MlBUZ1NQY0NBRUxVX1NqazNrUDN1LWRKQkJKWkxsSkhNYk1yc2FCMk5rcVprMDFEb3NCdG4zb1BSVlVodkVTczBDMU5fOEU3VWhzeTMzc1lfV1A3VUs5NUIyRnd5Zy1HN3hYQ2JWWVJtSEROdVY3TVYycktqeXZvSVHSAb8BQVVfeXFMTXZzNzQwLWcxNUd2QWdKbHhjQ2UxaHlTRVFVREpBUWFMVFdRM2NlOVVKVHN2YXhFWi0wTHlZLWpHQmh6aTBWSE5MaEFPeWlRMlpHN3luTmgtSkFVR1dQTk04ZkpIMGItWVpGNjBqbS1CQ192Qi1GcXlqeWczUnd6YUpkejJndUloRlRSVnctbGtTbFVnYnM2WUhlM3ZVbnByOWdnUGhmR0Ffd2RKVVFVSmV2ekxkY2RWc3RJb0U1Nms?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2426
+      "text": "US Energy Secretary states East-West pipeline will reopen within days.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQTmNCMkFYVC11Qlo1UGFLSHVlTkhfYW9DRUo5RlQ2cHRrNFNWXzNnVE1HLVRwTzQtbW5WX3VLc1NHOWJqS0FJdm1ZcjB2WWF6eHkzSXlNWWpzN21SdG5wVi1ZVUtZdnA3RXpjdkhtZE1vWnlMX0E3dDJXS3M4RFJsOHpZcTBhREJzMW1sTA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2427
     },
     {
-      "date": "Sep 14",
-      "text": "A report indicates the Iran war is pushing the U.S. Military to the brink of a 'breakdown'.",
+      "date": "Sep 15",
+      "text": "Report indicates US military is on the brink of a 'breakdown' due to the Iran War.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2426
+      "latestSinceUpdate": 2427
     },
     {
-      "date": "Sep 14",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 16",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2426
+      "latestSinceUpdate": 2427
     },
     {
-      "date": "Sep 14",
-      "text": "Deadly US strikes in Iran cause civilian casualties, and thousands are displaced in Yemen.",
+      "date": "Sep 16",
+      "text": "Israel launched a new wave of attacks despite US President reportedly advising against strikes on Iranian natural gas infrastructure.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2426
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZmlqUmJNNFA4cXREUUhqZVJiZzRsR2JYaVc3OFhvQkdYRUstdzFUVUg0aVZDV250TV9XRmFuN2o2NEExaTg0Ml9adzdsdXE1MEVVZzJmaVZwTENRclNaTGphUmdUZmlMOXVSNnBQeEw0T2lSaXFnbWpiTTMtaHgwYk14aXFscW5VNlVDY0hSM1dpOEEzTk5TT0Z5WGRMSGw2bG5DM3gydVkzazVqeWtIMg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "News On AIR",
+      "latestSinceUpdate": 2427
     },
     {
-      "date": "Sep 14",
-      "text": "Iran gives Trump an ultimatum regarding peace talks.",
-      "severity": "warning",
+      "date": "Sep 15",
+      "text": "Iran issues a talks ultimatum to Trump.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2426
+      "latestSinceUpdate": 2427
     },
     {
-      "date": "Sep 14",
-      "text": "Iran balks at Trump's openness to restarting peace talks.",
+      "date": "Sep 15",
+      "text": "US military attacked Iranian boats attempting to seize a Navy drone.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxPLU9NeEhPUkpoNVJPTmg3LTJWZG1leVVWQTBkNHdBMVpWcnkzM09NdE1LQXlTdWpDdGtCTFE0WUQxQUEtV0xuZ1ZzaFEzNkxrdDI5UXhMQm0tZUZmY3JLMkZIa2pCUVQzeHlkMUZZWDhaQVBGYWxZQ1JweDdmS2VWVk9UcnRoUVp0X1lHTVoxV3liaWd4ZHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2426
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE9vLVZubFlnN2hCMlQ0WkFLWHVCTXlwbVpIUjRNNEt3blp2WGFDT1d5THl1QU1yc1diS1RwT29WeEJjMlFlalBpZlRhQmw2VUJhYmhjREVkT0JNTmVmWk91U2FpQUVHSlJrb25fbllGWEdBSFVvVmhERkZjOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2427
     }
   ],
   "sourceStatuses": [
