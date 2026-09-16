@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2427,
+  "updateSequence": 2428,
   "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T04:55:50.423Z",
+  "lastSyncedAt": "2026-09-16T09:50:23.323Z",
   "warDay": 201,
   "summary": "The conflict continues with active US-Israeli strikes causing civilian harm in Iran, drone incidents in the Strait of Hormuz, and Houthi attacks impacting oil prices, while the US military faces reported strain.",
   "lastNarrativeUpdate": "2026-09-16",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 14",
-      "text": "US Energy Secretary states East-West pipeline will reopen within days.",
+      "date": "Sep 16",
+      "text": "Iran war increasing inflation, straining US munitions: congressional report",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQTmNCMkFYVC11Qlo1UGFLSHVlTkhfYW9DRUo5RlQ2cHRrNFNWXzNnVE1HLVRwTzQtbW5WX3VLc1NHOWJqS0FJdm1ZcjB2WWF6eHkzSXlNWWpzN21SdG5wVi1ZVUtZdnA3RXpjdkhtZE1vWnlMX0E3dDJXS3M4RFJsOHpZcTBhREJzMW1sTA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2427
-    },
-    {
-      "date": "Sep 15",
-      "text": "Report indicates US military is on the brink of a 'breakdown' due to the Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2427
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxPQkxVbTZwTHBPc3ZaTFhWcTduWVZ0U2hjQ3hHek8yQkVhazl5dXdCS1p6WGJnb0JnclJlU0d0MkJ4OHJIc3dOWVZIR3dTZWRma2taSGlsVDYzT0xqaElvZ29EMzlYcC15SEYwMXlFMF84TkRMVE84MW16c3JnWVM3WlpHVHZVXzJtVlVUZ1M2enpOQ0NvdXd6RHVWUzdITE1Sc2xQVlF4cWNINFZMMTNYQURnT0rSAboBQVVfeXFMUDBUU2RHREliYVljZjNCU3FVcW1md212MF9hV0xOVGdhYXU5blB3OUlJUFNKSVpQVFBTS0p4am4tUkhvamVERjctZzZfdlJzZFJ5TkZ0LW16SkFKX2NzQURfd3RpUDBEbUptbHpIYUJiNVo1MGRkX1hyTm5VRW1vOEQ3OFc1UDFmdnM3M09EYWdwWFdkWkVhSk1GX2hwMGMzc0dvM3pjd3ZJRzZSREJhZUdmeFRORTFZWXp3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2428
     },
     {
       "date": "Sep 16",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2427
+      "text": "Iran war has led to munitions shortfall, bottlenecks to restock, Pentagon IG says",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQVmxiNmxsWDdJVFJvWjJFbFhPVFYwYW8ya1NmZlp0OFJSdWlIZkNHRGZDTFpNOTBCRmRPYVFwV3YwS2lkR3M1QzVoVUVNcUlyaEdBc2RUX1Zubm9RM2ZsTXYxdURaVDVuUUxQaUNwNkxDZmY5OFhvQUFwcC1lYWYxRnl3UVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 2428
     },
     {
       "date": "Sep 16",
-      "text": "Israel launched a new wave of attacks despite US President reportedly advising against strikes on Iranian natural gas infrastructure.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZmlqUmJNNFA4cXREUUhqZVJiZzRsR2JYaVc3OFhvQkdYRUstdzFUVUg0aVZDV250TV9XRmFuN2o2NEExaTg0Ml9adzdsdXE1MEVVZzJmaVZwTENRclNaTGphUmdUZmlMOXVSNnBQeEw0T2lSaXFnbWpiTTMtaHgwYk14aXFscW5VNlVDY0hSM1dpOEEzTk5TT0Z5WGRMSGw2bG5DM3gydVkzazVqeWtIMg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "News On AIR",
-      "latestSinceUpdate": 2427
-    },
-    {
-      "date": "Sep 15",
-      "text": "Iran issues a talks ultimatum to Trump.",
+      "text": "Iran Update, September 14, 2026",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2427
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOSy1Qa0dsZ1ZpSVZWQmZESWh3R1lveXZjdDZYdU9uMEtWQmM2YjNPcHhsXy1qdVQzREszdzhhcTA5dnVzUGUyQzNtaGFBRFBQcWhPTm5ocUdCTTNKV05pRl9wMktpekVGNndxQkl3dVF6NU5LbGMtdFlhME90VTB5WDRVa2NFUzQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2428
     },
     {
-      "date": "Sep 15",
-      "text": "US military attacked Iranian boats attempting to seize a Navy drone.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE9vLVZubFlnN2hCMlQ0WkFLWHVCTXlwbVpIUjRNNEt3blp2WGFDT1d5THl1QU1yc1diS1RwT29WeEJjMlFlalBpZlRhQmw2VUJhYmhjREVkT0JNTmVmWk91U2FpQUVHSlJrb25fbllGWEdBSFVvVmhERkZjOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2427
+      "date": "Sep 16",
+      "text": "Iran War Has the U.S. Military on the Brink of a “Breakdown”",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5hZGJxbzVFcFQ3NDlneWhNY3MtbE4yMmh3N3oxRGhCS3BvelNOcmRsV1RZRHFQQ3FPQ0hYZTZYTTFsZzdpbFdFZHhOa3NIVEVPZnJCNmc0LVhpaHp4NFhieGlpZTJQWkJkaGVjZWdFTm0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Intercept",
+      "latestSinceUpdate": 2428
+    },
+    {
+      "date": "Sep 16",
+      "text": "Civilians bear the brunt, with deadly US strikes in Iran and thousands displaced in Yemen",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1SQnE5Ukx0aXNtR18wT2JxeWJfX0xMcjAycktnbDNtamxjSVAya3NGbHYyOEJjVVRqWHdIM1lwc1RZNVVvMWJUVVJUNHF3aFpkdlRjUVducw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "UN News",
+      "latestSinceUpdate": 2428
+    },
+    {
+      "date": "Sep 16",
+      "text": "Iran war: Reuters tracks US‑Israel strikes and widening regional risks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiX0FVX3lxTE11eEoyRk9sV3IzT3lUb0dUUExHeS1xc0JqN1J0REdOZU9HX3NsNkx1TGZFWVQxRTQ1ZlhTOFYxUkdySmZxblVjdERzV21Ja0Nfc1VXX1J0RmZoRXFEUXNn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "eciks.org",
+      "latestSinceUpdate": 2428
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
