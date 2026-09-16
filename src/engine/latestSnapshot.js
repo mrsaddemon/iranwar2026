@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2431,
+  "updateSequence": 2432,
   "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T21:37:45.679Z",
+  "lastSyncedAt": "2026-09-16T23:52:58.614Z",
   "warDay": 201,
-  "summary": "The US-Iran conflict continues with ongoing US-Israeli strikes causing civilian harm in Iran, while Iran conducts attacks leading to significant US losses and personnel injuries, amidst growing US domestic pressure to end the war.",
+  "summary": "The conflict between the US and Iran continues, marked by significant US losses from Iranian attacks, calls within the US to end the war, and escalating regional tensions involving Saudi Arabia and Lebanon, while global oil prices face potential disruption.",
   "lastNarrativeUpdate": "2026-09-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect as conflict and attacks continue."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
@@ -24,30 +24,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 72,
-    "escalationLevel": 88,
-    "oilDisruption": 78,
-    "tradeImpact": 72,
+    "nuclearIndex": 55,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 83,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 14",
-      "text": "US House votes to end Iran war for the third time, with 7 Republicans joining in favour, after $38bn cost is revealed.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2431
-    },
-    {
       "date": "Sep 16",
-      "text": "Pentagon IG reports munitions shortfall and bottlenecks to restock due to the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQVmxiNmxsWDdJVFJvWjJFbFhPVFYwYW8ya1NmZlp0OFJSdWlIZkNHRGZDTFpNOTBCRmRPYVFwV3YwS2lkR3M1QzVoVUVNcUlyaEdBc2RUX1Zubm9RM2ZsTXYxdURaVDVuUUxQaUNwNkxDZmY5OFhvQUFwcC1lYWYxRnl3UVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Politico",
-      "latestSinceUpdate": 2431
-    },
-    {
-      "date": "Sep 16",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2431
-    },
-    {
-      "date": "Sep 16",
-      "text": "US personnel injured in an Iranian attack on a boat near Hormuz.",
+      "text": "Reports reveal dozens of US aircraft and hundreds of buildings lost to Iranian attacks.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "maritime-executive.com",
-      "latestSinceUpdate": 2431
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2432
     },
     {
       "date": "Sep 16",
-      "text": "US losses to Iranian attacks revealed, including dozens of aircraft and hundreds of buildings.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNR0xBM2hYamtNRV83VktFTTV3UXBqdFNHNmN5dHZ5NEdHSE1oZ0JaMHlQaUMzcnBUc0hPM0ozOFJ3MlBUZ1NQY0NBRUxVX1NqazNrUDN1LWRKQkJKWkxsSkhNYk1yc2FCMk5rcVprMDFEb3NCdG4zb1BSVlVodkVTczBDMU5fOEU3VWhzeTMzc1lfV1A3VUs5NUIyRnd5Zy1HN3hYQ2JWWVJtSEROdVY3TVYycktqeXZvSVHSAb8BQVVfeXFMTXZzNzQwLWcxNUd2QWdKbHhjQ2UxaHlTRVFVREpBUWFMVFdRM2NlOVVKVHN2YXhFWi0wTHlZLWpHQmh6aTBWSE5MaEFPeWlRMlpHN3luTmgtSkFVR1dQTk04ZkpIMGItWVpGNjBqbS1CQ192Qi1GcXlqeWczUnd6YUpkejJndUloRlRSVnctbGtTbFVnYnM2WUhlM3ZVbnByOWdnUGhmR0Ffd2RKVVFVSmV2ekxkY2RWc3RJb0U1Nms?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2431
-    },
-    {
-      "date": "Sep 16",
-      "text": "Hezbollah's surrender of Ali Al Taher has reportedly cost it legitimacy in Lebanon.",
+      "text": "US House votes for the third time to end the Iran war after $38 billion cost is revealed.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxObE1iZm94T1lIQjU4d2JGSjQtVWdUZ0ZwNUdGMGdlcXdUQVB2M2ZkakhDNnJ0YW1PbVNjdVVUY2l0Uk00SWdRVkV3WjZEN1A3YU5yQkNwTmpwcDQyRUVYMjI5RWtmQV9jMF9GZmRQeTMtNVFRd3c2Ml94WjNUMlZrZTZvTGJFbE95bFViTm44YWdqRXdpd2IzTmFOM2VGbTd1TkZoaVp0eGplRVdsRVRF?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "theguardian.com",
+      "latestSinceUpdate": 2432
+    },
+    {
+      "date": "Sep 16",
+      "text": "Pentagon IG reports munitions shortfall and restocking bottlenecks due to the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQVmxiNmxsWDdJVFJvWjJFbFhPVFYwYW8ya1NmZlp0OFJSdWlIZkNHRGZDTFpNOTBCRmRPYVFwV3YwS2lkR3M1QzVoVUVNcUlyaEdBc2RUX1Zubm9RM2ZsTXYxdURaVDVuUUxQaUNwNkxDZmY5OFhvQUFwcC1lYWYxRnl3UVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "politico.com",
+      "latestSinceUpdate": 2432
+    },
+    {
+      "date": "Sep 16",
+      "text": "Saudi Arabia warns of a 'red line' after a Houthi drone was downed near Makkah.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQV3N5enJjeWZOMHp3d0xqVDd4YXIyWEJ2aDJ4Y0IySFUyTC1MUjFnLTRZRnVRSmZkTFczcjJFRXltSjRmc0pXTXhXTkRQUS1mYWZMaHdhMXp6UWVGMWtBRS1iNzRvb1FJMFNiVkZhbnlRUXVaTjNBdXZWMmlvckFweXZOVnZGZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2431
+      "latestSinceUpdate": 2432
+    },
+    {
+      "date": "Sep 16",
+      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "amnesty.org",
+      "latestSinceUpdate": 2432
+    },
+    {
+      "date": "Sep 16",
+      "text": "Photos show widespread damage at US sites from Iranian attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE8zVk5hSlZtZm14dEo2V2M4bEcyZjRDZzlYVWYtSXJjMFdUVklaZTZJekFXYnFVSFhEam1JLUEyQXJ5R0RudDFXb3d3Ti1DWF9FWXI0dkMwc0ZRMEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2432
     }
   ],
   "sourceStatuses": [
