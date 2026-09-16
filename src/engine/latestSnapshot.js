@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2430,
+  "updateSequence": 2431,
   "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T18:22:30.997Z",
+  "lastSyncedAt": "2026-09-16T21:37:45.679Z",
   "warDay": 201,
-  "summary": "The US House has repeatedly voted to end the Iran war amid reports of high costs and munitions shortfalls, while US-Israeli strikes continue in Iran, Iranian forces retaliate, and regional tensions escalate with pipeline attacks and Hezbollah clashes.",
+  "summary": "The US-Iran conflict continues with ongoing US-Israeli strikes causing civilian harm in Iran, while Iran conducts attacks leading to significant US losses and personnel injuries, amidst growing US domestic pressure to end the war.",
   "lastNarrativeUpdate": "2026-09-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active; military engagements and regional tensions persist."
+    "summary": "No active ceasefire is in effect as conflict and attacks continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.65,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 72,
+    "escalationLevel": 88,
+    "oilDisruption": 78,
+    "tradeImpact": 72,
+    "sanctionsPressure": 64,
+    "globalPressure": 83,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 16",
-      "text": "US House votes for the third time to end the Iran war, citing a $38 billion cost and revealing munitions shortfalls.",
+      "date": "Sep 14",
+      "text": "US House votes to end Iran war for the third time, with 7 Republicans joining in favour, after $38bn cost is revealed.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2430
+      "latestSinceUpdate": 2431
     },
     {
       "date": "Sep 16",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
+      "text": "Pentagon IG reports munitions shortfall and bottlenecks to restock due to the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQVmxiNmxsWDdJVFJvWjJFbFhPVFYwYW8ya1NmZlp0OFJSdWlIZkNHRGZDTFpNOTBCRmRPYVFwV3YwS2lkR3M1QzVoVUVNcUlyaEdBc2RUX1Zubm9RM2ZsTXYxdURaVDVuUUxQaUNwNkxDZmY5OFhvQUFwcC1lYWYxRnl3UVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Politico",
+      "latestSinceUpdate": 2431
+    },
+    {
+      "date": "Sep 16",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2430
+      "latestSinceUpdate": 2431
     },
     {
       "date": "Sep 16",
-      "text": "US Energy Secretary states the East-West pipeline will reopen within days, while Saudi pipeline attacks by Houthis send oil prices higher.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxQTmNCMkFYVC11Qlo1UGFLSHVlTkhfYW9DRUo5RlQ2cHRrNFNWXzNnVE1HLVRwTzQtbW5WX3VLc1NHOWJqS0FJdm1ZcjB2WWF6eHkzSXlNWWpzN21SdG5wVi1ZVUtZdnA3RXpjdkhtZE1vWnlMX0E3dDJXS3M4RFJsOHpZcTBhREJzMW1sTA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2430
-    },
-    {
-      "date": "Sep 16",
-      "text": "Iranian strikes damaged hundreds of US military buildings and dozens of aircraft, with a US F-15E airman shot down and subsequently rescued.",
+      "text": "US personnel injured in an Iranian attack on a boat near Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPMXlmQzNrdGJacjYxUHlIQ1JYTjRfczEzR2Q2cjZaejNqNVA4ZlluSGdoMTFNalotejBQQnI2Sm82a2NBSUNBSVF1VU42SUx4X3FoSGU1RDhFcFVxTWRIS0Rsa0RNUng2aTk0dmNCdUxBc2dWQ09NOHJjM0V2OThaUHFVTXZkbUtxYzlEbS0zSS1FM0VHT3VPaUtZUG02MjB3QW9WYTRRd0JWN1lHOExoSW81TC1FajNPb2ZhdUY2SW1UM1BlaFg5bkpyYlF5TnN2bTJpcjNjTVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military Times",
-      "latestSinceUpdate": 2430
-    },
-    {
-      "date": "Sep 16",
-      "text": "Hezbollah's surrender of Ali Al Taher impacts its legitimacy in Lebanon, as Israel claims a 'Massive Victory' and accuses Lebanon's army chief of Hezbollah ties.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNSkxKWnFvY1R2OUtnX0xEWmhnX3FBQlZNMnFTZEZBUXJOcHlFbVFxVnRLQjhIcTludVdpM0ZCS3oyNEgzUk9OckF0NlJSbUZjdzFxOUE1YV9VcDlxLTZxMXRtMHptUklhZGk0RnBkNlQ0WkxEamFjYWNWTUt1cTVST0RRMmlpajNOMWFlUnJIaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thearabweekly.com",
-      "latestSinceUpdate": 2430
-    },
-    {
-      "date": "Sep 16",
-      "text": "Iran issues a talks ultimatum to Trump, while concerns rise over Iran's nuclear red line potentially triggering new US-Israel strikes.",
-      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2430
+      "sourceName": "maritime-executive.com",
+      "latestSinceUpdate": 2431
+    },
+    {
+      "date": "Sep 16",
+      "text": "US losses to Iranian attacks revealed, including dozens of aircraft and hundreds of buildings.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNR0xBM2hYamtNRV83VktFTTV3UXBqdFNHNmN5dHZ5NEdHSE1oZ0JaMHlQaUMzcnBUc0hPM0ozOFJ3MlBUZ1NQY0NBRUxVX1NqazNrUDN1LWRKQkJKWkxsSkhNYk1yc2FCMk5rcVprMDFEb3NCdG4zb1BSVlVodkVTczBDMU5fOEU3VWhzeTMzc1lfV1A3VUs5NUIyRnd5Zy1HN3hYQ2JWWVJtSEROdVY3TVYycktqeXZvSVHSAb8BQVVfeXFMTXZzNzQwLWcxNUd2QWdKbHhjQ2UxaHlTRVFVREpBUWFMVFdRM2NlOVVKVHN2YXhFWi0wTHlZLWpHQmh6aTBWSE5MaEFPeWlRMlpHN3luTmgtSkFVR1dQTk04ZkpIMGItWVpGNjBqbS1CQ192Qi1GcXlqeWczUnd6YUpkejJndUloRlRSVnctbGtTbFVnYnM2WUhlM3ZVbnByOWdnUGhmR0Ffd2RKVVFVSmV2ekxkY2RWc3RJb0U1Nms?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2431
+    },
+    {
+      "date": "Sep 16",
+      "text": "Hezbollah's surrender of Ali Al Taher has reportedly cost it legitimacy in Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxObE1iZm94T1lIQjU4d2JGSjQtVWdUZ0ZwNUdGMGdlcXdUQVB2M2ZkakhDNnJ0YW1PbVNjdVVUY2l0Uk00SWdRVkV3WjZEN1A3YU5yQkNwTmpwcDQyRUVYMjI5RWtmQV9jMF9GZmRQeTMtNVFRd3c2Ml94WjNUMlZrZTZvTGJFbE95bFViTm44YWdqRXdpd2IzTmFOM2VGbTd1TkZoaVp0eGplRVdsRVRF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "thenationalnews.com",
+      "latestSinceUpdate": 2431
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
