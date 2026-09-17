@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2432,
-  "lastUpdated": "2026-09-16",
-  "lastSyncedAt": "2026-09-16T23:52:58.614Z",
-  "warDay": 201,
-  "summary": "The conflict between the US and Iran continues, marked by significant US losses from Iranian attacks, calls within the US to end the war, and escalating regional tensions involving Saudi Arabia and Lebanon, while global oil prices face potential disruption.",
-  "lastNarrativeUpdate": "2026-09-16",
+  "updateSequence": 2433,
+  "lastUpdated": "2026-09-17",
+  "lastSyncedAt": "2026-09-17T04:42:56.488Z",
+  "warDay": 202,
+  "summary": "The Iran war continues with significant costs and civilian impact, while political figures debate its conclusion and regional actors engage in strikes and attacks affecting oil infrastructure.",
+  "lastNarrativeUpdate": "2026-09-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
@@ -27,7 +27,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -42,7 +42,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 45,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 16",
-      "text": "Reports reveal dozens of US aircraft and hundreds of buildings lost to Iranian attacks.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2432
-    },
-    {
-      "date": "Sep 16",
+      "date": "Sep 17",
       "text": "US House votes for the third time to end the Iran war after $38 billion cost is revealed.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "theguardian.com",
-      "latestSinceUpdate": 2432
-    },
-    {
-      "date": "Sep 16",
-      "text": "Pentagon IG reports munitions shortfall and restocking bottlenecks due to the Iran war.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQVmxiNmxsWDdJVFJvWjJFbFhPVFYwYW8ya1NmZlp0OFJSdWlIZkNHRGZDTFpNOTBCRmRPYVFwV3YwS2lkR3M1QzVoVUVNcUlyaEdBc2RUX1Zubm9RM2ZsTXYxdURaVDVuUUxQaUNwNkxDZmY5OFhvQUFwcC1lYWYxRnl3UVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "politico.com",
-      "latestSinceUpdate": 2432
+      "sourceUrl": "https://news.google.com/articles/1",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2433
     },
     {
-      "date": "Sep 16",
-      "text": "Saudi Arabia warns of a 'red line' after a Houthi drone was downed near Makkah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQV3N5enJjeWZOMHp3d0xqVDd4YXIyWEJ2aDJ4Y0IySFUyTC1MUjFnLTRZRnVRSmZkTFczcjJFRXltSjRmc0pXTXhXTkRQUS1mYWZMaHdhMXp6UWVGMWtBRS1iNzRvb1FJMFNiVkZhbnlRUXVaTjNBdXZWMmlvckFweXZOVnZGZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "thenationalnews.com",
-      "latestSinceUpdate": 2432
-    },
-    {
-      "date": "Sep 16",
-      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "date": "Sep 17",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2432
+      "sourceUrl": "https://news.google.com/articles/2",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2433
     },
     {
-      "date": "Sep 16",
+      "date": "Sep 17",
       "text": "Photos show widespread damage at US sites from Iranian attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE8zVk5hSlZtZm14dEo2V2M4bEcyZjRDZzlYVWYtSXJjMFdUVklaZTZJekFXYnFVSFhEam1JLUEyQXJ5R0RudDFXb3d3Ti1DWF9FWXI0dkMwc0ZRMEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2432
+      "sourceUrl": "https://news.google.com/articles/3",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2433
+    },
+    {
+      "date": "Sep 17",
+      "text": "Houthi attacks on Saudi pipelines send oil prices higher.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/4",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2433
+    },
+    {
+      "date": "Sep 17",
+      "text": "Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/5",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2433
+    },
+    {
+      "date": "Sep 17",
+      "text": "Pentagon Inspector General details U.S. losses and challenges in the Iran War, including munitions shortfalls.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/6",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2433
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "Israel Claims Victory, US Counters Iranian Aggression",
-      "summary": "Israel reports significant military gains against Hezbollah, including destroying a key base, while the US military confirms destroying Iranian boats attempting to seize a drone. The IDF warns of further Hezbollah attacks, indicating ongoing vigilance.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2426
+      "perspective": "US Political",
+      "headline": "US Political Divide on Iran War's Future",
+      "summary": "President Trump suggests the war is nearing its conclusion with direct talks, while the US House of Representatives has voted repeatedly to end the conflict, citing significant financial costs.",
+      "tone": "strained",
+      "latestSinceUpdate": 2433
     },
     {
-      "perspective": "Iran/Allies",
-      "headline": "US Military Strained as Iran Rejects Talks Amid Civilian Harm",
-      "summary": "Reports highlight significant US losses to Iranian attacks and the strain on the US military, with claims of a potential 'breakdown'. Iran rejects Trump's peace talk overtures and issues an ultimatum, while US-Israeli strikes are reported to cause devastating civilian harm in Tehran.",
+      "perspective": "Iran's Stance",
+      "headline": "Iran Issues Ultimatum Amid Blockade Challenges",
+      "summary": "Iran has issued an ultimatum for talks with President Trump, while simultaneously facing difficulties in its attempts to bypass the Strait of Hormuz blockade.",
       "tone": "defiant",
-      "latestSinceUpdate": 2426
+      "latestSinceUpdate": 2433
     },
     {
-      "perspective": "Global Impact",
-      "headline": "War's Economic and Geopolitical Ripple Effects Grow",
-      "summary": "The ongoing conflict is causing supply-chain bottlenecks for the Pentagon and driving up oil prices due to Houthi attacks on Saudi pipelines. The war also reveals the limitations of international blocs like BRICS in resolving the crisis.",
+      "perspective": "Regional Conflict",
+      "headline": "Escalating Regional Violence and Civilian Impact",
+      "summary": "US-Israeli strikes in Tehran have caused significant civilian harm, while Houthi attacks on Saudi pipelines have driven up oil prices, and Israel claims a major victory against Hezbollah.",
       "tone": "anxious",
-      "latestSinceUpdate": 2426
+      "latestSinceUpdate": 2433
+    },
+    {
+      "perspective": "Military Challenges",
+      "headline": "Pentagon IG Reports Munitions Shortfalls and US Losses",
+      "summary": "The Pentagon Inspector General has detailed significant munitions shortfalls, restocking bottlenecks, and U.S. losses, indicating challenges in sustaining the ongoing Iran war effort.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2433
     }
   ]
 });
