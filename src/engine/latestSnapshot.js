@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2436,
+  "updateSequence": 2437,
   "lastUpdated": "2026-09-17",
-  "lastSyncedAt": "2026-09-17T18:29:09.091Z",
+  "lastSyncedAt": "2026-09-17T21:40:13.649Z",
   "warDay": 202,
-  "summary": "The Iran war continues with US-Israeli strikes causing civilian harm and war crime allegations, while Trump suggests the conflict is nearing its end amidst Iranian attacks on US positions and a weakening Hezbollah.",
+  "summary": "The Iran war continues with reports of significant US losses and alleged war crimes, while diplomatic efforts emerge alongside regional oil disruptions and shifts in Hezbollah's standing.",
   "lastNarrativeUpdate": "2026-09-17",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "Despite Trump's comments about the war nearing its end and Iran's talks ultimatum, no active ceasefire or de-escalation agreement is in place."
+    "summary": "No active ceasefire is reported, despite diplomatic discussions about ending the conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
+      },
+      "behavior": {
+        "precision": 0.4,
+        "aggression": 0.6
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.4,
         "aggression": 0.7
       }
     },
-    "israel": {
+    "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
         "aggression": 0.8
       }
-    },
-    "iran": {
-      "metrics": {
-        "militaryPower": 60
-      },
-      "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
-      }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 16",
-      "text": "Trump states the war is 'toward the end' and claims to have spoken with Tehran.",
+      "text": "Trump claims the war is 'toward the end' and states he spoke with Tehran.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNa3QzUGUxYjdPU1JjbDBHUkY1UWFISWxIZ2YxeVk1N29WOG1ZdkszZEswZHdtempBRFNXSGJFcDBJZUpsUjZQTEtaTFMyZHp5Wm5oOTdfY24yS1E2YWpvejNhc1JXUDlNbUhBQXQzVUlVMGdIZmpiX0VqeXZaZUF1ek5fWVZsZFBSeGNkeWZ2VmllN05icFNaZWhmU0dkaUxqV2ZMZHBnMGo0eFJaZnQ4UlZac9IBuAFBVV95cUxNOVBwZkNVQjRaYlhQUUk2UGJ1MFM4QU9nQy1xSmVycTJPbnJkakFBQlN2MG9paXFYVU5pUzVzOEdYZ3ZCWUxvWjEtUWxEZHYwOGJ3RlFrUE42U2pBTFBHLVh3VzZLejVLcm1tUE84aklZdEdkS0x2VTg1ZEJRYUxfRS11bVJ4Q1h2Y0FGYmhKNmpwRlhnN2E5WjUwd0RkTUhINi01Qk1KTUtRLThPeFdKU3ljVDFTd2M1?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2436
+      "latestSinceUpdate": 2437
     },
     {
-      "date": "Sep 17",
-      "text": "US House votes for the third time to end the Iran war after $38 billion cost is revealed.",
+      "date": "Sep 16",
+      "text": "US House votes for a third time to end the Iran war after its $38 billion cost is revealed.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2436
+      "latestSinceUpdate": 2437
     },
     {
-      "date": "Sep 17",
-      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "date": "Sep 16",
+      "text": "Budget watchdog predicts the Iran war will cause a spike in US inflation.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQbFhVdk9rSEtrNUhndk1raGdBZGo4eVY4bXRmZHlJTlNaellKZnhSRWEwTDhQb29VM0ltUzhISWw1SDNkQ09iT3NLSVNIUHlKM0pLSzNxb21ZM3Nudy1BcUNiZHU2eWxTT1hrMC1IcXhEZnpZUUVZdHVpbXJyQWg5NQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cnn.com",
+      "latestSinceUpdate": 2437
+    },
+    {
+      "date": "Sep 16",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2436
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2437
     },
     {
-      "date": "Sep 17",
-      "text": "UN-backed experts and a UN mission cite possible US war crimes in Iran strikes, including a school strike killing over 150.",
+      "date": "Sep 16",
+      "text": "UN-backed experts cite possible US war crimes in Iran strikes, including a school attack that killed over 150.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxONWJnM3E0ZzBoQklQRkxjSnJNRFV1dGtBRHBUQUVjeXBSdmlUVDl4dEpUa2FvZXNYWXdFOXdiWDZVTjZVWlkxYThveFVyS2pEdDZLTWZIZXVmc0FBU1pESXVHMnM0SW1JSVIzQmxOUnYzMWY0YmlNSk1jZERqaFJXZUlueHp0T2ZLM0Fnemd2SWU1Q2RtNTgyemdNUTB0RGZnNjM3UFNn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CTPost",
-      "latestSinceUpdate": 2436
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxOMTVCY0xhQTRwRGNad2EzWElCbzU5TW1HT0pnclZfZF9wckYycUM5S2tmdmdnMThWX3lidkg4OEJMOUhvVEkxTWgwV0Z5cVk2UDZUUHU1S2pKUFQ1eVdhNW1aRkVvVnE1SEdxX2RiR0dlVUMzMHdlU1RnYWxlTE50d2lOalVaNEZmdmEzWnlucDk3LVBPMjhiRm5neWlUMy1NSVItQnFn0gGrAUFVX3lxTE9jTWlld21HRFJKNGp3OTZNOVNCVFFVSUkyZmRvaVJmUXJVcWZZbVMzRXIzWHFvZmNfNGhyci1FYjZXZ254N2ZDU3dadV9BTTQzY0d3ZVIyTlZWRzBDUFFfRzA0Ny1HU3hMR090a3ZpVHJ1OVZVbEMzWkxQYnI0MmU2aVVqLURfeEcwRjE2endOTTNGc3duOTg0MC1ILTRISUwwQ295V0QtVmJadw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WOWK 13 News",
+      "latestSinceUpdate": 2437
     },
     {
-      "date": "Sep 17",
-      "text": "Iran gives Trump a talks ultimatum amidst ongoing conflict.",
-      "severity": "warning",
+      "date": "Sep 16",
+      "text": "Iran issues an ultimatum to Trump regarding talks.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2436
-    },
-    {
-      "date": "Sep 17",
-      "text": "Hezbollah's surrender of Ali Al Taher and loss of 'Hezbollah Heights' triggers political infighting in Tehran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxQLUp0M2cyZVNhLUFRQXB4cFZDbUd6aE13d09mVW5OajU2UDF0NktHQ2VJclFkSFV5bjVpMm9VV3N0Q2JmLW5xTnpvUkRyMVpYamw0RzNVTkgwcWF4SVNsdWllal95VmdvNTRBaFhtOTRqbGxTSjFobXItRHBIWktlV2Q3VFZqN3RGRjd1WW1XUTZ1Nkx4aEpKRXVjbGt0b05WZ0xkR3ZPY3MyRGJYdV9QZ3R0MWk2WnNjUDRUd2IyYWNRX2N1QndsYm5Hd9IB3gFBVV95cUxOd2o2OEJqTUVfVUNxSWItU1g0ZHh3MENLSGVOZjRheHhsNFA3NEdCSlVlZWU2SHNxN21hQkZJWFBjOEdwUE5jMzh3RXdjUXdtWTA3SENXUkQ4cFlGMWtEWmxwbjFOSXVWbkVNVksxWklqTUticjdyTXdDRmg0aDZmQVp2ZTA0eE4zSG5CaUVWLWhEZ1Q4Rlg4NTNnQUNHdUpCVXdSOFc5ZVFxY01PTDJpTXJta0pCdEd1eUdJX1BKVkZ2dUlvOENPY2RTV3h4a1VqdU0zR0ZWVTZXcWJ1cmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Gulf News",
-      "latestSinceUpdate": 2436
+      "latestSinceUpdate": 2437
     }
   ],
   "sourceStatuses": [

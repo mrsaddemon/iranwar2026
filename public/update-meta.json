@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2436,
+  "updateSequence": 2437,
   "lastUpdated": "2026-09-17",
-  "lastSyncedAt": "2026-09-17T18:29:09.091Z",
+  "lastSyncedAt": "2026-09-17T21:40:13.649Z",
   "warDay": 202,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "Despite Trump's comments about the war nearing its end and Iran's talks ultimatum, no active ceasefire or de-escalation agreement is in place."
+    "summary": "No active ceasefire is reported, despite diplomatic discussions about ending the conflict."
   }
 }
