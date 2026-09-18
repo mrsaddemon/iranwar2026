@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2444,
+  "updateSequence": 2445,
   "lastUpdated": "2026-09-18",
-  "lastSyncedAt": "2026-09-18T21:10:34.629Z",
+  "lastSyncedAt": "2026-09-18T23:20:57.253Z",
   "warDay": 203,
-  "summary": "The Iran war continues with reports of significant U.S. losses and costs, while two ships were attacked in the Strait of Hormuz and President Trump considers escalated military action.",
+  "summary": "The US-Iran war continues with reports of significant US losses, undisclosed troop deaths, and potential war crimes, while President Trump considers escalating strikes amidst attacks in the Strait of Hormuz and regional shifts in power dynamics.",
   "lastNarrativeUpdate": "2026-09-18",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are reported."
+    "summary": "No active ceasefire is reported amidst ongoing combat and threats of escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.45,
+        "precision": 0.3,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.75
+        "precision": 0.4,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,15 +37,15 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 88,
-    "oilDisruption": 90,
-    "tradeImpact": 81,
+    "nuclearIndex": 20,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
     "globalPressure": 85,
     "allianceInfluence": 51
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 17",
-      "text": "Reports indicate the U.S. is losing the Iran war by nearly every metric, with combat ongoing in Yemen.",
+      "text": "Reports indicate the U.S. is losing the Iran war, with troop deaths exceeding Pentagon's public count by at least four.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "washingtonpost.com",
-      "latestSinceUpdate": 2444
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2445
     },
     {
       "date": "Sep 17",
-      "text": "President Trump is reportedly mulling Tehran’s ‘annihilation’ and weighs a return to large-scale Iran strikes.",
+      "text": "President Trump mulls Tehran’s ‘annihilation’ and weighs return to large-scale Iran strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNN3BOLWNqMUJEYnA0WTZ5cDA2VUhJOEt6VFNIeGZmRXM3YWlicWdkTVhKWmg0blR5LTJvcUVyQjF3VHdBTHJlV1Z2MlhSUXNjLTQ4cXZ1cTdaNGRyTjlaSGlmNUNMOXYwWGo0ZFhZNXlienZhdUZVQXVVb2djdUFycVZhTzQxLVl3alR4UlJ2cnFfd3JJTTdoOEtLa0hJOW4wN3dIb0V1MzMtWVdUc0M00gG0AUFVX3lxTE0zR05GTUxWb0QxYlNLRDk2a3o1VDhHWXd1LXJwZnRKU0tVZm1Sa3o2Rko5NnN4aEdSeXd1TDlRdDNSU0VxTjVYZDZZblVVRXhHU2hQdFpRbU1FQWJLUnBsQjctMVZ1TzhmRDRVQnhENmdadDVTXzF6QnYzY2hTNTdQRC1xQU0wRkNyaGVnMnZpZjVXN3ZSR2Z3bkdnTjJ0TnBuR2Y3NEl1b2gyQnQ2Tkw2T1BUbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2444
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQVHB3aXFTV0ljVmRIR19sOXZVMDlhS0dIUmEwekRvNWVRUWlBU1B4TFA1VWpsT3h3em1FUGlsQnllSFhpWXBWbEFKX2N0VTRMQTdvV1FqMWR4RWN0WUQ3QkhvczRYaGE3MENaMk5QLWFqZ0JoQVZZSU5jaGJjRjhVc1lfdUc0V0E1RUZGX0cxZDBaT0lxX0pVb2tDaGprX2NHTXllcmlYQnpWbDVZXzBZYjFCa1piemxQUUJ6V1JMcHfSAcYBQVVfeXFMTWlGUFhlT3NpcFFfOXpjMWY4TTVIcHB5ekZDWDUxVFdkbWQtY1FXajJndkN0YXhBcTRXV0RqZWlJdk5Ia3NKQURZNlBjamJEMUxQVjJfVGpEc1hMOU1hWjZiTlJ2ckVycDM1RDFET1dha0x5VmpoM2JmSF83UTdKRkdzb2psTnBWeTNjNTR2V0VMcEk4a3dCY2cxUGZZdTcyTDNBZ0xFWnZxTFNJV0s4Z1k1X3NCR3pkc2VyS2xKWFJBTVVyTFZB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2445
     },
     {
       "date": "Sep 17",
-      "text": "The U.S. House of Representatives voted for the third time to end the Iran war after its cost grew to $43.6 billion.",
+      "text": "U.N. Report says U.S. May Have Committed War Crimes in Iran; investigation reveals devastating civilian harm from US-Israeli strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPRElSQ0J1MVh1ck0tb3dwbUZrZFdNVmVfRE1xYl85LXAzM0xhRFZvbHNDLXo2bHhITTkxUjJOaU9xV2JlOTBqalFVWFZBejdtanJJT19FdjR1bTc1R2U3REh1c291X3hhSG85QmFKRHg4WVJTWmplUVdabkM3TnE4UTVfdW5aUXRVcy14Tl9rS0w5ZXNxRXY0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Time Magazine",
+      "latestSinceUpdate": 2445
+    },
+    {
+      "date": "Sep 17",
+      "text": "Two ships attacked in Strait of Hormuz; Iran claims it struck an oil tanker.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNeWdlRjU5QTRNU0tfUUpTVW1iYUNBQ3hWejBlMVBaWTFEbFh1MkVtM1QzamhsY240NFQ3aW1vTUdMb0JaVUk2QWY1WE9SZWNqLUpzWVI4OFpyWlN1b0pXTW5vZzNEc3ZqZV9wdVowMGpzeHJub1ZFTWtoZGRyRklIbnR2d19mOVhhWG5GdkxTdTB1bktBRHFMSlVGbEZ5Mk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2445
+    },
+    {
+      "date": "Sep 17",
+      "text": "Hezbollah's surrender of Ali Al Taher costs legitimacy, while Houthis are described as Iran's 'new Hezbollah'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "theguardian.com",
-      "latestSinceUpdate": 2444
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOanpVaUp2aVVCemtwSVBXc0tzMXZWTjhDZEgtSjZSMzhRNDZLYk9ZUWdqdTFSdGlodWhnWkxHTklNMmtxUXB1WnM4VU9oMjgxSi03aThXMk5jeDJlUWpxdzNOb1ZWN25ZMXhRSE5Id1FoeVZFWU4zZlg1c1VWb3FZWFJSS1gzT3NaODk3Vkd30gGOAUFVX3lxTE1qazJNcTcwcU0wakpPWGs0alpVTlpTYks1OEdpTDJrY3dEdm42VWo0cGFWSzQxWmpqUGk2TmVJaE1hRDdjRlhyeGQ1NTdjVU03RkhnTUZKWXNURVBZQ0VUajV1ams3WTBfdzNPM2VqQ3BKQzV4TDdzVEhFLVpBWkhkTk0tNzhnclVYemdSb0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "dw.com",
+      "latestSinceUpdate": 2445
     },
     {
       "date": "Sep 17",
-      "text": "A U.N. report suggests the U.S. may have committed war crimes in Iran, with investigations revealing devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2443
-    },
-    {
-      "date": "Sep 17",
-      "text": "Two ships were attacked in the Strait of Hormuz, with Iran claiming responsibility for striking one oil tanker.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2444
-    },
-    {
-      "date": "Sep 17",
-      "text": "Pentagon Inspector General details U.S. losses and challenges in the Iran War, including more undisclosed troop deaths.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2444
+      "text": "The cost of the Iran war for the U.S. grows to $43.6 billion in new military estimates.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQNXpyRk1ReGdrMWoxM2N3S3NxSWlwRnpZNHBsbDVoLXY1NTNpNkVOMW0zZDE0XzJfUHZkRU5scVlWUVRTVHVpYkpVMThyYjdZMDBVQkt1VWpMMGI4RnRIX0g2dVVIZExXLTJhZGlDTUt3MHFrSDlkYU55TWotNHl0MzB2RUtiX3hTZTRCZzQzd2NKOG1zem9UeDBwaG85Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "dallasnews.com",
+      "latestSinceUpdate": 2445
     }
   ],
   "sourceStatuses": [
