@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2440,
+  "updateSequence": 2441,
   "lastUpdated": "2026-09-18",
-  "lastSyncedAt": "2026-09-18T06:35:36.899Z",
+  "lastSyncedAt": "2026-09-18T11:45:17.779Z",
   "warDay": 203,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire or de-escalation efforts are reported; the conflict remains ongoing."
   }
 }
