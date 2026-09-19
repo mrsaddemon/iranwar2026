@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2446,
+  "updateSequence": 2447,
   "lastUpdated": "2026-09-19",
-  "lastSyncedAt": "2026-09-19T01:17:39.880Z",
+  "lastSyncedAt": "2026-09-19T05:58:13.719Z",
   "warDay": 204,
-  "summary": "The US-Iran war continues with reports of US setbacks, increasing US casualties, and potential war crimes, while regional tensions escalate with attacks in the Strait of Hormuz and threats of further US military action.",
+  "summary": "The US-Iran conflict continues with reports of increased US troop casualties, discussions of potential large-scale US strikes, and Iranian claims of striking an oil tanker, while regional proxies remain active.",
   "lastNarrativeUpdate": "2026-09-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
-    "durationDays": 10,
-    "summary": "No ceasefire is active; conflict and escalation continue."
+    "durationDays": 1,
+    "summary": "No ceasefire is currently active; conflict and escalation threats persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sept 17",
-      "text": "Reports indicate the U.S. is losing the Iran war by nearly every metric.",
+      "date": "Sep 19",
+      "text": "Reports indicate more U.S. troops have died in the Iran war than publicly disclosed by the Pentagon.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2446
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "washingtonpost.com",
+      "latestSinceUpdate": 2447
     },
     {
-      "date": "Recent",
-      "text": "US troop deaths during the Iran war exceed the Pentagon's public count by at least four, according to reports.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2446
-    },
-    {
-      "date": "Recent",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm; a U.N. report suggests the U.S. may have committed war crimes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2446
-    },
-    {
-      "date": "Recent",
-      "text": "President Trump weighs a return to large-scale Iran strikes, stating he has a 'big decision coming up' and threatening to 'annihilate' the regime.",
+      "date": "Sep 19",
+      "text": "President Trump weighs a return to large-scale strikes against Iran, stating 'I have a big decision coming up'.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNN3BOLWNqMUJEYnA0WTZ5cDA2VUhJOEt6VFNIeGZmRXM3YWlicWdkTVhKWmg0blR5LTJvcUVyQjF3VHdBTHJlV1Z2MlhSUXNjLTQ4cXZ1cTdaNGRyTjlaSGlmNUNMOXYwWGo0ZFhZNXlienZhdUZVQXVVb2djdUFycVZhTzQxLVl3alR4UlJ2cnFfd3JJTTdoOEtLa0hJOW4wN3dIb0V1MzMtWVdUc0M00gG0AUFVX3lxTE0zR05GTUxWb0QxYlNLRDk2a3o1VDhHWXd1LXJwZnRKU0tVZm1Sa3o2Rko5NnN4aEdSeXd1TDlRdDNSU0VxTjVYZDZZblVVRXhHU2hQdFpRbU1FQWJLUnBsQjctMVZ1TzhmRDRVQnhENmdadDVTXzF6QnYzY2hTNTdQRC1xQU0wRkNyaGVnMnZpZjVXN3ZSR2Z3bkdnTjJ0TnBuR2Y3NEl1b2gyQnQ2Tkw2T1BUbw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2446
+      "latestSinceUpdate": 2447
     },
     {
-      "date": "Recent",
-      "text": "Two ships were attacked in the Strait of Hormuz, with Iran claiming it struck an oil tanker.",
+      "date": "Sep 19",
+      "text": "Iran claims to have struck an oil tanker in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNeWdlRjU5QTRNU0tfUUpTVW1iYUNBQ3hWejBlMVBaWTFEbFh1MkVtM1QzamhsY240NFQ3aW1vTUdMb0JaVUk2QWY1WE9SZWNqLUpzWVI4OFpyWlN1b0pXTW5vZzNEc3ZqZV9wdVowMGpzeHJub1ZFTWtoZGRyRklIbnR2d19mOVhhWG5GdkxTdTB1bktBRHFMSlVGbEZ5Mk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2446
+      "latestSinceUpdate": 2447
     },
     {
-      "date": "Recent",
-      "text": "Iranian strikes damaged hundreds of US military buildings and dozens of aircraft.",
+      "date": "Sep 19",
+      "text": "A U.N. report suggests the U.S. may have committed war crimes in Iran, prompting an investigation into US-Israeli strikes on Tehran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPMXlmQzNrdGJacjYxUHlIQ1JYTjRfczEzR2Q2cjZaejNqNVA4ZlluSGdoMTFNalotejBQQnI2Sm82a2NBSUNBSVF1VU42SUx4X3FoSGU1RDhFcFVxTWRIS0Rsa0RNUng2aTk0dmNCdUxBc2dWQ09NOHJjM0V2OThaUHFVTXZkbUtxYzlEbS0zSS1FM0VHT3VPaUtZUG02MjB3QW9WYTRRd0JWN1lHOExoSW81TC1FajNPb2ZhdUY2SW1UM1BlaFg5bkpyYlF5TnN2bTJpcjNjTVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military Times",
-      "latestSinceUpdate": 2446
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2447
+    },
+    {
+      "date": "Sep 19",
+      "text": "President Trump extends sanctions on Iran and Houthi supporters in Sanaa.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNS0tMRnMtZVNISzhaMjNjZmJTbjBacUhkQS1yLURFSzY4bEJ0SXk5a3ItWjRNV09qXzZZa0Y2cklJMG5nVTZNZ0pNbDdGRnhSSzJSenF6MVBYTG9BZlhMemdnQVdqVUc3U29kdGRQN3l5R1BfTnpFRDBDTUNPOXVmLWduYklpWEkxZVZ3cFFnQlVWbFpja1FhMWl1UDZpRHZsZmZ5anRFenJlc0g3dTdVd000bWVCbVdfalBpRDlna9IBxAFBVV95cUxQMVJTWmQ5YVJYRE5vUERTYk8tR1Z0bWxWTWRVdnF5Y3g5Qy1IdjVOVHBzZ3lLdm9zZWhDRC1GOWNKcHBWQVZEa3JraXI0T0h0YjB4eHNIR3NwMGlfSnNBRHhuaXVhdjJGaVpmbVNSX1FaWVBoSk9NekE1VkZ4SUlnRGJzZ3JYeDRVdTFzemp4N2U4WWU0QmJVRU9aNVZMVGhBOGRONmlkN1FIRU9zUHgzcUQwamhSNmJhaEl6WFRVMlJaRUFF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2447
+    },
+    {
+      "date": "Sep 19",
+      "text": "Thousands march for Houthis in Sanaa as fighting continues.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxONndDQ09UalE3Z0xiVExKRExDa2w5Z0Z5VVpNMTZkSlpxTU50MTVfTm1DenZwdGlPSnlqZlRLWXJjc2daZFc5Y255MGxnSmRiQzFDcFhfODVuVzl6Y0J5V2tWZzFVVHBjNUUydU96VkN4SlIwYWJKRFo5THJNYVBuc2w1REpIS2p6NUZsRHo0aktHV3I1NVZnc2NrUV9CZ1FxZ1pfUXBJS2E5NTVrTlVieU01eHNHbk82TlHSAb8BQVVfeXFMTm44UEh3eklJNENHWTVwRFFtQXRLYkYzMGlnMjl3TXF0N2p2RGVWTVNCVEVRREZDY2JDY3BxS1NSc2NVU1RURmplb00xLXpwWXFfUk5YTEtTeEduTVJ1bWdkQmhtY0dkVlU3UkotbWhxLWt6V2JISlNlQkExWkZiQlJUdUxlUGxCM2pEWXVfNHVnNVRJUDhWeWZiTk1INWd6X1lhS2lCTlEwazFXMmRDejVyME5rdG5jV2NFbFhOeEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2447
     }
   ],
   "sourceStatuses": [
