@@ -1,48 +1,48 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2450,
+  "updateSequence": 2451,
   "lastUpdated": "2026-09-19",
-  "lastSyncedAt": "2026-09-19T17:10:21.338Z",
+  "lastSyncedAt": "2026-09-19T19:21:18.709Z",
   "warDay": 204,
-  "summary": "The Iran war continues with reports of undisclosed US troop deaths, US-Israeli strikes causing civilian harm in Tehran, and former President Trump weighing a return to large-scale strikes, while oil traffic in the Strait of Hormuz shows mixed signals of disruption and escort operations.",
+  "summary": "The Iran war continues with reports of increased U.S. casualties, accusations of war crimes, and ongoing diplomatic and military maneuvers involving the U.S., Iran, and regional proxies.",
   "lastNarrativeUpdate": "2026-09-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is currently active; active conflict and military operations continue."
+    "summary": "No active ceasefire is in effect, with ongoing conflict and diplomatic ultimatums."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 65,
     "escalationLevel": 80,
     "oilDisruption": 75,
     "tradeImpact": 68,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 18",
-      "text": "Reports indicate more U.S. troops have died in the Iran war than publicly disclosed by the Pentagon.",
+      "text": "Reports indicate U.S. troop deaths in the Iran war exceed Pentagon's public count by at least four.",
       "severity": "warning",
-      "sourceUrl": "https://www.washingtonpost.com/...",
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Washington Post",
-      "latestSinceUpdate": 2450
+      "latestSinceUpdate": 2451
     },
     {
-      "date": "Sep 19",
-      "text": "Investigations reveal devastating civilian harm from US-Israeli strikes on Tehran neighborhoods, with a UN report suggesting potential U.S. war crimes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.un.org/...",
-      "sourceName": "U.N. Report",
-      "latestSinceUpdate": 2450
+      "date": "Sep 18",
+      "text": "Iran communicates conditions for ending the war to the U.S. via Qatar.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNS0tMRnMtZVNISzhaMjNjZmJTbjBacUhkQS1yLURFSzY4bEJ0SXk5a3ItWjRNV09qXzZZa0Y2cklJMG5nVTZNZ0pNbDdGRnhSSzJSenF6MVBYTG9BZlhMemdnQVdqVUc3U29kdGRQN3l5R1BfTnpFRDBDTUNPOXVmLWduYklpWEkxZVZ3cFFnQlVWbFpja1FhMWl1UDZpRHZsZmZ5anRFenJlc0g3dTdVd000bWVCbVdfalBpRDlna9IBxAFBVV95cUxQMVJTWmQ5YVJYRE5vUERTYk8tR1Z0bWxWTWRVdnF5Y3g5Qy1IdjVOVHBzZ3lLdm9zZWhDRC1GOWNKcHBWQVZEa3JraXI0T0h0YjB4eHNIR3NwMGlfSnNBRHhuaXVhdjJGaVpmbVNSX1FaWVBoSk9NekE1VkZ4SUlnRGJzZ3JYeDRVdTFzemp4N2U4WWU0QmJVRU9aNVZMVGhBOGRONmlkN1FIRU9zUHgzcUQwamhSNmJhaEl6WFRVMlJaRUFF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2451
     },
     {
-      "date": "Sep 19",
-      "text": "Former President Trump is reportedly weighing a return to large-scale strikes against Iran.",
+      "date": "Sep 18",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods, with a UN report suggesting potential war crimes.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2451
+    },
+    {
+      "date": "Sep 18",
+      "text": "President Trump considers returning to large-scale strikes against Iran and issues an ultimatum for talks.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2450
+      "latestSinceUpdate": 2451
     },
     {
-      "date": "Sep 19",
-      "text": "The U.S. military touts escorting 1 billion barrels of oil out of the Strait of Hormuz, amidst reports of fluctuating traffic and LNG vessels reappearing.",
+      "date": "Sep 18",
+      "text": "U.S. military reports escorting 1 billion barrels of oil out of the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2450
+      "latestSinceUpdate": 2451
     },
     {
-      "date": "Sep 19",
-      "text": "Israel accuses Lebanon army chief of Hezbollah ties as talks stall, following analysis that bombing Hezbollah strongholds could open a diplomatic door.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxNSkxKWnFvY1R2OUtnX0xEWmhnX3FBQlZNMnFTZEZBUXJOcHlFbVFxVnRLQjhIcTludVdpM0ZCS3oyNEgzUk9OckF0NlJSbUZjdzFxOUE1YV9VcDlxLTZxMXRtMHptUklhZGk0RnBkNlQ0WkxEamFjYWNWTUt1cTVST0RRMmlpajNOMWFlUnJIaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Arab Weekly",
-      "latestSinceUpdate": 2450
+      "date": "Sep 18",
+      "text": "Thousands march in Sanaa for Houthis as fighting continues, highlighting their growing power.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxONndDQ09UalE3Z0xiVExKRExDa2w5Z0Z5VVpNMTZkSlpxTU50MTVfTm1DenZwdGlPSnlqZlRLWXJjc2daZFc5Y255MGxnSmRiQzFDcFhfODVuVzl6Y0J5V2tWZzFVVHBjNUUydU96VkN4SlIwYWJKRFo5THJNYVBuc2w1REpIS2p6NUZsRHo0aktHV3I1NVZnc2NrUV9CZ1FxZ1pfUXBJS2E5NTVrTlVieU01eHNHbk82TlHSAb8BQVVfeXFMTm44UEh3eklJNENHWTVwRFFtQXRLYkYzMGlnMjl3TXF0N2p2RGVWTVNCVEVRREZDY2JDY3BxS1NSc2NVU1RURmplb00xLXpwWXFfUk5YTEtTeEduTVJ1bWdkQmhtY0dkVlU3UkotbWhxLWt6V2JISlNlQkExWkZiQlJUdUxlUGxCM2pEWXVfNHVnNVRJUDhWeWZiTk1INWd6X1lhS2lCTlEwazFXMmRDejVyME5rdG5jV2NFbFhOeEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aljazeera.com",
+      "latestSinceUpdate": 2451
     }
   ],
   "sourceStatuses": [
@@ -114,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
