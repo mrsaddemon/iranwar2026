@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2448,
+  "updateSequence": 2449,
   "lastUpdated": "2026-09-19",
-  "lastSyncedAt": "2026-09-19T10:47:59.252Z",
+  "lastSyncedAt": "2026-09-19T14:00:17.042Z",
   "warDay": 204,
   "summary": "The US-Iran war continues on day 204 with reports of undisclosed US casualties, civilian harm from US-Israeli strikes in Tehran, and multiple ship attacks in the Strait of Hormuz, while diplomatic efforts are ongoing and President Trump considers further large-scale strikes.",
   "lastNarrativeUpdate": "2026-09-19",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire is reported, though efforts to return to the Islamabad MoU are ongoing amidst continued conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 17",
-      "text": "Reports indicate more U.S. troops have died in the Iran war than publicly disclosed by the Pentagon.",
-      "severity": "warning",
+      "date": "Sep 19",
+      "text": "More U.S. troops have died amid Iran war than Pentagon has disclosed publicly",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2448
+      "latestSinceUpdate": 2449
     },
     {
-      "date": "Sep 17",
-      "text": "Tehran states efforts are ongoing to return to the Islamabad MoU amidst the war.",
+      "date": "Sep 19",
+      "text": "By nearly every metric, the U.S. is losing the Iran war",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2449
+    },
+    {
+      "date": "Sep 19",
+      "text": "Iran war live: Tehran says efforts ongoing to return to Islamabad MoU",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNS0tMRnMtZVNISzhaMjNjZmJTbjBacUhkQS1yLURFSzY4bEJ0SXk5a3ItWjRNV09qXzZZa0Y2cklJMG5nVTZNZ0pNbDdGRnhSSzJSenF6MVBYTG9BZlhMemdnQVdqVUc3U29kdGRQN3l5R1BfTnpFRDBDTUNPOXVmLWduYklpWEkxZVZ3cFFnQlVWbFpja1FhMWl1UDZpRHZsZmZ5anRFenJlc0g3dTdVd000bWVCbVdfalBpRDlna9IBxAFBVV95cUxQMVJTWmQ5YVJYRE5vUERTYk8tR1Z0bWxWTWRVdnF5Y3g5Qy1IdjVOVHBzZ3lLdm9zZWhDRC1GOWNKcHBWQVZEa3JraXI0T0h0YjB4eHNIR3NwMGlfSnNBRHhuaXVhdjJGaVpmbVNSX1FaWVBoSk9NekE1VkZ4SUlnRGJzZ3JYeDRVdTFzemp4N2U4WWU0QmJVRU9aNVZMVGhBOGRONmlkN1FIRU9zUHgzcUQwamhSNmJhaEl6WFRVMlJaRUFF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2448
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2449
     },
     {
-      "date": "Sep 17",
-      "text": "Hundreds of thousands of Iranians rallied in a significant show of defiance since the war began.",
+      "date": "Sep 19",
+      "text": "Iran Update, September 18, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNRHdVQllzQjYzdHFvOWZ4MHpyYnZfd0xuVDNyUko4cUpSTU9qeWlhVXhwWHJiWmlUblVCRUg3S21SNk9iSmJjZlRncDRRMm9Eamd1QlRnZ0JZWmpVRi1nei1vdlpPRGhBdU1SLTN1Q3dYMHp1Rjc0VDduNExjOVFWMXVQdFVaYlRoVjBuWjhQc0xiZUQ5YmRyNUtvTC1sVU1MX2pFeGFWMUJMeDNlUmxJa1ZiOXByTDdPWktQNlhtb9IBxAFBVV95cUxNSVkzdDNORVplRGh6bXRiNW1qdDVGTklrdGZFWVNKVlg3TXQyeTY1aEFwNmdpZFVpN2JOTnRTTGtza3hoZDRfMFpJU0ZfYU1ZMUtZNEpSdGdUX3dhb2RSaFRpUHo3OWg5Wi1lMGR3VmFHRFhSVWxnQk5LdE9XRUVFTkJrUEFkQjk0ck4tQXJRM19sb0Q0WThHSHdQSW9oUUo2b3NfTGp3ZFZvbmdrZzVlSFhuYTBmRUdHbjN0VWFXRXkwRDlV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 2448
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQMHZTUm5LQTliUnR6YXpoNzE5b2NWMDc4VVpRS1c5QXk5QmRBZ3pBTXJpX1lYSUhTbG1vdUFnLVp0NjYwUGdQUF9VMlU1UGhZMDBxbnJMZXFsWVNqMkQ4c0pJbGVTZXhibXlkVGY0UkpNZG80ZzVBMDZhVFZjYmluZDRCWVpTRHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "understandingwar.org",
+      "latestSinceUpdate": 2449
     },
     {
-      "date": "Sep 17",
-      "text": "An investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
-      "severity": "critical",
+      "date": "Sep 19",
+      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2448
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2449
     },
     {
-      "date": "Sep 17",
-      "text": "A U.N. report suggests the U.S. may have committed war crimes in Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2448
-    },
-    {
-      "date": "Sep 17",
-      "text": "President Trump weighs a return to large-scale Iran strikes, stating a 'big decision coming up'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNN3BOLWNqMUJEYnA0WTZ5cDA2VUhJOEt6VFNIeGZmRXM3YWlicWdkTVhKWmg0blR5LTJvcUVyQjF3VHdBTHJlV1Z2MlhSUXNjLTQ4cXZ1cTdaNGRyTjlaSGlmNUNMOXYwWGo0ZFhZNXlienZhdUZVQXVVb2djdUFycVZhTzQxLVl3alR4UlJ2cnFfd3JJTTdoOEtLa0hJOW4wN3dIb0V1MzMtWVdUc0M00gG0AUFVX3lxTE0zR05GTUxWb0QxYlNLRDk2a3o1VDhHWXd1LXJwZnRKU0tVZm1Sa3o2Rko5NnN4aEdSeXd1TDlRdDNSU0VxTjVYZDZZblVVRXhHU2hQdFpRbU1FQWJLUnBsQjctMVZ1TzhmRDRVQnhENmdadDVTXzF6QnYzY2hTNTdQRC1xQU0wRkNyaGVnMnZpZjVXN3ZSR2Z3bkdnTjJ0TnBuR2Y3NEl1b2gyQnQ2Tkw2T1BUbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2448
+      "date": "Sep 19",
+      "text": "What’s Going On In Iran?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE54QU1vWXpFSHdpSG5WR3JkZ1lyMGFvRjVEeExRNFdTSjM3WFQyUG5Gd0o5d2tnMmE4ck4yb1RVZzFTZ2tJZHFZbTFjZFNhclBUcC1hYlI4R3B6dUN5eVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "War on the Rocks",
+      "latestSinceUpdate": 2449
     }
   ],
   "sourceStatuses": [

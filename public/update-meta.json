@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2448,
+  "updateSequence": 2449,
   "lastUpdated": "2026-09-19",
-  "lastSyncedAt": "2026-09-19T10:47:59.252Z",
+  "lastSyncedAt": "2026-09-19T14:00:17.042Z",
   "warDay": 204,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire is reported, though efforts to return to the Islamabad MoU are ongoing amidst continued conflict."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
