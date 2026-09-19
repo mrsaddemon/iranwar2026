@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2445,
-  "lastUpdated": "2026-09-18",
-  "lastSyncedAt": "2026-09-18T23:20:57.253Z",
-  "warDay": 203,
-  "summary": "The US-Iran war continues with reports of significant US losses, undisclosed troop deaths, and potential war crimes, while President Trump considers escalating strikes amidst attacks in the Strait of Hormuz and regional shifts in power dynamics.",
-  "lastNarrativeUpdate": "2026-09-18",
+  "updateSequence": 2446,
+  "lastUpdated": "2026-09-19",
+  "lastSyncedAt": "2026-09-19T01:17:39.880Z",
+  "warDay": 204,
+  "summary": "The US-Iran war continues with reports of US setbacks, increasing US casualties, and potential war crimes, while regional tensions escalate with attacks in the Strait of Hormuz and threats of further US military action.",
+  "lastNarrativeUpdate": "2026-09-19",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing combat and threats of escalation."
+    "summary": "No ceasefire is active; conflict and escalation continue."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 65
-      },
-      "behavior": {
-        "precision": 0.3,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 80
       },
       "behavior": {
         "precision": 0.4,
+        "aggression": 0.9
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.5,
         "aggression": 0.7
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
+    "nuclearIndex": 10,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 17",
-      "text": "Reports indicate the U.S. is losing the Iran war, with troop deaths exceeding Pentagon's public count by at least four.",
+      "date": "Sept 17",
+      "text": "Reports indicate the U.S. is losing the Iran war by nearly every metric.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2446
+    },
+    {
+      "date": "Recent",
+      "text": "US troop deaths during the Iran war exceed the Pentagon's public count by at least four, according to reports.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2445
+      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2446
     },
     {
-      "date": "Sep 17",
-      "text": "President Trump mulls Tehran’s ‘annihilation’ and weighs return to large-scale Iran strikes.",
+      "date": "Recent",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm; a U.N. report suggests the U.S. may have committed war crimes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQVHB3aXFTV0ljVmRIR19sOXZVMDlhS0dIUmEwekRvNWVRUWlBU1B4TFA1VWpsT3h3em1FUGlsQnllSFhpWXBWbEFKX2N0VTRMQTdvV1FqMWR4RWN0WUQ3QkhvczRYaGE3MENaMk5QLWFqZ0JoQVZZSU5jaGJjRjhVc1lfdUc0V0E1RUZGX0cxZDBaT0lxX0pVb2tDaGprX2NHTXllcmlYQnpWbDVZXzBZYjFCa1piemxQUUJ6V1JMcHfSAcYBQVVfeXFMTWlGUFhlT3NpcFFfOXpjMWY4TTVIcHB5ekZDWDUxVFdkbWQtY1FXajJndkN0YXhBcTRXV0RqZWlJdk5Ia3NKQURZNlBjamJEMUxQVjJfVGpEc1hMOU1hWjZiTlJ2ckVycDM1RDFET1dha0x5VmpoM2JmSF83UTdKRkdzb2psTnBWeTNjNTR2V0VMcEk4a3dCY2cxUGZZdTcyTDNBZ0xFWnZxTFNJV0s4Z1k1X3NCR3pkc2VyS2xKWFJBTVVyTFZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2445
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "amnesty.org",
+      "latestSinceUpdate": 2446
     },
     {
-      "date": "Sep 17",
-      "text": "U.N. Report says U.S. May Have Committed War Crimes in Iran; investigation reveals devastating civilian harm from US-Israeli strikes.",
+      "date": "Recent",
+      "text": "President Trump weighs a return to large-scale Iran strikes, stating he has a 'big decision coming up' and threatening to 'annihilate' the regime.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPRElSQ0J1MVh1ck0tb3dwbUZrZFdNVmVfRE1xYl85LXAzM0xhRFZvbHNDLXo2bHhITTkxUjJOaU9xV2JlOTBqalFVWFZBejdtanJJT19FdjR1bTc1R2U3REh1c291X3hhSG85QmFKRHg4WVJTWmplUVdabkM3TnE4UTVfdW5aUXRVcy14Tl9rS0w5ZXNxRXY0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Time Magazine",
-      "latestSinceUpdate": 2445
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNN3BOLWNqMUJEYnA0WTZ5cDA2VUhJOEt6VFNIeGZmRXM3YWlicWdkTVhKWmg0blR5LTJvcUVyQjF3VHdBTHJlV1Z2MlhSUXNjLTQ4cXZ1cTdaNGRyTjlaSGlmNUNMOXYwWGo0ZFhZNXlienZhdUZVQXVVb2djdUFycVZhTzQxLVl3alR4UlJ2cnFfd3JJTTdoOEtLa0hJOW4wN3dIb0V1MzMtWVdUc0M00gG0AUFVX3lxTE0zR05GTUxWb0QxYlNLRDk2a3o1VDhHWXd1LXJwZnRKU0tVZm1Sa3o2Rko5NnN4aEdSeXd1TDlRdDNSU0VxTjVYZDZZblVVRXhHU2hQdFpRbU1FQWJLUnBsQjctMVZ1TzhmRDRVQnhENmdadDVTXzF6QnYzY2hTNTdQRC1xQU0wRkNyaGVnMnZpZjVXN3ZSR2Z3bkdnTjJ0TnBuR2Y3NEl1b2gyQnQ2Tkw2T1BUbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2446
     },
     {
-      "date": "Sep 17",
-      "text": "Two ships attacked in Strait of Hormuz; Iran claims it struck an oil tanker.",
+      "date": "Recent",
+      "text": "Two ships were attacked in the Strait of Hormuz, with Iran claiming it struck an oil tanker.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxNeWdlRjU5QTRNU0tfUUpTVW1iYUNBQ3hWejBlMVBaWTFEbFh1MkVtM1QzamhsY240NFQ3aW1vTUdMb0JaVUk2QWY1WE9SZWNqLUpzWVI4OFpyWlN1b0pXTW5vZzNEc3ZqZV9wdVowMGpzeHJub1ZFTWtoZGRyRklIbnR2d19mOVhhWG5GdkxTdTB1bktBRHFMSlVGbEZ5Mk0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2445
+      "latestSinceUpdate": 2446
     },
     {
-      "date": "Sep 17",
-      "text": "Hezbollah's surrender of Ali Al Taher costs legitimacy, while Houthis are described as Iran's 'new Hezbollah'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOanpVaUp2aVVCemtwSVBXc0tzMXZWTjhDZEgtSjZSMzhRNDZLYk9ZUWdqdTFSdGlodWhnWkxHTklNMmtxUXB1WnM4VU9oMjgxSi03aThXMk5jeDJlUWpxdzNOb1ZWN25ZMXhRSE5Id1FoeVZFWU4zZlg1c1VWb3FZWFJSS1gzT3NaODk3Vkd30gGOAUFVX3lxTE1qazJNcTcwcU0wakpPWGs0alpVTlpTYks1OEdpTDJrY3dEdm42VWo0cGFWSzQxWmpqUGk2TmVJaE1hRDdjRlhyeGQ1NTdjVU03RkhnTUZKWXNURVBZQ0VUajV1ams3WTBfdzNPM2VqQ3BKQzV4TDdzVEhFLVpBWkhkTk0tNzhnclVYemdSb0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "dw.com",
-      "latestSinceUpdate": 2445
-    },
-    {
-      "date": "Sep 17",
-      "text": "The cost of the Iran war for the U.S. grows to $43.6 billion in new military estimates.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQNXpyRk1ReGdrMWoxM2N3S3NxSWlwRnpZNHBsbDVoLXY1NTNpNkVOMW0zZDE0XzJfUHZkRU5scVlWUVRTVHVpYkpVMThyYjdZMDBVQkt1VWpMMGI4RnRIX0g2dVVIZExXLTJhZGlDTUt3MHFrSDlkYU55TWotNHl0MzB2RUtiX3hTZTRCZzQzd2NKOG1zem9UeDBwaG85Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "dallasnews.com",
-      "latestSinceUpdate": 2445
+      "date": "Recent",
+      "text": "Iranian strikes damaged hundreds of US military buildings and dozens of aircraft.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi2AFBVV95cUxPMXlmQzNrdGJacjYxUHlIQ1JYTjRfczEzR2Q2cjZaejNqNVA4ZlluSGdoMTFNalotejBQQnI2Sm82a2NBSUNBSVF1VU42SUx4X3FoSGU1RDhFcFVxTWRIS0Rsa0RNUng2aTk0dmNCdUxBc2dWQ09NOHJjM0V2OThaUHFVTXZkbUtxYzlEbS0zSS1FM0VHT3VPaUtZUG02MjB3QW9WYTRRd0JWN1lHOExoSW81TC1FajNPb2ZhdUY2SW1UM1BlaFg5bkpyYlF5TnN2bTJpcjNjTVA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Military Times",
+      "latestSinceUpdate": 2446
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Internal Debate",
-      "headline": "US House Seeks End to Iran War Amidst Trump's Escalation Deliberations",
-      "summary": "The US House has voted to end the Iran war, citing high costs and munitions shortfalls, while President Trump considers further large-scale strikes and claims the war is nearing its end.",
-      "tone": "strained",
-      "latestSinceUpdate": 2439
-    },
-    {
-      "perspective": "Iranian Defiance",
-      "headline": "Iran Issues Ultimatum, Threatens Hormuz Closure Amidst Blockade Attempts",
-      "summary": "Iran has issued an ultimatum for talks, threatened to keep the Strait of Hormuz closed until leadership changes, and continues attempts to circumvent blockades, despite some reported setbacks.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2439
-    },
-    {
-      "perspective": "Regional Instability",
-      "headline": "Hezbollah Weakens as Israel-Lebanon Tensions Rise Over Alleged Ties",
-      "summary": "Hezbollah's legitimacy in Lebanon is reportedly weakening following a surrender, while Israel accuses the Lebanese army chief of ties to the group, complicating regional normalization efforts.",
+      "perspective": "US/Western Critical",
+      "headline": "US Losing Iran War, Facing War Crimes Allegations",
+      "summary": "Reports indicate the U.S. is losing the Iran war by nearly every metric, with troop deaths exceeding official counts. Investigations into US-Israeli strikes on Tehran reveal devastating civilian harm, leading to a U.N. report suggesting potential U.S. war crimes.",
       "tone": "anxious",
-      "latestSinceUpdate": 2439
+      "latestSinceUpdate": 2446
     },
     {
-      "perspective": "International Scrutiny",
-      "headline": "UN Experts Investigate Possible US War Crimes in Iran Strikes",
-      "summary": "UN-backed experts are investigating possible US war crimes in Iran, citing devastating civilian harm from US-Israeli strikes, including a school attack that killed over 150 people.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 2439
+      "perspective": "Iran/Allies Defiant",
+      "headline": "Iran Strikes US Targets, Houthis Emerge as 'New Hezbollah'",
+      "summary": "Iran claims strikes on an oil tanker in the Strait of Hormuz and has damaged hundreds of US military buildings and dozens of aircraft. The Houthis are described as a powerful 'new Hezbollah,' indicating growing regional proxy strength.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2446
+    },
+    {
+      "perspective": "US Administration",
+      "headline": "Trump Considers Escalation, Threatens Annihilation",
+      "summary": "President Trump is weighing a return to large-scale Iran strikes, stating he has a 'big decision coming up.' He has also threatened to 'annihilate' the Iranian regime, signaling a potential for significant escalation.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2446
+    },
+    {
+      "perspective": "Regional Stability (Lebanon/Israel)",
+      "headline": "Hezbollah Weakening Amid IDF Operations and Normalization Talks",
+      "summary": "The IDF has captured the Ali Taher Ridge in southern Lebanon, coinciding with reports of Hezbollah's weakening. Discussions around a fragile path to Israel-Lebanon normalization are ongoing, despite regional tensions.",
+      "tone": "strained",
+      "latestSinceUpdate": 2446
     }
   ]
 });
