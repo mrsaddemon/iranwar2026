@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2456,
+  "updateSequence": 2457,
   "lastUpdated": "2026-09-20",
-  "lastSyncedAt": "2026-09-20T11:52:16.242Z",
+  "lastSyncedAt": "2026-09-20T14:55:49.404Z",
   "warDay": 205,
-  "summary": "The Iran war continues with reports of undisclosed US casualties, US-Israeli strikes causing civilian harm, and Iran setting terms for talks while threatening to close the Strait of Hormuz.",
+  "summary": "The Iran war continues with reports of US casualties, planned US strikes, Iran's warnings, and ongoing regional clashes involving Israel and Hezbollah, while the Strait of Hormuz remains closed.",
   "lastNarrativeUpdate": "2026-09-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire or truce is reported amid ongoing hostilities."
+    "summary": "No ceasefire is active, with fighting ongoing and Iran issuing conditions for ending the war while insisting on the closure of the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
+      "date": "Sep 18",
+      "text": "Iran Update, September 18, 2026.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQMHZTUm5LQTliUnR6YXpoNzE5b2NWMDc4VVpRS1c5QXk5QmRBZ3pBTXJpX1lYSUhTbG1vdUFnLVp0NjYwUGdQUF9VMlU1UGhZMDBxbnJMZXFsWVNqMkQ4c0pJbGVTZXhibXlkVGY0UkpNZG80ZzVBMDZhVFZjYmluZDRCWVpTRHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2457
+    },
+    {
+      "date": "Sep 20",
+      "text": "Iran's Speaker claims 'battlefield success' against the US before any talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2457
+    },
+    {
       "date": "Sep 20",
       "text": "Reports indicate more U.S. troops have died in the Iran war than publicly disclosed by the Pentagon.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "washingtonpost.com",
+      "sourceName": "The Washington Post",
       "latestSinceUpdate": 2456
     },
     {
       "date": "Sep 20",
-      "text": "Tehran has communicated terms for talks to the US via Doha, while Saudi forces reportedly foiled an attack on Riyadh.",
+      "text": "Rezaei states Iran has sent conditions for ending the war to the US via Doha.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNS0tMRnMtZVNISzhaMjNjZmJTbjBacUhkQS1yLURFSzY4bEJ0SXk5a3ItWjRNV09qXzZZa0Y2cklJMG5nVTZNZ0pNbDdGRnhSSzJSenF6MVBYTG9BZlhMemdnQVdqVUc3U29kdGRQN3l5R1BfTnpFRDBDTUNPOXVmLWduYklpWEkxZVZ3cFFnQlVWbFpja1FhMWl1UDZpRHZsZmZ5anRFenJlc0g3dTdVd000bWVCbVdfalBpRDlna9IBxAFBVV95cUxQMVJTWmQ5YVJYRE5vUERTYk8tR1Z0bWxWTWRVdnF5Y3g5Qy1IdjVOVHBzZ3lLdm9zZWhDRC1GOWNKcHBWQVZEa3JraXI0T0h0YjB4eHNIR3NwMGlfSnNBRHhuaXVhdjJGaVpmbVNSX1FaWVBoSk9NekE1VkZ4SUlnRGJzZ3JYeDRVdTFzemp4N2U4WWU0QmJVRU9aNVZMVGhBOGRONmlkN1FIRU9zUHgzcUQwamhSNmJhaEl6WFRVMlJaRUFF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2456
+      "latestSinceUpdate": 2457
     },
     {
       "date": "Sep 20",
-      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm, with a UN report suggesting potential US war crimes.",
+      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2456
+      "latestSinceUpdate": 2457
     },
     {
       "date": "Sep 20",
-      "text": "The US embassy in Israel issued a security alert due to Houthi attacks targeting Saudi Arabia.",
+      "text": "Iran’s military command reports being informed of US plans to resume strikes.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOY2JHXzgzVXVqcFRHNmlpTUZBa2hVWm9tbzhpYlRjMk1GZGhhX3dBR3ZWUGtLWDNia2ZITE11b2hLekxYbVJPcEw0RGttbUM3NWVrTS1FaEtWSmVkdEkzQXlMZ0lha1M0WkNwTGZnWExzUjVteWJzVEppMU9UeHdiTzlieTBrdm5Va0FDMzVyNE1xZng0V0MxdDVwSWxGM2cwMi1jS21aQjFlSEHSAbABQVVfeXFMTVFvT0R3M1dncTdfVmVrOVVJTjhPMk5NcjlvWTczYVZjb3UySEJzcHNtcTF3dUNieWpfMDRmb2UwZDJLX0VRWkhtUWRYMGU1LTZHSUNHM19UNloyUTBtUnBPZ3p5azFPUS0xeE1aSWZhQUhzZ21ONEtjQVp2UXJNZnk4ZE9sQjVMMVZaOHoxVUpvMW5NRzJlTmNrYWg3X01DZlZJX0hqZFhpTXFtTXlyQUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2456
-    },
-    {
-      "date": "Sep 20",
-      "text": "Iran stated the Strait of Hormuz will remain closed until the US fulfills its commitments, despite CENTCOM reporting the US military aided transit of 1 billion barrels of oil.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPUXZSc0VBZXhQWDhvSDZhdFFkWWlfQUg3SlVvZS1zZm4ydGc3R1A2NTFHc0hKT210aFpaNk9hMy1NbHhQLVZtR1BHMERjMzBDdGRVWEhON1RlbHY2STdjX0hGQWlfTW5vNFBTRnFZSjZLMDNaU29hTl9qaEZHSUFHaU93c0lqdy11SWw0bXQzRG5qazRpOGU5bm5xMjBnaVZQMVVMek9Ba29WUlFwNU8zekYxY3pOZ9IBvgFBVV95cUxOSWpEcW9EM1JJRkxERS1iaTVoNkFaVkhPc3RpYnlUSnFVUHRUTGVKUnpkZGprMEpVNTlkX0hqN1RYV3JYY3VaVHJJaDRQNmJObUVvSHE4c1YxRmxDSFdrU0ViX1JoWWJxUFNhV1ZvTVFoOHFIM0UwcC1rWWRXWDJaV0pyRUNleXdsbVN0WFdrc0dYRGd0RUxvcU54eVpQaGkwZFdlMWZDVXJ0eVRKRklDcDFsbVdfSEVPc0tsZEJR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2456
-    },
-    {
-      "date": "Sep 20",
-      "text": "Thousands marched for Houthis in Sanaa as fighting continues, while the IDF struck Hezbollah sites after a bomb wounded two Israeli troops.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPaTkzLXBNQmlSZjhZaHp0WE1fT01KSzZCNkNrdDNjYTNiMDZRU1c0eURxS19QbzBhbHh4S2lsVTlYczIzek1scUpnRThiYjJNYjNOMnZpRHVlWXZYUzJIeG9hUUZiUFZCenMyRmVwa1g4MFQ4bThoaDQwQUI2N1doVUdhTlMwOXZKYTJBa0tWTWR4aVprZXNHV1k0QUpmdzhMV1lfWGY2N1hwZ9IBrwFBVV95cUxNeWR6RGsydC1PeF83Yi1Velp3UWd0cWJDczI1b19jdG81N0FaNFdDWDVVMVZERFNMdGpHWDZRQ2RyTkxXQ2ZWUV83SWg3TElIU1N2bGpKcTBfWHhzc3drbUM0dnJpdVJtMXI5X2lGbTFYS0R2aTluWE8tVUE3RUNKTzQ4YkdZd1dOcnlkOGJMYzBYSzBZeEdKTXc4MXBNbFljeFJKblZIY2kta1lxVFFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2456
+      "latestSinceUpdate": 2457
     }
   ],
   "sourceStatuses": [
