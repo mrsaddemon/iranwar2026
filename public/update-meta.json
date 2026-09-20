@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2457,
+  "updateSequence": 2458,
   "lastUpdated": "2026-09-20",
-  "lastSyncedAt": "2026-09-20T14:55:49.404Z",
+  "lastSyncedAt": "2026-09-20T18:10:40.479Z",
   "warDay": 205,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No ceasefire is active, with fighting ongoing and Iran issuing conditions for ending the war while insisting on the closure of the Strait of Hormuz."
+    "summary": "No active ceasefire is in effect between the primary belligerents, with ongoing military actions and threats."
   }
 }
