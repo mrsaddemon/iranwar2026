@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2455,
+  "updateSequence": 2456,
   "lastUpdated": "2026-09-20",
-  "lastSyncedAt": "2026-09-20T06:52:19.318Z",
+  "lastSyncedAt": "2026-09-20T11:52:16.242Z",
   "warDay": 205,
-  "summary": "The US-Iran war continues with reports of US losses and civilian harm from US-Israeli strikes, while Israel also targets Hezbollah and Iran proposes conditions for talks.",
+  "summary": "The Iran war continues with reports of undisclosed US casualties, US-Israeli strikes causing civilian harm, and Iran setting terms for talks while threatening to close the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-09-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported; Iran has sent conditions for talks to the U.S."
+    "summary": "No active ceasefire or truce is reported amid ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.3,
+        "precision": 0.4,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.2,
-        "aggression": 0.9
+        "precision": 0.4,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 18",
-      "text": "Reports indicate the U.S. is losing the Iran war and more U.S. troops have died than publicly disclosed.",
-      "severity": "critical",
+      "date": "Sep 20",
+      "text": "Reports indicate more U.S. troops have died in the Iran war than publicly disclosed by the Pentagon.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2455
+      "sourceName": "washingtonpost.com",
+      "latestSinceUpdate": 2456
     },
     {
-      "date": "Sep 18",
-      "text": "Iran has sent conditions to the U.S. via Qatar for re-engagement in talks and an end to the war.",
+      "date": "Sep 20",
+      "text": "Tehran has communicated terms for talks to the US via Doha, while Saudi forces reportedly foiled an attack on Riyadh.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOZ1JPc2xzcDhQMWhGREtsMUlPTnpUNDJ6dDRGZ0dNb0NYYUlMVnVJcnoyb1ZKSUFMdmdrQTVELTdaR2huNVdkQU9KRkVZRUdUcTREU25LSTJoeGt1WG1EZzZfV1pOREZhVmtmT0I2NkZKaE9uZUhMekpvSmN2MWZuWjc4cTEzZ2JUd1RoandXSG9fMUZickh4Y25TVzV3UEVQcmduVWd1cXhOaDJkVjBraUVR0gG3AUFVX3lxTFAwY3hyelpiTHdEV000Vm1PXzJ5YVpIUldCZnRnWEJLelBBQmVUMDFVTkluRlcxemVBOWVVXzdoQURGNnhDTU5PWjFUSFcxcHIwMTVIOS1QWG50TjIxbDhFdG1yWFdRS3JQeTNQRWVMUEpMcDdRNGJzSVZILTZ3MjZVQS1FQ0tyVFRQV3R1MG5qTkVwY3E1Sk5kdDk0ZGk1bHRZemVobm53Q1pRWTktRUhLMnZ4M0s2WQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2455
+      "latestSinceUpdate": 2456
     },
     {
-      "date": "Recent",
-      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 20",
+      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm, with a UN report suggesting potential US war crimes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2455
+      "latestSinceUpdate": 2456
     },
     {
-      "date": "Recent",
-      "text": "Former President Trump is weighing a return to large-scale Iran strikes, stating he has a 'big decision coming up'.",
+      "date": "Sep 20",
+      "text": "The US embassy in Israel issued a security alert due to Houthi attacks targeting Saudi Arabia.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNN3BOLWNqMUJEYnA0WTZ5cDA2VUhJOEt6VFNIeGZmRXM3YWlicWdkTVhKWmg0blR5LTJvcUVyQjF3VHdBTHJlV1Z2MlhSUXNjLTQ4cXZ1cTdaNGRyTjlaSGlmNUNMOXYwWGo0ZFhZNXlienZhdUZVQXVVb2djdUFycVZhTzQxLVl3alR4UlJ2cnFfd3JJTTdoOEtLa0hJOW4wN3dIb0V1MzMtWVdUc0M00gG0AUFVX3lxTE0zR05GTUxWb0QxYlNLRDk2a3o1VDhHWXd1LXJwZnRKU0tVZm1Sa3o2Rko5NnN4aEdSeXd1TDlRdDNSU0VxTjVYZDZZblVVRXhHU2hQdFpRbU1FQWJLUnBsQjctMVZ1TzhmRDRVQnhENmdadDVTXzF6QnYzY2hTNTdQRC1xQU0wRkNyaGVnMnZpZjVXN3ZSR2Z3bkdnTjJ0TnBuR2Y3NEl1b2gyQnQ2Tkw2T1BUbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOY2JHXzgzVXVqcFRHNmlpTUZBa2hVWm9tbzhpYlRjMk1GZGhhX3dBR3ZWUGtLWDNia2ZITE11b2hLekxYbVJPcEw0RGttbUM3NWVrTS1FaEtWSmVkdEkzQXlMZ0lha1M0WkNwTGZnWExzUjVteWJzVEppMU9UeHdiTzlieTBrdm5Va0FDMzVyNE1xZng0V0MxdDVwSWxGM2cwMi1jS21aQjFlSEHSAbABQVVfeXFMTVFvT0R3M1dncTdfVmVrOVVJTjhPMk5NcjlvWTczYVZjb3UySEJzcHNtcTF3dUNieWpfMDRmb2UwZDJLX0VRWkhtUWRYMGU1LTZHSUNHM19UNloyUTBtUnBPZ3p5azFPUS0xeE1aSWZhQUhzZ21ONEtjQVp2UXJNZnk4ZE9sQjVMMVZaOHoxVUpvMW5NRzJlTmNrYWg3X01DZlZJX0hqZFhpTXFtTXlyQUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2455
+      "latestSinceUpdate": 2456
     },
     {
-      "date": "Recent",
-      "text": "The U.S. military has escorted 1 billion barrels of oil out of the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2455
+      "date": "Sep 20",
+      "text": "Iran stated the Strait of Hormuz will remain closed until the US fulfills its commitments, despite CENTCOM reporting the US military aided transit of 1 billion barrels of oil.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPUXZSc0VBZXhQWDhvSDZhdFFkWWlfQUg3SlVvZS1zZm4ydGc3R1A2NTFHc0hKT210aFpaNk9hMy1NbHhQLVZtR1BHMERjMzBDdGRVWEhON1RlbHY2STdjX0hGQWlfTW5vNFBTRnFZSjZLMDNaU29hTl9qaEZHSUFHaU93c0lqdy11SWw0bXQzRG5qazRpOGU5bm5xMjBnaVZQMVVMek9Ba29WUlFwNU8zekYxY3pOZ9IBvgFBVV95cUxOSWpEcW9EM1JJRkxERS1iaTVoNkFaVkhPc3RpYnlUSnFVUHRUTGVKUnpkZGprMEpVNTlkX0hqN1RYV3JYY3VaVHJJaDRQNmJObUVvSHE4c1YxRmxDSFdrU0ViX1JoWWJxUFNhV1ZvTVFoOHFIM0UwcC1rWWRXWDJaV0pyRUNleXdsbVN0WFdrc0dYRGd0RUxvcU54eVpQaGkwZFdlMWZDVXJ0eVRKRklDcDFsbVdfSEVPc0tsZEJR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 2456
     },
     {
-      "date": "Recent",
-      "text": "Thousands marched for Houthis in Sanaa as fighting continues to rage.",
+      "date": "Sep 20",
+      "text": "Thousands marched for Houthis in Sanaa as fighting continues, while the IDF struck Hezbollah sites after a bomb wounded two Israeli troops.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxONndDQ09UalE3Z0xiVExKRExDa2w5Z0Z5VVpNMTZkSlpxTU50MTVfTm1DenZwdGlPSnlqZlRLWXJjc2daZFc5Y255MGxnSmRiQzFDcFhfODVuVzl6Y0J5V2tWZzFVVHBjNUUydU96VkN4SlIwYWJKRFo5THJNYVBuc2w1REpIS2p6NUZsRHo0aktHV3I1NVZnc2NrUV9CZ1FxZ1pfUXBJS2E5NTVrTlVieU01eHNHbk82TlHSAb8BQVVfeXFMTm44UEh3eklJNENHWTVwRFFtQXRLYkYzMGlnMjl3TXF0N2p2RGVWTVNCVEVRREZDY2JDY3BxS1NSc2NVU1RURmplb00xLXpwWXFfUk5YTEtTeEduTVJ1bWdkQmhtY0dkVlU3UkotbWhxLWt6V2JISlNlQkExWkZiQlJUdUxlUGxCM2pEWXVfNHVnNVRJUDhWeWZiTk1INWd6X1lhS2lCTlEwazFXMmRDejVyME5rdG5jV2NFbFhOeEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2455
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPaTkzLXBNQmlSZjhZaHp0WE1fT01KSzZCNkNrdDNjYTNiMDZRU1c0eURxS19QbzBhbHh4S2lsVTlYczIzek1scUpnRThiYjJNYjNOMnZpRHVlWXZYUzJIeG9hUUZiUFZCenMyRmVwa1g4MFQ4bThoaDQwQUI2N1doVUdhTlMwOXZKYTJBa0tWTWR4aVprZXNHV1k0QUpmdzhMV1lfWGY2N1hwZ9IBrwFBVV95cUxNeWR6RGsydC1PeF83Yi1Velp3UWd0cWJDczI1b19jdG81N0FaNFdDWDVVMVZERFNMdGpHWDZRQ2RyTkxXQ2ZWUV83SWg3TElIU1N2bGpKcTBfWHhzc3drbUM0dnJpdVJtMXI5X2lGbTFYS0R2aTluWE8tVUE3RUNKTzQ4YkdZd1dOcnlkOGJMYzBYSzBZeEdKTXc4MXBNbFljeFJKblZIY2kta1lxVFFB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2456
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2455,
+  "updateSequence": 2456,
   "lastUpdated": "2026-09-20",
-  "lastSyncedAt": "2026-09-20T06:52:19.318Z",
+  "lastSyncedAt": "2026-09-20T11:52:16.242Z",
   "warDay": 205,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported; Iran has sent conditions for talks to the U.S."
+    "summary": "No active ceasefire or truce is reported amid ongoing hostilities."
   }
 }
