@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2462,
+  "updateSequence": 2463,
   "lastUpdated": "2026-09-21",
-  "lastSyncedAt": "2026-09-21T06:27:35.352Z",
+  "lastSyncedAt": "2026-09-21T13:14:59.206Z",
   "warDay": 206,
-  "summary": "The ongoing Iran-US conflict sees Iran warning of a 'painful' response to potential US strikes, while also sending conditions for peace talks, as the Strait of Hormuz remains closed and US-Israeli actions face scrutiny over civilian harm and war costs.",
+  "summary": "The US-Iran conflict continues with escalating threats and military actions, including US-Israeli strikes on Tehran and Israeli operations in southern Lebanon, while the Strait of Hormuz sees disrupted vessel traffic.",
   "lastNarrativeUpdate": "2026-09-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is in effect; conflict continues with threats and military actions."
+    "summary": "No ceasefire is active; conflict and threats of escalation persist between involved parties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.3,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
+    "nuclearIndex": 25,
+    "escalationLevel": 90,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 21",
-      "text": "Iran warns of 'painful' response if US launches attacks.",
+      "date": "Sep 18",
+      "text": "Iran warns of a 'painful' response if the US launches attacks and states its forces are 'fully prepared' for US-Israel action.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2462
-    },
-    {
-      "date": "Sep 18",
-      "text": "Iran Update, September 18, 2026, notes the US is perceived to be losing the Iran war by nearly every metric.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2462
+      "latestSinceUpdate": 2463
     },
     {
       "date": "Sep 20",
-      "text": "Iran says conditions to re-engage in talks and end the war have been sent to the US via Qatar.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOZ1JPc2xzcDhQMWhGREtsMUlPTnpUNDJ6dDRGZ0dNb0NYYUlMVnVJcnoyb1ZKSUFMdmdrQTVELTdaR2huNVdkQU9KRkVZRUdUcTREU25LSTJoeGt1WG1EZzZfV1pOREZhVmtmT0I2NkZKaE9uZUhMekpvSmN2MWZuWjc4cTEzZ2JUd1RoandXSG9fMUZickh4Y25TVzV3UEVQcmduVWd1cXhOaDJkVjBraUVR0gG3AUFVX3lxTFAwY3hyelpiTHdEV000Vm1PXzJ5YVpIUldCZnRnWEJLelBBQmVUMDFVTkluRlcxemVBOWVVXzdoQURGNnhDTU5PWjFUSFcxcHIwMTVIOS1QWG50TjIxbDhFdG1yWFdRS3JQeTNQRWVMUEpMcDdRNGJzSVZILTZ3MjZVQS1FQ0tyVFRQV3R1MG5qTkVwY3E1Sk5kdDk0ZGk1bHRZemVobm53Q1pRWTktRUhLMnZ4M0s2WQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2462
-    },
-    {
-      "date": "Sep 20",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2462
-    },
-    {
-      "date": "Sep 21",
-      "text": "Iran’s military command says it’s been informed US plans to resume strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2462
+      "latestSinceUpdate": 2463
     },
     {
       "date": "Sep 20",
-      "text": "U.N. Report suggests U.S. May Have Committed War Crimes in Iran.",
+      "text": "U.S. embassies across the Middle East issue security alerts for American citizens.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cbsnews.com",
+      "latestSinceUpdate": 2463
+    },
+    {
+      "date": "Sep 21",
+      "text": "Iran's military command states it has been informed of US plans to resume strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPRElSQ0J1MVh1ck0tb3dwbUZrZFdNVmVfRE1xYl85LXAzM0xhRFZvbHNDLXo2bHhITTkxUjJOaU9xV2JlOTBqalFVWFZBejdtanJJT19FdjR1bTc1R2U3REh1c291X3hhSG85QmFKRHg4WVJTWmplUVdabkM3TnE4UTVfdW5aUXRVcy14Tl9rS0w5ZXNxRXY0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Time Magazine",
-      "latestSinceUpdate": 2462
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2463
+    },
+    {
+      "date": "Sep 21",
+      "text": "IDF strikes Hezbollah sites after a bomb wounded two troops; Israel also targets paramedics in southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPUm5vd3ZlQUZ2V2lQdDF2M25Kc01nbDIxRU1Vd2VvWXFBWDZVdFF3WURhM25PaGs2QmVCNGdNdTY3TlV0QXJmTVBkR2kzWE9jM00xckc3dkc0cUFRZkZtQXZnR19YelB0OWJ4LTEtQ01BS01CR0hGUEd2ZXR5WXI1ZFBsSnkxbXBWUHdMcWt2b3hzeHF0cjBQVHMwM2LSAaIBQVVfeXFMT1hRb3h1ZFYxNTJpNk8wdTJpaWhMMnBXRFQ2QUNRbWJjNVVDZGdBM01zMHVHMWt0alhTbTNUc202X1lUeWtfdUVjVkJYRThHQnhkYndlaVctNmNGd0l1MXVINGhEZ3JOVWlRZmloYXU2anFfZ2J0bU1td2h2dERJbnBkT01UTTloTThEYjhUN1h5REtUVjVqSmV0OElFTXE4bDZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2463
+    },
+    {
+      "date": "Sep 21",
+      "text": "Reports indicate more U.S. troops have died amid the Iran war than publicly disclosed by the Pentagon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "washingtonpost.com",
+      "latestSinceUpdate": 2463
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
