@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2460,
-  "lastUpdated": "2026-09-20",
-  "lastSyncedAt": "2026-09-20T23:09:12.112Z",
-  "warDay": 205,
-  "summary": "Tensions between the U.S. and Iran escalate with mutual warnings of renewed strikes, reports of U.S. troop casualties, and a U.N. investigation into alleged war crimes, while the Strait of Hormuz remains a flashpoint amid oil spills and conflicting claims of transit.",
-  "lastNarrativeUpdate": "2026-09-20",
+  "updateSequence": 2461,
+  "lastUpdated": "2026-09-21",
+  "lastSyncedAt": "2026-09-21T01:11:22.992Z",
+  "warDay": 206,
+  "summary": "The US-Iran conflict continues on War Day 206 with Iran warning of a 'painful' response to potential US strikes, while reports indicate significant US casualties and civilian harm from US-Israeli actions in Tehran, and the Strait of Hormuz remains closed.",
+  "lastNarrativeUpdate": "2026-09-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 10,
-    "summary": "No active ceasefire is reported amidst ongoing hostilities and threats of renewed strikes."
+    "summary": "No active ceasefire is reported; conflict continues with warnings of resumed strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "escalationLevel": 80,
+    "oilDisruption": 90,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 18",
-      "text": "Reports indicate more U.S. troops have died in the Iran war than publicly disclosed by the Pentagon.",
+      "date": "Sep 21",
+      "text": "Tehran warns of 'painful' response if US launches attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2461
+    },
+    {
+      "date": "Sep 21",
+      "text": "More U.S. troops have died amid Iran war than Pentagon has disclosed publicly.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2460
+      "latestSinceUpdate": 2461
     },
     {
-      "date": "Sep 20",
-      "text": "Iran warns of a 'painful' response if the U.S. resumes strikes and insists the Strait of Hormuz will remain closed.",
+      "date": "Sep 21",
+      "text": "Iran's military command says it's been informed US plans to resume strikes.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2460
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2461
     },
     {
-      "date": "Sep 20",
-      "text": "A U.N. report suggests the U.S. may have committed war crimes in Iran, citing devastating civilian harm from US-Israeli strikes on Tehran.",
+      "date": "Sep 21",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2460
+      "latestSinceUpdate": 2461
     },
     {
-      "date": "Sep 20",
-      "text": "Attacks in the Strait of Hormuz have resulted in an oil spill in the Persian Gulf.",
+      "date": "Sep 21",
+      "text": "U.S. May Have Committed War Crimes in Iran, U.N. Report Says.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNS3IyeDNQSkZUVFJmVHlDS1pSYlVma2QwUmdXNUdtWlQ5YmxBRXI3LUprMlJ6TVFFeDMyV0d5VWRxN01TRjNDVlp3VnNWWVFJY012UVlMeTRUODR5STlRNlpvdHRrTmxnUThMWERaa0lrY3JKUExRVVR4ZFdYcDVOTTVkY19zUDFSZWJwWmJxcU10Umk3a05ndE5PM1d4b25OWWtodGI2NnNJLUQzYXZkd3FpMWJBejNQQXZrZnFQUzfSAcABQVVfeXFMTlFYTzZSSm1KYlp2b0tsM1QzOXNvLTBxcFVia0UtTG1UcHk0ajlaakRKZXhIenVrYk1MZ2ZVNUdiNmN4NTN4WWlHRWpxbGc5eU5tZGloZjlIOW9CelQtVWJxeGphZ2Jqd203NC1NQjljWkR2MHBQbV8zQzkzYWFRYXlGbUlySm1PS3lDbGxJQ1Q1UlNWckZ5bm1BRjhJbFNYdTBQMXkwTmpjNjFBa0E3bE1RLUpEcjZsZHozVGRqdzlF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "dw.com",
-      "latestSinceUpdate": 2460
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPRElSQ0J1MVh1ck0tb3dwbUZrZFdNVmVfRE1xYl85LXAzM0xhRFZvbHNDLXo2bHhITTkxUjJOaU9xV2JlOTBqalFVWFZBejdtanJJT19FdjR1bTc1R2U3REh1c291X3hhSG85QmFKRHg4WVJTWmplUVdabkM3TnE4UTVfdW5aUXRVcy14Tl9rS0w5ZXNxRXY0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Time Magazine",
+      "latestSinceUpdate": 2461
     },
     {
-      "date": "Sep 20",
-      "text": "IDF struck Hezbollah sites in response to a bomb attack that wounded two Israeli troops.",
+      "date": "Sep 21",
+      "text": "U.S. embassies across Middle East issue security alerts for Americans and urge reconsideration of travel.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPaTkzLXBNQmlSZjhZaHp0WE1fT01KSzZCNkNrdDNjYTNiMDZRU1c0eURxS19QbzBhbHh4S2lsVTlYczIzek1scUpnRThiYjJNYjNOMnZpRHVlWXZYUzJIeG9hUUZiUFZCenMyRmVwa1g4MFQ4bThoaDQwQUI2N1doVUdhTlMwOXZKYTJBa0tWTWR4aVprZXNHV1k0QUpmdzhMV1lfWGY2N1hwZ9IBrwFBVV95cUxNeWR6RGsydC1PeF83Yi1Velp3UWd0cWJDczI1b19jdG81N0FaNFdDWDVVMVZERFNMdGpHWDZRQ2RyTkxXQ2ZWUV83SWg3TElIU1N2bGpKcTBfWHhzc3drbUM0dnJpdVJtMXI5X2lGbTFYS0R2aTluWE8tVUE3RUNKTzQ4YkdZd1dOcnlkOGJMYzBYSzBZeEdKTXc4MXBNbFljeFJKblZIY2kta1lxVFFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2460
-    },
-    {
-      "date": "Sep 20",
-      "text": "CENTCOM reports the U.S. military has aided the transit of 1 billion barrels of oil through the Strait of Hormuz over the past two months.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOaGNHQ19yRXBMMHlXZ0lieEYzcWV4WFVhaDR3d2hFZ1R6eFZUTDAtWHlFWWk5aVJvVG9YVkFqeEloc1EtZDllQ18zUXY3bkhYMUE3OWtlNGx2Uno3ZkpJV0wwc3lLeXNpN3JXWmpWMlh2YzhGWDJMLXRadGExYTA2Vng1WEVMbTZVY19OQ3c1TTBGMm84VHAzb0FKVjM1anpoYjlCTkxFdFJ2UjczSlc0WldVb05kQThEVXNGSWNlMVNWZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 2460
+      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2461
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
