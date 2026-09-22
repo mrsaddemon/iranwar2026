@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2466,
+  "updateSequence": 2467,
   "lastUpdated": "2026-09-22",
-  "lastSyncedAt": "2026-09-22T00:53:49.433Z",
+  "lastSyncedAt": "2026-09-22T06:02:44.425Z",
   "warDay": 207,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 10,
-    "summary": "An earlier Israel-Hezbollah ceasefire in southern Lebanon appears to have collapsed following renewed IDF strikes and targeting of paramedics."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
