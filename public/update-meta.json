@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2468,
+  "updateSequence": 2469,
   "lastUpdated": "2026-09-22",
-  "lastSyncedAt": "2026-09-22T11:25:35.464Z",
+  "lastSyncedAt": "2026-09-22T15:38:13.723Z",
   "warDay": 207,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah is reported to be in effect, but recent strikes and targeting incidents suggest it is fragile and localized."
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
+    "durationDays": 7,
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
   }
 }

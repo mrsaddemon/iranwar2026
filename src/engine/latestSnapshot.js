@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2468,
+  "updateSequence": 2469,
   "lastUpdated": "2026-09-22",
-  "lastSyncedAt": "2026-09-22T11:25:35.464Z",
+  "lastSyncedAt": "2026-09-22T15:38:13.723Z",
   "warDay": 207,
-  "summary": "The conflict between Iran, the US, and Israel continues with escalating threats, ongoing strikes, and attacks on shipping in the Strait of Hormuz, while a fragile ceasefire holds between Israel and Hezbollah.",
+  "summary": "Tensions remain high between the US and Iran following reported US-Israeli strikes and Iranian threats of retaliation, though both sides are hinting at potential UN talks.",
   "lastNarrativeUpdate": "2026-09-22",
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.69,
-    "durationDays": 10,
-    "summary": "A ceasefire between Israel and Hezbollah is reported to be in effect, but recent strikes and targeting incidents suggest it is fragile and localized."
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
+    "durationDays": 7,
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 55
       },
       "behavior": {
         "precision": 0.4,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
-    "allianceInfluence": 51
+    "nuclearIndex": 45,
+    "escalationLevel": 80,
+    "oilDisruption": 65,
+    "tradeImpact": 61,
+    "sanctionsPressure": 63,
+    "globalPressure": 78,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 22",
-      "text": "Iran warns of a 'painful' response if the US launches new attacks.",
+      "text": "Iran warns of a 'painful' response if the US launches further attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2468
+      "latestSinceUpdate": 2469
     },
     {
       "date": "Sep 22",
-      "text": "Yemeni forces (Houthis) report targeting with drones and fighters.",
+      "text": "Iran reportedly states it can reopen the Strait of Hormuz within 7 days if the U.S. eases military pressure.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2468
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2469
     },
     {
       "date": "Sep 22",
-      "text": "Iran's Rezaei states conditions for ending the war have been sent to the US via Doha.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNS0tMRnMtZVNISzhaMjNjZmJTbjBacUhkQS1yLURFSzY4bEJ0SXk5a3ItWjRNV09qXzZZa0Y2cklJMG5nVTZNZ0pNbDdGRnhSSzJSenF6MVBYTG9BZlhMemdnQVdqVUc3U29kdGRQN3l5R1BfTnpFRDBDTUNPOXVmLWduYklpWEkxZVZ3cFFnQlVWbFpja1FhMWl1UDZpRHZsZmZ5anRFenJlc0g3dTdVd000bWVCbVdfalBpRDlna9IBxAFBVV95cUxQMVJTWmQ5YVJYRE5vUERTYk8tR1Z0bWxWTWRVdnF5Y3g5Qy1IdjVOVHBzZ3lLdm9zZWhDRC1GOWNKcHBWQVZEa3JraXI0T0h0YjB4eHNIR3NwMGlfSnNBRHhuaXVhdjJGaVpmbVNSX1FaWVBoSk9NekE1VkZ4SUlnRGJzZ3JYeDRVdTFzemp4N2U4WWU0QmJVRU9aNVZMVGhBOGRONmlkN1FIRU9zUHgzcUQwamhSNmJhaEl6WFRVMlJaRUFF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2468
-    },
-    {
-      "date": "Sep 22",
-      "text": "An investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2468
+      "latestSinceUpdate": 2469
     },
     {
       "date": "Sep 22",
-      "text": "Iran’s military command indicates it has been informed of US plans to resume strikes.",
+      "text": "Iran's military command says it has been informed the US plans to resume strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2468
+      "latestSinceUpdate": 2469
     },
     {
       "date": "Sep 22",
-      "text": "Oil prices rise as shipping risks persist in the Strait of Hormuz.",
+      "text": "Trump weighs next move in Iran war as Tehran threatens new weapons.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2468
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPZ0h5cWtOMUJyZzU5RHVnMmp6eU0za0JybEs4aUhzYVRxNW9keWluNW9aMnJoM0pkQjByVEpaem45UkRGSzk2T2RRQThvaEVTeXpqWVFoNkZZaFp1MUQyZzRHY1NvaHVfR1hHVDFvMTd5SmhnYWdHS0ZINXVRZFppT3A4WGE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2469
+    },
+    {
+      "date": "Sep 22",
+      "text": "Iran and US hint at revival of talks as Trump and Pezeshkian are due to attend the UN summit.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPMHFVWHVmRkJDV09JMHNSQ2RvNk5zS2NwN3lwZ3lNOFNLd0tUdjZHS09lMUhZdHBCWXZUQ1NJUHh5cUxmYlU4NjNTRGRtWDJ3UkFpb05jS1U2R2huempndzFvVEtqZmV1RjN2cTRJWWYybEpQSkptR2NjLWFySUtUeDdXMmdBd0N4dktqeGN6WjdTOGVfQXZJLVgyX2k1RTlzbDZncmktWlI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "reuters.com",
+      "latestSinceUpdate": 2469
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
