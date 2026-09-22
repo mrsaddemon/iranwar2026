@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2465,
-  "lastUpdated": "2026-09-21",
-  "lastSyncedAt": "2026-09-21T22:18:12.998Z",
-  "warDay": 206,
-  "summary": "The Iran-US conflict continues with escalating threats of retaliation from Tehran, reports of US-Israeli strikes causing civilian harm, and ongoing regional involvement from proxies like the Houthis and Hezbollah.",
-  "lastNarrativeUpdate": "2026-09-21",
+  "updateSequence": 2466,
+  "lastUpdated": "2026-09-22",
+  "lastSyncedAt": "2026-09-22T00:53:49.433Z",
+  "warDay": 207,
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "lastNarrativeUpdate": "2026-09-22",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No ceasefire is active; the conflict between Iran and the US, along with regional proxies, remains ongoing with threats of escalation."
+    "summary": "An earlier Israel-Hezbollah ceasefire in southern Lebanon appears to have collapsed following renewed IDF strikes and targeting of paramedics."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 20,
+    "escalationLevel": 48,
+    "oilDisruption": 80,
+    "tradeImpact": 58,
+    "sanctionsPressure": 54,
+    "globalPressure": 64,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 18",
-      "text": "Iran warns of 'painful' response if US launches attacks.",
+      "text": "Iran warns of ‘painful’ response if US launches attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2465
+      "latestSinceUpdate": 2466
     },
     {
-      "date": "Sep 21",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 18",
+      "text": "Yemeni forces (Houthis) report targeting US/regional assets.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2466
+    },
+    {
+      "date": "Sep 18",
+      "text": "Iran sends conditions for re-engagement in talks to US via Qatar.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOZ1JPc2xzcDhQMWhGREtsMUlPTnpUNDJ6dDRGZ0dNb0NYYUlMVnVJcnoyb1ZKSUFMdmdrQTVELTdaR2huNVdkQU9KRkVZRUdUcTREU25LSTJoeGt1WG1EZzZfV1pOREZhVmtmT0I2NkZKaE9uZUhMekpvSmN2MWZuWjc4cTEzZ2JUd1RoandXSG9fMUZickh4Y25TVzV3UEVQcmduVWd1cXhOaDJkVjBraUVR0gG3AUFVX3lxTFAwY3hyelpiTHdEV000Vm1PXzJ5YVpIUldCZnRnWEJLelBBQmVUMDFVTkluRlcxemVBOWVVXzdoQURGNnhDTU5PWjFUSFcxcHIwMTVIOS1QWG50TjIxbDhFdG1yWFdRS3JQeTNQRWVMUEpMcDdRNGJzSVZILTZ3MjZVQS1FQ0tyVFRQV3R1MG5qTkVwY3E1Sk5kdDk0ZGk1bHRZemVobm53Q1pRWTktRUhLMnZ4M0s2WQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2466
+    },
+    {
+      "date": "Sep 18",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2465
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2466
     },
     {
-      "date": "Sep 21",
-      "text": "U.S. May Have Committed War Crimes in Iran, U.N. Report Says.",
+      "date": "Sep 18",
+      "text": "Iran’s military command informed of US plans to resume strikes.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxPRElSQ0J1MVh1ck0tb3dwbUZrZFdNVmVfRE1xYl85LXAzM0xhRFZvbHNDLXo2bHhITTkxUjJOaU9xV2JlOTBqalFVWFZBejdtanJJT19FdjR1bTc1R2U3REh1c291X3hhSG85QmFKRHg4WVJTWmplUVdabkM3TnE4UTVfdW5aUXRVcy14Tl9rS0w5ZXNxRXY0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Time Magazine",
-      "latestSinceUpdate": 2465
+      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2466
     },
     {
-      "date": "Sep 21",
-      "text": "Iran's IRGC ready for 'counteroffensive' if US attacks, spokesperson says.",
+      "date": "Sep 18",
+      "text": "U.N. Report suggests U.S. may have committed war crimes in Iran.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2465
-    },
-    {
-      "date": "Sep 21",
-      "text": "Yemeni forces (Houthis) say drone, fighters targeted amid push for control of Yemen highlands.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQQVctWjR5amVoTUpKY1d6ZkVJQi1XRzVrWElrM2NWcWNTV0pVcmdoYkhocHhiQjB3Qjl4OXZPb2c5dkYwS2tiUG1MZFphbDZkTENyQmFyTGNMZ1R1cXlaRXg1RzRfY2pSVHV2RTRNQkktd1lDanczU1ZDenFtUm9reUFOMXPSAYoBQVVfeXFMUE9LS3Y4WDdCQnRlczlYaHVINXhPWV9KQmFWUFVFWVotOTg4ZTBRMFpQQl9aR2JhaWZPVjFRTTV5cmNDUEFiTlBqdTFnQzA4aFVKdUNuTVIxazhJTTYzSzFwMnZ1SUdOeDNVTnk2Q05OMERseVNLOWt2Q1dVNjRCQS1lUVVPTGJFNDBB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NewsNation",
-      "latestSinceUpdate": 2465
-    },
-    {
-      "date": "Sep 21",
-      "text": "IDF says it struck Hezbollah sites after terror group’s bomb wounded 2 troops; Israel targets paramedics in southern Lebanon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxPaTkzLXBNQmlSZjhZaHp0WE1fT01KSzZCNkNrdDNjYTNiMDZRU1c0eURxS19QbzBhbHh4S2lsVTlYczIzek1scUpnRThiYjJNYjNOMnZpRHVlWXZYUzJIeG9hUUZiUFZCenMyRmVwa1g4MFQ4bThoaDQwQUI2N1doVUdhTlMwOXZKYTJBa0tWTWR4aVprZXNHV1k0QUpmdzhMV1lfWGY2N1hwZ9IBrwFBVV95cUxNeWR6RGsydC1PeF83Yi1Velp3UWd0cWJDczI1b19jdG81N0FaNFdDWDVVMVZERFNMdGpHWDZRQ2RyTkxXQ2ZWUV83SWg3TElIU1N2bGpKcTBfWHhzc3drbUM0dnJpdVJtMXI5X2lGbTFYS0R2aTluWE8tVUE3RUNKTzQ4YkdZd1dOcnlkOGJMYzBYSzBZeEdKTXc4MXBNbFljeFJKblZIY2kta1lxVFFB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2465
+      "latestSinceUpdate": 2466
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Western Critical",
-      "headline": "US Losing Iran War, Facing War Crimes Allegations",
-      "summary": "Reports indicate the U.S. is losing the Iran war by nearly every metric, with troop deaths exceeding official counts. Investigations into US-Israeli strikes on Tehran reveal devastating civilian harm, leading to a U.N. report suggesting potential U.S. war crimes.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2446
-    },
-    {
-      "perspective": "Iran/Allies Defiant",
-      "headline": "Iran Strikes US Targets, Houthis Emerge as 'New Hezbollah'",
-      "summary": "Iran claims strikes on an oil tanker in the Strait of Hormuz and has damaged hundreds of US military buildings and dozens of aircraft. The Houthis are described as a powerful 'new Hezbollah,' indicating growing regional proxy strength.",
+      "perspective": "Iran",
+      "headline": "Iran warns of 'painful' response and counteroffensive readiness",
+      "summary": "Iran maintains a defiant stance, threatening severe retaliation for any new US attacks and asserting readiness for a counteroffensive, while also signaling conditions for potential talks.",
       "tone": "defiant",
-      "latestSinceUpdate": 2446
+      "latestSinceUpdate": 2466
     },
     {
-      "perspective": "US Administration",
-      "headline": "Trump Considers Escalation, Threatens Annihilation",
-      "summary": "President Trump is weighing a return to large-scale Iran strikes, stating he has a 'big decision coming up.' He has also threatened to 'annihilate' the Iranian regime, signaling a potential for significant escalation.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2446
-    },
-    {
-      "perspective": "Regional Stability (Lebanon/Israel)",
-      "headline": "Hezbollah Weakening Amid IDF Operations and Normalization Talks",
-      "summary": "The IDF has captured the Ali Taher Ridge in southern Lebanon, coinciding with reports of Hezbollah's weakening. Discussions around a fragile path to Israel-Lebanon normalization are ongoing, despite regional tensions.",
+      "perspective": "US/Israel",
+      "headline": "US-Israeli strikes face war crimes allegations amid ongoing operations",
+      "summary": "US and Israeli forces continue military operations, facing international scrutiny over alleged war crimes and civilian casualties, amidst ongoing threats from Iran and its proxies.",
       "tone": "strained",
-      "latestSinceUpdate": 2446
+      "latestSinceUpdate": 2466
+    },
+    {
+      "perspective": "Regional/Economic",
+      "headline": "Hormuz crisis threatens LNG projects, Qatar rules out bypass",
+      "summary": "The crisis in the Strait of Hormuz continues to disrupt global energy markets, with Qatar reporting delays in LNG projects and ruling out alternative transit options.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2466
     }
   ]
 });

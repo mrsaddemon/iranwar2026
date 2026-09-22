@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2465,
-  "lastUpdated": "2026-09-21",
-  "lastSyncedAt": "2026-09-21T22:18:12.998Z",
-  "warDay": 206,
+  "updateSequence": 2466,
+  "lastUpdated": "2026-09-22",
+  "lastSyncedAt": "2026-09-22T00:53:49.433Z",
+  "warDay": 207,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No ceasefire is active; the conflict between Iran and the US, along with regional proxies, remains ongoing with threats of escalation."
+    "summary": "An earlier Israel-Hezbollah ceasefire in southern Lebanon appears to have collapsed following renewed IDF strikes and targeting of paramedics."
   }
 }
