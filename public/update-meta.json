@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2467,
+  "updateSequence": 2468,
   "lastUpdated": "2026-09-22",
-  "lastSyncedAt": "2026-09-22T06:02:44.425Z",
+  "lastSyncedAt": "2026-09-22T11:25:35.464Z",
   "warDay": 207,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "active": true,
+    "status": "fragile",
+    "confidence": 0.69,
     "durationDays": 10,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A ceasefire between Israel and Hezbollah is reported to be in effect, but recent strikes and targeting incidents suggest it is fragile and localized."
   }
 }
