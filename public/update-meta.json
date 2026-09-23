@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2471,
-  "lastUpdated": "2026-09-22",
-  "lastSyncedAt": "2026-09-22T22:15:58.029Z",
-  "warDay": 207,
+  "updateSequence": 2472,
+  "lastUpdated": "2026-09-23",
+  "lastSyncedAt": "2026-09-23T00:39:24.327Z",
+  "warDay": 208,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; tensions and threats of renewed conflict persist."
+    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
   }
 }
