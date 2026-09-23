@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2475,
+  "updateSequence": 2476,
   "lastUpdated": "2026-09-23",
-  "lastSyncedAt": "2026-09-23T14:54:39.974Z",
+  "lastSyncedAt": "2026-09-23T18:57:57.065Z",
   "warDay": 208,
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "No active ceasefire is in place for the broader Iran-US conflict, though Iran has offered conditions for a regionwide ceasefire."
+    "summary": "A separate Israel-Hezbollah ceasefire is reported to be holding, allowing for activities like exploring ancient ruins in Tyre."
   }
 }

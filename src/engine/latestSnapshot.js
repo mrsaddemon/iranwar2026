@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2475,
+  "updateSequence": 2476,
   "lastUpdated": "2026-09-23",
-  "lastSyncedAt": "2026-09-23T14:54:39.974Z",
+  "lastSyncedAt": "2026-09-23T18:57:57.065Z",
   "warDay": 208,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "The ongoing war involving Iran continues with diplomatic efforts and threats, regional tensions, and concerns over the Strait of Hormuz, while a separate Israel-Hezbollah ceasefire holds.",
   "lastNarrativeUpdate": "2026-09-23",
   "ceasefire": {
     "active": true,
     "status": "active",
-    "confidence": 0.98,
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "No active ceasefire is in place for the broader Iran-US conflict, though Iran has offered conditions for a regionwide ceasefire."
+    "summary": "A separate Israel-Hezbollah ceasefire is reported to be holding, allowing for activities like exploring ancient ruins in Tyre."
   },
   "actorOverrides": {
     "usa": {
@@ -18,99 +18,99 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.6,
         "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
+    "nuclearIndex": 40,
     "escalationLevel": 38,
-    "oilDisruption": 75,
-    "tradeImpact": 45,
-    "sanctionsPressure": 49,
-    "globalPressure": 54,
-    "allianceInfluence": 46
+    "oilDisruption": 65,
+    "tradeImpact": 38,
+    "sanctionsPressure": 53,
+    "globalPressure": 58,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Sep 22",
-      "text": "Trump's threats against Iran are described as demonstrating America’s strategic dead end by Iranian sources.",
-      "severity": "warning",
+      "date": "Sep 23",
+      "text": "Rubio states any deal with Tehran will require hard work, indicating ongoing diplomatic complexities.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2475
+      "latestSinceUpdate": 2476
     },
     {
       "date": "Sep 22",
-      "text": "Iran reportedly states it can reopen the Strait of Hormuz within 7 days if the U.S. eases military pressure.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2475
+      "text": "Iranian president arrives in New York as Trump considers options ranging from a deal to severe action against Iran.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2476
     },
     {
-      "date": "Sep 23",
-      "text": "The UN General Assembly 2026 agenda is dominated by discussions on the war on Iran and the Gaza genocide.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxORnRDRVJZQXo4bW0xbXFGSmc5c01DMGF1bUk4V3JMYWJiNzROWW8zelZrRWxTS094QlY5UFo2elVxanBpSzZ5bG82c3FwWTREdXlJRTRtcjVEMkhjajdDRjNDYjAzM3NqRUw3Nnloalo2cGs5bXpZWWJIcngtWE10LTVSclhzQ2RHYm5IazROdHM3d1k0a0E0aHhpQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Middle East Eye",
-      "latestSinceUpdate": 2475
-    },
-    {
-      "date": "Sep 23",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2475
-    },
-    {
-      "date": "Sep 23",
-      "text": "US and Iran hold their first talks since June following Trump's 'annihilation' threat.",
+      "date": "Sep 22",
+      "text": "US and Iran hold first talks since June following Trump's 'annihilation' threat, signaling cautious diplomatic engagement.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE9GNzdwTjBOUmNtS1hEZ0dnQWdKc29TM1NGZC1FdnFUR25keVBJdmdGb3NtR3l5ZFhGWGtWRFBaWUFXZlN2ZzFJUHNIRUtOaHRMT1lheUtZWUgzSDA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "BBC",
-      "latestSinceUpdate": 2475
+      "latestSinceUpdate": 2476
     },
     {
-      "date": "Sep 23",
-      "text": "Another U.S. service member dies amid the Iran war, according to a Pentagon tally.",
+      "date": "Sep 22",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPU0Zza0o3MjZKaHdDNGo2eU1tdWREejVYamZGZThZdXNPN2V4MXNIZHVRczlYaHRCdzQ5T3BQZ3VqT3NVbmxPdXd0V3dhMjZDbVhqR3dJN01VOWp6bFduMXRDczBhaHBLZlRDYnR3SzZSQWxwcnM2TW1GajhNS0lGQkk2WDJjWEV0SDNTY3oxNm1COTlNd2RCWmhMTkJWRW9SMm9FVWRRaUZudVVONUtteENB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2475
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2476
+    },
+    {
+      "date": "Sep 22",
+      "text": "An Indian sailor was killed in an attack on a vessel in the Strait of Hormuz, raising concerns about maritime security.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxQcWViLWc1c1E5QWJrM0VqMHpzaGc5eExsYk5pbURIcEJtSGlfaVZtNjc5S051d2dnSVNXVHQwNzUtbUZXeHV5ZHlhNG4xeWpnYV9fMW5zT3lEUnZ0UjRRUENtc2lvb3djdXp4NjV6TjYzR1UxQjNYUFZzMGdHbm5acUdVQ095cTBaR1d1SlJ4RnNXRWZVT3dCZ2xKamZrTHRzXzY0VkJRT3hlN0lPQk5YeUJMOU1kOWZwYVQtWHRsWTBMMEdFakFrcXloQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2476
+    },
+    {
+      "date": "Sep 22",
+      "text": "The Pentagon officially adds another U.S. service member death to the count from the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxPck02THJPZUtDZ2p5YlpEM2IxeEdpZFBKdzdocWVWT1FmXzdFY3ZsSXdpTWpSWkd5V0tqc3VxZ01UaG9ROHJCVDdhdHJFdk9iNjRYMXpuN1pmOTczM3hXUUV4MnBlVkNTR08zcHp3QnVSdFh5emxvTlJNUUZPeWZJT0ttWDZoYzY2TUZ5Q3hPTUd4SkxtQlVQamRXNFl0U2F3ejdVSXhpNTlVaFZWRXd0cXBFSVNDT3hG?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "the-independent.com",
+      "latestSinceUpdate": 2476
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
