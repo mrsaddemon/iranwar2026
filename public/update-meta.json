@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2473,
+  "updateSequence": 2474,
   "lastUpdated": "2026-09-23",
-  "lastSyncedAt": "2026-09-23T05:15:17.157Z",
+  "lastSyncedAt": "2026-09-23T10:03:50.618Z",
   "warDay": 208,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Mediated talks between the US and Iran are ongoing at the UN General Assembly to discuss ending the war and reopening the Strait of Hormuz, but no active ceasefire is in effect."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   }
 }

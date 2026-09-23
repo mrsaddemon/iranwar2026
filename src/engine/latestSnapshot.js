@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2473,
+  "updateSequence": 2474,
   "lastUpdated": "2026-09-23",
-  "lastSyncedAt": "2026-09-23T05:15:17.157Z",
+  "lastSyncedAt": "2026-09-23T10:03:50.618Z",
   "warDay": 208,
-  "summary": "US and Iran are engaged in mediated UN talks to end the war and reopen the Strait of Hormuz, while both sides accuse each other of planning renewed military actions and civilian casualties are reported from US-Israeli strikes.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-09-23",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.1,
+    "active": true,
+    "status": "active",
+    "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Mediated talks between the US and Iran are ongoing at the UN General Assembly to discuss ending the war and reopening the Strait of Hormuz, but no active ceasefire is in effect."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 23",
-      "text": "Iran reportedly states it can reopen the Strait of Hormuz within 7 days if the U.S. eases military pressure.",
+      "text": "Iran war live: Trump threat ‘demonstrates America’s strategic dead end’",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2474
+    },
+    {
+      "date": "Sep 23",
+      "text": "Iran Update, September 21, 2026",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQclpjSUpKX0hzeDl6dUNtc2l1WXdWc2FHTF94VHQzQVpQNHE1OUlWRkFlbEhWSldGMUdtNmM1RWpwdjJjd2JjZ0lseXF0UXNfcFF0VzctZGRnaHpfdXdxM1poTnllMFhZS1dXMEZOdFZ5OG9aeXd0SUk5ZW52by14c251OGZMRjQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2474
+    },
+    {
+      "date": "Sep 23",
+      "text": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2473
+      "latestSinceUpdate": 2474
     },
     {
       "date": "Sep 23",
-      "text": "US and Iran hold mediated UN General Assembly talks on ending the war and opening the Strait of Hormuz.",
+      "text": "What are Iran’s latest conditions to end its war with the US?",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNLXRPQTVqXzVzVmR1V3YtSUptb2pyejlHYzRaOWFQR2dhdmNrdnBkTUpVUU9ETy1kRTJhRkE1SlpidGF5UU1KZ0ZOSlJ2WjU4bWlkMUQ3WVZGdGlNS2ZiQWU3Q3pqdHVHV211TGpnVzloZG9LcDlXeEliY01ueTg1dmc5RzZUZEwzamJnZlZZYlRpc1ZLcWZQQXNkQzhqdzFBM00xdzZRZnJEbDlpOE4yVWRR0gG3AUFVX3lxTE02elBuektCcFRIeV9GcFF0TS0zNEhPR2hLM0NoYVNiZzRFcUIyd0NmVlgyTFV3OUFqbGRuVHVVVWRwVUlOMDlSRkJ2VGZxc0Y5WEt4NWpycC1MLVFhaHVUM3drd2xTWUhVdW8xYnBERXBvZnJMMmFFZFBNZno5WjRqTVJzWlBOQUdrT2E5YTdiQ0c5em9abmdBQ0tUUnM1dDlfODk3dGcweE1PZmtaemt1bjZIakMwYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxOTXlIb3YxTktUQTlDd0JLTUlzNWhFS0Y4bk5DSnJiMlRINzFQWGRUNjZ5bi1UV3g0V0xfR3NHTjJhVXpHMGhIY0U5UHBNaDlFdnZBU0JWRDhBSElMN0gwY2s5M1hvb1hHVHZrdldWbWVRUWJubk1oV0lERG9pNUtlbXdsT0RmbkFvZHVYMzNWeG1yVFpCU051RE96M3Y4QdIBowFBVV95cUxQRjdic3M2Y1pJTEtTeTF6T2JVdm9IX1lmeHRkelZSWVlwNVhRc3RlUl8tRTBvb2lFMHBiZXY4a3dCZjRiY0d2MWlyR0NBWXVjajVhR19uYkVVTW9JSVdSMF9CTlp1MF9taWxHQ0VXREt2M21oTkFmTy0yLTZOOTFwcDg2VmQwWmQzbWNMd2dDbW91R0g4by1WWTBHWkxGMHcteW1N?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2473
+      "latestSinceUpdate": 2474
     },
     {
       "date": "Sep 23",
-      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2473
-    },
-    {
-      "date": "Sep 23",
-      "text": "Iran's military command states it has been informed of US plans to resume strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2473
-    },
-    {
-      "date": "Sep 23",
-      "text": "Saudi Arabia prepares to reopen the East-West pipeline, potentially leading to a drop in oil prices.",
+      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi2wFBVV95cUxPOFJHLUlpLTVMVjAwY21KdzV3SXJZQld4YjUtbS1pcTMyLUJCUHdVZURUZ3BmN1VTRmVYbWJ4TnFPS0EwQmZuNnhkRmpHTVJ6cGUwbDFaaWlaRjVzTy13VWh5WEFxMXlLdVJhV0drR2hjLUtFbk1aZ1BFdUdBRi1HUldRTHUwZTI1X0ZneHVEM25PNnQzNTU3QnNCRkZ6Y2ZacEsyS3FPYzdrRHlWU1RpZlN0Mi05SzNjQjBlcVBHQmxuVUVSaGFRV1pwYUNVVzJacUtyU2lvbDR5T2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Irish Times",
-      "latestSinceUpdate": 2473
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "amnesty.org",
+      "latestSinceUpdate": 2474
     },
     {
       "date": "Sep 23",
-      "text": "Another U.S. service member dies amid the Iran war, according to the Pentagon.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPU0Zza0o3MjZKaHdDNGo2eU1tdWREejVYamZGZThZdXNPN2V4MXNIZHVRczlYaHRCdzQ5T3BQZ3VqT3NVbmxPdXd0V3dhMjZDbVhqR3dJN01VOWp6bFduMXRDczBhaHBLZlRDYnR3SzZSQWxwcnM2TW1GajhNS0lGQkk2WDJjWEV0SDNTY3oxNm1COTlNd2RCWmhMTkJWRW9SMm9FVWRRaUZudVVONUtteENB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2473
+      "text": "What’s Going On In Iran?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE54QU1vWXpFSHdpSG5WR3JkZ1lyMGFvRjVEeExRNFdTSjM3WFQyUG5Gd0o5d2tnMmE4ck4yb1RVZzFTZ2tJZHFZbTFjZFNhclBUcC1hYlI4R3B6dUN5eVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "warontherocks.com",
+      "latestSinceUpdate": 2474
     }
   ],
   "sourceStatuses": [
