@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2478,
+  "updateSequence": 2479,
   "lastUpdated": "2026-09-24",
-  "lastSyncedAt": "2026-09-24T00:32:35.351Z",
+  "lastSyncedAt": "2026-09-24T05:16:18.322Z",
   "warDay": 209,
-  "summary": "The Iran-US conflict continues with ongoing US-Israeli strikes on Tehran, rising US casualties, and Iran expressing readiness for dialogue and reopening the Strait of Hormuz under specific conditions, while oil prices have fallen.",
+  "summary": "Diplomatic efforts are underway with Iran's President addressing the UN General Assembly and offering dialogue, while US-Israeli strikes on Tehran neighborhoods are under investigation for civilian harm, and shipping traffic in the Strait of Hormuz remains lower than average.",
   "lastNarrativeUpdate": "2026-09-24",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, though diplomatic overtures and conditions for de-escalation have been floated."
+    "summary": "No active ceasefire or de-escalation agreement is currently in place between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 62
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.65
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 40,
     "escalationLevel": 75,
-    "oilDisruption": 30,
-    "tradeImpact": 35,
+    "oilDisruption": 60,
+    "tradeImpact": 57,
     "sanctionsPressure": 62,
-    "globalPressure": 70,
-    "allianceInfluence": 46
+    "globalPressure": 75,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 24",
-      "text": "Tehran expresses readiness for ‘dialogue, diplomacy without force’ amid ongoing conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2478
-    },
-    {
       "date": "Sep 22",
-      "text": "Iranian President Pezeshkian addresses the 2026 UN General Assembly.",
+      "text": "Iranian President Pezeshkian addresses 2026 UN General Assembly, calling for dialogue and diplomacy without force.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNdGVwQTd0TVh0YW5rbU5EQWo3QkVXYk9BWE0wZG5XLVZjZEgxdjBndURxZEFnQmo3aFR6Vk1oSlpiUFFmUXl0S3lUd1NvOGFXNnA0UmJmLVhXRE1pS01hMkkzTUl0ZGZJTVhVclRadnRkclVXUjlBbUctZkhzMFB1RTlvenlhWVp4NEZVVUd5cE44WTNONG5JSXQ0QUY4Q2pkRVYyX3BUVmVCdEMwSmfSAbMBQVVfeXFMTlNKMmxzYVBqRnY3Q0p4QUQ0eUp2cXZlTkxFNDNIeVpuWEY2TVNCYjN6ODBBZkNJU21tN2xRbHdsd0duWUJ3Y3ZsQ3B6cFVTSC1hRWJEck44VnVUczZtVEtiVXRQX3UzNkFuWmJLeUVCeURNVHlrWl9PUm1oZ0IyNThuSS1oTkRsbkN0akpJVFk2TndvbUNzOUg5VFlfZkdqZk0ySjNwMENzeGZNazhpcXpsSUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 2478
+      "latestSinceUpdate": 2479
     },
     {
-      "date": "Sep 24",
-      "text": "Iran reportedly states it can reopen the Strait of Hormuz within 7 days if the U.S. eases military pressure.",
-      "severity": "info",
+      "date": "Sep 22",
+      "text": "Iran reportedly states it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2478
+      "sourceName": "cnbc.com",
+      "latestSinceUpdate": 2479
     },
     {
-      "date": "Sep 24",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 23",
+      "text": "Investigation launched into US-Israeli strikes on Tehran neighbourhoods revealing devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2478
+      "latestSinceUpdate": 2479
     },
     {
-      "date": "Sep 24",
-      "text": "Iran’s military command states it has been informed of US plans to resume strikes.",
+      "date": "Sep 23",
+      "text": "Shipping traffic via Strait of Hormuz stays lower than 10-day average.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxPaHk4MGQybWQzOXNVaUViSmJxVjJpSGozUjBzdEo0d0pLSVV6czdsRm9HRWZEVlo4ZDRPN083RzhndTU5cU5yWkpSVnI2R05qdGdjaW5XWmRlWXZDWUJRTUZWSmt5YUtwXzAxMDhnUk5qRTBRWW1kbWxXX28yal9zS1lPMFYwblQ0b0swOGJWQWQtN2g4SmM1SHNMSnMzUVZ4OUx1eDZ30gGrAUFVX3lxTFBpcjVGRXJPaGpFU1o1MUx6UkRmMC1kTEhNbWlTMVNLVjZ6SlhlajdIODIxUkRoN0lkaVpsczhCcy1mZmhqSmNBS29iYXFiVE1Jd3BGb080OUZBZ0NIUmtkY3Rsd3ZNUUx5aVB3RmdJcDVJYXRaZ2RPWVg0UmFnOGV3RzdpZDBZYVRsaHVCbDB2Q3cwRmp3WjBRWWZGMThMRjN4OXBLM0dFbnpGaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2478
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPNklscWtES21ucjBWM3pFTEtlWFJxQy0wSGZid3RYUUQ5OHVyNTZINXJBTENHb0FWUGZoVElaUzBVTksxVnRLd0VyMWJJYlZqX2RNWHc3dXhObzMtNHhwT3BGeTU2VHhwRjFmcHlLd0kxbTJDUU5BWjd5c1NSdk9EZEJkUmg0U3JjZWJSamNxX3paWGN5NjNBOHBycUhDdWNSbzVFNEs0cUZTUVVnY3lxRUdQejVOVmpwbWg2RF9VdnI1UG1YRm1kODdpbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2479
     },
     {
-      "date": "Sep 24",
-      "text": "More U.S. troops have died amid the Iran war than publicly disclosed, with another soldier's death reported.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2478
+      "date": "Sep 23",
+      "text": "Oil Prices Fall as Saudi Arabia Restarts Pipeline Bypassing Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPSkt4UzdsemNyM1JIcmprTHJrLTNZM25ZVV94WjkxcGFtVW42eHQ1LS1NeTk0eEkwbko1MU9DSi1zZTRoSHVnWHZHcU81Wnl6WU5Xb2VxS3NQQ0YxaDJxSDFLcDdPM2FQWEllaGkwWXNKWm41eGxXZUVmMUw3TkNDN3R1bXVRTHVMcGE3TksyZEpUSS1xczJ6aUdUM3JPcHJXRTh4Nmlrc2Jfd0FpZGJURktETQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "IranWire",
+      "latestSinceUpdate": 2479
+    },
+    {
+      "date": "Sep 23",
+      "text": "US Military modifies AI and lethal targeting process following an Iran school strike.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2479
     }
   ],
   "sourceStatuses": [
