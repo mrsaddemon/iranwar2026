@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2479,
+  "updateSequence": 2480,
   "lastUpdated": "2026-09-24",
-  "lastSyncedAt": "2026-09-24T05:16:18.322Z",
+  "lastSyncedAt": "2026-09-24T10:07:50.381Z",
   "warDay": 209,
-  "summary": "Diplomatic efforts are underway with Iran's President addressing the UN General Assembly and offering dialogue, while US-Israeli strikes on Tehran neighborhoods are under investigation for civilian harm, and shipping traffic in the Strait of Hormuz remains lower than average.",
+  "summary": "The ongoing conflict between Iran, the US, and Israel continues with reports of US-Israeli strikes on Tehran, rising US casualties, and significant disruption to the Strait of Hormuz, while Iran offers dialogue.",
   "lastNarrativeUpdate": "2026-09-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation agreement is currently in place between the primary belligerents."
+    "summary": "No active ceasefire or de-escalation agreement is reported, despite Iran's offer for dialogue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.6
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 75,
-    "oilDisruption": 60,
-    "tradeImpact": 57,
-    "sanctionsPressure": 62,
-    "globalPressure": 75,
+    "escalationLevel": 80,
+    "oilDisruption": 90,
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 22",
-      "text": "Iranian President Pezeshkian addresses 2026 UN General Assembly, calling for dialogue and diplomacy without force.",
+      "text": "Iranian President Pezeshkian addresses the UN General Assembly, accusing the U.S. and Israel of lawless attacks.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNdGVwQTd0TVh0YW5rbU5EQWo3QkVXYk9BWE0wZG5XLVZjZEgxdjBndURxZEFnQmo3aFR6Vk1oSlpiUFFmUXl0S3lUd1NvOGFXNnA0UmJmLVhXRE1pS01hMkkzTUl0ZGZJTVhVclRadnRkclVXUjlBbUctZkhzMFB1RTlvenlhWVp4NEZVVUd5cE44WTNONG5JSXQ0QUY4Q2pkRVYyX3BUVmVCdEMwSmfSAbMBQVVfeXFMTlNKMmxzYVBqRnY3Q0p4QUQ0eUp2cXZlTkxFNDNIeVpuWEY2TVNCYjN6ODBBZkNJU21tN2xRbHdsd0duWUJ3Y3ZsQ3B6cFVTSC1hRWJEck44VnVUczZtVEtiVXRQX3UzNkFuWmJLeUVCeURNVHlrWl9PUm1oZ0IyNThuSS1oTkRsbkN0akpJVFk2TndvbUNzOUg5VFlfZkdqZk0ySjNwMENzeGZNazhpcXpsSUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 2479
+      "latestSinceUpdate": 2480
     },
     {
       "date": "Sep 22",
-      "text": "Iran reportedly states it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure.",
-      "severity": "warning",
+      "text": "Iran states readiness for dialogue and diplomacy without force, and claims ability to reopen Strait of Hormuz within 7 days if U.S. eases military pressure.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnbc.com",
-      "latestSinceUpdate": 2479
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2480
     },
     {
-      "date": "Sep 23",
-      "text": "Investigation launched into US-Israeli strikes on Tehran neighbourhoods revealing devastating civilian harm.",
+      "date": "Sep 24",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods, including a destroyed Iranian school.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2479
+      "latestSinceUpdate": 2480
     },
     {
-      "date": "Sep 23",
-      "text": "Shipping traffic via Strait of Hormuz stays lower than 10-day average.",
+      "date": "Sep 24",
+      "text": "A Khamenei adviser warns Iran may take the war to the Indian Ocean if Israel or the US strikes again.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPNklscWtES21ucjBWM3pFTEtlWFJxQy0wSGZid3RYUUQ5OHVyNTZINXJBTENHb0FWUGZoVElaUzBVTksxVnRLd0VyMWJJYlZqX2RNWHc3dXhObzMtNHhwT3BGeTU2VHhwRjFmcHlLd0kxbTJDUU5BWjd5c1NSdk9EZEJkUmg0U3JjZWJSamNxX3paWGN5NjNBOHBycUhDdWNSbzVFNEs0cUZTUVVnY3lxRUdQejVOVmpwbWg2RF9VdnI1UG1YRm1kODdpbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2479
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPV0hxS2ZmbnY3S0xzempVcFNiaXM4c1lkbVI2Y2pyWmk5VEdCRVFnanYxdkJubENRTnk5c2xMa01yWE9YLXl0VS1CUG5kOFJXNnl5Q2I4MkxUNXlYWUlFa2E5bXpmZUtTRUVGa0xPMjBpTmhzZnlRczRyRkNmanVuXzZVVHluMC1XM2lMUU4tNlZHUGkwWEZKU1Jnb1VXdUk1QlQ5THZfSXB2S010VDhZUFl0bi1mRGdGdEtJa2xKTG9VMEwxS1h6OW03Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2480
     },
     {
-      "date": "Sep 23",
-      "text": "Oil Prices Fall as Saudi Arabia Restarts Pipeline Bypassing Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPSkt4UzdsemNyM1JIcmprTHJrLTNZM25ZVV94WjkxcGFtVW42eHQ1LS1NeTk0eEkwbko1MU9DSi1zZTRoSHVnWHZHcU81Wnl6WU5Xb2VxS3NQQ0YxaDJxSDFLcDdPM2FQWEllaGkwWXNKWm41eGxXZUVmMUw3TkNDN3R1bXVRTHVMcGE3TksyZEpUSS1xczJ6aUdUM3JPcHJXRTh4Nmlrc2Jfd0FpZGJURktETQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "IranWire",
-      "latestSinceUpdate": 2479
-    },
-    {
-      "date": "Sep 23",
-      "text": "US Military modifies AI and lethal targeting process following an Iran school strike.",
-      "severity": "info",
+      "date": "Sep 24",
+      "text": "Macron states the Strait of Hormuz situation was probably underestimated, as Indian refiners increase LPG output due to blockage and EU seeks new routes.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2479
+      "latestSinceUpdate": 2480
+    },
+    {
+      "date": "Sep 24",
+      "text": "The U.S. Army identifies the 19th service member to die amid the Iran war, with reports of more undisclosed casualties.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQZ05kNy1HZWhaeGxCZmpGYlBpZnpCanN5cjhtSDItVTZlSHVtY0tPZnNFaGQ1dWZwZVVDNHppNmhScjVrb2tUQmxZSGNJZ2h4cDVWQ3BQVHdVZ1A0ZGU3N1pyVmN1Sk5OTnZCNjl1LXYxamFzSFRvNF82MlpaSjJubEpPemd3N1A4TFBfOGVOUDhJOHlnZi01dlNJSmoxWkxoZlVFTERzZ1RKbjc0Q3VEaWsyYVZmaFJ1SnQyTw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Military Times",
+      "latestSinceUpdate": 2480
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
