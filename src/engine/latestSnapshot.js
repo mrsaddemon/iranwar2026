@@ -1,57 +1,57 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2481,
+  "updateSequence": 2482,
   "lastUpdated": "2026-09-24",
-  "lastSyncedAt": "2026-09-24T15:12:24.576Z",
+  "lastSyncedAt": "2026-09-24T19:15:10.784Z",
   "warDay": 209,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "US and Iran are reportedly discussing a phased deal to reopen the Strait of Hormuz, while Israel remains ready to resume strikes on Iran, and US military casualties continue to rise.",
   "lastNarrativeUpdate": "2026-09-24",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported for the main Iran-US-Israel conflict, though a past Israel-Hezbollah ceasefire is referenced."
+    "summary": "No formal ceasefire or truce is currently in effect, though de-escalation talks regarding the Strait of Hormuz are reportedly underway."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 55
       },
       "behavior": {
         "precision": 0.4,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 70,
-    "tradeImpact": 41,
-    "sanctionsPressure": 49,
-    "globalPressure": 53,
-    "allianceInfluence": 46
+    "nuclearIndex": 75,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 65,
+    "globalPressure": 85,
+    "allianceInfluence": 57
   },
   "alliance": {
-    "russiaIntelSupport": false,
+    "russiaIntelSupport": true,
     "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 22",
-      "text": "Iranian President Pezeshkian addresses the UN General Assembly, with Iran stating readiness for 'dialogue, diplomacy without force'.",
+      "text": "Iran expresses readiness for 'dialogue, diplomacy without force' and addresses the UN General Assembly.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNdGVwQTd0TVh0YW5rbU5EQWo3QkVXYk9BWE0wZG5XLVZjZEgxdjBndURxZEFnQmo3aFR6Vk1oSlpiUFFmUXl0S3lUd1NvOGFXNnA0UmJmLVhXRE1pS01hMkkzTUl0ZGZJTVhVclRadnRkclVXUjlBbUctZkhzMFB1RTlvenlhWVp4NEZVVUd5cE44WTNONG5JSXQ0QUY4Q2pkRVYyX3BUVmVCdEMwSmfSAbMBQVVfeXFMTlNKMmxzYVBqRnY3Q0p4QUQ0eUp2cXZlTkxFNDNIeVpuWEY2TVNCYjN6ODBBZkNJU21tN2xRbHdsd0duWUJ3Y3ZsQ3B6cFVTSC1hRWJEck44VnVUczZtVEtiVXRQX3UzNkFuWmJLeUVCeURNVHlrWl9PUm1oZ0IyNThuSS1oTkRsbkN0akpJVFk2TndvbUNzOUg5VFlfZkdqZk0ySjNwMENzeGZNazhpcXpsSUk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 2481
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2482
     },
     {
-      "date": "Sep 24",
+      "date": "Sep 23",
       "text": "Iran reportedly states it can reopen the Strait of Hormuz within 7 days if the U.S. eases military pressure.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnbc.com",
-      "latestSinceUpdate": 2481
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2482
     },
     {
-      "date": "Sep 24",
-      "text": "Israel declares readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "date": "Sep 23",
+      "text": "US and Iran are said to be exploring a phased deal to open the Strait of Hormuz and end the US blockade.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNYXMwQlBmRVM4WXVFeXhQVkcyYnpaUzE3dk1wUWswS3pZWDBKTGNWVEpqdFNsWXZEYm5PQ3pSVmRhVFl1empQN3p6SFY0YTVHRmxxNWpxbXFNWVlCOEF5T0tBLVp0MzNyWVlyQnpkbUtyVzNTeGtxQXZVc3hhb0E4aVV6bU5QVEdHMFhCaXRhV3hxQVJ3MWRXNF9tNG5EeUVzcTdEOUhGSExiS3F2SUlkS2xzRk1mNlg4bkRhR0FoaE5QZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2482
+    },
+    {
+      "date": "Sep 23",
+      "text": "Oil prices rise but gains are capped on reports of phased opening of Hormuz Strait under discussion.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTE80WjZpb010NUEwdFdwS2tleVlkeFU0aFhVSWRNTnRsSG5IQ0hVQXdVcXhodEUtc3VvWjBwbDh1UnZxSzI1ZVlIbWF4VnRQamJRcVpCRGNNMm9fRDNOTXBBcFFIUDhUenJ5VTFjYjR3bGNXUTJwNFRZd3JqVdIBgAFBVV95cUxQOHZqcXFpeHY3MVNQSE5PalBWSmlmM3cxV1lpaTBCOHdnUDh3MC1UWWFjczFGWWFjLUdmQ0tBN1kwTHNURTR0R09GVFdocTRPU3lYWUpxNUV3ejdGNnFUSlhLNzlvVWowT0FxSFFheWlMeV9mc05PbUFHeHJxTzZIOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2482
+    },
+    {
+      "date": "Sep 23",
+      "text": "Israel declares readiness to resume strikes on Iran as the regime reportedly aims to rebuild its nuclear program.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2481
+      "latestSinceUpdate": 2482
     },
     {
-      "date": "Sep 24",
-      "text": "A Khamenei adviser warns Iran may take the war to the Indian Ocean if Israel or the US strikes again.",
+      "date": "Sep 23",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPV0hxS2ZmbnY3S0xzempVcFNiaXM4c1lkbVI2Y2pyWmk5VEdCRVFnanYxdkJubENRTnk5c2xMa01yWE9YLXl0VS1CUG5kOFJXNnl5Q2I4MkxUNXlYWUlFa2E5bXpmZUtTRUVGa0xPMjBpTmhzZnlRczRyRkNmanVuXzZVVHluMC1XM2lMUU4tNlZHUGkwWEZKU1Jnb1VXdUk1QlQ5THZfSXB2S010VDhZUFl0bi1mRGdGdEtJa2xKTG9VMEwxS1h6OW03Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2480
-    },
-    {
-      "date": "Sep 24",
-      "text": "An investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2481
-    },
-    {
-      "date": "Sep 24",
-      "text": "US military casualties rise, with the Army identifying the 19th US service member to die amid the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQZ05kNy1HZWhaeGxCZmpGYlBpZnpCanN5cjhtSDItVTZlSHVtY0tPZnNFaGQ1dWZwZVVDNHppNmhScjVrb2tUQmxZSGNJZ2h4cDVWQ3BQVHdVZ1A0ZGU3N1pyVmN1Sk5OTnZCNjl1LXYxamFzSFRvNF82MlpaSjJubEpPemd3N1A4TFBfOGVOUDhJOHlnZi01dlNJSmoxWkxoZlVFTERzZ1RKbjc0Q3VEaWsyYVZmaFJ1SnQyTw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military Times",
-      "latestSinceUpdate": 2481
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2482
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",

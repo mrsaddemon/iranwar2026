@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2481,
+  "updateSequence": 2482,
   "lastUpdated": "2026-09-24",
-  "lastSyncedAt": "2026-09-24T15:12:24.576Z",
+  "lastSyncedAt": "2026-09-24T19:15:10.784Z",
   "warDay": 209,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported for the main Iran-US-Israel conflict, though a past Israel-Hezbollah ceasefire is referenced."
+    "summary": "No formal ceasefire or truce is currently in effect, though de-escalation talks regarding the Strait of Hormuz are reportedly underway."
   }
 }
