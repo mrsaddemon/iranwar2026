@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2488,
+  "updateSequence": 2489,
   "lastUpdated": "2026-09-25",
-  "lastSyncedAt": "2026-09-25T19:28:26.669Z",
+  "lastSyncedAt": "2026-09-25T22:44:05.976Z",
   "warDay": 210,
-  "summary": "Amidst ongoing conflict, Iran has offered a 7-day plan to end the war and reopen the Strait of Hormuz, while both sides continue to trade threats and Israel prepares for further strikes.",
+  "summary": "The 7-month war between the US and Iran continues with ongoing military actions and threats, while diplomatic efforts are underway to negotiate a phased end and the reopening of the Strait of Hormuz, impacting global oil prices.",
   "lastNarrativeUpdate": "2026-09-25",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, despite Iran's proposal for a 7-day plan to end the conflict."
+    "summary": "No active ceasefire is in effect, though diplomatic discussions are ongoing regarding a potential phased end to the conflict and reopening of the Strait of Hormuz."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,31 +28,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 85,
+    "nuclearIndex": 75,
     "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
+    "sanctionsPressure": 65,
     "globalPressure": 82,
-    "allianceInfluence": 51
+    "allianceInfluence": 57
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Sep 24",
-      "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks.",
+      "text": "Iran's president states ending war is US's choice, offers dialogue and diplomacy without force.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2487
-    },
-    {
-      "date": "Sep 25",
-      "text": "Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2488
-    },
-    {
-      "date": "Sep 25",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
-      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2488
+      "latestSinceUpdate": 2489
     },
     {
-      "date": "Sep 25",
+      "date": "Sep 24",
       "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2488
+      "latestSinceUpdate": 2489
     },
     {
-      "date": "Sep 25",
-      "text": "Iran Proposes 7-Day Plan to End War.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5ZNjJzT2M3cmx3aVBfd2c3ZmptNmhmVW5PeE94UEVqS0RkZ3pWN3pjQ2oweFUyMkxVN1A1NU5iOUxNUEpuTzZ5TFNIR0UzUE9Nd1pIUDdDanZnclRxUGUyMzJCejNrcl9fRWpnNlg3cEh5bXh5OGIzNm1R?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2488
+      "date": "Sep 23",
+      "text": "Oil prices rise as U.S. and Iran trade fresh threats to expand the 7-month war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cbsnews.com",
+      "latestSinceUpdate": 2489
     },
     {
-      "date": "Sep 25",
-      "text": "Trump tells Xi helping Tehran is ‘totally unacceptable’ as diplomats weigh phased end.",
+      "date": "Sep 23",
+      "text": "Israel indicates readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2489
+    },
+    {
+      "date": "Sep 22",
+      "text": "Iran offers to reopen the Strait of Hormuz within 7 days and restart nuclear talks with the US.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOelM4Qld0RXBSek9RamprTnR6YXpuYXc0eW9GWXVNa0V3NkhPa1pVU0R1RkEwbkIyWkdibGZCcUxmWHFuYkYyOG44bVVKVUl4Sm1MSWF5bkh6OW9QdFppTVoybkdaNmNDNE02ZXI0ZnBSVjQ3SHhqbHY4MUFPeEpQMHQxd3hvaFgzLW8yVVk3eHVUSWtIVGtvV0hrV0MwS1c2UzJuS1REMks3WWdpRkQ2ZXdNSElTRFVXTmI0NA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 2488
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2489
+    },
+    {
+      "date": "Sep 22",
+      "text": "Crude oil prices slide after Iranian and US negotiators discuss opening the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQU1JDOTdYWWZROGVYOWIzMnhmeU5aeVM1MUpKLVB4R1FWMWVCZFJRM3N2cWlHdmhaZVFiTVlxTUVaV1NrTWlXTTh6SDdkV2hobmFLc3RRMXNPcG1oUE9UQ0NqOWZMd1hsOTh2UjkyWXVKTGNNclZCamkzQ2RKeG1uaXl5M3Y5LW5O?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2489
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

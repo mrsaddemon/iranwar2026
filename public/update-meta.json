@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2488,
+  "updateSequence": 2489,
   "lastUpdated": "2026-09-25",
-  "lastSyncedAt": "2026-09-25T19:28:26.669Z",
+  "lastSyncedAt": "2026-09-25T22:44:05.976Z",
   "warDay": 210,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, despite Iran's proposal for a 7-day plan to end the conflict."
+    "summary": "No active ceasefire is in effect, though diplomatic discussions are ongoing regarding a potential phased end to the conflict and reopening of the Strait of Hormuz."
   }
 }
