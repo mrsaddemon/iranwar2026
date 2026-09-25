@@ -1,57 +1,57 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2483,
-  "lastUpdated": "2026-09-24",
-  "lastSyncedAt": "2026-09-24T22:29:25.479Z",
-  "warDay": 209,
-  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
-  "lastNarrativeUpdate": "2026-09-24",
+  "updateSequence": 2484,
+  "lastUpdated": "2026-09-25",
+  "lastSyncedAt": "2026-09-25T00:44:11.371Z",
+  "warDay": 210,
+  "summary": "Amidst ongoing conflict, Iran proposes dialogue and deals for the Strait of Hormuz, while Israel remains ready to conduct strikes following recent US-Israeli actions in Tehran.",
+  "lastNarrativeUpdate": "2026-09-25",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire is in effect; diplomatic proposals are ongoing amidst continued military actions and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.75,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.68,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 38,
-    "oilDisruption": 62,
-    "tradeImpact": 35,
-    "sanctionsPressure": 51,
-    "globalPressure": 55,
-    "allianceInfluence": 57
+    "nuclearIndex": 78,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
+    "russiaIntelSupport": false,
     "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 24",
-      "text": "Iran war updates: Tehran ready for ‘dialogue, diplomacy without force’",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2483
-    },
-    {
-      "date": "Sep 24",
-      "text": "WATCH: Iranian President Pezeshkian addresses 2026 UN General Assembly",
+      "date": "Sep 25",
+      "text": "Iranian President Pezeshkian addresses the 2026 UN General Assembly, emphasizing dialogue and diplomacy without force.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNdGVwQTd0TVh0YW5rbU5EQWo3QkVXYk9BWE0wZG5XLVZjZEgxdjBndURxZEFnQmo3aFR6Vk1oSlpiUFFmUXl0S3lUd1NvOGFXNnA0UmJmLVhXRE1pS01hMkkzTUl0ZGZJTVhVclRadnRkclVXUjlBbUctZkhzMFB1RTlvenlhWVp4NEZVVUd5cE44WTNONG5JSXQ0QUY4Q2pkRVYyX3BUVmVCdEMwSmfSAbMBQVVfeXFMTlNKMmxzYVBqRnY3Q0p4QUQ0eUp2cXZlTkxFNDNIeVpuWEY2TVNCYjN6ODBBZkNJU21tN2xRbHdsd0duWUJ3Y3ZsQ3B6cFVTSC1hRWJEck44VnVUczZtVEtiVXRQX3UzNkFuWmJLeUVCeURNVHlrWl9PUm1oZ0IyNThuSS1oTkRsbkN0akpJVFk2TndvbUNzOUg5VFlfZkdqZk0ySjNwMENzeGZNazhpcXpsSUk?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 2483
+      "latestSinceUpdate": 2484
     },
     {
-      "date": "Sep 24",
-      "text": "Iran Update, September 22, 2026",
+      "date": "Sep 25",
+      "text": "Iran reportedly states it can reopen the Strait of Hormuz within 7 days if the U.S. eases military pressure.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQOUJPMGpFQ3NUc2VFYkxZMFdXNE9MYkpNeFM3eFQyeVhGU0tRVkctUkt5WGYtckFRTmNjZVZHMm1Cc1pDdTYxQkhXNXoxODRqbGJrMzVKVWV2cXlGNDFqVDkxeUxLX0hDOE1xOWxhYk5EeWlxTGt4WVJPZ1l1OXhIMl95MThmTHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "understandingwar.org",
-      "latestSinceUpdate": 2483
-    },
-    {
-      "date": "Sep 24",
-      "text": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE56cTJuZUVZVG1nNHo0SVU2eGgxQzNqbF9aWWhycHVZZmJNTDE5UkJSV3YzVDFVb042YTFOc08xd0M4cUo2MjFtakxyZVUxQ3drNnFKb182cU1JSGhtQ05vd2NTaDhHTXMyYktKcEdR0gFzQVVfeXFMUGpLbzc2YkZoQWFzOUFNRVNqejU0SF9lY3Rfa0lFNlFIUzR5ZUdrRE9VUDBjWllFSkU5YndMMU5kM2RCbDQ5UmVVR0NLSGtuY2ZvZWk1VXBBSVBDRWlTNHlwcjdEWUVycXd1QWVxLWtIV1RCTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2483
+      "latestSinceUpdate": 2484
     },
     {
-      "date": "Sep 24",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
-      "severity": "critical",
+      "date": "Sep 25",
+      "text": "Israel declares readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2483
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2484
     },
     {
-      "date": "Sep 24",
-      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
-      "severity": "info",
+      "date": "Sep 25",
+      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2483
+      "latestSinceUpdate": 2484
+    },
+    {
+      "date": "Sep 25",
+      "text": "A Khamenei adviser warns Iran may take the war to the Indian Ocean if Israel or the US strikes again.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPV0hxS2ZmbnY3S0xzempVcFNiaXM4c1lkbVI2Y2pyWmk5VEdCRVFnanYxdkJubENRTnk5c2xMa01yWE9YLXl0VS1CUG5kOFJXNnl5Q2I4MkxUNXlYWUlFa2E5bXpmZUtTRUVGa0xPMjBpTmhzZnlRczRyRkNmanVuXzZVVHluMC1XM2lMUU4tNlZHUGkwWEZKU1Jnb1VXdUk1QlQ5THZfSXB2S010VDhZUFl0bi1mRGdGdEtJa2xKTG9VMEwxS1h6OW03Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2484
+    },
+    {
+      "date": "Sep 25",
+      "text": "US and Iran discuss a phased deal to reopen the Strait of Hormuz and end the US blockade.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNYXMwQlBmRVM4WXVFeXhQVkcyYnpaUzE3dk1wUWswS3pZWDBKTGNWVEpqdFNsWXZEYm5PQ3pSVmRhVFl1empQN3p6SFY0YTVHRmxxNWpxbXFNWVlCOEF5T0tBLVp0MzNyWVlyQnpkbUtyVzNTeGtxQXZVc3hhb0E4aVV6bU5QVEdHMFhCaXRhV3hxQVJ3MWRXNF9tNG5EeUVzcTdEOUhGSExiS3F2SUlkS2xzRk1mNlg4bkRhR0FoaE5QZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2484
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Stance",
-      "headline": "Tehran Offers Dialogue, Hormuz Reopening Amid US Pressure",
-      "summary": "Iran expresses readiness for dialogue and diplomacy, offering to reopen the Strait of Hormuz if the US eases military pressure and lifts blockades. President Pezeshkian asserts Iran will not 'bend the knee' to US threats, viewing them as 'strategic desperation'.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2478
-    },
-    {
-      "perspective": "US/Israeli Actions & Impact",
-      "headline": "US-Israeli Strikes Cause Civilian Harm, US Casualties Rise",
-      "summary": "US and Israeli forces are conducting strikes on Tehran, with investigations revealing devastating civilian harm, including the destruction of an Iranian school. The Pentagon has acknowledged rising US military casualties, including a recent 'non-hostile' death, amid reports of undisclosed fatalities.",
+      "perspective": "Iran",
+      "headline": "Tehran Seeks Dialogue Amidst Hormuz Proposals and Escalation Warnings",
+      "summary": "Iran is actively pursuing diplomatic solutions, with its President addressing the UN General Assembly and proposing a deal to reopen the Strait of Hormuz if US military pressure is eased. Concurrently, Tehran warns of potential escalation to the Indian Ocean should further US or Israeli strikes occur.",
       "tone": "strained",
-      "latestSinceUpdate": 2478
+      "latestSinceUpdate": 2484
     },
     {
-      "perspective": "Regional Instability",
-      "headline": "Middle East Escalation Feared Amid Lebanon's Struggles",
-      "summary": "Israel security officials warn of potential escalation across the Middle East, while Lebanon's army seeks $3 billion in aid with little progress. French President Macron emphasizes that only Lebanon can disarm Hezbollah, condemning Israeli violations.",
+      "perspective": "Israel",
+      "headline": "Israel Ready to Resume Strikes, Defends Actions Amidst Nuclear Concerns",
+      "summary": "Israel maintains its readiness to resume strikes on Iran, citing the regime's efforts to rebuild its nuclear program and defending previous joint operations. These actions, however, are under investigation for civilian harm in Tehran neighborhoods.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2484
+    },
+    {
+      "perspective": "USA",
+      "headline": "US Engages in Diplomacy While Adapting Military Operations",
+      "summary": "The US is involved in discussions with Iran for a phased deal regarding the Strait of Hormuz, indicating a diplomatic track. Simultaneously, the US military is adapting its AI and targeting processes after a school strike in Iran and has identified its 19th service member casualty in the ongoing conflict.",
       "tone": "anxious",
-      "latestSinceUpdate": 2478
+      "latestSinceUpdate": 2484
     }
   ]
 });
