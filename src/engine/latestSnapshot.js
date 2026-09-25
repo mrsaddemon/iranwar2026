@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2487,
+  "updateSequence": 2488,
   "lastUpdated": "2026-09-25",
-  "lastSyncedAt": "2026-09-25T15:29:30.211Z",
+  "lastSyncedAt": "2026-09-25T19:28:26.669Z",
   "warDay": 210,
-  "summary": "The 7-month war continues with Iran offering to reopen the Strait of Hormuz and restart nuclear talks, while US and Israel maintain threats of renewed strikes amid fluctuating oil prices.",
+  "summary": "Amidst ongoing conflict, Iran has offered a 7-day plan to end the war and reopen the Strait of Hormuz, while both sides continue to trade threats and Israel prepares for further strikes.",
   "lastNarrativeUpdate": "2026-09-25",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect between the primary belligerents."
+    "summary": "No active ceasefire is in effect, despite Iran's proposal for a 7-day plan to end the conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.55
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 75,
-    "oilDisruption": 65,
-    "tradeImpact": 60,
-    "sanctionsPressure": 62,
-    "globalPressure": 76,
+    "nuclearIndex": 85,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,43 +68,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Sep 25",
-      "text": "Oil prices fluctuate as U.S. and Iran trade fresh threats to expand the 7-month war, alongside diplomatic signals.",
+      "text": "Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2487
+      "latestSinceUpdate": 2488
     },
     {
       "date": "Sep 25",
-      "text": "Israel indicates readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "warning",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2487
+      "latestSinceUpdate": 2488
     },
     {
       "date": "Sep 25",
-      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2487
+      "latestSinceUpdate": 2488
     },
     {
       "date": "Sep 25",
-      "text": "Crude oil exports via the Strait of Hormuz are reported at 33.7 million barrels this week.",
+      "text": "Iran Proposes 7-Day Plan to End War.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOZXFDTzBxRUNwS0tCV0ZKaDI2Wm5RRXdCLVBYLW12YVdIeDZCX09tV3RKcEhHQ0xEM0JVMXZ1UWpiVW9wMDlkU2Y0b2ozbmZyX1I4RHhyUWphREs3NDFhaTJhcTRTbFRiY2lTV0RVMEo3RlM4X2pBRlB2Y1AtSENKSGs1VUNKZXJTSnVfLUZWMjdYZTgzOTdMenZ1bFhjejRoQXBYUWowN05OeWZ4ZGloS09GLU1aTFZtSE51Qk9hVTBlX2VwSUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2487
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE5ZNjJzT2M3cmx3aVBfd2c3ZmptNmhmVW5PeE94UEVqS0RkZ3pWN3pjQ2oweFUyMkxVN1A1NU5iOUxNUEpuTzZ5TFNIR0UzUE9Nd1pIUDdDanZnclRxUGUyMzJCejNrcl9fRWpnNlg3cEh5bXh5OGIzNm1R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2488
     },
     {
       "date": "Sep 25",
-      "text": "US military is spending $500M on ‘war-ready’ laser weapons, reportedly zapping drones in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxQdmw5TU16VldGWV9WWXl5eGFod1JtQXVxSzlPN3QySnJLZzFwYmljMUVEOGM5Z0hzTkVlS2pPZFJCQkRnX0tXQ2Y1VW5RNWJyZXIyeDE5TWMyNDFVNHJ5QUhsRTRRbGxtbXRPamxzSm5ndjJ6UTdZVUhyRHRDZ19mRC02MG5ldjFkT09pNlNYQ3IwOEdUTHpUWE9tSElaTENS?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "New York Post",
-      "latestSinceUpdate": 2487
+      "text": "Trump tells Xi helping Tehran is ‘totally unacceptable’ as diplomats weigh phased end.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOelM4Qld0RXBSek9RamprTnR6YXpuYXc0eW9GWXVNa0V3NkhPa1pVU0R1RkEwbkIyWkdibGZCcUxmWHFuYkYyOG44bVVKVUl4Sm1MSWF5bkh6OW9QdFppTVoybkdaNmNDNE02ZXI0ZnBSVjQ3SHhqbHY4MUFPeEpQMHQxd3hvaFgzLW8yVVk3eHVUSWtIVGtvV0hrV0MwS1c2UzJuS1REMks3WWdpRkQ2ZXdNSElTRFVXTmI0NA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 2488
     }
   ],
   "sourceStatuses": [
