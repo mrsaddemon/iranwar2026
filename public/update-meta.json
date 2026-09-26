@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2489,
-  "lastUpdated": "2026-09-25",
-  "lastSyncedAt": "2026-09-25T22:44:05.976Z",
-  "warDay": 210,
+  "updateSequence": 2490,
+  "lastUpdated": "2026-09-26",
+  "lastSyncedAt": "2026-09-26T00:56:18.410Z",
+  "warDay": 211,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, though diplomatic discussions are ongoing regarding a potential phased end to the conflict and reopening of the Strait of Hormuz."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
