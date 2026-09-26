@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2491,
+  "updateSequence": 2492,
   "lastUpdated": "2026-09-26",
-  "lastSyncedAt": "2026-09-26T06:03:14.206Z",
+  "lastSyncedAt": "2026-09-26T14:30:00.000Z",
   "warDay": 211,
-  "summary": "Iran has proposed a seven-day plan to reopen the Strait of Hormuz and restart nuclear talks amidst ongoing conflict and escalating threats with the US and Israel.",
+  "summary": "Iran has proposed a seven-day roadmap to end the war and reopen the Strait of Hormuz, but the offer was reportedly rejected by the US, while US-Israeli strikes on Tehran have caused civilian harm and Israel prepares for further action.",
   "lastNarrativeUpdate": "2026-09-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, despite Iran's proposal for a deal."
+    "summary": "Iran proposed a seven-day roadmap to end the war and reopen the Strait of Hormuz, but the offer was reportedly rejected by the US."
   },
   "actorOverrides": {
     "usa": {
@@ -18,26 +18,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
-      }
-    },
-    "israel": {
-      "metrics": {
-        "militaryPower": 80
-      },
-      "behavior": {
         "precision": 0.7,
         "aggression": 0.8
       }
     },
+    "israel": {
+      "metrics": {
+        "militaryPower": 85
+      },
+      "behavior": {
+        "precision": 0.7,
+        "aggression": 0.9
+      }
+    },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.6
       }
     }
   },
@@ -46,65 +46,65 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "escalationLevel": 85,
     "oilDisruption": 80,
     "tradeImpact": 73,
-    "sanctionsPressure": 66,
-    "globalPressure": 85,
-    "allianceInfluence": 62
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Sep 24",
-      "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks.",
+      "date": "Sep 25",
+      "text": "Iran says it awaits US response on seven-day roadmap to end war and hopes US returns to MoU before elections.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2491
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxPRnVpY3RpelFjOUdTUl9uajZnRFBZbXdfV3VOR05IZFlnUnJ0cUlSR3pucnFXRXlEdHpMNzRLSkppTjItRWtlTEVrdlp5eXZBaDNjVzQ2OEhKbGZRak5RdmJqVWotTHlVaFozMnNTeG1OWkVqbWZpMVFDdFQ0Mk5XZzFtSnRXMU1CS3o2OE1hbVQwUVhIVXAwWjdkaUFwQXNGZExqMFVEc9IBrAFBVV95cUxNVDQ5M2k2Y0lqNlFkS3F0ajg0bzRYemRVZzZTVHlVaDdTNW5qbnNZX0ZnRTlPNmdaNHh4OWJlVFRnZlkwNUFzb3VPLV9uYlRrOFlyZ2pFc0s1bUQxaWhUS2F6VnBvWXhMVWYxWF9vLWpscGI5Q1BIeXpvNmp6ZTlYVU5mMTk0SGhvVUprNFpKTWJKV1NVRV9iNTFSSkJxeEMwczR3RzVFeVF4dWps?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2492
     },
     {
-      "date": "Sep 26",
-      "text": "Oil prices increased as the U.S. and Iran traded fresh threats to expand the 7-month war.",
+      "date": "Sep 25",
+      "text": "Iran offers US deal to reopen Strait of Hormuz in seven days as part of a peace proposal.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE45Z0pMeUNRaTNfWUlMQmJEWE1mcW04c09tZERDRTR0aFRicWJ0b1pLczlhQ2lYMGZDTFlBMXMya3ZrOHdwcmRqTk5PQzZiODFFNndGTm1iT1NBc1U?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2492
+    },
+    {
+      "date": "Sep 25",
+      "text": "Trump reportedly rejects Iran’s seven-day plan to reopen Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2491
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPNW9YdEtZcG9ReWVxNnR0Y2dFM200Zi1QSjVLOTVWWjhTbWZBS25ONzBZSy1qOHdsOHpPZG9UUGp6blRpOUVkY1B2M2EyYUVIaUwtazRtNWJObzc0WHBfZXJESEFDQ2U1TTV3cmU1VWlGOERFZDd5Z2pqc3F2bEpCVDMxTkV0Nml2djdyUjR5MVZLTkNrVjFQNWQ4VENGZXloVUZTb3JUTHc4U1JPcnppd3VnaU5iQnl3M3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "france24.com",
+      "latestSinceUpdate": 2492
     },
     {
-      "date": "Sep 26",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods revealed devastating civilian harm.",
+      "date": "Sep 24",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2491
+      "latestSinceUpdate": 2492
     },
     {
-      "date": "Sep 26",
-      "text": "Israel stated readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "date": "Sep 24",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2491
+      "latestSinceUpdate": 2492
     },
     {
-      "date": "Sep 26",
-      "text": "Saudi Arabia's crude oil exports reached their highest level since the Iran war began, despite a pipeline outage.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2491
-    },
-    {
-      "date": "Sep 26",
-      "text": "The Pentagon quietly added dozens to the tally of troops wounded amid the Iran war.",
+      "date": "Sep 24",
+      "text": "Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOMG1FUE1UWTRHOWhCeFZNVXVlQTJMc0FKTGZEU0JyVEV3N1EwX2dQZnZKRkVlSzRBYnN2ZVlVamVCNEpVTmx3REFmNTFiMEdsZTFrbkQ2aWVCTS1PUTNDckZqR2l1MGh2R1pIT0xDTWdlaDV2aWphYU9DT2E5QXBOSUdpZ2VlMS03b0NSRk5TNll0ZktEWDB5ZENmbFQ1bHVmYXhBUlo1cjRzZWxkOXVndnFNYjhENEZFNEV5QmxyUHoydw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2491
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2492
     }
   ],
   "sourceStatuses": [

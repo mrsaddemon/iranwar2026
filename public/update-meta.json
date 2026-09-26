@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2491,
+  "updateSequence": 2492,
   "lastUpdated": "2026-09-26",
-  "lastSyncedAt": "2026-09-26T06:03:14.206Z",
+  "lastSyncedAt": "2026-09-26T14:30:00.000Z",
   "warDay": 211,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, despite Iran's proposal for a deal."
+    "summary": "Iran proposed a seven-day roadmap to end the war and reopen the Strait of Hormuz, but the offer was reportedly rejected by the US."
   }
 }
