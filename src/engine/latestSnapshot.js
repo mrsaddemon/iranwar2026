@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2490,
+  "updateSequence": 2491,
   "lastUpdated": "2026-09-26",
-  "lastSyncedAt": "2026-09-26T00:56:18.410Z",
+  "lastSyncedAt": "2026-09-26T06:03:14.206Z",
   "warDay": 211,
-  "summary": "The 7-month war between the US and Iran continues with ongoing military actions and threats, while diplomatic efforts are underway to negotiate a phased end and the reopening of the Strait of Hormuz, impacting global oil prices.",
+  "summary": "Iran has proposed a seven-day plan to reopen the Strait of Hormuz and restart nuclear talks amidst ongoing conflict and escalating threats with the US and Israel.",
   "lastNarrativeUpdate": "2026-09-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is in effect, despite Iran's proposal for a deal."
   },
   "actorOverrides": {
     "usa": {
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.7,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
   "global": {
     "nuclearIndex": 75,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 65,
-    "globalPressure": 82,
-    "allianceInfluence": 57
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 66,
+    "globalPressure": 85,
+    "allianceInfluence": 62
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 26",
-      "text": "Iran Update, September 24, 2026",
+      "date": "Sep 24",
+      "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxNbk41clc0eFhmNG43b2xmYjFOekNjcnB4aGZieWtyNTFhOG4ta3pjNWxqWlREcmpOSFh6WWhRbnFSX21GRXpBTmFxcjZjYmpfZHBSV2kydm53U292NzR0SzJ0dXU5NVlmX01lZ2p0Y19rQmNLT0tZU1hHX3VNQUNNdW5ObEFweVU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2490
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2491
     },
     {
       "date": "Sep 26",
-      "text": "Iran war updates: Allies in Riyadh as Iran says nuclear programme peaceful",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPLWNiekZna1Vxd3hyeGktbzdsREZHVDV4Y2N3MGZFMkpYcmVMTkFBWHZDVWtEOHRvOThtZzFvN01pZHhhcUYxN2k0UC00UThtVW9iT1Bta2pJNTMtQUREQ0dQWER5VHFGbTl2aGdacGVCZEZaaDBTMXlaRFY4dUNkUENlWmVsOUZNVWlxWFZuZHBHVk5kUU1oTHJjQVZHakdSTWMycGdjMUFycTVlQnZxTjdPZEN2WU51NFVxU0pQRdIBxAFBVV95cUxQSzQ4TTI0WV9MLUpMV3IwLXZhUDQ1aVVfODAtMUs0ZUVZNjQ4ZzJVQm84RVl0bVZCU2QyUzJPZHpmazZWaExTdGdjV2cyS3JyLWhsMHUwdDhGTURsSzBncDRsSlhEMEpCaS1nUGEwUnd0Rkc2dVpMOEN1NFhSRjlieHdhdEdxRUtOYXNPX2hzaFptNHlSb19xWXNjVVE1SjE2NlhCQ3EzSWZDcTNrSzZIUTQxUlJuMEhYZU1BUkh1RTN6S1FG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2490
-    },
-    {
-      "date": "Sep 26",
-      "text": "Iran's president says it is up to US to choose if it wants to end Iran war",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOb21pSm1ydXhYbXJ1SFNldm9vNm5nS0t3bmhGczZBS1Vfd3QwMTRJcnExUUY5cXh1OEZ4aDVSbDE2eFAtYk03Y0RfS1VROXZSV21mWkNwRUdjYWxqa2dzNVpVbWVxNGxEalNZc01qa3JVa1FGd3JVbXY4Ujdtb1dQcWFFdlVEUngyZng4WTlMZjhEa2dJVGY5OHhqNXFpZGxxVlFWLWl5d3FtNGV4aXdpYWVYaWQtMFI0dmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2490
-    },
-    {
-      "date": "Sep 26",
-      "text": "Iran war updates: Tehran ready for ‘dialogue, diplomacy without force’",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2490
-    },
-    {
-      "date": "Sep 26",
-      "text": "Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war",
-      "severity": "info",
+      "text": "Oil prices increased as the U.S. and Iran traded fresh threats to expand the 7-month war.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2490
+      "latestSinceUpdate": 2491
     },
     {
       "date": "Sep 26",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods revealed devastating civilian harm.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2491
+    },
+    {
+      "date": "Sep 26",
+      "text": "Israel stated readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "warning",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2490
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2491
+    },
+    {
+      "date": "Sep 26",
+      "text": "Saudi Arabia's crude oil exports reached their highest level since the Iran war began, despite a pipeline outage.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNQTZiYU0xWTcyLWxpd3FwcTRRR3ZHa0xxUGdLUE5UUXZNZl9wbnNDNVk3RXY0ZXJKLXk5SkdDc192blJXZ3FYTS1rSDlpU2d0ZmdYY2pHWHp5WHpwZWJQVlNrdTNxTzRuX1RqTmQyQXlVVktUUHF5LWdyNndQdkFOUDZCSXpFYmVxZmdsYXJENzhRQjc5OTR4SFpjYjJqYnQyVUlB0gGoAUFVX3lxTE54bkFvZk5aUHNlVWhfVkkyMEtuSTVGeU1XTEhBbDduWlEzYXV4aWpnQWdNY0Nqa1FQQzRkbjRDOTdfelhDVndJQVpMcDhmZUlLOVY4UmJ6dnMzYW9vd19QYS1lM1BYalNSOUdDYlVTTU9raFdCZU5fYXBHakF2THlWQ3owaDlmeWlnOUZybDVBX0I4TWVhZzRlYnhWalY4dWZTRHl1ckNMZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2491
+    },
+    {
+      "date": "Sep 26",
+      "text": "The Pentagon quietly added dozens to the tally of troops wounded amid the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOMG1FUE1UWTRHOWhCeFZNVXVlQTJMc0FKTGZEU0JyVEV3N1EwX2dQZnZKRkVlSzRBYnN2ZVlVamVCNEpVTmx3REFmNTFiMEdsZTFrbkQ2aWVCTS1PUTNDckZqR2l1MGh2R1pIT0xDTWdlaDV2aWphYU9DT2E5QXBOSUdpZ2VlMS03b0NSRk5TNll0ZktEWDB5ZENmbFQ1bHVmYXhBUlo1cjRzZWxkOXVndnFNYjhENEZFNEV5QmxyUHoydw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2491
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
