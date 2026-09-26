@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2494,
+  "updateSequence": 2495,
   "lastUpdated": "2026-09-26",
-  "lastSyncedAt": "2026-09-26T18:29:23.546Z",
+  "lastSyncedAt": "2026-09-26T21:26:26.411Z",
   "warDay": 211,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; Iran's proposals for de-escalation have been rejected by the US, and military threats persist."
+    "summary": "Iran's proposed seven-day roadmap for peace has been rejected by the US President, indicating no active ceasefire."
   }
 }
