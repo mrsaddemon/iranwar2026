@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2499,
+  "updateSequence": 2500,
   "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T13:49:56.212Z",
+  "lastSyncedAt": "2026-09-27T17:56:59.353Z",
   "warDay": 212,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with the US rejecting Iran's proposal to reopen the Strait of Hormuz and the Senate voting down a resolution to end the war."
+    "summary": "No active ceasefire is in effect; Iran's proposal for talks and reopening Hormuz was rejected by the US."
   }
 }
