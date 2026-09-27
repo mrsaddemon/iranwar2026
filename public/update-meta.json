@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2496,
-  "lastUpdated": "2026-09-26",
-  "lastSyncedAt": "2026-09-26T23:48:52.321Z",
-  "warDay": 211,
+  "updateSequence": 2497,
+  "lastUpdated": "2026-09-27",
+  "lastSyncedAt": "2026-09-27T01:53:08.520Z",
+  "warDay": 212,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or truce reported."
+    "summary": "No ceasefire is active; Iran's proposals for a roadmap to peace have been rejected by the US."
   }
 }
