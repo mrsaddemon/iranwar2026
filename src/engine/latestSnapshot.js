@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2498,
+  "updateSequence": 2499,
   "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T08:00:05.806Z",
+  "lastSyncedAt": "2026-09-27T13:49:56.212Z",
   "warDay": 212,
-  "summary": "The Iran war continues on Day 212 with President Trump rejecting Iranian proposals to end the conflict and reopen the Strait of Hormuz, while US-Israeli strikes on Tehran cause civilian harm and oil prices rise amid renewed threats.",
+  "summary": "The Iran war continues with the US rejecting Iran's proposal to reopen the Strait of Hormuz, ongoing US-Israeli strikes causing civilian harm in Tehran, and continued military engagements involving Israel and Hezbollah.",
   "lastNarrativeUpdate": "2026-09-27",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; proposals to end the war and reopen the Strait of Hormuz have been rejected."
+    "summary": "No active ceasefire is in effect, with the US rejecting Iran's proposal to reopen the Strait of Hormuz and the Senate voting down a resolution to end the war."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.4,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.4,
         "aggression": 0.9
       }
     },
@@ -36,81 +36,81 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 65,
-    "globalPressure": 85,
-    "allianceInfluence": 62
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
-    "chinaEconomicSupport": true,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Sep 24",
-      "text": "Trump rejects Iran’s seven-day roadmap to end war and reopen Hormuz, calling the plan 'not acceptable'.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPekVrcUpCSVdWWjdjNHY5ZS12MmprMF9ma3loOGpyZExyTW5uRG9qT3NjV21qSUFSMUhRVV9Ld3A5TWpVTS1QcFI2VENoZTdQRkVIQi11Z2JuUV80a1B2U2Q5TGhlQlZiZkV3MFlCbkI4NUZDeWJROWgxbTAtSVE3dU0xUDVnbFU2MF9MN25MVmZRNUdCWXBleDhlamtaVGNzbkVtWDM1VlfSAa4BQVVfeXFMTjljQTNjOXdPLVpNZWhUNTduR2ZZWGN3dDRrak9NOS1WWlBNejVMWDk2aGRkek9CYzB5OWpiTU1BeWtHUkRZZGduc28td2dSZmlsQUM2NTNrQ1M5WU1rcVJoNWZKZlkzNmN5Z1FkWnJFN0FNVDEtQjFKSkYwQ0RQZFpkOWVxNm43dkloMnZtTFFFSy1xVVRYVEJEYkFZdzdBemNCMEJQZGVLZzdvQXlB?hl=en-US&gl=US&ceid=US:en",
+      "date": "Sep 27",
+      "text": "Trump rejects Tehran’s proposal to reopen Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWXRhMlFLVmoxcnBBWHlQNVhYNmkxTkI4WFhiSURFd2VSemEwcWYtXzVsRE4zSVkzRklWa3FTMzE2eFdIMFNCbXMxbXJtT05jc3dwcnpKTFNtbnhvTFRuODRkM281MVJ3X00zY3Y3S0JqQ0c5cW9kQ1dWZ2VxRlhDckNLR1FLeFR5Qkpja3FpT0NPVXJCbTI1OTlSUHI2WmZMSHAtZkVGX1lzS3V3Q2FqNTRndmxFY3dxMksyV9IBwgFBVV95cUxPdGx2Yk9malp6T21jY1lMR3BlR1plQXU5OXphV2dGTTdIcW1YVlBFem54WFBhT2oweDNMdWNUbW5IdVlUd0VlT2V4aVotUlllbGlpb3JneEc1UDdna0x5SFl1V01oNDRJcDAwcFNQSzNqWWpIWkdMMEg4ZE91MVY0dW5GaU91MzJSRWZlWUxoeHFGRWp1aWR6NjRDNFM5bUNVa1JrMmhMcTNKcVpEckFrUW9GTTV1WnR6bGpEakdNZDRMQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2498
-    },
-    {
-      "date": "Sep 24",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2498
-    },
-    {
-      "date": "Sep 25",
-      "text": "Oil prices back up as U.S. and Iran trade fresh threats to expand the 7-month war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2498
-    },
-    {
-      "date": "Sep 26",
-      "text": "IDF bombs Hezbollah arms cache in southern Lebanon to 'remove threat' to troops.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQNGFCbDZrcWtzVTM3VXZFcVhIVEZtcWZpVkk1LUhxR19SN2ExUE9fZTBIRDFQZ1lBR3YyU1FvcHh0RHcyOVBYOG5RU1hfMl9TalRWbm5wbmw3eDdHVlJHZUoxNmZQdVIyaVYyU0NCLXI0WVEyRXFjT2xuVm90eHp1dXRWcG9iRkd2bEF6TVpNekUzNXhjVURVTE5fYXZQV1dtenJwZGZZU0ttUERpdEhyY3I5Z1o2X3VzOG1td0N0UTc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2498
-    },
-    {
-      "date": "Sep 26",
-      "text": "US helps double oil volume exiting the Gulf, with the military now guiding ships in broad daylight.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQVXVUVjdpd1BtNmtQNFdfYWNTclZZUVYwSWctUGJmZ0toLWo4X2tVdnF1YVBvZmZwR2diTGd4cm5ISjd3a0FiZ0laa0lWMGc2Ung1ZnZEam1NTV9ld3RDeEdkSFkxcVBwUllVeTNuTzlpQjlyS2VTLTdQakRQcURJWWZIS1AzUGJnSlp3N1RqbjRLWnpKY19CZ1NnZkJvQm5TbWJ1c29ad0pmaTV4blhJX3ZSZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fortune",
-      "latestSinceUpdate": 2498
+      "latestSinceUpdate": 2499
     },
     {
       "date": "Sep 27",
-      "text": "Intelligence from Chinese groups is reportedly aiding Iran’s increasingly effective targeting of US sites.",
+      "text": "Iran's president states it is up to the US to choose if it wants to end the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOb21pSm1ydXhYbXJ1SFNldm9vNm5nS0t3bmhGczZBS1Vfd3QwMTRJcnExUUY5cXh1OEZ4aDVSbDE2eFAtYk03Y0RfS1VROXZSV21mWkNwRUdjYWxqa2dzNVpVbWVxNGxEalNZc01qa3JVa1FGd3JVbXY4Ujdtb1dQcWFFdlVEUngyZng4WTlMZjhEa2dJVGY5OHhqNXFpZGxxVlFWLWl5d3FtNGV4aXdpYWVYaWQtMFI0dmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2499
+    },
+    {
+      "date": "Sep 27",
+      "text": "Senate narrowly votes down resolution calling for an end to the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMieEFVX3lxTFBrcEFuR2ltdy1LY0IzMk11WU1zaC1QZFVnZnQ0cnNZenBmVVZDX3c0NUNFNjhrQXhMdW9fSGZwRVJRcDZualZ5dDZMOUNHMjU1REdqbmNfb3RpZXF1NEV3V0FTU1lzUFJXNHBNNUNReERwZ0o5a3pINNIBfkFVX3lxTFAtLWJtQURVTkdxT3VyQ0FxVGZldldwcml6ZXVFU0ZuX2pCUlQzUEtQNi04U3ltWUMtQUp0Tzg2SmszUUF0R2M2QnNuRTJ1TkdyQkk4YWhRVzlqdk9DTnZsdlp1ZDhQeTh1aVFaRV9uLUdIdDFpRGRlUTVrakZ5Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "cnbc.com",
+      "latestSinceUpdate": 2499
+    },
+    {
+      "date": "Sep 27",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOdDBVd0dmY2IwMUpJVDFiNkxYbXc0VTFKNFpzNzZabXlDUVFobTZ4a1RKTHVPN3pfcHlrRG02emp2MkJMUDd3NHRKVmtIZGlueGFPQ3IyeUZnYzFRLU9QWlR2VF9OYmluME8xUGIxTzB2NnVZLWZ5Y2x0X09Id1dic1ppd1NIZms?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2498
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "amnesty.org",
+      "latestSinceUpdate": 2499
+    },
+    {
+      "date": "Sep 27",
+      "text": "Report: Israeli official claims renewed strikes on Iran are 'only a matter of time'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNbktQZW9ZMTVzeEZUNWwzMmxvZk1KNS1DNkpDWVk0NEU3YWg3UmVLcHE5ekdlRXFqUVU0TkVCczNXcV9rVVY0bnlQZ1JZN3Y4RUFOWkY4MnVxWldlOHFlUG14TU1sUkVibkFTeVdYZW1WNTBuUDJuTkV1ZjVqNjlMYUVqSGtTMDFaYnhqcDA0c1EweHhmaXpXRHYxMHI3VkJ1c2RQU1R1VW9ETXfSAbABQVVfeXFMTVpfOFFwOFRBdERtZldzWFNpd1dHdVhuRjFtQnJ2YVNneTRPdkFXcWp0TTVIb1RjdzhiSTlTMzlTeFZKMWtXSWxjVUUwRldfbE5sb2ZNYjBVamRENlNDSGVod05zdHVDYWdTeFdLOS11X1haeGNxVERSQjZtekhyM09ZSmg5OWZHbjFHbVBnV2FRNmdBS3VxMmJITFJBejZjSmV6NW8tUDN1b3NZRGQ2Vkw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2499
+    },
+    {
+      "date": "Sep 27",
+      "text": "Iran shifts trade north to the Caspian Sea as war impairs the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuAFBVV95cUxQWFJPSF9LU3NrQXB3NXRDbnVMdHhMX2kwdXhRemZyVU5XZ3B6MEJVNFIwRmJrczZfTExBRlY2bExhYlZCSEE3bDh5M3lFSVRwcTRwVUxqNFdScVJxOUxVbU5QekxqUWxlUnp4cU5nekVQZVdJajdVV1hYeHJSU2hNQzllM2kyVGhXTnVOMnd5YkpYY1Y4T1BCX0JsMnJYamVaT19RVDVwVXRGTnV3NVdrLVRZclpLODUt0gG-AUFVX3lxTE1sU3B2R2dHWFJBUjk4eEsySUNnNnZPZG9ILWhzblFpemVORnhWdGRpanA3cTJCLTNqTVZyN0ptd1dyTmxmWDhqVTRqM2FjZEpvVTNqZk5TQTJINEZYNDk4ZGdqakZWWC1TYkpmbWZ0RmY5ZDN4VW5FNzNxLWhJd2tuNzNIdzl4ZUZEZnR6QldkSWRwWDZqVDFCZFh3bnpudWR0S2tZM0xWb0dzdXktSGlaQkdRUlFBSzlaLVBhM1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2499
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
