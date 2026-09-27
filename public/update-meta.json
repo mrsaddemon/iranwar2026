@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2500,
+  "updateSequence": 2501,
   "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T17:56:59.353Z",
+  "lastSyncedAt": "2026-09-27T21:15:47.217Z",
   "warDay": 212,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; Iran's proposal for talks and reopening Hormuz was rejected by the US."
+    "summary": "No active ceasefire is in effect, with negotiations failing and military actions continuing."
   }
 }

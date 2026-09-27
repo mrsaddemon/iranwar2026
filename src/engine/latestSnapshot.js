@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2500,
+  "updateSequence": 2501,
   "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T17:56:59.353Z",
+  "lastSyncedAt": "2026-09-27T21:15:47.217Z",
   "warDay": 212,
-  "summary": "The Iran war continues with Tehran proposing to reopen the Strait of Hormuz and restart nuclear talks, which the US has rejected, while US-Israeli strikes on Tehran and IDF strikes on Hezbollah persist amidst reports of US casualties and increased military presence in the Gulf.",
+  "summary": "Tensions remain high in the Middle East with ongoing conflict, failed negotiations over the Strait of Hormuz, and continued military actions by various parties.",
   "lastNarrativeUpdate": "2026-09-27",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; Iran's proposal for talks and reopening Hormuz was rejected by the US."
+    "summary": "No active ceasefire is in effect, with negotiations failing and military actions continuing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.6
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 46
+    "nuclearIndex": 40,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 25",
-      "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "cnbc.com",
-      "latestSinceUpdate": 2500
+      "date": "Sep 26",
+      "text": "UN ambassador Waltz stated Iran was not negotiating ‘in good faith’ to end the war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPSUVsMFM4WGF1c1NReGpTcWN6OXZQWFR3ZHJoR0p6MmtPYWR4N0RmSWFJcGdFMUdaemVpODhabzV0ZE5iTFlDNDVvUDAtc2IyMVVSNklTMWVXT1RqdlVTY3BMZDRuRGhjYlZybzRTQ19sT3Nld1JYQkE4Z2dTR3dDYXB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "theguardian.com",
+      "latestSinceUpdate": 2501
     },
     {
-      "date": "Sep 25",
-      "text": "US President Trump rejects Tehran’s proposal to reopen Hormuz, calling it 'not acceptable'.",
+      "date": "Sep 26",
+      "text": "Iran offered to reopen the Strait of Hormuz within 7 days and restart nuclear talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2501
+    },
+    {
+      "date": "Sep 26",
+      "text": "Trump rejected Tehran’s proposal to reopen Hormuz, calling it not 'acceptable'.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWXRhMlFLVmoxcnBBWHlQNVhYNmkxTkI4WFhiSURFd2VSemEwcWYtXzVsRE4zSVkzRklWa3FTMzE2eFdIMFNCbXMxbXJtT05jc3dwcnpKTFNtbnhvTFRuODRkM281MVJ3X00zY3Y3S0JqQ0c5cW9kQ1dWZ2VxRlhDckNLR1FLeFR5Qkpja3FpT0NPVXJCbTI1OTlSUHI2WmZMSHAtZkVGX1lzS3V3Q2FqNTRndmxFY3dxMksyV9IBwgFBVV95cUxPdGx2Yk9malp6T21jY1lMR3BlR1plQXU5OXphV2dGTTdIcW1YVlBFem54WFBhT2oweDNMdWNUbW5IdVlUd0VlT2V4aVotUlllbGlpb3JneEc1UDdna0x5SFl1V01oNDRJcDAwcFNQSzNqWWpIWkdMMEg4ZE91MVY0dW5GaU91MzJSRWZlWUxoeHFGRWp1aWR6NjRDNFM5bUNVa1JrMmhMcTNKcVpEckFrUW9GTTV1WnR6bGpEakdNZDRMQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2500
+      "latestSinceUpdate": 2501
     },
     {
       "date": "Recent",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods revealed devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "amnesty.org",
-      "latestSinceUpdate": 2500
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2501
     },
     {
       "date": "Recent",
-      "text": "Israeli official claims renewed strikes on Iran are ‘only a matter of time’ as regime aims to rebuild nuclear program.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNbktQZW9ZMTVzeEZUNWwzMmxvZk1KNS1DNkpDWVk0NEU3YWg3UmVLcHE5ekdlRXFqUVU0TkVCczNXcV9rVVY0bnlQZ1JZN3Y4RUFOWkY4MnVxWldlOHFlUG14TU1sUkVibkFTeVdYZW1WNTBuUDJuTkV1ZjVqNjlMYUVqSGtTMDFaYnhqcDA0c1EweHhmaXpXRHYxMHI3VkJ1c2RQU1R1VW9ETXfSAbABQVVfeXFMTVpfOFFwOFRBdERtZldzWFNpd1dHdVhuRjFtQnJ2YVNneTRPdkFXcWp0TTVIb1RjdzhiSTlTMzlTeFZKMWtXSWxjVUUwRldfbE5sb2ZNYjBVamRENlNDSGVod05zdHVDYWdTeFdLOS11X1haeGNxVERSQjZtekhyM09ZSmg5OWZHbjFHbVBnV2FRNmdBS3VxMmJITFJBejZjSmV6NW8tUDN1b3NZRGQ2Vkw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2500
-    },
-    {
-      "date": "Recent",
-      "text": "Iran's IRGC claims to have seized a US autonomous underwater vehicle in the Strait of Hormuz.",
+      "text": "Iran's IRGC claimed to have seized a US autonomous underwater vehicle and a second American submarine in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1FYkJjTWJfYnUybzBFSEdpelpSa0xrdUI0S1BIdTZzZXVIcmpXLXpKb3FsRUpaWXdHMzJvcHlFQjJ6VW10Y003WHRIMVVMbkNuejVUUEhyMTBfOFdJWFZhSnA4cWR0Zlh2X0E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2500
+      "latestSinceUpdate": 2501
     },
     {
       "date": "Recent",
-      "text": "Hezbollah supporters mark 2 years since Nasrallah’s killing as calls for revenge persist.",
+      "text": "The US denied Iran's claims of seizing an advanced underwater drone in Hormuz.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9ySlp5Z01NSW9oVFpDNGdQOHJnejV1ZjRSUUpUOUhtZjgxTER4WFM1OGEwbXdVV2xVY3FUUjIyS2VGSjI2RElfSkk4eFpabVRyTGVQOVln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 2500
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNN2NlS2NUZ1AwZ2tZbEUyUEZRUlc4cjVXR1B5TUJseFpfcUlZdlRRc1h2UDVhSkNXaEU1ZFA4VXM4NG14ZXRmemR0Q1RCM3AxclBsd3NPZXVURk10bnFOd1lKekZlWWpuZGlPT1VYdHUwRF9paHMtWElJWTk2Ri1lTGpnbmRpaWM1ZDFWWmtfVjk3VDMxMVlkMkZ6dWtTMks1eWNFZE1KZF8wdERVcWhnWHBsZGNWOGE3eFJkQkYtRGxzZjN6?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 2501
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
