@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2497,
+  "updateSequence": 2498,
   "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T01:53:08.520Z",
+  "lastSyncedAt": "2026-09-27T08:00:05.806Z",
   "warDay": 212,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; Iran's proposals for a roadmap to peace have been rejected by the US."
+    "summary": "No ceasefire is active; proposals to end the war and reopen the Strait of Hormuz have been rejected."
   }
 }
