@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2503,
+  "updateSequence": 2504,
   "lastUpdated": "2026-09-28",
-  "lastSyncedAt": "2026-09-28T02:01:31.171Z",
+  "lastSyncedAt": "2026-09-28T08:36:33.888Z",
   "warDay": 213,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with Iran's offer to reopen the Strait of Hormuz and restart nuclear talks being rejected by the US."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and diplomatic stalemates reported."
   }
 }
