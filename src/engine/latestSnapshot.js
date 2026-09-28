@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2504,
+  "updateSequence": 2505,
   "lastUpdated": "2026-09-28",
-  "lastSyncedAt": "2026-09-28T08:36:33.888Z",
+  "lastSyncedAt": "2026-09-28T16:59:03.041Z",
   "warDay": 213,
-  "summary": "An ongoing conflict involving Iran, the US, and Israel continues with diplomatic stalemates, military engagements, and economic repercussions related to the Strait of Hormuz.",
+  "summary": "Ongoing conflict persists with Iran rejecting US negotiation terms and conducting missile strikes in the Strait of Hormuz, while Israel continues operations against Hezbollah and terror plots are foiled at US-allied bases.",
   "lastNarrativeUpdate": "2026-09-28",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and diplomatic stalemates reported."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and rejected negotiation proposals."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 45,
+    "escalationLevel": 78,
+    "oilDisruption": 85,
+    "tradeImpact": 75,
+    "sanctionsPressure": 62,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 26",
-      "text": "US refutes claim that an ‘advanced’ drone was seized in Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPQjdfZnJBZTZaWGl2aVo5eXpTQ1Q0TnJJUGRrdDQ4cUROVl9rXzU5Wm94ZExVUVByVFprYURNYlBMamVfZVJUT0dEcjFXa0I5Q1pIWTZNQUEwMTZ0UE9LWWVNazNyZnBvZ3dZdnVQNEpNamJKTmRKNW9BWW9FZjNpV3h6dmhRRVVocjJXT2I1RDVnN2dBWTRiVUV0aXA5akNqUlgwYWRfdVBBWXZ3TlpKSHB5SHNIWl9zTjA1aFpFUGtYd9IBxwFBVV95cUxPS0ZYZE0xUmhJVnNZOEpfZFN0QjFITVh3Y29VSUNta3ZFVzZSY1Ezd3hrODY4TWJFOFBKek9rTjlKa2lQVGk0WGpHVThKV1FyWFFUX21FTWRNOFNkZDQ0Nkk2cTNUa2Mwakl4dHFhVG1RRlBZa0FLRU53czZlRkJhbXVlS2hyMGZfdm9reXJRUlk4SksyaUhydFc1SnpQOUk4dzFqbGZJUjZBeGtuNUQxNmpocVdfSlFQTE42dTgxcXJmOFZfaW80?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2504
-    },
-    {
-      "date": "Sep 26",
-      "text": "UN ambassador Waltz states Iran was not negotiating ‘in good faith’ to end the war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPSUVsMFM4WGF1c1NReGpTcWN6OXZQWFR3ZHJoR0p6MmtPYWR4N0RmSWFJcGdFMUdaemVpODhabzV0ZE5iTFlDNDVvUDAtc2IyMVVSNklTMWVXT1RqdlVTY3BMZDRuRGhjYlZybzRTQ19sT3Nld1JYQkE4Z2dTR3dDYXB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2504
-    },
-    {
-      "date": "Sep 27",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Sep 28",
+      "text": "Eight US Marines injured in an Iranian missile attack in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2504
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOd2FueFRqdlF5RkVVdmVlbGNMLTJia1BhZG16N2xxalo1WFFWRTgwd0REaU96dHNTVTZxZzJnQV9hSlVXb3BEOU1FU09lZXJLMXpVM2otNXNTazhFUEdPZGNlRXBvTG9wS3JrOWtYODlDR3MyejNfekV4X1FnczdKaWVvQ3BMck4ydmhKVjJjbnUzbWEyTGtzcUJieWltRTNsQmRRSUo0d1haNVBKM00zTA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "aa.com.tr",
+      "latestSinceUpdate": 2505
     },
     {
-      "date": "Sep 27",
-      "text": "BBC reports from the front-line of an escalating war in Yemen.",
+      "date": "Sep 28",
+      "text": "President Trump rejects Tehran's proposal to reopen the Strait of Hormuz, expecting talks to resume later this week.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiWEFVX3lxTFBOVWpLaGVQWF91eExZVGRkSGhmTVUxRmhMcDZiSlcwVkR4VHlFRnFFZDkzNmIyTHRJdXdZTkNETURPUGFVR29VekU2Q3Q0SW1mWGllZkM5ajY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "bbc.com",
-      "latestSinceUpdate": 2504
-    },
-    {
-      "date": "Sep 27",
-      "text": "Iran states it is open to ‘real diplomacy’ but also ready for ‘apocalyptic war’.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOUFM5LW1PcF91S3BjU1poOUEtMnJPM19MQk9XYXR2YUZabDhidnprYU5fQXM5Qm5DSDN6RGZKRDN5SG01cVBNZ2hBWTFETmdsWnVGT3dwY3Z1NkVpMkhCb3BIVEs2ZWNuMmxTVjdrZVFuelVLM3hFUUhUQXpwZy1JMlFYMTZsbFRuYVMwUWxxNUdZSHVJSnp0SXozNjZGc0ZSVmctbmFEZ0x5aEQ3UFRMcmtJaTROZ0JsR0xXcW5nUmJvQdIBxwFBVV95cUxOemhaT1hVUVlZNFg0d2lqYV9MQXQ1Qjl2cTRWck9DdkluZFoxY1FuTUF3WVVmR1pOVEY5c0VQQXRPdm1qdmFuVGpFb1Z2QjhQNVgyRFlkdHJDNjFkc3hxNDcwYW8xZk1fLTNNUWQyMk1oek5qd0FEbjBnLXhQakkwVWJjMFhDdHd6Z2tJLUkwcm1nY2djM1FFZi14cmRDVkhmOTJYQ3hJWkhXRXVPT2daeEp6Q21SUlQxYXZXWTl5VEpTa0ZmU0hn?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWXRhMlFLVmoxcnBBWHlQNVhYNmkxTkI4WFhiSURFd2VSemEwcWYtXzVsRE4zSVkzRklWa3FTMzE2eFdIMFNCbXMxbXJtT05jc3dwcnpKTFNtbnhvTFRuODRkM281MVJ3X00zY3Y3S0JqQ0c5cW9kQ1dWZ2VxRlhDckNLR1FLeFR5Qkpja3FpT0NPVXJCbTI1OTlSUHI2WmZMSHAtZkVGX1lzS3V3Q2FqNTRndmxFY3dxMksyV9IBwgFBVV95cUxPdGx2Yk9malp6T21jY1lMR3BlR1plQXU5OXphV2dGTTdIcW1YVlBFem54WFBhT2oweDNMdWNUbW5IdVlUd0VlT2V4aVotUlllbGlpb3JneEc1UDdna0x5SFl1V01oNDRJcDAwcFNQSzNqWWpIWkdMMEg4ZE91MVY0dW5GaU91MzJSRWZlWUxoeHFGRWp1aWR6NjRDNFM5bUNVa1JrMmhMcTNKcVpEckFrUW9GTTV1WnR6bGpEakdNZDRMQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2504
+      "latestSinceUpdate": 2505
     },
     {
-      "date": "Sep 27",
-      "text": "Europe draws more LNG as the Hormuz Crisis tightens the global market.",
+      "date": "Sep 28",
+      "text": "IDF strikes Hezbollah in Lebanon after an explosive drone was fired at Israeli troops overnight, completing an operation to destroy infrastructure in Mansouri.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZ1c3VThxY3VLNng3WnpiS2JadDBhSkxtMm5XeldIZHQyNTF0dmpoSEJsS2xjOXd3dWh5dVd1blBPYkV0VXZLb3RvS0JyNXZyblZzOENPUTNPNDFrR3BvdklPOGdkdjVOMEx6WmsxTXppb0pBb0tXd285cURfRjgtX1kzbC1SbGt5V0JIeGZ5Z0lHXzhTRGhaNFhkc3k5bFhx?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "JNS.org",
+      "latestSinceUpdate": 2505
+    },
+    {
+      "date": "Sep 28",
+      "text": "A suspected terror plot was foiled at a UK airbase, signaling a wider threat to US military installations.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2504
+      "latestSinceUpdate": 2505
+    },
+    {
+      "date": "Sep 25",
+      "text": "US refutes Iran's claim that an 'advanced' drone was seized in Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPQjdfZnJBZTZaWGl2aVo5eXpTQ1Q0TnJJUGRrdDQ4cUROVl9rXzU5Wm94ZExVUVByVFprYURNYlBMamVfZVJUT0dEcjFXa0I5Q1pIWTZNQUEwMTZ0UE9LWWVNazNyZnBvZ3dZdnVQNEpNamJKTmRKNW9BWW9FZjNpV3h6dmhRRVVocjJXT2I1RDVnN2dBWTRiVUV0aXA5akNqUlgwYWRfdVBBWXZ3TlpKSHB5SHNIWl9zTjA1aFpFUGtYd9IBxwFBVV95cUxPS0ZYZE0xUmhJVnNZOEpfZFN0QjFITVh3Y29VSUNta3ZFVzZSY1Ezd3hrODY4TWJFOFBKek9rTjlKa2lQVGk0WGpHVThKV1FyWFFUX21FTWRNOFNkZDQ0Nkk2cTNUa2Mwakl4dHFhVG1RRlBZa0FLRU53czZlRkJhbXVlS2hyMGZfdm9reXJRUlk4SksyaUhydFc1SnpQOUk4dzFqbGZJUjZBeGtuNUQxNmpocVdfSlFQTE42dTgxcXJmOFZfaW80?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2505
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
