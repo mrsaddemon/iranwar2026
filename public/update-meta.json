@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2502,
-  "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T23:50:14.785Z",
-  "warDay": 212,
+  "updateSequence": 2503,
+  "lastUpdated": "2026-09-28",
+  "lastSyncedAt": "2026-09-28T02:01:31.171Z",
+  "warDay": 213,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Negotiations between Iran and the US have stalled, with the US rejecting Iran's proposal to reopen the Strait of Hormuz."
+    "summary": "No active ceasefire is in effect, with Iran's offer to reopen the Strait of Hormuz and restart nuclear talks being rejected by the US."
   }
 }

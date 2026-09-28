@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2502,
-  "lastUpdated": "2026-09-27",
-  "lastSyncedAt": "2026-09-27T23:50:14.785Z",
-  "warDay": 212,
-  "summary": "The ongoing war between Iran and the US continues, marked by stalled negotiations, heightened tensions in the Strait of Hormuz including drone incidents, and reports of civilian harm from US-Israeli strikes in Tehran. Hezbollah remains active in the region, while the US military is actively securing oil transit in the Gulf.",
-  "lastNarrativeUpdate": "2026-09-27",
+  "updateSequence": 2503,
+  "lastUpdated": "2026-09-28",
+  "lastSyncedAt": "2026-09-28T02:01:31.171Z",
+  "warDay": 213,
+  "summary": "The war continues on Day 213 with Iran offering to reopen the Strait of Hormuz and restart nuclear talks, an offer rejected by the US, while US-Israeli strikes on Tehran and IDF strikes on Hezbollah continue, and the US military guides oil shipments through the Gulf.",
+  "lastNarrativeUpdate": "2026-09-28",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Negotiations between Iran and the US have stalled, with the US rejecting Iran's proposal to reopen the Strait of Hormuz."
+    "summary": "No active ceasefire is in effect, with Iran's offer to reopen the Strait of Hormuz and restart nuclear talks being rejected by the US."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.45,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.48,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 18,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 75,
+    "oilDisruption": 80,
+    "tradeImpact": 71,
+    "sanctionsPressure": 62,
+    "globalPressure": 79,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 25",
-      "text": "UN ambassador Waltz states Iran was not negotiating in good faith to end the war.",
-      "severity": "warning",
+      "date": "Sep 26",
+      "text": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2503
+    },
+    {
+      "date": "Sep 26",
+      "text": "UN ambassador Waltz states Iran was not negotiating 'in good faith' to end war.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPSUVsMFM4WGF1c1NReGpTcWN6OXZQWFR3ZHJoR0p6MmtPYWR4N0RmSWFJcGdFMUdaemVpODhabzV0ZE5iTFlDNDVvUDAtc2IyMVVSNklTMWVXT1RqdlVTY3BMZDRuRGhjYlZybzRTQ19sT3Nld1JYQkE4Z2dTR3dDYXB3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2502
+      "latestSinceUpdate": 2503
     },
     {
-      "date": "Sep 27",
-      "text": "Trump rejects Tehran’s proposal to reopen the Strait of Hormuz, indicating stalled peace efforts.",
-      "severity": "critical",
+      "date": "Sep 26",
+      "text": "Trump rejects Tehran’s proposal to reopen Hormuz.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWXRhMlFLVmoxcnBBWHlQNVhYNmkxTkI4WFhiSURFd2VSemEwcWYtXzVsRE4zSVkzRklWa3FTMzE2eFdIMFNCbXMxbXJtT05jc3dwcnpKTFNtbnhvTFRuODRkM281MVJ3X00zY3Y3S0JqQ0c5cW9kQ1dWZ2VxRlhDckNLR1FLeFR5Qkpja3FpT0NPVXJCbTI1OTlSUHI2WmZMSHAtZkVGX1lzS3V3Q2FqNTRndmxFY3dxMksyV9IBwgFBVV95cUxPdGx2Yk9malp6T21jY1lMR3BlR1plQXU5OXphV2dGTTdIcW1YVlBFem54WFBhT2oweDNMdWNUbW5IdVlUd0VlT2V4aVotUlllbGlpb3JneEc1UDdna0x5SFl1V01oNDRJcDAwcFNQSzNqWWpIWkdMMEg4ZE91MVY0dW5GaU91MzJSRWZlWUxoeHFGRWp1aWR6NjRDNFM5bUNVa1JrMmhMcTNKcVpEckFrUW9GTTV1WnR6bGpEakdNZDRMQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2502
+      "latestSinceUpdate": 2503
     },
     {
-      "date": "Sep 27",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
+      "date": "Recent",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2502
+      "latestSinceUpdate": 2503
     },
     {
-      "date": "Sep 27",
-      "text": "Iran Guards claim seizure of a US underwater drone in the Strait of Hormuz; US refutes claim.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNOXE2NWU4bXpTMjM3dWVDR01TaDFXUlhuRmlxQy1nOThWcWNpSGFfUTNZWnY5ekl4T3pER1lFSWNBcERxT1QwTzgyMnhmS1VrUFd1UjdxN1NHTjNmVGtRa2hCT3ZxQTFKQ1pvbTNkdFVfSTJFVm8xU3pRc0pTNnBoc3JndVZCSzZqaEl6eWNzaFBMQktwS1NIdEZYeVF5QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Arab News",
-      "latestSinceUpdate": 2502
-    },
-    {
-      "date": "Sep 27",
-      "text": "Iran states it will not soften Strait of Hormuz demands, contributing to lingering tensions.",
-      "severity": "critical",
+      "date": "Recent",
+      "text": "US denies IRGC claim that it captured second American submarine in Hormuz 'hunting ground'.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2502
+      "latestSinceUpdate": 2503
     },
     {
-      "date": "Sep 27",
-      "text": "Hezbollah supporters mark two years since Nasrallah’s killing, with calls for revenge persisting.",
+      "date": "Recent",
+      "text": "IDF strikes Hezbollah after drone attack on troops.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9ySlp5Z01NSW9oVFpDNGdQOHJnejV1ZjRSUUpUOUhtZjgxTER4WFM1OGEwbXdVV2xVY3FUUjIyS2VGSjI2RElfSkk4eFpabVRyTGVQOVln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 2502
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxNZ1c3VThxY3VLNng3WnpiS2JadDBhSkxtMm5XeldIZHQyNTF0dmpoSEJsS2xjOXd3dWh5dVd1blBPYkV0VXZLb3RvS0JyNXZyblZzOENPUTNPNDFrR3BvdklPOGdkdjVOMEx6WmsxTXppb0pBb0tXd285cURfRjgtX1kzbC1SbGt5V0JIeGZ5Z0lHXzhTRGhaNFhkc3k5bFhx?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "JNS.org",
+      "latestSinceUpdate": 2503
     }
   ],
   "sourceStatuses": [
