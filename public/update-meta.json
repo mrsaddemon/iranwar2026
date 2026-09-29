@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2509,
+  "updateSequence": 2510,
   "lastUpdated": "2026-09-29",
-  "lastSyncedAt": "2026-09-29T15:07:28.538Z",
+  "lastSyncedAt": "2026-09-29T20:01:56.430Z",
   "warDay": 214,
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.2,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire proposal from Tehran has been rejected by the US, indicating no active ceasefire, though dialogue is still mentioned."
+    "summary": "Iran's ceasefire proposal was rejected by the U.S., indicating no active de-escalation."
   }
 }

@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2509,
+  "updateSequence": 2510,
   "lastUpdated": "2026-09-29",
-  "lastSyncedAt": "2026-09-29T15:07:28.538Z",
+  "lastSyncedAt": "2026-09-29T20:01:56.430Z",
   "warDay": 214,
-  "summary": "The conflict continues with ongoing US-Israeli strikes on Tehran, Iranian attacks on US forces, and Israeli operations against Hezbollah, while diplomatic efforts for a ceasefire are rejected by the US and regional oil exports rebound despite high prices.",
+  "summary": "Tensions remain high between the US and Iran, with Trump issuing economic threats and Iran proposing a ceasefire while also threatening Mideast infrastructure and being implicated in an attack on a nonmilitary vessel, even as Middle East oil exports rebound.",
   "lastNarrativeUpdate": "2026-09-29",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.2,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "A ceasefire proposal from Tehran has been rejected by the US, indicating no active ceasefire, though dialogue is still mentioned."
+    "summary": "Iran's ceasefire proposal was rejected by the U.S., indicating no active de-escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.6
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 75,
-    "oilDisruption": 55,
-    "tradeImpact": 53,
-    "sanctionsPressure": 62,
-    "globalPressure": 74,
-    "allianceInfluence": 51
+    "nuclearIndex": 10,
+    "escalationLevel": 38,
+    "oilDisruption": 65,
+    "tradeImpact": 38,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 26",
-      "text": "UN ambassador Waltz states Iran is not negotiating in good faith to end the war.",
+      "date": "Sep 29",
+      "text": "Saudi crown prince and UAE VP meet amidst ongoing Iran war, while Iran claims the US is 'in a quagmire'.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPSUVsMFM4WGF1c1NReGpTcWN6OXZQWFR3ZHJoR0p6MmtPYWR4N0RmSWFJcGdFMUdaemVpODhabzV0ZE5iTFlDNDVvUDAtc2IyMVVSNklTMWVXT1RqdlVTY3BMZDRuRGhjYlZybzRTQ19sT3Nld1JYQkE4Z2dTR3dDYXB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2509
-    },
-    {
-      "date": "Sep 26",
-      "text": "Iran declares readiness for dialogue and diplomacy without force.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOOGR3S3NmdVpaZUR1OGdBX0hBTU5TbTFDcDRVbThaY05EU1Q3Qk9Sa3AwNFlkT3RrU0ZZb19DYmlaZlFQa09DT3d1eGxuZFJnZVJpT1NSTkpVVy1pUEt4MmZVR1JqeWR0YWRLNUdfcFp2WjVMV1lMNVllaF9ELVF3bmhrUUhscEFwcDJVSE9feWtzYldxNGF2NGNEZUZVZm05Z0ZoamNsd2dZNVcxNWE4V0luaVZpd9IBuwFBVV95cUxPSUdtckw3eUdwd1UweVd6Tm1YWG55cXBIaTZrdVJtTWRKdmN3LWk5aGxtOTFtbFNQcVdfN3g2ekVUR0NGVHNXRXFQYjJrbjNiNUNwVUREUWp1M1laYkZQMng0SzJIcmN1RnR1bVpXU3FBbnRaaWxsQllnNmV1ZU1nMG1QT0RFR1JnUDZoaFpoc2VsbTFfMGpjUVotZ2dnR3hFVEl2Z0kyNl90enlOX2J4YUYxVXNpQlBMbDFR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2509
+      "latestSinceUpdate": 2510
     },
     {
-      "date": "Sep 26",
-      "text": "Trump threatens 'Economic D-Day' for Iran and severe consequences for its backers.",
+      "date": "Sep 29",
+      "text": "US refutes Iran's claim of seizing an 'advanced' drone in Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPQjdfZnJBZTZaWGl2aVo5eXpTQ1Q0TnJJUGRrdDQ4cUROVl9rXzU5Wm94ZExVUVByVFprYURNYlBMamVfZVJUT0dEcjFXa0I5Q1pIWTZNQUEwMTZ0UE9LWWVNazNyZnBvZ3dZdnVQNEpNamJKTmRKNW9BWW9FZjNpV3h6dmhRRVVocjJXT2I1RDVnN2dBWTRiVUV0aXA5akNqUlgwYWRfdVBBWXZ3TlpKSHB5SHNIWl9zTjA1aFpFUGtYd9IBxwFBVV95cUxPS0ZYZE0xUmhJVnNZOEpfZFN0QjFITVh3Y29VSUNta3ZFVzZSY1Ezd3hrODY4TWJFOFBKek9rTjlKa2lQVGk0WGpHVThKV1FyWFFUX21FTWRNOFNkZDQ0Nkk2cTNUa2Mwakl4dHFhVG1RRlBZa0FLRU53czZlRkJhbXVlS2hyMGZfdm9reXJRUlk4SksyaUhydFc1SnpQOUk4dzFqbGZJUjZBeGtuNUQxNmpocVdfSlFQTE42dTgxcXJmOFZfaW80?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2510
+    },
+    {
+      "date": "Sep 29",
+      "text": "Trump threatens an 'Economic D-Day' for Iran and 'tremendous' consequences for its backers.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQbjdQcUlraHYyYTY1UG5sUDJpV1dwZnpzWWZObU5iZ3g2RW1HSzFwTWNhcE1NaUR3Q3pWT1pYQXZibW1wMS1oQ1dUSVhObUhwcHN4MTVDWTNKOXFneGItamNBeWptNENKNHRiYXFJV0VJY2taaXFyRnJSQy1pRFlDbUhHMFnSAYoBQVVfeXFMUF9NTjA0UzQxLWRzdHFabk5acVdjbklmdzlGSlowZ3h4QnVIdmdGQjFfYUZsbEZSV1Bia1hISjZGVEgyNWlWcVBzMkVOSzYtR05OaXlBM3oxVkRKR0pycFZDeUxXejZnbXQzbF82Rjhud3NHR3VGZUhmQnl3MlpibFNGcFc4LTFHei1B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2509
+      "latestSinceUpdate": 2510
     },
     {
-      "date": "Sep 26",
+      "date": "Sep 29",
       "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2509
+      "latestSinceUpdate": 2510
     },
     {
-      "date": "Sep 26",
-      "text": "Middle East oil exports rebound as Iran’s chokehold on the Strait of Hormuz breaks down.",
+      "date": "Sep 29",
+      "text": "Iran threatens to attack Mideast infrastructure after Trump dismisses its Hormuz proposal.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPRDZzYllxU3U0bnRaMnNoODhDNmRpOXI1em5yNnE5V3ZmTkJKZFFwdmZqNlNQZE5JQXNQRTJWMVNYdGd6UU4tZnBWd0VjdFZmLUVBVTY3RzJUT3FhMHp2U0lWbDY2NUtPMnpNd0k3TEhUUEg0X2ZhMXVLeHp0S0ZiY2JCcGtnaEZwTWNaWTcxa01DTVZSVnhqRE9ESzRJQ1pab09NRGtsU0dURWctVXNqLXBmMUVQdknSAbwBQVVfeXFMUEN6X1R1clNCTlNIMXpUR0xmLW5IenFESmJqZ2YyalF2c25ReWd5WW1ibjd6M0dnY3I5Nk56TnZPNTczdjl4Y3dlQ3h0ZmRfenRuc1JDeE5zc0ZvTUVrME41ckVTR2d5RmFBNV9aOTFEeUZuMDloWEY2VzJsQjNsMXBJMnlKLVNzbzRnUzJjM2pfS0xIUTNRM2VxWGdfSkEyejNFOW1OUjlWUHZLeVN5aVp2WEN0TVBwMEoxblM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2510
+    },
+    {
+      "date": "Sep 29",
+      "text": "Middle East oil exports rebound as Iran's chokehold on the Strait of Hormuz breaks down.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2509
-    },
-    {
-      "date": "Sep 26",
-      "text": "Iraq seeks alternative oil export routes to bypass the troubled Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNYWFkRk5ZMkJFUmtITDVCbEx3STJmeDVNWnJpbFgtRWlYQVhlb0JxcUpTR0hCUVY1Rlc3NURTdUdycnJCdnVtckNxLXFzSFVENEN2MTMzeGluMTJ5MEtPOUI1bWR0YmZEdW9FUXNqdXBCT0pOQzJKSldNbTdZQTAtNHFVSEtPczBmLWpPUGZPb0FDRGRKV2hGUEpPSzJVNXl5dGVZUFdkTHhJNHRwa3ZxcHJIMUFiUdIBuwFBVV95cUxPcnNvT0owZU5BZUk2Q21rTlNrMlRGQWpPQ0tCSG5DLXJkX2NsVUVzeGtUVy1VQmtPUWxUMTI5TWQ5UVlxc01tc3h0QU9IX1Nndmh1bEFQQXlPazRxZGp3bDVSV2U4d0NLMDk1dWVtN1FkOVVORmNpbG9rSGdlbUR6WWNXUklueHFVaFBIRlBvMFl3ZnY3Z1ZyQl8xaXpET1prdmJlZmtjR1REYXkwYlVldEF1eVgxc0pFQkdR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2509
+      "latestSinceUpdate": 2510
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
