@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2506,
-  "lastUpdated": "2026-09-28",
-  "lastSyncedAt": "2026-09-28T22:29:28.706Z",
-  "warDay": 213,
+  "updateSequence": 2507,
+  "lastUpdated": "2026-09-29",
+  "lastSyncedAt": "2026-09-29T02:14:19.930Z",
+  "warDay": 214,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 7,
-    "summary": "Iran has proposed a seven-day roadmap to end the war and reopen Hormuz, but the US has rejected the proposal, indicating no active ceasefire."
+    "summary": "Diplomatic efforts are ongoing with Iran proposing a roadmap and US officials meeting mediators, but no active ceasefire is in place."
   }
 }
