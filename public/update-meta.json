@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2507,
+  "updateSequence": 2508,
   "lastUpdated": "2026-09-29",
-  "lastSyncedAt": "2026-09-29T02:14:19.930Z",
+  "lastSyncedAt": "2026-09-29T08:39:02.200Z",
   "warDay": 214,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Diplomatic efforts are ongoing with Iran proposing a roadmap and US officials meeting mediators, but no active ceasefire is in place."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }

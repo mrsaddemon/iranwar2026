@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2507,
+  "updateSequence": 2508,
   "lastUpdated": "2026-09-29",
-  "lastSyncedAt": "2026-09-29T02:14:19.930Z",
+  "lastSyncedAt": "2026-09-29T08:39:02.200Z",
   "warDay": 214,
   "summary": "The conflict in Iran continues with US-Israeli strikes on Tehran, while diplomatic efforts involving US officials and Iranian proposals for a seven-day roadmap are underway amidst reports of US Marines wounded in Iranian attacks and a partial rebound in Middle East oil exports.",
   "lastNarrativeUpdate": "2026-09-29",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Diplomatic efforts are ongoing with Iran proposing a roadmap and US officials meeting mediators, but no active ceasefire is in place."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Sep 25",
-      "text": "Trump rejects Tehran’s proposal to reopen the Strait of Hormuz.",
+      "date": "Sep 29",
+      "text": "Iran Update, September 25, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOdHE3bS14NXhmdi1JVG03UlN4cTlxN1I0LVhuSC1pVnVVaTFZVFVPMzRFdGF1Q0ZGMW9seXFaNllUTGxPeTd6MnQ2TjA4V1FsSEdsd2JnMkh3UHJlZ3VFRXdGSXJ1aTVCbWN0TVdLUG56ajhoc0wtb3VnWlMzcjRGSFpBbDY2ejQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2508
+    },
+    {
+      "date": "Sep 29",
+      "text": "Iran war updates: Trump rejects Tehran’s proposal to reopen Hormuz",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNWXRhMlFLVmoxcnBBWHlQNVhYNmkxTkI4WFhiSURFd2VSemEwcWYtXzVsRE4zSVkzRklWa3FTMzE2eFdIMFNCbXMxbXJtT05jc3dwcnpKTFNtbnhvTFRuODRkM281MVJ3X00zY3Y3S0JqQ0c5cW9kQ1dWZ2VxRlhDckNLR1FLeFR5Qkpja3FpT0NPVXJCbTI1OTlSUHI2WmZMSHAtZkVGX1lzS3V3Q2FqNTRndmxFY3dxMksyV9IBwgFBVV95cUxPdGx2Yk9malp6T21jY1lMR3BlR1plQXU5OXphV2dGTTdIcW1YVlBFem54WFBhT2oweDNMdWNUbW5IdVlUd0VlT2V4aVotUlllbGlpb3JneEc1UDdna0x5SFl1V01oNDRJcDAwcFNQSzNqWWpIWkdMMEg4ZE91MVY0dW5GaU91MzJSRWZlWUxoeHFGRWp1aWR6NjRDNFM5bUNVa1JrMmhMcTNKcVpEckFrUW9GTTV1WnR6bGpEakdNZDRMQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2507
+      "latestSinceUpdate": 2508
     },
     {
-      "date": "Sep 26",
-      "text": "Iran states it awaits a US response on a seven-day roadmap to end the war.",
+      "date": "Sep 29",
+      "text": "Iran Update, September 26, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxPRnVpY3RpelFjOUdTUl9uajZnRFBZbXdfV3VOR05IZFlnUnJ0cUlSR3pucnFXRXlEdHpMNzRLSkppTjItRWtlTEVrdlp5eXZBaDNjVzQ2OEhKbGZRak5RdmJqVWotTHlVaFozMnNTeG1OWkVqbWZpMVFDdFQ0Mk5XZzFtSnRXMU1CS3o2OE1hbVQwUVhIVXAwWjdkaUFwQXNGZExqMFVEc9IBrAFBVV95cUxNVDQ5M2k2Y0lqNlFkS3F0ajg0bzRYemRVZzZTVHlVaDdTNW5qbnNZX0ZnRTlPNmdaNHh4OWJlVFRnZlkwNUFzb3VPLV9uYlRrOFlyZ2pFc0s1bUQxaWhUS2F6VnBvWXhMVWYxWF9vLWpscGI5Q1BIeXpvNmp6ZTlYVU5mMTk0SGhvVUprNFpKTWJKV1NVRV9iNTFSSkJxeEMwczR3RzVFeVF4dWps?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2507
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOYmVZOU9DQm9MdVk2OHFFYTZhVU10RmFCNU5nMC1DdVB5X0JLd1dCZ3A5RzMwaTNJdzY5R1FjMkhmWFRlclpiLV9xT0pUR1R0X3Y0UXRSYUtrQ2JvckFLZ1dIVkt5VWRCVW9EWG1FRVFqMUxYekJBZVJtMWxTcURZNmZJVjZrd2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2508
     },
     {
-      "date": "Recent",
-      "text": "Investigation into US-Israeli strikes on Tehran neighborhoods reveals devastating civilian harm.",
-      "severity": "critical",
+      "date": "Sep 29",
+      "text": "Trump threatens 'Economic D-Day' for Iran and ‘tremendous’ consequences for its backers",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQbjdQcUlraHYyYTY1UG5sUDJpV1dwZnpzWWZObU5iZ3g2RW1HSzFwTWNhcE1NaUR3Q3pWT1pYQXZibW1wMS1oQ1dUSVhObUhwcHN4MTVDWTNKOXFneGItamNBeWptNENKNHRiYXFJV0VJY2taaXFyRnJSQy1pRFlDbUhHMFnSAYoBQVVfeXFMUF9NTjA0UzQxLWRzdHFabk5acVdjbklmdzlGSlowZ3h4QnVIdmdGQjFfYUZsbEZSV1Bia1hISjZGVEgyNWlWcVBzMkVOSzYtR05OaXlBM3oxVkRKR0pycFZDeUxXejZnbXQzbF82Rjhud3NHR3VGZUhmQnl3MlpibFNGcFc4LTFHei1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2508
+    },
+    {
+      "date": "Sep 29",
+      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2507
+      "sourceName": "amnesty.org",
+      "latestSinceUpdate": 2508
     },
     {
-      "date": "Recent",
-      "text": "8 US Marines were wounded in an Iranian attack on a nonmilitary vessel in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPYjBnQkVEcThIYVdFODR1WURPRldmdEdxenYtZjFLRXNURmlqN0o2dURQV3RqVFkyS1gzcUpLamhSSmVXR1owYjFTSVpHejUwZVgwY3NSWlJVZmlZeFN5S3pCcDJnSFhhN1FQanhaMzVVbjRnYVhrS0VHZ055Y0RYTE56ejVwdTQzOWltTjdNRTAxcEN5MFB1LXJjdVVFTkZZZ1djSl9Bb1Y0SWpmRWZlSGpuQmtFVkN4dHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Washington Post",
-      "latestSinceUpdate": 2507
-    },
-    {
-      "date": "Recent",
-      "text": "Middle East oil exports rebound to 72% of prewar levels as Iran’s chokehold on Hormuz breaks down.",
+      "date": "Sep 29",
+      "text": "What’s Going On In Iran?",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2507
-    },
-    {
-      "date": "Recent",
-      "text": "New details are revealed regarding Israel’s protection of a Hezbollah pager operation.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2507
+      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE54QU1vWXpFSHdpSG5WR3JkZ1lyMGFvRjVEeExRNFdTSjM3WFQyUG5Gd0o5d2tnMmE4ck4yb1RVZzFTZ2tJZHFZbTFjZFNhclBUcC1hYlI4R3B6dUN5eVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "War on the Rocks",
+      "latestSinceUpdate": 2508
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
