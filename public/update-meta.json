@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2508,
+  "updateSequence": 2509,
   "lastUpdated": "2026-09-29",
-  "lastSyncedAt": "2026-09-29T08:39:02.200Z",
+  "lastSyncedAt": "2026-09-29T15:07:28.538Z",
   "warDay": 214,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.2,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "A ceasefire proposal from Tehran has been rejected by the US, indicating no active ceasefire, though dialogue is still mentioned."
   }
 }
