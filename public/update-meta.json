@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2514,
+  "updateSequence": 2515,
   "lastUpdated": "2026-09-30",
-  "lastSyncedAt": "2026-09-30T15:50:52.665Z",
+  "lastSyncedAt": "2026-09-30T20:20:27.214Z",
   "warDay": 215,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
-    "confidence": 1,
+    "status": "active",
+    "confidence": 0.98,
     "durationDays": 7,
-    "summary": "Multiple ceasefire proposals have been rejected by the US, and military actions continue from all sides."
+    "summary": "A 7-day ceasefire plan was rejected by Trump, though Iran has received a US counterproposal, indicating ongoing diplomatic efforts without an active cessation of hostilities."
   }
 }
