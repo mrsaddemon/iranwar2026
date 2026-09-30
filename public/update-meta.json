@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2512,
+  "updateSequence": 2513,
   "lastUpdated": "2026-09-30",
-  "lastSyncedAt": "2026-09-30T02:26:52.292Z",
+  "lastSyncedAt": "2026-09-30T08:56:18.287Z",
   "warDay": 215,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.69,
     "durationDays": 7,
-    "summary": "Tehran's ceasefire proposal has been rejected by Trump, indicating no active ceasefire."
+    "summary": "A ceasefire proposal from Tehran has been rejected by Trump, and diplomatic talks remain uncertain."
   }
 }
