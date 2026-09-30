@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2513,
+  "updateSequence": 2514,
   "lastUpdated": "2026-09-30",
-  "lastSyncedAt": "2026-09-30T08:56:18.287Z",
+  "lastSyncedAt": "2026-09-30T15:50:52.665Z",
   "warDay": 215,
   "ceasefire": {
     "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "status": "fragile",
+    "confidence": 1,
     "durationDays": 7,
-    "summary": "A ceasefire proposal from Tehran has been rejected by Trump, and diplomatic talks remain uncertain."
+    "summary": "Multiple ceasefire proposals have been rejected by the US, and military actions continue from all sides."
   }
 }
