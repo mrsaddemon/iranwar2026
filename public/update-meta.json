@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2517,
+  "updateSequence": 2518,
   "lastUpdated": "2026-10-01",
-  "lastSyncedAt": "2026-10-01T05:37:12.256Z",
+  "lastSyncedAt": "2026-10-01T11:47:38.689Z",
   "warDay": 216,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "A US counterproposal for a 7-day ceasefire has been received by Iran, but the initial plan was rejected by Trump, indicating no active ceasefire."
+    "summary": "No active ceasefire reported amidst ongoing regional tensions and direct threats."
   }
 }
