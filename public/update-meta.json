@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2516,
-  "lastUpdated": "2026-09-30",
-  "lastSyncedAt": "2026-09-30T23:58:00.481Z",
-  "warDay": 215,
+  "updateSequence": 2517,
+  "lastUpdated": "2026-10-01",
+  "lastSyncedAt": "2026-10-01T05:37:12.256Z",
+  "warDay": 216,
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "A US counterproposal for a 7-day ceasefire was rejected by Trump, indicating no active de-escalation."
+    "summary": "A US counterproposal for a 7-day ceasefire has been received by Iran, but the initial plan was rejected by Trump, indicating no active ceasefire."
   }
 }
