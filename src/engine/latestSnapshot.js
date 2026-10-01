@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2518,
+  "updateSequence": 2519,
   "lastUpdated": "2026-10-01",
-  "lastSyncedAt": "2026-10-01T11:47:38.689Z",
+  "lastSyncedAt": "2026-10-01T17:31:37.807Z",
   "warDay": 216,
   "summary": "Tensions remain high between the US, Israel, and Iran, marked by US threats, reported US-Israeli strikes in Tehran, and ongoing Israeli operations against Iran-backed Hezbollah, while oil exports from the Middle East have rebounded.",
   "lastNarrativeUpdate": "2026-10-01",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire reported amidst ongoing regional tensions and direct threats."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 40,
     "escalationLevel": 80,
-    "oilDisruption": 20,
-    "tradeImpact": 29,
+    "oilDisruption": 60,
+    "tradeImpact": 58,
     "sanctionsPressure": 63,
-    "globalPressure": 70,
+    "globalPressure": 77,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 01",
-      "text": "Trump says may ‘blow up’ Iran.",
-      "severity": "critical",
+      "text": "Iran war live: Pezeshkian says Tehran to continue seeking dialogue with US",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOX09XQVdqYXN0MXFCR1d5aVVqWHkxdmxfdjVKUDdaS1AtVmlKSjJ0MTMtdHU0aXVHVVMxQ29CR0R4U0dTb0piRDdkNFpKdlBRdmJUZVN4X3dkc3NzNkNiNHp6U1ZzWUxVWFl1azNpM2IzS29QcTBraGJYOW1WWGpXV3NPTUFOa1RsRU9VNGc4S1U4UzNKeFVmNjBHc3lhdFVjZHlfQThGS0NlOWNrdlZ5TWV6eEbSAboBQVVfeXFMTS1xSlkwb3lQU0hEQWgweTZ3dll0NlVYSEpQeUpoN3BVR05FWTMxN0ZwSUdTaTFVMVNWcDl1bU54alhDa0JUSHViRDNfSDVSQUdCaU1IQ1FCdTl0aGRLMF8yTGZpbjhPOUNhMjhIWUlTczRJNHpKU19ZSnBoeVlNWFIwZGI2YTRxZHZSbXB3WUlFN1Q3X2Z0QTJPdzd6QVhwajVJR2RmNzFGd1VSbFJyeml6Y3ZqSnloLTBB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2519
+    },
+    {
+      "date": "Oct 01",
+      "text": "Iran war updates: Trump says may ‘blow up’ Iran",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPWlkxSG8wVkZ1Q0VFS2JDNE5WblUtN3hQU0twSnVrMFNrWmxOaDVlVS1HUGZXbVFGWkJtTkNqQTdhR281Wm9DbEpOY1BqX05PMDBSTWV2eGxOSzMwMWFJNHRJWlktV0txM1pWMEF1RG10UVk0d041dW9xNXRyenljd0l1T2Rqek9jZWVKWHgzUXowdXN4SUhfZ0VtQWRsOFdIdUlZWXdNTncxb1pwb09hYUlNcGdORWFVak5v0gHAAUFVX3lxTE0tbmZweW4xTWxhNm1QTnB4ZEpoWHhMU0RiZ09XX0wxLW1wM3hYZzNkX2ppQkgwRko5M1ROU2l0eEVlQ2Z2a2d2MWtWNm5FQjhLWUY2ZDVLSVBRZlNTb0FVRHJYZDI4UE04ZzZ2YlZwUjdBMUVoLUtYdC0xX3pISV84YUFuTWlNM3ZLMndjeTYzS0tNX0Fja0VQMjlpcWtSaUdaWXJnMDBqU3dZQldqQWxFNVRlOUVyU1l5NXo2c2UxYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2518
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2519
     },
     {
       "date": "Oct 01",
-      "text": "US and Iran trade barbs as MBS and UAE VP meet.",
-      "severity": "warning",
+      "text": "Iran war updates: US, Iran trade barbs as MBS and UAE VP meet",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOOGR3S3NmdVpaZUR1OGdBX0hBTU5TbTFDcDRVbThaY05EU1Q3Qk9Sa3AwNFlkT3RrU0ZZb19DYmlaZlFQa09DT3d1eGxuZFJnZVJpT1NSTkpVVy1pUEt4MmZVR1JqeWR0YWRLNUdfcFp2WjVMV1lMNVllaF9ELVF3bmhrUUhscEFwcDJVSE9feWtzYldxNGF2NGNEZUZVZm05Z0ZoamNsd2dZNVcxNWE4V0luaVZpd9IBuwFBVV95cUxPSUdtckw3eUdwd1UweVd6Tm1YWG55cXBIaTZrdVJtTWRKdmN3LWk5aGxtOTFtbFNQcVdfN3g2ekVUR0NGVHNXRXFQYjJrbjNiNUNwVUREUWp1M1laYkZQMng0SzJIcmN1RnR1bVpXU3FBbnRaaWxsQllnNmV1ZU1nMG1QT0RFR1JnUDZoaFpoc2VsbTFfMGpjUVotZ2dnR3hFVEl2Z0kyNl90enlOX2J4YUYxVXNpQlBMbDFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "aljazeera.com",
-      "latestSinceUpdate": 2518
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2519
     },
     {
       "date": "Oct 01",
-      "text": "Trump threatens 'Economic D-Day' for Iran and ‘tremendous’ consequences for its backers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQbjdQcUlraHYyYTY1UG5sUDJpV1dwZnpzWWZObU5iZ3g2RW1HSzFwTWNhcE1NaUR3Q3pWT1pYQXZibW1wMS1oQ1dUSVhObUhwcHN4MTVDWTNKOXFneGItamNBeWptNENKNHRiYXFJV0VJY2taaXFyRnJSQy1pRFlDbUhHMFnSAYoBQVVfeXFMUF9NTjA0UzQxLWRzdHFabk5acVdjbklmdzlGSlowZ3h4QnVIdmdGQjFfYUZsbEZSV1Bia1hISjZGVEgyNWlWcVBzMkVOSzYtR05OaXlBM3oxVkRKR0pycFZDeUxXejZnbXQzbF82Rjhud3NHR3VGZUhmQnl3MlpibFNGcFc4LTFHei1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2518
+      "text": "Persuasion, denial and bluster: Trump ‘stuck’ on Iran war ahead of elections",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2519
     },
     {
       "date": "Oct 01",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
-      "severity": "critical",
+      "text": "USA/Israel/Iran: Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2518
+      "latestSinceUpdate": 2519
     },
     {
       "date": "Oct 01",
-      "text": "Middle East Oil Exports Rebound as Iran’s Chokehold on Hormuz Breaks Down.",
+      "text": "Iran indicates it received a US response on its war-ending proposal, with details still unclear",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNbXZCOUR5RDZOTzRjOGhCVjJQRC1UR2I5SklaXzFSWW9WUzVDa2FZTTVoZ2xQakt1SXJCOThvckx5YnN0WWdYV0ZRWHA0YlB6ODFGdV9adng0ZHdjOC1PV3k5X05MYmE4VS15eW9RRkR6M3Y3TXhadmgyeU8tRnpONXBKQVB4TVBDb1RQQk5TQlZrQ1VfTUFMekFPNi03UkNkV2h2QTlsSmhPLVl4bVF2SHNQU0g2UzF4b19B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 2518
-    },
-    {
-      "date": "Oct 01",
-      "text": "The Strait of Hormuz Is Open.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiYkFVX3lxTFB4X0tPcm1YNkdrbjdRZW5mZ2VSZ2hXdVVoOW5CNEVJTDBtOGcwRTdzR1F6STlxcHRDOHFhNXZTLTFQUjZRZG1FWjcxdmRCT1YzQU5WY1BHY056blA5eUdSTmV3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Free Press",
-      "latestSinceUpdate": 2518
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxNTzF1aTM5aWNKQThpZ21SMjFCVHFBXzhoVXZSWXJVSGg4VFN4NEhWVlhVUmdJeEJ3OVJLb3BVVHduU1pPSHBJYVg0VEFsbndOTERpekJFNjlja1NwMmU2X1JKeTlfYXlOWk1PX2NjN2dxRDBldV8xTFh4MEdtWUxiN2lxc05vOVdtc3hYWWZaVGpDdzZUeGtsRjhDZWpON3c0dENpWGVubmR4SnduZ1IwV1FpRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "apnews.com",
+      "latestSinceUpdate": 2519
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
