@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2525,
-  "lastUpdated": "2026-10-02",
-  "lastSyncedAt": "2026-10-02T23:01:37.770Z",
-  "warDay": 217,
-  "summary": "The Iran war continues with significant escalation signals, including multiple US military deployments, threats from President Trump, US-Israeli strikes on Tehran, and oil tanker incidents in the Hormuz Strait, while the US withdraws from Iraq, shifting regional power.",
-  "lastNarrativeUpdate": "2026-10-02",
+  "updateSequence": 2526,
+  "lastUpdated": "2026-10-03",
+  "lastSyncedAt": "2026-10-03T01:51:46.464Z",
+  "warDay": 218,
+  "summary": "The Iran war shows signs of significant escalation with increased US military deployments, reported US-Israeli strikes on Tehran, and attacks on oil tankers in the Hormuz Strait, while US forces complete their withdrawal from Iraq.",
+  "lastNarrativeUpdate": "2026-10-03",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is reported; signals indicate ongoing conflict and escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.4,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 90,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
     "oilDisruption": 80,
-    "tradeImpact": 74,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 02",
-      "text": "Iran Update, October 1, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPbml6TjMzem1ZeGFUUWp3U3JPSTRUNS1HaVg4aEQ2YmMyVjBobG9xSTVjOEt4TUxGTlAtZkdhNF9zLXBlRGhHa2hMLW91ZjFUYUJSZ0h4VFExemNJVXptZW1ZcS1teWR5LWhTcHhaWFVUeEhTR2dvbXlQZ2JRQUg4U0xTWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2525
-    },
-    {
-      "date": "Oct 02",
-      "text": "Iran war live: US urges UN sanctions on Iran, targets ‘Hamas financing’",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNUC1tREkzTk9ydXdTMXFqZzAzMzlCZWN2N2RnVG5WM0V3Z3ZBblk0SkI4bkJ2ZXhmQXBsZFFVajMwVWdNRi1SUmNfRWJwZENIcEZtM1BaZVU2blVWLXhkMUhtdXI0SklvQm1vU1BEVXJlZFg5TDQwcU5EeGpqME9Yalk4RFUxSWJtZ3pyTmxRM2hZaFRNZUI0ZEVhWE9IdmdOalB4LWs0cXlkU29GLV90dFNTbzFXNGxlNUhTV3hB0gHDAUFVX3lxTE81ZkY5SzJvZG1CTnB0NzcyT1FleFBfZUIzanRrSjROcXZUd1JVakZQV3Fhc0U1SXRQMllyZkZrN2ppSU02NmZlT3pXMWlFelRNQU9MX0dRRmJRTGJRa1JyMDdkTy1FZHhsd2xLRVR4Y25UeVJ1QV9uY3UydUJsQUdtSS1nR1lqRTlZZmZ3ZEVhRERtdE5SekFHQVZubjFMODNld2lETXc0Q0tvUDE4VTlQTmR2U3pqREJBczBpSE9QNjg4cw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2525
-    },
-    {
-      "date": "Oct 02",
-      "text": "New aircraft carrier, 10,000 US troops: Is the Iran war about to escalate?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNVFl3S200MERGUFV0MDdPcTBxN1JKcXhpOThnWXdNLXNQaXVTVTdUVkpiUGtsNGVfRVh1d0JfYVhiUkloYTRYSEdiRUdtQU50cVYxSHdlc2txXzNnVlduc1ZGeDB0dzdrSXR0ZnA4TElyZVFGSnFFWXN2TldMOGU5RU9TaXNJMkhxNm5UVDFMcXBmRVBYbTVua0dPSEJPYU1aa0pNQ2dIT1dMb1FUc0pnedIBtgFBVV95cUxPUmpzU2paSy0xR0pqdVRBRVFKb0lsVmk5bTQwSHc1blBvc2phUFF4WFJySk5QRVpsa0c4QWtTRmhubVczdkwyUklKNWhIUnQwX2h0bHo3NVRzQXRYdUJMekp4dHJYTFF1c05ncmFKa0U4WU9RTG5wYzNnTkVrb1lyMVF4WThCN2dPdkR4djF0MEVLLU5LWXJ5NGxFRWtjcHpZRFVtbW83emlMaVFIazJfVkhqUXRIZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2525
-    },
-    {
-      "date": "Oct 02",
-      "text": "Iran war updates: US deploys aircraft carrier strike group to Middle East",
+      "date": "Oct 01",
+      "text": "US deploys a new aircraft carrier and 10,000 troops to the Middle East, signaling potential escalation.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOX09XQVdqYXN0MXFCR1d5aVVqWHkxdmxfdjVKUDdaS1AtVmlKSjJ0MTMtdHU0aXVHVVMxQ29CR0R4U0dTb0piRDdkNFpKdlBRdmJUZVN4X3dkc3NzNkNiNHp6U1ZzWUxVWFl1azNpM2IzS29QcTBraGJYOW1WWGpXV3NPTUFOa1RsRU9VNGc4S1U4UzNKeFVmNjBHc3lhdFVjZHlfQThGS0NlOWNrdlZ5TWV6eEbSAboBQVVfeXFMTS1xSlkwb3lQU0hEQWgweTZ3dll0NlVYSEpQeUpoN3BVR05FWTMxN0ZwSUdTaTFVMVNWcDl1bU54alhDa0JUSHViRDNfSDVSQUdCaU1IQ1FCdTl0aGRLMF8yTGZpbjhPOUNhMjhIWUlTczRJNHpKU19ZSnBoeVlNWFIwZGI2YTRxZHZSbXB3WUlFN1Q3X2Z0QTJPdzd6QVhwajVJR2RmNzFGd1VSbFJyeml6Y3ZqSnloLTBB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2525
+      "latestSinceUpdate": 2526
     },
     {
-      "date": "Oct 02",
-      "text": "Trump says Iran \"ready to fold up,\" after threatening post-midterm attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOaXNwVUhFZkZrZmxLRFd1QVZwZFFWVjFLcEgxWmNJWnJCMlNnOExuY3BsdWlLaG9HYzF1VjJKYnB6eHlfU1NLZWlUcWhDMmpCVFI1eGczV19kR3kycThHd0ducEtLejdicmJXanhmWWFUcWRJeVVDb28xUlRmTWxPSWRwbXBfRU1uSW1N?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2525
+      "date": "Oct 01",
+      "text": "A Houthi missile was foiled, but injured a Saudi resident, according to Riyadh.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNUC1tREkzTk9ydXdTMXFqZzAzMzlCZWN2N2RnVG5WM0V3Z3ZBblk0SkI4bkJ2ZXhmQXBsZFFVajMwVWdNRi1SUmNfRWJwZENIcEZtM1BaZVU2blVWLXhkMUhtdXI0SklvQm1vU1BEVXJlZFg5TDQwcU5EeGpqME9Yalk4RFUxSWJtZ3pyTmxRM2hZaFRNZUI0ZEVhWE9IdmdOalB4LWs0cXlkU29GLV90dFNTbzFXNGxlNUhTV3hB0gHDAUFVX3lxTE81ZkY5SzJvZG1CTnB0NzcyT1FleFBfZUIzanRrSjROcXZUd1JVakZQV3Fhc0U1SXRQMllyZkZrN2ppSU02NmZlT3pXMWlFelRNQU9MX0dRRmJRTGJRa1JyMDdkTy1FZHhsd2xLRVR4Y25UeVJ1QV9uY3UydUJsQUdtSS1nR1lqRTlZZmZ3ZEVhRERtdE5SekFHQVZubjFMODNld2lETXc0Q0tvUDE4VTlQTmR2U3pqREJBczBpSE9QNjg4cw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2526
     },
     {
-      "date": "Oct 02",
-      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE1QRzZzb0dzS2VqTEZ4QjU3MzRlQUFvdTdEMnc4QzZjR29nVTNmSVc4R0JIMXg3bDNqV0Z1eDdMczlxZE9KVnFOek1RcDY3TldqdlJ4bFdYZzdZNDEwQ01seDk4bHpTakdjMUp0clVSNWRzOGk2eFN5ZmxCcmlfNGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2525
+      "date": "Recent",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2526
+    },
+    {
+      "date": "Recent",
+      "text": "US sends a third aircraft carrier to the Middle East amid a stalemate in the Iran war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOeG1vM25faW5LcklvY082VWw2bHJ2MFdzR1NRekV1TzI2SzloOTFrZGhPTEVyWlY4bGpiRXprNWVhTUxqbF8zc3pxNGFFZzJIalNteWs5UV9oWkI3V1dBX2hjckVwejBiZmtSVnFTUUVVeFdGS19nZE9kOVB4OTUwUUcxOWZzY25FWXJPNXg3WGprdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "theguardian.com",
+      "latestSinceUpdate": 2526
+    },
+    {
+      "date": "Recent",
+      "text": "Trump warns Iran of fresh strikes if Tehran is involved in a FlyDubai plane incident.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQMW5QNEJrTlJLWi1DUTYyWURFTFJRRVBDYWRTVkZMM3FSVjY3RlA1emhJdmJmMmlHNlFmQ2Z3ZHNmYjVmUHpFbGZJeGZLOTFXbHA0dTJoUE9Jcjk4dGc0MS1VSncxYlhkX2xwRThNU09fcFNLdnB6SzFvLWNzWXlxWmJIZE44Y1VG?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2526
+    },
+    {
+      "date": "Tuesday",
+      "text": "Three oil tankers were hit by projectiles in the Hormuz Strait, Marisks reports.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNMGxqUHRGWUpFZWo3eVZkQ1NnR2NZM05rLWhoWHNOOE5IaGhwSjk4QlNXRi16Q1BGYVlMc2VPWUh6dm55bHluMjg5WGxvY0dfcmdNcDJIaGc5UjFwaXVpZlFTd21VZDU5dkdpZUtteEtQVll0M09hVHRPMG4wZU56UlNMMjIxREx3dmJZOVNFZjE3R0ZrQ3Q0R0VaazBjWk9LcS1UOWR2S1BfRmc2M1FIeU1Qa3liNHZRcFJINWtYQ1c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2526
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Western Security",
-      "headline": "US Bolsters Mideast Presence Amidst Iran's Aggression",
-      "summary": "The United States is significantly increasing its military presence in the Middle East, deploying multiple carrier strike groups and Marines, in response to rising tensions and perceived Iranian aggression, including tanker attacks and support for proxies. Trump's rhetoric suggests a firm, uncompromising stance against Iran.",
+      "perspective": "US/Israel",
+      "headline": "Iran 'Ready to Fold Up' as Israel Conquers Enemies",
+      "summary": "US President Trump suggests Iran is on the verge of collapse and warns of further strikes. A pro-Israel commentator asserts Israel is successfully conquering its enemies, implying military dominance.",
       "tone": "defiant",
-      "latestSinceUpdate": 2521
+      "latestSinceUpdate": 2526
     },
     {
-      "perspective": "Iranian Diplomacy/Resistance",
-      "headline": "Iran Proposes Peace Amidst US Military Buildup",
-      "summary": "Iran has indicated it received a US response to its 'war-ending proposal,' suggesting a diplomatic channel remains open despite the ongoing conflict and US military escalation. Concurrently, Iran continues to support regional allies like Hezbollah, which has acquired substantial weaponry.",
-      "tone": "strained",
-      "latestSinceUpdate": 2521
+      "perspective": "Iran/Allies",
+      "headline": "Hezbollah Strengthens as US Exits Iraq",
+      "summary": "Hezbollah has significantly increased its weapons arsenal, largely supplied by Iran, with its leadership vowing continued resistance against Israel. The withdrawal of US troops from Iraq is celebrated by Iran and its allies as a strategic victory.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2526
     },
     {
-      "perspective": "Regional Stability",
-      "headline": "Proxy Conflicts and Regional Realignment Intensify",
-      "summary": "Hezbollah's continued weapon acquisition and secret talks with the Syrian government highlight persistent proxy conflicts and shifting regional alliances. The withdrawal of US forces from Iraq creates a vacuum that could further empower Iran's regional influence, challenging stability efforts in Lebanon and beyond.",
+      "perspective": "International/Concerned",
+      "headline": "Escalation Amid Stalemate and Civilian Harm",
+      "summary": "The deployment of a third US aircraft carrier highlights a stalemate in the Iran war, while investigations reveal significant civilian harm from US-Israeli strikes in Tehran. The US withdrawal from Iraq creates a security vacuum, raising regional instability concerns.",
       "tone": "anxious",
-      "latestSinceUpdate": 2521
+      "latestSinceUpdate": 2526
     }
   ]
 });
