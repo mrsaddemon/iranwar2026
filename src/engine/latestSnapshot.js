@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2531,
-  "lastUpdated": "2026-10-03",
-  "lastSyncedAt": "2026-10-03T22:23:31.052Z",
-  "warDay": 218,
-  "summary": "The Iran war continues with significant escalation, marked by increased US military deployments, reported US-Israeli strikes on Tehran, and attacks on oil tankers in the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-10-03",
+  "updateSequence": 2532,
+  "lastUpdated": "2026-10-04",
+  "lastSyncedAt": "2026-10-04T01:56:57.879Z",
+  "warDay": 219,
+  "summary": "Ongoing conflict in the Middle East sees escalating US-Iran tensions, military buildups, and attacks on oil tankers in the Strait of Hormuz, alongside reports of civilian harm from US-Israeli strikes.",
+  "lastNarrativeUpdate": "2026-10-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire reported."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 25,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 02",
-      "text": "US deploys new aircraft carrier and 10,000 troops to Middle East.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOX09XQVdqYXN0MXFCR1d5aVVqWHkxdmxfdjVKUDdaS1AtVmlKSjJ0MTMtdHU0aXVHVVMxQ29CR0R4U0dTb0piRDdkNFpKdlBRdmJUZVN4X3dkc3NzNkNiNHp6U1ZzWUxVWFl1azNpM2IzS29QcTBraGJYOW1WWGpXV3NPTUFOa1RsRU9VNGc4S1U4UzNKeFVmNjBHc3lhdFVjZHlfQThGS0NlOWNrdlZ5TWV6eEbSAboBQVVfeXFMTS1xSlkwb3lQU0hEQWgweTZ3dll0NlVYSEpQeUpoN3BVR05FWTMxN0ZwSUdTaTFVMVNWcDl1bU54alhDa0JUSHViRDNfSDVSQUdCaU1IQ1FCdTl0aGRLMF8yTGZpbjhPOUNhMjhIWUlTczRJNHpKU19ZSnBoeVlNWFIwZGI2YTRxZHZSbXB3WUlFN1Q3X2Z0QTJPdzd6QVhwajVJR2RmNzFGd1VSbFJyeml6Y3ZqSnloLTBB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
+      "text": "US to send 3rd carrier strike group to Middle East as Iran tensions rise.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNZ0N1eVEzV0xVR3B6Z1dzbVdHOFFYZ2xMUFpuRUh3T21zR1pXb0djeEM2bjNfNUhjQnlKeUE3MkFsVTRoWWlQNXNSYkZYM1dOemctLWIwUklOeXlaUlY0TVhWSFNKVThhSXdpSE8wbFFXVVZjcE11NWxjN0RYcWxmdy1lUTl1RXRleTVwdFYyX09MQkVuUGgwR1hSR0Q1S2J3bG9UYzVPSUZMRUNKb2dKMTROSmtmMjQyOTJmcE9kdFhnQUFXOHhVeXgtSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
       "latestSinceUpdate": 2531
+    },
+    {
+      "date": "Oct 01",
+      "text": "Three oil tankers hit by projectiles in Hormuz strait.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNMGxqUHRGWUpFZWo3eVZkQ1NnR2NZM05rLWhoWHNOOE5IaGhwSjk4QlNXRi16Q1BGYVlMc2VPWUh6dm55bHluMjg5WGxvY0dfcmdNcDJIaGc5UjFwaXVpZlFTd21VZDU5dkdpZUtteEtQVll0M09hVHRPMG4wZU56UlNMMjIxREx3dmJZOVNFZjE3R0ZrQ3Q0R0VaazBjWk9LcS1UOWR2S1BfRmc2M1FIeU1Qa3liNHZRcFJINWtYQ1c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2532
+    },
+    {
+      "date": "Oct 02",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2532
+    },
+    {
+      "date": "Oct 02",
+      "text": "Yemeni forces strike Sanaa.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQa1VIS3ZuMjVWckRFYnZtcHc3cms4NzJwUGxYTUNfcWFTdDU1V2JBbHBreHcxU3RIWUxzQjBVNEowakotTzhtOF9NMzFFRkIyZUxBYkJTM2F4a1NvbWlHdFVvQ0pwaV9hcUlmRkpIS2Etc1JDRnZzQmJLd1JFVndXY1V0cjJFcUwtMTJ2a1ZuT3pLZ0FmWlp3S29ka3I5RE95VjZJVFpXRmFrOFp0LVBPZGpTZmJ1cGg1WWxKUtIBwgFBVV95cUxObzg1V185MmNCZ3V4QnN6NmZFWFo3N0dMMlFzdEFiOUhldTZEZDh4VFlsZ2NBRTI1Vk1vSnhYcTE5Qkd6ekN0SXRQbFY2MGpXX2pUVWFTWUJ3LWNrbDBUZE9QaC1OSm5NNkRlWXFpWEVrbVZlblItZTYzU29QLXZqQ3pYTDZHbkZSTWFUOVhTR0IxYkJLQUUwdEFOX0MzZi1FNVpkQkk0dDhWekk2LXFzNUZwTmlPQWdEYkFQLWgwRk8tZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2532
     },
     {
       "date": "Oct 02",
@@ -75,42 +99,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2531
     },
     {
-      "date": "Oct 02",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2531
-    },
-    {
-      "date": "Oct 02",
-      "text": "US to send 3rd carrier strike group to Middle East as Iran tensions rise.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNZ0N1eVEzV0xVR3B6Z1dzbVdHOFFYZ2xMUFpuRUh3T21zR1pXb0djeEM2bjNfNUhjQnlKeUE3MkFsVTRoWWlQNXNSYkZYM1dOemctLWIwUklOeXlaUlY0TVhWSFNKVThhSXdpSE8wbFFXVVZjcE11NWxjN0RYcWxmdy1lUTl1RXRleTVwdFYyX09MQkVuUGgwR1hSR0Q1S2J3bG9UYzVPSUZMRUNKb2dKMTROSmtmMjQyOTJmcE9kdFhnQUFXOHhVeXgtSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2531
-    },
-    {
-      "date": "Oct 01",
-      "text": "Three oil tankers hit by projectiles in Hormuz Strait.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNMGxqUHRGWUpFZWo3eVZkQ1NnR2NZM05rLWhoWHNOOE5IaGhwSjk4QlNXRi16Q1BGYVlMc2VPWUh6dm55bHluMjg5WGxvY0dfcmdNcDJIaGc5UjFwaXVpZlFTd21VZDU5dkdpZUtteEtQVll0M09hVHRPMG4wZU56UlNMMjIxREx3dmJZOVNFZjE3R0ZrQ3Q0R0VaazBjWk9LcS1UOWR2S1BfRmc2M1FIeU1Qa3liNHZRcFJINWtYQ1c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2531
-    },
-    {
-      "date": "2024",
-      "text": "Hezbollah received $157M in weapons, mostly from one nation.",
+      "date": "Oct 2026",
+      "text": "Syrian Government and Hezbollah held secret talks in Turkey.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOT3BnMmhxMk51NGRmZGFGNEpZSW5Wc2RJRi14a015MF9jUXlxZlA4NFZSV0Rjd083YUdUUzNhVFNheXJpTF9nNHJwemlUUm45NDVGTmFvLWtUZWRVT1JnUkJ0MXB0RmRaNWt0Z0JYSHFXUmxjLVhNTFFiYmdva05kSlNYNHdoTDZhalF3ODJKTnZFUF9KT0xoRA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "yahoo.com",
-      "latestSinceUpdate": 2531
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2532
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "Iran 'Ready to Fold Up' as Israel Conquers Enemies",
-      "summary": "US President Trump suggests Iran is on the verge of collapse and warns of further strikes. A pro-Israel commentator asserts Israel is successfully conquering its enemies, implying military dominance.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2526
-    },
-    {
-      "perspective": "Iran/Allies",
-      "headline": "Hezbollah Strengthens as US Exits Iraq",
-      "summary": "Hezbollah has significantly increased its weapons arsenal, largely supplied by Iran, with its leadership vowing continued resistance against Israel. The withdrawal of US troops from Iraq is celebrated by Iran and its allies as a strategic victory.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2526
-    },
-    {
-      "perspective": "International/Concerned",
-      "headline": "Escalation Amid Stalemate and Civilian Harm",
-      "summary": "The deployment of a third US aircraft carrier highlights a stalemate in the Iran war, while investigations reveal significant civilian harm from US-Israeli strikes in Tehran. The US withdrawal from Iraq creates a security vacuum, raising regional instability concerns.",
+      "perspective": "Escalation Concerns",
+      "headline": "US Military Buildup Signals Heightened Iran War Risk",
+      "summary": "Reports indicate a significant US military buildup, including a third carrier strike group and 10,000 troops, raising concerns about further escalation in the ongoing conflict with Iran. High-level US meetings are underway to discuss next moves.",
       "tone": "anxious",
-      "latestSinceUpdate": 2526
+      "latestSinceUpdate": 2532
+    },
+    {
+      "perspective": "Oil Supply Vulnerability",
+      "headline": "Hormuz Strait Remains Under Threat Despite Increased Oil Flows",
+      "summary": "Despite claims of Middle East oil supply nearing pre-war levels, recent attacks on three oil tankers and Iran's continued threats to the Strait of Hormuz highlight persistent risks to global energy supply. Iraq reports continued crude transport through the strait.",
+      "tone": "strained",
+      "latestSinceUpdate": 2532
+    },
+    {
+      "perspective": "Regional Proxy Activity",
+      "headline": "Hezbollah Defiance and Strategic Talks Signal Continued Regional Maneuvering",
+      "summary": "Hezbollah, reportedly receiving substantial foreign weapons, asserts a defiant stance against Israel, with its new generation vowing no quarter. The group also engaged in secret talks with the Syrian government in Turkey, indicating ongoing strategic coordination.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2532
+    },
+    {
+      "perspective": "Civilian Impact of Strikes",
+      "headline": "Investigation Reveals Devastating Civilian Harm from Tehran Strikes",
+      "summary": "An investigation into recent US-Israeli strikes on Tehran neighborhoods has revealed devastating civilian harm, drawing attention to the human cost of the conflict. This raises questions about the precision and impact of military operations.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2532
     }
   ]
 });
