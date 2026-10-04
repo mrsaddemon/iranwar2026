@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2532,
+  "updateSequence": 2533,
   "lastUpdated": "2026-10-04",
-  "lastSyncedAt": "2026-10-04T01:56:57.879Z",
+  "lastSyncedAt": "2026-10-04T08:19:30.174Z",
   "warDay": 219,
-  "summary": "Ongoing conflict in the Middle East sees escalating US-Iran tensions, military buildups, and attacks on oil tankers in the Strait of Hormuz, alongside reports of civilian harm from US-Israeli strikes.",
+  "summary": "The ongoing war with Iran continues, marked by increased US military presence, US-Israeli strikes on Tehran causing civilian harm, and Iran's threats to close the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
+    "summary": "No active ceasefire or truce is reported amidst the ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.5,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.4,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 35,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 02",
-      "text": "US to send 3rd carrier strike group to Middle East as Iran tensions rise.",
+      "date": "Oct 03",
+      "text": "US deploys a new aircraft carrier and 10,000 troops to the region amidst escalating tensions.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxNZ0N1eVEzV0xVR3B6Z1dzbVdHOFFYZ2xMUFpuRUh3T21zR1pXb0djeEM2bjNfNUhjQnlKeUE3MkFsVTRoWWlQNXNSYkZYM1dOemctLWIwUklOeXlaUlY0TVhWSFNKVThhSXdpSE8wbFFXVVZjcE11NWxjN0RYcWxmdy1lUTl1RXRleTVwdFYyX09MQkVuUGgwR1hSR0Q1S2J3bG9UYzVPSUZMRUNKb2dKMTROSmtmMjQyOTJmcE9kdFhnQUFXOHhVeXgtSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2531
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2533
     },
     {
-      "date": "Oct 01",
-      "text": "Three oil tankers hit by projectiles in Hormuz strait.",
+      "date": "Oct 03",
+      "text": "A Houthi missile attack was foiled, resulting in injuries to a Saudi resident.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2533
+    },
+    {
+      "date": "Oct 03",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNMGxqUHRGWUpFZWo3eVZkQ1NnR2NZM05rLWhoWHNOOE5IaGhwSjk4QlNXRi16Q1BGYVlMc2VPWUh6dm55bHluMjg5WGxvY0dfcmdNcDJIaGc5UjFwaXVpZlFTd21VZDU5dkdpZUtteEtQVll0M09hVHRPMG4wZU56UlNMMjIxREx3dmJZOVNFZjE3R0ZrQ3Q0R0VaazBjWk9LcS1UOWR2S1BfRmc2M1FIeU1Qa3liNHZRcFJINWtYQ1c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2532
-    },
-    {
-      "date": "Oct 02",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2532
+      "latestSinceUpdate": 2533
     },
     {
-      "date": "Oct 02",
-      "text": "Yemeni forces strike Sanaa.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQa1VIS3ZuMjVWckRFYnZtcHc3cms4NzJwUGxYTUNfcWFTdDU1V2JBbHBreHcxU3RIWUxzQjBVNEowakotTzhtOF9NMzFFRkIyZUxBYkJTM2F4a1NvbWlHdFVvQ0pwaV9hcUlmRkpIS2Etc1JDRnZzQmJLd1JFVndXY1V0cjJFcUwtMTJ2a1ZuT3pLZ0FmWlp3S29ka3I5RE95VjZJVFpXRmFrOFp0LVBPZGpTZmJ1cGg1WWxKUtIBwgFBVV95cUxObzg1V185MmNCZ3V4QnN6NmZFWFo3N0dMMlFzdEFiOUhldTZEZDh4VFlsZ2NBRTI1Vk1vSnhYcTE5Qkd6ekN0SXRQbFY2MGpXX2pUVWFTWUJ3LWNrbDBUZE9QaC1OSm5NNkRlWXFpWEVrbVZlblItZTYzU29QLXZqQ3pYTDZHbkZSTWFUOVhTR0IxYkJLQUUwdEFOX0MzZi1FNVpkQkk0dDhWekk2LXFzNUZwTmlPQWdEYkFQLWgwRk8tZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2532
-    },
-    {
-      "date": "Oct 02",
-      "text": "Foiled Houthi missile injures Saudi resident.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNUC1tREkzTk9ydXdTMXFqZzAzMzlCZWN2N2RnVG5WM0V3Z3ZBblk0SkI4bkJ2ZXhmQXBsZFFVajMwVWdNRi1SUmNfRWJwZENIcEZtM1BaZVU2blVWLXhkMUhtdXI0SklvQm1vU1BEVXJlZFg5TDQwcU5EeGpqME9Yalk4RFUxSWJtZ3pyTmxRM2hZaFRNZUI0ZEVhWE9IdmdOalB4LWs0cXlkU29GLV90dFNTbzFXNGxlNUhTV3hB0gHDAUFVX3lxTE81ZkY5SzJvZG1CTnB0NzcyT1FleFBfZUIzanRrSjROcXZUd1JVakZQV3Fhc0U1SXRQMllyZkZrN2ppSU02NmZlT3pXMWlFelRNQU9MX0dRRmJRTGJRa1JyMDdkTy1FZHhsd2xLRVR4Y25UeVJ1QV9uY3UydUJsQUdtSS1nR1lqRTlZZmZ3ZEVhRERtdE5SekFHQVZubjFMODNld2lETXc0Q0tvUDE4VTlQTmR2U3pqREJBczBpSE9QNjg4cw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2531
-    },
-    {
-      "date": "Oct 2026",
-      "text": "Syrian Government and Hezbollah held secret talks in Turkey.",
+      "date": "Oct 03",
+      "text": "Iran issues an ultimatum for talks with the Trump administration.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2532
+      "latestSinceUpdate": 2533
+    },
+    {
+      "date": "Oct 03",
+      "text": "Iran states the Strait of Hormuz will not reopen until its seven conditions are met.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNUEhSM2E2MkI0TDU0LXVLZl9GLWY5d3FoTU1PdS1ON0xUV1NNQ3FnUlZGRFhOYkVHTVp5RDFaN3pxZ1pVeVNJdTdhemxsNkdRaHJBTWNtRDEwWjg2cnlKb3F5VmpEN25tTHNmV2hLTnFkc1IxSEhLVGplNTJJSnBXMDFmOUN1V3NpRmxoVnJkcmRxd1hmbzBRTHZjd05rWlhUbDBfQmFCZWRkS0pHUTJNa041QlRtSkd5YUE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2533
+    },
+    {
+      "date": "Oct 03",
+      "text": "Hezbollah reportedly received $157 million in weapons in 2024, primarily from one nation.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOT3BnMmhxMk51NGRmZGFGNEpZSW5Wc2RJRi14a015MF9jUXlxZlA4NFZSV0Rjd083YUdUUzNhVFNheXJpTF9nNHJwemlUUm45NDVGTmFvLWtUZWRVT1JnUkJ0MXB0RmRaNWt0Z0JYSHFXUmxjLVhNTFFiYmdva05kSlNYNHdoTDZhalF3ODJKTnZFUF9KT0xoRA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 2533
     }
   ],
   "sourceStatuses": [
