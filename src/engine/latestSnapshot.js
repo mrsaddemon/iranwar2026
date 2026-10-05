@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2536,
-  "lastUpdated": "2026-10-04",
-  "lastSyncedAt": "2026-10-04T21:35:22.004Z",
-  "warDay": 219,
-  "summary": "Tensions are high with significant US military buildup and warnings to Iran, while regional conflicts involving Hezbollah and Houthi forces continue, and the Strait of Hormuz faces disruption threats.",
-  "lastNarrativeUpdate": "2026-10-04",
+  "updateSequence": 2537,
+  "lastUpdated": "2026-10-05",
+  "lastSyncedAt": "2026-10-05T00:08:19.556Z",
+  "warDay": 220,
+  "summary": "Tensions in the Middle East are escalating with increased US military presence, reported US-Israeli strikes on Tehran, ongoing clashes between Israel and Hezbollah, and Iran threatening to keep the Strait of Hormuz closed following tanker attacks.",
+  "lastNarrativeUpdate": "2026-10-05",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "No ceasefire is currently in effect, with ongoing military actions and heightened tensions."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 90
-      },
-      "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
+        "aggression": 0.85
+      }
+    },
+    "israel": {
+      "metrics": {
+        "militaryPower": 75
+      },
+      "behavior": {
+        "precision": 0.65,
         "aggression": 0.8
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 30,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -60,27 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 03",
-      "text": "US deploys new aircraft carrier and 10,000 troops to the region, signaling potential escalation.",
+      "text": "US deploys new aircraft carrier and 10,000 troops to the region, raising escalation concerns.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2536
-    },
-    {
-      "date": "Oct 03",
-      "text": "UAE frees Iranian prisoners amidst ongoing regional tensions.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2536
-    },
-    {
-      "date": "Oct 03",
-      "text": "Yemeni forces reportedly strike Sanaa.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQa1VIS3ZuMjVWckRFYnZtcHc3cms4NzJwUGxYTUNfcWFTdDU1V2JBbHBreHcxU3RIWUxzQjBVNEowakotTzhtOF9NMzFFRkIyZUxBYkJTM2F4a1NvbWlHdFVvQ0pwaV9hcUlmRkpIS2Etc1JDRnZzQmJLd1JFVndXY1V0cjJFcUwtMTJ2a1ZuT3pLZ0FmWlp3S29ka3I5RE95VjZJVFpXRmFrOFp0LVBPZGpTZmJ1cGg1WWxKUtIBwgFBVV95cUxObzg1V185MmNCZ3V4QnN6NmZFWFo3N0dMMlFzdEFiOUhldTZEZDh4VFlsZ2NBRTI1Vk1vSnhYcTE5Qkd6ekN0SXRQbFY2MGpXX2pUVWFTWUJ3LWNrbDBUZE9QaC1OSm5NNkRlWXFpWEVrbVZlblItZTYzU29QLXZqQ3pYTDZHbkZSTWFUOVhTR0IxYkJLQUUwdEFOX0MzZi1FNVpkQkk0dDhWekk2LXFzNUZwTmlPQWdEYkFQLWgwRk8tZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2536
+      "latestSinceUpdate": 2537
     },
     {
       "date": "Oct 03",
@@ -91,26 +75,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2536
     },
     {
-      "date": "Oct 03",
+      "date": "Oct 02-03",
       "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2536
+      "latestSinceUpdate": 2537
     },
     {
-      "date": "Oct 03",
-      "text": "Iran states the Strait of Hormuz will not reopen until conditions are met.",
+      "date": "Oct 02-03",
+      "text": "Multiple tankers struck in the Middle East; Iran reiterates conditions for reopening Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNUEhSM2E2MkI0TDU0LXVLZl9GLWY5d3FoTU1PdS1ON0xUV1NNQ3FnUlZGRFhOYkVHTVp5RDFaN3pxZ1pVeVNJdTdhemxsNkdRaHJBTWNtRDEwWjg2cnlKb3F5VmpEN25tTHNmV2hLTnFkc1IxSEhLVGplNTJJSnBXMDFmOUN1V3NpRmxoVnJkcmRxd1hmbzBRTHZjd05rWlhUbDBfQmFCZWRkS0pHUTJNa041QlRtSkd5YUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "reuters.com",
-      "latestSinceUpdate": 2536
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQUjEwRGxoTll0b2ZCWkRZZl9iUzBKblN5TXJNM0Y5RXpZUmYwMW1YVW0wcFZYcEl1UTk0Q3VpTl9qZXBtYkg1QzdBWDZIa0wwdWZJZ0tsbU5DbHg1LWhOR2hCWWRzUVV4Qy1wd1pWVW9ZQ3NrdmE4RkpJUkRJYXk0ekNzVXQzalpLY3AtUU1mb3FlcnRnc1BEUi1KaDVEUWFiVUhF0gGoAUFVX3lxTFBMNDgyNFd0ZWdGbHlrRGNsUEtGbUx2ci1KakxlMXpuRks0Nl9jY2pjdC1pTkRVYXJRajFmdVZqaHVQZ2lmTmtzVkJaM1JnWWI3VlBTZHhYMDBRUjd5R0NzNEZ0S2w5bVJ5NkpvZHZqaWFPd0V0T2FrX1V1bW1vaFpiYUYtNHJoYko3ZTNXQW1ZTVV1RlNGN2ZZRmJvWUZiUWFxcGNRSWJ0UA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2537
+    },
+    {
+      "date": "Oct 02-03",
+      "text": "Iraq sends 2 million barrels of crude through Hormuz, a decades-first move.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOZ2VuaDhtNXlpUVNERFA2Y3RyTkRLaUJGSHJZenlJdHpPd1hfdVV6andILUhJTEl5TFdnYlZhcWd1VHljajNqeTZFS0IzbFNhdUt1UlozSVdUSWVsVUJ1ekdDY3dWUng1ZDdmc1B4TlJpUi1QYTJvdHhEUmhzNVFHcGV5ZDR3aEg1dE1LVDVOR1BIRlpZaWhDd0ZB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Arab Weekly",
+      "latestSinceUpdate": 2537
+    },
+    {
+      "date": "Oct 02-03",
+      "text": "Eight Israeli soldiers killed in clashes with Hezbollah in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOZUpYdGtNWWdkNVh5NEpDZzZWMHduVjRmZXZsOUEzbElkbDlZWWJoQzV2Rk9zd1Q1RUtUU1dQX2pvN2UyMHBKWmkyWjR4X1lBNmxfZVpxOTgwT3JpUXBvaHh4UFlNRU90dXZTeUhnNkJSR2E1Q3lpWmhKQXhyY2J4V1l1R3NSNkFGYXlXRHo2dXRCVGlhY005ZExaWE03SElsOWt1UWxuSWRJQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Roya News",
+      "latestSinceUpdate": 2537
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
