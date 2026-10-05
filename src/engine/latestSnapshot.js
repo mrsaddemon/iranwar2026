@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2537,
+  "updateSequence": 2538,
   "lastUpdated": "2026-10-05",
-  "lastSyncedAt": "2026-10-05T00:08:19.556Z",
+  "lastSyncedAt": "2026-10-05T05:50:27.708Z",
   "warDay": 220,
-  "summary": "Tensions in the Middle East are escalating with increased US military presence, reported US-Israeli strikes on Tehran, ongoing clashes between Israel and Hezbollah, and Iran threatening to keep the Strait of Hormuz closed following tanker attacks.",
+  "summary": "The Iran war continues with escalating tensions, including US troop deployments, US-Israeli strikes on Tehran, renewed attacks on tankers near the Strait of Hormuz, and clashes between Israel and Hezbollah in Lebanon, while Iran states there is no military solution.",
   "lastNarrativeUpdate": "2026-10-05",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently in effect, with ongoing military actions and heightened tensions."
+    "summary": "No active ceasefire is reported amidst ongoing conflict and escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.6,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.4,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 03",
-      "text": "US deploys new aircraft carrier and 10,000 troops to the region, raising escalation concerns.",
+      "text": "US deploys new aircraft carrier and 10,000 troops, raising escalation concerns in Iran war.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2537
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNVFl3S200MERGUFV0MDdPcTBxN1JKcXhpOThnWXdNLXNQaXVTVTdUVkpiUGtsNGVfRVh1d0JfYVhiUkloYTRYSEdiRUdtQU50cVYxSHdlc2txXzNnVlduc1ZGeDB0dzdrSXR0ZnA4TElyZVFGSnFFWXN2TldMOGU5RU9TaXNJMkhxNm5UVDFMcXBmRVBYbTVua0dPSEJPYU1aa0pNQ2dIT1dMb1FUc0pnedIBtgFBVV95cUxPUmpzU2paSy0xR0pqdVRBRVFKb0lsVmk5bTQwSHc1blBvc2phUFF4WFJySk5QRVpsa0c4QWtTRmhubVczdkwyUklKNWhIUnQwX2h0bHo3NVRzQXRYdUJMekp4dHJYTFF1c05ncmFKa0U4WU9RTG5wYzNnTkVrb1lyMVF4WThCN2dPdkR4djF0MEVLLU5LWXJ5NGxFRWtjcHpZRFVtbW83emlMaVFIazJfVkhqUXRIZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2538
     },
     {
       "date": "Oct 03",
-      "text": "A Houthi missile was foiled, injuring a Saudi resident.",
+      "text": "Yemeni forces launch offensive to seize Houthi-held areas.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2536
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQdmhaOWQ3S3FWZ3VDUmJjX0M4a19hSGF0WXo0R2V3NkZiZ2ZzOTJ3MDZhbjEwam5FT01JclpEcTZCNTJPWnVWRTVXYzljN2lDdVI1TkdRYlFWc21hQkFqUVdTVW01dkFfbk1iNmJQeC1WWUdmOW5GLTV6ZTB4M2t2bXNib1JoaXpzY2ZQMVNyVnlwTnBqSkVGSmFXemJuZV8xblFvSjNZMjZuLTlOR1l4TGp1VUhvUE9mSDlkLXJBSmloQdIBxwFBVV95cUxPNkdZNy1ScmkxWHFtcVREQWRQeF9iNzJBSkxRWUN1cG94MWVtYWY2cUpDNkE5VmtaQkdqTVJtMWg2OTFKeEdneWZlZTJEM3lUUTA4UWppWXh1SW5weDZsQzRJRUd0Q1N2Sm11cHlfTjB6SlVBaVpzRXZWUHBEQ1dPUE5fX21ENUZOT2hyZ0N2SVNCb25wU3dqM0JHWENlMEY2SjEyNlBXUTJib1ZhLTdFZkhfU092WEdRVGNLTXNtWWd4WVE3bk9B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2538
     },
     {
-      "date": "Oct 02-03",
+      "date": "Oct 03",
+      "text": "Foiled Houthi missile injures a Saudi resident.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNUC1tREkzTk9ydXdTMXFqZzAzMzlCZWN2N2RnVG5WM0V3Z3ZBblk0SkI4bkJ2ZXhmQXBsZFFVajMwVWdNRi1SUmNfRWJwZENIcEZtM1BaZVU2blVWLXhkMUhtdXI0SklvQm1vU1BEVXJlZFg5TDQwcU5EeGpqME9Yalk4RFUxSWJtZ3pyTmxRM2hZaFRNZUI0ZEVhWE9IdmdOalB4LWs0cXlkU29GLV90dFNTbzFXNGxlNUhTV3hB0gHDAUFVX3lxTE81ZkY5SzJvZG1CTnB0NzcyT1FleFBfZUIzanRrSjROcXZUd1JVakZQV3Fhc0U1SXRQMllyZkZrN2ppSU02NmZlT3pXMWlFelRNQU9MX0dRRmJRTGJRa1JyMDdkTy1FZHhsd2xLRVR4Y25UeVJ1QV9uY3UydUJsQUdtSS1nR1lqRTlZZmZ3ZEVhRERtdE5SekFHQVZubjFMODNld2lETXc0Q0tvUDE4VTlQTmR2U3pqREJBczBpSE9QNjg4cw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2538
+    },
+    {
+      "date": "Oct 03",
       "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighborhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2537
+      "latestSinceUpdate": 2538
     },
     {
-      "date": "Oct 02-03",
-      "text": "Multiple tankers struck in the Middle East; Iran reiterates conditions for reopening Strait of Hormuz.",
+      "date": "Oct 03",
+      "text": "US bombers leave UK base due to terror plots; more tankers struck near Iran in the Middle East.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQUjEwRGxoTll0b2ZCWkRZZl9iUzBKblN5TXJNM0Y5RXpZUmYwMW1YVW0wcFZYcEl1UTk0Q3VpTl9qZXBtYkg1QzdBWDZIa0wwdWZJZ0tsbU5DbHg1LWhOR2hCWWRzUVV4Qy1wd1pWVW9ZQ3NrdmE4RkpJUkRJYXk0ekNzVXQzalpLY3AtUU1mb3FlcnRnc1BEUi1KaDVEUWFiVUhF0gGoAUFVX3lxTFBMNDgyNFd0ZWdGbHlrRGNsUEtGbUx2ci1KakxlMXpuRks0Nl9jY2pjdC1pTkRVYXJRajFmdVZqaHVQZ2lmTmtzVkJaM1JnWWI3VlBTZHhYMDBRUjd5R0NzNEZ0S2w5bVJ5NkpvZHZqaWFPd0V0T2FrX1V1bW1vaFpiYUYtNHJoYko3ZTNXQW1ZTVV1RlNGN2ZZRmJvWUZiUWFxcGNRSWJ0UA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2537
+      "latestSinceUpdate": 2538
     },
     {
-      "date": "Oct 02-03",
-      "text": "Iraq sends 2 million barrels of crude through Hormuz, a decades-first move.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOZ2VuaDhtNXlpUVNERFA2Y3RyTkRLaUJGSHJZenlJdHpPd1hfdVV6andILUhJTEl5TFdnYlZhcWd1VHljajNqeTZFS0IzbFNhdUt1UlozSVdUSWVsVUJ1ekdDY3dWUng1ZDdmc1B4TlJpUi1QYTJvdHhEUmhzNVFHcGV5ZDR3aEg1dE1LVDVOR1BIRlpZaWhDd0ZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Arab Weekly",
-      "latestSinceUpdate": 2537
-    },
-    {
-      "date": "Oct 02-03",
-      "text": "Eight Israeli soldiers killed in clashes with Hezbollah in Lebanon.",
+      "date": "Oct 03",
+      "text": "Strait of Hormuz faces gridlock and renewed attacks on ships, risking global food crisis.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOZUpYdGtNWWdkNVh5NEpDZzZWMHduVjRmZXZsOUEzbElkbDlZWWJoQzV2Rk9zd1Q1RUtUU1dQX2pvN2UyMHBKWmkyWjR4X1lBNmxfZVpxOTgwT3JpUXBvaHh4UFlNRU90dXZTeUhnNkJSR2E1Q3lpWmhKQXhyY2J4V1l1R3NSNkFGYXlXRHo2dXRCVGlhY005ZExaWE03SElsOWt1UWxuSWRJQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Roya News",
-      "latestSinceUpdate": 2537
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2538
     }
   ],
   "sourceStatuses": [
