@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2542,
+  "updateSequence": 2543,
   "lastUpdated": "2026-10-06",
-  "lastSyncedAt": "2026-10-06T14:30:00.000Z",
+  "lastSyncedAt": "2026-10-06T15:01:23.285Z",
   "warDay": 221,
   "summary": "Regional tensions remain high with ongoing conflict in the Red Sea and Yemen, reported US-Israeli strikes on Tehran causing civilian harm, and Iran threatening to keep the Strait of Hormuz closed until conditions are met, leading to renewed attacks on ships and energy infrastructure.",
   "lastNarrativeUpdate": "2026-10-06",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts reported amidst ongoing regional conflicts and threats."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 04",
-      "text": "Iran Update provides general overview of ongoing situation.",
+      "date": "Oct 06",
+      "text": "Iran Update, October 5, 2026",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2542
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPbFVvY1pjMWNhUzlsWmVTbUk2QUNHT1JHMThHRUN4a1R5Wk1HSU0yRXNmTzhIdTV0Z3k2SFlRcGxrNDVXbk1kZG5Jaks5SmwzZDY1MVZfYXRON3FfZ0FYZHZyYnpoV3laT08taFFjZWNNR2c2dHdNc1hBYXVjVUt2Z1pZOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2543
     },
     {
-      "date": "Oct 04",
-      "text": "Yemeni forces launch offensive to seize Houthi-held areas.",
-      "severity": "warning",
+      "date": "Oct 06",
+      "text": "Iran war updates: Yemeni forces launch offensive to seize Houthi-held areas",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQdmhaOWQ3S3FWZ3VDUmJjX0M4a19hSGF0WXo0R2V3NkZiZ2ZzOTJ3MDZhbjEwam5FT01JclpEcTZCNTJPWnVWRTVXYzljN2lDdVI1TkdRYlFWc21hQkFqUVdTVW01dkFfbk1iNmJQeC1WWUdmOW5GLTV6ZTB4M2t2bXNib1JoaXpzY2ZQMVNyVnlwTnBqSkVGSmFXemJuZV8xblFvSjNZMjZuLTlOR1l4TGp1VUhvUE9mSDlkLXJBSmloQdIBxwFBVV95cUxPNkdZNy1ScmkxWHFtcVREQWRQeF9iNzJBSkxRWUN1cG94MWVtYWY2cUpDNkE5VmtaQkdqTVJtMWg2OTFKeEdneWZlZTJEM3lUUTA4UWppWXh1SW5weDZsQzRJRUd0Q1N2Sm11cHlfTjB6SlVBaVpzRXZWUHBEQ1dPUE5fX21ENUZOT2hyZ0N2SVNCb25wU3dqM0JHWENlMEY2SjEyNlBXUTJib1ZhLTdFZkhfU092WEdRVGNLTXNtWWd4WVE3bk9B?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2542
+      "latestSinceUpdate": 2543
     },
     {
-      "date": "Oct 03",
-      "text": "Iran Update provides general overview of ongoing situation.",
+      "date": "Oct 06",
+      "text": "Iran Update, October 4, 2026",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2542
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxNMjloZzFaQjRrTVFscWlpSlBjY2ROY0FrSHc1WGFRQUVjNEM1Zm5RZjdPS25yMmhYNUxDUl9xS2o4bm56dHN4LVpuX2huTmNsT1dVR0JtYngtenVKR0JpR2NoZTlQd1VlRk5uR2JseV9JaVB3M055X0JCY09KZVVydXBtWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2543
     },
     {
-      "date": "Oct 02",
-      "text": "Iran Update provides general overview of ongoing situation.",
+      "date": "Oct 06",
+      "text": "Iran Update, October 3, 2026",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2542
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQNElzQUVqQS1xMk1ORmVrQlE4LXpsdUh0TkQ0RnlHYTM5VXZndWNrMUdEYXFudm1PT0JmM3N3MEU5eFViVVdESEVsdjdTT1lqWUw1T2IxLTVPMUdIRlBtRWUtUWRSY0cwNFJjRXN6UTQ1ajZSR2VtR1M2YUY5TWptODlvWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2543
     },
     {
-      "date": "Recent",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "date": "Oct 06",
+      "text": "With or without the US: The potential timeline for a strike in Iran",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2542
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNdUVTbF9ySk80OUJzclBGYjNUTkpaQkxVOTZWeDB2dVhmLTQ1UW5BckF4TFctQWNDLVpzN1drZmdQamoyQ3BCdXJRYWlUU0dvcHdKNTZDMm1iYjFaVFJnMmVCbTR6NF8wNmkwNzd6SW11bGFUR0pHdTBsd21McjZabkdtdzZtc2dZZU5WSGxLZHdQY0dhMThZ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "www.israelhayom.com",
+      "latestSinceUpdate": 2543
     },
     {
-      "date": "Recent",
-      "text": "Iran states Strait of Hormuz will not reopen until US meets conditions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNUEhSM2E2MkI0TDU0LXVLZl9GLWY5d3FoTU1PdS1ON0xUV1NNQ3FnUlZGRFhOYkVHTVp5RDFaN3pxZ1pVeVNJdTdhemxsNkdRaHJBTWNtRDEwWjg2cnlKb3F5VmpEN25tTHNmV2hLTnFkc1IxSEhLVGplNTJJSnBXMDFmOUN1V3NpRmxoVnJkcmRxd1hmbzBRTHZjd05rWlhUbDBfQmFCZWRkS0pHUTJNa041QlRtSkd5YUE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2542
+      "date": "Oct 06",
+      "text": "Iran warns US, Israel against new attack, says arms production capacity up 2.5-fold",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOclIyWFBQNy1VSi1wVnBna2pLc09rX3J4aVU1eGRCLVYyV24zQXdsOFVEV3JES2J4dWlPaWIwX09ibGt1cUtpQTJqZWNmT2s3aXpqZG9ZYXNnTTkyNjRBemNmLVV0cTA3ZEdfYzNiVVlvZ1hQU0JsV1hkamJtU2VTbzRMQW14Umg2M3RyTWpjWUFyWXVkNnRQYkRtWlUwbW1xdkFrZ0s1dGhGdmVpbnFLdUNmUkJqYnp6cGVONWVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 2543
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
