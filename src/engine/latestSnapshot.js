@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2544,
+  "updateSequence": 2545,
   "lastUpdated": "2026-10-06",
-  "lastSyncedAt": "2026-10-06T20:09:31.299Z",
+  "lastSyncedAt": "2026-10-06T23:52:12.017Z",
   "warDay": 221,
-  "summary": "The Middle East conflict intensifies with US military deployments, reported US-Israeli strikes on Tehran, and Iran's threats to close the Strait of Hormuz, while regional actors like Houthis seek reinforcements.",
+  "summary": "The Middle East conflict intensifies with US-Israeli strikes on Tehran, US carrier deployment, and Iranian attacks on shipping in the Strait of Hormuz, while internal US military medical issues are reported.",
   "lastNarrativeUpdate": "2026-10-06",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating regional tensions."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
         "precision": 0.6,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 35,
+    "escalationLevel": 88,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,44 +59,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 04",
-      "text": "US deploys an aircraft carrier strike group to the Middle East amidst escalating tensions.",
+      "date": "Oct 05",
+      "text": "US deploys an aircraft carrier strike group to the Middle East.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOX09XQVdqYXN0MXFCR1d5aVVqWHkxdmxfdjVKUDdaS1AtVmlKSjJ0MTMtdHU0aXVHVVMxQ29CR0R4U0dTb0piRDdkNFpKdlBRdmJUZVN4X3dkc3NzNkNiNHp6U1ZzWUxVWFl1azNpM2IzS29QcTBraGJYOW1WWGpXV3NPTUFOa1RsRU9VNGc4S1U4UzNKeFVmNjBHc3lhdFVjZHlfQThGS0NlOWNrdlZ5TWV6eEbSAboBQVVfeXFMTS1xSlkwb3lQU0hEQWgweTZ3dll0NlVYSEpQeUpoN3BVR05FWTMxN0ZwSUdTaTFVMVNWcDl1bU54alhDa0JUSHViRDNfSDVSQUdCaU1IQ1FCdTl0aGRLMF8yTGZpbjhPOUNhMjhIWUlTczRJNHpKU19ZSnBoeVlNWFIwZGI2YTRxZHZSbXB3WUlFN1Q3X2Z0QTJPdzd6QVhwajVJR2RmNzFGd1VSbFJyeml6Y3ZqSnloLTBB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2544
+      "latestSinceUpdate": 2545
     },
     {
       "date": "Oct 05",
-      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2544
+      "latestSinceUpdate": 2545
     },
     {
       "date": "Oct 05",
-      "text": "Iran states the Strait of Hormuz will remain closed until the US meets its conditions.",
+      "text": "A Maran Gas LNG carrier was hit near the Strait of Hormuz amidst increased Iranian attacks on shipping.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdEpOSExlamJ6VFM3V3hVMXl2M09LVHYxQnZpUHV6bXZuRkJmM3ljVHA0NFpQTmJ2WS1uZzhQVjAxVUJJYUZXeE5rMTVZMkdma3Z0a2NWUU9qRGJXZlhkSFYyVkVINHE1NjR6bklmTmxZUWdWNS1qaXc0cTNnU0xtZWV2QTRubWoyakdyMDNIUm9KcmpfSy1Jb3Nrb09mTEVMbjBlYVFybGNaa0JFOFhF0gG0AUFVX3lxTE12RHNGM054RWlsaVJaeEgtRWlIUDNKVWN0N0JLQmRfOHA1MU5SUVhXV1pjM1RKRlY2YjVkZlkyaG5vaDhWa0Fhd2hDeVZGMXRYcm5odHB1RWZ1eWJGeEZxRnZrWVNib2FvZHFySGVnNjdqTHlmUVJLdThHZHkwYk14ajdNWlptejNOYnhNR3dacmZMTWlLRDdGMFpkczBqcTBWZlN5UnlSUTV6a3NsWFBvY0djdQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2544
-    },
-    {
-      "date": "Oct 05",
-      "text": "Houthis are reportedly seeking reinforcements in the ongoing conflict in Yemen.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2544
-    },
-    {
-      "date": "Oct 05",
-      "text": "Hezbollah leader demands a total Israeli withdrawal from Lebanon.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNam5Eblhfalk0V2lvZkQ1VnJJQzlSQmhmaDNDQmY5bnZRNmkyazFTekt3S216NEtqd1dpZGxCTG1pRmpsYUczN0RPdVg5MVFZOTBrUGU3cE41dnpwN2FRdG1KeGI5aTQ5YVR2R2lxdDNBUDU2d2xUeU5MMjlHd0h5aVgwYjk3aG9XdlVLZlVZNVZYSlBvbzNHSlVxMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo",
-      "latestSinceUpdate": 2544
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNcksxWFNHcDRYcG1yYlNLb2xnQkV4TENzZXRNUkRlMkdYNFBUYkdGbFFJdDY0NG1iYjY4RGhFVDZpN2RFemlXQW5lamhqcUpsTUpsdERQQV9TYUo4MUVkaEU3a3JleXV5Ty1lTjRwb1NqQVl6UU1jZ3p4c01xSGpUdTU4Yk9kTmpHYnRDR2R1NFVjcWgyV2JwSXZkLXIwYmEzVExWUGk4WHhTMlNKRnl1WlJhOHNfWDBaWmk3WTRNQzd5TEZv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "TradeWinds News",
+      "latestSinceUpdate": 2545
     },
     {
       "date": "Oct 05",
@@ -105,6 +89,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOVGRnY25hWktmek5WXzhzdjVfdTdvUW5fcFBiUXM3MWRhTVFiTF9nb1F3ZTlqaGRRWklOMmV2eWZwRm9fYmtwalBveG1SNGNwdHdBelZjWFIyZ3IxWFhjYm91VFdYdndPM3BualYwYXVIRmkyX3JIY3NpcS0zenNLQUpzaUx6SFM5RmFMVEZHcWlrNF9NQUFLMVhkekY1MS1Fem5nTEVPMVhDNFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
       "latestSinceUpdate": 2544
+    },
+    {
+      "date": "Oct 05",
+      "text": "Ships’ captains are reportedly paid $100,000 a month to transit the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxObFJlMDNQMUZSMXlnWk43YVI5eGI4bEc5LW5kNDBjMC1UOERsaDFzbFRpeWxaUU85Tm01YjF0c1dINnhDY0E0aGdaM3ZnQ19hT1owZWNzeFhSdmZCdjRTS2xaOFdPZG44Ujd4WFZQMFN0VFhnajRtTjJmX3R5ZGJkTFg5Zks?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 2545
+    },
+    {
+      "date": "Oct 05",
+      "text": "Iran informs the US that there is no military solution to the Middle East war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNTkVIbEtsaVAxamRMTGdVOV95M2s5azF3RDVBSzFzU3dVZlZJbVB5MXN3UG03RW9RdW9QZ3Nic3h6eGZaYVZDZk5sMGZjR2xOaDE3MS0tZzNuLVRkQm9ES3ByLV9RMWpySUhzMDdmaU9nN25peEo3dmxsd21oTm1PZmp5WXVpWTNUU1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 2545
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
