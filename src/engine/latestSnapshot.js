@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2545,
-  "lastUpdated": "2026-10-06",
-  "lastSyncedAt": "2026-10-06T23:52:12.017Z",
-  "warDay": 221,
-  "summary": "The Middle East conflict intensifies with US-Israeli strikes on Tehran, US carrier deployment, and Iranian attacks on shipping in the Strait of Hormuz, while internal US military medical issues are reported.",
-  "lastNarrativeUpdate": "2026-10-06",
+  "updateSequence": 2546,
+  "lastUpdated": "2026-10-07",
+  "lastSyncedAt": "2026-10-07T02:44:46.191Z",
+  "warDay": 222,
+  "summary": "Ongoing conflict in the Middle East sees continued strikes and counter-strikes involving Iran, US, and Israel, with significant disruptions to shipping in the Strait of Hormuz and reports of US military losses.",
+  "lastNarrativeUpdate": "2026-10-07",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "No active ceasefire or truce is currently in effect, with hostilities continuing across multiple fronts."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.6,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 88,
+    "nuclearIndex": 15,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 81,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 05",
-      "text": "US deploys an aircraft carrier strike group to the Middle East.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOX09XQVdqYXN0MXFCR1d5aVVqWHkxdmxfdjVKUDdaS1AtVmlKSjJ0MTMtdHU0aXVHVVMxQ29CR0R4U0dTb0piRDdkNFpKdlBRdmJUZVN4X3dkc3NzNkNiNHp6U1ZzWUxVWFl1azNpM2IzS29QcTBraGJYOW1WWGpXV3NPTUFOa1RsRU9VNGc4S1U4UzNKeFVmNjBHc3lhdFVjZHlfQThGS0NlOWNrdlZ5TWV6eEbSAboBQVVfeXFMTS1xSlkwb3lQU0hEQWgweTZ3dll0NlVYSEpQeUpoN3BVR05FWTMxN0ZwSUdTaTFVMVNWcDl1bU54alhDa0JUSHViRDNfSDVSQUdCaU1IQ1FCdTl0aGRLMF8yTGZpbjhPOUNhMjhIWUlTczRJNHpKU19ZSnBoeVlNWFIwZGI2YTRxZHZSbXB3WUlFN1Q3X2Z0QTJPdzd6QVhwajVJR2RmNzFGd1VSbFJyeml6Y3ZqSnloLTBB?hl=en-US&gl=US&ceid=US:en",
+      "text": "Saudi-led forces successfully intercepted and downed a Houthi missile targeting Khamis Mushait.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNZDRzOG9HWklVZXk2aFY2eWl0bDZzUnQ4NXBYdUl6UEZnTzFTX2VIeGh4RmNwRTZRcEFZanYzSlZJYUc3WUtCdmppMy05SWNxVGw4cEJLTEJaUEhSTXRmWC12cEFBOThyNUdsblVDNG91TFQ4cjFITHZ1UG5mdDBXYjZDS3JFVGNNRVVNdTJudGJsOHdDNXdoWGdvOGNMLUE0cUY4ZFRPcGRuaDY4dW5vb0lXblFyaDMzalFvTlVySWfSAcYBQVVfeXFMTlVxUkNhY0x3VElxcE42cGFoSnFXcWNhV3dQLXBRbURFbFNSb1RpdTd3Z2pLdGxVUGlZS0lPZDBoY0ZOU0VLb2czaVJOY0F2aGkydW9MczBibFJtdXRJVUxPdlJBQmxkam14VWxDd21PRG42YXpoM1pkbi1GanFOdHJoVFowSWNPOHJWaElDZXphUDFZMnpVU21VUERrMURwWlIwTkczREhwNE9TV3gyUE52YlhpVTgtZ3J4YzJ2UWo0SkZFN3Jn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2545
+      "latestSinceUpdate": 2546
     },
     {
       "date": "Oct 05",
-      "text": "Investigation reveals devastating civilian harm from US-Israeli strikes on Tehran neighbourhoods.",
+      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods revealed devastating civilian harm.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2545
+      "latestSinceUpdate": 2546
     },
     {
-      "date": "Oct 05",
+      "date": "Oct 04",
       "text": "A Maran Gas LNG carrier was hit near the Strait of Hormuz amidst increased Iranian attacks on shipping.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNcksxWFNHcDRYcG1yYlNLb2xnQkV4TENzZXRNUkRlMkdYNFBUYkdGbFFJdDY0NG1iYjY4RGhFVDZpN2RFemlXQW5lamhqcUpsTUpsdERQQV9TYUo4MUVkaEU3a3JleXV5Ty1lTjRwb1NqQVl6UU1jZ3p4c01xSGpUdTU4Yk9kTmpHYnRDR2R1NFVjcWgyV2JwSXZkLXIwYmEzVExWUGk4WHhTMlNKRnl1WlJhOHNfWDBaWmk3WTRNQzd5TEZv?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "TradeWinds News",
-      "latestSinceUpdate": 2545
+      "latestSinceUpdate": 2546
     },
     {
-      "date": "Oct 05",
-      "text": "Soldiers seriously wounded in an Iranian drone strike report failures in the military's medical system.",
+      "date": "Oct 03",
+      "text": "Reports indicate the US military has lost 81 planes, drones, and helicopters valued at $3.3 billion in the Iran war.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPUFJUcjVCRWdZVzdER25UaDBqNkFvb2FJdXNMNVZXOVo5ak1pTmVfR3I5ZTFFQm8yU0JjVDFnR2xaQ3BxRXRwa1VpZWFVUUhRd2xzQTcxTzBWN1BLSFRsaDVsZ1o3OW9QYjM4YkJmOWY1ejlGTEZXaWpldVpiY1BfSXdCeW1OVmtFeE1DOU1zbGEtNEREYjRmRHZFQ0dZU1BpanE5ZFhKdF9jYWxFeno0d0tkMklLVkZwVS1xWk51VlNfdGxiV2VGZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "New York Post",
+      "latestSinceUpdate": 2546
+    },
+    {
+      "date": "Oct 03",
+      "text": "Saudi Arabia reported that Houthi rebels struck two airports, while rebels lost ground around a key strait.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQM1lTSHVxZ2R4RFRJUllfYUtqa3hYRHdndVM0N0d4S1VFN3RzVFhPWFlpaXFnNzBMRXZLZHRYX2VoWW9wMHdWdi1TYVpnbnFYekVTZXNHT2wwY21qVDV1cVFTMWp4Wll3Sk80Mkx5VTRtUE5Fb1pmQW9IOWpDNlBxYlpmMFlQUHhwVXRVMnhDYjZuS3NsV2xuNHJjWWVrZ25LdDhOTXY2cVJBLVZnM3J2TW1TM0YzZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Independent",
+      "latestSinceUpdate": 2546
+    },
+    {
+      "date": "Oct 03",
+      "text": "Soldiers seriously wounded in an Iranian drone strike reported failures in the military's medical system.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOVGRnY25hWktmek5WXzhzdjVfdTdvUW5fcFBiUXM3MWRhTVFiTF9nb1F3ZTlqaGRRWklOMmV2eWZwRm9fYmtwalBveG1SNGNwdHdBelZjWFIyZ3IxWFhjYm91VFdYdndPM3BualYwYXVIRmkyX3JIY3NpcS0zenNLQUpzaUx6SFM5RmFMVEZHcWlrNF9NQUFLMVhkekY1MS1Fem5nTEVPMVhDNFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2544
-    },
-    {
-      "date": "Oct 05",
-      "text": "Ships’ captains are reportedly paid $100,000 a month to transit the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxObFJlMDNQMUZSMXlnWk43YVI5eGI4bEc5LW5kNDBjMC1UOERsaDFzbFRpeWxaUU85Tm01YjF0c1dINnhDY0E0aGdaM3ZnQ19hT1owZWNzeFhSdmZCdjRTS2xaOFdPZG44Ujd4WFZQMFN0VFhnajRtTjJmX3R5ZGJkTFg5Zks?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2545
-    },
-    {
-      "date": "Oct 05",
-      "text": "Iran informs the US that there is no military solution to the Middle East war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxNTkVIbEtsaVAxamRMTGdVOV95M2s5azF3RDVBSzFzU3dVZlZJbVB5MXN3UG03RW9RdW9QZ3Nic3h6eGZaYVZDZk5sMGZjR2xOaDE3MS0tZzNuLVRkQm9ES3ByLV9RMWpySUhzMDdmaU9nN25peEo3dmxsd21oTm1PZmp5WXVpWTNUU1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo",
-      "latestSinceUpdate": 2545
+      "latestSinceUpdate": 2546
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
@@ -139,25 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran/Allies",
-      "headline": "Iran and Allies Assert Control, Claiming Strategic Gains and Defiance",
-      "summary": "Iran and its allies assert control over strategic areas like Mocha and the Strait of Hormuz, while claiming successful military maneuvers against opposing forces. They frame their actions as necessary responses to ongoing conflict and external pressures.",
+      "perspective": "Iran/Proxies",
+      "headline": "Hezbollah's Resistance Call",
+      "summary": "Hezbollah is actively seeking Christian support for its 'resistance' against Israel, with its leader demanding a total Israeli withdrawal from Lebanon. This indicates a continued push for regional influence and confrontation.",
       "tone": "defiant",
-      "latestSinceUpdate": 2541
+      "latestSinceUpdate": 2546
     },
     {
       "perspective": "US/Israel",
-      "headline": "US-Israeli Operations Continue Amidst Scrutiny and Regional Threats",
-      "summary": "US and Israeli forces continue military operations, including strikes in Tehran and against Hezbollah, while facing scrutiny over civilian harm. Leaders emphasize their intent to secure regional stability and address perceived threats.",
+      "headline": "Scrutiny on Tehran Strikes",
+      "summary": "An investigation into US-Israeli strikes on Tehran neighborhoods has revealed significant civilian harm, raising questions about operational impact. The US military is also reportedly struggling to protect its bases amid the ongoing conflict.",
       "tone": "strained",
-      "latestSinceUpdate": 2541
+      "latestSinceUpdate": 2546
     },
     {
-      "perspective": "Global/Economic",
-      "headline": "Global Concerns Mount Over Oil Supply and Shipping Disruptions",
-      "summary": "International concerns rise over the escalating conflict's impact on global oil supply and shipping routes, particularly in the Strait of Hormuz and Red Sea. G-7 nations plan crude releases to mitigate potential disruptions amidst persistent risks.",
+      "perspective": "Economic/Shipping",
+      "headline": "Hormuz Shipping Under Threat",
+      "summary": "After a period of rebounding oil exports, attacks on ships in the Strait of Hormuz have resurged, including a direct hit on an LNG carrier. This highlights the extreme vulnerability of critical shipping lanes to Iranian actions.",
       "tone": "anxious",
-      "latestSinceUpdate": 2541
+      "latestSinceUpdate": 2546
     }
   ]
 });
