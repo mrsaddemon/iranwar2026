@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2546,
+  "updateSequence": 2547,
   "lastUpdated": "2026-10-07",
-  "lastSyncedAt": "2026-10-07T02:44:46.191Z",
+  "lastSyncedAt": "2026-10-07T09:22:24.168Z",
   "warDay": 222,
-  "summary": "Ongoing conflict in the Middle East sees continued strikes and counter-strikes involving Iran, US, and Israel, with significant disruptions to shipping in the Strait of Hormuz and reports of US military losses.",
+  "summary": "The region remains highly volatile with ongoing military engagements, heightened tensions around the Strait of Hormuz, and warnings of potential escalations on the third anniversary of October 7.",
   "lastNarrativeUpdate": "2026-10-07",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or truce is currently in effect, with hostilities continuing across multiple fronts."
+    "summary": "No active ceasefire is reported amidst ongoing hostilities and heightened tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 70,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 05",
-      "text": "Saudi-led forces successfully intercepted and downed a Houthi missile targeting Khamis Mushait.",
+      "text": "Saudi-led forces down Houthi missile in Khamis Mushait.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNZDRzOG9HWklVZXk2aFY2eWl0bDZzUnQ4NXBYdUl6UEZnTzFTX2VIeGh4RmNwRTZRcEFZanYzSlZJYUc3WUtCdmppMy05SWNxVGw4cEJLTEJaUEhSTXRmWC12cEFBOThyNUdsblVDNG91TFQ4cjFITHZ1UG5mdDBXYjZDS3JFVGNNRVVNdTJudGJsOHdDNXdoWGdvOGNMLUE0cUY4ZFRPcGRuaDY4dW5vb0lXblFyaDMzalFvTlVySWfSAcYBQVVfeXFMTlVxUkNhY0x3VElxcE42cGFoSnFXcWNhV3dQLXBRbURFbFNSb1RpdTd3Z2pLdGxVUGlZS0lPZDBoY0ZOU0VLb2czaVJOY0F2aGkydW9MczBibFJtdXRJVUxPdlJBQmxkam14VWxDd21PRG42YXpoM1pkbi1GanFOdHJoVFowSWNPOHJWaElDZXphUDFZMnpVU21VUERrMURwWlIwTkczREhwNE9TV3gyUE52YlhpVTgtZ3J4YzJ2UWo0SkZFN3Jn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2546
+      "latestSinceUpdate": 2547
     },
     {
-      "date": "Oct 05",
-      "text": "An investigation into US-Israeli strikes on Tehran neighbourhoods revealed devastating civilian harm.",
+      "date": "Oct 07",
+      "text": "National Security Council warns Iran could attack Israel or Jewish targets on Oct. 7 anniversary.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQMV94cnBEZTc3eGNlR3JuN1M5RFhwbzRCbTZlZ1BkUlF6N3hWM3prLWZpU3cxamwtb0JoeHVPc2hlaC13SDQ5ZlA2OC1UM3NGOVNmaUR0b1pEWDE4d2dNREo0b0ZiUTg1aVBTZkxKaVAwWnVqTDdZeTlELWNEVzVFdDkzbi1ieGpQUENxQkNyRTJfbk5NY2Ixc05YS3pmclFSanhXUEVOOE9UYVhQQlRWb1M0Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2547
+    },
+    {
+      "date": "Oct 07",
+      "text": "Defense officials express concern Iran may strike Israel amid Hormuz tensions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBsdVZ1X0Mtbi1CTzVhaXY1c05LeDdsYllYSVVMdzJybGhMeFdkUWM0WlNBYVZhVVNoQ18za2VVOFNsSDYzdnBqcWRIaVEwMFZrZXFHdVBmUlM5RndsZGJEMlZuYVlpWTJkZl9nV0tR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2547
+    },
+    {
+      "date": "Recent",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2546
+      "latestSinceUpdate": 2547
     },
     {
-      "date": "Oct 04",
-      "text": "A Maran Gas LNG carrier was hit near the Strait of Hormuz amidst increased Iranian attacks on shipping.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxNcksxWFNHcDRYcG1yYlNLb2xnQkV4TENzZXRNUkRlMkdYNFBUYkdGbFFJdDY0NG1iYjY4RGhFVDZpN2RFemlXQW5lamhqcUpsTUpsdERQQV9TYUo4MUVkaEU3a3JleXV5Ty1lTjRwb1NqQVl6UU1jZ3p4c01xSGpUdTU4Yk9kTmpHYnRDR2R1NFVjcWgyV2JwSXZkLXIwYmEzVExWUGk4WHhTMlNKRnl1WlJhOHNfWDBaWmk3WTRNQzd5TEZv?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "TradeWinds News",
-      "latestSinceUpdate": 2546
-    },
-    {
-      "date": "Oct 03",
-      "text": "Reports indicate the US military has lost 81 planes, drones, and helicopters valued at $3.3 billion in the Iran war.",
+      "date": "Recent",
+      "text": "Satellite images reveal renewed activity at a nuclear site Israel previously struck in Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxPUFJUcjVCRWdZVzdER25UaDBqNkFvb2FJdXNMNVZXOVo5ak1pTmVfR3I5ZTFFQm8yU0JjVDFnR2xaQ3BxRXRwa1VpZWFVUUhRd2xzQTcxTzBWN1BLSFRsaDVsZ1o3OW9QYjM4YkJmOWY1ejlGTEZXaWpldVpiY1BfSXdCeW1OVmtFeE1DOU1zbGEtNEREYjRmRHZFQ0dZU1BpanE5ZFhKdF9jYWxFeno0d0tkMklLVkZwVS1xWk51VlNfdGxiV2VGZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "New York Post",
-      "latestSinceUpdate": 2546
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE95eEQ5UG1LR3VFd3pwMGxibVBZV2dlcjMyN3RXajVtZjhucnVXZmNjNE1LZVh1d3VfNkE3TGdVaUplZWZPRFh4dEdiWmN5bWQ0MDI3TUZ3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 2547
     },
     {
-      "date": "Oct 03",
-      "text": "Saudi Arabia reported that Houthi rebels struck two airports, while rebels lost ground around a key strait.",
+      "date": "Recent",
+      "text": "Ships’ captains are reportedly paid $100,000 a month to transit the Strait of Hormuz due to risks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxQM1lTSHVxZ2R4RFRJUllfYUtqa3hYRHdndVM0N0d4S1VFN3RzVFhPWFlpaXFnNzBMRXZLZHRYX2VoWW9wMHdWdi1TYVpnbnFYekVTZXNHT2wwY21qVDV1cVFTMWp4Wll3Sk80Mkx5VTRtUE5Fb1pmQW9IOWpDNlBxYlpmMFlQUHhwVXRVMnhDYjZuS3NsV2xuNHJjWWVrZ25LdDhOTXY2cVJBLVZnM3J2TW1TM0YzZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Independent",
-      "latestSinceUpdate": 2546
-    },
-    {
-      "date": "Oct 03",
-      "text": "Soldiers seriously wounded in an Iranian drone strike reported failures in the military's medical system.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOVGRnY25hWktmek5WXzhzdjVfdTdvUW5fcFBiUXM3MWRhTVFiTF9nb1F3ZTlqaGRRWklOMmV2eWZwRm9fYmtwalBveG1SNGNwdHdBelZjWFIyZ3IxWFhjYm91VFdYdndPM3BualYwYXVIRmkyX3JIY3NpcS0zenNLQUpzaUx6SFM5RmFMVEZHcWlrNF9NQUFLMVhkekY1MS1Fem5nTEVPMVhDNFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2546
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxObFJlMDNQMUZSMXlnWk43YVI5eGI4bEc5LW5kNDBjMC1UOERsaDFzbFRpeWxaUU85Tm01YjF0c1dINnhDY0E0aGdaM3ZnQ19hT1owZWNzeFhSdmZCdjRTS2xaOFdPZG44Ujd4WFZQMFN0VFhnajRtTjJmX3R5ZGJkTFg5Zks?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 2547
     }
   ],
   "sourceStatuses": [
