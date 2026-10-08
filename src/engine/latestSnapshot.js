@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2551,
+  "updateSequence": 2552,
   "lastUpdated": "2026-10-08",
-  "lastSyncedAt": "2026-10-08T07:32:40.614Z",
+  "lastSyncedAt": "2026-10-08T14:53:52.125Z",
   "warDay": 223,
-  "summary": "Ongoing conflict in the Middle East sees US and Israeli forces preparing for potential strikes on Iran, while attacks on tankers in the Strait of Hormuz surge amidst regional power struggles and Houthi missile activity.",
+  "summary": "The US is reportedly preparing for potential 'massive bombing' and resumption of strikes against Iran, leading to surging oil prices amid record tanker attacks in the Strait of Hormuz, while Hezbollah seeks to reestablish presence in southern Lebanon.",
   "lastNarrativeUpdate": "2026-10-08",
   "ceasefire": {
     "active": false,
@@ -15,25 +15,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 63
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 30,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Aug 26",
-      "text": "Saudi-led forces down Houthi missile in Khamis Mushait.",
+      "date": "Oct 08",
+      "text": "US reportedly prepares for 'massive bombing' as Trump rejects Iran deal",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2552
+    },
+    {
+      "date": "Oct 08",
+      "text": "Saudi-led forces down Houthi missile in Khamis Mushait",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNZDRzOG9HWklVZXk2aFY2eWl0bDZzUnQ4NXBYdUl6UEZnTzFTX2VIeGh4RmNwRTZRcEFZanYzSlZJYUc3WUtCdmppMy05SWNxVGw4cEJLTEJaUEhSTXRmWC12cEFBOThyNUdsblVDNG91TFQ4cjFITHZ1UG5mdDBXYjZDS3JFVGNNRVVNdTJudGJsOHdDNXdoWGdvOGNMLUE0cUY4ZFRPcGRuaDY4dW5vb0lXblFyaDMzalFvTlVySWfSAcYBQVVfeXFMTlVxUkNhY0x3VElxcE42cGFoSnFXcWNhV3dQLXBRbURFbFNSb1RpdTd3Z2pLdGxVUGlZS0lPZDBoY0ZOU0VLb2czaVJOY0F2aGkydW9MczBibFJtdXRJVUxPdlJBQmxkam14VWxDd21PRG42YXpoM1pkbi1GanFOdHJoVFowSWNPOHJWaElDZXphUDFZMnpVU21VUERrMURwWlIwTkczREhwNE9TV3gyUE52YlhpVTgtZ3J4YzJ2UWo0SkZFN3Jn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2551
+      "latestSinceUpdate": 2552
     },
     {
       "date": "Oct 08",
-      "text": "Trump threatens 'Economic D-Day' for Iran and ‘tremendous’ consequences for its backers.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQbjdQcUlraHYyYTY1UG5sUDJpV1dwZnpzWWZObU5iZ3g2RW1HSzFwTWNhcE1NaUR3Q3pWT1pYQXZibW1wMS1oQ1dUSVhObUhwcHN4MTVDWTNKOXFneGItamNBeWptNENKNHRiYXFJV0VJY2taaXFyRnJSQy1pRFlDbUhHMFnSAYoBQVVfeXFMUF9NTjA0UzQxLWRzdHFabk5acVdjbklmdzlGSlowZ3h4QnVIdmdGQjFfYUZsbEZSV1Bia1hISjZGVEgyNWlWcVBzMkVOSzYtR05OaXlBM3oxVkRKR0pycFZDeUxXejZnbXQzbF82Rjhud3NHR3VGZUhmQnl3MlpibFNGcFc4LTFHei1B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2551
+      "text": "Reports indicate US Navy budget rapidly draining due to Iran war",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2552
+    },
+    {
+      "date": "Oct 01",
+      "text": "Iran Update, October 1, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxPbml6TjMzem1ZeGFUUWp3U3JPSTRUNS1HaVg4aEQ2YmMyVjBobG9xSTVjOEt4TUxGTlAtZkdhNF9zLXBlRGhHa2hMLW91ZjFUYUJSZ0h4VFExemNJVXptZW1ZcS1teWR5LWhTcHhaWFVUeEhTR2dvbXlQZ2JRQUg4U0xTWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2552
     },
     {
       "date": "Oct 08",
-      "text": "US military ordered to be ready for possible Iran strikes as Trump weighs timing.",
+      "text": "US military ordered to prepare for possible Iran strikes as Trump weighs timing",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2551
+      "latestSinceUpdate": 2552
     },
     {
       "date": "Oct 08",
-      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "text": "White House states Trump 'has all options' regarding potential Iran strikes before midterms",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Amnesty International",
-      "latestSinceUpdate": 2551
-    },
-    {
-      "date": "Oct 08",
-      "text": "Attacks on tankers in Hormuz hit highest of any week since start of Iran war, sources say.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPMzlOYkh2NkF3OTFOQ0g5RFdjT0VSZXU4Y0U1cDREQnltUF9XM2VBVlk1bER5cTNTS00yaWctcDdnTjI3TG1jeWVxV3JIT2ctb1JVLVg4Nm13aENfNmlQSVQ2dHZLS2dabVYyYXQydWFEQ25SQVY1UkFORHd6djNHUHFkVEpwa3d6WkRiMy15SFRwV3l4anZiSXQ2YmR2bmxWZFhYTFE1YVNBRnc1ZG0tbHJDT1RacGJ6VmRhV3RnQ3g5UmZvdE5xZ3RB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2551
-    },
-    {
-      "date": "Oct 08",
-      "text": "Hezbollah received $200 million from Iran to help displaced Lebanese, sources say.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxObkF3bmdzRWFNa1h6LXFfTjA5TWJ6UXctb0psVndRUUZDamJKcjQ4SWdRdTVLaWlQenQxT1ZpZVFvWjR3MFNHcndCNzkxU25uUHBIWTRPOTVEVDA4OHRvLXdNbXFMZGk3RDRqY3JXNHBKVFNOSWxSZFNGdkhGQUpCcFZmQWRMdW1nMlMyTFFlVVFaQm9iYjJQckJKTGF6WExxc1lSZGJIRC3SAa4BQVVfeXFMTnZnc3RNR3ZPVE15VVM2dDFhb18wR2NLdDEwNjd2YWRrU2NQUGZpLWhvNWVMVHBLY0hQOHFMZ2c3RmtNWG1RWmlabG55cFdSYXB5UEhnY2pEcF9KaXZCVGVKcDhuRzZIV0JRMjFBYjlCTjMxTVhZZk01VkZoTWlQdlVvbG9XX2E0YTB3YkNveFpnMnE4bkFFc3JqVXJ3cnl1dE1wSWhjdWhSazFuTmNR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2551
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQYXRWMldpdjZJelcxSDkwSkJ4SHdLZEI1Sk5DMjFHVV9KUEtDWnZ2akJqLUVqaFJLSHN6bE9nZ1pIc3BvOVdGRGFrTEd4NDNlTjVUVS1leHRMX1dsZzlWUXBlVHltelRtOXltcjJLZ3RoeEFRcV9aVXNqcWhIdWxXMkRqRVdpTDhQTDdwSEFveVZFTGhEU3ZncUpvdG1OV082M05V?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2552
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
