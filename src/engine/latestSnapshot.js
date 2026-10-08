@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2550,
+  "updateSequence": 2551,
   "lastUpdated": "2026-10-08",
-  "lastSyncedAt": "2026-10-08T01:21:18.380Z",
+  "lastSyncedAt": "2026-10-08T07:32:40.614Z",
   "warDay": 223,
-  "summary": "The Iran war continues with heightened tensions around the Strait of Hormuz due to tanker attacks and Iranian threats to block routes, alongside warnings of potential attacks on Israel coinciding with the Oct. 7 anniversary.",
+  "summary": "Ongoing conflict in the Middle East sees US and Israeli forces preparing for potential strikes on Iran, while attacks on tankers in the Strait of Hormuz surge amidst regional power struggles and Houthi missile activity.",
   "lastNarrativeUpdate": "2026-10-08",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -37,12 +37,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "N/A",
+      "date": "Aug 26",
       "text": "Saudi-led forces down Houthi missile in Khamis Mushait.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNZDRzOG9HWklVZXk2aFY2eWl0bDZzUnQ4NXBYdUl6UEZnTzFTX2VIeGh4RmNwRTZRcEFZanYzSlZJYUc3WUtCdmppMy05SWNxVGw4cEJLTEJaUEhSTXRmWC12cEFBOThyNUdsblVDNG91TFQ4cjFITHZ1UG5mdDBXYjZDS3JFVGNNRVVNdTJudGJsOHdDNXdoWGdvOGNMLUE0cUY4ZFRPcGRuaDY4dW5vb0lXblFyaDMzalFvTlVySWfSAcYBQVVfeXFMTlVxUkNhY0x3VElxcE42cGFoSnFXcWNhV3dQLXBRbURFbFNSb1RpdTd3Z2pLdGxVUGlZS0lPZDBoY0ZOU0VLb2czaVJOY0F2aGkydW9MczBibFJtdXRJVUxPdlJBQmxkam14VWxDd21PRG42YXpoM1pkbi1GanFOdHJoVFowSWNPOHJWaElDZXphUDFZMnpVU21VUERrMURwWlIwTkczREhwNE9TV3gyUE52YlhpVTgtZ3J4YzJ2UWo0SkZFN3Jn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2550
+      "latestSinceUpdate": 2551
     },
     {
-      "date": "N/A",
-      "text": "Attacks on tankers in Strait of Hormuz reach highest weekly level since start of Iran war.",
+      "date": "Oct 08",
+      "text": "Trump threatens 'Economic D-Day' for Iran and ‘tremendous’ consequences for its backers.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQbjdQcUlraHYyYTY1UG5sUDJpV1dwZnpzWWZObU5iZ3g2RW1HSzFwTWNhcE1NaUR3Q3pWT1pYQXZibW1wMS1oQ1dUSVhObUhwcHN4MTVDWTNKOXFneGItamNBeWptNENKNHRiYXFJV0VJY2taaXFyRnJSQy1pRFlDbUhHMFnSAYoBQVVfeXFMUF9NTjA0UzQxLWRzdHFabk5acVdjbklmdzlGSlowZ3h4QnVIdmdGQjFfYUZsbEZSV1Bia1hISjZGVEgyNWlWcVBzMkVOSzYtR05OaXlBM3oxVkRKR0pycFZDeUxXejZnbXQzbF82Rjhud3NHR3VGZUhmQnl3MlpibFNGcFc4LTFHei1B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2551
+    },
+    {
+      "date": "Oct 08",
+      "text": "US military ordered to be ready for possible Iran strikes as Trump weighs timing.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2551
+    },
+    {
+      "date": "Oct 08",
+      "text": "Investigation into US-Israeli strikes on Tehran neighbourhoods reveals devastating civilian harm.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi8gFBVV95cUxNeWFlc1Zsem1ubmFHWTVtVXpYR0tiam9TYVphN1FzekNHdGUtVTNlRTd5OFBhQkFPNm5oMUpSUVItVjNHY3A1N3Bib1c1Qy04SzJKbUZ2UFZhU3dROGxIWnlzQ1BuNXgxWmpUSnFuRFBQbnBncHZldV9Uckw5Sl9NTzlIbVBpZExHTGYwMk1sb0tLYW1NRDNmaVZ1MjBvb244U3BnazNqWHdKTWktLTB1QWh1dGVvQVR0MmdnTEVlbmlkTUh0aW5wRHc4bWJZc1FWeGJLUXI0TDJsR21oS29NcXluWmw0N3JZd3FULW82ZWQ1QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Amnesty International",
+      "latestSinceUpdate": 2551
+    },
+    {
+      "date": "Oct 08",
+      "text": "Attacks on tankers in Hormuz hit highest of any week since start of Iran war, sources say.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxPMzlOYkh2NkF3OTFOQ0g5RFdjT0VSZXU4Y0U1cDREQnltUF9XM2VBVlk1bER5cTNTS00yaWctcDdnTjI3TG1jeWVxV3JIT2ctb1JVLVg4Nm13aENfNmlQSVQ2dHZLS2dabVYyYXQydWFEQ25SQVY1UkFORHd6djNHUHFkVEpwa3d6WkRiMy15SFRwV3l4anZiSXQ2YmR2bmxWZFhYTFE1YVNBRnc1ZG0tbHJDT1RacGJ6VmRhV3RnQ3g5UmZvdE5xZ3RB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2550
+      "latestSinceUpdate": 2551
     },
     {
-      "date": "N/A",
-      "text": "IRGC adviser states 'illegal routes' in Strait of Hormuz will soon be blocked.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNelpINjdiMmV6Qkp1d2I2UDVnZzNhR1ZfYVBrNzdkeXVFRzNLR09pNEU1MDBPcHRXbURUVHhsekhqQUY5OWdlTDA2bnVHRVJkMXVaZUZSdkF6WHFfOXl6dVZNOUZGZUhOeWFUdXludkhkdkxuOV9GYWxlc2p3dVF6aFRIbVZBNU4xWXdaeUptNVNkUXdBdDBNQUpKRHRBMkdfWWFQUjQwV01MYnNFWkJHRjdTN3RhbER2N3hvYg?hl=en-US&gl=US&ceid=US:en",
+      "date": "Oct 08",
+      "text": "Hezbollah received $200 million from Iran to help displaced Lebanese, sources say.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxObkF3bmdzRWFNa1h6LXFfTjA5TWJ6UXctb0psVndRUUZDamJKcjQ4SWdRdTVLaWlQenQxT1ZpZVFvWjR3MFNHcndCNzkxU25uUHBIWTRPOTVEVDA4OHRvLXdNbXFMZGk3RDRqY3JXNHBKVFNOSWxSZFNGdkhGQUpCcFZmQWRMdW1nMlMyTFFlVVFaQm9iYjJQckJKTGF6WExxc1lSZGJIRC3SAa4BQVVfeXFMTnZnc3RNR3ZPVE15VVM2dDFhb18wR2NLdDEwNjd2YWRrU2NQUGZpLWhvNWVMVHBLY0hQOHFMZ2c3RmtNWG1RWmlabG55cFdSYXB5UEhnY2pEcF9KaXZCVGVKcDhuRzZIV0JRMjFBYjlCTjMxTVhZZk01VkZoTWlQdlVvbG9XX2E0YTB3YkNveFpnMnE4bkFFc3JqVXJ3cnl1dE1wSWhjdWhSazFuTmNR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2550
-    },
-    {
-      "date": "N/A",
-      "text": "National Security Council warns of potential Iranian attacks on Israel and Jews on Oct. 7 anniversary.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQMV94cnBEZTc3eGNlR3JuN1M5RFhwbzRCbTZlZ1BkUlF6N3hWM3prLWZpU3cxamwtb0JoeHVPc2hlaC13SDQ5ZlA2OC1UM3NGOVNmaUR0b1pEWDE4d2dNREo0b0ZiUTg1aVBTZkxKaVAwWnVqTDdZeTlELWNEVzVFdDkzbi1ieGpQUENxQkNyRTJfbk5NY2Ixc05YS3pmclFSanhXUEVOOE9UYVhQQlRWb1M0Z9IBuAFBVV95cUxOV3Y3UWpNWVM4U1NENHFoY1JDaXQ1SzlDTUNPNTFNeGFKVGl0T3Q4RmRyTE1JQm85V3NoNWM0ZjY2TjlmemtUbWRjdTVKdmNUcGRsakxaMHY2aEJqZWdBTmQwMWpVRHRoY0wyUmdaaWY4ZkpvYUE0dmlGdWpEbXRIOTJTY1c0X1NNaUZ1X1EtV052dk02V3Ryb280aVNrcHdUSll3NXRXdDRmZjdzZGRmR29sbTlGSnd1?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2550
-    },
-    {
-      "date": "N/A",
-      "text": "U.S. military prepares new Iran war options ahead of midterm elections.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOTVM0Sy1rbHNiVjdWLVdNMmRxWk9ZOTdhWWNkbFZicW9ycDdvMy1WMXQ4LTZ3a0VPMElzOWI4THB3ZUhmTkxNYkZIdEpPdHMzdnhzSHN6LUkxYWlVU0Rmbi1RY1VCX2xydDY0Z1kzZmRDSGZYODN5YjdpaHNWMUthSEtZbXVvUlRHU01KSW1XUUJ3MExLTkxWdzctVldDUGlMLUgwM1M4aE9EMkVnZXVmS2VYZlZOZ0hFUU9oVWJ4RWt6Q3dxZWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2550
-    },
-    {
-      "date": "N/A",
-      "text": "Cost of Iran war escalates significantly, nearly doubling toll on US air fleet.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNN0pFMFhObm9ISkRyR0VwTzFSc3ZVMXRkVkd5eVVFWGxjVHV3Q2IxcmcwSS1oUmNLeWlKaHBubFN5bjlDV2trSnBtUFdQQlc2VVhXWXBfaEFDZU9UU1BmTHFLUk9HRGhxczlNejNtSUZpOHduRGJ4d1UzOG53SDhIM2tYUm1NVDVRRkNGd2dYNFd3d9IBlwFBVV95cUxNQVJZN1FHN0xlZV9pdDJZUHN2djRyUWhmaHBlQVRVRFhEV3NMa1RxSjQySFQ5WVZyd2dtSXlSVEdsbFF2NTRIbl83MXRLZm5RM0hKV2pjWW93b1Azbnlkb3dwRnE4Z2lwMmV0Z3BiWDROT0p1a0xsSFFnN1ZNT0hIQ2FGQl93amQxUXJ3Q0l0VlVvSDdfZEZV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2550
+      "latestSinceUpdate": 2551
     }
   ],
   "sourceStatuses": [
