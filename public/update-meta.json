@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2553,
-  "lastUpdated": "2026-10-08",
-  "lastSyncedAt": "2026-10-08T20:14:52.990Z",
-  "warDay": 223,
+  "updateSequence": 2554,
+  "lastUpdated": "2026-10-09",
+  "lastSyncedAt": "2026-10-09T00:26:50.566Z",
+  "warDay": 224,
   "ceasefire": {
-    "active": true,
-    "status": "fragile",
-    "confidence": 0.6,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 30,
-    "summary": "The US has paused attacks on Iran for nearly a month following reported productive talks, though underlying tensions and Iranian actions in Hormuz persist."
+    "summary": "No ceasefire is active between the primary belligerents; tensions remain high with threats of military action."
   }
 }
