@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2555,
+  "updateSequence": 2556,
   "lastUpdated": "2026-10-09",
-  "lastSyncedAt": "2026-10-09T06:35:37.663Z",
+  "lastSyncedAt": "2026-10-09T13:41:35.172Z",
   "warDay": 224,
-  "summary": "The Iran war continues with ongoing military actions in the Strait of Hormuz, US military preparations for potential strikes, and international calls for mediation, while President Trump states no US strikes will occur before the November midterms.",
+  "summary": "Tensions between the US and Iran remain high with threats of renewed strikes, ongoing incidents in the Strait of Hormuz, and reports of US military losses, while Trump indicates a delay in major action until after midterms.",
   "lastNarrativeUpdate": "2026-10-09",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
-    "durationDays": 30,
-    "summary": "No active ceasefire is reported, with military actions and preparations ongoing."
+    "durationDays": 3,
+    "summary": "No ceasefire is active; signals indicate ongoing conflict and preparations for renewed strikes."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.5
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 78
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 12,
-    "escalationLevel": 83,
-    "oilDisruption": 88,
-    "tradeImpact": 78,
-    "sanctionsPressure": 63,
-    "globalPressure": 83,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 09",
-      "text": "Qatar warns the whole world is paying for the Iran war as mediation efforts continue.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQY01fbm1zdVplNno5Y19DaE9OR29sRnF6cXZrdFBoR1VEdFR4TkprYWM1eWNHdGFETk9RajVGYm1wb2ZSa1RoRjBYSzNWU1djaDFZWDlYNDRpRm9fS2hkbHBaS3hRUHdKRG9xX0h2YjUxUUN4MHBhZkNkbUtBYzIxcEs1ZmJhWlV2c2NrZTFBUndrWU9HaVlneHhOQ2IyVHFRLUJBTHdQRERaaFFKTWtMY0hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
-      "latestSinceUpdate": 2555
+      "text": "Trump states he does not want an Iran deal as the U.S. reportedly prepares for 'massive bombing' options.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2556
     },
     {
       "date": "Oct 09",
-      "text": "Reports indicate Trump's war on Iran is rapidly draining the US Navy budget.",
+      "text": "Reports indicate the Iran war is rapidly draining the US Navy budget, with significant aircraft losses and damage totaling over $3.3 billion.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2555
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2556
     },
     {
       "date": "Oct 09",
-      "text": "IRGC claims 'decisive control' over the Strait of Hormuz and targets 'violating' ships nightly.",
+      "text": "Iran's IRGC claims 'decisive control' over the Strait of Hormuz and reportedly hit an LPG tanker 'illegally' transiting the strait.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPT1ZDbTBzS2w5TzZUNTQ2TFhqTnFRd1VoRUZDYnhTWE9VSmZkTDlaMkZXc0xLX18ycl94ZnJnanJ3SnJueXpWOUpIRVZFbklFb0lCdUNDSFY3Rk9rNTJTSE1UYzhYYVNSZDNpeHBUb1Q5QS1OR05NWWdJOXlKcGhTWlRsN2hmTHluRkVYM25VSHNSQzZtSThPWmk4U2ZFOEJzNEtmUEtmcXlPQjRaWktUM295a1RmUWtPOFBXbzB30gHDAUFVX3lxTE85QjZwYndUd1RiczR0WFg2akJ5aVdIdS1sbUMyYUxGTjFyUG1idjhsRmlhb0VNWlIteDROYm1VTkF3MXZPYzZ1cEE1RDFXc3NzWW1DTnliQWVVQWlCUF9BNHFMWHBROUZxdVhNYTdIZkNtbWFROFNtZlFnUy1hdHp4eDQyUmlkVWZ1aVJBbVBIalRWeHM2VHh2bzJKdm9iNjdsdldFa2tvZzBTTHZXYm1ORmhZdUw2WVhxSk9hWEVpSFdHaw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2555
+      "latestSinceUpdate": 2556
     },
     {
       "date": "Oct 09",
-      "text": "US military ordered to be ready for possible Iran strikes as Trump weighs timing.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2555
+      "text": "Heavy explosions occurred in the Strait of Hormuz, with Iran's state broadcaster suggesting tankers may have hit mines, marking the highest weekly attack rate since the war began.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxOc2tVWEk4RGRnbVU4blQtcVVvNl9hYTVicnVpRThFYU5nVFVGaENVSG1oU2JxUnIxWVpnZk5raHlINW1oUEpoMWxMb244X3k4TlBZYTY4NUNRZmVTVlJSMkZBcDE1Q3NRb0ZUUFVuTEhxVFRZdEtrT3VuZ2NqVDRoNnFUR3haLXRQUXk1ajFxX1RjdTFrVEwxV3BiR0YtSk9WOXR6QXZNa2xGQ2gyRkVabFdIeGJ6Q0tGVWtoQmZHeVJNanRENTBYY0g5V0FfZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 2556
     },
     {
       "date": "Oct 09",
-      "text": "White House states Trump 'has all options' regarding possible Iran strikes before midterms.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQYXRWMldpdjZJelcxSDkwSkJ4SHdLZEI1Sk5DMjFHVV9KUEtDWnZ2akJqLUVqaFJLSHN6bE9nZ1pIc3BvOVdGRGFrTEd4NDNlTjVUVS1leHRMX1dsZzlWUXBlVHltelRtOXltcjJLZ3RoeEFRcV9aVXNqcWhIdWxXMkRqRVdpTDhQTDdwSEFveVZFTGhEU3ZncUpvdG1OV082M05V0gGoAUFVX3lxTFAtUjZpYVpRT2tZRjhoWThzdE9YcHVxbm05NGFuNzEyb1JLaTZlYk15QVNkYU5hNDBwbzVHRzF4d1hPRnFFWnlyc1I3YXJMcDdibGZPTGZSR2h3eTZvYnlmaDQxd05TUGUyRjdpcEVxeHlJUFZOSU5IeWxxYlhvaVN5M3JzYzZVQkVUTDZaNlJqTDFBb1JFU1hLMXBfNTN2Rk9xRndma3BLMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 2555
-    },
-    {
-      "date": "Oct 09",
-      "text": "Trump promises the US will not resume military strikes on Iran before the Nov. 3 midterm elections.",
+      "text": "Trump promises not to resume strikes against Iran before the upcoming midterm elections, despite the military being ordered to be ready for possible strikes.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxOOHBFWGxMbFFXdTh1VHlOeVlSVU9SWmRuc0pDUF9FVnZ6ZHh3a3NBbVhXeHA1V3o4cWNSTG9wRXk3MEVIaHd5V1FCNnAxbjZ0a1IzdmtIX1FuYm9DdFRyZUZXNVlpRVBBanhhQkNGUEV5blpUc1NrRjdaYzJPanVVam1laEZjUzVjcHZwc2JRNjlwR1RvSEpWRlg0S05YTXNTMU5vcExCLVZtRDUzbGgxUVVqdGl2RjYtdzlZV3pfNDBzUFlHdVYxZzlkUng5aHRyWDBrMkF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Seattle Times",
-      "latestSinceUpdate": 2555
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxQT3NqbnFSYTNQUWFNSU9NdzBQSDlrTHpvdERPVGo0QVJXY1ItMlhYbXN0Y21VWjZSbTlLcmlRWnQ0TGhuNjRhUkZ4cE0tUXp4ZHNiS3llXy0ycWlhZVdrYkowY0JqTHBNa2g0SjNIZHZlcTQ3Q3pKSUI4MzNHeHpmcVNJakp1ZmcyZmJFZTZFMXo1T1ltWVhGM2xIZlc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2556
+    },
+    {
+      "date": "Oct 09",
+      "text": "The US is said to be preparing options to renew the Iran war, including a plan for 3 days of intense strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQVWNzSUJZTWhicmlGYUpqd1NZcEI0T2JsSFNSbFprWXVackZEMDNGNElVOVcxOVVscWR2VGdITnkxQ0NaNEx0eE9HZVFyN0xlNG1KU3JEVU9RQS01NWlWcWtVZHVpV3ZDV29oS2pPM1JpQjB0RGdVaVFuTHNMTUtaNWsxd3lsWHNhcXNyNzdXLThkdkpQMzluRUZ2UGRmM1BzQVBoOWYyazFMUTVqdmg1TlBQdTNzc04yRC1Z0gHAAUFVX3lxTE5tOTR4aXFwc2dwWUJsOEo5bm5YLUw2b2pqSmt4OHp3NnFGMUxaeF9MeWhIY0ZnZDVJNGl3by0tWW1XOFRFVGx0TUlvN2tVNm5vWFdtVVlvdGdFb2dfejFXc3RnNmdnMEplelM1VnROc3NBYUZUclFqb1V4YVpJdURxMDhKRXV1TF9sRDcyZTU0MXVfVXlRRXdLVUg1dl9VaWRHV3pqUmlnNVhYVzRqWGxELUdvSFktRFdqeTZRX014cg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2556
     }
   ],
   "sourceStatuses": [
