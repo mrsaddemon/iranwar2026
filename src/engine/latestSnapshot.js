@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2554,
+  "updateSequence": 2555,
   "lastUpdated": "2026-10-09",
-  "lastSyncedAt": "2026-10-09T00:26:50.566Z",
+  "lastSyncedAt": "2026-10-09T06:35:37.663Z",
   "warDay": 224,
-  "summary": "The United States is reportedly preparing for potential strikes against Iran, which has escalated attacks in the Strait of Hormuz, while regional actors warn of broader conflict costs.",
+  "summary": "The Iran war continues with ongoing military actions in the Strait of Hormuz, US military preparations for potential strikes, and international calls for mediation, while President Trump states no US strikes will occur before the November midterms.",
   "lastNarrativeUpdate": "2026-10-09",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 30,
-    "summary": "No ceasefire is active between the primary belligerents; tensions remain high with threats of military action."
+    "summary": "No active ceasefire is reported, with military actions and preparations ongoing."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.7
+        "precision": 0.65,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 75,
-    "oilDisruption": 85,
-    "tradeImpact": 75,
-    "sanctionsPressure": 62,
-    "globalPressure": 80,
+    "nuclearIndex": 12,
+    "escalationLevel": 83,
+    "oilDisruption": 88,
+    "tradeImpact": 78,
+    "sanctionsPressure": 63,
+    "globalPressure": 83,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 09",
-      "text": "US reportedly prepares for 'massive bombing' of Iran as military is ordered to be ready for strikes.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2554
-    },
-    {
-      "date": "Oct 09",
-      "text": "Qatar warns the 'whole world is paying' for the Iran war as mediation efforts continue.",
+      "text": "Qatar warns the whole world is paying for the Iran war as mediation efforts continue.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQY01fbm1zdVplNno5Y19DaE9OR29sRnF6cXZrdFBoR1VEdFR4TkprYWM1eWNHdGFETk9RajVGYm1wb2ZSa1RoRjBYSzNWU1djaDFZWDlYNDRpRm9fS2hkbHBaS3hRUHdKRG9xX0h2YjUxUUN4MHBhZkNkbUtBYzIxcEs1ZmJhWlV2c2NrZTFBUndrWU9HaVlneHhOQ2IyVHFRLUJBTHdQRERaaFFKTWtMY0hn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Euronews.com",
-      "latestSinceUpdate": 2554
+      "latestSinceUpdate": 2555
     },
     {
       "date": "Oct 09",
-      "text": "Iran's IRGC claims 'decisive control' over the Strait of Hormuz amid escalating tensions.",
+      "text": "Reports indicate Trump's war on Iran is rapidly draining the US Navy budget.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2554
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2555
     },
     {
       "date": "Oct 09",
-      "text": "Iran scales up Hormuz attacks, leading to a jump in oil prices amid record tanker incidents.",
+      "text": "IRGC claims 'decisive control' over the Strait of Hormuz and targets 'violating' ships nightly.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMijAFBVV95cUxNOURnWGRjbThEV2lBS0EyTWpZQVdDNER1MnVvSFJDR3ZjaFR3Rl9QVkZPc1RnT1lKRnZwU0hDRnlMLXZQM3l6VlI5M1YzdXFvM2pqNldLc2ZpVkV5UThEV0RHVkZTUkZVTE9WV215UEY4U01ZbVlVN2ZwOEJjQ3hiZ1pZanhodVduZTVWbA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2554
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPT1ZDbTBzS2w5TzZUNTQ2TFhqTnFRd1VoRUZDYnhTWE9VSmZkTDlaMkZXc0xLX18ycl94ZnJnanJ3SnJueXpWOUpIRVZFbklFb0lCdUNDSFY3Rk9rNTJTSE1UYzhYYVNSZDNpeHBUb1Q5QS1OR05NWWdJOXlKcGhTWlRsN2hmTHluRkVYM25VSHNSQzZtSThPWmk4U2ZFOEJzNEtmUEtmcXlPQjRaWktUM295a1RmUWtPOFBXbzB30gHDAUFVX3lxTE85QjZwYndUd1RiczR0WFg2akJ5aVdIdS1sbUMyYUxGTjFyUG1idjhsRmlhb0VNWlIteDROYm1VTkF3MXZPYzZ1cEE1RDFXc3NzWW1DTnliQWVVQWlCUF9BNHFMWHBROUZxdVhNYTdIZkNtbWFROFNtZlFnUy1hdHp4eDQyUmlkVWZ1aVJBbVBIalRWeHM2VHh2bzJKdm9iNjdsdldFa2tvZzBTTHZXYm1ORmhZdUw2WVhxSk9hWEVpSFdHaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2555
     },
     {
       "date": "Oct 09",
-      "text": "Trump states US will not resume military strikes on Iran before the Nov. 3 midterm elections, despite weighing timing.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPNzBUd1VJSjdIZHJKdnBsS0RVRllDMTRtOUpqaGFqUDdvYzJSdUV0bktxQW0wTkpSeDlMbXlTeWZUOHRHZVg2V1BhTW9JRnlxSmNnczRlUHdSd0tlc1FfVklIaTVVa29JYnB6aVdIdjVTRGVWbFNYVkFUcDRCX29ZdHg5NktDVTExSGtnQzFSZnExRXJhUGE3M19lekJQZjdaZW5KTzN1bEFKcVJ2OUxjdlZTSDRmWHJnRmIzM3dqRVVGMEE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WRAL",
-      "latestSinceUpdate": 2554
-    },
-    {
-      "date": "Oct 09",
-      "text": "Hezbollah terror operatives are reportedly still located in southern Lebanon pilot zones, having received $200 million from Iran.",
+      "text": "US military ordered to be ready for possible Iran strikes as Trump weighs timing.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBSeGx2Q3ZiR1FZS0VSWHJEMFA5SXgwb3FBaTN0bUlhekZ0RWRWbTkzMWpwaE5XOWdQNF9mcWdsZUVzTG1icjl6NDVWMFJpbDNOdHNXblVZdW5uUE5vQVpud3hKS2pYekd6aUd1MDh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2554
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2555
+    },
+    {
+      "date": "Oct 09",
+      "text": "White House states Trump 'has all options' regarding possible Iran strikes before midterms.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQYXRWMldpdjZJelcxSDkwSkJ4SHdLZEI1Sk5DMjFHVV9KUEtDWnZ2akJqLUVqaFJLSHN6bE9nZ1pIc3BvOVdGRGFrTEd4NDNlTjVUVS1leHRMX1dsZzlWUXBlVHltelRtOXltcjJLZ3RoeEFRcV9aVXNqcWhIdWxXMkRqRVdpTDhQTDdwSEFveVZFTGhEU3ZncUpvdG1OV082M05V0gGoAUFVX3lxTFAtUjZpYVpRT2tZRjhoWThzdE9YcHVxbm05NGFuNzEyb1JLaTZlYk15QVNkYU5hNDBwbzVHRzF4d1hPRnFFWnlyc1I3YXJMcDdibGZPTGZSR2h3eTZvYnlmaDQxd05TUGUyRjdpcEVxeHlJUFZOSU5IeWxxYlhvaVN5M3JzYzZVQkVUTDZaNlJqTDFBb1JFU1hLMXBfNTN2Rk9xRndma3BLMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2555
+    },
+    {
+      "date": "Oct 09",
+      "text": "Trump promises the US will not resume military strikes on Iran before the Nov. 3 midterm elections.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMi1gFBVV95cUxOOHBFWGxMbFFXdTh1VHlOeVlSVU9SWmRuc0pDUF9FVnZ6ZHh3a3NBbVhXeHA1V3o4cWNSTG9wRXk3MEVIaHd5V1FCNnAxbjZ0a1IzdmtIX1FuYm9DdFRyZUZXNVlpRVBBanhhQkNGUEV5blpUc1NrRjdaYzJPanVVam1laEZjUzVjcHZwc2JRNjlwR1RvSEpWRlg0S05YTXNTMU5vcExCLVZtRDUzbGgxUVVqdGl2RjYtdzlZV3pfNDBzUFlHdVYxZzlkUng5aHRyWDBrMkF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Seattle Times",
+      "latestSinceUpdate": 2555
     }
   ],
   "sourceStatuses": [
