@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2559,
+  "updateSequence": 2560,
   "lastUpdated": "2026-10-10",
-  "lastSyncedAt": "2026-10-10T02:23:37.223Z",
+  "lastSyncedAt": "2026-10-10T08:54:03.976Z",
   "warDay": 225,
-  "summary": "Tensions between the US and Iran remain critically high with reports of US preparations for renewed intense strikes after midterm elections, while Iran continues to disrupt oil exports through the Strait of Hormuz and support regional proxies.",
+  "summary": "The US military is reportedly preparing for potential strikes against Iran amidst reports of significant damage to US aircraft, while Iran threatens to block parts of the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire is reported amidst ongoing conflict and preparations for renewed strikes."
+    "summary": "No ceasefire or de-escalation efforts are currently reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.5
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "nuclearIndex": 10,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 84,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,20 +59,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 08",
-      "text": "Trump states he does not want an Iran deal as the U.S. reportedly prepares for 'massive bombing'.",
+      "date": "Oct 09",
+      "text": "US reportedly prepares for 'massive bombing' of Iran.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2559
-    },
-    {
-      "date": "Oct 08",
-      "text": "Qatar warns that the 'whole world is paying' for the Iran war as mediation efforts continue.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQY01fbm1zdVplNno5Y19DaE9OR29sRnF6cXZrdFBoR1VEdFR4TkprYWM1eWNHdGFETk9RajVGYm1wb2ZSa1RoRjBYSzNWU1djaDFZWDlYNDRpRm9fS2hkbHBaS3hRUHdKRG9xX0h2YjUxUUN4MHBhZkNkbUtBYzIxcEs1ZmJhWlV2c2NrZTFBUndrWU9HaVlneHhOQ2IyVHFRLUJBTHdQRERaaFFKTWtMY0hn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
-      "latestSinceUpdate": 2559
+      "latestSinceUpdate": 2560
     },
     {
       "date": "Oct 08",
@@ -84,27 +76,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 08",
-      "text": "US military ordered to be ready for possible Iran strikes as Trump weighs timing.",
+      "text": "US military ordered to be ready for possible Iran strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2559
+      "latestSinceUpdate": 2560
     },
     {
       "date": "Oct 08",
-      "text": "US is said to be preparing options to renew the Iran war, including a plan for 3 days of intense strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQVWNzSUJZTWhicmlGYUpqd1NZcEI0T2JsSFNSbFprWXVackZEMDNGNElVOVcxOVVscWR2VGdITnkxQ0NaNEx0eE9HZVFyN0xlNG1KU3JEVU9RQS01NWlWcWtVZHVpV3ZDV29oS2pPM1JpQjB0RGdVaVFuTHNMTUtaNWsxd3lsWHNhcXNyNzdXLThkdkpQMzluRUZ2UGRmM1BzQVBoOWYyazFMUTVqdmg1TlBQdTNzc04yRC1Z0gHAAUFVX3lxTE5tOTR4aXFwc2dwWUJsOEo5bm5YLUw2b2pqSmt4OHp3NnFGMUxaeF9MeWhIY0ZnZDVJNGl3by0tWW1XOFRFVGx0TUlvN2tVNm5vWFdtVVlvdGdFb2dfejFXc3RnNmdnMEplelM1VnROc3NBYUZUclFqb1V4YVpJdURxMDhKRXV1TF9sRDcyZTU0MXVfVXlRRXdLVUg1dl9VaWRHV3pqUmlnNVhYVzRqWGxELUdvSFktRFdqeTZRX014cg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2559
-    },
-    {
-      "date": "Oct 08",
-      "text": "IDF Chief Zamir warns the US that 'War With Iran May Delay Elections'.",
+      "text": "IDF Chief Zamir warns US that war with Iran may delay elections.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNRmNaYnVDLU1McWJkcS0yeXM5X0hxNmxZR1h3NkplVkxETXhqX0J5b2t0Z01vNTFuclNvQWhDYy1teFFobHFvRU1IazlrMF9nQ3B2VEJiTEYxQ3hkVUZtai1KUUpNR2NwLXhCZ1JGOUFzRVRhenVldURtbnRYcVFORkVYcUFvclYzSE9VRDRQeURDd2JkYWY0cG1pWGo1NXBiSWRlcXo4WFFYNGxob211blNzM3F6Z3phZ28w?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 2559
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2560
+    },
+    {
+      "date": "Oct 08",
+      "text": "White House states Trump ‘has all options’ regarding possible Iran strikes.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQYXRWMldpdjZJelcxSDkwSkJ4SHdLZEI1Sk5DMjFHVV9KUEtDWnZ2akJqLUVqaFJLSHN6bE9nZ1pIc3BvOVdGRGFrTEd4NDNlTjVUVS1leHRMX1dsZzlWUXBlVHltelRtOXltcjJLZ3RoeEFRcV9aVXNqcWhIdWxXMkRqRVdpTDhQTDdwSEFveVZFTGhEU3ZncUpvdG1OV082M05V0gGoAUFVX3lxTFAtUjZpYVpRT2tZRjhoWThzdE9YcHVxbm05NGFuNzEyb1JLaTZlYk15QVNkYU5hNDBwbzVHRzF4d1hPRnFFWnlyc1I3YXJMcDdibGZPTGZSR2h3eTZvYnlmaDQxd05TUGUyRjdpcEVxeHlJUFZOSU5IeWxxYlhvaVN5M3JzYzZVQkVUTDZaNlJqTDFBb1JFU1hLMXBfNTN2Rk9xRndma3BLMw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2560
+    },
+    {
+      "date": "Oct 08",
+      "text": "Oil rises 4% on revived Middle East worries and Hurricane Isaias supply disruption.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOZlloTmR5SkZfME9kcjlVcENtQzFrdmc2cnJfTWthWWJYcFIwZFFGNUs5Y2Y2TkR0MjE2STZ3WXktSXJRRmRiXzZYTnQ4clNNZlNQempZRzFPTERYUXpFM1d0SUJoUzFyN3FLRTg0d3UtckZWbWpWM01DNVJIUEdBTTkyd0dFaDgwX0llWXBtMXV1dVROdXUwVUF6VG9Ca3BReDdJTzNhT0d3RjcwUVF5TS12N1ZWNzJXdlRz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2560
     }
   ],
   "sourceStatuses": [
