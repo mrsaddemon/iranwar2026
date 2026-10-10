@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2562,
+  "updateSequence": 2563,
   "lastUpdated": "2026-10-10",
-  "lastSyncedAt": "2026-10-10T19:19:38.470Z",
+  "lastSyncedAt": "2026-10-10T22:40:21.042Z",
   "warDay": 225,
-  "summary": "The conflict between the US and Iran continues on War Day 225, marked by US preparations for potential strikes, increased tanker attacks in the Strait of Hormuz, and ongoing regional tensions involving Saudi-led forces and Hezbollah.",
+  "summary": "The US is reportedly preparing for potential massive strikes against Iran as tanker attacks surge in the Strait of Hormuz, while regional tensions persist with Israeli actions in Lebanon and Saudi-led operations against Houthis.",
   "lastNarrativeUpdate": "2026-10-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No ceasefire or de-escalation is currently active between the primary belligerents."
+    "summary": "No ceasefire or de-escalation efforts are currently active; the conflict shows signs of potential escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,8 +36,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
@@ -46,13 +46,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "sanctionsPressure": 68,
+    "globalPressure": 90,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 09",
-      "text": "Saudi-led coalition reportedly hits Houthis amidst Iran war updates.",
+      "text": "Saudi-led coalition conducts strikes against Houthis, amidst ongoing Iran war updates.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPT1ZDbTBzS2w5TzZUNTQ2TFhqTnFRd1VoRUZDYnhTWE9VSmZkTDlaMkZXc0xLX18ycl94ZnJnanJ3SnJueXpWOUpIRVZFbklFb0lCdUNDSFY3Rk9rNTJTSE1UYzhYYVNSZDNpeHBUb1Q5QS1OR05NWWdJOXlKcGhTWlRsN2hmTHluRkVYM25VSHNSQzZtSThPWmk4U2ZFOEJzNEtmUEtmcXlPQjRaWktUM295a1RmUWtPOFBXbzB30gHDAUFVX3lxTE85QjZwYndUd1RiczR0WFg2akJ5aVdIdS1sbUMyYUxGTjFyUG1idjhsRmlhb0VNWlIteDROYm1VTkF3MXZPYzZ1cEE1RDFXc3NzWW1DTnliQWVVQWlCUF9BNHFMWHBROUZxdVhNYTdIZkNtbWFROFNtZlFnUy1hdHp4eDQyUmlkVWZ1aVJBbVBIalRWeHM2VHh2bzJKdm9iNjdsdldFa2tvZzBTTHZXYm1ORmhZdUw2WVhxSk9hWEVpSFdHaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2562
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2563
     },
     {
       "date": "Oct 09",
-      "text": "Putin and Trump discuss Iran situation.",
+      "text": "US President Trump and Russian President Putin discuss the Iran situation.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2562
+      "latestSinceUpdate": 2563
     },
     {
-      "date": "Oct 08",
-      "text": "Trump states he does not want an Iran deal as the U.S. reportedly prepares for 'massive bombing'.",
+      "date": "Oct 09",
+      "text": "Reports indicate the US is preparing for potential 'massive bombing' of Iran, with military ordered to be ready for strikes.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2562
+      "latestSinceUpdate": 2563
     },
     {
-      "date": "Recent",
-      "text": "US military ordered to be ready for possible Iran strikes as Trump weighs timing.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2562
-    },
-    {
-      "date": "Recent",
-      "text": "US reportedly pressed Israel to conduct a lone operation against Iran ahead of midterm elections.",
-      "severity": "warning",
+      "date": "Oct 09",
+      "text": "The US reportedly pushed for a lone Israeli operation against Iran as midterm elections approach.",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE8yeGdLcFpkcDRnT1pFNEJIWlluQ0VjdlNESzJFandBNzVBQlotbnJLNURiTC16V1VwdG9qQnhaaldWN0F3SmJ0VkRBa2o3UWxydFZrZHNlNElIZy1OMTZJcVctMlktbnRqbUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2562
+      "latestSinceUpdate": 2563
     },
     {
-      "date": "Recent",
-      "text": "Tanker attacks in the Strait of Hormuz surge to a wartime high as Iran attempts to choke off oil exports.",
+      "date": "Oct 09",
+      "text": "Tanker attacks in the Strait of Hormuz have surged to a wartime high as Iran attempts to disrupt oil exports.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLXQ5SXNEMzB0UFVEM09pZjB6S29PbXBPZWdwQ1VUei1iSkJ4RWx6d0pvOUhRVXdiVTZKeHUzUkVVSUE5bmtENm5OOXFrN24zYjhYdlN5R1VfckRfaGt3eXJlLXVNSFR6OE5lTTdWT19mRGVRNDQ5QTltV09OdXdSd2h6c9IBiAFBVV95cUxOeXViRmlFc2pYOS1vS3htNzF6Q0hLcEt1Vm1VUEJkb0NrWENIcFRtSXNiUDUxMk5DbFVQbXpBaTdsU25vajNhd3lQTW93bk05RGVWdlNkWFRtRkZxa1M5c3ZBTkxRWGxHOEwyM1dYS1hTczRJNjNZUk5MUXVGS0ROcWlYX0lzdkVD?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2562
+      "latestSinceUpdate": 2563
+    },
+    {
+      "date": "Oct 09",
+      "text": "An Israeli drone attack wounded six individuals in Lebanon near the Syrian border.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDlneDFDVlJhbkRIb3NoZ3NjbWtkSmkwWV94Z21oM0cyc1d2NXJBRFEweE1vbGJqQ19DUzM0MUhucV9lY19CNmY4T2hlb2VXNFVqcS1CWC1HRUY1aXF3Q3lBN3c0dDRuTXBKSWlzMjhhUWRsRV9LaFVhTzZraTFTYzBoREJ4WGZmOG1PeVNyUkY5UzctZkJfWk9jWi1Da3VadlZHUNIBqgFBVV95cUxNeVR3QzNzVW1YcTlxOFJINW1qc0FUWUotaE93Z29fYTdzV1hJckJ6eGxwUjEzOXkwNE9UY0Jlc1UzNmhVY3VLX2VhOEs3YVc2U0tsLXJjbFY1NWc1bUxicUhKOWQ1bExXWEdhcmdqTUcwakpXMnRGZFd2cWs0VWRFOWIwNWJ4NVRNRy01aUp6Wl9tM2ZoT0F5b0VzLS02SzdVTXNVa0JZUzJXQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2563
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
