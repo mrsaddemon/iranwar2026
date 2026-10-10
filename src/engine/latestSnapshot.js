@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2560,
+  "updateSequence": 2561,
   "lastUpdated": "2026-10-10",
-  "lastSyncedAt": "2026-10-10T08:54:03.976Z",
+  "lastSyncedAt": "2026-10-10T15:13:27.854Z",
   "warDay": 225,
-  "summary": "The US military is reportedly preparing for potential strikes against Iran amidst reports of significant damage to US aircraft, while Iran threatens to block parts of the Strait of Hormuz.",
+  "summary": "The conflict involving Iran continues with the US military preparing for potential strikes, while diplomatic efforts involving Russia and political considerations in the US influence strategic decisions.",
   "lastNarrativeUpdate": "2026-10-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No ceasefire or de-escalation efforts are currently reported."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing conflict and military preparations."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,12 +28,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.5
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,16 +42,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 40,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 46
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 66,
+    "globalPressure": 85,
+    "allianceInfluence": 62
   },
   "alliance": {
-    "russiaIntelSupport": false,
+    "russiaIntelSupport": true,
     "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 09",
-      "text": "US reportedly prepares for 'massive bombing' of Iran.",
-      "severity": "critical",
+      "text": "Putin relays Iran’s terms for ending the war to Trump, who is reportedly weighing the timing for potential strikes.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPM2hKQnU0RnNlWmR5M0dpZy1GdkEybmxWRm1scHZNMlREbG52WmpkLWlRUnI4M3hRQkZKUXAtX3doSGxHbnZ5Tl9ybGp2SHVSLTlvUC0wUG9rOFVZeG81UmxvZ0hzNTZsa25fMTF5Y0V1Q1QwbjdjQnVScGdfZlUzQzg0TXo3aVFnSGVuWlRyazZ6M2N2NzItYnNhMHJrNDg5dGxhUlNoNVU3OGZva3djcmQ2eGQyOU43N21Z0gHAAUFVX3lxTFB0ZXVSYWwwdm1HYnp0cWY5eWNRXzRYb1BaOVRjcXBZVUpDOEpPUmFxeVJZT2x4U01Ma2ljMmN6Z2N0S19kZTVXekp6dTZFamp0NGRZMHp2UzhrcmJVOENPd3N3d3RXR2E2aU55TEN6QWpSVHZsbjhHUUxPU25YREd1MmFtMXUtVmNvLXdHTEY3NWpBZm5MZ0RBandXcS0xZkpVbVZtQkZEeFN6OHlMOTZlcWo2Q2FVVHFuN0hkcVU0SQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2561
+    },
+    {
+      "date": "Oct 09",
+      "text": "US military ordered to prepare for a possible resumption of Iran strikes, with reports indicating preparations for 'massive bombing'.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxPXzRfZkx5czhJd1RIbEdMa0dmd0p5UWlFM0pST2cxQkF0VzMwZUJTN2MtV0VhV2tpcm5zV2UtcmtfZk50VXZxTEhXSXFNRmhsN2JkWllCOTV3YlQyZ0NFTk9EZUgxVFFQaUJKLVN5VVNOR3FYRXhKYkQ2eWJmSWkxS0NUNC1DYnNpSkY5cUo3SUVJaHNoSndQSTNqbnlnN3plOHdrV1VidDJ5dFnSAbABQVVfeXFMT05jWXlMN0lVUG13SWpBS29CZUkyTTNQaWFsTWhGYVJwZ2hlQ0dZckNFOURpODA0SUp1YXkzU2lKaU4wSW9OMVRmV3RPTWdxSFQ3TTJ1ZnVrNVNxbEFCcU1wWnNMY1hiWjk2OE5lTkoycDlvTGxsQ3BmY0tDbFRUYm9LLTFILTV1OHhmbVNFMnVyaDVRLUlKSURDNFZNVEZzYzcxRDhMX0VRc3ZVMVNXYTY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2561
+    },
+    {
+      "date": "Oct 09",
+      "text": "Trump states the US will not attack Iran again before midterm elections, despite ongoing military planning.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2560
+      "latestSinceUpdate": 2561
     },
     {
-      "date": "Oct 08",
-      "text": "Reports indicate Trump’s war on Iran is rapidly draining the US navy budget.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2559
-    },
-    {
-      "date": "Oct 08",
-      "text": "US military ordered to be ready for possible Iran strikes.",
+      "date": "Oct 09",
+      "text": "Tanker attacks in the Strait of Hormuz surge to a wartime high as Iran attempts to choke off oil exports.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2560
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLXQ5SXNEMzB0UFVEM09pZjB6S29PbXBPZWdwQ1VUei1iSkJ4RWx6d0pvOUhRVXdiVTZKeHUzUkVVSUE5bmtENm5OOXFrN24zYjhYdlN5R1VfckRfaGt3eXJlLXVNSFR6OE5lTTdWT19mRGVRNDQ5QTltV09OdXdSd2h6c9IBiAFBVV95cUxOeXViRmlFc2pYOS1vS3htNzF6Q0hLcEt1Vm1VUEJkb0NrWENIcFRtSXNiUDUxMk5DbFVQbXpBaTdsU25vajNhd3lQTW93bk05RGVWdlNkWFRtRkZxa1M5c3ZBTkxRWGxHOEwyM1dYS1hTczRJNjNZUk5MUXVGS0ROcWlYX0lzdkVD?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2561
     },
     {
-      "date": "Oct 08",
-      "text": "IDF Chief Zamir warns US that war with Iran may delay elections.",
+      "date": "Oct 09",
+      "text": "A congressional report indicates the US has lost or sustained damage to 81 military aircraft, valued up to $3.3 billion, in the Iran war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQYURFZENqc0hDNWRzUXVWOVVJWktLc3RFR2JlU3oyZVBqZ21fVmNBVFl6N2Q0ZklpcnJCRTNnbmV5TEFSeU9HcTJoeFAzeTJjSEd4TEt6UGo3Tk1wVDNTbFkwUGFpT1ZNNU0yRnJrM05OY3VnVm5kWklOeXB2R21VVExLRmdnbDBi?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2561
+    },
+    {
+      "date": "Oct 09",
+      "text": "IDF Chief Zamir warns that the war with Iran may delay US elections, as Israel's military footprint expands.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2560
-    },
-    {
-      "date": "Oct 08",
-      "text": "White House states Trump ‘has all options’ regarding possible Iran strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQYXRWMldpdjZJelcxSDkwSkJ4SHdLZEI1Sk5DMjFHVV9KUEtDWnZ2akJqLUVqaFJLSHN6bE9nZ1pIc3BvOVdGRGFrTEd4NDNlTjVUVS1leHRMX1dsZzlWUXBlVHltelRtOXltcjJLZ3RoeEFRcV9aVXNqcWhIdWxXMkRqRVdpTDhQTDdwSEFveVZFTGhEU3ZncUpvdG1OV082M05V0gGoAUFVX3lxTFAtUjZpYVpRT2tZRjhoWThzdE9YcHVxbm05NGFuNzEyb1JLaTZlYk15QVNkYU5hNDBwbzVHRzF4d1hPRnFFWnlyc1I3YXJMcDdibGZPTGZSR2h3eTZvYnlmaDQxd05TUGUyRjdpcEVxeHlJUFZOSU5IeWxxYlhvaVN5M3JzYzZVQkVUTDZaNlJqTDFBb1JFU1hLMXBfNTN2Rk9xRndma3BLMw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 2560
-    },
-    {
-      "date": "Oct 08",
-      "text": "Oil rises 4% on revived Middle East worries and Hurricane Isaias supply disruption.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOZlloTmR5SkZfME9kcjlVcENtQzFrdmc2cnJfTWthWWJYcFIwZFFGNUs5Y2Y2TkR0MjE2STZ3WXktSXJRRmRiXzZYTnQ4clNNZlNQempZRzFPTERYUXpFM1d0SUJoUzFyN3FLRTg0d3UtckZWbWpWM01DNVJIUEdBTTkyd0dFaDgwX0llWXBtMXV1dVROdXUwVUF6VG9Ca3BReDdJTzNhT0d3RjcwUVF5TS12N1ZWNzJXdlRz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2560
+      "latestSinceUpdate": 2561
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
