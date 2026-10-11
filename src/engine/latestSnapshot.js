@@ -1,116 +1,116 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2563,
-  "lastUpdated": "2026-10-10",
-  "lastSyncedAt": "2026-10-10T22:40:21.042Z",
-  "warDay": 225,
-  "summary": "The US is reportedly preparing for potential massive strikes against Iran as tanker attacks surge in the Strait of Hormuz, while regional tensions persist with Israeli actions in Lebanon and Saudi-led operations against Houthis.",
-  "lastNarrativeUpdate": "2026-10-10",
+  "updateSequence": 2564,
+  "lastUpdated": "2026-10-11",
+  "lastSyncedAt": "2026-10-11T01:19:21.063Z",
+  "warDay": 226,
+  "summary": "The conflict between the US and Iran continues, marked by increasing US casualties and military losses, ongoing regional attacks including on Riyadh, and significant disruption to oil transit in the Strait of Hormuz, as the US reportedly prepares for potential massive strikes.",
+  "lastNarrativeUpdate": "2026-10-11",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No ceasefire or de-escalation efforts are currently active; the conflict shows signs of potential escalation."
+    "summary": "No ceasefire or de-escalation is currently in effect; active conflict continues."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
+    "nuclearIndex": 25,
+    "escalationLevel": 90,
     "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 68,
-    "globalPressure": 90,
-    "allianceInfluence": 73
+    "tradeImpact": 81,
+    "sanctionsPressure": 64,
+    "globalPressure": 86,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Oct 09",
-      "text": "Saudi-led coalition conducts strikes against Houthis, amidst ongoing Iran war updates.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2563
-    },
-    {
-      "date": "Oct 09",
-      "text": "US President Trump and Russian President Putin discuss the Iran situation.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2563
-    },
-    {
-      "date": "Oct 09",
-      "text": "Reports indicate the US is preparing for potential 'massive bombing' of Iran, with military ordered to be ready for strikes.",
+      "date": "Oct 11",
+      "text": "Pentagon again increases the number of U.S. casualties in the Iran War.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2563
+      "latestSinceUpdate": 2564
     },
     {
-      "date": "Oct 09",
-      "text": "The US reportedly pushed for a lone Israeli operation against Iran as midterm elections approach.",
-      "severity": "info",
+      "date": "Oct 11",
+      "text": "12 people killed in an attack on Riyadh airport, according to Saudi authorities.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPM2hKQnU0RnNlWmR5M0dpZy1GdkEybmxWRm1scHZNMlREbG52WmpkLWlRUnI4M3hRQkZKUXAtX3doSGxHbnZ5Tl9ybGp2SHVSLTlvUC0wUG9rOFVZeG81UmxvZ0hzNTZsa25fMTF5Y0V1Q1QwbjdjQnVScGdfZlUzQzg0TXo3aVFnSGVuWlRyazZ6M2N2NzItYnNhMHJrNDg5dGxhUlNoNVU3OGZva3djcmQ2eGQyOU43N21Z0gHAAUFVX3lxTFB0ZXVSYWwwdm1HYnp0cWY5eWNRXzRYb1BaOVRjcXBZVUpDOEpPUmFxeVJZT2x4U01Ma2ljMmN6Z2N0S19kZTVXekp6dTZFamp0NGRZMHp2UzhrcmJVOENPd3N3d3RXR2E2aU55TEN6QWpSVHZsbjhHUUxPU25YREd1MmFtMXUtVmNvLXdHTEY3NWpBZm5MZ0RBandXcS0xZkpVbVZtQkZEeFN6OHlMOTZlcWo2Q2FVVHFuN0hkcVU0SQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2564
+    },
+    {
+      "date": "Oct 11",
+      "text": "Trump states he doesn't want an Iran deal as the U.S. reportedly prepares for 'massive bombing'.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2564
+    },
+    {
+      "date": "Oct 11",
+      "text": "The U.S. reportedly pushed for a lone Israeli operation against Iran as midterm elections loom.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE8yeGdLcFpkcDRnT1pFNEJIWlluQ0VjdlNESzJFandBNzVBQlotbnJLNURiTC16V1VwdG9qQnhaaldWN0F3SmJ0VkRBa2o3UWxydFZrZHNlNElIZy1OMTZJcVctMlktbnRqbUE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2563
+      "latestSinceUpdate": 2564
     },
     {
-      "date": "Oct 09",
-      "text": "Tanker attacks in the Strait of Hormuz have surged to a wartime high as Iran attempts to disrupt oil exports.",
+      "date": "Oct 11",
+      "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2564
+    },
+    {
+      "date": "Oct 11",
+      "text": "Tanker attacks in the Strait of Hormuz surge to a wartime high as Iran attempts to choke off oil exports.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQLXQ5SXNEMzB0UFVEM09pZjB6S29PbXBPZWdwQ1VUei1iSkJ4RWx6d0pvOUhRVXdiVTZKeHUzUkVVSUE5bmtENm5OOXFrN24zYjhYdlN5R1VfckRfaGt3eXJlLXVNSFR6OE5lTTdWT19mRGVRNDQ5QTltV09OdXdSd2h6c9IBiAFBVV95cUxOeXViRmlFc2pYOS1vS3htNzF6Q0hLcEt1Vm1VUEJkb0NrWENIcFRtSXNiUDUxMk5DbFVQbXpBaTdsU25vajNhd3lQTW93bk05RGVWdlNkWFRtRkZxa1M5c3ZBTkxRWGxHOEwyM1dYS1hTczRJNjNZUk5MUXVGS0ROcWlYX0lzdkVD?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2563
-    },
-    {
-      "date": "Oct 09",
-      "text": "An Israeli drone attack wounded six individuals in Lebanon near the Syrian border.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPZDlneDFDVlJhbkRIb3NoZ3NjbWtkSmkwWV94Z21oM0cyc1d2NXJBRFEweE1vbGJqQ19DUzM0MUhucV9lY19CNmY4T2hlb2VXNFVqcS1CWC1HRUY1aXF3Q3lBN3c0dDRuTXBKSWlzMjhhUWRsRV9LaFVhTzZraTFTYzBoREJ4WGZmOG1PeVNyUkY5UzctZkJfWk9jWi1Da3VadlZHUNIBqgFBVV95cUxNeVR3QzNzVW1YcTlxOFJINW1qc0FUWUotaE93Z29fYTdzV1hJckJ6eGxwUjEzOXkwNE9UY0Jlc1UzNmhVY3VLX2VhOEs3YVc2U0tsLXJjbFY1NWc1bUxicUhKOWQ1bExXWEdhcmdqTUcwakpXMnRGZFd2cWs0VWRFOWIwNWJ4NVRNRy01aUp6Wl9tM2ZoT0F5b0VzLS02SzdVTXNVa0JZUzJXQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2563
+      "latestSinceUpdate": 2564
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Administration",
-      "headline": "US Prepares for Renewed Iran Strikes Post-Midterms Amid Budget Strain",
-      "summary": "The Trump administration is reportedly preparing for renewed, potentially massive, strikes against Iran after the upcoming midterm elections, despite a temporary pause in operations. This comes as the ongoing conflict is significantly draining the US Navy budget and increasing aircraft losses.",
-      "tone": "strained",
-      "latestSinceUpdate": 2559
-    },
-    {
-      "perspective": "Iran/Proxies",
-      "headline": "Iran Escalates Strait of Hormuz Attacks, Funds Hezbollah Amid Regional Tensions",
-      "summary": "Iran is actively escalating its efforts to disrupt global oil exports through a surge in tanker attacks in the Strait of Hormuz. Concurrently, Iran continues to provide substantial financial support to regional proxies like Hezbollah, further entrenching its influence in the Middle East.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2559
-    },
-    {
-      "perspective": "Regional/International",
-      "headline": "Global Economic Burden and Election Delays Feared Amid Iran War Escalation",
-      "summary": "International observers, including Qatar, warn of the global economic burden imposed by the ongoing Iran war, citing high gas prices despite open shipping lanes. The IDF Chief has also expressed concerns that a full-scale war with Iran could lead to delays in US elections, highlighting broader regional instability.",
+      "perspective": "US War Posture",
+      "headline": "US Prepares for 'Massive Bombing' Amid Rising Casualties",
+      "summary": "The US is reportedly preparing for 'massive bombing' against Iran, with military forces on alert, while also pushing Israel for independent operations, amidst rising US casualties and significant military costs.\nThis indicates a potential escalation of direct US military involvement.",
       "tone": "anxious",
-      "latestSinceUpdate": 2559
+      "latestSinceUpdate": 2564
     },
     {
-      "perspective": "Israel",
-      "headline": "Israel Adapts Post-Oct 7, Faces Manpower Strain Amid Enduring Threats",
-      "summary": "Three years after October 7, Israel has significantly altered its strategic rules in the Middle East, but faces mounting manpower strain. Hamas and Hezbollah continue to endure, posing persistent threats that necessitate ongoing adaptation and readiness from the IDF.",
+      "perspective": "Iranian Resistance & Regional Impact",
+      "headline": "Iran Chokes Hormuz, Strikes Riyadh Amid Escalating Conflict",
+      "summary": "Iran is actively engaged in the conflict, with attacks on Riyadh and efforts to disrupt oil exports through the Strait of Hormuz, leading to high shipping risks and increased energy prices.\nThis highlights Iran's strategy to exert pressure through regional actions and economic disruption.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2564
+    },
+    {
+      "perspective": "Regional Instability",
+      "headline": "Israel's Expanding Footprint Fuels Regional Volatility",
+      "summary": "The broader region remains volatile, with Israeli military actions in Lebanon and internal security concerns regarding Hezbollah, indicating an expanding and costly conflict footprint.\nThis suggests a widening scope of conflict beyond direct US-Iran engagements.",
       "tone": "strained",
-      "latestSinceUpdate": 2559
+      "latestSinceUpdate": 2564
     }
   ]
 });
