@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2568,
-  "lastUpdated": "2026-10-11",
-  "lastSyncedAt": "2026-10-11T22:47:01.857Z",
-  "warDay": 226,
+  "updateSequence": 2569,
+  "lastUpdated": "2026-10-12",
+  "lastSyncedAt": "2026-10-12T01:49:05.500Z",
+  "warDay": 227,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire is in place, and diplomatic efforts to end the war have stalled with Iran rejecting U.S. proposals."
   }
 }
