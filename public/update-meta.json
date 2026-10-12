@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2571,
+  "updateSequence": 2572,
   "lastUpdated": "2026-10-12",
-  "lastSyncedAt": "2026-10-12T17:47:21.959Z",
+  "lastSyncedAt": "2026-10-12T23:47:37.941Z",
   "warDay": 227,
   "ceasefire": {
     "active": false,
-    "status": "none",
+    "status": "collapsed",
     "confidence": 0.1,
     "durationDays": 3,
-    "summary": "Talks to end the Iran war remain stalled, with Iran deeming U.S. proposals insufficient, indicating no active ceasefire for the main conflict."
+    "summary": "A previous ceasefire in Southern Lebanon has collapsed, and diplomatic efforts to end the US-Iran war are currently insufficient."
   }
 }
