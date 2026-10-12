@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2569,
+  "updateSequence": 2570,
   "lastUpdated": "2026-10-12",
-  "lastSyncedAt": "2026-10-12T01:49:05.500Z",
+  "lastSyncedAt": "2026-10-12T08:06:03.185Z",
   "warDay": 227,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire is in place, and diplomatic efforts to end the war have stalled with Iran rejecting U.S. proposals."
+    "summary": "Efforts to end the war on Iran have stalled, and Iran has deemed the latest U.S. proposal insufficient."
   }
 }
