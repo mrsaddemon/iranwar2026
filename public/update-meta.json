@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2570,
+  "updateSequence": 2571,
   "lastUpdated": "2026-10-12",
-  "lastSyncedAt": "2026-10-12T08:06:03.185Z",
+  "lastSyncedAt": "2026-10-12T17:47:21.959Z",
   "warDay": 227,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 3,
-    "summary": "Efforts to end the war on Iran have stalled, and Iran has deemed the latest U.S. proposal insufficient."
+    "summary": "Talks to end the Iran war remain stalled, with Iran deeming U.S. proposals insufficient, indicating no active ceasefire for the main conflict."
   }
 }
