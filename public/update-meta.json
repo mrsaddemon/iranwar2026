@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2574,
+  "updateSequence": 2575,
   "lastUpdated": "2026-10-13",
-  "lastSyncedAt": "2026-10-13T12:00:00.000Z",
+  "lastSyncedAt": "2026-10-13T18:31:45.505Z",
   "warDay": 228,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.1,
     "durationDays": 3,
-    "summary": "No active ceasefire is in effect, with Iran rejecting US proposals and intensified conflict reported in Southern Lebanon."
+    "summary": "A previous ceasefire in Southern Lebanon appears to have collapsed amidst intensified Israeli operations, while diplomatic efforts to end the wider conflict remain stalled."
   }
 }

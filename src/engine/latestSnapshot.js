@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2574,
+  "updateSequence": 2575,
   "lastUpdated": "2026-10-13",
-  "lastSyncedAt": "2026-10-13T12:00:00.000Z",
+  "lastSyncedAt": "2026-10-13T18:31:45.505Z",
   "warDay": 228,
-  "summary": "The Iran war continues with US troop casualties, heightened tensions in the Strait of Hormuz impacting oil shipping, and ongoing conflict between Israel and Hezbollah in Southern Lebanon.",
+  "summary": "The Iran war continues with regional attacks, increased U.S. casualties, and stalled diplomatic efforts, while oil shipping routes face renewed threats.",
   "lastNarrativeUpdate": "2026-10-13",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
     "confidence": 0.1,
     "durationDays": 3,
-    "summary": "No active ceasefire is in effect, with Iran rejecting US proposals and intensified conflict reported in Southern Lebanon."
+    "summary": "A previous ceasefire in Southern Lebanon appears to have collapsed amidst intensified Israeli operations, while diplomatic efforts to end the wider conflict remain stalled."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.6,
@@ -24,29 +24,29 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 10,
-    "escalationLevel": 80,
-    "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
     "globalPressure": 82,
     "allianceInfluence": 51
   },
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 13",
-      "text": "Pentagon quietly raises the count of U.S. troops killed in the Iran War.",
-      "severity": "warning",
+      "text": "Saudi Arabia downed Houthi missiles amidst ongoing deadly attacks in the region.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2575
+    },
+    {
+      "date": "Oct 13",
+      "text": "A tanker was reportedly hit in the Strait of Hormuz area, raising concerns about shipping security.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQbkxzdWotSHVFT2dsd21RdHRiM0R6VVRabDl6V2R2Q2xRbUdEYmZoZzlGMERqSmZ4bTdpQ0NfY3k0NUZ6NHd1ZlREY0tIckd5Z2QzRWFYM3lhbjJwbWsxWjFLN1ZtLVFudTNwZDN4R1V1RDNLeUhwcWtpQy1jTk9jZElxbmNfN2J0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2575
+    },
+    {
+      "date": "Oct 13",
+      "text": "An oil station in the Yemeni capital was attacked following civilian evacuation warnings for a Saudi-led operation.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2574
+      "latestSinceUpdate": 2575
     },
     {
       "date": "Oct 13",
-      "text": "IRGC claims 'decisive control' over the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2574
+      "text": "A teen was killed and 24 injured by Hezbollah munition found on a hike near the Lebanon border.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQSUtCZjhxcXBhSTFRWk5BZWo5Q2lJU3AyOC15aUd2OTNCdExKNms5dlg4Y04wMXAxd2NWV0N6NXFqV241STNDZ3VMZ1p5eDQtMXl1LVA1ZmlOdF9JdThNbnJYMllvbXBPVGN4dG45OVhMR2c3QjBCeWxjLXV4SWY0VXlRa0wzRi04TkptLUlnZnVlZXVySWNNYUdVYzJfOFgxRmNfVUxkWDNndzc2dHVzYjdCNWHSAboBQVVfeXFMUG5IazNhSFk0RUhNQ3dneFdnR3pBM0tIYktZRS1JLWg3dVF0S2ZKbURqdnd0SFV5SEJuYlR6d3FtTGQtd2VmWDFtMlBTN09nbDNrODN3UGZpUE9xMDFfWFdtb0hDZC1pdGJkYUgyS2hWcm1FbFhDLXdtdFJoS0NMOTZ3ZVlXQ1VEejcyeFBCZC1RN0hhdTNkM1JQcGV2aC0taEh0R19qZnhnNHF5SUNIaGZNYjB6SFBKSkF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2575
     },
     {
       "date": "Oct 13",
-      "text": "Iran calls the latest U.S. proposal to end the war 'insufficient'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNLXRjcFVOT0JlLXZweVZyNTFOcy1CUUV2ck1uekRRUFRTN0JlemlmTlREc0VRT2w0QllyUnRHS1JSWUI2Yld3QzNMOVdKMFJmQ2dtcHR5QVZxb2staWdoMkJJMFo0XzhaRjZuVi02NDFJZTZOV2s2ZDN5cGN0b2RpY3pyU3JzanZLX2V2R1l3ZjVUS1ZfTHY5Um5heEU2UHRTcjhpLVgycThkMFhiYTNQOXdBaVR1VGcyTndhak1qa2JXa2pBTk5n?hl=en-US&gl=US&ceid=US:en",
+      "text": "The Pentagon reported an increase in the number of U.S. casualties in the Iran War.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2575
+    },
+    {
+      "date": "Oct 13",
+      "text": "A suspected plot at a U.S.-run air base was almost certainly directed by Iran, according to the UK prime minister.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQY2RHUHVGYU44NzRCU3hnV1doRFFObHhHY01uVDNCa1RnYmtWMVJjMGVtNUJIUjJIMEJ2NWx5N2hqcDlYT3J3MDZqMlJURXNHQXM5UDRlaElWdnY3Nk1lWjZhUllpWWxUSjgwVVZ0UzNLQTJtaEZXNjhDZTBYUjZhblN6dTVBaTlyeTNCN0x5VzR3X1hSRXFrSUlldFFsY3ZTZHpzbWlVVVhINDZEcWNfWDV6VFdNdzVYdDR4Uk5DU0Faa2hQ0gHKAUFVX3lxTE41UzNRWmRsdGVDN1B2V3otUkRmVWtHRmd2N0NaSVpqbkQyeVpHNEFXWTVtenJ3dG9GM3RZUFcwX2w2alM5MzVuT2hiTGJJRUVIMm5Lei0tMVZnRGhxVkpJR2E5QmptcWxDQWx2ZldPT05KRWhxYkxnall5ZWhia2I0ZzRIX3dWTks2b05YQWJnbGlWLURaWndRM3NDcEcxVkt2SVlocDdUcXgyZ0RCcEVKUkx3MU1XeUNYR0Jfenl5WUN5UTRyZEdXcmc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "PBS",
-      "latestSinceUpdate": 2574
-    },
-    {
-      "date": "Oct 13",
-      "text": "US weighs strikes on Houthis and Iran after a deadly Saudi airport attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE4tTzBYU0lxSGR2OEJ1S0ZsSDRQcVZHRlFOV0dQeWsxZ3VrZFNyRU5lTGxISEhvU09GREx2WUJjeVVzYVFWVGktSFdQZC1BeHdyY0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Iran International",
-      "latestSinceUpdate": 2574
-    },
-    {
-      "date": "Oct 13",
-      "text": "Iran sets crosshairs on a ‘US-UAE’ oil shuttle operating out of the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxObWp5UElEV2piTFkzc3NRUTR4NDJfM0trT2wybWw5U2pkeGdpdlg2NHVCN1lCZWN3MGIwX3F3OWtDc1lwOG1LQmhENVVPT0s1T1FGZjNwNDczSE9WczU4SkN3QlVVRTlpOFcwTGp0ZFU4ZjRLcG5HRm1tOTdjUUMyOXZDLUlFMUgzZlhzTlp1LXN2dDhycE1lS1pGYXNlaTMtLTNiOFZwcFR3ZkNwaVJEUdIBtgFBVV95cUxNLU5pTjR5VVVpNEZJYjRfVVRuZ1lTZ0Y5OWd5LXFocDdJc1YyNFc4T1ZWMVRhTWxIUXhxNG5qQUtoeWdqdWtxM2J6SGhIQkVDMk1iZ0o5U2tCZmZRcC1tRDNkRUFBcUxFRGRfWlVPTU9jVjJjQ2RDNDNrRWpvbjREYklOVnEtZlpFdlhkUjZHeVlFWmpSWnNNd1NYRXZ4NUg0bDJVN2NFeU5RTGFNLTRvT1BHV3Brdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2574
-    },
-    {
-      "date": "Oct 13",
-      "text": "A tanker was struck in the Strait of Hormuz amid fresh IRGC maritime threats.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2574
+      "latestSinceUpdate": 2575
     }
   ],
   "sourceStatuses": [
