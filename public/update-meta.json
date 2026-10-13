@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2572,
-  "lastUpdated": "2026-10-12",
-  "lastSyncedAt": "2026-10-12T23:47:37.941Z",
-  "warDay": 227,
+  "updateSequence": 2573,
+  "lastUpdated": "2026-10-13",
+  "lastSyncedAt": "2026-10-13T03:55:36.235Z",
+  "warDay": 228,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 3,
-    "summary": "A previous ceasefire in Southern Lebanon has collapsed, and diplomatic efforts to end the US-Iran war are currently insufficient."
+    "summary": "No active ceasefire is in place for the main US-Iran conflict, and a previous cease-fire in Southern Lebanon has collapsed."
   }
 }
