@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2573,
+  "updateSequence": 2574,
   "lastUpdated": "2026-10-13",
-  "lastSyncedAt": "2026-10-13T03:55:36.235Z",
+  "lastSyncedAt": "2026-10-13T12:00:00.000Z",
   "warDay": 228,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "collapsed",
+    "confidence": 0.1,
     "durationDays": 3,
-    "summary": "No active ceasefire is in place for the main US-Iran conflict, and a previous cease-fire in Southern Lebanon has collapsed."
+    "summary": "No active ceasefire is in effect, with Iran rejecting US proposals and intensified conflict reported in Southern Lebanon."
   }
 }
