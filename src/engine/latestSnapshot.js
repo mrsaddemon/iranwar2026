@@ -1,33 +1,33 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2575,
+  "updateSequence": 2576,
   "lastUpdated": "2026-10-13",
-  "lastSyncedAt": "2026-10-13T18:31:45.505Z",
+  "lastSyncedAt": "2026-10-13T23:03:50.647Z",
   "warDay": 228,
-  "summary": "The Iran war continues with regional attacks, increased U.S. casualties, and stalled diplomatic efforts, while oil shipping routes face renewed threats.",
+  "summary": "The ongoing Iran war continues with increased US casualties, Houthi missile attacks, and heightened tensions in the Strait of Hormuz, while Iran's regime remains resilient.",
   "lastNarrativeUpdate": "2026-10-13",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 3,
-    "summary": "A previous ceasefire in Southern Lebanon appears to have collapsed amidst intensified Israeli operations, while diplomatic efforts to end the wider conflict remain stalled."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
+    "nuclearIndex": 45,
     "escalationLevel": 85,
     "oilDisruption": 80,
     "tradeImpact": 73,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 13",
-      "text": "Saudi Arabia downed Houthi missiles amidst ongoing deadly attacks in the region.",
-      "severity": "critical",
+      "text": "Saudi Arabia downs Houthi missiles during ongoing deadly attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2575
+      "latestSinceUpdate": 2576
     },
     {
       "date": "Oct 13",
-      "text": "A tanker was reportedly hit in the Strait of Hormuz area, raising concerns about shipping security.",
+      "text": "Tanker hit in the Strait of Hormuz area.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQbkxzdWotSHVFT2dsd21RdHRiM0R6VVRabDl6V2R2Q2xRbUdEYmZoZzlGMERqSmZ4bTdpQ0NfY3k0NUZ6NHd1ZlREY0tIckd5Z2QzRWFYM3lhbjJwbWsxWjFLN1ZtLVFudTNwZDN4R1V1RDNLeUhwcWtpQy1jTk9jZElxbmNfN2J0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2575
+      "latestSinceUpdate": 2576
     },
     {
       "date": "Oct 13",
-      "text": "An oil station in the Yemeni capital was attacked following civilian evacuation warnings for a Saudi-led operation.",
+      "text": "Hezbollah announces housing assistance for war-hit families following a $200 million transfer from Iran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE42X1NNR016dmNjeDhPcDYwTmE5N3VkUlhkdmdkOHl6SXhQTi1ERkRVSlZZYXB6M2N6bVF3MTdCbGVDbW1FMFVnTExfbmo0dkExem9DcER6bWROSkNz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2576
+    },
+    {
+      "date": "Oct 13",
+      "text": "Teen boy identified as student killed by Hezbollah blast along Lebanese border.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE1TMExVbG9aYXhQbE9qcUw5ZjM0czdfMWt2cF9uTWs3alRocVdRcDFfTWVZdWxVbWxNR3RKMnExWFk3RlU2U0pwcFVrM052SE1pdVpWREZCZVNmNmF6?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2576
+    },
+    {
+      "date": "Oct 13",
+      "text": "Pentagon again increases number of U.S. casualties in Iran War.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2575
+      "latestSinceUpdate": 2576
     },
     {
       "date": "Oct 13",
-      "text": "A teen was killed and 24 injured by Hezbollah munition found on a hike near the Lebanon border.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQSUtCZjhxcXBhSTFRWk5BZWo5Q2lJU3AyOC15aUd2OTNCdExKNms5dlg4Y04wMXAxd2NWV0N6NXFqV241STNDZ3VMZ1p5eDQtMXl1LVA1ZmlOdF9JdThNbnJYMllvbXBPVGN4dG45OVhMR2c3QjBCeWxjLXV4SWY0VXlRa0wzRi04TkptLUlnZnVlZXVySWNNYUdVYzJfOFgxRmNfVUxkWDNndzc2dHVzYjdCNWHSAboBQVVfeXFMUG5IazNhSFk0RUhNQ3dneFdnR3pBM0tIYktZRS1JLWg3dVF0S2ZKbURqdnd0SFV5SEJuYlR6d3FtTGQtd2VmWDFtMlBTN09nbDNrODN3UGZpUE9xMDFfWFdtb0hDZC1pdGJkYUgyS2hWcm1FbFhDLXdtdFJoS0NMOTZ3ZVlXQ1VEejcyeFBCZC1RN0hhdTNkM1JQcGV2aC0taEh0R19qZnhnNHF5SUNIaGZNYjB6SFBKSkF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2575
-    },
-    {
-      "date": "Oct 13",
-      "text": "The Pentagon reported an increase in the number of U.S. casualties in the Iran War.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2575
-    },
-    {
-      "date": "Oct 13",
-      "text": "A suspected plot at a U.S.-run air base was almost certainly directed by Iran, according to the UK prime minister.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQY2RHUHVGYU44NzRCU3hnV1doRFFObHhHY01uVDNCa1RnYmtWMVJjMGVtNUJIUjJIMEJ2NWx5N2hqcDlYT3J3MDZqMlJURXNHQXM5UDRlaElWdnY3Nk1lWjZhUllpWWxUSjgwVVZ0UzNLQTJtaEZXNjhDZTBYUjZhblN6dTVBaTlyeTNCN0x5VzR3X1hSRXFrSUlldFFsY3ZTZHpzbWlVVVhINDZEcWNfWDV6VFdNdzVYdDR4Uk5DU0Faa2hQ0gHKAUFVX3lxTE41UzNRWmRsdGVDN1B2V3otUkRmVWtHRmd2N0NaSVpqbkQyeVpHNEFXWTVtenJ3dG9GM3RZUFcwX2w2alM5MzVuT2hiTGJJRUVIMm5Lei0tMVZnRGhxVkpJR2E5QmptcWxDQWx2ZldPT05KRWhxYkxnall5ZWhia2I0ZzRIX3dWTks2b05YQWJnbGlWLURaWndRM3NDcEcxVkt2SVlocDdUcXgyZ0RCcEVKUkx3MU1XeUNYR0Jfenl5WUN5UTRyZEdXcmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 2575
+      "text": "Houthis threaten U.S. with 'swift and painful' response if it joins Saudi Arabia's strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNUjJxRmNFWVFOVlEtUl9td2J5VXowU3BKQTJJd28ybW9EZ1VaRmlLZTgtbFNLTEVldC1RQTE0NDIwMU4teThZUmF1WkpsSDNwcjh1WG5vYWQxNGtMQmdydUpPSFdYeHpUb1pXVEFBRTQweFdxbkpEZlBQb2Vza2EwXw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2576
     }
   ],
   "sourceStatuses": [
