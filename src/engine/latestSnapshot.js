@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2577,
+  "updateSequence": 2578,
   "lastUpdated": "2026-10-14",
-  "lastSyncedAt": "2026-10-14T01:48:07.306Z",
+  "lastSyncedAt": "2026-10-14T06:44:18.354Z",
   "warDay": 229,
-  "summary": "The Iran war continues with ongoing regional attacks, increased U.S. casualties, and threats to shipping, while diplomatic efforts remain insufficient and political dilemmas persist for key actors.",
+  "summary": "Tensions in the Middle East are escalating with Iran increasing attacks on shipping in the Strait of Hormuz, while US and Israeli leaders weigh military options amidst regional proxy actions and political deadlines.",
   "lastNarrativeUpdate": "2026-10-14",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
-    "durationDays": 3,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "confidence": 0.1,
+    "durationDays": 1,
+    "summary": "No active ceasefire is in effect for the broader US-Iran conflict, though a previous ceasefire in Southern Lebanon appears to have collapsed."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
     "globalPressure": 82,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 14",
-      "text": "Saudi Arabia downs Houthi missiles during ongoing deadly attacks.",
+      "date": "Oct 13",
+      "text": "President Trump states his administration will make a decision on Iran very soon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2577
+      "sourceUrl": "https://news.google.com/articles/CBMiZkFVX3lxTE1sUVVsRzk1YmJUaEJHNGVCRlVUWGE1T3lacU80aW1WYTRTYUJ3R1g3TnZEMXBNOHRXbXZZdWY4dmhRNVRZREI5ZXVaMm4yb3lvRnlyWTU5UTBIY3Fia3JxSEU4cG4xUdIBa0FVX3lxTE9uZk5LbGpDQTNEYWxaQ2VwX3hLc2ktWWU1SmRvUVlwbk4wUjJ4LUZ1MUZJSUsxNUFjWWhVSWFjNFRmVXpHa01rckRQMW1XTVdTWUJPTWVfQVZMZmJCVjg3M29lZVcwSlZacVBR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2578
     },
     {
       "date": "Oct 14",
-      "text": "Iran is reportedly shifting tactics to step up attacks on shipping before the U.S. vote.",
+      "text": "Iranian attacks target 6 ships near the Strait of Hormuz in one day, marking the highest number since the war with the US began.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi1AFBVV95cUxOOGxibXEtZ2FFRTM2RGpqU0FpNTRfb3RLakt5UENVc0pzUGNTWFl3dVA1ZDlFYkUwQWpnN3dCMkJuT0NIMU1JWkNrWkh1UUczZkE2M0Q4R3pEc3lwN2Y5QzdEQXdJc3RzUVBSOFhDbUdkZW5RZnJtREQ1ZUlmLUlNMFhRMWl2T1Z4NXg1SkJFZnY5NmdPVFE1TlN0RWFDRVNoSkhGOXJfT2JseGxtY1c4MW9lbzdmcjcycnh5VDVUNG9GallPMjQzLU1JZkxWNmluZVg1Rw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2578
+    },
+    {
+      "date": "Oct 14",
+      "text": "Oil prices rise following reported attacks on ships in the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQR3RaUVhPOFNYbnB6QUtOZkdmQWwyS2FwajB3cFphZ3h2dVFGN1QxR2d4N3R5U2tkS0x0VE1RRm5KUTJRWlB4RzZFcmNIbXY3d0VadWhPSVlqcFd6NTlyYjE4NXRCX0Naelc0cVoyYk5xSzFFdWoxcC1YNkpwWFpxdVo0WWcyZTBj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2578
+    },
+    {
+      "date": "Oct 14",
+      "text": "A teenager was killed and 24 injured by Hezbollah munition found on a hike near the Lebanon border.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQSUtCZjhxcXBhSTFRWk5BZWo5Q2lJU3AyOC15aUd2OTNCdExKNms5dlg4Y04wMXAxd2NWV0N6NXFqV241STNDZ3VMZ1p5eDQtMXl1LVA1ZmlOdF9JdThNbnJYMllvbXBPVGN4dG45OVhMR2c3QjBCeWxjLXV4SWY0VXlRa0wzRi04TkptLUlnZnVlZXVySWNNYUdVYzJfOFgxRmNfVUxkWDNndzc2dHVzYjdCNWHSAboBQVVfeXFMUG5IazNhSFk0RUhNQ3dneFdnR3pBM0tIYktZRS1JLWg3dVF0S2ZKbURqdnd0SFV5SEJuYlR6d3FtTGQtd2VmWDFtMlBTN09nbDNrODN3UGZpUE9xMDFfWFdtb0hDZC1pdGJkYUgyS2hWcm1FbFhDLXdtdFJoS0NMOTZ3ZVlXQ1VEejcyeFBCZC1RN0hhdTNkM1JQcGV2aC0taEh0R19qZnhnNHF5SUNIaGZNYjB6SFBKSkF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2578
+    },
+    {
+      "date": "Oct 14",
+      "text": "Hezbollah is reportedly preparing for war with Israel and upgrading its explosive drone capabilities.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2577
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTFBSdXA5WmFoRnRPcUx2UU9sU0JOcFlGa3R1Y0t6Mk5fV3lnbGVDampPY0c3ZVVuSENPUDhpVWd6ekZVZGdPRTRvNnprU3lucHRtWFlOUnI0TEx3eDlv?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2578
     },
     {
       "date": "Oct 14",
-      "text": "A tanker was hit in the Strait of Hormuz area.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQbkxzdWotSHVFT2dsd21RdHRiM0R6VVRabDl6V2R2Q2xRbUdEYmZoZzlGMERqSmZ4bTdpQ0NfY3k0NUZ6NHd1ZlREY0tIckd5Z2QzRWFYM3lhbjJwbWsxWjFLN1ZtLVFudTNwZDN4R1V1RDNLeUhwcWtpQy1jTk9jZElxbmNfN2J0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2577
-    },
-    {
-      "date": "Oct 14",
-      "text": "Houthis launch new missile strikes on Saudi Arabia.",
+      "text": "Israel’s destruction of Southern Lebanon intensified after a previous ceasefire.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPQjExQVpfbUt5dFNlNDEyRWYyU1hScFh2Zk1oS0g3THFISlQ2VG0yNWRiVU1TemhFMWtZRXZqRU5YZFYwbnlBcFA1blhrazNUR015WUs2UFNCTHVucVlLUTA1UTJJOGtBNVFqLXVFbjBhTFFVTENEa2c2MldzQ0xpdXc5dVJBODF4SjBpMjR6Y0VldEZrTURXckJpYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Sky News",
-      "latestSinceUpdate": 2577
-    },
-    {
-      "date": "Oct 14",
-      "text": "An Israeli boy was killed and hikers injured after encountering a suspected Hezbollah cluster bomb.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQZjdHLVBBQjIzcEY4OUl3UXcxckpZeWZSZDY5LVVHandVU3pBcUlsSjRNaUNSSmIxTkFNLVFhbGE1TEstdWxsQmR5aURHUWJRWkpFMjZTUnBmZUFSYkI4VV9PQVhzUkczU3JpNzFGOGhfQnRHWDJsUUtGdDdvQzluQW1xa3A4Skw2N1duLVVhbnY0c3g4WHJEendnRFRXOUUxSEdiOC1ydjhjT0ZpVGVaalR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Jewish Telegraphic Agency",
-      "latestSinceUpdate": 2577
-    },
-    {
-      "date": "Oct 14",
-      "text": "The Pentagon again increases the number of U.S. casualties in the Iran War.",
-      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2577
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2578
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
