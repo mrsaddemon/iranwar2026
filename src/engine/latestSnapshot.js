@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2576,
-  "lastUpdated": "2026-10-13",
-  "lastSyncedAt": "2026-10-13T23:03:50.647Z",
-  "warDay": 228,
-  "summary": "The ongoing Iran war continues with increased US casualties, Houthi missile attacks, and heightened tensions in the Strait of Hormuz, while Iran's regime remains resilient.",
-  "lastNarrativeUpdate": "2026-10-13",
+  "updateSequence": 2577,
+  "lastUpdated": "2026-10-14",
+  "lastSyncedAt": "2026-10-14T01:48:07.306Z",
+  "warDay": 229,
+  "summary": "The Iran war continues with ongoing regional attacks, increased U.S. casualties, and threats to shipping, while diplomatic efforts remain insufficient and political dilemmas persist for key actors.",
+  "lastNarrativeUpdate": "2026-10-14",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing conflict."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.4,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
+    "nuclearIndex": 30,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
     "globalPressure": 82,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 13",
+      "date": "Oct 14",
       "text": "Saudi Arabia downs Houthi missiles during ongoing deadly attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2576
+      "latestSinceUpdate": 2577
     },
     {
-      "date": "Oct 13",
-      "text": "Tanker hit in the Strait of Hormuz area.",
+      "date": "Oct 14",
+      "text": "Iran is reportedly shifting tactics to step up attacks on shipping before the U.S. vote.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxQOXl4Z2E1ajJabkV2V0d3VVN4TE4xZVdXU0xjY1FwX2QwNzVpSEZ2UUdWY2d2N0w0TEZCXzRFR2oyZ3l4MlZkMER3cDZtOFRMc2p4VzRSWE1OZGdJaHBvRlZieVJ3Unc4bXEyRHFvalF4MEkwTmduUEFtV0lBX3NZS2Q0M2hoSkozeWFNMS02MnF5QmNveXNFNklHVktxYy1RM1BRcHlSVm92aWYzRnJpNTJvVWYtemNjbklpM3Jna2t0bUIweUV6VQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2577
+    },
+    {
+      "date": "Oct 14",
+      "text": "A tanker was hit in the Strait of Hormuz area.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxQbkxzdWotSHVFT2dsd21RdHRiM0R6VVRabDl6V2R2Q2xRbUdEYmZoZzlGMERqSmZ4bTdpQ0NfY3k0NUZ6NHd1ZlREY0tIckd5Z2QzRWFYM3lhbjJwbWsxWjFLN1ZtLVFudTNwZDN4R1V1RDNLeUhwcWtpQy1jTk9jZElxbmNfN2J0?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2576
+      "latestSinceUpdate": 2577
     },
     {
-      "date": "Oct 13",
-      "text": "Hezbollah announces housing assistance for war-hit families following a $200 million transfer from Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE42X1NNR016dmNjeDhPcDYwTmE5N3VkUlhkdmdkOHl6SXhQTi1ERkRVSlZZYXB6M2N6bVF3MTdCbGVDbW1FMFVnTExfbmo0dkExem9DcER6bWROSkNz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2576
+      "date": "Oct 14",
+      "text": "Houthis launch new missile strikes on Saudi Arabia.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxPQjExQVpfbUt5dFNlNDEyRWYyU1hScFh2Zk1oS0g3THFISlQ2VG0yNWRiVU1TemhFMWtZRXZqRU5YZFYwbnlBcFA1blhrazNUR015WUs2UFNCTHVucVlLUTA1UTJJOGtBNVFqLXVFbjBhTFFVTENEa2c2MldzQ0xpdXc5dVJBODF4SjBpMjR6Y0VldEZrTURXckJpYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 2577
     },
     {
-      "date": "Oct 13",
-      "text": "Teen boy identified as student killed by Hezbollah blast along Lebanese border.",
+      "date": "Oct 14",
+      "text": "An Israeli boy was killed and hikers injured after encountering a suspected Hezbollah cluster bomb.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE1TMExVbG9aYXhQbE9qcUw5ZjM0czdfMWt2cF9uTWs3alRocVdRcDFfTWVZdWxVbWxNR3RKMnExWFk3RlU2U0pwcFVrM052SE1pdVpWREZCZVNmNmF6?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2576
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQZjdHLVBBQjIzcEY4OUl3UXcxckpZeWZSZDY5LVVHandVU3pBcUlsSjRNaUNSSmIxTkFNLVFhbGE1TEstdWxsQmR5aURHUWJRWkpFMjZTUnBmZUFSYkI4VV9PQVhzUkczU3JpNzFGOGhfQnRHWDJsUUtGdDdvQzluQW1xa3A4Skw2N1duLVVhbnY0c3g4WHJEendnRFRXOUUxSEdiOC1ydjhjT0ZpVGVaalR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Jewish Telegraphic Agency",
+      "latestSinceUpdate": 2577
     },
     {
-      "date": "Oct 13",
-      "text": "Pentagon again increases number of U.S. casualties in Iran War.",
+      "date": "Oct 14",
+      "text": "The Pentagon again increases the number of U.S. casualties in the Iran War.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2576
-    },
-    {
-      "date": "Oct 13",
-      "text": "Houthis threaten U.S. with 'swift and painful' response if it joins Saudi Arabia's strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxNUjJxRmNFWVFOVlEtUl9td2J5VXowU3BKQTJJd28ybW9EZ1VaRmlLZTgtbFNLTEVldC1RQTE0NDIwMU4teThZUmF1WkpsSDNwcjh1WG5vYWQxNGtMQmdydUpPSFdYeHpUb1pXVEFBRTQweFdxbkpEZlBQb2Vza2EwXw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2576
+      "latestSinceUpdate": 2577
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Internal Critique",
-      "headline": "Iran War Drains US Budget, Goals Unmet",
-      "summary": "Reports highlight the significant financial strain on the US Navy budget due to the ongoing war with Iran. After six months, US objectives remain unfulfilled, and the Pentagon has belatedly acknowledged US casualties.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2573
-    },
-    {
-      "perspective": "Iranian Stance",
-      "headline": "Iran Rejects US Proposals, Regime Stands Firm",
-      "summary": "Iran's regime asserts its continued stability despite the conflict, rejecting US proposals to end the war and reopen the Strait of Hormuz as 'insufficient'. Tehran indicates it will review and respond to US conditions.",
+      "perspective": "Iran's Resilience/Defiance",
+      "headline": "Iran's Regime Stands Firm Amidst Conflict",
+      "summary": "Six months into the conflict, Iran's regime maintains its stance, rejecting U.S. proposals as insufficient while its leadership defies external pressures. The country continues to support regional proxies and adapt its tactics.",
       "tone": "defiant",
-      "latestSinceUpdate": 2573
+      "latestSinceUpdate": 2577
     },
     {
-      "perspective": "Regional Instability",
-      "headline": "Middle East Tensions Escalate Amidst Blockade",
-      "summary": "The region faces escalating tensions with Saudi Arabia intercepting Houthi missiles and intensified Israeli actions in Southern Lebanon. The US blockade of Iran in the Gulf of Oman continues, leading to high-risk shipping in the Strait of Hormuz.",
+      "perspective": "US/Israel Strategic Dilemma",
+      "headline": "Pre-Election Strike Dilemma for US and Israel",
+      "summary": "U.S. and Israeli leaders face a complex decision regarding potential strikes on Iran, weighing pre-election timing against the ongoing conflict and Iran's evolving tactics in shipping lanes. This highlights a strategic impasse.",
       "tone": "strained",
-      "latestSinceUpdate": 2573
+      "latestSinceUpdate": 2577
+    },
+    {
+      "perspective": "Regional Escalation & Proxy Actions",
+      "headline": "Middle East Sees Continued Escalation and Proxy Attacks",
+      "summary": "The Middle East experiences continued escalation with Houthi missile strikes on Saudi Arabia, a tanker attack in the Strait of Hormuz, and increased U.S. casualties. Suspected Iranian-directed plots at U.S. bases further contribute to regional instability.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2577
+    },
+    {
+      "perspective": "Humanitarian Impact & Support",
+      "headline": "Civilian Casualties and Proxy-Led Aid Efforts",
+      "summary": "The conflict continues to result in civilian casualties, including an Israeli child, while Hezbollah initiates housing compensation programs in Lebanon. This aid is reportedly backed by Iranian funds, highlighting the humanitarian consequences and proxy support.",
+      "tone": "neutral",
+      "latestSinceUpdate": 2577
     }
   ]
 });
