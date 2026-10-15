@@ -1,34 +1,34 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2586,
+  "updateSequence": 2587,
   "lastUpdated": "2026-10-15",
-  "lastSyncedAt": "2026-10-15T17:23:50.001Z",
+  "lastSyncedAt": "2026-10-15T20:29:55.142Z",
   "warDay": 230,
-  "summary": "The US-Iran conflict continues with intensified US sanctions, Israeli strikes in Lebanon, and Iran asserting control over the Strait of Hormuz amid threats of extreme US military action.",
+  "summary": "The US-Iran conflict continues with intensified US sanctions impacting Iran's economy, Iran asserting control and attacking shipping in the Strait of Hormuz, and regional actors like Hezbollah and Houthis engaging in attacks, while the US considers extreme military options.",
   "lastNarrativeUpdate": "2026-10-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is currently active between the involved parties."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; conflict remains active and escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.8,
         "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,13 +36,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.4,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
+    "nuclearIndex": 70,
     "escalationLevel": 90,
     "oilDisruption": 85,
     "tradeImpact": 77,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 15",
-      "text": "Trump says those leaking details of US strikes on Iran ‘should be shot dead’.",
-      "severity": "warning",
+      "text": "Trump states those leaking details of US strikes on Iran 'should be shot dead'.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxPNElnVEU1Y1BkWHY3WlB1QmUxNWlxdzdRN3lBZXMtRXRZWW5MMFdFU2dPbEItdFI3MDhEUExwSHpfTmE0VHNFaXhxWnlDY1ZsLWhmMVc4VTg1anF1LUtfN2VyUHRjM09LWUVfYi1leWpSaUdkbk44RTNZRWpJRDB0MmRHcUFMQzc5VXExSGU3WjM2UzBHVW9RNjctMFhnNUhzWjZHQjByLWhRMlR6aXVGWTRRQy0tQUxMYlF0ZzM1TjhCSWNNLTYtWWp1T0M4Y1gyU2lWYzJIR1dhODZXU2ZGd3B4UGPSAesBQVVfeXFMT2w4MktRakk5WGN1Q1B4OEdjZXBlMzBSa3RDeXAwaHBITGd4TkVLNGxMMHBoZkt0X01YWnV1U0g0ODRzM0hzTkE4RE5xR1Q0S0RwWHhnMmM5ZU9tRUhlYng1c0EwbWxuS1RuWFp2dnhuRFFSNXJYMnFrRFVGSzZtTm82RWhUV1lvZHVtVTZLR3hFa2tsSVlKWjFEM0VZYzRDeFk4QWZ6MFNneGY1RG0yOWpYeTRTd2RreEZEZE5NTGVRTjJBVHJ4NWl5QmhhV3dIMF9HZThGNEEwQUx2LTNfaXlKb1pncHh4Qlg3VQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Indian Express",
-      "latestSinceUpdate": 2586
+      "latestSinceUpdate": 2587
     },
     {
       "date": "Oct 15",
-      "text": "US intensifies sanctions on Iran, weighing on its economy.",
-      "severity": "info",
+      "text": "US intensifies sanctions, weighing on Iran's economy.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2586
+      "latestSinceUpdate": 2587
     },
     {
       "date": "Oct 15",
-      "text": "Iran's IRGC claims ‘decisive control’ over Strait of Hormuz.",
+      "text": "IRGC claims 'decisive control' over the Strait of Hormuz.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2586
+      "latestSinceUpdate": 2587
     },
     {
       "date": "Oct 15",
-      "text": "Two ships sink near Hormuz after being hit by projectiles amid surge in attacks.",
+      "text": "Iran ramps up attacks on shipping in the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2586
+      "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE5GckpqcnQtelppQ09yamphUEVaVWZRM1dET3dna3dkaW5LNEFVT2pDbFIwWTBpOTFERzJsSzNoMUt4N3N2eVNUYmM2TG9TYm1sVEVTYXA0Qml2eEE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox Business",
+      "latestSinceUpdate": 2587
     },
     {
       "date": "Oct 15",
-      "text": "Israel levels 48 villages and towns it occupies in Southern Lebanon.",
+      "text": "Maritime monitor warns ships in Strait of Hormuz still face 'indiscriminate attacks'.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2586
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2587
     },
     {
       "date": "Oct 15",
-      "text": "US military weighs use of ‘mother of all bombs’ in potential future strikes on Iran.",
+      "text": "Five killed, 16 wounded in Houthi attack on a palace in Aden.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2586
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2587
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
