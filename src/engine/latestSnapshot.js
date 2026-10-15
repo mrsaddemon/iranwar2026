@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2583,
+  "updateSequence": 2584,
   "lastUpdated": "2026-10-15",
-  "lastSyncedAt": "2026-10-15T01:54:20.718Z",
+  "lastSyncedAt": "2026-10-15T07:17:45.623Z",
   "warDay": 230,
-  "summary": "Ongoing conflict sees Iran escalating shipping attacks and facing US sanctions, while Houthi allies target Saudi Arabia, and Israel intensifies actions in Southern Lebanon following a ceasefire.",
+  "summary": "The conflict between the US and Iran continues to escalate with attacks on shipping in the Strait of Hormuz, while tensions remain high between Israel and Hezbollah in Southern Lebanon.",
   "lastNarrativeUpdate": "2026-10-15",
   "ceasefire": {
     "active": false,
     "status": "collapsed",
-    "confidence": 0.2,
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "A ceasefire in Southern Lebanon has collapsed, with intensified destruction reported, while no general ceasefire is active in the broader Iran conflict."
+    "summary": "A previous cease-fire in Southern Lebanon has collapsed, with intensified destruction reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.45,
+        "precision": 0.6,
         "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 18,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 15",
-      "text": "Houthis fire missiles at Saudi Arabia, which are subsequently downed by Saudi defenses amid ongoing attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdEs4LUc1VGI2Tm03R05nd09BY1dtS0JLYmdlcFc3aUdjRG5SWFZaQzNodEVUc0RZRkRtMHBKSG1fLWh6djZ1Wk9FcXdvVm9MYk5KNks3RzM5LWE2T0haMVhIUDdObldxY1RWN3FMVkx5YlFqMm5lUUtCZFR2Q1lMLVlkcnhMV2x5cTBfMlpwaUxGRmNLQnVTa2tEOG94Q000Mjh5NGVGNkZSX3p2QjZteHBBN3RXc1BkSC1YVtIBwgFBVV95cUxPSk1uX1YxaDVmUW9qQzU2TWZPSE5CY0JmRnJxT2h0dVQtV2dZWGpuS2Q0UWE4NFhfM1pjWkFzWU5IclVuaGdNZXJqTEx5Y0ZfbFN3dHNvYUVmTzMzb1FheXZHNFN3LUdWTDJoM21nOXpOX3BNQ1ZreHlXUXhlMjdHNjBVcHNpUWVLT3hVbXN4UlBOSEMxWEUtcjJJTnFrYzg3bmd0ZXNoSkFNOTNacHBXamJBNEpEX2dyNlZVNW1hNnp4UQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2583
-    },
-    {
-      "date": "Oct 15",
-      "text": "The US intensifies sanctions on Iran, weighing on its economy.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2583
-    },
-    {
-      "date": "Oct 15",
-      "text": "Netanyahu states he is not seeking to attack Iran again before the upcoming Israel election.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2583
-    },
-    {
-      "date": "Oct 15",
-      "text": "Trump threatens Iran with severe retaliation as Tehran escalates shipping attacks.",
+      "text": "Two container ships sank near the Strait of Hormuz after being hit by projectiles amid a surge in attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiX0FVX3lxTE5lUVJBSVpMSmRlT0ZIb29BaDdwUVdIQk1qMzBPNWdjSVFCZTdYMVpmTDBUR3dpVDM2R0RDYU02VnY4SHBNQzVzX21fWUxuenNJNExsbHl1N01RTnBoSXcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2584
+    },
+    {
+      "date": "Oct 15",
+      "text": "The US military destroyed an Iranian-affiliated ship in the Gulf of Oman after evacuating its crew.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5RcUxlN3NSQ0xZM09QcjkwODhyWFdWSkhDYmJaUTB0NWxBVVNvdTBRSk1NNlczdkZXSXNoMzNqRkpTUF9VdVV5em1mOTZuWWtFWHJpWVJtamt1SXoxQTlJR0tMQlhMWDJTV1E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2583
+      "latestSinceUpdate": 2584
     },
     {
       "date": "Oct 15",
-      "text": "A container ship sinks in the Strait of Hormuz as Iran steps up its attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMWFKMzFFcmxqYVdxcTVUYmZBZTZHejZpWTJmZ3o3Z3lFbnA0NTV4MkFlb1ZEMmRGQmw3MjJkc2RnTFgtX19YRkZOUDR4WXhNeWg5Zy1qV3FpeVpTVUo5QVBOVmJxcXVhc0NqandfT2ltQ3BseThmbG5oQTJhYUJ4MV9nM240c3I3ZG5wai1fY3ZIYWdpbGfSAZsBQVVfeXFMUHl0VWNMbEpIOXhweHBSVTdYdHNjd1V5a2NfNkJSdFk5UUV0R2lDSUtZV1BpMEM3aWxZOXlWRTBRRTNtVkxRcDZtYVFDdnA5X3RPLW4zTm42M0hzVFJYNGtoMWJHcjVGVlJ1a2Jja1F5SnFDUHVTYVFkYXRYTFFnbDd1REZsc0haTlNibWhxdTU0aHZCcjVYQ0x1Vm8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2583
+      "text": "Saudi Arabia downed Houthi missiles during ongoing deadly attacks by Iran's Houthi allies.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2584
     },
     {
       "date": "Oct 15",
-      "text": "Israel's destruction of Southern Lebanon intensified after a ceasefire.",
-      "severity": "critical",
+      "text": "Israel's Defense Minister Katz threatened to seize Lebanese land if Hezbollah or Iran attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2584
+    },
+    {
+      "date": "Oct 15",
+      "text": "Israel's destruction of Southern Lebanon intensified after a previous cease-fire.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2583
+      "latestSinceUpdate": 2584
+    },
+    {
+      "date": "Oct 15",
+      "text": "Sources indicate the US is considering using the 'mother of all bombs' against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQSktNLUM1VEdiandOcDJVNzE4b2NuajZkcXAtem40MlJ4TWc3VEptSjJqQ1g0QjF5VTVXemNQUDBSdy1wYWM4eG44b05FT3ZLVi1sTUhGM3U1MEk0X3JvTzBFUlVNczJZZlZfUlcxN1NwVnQzc0ZuTEVxSkhLOE5wenBMZ2xqZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2584
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",

@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2583,
+  "updateSequence": 2584,
   "lastUpdated": "2026-10-15",
-  "lastSyncedAt": "2026-10-15T01:54:20.718Z",
+  "lastSyncedAt": "2026-10-15T07:17:45.623Z",
   "warDay": 230,
   "ceasefire": {
     "active": false,
     "status": "collapsed",
-    "confidence": 0.2,
+    "confidence": 0.1,
     "durationDays": 1,
-    "summary": "A ceasefire in Southern Lebanon has collapsed, with intensified destruction reported, while no general ceasefire is active in the broader Iran conflict."
+    "summary": "A previous cease-fire in Southern Lebanon has collapsed, with intensified destruction reported."
   }
 }
