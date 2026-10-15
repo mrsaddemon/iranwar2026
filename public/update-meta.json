@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2584,
+  "updateSequence": 2585,
   "lastUpdated": "2026-10-15",
-  "lastSyncedAt": "2026-10-15T07:17:45.623Z",
+  "lastSyncedAt": "2026-10-15T12:41:49.636Z",
   "warDay": 230,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "A previous cease-fire in Southern Lebanon has collapsed, with intensified destruction reported."
+    "summary": "No ceasefire or de-escalation efforts are currently reported between the primary belligerents."
   }
 }

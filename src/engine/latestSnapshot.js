@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2584,
+  "updateSequence": 2585,
   "lastUpdated": "2026-10-15",
-  "lastSyncedAt": "2026-10-15T07:17:45.623Z",
+  "lastSyncedAt": "2026-10-15T12:41:49.636Z",
   "warDay": 230,
-  "summary": "The conflict between the US and Iran continues to escalate with attacks on shipping in the Strait of Hormuz, while tensions remain high between Israel and Hezbollah in Southern Lebanon.",
+  "summary": "Tensions remain high between the US and Iran, with ongoing military considerations, economic sanctions, and concerns over maritime security in the Strait of Hormuz, while regional actors like Hezbollah also feature in recent developments.",
   "lastNarrativeUpdate": "2026-10-15",
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
-    "confidence": 0.1,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 1,
-    "summary": "A previous cease-fire in Southern Lebanon has collapsed, with intensified destruction reported."
+    "summary": "No ceasefire or de-escalation efforts are currently reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 15",
-      "text": "Two container ships sank near the Strait of Hormuz after being hit by projectiles amid a surge in attacks.",
+      "text": "Former President Trump states those leaking details of US strikes on Iran 'should be shot dead'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNVlQtcHJibXBpYWEwWTQ4dFdfWUFJbTVteGY0WThGcTFybEdUTERvVG9DcGdoY09vUjh0TG1QeG5zMWx0LTFvV09teVNXY1NLdXZVNlpuMVBIV3pndWJKWVBRdENjLVd0dnVwdUxPTHFPU002S0ZqR0lkcjgyNVl2ZFFXc05MdTJHenM3LVNUSlBUb1RyeDVxY3VTdUxEamxrbS1OXzJJR3o3SlltandncHAwVXFNSTFYcmJXblh2U25vN2xMMW1ibQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxPNElnVEU1Y1BkWHY3WlB1QmUxNWlxdzdRN3lBZXMtRXRZWW5MMFdFU2dPbEItdFI3MDhEUExwSHpfTmE0VHNFaXhxWnlDY1ZsLWhmMVc4VTg1anF1LUtfN2VyUHRjM09LWUVfYi1leWpSaUdkbk44RTNZRWpJRDB0MmRHcUFMQzc5VXExSGU3WjM2UzBHVW9RNjctMFhnNUhzWjZHQjByLWhRMlR6aXVGWTRRQy0tQUxMYlF0ZzM1TjhCSWNNLTYtWWp1T0M4Y1gyU2lWYzJIR1dhODZXU2ZGd3B4UGPSAesBQVVfeXFMT2w4MktRakk5WGN1Q1B4OEdjZXBlMzBSa3RDeXAwaHBITGd4TkVLNGxMMHBoZkt0X01YWnV1U0g0ODRzM0hzTkE4RE5xR1Q0S0RwWHhnMmM5ZU9tRUhlYng1c0EwbWxuS1RuWFp2dnhuRFFSNXJYMnFrRFVGSzZtTm82RWhUV1lvZHVtVTZLR3hFa2tsSVlKWjFEM0VZYzRDeFk4QWZ6MFNneGY1RG0yOWpYeTRTd2RreEZEZE5NTGVRTjJBVHJ4NWl5QmhhV3dIMF9HZThGNEEwQUx2LTNfaXlKb1pncHh4Qlg3VQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Indian Express",
+      "latestSinceUpdate": 2585
+    },
+    {
+      "date": "Oct 15",
+      "text": "Iran's economy is reportedly weighed down as the US intensifies sanctions.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2584
+      "latestSinceUpdate": 2585
     },
     {
       "date": "Oct 15",
-      "text": "The US military destroyed an Iranian-affiliated ship in the Gulf of Oman after evacuating its crew.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE5RcUxlN3NSQ0xZM09QcjkwODhyWFdWSkhDYmJaUTB0NWxBVVNvdTBRSk1NNlczdkZXSXNoMzNqRkpTUF9VdVV5em1mOTZuWWtFWHJpWVJtamt1SXoxQTlJR0tMQlhMWDJTV1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2584
-    },
-    {
-      "date": "Oct 15",
-      "text": "Saudi Arabia downed Houthi missiles during ongoing deadly attacks by Iran's Houthi allies.",
+      "text": "Iran's IRGC claims 'decisive control' over the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxOTGtkLXd1c0tZZlVxNER3Tmc4V1RodWo0UE5Xc3pWSjU3bkJRdDJFRVpmLXprUnlDTUYtQnk4U281TFNqQk5USWdkalJscDhGZzdJZ0tWaTV5MHZNQ2hFcE16VlNpdGN1SUtpb21felQ4cTdfcnM3MnJEbFdRWm5ubG5UbzNYVDdUSjFzZ1FrWS15U1lDNXlEZF9iX3l5MHczX2VVRS1pQVhRcEE1OS00Z1dXaDRVMldrcGQ5MTd30gHDAUFVX3lxTE84MkxvSFZFMjJnblFxWGZoLVAzRkxXUVZSLUQyWG1RR3BJMk8zTVJzQ2dHVVRrNHA3Z1BlRkg3bHU0aXBqZ1FaNW80ZXdmY3Z1UkN0SXpXcWI4eGZxOEl1dE5sNlNBcV9mTzJ1VXJ4TmJZVU5ON0llVTBRWXdRYzAwV2N0UHRkMVB5ZzVGREhZUVVOWEloaEIzTEUwUDlIanFla1pLczdxem5SUmJGTllEVERNWTJJNS1wR1pFSWRyNnNPWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2584
+      "latestSinceUpdate": 2585
     },
     {
       "date": "Oct 15",
-      "text": "Israel's Defense Minister Katz threatened to seize Lebanese land if Hezbollah or Iran attack.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE43TFd6VmlWR3B2OGZCaXZMbVhxRmZ0YVdMTmxKaWZ0d1psWFRsVGhId3VKVVFFeXBnMzJaM0dPcnlqR3ZSSGlxZjBkV2pjTEI5MDdCU2pRU0dXSHFwMjZTdkhzVi1HcWxpd2tXUDlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2584
+      "text": "Netanyahu indicates he is not seeking to attack Iran again before the upcoming Israel election.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2585
     },
     {
       "date": "Oct 15",
-      "text": "Israel's destruction of Southern Lebanon intensified after a previous cease-fire.",
-      "severity": "warning",
+      "text": "A coalition reports intercepting a missile in the Medina region.",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2584
+      "latestSinceUpdate": 2585
     },
     {
       "date": "Oct 15",
-      "text": "Sources indicate the US is considering using the 'mother of all bombs' against Iran.",
+      "text": "A container ship sinks in the Strait of Hormuz as Iran reportedly steps up attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQSktNLUM1VEdiandOcDJVNzE4b2NuajZkcXAtem40MlJ4TWc3VEptSjJqQ1g0QjF5VTVXemNQUDBSdy1wYWM4eG44b05FT3ZLVi1sTUhGM3U1MEk0X3JvTzBFUlVNczJZZlZfUlcxN1NwVnQzc0ZuTEVxSkhLOE5wenBMZ2xqZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2584
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxQMWFKMzFFcmxqYVdxcTVUYmZBZTZHejZpWTJmZ3o3Z3lFbnA0NTV4MkFlb1ZEMmRGQmw3MjJkc2RnTFgtX19YRkZOUDR4WXhNeWg5Zy1qV3FpeVpTVUo5QVBOVmJxcXVhc0NqandfT2ltQ3BseThmbG5oQTJhYUJ4MV9nM240c3I3ZG5wai1fY3ZIYWdpbGfSAZsBQVVfeXFMUHl0VWNMbEpIOXhweHBSVTdYdHNjd1V5a2NfNkJSdFk5UUV0R2lDSUtZV1BpMEM3aWxZOXlWRTBRRTNtVkxRcDZtYVFDdnA5X3RPLW4zTm42M0hzVFJYNGtoMWJHcjVGVlJ1a2Jja1F5SnFDUHVTYVFkYXRYTFFnbDd1REZsc0haTlNibWhxdTU0aHZCcjVYQ0x1Vm8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2585
     }
   ],
   "sourceStatuses": [
