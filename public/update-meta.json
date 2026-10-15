@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2582,
-  "lastUpdated": "2026-10-14",
-  "lastSyncedAt": "2026-10-14T23:51:42.996Z",
-  "warDay": 229,
+  "updateSequence": 2583,
+  "lastUpdated": "2026-10-15",
+  "lastSyncedAt": "2026-10-15T01:54:20.718Z",
+  "warDay": 230,
   "ceasefire": {
     "active": false,
-    "status": "none",
-    "confidence": 0.08,
+    "status": "collapsed",
+    "confidence": 0.2,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect, despite a perceived midterm pause by Trump."
+    "summary": "A ceasefire in Southern Lebanon has collapsed, with intensified destruction reported, while no general ceasefire is active in the broader Iran conflict."
   }
 }
