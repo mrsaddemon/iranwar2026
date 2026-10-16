@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2593,
+  "updateSequence": 2594,
   "lastUpdated": "2026-10-16",
-  "lastSyncedAt": "2026-10-16T18:57:28.816Z",
+  "lastSyncedAt": "2026-10-16T21:59:53.095Z",
   "warDay": 231,
-  "summary": "Tensions between the US and Iran are escalating with military preparations, threats to energy infrastructure, and disruptions in the Strait of Hormuz, leading to a sharp increase in oil prices.",
+  "summary": "Amid escalating tensions, Iran faces economic pressure and prepares for potential US strikes, while oil prices rise due to ongoing attacks in the Strait of Hormuz and broader Middle East concerns.",
   "lastNarrativeUpdate": "2026-10-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst rising tensions."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing threats and military preparations."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.78
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
+    "nuclearIndex": 35,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 16",
-      "text": "Tehran declares readiness to respond to any US threats targeting its energy plants.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2593
-    },
-    {
-      "date": "Oct 16",
-      "text": "A Houthi attack on a palace in Aden results in five killed and sixteen injured.",
+      "text": "Five killed and 16 injured in a Houthi attack on a palace in Aden.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2593
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2594
     },
     {
       "date": "Oct 16",
-      "text": "US intensifies sanctions, weighing on Iran's economy amidst ongoing conflict.",
-      "severity": "info",
+      "text": "War weighs on Iran's economy as US intensifies sanctions.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2593
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2594
     },
     {
       "date": "Oct 16",
-      "text": "Documents and interviews reveal that Trump’s war on Iran is rapidly draining the US navy budget.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2593
-    },
-    {
-      "date": "Oct 16",
-      "text": "Netanyahu states he is not seeking to attack Iran again before the upcoming Israeli election.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2593
-    },
-    {
-      "date": "Oct 16",
-      "text": "Maritime monitor warns that ships in the Strait of Hormuz continue to face 'indiscriminate attacks'.",
+      "text": "Ships in the Strait of Hormuz still face 'indiscriminate attacks,' maritime monitor warns.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2593
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2594
+    },
+    {
+      "date": "Oct 16",
+      "text": "Israel raises alert amid Iran war fears as Trump weighs strikes, Netanyahu wary before election.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBSV2RSLTZKYXlsNGEzYmF1YnBmMjQ4U0YwZDl2MHVIdFNnVU91LXpUZ0Y5RmpBcjl4NUhFN3N1am5yUFNDbGk3bFZSSXNpcmIwZG1nOTRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2594
+    },
+    {
+      "date": "Oct 16",
+      "text": "Pentagon Preps for Renewed Iran Strikes as Netanyahu Highlights Jordan Security Wall.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOeW10cjd0Y0Q3M2kySEo3Yzk5MlpheXpOMDF1VUJ4eGlwUGt1c0hKQTdUY2VrVXV2MjVubmRhYU9pcDgtdU9lR0RuS1FfQVpEMkFoaUdCQmhYLWJzSHdMMmdRYnBqWTZUZmhfOUpwVENjTVNTZUdVZlBlY1FsX3drdVhrdTQxLTFVRnliX1lyejJ3cGJLcXkyNzl1cXVsc1d3WndDSlNWdXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2594
+    },
+    {
+      "date": "Oct 16",
+      "text": "Brent oil touches $110 as Iran escalates Hormuz attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxOT2lpZ1dfaGpSckplSzdGU19iZVY0cTJUd01MN1dpd29hcUtKZkpWbWZFZy1jTWxNME1oRWt6dGV2aU5tbzZ5UVpRVzI3amt6VzlXQXlfVkRNU2o3LXNpcUJZV2pPOXczV0k5SENNdGU4UWcyaEN4bUZUejNtOThUbGVYbGQtN2tYQ1g1M1RKQdIBlAFBVV95cUxPN0Q4b3V0UEhjMWVzZ2RkLXJGLXNtdGRlS0hWSjNROE1HTjA4LXIwM1dtZ3o2NU5leWVBQkpEMXViX2o2SWQ1d2g3dmhScHVRN0JSRDcyV1JsYl80WVZCaFNXVjVjNFRENEx5RDQ1blBhTnUwcjZsQ0xRSmt5aFlPeGxCNF96aVJiQ2Y5UnhjWk5zZEF5?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2594
     }
   ],
   "sourceStatuses": [
