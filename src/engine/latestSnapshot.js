@@ -1,28 +1,19 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2588,
-  "lastUpdated": "2026-10-15",
-  "lastSyncedAt": "2026-10-15T23:13:56.992Z",
-  "warDay": 230,
-  "summary": "The US-Iran conflict continues with intensified sanctions, military rhetoric, and attacks on shipping in the Strait of Hormuz, while Hezbollah remains active against Israel and provides aid in Lebanon.",
-  "lastNarrativeUpdate": "2026-10-15",
+  "updateSequence": 2589,
+  "lastUpdated": "2026-10-16",
+  "lastSyncedAt": "2026-10-16T01:26:50.464Z",
+  "warDay": 231,
+  "summary": "Ongoing conflict involves Houthi attacks, US sanctions on Iran, Israeli actions in Lebanon, and increased maritime incidents in the Strait of Hormuz, while US and Israeli leaders weigh options regarding Iran.",
+  "lastNarrativeUpdate": "2026-10-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is currently active; conflict and attacks are ongoing."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
-      "metrics": {
-        "militaryPower": 90
-      },
-      "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
-      }
-    },
-    "israel": {
       "metrics": {
         "militaryPower": 85
       },
@@ -31,24 +22,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "aggression": 0.75
       }
     },
-    "iran": {
+    "israel": {
       "metrics": {
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
+      }
+    },
+    "iran": {
+      "metrics": {
+        "militaryPower": 60
+      },
+      "behavior": {
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 51
+    "nuclearIndex": 25,
+    "escalationLevel": 80,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
+    "sanctionsPressure": 63,
+    "globalPressure": 79,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 15",
-      "text": "Trump states those leaking details of US strikes on Iran ‘should be shot dead’.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi5AFBVV95cUxPNElnVEU1Y1BkWHY3WlB1QmUxNWlxdzdRN3lBZXMtRXRZWW5MMFdFU2dPbEItdFI3MDhEUExwSHpfTmE0VHNFaXhxWnlDY1ZsLWhmMVc4VTg1anF1LUtfN2VyUHRjM09LWUVfYi1leWpSaUdkbk44RTNZRWpJRDB0MmRHcUFMQzc5VXExSGU3WjM2UzBHVW9RNjctMFhnNUhzWjZHQjByLWhRMlR6aXVGWTRRQy0tQUxMYlF0ZzM1TjhCSWNNLTYtWWp1T0M4Y1gyU2lWYzJIR1dhODZXU2ZGd3B4UGPSAesBQVVfeXFMT2w4MktRakk5WGN1Q1B4OEdjZXBlMzBSa3RDeXAwaHBITGd4TkVLNGxMMHBoZkt0X01YWnV1U0g0ODRzM0hzTkE4RE5xR1Q0S0RwWHhnMmM5ZU9tRUhlYng1c0EwbWxuS1RuWFp2dnhuRFFSNXJYMnFrRFVGSzZtTm82RWhUV1lvZHVtVTZLR3hFa2tsSVlKWjFEM0VZYzRDeFk4QWZ6MFNneGY1RG0yOWpYeTRTd2RreEZEZE5NTGVRTjJBVHJ4NWl5QmhhV3dIMF9HZThGNEEwQUx2LTNfaXlKb1pncHh4Qlg3VQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Indian Express",
-      "latestSinceUpdate": 2588
+      "date": "Oct 16",
+      "text": "Five killed, 16 hurt in Houthi attack on palace in Aden.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU28?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2589
     },
     {
-      "date": "Oct 15",
+      "date": "Oct 16",
       "text": "US intensifies sanctions on Iran, impacting its economy.",
-      "severity": "info",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2588
+      "latestSinceUpdate": 2589
     },
     {
-      "date": "Oct 15",
-      "text": "IRGC claims ‘decisive control’ over the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2588
-    },
-    {
-      "date": "Oct 15",
-      "text": "Documents and interviews reveal Trump’s war on Iran is rapidly draining the US navy budget.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2588
-    },
-    {
-      "date": "Oct 15",
-      "text": "Netanyahu states he is not seeking to attack Iran again before the Israel election.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2588
-    },
-    {
-      "date": "Oct 15",
-      "text": "Two cargo ships sunk in the Strait of Hormuz as Iran ramps up attacks.",
+      "date": "Oct 16",
+      "text": "Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOTWt5dWE5MFQwOFNCVHdMb3Z2ZHRnMHczOG1QMEIyeW1ycXlFWTJnNUxOT0FTYzhwdTFMMmZhYjN4ZFVJbkNmS0NsdTJieWFLZ1RwQzU4WDg1MmxpdXlNLTNwV3BBZS1Gbk5wUDZ4Qy1mUG9uYU1FNEFyM0V5WlFISVE2a0IzX3U2N29z?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2588
+      "latestSinceUpdate": 2589
+    },
+    {
+      "date": "Oct 16",
+      "text": "Hezbollah claims ownership of confiscated explosives intended to attack Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2589
+    },
+    {
+      "date": "Oct 16",
+      "text": "Israel levels 48 villages and towns it occupies in Southern Lebanon.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "NYT",
+      "latestSinceUpdate": 2589
+    },
+    {
+      "date": "Oct 16",
+      "text": "Israeli minister Katz threatens Hezbollah with 'severe blow' if it joins any Iran attack.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOTkR6OE03X0pvQ2o4WjdweHR4bTRzRGJQZlI4NHVyYzdKcVVaUWU0OWF2NlROVlBMUHBKNC1oZzhjdnc5MEd0OWEyV0o2RFRfTC1zeTZCSk4xT0diSmlOQTM1UGJEZWtjWlBhb0RXLXNBTmQ2Xy1YMjJqSVYxUHhTS2s1N21NcFVLTTZaazlFZjZ3Ul9EcXBYUTdRYjZ4aGEzdXM4OHVDQ2c3ZzhBWXdYWDFPcWo0YW1Qc202ZEhzWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Naharnet",
+      "latestSinceUpdate": 2589
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Policy",
-      "headline": "Trump's Iran Dilemma Amid Escalating Regional Threats",
-      "summary": "President Trump faces challenges from Houthi attacks threatening energy supplies and is considering pre-election actions against Iran, while also issuing direct threats amid Tehran's escalating shipping attacks.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2583
-    },
-    {
-      "perspective": "Iranian Actions & Impact",
-      "headline": "Iran Escalates Shipping Attacks, Faces Sanctions and Internal Strife",
-      "summary": "Iran is escalating shipping attacks, leading to a container ship sinking in the Strait of Hormuz, while its economy is weighed down by intensified US sanctions and it fights rising militant attacks internally.",
+      "perspective": "US/Israel Strategic Dilemma",
+      "headline": "Leaders Weigh Pre-Election Strike on Iran",
+      "summary": "US and Israeli leaders, including Trump and Netanyahu, are reportedly facing a dilemma regarding the timing of potential strikes on Iran, considering upcoming elections. This suggests a strategic pause or calculation rather than a de-escalation.",
       "tone": "strained",
-      "latestSinceUpdate": 2583
+      "latestSinceUpdate": 2589
     },
     {
-      "perspective": "Israel-Lebanon Tensions",
-      "headline": "Israel Intensifies Lebanon Actions Post-Ceasefire, Threatens Land Seizure",
-      "summary": "Israel has intensified destruction in Southern Lebanon following a ceasefire and its Defense Minister threatens to seize Lebanese land if Hezbollah and Iran attack, while Hezbollah vows compensation for destroyed homes.",
+      "perspective": "Iran's Resilience and Regional Actions",
+      "headline": "Iran's Regime Stands Amid Sanctions, Ramps Up Attacks",
+      "summary": "Despite intensified US sanctions and economic pressure, Iran's regime is reported to be standing firm. Concurrently, Iran is increasing attacks in the Strait of Hormuz and through proxies like Hezbollah, indicating continued aggressive posture.",
       "tone": "defiant",
-      "latestSinceUpdate": 2583
+      "latestSinceUpdate": 2589
     },
     {
-      "perspective": "Regional Instability",
-      "headline": "Houthi Attacks on Saudi Arabia Continue, Threatening Energy Supplies",
-      "summary": "Houthi allies of Iran continue deadly missile attacks on Saudi Arabia, creating a difficult dilemma for President Trump and contributing to broader regional instability and oil price hikes.",
+      "perspective": "Escalation in Southern Lebanon",
+      "headline": "Israel Levels Villages, Threatens Hezbollah",
+      "summary": "Israel has reportedly leveled numerous villages in Southern Lebanon, while an Israeli minister threatens Hezbollah with severe retaliation if it joins any Iranian attack. This indicates a significant escalation of conflict along the Israel-Lebanon border.",
       "tone": "anxious",
-      "latestSinceUpdate": 2583
+      "latestSinceUpdate": 2589
+    },
+    {
+      "perspective": "US Military Budget Strain",
+      "headline": "Iran War Draining US Navy Budget",
+      "summary": "Documents and interviews reveal that the ongoing conflict with Iran is rapidly depleting the US Navy's budget. This suggests potential long-term sustainability challenges for US military operations.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2589
     }
   ]
 });
