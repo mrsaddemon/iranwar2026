@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2589,
+  "updateSequence": 2590,
   "lastUpdated": "2026-10-16",
-  "lastSyncedAt": "2026-10-16T01:26:50.464Z",
+  "lastSyncedAt": "2026-10-16T06:17:39.970Z",
   "warDay": 231,
-  "summary": "Ongoing conflict involves Houthi attacks, US sanctions on Iran, Israeli actions in Lebanon, and increased maritime incidents in the Strait of Hormuz, while US and Israeli leaders weigh options regarding Iran.",
+  "summary": "Tensions remain high between the US, Israel, and Iran, with ongoing attacks in the Strait of Hormuz and Yemen, and discussions of potential US military strikes against Iran.",
   "lastNarrativeUpdate": "2026-10-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No ceasefire is currently active, with reports indicating ongoing conflict and preparations for further escalation."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.75,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 25,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 63,
-    "globalPressure": 79,
-    "allianceInfluence": 46
+    "nuclearIndex": 60,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 16",
-      "text": "Five killed, 16 hurt in Houthi attack on palace in Aden.",
+      "text": "Houthi attack on a palace in Aden resulted in five killed and 16 injured.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU28?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2589
+      "latestSinceUpdate": 2590
     },
     {
       "date": "Oct 16",
-      "text": "US intensifies sanctions on Iran, impacting its economy.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2589
-    },
-    {
-      "date": "Oct 16",
-      "text": "Two cargo ships sunk in Strait of Hormuz as Iran ramps up attacks.",
+      "text": "Two cargo ships were sunk in the Strait of Hormuz amidst rising Iranian shipping attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOTWt5dWE5MFQwOFNCVHdMb3Z2ZHRnMHczOG1QMEIyeW1ycXlFWTJnNUxOT0FTYzhwdTFMMmZhYjN4ZFVJbkNmS0NsdTJieWFLZ1RwQzU4WDg1MmxpdXlNLTNwV3BBZS1Gbk5wUDZ4Qy1mUG9uYU1FNEFyM0V5WlFISVE2a0IzX3U2N29z?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2589
+      "latestSinceUpdate": 2590
     },
     {
       "date": "Oct 16",
-      "text": "Hezbollah claims ownership of confiscated explosives intended to attack Israel.",
-      "severity": "critical",
+      "text": "Hezbollah claimed ownership of confiscated explosives, stating they were intended to attack Israel.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPQUNqWTJxemdBVVByYW9Cc0N3NlU2UW9zczJReDZOeWdKMENNbUZjQmF1bE9IQ1VEOXNrcXpQU192ZUhHTVZ0cDN1N3IzS2lxY0ZTOXdGY3RvWlVObFZ2RjAyVF93ZUNCWVJKSlBpNDVINmxBNGRORXRYZUt1blF2RzFLV2VjZWJZMUg4X2tGMjd5VlpOVExvbFIxN1ExS1lMMnJXUXJPOWhfcnVXZEl2aUpDeHNqcnFSeUJ3NQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2589
+      "latestSinceUpdate": 2590
     },
     {
       "date": "Oct 16",
-      "text": "Israel levels 48 villages and towns it occupies in Southern Lebanon.",
+      "text": "Iran is reportedly racing to rebuild its underground missile arsenal, with Hezbollah told to prepare for 'imminent' war.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "NYT",
-      "latestSinceUpdate": 2589
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2590
     },
     {
       "date": "Oct 16",
-      "text": "Israeli minister Katz threatens Hezbollah with 'severe blow' if it joins any Iran attack.",
+      "text": "US military is reportedly weighing the use of the 'mother of all bombs' in potential future strikes on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2590
+    },
+    {
+      "date": "Oct 16",
+      "text": "Suspected Israeli online operations are causing alarm in Iran and Lebanon.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOTkR6OE03X0pvQ2o4WjdweHR4bTRzRGJQZlI4NHVyYzdKcVVaUWU0OWF2NlROVlBMUHBKNC1oZzhjdnc5MEd0OWEyV0o2RFRfTC1zeTZCSk4xT0diSmlOQTM1UGJEZWtjWlBhb0RXLXNBTmQ2Xy1YMjJqSVYxUHhTS2s1N21NcFVLTTZaazlFZjZ3Ul9EcXBYUTdRYjZ4aGEzdXM4OHVDQ2c3ZzhBWXdYWDFPcWo0YW1Qc202ZEhzWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Naharnet",
-      "latestSinceUpdate": 2589
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPajRGaFpNRktCMGhUd3BtM2VBLXR0RFF5TzIyVDlldlRJU0xBM0Z1d0dFWHdIVW5RNWwzSkVXRU1DRXlqc1Q4VmVsUTZ2eHpYYi1NbzZZS2xybEJYQUhRNG9hSXE5VzBWdEp5UVZnX25WaURFWmdBMl9weHB5aWJqZjc1RTQ0UnNFTlJXNWJzc1VGOXNyUkE5alpMa1paUjhEYXZCcnUyMVhGak1sMXfSAbMBQVVfeXFMTWFpMGVIVkoxUl84bjJSUWJIRUp0Z1ZoT0JXRWZHWG91UWtzYUo3VG5FLUJ1bjhQZGF6RWE4QkNxdm8tR0Rxd0U0TzQwN1VBUVVVSU8yT2ctcjF6SllwRUozTXRoOGRqVjQxU1VRLUs3V3RjZkc5TkxxSlhwTzdfWlFUTTduVUNRakl0eTJZVF9zS21LLVhpYVZTSWQyMHlROG1EYkRERE9wNnhsYm1icFpZR2M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2590
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
