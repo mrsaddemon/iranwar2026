@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2596,
+  "updateSequence": 2597,
   "lastUpdated": "2026-10-17",
-  "lastSyncedAt": "2026-10-17T04:38:00.984Z",
+  "lastSyncedAt": "2026-10-17T08:51:08.174Z",
   "warDay": 232,
-  "summary": "Tensions remain critically high between the US, Israel, and Iran, with ongoing threats of military action, regional proxy conflicts, and maritime incidents in the Strait of Hormuz.",
+  "summary": "Tensions are high as the US considers strikes against Iran, which is escalating maritime attacks in the Strait of Hormuz and boosting air defenses, while Israel issues threats regarding Lebanon.",
   "lastNarrativeUpdate": "2026-10-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst heightened tensions and ongoing conflict signals."
+    "summary": "No ceasefire or de-escalation efforts are currently reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.6
+        "precision": 0.75,
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 70,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 17",
-      "text": "Iran says a supertanker was hit by a naval mine in the Strait of Hormuz, catching fire.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxOQ1c1d25lODE2YjlHdmNhVUZBS2E5cXpqSFhQRFRRMENBRm5pcVJkU3VobWdpbFVaVUdzZ0VWTFVhU2ZMLU91cHR3T1U5ZzNPQ0lOVWVkZlZyc3dabHduY09iWkZXS2RwYVpFS1BRdmlfN0o0Vm41U0R2NDhOOFJHVm92eHJTRm5waTRPX0diU2w?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Agency",
-      "latestSinceUpdate": 2596
-    },
-    {
-      "date": "Oct 17",
-      "text": "Five killed, 16 hurt in Houthi attack on a palace in Aden, with coalition forces intercepting other attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2596
-    },
-    {
-      "date": "Oct 17",
-      "text": "US military is reportedly weighing the use of 'mother of all bombs' in potential future strikes on Iran.",
+      "text": "Trump suggests US may need to strike Iran's Pickaxe Mountain.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxPTWRtOEIzSmZRLXc0aEx6YkF3cGY5a2RwX1pzYmdQZnhqcmkzQUFkbndObFlvZEZybDNwU0lYT1I3U0pUdG9tZzNQTldkRktZajhWaXY2Vjh1NFQtU3BSbE10T2tXREh0dUVVWFQ0TVVsMmcyWDVUS21mQ21FVHVLaTF6M1dCX0NCZndtUy1fd3dXMzZPVDc1WXh3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2596
+      "latestSinceUpdate": 2597
     },
     {
       "date": "Oct 17",
-      "text": "Iran warned Hezbollah to prepare for war, expecting US strikes soon, while boosting its air defenses.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2596
+      "text": "AP reporters reveal details about a deadly Iranian drone strike.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMi3AFBVV95cUxNbE1qXzRjbjJwdUhLd1hCTVpJRTVndXB3cklveHRzSkJTWVdId2diZUtiejBLcnNxN2ZxOGh2TmhpWkRsc2o0NGlsSlVvQnJFNWc0VlZ2VFJ4cktRRGZpTmt3VmhYM0RvcXVPWDA0Y3hvVkQ0NTVPcDI2NTd5djhIaFZGVW9pSExfWDZwdFROUG5YZ1o0czVGZFVzRWhMM1ZUcGM2alJnNmpsWmhLYk0tdnhEaFh6RGZvU1RRT3JRX1kyTld5Y2hhbDF1UDF0RG5XQjV2SVM4NGxmVEta?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP",
+      "latestSinceUpdate": 2597
     },
     {
       "date": "Oct 17",
-      "text": "Maritime monitor warns that ships in the Strait of Hormuz still face 'indiscriminate attacks'.",
+      "text": "Trump and Sullivan state an Iran war is worth the cost to Americans during an Alaska campaign rally.",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNSEJNdzNpQTVzY2VEWmt5eVBGSDZLRExRb1JSaDE2WXR3UGdZN2JNOGpheHQxVWdfRVFJTU5ISHlqcVhmbEpmdl9hYmFLTHZmekR3c1RzQTlaVVBQQVBHQXNyNXVsdUlPQktyMGZQYXVPLTBGUVFnRWNnWjg3YVBkdHR4dUlmNHhjVHBMM2lVaEpOTFdEWU81RWZxcWg5WFNId1RtNjJnZk9vTjJaMnczS25oWEh2U0FCS2VkRS1jWnpBQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Alaska Beacon",
+      "latestSinceUpdate": 2597
+    },
+    {
+      "date": "Oct 17",
+      "text": "Netanyahu indicates he is not seeking to attack Iran again before the Israel election.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2597
+    },
+    {
+      "date": "Oct 17",
+      "text": "Maritime monitor warns ships in Strait of Hormuz still face 'indiscriminate attacks'.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2595
+      "latestSinceUpdate": 2597
+    },
+    {
+      "date": "Oct 17",
+      "text": "Israel raises alert amid Iran war fears as Trump weighs strikes and Netanyahu remains wary.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBSV2RSLTZKYXlsNGEzYmF1YnBmMjQ4U0YwZDl2MHVIdFNnVU91LXpUZ0Y5RmpBcjl4NUhFN3N1am5yUFNDbGk3bFZSSXNpcmIwZG1nOTRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 2597
     }
   ],
   "sourceStatuses": [
