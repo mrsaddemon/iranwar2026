@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2602,
-  "lastUpdated": "2026-10-17",
-  "lastSyncedAt": "2026-10-17T23:01:18.332Z",
-  "warDay": 232,
-  "summary": "The US-Iran war continues with escalating tensions in the Strait of Hormuz, driving oil prices to $110, while Israel considers further strikes on Iran and threatens Lebanon.",
-  "lastNarrativeUpdate": "2026-10-17",
+  "updateSequence": 2603,
+  "lastUpdated": "2026-10-18",
+  "lastSyncedAt": "2026-10-18T00:51:03.276Z",
+  "warDay": 233,
+  "summary": "Tensions remain high in the Middle East with reported Houthi attacks, record-high ship attacks in the Strait of Hormuz, and ongoing discussions about potential US and Israeli military actions against Iran.",
+  "lastNarrativeUpdate": "2026-10-18",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire is currently active; regional conflict and tensions persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.4,
+        "precision": 0.55,
         "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 80,
+    "nuclearIndex": 78,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 17",
-      "text": "Iran war updates: Five killed, 16 hurt in Houthi attack on palace in Aden",
-      "severity": "info",
+      "date": "Oct 18",
+      "text": "Five killed, 16 hurt in Houthi attack on a palace in Aden.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2602
+      "latestSinceUpdate": 2603
     },
     {
-      "date": "Oct 17",
-      "text": "How Iran messaging highlights cost of war ahead of US midterm elections",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPckE1c3laVXZKWGlFMEUwMEcwQXR4VDBqRlJxRUo0M1pMWk9SRDVtOHMzLU5qNzJxYW92NUw3QkVadlNlUU5OZWJjeG9ubURBNlpKNnVHU0otOWV4Si1GenlwV2tadElpRjRjQkM1aGlJTGZUeGJfU3JWSGdNQ0dUc0szQ0hvdFZPWnhKaURtcXJuMVlBeFdZdVdhbENBZVlfVk9yaXdtZWFsVEgyVnl3NWRjSdIBuAFBVV95cUxNaTFsRERla2prbU16VDhKWUhCbE1NTVRQVzZ1bXRJcHBQeGtmR19aVzlWVVdFNzBHT3N0b2ZsazRiSDV1UWJWXzJCZXhLeTNjWXJqWWdCN01iWmxDcno2M2xKN0w3VjhrandDcGlrRGtENTdTcGVERE50a1JRV0VSSzZGZ0lQMTZOZFZZT1VpLXloM1dqelFsSl9oZEgxWldjOHhCUGNic1BHUElFVTRPX3R2N2pzRUlG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2602
-    },
-    {
-      "date": "Oct 17",
-      "text": "Iran war updates: Strikes hit Houthis in Taiz, coalition intercepts attacks",
-      "severity": "info",
+      "date": "Oct 18",
+      "text": "Strikes hit Houthis in Taiz, with coalition forces intercepting attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2602
+      "latestSinceUpdate": 2603
     },
     {
-      "date": "Oct 17",
-      "text": "Trump’s war on Iran is rapidly draining US navy budget, documents and interviews reveal",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2602
+      "date": "Oct 18",
+      "text": "Reported attacks on ships in or near the Strait of Hormuz reach a record high, with tankers reportedly hit.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2603
     },
     {
-      "date": "Oct 17",
-      "text": "Netanyahu says he is not seeking to attack Iran again before Israel election",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2602
+      "date": "Oct 18",
+      "text": "US military reportedly weighs the use of 'mother of all bombs' against Iran's underground nuclear facilities.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOUXVCUDc3ZmNCQ19qeVVwc0ljRHhLWElvWFJ6Q1A3NWFrNnUzSGdQSlA2X1N1Y3didWVTdmRDQWYzLWNoeXVQZklQMUhjdnpDTUNveHZmOFNfWUJIRGR0QXJNY2FrMG84RGk1cE5Uckwwa2QwNGI1OFRiT2FIeDhidEc4clFqNEZlVnhsMlJrZzFMel9Ld0VHWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2603
     },
     {
-      "date": "Oct 17",
-      "text": "Israel raises alert amid Iran war fears as Trump weighs strikes, Netanyahu wary before election",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBSV2RSLTZKYXlsNGEzYmF1YnBmMjQ4U0YwZDl2MHVIdFNnVU91LXpUZ0Y5RmpBcjl4NUhFN3N1am5yUFNDbGk3bFZSSXNpcmIwZG1nOTRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 2602
+      "date": "Oct 18",
+      "text": "Israel's ambassador to the UN issues a stark warning to Iran and Hezbollah during the election period.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5zUEQ0TzV6Y09HbmFkVWMzNGJCUDRCT3J1SjJuVFVVNm84Sy1ZOHVLM2ROTHZSMXJlRXdNVWNzOG9xaVRsQnNEVzBGMmR4Ti1sTFc5bnF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2603
+    },
+    {
+      "date": "Oct 18",
+      "text": "Drones reported downed near Riyadh amidst regional tensions.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2603
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "Iran Prepares for Defense Amid Sanctions and Talks",
-      "summary": "Iran emphasizes the economic toll of sanctions and war, while denying nuclear ambitions and expressing readiness for talks. Concurrently, it is rebuilding its missile arsenal and boosting air defenses in anticipation of potential US strikes.",
-      "tone": "strained",
-      "latestSinceUpdate": 2595
-    },
-    {
-      "perspective": "United States",
-      "headline": "US Weighs Military Options and Budget Strain",
-      "summary": "The US is grappling with the financial strain of the conflict on its navy budget and is considering various military options, including potential strikes. It also claims to maintain a blockade in the Strait of Hormuz.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2595
-    },
-    {
-      "perspective": "Israel",
-      "headline": "Israel on High Alert, Weighing Pre-Election Actions",
-      "summary": "Israel is on high alert due to Iran war fears, with its leadership weighing the timing of potential actions against Iran amidst upcoming elections. Suspected online operations targeting Iran and Lebanon also indicate ongoing covert activity.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2595
-    },
-    {
-      "perspective": "Regional Proxies",
-      "headline": "Proxies Prepare for Imminent War Amid Regional Instability",
-      "summary": "Houthi forces have conducted attacks in Aden, while Hezbollah is reportedly preparing for imminent war, indicating a broader regional destabilization. Division within Lebanon over Hezbollah’s explosives further highlights internal tensions.",
+      "perspective": "Iran's Stance",
+      "headline": "Iran highlights war costs, vows to fight on amidst nuclear program rebuild.",
+      "summary": "Iran's messaging emphasizes the financial burden of conflict, particularly ahead of US midterm elections, while the regime reportedly aims to rebuild its nuclear program and vows to continue fighting. Despite some unsuccessful attempts, Iran escalates strikes in critical trade routes.",
       "tone": "defiant",
-      "latestSinceUpdate": 2595
+      "latestSinceUpdate": 2603
+    },
+    {
+      "perspective": "US Strategic Considerations",
+      "headline": "US budget strain and MOAB consideration signal heightened Iran strategy.",
+      "summary": "Documents and interviews reveal that 'Trump’s war on Iran' is rapidly draining the US navy budget, even as Washington reportedly considers deploying the 'mother of all bombs' against Iran's underground nuclear facilities. The US-Iran conflict has significantly impacted global trade routes.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2603
+    },
+    {
+      "perspective": "Israel's Posture",
+      "headline": "Israel raises alert, ready to strike Iran post-election, warns Hezbollah.",
+      "summary": "Israel has raised its alert level amid Iran war fears, with Netanyahu stating he is not seeking to attack Iran again before the upcoming Israeli election, yet indicating readiness to resume strikes. Israel's ambassador to the UN has issued a stark warning to Iran and Hezbollah.",
+      "tone": "strained",
+      "latestSinceUpdate": 2603
+    },
+    {
+      "perspective": "Regional Instability & Maritime Security",
+      "headline": "Hormuz attacks hit record high, Houthi actions fuel regional volatility.",
+      "summary": "Reported attacks on ships in the Strait of Hormuz have reached a record high, with Iran escalating strikes despite many being unsuccessful. Houthi attacks in Aden and Taiz, coupled with division in Lebanon over Hezbollah, underscore widespread regional volatility.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2603
     }
   ]
 });
