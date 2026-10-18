@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2603,
+  "updateSequence": 2604,
   "lastUpdated": "2026-10-18",
-  "lastSyncedAt": "2026-10-18T00:51:03.276Z",
+  "lastSyncedAt": "2026-10-18T05:12:09.031Z",
   "warDay": 233,
-  "summary": "Tensions remain high in the Middle East with reported Houthi attacks, record-high ship attacks in the Strait of Hormuz, and ongoing discussions about potential US and Israeli military actions against Iran.",
+  "summary": "The ongoing conflict involving Iran, the US, and Israel continues, marked by military actions, economic pressures, and heightened tensions in critical trade routes.",
   "lastNarrativeUpdate": "2026-10-18",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No ceasefire is currently active; regional conflict and tensions persist."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.75
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 72
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.5,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 78,
-    "escalationLevel": 90,
+    "nuclearIndex": 20,
+    "escalationLevel": 80,
     "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,14 +60,6 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 18",
-      "text": "Five killed, 16 hurt in Houthi attack on a palace in Aden.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2603
-    },
-    {
-      "date": "Oct 18",
       "text": "Strikes hit Houthis in Taiz, with coalition forces intercepting attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
@@ -76,41 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 18",
-      "text": "Reported attacks on ships in or near the Strait of Hormuz reach a record high, with tankers reportedly hit.",
+      "text": "Iran reports two tankers caught fire after hitting mines in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQcEhpeXZhQ20xWmZjb3p1eUJRVEFVSi1QbWJnUFZpRE05QmJUd0hhMU9OQmlqMmxPemhUTGN3ZmF5YlU0LUxkaF85M2JEVEpRT1FaMVAzaV8xNTBNeGk1YUlIRVNzRFNQVkpfY3FwWllQeWU3Mmk0NEpVaV90Tkp2ZnRzQ2xaZzQ2OGRLbUp1dUVNenlPUFVuQUVGRUVKSUZRbDVVR3hjZElfSFNONWhieWF5S0_SAboBQVVfeXFMT2UzSjBRSnAybzdRcU9NRWpyV0V5SU4xT1g2LWlTNWlraWJDeFBMSDlSbGVNc093MmJCOTROSjQ5bE50Uk1WSVVMNDZGN2VRWVkyRjdFdmV3QzliaGtBci1FcjRTbll0UmZQZmJTT0tXR05oVGdjRlU3Z1FvcTNUWXVPY0drS1BvamFZdWkyU0w0QU5oSjAwTnFBU0hNc2Z6dC1yUk1ma0dDNGpZX2RuVmxEZzhrUUI4bHhn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2604
+    },
+    {
+      "date": "Oct 18",
+      "text": "Reported attacks on ships in or near the Strait of Hormuz have reached a record high.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2603
+      "latestSinceUpdate": 2604
     },
     {
       "date": "Oct 18",
-      "text": "US military reportedly weighs the use of 'mother of all bombs' against Iran's underground nuclear facilities.",
+      "text": "The US military is reportedly weighing the use of the 'mother of all bombs' in potential future strikes on Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOUXVCUDc3ZmNCQ19qeVVwc0ljRHhLWElvWFJ6Q1A3NWFrNnUzSGdQSlA2X1N1Y3didWVTdmRDQWYzLWNoeXVQZklQMUhjdnpDTUNveHZmOFNfWUJIRGR0QXJNY2FrMG84RGk1cE5Uckwwa2QwNGI1OFRiT2FIeDhidEc4clFqNEZlVnhsMlJrZzFMel9Ld0VHWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2603
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2604
     },
     {
       "date": "Oct 18",
-      "text": "Israel's ambassador to the UN issues a stark warning to Iran and Hezbollah during the election period.",
+      "text": "Israel's ambassador to the UN issued a stark warning to Iran and Hezbollah during the election period.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5zUEQ0TzV6Y09HbmFkVWMzNGJCUDRCT3J1SjJuVFVVNm84Sy1ZOHVLM2ROTHZSMXJlRXdNVWNzOG9xaVRsQnNEVzBGMmR4Ti1sTFc5bnF3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Fox News",
-      "latestSinceUpdate": 2603
+      "latestSinceUpdate": 2604
     },
     {
       "date": "Oct 18",
-      "text": "Drones reported downed near Riyadh amidst regional tensions.",
+      "text": "Israeli settlers attacked EU diplomats, while drones targeted Riyadh.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2603
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2604
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
