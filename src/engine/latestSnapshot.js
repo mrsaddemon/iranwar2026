@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2606,
+  "updateSequence": 2607,
   "lastUpdated": "2026-10-18",
-  "lastSyncedAt": "2026-10-18T13:36:00.287Z",
+  "lastSyncedAt": "2026-10-18T16:50:54.472Z",
   "warDay": 233,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-10-18",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has offered to reopen the Strait of Hormuz under conditions including a seven-day ceasefire, but no agreement is currently active."
+    "summary": "Iran has proposed conditions for a seven-day ceasefire and the reopening of the Strait of Hormuz, but no active agreement is in place."
   },
   "actorOverrides": {
     "usa": {
@@ -19,16 +19,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
+    "nuclearIndex": 58,
     "escalationLevel": 38,
-    "oilDisruption": 90,
-    "tradeImpact": 56,
+    "oilDisruption": 95,
+    "tradeImpact": 59,
     "sanctionsPressure": 49,
-    "globalPressure": 57,
+    "globalPressure": 58,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 18",
-      "text": "US military is weighing the use of a 'mother of all bombs' in potential future strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?hl=en-US&gl=US&ceid=US:en",
+      "text": "US-Iran strikes are raising fears of renewed war across the Middle East.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2606
+      "latestSinceUpdate": 2607
     },
     {
       "date": "Oct 18",
-      "text": "Iran warns of a broad response to potential actions by the US and Israel.",
+      "text": "Iran states it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOTjVoekNKSmw2RVRNS0h1WmV3SFVkUlUwUnFyX2ZqeExKMlk5aTQxWTdGSFBVbXFTUGZWSTNqejcxMk40TGlVdHBoS2RTTU5yMWFTOUhTZW0xVDhkNi02MVRKOUphdlNoenVBVkVoZm5uMTA1Umk2a0NJTzdHQkNyYzhsR0drUWlaSDdBZW5oQzg5WEnSAZgBQVVfeXFMT3ZIMWthWE1pMkRGSXlkZnpvRHRVd1NMc2hqOFIzN2RIUkNVX3E5OW9zNGh1WjVUMk9jYWlybldaWXRUay1ONmc3T3dKMkdxRDFnLXM1Nm1tblNvSmxUZ3paOTU4VjlGeE40bmY1THJ2M25Ua1NUUHplUmp1WUpwLXhPc0M1ZGM0eG1qSFRMSGtxVTZucTh3Qjk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2607
+    },
+    {
+      "date": "Oct 18",
+      "text": "Iran warns of a broad response to actions by the US and Israel.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxOaDlvNjFEWmNZTXFHRjJ2SElOMm1RMzRES3gyY0VtWE83VTRwNHJBWGMyaG1rR2Uwb2RXTmRfRkVKSEhsLUNpd0Q4RkxfSU1Sa1JMX1N2SWplWWFpUHVDYjZ3UEFwb09ZRG4tWngyM1lBR25hTDd1aEswMzZ6WDlBOQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "شفق نيوز",
-      "latestSinceUpdate": 2606
+      "latestSinceUpdate": 2607
     },
     {
       "date": "Oct 18",
-      "text": "Iran's Foreign Minister states that the offer to reopen the Strait of Hormuz within 7 days is still on the table.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNc1ZVT0pyVE5rLWVncGRsYTlNVEpPTnZGUnVGekxuRW8zVGxoTXBOREdSaTNsNEl3M3B1OF94NWZWTEEyd2hGODJKSWp5elgxU093MGhYT1doamszdUVvOHdici1lSHFBcEhGZWhGd3hGdGZRWWx0OERDeHVVSkdSbUM5blY5eXFtRXg5ei00WFdlZ2RLM1FZYUJBQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Khaleej Times",
-      "latestSinceUpdate": 2606
+      "text": "Tankers were reported hit in Hormuz, and drones were downed near Riyadh.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1tVG50UENTRlZCYURUeTlpZjlxZ2w5VVVvRTdMWWdrRGZTYWNBMnRmblNIaGZtYlFvQmxEQjltZUwzZUZKYU9RSHV2SXFLaVpLWlNuQTV6aV85dUtWSV9lNi1rUFc4WTV6NVHSAW9BVV95cUxQalFsSzFzeHphVUVyU1NuanptU0h1QlF3LXc0dmQ2NEhXSDRZd0xwenVTWk5NMkhjZnFYTUJHQWNhT0lMb2RyTkhTX19LQV9paHkzTjRrYkdtQnlOc2QxUWtheXJEU3Q0dkhGZXRreUk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2607
     },
     {
       "date": "Oct 18",
-      "text": "Tensions continue to mount in Lebanon as Hezbollah challenges Beirut’s authority.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE1RLXIyTmNQMXNNZjJnMlp6c3Z5VDd0blJUNURUZnpqRHR6NDRzY1FjVWlYcnAtZmNvSjJaOTEwNmtQcUlCckpzOV94UmlabGJhQ1ozdEwxaEZoTDBT?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2606
-    },
-    {
-      "date": "Oct 18",
-      "text": "War weighs on Iran's economy as the US intensifies sanctions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQQmtVbEg3UlB1QzhqQTZJLTRJY1ZfZWJTZjVrVjVPWDFDT3dGd0RxTEQ3M19hVEFHcldMaEpxcncwNGxlQ1ZDMzA3T09ScHFKdjFEYVQ4Yi1BdFNHdmNuVlpmN3MtWUVOSlVVTEZoRjlxRDZQQ3VpejdGRGg4bEh1NzRyMjJuYU15c2t1V0V3ckJxeDBLdUs4WFNkeEhnSWl3dW9keE5YMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2606
+      "text": "Hormuz ship attacks have hit a record high as Iran escalates strikes with little U.S. response.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRkpjbHhhcjBfM1pXOUVuTE5rZ0lrMWJTUFBrZXYxY2FhcEtKWEJyR0lGSjBIb05pNTRfMW92elFEUlVHc3JjdzAwMmdWQTlLdmdZY0R4NGJOd3dUbEF1M3FCUVZRa1RfVjY0NnVxR013emZQTHMwSUFpNG5XU2RZendpNzd0LWZ4ZE5LakMycUEwMG9MQlZKQW82QTB4c0w0SV9QNTkwVlJIYnM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2607
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
