@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2609,
+  "updateSequence": 2610,
   "lastUpdated": "2026-10-18",
-  "lastSyncedAt": "2026-10-18T21:23:46.569Z",
+  "lastSyncedAt": "2026-10-18T23:35:27.897Z",
   "warDay": 233,
   "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
   "lastNarrativeUpdate": "2026-10-18",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has proposed a seven-day ceasefire as a condition for reopening the Strait of Hormuz, but it is not currently active or agreed upon."
+    "summary": "Seven-day ceasefire conditions are reportedly on the table, but active conflict and threats continue."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 58,
     "escalationLevel": 38,
-    "oilDisruption": 85,
-    "tradeImpact": 52,
+    "oilDisruption": 90,
+    "tradeImpact": 56,
     "sanctionsPressure": 49,
-    "globalPressure": 56,
+    "globalPressure": 57,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,16 +60,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 18",
-      "text": "Strikes hit Houthis in Taiz, with a coalition intercepting further attacks.",
-      "severity": "critical",
+      "text": "Strikes hit Houthis in Taiz, with coalition forces intercepting attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2609
+      "latestSinceUpdate": 2610
     },
     {
       "date": "Oct 18",
       "text": "US-Iran strikes raise fears of renewed war across the Middle East.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
       "latestSinceUpdate": 2609
@@ -84,33 +84,33 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 18",
-      "text": "Iran urges the US to accept a proposal to reopen the Strait of Hormuz, with seven-day ceasefire conditions still on the table.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQZFZnV0JLZE9uMDlJa3dDdGlBcmZEWXl5R2Y3aGVtTUFqOTJVZnhaN190SEJGZzVhRExaQmJqM3EyVWt3SmN5bVhiYkN0TWdsSUxkcWlLMklMQlN5VjB5XzlqSS1uNjV4NVI3VDZQcUFGYWo3VWNBXzJGa1FxQ1U0STNlOXo1MlVDZmlaeGZIVFJobEJoWWhPWUdQRUpBNkM0Y0xpZmZ2dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Arab News",
-      "latestSinceUpdate": 2609
-    },
-    {
-      "date": "Oct 18",
-      "text": "Hezbollah admits seized half-ton shipment of TNT and C-4 belongs to the group and demands its return.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTFBGMFRIS2hBQktfNVJ0RGdDU2RqNWxZM2E1TnhyNTBzQVJidXhrcXpsN0NzTmxOYkpwbEc0YnVpTTI2dm5aRjVET21WdHgzY1dDUzBtVmRrcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 2609
-    },
-    {
-      "date": "Oct 18",
-      "text": "Washington is reportedly eyeing MOAB deployment against Iran's underground nuclear facilities.",
+      "text": "Iran threatens to turn Israel into 'scorched earth' if energy sites are hit.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOUXVCUDc3ZmNCQ19qeVVwc0ljRHhLWElvWFJ6Q1A3NWFrNnUzSGdQSlA2X1N1Y3didWVTdmRDQWYzLWNoeXVQZklQMUhjdnpDTUNveHZmOFNfWUJIRGR0QXJNY2FrMG84RGk1cE5Uckwwa2QwNGI1OFRiT2FIeDhidEc4clFqNEZlVnhsMlJrZzFMel9Ld0VHWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2609
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2610
+    },
+    {
+      "date": "Oct 18",
+      "text": "Iran’s precision strikes reportedly picked apart Gulf infrastructure, blunting US war plans.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2610
+    },
+    {
+      "date": "Oct 18",
+      "text": "A 'violating' vessel is reported on fire in Hormuz after a sea mine blast.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2610
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
