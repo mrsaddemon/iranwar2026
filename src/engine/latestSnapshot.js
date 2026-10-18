@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2604,
+  "updateSequence": 2605,
   "lastUpdated": "2026-10-18",
-  "lastSyncedAt": "2026-10-18T05:12:09.031Z",
+  "lastSyncedAt": "2026-10-18T09:41:22.989Z",
   "warDay": 233,
-  "summary": "The ongoing conflict involving Iran, the US, and Israel continues, marked by military actions, economic pressures, and heightened tensions in critical trade routes.",
+  "summary": "Ongoing US-Iran tensions persist with reports of coalition strikes in Yemen, record high attacks on ships in the Strait of Hormuz, and US consideration of powerful conventional weapons, while Israel remains on alert.",
   "lastNarrativeUpdate": "2026-10-18",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 1,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing conflict."
+    "summary": "No ceasefire is currently active between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.85
       }
     }
   },
   "global": {
     "nuclearIndex": 20,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 18",
-      "text": "Strikes hit Houthis in Taiz, with coalition forces intercepting attacks.",
+      "text": "Strikes hit Houthis in Taiz, and a coalition intercepts attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2603
+      "latestSinceUpdate": 2605
     },
     {
       "date": "Oct 18",
-      "text": "Iran reports two tankers caught fire after hitting mines in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQcEhpeXZhQ20xWmZjb3p1eUJRVEFVSi1QbWJnUFZpRE05QmJUd0hhMU9OQmlqMmxPemhUTGN3ZmF5YlU0LUxkaF85M2JEVEpRT1FaMVAzaV8xNTBNeGk1YUlIRVNzRFNQVkpfY3FwWllQeWU3Mmk0NEpVaV90Tkp2ZnRzQ2xaZzQ2OGRLbUp1dUVNenlPUFVuQUVGRUVKSUZRbDVVR3hjZElfSFNONWhieWF5S0_SAboBQVVfeXFMT2UzSjBRSnAybzdRcU9NRWpyV0V5SU4xT1g2LWlTNWlraWJDeFBMSDlSbGVNc093MmJCOTROSjQ5bE50Uk1WSVVMNDZGN2VRWVkyRjdFdmV3QzliaGtBci1FcjRTbll0UmZQZmJTT0tXR05oVGdjRlU3Z1FvcTNUWXVPY0drS1BvamFZdWkyU0w0QU5oSjAwTnFBU0hNc2Z6dC1yUk1ma0dDNGpZX2RuVmxEZzhrUUI4bHhn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2604
-    },
-    {
-      "date": "Oct 18",
-      "text": "Reported attacks on ships in or near the Strait of Hormuz have reached a record high.",
+      "text": "Reported attacks on ships in or near the Strait of Hormuz reach a record high.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2604
+      "latestSinceUpdate": 2605
     },
     {
       "date": "Oct 18",
-      "text": "The US military is reportedly weighing the use of the 'mother of all bombs' in potential future strikes on Iran.",
+      "text": "Iran's Guards claim two tankers were hit by mines in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxNZWFxZjNZNnY5cVR3VDhKUnNnV1JOcG1vOVB5dEZGdWRybEtqdE9YRWgwY0ZVSXZ0bHYzTWRpX2duSkxpTENtY0s0WW5jMzFUZlZIME16d0FpUXluV2ZGbFJ3alNZaDh0VVVSVFhOMWVIbEZTNVgyTVdwaXNLNXRrMjE4SjZvQXZtblNUNVVHSjFIUmlIaU41TGRHYmIzOUxoa25BODFKaG1FZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2605
+    },
+    {
+      "date": "Oct 18",
+      "text": "US military reportedly weighs the use of 'mother of all bombs' in potential future strikes on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPbkE2TjhWV0FPQU53YTl2bDFSaHNWVDBnMkFlekJxWTZ0RTFMTDRxa2czR0F4alduTnIzN2JBRkxlS1ZIb2I2Wk56WXE5OFBDQ0Z3cVNkcmpXWkNjc01JZm9hLWtqSFZHUktvUUt4S2hVTENQOXJ5Wk5mam93SjgxcW15SkttV2s0bU1TeFotalEtQXJ3M0MwSGtGd3FtdWp4eUlJSm1ubGJmT1ktai1YRk9fMGJPWmpaVDBBMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2604
+      "latestSinceUpdate": 2605
     },
     {
       "date": "Oct 18",
-      "text": "Israel's ambassador to the UN issued a stark warning to Iran and Hezbollah during the election period.",
+      "text": "Israel raises alert amid Iran war fears as Trump weighs strikes, with Netanyahu wary before election.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE5zUEQ0TzV6Y09HbmFkVWMzNGJCUDRCT3J1SjJuVFVVNm84Sy1ZOHVLM2ROTHZSMXJlRXdNVWNzOG9xaVRsQnNEVzBGMmR4Ti1sTFc5bnF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2604
-    },
-    {
-      "date": "Oct 18",
-      "text": "Israeli settlers attacked EU diplomats, while drones targeted Riyadh.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2604
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTFBSV2RSLTZKYXlsNGEzYmF1YnBmMjQ4U0YwZDl2MHVIdFNnVU91LXpUZ0Y5RmpBcjl4NUhFN3N1am5yUFNDbGk3bFZSSXNpcmIwZG1nOTRn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 2605
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
