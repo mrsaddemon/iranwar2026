@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2613,
+  "updateSequence": 2614,
   "lastUpdated": "2026-10-19",
-  "lastSyncedAt": "2026-10-19T14:01:41.807Z",
+  "lastSyncedAt": "2026-10-19T19:46:52.495Z",
   "warDay": 234,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "Iran's proposal for a seven-day ceasefire and Strait of Hormuz reopening conditions remain on the table, but no active ceasefire is in effect."
   }
 }
