@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2612,
+  "updateSequence": 2613,
   "lastUpdated": "2026-10-19",
-  "lastSyncedAt": "2026-10-19T06:45:19.307Z",
+  "lastSyncedAt": "2026-10-19T14:01:41.807Z",
   "warDay": 234,
-  "summary": "Ongoing US-Iran tensions are marked by recent strikes, fears of wider conflict, and incidents in the Strait of Hormuz, while Iran proposes reopening the strait and ceasefire conditions.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-10-19",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has proposed seven-day ceasefire conditions, but no active agreement is in place."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 58,
+    "nuclearIndex": 55,
     "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
     "sanctionsPressure": 49,
-    "globalPressure": 55,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 19",
-      "text": "Strikes hit Houthis in Taiz, with coalition forces intercepting attacks.",
+      "text": "A renewed Iran war is only a matter of time, Israeli experts warn",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2613
+    },
+    {
+      "date": "Oct 19",
+      "text": "Iran war likely to drag on for another six months, ex-US defense secretary warns",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxNZXJQTHRSR3JvX1VldVlIdVI0OHFqa2x3VXBfMFpYNE1TcnA0dXdLTFV0bE40bFEteVN1Rnl3S2puRUMxZmlkbHRhQTBCQVloaW5HN2h2LTBjaUJ6QVZTU2NhWmQ3SjA4QmR3ZDIzZ3dnbGtTVGYtLUMyR1MzOEdOc1RzUWxkcnp4UllB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2613
+    },
+    {
+      "date": "Oct 19",
+      "text": "Iran war updates: Strikes hit Houthis in Taiz, coalition intercepts attacks",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2612
+      "latestSinceUpdate": 2613
     },
     {
       "date": "Oct 19",
-      "text": "A vessel was reported on fire in the Strait of Hormuz following a sea mine blast.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2611
-    },
-    {
-      "date": "Oct 19",
-      "text": "Iran threatened to turn Israel into 'scorched earth' if its energy sites are hit.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2612
-    },
-    {
-      "date": "Oct 19",
-      "text": "Washington is reportedly considering MOAB deployment against Iran's underground nuclear facilities.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOUXVCUDc3ZmNCQ19qeVVwc0ljRHhLWElvWFJ6Q1A3NWFrNnUzSGdQSlA2X1N1Y3didWVTdmRDQWYzLWNoeXVQZklQMUhjdnpDTUNveHZmOFNfWUJIRGR0QXJNY2FrMG84RGk1cE5Uckwwa2QwNGI1OFRiT2FIeDhidEc4clFqNEZlVnhsMlJrZzFMel9Ld0VHWA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2612
-    },
-    {
-      "date": "Oct 19",
-      "text": "Iran announced the Strait of Hormuz is reopening and that seven-day ceasefire conditions remain on the table.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2612
-    },
-    {
-      "date": "Oct 19",
-      "text": "Lebanon confronted Iran, demanding an end to Hezbollah arms shipments.",
+      "text": "Military leaders warn Hegseth against extending Iran war operations",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlBDOFVIMlpBU3pDYnp0Ul9EenpHSXhyd25hSkpfNW4xZEJBYmF0WVBzTW0yT3lXcGhBbVVOWFJNM1FGcTA3VF9vZ01fQmM1Wkp6aFJDOXlkT2dOQ2VscUJlaC1RekY1U2QzMF9jN2hJNkV0UWxkT0ozYm04REdub2ZvLWNhSU0zclB6NWlndHdpcE5oMDJUMXZrTnoyeDdCbFRvRzNTaHl0UWZoMUdCT1ctNXVEajVNSEdJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "www.israelhayom.com",
-      "latestSinceUpdate": 2612
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNelBwdjExMnFiT0Q4TTJNdXIzTmN1WWFCSEZtdHhjbkFRYkhRc0o4U3ViX3pVSmQ5c0JBRkd3UXZwNFE1T0lLWUFPTXpWaW5JNDFEbC1fM3ZNczEwOHVudFZMUVNRbHJkWEFRWHA2Z203R05FbE5FOVVXLW9mUzFkRjI3TlIzNWM2eEhNWENjOTlNTmM2NVVKdGNFaDhITEFMeThNVnc0SXN1N3B0cUFNNlZrWWhkbjVnSTV6ckVPUUk1dGd2NHlr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Washington Post",
+      "latestSinceUpdate": 2613
+    },
+    {
+      "date": "Oct 19",
+      "text": "US and Israel threaten renewed Iran strikes, Tehran warns of response",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Iran International",
+      "latestSinceUpdate": 2613
+    },
+    {
+      "date": "Oct 19",
+      "text": "Live Updates: Latest from Israel, Iran, and the Middle East",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE5LVzV5X3UxenBzemdkR1N4S0h3U09XSjVlOWNNdWN6NlA2dDUtY2Z0X1ZSd1MwTi1VbXF6VjVFSDNBdmwzbHNpSlVJc2gtekI1ZExPTnozR1dxWi1LTHE0RWtDeVo0ZzIxT3FLbkI3SGZhMEJjVFBrOWdlRk5WeDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2613
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
