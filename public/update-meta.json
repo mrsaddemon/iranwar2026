@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2610,
-  "lastUpdated": "2026-10-18",
-  "lastSyncedAt": "2026-10-18T23:35:27.897Z",
-  "warDay": 233,
+  "updateSequence": 2611,
+  "lastUpdated": "2026-10-19",
+  "lastSyncedAt": "2026-10-19T01:36:42.676Z",
+  "warDay": 234,
   "ceasefire": {
     "active": true,
-    "status": "active",
+    "status": "fragile",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Seven-day ceasefire conditions are reportedly on the table, but active conflict and threats continue."
+    "summary": "Iran has indicated that seven-day ceasefire conditions remain on the table, despite ongoing regional hostilities and strikes."
   }
 }
