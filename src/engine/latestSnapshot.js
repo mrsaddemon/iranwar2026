@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2611,
+  "updateSequence": 2612,
   "lastUpdated": "2026-10-19",
-  "lastSyncedAt": "2026-10-19T01:36:42.676Z",
+  "lastSyncedAt": "2026-10-19T06:45:19.307Z",
   "warDay": 234,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "Ongoing US-Iran tensions are marked by recent strikes, fears of wider conflict, and incidents in the Strait of Hormuz, while Iran proposes reopening the strait and ceasefire conditions.",
   "lastNarrativeUpdate": "2026-10-19",
   "ceasefire": {
     "active": true,
-    "status": "fragile",
+    "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has indicated that seven-day ceasefire conditions remain on the table, despite ongoing regional hostilities and strikes."
+    "summary": "Iran has proposed seven-day ceasefire conditions, but no active agreement is in place."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 68,
-    "escalationLevel": 48,
-    "oilDisruption": 90,
-    "tradeImpact": 65,
-    "sanctionsPressure": 54,
-    "globalPressure": 66,
+    "nuclearIndex": 58,
+    "escalationLevel": 38,
+    "oilDisruption": 80,
+    "tradeImpact": 48,
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 19",
-      "text": "Strikes reported to have hit Houthis in Taiz, with coalition forces intercepting attacks.",
+      "text": "Strikes hit Houthis in Taiz, with coalition forces intercepting attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2611
-    },
-    {
-      "date": "Oct 19",
-      "text": "Iran states it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOTjVoekNKSmw2RVRNS0h1WmV3SFVkUlUwUnFyX2ZqeExKMlk5aTQxWTdGSFBVbXFTUGZWSTNqejcxMk40TGlVdHBoS2RTTU5yMWFTOUhTZW0xVDhkNi02MVRKOUphdlNoenVBVkVoZm5uMTA1Umk2a0NJTzdHQkNyYzhsR0drUWlaSDdBZW5oQzg5WEnSAZgBQVVfeXFMT3ZIMWthWE1pMkRGSXlkZnpvRHRVd1NMc2hqOFIzN2RIUkNVX3E5OW9zNGh1WjVUMk9jYWlybldaWXRUay1ONmc3T3dKMkdxRDFnLXM1Nm1tblNvSmxUZ3paOTU4VjlGeE40bmY1THJ2M25Ua1NUUHplUmp1WUpwLXhPc0M1ZGM0eG1qSFRMSGtxVTZucTh3Qjk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2611
-    },
-    {
-      "date": "Oct 19",
-      "text": "Iran threatens to turn Israel into 'scorched earth' if its energy sites are targeted.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2611
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2612
     },
     {
       "date": "Oct 19",
       "text": "A vessel was reported on fire in the Strait of Hormuz following a sea mine blast.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "Al Jazeera",
       "latestSinceUpdate": 2611
     },
     {
       "date": "Oct 19",
-      "text": "Hormuz ship attacks have reached a record high as Iran escalates strikes.",
+      "text": "Iran threatened to turn Israel into 'scorched earth' if its energy sites are hit.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxQRkpjbHhhcjBfM1pXOUVuTE5rZ0lrMWJTUFBrZXYxY2FhcEtKWEJyR0lGSjBIb05pNTRfMW92elFEUlVHc3JjdzAwMmdWQTlLdmdZY0R4NGJOd3dUbEF1M3FCUVZRa1RfVjY0NnVxR013emZQTHMwSUFpNG5XU2RZendpNzd0LWZ4ZE5LakMycUEwMG9MQlZKQW82QTB4c0w0SV9QNTkwVlJIYnM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2611
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2612
     },
     {
       "date": "Oct 19",
-      "text": "Hezbollah admits ownership of a seized half-ton shipment of TNT and C-4, demanding its return.",
+      "text": "Washington is reportedly considering MOAB deployment against Iran's underground nuclear facilities.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxOUXVCUDc3ZmNCQ19qeVVwc0ljRHhLWElvWFJ6Q1A3NWFrNnUzSGdQSlA2X1N1Y3didWVTdmRDQWYzLWNoeXVQZklQMUhjdnpDTUNveHZmOFNfWUJIRGR0QXJNY2FrMG84RGk1cE5Uckwwa2QwNGI1OFRiT2FIeDhidEc4clFqNEZlVnhsMlJrZzFMel9Ld0VHWA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2612
+    },
+    {
+      "date": "Oct 19",
+      "text": "Iran announced the Strait of Hormuz is reopening and that seven-day ceasefire conditions remain on the table.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2612
+    },
+    {
+      "date": "Oct 19",
+      "text": "Lebanon confronted Iran, demanding an end to Hezbollah arms shipments.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTFBGMFRIS2hBQktfNVJ0RGdDU2RqNWxZM2E1TnhyNTBzQVJidXhrcXpsN0NzTmxOYkpwbEc0YnVpTTI2dm5aRjVET21WdHgzY1dDUzBtVmRrcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2611
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxORlBDOFVIMlpBU3pDYnp0Ul9EenpHSXhyd25hSkpfNW4xZEJBYmF0WVBzTW0yT3lXcGhBbVVOWFJNM1FGcTA3VF9vZ01fQmM1Wkp6aFJDOXlkT2dOQ2VscUJlaC1RekY1U2QzMF9jN2hJNkV0UWxkT0ozYm04REdub2ZvLWNhSU0zclB6NWlndHdpcE5oMDJUMXZrTnoyeDdCbFRvRzNTaHl0UWZoMUdCT1ctNXVEajVNSEdJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "www.israelhayom.com",
+      "latestSinceUpdate": 2612
     }
   ],
   "sourceStatuses": [
