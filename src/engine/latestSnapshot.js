@@ -1,57 +1,57 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2615,
-  "lastUpdated": "2026-10-19",
-  "lastSyncedAt": "2026-10-19T23:06:58.198Z",
-  "warDay": 234,
-  "summary": "Tensions in the Middle East are escalating with warnings of a renewed Iran war from Israeli and US leaders, while Iran issues warnings, prepares for conflict, and proposes conditions for a ceasefire and Strait of Hormuz reopening amidst recent maritime incidents.",
-  "lastNarrativeUpdate": "2026-10-19",
+  "updateSequence": 2616,
+  "lastUpdated": "2026-10-20",
+  "lastSyncedAt": "2026-10-20T01:44:37.869Z",
+  "warDay": 235,
+  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "lastNarrativeUpdate": "2026-10-20",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has proposed a seven-day ceasefire and conditions for reopening the Strait of Hormuz, but no agreement is active."
+    "summary": "Iran has proposed a seven-day ceasefire and reopening of the Strait of Hormuz, but no agreement is active."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
+    "nuclearIndex": 25,
     "escalationLevel": 38,
     "oilDisruption": 80,
     "tradeImpact": 48,
-    "sanctionsPressure": 51,
-    "globalPressure": 58,
-    "allianceInfluence": 62
+    "sanctionsPressure": 49,
+    "globalPressure": 55,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
+    "russiaIntelSupport": false,
     "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 19",
-      "text": "Israeli experts warn a renewed Iran war is only a matter of time.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2615
-    },
-    {
-      "date": "Oct 19",
-      "text": "US and Israel threaten renewed Iran strikes; Tehran warns of response.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Iran International",
-      "latestSinceUpdate": 2615
-    },
-    {
-      "date": "Oct 19",
-      "text": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2615
-    },
-    {
-      "date": "Oct 19",
-      "text": "A 'violating' vessel is on fire in Hormuz after a sea mine blast.",
+      "date": "Oct 20",
+      "text": "Vessel reported on fire in Strait of Hormuz after sea mine blast.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2615
+      "latestSinceUpdate": 2616
     },
     {
-      "date": "Oct 19",
-      "text": "Russian diplomat condemns U.S.-Israel attacks during Tehran visit.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2615
-    },
-    {
-      "date": "Oct 19",
-      "text": "Hezbollah funding plan indicates a new challenge to Lebanon’s government.",
+      "date": "Oct 20",
+      "text": "Strikes hit Houthis in Taiz, coalition intercepts attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQVnNfYmowcmJwU3BJMUJxcUFCMUZWYnppMFFPTXc1MHE5Q1NuNzJNVmZqLXlCMjN4WUxjQm5UdTdPQ0JjVTJVSEJGZnV0QnY4eW5fT1VRcHVpdWwyTUZNSHBBVkhsclRQY0VWWTVDQS1HUTEwc2tCV1VQUVdHVjVEaURuRFNLYWU2UGp1Y1FCTlI1NE1zbVZzaVlTTkhad1pPRzFsS3B1b2dVdlJZMXN1b25tSdIBuAFBVV95cUxQUEg2b1cyUElnbGV6d2x4WEhuWklCYnA0LXFvVjJzME43djNGcmRmU3NteEExN0Rqdmlzc3dCOUNaUjFZMVpBaHgyNndGQk00ampWdHMtUmpyQnVIbVFuaHJDNEtxYnZrTXM0SVJIUDM5bG5ubzgzREp1bzIxOWlqcWtIVU1adlhRb2hweEdFMWFwVnh3alhUcU16NWd1RndPeXJIbnVIaGNISjJZVjB0TjZPMTFhbTR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2615
+      "latestSinceUpdate": 2616
+    },
+    {
+      "date": "Oct 20",
+      "text": "Iran threatens stronger response to new US attack as Lavrov visits Tehran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1NV0dFLWtqajhaelNMelVxMFVtVTFTTXlFejhEZ0hJSzZRYWxtUEwxVlF4OUh0Zmk3b1IyemxNNjdhcmp5bzNpa3RRMXVtY3dzS3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Iran International",
+      "latestSinceUpdate": 2616
+    },
+    {
+      "date": "Oct 20",
+      "text": "Iran issues warning to US as Qatar prepares to announce regional defense agreement.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQTUFPUFpGU3BuOGJsTXlVcDdTQ3NzNnZLQjdOd0c5ME5Ta3AtVzBwZ1RKRUtDY2QtLW1wMllqY3R1ZzJVSk5wRUxEUE1fZHdrYXNwZFBxTGZ2OWlMYVlRanNtUzNwU1Y4SlpBS2lfbFBqMGR4Y3ZUYWJVUzVhZlhlcFVvdjhLSGs?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2616
+    },
+    {
+      "date": "Oct 20",
+      "text": "Over 200 troops awarded Purple Heart for service in Iran War.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxONU9wMngtbEJnRXVISm9SREJDRmM0SXk5cG5DVFA4SWRqQVBobS1PQzYxVHZFUUxJWHhKazhKamVmY2RxbmlZRy13RU5HVnJVMGtHOE1iUktHdGZXdUhhbE8ycGEyYU5MU05PcjVzQWhBQnRNZGczVm5vU1h3bGlSTA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Military.com",
+      "latestSinceUpdate": 2616
+    },
+    {
+      "date": "Oct 20",
+      "text": "Hezbollah challenges Beirut’s authority amid mounting tensions in Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE1RLXIyTmNQMXNNZjJnMlp6c3Z5VDd0blJUNURUZnpqRHR6NDRzY1FjVWlYcnAtZmNvSjJaOTEwNmtQcUlCckpzOV94UmlabGJhQ1ozdEwxaEZoTDBT?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2616
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Defiance",
-      "headline": "Confident Iran Threatens Retaliation Amidst Escalation",
-      "summary": "Iran projects increased confidence after six months of conflict with the U.S., asserting a 'new operational plan' for renewed attacks and threatening severe retaliation against Israel. Reports suggest Iran's precision strikes have impacted Gulf infrastructure.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2611
-    },
-    {
-      "perspective": "US/Coalition Concern",
-      "headline": "US Military Leaders Warn Against Extended Iran Operations",
-      "summary": "Military leaders have cautioned against extending operations in the Iran war, as US-Iran strikes raise fears of broader conflict across the Middle East. Washington is reportedly considering the deployment of MOABs against Iranian nuclear facilities.",
+      "perspective": "Israeli Experts",
+      "headline": "A renewed Iran war is only a matter of time",
+      "summary": "Israeli experts warn that a renewed conflict with Iran is inevitable, indicating a high level of regional anxiety and anticipation of further escalation. This perspective suggests a belief that current tensions are unsustainable without a full-scale confrontation.",
       "tone": "anxious",
-      "latestSinceUpdate": 2611
+      "latestSinceUpdate": 2616
     },
     {
-      "perspective": "Regional Instability",
-      "headline": "Hormuz Shipping Under Record Attack, Lebanon Tensions Mount",
-      "summary": "The Strait of Hormuz is experiencing record-high ship attacks, with vessels reported hit and on fire, signaling significant oil disruption risks. Concurrently, Hezbollah's challenge to Beirut's authority is escalating tensions in Lebanon.",
-      "tone": "strained",
-      "latestSinceUpdate": 2611
+      "perspective": "US Political (Trump)",
+      "headline": "Trump says Iran war will end ‘immediately’ after midterms",
+      "summary": "Donald Trump asserts that the ongoing war with Iran would conclude swiftly following the midterms, implying a change in leadership could bring a rapid resolution. This narrative suggests a political stance on the conflict's duration and potential outcomes.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2616
+    },
+    {
+      "perspective": "Iranian Stance",
+      "headline": "A More Confident Iran Emerges After Six Months of War With the U.S.",
+      "summary": "Iran projects an image of increased confidence after six months of conflict with the U.S., suggesting resilience and a strengthened position. This narrative highlights Iran's defiant posture and its perceived ability to withstand prolonged confrontation.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2616
+    },
+    {
+      "perspective": "US Political (Democrats)",
+      "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war",
+      "summary": "Democratic senators are calling for transparency regarding the financial expenditures of the Iran war, questioning the economic impact of the ongoing conflict. This perspective reflects skepticism about the war's sustainability and its broader implications.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2616
     }
   ]
 });

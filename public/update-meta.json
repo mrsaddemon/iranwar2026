@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2615,
-  "lastUpdated": "2026-10-19",
-  "lastSyncedAt": "2026-10-19T23:06:58.198Z",
-  "warDay": 234,
+  "updateSequence": 2616,
+  "lastUpdated": "2026-10-20",
+  "lastSyncedAt": "2026-10-20T01:44:37.869Z",
+  "warDay": 235,
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has proposed a seven-day ceasefire and conditions for reopening the Strait of Hormuz, but no agreement is active."
+    "summary": "Iran has proposed a seven-day ceasefire and reopening of the Strait of Hormuz, but no agreement is active."
   }
 }
