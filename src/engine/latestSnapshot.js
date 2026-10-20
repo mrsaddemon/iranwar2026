@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2620,
+  "updateSequence": 2621,
   "lastUpdated": "2026-10-20",
-  "lastSyncedAt": "2026-10-20T20:39:42.008Z",
+  "lastSyncedAt": "2026-10-20T23:27:36.031Z",
   "warDay": 235,
-  "summary": "US and Israel are discussing renewed strikes against Iran, which is signaling readiness to escalate, while regional concerns persist regarding the Strait of Hormuz and Hezbollah's activities.",
+  "summary": "Tensions between the US, Israel, and Iran are escalating, with warnings of renewed conflict and discussions of potential strikes, while diplomatic efforts focus on the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing threats and preparations for conflict."
+    "summary": "No ceasefire is currently active; rhetoric indicates escalating conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -27,32 +27,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 55
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 35,
     "escalationLevel": 80,
     "oilDisruption": 85,
     "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "sanctionsPressure": 67,
+    "globalPressure": 88,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 20",
-      "text": "Iran’s commanders prepare for further war, stating 'The world will be amazed'.",
+      "text": "Iran's commanders prepare for further war and warn of regional destruction if attacked by the US.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2620
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2621
     },
     {
       "date": "Oct 20",
-      "text": "Tehran warns that a new US attack would mean 'destruction' throughout the region.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1wRmU1RzJvUnBDSDFoNnRnZ0ZFdUtDWDNkMGlsSHRkSHhPN1RBaFZDNG0zd3E0TDFubVRidWkxTlg3ZVNHRGF4YnNiN2t2SVZBSU1GSl9nM0VVa2RIT21jTklHLUV6ZFI1dXfSAW9BVV95cUxQa2FxRGFjdHc1Y3dzTVhIZFJ5b1huMTdVeWw2R0Q5a1B0RTZGSlFyZmR4Yl9sZmE0anY2Ukw5VDNzem9mWU96UHRtd3JOYWd2cXlKX3RDNjE5bVZVU29LOEpvLUhydjc1UTl4Y2dsZms?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2620
-    },
-    {
-      "date": "Oct 20",
-      "text": "US and Israel threaten renewed Iran strikes, prompting Tehran to warn of a response.",
+      "text": "US and Israel threaten renewed strikes against Iran, with leaders warning Tehran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Iran International",
-      "latestSinceUpdate": 2620
+      "latestSinceUpdate": 2621
     },
     {
       "date": "Oct 20",
-      "text": "People are scouring the Strait of Hormuz for spilt cargo after Iran reportedly attacked container ships.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipgFBVV95cUxQMVd5NTdZejdJLW9KZFpNUFVhVFpHaUxWU09tMU9lTXMxNGl3aG8ydFhmekpmcEZEdHNWRWs1MEVrUU1JamVKN1NVVWxyTXUyVmpQOC1lcUJTWUtFSkNEU2hweGJ3cFVaa2hfQ0xEZ1hTbEFKcTlPMGY0RTRXS3dpWXpIdWVXUWdvcV9MRnBqaEJlS2pySWNhbXBiWTRYVXktMFpmWjVn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2620
+      "text": "King Charles praises Sultan of Oman's peace efforts regarding the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNM3dRS0I4eUUzZVZYTXVjMkItbDVNelpOcTA0LVZBUWEwcDBONWI4U3VwR1l1YnNPeEkzM0IycHpZUnZoOEdUYXVRaVdDTkluSEtGLVltTzlyT19IRVh2VHV1TTVHQzlEQ1VMRVQ4alJHWGdRbVhBQnJhMWp1Tk9iVHhlVU9OV3psNUN4VTY2TGJCTWktaklGSjQ4RQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times",
+      "latestSinceUpdate": 2621
     },
     {
       "date": "Oct 20",
-      "text": "The IDF reveals Lebanese army failures to disarm Hezbollah, indicating ongoing challenges.",
+      "text": "Iran urges the US to accept a proposal to reopen the Strait of Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2621
+    },
+    {
+      "date": "Oct 20",
+      "text": "IDF reveals Lebanese army failures to disarm Hezbollah, indicating ongoing challenges.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE5kd2FNaW1hSmIwa3ZSaC1wQnp5YXE2OTJBVHJfdTdRREdOQV84XzRySGpLMERFSjUzTGNGOFBqTGtIdW1yX2htSWtFN2c1ZHVWaGFWYkVxbnFTZG11?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2620
+      "latestSinceUpdate": 2621
     },
     {
       "date": "Oct 20",
