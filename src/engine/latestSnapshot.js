@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2616,
+  "updateSequence": 2617,
   "lastUpdated": "2026-10-20",
-  "lastSyncedAt": "2026-10-20T01:44:37.869Z",
+  "lastSyncedAt": "2026-10-20T06:41:38.575Z",
   "warDay": 235,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-10-20",
   "ceasefire": {
     "active": true,
     "status": "active",
     "confidence": 0.81,
     "durationDays": 7,
-    "summary": "Iran has proposed a seven-day ceasefire and reopening of the Strait of Hormuz, but no agreement is active."
+    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -44,10 +44,10 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "global": {
     "nuclearIndex": 25,
     "escalationLevel": 38,
-    "oilDisruption": 80,
-    "tradeImpact": 48,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
     "sanctionsPressure": 49,
-    "globalPressure": 55,
+    "globalPressure": 52,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 20",
-      "text": "Vessel reported on fire in Strait of Hormuz after sea mine blast.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxNeXpSZEVqaUJfWndWbXFQaXBHMmFIQ1pDeUs5TzJZQm85NDVDZlNWZG4zbEs5aVVDZFNwSnFlVDhpNEZTQllpTTRyRVJTdnJySl9yWjZWcVdWa29GTlhJS3FqQW1NSnQ2NWtCZHNia3RtTWhZc0V5NjRtdFZFS0M5dkgwc3dYV29sQWViaEsxRS1aYnVydnZ3eWNMWEpLb3ZTU3VaYUhPT1lwUE5sWmE3T3RTV1pTam04aDdGNHFfdlXSAcYBQVVfeXFMT2luSjM1c3BIVEhRRWRLQ3Y0N0d1MmhHWVBiYm9GMXBXR3hHZ0gwSk5pWjdacV9PVnVHd013NC1mWmRZNEJyMFF5YzJ2RERIbFlSLUU5MTFCZ0s1VU9BYXNHRzgwT2J0R2RTMGRNa0YyYUxOejVUVkczMHNwWkh0aFFWbV9TZC0wQkdRTmpPZ2xEX3JKRUVwdXJWYzNpQ2pHUFB0RDI3VW1reWc1MjFsU3lEWDVyalppR2NkUmxnM1ExYlR1OER3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "date": "Oct 20",
-      "text": "Strikes hit Houthis in Taiz, coalition intercepts attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxObUhNbGlFcGxlZ1ZJU1FSMzRqcklTaHdwWkI0ZzNhZU9aVS1DTS13N3ZfTGs0SzUxWDRVaUM5QlhfamdNM2d1WFdsWGtUenNqNWJpQmFjSTdTbkdwMDd4dzZ0dnlxU0wtMVZJelh6dEQzTE9sVjdUTDhvU3Uwbm9falNQTWFZNUlDLUNvWU9OcjM4Z2ZqdlhCVWxtdlZBMHJyLWdjV2xlN3E0c0ZmcjdibGNfQVNEeEFhczBmTjRXMNIBxAFBVV95cUxOeC0zcEJuVnV4Q2UxZ3Z3d1NyZWxkUkdsV0l4aG5nMzQyRm5lMUk0MW5PdXgyQWVWejhnbmpzZlgxREpPQkJKTzEwN0paNXZLZ0tKOWM0bmxOdTdMcnZUTUZFUlFObGlvZ0JHOUlRN3FSbm9MWGwxUUQxN2FhbDdBMjA4dXRKYktEX2FqaWZVSmU4OG0yclcyZ25PM2E1RnRtUzMxNUV6S3loZGw2LWJRdDNNYkFnTF9JUnFkOG5pSFZ3dUlR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "date": "Oct 20",
-      "text": "Iran threatens stronger response to new US attack as Lavrov visits Tehran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1NV0dFLWtqajhaelNMelVxMFVtVTFTTXlFejhEZ0hJSzZRYWxtUEwxVlF4OUh0Zmk3b1IyemxNNjdhcmp5bzNpa3RRMXVtY3dzS3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Iran International",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "date": "Oct 20",
-      "text": "Iran issues warning to US as Qatar prepares to announce regional defense agreement.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQTUFPUFpGU3BuOGJsTXlVcDdTQ3NzNnZLQjdOd0c5ME5Ta3AtVzBwZ1RKRUtDY2QtLW1wMllqY3R1ZzJVSk5wRUxEUE1fZHdrYXNwZFBxTGZ2OWlMYVlRanNtUzNwU1Y4SlpBS2lfbFBqMGR4Y3ZUYWJVUzVhZlhlcFVvdjhLSGs?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "date": "Oct 20",
-      "text": "Over 200 troops awarded Purple Heart for service in Iran War.",
+      "text": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxONU9wMngtbEJnRXVISm9SREJDRmM0SXk5cG5DVFA4SWRqQVBobS1PQzYxVHZFUUxJWHhKazhKamVmY2RxbmlZRy13RU5HVnJVMGtHOE1iUktHdGZXdUhhbE8ycGEyYU5MU05PcjVzQWhBQnRNZGczVm5vU1h3bGlSTA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Military.com",
-      "latestSinceUpdate": 2616
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1wRmU1RzJvUnBDSDFoNnRnZ0ZFdUtDWDNkMGlsSHRkSHhPN1RBaFZDNG0zd3E0TDFubVRidWkxTlg3ZVNHRGF4YnNiN2t2SVZBSU1GSl9nM0VVa2RIT21jTklHLUV6ZFI1dXfSAW9BVV95cUxQa2FxRGFjdHc1Y3dzTVhIZFJ5b1huMTdVeWw2R0Q5a1B0RTZGSlFyZmR4Yl9sZmE0anY2Ukw5VDNzem9mWU96UHRtd3JOYWd2cXlKX3RDNjE5bVZVU29LOEpvLUhydjc1UTl4Y2dsZms?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2617
     },
     {
       "date": "Oct 20",
-      "text": "Hezbollah challenges Beirut’s authority amid mounting tensions in Lebanon.",
+      "text": "‘The world will be amazed:’ Iran’s commanders prepare for further war",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2617
+    },
+    {
+      "date": "Oct 20",
+      "text": "A renewed Iran war is only a matter of time, Israeli experts warn",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE1RLXIyTmNQMXNNZjJnMlp6c3Z5VDd0blJUNURUZnpqRHR6NDRzY1FjVWlYcnAtZmNvSjJaOTEwNmtQcUlCckpzOV94UmlabGJhQ1ozdEwxaEZoTDBT?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2617
+    },
+    {
+      "date": "Oct 20",
+      "text": "Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2617
+    },
+    {
+      "date": "Oct 20",
+      "text": "Donald Trump, Benjamin Netanyahu warn Iran as fears of renewed war grow",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE5CV0dNTVVnNUZlMmlncmF4amlNa19Qc0J4cHpQd2lSXy04aVJ1VFNsdWZqbkU5bnBVdzJTTGg2eE1ndVhjREp4by0tM29PbkVIM3YxTlEyY1FLM3ct?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2616
+      "latestSinceUpdate": 2617
+    },
+    {
+      "date": "Oct 20",
+      "text": "Iran says Strait of Hormuz reopening, seven-day ceasefire conditions still on the table",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2617
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
