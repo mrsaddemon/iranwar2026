@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2617,
+  "updateSequence": 2618,
   "lastUpdated": "2026-10-20",
-  "lastSyncedAt": "2026-10-20T06:41:38.575Z",
+  "lastSyncedAt": "2026-10-20T12:18:00.131Z",
   "warDay": 235,
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.81,
+    "active": false,
+    "status": "none",
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "Ceasefire language is present across the source mix with a reported duration around 7 days, but the model should still treat it as reversible under renewed violations or proxy attacks."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   }
 }
