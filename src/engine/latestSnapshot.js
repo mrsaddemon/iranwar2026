@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2624,
+  "updateSequence": 2625,
   "lastUpdated": "2026-10-21",
-  "lastSyncedAt": "2026-10-21T13:08:44.381Z",
+  "lastSyncedAt": "2026-10-21T18:06:28.716Z",
   "warDay": 236,
-  "summary": "Tensions remain extremely high in the Middle East, with Iran and Israel/US preparing for potential renewed conflict, particularly concerning control of the Strait of Hormuz, while diplomatic efforts are underway and internal US military opposition to war with Iran is noted.",
+  "summary": "The conflict between Israel, Iran, and their proxies continues with mutual strikes and threats, while oil markets show signs of stabilizing despite ongoing regional instability.",
   "lastNarrativeUpdate": "2026-10-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported; rhetoric points towards potential escalation."
+    "summary": "No ceasefire or de-escalation is currently in effect, with ongoing hostilities and threats."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 20,
     "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
+    "oilDisruption": 30,
+    "tradeImpact": 36,
     "sanctionsPressure": 63,
-    "globalPressure": 80,
+    "globalPressure": 72,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 20",
-      "text": "Iran’s commanders prepare for further war, stating the world will be amazed.",
+      "text": "US hits Iranian tankers, Iran attacks US army in Jordan.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2624
-    },
-    {
-      "date": "Oct 20",
-      "text": "Iran warns that a US attack would mean 'destruction' throughout the region.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1wRmU1RzJvUnBDSDFoNnRnZ0ZFdUtDWDNkMGlsSHRkSHhPN1RBaFZDNG0zd3E0TDFubVRidWkxTlg3ZVNHRGF4YnNiN2t2SVZBSU1GSl9nM0VVa2RIT21jTklHLUV6ZFI1dXfSAW9BVV95cUxQa2FxRGFjdHc1Y3dzTVhIZFJ5b1huMTdVeWw2R0Q5a1B0RTZGSlFyZmR4Yl9sZmE0anY2Ukw5VDNzem9mWU96UHRtd3JOYWd2cXlKX3RDNjE5bVZVU29LOEpvLUhydjc1UTl4Y2dsZms?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNcDBXTktaeW5IYnVNSlBhR1Y2ZzZmVEhBZzU4d0Y2bmQyMnY5X2ttbF95bFoyRldZTExTQ1N6LTlwLTAtcTBfbXhEUEw3allpSXJ1QXYyQkhOcUZteW1PdFExZEZTbjJLY1AxX21lZkk3MTVsZTdVMFIwSUdWak4tN2I1Uzg0cFBlQ2kwT2VrdDBuTEZybm9ELTRHZGV0YUdacDFGb2NjTzB6TFRmRHRsY3VlckNiV3BPRFdqU9IBwgFBVV95cUxQMWZzenNaLWdwZ2kxZFZUZ2lqczJNNnRhbVlFVHdwSkNjYzVGS1NIeVJhYV9BQXlreENVaFRPZk1NT21pM1pIWGxWNXlHNkkwVHJKMndXc2s4MDByb1gyelNrVjJmODFNQkRkNGg4VG5uWGRDLTc1Wi1zNDR6dUo2X1ltZnlDaHFkQ2hmekdGTkFMU0RwUUpYc1VCT0hDaXAxeTNLMUFsSjBYVFdYRy1CT1hUaVJGdFpyeXB0aC1kN01HQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2624
+      "latestSinceUpdate": 2625
     },
     {
       "date": "Oct 20",
-      "text": "Israeli experts warn that a renewed Iran war is only a matter of time.",
+      "text": "Netanyahu made plans to restart Iran strikes earlier this month.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2624
-    },
-    {
-      "date": "Oct 20",
-      "text": "Netanyahu reportedly made plans to restart Iran strikes earlier this month.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5uZG1oS2R0eDRSRUV4Yy1nOHNraHA2anRiRkhoVFNqb1hBdHV5cE55dWlxc1hlVzBIS1FjWHNyRnNiTnVsQUYtNjV3YXFRVDNxMHZsb1FVQ1RMTWRyYkRMbzB4OVZKWUEzVnMyczRZNzY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Financial Times",
-      "latestSinceUpdate": 2624
+      "latestSinceUpdate": 2625
     },
     {
       "date": "Oct 20",
-      "text": "US and Iran both claim control of the Strait of Hormuz amid reports of attacks on vessels.",
+      "text": "58 recruits killed, 200 hurt in Houthi attacks in Yemen.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNcUxxNHdOQmgxVGhJOTE3NDVyR3J0RUVSQkVDVjNSZFNnbnN0eU02ZHNOcUtvSVBuVmgtS0t0aGxWd05DNllrSjFRYnNMOWtJRmJJNG1hRmh6eXJkamNEek1sYUJKU2d4bVhuVEcyMXF4Y2hVUkNiSWtnOFFNZTNpTkN1MFU0Skxnb3BlTVgwODVoUzVZQVhudnJXRk9NZWpLd1ZuT3NIZmg0VE5iOHFKdE1Nek9CMWvSAbwBQVVfeXFMUFozLVllVm1zdlA2QWo0aTFOck9ZNEozcHM4RzRmeXFSTGJodmlBWkJMVlpBUHpuN2ZVVlVVLUZ4UFFYMExVeWdpVFdVV2tKUG40VV9UVVgyOWppeFU2cWxWOHdBV1ZVVko1Y2N6eW1jdERsZlV4QnpEaHVhRVFpWTVFM004dFdQbzFVVG1QM0wyRVhhcTJ6NkY4aFZxYnlmZGFMaW5ib0hKdG1KSDNEaGRTQ1VHZ2s4Xy1Oekg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxQUjFlTlRqQkJBNFNTYTgtOVZMTXpUOEE4U3dtT2xuRXBydTZkd1FPcl9vMUNidUR5SUU2X251NUtSZnZseXlOdnJrMnRNLVpFamNRQnF4WFVYcG9UbEoxV054QkQ3UkVFUEZyeENidkQ0U1dlUVRtMWlFSlFCbTVhTkdjMkJ6VkVwRW13MERpS2JHSGc2MDktX1NKYTk3YVdUa1JTVXFsNHlDeHdMSHJMLWU3bVg1V044RUt2anVJd07SAcYBQVVfeXFMTWZYeGhfVWxhNVpuTUMxOXZXVkw1Y3hWWWt0ak1PLUo0N3QxdnFQek1leHQ5TW1mMWhIMlZST1UzeTQwZElscjRIX09BZlBMaS13ZUdtU2JPRWVCdTBWZzF2V3dSUlhFYnhlUmV3dEFvQ3c2empwS0tKTTRIWXNyb2FwMnBEOTNxX1ktWktGdXVYR1MwbzFBMG5UWmJWRVVVR0szUDU3RFBUZS1lZTJIaHAtci1jZnBiTUFPSmdwVWwyWGwtYm93?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2624
+      "latestSinceUpdate": 2625
     },
     {
       "date": "Oct 20",
-      "text": "Reports indicate more oil is now coming out of the Persian Gulf than before the Iran War.",
+      "text": "US and Israel threaten renewed Iran strikes, Tehran warns of response.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Iran International",
+      "latestSinceUpdate": 2625
+    },
+    {
+      "date": "Oct 20",
+      "text": "IRGC threatens undersea cables.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1TcEgta2xvdHJVc0NaYk5jRzA5alZwY3lpWVdnWlpkOGd2ZkNOcUk0LVhSVHpjYWc2TDBEb2V3WjZIT0paZXJNdm5USHdsaWF2cHc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Iran International",
+      "latestSinceUpdate": 2625
+    },
+    {
+      "date": "Oct 20",
+      "text": "Israel bars United pilot from its airspace over alleged support for Iran, Hezbollah.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2624
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPSzUtUkMwMk1tTGllZzdHalIwYkJJX3ZINDdaWkw1ZFZDNU15UnQ5QmNIY1Jpb2ZVd1U0XzQ5NzlrbnRobFBvcXYzVWd0c2Nva1kwS0hyb2Z6bG5mMlFTRmdpTXkzb3FzdThFaFBEa1NJSktCSVpFYm5raEtaRTFrQ0VXVTlCRWh3eU5xcUJQYkt3UnRjdkYxR0dQc0NwUG16NGR4RWd0bW5LRzFEUE11czF5NNIBuAFBVV95cUxQdGpwMGctQUlMT05WVzlBZ3dVbHVXMkVHZG5Ta3BKaU5NLWswQmxUMGxUQUxPbmVRa2Y5elRvY0hRd3hiUFJsY0ZCNFdGNmh6MzFvZEtxdUM1NWVZM0JkZHBQQk1FbXFkd0hneXk4NWxob3hJSEhmamJDYU1WMDd4dlI4NVYwbjQwMTRyR1JJZWlKRldVdlFUc0dod1J3dGhDU0RIM1k1VDFjWTZqSEZsd0VWeXlsZFMy?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2625
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
