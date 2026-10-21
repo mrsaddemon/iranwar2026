@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2621,
-  "lastUpdated": "2026-10-20",
-  "lastSyncedAt": "2026-10-20T23:27:36.031Z",
-  "warDay": 235,
-  "summary": "Tensions between the US, Israel, and Iran are escalating, with warnings of renewed conflict and discussions of potential strikes, while diplomatic efforts focus on the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-10-20",
+  "updateSequence": 2622,
+  "lastUpdated": "2026-10-21",
+  "lastSyncedAt": "2026-10-21T01:56:11.010Z",
+  "warDay": 236,
+  "summary": "US and Israel are threatening renewed strikes against Iran, which is preparing for war and warning of regional destruction, while diplomatic efforts focus on the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-10-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active; rhetoric indicates escalating conflict."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst rising tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,99 +18,99 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 55
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
+    "nuclearIndex": 60,
     "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 67,
-    "globalPressure": 88,
-    "allianceInfluence": 68
+    "oilDisruption": 75,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Oct 20",
-      "text": "Iran's commanders prepare for further war and warn of regional destruction if attacked by the US.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2621
-    },
-    {
-      "date": "Oct 20",
-      "text": "US and Israel threaten renewed strikes against Iran, with leaders warning Tehran.",
+      "date": "Oct 21",
+      "text": "US and Israel threaten renewed Iran strikes, Tehran warns of response.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1zNl9zdG1hb2kzUnMxdnIwNDN6MjZtTHdYcEpnOGhyU2JaVnVzTm9jVWwzUVJSYWI5VmZla0FqMVlJaWZOdGxnWjdFMVQxZDRGTFE?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Iran International",
-      "latestSinceUpdate": 2621
+      "latestSinceUpdate": 2622
     },
     {
-      "date": "Oct 20",
-      "text": "King Charles praises Sultan of Oman's peace efforts regarding the Strait of Hormuz.",
+      "date": "Oct 21",
+      "text": "Iran’s commanders prepare for further war, stating 'The world will be amazed'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2622
+    },
+    {
+      "date": "Oct 21",
+      "text": "Israeli experts warn that a renewed Iran war is only a matter of time.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2622
+    },
+    {
+      "date": "Oct 21",
+      "text": "King Charles praises Sultan of Oman’s ‘noble efforts’ on Strait of Hormuz peace.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxNM3dRS0I4eUUzZVZYTXVjMkItbDVNelpOcTA0LVZBUWEwcDBONWI4U3VwR1l1YnNPeEkzM0IycHpZUnZoOEdUYXVRaVdDTkluSEtGLVltTzlyT19IRVh2VHV1TTVHQzlEQ1VMRVQ4alJHWGdRbVhBQnJhMWp1Tk9iVHhlVU9OV3psNUN4VTY2TGJCTWktaklGSjQ4RQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times",
-      "latestSinceUpdate": 2621
+      "latestSinceUpdate": 2622
     },
     {
-      "date": "Oct 20",
-      "text": "Iran urges the US to accept a proposal to reopen the Strait of Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxOWUh3Z1JyMmU4SkJ4ZXQ4Y0VaN3RMS1Vtcmg4S1lDMGlvUG1GeVY3Q1pkaWltSG5yOWhmcTBnNkk4U0ZiTVREVzd3RVRZNjZJTjhaTkg5bTFGX0J2Q0JzTUI4UlZIWmxHMmRDeVRRODZRYU1mbkNrVzFRX3piTnpDbllfUGc3NnJkSl9hWWRCQzlxZjFBYnE5bXJQMVBjMzNBUFlNcmRtcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2621
-    },
-    {
-      "date": "Oct 20",
-      "text": "IDF reveals Lebanese army failures to disarm Hezbollah, indicating ongoing challenges.",
+      "date": "Oct 21",
+      "text": "IDF reveals Lebanese army failures to disarm Hezbollah.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTE5kd2FNaW1hSmIwa3ZSaC1wQnp5YXE2OTJBVHJfdTdRREdOQV84XzRySGpLMERFSjUzTGNGOFBqTGtIdW1yX2htSWtFN2c1ZHVWaGFWYkVxbnFTZG11?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2621
+      "latestSinceUpdate": 2622
     },
     {
-      "date": "Oct 20",
-      "text": "A poll indicates a plurality of active-duty US service members oppose an Iran war.",
+      "date": "Oct 21",
+      "text": "A plurality of active-duty service members oppose an Iran war, according to a poll.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiaEFVX3lxTE8tcGxTUW5YLV81YWtUcUR4X1poRUVBN2dOU3RLeFkwODlzNjhLTzVFbXI3dkpXOUtNdk4tMDdzMjJ6UkxhQUo5c3RFTDBEN01yZ3NSOXBabzZKRUdjbmU5U0k0akdFdHhI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Responsible Statecraft",
-      "latestSinceUpdate": 2620
+      "latestSinceUpdate": 2622
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Israeli Experts",
-      "headline": "A renewed Iran war is only a matter of time",
-      "summary": "Israeli experts warn that a renewed conflict with Iran is inevitable, indicating a high level of regional anxiety and anticipation of further escalation. This perspective suggests a belief that current tensions are unsustainable without a full-scale confrontation.",
+      "perspective": "Iran's Defiance",
+      "headline": "Iran Prepares for War, Warns of Regional Destruction",
+      "summary": "Iran's commanders are preparing for further war and warn that any US attack would lead to regional destruction, while issuing warnings to the US. This stance underscores a readiness to respond forcefully to perceived threats.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2622
+    },
+    {
+      "perspective": "US/Israel Threat",
+      "headline": "US and Israel Threaten Renewed Strikes on Iran",
+      "summary": "US and Israeli officials are discussing and threatening renewed strikes against Iran, with Israeli experts warning that a new war is inevitable. This indicates a heightened state of readiness and potential for offensive action.",
+      "tone": "strained",
+      "latestSinceUpdate": 2622
+    },
+    {
+      "perspective": "Regional Diplomacy",
+      "headline": "Diplomatic Efforts Focus on Strait of Hormuz Peace",
+      "summary": "International leaders, including King Charles and the Sultan of Oman, are engaged in diplomatic efforts to promote peace and stability in the Strait of Hormuz. These efforts aim to de-escalate tensions in a critical global shipping lane.",
+      "tone": "neutral",
+      "latestSinceUpdate": 2622
+    },
+    {
+      "perspective": "Internal Challenges",
+      "headline": "Internal Issues Impact Military Readiness and Regional Stability",
+      "summary": "Internal assessments highlight challenges within the US military and ongoing issues with Hezbollah's influence in Lebanon, alongside concerns about settler violence in Israel. These factors contribute to regional instability and complicate strategic planning.",
       "tone": "anxious",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "perspective": "US Political (Trump)",
-      "headline": "Trump says Iran war will end ‘immediately’ after midterms",
-      "summary": "Donald Trump asserts that the ongoing war with Iran would conclude swiftly following the midterms, implying a change in leadership could bring a rapid resolution. This narrative suggests a political stance on the conflict's duration and potential outcomes.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "perspective": "Iranian Stance",
-      "headline": "A More Confident Iran Emerges After Six Months of War With the U.S.",
-      "summary": "Iran projects an image of increased confidence after six months of conflict with the U.S., suggesting resilience and a strengthened position. This narrative highlights Iran's defiant posture and its perceived ability to withstand prolonged confrontation.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2616
-    },
-    {
-      "perspective": "US Political (Democrats)",
-      "headline": "Democratic senators demand Pentagon reveal 'true cost' of Iran war",
-      "summary": "Democratic senators are calling for transparency regarding the financial expenditures of the Iran war, questioning the economic impact of the ongoing conflict. This perspective reflects skepticism about the war's sustainability and its broader implications.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 2616
+      "latestSinceUpdate": 2622
     }
   ]
 });
