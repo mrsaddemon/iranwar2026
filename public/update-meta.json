@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2627,
+  "updateSequence": 2628,
   "lastUpdated": "2026-10-22",
-  "lastSyncedAt": "2026-10-22T00:09:04.626Z",
+  "lastSyncedAt": "2026-10-22T04:58:29.749Z",
   "warDay": 237,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.14,
     "durationDays": 7,
-    "summary": "Indirect talks on a ceasefire proposal with Iran are ongoing, but no active ceasefire is in effect amidst heightened tensions."
+    "summary": "Indirect talks on a ceasefire proposal with Iran are ongoing, but no active ceasefire is in effect amidst escalating tensions."
   }
 }
