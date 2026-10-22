@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2631,
+  "updateSequence": 2632,
   "lastUpdated": "2026-10-22",
-  "lastSyncedAt": "2026-10-22T19:09:18.891Z",
+  "lastSyncedAt": "2026-10-22T22:24:34.545Z",
   "warDay": 237,
-  "summary": "Signals indicate heightened tensions in the Middle East with US and Israel reportedly planning renewed strikes on Iran post-midterms, while Iran issues warnings and reports tanker attacks in the Strait of Hormuz.",
+  "summary": "Tensions remain high between the US, Israel, and Iran, with reports of planned strikes, Iranian threats of retaliation, and regional concerns over escalating conflict.",
   "lastNarrativeUpdate": "2026-10-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported."
+    "summary": "No active ceasefire or de-escalation efforts are reported."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
+    "nuclearIndex": 65,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 84,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 22",
-      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
+      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2631
+      "sourceUrl": "https://news.google.com/articles/CBMi0wFBVV95cUxQZmdpbjU1SXJYNVY2SHVjbzl5ZDUzUVNvS3dSZzlzaV81MWVWQ3AwYTJRN2p0NHlpYWlRQ2ViZ0xORF82MnlNOHYtdUFkLXFhRFFlU0ZBSVJ2OUYyTUwzcXRyOENHMGJTeW1sdmhSMGNRc2U4cS1OS2xXYzBVeEpicU1aQ05jUHJGOGhIa3RwVTNaWmJCcEhtZTRaUHdwaGNPenZRaDdyN2RPTWYyQkFEc0lCaGpMaV80NVpITHRpUnpqb09CRkU0Z2xoV2ZaZWNFajQw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Los Angeles Times",
+      "latestSinceUpdate": 2632
     },
     {
       "date": "Oct 22",
-      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxQQ0lZaGVzaU5MdEhnbW5fOVEwR0oxcDRldVdULXZaSWhwYzNzX05OQk10QmhVZXlFVUdHUGJxTWlRRkthRGpPamtrNFIyWGVkcXB0X0lsYVdzODRQWXJ1dzBvZ0E4TlFfRXF1OGo5eVJfNTItbEtzb1dCVGNOTWVqWk9zWGZ6YndQZ2lRVEtIRHNyRGI5UC0tdVVxWGR0YXlXUlJ2Y29jOHNJR0xyOGdkZjRFZ19fM1RLSUxRVzgxMWY3b0tf?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "KSL News",
-      "latestSinceUpdate": 2631
-    },
-    {
-      "date": "Oct 22",
-      "text": "Iran issues 'serious warning' to US military forces in Middle East.",
+      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPa19HUXRONnZSZ3JPZDJDU2hkMzUtOUhOeXJad2RNanh5ME1uMFg3Si1oRkl3UGh2djVTLXNNQXJmbU1mVHgxbmxNNEwzbXdNQ2YtYnMyQ05Qb1ppNVZCY1VEQlhrd0VtbFdyOXZ3VE1hU3ExcjVqNEFYaVVBWGZNeks4eEhodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2631
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2632
     },
     {
       "date": "Oct 22",
-      "text": "Peter Thiel breaks with Trump over Iran war: 'We should not have done it'.",
+      "text": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2632
+    },
+    {
+      "date": "Oct 22",
+      "text": "Hezbollah Rebuilds Military Capabilities in Beirut, Prepares for Renewed Fighting Against Israel",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNeE5BaDdJLVgxNGswc2ItRkpnQVlXQWZneUcwcm1uMDdYM2xxQWhsd18tYWRUVWFRbWRWTTlmN1pDbVg5RlN6R0MtYVE4cTJHY3hoR3QtSUNoa0ZUZ2tBYnJQdDdwZDZmZXI3V2F6SDZfMlVqVWZZVkFVWFh6ZnMzMzN1Uzk3MFN6Q2NUdHkyVUs4bWRRekZuMG1jeWhjXzBWZmcxOXdDaTlQVzV6M05WanhCNGNUOEVVUldR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Algemeiner.com",
+      "latestSinceUpdate": 2632
+    },
+    {
+      "date": "Oct 22",
+      "text": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPYWoydmRWR3hfaGxNdFNTVU5hcGhtckhXVFI1d3RyLU1BS3JPaDRma29uWktuQURIQ2xqMlRFMmFCeEJranpybUZhWHlkSjktc3p2TUtvckF3ZUNMVzZlRDhIYk14YzBFc0ZxUmVmd1E5bmVHTDhOLXNPTkhzZ1VoXzNtWk9pdDhWcUNKMGhaV3BDSFZVUlNLME9WSG1ZTFVwSnV4SkZpU1LSAa4BQVVfeXFMTVZwTlRtcW1DZ3BLaDNPRUhXV0RFTFJiUktZRVRxcG1BZTg5c2dFYW1jWU96WlB0U2RzVkxhblhDcU9yNGpwNlc2OFRjYnJSblYwWS01dlZfbU5aWk92M0dzOVd1bWV2UUE3U0x1dWxxOGthbkZJRDJ2MUJTRHk0SldTQ01UbldwWVZrRG40Q2M2S3RsME9SZTVaZ1JuOHJZeXZjd0h0NHJUN3MyeU9R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2632
+    },
+    {
+      "date": "Oct 22",
+      "text": "Peter Thiel breaks with Trump over Iran war: ‘We should not have done it’",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxOWDVTYThmX3RmY2M5YnNvRDZZQmxjTzJ3bE1teG9NMkNWOGpmZ2R1ZHllOG9pbUFEU0JKN2xLcmY3ZWFlY0RoLURYeno4aTk4RHllSTQwZWFsMHFkdzF2ZVh0eV9ZNnNacU1zdFNOQUlVNC14V3lLTWNLTjdCODlYRGdn?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Politico",
-      "latestSinceUpdate": 2631
-    },
-    {
-      "date": "Oct 22",
-      "text": "Plurality of active-duty service members oppose Iran war: poll.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiaEFVX3lxTE8tcGxTUW5YLV81YWtUcUR4X1poRUVBN2dOU3RLeFkwODlzNjhLTzVFbXI3dkpXOUtNdk4tMDdzMjJ6UkxhQUo5c3RFTDBEN01yZ3NSOXBabzZKRUdjbmU5U0k0akdFdHhI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Responsible Statecraft",
-      "latestSinceUpdate": 2631
+      "latestSinceUpdate": 2632
     }
   ],
   "sourceStatuses": [
