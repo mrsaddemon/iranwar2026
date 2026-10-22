@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2626,
-  "lastUpdated": "2026-10-21",
-  "lastSyncedAt": "2026-10-21T21:34:50.466Z",
-  "warDay": 236,
-  "summary": "Tensions remain high in the Middle East with ongoing discussions of potential Israeli strikes on Iran, Iranian threats against the US and regional infrastructure, and a significant US military buildup in the region, while indirect ceasefire talks continue.",
-  "lastNarrativeUpdate": "2026-10-21",
+  "updateSequence": 2627,
+  "lastUpdated": "2026-10-22",
+  "lastSyncedAt": "2026-10-22T00:09:04.626Z",
+  "warDay": 237,
+  "summary": "Tensions remain high with ongoing threats of renewed strikes on Iran by the US and Israel, while Iran prepares for defense and engages in indirect ceasefire talks.",
+  "lastNarrativeUpdate": "2026-10-22",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.2,
     "durationDays": 7,
-    "summary": "Indirect talks between Iran and the U.S. regarding a ceasefire proposal are reportedly ongoing, but no active ceasefire is in effect."
+    "summary": "Indirect talks on a ceasefire proposal with Iran are ongoing, but no active ceasefire is in effect amidst heightened tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -19,12 +19,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.6
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.85,
@@ -33,84 +33,84 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.65
       }
     }
   },
   "global": {
-    "nuclearIndex": 58,
-    "escalationLevel": 38,
-    "oilDisruption": 55,
-    "tradeImpact": 30,
-    "sanctionsPressure": 49,
-    "globalPressure": 51,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 75,
+    "oilDisruption": 60,
+    "tradeImpact": 57,
+    "sanctionsPressure": 66,
+    "globalPressure": 81,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Oct 21",
-      "text": "Israel's election may change its leader, but not its Iran war policy.",
+      "date": "Oct 22",
+      "text": "Iran calls for diplomacy but states readiness to defend itself against potential attacks.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOZm1ibWE2TFE3M0JlejZpUkp2aHJkY1NBTFRUR2tvaVV5dmtrbkFjbTlYMGM5WkpOTUp6MXFka3pyX1FGeUthY1NlS25oamJ6R1kzdjR2NHJIWWJDay1VWm00WmJkNjhnWlBwNFp0RDhvdnBZbjMyZHNabGZPSjFhbzJ0eU5lRGpvZXFaN0pXb1F0aWVveW93WWw2a0k1eFg0anJWQllTODdPaDkyejZVNVF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2626
-    },
-    {
-      "date": "Oct 21",
-      "text": "Iran states that a US attack would lead to 'destruction' throughout the region.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1wRmU1RzJvUnBDSDFoNnRnZ0ZFdUtDWDNkMGlsSHRkSHhPN1RBaFZDNG0zd3E0TDFubVRidWkxTlg3ZVNHRGF4YnNiN2t2SVZBSU1GSl9nM0VVa2RIT21jTklHLUV6ZFI1dXfSAW9BVV95cUxQa2FxRGFjdHc1Y3dzTVhIZFJ5b1huMTdVeWw2R0Q5a1B0RTZGSlFyZmR4Yl9sZmE0anY2Ukw5VDNzem9mWU96UHRtd3JOYWd2cXlKX3RDNjE5bVZVU29LOEpvLUhydjc1UTl4Y2dsZms?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQUDdudll1aUxJTEdvMlBrZGRqSENudHVWUy1HQml2LUM3TVZzUl96bUZSMTFSU1dtUGdKUkxZRkFwc3U5UzF5X0kzRDVoQm4wWkpjVWNlaHZpWkZQZEdOTTl3cnVjbF90UGJMZ1pGSU5CX0pjdUZlcnpabm1YYU1CcGN4djhIdWdkUHpob1RxTTQ2Um9id0tGRER4OTZMTUFvb1dNSnlpMW1aaFR4Z2RXVmNQUjFxbE5YRTl30gHAAUFVX3lxTFA2cERpMnJnd201QmtUaWV2aGQ4R0I2RDZYYVRRUUhtMi05ZllYOXpMbXN3b081RTNGa09tOTBJaENxcUtsYkhtLXRaU1AwbUhCTjNDQW5wY2R5NmU0U2ZPZXpfU3dMUXlGcE9raGRLcWp3RHZGeVNqOER2NkpJaUk0SDlVUV9mM1hHdG9mSjBqQ0xqSVdMN2wzdWxvaFNSTHpsSU1mV3U3NjlTTGFOM2haVEJsR0J2ZU9hMkRBYkFWaw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2626
+      "latestSinceUpdate": 2627
     },
     {
-      "date": "Oct 21",
-      "text": "Iran’s commanders prepare for further war, stating 'the world will be amazed'.",
+      "date": "Oct 22",
+      "text": "Iranian commanders declare preparations for further war, stating 'the world will be amazed.'",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2626
+      "latestSinceUpdate": 2627
     },
     {
-      "date": "Oct 21",
+      "date": "Oct 22",
       "text": "Israeli experts warn that a renewed Iran war is only a matter of time.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2626
+      "latestSinceUpdate": 2627
     },
     {
-      "date": "Oct 21",
-      "text": "Netanyahu made plans to restart Iran strikes earlier this month.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE5uZG1oS2R0eDRSRUV4Yy1nOHNraHA2anRiRkhoVFNqb1hBdHV5cE55dWlxc1hlVzBIS1FjWHNyRnNiTnVsQUYtNjV3YXFRVDNxMHZsb1FVQ1RMTWRyYkRMbzB4OVZKWUEzVnMyczRZNzY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2626
+      "date": "Oct 22",
+      "text": "US and Israel are reportedly drawing up plans for renewed strikes on Iran after upcoming elections.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2627
     },
     {
-      "date": "Oct 21",
-      "text": "Report indicates Netanyahu planned an attack on Iran earlier this month, but Trump opposed it.",
+      "date": "Oct 22",
+      "text": "Netanyahu states he is not seeking to attack Iran again before the Israel election.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPR2tFek1CVWlzWW53MkZQekkzaUlZQkJwWEpHcm1mTmVfMWo0MkJMN0lhQ194ek5kYVpZUDI3TmdFVnNxelkyd1YwOHNQT0EtN2s2aGl3YmJjZmpGNTljdTJzOHZtZkluczNrVXhLX2RqMEZjQ2ZfV2ZlMldtendyR1IyWXBPNnRSOTJ6cXpoR2NpYVBBZnlQVDhzVEVkSlFyWXoyWGFqcVAwZmxUOGtn0gG0AUFVX3lxTFB4WXdiZm4zVlZxZy1EZDlUTy1rckxMSjlKSFJleURFdExHU3BoLWhCekp6R203ejJGVjZXaVRIRm56d3lienU2N2lqT2t6YmVFaHdBN1R2enhNbm05R3lXSzhXZE1HcUhqZTVsd2JWSHFjYlNhNEYzUjZiNktHQy10M1JMNG1iaXFWdFZ4bGdaWThqMGpBY3puQ0toZW80Q2lubW91V2NDeU9FUF9oOEFhNXVJQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2626
+      "sourceUrl": "https://news.google.com/articles/CBMixgFBVV95cUxOLWQySUR2MFRlc1ZmU2lEaFRLU0VVWU14UVZhNm1Jc05obTk2SFV6UzZwLWhySUlaTXJISmdnc00wWnpNZHd0WGlIeC03ZmVnbzJuOUV6Zm96OE9sdTExbU5LdzBoa0U1S2QtMlNoWWQ1VUQtM1FzZHBXTGFxMDczVVRoWjNZbjIzaUpwMGlSS0s0VDAtZ3J5M0laNVlrT09Mc3ZwcjQwbE9YSDN4c2V0UmpWZ1lhanNDdS1hU3BtSUJzQ2tfbXc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2627
+    },
+    {
+      "date": "Oct 22",
+      "text": "US military is repositioning personnel at Mideast bases while also reducing its troop footprint in the region.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2627
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Defiance",
-      "headline": "Iran Prepares for War, Warns of Regional Destruction",
-      "summary": "Iran's commanders are preparing for further war and warn that any US attack would lead to regional destruction, while issuing warnings to the US. This stance underscores a readiness to respond forcefully to perceived threats.",
+      "perspective": "Iran's Stance",
+      "headline": "Tehran Prepares for War While Seeking Diplomacy",
+      "summary": "Iran's commanders are preparing for further conflict, warning of regional destruction if attacked, yet Tehran also calls for diplomatic solutions. The nation asserts its readiness to defend itself.",
       "tone": "defiant",
-      "latestSinceUpdate": 2622
+      "latestSinceUpdate": 2627
     },
     {
-      "perspective": "US/Israel Threat",
-      "headline": "US and Israel Threaten Renewed Strikes on Iran",
-      "summary": "US and Israeli officials are discussing and threatening renewed strikes against Iran, with Israeli experts warning that a new war is inevitable. This indicates a heightened state of readiness and potential for offensive action.",
-      "tone": "strained",
-      "latestSinceUpdate": 2622
-    },
-    {
-      "perspective": "Regional Diplomacy",
-      "headline": "Diplomatic Efforts Focus on Strait of Hormuz Peace",
-      "summary": "International leaders, including King Charles and the Sultan of Oman, are engaged in diplomatic efforts to promote peace and stability in the Strait of Hormuz. These efforts aim to de-escalate tensions in a critical global shipping lane.",
-      "tone": "neutral",
-      "latestSinceUpdate": 2622
-    },
-    {
-      "perspective": "Internal Challenges",
-      "headline": "Internal Issues Impact Military Readiness and Regional Stability",
-      "summary": "Internal assessments highlight challenges within the US military and ongoing issues with Hezbollah's influence in Lebanon, alongside concerns about settler violence in Israel. These factors contribute to regional instability and complicate strategic planning.",
+      "perspective": "US/Israel Posture",
+      "headline": "Renewed Strikes on Iran Planned Amidst Election Nuance",
+      "summary": "The US and Israel are reportedly planning renewed strikes on Iran post-elections, with threats of action. However, Netanyahu has stated he is not seeking to attack Iran again before the upcoming Israeli election.",
       "tone": "anxious",
-      "latestSinceUpdate": 2622
+      "latestSinceUpdate": 2627
+    },
+    {
+      "perspective": "Regional Dynamics",
+      "headline": "Hormuz Alternatives and Lebanon Talks Emerge",
+      "summary": "Discussions are underway regarding new routes that could make the Hormuz Strait redundant in five years. Separately, Israel and Lebanon are holding US-mediated military talks amidst tensions over Hezbollah.",
+      "tone": "neutral",
+      "latestSinceUpdate": 2627
+    },
+    {
+      "perspective": "US Military Assessment",
+      "headline": "Mideast Troop Adjustments and Internal Critique",
+      "summary": "The US military is repositioning personnel at Mideast bases and reducing its overall troop footprint in the region. This comes alongside internal assessments questioning 'Myths of Battlefield Triumph.'",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2627
     }
   ]
 });
