@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2629,
+  "updateSequence": 2630,
   "lastUpdated": "2026-10-22",
-  "lastSyncedAt": "2026-10-22T10:00:49.267Z",
+  "lastSyncedAt": "2026-10-22T15:03:06.215Z",
   "warDay": 237,
-  "summary": "Tensions between the US, Israel, and Iran are escalating, with plans for renewed strikes against Iran and Iranian threats of regional destruction and attacks on shipping in the Persian Gulf.",
+  "summary": "Tensions in the Middle East are extremely high with Iran revealing an 'offensive' doctrine and claiming attacks on multiple vessels in the Persian Gulf and Strait of Hormuz, while the US and Israel are reportedly drawing up plans for renewed strikes on Iran.",
   "lastNarrativeUpdate": "2026-10-22",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active, with signals indicating escalating tensions and plans for renewed conflict."
+    "summary": "No active ceasefire is reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.65
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.55,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
+    "nuclearIndex": 45,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 22",
-      "text": "Israel's election may change its leader, but not Iran war policy.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxOZm1ibWE2TFE3M0JlejZpUkp2aHJkY1NBTFRUR2tvaVV5dmtrbkFjbTlYMGM5WkpOTUp6MXFka3pyX1FGeUthY1NlS25oamJ6R1kzdjR2NHJIWWJDay1VWm00WmJkNjhnWlBwNFp0RDhvdnBZbjMyZHNabGZPSjFhbzJ0eU5lRGpvZXFaN0pXb1F0aWVveW93WWw2a0k1eFg0anJWQllTODdPaDkyejZVNVF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2629
-    },
-    {
-      "date": "Oct 22",
-      "text": "Iran calls for diplomacy but states readiness to ‘defend’ itself.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQUDdudll1aUxJTEdvMlBrZGRqSENudHVWUy1HQml2LUM3TVZzUl96bUZSMTFSU1dtUGdKUkxZRkFwc3U5UzF5X0kzRDVoQm4wWkpjVWNlaHZpWkZQZEdOTTl3cnVjbF90UGJMZ1pGSU5CX0pjdUZlcnpabm1YYU1CcGN4djhIdWdkUHpob1RxTTQ2Um9id0tGRER4OTZMTUFvb1dNSnlpMW1aaFR4Z2RXVmNQUjFxbE5YRTl30gHAAUFVX3lxTFA2cERpMnJnd201QmtUaWV2aGQ4R0I2RDZYYVRRUUhtMi05ZllYOXpMbXN3b081RTNGa09tOTBJaENxcUtsYkhtLXRaU1AwbUhCTjNDQW5wY2R5NmU0U2ZPZXpfU3dMUXlGcE9raGRLcWp3RHZGeVNqOER2NkpJaUk0SDlVUV9mM1hHdG9mSjBqQ0xqSVdMN2wzdWxvaFNSTHpsSU1mV3U3NjlTTGFOM2haVEJsR0J2ZU9hMkRBYkFWaw?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran reveals 'offensive' doctrine, prompting a US alert regarding potential war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPYWoydmRWR3hfaGxNdFNTVU5hcGhtckhXVFI1d3RyLU1BS3JPaDRma29uWktuQURIQ2xqMlRFMmFCeEJranpybUZhWHlkSjktc3p2TUtvckF3ZUNMVzZlRDhIYk14YzBFc0ZxUmVmd1E5bmVHTDhOLXNPTkhzZ1VoXzNtWk9pdDhWcUNKMGhaV3BDSFZVUlNLME9WSG1ZTFVwSnV4SkZpU1LSAa4BQVVfeXFMTVZwTlRtcW1DZ3BLaDNPRUhXV0RFTFJiUktZRVRxcG1BZTg5c2dFYW1jWU96WlB0U2RzVkxhblhDcU9yNGpwNlc2OFRjYnJSblYwWS01dlZfbU5aWk92M0dzOVd1bWV2UUE3U0x1dWxxOGthbkZJRDJ2MUJTRHk0SldTQ01UbldwWVZrRG40Q2M2S3RsME9SZTVaZ1JuOHJZeXZjd0h0NHJUN3MyeU9R?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2629
+      "latestSinceUpdate": 2630
     },
     {
       "date": "Oct 22",
-      "text": "Iran’s commanders prepare for further war, stating 'the world will be amazed'.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2629
-    },
-    {
-      "date": "Oct 22",
-      "text": "Israeli experts warn a renewed Iran war is only a matter of time.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOR3AwS1dEYnBaTk1ZamFqRU5zUk1jY0laa01MUktpREM1ZUd5b21GbnlaYzZwVGVLaGVMVDM3VnBoTFNXQWNlMTN6MEFhb201VlY0Uk15TFd5eGxpTnZaQkJKejAwVl91T1Rqa2FMX3JhU3FNRXppUWc0ZkVFYTR1M1JyUE1ZRHBzOFFqQTV0U0NmelgyZUhVOFYzRdIBoAFBVV95cUxPZG5uN1pKTkVoWF9VOThPLVZrS0xIUGFqYTg5a1hoc25adEh3UG14U2RGVzRGQ285dVZFREhCMHRrS2tDTEY5SDR1di1sZHQzWE5BZkNlWG9LamJxQzZJVkFiblNnZ1Nfa2lVdEh4OFJwWm96djlMNWlIZ0tSNW5Md3ZRQTl6RE5HRHp5cXhBMS1nMXVCcDl2UHp6ZzZOZmxw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2629
-    },
-    {
-      "date": "Oct 22",
-      "text": "U.S. and Israel draw up plans for renewed strikes on Iran after elections/midterms, focusing on short, intense attacks.",
+      "text": "U.S. and Israel are reportedly drawing up plans for renewed strikes on Iran after upcoming elections.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2629
+      "latestSinceUpdate": 2630
     },
     {
       "date": "Oct 22",
-      "text": "Iran states a US attack would mean ‘destruction’ throughout the region.",
+      "text": "Iran's IRGC Navy claims to have hit seven vessels and warns the US of a wider response.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1wRmU1RzJvUnBDSDFoNnRnZ0ZFdUtDWDNkMGlsSHRkSHhPN1RBaFZDNG0zd3E0TDFubVRidWkxTlg3ZVNHRGF4YnNiN2t2SVZBSU1GSl9nM0VVa2RIT21jTklHLUV6ZFI1dXfSAW9BVV95cUxQa2FxRGFjdHc1Y3dzTVhIZFJ5b1huMTdVeWw2R0Q5a1B0RTZGSlFyZmR4Yl9sZmE0anY2Ukw5VDNzem9mWU96UHRtd3JOYWd2cXlKX3RDNjE5bVZVU29LOEpvLUhydjc1UTl4Y2dsZms?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxNcjlJZ1lSN1BZWFJWdDlKUWh3LWRselVrNHpobGthcDVzdnZ6bjJfM1dZcTJONUtTdURHc0ZaQkk0cUhzTlp0NVZocWlTNEhIWTB4TkN6VVZPMHdfN2ZsYXVmY2NISEN6dnRERW01T2dXbXNsb2dMNHl1UFdiTW1LVzJsZU1KYThwVDZ5OHdvYzZQMEZ6djduOERMNEI4YVVVTDFqVHBNZlpOcmJiNnppOVNJVjVzbUU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2630
+    },
+    {
+      "date": "Oct 22",
+      "text": "Iran claimed to hit several more tankers in the Hormuz Strait, contributing to climbing oil prices.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2630
+    },
+    {
+      "date": "Oct 22",
+      "text": "Iran issues a 'serious warning' to US military forces operating in the Middle East.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPa19HUXRONnZSZ3JPZDJDU2hkMzUtOUhOeXJad2RNanh5ME1uMFg3Si1oRkl3UGh2djVTLXNNQXJmbU1mVHgxbmxNNEwzbXdNQ2YtYnMyQ05Qb1ppNVZCY1VEQlhrd0VtbFdyOXZ3VE1hU3ExcjVqNEFYaVVBWGZNeks4eEhodw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2630
+    },
+    {
+      "date": "Oct 22",
+      "text": "The UN reports 8,513 casualties in Yemen since August, indicating ongoing regional conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOSGdCWnRNNlluUVVqb3dZbVR5ZzUxb3NCTTVDVDNrYkxScUlvSWRCTzVGYWxXVS0zMnJxOEJ4cm92OHRnazVyYWItMWN2a2dJQVo4aUVLU3ZqdWFGT1REVDBwTG1JX1E5akp6c21nNHp6MXUxQ1ZkSGZna3lyNkpzT1pfUk5LdVRjenlra3ZEY3Nrcmd5X19QTUplVFhqc2FmUThKQWl3TUVsRTNSamJGaDhDYlAtMzQ3Q05j0gHAAUFVX3lxTE1FVFFibW1vUFcyYlVTNTlSV0Z2aTFxODdlY0VodzRtSFRjTGNLODU4QlU5dnFydWE2ZExucG9rZDc1OGtvd0NiTFhqdFEzZkVmYkFPSHBNakp0dXBZRnJaLWU4Y1h2QXNPQzVZRjdkcmdwMnBGU1RQUDJJU2tMUTdaMjRUM2VhbktIYTZ2aTZ2Uk5NVlJWbVVHRkloVlhXbG1HNzVlN3poSGZZUVpnb1FKZFJRQ1NfSHZXclY3MkF5UQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2629
+      "latestSinceUpdate": 2630
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
