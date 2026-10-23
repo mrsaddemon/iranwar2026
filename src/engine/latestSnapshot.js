@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2634,
+  "updateSequence": 2635,
   "lastUpdated": "2026-10-23",
-  "lastSyncedAt": "2026-10-23T05:28:18.632Z",
+  "lastSyncedAt": "2026-10-23T10:26:36.358Z",
   "warDay": 238,
-  "summary": "Tensions in the Middle East are escalating significantly as the U.S. and Israel reportedly plan renewed strikes on Iran post-midterms, while Iran issues warnings, claims tanker attacks, and threatens retaliation against regional oil and AI facilities.",
+  "summary": "Tensions in the Middle East are escalating as the U.S. and Israel reportedly plan renewed strikes on Iran, which has responded with threats of regional destruction and reported attacks on ships in the Hormuz Strait.",
   "lastNarrativeUpdate": "2026-10-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect; signals indicate a potential escalation of conflict."
+    "summary": "No active ceasefire is in effect, with attacks continuing and diplomatic talks failing to achieve a breakthrough."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.78,
-        "aggression": 0.82
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 90,
-    "oilDisruption": 88,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 40,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 23",
+      "date": "Oct 22",
       "text": "U.S. and Israel are reportedly planning for a possible post-midterms attack on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2634
-    },
-    {
-      "date": "Oct 23",
-      "text": "Iran issues 'serious warning' to US military forces in the Middle East.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxPa19HUXRONnZSZ3JPZDJDU2hkMzUtOUhOeXJad2RNanh5ME1uMFg3Si1oRkl3UGh2djVTLXNNQXJmbU1mVHgxbmxNNEwzbXdNQ2YtYnMyQ05Qb1ppNVZCY1VEQlhrd0VtbFdyOXZ3VE1hU3ExcjVqNEFYaVVBWGZNeks4eEhodw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2634
+      "sourceUrl": "https://news.google.com/articles/1",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2635
     },
     {
-      "date": "Oct 23",
-      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war.",
+      "date": "Oct 22",
+      "text": "Iran threatens to strike oil and AI facilities across the Gulf if the US and Israel renew attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTE9wRzhUenlBb1RFOGhmNHN2SEJ4a3dVeVRSUmUzaVNuODYxWnNsbjQtT3dad2UtY29kaG1BQ0dBOTlTOXhabEFzT256V0R5anFpRC1XOG5IWVJEZGNJRGZtaWp2SV9CRGVEU29EbmZsaTlPWDFWc1RUSXc0T09JZzg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Yahoo",
-      "latestSinceUpdate": 2634
+      "sourceUrl": "https://news.google.com/articles/2",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2635
     },
     {
-      "date": "Oct 23",
-      "text": "Oil prices jump to five-month high as attacks threaten global supply.",
+      "date": "Oct 22",
+      "text": "Iran claims seven ships were hit in the Hormuz Strait and warns the US of a wider response.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/3",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2635
+    },
+    {
+      "date": "Oct 22",
+      "text": "Iran issues a 'serious warning' to US military forces deployed in the Middle East.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxOSkIzeWdNTnhad3RfQTdsMFg0OHQ5ejlGVjF2R016akVNelJYNDdVQVNsaE5PRXQ2SWJpT1JDbG5RRmtDdWFEazN2b3FLYkY3eUx5Rmk4bThDcVZmWExKcTFBVW51cEpSUHBPd0ZsUGVnWXF5eTJxY0V1aHlaYUtQTHhsYU00WjdtWk8yOS1UMW9SVVAwN2I3bU43OA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2634
+      "sourceUrl": "https://news.google.com/articles/4",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2635
     },
     {
-      "date": "Oct 23",
+      "date": "Oct 22",
       "text": "Hezbollah is reportedly recruiting Latin American criminals to prepare attacks against Israeli and Jewish targets.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAJBVV95cUxQWGhXeW9zMHJmbWZyUGtoZ2ZNTHRFcERMMEhUcURrdDVWT2xQU0ZNR0hwRERXUlUzZ2wyZ3d4OE5HZlZ6enk1VFpQa2VySHNLSFNUTWltb3JGQ0trRkg1cGJqWVJCNWhldjhjcTVzeTF5UFNIRzlvcXExb01teUdHaTdUZFgxYWxSNGdLQTNLMUM2SXI1SFN3Vm0xQW1Qd2t0ZkFLQ1c3d2N5Qk52OC16WWRYN09kNFlyS3d3SHJZdGFoYnJPdmlqTnNiZno4WWZWNm9BQ0IxN3k5VmJYQWxNbzl2MXVHcWg0eDI1NTBNdTdOUmNLQUF0UTZnWldlU05sWnlKXzAzWkw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 2633
+      "sourceUrl": "https://news.google.com/articles/5",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2635
     },
     {
-      "date": "Oct 23",
-      "text": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2634
+      "date": "Oct 22",
+      "text": "Lebanon-Israel talks in the US conclude without a breakthrough as cross-border attacks persist.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/6",
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2635
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (15 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
