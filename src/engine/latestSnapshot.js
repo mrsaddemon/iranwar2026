@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2635,
+  "updateSequence": 2636,
   "lastUpdated": "2026-10-23",
-  "lastSyncedAt": "2026-10-23T10:26:36.358Z",
+  "lastSyncedAt": "2026-10-23T15:25:00.413Z",
   "warDay": 238,
-  "summary": "Tensions in the Middle East are escalating as the U.S. and Israel reportedly plan renewed strikes on Iran, which has responded with threats of regional destruction and reported attacks on ships in the Hormuz Strait.",
+  "summary": "Tensions in the Middle East are critically high as the US and Israel plan renewed strikes on Iran post-elections, while Iran reveals an offensive doctrine, reports ship attacks in the Strait of Hormuz, and threatens retaliation against Gulf oil and AI facilities.",
   "lastNarrativeUpdate": "2026-10-23",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in effect, with attacks continuing and diplomatic talks failing to achieve a breakthrough."
+    "summary": "No active ceasefire is reported amidst ongoing threats and attacks."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 60,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
+    "sanctionsPressure": 64,
+    "globalPressure": 87,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 22",
-      "text": "U.S. and Israel are reportedly planning for a possible post-midterms attack on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/1",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2635
-    },
-    {
-      "date": "Oct 22",
-      "text": "Iran threatens to strike oil and AI facilities across the Gulf if the US and Israel renew attacks.",
+      "date": "Oct 23",
+      "text": "Middle East on edge as threat of new US attack grows.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/2",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2635
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOSGdCWnRNNlluUVVqb3dZbVR5ZzUxb3NCTTVDVDNrYkxScUlvSWRCTzVGYWxXVS0zMnJxOEJ4cm92OHRnazVyYWItMWN2a2dJQVo4aUVLU3ZqdWFGT1REVDBwTG1JX1E5akp6c21nNHp6MXUxQ1ZkSGZna3lyNkpzT1pfUk5LdVRjenlra3ZEY3Nrcmd5X19QTUplVFhqc2FmUThKQWl3TUVsRTNSamJGaDhDYlAtMzQ3Q05j0gHAAUFVX3lxTE1FVFFibW1vUFcyYlVTNTlSV0Z2aTFxODdlY0VodzRtSFRjTGNLODU4QlU5dnFydWE2ZExucG9rZDc1OGtvd0NiTFhqdFEzZkVmYkFPSHBNakp0dXBZRnJaLWU4Y1h2QXNPQzVZRjdkcmdwMnBGU1RQUDJJU2tMUTdaMjRUM2VhbktIYTZ2aTZ2Uk5NVlJWbVVHRkloVlhXbG1HNzVlN3poSGZZUVpnb1FKZFJRQ1NfSHZXclY3MkF5UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2636
     },
     {
       "date": "Oct 22",
-      "text": "Iran claims seven ships were hit in the Hormuz Strait and warns the US of a wider response.",
+      "text": "Iran reveals ‘offensive’ doctrine, US issues alert: Is war imminent?",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/3",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2635
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPYWoydmRWR3hfaGxNdFNTVU5hcGhtckhXVFI1d3RyLU1BS3JPaDRma29uWktuQURIQ2xqMlRFMmFCeEJranpybUZhWHlkSjktc3p2TUtvckF3ZUNMVzZlRDhIYk14YzBFc0ZxUmVmd1E5bmVHTDhOLXNPTkhzZ1VoXzNtWk9pdDhWcUNKMGhaV3BDSFZVUlNLME9WSG1ZTFVwSnV4SkZpU1LSAa4BQVVfeXFMTVZwTlRtcW1DZ3BLaDNPRUhXV0RFTFJiUktZRVRxcG1BZTg5c2dFYW1jWU96WlB0U2RzVkxhblhDcU9yNGpwNlc2OFRjYnJSblYwWS01dlZfbU5aWk92M0dzOVd1bWV2UUE3U0x1dWxxOGthbkZJRDJ2MUJTRHk0SldTQ01UbldwWVZrRG40Q2M2S3RsME9SZTVaZ1JuOHJZeXZjd0h0NHJUN3MyeU9R?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2636
     },
     {
       "date": "Oct 22",
-      "text": "Iran issues a 'serious warning' to US military forces deployed in the Middle East.",
+      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2636
+    },
+    {
+      "date": "Oct 22",
+      "text": "Iran says seven ships hit in Hormuz Strait, warns US of wider response.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQb2lYdm4tQXgwRVpCQVdqRnJ4RHQzRkZFZWpRZk1sNHB0dUQ5d24xRXVpdDdsSWxMSlNCNEVxZlRqcjJ1TFJ3YjhDd1ptbXFwajRGZTZBNXBEYklIWkJ3LVJ3eHhsRmY2Zy1iaGNlelVnVnVmeG9EaHM0bk9USEw5TEZ4cHVGbkFIQmZOOHRmaV95TENqSHBBZTZMU0E2dHdnbnJ1Q3hFbUZtaUpIR2RCMdIBtgFBVV95cUxNMm54SzB2S0o0VFJ5QlVVbzJnQXN5Q0FldUZTNy1rTG5TT2pLb0t4Q2VXYXZ3aEdVUTdoTXdlVC1kcC02NEw5QTJBN0JoS1ZodFY2UXZTdVVBbkg2MWJyYjFYZGpFXzhuNG04NUhjc1VLNTEzMm5zV01JNkVsYU43WDZKOXpNM2wyT054LXVWUzIwa3hHUlctWWstX0QxajFpWm1FeHFkVVg5VDZSMFV5U3Mzc1BEUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2636
+    },
+    {
+      "date": "Oct 22",
+      "text": "US blockade in Strait of Hormuz traps $4.5B in Iranian oil.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE1ScXdFeElWb0ZfRU95V01NZDFsN2xzLWJUOXJTelF3a0xCQjdZWXVld3RNSkdZM29pSzRtc09rOUxLd3dEcFlJN3FTLXhhS0hsSUx5SVhB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2636
+    },
+    {
+      "date": "Oct 22",
+      "text": "Ship Attacks in Strait of Hormuz Hit Record High in October.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/4",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2635
-    },
-    {
-      "date": "Oct 22",
-      "text": "Hezbollah is reportedly recruiting Latin American criminals to prepare attacks against Israeli and Jewish targets.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/5",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2635
-    },
-    {
-      "date": "Oct 22",
-      "text": "Lebanon-Israel talks in the US conclude without a breakthrough as cross-border attacks persist.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/6",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2635
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQRUtkTC1ESHJScW9jZndBRldBSTR1NExzZWdIazdGVzV0UkpOdmJyWlFja2lsT0RZQncwT0VZUmVoclF6Zml6RWFSVnJEYzFueDBaZDV1bUdtX3hLbmt6dS1tVWJmS3k1QnMtOVJMemVnbUpTbkQyWmhLR0VCZEdyRmZ5RV9ZOWdjZVFlX2d0Y3FrdFpuSWdqSDAzcDlxbzkwWWRGd2M5RTRGM2loMTZBeEdzYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "U.S. News & World Report",
+      "latestSinceUpdate": 2636
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (15 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
