@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2645,
+  "updateSequence": 2646,
   "lastUpdated": "2026-10-24",
-  "lastSyncedAt": "2026-10-24T21:49:20.049Z",
+  "lastSyncedAt": "2026-10-24T23:48:02.737Z",
   "warDay": 239,
-  "summary": "The US and Israel are reportedly planning renewed strikes on Iran after upcoming elections, while Iran warns against US military presence in the Gulf and reports attacks on oil tankers in the Strait of Hormuz.",
+  "summary": "Tensions in the Gulf region are escalating significantly as the U.S. and Israel reportedly plan renewed strikes on Iran, while Iran issues strong warnings against U.S. military presence and claims attacks on oil tankers in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst escalating tensions and threats of renewed conflict."
+    "summary": "No ceasefire or de-escalation efforts are currently reported amidst rising tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.87
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.89
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 88,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 40,
+    "escalationLevel": 90,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
     "sanctionsPressure": 64,
-    "globalPressure": 83,
+    "globalPressure": 87,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 23",
-      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
+      "text": "U.S. and Israel are reportedly planning for a possible post-midterms attack on Iran.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 2644
+      "latestSinceUpdate": 2646
     },
     {
       "date": "Oct 24",
-      "text": "Iran warns that U.S. military not allowed in Gulf 'under any circumstance'.",
+      "text": "Iran warns that the U.S. military is not allowed in the Gulf 'under any circumstance'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2645
+      "latestSinceUpdate": 2646
     },
     {
       "date": "Oct 24",
-      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war.",
+      "text": "Iran claims 7 oil tankers were attacked in the Strait of Hormuz amid fears of a return to war.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2644
+      "latestSinceUpdate": 2646
     },
     {
       "date": "Oct 24",
-      "text": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2644
-    },
-    {
-      "date": "Oct 24",
-      "text": "Hezbollah is reportedly recruiting Latin American criminals to prepare attacks against Israeli and Jewish targets.",
+      "text": "Former President Trump indicates the U.S. may conduct another military operation against Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAJBVV95cUxQWGhXeW9zMHJmbWZyUGtoZ2ZNTHRFcERMMEhUcURrdDVWT2xQU0ZNR0hwRERXUlUzZ2wyZ3d4OE5HZlZ6enk1VFpQa2VySHNLSFNUTWltb3JGQ0trRkg1cGJqWVJCNWhldjhjcTVzeTF5UFNIRzlvcXExb01teUdHaTdUZFgxYWxSNGdLQTNLMUM2SXI1SFN3Vm0xQW1Qd2t0ZkFLQ1c3d2N5Qk52OC16WWRYN09kNFlyS3d3SHJZdGFoYnJPdmlqTnNiZno4WWZWNm9BQ0IxN3k5VmJYQWxNbzl2MXVHcWg0eDI1NTBNdTdOUmNLQUF0UTZnWldlU05sWnlKXzAzWkw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "i24NEWS",
-      "latestSinceUpdate": 2644
-    },
-    {
-      "date": "Oct 24",
-      "text": "Trump says US may do another military operation against Iran.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOZjhrQTB6UmEzUzQ0N1RPV1BiZXhoaGdyWmhCTVpTTWgydnE3aEd0WHJHXzlpR09JXzh0SVpGSHkzc0JJR2g4M21MbVM1dUljQzd4UWNrSnlDWkw2SlgzOHlITmpJNHpuTTAtMmdPMXdXR0JGQlF4LUtHMTUxSWdWeVRoZVhMRlJtY0NmNHp4enJ2NzVwdE5xUm1zdVRfZ0pYdE0wRGFpU0k0eGpMZTlpNEl2bmQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2644
+      "latestSinceUpdate": 2646
+    },
+    {
+      "date": "Oct 24",
+      "text": "An intelligence memo warns that Iran has ramped up efforts to target U.S. personnel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2646
     }
   ],
   "sourceStatuses": [
