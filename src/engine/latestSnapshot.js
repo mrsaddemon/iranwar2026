@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2643,
+  "updateSequence": 2644,
   "lastUpdated": "2026-10-24",
-  "lastSyncedAt": "2026-10-24T17:01:58.043Z",
+  "lastSyncedAt": "2026-10-24T19:23:56.205Z",
   "warDay": 239,
-  "summary": "Tensions between the US and Iran are escalating significantly, with reports of planned strikes, an Iranian 'offensive' doctrine, and attacks on oil tankers in the Strait of Hormuz.",
+  "summary": "Tensions remain high between the US, Israel, and Iran, with reports of renewed strike planning, Iranian warnings against US presence in the Gulf, and alleged attacks on oil tankers in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; tensions are actively escalating."
+    "summary": "No ceasefire is currently active between the involved parties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -27,13 +27,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
@@ -42,13 +42,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 55,
+    "nuclearIndex": 40,
     "escalationLevel": 85,
     "oilDisruption": 90,
     "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 23",
-      "text": "Iran reveals an 'offensive' doctrine, prompting a US alert regarding the imminence of war.",
+      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/iran-offensive-doctrine",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2643
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2644
     },
     {
       "date": "Oct 24",
-      "text": "Iran reports 7 oil tankers attacked in the Strait of Hormuz, raising fears of a return to war.",
+      "text": "Iran warns that U.S. military is not allowed in the Gulf 'under any circumstance'.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2644
+    },
+    {
+      "date": "Oct 24",
+      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/iran-tanker-attacks",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2643
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2644
     },
     {
       "date": "Oct 24",
-      "text": "U.S. and Israel are reportedly planning for renewed strikes on Iran following upcoming elections.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/us-israel-iran-strike-plans",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2643
+      "text": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2644
     },
     {
       "date": "Oct 24",
-      "text": "Houthis launch a ballistic missile attack on Yemen’s Aden amidst regional instability.",
+      "text": "Hezbollah is reportedly recruiting Latin American criminals to prepare attacks against Israeli and Jewish targets.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/houthi-aden-attack",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2643
+      "sourceUrl": "https://news.google.com/articles/CBMiiAJBVV95cUxQWGhXeW9zMHJmbWZyUGtoZ2ZNTHRFcERMMEhUcURrdDVWT2xQU0ZNR0hwRERXUlUzZ2wyZ3d4OE5HZlZ6enk1VFpQa2VySHNLSFNUTWltb3JGQ0trRkg1cGJqWVJCNWhldjhjcTVzeTF5UFNIRzlvcXExb01teUdHaTdUZFgxYWxSNGdLQTNLMUM2SXI1SFN3Vm0xQW1Qd2t0ZkFLQ1c3d2N5Qk52OC16WWRYN09kNFlyS3d3SHJZdGFoYnJPdmlqTnNiZno4WWZWNm9BQ0IxN3k5VmJYQWxNbzl2MXVHcWg0eDI1NTBNdTdOUmNLQUF0UTZnWldlU05sWnlKXzAzWkw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "i24NEWS",
+      "latestSinceUpdate": 2644
     },
     {
       "date": "Oct 24",
-      "text": "Iran warns the U.S. military is not allowed in the Gulf 'under any circumstance' as tensions rise.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/iran-gulf-warning",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2643
+      "text": "Trump says US may do another military operation against Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOZjhrQTB6UmEzUzQ0N1RPV1BiZXhoaGdyWmhCTVpTTWgydnE3aEd0WHJHXzlpR09JXzh0SVpGSHkzc0JJR2g4M21MbVM1dUljQzd4UWNrSnlDWkw2SlgzOHlITmpJNHpuTTAtMmdPMXdXR0JGQlF4LUtHMTUxSWdWeVRoZVhMRlJtY0NmNHp4enJ2NzVwdE5xUm1zdVRfZ0pYdE0wRGFpU0k0eGpMZTlpNEl2bmQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2644
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
