@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2644,
+  "updateSequence": 2645,
   "lastUpdated": "2026-10-24",
-  "lastSyncedAt": "2026-10-24T19:23:56.205Z",
+  "lastSyncedAt": "2026-10-24T21:49:20.049Z",
   "warDay": 239,
-  "summary": "Tensions remain high between the US, Israel, and Iran, with reports of renewed strike planning, Iranian warnings against US presence in the Gulf, and alleged attacks on oil tankers in the Strait of Hormuz.",
+  "summary": "The US and Israel are reportedly planning renewed strikes on Iran after upcoming elections, while Iran warns against US military presence in the Gulf and reports attacks on oil tankers in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active between the involved parties."
+    "summary": "No active ceasefire is reported amidst escalating tensions and threats of renewed conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.88,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 73
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.87
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.55,
+        "aggression": 0.89
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
+    "nuclearIndex": 45,
+    "escalationLevel": 88,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 46
+    "globalPressure": 83,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,11 +68,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 24",
-      "text": "Iran warns that U.S. military is not allowed in the Gulf 'under any circumstance'.",
+      "text": "Iran warns that U.S. military not allowed in Gulf 'under any circumstance'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2644
+      "latestSinceUpdate": 2645
     },
     {
       "date": "Oct 24",
