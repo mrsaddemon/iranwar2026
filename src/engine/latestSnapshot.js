@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2642,
+  "updateSequence": 2643,
   "lastUpdated": "2026-10-24",
-  "lastSyncedAt": "2026-10-24T13:39:20.166Z",
+  "lastSyncedAt": "2026-10-24T17:01:58.043Z",
   "warDay": 239,
-  "summary": "The US-Iran conflict continues with direct military strikes by the US on Iranian oil tankers, increased attacks on shipping in the Strait of Hormuz, and ongoing planning by the US and Israel for potential renewed strikes on Iran.",
+  "summary": "Tensions between the US and Iran are escalating significantly, with reports of planned strikes, an Iranian 'offensive' doctrine, and attacks on oil tankers in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-24",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is currently active between the primary belligerents."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; tensions are actively escalating."
   },
   "actorOverrides": {
     "usa": {
@@ -18,22 +18,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 90,
-    "oilDisruption": 99,
-    "tradeImpact": 87,
+    "nuclearIndex": 55,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,50 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 22",
-      "text": "An update provides an overview of the evolving US-Iran conflict landscape.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/iran-update-oct-22",
+      "date": "Oct 23",
+      "text": "Iran reveals an 'offensive' doctrine, prompting a US alert regarding the imminence of war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/iran-offensive-doctrine",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2642
+      "latestSinceUpdate": 2643
     },
     {
       "date": "Oct 24",
-      "text": "Ship attacks in the Strait of Hormuz have reached a record high in October.",
+      "text": "Iran reports 7 oil tankers attacked in the Strait of Hormuz, raising fears of a return to war.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/hormuz-attacks-record-high",
+      "sourceUrl": "https://news.google.com/articles/iran-tanker-attacks",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2642
+      "latestSinceUpdate": 2643
     },
     {
       "date": "Oct 24",
-      "text": "Iran reports 7 oil tankers were attacked in the Strait of Hormuz, raising fears of escalating conflict.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/iran-7-tankers-attacked",
+      "text": "U.S. and Israel are reportedly planning for renewed strikes on Iran following upcoming elections.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/us-israel-iran-strike-plans",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2642
+      "latestSinceUpdate": 2643
     },
     {
       "date": "Oct 24",
-      "text": "A vessel is on fire in the Strait of Hormuz following a sea mine blast.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/hormuz-vessel-fire-mine",
+      "text": "Houthis launch a ballistic missile attack on Yemen’s Aden amidst regional instability.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/houthi-aden-attack",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2642
+      "latestSinceUpdate": 2643
     },
     {
       "date": "Oct 24",
-      "text": "US military strikes three Iranian tankers in retaliation for missile attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/us-strikes-iranian-tankers",
+      "text": "Iran warns the U.S. military is not allowed in the Gulf 'under any circumstance' as tensions rise.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/iran-gulf-warning",
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2642
-    },
-    {
-      "date": "Oct 24",
-      "text": "US military destroyed five Iranian oil tankers after attacks on a Navy warship.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/us-destroys-iranian-tankers",
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2642
+      "latestSinceUpdate": 2643
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
