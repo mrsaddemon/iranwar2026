@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2651,
+  "updateSequence": 2652,
   "lastUpdated": "2026-10-25",
-  "lastSyncedAt": "2026-10-25T19:18:16.793Z",
+  "lastSyncedAt": "2026-10-25T21:53:06.474Z",
   "warDay": 240,
-  "summary": "Tensions remain high between the US and Iran, with both sides considering potential military actions and diplomatic efforts ongoing amidst increased regional instability.",
+  "summary": "Tensions remain high in the Middle East as the US and Israel reportedly plan potential future strikes on Iran, while Iran warns against US military proximity and is suspected of targeting US personnel.",
   "lastNarrativeUpdate": "2026-10-25",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported, with threats of renewed conflict from both sides."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst high regional tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
         "precision": 0.9,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.85,
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 35,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 24",
-      "text": "US and Israel are reportedly planning for possible major strikes on Iran after the midterms.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2651
-    },
-    {
-      "date": "Oct 24",
-      "text": "Iran threatens to strike oil and AI facilities across the Gulf if US and Israel renew attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2651
-    },
-    {
-      "date": "Oct 25",
-      "text": "Trump states 'no strike today' while weighing a deal with Iran against action to 'finish them off'.",
+      "text": "Iran warns US against military proximity amid US attack considerations.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2651
+      "latestSinceUpdate": 2652
     },
     {
       "date": "Oct 25",
-      "text": "Qatar mediators are reportedly in Tehran amid escalating tensions.",
+      "text": "US President Trump considers options for the ongoing conflict with Iran, including a quick end or letting it 'wither'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQeGt4QW93RlZCRmRnTV9pMzVTeG55Ty1EbG1wcGU5M0VONm9wM3lEX0lvOEpVcW05OWNSWjJoOTJUSDF5cU1DSFhmZmp2OWdOc1ZPNURIRFF0M3ZzVGxteTRDd2ROZGplLUdWcjJSdUdNUkFoSzYwdDN0dy1yMmttWEdyWGVKeVNmRGE1ODRrcWMzRW9lQTVmMjdsT052QmVFN0Z2cmlRWWM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2652
+    },
+    {
+      "date": "Oct 25",
+      "text": "US and Israel are reportedly drawing up plans to resume attacks on Iran post-election.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2652
+    },
+    {
+      "date": "Oct 25",
+      "text": "Qatar mediators visit Tehran amidst regional tensions.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2651
+      "latestSinceUpdate": 2652
     },
     {
       "date": "Oct 25",
-      "text": "Ship attacks in the Strait of Hormuz have hit a record high in October.",
+      "text": "US CENTCOM commander inspects Strait of Hormuz, confirming it is clear of mines.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2652
+    },
+    {
+      "date": "Oct 25",
+      "text": "Intelligence memo warns of increased Iranian efforts to target US personnel.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOT0p6ZElVazFhVWJxRy15cXJ6X2VJZlBZbkp6dTFNUGNzb1pCbjYyenA2UE5ERXBYMnMya2tYNkNfcGN3U3FGZ3V2MzdaN0RWUng5VFJHVl9jVk9LLVJGOVFVRFNKR21sc0pULWQ0Vm9uQk9tODlWTGs0U3BSeFd2MC15X2RIakQ2Mkw0eFhMa1Y2UUVWYVBsZkhrZHowVnlaWUpKZA?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2651
-    },
-    {
-      "date": "Oct 25",
-      "text": "An oil slick from a tanker in the Hormuz Strait has washed up on UAE beaches.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPNmtfU2dvTlRXRVJJdUdYbTR6Q0s1VGJ6dVNHenBfMmF1NGxLeW9hOTFzeWFmV2JsTWFJc1JnSXFZOV9LUk5yLV9XeE1YNDUyRGVkdDRFSGJ0TEl3YlpUMnFYVE1xUGlrQ0xUTXQ1QUowYW1xMFk2YS1mSXRYbTN2ZTlRaW4xdzlwYjNrV0djU0dNTWlPdlhybWtPMVFnM1k2T3dDMlliODhqWHh3VkpNNW81azBzQdIBuwFBVV95cUxOdXZYVGk1TU1WNlBqYVczeDFuQjZDR1Z3Ym5NSW9hd0J5RWNJdkJGMWRxTUxvaEdnclcwMmpEUF9CY3Vvb3RzMEtDQl82bnltVV9WVWFYdVBsRG5WWUg2T28zX01ER20zUTFXVmd4MXFCcVBMN3FVdFczYzU3OWVXaUlwZ2NDTnNmNll2UTN2d2lEY1VtOVNzNGg0NFB3MndXUWVFVUtXVzRVYkFORFFKT0ZWNUtTUWxvdF9v?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2651
+      "latestSinceUpdate": 2652
     }
   ],
   "sourceStatuses": [
