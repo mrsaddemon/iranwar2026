@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2646,
-  "lastUpdated": "2026-10-24",
-  "lastSyncedAt": "2026-10-24T23:48:02.737Z",
-  "warDay": 239,
-  "summary": "Tensions in the Gulf region are escalating significantly as the U.S. and Israel reportedly plan renewed strikes on Iran, while Iran issues strong warnings against U.S. military presence and claims attacks on oil tankers in the Strait of Hormuz.",
-  "lastNarrativeUpdate": "2026-10-24",
+  "updateSequence": 2647,
+  "lastUpdated": "2026-10-25",
+  "lastSyncedAt": "2026-10-25T01:44:45.297Z",
+  "warDay": 240,
+  "summary": "Signals indicate heightened tensions between the US, Israel, and Iran, with plans for renewed strikes against Iran and Iranian warnings of retaliation and alleged attacks on oil tankers in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-10-25",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst rising tensions."
+    "summary": "No active ceasefire is reported amidst escalating tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -19,21 +19,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.8
+        "precision": 0.85,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 87,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,43 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 23",
-      "text": "U.S. and Israel are reportedly planning for a possible post-midterms attack on Iran.",
-      "severity": "critical",
+      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 2646
+      "latestSinceUpdate": 2647
     },
     {
-      "date": "Oct 24",
-      "text": "Iran warns that the U.S. military is not allowed in the Gulf 'under any circumstance'.",
+      "date": "Oct 25",
+      "text": "Gulf nations brace for possible return to all-out war between US and Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQeUw5aDNFOXhGaTNETlYtbU9oNDBRSGl6QW8tU09QWGx1b0U0d2ZLQVdvMWp5STVyTXlMd3ZkQmZQU0x0RGNIeEhvSlc3S0ZpRlh3TE8yNndFWmRGLVhySWhMa3NPdkVnZWtqaEYzTjZzUXlkWGs2SFB1SUZGTXVxS1lxRENqdk1EWlJSck5QXzVhaW5UdGdoV3ZHNjE5Z2U1SGJlUE5XTjZIMW5oX3c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 2647
+    },
+    {
+      "date": "Oct 25",
+      "text": "Iran warns that U.S. military not allowed in Gulf 'under any circumstance'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2646
+      "latestSinceUpdate": 2647
     },
     {
-      "date": "Oct 24",
-      "text": "Iran claims 7 oil tankers were attacked in the Strait of Hormuz amid fears of a return to war.",
+      "date": "Oct 25",
+      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2646
+      "latestSinceUpdate": 2647
     },
     {
-      "date": "Oct 24",
-      "text": "Former President Trump indicates the U.S. may conduct another military operation against Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOZjhrQTB6UmEzUzQ0N1RPV1BiZXhoaGdyWmhCTVpTTWgydnE3aEd0WHJHXzlpR09JXzh0SVpGSHkzc0JJR2g4M21MbVM1dUljQzd4UWNrSnlDWkw2SlgzOHlITmpJNHpuTTAtMmdPMXdXR0JGQlF4LUtHMTUxSWdWeVRoZVhMRlJtY0NmNHp4enJ2NzVwdE5xUm1zdVRfZ0pYdE0wRGFpU0k0eGpMZTlpNEl2bmQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "Oct 25",
+      "text": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2646
+      "latestSinceUpdate": 2647
     },
     {
-      "date": "Oct 24",
-      "text": "An intelligence memo warns that Iran has ramped up efforts to target U.S. personnel.",
+      "date": "Oct 25",
+      "text": "Iraq believes Israel may have struck militia weapons supplied by Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2646
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2647
     }
   ],
   "sourceStatuses": [
@@ -131,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Security",
-      "headline": "US and Israel Plan Renewed Operations Against Iran",
-      "summary": "US and Israeli officials are reportedly drawing up plans for renewed military operations against Iran post-election, citing ongoing regional threats. This comes as Israel implements a lockdown in the West Bank and expresses concerns over Hezbollah activities.",
+      "perspective": "US/Israel Strategy",
+      "headline": "US and Israel Plan Renewed Strikes on Iran",
+      "summary": "The US and Israel are reportedly drawing up plans for renewed strikes on Iran following upcoming midterm elections, indicating a proactive stance against perceived Iranian threats and actions. This planning suggests a coordinated effort to address regional security concerns.",
       "tone": "anxious",
-      "latestSinceUpdate": 2639
+      "latestSinceUpdate": 2647
     },
     {
-      "perspective": "Iranian Response",
-      "headline": "Iran Reports Tanker Attacks, Threatens Undersea Cables",
-      "summary": "Iran has reported attacks on seven oil tankers in the Strait of Hormuz, escalating fears of a return to war. Iranian officials also warn of detailed plans to target Gulf undersea cables if military conflict resumes, signaling potential retaliation.",
+      "perspective": "Iranian Defiance",
+      "headline": "Iran Warns US, Claims Tanker Attacks, Threatens Infrastructure",
+      "summary": "Iran has issued strong warnings against US military presence in the Gulf and denied any deal offers, while also claiming attacks on oil tankers and detailing plans to target Gulf undersea cables if conflict escalates. These actions and statements reflect a defiant posture against external pressures.",
       "tone": "defiant",
-      "latestSinceUpdate": 2639
+      "latestSinceUpdate": 2647
     },
     {
-      "perspective": "Regional Stability & Economy",
-      "headline": "Oil Prices Rise Amidst Escalation Fears",
-      "summary": "Rising tensions and threats to shipping in the Strait of Hormuz are contributing to increasing oil prices. Saudi Arabia is exploring options to reroute oil, while Lebanon faces internal challenges regarding Hezbollah and stalled diplomatic talks with Israel.",
+      "perspective": "Regional Instability",
+      "headline": "Gulf Nations Brace for All-Out War",
+      "summary": "Gulf nations are bracing for a potential return to all-out war between the US and Iran, reflecting widespread regional anxiety over escalating tensions and the potential for broader conflict. The situation is viewed with significant concern regarding its impact on regional stability.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2647
+    },
+    {
+      "perspective": "Hezbollah Under Pressure",
+      "headline": "Hezbollah Faces Internal Discontent and External Pressure",
+      "summary": "Hezbollah faces internal discontent in Lebanon and external pressure, including a US request to block Starlink services, suggesting challenges to its operational capabilities and support base. This indicates a complex environment for the group amidst broader regional tensions.",
       "tone": "strained",
-      "latestSinceUpdate": 2639
+      "latestSinceUpdate": 2647
     }
   ]
 });
