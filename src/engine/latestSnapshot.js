@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2648,
+  "updateSequence": 2649,
   "lastUpdated": "2026-10-25",
-  "lastSyncedAt": "2026-10-25T06:57:07.596Z",
+  "lastSyncedAt": "2026-10-25T12:29:37.724Z",
   "warDay": 240,
-  "summary": "Tensions are escalating in the Gulf region with reports of US and Israel planning renewed strikes on Iran post-elections, while Iran issues warnings against US military presence and reports attacks on oil tankers.",
+  "summary": "Tensions between the US, Israel, and Iran remain high, with both sides issuing threats and preparing for potential renewed military actions, while regional proxies like the Houthis continue attacks.",
   "lastNarrativeUpdate": "2026-10-25",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst escalating tensions."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
+    "nuclearIndex": 30,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,44 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 23",
-      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
+      "date": "Oct 24",
+      "text": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2647
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2649
     },
     {
-      "date": "Oct 25",
-      "text": "Iran warns that U.S. military not allowed in Gulf 'under any circumstance'.",
+      "date": "Oct 24",
+      "text": "Iran says won’t allow US warships to get close as Trump ponders new attacks",
       "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPbnhYekZtTGYtNUxRY1l0SkNlclVxV1JhVHJ2QUNzRFhRQW96Z0FWbXBSakNhblFEYk9kNHBibExfT0xFVFhLbUEzLWZpR0VNVC0tT2NlTTRIWmlaRThSTXN5OEF6d1ZiSEhGak11ck5zclJpYkRPODdJdFNqLXJTWjZiemlRSnZuOUV1MWY3eDZYMTBjaThzRDJaU3VVQnFqbFQ3bEt2enJEeHNUcm1nZTBnT1lXNXfSAbwBQVVfeXFMTzcyR081VVdqUVNRX05XQ0NxRFFPdm81M0NEV0hPcm9FYlZmTEJ4bTBPQUtjSjZvOEx3aGFWdGNDbHkyZzdoVDlVZzZyU1NrNkt4YkhBZGxZcm1vZ0tlWTB0T3lZbDdaX3dnSkZVdUpqc19KZnpWS3Vlc2tiN1JEQUNWZEVZYmV0ZWVyYXFENDU4a2FqU3ZWZGR5dFFreHl4VzVZellsU2hwQVcyZzBBTjl6SG9WQUpBNmprOXA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2649
+    },
+    {
+      "date": "Oct 24",
+      "text": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say",
+      "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2647
+      "latestSinceUpdate": 2649
     },
     {
-      "date": "Oct 25",
-      "text": "Iran says 7 oil tankers attacked in the Strait of Hormuz as fears grow of a return to war.",
+      "date": "Oct 24",
+      "text": "Houthis attack Aden, missile debris falls on Mecca",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOdEQ3dDlXS3dlUDRVbThyWHBYODlFYVI0TzZwVmlVT1NGNTUxd2hpUlFtcndING95SUFTNGVZZzhoYUNvR0ZXRVF3dkdEMWEzYnAzdDZGQVA2bld1ODZ1WGxoS0dCQ1BwVjZJS2NtVmRWZ1drb3AzUlVYVnRNYno3WEhfWXpXV2xKWWhwV0MzRktUYVQwVHBHTzRkVTR2X2pXWE80Qkl6eDJsNHgxQVo2bF9XSTBMd2lVQUtz0gHAAUFVX3lxTE9vSTZXbnZFVVAwem5GaFpCNng3VVVYU19jOXFqN1ZoNWduY19UblA4aTB6WUt5UV9ZZ1cyRGNFRGh0WXBSdWpLX3FXLUN5NlFzZ0ZhYV9maUcxZC12cVNUZVRnYUxGNTZkT2lIc1B0aWdGdF9LeXlmNW80Y3ZmMno5ZGZObHRqcFM2anB0b1NPLTUyTTJUaWpLbkNYV3ZLUVdCaHlPNlVqNzRTa0VpeTJCaGtURnFqSzR3YkVLS0RENg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2649
+    },
+    {
+      "date": "Oct 24",
+      "text": "Signs point to renewed major US military ops against Iran",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxPOVo5NGVvb09wSzBSTFVOa21PVVRNWWlEYUd1ZEU2U0tjTm55R3hYQ2Ezd1lUWUYwbFNpVUhJVDBxNlZaamJKaDJvblV1dl83LVhSX21rMkZuUXQtWFZmZmpZbXRrMkwwRzloVnA0QUs0cjN5MXNiZDBKR2MwaW9Sa1BKUGlaRUlQeG5PYnNPcTQ3YXZFc3QybjE1ZmVCYVJmY0doag?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2647
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOa09BTzk4bHFkbGE0QWFzQ0ZlUGZUNmFhWHBwVDliZFRrcl9GSGV1S2dBUzBWUVZ4ZU95Qm1IVWgxWnZNWFBCeEF6Zk1BaWo1aHVwNnUxUTg5VlU5Z0EweEpPSzlUNlVVWmxVd0JjbFR0QmhwRVBGSFZfVzBiUkpLdjhxUHNWaTktYmx2WDl6cERVQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 2649
     },
     {
-      "date": "Oct 25",
-      "text": "Iran has ramped up efforts to target US personnel, intelligence memo warns.",
+      "date": "Oct 24",
+      "text": "Iran has ramped up efforts to target US personnel, intelligence memo warns",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2648
-    },
-    {
-      "date": "Oct 25",
-      "text": "US had asked Musk to block Starlink for Hezbollah, Houthis amid Ukraine uproar.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPVGtaTDN3S1RhbEp0N3pmdFBTdkI5MzBsTEJCU3Itakc4Ul9HTnVJRnN1VWkwbllIR0g4SFhVOEJFaTMxZXZDaTdDSmExOXF2Z0FzTlc0TTZFbWlMWVA3Tm5nREJrNjFEejM4TC1aMndsYktoanJoekJiWFlBNlhzTWlHdkxLZ3JMeERnWnlzU3hYSVR2b2RNdFBIelBKbWprdVhMSnJFdF9rcVZucFhocW9NNmp3Q0xsd0VCdtIBwgFBVV95cUxNcDdvTTQwQjRtWW9hZ1ZfbGZKWlBHN25HdG5OWlVaZVlBLUtLZWJzQVo5MVBkZUlKdGxDWjBnVUNZanlvS0lIQ21YaGRaRXhnSTlJdzBCWmJ0WWZKX1JKZ0JyRld4VmNVcnpEbEhQQmxuVGFiZzE2UXp1bE9TODRZY3RlVGY0dzU5Q28tTWlRbDU3OFVvTy1ndVlkYUduRFk1aVU3Q2N1TUc3R2tRYVJsaFlHLWxxMm1qQlROSG1mUm80dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2648
+      "latestSinceUpdate": 2649
     }
   ],
   "sourceStatuses": [
