@@ -1,9 +1,9 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2647,
+  "updateSequence": 2648,
   "lastUpdated": "2026-10-25",
-  "lastSyncedAt": "2026-10-25T01:44:45.297Z",
+  "lastSyncedAt": "2026-10-25T06:57:07.596Z",
   "warDay": 240,
-  "summary": "Signals indicate heightened tensions between the US, Israel, and Iran, with plans for renewed strikes against Iran and Iranian warnings of retaliation and alleged attacks on oil tankers in the Strait of Hormuz.",
+  "summary": "Tensions are escalating in the Gulf region with reports of US and Israel planning renewed strikes on Iran post-elections, while Iran issues warnings against US military presence and reports attacks on oil tankers.",
   "lastNarrativeUpdate": "2026-10-25",
   "ceasefire": {
     "active": false,
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -36,17 +36,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
     "globalPressure": 82,
     "allianceInfluence": 51
   },
@@ -61,17 +61,9 @@ export const LATEST_SNAPSHOT = Object.freeze({
     {
       "date": "Oct 23",
       "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
-      "severity": "warning",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "NPR",
-      "latestSinceUpdate": 2647
-    },
-    {
-      "date": "Oct 25",
-      "text": "Gulf nations brace for possible return to all-out war between US and Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQeUw5aDNFOXhGaTNETlYtbU9oNDBRSGl6QW8tU09QWGx1b0U0d2ZLQVdvMWp5STVyTXlMd3ZkQmZQU0x0RGNIeEhvSlc3S0ZpRlh3TE8yNndFWmRGLVhySWhMa3NPdkVnZWtqaEYzTjZzUXlkWGs2SFB1SUZGTXVxS1lxRENqdk1EWlJSck5QXzVhaW5UdGdoV3ZHNjE5Z2U1SGJlUE5XTjZIMW5oX3c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
       "latestSinceUpdate": 2647
     },
     {
@@ -92,19 +84,19 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 25",
-      "text": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOc28yS2Z0aVExaE1CeEZtYURTUG5NMDBhZnVidVctdjJZak1tMk5oQy1aU0dlQzBJbEV2SWlUdUdxNC1YMngyZEhLM0l3ZmI5dEliUjRPNVdsSnV2QWV2TS1TNVhaN2RTYlpSaEFCMjFHRGs5Z29Cek10c1BfUEZROHpjd2NIRHFfNEhLUGdhbDBXQ2hfXzUtc0daeHZPRlpoTXo5TjlvTVZuWXgwVmtEbG5jemZUWDRvRDJvWVQxb3VKdzZucnBlUEhPZw?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran has ramped up efforts to target US personnel, intelligence memo warns.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2647
+      "latestSinceUpdate": 2648
     },
     {
       "date": "Oct 25",
-      "text": "Iraq believes Israel may have struck militia weapons supplied by Iran.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2647
+      "text": "US had asked Musk to block Starlink for Hezbollah, Houthis amid Ukraine uproar.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPVGtaTDN3S1RhbEp0N3pmdFBTdkI5MzBsTEJCU3Itakc4Ul9HTnVJRnN1VWkwbllIR0g4SFhVOEJFaTMxZXZDaTdDSmExOXF2Z0FzTlc0TTZFbWlMWVA3Tm5nREJrNjFEejM4TC1aMndsYktoanJoekJiWFlBNlhzTWlHdkxLZ3JMeERnWnlzU3hYSVR2b2RNdFBIelBKbWprdVhMSnJFdF9rcVZucFhocW9NNmp3Q0xsd0VCdtIBwgFBVV95cUxNcDdvTTQwQjRtWW9hZ1ZfbGZKWlBHN25HdG5OWlVaZVlBLUtLZWJzQVo5MVBkZUlKdGxDWjBnVUNZanlvS0lIQ21YaGRaRXhnSTlJdzBCWmJ0WWZKX1JKZ0JyRld4VmNVcnpEbEhQQmxuVGFiZzE2UXp1bE9TODRZY3RlVGY0dzU5Q28tTWlRbDU3OFVvTy1ndVlkYUduRFk1aVU3Q2N1TUc3R2tRYVJsaFlHLWxxMm1qQlROSG1mUm80dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2648
     }
   ],
   "sourceStatuses": [
