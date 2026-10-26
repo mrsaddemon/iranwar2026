@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2653,
+  "updateSequence": 2654,
   "lastUpdated": "2026-10-26",
-  "lastSyncedAt": "2026-10-26T00:06:13.837Z",
+  "lastSyncedAt": "2026-10-26T04:36:25.719Z",
   "warDay": 241,
-  "summary": "Tensions remain high between the US, Israel, and Iran, with discussions of potential renewed military action and Iranian defiance, alongside reports of damaged oil tankers in the Strait of Hormuz.",
+  "summary": "Tensions remain high in the Middle East with the US and Israel reportedly planning renewed attacks on Iran post-election, while Iran warns against US military presence and regional conflicts persist.",
   "lastNarrativeUpdate": "2026-10-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst escalating tensions and threats of renewed conflict."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported between major parties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
+    "nuclearIndex": 30,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
     "globalPressure": 82,
-    "allianceInfluence": 51
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 26",
-      "text": "Iran says won’t allow US warships to get close as Trump ponders new attacks.",
+      "date": "Oct 24",
+      "text": "Iran warns US against approaching its waters as Trump considers new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPbnhYekZtTGYtNUxRY1l0SkNlclVxV1JhVHJ2QUNzRFhRQW96Z0FWbXBSakNhblFEYk9kNHBibExfT0xFVFhLbUEzLWZpR0VNVC0tT2NlTTRIWmlaRThSTXN5OEF6d1ZiSEhGak11ck5zclJpYkRPODdJdFNqLXJTWjZiemlRSnZuOUV1MWY3eDZYMTBjaThzRDJaU3VVQnFqbFQ3bEt2enJEeHNUcm1nZTBnT1lXNXfSAbwBQVVfeXFMTzcyR081VVdqUVNRX05XQ0NxRFFPdm81M0NEV0hPcm9FYlZmTEJ4bTBPQUtjSjZvOEx3aGFWdGNDbHkyZzdoVDlVZzZyU1NrNkt4YkhBZGxZcm1vZ0tlWTB0T3lZbDdaX3dnSkZVdUpqc19KZnpWS3Vlc2tiN1JEQUNWZEVZYmV0ZWVyYXFENDU4a2FqU3ZWZGR5dFFreHl4VzVZellsU2hwQVcyZzBBTjl6SG9WQUpBNmprOXA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2653
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2654
     },
     {
-      "date": "Oct 24",
-      "text": "Iranians fear possible return to all-out war as US and Israeli elections approach.",
+      "date": "Oct 26",
+      "text": "Iranians express fear of a possible return to all-out war amidst US and Israeli election cycles.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxPeHQ1eTVHV0lnTUxkcHZTSmxubVl5dHBCa1VrTHNFV1hVOUxKaXlmRXc0QjVrRlJDQW5CMk4zRmV1bGxsTkZ6b19peDRaX2hlNHR4aGF1ajNoenJjMl9fSGFIdzA4LXJUbzNZaDI1bGMzdUd5eklrNjg5MVp0WHFqbE93NTU2UnB0THZ2ZERwLUlrRHRRODF1WWFCaXc2SGJZV3hZbVBCZGlRV3BHemJ2SGhHakh6cjdnLWNvellCVVVtTl9zQkdkRkdfdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Politico",
-      "latestSinceUpdate": 2653
+      "latestSinceUpdate": 2654
     },
     {
       "date": "Oct 26",
-      "text": "Trump weighs quick end to Iran war against letting conflict ‘wither’.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQeGt4QW93RlZCRmRnTV9pMzVTeG55Ty1EbG1wcGU5M0VONm9wM3lEX0lvOEpVcW05OWNSWjJoOTJUSDF5cU1DSFhmZmp2OWdOc1ZPNURIRFF0M3ZzVGxteTRDd2ROZGplLUdWcjJSdUdNUkFoSzYwdDN0dy1yMmttWEdyWGVKeVNmRGE1ODRrcWMzRW9lQTVmMjdsT052QmVFN0Z2cmlRWWM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2653
-    },
-    {
-      "date": "Oct 26",
-      "text": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say.",
+      "text": "US and Israel are reportedly planning to resume attacks on Iran after upcoming elections.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2653
+      "latestSinceUpdate": 2654
     },
     {
       "date": "Oct 26",
-      "text": "Iran says 7 oil tankers damaged in Strait of Hormuz, and other Middle East news.",
+      "text": "Saudi forces attack Sanaa following Houthi missile strikes on Riyadh.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOTUdQalhkeHV6MjBUcDhWSGNFcUpEcGI2em40Y19zcFB2aVNaMVZveXc1QmMweUx5Mm9yak9ZWUtwSDNPdkVkaWw2NzRlZTZBdkRpQnlXdDBlOVVjN0hfLW9YR3lHR2NFdEU3WktoYzk4M1NGV0RwV25tVjBUUDFjVkJ2b3pMNlc1NG43bUkwcEwxa3JmYk9zMHV3YjhSc1J4WjMtc21tMlRQLVJNT0gwY1JyUdIBuAFBVV95cUxPWHI0VlZ2NlpRSGlRNXdGUFFQZ3J4bFdEdVpBYTY4Vjl6UDZnQS13anNtci1yRGhtdkJHWklnaFc1dGZ0RWt3VGpxczlyT1FUSTBBRWFJUDhUeXdYT29jWjVRYU13NTRZeHR6b2hTOUlLek5PRS03Rl91Rm80eE55MV94TWNZSFNxTkRlQWtrdWI3ZjhfNTJrUElXMWNlREZVdnZTT01aTWJIajdla1BZczBTNXdSb2t4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 2653
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPRHlMczN4OHlwQkRhYU9rV05TLUtVS2pjaGxWTXMxTGs3RnJNUWFJYk1KdVlPZlhpNTVKYnE1aGZ3N0U0anluNWI4RHRUcGo4c1NJRTNhM2I1UXJWa21TRUIxWmtIMXBVSjlObUxDU1hhTEdkajAyTmx1SnlUSkMxNXhzLUpaNVpFcTVxOTBBWTRBZkFUWlo0blNYRFRIWUhRbkVxc0xRZTBOTE5McXZzOUwwTHBsdm5hQTlTLWdB0gHDAUFVX3lxTE96a1VjOTJNRXBMNV9HZ3hDN3BXWkRDOTVkZ2FVazI0V3R1TmZveHo4ZzJkUS1ONGt0aTc1MW15cHVwU08zaVEtUlhDa2k1dWkwSUhCU2RWRjh2OF9ZdS1pVk9Vc185aGhEZzdCWTUyVkRzQk9ucDJqc3FRWThJRE1NN1ZaVHdqXzRIYlc1bFFURWRLdVlmWVpJUFptVmpySGhnSW1teUI4NWc4TGt1U2dGVnZCdEYtX01HYm0yczZxTlcydw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2654
     },
     {
       "date": "Oct 26",
-      "text": "Iran says resumption of war with US would not change its mind, with Strait of Hormuz 'no longer the same'.",
+      "text": "CENTCOM chief affirms Strait of Hormuz is clear of mines during a regional visit.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiXEFVX3lxTFB5dll2X1ZsYkpjQzY1RHBxNVdoWjRyOGx5SmFtTF9vdFFmcm85SVN4dmprdk9hOTFBME9WRnVHWkhLSGNCRXluTUQ2U0pTUWRxcks0bjJhaC0zSnBB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2654
+    },
+    {
+      "date": "Oct 26",
+      "text": "Trump indicates he is weighing a deal with Iran against military action to 'finish them off'.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2653
+      "latestSinceUpdate": 2654
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
