@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2656,
+  "updateSequence": 2657,
   "lastUpdated": "2026-10-26",
-  "lastSyncedAt": "2026-10-26T16:55:24.259Z",
+  "lastSyncedAt": "2026-10-26T21:33:25.853Z",
   "warDay": 241,
-  "summary": "Tensions between the U.S., Israel, and Iran are escalating significantly, with rhetoric from U.S. leadership suggesting potential military action and reports of Iran-backed groups preparing for regional conflict.",
+  "summary": "Tensions between the U.S., Israel, and Iran have escalated significantly, with threats of renewed strikes, plans for potential military action, and maritime incidents reported in the Persian Gulf.",
   "lastNarrativeUpdate": "2026-10-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported; rhetoric and planning indicate increased tensions."
+    "summary": "No ceasefire is active; the situation indicates escalating tensions and threats of renewed conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.88,
         "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 73
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.8
+        "aggression": 0.82
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 64
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.68,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 90,
+    "nuclearIndex": 55,
+    "escalationLevel": 88,
     "oilDisruption": 85,
     "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "globalPressure": 84,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 25",
-      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2656
-    },
-    {
       "date": "Oct 26",
-      "text": "Trump says he's weighing deal with Iran against action to 'finish them off'",
+      "text": "Reports indicate a new level of threat and fear risks pushing the U.S. and Iran back to full war.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2656
+      "latestSinceUpdate": 2657
     },
     {
       "date": "Oct 26",
-      "text": "Inside the worst month for ships in the Strait of Hormuz",
+      "text": "Trump states he will soon decide whether to 'make a deal' with Iran or 'finish it off'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMidkFVX3lxTE0tNTVnUzVyMmExWFFYaU9rN25jZDZJaFZ3cF9ZeW1jSllXT3ZVeEJxNHNZRUVEU1hWdHpPMGdyczd6SFFRQTJCZFNJX1p1dW42WkIyMWJfN0c3ZERSQ2dzS3QwanlPbmg2Nk95bTdGZmZnV1pVR0E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2656
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2657
     },
     {
       "date": "Oct 26",
-      "text": "Hezbollah readies for new regional war with funds from Iran, sources say",
+      "text": "U.S. and Israel are reportedly drawing up plans for renewed strikes on Iran after upcoming elections.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2656
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2657
     },
     {
       "date": "Oct 26",
-      "text": "Iran has ramped up efforts to target US personnel, intelligence memo warns",
+      "text": "A tanker was disabled in a Strait of Hormuz attack, and another vessel was reported on fire in the Persian Gulf.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPSnBGckdpTkdaSnNZeFIyenI0MVVDMHd6R2ZDcTlUX3I4OWNNMlRjd0FTXzhCY09zakU1MWx2RzBpRW1QYTRxY2M3UWpBZHR3S1JlNjQ0WlIyRlh3ZnhNaVZ0OVcwU21YMjUyVVF0RXB0VXFLMWpGdEVtak1DUktTdUdLWmQyWGRFQ0xmb2Z3WG1nSHdfVUxlbUlsc2RJRmNmWVRHS1Qtd0RCVU92d2t1S19HbjlFVzdoREJONTRNYk1iZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2656
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2657
     },
     {
       "date": "Oct 26",
-      "text": "UN chief calls for ‘maximum restraint’ as rhetoric ramps up",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPRHlMczN4OHlwQkRhYU9rV05TLUtVS2pjaGxWTXMxTGs3RnJNUWFJYk1KdVlPZlhpNTVKYnE1aGZ3N0U0anluNWI4RHRUcGo4c1NJRTNhM2I1UXJWa21TRUIxWmtIMXBVSjlObUxDU1hhTEdkajAyTmx1SnlUSkMxNXhzLUpaNVpFcTVxOTBBWTRBZkFUWlo0blNYRFRIWUhRbkVxc0xRZTBOTE5McXZzOUwwTHBsdm5hQTlTLWdB0gHDAUFVX3lxTE96a1VjOTJNRXBMNV9HZ3hDN3BXWkRDOTVkZ2FVazI0V3R1TmZveHo4ZzJkUS1ONGt0aTc1MW15cHVwU08zaVEtUlhDa2k1dWkwSUhCU2RWRjh2OF9ZdS1pVk9Vc185aGhEZzdCWTUyVkRzQk9ucDJqc3FRWThJRE1NN1ZaVHdqXzRIYlc1bFFURWRLdVlmWVpJUFptVmpySGhnSW1teUI4NWc4TGt1U2dGVnZCdEYtX01HYm0yczZxTlcydw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2656
+      "text": "The U.S. has evacuated Mideast outposts following a suspected Iranian plot to target Americans.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2657
+    },
+    {
+      "date": "Oct 26",
+      "text": "Iran states it is prepared to go back to war amid threats from the U.S. and Israel.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPTWF4R1g5cjkxZXNYdDVVa0N4SWVoY3FiOVVsdnJ3Nll4Si1lbVNnemhBQi05aWF3NEllLWtKTHM5Qlh3bGRmcVhiWXpFZWt2VW5iRzJCN1dzNFlqX09sVWZsTG81OEpMa0tKbnZ2T0NRMWE0el9kYkQxNjhyWVE1NkF4RGhGVUNnV1hHZGo1eUZvZUZ3c01zN1Z4WjVLNmhJdlEtU3U4VlU2SHRxOFUyeG5LbWJzaDI0X2xVel93?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2657
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
