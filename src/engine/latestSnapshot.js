@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2659,
+  "updateSequence": 2660,
   "lastUpdated": "2026-10-27",
-  "lastSyncedAt": "2026-10-27T05:41:23.898Z",
+  "lastSyncedAt": "2026-10-27T11:04:20.265Z",
   "warDay": 242,
-  "summary": "Tensions between the US and Iran are escalating with threats of major strikes and counter-warnings, while diplomatic efforts continue amidst high oil prices and increased regional instability, including shipping disruptions in the Strait of Hormuz.",
+  "summary": "Tensions between the U.S., Israel, and Iran are at a critical level, with threats of military action, ongoing diplomatic efforts, and concerns over regional stability and oil shipping in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-27",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation agreement is reported between the primary parties."
+    "summary": "No active ceasefire or de-escalation agreement is currently in effect."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 85,
+    "nuclearIndex": 45,
+    "escalationLevel": 88,
     "oilDisruption": 80,
     "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 83,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 27",
-      "text": "Iran accuses the US of lacking seriousness in diplomatic talks, as a ship is reported ablaze off Iraq.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPQlhLR01JVEF6ei0xcTFpVnBfQmZMU2YzQW9JejZIUlVWdWFaT0Z4Tm9YOXFRUy1SM3JHd2psWDlrNjhYOWJ3RWFTbWVRUVlDQWZKMW9YX3BXNzBqTmJybFVhUlBnOVJ6NnI2c3VWVHUwdkNSSTNVdEFmMzlYMVRHZjdWSlNNWV9YYTRTM3VPTjEzempaXzV2SEhZUU0tcXU4NXB6VUFtemtkM181a2s5ZHQzV3FfY080UmI3UNIBwgFBVV95cUxPcThnWmdPQTRfbjNJWjVTTlZ2cnRlY1k1dHRnRGN5X3RKSkcycktmaFFIelg5bFh4THk2Y3BYX1NWZFd6b1ZfZG9WNC1HTm05UVUweDhGZlBTUWRHWE9MODd1dFp2emVUbVowemhDMkN1V0c3cVJGS2xzU0lwbk5hTmRGQkhuaHNCWHlIdGhOV3FJVFVQVlE5QTZMQ3J0c25DSVdmS2pZNDQydWE2Uk5LV2VINEhadGo2N3NieV9iaWsyQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2659
-    },
-    {
-      "date": "Oct 27",
-      "text": "Signals indicate a heightened risk of the US and Iran returning to full-scale conflict.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2659
-    },
-    {
-      "date": "Oct 27",
-      "text": "President Trump states he will soon decide on a diplomatic 'deal' or military action to 'finish it off' with Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2659
-    },
-    {
-      "date": "Oct 27",
-      "text": "Reports confirm the US has prepared plans for major strikes against Iran, pending Trump's decision.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFBGMkYxX0xCdEJNR19IcUM5QTlEN09sZS1zODJGam1TWTNMZGxUN0dRVTJNR0hhRENuYWo1SURGd2pQbTJYNGdiNmVMdlBCRmE4QUZDLXFXMjVnLWRSNXZfb3JERnBYa1U2a0d1ZnVPQnpEZm1w?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2659
-    },
-    {
-      "date": "Oct 27",
-      "text": "Iran declares it will prevent US warships from approaching its waters.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2659
-    },
-    {
-      "date": "Oct 27",
-      "text": "Tehran dismisses Trump's attack threats, emphasizing ongoing diplomacy amidst sustained high oil prices.",
+      "text": "Tehran says agreed with Mecca pact states to seek peace.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxNc0ktWWprVTV3bjlvb05YbXU5UU5DbHBXNWs4dmZzMFNab3BmSTQyejhwTk5jNmRZVDd4N3doRkdBU3BQTGU1SjBLOUFMc21xN21MSWRTVkdZV05QaS1fdUVoOHFScFp3NnotcTV3NHlfRW1iaGNDR1B3eGlvSkJDTEwwWUQ3ajNYVzhBQlZfMzN2TnVxOFh5aw?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPRHlMczN4OHlwQkRhYU9rV05TLUtVS2pjaGxWTXMxTGs3RnJNUWFJYk1KdVlPZlhpNTVKYnE1aGZ3N0U0anluNWI4RHRUcGo4c1NJRTNhM2I1UXJWa21TRUIxWmtIMXBVSjlObUxDU1hhTEdkajAyTmx1SnlUSkMxNXhzLUpaNVpFcTVxOTBBWTRBZkFUWlo0blNYRFRIWUhRbkVxc0xRZTBOTE5McXZzOUwwTHBsdm5hQTlTLWdB0gHDAUFVX3lxTE96a1VjOTJNRXBMNV9HZ3hDN3BXWkRDOTVkZ2FVazI0V3R1TmZveHo4ZzJkUS1ONGt0aTc1MW15cHVwU08zaVEtUlhDa2k1dWkwSUhCU2RWRjh2OF9ZdS1pVk9Vc185aGhEZzdCWTUyVkRzQk9ucDJqc3FRWThJRE1NN1ZaVHdqXzRIYlc1bFFURWRLdVlmWVpJUFptVmpySGhnSW1teUI4NWc4TGt1U2dGVnZCdEYtX01HYm0yczZxTlcydw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Google News",
-      "latestSinceUpdate": 2659
+      "latestSinceUpdate": 2660
+    },
+    {
+      "date": "Oct 27",
+      "text": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxOenJjWWFLN0xjSXdjOHdmUFJ5ekx1M0FLLWR0dGxDc1p6X2xJbDAzM2Zia0lIZFhwdTBJOExfNnVseXd4M1RzUjRDV2MySDBTTTFuQTFKYmVrd2JEWTdOUG9BM3kzU24waU9zQlJMV0d3cFR1VXJrdVZzd1FITEV4Y3lMbHVOM1hZWlFnQlZKd3FvVDA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2660
+    },
+    {
+      "date": "Oct 27",
+      "text": "Trump says no strike today; Qatari mediators visit Tehran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPRy1XR2xLRHBpdDFLWmZBY0Q0QW95SXpadWRTS1Z2dlFYUWtfaEFsNTBfTEloZXRuTFlyWUdkLU9FSF84VkNoMmx6UXZiTWhyNmI4WnZZVlgtWHhHcllTcGgtRlV0RGMxWnRvczBuMDFBRXhwdUUxYXNaZVdUbkN6VTZrY3JTd1VIR0JPTWItOXp1NDFBWjlRMGdQeW03aGlpc3JVWm1BTThmNGQzZHgzVHNMRXJwZjFGVEE4Rk14SUHSAcYBQVVfeXFMTzk5N2k2NXlJMUtfdW9EZXh4dU9sdk1YdTJNMWh1cnpER2ZqR2pXZ2xmVU5peWVGMnduRlpDeklHcXJLX0dUQ25jY1dpWGg3aXAwaWNIdmpKdzlHV3ZHLWxveThZNlVCRGx2Wkd0T1ViVUhZc20yUDFHX0t0SW4yYkxmeU8yV1RUeG50SmVoYXpLalpaLW1UMlBmeUdnT1YzdUxrbHZWYWhxSTFfMGNaTUxsTTBxV0lvSE9GYmtGNnM4SVpiYVpB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2660
+    },
+    {
+      "date": "Oct 27",
+      "text": "Inside the US ‘Kill Chain’ That Destroyed an Iranian School.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTE04V2x1Z1ZNWExtTF9jNlg0WnJCNWEtUUViQjBBVFByc1Z2bUhvNlh3Z09PbU5hU2ZJR1ROZEhvR2N5SHR0QllKcUstTl9FU0ViRzM2RnA4U1pLbU9KZ0N5bHZXc2VrMTV3d3hz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2660
+    },
+    {
+      "date": "Oct 27",
+      "text": "Netanyahu pushed for Iran strike before election but Trump refused.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOSllVZTRWSlotR3pRbDliYldYLWFOMy1jNUtSRHVCVDNUQWN4MTFPYVdzUEU0T2ZhZE95czU2aWVLd3FXNU1fX2ZqMTVTdDdmQnQwYjFBQ3ZxbmRNU1NVM2J6Wk10d0RIWEYyT2hobzlyblNfSmRDN0hPZmx4RGxDaWN0MERQWVREa3JKVVdNbW4yZ21qWGtraURZcEh1YTZNZGhLSDktV2J5d9IBrwFBVV95cUxPdHRXNUhRc213aVBLeVkwWlBWTlZQMTBxTmYwS2NpRnF3dFZfTVpmcXN4aGdiRFBBakdxMFFfLXozd25MVzRFbmNnVmlaTXJRcWs4cV9WbFlac0VrMENjYlZIS3VfR0x5YzAxTHIzNTR5SmJhbnVxUUsySE4zb1FORllTWkdtWE5oeXVsMHBiYklvbGVuem5EQ0RmMlJESWtHbU5ES0tqdWpvX0dLMFM4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2660
+    },
+    {
+      "date": "Oct 27",
+      "text": "Politics, not strategy, could mean more Israeli strikes on Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQR2JHeGwwWlVfNFp6OE5XQUpnZE9LY1BPQXdzZnkzRVhvNkdkQXhPcXNvOUFvdGJJR0FXTllYaFlfenBneXpDQ1NBZ25ia3gtRU9fWG1HWW1kNXRoMllhcUYyQTZpN2E1eEk0SVkwT1lKdDJGNVp4OHdOTFg0cnpqQjZ3VTlld0JPVU13eGJucjlpdTNKRTZ1dXNQMFNnTGZTdzJKMmUxWHNYTFYwNl90T3N1YnZqNWE4ZFFjcm9n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2660
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
