@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2658,
+  "updateSequence": 2659,
   "lastUpdated": "2026-10-27",
-  "lastSyncedAt": "2026-10-27T00:44:43.952Z",
+  "lastSyncedAt": "2026-10-27T05:41:23.898Z",
   "warDay": 242,
-  "summary": "Tensions between the US and Iran remain high, with threats of potential strikes, ongoing diplomatic efforts, and reported maritime incidents in the Persian Gulf impacting oil prices.",
+  "summary": "Tensions between the US and Iran are escalating with threats of major strikes and counter-warnings, while diplomatic efforts continue amidst high oil prices and increased regional instability, including shipping disruptions in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-27",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire declared amidst ongoing US-Iran tensions and diplomatic efforts."
+    "summary": "No active ceasefire or de-escalation agreement is reported between the primary parties."
   },
   "actorOverrides": {
     "usa": {
@@ -18,16 +18,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
@@ -37,16 +37,16 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 80,
-    "oilDisruption": 90,
-    "tradeImpact": 79,
-    "sanctionsPressure": 63,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
     "globalPressure": 82,
     "allianceInfluence": 51
   },
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 27",
-      "text": "Iran states it will not allow US warships to approach as Trump considers new attacks.",
+      "text": "Iran accuses the US of lacking seriousness in diplomatic talks, as a ship is reported ablaze off Iraq.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxPbnhYekZtTGYtNUxRY1l0SkNlclVxV1JhVHJ2QUNzRFhRQW96Z0FWbXBSakNhblFEYk9kNHBibExfT0xFVFhLbUEzLWZpR0VNVC0tT2NlTTRIWmlaRThSTXN5OEF6d1ZiSEhGak11ck5zclJpYkRPODdJdFNqLXJTWjZiemlRSnZuOUV1MWY3eDZYMTBjaThzRDJaU3VVQnFqbFQ3bEt2enJEeHNUcm1nZTBnT1lXNXfSAbwBQVVfeXFMTzcyR081VVdqUVNRX05XQ0NxRFFPdm81M0NEV0hPcm9FYlZmTEJ4bTBPQUtjSjZvOEx3aGFWdGNDbHkyZzdoVDlVZzZyU1NrNkt4YkhBZGxZcm1vZ0tlWTB0T3lZbDdaX3dnSkZVdUpqc19KZnpWS3Vlc2tiN1JEQUNWZEVZYmV0ZWVyYXFENDU4a2FqU3ZWZGR5dFFreHl4VzVZellsU2hwQVcyZzBBTjl6SG9WQUpBNmprOXA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2658
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxPQlhLR01JVEF6ei0xcTFpVnBfQmZMU2YzQW9JejZIUlVWdWFaT0Z4Tm9YOXFRUy1SM3JHd2psWDlrNjhYOWJ3RWFTbWVRUVlDQWZKMW9YX3BXNzBqTmJybFVhUlBnOVJ6NnI2c3VWVHUwdkNSSTNVdEFmMzlYMVRHZjdWSlNNWV9YYTRTM3VPTjEzempaXzV2SEhZUU0tcXU4NXB6VUFtemtkM181a2s5ZHQzV3FfY080UmI3UNIBwgFBVV95cUxPcThnWmdPQTRfbjNJWjVTTlZ2cnRlY1k1dHRnRGN5X3RKSkcycktmaFFIelg5bFh4THk2Y3BYX1NWZFd6b1ZfZG9WNC1HTm05UVUweDhGZlBTUWRHWE9MODd1dFp2emVUbVowemhDMkN1V0c3cVJGS2xzU0lwbk5hTmRGQkhuaHNCWHlIdGhOV3FJVFVQVlE5QTZMQ3J0c25DSVdmS2pZNDQydWE2Uk5LV2VINEhadGo2N3NieV9iaWsyQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2659
     },
     {
       "date": "Oct 27",
-      "text": "A tanker was disabled in the Strait of Hormuz, and another vessel was reported on fire in the Persian Gulf.",
+      "text": "Signals indicate a heightened risk of the US and Iran returning to full-scale conflict.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2658
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2659
     },
     {
       "date": "Oct 27",
-      "text": "US evacuates Mideast outposts following a suspected Iranian plot to target Americans.",
+      "text": "President Trump states he will soon decide on a diplomatic 'deal' or military action to 'finish it off' with Iran.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2658
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2659
     },
     {
       "date": "Oct 27",
-      "text": "Hezbollah is reportedly preparing for a new regional war with funding from Iran.",
+      "text": "Reports confirm the US has prepared plans for major strikes against Iran, pending Trump's decision.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMidEFVX3lxTFBGMkYxX0xCdEJNR19IcUM5QTlEN09sZS1zODJGam1TWTNMZGxUN0dRVTJNR0hhRENuYWo1SURGd2pQbTJYNGdiNmVMdlBCRmE4QUZDLXFXMjVnLWRSNXZfb3JERnBYa1U2a0d1ZnVPQnpEZm1w?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2659
+    },
+    {
+      "date": "Oct 27",
+      "text": "Iran declares it will prevent US warships from approaching its waters.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2658
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2659
     },
     {
       "date": "Oct 27",
-      "text": "Qatari mediators visit Tehran as Trump states no strike today, while Iran says diplomacy is ongoing.",
+      "text": "Tehran dismisses Trump's attack threats, emphasizing ongoing diplomacy amidst sustained high oil prices.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPRy1XR2xLRHBpdDFLWmZBY0Q0QW95SXpadWRTS1Z2dlFYUWtfaEFsNTBfTEloZXRuTFlyWUdkLU9FSF84VkNoMmx6UXZiTWhyNmI4WnZZVlgtWHhHcllTcGgtRlV0RGMxWnRvczBuMDFBRXhwdUUxYXNaZVdUbkN6VTZrY3JTd1VIR0JPTWItOXp1NDFBWjlRMGdQeW03aGlpc3JVWm1BTThmNGQzZHgzVHNMRXJwZjFGVEE4Rk14SUHSAcYBQVVfeXFMTzk5N2k2NXlJMUtfdW9EZXh4dU9sdk1YdTJNMWh1cnpER2ZqR2pXZ2xmVU5peWVGMnduRlpDeklHcXJLX0dUQ25jY1dpWGg3aXAwaWNIdmpKdzlHV3ZHLWxveThZNlVCRGx2Wkd0T1ViVUhZc20yUDFHX0t0SW4yYkxmeU8yV1RUeG50SmVoYXpLalpaLW1UMlBmeUdnT1YzdUxrbHZWYWhxSTFfMGNaTUxsTTBxV0lvSE9GYmtGNnM4SVpiYVpB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2658
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxNc0ktWWprVTV3bjlvb05YbXU5UU5DbHBXNWs4dmZzMFNab3BmSTQyejhwTk5jNmRZVDd4N3doRkdBU3BQTGU1SjBLOUFMc21xN21MSWRTVkdZV05QaS1fdUVoOHFScFp3NnotcTV3NHlfRW1iaGNDR1B3eGlvSkJDTEwwWUQ3ajNYVzhBQlZfMzN2TnVxOFh5aw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2659
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -114,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
