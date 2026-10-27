@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2657,
-  "lastUpdated": "2026-10-26",
-  "lastSyncedAt": "2026-10-26T21:33:25.853Z",
-  "warDay": 241,
+  "updateSequence": 2658,
+  "lastUpdated": "2026-10-27",
+  "lastSyncedAt": "2026-10-27T00:44:43.952Z",
+  "warDay": 242,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No ceasefire is active; the situation indicates escalating tensions and threats of renewed conflict."
+    "summary": "No active ceasefire declared amidst ongoing US-Iran tensions and diplomatic efforts."
   }
 }
