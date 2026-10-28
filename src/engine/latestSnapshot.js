@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2663,
+  "updateSequence": 2664,
   "lastUpdated": "2026-10-28",
-  "lastSyncedAt": "2026-10-28T00:24:46.894Z",
+  "lastSyncedAt": "2026-10-28T06:12:18.906Z",
   "warDay": 243,
   "summary": "The region faces a high risk of escalation between the US/Israel and Iran, with military preparations underway and diplomatic efforts for peace alongside threats to shipping.",
   "lastNarrativeUpdate": "2026-10-28",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported, despite Iran's stated agreement with Mecca pact states to seek peace."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 28",
-      "text": "Reports indicate a new level of threat and fear risks pushing the U.S. and Iran back to full war.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2663
+      "text": "US has plans for major Iran strikes if Trump chooses",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE01cEdEMXV2bGlZU2RtZVVGeXQzaFlXMHl6dEd4Zm5VTWs3N0QxdmY2czI1SDZSQW5wWXNkQkUtYVRGTTlTdVBWX0NoTUh1UGJobTB0YkotQWNiYlRPc3hxQk9RQTdnQXc4YWxNU0hYRVNmZ3VPYjVwU293?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2664
     },
     {
       "date": "Oct 28",
-      "text": "Iran states it has agreed with Mecca pact states to seek peace, amidst rising tensions.",
+      "text": "Iran war updates: Tehran says agreed with Mecca pact states to seek peace",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPRHlMczN4OHlwQkRhYU9rV05TLUtVS2pjaGxWTXMxTGs3RnJNUWFJYk1KdVlPZlhpNTVKYnE1aGZ3N0U0anluNWI4RHRUcGo4c1NJRTNhM2I1UXJWa21TRUIxWmtIMXBVSjlObUxDU1hhTEdkajAyTmx1SnlUSkMxNXhzLUpaNVpFcTVxOTBBWTRBZkFUWlo0blNYRFRIWUhRbkVxc0xRZTBOTE5McXZzOUwwTHBsdm5hQTlTLWdB0gHDAUFVX3lxTE96a1VjOTJNRXBMNV9HZ3hDN3BXWkRDOTVkZ2FVazI0V3R1TmZveHo4ZzJkUS1ONGt0aTc1MW15cHVwU08zaVEtUlhDa2k1dWkwSUhCU2RWRjh2OF9ZdS1pVk9Vc185aGhEZzdCWTUyVkRzQk9ucDJqc3FRWThJRE1NN1ZaVHdqXzRIYlc1bFFURWRLdVlmWVpJUFptVmpySGhnSW1teUI4NWc4TGt1U2dGVnZCdEYtX01HYm0yczZxTlcydw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2663
+      "latestSinceUpdate": 2664
     },
     {
       "date": "Oct 28",
-      "text": "CNN reports Netanyahu pushed for an Iran strike before the election, but Trump refused.",
-      "severity": "warning",
+      "text": "Trump’s Iran war could escalate. Is anyone paying attention?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNMjZwcnBDLVJwWjFlb0dnSUR5UE9pRTc0RWZtT0w5VHBXUXlSVXgwM2JxVlNkU0NseTlReEltYWRfOTlQbHdiSGozNGlGQkU3OTl0Q2MxZ202WDdFY09SR1dYem5XTUw0RXVGQTBrZ0dTRUFWTnFTV3BrM3RiTVFfYlBlR3p1SGJvUGNKQ08yTmhxRVRCM2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Salon.com",
+      "latestSinceUpdate": 2664
+    },
+    {
+      "date": "Oct 28",
+      "text": "Iran Update, October 25, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQRkNJMmRzS1FXTkZ5OFNCRVN5cmlBTl9oTnRaeEdZVnZ0c2VMQlFubzUtaVRzbUhablhNaUdxcG1rSTU5YW9wbFdmWDZRZFIzd1BEZHEzbFQ4SnNSTEMzdWdwSmI5dmY0NmxWU0o1ZWVyYnJPYlRVc0d6cUdQSW9kMzBTOUw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2664
+    },
+    {
+      "date": "Oct 28",
+      "text": "Netanyahu pushed for Iran strike before election but Trump refused, CNN says",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqgFBVV95cUxOSllVZTRWSlotR3pRbDliYldYLWFOMy1jNUtSRHVCVDNUQWN4MTFPYVdzUEU0T2ZhZE95czU2aWVLd3FXNU1fX2ZqMTVTdDdmQnQwYjFBQ3ZxbmRNU1NVM2J6Wk10d0RIWEYyT2hobzlyblNfSmRDN0hPZmx4RGxDaWN0MERQWVREa3JKVVdNbW4yZ21qWGtraURZcEh1YTZNZGhLSDktV2J5d9IBrwFBVV95cUxPdHRXNUhRc213aVBLeVkwWlBWTlZQMTBxTmYwS2NpRnF3dFZfTVpmcXN4aGdiRFBBakdxMFFfLXozd25MVzRFbmNnVmlaTXJRcWs4cV9WbFlac0VrMENjYlZIS3VfR0x5YzAxTHIzNTR5SmJhbnVxUUsySE4zb1FORllTWkdtWE5oeXVsMHBiYklvbGVuem5EQ0RmMlJESWtHbU5ES0tqdWpvX0dLMFM4?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2663
+      "latestSinceUpdate": 2664
     },
     {
       "date": "Oct 28",
-      "text": "Iran announces it will take legal action against Sinokor ships in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2663
-    },
-    {
-      "date": "Oct 28",
-      "text": "Hezbollah is reportedly rearming for a new regional war with funds from Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2663
-    },
-    {
-      "date": "Oct 28",
-      "text": "US military forces are reportedly prepared to launch Iran operations within 96 hours of a Trump order.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2663
+      "text": "Politics, not strategy, could mean more Israeli strikes on Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQR2JHeGwwWlVfNFp6OE5XQUpnZE9LY1BPQXdzZnkzRVhvNkdkQXhPcXNvOUFvdGJJR0FXTllYaFlfenBneXpDQ1NBZ25ia3gtRU9fWG1HWW1kNXRoMllhcUYyQTZpN2E1eEk0SVkwT1lKdDJGNVp4OHdOTFg0cnpqQjZ3VTlld0JPVU13eGJucjlpdTNKRTZ1dXNQMFNnTGZTdzJKMmUxWHNYTFYwNl90T3N1YnZqNWE4ZFFjcm9n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Economist",
+      "latestSinceUpdate": 2664
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

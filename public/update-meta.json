@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2663,
+  "updateSequence": 2664,
   "lastUpdated": "2026-10-28",
-  "lastSyncedAt": "2026-10-28T00:24:46.894Z",
+  "lastSyncedAt": "2026-10-28T06:12:18.906Z",
   "warDay": 243,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported, despite Iran's stated agreement with Mecca pact states to seek peace."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   }
 }
