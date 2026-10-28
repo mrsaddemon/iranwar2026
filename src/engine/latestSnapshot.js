@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2665,
+  "updateSequence": 2666,
   "lastUpdated": "2026-10-28",
-  "lastSyncedAt": "2026-10-28T13:07:23.795Z",
+  "lastSyncedAt": "2026-10-28T18:48:22.620Z",
   "warDay": 243,
-  "summary": "The region faces high tensions with warnings of renewed US-Israeli strikes on Iran after elections, despite some diplomatic efforts by Gulf states and Iran to seek peace.",
+  "summary": "Recent signals indicate the U.S. and Israel are drawing up plans for renewed strikes on Iran after elections, with the U.S. warning of a possible short, intense renewal of the Iran war, while Iran threatens action in Hormuz and diplomatic efforts seek to avert escalation.",
   "lastNarrativeUpdate": "2026-10-28",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst ongoing tensions and warnings of renewed conflict."
+    "summary": "No active ceasefire is reported; diplomatic efforts are focused on averting a renewal of conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -19,30 +19,30 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.7
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 70,
     "escalationLevel": 85,
     "oilDisruption": 80,
     "tradeImpact": 73,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 27",
-      "text": "U.S. and Israel are reportedly drawing up plans for renewed strikes on Iran after upcoming elections.",
+      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2665
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2666
     },
     {
       "date": "Oct 27",
-      "text": "The U.S. warns Gulf states of a possible short, intense renewal of the Iran War after midterms.",
+      "text": "U.S. Warns Gulf of Possible Short, Intense Renewal of Iran War After Midterms",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2665
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxOYXd0OHZEUnBrMFNkRjJ5dHFUakFsTDU0NUxhdzhQUnpPQ0JxMllJanhoeVFQWm1GMmk2RkRUdDFWLVR2N0VwczZOQmZmbG9BanpUSTE2VEhnSS1xd29mUzFzbEdRTVBDWGRSOW1hRW41WU04eE9OSUo4QmFoSG9DUUhUNi13bzNkbEZaWlFUaVUzUzZPWGtMc2JDeEZyODg2Q09JdFZBekl1WnNJdDVBYnZQMzhieGt4bjFuOFZnMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2666
     },
     {
       "date": "Oct 27",
-      "text": "Trump hails Iran strikes as the UN watchdog raises alarm over Tehran's unverified uranium stockpile.",
+      "text": "Iran Says It Will Take Action Against Sinokor Ships in Hormuz",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNRzhEQlhGZmdnVGxtMy1HT1FBeXduYWgyV1o3OUdiQ0hMS1p2aVktSGEzNDFTUWRqWHJvdDNhZm9XM3JkeUU0RFJ5RUZESjV2c1AzNXZVcmpuLWp2Z1Z4enhrUFNXVmc5VnBwdlJOVncyS29rWE1mNVRkcDZXdExNajNZaEhKQ2lYLVUxa2xNWm1PZlM5NUNtRUtxZFNhMGxZVE8wQ1V5Y1RObHJwNzkzbGxn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2666
+    },
+    {
+      "date": "Oct 27",
+      "text": "Trump hails Iran strikes as UN watchdog raises alarm over Tehran's unverified uranium stockpile",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMimwFBVV95cUxORk9oWnlRNWFMNEJUQzlMVDhLTmlNdkdxS3FSY0pZd3RPS2huUUI4blZZcElQNGtGd1A3MG90UXVYd1Q1T1B6aGV2SUFjcEt6Z3VSMm5UcjhwZGpER1hvcFUyY1VsZDVpelFOcTluLXkyekVuaVF5Qkc1dkFSNmJENERHNjI4Mjh3S3RYOHdkcXd3YXllMzB3RFBkUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2665
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2666
     },
     {
       "date": "Oct 27",
-      "text": "Hezbollah is reportedly preparing for a new regional war with funds from Iran.",
+      "text": "Hezbollah readies for new regional war with funds from Iran, sources say",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQajh2NzdqZUljUEFSTWFPOV9odmZYWE5sRkVLbUhzRndmN0dxSGRwM09CbVpZRjBXZTJrckJHRFV6RzBUTThlQ3pHQ0hWNWZuaFhCc2wwWGRwSDVmb2d1ME9UMmt0ZUVkTlA0WnpjY1o0R2Z2RzhvQXl3MHNHdEQ3YXdsMi0zTHFFTlBJekI1bnY4M3VRUFhzUnMzcGdVeHBPTm90MDFabFpnalo0RThZdENtMEVHSFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2665
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2666
     },
     {
       "date": "Oct 27",
-      "text": "Tehran states it has agreed with Mecca pact states to seek peace.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxPRHlMczN4OHlwQkRhYU9rV05TLUtVS2pjaGxWTXMxTGs3RnJNUWFJYk1KdVlPZlhpNTVKYnE1aGZ3N0U0anluNWI4RHRUcGo4c1NJRTNhM2I1UXJWa21TRUIxWmtIMXBVSjlObUxDU1hhTEdkajAyTmx1SnlUSkMxNXhzLUpaNVpFcTVxOTBBWTRBZkFUWlo0blNYRFRIWUhRbkVxc0xRZTBOTE5McXZzOUwwTHBsdm5hQTlTLWdB0gHDAUFVX3lxTE96a1VjOTJNRXBMNV9HZ3hDN3BXWkRDOTVkZ2FVazI0V3R1TmZveHo4ZzJkUS1ONGt0aTc1MW15cHVwU08zaVEtUlhDa2k1dWkwSUhCU2RWRjh2OF9ZdS1pVk9Vc185aGhEZzdCWTUyVkRzQk9ucDJqc3FRWThJRE1NN1ZaVHdqXzRIYlc1bFFURWRLdVlmWVpJUFptVmpySGhnSW1teUI4NWc4TGt1U2dGVnZCdEYtX01HYm0yczZxTlcydw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2665
-    },
-    {
-      "date": "Oct 27",
-      "text": "Gulf states are working on a multipart peace deal to avert a renewal of the US-Iran war.",
+      "text": "Gulf states working on multipart peace deal to avert renewal of US-Iran war",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxONnhLY0QxNnotazVyRzJXNnJGZTJORWI5UzZpakY5Ql9ybWJONUt1MVl4UEdpb1JOZk5KNm1TdTV1TkRUTERwdzBHdjJzU3IxdWM4ME5vMTZFMWI5bVkwN0dXSjItVUpGMFpSSXBwOGdkVVEtM2lpclhTRGVMTjFYS0VKTl9yT0FTWlZzc2dEdVRpNmVDM1V5NlpudXRyT0RoNzlGaXhhNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2665
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2666
     }
   ],
   "sourceStatuses": [
