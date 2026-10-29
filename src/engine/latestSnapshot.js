@@ -1,51 +1,51 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2669,
+  "updateSequence": 2670,
   "lastUpdated": "2026-10-29",
-  "lastSyncedAt": "2026-10-29T08:37:51.372Z",
+  "lastSyncedAt": "2026-10-29T15:36:31.899Z",
   "warDay": 244,
-  "summary": "Multiple reports indicate a significant escalation of tensions surrounding Iran, with the US and Israel considering military action, Iran expressing readiness for war, and Hezbollah rearming with Iranian support, while the Strait of Hormuz remains a flashpoint.",
+  "summary": "The Middle East is bracing for a potential renewal of conflict with Iran, marked by warnings of strikes, diplomatic efforts, and incidents in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-29",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported; signals indicate escalating tensions."
+    "summary": "No active ceasefire is reported; instead, there are warnings of renewed conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.82
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.88
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 35,
-    "escalationLevel": 90,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
+    "nuclearIndex": 30,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
     "globalPressure": 84,
     "allianceInfluence": 51
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 27",
-      "text": "Iran reportedly in close contact with mediators regarding a Hormuz plan.",
+      "date": "Oct 28",
+      "text": "General update on the situation with Iran.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2670
+    },
+    {
+      "date": "Oct 28",
+      "text": "Tehran is in close contact with mediators regarding a plan for the Strait of Hormuz.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOU1VJWnBIbm81cHdJeHVoVXBfd05HbmYya0lhdHczRnpUdUtDWk9nY2Rzd19iNF9LODJkWHdPWmFrSDE4a1dzYU8tWXVaWjZfU1VlaTBJM2xTT21RbFZJSzVMbFpYZG9nZ0EwTEpzcjVrWUN5OHBYWkxzV0g4eWNlYkFkZWlfTHJ2ZWdKeE96NkpQbmJIVmdpQTFmU2QtRHhJWEwyQm5neGlZRXZyVVpFb0hhN0hBYktxLWQ0VUE3d1Z3QdIBxwFBVV95cUxOdWNrd2Npd19xQ0tVRHo5UHlZWk9EdG00WGVvT2o5N0lZcU5rdURUXzVYQjNhZGhxYzZmd21wcDdKZlYzVXVFSjAwdTlmMmZQZFA5b2w5MTd4WjU0OUpKSlRQY2c1anU5RFp4X1Z6NVlPZ0theXZ1QXlBWkJaVTZaMnUtZndUdDNUYzAzZTNlRjh2Vm1ZZ1pHbGszVEJ4ZC1vRE92NWZKRHpQaW5vaDRyOTBLTnJ6QkMzN0pwV3hXdGZIOGtwNUgw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2669
+      "latestSinceUpdate": 2670
+    },
+    {
+      "date": "Oct 27",
+      "text": "General update on the situation with Iran.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2670
     },
     {
       "date": "Recent",
-      "text": "US reportedly has plans for major strikes against Iran if Trump chooses.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE01cEdEMXV2bGlZU2RtZVVGeXQzaFlXMHl6dEd4Zm5VTWs3N0QxdmY2czI1SDZSQW5wWXNkQkUtYVRGTTlTdVBWX0NoTUh1UGJobTB0YkotQWNiYlRPc3hxQk9RQTdnQXc4YWxNU0hYRVNmZ3VPYjVwU293?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2669
-    },
-    {
-      "date": "Recent",
-      "text": "US warns Gulf of possible short, intense renewal of Iran war after midterms.",
+      "text": "A ship caught fire in the Strait of Hormuz amidst reports of a top general being fired for leaking war information.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2669
+      "latestSinceUpdate": 2670
     },
     {
       "date": "Recent",
-      "text": "Iran states preparedness to go back to war amid threats from the U.S. and Israel.",
+      "text": "Three oil tankers caught fire after hitting mines in the Strait of Hormuz, according to Iran's Revolutionary Guard.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2669
+      "sourceUrl": "https://news.google.com/articles/CBMi2gFBVV95cUxNNEhtclNEUGxEZTRxb1hNT01PWUU3Qlk0S1N2dlZIZjFZYWJTWllvTTZSbnRsaGpKVS1pc19uTE5lMGx1aFVzYVhkSjB1TkFOdzNLV1c2UzdJN25KS2ZLdzFHV1AzeVY4UzNIZGR4c2N0Q1B3V1p3TEx2T28xQ2M1V2tMN2hoN0pQcUFza0p2UGQxVDRNazZxLVdqSVlIdFl0V3QweVQxME43OWZaMFNwYUdROUxBdEVESlpJTFQyeTJDck9rb1hoelVxU0VpSGtGdkw0WC13dEtIQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2670
     },
     {
       "date": "Recent",
-      "text": "Israeli vote leaves door open to potential attack on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPclExdndUblNPem1VbXVhY093WGtoRkNqaHBYd25leDl0SXZMRi1VcDkyVTNKLW0yODFsUWVjQW54WjhRSTlwbTB5ZkRPUmxVQWJSYS01a3Bjdk9SaVpsX0FQOXpEekZwMkpYRGRiVy1qeU5GMHRIUlE4UFhhbE9qLVpzNFU?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Financial Times",
-      "latestSinceUpdate": 2669
-    },
-    {
-      "date": "Recent",
-      "text": "South Korea considering deployment options, including aircraft, to the Strait of Hormuz.",
+      "text": "Pressure mounts on Iran as the US and Israel prepare for week-long strikes.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOa0hrZWR2U1dyeG1NekMtUlJORFZ6M1dHUWNDbDFFWTU0bldwU3RwM0hEVGVDVExpeV9rLUtNOFMxdTVWX0pOa2d2Z2ZwZTBRM0pNSU5Md0RSWW82Zmkzb0JzemVjSUlQRTdDMExKZHpvbnRSaTItSVZ5VnBBcVVHSzg1eklqSnAtZF9DRm5UMFhibDJGMHQ4eGZXWGY0RllZMDdHZHhVb2h1WjJORzBEaGhBYk81ZGp1V3BxMWhETDNFQnptQllBS0cyMXY4ZkQz?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2669
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxNeHBWbnNzVmU0NEhQMW1xSEE0Rmk3T3U0elZDNmV6M3hmamxVelpQSmwxM0FtZGNPLWlrRnNEQ3lCT19BTU5nZmo5VmJYd1N6Q1o3MzBrcVJyMUFhUUx6NlZPVUJ4UmFzNzM3Uk9wMHR6QkVvc0R3bXlyZnBWcGV6RXFzYjZWVWQ4ZlZUUkRYZm14akRsb0xKVFZzQ0xUUGlxTV9vaGxDWm1SZ3FrUlE1UEZoXzFYMGpKTHNjanRXaV9iNWhmZ2gyZHVoVkPSAd8BQVVfeXFMTzljYjM0TVQtaHpmNWdGcEc5Wm1hUXZfQ0JLeXRvd3pnckQ3UVd3aERJRDNobE9WbF9hSDFXazB0RWJwNjBuZmx3ZEF1eTFEUkFpN2dwZ0lEUFJHdlVzWTRQVGdzeG5EWUFTcW1aYlJqYlhQR0JMYWJaa3hFN3pNNzVfNzdHYWZqMVhaV0hrVlJ5aFg4ZlZfdnFPT1VsdXVWUjItVTI3QzdhM3lnT1A5TXV4bXZwa3VNTUpwaTh2WTFPYk5UMldMdkJBNW05MHp5Ty1oZ3MxYmVtZXVjQXJJVQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Gulf News",
+      "latestSinceUpdate": 2670
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
