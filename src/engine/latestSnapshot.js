@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2668,
+  "updateSequence": 2669,
   "lastUpdated": "2026-10-29",
-  "lastSyncedAt": "2026-10-29T02:17:51.496Z",
+  "lastSyncedAt": "2026-10-29T08:37:51.372Z",
   "warDay": 244,
-  "summary": "Ongoing discussions are underway regarding a peace plan and the reopening of the Strait of Hormuz, amidst warnings of potential war renewal and rising conflict costs.",
+  "summary": "Multiple reports indicate a significant escalation of tensions surrounding Iran, with the US and Israel considering military action, Iran expressing readiness for war, and Hezbollah rearming with Iranian support, while the Strait of Hormuz remains a flashpoint.",
   "lastNarrativeUpdate": "2026-10-29",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in place, though diplomatic efforts are ongoing to negotiate a peace deal and reopen the Strait of Hormuz."
+    "summary": "No active ceasefire is reported; signals indicate escalating tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.5
+        "precision": 0.8,
+        "aggression": 0.82
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.4,
-        "aggression": 0.5
+        "precision": 0.65,
+        "aggression": 0.88
       }
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 75,
+    "nuclearIndex": 35,
+    "escalationLevel": 90,
     "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "tradeImpact": 74,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 27",
-      "text": "Tehran is in close contact with mediators regarding a plan for the Strait of Hormuz.",
+      "text": "Iran reportedly in close contact with mediators regarding a Hormuz plan.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxOU1VJWnBIbm81cHdJeHVoVXBfd05HbmYya0lhdHczRnpUdUtDWk9nY2Rzd19iNF9LODJkWHdPWmFrSDE4a1dzYU8tWXVaWjZfU1VlaTBJM2xTT21RbFZJSzVMbFpYZG9nZ0EwTEpzcjVrWUN5OHBYWkxzV0g4eWNlYkFkZWlfTHJ2ZWdKeE96NkpQbmJIVmdpQTFmU2QtRHhJWEwyQm5neGlZRXZyVVpFb0hhN0hBYktxLWQ0VUE3d1Z3QdIBxwFBVV95cUxOdWNrd2Npd19xQ0tVRHo5UHlZWk9EdG00WGVvT2o5N0lZcU5rdURUXzVYQjNhZGhxYzZmd21wcDdKZlYzVXVFSjAwdTlmMmZQZFA5b2w5MTd4WjU0OUpKSlRQY2c1anU5RFp4X1Z6NVlPZ0theXZ1QXlBWkJaVTZaMnUtZndUdDNUYzAzZTNlRjh2Vm1ZZ1pHbGszVEJ4ZC1vRE92NWZKRHpQaW5vaDRyOTBLTnJ6QkMzN0pwV3hXdGZIOGtwNUgw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2668
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2669
     },
     {
-      "date": "Oct 27",
-      "text": "A US 'Kill Chain' operation reportedly destroyed an Iranian school.",
+      "date": "Recent",
+      "text": "US reportedly has plans for major strikes against Iran if Trump chooses.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE01cEdEMXV2bGlZU2RtZVVGeXQzaFlXMHl6dEd4Zm5VTWs3N0QxdmY2czI1SDZSQW5wWXNkQkUtYVRGTTlTdVBWX0NoTUh1UGJobTB0YkotQWNiYlRPc3hxQk9RQTdnQXc4YWxNU0hYRVNmZ3VPYjVwU293?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2669
+    },
+    {
+      "date": "Recent",
+      "text": "US warns Gulf of possible short, intense renewal of Iran war after midterms.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2668
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2669
     },
     {
-      "date": "Oct 27",
-      "text": "The U.S. warned Gulf states of a possible short, intense renewal of the Iran War after midterms.",
-      "severity": "warning",
+      "date": "Recent",
+      "text": "Iran states preparedness to go back to war amid threats from the U.S. and Israel.",
+      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2668
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2669
     },
     {
-      "date": "Oct 27",
-      "text": "Iran warned of a global energy shock if Israel strikes again.",
+      "date": "Recent",
+      "text": "Israeli vote leaves door open to potential attack on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPclExdndUblNPem1VbXVhY093WGtoRkNqaHBYd25leDl0SXZMRi1VcDkyVTNKLW0yODFsUWVjQW54WjhRSTlwbTB5ZkRPUmxVQWJSYS01a3Bjdk9SaVpsX0FQOXpEekZwMkpYRGRiVy1qeU5GMHRIUlE4UFhhbE9qLVpzNFU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 2669
+    },
+    {
+      "date": "Recent",
+      "text": "South Korea considering deployment options, including aircraft, to the Strait of Hormuz.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2668
-    },
-    {
-      "date": "Oct 27",
-      "text": "Gulf states are working on a multipart peace deal to avert a renewal of the US-Iran war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxONnhLY0QxNnotazVyRzJXNnJGZTJORWI5UzZpakY5Ql9ybWJONUt1MVl4UEdpb1JOZk5KNm1TdTV1TkRUTERwdzBHdjJzU3IxdWM4ME5vMTZFMWI5bVkwN0dXSjItVUpGMFpSSXBwOGdkVVEtM2lpclhTRGVMTjFYS0VKTl9yT0FTWlZzc2dEdVRpNmVDM1V5NlpudXRyT0RoNzlGaXhhNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2668
-    },
-    {
-      "date": "Oct 27",
-      "text": "The US military estimates the Iran war has cost over $47 billion.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE9Ua0dyX2ZtaW93a1ljT3duTEtHQzRRVDdVM3EtYXM1OTRvYUVsaVpiUWxLSGJsR1hDQWNNaElDa3llbXNZQ1YxSjFpTXh1WGxrYjl5RnkyQWRhYkxfakpnTzUwTUN1US1UemtPQWpVWQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2668
+      "sourceUrl": "https://news.google.com/articles/CBMi0AFBVV95cUxOa0hrZWR2U1dyeG1NekMtUlJORFZ6M1dHUWNDbDFFWTU0bldwU3RwM0hEVGVDVExpeV9rLUtNOFMxdTVWX0pOa2d2Z2ZwZTBRM0pNSU5Md0RSWW82Zmkzb0JzemVjSUlQRTdDMExKZHpvbnRSaTItSVZ5VnBBcVVHSzg1eklqSnAtZF9DRm5UMFhibDJGMHQ4eGZXWGY0RllZMDdHZHhVb2h1WjJORzBEaGhBYk81ZGp1V3BxMWhETDNFQnptQllBS0cyMXY4ZkQz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2669
     }
   ],
   "sourceStatuses": [

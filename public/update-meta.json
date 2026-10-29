@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2668,
+  "updateSequence": 2669,
   "lastUpdated": "2026-10-29",
-  "lastSyncedAt": "2026-10-29T02:17:51.496Z",
+  "lastSyncedAt": "2026-10-29T08:37:51.372Z",
   "warDay": 244,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.2,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is in place, though diplomatic efforts are ongoing to negotiate a peace deal and reopen the Strait of Hormuz."
+    "summary": "No active ceasefire is reported; signals indicate escalating tensions."
   }
 }
