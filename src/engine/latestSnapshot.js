@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2671,
-  "lastUpdated": "2026-10-29",
-  "lastSyncedAt": "2026-10-29T20:32:05.969Z",
-  "warDay": 244,
-  "summary": "The Middle East conflict continues to be the primary focus of international attention on War Day 244.",
-  "lastNarrativeUpdate": "2026-10-29",
+  "updateSequence": 2672,
+  "lastUpdated": "2026-10-30",
+  "lastSyncedAt": "2026-10-30T00:12:25.453Z",
+  "warDay": 245,
+  "summary": "Tensions are escalating significantly between the US, Israel, and Iran, with reports of potential major strikes against Iran after upcoming midterm elections and incidents involving oil tankers in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-10-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation agreement is currently in effect."
+    "summary": "No active ceasefire or de-escalation efforts are reported; tensions are escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.6
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.85,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.6,
         "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 10,
-    "escalationLevel": 75,
-    "oilDisruption": 70,
-    "tradeImpact": 64,
-    "sanctionsPressure": 62,
-    "globalPressure": 77,
-    "allianceInfluence": 46
+    "nuclearIndex": 30,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -57,11 +57,60 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "mosaicDefense": false,
     "unscShield": true
   },
-  "recentEvents": [],
+  "recentEvents": [
+    {
+      "date": "Oct 27",
+      "text": "Pentagon estimates US costs for Iran war at $47 billion.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQclRmNndRN0ZxR18wcDdQUy01TjRUZnN3V2NOMGRPcmF1WnZCVDM0TzgzWHdHSVpISFgzWnFYbDlpazlmZVpIVEltalZ0cHVSak1YQ1ZkVmtTbXFvcFhUVFFoSE5NTWR1UTFWdnp0bGtxVXJYM0c0VmgxbS1KS1EtUW9qb2xCVEhHVWdNWVdvTWpVZnp6QW13TWVGOEhPeXF1MVlPTWhpTmV2Q0N3MjUxaVdEeU5MZFRLLWRCOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2672
+    },
+    {
+      "date": "Oct 27",
+      "text": "US warns allies to prepare for possible Iran strikes and retaliation post-elections.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2672
+    },
+    {
+      "date": "Oct 27",
+      "text": "Trump reportedly downplays immediate strikes but considers new Iran actions; Qatari mediators visit Tehran.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPRy1XR2xLRHBpdDFLWmZBY0Q0QW95SXpadWRTS1Z2dlFYUWtfaEFsNTBfTEloZXRuTFlyWUdkLU9FSF84VkNoMmx6UXZiTWhyNmI4WnZZVlgtWHhHcllTcGgtRlV0RGMxWnRvczBuMDFBRXhwdUUxYXNaZVdUbkN6VTZrY3JTd1VIR0JPTWItOXp1NDFBWjlRMGdQeW03aGlpc3JVWm1BTThmNGQzZHgzVHNMRXJwZjFGVEE4Rk14SUHSAcYBQVVfeXFMTzk5N2k2NXlJMUtfdW9EZXh4dU9sdk1YdTJNMWh1cnpER2ZqR2pXZ2xmVU5peWVGMnduRlpDeklHcXJLX0dUQ25jY1dpWGg3aXAwaWNIdmpKdzlHV3ZHLWxveThZNlVCRGx2Wkd0T1ViVUhZc20yUDFHX0t0SW4yYkxmeU8yV1RUeG50SmVoYXpLalpaLW1UMlBmeUdnT1YzdUxrbHZWYWhxSTFfMGNaTUxsTTBxV0lvSE9GYmtGNnM4SVpiYVpB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2672
+    },
+    {
+      "date": "Oct 27",
+      "text": "US and Israel are reportedly preparing for week-long strikes on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxORzN0dVNJQ1U3bGptWHNyNmFsNDBMdF9qaW84MGtyaVEwVmZrUm1xZEtsS2J3eUVjQVktdWlPR3pMQlc1MkM4WTRmSGFYamJLNUN0eUZub0VGbldzcWVOVHo5eWNiVU9EWl83MmFhb0FIM3JhU3hRX01oTDRnYkhhekRwVW9BM2M2eGZZ0gGQAUFVX3lxTE9RNFo1S3I3YVhDdVBNS2l5LTloUHRCeHVqd0lFRjNfOGZrRlNkQ3FCbkdpV25adVVOOFdrbDduVFFOejZWS3VGR0JUVTBpWk5DRjJ1THdEcVR3anoxVTNaOERhTnVPTC16REFjdW1IM3duS092ZUtGaDViWkx1Sk41cFB0R1lhZkZCV3poemlxYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2672
+    },
+    {
+      "date": "Oct 27",
+      "text": "Houthis target Riyadh with missiles, intercepted by coalition forces.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNemJmdTRNZDJOMzFaR0hrdkY1cU42SHZvM0pETzdIcW1HblIzMmxIekZKaTd3Qi1JQ0VnTVJRWnp4VlJPQXRUSmhxa0lLbWczekMxZVFjLThWX0N5N0NrSzFCbUJHNHMtSzRTM3R1Tzh1TXMyTjFlNTRoeUpRR0N3SzNPX1pfbEpCd0VsZHVUbVliTW9wbFVzcW03WXlBNEItaU9QUkEybUZoTUdwci1GNjdpZG9RSFR2NkZlR2FIQdIBxAFBVV95cUxOYl9oTE1fNWxDMXZibzBGQ214WWxLTTFmeE9RVHBBQVdRY1E0czRjUjNGX0hoS3lQRFRUejdoNEx5X3NNeUlKcGZ0RFlfMWRYZi12TVJ5dG8ycjdUUTJYcmZ2Rl9KdThjN3pWZF9YMEYzWTFCVExqUHRrc0pTWnlDX3RTZ3dpRWlidDZiT0ZYVFItUnBuWnp1XzVSWW5iQmhjMFB5TU1FeWEzNkFQUWtUYVducnR6WlRHYlRfWWw0a3hmTW0t?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2672
+    },
+    {
+      "date": "Oct 27",
+      "text": "IRGC and Iran report 3-4 oil tankers struck by mines in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOQ3o1TDYwTjM5bE8yeXhvd1djcDREMTRJLUlfOTd1eHdHQTNaU2ZUemhXLWZCZENxcldtVWU0aV9jd3U0Y0lwbEZsTkRFalpZbVZYaUc0WXpuVEhzSVhtcUhBQ1lNZEk3QjlyQVNjSzhJbXpQajRVZ08tOWpKMjE3TTBqZ2tsaUtwYWpJOC11Z1FSbFZYOGN0UjBzVkh0dVJVZ2ZhS2xpQzYtS0NBR3Q0WXY4dklNejhBUVFJNNIBwgFBVV95cUxOa1pvZi1pblZJZWN2QUh4LUJVdWhDQUdRb1YxdW5HdFNmeGtzSElwdGhsaUZUc2xHN2pJam1TZGgxaXdRbi1ZTUJrOFFtcnl1WUZ5REFBVnJ3OHFGOXhibTE4RTZxR0lMWXlkZ1VORmRzRkRRSXVMZHFLcG1vVTlrUFZCVUVMTVBDU0NkQ1EtNlNoREF6cWpSOXN4ZkMwQkY5alVpdEdDbkRxQ1JoZHRfbFlDbFc5dDdHVnpBZzdXQW1Kdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2672
+    }
+  ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "no recent items"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -90,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran's Stance",
-      "headline": "Tehran Engages in Hormuz Diplomacy Amidst Energy Shock Warnings",
-      "summary": "Iran is actively discussing a plan with mediators to end the war and reopen the Strait of Hormuz. Concurrently, Tehran has issued warnings of a potential global energy shock if Israel escalates its actions.",
-      "tone": "strained",
-      "latestSinceUpdate": 2668
-    },
-    {
-      "perspective": "US Perspective",
-      "headline": "US Warns of War Renewal, Faces Mounting Costs",
-      "summary": "The United States has warned Gulf nations of a possible short, intense renewal of the Iran War following midterms. The Pentagon estimates the ongoing conflict has already cost the US military over $47 billion.",
+      "perspective": "US/Israel Perspective",
+      "headline": "US, Israel Prepare for Iran Strikes",
+      "summary": "The US and Israel are reportedly preparing for significant military action against Iran, with warnings issued to allies and discussions around the financial costs of conflict. This comes as US officials consider major strikes following midterm elections.",
       "tone": "anxious",
-      "latestSinceUpdate": 2668
+      "latestSinceUpdate": 2672
     },
     {
-      "perspective": "Regional Diplomacy",
-      "headline": "Gulf States Pursue Peace Deal to Avert Escalation",
-      "summary": "Gulf states are actively engaged in developing a multipart peace deal aimed at preventing a renewed US-Iran conflict. This diplomatic push occurs as regional tensions remain high, with Egypt also involved in the Saudi-Houthi conflict.",
-      "tone": "neutral",
-      "latestSinceUpdate": 2668
-    },
-    {
-      "perspective": "Hezbollah's Readiness",
-      "headline": "Hezbollah Prepares for Regional Conflict with Iranian Support",
-      "summary": "Hezbollah is reportedly preparing for a new regional war, with sources indicating financial support from Iran. The group's leadership has stated indifference to who governs Israel, signaling continued regional instability.",
+      "perspective": "Iran Perspective",
+      "headline": "Iran Faces Mounting Pressure Amid Incidents",
+      "summary": "Iran reports incidents involving oil tankers in the Strait of Hormuz and engages with Qatari mediators, while facing mounting pressure from potential US and Israeli strikes. The IRGC claims tankers were struck by mines, indicating heightened regional volatility.",
       "tone": "defiant",
-      "latestSinceUpdate": 2668
+      "latestSinceUpdate": 2672
+    },
+    {
+      "perspective": "Regional Instability",
+      "headline": "Middle East Volatility Continues",
+      "summary": "The broader Middle East remains volatile, with Houthi missile attacks targeting Riyadh and ongoing political tensions involving Hezbollah contributing to regional instability. The situation suggests a complex and interconnected web of conflicts.",
+      "tone": "strained",
+      "latestSinceUpdate": 2672
     }
   ]
 });
