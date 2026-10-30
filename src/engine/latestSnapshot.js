@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2674,
+  "updateSequence": 2675,
   "lastUpdated": "2026-10-30",
-  "lastSyncedAt": "2026-10-30T12:40:25.482Z",
+  "lastSyncedAt": "2026-10-30T18:30:00.000Z",
   "warDay": 245,
-  "summary": "Tensions are escalating significantly between the US, Israel, and Iran, with reports of potential major strikes against Iran after upcoming midterm elections and incidents involving oil tankers in the Strait of Hormuz.",
+  "summary": "Tensions between the United States and Iran are escalating, with both sides preparing for potential renewed strikes and warning of severe responses, while some diplomatic efforts are also underway.",
   "lastNarrativeUpdate": "2026-10-30",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported between the primary belligerents."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
     "nuclearIndex": 30,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 30",
-      "text": "Iran Update, October 28, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQOUt1SnRaTTREU1ZlUS1TTVhuS2QzVGg1UHRrWGc2UTNkUDRZY3Y1QUREU3FielhZanZEY0h0OUxONWpyMEJldGtuU2ItZ3o4RnBvTnZQdDV2dkFrSkpZanVmU1g2WW9yMlVNRGxCaEZ4a1pYVEwyRDcyY3VEOC1lS2tRU28?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2673
-    },
-    {
-      "date": "Oct 30",
-      "text": "How to stop the US-Israel war on Iran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxORzN0dVNJQ1U3bGptWHNyNmFsNDBMdF9qaW84MGtyaVEwVmZrUm1xZEtsS2J3eUVjQVktdWlPR3pMQlc1MkM4WTRmSGFYamJLNUN0eUZub0VGbldzcWVOVHo5eWNiVU9EWl83MmFhb0FIM3JhU3hRX01oTDRnYkhhekRwVW9BM2M2eGZZ0gGQAUFVX3lxTE9RNFo1S3I3YVhDdVBNS2l5LTloUHRCeHVqd0lFRjNfOGZrRlNkQ3FCbkdpV25adVVOOFdrbDduVFFOejZWS3VGR0JUVTBpWk5DRjJ1THdEcVR3anoxVTNaOERhTnVPTC16REFjdW1IM3duS092ZUtGaDViWkx1Sk41cFB0R1lhZkZCV3poemlxYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2673
-    },
-    {
-      "date": "Oct 30",
-      "text": "Iran Update: October 29, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE5vMzNuX3VZRUpSWm40S2I4LWJkcjc2WWJ0YVRtTDdybHljci1wOTBZVEdVS3MtOFB4UHBIaXdMaHdoaFltRHBpdzVNcFBGWnloNnlsaHNZV3JVWTlXbVNVSlQxU1UzSTdfRlpnV05KRXhqMmFsWHIw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Critical Threats",
-      "latestSinceUpdate": 2673
-    },
-    {
-      "date": "Oct 30",
-      "text": "US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say",
-      "severity": "info",
+      "date": "Oct 29",
+      "text": "US and Israel reportedly plan renewed, week-long strikes on Iran after elections.",
+      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2674
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2675
     },
     {
-      "date": "Oct 30",
-      "text": "As war against Iran looms again, what lessons learned, or not?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPZ0stcHZSRnRfQ3dHdDRIOFdOYVBsX294NnpLaUJmdDVqMVRnZjByYkFITXB0c2pRTGkwSzgyRnIyRWZ0eGhtdm5Ma1pHN3hfZG9mQWE2Mk5EMmNnVDBydEVIbXhMYlA4NUc3NVhxWGZLNWI1el9zbmJaVFVLZTlSdjBiYU9obXRRY2hkTGh3dUx3dmVNSkNKelJrQWY?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Christian Science Monitor",
-      "latestSinceUpdate": 2673
-    },
-    {
-      "date": "Oct 30",
-      "text": "Iran war updates: Tehran warns of ‘painful’ response if US launches attacks",
-      "severity": "info",
+      "date": "Oct 29",
+      "text": "Iran warns of a 'painful' response if the US launches attacks.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2673
+      "latestSinceUpdate": 2675
+    },
+    {
+      "date": "Oct 29",
+      "text": "Three tankers reportedly strike mines and catch fire in the Strait of Hormuz, claimed by Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOOEpYN1k4WGRzNW1fT2pyNHVESDhKWVJlTVNDbTZLVmdhY1lRUDRqT0p2WlpZSmNCUm9McUx2bXROS3E0YVRMbEp4U3V4cDcyNzFEbGZsRVM3a2V5NXRnblpucGtMTFZUMFZsYXZ0M1VxQkR6eTRackRZWmd4VE42RkcyZ043b3hXX0FhazZPdEJjQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2675
+    },
+    {
+      "date": "Oct 29",
+      "text": "US military planes arrive in Israel from Texas amid Iran war preparations.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE94RGFGQzBYYVoyM3F2NjBaaEtXWHQxQmx1WTBDZ284S18zTDFFLVVoZ3FZa2l4TmlfZkNmY1UzbWJmQ3FyOGRnUENZTnJza3dlRGFNRDRocnliaFkxTlRxMkZKbEJCbVFxVkNoRFh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2675
+    },
+    {
+      "date": "Oct 29",
+      "text": "Trump states Vance sent a letter to Iran to 'help' with medicine, while downplaying peace talks.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2675
+    },
+    {
+      "date": "Oct 29",
+      "text": "Hegseth reportedly fires a top U.S. military planner.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1YTnV6ZDY4ck1NMHRaQzRYX0hFVGRPTlVZLVVZdHp0cFhGZVJ6dWc3alhpVVZxSi1mZGtlSE1KenRyMmpmV0FWNS1JM283Z2tIemxMSkZkRGE2bkNqUmJCQ0M3YXpWZ2hqNmFlSFFB0gFzQVVfeXFMUDJCcm5OWTVVc3pnWVJZVmlwMklMeXMyaXI3aTUtWEIzamN0SGJRek5DN0tQQi1MdGtkYmEtZmREZTg1bEwtZTJGcHIyMjV5bDlNVDBfeExDTElIc3plZUNNQlpvQ3NIVDZHVUJkaEpLTFFJaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2675
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
