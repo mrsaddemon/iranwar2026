@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2672,
+  "updateSequence": 2673,
   "lastUpdated": "2026-10-30",
-  "lastSyncedAt": "2026-10-30T00:12:25.453Z",
+  "lastSyncedAt": "2026-10-30T05:57:26.865Z",
   "warDay": 245,
   "summary": "Tensions are escalating significantly between the US, Israel, and Iran, with reports of potential major strikes against Iran after upcoming midterm elections and incidents involving oil tankers in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-10-30",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported; tensions are escalating."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 27",
-      "text": "Pentagon estimates US costs for Iran war at $47 billion.",
+      "date": "Oct 30",
+      "text": "Iran Update, October 28, 2026",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxQclRmNndRN0ZxR18wcDdQUy01TjRUZnN3V2NOMGRPcmF1WnZCVDM0TzgzWHdHSVpISFgzWnFYbDlpazlmZVpIVEltalZ0cHVSak1YQ1ZkVmtTbXFvcFhUVFFoSE5NTWR1UTFWdnp0bGtxVXJYM0c0VmgxbS1KS1EtUW9qb2xCVEhHVWdNWVdvTWpVZnp6QW13TWVGOEhPeXF1MVlPTWhpTmV2Q0N3MjUxaVdEeU5MZFRLLWRCOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2672
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQOUt1SnRaTTREU1ZlUS1TTVhuS2QzVGg1UHRrWGc2UTNkUDRZY3Y1QUREU3FielhZanZEY0h0OUxONWpyMEJldGtuU2ItZ3o4RnBvTnZQdDV2dkFrSkpZanVmU1g2WW9yMlVNRGxCaEZ4a1pYVEwyRDcyY3VEOC1lS2tRU28?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2673
     },
     {
-      "date": "Oct 27",
-      "text": "US warns allies to prepare for possible Iran strikes and retaliation post-elections.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2672
-    },
-    {
-      "date": "Oct 27",
-      "text": "Trump reportedly downplays immediate strikes but considers new Iran actions; Qatari mediators visit Tehran.",
+      "date": "Oct 30",
+      "text": "Pentagon says Iran war has cost US taxpayers $47bn: What that means",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPRy1XR2xLRHBpdDFLWmZBY0Q0QW95SXpadWRTS1Z2dlFYUWtfaEFsNTBfTEloZXRuTFlyWUdkLU9FSF84VkNoMmx6UXZiTWhyNmI4WnZZVlgtWHhHcllTcGgtRlV0RGMxWnRvczBuMDFBRXhwdUUxYXNaZVdUbkN6VTZrY3JTd1VIR0JPTWItOXp1NDFBWjlRMGdQeW03aGlpc3JVWm1BTThmNGQzZHgzVHNMRXJwZjFGVEE4Rk14SUHSAcYBQVVfeXFMTzk5N2k2NXlJMUtfdW9EZXh4dU9sdk1YdTJNMWh1cnpER2ZqR2pXZ2xmVU5peWVGMnduRlpDeklHcXJLX0dUQ25jY1dpWGg3aXAwaWNIdmpKdzlHV3ZHLWxveThZNlVCRGx2Wkd0T1ViVUhZc20yUDFHX0t0SW4yYkxmeU8yV1RUeG50SmVoYXpLalpaLW1UMlBmeUdnT1YzdUxrbHZWYWhxSTFfMGNaTUxsTTBxV0lvSE9GYmtGNnM4SVpiYVpB?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNOXo4WGVRZE9wNk5rWUQzcENPb3lhaVRWSU8wSnN4eE5HT2NNT2tNNHV5czhKaGNKQnRSdVNmenFUaEVraTd0WWZYSG1SdGJGZnlmVXNhZHNNanlhVXRLdmx1TV9oV3lfV1kwUko0VVg4bEoyTzFzOFhkd3l4bXBHSzVHMlVXZmJVRGptMUlrZlFpYTlvcXlLZlBTNHlZaDJRekNjRTRCSG9uSjTSAbABQVVfeXFMUGRIczNfdUtzdlp3Sl85MEtReUNERjA3WjdJbWs0bFl1cVh4bHU1clU3bHk5bEthcUJIb2xOM3RiX0IxdWl2elpwbXVQd0M0dlBnc01LLUs0eDRYQ0cwemR1V1hGcFFEc0x5VE1tajh2eS1aaUNUZ1hpTVNyaFc1NTE4MjJNQkJ3V09MSHdnNlQ1Y1h0NjZrYV8zUE5jOFdYRG9DZ3c2UlNRdDZBdURmNjg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2672
+      "latestSinceUpdate": 2673
     },
     {
-      "date": "Oct 27",
-      "text": "US and Israel are reportedly preparing for week-long strikes on Iran.",
-      "severity": "critical",
+      "date": "Oct 30",
+      "text": "Iran Update: October 29, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE5vMzNuX3VZRUpSWm40S2I4LWJkcjc2WWJ0YVRtTDdybHljci1wOTBZVEdVS3MtOFB4UHBIaXdMaHdoaFltRHBpdzVNcFBGWnloNnlsaHNZV3JVWTlXbVNVSlQxU1UzSTdfRlpnV05KRXhqMmFsWHIw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Critical Threats",
+      "latestSinceUpdate": 2673
+    },
+    {
+      "date": "Oct 30",
+      "text": "How to stop the US-Israel war on Iran",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxORzN0dVNJQ1U3bGptWHNyNmFsNDBMdF9qaW84MGtyaVEwVmZrUm1xZEtsS2J3eUVjQVktdWlPR3pMQlc1MkM4WTRmSGFYamJLNUN0eUZub0VGbldzcWVOVHo5eWNiVU9EWl83MmFhb0FIM3JhU3hRX01oTDRnYkhhekRwVW9BM2M2eGZZ0gGQAUFVX3lxTE9RNFo1S3I3YVhDdVBNS2l5LTloUHRCeHVqd0lFRjNfOGZrRlNkQ3FCbkdpV25adVVOOFdrbDduVFFOejZWS3VGR0JUVTBpWk5DRjJ1THdEcVR3anoxVTNaOERhTnVPTC16REFjdW1IM3duS092ZUtGaDViWkx1Sk41cFB0R1lhZkZCV3poemlxYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2672
+      "latestSinceUpdate": 2673
     },
     {
-      "date": "Oct 27",
-      "text": "Houthis target Riyadh with missiles, intercepted by coalition forces.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNemJmdTRNZDJOMzFaR0hrdkY1cU42SHZvM0pETzdIcW1HblIzMmxIekZKaTd3Qi1JQ0VnTVJRWnp4VlJPQXRUSmhxa0lLbWczekMxZVFjLThWX0N5N0NrSzFCbUJHNHMtSzRTM3R1Tzh1TXMyTjFlNTRoeUpRR0N3SzNPX1pfbEpCd0VsZHVUbVliTW9wbFVzcW03WXlBNEItaU9QUkEybUZoTUdwci1GNjdpZG9RSFR2NkZlR2FIQdIBxAFBVV95cUxOYl9oTE1fNWxDMXZibzBGQ214WWxLTTFmeE9RVHBBQVdRY1E0czRjUjNGX0hoS3lQRFRUejdoNEx5X3NNeUlKcGZ0RFlfMWRYZi12TVJ5dG8ycjdUUTJYcmZ2Rl9KdThjN3pWZF9YMEYzWTFCVExqUHRrc0pTWnlDX3RTZ3dpRWlidDZiT0ZYVFItUnBuWnp1XzVSWW5iQmhjMFB5TU1FeWEzNkFQUWtUYVducnR6WlRHYlRfWWw0a3hmTW0t?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2672
+      "date": "Oct 30",
+      "text": "As war against Iran looms again, what lessons learned, or not?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMinAFBVV95cUxPZ0stcHZSRnRfQ3dHdDRIOFdOYVBsX294NnpLaUJmdDVqMVRnZjByYkFITXB0c2pRTGkwSzgyRnIyRWZ0eGhtdm5Ma1pHN3hfZG9mQWE2Mk5EMmNnVDBydEVIbXhMYlA4NUc3NVhxWGZLNWI1el9zbmJaVFVLZTlSdjBiYU9obXRRY2hkTGh3dUx3dmVNSkNKelJrQWY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Christian Science Monitor",
+      "latestSinceUpdate": 2673
     },
     {
-      "date": "Oct 27",
-      "text": "IRGC and Iran report 3-4 oil tankers struck by mines in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOQ3o1TDYwTjM5bE8yeXhvd1djcDREMTRJLUlfOTd1eHdHQTNaU2ZUemhXLWZCZENxcldtVWU0aV9jd3U0Y0lwbEZsTkRFalpZbVZYaUc0WXpuVEhzSVhtcUhBQ1lNZEk3QjlyQVNjSzhJbXpQajRVZ08tOWpKMjE3TTBqZ2tsaUtwYWpJOC11Z1FSbFZYOGN0UjBzVkh0dVJVZ2ZhS2xpQzYtS0NBR3Q0WXY4dklNejhBUVFJNNIBwgFBVV95cUxOa1pvZi1pblZJZWN2QUh4LUJVdWhDQUdRb1YxdW5HdFNmeGtzSElwdGhsaUZUc2xHN2pJam1TZGgxaXdRbi1ZTUJrOFFtcnl1WUZ5REFBVnJ3OHFGOXhibTE4RTZxR0lMWXlkZ1VORmRzRkRRSXVMZHFLcG1vVTlrUFZCVUVMTVBDU0NkQ1EtNlNoREF6cWpSOXN4ZkMwQkY5alVpdEdDbkRxQ1JoZHRfbFlDbFc5dDdHVnpBZzdXQW1Kdw?hl=en-US&gl=US&ceid=US:en",
+      "date": "Oct 30",
+      "text": "Iran war updates: Tehran warns of ‘painful’ response if US launches attacks",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2672
+      "latestSinceUpdate": 2673
     }
   ],
   "sourceStatuses": [
