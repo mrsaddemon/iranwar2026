@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2676,
-  "lastUpdated": "2026-10-30",
-  "lastSyncedAt": "2026-10-30T22:26:58.498Z",
-  "warDay": 245,
-  "summary": "A ceasefire is currently holding, but the situation remains fragile amid unresolved regional tensions and the risk of renewed escalation.",
-  "lastNarrativeUpdate": "2026-10-30",
+  "updateSequence": 2677,
+  "lastUpdated": "2026-10-31",
+  "lastSyncedAt": "2026-10-31T01:45:28.564Z",
+  "warDay": 246,
+  "summary": "The US and Israel are reportedly preparing for potential strikes against Iran, while Iran has been implicated in attacks on tankers in the Strait of Hormuz, amidst internal US military leadership changes.",
+  "lastNarrativeUpdate": "2026-10-31",
   "ceasefire": {
-    "active": true,
-    "status": "active",
-    "confidence": 0.69,
+    "active": false,
+    "status": "none",
+    "confidence": 0.14,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst escalating tensions and threats of renewed conflict."
+    "summary": "No active ceasefire or de-escalation efforts are reported; tensions are escalating."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -42,12 +42,12 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 20,
-    "escalationLevel": 38,
-    "oilDisruption": 60,
-    "tradeImpact": 34,
-    "sanctionsPressure": 49,
-    "globalPressure": 52,
+    "nuclearIndex": 40,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 28",
-      "text": "Iran Update reported.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQOUt1SnRaTTREU1ZlUS1TTVhuS2QzVGg1UHRrWGc2UTNkUDRZY3Y1QUREU3FielhZanZEY0h0OUxONWpyMEJldGtuU2ItZ3o4RnBvTnZQdDV2dkFrSkpZanVmU1g2WW9yMlVNRGxCaEZ4a1pYVEwyRDcyY3VEOC1lS2tRU28?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2676
-    },
-    {
-      "date": "Oct 28",
-      "text": "Pakistan expresses cautious optimism on Iran-US de-escalation efforts.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOQ3o1TDYwTjM5bE8yeXhvd1djcDREMTRJLUlfOTd1eHdHQTNaU2ZUemhXLWZCZENxcldtVWU0aV9jd3U0Y0lwbEZsTkRFalpZbVZYaUc0WXpuVEhzSVhtcUhBQ1lNZEk3QjlyQVNjSzhJbXpQajRVZ08tOWpKMjE3TTBqZ2tsaUtwYWpJOC11Z1FSbFZYOGN0UjBzVkh0dVJVZ2ZhS2xpQzYtS0NBR3Q0WXY4dklNejhBUVFJNNIBwgFBVV95cUxOa1pvZi1pblZJZWN2QUh4LUJVdWhDQUdRb1YxdW5HdFNmeGtzSElwdGhsaUZUc2xHN2pJam1TZGgxaXdRbi1ZTUJrOFFtcnl1WUZ5REFBVnJ3OHFGOXhibTE4RTZxR0lMWXlkZ1VORmRzRkRRSXVMZHFLcG1vVTlrUFZCVUVMTVBDU0NkQ1EtNlNoREF6cWpSOXN4ZkMwQkY5alVpdEdDbkRxQ1JoZHRfbFlDbFc5dDdHVnpBZzdXQW1Kdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2676
-    },
-    {
-      "date": "Oct 29",
-      "text": "Iran Update reported.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE5vMzNuX3VZRUpSWm40S2I4LWJkcjc2WWJ0YVRtTDdybHljci1wOTBZVEdVS3MtOFB4UHBIaXdMaHdoaFltRHBpdzVNcFBGWnloNnlsaHNZV3JVWTlXbVNVSlQxU1UzSTdfRlpnV05KRXhqMmFsWHIw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Critical Threats",
-      "latestSinceUpdate": 2676
-    },
-    {
-      "date": "Oct 29",
-      "text": "US weighs new Iran strikes as diplomatic outreach continues.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2676
-    },
-    {
-      "date": "Oct 29",
-      "text": "Iran braces for possible new conflict with US and Israel.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi6wFBVV95cUxQeWozTVJwa2dwelRCWUQ0aWQwemJxY1FBRVZJeTJ6ZXpYbm1Xb1pyQkpnd05TSVVtUmFsU21pTjd2UExQekMwbnlKOGJQRG5Ocjdpd2h2M0RPYWhnZVFXSzdwLWxqbmJmd2ZfenNzbTExT3RjUm5kWG9nX2h5LWM4TGRIcDBjaTJHUnZpMFhycFgzRGM1NHlKUnBjbzd0X1hYWEhfN0VvTnItUms5WS1OMkttcnlFdUhYRnQtTTdXR0FobmlrV1lFWGJsQlZLYmJwVmRKd2Y0U0xBbUhnMjlWMFVUdHJxbmJ4MzRn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Le Monde.fr",
-      "latestSinceUpdate": 2676
-    },
-    {
-      "date": "Oct 29",
-      "text": "U.S. warns Gulf states of possible short, intense renewal of Iran War.",
+      "date": "Oct 30",
+      "text": "US and Israel have drawn up detailed plans for renewed strikes on Iran.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2677
+    },
+    {
+      "date": "Oct 30",
+      "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2677
+    },
+    {
+      "date": "Oct 30",
+      "text": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOOEpYN1k4WGRzNW1fT2pyNHVESDhKWVJlTVNDbTZLVmdhY1lRUDRqT0p2WlpZSmNCUm9McUx2bXROS3E0YVRMbEp4U3V4cDcyNzFEbGZsRVM3a2V5NXRnblpucGtMTFZUMFZsYXZ0M1VxQkR6eTRackRZWmd4VE42RkcyZ043b3hXX0FhazZPdEJjQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2677
+    },
+    {
+      "date": "Oct 30",
+      "text": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1YTnV6ZDY4ck1NMHRaQzRYX0hFVGRPTlVZLVVZdHp0cFhGZVJ6dWc3alhpVVZxSi1mZGtlSE1KenRyMmpmV0FWNS1JM283Z2tIemxMSkZkRGE2bkNqUmJCQ0M3YXpWZ2hqNmFlSFFB0gFzQVVfeXFMUDJCcm5OWTVVc3pnWVJZVmlwMklMeXMyaXI3aTUtWEIzamN0SGJRek5DN0tQQi1MdGtkYmEtZmREZTg1bEwtZTJGcHIyMjV5bDlNVDBfeExDTElIc3plZUNNQlpvQ3NIVDZHVUJkaEpLTFFJaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2677
+    },
+    {
+      "date": "Oct 30",
+      "text": "Lebanese military court charges 13 over Hezbollah explosives truck.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQSF9LUC1KUmhHMlZwbDV5eS1lUXZpcVJGc1VYRTlaSngyOHdwNFJNVEZ6U0psUmV5VGZPcElwU0tiTE80SW5OT0xRLW1WS3pMOUNYRjRoZjZ0RG16bkM3MzNyMGJacXZzcTJ5R1NVQTlEUDFveGw0M3haQ2dheVF0bzVudDBLdFgxSHpCUzFBcTlfU1o3MHZaemdGMTFhZ9IBowFBVV95cUxOazdPUUJlVklOU09zZnNxNFdBSGFkVV9BNEw0WEdSZ2k5dEdPSVo1a2VQSzlmeExVa0RIOWlMdDdhaHBJWmtTUkx6S21sa0VndTdTWnpuZ3o1UjhuRzBHVDFDdzlRVkpUYWhBRmNjYnVGazk4OHRRRFN2cDNCUVJEVE9heTFtcUhWenZxVVVnU2NsWHNwckxxWEpNTnJxQlFQMlo4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2677
+    },
+    {
+      "date": "Oct 29",
+      "text": "An update on the situation in Iran was published.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2676
+      "latestSinceUpdate": 2677
     }
   ],
   "sourceStatuses": [
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Perspective",
+      "perspective": "US/Israel Readiness",
       "headline": "US, Israel Prepare for Iran Strikes",
-      "summary": "The US and Israel are reportedly preparing for significant military action against Iran, with warnings issued to allies and discussions around the financial costs of conflict. This comes as US officials consider major strikes following midterm elections.",
+      "summary": "The US and Israel are finalizing plans for potential military strikes against Iran, with US military assets arriving in the region and leadership preparing for various scenarios. Allies are being warned to prepare for potential retaliation.",
       "tone": "anxious",
-      "latestSinceUpdate": 2672
+      "latestSinceUpdate": 2677
     },
     {
-      "perspective": "Iran Perspective",
-      "headline": "Iran Faces Mounting Pressure Amid Incidents",
-      "summary": "Iran reports incidents involving oil tankers in the Strait of Hormuz and engages with Qatari mediators, while facing mounting pressure from potential US and Israeli strikes. The IRGC claims tankers were struck by mines, indicating heightened regional volatility.",
+      "perspective": "Iranian Defiance/Retaliation",
+      "headline": "Iran Escalates Strait of Hormuz Attacks",
+      "summary": "Iran is demonstrating its capacity to disrupt regional shipping, with recent tanker attacks in the Strait of Hormuz, while facing mounting pressure from the US and Israel. Pakistan expresses cautious optimism for de-escalation.",
       "tone": "defiant",
-      "latestSinceUpdate": 2672
+      "latestSinceUpdate": 2677
     },
     {
       "perspective": "Regional Instability",
-      "headline": "Middle East Volatility Continues",
-      "summary": "The broader Middle East remains volatile, with Houthi missile attacks targeting Riyadh and ongoing political tensions involving Hezbollah contributing to regional instability. The situation suggests a complex and interconnected web of conflicts.",
+      "headline": "Gulf States Rethink Defense Amid US-Iran Tensions",
+      "summary": "Gulf states are urged to reassess their defense strategies in light of escalating US-Iran tensions, as incidents involving Hezbollah in Lebanon also highlight broader regional volatility. Trump pledges IDF withdrawal from Lebanon if Beirut joins Abraham Accords.",
       "tone": "strained",
-      "latestSinceUpdate": 2672
+      "latestSinceUpdate": 2677
+    },
+    {
+      "perspective": "US Internal Dynamics",
+      "headline": "Trump Weighs Iran Strikes Amidst Military Leadership Changes",
+      "summary": "Amidst preparations for potential conflict with Iran, the US administration is experiencing internal shifts in military leadership, with the President weighing options and reportedly downplaying peace talks. A top military planner was reportedly fired.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2677
     }
   ]
 });
