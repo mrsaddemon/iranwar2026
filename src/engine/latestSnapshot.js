@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2679,
+  "updateSequence": 2680,
   "lastUpdated": "2026-10-31",
-  "lastSyncedAt": "2026-10-31T13:49:19.399Z",
+  "lastSyncedAt": "2026-10-31T17:58:36.029Z",
   "warDay": 246,
-  "summary": "Tensions between the US, Israel, and Iran are escalating with preparations for potential strikes, while diplomatic efforts for de-escalation are also underway.",
+  "summary": "The US and Israel are reportedly planning potential new strikes on Iran amidst Iran's nuclear program rebuilding efforts and increased tensions in the Strait of Hormuz, while Iran's supreme leader warns against attacks and a US dialogue attempt is seen as positive.",
   "lastNarrativeUpdate": "2026-10-31",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.14,
+    "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst escalating tensions and preparations for potential strikes."
+    "summary": "No active ceasefire or de-escalation agreement is reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 92
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 68
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.75,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 63,
-    "globalPressure": 79,
+    "nuclearIndex": 80,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 30",
-      "text": "Pressure mounts on Iran as US, Israel prepare week-long strikes.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxNeHBWbnNzVmU0NEhQMW1xSEE0Rmk3T3U0elZDNmV6M3hmamxVelpQSmwxM0FtZGNPLWlrRnNEQ3lCT19BTU5nZmo5VmJYd1N6Q1o3MzBrcVJyMUFhUUx6NlZPVUJ4UmFzNzM3Uk9wMHR6QkVvc0R3bXlyZnBWcGV6RXFzYjZWVWQ4ZlZUUkRYZm14akRsb0xKVFZzQ0xUUGlxTV9vaGxDWm1SZ3FrUlE1UEZoXzFYMGpKTHNjanRXaV9iNWhmZ2gyZHVoVkPSAd8BQVVfeXFMTzljYjM0TVQtaHpmNWdGcEc5Wm1hUXZfQ0JLeXRvd3pnckQ3UVd3aERJRDNobE9WbF9hSDFXazB0RWJwNjBuZmx3ZEF1eTFEUkFpN2dwZ0lEUFJHdlVzWTRQVGdzeG5EWUFTcW1aYlJqYlhQR0JMYWJaa3hFN3pNNzVfNzdHYWZqMVhaV0hrVlJ5aFg4ZlZfdnFPT1VsdXVWUjItVTI3QzdhM3lnT1A5TXV4bXZwa3VNTUpwaTh2WTFPYk5UMldMdkJBNW05MHp5Ty1oZ3MxYmVtZXVjQXJJVQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Gulf News",
-      "latestSinceUpdate": 2679
-    },
-    {
-      "date": "Oct 30",
-      "text": "Khamenei orders military response without ‘geographic limits’ to any US-Israeli attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiZkFVX3lxTE5SVDBySjZBWnR2NUF2ZldLLW5GMWJObUZKVDFGT3NBOGp2S0gzUEY2a3lHekQ5NUNjenZocGh2eGFWVVpNdllnb2luUGowV1M1VjJBUUVYMFpNWG9iR0FNUEFkVHdXQdIBa0FVX3lxTE5CbXVOR3hFd2NVZUlzdFY2bzBsVEVWMnhGSV9EUzFpdllQVWh4ajhkVGF1SmpEVDlCLUh6cTlOZWtUb3ZmSUVBOHVLeTV0NXFCWmd1M3NDOHFXeGhqMVpzRmgxYjdDcGJqRWNr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2679
-    },
-    {
-      "date": "Oct 30",
-      "text": "Iran's IRGC says it is 'closely monitoring America's movements in the region'.",
+      "date": "Oct 31",
+      "text": "US weighs new Iran strikes as diplomatic outreach is considered.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2679
+      "latestSinceUpdate": 2680
     },
     {
-      "date": "Oct 30",
-      "text": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz.",
+      "date": "Oct 31",
+      "text": "Trump states the Iran war will be 'wrapped up soon'.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPV29DcEtjV3gtcWtydlBDWXZPblY0Szg5NmZZNFZ2WGxmTHFsX096SlJoem40ZFpBRkFvcW41UGtrMVZBeEVPS2dxN205OG5rM2VNSE5CcGJfMGlLNUgxZWRTeXFENTU0ajlIaUZoWUhZblk0LTQtZzZHSlZaSG9JQy0wazJLQU1vakZXdDd5aw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2680
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran's supreme leader warns U.S. and Israel against new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2679
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2680
     },
     {
-      "date": "Oct 30",
-      "text": "Iran's Araghchi says US attempt to open dialogue 'positive step'.",
+      "date": "Oct 31",
+      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2680
+    },
+    {
+      "date": "Oct 31",
+      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2680
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran's Araghchi calls US attempt to open dialogue a 'positive step'.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQelNIbUtVX3B2VzFuckxCZENUQmpfSHFxM1Z1dTcybmRkUmJfQjc5aXNWS2RUTzBYeTJhZWFETDgxOVZvb3VMdzVZM0FOamo0T08tUTQzSWtnQm85a2R2ZGI0bXNnRXB6VktrU3djS0xueTFvZjVDVVpzMHZIY2syYmdaNTVlVmFDUWEtY1lKSjR6NHB1UG9SQTRrdHhJSzBFX2FRMGFyLU84ekpwX0xEX2RwcV9pT1BzTGgtY1I0YUtTZ9IBxwFBVV95cUxQODNsX0VmMnZtcU5PTktTbWNsMVdlSnkzRmFQUUlaWF9IanFIVGpQMXJCYTdoR2U4N1F0Y3FZajRUMHViS2pPbk1UTGhidUhmTUE1Z2d0RExfelFwc2NJWGItMjN5MjJsWmZYUHpHbWhxdEZoVzBXT1VrRWthNnNoVzRwUWpkRFZtTFJXSUZKYjRQVGhMMF9XbUh1Y2F3LXJIS2xXRElUZVFJdk53YXc0b2g3MmpaNXZkUU9oSTFVTkNnUzkyZmJF?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2679
-    },
-    {
-      "date": "Oct 30",
-      "text": "Qatar pushes for a U.S.-Iran deal amidst war updates.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2679
+      "latestSinceUpdate": 2680
     }
   ],
   "sourceStatuses": [
