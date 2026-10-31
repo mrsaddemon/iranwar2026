@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2680,
+  "updateSequence": 2681,
   "lastUpdated": "2026-10-31",
-  "lastSyncedAt": "2026-10-31T17:58:36.029Z",
+  "lastSyncedAt": "2026-10-31T21:24:02.748Z",
   "warDay": 246,
-  "summary": "The US and Israel are reportedly planning potential new strikes on Iran amidst Iran's nuclear program rebuilding efforts and increased tensions in the Strait of Hormuz, while Iran's supreme leader warns against attacks and a US dialogue attempt is seen as positive.",
+  "summary": "The Middle East is on edge as the US weighs new strikes against Iran following recent Iranian attacks on US bases, with both sides issuing warnings amidst ongoing tensions and discussions of potential war.",
   "lastNarrativeUpdate": "2026-10-31",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation agreement is reported."
+    "summary": "No active ceasefire is reported amidst escalating tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 92
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.9,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.9
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 68
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.75,
+        "precision": 0.6,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 80,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "nuclearIndex": 50,
+    "escalationLevel": 80,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
+    "sanctionsPressure": 63,
+    "globalPressure": 79,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 31",
-      "text": "US weighs new Iran strikes as diplomatic outreach is considered.",
+      "text": "US weighs new Iran strikes as Vance reaches out, raising questions about war or a deal.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2680
-    },
-    {
-      "date": "Oct 31",
-      "text": "Trump states the Iran war will be 'wrapped up soon'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMijwFBVV95cUxPV29DcEtjV3gtcWtydlBDWXZPblY0Szg5NmZZNFZ2WGxmTHFsX096SlJoem40ZFpBRkFvcW41UGtrMVZBeEVPS2dxN205OG5rM2VNSE5CcGJfMGlLNUgxZWRTeXFENTU0ajlIaUZoWUhZblk0LTQtZzZHSlZaSG9JQy0wazJLQU1vakZXdDd5aw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2680
-    },
-    {
-      "date": "Oct 31",
-      "text": "Iran's supreme leader warns U.S. and Israel against new attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2680
-    },
-    {
-      "date": "Oct 31",
-      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2680
-    },
-    {
-      "date": "Oct 31",
-      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2680
-    },
-    {
-      "date": "Oct 31",
-      "text": "Iran's Araghchi calls US attempt to open dialogue a 'positive step'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQelNIbUtVX3B2VzFuckxCZENUQmpfSHFxM1Z1dTcybmRkUmJfQjc5aXNWS2RUTzBYeTJhZWFETDgxOVZvb3VMdzVZM0FOamo0T08tUTQzSWtnQm85a2R2ZGI0bXNnRXB6VktrU3djS0xueTFvZjVDVVpzMHZIY2syYmdaNTVlVmFDUWEtY1lKSjR6NHB1UG9SQTRrdHhJSzBFX2FRMGFyLU84ekpwX0xEX2RwcV9pT1BzTGgtY1I0YUtTZ9IBxwFBVV95cUxQODNsX0VmMnZtcU5PTktTbWNsMVdlSnkzRmFQUUlaWF9IanFIVGpQMXJCYTdoR2U4N1F0Y3FZajRUMHViS2pPbk1UTGhidUhmTUE1Z2d0RExfelFwc2NJWGItMjN5MjJsWmZYUHpHbWhxdEZoVzBXT1VrRWthNnNoVzRwUWpkRFZtTFJXSUZKYjRQVGhMMF9XbUh1Y2F3LXJIS2xXRElUZVFJdk53YXc0b2g3MmpaNXZkUU9oSTFVTkNnUzkyZmJF?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOTGN2bDJnRlZBUFNOTlVyNkF2Y3BydmxnS002TXB5MHZ6WnVmN1JlajliLXpmQ2hnMk9iejQ5MFZrdDNKU19nRWg2LWpST3ZYVHB4ckZ1Y0JhaFJNU1RaSlpOWGVjZkdreHB4YllHOTdhQzJ3NzJzcEY5LUo1Y1gtTzU2U0x0ejJ0ckFTTHcwbXJCVXdUZnEwNzBDd09uQk9XVG1lVl81MVloZi0yQVJOWS1NQdIBuAFBVV95cUxPUzd5NDgxT3R6MW9xenM1TFFrdlBPandwQkRNaVd2ODFmcF9EeXBCeXpwUERFOHl5WUtfNTVzZFo3eUpDaFFHbEJ3bmRpNFd5SDd6bnBDNGV0UWtxNUI2YzNTNWpObHktMVFPc0pkMGlISVJxb0Vfc0d5UDZZWXVtbXNKYmxBdVQxeUhzT2hraXQ2TzIydWgxWS1qazFEU1RWUzdySWNpbXRGeFZxWE1qZWNqZUh0Sk5y?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2680
+      "latestSinceUpdate": 2681
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran braces for more war, irrespective of upcoming U.S. and Israeli election outcomes.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2681
+    },
+    {
+      "date": "Oct 31",
+      "text": "Fears mount in the Middle East that the Iran war could restart after the midterms.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2681
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran's Khamenei warns US and Israel against new attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 2681
+    },
+    {
+      "date": "Oct 31",
+      "text": "Analyses find Iran strikes on US Mideast bases first took out early-warning systems.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPQ0t0VEdfVUlkRDRaUVg4ZC1jRzlwRTRBd1U1cFRWRG13bWh1R3BDWm1BLUFUdmt6NWg1NDlQSkR3d2QtVkl6UG93SUJYRHJ0cFZlX3ZBQ3kzUDVWaXFDcmZSTHc2eDlNVjdablhyTjZGVll0a2NENWFPSWM5eW1PLVFCV3hXTFNYN042MDRvTlJ3UnZ6YkRLcmlkR2xJeFR5MXNWVEVJVjNzUE9relN0LVBrY0VTZ9IBuwFBVV95cUxNYWQ4UGJnRnN6djJJVGhOMm10enR2RGMtZXd4b3BiRjBIMzV3ZWc2eWhKaU5oQWFHU3BVZnpPbE5oOE10bG1QcHRlVWhNUVdzdV90OWl5LUc1UkFpd1BrazF4bmZHUFpxY0dXdkd3aXZZR3BtVW5EdFBJOVpIc20zSldWNllzR2hFTm1pa2JuLXdzcDRvcHd0aXB6V1NtbU53VFlOS3VXd2RBcHl6aU8yWTZMdHdJbVpTc3ln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2681
+    },
+    {
+      "date": "Oct 31",
+      "text": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2681
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
