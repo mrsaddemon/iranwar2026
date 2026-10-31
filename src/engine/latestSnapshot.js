@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2677,
+  "updateSequence": 2678,
   "lastUpdated": "2026-10-31",
-  "lastSyncedAt": "2026-10-31T01:45:28.564Z",
+  "lastSyncedAt": "2026-10-31T07:33:09.114Z",
   "warDay": 246,
-  "summary": "The US and Israel are reportedly preparing for potential strikes against Iran, while Iran has been implicated in attacks on tankers in the Strait of Hormuz, amidst internal US military leadership changes.",
+  "summary": "A monitored ceasefire appears to be holding across the main fronts, though the wider regional picture remains fragile and reversible.",
   "lastNarrativeUpdate": "2026-10-31",
   "ceasefire": {
-    "active": false,
-    "status": "none",
-    "confidence": 0.14,
+    "active": true,
+    "status": "active",
+    "confidence": 0.69,
     "durationDays": 7,
-    "summary": "No active ceasefire or de-escalation efforts are reported; tensions are escalating."
+    "summary": "Ceasefire language is present across the source mix, but the model should still treat it as reversible under renewed violations or proxy attacks."
   },
   "actorOverrides": {
     "usa": {
@@ -43,11 +43,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "global": {
     "nuclearIndex": 40,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "escalationLevel": 38,
+    "oilDisruption": 62,
+    "tradeImpact": 35,
+    "sanctionsPressure": 49,
+    "globalPressure": 52,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 30",
-      "text": "US and Israel have drawn up detailed plans for renewed strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2677
-    },
-    {
-      "date": "Oct 30",
-      "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2677
-    },
-    {
-      "date": "Oct 30",
-      "text": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxOOEpYN1k4WGRzNW1fT2pyNHVESDhKWVJlTVNDbTZLVmdhY1lRUDRqT0p2WlpZSmNCUm9McUx2bXROS3E0YVRMbEp4U3V4cDcyNzFEbGZsRVM3a2V5NXRnblpucGtMTFZUMFZsYXZ0M1VxQkR6eTRackRZWmd4VE42RkcyZ043b3hXX0FhazZPdEJjQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2677
-    },
-    {
-      "date": "Oct 30",
-      "text": "Hegseth reportedly fires U.S. top military planner as Trump downplays Iran peace talks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1YTnV6ZDY4ck1NMHRaQzRYX0hFVGRPTlVZLVVZdHp0cFhGZVJ6dWc3alhpVVZxSi1mZGtlSE1KenRyMmpmV0FWNS1JM283Z2tIemxMSkZkRGE2bkNqUmJCQ0M3YXpWZ2hqNmFlSFFB0gFzQVVfeXFMUDJCcm5OWTVVc3pnWVJZVmlwMklMeXMyaXI3aTUtWEIzamN0SGJRek5DN0tQQi1MdGtkYmEtZmREZTg1bEwtZTJGcHIyMjV5bDlNVDBfeExDTElIc3plZUNNQlpvQ3NIVDZHVUJkaEpLTFFJaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2677
-    },
-    {
-      "date": "Oct 30",
-      "text": "Lebanese military court charges 13 over Hezbollah explosives truck.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxQSF9LUC1KUmhHMlZwbDV5eS1lUXZpcVJGc1VYRTlaSngyOHdwNFJNVEZ6U0psUmV5VGZPcElwU0tiTE80SW5OT0xRLW1WS3pMOUNYRjRoZjZ0RG16bkM3MzNyMGJacXZzcTJ5R1NVQTlEUDFveGw0M3haQ2dheVF0bzVudDBLdFgxSHpCUzFBcTlfU1o3MHZaemdGMTFhZ9IBowFBVV95cUxOazdPUUJlVklOU09zZnNxNFdBSGFkVV9BNEw0WEdSZ2k5dEdPSVo1a2VQSzlmeExVa0RIOWlMdDdhaHBJWmtTUkx6S21sa0VndTdTWnpuZ3o1UjhuRzBHVDFDdzlRVkpUYWhBRmNjYnVGazk4OHRRRFN2cDNCUVJEVE9heTFtcUhWenZxVVVnU2NsWHNwckxxWEpNTnJxQlFQMlo4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2677
-    },
-    {
-      "date": "Oct 29",
-      "text": "An update on the situation in Iran was published.",
+      "date": "Oct 31",
+      "text": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
       "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOTGN2bDJnRlZBUFNOTlVyNkF2Y3BydmxnS002TXB5MHZ6WnVmN1JlajliLXpmQ2hnMk9iejQ5MFZrdDNKU19nRWg2LWpST3ZYVHB4ckZ1Y0JhaFJNU1RaSlpOWGVjZkdreHB4YllHOTdhQzJ3NzJzcEY5LUo1Y1gtTzU2U0x0ejJ0ckFTTHcwbXJCVXdUZnEwNzBDd09uQk9XVG1lVl81MVloZi0yQVJOWS1NQdIBuAFBVV95cUxPUzd5NDgxT3R6MW9xenM1TFFrdlBPandwQkRNaVd2ODFmcF9EeXBCeXpwUERFOHl5WUtfNTVzZFo3eUpDaFFHbEJ3bmRpNFd5SDd6bnBDNGV0UWtxNUI2YzNTNWpObHktMVFPc0pkMGlISVJxb0Vfc0d5UDZZWXVtbXNKYmxBdVQxeUhzT2hraXQ2TzIydWgxWS1qazFEU1RWUzdySWNpbXRGeFZxWE1qZWNqZUh0Sk5y?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2678
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran Update, October 28, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxQOUt1SnRaTTREU1ZlUS1TTVhuS2QzVGg1UHRrWGc2UTNkUDRZY3Y1QUREU3FielhZanZEY0h0OUxONWpyMEJldGtuU2ItZ3o4RnBvTnZQdDV2dkFrSkpZanVmU1g2WW9yMlVNRGxCaEZ4a1pYVEwyRDcyY3VEOC1lS2tRU28?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2678
+    },
+    {
+      "date": "Oct 31",
+      "text": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPSWM0RFFWZnMxcnJPU0Y4M3JjS2FoMzRoZlFkM2stdEVDRXY2NEVvN0RLVW1jMTRpX0l4TnhoZFdHXzFyYUxzcnZMbjhBa0xyZlpEN1ZBLXdTMzZDV3RZcG5KU19IVkNfcWlpOXBIRFVLZDgzcTR5eWtVNkJ0b1VEWFVkanNlczBpUXU1dU5VZ1ZYYjk2Mk5PcWJodk83bV83T3kwSVhxYkFzcHhTRDltOTFnYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2678
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran Update, October 30, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTFA2ZGJ6NllPMDJCdW4xbTRlR1JFSWFQYTgyTFZiMVpCVGJDQkxpU3Z5YmRvSkxFd09TYjUwc1hoalJYZ2NaeGo3SURsM3lCYlRnVF9PaW02S29oZjlkRjdRRGZkVU1NN001ZnlRNnJLODFJUTBTZVlV?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Critical Threats",
+      "latestSinceUpdate": 2678
+    },
+    {
+      "date": "Oct 31",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
+      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2677
+      "sourceName": null,
+      "latestSinceUpdate": 2678
+    },
+    {
+      "date": "Oct 31",
+      "text": "U.S. and Israel are planning for a possible post-midterms attack on Iran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2678
     }
   ],
   "sourceStatuses": [
