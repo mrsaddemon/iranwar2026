@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2685,
+  "updateSequence": 2686,
   "lastUpdated": "2026-11-01",
-  "lastSyncedAt": "2026-11-01T18:37:12.783Z",
+  "lastSyncedAt": "2026-11-01T22:22:53.630Z",
   "warDay": 247,
-  "summary": "Tensions are critically high in the Middle East as the US considers new strikes on Iran, which is bracing for potential conflict and engaging in nuclear talks.",
+  "summary": "Tensions are high in the Middle East with the US and Israel considering new strikes on Iran, while Iran warns against attacks and a potential longer conflict, amidst ongoing talks to de-escalate and reopen the Strait of Hormuz following a tanker explosion.",
   "lastNarrativeUpdate": "2026-11-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect; tensions are escalating."
+    "summary": "No active ceasefire is reported amidst ongoing tensions and conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.9,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.85,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 90,
+    "nuclearIndex": 75,
+    "escalationLevel": 80,
     "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 31",
-      "text": "US weighs new Iran strikes as diplomatic efforts are explored, raising questions of war or a deal.",
+      "date": "Nov 01",
+      "text": "US considers new strikes on Iran amidst diplomatic outreach.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2685
+      "latestSinceUpdate": 2686
     },
     {
-      "date": "Oct 31",
-      "text": "Fears are mounting across the Middle East that a war with Iran could restart following upcoming midterms.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2685
-    },
-    {
-      "date": "Oct 31",
-      "text": "Iran is reportedly bracing for more war, irrespective of the outcomes of US and Israeli elections.",
+      "date": "Nov 01",
+      "text": "Fears grow of renewed US-Iran conflict post-midterms.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2685
+      "latestSinceUpdate": 2686
     },
     {
-      "date": "Oct 31",
-      "text": "Former President Trump suggests more attacks on Iran after Ayatollah Khamenei warns against resuming war.",
+      "date": "Nov 01",
+      "text": "Qatari mediators facilitate third day of US-Iran talks to end conflict.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2686
+    },
+    {
+      "date": "Nov 01",
+      "text": "Iranian army warns potential conflict could be prolonged.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2686
+    },
+    {
+      "date": "Nov 01",
+      "text": "Ayatollah Khamenei issues warning to US and Israel against further attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2685
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2686
     },
     {
-      "date": "Oct 31",
-      "text": "Iran's Khamenei issues a warning to the US and Israel against launching new attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 2685
-    },
-    {
-      "date": "Oct 31",
-      "text": "Iran is perceived to be buying time in nuclear talks as the US prepares for possible military strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1PTFRPZmpLanpsSGFlRk1oVV9SSUxHalV0aFdKTmNqZ05HUTFudDFNSmxZX0tXZk1SalVsejB0SWJ6THdPMkVZdVZHN2ZnUnZSdElXSHFxM29yaGRLeHlkbXo4TWVMY2JyVTRkQS13?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2685
+      "date": "Nov 01",
+      "text": "Former President Trump suggests further attacks on Iran.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2686
     }
   ],
   "sourceStatuses": [
