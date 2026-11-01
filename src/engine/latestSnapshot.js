@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2681,
-  "lastUpdated": "2026-10-31",
-  "lastSyncedAt": "2026-10-31T21:24:02.748Z",
-  "warDay": 246,
-  "summary": "The Middle East is on edge as the US weighs new strikes against Iran following recent Iranian attacks on US bases, with both sides issuing warnings amidst ongoing tensions and discussions of potential war.",
-  "lastNarrativeUpdate": "2026-10-31",
+  "updateSequence": 2682,
+  "lastUpdated": "2026-11-01",
+  "lastSyncedAt": "2026-11-01T00:22:49.069Z",
+  "warDay": 247,
+  "summary": "Tensions are high in the Middle East as the US and Israel consider new strikes against Iran, which has warned against attacks and continues to rebuild its nuclear program, while also engaging in talks regarding the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-11-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
-    "durationDays": 7,
-    "summary": "No active ceasefire is reported amidst escalating tensions."
+    "durationDays": 2,
+    "summary": "No active ceasefire is reported; the situation indicates potential for further escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.8,
         "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.75
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
+    "nuclearIndex": 70,
     "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
     "sanctionsPressure": 63,
-    "globalPressure": 79,
-    "allianceInfluence": 51
+    "globalPressure": 80,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Oct 31",
-      "text": "Iran braces for more war, irrespective of upcoming U.S. and Israeli election outcomes.",
+      "text": "Iran's supreme leader warns U.S. and Israel against new attacks amidst escalating tensions.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2681
-    },
-    {
-      "date": "Oct 31",
-      "text": "Fears mount in the Middle East that the Iran war could restart after the midterms.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2681
-    },
-    {
-      "date": "Oct 31",
-      "text": "Iran's Khamenei warns US and Israel against new attacks.",
-      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 2681
+      "latestSinceUpdate": 2682
     },
     {
       "date": "Oct 31",
-      "text": "Analyses find Iran strikes on US Mideast bases first took out early-warning systems.",
+      "text": "Israel declares readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPQ0t0VEdfVUlkRDRaUVg4ZC1jRzlwRTRBd1U1cFRWRG13bWh1R3BDWm1BLUFUdmt6NWg1NDlQSkR3d2QtVkl6UG93SUJYRHJ0cFZlX3ZBQ3kzUDVWaXFDcmZSTHc2eDlNVjdablhyTjZGVll0a2NENWFPSWM5eW1PLVFCV3hXTFNYN042MDRvTlJ3UnZ6YkRLcmlkR2xJeFR5MXNWVEVJVjNzUE9relN0LVBrY0VTZ9IBuwFBVV95cUxNYWQ4UGJnRnN6djJJVGhOMm10enR2RGMtZXd4b3BiRjBIMzV3ZWc2eWhKaU5oQWFHU3BVZnpPbE5oOE10bG1QcHRlVWhNUVdzdV90OWl5LUc1UkFpd1BrazF4bmZHUFpxY0dXdkd3aXZZR3BtVW5EdFBJOVpIc20zSldWNllzR2hFTm1pa2JuLXdzcDRvcHd0aXB6V1NtbU53VFlOS3VXd2RBcHl6aU8yWTZMdHdJbVpTc3ln?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2681
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2682
     },
     {
       "date": "Oct 31",
-      "text": "Tankers defy sharp escalation of Iranian attacks to keep crude oil flowing through Strait of Hormuz.",
+      "text": "AP analysis finds Iran targeted US air defenses then hit aircraft and buildings on Mideast bases.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2682
+    },
+    {
+      "date": "Oct 31",
+      "text": "Tankers continue to flow crude oil through the Strait of Hormuz despite sharp escalation of Iranian attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNBC",
-      "latestSinceUpdate": 2681
+      "latestSinceUpdate": 2682
+    },
+    {
+      "date": "Oct 31",
+      "text": "Top US commander briefs Trump on Iran military options as 10 US military transport planes land in Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNaXg4cWkxb0hZU0FMMnRrNjNhd1VDLVJaN3h5UlhKZ0s4UEZTVmJMXy1YUDlZc2hySkJ2VjZYX1RLR3BuaF8zU0UxRDBMc3JqS0psbUFPdjU2dFRmeUY3dDN0T0RUMUJCdWVPX3VuZTB5dEV1WWN1T3kwdE1ESldvSXZCN2hjWGZ5LXlSM05hM0wzMkxweW9BcHVDNDdYMHRUSElNZ2hFYWFQY3RTeC1YdNIBtgFBVV95cUxQVGtUTHVaSDAyNGo0cUlROTcwWk5GYXRwUlZST214WUZuMmtKWmZic1pVM1k1UE8wcUM4OTJxMGM3WVE0WVd1WVF1amRGLUxKb0dBeTY0cE5sQlBHTDFSSEJoUlBmNW54MENFZHVOUkpvdEVIazgxRC1xdFZ6dXBrMmFPSXNFOWdiMFV2VlBJMk1qRVhaMjNzSmRELVVjODdzZ190ZlhNWkdKd29aQXRnTFVxSHI2dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2682
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Readiness",
-      "headline": "US, Israel Prepare for Iran Strikes",
-      "summary": "The US and Israel are finalizing plans for potential military strikes against Iran, with US military assets arriving in the region and leadership preparing for various scenarios. Allies are being warned to prepare for potential retaliation.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2677
+      "perspective": "US/Israel Deterrence",
+      "headline": "US and Israel poised for action against Iran's nuclear ambitions",
+      "summary": "The US is weighing new strikes against Iran, while Israel is ready to resume its own offensive to counter Iran's nuclear program. This stance is reinforced by US military deployments and briefings on military options, aiming to deter Iranian aggression and curb regional terrorism.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2682
     },
     {
-      "perspective": "Iranian Defiance/Retaliation",
-      "headline": "Iran Escalates Strait of Hormuz Attacks",
-      "summary": "Iran is demonstrating its capacity to disrupt regional shipping, with recent tanker attacks in the Strait of Hormuz, while facing mounting pressure from the US and Israel. Pakistan expresses cautious optimism for de-escalation.",
+      "perspective": "Iran's Stance",
+      "headline": "Iran warns against attacks, asserts regional influence",
+      "summary": "Iran's supreme leader has issued strong warnings to the US and Israel against new attacks, while the country continues efforts to rebuild its nuclear program. Despite recent attacks on US bases and ongoing tensions in the Strait of Hormuz, Iran is also engaging in talks to manage the waterway.",
       "tone": "defiant",
-      "latestSinceUpdate": 2677
+      "latestSinceUpdate": 2682
     },
     {
       "perspective": "Regional Instability",
-      "headline": "Gulf States Rethink Defense Amid US-Iran Tensions",
-      "summary": "Gulf states are urged to reassess their defense strategies in light of escalating US-Iran tensions, as incidents involving Hezbollah in Lebanon also highlight broader regional volatility. Trump pledges IDF withdrawal from Lebanon if Beirut joins Abraham Accords.",
-      "tone": "strained",
-      "latestSinceUpdate": 2677
-    },
-    {
-      "perspective": "US Internal Dynamics",
-      "headline": "Trump Weighs Iran Strikes Amidst Military Leadership Changes",
-      "summary": "Amidst preparations for potential conflict with Iran, the US administration is experiencing internal shifts in military leadership, with the President weighing options and reportedly downplaying peace talks. A top military planner was reportedly fired.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 2677
+      "headline": "Middle East on edge as war fears mount",
+      "summary": "Fears are mounting across the Middle East that the conflict with Iran could restart, especially after upcoming elections. The potential for a wider war is a significant concern, though Hezbollah is reportedly unlikely to join unless Iran faces an existential threat, indicating a complex web of regional alliances and red lines.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2682
     }
   ]
 });
