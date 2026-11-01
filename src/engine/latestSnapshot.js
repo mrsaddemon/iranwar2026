@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2682,
+  "updateSequence": 2683,
   "lastUpdated": "2026-11-01",
-  "lastSyncedAt": "2026-11-01T00:22:49.069Z",
+  "lastSyncedAt": "2026-11-01T06:44:23.029Z",
   "warDay": 247,
-  "summary": "Tensions are high in the Middle East as the US and Israel consider new strikes against Iran, which has warned against attacks and continues to rebuild its nuclear program, while also engaging in talks regarding the Strait of Hormuz.",
+  "summary": "Tensions between the US, Israel, and Iran are escalating significantly, with both sides preparing for potential military action and fears of a wider conflict restarting in the Middle East.",
   "lastNarrativeUpdate": "2026-11-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported; the situation indicates potential for further escalation."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst rising tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.8
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
-    "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 46
+    "nuclearIndex": 65,
+    "escalationLevel": 90,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,43 +60,43 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Oct 31",
-      "text": "US weighs new Iran strikes as Vance reaches out, raising questions about war or a deal.",
+      "text": "US weighs new Iran strikes as Vance reaches out, raising questions of war or a deal.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxOTGN2bDJnRlZBUFNOTlVyNkF2Y3BydmxnS002TXB5MHZ6WnVmN1JlajliLXpmQ2hnMk9iejQ5MFZrdDNKU19nRWg2LWpST3ZYVHB4ckZ1Y0JhaFJNU1RaSlpOWGVjZkdreHB4YllHOTdhQzJ3NzJzcEY5LUo1Y1gtTzU2U0x0ejJ0ckFTTHcwbXJCVXdUZnEwNzBDd09uQk9XVG1lVl81MVloZi0yQVJOWS1NQdIBuAFBVV95cUxPUzd5NDgxT3R6MW9xenM1TFFrdlBPandwQkRNaVd2ODFmcF9EeXBCeXpwUERFOHl5WUtfNTVzZFo3eUpDaFFHbEJ3bmRpNFd5SDd6bnBDNGV0UWtxNUI2YzNTNWpObHktMVFPc0pkMGlISVJxb0Vfc0d5UDZZWXVtbXNKYmxBdVQxeUhzT2hraXQ2TzIydWgxWS1qazFEU1RWUzdySWNpbXRGeFZxWE1qZWNqZUh0Sk5y?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2681
+      "latestSinceUpdate": 2683
     },
     {
       "date": "Oct 31",
-      "text": "Iran's supreme leader warns U.S. and Israel against new attacks amidst escalating tensions.",
+      "text": "Fears mount in the Middle East that the Iran war could restart after the midterms.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 2682
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2683
     },
     {
       "date": "Oct 31",
-      "text": "Israel declares readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2682
-    },
-    {
-      "date": "Oct 31",
-      "text": "AP analysis finds Iran targeted US air defenses then hit aircraft and buildings on Mideast bases.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2682
-    },
-    {
-      "date": "Oct 31",
-      "text": "Tankers continue to flow crude oil through the Strait of Hormuz despite sharp escalation of Iranian attacks.",
+      "text": "Iran's supreme leader warns U.S. and Israel against new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxOTjZlVnBjQWc3TU0zdGE1QmhZOVdvZzhYSzZyci1hZE1scFJyY3hnaGUzSlpIZG1CcG5JVXhLQWxWaDRVS05UTUNYRkxSVEhGSW11SmhlMHBmM3FyZHhPWkJkeDJqS0ZDS2VsWWpRa3p6RFkyUTl5a0ZJYk90d1FvcVFsRdIBiAFBVV95cUxPV0ZFNlB2SnBqR1NCRWVlRTRmWkR0Z2ZyRmR6cUpPMjRtREFsb2RkRnBaTnRWVkVBRDM5QUJJa0lybXpRUzZQVFBnS3htaXdiTko3SzZJLUlUWDZacEpiSEJpdXlrVENkcjd5YVJZMTMwY05jR3BIbjROS00xMjVHQnh6Vmp4T0xG?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2682
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2683
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran is reportedly buying time in nuclear talks as the US prepares for possible strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1PTFRPZmpLanpsSGFlRk1oVV9SSUxHalV0aFdKTmNqZ05HUTFudDFNSmxZX0tXZk1SalVsejB0SWJ6THdPMkVZdVZHN2ZnUnZSdElXSHFxM29yaGRLeHlkbXo4TWVMY2JyVTRkQS13?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2683
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran's IRGC Navy claims four tankers caught fire in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPMzdWakFCLTEzM2pYaGh6ZHpxZE9KMjh2QjkzcE1ieWVwa0dmRFZZWUlOamZJUlpwN0M1ajJuZ3dNRFJ4ZzJwSmFJaGl4cGFWTEZPYmI0UllLZ1lCRzIzWVpNSlhkQnpCejl4RFltVXJvV3QtcXhqY1JiUF91TjZmSU5XYXFHM05CcE1fbzV6dVNmOFFUNEExZm1qVTFQWnhBYnVyZkUxYmlRTnEtTHlla3l0RGxncHgwbDRyVVVuMjU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2683
     },
     {
       "date": "Oct 31",
