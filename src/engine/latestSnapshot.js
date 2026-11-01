@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2684,
+  "updateSequence": 2685,
   "lastUpdated": "2026-11-01",
-  "lastSyncedAt": "2026-11-01T13:49:52.975Z",
+  "lastSyncedAt": "2026-11-01T18:37:12.783Z",
   "warDay": 247,
-  "summary": "Tensions remain high in the Middle East with ongoing discussions of potential US strikes against Iran, while diplomatic efforts continue amidst warnings from both sides.",
+  "summary": "Tensions are critically high in the Middle East as the US considers new strikes on Iran, which is bracing for potential conflict and engaging in nuclear talks.",
   "lastNarrativeUpdate": "2026-11-01",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported amidst escalating tensions and threats of conflict."
+    "summary": "No active ceasefire is in effect; tensions are escalating."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
+    "nuclearIndex": 60,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Oct 29",
-      "text": "Iran Update, October 29, 2026, provides analysis on recent developments.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNcnBsYWIzRnlYc1MyQkpxakJPdXpaN0ZWaU13S1E0T3BhckRONlRhbFFEa3pMbTZiVFNJNm1EVDFveWVsbFpaQ05WSXphVFktUGhWb0NJVzlXT1FBdlFGMXhXYVFUOXFRcmhyUmdpckVRZlVXS1JpdUREWGxiakU1dHRIYUc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2684
-    },
-    {
       "date": "Oct 31",
-      "text": "Iran Update, October 31, 2026, details the latest situation regarding Iran.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9PWlZvTy1hbTVKUXBBbFpEdTk5b0pnekNwanI4SXNvUHVlMUpkTVFBY2JVVmFENW9VZTg1VjBPRDZWMnppZm1MYkZ3ak5rM2VFNlFFZk1PSWxFLXpQUTFneDg2MWxiTmJSaXhmQURBS0FoMVRGRktV?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Critical Threats",
-      "latestSinceUpdate": 2684
-    },
-    {
-      "date": "Nov 01",
-      "text": "US weighs new Iran strikes as diplomatic outreach occurs, raising questions of war or a deal.",
+      "text": "US weighs new Iran strikes as diplomatic efforts are explored, raising questions of war or a deal.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2684
+      "latestSinceUpdate": 2685
     },
     {
-      "date": "Nov 01",
-      "text": "Fears mount in the Middle East that the Iran war could restart after the midterms.",
-      "severity": "warning",
+      "date": "Oct 31",
+      "text": "Fears are mounting across the Middle East that a war with Iran could restart following upcoming midterms.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2684
+      "latestSinceUpdate": 2685
     },
     {
-      "date": "Nov 01",
-      "text": "Iran's Khamenei warns the US and Israel against new attacks.",
+      "date": "Oct 31",
+      "text": "Iran is reportedly bracing for more war, irrespective of the outcomes of US and Israeli elections.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2685
+    },
+    {
+      "date": "Oct 31",
+      "text": "Former President Trump suggests more attacks on Iran after Ayatollah Khamenei warns against resuming war.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2685
+    },
+    {
+      "date": "Oct 31",
+      "text": "Iran's Khamenei issues a warning to the US and Israel against launching new attacks.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "France 24",
-      "latestSinceUpdate": 2684
+      "latestSinceUpdate": 2685
     },
     {
-      "date": "Nov 01",
-      "text": "Iran is reportedly buying time in nuclear talks as the US prepares for possible strikes.",
+      "date": "Oct 31",
+      "text": "Iran is perceived to be buying time in nuclear talks as the US prepares for possible military strikes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE1PTFRPZmpLanpsSGFlRk1oVV9SSUxHalV0aFdKTmNqZ05HUTFudDFNSmxZX0tXZk1SalVsejB0SWJ6THdPMkVZdVZHN2ZnUnZSdElXSHFxM29yaGRLeHlkbXo4TWVMY2JyVTRkQS13?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2684
+      "latestSinceUpdate": 2685
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
