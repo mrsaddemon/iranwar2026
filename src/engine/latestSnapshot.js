@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2686,
-  "lastUpdated": "2026-11-01",
-  "lastSyncedAt": "2026-11-01T22:22:53.630Z",
-  "warDay": 247,
-  "summary": "Tensions are high in the Middle East with the US and Israel considering new strikes on Iran, while Iran warns against attacks and a potential longer conflict, amidst ongoing talks to de-escalate and reopen the Strait of Hormuz following a tanker explosion.",
-  "lastNarrativeUpdate": "2026-11-01",
+  "updateSequence": 2687,
+  "lastUpdated": "2026-11-02",
+  "lastSyncedAt": "2026-11-02T01:45:33.218Z",
+  "warDay": 248,
+  "summary": "The US and Iran are engaged in ongoing conflict, with recent Iranian strikes on US military sites and tanker explosions in the Hormuz Strait, while diplomatic talks are also underway.",
+  "lastNarrativeUpdate": "2026-11-02",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported amidst ongoing tensions and conflict."
+    "summary": "Despite ongoing mediation efforts, active conflict and threats indicate no established ceasefire."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.75
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "nuclearIndex": 70,
+    "escalationLevel": 85,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 01",
-      "text": "US considers new strikes on Iran amidst diplomatic outreach.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2686
+      "text": "Two oil tankers explode after hitting a mine in the Hormuz Strait, according to an IRGC spokesperson.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE1pVFBYVUc5OWNJUWpjMXlDYUJ1anZOMHhUeEowOHM5Y3RrMnEtRU0tbWsxLThFdUs1dldQLXdoUkI4bVV3X1p6MElMeUJFaUpZcEJMYWxuLVFHazNxWUlYblJJcVE3NXJGR0E?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2687
     },
     {
       "date": "Nov 01",
-      "text": "Fears grow of renewed US-Iran conflict post-midterms.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2686
+      "text": "Iranian strikes have damaged 24 US military sites, adding billions to war costs, according to WSJ analysis.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiWEFVX3lxTE9iTnh1al9feTF5YmVieTFHT1BfMnVvX2N1UTdZcklfbjA5YXdOcFZNdWtKMjV6REkxd1RqQXotMEZjNWliQkszSzloalhoU0JIX2xPZUJvdTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2687
     },
     {
       "date": "Nov 01",
-      "text": "Qatari mediators facilitate third day of US-Iran talks to end conflict.",
+      "text": "The US is weighing new Iran strikes as diplomatic efforts continue, raising questions about war or a deal.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2687
+    },
+    {
+      "date": "Nov 01",
+      "text": "Iran, Qatari mediators hold a third day of talks aimed at ending the US-Iran war.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2686
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2687
     },
     {
       "date": "Nov 01",
-      "text": "Iranian army warns potential conflict could be prolonged.",
+      "text": "US military planes arrive in Israel from Texas amid preparations for potential Iran conflict.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2686
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE94RGFGQzBYYVoyM3F2NjBaaEtXWHQxQmx1WTBDZ284S18zTDFFLVVoZ3FZa2l4TmlfZkNmY1UzbWJmQ3FyOGRnUENZTnJza3dlRGFNRDRocnliaFkxTlRxMkZKbEJCbVFxVkNoRFh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2687
     },
     {
       "date": "Nov 01",
-      "text": "Ayatollah Khamenei issues warning to US and Israel against further attacks.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2686
-    },
-    {
-      "date": "Nov 01",
-      "text": "Former President Trump suggests further attacks on Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2686
+      "text": "Iran's Khamenei warns the US and Israel against new attacks.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Google News",
+      "latestSinceUpdate": 2687
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
