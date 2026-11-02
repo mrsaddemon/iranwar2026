@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2688,
+  "updateSequence": 2689,
   "lastUpdated": "2026-11-02",
-  "lastSyncedAt": "2026-11-02T08:22:07.430Z",
+  "lastSyncedAt": "2026-11-02T18:32:45.471Z",
   "warDay": 248,
-  "summary": "Tensions remain high in the Middle East as US-Iran peace talks continue amidst reports of Iranian strikes on US bases and Israeli military preparations.",
+  "summary": "Intensive negotiations are ongoing between the US and Iran to avert a fresh conflict, while both sides and Israel prepare for potential renewed strikes following the midterms.",
   "lastNarrativeUpdate": "2026-11-02",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 2,
-    "summary": "Ongoing talks between the US and Iran aim to de-escalate tensions and reopen the Strait of Hormuz, but no formal ceasefire is in effect."
+    "summary": "No formal ceasefire is in effect, with ongoing intensive negotiations aimed at averting a fresh conflict rather than maintaining a truce."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.65
+        "precision": 0.9,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.85,
+        "aggression": 0.85
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.65,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 80,
-    "oilDisruption": 65,
-    "tradeImpact": 61,
-    "sanctionsPressure": 63,
-    "globalPressure": 78,
-    "allianceInfluence": 51
+    "nuclearIndex": 75,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,42 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 01",
-      "text": "Iran and Qatari mediators hold a third day of talks aimed at ending the US-Iran conflict.",
+      "date": "Nov 02",
+      "text": "Tehran states the US has 'shifted tone' in a recent letter, indicating ongoing diplomatic engagement.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQelNIbUtVX3B2VzFuckxCZENUQmpfSHFxM1Z1dTcybmRkUmJfQjc5aXNWS2RUTzBYeTJhZWFETDgxOVZvb3VMdzVZM0FOamo0T08tUTQzSWtnQm85a2R2ZGI0bXNnRXB6VktrU3djS0xueTFvZjVDVVpzMHZIY2syYmdaNTVlVmFDUWEtY1lKSjR6NHB1UG9SQTRrdHhJSzBFX2FRMGFyLU84ekpwX0xEX2RwcV9pT1BzTGgtY1I0YUtTZ9IBxwFBVV95cUxQODNsX0VmMnZtcU5PTktTbWNsMVdlSnkzRmFQUUlaWF9IanFIVGpQMXJCYTdoR2U4N1F0Y3FZajRUMHViS2pPbk1UTGhidUhmTUE1Z2d0RExfelFwc2NJWGItMjN5MjJsWmZYUHpHbWhxdEZoVzBXT1VrRWthNnNoVzRwUWpkRFZtTFJXSUZKYjRQVGhMMF9XbUh1Y2F3LXJIS2xXRElUZVFJdk53YXc0b2g3MmpaNXZkUU9oSTFVTkNnUzkyZmJF?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2689
+    },
+    {
+      "date": "Nov 02",
+      "text": "Fears are mounting across the Middle East that the Iran war could restart after the midterms.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2689
+    },
+    {
+      "date": "Nov 02",
+      "text": "Iran and Qatari mediators are holding a third day of talks aimed at ending the US-Iran conflict.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2688
+      "latestSinceUpdate": 2689
     },
     {
-      "date": "Nov 01",
-      "text": "Tankers were reportedly hit in the Strait of Hormuz, raising concerns about maritime security.",
+      "date": "Nov 02",
+      "text": "Israel is reportedly ready to strike Iran with US support, though specific joint goals remain unclear.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2688
+      "latestSinceUpdate": 2689
     },
     {
-      "date": "Nov 01",
-      "text": "Iranian strikes reportedly damaged 24 US military sites, incurring billions in war costs.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiWEFVX3lxTE9iTnh1al9feTF5YmVieTFHT1BfMnVvX2N1UTdZcklfbjA5YXdOcFZNdWtKMjV6REkxd1RqQXotMEZjNWliQkszSzloalhoU0JIX2xPZUJvdTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "TRT World",
-      "latestSinceUpdate": 2688
-    },
-    {
-      "date": "Nov 01",
-      "text": "US military planes arrived in Israel from Texas amid ongoing Iran war preparations.",
+      "date": "Nov 02",
+      "text": "Iran's Khamenei warns the US and Israel against new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE94RGFGQzBYYVoyM3F2NjBaaEtXWHQxQmx1WTBDZ284S18zTDFFLVVoZ3FZa2l4TmlfZkNmY1UzbWJmQ3FyOGRnUENZTnJza3dlRGFNRDRocnliaFkxTlRxMkZKbEJCbVFxVkNoRFh3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2688
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 2689
+    },
+    {
+      "date": "Nov 02",
+      "text": "The US and Israel are drawing up plans for renewed strikes on Iran after elections.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2689
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
