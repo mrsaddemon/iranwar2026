@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2687,
+  "updateSequence": 2688,
   "lastUpdated": "2026-11-02",
-  "lastSyncedAt": "2026-11-02T01:45:33.218Z",
+  "lastSyncedAt": "2026-11-02T08:22:07.430Z",
   "warDay": 248,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.1,
     "durationDays": 2,
-    "summary": "Despite ongoing mediation efforts, active conflict and threats indicate no established ceasefire."
+    "summary": "Ongoing talks between the US and Iran aim to de-escalate tensions and reopen the Strait of Hormuz, but no formal ceasefire is in effect."
   }
 }
