@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2691,
+  "updateSequence": 2692,
   "lastUpdated": "2026-11-03",
-  "lastSyncedAt": "2026-11-03T07:58:41.185Z",
+  "lastSyncedAt": "2026-11-03T16:04:47.308Z",
   "warDay": 249,
-  "summary": "Tensions remain high in the Middle East with recent US defensive strikes in the Strait of Hormuz, ongoing talks between the US and Iran, and fears of a renewed conflict.",
+  "summary": "The US has conducted defensive strikes on Iranian targets in the Strait of Hormuz and Qeshm Island, amidst fears of a renewed conflict with Iran and Israel's readiness to resume strikes.",
   "lastNarrativeUpdate": "2026-11-03",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, though contacts over ending the war are reported to be ongoing."
+    "summary": "No ceasefire is currently in effect; instead, there are reports of renewed strikes and plans for further conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.6
+        "aggression": 0.4
       }
     }
   },
   "global": {
-    "nuclearIndex": 50,
+    "nuclearIndex": 75,
     "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
+    "oilDisruption": 70,
+    "tradeImpact": 65,
     "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "globalPressure": 79,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 01-03",
-      "text": "US military conducted defensive strikes on Iranian targets in the Strait of Hormuz, including Qeshm Island.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9mektUSWlxN3plZTkzanBId25Xc3R1QUd3RXRUbjdHV1JGZkxFc2VlUWduUnRlNWxyNElzXzlOdWQ0alBocUtzYXJ2dDh4alZOSV9HWGhwdXNXc3ZiNGhtNGpaS01oOGvSAWxBVV95cUxQWGhXbE9rcjFaa3o5RjF0RXR4QjE5VDlkY1JkcG5rYXZuai1wM3Y1R29xMjZNN3UyS0hCaUJSTHlsOVdGMlhEVHBpZi1lWWlvZDFpRldDamVhVi1kVFhtTDVZUlNhb2dXRlJVblA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2691
-    },
-    {
-      "date": "Nov 01-03",
-      "text": "Iran states contacts over ending the war continue, despite talks finishing with no breakthrough.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2691
-    },
-    {
-      "date": "Nov 01-03",
-      "text": "Iran's Khamenei warned the US and Israel against new attacks.",
+      "date": "Nov 03",
+      "text": "US strikes Iranian targets in Strait of Hormuz, and other Mideast news.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 2691
+      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNNXJ0RGVaUDJtb3ktRXNHZG40Slp3eTVjblNKRWwyOXdHR1MwaUthTzR2ZEZ0UFM5MmVzOHFwa3JoSlBDNjJmdW9NU2NLYVpOV3VKRk5iUXpCYnhNUU9XS2FVY2NrSHRBdnY0cDhWNzJucDQ5YlRQNGJZTnJkNC1kVmRJZ2MtdkIxV01Cb0U3dFVtZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2692
     },
     {
-      "date": "Nov 01-03",
-      "text": "Iran offered to reopen the Strait of Hormuz within two days under certain conditions as part of a potential US deal.",
-      "severity": "info",
+      "date": "Nov 02",
+      "text": "U.S. Military Strikes Iran’s Qeshm Island in what U.S. officials call a defensive measure.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2691
+      "latestSinceUpdate": 2692
     },
     {
-      "date": "Nov 01-03",
-      "text": "Israel is reportedly pressing Lebanon to prevent Hezbollah from joining a renewed war with Iran.",
+      "date": "Nov 02",
+      "text": "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOOG5WY1lZNldYa01pRDR6X3NQOTFwbnJucnBHQjNUUTVWN1ZaLUpaY2dFczFHa1UyQ05ZRmpsZzlfT281ZlRhUU54Q1hBajRMVWpIMHJ2UWdaYnI4UURON005SEp5TnRZZlpmVUozSEZNTE9CZHVWbTV5Rmo2MTdQbmEyYXIwRmJJVGxaM2lEcGR1WDNPQnVQakRCeG9sZHMxY1lLRkwtdFowbzR5QWZBRDBQLTNFQ3FENE9kb3dDZU85Y2FiYjlic3poSFhDc3ZTdmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2691
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPanI0VE5sUnZXNzJ1Tm9vWmVYYTZWbWRuMGRoOUtSZnJTVVJrT3dub0FKa1VFdlpvLUg3SHJvd3RBN25LNWdZLTlCS2FScUg2UUdLdEhPZXlyeFg5a2Z0TURCVWw5Wkp1VWhVNTQ2UktXX2RJMzdRc0c4emVzbkMyYkRhd2xfZFNSZ05aSWI0amNlUUc0NThHQVdSMHlCdDRfNmh6LS1SeTdmQWNGZlpn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "WSJ",
+      "latestSinceUpdate": 2692
     },
     {
-      "date": "Nov 01-03",
-      "text": "Hezbollah began distributing aid to those displaced by the war.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNb1hqbTJFakRsNTd6Q09QU0VRMWhiOFk0dEQ3RFFTZVVvZ1J3WlBYOFNOV2xsNEc4OVpUeEx4ZElGSlVFQ1daQTRpX2hOOU1MS3k5V3dMM3BpeWlPMjVxYll0SFJXeVItUUhlM3F3cFNFR3hrS3pRSnlQR1ZiNkJXbUdsN25yTmRQelVRNUhyaDcwRDlUR2U3bjBUamNyLW9NTHhhMQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Naharnet",
-      "latestSinceUpdate": 2691
+      "date": "Nov 01",
+      "text": "Middle East on edge as fears mount that Iran war could restart after the midterms.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2692
+    },
+    {
+      "date": "Nov 01",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2692
+    },
+    {
+      "date": "Nov 01",
+      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2692
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
