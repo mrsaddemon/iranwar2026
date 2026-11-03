@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2690,
+  "updateSequence": 2691,
   "lastUpdated": "2026-11-03",
-  "lastSyncedAt": "2026-11-03T01:10:26.293Z",
+  "lastSyncedAt": "2026-11-03T07:58:41.185Z",
   "warDay": 249,
-  "summary": "Fears of a renewed conflict between the US/Israel and Iran persist following reports of a US strike on an Iranian island, ongoing diplomatic efforts without breakthrough, and warnings from Tehran of a strong response.",
+  "summary": "Tensions remain high in the Middle East with recent US defensive strikes in the Strait of Hormuz, ongoing talks between the US and Iran, and fears of a renewed conflict.",
   "lastNarrativeUpdate": "2026-11-03",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.1,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported, with ongoing diplomatic contacts yielding no breakthrough amidst rising tensions."
+    "summary": "No active ceasefire is in effect, though contacts over ending the war are reported to be ongoing."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,82 +27,90 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.7,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.9
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 68,
-    "globalPressure": 87,
-    "allianceInfluence": 73
+    "nuclearIndex": 50,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Nov 01",
-      "text": "General update on the Iran situation, indicating ongoing developments.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2690
-    },
-    {
-      "date": "Nov 03",
-      "text": "US reportedly strikes an Iranian island in the Strait of Hormuz.",
+      "date": "Nov 01-03",
+      "text": "US military conducted defensive strikes on Iranian targets in the Strait of Hormuz, including Qeshm Island.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQWTdYYkNwNDM4VUhlRy1IUmhUd3BiS3d2bTIyTTN3NDRyTDl5ekttOWdIbnBQdnQwcEVyMzRJZVJxMG9LR1RFMU9aR21xbjhLcTNFbjZXb3Q1cERyNUZWVmJBdWo5a1B5ZFlwdTM4ZGs0Nk5qcVlXTzdsakE5YzVpSmFnOUMwOGZGcHduSmtNeWFMMk91d2p0SVhUcGhLYkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9mektUSWlxN3plZTkzanBId25Xc3R1QUd3RXRUbjdHV1JGZkxFc2VlUWduUnRlNWxyNElzXzlOdWQ0alBocUtzYXJ2dDh4alZOSV9HWGhwdXNXc3ZiNGhtNGpaS01oOGvSAWxBVV95cUxQWGhXbE9rcjFaa3o5RjF0RXR4QjE5VDlkY1JkcG5rYXZuai1wM3Y1R29xMjZNN3UyS0hCaUJSTHlsOVdGMlhEVHBpZi1lWWlvZDFpRldDamVhVi1kVFhtTDVZUlNhb2dXRlJVblA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2690
+      "latestSinceUpdate": 2691
     },
     {
-      "date": "Nov 03",
-      "text": "Iran states readiness to reopen the Strait of Hormuz within two days as part of a potential US deal.",
+      "date": "Nov 01-03",
+      "text": "Iran states contacts over ending the war continue, despite talks finishing with no breakthrough.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2691
+    },
+    {
+      "date": "Nov 01-03",
+      "text": "Iran's Khamenei warned the US and Israel against new attacks.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2690
+      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "France 24",
+      "latestSinceUpdate": 2691
     },
     {
-      "date": "Nov 03",
-      "text": "Oil futures decline amid reports of ongoing Iran peace efforts easing supply concerns.",
+      "date": "Nov 01-03",
+      "text": "Iran offered to reopen the Strait of Hormuz within two days under certain conditions as part of a potential US deal.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2690
+      "latestSinceUpdate": 2691
     },
     {
-      "date": "Nov 03",
-      "text": "Israel reportedly plans to occupy southern Lebanese cities if Hezbollah joins a potential Iran conflict.",
+      "date": "Nov 01-03",
+      "text": "Israel is reportedly pressing Lebanon to prevent Hezbollah from joining a renewed war with Iran.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPTkNHQnpjM2Q0dWVVNmp3Y3Ixa1Vtb1JLNUVmRkxwcTZXRmtzSzlHRUd3eVZOMW4wdEZDNUVsX0JxR0hLREhkNlBHNWdfRXI4d2ZtMUV6X2dwSFgwSGxLSkZ3S0IxQzRhMDc0ZEJTWEVJY2ZMcmxSdzk2emhlQ0JLeG5TTlBwUzVjOGtObGF0SEtBbzNRd3RKVWNPTDg0MXdFOEkyem9OMEctX255cEhieFdWdS1LaF96dlpvN19EM0M?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOOG5WY1lZNldYa01pRDR6X3NQOTFwbnJucnBHQjNUUTVWN1ZaLUpaY2dFczFHa1UyQ05ZRmpsZzlfT281ZlRhUU54Q1hBajRMVWpIMHJ2UWdaYnI4UURON005SEp5TnRZZlpmVUozSEZNTE9CZHVWbTV5Rmo2MTdQbmEyYXIwRmJJVGxaM2lEcGR1WDNPQnVQakRCeG9sZHMxY1lLRkwtdFowbzR5QWZBRDBQLTNFQ3FENE9kb3dDZU85Y2FiYjlic3poSFhDc3ZTdmc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2691
+    },
+    {
+      "date": "Nov 01-03",
+      "text": "Hezbollah began distributing aid to those displaced by the war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNb1hqbTJFakRsNTd6Q09QU0VRMWhiOFk0dEQ3RFFTZVVvZ1J3WlBYOFNOV2xsNEc4OVpUeEx4ZElGSlVFQ1daQTRpX2hOOU1MS3k5V3dMM3BpeWlPMjVxYll0SFJXeVItUUhlM3F3cFNFR3hrS3pRSnlQR1ZiNkJXbUdsN25yTmRQelVRNUhyaDcwRDlUR2U3bjBUamNyLW9NTHhhMQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Naharnet",
-      "latestSinceUpdate": 2690
+      "latestSinceUpdate": 2691
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
