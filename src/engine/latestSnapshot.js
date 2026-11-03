@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2689,
-  "lastUpdated": "2026-11-02",
-  "lastSyncedAt": "2026-11-02T18:32:45.471Z",
-  "warDay": 248,
-  "summary": "Intensive negotiations are ongoing between the US and Iran to avert a fresh conflict, while both sides and Israel prepare for potential renewed strikes following the midterms.",
-  "lastNarrativeUpdate": "2026-11-02",
+  "updateSequence": 2690,
+  "lastUpdated": "2026-11-03",
+  "lastSyncedAt": "2026-11-03T01:10:26.293Z",
+  "warDay": 249,
+  "summary": "Fears of a renewed conflict between the US/Israel and Iran persist following reports of a US strike on an Iranian island, ongoing diplomatic efforts without breakthrough, and warnings from Tehran of a strong response.",
+  "lastNarrativeUpdate": "2026-11-03",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.1,
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No formal ceasefire is in effect, with ongoing intensive negotiations aimed at averting a fresh conflict rather than maintaining a truce."
+    "summary": "No active ceasefire is reported, with ongoing diplomatic contacts yielding no breakthrough amidst rising tensions."
   },
   "actorOverrides": {
     "usa": {
@@ -18,93 +18,85 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.7,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 65,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
-    "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 68,
+    "globalPressure": 87,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Nov 02",
-      "text": "Tehran states the US has 'shifted tone' in a recent letter, indicating ongoing diplomatic engagement.",
+      "date": "Nov 01",
+      "text": "General update on the Iran situation, indicating ongoing developments.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQelNIbUtVX3B2VzFuckxCZENUQmpfSHFxM1Z1dTcybmRkUmJfQjc5aXNWS2RUTzBYeTJhZWFETDgxOVZvb3VMdzVZM0FOamo0T08tUTQzSWtnQm85a2R2ZGI0bXNnRXB6VktrU3djS0xueTFvZjVDVVpzMHZIY2syYmdaNTVlVmFDUWEtY1lKSjR6NHB1UG9SQTRrdHhJSzBFX2FRMGFyLU84ekpwX0xEX2RwcV9pT1BzTGgtY1I0YUtTZ9IBxwFBVV95cUxQODNsX0VmMnZtcU5PTktTbWNsMVdlSnkzRmFQUUlaWF9IanFIVGpQMXJCYTdoR2U4N1F0Y3FZajRUMHViS2pPbk1UTGhidUhmTUE1Z2d0RExfelFwc2NJWGItMjN5MjJsWmZYUHpHbWhxdEZoVzBXT1VrRWthNnNoVzRwUWpkRFZtTFJXSUZKYjRQVGhMMF9XbUh1Y2F3LXJIS2xXRElUZVFJdk53YXc0b2g3MmpaNXZkUU9oSTFVTkNnUzkyZmJF?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2689
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2690
     },
     {
-      "date": "Nov 02",
-      "text": "Fears are mounting across the Middle East that the Iran war could restart after the midterms.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2689
+      "date": "Nov 03",
+      "text": "US reportedly strikes an Iranian island in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMinwFBVV95cUxQWTdYYkNwNDM4VUhlRy1IUmhUd3BiS3d2bTIyTTN3NDRyTDl5ekttOWdIbnBQdnQwcEVyMzRJZVJxMG9LR1RFMU9aR21xbjhLcTNFbjZXb3Q1cERyNUZWVmJBdWo5a1B5ZFlwdTM4ZGs0Nk5qcVlXTzdsakE5YzVpSmFnOUMwOGZGcHduSmtNeWFMMk91d2p0SVhUcGhLYkU?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2690
     },
     {
-      "date": "Nov 02",
-      "text": "Iran and Qatari mediators are holding a third day of talks aimed at ending the US-Iran conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPdXU0aVh0RXlJYm1BOUtMU2FncFZnaDY5dVo4LXR0OFhsUzl1V2s0ZHpoeU5VX2d4cjg0RWRXRkRLLVhRRFJ6QlVKd3dEQ3ZtNVF0c0laVUtZZU1DTFB2bVVpN01abDA1RDRBWXJLRzFSVzZpQmFaWFBVaVdhNG9GdEVranBrT2M5NzlmWFVKSXo5QjJla0JLZ2x3SG9pOE9mb0xOaUNaZmxxbzQ4RlVVY04tZnRxZWNLNVBoby1WMXQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2689
-    },
-    {
-      "date": "Nov 02",
-      "text": "Israel is reportedly ready to strike Iran with US support, though specific joint goals remain unclear.",
+      "date": "Nov 03",
+      "text": "Iran states readiness to reopen the Strait of Hormuz within two days as part of a potential US deal.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2689
+      "latestSinceUpdate": 2690
     },
     {
-      "date": "Nov 02",
-      "text": "Iran's Khamenei warns the US and Israel against new attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipwFBVV95cUxQMkxFamlvVzdzdlp2NWJScFhNcEdod2M1WVpmY2JrOEwzY1FDa1FMWE5BQ0tESHljYUFXbUFpck5Ba2xxbmQ2aU41bVJXWTdrY244S0VaQVFpcU9OS21vZjY2ZFlJSHVRWDBRUWNwbWVaSjdiUTBERnNnU1o2THlBWGhQUkFLVmNFMXRvOF9rLWZrZFhjRDJyOVg5SjVpLVAtREMycjhTQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "France 24",
-      "latestSinceUpdate": 2689
-    },
-    {
-      "date": "Nov 02",
-      "text": "The US and Israel are drawing up plans for renewed strikes on Iran after elections.",
-      "severity": "warning",
+      "date": "Nov 03",
+      "text": "Oil futures decline amid reports of ongoing Iran peace efforts easing supply concerns.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2689
+      "latestSinceUpdate": 2690
+    },
+    {
+      "date": "Nov 03",
+      "text": "Israel reportedly plans to occupy southern Lebanese cities if Hezbollah joins a potential Iran conflict.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPTkNHQnpjM2Q0dWVVNmp3Y3Ixa1Vtb1JLNUVmRkxwcTZXRmtzSzlHRUd3eVZOMW4wdEZDNUVsX0JxR0hLREhkNlBHNWdfRXI4d2ZtMUV6X2dwSFgwSGxLSkZ3S0IxQzRhMDc0ZEJTWEVJY2ZMcmxSdzk2emhlQ0JLeG5TTlBwUzVjOGtObGF0SEtBbzNRd3RKVWNPTDg0MXdFOEkyem9OMEctX255cEhieFdWdS1LaF96dlpvN19EM0M?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Naharnet",
+      "latestSinceUpdate": 2690
     }
   ],
   "sourceStatuses": [
@@ -139,25 +131,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel Deterrence",
-      "headline": "US and Israel poised for action against Iran's nuclear ambitions",
-      "summary": "The US is weighing new strikes against Iran, while Israel is ready to resume its own offensive to counter Iran's nuclear program. This stance is reinforced by US military deployments and briefings on military options, aiming to deter Iranian aggression and curb regional terrorism.",
+      "perspective": "Iran's Defiance & Diplomacy",
+      "headline": "Tehran Warns of Response Amidst Ongoing Talks",
+      "summary": "Tehran warns of 'painful' and 'powerful' responses to any new attacks while continuing contacts over ending the war. Iran indicates a willingness to reopen the Strait of Hormuz under a US deal, suggesting a mix of defiance and diplomatic leverage.",
       "tone": "defiant",
-      "latestSinceUpdate": 2682
+      "latestSinceUpdate": 2690
     },
     {
-      "perspective": "Iran's Stance",
-      "headline": "Iran warns against attacks, asserts regional influence",
-      "summary": "Iran's supreme leader has issued strong warnings to the US and Israel against new attacks, while the country continues efforts to rebuild its nuclear program. Despite recent attacks on US bases and ongoing tensions in the Strait of Hormuz, Iran is also engaging in talks to manage the waterway.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2682
+      "perspective": "US/Israel Preparations & Warnings",
+      "headline": "US/Israel Prepare for Strikes, Israel Warns Lebanon",
+      "summary": "The US is reportedly preparing for possible strikes, with Israel ready to join, though specific joint goals remain unclear. Israel is also pressing Lebanon to prevent Hezbollah involvement and planning potential occupation of southern Lebanese cities.",
+      "tone": "strained",
+      "latestSinceUpdate": 2690
     },
     {
-      "perspective": "Regional Instability",
-      "headline": "Middle East on edge as war fears mount",
-      "summary": "Fears are mounting across the Middle East that the conflict with Iran could restart, especially after upcoming elections. The potential for a wider war is a significant concern, though Hezbollah is reportedly unlikely to join unless Iran faces an existential threat, indicating a complex web of regional alliances and red lines.",
+      "perspective": "Regional Tensions & Conflict Risk",
+      "headline": "Middle East on Edge as War Fears Mount",
+      "summary": "The Middle East remains on edge with fears mounting that the Iran war could restart after the midterms. Analysts are briefing on what another US-Iran conflict would look like, highlighting the significant risks involved in reigniting the war.",
       "tone": "anxious",
-      "latestSinceUpdate": 2682
+      "latestSinceUpdate": 2690
     }
   ]
 });
