@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2692,
+  "updateSequence": 2693,
   "lastUpdated": "2026-11-03",
-  "lastSyncedAt": "2026-11-03T16:04:47.308Z",
+  "lastSyncedAt": "2026-11-03T21:42:01.489Z",
   "warDay": 249,
-  "summary": "The US has conducted defensive strikes on Iranian targets in the Strait of Hormuz and Qeshm Island, amidst fears of a renewed conflict with Iran and Israel's readiness to resume strikes.",
+  "summary": "US and Israel are conducting strikes and planning renewed operations against Iran, which warns of a 'crushing response' while talks continue without a breakthrough, amidst concerns about Hezbollah's involvement.",
   "lastNarrativeUpdate": "2026-11-03",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire is currently in effect; instead, there are reports of renewed strikes and plans for further conflict."
+    "summary": "No active ceasefire is in effect as military actions and threats continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,31 +24,31 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.4
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 30,
     "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
     "sanctionsPressure": 63,
-    "globalPressure": 79,
-    "allianceInfluence": 46
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 03",
-      "text": "US strikes Iranian targets in Strait of Hormuz, and other Mideast news.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMikgFBVV95cUxNNXJ0RGVaUDJtb3ktRXNHZG40Slp3eTVjblNKRWwyOXdHR1MwaUthTzR2ZEZ0UFM5MmVzOHFwa3JoSlBDNjJmdW9NU2NLYVpOV3VKRk5iUXpCYnhNUU9XS2FVY2NrSHRBdnY0cDhWNzJucDQ5YlRQNGJZTnJkNC1kVmRJZ2MtdkIxV01Cb0U3dFVtZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "AP News",
-      "latestSinceUpdate": 2692
-    },
-    {
-      "date": "Nov 02",
-      "text": "U.S. Military Strikes Iran’s Qeshm Island in what U.S. officials call a defensive measure.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2692
-    },
-    {
-      "date": "Nov 02",
-      "text": "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPanI0VE5sUnZXNzJ1Tm9vWmVYYTZWbWRuMGRoOUtSZnJTVVJrT3dub0FKa1VFdlpvLUg3SHJvd3RBN25LNWdZLTlCS2FScUg2UUdLdEhPZXlyeFg5a2Z0TURCVWw5Wkp1VWhVNTQ2UktXX2RJMzdRc0c4emVzbkMyYkRhd2xfZFNSZ05aSWI0amNlUUc0NThHQVdSMHlCdDRfNmh6LS1SeTdmQWNGZlpn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "WSJ",
-      "latestSinceUpdate": 2692
-    },
-    {
-      "date": "Nov 01",
-      "text": "Middle East on edge as fears mount that Iran war could restart after the midterms.",
+      "text": "US military conducts strikes on Iran’s Qeshm Island in defensive operation, officials say",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1fdndxRDdxc09lTkR5Q18zcTRPM3lnRm4zTW9KU2VzRVRuYjNOM0JvVWNsVTJyd1Z5ejdBSzZNM2I3NjJJUnFmMGREZEJHTnpNb1lzNTZrUTI2bDR4c1VXMDJTdnpmdExCbnE0dTRlbFNkQ0dXaHgw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2692
+      "latestSinceUpdate": 2693
     },
     {
-      "date": "Nov 01",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
+      "date": "Nov 03",
+      "text": "US has conducted defensive strikes on Iranian targets in the Strait of Hormuz, US official says",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2692
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2693
     },
     {
-      "date": "Nov 01",
-      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections.",
-      "severity": "critical",
+      "date": "Nov 03",
+      "text": "Iran warns of ‘crushing response’ if US attacks amid talks",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2693
+    },
+    {
+      "date": "Nov 03",
+      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Midterm Elections",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 2692
+      "latestSinceUpdate": 2693
+    },
+    {
+      "date": "Nov 03",
+      "text": "Iran says contacts over ending war continue after talks finish with no breakthrough",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2693
+    },
+    {
+      "date": "Nov 03",
+      "text": "Hezbollah begins distributing aid to those displaced by war",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNb1hqbTJFakRsNTd6Q09QU0VRMWhiOFk0dEQ3RFFTZVVvZ1J3WlBYOFNOV2xsNEc4OVpUeEx4ZElGSlVFQ1daQTRpX2hOOU1MS3k5V3dMM3BpeWlPMjVxYll0SFJXeVItUUhlM3F3cFNFR3hrS3pRSnlQR1ZiNkJXbUdsN25yTmRQelVRNUhyaDcwRDlUR2U3bjBUamNyLW9NTHhhMQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Naharnet",
+      "latestSinceUpdate": 2693
     }
   ],
   "sourceStatuses": [
