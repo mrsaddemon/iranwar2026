@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2696,
+  "updateSequence": 2697,
   "lastUpdated": "2026-11-04",
-  "lastSyncedAt": "2026-11-04T16:12:08.312Z",
+  "lastSyncedAt": "2026-11-04T21:56:50.038Z",
   "warDay": 250,
-  "summary": "US forces conducted defensive strikes on Iranian targets in the Strait of Hormuz, prompting warnings of retaliation from Iran amidst political debate in the US regarding the conflict's future.",
+  "summary": "The United States has conducted defensive strikes on Iranian targets in the Strait of Hormuz and Qeshm Island, prompting warnings of a 'crushing response' from Tehran amidst regional fears of a renewed conflict.",
   "lastNarrativeUpdate": "2026-11-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; military actions and threats persist."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing military actions and threats."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 15,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
-    "allianceInfluence": 51
+    "nuclearIndex": 45,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,35 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 04",
-      "text": "US conducted defensive strikes on Iranian targets in the Strait of Hormuz, including Qeshm island.",
-      "severity": "warning",
+      "text": "US conducts defensive strikes on Iranian targets in the Strait of Hormuz and Qeshm Island.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "AP News",
-      "latestSinceUpdate": 2696
+      "latestSinceUpdate": 2697
     },
     {
       "date": "Nov 04",
-      "text": "Iran warns of 'broader retaliation' and 'crushing response' if the US renews attacks.",
+      "text": "Iran warns of a 'crushing response' if the US attacks.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPWWFRMjRmQ0tYMms0NUtabGFWZWJWT2Q5OWtWUk9XU3lEcktHbzZSczhkM1ZhTWttb2lYRVN5TzI4NVo0VFQ3WVhIRm1iX3U2ZHA1a25NMVRvbHNyaXhoV2pCV2dEQmJucVVGVU1QbTdwOV9yLVVZX2p1TXM2bV9TRW52aDVIOVBaaW5reTZma081aXJOZUgwNUFqLVRfWlVxcmVsWVhXc1pWb1l3SV9SRUVxMC13S2ZBeFkwNDBsSdIBxAFBVV95cUxNcXlNUU11WGJ1MV9lMmZDYXlhTFY1YzVmWWFNaUxxa3l6Q0lkVG5IdUl2blB4cEs4SFhDYXFEM01XUnJ3b3NfeHF0Y3hTN1Jvd0dpcUw2Z05XNmZXVVZUZVZhbnBBWk5NQW4tMEI5MU1aX3p3c3AtcVk1SnpfTUk3clA1ZDdOUTM4SGh4ZkxVVUF0eWhnMDRDLVNwZnd0VTVYbU9MWHZIOHM5LV9BbG1tT2p1aHUyZFM2dEtxeTRkTVVfb29B?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2696
+      "latestSinceUpdate": 2697
     },
     {
       "date": "Nov 04",
-      "text": "Iran exempts India, China, Iraq, and Qatar from Strait of Hormuz restrictions.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOeWZNMWN2Z2NuVjE2UHVCWFNCbEJYMlFBWGFtWFh2Q1VlU3RKRnJ3UTZJLUFPeVNxQWNFUXVDVW5EQU5xeFdpdzc2YUh3U3pOY1JrTHlBc2V1Wkt4cTZQNHRJdzhHaE16YmpjZ01qNlZ0TkVYWG82OV94RFV0RWVranI0TzlLV014UFhtd000RkNiQldDNGRnRW91M3NjSlZrVlpwSDRDaTVTNmRtbWU1Sw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "IranWire",
-      "latestSinceUpdate": 2696
+      "text": "Iran's IRGC reports four tankers ablaze after hitting mines near the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxQbjcyLUxfeTMxaHFnbENrc2tqdlowSDFqWU5DUWtqOWhVUUdSYWdSbFpBRGQ4VHI3Rm5DbDVsLTV6bkM4d3FjcmVPRnpsQlJ6RkNSLWNZX0ZtWURvUExKaGZ2M2diWUFvZWZfSE5FN01PR2FXc1pSN1kyeXhHX0ZFS0k4S1FjSDJLc2ZfbGx2cm9TYW9JSThiZVZIeFQxTnVBXzAwYnhlaGxsN3lwQkxOZTdFRVVpc3RPa2J2M0JZNVduZXA3Z2pz?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2697
     },
     {
       "date": "Nov 04",
-      "text": "Israel is reportedly pressing Lebanon to prevent Hezbollah from joining a renewed war with Iran.",
+      "text": "IDF strikes suspects approaching troops in Lebanon for the first time in weeks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNZk1zMGx2MUdaN3FmT3g1d2tzM2ItRm9ndUc4R3pjeDVnbFZQVzItbm9sR1NXT1NUdU1CemxoamRzWTZVVzNGeW1oQ1lneV80ODEzblN5ZzR0ZFRCcEMtbGU3RXZKVjVDOW01MjZXRzl6ZmFQZl9GcklNVXc4WmRvM3JZQ2lqRG5MLTl1em1Qd0tlVV9Dd0dlTzQzYW03dVV1cVNfVEYyNFc3YWdTM29oWmFSRlR4UdIBuwFBVV95cUxNbmJPTFh5bm1FaEtfSk95QzREX0JYZXBQbHVlRTFJclY5YWdoc0stS1Q1M0tXbVBKQWlaMWk5REUyVzhscE9LS0VZRTBjS05ySGFWSDdlWHM3MG1BQmF1TWRWQnFfTE9Ualg2MS1ZVFZoaThheDg0UTZ1WUJsQ2FIM3ZEdjlzS0R2YXZHRlMzb0ZQWDhKaFEybkFDSEg3TFNMR0JtVE5XR0JsbHM1Z3JKMjAyUDk1VXRlMXNR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2696
+      "sourceUrl": "https://news.google.com/articles/CBMiV0FVX3lxTE1SQ21pMkxlSTFkcW9McVlBdjFUSTE0ckk4VENUMF9pZk9Kd0tLVlZEYjlRd1VPNlNnQUowa2M5ZzZLRHdlRVo1RGh0OGF1ODc5Sk9NN3B2WQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Ynetnews",
+      "latestSinceUpdate": 2697
+    },
+    {
+      "date": "Nov 04",
+      "text": "Iran's chief negotiator and speaker claim Americans voted 'no to war' in recent elections.",
+      "severity": "info",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2697
+    },
+    {
+      "date": "Nov 04",
+      "text": "Persian Gulf leaders express fear of a renewed US-Iran war as diplomacy falters.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2697
     }
   ],
   "sourceStatuses": [
@@ -110,7 +126,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "Our World in Data",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Liveuamap",
