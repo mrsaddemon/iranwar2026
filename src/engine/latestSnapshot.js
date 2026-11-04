@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2695,
+  "updateSequence": 2696,
   "lastUpdated": "2026-11-04",
-  "lastSyncedAt": "2026-11-04T08:05:57.659Z",
+  "lastSyncedAt": "2026-11-04T16:12:08.312Z",
   "warDay": 250,
-  "summary": "The United States and Israel have conducted and planned renewed strikes on Iranian targets, including in the Strait of Hormuz, while Iran warns of a 'crushing response' and engages in diplomatic contacts without breakthrough.",
+  "summary": "US forces conducted defensive strikes on Iranian targets in the Strait of Hormuz, prompting warnings of retaliation from Iran amidst political debate in the US regarding the conflict's future.",
   "lastNarrativeUpdate": "2026-11-04",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire or de-escalation efforts are currently reported; military actions and threats persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 95
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 15,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 70,
+    "tradeImpact": 66,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 04",
-      "text": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPV1k5M29XbFJLXzE1cUxwMmxuOVdzS3p1RUlNcXNtdl9qX0R2bHNFT0ZSNXoxUzlMS1lxQ2h4LUlEM19NWnJ0aEFMczdmQkFtVnMySGU2WFJqT1FSQURINXBfY2ZBbklkZl9FbG5EaWpOT2hCdWNlM01aQ2dVMzBaSGstN0xoZ1VRcHhUMVFtM2VsUTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2695
+      "text": "US conducted defensive strikes on Iranian targets in the Strait of Hormuz, including Qeshm island.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2696
     },
     {
       "date": "Nov 04",
-      "text": "Iran war updates: Tehran warns of ‘crushing response’ if US attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2695
-    },
-    {
-      "date": "Nov 04",
-      "text": "Will Trump relaunch his war on Iran after the midterm elections?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNQWVTai1BdzlfVXk5ckFsajBvVGs2U0JQV2JodzZqSWJmdEN5LS1aQmtNZXNmd2dMY2c1Z1JhSE9qMEh2VnJidUN3UWk5a3dIaWhrSEZzemRETG1fdVNJUEVqcmFUTTUyN25wSWN2SVdFdVNwcXZjVkY2akl1eHNudC1Eanl1XzRwYWdLck9QbU9hRnVid0k4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2695
-    },
-    {
-      "date": "Nov 04",
-      "text": "Trump allies blame Iran war for GOP’s devastating midterm losses: ‘Hope Schumer calls Netanyahu and thanks him’",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQZnkwZXZSX3hRQnVkQ3pWN2pxWkc5M3dqbGlnS1RQSkVLd1ZPOTZ6UnVkWjNYV1hvRm1TQzQ1Ylc2WnRPUVM5NEE4eHVCM2dpS0hyWHFvY1RtVmRJMGN0NDlmRTluMWh2dXg3VWVUTHZvdGwwV0V1YWJfeUtsWlA3b3Q3VzZ0SkxVQzZfVmFaVFk1R05DdDQ2S2lGRXk1RlZFaVJEVA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "New York Post",
-      "latestSinceUpdate": 2695
-    },
-    {
-      "date": "Nov 04",
-      "text": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOOW0tRlhmb3AtbjI2TGE0dGJjWURQVHN6RVNoLUlfYkJ5a1VFc2JhYlR2Q1BndmFNYXJoaWZYRVdYaDdVNUJlUTluSEV3YXJaY2g1Z0N5T2JvNTFITHRheF9vRkhwT3QzaHZ1TGpSMUdmMkRPQVJsNXVLdHdMSmpXVHhUeWxMaWNJR3VuQzJOQ3pEVDVHdXFWZnNpWkVxZDFwX3MzNnpwUG3SAa4BQVVfeXFMUDcyeGVGUHVlbXlUejZrcU9IMnlpdlpKcW9IZjV5VzgwWERlWHJ1cVZHbHF3TGRLU0J5bVNVQTRmSnF6UUJWVmpVbFR2MkdfREZQeHotbnljdzU1b3Z4RVo1c0tIeWloTWotZnFsa3o0LXdtaGg5TVJaR0NhWm14UGhpOG1rQllwUnFZVVhvT200b2tVYnlqSHFTd1JMSmQ2NlMxR3l2dVVwenZyS3BB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2695
-    },
-    {
-      "date": "Nov 04",
-      "text": "Israel ready to strike Iran with US, but specific joint goals remain unclear",
+      "text": "Iran warns of 'broader retaliation' and 'crushing response' if the US renews attacks.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2695
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPWWFRMjRmQ0tYMms0NUtabGFWZWJWT2Q5OWtWUk9XU3lEcktHbzZSczhkM1ZhTWttb2lYRVN5TzI4NVo0VFQ3WVhIRm1iX3U2ZHA1a25NMVRvbHNyaXhoV2pCV2dEQmJucVVGVU1QbTdwOV9yLVVZX2p1TXM2bV9TRW52aDVIOVBaaW5reTZma081aXJOZUgwNUFqLVRfWlVxcmVsWVhXc1pWb1l3SV9SRUVxMC13S2ZBeFkwNDBsSdIBxAFBVV95cUxNcXlNUU11WGJ1MV9lMmZDYXlhTFY1YzVmWWFNaUxxa3l6Q0lkVG5IdUl2blB4cEs4SFhDYXFEM01XUnJ3b3NfeHF0Y3hTN1Jvd0dpcUw2Z05XNmZXVVZUZVZhbnBBWk5NQW4tMEI5MU1aX3p3c3AtcVk1SnpfTUk3clA1ZDdOUTM4SGh4ZkxVVUF0eWhnMDRDLVNwZnd0VTVYbU9MWHZIOHM5LV9BbG1tT2p1aHUyZFM2dEtxeTRkTVVfb29B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2696
+    },
+    {
+      "date": "Nov 04",
+      "text": "Iran exempts India, China, Iraq, and Qatar from Strait of Hormuz restrictions.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOeWZNMWN2Z2NuVjE2UHVCWFNCbEJYMlFBWGFtWFh2Q1VlU3RKRnJ3UTZJLUFPeVNxQWNFUXVDVW5EQU5xeFdpdzc2YUh3U3pOY1JrTHlBc2V1Wkt4cTZQNHRJdzhHaE16YmpjZ01qNlZ0TkVYWG82OV94RFV0RWVranI0TzlLV014UFhtd000RkNiQldDNGRnRW91M3NjSlZrVlpwSDRDaTVTNmRtbWU1Sw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "IranWire",
+      "latestSinceUpdate": 2696
+    },
+    {
+      "date": "Nov 04",
+      "text": "Israel is reportedly pressing Lebanon to prevent Hezbollah from joining a renewed war with Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNZk1zMGx2MUdaN3FmT3g1d2tzM2ItRm9ndUc4R3pjeDVnbFZQVzItbm9sR1NXT1NUdU1CemxoamRzWTZVVzNGeW1oQ1lneV80ODEzblN5ZzR0ZFRCcEMtbGU3RXZKVjVDOW01MjZXRzl6ZmFQZl9GcklNVXc4WmRvM3JZQ2lqRG5MLTl1em1Qd0tlVV9Dd0dlTzQzYW03dVV1cVNfVEYyNFc3YWdTM29oWmFSRlR4UdIBuwFBVV95cUxNbmJPTFh5bm1FaEtfSk95QzREX0JYZXBQbHVlRTFJclY5YWdoc0stS1Q1M0tXbVBKQWlaMWk5REUyVzhscE9LS0VZRTBjS05ySGFWSDdlWHM3MG1BQmF1TWRWQnFfTE9Ualg2MS1ZVFZoaThheDg0UTZ1WUJsQ2FIM3ZEdjlzS0R2YXZHRlMzb0ZQWDhKaFEybkFDSEg3TFNMR0JtVE5XR0JsbHM1Z3JKMjAyUDk1VXRlMXNR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2696
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
