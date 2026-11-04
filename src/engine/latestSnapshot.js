@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2694,
+  "updateSequence": 2695,
   "lastUpdated": "2026-11-04",
-  "lastSyncedAt": "2026-11-04T01:42:08.947Z",
+  "lastSyncedAt": "2026-11-04T08:05:57.659Z",
   "warDay": 250,
   "summary": "The United States and Israel have conducted and planned renewed strikes on Iranian targets, including in the Strait of Hormuz, while Iran warns of a 'crushing response' and engages in diplomatic contacts without breakthrough.",
   "lastNarrativeUpdate": "2026-11-04",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and threats."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 04",
-      "text": "Gulf countries brace for possible renewal of Iran War as Trump’s Midterm Deadline Looms.",
-      "severity": "warning",
+      "text": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMikwFBVV95cUxPV1k5M29XbFJLXzE1cUxwMmxuOVdzS3p1RUlNcXNtdl9qX0R2bHNFT0ZSNXoxUzlMS1lxQ2h4LUlEM19NWnJ0aEFMczdmQkFtVnMySGU2WFJqT1FSQURINXBfY2ZBbklkZl9FbG5EaWpOT2hCdWNlM01aQ2dVMzBaSGstN0xoZ1VRcHhUMVFtM2VsUTQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The New York Times",
-      "latestSinceUpdate": 2694
+      "latestSinceUpdate": 2695
     },
     {
       "date": "Nov 04",
-      "text": "Tehran warns of ‘crushing response’ if US attacks.",
-      "severity": "critical",
+      "text": "Iran war updates: Tehran warns of ‘crushing response’ if US attacks",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2694
+      "latestSinceUpdate": 2695
     },
     {
       "date": "Nov 04",
-      "text": "Iran plays down hope for deal to end war after new U.S. strikes on eve of midterm elections.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQbWVWWDlkaXg5ZDdDZ1c5R21YM3FiSm5xbkVDYTBFTHFQdmlLdFRCOFdBbWtNVjBBLVBmTVM3aUFQZGg2c3duOFFINjNKSkxTbkgwd2NXYXhZQ0hiM2FTYjdkTUk5V2g4ZFdiQnhGZmN1VklkQlozamlESzdYYWNmSFBZdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2694
-    },
-    {
-      "date": "Nov 04",
-      "text": "Iran says contacts over ending war continue after talks finish with no breakthrough.",
+      "text": "Will Trump relaunch his war on Iran after the midterm elections?",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2694
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNQWVTai1BdzlfVXk5ckFsajBvVGs2U0JQV2JodzZqSWJmdEN5LS1aQmtNZXNmd2dMY2c1Z1JhSE9qMEh2VnJidUN3UWk5a3dIaWhrSEZzemRETG1fdVNJUEVqcmFUTTUyN25wSWN2SVdFdVNwcXZjVkY2akl1eHNudC1Eanl1XzRwYWdLck9QbU9hRnVid0k4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2695
     },
     {
       "date": "Nov 04",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
+      "text": "Trump allies blame Iran war for GOP’s devastating midterm losses: ‘Hope Schumer calls Netanyahu and thanks him’",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxQZnkwZXZSX3hRQnVkQ3pWN2pxWkc5M3dqbGlnS1RQSkVLd1ZPOTZ6UnVkWjNYV1hvRm1TQzQ1Ylc2WnRPUVM5NEE4eHVCM2dpS0hyWHFvY1RtVmRJMGN0NDlmRTluMWh2dXg3VWVUTHZvdGwwV0V1YWJfeUtsWlA3b3Q3VzZ0SkxVQzZfVmFaVFk1R05DdDQ2S2lGRXk1RlZFaVJEVA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "New York Post",
+      "latestSinceUpdate": 2695
+    },
+    {
+      "date": "Nov 04",
+      "text": "US carries out ‘defensive’ strikes on Iran’s Qeshm island in Strait of Hormuz",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOOW0tRlhmb3AtbjI2TGE0dGJjWURQVHN6RVNoLUlfYkJ5a1VFc2JhYlR2Q1BndmFNYXJoaWZYRVdYaDdVNUJlUTluSEV3YXJaY2g1Z0N5T2JvNTFITHRheF9vRkhwT3QzaHZ1TGpSMUdmMkRPQVJsNXVLdHdMSmpXVHhUeWxMaWNJR3VuQzJOQ3pEVDVHdXFWZnNpWkVxZDFwX3MzNnpwUG3SAa4BQVVfeXFMUDcyeGVGUHVlbXlUejZrcU9IMnlpdlpKcW9IZjV5VzgwWERlWHJ1cVZHbHF3TGRLU0J5bVNVQTRmSnF6UUJWVmpVbFR2MkdfREZQeHotbnljdzU1b3Z4RVo1c0tIeWloTWotZnFsa3o0LXdtaGg5TVJaR0NhWm14UGhpOG1rQllwUnFZVVhvT200b2tVYnlqSHFTd1JMSmQ2NlMxR3l2dVVwenZyS3BB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2695
+    },
+    {
+      "date": "Nov 04",
+      "text": "Israel ready to strike Iran with US, but specific joint goals remain unclear",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2694
-    },
-    {
-      "date": "Nov 04",
-      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2694
+      "sourceName": null,
+      "latestSinceUpdate": 2695
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
