@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2704,
+  "updateSequence": 2705,
   "lastUpdated": "2026-11-06",
-  "lastSyncedAt": "2026-11-06T17:23:13.827Z",
+  "lastSyncedAt": "2026-11-06T22:18:56.047Z",
   "warDay": 252,
-  "summary": "Ongoing military actions and heightened tensions characterize the US-Iran conflict, with Israel also preparing for potential renewed strikes and regional instability in Lebanon.",
+  "summary": "Amidst ongoing US and Israeli considerations for renewed strikes on Iran, Tehran issues strong warnings of retaliation while also engaging in diplomatic talks with the US, as regional tensions escalate with warnings to Hezbollah and maritime incidents in the Persian Gulf.",
   "lastNarrativeUpdate": "2026-11-06",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported between the primary belligerents, with ongoing military actions and threats."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating tensions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.75
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 82
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.85
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 73
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.65,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 78,
-    "escalationLevel": 85,
+    "nuclearIndex": 70,
+    "escalationLevel": 80,
     "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "tradeImpact": 68,
+    "sanctionsPressure": 63,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 05",
-      "text": "Iran warns that states aiding US attacks are 'legitimate targets'.",
+      "date": "Nov 06",
+      "text": "U.S. and Israel draw up plans for renewed strikes on Iran after elections.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2704
+      "latestSinceUpdate": 2705
     },
     {
-      "date": "Nov 05",
-      "text": "US carries out 'defensive' strikes on Iran’s Qeshm island in the Strait of Hormuz.",
+      "date": "Nov 06",
+      "text": "Tehran warns of ‘crushing response’ if US attacks, stating states aiding US attack are ‘legitimate targets’.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxOOW0tRlhmb3AtbjI2TGE0dGJjWURQVHN6RVNoLUlfYkJ5a1VFc2JhYlR2Q1BndmFNYXJoaWZYRVdYaDdVNUJlUTluSEV3YXJaY2g1Z0N5T2JvNTFITHRheF9vRkhwT3QzaHZ1TGpSMUdmMkRPQVJsNXVLdHdMSmpXVHhUeWxMaWNJR3VuQzJOQ3pEVDVHdXFWZnNpWkVxZDFwX3MzNnpwUG3SAa4BQVVfeXFMUDcyeGVGUHVlbXlUejZrcU9IMnlpdlpKcW9IZjV5VzgwWERlWHJ1cVZHbHF3TGRLU0J5bVNVQTRmSnF6UUJWVmpVbFR2MkdfREZQeHotbnljdzU1b3Z4RVo1c0tIeWloTWotZnFsa3o0LXdtaGg5TVJaR0NhWm14UGhpOG1rQllwUnFZVVhvT200b2tVYnlqSHFTd1JMSmQ2NlMxR3l2dVVwenZyS3BB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2704
-    },
-    {
-      "date": "Nov 05",
-      "text": "Iran's IRGC claims a US drone was downed and tankers were hit in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZkJXckI5ckRpYjBramxSRF83dG5fOEhjTGM2NEpIeE5pVTdGTEtYZE9uREtpTkgyWWt0cDd1OEhWWEV3enRWbVJFVF9WcXAyVExmamtobWV3blc3MDBIcWZvN250YWR6QlU5SEk2Yi1rdndKRmltVGZzektZMXlVQkw2WUdUcnFoRzU0T2ZtRW5EY3NDSHo4MjhaTHdUbTIwcVBQaXVLaVUxcjdXelBxQdIBtgFBVV95cUxOQktxc3hJNjY2STVxWDJBRjB2dUh5dXdSVVFnc1NIaHdILXFiTG5LZDZEZUFrazZzblFHenhhb1ZzRXhXOElKVVhhOTZweWotT1lOOFV1eVVYT0ZpWU5UekdaRTVkeV9sYmJQMTVYR0Q0VF9lNXdySmlkUGx5RVVTSVkzUjRZTEFnamExQWU2OW51b0ZnQ2lEQjJqdG5Uemh0ZjVPbVJsTG9mRWVtOFBibmRrQm1DUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2704
+      "latestSinceUpdate": 2705
     },
     {
-      "date": "Nov 05",
-      "text": "Israel states readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "date": "Nov 06",
+      "text": "Trump touts imminent decision on new U.S. strikes, keeping up threats, but also diplomacy with Tehran’s representatives.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2704
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2705
     },
     {
-      "date": "Nov 05",
-      "text": "UNIFIL confirms it will begin withdrawing from south Lebanon when its mandate ends on December 31.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPVHBCYUloZ1B1aWZkUTBjSHdJR3VkV1VsTzhpcmszZHhLOWtjbHEtamZ4NEtqdHFNb1dzY0NjSVN0M0sxa1d0TmJacXBaa2t2VWtvQ1ZrSDAzbmo3UkVDZVZYb2hHTjJpQk5EMTdiWUp0ZWJDd3NIdkxRMC1JOGVXTFVod0owUUVHMTg0bk5YSVRBQTVzVTBpb3MtN2ZUTWZHZG5UR2NsblJHZlB0YURR0gG0AUFVX3lxTE9ONlNFSFluTTFndFprR1pkOTdraDFIUmFLSENhR0NGTGJRZUlraTR4WW9HNnRoQ2pjT1BJbnlnT3R1dVkzUFdlbUI2YjJ5TFFSR3kyVzJoV0NNdV8xUmU0SFo0eWVLb254VzNTVVp0Q0h2Wi1qSXVQUlZINlktZ0l5am1aX3laaFdCLWNTOF9YT0dsOHFTRG5lbVpGR3pZSDRfMjBnVmI0b2FDM1lrejNtNkRQZA?hl=en-US&gl=US&ceid=US:en",
+      "date": "Nov 06",
+      "text": "More ships attacked in Persian Gulf, causing oil prices to rebound slightly after a post-midterm plunge.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxOTDROS29td1ZxNlFndnlTQnU4LVVwTXg1OW9kemVlQmx4M1pZTFlOd21RNnJhcnBVNENOSEpjT2YyWC1DMVhXcHFpNHBMUlF6Mk9NeVFmV19RVnpZTkl0RVE1YjFYVk5JRFZBVFJQbGtlaVFQS2FCazJKWWNQRUVOaDdNdzBuUU1z?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2705
+    },
+    {
+      "date": "Nov 06",
+      "text": "IDF Chief issues stern warning to Hezbollah, stating the IDF won’t let Hezbollah ‘entrench itself’ and threaten the north.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQUEhxNnNSVnAzcGlvUlBDOFRERjlYZW1WVTJHV3Z3NFdmWFBuX2ZDMUx6MHlkN3RjQmMwYloxSlN3bXFPeTlXYkJoXzZKX2dGM3BlcHdlLWVFdFk2T2RxZFV0azV3T0dKVldTWUNTR1N0dFFwZkVxUFRkSkJzcHFqdXNMR3p6VmVpcy01MFhkNHE5UjIyYkFfT2tKSGtiYnNkQ205cW5NVjJncVZQanc?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2704
+      "latestSinceUpdate": 2705
     },
     {
-      "date": "Nov 05",
-      "text": "Reports indicate the US and Iran are near a possible nuclear breakthrough amidst continued American military buildup.",
+      "date": "Nov 06",
+      "text": "US and Iran near possible nuclear breakthrough as American military buildup continues.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9GUlR2UnVWcm9HZ3MyU3F6cUphdi1DaURCdzduQXVSVmViemhEZkFVc253aEJ0TTh0SkNQdElaaS1langydEVTSldpdlQyVndJTldfWjJB?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Ynetnews",
-      "latestSinceUpdate": 2704
+      "latestSinceUpdate": 2705
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
