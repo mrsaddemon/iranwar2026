@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2708,
+  "updateSequence": 2709,
   "lastUpdated": "2026-11-07",
-  "lastSyncedAt": "2026-11-07T15:13:30.217Z",
+  "lastSyncedAt": "2026-11-07T19:28:36.779Z",
   "warDay": 253,
-  "summary": "Tensions between the U.S. and Israel and Iran are escalating, with renewed threats of strikes, limited military actions already underway, and concerns over Iran's nuclear program and regional stability.",
+  "summary": "The US and Israel are planning renewed strikes on Iran, which has responded with threats against oil and AI facilities in the Gulf, while US forces expand a naval blockade and tankers have been hit in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-11-07",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No ceasefire is currently active, with ongoing strikes and threats of escalation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,13 +18,13 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -33,22 +33,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 80,
+    "nuclearIndex": 75,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "tradeImpact": 77,
+    "sanctionsPressure": 64,
+    "globalPressure": 85,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 07",
-      "text": "Iran war updates: States aiding US attack ‘legitimate targets’, says Tehran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWXk2MWFUSUtxMEs2eXFJVHBpcDRLV3U1UVo0ck13VTJ6ajBTTnRUSVNFV19YNS12djdVdWFKb2FoQUIwZWtwTGk4WVRGRWRNX2pxakROcTlCaWxQRWtURDZTZTFEWDFDalBNUGF3QndXNUs1cnVPLTdzalN5OWRCcWtYNkdYQjM3dGVmLU1fMFcwZmFkQV9Ldlktb1phbGVIT3JJTURCRU81clVjR1Y1dTJUZmlPUXBmRXfSAb8BQVVfeXFMUDdiVXdJcWN6elVPeFVzVHA5ZU93aDNlZ283ckk1ZTlpNTdzRWdvZjNSdFYwa3psTGEwQmluckJ6eEZxUTBYMUpwZ3J4QkRmc2dLRk5XSU9YUmlTcDdFTHFVdmV3Z1lhNjgxT3Zzd3RVZi1MU3Y1QWNSZjFCUFZQZ200ZWI4cnN3dEdVQjRpMHRxdzczeTlPd1pEQnVHaDk1Wms3aVd2YlctQW5FM0xpLVlnX0dfZkZOTVB5eFF1SWM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2708
+      "text": "US military carries out new targeted and limited strikes on Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxONS03bnllYUlGZGk4ckpGT0NNbkVucEZRT0FfeFlhbzZpbXp0aV95cFJ0bFI3LUYtN2RmT2Vta3ZOM2d2QWNOU2VFNGJha1I4SzFuZGotc1NGQXRvbTJhS255a0tfMWZCODNtMzVSOGJwWkM1OGVJZ3JpeUFRb1A5cUVhN21IZl9pWkdROTFzYXlRSEh1TldVeg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2709
     },
     {
       "date": "Nov 07",
-      "text": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPNlhQNEhVWUJ5ODk5MkxWbFlVZVZVUnU4dGxYVWJzdTh2R2x1aHdSd1pkVHlERGNod3JCOEVSWVIxdC1SbHlRX0RPVGM5UkVCTk5KR3RWb0lWczUza01JWkNwNU93ZnpKV1pGRHk2ZW1ZZExxeGEzYW5qekxFM2dRZDhFUWZ0MzVka3RYajRBVU96cWlDTWhvM2NpVm85YTlZZm5JdkxUQ3o3VVVFUzFR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2708
-    },
-    {
-      "date": "Nov 07",
-      "text": "Iran Update, November 4, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPckpWSVBWREltTGMxckdQTzROOXdyVEQzQTJQUXZvMGhxcnlEWExZUVNyT3AxN1hpN1Jjal9aeDVpQ1BkbDNYdlM0OHlVcndQUjBibUh3TE13anRrZGp3anVOSXU3VE1Yc2FHYTBjUVJlclkzUUFkdF8xNWp2d1BGY1ZjbDc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2708
-    },
-    {
-      "date": "Nov 07",
-      "text": "Iran Update, November 6, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9rb1U1dGpqZXBtX1hPMjBJT3hmN0FpSnJMS2QwSHU5cmJPelMwM0lWN0gxRC1yMktXbk5JZWhHVlNQNUk1T2VoblVRZ1NsVl80X2xCX2M3QjliRnJ2RjVOelVPWk9tUEZiRWt4MUFoRG9JcFJGbVk0?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Critical Threats",
-      "latestSinceUpdate": 2708
-    },
-    {
-      "date": "Nov 07",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
+      "text": "Iran states that countries aiding US attacks are 'legitimate targets'.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2708
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2709
     },
     {
       "date": "Nov 07",
-      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2708
+      "text": "Israel and the US draw up plans for renewed strikes on Iran, with an Israeli official claiming strikes are 'only a matter of time'.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNbktQZW9ZMTVzeEZUNWwzMmxvZk1KNS1DNkpDWVk0NEU3YWg3UmVLcHE5ekdlRXFqUVU0TkVCczNXcV9rVVY0bnlQZ1JZN3Y4RUFOWkY4MnVxWldlOHFlUG14TU1sUkVibkFTeVdYZW1WNTBuUDJuTkV1ZjVqNjlMYUVqSGtTMDFaYnhqcDA0c1EweHhmaXpXRHYxMHI3VkJ1c2RQU1R1VW9ETXfSAbABQVVfeXFMTVpfOFFwOFRBdERtZldzWFNpd1dHdVhuRjFtQnJ2YVNneTRPdkFXcWp0TTVIb1RjdzhiSTlTMzlTeFZKMWtXSWxjVUUwRldfbE5sb2ZNYjBVamRENlNDSGVod05zdHVDYWdTeFdLOS11X1haeGNxVERSQjZtekhyM09ZSmg5OWZHbjFHbVBnV2FRNmdBS3VxMmJITFJBejZjSmV6NW8tUDN1b3NZRGQ2Vkw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2709
+    },
+    {
+      "date": "Nov 07",
+      "text": "Iran threatens to strike oil and AI facilities across the Gulf if US and Israel renew attacks.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2709
+    },
+    {
+      "date": "Nov 07",
+      "text": "Tankers are reported hit in the Strait of Hormuz, with Iran claiming responsibility amid fears of new US attacks.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2709
+    },
+    {
+      "date": "Nov 07",
+      "text": "The US military expands its naval blockade to include restricting Iran’s land commerce.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE1tLWFPZ3hEQkJJdlR3YlFNNVd5cnhJaFY1RG8yX2RZc2YxYjQyemhZQ25uNmhTamdqMktTOUJ1M1F4QXFvWmRESEVwejZjYzJfbm1DUDJiS2x0SnNJdG5qb0N1QWJ6bkXSAWxBVV95cUxNTVc4NHRrNk9tOFBxb1RILWRVdjlTUHZGTnNRbURfZ2tvbmhyV0dyN3lrYmc0a2p6MW4xakh5NlRkNmlnbE1URTlkSTBxY1FzMzZETjlXMTJPVk96dE5sdUd4eWtNVlFyM0NrSmQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2709
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
