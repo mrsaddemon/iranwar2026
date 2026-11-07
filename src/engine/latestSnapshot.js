@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2706,
+  "updateSequence": 2707,
   "lastUpdated": "2026-11-07",
-  "lastSyncedAt": "2026-11-07T02:00:42.893Z",
+  "lastSyncedAt": "2026-11-07T09:15:00.000Z",
   "warDay": 253,
-  "summary": "Amidst ongoing US and Israeli considerations for renewed strikes on Iran, Tehran issues strong warnings of retaliation while also engaging in diplomatic talks with the US, as regional tensions escalate with warnings to Hezbollah and maritime incidents in the Persian Gulf.",
+  "summary": "Tensions between the U.S. and Israel and Iran are escalating, with renewed threats of strikes, limited military actions already underway, and concerns over Iran's nuclear program and regional stability.",
   "lastNarrativeUpdate": "2026-11-07",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire is in effect between the primary belligerents; tensions and limited strikes continue."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.8,
         "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.7
       }
     }
   },
   "global": {
     "nuclearIndex": 70,
     "escalationLevel": 80,
-    "oilDisruption": 75,
-    "tradeImpact": 68,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
     "sanctionsPressure": 63,
-    "globalPressure": 80,
-    "allianceInfluence": 51
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 07",
-      "text": "Iran war updates: States aiding US attack ‘legitimate targets’, says Tehran",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWXk2MWFUSUtxMEs2eXFJVHBpcDRLV3U1UVo0ck13VTJ6ajBTTnRUSVNFV19YNS12djdVdWFKb2FoQUIwZWtwTGk4WVRGRWRNX2pxakROcTlCaWxQRWtURDZTZTFEWDFDalBNUGF3QndXNUs1cnVPLTdzalN5OWRCcWtYNkdYQjM3dGVmLU1fMFcwZmFkQV9Ldlktb1phbGVIT3JJTURCRU81clVjR1Y1dTJUZmlPUXBmRXfSAb8BQVVfeXFMUDdiVXdJcWN6elVPeFVzVHA5ZU93aDNlZ283ckk1ZTlpNTdzRWdvZjNSdFYwa3psTGEwQmluckJ6eEZxUTBYMUpwZ3J4QkRmc2dLRk5XSU9YUmlTcDdFTHFVdmV3Z1lhNjgxT3Zzd3RVZi1MU3Y1QWNSZjFCUFZQZ200ZWI4cnN3dEdVQjRpMHRxdzczeTlPd1pEQnVHaDk1Wms3aVd2YlctQW5FM0xpLVlnX0dfZkZOTVB5eFF1SWM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2706
-    },
-    {
-      "date": "Nov 07",
-      "text": "Iran Update, November 5, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNX0R1S1R5SUFMcGZQaEhtT0ZiVnp6S0dtTTFqYTdsdm9MV2VSbkMtR2FTZmtrZVl4cHZnTVRrOF9TQmloQWh5a3doc05leVpROTB5ZUFLV1c0NTBuaVBHa0Y5UW1DRE4tQ1ZfcTRnelZBdk5RZWJjWjY2UEpXUmR6WFBnZG8?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2706
-    },
-    {
-      "date": "Nov 07",
-      "text": "Iran war updates: Trump says US talking to Tehran’s representatives",
+      "text": "Trump states US is talking to Tehran’s representatives amidst threats of new strikes.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZkJXckI5ckRpYjBramxSRF83dG5fOEhjTGM2NEpIeE5pVTdGTEtYZE9uREtpTkgyWWt0cDd1OEhWWEV3enRWbVJFVF9WcXAyVExmamtobWV3blc3MDBIcWZvN250YWR6QlU5SEk2Yi1rdndKRmltVGZzektZMXlVQkw2WUdUcnFoRzU0T2ZtRW5EY3NDSHo4MjhaTHdUbTIwcVBQaXVLaVUxcjdXelBxQdIBtgFBVV95cUxOQktxc3hJNjY2STVxWDJBRjB2dUh5dXdSVVFnc1NIaHdILXFiTG5LZDZEZUFrazZzblFHenhhb1ZzRXhXOElKVVhhOTZweWotT1lOOFV1eVVYT0ZpWU5UekdaRTVkeV9sYmJQMTVYR0Q0VF9lNXdySmlkUGx5RVVTSVkzUjRZTEFnamExQWU2OW51b0ZnQ2lEQjJqdG5Uemh0ZjVPbVJsTG9mRWVtOFBibmRrQm1DUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2706
+      "latestSinceUpdate": 2707
     },
     {
       "date": "Nov 07",
-      "text": "Iran war updates: Tehran lauds US election loss; urges Trump to end assault",
+      "text": "Renewed U.S.-Iran tension could push oil prices past $100, according to Rapidan Energy.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPWWFRMjRmQ0tYMms0NUtabGFWZWJWT2Q5OWtWUk9XU3lEcktHbzZSczhkM1ZhTWttb2lYRVN5TzI4NVo0VFQ3WVhIRm1iX3U2ZHA1a25NMVRvbHNyaXhoV2pCV2dEQmJucVVGVU1QbTdwOV9yLVVZX2p1TXM2bV9TRW52aDVIOVBaaW5reTZma081aXJOZUgwNUFqLVRfWlVxcmVsWVhXc1pWb1l3SV9SRUVxMC13S2ZBeFkwNDBsSdIBxAFBVV95cUxNcXlNUU11WGJ1MV9lMmZDYXlhTFY1YzVmWWFNaUxxa3l6Q0lkVG5IdUl2blB4cEs4SFhDYXFEM01XUnJ3b3NfeHF0Y3hTN1Jvd0dpcUw2Z05XNmZXVVZUZVZhbnBBWk5NQW4tMEI5MU1aX3p3c3AtcVk1SnpfTUk3clA1ZDdOUTM4SGh4ZkxVVUF0eWhnMDRDLVNwZnd0VTVYbU9MWHZIOHM5LV9BbG1tT2p1aHUyZFM2dEtxeTRkTVVfb29B?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2706
+      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBLZXJrYkJKMnZienpycEJReHZ6MWVUMTBlLXZQUnl2Q3FfU2NsLXNQSVcxREswWENMUVFCQnJtWjVoN3JuTUJRU1pMRVRzd2diaEdzVkxjNnZVZzU3NUJTSVc1bXphcF9aQWZ0aVpnUWkxWU5IM2JFaVFrSTJKNTg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2707
     },
     {
       "date": "Nov 07",
-      "text": "Iran war updates: Tehran warns of ‘crushing response’ if US attacks",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2706
+      "text": "U.S. military carries out new limited strikes on Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxONS03bnllYUlGZGk4ckpGT0NNbkVucEZRT0FfeFlhbzZpbXp0aV95cFJ0bFI3LUYtN2RmT2Vta3ZOM2d2QWNOU2VFNGJha1I4SzFuZGotc1NGQXRvbTJhS255a0tfMWZCODNtMzVSOGJwWkM1OGVJZ3JpeUFRb1A5cUVhN21IZl9pWkdROTFzYXlRSEh1TldVeg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2707
     },
     {
       "date": "Nov 07",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
+      "text": "Trump briefed on narrow window for a new military campaign in Iran.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxON29peTVaRjhUaU9BTUZOczZveVZfQURKWWJWRTVSeWljWXdETkpZcWNPX0lTRDBVQk52czlfMW9JTHBuLS1GU1Fya3BsTkZfM3FZaHRJaXRORm9FVXMtSWJjRy1BS1hDWGF0X3F0VWNDRzVpV1lLMDZnOU5DY0gtcTgyY1liWkhNR28yLTVzM3FFN0Z5QjZPc1drNEJFOUc1a2NCMmYzbExYS1pTZ2l5VTRTOXhRQWc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2707
+    },
+    {
+      "date": "Nov 06",
+      "text": "Iran warns that states aiding US attacks would be considered ‘legitimate targets’.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2706
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2707
+    },
+    {
+      "date": "Nov 06",
+      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2707
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
