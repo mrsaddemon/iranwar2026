@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2707,
+  "updateSequence": 2708,
   "lastUpdated": "2026-11-07",
-  "lastSyncedAt": "2026-11-07T09:15:00.000Z",
+  "lastSyncedAt": "2026-11-07T15:13:30.217Z",
   "warDay": 253,
   "summary": "Tensions between the U.S. and Israel and Iran are escalating, with renewed threats of strikes, limited military actions already underway, and concerns over Iran's nuclear program and regional stability.",
   "lastNarrativeUpdate": "2026-11-07",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect between the primary belligerents; tensions and limited strikes continue."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 07",
-      "text": "Trump states US is talking to Tehran’s representatives amidst threats of new strikes.",
+      "text": "Iran war updates: States aiding US attack ‘legitimate targets’, says Tehran",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZkJXckI5ckRpYjBramxSRF83dG5fOEhjTGM2NEpIeE5pVTdGTEtYZE9uREtpTkgyWWt0cDd1OEhWWEV3enRWbVJFVF9WcXAyVExmamtobWV3blc3MDBIcWZvN250YWR6QlU5SEk2Yi1rdndKRmltVGZzektZMXlVQkw2WUdUcnFoRzU0T2ZtRW5EY3NDSHo4MjhaTHdUbTIwcVBQaXVLaVUxcjdXelBxQdIBtgFBVV95cUxOQktxc3hJNjY2STVxWDJBRjB2dUh5dXdSVVFnc1NIaHdILXFiTG5LZDZEZUFrazZzblFHenhhb1ZzRXhXOElKVVhhOTZweWotT1lOOFV1eVVYT0ZpWU5UekdaRTVkeV9sYmJQMTVYR0Q0VF9lNXdySmlkUGx5RVVTSVkzUjRZTEFnamExQWU2OW51b0ZnQ2lEQjJqdG5Uemh0ZjVPbVJsTG9mRWVtOFBibmRrQm1DUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWXk2MWFUSUtxMEs2eXFJVHBpcDRLV3U1UVo0ck13VTJ6ajBTTnRUSVNFV19YNS12djdVdWFKb2FoQUIwZWtwTGk4WVRGRWRNX2pxakROcTlCaWxQRWtURDZTZTFEWDFDalBNUGF3QndXNUs1cnVPLTdzalN5OWRCcWtYNkdYQjM3dGVmLU1fMFcwZmFkQV9Ldlktb1phbGVIT3JJTURCRU81clVjR1Y1dTJUZmlPUXBmRXfSAb8BQVVfeXFMUDdiVXdJcWN6elVPeFVzVHA5ZU93aDNlZ283ckk1ZTlpNTdzRWdvZjNSdFYwa3psTGEwQmluckJ6eEZxUTBYMUpwZ3J4QkRmc2dLRk5XSU9YUmlTcDdFTHFVdmV3Z1lhNjgxT3Zzd3RVZi1MU3Y1QWNSZjFCUFZQZ200ZWI4cnN3dEdVQjRpMHRxdzczeTlPd1pEQnVHaDk1Wms3aVd2YlctQW5FM0xpLVlnX0dfZkZOTVB5eFF1SWM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2707
+      "latestSinceUpdate": 2708
     },
     {
       "date": "Nov 07",
-      "text": "Renewed U.S.-Iran tension could push oil prices past $100, according to Rapidan Energy.",
+      "text": "US carries out another round of ‘minor’ strikes on Iran, Trump says",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMif0FVX3lxTFBLZXJrYkJKMnZienpycEJReHZ6MWVUMTBlLXZQUnl2Q3FfU2NsLXNQSVcxREswWENMUVFCQnJtWjVoN3JuTUJRU1pMRVRzd2diaEdzVkxjNnZVZzU3NUJTSVc1bXphcF9aQWZ0aVpnUWkxWU5IM2JFaVFrSTJKNTg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2707
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPNlhQNEhVWUJ5ODk5MkxWbFlVZVZVUnU4dGxYVWJzdTh2R2x1aHdSd1pkVHlERGNod3JCOEVSWVIxdC1SbHlRX0RPVGM5UkVCTk5KR3RWb0lWczUza01JWkNwNU93ZnpKV1pGRHk2ZW1ZZExxeGEzYW5qekxFM2dRZDhFUWZ0MzVka3RYajRBVU96cWlDTWhvM2NpVm85YTlZZm5JdkxUQ3o3VVVFUzFR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2708
     },
     {
       "date": "Nov 07",
-      "text": "U.S. military carries out new limited strikes on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxONS03bnllYUlGZGk4ckpGT0NNbkVucEZRT0FfeFlhbzZpbXp0aV95cFJ0bFI3LUYtN2RmT2Vta3ZOM2d2QWNOU2VFNGJha1I4SzFuZGotc1NGQXRvbTJhS255a0tfMWZCODNtMzVSOGJwWkM1OGVJZ3JpeUFRb1A5cUVhN21IZl9pWkdROTFzYXlRSEh1TldVeg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2707
+      "text": "Iran Update, November 4, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxPckpWSVBWREltTGMxckdQTzROOXdyVEQzQTJQUXZvMGhxcnlEWExZUVNyT3AxN1hpN1Jjal9aeDVpQ1BkbDNYdlM0OHlVcndQUjBibUh3TE13anRrZGp3anVOSXU3VE1Yc2FHYTBjUVJlclkzUUFkdF8xNWp2d1BGY1ZjbDc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2708
     },
     {
       "date": "Nov 07",
-      "text": "Trump briefed on narrow window for a new military campaign in Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxON29peTVaRjhUaU9BTUZOczZveVZfQURKWWJWRTVSeWljWXdETkpZcWNPX0lTRDBVQk52czlfMW9JTHBuLS1GU1Fya3BsTkZfM3FZaHRJaXRORm9FVXMtSWJjRy1BS1hDWGF0X3F0VWNDRzVpV1lLMDZnOU5DY0gtcTgyY1liWkhNR28yLTVzM3FFN0Z5QjZPc1drNEJFOUc1a2NCMmYzbExYS1pTZ2l5VTRTOXhRQWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2707
+      "text": "Iran Update, November 6, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE9rb1U1dGpqZXBtX1hPMjBJT3hmN0FpSnJMS2QwSHU5cmJPelMwM0lWN0gxRC1yMktXbk5JZWhHVlNQNUk1T2VoblVRZ1NsVl80X2xCX2M3QjliRnJ2RjVOelVPWk9tUEZiRWt4MUFoRG9JcFJGbVk0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Critical Threats",
+      "latestSinceUpdate": 2708
     },
     {
-      "date": "Nov 06",
-      "text": "Iran warns that states aiding US attacks would be considered ‘legitimate targets’.",
+      "date": "Nov 07",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2707
+      "sourceName": null,
+      "latestSinceUpdate": 2708
     },
     {
-      "date": "Nov 06",
-      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2707
+      "date": "Nov 07",
+      "text": "U.S. and Israel Draw Up Plans for Renewed Strikes on Iran After Elections",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxOaFNybFlkMEkyWkpGZUhTNHUyd2V2Y0JGQkNUNzdJVFhaNlpMWU1FQXh6NG9PWWU0ZlBSdDBCUXUwcEc0c1lJaXRFMzdNajVFdjN5Mm43Y2dBdmNST2lYY1JsWjA5dlVzZkZFcGVaY1RlUEMwS3pOblF0RlVzRGtlYm40TWh2NEp3UGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2708
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
