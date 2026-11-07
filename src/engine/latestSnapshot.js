@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2705,
-  "lastUpdated": "2026-11-06",
-  "lastSyncedAt": "2026-11-06T22:18:56.047Z",
-  "warDay": 252,
+  "updateSequence": 2706,
+  "lastUpdated": "2026-11-07",
+  "lastSyncedAt": "2026-11-07T02:00:42.893Z",
+  "warDay": 253,
   "summary": "Amidst ongoing US and Israeli considerations for renewed strikes on Iran, Tehran issues strong warnings of retaliation while also engaging in diplomatic talks with the US, as regional tensions escalate with warnings to Hezbollah and maritime incidents in the Persian Gulf.",
-  "lastNarrativeUpdate": "2026-11-06",
+  "lastNarrativeUpdate": "2026-11-07",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst escalating tensions."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 06",
-      "text": "U.S. and Israel draw up plans for renewed strikes on Iran after elections.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2705
+      "date": "Nov 07",
+      "text": "Iran war updates: States aiding US attack ‘legitimate targets’, says Tehran",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNWXk2MWFUSUtxMEs2eXFJVHBpcDRLV3U1UVo0ck13VTJ6ajBTTnRUSVNFV19YNS12djdVdWFKb2FoQUIwZWtwTGk4WVRGRWRNX2pxakROcTlCaWxQRWtURDZTZTFEWDFDalBNUGF3QndXNUs1cnVPLTdzalN5OWRCcWtYNkdYQjM3dGVmLU1fMFcwZmFkQV9Ldlktb1phbGVIT3JJTURCRU81clVjR1Y1dTJUZmlPUXBmRXfSAb8BQVVfeXFMUDdiVXdJcWN6elVPeFVzVHA5ZU93aDNlZ283ckk1ZTlpNTdzRWdvZjNSdFYwa3psTGEwQmluckJ6eEZxUTBYMUpwZ3J4QkRmc2dLRk5XSU9YUmlTcDdFTHFVdmV3Z1lhNjgxT3Zzd3RVZi1MU3Y1QWNSZjFCUFZQZ200ZWI4cnN3dEdVQjRpMHRxdzczeTlPd1pEQnVHaDk1Wms3aVd2YlctQW5FM0xpLVlnX0dfZkZOTVB5eFF1SWM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2706
     },
     {
-      "date": "Nov 06",
-      "text": "Tehran warns of ‘crushing response’ if US attacks, stating states aiding US attack are ‘legitimate targets’.",
-      "severity": "critical",
+      "date": "Nov 07",
+      "text": "Iran Update, November 5, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNX0R1S1R5SUFMcGZQaEhtT0ZiVnp6S0dtTTFqYTdsdm9MV2VSbkMtR2FTZmtrZVl4cHZnTVRrOF9TQmloQWh5a3doc05leVpROTB5ZUFLV1c0NTBuaVBHa0Y5UW1DRE4tQ1ZfcTRnelZBdk5RZWJjWjY2UEpXUmR6WFBnZG8?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2706
+    },
+    {
+      "date": "Nov 07",
+      "text": "Iran war updates: Trump says US talking to Tehran’s representatives",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxQZkJXckI5ckRpYjBramxSRF83dG5fOEhjTGM2NEpIeE5pVTdGTEtYZE9uREtpTkgyWWt0cDd1OEhWWEV3enRWbVJFVF9WcXAyVExmamtobWV3blc3MDBIcWZvN250YWR6QlU5SEk2Yi1rdndKRmltVGZzektZMXlVQkw2WUdUcnFoRzU0T2ZtRW5EY3NDSHo4MjhaTHdUbTIwcVBQaXVLaVUxcjdXelBxQdIBtgFBVV95cUxOQktxc3hJNjY2STVxWDJBRjB2dUh5dXdSVVFnc1NIaHdILXFiTG5LZDZEZUFrazZzblFHenhhb1ZzRXhXOElKVVhhOTZweWotT1lOOFV1eVVYT0ZpWU5UekdaRTVkeV9sYmJQMTVYR0Q0VF9lNXdySmlkUGx5RVVTSVkzUjRZTEFnamExQWU2OW51b0ZnQ2lEQjJqdG5Uemh0ZjVPbVJsTG9mRWVtOFBibmRrQm1DUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2706
+    },
+    {
+      "date": "Nov 07",
+      "text": "Iran war updates: Tehran lauds US election loss; urges Trump to end assault",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxPWWFRMjRmQ0tYMms0NUtabGFWZWJWT2Q5OWtWUk9XU3lEcktHbzZSczhkM1ZhTWttb2lYRVN5TzI4NVo0VFQ3WVhIRm1iX3U2ZHA1a25NMVRvbHNyaXhoV2pCV2dEQmJucVVGVU1QbTdwOV9yLVVZX2p1TXM2bV9TRW52aDVIOVBaaW5reTZma081aXJOZUgwNUFqLVRfWlVxcmVsWVhXc1pWb1l3SV9SRUVxMC13S2ZBeFkwNDBsSdIBxAFBVV95cUxNcXlNUU11WGJ1MV9lMmZDYXlhTFY1YzVmWWFNaUxxa3l6Q0lkVG5IdUl2blB4cEs4SFhDYXFEM01XUnJ3b3NfeHF0Y3hTN1Jvd0dpcUw2Z05XNmZXVVZUZVZhbnBBWk5NQW4tMEI5MU1aX3p3c3AtcVk1SnpfTUk3clA1ZDdOUTM4SGh4ZkxVVUF0eWhnMDRDLVNwZnd0VTVYbU9MWHZIOHM5LV9BbG1tT2p1aHUyZFM2dEtxeTRkTVVfb29B?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2706
+    },
+    {
+      "date": "Nov 07",
+      "text": "Iran war updates: Tehran warns of ‘crushing response’ if US attacks",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQbk92SHBjQ3VxZlRQX2ZlWVNMUHEzV3V3RXhpLW1rajNzdU90dEhrQnJiWTN5dFhmNXE2Zk5sYWg1WFBDNG9QTFpSN0RKQ2VGUnQ3UnU0b0pqLXZ6S29oTnR2Umlnc3RJLUVBYl9pOXpSU1JQdmwtTkoxTHNwYVN1b0lzQ2Z2dWc0QlpVVFJROGQ3MkQwei1KVzB5aWFhdVRIR2VOU0htR09PYkh5NkdCQjg2NFBteGFTSXhjT1Z30gHDAUFVX3lxTE5qSVpNcUtFc29tNGVRaHJqRWZ0Nk53TldzTFBKZnNFNUdPWlVWSGoyM3Y1V3diSXFUTGs4OS1BaWs1c3dJaFRGUTFSTl9fUk1EY2QyME8yRlhBT2VuVHRqOW0wSUM5LXoxWlFDMFJyaGxoMVhlUXNqLXVUQk1jcG9WSl81bUFvSUdiUG9KYVBPSEhlNmVuWmF4OW5zTm9sSzYwWnItOFhDOGR0OF9Fb3BkbFM2cWU2ejhzS1BmaVVveTViYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2705
+      "latestSinceUpdate": 2706
     },
     {
-      "date": "Nov 06",
-      "text": "Trump touts imminent decision on new U.S. strikes, keeping up threats, but also diplomacy with Tehran’s representatives.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2705
-    },
-    {
-      "date": "Nov 06",
-      "text": "More ships attacked in Persian Gulf, causing oil prices to rebound slightly after a post-midterm plunge.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiiAFBVV95cUxOTDROS29td1ZxNlFndnlTQnU4LVVwTXg1OW9kemVlQmx4M1pZTFlOd21RNnJhcnBVNENOSEpjT2YyWC1DMVhXcHFpNHBMUlF6Mk9NeVFmV19RVnpZTkl0RVE1YjFYVk5JRFZBVFJQbGtlaVFQS2FCazJKWWNQRUVOaDdNdzBuUU1z?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2705
-    },
-    {
-      "date": "Nov 06",
-      "text": "IDF Chief issues stern warning to Hezbollah, stating the IDF won’t let Hezbollah ‘entrench itself’ and threaten the north.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQUEhxNnNSVnAzcGlvUlBDOFRERjlYZW1WVTJHV3Z3NFdmWFBuX2ZDMUx6MHlkN3RjQmMwYloxSlN3bXFPeTlXYkJoXzZKX2dGM3BlcHdlLWVFdFk2T2RxZFV0azV3T0dKVldTWUNTR1N0dFFwZkVxUFRkSkJzcHFqdXNMR3p6VmVpcy01MFhkNHE5UjIyYkFfT2tKSGtiYnNkQ205cW5NVjJncVZQanc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2705
-    },
-    {
-      "date": "Nov 06",
-      "text": "US and Iran near possible nuclear breakthrough as American military buildup continues.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE9GUlR2UnVWcm9HZ3MyU3F6cUphdi1DaURCdzduQXVSVmViemhEZkFVc253aEJ0TTh0SkNQdElaaS1langydEVTSldpdlQyVndJTldfWjJB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Ynetnews",
-      "latestSinceUpdate": 2705
+      "date": "Nov 07",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 2706
     }
   ],
   "sourceStatuses": [
