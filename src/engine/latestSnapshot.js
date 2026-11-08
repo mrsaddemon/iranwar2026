@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2712,
+  "updateSequence": 2713,
   "lastUpdated": "2026-11-08",
-  "lastSyncedAt": "2026-11-08T09:06:47.576Z",
+  "lastSyncedAt": "2026-11-08T15:55:28.843Z",
   "warDay": 254,
-  "summary": "The US and Israel continue targeted strikes on Iran, which responds with threats to oil facilities and actions in the Gulf, while expanded naval blockades heighten regional tensions.",
+  "summary": "Ongoing tensions between the US, Israel, and Iran persist, marked by renewed strike plans, limited military actions, threats to critical infrastructure, and concerns over Iran's nuclear program and regional stability.",
   "lastNarrativeUpdate": "2026-11-08",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire or de-escalation efforts are reported; conflict and threats continue."
   },
   "actorOverrides": {
     "usa": {
@@ -18,41 +18,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.85
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.55,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 55,
-    "escalationLevel": 85,
-    "oilDisruption": 75,
-    "tradeImpact": 69,
-    "sanctionsPressure": 68,
-    "globalPressure": 87,
-    "allianceInfluence": 73
+    "nuclearIndex": 70,
+    "escalationLevel": 80,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,43 +60,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 08",
-      "text": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran.",
+      "text": "Three tankers reported on fire in the Hormuz Strait as attacks intensify.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxON0xoU1lGQTExZWlZZkVZY2ZyUk1XY2hMeFBwZzVjOGxSR0g1QUdVR0JJNXJwU0tSYUQxbVlPRV9DeXBkRWR4VGpIcm5RMWNFSXJIbHVYTjJJaHhwMTRZSlU0WGhtX3lESXFka3l5Z3B6OE05d1NOWXJaTmhMNkFHb0FRRGpIRVRpMC1lYUlzTXZjRnVDWkJZOFVBMTFBVFFWMHFFNkRwOGlVMnRHQjlLNzFxSnI3T2dOLVNxLW1Pbw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Euronews.com",
-      "latestSinceUpdate": 2712
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2713
     },
     {
       "date": "Nov 08",
-      "text": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks.",
-      "severity": "critical",
+      "text": "US military targets Iranian defense system in latest round of limited strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQOWRlMEhvcWFob2wwdVFDa1Y3aVlBcEgzeXhSM0txRnRjQ0dBRkYxX0EtTEhjV0hQMHAxUS16WGhiQ2xVSjZUN3l3VG1WMkhEb0ZBOTVlYTRxdmNQcENNRm42eTM5V3RxTTdKUVJXWWRPdER3VWNuLVNKZVpJMlh0ODJNT0pFUdIBiwFBVV95cUxNckYzZVRHX1dXSTEtR0RBVXdWR053QVVoNjNaU0Q2TVQyTFdtRE9PZnJoOWNxMUM3eU0td1pCQmgtMUtQZ0NwazBQenJYTmtCdzdkQkZNZmlrS1J5WnFXclRQeVRMVHZJV0x3M3VNUjhFQm40QmFMRHhMQmlxQ19aUUo3TGhES05tNmFN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2713
+    },
+    {
+      "date": "Nov 08",
+      "text": "Iran threatens to strike oil and AI facilities across the Gulf if US and Israel renew attacks.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2711
-    },
-    {
-      "date": "Nov 08",
-      "text": "U.S. expands naval blockade to include task force on disrupting ground transport in Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2712
-    },
-    {
-      "date": "Nov 08",
-      "text": "Tankers hit in Hormuz as Iran keeps up pressure after US vote.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2711
-    },
-    {
-      "date": "Nov 08",
-      "text": "US military fires at and disables cargo vessel in Gulf of Oman.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPNTVPbE96UFUtWlRnUXpCb0hFZnNnbjVsZ1RtVnZqdnUwNm1OYkNsQ2tRT3lBY2tSdXZ2elZ5X2FyOXo3ZVVlRmQ1SFR6WHBsSFljVVZhM1JBd3MwdmozbkJpTVl6aVJ1dGNHUlhXSGZFMzJEZGxiU1U3Ylp0S3VsbFpB0gGHAUFVX3lxTE85bEY3VmQ5NGI5ZlZ5bUdvQlliUkk4TjduRkFqWmVNeXlHNmdhSGdlLUtrS241R2dmcUtrUnlNN2JkMXFiTUswSHZiX2owUXE2QVRwOUlPUjVDQ3pfdFE0VGFJZXNIYTdWVjktYTM3VUZNSTAtZWlRMjRPUVhfZndaX1NzYW1xaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 2712
+      "latestSinceUpdate": 2713
     },
     {
       "date": "Nov 08",
@@ -105,12 +89,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5FMjhFNFRsZ3Z1ZTVjWXVzNG5hZ20tVS1XZUYwLTUtbm9TM19PdWd6ODBJdFcwMWw4eWNNNG1JMXNmbVcyTTlKVEdqRmFackotRTN4ZENheERlZnpTMy02RnVqSVFuTUpiNkZDdXln?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Jerusalem Post",
       "latestSinceUpdate": 2712
+    },
+    {
+      "date": "Nov 08",
+      "text": "UNIFIL confirms it will start leaving south Lebanon when its mandate ends on December 31.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPVHBCYUloZ1B1aWZkUTBjSHdJR3VkV1VsTzhpcmszZHhLOWtjbHEtamZ4NEtqdHFNb1dzY0NjSVN0M0sxa1d0TmJacXBaa2t2VWtvQ1ZrSDAzbmo3UkVDZVZYb2hHTjJpQk5EMTdiWUp0ZWJDd3NIdkxRMC1JOGVXTFVod0owUUVHMTg0bk5YSVRBQTVzVTBpb3MtN2ZUTWZHZG5UR2NsblJHZlB0YURR0gG0AUFVX3lxTE9ONlNFSFluTTFndFprR1pkOTdraDFIUmFLSENhR0NGTGJRZUlraTR4WW9HNnRoQ2pjT1BJbnlnT3R1dVkzUFdlbUI2YjJ5TFFSR3kyVzJoV0NNdV8xUmU0SFo0eWVLb254VzNTVVp0Q0h2Wi1qSXVQUlZINlktZ0l5am1aX3laaFdCLWNTOF9YT0dsOHFTRG5lbVpGR3pZSDRfMjBnVmI0b2FDM1lrejNtNkRQZA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2713
+    },
+    {
+      "date": "Nov 08",
+      "text": "US task force established to cut off Iran’s transport of advanced weapons.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxOSjhhZzlJeHBXWDRBRzY4SjB3eF8wUlRWS25YOGF4S0ZfemxqMm5nQmJhemhQXzNJcVdCVF9mcDQwX21xSnRmZHpVcWRJMmlLX1lvN2xLaFNFeXVSbHctbHVyQnZNZVE1ZkZLVElWeGVacmdmV3ZicDEwUzYxRHZENFVFenMyMU1NbVJmOVRGX0R0MTU5bkVnV3p2cjBUWjJkbjRLLWpaNXhUanFMS25uVjBleU_SAboBQVVfeXFMTkd1ZjRpcThWQ0ROQXdTSGoyOFVpZlplY25TbWhOOW55a2lablJVVE1rWGF0QVNndzBZanVzY3VfTEdpYlo2bktMWEV3MzFhN21qRjNTUF9oUjRSZHFLb2hJWTBvRWZFTmlfQ29Gc256cFJpUkhDOVhmd0dScVJ4TUhwVjN4UTB0MF9VWXprNGlvQkMxa0NJWThuakMyUjZ4R0RvSnZnLV9wTnJzYkdfeFhLVjNSZ1J5Mzln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2713
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
