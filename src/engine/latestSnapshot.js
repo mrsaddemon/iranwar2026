@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2711,
+  "updateSequence": 2712,
   "lastUpdated": "2026-11-08",
-  "lastSyncedAt": "2026-11-08T02:17:41.643Z",
+  "lastSyncedAt": "2026-11-08T09:06:47.576Z",
   "warDay": 254,
-  "summary": "Ongoing military strikes by the US against Iran continue, with Israel also preparing for renewed attacks, while Iran threatens retaliation and regional tensions escalate in the Gulf and Lebanon.",
+  "summary": "The US and Israel continue targeted strikes on Iran, which responds with threats to oil facilities and actions in the Gulf, while expanded naval blockades heighten regional tensions.",
   "lastNarrativeUpdate": "2026-11-08",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported amidst ongoing military actions and threats."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.75,
+        "aggression": 0.8
       }
     },
     "iran": {
@@ -37,22 +37,22 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.55,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 80,
-    "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
-    "sanctionsPressure": 64,
-    "globalPressure": 85,
-    "allianceInfluence": 51
+    "nuclearIndex": 55,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 68,
+    "globalPressure": 87,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 08",
-      "text": "US military carries out new limited strikes on Iran.",
+      "text": "US launches new targeted strikes on Iran as Trump claims progress in talks with Tehran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxONS03bnllYUlGZGk4ckpGT0NNbkVucEZRT0FfeFlhbzZpbXp0aV95cFJ0bFI3LUYtN2RmT2Vta3ZOM2d2QWNOU2VFNGJha1I4SzFuZGotc1NGQXRvbTJhS255a0tfMWZCODNtMzVSOGJwWkM1OGVJZ3JpeUFRb1A5cUVhN21IZl9pWkdROTFzYXlRSEh1TldVeg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2711
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxON0xoU1lGQTExZWlZZkVZY2ZyUk1XY2hMeFBwZzVjOGxSR0g1QUdVR0JJNXJwU0tSYUQxbVlPRV9DeXBkRWR4VGpIcm5RMWNFSXJIbHVYTjJJaHhwMTRZSlU0WGhtX3lESXFka3l5Z3B6OE05d1NOWXJaTmhMNkFHb0FRRGpIRVRpMC1lYUlzTXZjRnVDWkJZOFVBMTFBVFFWMHFFNkRwOGlVMnRHQjlLNzFxSnI3T2dOLVNxLW1Pbw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Euronews.com",
+      "latestSinceUpdate": 2712
     },
     {
       "date": "Nov 08",
       "text": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "The Guardian",
       "latestSinceUpdate": 2711
+    },
+    {
+      "date": "Nov 08",
+      "text": "U.S. expands naval blockade to include task force on disrupting ground transport in Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2712
     },
     {
       "date": "Nov 08",
       "text": "Tankers hit in Hormuz as Iran keeps up pressure after US vote.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxQS25WaGR6RHltaldweFlqblRLWTQwanRGbVY4Vm5YZXBVdUVacG5DSTU3SXd1N00zTDROTTlYaGlnQzZPQUlmeUNPRlExc01kSUUwTFkwQUpWTWlXZEtkdTZmQktpWXUwcGt6dVBHbjkyb25ISjB1N0tOaWNJRHBoNk9iSzBJMURrM2dlemVvVnU5aHplVko3aGlQc296enRpdDlLNWJDWGtLWDZZVWc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
+      "sourceName": "Reuters",
       "latestSinceUpdate": 2711
     },
     {
       "date": "Nov 08",
-      "text": "US military fires on commercial vessel in Gulf of Oman after it attempted to breach blockade.",
+      "text": "US military fires at and disables cargo vessel in Gulf of Oman.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMi1wFBVV95cUxPYzRZRXpNcXJjX1dtdDh2LTYwRWJYMkZGQVkzemNVNllrN2Q2MnN2QVlwM0FjYUlIRG9KSDdnOXBPOVZsR1pUQ3JFMkk5bVRPcGd1b2xuTjY5VmpvQUJoU29VVEdhMWhCQVF5RDlLT204dDJXQUhneDMwTXp2ay1lVS1PbG1ZMUVfc0dveC0zdlpaT1gxOHZpemlMZk1jQTY0cm5IVXRWcEM0WUY3eUk4QjZwU0NrSUpoSVVoVjJacDlheVotUExSLThDVFB3dmhhZHEzZkZyNA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2711
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPNTVPbE96UFUtWlRnUXpCb0hFZnNnbjVsZ1RtVnZqdnUwNm1OYkNsQ2tRT3lBY2tSdXZ2elZ5X2FyOXo3ZVVlRmQ1SFR6WHBsSFljVVZhM1JBd3MwdmozbkJpTVl6aVJ1dGNHUlhXSGZFMzJEZGxiU1U3Ylp0S3VsbFpB0gGHAUFVX3lxTE85bEY3VmQ5NGI5ZlZ5bUdvQlliUkk4TjduRkFqWmVNeXlHNmdhSGdlLUtrS241R2dmcUtrUnlNN2JkMXFiTUswSHZiX2owUXE2QVRwOUlPUjVDQ3pfdFE0VGFJZXNIYTdWVjktYTM3VUZNSTAtZWlRMjRPUVhfZndaX1NzYW1xaw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Hill",
+      "latestSinceUpdate": 2712
     },
     {
       "date": "Nov 08",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2711
-    },
-    {
-      "date": "Nov 08",
-      "text": "UNIFIL confirms it will start leaving south Lebanon when mandate ends on Dec. 31.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPVHBCYUloZ1B1aWZkUTBjSHdJR3VkV1VsTzhpcmszZHhLOWtjbHEtamZ4NEtqdHFNb1dzY0NjSVN0M0sxa1d0TmJacXBaa2t2VWtvQ1ZrSDAzbmo3UkVDZVZYb2hHTjJpQk5EMTdiWUp0ZWJDd3NIdkxRMC1JOGVXTFVod0owUUVHMTg0bk5YSVRBQTVzVTBpb3MtN2ZUTWZHZG5UR2NsblJHZlB0YURR0gG0AUFVX3lxTE9ONlNFSFluTTFndFprR1pkOTdraDFIUmFLSENhR0NGTGJRZUlraTR4WW9HNnRoQ2pjT1BJbnlnT3R1dVkzUFdlbUI2YjJ5TFFSR3kyVzJoV0NNdV8xUmU0SFo0eWVLb254VzNTVVp0Q0h2Wi1qSXVQUlZINlktZ0l5am1aX3laaFdCLWNTOF9YT0dsOHFTRG5lbVpGR3pZSDRfMjBnVmI0b2FDM1lrejNtNkRQZA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2711
+      "text": "False hostile aircraft intrusion alert sounds in northern Israel.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE5FMjhFNFRsZ3Z1ZTVjWXVzNG5hZ20tVS1XZUYwLTUtbm9TM19PdWd6ODBJdFcwMWw4eWNNNG1JMXNmbVcyTTlKVEdqRmFackotRTN4ZENheERlZnpTMy02RnVqSVFuTUpiNkZDdXln?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2712
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
