@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2715,
-  "lastUpdated": "2026-11-08",
-  "lastSyncedAt": "2026-11-08T23:57:22.820Z",
-  "warDay": 254,
-  "summary": "Tensions remain high between the US, Israel, and Iran, with threats of renewed strikes, ongoing military actions in the Gulf, and some diplomatic overtures.",
-  "lastNarrativeUpdate": "2026-11-08",
+  "updateSequence": 2716,
+  "lastUpdated": "2026-11-09",
+  "lastSyncedAt": "2026-11-09T05:59:50.843Z",
+  "warDay": 255,
+  "summary": "The US and Israel are planning renewed strikes on Iran and have conducted limited military actions, while Iraq has reached understandings with the US regarding oil exports through Hormuz amidst heightened regional tensions.",
+  "lastNarrativeUpdate": "2026-11-09",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect amidst ongoing threats and military actions."
+    "summary": "No active ceasefire or de-escalation agreement is reported."
   },
   "actorOverrides": {
     "usa": {
@@ -24,11 +24,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "iran": {
@@ -37,17 +37,17 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.5,
-        "aggression": 0.75
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 63,
-    "globalPressure": 79,
+    "nuclearIndex": 45,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 07",
-      "text": "US and Israel draw up plans for renewed strikes on Iran after elections.",
+      "text": "Drone hits northern Iraq; US blamed for Qeshm strikes.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2716
+    },
+    {
+      "date": "Nov 07",
+      "text": "Houthis claim Riyadh attacks; US hits vessel near Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOYm1tV0FRYTVGTGJoajQ5V2l2QmNha2E2aHFyUk1VWnJseVdKUlNwaEdDWm9JSnEtbnlhRUpjR2l1ckkyR244Q3hBeUw2ZWt4RDI4UWp2a2lxaTB5SlVLSmlocmpfV1U3a1J3akp1OVpBdm9FQ2dZNXlYMXJHdWhpZFdLRWFLaUxSQkhfemJsUjFuYlVJMHNBS2tyNjNUZ0cxdEtlSlZRcW9IbExsOGZVbUEyN1lmNUVvQWRNQ9IBwgFBVV95cUxOdnpfSENoUUlXRWp0NVJkUjJYZkFmSVNXcEVGZUhtZnRtU1VWQ2VRM1J0Yk1ZeDJVOU9wRjJRX3FLZG5GdThfOW54bkVvTWRGS0tiTFVLOWV5Q1l4NE12WEI4VkdnYnJiSkxSZ0o1S3doNVMyNjNvT29iMi1uQy01TXBKUVVXMUpvd1Qzdk1oODVBMjlwTF9MRVFKMUFSeXNRMGdKN3pweF85R2hSSURGRENvc0gxb0hob3B6NjJXQUNWUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2716
+    },
+    {
+      "date": "Nov 08",
+      "text": "U.S. military carries out new limited strikes on Iran.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxONS03bnllYUlGZGk4ckpGT0NNbkVucEZRT0FfeFlhbzZpbXp0aV95cFJ0bFI3LUYtN2RmT2Vta3ZOM2d2QWNOU2VFNGJha1I4SzFuZGotc1NGQXRvbTJhS255a0tfMWZCODNtMzVSOGJwWkM1OGVJZ3JpeUFRb1A5cUVhN21IZl9pWkdROTFzYXlRSEh1TldVeg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2716
+    },
+    {
+      "date": "Nov 08",
+      "text": "U.S. and Israel draw up plans for renewed strikes on Iran after elections.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2715
+      "latestSinceUpdate": 2716
     },
     {
-      "date": "Nov 07",
-      "text": "Iran warns of ‘painful’ response if US launches attacks.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNd3ZKbm1kRkNueWdYR1E0bUdlUVVNX19EbmVjc3lCWFVGdjk0VldhQTI2c0dBSWRhSEQ4MHlseVI0QWt5aEJ2LUdqNFA5WHQ3RTVwUzhDV0QwZzFMRUJNeHZIc2JxZTVLQlM3endVVnBORHdBWnB0YVFvWDdHUG1NS05CejVoYUF3U0IyeWZWUjM2ZjU2UzZhb0hPcmJna2h4SVlfbTl3ckl5VlRRd3liSFEwQVEtMjNYRDM5VtIBwgFBVV95cUxPWVpKNDFnRWU2NHZrV2xwY0tFWnp3NTlOeElWTlpSM01jY2VZUFFNMmYyRHBMWU1tTlgydFhaYXRmN0xic0kyS1B5SU10Yi1RWUNZSVZDQXRmbUQ3c3c2dDhDRmw1eWhxYXU1ZHdJZWpwcnAtR1FJM0JFLS02bnpPSlhrOVpKdUMxOU5faTdFUTh6SWJXZEFEbl8ydmEzM3J2STZZc185dHh3RVExRG1kSE80czczT2JDWHAyQVc0eTVBUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2715
-    },
-    {
-      "date": "Nov 07",
-      "text": "US military fires at cargo ship in Gulf of Oman and disables vessel after it visited Iranian port and tried to breach Strait of Hormuz blockade.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxPNTVPbE96UFUtWlRnUXpCb0hFZnNnbjVsZ1RtVnZqdnUwNm1OYkNsQ2tRT3lBY2tSdXZ2elZ5X2FyOXo3ZVVlRmQ1SFR6WHBsSFljVVZhM1JBd3MwdmozbkJpTVl6aVJ1dGNHUlhXSGZFMzJEZGxiU1U3Ylp0S3VsbFpB0gGHAUFVX3lxTE85bEY3VmQ5NGI5ZlZ5bUdvQlliUkk4TjduRkFqWmVNeXlHNmdhSGdlLUtrS241R2dmcUtrUnlNN2JkMXFiTUswSHZiX2owUXE2QVRwOUlPUjVDQ3pfdFE0VGFJZXNIYTdWVjktYTM3VUZNSTAtZWlRMjRPUVhfZndaX1NzYW1xaw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Hill",
-      "latestSinceUpdate": 2715
-    },
-    {
-      "date": "Nov 07",
-      "text": "Explosions heard on Qeshm Island in the Strait of Hormuz.",
+      "date": "Nov 08",
+      "text": "Report: Israeli official claims renewed strikes on Iran 'only a matter of time'.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxNNWpRc1YyVWJFeUtJZE8zaDduZDE4M1VzYkNuZDNKVWNtQUJVaHQ1dFVucVhHVUFsS0szclV2QjJ5MzlRcTN1VVYzXzg1VDFmM2lXYVB3VEVLVG8tYzYxbVlENmIzbHJkektzSVd1Rjk0XzZaZ1VELXk2NnhMai1HZzFndFBBbUw1MEhNNktvb2hUd1NZTWtTNGVtYm9mMG14eXVYeg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxNbktQZW9ZMTVzeEZUNWwzMmxvZk1KNS1DNkpDWVk0NEU3YWg3UmVLcHE5ekdlRXFqUVU0TkVCczNXcV9rVVY0bnlQZ1JZN3Y4RUFOWkY4MnVxWldlOHFlUG14TU1sUkVibkFTeVdYZW1WNTBuUDJuTkV1ZjVqNjlMYUVqSGtTMDFaYnhqcDA0c1EweHhmaXpXRHYxMHI3VkJ1c2RQU1R1VW9ETXfSAbABQVVfeXFMTVpfOFFwOFRBdERtZldzWFNpd1dHdVhuRjFtQnJ2YVNneTRPdkFXcWp0TTVIb1RjdzhiSTlTMzlTeFZKMWtXSWxjVUUwRldfbE5sb2ZNYjBVamRENlNDSGVod05zdHVDYWdTeFdLOS11X1haeGNxVERSQjZtekhyM09ZSmg5OWZHbjFHbVBnV2FRNmdBS3VxMmJITFJBejZjSmV6NW8tUDN1b3NZRGQ2Vkw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2715
+      "latestSinceUpdate": 2716
     },
     {
-      "date": "Nov 07",
-      "text": "IDF says Hezbollah sites found near UN posts in southern Lebanon, raising fears of new Israeli escalation.",
+      "date": "Nov 08",
+      "text": "Israel warns Iran and threatens Hezbollah with severe blows.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQX3NWc1ZHUnlVclVhN21TRlFqbzhlcTNSc3Q5M0t3b3l2VE5MTnNIT3JjdGF2bE5BRnRnUHNySElmT21CMDlQcTlyTnRldEZsUWhpajg5SEd3VnhaWnM2M1ZPRXRyQlNTMTN0a2l5THlfaFBDTEppbXF6cUJOZkNSSUtWZzNPVzBhaU5vSV83QWFJelFNOTR5Yk1yWUxDRlM4dl9PN3JnZkR2b0NJazR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2715
-    },
-    {
-      "date": "Nov 07",
-      "text": "Trump signals openness to Iran deal amid renewed Hormuz tensions but warns he could still strike.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiUkFVX3lxTE1fVmh0QnhrY1pkdGFDdlo0cWZOWUNHbDJadmRtN25wb05nc2RKMjUwYmhmczFNRzdYTFRlOTNpUWU4cXIwRDdHZ3NFSnRrQ0lMYlE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Iran International",
-      "latestSinceUpdate": 2715
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxQSmUzaFJpOHJUOGV3c0t1QmxEU09xZjlvZDlTN2JiZjFiV19Nemw5Um1xaVZxSW12a3Zvc2ZHTGZobGFOeWhGb29zMGZaRFJMcktRcXhpTjhuWmV1SmMxbVNIb2hGZTdNY1VSUU01SVNMTldabFBtQkJtVklIVXg0eXBEOGtjbU5rT3BIOXNsc1E1dlRDSjV2Q3FhdHlNUUFUdlpNa3FHWWk5dFk2Tm9YZVpTdXlBanl0eUpz0gHAAUFVX3lxTE85c1NPQVN6cjBqZUJFRDVPMmhrcFpVRzJidkdCQ1JRM2l0Q001aUtkejNQeEV1UVU0MElEcXBKc1NuLU01ZlBMTFYxYngwd196UW5CcllidW9wT3R1MGx1X20zYlZqakdCR1VEYjViZm1DTWpPZERnQTFqY1hZdHhUZFRMWXpGYjFWamhvOHlBY0hrQkNrcDdWQVM5SVNnNzlPdjFZamxhSnVPX0xYSTVtZVh2VzhGT0paV1lnMm1Ycw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "India Today",
+      "latestSinceUpdate": 2716
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "Tehran warns of retaliation against US allies and Gulf facilities",
-      "summary": "Iran views US attacks as illegitimate and threatens to target states aiding the US, as well as oil and AI facilities across the Gulf if US and Israeli strikes continue. This stance follows reports of tankers being hit in the Strait of Hormuz.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2711
-    },
-    {
       "perspective": "US/Israel",
-      "headline": "US and Israel coordinate renewed strikes and expand blockades",
-      "summary": "The US continues limited strikes on Iran and expands efforts to disrupt land supply routes, while Israel prepares to resume strikes amid concerns over Iran's nuclear program. Both nations are reportedly drawing up plans for renewed attacks.",
-      "tone": "strained",
-      "latestSinceUpdate": 2711
+      "headline": "Renewed Strikes and Pressure on Iran",
+      "summary": "The US and Israel are actively planning renewed military strikes against Iran and have conducted limited operations. The US is also expanding efforts to restrict Iranian commerce, signaling continued pressure on the Iranian regime.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2716
     },
     {
-      "perspective": "Lebanon/Regional",
-      "headline": "Lebanon braces for escalation as UNIFIL withdraws and Hezbollah tensions rise",
-      "summary": "Fears of new Israeli escalation are rising in Lebanon as UNIFIL confirms its withdrawal from the south by year-end. The IDF's discovery of Hezbollah weapons further contributes to regional instability and civilian anxieties.",
+      "perspective": "Iran",
+      "headline": "Downplaying US Actions Amidst Regional Tensions",
+      "summary": "Iran is downplaying recent US military actions and task forces aimed at disrupting its transport routes. While facing direct strikes and increased pressure, Iran's direct response to these specific actions is not explicitly detailed.",
+      "tone": "skeptical",
+      "latestSinceUpdate": 2716
+    },
+    {
+      "perspective": "Iraq",
+      "headline": "Securing Oil Exports Amidst Regional Conflict",
+      "summary": "Iraq has reached understandings with the US to facilitate oil exports through the Strait of Hormuz, aiming to mitigate economic losses from the ongoing conflict. This indicates a focus on economic stability despite regional instability.",
+      "tone": "neutral",
+      "latestSinceUpdate": 2716
+    },
+    {
+      "perspective": "Lebanon",
+      "headline": "Fears of Escalation Amidst Border Tensions",
+      "summary": "Lebanese citizens are preparing for potential new Israeli escalation following reports of Hezbollah sites near UN posts and Israeli threats. This reflects a high level of anxiety regarding the potential for wider regional conflict.",
       "tone": "anxious",
-      "latestSinceUpdate": 2711
+      "latestSinceUpdate": 2716
     }
   ]
 });
