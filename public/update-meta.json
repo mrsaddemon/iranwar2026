@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2720,
+  "updateSequence": 2721,
   "lastUpdated": "2026-11-10",
-  "lastSyncedAt": "2026-11-10T15:44:22.417Z",
+  "lastSyncedAt": "2026-11-10T21:27:07.050Z",
   "warDay": 256,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No formal ceasefire or de-escalation agreement is reported, despite claims of a 'status quo' by some US officials."
+    "summary": "No formal ceasefire is currently in effect, though US and Iran are reportedly engaged in quiet negotiations."
   }
 }

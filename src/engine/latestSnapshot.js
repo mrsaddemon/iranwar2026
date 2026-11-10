@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2720,
+  "updateSequence": 2721,
   "lastUpdated": "2026-11-10",
-  "lastSyncedAt": "2026-11-10T15:44:22.417Z",
+  "lastSyncedAt": "2026-11-10T21:27:07.050Z",
   "warDay": 256,
-  "summary": "Despite claims by former President Trump that the US war in Iran is 'effectively over' or at a 'status quo,' reports indicate ongoing US-Iran exchanges, Israeli threats of renewed strikes, and concerns over regional escalation involving Hezbollah and the Strait of Hormuz.",
+  "summary": "US President Trump states the war in Iran is 'effectively over' and maintains a 'status quo' with Iran, while US and Iran are reportedly engaged in quiet negotiations amidst Israel's readiness for renewed strikes and regional tensions.",
   "lastNarrativeUpdate": "2026-11-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No formal ceasefire or de-escalation agreement is reported, despite claims of a 'status quo' by some US officials."
+    "summary": "No formal ceasefire is currently in effect, though US and Iran are reportedly engaged in quiet negotiations."
   },
   "actorOverrides": {
     "usa": {
@@ -18,37 +18,37 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.6
+        "precision": 0.7,
+        "aggression": 0.35
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.9
+        "aggression": 0.65
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 50
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.7
+        "precision": 0.5,
+        "aggression": 0.55
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 75,
-    "oilDisruption": 60,
-    "tradeImpact": 57,
-    "sanctionsPressure": 62,
-    "globalPressure": 75,
-    "allianceInfluence": 51
+    "nuclearIndex": 60,
+    "escalationLevel": 60,
+    "oilDisruption": 40,
+    "tradeImpact": 40,
+    "sanctionsPressure": 60,
+    "globalPressure": 67,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 08",
-      "text": "Trump states the US war in Iran is 'effectively over' and plays down escalation concerns.",
+      "date": "Nov 10",
+      "text": "Trump says US war in Iran 'effectively over' and plays down escalation concerns.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE82aVVBM1M2V2JiUGZLeXU4Xzd6YmV3RVNpVnhPM3U1bFdPYmRUcjNtc3d6YldOczdHNmN4Umx5MmU4eldmbGxSTUdBSW5DaU9xUVRqQ2E4UWZ3bzhjaXE2MFg1TEVkUGtENzllWU5XOA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Guardian",
-      "latestSinceUpdate": 2720
+      "latestSinceUpdate": 2721
     },
     {
-      "date": "Nov 08",
-      "text": "A drone hits northern Iraq, with the US blamed for strikes on Qeshm.",
+      "date": "Nov 10",
+      "text": "US and Iran are reportedly quietly negotiating as the Middle East remains on edge.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2721
+    },
+    {
+      "date": "Nov 10",
+      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2721
+    },
+    {
+      "date": "Nov 10",
+      "text": "A drone hit northern Iraq, with the US blamed for Qeshm strikes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2720
+      "latestSinceUpdate": 2721
     },
     {
-      "date": "Nov 08",
-      "text": "Israel indicates readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2720
+      "date": "Nov 10",
+      "text": "Iraq has reached understandings with the US to allow oil exports through Hormuz.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2721
     },
     {
-      "date": "Nov 08",
-      "text": "The U.S. and Israel reportedly draw up plans for renewed strikes on Iran after elections.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2720
-    },
-    {
-      "date": "Nov 08",
-      "text": "Houthis claim Riyadh attacks, while the US hits a vessel near Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOYm1tV0FRYTVGTGJoajQ5V2l2QmNha2E2aHFyUk1VWnJseVdKUlNwaEdDWm9JSnEtbnlhRUpjR2l1ckkyR244Q3hBeUw2ZWt4RDI4UWp2a2lxaTB5SlVLSmlocmpfV1U3a1J3akp1OVpBdm9FQ2dZNXlYMXJHdWhpZFdLRWFLaUxSQkhfemJsUjFuYlVJMHNBS2tyNjNUZ0cxdEtlSlZRcW9IbExsOGZVbUEyN1lmNUVvQWRNQ9IBwgFBVV95cUxOdnpfSENoUUlXRWp0NVJkUjJYZkFmSVNXcEVGZUhtZnRtU1VWQ2VRM1J0Yk1ZeDJVOU9wRjJRX3FLZG5GdThfOW54bkVvTWRGS0tiTFVLOWV5Q1l4NE12WEI4VkdnYnJiSkxSZ0o1S3doNVMyNjNvT29iMi1uQy01TXBKUVVXMUpvd1Qzdk1oODVBMjlwTF9MRVFKMUFSeXNRMGdKN3pweF85R2hSSURGRENvc0gxb0hob3B6NjJXQUNWUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2720
-    },
-    {
-      "date": "Nov 08",
-      "text": "The U.S. and Iran exchange strikes on islands as they fight for control of the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2720
+      "date": "Nov 10",
+      "text": "Hezbollah is reportedly rebuilding networks in southern Lebanon pilot zones.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxObjJXOE9PMmY5MGhlV1kxd2dYOXBZMlBZZ0cxeGw4bkRUUFJsOWVJQl9BOVphQWo4aGhOTUZEMmxIMllPRld0VWhGa0VTSVJpQmVDcEc5c1lDTlNKWWhiUmZHdVBWT1MyZVBsRl8yWXJ0YVd5X2EzUkNaVVZFSkU3akR2NGx4eGZzS0xWSm80dXdXQzUzMzdIT3JLdmVoZElMOEJJQVhULURoZE5Lal9OcmtUUHVMSktkWHpKTGUzNDY2QQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "FDD's Long War Journal",
+      "latestSinceUpdate": 2721
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
