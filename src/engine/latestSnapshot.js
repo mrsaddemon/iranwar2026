@@ -1,30 +1,30 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2718,
+  "updateSequence": 2719,
   "lastUpdated": "2026-11-10",
-  "lastSyncedAt": "2026-11-10T00:08:01.033Z",
+  "lastSyncedAt": "2026-11-10T07:27:26.262Z",
   "warDay": 256,
-  "summary": "The conflict between the US, Israel, and Iran continues with escalating military pressure, threats of renewed strikes, and incidents in the Strait of Hormuz, despite ongoing quiet negotiations.",
+  "summary": "Tensions remain high in the Middle East with threats of renewed strikes on Iran by Israel and the US, while Iran vows retaliation and lifts missile range limits, amidst ongoing quiet negotiations and efforts to secure oil transit.",
   "lastNarrativeUpdate": "2026-11-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported, with ongoing military actions and threats."
+    "summary": "No active ceasefire is reported, with ongoing threats and military actions."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
         "precision": 0.8,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.8
+        "precision": 0.6,
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 75,
-    "oilDisruption": 80,
-    "tradeImpact": 71,
-    "sanctionsPressure": 62,
-    "globalPressure": 79,
+    "nuclearIndex": 75,
+    "escalationLevel": 80,
+    "oilDisruption": 65,
+    "tradeImpact": 61,
+    "sanctionsPressure": 63,
+    "globalPressure": 78,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 10",
-      "text": "Trump says Qatar, Saudi prefer peace in Iran conflict.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxOX0pwQmJtMVdmZDY2NVhWalgxSHZ0d0NvUzJ4cldzTHFQUmdHSERzZENUOXljYldMbFpRa3J5d0VhbkNtZGJVM1paVkFWZ1ZHZTFOQlNkNm5xZ2tkc0FYQkxvQkU3RHc5cm9lcjFXSzdCNlE5QjNXNnRoZktjUHhGRTRGOXZYbWZtUXlTaFBXN096VFZrTDBQQll5ZDJaZDlPdUlueEtHaGMyQ1ZnWHdxQll3UWI3WHdYZmc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2718
-    },
-    {
-      "date": "Nov 10",
-      "text": "Iran stands by demands to end the war as US ramps up military pressure.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOTkgtZG1NRldabldXcTZyQ2ZCMjRVVERlVW1ralBFRUdDSUJSTm43X0lWRzVTUGZ3akZqVkl2c2ttR3VnQVNlc0lhU24yY01DM25jTWdwY3NBMzl1NkhOTlNZSnBKcFk5X212QjJXc1RSemQ4NVUtSGhxc0JvQWpGU0xhdVJxcGxFaFFkbzZGalpabDNsMzhpOU1jdVhHazh3MmhVOTdSRVlWZW5kYXBuddIBtgFBVV95cUxOWjNoNFZsbXJob0phMTUzYWt1Q1FONkdmeGRDZV8xcUJfNXZxQm9PaExVMFY3U2M4QWFJdEV0dHd3OXpSY0Z6WXcySFp0ZldFaWRDTmxXSTJNRFE3LU13c3VBTk02djRxZUM2Z2pvTUFRbmxmTEpXM1VUUTJPenlqLWFRZ09MTTI1ZUlGS3pPS3Flajhua1poeXMtN01ENmdNQ2FsMDJzVWNfSzBXalJmenpDRzZBQQ?hl=en-US&gl=US&ceid=US:en",
+      "text": "Iran demands the US 'surrender' to its conditions and vows 'astonishing' strikes, lifting missile-range limits.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2718
+      "latestSinceUpdate": 2719
     },
     {
       "date": "Nov 10",
-      "text": "Rep. Thomas Massie of Kentucky launches bid to impeach Defense Secretary Pete Hegseth.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixAFBVV95cUxObkdnaXRrT1dUSFNiakl5SFQ5bmtkUjJHdXBWQmFrZ0VVRThOQmFDb3AzWWk0eFRma1ZCQTBpa0Uwek1SM1hpSklIU1d0aDZvTlp4MUIxT19oYzI3cWwwZGo3anlIbUpEOXRaNk9meGNmRWJjMWlaa2wzbm94XzhGS0ZqSDFIdGgwYXpZMDh1X2lHaUZFTzMtVzFtNFFhS3pTekxSbVdvR1V1R1ZqQ0lYbVJlRldUNW9zNXpVUkVySlNQNWZX?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "MPR News",
-      "latestSinceUpdate": 2718
-    },
-    {
-      "date": "Nov 10",
-      "text": "Trump is weighing difficult options to resolve the war in Iran.",
+      "text": "President Trump states the US war in Iran is 'effectively over' and at 'status quo,' but warns the military is 'locked and loaded.'",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2718
+      "latestSinceUpdate": 2719
     },
     {
       "date": "Nov 10",
-      "text": "Drone hits northern Iraq; US blamed for Qeshm strikes.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2718
-    },
-    {
-      "date": "Nov 10",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
+      "text": "Israel is reportedly ready to resume strikes on Iran, drawing up plans with the US, citing Iran's aim to rebuild its nuclear program.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2718
+      "latestSinceUpdate": 2719
+    },
+    {
+      "date": "Nov 10",
+      "text": "A drone hit northern Iraq, and the US was blamed for strikes on Qeshm; Houthis claim attacks on Riyadh.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2719
+    },
+    {
+      "date": "Nov 10",
+      "text": "The US hit a vessel near Hormuz, while Iraq and Saudi Arabia coordinate with the US to allow oil exports through the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2719
+    },
+    {
+      "date": "Nov 10",
+      "text": "IDF reports Hezbollah sites found near UN posts in southern Lebanon, and Israel threatens Hezbollah with severe blows.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQX3NWc1ZHUnlVclVhN21TRlFqbzhlcTNSc3Q5M0t3b3l2VE5MTnNIT3JjdGF2bE5BRnRnUHNySElmT21CMDlQcTlyTnRldEZsUWhpajg5SEd3VnhaWnM2M1ZPRXRyQlNTMTN0a2l5THlfaFBDTEppbXF6cUJOZkNSSUtWZzNPVzBhaU5vSV83QWFJelFNOTR5Yk1yWUxDRlM4dl9PN3JnZkR2b0NJazR3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2719
     }
   ],
   "sourceStatuses": [
