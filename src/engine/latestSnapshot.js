@@ -1,21 +1,21 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2719,
+  "updateSequence": 2720,
   "lastUpdated": "2026-11-10",
-  "lastSyncedAt": "2026-11-10T07:27:26.262Z",
+  "lastSyncedAt": "2026-11-10T15:44:22.417Z",
   "warDay": 256,
-  "summary": "Tensions remain high in the Middle East with threats of renewed strikes on Iran by Israel and the US, while Iran vows retaliation and lifts missile range limits, amidst ongoing quiet negotiations and efforts to secure oil transit.",
+  "summary": "Despite claims by former President Trump that the US war in Iran is 'effectively over' or at a 'status quo,' reports indicate ongoing US-Iran exchanges, Israeli threats of renewed strikes, and concerns over regional escalation involving Hezbollah and the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-11-10",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported, with ongoing threats and military actions."
+    "summary": "No formal ceasefire or de-escalation agreement is reported, despite claims of a 'status quo' by some US officials."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
         "precision": 0.8,
@@ -24,7 +24,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 80,
-    "oilDisruption": 65,
-    "tradeImpact": 61,
-    "sanctionsPressure": 63,
-    "globalPressure": 78,
+    "nuclearIndex": 70,
+    "escalationLevel": 75,
+    "oilDisruption": 60,
+    "tradeImpact": 57,
+    "sanctionsPressure": 62,
+    "globalPressure": 75,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 10",
-      "text": "Iran demands the US 'surrender' to its conditions and vows 'astonishing' strikes, lifting missile-range limits.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2719
-    },
-    {
-      "date": "Nov 10",
-      "text": "President Trump states the US war in Iran is 'effectively over' and at 'status quo,' but warns the military is 'locked and loaded.'",
+      "date": "Nov 08",
+      "text": "Trump states the US war in Iran is 'effectively over' and plays down escalation concerns.",
       "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2719
+      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE82aVVBM1M2V2JiUGZLeXU4Xzd6YmV3RVNpVnhPM3U1bFdPYmRUcjNtc3d6YldOczdHNmN4Umx5MmU4eldmbGxSTUdBSW5DaU9xUVRqQ2E4UWZ3bzhjaXE2MFg1TEVkUGtENzllWU5XOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2720
     },
     {
-      "date": "Nov 10",
-      "text": "Israel is reportedly ready to resume strikes on Iran, drawing up plans with the US, citing Iran's aim to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2719
-    },
-    {
-      "date": "Nov 10",
-      "text": "A drone hit northern Iraq, and the US was blamed for strikes on Qeshm; Houthis claim attacks on Riyadh.",
+      "date": "Nov 08",
+      "text": "A drone hits northern Iraq, with the US blamed for strikes on Qeshm.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2719
+      "latestSinceUpdate": 2720
     },
     {
-      "date": "Nov 10",
-      "text": "The US hit a vessel near Hormuz, while Iraq and Saudi Arabia coordinate with the US to allow oil exports through the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2719
-    },
-    {
-      "date": "Nov 10",
-      "text": "IDF reports Hezbollah sites found near UN posts in southern Lebanon, and Israel threatens Hezbollah with severe blows.",
+      "date": "Nov 08",
+      "text": "Israel indicates readiness to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQX3NWc1ZHUnlVclVhN21TRlFqbzhlcTNSc3Q5M0t3b3l2VE5MTnNIT3JjdGF2bE5BRnRnUHNySElmT21CMDlQcTlyTnRldEZsUWhpajg5SEd3VnhaWnM2M1ZPRXRyQlNTMTN0a2l5THlfaFBDTEppbXF6cUJOZkNSSUtWZzNPVzBhaU5vSV83QWFJelFNOTR5Yk1yWUxDRlM4dl9PN3JnZkR2b0NJazR3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2719
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2720
+    },
+    {
+      "date": "Nov 08",
+      "text": "The U.S. and Israel reportedly draw up plans for renewed strikes on Iran after elections.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2720
+    },
+    {
+      "date": "Nov 08",
+      "text": "Houthis claim Riyadh attacks, while the US hits a vessel near Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOYm1tV0FRYTVGTGJoajQ5V2l2QmNha2E2aHFyUk1VWnJseVdKUlNwaEdDWm9JSnEtbnlhRUpjR2l1ckkyR244Q3hBeUw2ZWt4RDI4UWp2a2lxaTB5SlVLSmlocmpfV1U3a1J3akp1OVpBdm9FQ2dZNXlYMXJHdWhpZFdLRWFLaUxSQkhfemJsUjFuYlVJMHNBS2tyNjNUZ0cxdEtlSlZRcW9IbExsOGZVbUEyN1lmNUVvQWRNQ9IBwgFBVV95cUxOdnpfSENoUUlXRWp0NVJkUjJYZkFmSVNXcEVGZUhtZnRtU1VWQ2VRM1J0Yk1ZeDJVOU9wRjJRX3FLZG5GdThfOW54bkVvTWRGS0tiTFVLOWV5Q1l4NE12WEI4VkdnYnJiSkxSZ0o1S3doNVMyNjNvT29iMi1uQy01TXBKUVVXMUpvd1Qzdk1oODVBMjlwTF9MRVFKMUFSeXNRMGdKN3pweF85R2hSSURGRENvc0gxb0hob3B6NjJXQUNWUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2720
+    },
+    {
+      "date": "Nov 08",
+      "text": "The U.S. and Iran exchange strikes on islands as they fight for control of the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2720
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",

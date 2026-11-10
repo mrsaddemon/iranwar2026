@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2719,
+  "updateSequence": 2720,
   "lastUpdated": "2026-11-10",
-  "lastSyncedAt": "2026-11-10T07:27:26.262Z",
+  "lastSyncedAt": "2026-11-10T15:44:22.417Z",
   "warDay": 256,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported, with ongoing threats and military actions."
+    "summary": "No formal ceasefire or de-escalation agreement is reported, despite claims of a 'status quo' by some US officials."
   }
 }
