@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2721,
-  "lastUpdated": "2026-11-10",
-  "lastSyncedAt": "2026-11-10T21:27:07.050Z",
-  "warDay": 256,
-  "summary": "US President Trump states the war in Iran is 'effectively over' and maintains a 'status quo' with Iran, while US and Iran are reportedly engaged in quiet negotiations amidst Israel's readiness for renewed strikes and regional tensions.",
-  "lastNarrativeUpdate": "2026-11-10",
+  "updateSequence": 2722,
+  "lastUpdated": "2026-11-11",
+  "lastSyncedAt": "2026-11-11T01:26:15.510Z",
+  "warDay": 257,
+  "summary": "The Middle East remains volatile with ongoing strikes and tanker attacks, while mixed signals emerge regarding potential US-Iran de-escalation talks amidst Israeli plans for renewed strikes and concerns over Hezbollah's involvement.",
+  "lastNarrativeUpdate": "2026-11-11",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.14,
     "durationDays": 2,
-    "summary": "No formal ceasefire is currently in effect, though US and Iran are reportedly engaged in quiet negotiations."
+    "summary": "Despite reports of quiet negotiations, active hostilities and planned strikes continue, indicating no formal ceasefire is in effect."
   },
   "actorOverrides": {
     "usa": {
@@ -18,36 +18,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.35
+        "precision": 0.8,
+        "aggression": 0.4
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.65
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 50
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.55
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 60,
-    "oilDisruption": 40,
-    "tradeImpact": 40,
-    "sanctionsPressure": 60,
-    "globalPressure": 67,
+    "nuclearIndex": 65,
+    "escalationLevel": 75,
+    "oilDisruption": 85,
+    "tradeImpact": 75,
+    "sanctionsPressure": 62,
+    "globalPressure": 80,
     "allianceInfluence": 46
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 10",
-      "text": "Trump says US war in Iran 'effectively over' and plays down escalation concerns.",
+      "date": "Nov 11",
+      "text": "Trump states the Iran war will end 'fairly soon' and downplays new strikes.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMib0FVX3lxTE82aVVBM1M2V2JiUGZLeXU4Xzd6YmV3RVNpVnhPM3U1bFdPYmRUcjNtc3d6YldOczdHNmN4Umx5MmU4eldmbGxSTUdBSW5DaU9xUVRqQ2E4UWZ3bzhjaXE2MFg1TEVkUGtENzllWU5XOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2721
+      "sourceUrl": "https://news.google.com/articles/CBMia0FVX3lxTFB2SVZ4ZGc5a3Y1STlmenVpVHNaX1MxQklrdlRKOTNlekw1ZThJU3RpZDd2RzhfLVNVZG9IUDRwQng1Q19iaTNfY01DM2lFZlpEbzJqbEZDeDJObkVPRTN1ZTYzOVFULVJuOUc0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2722
     },
     {
-      "date": "Nov 10",
-      "text": "US and Iran are reportedly quietly negotiating as the Middle East remains on edge.",
+      "date": "Nov 11",
+      "text": "An ex-Mossad official suggests US and Iran are more likely to reach a deal to end the war.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2721
+      "sourceUrl": "https://news.google.com/articles/CBMiakFVX3lxTE9DUUNWTkJZTkJxQllwamZaSGhZZjlXa1BaVzhVWDQyU2hCSklLSUVJNEVIREVxWVlzcFJfVVI4enQtQVdqRmZlQklNTWJJeFU2aU1SY18zVmlsajhLY3kzZjA5SDVOdzBodFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2722
     },
     {
-      "date": "Nov 10",
-      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2721
-    },
-    {
-      "date": "Nov 10",
-      "text": "A drone hit northern Iraq, with the US blamed for Qeshm strikes.",
+      "date": "Nov 11",
+      "text": "A drone reportedly hits northern Iraq; US blamed for Qeshm strikes.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNZ2pabWZfN2E3YU9qRklmaHc0MzBjOTdPZHk2S1hhT01UUXNNV0tuRWx3eU5RNG5LenJsckVSRFZkM1VsM3FwQVR2dUFDMV9ZUG1tb1ZkMDcwNzFOMGp3Skt1eGV2YWplU0JuREhFdTl1OTJNUS11dHpsNEZ4VFdhS0U3UnlpVHJTamZjYlE0VUE1YWhwemlYelZKWUE0ZDJtMXV2Z2NhVDhXMm9SamYzZTRodTRSVVhuVkh3NlRR0gHDAUFVX3lxTE5OaGh3UU1EdDgzNloyMU51dWowWDhrby1kSXBpNFFPa1hwdFQ4Wi15X09VTTJNbThrTjBRWTdDUGFKeGMyM1NQdTllYm1RMUdXOVA2UVRzODdPTGhta2RvcmxyanEwbnd6c1VYWGFFcjZKemkzaE95RjlWc2lzaDZIRWdyb3ZPT0hTZnM1SVlRUmFsYmhpeXBka1BSVzJveUR3OXZQUXFPaWZuenRrRHoyNHlEN2l6UjR3V2hoMko0Y05UMA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2721
+      "latestSinceUpdate": 2722
     },
     {
-      "date": "Nov 10",
-      "text": "Iraq has reached understandings with the US to allow oil exports through Hormuz.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxQcVp2dDBwekFJVEtlai1lemtaZVNTb2FaallsZHhyT2FHTlZHdmpwY3B0SU9HRUpQV2JQQ3E0NWo0VEJpS3B4N1JCTGhkTUhJTHFYUUY3ZkttWmc2RUl1V2dicHdLODBaUEFQSmdySXdHcTJ2VGpIeUlOTlZZd05LZ29wYVdWajhrMzVYa1ZJQl9FTnNjZjFQRmNGc1FoV1dmOFZyOWYzTE1pRndvaGxzSTg1S1B1Z1lxSDZNM3hZWEZmZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2721
-    },
-    {
-      "date": "Nov 10",
-      "text": "Hezbollah is reportedly rebuilding networks in southern Lebanon pilot zones.",
+      "date": "Nov 11",
+      "text": "Israel is reportedly ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxObjJXOE9PMmY5MGhlV1kxd2dYOXBZMlBZZ0cxeGw4bkRUUFJsOWVJQl9BOVphQWo4aGhOTUZEMmxIMllPRld0VWhGa0VTSVJpQmVDcEc5c1lDTlNKWWhiUmZHdVBWT1MyZVBsRl8yWXJ0YVd5X2EzUkNaVVZFSkU3akR2NGx4eGZzS0xWSm80dXdXQzUzMzdIT3JLdmVoZElMOEJJQVhULURoZE5Lal9OcmtUUHVMSktkWHpKTGUzNDY2QQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "FDD's Long War Journal",
-      "latestSinceUpdate": 2721
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2722
+    },
+    {
+      "date": "Nov 11",
+      "text": "U.S. and Israel are drawing up plans for renewed strikes on Iran after elections.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2722
+    },
+    {
+      "date": "Nov 11",
+      "text": "Tankers continue to burn in the Middle East despite hopes for de-escalation.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxObk1HVHlrMXF2OXBza19vMDdFUENMek40em9sQmVNLXdWOFduMEJlVU4ycmVzeE1MYWt0YV9FRDR1OTVSc05jWFQ5QnJ1bjlZSGk4bXhwUEk2cGhBeTBlMkI5VEkzbHF4YlNKdkpYdFYzWUtua1RqWEh2VFR2TkppS3hsQlBrb1hHLTJBSzh6ZngyNXc5bk9XTWNJbWlaSWlxZDlwcGl1WTdEWFhOZ2RZSVRxMA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2722
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "Renewed Strikes and Pressure on Iran",
-      "summary": "The US and Israel are actively planning renewed military strikes against Iran and have conducted limited operations. The US is also expanding efforts to restrict Iranian commerce, signaling continued pressure on the Iranian regime.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2716
-    },
-    {
-      "perspective": "Iran",
-      "headline": "Downplaying US Actions Amidst Regional Tensions",
-      "summary": "Iran is downplaying recent US military actions and task forces aimed at disrupting its transport routes. While facing direct strikes and increased pressure, Iran's direct response to these specific actions is not explicitly detailed.",
+      "perspective": "De-escalation Hopes",
+      "headline": "US-Iran War Nearing End, Talks Underway",
+      "summary": "Trump and other officials suggest the US-Iran conflict may end soon, with reports of quiet negotiations aiming for a deal to de-escalate tensions. However, Iran's security chief denies ongoing talks.",
       "tone": "skeptical",
-      "latestSinceUpdate": 2716
+      "latestSinceUpdate": 2722
     },
     {
-      "perspective": "Iraq",
-      "headline": "Securing Oil Exports Amidst Regional Conflict",
-      "summary": "Iraq has reached understandings with the US to facilitate oil exports through the Strait of Hormuz, aiming to mitigate economic losses from the ongoing conflict. This indicates a focus on economic stability despite regional instability.",
-      "tone": "neutral",
-      "latestSinceUpdate": 2716
-    },
-    {
-      "perspective": "Lebanon",
-      "headline": "Fears of Escalation Amidst Border Tensions",
-      "summary": "Lebanese citizens are preparing for potential new Israeli escalation following reports of Hezbollah sites near UN posts and Israeli threats. This reflects a high level of anxiety regarding the potential for wider regional conflict.",
+      "perspective": "Continued Conflict & Escalation",
+      "headline": "Tanker Attacks Persist, Israel Plans Renewed Strikes",
+      "summary": "Despite hopes for de-escalation, tanker attacks persist in the Gulf, and Israel is reportedly preparing for renewed strikes on Iran. This indicates ongoing hostilities and potential for further escalation.",
       "tone": "anxious",
-      "latestSinceUpdate": 2716
+      "latestSinceUpdate": 2722
+    },
+    {
+      "perspective": "Regional Instability",
+      "headline": "Hezbollah Presence Raises Regional Conflict Fears",
+      "summary": "Concerns grow over Hezbollah's potential involvement, with Israeli forces reporting weapons near UN posts in Lebanon. This raises fears of a wider regional conflict extending beyond the immediate US-Iran tensions.",
+      "tone": "strained",
+      "latestSinceUpdate": 2722
     }
   ]
 });
