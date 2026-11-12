@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2725,
-  "lastUpdated": "2026-11-11",
-  "lastSyncedAt": "2026-11-11T22:45:13.246Z",
-  "warDay": 257,
+  "updateSequence": 2726,
+  "lastUpdated": "2026-11-12",
+  "lastSyncedAt": "2026-11-12T03:25:32.565Z",
+  "warDay": 258,
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.08,
+    "confidence": 0.14,
     "durationDays": 2,
-    "summary": "No formal ceasefire is in effect, with both sides threatening renewed action despite some statements of de-escalation."
+    "summary": "No active ceasefire is reported between the primary belligerents."
   }
 }
