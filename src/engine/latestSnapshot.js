@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2727,
+  "updateSequence": 2728,
   "lastUpdated": "2026-11-12",
-  "lastSyncedAt": "2026-11-12T11:44:30.532Z",
+  "lastSyncedAt": "2026-11-12T19:10:30.941Z",
   "warDay": 258,
-  "summary": "Tensions remain high with ongoing threats of renewed strikes against Iran by the US and Israel, while Iran escalates its military posture and operations in the Strait of Hormuz.",
+  "summary": "Tensions in the Middle East remain critically high with Iran preparing for expanded conflict, Israel readying strikes, and the Strait of Hormuz facing significant disruption amid ongoing regional attacks.",
   "lastNarrativeUpdate": "2026-11-12",
   "ceasefire": {
     "active": false,
     "status": "none",
-    "confidence": 0.14,
+    "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is in effect, with ongoing military actions and threats from all parties."
+    "summary": "No ceasefire is active; rhetoric and actions indicate ongoing and escalating conflict."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.9,
         "aggression": 0.8
       }
     },
@@ -33,21 +33,21 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.5,
+        "precision": 0.7,
         "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 80,
     "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "oilDisruption": 95,
+    "tradeImpact": 85,
     "sanctionsPressure": 68,
-    "globalPressure": 91,
+    "globalPressure": 93,
     "allianceInfluence": 73
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 12",
-      "text": "Iran’s security chief states no talks with the US are currently ongoing.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2727
-    },
-    {
-      "date": "Nov 12",
-      "text": "Iran’s commanders prepare for further war, promising the world will be amazed.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2727
-    },
-    {
-      "date": "Nov 12",
-      "text": "The U.S. and Israel are drawing up plans for renewed strikes on Iran following elections.",
+      "date": "Nov 11",
+      "text": "Houthis claim attacks on Saudi energy and military infrastructure.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2727
-    },
-    {
-      "date": "Nov 12",
-      "text": "Iran announces contacts over ending the war continue, despite talks finishing with no breakthrough.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2727
-    },
-    {
-      "date": "Nov 12",
-      "text": "IRGC plans to increase missile output as Israel kills 6 in a Gaza hospital.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNS2phdFZaNlJPanNFWWhnT3k1YUo3TEVYMGNsX0Y2RlpMc2hiSjNtZk1IamxKLV82NEN0QUwzTFBJSDJsTkhrWGR2bW8wSkFFYzYyN3hEYzFOakRxbE54TmdmaG1jV3d5LTBDNEFUeGJZTGNjVXVnek5fQWVKMzBTQ0NKeU9Rdkw1eFNiRzVIdF9aalRKYUhSRURFX3VYNHM0X3BTbzZ4QTBPV2xfdjZ0X0JyWnIzMlhKQXQw0gHAAUFVX3lxTE0tNl9ERkJVWm5peERxTmJKRGtNeFdIQlQtdFE0SWNQRFBfQm55cEJjTDFMeWV5YnNkVm1KQ0tFRjA2cGNqVGI2QTYyZ2twOUxyWldILUtpWDJ6VE5VSVlMbTdCUTRCY0pranR2NV9xVFJVRTJqcHdrajZqRUtJbFVBMTlZV29qUWJPV3JONmZia191TDk2WWVXUThCSzd1VUFsdTIyV3ltaVJGS1lvVUx1dWpTMWNGakhVWW42WmJvdA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2727
+      "latestSinceUpdate": 2728
     },
     {
-      "date": "Nov 12",
-      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "date": "Nov 11",
+      "text": "Iran's security chief denies ongoing talks with the US.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2728
+    },
+    {
+      "date": "Nov 11",
+      "text": "Iran's commanders prepare for further war and warn of expanded retaliation.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2728
+    },
+    {
+      "date": "Nov 11",
+      "text": "Israel reportedly readies to attack Iran as Iran aims to rebuild its nuclear program.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2728
+    },
+    {
+      "date": "Nov 11",
+      "text": "Hormuz tanker traffic hits wartime high as attacks surge, with Iran stating the Strait will 'never return' to pre-war status and will stay shut until demands are met.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxON2hKcUZDakpwRzVEem1laUFPUkRiNlo1S2tnVnRoVTM3S3BwTWFLSDF1WmdpU2VHamhnV3BiWjFSNDBLS1dmZ1lnUmFUZ2dqYWRQdS1DUDhhSmFhaGdFMXdlaVRYSldDMFFjZ20zdmRkNWtvOVBKczViNHZPaWxSNU8ycGwzbHk1WmZ4eVpZNy1OOUhWbGRsMg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Lloyd's List",
+      "latestSinceUpdate": 2728
+    },
+    {
+      "date": "Nov 11",
+      "text": "Hezbollah leader states Trump and Netanyahu's election defeats are a positive development for them.",
+      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2727
+      "latestSinceUpdate": 2728
     }
   ],
   "sourceStatuses": [
