@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2726,
+  "updateSequence": 2727,
   "lastUpdated": "2026-11-12",
-  "lastSyncedAt": "2026-11-12T03:25:32.565Z",
+  "lastSyncedAt": "2026-11-12T11:44:30.532Z",
   "warDay": 258,
-  "summary": "The region remains highly volatile with ongoing tensions between the US, Israel, and Iran, marked by threats of renewed strikes, military preparations, and concerns over Iran's nuclear program and shipping security.",
+  "summary": "Tensions remain high with ongoing threats of renewed strikes against Iran by the US and Israel, while Iran escalates its military posture and operations in the Strait of Hormuz.",
   "lastNarrativeUpdate": "2026-11-12",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.14,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported between the primary belligerents."
+    "summary": "No active ceasefire is in effect, with ongoing military actions and threats from all parties."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 95
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -28,7 +28,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.85
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,23 +36,23 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 75,
-    "escalationLevel": 80,
+    "escalationLevel": 90,
     "oilDisruption": 85,
-    "tradeImpact": 76,
-    "sanctionsPressure": 63,
-    "globalPressure": 82,
-    "allianceInfluence": 51
+    "tradeImpact": 77,
+    "sanctionsPressure": 68,
+    "globalPressure": 91,
+    "allianceInfluence": 73
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 12",
-      "text": "Trump states US-Israel war on Iran is 'effectively over'.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOS29zRkhhNG5BNFlmS0RkM2g4V1JrYU0xeVhNWWI2akxOdE9aTDRjSThIbUhMRmRMSjEzRDhMQzQyLTdsbVp4WTh4bEpuNXdMQjdjaGlVM0ZSZnhhSlg4WG01cU5qYkJsZTVJZUlnUHVaSEhhVXRIUzY5VVhoUXl2MlNWQnZYNlA0ZGpTMk5xR1VpbGpKdUk4ZXpFWUFlNkp5WTgtQl9LUUxJZjEwNlJ4NXRIX3hqWVBfOWJ5anhIdkLSAcYBQVVfeXFMTk5QeDgzSWFEQlV5MGt6bEhqWWFmWHVPS1doaHM4UHJsTjlIQUdiMmZiQUE4RWdPSHZ1V3J2RmtTVVRxNXlBMW9VTmtQa2dOOVZ3OXhvRGpRUHFESFdFQlZKM0xlV2VKQ1JJQ25nNS1CWGtyMjhPYlVua2JOcFdPZl92YW1JdjJKTUVVUFR5VUJQbTNhTTIybUJPOXBpaThYNTVrUEt2SkxvVjhLUWhfWGVQZWlBRTd0QzJaRUtRZUU1d2p5b3RR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2726
-    },
-    {
-      "date": "Nov 12",
-      "text": "Iran's security chief denies ongoing talks with the US.",
+      "text": "Iran’s security chief states no talks with the US are currently ongoing.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2726
+      "latestSinceUpdate": 2727
     },
     {
       "date": "Nov 12",
-      "text": "Iran's commanders prepare for 'further war'.",
+      "text": "Iran’s commanders prepare for further war, promising the world will be amazed.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CNN",
-      "latestSinceUpdate": 2726
+      "latestSinceUpdate": 2727
     },
     {
       "date": "Nov 12",
-      "text": "US and Israel draw up plans for renewed strikes on Iran after elections.",
+      "text": "The U.S. and Israel are drawing up plans for renewed strikes on Iran following elections.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2726
+      "latestSinceUpdate": 2727
     },
     {
       "date": "Nov 12",
-      "text": "Iran warns of Europe retaliation as Israel attacks Gaza.",
+      "text": "Iran announces contacts over ending the war continue, despite talks finishing with no breakthrough.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxOLXhRTFk2aHFYY3VOMWFGdmFySFR5MTNxeWRRU1ZQM3RaWjg4ZFZlOTJHNDZjYmdCVjBOX0RweVAyWEI4T2dZMVFSbUt4bTc4NGlibnlTaDh2TUNydEdOQjZJSmt3RnRIbk1LNVJ4SlNkR0M3QWs3NnZwQ0JlMW5Ud0FaN29PaGcwdk1CbTZ1UUhjYkg5XzZwVmdwWGNnRnladzZVUEhBeTZScEZIMl9YZ0hUT01GcDdkMXFwcXF0Q3hkTEluSnpnb3F5RFA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2727
+    },
+    {
+      "date": "Nov 12",
+      "text": "IRGC plans to increase missile output as Israel kills 6 in a Gaza hospital.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNS2phdFZaNlJPanNFWWhnT3k1YUo3TEVYMGNsX0Y2RlpMc2hiSjNtZk1IamxKLV82NEN0QUwzTFBJSDJsTkhrWGR2bW8wSkFFYzYyN3hEYzFOakRxbE54TmdmaG1jV3d5LTBDNEFUeGJZTGNjVXVnek5fQWVKMzBTQ0NKeU9Rdkw1eFNiRzVIdF9aalRKYUhSRURFX3VYNHM0X3BTbzZ4QTBPV2xfdjZ0X0JyWnIzMlhKQXQw0gHAAUFVX3lxTE0tNl9ERkJVWm5peERxTmJKRGtNeFdIQlQtdFE0SWNQRFBfQm55cEJjTDFMeWV5YnNkVm1KQ0tFRjA2cGNqVGI2QTYyZ2twOUxyWldILUtpWDJ6VE5VSVlMbTdCUTRCY0pranR2NV9xVFJVRTJqcHdrajZqRUtJbFVBMTlZV29qUWJPV3JONmZia191TDk2WWVXUThCSzd1VUFsdTIyV3ltaVJGS1lvVUx1dWpTMWNGakhVWW42WmJvdA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2726
+      "latestSinceUpdate": 2727
     },
     {
       "date": "Nov 12",
-      "text": "Israel is ready to resume strikes on Iran as regime aims to rebuild nuclear program.",
+      "text": "Israel is ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
       "severity": "critical",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2726
+      "latestSinceUpdate": 2727
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
