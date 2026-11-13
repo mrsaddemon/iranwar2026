@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2731,
+  "updateSequence": 2732,
   "lastUpdated": "2026-11-13",
-  "lastSyncedAt": "2026-11-13T15:27:52.202Z",
+  "lastSyncedAt": "2026-11-13T21:32:32.129Z",
   "warDay": 259,
   "summary": "Ongoing tensions persist in the Middle East with Iran threatening retaliation and Israel preparing for strikes, while the Strait of Hormuz experiences tanker attacks and the US signals disinterest in a deal with Iran.",
   "lastNarrativeUpdate": "2026-11-13",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported amidst ongoing threats and attacks between parties."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -60,49 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 13",
-      "text": "Houthis claim attacks on Saudi energy and military facilities.",
-      "severity": "warning",
+      "text": "Iran war live: Qatar, Turkiye ink defence deal; fighting rages in Yemen",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNeVhIczJQNi1UUS15LTAydjVtUVdrRE1VZE9JeE9xWnA2QkQ1cEhHVDJTd1ZGOWVUOGJxcU1IVUdrSU13TlFURnhkRlNBN1R6bncwNkU5cEx5c1NpT0JUOVNvaDU2c29HTm9ZbHhYRkxEZXRVNmRudEM3djVLSW1kanFBVkFuZUUxc2x6S2RHQndVOGdKQmtCOW51dmw4dG5DaVFNUkNlcUZ3QWJCcTlMd0wyWWNFTW05c0NXb2FVRjNlUdIBxwFBVV95cUxQUU9BNk5pckJ5OXRnem1acFdCcl96QjVRMDFrb3h2V3hfdFd2QjNyNTN6VDBrZlRrcWlrZFFsUnlDR2J6Qm1mNDZVU1JfUFhTQ0NELUQwWlhXa09jbmlzS3BFNUE4a3NySHdCRER2bmctbjZUTW9leFNXMG45WjVlQzdJY050d2tsSGpaZ080ZmZIMEhqZDFzMDNwd0w1emQ2b1Rmelc1REFuLVBUM3gxU3ZiTWVnYXJDLXdROWZLRTlCdFdoblBJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2732
+    },
+    {
+      "date": "Nov 13",
+      "text": "Iran Update, November 12, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdHcyZlo4SkRZcEItV1JzVnRmZDdSTGJTTkRLNzJ4WldhZFlKVUtzc0xOOVlnOE00QjVsR3hkRjZsOGlJemJqLUpJdjItRUFjc0tvbTVPdE10M3VqRXdxYVR2ck5vWHZZTVB6UkczZVR5bnBPdVgxZllUbUIzYWIxcVNZcTRBUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2732
+    },
+    {
+      "date": "Nov 13",
+      "text": "Iran war updates: Houthis say attacked Saudi energy, military facilities",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNS2phdFZaNlJPanNFWWhnT3k1YUo3TEVYMGNsX0Y2RlpMc2hiSjNtZk1IamxKLV82NEN0QUwzTFBJSDJsTkhrWGR2bW8wSkFFYzYyN3hEYzFOakRxbE54TmdmaG1jV3d5LTBDNEFUeGJZTGNjVXVnek5fQWVKMzBTQ0NKeU9Rdkw1eFNiRzVIdF9aalRKYUhSRURFX3VYNHM0X3BTbzZ4QTBPV2xfdjZ0X0JyWnIzMlhKQXQw0gHAAUFVX3lxTE0tNl9ERkJVWm5peERxTmJKRGtNeFdIQlQtdFE0SWNQRFBfQm55cEJjTDFMeWV5YnNkVm1KQ0tFRjA2cGNqVGI2QTYyZ2twOUxyWldILUtpWDJ6VE5VSVlMbTdCUTRCY0pranR2NV9xVFJVRTJqcHdrajZqRUtJbFVBMTlZV29qUWJPV3JONmZia191TDk2WWVXUThCSzd1VUFsdTIyV3ltaVJGS1lvVUx1dWpTMWNGakhVWW42WmJvdA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2732
     },
     {
-      "date": "Nov 12",
-      "text": "Three tankers attacked in two days in the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2731
+      "date": "Nov 13",
+      "text": "‘No war, no peace’: Can Iran break the deadlock with the US?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNYXQ5Y3BkZ2ViQ1NSQ3MtWXRteVg3ZFNBTFRWWXJ0eHhWUWY0OThCNHl4c2VJaTQ3X05UTjU5WTBRYTZJUkVld1VrZTQ3TDFSUHYyOV9YckpyN2dDOFJfSF93M0g0RHJqV1MweUkwOHdCaWlSVHJvdm9jYm95d1pxM1lCUG5Ibk5lbDduclpmUUhWZ1JjUGlrVmdxSHNBUdIBowFBVV95cUxPa0dyY3drVndxNWVSczdJdmd5T1hCY19iNVViRmZVdlllMEdXUDZxbGtzRjF5T3lySXRYTjdmR01xOUFoNks2RXZtTi12YVBlOExkSWRsLTNLSlMxVWlHUnhyRnpYbEFUUnJOMHpzak9YVm44UGQ4THduVnFqbnF4c292bEF5OHdaSVhTb1Y5NmZXREN3NjBtWlhKUmRDQnpTVHB3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2732
     },
     {
-      "date": "Nov 12",
-      "text": "Iran targets a US military site in the Gulf for the first time in two months.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNeXlnWjM3TVE3Y18wd21Wb1ZMakZfeVA2RWtjQmpEd2Z6N1lhd3dXMWw1SXhURS1rLVZzX3BSd1JQXzJQeXd2Qk80QndnbkxoWlNwemJmQlFpWTJZbkoxM0k0a0hsdWNGbExMTTFKZjQweU1aUEtpT094SnJJXzVhdTN6RUVUZmdMOHhHM3UtTWtZeFpRR3FEaEJWVk9pOXVTVFlhaVFIMW1XbTNBclE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2731
-    },
-    {
-      "date": "Nov 12",
-      "text": "Israel reportedly readies to attack Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "critical",
+      "date": "Nov 13",
+      "text": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+      "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2731
+      "latestSinceUpdate": 2732
     },
     {
-      "date": "Nov 12",
-      "text": "Iran warns of expanded retaliation and an unlimited response over the Strait of Hormuz after a US attack.",
+      "date": "Nov 13",
+      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQY09mNTcwMnZZUWxoenhybVJxLVEzSzlkbTJRLWQyR19pN2tPVXpfbGZ1RlFCMnZWaUxVY0NJY3hYR2ZIaVJMYnh1NUNMRHlINTRFUEZIOHphaktBLVM3TVhITU9IeUcwa1NRSkRlalB3T3ZYX01tdGc1Zzg5dnF0a25VVUlDa0t5NXlfei1jTUdGSkdz0gGaAUFVX3lxTE5uNmpHeTRzT1VPTkpWdGFqdV9HYmtwd3RUODczUDFMSDBrXzhPUGI2ZGFzaXlXcHYzckZwVnNCV1FzWlB3STlYT2RCUnpsNFhpVkNpV0JDOXdlQm9oZi1zZUZVU1lxUlp1YXRDUFV5cnA0VFBkazNJcGtOZ0Y0bldCTGtlTEVhb0J2NkNXcDVsQ1Jobm9DZDRBa2c?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2731
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 2732
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -114,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
