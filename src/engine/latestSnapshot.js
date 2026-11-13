@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2728,
-  "lastUpdated": "2026-11-12",
-  "lastSyncedAt": "2026-11-12T19:10:30.941Z",
-  "warDay": 258,
-  "summary": "Tensions in the Middle East remain critically high with Iran preparing for expanded conflict, Israel readying strikes, and the Strait of Hormuz facing significant disruption amid ongoing regional attacks.",
-  "lastNarrativeUpdate": "2026-11-12",
+  "updateSequence": 2729,
+  "lastUpdated": "2026-11-13",
+  "lastSyncedAt": "2026-11-13T00:31:37.780Z",
+  "warDay": 259,
+  "summary": "Tensions remain high in the Middle East with ongoing threats between Iran, the US, and Israel, alongside incidents in the Strait of Hormuz and Houthi attacks on Saudi facilities.",
+  "lastNarrativeUpdate": "2026-11-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire is active; rhetoric and actions indicate ongoing and escalating conflict."
+    "summary": "No active ceasefire or de-escalation efforts are reported, with rhetoric indicating continued confrontation."
   },
   "actorOverrides": {
     "usa": {
@@ -18,8 +18,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
@@ -28,83 +28,83 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 80,
-    "escalationLevel": 90,
-    "oilDisruption": 95,
-    "tradeImpact": 85,
-    "sanctionsPressure": 68,
-    "globalPressure": 93,
-    "allianceInfluence": 73
+    "nuclearIndex": 75,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Nov 11",
-      "text": "Houthis claim attacks on Saudi energy and military infrastructure.",
-      "severity": "critical",
+      "date": "Nov 13",
+      "text": "Houthis claim attacks on Saudi energy and military facilities.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNS2phdFZaNlJPanNFWWhnT3k1YUo3TEVYMGNsX0Y2RlpMc2hiSjNtZk1IamxKLV82NEN0QUwzTFBJSDJsTkhrWGR2bW8wSkFFYzYyN3hEYzFOakRxbE54TmdmaG1jV3d5LTBDNEFUeGJZTGNjVXVnek5fQWVKMzBTQ0NKeU9Rdkw1eFNiRzVIdF9aalRKYUhSRURFX3VYNHM0X3BTbzZ4QTBPV2xfdjZ0X0JyWnIzMlhKQXQw0gHAAUFVX3lxTE0tNl9ERkJVWm5peERxTmJKRGtNeFdIQlQtdFE0SWNQRFBfQm55cEJjTDFMeWV5YnNkVm1KQ0tFRjA2cGNqVGI2QTYyZ2twOUxyWldILUtpWDJ6VE5VSVlMbTdCUTRCY0pranR2NV9xVFJVRTJqcHdrajZqRUtJbFVBMTlZV29qUWJPV3JONmZia191TDk2WWVXUThCSzd1VUFsdTIyV3ltaVJGS1lvVUx1dWpTMWNGakhVWW42WmJvdA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2728
+      "latestSinceUpdate": 2729
     },
     {
-      "date": "Nov 11",
-      "text": "Iran's security chief denies ongoing talks with the US.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2728
-    },
-    {
-      "date": "Nov 11",
-      "text": "Iran's commanders prepare for further war and warn of expanded retaliation.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMie0FVX3lxTFB0eUE3NlZIYURIaERvcmpRV3o0NWZRakxqY0QyYWVZU055SUJJazMybTNUVzlSSEN1TjhOc241WU9ld0NjTS10TWFCV1BNVnVnNDFQaHdPRWVXbS03RTlnOGNBdEtpR2J2OWJGTXpUMFZUNE5pSjVnbWhpSQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2728
-    },
-    {
-      "date": "Nov 11",
-      "text": "Israel reportedly readies to attack Iran as Iran aims to rebuild its nuclear program.",
+      "date": "Nov 13",
+      "text": "Iran warns of expanded retaliation as Israel reportedly prepares for strikes.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2728
+      "latestSinceUpdate": 2729
     },
     {
-      "date": "Nov 11",
-      "text": "Hormuz tanker traffic hits wartime high as attacks surge, with Iran stating the Strait will 'never return' to pre-war status and will stay shut until demands are met.",
+      "date": "Nov 13",
+      "text": "Israel is reportedly ready to resume strikes on Iran as Iran aims to rebuild its nuclear program.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxON2hKcUZDakpwRzVEem1laUFPUkRiNlo1S2tnVnRoVTM3S3BwTWFLSDF1WmdpU2VHamhnV3BiWjFSNDBLS1dmZ1lnUmFUZ2dqYWRQdS1DUDhhSmFhaGdFMXdlaVRYSldDMFFjZ20zdmRkNWtvOVBKczViNHZPaWxSNU8ycGwzbHk1WmZ4eVpZNy1OOUhWbGRsMg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Lloyd's List",
-      "latestSinceUpdate": 2728
-    },
-    {
-      "date": "Nov 11",
-      "text": "Hezbollah leader states Trump and Netanyahu's election defeats are a positive development for them.",
-      "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2728
+      "latestSinceUpdate": 2729
+    },
+    {
+      "date": "Nov 13",
+      "text": "Four tankers were reportedly struck by explosions in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2729
+    },
+    {
+      "date": "Nov 13",
+      "text": "Iran's security chief states no talks are ongoing with the US.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2729
+    },
+    {
+      "date": "Nov 13",
+      "text": "Hezbollah leader comments that US election results are positive for Lebanon.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPUEFBbjV1clhxaUtVSUVyMW9VaGh0Q1lzV05yOFNHRDhobVQ5RUlBUUFhZ2ZGb0VTNDZqQXNrOUNoUDd2NjdkVjdCcmY4UzRSZFFMNG45SVJqalItdXBmN1Zzay1JX3BzVU9lS1BidVl6dEhheUVzQWMzWFJmWVZnNUlDaDNlOFNORnpaZDhtamthb3ZCS2tjN05QT05xVVhRNDJjbzVWUDdkcGtSTWNWR2tR0gG3AUFVX3lxTE9qemVhYXI1Sy1tTTBnV2FlUTFZZ29IRVhtRGdkZ0hjalFTU1I0TVdHd2RVVXdHNW9SeHJfc2EzNkUwSVQyWjRMVTctNmtBOXdYVVVxRmlCdWFVblRSX3ZndGw4ZXc0Uy1ZUEpCTzEzSVZFUi1pNndhSFFRTmFEdW9hakZnc3ZleXAyaFhucGIzQkRXa05xY01URXBNUzhOemRuWkhrZFhZb2JMYVNtd0FBcUgwdlZpRQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2729
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "De-escalation Hopes",
-      "headline": "US-Iran War Nearing End, Talks Underway",
-      "summary": "Trump and other officials suggest the US-Iran conflict may end soon, with reports of quiet negotiations aiming for a deal to de-escalate tensions. However, Iran's security chief denies ongoing talks.",
-      "tone": "skeptical",
-      "latestSinceUpdate": 2722
+      "perspective": "Iran",
+      "headline": "Iran warns of retaliation, demands US surrender to conditions",
+      "summary": "Iran maintains a defiant stance, warning of expanded retaliation against potential Israeli strikes and threatening US bases in Europe. Tehran's security chief states no talks are ongoing with the US, demanding the US 'surrender' to seven conditions.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2729
     },
     {
-      "perspective": "Continued Conflict & Escalation",
-      "headline": "Tanker Attacks Persist, Israel Plans Renewed Strikes",
-      "summary": "Despite hopes for de-escalation, tanker attacks persist in the Gulf, and Israel is reportedly preparing for renewed strikes on Iran. This indicates ongoing hostilities and potential for further escalation.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2722
-    },
-    {
-      "perspective": "Regional Instability",
-      "headline": "Hezbollah Presence Raises Regional Conflict Fears",
-      "summary": "Concerns grow over Hezbollah's potential involvement, with Israeli forces reporting weapons near UN posts in Lebanon. This raises fears of a wider regional conflict extending beyond the immediate US-Iran tensions.",
+      "perspective": "United States",
+      "headline": "Trump dismisses Iran deal, considers new military or sanctions",
+      "summary": "President Trump indicates that the US does not need a deal with Iran, as Iranian officials suggest he is planning a new military assault or tighter sanctions. This signals a continued hardline approach from the US administration.",
       "tone": "strained",
-      "latestSinceUpdate": 2722
+      "latestSinceUpdate": 2729
+    },
+    {
+      "perspective": "Israel",
+      "headline": "Israel prepares for strikes, expands laser defense amid Iran nuclear concerns",
+      "summary": "Israel is reportedly ready to resume strikes on Iran, citing concerns over Iran's efforts to rebuild its nuclear program. Concurrently, Israel plans to expand the use of its Iron Beam laser system for defense.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2729
+    },
+    {
+      "perspective": "Regional Actors",
+      "headline": "Houthi attacks, Strait of Hormuz incidents escalate regional tensions",
+      "summary": "Houthi forces claim attacks on Saudi energy and military facilities, while four tankers were reportedly struck by explosions in the Strait of Hormuz. These incidents highlight the volatile security situation in key regional waterways and energy infrastructure.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2729
     }
   ]
 });
