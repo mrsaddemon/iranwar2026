@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2730,
+  "updateSequence": 2731,
   "lastUpdated": "2026-11-13",
-  "lastSyncedAt": "2026-11-13T07:07:53.603Z",
+  "lastSyncedAt": "2026-11-13T15:27:52.202Z",
   "warDay": 259,
-  "summary": "Ongoing conflict between Iran and its proxies and US/Israel continues, marked by regional attacks, threats of retaliation, and political shifts in the US.",
+  "summary": "Ongoing tensions persist in the Middle East with Iran threatening retaliation and Israel preparing for strikes, while the Strait of Hormuz experiences tanker attacks and the US signals disinterest in a deal with Iran.",
   "lastNarrativeUpdate": "2026-11-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire is reported amidst ongoing threats and attacks between parties."
   },
   "actorOverrides": {
     "usa": {
@@ -19,40 +19,40 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.5
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.9,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.95
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 80,
-    "escalationLevel": 90,
+    "escalationLevel": 85,
     "oilDisruption": 90,
-    "tradeImpact": 81,
-    "sanctionsPressure": 64,
-    "globalPressure": 86,
-    "allianceInfluence": 51
+    "tradeImpact": 80,
+    "sanctionsPressure": 68,
+    "globalPressure": 90,
+    "allianceInfluence": 68
   },
   "alliance": {
-    "russiaIntelSupport": false,
-    "chinaEconomicSupport": false,
+    "russiaIntelSupport": true,
+    "chinaEconomicSupport": true,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
@@ -67,50 +67,42 @@ export const LATEST_SNAPSHOT = Object.freeze({
       "latestSinceUpdate": 2729
     },
     {
-      "date": "Nov 13",
-      "text": "Iran warns of expanded retaliation as Israel reportedly prepares for attacks.",
+      "date": "Nov 12",
+      "text": "Three tankers attacked in two days in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2731
+    },
+    {
+      "date": "Nov 12",
+      "text": "Iran targets a US military site in the Gulf for the first time in two months.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxNeXlnWjM3TVE3Y18wd21Wb1ZMakZfeVA2RWtjQmpEd2Z6N1lhd3dXMWw1SXhURS1rLVZzX3BSd1JQXzJQeXd2Qk80QndnbkxoWlNwemJmQlFpWTJZbkoxM0k0a0hsdWNGbExMTTFKZjQweU1aUEtpT094SnJJXzVhdTN6RUVUZmdMOHhHM3UtTWtZeFpRR3FEaEJWVk9pOXVTVFlhaVFIMW1XbTNBclE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2731
+    },
+    {
+      "date": "Nov 12",
+      "text": "Israel reportedly readies to attack Iran as the regime aims to rebuild its nuclear program.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2730
+      "latestSinceUpdate": 2731
     },
     {
-      "date": "Nov 13",
-      "text": "Four tankers reportedly struck by explosions in the Strait of Hormuz.",
+      "date": "Nov 12",
+      "text": "Iran warns of expanded retaliation and an unlimited response over the Strait of Hormuz after a US attack.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2730
-    },
-    {
-      "date": "Nov 13",
-      "text": "Iran escalates in Hormuz, claiming a strike on an Omani island used by the US military.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPQ05QYWVnRGU4aV9FS1pCczA3dU9VY3U4VnVoeVNLLUg2aC1XQndBUlozb1FtaXZFRndfcjVYS2dRTG1LS3JxUFcyX2ZQNlJtZlVBRElmZkZyZFZUYUw1TkdQdEtRWURZd1B3a0VWV1FCTzVrYm5MWmdtbkxYNmNNTlF5d2hiNTJCQ2pGbVBfZktVczBXZHBfUU5YOVZQaXRuemh6SjFJX3jSAa4BQVVfeXFMT1hVZFdKM2dWV2kzRkVWazJIUmlZekZhM1RpVnhMc0ZBWTNYa0Q0THpRRVM5VmhPcGdrdTNLLVhfYVhtekFSbDhJUG4wRWQteEdNcGJjVlZaVURvdTlFRGdSWDY0NjB1dVlxQ2ZzV283NmFzdGJGNFJOSGpxLUJ6R2w0QXhXMWREMjlJYzFnUk4tSElzdDJBakFKLTFnOWVyTFBYRTJzZGlFN1ZwREFn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Fox News",
-      "latestSinceUpdate": 2730
-    },
-    {
-      "date": "Nov 13",
-      "text": "US Treasury chief moved to a military base following Iranian threats.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPT3lYOEw5X1FaSkpweDhiUmp3d0QybFR3ZU4xRl8wYXRRMS1CbzFFWENqLXNBVDZhOHBvSHdXSFh3NW5oNXEyUjRfWmFMT0g1bkV2NXRWWDc5UUpsaXVWLWxwQ0RLSkRkTW5jSWlkQ1p1dzFRa2pySzFVTklVb0k3TFo1bmZPb0lZTXVId1oyN2hCZGxkRmZua2R1ay1LN3VkNE1zb1FFNHUwNGNwSlBVdE5aMzFocFlGWTNINElWV3BvY21lOWRNTmxaNHB2dw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2730
-    },
-    {
-      "date": "Nov 13",
-      "text": "Israel plans to expand the use of its Iron Beam laser defense system by year-end.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4xY185SVNKQWo5Vlp3RzhldFlUUU4wcEt0SlBwOFp5NkxnbjF4MldiSVFZcGpJYkdZZ0FYblZSWmlNZWJnZjM5WGNaQ1ROYWZOQU5Na0l5TmNOek9SYmtmMHd6b1l4bTlaQVBacmVB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2730
+      "sourceUrl": "https://news.google.com/articles/CBMilAFBVV95cUxQY09mNTcwMnZZUWxoenhybVJxLVEzSzlkbTJRLWQyR19pN2tPVXpfbGZ1RlFCMnZWaUxVY0NJY3hYR2ZIaVJMYnh1NUNMRHlINTRFUEZIOHphaktBLVM3TVhITU9IeUcwa1NRSkRlalB3T3ZYX01tdGc1Zzg5dnF0a25VVUlDa0t5NXlfei1jTUdGSkdz0gGaAUFVX3lxTE5uNmpHeTRzT1VPTkpWdGFqdV9HYmtwd3RUODczUDFMSDBrXzhPUGI2ZGFzaXlXcHYzckZwVnNCV1FzWlB3STlYT2RCUnpsNFhpVkNpV0JDOXdlQm9oZi1zZUZVU1lxUlp1YXRDUFV5cnA0VFBkazNJcGtOZ0Y0bldCTGtlTEVhb0J2NkNXcDVsQ1Jobm9DZDRBa2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2731
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (18 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +114,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
