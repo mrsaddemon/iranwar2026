@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2729,
+  "updateSequence": 2730,
   "lastUpdated": "2026-11-13",
-  "lastSyncedAt": "2026-11-13T00:31:37.780Z",
+  "lastSyncedAt": "2026-11-13T07:07:53.603Z",
   "warDay": 259,
-  "summary": "Tensions remain high in the Middle East with ongoing threats between Iran, the US, and Israel, alongside incidents in the Strait of Hormuz and Houthi attacks on Saudi facilities.",
+  "summary": "Ongoing conflict between Iran and its proxies and US/Israel continues, marked by regional attacks, threats of retaliation, and political shifts in the US.",
   "lastNarrativeUpdate": "2026-11-13",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are reported, with rhetoric indicating continued confrontation."
+    "summary": "No ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
@@ -28,26 +28,26 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.8
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "nuclearIndex": 80,
+    "escalationLevel": 90,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -68,49 +68,49 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Nov 13",
-      "text": "Iran warns of expanded retaliation as Israel reportedly prepares for strikes.",
+      "text": "Iran warns of expanded retaliation as Israel reportedly prepares for attacks.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2730
     },
     {
       "date": "Nov 13",
-      "text": "Israel is reportedly ready to resume strikes on Iran as Iran aims to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2729
-    },
-    {
-      "date": "Nov 13",
-      "text": "Four tankers were reportedly struck by explosions in the Strait of Hormuz.",
+      "text": "Four tankers reportedly struck by explosions in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxQcDQ2cWxyeTFpazFaX1ZNM2RoS0t2ZVpEa0JpMElTZVFMUElROEF5c20tMlU0dEszWFlEdkhfR2VOb3hEQmo3MjRtdVlSaEhkZnpKXzExbE5QcXItQ3Z6REoyY1Fpak9IUUplYWp6NTQ2UjBiNVk1WDN0MmJjaFRkOHNLdDYxMU9xOWhuMnVaTlNiVXJNTlhLYV9EZEpnd1oxYmF0cG82b2VkMURkYnkzZkZBX0hhWHM?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2730
     },
     {
       "date": "Nov 13",
-      "text": "Iran's security chief states no talks are ongoing with the US.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxNb1BpVEpoUXk0dVZTcEVneEYyZVJuVHUwT2E5b1VobkVINDNGeHdwcTRsSzlaMlp6WU1MUFU0N05ucXRlQk1yclZnZGM1Z0dwOEZDcTNXOTlzdzBkQ1NCNVZyRTFNYWh0Z0ZtQXJNS1NvY2tBbFpDejBFZlVhMmlkRXM1MU1WQjJrVFp0eERuUE5mWG55dVdULW9xZ3I5SzZGeXZ5ZDhfNGRnX3ZNdjZUcU9MSmhLbXI2U3fSAb8BQVVfeXFMTUNBbmhtNUIyWFg4OXQ1U25TaXVzVGxKbWloNWoyQ2NVMDFLcHJRY1VnUTVyaTB6dHVHbEs5QTFtQ1QyYXUxRFpFTHpVMGg0Zi1TS2N1TUg0UW85Q2ZOOHk4c2I1aWo0UzNsc2hOYW8yU1lObzJaYzhpVkU0a3I4VWx2aWhxMGc4dTdQamNIZEJaM0t4ZlZzQ21pMWdHN0JiZml1RG9kd25lbktCSWxFc3prd3VmT2FZdzhJMWJPVDg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2729
+      "text": "Iran escalates in Hormuz, claiming a strike on an Omani island used by the US military.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxPQ05QYWVnRGU4aV9FS1pCczA3dU9VY3U4VnVoeVNLLUg2aC1XQndBUlozb1FtaXZFRndfcjVYS2dRTG1LS3JxUFcyX2ZQNlJtZlVBRElmZkZyZFZUYUw1TkdQdEtRWURZd1B3a0VWV1FCTzVrYm5MWmdtbkxYNmNNTlF5d2hiNTJCQ2pGbVBfZktVczBXZHBfUU5YOVZQaXRuemh6SjFJX3jSAa4BQVVfeXFMT1hVZFdKM2dWV2kzRkVWazJIUmlZekZhM1RpVnhMc0ZBWTNYa0Q0THpRRVM5VmhPcGdrdTNLLVhfYVhtekFSbDhJUG4wRWQteEdNcGJjVlZaVURvdTlFRGdSWDY0NjB1dVlxQ2ZzV283NmFzdGJGNFJOSGpxLUJ6R2w0QXhXMWREMjlJYzFnUk4tSElzdDJBakFKLTFnOWVyTFBYRTJzZGlFN1ZwREFn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Fox News",
+      "latestSinceUpdate": 2730
     },
     {
       "date": "Nov 13",
-      "text": "Hezbollah leader comments that US election results are positive for Lebanon.",
+      "text": "US Treasury chief moved to a military base following Iranian threats.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMizgFBVV95cUxPT3lYOEw5X1FaSkpweDhiUmp3d0QybFR3ZU4xRl8wYXRRMS1CbzFFWENqLXNBVDZhOHBvSHdXSFh3NW5oNXEyUjRfWmFMT0g1bkV2NXRWWDc5UUpsaXVWLWxwQ0RLSkRkTW5jSWlkQ1p1dzFRa2pySzFVTklVb0k3TFo1bmZPb0lZTXVId1oyN2hCZGxkRmZua2R1ay1LN3VkNE1zb1FFNHUwNGNwSlBVdE5aMzFocFlGWTNINElWV3BvY21lOWRNTmxaNHB2dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2730
+    },
+    {
+      "date": "Nov 13",
+      "text": "Israel plans to expand the use of its Iron Beam laser defense system by year-end.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxPUEFBbjV1clhxaUtVSUVyMW9VaGh0Q1lzV05yOFNHRDhobVQ5RUlBUUFhZ2ZGb0VTNDZqQXNrOUNoUDd2NjdkVjdCcmY4UzRSZFFMNG45SVJqalItdXBmN1Zzay1JX3BzVU9lS1BidVl6dEhheUVzQWMzWFJmWVZnNUlDaDNlOFNORnpaZDhtamthb3ZCS2tjN05QT05xVVhRNDJjbzVWUDdkcGtSTWNWR2tR0gG3AUFVX3lxTE9qemVhYXI1Sy1tTTBnV2FlUTFZZ29IRVhtRGdkZ0hjalFTU1I0TVdHd2RVVXdHNW9SeHJfc2EzNkUwSVQyWjRMVTctNmtBOXdYVVVxRmlCdWFVblRSX3ZndGw4ZXc0Uy1ZUEpCTzEzSVZFUi1pNndhSFFRTmFEdW9hakZnc3ZleXAyaFhucGIzQkRXa05xY01URXBNUzhOemRuWkhrZFhZb2JMYVNtd0FBcUgwdlZpRQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2729
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE4xY185SVNKQWo5Vlp3RzhldFlUUU4wcEt0SlBwOFp5NkxnbjF4MldiSVFZcGpJYkdZZ0FYblZSWmlNZWJnZjM5WGNaQ1ROYWZOQU5Na0l5TmNOek9SYmtmMHd6b1l4bTlaQVBacmVB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2730
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
