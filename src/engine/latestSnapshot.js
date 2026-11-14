@@ -1,39 +1,39 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2732,
-  "lastUpdated": "2026-11-13",
-  "lastSyncedAt": "2026-11-13T21:32:32.129Z",
-  "warDay": 259,
-  "summary": "Ongoing tensions persist in the Middle East with Iran threatening retaliation and Israel preparing for strikes, while the Strait of Hormuz experiences tanker attacks and the US signals disinterest in a deal with Iran.",
-  "lastNarrativeUpdate": "2026-11-13",
+  "updateSequence": 2733,
+  "lastUpdated": "2026-11-14",
+  "lastSyncedAt": "2026-11-14T01:40:55.003Z",
+  "warDay": 260,
+  "summary": "The region is experiencing heightened tensions with ongoing conflict in Yemen, reciprocal threats between Iran, Israel, and the US, and incidents impacting energy security.",
+  "lastNarrativeUpdate": "2026-11-14",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No durable ceasefire signal was detected across the latest source mix."
+    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.5
+        "precision": 0.7,
+        "aggression": 0.6
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
@@ -42,75 +42,75 @@ export const LATEST_SNAPSHOT = Object.freeze({
     }
   },
   "global": {
-    "nuclearIndex": 80,
+    "nuclearIndex": 75,
     "escalationLevel": 85,
-    "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 68,
-    "globalPressure": 90,
-    "allianceInfluence": 68
+    "oilDisruption": 70,
+    "tradeImpact": 66,
+    "sanctionsPressure": 64,
+    "globalPressure": 81,
+    "allianceInfluence": 51
   },
   "alliance": {
-    "russiaIntelSupport": true,
-    "chinaEconomicSupport": true,
+    "russiaIntelSupport": false,
+    "chinaEconomicSupport": false,
     "s400Active": false,
     "mosaicDefense": false,
     "unscShield": true
   },
   "recentEvents": [
     {
-      "date": "Nov 13",
-      "text": "Iran war live: Qatar, Turkiye ink defence deal; fighting rages in Yemen",
+      "date": "Nov 12",
+      "text": "Qatar and Turkiye ink a defense deal amidst ongoing fighting in Yemen.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNeVhIczJQNi1UUS15LTAydjVtUVdrRE1VZE9JeE9xWnA2QkQ1cEhHVDJTd1ZGOWVUOGJxcU1IVUdrSU13TlFURnhkRlNBN1R6bncwNkU5cEx5c1NpT0JUOVNvaDU2c29HTm9ZbHhYRkxEZXRVNmRudEM3djVLSW1kanFBVkFuZUUxc2x6S2RHQndVOGdKQmtCOW51dmw4dG5DaVFNUkNlcUZ3QWJCcTlMd0wyWWNFTW05c0NXb2FVRjNlUdIBxwFBVV95cUxQUU9BNk5pckJ5OXRnem1acFdCcl96QjVRMDFrb3h2V3hfdFd2QjNyNTN6VDBrZlRrcWlrZFFsUnlDR2J6Qm1mNDZVU1JfUFhTQ0NELUQwWlhXa09jbmlzS3BFNUE4a3NySHdCRER2bmctbjZUTW9leFNXMG45WjVlQzdJY050d2tsSGpaZ080ZmZIMEhqZDFzMDNwd0w1emQ2b1Rmelc1REFuLVBUM3gxU3ZiTWVnYXJDLXdROWZLRTlCdFdoblBJ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2732
+      "latestSinceUpdate": 2733
     },
     {
-      "date": "Nov 13",
-      "text": "Iran Update, November 12, 2026",
+      "date": "Nov 12",
+      "text": "An Iran Update notes continued conflict in Yemen.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxOdHcyZlo4SkRZcEItV1JzVnRmZDdSTGJTTkRLNzJ4WldhZFlKVUtzc0xOOVlnOE00QjVsR3hkRjZsOGlJemJqLUpJdjItRUFjc0tvbTVPdE10M3VqRXdxYVR2ck5vWHZZTVB6UkczZVR5bnBPdVgxZllUbUIzYWIxcVNZcTRBUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2732
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2733
     },
     {
-      "date": "Nov 13",
-      "text": "Iran war updates: Houthis say attacked Saudi energy, military facilities",
-      "severity": "info",
+      "date": "Recent",
+      "text": "Houthis claim attacks on Saudi energy and military facilities.",
+      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxNS2phdFZaNlJPanNFWWhnT3k1YUo3TEVYMGNsX0Y2RlpMc2hiSjNtZk1IamxKLV82NEN0QUwzTFBJSDJsTkhrWGR2bW8wSkFFYzYyN3hEYzFOakRxbE54TmdmaG1jV3d5LTBDNEFUeGJZTGNjVXVnek5fQWVKMzBTQ0NKeU9Rdkw1eFNiRzVIdF9aalRKYUhSRURFX3VYNHM0X3BTbzZ4QTBPV2xfdjZ0X0JyWnIzMlhKQXQw0gHAAUFVX3lxTE0tNl9ERkJVWm5peERxTmJKRGtNeFdIQlQtdFE0SWNQRFBfQm55cEJjTDFMeWV5YnNkVm1KQ0tFRjA2cGNqVGI2QTYyZ2twOUxyWldILUtpWDJ6VE5VSVlMbTdCUTRCY0pranR2NV9xVFJVRTJqcHdrajZqRUtJbFVBMTlZV29qUWJPV3JONmZia191TDk2WWVXUThCSzd1VUFsdTIyV3ltaVJGS1lvVUx1dWpTMWNGakhVWW42WmJvdA?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2732
+      "latestSinceUpdate": 2733
     },
     {
-      "date": "Nov 13",
-      "text": "‘No war, no peace’: Can Iran break the deadlock with the US?",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMingFBVV95cUxNYXQ5Y3BkZ2ViQ1NSQ3MtWXRteVg3ZFNBTFRWWXJ0eHhWUWY0OThCNHl4c2VJaTQ3X05UTjU5WTBRYTZJUkVld1VrZTQ3TDFSUHYyOV9YckpyN2dDOFJfSF93M0g0RHJqV1MweUkwOHdCaWlSVHJvdm9jYm95d1pxM1lCUG5Ibk5lbDduclpmUUhWZ1JjUGlrVmdxSHNBUdIBowFBVV95cUxPa0dyY3drVndxNWVSczdJdmd5T1hCY19iNVViRmZVdlllMEdXUDZxbGtzRjF5T3lySXRYTjdmR01xOUFoNks2RXZtTi12YVBlOExkSWRsLTNLSlMxVWlHUnhyRnpYbEFUUnJOMHpzak9YVm44UGQ4THduVnFqbnF4c292bEF5OHdaSVhTb1Y5NmZXREN3NjBtWlhKUmRDQnpTVHB3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2732
-    },
-    {
-      "date": "Nov 13",
-      "text": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
-      "severity": "info",
+      "date": "Recent",
+      "text": "Iran warns of expanded retaliation as Israel reportedly prepares for strikes.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2732
+      "latestSinceUpdate": 2733
     },
     {
-      "date": "Nov 13",
-      "text": "Israel ready to resume strikes on Iran as regime aims to rebuild nuclear program",
+      "date": "Recent",
+      "text": "Israel indicates readiness to resume strikes on Iran over its nuclear program.",
       "severity": "critical",
       "sourceUrl": null,
-      "sourceName": null,
-      "latestSinceUpdate": 2732
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2733
+    },
+    {
+      "date": "Recent",
+      "text": "Iran warns Trump over strikes as a new Israeli government formation attempt occurs.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOb0FvaHZRRTUyZVFFTnFHZVhHbGdiX0NSR3hIcmdNTDBrMEE5V0otUGM5Nkt0bUVEcElIVHdSbFVnRzV6eS1XOUxWR21ZTzV3YlBFMlVEVklPNkl1Ui10ek80MUppUHZLWjE2S1NVcUhEUXdqeVlHc0VPU3dmNFRGMlFhVl85TVVUZUhwc05xV1plV0tydERYRm9VR3lHa3dsR0dsWGFlQ2xuSzlLakR3bHh1UnJXZjk1ZmhOUEdQbjJsQ3FpcWR0WWNIc2VTU3JKQ2c?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Sky News",
+      "latestSinceUpdate": 2733
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (17 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iran",
-      "headline": "Iran warns of retaliation, demands US surrender to conditions",
-      "summary": "Iran maintains a defiant stance, warning of expanded retaliation against potential Israeli strikes and threatening US bases in Europe. Tehran's security chief states no talks are ongoing with the US, demanding the US 'surrender' to seven conditions.",
+      "perspective": "Iranian Defiance",
+      "headline": "Iran Escalates Threats and Actions Amidst Nuclear Ambitions",
+      "summary": "Iran warns of expanded retaliation, threatens unlimited response, claims targeting US radar, and continues to rebuild its nuclear program. Its allies, the Houthis, have also attacked Saudi facilities, indicating a broad confrontational stance.",
       "tone": "defiant",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2733
     },
     {
-      "perspective": "United States",
-      "headline": "Trump dismisses Iran deal, considers new military or sanctions",
-      "summary": "President Trump indicates that the US does not need a deal with Iran, as Iranian officials suggest he is planning a new military assault or tighter sanctions. This signals a continued hardline approach from the US administration.",
+      "perspective": "US-Iran Standoff",
+      "headline": "US Denies Attacks, Trump Rejects Deal Amidst Heightened Threats",
+      "summary": "The US denies Iranian claims of attacks on its radar in Bahrain, while former President Trump publicly states 'no deal necessary' with Iran. This indicates a firm US posture amidst ongoing threats, with US cabinet members reportedly living on military bases.",
       "tone": "strained",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2733
     },
     {
-      "perspective": "Israel",
-      "headline": "Israel prepares for strikes, expands laser defense amid Iran nuclear concerns",
-      "summary": "Israel is reportedly ready to resume strikes on Iran, citing concerns over Iran's efforts to rebuild its nuclear program. Concurrently, Israel plans to expand the use of its Iron Beam laser system for defense.",
+      "perspective": "Israeli Preemption",
+      "headline": "Israel Prepares for Strikes as Iran Rebuilds Nuclear Program",
+      "summary": "Israel is reportedly ready to resume strikes on Iran, citing concerns over Iran's efforts to rebuild its nuclear program. This comes amidst internal Israeli political shifts, adding complexity to the regional security landscape.",
       "tone": "anxious",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2733
     },
     {
-      "perspective": "Regional Actors",
-      "headline": "Houthi attacks, Strait of Hormuz incidents escalate regional tensions",
-      "summary": "Houthi forces claim attacks on Saudi energy and military facilities, while four tankers were reportedly struck by explosions in the Strait of Hormuz. These incidents highlight the volatile security situation in key regional waterways and energy infrastructure.",
+      "perspective": "Regional Instability",
+      "headline": "Middle East Sees Broad Conflict and Security Incidents",
+      "summary": "Fighting rages in Yemen, Houthis attack Saudi facilities, and a defense deal is signed between Qatar and Turkiye. Lebanon experiences military action against Hezbollah, and a tanker fire occurs in the Strait of Hormuz, highlighting widespread regional tensions and security concerns.",
       "tone": "anxious",
-      "latestSinceUpdate": 2729
+      "latestSinceUpdate": 2733
     }
   ]
 });
