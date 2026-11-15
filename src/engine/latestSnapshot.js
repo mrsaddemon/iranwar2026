@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2739,
+  "updateSequence": 2740,
   "lastUpdated": "2026-11-15",
-  "lastSyncedAt": "2026-11-15T10:40:16.288Z",
+  "lastSyncedAt": "2026-11-15T17:26:52.678Z",
   "warDay": 261,
-  "summary": "Tensions between Iran, the US, and Israel have escalated significantly following direct Iranian attacks on a US military site in Bahrain, reports of mines hitting ships and tankers in the Gulf, and strong rhetoric from Israeli leadership.",
+  "summary": "Tensions remain high in the Middle East with Iran targeting US assets in Bahrain and tankers in the Strait of Hormuz, while Israel prepares for potential strikes against Iran's nuclear program and engages Hezbollah in Lebanon.",
   "lastNarrativeUpdate": "2026-11-15",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire is active; direct attacks and escalating rhetoric indicate ongoing conflict."
+    "summary": "No active ceasefire or de-escalation is indicated by recent signals."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.7,
-        "aggression": 0.6
+        "aggression": 0.4
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.75,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.9
       }
     }
   },
   "global": {
     "nuclearIndex": 75,
     "escalationLevel": 85,
-    "oilDisruption": 80,
-    "tradeImpact": 73,
+    "oilDisruption": 90,
+    "tradeImpact": 80,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
+    "globalPressure": 84,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,11 +60,11 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 14",
-      "text": "Coalition forces downed two Houthi drones, while seven ships reportedly hit mines in the Gulf.",
+      "text": "Iran targeted a US military base in Bahrain with a drone attack.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOTk1OSExWR3RnVjVaQTRhcmd6WDRva3IzT3NiZWd6QlpLSllUbmZSUm5VZ1dyRHJna3AyVWhBem1SU3F0S1p1UW93WjMyM19uQzlwSHFjYzd0VjBIV21GaTBWaUx6MjhXU1VGN2hMX2tEVXo1amk0YXVyRTA4cnlXbzMyOUVVNnZkNGFfYlpSRW1Ia2d3MjkzTUZKam5qUWF6eE4xcGFaU2p3V0xvVXFsSFIzSHNzMVNnbWFnZdIBwgFBVV95cUxQVXJvM011WXlEMmp6dkxhcGFjc01ZSTlZaTlVdnNOWTY2NFdiU1F0LTJ6ZUFwQ1NpdTRhemlnVmp0MU1xaXVyS2c1S3lTWHhZZ1VxTk8xc0txSlZRbXdsOV90N0JjVUVDNzd6cWlTRU5JQS1FWFNyRWk1RTNiZmpkOERNd1c5NHZSNzBtSmstNGNobDdrU2pZRHdybnhrMV9TOXN2Yld0eGRrZUkzN012Y2Y2dERuYjZVSjR4TmxzSzg0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2739
+      "sourceUrl": "https://news.google.com/articles/CBMiXkFVX3lxTE92bDdhYU9aelJvTWNmTk9pcy1ZeU9rSFlRLXBjUjFWOWsyWms5SU9xeldBTjFiUFFNcTB0NDJwN0MwYXl2YVdYYWtsbklBakw3bHdrYXFrdEtJOUYyVGc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "BBC",
+      "latestSinceUpdate": 2740
     },
     {
       "date": "Nov 14",
@@ -76,33 +76,41 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "date": "Nov 14",
-      "text": "Iran claimed to have targeted a US military radar in Bahrain in a retaliatory strike.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxOejhqODA1c1hwY0NTYTVMYzJleE56MnNCSlkyb09lcDRkcUZEXzRRbmtReWJjLWlrUDlNak94OXZIUjYwZ21YMS1OZlJ2ZzFIeUNYRWJLMk93RUVYV3ltMnBGcVFlNzJGRDhOMHZ5cnZ0eTV1VUlFdHlBMnUwN0FwX2FFdkpCVFE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Guardian",
-      "latestSinceUpdate": 2739
-    },
-    {
-      "date": "Nov 14",
-      "text": "Bahrain intercepted Iranian aerial attacks, confirming Tehran's claim of striking a US base.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNS2FyaWZZTTd4ZWFoWFdoTnFNVmpjakdwQUVnZ0UtMEY5MFc1dEFBeGd4UmczdGh1ektRTHBjRGxBOVlVQy1XV3NOdV9MbWotQkNVa1NBdmJaUloya1VhR2FEUTN3QkgwZ1JRN00wME5tc243TmZHU20zdlpaUHR2Q2lyby0tUkJsR0w5N1lXclI4ZWI5RTdfbjB2d1hxMXVjOVp4MlJPOF9IcjIxSE1JWWx3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2739
-    },
-    {
-      "date": "Nov 14",
-      "text": "The Lebanese army seized arms and ammunition in a Hezbollah stronghold in Beirut.",
+      "text": "A coalition downed two Houthi drones, and seven ships were reportedly hit by mines.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxQdFd5Zlg5TWF5bmU0cm1jOWJPb0xCaTJUWkIzTlhmdkFabndGaVBZdnRXbHRVSjMtWDlvT2xDUnlDMVA1M25xYWZ2aEhLWFhfYWVGbGF3SzdZUUt4YTdybjNVb0VmN3VOSzdMM2Z2VU14dnVrWVlRYUo5V3g0TWRLTEpPMHlIWkZxRG01TmQ4VjB4U0RYOHN4cTNacExPaEhXam1Ibk9mOHdYTzc0NTlV0gG0AUFVX3lxTE5GY2ZaT0lHWExSTDVNYVBrRElrUTVXcE5URlpULXZUeHFvaUM5VFljazVfYm9BUmxtMmxPeXpCVDI5TXY2YlNITGwtMXlFSDAyQXBDZHFoNzFqdXNTRDZKRXNiYkgxMVEwM2xqZ05FTHFxdURzeU9LZ1JObUp6U0tzLWR1aW1aVzMxNEFwUjdrN0E5aGdiSGMxWGtKSVgzVHZVdEU5Z1pSNjhnaW94WUxwNmo4OQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOTk1OSExWR3RnVjVaQTRhcmd6WDRva3IzT3NiZWd6QlpLSllUbmZSUm5VZ1dyRHJna3AyVWhBem1SU3F0S1p1UW93WjMyM19uQzlwSHFjYzd0VjBIV21GaTBWaUx6MjhXU1VGN2hMX2tEVXo1amk0YXVyRTA4cnlXbzMyOUVVNnZkNGFfYlpSRW1Ia2d3MjkzTUZKam5qUWF6eE4xcGFaU2p3V0xvVXFsSFIzSHNzMVNnbWFnZdIBwgFBVV95cUxQVXJvM011WXlEMmp6dkxhcGFjc01ZSTlZaTlVdnNOWTY2NFdiU1F0LTJ6ZUFwQ1NpdTRhemlnVmp0MU1xaXVyS2c1S3lTWHhZZ1VxTk8xc0txSlZRbXdsOV90N0JjVUVDNzd6cWlTRU5JQS1FWFNyRWk1RTNiZmpkOERNd1c5NHZSNzBtSmstNGNobDdrU2pZRHdybnhrMV9TOXN2Yld0eGRrZUkzN012Y2Y2dERuYjZVSjR4TmxzSzg0Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2740
+    },
+    {
+      "date": "Nov 14",
+      "text": "Israel demolished a Hezbollah tunnel in southern Lebanon.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqAFBVV95cUxQa0tWb2RpZjEwTWFUODUxS1EtOWxEbmVBdXJlQ1NVdDdVVlhvRW1lc2NLOTJNbnROc2ctUHBfNnBVSDhlN3FGb3VXSkNkZHE5NnVXZEN3NEY2WWpBM2c3UkZlVUl0aXRXeHBIa0ZwTVJNTk91dkVwVnpzcW1VWndwQlVqOHJoQVhINlNCWnBPM1JHeEEza3NKMUlyMUF5d0JIX0pnbjdCN04?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2739
+      "latestSinceUpdate": 2740
+    },
+    {
+      "date": "Nov 14",
+      "text": "Yemen’s army announced repositioning troops from Bab al-Mandeb.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPQWNHaDFxOWY3NnRZZm4zTHZQandnM2NFaTYyY2pyallRb3poSURScEpTeDlweFhLcHRLRGdjSDZab1ZlUU5JOU1jUTJvNlQ2X1AzaHZRN1J0bDIzU1VmVTVlUzhaM0NicGE2ZmE4bEZsOVFRc0dqVXdjRF9EZEJZZkpKdVdVMFByUDhFRW5LRWlZSkJuWUQtd1NEbEhhM0dkN054ZzJJN1A3WXgtZjJER2NLdnRTNkNnTk1uUm9LbWg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2740
+    },
+    {
+      "date": "Nov 14",
+      "text": "Qatar and Turkiye inked a defence deal amidst ongoing fighting in Yemen.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNeVhIczJQNi1UUS15LTAydjVtUVdrRE1VZE9JeE9xWnA2QkQ1cEhHVDJTd1ZGOWVUOGJxcU1IVUdrSU13TlFURnhkRlNBN1R6bncwNkU5cEx5c1NpT0JUOVNvaDU2c29HTm9ZbHhYRkxEZXRVNmRudEM3djVLSW1kanFBVkFuZUUxc2x6S2RHQndVOGdKQmtCOW51dmw4dG5DaVFNUkNlcUZ3QWJCcTlMd0wyWWNFTW05c0NXb2FVRjNlUdIBxwFBVV95cUxQUU9BNk5pckJ5OXRnem1acFdCcl96QjVRMDFrb3h2V3hfdFd2QjNyNTN6VDBrZlRrcWlrZFFsUnlDR2J6Qm1mNDZVU1JfUFhTQ0NELUQwWlhXa09jbmlzS3BFNUE4a3NySHdCRER2bmctbjZUTW9leFNXMG45WjVlQzdJY050d2tsSGpaZ080ZmZIMEhqZDFzMDNwd0w1emQ2b1Rmelc1REFuLVBUM3gxU3ZiTWVnYXJDLXdROWZLRTlCdFdoblBJ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2740
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (17 headlines)"
     },
     {
       "source": "GDELT",
@@ -114,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
