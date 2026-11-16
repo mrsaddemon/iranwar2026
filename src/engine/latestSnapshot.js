@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2743,
+  "updateSequence": 2744,
   "lastUpdated": "2026-11-16",
-  "lastSyncedAt": "2026-11-16T08:38:15.578Z",
+  "lastSyncedAt": "2026-11-16T18:57:25.985Z",
   "warDay": 262,
-  "summary": "Tensions between Iran, Israel, and the United States have escalated with military deployments, direct attacks, and plans for strikes on economic infrastructure, while regional defense deals are being forged.",
+  "summary": "Tensions in the Middle East are escalating with significant military buildups by the US and Israel, explicit threats of strikes against Iran's nuclear and economic infrastructure, and Iran's defiant actions including refusing UN inspections, shooting down a US drone, and alleged mining of tankers in the Strait of Hormuz, alongside regional proxy activities.",
   "lastNarrativeUpdate": "2026-11-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst rising tensions."
+    "summary": "No active ceasefire is reported amidst escalating military actions and threats in the region."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.6
+        "precision": 0.8,
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 40,
-    "escalationLevel": 80,
-    "oilDisruption": 70,
-    "tradeImpact": 65,
-    "sanctionsPressure": 63,
-    "globalPressure": 79,
-    "allianceInfluence": 46
+    "nuclearIndex": 85,
+    "escalationLevel": 90,
+    "oilDisruption": 80,
+    "tradeImpact": 74,
+    "sanctionsPressure": 64,
+    "globalPressure": 84,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 14",
-      "text": "USS Theodore Roosevelt warship arrives, increasing regional tensions.",
+      "date": "Nov 15",
+      "text": "Yemen’s Houthis edge closer to Aden, while Yemen’s army reports repositioning troops from the Red Sea.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNNzh6c3o5bEFNTllEY21FaVJJTkk3SzBhWWtBV1hjQkxETmNSTXdQemp5TXBqbTUxTHVlVzNKbzEzYjFidWtMNld5OFFFY1ZIYmkwd2ZuUEdBZ2Fabmc1YjR5ZUJUbzdfLVFRT1pPNlRBdGgxSHNxQWlBbmlWSXhWOS1HRHBjdUU3YkRhTmltSEhpa3FsNTFDUUF0Mm9PTmFDU2wtZXpReDkwWG81XzJqZFMycE53MVdFZlY4SE1pZ9IBxAFBVV95cUxOOG9VVnFZTngzajNEOWVjZk9SbV8td3JQOUk2MnpQYVBrd1Z0VEFGd29xTVdFRlhRR3daUi11LVQxNDlVaE91cUYtMVZxelVrejhnVlVmQU14RDZTZEtndTNjdGJfeU5DZ1Fwc0wxM2RzME5lQnJKNm1veEZLRVk4V2ptY1hqQk93Qmh3YmFqOGJ4dVJlVjI2ck8zNXNpem1BYnRKa2FTTWVnMEtyT29wa2h3QnFwMDJaNkNiWVNGYmJWUmFJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2743
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPQWNHaDFxOWY3NnRZZm4zTHZQandnM2NFaTYyY2pyallRb3poSURScEpTeDlweFhLcHRLRGdjSDZab1ZlUU5JOU1jUTJvNlQ2X1AzaHZRN1J0bDIzU1VmVTVlUzhaM0NicGE2ZmE4bEZsOVFRc0dqVXdjRF9EZEJZZkpKdVdVMFByUDhFRW5LRWlZSkJuWUQtd1NEbEhhM0dkN054ZzJJN1A3WXgtZjJER2NLdnRTNkNnTk1uUm9LbWjSAcYBQVVfeXFMTTlyNmYxSlo0T0QzX0c5NlNZQWFZdWF2N2dSVFNjXy1XX2c5R29xR1kzakNhR29xM2Y0aFlqNUlnWWJDeDdUR0NJQzZ5R2dhQ3B4WmtGNzZKYkxvYS1vMzMwQ09ldnZHdF9ld2dMTnJqRVhsTnI5ajRFVkpxZGt4VS1FelVFdE9ONEpRb1ZtbVJvQW9xYThqT2dWWjNSS2FWTEFvX195ejRNTDh6SjJ1TnQxT2xVeFJ5aVJfNmhSREpGdHhTWWhB?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2744
     },
     {
       "date": "Nov 15",
-      "text": "Qatar and Turkiye ink a defense deal amidst ongoing fighting in Yemen.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNeVhIczJQNi1UUS15LTAydjVtUVdrRE1VZE9JeE9xWnA2QkQ1cEhHVDJTd1ZGOWVUOGJxcU1IVUdrSU13TlFURnhkRlNBN1R6bncwNkU5cEx5c1NpT0JUOVNvaDU2c29HTm9ZbHhYRkxEZXRVNmRudEM3djVLSW1kanFBVkFuZUUxc2x6S2RHQndVOGdKQmtCOW51dmw4dG5DaVFNUkNlcUZ3QWJCcTlMd0wyWWNFTW05c0NXb2FVRjNlUdIBxwFBVV95cUxQUU9BNk5pckJ5OXRnem1acFdCcl96QjVRMDFrb3h2V3hfdFd2QjNyNTN6VDBrZlRrcWlrZFFsUnlDR2J6Qm1mNDZVU1JfUFhTQ0NELUQwWlhXa09jbmlzS3BFNUE4a3NySHdCRER2bmctbjZUTW9leFNXMG45WjVlQzdJY050d2tsSGpaZ080ZmZIMEhqZDFzMDNwd0w1emQ2b1Rmelc1REFuLVBUM3gxU3ZiTWVnYXJDLXdROWZLRTlCdFdoblBJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2743
+      "text": "Israel is reportedly ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2744
     },
     {
       "date": "Nov 15",
-      "text": "Israel prepares for possible solo strike on Iran, despite seeing no immediate threat.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiVkFVX3lxTE15SER6d3VVNlFLc2w0bXJSaElhaUdPOFJYQWg3TVFqekpOc2xJdk5Cdk1zcTk3ck1KVUhQZS03bUQxUmVkRU5uOXlCckJwUmczLW15M1Fn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2743
-    },
-    {
-      "date": "Nov 15",
-      "text": "US and Israel draw up plans for possible strikes on Iran’s economic infrastructure.",
-      "severity": "warning",
+      "text": "The US and Israel are drawing up plans for possible strikes on Iran’s economic infrastructure.",
+      "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNRlZXd3BfRXBDNmJxcVpfTWRNWXlzaUlRamg2dXlGTHhBSmdSNEtjNXFBTE10ai03OGZWRWU3bTZoVUYtQ2k2cVFXTWlpVGhHS1JYakdteGxYMDB3MVhnR2lxWnNEOEt1b2c4bG9aX2dJT3hJcTFPUXFpM1B2ZjdGTFNqX0N1aUtfUzZGQ3lGb0xWbjRvbklBa0JqYU9SVm44RWFFTmNNNnpGdFpUZS15dVE3YUo1ODk1bW9fUGtR0gHQAUFVX3lxTFAzSFJVaVZGRnd4WmpqQjEzclVIUUI2VXJXaFhyLUMtbFdkQ21NVEdVT1JRVHZFSDQta1VHSEMyaVdPamlOcnF5cG1xSW41am9FMkJGOXZYenlUckN1TmlnLVZJU2RqeUVJYlhFQUlfeHo5enVCV0pzM1M4ZGR0cktKMUF5R1ljcGlNTmhCaG9USHFDN3F2WFpDNUY4eUxBYmZSa1dqZm1BYnBkaVFTWmlWcWduTGRINkc4R2NpZGdKckl1Ulk1ZWFxdFdjNmFLMXI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2743
+      "sourceName": "Gulf News",
+      "latestSinceUpdate": 2744
     },
     {
       "date": "Nov 15",
-      "text": "Bahrain intercepts Iranian attacks after Tehran claims targeting U.S. assets.",
+      "text": "Iran states it will permit no U.N. inspections of damaged nuclear sites until the war is 'permanently ended'.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihwFBVV95cUxQeU5UZDJHMEc4OWsycksxeTkxZEs1R2s4clJCbG5wR2tMS3lyLWpsZU8zY1pFajlxSWtoeW42YzNxR0RZbTgyenlZYUFfQ3pBdzFiUDgwSEFWR1JZaGwta2hsZy1TMm15eHdrZm1OMmdpcXhBdzl3RDdPUnFiOFNsYXRjX2VVTHc?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2743
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2744
     },
     {
       "date": "Nov 15",
-      "text": "Iran targets US military base in Bahrain with a drone attack.",
+      "text": "The Iranian army claims to have shot down an MQ-1 drone over the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE54d1BneWo3NFRhV3MxVkVJa1p4SXJkTE5rbFZvUTVTWkM0UDFrVWp2WWloenJjMmcwTDBKdkV1N3QtRVgxWV91NEpXN2pCbUxtTFNaSjBQM0t6dEk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2743
+      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNMWtZV0VmMTNROW5aNU9kLXUzQTVabjlDanJ2S082UXptbjBUTFBlbEJ0Zkd6czNSQzNGbFdXbVI3bnZTaWp0S3JfX2FYLTFfQ1pZb1FvMjlISzFabnEwYmpUOFJjQ1VnUHJ5VnczUGNkd3hhSkk5LWJTTHZURlBocHpyQXhEbUtYNTZ1U0ZmM3JkSFk5N3dmR3QtS3BsWjZWVUNn?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Anadolu Ajansı",
+      "latestSinceUpdate": 2744
+    },
+    {
+      "date": "Nov 15",
+      "text": "Iran's navy reports three tankers on fire after hitting mines in the Strait of Hormuz.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2744
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
