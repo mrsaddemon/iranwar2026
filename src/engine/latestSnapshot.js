@@ -1,24 +1,24 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2741,
-  "lastUpdated": "2026-11-15",
-  "lastSyncedAt": "2026-11-15T22:01:24.289Z",
-  "warDay": 261,
-  "summary": "Ongoing conflict in the Middle East sees Iran targeting US assets in Bahrain, maritime incidents in Hormuz, and Israel preparing for potential strikes against Iran's nuclear program, while regional tensions persist.",
-  "lastNarrativeUpdate": "2026-11-15",
+  "updateSequence": 2742,
+  "lastUpdated": "2026-11-16",
+  "lastSyncedAt": "2026-11-16T01:49:59.428Z",
+  "warDay": 262,
+  "summary": "The conflict continues with ongoing military actions, including drone attacks on US bases, naval incidents in Hormuz, and Israeli preparations for potential strikes on Iran, amidst growing unpopularity of the war in the US.",
+  "lastNarrativeUpdate": "2026-11-16",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire or de-escalation efforts are reported; conflict and tensions remain high."
+    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.6,
         "aggression": 0.5
       }
     },
@@ -27,8 +27,8 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.8
+        "precision": 0.8,
+        "aggression": 0.9
       }
     },
     "iran": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.9
+        "precision": 0.5,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
+    "nuclearIndex": 70,
     "escalationLevel": 80,
-    "oilDisruption": 85,
-    "tradeImpact": 76,
+    "oilDisruption": 75,
+    "tradeImpact": 68,
     "sanctionsPressure": 63,
-    "globalPressure": 82,
+    "globalPressure": 80,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 14",
-      "text": "Qatar and Turkiye signed a new defense deal amidst regional tensions.",
+      "text": "Qatar and Turkiye ink a new defense deal amidst regional tensions.",
       "severity": "info",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2741
+      "latestSinceUpdate": 2742
     },
     {
-      "date": "Nov 14",
-      "text": "Fighting continues to rage in Yemen.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2741
-    },
-    {
-      "date": "Nov 14",
-      "text": "Bahrain reported intercepting Iranian attacks after Tehran claimed targeting U.S. assets.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2741
-    },
-    {
-      "date": "Nov 14",
-      "text": "Iran targeted a US military base in Bahrain with a drone attack.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiW0FVX3lxTE54d1BneWo3NFRhV3MxVkVJa1p4SXJkTE5rbFZvUTVTWkM0UDFrVWp2WWloenJjMmcwTDBKdkV1N3QtRVgxWV91NEpXN2pCbUxtTFNaSjBQM0t6dEk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "BBC",
-      "latestSinceUpdate": 2740
-    },
-    {
-      "date": "Nov 14",
-      "text": "A coalition downed two Houthi drones, and seven ships were hit by mines.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOTk1OSExWR3RnVjVaQTRhcmd6WDRva3IzT3NiZWd6QlpLSllUbmZSUm5VZ1dyRHJna3AyVWhBem1SU3F0S1p1UW93WjMyM19uQzlwSHFjYzd0VjBIV21GaTBWaUx6MjhXU1VGN2hMX2tEVXo1amk0YXVyRTA4cnlXbzMyOUVVNnZkNGFfYlpSRW1Ia2d3MjkzTUZKam5qUWF6eE4xcGFaU2p3V0xvVXFsSFIzSHNzMVNnbWFnZdIBwgFBVV95cUxQVXJvM011WXlEMmp6dkxhcGFjc01ZSTlZaTlVdnNOWTY2NFdiU1F0LTJ6ZUFwQ1NpdTRhemlnVmp0MU1xaXVyS2c1S3lTWHhZZ1VxTk8xc0txSlZRbXdsOV90N0JjVUVDNzd6cWlTRU5JQS1FWFNyRWk1RTNiZmpkOERNd1c5NHZSNzBtSmstNGNobDdrU2pZRHdybnhrMV9TOXN2Yld0eGRrZUkzN012Y2Y2dERuYjZVSjR4TmxzSzg0Zw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2741
-    },
-    {
-      "date": "Nov 14",
-      "text": "Iran's navy stated three tankers were on fire after hitting mines in the Strait of Hormuz.",
+      "date": "Nov 1X",
+      "text": "Iran's navy reports three tankers on fire after hitting mines in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2741
+      "latestSinceUpdate": 2742
+    },
+    {
+      "date": "Nov 1X",
+      "text": "Iran launches drone attacks against a US military base in Bahrain.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirgFBVV95cUxPS0RnUlBTa1J0QTBzR0RHcldQd0twTEtaUWwzV2xlSzJOSURDRW9hcHVqaUNtUVp3YU9uMGZ1N2djRU1xeGdsTzlBLU9Jdm1iSTQ5RDlzc1VPb293V2xkNk1Ddms0VHZvMVJ3VklsXy1KUGtkTW03RnY1VUZ5VU1jaTFTNDlUYU9UVEw4MVlEVkdPNnNWX3hQejRueUotWmxEal9lTnJhaloyNTBCTFE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Guardian",
+      "latestSinceUpdate": 2742
+    },
+    {
+      "date": "Nov 1X",
+      "text": "A coalition downs two Houthi drones, while seven ships are reported to have hit mines in the region.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxOTk1OSExWR3RnVjVaQTRhcmd6WDRva3IzT3NiZWd6QlpLSllUbmZSUm5VZ1dyRHJna3AyVWhBem1SU3F0S1p1UW93WjMyM19uQzlwSHFjYzd0VjBIV21GaTBWaUx6MjhXU1VGN2hMX2tEVXo1amk0YXVyRTA4cnlXbzMyOUVVNnZkNGFfYlpSRW1Ia2d3MjkzTUZKam5qUWF6eE4xcGFaU2p3V0xvVXFsSFIzSHNzMVNnbWFnZdIBwgFBVV95cUxQVXJvM011WXlEMmp6dkxhcGFjc01ZSTlZaTlVdnNOWTY2NFdiU1F0LTJ6ZUFwQ1NpdTRhemlnVmp0MU1xaXVyS2c1S3lTWHhZZ1VxTk8xc0txSlZRbXdsOV90N0JjVUVDNzd6cWlTRU5JQS1FWFNyRWk1RTNiZmpkOERNd1c5NHZSNzBtSmstNGNobDdrU2pZRHdybnhrMV9TOXN2Yld0eGRrZUkzN012Y2Y2dERuYjZVSjR4TmxzSzg0Zw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2742
+    },
+    {
+      "date": "Nov 1X",
+      "text": "Israel reportedly kidnapped Iranian generals, killing one, in an effort to locate Ron Arad.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNRXhFcHFHZkd6ekJ1UHBnenpCdzR0Mkk5c25sMVpiSmRONXJ2bkFWOWdGZDZ3SFViVG95SGhadUlsQWJtNTVCVXJ5bHpDeTJPLW5UZjZMcjRxZ01FTnlLR3prOGZnZkVoc183ZW9jbDdmUUc3TTJabHdFdGM3VVktUG5pY3R0Zzg1YnBTWGg1TkRRZmRRVUlBUDlUMXZ2VG4wbG9yVWtXWUE2SnhU0gGyAUFVX3lxTFBVOWdiY3oweWg0RldiWW1ET2RJWTdVSEZ0em5BTEsxSWxiZGdLbjdiU2U0OGd0Ry10aGdveURrcHItYUFOSm1Mc3FYNGJWdDY3VTB0VFFfcXFFcG10aFJ6cmNDQ2hxaGoyVzVfcFJ0SzB5dDJvejZHRmJpbTFfVUkyQzluRmNPX1pxajNzNURseHdiLWdNcy1lV2xiZHBvcEdkbVhtR1B3UGlKTXlMaEFMelE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2742
+    },
+    {
+      "date": "Nov 1X",
+      "text": "Families of U.S. military members killed in the Iran war seek answers from the Pentagon following a whistleblower complaint.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMid0FVX3lxTE1rZ2VORmxNTk1RNVZ1VUV0Q29Xc1lvcmFENXMzZVlsZnhOVW9GZmxvVzhtTXlXVm1yanN5MFktUmNrbE5Ha2lrbkJWejFxQ0QzazBua3F2dFpKaUNXU0RXNkNjMXkzamV5c21Vd0FVS1BRQjBxckhN?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2742
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "Iranian Defiance",
-      "headline": "Iran Escalates Threats and Actions Amidst Nuclear Ambitions",
-      "summary": "Iran warns of expanded retaliation, threatens unlimited response, claims targeting US radar, and continues to rebuild its nuclear program. Its allies, the Houthis, have also attacked Saudi facilities, indicating a broad confrontational stance.",
+      "perspective": "US Public/Internal",
+      "headline": "Iran Conflict Unpopular, Pentagon Under Scrutiny",
+      "summary": "The conflict with Iran remains deeply unpopular among Americans, with many expecting it to continue for months. The Pentagon faces a whistleblower complaint and calls for answers regarding US service member casualties from Iranian strikes.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2742
+    },
+    {
+      "perspective": "Israeli Security",
+      "headline": "Israel Prepares for Solo Iran Strike Amidst Nuclear Program Rebuild",
+      "summary": "Israel, while seeing no immediate threat, is preparing for a possible solo strike on Iran and is ready to resume operations as the Iranian regime aims to rebuild its nuclear program. Covert actions, including the kidnapping of Iranian generals, have also been reported.",
       "tone": "defiant",
-      "latestSinceUpdate": 2733
+      "latestSinceUpdate": 2742
     },
     {
-      "perspective": "US-Iran Standoff",
-      "headline": "US Denies Attacks, Trump Rejects Deal Amidst Heightened Threats",
-      "summary": "The US denies Iranian claims of attacks on its radar in Bahrain, while former President Trump publicly states 'no deal necessary' with Iran. This indicates a firm US posture amidst ongoing threats, with US cabinet members reportedly living on military bases.",
+      "perspective": "Iranian Actions/Posture",
+      "headline": "Iran Engages in Regional Attacks, Naval Incidents, and Nuclear Ambitions",
+      "summary": "Iran's navy reports tankers hitting mines in Hormuz, while the country targets US military bases in Bahrain with drone attacks. The regime is also reportedly aiming to rebuild its nuclear program, indicating continued military and strategic assertiveness.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2742
+    },
+    {
+      "perspective": "Regional Stability",
+      "headline": "Middle East Sees Escalation and Shifting Alliances",
+      "summary": "Fighting rages in Yemen, and Lebanon braces for potential escalation with Israel. Meanwhile, Qatar and Turkiye have inked a defense deal, reflecting a dynamic and tense regional security landscape.",
       "tone": "strained",
-      "latestSinceUpdate": 2733
-    },
-    {
-      "perspective": "Israeli Preemption",
-      "headline": "Israel Prepares for Strikes as Iran Rebuilds Nuclear Program",
-      "summary": "Israel is reportedly ready to resume strikes on Iran, citing concerns over Iran's efforts to rebuild its nuclear program. This comes amidst internal Israeli political shifts, adding complexity to the regional security landscape.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2733
-    },
-    {
-      "perspective": "Regional Instability",
-      "headline": "Middle East Sees Broad Conflict and Security Incidents",
-      "summary": "Fighting rages in Yemen, Houthis attack Saudi facilities, and a defense deal is signed between Qatar and Turkiye. Lebanon experiences military action against Hezbollah, and a tanker fire occurs in the Strait of Hormuz, highlighting widespread regional tensions and security concerns.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2733
+      "latestSinceUpdate": 2742
     }
   ]
 });
