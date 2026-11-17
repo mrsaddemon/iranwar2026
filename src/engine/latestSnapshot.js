@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2746,
+  "updateSequence": 2747,
   "lastUpdated": "2026-11-17",
-  "lastSyncedAt": "2026-11-17T11:03:23.797Z",
+  "lastSyncedAt": "2026-11-17T19:44:59.790Z",
   "warDay": 263,
-  "summary": "Regional tensions are critically high with ongoing drone attacks in Bahrain, Israeli strikes in Lebanon, and a significant US military buildup in the Middle East, while Iran engages in diplomatic talks and faces fears of potential US and Israeli actions.",
+  "summary": "The conflict between Iran, the US, and Israel has intensified with multiple direct strikes, significant military deployments, and intelligence warnings of potential unconventional attacks, leading to high regional escalation and oil market disruption.",
   "lastNarrativeUpdate": "2026-11-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported amidst ongoing regional tensions and escalating military actions."
+    "summary": "No active ceasefire is reported; a previous 2-month lull has ended with renewed strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.85
+        "aggression": 0.8
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.8,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 65
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.75
+        "aggression": 0.9
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
+    "nuclearIndex": 60,
     "escalationLevel": 90,
-    "oilDisruption": 85,
-    "tradeImpact": 77,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
     "sanctionsPressure": 64,
-    "globalPressure": 85,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 17",
-      "text": "Bahrain thwarts a drone attack, with Iran claiming responsibility for targeting US military radar.",
+      "date": "Nov 15",
+      "text": "Iran's third strike on U.S. targets in Bahrain ends a 2-month lull in hostilities.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPbGZCQzBNWXlsNkJNTHdKVzdUSG5PdWR4eFkwZ0VGQ2pGN3BYUVE1Qm55YWg2ZTVMRTZvWjFqRUluUzB6NGUtTWZDX2R4bThna3RQTVN4OUJPSW93WHhlZDRVcVhnenJLd0s0clp2aEh6NEtkQmJ3bG9JcWVHT3picVZzN0dYaWZrSlZwUi1USmttQm5RTHp4MkZydzl6RU04NUl1bzdEd0p1X084eFpJ0gG0AUFVX3lxTFBtSmI2V1R4aXp4WUx2TTNSU3BsXzQ5VnI0M2NiZnVleUNQOEdidnFXOEJ1emxyZ0pGWDVmYS1mX3htRF9kRElQOWZZMTRqdEk5WHBhUkNRN3BGV2F2U3Frd3l5LVFqY19vbmFXNkExb2JPYnNQTjF6Ry00cE5MTjQxYkY1YXM1WUF5UGtHN1hLNVhYUjRkSlFuajlGcFNQelItbDdoV3dyOWptQ09XOGx6Mm9FUg?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQOG1QMmRxQXdlZ2VBcTViV3VwM0NfT0stMUdpVUZnNFlteUFka2l2dXZSN1MzRkhCWmtHVjhUNUpiX3dfTGl6bVlBTmJiT281ZnlKendCaDlUejRxNHd3NkRxYndMQk1Vdmx4TzN6RXFMNHRYT1BLS3ZUTVRDUFBEdnBHTQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NBC News",
+      "latestSinceUpdate": 2747
+    },
+    {
+      "date": "Nov 15",
+      "text": "USS Roosevelt arrives in the Middle East, signaling a US military buildup.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPeV9idVVUaFB2a1hNbHIxci1yVmxNTTQwczhxSFdvZXFxWVIwX2NDVUd1Wjc2UHprbUxsaU44R1JvYWpqMmdVLTVuNy1Cb2lTYkpTQ3BuMW90a1B0TFdEUEYzcndiZVI2WDNHRDd1Qmt0N0ZwSzR3Si1iS09SYXZXMTV3bExYMEZNTGZTU19nbW54QzQ0VVVVc3loY1RQcHg4djY5eVJXVDdLeDFWZC1oUVl4NNIBuAFBVV95cUxNQ0dvV2xFTmFuLWVhbmVycEw3T1VsUVA5bDVsc19Ibkl3ZUtRWm93MEVjTlBKV01pSFNiWXkwbWItdzZaV0JyZ2FuUVJTM0ljV3RaWDVqLThWcDBTdEN5NGk2NTdyRmdBWDhDRkUxRi1CVWQ5M0xVcFZBU3Q1OGE3djBWenFYczdJYjFaVnVrRlp2OW8zX3ZFeW5TZGdhVDItM05WelpTVVdtb0g4eEFoRGg0M1pLNFBl?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2746
+      "latestSinceUpdate": 2747
     },
     {
-      "date": "Nov 16",
-      "text": "Israel conducts strikes deep inside Lebanon after a period of prolonged restraint.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogJBVV95cUxQNUdzYVIycndKMjRzMTNqZjF0LWFVdTY2eTdndkVQak1iaTdPMGhZcXJPVFV5R0tOQm9CWEZOUWtieWtQd0YzVjVxenF0YjJIWVhHS3NPenBfa2REMUxyRGs3TTZCcUxBVmZZeDc5dVE3ZTJ3VlcxckVNa1FQdVBFTlQwUGJkOFh0WmxiclVpb2hVSk9lelE1akNIaTl1MlhvcExUZXI4aDVaRzF5YmdVcEZKMjVpdVZIQkxSaV90UmRjeUt3YVhUZDdDRmdHZ296azhhUWw0d1ZCNDk1SGFFZFpUQkJ5WlhvbUYtLU5pYm9QYWdLVzJ3LWRfVURTUGhYYkNhRXdSQkdBRUtBZE02SVVDTzNKcGZ6Si1MUnpZcFozdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Haaretz",
-      "latestSinceUpdate": 2746
-    },
-    {
-      "date": "Nov 16",
-      "text": "Multiple tankers are reportedly hit in the Strait of Hormuz, raising alarms, as a drone also causes alarm at an Iraq gas field.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQSWFGd3ktYlF2emZzeXI2bTVaemZMNW1WRl9meXBBVHJIWkgxVGh6Vml3RGkxS0lJeWtaNXhfQmQzN21IZnJVZ0FEcUZZb0dkenJOdk9tZjRoNkNUalJQdXpXaVhhZkp4MVF2Mkx5RE5LVlI4TmI2ZWpPM3ozTURQMVQ1ZjhocjZWUTh4YS16N1ItMmR5NmFJZm9ZZkZIOV9TdkdtdzhVRExMc0xkZGhRMnpDNNIBuAFBVV95cUxQNm5ZRWY1TnA3YjlNWkpRemlWX184cFFZdlBwMzROcFVpY2VFaVZIaTAzMERONmF5U1ZRT1hDeHNTWk94dk1qWXk5ZzM0c2dPdjhFRWxKc3pfTlUwcWtzZ3UzcnE0dktxSjBrX0JJSDdMV1h2cXJSc1hEYURDNDNBRVZ1dmtJNGpUVzlGQ0h3RlAya3hVSFVoanhZLWxZRS16eDYydW9uNXVWbWFnSHREZWJyMXlUazdP?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2746
-    },
-    {
-      "date": "Nov 16",
-      "text": "A third US aircraft carrier, the USS Roosevelt, arrives in the Middle East, significantly increasing US military presence.",
+      "date": "Nov 15",
+      "text": "Yemen’s Houthis edge closer to Aden, while their army repositions troops from the Red Sea.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2746
+      "latestSinceUpdate": 2747
     },
     {
       "date": "Nov 15",
-      "text": "Reports indicate Israel kidnapped Iranian generals, killing one, in an effort to locate Ron Arad.",
+      "text": "Iran claims a new attack on a U.S. radar system in Bahrain and a tanker hit near the Strait of Hormuz.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNRXhFcHFHZkd6ekJ1UHBnenpCdzR0Mkk5c25sMVpiSmRONXJ2bkFWOWdGZDZ3SFViVG95SGhadUlsQWJtNTVCVXJ5bHpDeTJPLW5UZjZMcjRxZ01FTnlLR3prOGZnZkVoc183ZW9jbDdmUUc3TTJabHdFdGM3VVktUG5pY3R0Zzg1YnBTWGg1TkRRZmRRVUlBUDlUMXZ2VG4wbG9yVWtXWUE2SnhU0gGyAUFVX3lxTFBVOWdiY3oweWg0RldiWW1ET2RJWTdVSEZ0em5BTEsxSWxiZGdLbjdiU2U0OGd0Ry10aGdveURrcHItYUFOSm1Mc3FYNGJWdDY3VTB0VFFfcXFFcG10aFJ6cmNDQ2hxaGoyVzVfcFJ0SzB5dDJvejZHRmJpbTFfVUkyQzluRmNPX1pxajNzNURseHdiLWdNcy1lV2xiZHBvcEdkbVhtR1B3UGlKTXlMaEFMelE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2746
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNbEJURjBQYXVkNTJSWEMyUlRrbFJ3NjJETGptNjYxX1JSS3lob1NOekp3WkZYcDdWVUtEaFRHYlpzUGg5d1FlNDE0QWdhMmtoUzBJb2piaWZFZWF3OFBaNjY1dTJMMldkdTVtNE1lWFJadlhpRFdFeWZYam5zN3RwWmFiSUw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2747
     },
     {
       "date": "Nov 15",
-      "text": "The U.S. and Israel are reportedly planning for a possible post-midterms attack on Iran.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2746
+      "text": "Five tankers are reported hit around Hormuz, with blasts heard on Qeshm island.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNLW8wZ0U1T0hHZ0VoRXlUU3hJYVdoX0VrSjF2VWs3d1pTZGtvMUN3SFRDd2QtV2c1eUFuUVBPN3dTWHloeC00WlRfVXU4UWpDeDkydllvdm5BWDU1MkhhemxtWHpNRFBraHVvWkFtSmhTQzcweWt4MU53S191MW4yNDlJazFXSEN4YVFfeXNEYnRyVWZReVhRR05kQnhEa1hYQXQ0VTIzRlF0WWcyRzd4bEpZdTdKYW9SNXBQOGJvWlNKVHfSAcgBQVVfeXFMT19iRE4wbDlMWllvUktMbFZKOS1kQTUwb3Q0cEJHTGFFTHZYOWFHSjlqWkk2S1BpNTh0VF92RGZTRHBhUXI1MWNFcFJJNDBQeVhzdEJ0Y3pFWk92VVkwbXBzUUQ5M1Bjd2FEMUpUeUhjQkJYZGFTZnJzM1k2SjYyTVF6b2Y3WEltcHZ1cUV6WURFYnNxMTVRNGFSUmNTQnNJdUxoSHBScmQxaTlrcmZtcWl5YXNIaTdQYXBHSmNXa3FBc1cwYVdKUkk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2747
+    },
+    {
+      "date": "Nov 16",
+      "text": "US intelligence indicates Iran may be planning a 'dirty bomb' attack in Washington.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQYnY4Z3N4VFhWUEhLZ2hkb0VVZ2xRd0dzdWtoSlcybkJlMHhHRUd3NG02ejJWbHBTcDRHc1Z3WGxfbVZfRGNMd3V1QklwNGRKaDRreXNkVW16MWhraVZhS29KalFKVUhybnBqZDk5OG1nWVNkd3RMQ0t0aFlFdHBHVmZLMlJGUXFqcUtEaHZCWWgzNUNiQkJzNldRZ0ZDVjZfeHN3VTBzLXdqNV9yTWF4Vm5B0gG3AUFVX3lxTE1ZSGFfQy05TGRnU1RHU0FkWVFJUHdxZENMYzh4RloyaC1rZE1VVmlRa0otYXBKbWZZWkczeTVBU1NLS1ZwUGJFTEpiSy1sTjVSVzIwZWw4U3B6NjVacFBHVmFkckEtQUxSMUVGQXNQY3RQZlVEdXhHNWZ1SG9ZR2xwQmxlOE5td3B3QmpnMzF4QzczUVdZWFd6RzNiNmFlYnJaMXh5eXJKc2daSElzYW5fOHFNeGdUOA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2747
     }
   ],
   "sourceStatuses": [
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
