@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2745,
+  "updateSequence": 2746,
   "lastUpdated": "2026-11-17",
-  "lastSyncedAt": "2026-11-17T02:25:41.398Z",
+  "lastSyncedAt": "2026-11-17T11:03:23.797Z",
   "warDay": 263,
-  "summary": "Tensions are high in the Middle East with the US and Israel planning potential strikes on Iran, a significant US military buildup, and recent incidents involving tanker attacks in the Strait of Hormuz.",
+  "summary": "Regional tensions are critically high with ongoing drone attacks in Bahrain, Israeli strikes in Lebanon, and a significant US military buildup in the Middle East, while Iran engages in diplomatic talks and faces fears of potential US and Israeli actions.",
   "lastNarrativeUpdate": "2026-11-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire reported."
+    "summary": "No active ceasefire is reported amidst ongoing regional tensions and escalating military actions."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     },
     "israel": {
@@ -36,18 +36,18 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.6,
+        "aggression": 0.75
       }
     }
   },
   "global": {
-    "nuclearIndex": 70,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
+    "nuclearIndex": 45,
+    "escalationLevel": 90,
+    "oilDisruption": 85,
+    "tradeImpact": 77,
     "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "globalPressure": 85,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 17",
-      "text": "U.S. and Israel draw up plans for renewed strikes on Iran, including economic infrastructure and nuclear program targets.",
+      "text": "Bahrain thwarts a drone attack, with Iran claiming responsibility for targeting US military radar.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNRlZXd3BfRXBDNmJxcVpfTWRNWXlzaUlRamg2dXlGTHhBSmdSNEtjNXFBTE10ai03OGZWRWU3bTZoVUYtQ2k2cVFXTWlpVGhHS1JYakdteGxYMDB3MVhnR2lxWnNEOEt1b2c4bG9aX2dJT3hJcTFPUXFpM1B2ZjdGTFNqX0N1aUtfUzZGQ3lGb0xWbjRvbklBa0JqYU9SVm44RWFFTmNNNnpGdFpUZS15dVE3YUo1ODk1bW9fUGtR0gHQAUFVX3lxTFAzSFJVaVZGRnd4WmpqQjEzclVIUUI2VXJXaFhyLUMtbFdkQ21NVEdVT1JRVHZFSDQta1VHSEMyaVdPamlOcnF5cG1xSW41am9FMkJGOXZYenlUckN1TmlnLVZJU2RqeUVJYlhFQUlfeHo5enVCV0pzM1M4ZGR0cktKMUF5R1ljcGlNTmhCaG9USHFDN3F2WFpDNUY4eUxBYmZSa1dqZm1BYnBkaVFTWmlWcWduTGRINkc4R2NpZGdKckl1Ulk1ZWFxdFdjNmFLMXI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Gulf News",
-      "latestSinceUpdate": 2745
-    },
-    {
-      "date": "Nov 17",
-      "text": "Third US aircraft carrier, USS Roosevelt, arrives in the Middle East, signaling a significant military buildup around Iran.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPeV9idVVUaFB2a1hNbHIxci1yVmxNTTQwczhxSFdvZXFxWVIwX2NDVUd1Wjc2UHprbUxsaU44R1JvYWpqMmdVLTVuNy1Cb2lTYkpTQ3BuMW90a1B0TFdEUEYzcndiZVI2WDNHRDd1Qmt0N0ZwSzR3Si1iS09SYXZXMTV3bExYMEZNTGZTU19nbW54QzQ0VVVVc3loY1RQcHg4djY5eVJXVDdLeDFWZC1oUVl4NNIBuAFBVV95cUxNQ0dvV2xFTmFuLWVhbmVycEw3T1VsUVA5bDVsc19Ibkl3ZUtRWm93MEVjTlBKV01pSFNiWXkwbWItdzZaV0JyZ2FuUVJTM0ljV3RaWDVqLThWcDBTdEN5NGk2NTdyRmdBWDhDRkUxRi1CVWQ5M0xVcFZBU3Q1OGE3djBWenFYczdJYjFaVnVrRlp2OW8zX3ZFeW5TZGdhVDItM05WelpTVVdtb0g4eEFoRGg0M1pLNFBl?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxPbGZCQzBNWXlsNkJNTHdKVzdUSG5PdWR4eFkwZ0VGQ2pGN3BYUVE1Qm55YWg2ZTVMRTZvWjFqRUluUzB6NGUtTWZDX2R4bThna3RQTVN4OUJPSW93WHhlZDRVcVhnenJLd0s0clp2aEh6NEtkQmJ3bG9JcWVHT3picVZzN0dYaWZrSlZwUi1USmttQm5RTHp4MkZydzl6RU04NUl1bzdEd0p1X084eFpJ0gG0AUFVX3lxTFBtSmI2V1R4aXp4WUx2TTNSU3BsXzQ5VnI0M2NiZnVleUNQOEdidnFXOEJ1emxyZ0pGWDVmYS1mX3htRF9kRElQOWZZMTRqdEk5WHBhUkNRN3BGV2F2U3Frd3l5LVFqY19vbmFXNkExb2JPYnNQTjF6Ry00cE5MTjQxYkY1YXM1WUF5UGtHN1hLNVhYUjRkSlFuajlGcFNQelItbDdoV3dyOWptQ09XOGx6Mm9FUg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2745
+      "latestSinceUpdate": 2746
     },
     {
-      "date": "Nov 17",
-      "text": "Tankers attacked or on fire after hitting mines in the Strait of Hormuz, according to Iran's navy and UKMTO.",
+      "date": "Nov 16",
+      "text": "Israel conducts strikes deep inside Lebanon after a period of prolonged restraint.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2745
+      "sourceUrl": "https://news.google.com/articles/CBMiogJBVV95cUxQNUdzYVIycndKMjRzMTNqZjF0LWFVdTY2eTdndkVQak1iaTdPMGhZcXJPVFV5R0tOQm9CWEZOUWtieWtQd0YzVjVxenF0YjJIWVhHS3NPenBfa2REMUxyRGs3TTZCcUxBVmZZeDc5dVE3ZTJ3VlcxckVNa1FQdVBFTlQwUGJkOFh0WmxiclVpb2hVSk9lelE1akNIaTl1MlhvcExUZXI4aDVaRzF5YmdVcEZKMjVpdVZIQkxSaV90UmRjeUt3YVhUZDdDRmdHZ296azhhUWw0d1ZCNDk1SGFFZFpUQkJ5WlhvbUYtLU5pYm9QYWdLVzJ3LWRfVURTUGhYYkNhRXdSQkdBRUtBZE02SVVDTzNKcGZ6Si1MUnpZcFozdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Haaretz",
+      "latestSinceUpdate": 2746
     },
     {
-      "date": "Nov 17",
-      "text": "Israel's Mossad agents reportedly abducted and interrogated Iranian generals in a hunt for Ron Arad.",
+      "date": "Nov 16",
+      "text": "Multiple tankers are reportedly hit in the Strait of Hormuz, raising alarms, as a drone also causes alarm at an Iraq gas field.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxQSWFGd3ktYlF2emZzeXI2bTVaemZMNW1WRl9meXBBVHJIWkgxVGh6Vml3RGkxS0lJeWtaNXhfQmQzN21IZnJVZ0FEcUZZb0dkenJOdk9tZjRoNkNUalJQdXpXaVhhZkp4MVF2Mkx5RE5LVlI4TmI2ZWpPM3ozTURQMVQ1ZjhocjZWUTh4YS16N1ItMmR5NmFJZm9ZZkZIOV9TdkdtdzhVRExMc0xkZGhRMnpDNNIBuAFBVV95cUxQNm5ZRWY1TnA3YjlNWkpRemlWX184cFFZdlBwMzROcFVpY2VFaVZIaTAzMERONmF5U1ZRT1hDeHNTWk94dk1qWXk5ZzM0c2dPdjhFRWxKc3pfTlUwcWtzZ3UzcnE0dktxSjBrX0JJSDdMV1h2cXJSc1hEYURDNDNBRVZ1dmtJNGpUVzlGQ0h3RlAya3hVSFVoanhZLWxZRS16eDYydW9uNXVWbWFnSHREZWJyMXlUazdP?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2746
+    },
+    {
+      "date": "Nov 16",
+      "text": "A third US aircraft carrier, the USS Roosevelt, arrives in the Middle East, significantly increasing US military presence.",
       "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2745
+      "latestSinceUpdate": 2746
     },
     {
-      "date": "Nov 17",
-      "text": "Israel targets an arms shipment in a rare strike in Lebanon’s eastern Beqaa Valley.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlJuZ3J6c3VIdGVQcmpRS2g3bzAtclU2UjFZbzhVU0NPbzRnVUhZdW9RUUtlYUxnbXlyWHBaWEZMUWhyYXVDZmpLZnEyaDc0MEVDeHlrZlhKVWNWU3NnQkFFUEVIQ09wMUdUWTEteFF0MlhFZmppSVlDSUZvQXRoRGJWUS1yc2ZCQmY3SW1MYzVjTUFyMmxmRnNmY2dkbHIwYVRBblgzVUY5YlnSAbABQVVfeXFMTVpocWxtdEU0ek1Rbi0tOUM2RUx0STFuOGllZ09rTDhmYVJFM1pORktHdjhtdkdjdjJkeUVvMEM0RzlSTVNlSUNjOWhXemRpc3dlRXV0Z05mSHJDZVd5dlFnRHpiYk1UZ1hKM2VUT3RxVmMzUVJxbkhkYzNEUXQzZG9kUDdUZ3NGSjNLZXF3eWRxaU4yejc4Vmp2WXBjN2pFTjNoZ09uWUZ5bURGd3Y3Ynk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2745
-    },
-    {
-      "date": "Nov 17",
-      "text": "An Army soldier files a whistleblower complaint over an Iranian strike that killed 6 US service members.",
+      "date": "Nov 15",
+      "text": "Reports indicate Israel kidnapped Iranian generals, killing one, in an effort to locate Ron Arad.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQaFBFb3pvaUNpbkFCQU1IOF9LNXJJYXVObXFnWEZfVUhXVHpkb3pmMlQyMlBid0dMTTBRNHVjODlnSEFGR0pxQmRFLWVaTlV5aUdtei1Yc3dIbjlKTlU3MDlfNFREUUR4WDlfOEl6WEwteHV6dGtjMWxtazR2QVpLQXF3?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNN",
-      "latestSinceUpdate": 2745
+      "sourceUrl": "https://news.google.com/articles/CBMirAFBVV95cUxNRXhFcHFHZkd6ekJ1UHBnenpCdzR0Mkk5c25sMVpiSmRONXJ2bkFWOWdGZDZ3SFViVG95SGhadUlsQWJtNTVCVXJ5bHpDeTJPLW5UZjZMcjRxZ01FTnlLR3prOGZnZkVoc183ZW9jbDdmUUc3TTJabHdFdGM3VVktUG5pY3R0Zzg1YnBTWGg1TkRRZmRRVUlBUDlUMXZ2VG4wbG9yVWtXWUE2SnhU0gGyAUFVX3lxTFBVOWdiY3oweWg0RldiWW1ET2RJWTdVSEZ0em5BTEsxSWxiZGdLbjdiU2U0OGd0Ry10aGdveURrcHItYUFOSm1Mc3FYNGJWdDY3VTB0VFFfcXFFcG10aFJ6cmNDQ2hxaGoyVzVfcFJ0SzB5dDJvejZHRmJpbTFfVUkyQzluRmNPX1pxajNzNURseHdiLWdNcy1lV2xiZHBvcEdkbVhtR1B3UGlKTXlMaEFMelE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2746
+    },
+    {
+      "date": "Nov 15",
+      "text": "The U.S. and Israel are reportedly planning for a possible post-midterms attack on Iran.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "NPR",
+      "latestSinceUpdate": 2746
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
