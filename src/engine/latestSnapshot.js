@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2744,
-  "lastUpdated": "2026-11-16",
-  "lastSyncedAt": "2026-11-16T18:57:25.985Z",
-  "warDay": 262,
-  "summary": "Tensions in the Middle East are escalating with significant military buildups by the US and Israel, explicit threats of strikes against Iran's nuclear and economic infrastructure, and Iran's defiant actions including refusing UN inspections, shooting down a US drone, and alleged mining of tankers in the Strait of Hormuz, alongside regional proxy activities.",
-  "lastNarrativeUpdate": "2026-11-16",
+  "updateSequence": 2745,
+  "lastUpdated": "2026-11-17",
+  "lastSyncedAt": "2026-11-17T02:25:41.398Z",
+  "warDay": 263,
+  "summary": "Tensions are high in the Middle East with the US and Israel planning potential strikes on Iran, a significant US military buildup, and recent incidents involving tanker attacks in the Strait of Hormuz.",
+  "lastNarrativeUpdate": "2026-11-17",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported amidst escalating military actions and threats in the region."
+    "summary": "No active ceasefire reported."
   },
   "actorOverrides": {
     "usa": {
@@ -19,7 +19,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.8
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.85,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.5,
+        "aggression": 0.7
       }
     }
   },
   "global": {
-    "nuclearIndex": 85,
-    "escalationLevel": 90,
-    "oilDisruption": 80,
-    "tradeImpact": 74,
+    "nuclearIndex": 70,
+    "escalationLevel": 85,
+    "oilDisruption": 70,
+    "tradeImpact": 66,
     "sanctionsPressure": 64,
-    "globalPressure": 84,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 15",
-      "text": "Yemen’s Houthis edge closer to Aden, while Yemen’s army reports repositioning troops from the Red Sea.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxPQWNHaDFxOWY3NnRZZm4zTHZQandnM2NFaTYyY2pyallRb3poSURScEpTeDlweFhLcHRLRGdjSDZab1ZlUU5JOU1jUTJvNlQ2X1AzaHZRN1J0bDIzU1VmVTVlUzhaM0NicGE2ZmE4bEZsOVFRc0dqVXdjRF9EZEJZZkpKdVdVMFByUDhFRW5LRWlZSkJuWUQtd1NEbEhhM0dkN054ZzJJN1A3WXgtZjJER2NLdnRTNkNnTk1uUm9LbWjSAcYBQVVfeXFMTTlyNmYxSlo0T0QzX0c5NlNZQWFZdWF2N2dSVFNjXy1XX2c5R29xR1kzakNhR29xM2Y0aFlqNUlnWWJDeDdUR0NJQzZ5R2dhQ3B4WmtGNzZKYkxvYS1vMzMwQ09ldnZHdF9ld2dMTnJqRVhsTnI5ajRFVkpxZGt4VS1FelVFdE9ONEpRb1ZtbVJvQW9xYThqT2dWWjNSS2FWTEFvX195ejRNTDh6SjJ1TnQxT2xVeFJ5aVJfNmhSREpGdHhTWWhB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2744
-    },
-    {
-      "date": "Nov 15",
-      "text": "Israel is reportedly ready to resume strikes on Iran as the regime aims to rebuild its nuclear program.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2744
-    },
-    {
-      "date": "Nov 15",
-      "text": "The US and Israel are drawing up plans for possible strikes on Iran’s economic infrastructure.",
+      "date": "Nov 17",
+      "text": "U.S. and Israel draw up plans for renewed strikes on Iran, including economic infrastructure and nuclear program targets.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNRlZXd3BfRXBDNmJxcVpfTWRNWXlzaUlRamg2dXlGTHhBSmdSNEtjNXFBTE10ai03OGZWRWU3bTZoVUYtQ2k2cVFXTWlpVGhHS1JYakdteGxYMDB3MVhnR2lxWnNEOEt1b2c4bG9aX2dJT3hJcTFPUXFpM1B2ZjdGTFNqX0N1aUtfUzZGQ3lGb0xWbjRvbklBa0JqYU9SVm44RWFFTmNNNnpGdFpUZS15dVE3YUo1ODk1bW9fUGtR0gHQAUFVX3lxTFAzSFJVaVZGRnd4WmpqQjEzclVIUUI2VXJXaFhyLUMtbFdkQ21NVEdVT1JRVHZFSDQta1VHSEMyaVdPamlOcnF5cG1xSW41am9FMkJGOXZYenlUckN1TmlnLVZJU2RqeUVJYlhFQUlfeHo5enVCV0pzM1M4ZGR0cktKMUF5R1ljcGlNTmhCaG9USHFDN3F2WFpDNUY4eUxBYmZSa1dqZm1BYnBkaVFTWmlWcWduTGRINkc4R2NpZGdKckl1Ulk1ZWFxdFdjNmFLMXI?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Gulf News",
-      "latestSinceUpdate": 2744
+      "latestSinceUpdate": 2745
     },
     {
-      "date": "Nov 15",
-      "text": "Iran states it will permit no U.N. inspections of damaged nuclear sites until the war is 'permanently ended'.",
+      "date": "Nov 17",
+      "text": "Third US aircraft carrier, USS Roosevelt, arrives in the Middle East, signaling a significant military buildup around Iran.",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2744
+      "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPeV9idVVUaFB2a1hNbHIxci1yVmxNTTQwczhxSFdvZXFxWVIwX2NDVUd1Wjc2UHprbUxsaU44R1JvYWpqMmdVLTVuNy1Cb2lTYkpTQ3BuMW90a1B0TFdEUEYzcndiZVI2WDNHRDd1Qmt0N0ZwSzR3Si1iS09SYXZXMTV3bExYMEZNTGZTU19nbW54QzQ0VVVVc3loY1RQcHg4djY5eVJXVDdLeDFWZC1oUVl4NNIBuAFBVV95cUxNQ0dvV2xFTmFuLWVhbmVycEw3T1VsUVA5bDVsc19Ibkl3ZUtRWm93MEVjTlBKV01pSFNiWXkwbWItdzZaV0JyZ2FuUVJTM0ljV3RaWDVqLThWcDBTdEN5NGk2NTdyRmdBWDhDRkUxRi1CVWQ5M0xVcFZBU3Q1OGE3djBWenFYczdJYjFaVnVrRlp2OW8zX3ZFeW5TZGdhVDItM05WelpTVVdtb0g4eEFoRGg0M1pLNFBl?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2745
     },
     {
-      "date": "Nov 15",
-      "text": "The Iranian army claims to have shot down an MQ-1 drone over the Strait of Hormuz.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxNMWtZV0VmMTNROW5aNU9kLXUzQTVabjlDanJ2S082UXptbjBUTFBlbEJ0Zkd6czNSQzNGbFdXbVI3bnZTaWp0S3JfX2FYLTFfQ1pZb1FvMjlISzFabnEwYmpUOFJjQ1VnUHJ5VnczUGNkd3hhSkk5LWJTTHZURlBocHpyQXhEbUtYNTZ1U0ZmM3JkSFk5N3dmR3QtS3BsWjZWVUNn?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Anadolu Ajansı",
-      "latestSinceUpdate": 2744
-    },
-    {
-      "date": "Nov 15",
-      "text": "Iran's navy reports three tankers on fire after hitting mines in the Strait of Hormuz.",
+      "date": "Nov 17",
+      "text": "Tankers attacked or on fire after hitting mines in the Strait of Hormuz, according to Iran's navy and UKMTO.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2744
+      "latestSinceUpdate": 2745
+    },
+    {
+      "date": "Nov 17",
+      "text": "Israel's Mossad agents reportedly abducted and interrogated Iranian generals in a hunt for Ron Arad.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2745
+    },
+    {
+      "date": "Nov 17",
+      "text": "Israel targets an arms shipment in a rare strike in Lebanon’s eastern Beqaa Valley.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiqwFBVV95cUxOdlJuZ3J6c3VIdGVQcmpRS2g3bzAtclU2UjFZbzhVU0NPbzRnVUhZdW9RUUtlYUxnbXlyWHBaWEZMUWhyYXVDZmpLZnEyaDc0MEVDeHlrZlhKVWNWU3NnQkFFUEVIQ09wMUdUWTEteFF0MlhFZmppSVlDSUZvQXRoRGJWUS1yc2ZCQmY3SW1MYzVjTUFyMmxmRnNmY2dkbHIwYVRBblgzVUY5YlnSAbABQVVfeXFMTVpocWxtdEU0ek1Rbi0tOUM2RUx0STFuOGllZ09rTDhmYVJFM1pORktHdjhtdkdjdjJkeUVvMEM0RzlSTVNlSUNjOWhXemRpc3dlRXV0Z05mSHJDZVd5dlFnRHpiYk1UZ1hKM2VUT3RxVmMzUVJxbkhkYzNEUXQzZG9kUDdUZ3NGSjNLZXF3eWRxaU4yejc4Vmp2WXBjN2pFTjNoZ09uWUZ5bURGd3Y3Ynk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2745
+    },
+    {
+      "date": "Nov 17",
+      "text": "An Army soldier files a whistleblower complaint over an Iranian strike that killed 6 US service members.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiggFBVV95cUxQaFBFb3pvaUNpbkFCQU1IOF9LNXJJYXVObXFnWEZfVUhXVHpkb3pmMlQyMlBid0dMTTBRNHVjODlnSEFGR0pxQmRFLWVaTlV5aUdtei1Yc3dIbjlKTlU3MDlfNFREUUR4WDlfOEl6WEwteHV6dGtjMWxtazR2QVpLQXF3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNN",
+      "latestSinceUpdate": 2745
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
