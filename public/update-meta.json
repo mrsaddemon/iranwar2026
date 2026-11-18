@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2749,
+  "updateSequence": 2750,
   "lastUpdated": "2026-11-18",
-  "lastSyncedAt": "2026-11-18T10:00:22.913Z",
+  "lastSyncedAt": "2026-11-18T18:46:45.490Z",
   "warDay": 264,
   "ceasefire": {
     "active": false,
-    "status": "collapsed",
+    "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "A two-month lull in US-Iran hostilities has ended with renewed strikes, indicating no active ceasefire."
+    "summary": "No ceasefire is active; a previous lull in hostilities has ended with renewed attacks."
   }
 }
