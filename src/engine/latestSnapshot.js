@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2747,
-  "lastUpdated": "2026-11-17",
-  "lastSyncedAt": "2026-11-17T19:44:59.790Z",
-  "warDay": 263,
-  "summary": "The conflict between Iran, the US, and Israel has intensified with multiple direct strikes, significant military deployments, and intelligence warnings of potential unconventional attacks, leading to high regional escalation and oil market disruption.",
-  "lastNarrativeUpdate": "2026-11-17",
+  "updateSequence": 2748,
+  "lastUpdated": "2026-11-18",
+  "lastSyncedAt": "2026-11-18T01:53:04.982Z",
+  "warDay": 264,
+  "summary": "Direct strikes between the US and Iran have resumed after a two-month lull, with Iran targeting US assets in Bahrain and the US retaliating on Qeshm Island, while regional tensions remain high with Israeli actions in Lebanon and Houthi activity.",
+  "lastNarrativeUpdate": "2026-11-18",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No active ceasefire is reported; a previous 2-month lull has ended with renewed strikes."
+    "summary": "No active ceasefire is in effect; a previous lull in hostilities has ended with renewed strikes."
   },
   "actorOverrides": {
     "usa": {
@@ -19,35 +19,35 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 70
       },
       "behavior": {
         "precision": 0.6,
-        "aggression": 0.9
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 90,
-    "oilDisruption": 90,
-    "tradeImpact": 81,
+    "nuclearIndex": 20,
+    "escalationLevel": 85,
+    "oilDisruption": 75,
+    "tradeImpact": 69,
     "sanctionsPressure": 64,
-    "globalPressure": 86,
+    "globalPressure": 81,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,51 +60,51 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 15",
-      "text": "Iran's third strike on U.S. targets in Bahrain ends a 2-month lull in hostilities.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigwFBVV95cUxQOG1QMmRxQXdlZ2VBcTViV3VwM0NfT0stMUdpVUZnNFlteUFka2l2dXZSN1MzRkhCWmtHVjhUNUpiX3dfTGl6bVlBTmJiT281ZnlKendCaDlUejRxNHd3NkRxYndMQk1Vdmx4TzN6RXFMNHRYT1BLS3ZUTVRDUFBEdnBHTQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2747
+      "text": "Iran Update indicates a deepening stalemate in the US-Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNYkpGTlg3ekg1dWVwU1BicDN1WWxTTFpxRENpaGxnQ0IzaFFaVEt4SHF1UjhXSE5aNk84UlF5TXZhQ2QxYjhVSFdLQnJyV2RJVFhsMXNJOVJMZmp3YXVDV2lsaXBoWnJfbEpQM0ZPTW0tUERzc2xRMGhCb3FYOTR0N2RqanhzUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2748
     },
     {
-      "date": "Nov 15",
-      "text": "USS Roosevelt arrives in the Middle East, signaling a US military buildup.",
+      "date": "Nov 2026",
+      "text": "USS Roosevelt arrives in the Middle East amid speculation of resuming US-Iran war.",
       "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMiswFBVV95cUxPeV9idVVUaFB2a1hNbHIxci1yVmxNTTQwczhxSFdvZXFxWVIwX2NDVUd1Wjc2UHprbUxsaU44R1JvYWpqMmdVLTVuNy1Cb2lTYkpTQ3BuMW90a1B0TFdEUEYzcndiZVI2WDNHRDd1Qmt0N0ZwSzR3Si1iS09SYXZXMTV3bExYMEZNTGZTU19nbW54QzQ0VVVVc3loY1RQcHg4djY5eVJXVDdLeDFWZC1oUVl4NNIBuAFBVV95cUxNQ0dvV2xFTmFuLWVhbmVycEw3T1VsUVA5bDVsc19Ibkl3ZUtRWm93MEVjTlBKV01pSFNiWXkwbWItdzZaV0JyZ2FuUVJTM0ljV3RaWDVqLThWcDBTdEN5NGk2NTdyRmdBWDhDRkUxRi1CVWQ5M0xVcFZBU3Q1OGE3djBWenFYczdJYjFaVnVrRlp2OW8zX3ZFeW5TZGdhVDItM05WelpTVVdtb0g4eEFoRGg0M1pLNFBl?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2747
+      "latestSinceUpdate": 2748
     },
     {
-      "date": "Nov 15",
-      "text": "Yemen’s Houthis edge closer to Aden, while their army repositions troops from the Red Sea.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2747
+      "date": "Nov 2026",
+      "text": "A two-month lull ends with Iran's third strike on US targets in Bahrain, followed by US retaliation.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimAFBVV95cUxQU2lESUxmdF9UMGE1eWlZcmZkUFJtNWxyNm5kZWM0cTExSGtIZXRxNTZNTjR3OXlqeFlQMjlWYWdjenZnazlJRUo1NlRndVRZWWY0VFVBcUJybG1NRTRhVkdtZFd4SUZiVlFPRWNLcmFVQjlYM3lZUUFlbUhuT0JJckg5cjNYZ2xEMlNjNVhuMVliMkRnWlFXVw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "AP News",
+      "latestSinceUpdate": 2748
     },
     {
-      "date": "Nov 15",
-      "text": "Iran claims a new attack on a U.S. radar system in Bahrain and a tanker hit near the Strait of Hormuz.",
+      "date": "Nov 2026",
+      "text": "U.S. launches strikes on Iran's Qeshm Island in the Strait of Hormuz.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNbEJURjBQYXVkNTJSWEMyUlRrbFJ3NjJETGptNjYxX1JSS3lob1NOekp3WkZYcDdWVUtEaFRHYlpzUGg5d1FlNDE0QWdhMmtoUzBJb2piaWZFZWF3OFBaNjY1dTJMMldkdTVtNE1lWFJadlhpRFdFeWZYam5zN3RwWmFiSUw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2747
+      "latestSinceUpdate": 2748
     },
     {
-      "date": "Nov 15",
-      "text": "Five tankers are reported hit around Hormuz, with blasts heard on Qeshm island.",
+      "date": "Nov 2026",
+      "text": "A tanker is struck in the Strait of Hormuz, leading to an inferno.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwwFBVV95cUxNLW8wZ0U1T0hHZ0VoRXlUU3hJYVdoX0VrSjF2VWs3d1pTZGtvMUN3SFRDd2QtV2c1eUFuUVBPN3dTWHloeC00WlRfVXU4UWpDeDkydllvdm5BWDU1MkhhemxtWHpNRFBraHVvWkFtSmhTQzcweWt4MU53S191MW4yNDlJazFXSEN4YVFfeXNEYnRyVWZReVhRR05kQnhEa1hYQXQ0VTIzRlF0WWcyRzd4bEpZdTdKYW9SNXBQOGJvWlNKVHfSAcgBQVVfeXFMT19iRE4wbDlMWllvUktMbFZKOS1kQTUwb3Q0cEJHTGFFTHZYOWFHSjlqWkk2S1BpNTh0VF92RGZTRHBhUXI1MWNFcFJJNDBQeVhzdEJ0Y3pFWk92VVkwbXBzUUQ5M1Bjd2FEMUpUeUhjQkJYZGFTZnJzM1k2SjYyTVF6b2Y3WEltcHZ1cUV6WURFYnNxMTVRNGFSUmNTQnNJdUxoSHBScmQxaTlrcmZtcWl5YXNIaTdQYXBHSmNXa3FBc1cwYVdKUkk?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2747
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2748
     },
     {
-      "date": "Nov 16",
-      "text": "US intelligence indicates Iran may be planning a 'dirty bomb' attack in Washington.",
+      "date": "Nov 2026",
+      "text": "Iran attacks a US military radar system in Bahrain despite ongoing talks with mediators.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxQYnY4Z3N4VFhWUEhLZ2hkb0VVZ2xRd0dzdWtoSlcybkJlMHhHRUd3NG02ejJWbHBTcDRHc1Z3WGxfbVZfRGNMd3V1QklwNGRKaDRreXNkVW16MWhraVZhS29KalFKVUhybnBqZDk5OG1nWVNkd3RMQ0t0aFlFdHBHVmZLMlJGUXFqcUtEaHZCWWgzNUNiQkJzNldRZ0ZDVjZfeHN3VTBzLXdqNV9yTWF4Vm5B0gG3AUFVX3lxTE1ZSGFfQy05TGRnU1RHU0FkWVFJUHdxZENMYzh4RloyaC1rZE1VVmlRa0otYXBKbWZZWkczeTVBU1NLS1ZwUGJFTEpiSy1sTjVSVzIwZWw4U3B6NjVacFBHVmFkckEtQUxSMUVGQXNQY3RQZlVEdXhHNWZ1SG9ZR2xwQmxlOE5td3B3QmpnMzF4QzczUVdZWFd6RzNiNmFlYnJaMXh5eXJKc2daSElzYW5fOHFNeGdUOA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2747
+      "sourceUrl": "https://news.google.com/articles/CBMilwFBVV95cUxNNFBNWmF6ZnN0OWZuMG5UY0hmMWp4SWdQMUVaTW1EV3lRZFhZR0ZVeE1wNDFyT2lFYVhGZXhqcFB0c0NLcjlNNm5HYV9FdzloRzI1T1hmMGIxeEdzdVZmanNRUjhVWnYxT2tCS3h4ZHRPcnZ0QVBzWmZ5cEhkUVkzcFNYa1pGOU9ENndESXU1WXhldmtKSmc0?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 2748
     }
   ],
   "sourceStatuses": [
@@ -139,32 +139,25 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US Public/Internal",
-      "headline": "Iran Conflict Unpopular, Pentagon Under Scrutiny",
-      "summary": "The conflict with Iran remains deeply unpopular among Americans, with many expecting it to continue for months. The Pentagon faces a whistleblower complaint and calls for answers regarding US service member casualties from Iranian strikes.",
+      "perspective": "US/Israel",
+      "headline": "US and Israel counter Iranian aggression",
+      "summary": "US and Israeli forces are responding to Iranian provocations and regional destabilization, including direct strikes on US targets and support for proxies like Hezbollah. The US has deployed additional naval assets, while Israel continues to target arms shipments and warns against Iranian expansion.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2748
+    },
+    {
+      "perspective": "Iran",
+      "headline": "Iran defends against foreign aggression",
+      "summary": "Iran asserts its regional influence and retaliates against perceived US and Israeli aggression, including strikes on US military assets and radar systems. Tehran is also engaging in diplomatic talks with regional partners like Pakistan amidst fears of further US and Israeli strikes.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2748
+    },
+    {
+      "perspective": "Regional/International",
+      "headline": "Middle East on edge amid escalating conflict",
+      "summary": "International observers express concern over the escalating conflict between major powers, with direct strikes between the US and Iran resuming and regional proxies remaining active. Efforts to disarm Hezbollah in Lebanon face significant challenges, and the Strait of Hormuz remains a flashpoint for potential oil disruption.",
       "tone": "anxious",
-      "latestSinceUpdate": 2742
-    },
-    {
-      "perspective": "Israeli Security",
-      "headline": "Israel Prepares for Solo Iran Strike Amidst Nuclear Program Rebuild",
-      "summary": "Israel, while seeing no immediate threat, is preparing for a possible solo strike on Iran and is ready to resume operations as the Iranian regime aims to rebuild its nuclear program. Covert actions, including the kidnapping of Iranian generals, have also been reported.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2742
-    },
-    {
-      "perspective": "Iranian Actions/Posture",
-      "headline": "Iran Engages in Regional Attacks, Naval Incidents, and Nuclear Ambitions",
-      "summary": "Iran's navy reports tankers hitting mines in Hormuz, while the country targets US military bases in Bahrain with drone attacks. The regime is also reportedly aiming to rebuild its nuclear program, indicating continued military and strategic assertiveness.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2742
-    },
-    {
-      "perspective": "Regional Stability",
-      "headline": "Middle East Sees Escalation and Shifting Alliances",
-      "summary": "Fighting rages in Yemen, and Lebanon braces for potential escalation with Israel. Meanwhile, Qatar and Turkiye have inked a defense deal, reflecting a dynamic and tense regional security landscape.",
-      "tone": "strained",
-      "latestSinceUpdate": 2742
+      "latestSinceUpdate": 2748
     }
   ]
 });
