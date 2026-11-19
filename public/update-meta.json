@@ -1,13 +1,13 @@
 {
-  "updateSequence": 2750,
-  "lastUpdated": "2026-11-18",
-  "lastSyncedAt": "2026-11-18T18:46:45.490Z",
-  "warDay": 264,
+  "updateSequence": 2751,
+  "lastUpdated": "2026-11-19",
+  "lastSyncedAt": "2026-11-19T00:45:38.371Z",
+  "warDay": 265,
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire is active; a previous lull in hostilities has ended with renewed attacks."
+    "summary": "No ceasefire is active; hostilities between the US and Iran have recently escalated."
   }
 }
