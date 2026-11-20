@@ -1,25 +1,25 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2756,
+  "updateSequence": 2757,
   "lastUpdated": "2026-11-20",
-  "lastSyncedAt": "2026-11-20T13:04:34.683Z",
+  "lastSyncedAt": "2026-11-20T21:00:45.829Z",
   "warDay": 266,
-  "summary": "The Iran war continues on Day 266 with escalating tensions, including new strikes and casualty reports, while the US and Israel consider further action and Iran refuses nuclear inspections, despite a recent retreat in oil prices.",
+  "summary": "Tensions in the Middle East are escalating with Iran conducting attacks on shipping and US bases, while the US and Israel consider renewed strikes against Iran amidst concerns over potential unconventional weapons.",
   "lastNarrativeUpdate": "2026-11-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing conflict."
+    "summary": "No ceasefire or de-escalation efforts are currently reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
@@ -27,27 +27,27 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.8,
+        "precision": 0.88,
         "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 70
+        "militaryPower": 80
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.8
+        "precision": 0.7,
+        "aggression": 0.95
       }
     }
   },
   "global": {
-    "nuclearIndex": 75,
-    "escalationLevel": 90,
-    "oilDisruption": 60,
-    "tradeImpact": 59,
-    "sanctionsPressure": 64,
-    "globalPressure": 80,
+    "nuclearIndex": 65,
+    "escalationLevel": 92,
+    "oilDisruption": 90,
+    "tradeImpact": 81,
+    "sanctionsPressure": 65,
+    "globalPressure": 86,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 18",
-      "text": "12 killed in attack on Riyadh airport, according to Saudi authorities.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxPM2hKQnU0RnNlWmR5M0dpZy1GdkEybmxWRm1scHZNMlREbG52WmpkLWlRUnI4M3hRQkZKUXAtX3doSGxHbnZ5Tl9ybGp2SHVSLTlvUC0wUG9rOFVZeG81UmxvZ0hzNTZsa25fMTF5Y0V1Q1QwbjdjQnVScGdfZlUzQzg0TXo3aVFnSGVuWlRyazZ6M2N2NzItYnNhMHJrNDg5dGxhUlNoNVU3OGZva3djcmQ2eGQyOU43N21Z0gHAAUFVX3lxTFB0ZXVSYWwwdm1HYnp0cWY5eWNRXzRYb1BaOVRjcXBZVUpDOEpPUmFxeVJZT2x4U01Ma2ljMmN6Z2N0S19kZTVXekp6dTZFamp0NGRZMHp2UzhrcmJVOENPd3N3d3RXR2E2aU55TEN6QWpSVHZsbjhHUUxPU25YREd1MmFtMXUtVmNvLXdHTEY3NWpBZm5MZ0RBandXcS0xZkpVbVZtQkZEeFN6OHlMOTZlcWo2Q2FVVHFuN0hkcVU0SQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2756
-    },
-    {
-      "date": "Nov 18",
-      "text": "Pentagon again increases the number of U.S. casualties in the Iran War.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2756
-    },
-    {
-      "date": "Nov 18",
-      "text": "US says it hits IRGC Qeshm; Iran claims to have downed a US drone.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOSVFjTXR2c2dUek5TbExaQzd1OUI5aFQxS3FsdUZPTktoTzE1Mmhwem5QQVQwQzN6cjh1WTVqMTI3OVhfVDlXazBCZi1qM01aajA4WXhPQnJvRU9uV0hrakRHU3BwaW5KN25ldG84MGI0TzJwMlU5Rk1uMERIcml0V1lJQTJzLXVBY0diOGtkeVBFeWhmMHQtY2YzT1VaMm91NEpGVkNoWGRKLVlYQlFyZNIBtgFBVV95cUxQV1lSbDdNZlJ2cm5FYVdNZ1pIdWc4UzZYQVlpVUlBOUZ5U3NRYU43QWlzek44X1dfdkhqTVBuaVNQUlFzM0NmcHNrcGE0YkN5b041U2g5eTdlTzEwQ2ZuTk5HSVJjcGxpX2t4U2ZqV21reENqODVjTDVUT0VqOEwtNzdTbV9nV1Q4YWtUTmhSUUxyUjdMNWhlWU8tVnNjUHI3NzdSRk5iRWluaF93enVZbU1WTnVRQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2756
-    },
-    {
-      "date": "Nov 20",
-      "text": "Iraqi forces are set to deploy today in a stronghold of Iran-backed Kataeb Hezbollah.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPTlBsYk5vdFVMNUFOQ29Jb0VsNnZaVl9idWJaLXRxd1RaSV9fM1pvdHJDRk1jb2NzUkRSLVJzX0ZYOWh4ZDVxeWhEbjlGYmhYRndrQ3hERGlvdUtpenEyLWlyN1hGX2Z4VGxJUkNtNHA2dXJjTkFvbmRpa09TMWhaQ3JJcUJKTExkQW9tWTBWTTFXeTEtOVlOc29TSmtya200NEV5T3YxUlU2dHE3NW0wbmpRVDE0ZFJYYW96QW45aFBFUQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2756
+      "date": "Nov 19",
+      "text": "Iran Update, November 19, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQanNWbEU4Q3FEOGNVSXdVTUl6Vkdva2xEOGZiTU1QZ1ZEc2w0VHY0MTY3dVhGVENVUUJoOVVISjVVeUFvSUNxRmlFdmFjaUxqendWNDNqUFlKX3hnR2lTZ0lqX3czRUlCMUxOTW1DeGpQQ1JpYkxQT1AyZ3dVT252dUYwTHRKQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2757
     },
     {
       "date": "Nov 19",
-      "text": "Israel strikes a Hezbollah stronghold deep in Lebanon.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2756
+      "text": "The Iran war raised household costs in 2026.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNbGJFUG14UE9xYm1tMVRKR2hGN0lYel9jRUIwdlg4TThiODJ1MEJOQXZGdVAwRlZ1c0Y3LVl1ZUlhdjE4WTgtbVB6bGdzMk0zR3F4MDV5cVdHajYyN0NlbDFpN1lTekZKYVZ6bkN6Tjh0OWxabXd3cThpVXpmMG5CaDdEU3BYYWoxdkRReXZGS2E1eVhVUUg2QTZkYzIzSk02TEstaVNRS0hCcVd6eEMyV2NtUTJjV1VDX0NTaFRCWXlhaEI2d0VuYg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Chase Bank",
+      "latestSinceUpdate": 2757
+    },
+    {
+      "date": "Nov 18",
+      "text": "Iran Update, November 18, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNMWlDdWU0eVJ5ZHV5VVh6cUJyRVE4ZXBEYVctSkFDd3FMZVM3aHdkM3ZNVjJwQ3ZxWnhEWFJqTVJuRXpSMXVBbzJjc0lVVWh0MURPdEZVMDhqUGZzSGtiRGt3NFdqVW1zSE0weUlJQ2VWMHRlcnBRbHl5YWFhd3lLZnUtR20tQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2757
     },
     {
       "date": "Nov 19",
-      "text": "Iran refuses nuclear inspections as U.S. military threats mount.",
+      "text": "Houthis fire missiles at Saudi Arabia",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdEs4LUc1VGI2Tm03R05nd09BY1dtS0JLYmdlcFc3aUdjRG5SWFZaQzNodEVUc0RZRkRtMHBKSG1fLWh6djZ1Wk9FcXdvVm9MYk5KNks3RzM5LWE2T0haMVhIUDdObldxY1RWN3FMVkx5YlFqMm5lUUtCZFR2Q1lMLVlkcnhMV2x5cTBfMlpwaUxGRmNLQnVTa2tEOG94Q000Mjh5NGVGNkZSX3p2QjZteHBBN3RXc1BkSC1YVtIBwgFBVV95cUxPSk1uX1YxaDVmUW9qQzU2TWZPSE5CY0JmRnJxT2h0dVQtV2dZWGpuS2Q0UWE4NFhfM1pjWkFzWU5IclVuaGdNZXJqTEx5Y0ZfbFN3dHNvYUVmTzMzb1FheXZHNFN3LUdWTDJoM21nOXpOX3BNQ1ZreHlXUXhlMjdHNjBVcHNpUWVLT3hVbXN4UlBOSEMxWEUtcjJJTnFrYzg3bmd0ZXNoSkFNOTNacHBXamJBNEpEX2dyNlZVNW1hNnp4UQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2757
+    },
+    {
+      "date": "Nov 19",
+      "text": "Trump Weighs New Strikes on Iran as Israel Presses for Action",
       "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2756
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE1TOTFWdU93OVF0V1d3QTZ4elZ2SHRiV0RzRmxjM3J2aTZuR3RyNlRWVmN2akRqUTcxVGpRM1dOZmFrelB4cGw3eWRha2F5TmI5SXpRdDFUZEwta3VSTUxQOTd3NGhGVnY1VUlnaWdVazFLVGhpUmlBck9xSmVzdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2757
+    },
+    {
+      "date": "Nov 19",
+      "text": "Trump says Tehran may be working on chemical or biological weapons",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNczRzemtDSHlJLXZIOHl1WHVMYUZkLTFMd1Z4TDJHNWhDa2E3djdWWnM4MXlwbXpnYjNyUU9TcXR6YjhsOWRVS29ub25Dd0pLVWNZRFZWR25CdnNxeTQ4VDRYX2g1dlFqZmQ1N1o1WWowQk5XRTJvSnhwWENzaXlBSF83RW5kbE5FelFKa0J2dnlhQVJJTkE?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2757
     }
   ],
   "sourceStatuses": [
