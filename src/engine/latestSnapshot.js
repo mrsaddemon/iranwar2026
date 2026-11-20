@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2754,
-  "lastUpdated": "2026-11-19",
-  "lastSyncedAt": "2026-11-19T23:36:56.837Z",
-  "warDay": 265,
+  "updateSequence": 2755,
+  "lastUpdated": "2026-11-20",
+  "lastSyncedAt": "2026-11-20T04:14:37.303Z",
+  "warDay": 266,
   "summary": "The conflict involving the US, Israel, and Iran continues with direct strikes, proxy attacks, and escalating rhetoric, including warnings of potential chemical or biological weapons development.",
-  "lastNarrativeUpdate": "2026-11-19",
+  "lastNarrativeUpdate": "2026-11-20",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 2,
-    "summary": "No ceasefire or de-escalation efforts are currently reported; active conflict continues."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 19",
-      "text": "U.S. launches strikes on Iran's Qeshm Island in the Strait of Hormuz; Iran claims to have downed a U.S. drone.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNbEJURjBQYXVkNTJSWEMyUlRrbFJ3NjJETGptNjYxX1JSS3lob1NOekp3WkZYcDdWVUtEaFRHYlpzUGg5d1FlNDE0QWdhMmtoUzBJb2piaWZFZWF3OFBaNjY1dTJMMldkdTVtNE1lWFJadlhpRFdFeWZYam5zN3RwWmFiSUw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2754
+      "date": "Nov 20",
+      "text": "Iran Update, November 18, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNMWlDdWU0eVJ5ZHV5VVh6cUJyRVE4ZXBEYVctSkFDd3FMZVM3aHdkM3ZNVjJwQ3ZxWnhEWFJqTVJuRXpSMXVBbzJjc0lVVWh0MURPdEZVMDhqUGZzSGtiRGt3NFdqVW1zSE0weUlJQ2VWMHRlcnBRbHl5YWFhd3lLZnUtR20tQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2755
     },
     {
-      "date": "Nov 19",
-      "text": "A tower in Riyadh was hit by a Houthi attack, with Saudi authorities reporting a foiled missile injuring a resident.",
+      "date": "Nov 20",
+      "text": "The Iran war raised household costs in 2026. Here’s how much – and why",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNbGJFUG14UE9xYm1tMVRKR2hGN0lYel9jRUIwdlg4TThiODJ1MEJOQXZGdVAwRlZ1c0Y3LVl1ZUlhdjE4WTgtbVB6bGdzMk0zR3F4MDV5cVdHajYyN0NlbDFpN1lTekZKYVZ6bkN6Tjh0OWxabXd3cThpVXpmMG5CaDdEU3BYYWoxdkRReXZGS2E1eVhVUUg2QTZkYzIzSk02TEstaVNRS0hCcVd6eEMyV2NtUTJjV1VDX0NTaFRCWXlhaEI2d0VuYg?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Chase Bank",
+      "latestSinceUpdate": 2755
+    },
+    {
+      "date": "Nov 20",
+      "text": "Military ordered to be ready for possible Iran strikes as Trump weighs timing",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiiwFBVV95cUxOcTJVT0lpY01IdHRxLXR3WFJUWVdlVlNWM2IyV0p2cFNoQVRPQjVMdXNkTHNpYk5NY2lvRzQ0SkpHN1I3T21KLThjVHI5SHlmeFZyZndfempWYjgzNWJMaWFmY1B2dk9nbGxuV056WG9NSWlRdWszd085cWZUOXBKbjc5YlFrcGo4VjI4?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2755
+    },
+    {
+      "date": "Nov 20",
+      "text": "Iran war updates: Foiled Houthi missile injures Saudi resident, Riyadh says",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNX3hoU3p6VWJpUkhrbEFfRUFuRzVhRGRtTkxWNGpQTTNialpfMGQweVA3UmlMbm85SjNiamZLLXprQlVMTGhtUmFfdFNmVVVhbERCSGZyb3h5dnptMER2WjVzeGlpNHJ1amtMOWtiSXZYSURqdGs5MWtiWnAtSER3UDJESEZ1a2NrZjBIYXNZb1RQQzl0X2tPTmpnbVd1LUEzRXdOeUJyOHd3Z0J2N3Z1Z0dfTGpjZDBFQ25BUmh0WdIBxAFBVV95cUxNeWVFLUZJMlkxRGZGNHRWNkZidXAwNk1jTElnX3o5d3pHRC03dENuSG4wdjhWY1A1ejhIMnk1MTBLRlg5LW9CQ0xqV0hZdWxNcTRMVkRnSm1aaFpsbTV2WmNUZzRrNTM2OVNpckhXX2VKNDh2MWV6R3RFeDNtc2dTTFR4bFhjbUJlbldiUHJYbjA3T1liWWpVa19qV2N3OHZZWXFTVjF0eGdyVWs5bUNFckRxM19GSk92SUZaT1RpYkYxR1NY?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxNUC1tREkzTk9ydXdTMXFqZzAzMzlCZWN2N2RnVG5WM0V3Z3ZBblk0SkI4bkJ2ZXhmQXBsZFFVajMwVWdNRi1SUmNfRWJwZENIcEZtM1BaZVU2blVWLXhkMUhtdXI0SklvQm1vU1BEVXJlZFg5TDQwcU5EeGpqME9Yalk4RFUxSWJtZ3pyTmxRM2hZaFRNZUI0ZEVhWE9IdmdOalB4LWs0cXlkU29GLV90dFNTbzFXNGxlNUhTV3hB0gHDAUFVX3lxTE81ZkY5SzJvZG1CTnB0NzcyT1FleFBfZUIzanRrSjROcXZUd1JVakZQV3Fhc0U1SXRQMllyZkZrN2ppSU02NmZlT3pXMWlFelRNQU9MX0dRRmJRTGJRa1JyMDdkTy1FZHhsd2xLRVR4Y25UeVJ1QV9uY3UydUJsQUdtSS1nR1lqRTlZZmZ3ZEVhRERtdE5SekFHQVZubjFMODNld2lETXc0Q0tvUDE4VTlQTmR2U3pqREJBczBpSE9QNjg4cw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2754
+      "latestSinceUpdate": 2755
     },
     {
-      "date": "Nov 19",
-      "text": "Israel strikes Hezbollah strongholds and missile facilities deep in Lebanon's Beqaa Valley.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiogFBVV95cUxNVllOT2dvSFJhbzNRNUVrN3ROSGRBZlVaMk1aQjQ0Y0RSWFVnek5uWnlpNHFndno5X3R3QWxZbGtmTFI0amktcXB1TU5EamhUSVNfVEFHUUhmRGw1dzdra3pSYnhJeG0zc21ZU01CUTJvcGExVExiR0hkbXhrWkVNWkFsMFJrZkk0X2pCcUFEZ2Y1UU1nZ05LbzdxZzhSUFE2R1E?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "JNS.org",
-      "latestSinceUpdate": 2754
+      "date": "Nov 20",
+      "text": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE1TOTFWdU93OVF0V1d3QTZ4elZ2SHRiV0RzRmxjM3J2aTZuR3RyNlRWVmN2akRqUTcxVGpRM1dOZmFrelB4cGw3eWRha2F5TmI5SXpRdDFUZEwta3VSTUxQOTd3NGhGVnY1VUlnaWdVazFLVGhpUmlBck9xSmVzdw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The New York Times",
+      "latestSinceUpdate": 2755
     },
     {
-      "date": "Nov 19",
-      "text": "President Trump weighs new strikes on Iran and suggests Tehran may be working on chemical or biological weapons.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNczRzemtDSHlJLXZIOHl1WHVMYUZkLTFMd1Z4TDJHNWhDa2E3djdWWnM4MXlwbXpnYjNyUU9TcXR6YjhsOWRVS29ub25Dd0pLVWNZRFZWR25CdnNxeTQ4VDRYX2g1dlFqZmQ1N1o1WWowQk5XRTJvSnhwWENzaXlBSF83RW5kbE5FelFKa0J2dnlhQVJJTkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2754
-    },
-    {
-      "date": "Nov 19",
-      "text": "The U.S. military is urgently building new reinforced bunkers across its Middle East bases amid the Iran war.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiY0FVX3lxTE9lTm5GeXpYMDM4RmxhcFFmcUhLS195SzhTZkRiMVp1YmVVakw0NVZGLVJnN09vZDdkWWdMekpnZzhGUlkzeUpBN2hiUF9xWGlrbG9uOU5JUW5fYXpGLUJVekdyMA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Jerusalem Post",
-      "latestSinceUpdate": 2754
-    },
-    {
-      "date": "Nov 19",
-      "text": "Oil prices inch up due to tanker disruptions, offsetting a surplus supply outlook.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBtUDlUUFRpNG10b0liSVcyVlBGVVhLUDVkMURVbE5hcWhDMmNObDE0UGJWYzNOWC1ZclZQVGxxMWFiYzhpYTJOclltdjd4TE1VZ2tvSFQwUVpUNlByUDlyMnFZT3VwM2dNVkN2cGhsYzPSAXZBVV95cUxPOXR0UzdlXzhDZFRsSmFYZW1IckdsSWN3d1JQOU5WVVRBc2pqeERSbV95N0owa0J2TDdNUE5MUGlBMVJHSzRKVEprR0swb203SGt4b0FQU0xYTWhfSWdId3lnZ3hWazJ6SWhxckViUk1xdkd0dlZB?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CNBC",
-      "latestSinceUpdate": 2754
+      "date": "Nov 20",
+      "text": "Trump weighs strikes on Iran as Israel warns of chemical weapons",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPVVhsMGFnUEhueFlmbkpjTEdvbU1LVkxiUk8wVzhQMUZ2QlNfYUo2Nmh4N3dVSzI5ZXByTHpmdU9FNE9HaTloeTBGQU51cHNEbkZ0VEZJZFgxVWdoMFJKdDJkQk00a0Q0VXJlRmQ0RlJKX2RBalV4cy1ZaVVkeFE3bQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2755
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (18 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
