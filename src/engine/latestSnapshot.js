@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2757,
-  "lastUpdated": "2026-11-20",
-  "lastSyncedAt": "2026-11-20T21:00:45.829Z",
-  "warDay": 266,
-  "summary": "Tensions in the Middle East are escalating with Iran conducting attacks on shipping and US bases, while the US and Israel consider renewed strikes against Iran amidst concerns over potential unconventional weapons.",
-  "lastNarrativeUpdate": "2026-11-20",
+  "updateSequence": 2758,
+  "lastUpdated": "2026-11-21",
+  "lastSyncedAt": "2026-11-21T02:05:06.144Z",
+  "warDay": 267,
+  "summary": "The ongoing Iran war continues with intensified attacks in the Strait of Hormuz, US consideration of new strikes, and Israeli pressure for action, while Hezbollah shifts tactics in Lebanon.",
+  "lastNarrativeUpdate": "2026-11-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No ceasefire or de-escalation efforts are currently reported."
+    "summary": "No active ceasefire is reported amidst ongoing hostilities."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 88
+        "militaryPower": 90
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.88
+        "precision": 0.9,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.88,
-        "aggression": 0.9
+        "precision": 0.85,
+        "aggression": 0.8
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.7,
-        "aggression": 0.95
+        "precision": 0.65,
+        "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 92,
-    "oilDisruption": 90,
-    "tradeImpact": 81,
-    "sanctionsPressure": 65,
-    "globalPressure": 86,
-    "allianceInfluence": 51
+    "nuclearIndex": 30,
+    "escalationLevel": 85,
+    "oilDisruption": 80,
+    "tradeImpact": 73,
+    "sanctionsPressure": 64,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 19",
-      "text": "Iran Update, November 19, 2026",
+      "date": "Nov 21",
+      "text": "Trump suggests the Iran war will continue into 2027.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQanNWbEU4Q3FEOGNVSXdVTUl6Vkdva2xEOGZiTU1QZ1ZEc2w0VHY0MTY3dVhGVENVUUJoOVVISjVVeUFvSUNxRmlFdmFjaUxqendWNDNqUFlKX3hnR2lTZ0lqX3czRUlCMUxOTW1DeGpQQ1JpYkxQT1AyZ3dVT252dUYwTHRKQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2757
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2758
     },
     {
-      "date": "Nov 19",
-      "text": "The Iran war raised household costs in 2026.",
+      "date": "Nov 21",
+      "text": "The Iran war has raised household costs in 2026.",
       "severity": "info",
       "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNbGJFUG14UE9xYm1tMVRKR2hGN0lYel9jRUIwdlg4TThiODJ1MEJOQXZGdVAwRlZ1c0Y3LVl1ZUlhdjE4WTgtbVB6bGdzMk0zR3F4MDV5cVdHajYyN0NlbDFpN1lTekZKYVZ6bkN6Tjh0OWxabXd3cThpVXpmMG5CaDdEU3BYYWoxdkRReXZGS2E1eVhVUUg2QTZkYzIzSk02TEstaVNRS0hCcVd6eEMyV2NtUTJjV1VDX0NTaFRCWXlhaEI2d0VuYg?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Chase Bank",
-      "latestSinceUpdate": 2757
+      "latestSinceUpdate": 2758
     },
     {
-      "date": "Nov 18",
-      "text": "Iran Update, November 18, 2026",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxNMWlDdWU0eVJ5ZHV5VVh6cUJyRVE4ZXBEYVctSkFDd3FMZVM3aHdkM3ZNVjJwQ3ZxWnhEWFJqTVJuRXpSMXVBbzJjc0lVVWh0MURPdEZVMDhqUGZzSGtiRGt3NFdqVW1zSE0weUlJQ2VWMHRlcnBRbHl5YWFhd3lLZnUtR20tQQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Institute for the Study of War",
-      "latestSinceUpdate": 2757
-    },
-    {
-      "date": "Nov 19",
-      "text": "Houthis fire missiles at Saudi Arabia",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMivAFBVV95cUxNdEs4LUc1VGI2Tm03R05nd09BY1dtS0JLYmdlcFc3aUdjRG5SWFZaQzNodEVUc0RZRkRtMHBKSG1fLWh6djZ1Wk9FcXdvVm9MYk5KNks3RzM5LWE2T0haMVhIUDdObldxY1RWN3FMVkx5YlFqMm5lUUtCZFR2Q1lMLVlkcnhMV2x5cTBfMlpwaUxGRmNLQnVTa2tEOG94Q000Mjh5NGVGNkZSX3p2QjZteHBBN3RXc1BkSC1YVtIBwgFBVV95cUxPSk1uX1YxaDVmUW9qQzU2TWZPSE5CY0JmRnJxT2h0dVQtV2dZWGpuS2Q0UWE4NFhfM1pjWkFzWU5IclVuaGdNZXJqTEx5Y0ZfbFN3dHNvYUVmTzMzb1FheXZHNFN3LUdWTDJoM21nOXpOX3BNQ1ZreHlXUXhlMjdHNjBVcHNpUWVLT3hVbXN4UlBOSEMxWEUtcjJJTnFrYzg3bmd0ZXNoSkFNOTNacHBXamJBNEpEX2dyNlZVNW1hNnp4UQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "Nov 21",
+      "text": "Hormuz attacks intensify as efforts to end the war on Iran stall.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOajZFRE5qcjI5WGVBUWVORmRYZ01xNzFGS0RvR01PLVY4UEx1dUFwQ3FkZlA4QWNOeTJSR0NUVUZQcVR1UjdaVmNBRU1yZ1ZuT2gyWDkzRlA1MUE0MXkwU3NEdWJWbzNodU9nY1pLU0VyT0pRQ0FjbVdEcFFSVEMxNnNHSjRHdmNUZmVGNjd3ZV9YTTJpc2U4dTRJUHBJOUlMendhONIBqgFBVV95cUxOVTdCRlJ6b1lUaVNqQlB0cERHWTB3TG5sRl9nSURfalAzZEJOTi1Ba3dkNmQ5ZGFoelJVMUhDY0l3QzQ2bWhFcUlfalkycDIyRFFiNGpaMGdSRl9pRHFpTGh6YXZJb0MwdGx1T1E1SDd3NjhkNmc0QlZibTdVbzBQNUdYQ0k4eHQ2TjJ6Y05lMW5FRHVEd3Nfdi1KZE1CdmthbDNMeHZjelVoUQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2757
+      "latestSinceUpdate": 2758
     },
     {
-      "date": "Nov 19",
-      "text": "Trump Weighs New Strikes on Iran as Israel Presses for Action",
+      "date": "Nov 21",
+      "text": "Trump weighs new strikes on Iran as Israel presses for action.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE1TOTFWdU93OVF0V1d3QTZ4elZ2SHRiV0RzRmxjM3J2aTZuR3RyNlRWVmN2akRqUTcxVGpRM1dOZmFrelB4cGw3eWRha2F5TmI5SXpRdDFUZEwta3VSTUxQOTd3NGhGVnY1VUlnaWdVazFLVGhpUmlBck9xSmVzdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The New York Times",
-      "latestSinceUpdate": 2757
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPVVhsMGFnUEhueFlmbkpjTEdvbU1LVkxiUk8wVzhQMUZ2QlNfYUo2Nmh4N3dVSzI5ZXByTHpmdU9FNE9HaTloeTBGQU51cHNEbkZ0VEZJZFgxVWdoMFJKdDJkQk00a0Q0VXJlRmQ0RlJKX2RBalV4cy1ZaVVkeFE3bQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2758
     },
     {
-      "date": "Nov 19",
-      "text": "Trump says Tehran may be working on chemical or biological weapons",
+      "date": "Nov 21",
+      "text": "Israel warns of chemical weapons use as Trump weighs strikes on Iran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMilgFBVV95cUxNczRzemtDSHlJLXZIOHl1WHVMYUZkLTFMd1Z4TDJHNWhDa2E3djdWWnM4MXlwbXpnYjNyUU9TcXR6YjhsOWRVS29ub25Dd0pLVWNZRFZWR25CdnNxeTQ4VDRYX2g1dlFqZmQ1N1o1WWowQk5XRTJvSnhwWENzaXlBSF83RW5kbE5FelFKa0J2dnlhQVJJTkE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "CBS News",
-      "latestSinceUpdate": 2757
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2758
+    },
+    {
+      "date": "Nov 21",
+      "text": "Israeli Spy Chief pressed for renewed Iran strikes during U.S. visit.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2758
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (20 headlines)"
+      "status": "ok (19 headlines)"
     },
     {
       "source": "GDELT",
@@ -139,25 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "US and Israel escalate pressure on Iran",
-      "summary": "The US and Israel are considering and executing strikes against Iran, viewing Iranian actions as a threat to regional stability and US interests. Israel is actively pushing for more aggressive joint action and considering indefinite security zones in neighboring territories.",
+      "perspective": "US/Trump",
+      "headline": "Trump Considers New Strikes, Sees War Continuing",
+      "summary": "President Trump suggests the Iran war will extend into 2027 and is reportedly weighing new strikes, stating that Iran is unwilling to agree to terms acceptable to him.",
       "tone": "defiant",
-      "latestSinceUpdate": 2751
+      "latestSinceUpdate": 2758
     },
     {
-      "perspective": "Iran/Allies",
-      "headline": "Iran warns US, continues retaliatory strikes",
-      "summary": "Iran is engaging in retaliatory strikes against US targets and Gulf shipping, warning the US against miscalculation. Hezbollah maintains its stance against disarmament while Israel occupies Lebanese territory, indicating continued regional resistance.",
-      "tone": "defiant",
-      "latestSinceUpdate": 2751
-    },
-    {
-      "perspective": "Global Concern",
-      "headline": "Strait of Hormuz incidents raise global alarm",
-      "summary": "The escalating tit-for-tat strikes between the US and Iran, particularly those impacting shipping in the Strait of Hormuz, are raising fears of a wider regional conflict. This situation poses significant risks to global oil trade and stability.",
+      "perspective": "Israel",
+      "headline": "Israel Presses for Action, Warns of Chemical Weapons",
+      "summary": "Israel is actively pressing the US for renewed strikes on Iran, with its spy chief visiting the US, and has issued warnings regarding potential chemical weapons use. Israeli forces have also struck Hezbollah strongholds in Lebanon.",
       "tone": "anxious",
-      "latestSinceUpdate": 2751
+      "latestSinceUpdate": 2758
+    },
+    {
+      "perspective": "Iran",
+      "headline": "Iran Intensifies Hormuz Attacks, Claims US Drone Downed",
+      "summary": "Iran has grown more aggressive in the Strait of Hormuz, maintaining unrelenting attacks on ships despite increased oil traffic, and claims to have downed a US drone after a US strike on IRGC Qeshm.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2758
+    },
+    {
+      "perspective": "Regional/Hezbollah",
+      "headline": "Hezbollah Shifts Tactics Amid Incursion Fears",
+      "summary": "Hezbollah is reportedly shifting to guerrilla tactics and drone warfare in anticipation of a potential Israeli incursion, while Lebanon has charged several members with recruitment and arming others.",
+      "tone": "strained",
+      "latestSinceUpdate": 2758
     }
   ]
 });
