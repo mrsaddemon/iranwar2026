@@ -1,54 +1,54 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2758,
+  "updateSequence": 2759,
   "lastUpdated": "2026-11-21",
-  "lastSyncedAt": "2026-11-21T02:05:06.144Z",
+  "lastSyncedAt": "2026-11-21T09:38:31.165Z",
   "warDay": 267,
-  "summary": "The ongoing Iran war continues with intensified attacks in the Strait of Hormuz, US consideration of new strikes, and Israeli pressure for action, while Hezbollah shifts tactics in Lebanon.",
+  "summary": "The Iran war continues with US and Israeli considerations for new strikes, Iranian forces downing a US drone, and regional proxy actions escalating.",
   "lastNarrativeUpdate": "2026-11-21",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire is reported amidst ongoing hostilities."
+    "summary": "No ceasefire is currently active; conflict and escalation threats persist."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.75
+        "precision": 0.85,
+        "aggression": 0.88
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 82
       },
       "behavior": {
         "precision": 0.85,
-        "aggression": 0.8
+        "aggression": 0.88
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 72
       },
       "behavior": {
         "precision": 0.65,
-        "aggression": 0.8
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 30,
-    "escalationLevel": 85,
+    "nuclearIndex": 45,
+    "escalationLevel": 88,
     "oilDisruption": 80,
     "tradeImpact": 73,
     "sanctionsPressure": 64,
-    "globalPressure": 82,
-    "allianceInfluence": 46
+    "globalPressure": 83,
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,52 +59,52 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 21",
-      "text": "Trump suggests the Iran war will continue into 2027.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2758
-    },
-    {
-      "date": "Nov 21",
-      "text": "The Iran war has raised household costs in 2026.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiyAFBVV95cUxNbGJFUG14UE9xYm1tMVRKR2hGN0lYel9jRUIwdlg4TThiODJ1MEJOQXZGdVAwRlZ1c0Y3LVl1ZUlhdjE4WTgtbVB6bGdzMk0zR3F4MDV5cVdHajYyN0NlbDFpN1lTekZKYVZ6bkN6Tjh0OWxabXd3cThpVXpmMG5CaDdEU3BYYWoxdkRReXZGS2E1eVhVUUg2QTZkYzIzSk02TEstaVNRS0hCcVd6eEMyV2NtUTJjV1VDX0NTaFRCWXlhaEI2d0VuYg?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Chase Bank",
-      "latestSinceUpdate": 2758
-    },
-    {
-      "date": "Nov 21",
-      "text": "Hormuz attacks intensify as efforts to end the war on Iran stall.",
+      "date": "Nov 18",
+      "text": "Riyadh tower hit by Houthi attack, Saudi authorities say.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMipAFBVV95cUxOajZFRE5qcjI5WGVBUWVORmRYZ01xNzFGS0RvR01PLVY4UEx1dUFwQ3FkZlA4QWNOeTJSR0NUVUZQcVR1UjdaVmNBRU1yZ1ZuT2gyWDkzRlA1MUE0MXkwU3NEdWJWbzNodU9nY1pLU0VyT0pRQ0FjbVdEcFFSVEMxNnNHSjRHdmNUZmVGNjd3ZV9YTTJpc2U4dTRJUHBJOUlMendhONIBqgFBVV95cUxOVTdCRlJ6b1lUaVNqQlB0cERHWTB3TG5sRl9nSURfalAzZEJOTi1Ba3dkNmQ5ZGFoelJVMUhDY0l3QzQ2bWhFcUlfalkycDIyRFFiNGpaMGdSRl9pRHFpTGh6YXZJb0MwdGx1T1E1SDd3NjhkNmc0QlZibTdVbzBQNUdYQ0k4eHQ2TjJ6Y05lMW5FRHVEd3Nfdi1KZE1CdmthbDNMeHZjelVoUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceUrl": "https://news.google.com/articles/CBMivwFBVV95cUxNX3hoU3p6VWJpUkhrbEFfRUFuRzVhRGRtTkxWNGpQTTNialpfMGQweVA3UmlMbm85SjNiamZLLXprQlVMTGhtUmFfdFNmVVVhbERCSGZyb3h5dnptMER2WjVzeGlpNHJ1amtMOWtiSXZYSURqdGs5MWtiWnAtSER3UDJESEZ1a2NrZjBIYXNZb1RQQzl0X2tPTmpnbVd1LUEzRXdOeUJyOHd3Z0J2N3Z1Z0dfTGpjZDBFQ25BUmh0WdIBxAFBVV95cUxNeWVFLUZJMlkxRGZGNHRWNkZidXAwNk1jTElnX3o5d3pHRC03dENuSG4wdjhWY1A1ejhIMnk1MTBLRlg5LW9CQ0xqV0hZdWxNcTRMVkRnSm1aaFpsbTV2WmNUZzRrNTM2OVNpckhXX2VKNDh2MWV6R3RFeDNtc2dTTFR4bFhjbUJlbldiUHJYbjA3T1liWWpVa19qV2N3OHZZWXFTVjF0eGdyVWs5bUNFckRxM19GSk92SUZaT1RpYkYxR1NY?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2758
+      "latestSinceUpdate": 2759
     },
     {
       "date": "Nov 21",
-      "text": "Trump weighs new strikes on Iran as Israel presses for action.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPVVhsMGFnUEhueFlmbkpjTEdvbU1LVkxiUk8wVzhQMUZ2QlNfYUo2Nmh4N3dVSzI5ZXByTHpmdU9FNE9HaTloeTBGQU51cHNEbkZ0VEZJZFgxVWdoMFJKdDJkQk00a0Q0VXJlRmQ0RlJKX2RBalV4cy1ZaVVkeFE3bQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2758
-    },
-    {
-      "date": "Nov 21",
-      "text": "Israel warns of chemical weapons use as Trump weighs strikes on Iran.",
-      "severity": "critical",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2758
-    },
-    {
-      "date": "Nov 21",
-      "text": "Israeli Spy Chief pressed for renewed Iran strikes during U.S. visit.",
+      "text": "Iraqi forces set to deploy in stronghold of Iran-backed Kataeb Hezbollah.",
       "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2758
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPTlBsYk5vdFVMNUFOQ29Jb0VsNnZaVl9idWJaLXRxd1RaSV9fM1pvdHJDRk1jb2NzUkRSLVJzX0ZYOWh4ZDVxeWhEbjlGYmhYRndrQ3hERGlvdUtpenEyLWlyN1hGX2Z4VGxJUkNtNHA2dXJjTkFvbmRpa09TMWhaQ3JJcUJKTExkQW9tWTBWTTFXeTEtOVlOc29TSmtya200NEV5T3YxUlU2dHE3NW0wbmpRVDE0ZFJYYW96QW45aFBFUQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2759
+    },
+    {
+      "date": "Recent",
+      "text": "US says it hits IRGC Qeshm; Iran says US drone downed.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxOSVFjTXR2c2dUek5TbExaQzd1OUI5aFQxS3FsdUZPTktoTzE1Mmhwem5QQVQwQzN6cjh1WTVqMTI3OVhfVDlXazBCZi1qM01aajA4WXhPQnJvRU9uV0hrakRHU3BwaW5KN25ldG84MGI0TzJwMlU5Rk1uMERIcml0V1lJQTJzLXVBY0diOGtkeVBFeWhmMHQtY2YzT1VaMm91NEpGVkNoWGRKLVlYQlFyZNIBtgFBVV95cUxQV1lSbDdNZlJ2cm5FYVdNZ1pIdWc4UzZYQVlpVUlBOUZ5U3NRYU43QWlzek44X1dfdkhqTVBuaVNQUlFzM0NmcHNrcGE0YkN5b041U2g5eTdlTzEwQ2ZuTk5HSVJjcGxpX2t4U2ZqV21reENqODVjTDVUT0VqOEwtNzdTbV9nV1Q4YWtUTmhSUUxyUjdMNWhlWU8tVnNjUHI3NzdSRk5iRWluaF93enVZbU1WTnVRQQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2759
+    },
+    {
+      "date": "Recent",
+      "text": "Iran’s IRGC downs US drone over Hormuz as efforts to end war remain stalled.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMitwFBVV95cUxOV0s5elZpRk5PMWVjdWJna2RmUTBNNUVMWTA0dURwcUJIWEVRRUVDYWZYT2dNb1ZNc21taTVIZ0lKa2VGR3IyTk5oZG9HczJpc3ByX0Zra3p3NEMwM0ZGSlg4TnQyd1p0SUtEUWtwTjQyeUUtSWkwN0hmY0dacmJiOTlBSlNTVTRpeUZCcnRfckhHRWpqN05YVHhreTItaGhEVXlGTVdhMXM2TVFTY3kwVTFSN3VTNDDSAbwBQVVfeXFMTVNzaWs0TnJNaXpZYWV2T21kNUtCMEZaNFVEcFQxcFFXQnVMX3ZEY3lhRnJwY3R6bE9LLWgxVnotNEE4RXdnRlBZMzZMVkhrTjl0LUVYSk5Qc1l1b3FseHJOaFRJUkNMYjNwXzdWQlc4V0pxUTUyR0ZidFo5UWFZU1NwZnA2cXk0bkhXWWY0X2tsNDNHVW15a0c0cF9mdVRKa3VCVGRLczZBSk9MZDVHMFdIcGlZRlZtejVIQVY?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2759
+    },
+    {
+      "date": "Recent",
+      "text": "IDF strikes Hezbollah missile production site in Lebanon's Bekaa Valley.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFB0SVMyRTFpM09wUlF3WFV2VExjWDltZnRHSkdHa0JkYnoybjhFR3R3cmxBUW8zYXBUSEdCekh4cHRvUEM3VUdETU03Ulh4TFB6cElJdE9yNno5WkZadDRyeHhTRjUxejBlTXp2RXZR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2759
+    },
+    {
+      "date": "Recent",
+      "text": "Swimmer highlights Iran war’s wildlife impact and Hormuz contamination amidst tanker attacks.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMisgFBVV95cUxNX1N2Q090akpzNkl2d3NoWjl1QkVoN2JYd0FUSWJtdEZaa0NGUFVEZlc2RWdhVS12NDJpT1JGbkJ4U2pkVFBFaFFRTGJZV3d2d05oTlp3SFROWHB5S3lGVUFDWXR5cFY0QURBRHU0Mml4V1JkWFEwTnNxMS1fUmw2OXRYMktHOTBuWTRQWGhnOHRnbXNOSGYtU3Z2ajVDakdBNmRJTDNMOUhIYUFkUERka3Fn0gG3AUFVX3lxTE9TVXRfSG9SajJfd2xmQXh0Q0xtS3VnSmoxMjU4RlFOTDF4Y3cwM1JHdHl2Vlh6eUJQQThEVUU5WVNmWGYwUmdaU0VDaUE2T3N0T0RfUHZfZmtKdjJ1NFVGQ082VU1EN3hMclloVEthNExrOG9KbEdOVHBMbFBTMG5mT0gzX2R0OUtaZ1Y5a3N6NUVqRFppUHp6eWdRVi1yb1RDMWxDZkhvYVJ2UDZyWjhvUXRETkJNNA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2759
     }
   ],
   "sourceStatuses": [
