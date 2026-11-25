@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2771,
+  "updateSequence": 2772,
   "lastUpdated": "2026-11-25",
-  "lastSyncedAt": "2026-11-25T03:48:12.702Z",
+  "lastSyncedAt": "2026-11-25T13:36:08.965Z",
   "warDay": 271,
-  "summary": "Tensions remain high in the Iran conflict with reports of potential US-Israeli strikes, Iranian chemical weapon development claims, and regional instability, while oil markets react to supply dynamics and Gulf attacks.",
+  "summary": "The Iran conflict continues on War Day 271 with ongoing US military involvement, Iranian defiance, regional tensions including maritime incidents in Hormuz, and accusations of chemical weapons development.",
   "lastNarrativeUpdate": "2026-11-25",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire or de-escalation efforts are reported."
+    "summary": "No active ceasefire is reported amidst ongoing conflict."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.7
+        "precision": 0.75,
+        "aggression": 0.85
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 80
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.75
+        "precision": 0.75,
+        "aggression": 0.78
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 72
       },
       "behavior": {
-        "precision": 0.5,
-        "aggression": 0.7
+        "precision": 0.55,
+        "aggression": 0.85
       }
     }
   },
   "global": {
-    "nuclearIndex": 60,
-    "escalationLevel": 80,
-    "oilDisruption": 65,
-    "tradeImpact": 61,
+    "nuclearIndex": 45,
+    "escalationLevel": 82,
+    "oilDisruption": 85,
+    "tradeImpact": 76,
     "sanctionsPressure": 63,
-    "globalPressure": 78,
+    "globalPressure": 82,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 23",
-      "text": "Iran Update, November 23, 2026",
+      "text": "General update on the Iran conflict.",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQd0VKNG41X05zSV9uTTEwNWJKVkJOMHU1WXpCa2kyN3lNcnBMVjVOREdKM1ZRMFZlYjExWlZwQzBDX1AxREZSTTVmaVhJYVBIeFFrMTFMRV9kUENna3dLcGR4S3FDOGlHNkdubVl0S0poSl9GYl8ySVJpejBKNWdsX1hPNUJUZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2771
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxQZHA0RFZVTGhlRzdURGY4TEpUQVI0UUt6aUVyT25uZTZKTXJBdTJETUUwMkstVlp0Ujh3V0FSRGEzeDc0T0RBQkZpOHVJLUs5QmVrWXdGUXJWbDh6MjY1VnViTmVOelVZXzJYRVdBY0M2b1BHR0lTdEwtbHVPTV8wMHNveTVvX1dnVW5rT2tTMDRrd3pfS0JuYUh3?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "KUTV",
+      "latestSinceUpdate": 2772
     },
     {
       "date": "Nov 25",
-      "text": "Saudi-led coalition orders evacuation of Hodeidah Port",
+      "text": "Poll indicates US voters desire an end to the Iran war.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitAFBVV95cUxQQm1YOEowMHlEOEFfUDVPVFdFTUFxZzlzd2FTLThDN0hLQmNDaThpZEh1b3BHckMyWE9xcFVkQnB6ZmdOa0lyaS00QTNLT3QwMmkzNXJSTU9YR3ZQQko3c19fLUJjN3liOF91aXp5YU9YQWxDM05TRmhZUjJpcDV0WDZBRVRNY0VMMHA4R1lubzAyR3p6ZzU5WmNETmoyZXJTamVrOEc1Uy13X3JhNzYyN1N2VUTSAboBQVVfeXFMUGMwekN3LWRnMU9RSWQxT292VlZvWWlXY0NEWmJGUmExMWg0RmJLc3hXanhKek9Od042RFVIaEMyVHhmcklVQnJ4TWV2ZmtsTmhuaHY2S2NXODNLcGpnM1B0cEh2SjhhbGhOSk5IU0VqYkNIREItczFWaDdibDlNckNWQnc3RExuWk4yZnRway1jMi1Ra2ZHQU11N1hPdVVHQTlzZHpRRF9NcWd1ZVVjR1JXSC1pRkJLOERR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2772
+    },
+    {
+      "date": "Nov 25",
+      "text": "Iran states preparedness to withstand US blockade and efforts to control price rises.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOQUtreFI1ZkdfaWRTMFJZWElnOFJtM2E1ZlZ6OVhiSDlVTnFOLVQtZTExQWZjbWRvRjR0SFJ3ZUotcEV5Z3RFaE5Wb1RsUEFSdUVoVUhvaXU1bFFNckhHcHdDZjdkRTNMUVlzR0ZVcUx1VWRLeV9DSnFtQjJrOUU1NjJSM1VyTEc3QUltV2p6bFpvSGVLd3dKMXRkaXpnVEJrUWcycHI5UVBNOTAwWTIzTTloYlZSeXpiUjJIcS1HOWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2772
+    },
+    {
+      "date": "Nov 25",
+      "text": "Israeli defense minister alleges Iran is developing chemical weapons.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxORUlsRWg2Szd1Z3JjWkRCcFVMdTh1cDhrT0lxUEZ0UXRHVjZ5QWJaSWRFVmxfT2Nlcnp5UjZPOG9MaFE0SmZ5UndIejdacWRYT3hGVHZiNVQ1a1lOa0tUZVdjRm1rVDZkMWRPTWd2R0JLamZfYm1lcEREbE12ajRCNTZSdERlMFpObDVFSkowV2h3THRkdlFoMUxR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2772
+    },
+    {
+      "date": "Nov 25",
+      "text": "Trump states war is funded through January; Houthis claim new attacks.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNZ2VLZ21qM3Z5ajRWcGFjUDQzd2o2UzZSekRtckRvS21LTWlaZEUxamJjUzRkaDNhZWhRQzQ3QWltSFBNdzhEUEZGb1hPZkJYUndJM2RwZXJjYW5YSjJkQS1pejR3UHUwUzNIbFJwc0E3Yy1BNV9LQlE2Q2tVakpmRkhWYmdMdWJGY00wcTctbGZtdmhiRGNJeVV5Y19YMDh2QVR3WHQ1b0QzOGxRWlNXMnhHMEFkX2lUbnFuRmswdFRlQdIBxwFBVV95cUxNVUZPQXI4U2hVN2N4TVJiSkNtTUJiWGxCVjFpUHJQSXcyV0gzdWpTWjR2dDhJSVpBNWFOODNZMWdGb2U5QTJxMlN3WDFyd19TYzN1VERuc0FOOTgzLXVRY0x3UFpTM1o1SEY5dDFQaXhiS0RXcEhwSUg0U2tWeEFQaVU4YkVTbXd0c2xaZ0ZvRUl5ZHJHU3p3RFBadXg1U1JCVVBEbGluMHlLaFdIMUR5c09yc1RZc3hmcm13Y3JSUzBockgyTVRN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2771
-    },
-    {
-      "date": "Nov 25",
-      "text": "Iran carries out flogging of singer and her team, Iranian website says",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMivgFBVV95cUxQaTdQZHhWWEpadDE4WGc0WkR4ZW5Ud3pHQ3dKS2xaUGtMdGNnd0JKRC1sNk1qUUt4MG9UUGJlRU91NlJiVHhHNFVZWWluTjJpMWVmNkwtNTYzN0g5cFZVNVg4ZWFCYTRaQlNQWTU0djI4bTZBUnBWNmVIWjF3ZEFfYVp3UVJEdml1c0xEVkxSYzh1UlNNU3BiaG53Z2ctRExWLXVMNENwdjVPNEoxZ25vX2FvUjZGNmk2eGZjeGRR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2771
-    },
-    {
-      "date": "Nov 25",
-      "text": "Tehran says US drone downed near Hormuz",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxPbWR0bkU2OVhEblItVlJfdGlxNUZlQnBvWVVWNHJjSnJPMnRUME5MVXY5YzdhNExQUlZHUVBwd3BOV2hkVGpQcWtnMk5INXpQY1h2cExKbFp3ZkZzdDdzcUtjS2VscW9nT2xYTDZQVFFna0hGVS03TFl5TjhzeEM3OXprQVhSY3RkdGNtbU8yYXpfbEFwdDc0b3Y0cVZXSVQtZ01kUnByN0UtbzRDNEIyZzRQTlJ2WDRwa1NzR3FjZEd2QdIBxwFBVV95cUxQNHRSVHZFNHItUDVzcEpweTlRMUREajZzbk1tYVZCQ24zLW9ldk1ETEx1VFdaWXNRTHBqdTJTdzJySElXYzdIUnN1dUVUbUtyYVZ4azhNb3VoWFhjeTdvVnpZZHQ5SWNnb0todUtKUV9HSVBpOW9QMVRaNmZJTno5RUZuTHotRlZjZFNzRFo1NVJ5YUp1c3FOcXVjWERSZFRhZGtlQmgxb0ZCQW1xb3JBZnVycUVOZ2FSS3hDMzhFZDBmZi0tVXFJ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2771
-    },
-    {
-      "date": "Nov 25",
-      "text": "IDF Intelligence Warns Israeli Strike On Iran Could Trigger Multifront War",
-      "severity": "critical",
       "sourceUrl": null,
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2771
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2772
     },
     {
       "date": "Nov 25",
-      "text": "US and Israel are warned against launching fresh strikes on Iran",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiowFBVV95cUxQNjNEZzBoMS1CdTRMRGxWd3JXWDN5V2hmcWxmQ1hQNDkxanllSEQ2elo0NEZEWFRnMjRGV2JhNHpSeXJ1Q2tKRjlMamtEYThlLWpnSXFTYVVmSzNLVVUzWnFOWFdyYTRxc25jVjFTNE5JRTBITmRMUllIQm1WRWFpMUY5ZEtXTlVpdXhNNkZBNWFKZnBTYzFmY085Um1MU2dYWWs4?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2771
+      "text": "Iran reports three tankers hit mines in Hormuz despite US escort, as Treasury expands sanctions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9aSnVNOTQ5Ml81YUdQSkxzbkI0bVF5OUV4RndqcjVrWkM1SGw4V0tZOVJEbGRmTGgybGxfTUwzRVNISTRFUmxkX0cydWlPcVRCN2dIWFFfaklmbk40ZnptNVMxUURLdWFoRUtUNkNR0gFzQVVfeXFMTVY0aG5JUVJlODBXb0tvdmJTRjJoV2R2Uk9TMVpKcFdpLVpTUThDU3MzcGw3RnVmanBjQ1VNRFlkRi1JZUMxMDRNcWFXLVJoNlo4dVB6VU91V2tYRnpDU1oyekUxaWQwdlBXbGJoZ1ZlSGNKcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2772
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (16 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
