@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2773,
-  "lastUpdated": "2026-11-25",
-  "lastSyncedAt": "2026-11-25T22:42:36.038Z",
-  "warDay": 271,
-  "summary": "The conflict involving Iran, the US, and Israel continues with reports of planned strikes, maritime incidents in the Strait of Hormuz, and claims of chemical weapons development.",
-  "lastNarrativeUpdate": "2026-11-25",
+  "updateSequence": 2774,
+  "lastUpdated": "2026-11-26",
+  "lastSyncedAt": "2026-11-26T04:29:14.667Z",
+  "warDay": 272,
+  "summary": "Tensions in the Middle East remain high with ongoing attacks on oil infrastructure, warnings of potential Israeli strikes on Iran, and US military movements in the region.",
+  "lastNarrativeUpdate": "2026-11-26",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No active ceasefire or de-escalation efforts are currently reported amidst ongoing hostilities."
+    "summary": "No active ceasefire or de-escalation efforts are reported; regional tensions remain high."
   },
   "actorOverrides": {
     "usa": {
@@ -18,7 +18,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 85
       },
       "behavior": {
-        "precision": 0.85,
+        "precision": 0.7,
         "aggression": 0.8
       }
     },
@@ -27,28 +27,28 @@ export const LATEST_SNAPSHOT = Object.freeze({
         "militaryPower": 75
       },
       "behavior": {
-        "precision": 0.8,
-        "aggression": 0.85
+        "precision": 0.6,
+        "aggression": 0.7
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 65
+        "militaryPower": 60
       },
       "behavior": {
-        "precision": 0.6,
-        "aggression": 0.75
+        "precision": 0.4,
+        "aggression": 0.6
       }
     }
   },
   "global": {
-    "nuclearIndex": 45,
-    "escalationLevel": 85,
+    "nuclearIndex": 35,
+    "escalationLevel": 80,
     "oilDisruption": 90,
-    "tradeImpact": 80,
-    "sanctionsPressure": 64,
-    "globalPressure": 84,
-    "allianceInfluence": 51
+    "tradeImpact": 79,
+    "sanctionsPressure": 63,
+    "globalPressure": 82,
+    "allianceInfluence": 46
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 23",
-      "text": "General update on the ongoing Iran war situation.",
-      "severity": "info",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2773
-    },
-    {
-      "date": "Nov 25",
-      "text": "Saudi-led coalition orders evacuation of Hodeidah Port amidst regional tensions.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNZ2VLZ21qM3Z5ajRWcGFjUDQzd2o2UzZSekRtckRvS21LTWlaZEUxamJjUzRkaDNhZWhRQzQ3QWltSFBNdzhEUEZGb1hPZkJYUndJM2RwZXJjYW5YSjJkQS1pejR3UHUwUzNIbFJwc0E3Yy1BNV9LQlE2Q2tVakpmRkhWYmdMdWJGY00wcTctbGZtdmhiRGNJeVV5Y19YMDh2QVR3WHQ1b0QzOGxRWlNXMnhHMEFkX2lUbnFuRmswdFRlQdIBxwFBVV95cUxNVUZPQXI4U2hVN2N4TVJiSkNtTUJiWGxCVjFpUHJQSXcyV0gzdWpTWjR2dDhJSVpBNWFOODNZMWdGb2U5QTJxMlN3WDFyd19TYzN1VERuc0FOOTgzLXVRY0x3UFpTM1o1SEY5dDFQaXhiS0RXcEhwSUg0U2tWeEFQaVU4YkVTbXd0c2xaZ0ZvRUl5ZHJHU3p3RFBadXg1U1JCVVBEbGluMHlLaFdIMUR5c09yc1RZc3hmcm13Y3JSUzBockgyTVRN?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2773
-    },
-    {
-      "date": "Nov 25",
-      "text": "Iran states preparedness to withstand a US blockade and seeks measures to curb price rises.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOQUtreFI1ZkdfaWRTMFJZWElnOFJtM2E1ZlZ6OVhiSDlVTnFOLVQtZTExQWZjbWRvRjR0SFJ3ZUotcEV5Z3RFaE5Wb1RsUEFSdUVoVUhvaXU1bFFNckhHcHdDZjdkRTNMUVlzR0ZVcUx1VWRLeV9DSnFtQjJrOUU1NjJSM1VyTEc3QUltV2p6bFpvSGVLd3dKMXRkaXpnVEJrUWcycHI5UVBNOTAwWTIzTTloYlZSeXpiUjJIcS1HOWQ?hl=en-US&gl=US&ceid=US:en",
+      "date": "Nov 26",
+      "text": "Yemen's Houthis claim attack on Saudi Arabia's largest refinery.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiywFBVV95cUxOakM0aVEtei1RVzZkTUVZYlFabWlDYWpzTktyaGU2WHZqaGRkU0hJOHdsNDFUdU5GYzNOYzdZYnkwWnFYZ2daNlNvYkJ3ZWNjeDNTRm5HOUFtNW5nRjNYSVpaaGF0SF9xbjN6S1FpbVJ6MmFBYkdUeF9CMTZKRUdJT2RITmVSelAzWUJtTEIxQTN5Ry1YZEczX29iOHVuc0Q1bllidlBoN0VDNWVzYzZqU2RaNm5JRUctRDdsdGt2ZkEydWRVMV9wQUdHYw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Reuters",
-      "latestSinceUpdate": 2773
+      "latestSinceUpdate": 2774
     },
     {
-      "date": "Nov 25",
-      "text": "IDF Intelligence warns that an Israeli strike on Iran could trigger a multifront war.",
+      "date": "Nov 26",
+      "text": "Another tanker reported on fire after hitting a mine in Hormuz.",
       "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwgFBVV95cUxNVTdVVzk0Mm1WUVZsbG40MGM3bGNpak9OMG5GZ05lRHdaT2wyajBla0pxckk0VTkwbDNHYnJSWF9iUl9CcUlXc1RpTHRqTElvRlJkWWVZVFgtUjdqMkFuamRTNndJWlQwQlJnd1ZkUGhZSUxDYjFnbmpjeUpNcmdyZGFCaFZFUmk4LVpoZjNUT01rRFljR0tvTHlVYjFvQURhTnZzYllXUmRBa21FQmhMaEJ2UXowRTRJUmxQNmFJbG1Sd9IBxwFBVV95cUxQWkFuZzJxdC1jMmtReDZjZURsbFlUNV9TVXNFajZKWGxEVUZqSmp6eUhOUFJJajRhclBibjdUY3JIYWItRkxsSmhFRWZLU2ZJUFRfT2MxamJVSHhieXQwZ0c3cDNyX0RfcUY2YVNHampybkU4LURUaDFyWng3M0x2Y0J4ZFNrWkx3cHV1V3U5SXE1R3drc3hPS21HbHIwX1pMVWphdUdURmZVN3NPbUMtSzdXbUNQenJVNFV0RXV1dGxnNjYxSG1v?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2774
+    },
+    {
+      "date": "Nov 26",
+      "text": "Iran claims three tankers hit mines in Hormuz despite U.S. escort.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9aSnVNOTQ5Ml81YUdQSkxzbkI0bVF5OUV4RndqcjVrWkM1SGw4V0tZOVJEbGRmTGgybGxfTUwzRVNISTRFUmxkX0cydWlPcVRCN2dIWFFfaklmbk40ZnptNVMxUURLdWFoRUtUNkNR0gFzQVVfeXFMTVY0aG5JUVJlODBXb0tvdmJTRjJoV2R2Uk9TMVpKcFdpLVpTUThDU3MzcGw3RnVmanBjQ1VNRFlkRi1JZUMxMDRNcWFXLVJoNlo4dVB6VU91V2tYRnpDU1oyekUxaWQwdlBXbGJoZ1ZlSGNKcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2774
+    },
+    {
+      "date": "Nov 26",
+      "text": "IDF Intelligence warns an Israeli strike on Iran could trigger a multifront war.",
+      "severity": "warning",
       "sourceUrl": null,
       "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2773
+      "latestSinceUpdate": 2774
     },
     {
-      "date": "Nov 25",
-      "text": "Reports indicate the U.S. and Israel are planning for a possible post-midterms attack on Iran.",
+      "date": "Nov 26",
+      "text": "Israeli defense minister states Iran is developing chemical weapons.",
       "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTFBfUFZtRXd6TnpuQzBORzRVVl9IMG1uUnExaHFFUjNwVXdLM3ZvTTVxX09zMlBZNUJuclVhNHlsUjZCVzM4WHJOM0wyNF9kelR0T2pFLVFTSFplN1A1UkdsV2dHMEZLbW1UMWhCdVZiZnI?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NPR",
-      "latestSinceUpdate": 2773
+      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxORUlsRWg2Szd1Z3JjWkRCcFVMdTh1cDhrT0lxUEZ0UXRHVjZ5QWJaSWRFVmxfT2Nlcnp5UjZPOG9MaFE0SmZ5UndIejdacWRYT3hGVHZiNVQ1a1lOa0tUZVdjRm1rVDZkMWRPTWd2R0JLamZfYm1lcEREbE12ajRCNTZSdERlMFpObDVFSkowV2h3THRkdlFoMUxR?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CBS News",
+      "latestSinceUpdate": 2774
     },
     {
-      "date": "Nov 25",
-      "text": "Trump administration officials are reportedly debating targeting Iran’s leaders.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxObnRvWmtRUG1ocVlwLWNKNy1DZXd5LV9ldHdqMEdhZXVsVktfYml1RUZOSGpEcFAxS2QzYm4yZjlUY3N0b1EtUG9ZRGtLRWxvSjJvSmlVM2xhZ0NLaURlbGZMZzM5M1ZLMWYxMWloRXZVLTNWUDFmQjZoQy1JYW5iSktBRVB0TDhxZGh3MTlZeC0ybEF2MnF1Z0F2dkN6cVpmSVBvS3lEa3RsZjhwaFVwYTMzcFNwb09Fa3lQd2lCMktPa21NMUtjNl9Td0M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "NBC News",
-      "latestSinceUpdate": 2773
+      "date": "Nov 26",
+      "text": "Top US commander briefs Trump on Iran military options as 10 US military transport planes land in Israel.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMisAFBVV95cUxNaXg4cWkxb0hZU0FMMnRrNjNhd1VDLVJaN3h5UlhKZ0s4UEZTVmJMXy1YUDlZc2hySkJ2VjZYX1RLR3BuaF8zU0UxRDBMc3JqS0psbUFPdjU2dFRmeUY3dDN0T0RUMUJCdWVPX3VuZTB5dEV1WWN1T3kwdE1ESldvSXZCN2hjWGZ5LXlSM05hM0wzMkxweW9BcHVDNDdYMHRUSElNZ2hFYWFQY3RTeC1YdNIBtgFBVV95cUxQVGtUTHVaSDAyNGo0cUlROTcwWk5GYXRwUlZST214WUZuMmtKWmZic1pVM1k1UE8wcUM4OTJxMGM3WVE0WVd1WVF1amRGLUxKb0dBeTY0cE5sQlBHTDFSSEJoUlBmNW54MENFZHVOUkpvdEVIazgxRC1xdFZ6dXBrMmFPSXNFOWdiMFV2VlBJMk1qRVhaMjNzSmRELVVjODdzZ190ZlhNWkdKd29aQXRnTFVxSHI2dw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2774
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (16 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "unavailable"
+      "status": "ok (3 country baselines)"
     },
     {
       "source": "Our World in Data",
@@ -139,32 +139,32 @@ export const LATEST_SNAPSHOT = Object.freeze({
   ],
   "narratives": [
     {
-      "perspective": "US/Israel",
-      "headline": "US and Israel Plan Renewed Strikes on Iran",
-      "summary": "Reports indicate the U.S. and Israel are drawing up plans for renewed strikes on Iran following recent elections. Israeli intelligence warns that an Israeli strike could trigger a multifront war, while also claiming Iran is developing chemical weapons.",
-      "tone": "anxious",
-      "latestSinceUpdate": 2771
+      "perspective": "US/Trump Administration",
+      "headline": "Trump suggests limited window for Iran op, insists Hormuz secure",
+      "summary": "President Trump indicates the Iran conflict is 'funded' through January, suggesting a limited timeframe for new operations, while also stating the war will end soon and the US military insists Hormuz is secure. He is reportedly weighing strikes and being briefed on military options.",
+      "tone": "defiant",
+      "latestSinceUpdate": 2774
     },
     {
       "perspective": "Iran",
-      "headline": "Iran Claims Downing US Drone, Faces External Threats",
-      "summary": "Tehran claims to have downed a U.S. drone near Hormuz amid ongoing conflict. Internally, Iran continues to enforce strict social laws, with a singer and her team reportedly flogged.",
+      "headline": "Iran prepared for blockade, denounces US AI strikes",
+      "summary": "Iran asserts its preparedness to withstand a US blockade and seeks to curb price rises, while also denouncing US use of AI in strikes it claims violate international law. Tehran reports three tankers were hit by mines in Hormuz despite US escort.",
       "tone": "defiant",
-      "latestSinceUpdate": 2771
+      "latestSinceUpdate": 2774
     },
     {
-      "perspective": "Regional Stability",
-      "headline": "Lebanon Grapples with Iranian Influence and Border Security",
-      "summary": "Lebanese leaders express concern over Iranian influence and demand Israeli withdrawal, while the army arrests individuals accused of smuggling explosives from Syria. An analyst warns an IDF school visit could push Lebanese Christians towards Hezbollah.",
+      "perspective": "Israel",
+      "headline": "Israel warns of multifront war, Iran chemical weapons",
+      "summary": "IDF Intelligence warns that an Israeli strike on Iran could trigger a multifront war, and the Israeli defense minister claims Iran is developing chemical weapons. Discussions continue on whether Israel could strike Iran alone without US approval.",
+      "tone": "anxious",
+      "latestSinceUpdate": 2774
+    },
+    {
+      "perspective": "Regional Actors",
+      "headline": "Houthis attack Saudi refinery, Hezbollah demands operative release",
+      "summary": "Yemen's Houthis claim responsibility for an attack on Saudi Arabia's largest refinery, indicating continued regional aggression. Separately, the Hezbollah chief demands the release of five detained operatives in Lebanon, highlighting internal and regional pressures.",
       "tone": "strained",
-      "latestSinceUpdate": 2771
-    },
-    {
-      "perspective": "Global Economy",
-      "headline": "Oil Prices React to Supply and Gulf Attacks",
-      "summary": "Oil prices are edging lower despite attacks in the Gulf and Hormuz, as expanding supply and a perceived surplus weigh on the market. The ongoing conflict contributes to market volatility.",
-      "tone": "neutral",
-      "latestSinceUpdate": 2771
+      "latestSinceUpdate": 2774
     }
   ]
 });
