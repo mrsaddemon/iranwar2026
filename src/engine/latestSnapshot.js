@@ -1,7 +1,7 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2775,
+  "updateSequence": 2776,
   "lastUpdated": "2026-11-26",
-  "lastSyncedAt": "2026-11-26T14:18:32.824Z",
+  "lastSyncedAt": "2026-11-26T23:03:20.096Z",
   "warDay": 272,
   "summary": "The Iran war continues on day 272 with ongoing attacks, US defensive strikes in the Strait of Hormuz, and political debate surrounding the conflict and its future.",
   "lastNarrativeUpdate": "2026-11-26",
@@ -10,7 +10,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     "status": "none",
     "confidence": 0.08,
     "durationDays": 3,
-    "summary": "No ceasefire or de-escalation is currently in effect, with active conflict and escalating threats reported."
+    "summary": "No durable ceasefire signal was detected across the latest source mix."
   },
   "actorOverrides": {
     "usa": {
@@ -59,50 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 23",
-      "text": "Kuwait reports 4 injured during an Iranian attack on a vital site.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUHBLNS01bDVwTEVEWk1ZZktDNEZCc0l6SnJzZklteEZsV1NaLWV2NGFBQUFxT1kyTHJZSXhrMzIySDFySnZOSTZueDJuTElIYWRIOTFCWlZrc2RiYUdPNDNla1FwNWpZb2JkbDlFNVJadEtCa1B6VFZVdmdaS3hiTmJHS2dQWElXQTJWTnp2RmFFcTQ5dTR6MXBDYXlRM0dfVWtTYm9OTy0wZ3JxNUdISWV6cFJTdWlUNmVF0gHAAUFVX3lxTFBzd0RmSHRJLXFKcks2dndWNFlPdWRvdmVQc0ZWQVhmR0FXZ0h1NHJRcHdUZDFKQ3hwWHZyYngwZHNPU2Q0MDNJVFJmdDM3R2t6Y2g2ZjBOblJUWTh6d2cyTVV2YW1NRGZLejRxaUxtZGZjOXNuTVNKYlNwbFdaVVBsVzNSM1hzcUM5dkJvNXFEQjVvUVprRnB3SEE1RVRnR19hOVFVZ3RoMUVGQk43Z19xYk5CVTFscDYxRi1GNXNUdA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2775
-    },
-    {
-      "date": "Nov 23",
-      "text": "US officials confirm defensive strikes on Iranian targets in the Strait of Hormuz.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMimgFBVV95cUxOSlZQOGFnNWxyTG91ZkxGMkdDdlNhd1RuRUZzblYtZGxfOGpReXI2cE5oazAzZkFQRW96Y3VrUkdfenVFWWtPS1BfaFBYYWQ1WVBMVmpuaTZuU3llOGZNMF85QnVGRHAwZlphVWVoaDFiZWhoMWVjalhyTE5na3BVWjVHcmIyWDFoU0FnU2ZBaFZyOE5GRGJqQzdR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2775
-    },
-    {
-      "date": "Nov 23",
-      "text": "Iran states three tankers were hit by mines in Hormuz despite U.S. escort, as Treasury widens sanctions.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9aSnVNOTQ5Ml81YUdQSkxzbkI0bVF5OUV4RndqcjVrWkM1SGw4V0tZOVJEbGRmTGgybGxfTUwzRVNISTRFUmxkX0cydWlPcVRCN2dIWFFfaklmbk40ZnptNVMxUURLdWFoRUtUNkNR0gFzQVVfeXFMTVY0aG5JUVJlODBXb0tvdmJTRjJoV2R2Uk9TMVpKcFdpLVpTUThDU3MzcGw3RnVmanBjQ1VNRFlkRi1JZUMxMDRNcWFXLVJoNlo4dVB6VU91V2tYRnpDU1oyekUxaWQwdlBXbGJoZ1ZlSGNKcw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2775
-    },
-    {
-      "date": "Nov 23",
-      "text": "Oil prices inch back up as Iran and its Houthi allies escalate threats and attacks.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE05bmJOWEtxU1hnYmlGcXV2cHM2SzlfUnBhVUk3QklXMzFEd3Eyd1BhRmhORDBNM21BZmhfMnZObENxQTB4QWFDWnJwX0xhdnFUQmVkT1FSYnlBWUNsc0dtc1hVZTk5eDBMbEJDV2hNcl9qN2tEX2Q0RUl6N3pFdw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2775
-    },
-    {
-      "date": "Nov 23",
-      "text": "Trump administration officials are debating targeting Iran’s leaders and the war's funding through January.",
+      "date": "Nov 26",
+      "text": "Iran war live: Tehran denies carrying out drone attack that killed 2",
       "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMizAFBVV95cUxObnRvWmtRUG1ocVlwLWNKNy1DZXd5LV9ldHdqMEdhZXVsVktfYml1RUZOSGpEcFAxS2QzYm4yZjlUY3N0b1EtUG9ZRGtLRWxvSjJvSmlVM2xhZ0NLaURlbGZMZzM5M1ZLMWYxMWloRXZVLTNWUDFmQjZoQy1JYW5iSktBRVB0TDhxZGh3MTlZeC0ybEF2MnF1Z0F2dkN6cVpmSVBvS3lEa3RsZjhwaFVwYTMzcFNwb09Fa3lQd2lCMktPa21NMUtjNl9Td0M?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Google News",
-      "latestSinceUpdate": 2775
+      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUHBLNS01bDVwTEVEWk1ZZktDNEZCc0l6SnJzZklteEZsV1NaLWV2NGFBQUFxT1kyTHJZSXhrMzIySDFySnZOSTZueDJuTElIYWRIOTFCWlZrc2RiYUdPNDNla1FwNWpZb2JkbDlFNVJadEtCa1B6VFZVdmdaS3hiTmJHS2dQWElXQTJWTnp2RmFFcTQ5dTR6MXBDYXlRM0dfVWtTYm9OTy0wZ3JxNUdISWV6cFJTdWlUNmVF0gHAAUFVX3lxTFBzd0RmSHRJLXFKcks2dndWNFlPdWRvdmVQc0ZWQVhmR0FXZ0h1NHJRcHdUZDFKQ3hwWHZyYngwZHNPU2Q0MDNJVFJmdDM3R2t6Y2g2ZjBOblJUWTh6d2cyTVV2YW1NRGZLejRxaUxtZGZjOXNuTVNKYlNwbFdaVVBsVzNSM1hzcUM5dkJvNXFEQjVvUVprRnB3SEE1RVRnR19hOVFVZ3RoMUVGQk43Z19xYk5CVTFscDYxRi1GNXNUdA?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2776
+    },
+    {
+      "date": "Nov 26",
+      "text": "Iran says it is prepared to withstand US blockade, seeks to curb price rises",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiwAFBVV95cUxOQUtreFI1ZkdfaWRTMFJZWElnOFJtM2E1ZlZ6OVhiSDlVTnFOLVQtZTExQWZjbWRvRjR0SFJ3ZUotcEV5Z3RFaE5Wb1RsUEFSdUVoVUhvaXU1bFFNckhHcHdDZjdkRTNMUVlzR0ZVcUx1VWRLeV9DSnFtQjJrOUU1NjJSM1VyTEc3QUltV2p6bFpvSGVLd3dKMXRkaXpnVEJrUWcycHI5UVBNOTAwWTIzTTloYlZSeXpiUjJIcS1HOWQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2776
+    },
+    {
+      "date": "Nov 26",
+      "text": "Iran Update, November 23, 2026",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMihgFBVV95cUxQd0VKNG41X05zSV9uTTEwNWJKVkJOMHU1WXpCa2kyN3lNcnBMVjVOREdKM1ZRMFZlYjExWlZwQzBDX1AxREZSTTVmaVhJYVBIeFFrMTFMRV9kUENna3dLcGR4S3FDOGlHNkdubVl0S0poSl9GYl8ySVJpejBKNWdsX1hPNUJUZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Institute for the Study of War",
+      "latestSinceUpdate": 2776
+    },
+    {
+      "date": "Nov 26",
+      "text": "Will Congress End the Iran War?",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMicEFVX3lxTE1BYy1SVndwYmpkRy13YnEtdkFPSHBjSE1pXzh6TXdzMHJ0UlhucUVZdDNHa3ZieGFLeC1hSjMtRG1FeUdwQy1SN2EtX1ljTEJydThMZjFXVVRuTExodnVBNC1Ic0d3SlUyLWhSR1BoMXo?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The American Prospect",
+      "latestSinceUpdate": 2776
+    },
+    {
+      "date": "Nov 26",
+      "text": "Can Israel Strike Iran Alone, Without A \"Green Light\" From Trump?",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": null,
+      "latestSinceUpdate": 2776
+    },
+    {
+      "date": "Nov 26",
+      "text": "Trump weighs strikes on Iran as Israel warns of chemical weapons",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPVVhsMGFnUEhueFlmbkpjTEdvbU1LVkxiUk8wVzhQMUZ2QlNfYUo2Nmh4N3dVSzI5ZXByTHpmdU9FNE9HaTloeTBGQU51cHNEbkZ0VEZJZFgxVWdoMFJKdDJkQk00a0Q0VXJlRmQ0RlJKX2RBalV4cy1ZaVVkeFE3bQ?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Axios",
+      "latestSinceUpdate": 2776
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (14 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
