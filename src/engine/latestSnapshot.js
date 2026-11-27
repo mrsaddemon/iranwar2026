@@ -1,53 +1,53 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2778,
+  "updateSequence": 2779,
   "lastUpdated": "2026-11-27",
-  "lastSyncedAt": "2026-11-27T14:54:03.946Z",
+  "lastSyncedAt": "2026-11-27T23:21:22.974Z",
   "warDay": 273,
-  "summary": "Tensions are escalating between Iran and Israel, with both sides issuing warnings and conducting military actions, while the US weighs potential strikes and advises against a 'wartime mindset'.",
+  "summary": "Increased tensions in the Middle East are marked by accusations of Iranian drone attacks, US naval blockades, and incidents involving tankers in the Strait of Hormuz, leading to concerns over oil supply.",
   "lastNarrativeUpdate": "2026-11-27",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No ceasefire or de-escalation efforts are currently reported amidst rising tensions."
+    "summary": "No active ceasefire reported."
   },
   "actorOverrides": {
     "usa": {
       "metrics": {
-        "militaryPower": 90
+        "militaryPower": 88
       },
       "behavior": {
-        "precision": 0.9,
-        "aggression": 0.7
+        "precision": 0.8,
+        "aggression": 0.75
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 85
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.85,
-        "aggression": 0.9
+        "precision": 0.6,
+        "aggression": 0.6
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 78
       },
       "behavior": {
-        "precision": 0.65,
+        "precision": 0.55,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
-    "escalationLevel": 85,
-    "oilDisruption": 70,
-    "tradeImpact": 66,
-    "sanctionsPressure": 64,
-    "globalPressure": 81,
+    "nuclearIndex": 15,
+    "escalationLevel": 82,
+    "oilDisruption": 88,
+    "tradeImpact": 78,
+    "sanctionsPressure": 63,
+    "globalPressure": 83,
     "allianceInfluence": 51
   },
   "alliance": {
@@ -60,57 +60,57 @@ export const LATEST_SNAPSHOT = Object.freeze({
   "recentEvents": [
     {
       "date": "Nov 27",
-      "text": "Tehran denies carrying out a drone attack that killed two people.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUHBLNS01bDVwTEVEWk1ZZktDNEZCc0l6SnJzZklteEZsV1NaLWV2NGFBQUFxT1kyTHJZSXhrMzIySDFySnZOSTZueDJuTElIYWRIOTFCWlZrc2RiYUdPNDNla1FwNWpZb2JkbDlFNVJadEtCa1B6VFZVdmdaS3hiTmJHS2dQWElXQTJWTnp2RmFFcTQ5dTR6MXBDYXlRM0dfVWtTYm9OTy0wZ3JxNUdISWV6cFJTdWlUNmVF0gHAAUFVX3lxTFBzd0RmSHRJLXFKcks2dndWNFlPdWRvdmVQc0ZWQVhmR0FXZ0h1NHJRcHdUZDFKQ3hwWHZyYngwZHNPU2Q0MDNJVFJmdDM3R2t6Y2g2ZjBOblJUWTh6d2cyTVV2YW1NRGZLejRxaUxtZGZjOXNuTVNKYlNwbFdaVVBsVzNSM1hzcUM5dkJvNXFEQjVvUVprRnB3SEE1RVRnR19hOVFVZ3RoMUVGQk43Z19xYk5CVTFscDYxRi1GNXNUdA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2778
-    },
-    {
-      "date": "Nov 27",
-      "text": "Iran warns on Gulf military presence as South Korea prepares an expanded naval role.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMixwFBVV95cUxNNjgyMVEwOUJRYll3NXdiU29vVVlmcGMxc3VhTGdEZ3BaZzZ0bUFtemt1c01oMXhjcHlJMEoxVWppTFV2YU12Qk4xRjlzVTNZaEVyR0dBZGtRNEdvaGhCTHhPY2VEVTUtZUw3a3dGekV4VTZkYmp3ZzFjVmxMRnliRmhwZmJOdkZhS3dBNWVfVkU4SjdObjF4WFY4Mmo4ZDlGWFcxYTZnMmVDUXN3NTVPY2lObHZlRFd0aXhjbTR0NXkwWkFkSHVr?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2778
-    },
-    {
-      "date": "Nov 27",
-      "text": "Israel is reportedly ready to strike Iran alone, prompting Iran to warn of expanded retaliation.",
+      "text": "Iran accused of deadly drone attack in Kuwait, sparking EU call to step up pressure on Tehran.",
       "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2778
-    },
-    {
-      "date": "Nov 27",
-      "text": "Trump weighs strikes on Iran as Israel warns of chemical weapons.",
-      "severity": "critical",
-      "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPVVhsMGFnUEhueFlmbkpjTEdvbU1LVkxiUk8wVzhQMUZ2QlNfYUo2Nmh4N3dVSzI5ZXByTHpmdU9FNE9HaTloeTBGQU51cHNEbkZ0VEZJZFgxVWdoMFJKdDJkQk00a0Q0VXJlRmQ0RlJKX2RBalV4cy1ZaVVkeFE3bQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Axios",
-      "latestSinceUpdate": 2778
-    },
-    {
-      "date": "Nov 27",
-      "text": "The US sends a message to Netanyahu to end the 'wartime mindset' as Israel remains ready to strike Iran alone.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMi0gFBVV95cUxOLTRiTlVacFNYemtZNDlidXpPb2t0Q19RM29tZFpjYVJnYWlZcEx6bHYwU1hHNzFPUGxGbUJzbjVFNEZlV3p1ZTJjeFhlRTZJTW1qNkwwT2c4dENCMElpWHNNS3gyS3hKWUlQajVLUEJzZkhTa3BLbnZldF95STg0YWdSRHNNeXFfUDB3NjlsS2N3STV4c2ZKNy1UYkVsUFY4WUlBcmd2YkFvbzc5LWtyRVhJNWZjeDRxb3U5SmZ3RVhULTFPT3JuaHhyaWlCUFVQZ1HSAeQBQVVfeXFMTjBsNlFrekdEZWVBUVBVQjc3S3hjSTg0blZPXzd4RVljN3kxYXNWVngtU1BGakpBYksxTlNTczF4X09PMGFpb2JZbDNYamVhQWptQjNZNUNqeW9INnh0ejVMNDRteG1JOGJwVDhBRHNtU1c3UmtxMFV4MHYzUGRRZFlON0Z4YkxNNm8xOHdPTG45WHRVbi1VVFNPc2FUMWdHREZQTG5HVTFJMlBSUmhQV1NGWl9rV1BTSl9xNndLZ1VBa1lSTElxNS1lN3Z1R05ubkxsS1BBR3FBZ0Q0NXl3RDdxVFRE?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Gulf News",
-      "latestSinceUpdate": 2778
-    },
-    {
-      "date": "Nov 27",
-      "text": "Iran is accused of a deadly drone attack in Kuwait, leading to an EU call for increased pressure on Tehran.",
-      "severity": "warning",
       "sourceUrl": "https://news.google.com/articles/CBMifkFVX3lxTE05bmJOWEtxU1hnYmlGcXV2cHM2SzlfUnBhVUk3QklXMzFEd3Eyd1BhRmhORDBNM21BZmhfMnZObENxQTB4QWFDWnJwX0xhdnFUQmVkT1FSYnlBWUNsc0dtc1hVZTk5eDBMbEJDV2hNcl9qN2tEX2Q0RUl6N3pFdw?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "CBS News",
-      "latestSinceUpdate": 2778
+      "latestSinceUpdate": 2779
+    },
+    {
+      "date": "Nov 27",
+      "text": "US military disables a vessel while enforcing a naval blockade on Iranian ports.",
+      "severity": "warning",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2779
+    },
+    {
+      "date": "Nov 27",
+      "text": "Oil notches its first weekly gain in November due to supply fears.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2779
+    },
+    {
+      "date": "Nov 27",
+      "text": "Iran states three tankers were hit by mines in Hormuz despite U.S. escort, as Treasury widens sanctions.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTE9aSnVNOTQ5Ml81YUdQSkxzbkI0bVF5OUV4RndqcjVrWkM1SGw4V0tZOVJEbGRmTGgybGxfTUwzRVNISTRFUmxkX0cydWlPcVRCN2dIWFFfaklmbk40ZnptNVMxUURLdWFoRUtUNkNR0gFzQVVfeXFMTVY0aG5JUVJlODBXb0tvdmJTRjJoV2R2Uk9TMVpKcFdpLVpTUThDU3MzcGw3RnVmanBjQ1VNRFlkRi1JZUMxMDRNcWFXLVJoNlo4dVB6VU91V2tYRnpDU1oyekUxaWQwdlBXbGJoZ1ZlSGNKcw?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "CNBC",
+      "latestSinceUpdate": 2779
+    },
+    {
+      "date": "Nov 27",
+      "text": "US military disables another ship attempting to breach naval blockade on Iranian ports.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMikAFBVV95cUxNLTNwS3dxbHJ1VUFOM3kxR3BiVnZDVjJKNkV2ZGd2UU5qVVNGZGFmd0Y1U0lNMENqVjRWLVdqTHRpVFVVT3ptUmNuZkd4NzRpb2hfNzgxY0t4S2dfYTlBVzhxbTFFZHJhczhmMTZFN01vcTJRaUZzX3NDWXlZLW1hNUhrSmlnRmkyUVpGSHhWNFk?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Yahoo",
+      "latestSinceUpdate": 2779
+    },
+    {
+      "date": "Nov 27",
+      "text": "The Iran war is reshaping the US military presence in the Middle East.",
+      "severity": "info",
+      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxOd1lWbk8tVk1NdEplNmRSV2VFb1RGampOZmZQVy00VUUyRHZsYURmWFF6N3ZpRUI5MW45Y01oUUFxeW1vVkNEaXo3c1dqU0JuYmZEOXlVOXlZSlV6S200OEJZQXZTV1RHZ1RQRi1FcGROTTc5cFNkV084VHFfTWJ4dUhCbzgwSlZzUnZiVUYwVDZ3R3hHYVZ3b0F2Y3J1NDVSdmhMQWdfQTYwREE5UXFpeFZGd2J6d9IBuwFBVV95cUxPRzF3TWtNM1BFSFdlbV9wb1dyUjBPak0wUFlVYU1NSHRlVHhJNTRUT0x2bWhYT0g1NUlhTXRCMTM3aG9SLWZsd0FyMWxLRllNWnlXejZVYV9VY3pndkk3am1TaHRlNTFEdGhUM1FzR0k1RmZHc2FhemN2a3lJZHdnUUdrOVpvTGJkRmpVRzlMc2tMWWhuWjJPemJXc1RMaFFJYllzUTR0QXJHMi13aWkxeDJIb0JjMndreExr?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Al Jazeera",
+      "latestSinceUpdate": 2779
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (6 headlines)"
     },
     {
       "source": "GDELT",
@@ -122,7 +122,7 @@ export const LATEST_SNAPSHOT = Object.freeze({
     },
     {
       "source": "World Bank",
-      "status": "ok (3 country baselines)"
+      "status": "unavailable"
     },
     {
       "source": "Our World in Data",
