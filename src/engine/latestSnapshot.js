@@ -1,16 +1,16 @@
 export const LATEST_SNAPSHOT = Object.freeze({
-  "updateSequence": 2780,
+  "updateSequence": 2781,
   "lastUpdated": "2026-11-28",
-  "lastSyncedAt": "2026-11-28T04:46:49.357Z",
+  "lastSyncedAt": "2026-11-28T13:41:37.307Z",
   "warDay": 274,
-  "summary": "Direct confrontation between the US and Iran is escalating over a naval blockade, with Israel threatening strikes and Hezbollah engaging in cross-border attacks.",
+  "summary": "US forces have repeatedly disabled ships attempting to breach a naval blockade on Iranian ports, while the US and Israel are reportedly planning renewed strikes on Iran amidst escalating tensions and Hezbollah activity in Lebanon.",
   "lastNarrativeUpdate": "2026-11-28",
   "ceasefire": {
     "active": false,
     "status": "none",
     "confidence": 0.08,
     "durationDays": 21,
-    "summary": "No active ceasefire or de-escalation efforts are reported amidst ongoing hostilities."
+    "summary": "No active ceasefire reported."
   },
   "actorOverrides": {
     "usa": {
@@ -19,36 +19,36 @@ export const LATEST_SNAPSHOT = Object.freeze({
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.7
+        "aggression": 0.9
       }
     },
     "israel": {
       "metrics": {
-        "militaryPower": 75
+        "militaryPower": 85
       },
       "behavior": {
         "precision": 0.8,
-        "aggression": 0.8
+        "aggression": 0.9
       }
     },
     "iran": {
       "metrics": {
-        "militaryPower": 60
+        "militaryPower": 70
       },
       "behavior": {
-        "precision": 0.6,
+        "precision": 0.5,
         "aggression": 0.8
       }
     }
   },
   "global": {
-    "nuclearIndex": 65,
+    "nuclearIndex": 60,
     "escalationLevel": 85,
     "oilDisruption": 75,
     "tradeImpact": 69,
     "sanctionsPressure": 64,
     "globalPressure": 81,
-    "allianceInfluence": 46
+    "allianceInfluence": 51
   },
   "alliance": {
     "russiaIntelSupport": false,
@@ -59,58 +59,58 @@ export const LATEST_SNAPSHOT = Object.freeze({
   },
   "recentEvents": [
     {
-      "date": "Nov 28",
-      "text": "US military disables a ship attempting to breach the naval blockade on Iranian ports.",
-      "severity": "warning",
-      "sourceUrl": "https://news.google.com/articles/CBMiygFBVV95cUxQR1B2RFZaTUhIUVFpQm5Vb3pOS2l5cW1XcU5STXJma1VfQWpYcno2bGNWN1dWakY4Ym9HbTFZQkVPNGk2R011SFppOXNnMFhlM0NhTVY5NUJGRDlCM3dtUkI1T0Q0bzZObGdpYjB4ODdKc3QxTW0wR29mcDZHY3JwTFZKTTlaZ2l2R2VJMklsb2h0M2ExTkFBQjNTbGJnR2hUMDdNdHloeHk4ZjFTUkI2ZFVaUkNqVUdrcmtFTzlvY3ZybUpVS0NXbFhn0gHPAUFVX3lxTE9UUEY1bWZtMVVXSXY5d2pRdHBYcnR1amgxZ3Jkc1I4R0owMThFbzltRzU0NWlMS0JBNUtlRlg4YmNrRml3cjZUaFoxQjJUdktYSkt3RWctVFdCWC1EanVLc2Q0REZSS20zMFRodV9OQkstNmItZl9YajA0OE9KeGM4NlF5QUhPbE5IMnh6ampFY01sQm1rYkFQcjh4anZzdkhjZkVJTl9OcjBaRjZ0VjNtZUJUaGtIbEQ0bVdOWFNDOHA4MXd0cjZvS0pEY1hySQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "PBS",
-      "latestSinceUpdate": 2780
+      "date": "Nov 27",
+      "text": "US forces disabled a ship attempting to leave Iran, as Tehran vowed to confront the blockade.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Reuters",
+      "latestSinceUpdate": 2781
     },
     {
-      "date": "Nov 28",
-      "text": "Iran vows to confront the US blockade following the disabling of its vessel.",
-      "severity": "warning",
-      "sourceUrl": null,
-      "sourceName": "Google News RSS",
-      "latestSinceUpdate": 2780
-    },
-    {
-      "date": "Nov 28",
-      "text": "Trump indicates funding for Iran war is secured through January, suggesting a limited operational window.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMirwFBVV95cUxNdk52RC04R2NiU2JhVmhoTWN0aUdFSHdPOWFmMXI3NXJHeU1JZ2gxbk9EVmxJc3BHZDV2UTkxUmdfLW1QUWFickwxSUtfRWlxYm43cl8yQjlybFZCOEt5RWtQcXgxUF9JY0M2a3hDbk1MTVBhTjdsSUduWGFQT21Fdm1jLXQ2OXEyLTBYSjJ5WldDVVN2cTU4dDRySHowVmZGcE9GcG1vVmRBV2hqNFhz0gG0AUFVX3lxTE5SdDgwNUlTeVJpVnJiTkNLSjRESGtoaUtzSG1VelpNVkppODFudHNmNHZDaUQzYmM2VFNoajVFNDljRm5qNW10dXh3OGJPWXBIakl5QkFfTHRONHVDNXFNZFA2bTBPWXhFclZmUWczUzhpdlhZMS1LUjhpSHA1NjJ1OC1qY0FrX09sbXVtMTJBS3BFZ2tJbkxOdF9MWXhoMkh6X1U5Wl80ZmtnZmw4WFBSWGk0eQ?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "The Times of Israel",
-      "latestSinceUpdate": 2780
-    },
-    {
-      "date": "Nov 28",
-      "text": "Iran denies carrying out a drone attack that killed two individuals.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMiuwFBVV95cUxOUHBLNS01bDVwTEVEWk1ZZktDNEZCc0l6SnJzZklteEZsV1NaLWV2NGFBQUFxT1kyTHJZSXhrMzIySDFySnZOSTZueDJuTElIYWRIOTFCWlZrc2RiYUdPNDNla1FwNWpZb2JkbDlFNVJadEtCa1B6VFZVdmdaS3hiTmJHS2dQWElXQTJWTnp2RmFFcTQ5dTR6MXBDYXlRM0dfVWtTYm9OTy0wZ3JxNUdISWV6cFJTdWlUNmVF0gHAAUFVX3lxTFBzd0RmSHRJLXFKcks2dndWNFlPdWRvdmVQc0ZWQVhmR0FXZ0h1NHJRcHdUZDFKQ3hwWHZyYngwZHNPU2Q0MDNJVFJmdDM3R2t6Y2g2ZjBOblJUWTh6d2cyTVV2YW1NRGZLejRxaUxtZGZjOXNuTVNKYlNwbFdaVVBsVzNSM1hzcUM5dkJvNXFEQjVvUVprRnB3SEE1RVRnR19hOVFVZ3RoMUVGQk43Z19xYk5CVTFscDYxRi1GNXNUdA?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Al Jazeera",
-      "latestSinceUpdate": 2780
-    },
-    {
-      "date": "Nov 28",
-      "text": "Israel warns of chemical weapons and states readiness to strike Iran alone, while the US urges an end to Israel's 'wartime mindset'.",
+      "date": "Nov 27",
+      "text": "Trump is reportedly weighing strikes on Iran as Israel warns of chemical weapons use.",
       "severity": "critical",
       "sourceUrl": "https://news.google.com/articles/CBMigAFBVV95cUxPVVhsMGFnUEhueFlmbkpjTEdvbU1LVkxiUk8wVzhQMUZ2QlNfYUo2Nmh4N3dVSzI5ZXByTHpmdU9FNE9HaTloeTBGQU51cHNEbkZ0VEZJZFgxVWdoMFJKdDJkQk00a0Q0VXJlRmQ0RlJKX2RBalV4cy1ZaVVkeFE3bQ?hl=en-US&gl=US&ceid=US:en",
       "sourceName": "Axios",
-      "latestSinceUpdate": 2780
+      "latestSinceUpdate": 2781
     },
     {
-      "date": "Nov 28",
-      "text": "Oil prices notch their first weekly gain in November due to supply fears.",
-      "severity": "info",
-      "sourceUrl": "https://news.google.com/articles/CBMitgFBVV95cUxPTzVQVzE5aGdzbGVhNEUtVl94M0V3RjN5Rks4UDU0U0plazFDcjFnUTBMMHBvdk9BRzFaVHljSXk1ZFdzSjlRTVRXNGZ0cnRyUWRRbFJaRjBsVWNFbDZqSnQ0cHo0TW5fRDlwMWlKWDI3V2ROcnlXczVET1RqSXR6UGtZSTZ0OTQtY1YwaG1yYTRwQnZ6TW43azNGNTFqMmpkNFhtbVJwRnVkVERhR1NnSlFIMzExZw?hl=en-US&gl=US&ceid=US:en",
-      "sourceName": "Reuters",
-      "latestSinceUpdate": 2780
+      "date": "Nov 27",
+      "text": "The U.S. and Israel are reportedly drawing up plans for renewed strikes on Iran following midterm elections.",
+      "severity": "critical",
+      "sourceUrl": null,
+      "sourceName": "Google News RSS",
+      "latestSinceUpdate": 2781
+    },
+    {
+      "date": "Nov 27",
+      "text": "Iran is suspected of a drone swarm repelled by the US military at a UK base this month.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMiZ0FVX3lxTE9CZFk4UWRnMUNBMTVOaHN1Qk9UU2Y2eWxjYk9ZcG5RT21HTFUtVThNLXlNbmRtcnc0LTRLRkJCUFEtUC11QkJQU3ZPQ2pwci1LRXVETkItc01sS0lzQlJMZU1yRmFXV3fSAWxBVV95cUxPTmdmVS1Ua0J6ZUY3Ty1xUV85RlF2VF9ibUxad0RPVGh3aUFUOG9LMnBYYk1abEpYUWp4dlRSNlB5cTFZSDA3bGx3ZEZfNUVINzVQUFhZR3dWY3ByQmpwMlFreHY2SS1OLXgxU08?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Times of Israel",
+      "latestSinceUpdate": 2781
+    },
+    {
+      "date": "Nov 27",
+      "text": "Iran is reportedly hitting the same ships twice to deter traffic from the Strait of Hormuz.",
+      "severity": "warning",
+      "sourceUrl": "https://news.google.com/articles/CBMihAFBVV95cUxNYzRHNFloazhBaUFycDBsWGVGbVhKQ3h2S1FEaG9MNDlLZUNnbzY4aHloeFI4RjlwOGFwQUowZHJ4aUtIcjZhOHZDd2FfMHN1aHBWSEpSYzBodXlOT3B4SWZBOUVCUzhaeTVSckxrVFBpVlQ5NnFwRDhYaUw3c3FKUDU0QUc?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "Financial Times",
+      "latestSinceUpdate": 2781
+    },
+    {
+      "date": "Nov 27",
+      "text": "IDF struck dozens of Hezbollah rockets and launchers at a Radwan Force training camp in Lebanon.",
+      "severity": "critical",
+      "sourceUrl": "https://news.google.com/articles/CBMibkFVX3lxTFBSTHRQbS1lNEN4YU1aNEFjZDlreG96ODgtZHFPcE83bTk3Y0JYUWN4RXBfa21qU0hLS2MzYUxiM0o0WDJYSmtPamFBYzktQ1lmenhnQ2dfT3Jkancycko3d2I1NU9ncGhaQTY4cV93?hl=en-US&gl=US&ceid=US:en",
+      "sourceName": "The Jerusalem Post",
+      "latestSinceUpdate": 2781
     }
   ],
   "sourceStatuses": [
     {
       "source": "Google News RSS",
-      "status": "ok (19 headlines)"
+      "status": "ok (20 headlines)"
     },
     {
       "source": "GDELT",
